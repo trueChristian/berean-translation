@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "a72be1e4c7c8401e9842885fb0dc9aaa",
   "campaign": "auto-526ac55410f8bd494e7caa18fade4603a76f4c281488e2dd067b56c0596a0e12",
   "created_at": "2026-10-29T12:25:57+00:00",
   "events": [
@@ -48,60 +47,31 @@
         },
         "total_tokens": 7519
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 65,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 33,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4877,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 3774,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 4942
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "translation.html، المقطع الأول من الترنيمة، السطران الثالث والرابع",
-      "severity": "major",
-      "source_quote": "In Thy pleasant pastures feed us,\nFor our use Thy folds prepare:",
-      "suggested_fix": "استبدل السطرين مع الإبقاء على <br> بـ: «أطعمنا في مراعيك الجميلة،» و«وهيّئ لنا حظائر غنمك:».",
-      "translation_quote": "فلتُطعمنا في رعياتك الجميلة،<br>\n    ولتُهيئ آواك لنا:"
-    },
-    {
-      "location": "translation.html، المقطع الثاني من الترنيمة، السطر الأول",
-      "severity": "major",
-      "source_quote": "We are Thine, do Thou befriend us,",
-      "suggested_fix": "استبدل السطر بـ: «نحن لك، فكن لنا صديقاً،».",
-      "translation_quote": "نحن لك، فارحمنا وتآزر معنا،"
-    },
-    {
-      "location": "translation.html، الفقرة الأولى",
-      "severity": "minor",
-      "source_quote": "Ellie edged her chair closer to the grown-ups",
-      "suggested_fix": "استبدل «اقتربت إيلي من كرسيها حتى صارت أقرب إلى البالغين» بـ«حرّكت إيلي كرسيها قليلاً نحو الكبار».",
-      "translation_quote": "اقتربت إيلي من كرسيها حتى صارت أقرب إلى البالغين"
-    },
-    {
-      "location": "translation.html، فقرة تفسير الأم لغياب الجد والجدة",
-      "severity": "minor",
-      "source_quote": "Did you know that Grandpas weren’t there today? At the last minute they decided to visit elsewhere this morning for church.",
-      "suggested_fix": "استبدل الجملتين بـ: «هل كنتِ تعلمين أن جدك وجدتك لم يكونا هناك اليوم؟ في اللحظة الأخيرة قررا حضور العبادة في مكان آخر هذا الصباح.»",
-      "translation_quote": "هل كنتِ تعلمين أن الجد لم يكن موجوداً اليوم؟ في اللحظة الأخيرة قرروا أن يزوروا مكاناً آخر هذا الصباح للكنيسة."
-    },
-    {
-      "location": "translation.html، فقرة تفسير الأم",
-      "severity": "minor",
-      "source_quote": "God knew what a little girl’s heart was desiring",
-      "suggested_fix": "استبدل «بما تتوق إليه قلب فتاة صغيرة» بـ«بما يتوق إليه قلب فتاة صغيرة».",
-      "translation_quote": "الله علِم بما تتوق إليه قلب فتاة صغيرة"
-    },
-    {
-      "location": "translation.html، المقاطع الأربعة من الترنيمة، جميع تكرارات النداء",
-      "severity": "minor",
-      "source_quote": "Blessed Jesus! blessed Jesus!",
-      "suggested_fix": "استبدل جميع تكرارات «يابسوع المبارك!» بـ«يا يسوع المبارك!».",
-      "translation_quote": "يابسوع المبارك! يابسوع المبارك!"
-    },
-    {
-      "location": "translation.html، المقطع الثاني من الترنيمة، السطران السادس والثامن",
-      "severity": "minor",
-      "source_quote": "Hear, O hear us when we pray.",
-      "suggested_fix": "استبدل السطر في الموضعين بـ«اسمع، أرجوك اسمعنا حين نصلي.» مع الحفاظ على فواصل الأسطر.",
-      "translation_quote": "استجب، يا اسمعنا حين نصلي."
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-29T19:43:40+00:00",
   "id": "57b25bc5b2900a474240c9498935d982",
   "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
   "language": "ara",
@@ -190,7 +160,7 @@
     }
   },
   "protected": false,
-  "quality_score": 91,
+  "quality_score": 99,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6.1-sol",
@@ -209,7 +179,7 @@
     "total_reserved_usd": 0.714563,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "d141263ef5e8a0b21b848818d2926b208c06eeac97c84e44af137498d97ac1dd",
   "translation_model_actual": "gpt-6.1-sol"
