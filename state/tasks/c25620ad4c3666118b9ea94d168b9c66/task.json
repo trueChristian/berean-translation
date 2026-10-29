@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "bced06319c444e7591677c246dd88001",
   "campaign": "auto-54ca54005aec2e8fec1678811c2784b495fa91f6834fd3dec8f5c03ca7d6d5d4",
   "created_at": "2026-10-29T10:22:14+00:00",
   "events": [
@@ -28,32 +27,31 @@
         },
         "total_tokens": 12362
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 67,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 35,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8442,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 7339,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 8509
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "Romans 14:10–13 quotation",
-      "severity": "major",
-      "source_quote": "and every tongue shall confess to God.",
-      "suggested_fix": "وكل لسان سيعترف لله.",
-      "translation_quote": "وكل لسان سيحمد الله."
-    },
-    {
-      "location": "James 3:13–18 quotation",
-      "severity": "major",
-      "source_quote": "without partiality, and without hypocrisy.",
-      "suggested_fix": "بلا محاباة ولا رياء.",
-      "translation_quote": "عديمة الريب والرياء."
-    },
-    {
-      "location": "Paragraph beginning “To judge in self-righteousness”",
-      "severity": "major",
-      "source_quote": "To judge in self-righteousness is to defy the Giver of sound wisdom",
-      "suggested_fix": "إن الدينونة ببرّ ذاتي تحدٍّ لله، واهب الحكمة السليمة،",
-      "translation_quote": "إن الدينونة ببر ذاتي تحدٍّ لمنح الحكمة السليمة،"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-29T14:12:18+00:00",
   "id": "c25620ad4c3666118b9ea94d168b9c66",
   "issue_id": "05538f8e-6560-5f96-b313-890e87c05daf",
   "language": "ara",
@@ -142,9 +140,11 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/fdcd77d1bb677a8540fb60c75fafae571ba0c6e48025d814e8ce48175af810f0.json",
   "stage": "review2",
   "stage_budget": {
@@ -158,7 +158,7 @@
     "total_reserved_usd": 0.58876,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "ebe7ecab4743984d98acf839285c9c41a9c35b253dfb10d6a7c258ac09968d3c",
   "translation_model_actual": "gpt-6.1-sol"
