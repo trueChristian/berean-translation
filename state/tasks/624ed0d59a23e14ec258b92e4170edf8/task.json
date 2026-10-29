@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "57496a66022949aa8a279959ad95690c",
   "campaign": "auto-75ba4017274da6cbfd9393c2b52c8936dee699b20c351a1db3f05343802181ea",
   "created_at": "2026-10-29T12:27:25+00:00",
   "events": [
@@ -48,200 +47,31 @@
         },
         "total_tokens": 19059
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 68,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 36,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9254,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8151,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 9322
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "html, opening quotation (Exodus 3:1)",
-      "severity": "major",
-      "source_quote": "Jethro his father-in-law, the priest of Midian",
-      "suggested_fix": "החליפו את ״יִתְרוֹ חֹתֶן־אִישׁ־מִדְיָן״ ב״יתרו חותנו, כוהן מדין״.",
-      "translation_quote": "יִתְרוֹ חֹתֶן־אִישׁ־מִדְיָן"
-    },
-    {
-      "location": "html, paragraph 2, narrative and Acts 7:22–23 quotation",
-      "severity": "major",
-      "source_quote": "At the prime age of 40 ... learned in all the wisdom of the Egyptians ... when he was full forty years old",
-      "suggested_fix": "החליפו את פתיחת המשפט ב״בשיא כוחו, בגיל ארבעים״ ואת תוכן הציטוט ב״…התחנך בכל חוכמת המצרים והיה רב־כוח בדבריו ובמעשיו. כשמלאו לו ארבעים שנה, עלה בליבו לבקר את אחיו, בני ישראל״. שמרו את ההפניה ואת תגית em.",
-      "translation_quote": "בעשור הראשון של חייו, בגיל ארבעים ... חָכָם לְכָל־חָכְמַת מִצְרַיִם ... וַיְהִי כְּלֵי שְׁלֹשִׁים וּמָאתַיִם"
-    },
-    {
-      "location": "html, paragraph 3",
-      "severity": "major",
-      "source_quote": "This pride and restlessness is not dealt with in a seminary nor is it normally exterminated during vigilant duty.",
-      "suggested_fix": "החליפו את המשפט ב״בגאווה ובחוסר המנוחה האלה אין מטפלים בסמינר להכשרת אנשי דת, ובדרך כלל גם שירות מסור וערני אינו עוקר אותם.״",
-      "translation_quote": "זוהי יהירות וחרמנות שאינה נפתרת בסמינריון ולא נרחקת בדרך כלל בעמל ערני."
-    },
-    {
-      "location": "html, paragraph 4, Acts 7:20 quotation",
-      "severity": "major",
-      "source_quote": "was exceeding fair, and nourished up in his father’s house three months",
-      "suggested_fix": "החליפו את ״ונתחלב בבית־אביו שלשה־חודשים״ ב״וגודל בבית אביו במשך שלושה חודשים״.",
-      "translation_quote": "היה יפה־מראה עד־מאד ונתחלב בבית־אביו שלשה־חודשים"
-    },
-    {
-      "location": "html, paragraph 6, Hebrews 11:25 quotation",
-      "severity": "major",
-      "source_quote": "rather to suffer affliction with the people of God, than to enjoy the pleasures of sin for a season",
-      "suggested_fix": "החליפו את תוכן הציטוט ב״…לסבול עם עם אלוהים, ולא ליהנות מתענוגות החטא לזמן קצר״, תוך שמירת ההפניה והתגיות.",
-      "translation_quote": "שְׂאֵת לַסַּכִּיּוֹת עִם־עַמּוֹ מִהֲנַגֵּן בְּתַעֲנוּגֵי־הַחֵטְא לְעֵת קָצָה"
-    },
-    {
-      "location": "html, paragraph 7",
-      "severity": "major",
-      "source_quote": "God conveniently conducted him into the land of Midian ... disappointment and rejection, obscurity and loneliness ... voluntarily align himself with the people of God",
-      "suggested_fix": "תקנו את הקטע ל״אלוהים הוביל אותו אל ארץ מדין כדי לרשום אותו לבית ספר נוסף, שבו ייזון מעשבי המרור של אכזבה ודחייה, אלמוניות ובדידות, וחלומות וכמיהות שלא התגשמו. קודם לכן שאף להזדהות מרצונו עם עם אלוהים, אך פרק זה בחייו נכפה עליו.״",
-      "translation_quote": "הוביל אותו אלוהים בנוח את ארץ־מדין ... יאכל מרירות תבלין התאכזבויות ... חשכת־מעמד ... להתיישב בהתנדבות עם עם־אלוהים"
-    },
-    {
-      "location": "html, paragraph 8",
-      "severity": "major",
-      "source_quote": "loaded with intricate involvement and major ministry ... a few dozen verses",
-      "suggested_fix": "החליפו את ״עמוס מעורבות מורכבת ומשרתוות עיקריות״ ב״רווי מעורבות מורכבת ושירות רוחני נרחב״ ואת ״רק מיעוט פסוקים״ ב״רק כמה עשרות פסוקים״.",
-      "translation_quote": "עמוס מעורבות מורכבת ומשרתוות עיקריות ... רק מיעוט פסוקים"
-    },
-    {
-      "location": "html, paragraph 9",
-      "severity": "major",
-      "source_quote": "walk around in a visionless stupor ... grope for encouragement ... God has turned against us ... rejection and being forsaken",
-      "suggested_fix": "החליפו את ״לנדוד בתופת חסרת חזון״ ב״להסתובב בקהות חושים וללא חזון״; את ״נממעים בתקווה וחיפוש עידוד״ ב״מגששים בחיפוש אחר עידוד״; את ״אלוהים נעצב עלינו״ ב״אלוהים פנה נגדנו״; ואת ״דחייה והושמטות״ ב״דחייה ונטישה״.",
-      "translation_quote": "לנדוד בתופת חסרת חזון ... נממעים בתקווה וחיפוש עידוד ... אלוהים נעצב עלינו ... דחייה והושמטות"
-    },
-    {
-      "location": "html, God's Purpose, first paragraph",
-      "severity": "major",
-      "source_quote": "forge in us a new vocation ... the utter folly ... numerous other saints ... another vibrant servant ... a gifted young harpist",
-      "suggested_fix": "החליפו בהתאמה ב״לעצב בנו ייעוד חדש״, ״האיוולת הגמורה שבה השתתפו ידיו״, ״קדושים רבים אחרים״, ״משרת נמרץ נוסף״ ו״נגן נבל צעיר ומוכשר״.",
-      "translation_quote": "לטוות בנו מקצוע חדש ... השׂכל המיותר ... קדמוניות רבות ... עוד משרת נאמן ... כנגן כיסא מוכשר"
-    },
-    {
-      "location": "html, God's Purpose, Acts 9:6 quotation",
-      "severity": "major",
-      "source_quote": "And he trembling and astonished said, Lord, what wilt thou have me to do? ... it shall be told thee what thou must do",
-      "suggested_fix": "החליפו את תוכן הציטוט ב״כשהוא רועד ונדהם אמר: אדוני, מה תרצה שאעשה? והאדון אמר לו: קום ולך אל העיר, ושם ייאמר לך מה עליך לעשות״, תוך שמירת ההפניה והתגיות.",
-      "translation_quote": "וְהוּא רָעֵד וּנִפְתָּא ... מָה־תֶאֱלֶה אָנִי עָשׂוֹת ... וְנִסַּפֵּר לְךָ אֵת אֲשֶׁר־יְהִי־לָךְ לַעֲשׂוֹת"
-    },
-    {
-      "location": "html, God's Purging, Proverbs 17:3 quotation; final paragraph before God's Provision",
-      "severity": "major",
-      "source_quote": "The fining pot is for silver ... This fining pot",
-      "suggested_fix": "החליפו את ״כַּד־הַמְּלָחָה לַכֶּסֶף״ ב״מצרף לכסף״ ואת ״כד הכספי הזה״ ב״מצרף זה״.",
-      "translation_quote": "כַּד־הַמְּלָחָה לַכֶּסֶף ... כד הכספי הזה"
-    },
-    {
-      "location": "html, God's Purging, Exodus 2:16 and 2:19 quotations",
-      "severity": "major",
-      "source_quote": "Now the priest of Midian had seven daughters ... also drew water enough for us, and watered the flock",
-      "suggested_fix": "החליפו את הציטוט הראשון ב״לכוהן מדין היו שבע בנות…״, ובשני החליפו את ״וְגַם שָׁלַח לָנוּ־מַיִם־שְׂבֵעַ וַיַּשְׁקוּ אֶת־הַצֹּאן״ ב״וגם שאב לנו די מים והשקה את הצאן״. שמרו את שתי ההפניות.",
-      "translation_quote": "וַאֲלֵכֶם לְכֹהֵן־מִדְיָן שֶׁבַע בָּנוֹת ... וְגַם שָׁלַח לָנוּ־מַיִם־שְׂבֵעַ וַיַּשְׁקוּ אֶת־הַצֹּאן"
-    },
-    {
-      "location": "html, God's Purging, Mark 10:42–44 quotations and intervening sentence",
-      "severity": "major",
-      "source_quote": "they which are accounted to rule over the Gentiles exercise lordship over them ... his orientation was merely Gentile ... whosoever will be great among you, shall be your minister",
-      "suggested_fix": "תרגמו את הציטוט הראשון כ״…אתם יודעים שמי שנחשבים לשליטי הגויים שולטים בהם, וגדוליהם מפעילים עליהם סמכות״; את המשפט המקשר כ״גישתו הייתה פשוט כגישת הגויים״; ואת הציטוט האחרון כ״אבל… מי שרוצה להיות גדול ביניכם יהיה משרתכם, ומי שרוצה להיות הראשון ביניכם יהיה עבד לכול״. שמרו את התגיות וההפניות.",
-      "translation_quote": "הָרֹאשִׁים הָעוֹלִים לְמַמְלֵל ... כיוונו היה פשוט גוי־לבבי ... וְאַךְ בְּכָל־כֶּן הַרְצוֹן הֵמָּה יִהְיֶה בְּךָ לְגַם לְשִׁירת עֲבֹדָה"
-    },
-    {
-      "location": "html, heading God's Provision",
-      "severity": "major",
-      "source_quote": "God’s Provision",
-      "suggested_fix": "החליפו את הכותרת ב״דאגתו של אלוהים לצרכינו״.",
-      "translation_quote": "פרנסתו של אלוהים"
-    },
-    {
-      "location": "html, God's Provision, second paragraph",
-      "severity": "major",
-      "source_quote": "an underachieving shepherd ... think it not strange concerning the fiery trial which is to try you, as though some strange thing happened unto you",
-      "suggested_fix": "החליפו את ״רועה כושל״ ב״רועה שאינו מממש את יכולותיו״ ואת תוכן הציטוט ב״…אל תתפלאו על הניסיון הלוהט שבא לבחון אתכם, כאילו קרה לכם דבר מוזר״. שמרו את ההפניה א' פטרוס ד:יב.",
-      "translation_quote": "רועה כושל ... אַל־תֵּסֵסוּ בְּעֵינֵיכֶם עַל־הַמַּסָּה הַלְּכוּת הַמִּתְּעַנֶּכֶת אֶתְכֶם כַּאֲשֶׁר בָּאָה אֵלֵיכֶם"
-    },
-    {
-      "location": "html, God's Promotion heading and second paragraph",
-      "severity": "major",
-      "source_quote": "God’s Promotion ... he humbly asks",
-      "suggested_fix": "החליפו את הכותרת ב״הקידום שמעניק אלוהים״ ואת ״והוא בפחד שואל״ ב״והוא שואל בענווה״.",
-      "translation_quote": "קידושו של אלוהים ... והוא בפחד שואל"
-    },
-    {
-      "location": "html, God's Promise, Exodus 3:12 quotation",
-      "severity": "major",
-      "source_quote": "When thou hast brought forth the people out of Egypt, ye shall serve God upon this mountain",
-      "suggested_fix": "החליפו את ״מִצְאתָ אֶת־הָעָם מִמִּצְרָיִם תַּעֲבְדֻנָּה״ ב״כאשר תוציא את העם ממצרים, תעבדו״.",
-      "translation_quote": "מִצְאתָ אֶת־הָעָם מִמִּצְרָיִם תַּעֲבְדֻנָּה"
-    },
-    {
-      "location": "html, God's Promise, final paragraph",
-      "severity": "major",
-      "source_quote": "provoking God to anger in the very next chapter ... in the inn ... sought to kill him ... I AM THAT I AM",
-      "suggested_fix": "החליפו את ״מעורר את־עֶבֶר ה' כעבור הפרק הבא״ ב״מעורר את כעסו של אלוהים כבר בפרק הבא״; את ״בַּמִּלְּחוֹן״ ב״במקום הלינה״; את ״וַיְּבַקֵּשׁ לְהַכּוֹתוֹ״ ב״וביקש להמית אותו״; ואת ״א־היה אשר אֶהְיֶה״ ב״אהיה אשר אהיה״.",
-      "translation_quote": "מעורר את־עֶבֶר ה' כעבור הפרק הבא ... בַּמִּלְּחוֹן ... וַיְּבַקֵּשׁ לְהַכּוֹתוֹ ... א־היה אשר אֶהְיֶה"
-    },
-    {
-      "location": "html, God's Power, Hebrews 12:6–8 quotation",
-      "severity": "major",
-      "source_quote": "For whom the Lord loveth he chasteneth, and scourgeth every son whom he receiveth ... then are ye bastards, and not sons",
-      "suggested_fix": "החליפו את תוכן הציטוט ב״כי את מי שהאדון אוהב הוא מייסר, והוא מלקה כל בן שהוא מקבל. אם אתם עומדים בייסור, אלוהים נוהג בכם כבבנים; שהרי איזה בן אין אביו מייסר אותו? אך אם אינכם מקבלים את הייסור שכולם שותפים לו, הרי אתם ילדים לא חוקיים ולא בנים״. שמרו את התגית וההפניה.",
-      "translation_quote": "כִּי אֲשֶׁר־יֶאֱהַב יְהוָה יוֹכַח וְיוֹכַח ... וְאִם־תְּאָבְלוּ תּוֹכַח ... אֵלּוּ אֲשֶׁר־הֶחֱלִיקוּ עֹרֶךְ יֵשְׁרוּ אַחֲרֵיהֶם אֵין־הֵם בָּנִים"
-    },
-    {
-      "location": "html, God's Power, penultimate paragraph",
-      "severity": "major",
-      "source_quote": "in the straits of Arabia, and in the silent solitude of the back burner",
-      "suggested_fix": "החליפו את הקטע ב״במצוקות ערב ובבדידות הדוממת של ההמתנה בצד״.",
-      "translation_quote": "בחרפות ערב וסביב בדידות השקט"
-    },
-    {
-      "location": "html, God's Power, Matthew 11:29 quotation",
-      "severity": "major",
-      "source_quote": "learn of me; for I am meek and lowly in heart: and ye shall find rest unto your souls",
-      "suggested_fix": "החליפו את תוכן הציטוט ב״…למדו ממני, כי אני עניו ושפל רוח, ותמצאו מנוחה לנפשותיכם״, תוך שמירת ההפניה והתגית.",
-      "translation_quote": "לִמְדוּ מִמֶּנִּי כִּי עָנָו וּמְצָנֵעַ לֵב וּמְצָא תְּנוּחָה לְנַפְשׁוֹתֵיכֶם"
-    },
-    {
-      "location": "html, final paragraph, Philippians 3:10 quotation",
-      "severity": "major",
-      "source_quote": "the fellowship of his sufferings, being made conformable unto his death",
-      "suggested_fix": "החליפו את ״וְאֶת־תַּחְבֻּרוּת מַעֲנָיוֹתָיו וְנִהְיֶה כְּמוֹתָיו בְּמָוֶת״ ב״ואת השותפות בסבלותיו, ולהידמות לו במותו״.",
-      "translation_quote": "וְאֶת־תַּחְבֻּרוּת מַעֲנָיוֹתָיו וְנִהְיֶה כְּמוֹתָיו בְּמָוֶת"
-    },
-    {
-      "location": "html, Exodus 3:10 quotation",
-      "severity": "minor",
-      "source_quote": "Come <strong>now</strong> therefore",
-      "suggested_fix": "העבירו את ההדגשה למילת הזמן: ״<strong>עתה</strong> לך״.",
-      "translation_quote": "עַתָּה <strong>לְכָה</strong>"
-    },
-    {
-      "location": "html, God's Purpose, second paragraph",
-      "severity": "minor",
-      "source_quote": "with nothing but the rod of God in their hands",
-      "suggested_fix": "החליפו את ״עם דבר־אמצע בלבד—מטה אלוהים בידיהם״ ב״כשאין בידיהם אלא מטה אלוהים״.",
-      "translation_quote": "עם דבר־אמצע בלבד—מטה אלוהים בידיהם"
-    },
-    {
-      "location": "html, God's Power, end of penultimate paragraph",
-      "severity": "major",
-      "source_quote": "Surely there is no more opposite place on earth to learn it but in the school of suffering.",
-      "suggested_fix": "החליפו את המשפט ב״ודאי אין עלי אדמות מקום מנוגד יותר ללימוד הענווה מאשר בית הספר של הסבל.״",
-      "translation_quote": "אין ודאי מקום עיקרי נגדי ללמוד זאת אלא בבית־ספר הסבל."
-    },
-    {
-      "location": "html, figure img alt",
-      "severity": "minor",
-      "source_quote": "A broad desert valley beneath layered mountains and clouds",
-      "suggested_fix": "החליפו את ערך alt ב״עמק מדברי רחב מתחת לרכסי הרים מדורגים ולעננים״, בלי לשנות את יתר תכונות התמונה.",
-      "translation_quote": "עמק מדברי רחב בין הרים ומעברי עננים"
-    },
-    {
-      "location": "html, paragraph 4; God's Power, first and penultimate paragraphs",
-      "severity": "minor",
-      "source_quote": "a final forty ... rash willingness ... at one time ... staying His wrath from destroying them ... his failure",
-      "suggested_fix": "תקנו את ״וארבעתים השנים״ ל״וארבעים השנים״, ״בהכונה הפזיזה״ ל״בנכונותו הפזיזה״, ״שבעת־יד אחת״ ל״שבעבר״, ״ומעצור את זעמו מלַשְׁמֹדם״ ל״ועוצר את זעמו כדי שלא ישמיד אותם״, ו״לכישלו״ ל״לכישלונו״.",
-      "translation_quote": "וארבעתים השנים ... בהכונה הפזיזה ... שבעת־יד אחת ... ומעצור את זעמו מלַשְׁמֹדם ... לכישלו"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-29T19:44:05+00:00",
   "id": "624ed0d59a23e14ec258b92e4170edf8",
   "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
   "language": "heb",
@@ -330,7 +160,7 @@
     }
   },
   "protected": false,
-  "quality_score": 39,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6.1-sol",
@@ -349,7 +179,7 @@
     "total_reserved_usd": 0.775594,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "fa6973e1c0869cf8ea44c825b0af02960182750ad2e2fbf60dce9af0c7f03feb",
   "translation_model_actual": "gpt-6.1-sol"
