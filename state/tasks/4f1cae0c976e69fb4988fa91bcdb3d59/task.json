@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "59d81c0bfc4e444e8ce7f9e26996fb03",
   "campaign": "auto-c4efe37825663faf3e763ecab64b6a90e2c148df79d706413a10d67a06e533d3",
   "created_at": "2026-10-29T12:25:07+00:00",
   "events": [
@@ -48,25 +47,31 @@
         },
         "total_tokens": 13222
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 109,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 77,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8679,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 7576,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 8788
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "translation.html — paragraph beginning “আমাদের অনেকেরই, বিশেষ করে আমার”",
-      "severity": "major",
-      "source_quote": "say a word for Him out of a life that was living for Him",
-      "suggested_fix": "“যার মাধ্যমে ঈশ্বর তাঁর বিষয়ে একটি কথা বলতে চান” অংশটি করুন: “যার মাধ্যমে ঈশ্বর চান যে আমি তাঁর জন্য যাপিত জীবন থেকে তাঁর পক্ষে একটি কথা বলি”।",
-      "translation_quote": "যার মাধ্যমে ঈশ্বর তাঁর বিষয়ে একটি কথা বলতে চান"
-    },
-    {
-      "location": "translation.html — paragraph beginning “সংগ্রামরত কারও সঙ্গে”",
-      "severity": "minor",
-      "source_quote": "How would I appreciate someone responding to me if I was in that specific situation?",
-      "suggested_fix": "প্রশ্নটি করুন: “আমি যদি ওই নির্দিষ্ট পরিস্থিতিতে থাকতাম, তবে অন্য কেউ আমার প্রতি কীভাবে সাড়া দিলে আমি তা পছন্দ করতাম?”",
-      "translation_quote": "আমি যদি ওই নির্দিষ্ট পরিস্থিতিতে থাকতাম, কেউ আমার প্রতি যেভাবে সাড়া দিত, তা আমার কেমন লাগত?"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-29T23:00:50+00:00",
   "id": "4f1cae0c976e69fb4988fa91bcdb3d59",
   "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
   "language": "ben",
@@ -155,7 +160,7 @@
     }
   },
   "protected": false,
-  "quality_score": 94,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6.1-sol",
@@ -174,7 +179,7 @@
     "total_reserved_usd": 0.796173,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "e0622a8bb1c0f31a62af348bbcdf1a1da1d53e0d8f3f815cb4fd5567f07e197c",
   "translation_model_actual": "gpt-6.1-sol"
