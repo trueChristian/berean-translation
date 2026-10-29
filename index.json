@@ -32356,6 +32356,62 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/hin/articles/0c677d9e-ce73-4b27-a03f-d5457f7f1072.html",
+      "html_sha256": "82521c66bfeb94be38349ebb35397d2c6b4bf0a5a21461287c04b0ca0cc8ea0c",
+      "human_reviewed": false,
+      "id": "0c677d9e-ce73-4b27-a03f-d5457f7f1072",
+      "images": [
+        {
+          "alt": "एक व्यक्ति ‘हमें बंधन से मुक्त करो’ शब्दों के ऊपर जेल की सलाखों के बीच से हाथ बढ़ा रहा है",
+          "public_path": "/images/articles/0c677d9e-ce73-4b27-a03f-d5457f7f1072-1.jpg"
+        },
+        {
+          "alt": "सलाखों के पीछे एक कैदी, जिसके पास एक देवदूत खड़ा है",
+          "public_path": "/images/articles/0c677d9e-ce73-4b27-a03f-d5457f7f1072-2.jpg"
+        },
+        {
+          "alt": "एक खाली-सादे कमरे में इकट्ठी हुई महिलाएँ और बच्चे",
+          "public_path": "/images/articles/0c677d9e-ce73-4b27-a03f-d5457f7f1072-3.jpg"
+        },
+        {
+          "alt": "धारीदार कपड़े पहने कैदियों के सामने से एक पहरेदार गुज़र रहा है",
+          "public_path": "/images/articles/0c677d9e-ce73-4b27-a03f-d5457f7f1072-4.jpg"
+        },
+        {
+          "alt": "एक इमारत के बाहर खड़े कैदियों की लंबी कतार",
+          "public_path": "/images/articles/0c677d9e-ce73-4b27-a03f-d5457f7f1072-5.jpg"
+        },
+        {
+          "alt": "एक शहर के चौक में इधर-उधर खड़े लोग",
+          "public_path": "/images/articles/0c677d9e-ce73-4b27-a03f-d5457f7f1072-6.jpg"
+        },
+        {
+          "alt": "एक महिला जेल की कोठरी में बैठे लोगों को पढ़कर सुना रही है",
+          "public_path": "/images/articles/0c677d9e-ce73-4b27-a03f-d5457f7f1072-7.jpg"
+        },
+        {
+          "alt": "एक उत्कीर्ण चित्र, जिसमें एक बोतल करवट लेकर पड़ी है",
+          "public_path": "/images/articles/0c677d9e-ce73-4b27-a03f-d5457f7f1072-8.jpg"
+        }
+      ],
+      "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
+      "language": "hin",
+      "language_tag": "hi",
+      "metadata": "content/hin/articles/0c677d9e-ce73-4b27-a03f-d5457f7f1072.json",
+      "metadata_sha256": "21929876a147ee5b63aa553b5db6408c5b5a25f0c328ec79f659b4296b1b3e0b",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "ed75201a8e3b37913a14f4d949de33a7a0daa2c2",
+      "source_translation_key": "385aeb5b4a7bcbf512c0d5b8310c2fd8f5f85b86d43d077caf80670ee93c6738",
+      "status": "ready",
+      "subtitle": "जेलों की देवदूत",
+      "title": "मैथिल्डे व्रेडे",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/hin/articles/0f775a7f-1f39-428b-8d96-3d48095e1f49.html",
       "html_sha256": "b5ac32d72f80573fe347d8c57329f6d74e63924b5cf17097960668ce00768b8e",
       "human_reviewed": false,
