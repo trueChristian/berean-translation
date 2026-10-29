@@ -886,6 +886,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/afr/articles/30d02d2c-805c-437c-ad10-4542362ab6de.html",
+      "html_sha256": "df8f3019e2d5e638eca69d56b41860d7ceed66d7b7d6aefc3c2ed79fbbbf2feb",
+      "human_reviewed": false,
+      "id": "30d02d2c-805c-437c-ad10-4542362ab6de",
+      "images": [
+        {
+          "alt": "Opgehewe hande reik na ’n ligstraal uit ’n hoë venster",
+          "public_path": "/images/articles/30d02d2c-805c-437c-ad10-4542362ab6de-1.jpg"
+        }
+      ],
+      "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
+      "language": "afr",
+      "language_tag": "af",
+      "metadata": "content/afr/articles/30d02d2c-805c-437c-ad10-4542362ab6de.json",
+      "metadata_sha256": "1952f9844c73ebd8dd4a407259d9a2f69202384288febfcc84abc1b63bf43759",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "Oorwinnende Christelike Lewe",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "ceb52dc3bb5b5ab212a3930b445c8849f8521bc253df2cec9d019d90e889292e",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Die Pad na Emmaus",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/afr/articles/31ea7041-cab6-4ccd-9ead-04cc949321a6.html",
       "html_sha256": "b7973fd96d6b609d5286d3ad2793022a5d7b3f14dbe067f2aec22c730b580de9",
       "human_reviewed": false,
@@ -6894,6 +6922,34 @@
       "subtitle": null,
       "title": "كسب قلوب أبنائنا",
       "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
+      "html": "content/ara/articles/8d329db2-4f64-4c9e-badb-7955e4c6f115.html",
+      "html_sha256": "33551a3e5468aa6ce4579332614783976381273b7b361b6b1f9701393faedd1c",
+      "human_reviewed": false,
+      "id": "8d329db2-4f64-4c9e-badb-7955e4c6f115",
+      "images": [
+        {
+          "alt": "رسم خطي لقاضٍ وكتاب قانون وميزان",
+          "public_path": "/images/articles/8d329db2-4f64-4c9e-badb-7955e4c6f115-1.png"
+        }
+      ],
+      "issue_id": "05538f8e-6560-5f96-b313-890e87c05daf",
+      "language": "ara",
+      "language_tag": "ar",
+      "metadata": "content/ara/articles/8d329db2-4f64-4c9e-badb-7955e4c6f115.json",
+      "metadata_sha256": "8a74e4dfa3cdf9047255609221485c183d0eb3e8c8e1ecadaac113fce704d1c2",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": null,
+      "source_revision": "4c7b25b348edeeef4eb5f9d22a221d06f0d80f02",
+      "source_translation_key": "ebe7ecab4743984d98acf839285c9c41a9c35b253dfb10d6a7c258ac09968d3c",
+      "status": "ready",
+      "subtitle": null,
+      "title": "تأملات في الدينونة والعمل",
+      "translation_model": "gpt-6.1-sol"
     },
     {
       "ai_notice_required": true,
@@ -17828,6 +17884,34 @@
       "subtitle": null,
       "title": "Der Sand der Zeit VERSINKT",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/deu/articles/53e8b534-1f5e-4d9d-b191-99707a404256.html",
+      "html_sha256": "1f64f532b9df040a9d16e7298abf70e2339cab3b84ed6e58df52366efe311648",
+      "human_reviewed": false,
+      "id": "53e8b534-1f5e-4d9d-b191-99707a404256",
+      "images": [
+        {
+          "alt": "Ein weites Wüstental unter gestaffelten Bergen und Wolken",
+          "public_path": "/images/articles/53e8b534-1f5e-4d9d-b191-99707a404256-1.jpg"
+        }
+      ],
+      "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
+      "language": "deu",
+      "language_tag": "de",
+      "metadata": "content/deu/articles/53e8b534-1f5e-4d9d-b191-99707a404256.json",
+      "metadata_sha256": "9745566ff0cf34f62cd9bc99d991ae8cb351feaba8225713e4c8d68cc814d837",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "CHARAKTERSTUDIEN",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "fa6973e1c0869cf8ea44c825b0af02960182750ad2e2fbf60dce9af0c7f03feb",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Mose in Midian",
+      "translation_model": "gpt-6.1-sol"
     },
     {
       "ai_notice_required": true,
@@ -77375,6 +77459,29 @@
       "subtitle": null,
       "title": "Guds trofasthet manifesteras även i förbannelsen",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/swe/articles/22957e4c-ccce-4a76-b982-60e61ec6b998.html",
+      "html_sha256": "e9d17afb616dcc6e3c3687b9989f9c0f35aa1b273b59d6d202d6bd609f75831a",
+      "human_reviewed": false,
+      "id": "22957e4c-ccce-4a76-b982-60e61ec6b998",
+      "images": [],
+      "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
+      "language": "swe",
+      "language_tag": "sv",
+      "metadata": "content/swe/articles/22957e4c-ccce-4a76-b982-60e61ec6b998.json",
+      "metadata_sha256": "b7010b0362abdf6e87c6cf676395bd0c042444dbb0648342e452c258dba6d072",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "KYRKOHISTORIA",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "0ec18dc4a4b289e72e00424bde99770f0dbc52c0ceb26b1a16a8b4b40097dc16",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Nero: En kejsares liv",
+      "translation_model": "gpt-6.1-sol"
     },
     {
       "ai_notice_required": true,
