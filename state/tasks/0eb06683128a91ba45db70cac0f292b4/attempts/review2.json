@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-29T23:00:34+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"translation.html：以“韦雷小姐的家族关系属于白方”开头的段落\",\"severity\":\"minor\",\"source_quote\":\"The Red Guardists treated her with childlike respect and kindness\",\"suggested_fix\":\"将“红卫兵对她像孩子般尊敬而友善”改为“赤卫队员对她像孩子般尊敬而友善”，使用芬兰内战相关武装的常用中文名称，避免与中国的红卫兵混淆。\",\"translation_quote\":\"红卫兵对她像孩子般尊敬而友善\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 549,
+    "content_evidence_truncated": false,
+    "content_sha256": "1ccecfdcf150794d52faae896b11dcd2018259afe9bb4657a615d01d9f9dcec5",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 260,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 101,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9790,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8687,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 10050
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review2",
+  "translation_attempts": 1
+}

@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "4f9e27517a8642d4a666ee3f9d697766",
   "campaign": "auto-53c20967734a0dbd102b3c125d24e36a446c274b747a0c8a8d579b6434b8c62c",
   "created_at": "2026-10-29T20:58:29+00:00",
   "events": [
@@ -28,46 +27,39 @@
         },
         "total_tokens": 15079
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 260,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 101,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9790,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8687,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 10050
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "正文第5段（童年经历）",
-      "severity": "major",
-      "source_quote": "the smith welding red-hot irons on a group of prisoners",
-      "suggested_fix": "将“铁匠把烧红的铁器焊接到一群囚犯身上”改为“铁匠把烧红的铁链焊接在一群囚犯身上”（或准确表达铁匠正在给囚犯戴上烧红的镣铐）。",
-      "translation_quote": "铁匠把烧红的铁器焊接到一群囚犯身上"
-    },
-    {
-      "location": "正文第6段（布道会）",
-      "severity": "major",
-      "source_quote": "One evening, in which she had planned to go with her father to a society function, she went instead to a revival meeting in which a layman was preaching.",
-      "suggested_fix": "将“她原计划陪父亲参加一场社交活动，却转而去参加一场由平信徒讲道的布道会”改为“她原计划陪父亲参加一场社交活动，却转而去参加一场由平信徒讲道的奋兴布道会”。",
-      "translation_quote": "她原计划陪父亲参加一场社交活动，却转而去参加一场由平信徒讲道的布道会。"
-    },
-    {
-      "location": "正文第13段（服事对象）",
-      "severity": "major",
-      "source_quote": "She had a government ticket on all Finnish state railways and took a general oversight not only of those in ward but of discharged prisoners, also, and of the families of prisoners both in duress and discharged.",
-      "suggested_fix": "将“普遍照料在押人员”改为“全面关照在押人员”，以表达她对他们承担广泛照料责任，而非通常意义上的普遍性。",
-      "translation_quote": "不仅普遍照料在押人员，也照料获释囚犯，以及仍在服刑或已经获释的囚犯家属。"
-    },
-    {
-      "location": "正文第20段（红白派冲突）",
-      "severity": "major",
-      "source_quote": "These ex-convicts, together with the Jacobin elements which the revolution churned up from the depths, took the reins in their hands and a Terror followed that made a fair imitation of that of ’93.",
-      "suggested_fix": "将“这些出狱者与革命从社会深处搅起的雅各宾派分子一起掌了权”改为“这些出狱者与革命从社会底层卷起的雅各宾派势力一起掌了权”。",
-      "translation_quote": "这些出狱者与革命从社会深处搅起的雅各宾派分子一起掌了权"
-    },
-    {
-      "location": "正文第26段（胸针制作）",
-      "severity": "major",
-      "source_quote": "Later I shaped it as yours.",
-      "suggested_fix": "将“后来我照着您的胸针把它刻成了形状”改为“后来我照着您的胸针把它塑成了同样的形状”。",
-      "translation_quote": "后来我照着您的胸针把它刻成了形状"
+      "location": "translation.html：以“韦雷小姐的家族关系属于白方”开头的段落",
+      "severity": "minor",
+      "source_quote": "The Red Guardists treated her with childlike respect and kindness",
+      "suggested_fix": "将“红卫兵对她像孩子般尊敬而友善”改为“赤卫队员对她像孩子般尊敬而友善”，使用芬兰内战相关武装的常用中文名称，避免与中国的红卫兵混淆。",
+      "translation_quote": "红卫兵对她像孩子般尊敬而友善"
     }
   ],
+  "finished_at": "2026-10-29T23:00:34+00:00",
   "id": "0eb06683128a91ba45db70cac0f292b4",
   "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
   "language": "cmn",
@@ -156,9 +148,11 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/17600542ba2281535063b51832b1ebaad8d50b662352bce1164408cda85adae0.json",
   "stage": "review2",
   "stage_budget": {
@@ -172,7 +166,7 @@
     "total_reserved_usd": 0.59334,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "385aeb5b4a7bcbf512c0d5b8310c2fd8f5f85b86d43d077caf80670ee93c6738",
   "translation_model_actual": "gpt-6.1-sol"
