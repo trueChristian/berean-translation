@@ -219,9 +219,9 @@ class CollectorWindowTests(unittest.TestCase):
         import yaml
         doc = yaml.load((REPO_ROOT/'.github/workflows/ai-worker.yml').read_text(),Loader=yaml.BaseLoader)
         self.assertEqual(doc['on']['schedule'][0]['cron'],'7,22,37,52 * * * *')
-        self.assertEqual(doc['concurrency']['group'],'berean-translation-state-writer')
-        self.assertEqual(doc['concurrency']['cancel-in-progress'],'false')
         worker = doc['jobs']['worker']
+        self.assertEqual(worker['concurrency']['group'],'berean-translation-state-writer')
+        self.assertEqual(worker['concurrency']['cancel-in-progress'],'false')
         self.assertGreaterEqual(int(worker['timeout-minutes']),20)
         runs = '\n'.join(step.get('run','') for step in worker['steps'])
         self.assertIn('tick --no-discover --publish --wait-seconds 600 --poll-seconds 60',runs)

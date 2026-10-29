@@ -61,7 +61,7 @@ class AutonomousWorkflowShellTests(unittest.TestCase):
             step = next(step for step in document['jobs']['worker']['steps']
                         if step.get('name') == 'Collect results or perform the requested maintenance')
             self.assertIn('--no-discover --publish --wait-seconds 600 --poll-seconds 60', step['run'])
-            self.assertEqual(document['concurrency'], {'group':'berean-translation-state-writer', 'cancel-in-progress':'false'})
+            self.assertEqual(document['jobs']['worker']['concurrency'], {'group':'berean-translation-state-writer', 'cancel-in-progress':'false'})
             environment = {'PATH':os.environ.get('PATH', os.defpath),
                 'PYTHONPATH':os.pathsep.join((str(stub), str(REPO_ROOT), str(REPO_ROOT/'tests'))),
                 'PYTHONNOUSERSITE':'1', 'PYTHONDONTWRITEBYTECODE':'1', 'OPERATION':'collect',
@@ -71,7 +71,7 @@ class AutonomousWorkflowShellTests(unittest.TestCase):
                                   Loader=yaml.BaseLoader)
             discover_step = next(item for item in discovery['jobs']['discover']['steps']
                                  if item.get('name') == 'Discover and queue authorized translation work')
-            self.assertEqual(discovery['concurrency'], document['concurrency'])
+            self.assertEqual(discovery['concurrency'], document['jobs']['worker']['concurrency'])
             self.assertNotIn('OPENAI_API_KEY', discover_step['env'])
             self.assertIn('tick --discover-only --publish', discover_step['run'])
             discovery_environment = {key: value for key, value in environment.items()

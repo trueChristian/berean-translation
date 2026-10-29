@@ -35,5 +35,6 @@
     "enabled": true,
     "max_active_tasks": 50,
     "page_size": 20
-  }
+  },
+  "automatic_collection_continuation": true
 }

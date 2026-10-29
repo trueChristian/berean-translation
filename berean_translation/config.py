@@ -68,6 +68,8 @@ class Config:
                       'max_batches_per_tick','max_pending_campaigns_per_tick'):
             if type(self.runtime.get(field)) is not int or self.runtime[field] <= 0:
                 raise ContractError('Runtime size/count limits must be positive integers')
+        if type(self.runtime.get('automatic_collection_continuation', True)) is not bool:
+            raise ContractError('Automatic collection continuation must be boolean')
         from .autonomous import policy as autonomous_policy
         automatic = autonomous_policy(self)
         if type(self.runtime.get('automatic_new_translation')) is not bool or (self.runtime['automatic_new_translation'] and not automatic['enabled']):

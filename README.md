@@ -24,7 +24,7 @@ Only five workflows are active:
 | --- | --- | --- |
 | **AI — Translate articles** | Select an issue, languages, and models; persist a translation bundle. | Manual dispatch; free preview is the default. |
 | **AI — Discover English changes** | Discover upstream English changes and queue automatic work within its standing authority. | Scheduled hourly at minute 3, or manual dispatch. |
-| **AI — Collect and continue** | Submit authorized work, poll results, validate/correct, publish, recover eligible candidates, and perform explicit maintenance. | Scheduled every 15 minutes; successful manual/discovery workflows; published human edits; manual dispatch. |
+| **AI — Collect and continue** | Submit authorized work, poll results, validate/correct, publish, recover eligible candidates, and perform explicit maintenance. | Automatic continuation while work remains; scheduled every 15 minutes as a fallback; successful manual/discovery workflows; published human edits; manual dispatch. |
 | **AI — Improve translations** | Review existing publications against English with stronger models; validate accepted replacements at 98. Saved unpublished candidates use the ordinary 95 threshold. | Manual dispatch; free preview is the default. |
 | **Translation runtime checks** | Run offline regression tests, dependency contract checks, and repository/source validation. | Pull requests, pushes to main, or manual dispatch; no paid requests. |
 
@@ -146,6 +146,10 @@ Tests use artificial source articles and simulated provider responses. They do n
 python -m berean_translation tick --discover-only --publish
 python -m berean_translation tick --no-discover --publish --wait-seconds 600 --poll-seconds 60
 ```
+
+A successful collector automatically dispatches its next cycle while submitted batches, runnable queued tasks, or eligible archive work remain. During continued processing it requests discovery after an hour without a discovery attempt, so new English is noticed without depending only on cron. The existing collection and discovery schedules remain fallbacks. The handoff runs after validation, outside the shared state-writer lock, and yields to an existing queued collector or discovery run. It does not submit AI requests itself.
+
+Set `automatic_collection_continuation` to `false` to stop self-continuation, or disable **AI — Collect and continue** in Actions to stop all future collector starts. Canceling a worker prevents its continuation; submitted provider batches can still finish. Failed validation stops the chain, and isolated holds or uncertain submissions alone do not keep it running. A failed handoff is visible in Actions; the next scheduled or manual run can recover.
 
 The positive collection wait budget includes initial work and yields at resumable boundaries. An in-flight operation finishes its durable checkpoints. Prepared batches retain their exact payload and reservations for the next run. Unknown submissions do not keep a runner alive by themselves. Read-only source compatibility checks use `python -m berean_translation discover --check-only`.
 

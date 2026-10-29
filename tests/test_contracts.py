@@ -261,7 +261,7 @@ class WorkflowTests(unittest.TestCase):
             self.assertNotIn('OPENAI_API_KEY',json.dumps(document))
             self.assertEqual(inputs['dry_run']['default'],'true')
         worker = yaml.load((REPO_ROOT/'.github/workflows/ai-worker.yml').read_text(),Loader=yaml.BaseLoader)
-        self.assertEqual(worker['concurrency']['cancel-in-progress'],'false')
+        self.assertEqual(worker['jobs']['worker']['concurrency']['cancel-in-progress'],'false')
         self.assertEqual(worker['permissions']['contents'],'write')
         self.assertIn('head_repository.full_name',worker['jobs']['worker']['if'])
         self.assertNotIn('pull_request_target',worker['on'])

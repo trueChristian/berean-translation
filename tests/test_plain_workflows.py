@@ -24,7 +24,7 @@ class PlainWorkflowTests(unittest.TestCase):
     def test_discovery_and_collection_share_the_serialized_state_writer(self):
         discovery = workflow('ai-discover.yml')
         collection = workflow('ai-worker.yml')
-        self.assertEqual(discovery['concurrency'], collection['concurrency'])
+        self.assertEqual(discovery['concurrency'], collection['jobs']['worker']['concurrency'])
         self.assertEqual(discovery['concurrency'], {
             'group': 'berean-translation-state-writer', 'cancel-in-progress': 'false'})
         self.assertEqual(discovery['permissions'], {'contents': 'write'})
