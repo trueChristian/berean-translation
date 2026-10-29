@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "900da9f6-ea77-415c-ad99-cfab89ff9802",
+    "response_id": "chatcmpl-EeR8Dbt8KPq3TSIEDPYKPsVSWEtzI",
+    "usage": {
+      "completion_tokens": 233,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 75,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5896,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4793,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 6129
+    }
+  },
+  "received_at": "2026-10-29T20:41:59+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "translation.html, paragraf yang diawali “Bertahun-tahun yang lalu”, kalimat kedua",
+        "severity": "minor",
+        "source_quote": "the long-term effect of a person having a “mask” on (literally)",
+        "suggested_fix": "Ganti “mengenakan ‘topeng’ (secara harfiah)” dengan “mengenakan ‘masker’ (secara harfiah)” agar jelas bahwa yang dimaksud adalah masker kesehatan, bukan topeng.",
+        "translation_quote": "dampak jangka panjang dari seseorang yang mengenakan “topeng” (secara harfiah)"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-29T20:41:59+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"translation.html, paragraf yang diawali “Bertahun-tahun yang lalu”, kalimat kedua\",\"severity\":\"minor\",\"source_quote\":\"the long-term effect of a person having a “mask” on (literally)\",\"suggested_fix\":\"Ganti “mengenakan ‘topeng’ (secara harfiah)” dengan “mengenakan ‘masker’ (secara harfiah)” agar jelas bahwa yang dimaksud adalah masker kesehatan, bukan topeng.\",\"translation_quote\":\"dampak jangka panjang dari seseorang yang mengenakan “topeng” (secara harfiah)\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 569,
+    "content_evidence_truncated": false,
+    "content_sha256": "d67dcb9b6d3b59e4ae32355b266efc0d18d5fa0057507e4be576016eedd7eddd",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 233,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 75,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5896,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4793,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 6129
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}
