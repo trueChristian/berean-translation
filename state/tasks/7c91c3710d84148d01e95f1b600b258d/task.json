@@ -1,0 +1,136 @@
+{
+  "article_id": "d38bf79f-957f-413c-ad4d-a6b4fa8c8112",
+  "automatic_previous_task": "4e6b1a7eaab6f9fad2c70c83193ca992",
+  "autonomous": true,
+  "autonomous_recovery": true,
+  "base_html_sha256": null,
+  "base_metadata_sha256": null,
+  "campaign": "auto-575582b6da4f43391e20866d990a91a66cfdd1dfc2426d7a215b254a811f88d8",
+  "created_at": "2026-10-29T21:12:06+00:00",
+  "events": [],
+  "findings": [
+    {
+      "location": "translation.html，引用以赛亚书41:10及马太福音6:31-34的两个段落",
+      "severity": "minor",
+      "source_quote": "<em>Fear thou not; for I am with thee: ... –Isaiah 41:10.</em>；<em>Therefore take no thought ... –Matthew 6:31-34.</em>",
+      "suggested_fix": "保留这两段经文原有的 <em>...</em> 标签，并将经文出处分别放回引文末尾，使用“——以赛亚书41:10”和“——马太福音6:31-34”。保留现有中文经文译文。",
+      "translation_quote": "以赛亚书 41:10 说：“你不要害怕……”；马太福音 6:31-34 说：“所以，不要忧虑说……"
+    },
+    {
+      "location": "translation.html，病人提出制药公司隐瞒疗法的段落",
+      "severity": "minor",
+      "source_quote": "there actually <strong>is</strong> a cure for cancer, but the drug companies just don’t want us to know about it.",
+      "suggested_fix": "将“其实确实有治愈癌症的方法，但制药公司只是不给我们知道”改为“其实<strong>确实有</strong>治愈癌症的方法，但制药公司就是不想让我们知道”。",
+      "translation_quote": "其实确实有治愈癌症的方法，但制药公司只是不给我们知道。"
+    }
+  ],
+  "id": "7c91c3710d84148d01e95f1b600b258d",
+  "issue_id": "1a7070c9-fd4f-546b-a220-f267ddb8cf5f",
+  "language": "cmn",
+  "model": "gpt-6.1-sol",
+  "models": {
+    "gpt-4.1": {
+      "api_model": "gpt-4.1-2025-04-14",
+      "context_tokens": 1047576,
+      "input_batch_usd_per_million": 1.0,
+      "max_output_tokens": 32768,
+      "output_batch_usd_per_million": 4.0,
+      "quality_note": "Higher-cost translation or reviewer option.",
+      "reasoning_effort": null
+    },
+    "gpt-4.1-mini": {
+      "api_model": "gpt-4.1-mini-2025-04-14",
+      "context_tokens": 1047576,
+      "input_batch_usd_per_million": 0.2,
+      "max_output_tokens": 32768,
+      "output_batch_usd_per_million": 0.8,
+      "quality_note": "Default cost-conscious candidate; not certified for theological accuracy in every language.",
+      "reasoning_effort": null
+    },
+    "gpt-4.1-nano": {
+      "api_model": "gpt-4.1-nano-2025-04-14",
+      "context_tokens": 1047576,
+      "input_batch_usd_per_million": 0.05,
+      "max_output_tokens": 32768,
+      "output_batch_usd_per_million": 0.2,
+      "quality_note": "Lowest-cost option in this registry; benchmark before bulk publication.",
+      "reasoning_effort": null
+    },
+    "gpt-5-mini": {
+      "api_model": "gpt-5-mini-2025-08-07",
+      "context_tokens": 400000,
+      "input_batch_usd_per_million": 0.125,
+      "max_output_tokens": 128000,
+      "output_batch_usd_per_million": 1.0,
+      "quality_note": "Reasoning tokens consume output budget; benchmark total cost and quality.",
+      "reasoning_effort": "low"
+    },
+    "gpt-6-astra": {
+      "api_model": "gpt-6-astra",
+      "cache_write_batch_usd_per_million": 6.25,
+      "cached_input_batch_usd_per_million": 0.5,
+      "context_tokens": 1050000,
+      "input_batch_usd_per_million": 5.0,
+      "long_context_input_multiplier": 2.0,
+      "long_context_output_multiplier": 1.5,
+      "long_context_threshold_tokens": 272000,
+      "max_output_tokens": 128000,
+      "output_batch_usd_per_million": 25.0,
+      "pricing_verified_on": "2026-10-02",
+      "quality_note": "Higher-cost manual recovery option. Documented API alias; no dated snapshot is published. Reasoning shares the output cap. Quality gates remain required.",
+      "reasoning_effort": "low"
+    },
+    "gpt-6-luna": {
+      "api_model": "gpt-6-luna",
+      "cache_write_batch_usd_per_million": 0.0625,
+      "cached_input_batch_usd_per_million": 0.005,
+      "context_tokens": 1050000,
+      "input_batch_usd_per_million": 0.05,
+      "long_context_input_multiplier": 2.0,
+      "long_context_output_multiplier": 1.5,
+      "long_context_threshold_tokens": 272000,
+      "max_output_tokens": 128000,
+      "output_batch_usd_per_million": 0.25,
+      "pricing_verified_on": "2026-10-02",
+      "quality_note": "Affordable default for new manual translation and review campaigns. Documented API alias; no dated snapshot is published. Reasoning shares the output cap. Benchmark theological accuracy; quality gates remain required.",
+      "reasoning_effort": "low"
+    },
+    "gpt-6.1-sol": {
+      "api_model": "gpt-6.1-sol",
+      "cache_write_batch_usd_per_million": 1.25,
+      "cached_input_batch_usd_per_million": 0.05,
+      "context_tokens": 1050000,
+      "input_batch_usd_per_million": 1.0,
+      "long_context_input_multiplier": 2.0,
+      "long_context_output_multiplier": 1.5,
+      "long_context_threshold_tokens": 272000,
+      "max_output_tokens": 128000,
+      "output_batch_usd_per_million": 5.0,
+      "pricing_verified_on": "2026-10-02",
+      "quality_note": "Stronger downstream recovery option. Documented API alias; no dated snapshot is published. Reasoning shares the output cap. Quality gates remain required.",
+      "reasoning_effort": "low"
+    }
+  },
+  "protected": false,
+  "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
+  "review_attempts": 0,
+  "review_model": "gpt-6.1-sol",
+  "source_snapshot": "state/sources/c359f5eb7511bee303f2540e716a2b918a181459a9c7bd95ec949a6df55470c5.json",
+  "stage": "review1",
+  "stage_budget": {
+    "initial_stage": "review1",
+    "max_candidate_bytes": 120000,
+    "max_findings_bytes": 32768,
+    "stages_usd": {
+      "correct": 0.293405,
+      "review1": 0.088795,
+      "review2": 0.373267
+    },
+    "total_reserved_usd": 0.755467,
+    "version": 1
+  },
+  "status": "queued",
+  "translation_attempts": 0,
+  "translation_key": "48e3cf7ce54a82130b52527f677657d3f940e34281e04d33a0d21d610cf9910a",
+  "translation_model_actual": "gpt-5-mini-2025-08-07"
+}
