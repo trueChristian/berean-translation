@@ -5,6 +5,7 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
+  "batch": "b1f7154318cf43539a85d49ab41ff046",
   "campaign": "auto-cae86379fbb6bbdc0d73299816cacb44d8b28a9ed3981f737fa7172a371ab67c",
   "created_at": "2026-10-29T10:20:50+00:00",
   "events": [
@@ -230,8 +231,8 @@
     "total_reserved_usd": 0.756493,
     "version": 1
   },
-  "status": "queued",
-  "translation_attempts": 0,
+  "status": "in_batch",
+  "translation_attempts": 1,
   "translation_key": "c2cade59cf352799776fd92a600c879eb44ca1d1a7d3f31107b23708781aed47",
   "translation_model_actual": "gpt-5-mini-2025-08-07"
 }
