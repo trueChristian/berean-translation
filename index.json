@@ -546,18 +546,25 @@
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {
-      "ai_notice_required": true,
+      "ai_notice_required": false,
       "direction": "ltr",
       "html": "content/afr/articles/1c698fb4-f4e6-419b-bdcc-1b25cbe2b035.html",
-      "html_sha256": "6ee981d45d48473acb88eef92a6a64f67fc4148e9691f5b213ac5dc3602316f5",
-      "human_reviewed": false,
+      "html_sha256": "8d6ee3d30088d6929edcc0ea5492e41c5c6dda037e579bb0e61a1fd2ef7ab7a1",
+      "human_edit": {
+        "author": "Malachi",
+        "commit": "6759c1b9bce861e5c781c0a2ab050fe375683a20",
+        "email": "163401881+malachivdm@users.noreply.github.com",
+        "time": "2026-10-29T09:45:07+02:00"
+      },
+      "human_reviewed": true,
       "id": "1c698fb4-f4e6-419b-bdcc-1b25cbe2b035",
       "images": [],
       "issue_id": "1a7070c9-fd4f-546b-a220-f267ddb8cf5f",
       "language": "afr",
       "language_tag": "af",
       "metadata": "content/afr/articles/1c698fb4-f4e6-419b-bdcc-1b25cbe2b035.json",
-      "metadata_sha256": "d1a94e9cf39095644dc8826d0a2e688b6efaacfa39d7605b8cd8f1962325df83",
+      "metadata_sha256": "a4e35eff819333c3d4453758ee5ee3e51f1cca0b9fc0f4f1420f599f8dfd0da3",
+      "notice_present": true,
       "provider": "OpenAI",
       "review_model": "gpt-5-mini-2025-08-07",
       "section": "Suster tot Suster",
@@ -565,7 +572,7 @@
       "source_translation_key": "ad61f4b9009ceb692738e67bfe8cebef4cb378ea1ea96cae5a9794b4be22a0d2",
       "status": "ready",
       "subtitle": null,
-      "title": "Begrip van Onderwerping",
+      "title": "Begryp Onderdanigheid",
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {
