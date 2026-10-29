@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "f4a238a8f5b140c08d26c0243fd96660",
   "campaign": "auto-cae86379fbb6bbdc0d73299816cacb44d8b28a9ed3981f737fa7172a371ab67c",
   "created_at": "2026-10-29T10:20:50+00:00",
   "events": [
@@ -48,102 +47,31 @@
         },
         "total_tokens": 13870
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 75,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 43,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8728,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 7625,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 8803
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "html, Lukas 14:25-33",
-      "severity": "major",
-      "source_quote": "he sendeth an ambassage, and desireth conditions of peace",
-      "suggested_fix": "Erstatt «sender han ambassadører og krever fredsbetingelser» med «sender han utsendinger og ber om fredsvilkår».",
-      "translation_quote": "sender han ambassadører og krever fredsbetingelser"
-    },
-    {
-      "location": "html, avsnittet som begynner «Da jeg var i marinen»",
-      "severity": "major",
-      "source_quote": "When I was in the Marines",
-      "suggested_fix": "Erstatt «Da jeg var i marinen» med «Da jeg var i det amerikanske marinekorpset».",
-      "translation_quote": "Da jeg var i marinen"
-    },
-    {
-      "location": "html, avsnittet om andre verdenskrig",
-      "severity": "major",
-      "source_quote": "a fox hole housing soldiers",
-      "suggested_fix": "Erstatt «en revne med soldater» med «en skyttergrop med soldater».",
-      "translation_quote": "en revne med soldater"
-    },
-    {
-      "location": "html, Apostlenes gjerninger 21:10-13",
-      "severity": "major",
-      "source_quote": "the man that owneth this girdle",
-      "suggested_fix": "Erstatt «mannen hvis dette beltet er» med «mannen som eier dette beltet».",
-      "translation_quote": "mannen hvis dette beltet er"
-    },
-    {
-      "location": "html, avsnittet som begynner «Når vi elsker våre liv»",
-      "severity": "major",
-      "source_quote": "We end up forsaking God’s calling",
-      "suggested_fix": "Erstatt «Vi ender opp med å forakte Guds kall» med «Vi ender opp med å svikte Guds kall». Kilden beskriver å forlate kallet, ikke å forakte det.",
-      "translation_quote": "Vi ender opp med å forakte Guds kall"
-    },
-    {
-      "location": "html, 5 Mosebok 3:3-6",
-      "severity": "minor",
-      "source_quote": "all the region of Argob, the kingdom of Og in Bashan",
-      "suggested_fix": "Erstatt «hele Argobs slette, Og kongedømme i Basan» med «hele Argob-området, Ogs kongedømme i Basan».",
-      "translation_quote": "hele Argobs slette, Og kongedømme i Basan"
-    },
-    {
-      "location": "html, 1 Mosebok 3:19",
-      "severity": "minor",
-      "source_quote": "In the sweat of thy face shalt thou eat bread",
-      "suggested_fix": "Erstatt «Med svett av ditt ansikt skal du spise brød» med «Med svette i ansiktet skal du spise brød».",
-      "translation_quote": "Med svett av ditt ansikt skal du spise brød"
-    },
-    {
-      "location": "html, avsnittet om Jesu liv og tjeneste",
-      "severity": "minor",
-      "source_quote": "He didn’t fit in, and He didn’t last long.",
-      "suggested_fix": "Erstatt «I realiteten passet Han ikke inn, og Han var ikke lengevarende» med «I realiteten passet Han ikke inn, og det gikk ikke lang tid før Han ble drept».",
-      "translation_quote": "I realiteten passet Han ikke inn, og Han var ikke lengevarende."
-    },
-    {
-      "location": "html, avsnittet som begynner «Kan du gå til de fortapte»",
-      "severity": "minor",
-      "source_quote": "forsake the comforts of this life … it’s a waste of good talent and opportunity",
-      "suggested_fix": "Erstatt «denne livets bekvemmeligheter» med «dette livets bekvemmeligheter» og «det er en bortkastet god evne og mulighet» med «det er sløsing med gode evner og muligheter».",
-      "translation_quote": "forlate denne livets bekvemmeligheter … det er en bortkastet god evne og mulighet"
-    },
-    {
-      "location": "html, avsnittet om kollegaens innrømmelse",
-      "severity": "minor",
-      "source_quote": "One day he soberly admitted that I seemed to be different",
-      "suggested_fix": "Erstatt «En dag erkjente han edruelig at jeg syntes annerledes» med «En dag innrømmet han alvorlig at jeg virket annerledes».",
-      "translation_quote": "En dag erkjente han edruelig at jeg syntes annerledes"
-    },
-    {
-      "location": "html, siste prosaavsnitt før diktet",
-      "severity": "minor",
-      "source_quote": "we find true peace and purpose for our lives",
-      "suggested_fix": "Erstatt «finner vi sann fred og livet formål» med «finner vi sann fred og et formål med livet».",
-      "translation_quote": "finner vi sann fred og livet formål"
-    },
-    {
-      "location": "html, diktets andre strofe",
-      "severity": "minor",
-      "source_quote": "And end the night of wrong.",
-      "suggested_fix": "Erstatt «Og end nattens urett» med «Og gjør slutt på urettens natt». Kildens bilde er en natt preget av urett.",
-      "translation_quote": "Og end nattens urett."
-    },
-    {
-      "location": "html, Apostlenes gjerninger 21:10-13, åpningen",
-      "severity": "minor",
-      "source_quote": "And as we tarried there many days",
-      "suggested_fix": "Erstatt «Og mens vi var der noen dager» med «Og mens vi oppholdt oss der i mange dager».",
-      "translation_quote": "Og mens vi var der noen dager"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-29T23:00:52+00:00",
   "id": "54bbfc88238eaf2ebc30e7be82fe2911",
   "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
   "language": "nob",
@@ -232,7 +160,7 @@
     }
   },
   "protected": false,
-  "quality_score": 86,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6.1-sol",
@@ -251,7 +179,7 @@
     "total_reserved_usd": 0.756493,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "c2cade59cf352799776fd92a600c879eb44ca1d1a7d3f31107b23708781aed47",
   "translation_model_actual": "gpt-6.1-sol"
