@@ -1,0 +1,178 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "5990874e-34d5-4e23-8be3-f99c582b61ce",
+    "response_id": "chatcmpl-EeIFvxbhBQEUoUsOBoubrxhJXjuMV",
+    "usage": {
+      "completion_tokens": 2357,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 53,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 11019,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 11016,
+        "cached_tokens": 0
+      },
+      "total_tokens": 13376
+    }
+  },
+  "received_at": "2026-10-29T12:22:43+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "html, openingsparagraaf, lys D-woorde",
+        "severity": "major",
+        "source_quote": "so many words with a negative connotation begin with the letter D: Disappointment, Doubt, Doleful",
+        "suggested_fix": "Verduidelik dat die oorspronklike Engelse woorde met D begin: “Dit lyk nogal toevallig dat soveel Engelse woorde met ’n negatiewe konnotasie met die letter D begin: Disappointment (teleurstelling), Doubt (twyfel), Doleful (droewig) …” Pas dieselfde formaat op die res van die lys toe.",
+        "translation_quote": "soveel woorde met ’n negatiewe konnotasie met die letter D begin: Teleurstelling, Twyfel, Droewig"
+      },
+      {
+        "location": "html, paragraaf met 2 Korintiërs 1:8-9",
+        "severity": "major",
+        "source_quote": "princes and paupers",
+        "suggested_fix": "Vervang “prins en armoede” met “prinse en armes”.",
+        "translation_quote": "prins en armoede"
+      },
+      {
+        "location": "html, …Die Onkunde van Ander, Numeri 11:14-15",
+        "severity": "major",
+        "source_quote": "kill me, I pray thee, out of hand, if I have found favour in thy sight",
+        "suggested_fix": "Gebruik “maak my tog dadelik dood, as ek guns in U oë gevind het”.",
+        "translation_quote": "slaan my dood asb. uit die hand, as ek gunsteling in u oë gevind het"
+      },
+      {
+        "location": "html, …Die Onkunde van Ander, Lukas 24:16",
+        "severity": "major",
+        "source_quote": "eyes were holden that they should not know him",
+        "suggested_fix": "Vervang die aanhaling met “hulle oë is daarvan weerhou om Hom te herken”, met behoud van die bestaande verwysing en HTML.",
+        "translation_quote": "oë gebly het, sodat hulle Hom nie sou ken nie"
+      },
+      {
+        "location": "html, …Rede, Genesis 32:24-28",
+        "severity": "major",
+        "source_quote": "until the breaking of the day",
+        "suggested_fix": "Vervang “tot die krag van die dag” met “tot dagbreek”.",
+        "translation_quote": "tot die krag van die dag"
+      },
+      {
+        "location": "html, …Rede, paragraaf ná Genesis 32:24-28",
+        "severity": "major",
+        "source_quote": "he limped away as a cripple with a crown",
+        "suggested_fix": "Gebruik “hy het as ’n kreupele met ’n kroon weggemank”. Verwyder die ongegronde verwysing na “roomse”.",
+        "translation_quote": "hy het weggeloop met ’n roomse mankheid as’t ware, maar met ’n kroon"
+      },
+      {
+        "location": "html, …Slegte Lot, Lukas 24:20",
+        "severity": "major",
+        "source_quote": "the chief priests and our rulers",
+        "suggested_fix": "Vervang “die hoëpriester” met “die owerpriesters”.",
+        "translation_quote": "die hoëpriester en ons owerhede"
+      },
+      {
+        "location": "html, …Slegte Lot, Job 3:1-6",
+        "severity": "major",
+        "source_quote": "There is a man child conceived",
+        "suggested_fix": "Vervang “’n Menskind is bevrug” met “’n Seuntjie is verwek”.",
+        "translation_quote": "’n Menskind is bevrug"
+      },
+      {
+        "location": "html, Gevolgtrekking, paragraaf oor Cleopas se reisgenoot",
+        "severity": "major",
+        "source_quote": "The scales fall from our eyes",
+        "suggested_fix": "Vervang “Die skale val van ons oë” met “Die skille val van ons oë”.",
+        "translation_quote": "Die skale val van ons oë"
+      },
+      {
+        "location": "html, gedig, derde reël",
+        "severity": "major",
+        "source_quote": "Thine eye diffused a quickening ray",
+        "suggested_fix": "Gebruik “U oog het ’n lewendmakende straal versprei”.",
+        "translation_quote": "U oë het ’n bemagtigende straal uitgestraal"
+      },
+      {
+        "location": "html, openingsparagraaf",
+        "severity": "minor",
+        "source_quote": "landed on a 50-mile stretch of beach",
+        "suggested_fix": "Gebruik “op ’n 50 myl lange strook strand … geland”.",
+        "translation_quote": "op ’n 50-myl-streek strand … aangeloop"
+      },
+      {
+        "location": "html, tweede prosa-paragraaf",
+        "severity": "minor",
+        "source_quote": "that dim and dismal evening; at one time or another; a melancholy mood",
+        "suggested_fix": "Vervang onderskeidelik met “daardie skemerige en somber aand”, “die een of ander tyd” en “’n droewige gemoed”.",
+        "translation_quote": "daardie dowwe en deurtrokke aand; eendag of ander; ’n droërige gemoed"
+      },
+      {
+        "location": "html, 2 Korintiërs 1:8-9 en 2 Korintiërs 1:9",
+        "severity": "minor",
+        "source_quote": "God which raiseth the dead",
+        "suggested_fix": "Vervang “doden” met “dooies” in albei aanhalings.",
+        "translation_quote": "God, wat die doden opwek; God wat die doden opwek"
+      },
+      {
+        "location": "html, …Die Onkunde van Ander, eerste paragraaf",
+        "severity": "minor",
+        "source_quote": "why the flags were flying at half-mast; the same incredulous answer; How can you be so ignorant?",
+        "suggested_fix": "Gebruik “waarom die vlae drie dae nadat die torings op 11 September geval het, halfstok gehang het”, “dieselfde ongelowige antwoord” en “Hoe kan jy so onkundig wees?”",
+        "translation_quote": "waarom die vlae halfstok drie dae nadat die torings geval het op 11 September; dieselfde ongelooflike antwoord; Hoe kan jy so onkundeig wees?"
+      },
+      {
+        "location": "html, …Rede, Genesis 32:24-28",
+        "severity": "minor",
+        "source_quote": "Jacob; power",
+        "suggested_fix": "Vervang “Jacob” met “Jakob” en “macht” met “mag”.",
+        "translation_quote": "Jacob; macht"
+      },
+      {
+        "location": "html, …Slegte Lot, prosa",
+        "severity": "minor",
+        "source_quote": "Though there may be a volley of good reciprocating them",
+        "suggested_fix": "Gebruik “Al mag daar ’n stroom goeie dinge na hulle toe terugkom”.",
+        "translation_quote": "Al mag daar ’n kanon van goedheid terugkeer"
+      },
+      {
+        "location": "html, …Gevoelens van Mislukking",
+        "severity": "minor",
+        "source_quote": "witnessed the thundering voice from heaven; This ministry earned him a secure place in a dark prison cell",
+        "suggested_fix": "Gebruik “die daverende stem uit die hemel gehoor” en “Hierdie bediening het hom ’n vaste plek in ’n donker tronksel besorg”.",
+        "translation_quote": "die daverende stem uit die hemel getuig; Hierdie bediening het vir hom ’n sekere plek in ’n donker tronk geeis"
+      },
+      {
+        "location": "html, Gevolgtrekking",
+        "severity": "minor",
+        "source_quote": "the soul reckoning; even spiritual pleasures ought not to be held too tightly; The traveling companion of Cleopas was never mentioned",
+        "suggested_fix": "Gebruik onderskeidelik “die diepgaande selfondersoek van die siel”, “dat ons selfs geestelike vreugdes nie te styf behoort vas te hou nie” en “Die reisgenoot van Cleopas word nooit genoem nie”.",
+        "translation_quote": "die sielerekening; selfs geestelike plesiertjies nie te styf vashou behoort te word nie; Die reisgenoot van Cleopas word nooit noem nie"
+      },
+      {
+        "location": "html, gedig, eerste en vierde reëls",
+        "severity": "minor",
+        "source_quote": "Long my imprisoned spirit lay; the dungeon flamed with light",
+        "suggested_fix": "Gebruik “Lank het my gevange gees gelê” en “die kerker het van lig gevlam”.",
+        "translation_quote": "Lang het my gevangenesgees gelê; die donkergat het met lig geflits"
+      },
+      {
+        "location": "html, figure/img/@alt",
+        "severity": "minor",
+        "source_quote": "Raised hands reaching toward a beam of light from a high window",
+        "suggested_fix": "Gebruik “Opgehewe hande reik na ’n ligstraal uit ’n hoë venster”.",
+        "translation_quote": "Opgeteënde hande reik na ’n straal lig uit ’n hoë venster"
+      },
+      {
+        "location": "section",
+        "severity": "minor",
+        "source_quote": "Victorious Christian Living",
+        "suggested_fix": "Gebruik die standaard-Afrikaanse vorm “Oorwinnende Christelike Lewe”.",
+        "translation_quote": "Overwinnende Christelike Lewe"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 76
+  }
+}
