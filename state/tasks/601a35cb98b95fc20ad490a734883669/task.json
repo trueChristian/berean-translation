@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "3a92656b627d4c30847d783462f57b28",
   "campaign": "auto-683e0e61c86201284f79389840a90f6219214d24099513cdd2a6897c5709bde2",
   "created_at": "2026-10-29T10:21:02+00:00",
   "events": [
@@ -48,25 +47,31 @@
         },
         "total_tokens": 3022
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 61,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 29,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 2199,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 1096,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 2260
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "translation.html：诗歌“但当你仰望……”一行",
-      "severity": "major",
-      "source_quote": "But what you see while gazing up to heights<br>\n    Which you cannot begin to comprehend",
-      "suggested_fix": "将“但当你仰望那不可企及的高处时，”改为“但当你仰望那你根本无法理解的高处时，”，保留现有 HTML 结构。",
-      "translation_quote": "但当你仰望那不可企及的高处时，"
-    },
-    {
-      "location": "translation.html：诗歌第2—3行",
-      "severity": "minor",
-      "source_quote": "And gazing up into the firmament<br>\n    Where stretches all of space, what do you see?",
-      "suggested_fix": "将这两行改为“仰望那苍穹，<br>\n    那整个宇宙伸展之处，你看见什么？”，使“空间伸展”仍是对苍穹的描述，而非另一个关于空间伸展在何处的问题。",
-      "translation_quote": "仰望那苍穹之际你看见什么？<br>\n    那无限空间在何处伸展，你可见？"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-29T18:42:02+00:00",
   "id": "601a35cb98b95fc20ad490a734883669",
   "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
   "language": "cmn",
@@ -155,7 +160,7 @@
     }
   },
   "protected": false,
-  "quality_score": 94,
+  "quality_score": 99,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6.1-sol",
@@ -174,7 +179,7 @@
     "total_reserved_usd": 0.678318,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "9f63ce21489f59d1f7dfd3768a5a0916d37d1327776d2e908763aee9fc396f13",
   "translation_model_actual": "gpt-6.1-sol"
