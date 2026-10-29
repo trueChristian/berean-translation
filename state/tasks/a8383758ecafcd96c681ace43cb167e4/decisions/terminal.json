@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "translation.html, div.lyrics, fjärde versens första rad",
+      "severity": "minor",
+      "source_quote": "Crown Him, ye martyrs of your God,",
+      "suggested_fix": "Ändra raden till: ”Kröna honom, ni martyrer för er Gud,” och behåll efterföljande <br>.",
+      "translation_quote": "Kröna honom, ni er Guds martyrer,"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

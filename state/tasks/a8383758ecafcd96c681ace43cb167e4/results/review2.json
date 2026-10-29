@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "4005c9cf-10bd-4f64-a395-559a04ced781",
+    "response_id": "chatcmpl-EeQtg0T1xw4hiBQFCqGo9Y9rJot5r",
+    "usage": {
+      "completion_tokens": 173,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 54,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5753,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4650,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 5926
+    }
+  },
+  "received_at": "2026-10-29T20:28:06+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "translation.html, div.lyrics, fjärde versens första rad",
+        "severity": "minor",
+        "source_quote": "Crown Him, ye martyrs of your God,",
+        "suggested_fix": "Ändra raden till: ”Kröna honom, ni martyrer för er Gud,” och behåll efterföljande <br>.",
+        "translation_quote": "Kröna honom, ni er Guds martyrer,"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 97
+  }
+}

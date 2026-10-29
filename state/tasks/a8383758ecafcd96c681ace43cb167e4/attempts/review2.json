@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-29T20:28:06+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"translation.html, div.lyrics, fjärde versens första rad\",\"severity\":\"minor\",\"source_quote\":\"Crown Him, ye martyrs of your God,\",\"suggested_fix\":\"Ändra raden till: ”Kröna honom, ni martyrer för er Gud,” och behåll efterföljande <br>.\",\"translation_quote\":\"Kröna honom, ni er Guds martyrer,\"}],\"findings_complete\":true,\"passed\":true,\"score\":97}",
+    "content_bytes": 380,
+    "content_evidence_truncated": false,
+    "content_sha256": "1e5e51e6bb68ab6a4517e46dd86ddd663aae0fb3845a8ae830bc6d54d2582b31",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 173,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 54,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5753,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4650,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 5926
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 1
+}
