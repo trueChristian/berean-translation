@@ -2710,6 +2710,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/afr/articles/8ef84e9e-0a7f-4a0b-8b7d-4e3a10f611e8.html",
+      "html_sha256": "1cb2538dfdd97d6ebf0116e39755da0dc657d33d89171cd59a01c28a44a6649e",
+      "human_reviewed": false,
+      "id": "8ef84e9e-0a7f-4a0b-8b7d-4e3a10f611e8",
+      "images": [
+        {
+          "alt": "Pienk kosmosblomme teen 'n sag vervaagde agtergrond",
+          "public_path": "/images/articles/8ef84e9e-0a7f-4a0b-8b7d-4e3a10f611e8-1.jpg"
+        }
+      ],
+      "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
+      "language": "afr",
+      "language_tag": "af",
+      "metadata": "content/afr/articles/8ef84e9e-0a7f-4a0b-8b7d-4e3a10f611e8.json",
+      "metadata_sha256": "b9f43c55d8ae8bf29c664fa8bbe5a496de2a03a651f25a7d48d54081530059fb",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "Kinderhoek",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "d141263ef5e8a0b21b848818d2926b208c06eeac97c84e44af137498d97ac1dd",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Die belofte van ’n lied",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/afr/articles/8f996405-d870-4074-947b-35190faad643.html",
       "html_sha256": "e10832be6ab21643ebee079630b4c08e047b47dbeadaecd61efda684459c521c",
       "human_reviewed": false,
@@ -6219,6 +6247,29 @@
     {
       "ai_notice_required": true,
       "direction": "rtl",
+      "html": "content/ara/articles/6080d813-75a2-4123-9552-3c4f75c81219.html",
+      "html_sha256": "e2dd20bc6c2cf7c7542ece2c5872298d55314cfe9adb37d879d81c8f15c94517",
+      "human_reviewed": false,
+      "id": "6080d813-75a2-4123-9552-3c4f75c81219",
+      "images": [],
+      "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
+      "language": "ara",
+      "language_tag": "ar",
+      "metadata": "content/ara/articles/6080d813-75a2-4123-9552-3c4f75c81219.json",
+      "metadata_sha256": "14198ecee5e11551c516a119d2339fc4ff2297b77b347410bcdc224944c2aa14",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "القضايا التي تواجه الكنيسة",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "f7d8a08704733486f924816fbfd515b7c40bf25c984ecd111bf0fe403aaa2dde",
+      "status": "ready",
+      "subtitle": null,
+      "title": "لماذا لم أتلقَّ حقنة كوفيد",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
       "html": "content/ara/articles/60de3363-d9fc-4137-ad60-dee9097b154b.html",
       "html_sha256": "a008e136cc04f1fbe336dc6bd52b3bdc5dd7e0e779100968d24b872d971faee6",
       "human_reviewed": false,
@@ -6982,6 +7033,34 @@
     {
       "ai_notice_required": true,
       "direction": "rtl",
+      "html": "content/ara/articles/8ef84e9e-0a7f-4a0b-8b7d-4e3a10f611e8.html",
+      "html_sha256": "721f4c88ef208526c5ed2798803d12938db246148186eebe525675b0dd9bc08b",
+      "human_reviewed": false,
+      "id": "8ef84e9e-0a7f-4a0b-8b7d-4e3a10f611e8",
+      "images": [
+        {
+          "alt": "زهور كوزموس وردية أمام خلفية ضبابية ناعمة",
+          "public_path": "/images/articles/8ef84e9e-0a7f-4a0b-8b7d-4e3a10f611e8-1.jpg"
+        }
+      ],
+      "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
+      "language": "ara",
+      "language_tag": "ar",
+      "metadata": "content/ara/articles/8ef84e9e-0a7f-4a0b-8b7d-4e3a10f611e8.json",
+      "metadata_sha256": "a482dc116556cf080f594c8556a4eb4408f4cc3a0004348f75c5b68e3fc95570",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "ركن الأطفال",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "d141263ef5e8a0b21b848818d2926b208c06eeac97c84e44af137498d97ac1dd",
+      "status": "ready",
+      "subtitle": null,
+      "title": "وعد بترنيمة",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
       "html": "content/ara/articles/8f36dee3-685c-47b8-b1d4-9981806d4cd5.html",
       "html_sha256": "a792b6137f3cf1e7b719a3b633fceffdd096f0162b35c98f35a236a7af5b5993",
       "human_reviewed": false,
@@ -7592,6 +7671,34 @@
       "status": "ready",
       "subtitle": null,
       "title": "جامين يزداد فطنة",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
+      "html": "content/ara/articles/aa8352a7-2d4a-49db-9454-7a0350ad3118.html",
+      "html_sha256": "29ebe3cf7c3dc23f1b04af90009205f9503bd8cf41d47f1cd681cc2b59f8eea6",
+      "human_reviewed": false,
+      "id": "aa8352a7-2d4a-49db-9454-7a0350ad3118",
+      "images": [
+        {
+          "alt": "شخص وحيد يرتدي غطاء رأس ويحمل حقيبة ظهر، جالس في موضع مرتفع فوق منظر طبيعي يلفّه الضباب",
+          "public_path": "/images/articles/aa8352a7-2d4a-49db-9454-7a0350ad3118-1.jpg"
+        }
+      ],
+      "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
+      "language": "ara",
+      "language_tag": "ar",
+      "metadata": "content/ara/articles/aa8352a7-2d4a-49db-9454-7a0350ad3118.json",
+      "metadata_sha256": "678577d015824d7c5d06565b6ae28543b2172f63dcb6e144e9676d74e9d37036",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "كلمة من طبيب",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "ac1550aa6190c351e44ee2dfa7e315442d61cbcd47e9044576f72bbc92b99432",
+      "status": "ready",
+      "subtitle": null,
+      "title": "العزلة",
       "translation_model": "gpt-6.1-sol"
     },
     {
@@ -15635,6 +15742,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/cmn/articles/aa8352a7-2d4a-49db-9454-7a0350ad3118.html",
+      "html_sha256": "3def1ae671075128586b2b46db2597bff5d7d58fd2137391e4af27934e8b88fc",
+      "human_reviewed": false,
+      "id": "aa8352a7-2d4a-49db-9454-7a0350ad3118",
+      "images": [
+        {
+          "alt": "一个戴着兜帽、背着背包的人独自坐在高处，下方是薄雾弥漫的景色",
+          "public_path": "/images/articles/aa8352a7-2d4a-49db-9454-7a0350ad3118-1.jpg"
+        }
+      ],
+      "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
+      "language": "cmn",
+      "language_tag": "zh-Hans",
+      "metadata": "content/cmn/articles/aa8352a7-2d4a-49db-9454-7a0350ad3118.json",
+      "metadata_sha256": "996957094b38599559648c24dce113752351dc962555a6f76fe31476b09df760",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "来自医生的话",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "ac1550aa6190c351e44ee2dfa7e315442d61cbcd47e9044576f72bbc92b99432",
+      "status": "ready",
+      "subtitle": null,
+      "title": "孤立",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/cmn/articles/ab1fe2c9-0a16-4e79-a53e-4c2d703b0e46.html",
       "html_sha256": "36dda31469e2c31c840171e2385267bb4940a5f515ece7e7d4a88b94ffcc68a3",
       "human_reviewed": false,
@@ -18593,6 +18728,29 @@
       "subtitle": null,
       "title": "Aus der Redaktion",
       "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/deu/articles/7b699913-16ec-4087-9e0c-ca867e750d90.html",
+      "html_sha256": "338a8d6f41d62ab64eddce31ee8216e00cfa22e1e5dd93f9673f6b14d9b27561",
+      "human_reviewed": false,
+      "id": "7b699913-16ec-4087-9e0c-ca867e750d90",
+      "images": [],
+      "issue_id": "07955de4-6574-4a4b-9c1b-f216374c02ee",
+      "language": "deu",
+      "language_tag": "de",
+      "metadata": "content/deu/articles/7b699913-16ec-4087-9e0c-ca867e750d90.json",
+      "metadata_sha256": "27fe9c1560f0b6cb21e4fcfea045297cfde35f04005c7c84545120341f9359b1",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "EIN MODERNES PFINGSTEN",
+      "source_revision": "77453848868ffdd6736c58e8c072c5ee12108fc7",
+      "source_translation_key": "1315978de59dd7f19963e32b3d6817620d4fa742c752925c8fc16eb77ce4ccc6",
+      "status": "ready",
+      "subtitle": "Die Mährer und Graf Zinzendorf",
+      "title": "KRAFT AUS DER HÖHE",
+      "translation_model": "gpt-6.1-sol"
     },
     {
       "ai_notice_required": true,
@@ -30579,6 +30737,34 @@
       "subtitle": null,
       "title": "מהעורך",
       "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
+      "html": "content/heb/articles/53e8b534-1f5e-4d9d-b191-99707a404256.html",
+      "html_sha256": "738a03639ddcb13e0ef42b9eb87b4c419bb5f5d88e2862cecbbf1cdc5dea61ee",
+      "human_reviewed": false,
+      "id": "53e8b534-1f5e-4d9d-b191-99707a404256",
+      "images": [
+        {
+          "alt": "עמק מדברי רחב מתחת לרכסי הרים מדורגים ולעננים",
+          "public_path": "/images/articles/53e8b534-1f5e-4d9d-b191-99707a404256-1.jpg"
+        }
+      ],
+      "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
+      "language": "heb",
+      "language_tag": "he",
+      "metadata": "content/heb/articles/53e8b534-1f5e-4d9d-b191-99707a404256.json",
+      "metadata_sha256": "85d7e51bc64b6a7ab047cffcf3f26b214bbfbf5348e9021902dba4e1dddab2d4",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "עיונים בדמויות",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "fa6973e1c0869cf8ea44c825b0af02960182750ad2e2fbf60dce9af0c7f03feb",
+      "status": "ready",
+      "subtitle": null,
+      "title": "משה במדין",
+      "translation_model": "gpt-6.1-sol"
     },
     {
       "ai_notice_required": true,
@@ -49287,6 +49473,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/kor/articles/aa8352a7-2d4a-49db-9454-7a0350ad3118.html",
+      "html_sha256": "4c429a12398df14c3a2d9b81413462d2dfc1e27b0ba20f1227c04cbcaff49b03",
+      "human_reviewed": false,
+      "id": "aa8352a7-2d4a-49db-9454-7a0350ad3118",
+      "images": [
+        {
+          "alt": "안개 낀 풍경이 내려다보이는 곳에 배낭을 메고 후드를 쓴 채 홀로 앉아 있는 사람",
+          "public_path": "/images/articles/aa8352a7-2d4a-49db-9454-7a0350ad3118-1.jpg"
+        }
+      ],
+      "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
+      "language": "kor",
+      "language_tag": "ko",
+      "metadata": "content/kor/articles/aa8352a7-2d4a-49db-9454-7a0350ad3118.json",
+      "metadata_sha256": "9e63151f83e306b47b9d91d562f181981163139f1361ab4d68d94621028d2c1d",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "의사의 한 말씀",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "ac1550aa6190c351e44ee2dfa7e315442d61cbcd47e9044576f72bbc92b99432",
+      "status": "ready",
+      "subtitle": null,
+      "title": "고립",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/kor/articles/ab1fe2c9-0a16-4e79-a53e-4c2d703b0e46.html",
       "html_sha256": "f286f5f1ca2eed777010fe0bf7841a2db887fe1099c04c6ee8399dcb64dd1223",
       "human_reviewed": false,
@@ -53745,6 +53959,34 @@
       "subtitle": null,
       "title": "Jamin wordt wijzer",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/nld/articles/aa8352a7-2d4a-49db-9454-7a0350ad3118.html",
+      "html_sha256": "beac92b1426eb0aef5b3f8f8920e2c46ad12f652b45f118a8e832ce8291cbb2c",
+      "human_reviewed": false,
+      "id": "aa8352a7-2d4a-49db-9454-7a0350ad3118",
+      "images": [
+        {
+          "alt": "Alleen zittende persoon met een capuchon en een rugzak boven een mistig landschap",
+          "public_path": "/images/articles/aa8352a7-2d4a-49db-9454-7a0350ad3118-1.jpg"
+        }
+      ],
+      "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
+      "language": "nld",
+      "language_tag": "nl",
+      "metadata": "content/nld/articles/aa8352a7-2d4a-49db-9454-7a0350ad3118.json",
+      "metadata_sha256": "9ff01ab84ac905d5a5c9371a4e8af479ac4ffde23315b9d7fbd2e8163cc3795f",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "Een woord van een arts",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "ac1550aa6190c351e44ee2dfa7e315442d61cbcd47e9044576f72bbc92b99432",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Isolement",
+      "translation_model": "gpt-6.1-sol"
     },
     {
       "ai_notice_required": true,
