@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-29T20:41:54+00:00",
+  "response": {
+    "content": "{\n  \"html\": \"<article data-article-id=\\\"713c3d95-5295-421e-9ca7-3cd2cc1643d9\\\">\\n  <figure>\\n    <img src=\\\"/images/articles/713c3d95-5295-421e-9ca7-3cd2cc1643d9-1.jpg\\\" alt=\\\"Pohon hijau sepanjang tahun di tepi danau, dengan semak-semak dan lereng gunung yang tertutup salju.\\\">\\n  </figure>\\n  <p class=\\\"poem\\\"><strong><em>Saat dinding-dinding gunung menghadang jalan.<br>\\nMengapa duduk menangis? Bangkitlah dan katakan<br>\\n“Bergeserlah,” maka gunung-gunung itu akan<br>\\nOleh kuasa Allah, tercampak ke laut.</em></strong></p>\\n  <p class=\\\"poem\\\"><strong><em>Segala kuasa di bumi, segala kuasa di surga,<br>\\nDiberikan kepada Kristus, Putra Allah;<br>\\nDan dari takhta-Nya Dia akan mengaruniakan kuasa,<br>\\nDan segala rintangan akan menjauh darimu.</em></strong></p>\\n  <p class=\\\"poem\\\"><strong><em>Atas segala kuasa roh jahat dan manusia,<br>\\nBerkatalah melalui Tuhan, “Aku pasti mampu,”<br>\\nTerimalah dari-Nya kuasa di bumi untuk menginjak,<br>\\nMenginjak sengat ular, menginjak kepala naga.</em></strong></p>\\n  <p class=\\\"poem\\\"><strong><em>Wahai gunung yang tinggi, apa pun dirimu,<br>\\nDi mana pun engkau berada, di bumi atau di langit,<br>\\nKapan pun engkau ada, kebenarannya tetap sama,<br>\\n“Bergeserlah dalam nama Yesus.”</em></strong></p>\\n  <p class=\\\"poem\\\"><strong><em>“Bergeserlah,” iman menyuruhmu mulai bergerak,<br>\\nLihat ke sana—bangkitlah! Pergilah!<br>\\nAku boleh, aku mampu, aku harus, aku akan,<br>\\nMenggenapi maksud Allahku.</em></strong></p>\\n</article>\\n\",\n  \"section\": null,\n  \"subtitle\": null,\n  \"title\": \"Otoritas\"\n}",
+    "content_bytes": 1575,
+    "content_evidence_truncated": false,
+    "content_sha256": "b26840afe955f886cf01ccd0e21e102c619e905a7d004ac4f9059368e4cf3b9f",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 594,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 45,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2138,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1103,
+        "cached_tokens": 1032
+      },
+      "total_tokens": 2732
+    }
+  },
+  "review_attempts": 0,
+  "stage": "correct",
+  "translation_attempts": 1
+}
