@@ -7316,6 +7316,34 @@
     {
       "ai_notice_required": true,
       "direction": "rtl",
+      "html": "content/ara/articles/964d8688-6491-4ede-9271-c923db4c4079.html",
+      "html_sha256": "a66884e4a0a76889deae667bb9a9c49f646141aaf0b54906243b53276ee20619",
+      "human_reviewed": false,
+      "id": "964d8688-6491-4ede-9271-c923db4c4079",
+      "images": [
+        {
+          "alt": "قارب صيد خشبي أثّرت فيه عوامل الطقس يطفو على مياه هادئة",
+          "public_path": "/images/articles/964d8688-6491-4ede-9271-c923db4c4079-1.jpg"
+        }
+      ],
+      "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
+      "language": "ara",
+      "language_tag": "ar",
+      "metadata": "content/ara/articles/964d8688-6491-4ede-9271-c923db4c4079.json",
+      "metadata_sha256": "388c03a155675e1438f44f4facf43ebb0b7a9579d84a219c87103dce19bd7488",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "الكنيسة في العهد الجديد",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "1a9a048cb09f8defedfe227e6b286e8b931f833f4da6a1d1e6b5d1175b0c84c0",
+      "status": "ready",
+      "subtitle": null,
+      "title": "الدعوة إلى التلمذة",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
       "html": "content/ara/articles/96e445d4-5f1d-469c-a807-d0f1e297bb1f.html",
       "html_sha256": "61499b2c789951d122ac2aacc0c0e1d5d57566d4efc212d596bf873e6fa45b02",
       "human_reviewed": false,
@@ -11410,6 +11438,34 @@
       "subtitle": null,
       "title": "বিস্ময়কর অনুগ্রহ",
       "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/ben/articles/964d8688-6491-4ede-9271-c923db4c4079.html",
+      "html_sha256": "4e4ad3847c9238890b4d0c90220b6d26fac50cf6c93af0d79788aae2573a4602",
+      "human_reviewed": false,
+      "id": "964d8688-6491-4ede-9271-c923db4c4079",
+      "images": [
+        {
+          "alt": "রোদ-বৃষ্টিতে জীর্ণ কাঠের মাছ ধরার নৌকা শান্ত জলে ভাসছে",
+          "public_path": "/images/articles/964d8688-6491-4ede-9271-c923db4c4079-1.jpg"
+        }
+      ],
+      "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
+      "language": "ben",
+      "language_tag": "bn",
+      "metadata": "content/ben/articles/964d8688-6491-4ede-9271-c923db4c4079.json",
+      "metadata_sha256": "511a9cd6236223104c07c2c9411fc4dcaa1068fc753ecdbbf0b6607a89ca01e5",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "নতুন নিয়মের মণ্ডলী",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "1a9a048cb09f8defedfe227e6b286e8b931f833f4da6a1d1e6b5d1175b0c84c0",
+      "status": "ready",
+      "subtitle": null,
+      "title": "শিষ্যত্বের আহ্বান",
+      "translation_model": "gpt-6.1-sol"
     },
     {
       "ai_notice_required": true,
@@ -24671,6 +24727,34 @@
       "subtitle": null,
       "title": "Σήκω και αγαλλιάσου!",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/ell/articles/f09d8cd5-b48f-470f-936f-263e6940b6bd.html",
+      "html_sha256": "422d2a645c48797d0aee40d93216f7748da1dba82455b7271125753372b76ac3",
+      "human_reviewed": false,
+      "id": "f09d8cd5-b48f-470f-936f-263e6940b6bd",
+      "images": [
+        {
+          "alt": "Παρτιτούρα για το «Δοξάστε όλοι τη δύναμη του ονόματος του Ιησού», μελωδία DIADEM C. M. με ρεφρέν",
+          "public_path": "/images/articles/f09d8cd5-b48f-470f-936f-263e6940b6bd-1.png"
+        }
+      ],
+      "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
+      "language": "ell",
+      "language_tag": "el",
+      "metadata": "content/ell/articles/f09d8cd5-b48f-470f-936f-263e6940b6bd.json",
+      "metadata_sha256": "434fca3b0a343055559e3c057c45ecabf9cc61b9796b2fedbb444d34a1e963cf",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "Ιστορία ενός ύμνου",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "47590defb50af0ad3c498d9cc77626f00551d9639dd8391778097cb5eb70f00a",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Δοξάστε όλοι τη δύναμη του ονόματος του Ιησού",
+      "translation_model": "gpt-6.1-sol"
     },
     {
       "ai_notice_required": true,
@@ -50903,6 +50987,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/kor/articles/fe4a7487-2a8a-47c1-96c1-cecbfccbc0dd.html",
+      "html_sha256": "530d9e7d1c10f741fb67c66c66407e245c3459606155574f7d516bbc31a12a50",
+      "human_reviewed": false,
+      "id": "fe4a7487-2a8a-47c1-96c1-cecbfccbc0dd",
+      "images": [
+        {
+          "alt": "엘리자베스 허시버거 바우만의 《불타는 숯불》 표지",
+          "public_path": "/images/articles/fe4a7487-2a8a-47c1-96c1-cecbfccbc0dd-1.jpg"
+        }
+      ],
+      "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
+      "language": "kor",
+      "language_tag": "ko",
+      "metadata": "content/kor/articles/fe4a7487-2a8a-47c1-96c1-cecbfccbc0dd.json",
+      "metadata_sha256": "cdb7e65c959d13c8ed9018c02ce95fb93e331c6d207a5b2b76001a2eaf257fea",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "서가",
+      "source_revision": "992debda63d6be4a08362d2a463694f3df221977",
+      "source_translation_key": "6b160f8e80ff37efb0c85d952562627a67b0b80775d2b2f8b70bbf018d639db8",
+      "status": "ready",
+      "subtitle": null,
+      "title": "불타는 숯불",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/kor/articles/fe94355d-8741-49a7-8f66-16003daa3f89.html",
       "html_sha256": "823739519f4579103204f4c395b78ecc031458b3f4fa9547672a92243cc4f930",
       "human_reviewed": false,
@@ -57326,6 +57438,34 @@
       "subtitle": "Hvordan vanlige tenåringer kan få mest mulig ut av ungdomstiden",
       "title": "Få mest mulig ut av tenårene dine",
       "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/nob/articles/64012528-bcec-4189-96b5-32a226869815.html",
+      "html_sha256": "48196fc8cc37da03815be4592bc08e939e0b092efb0af58e125a757809055093",
+      "human_reviewed": false,
+      "id": "64012528-bcec-4189-96b5-32a226869815",
+      "images": [
+        {
+          "alt": "Siluett av en person som løfter begge hender mot en varm himmel",
+          "public_path": "/images/articles/64012528-bcec-4189-96b5-32a226869815-1.jpg"
+        }
+      ],
+      "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
+      "language": "nob",
+      "language_tag": "nb",
+      "metadata": "content/nob/articles/64012528-bcec-4189-96b5-32a226869815.json",
+      "metadata_sha256": "156e365386a7e0d45073d3d9eff24efba432c80e3d465ed7483c03de3a03995e",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": null,
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "d3039e8a7435ad2aa47f35b4e0fb141ac2e3a33d821a15ea791fb1606c9c02fa",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Kampen som raser",
+      "translation_model": "gpt-5-mini-2025-08-07"
     },
     {
       "ai_notice_required": true,
@@ -65961,6 +66101,34 @@
       "subtitle": null,
       "title": "Воробьи",
       "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/rus/articles/30d02d2c-805c-437c-ad10-4542362ab6de.html",
+      "html_sha256": "763a32b6780ff4146ad6937c3038d1b0a78c0ef3e30c7cba26e90e7dd8dd588d",
+      "human_reviewed": false,
+      "id": "30d02d2c-805c-437c-ad10-4542362ab6de",
+      "images": [
+        {
+          "alt": "Поднятые руки тянутся к лучу света из высокого окна",
+          "public_path": "/images/articles/30d02d2c-805c-437c-ad10-4542362ab6de-1.jpg"
+        }
+      ],
+      "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
+      "language": "rus",
+      "language_tag": "ru",
+      "metadata": "content/rus/articles/30d02d2c-805c-437c-ad10-4542362ab6de.json",
+      "metadata_sha256": "5139176c49c6a099cb2742dd7851565c7494ef546d969a44c5f76eaa6e2ee810",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "Победоносная христианская жизнь",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "ceb52dc3bb5b5ab212a3930b445c8849f8521bc253df2cec9d019d90e889292e",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Дорога в Эммаус",
+      "translation_model": "gpt-6.1-sol"
     },
     {
       "ai_notice_required": true,
@@ -75651,6 +75819,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/swa/articles/6f528c85-5ee6-4ccd-804f-63652b5c3a1d.html",
+      "html_sha256": "d211e57e290adecee9c7ccdedce90190095aca8bd3b7e1727bee1c9ff6845411",
+      "human_reviewed": false,
+      "id": "6f528c85-5ee6-4ccd-804f-63652b5c3a1d",
+      "images": [
+        {
+          "alt": "Tufe la dunia lenye rangi nyeusi na nyeupe, Afrika ikiwa katikati",
+          "public_path": "/images/articles/6f528c85-5ee6-4ccd-804f-63652b5c3a1d-1.png"
+        }
+      ],
+      "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
+      "language": "swa",
+      "language_tag": "sw",
+      "metadata": "content/swa/articles/6f528c85-5ee6-4ccd-804f-63652b5c3a1d.json",
+      "metadata_sha256": "51e469a3339141b96023822b2734fdd355e8c8f2eab917c99f4dd995dd1c6f84",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": null,
+      "source_revision": "d736713df08f5b60d8496307771de20eb1237d0b",
+      "source_translation_key": "777174504c2a69b7865dc06d6a82e4887ccbbba320896ef87aad1241b41a3dbe",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Sisi ni Wakristo wa Ulimwengu",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/swa/articles/706a8a3f-0194-434e-a3c9-27c1635ec6f9.html",
       "html_sha256": "9b4478c39e114192721c14e19b6604a34261aac856adc678e4f40af80784e78b",
       "human_reviewed": false,
@@ -81620,6 +81816,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/swe/articles/f09d8cd5-b48f-470f-936f-263e6940b6bd.html",
+      "html_sha256": "d6ae9aaabd6d30ffb22c1a94390c33062d67d4f319a95fc73d86750a7d0ec27c",
+      "human_reviewed": false,
+      "id": "f09d8cd5-b48f-470f-936f-263e6940b6bd",
+      "images": [
+        {
+          "alt": "Notblad för Hylla kraften i Jesu namn, melodi DIADEM C. M. med refräng",
+          "public_path": "/images/articles/f09d8cd5-b48f-470f-936f-263e6940b6bd-1.png"
+        }
+      ],
+      "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
+      "language": "swe",
+      "language_tag": "sv",
+      "metadata": "content/swe/articles/f09d8cd5-b48f-470f-936f-263e6940b6bd.json",
+      "metadata_sha256": "8672af307e93944d5206c3739e6dd1aff14879a0f508f5926af93981ce10e612",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "En hymns historia",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "47590defb50af0ad3c498d9cc77626f00551d9639dd8391778097cb5eb70f00a",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Hylla kraften i Jesu namn",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/swe/articles/f21c4f39-9508-4f75-9e0c-0c68468c41f8.html",
       "html_sha256": "fd8e4663421191bdc4667ffc55f03d3d873e6f06e9669476cbfb867fc91e6d76",
       "human_reviewed": false,
@@ -84788,6 +85012,38 @@
       "subtitle": null,
       "title": "اگر جنت حقیقت ہے",
       "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
+      "html": "content/urd/articles/9b13e502-993c-4536-a32d-ae1a62c36db5.html",
+      "html_sha256": "1c28ed82e68b8483e8041f6a4884fceb8fb5fd1970a89e7f8979a7632e07f188",
+      "human_reviewed": false,
+      "id": "9b13e502-993c-4536-a32d-ae1a62c36db5",
+      "images": [
+        {
+          "alt": "زنجیر والا کالر پہنے ایک دھاریلا کتا",
+          "public_path": "/images/articles/9b13e502-993c-4536-a32d-ae1a62c36db5-1.png"
+        },
+        {
+          "alt": "خزاں میں ایک نشیب و فراز والی دیہاتی وادی میں پھیلے کھیت اور عمارتیں",
+          "public_path": "/images/articles/9b13e502-993c-4536-a32d-ae1a62c36db5-2.jpg"
+        }
+      ],
+      "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
+      "language": "urd",
+      "language_tag": "ur",
+      "metadata": "content/urd/articles/9b13e502-993c-4536-a32d-ae1a62c36db5.json",
+      "metadata_sha256": "b55c26593cfb0f750f333518cf879a0c5e4d42810c5e297f4bb19943ed5ebb4a",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "بچوں کا گوشہ",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "43018ca4d833731da041bc1c8a060c15dfbd02213a994c8e32afb6dc0309d037",
+      "status": "ready",
+      "subtitle": null,
+      "title": "“شیر” کے منہ سے نجات",
+      "translation_model": "gpt-6.1-sol"
     },
     {
       "ai_notice_required": true,

@@ -1226,6 +1226,9 @@
     "version": 1
   },
   "status": "active",
+  "task_counts": {
+    "queued": 1
+  },
   "tasks": [
     "cf4bf53a7050be6c20be17e24f278349"
   ]
