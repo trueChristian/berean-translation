@@ -1,0 +1,217 @@
+{
+  "findings": [
+    {
+      "location": "প্রথম অনুচ্ছেদ, যাত্রাপুস্তক ৩:১-এর উদ্ধৃতি",
+      "severity": "major",
+      "source_quote": "Jethro his father-in-law, the priest of Midian",
+      "suggested_fix": "সংশ্লিষ্ট অংশটি করুন: ‘মোসা তাঁর শ্বশুর, মিদিয়ানের পুরোহিত যিত্রোর পাল চরাচ্ছিলেন; তিনি পালটিকে মরুভূমির পশ্চাৎপ্রান্তে নিয়ে ঈশ্বরের পর্বত হোরেবে এলেন’। বিদ্যমান <em> ট্যাগ অক্ষুণ্ণ রাখুন।",
+      "translation_quote": "তার সৎবাবা যিত্রোর ভেড়া রাখিত; মিদিয়ানেশ্বর পুরোহিতের"
+    },
+    {
+      "location": "দ্বিতীয় অনুচ্ছেদ",
+      "severity": "major",
+      "source_quote": "He has instructed many of His servants",
+      "suggested_fix": "‘তিনি তাঁর অনেক সেবককে শিক্ষা দিয়েছেন’ লিখুন।",
+      "translation_quote": "তিনি অনেক তাঁর আত্মাগুলিকে শিক্ষা দিয়েছেন"
+    },
+    {
+      "location": "দ্বিতীয় অনুচ্ছেদ, প্রেরিত ৭:২২–২৩-এর উদ্ধৃতি",
+      "severity": "major",
+      "source_quote": "to visit his brethren the children of Israel",
+      "suggested_fix": "‘তাঁর স্বজাতীয় ভাইদের, অর্থাৎ ইস্রায়েলীয়দের দেখতে যাওয়ার’ লিখুন। এখানে ‘children’ বলতে শিশু নয়, ইস্রায়েলের বংশধরদের বোঝানো হয়েছে।",
+      "translation_quote": "তাহার ভাইদের, ইসরায়েলের শিশুদের দেখিবার"
+    },
+    {
+      "location": "তৃতীয় অনুচ্ছেদ",
+      "severity": "major",
+      "source_quote": "too little confidence in God and too much confidence in the flesh",
+      "suggested_fix": "‘ঈশ্বরের ওপর খুব কম আস্থা এবং নিজস্ব মানবীয় শক্তির ওপর অতিরিক্ত আস্থা’ লিখুন।",
+      "translation_quote": "ঈশ্বরের প্রতি অপ্রচুর আত্মবিশ্বাস এবং মানসিক দেহে অতিরিক্ত আত্মনির্ভরতা"
+    },
+    {
+      "location": "তৃতীয় অনুচ্ছেদ",
+      "severity": "major",
+      "source_quote": "This pride and restlessness ... it is extracted from the soul ... yield to what may seem to be inactivity, unfruitfulness, and rejection",
+      "suggested_fix": "সংশ্লিষ্ট বাক্যগুলি করুন: ‘ঈশ্বরের অনেক সেবকের আত্মা থেকে এই গর্ব ও অস্থিরতা নির্জন মরুভূমির বালুতেই দূর করা হয়। ... সেখানে অনেক সেবক ধুলোয় মুখ নত করতে এবং আপাত নিষ্ক্রিয়তা, নিষ্ফলতা ও প্রত্যাখ্যানের অবস্থাকে মেনে নিতে শেখেন।’",
+      "translation_quote": "এই উপাদান তাদের আত্মা থেকে ... আহরণ করা হয় ... মুখ ধুলোয় বসিয়ে নির্গমন, যা inactivity"
+    },
+    {
+      "location": "মোসার জীবনের তিন পর্যায়ের অনুচ্ছেদ",
+      "severity": "major",
+      "source_quote": "a final forty as the shepherd of Israel",
+      "suggested_fix": "‘এবং শেষ চল্লিশ বছর ইস্রায়েলের পালক হিসেবে কাটিয়েছিলেন’ লিখুন; ‘শ্রেষ্ঠ’ অপসারণ করুন।",
+      "translation_quote": "শেষ চল্লিশ বছর ইসরায়েলের শ্রেষ্ঠ পাস্টর হিসেবে কেটেছে"
+    },
+    {
+      "location": "ফারাওর কন্যার উদ্ধারের অনুচ্ছেদ",
+      "severity": "major",
+      "source_quote": "The miraculous river rescue by Pharoah’s daughter",
+      "suggested_fix": "‘ফারাওর কন্যা কর্তৃক নদী থেকে তাঁর অলৌকিক উদ্ধার’ লিখুন। উৎসে কোনো নদীর নাম নেই।",
+      "translation_quote": "ফারাওর কন্যার সরস্বতী নদীর অলৌকিক উদ্ধারে"
+    },
+    {
+      "location": "নেতৃত্বের যোগ্যতা-বিষয়ক অনুচ্ছেদ",
+      "severity": "major",
+      "source_quote": "above-normal natural, financial, and spiritual endowments",
+      "suggested_fix": "‘তাঁর সহজাত সামর্থ্য, আর্থিক সংস্থান ও আত্মিক দান ছিল সাধারণের চেয়ে বেশি’ লিখুন।",
+      "translation_quote": "স্বাভাবিক, আর্থিক ও আত্মিক উপহারের উপরে-সামান্য সম্পদ"
+    },
+    {
+      "location": "মিদিয়ানের বিদ্যালয়ে ভর্তির অনুচ্ছেদ",
+      "severity": "major",
+      "source_quote": "disappointment and rejection, obscurity and loneliness, and unfulfilled dreams and longings",
+      "suggested_fix": "তালিকাটি করুন: ‘হতাশা ও প্রত্যাখ্যান, অখ্যাতি ও একাকীত্ব এবং অপূর্ণ স্বপ্ন ও আকাঙ্ক্ষার তিক্ত অভিজ্ঞতা’।",
+      "translation_quote": "বিরসত কষ্ট, প্রত্যাখ্যান, অজ্ঞাতনামা ও একাকীত্বের তিক্ততা"
+    },
+    {
+      "location": "দীর্ঘ পরীক্ষার অনুচ্ছেদ, প্রার্থনা ফিরে আসার চিত্রকল্প",
+      "severity": "major",
+      "source_quote": "laughing and lying to us in grim mockery that our usefulness in the Kingdom of God is over",
+      "suggested_fix": "‘ভয়ংকর বিদ্রূপে হেসে আমাদের মিথ্যা বলছে যে ঈশ্বরের রাজ্যে আমাদের উপযোগিতা শেষ হয়ে গেছে’ লিখুন। দাবিটি মিথ্যা—এই অর্থটি ফিরিয়ে আনুন।",
+      "translation_quote": "কটূক্তিভরে হেসে বলছে যে রাজ্যের কাজে আমাদের প্রয়োজন শেষ হয়ে গেছে"
+    },
+    {
+      "location": "দীর্ঘ পরীক্ষার অনুচ্ছেদের শেষ বাক্য",
+      "severity": "major",
+      "source_quote": "some receive the bitter strokes of Midian and retreat to stand cynically on the sidelines",
+      "suggested_fix": "‘কেউ কেউ মিদিয়ানের তিক্ত আঘাত পেয়ে পিছিয়ে গিয়ে সংশয় ও বিদ্রূপভরা মন নিয়ে পাশে দাঁড়িয়ে থাকে’ লিখুন।",
+      "translation_quote": "কিছু লোক মিদিয়ানের তিক্ত আঘাত শোনে এবং সাইডলাইন থেকে সঙ্কুচিত কটাক্ষ করে দমন করে"
+    },
+    {
+      "location": "‘ঈশ্বরের উদ্দেশ্য’ অংশ, রাজাদের উদাহরণ",
+      "severity": "major",
+      "source_quote": "a gifted young harpist ... an old and foolish king ... eating grass like an ox",
+      "suggested_fix": "‘এক প্রতিভাবান তরুণ বীণাবাদক’, ‘এক বৃদ্ধ ও নির্বোধ রাজা’ এবং ‘ষাঁড়ের মতো ঘাস খেতে’ লিখুন।",
+      "translation_quote": "প্রতিভাবান তরুণ বাঁশি-বাদক ... একটি বৃদ্ধ ও উদ্ধৃত রাজা ... খিচুড়ির মতো ঘাস খেতে"
+    },
+    {
+      "location": "‘ঈশ্বরের উদ্দেশ্য’ অংশ, ইতিহাসের সাধকদের অনুচ্ছেদ",
+      "severity": "major",
+      "source_quote": "the darker the valley, the more I learned to pray ... nothing but the rod of God in their hands",
+      "suggested_fix": "উদ্ধৃতিটি করুন ‘উপত্যকা যত অন্ধকার হয়েছে, তত বেশি আমি প্রার্থনা করতে শিখেছি’; পরের অংশে ‘তাঁদের হাতে ঈশ্বরের দণ্ড ছাড়া আর কিছুই থাকে না’ লিখুন।",
+      "translation_quote": "ঘনতম উপত্যকা যতকাল, ততই আমি প্রার্থনা শিখেছি ... তাদের হাতে কেবল ঈশ্বরের শটকেই থাকে"
+    },
+    {
+      "location": "‘ঈশ্বরের উদ্দেশ্য’ অংশ, সমাপনী প্রশ্ন এবং প্রেরিত ৯:৬",
+      "severity": "major",
+      "source_quote": "What wilt thou have me to do? ... it shall be told thee what thou must do",
+      "suggested_fix": "প্রথম প্রশ্নটি করুন ‘তুমি আমাকে কী করতে বলছ?’; শাস্ত্রের উদ্ধৃতিতে লিখুন ‘প্রভু, তুমি আমাকে কী করতে বলছ? ... ওঠো, নগরে যাও; তোমাকে কী করতে হবে, তা সেখানে তোমাকে বলা হবে।’ বিদ্যমান উদ্ধৃতি ও <em> কাঠামো বজায় রাখুন।",
+      "translation_quote": "তুমি আমাকে করিয়াছো কী করতে? ... প্রভু, তুই আমাকে কী করিতে বলিবে? ... তোকে কী করিতেছে"
+    },
+    {
+      "location": "‘ঈশ্বরের পরিশোধ’ অংশের প্রথম উদ্ধৃতি এবং পরের অনুচ্ছেদের শেষ বাক্য",
+      "severity": "major",
+      "source_quote": "The fining pot is for silver, and the furnace for gold ... This fining pot",
+      "suggested_fix": "উদ্ধৃতিতে লিখুন ‘রূপার জন্য গলনপাত্র, সোনার জন্য চুল্লি; কিন্তু সদাপ্রভু হৃদয় পরীক্ষা করেন’; পরবর্তী ‘এই ভাঁজ চাপানী’ বদলে ‘এই গলনপাত্র’ করুন।",
+      "translation_quote": "রূপার জন্য কুড়াল, স্বর্ণের জন্য ভাঁজ চাপানী ... এই ভাঁজ চাপানী"
+    },
+    {
+      "location": "কূপের ঘটনার অনুচ্ছেদ",
+      "severity": "major",
+      "source_quote": "the priest of Midian had seven daughters ... a band of uncouth shepherds ... Egyptian plutocracy",
+      "suggested_fix": "সংশ্লিষ্ট অংশগুলি করুন ‘মিদিয়ানের পুরোহিতের সাত কন্যা ছিল’, ‘একদল অভদ্র রাখাল’ এবং ‘মিশরের ধনিক শাসনব্যবস্থার প্রতিটি ক্ষেত্রে’।",
+      "translation_quote": "মিদিয়ানের পণ্হত্’র পুাজ্যকারের সাত কন্যা ... ভদ্দর Shepherdদের একটি দল ... মিশরের সকল স্তরের জ্ঞানে"
+    },
+    {
+      "location": "কূপের ঘটনার অনুচ্ছেদ, যাত্রাপুস্তক ২:১৯",
+      "severity": "major",
+      "source_quote": "An Egyptian delivered us out of the hand of the shepherds",
+      "suggested_fix": "‘একজন মিশরীয় আমাদের রাখালদের হাত থেকে উদ্ধার করেছেন’ লিখুন।",
+      "translation_quote": "একজন মিশরীয় আমাদেরকে ভেঙ্গে দিয়াছিল"
+    },
+    {
+      "location": "কূপের ঘটনার অনুচ্ছেদের শেষ বাক্য",
+      "severity": "major",
+      "source_quote": "he gave Moses a reception, a job, and a wife",
+      "suggested_fix": "‘তিনি মোসাকে অভ্যর্থনা জানালেন, একটি কাজ দিলেন এবং এক স্ত্রীও দিলেন’ লিখুন।",
+      "translation_quote": "তিনি মোসাকে এক হোস্ট, এক চাকরি, এবং এক স্ত্রী দিলেন"
+    },
+    {
+      "location": "মার্ক ১০:৪২-এর উদ্ধৃতি ও পরবর্তী দুই অনুচ্ছেদ; ‘ঈশ্বরের শক্তি’ অংশের শেষ দীর্ঘ অনুচ্ছেদ",
+      "severity": "major",
+      "source_quote": "Gentiles ... merely Gentile ... Gentile authority ... lordship (Gentile authority)",
+      "suggested_fix": "উদ্ধৃতিতে ‘পরজাতীয়দের’, ‘কেবল গৈহীন বা বিশ্বজনীন’ স্থলে ‘কেবল পরজাতীয়দের শাসনধারায় গড়া’, ‘গৈহীন কর্তৃত্ব’ স্থলে ‘পরজাতীয়দের মতো কর্তৃত্ব’ লিখুন। শেষ দীর্ঘ অনুচ্ছেদে কর্তৃত্বের পরে উৎসের ব্যাখ্যাটি ফিরিয়ে দিন: ‘(পরজাতীয়দের মতো কর্তৃত্ব)’।",
+      "translation_quote": "গৈহীনদের ... কেবল গৈহীন বা বিশ্বজনীন ... গৈহীন কর্তৃত্ব ... ঈশ্বরের জনগণের উপর কর্তৃত্ব প্রয়োগ"
+    },
+    {
+      "location": "‘ঈশ্বরের প্রদতি’ অংশ, গীতসংহিতা ২৫:৯",
+      "severity": "major",
+      "source_quote": "The meek will he guide in judgment",
+      "suggested_fix": "‘নম্রদের তিনি ন্যায়ের পথে পরিচালিত করবেন’ লিখুন।",
+      "translation_quote": "ঘরোয়া-মানুষকে তিনি বিচারে পথপ্রদর্শন করিবেন"
+    },
+    {
+      "location": "অপেক্ষা-বিষয়ক অনুচ্ছেদ, ১ পিতর ৪:১২",
+      "severity": "major",
+      "source_quote": "think it not strange concerning the fiery trial which is to try you, as though some strange thing happened unto you",
+      "suggested_fix": "উদ্ধৃতিটি করুন: ‘তোমাদের পরীক্ষা করার জন্য যে অগ্নিপরীক্ষা আসছে, তাকে এমন অদ্ভুত মনে কোরো না, যেন তোমাদের সঙ্গে কোনো অস্বাভাবিক ঘটনা ঘটছে’।",
+      "translation_quote": "তোমরা যে আগুনের পরীক্ষায় প্রবেশ করিতে হব, তা হয়ত তোমাদের প্রতি অদ্ভুত বিষয় মনে হইবে না"
+    },
+    {
+      "location": "‘ঈশ্বরের উন্নতি’ অংশ, যাত্রাপুস্তক ৩:১০",
+      "severity": "major",
+      "source_quote": "Come now therefore ... my people the children of Israel",
+      "suggested_fix": "বিদ্যমান <strong> ট্যাগ রেখে লিখুন: ‘অতএব <strong>এখন</strong> এসো, আমি তোমাকে ফারাওর কাছে পাঠাব, যেন তুমি আমার প্রজা ইস্রায়েলীয়দের মিশর থেকে বের করে আনতে পারো’।",
+      "translation_quote": "আও, <strong>এখন</strong> তুমি যা করুক ... ইয়হুদী জনদের, ইসরায়েলের সন্তানগণকে"
+    },
+    {
+      "location": "যাত্রাপুস্তক ৩:১১-এর পরের অনুচ্ছেদ",
+      "severity": "major",
+      "source_quote": "Moses was not less qualified than he was forty years prior ... rugged pastures with the stubborn sheep",
+      "suggested_fix": "প্রথম বাক্যটি করুন ‘মোসা চল্লিশ বছর আগের তুলনায় এখন কম যোগ্য ছিলেন না, কিন্তু মরুভূমির রোদে তাঁর অতিরিক্ত আত্মবিশ্বাস উবে গিয়েছিল।’ পরের বাক্যের শুরু করুন ‘রুক্ষ চারণভূমিতে একগুঁয়ে ভেড়াদের সামলিয়ে যে অভিজ্ঞতা তিনি অর্জন করেছিলেন’।",
+      "translation_quote": "মোসা চল্লিশ বছর পূর্বে কম যোগ্য ছিলেন না ... কঠোর ঘাসের সাথে থাকা জটিলতা এবং বেদীর ভেড়াগুলোর সাথে সংগ্রামে"
+    },
+    {
+      "location": "‘ঈশ্বরের প্রতিশ্রুতি’ অংশ, যাত্রাপুস্তক ৩:১২",
+      "severity": "major",
+      "source_quote": "this shall be a token unto thee ... ye shall serve God upon this mountain",
+      "suggested_fix": "‘এটি তোমার কাছে তার নিদর্শন হবে যে আমিই তোমাকে পাঠিয়েছি: তুমি যখন লোকদের মিশর থেকে বের করে আনবে, তখন তোমরা এই পর্বতে ঈশ্বরের উপাসনা করবে’ লিখুন। শেষের সম্বোধনটি বহুবচন রাখুন।",
+      "translation_quote": "এ কথা তোমার লক্ষ্য হইবে ... তুমি এই পর্বতে ঈশ্বরকে উপাসনা করিবে"
+    },
+    {
+      "location": "‘ঈশ্বরের প্রতিশ্রুতি’ অংশের পরের অনুচ্ছেদ",
+      "severity": "major",
+      "source_quote": "God will not revoke His promises in the wind of our whims",
+      "suggested_fix": "‘আমাদের খেয়ালখুশির পরিবর্তনে ঈশ্বর আমাদের প্রতি তাঁর প্রতিশ্রুতি প্রত্যাহার করবেন না’ লিখুন।",
+      "translation_quote": "ঈশ্বর আমাদের রাজার স্বাদের বাতাসে আমাদের অহংকারের কারণে তাঁর প্রতিশ্রুতি প্রত্যাহার করবেন না"
+    },
+    {
+      "location": "‘ঈশ্বরের শক্তি’ অংশ, ইব্রীয় ১২:৬–৮",
+      "severity": "major",
+      "source_quote": "God dealeth with you as with sons ... then are ye bastards, and not sons",
+      "suggested_fix": "‘ঈশ্বর তোমাদের সঙ্গে পুত্রদের মতো আচরণ করেন’ এবং ‘তবে তোমরা অবৈধ সন্তান, পুত্র নও’ লিখুন। এখানে সন্তানদের অনৈতিক আচরণের কথা বলা হচ্ছে না।",
+      "translation_quote": "ঈশ্বর তোমাদেরকে পুত্রদেরূপে মতলব করেন ... তোমরা অনৈতিক শিশুরা, না পুত্র"
+    },
+    {
+      "location": "‘ঈশ্বরের শক্তি’ অংশের শেষ দীর্ঘ অনুচ্ছেদ",
+      "severity": "major",
+      "source_quote": "they are at the cause of his failure to enter the promised land",
+      "suggested_fix": "‘যদিও তাঁর প্রতিশ্রুত দেশে প্রবেশ করতে না পারার পেছনেও তারাই কারণ ছিল’ লিখুন।",
+      "translation_quote": "তারা তাঁর প্রতিশ্রুতি পূরণে ব্যর্থ হওয়ার কারণও ছিল"
+    },
+    {
+      "location": "শেষ অনুচ্ছেদ, ফিলিপীয় ৩:১০",
+      "severity": "major",
+      "source_quote": "may know him, and the power of his resurrection, and the fellowship of his sufferings, being made conformable unto his death",
+      "suggested_fix": "উদ্ধৃতিটি করুন: ‘তাঁকে, তাঁর পুনরুত্থানের শক্তিকে এবং তাঁর দুঃখভোগের সহভাগিতাকে জানতে পারি, তাঁর মৃত্যুর অনুরূপ হয়ে উঠতে পারি’।",
+      "translation_quote": "তাঁকে জানি, এবং তাঁর মৃত্যুরূপে করণীয়তায় তাঁর কষ্টের সঙ্গী হই, তাঁর পুনরুত্থানের শক্তি জানি"
+    },
+    {
+      "location": "সমস্ত শাস্ত্র-উদ্ধৃতির নির্দেশ এবং যাত্রাপুস্তকের বিবরণের অনুচ্ছেদ",
+      "severity": "minor",
+      "source_quote": "Exodus; Acts; Hebrews; Proverbs; Mark; Genesis; Psalm; 1 Peter; Matthew; Philippians",
+      "suggested_fix": "সব উপস্থিতিতে প্রচলিত বাংলা পুস্তকনাম ব্যবহার করুন: যথাক্রমে ‘যাত্রাপুস্তক’, ‘প্রেরিত’, ‘ইব্রীয়’, ‘হিতোপদেশ’, ‘মার্ক’, ‘আদিপুস্তক’, ‘গীতসংহিতা’, ‘১ পিতর’, ‘মথি’, ‘ফিলিপীয়’। অধ্যায়-পদসংখ্যা, পরিসর এবং নির্দেশের অবস্থান অপরিবর্তিত রাখুন। ‘আমরা Exodus-এ বর্ণনা থেকে’ অংশটিও ‘আমরা যাত্রাপুস্তকের বিবরণ থেকে’ করুন।",
+      "translation_quote": "Exodus; Acts; Hebrews; Proverbs; Mark; Genesis; Psalm; 1 Peter; Matthew; Philippians; আমরা Exodus-এ বর্ণনা থেকে"
+    },
+    {
+      "location": "translation.title এবং ‘ঈশ্বরের প্রদতি’ শিরোনাম",
+      "severity": "minor",
+      "source_quote": "Moses in Midian; God’s Provision",
+      "suggested_fix": "শিরোনামটি নিবন্ধের ব্যবহারের সঙ্গে মিলিয়ে ‘মিদিয়ানে মোসা’ করুন; ‘ঈশ্বরের প্রদতি’ বদলে ‘ঈশ্বরের যোগান’ লিখুন।",
+      "translation_quote": "মোশে মিদিয়ানে; ঈশ্বরের প্রদতি"
+    }
+  ],
+  "outcome": "incomplete_review",
+  "reason": "Review report is incomplete; all returned findings are retained for owner attention",
+  "stage": "review1"
+}
