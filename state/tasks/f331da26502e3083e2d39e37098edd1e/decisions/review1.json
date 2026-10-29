@@ -1,0 +1,161 @@
+{
+  "findings": [
+    {
+      "location": "html p[1]",
+      "severity": "major",
+      "source_quote": "sleepless nights—certainly not a position for the mentally weak or immature",
+      "suggested_fix": "Badili sehemu hii iwe: “kukosa usingizi usiku—hakika si nafasi kwa watu dhaifu kiakili au ambao hawajakomaa.”",
+      "translation_quote": "usingizi mdogo—hakika si nafasi kwa watu dhaifu kisaikolojia au wasiolewa kiakili"
+    },
+    {
+      "location": "html p[2]",
+      "severity": "major",
+      "source_quote": "Caesar Claudius (her uncle) ... marry Claudius’ daughter Octavia, his own cousin and stepsister",
+      "suggested_fix": "Badili “(mjukuu wake)” kuwa “(mjomba wake)”, na sentensi ya mwisho iwe: “Baadaye Nero alimwoa Octavia, binti wa Claudius, ambaye alikuwa binamu yake mwenyewe na dada yake wa kambo.”",
+      "translation_quote": "Caesar Claudius (mjukuu wake) ... Nero baadaye aliolewa na binti wa Claudius, Octavia, ambaye alikuwa binamu yake na kwa upande mmoja dada yake wa hatua"
+    },
+    {
+      "location": "html p[3]",
+      "severity": "major",
+      "source_quote": "On October 13, A.D. 54, Agrippina poisoned her powerful husband ... an incestuous relationship ... ordering grand public buildings to be built",
+      "suggested_fix": "Badili mwanzo uwe “Tarehe 13 Oktoba, mwaka wa 54 BK, Agrippina alimpa sumu mumewe mwenye mamlaka”; badili “uhusiano wa kifamilia” kuwa “uhusiano wa kingono wa maharimu”; na “akamwagilia amri ujenzi” kuwa “akiagiza yajengwe”.",
+      "translation_quote": "On October 13, A.D. 54, Agrippina alimlidha mumewe mwenye nguvu ... uhusiano wa kifamilia ... akamwagilia amri ujenzi"
+    },
+    {
+      "location": "html p[4]",
+      "severity": "major",
+      "source_quote": "a freedwoman (a formerly enslaved person) ... had his wife exiled ... had Octavia beheaded on false charges of being unfaithful",
+      "suggested_fix": "Tumia “mwanamke aliyekuwa amewekwa huru kutoka utumwani” badala ya “mwanamke aliyekuwa mfungwa iliyohuruwa (freedwoman)”. Badili sehemu inayofuata iwe: “hivyo akaamuru mkewe apelekwe uhamishoni. Jambo hili lilipozua hasira miongoni mwa umma, aliamuru Octavia akatwe kichwa kwa mashtaka ya uongo ya kutokuwa mwaminifu katika ndoa.”",
+      "translation_quote": "mwanamke aliyekuwa mfungwa iliyohuruwa (freedwoman) ... akamtuma mke wake kutoroka nchi ... aliamuru Octavia achanwe kwa madai ya uaminifu wa uongo"
+    },
+    {
+      "location": "html p[5]",
+      "severity": "major",
+      "source_quote": "it would be discreetly sunk ... Agrippina was a strong swimmer and escaped with her life. Undeterred, Nero dispatched his executioners to stab her to death ... bizarre and inhuman acts",
+      "suggested_fix": "Badili vipashio vinavyolingana kuwa: “ingezamishwa kwa siri”; “Agrippina alikuwa mwogeleaji hodari na aliokoka”; “Bila kukata tamaa, Nero aliwatuma wauaji wake wamchome kwa visu hadi afe mchana kweupe”; na “matendo haya ya ajabu na yasiyo ya kibinadamu”.",
+      "translation_quote": "ingenibomolewa kwa siri ... Agrippina alikuwa mpigaji wa kuogelea hodari na alitoroka kwa kuokolewa maisha yake. Akishindwa, Nero alituma wakatemwa wake wa kuuawa wamchomee kwa visu mchana wazi ... matendo haya ya kustaajabisha na ya kibinadamu"
+    },
+    {
+      "location": "html p[6]",
+      "severity": "major",
+      "source_quote": "He kicked Sabina repeatedly ... a slave ... Nero’s slippery slope was only getting more slippery ... If you were in attendance, you could not leave",
+      "suggested_fix": "Badili “Alimpiga Sabina” kuwa “Alimpiga Sabina mateke”; badili “mfungwa” katika sehemu zote mbili kuwa “mtumwa”; badili sentensi ya uelekeo iwe “Kufikia hapo, Nero alikuwa akizidi kuzama katika uovu”; na sentensi ya hadhira iwe “Ikiwa ulihudhuria, usingeweza kuondoka.”",
+      "translation_quote": "Alimpiga Sabina ... mfungwa ... Mfungwa huyo ... Hapo ndipo uelekeo wa Nero ulipoanza kugeuka zaidi na zaidi ... Ikiwa ulikuwa mgeni, hakuweza kuondoka"
+    },
+    {
+      "location": "html p[7]",
+      "severity": "major",
+      "source_quote": "such as trumpeting and acting",
+      "suggested_fix": "Badili “utendakazi” kuwa “uigizaji”.",
+      "translation_quote": "kama kupiga tarumbeta na utendakazi"
+    },
+    {
+      "location": "html p[8]",
+      "severity": "major",
+      "source_quote": "The chariot races were the biggest spectacle the Olympics had to offer ... It was not uncommon ... to be trampled to death",
+      "suggested_fix": "Badili sentensi ya kwanza husika iwe “Mashindano ya magari ya kukokotwa na farasi yalikuwa kivutio kikubwa zaidi katika Olimpiki.” Badili sentensi ya hatari iwe “Lilikuwa jambo la kawaida kwa waendeshaji kurushwa kutoka kwenye magari yao na kukanyagwa hadi kufa au kuburutwa na farasi wao wenyewe.”",
+      "translation_quote": "Mashindano ya magari ya kibanda (chariot races) yalikuwa burudani kuu Olimpiki zilizoonekana ... Si jambo la kawaida ... kupasuliwa hadi kufa"
+    },
+    {
+      "location": "html p[10]",
+      "severity": "major",
+      "source_quote": "for his supposed exhibits of artistry",
+      "suggested_fix": "Badili “kwa maonyesho yake ya dhana ya kisanii” kuwa “kwa maonyesho yake yaliyodaiwa kuonyesha ustadi wa kisanii”.",
+      "translation_quote": "kwa maonyesho yake ya dhana ya kisanii"
+    },
+    {
+      "location": "html p[11], introductory description of Christians and Tacitus",
+      "severity": "major",
+      "source_quote": "people who were despised and feared by the Romans ... Tacitus, a secular Roman writer",
+      "suggested_fix": "Badili “waliokasirishwa na kuogeshwa na Waroma” kuwa “waliodharauliwa na kuogopwa na Waroma”, na “mwandishi wa kiraia wa Roma” kuwa “mwandishi wa Kirumi asiye wa kidini”.",
+      "translation_quote": "watu waliokasirishwa na kuogeshwa na Waroma ... Tacitus, mwandishi wa kiraia wa Roma"
+    },
+    {
+      "location": "html p[11], Tacitus quotation",
+      "severity": "major",
+      "source_quote": "“Nero fastened the guilt and inflicted the most exquisite tortures on a class hated for their abominations, called Christians by the populace. Mockery of every sort was added to their deaths. Covered with the skins of beasts, they were torn by dogs and perished, or were nailed to crosses, or were doomed to the flames and burnt, to serve as nightly illumination when daylight had expired.”",
+      "suggested_fix": "Tafsiri nukuu yote: “Nero aliwatwika hatia na kuwatesa kwa mateso makali kupita kiasi watu waliochukiwa kwa machukizo yao, ambao umma uliwaita Wakristo. Waliongezewa dhihaka za kila aina wakati wa kuuawa kwao. Wakiwa wamefunikwa kwa ngozi za wanyama, waliraruliwa na mbwa na kufa, au walipigiliwa misumari misalabani, au walihukumiwa kuchomwa moto na kuteketezwa ili kutoa mwanga usiku baada ya mwanga wa mchana kuisha.”",
+      "translation_quote": "“Nero fastened the guilt and inflicted the most exquisite tortures on a class hated for their abominations, called Christians by the populace. Mockery of every sort was added to their deaths. Covered with the skins of beasts, they were torn by dogs and perished, or were nailed to crosses, or were doomed to the flames and burnt, to serve as nightly illumination when daylight had expired.”"
+    },
+    {
+      "location": "html p[12]",
+      "severity": "major",
+      "source_quote": "plunged ever deeper into immorality ... killed himself",
+      "suggested_fix": "Badili “akajimwagia ndani ya ukovu zaidi ya maadili” kuwa “akazidi kuzama katika upotovu wa maadili”, na “alikufa kwa kujinyang’anya” kuwa “alijiua”.",
+      "translation_quote": "akajimwagia ndani ya ukovu zaidi ya maadili ... alikufa kwa kujinyang’anya"
+    },
+    {
+      "location": "html p[13]",
+      "severity": "major",
+      "source_quote": "here is a man corrupt in every way ... How would we respond to such a ruler? How did Christians respond to him?",
+      "suggested_fix": "Badili sentensi ya kwanza iwe “Basi, huyu ni mtu aliyepotoka kwa kila namna.” Badili maswali ya mwisho yawe “Tungemwitikiaje mtawala kama huyo? Wakristo <em>walimwitikiaje</em>?”",
+      "translation_quote": "huwapo mtu aliyevurugika kwa kila upande ... Tutamwangalia vipi mtawala kama huyo? Wakristo walitimiza vipi kwa mwelekeo wake?"
+    },
+    {
+      "location": "html p[14], Scripture quotation",
+      "severity": "major",
+      "source_quote": "Let every soul be subject unto the higher powers. ... Wherefore ye must needs be subject, not only for wrath, but also for conscience sake –Romans 13: 1-5.",
+      "suggested_fix": "Tafsiri yaliyomo ndani ya <em> bila kubadili lebo: “Kila mtu na ajitiishe kwa mamlaka zilizo juu yake. Kwa maana hakuna mamlaka isipokuwa kutoka kwa Mungu; na mamlaka zilizopo zimewekwa na Mungu. Kwa hiyo anayepinga mamlaka anapinga agizo la Mungu; nao wanaopinga watajiletea hukumu. Kwa maana watawala si tishio kwa matendo mema, bali kwa maovu. Je, unataka usiogope mamlaka? Tenda yaliyo mema, nawe utasifiwa nayo; kwa maana mtawala ni mtumishi wa Mungu kwa ajili ya mema yako. Lakini ukitenda maovu, ogopa; kwa maana habebi upanga bure: yeye ni mtumishi wa Mungu, mwenye kulipiza kisasi ili kutekeleza ghadhabu juu ya atendaye maovu. Kwa hiyo ni lazima mjitiishe, si kwa sababu ya ghadhabu tu, bali pia kwa ajili ya dhamiri –Warumi 13:1-5.”",
+      "translation_quote": "<em>Let every soul be subject unto the higher powers. For there is no power but of God: the powers that be are ordained of God. Whosoever therefore resisteth the power, resisteth the ordinance of God: and they that resist shall receive to themselves damnation. For rulers are not a terror to good works, but to the evil. Wilt thou then not be afraid of the power? do that which is good, and thou shalt have praise of the same: For he is the minister of God to thee for good. But if thou do that which is evil, be afraid; for he beareth not the sword in vain: for he is the minister of God, a revenger to execute wrath upon him that doeth evil. Wherefore ye must needs be subject, not only for wrath, but also for conscience sake –Romans 13: 1-5.</em>"
+    },
+    {
+      "location": "html p[15], Scripture quotation",
+      "severity": "major",
+      "source_quote": "Let every soul be subject unto the higher powers. For there is no power but of God… –Romans 13:1.",
+      "suggested_fix": "Tafsiri yaliyomo ndani ya <em> kuwa “Kila mtu na ajitiishe kwa mamlaka zilizo juu yake. Kwa maana hakuna mamlaka isipokuwa kutoka kwa Mungu… –Warumi 13:1.”",
+      "translation_quote": "Let every soul be subject unto the higher powers. For there is no power but of God… –Romans 13:1."
+    },
+    {
+      "location": "html p[16], prose",
+      "severity": "major",
+      "source_quote": "the murderous, bloodthirsty, corrupt emperor ... a potential paradox ... “ministers of God” ... civil authorities",
+      "suggested_fix": "Badili maelezo ya Nero kuwa “mfalme muuaji, mwenye kiu ya damu, aliyepotoka”. Badili “pande mbili zinazoweza kukanushwa” kuwa “hali inayoweza kuonekana kuwa ya kinzani”, “ministers of God” kuwa “watumishi wa Mungu”, na “mamlaka za kifalme” kuwa “mamlaka za serikali”.",
+      "translation_quote": "mfalme mchukumu, mharibiwa wa damu ... pande mbili zinazoweza kukanushwa ... “ministers of God” ... mamlaka za kifalme"
+    },
+    {
+      "location": "html p[16], Scripture quotation",
+      "severity": "major",
+      "source_quote": "…We ought to obey God rather than men –Acts 5:29.",
+      "suggested_fix": "Tafsiri yaliyomo ndani ya <em> kuwa “…Imetupasa kumtii Mungu kuliko wanadamu –Matendo 5:29.”",
+      "translation_quote": "…We ought to obey God rather than men –Acts 5:29."
+    },
+    {
+      "location": "html p[17]",
+      "severity": "major",
+      "source_quote": "while still obeying God in all things ... like the unregenerate around us ... when we feel our “easy living” being trodden upon",
+      "suggested_fix": "Badili “wakati bado tukimtumikia Mungu katika kila jambo” kuwa “huku bado tukimtii Mungu katika mambo yote”; “wasiookolewa walituzunguka” kuwa “wasiozaliwa upya wanaotuzunguka”; na “maisha yetu ya ‘urahisi’ yanapopigwa hatua” kuwa “maisha yetu ya starehe yanapokanyagwa”.",
+      "translation_quote": "wakati bado tukimtumikia Mungu katika kila jambo ... wasiookolewa walituzunguka ... maisha yetu ya “urahisi” yanapopigwa hatua"
+    },
+    {
+      "location": "html p[18], both Scripture quotations",
+      "severity": "major",
+      "source_quote": "See then that ye walk circumspectly ... –Ephesians 5:15-17. ... Let a man so account of us ... –1 Corinthians 4:2.",
+      "suggested_fix": "Tafsiri nukuu ya kwanza ndani ya <em> kuwa “Basi angalieni mwenende kwa uangalifu, si kama wapumbavu bali kama wenye hekima, mkiutumia wakati vizuri, kwa sababu siku hizi ni za uovu. Kwa hiyo msiwe wajinga, bali fahamuni mapenzi ya Bwana ni nini –Waefeso 5:15-17.” Tafsiri nukuu ya pili ndani ya <em> kuwa “Mtu na atuhesabu kuwa watumishi wa Kristo na mawakili wa siri za Mungu. Zaidi ya hayo, kinachotakiwa kwa mawakili ni kwamba mtu aonekane kuwa mwaminifu –1 Wakorintho 4:2.”",
+      "translation_quote": "<em>See then that ye walk circumspectly, not as fools, but as wise, Redeeming the time, because the days are evil. Wherefore be ye not unwise, but understanding what the will of the Lord is –Ephesians 5:15-17.</em> Na <em>Let a man so account of us, as of the ministers of Christ, and stewards of the mysteries of God. Moreover it is required in stewards, that a man be found faithful –1 Corinthians 4:2.</em>"
+    },
+    {
+      "location": "html p[19]",
+      "severity": "major",
+      "source_quote": "Let each one of us as committed, born-again, Bible-believing Christians walk circumspectly, redeeming the time.",
+      "suggested_fix": "Badili sentensi ya kwanza iwe “Kila mmoja wetu, akiwa Mkristo aliyejitoa, aliyezaliwa upya na anayeamini Biblia, na aenende kwa uangalifu, akiutumia wakati vizuri.”",
+      "translation_quote": "Tuombe kila mmoja wetu kama Wakristo waliomwagika, waliobatizwa upya, wanaoamini Biblia, atembelee kwa tahadhari, akitumia wakati vyema."
+    },
+    {
+      "location": "html p[1], terminology; p[6], artist description; p[20], note label",
+      "severity": "minor",
+      "source_quote": "sheriff ... a genius, even ... Endnote:",
+      "suggested_fix": "Badili “sheriff” kuwa “mkuu wa polisi wa kaunti”, “bale kuwa geniasi” kuwa “hata mwenye kipaji cha kipekee”, na “Endnote:” kuwa “Tanbihi ya mwisho:”, ukihifadhi <br> na anwani inayofuata.",
+      "translation_quote": "sheriff ... bale kuwa geniasi ... Endnote:"
+    },
+    {
+      "location": "html p[5], opening marriage clause",
+      "severity": "minor",
+      "source_quote": "who was scheming to marry him",
+      "suggested_fix": "Badili “ambaye alikuwa akipanga kumwoea” kuwa “ambaye alikuwa akipanga njama za kuolewa naye”.",
+      "translation_quote": "ambaye alikuwa akipanga kumwoea"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
