@@ -5,19 +5,42 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "19419b48d2eb47298a55601c71363228",
   "campaign": "auto-45df3fef30a1293dc00a14168d509a5c520df55fdfa869861dd47c3297a33261",
   "created_at": "2026-10-29T20:58:20+00:00",
-  "events": [],
-  "findings": [
+  "events": [
     {
-      "location": "translation.html, div.poem, 다섯 번째 행",
-      "severity": "minor",
-      "source_quote": "With many a mystery light somewhere up there?",
-      "suggested_fix": "해당 행을 “저 위 어딘가에 수많은 신비로운 빛이 있는 담요를?”로 수정하여, 검은 담요처럼 보이는 하늘에 빛들이 있다는 이미지를 보존하십시오. <br> 태그는 유지하십시오.",
-      "translation_quote": "저 위 어딘가에 빛나는 많은 신비들을 보느냐?"
+      "model": "gpt-6.1-sol",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 325,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 145,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 2207,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 1104,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 2532
+      }
     }
   ],
+  "failure": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[26]: source /article[1]/div[1]/p[1]/br[21] ('start', 'br', ()); translation /article[1]/div[1]/p[1] ('end', 'p')",
+  "failure_kind": "invalid_result",
+  "findings": [
+    {
+      "location": "translation.html: 시의 초승달과 달까지의 여행을 묘사한 두 행",
+      "severity": "minor",
+      "source_quote": "The crescent moon is closer yet to you,\nAnd yet it took man three whole days to reach\nThat tiny sphere so very close at hand.",
+      "suggested_fix": "초승달은 네게 그보다 더 가까이 있지만<br>\n    인간이 바로 가까이에 있는 그 작은 구체에 도달하는 데는 꼬박 사흘이 걸렸다.",
+      "translation_quote": "초승달은 더 가깝게 느껴지지만<br>\n    인간이 그 작은 구체에 도달하는 데는 사흘이 걸렸다."
+    }
+  ],
+  "finished_at": "2026-10-29T21:10:01+00:00",
   "id": "8663d4db041382b097787069a1499be8",
   "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
   "language": "kor",
@@ -106,9 +129,11 @@
     }
   },
   "protected": false,
+  "quality_score": 97,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/55be7d8861a02b2949238164825078285daf5ecd270cc3e94e3522da9dfec341.json",
   "stage": "review1",
   "stage_budget": {
@@ -123,7 +148,7 @@
     "total_reserved_usd": 0.679044,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 0,
   "translation_key": "9f63ce21489f59d1f7dfd3768a5a0916d37d1327776d2e908763aee9fc396f13",
   "translation_model_actual": "gpt-5-mini-2025-08-07"
