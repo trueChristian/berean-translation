@@ -5,11 +5,68 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "48af5358d14745448d9b5951b75842cb",
   "campaign": "auto-32f3a2066b71a9c6bcffe0bfa4a4b7de9c547e2355e9304f0411f18bbc51c0d6",
   "created_at": "2026-10-29T18:43:15+00:00",
-  "events": [],
-  "findings": [],
+  "events": [
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 825,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 191,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5724,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 4621,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 6549
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "html, stycket om Perronets sista år och sista ord",
+      "severity": "major",
+      "source_quote": "Glory to God in His all-sufficiency!",
+      "suggested_fix": "Ersätt ”Ära vara Gud i hans allmakt!” med ”Ära vara Gud i hans alltillräcklighet!”",
+      "translation_quote": "Ära vara Gud i hans allmakt!"
+    },
+    {
+      "location": "html, första div.lyrics, vers 7, rad 2",
+      "severity": "major",
+      "source_quote": "The wormwood and the gall",
+      "suggested_fix": "Ersätt ”Maskrosens bitterhet och gallan” med ”Malörten och gallan”.",
+      "translation_quote": "Maskrosens bitterhet och gallan"
+    },
+    {
+      "location": "title; html, inledningsstycket, stycket om melodierna, berättelsen om Scott samt bildens alt-text",
+      "severity": "minor",
+      "source_quote": "All Hail the Power of Jesus Name; All hail the power of Jesus’ name!",
+      "suggested_fix": "Använd ”Hylla kraften i Jesu namn” som översatt hymntitel och i de motsvarande omnämnandena, inklusive alt-texten, så att ”the power” inte försvinner.",
+      "translation_quote": "Hyll Jesu namn"
+    },
+    {
+      "location": "html, första div.lyrics, vers 3, rad 3",
+      "severity": "minor",
+      "source_quote": "Now hail the Strength of Israel’s might",
+      "suggested_fix": "Ersätt ”Hail” med ”Hylla”: ”Hylla nu styrkan i Israels kraft”.",
+      "translation_quote": "Hail nu styrkan i Israels kraft"
+    },
+    {
+      "location": "html, första div.lyrics, vers 8",
+      "severity": "minor",
+      "source_quote": "Let every tribe and every tongue / That bound creation’s call / Now shout in universal song, / The crowned Lord of all!",
+      "suggested_fix": "Gör versen grammatiskt begriplig, exempelvis: ”Låt varje stam och varje tungomål<br>som omger skapelsens rop<br>nu ropa i en gemensam sång:<br>Han är krönt till Herre över allt!” Behåll befintliga p- och br-taggar.",
+      "translation_quote": "Låt varje stam och varje tungas röst / Som skapelsen bundit kallelsen till / Nu ropa i universell sång, / Den krönte Herre över allt!"
+    }
+  ],
   "id": "a8383758ecafcd96c681ace43cb167e4",
   "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
   "language": "swe",
@@ -98,11 +155,13 @@
     }
   },
   "protected": false,
+  "quality_score": 90,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/6b076b1f67d6fafc1720a4ac2de4e895d6d3d4ebd14b1f3db48cc7447fd2506b.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "review1",
     "max_candidate_bytes": 120000,
@@ -115,7 +174,7 @@
     "total_reserved_usd": 0.721153,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 0,
   "translation_key": "47590defb50af0ad3c498d9cc77626f00551d9639dd8391778097cb5eb70f00a",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

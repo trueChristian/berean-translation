@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-29T19:43:29+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"html, stycket om Perronets sista år och sista ord\",\n      \"severity\": \"major\",\n      \"source_quote\": \"Glory to God in His all-sufficiency!\",\n      \"suggested_fix\": \"Ersätt ”Ära vara Gud i hans allmakt!” med ”Ära vara Gud i hans alltillräcklighet!”\",\n      \"translation_quote\": \"Ära vara Gud i hans allmakt!\"\n    },\n    {\n      \"location\": \"html, första div.lyrics, vers 7, rad 2\",\n      \"severity\": \"major\",\n      \"source_quote\": \"The wormwood and the gall\",\n      \"suggested_fix\": \"Ersätt ”Maskrosens bitterhet och gallan” med ”Malörten och gallan”.\",\n      \"translation_quote\": \"Maskrosens bitterhet och gallan\"\n    },\n    {\n      \"location\": \"title; html, inledningsstycket, stycket om melodierna, berättelsen om Scott samt bildens alt-text\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"All Hail the Power of Jesus Name; All hail the power of Jesus’ name!\",\n      \"suggested_fix\": \"Använd ”Hylla kraften i Jesu namn” som översatt hymntitel och i de motsvarande omnämnandena, inklusive alt-texten, så att ”the power” inte försvinner.\",\n      \"translation_quote\": \"Hyll Jesu namn\"\n    },\n    {\n      \"location\": \"html, första div.lyrics, vers 3, rad 3\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"Now hail the Strength of Israel’s might\",\n      \"suggested_fix\": \"Ersätt ”Hail” med ”Hylla”: ”Hylla nu styrkan i Israels kraft”.\",\n      \"translation_quote\": \"Hail nu styrkan i Israels kraft\"\n    },\n    {\n      \"location\": \"html, första div.lyrics, vers 8\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"Let every tribe and every tongue / That bound creation’s call / Now shout in universal song, / The crowned Lord of all!\",\n      \"suggested_fix\": \"Gör versen grammatiskt begriplig, exempelvis: ”Låt varje stam och varje tungomål<br>som omger skapelsens rop<br>nu ropa i en gemensam sång:<br>Han är krönt till Herre över allt!” Behåll befintliga p- och br-taggar.\",\n      \"translation_quote\": \"Låt varje stam och varje tungas röst / Som skapelsen bundit kallelsen till / Nu ropa i universell sång, / Den krönte Herre över allt!\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": false,\n  \"score\": 90\n}",
+    "content_bytes": 2239,
+    "content_evidence_truncated": false,
+    "content_sha256": "d91881767c2235bbf29de58dc14e3727944a4fd868c204b6c6b0ee730ced7bb8",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 825,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 191,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5724,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4621,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 6549
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}
