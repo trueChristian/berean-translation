@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "2c840ab9-1428-4f65-9f0a-132a78729178",
+    "response_id": "chatcmpl-EeRastiLM80O2BrpMr1zfsN7CITSK",
+    "usage": {
+      "completion_tokens": 273,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 128,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 15522,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 14419,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 15795
+    }
+  },
+  "received_at": "2026-10-29T21:10:27+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "html: aya ya kwanza chini ya “Tohara ya kiroho”, sentensi ya kwanza",
+        "severity": "major",
+        "source_quote": "Were I to love something besides God, I should not love God with my whole heart.",
+        "suggested_fix": "Badilisha sentensi hiyo iwe: “Kama ningependa kitu kingine chochote mbali na Mungu, singempenda Mungu kwa moyo wangu wote.”",
+        "translation_quote": "Kama ningependa kitu kingine zaidi ya Mungu, singempenda Mungu kwa moyo wangu wote."
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 94
+  }
+}

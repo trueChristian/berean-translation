@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "328d9f3df99f43efbbd32ee6c6ac4628",
   "campaign": "auto-cb627379f8a87b8836f81846a95562955794d4996f0203e91500ea181b9d00f3",
   "created_at": "2026-10-29T20:16:50+00:00",
   "events": [
@@ -28,67 +27,40 @@
         },
         "total_tokens": 24222
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 273,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 128,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 15522,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 14419,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 15795
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; a recovery continuation must pass admission",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "Article, paragraph beginning “Kristo anasema waziwazi”",
+      "location": "html: aya ya kwanza chini ya “Tohara ya kiroho”, sentensi ya kwanza",
       "severity": "major",
-      "source_quote": "suffering at the right hand of God",
-      "suggested_fix": "Replace “tukiteseka chini ya mkono wa kuume wa Mungu” with “tukiteseka katika mkono wa kuume wa Mungu” or another rendering that preserves the source’s “at,” not “under.”",
-      "translation_quote": "tukiteseka chini ya mkono wa kuume wa Mungu"
-    },
-    {
-      "location": "Article, paragraph beginning “Yeyote anayelemewa”",
-      "severity": "major",
-      "source_quote": "burdened by confidence, comfort, desire, care, and fear with regard to money or food",
-      "suggested_fix": "Replace “anayelemewa na kutegemea” with “anayelemewa na imani/ujasiri, faraja, tamaa, wasiwasi na hofu kuhusu pesa au chakula” to retain “confidence” rather than “reliance.”",
-      "translation_quote": "anayelemewa na kutegemea, faraja, tamaa, wasiwasi na hofu kuhusu pesa au chakula"
-    },
-    {
-      "location": "Article, paragraph beginning “Huenda mke wa Lutu”",
-      "severity": "major",
-      "source_quote": "mustard and fire rain down on Sodom and Gomorrah",
-      "suggested_fix": "Replace “kiberiti” with “sulfuri” or “kiberiti cha manjano” to convey sulfur, rather than matchsticks.",
-      "translation_quote": "aliponyesha kiberiti na moto juu ya Sodoma na Gomora"
-    },
-    {
-      "location": "Article, paragraph beginning “Kuna maisha mawili”",
-      "severity": "major",
-      "source_quote": "the new or supernatural",
-      "suggested_fix": "Replace “ya kiungu” with “ya kiasili kisicho cha kawaida” or “ya kimbinguni” to preserve “supernatural,” not “divine.”",
-      "translation_quote": "mapya au ya kiungu"
-    },
-    {
-      "location": "Article, paragraph beginning “Kristo alisimulia mfano”",
-      "severity": "major",
-      "source_quote": "a seed that had not died bears no fruit and remains alone",
-      "suggested_fix": "Replace “mbegu ambayo haikufa” with “mbegu ambayo haijafa” to preserve the ongoing condition described in the source.",
-      "translation_quote": "mbegu ambayo haikufa haizai matunda na hubaki peke yake"
-    },
-    {
-      "location": "Article, paragraph beginning “Haitoshi tu kutopenda”",
-      "severity": "major",
-      "source_quote": "a supernatural hatred and envy must replace our love for created things",
-      "suggested_fix": "Replace “chuki ya ajabu” with “chuki isiyo ya kawaida” or “chuki ya kimbinguni” to convey “supernatural,” not merely “strange.”",
-      "translation_quote": "chuki ya ajabu na wivu lazima vichukue nafasi ya upendo wetu kwa vitu vilivyoumbwa"
-    },
-    {
-      "location": "Article, paragraph beginning “Mungu alitutumia Kristo Mwanawe”",
-      "severity": "major",
-      "source_quote": "God sent us Christ His Son",
-      "suggested_fix": "Replace “Mungu alitutumia Kristo Mwanawe” with “Mungu alimtuma kwetu Kristo Mwanawe.”",
-      "translation_quote": "Mungu alitutumia Kristo Mwanawe"
-    },
-    {
-      "location": "Article, poem, second stanza",
-      "severity": "major",
-      "source_quote": "Lift my eyes from fleshly baubles",
-      "suggested_fix": "Replace “Inua macho yangu kutoka kwa mapambo ya mwili” with “Inua macho yangu kutoka kwa vitu vidogo vya kimwili vinavyovutia” or similar wording that conveys trivial, tempting objects, not bodily ornaments.",
-      "translation_quote": "Inua macho yangu kutoka kwa mapambo ya mwili"
+      "source_quote": "Were I to love something besides God, I should not love God with my whole heart.",
+      "suggested_fix": "Badilisha sentensi hiyo iwe: “Kama ningependa kitu kingine chochote mbali na Mungu, singempenda Mungu kwa moyo wangu wote.”",
+      "translation_quote": "Kama ningependa kitu kingine zaidi ya Mungu, singempenda Mungu kwa moyo wangu wote."
     }
   ],
+  "finished_at": "2026-10-29T21:10:27+00:00",
   "id": "6a7aeb056d217d98ad220c859a52c480",
   "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
   "language": "swa",
@@ -177,9 +149,11 @@
     }
   },
   "protected": false,
+  "quality_score": 94,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/94cb7a658277159ce6f1cd92090a80152f7fd02c7630fd3f9c991cc9b9895a09.json",
   "stage": "review2",
   "stage_budget": {
@@ -193,7 +167,7 @@
     "total_reserved_usd": 0.996789,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 1,
   "translation_key": "27fc7b3dd5b2b4c4866c5df64ea5b35ece67a72843cf23b1513a205e74e751eb",
   "translation_model_actual": "gpt-6.1-sol"

@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "html: aya ya kwanza chini ya “Tohara ya kiroho”, sentensi ya kwanza",
+      "severity": "major",
+      "source_quote": "Were I to love something besides God, I should not love God with my whole heart.",
+      "suggested_fix": "Badilisha sentensi hiyo iwe: “Kama ningependa kitu kingine chochote mbali na Mungu, singempenda Mungu kwa moyo wangu wote.”",
+      "translation_quote": "Kama ningependa kitu kingine zaidi ya Mungu, singempenda Mungu kwa moyo wangu wote."
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; a recovery continuation must pass admission",
+  "stage": "terminal"
+}
