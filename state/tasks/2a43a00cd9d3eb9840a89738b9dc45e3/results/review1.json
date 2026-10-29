@@ -1,0 +1,171 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "b9afc1fa-e0a8-4774-8077-b72e64ac90fb",
+    "response_id": "chatcmpl-EeHgoFASooUsEj5Alb5shFRqTT7LD",
+    "usage": {
+      "completion_tokens": 2389,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 83,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9573,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8470,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 11962
+    }
+  },
+  "received_at": "2026-10-29T12:22:58+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "html, paragraph beginning “Die staf is God se krag tot heil”",
+        "severity": "critical",
+        "source_quote": "it is the chastening of God ... For whom the Lord loveth he chasteneth ... If ye endure chastening ... without chastisement",
+        "suggested_fix": "Replace “God se teregstelling” with “God se tugtiging”, every subsequent “teregstelling” in this paragraph with “tugtiging”, and both occurrences of “teregstreep” with “tugtig”. Preserve the quotation markup and Hebrews reference.",
+        "translation_quote": "dit God se teregstelling ... die teregstreep Hy ... As julle die teregstelling verdra ... nie teregstreep nie ... sonder teregstelling"
+      },
+      {
+        "location": "html, paragraph beginning “Die wonderlike redding”",
+        "severity": "major",
+        "source_quote": "The miraculous river rescue by Pharoah’s daughter",
+        "suggested_fix": "Replace “Die wonderlike redding uit die rivier deur die filistin se dogter” with “Die wonderbaarlike redding uit die rivier deur Farao se dogter”.",
+        "translation_quote": "Die wonderlike redding uit die rivier deur die filistin se dogter"
+      },
+      {
+        "location": "html, second paragraph",
+        "severity": "major",
+        "source_quote": "At the prime age of 40",
+        "suggested_fix": "Replace “Op die hoë ouderdom van 40” with “Op 40-jarige ouderdom, in die fleur van sy lewe,”.",
+        "translation_quote": "Op die hoë ouderdom van 40"
+      },
+      {
+        "location": "html, paragraph beginning “In vandag se ekonomie”",
+        "severity": "major",
+        "source_quote": "He stood above his countrymen in education",
+        "suggested_fix": "Replace “sy mede-Egiptenare” with “sy volksgenote”, without assigning Moses an Egyptian nationality.",
+        "translation_quote": "Hy het bo sy mede-Egiptenare gestaan in opleiding"
+      },
+      {
+        "location": "html, paragraph beginning “Vir ons verteenwoordig dit”",
+        "severity": "major",
+        "source_quote": "we can have a lapse in faith",
+        "suggested_fix": "Replace “ons ’n afasie in geloof kan hê” with “ons geloof tydelik kan wankel”.",
+        "translation_quote": "ons ’n afasie in geloof kan hê"
+      },
+      {
+        "location": "html, paragraph beginning “Vir ons verteenwoordig dit”",
+        "severity": "major",
+        "source_quote": "But God’s timing is perfect.",
+        "suggested_fix": "Replace “Maar God se tyding is perfek” with “Maar God se tydsberekening is volmaak”.",
+        "translation_quote": "Maar God se tyding is perfek."
+      },
+      {
+        "location": "html, paragraph beginning “Miskien is God”",
+        "severity": "major",
+        "source_quote": "it was the time that it took for Moses to land at the seat of resignation",
+        "suggested_fix": "Replace “vir Moses om by die stoel van oorwinning uit te kom” with “vir Moses om by berusting uit te kom”.",
+        "translation_quote": "vir Moses om by die stoel van oorwinning uit te kom"
+      },
+      {
+        "location": "html, final paragraph",
+        "severity": "major",
+        "source_quote": "being made conformable unto his death –Philippians 3:10",
+        "suggested_fix": "Replace “en dat ons na sy dood gevorm mag word” with “en aan sy dood gelykvormig mag word”.",
+        "translation_quote": "en dat ons na sy dood gevorm mag word – Filippense 3:10"
+      },
+      {
+        "location": "html, paragraph beginning “Ek twyfel nie”",
+        "severity": "minor",
+        "source_quote": "God can, and does, use men ... not derived from doing, attaining, and accomplishing",
+        "suggested_fix": "Use “God mense van groot vermoë, kapasiteit en opleiding kan gebruik en inderdaad gebruik” and remove “afsonderlik” from the later clause.",
+        "translation_quote": "God mense van groot vermoë, kapasiteit en opleiding kan en gebruik ... nie uit doen, bereik en verrig afsonderlik verkry word nie"
+      },
+      {
+        "location": "html, paragraph beginning “Ek twyfel nie”",
+        "severity": "minor",
+        "source_quote": "in a seminary nor is it normally exterminated during vigilant duty",
+        "suggested_fix": "Replace “in ’n seminaar” with “aan ’n teologiese kweekskool” and “deur waaksaam plig” with “tydens waaksame diens”.",
+        "translation_quote": "in ’n seminaar ... deur waaksaam plig"
+      },
+      {
+        "location": "html, paragraph beginning “Ek twyfel nie”",
+        "severity": "minor",
+        "source_quote": "appears void of life and fruitfulness",
+        "suggested_fix": "Replace “wat lewendigheid en vrugbaarheid onttrek lyk” with “wat skynbaar van lewe en vrugbaarheid ontbloot is”.",
+        "translation_quote": "wat lewendigheid en vrugbaarheid onttrek lyk"
+      },
+      {
+        "location": "html, paragraph beginning “Moses se lewe”",
+        "severity": "minor",
+        "source_quote": "We can imagine ... It had undoubtedly been rehearsed to him",
+        "suggested_fix": "Replace “Ons kan voorstel” with “Ons kan ons voorstel” and “Dit was ongetwyfeld vir hom opgevoer” with “Daar is ongetwyfeld herhaaldelik aan hom vertel”.",
+        "translation_quote": "Ons kan voorstel ... Dit was ongetwyfeld vir hom opgevoer"
+      },
+      {
+        "location": "html, paragraph beginning “Vir ons verteenwoordig dit”",
+        "severity": "minor",
+        "source_quote": "laughing and lying to us in grim mockery",
+        "suggested_fix": "Replace “wat naaklach en in gru-skarpery teen ons lieg” with “wat ons uitlag en in grimmige spot vir ons lieg”.",
+        "translation_quote": "wat naaklach en in gru-skarpery teen ons lieg"
+      },
+      {
+        "location": "html, paragraph beginning “God het ’n doel”",
+        "severity": "minor",
+        "source_quote": "the utter folly ... the wife of Potiphar ... a gifted young harpist",
+        "suggested_fix": "Replace “die verbete dwaasheid” with “die volslae dwaasheid”, “die vrou van Potifars” with “die vrou van Potifar”, and “’n begaafde jong harpist” with “’n begaafde jong harpspeler”.",
+        "translation_quote": "die verbete dwaasheid ... die vrou van Potifars ... ’n begaafde jong harpist"
+      },
+      {
+        "location": "html, paragraph quoting Acts 9:6",
+        "severity": "minor",
+        "source_quote": "And he trembling and astonished said ... Arise, and go into the city ... which was accomplished by",
+        "suggested_fix": "Use “En hy het bewend en verbaas gesê”; replace “Staak op en gaan in die dorp” with “Staan op en gaan die stad binne”, and “wat berokken is deur” with “wat bewerkstellig is deur”.",
+        "translation_quote": "En hy beef en was verbaas en het gesê ... Staak op en gaan in die dorp ... wat berokken is deur"
+      },
+      {
+        "location": "html, paragraph beginning “Hierdie leerstelling”",
+        "severity": "minor",
+        "source_quote": "was foreign to Egypt ... Many good and talented men ... the working class",
+        "suggested_fix": "Replace “was vreemdeling aan Egipte” with “was vreemd aan Egipte”, “Baie goed en begaafde manne” with “Baie goeie en begaafde manne”, and “die werklende klas” with “die werkersklas”.",
+        "translation_quote": "was vreemdeling aan Egipte ... Baie goed en begaafde manne ... die werklende klas"
+      },
+      {
+        "location": "html, heading “God se Voorziening”",
+        "severity": "minor",
+        "source_quote": "God’s Provision",
+        "suggested_fix": "Change the heading text to “God se Voorsiening”.",
+        "translation_quote": "God se Voorziening"
+      },
+      {
+        "location": "html, paragraph beginning “Gebeur…?”",
+        "severity": "minor",
+        "source_quote": "think it not strange ... our feeble sense",
+        "suggested_fix": "Replace “dit nie vreemd te agten” with “dit nie vreemd te ag” and “ons swak sin” with “ons beperkte begrip”.",
+        "translation_quote": "dit nie vreemd te agten ... ons swak sin"
+      },
+      {
+        "location": "html, paragraph beginning “Miskien is God” and following paragraph",
+        "severity": "minor",
+        "source_quote": "God is enamored with the number 40 ... his presumption",
+        "suggested_fix": "Replace “is God bekoorlik deur die getal 40” with “is God bekoor deur die getal 40” and “sy veronderstelling” with “sy aanmatiging”.",
+        "translation_quote": "is God bekoorlik deur die getal 40 ... sy veronderstelling"
+      },
+      {
+        "location": "html, quotations of Exodus 3:12 and Exodus 4:24",
+        "severity": "minor",
+        "source_quote": "a token ... sought to kill him",
+        "suggested_fix": "Replace “’n teeken” with “’n teken” and “probeer het om hom te slaan dood” with “hom probeer doodmaak het”.",
+        "translation_quote": "’n teeken ... probeer het om hom te slaan dood"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 68
+  }
+}
