@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "e694c175327840a78928991e3fbc843e",
   "campaign": "auto-7973c9c6167daa4d8e10b1082fef697af34a9b3501aaf8c700bbc303d5da9529",
   "created_at": "2026-10-29T19:45:19+00:00",
   "events": [
@@ -48,214 +47,31 @@
         },
         "total_tokens": 14784
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 133,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 101,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7827,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 6724,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 7960
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "html, opening paragraph",
-      "severity": "minor",
-      "source_quote": "This is the first ... continuing to call men and women ... drawn to follow Jesus.",
-      "suggested_fix": "Tumia “Hii ni makala ya kwanza”; badili “anaendelea kuitisha wanaume na wanawake wajibu wa kujibu” kuwa “anaendelea kuwaita wanaume na wanawake kuitikia”, na “ukiwakaribishwa” kuwa “ukivutwa”.",
-      "translation_quote": "Huu ni makala ya kwanza ... anaendelea kuitisha wanaume na wanawake wajibu wa kujibu ... ukiwakaribishwa kumfuata Yesu."
-    },
-    {
-      "location": "html, paragraph beginning “Unaweza kujisikia”",
-      "severity": "minor",
-      "source_quote": "You may experience both exhilaration and apprehension.",
-      "suggested_fix": "Badili sentensi kuwa “Unaweza kuhisi msisimko na pia wasiwasi.”",
-      "translation_quote": "Unaweza kujisikia kwa msisimko pamoja na wasiwasi."
-    },
-    {
-      "location": "html, paragraph beginning “Kuna utupu”",
-      "severity": "major",
-      "source_quote": "an emptiness ... only Jesus can fill ... resonates with those heart longings ... we find ourselves being transformed.",
-      "suggested_fix": "Badili “kuufunika” kuwa “kuujaza”; tumia “Kuna usafi na uzuri katika maisha ya Yesu unaoendana na shauku hizo za mioyo. Tunapotembea na Yesu, tunajikuta tukibadilishwa.”",
-      "translation_quote": "kuufunika ... yanayolingana na kutamani kwa mioyo hiyo ... tunakutana tukigeuzwa."
-    },
-    {
-      "location": "html, paragraph beginning “Ukitushirikisha”",
-      "severity": "major",
-      "source_quote": "If you join us on this journey",
-      "suggested_fix": "Badili “Ukitushirikisha katika safari hii” kuwa “Ukijiunga nasi katika safari hii”.",
-      "translation_quote": "Ukitushirikisha katika safari hii"
-    },
-    {
-      "location": "html, Matthew 4:18-22 blockquote",
-      "severity": "major",
-      "source_quote": "Follow me ... fishers of men. And they straightway left their nets",
-      "suggested_fix": "Badili “Nifuate” kuwa “Nifuateni”, “wawindaji samaki” kuwa “wavuvi”, na “wawindaji wa watu” kuwa “wavuvi wa watu”. Badili “Wakakata wavu wao mara moja” kuwa “Mara wakaziacha nyavu zao”.",
-      "translation_quote": "Nifuate ... wawindaji samaki ... wawindaji wa watu. Wakakata wavu wao mara moja"
-    },
-    {
-      "location": "html, paragraph beginning “Fikiria mwenyewe”",
-      "severity": "major",
-      "source_quote": "The sun was rising ... Fishing has been your life. You are as much at home on the sea as you are in your cottage.",
-      "suggested_fix": "Tumia “Jua lilikuwa likichomoza kwenye upeo wa mashariki”; badili “kuwindia samaki” kuwa “kuvua samaki”, na sentensi mbili za mwisho kuwa “Uvuvi umekuwa maisha yako. Unajisikia umetulia baharini kama ulivyo nyumbani katika kibanda chako.”",
-      "translation_quote": "Jua lilikuwa likinyoshwa ... kuwindia samaki ... Uwindaji umekuwa maisha yako. Umerahisi kama nyumbani baharini"
-    },
-    {
-      "location": "html, paragraph beginning “Siku nyingine”",
-      "severity": "minor",
-      "source_quote": "keep the creditors at bay ... Your father was a fisherman. Your grandfather was a fisherman.",
-      "suggested_fix": "Tumia “kuwazuia wadai wasikusumbue kwa wiki nyingine”, na badili “mwindaji samaki” katika sentensi zote mbili kuwa “mvuvi”.",
-      "translation_quote": "kumuweka mbali mkopeshaji ... Baba yako alikuwa mwindaji samaki. Babu yako alikuwa mwindaji samaki."
-    },
-    {
-      "location": "html, paragraph beginning “Kila asubuhi”",
-      "severity": "major",
-      "source_quote": "This morning ... a man approaches ... the local rabbi",
-      "suggested_fix": "Badili “Kila asubuhi” kuwa “Asubuhi hii”, “mtu mmoja akaruka karibu” kuwa “mtu mmoja anakaribia”, na “myezi wa mahubiri wa mahali” kuwa “rabi wa eneo hilo”.",
-      "translation_quote": "Kila asubuhi ... mtu mmoja akaruka karibu ... myezi wa mahubiri wa mahali"
-    },
-    {
-      "location": "html, paragraph beginning “Yakobo anamwangalia”",
-      "severity": "major",
-      "source_quote": "His approving nod ... time with the Nazarene would soften the temper of their abrasive characters.",
-      "suggested_fix": "Tumia “Kuitikia kwake kwa kichwa kwa kuonyesha ridhaa kulikuwa tu walichohitaji” na “Labda alikuwa akitumaini kwamba kukaa na Mnasareni kungepunguza ukali wa tabia zao.”",
-      "translation_quote": "Kurejea kichwa kwa ridhaa kwake ... wakati pamoja na Mnasareni unang’oa hasira ya tabia zao kali."
-    },
-    {
-      "location": "html, paragraph beginning “Nifuate, nami”",
-      "severity": "major",
-      "source_quote": "Follow me, and I will make you fishers of men ... tethered to a stump by the shore",
-      "suggested_fix": "Tumia “Nifuateni, nami nitawafanya kuwa wavuvi wa watu.” Badili “Waliwachia” kuwa “Waliacha”, na “kwenye kiti” kuwa “kwenye kisiki”. Mwishoni tumia “Labda ilikuwa shauku kubwa mioyoni mwa wanafunzi hawa—‘tumaini’ ambalo kumfuata Yesu kungeweza kulitimiza.”",
-      "translation_quote": "Nifuate ... wawindaji wa watu ... Waliwachia ... kwenye kiti ... “tumaini” kwamba kumfuata Yesu kunaweza kutimiza."
-    },
-    {
-      "location": "html, paragraph beginning “Mizazi ya wanaume Wayahudi”",
-      "severity": "major",
-      "source_quote": "break the Roman yoke ... the most promising revolutionary prospect of the day ... they would never be the same.",
-      "suggested_fix": "Badili “angenyanyasa ufunuo wa Kirumi” kuwa “angevunja nira ya utawala wa Kirumi”; tumia “Yesu ndiye aliyeonekana kuwa na matumaini makubwa zaidi ya kuleta mapinduzi wakati huo.” Badili “hawakuwa watoe sawa tena” kuwa “wasingebaki vile walivyokuwa tena”.",
-      "translation_quote": "angenyanyasa ufunuo wa Kirumi ... Yesu alikuwa tegemeo la msukumo la siku hizo ... hawakuwa watoe sawa tena."
-    },
-    {
-      "location": "html, paragraph beginning “Wakati Petro, Andrea”",
-      "severity": "minor",
-      "source_quote": "the familiar, secure life of the fisherman ... an adventure",
-      "suggested_fix": "Badili “maisha ya kawaida, yenye usalama ya muwindaji” kuwa “maisha waliyozoea, yenye usalama, ya mvuvi”, na “msimu wa kusisimua” kuwa “safari yenye matukio ya kusisimua”.",
-      "translation_quote": "maisha ya kawaida, yenye usalama ya muwindaji ... msimu wa kusisimua"
-    },
-    {
-      "location": "html, paragraph beginning “Baada ya msalaba”",
-      "severity": "major",
-      "source_quote": "they could not resist the allure of the familiar ... He told them to cast on the right side of the ship.",
-      "suggested_fix": "Badili “huwezi kukwepa mvuto wa yaliyo ya kawaida” kuwa “hawakuweza kuupinga mvuto wa mambo waliyoyazoea”; badili “Akawaambia wawatupie upande wa kulia wa mashua” kuwa “Akawaambia watupe nyavu upande wa kulia wa mashua”.",
-      "translation_quote": "huwezi kukwepa mvuto wa yaliyo ya kawaida ... Akawaambia wawatupie upande wa kulia wa mashua."
-    },
-    {
-      "location": "html, John 21:3-6 blockquote",
-      "severity": "major",
-      "source_quote": "They went forth ... Cast the net ... they were not able to draw it",
-      "suggested_fix": "Badili “Wakamtoka” kuwa “Wakatoka”, “Mwatupie wavu” kuwa “Tupeni wavu”, na “hawakuweza kuvuza” kuwa “hawakuweza kuuvuta”.",
-      "translation_quote": "Wakamtoka ... Mwatupie wavu ... hawakuweza kuvuza"
-    },
-    {
-      "location": "html, paragraph beginning “Unapomamua”",
-      "severity": "major",
-      "source_quote": "utter dependence upon Him ... no longer trust in yourself ... in my flesh ... dwelleth no good thing ... how to perform that which is good I find not",
-      "suggested_fix": "Tumia “Unapoamua kumfuata Yesu, atakuvuta katika hali ya kumtegemea yeye kabisa, kiasi kwamba hatimaye hutaendelea kujitumainia mwenyewe.” Ndani ya em tumia “…kwamba ndani yangu (yaani, katika mwili wangu,) halikai jambo jema…” na “…kwa maana nina nia ya kutenda mema; lakini sijui jinsi ya kuyatenda –Warumi 7:18.”",
-      "translation_quote": "Unapomamua ... utegemezi wake kamili ... hautaweza tena kumtumaini wewe mwenyewe ... hakuna kitu kizuri chaanayeishi ... kutaka kunikuwapo"
-    },
-    {
-      "location": "html, paragraph beginning “Ufuasi utatupeleka”",
-      "severity": "major",
-      "source_quote": "could not have fathomed ... We commit the details to our Master.",
-      "suggested_fix": "Tumia “Kama vile wanafunzi wasingeweza kufahamu kumfuata Yesu kungewapeleka wapi, sisi pia hatuwezi.” Badili sentensi ya mwisho kuwa “Tunamkabidhi Bwana wetu mambo yote ya safari hiyo.”",
-      "translation_quote": "hawangeweza kubahatisha ... Tunamipa Bwana wetu maelezo da details."
-    },
-    {
-      "location": "html, Luke 9:62 quotation",
-      "severity": "major",
-      "source_quote": "having put his hand to the plough, and looking back",
-      "suggested_fix": "Badili “kwenye plagi, akimtazama nyuma” kuwa “kwenye jembe la kukokotwa, akitazama nyuma”.",
-      "translation_quote": "kwenye plagi, akimtazama nyuma"
-    },
-    {
-      "location": "html, paragraph beginning “Wakati Yesu alionekana”",
-      "severity": "major",
-      "source_quote": "the weary disciples ... How gently piercing are the words of Jesus.",
-      "suggested_fix": "Badili “wanafunzi waliochelemea” kuwa “wanafunzi waliochoka”; badili sentensi ya mwisho kuwa “Maneno ya Yesu yanapenya moyoni kwa upole ulioje!”",
-      "translation_quote": "wanafunzi waliochelemea ... Maneno ya Yesu yalikuwa na pemba laini yanayokata kwa undani."
-    },
-    {
-      "location": "html, paragraph beginning “Petro alijibu”",
-      "severity": "major",
-      "source_quote": "Feed my lambs.",
-      "suggested_fix": "Badili “Lisha ndugu zangu” kuwa “Lisha wana-kondoo wangu”.",
-      "translation_quote": "Lisha ndugu zangu."
-    },
-    {
-      "location": "html, paragraph beginning “Petro hatimaye”",
-      "severity": "major",
-      "source_quote": "Now Jesus is asking him to reciprocate that love.",
-      "suggested_fix": "Badili sentensi kuwa “Sasa Yesu anamwomba aitikie upendo huo kwa kumpenda pia.”",
-      "translation_quote": "Sasa Yesu anamwomba apendezane naye kwa upendo huo."
-    },
-    {
-      "location": "html, paragraph beginning “Matukio ya nyumba ya Kayafa”",
-      "severity": "major",
-      "source_quote": "falsely accused, and spat upon ... “I am not” ... Jesus has challenged his love.",
-      "suggested_fix": "Badili “akihojiwa kwa uongo, na kukamatwa mate” kuwa “akishtakiwa kwa uongo, na kutemewa mate”; “aliyeendelea kumtaka kwamba” kuwa “aliyesisitiza kwamba”; “Sijui” kuwa “Mimi si mmoja wao”; na “Yesu amenihukumu upendo wake” kuwa “Yesu amemhoji kuhusu upendo wake”.",
-      "translation_quote": "akihojiwa kwa uongo, na kukamatwa mate ... aliyeendelea kumtaka kwamba ... “Sijui.” ... Yesu amenihukumu upendo wake."
-    },
-    {
-      "location": "html, paragraph beginning “Akilazwa”",
-      "severity": "major",
-      "source_quote": "In anguish of heart Peter cried out ... to emulate him.",
-      "suggested_fix": "Badili “Akilazwa kwa maumivu ya moyo Petro aliliita” kuwa “Akiwa na uchungu moyoni, Petro akalia kwa sauti”; badili “kumfanana naye” kuwa “kumwiga”.",
-      "translation_quote": "Akilazwa kwa maumivu ya moyo Petro aliliita ... kumfanana naye."
-    },
-    {
-      "location": "html, paragraph beginning “Yesu anakulizia”",
-      "severity": "major",
-      "source_quote": "Defer to your brother",
-      "suggested_fix": "Badili “Msubiri ndugu yako” kuwa “Mtangulize ndugu yako”.",
-      "translation_quote": "Msubiri ndugu yako"
-    },
-    {
-      "location": "html, paragraph beginning “Ikiwa moyoni mwako”",
-      "severity": "major",
-      "source_quote": "Jesus never calls us without equipping us, and He doesn’t equip us until He determines that we are ready ... he was equipped.",
-      "suggested_fix": "Tumia “Yesu hatuiti kamwe bila kutuwezesha, naye hatuwezeshi mpaka aamue kwamba tuko tayari.” Badili “aliiiitwa” ikiwa ipo, au “aliiitwa”, kuwa “aliitwa”, na “alipewa neema” kuwa “aliwezeshwa”.",
-      "translation_quote": "Yesu hatumwiti bila kutubariki kwa vifaa, na hatusiagi hadi atakapothibitisha kwamba tuko tayari ... Petro aliiitwa ... alipewa neema."
-    },
-    {
-      "location": "html, paragraph beginning “Ningependa kuvutia”",
-      "severity": "minor",
-      "source_quote": "another attribute of discipleship that is sometimes misplaced",
-      "suggested_fix": "Badili “ambayo wakati mwingine hupangwa vibaya” kuwa “ambayo wakati mwingine haieleweki ipasavyo”.",
-      "translation_quote": "sifa nyingine ya ufuasi ambayo wakati mwingine hupangwa vibaya"
-    },
-    {
-      "location": "html, paragraph beginning “Swali kali”",
-      "severity": "major",
-      "source_quote": "your devoted love for Me",
-      "suggested_fix": "Badili “upendo wako uliotawanywa kwangu” kuwa “upendo wako wa dhati uliojitoa kwangu”.",
-      "translation_quote": "upendo wako uliotawanywa kwangu"
-    },
-    {
-      "location": "html, paragraph beginning “Tunaweza kufahamu”",
-      "severity": "minor",
-      "source_quote": "it is not considered toil ... No sacrifice ... is a loss.",
-      "suggested_fix": "Tumia “kufanya kazi kwa ajili yake hakuonekani kuwa taabu” na “Hakuna kujitolea tunakofanya kwa ajili ya ufalme wa mbinguni ambako ni hasara.”",
-      "translation_quote": "haitachukuliwi kuwa bidii ... Hakuna kujitolea tunaofanya kwa ajili ya ufalme wa mbinguni ni hasara."
-    },
-    {
-      "location": "html, final paragraph",
-      "severity": "major",
-      "source_quote": "they run counter to our human impulses",
-      "suggested_fix": "Badili “yanapakana na hamu zetu za kibinadamu” kuwa “yanapingana na misukumo yetu ya kibinadamu”.",
-      "translation_quote": "yanapakana na hamu zetu za kibinadamu"
-    },
-    {
-      "location": "html, figure img alt",
-      "severity": "minor",
-      "source_quote": "Weathered wooden fishing boat floating on calm water",
-      "suggested_fix": "Badili alt kuwa “Mashua ya uvuvi ya mbao iliyochakaa ikielea kwenye maji tulivu”.",
-      "translation_quote": "Mashua ya mbao iliyochakaa ikielea kwenye maji tulivu"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-29T20:41:56+00:00",
   "id": "6a48e82e073523c754ccaaec51ac642a",
   "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
   "language": "swa",
@@ -344,7 +160,7 @@
     }
   },
   "protected": false,
-  "quality_score": 52,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6.1-sol",
@@ -363,7 +179,7 @@
     "total_reserved_usd": 0.744139,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "1a9a048cb09f8defedfe227e6b286e8b931f833f4da6a1d1e6b5d1175b0c84c0",
   "translation_model_actual": "gpt-6.1-sol"
