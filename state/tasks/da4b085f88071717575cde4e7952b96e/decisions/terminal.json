@@ -1,0 +1,203 @@
+{
+  "findings": [
+    {
+      "location": "html: opening historical paragraph",
+      "severity": "major",
+      "source_quote": "overcame the initial defenses and swarmed into the German-held territory ... caught the Germans off guard",
+      "suggested_fix": "Badili kuwa: “walishinda ulinzi wa awali na kuingia kwa wingi katika eneo lililokuwa chini ya Wajerumani” na “liliwashitukiza Wajerumani.” Ondoa “Mungu,” ambaye hatajwi hapa.",
+      "translation_quote": "waliweza kukabiliana na ulinzi wa awali na kuwafuka walionao Wajerumani ... lilimkamata Mungu kishtuko Wajerumani"
+    },
+    {
+      "location": "html: opening historical paragraph, liberation and army",
+      "severity": "major",
+      "source_quote": "France was finally liberated from German forces ... sap the life from the notorious German army",
+      "suggested_fix": "Tumia “Ufaransa hatimaye ilikombolewa kutoka kwa majeshi ya Ujerumani” na “kulidhoofisha kabisa jeshi la Ujerumani lililokuwa na sifa mbaya.”",
+      "translation_quote": "Ufaransa iliondolewa kabisa kutoka kwa majeshi ya Kijerumani ... kumwachilia uhai kutoka kwa jeshi maarufu la Kijerumani"
+    },
+    {
+      "location": "html: opening paragraph, D-word illustration",
+      "severity": "major",
+      "source_quote": "words with a negative connotation begin with the letter D: Disappointment, Doubt, Doleful ...",
+      "suggested_fix": "Eleza “maneno mengi ya Kiingereza yenye maana hasi huanza na herufi D,” kisha toa visawe sahihi vya Kiswahili, kwa mfano “Disappointment (kuvunjika moyo), Doubt (shaka), Doleful (mwenye huzuni).” Sahihisha pia “Discouragement” kuwa “kuvunjika moyo,” si “Kuchelewesha moyo.”",
+      "translation_quote": "maneno mengi yenye maana hasi huanza na herufi D: Kukata tamaa, Mashaka, Majuto ... Kuchelewesha moyo"
+    },
+    {
+      "location": "html: paragraph beginning “Ninaweza kufikiria”",
+      "severity": "major",
+      "source_quote": "plodding upon the road ... all their bright hopes ... shattered in a ruinous heap at the foot of the cross",
+      "suggested_fix": "Ondoa tendo lililoongezwa la kuanguka; tumia “wakitembea kwa taabu barabarani kuelekea Emau jioni ile yenye giza na huzuni.” Rekebisha mwisho kuwa “matumaini yao yote ... yalikuwa yamevunjika kabisa, yakawa rundo la mabaki chini ya msalaba.”",
+      "translation_quote": "wakitembea polepole katika barabara ya Emau na kuanguka ... katika hula ya uharibifu mzungoni mwa msalaba"
+    },
+    {
+      "location": "html: Jeremiah 15:18 quotation",
+      "severity": "major",
+      "source_quote": "Why is my pain perpetual, and my wound incurable, which refuseth to be healed? wilt thou be altogether unto me as a liar, and as waters that fail?",
+      "suggested_fix": "Tafsiri nukuu kuwa: “Kwa nini maumivu yangu ni ya kudumu, na jeraha langu haliponyeki, linakataa kupona? Je, utakuwa kwangu kama mwongo, na kama maji yanayokauka?” Hifadhi rejeo na alama za HTML.",
+      "translation_quote": "Kwani maumivu yangu ya kudumu ni nini, na jeraha langu halipuziwi; haliitai kuponwa? Utakuwa kwangu ujanja, na kama maji yaliyokwisha?"
+    },
+    {
+      "location": "html: 2 Corinthians 1:8-9 and 2 Corinthians 1:9 quotations",
+      "severity": "major",
+      "source_quote": "God which raiseth the dead",
+      "suggested_fix": "Katika sehemu zote mbili, badili “Mungu ambaye huteuwa wafu” kuwa “Mungu anayewafufua wafu.”",
+      "translation_quote": "Mungu ambaye huteuwa wafu"
+    },
+    {
+      "location": "html: paragraph following 2 Corinthians 1:8-9",
+      "severity": "major",
+      "source_quote": "preachers and penitents ... pulpits and pews ... every possible scenario",
+      "suggested_fix": "Tumia “wahubiri na wenye kutubu ... madhabahu na viti vya waumini.” Badili maelezo ya mazungumzo kuwa “walikuwa wamejadili kila hali ambayo ingewezekana,” bila kudai kwamba walikuwa wamepitia kila tukio.",
+      "translation_quote": "wachungaji au watafakari ... madaraja na viti vya kanisa ... kila tukio linalowezekana walilopita"
+    },
+    {
+      "location": "html: distance to Emmaus",
+      "severity": "major",
+      "source_quote": "about threescore furlongs or approximately seven miles",
+      "suggested_fix": "Rejesha mpangilio na utafsiri kipimo: “ilikuwa <em>takriban furlongi sitini</em>, yaani karibu maili saba.”",
+      "translation_quote": "<em>takriban maili saba</em> au kuhusu threescore furlongs"
+    },
+    {
+      "location": "html: Moses paragraph, disdain and Numbers 11:14-15",
+      "severity": "major",
+      "source_quote": "The heartfelt disdain ... let me not see my wretchedness",
+      "suggested_fix": "Badili “Mwonekano wa moyoni” kuwa “Dharau inayotoka moyoni,” na “njia mwrong” kuwa “njia isiyo sahihi.” Katika nukuu tumia “wala usiniache nione hali yangu ya taabu” badala ya maneno yanayobadili ombi la Musa.",
+      "translation_quote": "Mwonekano wa moyoni ... njia mwrong ... nami nisiondoke kwa kuona umasikini wangu"
+    },
+    {
+      "location": "html: Reason section, 1 Corinthians 13:12",
+      "severity": "major",
+      "source_quote": "through a glass, darkly",
+      "suggested_fix": "Badili kuwa “kwa kioo, bila kuona wazi.”",
+      "translation_quote": "kwa kioo, kwa upuzi"
+    },
+    {
+      "location": "html: Genesis 28:20-21 quotation",
+      "severity": "major",
+      "source_quote": "Jacob vowed a vow ... this way that I go ... bread to eat, and raiment to put on",
+      "suggested_fix": "Tumia “Yakobo akaweka nadhiri ... katika njia hii ninayoiendea ... mkate wa kula na mavazi ya kuvaa,” huku ukihifadhi sehemu nyingine na rejeo.",
+      "translation_quote": "Yakobo akatoa nanga ... katika njia hii niliyoongea ... mkate niliye kula, na mavazi ya nitoe"
+    },
+    {
+      "location": "html: Genesis 32:24-28 quotation",
+      "severity": "major",
+      "source_quote": "wrestled a man with him until the breaking of the day ... thigh was out of joint ... as a prince hast thou power with God and with men",
+      "suggested_fix": "Tumia “mtu akashindana naye mieleka hadi mapambazuko”; “kiungo cha paja la Yakobo kikateguka”; na “kwa maana kama mkuu una nguvu mbele za Mungu na wanadamu, nawe umeshinda.” Rekebisha “Niniondoke” kuwa “Niache niende” na “Sitaambiwi tena jina lako” kuwa “Jina lako halitaitwa tena.”",
+      "translation_quote": "mtu akampigania hadi kuanguka kwa mchana ... mwili wa paja la Yakobo ukakatika ... umekuwa mfalme na una mamlaka na Mungu"
+    },
+    {
+      "location": "html: Jacob commentary after Genesis 32",
+      "severity": "major",
+      "source_quote": "His victory was through surrender, and he limped away as a cripple with a crown ... powers of reason",
+      "suggested_fix": "Tumia “Ushindi wake ulipatikana kwa kujisalimisha, naye akaondoka akichechemea, akiwa kilema mwenye taji.” Badili “nguvu zake za logic” kuwa “nguvu zake za kufikiri.”",
+      "translation_quote": "Ushindi wake ulikuwa kupitia kukubali, na alienda akiwa na ulemavu akiwa amevaa taji ... nguvu zake za logic"
+    },
+    {
+      "location": "html: Ill Fate section, Luke 24:20",
+      "severity": "major",
+      "source_quote": "delivered him to be condemned to death, and have crucified him",
+      "suggested_fix": "Tumia “walimkabidhi ahukumiwe kifo, nao wakamsulubisha.”",
+      "translation_quote": "walimwachiwa ili aishughulikiwe kwa kifo, na walimchoma msalabani"
+    },
+    {
+      "location": "html: Ill Fate section, counsel about outcomes",
+      "severity": "major",
+      "source_quote": "we must invariably leave the results in the hands of God",
+      "suggested_fix": "Badili kuwa “lazima sikuzote tuyaache matokeo mikononi mwa Mungu.”",
+      "translation_quote": "lazima tusiachi matokeo mikononi mwa Mungu"
+    },
+    {
+      "location": "html: Ill Fate section, Job quotations and final action",
+      "severity": "major",
+      "source_quote": "the morning ... Let the day perish wherein I was born ... a man child conceived ... laid his hand to his mouth",
+      "suggested_fix": "Badili “mchana” kuwa “asubuhi” katika Ayubu 24:17; katika Ayubu 3 tumia “Na ipotee siku niliyozaliwa” na “mtoto wa kiume ametungwa mimba.” Badili “akafuta kinywa chake” kuwa “akaweka mkono wake kinywani.”",
+      "translation_quote": "mchana ... Acha siku nisiyozaliwa ipotee ... mtoto wa kiume amenakulia ... akafuta kinywa chake"
+    },
+    {
+      "location": "html: Personal Agenda section, Luke 24:21 and 2 Kings 5:11",
+      "severity": "major",
+      "source_quote": "he which should have redeemed Israel ... recover the leper",
+      "suggested_fix": "Tumia “Lakini tulitumaini kwamba yeye ndiye angeikomboa Israeli…” na “kumponya mwenye ukoma.”",
+      "translation_quote": "yeye anayehitaji kumtumikia Israeli ... kuponya mchungaji"
+    },
+    {
+      "location": "html: Impatience section, opening commentary",
+      "severity": "major",
+      "source_quote": "disciplined enough to hold out for a season ... our hearts grow sick and faint",
+      "suggested_fix": "Tumia “Wengi wetu tuna nidhamu ya kutosha kuvumilia kwa muda” na “mioyo yetu huumia na kudhoofika.”",
+      "translation_quote": "tumefundishwa kutegemea msimu ... mioyo yetu huumia na kuzini"
+    },
+    {
+      "location": "html: Joseph paragraph",
+      "severity": "major",
+      "source_quote": "entreated the butler to send for him ... laid in iron ... few saints are exempt",
+      "suggested_fix": "Tumia “alimsihi mnyweshaji aagize aitwe baada ya kurejeshwa katika cheo chake”; “kufungwa kwa pingu za chuma”; na “ni watakatifu wachache tu ambao hawapitii nidhamu hiyo.”",
+      "translation_quote": "aliomba mlimbwani asubiri kumwine ... kutumwa kwa chuma ... wachungaji wachache wanakosa"
+    },
+    {
+      "location": "html: Self-Pity heading and commentary",
+      "severity": "major",
+      "source_quote": "Self-Pity ... tidings brought by the women ... immersed in self-pity",
+      "suggested_fix": "Badili kichwa kuwa “Kujihurumia,” “Habari zilizokuja kwa wanawake” kuwa “Habari zilizoletwa na wanawake,” na “aliyejaa kujijua mwenyewe” kuwa “aliyezama katika kujihurumia.”",
+      "translation_quote": "Kujiudhi ... Habari zilizokuja kwa wanawake ... aliyejaa kujijua mwenyewe"
+    },
+    {
+      "location": "html: Self-Pity section, Luke 24:22-23 and 1 Kings 19:4",
+      "severity": "major",
+      "source_quote": "seen a vision of angels ... It is enough",
+      "suggested_fix": "Tumia “walikuwa wameona maono ya malaika” na ubadili “Wanaisha” kuwa “Imetosha.”",
+      "translation_quote": "walimuona malaika ... Wanaisha"
+    },
+    {
+      "location": "html: Feelings of Failure, first paragraph",
+      "severity": "major",
+      "source_quote": "unsuccessful efforts may discourage us ... announced the coming Messiah and pointed his disciples to ... the Lamb of God ... This ministry",
+      "suggested_fix": "Tumia “jitihada zisizofanikiwa zinaweza kutuvunja moyo”; “Alitangaza kwa usahihi Masihi ajaye na kuwaelekeza wanafunzi wake kwa <em>…Mwanakondoo wa Mungu, aondoaye dhambi ya ulimwengu –Yohana 1:29.</em>”; na “Huduma hii” badala ya “Ufalme huu.”",
+      "translation_quote": "jitihada zisizofanikiwa zinaweza kututia moyo ... Meso wa Mkutano ... Mwana Mwana wa Mungu ... Ufalme huu"
+    },
+    {
+      "location": "html: John Bunyan paragraph",
+      "severity": "major",
+      "source_quote": "the slough of despond",
+      "suggested_fix": "Badili kuwa “kinamasi cha kukata tamaa.”",
+      "translation_quote": "kinyesi cha kukata tamaa"
+    },
+    {
+      "location": "html: Conclusion, first paragraph",
+      "severity": "major",
+      "source_quote": "Jesus Himself was tempted in a similar manner to us",
+      "suggested_fix": "Badili kuwa “Yesu mwenyewe alijaribiwa kwa namna inayofanana na sisi.”",
+      "translation_quote": "Yesu mwenyewe alitemewa kwa namna inayofanana nasi"
+    },
+    {
+      "location": "html: Conclusion, paragraph beginning “Barabara ya Emau”",
+      "severity": "major",
+      "source_quote": "must be immersed in the fires of humility",
+      "suggested_fix": "Badili kuwa “lazima yazamishwe katika moto wa unyenyekevu.”",
+      "translation_quote": "lazima ziwe zimetobolewa katika moto wa unyenyekevu"
+    },
+    {
+      "location": "html: Conclusion, Cleopas paragraph",
+      "severity": "major",
+      "source_quote": "The scales fall from our eyes ... only to be misunderstood again ... neither believed they them",
+      "suggested_fix": "Tumia “Magamba yanaanguka kutoka machoni mwetu”; “tusieleweke tena”; na katika Marko 16:13, “Nao wakaenda kuwaambia wale waliobaki; lakini hawakuwaamini.”",
+      "translation_quote": "Mizani inatua kutoka machoni mwetu ... tukielezwa vibaya tena ... wala walikuwa wasioniaminifu"
+    },
+    {
+      "location": "html: closing poem, final two lines",
+      "severity": "major",
+      "source_quote": "My chains fell off. My heart was free. / I rose, went forth, and followed Thee.",
+      "suggested_fix": "Tumia “Minyororo yangu ikaanguka. Moyo wangu ukawa huru.<br>\n    Nikainuka, nikatoka, nikakufuata.”",
+      "translation_quote": "Minyororo yangu ilipatikana. Moyo wangu ulikuwa huru. / Nimeamka, nikatoka, na nikikutekelea."
+    },
+    {
+      "location": "html: figure img alt",
+      "severity": "minor",
+      "source_quote": "Raised hands reaching toward a beam of light from a high window",
+      "suggested_fix": "Badili alt kuwa “Mikono iliyoinuliwa ikielekea kwenye mwale wa mwanga kutoka dirisha lililo juu.” Hifadhi src na muundo wa picha.",
+      "translation_quote": "Mikono iliyoinuliwa ikifikia mngeremsha wa mwanga kutoka kwa dirisha la juu"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Review report is incomplete; all returned findings are retained for owner attention",
+  "stage": "terminal"
+}
