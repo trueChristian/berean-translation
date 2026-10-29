@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "translation.html, erster Eintrag der nummerierten Liste, Kommentar zu Sprüche 5,18",
+      "severity": "minor",
+      "source_quote": "Note the attention given to the wife of thy youth.",
+      "suggested_fix": "Beachten Sie, dass der <em>Frau deiner Jugend</em> besondere Aufmerksamkeit gilt.",
+      "translation_quote": "Beachten Sie, dass der <em>Frau deiner Jugend.</em> besondere Aufmerksamkeit gilt."
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

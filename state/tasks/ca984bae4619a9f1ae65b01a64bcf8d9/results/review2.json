@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "c3ba2fc9-638c-4b75-acd2-ca456717bff9",
+    "response_id": "chatcmpl-EeRLffs95oQ8KMRLI24mfHDb4pBn4",
+    "usage": {
+      "completion_tokens": 158,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 37,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 11219,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 10116,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 11377
+    }
+  },
+  "received_at": "2026-10-29T20:57:13+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "translation.html, erster Eintrag der nummerierten Liste, Kommentar zu Sprüche 5,18",
+        "severity": "minor",
+        "source_quote": "Note the attention given to the wife of thy youth.",
+        "suggested_fix": "Beachten Sie, dass der <em>Frau deiner Jugend</em> besondere Aufmerksamkeit gilt.",
+        "translation_quote": "Beachten Sie, dass der <em>Frau deiner Jugend.</em> besondere Aufmerksamkeit gilt."
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 99
+  }
+}
