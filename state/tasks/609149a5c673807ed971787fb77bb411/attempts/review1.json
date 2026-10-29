@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-29T12:22:56+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"translation.html, eerste paragraaf\",\"severity\":\"minor\",\"source_quote\":\"This was no petty judge or political secretary.\",\"suggested_fix\":\"Vervang “kleinlike regter” met “regter van geringe rang”.\",\"translation_quote\":\"Dit was geen kleinlike regter of politieke sekretaris nie.\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 363,
+    "content_evidence_truncated": false,
+    "content_sha256": "7ba6f054f9b82a45e71201b946f9ad91418c45287406cd2ece84e9c375c0969c",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 178,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 79,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6615,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5512,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 6793
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}

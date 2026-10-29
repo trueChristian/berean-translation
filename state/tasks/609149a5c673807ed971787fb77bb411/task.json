@@ -5,11 +5,42 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "c5a25a870a14498cbdb6f013742ed6b3",
   "campaign": "auto-4ac1fbbb7ed106f789c85c6c1bccb817bf5de8b31da55a669976aea6b7c46efd",
   "created_at": "2026-10-29T10:22:02+00:00",
-  "events": [],
-  "findings": [],
+  "events": [
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 178,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 79,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6615,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 5512,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 6793
+      }
+    }
+  ],
+  "failure": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[24]: source /article[1]/p[11] ('end', 'p'); translation /article[1]/p[11]/em[1] ('start', 'em', ())",
+  "failure_kind": "invalid_result",
+  "findings": [
+    {
+      "location": "translation.html, eerste paragraaf",
+      "severity": "minor",
+      "source_quote": "This was no petty judge or political secretary.",
+      "suggested_fix": "Vervang “kleinlike regter” met “regter van geringe rang”.",
+      "translation_quote": "Dit was geen kleinlike regter of politieke sekretaris nie."
+    }
+  ],
+  "finished_at": "2026-10-29T12:22:56+00:00",
   "id": "609149a5c673807ed971787fb77bb411",
   "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
   "language": "afr",
@@ -98,9 +129,11 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/63e45266e1ece0020fa4e0801f2032bd095a929884b27576916c4fac6e71e266.json",
   "stage": "review1",
   "stage_budget": {
@@ -115,7 +148,7 @@
     "total_reserved_usd": 0.732641,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 0,
   "translation_key": "0ec18dc4a4b289e72e00424bde99770f0dbc52c0ceb26b1a16a8b4b40097dc16",
   "translation_model_actual": "gpt-6-luna"
