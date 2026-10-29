@@ -41763,6 +41763,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ind/articles/fe13ba15-f33c-46ff-9d3c-f114f1b2f4d4.html",
+      "html_sha256": "26eb25b4f68c95b8626163cf645c31e4bae20f35276225d68a9b4797ee3bc8c9",
+      "human_reviewed": false,
+      "id": "fe13ba15-f33c-46ff-9d3c-f114f1b2f4d4",
+      "images": [
+        {
+          "alt": "",
+          "public_path": "/images/articles/fe13ba15-f33c-46ff-9d3c-f114f1b2f4d4-1.png"
+        },
+        {
+          "alt": "Seekor lebah di atas bunga putih",
+          "public_path": "/images/articles/fe13ba15-f33c-46ff-9d3c-f114f1b2f4d4-2.jpg"
+        }
+      ],
+      "issue_id": "1933c1f0-be1f-561a-b470-79a5ced64c04",
+      "language": "ind",
+      "language_tag": "id",
+      "metadata": "content/ind/articles/fe13ba15-f33c-46ff-9d3c-f114f1b2f4d4.json",
+      "metadata_sha256": "0219cff0780018d43bed78f601056ce8c68c9300584e78a8ad781bcb55cc60c6",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "Dari Redaksi",
+      "source_revision": "22388745ad7f149609e65f5e28cfcc1257cd689e",
+      "source_translation_key": "638ffc8e59099baf2aea4d3ff147935b68127324804d36e99f77026b29a9def3",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Dari Redaksi",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ind/articles/fe4a7487-2a8a-47c1-96c1-cecbfccbc0dd.html",
       "html_sha256": "f8483eed7bf3f9a561685874040ec8bfc8b332ac21d48d8e2bb841210539ff23",
       "human_reviewed": false,
@@ -76562,6 +76594,34 @@
       "status": "ready",
       "subtitle": null,
       "title": "Neema ya Ajabu",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/swa/articles/964d8688-6491-4ede-9271-c923db4c4079.html",
+      "html_sha256": "e6909fcf5b7614d445a59ac4bfb0821dc108ad577c4dcf67100b7ee8f0d07fb4",
+      "human_reviewed": false,
+      "id": "964d8688-6491-4ede-9271-c923db4c4079",
+      "images": [
+        {
+          "alt": "Mashua ya uvuvi ya mbao iliyochakaa ikielea kwenye maji tulivu",
+          "public_path": "/images/articles/964d8688-6491-4ede-9271-c923db4c4079-1.jpg"
+        }
+      ],
+      "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
+      "language": "swa",
+      "language_tag": "sw",
+      "metadata": "content/swa/articles/964d8688-6491-4ede-9271-c923db4c4079.json",
+      "metadata_sha256": "9dd48aec903d2181f8c17f1b643d31273b6ea0939334574a8dd4ea44804424bf",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "Kanisa la Agano Jipya",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "1a9a048cb09f8defedfe227e6b286e8b931f833f4da6a1d1e6b5d1175b0c84c0",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Mwito wa Ufuasi",
       "translation_model": "gpt-6.1-sol"
     },
     {
