@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "9ea7ff62fc0f4d85a35a58649ff0207e",
   "campaign": "auto-a15ebef0d4856cc6abcd96eca399a72c8f6edb4304de1524f479b03e190e6f8f",
   "created_at": "2026-10-29T20:31:44+00:00",
   "events": [
@@ -48,18 +47,31 @@
         },
         "total_tokens": 8580
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 71,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 39,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5889,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 4786,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 5960
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "translation.html, абзац «В современном мире существует множество точек зрения…»",
-      "severity": "major",
-      "source_quote": "There’s race discrimination on both sides of the matter.",
-      "suggested_fix": "Заменить предложение на: «Расовая дискриминация проявляется с обеих сторон».",
-      "translation_quote": "В вопросе расовой дискриминации есть обвинения с обеих сторон."
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-29T21:10:19+00:00",
   "id": "182215840d5779d1d853e1fc16722a17",
   "issue_id": "1933c1f0-be1f-561a-b470-79a5ced64c04",
   "language": "rus",
@@ -148,7 +160,7 @@
     }
   },
   "protected": false,
-  "quality_score": 94,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6.1-sol",
@@ -167,7 +179,7 @@
     "total_reserved_usd": 0.746501,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "638ffc8e59099baf2aea4d3ff147935b68127324804d36e99f77026b29a9def3",
   "translation_model_actual": "gpt-6.1-sol"
