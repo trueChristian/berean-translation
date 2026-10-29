@@ -1,0 +1,143 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "b896c3f8-23b1-4abf-8461-fa373e598929",
+    "response_id": "chatcmpl-EeQ3xRn1IzeuqH4IRUARumIyMv93Z",
+    "usage": {
+      "completion_tokens": 2647,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 62,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6900,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6897,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9547
+    }
+  },
+  "received_at": "2026-10-29T19:44:17+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "translation.title; html, hymn-title mention before the lyrics, lyrics stanzas 1, 3, 5 and 6, and Scott's quoted singing",
+        "severity": "major",
+        "source_quote": "All Hail the Power of Jesus Name; Now hail the Strength of Israel’s might; Hail Him who saves you by His grace; Hail Him, ye heirs of David’s line",
+        "suggested_fix": "Αποδώστε το «hail» ως προτροπή απόδοσης τιμής, όχι με το αμετάβατο «χαίρετε»: στον τίτλο και στις επαναλήψεις του χρησιμοποιήστε «Δοξάστε όλοι τη δύναμη του ονόματος του Ιησού», στην τρίτη στροφή «Δοξάστε τώρα τη Δύναμη του Ισραήλ», στην πέμπτη «Δοξάστε Αυτόν που σας σώζει με τη χάρη Του» και στην έκτη «Δοξάστε Τον, κληρονόμοι της γενιάς του Δαβίδ». Διατηρήστε τα υπάρχοντα HTML στοιχεία.",
+        "translation_quote": "Χαίρετε, η Δύναμη του Ονόματος του Ιησού; Χαίρετε τη δύναμη του ονόματος του Ιησού; Χαίρετε τώρα τη Δύναμη του Ισραήλ; Χαίρετε Αυτόν που σας σώζει με τη χάρη Του; Χαίρετέ Τον, κληρονόμοι της γενεάς του Δαβίδ"
+      },
+      {
+        "location": "html, Perronet's last words",
+        "severity": "major",
+        "source_quote": "Glory to God in the depth of His humanity!",
+        "suggested_fix": "Αντικαταστήστε με «Δόξα στον Θεό στο βάθος της ανθρώπινης φύσης Του!»",
+        "translation_quote": "Δόξα στο Θεό στο βάθος της ανθρωπιάς Του!"
+      },
+      {
+        "location": "html, lyrics, stanza 2, line 1",
+        "severity": "major",
+        "source_quote": "Let high born seraphs tune the lyre",
+        "suggested_fix": "Αντικαταστήστε τον στίχο με «Ας κουρδίσουν τη λύρα τα σεραφείμ της υψηλής καταγωγής».",
+        "translation_quote": "Ας συντονίσουν την λύρα οι γέννητοι σεβαστοί σεραφείμ"
+      },
+      {
+        "location": "html, lyrics, stanza 3, lines 1–2",
+        "severity": "major",
+        "source_quote": "Crown Him, ye morning stars of light, / Who fixed this floating ball",
+        "suggested_fix": "Αποδώστε «Στέψτε Τον, φωτεινά αστέρια της αυγής,<br>Αυτόν που στερέωσε αυτή την αιωρούμενη σφαίρα,». Το υποκείμενο του «στερέωσε» είναι Εκείνος που στέφεται, όχι τα αστέρια.",
+        "translation_quote": "Στεφάνωσέ Τον, αστέρες του πρωινού φωτός, / Εσείς που στερέωσας αυτήν την πλανώμενη σφαίρα"
+      },
+      {
+        "location": "html, lyrics, stanza 4, line 3",
+        "severity": "major",
+        "source_quote": "Extol the stem of Jesse’s rod",
+        "suggested_fix": "Αντικαταστήστε με «Υμνήστε τον βλαστό από τη ράβδο του Ιεσσαί».",
+        "translation_quote": "Επαινετέ τη ρίζα του ρόδου του Ιεσσαί"
+      },
+      {
+        "location": "html, lyrics, stanza 7, line 2",
+        "severity": "major",
+        "source_quote": "The wormwood and the gall",
+        "suggested_fix": "Αντικαταστήστε με «Την αψιθιά και τη χολή,».",
+        "translation_quote": "Το χόρτο του πικραμύγδαλου και το χολή"
+      },
+      {
+        "location": "html, lyrics, stanza 8, lines 1–3",
+        "severity": "major",
+        "source_quote": "Let every tribe and every tongue / That bound creation’s call / Now shout in universal song",
+        "suggested_fix": "Αντικαταστήστε τους τρεις στίχους με «Κάθε φυλή και κάθε γλώσσα<br>Που ορίζουν το κάλεσμα της κτίσης<br>Ας αναφωνήσουν τώρα σε ένα παγκόσμιο τραγούδι,». Το «bound» εδώ δεν σημαίνει ότι κάποιος έδεσε την κλήση.",
+        "translation_quote": "Ας κάθε φυλή και κάθε γλώσσα / Που πρόσδεσε την κλήση της κτίσης / Τώρα ας δοξάσει με καθολικό τραγούδι"
+      },
+      {
+        "location": "html, final narrative paragraph, Scott's encounter",
+        "severity": "major",
+        "source_quote": "a savage band of murderous tribesmen",
+        "suggested_fix": "Αντικαταστήστε το «μια άγρια συμμορία δολοφονικών φυλών» με «μια άγρια ομάδα αιμοδιψών μελών της φυλής».",
+        "translation_quote": "μια άγρια συμμορία δολοφονικών φυλών"
+      },
+      {
+        "location": "html, paragraph about Wesley announcing the next preacher",
+        "severity": "minor",
+        "source_quote": "Wesley seeing Edward in the congregation announced that he would preach at the next service",
+        "suggested_fix": "Διευκρινίστε το υποκείμενο: «ο Γουέσλι, βλέποντας τον Έντγουαρντ στο εκκλησίασμα, ανακοίνωσε ότι ο Έντγουαρντ θα κήρυττε στην επόμενη ακολουθία».",
+        "translation_quote": "ο Γουέσλι, βλέποντας τον Έντγουαρντ στην εκκλησία, ανακοίνωσε ότι θα κηρύξει στην επόμενη λειτουργία"
+      },
+      {
+        "location": "html, paragraph about Perronet's Anglican ministry",
+        "severity": "minor",
+        "source_quote": "was strongly sympathetic with the evangelical movement; the tottering communion of the Church of England; evangelistic endeavors",
+        "suggested_fix": "Χρησιμοποιήστε αντίστοιχα «υποστήριζε θερμά το ευαγγελικό κίνημα», «την κλυδωνιζόμενη εκκλησιαστική κοινότητα της Εκκλησίας της Αγγλίας» και «τις ευαγγελιστικές προσπάθειες».",
+        "translation_quote": "ήταν έντονα συμπαθών στο ευαγγελικό κίνημα; στην τρεμουλιαστή κοινωνία της Εκκλησίας της Αγγλίας; στις ευαγγελικές προσπάθειες"
+      },
+      {
+        "location": "html, persecution paragraph",
+        "severity": "minor",
+        "source_quote": "a mob of rough revilers, whom Perronet opposed courageously",
+        "suggested_fix": "Αντικαταστήστε με «όχλο άγριων υβριστών, στους οποίους ο Περνόνετ αντιτάχθηκε με γενναιότητα».",
+        "translation_quote": "όχλο άγριων συκοφαντών, τους οποίους ο Περνόνετ αντιτάχθηκε με γενναιότητα"
+      },
+      {
+        "location": "html, paragraph about the Sermon on the Mount",
+        "severity": "minor",
+        "source_quote": "I shall deliver the greatest sermon; the Sermon on the Mount",
+        "suggested_fix": "Χρησιμοποιήστε «θα εκφωνήσω το σπουδαιότερο κήρυγμα» και την καθιερωμένη ονομασία «την Επί του Όρους Ομιλία».",
+        "translation_quote": "θα εκθέσω τον μεγαλύτερο λόγο; το Κήρυγμα του Όρους"
+      },
+      {
+        "location": "html, paragraph on the separation from the Wesleys; paragraph on the hymn tunes",
+        "severity": "minor",
+        "source_quote": "They continued, however; frequently used as a choir number",
+        "suggested_fix": "Αφαιρέστε το περιττό «Συνεχώς» πριν από το «όμως, συνέχισαν» και αντικαταστήστε το «ως χορωδιακός αριθμός» με «ως χορωδιακό κομμάτι».",
+        "translation_quote": "Συνεχώς, όμως, συνέχισαν; ως χορωδιακός αριθμός"
+      },
+      {
+        "location": "html, lyrics, stanza 1 line 2; stanza 4 line 1; stanza 6 line 3; added stanza line 4",
+        "severity": "minor",
+        "source_quote": "Let angels prostrate fall; Crown Him, ye martyrs of your God; The God incarnate, Man divine; And crown Him Lord of all",
+        "suggested_fix": "Διορθώστε αντίστοιχα σε «Ας πέσουν οι άγγελοι προσκυνώντας», «Στέψτε Τον, μάρτυρες του Θεού σας», «Ο ενσαρκωμένος Θεός, ο θείος Άνθρωπος» και, στην πρόσθετη στροφή, «Και θα Τον στέψουμε Κύριο όλων». Διατηρήστε τις αλλαγές γραμμής.",
+        "translation_quote": "Ας πέσουν προπέφτοντες οι άγγελοι; Στεφάνωσέ Τον, μάρτυρες του Θεού σας; Ο Θεός ενσαρκωμένος, Άνθρωπος θείο; Και να Τον στέψουμε Κύριο όλων"
+      },
+      {
+        "location": "html, final narrative paragraph",
+        "severity": "minor",
+        "source_quote": "One day he saw ... he inquired about him; big tears were in their eyes",
+        "suggested_fix": "Χρησιμοποιήστε «Μια μέρα είδε ... που ζήτησε πληροφορίες γι’ αυτόν» και διορθώστε τη συμφωνία σε «μεγάλα δάκρυα βρίσκονταν στα μάτια τους».",
+        "translation_quote": "Μια μέρα έβλεπε ... που τον ρώτησε γι’ αυτόν; μεγάλα δάκρυα βρισκόταν στα μάτια τους"
+      },
+      {
+        "location": "html, opening Scripture quotation",
+        "severity": "minor",
+        "source_quote": "for thy pleasure they are and were created –Revelation 4:11",
+        "suggested_fix": "Χρησιμοποιήστε τη φυσικότερη σύγχρονη διατύπωση «και με το θέλημά σου υπάρχουν και δημιουργήθηκαν –Αποκάλυψη 4:11».",
+        "translation_quote": "και για τη θέλησή σου είναι και δημιουργήθηκαν –Αποκάλυψις 4:11"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 76
+  }
+}
