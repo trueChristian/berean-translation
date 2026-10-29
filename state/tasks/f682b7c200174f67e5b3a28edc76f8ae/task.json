@@ -5,11 +5,55 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "7f4cd63cc40249c09962b437e309e2a9",
   "campaign": "auto-bdbfb7fae2e2746f9d43db29816c86ba2aae02590efb07aeb9d07bcff56cb683",
   "created_at": "2026-10-29T14:13:41+00:00",
-  "events": [],
-  "findings": [],
+  "events": [
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 378,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 91,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 2007,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 904,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 2385
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "translation.html, diktets andre linje",
+      "severity": "minor",
+      "source_quote": "The things that are bad will all be in hell.",
+      "suggested_fix": "Alt som er ondt, vil være i helvete.",
+      "translation_quote": "Det som er ondt, vil alle være i helvete."
+    },
+    {
+      "location": "translation.html, diktets tiende linje",
+      "severity": "minor",
+      "source_quote": "He’ll trick and deceive, each soul to pursue.",
+      "suggested_fix": "Han vil lure og bedra for å forfølge hver sjel.",
+      "translation_quote": "Han lurer og bedrar, hver sjel å forfølge."
+    },
+    {
+      "location": "translation.html, diktets ellevte linje",
+      "severity": "minor",
+      "source_quote": "The darts of the wicked come from all sides.",
+      "suggested_fix": "Den ondes piler kommer fra alle kanter.",
+      "translation_quote": "De onde piler kommer fra alle kanter."
+    }
+  ],
+  "finished_at": "2026-10-29T20:28:39+00:00",
   "id": "f682b7c200174f67e5b3a28edc76f8ae",
   "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
   "language": "nob",
@@ -98,9 +142,11 @@
     }
   },
   "protected": false,
+  "quality_score": 96,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/3c7e821a8c78c0ef7c2bac73f3fa23afae402db77e7c0d53df8b701aef51628c.json",
   "stage": "review1",
   "stage_budget": {
@@ -115,7 +161,7 @@
     "total_reserved_usd": 0.676682,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 0,
   "translation_key": "d3039e8a7435ad2aa47f35b4e0fb141ac2e3a33d821a15ea791fb1606c9c02fa",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

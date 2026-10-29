@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-29T20:28:39+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"translation.html, diktets andre linje\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"The things that are bad will all be in hell.\",\n      \"suggested_fix\": \"Alt som er ondt, vil være i helvete.\",\n      \"translation_quote\": \"Det som er ondt, vil alle være i helvete.\"\n    },\n    {\n      \"location\": \"translation.html, diktets tiende linje\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"He’ll trick and deceive, each soul to pursue.\",\n      \"suggested_fix\": \"Han vil lure og bedra for å forfølge hver sjel.\",\n      \"translation_quote\": \"Han lurer og bedrar, hver sjel å forfølge.\"\n    },\n    {\n      \"location\": \"translation.html, diktets ellevte linje\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"The darts of the wicked come from all sides.\",\n      \"suggested_fix\": \"Den ondes piler kommer fra alle kanter.\",\n      \"translation_quote\": \"De onde piler kommer fra alle kanter.\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": true,\n  \"score\": 96\n}",
+    "content_bytes": 1016,
+    "content_evidence_truncated": false,
+    "content_sha256": "a46dd6d23f98f9b3dac56c56c460f13f0fb3912efe7606e9492198fbb874d0f2",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 378,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 91,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2007,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 904,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 2385
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}

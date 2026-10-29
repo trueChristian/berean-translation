@@ -1,0 +1,52 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "d0445063-f19a-41d3-981a-dfd62aecbc6a",
+    "response_id": "chatcmpl-EeQwGpQFqZr8aK3m22mCV1BTVhlKp",
+    "usage": {
+      "completion_tokens": 378,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 91,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2007,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 904,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 2385
+    }
+  },
+  "received_at": "2026-10-29T20:28:39+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "translation.html, diktets andre linje",
+        "severity": "minor",
+        "source_quote": "The things that are bad will all be in hell.",
+        "suggested_fix": "Alt som er ondt, vil være i helvete.",
+        "translation_quote": "Det som er ondt, vil alle være i helvete."
+      },
+      {
+        "location": "translation.html, diktets tiende linje",
+        "severity": "minor",
+        "source_quote": "He’ll trick and deceive, each soul to pursue.",
+        "suggested_fix": "Han vil lure og bedra for å forfølge hver sjel.",
+        "translation_quote": "Han lurer og bedrar, hver sjel å forfølge."
+      },
+      {
+        "location": "translation.html, diktets ellevte linje",
+        "severity": "minor",
+        "source_quote": "The darts of the wicked come from all sides.",
+        "suggested_fix": "Den ondes piler kommer fra alle kanter.",
+        "translation_quote": "De onde piler kommer fra alle kanter."
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 96
+  }
+}

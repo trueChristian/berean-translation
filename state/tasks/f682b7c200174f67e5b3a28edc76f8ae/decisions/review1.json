@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "translation.html, diktets andre linje",
+      "severity": "minor",
+      "source_quote": "The things that are bad will all be in hell.",
+      "suggested_fix": "Alt som er ondt, vil være i helvete.",
+      "translation_quote": "Det som er ondt, vil alle være i helvete."
+    },
+    {
+      "location": "translation.html, diktets tiende linje",
+      "severity": "minor",
+      "source_quote": "He’ll trick and deceive, each soul to pursue.",
+      "suggested_fix": "Han vil lure og bedra for å forfølge hver sjel.",
+      "translation_quote": "Han lurer og bedrar, hver sjel å forfølge."
+    },
+    {
+      "location": "translation.html, diktets ellevte linje",
+      "severity": "minor",
+      "source_quote": "The darts of the wicked come from all sides.",
+      "suggested_fix": "Den ondes piler kommer fra alle kanter.",
+      "translation_quote": "De onde piler kommer fra alle kanter."
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}
