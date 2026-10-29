@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "ff246700981b4b4dac1d76b05f7e2a73",
   "campaign": "auto-34f90a83e9095ac34fdf8275360149c0c5cfc6d9c96ee33fa12a4bcb41f77e11",
   "created_at": "2026-10-29T10:24:16+00:00",
   "events": [
@@ -48,109 +47,31 @@
         },
         "total_tokens": 10607
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 65,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 33,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6460,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 5357,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 6525
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "html, stycke 4",
-      "severity": "major",
-      "source_quote": "he had Octavia beheaded",
-      "suggested_fix": "Ersätt ”lät han avrätta Octavia” med ”lät han halshugga Octavia”.",
-      "translation_quote": "lät han avrätta Octavia"
-    },
-    {
-      "location": "html, stycke 5",
-      "severity": "major",
-      "source_quote": "Nero dispatched his executioners to stab her to death in broad daylight",
-      "suggested_fix": "Skriv ”skickade Nero sina bödlar för att knivhugga henne till döds mitt på ljusa dagen”.",
-      "translation_quote": "skickade Nero sina bödlar att i full daglig ljus stämpla henne ihjäl med knivar"
-    },
-    {
-      "location": "html, stycke 11, Tacitus-citatet",
-      "severity": "major",
-      "source_quote": "Covered with the skins of beasts",
-      "suggested_fix": "Ersätt ”Täckta med björnskinn” med ”Täckta med djurhudar”. Källan anger inte vilket slags djur det var.",
-      "translation_quote": "Täckta med björnskinn"
-    },
-    {
-      "location": "html, stycke 16",
-      "severity": "major",
-      "source_quote": "the earthly authorities are “ministers of God” to be honored and obeyed",
-      "suggested_fix": "Ändra till ”de jordiska myndigheterna är ‘Guds tjänare’ som ska hedras och åtlydas”.",
-      "translation_quote": "de jordiska myndigheterna är “Guds tjänare” som skall hedras och lyda"
-    },
-    {
-      "location": "html, stycke 17",
-      "severity": "major",
-      "source_quote": "the unregenerate around us",
-      "suggested_fix": "Ersätt ”de oregerade omkring oss” med ”de som inte är pånyttfödda omkring oss”.",
-      "translation_quote": "de oregerade omkring oss"
-    },
-    {
-      "location": "html, stycke 17",
-      "severity": "major",
-      "source_quote": "when we feel our “easy living” being trodden upon",
-      "suggested_fix": "Skriv ”när vi känner att vårt ‘bekväma liv’ blir trampat på”.",
-      "translation_quote": "när vi känner att vårt “lätta liv” trampar på"
-    },
-    {
-      "location": "html, stycke 18 och 19",
-      "severity": "major",
-      "source_quote": "Redeeming the time, because the days are evil; walk circumspectly, redeeming the time",
-      "suggested_fix": "Ersätt ”förkovrande tiden” med ”och tar vara på tiden” i stycke 18 och ”förkovra tiden” med ”ta vara på tiden” i stycke 19.",
-      "translation_quote": "förkovrande tiden, ty dagarna äro onda; vandra förståndigt och förkovra tiden"
-    },
-    {
-      "location": "html, stycke 18, sista bibelhänvisningen",
-      "severity": "major",
-      "source_quote": "–1 Corinthians 4:2",
-      "suggested_fix": "Ändra hänvisningen till ”—1 Korinthierbrevet 4:2” för att bevara den tryckta källans versnummer, även om citatet omfattar text från föregående vers.",
-      "translation_quote": "—1 Korinthierbrevet 4:1-2"
-    },
-    {
-      "location": "html, stycke 4",
-      "severity": "minor",
-      "source_quote": "a formerly enslaved person",
-      "suggested_fix": "Skriv ”en tidigare förslavad person”.",
-      "translation_quote": "en tidigare slavad person"
-    },
-    {
-      "location": "html, stycke 8–9",
-      "severity": "minor",
-      "source_quote": "a team of four horses; Teams would race; a team consisting of not four, but ten horses; control of his team",
-      "suggested_fix": "Använd ”ett fyrspann”, ”Ekipagen tävlade”, ”ett spann bestående av inte fyra, utan tio hästar” respektive ”kontrollen över sitt spann”.",
-      "translation_quote": "ett team om fyra hästar; Team tävlade; ett team bestående av inte fyra, utan tio hästar; kontrollen över sitt team"
-    },
-    {
-      "location": "html, stycke 9 och 11",
-      "severity": "minor",
-      "source_quote": "roll up to the racetrack; the incident Nero would be most widely known for",
-      "suggested_fix": "Ändra till ”rullade fram till kapplöpningsbanan” respektive ”den händelse som Nero skulle bli mest känd för”.",
-      "translation_quote": "rullade upp till racerbana; den händelse Nero mest allmänt känd för"
-    },
-    {
-      "location": "html, stycke 14–19",
-      "severity": "minor",
-      "source_quote": "not only for wrath, but also for conscience sake; Wherefore be ye not unwise; For we all want ... when we all will stand",
-      "suggested_fix": "Använd samtida svenska: ”inte bara för vredens skull, utan också för samvetets skull”; ”Var därför inte oförståndiga”; ”Ty vi vill alla ... då vi alla ska stå”. Ändra även ”den snart kommen dag” till ”den dag som snart kommer”.",
-      "translation_quote": "icke allenast för vredens skull, utan ock för samvetets skull; Varför bliven I icke okloka; Ty vi vilja alla ... den snart kommen dag då vi skola stå"
-    },
-    {
-      "location": "title",
-      "severity": "minor",
-      "source_quote": "Nero: Life of an Emperor",
-      "suggested_fix": "Skriv ”Nero: En kejsares liv”.",
-      "translation_quote": "Nero: Livet hos en kejsare"
-    },
-    {
-      "location": "html, slutnoten",
-      "severity": "minor",
-      "source_quote": "Endnote:<br>",
-      "suggested_fix": "Översätt etiketten till ”Slutnot:” och behåll <br> samt adressen.",
-      "translation_quote": "Endnote:<br>"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-29T14:12:06+00:00",
   "id": "e481ed769935a02eca02bf20249ceda2",
   "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
   "language": "swe",
@@ -239,7 +160,7 @@
     }
   },
   "protected": false,
-  "quality_score": 79,
+  "quality_score": 99,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6.1-sol",
@@ -258,7 +179,7 @@
     "total_reserved_usd": 0.730856,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "0ec18dc4a4b289e72e00424bde99770f0dbc52c0ceb26b1a16a8b4b40097dc16",
   "translation_model_actual": "gpt-6.1-sol"
