@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "133e9675-53d6-459a-a300-14a1769320d2",
+    "response_id": "chatcmpl-EeR8kjuN74M3c4tkOATq0qtC0X4se",
+    "usage": {
+      "completion_tokens": 158,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 40,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5867,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4764,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 6025
+    }
+  },
+  "received_at": "2026-10-29T20:42:05+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "translation.html, абзац «В современном мире существует множество точек зрения…»",
+        "severity": "major",
+        "source_quote": "There’s race discrimination on both sides of the matter.",
+        "suggested_fix": "Заменить предложение на: «Расовая дискриминация проявляется с обеих сторон».",
+        "translation_quote": "В вопросе расовой дискриминации есть обвинения с обеих сторон."
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 94
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "translation.html, абзац «В современном мире существует множество точек зрения…»",
+      "severity": "major",
+      "source_quote": "There’s race discrimination on both sides of the matter.",
+      "suggested_fix": "Заменить предложение на: «Расовая дискриминация проявляется с обеих сторон».",
+      "translation_quote": "В вопросе расовой дискриминации есть обвинения с обеих сторон."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
