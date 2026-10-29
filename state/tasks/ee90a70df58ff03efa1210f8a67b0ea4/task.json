@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "dde95ed5c64f4ae2b16fd6d73983e766",
   "campaign": "auto-9447dbcbf70f7174c5feae88ffc4d525516d555ed80aabee043c8aa8af949ead",
   "created_at": "2026-10-28T16:01:33+00:00",
   "events": [
@@ -68,18 +67,68 @@
         },
         "total_tokens": 14182
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 696,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9754,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 9751,
+          "cached_tokens": 0
+        },
+        "total_tokens": 10450
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; a separately funded continuation must pass admission",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "Article paragraph beginning “Her father was the provincial Governor of Vasa”",
+      "location": "正文第5段（童年经历）",
       "severity": "major",
-      "source_quote": "“the smith welding red-hot irons on a group of prisoners”",
-      "suggested_fix": "Replace “把烧红的铁烙在一群囚犯身上” with a rendering that describes the smith welding or fastening red-hot irons onto the prisoners, without implying branding.",
-      "translation_quote": "“铁匠把烧红的铁烙在一群囚犯身上”"
+      "source_quote": "the smith welding red-hot irons on a group of prisoners",
+      "suggested_fix": "将“铁匠把烧红的铁器焊接到一群囚犯身上”改为“铁匠把烧红的铁链焊接在一群囚犯身上”（或准确表达铁匠正在给囚犯戴上烧红的镣铐）。",
+      "translation_quote": "铁匠把烧红的铁器焊接到一群囚犯身上"
+    },
+    {
+      "location": "正文第6段（布道会）",
+      "severity": "major",
+      "source_quote": "One evening, in which she had planned to go with her father to a society function, she went instead to a revival meeting in which a layman was preaching.",
+      "suggested_fix": "将“她原计划陪父亲参加一场社交活动，却转而去参加一场由平信徒讲道的布道会”改为“她原计划陪父亲参加一场社交活动，却转而去参加一场由平信徒讲道的奋兴布道会”。",
+      "translation_quote": "她原计划陪父亲参加一场社交活动，却转而去参加一场由平信徒讲道的布道会。"
+    },
+    {
+      "location": "正文第13段（服事对象）",
+      "severity": "major",
+      "source_quote": "She had a government ticket on all Finnish state railways and took a general oversight not only of those in ward but of discharged prisoners, also, and of the families of prisoners both in duress and discharged.",
+      "suggested_fix": "将“普遍照料在押人员”改为“全面关照在押人员”，以表达她对他们承担广泛照料责任，而非通常意义上的普遍性。",
+      "translation_quote": "不仅普遍照料在押人员，也照料获释囚犯，以及仍在服刑或已经获释的囚犯家属。"
+    },
+    {
+      "location": "正文第20段（红白派冲突）",
+      "severity": "major",
+      "source_quote": "These ex-convicts, together with the Jacobin elements which the revolution churned up from the depths, took the reins in their hands and a Terror followed that made a fair imitation of that of ’93.",
+      "suggested_fix": "将“这些出狱者与革命从社会深处搅起的雅各宾派分子一起掌了权”改为“这些出狱者与革命从社会底层卷起的雅各宾派势力一起掌了权”。",
+      "translation_quote": "这些出狱者与革命从社会深处搅起的雅各宾派分子一起掌了权"
+    },
+    {
+      "location": "正文第26段（胸针制作）",
+      "severity": "major",
+      "source_quote": "Later I shaped it as yours.",
+      "suggested_fix": "将“后来我照着您的胸针把它刻成了形状”改为“后来我照着您的胸针把它塑成了同样的形状”。",
+      "translation_quote": "后来我照着您的胸针把它刻成了形状"
     }
   ],
+  "finished_at": "2026-10-29T00:19:18+00:00",
   "id": "ee90a70df58ff03efa1210f8a67b0ea4",
   "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
   "language": "cmn",
@@ -168,7 +217,7 @@
     }
   },
   "protected": false,
-  "quality_score": 93,
+  "quality_score": 90,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
@@ -188,7 +237,7 @@
     "total_reserved_usd": 0.090539,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "385aeb5b4a7bcbf512c0d5b8310c2fd8f5f85b86d43d077caf80670ee93c6738",
   "translation_model_actual": "gpt-6-luna"
