@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "a81e0bfe-f2b9-4cf0-b318-ce6b9dd799f3",
+    "response_id": "chatcmpl-EeR7PuGyOWhIivoN6Sg4dZ58sZIZq",
+    "usage": {
+      "completion_tokens": 622,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 106,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2151,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1116,
+        "cached_tokens": 1032
+      },
+      "total_tokens": 2773
+    }
+  },
+  "received_at": "2026-10-29T20:41:51+00:00",
+  "result": {
+    "html": "<article data-article-id=\"713c3d95-5295-421e-9ca7-3cd2cc1643d9\">\n  <figure>\n    <img src=\"/images/articles/713c3d95-5295-421e-9ca7-3cd2cc1643d9-1.jpg\" alt=\"Uma árvore de folha perene junto a um lago, com arbustos e uma encosta montanhosa coberta de neve.\">\n  </figure>\n  <p class=\"poem\"><strong><em>Quando muralhas de montanhas se erguem no caminho.<br>\nPor que sentar e chorar? Levanta-te e diz:<br>\n“Sê removida”, e elas serão<br>\nLançadas ao mar pelo poder de Deus.</em></strong></p>\n  <p class=\"poem\"><strong><em>Todo o poder na terra, todo o poder no céu,<br>\nFoi dado a Cristo, o Filho de Deus;<br>\nE do trono Ele te revestirá de poder,<br>\nE os obstáculos fugirão de ti.</em></strong></p>\n  <p class=\"poem\"><strong><em>Acima de todo o poder do demônio e do homem,<br>\nDiz, por meio do Senhor: “Eu certamente posso”.<br>\nRecebe dele poder para pisar, na terra,<br>\nSobre a picada da serpente, sobre a cabeça do dragão.</em></strong></p>\n  <p class=\"poem\"><strong><em>Sejas o que fores, ó alta montanha,<br>\nOnde quer que estejas, na terra ou no céu,<br>\nQuando quer que existas, a verdade é a mesma:<br>\n“Sê removida, em nome de Jesus.”</em></strong></p>\n  <p class=\"poem\"><strong><em>“Sê removida”: a fé te ordena que partas;<br>\nPois olha ali — levanta-te! Vai-te embora!<br>\nPosso, sou capaz, devo, hei de<br>\nCumprir o propósito do meu Deus.</em></strong></p>\n</article>\n",
+    "section": null,
+    "subtitle": null,
+    "title": "Autoridade"
+  }
+}
