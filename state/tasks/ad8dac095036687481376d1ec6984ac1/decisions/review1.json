@@ -1,0 +1,77 @@
+{
+  "findings": [
+    {
+      "location": "html，第1段经文",
+      "severity": "major",
+      "source_quote": "Thou art worthy, O Lord ... for thy pleasure they are and were created",
+      "suggested_fix": "将经文改为：“主啊，你配得荣耀、尊贵、权能；因为你创造了万物，万物为使你喜悦而存在，也为此被创造。——启示录 4:11。”保留原有 p 和 em 标签。",
+      "translation_quote": "你配得荣耀、尊贵、权能……万物原是为要显出你的旨意而被创造的"
+    },
+    {
+      "location": "title；html，第2、8段诗名；img alt",
+      "severity": "major",
+      "source_quote": "All Hail the Power of Jesus Name",
+      "suggested_fix": "将这些位置的“敬畏耶稣之名，万民当颂”统一改为“齐颂耶稣圣名大能”。原题是欢呼颂赞耶稣圣名的权能，而不是敬畏其名；保留各处现有标签、英文括注及图片属性。",
+      "translation_quote": "敬畏耶稣之名，万民当颂"
+    },
+    {
+      "location": "html，第7段临终遗言",
+      "severity": "major",
+      "source_quote": "Glory to God in the height of His divinity! Glory to God in the depth of His humanity! Glory to God in His all-sufficiency!",
+      "suggested_fix": "将这三句改为：“荣耀归于神，因祂至高的神性！荣耀归于神，因祂深邃的人性！荣耀归于神，因祂的全然充足！”",
+      "translation_quote": "荣耀归于祂在神性的高处！荣耀归于祂在为人的深处！荣耀归于祂在全备的丰富中！"
+    },
+    {
+      "location": "html，第一个 div.lyrics，第6节第3行",
+      "severity": "major",
+      "source_quote": "The God incarnate, Man divine",
+      "suggested_fix": "将该行改为“那道成肉身的神，那具有神性的人，”，保留行末 br 标签，以保留原文对基督神性的宣认。",
+      "translation_quote": "那道成肉身的神，圣洁的人主"
+    },
+    {
+      "location": "html，第一个 div.lyrics，第7节第2行",
+      "severity": "major",
+      "source_quote": "The wormwood and the gall",
+      "suggested_fix": "将“那苦胆与毒杯？”改为“那茵陈与苦胆？”，保留原有 br 标签；原文并未提到毒杯。",
+      "translation_quote": "那苦胆与毒杯？"
+    },
+    {
+      "location": "html，斯科特传教故事段",
+      "severity": "major",
+      "source_quote": "the spears had fallen from the hands of the savages",
+      "suggested_fix": "将“那些野人手中的长矛已垂下”改为“长矛已从那些野人的手中掉落”。",
+      "translation_quote": "那些野人手中的长矛已垂下"
+    },
+    {
+      "location": "section",
+      "severity": "minor",
+      "source_quote": "A Hymn History",
+      "suggested_fix": "将栏目名称译为“圣诗史话”。",
+      "translation_quote": "A Hymn History"
+    },
+    {
+      "location": "html，约翰·威斯利邀请佩罗奈特讲道的段落",
+      "severity": "minor",
+      "source_quote": "the greatest sermon that has ever been preached on earth",
+      "suggested_fix": "将“自地上以来最伟大的讲道”改为“世上有史以来最伟大的一篇讲道”。",
+      "translation_quote": "自地上以来最伟大的讲道"
+    },
+    {
+      "location": "html，第一个 div.lyrics，第2节第3行",
+      "severity": "minor",
+      "source_quote": "Before His face who tunes their choir",
+      "suggested_fix": "将“在那为他们调音的面前，”改为“在那为他们的合唱调音者面前，”，保留原有 br 标签。",
+      "translation_quote": "在那为他们调音的面前"
+    },
+    {
+      "location": "html，第二个 div.lyrics，第1行",
+      "severity": "minor",
+      "source_quote": "Oh, that with yonder sacred throng / We at His feet may fall",
+      "suggested_fix": "将“哦，愿我们与那神圣的众队立于祂脚前俯伏，”改为“哦，愿我们与那神圣的众人一同俯伏在祂脚前，”，删除与俯伏相矛盾的“立于”。",
+      "translation_quote": "哦，愿我们与那神圣的众队立于祂脚前俯伏"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
