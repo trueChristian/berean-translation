@@ -5,33 +5,56 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "f381ab50a87b46b6a9dcf06dbd67af59",
   "campaign": "auto-d6b0dfc614c691818486f307b4d6715c712a6ccc1df82417abc6bbe522cc97d1",
   "created_at": "2026-10-29T10:22:50+00:00",
-  "events": [],
+  "events": [
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 332,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 70,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6214,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 5111,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 6546
+      }
+    }
+  ],
+  "failure": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[28]: source /article[1]/p[13]/em[1] ('start', 'em', ()); translation /article[1]/p[13] ('end', 'p')",
+  "failure_kind": "invalid_result",
   "findings": [
     {
       "location": "translation.html, párrafo 8",
       "severity": "minor",
       "source_quote": "Teams would race around a massive arena for a total of seven laps.",
-      "suggested_fix": "Sustituir la oración por: «Los equipos competían en una enorme arena, dando un total de siete vueltas».",
+      "suggested_fix": "Los equipos competían en una enorme arena, dando un total de siete vueltas.",
       "translation_quote": "Los equipos daban una vuelta en una enorme arena por un total de siete vueltas."
     },
     {
       "location": "translation.html, párrafo 16",
       "severity": "minor",
       "source_quote": "Herein, we see a potential paradox",
-      "suggested_fix": "Cambiar «un posible paradoja» por «una posible paradoja».",
+      "suggested_fix": "Aquí vemos una posible paradoja",
       "translation_quote": "Aquí vemos un posible paradoja"
     },
     {
       "location": "translation.html, párrafo 19",
       "severity": "minor",
       "source_quote": "in that soon-coming day",
-      "suggested_fix": "Cambiar «en ese día venidero» por «en ese día que pronto llegará» para conservar la idea de proximidad.",
+      "suggested_fix": "en ese día que pronto llegará",
       "translation_quote": "en ese día venidero"
     }
   ],
+  "finished_at": "2026-10-29T23:00:17+00:00",
   "id": "6cc19526071a9a5568961373dc771cd0",
   "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
   "language": "spa",
@@ -120,9 +143,11 @@
     }
   },
   "protected": false,
+  "quality_score": 96,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/63e45266e1ece0020fa4e0801f2032bd095a929884b27576916c4fac6e71e266.json",
   "stage": "review1",
   "stage_budget": {
@@ -137,7 +162,7 @@
     "total_reserved_usd": 0.732918,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 0,
   "translation_key": "0ec18dc4a4b289e72e00424bde99770f0dbc52c0ceb26b1a16a8b4b40097dc16",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

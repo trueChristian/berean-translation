@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "translation.html, párrafo 8",
+      "severity": "minor",
+      "source_quote": "Teams would race around a massive arena for a total of seven laps.",
+      "suggested_fix": "Los equipos competían en una enorme arena, dando un total de siete vueltas.",
+      "translation_quote": "Los equipos daban una vuelta en una enorme arena por un total de siete vueltas."
+    },
+    {
+      "location": "translation.html, párrafo 16",
+      "severity": "minor",
+      "source_quote": "Herein, we see a potential paradox",
+      "suggested_fix": "Aquí vemos una posible paradoja",
+      "translation_quote": "Aquí vemos un posible paradoja"
+    },
+    {
+      "location": "translation.html, párrafo 19",
+      "severity": "minor",
+      "source_quote": "in that soon-coming day",
+      "suggested_fix": "en ese día que pronto llegará",
+      "translation_quote": "en ese día venidero"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}
