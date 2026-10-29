@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "afc2116271994b6db9abfa83d78aab25",
   "campaign": "auto-6e7cabed8c719130c16497f152b403900a47c3f84e215a27decd7bed06a7018b",
   "created_at": "2026-10-29T12:26:22+00:00",
   "events": [
@@ -48,81 +47,31 @@
         },
         "total_tokens": 11053
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 59,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 27,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6982,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 5879,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 7041
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "html: اقتباس غلاطية 6:5",
-      "severity": "major",
-      "source_quote": "For every man shall bear his own burden",
-      "suggested_fix": "استبدل «لأن كل واحد سينقل حمله عنه» بـ«لأن كل واحد سيحمل حمله الخاص».",
-      "translation_quote": "لأن كل واحد سينقل حمله عنه"
-    },
-    {
-      "location": "html: اقتباس الملوك الأول 19:10",
-      "severity": "major",
-      "source_quote": "I have been very jealous for the LORD God of hosts",
-      "suggested_fix": "استبدل «فتفعلت غيظًا شديدًا للرب إله الجنود» بـ«غرت غيرة شديدة للرب إله الجنود».",
-      "translation_quote": "فتفعلت غيظًا شديدًا للرب إله الجنود"
-    },
-    {
-      "location": "html: اقتباس الملوك الأول 19:18",
-      "severity": "major",
-      "source_quote": "Yet I have left me seven thousand in Israel, all the knees which have not bowed unto Baal, and every mouth which hath not kissed him",
-      "suggested_fix": "استبدل نص الاقتباس قبل المرجع بـ«ولكنني أبقيت لنفسي سبعة آلاف في إسرائيل، كل الركب التي لم تجثُ لبعل، وكل فم لم يقبّله».",
-      "translation_quote": "وَلكِنّي بَقيتُ لنفسي سَبعة آلاف في إسرائيل، كلّ ركب لم تُنكب لبعل، ومن كلّ فم لم يقبّله"
-    },
-    {
-      "location": "html: أول فقرة تحت «العزلة مضرة جسديًا»",
-      "severity": "major",
-      "source_quote": "isolation is linked to higher rates of high blood pressure",
-      "suggested_fix": "استبدل «بمعدلات أعلى من ضغط الدم» بـ«بمعدلات أعلى من الإصابة بارتفاع ضغط الدم».",
-      "translation_quote": "العزلة مرتبطة بمعدلات أعلى من ضغط الدم"
-    },
-    {
-      "location": "html: فقرة الوضع الأول من الوضعين الخطيرين",
-      "severity": "minor",
-      "source_quote": "We need fellowship, both to encourage us and to keep us accountable.",
-      "suggested_fix": "استبدل «نحن بحاجة إلى الشركة، لتشجيعنا وللحفاظ علينا مسؤوليًا» بـ«نحن بحاجة إلى الشركة لتشجيعنا ولمساعدتنا على البقاء خاضعين للمساءلة».",
-      "translation_quote": "نحن بحاجة إلى الشركة، لتشجيعنا وللحفاظ علينا مسؤوليًا."
-    },
-    {
-      "location": "html: اقتباس عبرانيين 10:25",
-      "severity": "minor",
-      "source_quote": "but exhorting one another: and so much the more, as ye see the day approaching",
-      "suggested_fix": "استبدل «بل نشجع بعضنا بعضًا؛ وبالقدر ما ترون اليوم يقترب» بـ«بل نشجع بعضنا بعضًا، وبالأكثر كلما رأيتم اليوم يقترب».",
-      "translation_quote": "بل نشجع بعضنا بعضًا؛ وبالقدر ما ترون اليوم يقترب"
-    },
-    {
-      "location": "html: فقرة الالتهاب ووظيفة المناعة",
-      "severity": "minor",
-      "source_quote": "lonely people getting worse infections",
-      "suggested_fix": "استبدل «إصابة العازلين بعدوى أسوأ» بـ«إصابة الأشخاص الذين يشعرون بالوحدة بعدوى أشد».",
-      "translation_quote": "إصابة العازلين بعدوى أسوأ"
-    },
-    {
-      "location": "html: فقرة الدعم بعد فقدان الزوج أو الزوجة",
-      "severity": "minor",
-      "source_quote": "we need to make certain that they continue to have an active presence in their lives in the months that follow",
-      "suggested_fix": "استبدل «يجب علينا أن نتأكد من استمرار وجود حضور فعّال لهم في حياتهم خلال الأشهر التالية» بـ«يجب علينا أن نحرص على استمرار حضورنا الفعّال في حياتهم خلال الأشهر التالية».",
-      "translation_quote": "يجب علينا أن نتأكد من استمرار وجود حضور فعّال لهم في حياتهم خلال الأشهر التالية"
-    },
-    {
-      "location": "html: فقرة الانخراط في جماعة كنسية",
-      "severity": "minor",
-      "source_quote": "to encourage that person to a more vibrant walk with God",
-      "suggested_fix": "استبدل «ويشجعونه على مشي أكثر حيوية مع الله» بـ«ويشجعونه على سلوك روحي أكثر حيوية مع الله».",
-      "translation_quote": "ويشجعونه على مشي أكثر حيوية مع الله"
-    },
-    {
-      "location": "html: وصف الصورة، img@alt",
-      "severity": "minor",
-      "source_quote": "Solitary hooded person with a backpack seated above a misty landscape",
-      "suggested_fix": "استبدل قيمة alt بـ«شخص وحيد يرتدي غطاء رأس ويحمل حقيبة ظهر، جالس في موضع مرتفع فوق منظر طبيعي يلفّه الضباب».",
-      "translation_quote": "شخص معهود بغطاء رأس وحيد يحمل حقيبة ظهر جالسًا فوق منظر ضبابي"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-29T19:44:01+00:00",
   "id": "edd650e9da4be6da721a81b7c4204bdc",
   "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
   "language": "ara",
@@ -211,7 +160,7 @@
     }
   },
   "protected": false,
-  "quality_score": 84,
+  "quality_score": 99,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6.1-sol",
@@ -230,7 +179,7 @@
     "total_reserved_usd": 0.747007,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "ac1550aa6190c351e44ee2dfa7e315442d61cbcd47e9044576f72bbc92b99432",
   "translation_model_actual": "gpt-6.1-sol"
