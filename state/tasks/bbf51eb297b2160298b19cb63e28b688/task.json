@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "26215672339f4b408e14b2254d3ac479",
   "campaign": "auto-2cbbf63dbe12b00c0aa5fcde74020dd8e1ea40f8acd573c98a6b19e382c43227",
   "created_at": "2026-10-29T18:42:58+00:00",
   "events": [
@@ -48,137 +47,31 @@
         },
         "total_tokens": 18111
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 90,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 58,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 10949,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 9846,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 11039
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "html, абзац о Незнакомце на дороге в Эммаус",
-      "severity": "major",
-      "source_quote": "and perhaps for our benefit",
-      "suggested_fix": "Заменить «возможно, ради их же блага» на «возможно, ради нашего блага».",
-      "translation_quote": "возможно, ради их же блага"
-    },
-    {
-      "location": "html, цитата Числа 11:14-15",
-      "severity": "major",
-      "source_quote": "kill me, I pray thee, out of hand ... and let me not see my wretchedness",
-      "suggested_fix": "Заменить соответствующую часть цитаты на «прошу Тебя, умертви меня немедленно, если я обрёл благоволение в очах Твоих, и не дай мне видеть моего бедствия».",
-      "translation_quote": "умертвись меня, — если я угодил пред тобою, — и не показуй мне моей никчёмности"
-    },
-    {
-      "location": "html, цитата Бытие 32:24-28",
-      "severity": "major",
-      "source_quote": "he touched the hollow of his thigh; and the hollow of Jacob's thigh was out of joint ... for as a prince hast thou power with God and with men, and hast prevailed",
-      "suggested_fix": "Заменить описание повреждения на «коснулся сустава его бедра, и сустав бедра Иакова вывихнулся»; заключение передать как «ибо ты, как князь, имел силу в борьбе с Богом и людьми и одержал победу».",
-      "translation_quote": "коснулся он чресла его, и вывихнулись чресла Иакова ... ибо как князь ты владелец пред Богом и людьми, и одолел ты"
-    },
-    {
-      "location": "html, цитата Лука 24:20",
-      "severity": "major",
-      "source_quote": "our rulers delivered him to be condemned to death",
-      "suggested_fix": "Заменить «и начальники предали Его на осуждение» на «и наши начальники предали Его на осуждение на смерть».",
-      "translation_quote": "и начальники предали Его на осуждение"
-    },
-    {
-      "location": "html, цитата Иов 3:1-6",
-      "severity": "major",
-      "source_quote": "There is a man child conceived",
-      "suggested_fix": "Заменить «рожден муж» на «зачат мальчик».",
-      "translation_quote": "рожден муж"
-    },
-    {
-      "location": "html, цитата о Неемане, раздел «…Личный план»",
-      "severity": "major",
-      "source_quote": "strike his hand over the place, and recover the leper –2 Kings 5:11",
-      "suggested_fix": "Заменить «помашет руками над проказою и излекуется — Царств 2 5:11» на «проведёт рукой над поражённым местом и исцелит прокажённого — 4 Царств 5:11». Это русское название книги, соответствующей английской 2 Kings.",
-      "translation_quote": "помашет руками над проказою и излекуется — Царств 2 5:11"
-    },
-    {
-      "location": "html, цитата Псалма в первом абзаце раздела «…Нетерпение»",
-      "severity": "major",
-      "source_quote": "–Psalm 13:1",
-      "suggested_fix": "Сохранить напечатанные в источнике номера: «— Псалом 13:1».",
-      "translation_quote": "— Псалом 12:1"
-    },
-    {
-      "location": "html, цитата Псалма в абзаце об Иосифе",
-      "severity": "major",
-      "source_quote": "–Psalm 105:18-19",
-      "suggested_fix": "Сохранить напечатанные в источнике номера: «— Псалом 105:18-19».",
-      "translation_quote": "— Псалом 104:18-19"
-    },
-    {
-      "location": "html, цитата об Илии, раздел «…Саможаление»",
-      "severity": "major",
-      "source_quote": "–1 Kings 19:4",
-      "suggested_fix": "Использовать русское название соответствующей книги: «— 3 Царств 19:4».",
-      "translation_quote": "— 1 Царств 19:4"
-    },
-    {
-      "location": "html, предпоследний повествовательный абзац",
-      "severity": "major",
-      "source_quote": "The scales fall from our eyes",
-      "suggested_fix": "Заменить на «Пелена спадает с наших глаз».",
-      "translation_quote": "Весы падают с наших глаз"
-    },
-    {
-      "location": "html, стихотворение, четвёртая строка",
-      "severity": "major",
-      "source_quote": "I woke; the dungeon flamed with light.",
-      "suggested_fix": "Заменить строку на «Я пробудился; темница озарилась светом.», сохранив тег <br>.",
-      "translation_quote": "Я пробудился; темница вспыхнула в такт."
-    },
-    {
-      "location": "html, первый повествовательный абзац, перечень слов на D",
-      "severity": "minor",
-      "source_quote": "so many words with a negative connotation begin with the letter D: Disappointment, Doubt",
-      "suggested_fix": "Уточнить «так много английских слов с отрицательным значением начинается с буквы D» и представить примеры как «Disappointment (разочарование), Doubt (сомнение)» и так далее, чтобы объяснить связь с названием «День Д».",
-      "translation_quote": "так много слов с негативной коннотацией начинается с буквы D: разочарование, сомнение"
-    },
-    {
-      "location": "html, первый повествовательный абзац",
-      "severity": "minor",
-      "source_quote": "156,000 American, British, and Canadian troops ... the event that seemed to sap the life from the notorious German army, from which they never recovered",
-      "suggested_fix": "Заменить «156 000 ... войск» на «156 000 американских, британских и канадских военнослужащих», а окончание предложения — на «событием, которое, казалось, лишило печально известную немецкую армию жизненных сил; от этого удара она так и не оправилась».",
-      "translation_quote": "156 000 американских, британских и канадских войск ... истощило силу печально известной немецкой армии, от которой она так и не оправилась"
-    },
-    {
-      "location": "html, абзац о кризисе веры; первый абзац об Иакове",
-      "severity": "minor",
-      "source_quote": "This agony was no ordinary fit of depression; Jacob had every reason to believe",
-      "suggested_fix": "Исправить согласование: «Эта агония была не обычным приступом депрессии» и «У Иакова были все основания полагать».",
-      "translation_quote": "Эта агония была не простой приступ депрессии; У Иакова было полных оснований полагать"
-    },
-    {
-      "location": "html, начальная цитата Лука 24:17; цитата Лука 24:21 в разделе «…Нетерпение»",
-      "severity": "minor",
-      "source_quote": "as ye walk, and are sad; to day is the third day since these things were done",
-      "suggested_fix": "Передать естественным русским: «О чём вы разговариваете между собой на ходу и почему вы печальны?» и «сегодня уже третий день с тех пор, как всё это произошло». Сохранить существующие ссылки.",
-      "translation_quote": "шагая и печальные; ныне третий день, как сии суть деяния сии"
-    },
-    {
-      "location": "html, цитата 2 Коринфянам 1:8-9 и повторная цитата 2 Коринфянам 1:9",
-      "severity": "minor",
-      "source_quote": "pressed out of measure ... God which raiseth the dead; God which raiseth the dead",
-      "suggested_fix": "Заменить «чрезмерно прессываемы» на «подавлены сверх меры»; в обеих цитатах исправить «воскресшаго мертвых» на «воскрешающего мёртвых».",
-      "translation_quote": "чрезмерно прессываемы ... воскресшаго мертвых; воскресшаго мертвых"
-    },
-    {
-      "location": "html, первый абзац заключения",
-      "severity": "minor",
-      "source_quote": "bring saints unto the soul reckoning that only dark nights can minister unto",
-      "suggested_fix": "Заменить на «привести святых к такому глубокому осмыслению состояния своей души, которое возможно лишь благодаря тёмным ночам».",
-      "translation_quote": "привести святых к душевному расчёту, к которому только тёмные ночи способны"
-    },
-    {
-      "location": "html, последний повествовательный абзац",
-      "severity": "minor",
-      "source_quote": "It is a highly personal convocation with God ... can be encouraged to reach out and embrace the darkness",
-      "suggested_fix": "Заменить «Это глубоко личное созыв с Богом» на «Это глубоко личная встреча с Богом», а «сможем вдохновиться тянущимся навстречу и обнять тьму» — на «найдём в этом ободрение, чтобы шагнуть навстречу тьме и принять её».",
-      "translation_quote": "Это глубоко личное созыв с Богом ... сможем вдохновиться тянущимся навстречу и обнять тьму"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-29T20:28:03+00:00",
   "id": "bbf51eb297b2160298b19cb63e28b688",
   "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
   "language": "rus",
@@ -267,7 +160,7 @@
     }
   },
   "protected": false,
-  "quality_score": 76,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6.1-sol",
@@ -286,7 +179,7 @@
     "total_reserved_usd": 0.808475,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "ceb52dc3bb5b5ab212a3930b445c8849f8521bc253df2cec9d019d90e889292e",
   "translation_model_actual": "gpt-6.1-sol"
