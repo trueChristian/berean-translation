@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "a3e3fd4dbeb547afaffedfe8a5ab978c",
   "campaign": "auto-4091e67037d2d7158683c0739fa971886f3c26e6ab7cf5affe35c016d7b16b76",
   "created_at": "2026-10-29T14:13:30+00:00",
   "events": [
@@ -48,193 +47,31 @@
         },
         "total_tokens": 14172
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 62,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 30,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7198,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 7195,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7260
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "html, Genesis 2:18–20 quotation",
-      "severity": "major",
-      "source_quote": "but for Adam there was not found an help meet for him",
-      "suggested_fix": "Replace the quotation with contemporary Hebrew: ״ואלוהים אמר: לא טוב שהאדם יהיה לבדו; אעשה לו עזר מתאים ... ואדם נתן שמות לכל הבהמות, לעופות השמים ולכל חיות השדה, אך לאדם לא נמצא עזר מתאים – בראשית 2:18-20.״ Preserve the em tags.",
-      "translation_quote": "וְאֵשֶׁת לֹא־נִמְצְאָה־לּוֹ"
-    },
-    {
-      "location": "html, Genesis 2:21–22 quotation",
-      "severity": "major",
-      "source_quote": "the LORD God caused a deep sleep to fall upon Adam",
-      "suggested_fix": "Replace the quotation inside em with: ״אלוהים הפיל תרדמה עמוקה על אדם, והוא נרדם. הוא לקח אחת מצלעותיו וסגר את הבשר במקומה. מן הצלע שלקח מן האדם יצר אלוהים אישה והביא אותה אל האדם – בראשית 2:21-22.״",
-      "translation_quote": "וַיַּצְמַח יְהוָה אֱלֹהִים תַּרְדֵּמָה"
-    },
-    {
-      "location": "html, Elijah's message to Ahab",
-      "severity": "major",
-      "source_quote": "He brought word from God to Ahab that there would be no rain",
-      "suggested_fix": "Replace the opening clause with ״הוא הביא לאחאב מסר מאת ה' שלא ירד גשם״.",
-      "translation_quote": "הוא הוציא מאת ה' את הודעת היבשון שלא יורד גשם"
-    },
-    {
-      "location": "html, contest on Mount Carmel",
-      "severity": "major",
-      "source_quote": "he challenged the prophets of Baal to a match on Mt. Carmel",
-      "suggested_fix": "Replace with ״הוא הזמין את נביאי הבעל להתמודדות על הר הכרמל״.",
-      "translation_quote": "הוא אתגר את נביאי הבעל בזינוק על הר הרי Carmel"
-    },
-    {
-      "location": "html, flight to Horeb",
-      "severity": "major",
-      "source_quote": "rather than trusting God, he fled to Mt. Horeb",
-      "suggested_fix": "Replace with ״במקום לבטוח בה', הוא נמלט להר חורב״.",
-      "translation_quote": "במקום להבטיח בה' הוא נמלט להר ההר Horeb"
-    },
-    {
-      "location": "html, 1 Kings 19:10 quotation",
-      "severity": "major",
-      "source_quote": "slain thy prophets with the sword ... they seek my life, to take it away",
-      "suggested_fix": "Replace the quotation inside em with: ״...קינאתי מאוד לה' אלוהי צבאות, כי בני ישראל נטשו את בריתך, הרסו את מזבחותיך והרגו את נביאיך בחרב. רק אני נשארתי, והם מבקשים להרוג גם אותי – מלכים א' 19:10.״",
-      "translation_quote": "וַיִּמְצְאוּ־חֵרֶב אֶת־נְבִיאֶיךָ ... וְהֵם מְבַקְּשִׁים אֶת־נַפְשִׁי לְהָשִׁיבָה"
-    },
-    {
-      "location": "html, 1 Kings 19:18 quotation",
-      "severity": "major",
-      "source_quote": "Yet I have left me seven thousand in Israel, all the knees which have not bowed unto Baal",
-      "suggested_fix": "Replace the quotation inside em with: ״אך השארתי לי בישראל שבעת אלפים, שכל ברכיהם לא כרעו לבעל ושכל פיותיהם לא נשקו לו – מלכים א' 19:18.״",
-      "translation_quote": "וַאֲנִי־נְתַתִּי שִׁבְעַת־אֲלָפִים בְּיִשְׂרָאֵל כָּל־הַמִּשְׁתַּחֲוִים לְבַעַל"
-    },
-    {
-      "location": "html, 2 Timothy 4:9–11 quotation",
-      "severity": "major",
-      "source_quote": "Do thy diligence to come shortly unto me ... Only Luke is with me. Take Mark, and bring him with thee",
-      "suggested_fix": "Replace the quotation inside em with: ״השתדל לבוא אליי במהרה, כי דמאס עזב אותי מאהבתו לעולם הזה והלך לתסלוניקה; קרסנס הלך לגלטיה וטיטוס לדלמטיה. רק לוקס נמצא איתי. קח את מרקוס והבא אותו איתך... – טימותיוס ב' 4:9-11.״",
-      "translation_quote": "עשה לִי־חָזְקָה לָבוֹא אֵלַי ... לוּאְקָס בְּדָד עִמָּדִי. קַח אֶת־מַרְקּוֹ וּבְאֶתֶּהוּ עִמָּךְ"
-    },
-    {
-      "location": "html, paragraph following 2 Timothy quotation",
-      "severity": "major",
-      "source_quote": "The Apostle was not abandoned. ... ashamed of his bonds ... as he faced a martyr’s death.",
-      "suggested_fix": "Replace ״השליח לא נטש באמת״ with ״השליח לא ננטש״, ״מבושה מרעותיו״ with ״מבושה על מאסרו״, and ״מות השמדה״ with ״מוות על אמונתו״.",
-      "translation_quote": "השליח לא נטש באמת. ... בושה מרעותיו ... כשעמד בפני מות השמדה."
-    },
-    {
-      "location": "html, explanation of Koinonia",
-      "severity": "major",
-      "source_quote": "The Greek word translated fellowship ... even suffering together",
-      "suggested_fix": "Replace ״הילקוט היווני שתורגם כ־<em>fellowship</em>״ with ״המילה היוונית שתורגמה כ־<em>שותפות רוחנית</em>״ and ״סבולה משותפת״ with ״סבל משותף״.",
-      "translation_quote": "הילקוט היווני שתורגם כ־<em>fellowship</em> ... ואפילו סבולה משותפת"
-    },
-    {
-      "location": "html, first dangerous situation",
-      "severity": "major",
-      "source_quote": "many of the “one-anothering” Bible passages",
-      "suggested_fix": "Replace ״רבים מפסוקי ה\"האחד־את־הָאחר\" שבתנ\"ך״ with ״רבים מהקטעים בכתבי הקודש העוסקים ביחסנו זה לזה״.",
-      "translation_quote": "רבים מפסוקי ה\"האחד־את־הָאחר\" שבתנ\"ך"
-    },
-    {
-      "location": "html, Hebrews 10:25 quotation and reference",
-      "severity": "major",
-      "source_quote": "Not forsaking the assembling of ourselves together ... exhorting one another ... as ye see the day approaching –Hebrews 10:25.",
-      "suggested_fix": "Replace the text inside em with ״אל נזנח את ההתכנסות המשותפת שלנו, כפי שיש הנוהגים, אלא נעודד זה את זה, וביתר שאת ככל שאתם רואים שהיום מתקרב – עברים 10:25.״",
-      "translation_quote": "וְלֹא־נָעִיר אֶת־מִקְהַלֵּנוּ ... וּכְכָךְ הָרַע הַקָּרוֹב יִהְיֶה לָכֶם יָתֵר — ע Hebrews 10:25."
-    },
-    {
-      "location": "html, Galatians 6:5 and 6:2 quotations",
-      "severity": "major",
-      "source_quote": "For every man shall bear his own burden ... Bear ye one another's burdens",
-      "suggested_fix": "Replace the first quotation with ״כי כל אדם יישא את משאו שלו – גלטים 6:5,״ and the second with ״שאו זה את משאו של זה, וכך תקיימו את תורת המשיח – גלטים 6:2.״ Preserve both em elements and their positions.",
-      "translation_quote": "כִּי אִישׁ כָּל־אֶחָד יִשָּׂא אֶת־עֲמַלּוֹ – גלטיים 6:5 ... נְשְׂאוּ זֶה אֶת־עֲמַל־זֶה ... גלטיים 6:2."
-    },
-    {
-      "location": "html, pioneers paragraph",
-      "severity": "minor",
-      "source_quote": "relates back to the pioneers ... settle down ... lived as self-sufficiently as they could",
-      "suggested_fix": "Use ״נעוץ בתקופת החלוצים״, ״להתיישב״ rather than ״לשקוע״, and ״חנויות לממכר מוצרים כלליים היו מעטות, והם השתדלו לספק את צורכיהם בעצמם ככל האפשר״ for the final sentence.",
-      "translation_quote": "נעוץ בתקופת המגלים והחלוצים ... לשקוע ... חנויות כלליות היו מעטים ... באופן אוטו-ספקי"
-    },
-    {
-      "location": "html, COVID paragraph",
-      "severity": "minor",
-      "source_quote": "long before COVID was ever heard of",
-      "suggested_fix": "Replace ״לפני שיצא שמו של COVID לאור״ with ״לפני שמישהו שמע על הקורונה״.",
-      "translation_quote": "לפני שיצא שמו של COVID לאור"
-    },
-    {
-      "location": "html, introduction to Elijah",
-      "severity": "minor",
-      "source_quote": "Elijah was a fiery prophet of God",
-      "suggested_fix": "Replace ״נביא לוהט לא-מעט״ with ״נביא אלוהים נלהב״.",
-      "translation_quote": "אליהו היה נביא לוהט לא-מעט"
-    },
-    {
-      "location": "html, provision for Elijah",
-      "severity": "minor",
-      "source_quote": "through God’s provision of flour and oil to a widow",
-      "suggested_fix": "Replace ״בהשגחת ה' על קמח ושמן אצל האלמנה״ with ״באמצעות הקמח והשמן שה' סיפק לאלמנה״.",
-      "translation_quote": "בהשגחת ה' על קמח ושמן אצל האלמנה"
-    },
-    {
-      "location": "html, gendered groups after Elijah quotation and in concluding blessing",
-      "severity": "minor",
-      "source_quote": "those men and women ... men and women of faith",
-      "suggested_fix": "Replace ״אנשים ואנשים אלה״ with ״אותם גברים ונשים״ and ״אנשים ואנשי אמונה״ with ״גברים ונשים מאמינים״.",
-      "translation_quote": "אנשים ואנשים אלה ... אנשים ואנשי אמונה"
-    },
-    {
-      "location": "html, loss of spouse paragraph",
-      "severity": "minor",
-      "source_quote": "withdraw from others and to experience loneliness",
-      "suggested_fix": "Replace ״להסגר פנימה, לודידות״ with ״להסתגר ולחוות בדידות״.",
-      "translation_quote": "להסגר פנימה, לודידות"
-    },
-    {
-      "location": "html, exercise paragraph",
-      "severity": "minor",
-      "source_quote": "found that it had similar effectiveness",
-      "suggested_fix": "Replace ״ומצאו שהיא כה-יעילה בדומה להרבה מהתרופות הנפוצות״ with ״ומצאו שיעילותה דומה לזו של רבות מהתרופות הנפוצות״.",
-      "translation_quote": "ומצאו שהיא כה-יעילה בדומה להרבה מהתרופות הנפוצות"
-    },
-    {
-      "location": "html, active church participation paragraph",
-      "severity": "minor",
-      "source_quote": "Having brothers and sisters to pray for someone who is struggling",
-      "suggested_fix": "Replace ״שיהיו אחאים ואחיות להתפלל עבור מי שסובל״ with ״כשיש אחים ואחיות באמונה שמתפללים עבור מי שסובל״.",
-      "translation_quote": "שיהיו אחאים ואחיות להתפלל עבור מי שסובל"
-    },
-    {
-      "location": "html, outreach exhortation",
-      "severity": "minor",
-      "source_quote": "it should move us to reach out",
-      "suggested_fix": "Replace ״עלינו להתניע ידיים ולהושיט יד״ with ״הדבר צריך להניע אותנו להושיט יד״.",
-      "translation_quote": "עלינו להתניע ידיים ולהושיט יד"
-    },
-    {
-      "location": "html, concluding blessing",
-      "severity": "minor",
-      "source_quote": "We cannot carry these burdens alone. Together, we will reach the Celestial City.",
-      "suggested_fix": "Replace ״לבדם״ with ״לבדנו״ and ״העיר השמים״ with ״העיר השמימית״.",
-      "translation_quote": "איננו יכולים לשאת את העול לבדם. יחד נגיע אל העיר השמים."
-    },
-    {
-      "location": "html, final two prose paragraphs",
-      "severity": "minor",
-      "source_quote": "if we only reach out ... extend to them the right arm of fellowship",
-      "suggested_fix": "Replace ״אם רק נגייס את האומץ להשיט יד״ with ״אם רק נושיט יד״ and ״להושיט להם את זרוע החברות הנכונה״ with ״להושיט להם יד של שותפות רוחנית״.",
-      "translation_quote": "אם רק נגייס את האומץ להשיט יד ... להושיט להם את זרוע החברות הנכונה"
-    },
-    {
-      "location": "html, links paragraph",
-      "severity": "minor",
-      "source_quote": "Links:",
-      "suggested_fix": "Replace only ״Links:״ with ״קישורים:״, preserving all URLs and tags.",
-      "translation_quote": "Links:"
-    },
-    {
-      "location": "html, figure img alt",
-      "severity": "minor",
-      "source_quote": "Solitary hooded person with a backpack seated above a misty landscape",
-      "suggested_fix": "Replace the alt value with ״אדם בודד עם ברדס ותרמיל גב יושב מעל נוף ערפילי״.",
-      "translation_quote": "אדם בודד עם קפוצ'ון ומטען יושב מעל נוף ערפילי"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-29T20:15:26+00:00",
   "id": "d8c686c3b20db9aea7370cedb6c0d22c",
   "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
   "language": "heb",
@@ -323,7 +160,7 @@
     }
   },
   "protected": false,
-  "quality_score": 55,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6.1-sol",
@@ -342,7 +179,7 @@
     "total_reserved_usd": 0.746798,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "ac1550aa6190c351e44ee2dfa7e315442d61cbcd47e9044576f72bbc92b99432",
   "translation_model_actual": "gpt-6.1-sol"
