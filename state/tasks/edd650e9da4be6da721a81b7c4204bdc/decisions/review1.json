@@ -1,0 +1,77 @@
+{
+  "findings": [
+    {
+      "location": "html: اقتباس غلاطية 6:5",
+      "severity": "major",
+      "source_quote": "For every man shall bear his own burden",
+      "suggested_fix": "استبدل «لأن كل واحد سينقل حمله عنه» بـ«لأن كل واحد سيحمل حمله الخاص».",
+      "translation_quote": "لأن كل واحد سينقل حمله عنه"
+    },
+    {
+      "location": "html: اقتباس الملوك الأول 19:10",
+      "severity": "major",
+      "source_quote": "I have been very jealous for the LORD God of hosts",
+      "suggested_fix": "استبدل «فتفعلت غيظًا شديدًا للرب إله الجنود» بـ«غرت غيرة شديدة للرب إله الجنود».",
+      "translation_quote": "فتفعلت غيظًا شديدًا للرب إله الجنود"
+    },
+    {
+      "location": "html: اقتباس الملوك الأول 19:18",
+      "severity": "major",
+      "source_quote": "Yet I have left me seven thousand in Israel, all the knees which have not bowed unto Baal, and every mouth which hath not kissed him",
+      "suggested_fix": "استبدل نص الاقتباس قبل المرجع بـ«ولكنني أبقيت لنفسي سبعة آلاف في إسرائيل، كل الركب التي لم تجثُ لبعل، وكل فم لم يقبّله».",
+      "translation_quote": "وَلكِنّي بَقيتُ لنفسي سَبعة آلاف في إسرائيل، كلّ ركب لم تُنكب لبعل، ومن كلّ فم لم يقبّله"
+    },
+    {
+      "location": "html: أول فقرة تحت «العزلة مضرة جسديًا»",
+      "severity": "major",
+      "source_quote": "isolation is linked to higher rates of high blood pressure",
+      "suggested_fix": "استبدل «بمعدلات أعلى من ضغط الدم» بـ«بمعدلات أعلى من الإصابة بارتفاع ضغط الدم».",
+      "translation_quote": "العزلة مرتبطة بمعدلات أعلى من ضغط الدم"
+    },
+    {
+      "location": "html: فقرة الوضع الأول من الوضعين الخطيرين",
+      "severity": "minor",
+      "source_quote": "We need fellowship, both to encourage us and to keep us accountable.",
+      "suggested_fix": "استبدل «نحن بحاجة إلى الشركة، لتشجيعنا وللحفاظ علينا مسؤوليًا» بـ«نحن بحاجة إلى الشركة لتشجيعنا ولمساعدتنا على البقاء خاضعين للمساءلة».",
+      "translation_quote": "نحن بحاجة إلى الشركة، لتشجيعنا وللحفاظ علينا مسؤوليًا."
+    },
+    {
+      "location": "html: اقتباس عبرانيين 10:25",
+      "severity": "minor",
+      "source_quote": "but exhorting one another: and so much the more, as ye see the day approaching",
+      "suggested_fix": "استبدل «بل نشجع بعضنا بعضًا؛ وبالقدر ما ترون اليوم يقترب» بـ«بل نشجع بعضنا بعضًا، وبالأكثر كلما رأيتم اليوم يقترب».",
+      "translation_quote": "بل نشجع بعضنا بعضًا؛ وبالقدر ما ترون اليوم يقترب"
+    },
+    {
+      "location": "html: فقرة الالتهاب ووظيفة المناعة",
+      "severity": "minor",
+      "source_quote": "lonely people getting worse infections",
+      "suggested_fix": "استبدل «إصابة العازلين بعدوى أسوأ» بـ«إصابة الأشخاص الذين يشعرون بالوحدة بعدوى أشد».",
+      "translation_quote": "إصابة العازلين بعدوى أسوأ"
+    },
+    {
+      "location": "html: فقرة الدعم بعد فقدان الزوج أو الزوجة",
+      "severity": "minor",
+      "source_quote": "we need to make certain that they continue to have an active presence in their lives in the months that follow",
+      "suggested_fix": "استبدل «يجب علينا أن نتأكد من استمرار وجود حضور فعّال لهم في حياتهم خلال الأشهر التالية» بـ«يجب علينا أن نحرص على استمرار حضورنا الفعّال في حياتهم خلال الأشهر التالية».",
+      "translation_quote": "يجب علينا أن نتأكد من استمرار وجود حضور فعّال لهم في حياتهم خلال الأشهر التالية"
+    },
+    {
+      "location": "html: فقرة الانخراط في جماعة كنسية",
+      "severity": "minor",
+      "source_quote": "to encourage that person to a more vibrant walk with God",
+      "suggested_fix": "استبدل «ويشجعونه على مشي أكثر حيوية مع الله» بـ«ويشجعونه على سلوك روحي أكثر حيوية مع الله».",
+      "translation_quote": "ويشجعونه على مشي أكثر حيوية مع الله"
+    },
+    {
+      "location": "html: وصف الصورة، img@alt",
+      "severity": "minor",
+      "source_quote": "Solitary hooded person with a backpack seated above a misty landscape",
+      "suggested_fix": "استبدل قيمة alt بـ«شخص وحيد يرتدي غطاء رأس ويحمل حقيبة ظهر، جالس في موضع مرتفع فوق منظر طبيعي يلفّه الضباب».",
+      "translation_quote": "شخص معهود بغطاء رأس وحيد يحمل حقيبة ظهر جالسًا فوق منظر ضبابي"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-29T14:12:36+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"html: اقتباس غلاطية 6:5\",\n      \"severity\": \"major\",\n      \"source_quote\": \"For every man shall bear his own burden\",\n      \"suggested_fix\": \"استبدل «لأن كل واحد سينقل حمله عنه» بـ«لأن كل واحد سيحمل حمله الخاص».\",\n      \"translation_quote\": \"لأن كل واحد سينقل حمله عنه\"\n    },\n    {\n      \"location\": \"html: اقتباس الملوك الأول 19:10\",\n      \"severity\": \"major\",\n      \"source_quote\": \"I have been very jealous for the LORD God of hosts\",\n      \"suggested_fix\": \"استبدل «فتفعلت غيظًا شديدًا للرب إله الجنود» بـ«غرت غيرة شديدة للرب إله الجنود».\",\n      \"translation_quote\": \"فتفعلت غيظًا شديدًا للرب إله الجنود\"\n    },\n    {\n      \"location\": \"html: اقتباس الملوك الأول 19:18\",\n      \"severity\": \"major\",\n      \"source_quote\": \"Yet I have left me seven thousand in Israel, all the knees which have not bowed unto Baal, and every mouth which hath not kissed him\",\n      \"suggested_fix\": \"استبدل نص الاقتباس قبل المرجع بـ«ولكنني أبقيت لنفسي سبعة آلاف في إسرائيل، كل الركب التي لم تجثُ لبعل، وكل فم لم يقبّله».\",\n      \"translation_quote\": \"وَلكِنّي بَقيتُ لنفسي سَبعة آلاف في إسرائيل، كلّ ركب لم تُنكب لبعل، ومن كلّ فم لم يقبّله\"\n    },\n    {\n      \"location\": \"html: أول فقرة تحت «العزلة مضرة جسديًا»\",\n      \"severity\": \"major\",\n      \"source_quote\": \"isolation is linked to higher rates of high blood pressure\",\n      \"suggested_fix\": \"استبدل «بمعدلات أعلى من ضغط الدم» بـ«بمعدلات أعلى من الإصابة بارتفاع ضغط الدم».\",\n      \"translation_quote\": \"العزلة مرتبطة بمعدلات أعلى من ضغط الدم\"\n    },\n    {\n      \"location\": \"html: فقرة الوضع الأول من الوضعين الخطيرين\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"We need fellowship, both to encourage us and to keep us accountable.\",\n      \"suggested_fix\": \"استبدل «نحن بحاجة إلى الشركة، لتشجيعنا وللحفاظ علينا مسؤوليًا» بـ«نحن بحاجة إلى الشركة لتشجيعنا ولمساعدتنا على البقاء خاضعين للمساءلة».\",\n      \"translation_quote\": \"نحن بحاجة إلى الشركة، لتشجيعنا وللحفاظ علينا مسؤوليًا.\"\n    },\n    {\n      \"location\": \"html: اقتباس عبرانيين 10:25\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"but exhorting one another: and so much the more, as ye see the day approaching\",\n      \"suggested_fix\": \"استبدل «بل نشجع بعضنا بعضًا؛ وبالقدر ما ترون اليوم يقترب» بـ«بل نشجع بعضنا بعضًا، وبالأكثر كلما رأيتم اليوم يقترب».\",\n      \"translation_quote\": \"بل نشجع بعضنا بعضًا؛ وبالقدر ما ترون اليوم يقترب\"\n    },\n    {\n      \"location\": \"html: فقرة الالتهاب ووظيفة المناعة\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"lonely people getting worse infections\",\n      \"suggested_fix\": \"استبدل «إصابة العازلين بعدوى أسوأ» بـ«إصابة الأشخاص الذين يشعرون بالوحدة بعدوى أشد».\",\n      \"translation_quote\": \"إصابة العازلين بعدوى أسوأ\"\n    },\n    {\n      \"location\": \"html: فقرة الدعم بعد فقدان الزوج أو الزوجة\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"we need to make certain that they continue to have an active presence in their lives in the months that follow\",\n      \"suggested_fix\": \"استبدل «يجب علينا أن نتأكد من استمرار وجود حضور فعّال لهم في حياتهم خلال الأشهر التالية» بـ«يجب علينا أن نحرص على استمرار حضورنا الفعّال في حياتهم خلال الأشهر التالية».\",\n      \"translation_quote\": \"يجب علينا أن نتأكد من استمرار وجود حضور فعّال لهم في حياتهم خلال الأشهر التالية\"\n    },\n    {\n      \"location\": \"html: فقرة الانخراط في جماعة كنسية\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"to encourage that person to a more vibrant walk with God\",\n      \"suggested_fix\": \"استبدل «ويشجعونه على مشي أكثر حيوية مع الله» بـ«ويشجعونه على سلوك روحي أكثر حيوية مع الله».\",\n      \"translation_quote\": \"ويشجعونه على مشي أكثر حيوية مع الله\"\n    },\n    {\n      \"location\": \"html: وصف الصورة، img@alt\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"Solitary hooded person with a backpack seated above a misty landscape\",\n      \"suggested_fix\": \"استبدل قيمة alt بـ«شخص وحيد يرتدي غطاء رأس ويحمل حقيبة ظهر، جالس في موضع مرتفع فوق منظر طبيعي يلفّه الضباب».\",\n      \"translation_quote\": \"شخص معهود بغطاء رأس وحيد يحمل حقيبة ظهر جالسًا فوق منظر ضبابي\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": false,\n  \"score\": 84\n}",
+    "content_bytes": 5584,
+    "content_evidence_truncated": false,
+    "content_sha256": "f1c5f78ad0a23d9a278b6a91c33a4572ceefe48c0daf12f723ea329fcbd5cfcc",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1336,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 76,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6913,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6910,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8249
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}
