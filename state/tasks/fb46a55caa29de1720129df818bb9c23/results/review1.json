@@ -1,0 +1,206 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "92c71c99-a0dc-4130-9054-db304d84fad7",
+    "response_id": "chatcmpl-EeQw3C1zn1ljJikRMwdZ9CobPrXI6",
+    "usage": {
+      "completion_tokens": 3147,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 55,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8952,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7849,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 12099
+    }
+  },
+  "received_at": "2026-10-29T20:28:36+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "html، الفقرة 1",
+        "severity": "major",
+        "source_quote": "the flock of Jethro his father-in-law, the priest of Midian",
+        "suggested_fix": "استبدل «لغامِل شوعه حبوبين، الكاهن المدياني» بـ«ليثرون حميه، كاهن مديان».",
+        "translation_quote": "لغامِل شوعه حبوبين، الكاهن المدياني"
+      },
+      {
+        "location": "html، الفقرة 4",
+        "severity": "major",
+        "source_quote": "It had undoubtedly been rehearsed to him that at his birth he …was exceeding fair, and nourished up in his father’s house three months",
+        "suggested_fix": "استبدل الجملة بـ«لا شك أنه سمع مراراً أنه عند ولادته <em>…كان جميلاً جداً، وتربّى في بيت أبيه ثلاثة أشهر –أعمال الرسل 7:20.</em>».",
+        "translation_quote": "لا شك أنه عُرض عليه منذ ولادته أنه …كان حسنُ الهيئة جداً، رباه في بيت والده ثلاثة أشهر"
+      },
+      {
+        "location": "html، الفقرة 8",
+        "severity": "major",
+        "source_quote": "most of us cannot honestly relate to the mighty Moses and his dynamic coalition with God",
+        "suggested_fix": "استبدل العبارة بـ«إلا أن معظمنا لا يستطيع بصدق أن يجد شبهاً بين تجربته وتجربة موسى العظيم وتعاونه الفاعل مع الله».",
+        "translation_quote": "إلا أن معظمنا لا يستطيع بصدق أن يتعرّف على موسى العظيم وتحالفه الديناميكي مع الله"
+      },
+      {
+        "location": "html، الفقرة 9",
+        "severity": "major",
+        "source_quote": "We can even imagine that God has turned against us.",
+        "suggested_fix": "استبدلها بـ«قد نتخيل حتى أن الله قد انقلب ضدنا».",
+        "translation_quote": "قد نتخيل حتى أن الله قد مال علينا."
+      },
+      {
+        "location": "html، نهاية الفقرة 9",
+        "severity": "major",
+        "source_quote": "we must shake off the dust of the desert",
+        "suggested_fix": "استبدل «يجب أن ننتف الغبار عن الصحراء» بـ«يجب أن ننفض عن أنفسنا غبار الصحراء».",
+        "translation_quote": "يجب أن ننتف الغبار عن الصحراء"
+      },
+      {
+        "location": "html، الفقرة الثانية تحت «غاية الله»",
+        "severity": "major",
+        "source_quote": "stripped naked in a metamorphic change",
+        "suggested_fix": "استبدل «في تحول شكلي» بـ«في تحوّل جذري».",
+        "translation_quote": "يُعرَّون قريباً في تحول شكلي"
+      },
+      {
+        "location": "html، اقتباس أعمال الرسل 9:6",
+        "severity": "minor",
+        "source_quote": "And he trembling and astonished said",
+        "suggested_fix": "استبدل «فارتعب وقال» بـ«فقال وهو مرتعد ومندهش».",
+        "translation_quote": "فارتعب وقال"
+      },
+      {
+        "location": "html، أول فقرة تحت «تطهير الله»، اقتباس أمثال 17:3",
+        "severity": "major",
+        "source_quote": "The fining pot is for silver, and the furnace for gold",
+        "suggested_fix": "استبدل «إنبوت الفضة للتطهير والنار للذهب» بـ«البوتقة للفضة، والفرن للذهب».",
+        "translation_quote": "إنبوت الفضة للتطهير والنار للذهب"
+      },
+      {
+        "location": "html، أول فقرة تحت «تطهير الله»",
+        "severity": "major",
+        "source_quote": "trained in every dimension of Egyptian plutocracy",
+        "suggested_fix": "استبدل «في كل بُعد من بُنى الثروة المصرية» بـ«في جميع جوانب نظام حكم الأثرياء في مصر».",
+        "translation_quote": "في كل بُعد من بُنى الثروة المصرية"
+      },
+      {
+        "location": "html، اقتباس خروج 2:19",
+        "severity": "major",
+        "source_quote": "An Egyptian delivered us out of the hand of the shepherds, and also drew water enough for us, and watered the flock",
+        "suggested_fix": "استبدل نص الاقتباس بـ«…مِصريّ خلّصنا من يد الرعاة، واستقى لنا أيضاً ماءً كافياً، وسقى الغنم –خروج 2:19.».",
+        "translation_quote": "…مِصريّاً خلّصنا من يد الرعاة، وسقا الغنم بسقٍ كافٍ –خروج 2:19."
+      },
+      {
+        "location": "html، أول فقرة تحت «عناية الله»، اقتباس مزمور 25:9",
+        "severity": "major",
+        "source_quote": "The meek will he guide in judgment: and the meek will he teach his way",
+        "suggested_fix": "استبدل نص الاقتباس بـ«يرشد الودعاء في الحكم، ويعلّم الودعاء طريقه –مزمور 25:9.».",
+        "translation_quote": "إرشاد للودعاء في القضاء، ويوجه الودعاء طريقه –مزمور 25:9."
+      },
+      {
+        "location": "html، الفقرة الثالثة تحت «ترفيع الله»",
+        "severity": "major",
+        "source_quote": "his presumption had evaporated",
+        "suggested_fix": "استبدل «لكن افتراضه تبخر» بـ«لكن اعتداده بنفسه قد تبخر».",
+        "translation_quote": "لكن افتراضه تبخر"
+      },
+      {
+        "location": "html، نهاية الفقرة الثالثة تحت «ترفيع الله»",
+        "severity": "major",
+        "source_quote": "But there is no ordained calling issued independently from…",
+        "suggested_fix": "استبدل الجملة بـ«لكن لا تصدر دعوة إلهية مستقلة عن…».",
+        "translation_quote": "لكن لا توجد دعوة مَنَحَوية صادرة مستقلة عن…"
+      },
+      {
+        "location": "html، نهاية الفقرة الثانية تحت «وعد الله»",
+        "severity": "major",
+        "source_quote": "But this charge is not to be executed without…",
+        "suggested_fix": "استبدل «لكن هذه التكاليف لا تُنفَّذ دون…» بـ«لكن هذا التكليف لا يُنفَّذ دون…».",
+        "translation_quote": "لكن هذه التكاليف لا تُنفَّذ دون…"
+      },
+      {
+        "location": "html، أول فقرة تحت «قوة الله»",
+        "severity": "major",
+        "source_quote": "secured the victory over Amalek",
+        "suggested_fix": "استبدل «النصر على عمّالِقَةَ عمّاليق» بـ«النصر على عماليق».",
+        "translation_quote": "النصر على عمّالِقَةَ عمّاليق"
+      },
+      {
+        "location": "html، اقتباس عبرانيين 12:6-8",
+        "severity": "major",
+        "source_quote": "For whom the Lord loveth he chasteneth, and scourgeth every son whom he receiveth. If ye endure chastening, God dealeth with you as with sons; for what son is he whom the father chasteneth not? But if ye be without chastisement, whereof all are partakers, then are ye bastards, and not sons",
+        "suggested_fix": "استبدل نص الاقتباس بـ«لأن الذي يحبه الرب يؤدبه، ويجلد كل ابن يقبله. إن كنتم تحتملون التأديب، فإن الله يعاملكم كبنين؛ فأي ابن لا يؤدبه أبوه؟ ولكن إن كنتم بلا تأديب، وقد اشترك فيه الجميع، فأنتم أبناء غير شرعيين، ولستم بنين –عبرانيين 12:6-8.».",
+        "translation_quote": "فمن يحبه الرب يؤدبه ويجلده كل ابن يقبله. فإن كان تحت التئدة فتحاسبهم كما لآبناء، لأنه أي ابن من الآب لا يؤدبه؟ وأمّا إن كنتم بلا تأديب الذي شارك فيه الجميع فأنتم أبناؤنا غير شرعيين ولسستم أبناء"
+      },
+      {
+        "location": "html، الفقرة الثالثة تحت «قوة الله»",
+        "severity": "major",
+        "source_quote": "in the straits of Arabia, and in the silent solitude of the back burner",
+        "suggested_fix": "استبدل «في ضيِّق العرب، وفي وحدة هادئة على الموقد الخلفي» بـ«في مضايق بلاد العرب، وفي عزلة صامتة بعيداً عن واجهة العمل».",
+        "translation_quote": "في ضيِّق العرب، وفي وحدة هادئة على الموقد الخلفي"
+      },
+      {
+        "location": "html، الفقرة الثالثة تحت «قوة الله»",
+        "severity": "major",
+        "source_quote": "the meekest man to walk the face of the earth",
+        "suggested_fix": "استبدل «أضعف رجل سلك على وجه الأرض» بـ«أكثر الناس وداعةً ممن ساروا على وجه الأرض».",
+        "translation_quote": "أضعف رجل سلك على وجه الأرض"
+      },
+      {
+        "location": "html، الفقرة 3",
+        "severity": "minor",
+        "source_quote": "The bane of the zealot",
+        "suggested_fix": "استبدل «شقاء المبادر» بـ«آفة شديد الحماسة».",
+        "translation_quote": "شقاء المبادر"
+      },
+      {
+        "location": "html، الفقرتان 6 و7",
+        "severity": "minor",
+        "source_quote": "In today’s economy; obscurity and loneliness",
+        "suggested_fix": "استبدل «في اقتصاد اليوم» بـ«بمقاييس اليوم»، واستبدل «والغموض والوحدة» بـ«والخمول عن الأنظار والوحدة».",
+        "translation_quote": "في اقتصاد اليوم؛ والغموض والوحدة"
+      },
+      {
+        "location": "html، الفقرة 8",
+        "severity": "minor",
+        "source_quote": "loaded with intricate involvement and major ministry; a thorough schooling that inscribed immense patience, soul searching",
+        "suggested_fix": "استبدل «محمّلاً بتورّط معقَّد وخدمة عظيمة» بـ«حافلاً بمسؤوليات متشابكة وخدمة عظيمة»، واستبدل «كانت تربية دقيقة نقشَت فيها صبر عظيم وتدبّر للذات» بـ«كانت تربية شاملة غرست فيه صبراً عظيماً وفحصاً للنفس».",
+        "translation_quote": "محمّلاً بتورّط معقَّد وخدمة عظيمة؛ كانت تربية دقيقة نقشَت فيها صبر عظيم وتدبّر للذات"
+      },
+      {
+        "location": "html، الفقرة الثانية تحت «تطهير الله»",
+        "severity": "minor",
+        "source_quote": "While Moses’ quest for justice may have been noble, his orientation was merely Gentile.",
+        "suggested_fix": "استبدل الجملة بـ«مع أن سعي موسى إلى العدل ربما كان نبيلاً، فإن نهجه لم يكن سوى نهج أممي».",
+        "translation_quote": "بينما قد تكون سعي موسى للعدل نبيلاً، كانت جهته مجرد جهة أممية."
+      },
+      {
+        "location": "html، أول فقرة تحت «عناية الله»",
+        "severity": "minor",
+        "source_quote": "But to Moses, the situation presented itself such that God’s divine direction was the last thing he would suspect was happening.",
+        "suggested_fix": "استبدل الجملة بـ«لكن الظروف بدت لموسى على نحو جعل توجيه الله الإلهي آخر ما كان يظن أنه يحدث».",
+        "translation_quote": "لكن بالنسبة لموسى، قدّمته الظروف بحيث كانت التوجيه الإلهي آخر ما كان يتوقع حدوثه."
+      },
+      {
+        "location": "html، الفقرة الثانية تحت «ترفيع الله» والفقرة الثانية تحت «وعد الله»",
+        "severity": "minor",
+        "source_quote": "His self-esteem has been fully extinguished; God will not revoke His promises in the wind of our whims",
+        "suggested_fix": "استبدل «لقد أطفأت ثقته بنفسه تماماً» بـ«لقد انطفأت ثقته بنفسه تماماً»، واستبدل «ولن يلغى الله وعوده بفعل هواهاتنا» بـ«ولن يلغي الله وعوده بفعل أهوائنا».",
+        "translation_quote": "لقد أطفأت ثقته بنفسه تماماً؛ ولن يلغى الله وعوده بفعل هواهاتنا"
+      },
+      {
+        "location": "html، الصورة، الخاصية alt",
+        "severity": "minor",
+        "source_quote": "A broad desert valley beneath layered mountains and clouds",
+        "suggested_fix": "استبدل نص alt بـ«وادٍ صحراوي واسع تحت جبال متعاقبة الطبقات وغيوم».",
+        "translation_quote": "وادي صحراوي واسع تحت جبال مترامية وغيوم"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 61
+  }
+}
