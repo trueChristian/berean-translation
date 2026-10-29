@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "a0069ecb-d824-4794-b3f6-732c368979a6",
+    "response_id": "chatcmpl-EeRkkc1RSZE0F9rc2eRSktHFhbqRH",
+    "usage": {
+      "completion_tokens": 197,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 51,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6615,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5512,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 6812
+    }
+  },
+  "received_at": "2026-10-29T23:00:32+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "translation.html, eerste paragraaf",
+        "severity": "minor",
+        "source_quote": "This was no petty judge or political secretary.",
+        "suggested_fix": "Vervang “geen kleinlike regter” met “geen regter van lae rang” om die verwysing na sy posisie eerder as sy karakter te behou.",
+        "translation_quote": "Dit was geen kleinlike regter of politieke sekretaris nie."
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}

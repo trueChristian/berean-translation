@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "translation.html, eerste paragraaf",
+      "severity": "minor",
+      "source_quote": "This was no petty judge or political secretary.",
+      "suggested_fix": "Vervang “geen kleinlike regter” met “geen regter van lae rang” om die verwysing na sy posisie eerder as sy karakter te behou.",
+      "translation_quote": "Dit was geen kleinlike regter of politieke sekretaris nie."
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[24]: source /article[1]/p[11] ('end', 'p'); translation /article[1]/p[11]/em[1] ('start', 'em', ())",
+  "stage": "terminal"
+}

@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-29T23:00:32+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"translation.html, eerste paragraaf\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"This was no petty judge or political secretary.\",\n      \"suggested_fix\": \"Vervang “geen kleinlike regter” met “geen regter van lae rang” om die verwysing na sy posisie eerder as sy karakter te behou.\",\n      \"translation_quote\": \"Dit was geen kleinlike regter of politieke sekretaris nie.\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": true,\n  \"score\": 98\n}",
+    "content_bytes": 501,
+    "content_evidence_truncated": false,
+    "content_sha256": "ec8afa0deb8008d1810e65952c638a31026d7f694ce5ee9374f79edfc74d6ad1",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 197,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 51,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6615,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5512,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 6812
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}
