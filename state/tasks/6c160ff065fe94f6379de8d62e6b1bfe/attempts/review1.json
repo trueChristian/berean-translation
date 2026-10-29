@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-29T12:23:04+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"translation.html, avsnitt 15\",\n      \"severity\": \"major\",\n      \"source_quote\": \"to respect our authorities—to not slander them\",\n      \"suggested_fix\": \"Erstatt «ikke å smiske eller ære dem ufortjent, men å unngå å baktale dem» med «å ikke baktale dem».\",\n      \"translation_quote\": \"å respektere våre myndigheter—ikke å smiske eller ære dem ufortjent, men å unngå å baktale dem\"\n    },\n    {\n      \"location\": \"translation.html, avsnitt 14\",\n      \"severity\": \"major\",\n      \"source_quote\": \"Whosoever therefore resisteth the power, resisteth the ordinance of God\",\n      \"suggested_fix\": \"Erstatt setningsleddet med «Den som setter seg imot myndigheten, setter seg derfor imot Guds ordning».\",\n      \"translation_quote\": \"Derfor blir den som setter seg imot myndigheten, satt imot det Guds ordning\"\n    },\n    {\n      \"location\": \"translation.html, avsnitt 18\",\n      \"severity\": \"major\",\n      \"source_quote\": \"See then that ye walk circumspectly, not as fools, but as wise, Redeeming the time\",\n      \"suggested_fix\": \"Erstatt med «Se derfor nøye til hvordan dere vandrer, ikke som dårer, men som vise, og bruk tiden godt». Behold resten av sitatet og referansen.\",\n      \"translation_quote\": \"Se da at dere vandrer edruelig, ikke som færer, men som vise, forløse tiden\"\n    },\n    {\n      \"location\": \"translation.html, avsnitt 19\",\n      \"severity\": \"major\",\n      \"source_quote\": \"committed, born-again, Bible-believing Christians walk circumspectly, redeeming the time\",\n      \"suggested_fix\": \"Erstatt med «engasjerte, gjenfødte, bibeltro kristne vandre med omtanke og bruke tiden godt».\",\n      \"translation_quote\": \"forpliktede, nyfødte, bibeltroende kristne vandre edruelig og forløse tiden\"\n    },\n    {\n      \"location\": \"translation.section\",\n      \"severity\": \"major\",\n      \"source_quote\": \"CHURCH HISTORY\",\n      \"suggested_fix\": \"Oversett seksjonsnavnet til «KIRKEHISTORIE».\",\n      \"translation_quote\": \"CHURCH HISTORY\"\n    },\n    {\n      \"location\": \"translation.html, avsnitt 6\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"The catch?\",\n      \"suggested_fix\": \"Erstatt «Men fangsten?» med «Men haken?»\",\n      \"translation_quote\": \"Men fangsten?\"\n    },\n    {\n      \"location\": \"translation.html, avsnitt 8\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"The chariot races\",\n      \"suggested_fix\": \"Erstatt «Stridsvogntoktene» med «Vognkappløpene».\",\n      \"translation_quote\": \"Stridsvogntoktene\"\n    },\n    {\n      \"location\": \"translation.html, avsnitt 5, 6, 7, 8, 10 og 12\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"in broad daylight; regretted this; referring to him as a lady; a genius; you could not leave; trumpeting; to be dragged by their own team of horses; exhibits of artistry; by the Roman Senate\",\n      \"suggested_fix\": \"Rett henholdsvis til «i fullt dagslys», «angret på dette», «omtalte ham som en dame», «et geni», «kunne du ikke gå derfra», «trompetspill», «eller ble dratt av sitt eget hestespann», «kunstneriske oppvisninger» og «av det romerske senatet».\",\n      \"translation_quote\": \"i full dagslys; angreret på dette; omtalt ham som en dame; en geni; kunne du ikke forlate; trompeting; eller blitt dratt av sitt eget hestelag; kunstneriske uppvisninger; av den romerske senatet\"\n    },\n    {\n      \"location\": \"translation.html, avsnitt 14, 15, 16 og 18\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"there is no power but of God; ordained of God; to disobey God; Wherefore be ye not unwise; a man be found faithful; 1 Corinthians 4:2\",\n      \"suggested_fix\": \"Rett «ikke noe myndighet» til «ingen myndighet» begge steder, «innsat» til «innsatt», «å ulydige mot Gud» til «å være ulydige mot Gud», «Derfor bli dere ikke uforstandige» til «Vær derfor ikke uforstandige», «en man» til «en mann» og «1 Korinter 4:2» til «1. Korinterbrev 4:2».\",\n      \"translation_quote\": \"ikke noe myndighet (avsnitt 14 og 15); innsat av Gud; å ulydige mot Gud; Derfor bli dere ikke uforstandige; en man blir funnet trofast; 1 Korinter 4:2\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": false,\n  \"score\": 83\n}",
+    "content_bytes": 4205,
+    "content_evidence_truncated": false,
+    "content_sha256": "53ea58eedc7b6df341fde0ad2aabd598daad2ca8d6656f10d4235d84c365d495",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1299,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 85,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6345,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5242,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 7644
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}

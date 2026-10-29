@@ -1,0 +1,70 @@
+{
+  "findings": [
+    {
+      "location": "translation.html, avsnitt 15",
+      "severity": "major",
+      "source_quote": "to respect our authorities—to not slander them",
+      "suggested_fix": "Erstatt «ikke å smiske eller ære dem ufortjent, men å unngå å baktale dem» med «å ikke baktale dem».",
+      "translation_quote": "å respektere våre myndigheter—ikke å smiske eller ære dem ufortjent, men å unngå å baktale dem"
+    },
+    {
+      "location": "translation.html, avsnitt 14",
+      "severity": "major",
+      "source_quote": "Whosoever therefore resisteth the power, resisteth the ordinance of God",
+      "suggested_fix": "Erstatt setningsleddet med «Den som setter seg imot myndigheten, setter seg derfor imot Guds ordning».",
+      "translation_quote": "Derfor blir den som setter seg imot myndigheten, satt imot det Guds ordning"
+    },
+    {
+      "location": "translation.html, avsnitt 18",
+      "severity": "major",
+      "source_quote": "See then that ye walk circumspectly, not as fools, but as wise, Redeeming the time",
+      "suggested_fix": "Erstatt med «Se derfor nøye til hvordan dere vandrer, ikke som dårer, men som vise, og bruk tiden godt». Behold resten av sitatet og referansen.",
+      "translation_quote": "Se da at dere vandrer edruelig, ikke som færer, men som vise, forløse tiden"
+    },
+    {
+      "location": "translation.html, avsnitt 19",
+      "severity": "major",
+      "source_quote": "committed, born-again, Bible-believing Christians walk circumspectly, redeeming the time",
+      "suggested_fix": "Erstatt med «engasjerte, gjenfødte, bibeltro kristne vandre med omtanke og bruke tiden godt».",
+      "translation_quote": "forpliktede, nyfødte, bibeltroende kristne vandre edruelig og forløse tiden"
+    },
+    {
+      "location": "translation.section",
+      "severity": "major",
+      "source_quote": "CHURCH HISTORY",
+      "suggested_fix": "Oversett seksjonsnavnet til «KIRKEHISTORIE».",
+      "translation_quote": "CHURCH HISTORY"
+    },
+    {
+      "location": "translation.html, avsnitt 6",
+      "severity": "minor",
+      "source_quote": "The catch?",
+      "suggested_fix": "Erstatt «Men fangsten?» med «Men haken?»",
+      "translation_quote": "Men fangsten?"
+    },
+    {
+      "location": "translation.html, avsnitt 8",
+      "severity": "minor",
+      "source_quote": "The chariot races",
+      "suggested_fix": "Erstatt «Stridsvogntoktene» med «Vognkappløpene».",
+      "translation_quote": "Stridsvogntoktene"
+    },
+    {
+      "location": "translation.html, avsnitt 5, 6, 7, 8, 10 og 12",
+      "severity": "minor",
+      "source_quote": "in broad daylight; regretted this; referring to him as a lady; a genius; you could not leave; trumpeting; to be dragged by their own team of horses; exhibits of artistry; by the Roman Senate",
+      "suggested_fix": "Rett henholdsvis til «i fullt dagslys», «angret på dette», «omtalte ham som en dame», «et geni», «kunne du ikke gå derfra», «trompetspill», «eller ble dratt av sitt eget hestespann», «kunstneriske oppvisninger» og «av det romerske senatet».",
+      "translation_quote": "i full dagslys; angreret på dette; omtalt ham som en dame; en geni; kunne du ikke forlate; trompeting; eller blitt dratt av sitt eget hestelag; kunstneriske uppvisninger; av den romerske senatet"
+    },
+    {
+      "location": "translation.html, avsnitt 14, 15, 16 og 18",
+      "severity": "minor",
+      "source_quote": "there is no power but of God; ordained of God; to disobey God; Wherefore be ye not unwise; a man be found faithful; 1 Corinthians 4:2",
+      "suggested_fix": "Rett «ikke noe myndighet» til «ingen myndighet» begge steder, «innsat» til «innsatt», «å ulydige mot Gud» til «å være ulydige mot Gud», «Derfor bli dere ikke uforstandige» til «Vær derfor ikke uforstandige», «en man» til «en mann» og «1 Korinter 4:2» til «1. Korinterbrev 4:2».",
+      "translation_quote": "ikke noe myndighet (avsnitt 14 og 15); innsat av Gud; å ulydige mot Gud; Derfor bli dere ikke uforstandige; en man blir funnet trofast; 1 Korinter 4:2"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
