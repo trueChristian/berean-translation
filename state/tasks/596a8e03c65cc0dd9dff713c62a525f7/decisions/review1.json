@@ -1,0 +1,49 @@
+{
+  "findings": [
+    {
+      "location": "translation.html، کتے کے حملے والا پیراگراف",
+      "severity": "major",
+      "source_quote": "jumping in at her and nipping at her feet and legs!",
+      "suggested_fix": "متعلقہ عبارت کو یوں درست کریں: «اُس پر جھپٹ رہا تھا اور اُس کے پاؤں اور ٹانگوں کو کاٹنے کی کوشش کر رہا تھا!»",
+      "translation_quote": "اُس کے پاؤں اور ٹانگوں پر جھپٹ رہا اور چومنے کی کوشش کر رہا تھا!"
+    },
+    {
+      "location": "translation.html، ماں کے چینی لانے بھیجنے والا پیراگراف",
+      "severity": "major",
+      "source_quote": "reminded us not to loiter along the way",
+      "suggested_fix": "«راستے میں ہاتھ بٹانے یا وقت ضائع نہ کرنے» کی جگہ «راستے میں وقت ضائع نہ کرنے» لکھیں۔ اصل متن میں کسی کی مدد کرنے سے منع نہیں کیا گیا۔",
+      "translation_quote": "راستے میں ہاتھ بٹانے یا وقت ضائع نہ کرنے کی نصیحت کرتی رہی"
+    },
+    {
+      "location": "translation.html، بہنوں کے روانہ ہونے اور رائن کے گھر کے قریب پہنچنے والا پیراگراف",
+      "severity": "minor",
+      "source_quote": "as we passed through the gully, over the rippling creek",
+      "suggested_fix": "«جب ہم گلی سے گزرے، لہراتی ندی کے اوپر سے» کو «جب ہم نشیبی کھائی سے گزرے اور لہریں مارتی ندی پار کی» سے بدلیں۔",
+      "translation_quote": "جب ہم گلی سے گزرے، لہراتی ندی کے اوپر سے"
+    },
+    {
+      "location": "translation.html، ماں کے چینی لانے بھیجنے والا پیراگراف",
+      "severity": "minor",
+      "source_quote": "mother gave us a container",
+      "suggested_fix": "«ایک ڈھکن دار برتن» کی جگہ «ایک برتن» لکھیں؛ اصل میں ڈھکن کا ذکر نہیں۔",
+      "translation_quote": "ماں نے ہمیں ایک ڈھکن دار برتن دیا"
+    },
+    {
+      "location": "translation.html، روانگی، حملے اور آخری پیراگراف میں قواعد اور محاورہ",
+      "severity": "minor",
+      "source_quote": "I thought gratefully; raced toward us; hard packed gravel; where he belonged; as Lori and I stood there, trembling; Lori and I were not injured; I like to think",
+      "suggested_fix": "بالترتیب «میں نے شکرگزاری کے ساتھ سوچا»، «ہماری جانب دوڑا»، «سخت جمی ہوئی بجری»، «جہاں اسے رکھا جاتا تھا»، «اور لوری اور میں وہاں کھڑی کانپ رہی تھیں»، «لوری اور میں زخمی نہیں ہوئیں» اور «میں یہ سوچنا پسند کرتی ہوں» لکھیں۔",
+      "translation_quote": "میں شکرگزاری کے ساتھ سوچا؛ ہمارے جانب دوڑا؛ سخت بھری ہوئی بجری؛ جہاں وہ تعلق رکھتا تھا؛ اور لوری اور میں وہاں کھڑے رہ کر کانپ رہے تھے؛ لوری اور میں زخمی نہیں ہوئے؛ مجھے پسند ہے سوچنا"
+    },
+    {
+      "location": "translation.title",
+      "severity": "minor",
+      "source_quote": "Saved From the “Lion’s” Mouth",
+      "suggested_fix": "عنوان «“شیر” کے منہ سے نجات» کریں تاکہ علامتی شیر پر واوین رہیں، نہ کہ منہ پر، اور «شیر» کا املا درست ہو۔",
+      "translation_quote": "شیّر کے “منہ” سے نجات"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
