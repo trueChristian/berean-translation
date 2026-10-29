@@ -31976,6 +31976,34 @@
     {
       "ai_notice_required": true,
       "direction": "rtl",
+      "html": "content/heb/articles/aa8352a7-2d4a-49db-9454-7a0350ad3118.html",
+      "html_sha256": "6746bdedf59fdc87bc92925384e7a942343c80246d51c23fef7250edf55ae9a1",
+      "human_reviewed": false,
+      "id": "aa8352a7-2d4a-49db-9454-7a0350ad3118",
+      "images": [
+        {
+          "alt": "אדם בודד עם ברדס ותרמיל גב יושב מעל נוף ערפילי",
+          "public_path": "/images/articles/aa8352a7-2d4a-49db-9454-7a0350ad3118-1.jpg"
+        }
+      ],
+      "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
+      "language": "heb",
+      "language_tag": "he",
+      "metadata": "content/heb/articles/aa8352a7-2d4a-49db-9454-7a0350ad3118.json",
+      "metadata_sha256": "08c4997374d0bfb546163c5d194c670a2634ff7a9d7a06d446a05f265a683d96",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "מילה מרופא",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "ac1550aa6190c351e44ee2dfa7e315442d61cbcd47e9044576f72bbc92b99432",
+      "status": "ready",
+      "subtitle": null,
+      "title": "בידוד",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
       "html": "content/heb/articles/ab1fe2c9-0a16-4e79-a53e-4c2d703b0e46.html",
       "html_sha256": "72835fb3b22303b449da4bc10578d85a376ce9daa01d926d3b1f60900154726e",
       "human_reviewed": false,
@@ -36683,6 +36711,34 @@
       "subtitle": null,
       "title": "उठो, आनन्दित हो!",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/hin/articles/f09d8cd5-b48f-470f-936f-263e6940b6bd.html",
+      "html_sha256": "a34c3cafe08f9225a76bba03d126c8d590ad1bfcad259b38ada7dee555972266",
+      "human_reviewed": false,
+      "id": "f09d8cd5-b48f-470f-936f-263e6940b6bd",
+      "images": [
+        {
+          "alt": "यीशु के नाम के सामर्थ्य की जय-जयकार करो की स्वरलिपि, धुन DIADEM C. M., टेक सहित",
+          "public_path": "/images/articles/f09d8cd5-b48f-470f-936f-263e6940b6bd-1.png"
+        }
+      ],
+      "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
+      "language": "hin",
+      "language_tag": "hi",
+      "metadata": "content/hin/articles/f09d8cd5-b48f-470f-936f-263e6940b6bd.json",
+      "metadata_sha256": "2352cdbdaa3acb059d270fd466e6fb3b294ba4bcc4c15ae2a4db90d7840b4859",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "एक भजन का इतिहास",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "47590defb50af0ad3c498d9cc77626f00551d9639dd8391778097cb5eb70f00a",
+      "status": "ready",
+      "subtitle": null,
+      "title": "यीशु के नाम के सामर्थ्य की जय-जयकार करो",
+      "translation_model": "gpt-6.1-sol"
     },
     {
       "ai_notice_required": true,
@@ -50446,6 +50502,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/kor/articles/f09d8cd5-b48f-470f-936f-263e6940b6bd.html",
+      "html_sha256": "2c87335f4bdb199172e2158a0f7deec0d95bfddab7e8f78fc90926a7b7e8e96f",
+      "human_reviewed": false,
+      "id": "f09d8cd5-b48f-470f-936f-263e6940b6bd",
+      "images": [
+        {
+          "alt": "예수 이름의 권세를 찬양하라 악보, 후렴이 있는 DIADEM C. M. 선율",
+          "public_path": "/images/articles/f09d8cd5-b48f-470f-936f-263e6940b6bd-1.png"
+        }
+      ],
+      "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
+      "language": "kor",
+      "language_tag": "ko",
+      "metadata": "content/kor/articles/f09d8cd5-b48f-470f-936f-263e6940b6bd.json",
+      "metadata_sha256": "d0685fa2813415f914eceb5de338fc45f9be0a97752f06d1e761a54ec08e5454",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "찬송가 이야기",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "47590defb50af0ad3c498d9cc77626f00551d9639dd8391778097cb5eb70f00a",
+      "status": "ready",
+      "subtitle": null,
+      "title": "예수 이름의 권세를 찬양하라",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/kor/articles/f21c4f39-9508-4f75-9e0c-0c68468c41f8.html",
       "html_sha256": "cac0e607601502d0593bf5aa593c82ffc48c0eff39e14cfa78a337f7a57a06bb",
       "human_reviewed": false,
@@ -57949,6 +58033,34 @@
       "subtitle": null,
       "title": "Guds by",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/nob/articles/903e4b58-b246-4ee3-85e7-eecf158a7a75.html",
+      "html_sha256": "a441df2c438025303b8f3e3fb5b758dbdeaca37602599e58aa4f1cda2bc50913",
+      "human_reviewed": false,
+      "id": "903e4b58-b246-4ee3-85e7-eecf158a7a75",
+      "images": [
+        {
+          "alt": "Voksen holder hånden til et lite barn som går utendørs",
+          "public_path": "/images/articles/903e4b58-b246-4ee3-85e7-eecf158a7a75-1.jpg"
+        }
+      ],
+      "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
+      "language": "nob",
+      "language_tag": "nb",
+      "metadata": "content/nob/articles/903e4b58-b246-4ee3-85e7-eecf158a7a75.json",
+      "metadata_sha256": "3d3567ef3d9887e01b713b8342b59b2a514e5d7c87dfc463f91748e286d0b52c",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "Søster til søster",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "bc655ca0e757a92869b0811d5a6de87a4ca48f1e4eef1923cd7135609b8dc379",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Et gledelig kall",
+      "translation_model": "gpt-6.1-sol"
     },
     {
       "ai_notice_required": true,
