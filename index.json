@@ -12082,6 +12082,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ben/articles/b8ff6643-9234-465f-ab06-4adfc189a851.html",
+      "html_sha256": "753f7a4528638c2cba8e5030d677ac4da025d46d6666314477d09c88d84e4753",
+      "human_reviewed": false,
+      "id": "b8ff6643-9234-465f-ab06-4adfc189a851",
+      "images": [
+        {
+          "alt": "অস্পষ্ট সবুজ পাহাড়ের পটভূমিতে ছোট বেগুনি ফুল",
+          "public_path": "/images/articles/b8ff6643-9234-465f-ab06-4adfc189a851-1.jpg"
+        }
+      ],
+      "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
+      "language": "ben",
+      "language_tag": "bn",
+      "metadata": "content/ben/articles/b8ff6643-9234-465f-ab06-4adfc189a851.json",
+      "metadata_sha256": "34c6e0fc1f72fd42d49aae16f4e766f598aa6cbc10925b4d78abc7df1a0bdc21",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "সম্পাদকের কাছ থেকে",
+      "source_revision": "a4c140808d10570088100bf72903af6bfe80b24b",
+      "source_translation_key": "e0622a8bb1c0f31a62af348bbcdf1a1da1d53e0d8f3f815cb4fd5567f07e197c",
+      "status": "ready",
+      "subtitle": null,
+      "title": "সম্পাদকের কাছ থেকে",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ben/articles/ba15e3da-aab4-401c-9ec7-64b88ac22833.html",
       "html_sha256": "c8ab70ec7a85ef302ff8828aab40b25b7c6fc211c7f1c3ca94d81fcd7125cd20",
       "human_reviewed": false,
@@ -13203,6 +13231,62 @@
       "subtitle": null,
       "title": "只在黑暗之中",
       "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/cmn/articles/0c677d9e-ce73-4b27-a03f-d5457f7f1072.html",
+      "html_sha256": "b590ffaccd6e684bfbf055e834caf2f4364e67952ec4f4798e3d4d8d3413cbad",
+      "human_reviewed": false,
+      "id": "0c677d9e-ce73-4b27-a03f-d5457f7f1072",
+      "images": [
+        {
+          "alt": "一个人伸手穿过监狱栏杆，下方写着“使我们脱离奴役”",
+          "public_path": "/images/articles/0c677d9e-ce73-4b27-a03f-d5457f7f1072-1.jpg"
+        },
+        {
+          "alt": "一名囚犯站在栏杆后，身旁有一位天使",
+          "public_path": "/images/articles/0c677d9e-ce73-4b27-a03f-d5457f7f1072-2.jpg"
+        },
+        {
+          "alt": "妇女和儿童聚集在一间空荡的房间里",
+          "public_path": "/images/articles/0c677d9e-ce73-4b27-a03f-d5457f7f1072-3.jpg"
+        },
+        {
+          "alt": "一名看守走在身穿条纹衣服的囚犯前面",
+          "public_path": "/images/articles/0c677d9e-ce73-4b27-a03f-d5457f7f1072-4.jpg"
+        },
+        {
+          "alt": "一长排囚犯站在建筑物外",
+          "public_path": "/images/articles/0c677d9e-ce73-4b27-a03f-d5457f7f1072-5.jpg"
+        },
+        {
+          "alt": "人们分散在城市广场上",
+          "public_path": "/images/articles/0c677d9e-ce73-4b27-a03f-d5457f7f1072-6.jpg"
+        },
+        {
+          "alt": "一名女子在监狱牢房里为坐着的人朗读",
+          "public_path": "/images/articles/0c677d9e-ce73-4b27-a03f-d5457f7f1072-7.jpg"
+        },
+        {
+          "alt": "一幅版画，画着一只侧躺的瓶子",
+          "public_path": "/images/articles/0c677d9e-ce73-4b27-a03f-d5457f7f1072-8.jpg"
+        }
+      ],
+      "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
+      "language": "cmn",
+      "language_tag": "zh-Hans",
+      "metadata": "content/cmn/articles/0c677d9e-ce73-4b27-a03f-d5457f7f1072.json",
+      "metadata_sha256": "25fa5c57c5a9ebeed577ef43a7d4cbdd4c4874eed5078a2202c83a86532c1381",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": null,
+      "source_revision": "ed75201a8e3b37913a14f4d949de33a7a0daa2c2",
+      "source_translation_key": "385aeb5b4a7bcbf512c0d5b8310c2fd8f5f85b86d43d077caf80670ee93c6738",
+      "status": "ready",
+      "subtitle": "监狱天使",
+      "title": "玛蒂尔德·韦雷",
+      "translation_model": "gpt-6.1-sol"
     },
     {
       "ai_notice_required": true,
@@ -31309,6 +31393,34 @@
       "subtitle": null,
       "title": "אנחנו נוצרים בעלי תפיסה עולמית",
       "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
+      "html": "content/heb/articles/713c3d95-5295-421e-9ca7-3cd2cc1643d9.html",
+      "html_sha256": "34ab6f8f2f48843e517e0eb7a739f5aafb58c68ad40d92c5dbffd873ebcf3c58",
+      "human_reviewed": false,
+      "id": "713c3d95-5295-421e-9ca7-3cd2cc1643d9",
+      "images": [
+        {
+          "alt": "עץ ירוק־עד לצד אגם, ולצדו שיחים ומדרון הר מכוסה שלג.",
+          "public_path": "/images/articles/713c3d95-5295-421e-9ca7-3cd2cc1643d9-1.jpg"
+        }
+      ],
+      "issue_id": "07955de4-6574-4a4b-9c1b-f216374c02ee",
+      "language": "heb",
+      "language_tag": "he",
+      "metadata": "content/heb/articles/713c3d95-5295-421e-9ca7-3cd2cc1643d9.json",
+      "metadata_sha256": "fa185a6a431d8e11f90408f9c0c01dac235da8fd915594f6fa1e723bf9c5bad2",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": null,
+      "source_revision": "35e83d5cefdae79c4c465124635153dcb66c0efe",
+      "source_translation_key": "9704c8a9ddf18fd2d3f3459b678185578331584dcb4b99104a040be948b131c6",
+      "status": "ready",
+      "subtitle": null,
+      "title": "סמכות",
+      "translation_model": "gpt-6.1-sol"
     },
     {
       "ai_notice_required": true,
@@ -57295,6 +57407,29 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/nob/articles/51e3c3a2-bccc-462c-9ae7-8f232752fbc0.html",
+      "html_sha256": "75272347b03da4c0d0103541d51e8b8683f1dc84bf5656b2b257c4cb40739ad9",
+      "human_reviewed": false,
+      "id": "51e3c3a2-bccc-462c-9ae7-8f232752fbc0",
+      "images": [],
+      "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
+      "language": "nob",
+      "language_tag": "nb",
+      "metadata": "content/nob/articles/51e3c3a2-bccc-462c-9ae7-8f232752fbc0.json",
+      "metadata_sha256": "bf64b784cf491ab7be5438bf9975695abe9a53003c6e00c018aecdbb67286228",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "Refleksjoner fra en misjonær",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "c2cade59cf352799776fd92a600c879eb44ca1d1a7d3f31107b23708781aed47",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Hvis du elsker livet ditt…",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/nob/articles/52074824-2feb-4fe4-96d0-a08ec72c3565.html",
       "html_sha256": "6a8521e91e2f10d9efc433fec319a9778da0897203a316ea3312b11ea94bfe15",
       "human_reviewed": false,
@@ -57819,6 +57954,34 @@
       "subtitle": null,
       "title": "Paktens styrke",
       "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/nob/articles/713c3d95-5295-421e-9ca7-3cd2cc1643d9.html",
+      "html_sha256": "2739e94526e28bc2cc1acc284223b5c30959d73622568d59414bca1d9693da96",
+      "human_reviewed": false,
+      "id": "713c3d95-5295-421e-9ca7-3cd2cc1643d9",
+      "images": [
+        {
+          "alt": "Et eviggrønt tre ved en innsjø, med busker og en snødekt fjellside.",
+          "public_path": "/images/articles/713c3d95-5295-421e-9ca7-3cd2cc1643d9-1.jpg"
+        }
+      ],
+      "issue_id": "07955de4-6574-4a4b-9c1b-f216374c02ee",
+      "language": "nob",
+      "language_tag": "nb",
+      "metadata": "content/nob/articles/713c3d95-5295-421e-9ca7-3cd2cc1643d9.json",
+      "metadata_sha256": "d964e255b0783fd539e901e2ee492b1abf459ac504045dd871472841d4b30df7",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": null,
+      "source_revision": "2761f70df5182cbb59be4e55839baeeef1afcf01",
+      "source_translation_key": "9704c8a9ddf18fd2d3f3459b678185578331584dcb4b99104a040be948b131c6",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Myndighet",
+      "translation_model": "gpt-6.1-sol"
     },
     {
       "ai_notice_required": true,
@@ -84077,6 +84240,34 @@
       "subtitle": null,
       "title": "موسیٰ مدیان میں",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
+      "html": "content/urd/articles/5613aef3-79c5-42d4-9695-214e71989c22.html",
+      "html_sha256": "2e91efb5f5f87c776117d9715c905004235670768665b49d883b1a582b27a2de",
+      "human_reviewed": false,
+      "id": "5613aef3-79c5-42d4-9695-214e71989c22",
+      "images": [
+        {
+          "alt": "دیہی ڈاک کا ڈبہ، جس کے پاس سے گزرتی سڑک سبز کھیتوں کے درمیان سے کھیتوں کی عمارتوں کی طرف جاتی ہے",
+          "public_path": "/images/articles/5613aef3-79c5-42d4-9695-214e71989c22-1.jpg"
+        }
+      ],
+      "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
+      "language": "urd",
+      "language_tag": "ur",
+      "metadata": "content/urd/articles/5613aef3-79c5-42d4-9695-214e71989c22.json",
+      "metadata_sha256": "b9ffdedb8964a76be5f15eeef237609a9083d40f762910e11e93c8603eb1193c",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "بچوں کا گوشہ",
+      "source_revision": "a4c140808d10570088100bf72903af6bfe80b24b",
+      "source_translation_key": "25a342e69db1f9564c4d013f3cc21b323e97a520b0f7ad9ab9787a58881371f3",
+      "status": "ready",
+      "subtitle": null,
+      "title": "بھولا ہوا ڈاک ٹکٹ",
+      "translation_model": "gpt-6-luna"
     },
     {
       "ai_notice_required": true,
