@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-29T14:11:44+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"translation.title; html paragraphs 1, 3, 4, and 7\",\n      \"severity\": \"major\",\n      \"source_quote\": \"Why I Have Not Gotten the Covid Shot; I don’t call the Covid shot a ‘vaccine’; it is better to call it a flu shot\",\n      \"suggested_fix\": \"استخدم «حقنة كوفيد» بدلًا من «لقاح كوفيد» في العنوان والفقرات 1 و3 و7، واجعل العبارة في الفقرة 3: «أنني لا أسمي حقنة كوفيد «لقاحًا»». وفي ختام الفقرة 4 استخدم «حقنة إنفلونزا». احذف الإضافة «بالمعنى المتداول» لأنها غير موجودة في الأصل.\",\n      \"translation_quote\": \"لماذا لم أتلقَّ لقاح كوفيد؛ لا أسمي لقاح كوفيد مصطلح «لقاح» بالمعنى المتداول؛ من الأفضل تسميتها بلقاح إنفلونزا\"\n    },\n    {\n      \"location\": \"html paragraph 5\",\n      \"severity\": \"major\",\n      \"source_quote\": \"The manufacturer did keep telling us to spray maximum rates\",\n      \"suggested_fix\": \"استبدل «أن نرشف المعدلات القصوى» بـ«أن نرشّ المبيد بأقصى معدلات الاستخدام».\",\n      \"translation_quote\": \"كان المُصَنِّع يصر علينا أن نرشف المعدلات القصوى\"\n    },\n    {\n      \"location\": \"html paragraph 6\",\n      \"severity\": \"major\",\n      \"source_quote\": \"an easy way to keep out the weeds\",\n      \"suggested_fix\": \"استبدل «طريقة سهلة لإبقاء الأعشاب الضارة» بـ«طريقة سهلة لمنع نمو الأعشاب الضارة».\",\n      \"translation_quote\": \"طريقة سهلة لإبقاء الأعشاب الضارة\"\n    },\n    {\n      \"location\": \"html paragraph 12\",\n      \"severity\": \"major\",\n      \"source_quote\": \"this passage is to be spiritualized\",\n      \"suggested_fix\": \"استبدل «هذه الفقرة يجب أن تُروّح روحيًا» بـ«هذا المقطع ينبغي تأويله تأويلًا روحيًا».\",\n      \"translation_quote\": \"هذه الفقرة يجب أن تُروّح روحيًا\"\n    },\n    {\n      \"location\": \"html paragraph 13\",\n      \"severity\": \"major\",\n      \"source_quote\": \"it makes good sense, it defies science not to\",\n      \"suggested_fix\": \"استبدل «منطقية، ومن شأن العلم ألا ينكرها» بـ«فتلقّيها أمر منطقي، وعدم تلقّيها يتعارض مع العلم».\",\n      \"translation_quote\": \"منطقية، ومن شأن العلم ألا ينكرها\"\n    },\n    {\n      \"location\": \"html paragraph 14, quotation of 2 Corinthians 6:17\",\n      \"severity\": \"major\",\n      \"source_quote\": \"<em>Wherefore <strong>come out from among them, and be ye separate</strong>, saith the Lord, and touch not the unclean thing; and I will receive you –2 Corinthians 6:17.</em>\",\n      \"suggested_fix\": \"صحّح «تفرّقوا» إلى «كونوا منفصلين»، وأعد نطاق الاقتباس والتوكيد كما في الأصل: <em>لذلك <strong>اخرجوا من بينهم، وكونوا منفصلين</strong>، يقول الرب، ولا تمسّوا النجس؛ وأنا أقبلكم –2 كورنثوس 6:17.</em>\",\n      \"translation_quote\": \"<em>«فَاخْرُجُوا مِنْ بَيْنِهِمْ، وَتَفَرَّقُوا»</em>، هكذا يقول الرب، «وَلاَ تَمَسُّوا نَجِسًا، فَأَنَا أَقْبَلُكُمْ» –2 كورنثوس 6:17.\"\n    },\n    {\n      \"location\": \"html paragraph 15, quotation of Revelation 12:11\",\n      \"severity\": \"major\",\n      \"source_quote\": \"And they overcame him by the blood of the Lamb\",\n      \"suggested_fix\": \"استبدل «بِدَمِ حَمَلِهَا» بـ«بِدَمِ الْحَمَلِ» للحفاظ على الإشارة إلى المسيح.\",\n      \"translation_quote\": \"وَغَلَبُوهُ بِدَمِ حَمَلِهَا\"\n    },\n    {\n      \"location\": \"html paragraph 5\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"It seemed too good to be true to be able to spray glyphosate\",\n      \"suggested_fix\": \"استبدل بداية الجملة بـ«بدا أن القدرة على رش الغليفوسات (راوند أب) على المحصول بأكمله للقضاء على جميع الأعشاب الضارة دون الإضرار بالمحصول أمر أروع من أن يُصدَّق».\",\n      \"translation_quote\": \"بدا أن بإمكان المرء رش الغليفوسات\"\n    },\n    {\n      \"location\": \"html paragraphs 5–6\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"‘pigweeds’; ‘Palmer amaranth Pigweed’\",\n      \"suggested_fix\": \"استخدم «أعشاب القطيفة» بدلًا من الترجمة الحرفية «أعشاب الخنازير»، و«القطيفة البالمرية» بدلًا من «الدارنة بالمر أمارانث (Pigweed)».\",\n      \"translation_quote\": \"«أعشاب الخنازير»؛ «الدارنة بالمر أمارانث (Pigweed)»\"\n    },\n    {\n      \"location\": \"html paragraphs 3, 8, 10, 11, and 13\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"we were immunized; immunity to that strain; My belief is that; the panic and turmoil; this is not a writing; what the Bible refers to\",\n      \"suggested_fix\": \"صحّح المطابقة والتركيب إلى «كنا مُمنَّعين»، و«مناعة لتلك السلالة»، و«أعتقد أنه على المدى الطويل سيكون…»، و«هذا الهلع والاضطراب»، و«هذه الكتابة ليست…»، و«مما يشير إليه الكتاب المقدس».\",\n      \"translation_quote\": \"كنا مُمنَّعون؛ مناعة لذلك السلالة؛ معتقدي أن على المدى الطويل سيكون؛ هذه الهلع والاضطراب؛ هذا الكتابة ليست؛ مما تشير إليه الكتاب المقدس\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": false,\n  \"score\": 80\n}",
+    "content_bytes": 6123,
+    "content_evidence_truncated": false,
+    "content_sha256": "273228e64f770a31b2f9ae8af7ccbc5ef120bd7a4fb6c52a47a9a21119bc83a8",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1568,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 80,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6317,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 6314
+      },
+      "total_tokens": 7885
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}
