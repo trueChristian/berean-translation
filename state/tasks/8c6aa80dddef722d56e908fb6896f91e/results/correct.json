@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "3ea7e816-6fa6-4a42-802b-3dfcf5c0aa02",
+    "response_id": "chatcmpl-EeRbI5ZoSpnCXJpX4wtTEiHPnRDg1",
+    "usage": {
+      "completion_tokens": 572,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 65,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2175,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1140,
+        "cached_tokens": 1032
+      },
+      "total_tokens": 2747
+    }
+  },
+  "received_at": "2026-10-29T21:10:12+00:00",
+  "result": {
+    "html": "<article data-article-id=\"713c3d95-5295-421e-9ca7-3cd2cc1643d9\">\n  <figure>\n    <img src=\"/images/articles/713c3d95-5295-421e-9ca7-3cd2cc1643d9-1.jpg\" alt=\"Et eviggrønt tre ved en innsjø, med busker og en snødekt fjellside.\">\n  </figure>\n  <p class=\"poem\"><strong><em>Når fjellvegger står i veien.<br>\nHvorfor sitte og gråte? Reis deg og si:<br>\n«Flytt deg», så skal de,<br>\nved Guds kraft, kastes i havet.</em></strong></p>\n  <p class=\"poem\"><strong><em>All makt på jorden, all makt i himmelen<br>\ner gitt til Kristus, Guds Sønn;<br>\nOg fra tronen vil han gi deg kraft,<br>\nog hindringene vil flykte fra deg.</em></strong></p>\n  <p class=\"poem\"><strong><em>Over all djevelens og menneskets makt<br>\nsi gjennom Herren: «Jeg kan så visst»,<br>\nFå kraft fra ham til her på jorden å trå<br>\npå slangens brodd, på dragens hode.</em></strong></p>\n  <p class=\"poem\"><strong><em>Hva du enn er, høye fjell,<br>\nhvor du enn er, på jord eller i himmel,<br>\nnår du enn er, er sannheten den samme:<br>\n«Flytt deg i Jesu navn.»</em></strong></p>\n  <p class=\"poem\"><strong><em>«Flytt deg», byr troen deg å dra av sted.<br>\nFor se der borte—reis deg! Dra av sted!<br>\nJeg får, jeg kan, jeg må, jeg vil<br>\nfullføre min Guds hensikt.</em></strong></p>\n</article>\n",
+    "section": null,
+    "subtitle": null,
+    "title": "Myndighet"
+  }
+}
