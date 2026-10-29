@@ -1,0 +1,80 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "f64c166e-79e3-47b0-b9a4-c9a2dc5d61a5",
+    "response_id": "chatcmpl-EeJySwwKwNoFLCKIRFiiWgU0Sx5vL",
+    "usage": {
+      "completion_tokens": 944,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 66,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6884,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5781,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 7828
+    }
+  },
+  "received_at": "2026-10-29T14:12:24+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, citaat uit 2 Timoteüs 4:9-11",
+        "severity": "major",
+        "source_quote": "Do thy diligence to come shortly unto me",
+        "suggested_fix": "Vervang „Spaar niet en kom gauw tot mij” door „Doe je best om spoedig bij mij te komen”.",
+        "translation_quote": "Spaar niet en kom gauw tot mij"
+      },
+      {
+        "location": "HTML, citaten uit Genesis 2:18-20 en 1 Koningen 19:10",
+        "severity": "minor",
+        "source_quote": "I will make him an help meet for him … to the fowl of the air; I have been very jealous for the LORD",
+        "suggested_fix": "Gebruik respectievelijk „Ik zal een passende helper voor hem maken”, „aan het gevogelte van de hemel” en „Ik heb mij zeer ingezet voor de HEERE”. Behoud de bestaande em-tags en verwijzingen.",
+        "translation_quote": "Ik zal hem een geschikte helper (metgezel) voor hem maken … aan de gevogelte des hemels; Ik heb zeer ijverig geweest voor de HEERE"
+      },
+      {
+        "location": "HTML, tweede alinea",
+        "severity": "minor",
+        "source_quote": "a place where they could settle down and call home",
+        "suggested_fix": "Vervang door „een plek waar ze zich konden vestigen en die ze hun thuis konden noemen”.",
+        "translation_quote": "een plek waar ze zich konden vestigen en die thuis noemen"
+      },
+      {
+        "location": "HTML, alinea direct na Hebreeën 10:25",
+        "severity": "minor",
+        "source_quote": "they are missing out",
+        "suggested_fix": "Vervang „dan ontbreken zij iets essentieels” door „dan missen zij iets essentieels”.",
+        "translation_quote": "dan ontbreken zij iets essentieels"
+      },
+      {
+        "location": "HTML, alinea over actief worden in een kerkelijke gemeente",
+        "severity": "minor",
+        "source_quote": "Having brothers and sisters to pray for someone who is struggling, to listen to the discouraging situations, and to encourage that person to a more vibrant walk with God is really helpful.",
+        "suggested_fix": "Vervang deze zin door „Het helpt echt als er broeders en zusters zijn die bidden voor iemand die het moeilijk heeft, luisteren naar wat die persoon ontmoedigt en hem of haar aanmoedigen tot een levendiger wandel met God.”",
+        "translation_quote": "Broeders en zusters hebben voor iemand die worstelt te bidden, naar ontmoedigende situaties te luisteren en die persoon aan te moedigen tot een levendiger wandel met God is werkelijk behulpzaam."
+      },
+      {
+        "location": "HTML, alinea over de eerste gevaarlijke situatie",
+        "severity": "minor",
+        "source_quote": "many of the “one-anothering” Bible passages",
+        "suggested_fix": "Vervang „veel van de \"een-ander\"-passages” door „veel Bijbelteksten over hoe we met elkaar moeten omgaan”.",
+        "translation_quote": "veel van de \"een-ander\"-passages"
+      },
+      {
+        "location": "HTML, img-alt",
+        "severity": "minor",
+        "source_quote": "Solitary hooded person with a backpack seated above a misty landscape",
+        "suggested_fix": "Vervang de alt-tekst door „Alleen zittende persoon met een capuchon en een rugzak boven een mistig landschap”. Behoud alle overige afbeeldingsattributen.",
+        "translation_quote": "Eenzaam gehulde persoon met een rugzak zittend boven een mistig landschap"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 92
+  }
+}
