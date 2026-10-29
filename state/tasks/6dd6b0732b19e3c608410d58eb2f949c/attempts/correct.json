@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-29T21:10:09+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"713c3d95-5295-421e-9ca7-3cd2cc1643d9\\\">\\n  <figure>\\n    <img src=\\\"/images/articles/713c3d95-5295-421e-9ca7-3cd2cc1643d9-1.jpg\\\" alt=\\\"עץ ירוק־עד לצד אגם, ולצדו שיחים ומדרון הר מכוסה שלג.\\\">\\n  </figure>\\n  <p class=\\\"poem\\\"><strong><em>כשחומות הרים ניצבות בדרכך,<br>\\nלמה תשב ותבכה? קום ואמור:<br>\\n״היעקר ממקומך״, והן ייזרקו<br>\\nאל הים בכוחו של אלוהים.</em></strong></p>\\n  <p class=\\\"poem\\\"><strong><em>כל הכוח עלי אדמות, כל הכוח בשמים,<br>\\nניתן למשיח, בן האלוהים;<br>\\nומן הכס יעניק לך כוח,<br>\\nוהמכשולים ייעלמו מדרכך.</em></strong></p>\\n  <p class=\\\"poem\\\"><strong><em>מעל לכל כוחם של השד והאדם,<br>\\nאמור באמצעות האדון: ״אני בוודאי יכול״.<br>\\nקבל ממנו כוח לדרוך בארץ,<br>\\nעל עוקץ הנחש ועל ראש הדרקון.</em></strong></p>\\n  <p class=\\\"poem\\\"><strong><em>לא משנה מה אתה, הר גבוה,<br>\\nבכל מקום שבו אתה, בארץ או בשמים,<br>\\nבכל זמן שבו אתה, האמת אחת היא:<br>\\n״היעקר ממקומך בשם ישוע״.</em></strong></p>\\n  <p class=\\\"poem\\\"><strong><em>״היעקר ממקומך״ — האמונה מצווה עליך לזוז,<br>\\nהבט לשם — קום! לך מכאן!<br>\\nאני רשאי, אני יכול, אני חייב, ואני אגשים<br>\\nאת תכליתו של אלוהיי.</em></strong></p>\\n</article>\\n\",\"section\":null,\"subtitle\":null,\"title\":\"סמכות\"}",
+    "content_bytes": 1680,
+    "content_evidence_truncated": false,
+    "content_sha256": "7bb3e0118de35c7ccdb84bb72228fff05e37770b465b04d89ec52ed4e739f2f2",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 669,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 148,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2195,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1160,
+        "cached_tokens": 1032
+      },
+      "total_tokens": 2864
+    }
+  },
+  "review_attempts": 0,
+  "stage": "correct",
+  "translation_attempts": 1
+}
