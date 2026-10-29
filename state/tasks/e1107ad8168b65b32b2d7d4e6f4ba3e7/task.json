@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "88d1b75713ec47c6a9345ce5ff90490f",
   "campaign": "auto-aec2ab01f7fd1824c07b789ad732c4077a6f1b36f45d5d887fc3160f27148b97",
   "created_at": "2026-10-29T19:46:38+00:00",
   "events": [
@@ -28,39 +27,31 @@
         },
         "total_tokens": 5236
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 77,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 45,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3547,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 2444,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 3624
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "Paragraph 2",
-      "severity": "major",
-      "source_quote": "“our unquenchable desire, is to take God’s love to them.”",
-      "suggested_fix": "“Shauku yetu maishani, tamaa yetu isiyozimika, ni kuwapelekea upendo wa Mungu.”",
-      "translation_quote": "“Shauku yetu maishani, tamaa yetu isiyozimika, ni kuwafikishia upendo wa Mungu.”"
-    },
-    {
-      "location": "Paragraph 4",
-      "severity": "major",
-      "source_quote": "“following Him means absolute death to ourselves.”",
-      "suggested_fix": "“Tunaelewa kwamba kumfuata kunamaanisha kujikana kabisa na kujitoa mhanga.”",
-      "translation_quote": "“Tunaelewa kwamba kumfuata kunamaanisha kujikana kabisa hadi kufa.”"
-    },
-    {
-      "location": "Paragraph 7",
-      "severity": "major",
-      "source_quote": "“seminaries and Bible Schools that pump out thinkers who have no action”",
-      "suggested_fix": "“seminari na shule za Biblia zinazozalisha wanafikra wasiotenda”",
-      "translation_quote": "“seminari na shule za Biblia zinazozalisha wanafikra wasioweka imani katika matendo”"
-    },
-    {
-      "location": "Paragraph 16",
-      "severity": "major",
-      "source_quote": "“We don’t ask for reasons—we ask for responsibility.”",
-      "suggested_fix": "“Hatuulizi sababu—tunaomba tuwajibishwe.”",
-      "translation_quote": "“Hatuulizi sababu—tunaomba majukumu.”"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-29T20:28:27+00:00",
   "id": "e1107ad8168b65b32b2d7d4e6f4ba3e7",
   "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
   "language": "swa",
@@ -149,9 +140,11 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/cba6bde5110f63b8fa7bd8d8c850d25284d11b7b8dcae7e7d0358147d088d417.json",
   "stage": "review2",
   "stage_budget": {
@@ -165,7 +158,7 @@
     "total_reserved_usd": 0.548086,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "777174504c2a69b7865dc06d6a82e4887ccbbba320896ef87aad1241b41a3dbe",
   "translation_model_actual": "gpt-6.1-sol"
