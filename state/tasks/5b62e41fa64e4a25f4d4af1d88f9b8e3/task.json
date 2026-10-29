@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "f4e8acf7ffc54323bc05f88e4ca7a4c5",
   "campaign": "auto-4475362b3452a2d0371dbd58023c33dc37bf0e88b709e84f1d7e155f9cef703c",
   "created_at": "2026-10-29T12:29:18+00:00",
   "events": [
@@ -48,25 +47,31 @@
         },
         "total_tokens": 11706
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 58,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 26,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7938,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 0,
+          "cached_tokens": 7935
+        },
+        "total_tokens": 7996
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "translation.html, avsnittet med Salme 78:29-31",
-      "severity": "major",
-      "source_quote": "They were not estranged from their lust.",
-      "suggested_fix": "Erstatt «De ble ikke skuffet i sitt begjær» med «De hadde ennå ikke vendt seg bort fra sitt begjær».",
-      "translation_quote": "De ble ikke skuffet i sitt begjær."
-    },
-    {
-      "location": "translation.html, slutten av sitatet fra Salme 78:29-31",
-      "severity": "major",
-      "source_quote": "and smote down the chosen men of Israel",
-      "suggested_fix": "Erstatt «og slo Israels unge menn i hjel» med «og slo Israels utvalgte menn i hjel».",
-      "translation_quote": "og slo Israels unge menn i hjel"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-29T18:41:38+00:00",
   "id": "5b62e41fa64e4a25f4d4af1d88f9b8e3",
   "issue_id": "1933c1f0-be1f-561a-b470-79a5ced64c04",
   "language": "nob",
@@ -155,7 +160,7 @@
     }
   },
   "protected": false,
-  "quality_score": 94,
+  "quality_score": 99,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6.1-sol",
@@ -174,7 +179,7 @@
     "total_reserved_usd": 0.746989,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "edc5d2d663c19be2cb124ae52e26f6267714a265b8d47257698c5fa0843e0c53",
   "translation_model_actual": "gpt-6.1-sol"
