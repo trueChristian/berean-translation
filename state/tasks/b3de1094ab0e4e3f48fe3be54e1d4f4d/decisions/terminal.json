@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "translation.html, 첫 번째 p.drop-cap",
+      "severity": "minor",
+      "source_quote": "The Cat in the Hat",
+      "suggested_fix": "책 제목을 <em>《모자 쓴 고양이》</em>로 수정하십시오.",
+      "translation_quote": "<em>《모자 속의 고양이》</em>"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "dd5c976e-20a7-46f7-89b6-8f7d7133463e",
+    "response_id": "chatcmpl-EeQtkOVaBx6VEcAEMDOvkuBgrYfFg",
+    "usage": {
+      "completion_tokens": 143,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 41,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4293,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3190,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 4436
+    }
+  },
+  "received_at": "2026-10-29T20:27:59+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "translation.html, 첫 번째 p.drop-cap",
+        "severity": "minor",
+        "source_quote": "The Cat in the Hat",
+        "suggested_fix": "책 제목을 <em>《모자 쓴 고양이》</em>로 수정하십시오.",
+        "translation_quote": "<em>《모자 속의 고양이》</em>"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}
