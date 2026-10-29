@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "e6abadbb8c974d8db1c563aa8a3ceb79",
   "campaign": "auto-0e432889415031077e39f077da44e88f12dfeef9ae34f2b4b38654aa6fc56247",
   "created_at": "2026-10-29T12:25:44+00:00",
   "events": [
@@ -48,151 +47,31 @@
         },
         "total_tokens": 9693
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 81,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 49,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5212,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 4109,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 5293
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "html, opening paragraph and Ellie's later account of the visit",
-      "severity": "major",
-      "source_quote": "had stopped by for a visit; The other evening when they visited",
-      "suggested_fix": "প্রথম অনুচ্ছেদে লিখুন: “দাদা, দাদী ও লিলি মাসি বেড়াতে এসেছিলেন”। পরের সংলাপে “গত সন্ধ্যায়” বদলে “সেদিন সন্ধ্যায়” লিখুন। দুপুরে আসার সংযোজনটি বাদ দিন।",
-      "translation_quote": "আসার দুপুরবেলার ভিজিটে এসেছিলেন; গত সন্ধ্যায় যখন তারা ভিজিটে এসেছিল"
-    },
-    {
-      "location": "html, paragraph describing the song leaders",
-      "severity": "major",
-      "source_quote": "then leading it for the congregation",
-      "suggested_fix": "প্রতিস্থাপন করুন: “তারপর মণ্ডলীর সমবেত গানে নেতৃত্ব দিতেন।”",
-      "translation_quote": "তারপর সম্মেলনের জন্য সেটি নায়করূপে সামনে নিয়ে গান করেন"
-    },
-    {
-      "location": "html, Ellie's first italicized thought",
-      "severity": "major",
-      "source_quote": "I wish we would sing that song again",
-      "suggested_fix": "প্রথম ভাবনাটি লিখুন: “ইস্‌, আমরা যদি সেই গানটি আবার গাইতাম!” বিদ্যমান <em> ট্যাগ বজায় রাখুন।",
-      "translation_quote": "কখন আর আমরা সেই গানটি গাইবো না"
-    },
-    {
-      "location": "html, paragraph beginning with Ellie's idea to ask Grandpa",
-      "severity": "major",
-      "source_quote": "Then a sudden thought struck her. Why couldn’t she ask Grandpa to choose that song next Sunday?",
-      "suggested_fix": "অনুচ্ছেদটি লিখুন: <p>তখন হঠাৎ তার মাথায় একটি ভাবনা এল। <em>পরের রবিবার সেই গানটি বেছে নিতে সে দাদাকে অনুরোধ করতে পারে না কেন?</em></p>",
-      "translation_quote": "<p><em>\"কেন আমি দাদাকে এখানে অনুরোধ করতে পারি না যে তিনি পরবর্তী রোববারে সেই গানটি বেছে নিন?\"</em></p>"
-    },
-    {
-      "location": "html, Grandpa's response",
-      "severity": "major",
-      "source_quote": "Grandpa smiled down at her.",
-      "suggested_fix": "লিখুন: “দাদা নিচে তার দিকে তাকিয়ে হাসলেন।”",
-      "translation_quote": "দাদা উপরে তাকিয়ে হাসলেন।"
-    },
-    {
-      "location": "html, paragraph about waiting for the following Sunday",
-      "severity": "major",
-      "source_quote": "Ellie could scarcely wait for church the following Sunday.",
-      "suggested_fix": "প্রথম বাক্যটি লিখুন: “পরের রবিবার গির্জায় যাওয়ার জন্য এলি আর অপেক্ষা করতে পারছিল না।”",
-      "translation_quote": "এলি পরের রোববারের গির্জার জন্য অপেক্ষা করতে পারে scarcely।"
-    },
-    {
-      "location": "html, description of the hymn after song number 8 is announced",
-      "severity": "major",
-      "source_quote": "It was a lovely hymn that spoke of Jesus’ care as a Shepherd and a Friend",
-      "suggested_fix": "সংশ্লিষ্ট অংশটি লিখুন: “এটি ছিল একটি সুন্দর স্তবগান, যাতে একজন মেষপালক ও বন্ধু হিসেবে যীশুর যত্নের কথা বলা হয়েছে”।",
-      "translation_quote": "এটি একটি মনোমুগ্ধকর হিম যা যীশুর যত্নকে একটি রক্ষককৃষকের মতো এবং বন্ধু হিসেবে বর্ণনা করে"
-    },
-    {
-      "location": "html, mother's explanation of the grandparents' absence",
-      "severity": "major",
-      "source_quote": "At the last minute they decided to visit elsewhere this morning for church.",
-      "suggested_fix": "লিখুন: “শেষ মুহূর্তে তাঁরা আজ সকালে উপাসনার জন্য অন্য গির্জায় যাওয়ার সিদ্ধান্ত নিয়েছিলেন।”",
-      "translation_quote": "শেষ মুহূর্তে তারা আজ সকালে অন্য কোথাও গিয়ে ভিজিট করার সিদ্ধান্ত নিয়েছিলেন।"
-    },
-    {
-      "location": "html, lyrics, first stanza, first line",
-      "severity": "major",
-      "source_quote": "Savior, like a Shepherd lead us",
-      "suggested_fix": "লাইনটি লিখুন: “ত্রাণকর্তা, মেষপালকের মতো আমাদের পথ দেখাও,” এবং পরের <br> বজায় রাখুন।",
-      "translation_quote": "প্রভু, ভেড়ার রক্ষক সদৃশ আমায় নেতৃত্ব দাও"
-    },
-    {
-      "location": "html, lyrics, repeated refrain in all four stanzas",
-      "severity": "major",
-      "source_quote": "Blessed Jesus! blessed Jesus!",
-      "suggested_fix": "আটটি পঙ্‌ক্তিতেই “ধন্য তোমার যীশু! ধন্য তোমার যীশু!” বদলে “ধন্য যীশু! ধন্য যীশু!” লিখুন।",
-      "translation_quote": "ধন্য তোমার যীশু! ধন্য তোমার যীশু!"
-    },
-    {
-      "location": "html, lyrics, second stanza, first three lines",
-      "severity": "major",
-      "source_quote": "We are Thine, do Thou befriend us, / Be the guardian of our way. / Keep Thy flock, from sin defend us",
-      "suggested_fix": "তিনটি লাইন লিখুন: “আমরা তোমার, তুমি আমাদের বন্ধু হও,<br>আমাদের চলার পথের রক্ষক হও।<br>তোমার মেষপালকে রক্ষা করো, পাপ থেকে আমাদের বাঁচাও,”।",
-      "translation_quote": "আমরা তোমার, তবু তুই বন্ধু হও আমাদের, / আমাদের পথের রক্ষক হউক। / আপনার গোত্র রক্ষা কর"
-    },
-    {
-      "location": "html, lyrics, third stanza, fourth line",
-      "severity": "major",
-      "source_quote": "Grace to cleanse, and pow’r to free",
-      "suggested_fix": "লাইনটি লিখুন: “শুচি করার অনুগ্রহ, আর মুক্ত করার শক্তি:”।",
-      "translation_quote": "পরিত্রাণে ক্ষমা, পবিত্র করতে অনুগ্রহ ও শক্তি"
-    },
-    {
-      "location": "html, lyrics, third-stanza repeated refrain and fourth-stanza opening",
-      "severity": "major",
-      "source_quote": "Early let us turn to Thee. [twice] / Early let us seek Thy favor, / Early let us do Thy will.",
-      "suggested_fix": "তৃতীয় স্তবকের উভয় পুনরাবৃত্তিতে লিখুন “শৈশবেই যেন আমরা তোমার দিকে ফিরি।” চতুর্থ স্তবকের প্রথম দুই লাইনে লিখুন “শৈশবেই যেন আমরা তোমার অনুগ্রহ খুঁজি,<br>শৈশবেই যেন আমরা তোমার ইচ্ছা পালন করি।”",
-      "translation_quote": "প্রভাতেই আমরা তোর দিকে ফিরি। [দুবার] / প্রভাতেই আমরা তোর অনুগ্রহ খুঁজব, / প্রভাতেই আমরা তোর ইচ্ছা পালন করব।"
-    },
-    {
-      "location": "html, lyrics, fourth stanza, fourth line",
-      "severity": "major",
-      "source_quote": "With Thy love our bosoms fill",
-      "suggested_fix": "লিখুন: “তোমার প্রেমে আমাদের হৃদয় ভরাও:”।",
-      "translation_quote": "তোর প্রেমে আমাদের কোল ভরাও"
-    },
-    {
-      "location": "html, narrative throughout, especially opening two paragraphs",
-      "severity": "minor",
-      "source_quote": "she didn’t always understand ... she loved to listen; She thought",
-      "suggested_fix": "শিশু এলির জন্য সর্বত্র “সে/তার” এবং সামঞ্জস্যপূর্ণ ক্রিয়ারূপ ব্যবহার করুন; যেমন “সে সবসময় কথোপকথন বুঝত না, তবে শুনতে ভালোবাসত” ও “সে ভাবত”। দাদা ও অন্য বড়দের সম্মানসূচক রূপ বজায় রাখুন।",
-      "translation_quote": "তিনি সবসময় কথোপকথনটা বুঝত না ... তিনি ভালোবাসতেন; তিনি ভাবত"
-    },
-    {
-      "location": "html, lyrics, divine address throughout",
-      "severity": "minor",
-      "source_quote": "Thy ... Thou ... Thine",
-      "suggested_fix": "সমস্ত স্তবকে সম্বোধন সামঞ্জস্যপূর্ণ করুন: “তোর” ও “আপনার” বদলে “তোমার”, “তুই” বদলে “তুমি” ব্যবহার করুন।",
-      "translation_quote": "তোমার ... তোর ... তুই ... আপনার"
-    },
-    {
-      "location": "html, image alt",
-      "severity": "minor",
-      "source_quote": "Pink cosmos flowers against a softly blurred background",
-      "suggested_fix": "শেষের “ফুলের” বদলে “ফুল” লিখুন।",
-      "translation_quote": "মৃদু ঝাপসা পটভূমির বিপরীতে গোলাপি কসমোস ফুলের"
-    },
-    {
-      "location": "html, description of Ellie's excitement when her favorite number is announced",
-      "severity": "minor",
-      "source_quote": "she always felt a twinge of excitement",
-      "suggested_fix": "লিখুন: “তার মনে সবসময় আনন্দের শিহরণ জাগত।”",
-      "translation_quote": "তিনি সবসময় একটি উত্তেজনার ঝিমুনি অনুভব করতেন"
-    },
-    {
-      "location": "html, final narrative paragraph",
-      "severity": "minor",
-      "source_quote": "Today, Ellie is a grown-up woman ... how God cared about one little, five-year-old girl",
-      "suggested_fix": "“একজন বড় মেয়ে” বদলে “একজন প্রাপ্তবয়স্ক নারী” এবং “এক ছোট পাঁচ বছরের মেয়েটির কথা লেয়েছিলেন” বদলে “একটি ছোট পাঁচ বছরের মেয়ের প্রতি যত্ন নিয়েছিলেন” লিখুন।",
-      "translation_quote": "আজ, এলি একজন বড় মেয়ে ... ঈশ্বর এক ছোট পাঁচ বছরের মেয়েটির কথা লেয়েছিলেন"
-    },
-    {
-      "location": "html, lyrics, first stanza, second through fourth lines",
-      "severity": "minor",
-      "source_quote": "Much we need Thy tender care. / In Thy pleasant pastures feed us, / For our use Thy folds prepare",
-      "suggested_fix": "লাইনগুলি লিখুন: “তোমার কোমল যত্ন আমাদের বড় প্রয়োজন।<br>তোমার মনোরম চারণভূমিতে আমাদের খাওয়াও,<br>আমাদের জন্য তোমার মেষশালা প্রস্তুত করো:”।",
-      "translation_quote": "তোমার কোমল যত্নের আমরা অনেক প্রয়োজন। / তোমার মনোরম চরাধারায় আমাদের খাওয়াও, / আমাদের ব্যবহারের জন্য তোর ভেড়ার আবাস তৈয়ার করো"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-29T18:41:22+00:00",
   "id": "6a98ed8c30258a0fe23b3ad3c8d5ee9f",
   "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
   "language": "ben",
@@ -281,7 +160,7 @@
     }
   },
   "protected": false,
-  "quality_score": 62,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6.1-sol",
@@ -300,7 +179,7 @@
     "total_reserved_usd": 0.730563,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "d141263ef5e8a0b21b848818d2926b208c06eeac97c84e44af137498d97ac1dd",
   "translation_model_actual": "gpt-6.1-sol"
