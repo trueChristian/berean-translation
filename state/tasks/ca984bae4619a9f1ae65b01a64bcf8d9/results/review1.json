@@ -1,0 +1,52 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "9b3fb6e1-8681-4f99-9966-af939cb6ac92",
+    "response_id": "chatcmpl-EeQuYcTwI0S5FJ0yW2b4DKWZJH12w",
+    "usage": {
+      "completion_tokens": 490,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 47,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 11187,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 10084,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 11677
+    }
+  },
+  "received_at": "2026-10-29T20:28:18+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "translation.html, geordnete Liste, Punkt 3, Maleachi 2,14-16",
+        "severity": "major",
+        "source_quote": "for one covereth violence with his garment",
+        "suggested_fix": "Ersetzen Sie „denn einer bedeckt sein Gewand mit Gewalttat“ durch „denn einer bedeckt Gewalttat mit seinem Gewand“.",
+        "translation_quote": "denn einer bedeckt sein Gewand mit Gewalttat"
+      },
+      {
+        "location": "translation.html, Absatz mit dem Zitat aus Jeremia 3,1",
+        "severity": "major",
+        "source_quote": "but thou hast played the harlot with many lovers; yet return again to me, saith the LORD",
+        "suggested_fix": "Ersetzen Sie den betreffenden Satz durch: „Du aber hast mit vielen Liebhabern Unzucht getrieben; dennoch kehre wieder zu mir zurück, spricht der HERR.“ Die Aufforderung zur Rückkehr darf nicht als zweifelnde Frage wiedergegeben werden.",
+        "translation_quote": "Du aber hast mit vielen Liebhabern Unzucht getrieben und solltest dennoch zu mir zurückkehren?, spricht der HERR."
+      },
+      {
+        "location": "translation.html, vorletzter Absatz",
+        "severity": "major",
+        "source_quote": "we should fall on our knees in support and sincere gratitude to our Heavenly Father",
+        "suggested_fix": "Ersetzen Sie den Schlussteil durch: „sollten wir auf die Knie fallen, um diese Umkehr und Versöhnung im Gebet zu unterstützen und unserem himmlischen Vater aufrichtig zu danken.“",
+        "translation_quote": "sollten wir auf die Knie fallen, um unseren himmlischen Vater zu unterstützen und ihm aufrichtig zu danken."
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 91
+  }
+}

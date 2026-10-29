@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-29T20:28:18+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"translation.html, geordnete Liste, Punkt 3, Maleachi 2,14-16\",\n      \"severity\": \"major\",\n      \"source_quote\": \"for one covereth violence with his garment\",\n      \"suggested_fix\": \"Ersetzen Sie „denn einer bedeckt sein Gewand mit Gewalttat“ durch „denn einer bedeckt Gewalttat mit seinem Gewand“.\",\n      \"translation_quote\": \"denn einer bedeckt sein Gewand mit Gewalttat\"\n    },\n    {\n      \"location\": \"translation.html, Absatz mit dem Zitat aus Jeremia 3,1\",\n      \"severity\": \"major\",\n      \"source_quote\": \"but thou hast played the harlot with many lovers; yet return again to me, saith the LORD\",\n      \"suggested_fix\": \"Ersetzen Sie den betreffenden Satz durch: „Du aber hast mit vielen Liebhabern Unzucht getrieben; dennoch kehre wieder zu mir zurück, spricht der HERR.“ Die Aufforderung zur Rückkehr darf nicht als zweifelnde Frage wiedergegeben werden.\",\n      \"translation_quote\": \"Du aber hast mit vielen Liebhabern Unzucht getrieben und solltest dennoch zu mir zurückkehren?, spricht der HERR.\"\n    },\n    {\n      \"location\": \"translation.html, vorletzter Absatz\",\n      \"severity\": \"major\",\n      \"source_quote\": \"we should fall on our knees in support and sincere gratitude to our Heavenly Father\",\n      \"suggested_fix\": \"Ersetzen Sie den Schlussteil durch: „sollten wir auf die Knie fallen, um diese Umkehr und Versöhnung im Gebet zu unterstützen und unserem himmlischen Vater aufrichtig zu danken.“\",\n      \"translation_quote\": \"sollten wir auf die Knie fallen, um unseren himmlischen Vater zu unterstützen und ihm aufrichtig zu danken.\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": false,\n  \"score\": 91\n}",
+    "content_bytes": 1696,
+    "content_evidence_truncated": false,
+    "content_sha256": "4c26d1b445bff20cbd4fd4c7fdc9d1483d3404bbc27aeb38cab5065efb605d55",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 490,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 47,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 11187,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 10084,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 11677
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}
