@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "translation.html, tweede en derde paragraaf",
+      "severity": "minor",
+      "source_quote": "how much she liked when he led a song; then leading it for the congregation",
+      "suggested_fix": "Vervang “wanneer hy ’n lied voorgestaan het” met “wanneer hy die sing van ’n lied gelei het”, en “dit toe vir die gemeente voorgestaan” met “dan die gemeente in die sing daarvan gelei”.",
+      "translation_quote": "wanneer hy ’n lied voorgestaan het; dit toe vir die gemeente voorgestaan"
+    },
+    {
+      "location": "translation.html, paragraaf wat begin met “Sondagoggend”",
+      "severity": "minor",
+      "source_quote": "Her grandpa had honored her request.",
+      "suggested_fix": "Vervang “Haar oupa het haar versoek ingewillig” met “Haar oupa het aan haar versoek voldoen”.",
+      "translation_quote": "Haar oupa het haar versoek ingewillig."
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}
