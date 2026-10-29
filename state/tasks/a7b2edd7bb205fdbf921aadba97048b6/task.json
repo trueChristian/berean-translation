@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "a288c951ba364f06a1d8ebcf662e26e7",
   "campaign": "auto-286f1b4b06b7a7777ef4072b59b67aed2699dd401f0814203b66c21c3963baaa",
   "created_at": "2026-10-29T12:26:34+00:00",
   "events": [
@@ -48,81 +47,31 @@
         },
         "total_tokens": 10232
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 154,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 122,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6175,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 5072,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 6329
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "translation.title; html paragraphs 1, 3, 4, and 7",
-      "severity": "major",
-      "source_quote": "Why I Have Not Gotten the Covid Shot; I don’t call the Covid shot a ‘vaccine’; it is better to call it a flu shot",
-      "suggested_fix": "استخدم «حقنة كوفيد» بدلًا من «لقاح كوفيد» في العنوان والفقرات 1 و3 و7، واجعل العبارة في الفقرة 3: «أنني لا أسمي حقنة كوفيد «لقاحًا»». وفي ختام الفقرة 4 استخدم «حقنة إنفلونزا». احذف الإضافة «بالمعنى المتداول» لأنها غير موجودة في الأصل.",
-      "translation_quote": "لماذا لم أتلقَّ لقاح كوفيد؛ لا أسمي لقاح كوفيد مصطلح «لقاح» بالمعنى المتداول؛ من الأفضل تسميتها بلقاح إنفلونزا"
-    },
-    {
-      "location": "html paragraph 5",
-      "severity": "major",
-      "source_quote": "The manufacturer did keep telling us to spray maximum rates",
-      "suggested_fix": "استبدل «أن نرشف المعدلات القصوى» بـ«أن نرشّ المبيد بأقصى معدلات الاستخدام».",
-      "translation_quote": "كان المُصَنِّع يصر علينا أن نرشف المعدلات القصوى"
-    },
-    {
-      "location": "html paragraph 6",
-      "severity": "major",
-      "source_quote": "an easy way to keep out the weeds",
-      "suggested_fix": "استبدل «طريقة سهلة لإبقاء الأعشاب الضارة» بـ«طريقة سهلة لمنع نمو الأعشاب الضارة».",
-      "translation_quote": "طريقة سهلة لإبقاء الأعشاب الضارة"
-    },
-    {
-      "location": "html paragraph 12",
-      "severity": "major",
-      "source_quote": "this passage is to be spiritualized",
-      "suggested_fix": "استبدل «هذه الفقرة يجب أن تُروّح روحيًا» بـ«هذا المقطع ينبغي تأويله تأويلًا روحيًا».",
-      "translation_quote": "هذه الفقرة يجب أن تُروّح روحيًا"
-    },
-    {
-      "location": "html paragraph 13",
-      "severity": "major",
-      "source_quote": "it makes good sense, it defies science not to",
-      "suggested_fix": "استبدل «منطقية، ومن شأن العلم ألا ينكرها» بـ«فتلقّيها أمر منطقي، وعدم تلقّيها يتعارض مع العلم».",
-      "translation_quote": "منطقية، ومن شأن العلم ألا ينكرها"
-    },
-    {
-      "location": "html paragraph 14, quotation of 2 Corinthians 6:17",
-      "severity": "major",
-      "source_quote": "<em>Wherefore <strong>come out from among them, and be ye separate</strong>, saith the Lord, and touch not the unclean thing; and I will receive you –2 Corinthians 6:17.</em>",
-      "suggested_fix": "صحّح «تفرّقوا» إلى «كونوا منفصلين»، وأعد نطاق الاقتباس والتوكيد كما في الأصل: <em>لذلك <strong>اخرجوا من بينهم، وكونوا منفصلين</strong>، يقول الرب، ولا تمسّوا النجس؛ وأنا أقبلكم –2 كورنثوس 6:17.</em>",
-      "translation_quote": "<em>«فَاخْرُجُوا مِنْ بَيْنِهِمْ، وَتَفَرَّقُوا»</em>، هكذا يقول الرب، «وَلاَ تَمَسُّوا نَجِسًا، فَأَنَا أَقْبَلُكُمْ» –2 كورنثوس 6:17."
-    },
-    {
-      "location": "html paragraph 15, quotation of Revelation 12:11",
-      "severity": "major",
-      "source_quote": "And they overcame him by the blood of the Lamb",
-      "suggested_fix": "استبدل «بِدَمِ حَمَلِهَا» بـ«بِدَمِ الْحَمَلِ» للحفاظ على الإشارة إلى المسيح.",
-      "translation_quote": "وَغَلَبُوهُ بِدَمِ حَمَلِهَا"
-    },
-    {
-      "location": "html paragraph 5",
-      "severity": "minor",
-      "source_quote": "It seemed too good to be true to be able to spray glyphosate",
-      "suggested_fix": "استبدل بداية الجملة بـ«بدا أن القدرة على رش الغليفوسات (راوند أب) على المحصول بأكمله للقضاء على جميع الأعشاب الضارة دون الإضرار بالمحصول أمر أروع من أن يُصدَّق».",
-      "translation_quote": "بدا أن بإمكان المرء رش الغليفوسات"
-    },
-    {
-      "location": "html paragraphs 5–6",
-      "severity": "minor",
-      "source_quote": "‘pigweeds’; ‘Palmer amaranth Pigweed’",
-      "suggested_fix": "استخدم «أعشاب القطيفة» بدلًا من الترجمة الحرفية «أعشاب الخنازير»، و«القطيفة البالمرية» بدلًا من «الدارنة بالمر أمارانث (Pigweed)».",
-      "translation_quote": "«أعشاب الخنازير»؛ «الدارنة بالمر أمارانث (Pigweed)»"
-    },
-    {
-      "location": "html paragraphs 3, 8, 10, 11, and 13",
-      "severity": "minor",
-      "source_quote": "we were immunized; immunity to that strain; My belief is that; the panic and turmoil; this is not a writing; what the Bible refers to",
-      "suggested_fix": "صحّح المطابقة والتركيب إلى «كنا مُمنَّعين»، و«مناعة لتلك السلالة»، و«أعتقد أنه على المدى الطويل سيكون…»، و«هذا الهلع والاضطراب»، و«هذه الكتابة ليست…»، و«مما يشير إليه الكتاب المقدس».",
-      "translation_quote": "كنا مُمنَّعون؛ مناعة لذلك السلالة؛ معتقدي أن على المدى الطويل سيكون؛ هذه الهلع والاضطراب؛ هذا الكتابة ليست؛ مما تشير إليه الكتاب المقدس"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-29T19:43:21+00:00",
   "id": "a7b2edd7bb205fdbf921aadba97048b6",
   "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
   "language": "ara",
@@ -211,7 +160,7 @@
     }
   },
   "protected": false,
-  "quality_score": 80,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6.1-sol",
@@ -230,7 +179,7 @@
     "total_reserved_usd": 0.740312,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "f7d8a08704733486f924816fbfd515b7c40bf25c984ecd111bf0fe403aaa2dde",
   "translation_model_actual": "gpt-6.1-sol"
