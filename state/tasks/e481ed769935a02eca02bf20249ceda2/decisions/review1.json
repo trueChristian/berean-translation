@@ -1,0 +1,105 @@
+{
+  "findings": [
+    {
+      "location": "html, stycke 4",
+      "severity": "major",
+      "source_quote": "he had Octavia beheaded",
+      "suggested_fix": "Ersätt ”lät han avrätta Octavia” med ”lät han halshugga Octavia”.",
+      "translation_quote": "lät han avrätta Octavia"
+    },
+    {
+      "location": "html, stycke 5",
+      "severity": "major",
+      "source_quote": "Nero dispatched his executioners to stab her to death in broad daylight",
+      "suggested_fix": "Skriv ”skickade Nero sina bödlar för att knivhugga henne till döds mitt på ljusa dagen”.",
+      "translation_quote": "skickade Nero sina bödlar att i full daglig ljus stämpla henne ihjäl med knivar"
+    },
+    {
+      "location": "html, stycke 11, Tacitus-citatet",
+      "severity": "major",
+      "source_quote": "Covered with the skins of beasts",
+      "suggested_fix": "Ersätt ”Täckta med björnskinn” med ”Täckta med djurhudar”. Källan anger inte vilket slags djur det var.",
+      "translation_quote": "Täckta med björnskinn"
+    },
+    {
+      "location": "html, stycke 16",
+      "severity": "major",
+      "source_quote": "the earthly authorities are “ministers of God” to be honored and obeyed",
+      "suggested_fix": "Ändra till ”de jordiska myndigheterna är ‘Guds tjänare’ som ska hedras och åtlydas”.",
+      "translation_quote": "de jordiska myndigheterna är “Guds tjänare” som skall hedras och lyda"
+    },
+    {
+      "location": "html, stycke 17",
+      "severity": "major",
+      "source_quote": "the unregenerate around us",
+      "suggested_fix": "Ersätt ”de oregerade omkring oss” med ”de som inte är pånyttfödda omkring oss”.",
+      "translation_quote": "de oregerade omkring oss"
+    },
+    {
+      "location": "html, stycke 17",
+      "severity": "major",
+      "source_quote": "when we feel our “easy living” being trodden upon",
+      "suggested_fix": "Skriv ”när vi känner att vårt ‘bekväma liv’ blir trampat på”.",
+      "translation_quote": "när vi känner att vårt “lätta liv” trampar på"
+    },
+    {
+      "location": "html, stycke 18 och 19",
+      "severity": "major",
+      "source_quote": "Redeeming the time, because the days are evil; walk circumspectly, redeeming the time",
+      "suggested_fix": "Ersätt ”förkovrande tiden” med ”och tar vara på tiden” i stycke 18 och ”förkovra tiden” med ”ta vara på tiden” i stycke 19.",
+      "translation_quote": "förkovrande tiden, ty dagarna äro onda; vandra förståndigt och förkovra tiden"
+    },
+    {
+      "location": "html, stycke 18, sista bibelhänvisningen",
+      "severity": "major",
+      "source_quote": "–1 Corinthians 4:2",
+      "suggested_fix": "Ändra hänvisningen till ”—1 Korinthierbrevet 4:2” för att bevara den tryckta källans versnummer, även om citatet omfattar text från föregående vers.",
+      "translation_quote": "—1 Korinthierbrevet 4:1-2"
+    },
+    {
+      "location": "html, stycke 4",
+      "severity": "minor",
+      "source_quote": "a formerly enslaved person",
+      "suggested_fix": "Skriv ”en tidigare förslavad person”.",
+      "translation_quote": "en tidigare slavad person"
+    },
+    {
+      "location": "html, stycke 8–9",
+      "severity": "minor",
+      "source_quote": "a team of four horses; Teams would race; a team consisting of not four, but ten horses; control of his team",
+      "suggested_fix": "Använd ”ett fyrspann”, ”Ekipagen tävlade”, ”ett spann bestående av inte fyra, utan tio hästar” respektive ”kontrollen över sitt spann”.",
+      "translation_quote": "ett team om fyra hästar; Team tävlade; ett team bestående av inte fyra, utan tio hästar; kontrollen över sitt team"
+    },
+    {
+      "location": "html, stycke 9 och 11",
+      "severity": "minor",
+      "source_quote": "roll up to the racetrack; the incident Nero would be most widely known for",
+      "suggested_fix": "Ändra till ”rullade fram till kapplöpningsbanan” respektive ”den händelse som Nero skulle bli mest känd för”.",
+      "translation_quote": "rullade upp till racerbana; den händelse Nero mest allmänt känd för"
+    },
+    {
+      "location": "html, stycke 14–19",
+      "severity": "minor",
+      "source_quote": "not only for wrath, but also for conscience sake; Wherefore be ye not unwise; For we all want ... when we all will stand",
+      "suggested_fix": "Använd samtida svenska: ”inte bara för vredens skull, utan också för samvetets skull”; ”Var därför inte oförståndiga”; ”Ty vi vill alla ... då vi alla ska stå”. Ändra även ”den snart kommen dag” till ”den dag som snart kommer”.",
+      "translation_quote": "icke allenast för vredens skull, utan ock för samvetets skull; Varför bliven I icke okloka; Ty vi vilja alla ... den snart kommen dag då vi skola stå"
+    },
+    {
+      "location": "title",
+      "severity": "minor",
+      "source_quote": "Nero: Life of an Emperor",
+      "suggested_fix": "Skriv ”Nero: En kejsares liv”.",
+      "translation_quote": "Nero: Livet hos en kejsare"
+    },
+    {
+      "location": "html, slutnoten",
+      "severity": "minor",
+      "source_quote": "Endnote:<br>",
+      "suggested_fix": "Översätt etiketten till ”Slutnot:” och behåll <br> samt adressen.",
+      "translation_quote": "Endnote:<br>"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-29T12:22:48+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"html, stycke 4\",\n      \"severity\": \"major\",\n      \"source_quote\": \"he had Octavia beheaded\",\n      \"suggested_fix\": \"Ersätt ”lät han avrätta Octavia” med ”lät han halshugga Octavia”.\",\n      \"translation_quote\": \"lät han avrätta Octavia\"\n    },\n    {\n      \"location\": \"html, stycke 5\",\n      \"severity\": \"major\",\n      \"source_quote\": \"Nero dispatched his executioners to stab her to death in broad daylight\",\n      \"suggested_fix\": \"Skriv ”skickade Nero sina bödlar för att knivhugga henne till döds mitt på ljusa dagen”.\",\n      \"translation_quote\": \"skickade Nero sina bödlar att i full daglig ljus stämpla henne ihjäl med knivar\"\n    },\n    {\n      \"location\": \"html, stycke 11, Tacitus-citatet\",\n      \"severity\": \"major\",\n      \"source_quote\": \"Covered with the skins of beasts\",\n      \"suggested_fix\": \"Ersätt ”Täckta med björnskinn” med ”Täckta med djurhudar”. Källan anger inte vilket slags djur det var.\",\n      \"translation_quote\": \"Täckta med björnskinn\"\n    },\n    {\n      \"location\": \"html, stycke 16\",\n      \"severity\": \"major\",\n      \"source_quote\": \"the earthly authorities are “ministers of God” to be honored and obeyed\",\n      \"suggested_fix\": \"Ändra till ”de jordiska myndigheterna är ‘Guds tjänare’ som ska hedras och åtlydas”.\",\n      \"translation_quote\": \"de jordiska myndigheterna är “Guds tjänare” som skall hedras och lyda\"\n    },\n    {\n      \"location\": \"html, stycke 17\",\n      \"severity\": \"major\",\n      \"source_quote\": \"the unregenerate around us\",\n      \"suggested_fix\": \"Ersätt ”de oregerade omkring oss” med ”de som inte är pånyttfödda omkring oss”.\",\n      \"translation_quote\": \"de oregerade omkring oss\"\n    },\n    {\n      \"location\": \"html, stycke 17\",\n      \"severity\": \"major\",\n      \"source_quote\": \"when we feel our “easy living” being trodden upon\",\n      \"suggested_fix\": \"Skriv ”när vi känner att vårt ‘bekväma liv’ blir trampat på”.\",\n      \"translation_quote\": \"när vi känner att vårt “lätta liv” trampar på\"\n    },\n    {\n      \"location\": \"html, stycke 18 och 19\",\n      \"severity\": \"major\",\n      \"source_quote\": \"Redeeming the time, because the days are evil; walk circumspectly, redeeming the time\",\n      \"suggested_fix\": \"Ersätt ”förkovrande tiden” med ”och tar vara på tiden” i stycke 18 och ”förkovra tiden” med ”ta vara på tiden” i stycke 19.\",\n      \"translation_quote\": \"förkovrande tiden, ty dagarna äro onda; vandra förståndigt och förkovra tiden\"\n    },\n    {\n      \"location\": \"html, stycke 18, sista bibelhänvisningen\",\n      \"severity\": \"major\",\n      \"source_quote\": \"–1 Corinthians 4:2\",\n      \"suggested_fix\": \"Ändra hänvisningen till ”—1 Korinthierbrevet 4:2” för att bevara den tryckta källans versnummer, även om citatet omfattar text från föregående vers.\",\n      \"translation_quote\": \"—1 Korinthierbrevet 4:1-2\"\n    },\n    {\n      \"location\": \"html, stycke 4\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"a formerly enslaved person\",\n      \"suggested_fix\": \"Skriv ”en tidigare förslavad person”.\",\n      \"translation_quote\": \"en tidigare slavad person\"\n    },\n    {\n      \"location\": \"html, stycke 8–9\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"a team of four horses; Teams would race; a team consisting of not four, but ten horses; control of his team\",\n      \"suggested_fix\": \"Använd ”ett fyrspann”, ”Ekipagen tävlade”, ”ett spann bestående av inte fyra, utan tio hästar” respektive ”kontrollen över sitt spann”.\",\n      \"translation_quote\": \"ett team om fyra hästar; Team tävlade; ett team bestående av inte fyra, utan tio hästar; kontrollen över sitt team\"\n    },\n    {\n      \"location\": \"html, stycke 9 och 11\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"roll up to the racetrack; the incident Nero would be most widely known for\",\n      \"suggested_fix\": \"Ändra till ”rullade fram till kapplöpningsbanan” respektive ”den händelse som Nero skulle bli mest känd för”.\",\n      \"translation_quote\": \"rullade upp till racerbana; den händelse Nero mest allmänt känd för\"\n    },\n    {\n      \"location\": \"html, stycke 14–19\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"not only for wrath, but also for conscience sake; Wherefore be ye not unwise; For we all want ... when we all will stand\",\n      \"suggested_fix\": \"Använd samtida svenska: ”inte bara för vredens skull, utan också för samvetets skull”; ”Var därför inte oförståndiga”; ”Ty vi vill alla ... då vi alla ska stå”. Ändra även ”den snart kommen dag” till ”den dag som snart kommer”.\",\n      \"translation_quote\": \"icke allenast för vredens skull, utan ock för samvetets skull; Varför bliven I icke okloka; Ty vi vilja alla ... den snart kommen dag då vi skola stå\"\n    },\n    {\n      \"location\": \"title\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"Nero: Life of an Emperor\",\n      \"suggested_fix\": \"Skriv ”Nero: En kejsares liv”.\",\n      \"translation_quote\": \"Nero: Livet hos en kejsare\"\n    },\n    {\n      \"location\": \"html, slutnoten\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"Endnote:<br>\",\n      \"suggested_fix\": \"Översätt etiketten till ”Slutnot:” och behåll <br> samt adressen.\",\n      \"translation_quote\": \"Endnote:<br>\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": false,\n  \"score\": 79\n}",
+    "content_bytes": 5464,
+    "content_evidence_truncated": false,
+    "content_sha256": "4766e067880612e2b3682862ce4ef9d5986dd6ec92318a82b304f01137c53dd5",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1584,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 69,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6407,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6404,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7991
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}
