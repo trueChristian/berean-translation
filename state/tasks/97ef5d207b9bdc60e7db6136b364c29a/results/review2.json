@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "22fe3558-bc74-46e5-bdb3-57ce6b026372",
+    "response_id": "chatcmpl-EeRmIwc1seuCGtveNOTjjDRzW9o7g",
+    "usage": {
+      "completion_tokens": 241,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 81,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7399,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6296,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 7640
+    }
+  },
+  "received_at": "2026-10-29T23:00:45+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "translation.html، پانچواں پیراگراف، ڈاکٹر کے مضمون کا تعارف",
+        "severity": "major",
+        "source_quote": "the doctor has chosen to venture into some uncharted territory with the first of a two-part series on cancer",
+        "suggested_fix": "اور ڈاکٹر نے کینسر پر دو حصوں پر مشتمل سلسلے کے پہلے حصے کے ساتھ ایک نئے موضوع کی کھوج کا انتخاب کیا ہے۔",
+        "translation_quote": "اور ڈاکٹر نے کینسر پر دو حصوں پر مشتمل سلسلے کے پہلے حصے میں ایک ایسے موضوع کی کھوج کا انتخاب کیا ہے جس پر پہلے کام نہیں ہوا۔"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 94
+  }
+}

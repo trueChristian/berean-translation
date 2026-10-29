@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "translation.html، پانچواں پیراگراف، ڈاکٹر کے مضمون کا تعارف",
+      "severity": "major",
+      "source_quote": "the doctor has chosen to venture into some uncharted territory with the first of a two-part series on cancer",
+      "suggested_fix": "اور ڈاکٹر نے کینسر پر دو حصوں پر مشتمل سلسلے کے پہلے حصے کے ساتھ ایک نئے موضوع کی کھوج کا انتخاب کیا ہے۔",
+      "translation_quote": "اور ڈاکٹر نے کینسر پر دو حصوں پر مشتمل سلسلے کے پہلے حصے میں ایک ایسے موضوع کی کھوج کا انتخاب کیا ہے جس پر پہلے کام نہیں ہوا۔"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

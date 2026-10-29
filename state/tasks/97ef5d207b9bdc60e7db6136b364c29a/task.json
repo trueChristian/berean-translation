@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "cdfc4e83e0a54d3fa35b5b68a56a6d1c",
   "campaign": "auto-9cc87807ae6eab5cd2572e9e4ad455748f94a5315812eea4d979a8832b0059e6",
   "created_at": "2026-10-29T20:43:48+00:00",
   "events": [
@@ -48,102 +47,40 @@
         },
         "total_tokens": 12299
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 241,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 81,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7399,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 6296,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 7640
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; a recovery continuation must pass admission",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "html، پیراگراف 4، مکاشفہ 21:8 کا اقتباس",
+      "location": "translation.html، پانچواں پیراگراف، ڈاکٹر کے مضمون کا تعارف",
       "severity": "major",
-      "source_quote": "the fearful, and unbelieving … [who] shall have their part in the lake which burneth with fire and brimstone",
-      "suggested_fix": "اقتباس کو یوں درست کریں: «…ڈرپوکوں اور بے ایمانوں … کا حصہ اُس جھیل میں ہوگا جو آگ اور گندھک سے جلتی ہے…—مکاشفہ 21:8۔» موجودہ <em> ٹیگ برقرار رکھیں۔",
-      "translation_quote": "ڈرپوک اور بے ایمان … [جن کا] حصہ وہی ہوگا جو آگ اور گندھک کی جھیل میں جلا کرتا ہے"
-    },
-    {
-      "location": "html، پیراگراف 5، بہنوں کے مضمون کا تعارف",
-      "severity": "major",
-      "source_quote": "when and how to be submissive as a godly wife",
-      "suggested_fix": "اس فقرے کو «ایک خدا ترس بیوی کے طور پر کب اور کیسے تابع دار ہونا چاہیے» سے بدلیں۔",
-      "translation_quote": "ایک نیک عورت کے طور پر متواضع کب اور کیسے ہونا چاہیے"
-    },
-    {
-      "location": "html، پیراگراف 9، زبانوں اور ترجمانی کی وضاحت",
-      "severity": "major",
-      "source_quote": "tongues (languages) and since he didn’t understand the language and since there was no interpretation given",
-      "suggested_fix": "متعلقہ عبارت یوں کریں: «<em>زبانیں</em> (مختلف زبانیں) کہا گیا ہے، اور چونکہ وہ اس زبان کو نہیں سمجھتا تھا اور کوئی <em>ترجمہ</em> بھی پیش نہیں کیا جاتا تھا»۔ یہاں لسانیات یا تفسیر نہیں بلکہ زبان اور اس کا ترجمہ مراد ہے۔",
-      "translation_quote": "<em>زبانیں</em> (لسانیات) کہا گیا ہے، ویسا ہی تھا اور چونکہ وہ زبان نہیں سمجھتا تھا اور نہ ہی کسی <em>تفسیر</em> کا اہتمام ہوتا تھا"
-    },
-    {
-      "location": "html، پیراگراف 11، آخری جملہ",
-      "severity": "major",
-      "source_quote": "those who understood God’s Word and who practiced what they preached",
-      "suggested_fix": "آخری متعلقہ فقرہ یوں کریں: «جو خدا کے کلام کو سمجھتے اور جس کی منادی کرتے تھے اُس پر عمل بھی کرتے تھے»۔",
-      "translation_quote": "جو خدا کے کلام کو سمجھتے اور جو جو کچھ وہ زندہ کرتے تھے اس پر عمل پیرا تھے"
-    },
-    {
-      "location": "html، پیراگراف 12، تلاشِ حق کی تحریک",
-      "severity": "major",
-      "source_quote": "He felt driven in his continued pursuit of the Truth",
-      "suggested_fix": "اس عبارت کو «وہ سچائی کی مسلسل تلاش کے لیے اندر سے مجبور محسوس کرتا تھا» سے بدلیں۔",
-      "translation_quote": "وہ سچ کی تلاش میں مسلسل محروم محسوس کرتا تھا"
-    },
-    {
-      "location": "html، پیراگراف 14، عبرانیوں 13:17 کا اقتباس",
-      "severity": "major",
-      "source_quote": "for they watch for your souls, as they that must give account",
-      "suggested_fix": "متعلقہ عبارت یوں کریں: «کیونکہ وہ تمہاری جانوں کی نگہبانی ایسے لوگوں کی طرح کرتے ہیں جنہیں حساب دینا ہوگا»۔ حوالہ اور <em> ٹیگ برقرار رکھیں۔",
-      "translation_quote": "کیونکہ وہ تمہاری جانوں کے لیے نگہبان ہیں، ایسے جو محاسبہ کرنا پڑے گا"
-    },
-    {
-      "location": "html، پیراگراف 17، ابتدائی جملہ",
-      "severity": "major",
-      "source_quote": "the slums of India",
-      "suggested_fix": "«بھارت کے جھگڑوں» کو «بھارت کی کچی آبادیوں» سے بدلیں۔",
-      "translation_quote": "بھارت کے جھگڑوں"
-    },
-    {
-      "location": "html، پیراگراف 1، سلام",
-      "severity": "minor",
-      "source_quote": "Greetings to one and all in our dear Saviour’s name, Jesus Christ.",
-      "suggested_fix": "ابتدائی جملہ یوں کریں: «ہمارے پیارے نجات دہندہ یسوع مسیح کے نام میں آپ سب کو سلام۔» «خلاصہ» یہاں بے معنی ہے۔",
-      "translation_quote": "خلاصہ نجات دہندہ ییسوع مسیح کے نام میں تمام حضرات کو سلام۔"
-    },
-    {
-      "location": "html، پیراگراف 6، ذاتی گواہی کا تعارف",
-      "severity": "minor",
-      "source_quote": "I heard a first-hand account of a man",
-      "suggested_fix": "«ایک ایسے آدمی کا کرداراً براہِ راست بیان سنا» کو «ایک ایسے آدمی کا براہِ راست بیان سنا» کریں۔",
-      "translation_quote": "ایک ایسے آدمی کا کرداراً براہِ راست بیان سنا"
-    },
-    {
-      "location": "html، پیراگراف 10، بائبل کا مطالعہ",
-      "severity": "minor",
-      "source_quote": "the message contained within those book covers",
-      "suggested_fix": "«ان کتابوں میں موجود پیغام» کو «اس کتاب میں موجود پیغام» کریں؛ یہاں ایک ہی بائبل مراد ہے۔",
-      "translation_quote": "ان کتابوں میں موجود پیغام"
-    },
-    {
-      "location": "html، پیراگراف 11، صحیفوں کا شوق سے مطالعہ",
-      "severity": "minor",
-      "source_quote": "spent devouring the teachings of the Scriptures",
-      "suggested_fix": "«صحیفوں کی تعلیمات کو کھا کھا کر پڑھنے» کو «صحیفوں کی تعلیمات کا نہایت شوق سے مطالعہ کرنے» سے بدلیں۔",
-      "translation_quote": "صحیفوں کی تعلیمات کو کھا کھا کر پڑھنے"
-    },
-    {
-      "location": "html، پیراگراف 13، آباؤاجداد کی مذہبی آزادی",
-      "severity": "minor",
-      "source_quote": "the issue of freedom of religious worship that their forefathers suffered for",
-      "suggested_fix": "متعلقہ عبارت یوں کریں: «مذہبی عبادت کی آزادی کے اُس معاملے میں مخالف سمت کھڑے ہیں جس کے لیے اُن کے آباؤاجداد نے ظلم سہا تھا»؛ «جنہوں نے اپنی نسلوں کے لیے جدوجہد کی» کا غیر موجود اضافہ حذف کریں۔",
-      "translation_quote": "اپنے بُزرگوں کی جدوجہدِ مذہبی عبادت کی آزادی کے برعکس کھڑے دکھائی دیتے ہیں جنہوں نے اپنی نسلوں کے لیے جدوجہد کی"
-    },
-    {
-      "location": "html، پیراگراف 15، اشاعتی رجحانات",
-      "severity": "minor",
-      "source_quote": "(in a spiritual way, of course) ... books and reading material",
-      "suggested_fix": "قوسین کی عبارت «(یقیناً، روحانی انداز میں)» کریں، اور «مطالعہ شدہ مواد» کو «مطالعے کا مواد» سے بدلیں۔",
-      "translation_quote": "(روحانی معنوں میں، بطورِ ضابطہ) ... کتابیں اور مطالعہ شدہ مواد"
+      "source_quote": "the doctor has chosen to venture into some uncharted territory with the first of a two-part series on cancer",
+      "suggested_fix": "اور ڈاکٹر نے کینسر پر دو حصوں پر مشتمل سلسلے کے پہلے حصے کے ساتھ ایک نئے موضوع کی کھوج کا انتخاب کیا ہے۔",
+      "translation_quote": "اور ڈاکٹر نے کینسر پر دو حصوں پر مشتمل سلسلے کے پہلے حصے میں ایک ایسے موضوع کی کھوج کا انتخاب کیا ہے جس پر پہلے کام نہیں ہوا۔"
     }
   ],
+  "finished_at": "2026-10-29T23:00:45+00:00",
   "id": "97ef5d207b9bdc60e7db6136b364c29a",
   "issue_id": "1a7070c9-fd4f-546b-a220-f267ddb8cf5f",
   "language": "urd",
@@ -232,7 +169,7 @@
     }
   },
   "protected": false,
-  "quality_score": 79,
+  "quality_score": 94,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6.1-sol",
@@ -251,7 +188,7 @@
     "total_reserved_usd": 0.756121,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 1,
   "translation_key": "c8c09427567d4bc1f9b13eb8f03d2de65724d1971e30094c9e925e9045066f8d",
   "translation_model_actual": "gpt-6.1-sol"
