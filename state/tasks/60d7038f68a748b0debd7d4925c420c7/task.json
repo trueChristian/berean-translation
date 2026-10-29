@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "2bd1546b00b3471cb68527d3ced245fa",
   "campaign": "auto-a5277c2bb451321ac4e5c6321b92af37e6ca61af6c8ac80061f2e26fc468408d",
   "created_at": "2026-10-29T10:21:14+00:00",
   "events": [
@@ -48,74 +47,31 @@
         },
         "total_tokens": 11176
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 68,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 36,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7145,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 6042,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 7213
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "html: Sitatene fra Titus 2:3-5 og begge sitatene fra Titus 2:4-5",
-      "severity": "major",
-      "source_quote": "To be discreet, chaste",
-      "suggested_fix": "Erstatt «å være avholdende, kysk» med «å være forstandige og kyske» i alle tre sitatene. Behold øvrig tekst og HTML.",
-      "translation_quote": "å være avholdende, kysk"
-    },
-    {
-      "location": "html: Avsnittet med Salme 127:3-5",
-      "severity": "major",
-      "source_quote": "so are children of the youth",
-      "suggested_fix": "Erstatt «slik er barna når de er unge» med «slik er barn en får i sin ungdom». Det er foreldrenes ungdom, ikke barnas alder, uttrykket viser til.",
-      "translation_quote": "slik er barna når de er unge"
-    },
-    {
-      "location": "html: Avsnittet med Salme 127:3-5",
-      "severity": "major",
-      "source_quote": "Happy is the man that hath his <u>quiver full of them</u>",
-      "suggested_fix": "Endre til «Lykkelig er den mannen som har sitt <u>kogger fullt av dem</u>». Et kogger er beholderen for pilene som bildet bygger på, ikke et skrin.",
-      "translation_quote": "Lykkelig er den mannen som har sitt <u>fylte skrin med dem</u>"
-    },
-    {
-      "location": "html: Andre avsnitt",
-      "severity": "minor",
-      "source_quote": "My mother was picking him up, crooning softly.",
-      "suggested_fix": "Endre til «Moren min løftet ham opp og nynnet lavt.»",
-      "translation_quote": "Moren min løftet ham opp og vugget ham stille."
-    },
-    {
-      "location": "html: Avsnittet som begynner «I disse travle årene»",
-      "severity": "minor",
-      "source_quote": "as we learn to unselfishly give to our families",
-      "suggested_fix": "Erstatt «gi ubegjærlig til våre familier» med «gi uselvisk til våre familier».",
-      "translation_quote": "mens vi lærer å gi ubegjærlig til våre familier"
-    },
-    {
-      "location": "html: Begge sitatene fra Titus 2:4-5 i siste halvdel av artikkelen",
-      "severity": "minor",
-      "source_quote": "that the word of God be not blasphemed",
-      "suggested_fix": "Erstatt «så Guds ord ikke blir spotte» med «så Guds ord ikke blir spottet» begge steder.",
-      "translation_quote": "så Guds ord ikke blir spotte"
-    },
-    {
-      "location": "html: Avsnittet som begynner med 1 Timoteus 2:11-13",
-      "severity": "minor",
-      "source_quote": "learned valuable life lessons and have the ability to encourage and disciple the younger generation",
-      "suggested_fix": "Erstatt «lært verdifulle livslektioner og som har evnen til å oppmuntre og disiple den yngre generasjon» med «lært verdifulle ting gjennom livet og som har evnen til å oppmuntre og disippelgjøre den yngre generasjonen».",
-      "translation_quote": "lært verdifulle livslektioner og som har evnen til å oppmuntre og disiple den yngre generasjon"
-    },
-    {
-      "location": "html: Avsnittet før sitatet fra Galaterne 6:9",
-      "severity": "minor",
-      "source_quote": "Busy young mother or older woman",
-      "suggested_fix": "Erstatt «Travl ung mor» med «Travel ung mor».",
-      "translation_quote": "Travl ung mor eller eldre kvinne"
-    },
-    {
-      "location": "html: Avsnittet med 1 Timoteus 5:13",
-      "severity": "minor",
-      "source_quote": "…wandering about from house to house…",
-      "suggested_fix": "Erstatt «…vandrede fra hus til hus…» med «…å vandre omkring fra hus til hus…».",
-      "translation_quote": "…vandrede fra hus til hus…"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-29T20:15:47+00:00",
   "id": "60d7038f68a748b0debd7d4925c420c7",
   "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
   "language": "nob",
@@ -204,7 +160,7 @@
     }
   },
   "protected": false,
-  "quality_score": 89,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6.1-sol",
@@ -223,7 +179,7 @@
     "total_reserved_usd": 0.738482,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "bc655ca0e757a92869b0811d5a6de87a4ca48f1e4eef1923cd7135609b8dc379",
   "translation_model_actual": "gpt-6.1-sol"
