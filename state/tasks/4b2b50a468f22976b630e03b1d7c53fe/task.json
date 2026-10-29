@@ -5,11 +5,96 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "b2b3704efda8419cbaf6ed83b3ff2a64",
   "campaign": "auto-b1eaf4d1fa3cb12f51689c79d2e9593dc917503f448a8cee846331add3a23710",
   "created_at": "2026-10-29T10:20:38+00:00",
-  "events": [],
-  "findings": [],
+  "events": [
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1409,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 113,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 10325,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 9222,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 11734
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "html, cita de Números 11:14-15",
+      "severity": "major",
+      "source_quote": "and let me not see my wretchedness",
+      "suggested_fix": "Sustituir «y no veas mi miseria» por «y no me dejes ver mi miseria».",
+      "translation_quote": "y no veas mi miseria"
+    },
+    {
+      "location": "html, cita de Génesis 32:24-28",
+      "severity": "major",
+      "source_quote": "the hollow of Jacob's thigh was out of joint ... for as a prince hast thou power with God and with men, and hast prevailed",
+      "suggested_fix": "Sustituir «se desconjó el muslo de Jacob» por «se dislocó la articulación de la cadera de Jacob» y «porque asno como príncipe has prevalecido con Dios y con los hombres, y has vencido» por «porque como príncipe has tenido poder con Dios y con los hombres, y has prevalecido».",
+      "translation_quote": "se desconjó el muslo de Jacob ... porque asno como príncipe has prevalecido con Dios y con los hombres, y has vencido"
+    },
+    {
+      "location": "html, sección «…La mala suerte», cita de Job 3:1-6",
+      "severity": "major",
+      "source_quote": "Let darkness and the shadow of death stain it; let a cloud dwell upon it; let the blackness of the day terrify it. As for that night, let darkness seize upon it…",
+      "suggested_fix": "Sustituir esas líneas por «Que lo manchen la oscuridad y la sombra de muerte; que una nube se pose sobre él; que la negrura del día lo aterrorice. En cuanto a aquella noche, que la oscuridad se apodere de ella…», conservando la referencia y las etiquetas.",
+      "translation_quote": "Oculte la oscuridad y la sombra de la muerte; more sobre él una nube; asuste su negrura. Para la noche en que nació, tómela la oscuridad…"
+    },
+    {
+      "location": "html, sección «…Agenda personal», cita de 2 Reyes 5:11",
+      "severity": "major",
+      "source_quote": "and stand, and call on the name of the LORD his God, and strike his hand over the place",
+      "suggested_fix": "Sustituir «y clamará al nombre de Jehová su Dios, y pondrá su mano sobre el lugar» por «y se pondrá de pie, e invocará el nombre de Jehová su Dios, y pasará su mano sobre el lugar».",
+      "translation_quote": "y clamará al nombre de Jehová su Dios, y pondrá su mano sobre el lugar"
+    },
+    {
+      "location": "html, sección «…Autocompasión», cita de Lucas 24:22-23",
+      "severity": "major",
+      "source_quote": "certain women also of our company made us astonished, which were early at the sepulchre; And when they found not his body, they came, saying, that they had also seen a vision of angels, which said that he was alive",
+      "suggested_fix": "Sustituir el contenido de esta cita por «Y también algunas mujeres de nuestro grupo nos dejaron asombrados: fueron temprano al sepulcro y, al no encontrar su cuerpo, vinieron diciendo que también habían visto una visión de ángeles, quienes dijeron que él estaba vivo –Lucas 24:22-23.», conservando las etiquetas.",
+      "translation_quote": "Y también algunos de los de nuestro compañía fueron al sepulcro, y lo hallaron así como las mujeres habían dicho; mas a él no le vieron –Lucas 24:22-23."
+    },
+    {
+      "location": "html, sección «…Autocompasión», cita de 1 Reyes 19:4",
+      "severity": "major",
+      "source_quote": "now, O LORD, take away my life",
+      "suggested_fix": "Sustituir «ahora, oh Jehová, tóralo de mí» por «ahora, oh Jehová, quítame la vida».",
+      "translation_quote": "ahora, oh Jehová, tóralo de mí"
+    },
+    {
+      "location": "html, primer párrafo, lista de palabras negativas",
+      "severity": "minor",
+      "source_quote": "Devastation, Deception, and Death",
+      "suggested_fix": "Sustituir la segunda aparición de «Decepción», después de «Devastación», por «Engaño», para distinguir deception de disappointment.",
+      "translation_quote": "Devastación, Decepción y Muerte"
+    },
+    {
+      "location": "html, sección «…Impaciencia», párrafo sobre José",
+      "severity": "minor",
+      "source_quote": "he entreated the butler ... the fault of the butler",
+      "suggested_fix": "Sustituir las dos apariciones de «copeiro» por «copero».",
+      "translation_quote": "suplicó al copeiro ... culpa del copeiro"
+    },
+    {
+      "location": "html, conclusión, cita de Mateo 27:46",
+      "severity": "minor",
+      "source_quote": "Eli, Eli, lama sabachthani?",
+      "suggested_fix": "Sustituir «Eloí, Eloí, lama sabactani?» por «¿Elí, Elí, lama sabactani?» para conservar la forma citada en el original de Mateo.",
+      "translation_quote": "Eloí, Eloí, lama sabactani?"
+    }
+  ],
   "id": "4b2b50a468f22976b630e03b1d7c53fe",
   "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
   "language": "spa",
@@ -98,11 +183,13 @@
     }
   },
   "protected": false,
+  "quality_score": 83,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/f6ab9961323e616863eb6439ba02dc39cc2ebee29143de95816c983763cc88c5.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "review1",
     "max_candidate_bytes": 120000,
@@ -115,7 +202,7 @@
     "total_reserved_usd": 0.783575,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 0,
   "translation_key": "ceb52dc3bb5b5ab212a3930b445c8849f8521bc253df2cec9d019d90e889292e",
   "translation_model_actual": "gpt-5-mini-2025-08-07"
