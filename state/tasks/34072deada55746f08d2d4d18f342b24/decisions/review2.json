@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "translation.html, paragraph beginning “Kwetu sisi”",
+      "severity": "major",
+      "source_quote": "We can even imagine that God has turned against us.",
+      "suggested_fix": "Tunaweza hata kuwazia kwamba Mungu ametugeuka.",
+      "translation_quote": "Tunaweza hata kuwazia kwamba Mungu ametugeukia."
+    },
+    {
+      "location": "translation.html, first paragraph under “Kusudi la Mungu”",
+      "severity": "minor",
+      "source_quote": "until he recanted of his pride",
+      "suggested_fix": "mpaka alipoukana ukubwa wa kiburi chake",
+      "translation_quote": "mpaka alipoukana uburi wake"
+    },
+    {
+      "location": "translation.html, paragraph beginning “Fimbo ni nguvu”",
+      "severity": "minor",
+      "source_quote": "man does not receive nor perceive the love of God",
+      "suggested_fix": "mwanadamu hapokei wala hatambui upendo wa Mungu",
+      "translation_quote": "mwanadamu hapokei wala hautambui upendo wa Mungu"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

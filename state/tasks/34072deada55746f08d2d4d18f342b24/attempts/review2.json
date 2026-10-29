@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-29T20:15:44+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"translation.html, paragraph beginning “Kwetu sisi”\",\n      \"severity\": \"major\",\n      \"source_quote\": \"We can even imagine that God has turned against us.\",\n      \"suggested_fix\": \"Tunaweza hata kuwazia kwamba Mungu ametugeuka.\",\n      \"translation_quote\": \"Tunaweza hata kuwazia kwamba Mungu ametugeukia.\"\n    },\n    {\n      \"location\": \"translation.html, first paragraph under “Kusudi la Mungu”\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"until he recanted of his pride\",\n      \"suggested_fix\": \"mpaka alipoukana ukubwa wa kiburi chake\",\n      \"translation_quote\": \"mpaka alipoukana uburi wake\"\n    },\n    {\n      \"location\": \"translation.html, paragraph beginning “Fimbo ni nguvu”\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"man does not receive nor perceive the love of God\",\n      \"suggested_fix\": \"mwanadamu hapokei wala hatambui upendo wa Mungu\",\n      \"translation_quote\": \"mwanadamu hapokei wala hautambui upendo wa Mungu\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": false,\n  \"score\": 94\n}",
+    "content_bytes": 1077,
+    "content_evidence_truncated": false,
+    "content_sha256": "2120f8008baaac32fa821904ef5c4589b0a7ee61f223513926e572bafc9d553d",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 408,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 116,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9652,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8549,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 10060
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 1
+}

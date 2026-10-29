@@ -1,0 +1,52 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "50e094a2-4ca7-47da-bab3-ebe82ce9f0c9",
+    "response_id": "chatcmpl-EeQSMtVdWXnbVuzUNgJTDP697vl2e",
+    "usage": {
+      "completion_tokens": 408,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 116,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9652,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8549,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 10060
+    }
+  },
+  "received_at": "2026-10-29T20:15:44+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "translation.html, paragraph beginning “Kwetu sisi”",
+        "severity": "major",
+        "source_quote": "We can even imagine that God has turned against us.",
+        "suggested_fix": "Tunaweza hata kuwazia kwamba Mungu ametugeuka.",
+        "translation_quote": "Tunaweza hata kuwazia kwamba Mungu ametugeukia."
+      },
+      {
+        "location": "translation.html, first paragraph under “Kusudi la Mungu”",
+        "severity": "minor",
+        "source_quote": "until he recanted of his pride",
+        "suggested_fix": "mpaka alipoukana ukubwa wa kiburi chake",
+        "translation_quote": "mpaka alipoukana uburi wake"
+      },
+      {
+        "location": "translation.html, paragraph beginning “Fimbo ni nguvu”",
+        "severity": "minor",
+        "source_quote": "man does not receive nor perceive the love of God",
+        "suggested_fix": "mwanadamu hapokei wala hatambui upendo wa Mungu",
+        "translation_quote": "mwanadamu hapokei wala hautambui upendo wa Mungu"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 94
+  }
+}

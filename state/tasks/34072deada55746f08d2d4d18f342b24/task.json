@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "79ace3aeae814c4cae9d00b0aee64fc5",
   "campaign": "auto-a1f17f18c1d9b3fa3ffbc3e160214251b02cafbb6c68e95680943697340a9fe4",
   "created_at": "2026-10-29T12:27:50+00:00",
   "events": [
@@ -48,214 +47,54 @@
         },
         "total_tokens": 17630
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 408,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 116,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9652,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8549,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 10060
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; a recovery continuation must pass admission",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "html, paragraph 3",
+      "location": "translation.html, paragraph beginning “Kwetu sisi”",
       "severity": "major",
-      "source_quote": "The bane of the zealot ... during vigilant duty ... it is extracted from the soul",
-      "suggested_fix": "Badili sehemu hizi kuwa: “Tatizo linalomwangamiza mwenye bidii mara nyingi ni kumtumaini Mungu kidogo na kuutumaini mwili kupita kiasi”; “wala kwa kawaida hakiondolewi wakati wa kutekeleza wajibu kwa uangalifu”; na “huondolewa nafsini katika mchanga wa jangwa”.",
-      "translation_quote": "Uadui wa mwenye hamu ... wakati wa dhamana ya uangalifu ... hubainishwa kutoka kwa nafsi"
+      "source_quote": "We can even imagine that God has turned against us.",
+      "suggested_fix": "Tunaweza hata kuwazia kwamba Mungu ametugeuka.",
+      "translation_quote": "Tunaweza hata kuwazia kwamba Mungu ametugeukia."
     },
     {
-      "location": "html, paragraph 4, Acts 7:20 quotation",
-      "severity": "major",
-      "source_quote": "was exceeding fair, and nourished up in his father’s house three months",
-      "suggested_fix": "Badili kuwa “alikuwa mzuri sana, akalelewa nyumbani mwa baba yake kwa miezi mitatu”. Hifadhi lebo na rejeo.",
-      "translation_quote": "alikuwa mwenye sura sana, akalea nyumbani kwa baba yake miezi tatu"
-    },
-    {
-      "location": "html, paragraph 5",
-      "severity": "major",
-      "source_quote": "The miraculous river rescue by Pharoah’s daughter ... was mighty in words and in deeds",
-      "suggested_fix": "Tumia “Kuokolewa kwake kimuujiza mtoni na binti wa Farao” na, ndani ya nukuu, “alikuwa mwenye nguvu kwa maneno na matendo”.",
-      "translation_quote": "Kutoa kwa muujiza mtoni na binti wa Farao ... alionekana kuwa mwenye nguvu kwa maneno na matendo"
-    },
-    {
-      "location": "html, paragraph 6",
-      "severity": "major",
-      "source_quote": "In today’s economy ... above his countrymen",
-      "suggested_fix": "Badili kuwa “Kwa utaratibu wa mambo wa leo” na “Aliwazidi watu wa taifa lake kwa elimu”. Hapa chanzo hakisemi uchumi wala wapinzani.",
-      "translation_quote": "Kwenye uchumi wa leo ... juu ya wapinzani wake"
-    },
-    {
-      "location": "html, paragraph 7",
-      "severity": "major",
-      "source_quote": "yet deficient ... to feed upon the bitter herbs of disappointment and rejection, obscurity and loneliness, and unfulfilled dreams and longings",
-      "suggested_fix": "Tumia “bado alikuwa na upungufu wa kumwezesha kufanya kazi ambayo Mungu alikuwa amemwitia” na “kumwandikisha katika shule nyingine, ambako angeonja mimea michungu ya kuvunjika moyo na kukataliwa, kutofahamika na upweke, na ndoto na matamanio yasiyotimizwa”.",
-      "translation_quote": "bado hana kitu ... kumfungulia shule nyingine ili amlekee kwenye mizoga ya kinena ya kukatwa tamaa na kukataliwa, ufichuaji na upweke, na ndoto na hamu zisizotekelezeka"
-    },
-    {
-      "location": "html, paragraph 8",
-      "severity": "major",
-      "source_quote": "the uneventful 40-year mid-section ... a few dozen verses ... inscribed immense patience",
-      "suggested_fix": "Rejesha “sehemu ya katikati ya maisha yake, ya miaka 40 isiyokuwa na matukio makubwa”, “mistari kadhaa tu ya dazeni”, na “mafunzo ya kina yaliyotia ndani yake uvumilivu mkubwa”.",
-      "translation_quote": "sehemu ya maisha yake ya miaka 40 bila matukio ... mistari michache tu ... shule ya kina iliyoacisha uvumilivu mkubwa"
-    },
-    {
-      "location": "html, paragraph 9, opening and description of spiritual depression",
-      "severity": "major",
-      "source_quote": "For us ... nothing more fruitful than a revelation ... the previous one ... as we grope for encouragement ... God has turned against us",
-      "suggested_fix": "Tumia “Kwetu sisi”; “hauonekani kuzaa chochote chenye matunda zaidi ya kufunua moyo wetu mkavu”; “siku iliyotangulia”; “tukipapasa kutafuta faraja na ukumbusho kwamba Mungu hajatusahau”; na “Mungu ametugeukia”.",
-      "translation_quote": "Kututoa kwetu ... kitu ambacho ni zaidi ya ufahamu ... ile ya juzi ... tukigundua hamasa ... Mungu ametutendea ukatili"
-    },
-    {
-      "location": "html, paragraph 9, final portion",
-      "severity": "major",
-      "source_quote": "If the Lord should require forty years of this from us ... bitter strokes ... stand cynically on the sidelines ... shake off the dust ... arise",
-      "suggested_fix": "Tumia “Ikiwa Bwana angetutaka tupitie hali hii kwa miaka arobaini, tusingebakiwa na muda maishani mwetu wa kutumia tuliyojifunza”; “mapigo machungu”; “kujiondoa na kusimama pembeni kwa dhihaka”; na “tujikung'ute vumbi la jangwani na tuinuke”.",
-      "translation_quote": "Ikiwa Bwana angenihitaji arobaini ya mwaka ya haya kututendea ... mikoba ya uchungu ... kukaa pembeni kwa ukoko ... tutwage vumbi ... tumeamka"
-    },
-    {
-      "location": "html, paragraph beginning “Mungu ana kusudi”",
-      "severity": "major",
-      "source_quote": "the utter folly that his own hands had participated in ... a gifted young harpist ... until he recanted of his pride",
-      "suggested_fix": "Badili kuwa “upumbavu mkubwa ambao mikono yake mwenyewe ilikuwa imeshiriki”; “mpiga kinubi kijana mwenye kipaji”; na “mpaka alipoukana uburi wake”.",
-      "translation_quote": "uzushi wa mikono yake alishiriki ... mpiga tillu mwenye kipaji ... hadi akarudisha nyuma kiburi chake"
-    },
-    {
-      "location": "html, paragraph beginning “Kufuatia kurasa za historia”",
-      "severity": "major",
-      "source_quote": "countless saints ... the darker the valley, the more I learned to pray ... swift to speak, swift to act, and slow to hear",
-      "suggested_fix": "Tumia “watakatifu wasiohesabika”; “‘kadiri bonde lilivyokuwa na giza zaidi, ndivyo nilivyojifunza kuomba zaidi’”; na “Siku za kuwa wepesi wa kusema, wepesi wa kutenda, na wazito wa kusikia zimepita”.",
-      "translation_quote": "mamia ya watakatifu ... vilindi vikiwa vimebaki giza ... wakasikiza kwa haraka, wakafanya kwa haraka, na kusikia kwa polepole"
-    },
-    {
-      "location": "html, headings “God’s Purging” and “God’s Promotion”",
-      "severity": "major",
-      "source_quote": "God’s Purging ... God’s Promotion",
-      "suggested_fix": "Tumia vichwa “Utakaso Unaofanywa na Mungu” na “Kuinuliwa na Mungu”, ili Mungu awe mtendaji, si anayesafishwa au kuinuliwa.",
-      "translation_quote": "Kusafishwa kwa Mungu ... Kuinuliwa kwa Mungu"
-    },
-    {
-      "location": "html, paragraph beginning with Proverbs 17:3",
-      "severity": "major",
-      "source_quote": "The fining pot is for silver ... Egyptian plutocracy ... worldly leadership skills ... being driven away",
-      "suggested_fix": "Tumia “Chungu cha kusafishia ni kwa fedha”; “utawala wa matajiri wa Misri”; “ujuzi wa uongozi wa kidunia”; na “walikuwa wakifukuzwa”.",
-      "translation_quote": "Chombo cha kutengenezea shaba ni kwa fedha ... uzi wa kifalme wa Misri ... ujuzi wa uongozi wa wazi ... wakinyanyaswa"
-    },
-    {
-      "location": "html, paragraph containing Mark 10:42–44",
-      "severity": "major",
-      "source_quote": "exercise lordship ... exercise authority ... establishing pecking order in a hen house",
-      "suggested_fix": "Katika nukuu tumia “huwatawala kwa mabavu” na “huwatumia mamlaka yao”. Kwa mfano wa kuku tumia “kuweka ngazi za kutawala na kutawaliwa katika banda la kuku”.",
-      "translation_quote": "hufuata ubeberu ... hufuata mamlaka ... kuweka mpangilio wa nguzo kwenye kitalu cha kuku"
-    },
-    {
-      "location": "html, paragraph beginning “Ajenda hii”",
-      "severity": "major",
-      "source_quote": "This doctrine ... This fining pot",
-      "suggested_fix": "Badili “Ajenda hii” kuwa “Fundisho hili” na “Chombo hiki cha kutengenezea” kuwa “Chungu hiki cha kusafishia”.",
-      "translation_quote": "Ajenda hii ... Chombo hiki cha kutengenezea"
-    },
-    {
-      "location": "html, Psalm 25:9 quotation",
-      "severity": "major",
-      "source_quote": "and the meek will he teach his way",
-      "suggested_fix": "Badili sehemu hii kuwa “na wanyenyekevu atawafundisha njia yake”.",
-      "translation_quote": "nami atawafundisha njia yake"
-    },
-    {
-      "location": "html, 1 Peter 4:12 quotation",
-      "severity": "major",
-      "source_quote": "think it not strange concerning the fiery trial which is to try you",
-      "suggested_fix": "Badili kuwa “msione ajabu kuhusu jaribu la moto linalowajaribu”. Hifadhi rejeo.",
-      "translation_quote": "msiache kuwa adimu kuhusu jaribu la moto linalokujaribu"
-    },
-    {
-      "location": "html, Exodus 3:10 quotation",
-      "severity": "major",
-      "source_quote": "Come now therefore, and I will send thee unto Pharaoh",
-      "suggested_fix": "Tumia “Basi njoo <strong>sasa</strong>, nami nitakutuma kwa Farao”. Rejesha lebo ya msisitizo ya chanzo.",
-      "translation_quote": "Sasa ije sasa, nami nitakutuma kwa Farao"
-    },
-    {
-      "location": "html, paragraph beginning “Huenda Mungu” and following paragraph",
-      "severity": "major",
-      "source_quote": "His self-esteem has been fully extinguished, and he humbly asks ... his presumption had evaporated",
-      "suggested_fix": "Tumia “Kujithamini kwake kulikuwa kumezimika kabisa, naye anauliza kwa unyenyekevu” na “majivuno yake yalikuwa yametoweka”.",
-      "translation_quote": "Kujithamini kwake kubadilishwa kabisa, na yeye kwa unyenyekevu aliacha ... hiari yake ilikuwa imetoweka"
-    },
-    {
-      "location": "html, paragraph containing Exodus 4:24",
-      "severity": "major",
-      "source_quote": "in the inn ... his vessel is still made of clay ... God will not revoke His promises",
-      "suggested_fix": "Tumia “mahali pa kulala wageni”; “ingawa chombo chake bado ni cha udongo, kimepitishwa motoni na hivyo kumwandaa kwa huduma ya Bwana”; na “Mungu hatazifuta ahadi zake kwa sababu ya mabadiliko ya matakwa yetu”.",
-      "translation_quote": "njiani mwenyeji ... vyombo vyake bado vimetengenezwa kwa udongo ... Mungu hatatafuta ahadi Zake"
-    },
-    {
-      "location": "html, same paragraph, Exodus 3:14 allusion",
-      "severity": "major",
-      "source_quote": "the great I AM THAT I AM ... has laid upon human shoulders",
-      "suggested_fix": "Badili kuwa “Hivyo, yule mkuu NIKO AMBAYE NIKO <em>–angalia Kutoka 3:14</em>, ameweka juu ya mabega ya wanadamu”.",
-      "translation_quote": "mimi ni YAHWEH MILELE aliyemwambia Yeye mwenyewe ... amewaza juu ya mabega ya binadamu"
-    },
-    {
-      "location": "html, paragraph beginning “Nini kilikuwa kusafiwa”",
-      "severity": "major",
-      "source_quote": "upon his exit ... an Egyptian offender ... when lifted high by feeble hands",
-      "suggested_fix": "Tumia “alipoondoka”; “Mmisri aliyekuwa akitenda uovu”; na “ilipoinuliwa juu kwa mikono dhaifu”.",
-      "translation_quote": "aliponoka ... mhaldani Mmisri ... ilipopandwa juu na mikono dhaifu"
-    },
-    {
-      "location": "html, paragraph beginning “Fimbo ni nguvu”, before Hebrews quotation",
-      "severity": "major",
-      "source_quote": "it is the chastening of God. Without it, man does not receive nor perceive the love of God",
-      "suggested_fix": "Tumia “ni nidhamu ya Mungu ya kurekebisha. Bila hiyo, mwanadamu hapokei wala hautambui upendo wa Mungu”.",
-      "translation_quote": "ni adhabu ya Mungu. Bila yake, mtu hafikiri wala kuonyesha upendo wa Mungu"
-    },
-    {
-      "location": "html, Hebrews 12:6–8 quotation",
-      "severity": "major",
-      "source_quote": "For whom the Lord loveth he chasteneth ... If ye endure chastening ... then are ye bastards, and not sons",
-      "suggested_fix": "Sahihisha nukuu kuwa “Kwa maana Bwana humrudi ampendaye, naye humpiga mijeledi kila mwana anayempokea. Mkivumilia kurudiwa, Mungu anawatendea kama wana; kwa maana ni mwana yupi ambaye baba yake hamrudi? Lakini mkiwa bila kurudiwa, ambako wote hushiriki, basi ninyi ni watoto wa nje ya ndoa, wala si wana”. Hifadhi lebo na rejeo.",
-      "translation_quote": "aliye mpenda Bwana humkaza ... Wenye kuteswa msamaha, Mungu humtendea kama kwangu wana ... mnengewa wajinga, wala si wana"
-    },
-    {
-      "location": "html, paragraph beginning “Musa huyu mwenyewe”, first sentence",
-      "severity": "major",
-      "source_quote": "entreating God and staying His wrath from destroying them",
-      "suggested_fix": "Badili kuwa “akimsihi Mungu na kuzuia ghadhabu yake isiwaangamize”.",
-      "translation_quote": "akimtumikia Mungu na kusitisha hasira Yake isiwafadhili"
-    },
-    {
-      "location": "html, same paragraph, wilderness-school imagery",
-      "severity": "major",
-      "source_quote": "in the silent solitude of the back burner where God has ordained that many of His people go",
-      "suggested_fix": "Tumia “katika upweke wa kimya wa kuwekwa pembeni, ambako Mungu ameamuru wengi wa watu wake waende”.",
-      "translation_quote": "katika ukimya wa kutengwa ambapo Mungu ameamuru kwamba wengi wa watu Wake watoke"
-    },
-    {
-      "location": "html, final paragraph",
-      "severity": "major",
-      "source_quote": "here we shall abide as well ... the fellowship of his sufferings",
-      "suggested_fix": "Badili kuwa “hapa sisi pia tutakaa” na, ndani ya nukuu, “ushirika wa mateso yake”.",
-      "translation_quote": "sisi pia tutajizunguka hapo ... kifungo cha mateso yake"
-    },
-    {
-      "location": "html, paragraphs 1–2",
+      "location": "translation.html, first paragraph under “Kusudi la Mungu”",
       "severity": "minor",
-      "source_quote": "the backside of the desert ... At the prime age of 40",
-      "suggested_fix": "Tumia “upande wa nyuma wa jangwa” katika aya zote mbili, na “Akiwa katika umri wa upevu wa miaka 40”.",
-      "translation_quote": "mpakani mwa jangwani ... Kipande kilichokuwa nyuma ya jangwani ... Katika umri wake wa kuanza wa miaka 40"
+      "source_quote": "until he recanted of his pride",
+      "suggested_fix": "mpaka alipoukana ukubwa wa kiburi chake",
+      "translation_quote": "mpaka alipoukana uburi wake"
     },
     {
-      "location": "html, Acts 9:6 and Matthew 11:29 quotations",
+      "location": "translation.html, paragraph beginning “Fimbo ni nguvu”",
       "severity": "minor",
-      "source_quote": "it shall be told thee what thou must do ... learn of me ... ye shall find rest",
-      "suggested_fix": "Tumia “utaambiwa yale unayopaswa kufanya” na “jifunzeni kwangu ... nanyi mtapata pumziko”.",
-      "translation_quote": "kutakuambia yale yote uliyo ya kufanya ... njifunze kutoka kwangu ... nawe mtapata pumziko"
-    },
-    {
-      "location": "html, remaining prose and image alt text",
-      "severity": "minor",
-      "source_quote": "a metamorphic change ... all in one verse ... A broad desert valley beneath layered mountains and clouds",
-      "suggested_fix": "Tumia “mabadiliko makubwa ya hali”; “yote katika mstari mmoja”; na katika alt “Bonde pana la jangwa chini ya milima yenye matabaka na mawingu”.",
-      "translation_quote": "mabadiliko ya metamorphosis ... yote katika aya moja ... Bonde pana la jangwani chini ya milima iliyopangwa na mawingu"
+      "source_quote": "man does not receive nor perceive the love of God",
+      "suggested_fix": "mwanadamu hapokei wala hatambui upendo wa Mungu",
+      "translation_quote": "mwanadamu hapokei wala hautambui upendo wa Mungu"
     }
   ],
+  "finished_at": "2026-10-29T20:15:44+00:00",
   "id": "34072deada55746f08d2d4d18f342b24",
   "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
   "language": "swa",
@@ -344,7 +183,7 @@
     }
   },
   "protected": false,
-  "quality_score": 43,
+  "quality_score": 94,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6.1-sol",
@@ -363,7 +202,7 @@
     "total_reserved_usd": 0.764736,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 1,
   "translation_key": "fa6973e1c0869cf8ea44c825b0af02960182750ad2e2fbf60dce9af0c7f03feb",
   "translation_model_actual": "gpt-6.1-sol"
