@@ -206,7 +206,7 @@ class CollectorDeadlineTests(unittest.TestCase):
         self.engine.discover()
         self.engine.accept_queue()
         clock = FakeClock()
-        with self.expire_at_checkpoint(clock, 'reserve task identities and budget'):
+        with self.expire_at_checkpoint(clock, 'reserve task identities and record cost estimates'):
             self.engine.prepare(continue_work=clock.continue_work)
         batch, = self.state.batches()
         self.assertEqual(batch['status'], 'prepared')
@@ -526,7 +526,7 @@ class CollectorDeadlineTests(unittest.TestCase):
                  for identity in campaign['tasks']}
         calls = self.provider.create_calls
         clock = FakeClock()
-        with self.expire_at_checkpoint(clock, 'reserve task identities and budget'):
+        with self.expire_at_checkpoint(clock, 'reserve task identities and record cost estimates'):
             self.engine.prepare(continue_work=clock.continue_work)
         pending = [batch for batch in self.state.batches() if batch['campaign'] == campaign['id']]
         self.assertEqual(len(pending), 1)
@@ -547,8 +547,8 @@ class CollectorDeadlineTests(unittest.TestCase):
         current = self.state.read('state/campaigns/gh-200.json')
         self.assertEqual(current['planned_cycle_ceiling_usd'], campaign['planned_cycle_ceiling_usd'])
         self.assertLessEqual(current['reserved_usd'], current['planned_cycle_ceiling_usd'])
-        self.assertEqual(current['downstream_allocation_usd'], 10)
-        self.assertEqual(funding_ledger(self.state)['manual_workflow_usd'], 10)
+        self.assertEqual(current['downstream_allocation_usd'], 0)
+        self.assertEqual(funding_ledger(self.state)['manual_workflow_usd'], 0)
         self.assertEqual(funding_ledger(self.state)['shared_policy_usd'], 0)
         self.assertEqual(self.config.runtime['automatic_downstream_recovery'], policy_before)
         for identity, task in historical.items():

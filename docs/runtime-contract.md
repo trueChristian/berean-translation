@@ -30,7 +30,7 @@ Discovery reads a coherent English `main` checkout through `index.json`, format-
 
 **AI — Discover English changes** is scheduled hourly. **AI — Collect and continue** is scheduled every 15 minutes and triggered after successful manual/discovery workflows. These configured schedules use best-effort GitHub delivery; gaps can extend for hours. Both share the serialized state writer. Manual translation and improvement enqueuers persist unique immutable requests without that concurrency group. New work and recovery receive separate scheduling allocations so a repair backlog cannot consume all admissions.
 
-The automatic `max_active_tasks` capacity check counts only nonterminal autonomous tasks, with the current allowance of 50 separate from explicitly funded manual campaigns. Existing article/language claims still prevent overlap; automatic translation and recovery share the unchanged cumulative $30 authority. Existing submitted batches continue to be collected and advanced.
+The automatic `max_active_tasks` capacity check counts only nonterminal autonomous tasks, with the current allowance of 50 separate from manual campaigns. Article/language claims prevent overlap. Existing submitted batches continue to be collected and advanced. These operational limits do not impose a dollar budget.
 
 The collector uses OpenAI's Batch API:
 
@@ -51,9 +51,9 @@ Git checkpoints never force-push. Disjoint concurrent changes can rebase; overla
 
 ## Funding and migration
 
-Whole-archive/all-language automatic work retains the cumulative shared $30 authority approved October 4, 2026, without renewal. New translation, source refresh, and saved-stage recovery share that ledger. Each new automatic envelope reserves the complete remaining chain and is at most $10. Separate accepted manual and legacy envelopes keep their original paid authorizations, models, rates, and limits.
+The October 29, 2026 owner instruction removes all repository monetary limits for automatic, manual, source-refresh and recovery work, including previously accepted campaigns. Manual workflows expose no budget field. The provider manages spending; operators can disable Actions or cancel campaigns. Existing provider batches may finish after a workflow is stopped.
 
-Only complete terminal usage evidence can settle proven unused new-automatic headroom through immutable priced events. Partial usage, missing responses, uncertain submissions, and unproven cancellation retain their reservations. Actual usage is provider-reported at frozen rates, not invoice certainty. A changed prompt, model, run ID, or source revision never resets attempt history or authorizes another standing cap.
+Original budgets, allocations, model/rate snapshots and provider requests remain audit evidence. Complete terminal usage evidence may produce immutable estimate-settlement records; missing or uncertain usage remains unknown. Costs and estimates no longer authorize, block or limit processing. The runtime appends `state/policies/provider-managed-spending.json` before paid processing. Old budget-only holds are reconsidered without editing terminal predecessors or resetting attempt history.
 
 The October 8 plain policy removes retired Scripture prerequisites. Reuse existing candidates and re-review them under the current rules before buying another translation. Preserve original envelopes, submitted payloads, snapshots, results, findings, attempt counts, and funding evidence. Record migration through auditable processing events. Removing a retired hold does not itself prove a candidate acceptable. Refusals, unknown provider outcomes, and human protection remain effective.
 

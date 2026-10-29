@@ -5,7 +5,8 @@ import re
 import time
 from urllib.error import HTTPError
 from urllib.request import Request, urlopen
-from .common import ContractError, canonical, loads, positive_money
+from .common import ContractError, canonical, loads
+from .spending import historical_budget
 
 
 def github_request(method, url, token, data=None):
@@ -36,8 +37,8 @@ def enqueue_github(config, request, repository: str, token: str, transport=githu
         if request.get('operation') not in ('translate', 'review'):
             raise ContractError('Queue operation must be translate or review')
         config.select_languages(request['languages'])
+    historical_budget(request)
     config.model(request['model']); config.model(request['review_model'])
-    positive_money(request['budget_usd'],config.runtime['max_campaign_usd'])
     if not token:
         raise ContractError('GITHUB_TOKEN is required to enqueue work')
     path = f'state/queue/{request["id"]}.json'

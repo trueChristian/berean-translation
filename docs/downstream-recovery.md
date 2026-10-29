@@ -8,13 +8,13 @@ Each accepted downstream campaign retains its exact original request, predecesso
 
 The funded path has one repair using full original English and the latest candidate, followed by one independent review. Candidate-less typed recovery can instead use one translation and review. The repair addresses substantiated meaning defects throughout the article, rather than treating a previous findings list as exhaustive. The reviewer assesses English and the resulting candidate independently. Attempt ordinals are not model instructions.
 
-A failed successor retains its result and does not reset the predecessor, source lineage, allocation, or original attempt count. Human-controlled pairs remain permanently excluded. Refusals, unknown provider outcomes, source races, and exhausted funded chains remain explicit holds rather than implicit new spending authority.
+A failed successor retains its result and does not reset the predecessor, source lineage, allocation, or original attempt count. Human-controlled pairs remain permanently excluded. Refusals, unknown provider outcomes, source races, and exhausted correction attempts remain explicit holds rather than implicit new spending authority.
 
 ## Funding and integrity
 
-Legacy shared, manual, and individually funded allocations retain their original scopes and caps. Accepted envelopes remain allocated after failure, cancellation, or partial acceptance. They cannot be reassigned to unrelated successors. New automatic work instead shares the separately recorded cumulative $30 authority described in [automatic archive operation](autonomous-archive.md).
+Legacy shared, manual, and individually funded allocations retain their original records and provenance. The owner removed all repository monetary limits on October 29, 2026, including those of existing campaigns. New automatic and manual work has no local dollar ceiling; see [automatic archive operation](autonomous-archive.md).
 
-A complete remaining stage chain must fit its envelope before submission. Canonical candidate bytes, nested escaping, context, output limits, cache pricing, and review findings are bounded conservatively. Oversized candidates remain saved in full; they are never truncated to make review affordable. Proven-unused settlement applies only where the existing automatic ledger permits it.
+Complete remaining stages must fit technical input/output and model-context limits before submission. Costs are estimates, not spending gates. Canonical candidate bytes, nested escaping, context and review findings remain bounded conservatively. Oversized candidates remain saved in full. Proven-unused settlement records remain informational audit evidence.
 
 The validator audits exact request/campaign hashes, task identities, lineage, recorded funding, and prepared Batch payloads. Git checkpoints preserve the reservation before each external side effect. Unknown Batch creation is reconciled by its unique submission identity, without a second billable creation.
 

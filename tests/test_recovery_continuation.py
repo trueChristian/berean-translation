@@ -57,7 +57,7 @@ class RecoveryContinuationTests(unittest.TestCase):
     def shared(self, identity='shared-1', **changes):
         request = {'id': identity, 'operation': 'repair',
             'model': self.policy['model'], 'review_model': self.policy['review_model'],
-            'budget_usd': self.policy['campaign_budget_usd'],
+            'budget_usd': self.policy.get('campaign_budget_usd', 0),
             'max_articles': self.policy['max_articles'], 'dry_run': False,
             'requested_by': 'fixture-owner', 'continuation_policy': continuation.policy()}
         request.update(changes)
@@ -244,7 +244,7 @@ class RecoveryContinuationTests(unittest.TestCase):
         self.assert_empty(exhausted, 'continuation_cycles_exhausted_requires_attention')
         self.finish()
         self.assertEqual(self.provider.create_calls, calls)
-        self.assertEqual(funding_ledger(self.state)['manual_workflow_usd'], 6)
+        self.assertEqual(funding_ledger(self.state)['manual_workflow_usd'], 0)
         self.assert_frozen(frozen)
         self.validate()
 
@@ -354,7 +354,7 @@ class RecoveryContinuationTests(unittest.TestCase):
         immediate = self.submit(self.manual('201'))
         self.assertEqual(self.child(immediate)['continuation']['cycle'], 2)
         self.assertEqual(ledger(self.state)[0], 0)
-        self.assertEqual(funding_ledger(self.state)['manual_workflow_usd'], 4)
+        self.assertEqual(funding_ledger(self.state)['manual_workflow_usd'], 0)
         self.validate()
 
     def test_historical_scheduled_authority_adds_one_append_only_successor(self):
@@ -368,8 +368,8 @@ class RecoveryContinuationTests(unittest.TestCase):
         successor = self.child(campaign)
         self.assertEqual(successor['downstream_previous_task'], child['id'])
         self.assertEqual(successor['continuation']['cycle'], 2)
-        self.assertEqual(ledger(self.state)[0], 2)
-        self.assertEqual(funding_ledger(self.state)['manual_workflow_usd'], 2)
+        self.assertEqual(ledger(self.state)[0], 0)
+        self.assertEqual(funding_ledger(self.state)['manual_workflow_usd'], 0)
         self.validate()
 
     def test_disabled_or_exhausted_shared_funding_never_recycles_manual_or_cancelled_work(self):
@@ -381,10 +381,10 @@ class RecoveryContinuationTests(unittest.TestCase):
         campaign = self.submit(self.shared())
         self.engine.cancel_campaign(campaign['id'])
         self.assertEqual(self.child(campaign)['status'], 'cancelled')
-        with self.assertRaisesRegex(ContractError, 'exhausted'):
-            accept(self.engine, self.shared('shared-2'))
-        self.assertEqual(ledger(self.state)[0], 2)
-        self.assertEqual(funding_ledger(self.state)['manual_workflow_usd'], 2)
+        # Cancellation still closes the lineage; spending policy cannot revive it.
+        self.assertTrue(accept(self.engine, self.shared('shared-2'))['empty_selection'])
+        self.assertEqual(ledger(self.state)[0], 0)
+        self.assertEqual(funding_ledger(self.state)['manual_workflow_usd'], 0)
         self.assertEqual(self.provider.create_calls, calls)
         self.validate()
 
@@ -402,7 +402,7 @@ class RecoveryContinuationTests(unittest.TestCase):
         self.assertEqual(accept(self.engine, request), partial)
         self.engine.cancel_campaign(partial['id'])
         self.assertEqual(self.state.read(f'state/campaigns/{partial["id"]}.json')['status'], 'acceptance_aborted')
-        self.assertEqual(funding_ledger(self.state)['manual_workflow_usd'], 4)
+        self.assertEqual(funding_ledger(self.state)['manual_workflow_usd'], 0)
         self.change_strategy()
         self.assert_empty(self.submit(self.manual('202')), 'lineage_predecessor_changed_requires_attention')
         self.assertEqual(self.provider.create_calls, calls)
@@ -428,7 +428,7 @@ class RecoveryContinuationTests(unittest.TestCase):
         self.assertEqual(ended['status'], 'acceptance_aborted')
         self.assertEqual(ended['tasks'], [staged[0]['id']])
         self.assertEqual(self.task(staged[0]['id'])['status'], 'cancelled')
-        self.assertEqual(funding_ledger(self.state)['manual_workflow_usd'], 4)
+        self.assertEqual(funding_ledger(self.state)['manual_workflow_usd'], 0)
         self.change_strategy()
         again = self.submit(self.manual('202'))
         self.assert_empty(again, 'lineage_predecessor_changed_requires_attention')
@@ -678,7 +678,7 @@ class RecoveryContinuationTests(unittest.TestCase):
         self.finish(self.response(oversized_label))
         self.assertEqual(self.task(successor['id'])['status'], 'complete')
         self.assertEqual(self.provider.create_calls, calls + 3)
-        self.assertEqual(funding_ledger(self.state)['manual_workflow_usd'], 4)
+        self.assertEqual(funding_ledger(self.state)['manual_workflow_usd'], 0)
         self.assertEqual(ledger(self.state)[0], 0)
         self.assert_frozen(frozen)
         self.validate()

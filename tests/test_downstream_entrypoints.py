@@ -86,7 +86,7 @@ class DownstreamEntrypointTests(unittest.TestCase):
             {'source_refresh': False}, {'source_translation_keys': {}},
             {'recovery_of_campaign': 'original'}, {'previous_task_ids': ['a' * 32]},
             {'retry_failed': True}, {'dry_run': 'true'}, {'model': 'unknown'},
-            {'review_model': 'unknown'}, {'budget_usd': 0}, {'budget_usd': 'NaN'},
+            {'review_model': 'unknown'}, {'budget_usd': 'NaN'},
         ]
         for variant in changes:
             with self.subTest(variant=variant):

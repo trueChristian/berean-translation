@@ -1,4 +1,4 @@
-"""Resumable, cost-bounded translation state machine.
+"""Resumable translation state machine with provider-managed spending.
 
 Manual and authorized source-refresh requests are immutable queue entries. Only the serialized worker mutates
 campaign/task/batch records. Checkpoints precede every potentially billable
@@ -11,12 +11,12 @@ from collections import defaultdict
 from uuid import uuid4
 from .batch_telemetry import failure_reason, observe_batch, request_failure
 from .common import (ContractError, canonical, csv_values, digest, json_hash, loads, now,
-                     positive_money, read_json, read_regular_bytes, write_text)
+                     read_json, read_regular_bytes, write_text)
 from .html import notice, validate_translation
 from .requests import accepted_review, build_request, parse_response
 from .state import State, TERMINAL
 from . import downstream, autonomous, stage_budget, manual_admission
-from . import plain_policy
+from . import plain_policy, spending
 from .attempts import archive, decision
 
 BATCH_TERMINAL = {'completed','failed','expired','cancelled'}
@@ -209,7 +209,7 @@ class Engine:
         model = request.get('model') or self.config.runtime['default_model']
         review_model = request.get('review_model') or self.config.runtime['default_review_model']
         self.config.model(model); self.config.model(review_model)
-        budget = positive_money(request.get('budget_usd',self.config.runtime['default_budget_usd']),self.config.runtime['max_campaign_usd'])
+        budget = spending.historical_budget(request)
         retry = request.get('retry_failed',False)
         dry_run = request.get('dry_run',False)
         if type(retry) is not bool or type(dry_run) is not bool:
@@ -231,6 +231,7 @@ class Engine:
             raise ContractError('Selection exceeds max_tasks_per_request; choose fewer issues/languages')
         campaign = {'id':identity,'request_sha256':json_hash(request),'operation':operation,'created_at':now(),'requested_by':request.get('requested_by'),
                     'source_revision':source_index['revision'],'budget_usd':budget,'reserved_usd':0.0,
+                    'spending_policy': spending.POLICY_ID,
                     'reported_usage_usd':0.0,'tasks':[],'skipped':skipped,'selection':planned,'dry_run':dry_run,
                     'status':'planned' if dry_run else 'active','languages':languages,'issues':selected,
                     'model':model,'review_model':review_model,'models':copy.deepcopy(self.config.models),
@@ -314,8 +315,8 @@ class Engine:
                 count += 1  # Held automatic admissions still consume this pass's bounded page.
             try:
                 self.accept_request(request)
-            except autonomous.BudgetUnavailable:
-                continue  # A budget hold is resumable, never a permanent queue error.
+            except autonomous.AdmissionPaused:
+                continue  # A scheduler pause is resumable, never a permanent queue error.
             except ContractError as exc:
                 self.state.write(f'state/queue-errors/{path.stem}.json',{'error':str(exc),'request':path.stem})
                 # Invalid queue entries are durable diagnostics, not a reason to stop other requests.
@@ -479,7 +480,7 @@ class Engine:
                 decision(self.state, task, stage, 'quality_rejection', findings=task['findings'])
                 if stage == 'review2' or task.get('downstream_recovery'):
                     task['failure_kind'] = 'quality_rejection'
-                    self.finish(task,'not_ready','Final review failed; a separately funded continuation must pass admission')
+                    self.finish(task,'not_ready','Final review failed; a recovery continuation must pass admission')
                     return
                 task['stage'] = 'correct'
             task['status'] = 'queued'
@@ -807,12 +808,6 @@ class Engine:
                     try:
                         stage_budget.enforce(task, self.state.candidate(task))
                         line,cost,input_bound = build_request(self.config,self.state,task)
-                        if 'stage_budget' in task and downstream.money(cost) > downstream.money(task['stage_budget']['stages_usd'][stage]):
-                            raise ContractError('Request exceeds its frozen complete-stage reservation')
-                        if 'cycle_budget' in task:
-                            ceiling = task['cycle_budget']['review_reserved_usd' if stage.startswith('review') else 'repair_reserved_usd']
-                            if downstream.money(cost) > downstream.money(ceiling):
-                                raise ContractError('Request exceeds its frozen complete-cycle reservation')
                     except ContractError as exc:
                         self.finish(task,'not_ready',str(exc)); tasks.pop(0); continue
                     raw = canonical(line)+b'\n'
@@ -820,10 +815,6 @@ class Engine:
                         self.finish(task,'not_ready','Single request exceeds batch byte limit'); tasks.pop(0); continue
                     if size+len(raw) > self.config.runtime['max_batch_bytes']:
                         break
-                    exhausted = campaign['reserved_usd'] + sum(costs) + cost > campaign['budget_usd'] + 1e-9
-                    if exhausted:
-                        self.finish(task,'budget_blocked','Campaign spending reservation exhausted; no API request submitted')
-                        tasks.pop(0); continue
                     selected.append(task); lines.append(raw); costs.append(cost); size += len(raw); tasks.pop(0)
                 if not selected:
                     break
@@ -842,7 +833,7 @@ class Engine:
                     self.state.save_task(task)
                 campaign['reserved_usd'] = round(campaign['reserved_usd']+sum(costs),6)
                 self.state.save_campaign(campaign)
-                self.checkpoint('runtime: reserve task identities and budget before OpenAI submission')
+                self.checkpoint('runtime: reserve task identities and record cost estimates before OpenAI submission')
                 self.submit(batch, continue_work=continue_work)
                 prepared_count += 1
         return prepared_count
@@ -885,6 +876,7 @@ class Engine:
 
     def tick(self, *, discover_source=True, discover_only=False, continue_work=None,
              record_collection=True):
+        spending.record(self)
         started_at = now()
         published_before = { (record['language'], record['article_id']):
                              (record.get('published') or {}).get('task') for record in self.state.records() }

@@ -10,8 +10,6 @@
   "max_tasks_per_request": 1000,
   "max_batch_requests": 500,
   "max_batch_bytes": 50000000,
-  "max_campaign_usd": 500,
-  "default_budget_usd": 30,
   "max_output_tokens": 16384,
   "review_output_tokens": 3000,
   "reasoning_review_output_tokens": 8192,
@@ -26,8 +24,6 @@
   "automatic_new_translation": true,
   "automatic_downstream_recovery": {
     "enabled": true,
-    "total_budget_usd": 10,
-    "campaign_budget_usd": 1,
     "max_articles": 3,
     "model": "gpt-6.1-sol",
     "review_model": "gpt-6.1-sol",
@@ -37,8 +33,6 @@
   "structural_feedback_version": "1",
   "autonomous_translation": {
     "enabled": true,
-    "total_budget_usd": 30,
-    "max_envelope_usd": 10,
     "max_active_tasks": 50,
     "page_size": 20
   }

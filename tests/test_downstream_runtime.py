@@ -82,7 +82,7 @@ class DownstreamTests(unittest.TestCase):
         calls=self.provider.create_calls
         again=accept(self.engine,self.request(id='repair-2'))
         self.assertTrue(again['empty_selection']); self.assertFalse(again['tasks'])
-        self.assertEqual(ledger(self.state)[0],2)
+        self.assertEqual(ledger(self.state)[0],0)
         self.run_repair(); self.assertEqual(self.provider.create_calls,calls)
         self.state.derive(self.config); validate_repository(self.config)
 
@@ -91,8 +91,8 @@ class DownstreamTests(unittest.TestCase):
         self.assertEqual(accept(self.engine,self.request()),first)
         with self.assertRaises(ContractError): accept(self.engine,self.request(model='gpt-6-astra'))
         self.engine.cancel_campaign(first['id'])
-        self.assertEqual(ledger(self.state)[0],2)
-        with self.assertRaises(ContractError): accept(self.engine,self.request(id='repair-2',budget_usd=1))
+        self.assertEqual(ledger(self.state)[0],0)
+        self.assertTrue(accept(self.engine,self.request(id='repair-2',budget_usd=1))['empty_selection'])
         self.assertEqual(self.original_campaign,self.state.read('state/campaigns/request-1.json'))
 
     def test_source_change_before_prepare_and_before_publication(self):
@@ -100,7 +100,7 @@ class DownstreamTests(unittest.TestCase):
         task=self.state.read(f'state/tasks/{campaign["tasks"][0]}/task.json')
         self.upstream.change_source(); self.engine.discover(); self.engine.prepare()
         self.assertEqual(self.state.read(f'state/tasks/{task["id"]}/task.json')['status'],'source_error')
-        self.assertEqual(ledger(self.state)[0],2)
+        self.assertEqual(ledger(self.state)[0],0)
 
     def test_public_and_active_replacements_are_skipped(self):
         self.enable()
@@ -141,7 +141,7 @@ class DownstreamTests(unittest.TestCase):
         self.policy['enabled']=False
         self.engine.collect(); self.engine.prepare()
         self.assertEqual(self.provider.create_calls,calls)
-        self.assertEqual(ledger(self.state)[0],2)
+        self.assertEqual(ledger(self.state)[0],0)
 
     def test_acceptance_checkpoint_failure_cannot_submit(self):
         self.enable()
@@ -149,7 +149,7 @@ class DownstreamTests(unittest.TestCase):
             with self.assertRaises(RuntimeError): accept(self.engine,self.request())
         c=self.state.read('state/campaigns/repair-1.json')
         self.assertFalse(c['downstream_acceptance_complete']); self.assertFalse(c['tasks'])
-        self.assertEqual(ledger(self.state)[0],2)
+        self.assertEqual(ledger(self.state)[0],0)
         self.assertEqual(accept(self.engine,self.request()),c)
         self.engine.prepare()
         validate_history(self.config,self.state,{t['id']:t for t in self.state.tasks()})
@@ -201,7 +201,7 @@ class DownstreamTests(unittest.TestCase):
         self.state.save_task(children[0]); self.engine.cancel_campaign(c['id'])
         c=self.state.read('state/campaigns/repair-1.json')
         self.assertEqual(c['status'],'acceptance_aborted'); self.assertEqual(c['tasks'],[children[0]['id']])
-        self.assertEqual(ledger(self.state)[0],2)
+        self.assertEqual(ledger(self.state)[0],0)
         self.state.derive(self.config); validate_repository(self.config)
 
     def test_ambiguous_response_does_not_hide_policy_signal(self):

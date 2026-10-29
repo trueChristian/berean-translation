@@ -36,7 +36,7 @@ class AutomaticSettlementTests(unittest.TestCase):
         self.assertEqual(self.events()[0].read_bytes(), event_bytes)
         self.assertEqual(autonomous.ledger(self.state), funding)
 
-    def test_budget_resume_uses_audited_settlement_within_original_cap(self):
+    def test_usage_settlement_remains_audited_without_spending_cap(self):
         self.config.runtime['autonomous_translation'].update(total_budget_usd=0.1, max_envelope_usd=0.1)
         drive(self.engine, self.provider, ticks=7)
         self.assertEqual(len(self.state.projection(self.config)['articles']), 2)
@@ -79,7 +79,7 @@ class AutomaticSettlementTests(unittest.TestCase):
         campaign = self.state.campaigns()[0]
         self.engine.cancel_campaign(campaign['id']); self.engine.tick()
         self.assertFalse(self.events())
-        self.assertEqual(float(autonomous.ledger(self.state)['allocated_usd']), campaign['budget_usd'])
+        self.assertEqual(float(autonomous.ledger(self.state)['allocated_usd']), campaign['automatic_allocation_usd'])
 
     def test_failed_result_with_complete_usage_can_settle(self):
         self.one_task(); self.engine.tick()
@@ -97,7 +97,7 @@ class AutomaticSettlementTests(unittest.TestCase):
         self.assertFalse(self.events())
         self.engine.tick()
         self.assertEqual(self.provider.create_calls, 1)
-        self.assertEqual(float(autonomous.ledger(self.state)['allocated_usd']), campaign['budget_usd'])
+        self.assertEqual(float(autonomous.ledger(self.state)['allocated_usd']), campaign['automatic_allocation_usd'])
 
     def test_settlement_tampering_duplicate_and_evidence_change_fail_closed(self):
         self.one_task(); drive(self.engine, self.provider, ticks=4)
@@ -117,13 +117,13 @@ class AutomaticSettlementTests(unittest.TestCase):
         self.state.write(f'state/tasks/{task["id"]}/attempts/translate.json', evidence)
         with self.assertRaises(ContractError): autonomous.ledger(self.state)
 
-    def test_two_admissions_share_cap_and_replays_cannot_double_allocate(self):
+    def test_two_admissions_exceed_old_cap_without_duplicate_allocation(self):
         self.config.runtime['autonomous_translation'].update(page_size=2, max_active_tasks=2,
                                                            total_budget_usd=0.1, max_envelope_usd=0.1)
         autonomous.enqueue(self.engine); self.engine.accept_queue(); self.engine.accept_queue()
         funding = autonomous.ledger(self.state)
-        self.assertLessEqual(funding['allocated_usd'], 0.1)
-        self.assertEqual(funding['count'], 1)
+        self.assertGreater(funding['allocated_usd'], 0.1)
+        self.assertEqual(funding['count'], 2)
         self.assertEqual(len({c['automatic_allocation_index'] for c in self.state.campaigns()}), funding['count'])
 
 

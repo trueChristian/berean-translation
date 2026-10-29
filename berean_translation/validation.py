@@ -114,6 +114,8 @@ def _validate_publication_history(state, tasks):
 
 def validate_repository(config, check_index=True):
     state = State(config.root)
+    from . import spending
+    spending.validate(state)
     result = validate_publications(config, check_index=check_index)
     records = state.records()
     seen = set()
@@ -152,8 +154,10 @@ def validate_repository(config, check_index=True):
     for campaign in state.campaigns():
         from .review_contract import frozen_version
         frozen_version(campaign)
-        if not 0 <= campaign['reserved_usd'] <= campaign['budget_usd']+1e-8:
-            raise ContractError('Campaign budget invariant violated')
+        from .common import money
+        spending.external(campaign)
+        money(campaign['reserved_usd'])
+        spending.historical_budget(campaign)
         if any(identity not in tasks for identity in campaign['tasks']):
             raise ContractError('Campaign references a missing task')
     from . import manual_admission

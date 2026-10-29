@@ -60,20 +60,22 @@ class AutonomousQueueTests(unittest.TestCase):
         self.assertEqual(self.state.read(path), archived)
         self.assertEqual(canonical(self.state.read(f'state/tasks/{previous["id"]}/task.json')), frozen)
 
-    def test_released_budget_holds_recheck_active_capacity_at_admission(self):
+    def test_retired_budget_holds_resume_within_active_capacity(self):
         self.limited_languages()
-        self.config.runtime['autonomous_translation'].update(page_size=1, max_active_tasks=1,
-                                                             max_envelope_usd=0.000001)
-        self.engine.tick(); self.engine.tick()
-        self.assertEqual(len(list((self.root/'state/automatic-holds').glob('*.json'))), 2)
-        self.assertEqual(self.tasks(), [])
-        self.config.runtime['autonomous_translation']['max_envelope_usd'] = 10
+        self.config.runtime['autonomous_translation'].update(page_size=2, max_active_tasks=2,
+                                                             max_envelope_usd=0)
+        identities = autonomous.enqueue(self.engine)
+        self.assertEqual(len(identities), 2)
+        for identity in identities:
+            self.state.write(f'state/automatic-holds/{identity}.json',
+                             {'reason':'automatic_budget_blocked','remaining_usd':0})
+        self.config.runtime['autonomous_translation'].update(page_size=1, max_active_tasks=1)
         self.engine.tick()
         self.assertEqual(len(self.tasks()), 1)
         self.engine.tick()
         self.assertEqual(len(self.tasks()), 1)
-        holds = [self.state.read(p.relative_to(self.root).as_posix()) for p in (self.root/'state/automatic-holds').glob('*.json')]
-        self.assertTrue(any(h['reason'] == 'automatic_capacity_wait' for h in holds))
+        holds = [self.state.read(f'state/automatic-holds/{identity}.json', {}) for identity in identities]
+        self.assertTrue(any(h.get('reason') == 'automatic_capacity_wait' for h in holds))
         drive(self.engine, self.provider, ticks=8)
         self.assertEqual(len(self.state.projection(self.config)['articles']), 2)
         self.assertEqual(len(self.tasks()), 2)
@@ -111,8 +113,8 @@ class AutonomousQueueTests(unittest.TestCase):
         def create(*args):
             campaign = self.state.read(f'state/campaigns/{args[2]}.json')
             self.assertEqual(set(campaign['stage_budget']['stages_usd']), {'translate', 'review1', 'correct', 'review2'})
-            self.assertEqual(campaign['budget_usd'], campaign['stage_budget']['total_reserved_usd'])
-            self.assertTrue(any('allocate full automatic' in m for m in self.git.checkpoints))
+            self.assertEqual(campaign['automatic_allocation_usd'], campaign['stage_budget']['total_reserved_usd'])
+            self.assertTrue(any('record full automatic stage estimates' in m for m in self.git.checkpoints))
             self.assertTrue(any('submission intent' in m for m in self.git.checkpoints))
             return original_create(*args)
         self.provider.create = create
@@ -151,14 +153,13 @@ class AutonomousQueueTests(unittest.TestCase):
         self.assertEqual({p: p.read_bytes() for p in self.state.path('state').rglob('*') if p.is_file()}, before)
         self.assertEqual((self.provider.upload_calls, self.provider.create_calls), (0, 0))
 
-    def test_larger_current_request_is_blocked_by_original_stage_ceiling(self):
+    def test_larger_current_request_is_not_blocked_by_original_cost_estimate(self):
         self.limited_languages()
         self.config.runtime['review_contract_version'] = 2
         self.config.runtime['autonomous_translation']['page_size'] = 1
         identity = autonomous.enqueue(self.engine)[0]
         campaign = autonomous.accept(self.engine, self.state.read(f'state/queue/{identity}.json'))
         allocation = autonomous.ledger(self.state)['allocated_usd']
-        frozen_campaign = canonical(campaign)
         current_prompt = self.config.prompt
         def larger_prompt(name):
             return current_prompt(name) + '\nAdditional current guidance. ' * 500
@@ -166,13 +167,12 @@ class AutonomousQueueTests(unittest.TestCase):
             autonomous.validate_history(self.config, self.state)
             self.engine.prepare(max_batches=1)
         task = self.state.read(f'state/tasks/{campaign["tasks"][0]}/task.json')
-        self.assertEqual(task['status'], 'not_ready')
-        self.assertIn('frozen complete-stage reservation', task['failure'])
-        self.assertEqual((task['translation_attempts'], task['review_attempts']), (0, 0))
-        self.assertEqual(canonical(self.state.read(f'state/campaigns/{identity}.json')), frozen_campaign)
+        self.assertEqual(task['status'], 'in_batch')
+        self.assertEqual((task['translation_attempts'], task['review_attempts']), (1, 0))
+        current = self.state.read(f'state/campaigns/{identity}.json')
+        self.assertEqual(current['stage_budget'], campaign['stage_budget'])
         self.assertEqual(autonomous.ledger(self.state)['allocated_usd'], allocation)
-        self.assertEqual((self.provider.upload_calls, self.provider.create_calls), (0, 0))
-        self.assertEqual(self.state.batches(), [])
+        self.assertEqual((self.provider.upload_calls, self.provider.create_calls), (1, 1))
 
     def make_saved(self, stage='review2', kind=None):
         self.config.runtime['autonomous_translation']['enabled'] = False
@@ -230,21 +230,20 @@ class AutonomousQueueTests(unittest.TestCase):
             self.upstream.change_source(); self.engine.tick()
             self.assertEqual(self.provider.create_calls, 0)
 
-    def test_shared_budget_pause_and_resume_keeps_pending_identity(self):
+    def test_retired_shared_budget_cannot_pause_existing_pending_requests(self):
         self.limited_languages()
-        autonomous.initialize(self.engine)
-        self.config.runtime['autonomous_translation']['total_budget_usd'] = 0.01
-        # Keep max envelope within the temporarily reduced live cap.
-        self.config.runtime['autonomous_translation']['max_envelope_usd'] = 0.01
-        self.engine.tick()
-        self.assertEqual(self.provider.create_calls, 0)
-        requests = {p.name: p.read_bytes() for p in (self.root/'state/queue').glob('auto-*.json')}
-        self.assertTrue(requests)
-        self.assertFalse(list((self.root/'state/queue-errors').glob('*.json')))
-        self.config.runtime['autonomous_translation'].update(total_budget_usd=30, max_envelope_usd=10)
+        self.config.runtime['autonomous_translation'].update(total_budget_usd=0, max_envelope_usd=0)
+        identities = autonomous.enqueue(self.engine)
+        requests = {i: self.state.path(f'state/queue/{i}.json').read_bytes() for i in identities}
+        for identity in identities:
+            self.state.write(f'state/automatic-holds/{identity}.json',
+                             {'reason':'automatic_budget_blocked','remaining_usd':0})
+        self.state.derive(self.config)
+        self.assertNotIn('automatic_budget_blocked', self.state.read('RECOVERY.json')['counts'])
+        self.assertEqual(self.state.read('state/automatic-status.json')['budget_enforcement'], 'none')
         drive(self.engine, self.provider, ticks=4)
         self.assertEqual(len(self.state.projection(self.config)['articles']), 2)
-        self.assertEqual({p.name:p.read_bytes() for p in (self.root/'state/queue').glob('auto-*.json')}, requests)
+        self.assertEqual({i:self.state.path(f'state/queue/{i}.json').read_bytes() for i in identities}, requests)
         self.validate()
 
     def test_policy_pause_blocks_next_stage_but_collects_submitted_work(self):
@@ -268,7 +267,7 @@ class AutonomousQueueTests(unittest.TestCase):
         original = self.engine.checkpoint
         def checkpoint(message):
             original(message)
-            if 'allocate full automatic' in message:
+            if 'record full automatic stage estimates' in message:
                 raise RuntimeError('simulated process stop after durable funding')
         with patch.object(self.engine, 'checkpoint', side_effect=checkpoint):
             with self.assertRaises(RuntimeError):
@@ -294,7 +293,7 @@ class AutonomousQueueTests(unittest.TestCase):
         self.engine.cancel_campaign(campaign['id'])
         self.assertEqual(autonomous.ledger(self.state)['allocated_usd'], before)
         campaign = self.state.read(f'state/campaigns/{campaign["id"]}.json')
-        campaign['budget_usd'] += 1; self.state.save_campaign(campaign)
+        campaign['automatic_allocation_usd'] += 1; self.state.save_campaign(campaign)
         with self.assertRaises(ContractError):
             autonomous.ledger(self.state)
 
@@ -309,6 +308,11 @@ class AutonomousQueueTests(unittest.TestCase):
             'requested_by':'old-approved-policy', 'continuation_policy':continuation.policy()}
         self.state.write('state/queue/old-shared.json', request)
         accepted = downstream.accept(self.engine, request)
+        # Reconstruct an actual pre-policy allocation, with its original hash.
+        accepted.pop('spending_policy')
+        accepted.update(downstream_allocation_usd=6, approved_total_usd=10)
+        accepted['funding_sha256'] = json_hash(downstream.funding_settings(accepted))
+        self.state.save_campaign(accepted)
         self.assertEqual(accepted['downstream_allocation_usd'], 6)
         article = self.state.read('state/source.json')['articles'][B]
         refresh = self.engine.accept_request({'id':'old-refresh', 'operation':'translate', 'issues':article['issue_id'],

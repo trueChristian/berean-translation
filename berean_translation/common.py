@@ -2,7 +2,6 @@
 from __future__ import annotations
 import hashlib
 import json
-import math
 import os
 import re
 import stat
@@ -111,29 +110,19 @@ def safe_path(root: Path, relative: str) -> Path:
     return target
 
 
-def positive_money(value: str | float, maximum: float = 500.0) -> float:
-    try:
-        number = float(value)
-    except (ValueError, TypeError) as exc:
-        raise ContractError('Budget must be a positive number in USD') from exc
-    if not math.isfinite(number) or not 0 < number <= maximum:
-        raise ContractError(f'Budget must be between zero and {maximum} USD')
-    return number
-
-
 def money(value):
     """Read a nonnegative USD ledger amount without rounding its precision."""
     try:
         result = Decimal(str(value))
     except (InvalidOperation, ValueError) as exc:
-        raise ContractError('Invalid budget ledger') from exc
-    if not result.is_finite() or result < 0 or result > 1000000000:
-        raise ContractError('Invalid budget ledger')
+        raise ContractError('Invalid cost ledger') from exc
+    if not result.is_finite() or result < 0:
+        raise ContractError('Invalid cost ledger')
     _, digits, exponent = result.as_tuple()
     while digits and digits[-1] == 0:
         digits, exponent = digits[:-1], exponent + 1
     if digits and exponent < -6:
-        raise ContractError('Budgets and ledgers require at most six decimal places in USD')
+        raise ContractError('Cost ledgers require at most six decimal places in USD')
     return result
 
 

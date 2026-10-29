@@ -66,10 +66,6 @@ on:
           - gpt-6.1-sol
           - gpt-6-astra
         default: gpt-6.1-sol
-      budget_usd:
-        description: "Optional manual campaign USD ceiling, including all stages"
-        type: string
-        default: "30"
       dry_run:
         description: "Preview selections only: no translations, reservations, or paid requests"
         type: boolean
@@ -101,6 +97,5 @@ jobs:
           INPUT_ISSUES: ${{ inputs.issues }}
           INPUT_MODEL: ${{ inputs.model }}
           INPUT_REVIEW_MODEL: ${{ inputs.review_model }}
-          INPUT_BUDGET_USD: ${{ inputs.budget_usd }}
           INPUT_DRY_RUN: ${{ inputs.dry_run }}
         run: python3 -m berean_translation enqueue-env

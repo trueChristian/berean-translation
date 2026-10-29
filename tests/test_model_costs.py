@@ -182,12 +182,12 @@ class ModelRequestCostTests(unittest.TestCase):
         with self.assertRaisesRegex(ContractError, 'context'):
             build_request(self.config, self.state, task)
 
-    def test_new_models_cannot_bypass_pre_submission_budget(self):
+    def test_new_models_are_not_limited_by_retired_campaign_budget(self):
         queue(self.state, model='gpt-6-astra', review_model='gpt-6-astra', budget_usd=0.01)
         self.engine.tick()
-        self.assertTrue(all(task['status'] == 'budget_blocked' for task in self.state.tasks()))
-        self.assertEqual(self.provider.upload_calls, 0)
-        self.assertEqual(self.provider.create_calls, 0)
+        self.assertTrue(all(task['status'] == 'in_batch' for task in self.state.tasks()))
+        self.assertEqual(self.provider.upload_calls, 1)
+        self.assertEqual(self.provider.create_calls, 1)
 
     def test_model_billing_metadata_is_validated_before_submission(self):
         for field, bad_values in (

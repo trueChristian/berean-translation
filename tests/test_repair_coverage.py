@@ -144,16 +144,16 @@ class RepairCoverageTests(unittest.TestCase):
         self.assertEqual(new_line['body']['max_completion_tokens'], old_line['body']['max_completion_tokens'])
 
 
-    def test_tight_envelope_blocks_before_upload_without_extra_authorization(self):
+    def test_tiny_legacy_budget_does_not_block_saved_candidate_repair(self):
         campaign, task = self.accepted(budget_usd=0.000001)
-        calls = self.provider.create_calls, self.provider.upload_calls
+        calls = self.provider.create_calls
         self.engine.prepare()
-        self.assertEqual((self.provider.create_calls, self.provider.upload_calls), calls)
-        self.assertEqual(self.state.read(f'state/tasks/{task["id"]}/task.json')['status'], 'budget_blocked')
+        self.assertEqual(self.provider.create_calls, calls + 1)
+        self.assertEqual(self.state.read(f'state/tasks/{task["id"]}/task.json')['status'], 'in_batch')
         after = self.state.read(f'state/campaigns/{campaign["id"]}.json')
         self.assertEqual(after['budget_usd'], 0.000001)
-        self.assertEqual(after['downstream_allocation_usd'], 0.000001)
-        self.assertEqual(after['reserved_usd'], 0)
+        self.assertEqual(after['downstream_allocation_usd'], 0)
+        self.assertGreater(after['reserved_usd'], after['budget_usd'])
 
     def test_unlisted_remaining_error_is_independently_rejected_without_another_repair(self):
         campaign, task = self.accepted()

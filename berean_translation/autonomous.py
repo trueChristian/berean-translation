@@ -1,4 +1,4 @@
-"""Owner-authorized archive queue with one permanent automatic spending authority.
+"""Owner-authorized archive queue with provider-managed spending.
 
 Selection is resumable pagination, never a completion limit. Each exact pair is
 admitted only with its complete remaining stage chain reserved. Historical manual
@@ -10,14 +10,14 @@ from collections import deque
 from datetime import datetime, timezone
 from .common import ContractError, csv_values, digest, json_hash, money, now, read_json
 from .state import TERMINAL
-from . import continuation, downstream, stage_budget
+from . import continuation, downstream, stage_budget, spending
 
 POLICY = 'autonomous_translation'
 AUTHORITY_PATH = 'state/automatic-budget.json'
 CURRENT_PROMPT_VERSION = '2.0.0'
 
 
-class BudgetUnavailable(ContractError):
+class AdmissionPaused(ContractError):
     """A durable pending request can be reconsidered without changing its identity."""
 
 
@@ -25,13 +25,11 @@ def policy(config):
     value = config.runtime.get(POLICY, {'enabled': False})
     if value == {'enabled': False}:
         return value
-    fields = {'enabled', 'total_budget_usd', 'max_envelope_usd', 'max_active_tasks', 'page_size'}
-    if not isinstance(value, dict) or set(value) != fields or type(value['enabled']) is not bool:
+    fields = {'enabled', 'max_active_tasks', 'page_size'}
+    retired = {'total_budget_usd', 'max_envelope_usd'}
+    if (not isinstance(value, dict) or set(value) - retired != fields
+            or type(value['enabled']) is not bool):
         raise ContractError('Invalid autonomous translation policy')
-    if not 0 < money(value['max_envelope_usd']) <= money(value['total_budget_usd']) <= money(30):
-        raise ContractError('Automatic authority is cumulative and at most $30; renewal requires new authorization')
-    if money(value['max_envelope_usd']) > money(10):
-        raise ContractError('Automatic complete-stage envelopes are at most $10')
     if any(type(value[k]) is not int or not 1 <= value[k] <= 1000
            for k in ('max_active_tasks', 'page_size')):
         raise ContractError('Automatic concurrency and page size must be positive bounded integers')
@@ -47,17 +45,19 @@ def legacy_allocations(state):
     return [{'campaign': c['id'], 'allocation_usd': c['downstream_allocation_usd']}
             for c in sorted(state.campaigns(), key=lambda c: c['id'])
             if c.get('downstream_recovery') and not c.get('dry_run') and not c.get('empty_selection')
-            and downstream.campaign_funding_scope(c) == downstream.SHARED_SCOPE]
+            and downstream.campaign_funding_scope(c) == downstream.SHARED_SCOPE
+            and not spending.external(c)]
 
 
 def initialize(engine):
     state = engine.state
+    spending.record(engine)
     if state.read(AUTHORITY_PATH) is not None:
         ledger(state)
         return
     baseline = legacy_allocations(state)
-    authority = {'version': 1, 'authorization': 'owner-2026-10-04-autonomous-archive',
-        'approved_total_usd': float(money(policy(engine.config)['total_budget_usd'])),
+    authority = {'version': 2, 'authorization': spending.POLICY_ID,
+        'approved_total_usd': None,
         'legacy_recovery_allocations': baseline,
         'separate_legacy_refresh_envelopes': [
             {'campaign': c['id'], 'budget_usd': c['budget_usd']}
@@ -65,14 +65,17 @@ def initialize(engine):
         'created_at': now()}
     authority['sha256'] = json_hash(authority)
     state.write(AUTHORITY_PATH, authority)
-    engine.checkpoint('runtime: record cumulative automatic authority and historical funding boundaries')
+    engine.checkpoint('runtime: record automatic cost history without a spending limit')
 
 
 def frozen(campaign):
-    return {key: campaign[key] for key in ('automatic_request', 'execution', 'initial_task',
+    result = {key: campaign[key] for key in ('automatic_request', 'execution', 'initial_task',
         'stage_budget', 'budget_usd', 'automatic_allocation_usd', 'automatic_allocation_index',
         'automatic_allocation_before_usd', 'automatic_approved_total_usd', 'automatic_authority_sha256',
         'automatic_settlement_credits')}
+    if 'spending_policy' in campaign:
+        result['spending_policy'] = campaign['spending_policy']
+    return result
 
 
 def ledger(state):
@@ -88,7 +91,7 @@ def ledger(state):
         if campaigns:
             raise ContractError('Autonomous funding authority is missing')
         return {'allocated_usd': money(0), 'count': 0, 'authority': None}
-    if (authority.get('version') != 1 or authority.get('sha256') != json_hash(
+    if (authority.get('version') not in (1, 2) or authority.get('sha256') != json_hash(
             {k: v for k, v in authority.items() if k != 'sha256'})
             or authority['legacy_recovery_allocations'] != legacy_allocations(state)):
         raise ContractError('Automatic authority or historical allocation baseline changed')
@@ -97,7 +100,10 @@ def ledger(state):
     gross = total
     by_id = {c['id']: c for c in campaigns}
     for index, campaign in enumerate(sorted(campaigns, key=lambda c: c['automatic_allocation_index']), 1):
+        external = spending.external(campaign)
         allocation = money(campaign['automatic_allocation_usd'])
+        expected_authority = spending.POLICY_SHA256 if external else authority['sha256']
+        expected_cap = None if external else authority['approved_total_usd']
         credits = campaign.get('automatic_settlement_credits', {})
         credit_total = money(0)
         for identity, sha256 in credits.items():
@@ -110,15 +116,13 @@ def ledger(state):
         if (campaign['automatic_allocation_index'] != index
                 or money(campaign['automatic_allocation_before_usd']) != total
                 or campaign.get('automatic_frozen_sha256') != json_hash(frozen(campaign))
-                or campaign['automatic_authority_sha256'] != authority['sha256']
-                or money(campaign['automatic_approved_total_usd']) != money(authority['approved_total_usd'])
+                or campaign['automatic_authority_sha256'] != expected_authority
+                or campaign['automatic_approved_total_usd'] != expected_cap
                 or allocation != money(campaign['stage_budget']['total_reserved_usd'])
-                or allocation != money(campaign['budget_usd'])):
+                or (campaign['budget_usd'] is not None if external else allocation != money(campaign['budget_usd']))):
             raise ContractError('Automatic permanent allocation or complete-stage reservation changed')
         total += allocation
         gross += allocation
-        if total > money(authority['approved_total_usd']):
-            raise ContractError('Automatic allocations exceed their cumulative authorization')
     released = sum((money(event['released_usd']) for event in settlements.values()), money(0))
     committed = gross - released
     return {'allocated_usd': committed, 'gross_allocated_usd': gross, 'released_usd': released,
@@ -156,7 +160,7 @@ def resume_stage(state, previous, *, prompt_version=CURRENT_PROMPT_VERSION):
         return None, 'legacy_response_outcome_unknown_requires_owner_attention'
     candidate = state.candidate(previous)
     if not uses_current_review(state, previous, prompt_version):
-        # The new review contract is a separately funded child of the exact
+        # The new review contract is a separately recorded child of the exact
         # saved predecessor, never a rewrite of its attempts or rejection.
         # First assess the whole saved translation under the ordinary rules;
         # old quotation/structure findings are not instructions to repair it.
@@ -187,7 +191,8 @@ def resume_stage(state, previous, *, prompt_version=CURRENT_PROMPT_VERSION):
     if kind in technical and sum(t.get('failure_kind') in technical for t in current_history) >= 2:
         return None, 'repeated_technical_failure_requires_attention'
     if not downstream.usable_candidate(candidate) or not previous.get('translation_model_actual'):
-        if kind in ('truncated', 'invalid_response', 'invalid_result'):
+        if (kind in ('truncated', 'invalid_response', 'invalid_result')
+                or spending.budget_only(previous) and previous['stage'] == 'translate'):
             return 'translate', None
         return None, 'no_usable_candidate_requires_owner_attention'
     quality = kind == 'quality_rejection' or 'Final review failed' in previous.get('failure', '')
@@ -205,7 +210,7 @@ def resume_stage(state, previous, *, prompt_version=CURRENT_PROMPT_VERSION):
                 if any(a in b or b in a for a in current_anchors for b in older_anchors):
                     return None, 'continuation_repeated_findings_requires_attention'
         return 'correct', None
-    if previous['status'] == 'budget_blocked':
+    if spending.budget_only(previous):
         return previous['stage'], None
     if previous['stage'] in ('review1', 'review2') and kind in ('truncated', 'invalid_response', 'invalid_result'):
         if sum(t['stage'].startswith('review') and t.get('failure_kind') in
@@ -397,7 +402,7 @@ def template(config, identity, recovery):
         'max_output_tokens': config.runtime['automatic_downstream_recovery']['max_output_tokens'] if recovery else config.runtime['max_output_tokens'],
         'review_output_tokens': config.runtime['automatic_downstream_recovery']['review_output_tokens'] if recovery else config.review_output_limit(review_model),
         'quality_threshold': config.runtime['quality_threshold'], **frozen_fields(config),
-        'automatic_continuation_policy': {'version': 3, 'cooldown_seconds': 3600, 'progress_required': True, 'funding': 'cumulative_authority'}}
+        'automatic_continuation_policy': {'version': 3, 'cooldown_seconds': 3600, 'progress_required': True, 'funding': 'provider_managed'}}
 
 
 def accept(engine, request):
@@ -414,14 +419,14 @@ def accept(engine, request):
         ledger(state)
         return existing
     if not enabled(config):
-        raise BudgetUnavailable('Automatic work is paused')
+        raise AdmissionPaused('Automatic work is paused')
     initialize(engine)
     active = sum(task['status'] not in TERMINAL for task in state.tasks() if task.get('autonomous'))
     if active >= policy(config)['max_active_tasks']:
         state.write(f'state/automatic-holds/{identity}.json', {
             'reason': 'automatic_capacity_wait', 'active_tasks': active,
             'maximum_active_tasks': policy(config)['max_active_tasks'], 'last_checked_at': now()})
-        raise BudgetUnavailable('Automatic work awaits a free active-task slot')
+        raise AdmissionPaused('Automatic work awaits a free active-task slot')
     spec = request['selection']
     article = state.read('state/source.json')['articles'].get(spec['article_id'])
     previous = state.read(f'state/tasks/{spec["previous_task_id"]}/task.json') if spec['previous_task_id'] else None
@@ -457,21 +462,15 @@ def accept(engine, request):
     stage_budget.enforce(task, candidate)
     funding = ledger(state)
     allocation = money(budget['total_reserved_usd'])
-    cap = min(money(policy(config)['total_budget_usd']), money(funding['authority']['approved_total_usd']))
-    if allocation <= money(0):
-        raise ContractError('Automatic work requires a positive finite stage reservation')
-    if allocation > money(policy(config)['max_envelope_usd']) or funding['allocated_usd'] + allocation > cap:
-        state.write(f'state/automatic-holds/{identity}.json', {'reason': 'automatic_budget_blocked',
-            'required_usd': float(allocation), 'remaining_usd': float(max(money(0), cap - funding['allocated_usd'])), 'last_checked_at': now()})
-        raise BudgetUnavailable('Complete remaining stage chain awaits automatic budget')
     campaign = {**execution, 'autonomous': True, 'operation': 'automatic', 'created_at': task['created_at'],
         'requested_by': request['requested_by'], 'automatic_request': copy.deepcopy(request),
         'request_sha256': json_hash(request), 'source_revision': source['revision'],
-        'budget_usd': float(allocation), 'reserved_usd': 0.0, 'reported_usage_usd': 0.0,
+        'budget_usd': None, 'spending_policy': spending.POLICY_ID,
+        'reserved_usd': 0.0, 'reported_usage_usd': 0.0,
         'automatic_allocation_usd': float(allocation), 'automatic_allocation_index': funding['count'] + 1,
         'automatic_allocation_before_usd': float(funding['allocated_usd']),
-        'automatic_approved_total_usd': funding['authority']['approved_total_usd'],
-        'automatic_authority_sha256': funding['authority']['sha256'], 'stage_budget': budget,
+        'automatic_approved_total_usd': None,
+        'automatic_authority_sha256': spending.POLICY_SHA256, 'stage_budget': budget,
         'automatic_settlement_credits': {identity: event['sha256'] for identity, event in funding['settlements'].items()},
         'execution': copy.deepcopy(execution), 'initial_task': copy.deepcopy(task),
         'tasks': [], 'selection': [spec], 'skipped': [], 'dry_run': False,
@@ -479,7 +478,7 @@ def accept(engine, request):
         'languages': [spec['language']], 'issues': [spec['issue_id']]}
     campaign['automatic_frozen_sha256'] = json_hash(frozen(campaign))
     state.save_campaign(campaign)
-    engine.checkpoint('runtime: allocate full automatic stage chain before materializing work')
+    engine.checkpoint('runtime: record full automatic stage estimates before materializing work')
     return stage_accepted(engine, campaign, candidate)
 
 
@@ -595,11 +594,9 @@ def settlement_proof(state, campaign, batches=None):
                       'attempts': attempts})
     usage = usage.quantize(Decimal('0.000001'), rounding=ROUND_CEILING)
     allocation = money(campaign['automatic_allocation_usd'])
-    if usage > allocation:
-        raise ContractError('Provider-reported usage exceeds the full-stage reservation; automatic admission must stop')
     return {'version': 1, 'campaign': campaign['id'], 'authority_sha256': campaign['automatic_authority_sha256'],
             'allocation_usd': float(allocation), 'provider_reported_usage_priced_usd': float(usage),
-            'released_usd': float(allocation - usage),
+            'released_usd': float(max(money(0), allocation - usage)),
             'tasks': {task['id']: json_hash(task) for task in tasks}, 'batches': proof}
 
 
@@ -683,7 +680,7 @@ def frontier(config, state, tasks, *, work_summary=None):
             continue
         request = read_json(path)
         spec = request['selection']
-        hold = state.read(f'state/automatic-holds/{path.stem}.json', {})
+        hold = spending.current_hold(state.read(f'state/automatic-holds/{path.stem}.json', {}))
         key = (spec['language'], spec['article_id'])
         by_pair[key] = {**by_pair.get(key, {}), 'language':key[0], 'article_id':key[1],
             'latest_task':spec['previous_task_id'], 'processing_status':'pending', 'request_id':path.stem,
@@ -719,10 +716,11 @@ def frontier(config, state, tasks, *, work_summary=None):
     if authority is None:
         funding['allocated_usd'] = sum((money(item['allocation_usd']) for item in legacy_allocations(state)), money(0))
         funding['gross_allocated_usd'] = funding['allocated_usd']
-    cap = authority['approved_total_usd'] if authority else policy(config).get('total_budget_usd', 0)
     return {'format_version': '2', 'derived': True, 'automatic_policy_version': 3,
             'source_revision': state.read('state/source.json', {}).get('revision'),
-            'automatic_enabled': enabled(config), 'approved_total_usd': cap,
+            'automatic_enabled': enabled(config), 'approved_total_usd': None,
+            'budget_enforcement': 'none', 'spending_policy': spending.POLICY_ID,
+            'historical_approved_total_usd': authority.get('approved_total_usd') if authority else None,
             'committed_usd': float(funding['allocated_usd']),
             'gross_allocated_usd': float(funding.get('gross_allocated_usd', 0)),
             'settled_unused_usd': float(funding.get('released_usd', 0)),

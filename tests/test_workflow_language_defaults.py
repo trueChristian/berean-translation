@@ -46,7 +46,7 @@ class WorkflowLanguageDefaultTests(unittest.TestCase):
         return enqueue.call_args.args[1]
 
     def test_language_defaults_and_other_workflow_limits(self):
-        for operation, budget in (('translate', '30'), ('review', '30')):
+        for operation in ('translate', 'review'):
             with self.subTest(operation=operation):
                 document = workflow(f'ai-{operation}.yml')
                 inputs = document['on']['workflow_dispatch']['inputs']
@@ -55,14 +55,14 @@ class WorkflowLanguageDefaultTests(unittest.TestCase):
                 self.assertEqual(inputs['languages']['default'], '')
                 self.assertEqual(inputs['issue_selection']['default'], 'next')
                 self.assertEqual(inputs['issues']['default'], '')
-                self.assertEqual(inputs['budget_usd']['default'], budget)
+                self.assertNotIn('budget_usd', inputs)
                 self.assertEqual(inputs['dry_run']['default'], 'true')
                 if operation == 'translate':
                     self.assertEqual(inputs['retry_failed']['default'], 'false')
                 else:
                     self.assertNotIn('retry_failed', inputs)
                 env = document['jobs']['enqueue']['steps'][-1]['env']
-                for field in ('language', 'languages', 'budget_usd', 'dry_run'):
+                for field in ('language', 'languages', 'dry_run'):
                     self.assertEqual(env[f'INPUT_{field.upper()}'], '${{ inputs.' + field + ' }}')
                 if operation == 'translate':
                     self.assertEqual(env['INPUT_RETRY_FAILED'], '${{ inputs.retry_failed }}')
@@ -71,7 +71,8 @@ class WorkflowLanguageDefaultTests(unittest.TestCase):
                 request = self.workflow_request(operation)
                 self.assertEqual(request['languages'], 'all')
                 self.assertEqual(request['issues'], 'next')
-                self.assertEqual(request['budget_usd'], budget)
+                self.assertNotIn('budget_usd', request)
+                self.assertNotIn('INPUT_BUDGET_USD', env)
                 self.assertIs(request['dry_run'], True)
                 self.assertIs(request['retry_failed'], False)
 
@@ -100,7 +101,7 @@ class WorkflowLanguageDefaultTests(unittest.TestCase):
         self.assertEqual(campaign['tasks'], [])
         self.assertEqual(campaign['reserved_usd'], 0)
         self.assertEqual(campaign['reported_usage_usd'], 0)
-        self.assertEqual(campaign['budget_usd'], 30)
+        self.assertIsNone(campaign['budget_usd'])
         self.assertEqual(self.state.tasks(), tasks_before)
         self.assertEqual(self.state.batches(), batches_before)
         self.assertEqual(self.provider.upload_calls, uploads_before)
@@ -126,27 +127,22 @@ class WorkflowLanguageDefaultTests(unittest.TestCase):
         with self.assertRaisesRegex(ContractError, 'max_tasks_per_request'):
             self.engine.accept_request(request)
         self.assertEqual(self.state.campaigns(), [])
-        self.config.runtime['max_tasks_per_request'] = 1000
-        request['budget_usd'] = self.config.runtime['max_campaign_usd'] + 1
-        with self.assertRaises(ContractError):
-            self.engine.accept_request(request)
-        self.assertEqual(self.state.campaigns(), [])
         self.assertEqual(self.state.tasks(), [])
         self.assertEqual(self.provider.upload_calls, 0)
         self.assertEqual(self.provider.create_calls, 0)
 
-    def test_explicit_paid_all_language_request_still_obeys_budget(self):
+    def test_paid_all_language_request_ignores_retired_budget_input_and_publishes(self):
         request = self.workflow_request('translate', INPUT_DRY_RUN='false',
                                         INPUT_BUDGET_USD='0.000001')
         self.state.write(f'state/queue/{request["id"]}.json', request)
         drive(self.engine, self.provider)
         campaign = self.state.campaigns()[0]
-        self.assertEqual(campaign['budget_usd'], 0.000001)
-        self.assertEqual(campaign['reserved_usd'], 0)
+        self.assertIsNone(campaign['budget_usd'])
+        self.assertGreater(campaign['reserved_usd'], 0)
         self.assertEqual(len(self.state.tasks()), 2 * len(self.config.languages))
-        self.assertTrue(all(task['status'] == 'budget_blocked' for task in self.state.tasks()))
-        self.assertEqual(self.provider.upload_calls, 0)
-        self.assertEqual(self.provider.create_calls, 0)
+        self.assertTrue(all(task['status'] == 'complete' for task in self.state.tasks()))
+        self.assertEqual(len(self.state.projection(self.config)['articles']), 2 * len(self.config.languages))
+
 
 if __name__ == '__main__':
     unittest.main()
