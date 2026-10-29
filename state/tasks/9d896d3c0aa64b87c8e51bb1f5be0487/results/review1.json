@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "852e1c7b-c75c-42e9-86b8-5204e4b3fac9",
+    "response_id": "chatcmpl-EeRavXFurp0UJhwcntp3TylsFGCxQ",
+    "usage": {
+      "completion_tokens": 357,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 114,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7925,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6822,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 8282
+    }
+  },
+  "received_at": "2026-10-29T21:10:41+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "translation.html, paragraphe citant Psaume 78:29-31",
+        "severity": "major",
+        "source_quote": "They were not estranged from their lust. But while their meat was yet in their mouths, The wrath of God came upon them, and slew the fattest of them, and smote down the chosen men of Israel",
+        "suggested_fix": "Remplacer ce passage par : « Ils ne s’étaient pas détournés de leur convoitise. Mais tandis que la viande était encore dans leur bouche, la colère de Dieu s’éleva contre eux ; il tua les plus corpulents d’entre eux et abattit les hommes d’élite d’Israël ». Conserver la référence et les balises existantes.",
+        "translation_quote": "Ils ne furent pas privés de ce qu’ils convoitaient. Mais tandis que la viande était encore dans leur bouche, la colère de Dieu s’éleva contre eux ; il frappa les plus vigoureux et abattit les jeunes hommes d’Israël"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 94
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "translation.html, paragraphe citant Psaume 78:29-31",
+      "severity": "major",
+      "source_quote": "They were not estranged from their lust. But while their meat was yet in their mouths, The wrath of God came upon them, and slew the fattest of them, and smote down the chosen men of Israel",
+      "suggested_fix": "Remplacer ce passage par : « Ils ne s’étaient pas détournés de leur convoitise. Mais tandis que la viande était encore dans leur bouche, la colère de Dieu s’éleva contre eux ; il tua les plus corpulents d’entre eux et abattit les hommes d’élite d’Israël ». Conserver la référence et les balises existantes.",
+      "translation_quote": "Ils ne furent pas privés de ce qu’ils convoitaient. Mais tandis que la viande était encore dans leur bouche, la colère de Dieu s’éleva contre eux ; il frappa les plus vigoureux et abattit les jeunes hommes d’Israël"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
