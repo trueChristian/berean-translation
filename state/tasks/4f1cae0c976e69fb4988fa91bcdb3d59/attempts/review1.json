@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-29T20:28:45+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"translation.html — paragraph beginning “আমাদের অনেকেরই, বিশেষ করে আমার”\",\n      \"severity\": \"major\",\n      \"source_quote\": \"say a word for Him out of a life that was living for Him\",\n      \"suggested_fix\": \"“যার মাধ্যমে ঈশ্বর তাঁর বিষয়ে একটি কথা বলতে চান” অংশটি করুন: “যার মাধ্যমে ঈশ্বর চান যে আমি তাঁর জন্য যাপিত জীবন থেকে তাঁর পক্ষে একটি কথা বলি”।\",\n      \"translation_quote\": \"যার মাধ্যমে ঈশ্বর তাঁর বিষয়ে একটি কথা বলতে চান\"\n    },\n    {\n      \"location\": \"translation.html — paragraph beginning “সংগ্রামরত কারও সঙ্গে”\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"How would I appreciate someone responding to me if I was in that specific situation?\",\n      \"suggested_fix\": \"প্রশ্নটি করুন: “আমি যদি ওই নির্দিষ্ট পরিস্থিতিতে থাকতাম, তবে অন্য কেউ আমার প্রতি কীভাবে সাড়া দিলে আমি তা পছন্দ করতাম?”\",\n      \"translation_quote\": \"আমি যদি ওই নির্দিষ্ট পরিস্থিতিতে থাকতাম, কেউ আমার প্রতি যেভাবে সাড়া দিত, তা আমার কেমন লাগত?\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": false,\n  \"score\": 94\n}",
+    "content_bytes": 1798,
+    "content_evidence_truncated": false,
+    "content_sha256": "e21ce874423feb059dfd05efa96a1afe95e7529bfd6e4d3132d71657af3bb255",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 467,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 161,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8640,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7537,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 9107
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}

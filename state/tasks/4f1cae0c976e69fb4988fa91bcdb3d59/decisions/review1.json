@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "translation.html — paragraph beginning “আমাদের অনেকেরই, বিশেষ করে আমার”",
+      "severity": "major",
+      "source_quote": "say a word for Him out of a life that was living for Him",
+      "suggested_fix": "“যার মাধ্যমে ঈশ্বর তাঁর বিষয়ে একটি কথা বলতে চান” অংশটি করুন: “যার মাধ্যমে ঈশ্বর চান যে আমি তাঁর জন্য যাপিত জীবন থেকে তাঁর পক্ষে একটি কথা বলি”।",
+      "translation_quote": "যার মাধ্যমে ঈশ্বর তাঁর বিষয়ে একটি কথা বলতে চান"
+    },
+    {
+      "location": "translation.html — paragraph beginning “সংগ্রামরত কারও সঙ্গে”",
+      "severity": "minor",
+      "source_quote": "How would I appreciate someone responding to me if I was in that specific situation?",
+      "suggested_fix": "প্রশ্নটি করুন: “আমি যদি ওই নির্দিষ্ট পরিস্থিতিতে থাকতাম, তবে অন্য কেউ আমার প্রতি কীভাবে সাড়া দিলে আমি তা পছন্দ করতাম?”",
+      "translation_quote": "আমি যদি ওই নির্দিষ্ট পরিস্থিতিতে থাকতাম, কেউ আমার প্রতি যেভাবে সাড়া দিত, তা আমার কেমন লাগত?"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
