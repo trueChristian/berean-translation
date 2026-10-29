@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "html، قسم «قوة الله»، الفقرة الأولى، الجملة الأخيرة",
+      "severity": "minor",
+      "source_quote": "Forty years later there hardly exists a scene without it.",
+      "suggested_fix": "وبعد أربعين سنة، لا يكاد يوجد مشهد يخلو منها.",
+      "translation_quote": "وبعد أربعين سنة، لا يكاد يوجد مشهد تخلو منه."
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

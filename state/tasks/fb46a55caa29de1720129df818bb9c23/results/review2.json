@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "8dd5d26f-1912-4dd3-b253-f85a6f93c1d7",
+    "response_id": "chatcmpl-EeRZCEnZAwCz9dRBKkifoPApEmYRs",
+    "usage": {
+      "completion_tokens": 205,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 95,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9080,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7977,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 9285
+    }
+  },
+  "received_at": "2026-10-29T21:10:22+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "html، قسم «قوة الله»، الفقرة الأولى، الجملة الأخيرة",
+        "severity": "minor",
+        "source_quote": "Forty years later there hardly exists a scene without it.",
+        "suggested_fix": "وبعد أربعين سنة، لا يكاد يوجد مشهد يخلو منها.",
+        "translation_quote": "وبعد أربعين سنة، لا يكاد يوجد مشهد تخلو منه."
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}
