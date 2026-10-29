@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "69e2bb9fad3949dcbe62e908f3fc03d1",
   "campaign": "auto-0dc2388f1033d71406e99c09c747d71b25cbc778f4295e6e7a9f797b9b5608f0",
   "created_at": "2026-10-29T12:25:32+00:00",
   "events": [
@@ -48,81 +47,31 @@
         },
         "total_tokens": 8121
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 107,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 75,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4973,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 4970,
+          "cached_tokens": 0
+        },
+        "total_tokens": 5080
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "html, div.lyrics, строфа 1, строки 3–4",
-      "severity": "major",
-      "source_quote": "In Thy pleasant pastures feed us,<br>\n    For our use Thy folds prepare:",
-      "suggested_fix": "Замени эти строки на: «На Твоих прекрасных пастбищах питай нас,<br>\n    Приготовь для нас Твои овечьи загоны:».",
-      "translation_quote": "На Твоих пастбищах вкусно подкорми нас,<br>\n    Кольцо Твоё для нас приготовь:"
-    },
-    {
-      "location": "html, div.lyrics, строфа 3, строки 6 и 8",
-      "severity": "major",
-      "source_quote": "Early let us turn to Thee.",
-      "suggested_fix": "В обоих повторениях заменить на: «Дай нам с ранних лет обратиться к Тебе.»",
-      "translation_quote": "Рано позовём Тебя к Себе."
-    },
-    {
-      "location": "html, абзац 3, описание ведущих пения",
-      "severity": "major",
-      "source_quote": "They took turns choosing a song and then leading it for the congregation.",
-      "suggested_fix": "Заменить предложение на: «Они по очереди выбирали песню и затем вели общее пение.»",
-      "translation_quote": "Они по очереди выбирали песню и затем исполняли её для общины."
-    },
-    {
-      "location": "html, абзац 14, слова матери",
-      "severity": "major",
-      "source_quote": "Did you know that Grandpas weren’t there today?",
-      "suggested_fix": "Заменить вопрос на: «Ты знала, что дедушки и бабушки сегодня не было на богослужении?»",
-      "translation_quote": "Ты знала, что дедушки сегодня не были на богослужении?"
-    },
-    {
-      "location": "html, абзацы 2, 6 и 11",
-      "severity": "minor",
-      "source_quote": "when he led a song; could lead the song; You asked him to lead a song today?",
-      "suggested_fix": "В соответствующих местах использовать естественные выражения: «когда он вёл пение», «ты не мог бы вести пение песни» и «Ты просила его сегодня вести пение?»",
-      "translation_quote": "когда он возглавлял песню; ты не мог бы возглавить песню; Ты просила его возглавить песню сегодня?"
-    },
-    {
-      "location": "html, абзац 3",
-      "severity": "minor",
-      "source_quote": "a little black hymnbook that had lots of songs with hard words",
-      "suggested_fix": "Заменить «из маленькой чёрной песенника» на «по маленькому чёрному песеннику», а «с тяжёлыми словами» — на «с трудными словами».",
-      "translation_quote": "из маленькой чёрной песенника, где было много песен с тяжёлыми словами"
-    },
-    {
-      "location": "html, абзац 6",
-      "severity": "minor",
-      "source_quote": "She felt suddenly shy at having asked such a question",
-      "suggested_fix": "Заменить на: «Задав такой вопрос, она вдруг смутилась».",
-      "translation_quote": "Ей вдруг стало стыдно за свой вопрос"
-    },
-    {
-      "location": "html, div.lyrics, строфа 3, строки 2–4",
-      "severity": "minor",
-      "source_quote": "Poor and sinful though we be.<br>\n    Thou hast mercy to relieve us,<br>\n    Grace to cleanse, and pow’r to free:",
-      "suggested_fix": "Заменить на: «Хотя мы бедны и грешны.<br>\n    У Тебя есть милость, чтобы облегчить наши страдания,<br>\n    Благодать, чтобы очистить нас, и сила, чтобы освободить:».",
-      "translation_quote": "Бедных и грешных, какими мы есть.<br>\n    У Тебя есть милость, чтобы облегчить нас,<br>\n    Благодать очистить и сила освободить:"
-    },
-    {
-      "location": "title",
-      "severity": "minor",
-      "source_quote": "The Promise of A Song",
-      "suggested_fix": "Использовать «Обещанная песня»: речь идёт об обещании дедушки, а не об обете.",
-      "translation_quote": "Обет песни"
-    },
-    {
-      "location": "html, абзацы 3–6, выделенные мысли Элли",
-      "severity": "minor",
-      "source_quote": "<em>She would be able to help along with this song!</em>; <em>I wish we would sing that song again,</em>; <em>It’s been a long time since we have.</em>; <em>Why couldn’t she ask Grandpa to choose that song next Sunday?</em>; <em>Yes, I will ask him and see what he says about that idea,</em>",
-      "suggested_fix": "Восстановить теги <em> вокруг соответствующих пяти фрагментов перевода, сохранив существующие абзацы.",
-      "translation_quote": "Она могла помочь с этой песней!; «Мне бы хотелось, чтобы мы снова пели эту песню»; «Давно мы её не пели»; «Почему бы мне не попросить дедушку выбрать эту песню в следующее воскресенье?»; «Да, я попрошу его и посмотрю, что он скажет об этой идее»"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-29T18:41:19+00:00",
   "id": "65f9091cbf58d3f05d367a386232ae13",
   "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
   "language": "rus",
@@ -211,7 +160,7 @@
     }
   },
   "protected": false,
-  "quality_score": 82,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6.1-sol",
@@ -230,7 +179,7 @@
     "total_reserved_usd": 0.718657,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "d141263ef5e8a0b21b848818d2926b208c06eeac97c84e44af137498d97ac1dd",
   "translation_model_actual": "gpt-6.1-sol"
