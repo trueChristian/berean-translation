@@ -1,0 +1,161 @@
+{
+  "findings": [
+    {
+      "location": "html, paragraph 2",
+      "severity": "major",
+      "source_quote": "his own cousin and stepsister",
+      "suggested_fix": "Αντικαταστήστε το «την ξαδέλφη και ετεροθαλή αδελφή του» με «την ξαδέλφη του, που είχε γίνει και θετή αδελφή του».",
+      "translation_quote": "την ξαδέλφη και ετεροθαλή αδελφή του"
+    },
+    {
+      "location": "html, paragraph 3",
+      "severity": "major",
+      "source_quote": "lowering taxes and the price of food",
+      "suggested_fix": "Αντικαταστήστε το «της τιμής του ψωμιού» με «των τιμών των τροφίμων».",
+      "translation_quote": "τη μείωση των φόρων και της τιμής του ψωμιού"
+    },
+    {
+      "location": "html, paragraph 4",
+      "severity": "major",
+      "source_quote": "killed his brother-in-law",
+      "suggested_fix": "Αντικαταστήστε το «τον γαμπρό του» με «τον κουνιάδο του».",
+      "translation_quote": "σκότωσε τον γαμπρό του"
+    },
+    {
+      "location": "html, paragraph 4",
+      "severity": "major",
+      "source_quote": "he had Octavia beheaded on false charges of being unfaithful",
+      "suggested_fix": "Αποδώστε ως «διέταξε να αποκεφαλιστεί η Οκταβία με ψεύτικες κατηγορίες απιστίας», διατηρώντας την ευθύνη του Νέρωνα.",
+      "translation_quote": "η Οκταβία αποκεφαλίστηκε με ψεύτικες κατηγορίες απιστίας"
+    },
+    {
+      "location": "html, paragraph 5",
+      "severity": "major",
+      "source_quote": "Undeterred, Nero dispatched his executioners to stab her to death in broad daylight.",
+      "suggested_fix": "Αποδώστε ως «Χωρίς να πτοηθεί, ο Νέρων έστειλε τους εκτελεστές του να τη μαχαιρώσουν μέχρι θανάτου μέρα μεσημέρι».",
+      "translation_quote": "Αδιάφορος, ο Νέρων έστειλε τους εκτελεστές του να τη μαχαιρώσουν μέχρι θανάτου εν μέσω λευτεριάς."
+    },
+    {
+      "location": "html, paragraph 6",
+      "severity": "major",
+      "source_quote": "At this point, Nero’s slippery slope was only getting more slippery.",
+      "suggested_fix": "Αποδώστε ως «Σε αυτό το σημείο, ο ηθικός κατήφορος του Νέρωνα γινόταν όλο και πιο απότομος», χωρίς την πρόσθετη αναφορά σε παραφροσύνη.",
+      "translation_quote": "Από εκείνο το σημείο, η κλίση του Νέρωνα προς την παραφροσύνη γινόταν όλο και πιο απότομη."
+    },
+    {
+      "location": "html, paragraph 11, Tacitus quotation",
+      "severity": "major",
+      "source_quote": "Mockery of every sort was added to their deaths.",
+      "suggested_fix": "Αποδώστε ως «Στον θάνατό τους προστέθηκε κάθε είδους εξευτελισμός».",
+      "translation_quote": "Σε κάθε είδος εξευτελισμού προστέθηκε και ο θάνατός τους."
+    },
+    {
+      "location": "html, paragraph 15",
+      "severity": "major",
+      "source_quote": "What a testimony!",
+      "suggested_fix": "Αντικαταστήστε το «Τι μαρτύριο!» με «Τι μαρτυρία!».",
+      "translation_quote": "Τι μαρτύριο!"
+    },
+    {
+      "location": "html, paragraph 17",
+      "severity": "major",
+      "source_quote": "the unregenerate around us",
+      "suggested_fix": "Αντικαταστήστε το «οι άθεοι γύρω μας» με «οι μη αναγεννημένοι γύρω μας».",
+      "translation_quote": "οι άθεοι γύρω μας"
+    },
+    {
+      "location": "html, paragraph 18, final Scripture reference",
+      "severity": "major",
+      "source_quote": "–1 Corinthians 4:2.",
+      "suggested_fix": "Αλλάξτε μόνο την παραπομπή σε «– Α΄ Κορινθίους 4:2.», διατηρώντας το μεταφρασμένο περιεχόμενο του παραθέματος όπως παρατίθεται στην πηγή.",
+      "translation_quote": "– 1 Κορινθίους 4:1-2."
+    },
+    {
+      "location": "html, paragraph 19",
+      "severity": "major",
+      "source_quote": "in that soon-coming day",
+      "suggested_fix": "Αντικαταστήστε το «την έσχατη ημέρα» με «εκείνη την ημέρα που πλησιάζει».",
+      "translation_quote": "την έσχατη ημέρα"
+    },
+    {
+      "location": "html, paragraphs 14, 16, 18–19",
+      "severity": "minor",
+      "source_quote": "be afraid; for he beareth not the sword in vain ... not only for wrath, but also for conscience sake; “ministers of God”; Redeeming the time, because the days are evil",
+      "suggested_fix": "Χρησιμοποιήστε σύγχρονα ελληνικά: «να φοβάσαι, γιατί δεν κρατά το σπαθί χωρίς λόγο», «όχι μόνο εξαιτίας της οργής, αλλά και για λόγους συνείδησης», «υπηρέτες του Θεού» και «αξιοποιώντας τον χρόνο, επειδή οι μέρες είναι πονηρές». Εκσυγχρονίστε αντίστοιχα τις υπόλοιπες αρχαΐζουσες μορφές των παραθεμάτων, διατηρώντας τα υπάρχοντα HTML στοιχεία και τις παραπομπές.",
+      "translation_quote": "φόβηθι· διότι δεν φέρει την μάχαιραν μάταια ... όχι μόνον διά την οργήν, αλλά και διά την συνείδησιν; «υπηρέται του Θεού»; εξαγοραζόμενοι τον καιρόν, διότι οι ημέραι πονηραί εἰσιν; εξαγοραζόμενοι τον καιρόν"
+    },
+    {
+      "location": "html, paragraphs 2 and 16",
+      "severity": "minor",
+      "source_quote": "Claudius adopted Nero as his son; saw Nero",
+      "suggested_fix": "Διορθώστε και στα δύο σημεία την αιτιατική σε «τον Νέρωνα».",
+      "translation_quote": "Ο Κλαύδιος υιοθέτησε τον Νέρων ως γιο του; έβλεπαν τον Νέρων"
+    },
+    {
+      "location": "html, paragraph 4",
+      "severity": "minor",
+      "source_quote": "a freedwoman (a formerly enslaved person)",
+      "suggested_fix": "Αντικαταστήστε το «μια απολυμένη γυναίκα (πρώην σκλάβα)» με «μια απελεύθερη (πρώην σκλάβα)».",
+      "translation_quote": "μια απολυμένη γυναίκα (πρώην σκλάβα)"
+    },
+    {
+      "location": "html, paragraph 5",
+      "severity": "minor",
+      "source_quote": "escaped with her life",
+      "suggested_fix": "Αντικαταστήστε το «ξέφυγε με τη ζωή» με «κατάφερε να σωθεί».",
+      "translation_quote": "ξέφυγε με τη ζωή"
+    },
+    {
+      "location": "html, paragraph 6",
+      "severity": "minor",
+      "source_quote": "a slave that is said to have resembled her strongly, and they were married",
+      "suggested_fix": "Αποδώστε ως «έναν σκλάβο που λέγεται ότι της έμοιαζε πολύ, και τον παντρεύτηκε», αποκαθιστώντας και την επιφύλαξη της πηγής.",
+      "translation_quote": "έναν σκλάβο που έμοιαζε έντονα με αυτήν, και τον παντρεύτηκαν"
+    },
+    {
+      "location": "html, paragraphs 8–9",
+      "severity": "minor",
+      "source_quote": "chariot riders; charioteers",
+      "suggested_fix": "Αντικαταστήστε και τις δύο εμφανίσεις του «αρματοδότες» με «ηνίοχοι».",
+      "translation_quote": "οι αρματοδότες δικαιούνταν; πώς ένιωσαν οι αρματοδότες"
+    },
+    {
+      "location": "html, paragraph 8",
+      "severity": "minor",
+      "source_quote": "the winner would be celebrated and highly paid",
+      "suggested_fix": "Αποδώστε ως «ο νικητής θα δεχόταν μεγάλες τιμές και υψηλή αμοιβή».",
+      "translation_quote": "ο νικητής θα γινόταν λουσμένος με τιμές και μεγάλες αμοιβές"
+    },
+    {
+      "location": "html, paragraph 11",
+      "severity": "minor",
+      "source_quote": "Nero fastened the guilt and inflicted the most exquisite tortures",
+      "suggested_fix": "Διορθώστε το «Νέρων απέδωσε την ενοχή και υπέβαλε σε τα χείριστα βασανιστήρια» σε «Ο Νέρων απέδωσε την ενοχή και υπέβαλε στα πιο φρικτά βασανιστήρια».",
+      "translation_quote": "Νέρων απέδωσε την ενοχή και υπέβαλε σε τα χείριστα βασανιστήρια"
+    },
+    {
+      "location": "html, paragraph 17",
+      "severity": "minor",
+      "source_quote": "picking apart the faults ... our “easy living”",
+      "suggested_fix": "Χρησιμοποιήστε «επικρίνοντας σχολαστικά τα ελαττώματα» αντί για «αποσυναρμολογώντας τα ελαττώματα» και «η “άνετη ζωή” μας» αντί για «το “εύκολο βίο” μας».",
+      "translation_quote": "αποσυναρμολογώντας τα ελαττώματα ... το «εύκολο βίο» μας"
+    },
+    {
+      "location": "html, paragraph 19",
+      "severity": "minor",
+      "source_quote": "committed, born-again, Bible-believing Christians",
+      "suggested_fix": "Αποδώστε ως «αφοσιωμένοι, αναγεννημένοι Χριστιανοί που πιστεύουν στην Αγία Γραφή».",
+      "translation_quote": "δεσμευμένοι, αναγεννημένοι, Βίβλου-πιστεύοντες Χριστιανοί"
+    },
+    {
+      "location": "html, final paragraph",
+      "severity": "minor",
+      "source_quote": "Endnote:<br>",
+      "suggested_fix": "Μεταφράστε την ετικέτα ως «Σημείωση:<br>», διατηρώντας αμετάβλητη τη διεύθυνση που ακολουθεί.",
+      "translation_quote": "Endnote:<br>"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
