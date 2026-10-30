@@ -1,0 +1,126 @@
+{
+  "findings": [
+    {
+      "location": "html, paragraph 2",
+      "severity": "major",
+      "source_quote": "a watchful peace that can be shattered in a moment of wavering",
+      "suggested_fix": "Vervang met: “’n waaksame vrede wat in ’n oomblik van wankeling verbreek kan word”.",
+      "translation_quote": "’n waaksaamheid vrede wat in ’n oomblik van beving verbrak kan word"
+    },
+    {
+      "location": "html, paragraph 4",
+      "severity": "major",
+      "source_quote": "Suicide charges ... a banzai charge ... massed infantry yelling at the top of their voices as they charged",
+      "suggested_fix": "Vervang “Selfmoordlaes” met “Selfmoordstormlope”, “banzai-laai” met “banzai-stormloop”, en die verduideliking met “’n tipies nagtelike volskaalse aanval deur saamgetrekte infanterie wat luidkeels skree terwyl hulle storm”. Vervang ook “laaiende vyande” met “aanstormende vyande”.",
+      "translation_quote": "Selfmoordlaes ... ’n banzai-laai ... gesamentlike infanterie wat teen die toonbank skree terwyl hulle aanval ... laaiende vyande"
+    },
+    {
+      "location": "html, paragraph 5",
+      "severity": "major",
+      "source_quote": "Instead of machine guns and grenades",
+      "suggested_fix": "Vervang met “In plaas van masjiengewere en handgranate”.",
+      "translation_quote": "In plaas van mitraljeuse en granaatwerpers"
+    },
+    {
+      "location": "html, paragraphs 6–7",
+      "severity": "major",
+      "source_quote": "register for the draft ... this draft ... a similar draft",
+      "suggested_fix": "Vervang “vir die lotery moes registreer” met “vir diensplig moes registreer”, “hierdie lotery” met “hierdie oproep tot diensplig”, en “’n soortgelyke lotery” met “’n soortgelyke oproep tot diensplig”.",
+      "translation_quote": "vir die lotery moes registreer ... hierdie lotery ... ’n soortgelyke lotery"
+    },
+    {
+      "location": "html, paragraphs 7, 9–10, 12–13, 15, 21–22",
+      "severity": "major",
+      "source_quote": "conscientious objectors ... conscientious objectors’ (COs) ... COs",
+      "suggested_fix": "Gebruik “gewetensbeswaardes” in plaas van “oortuigingsvlugtelinge” in paragrawe 7 en 9–10, en die enkelvoud “gewetensbeswaarde” waar nodig. Definieer die afkorting in paragraaf 10 as “gewetensbeswaardes (GB’s)” en vervang alle daaropvolgende “OV’s” en “OV-status” in paragrawe 12–13, 15 en 21–22 met “GB’s” en “GB-status”.",
+      "translation_quote": "oortuigingsvlugtelinge ... oortuigingsvlugtelinge (OV’s) ... OV’s ... OV-status"
+    },
+    {
+      "location": "html, paragraph 9",
+      "severity": "major",
+      "source_quote": "provided labor for conservation efforts",
+      "suggested_fix": "Vervang “arbeid verskaf vir bewaringstoonbanke” met “arbeid vir natuurbewaringsprojekte verskaf”.",
+      "translation_quote": "arbeid verskaf vir bewaringstoonbanke"
+    },
+    {
+      "location": "html, paragraph 10",
+      "severity": "major",
+      "source_quote": "Some of their families were shunned or looked down on",
+      "suggested_fix": "Vervang met “Sommige van hul families is vermy of op neergesien”.",
+      "translation_quote": "Sommige van hul families is gestraf of neergesien"
+    },
+    {
+      "location": "html, paragraph 12",
+      "severity": "major",
+      "source_quote": "Troublesome ones would be bound in strait jackets for weeks",
+      "suggested_fix": "Vervang met “Pasiënte wat moeilikheid veroorsaak het, is vir weke in dwangbaadjies vasgebind”.",
+      "translation_quote": "Moelikheidwekkende persone is vir weke in stevighede vasgemaak"
+    },
+    {
+      "location": "html, paragraph 13",
+      "severity": "major",
+      "source_quote": "Ungodly influences abounded around them. ... The battle was still being waged",
+      "suggested_fix": "Vervang die twee betrokke sinne se gedeeltes met “Goddelose invloede was volop om hulle” en “Die stryd is steeds gevoer”.",
+      "translation_quote": "Goddelose invloede het om hulle geblyk. ... Die stryd is steeds aangebied"
+    },
+    {
+      "location": "html, paragraph 14",
+      "severity": "major",
+      "source_quote": "MacArthur dug in",
+      "suggested_fix": "Vervang “MacArthur ingeskop” met “MacArthur hom ingegrawe”.",
+      "translation_quote": "MacArthur ingeskop"
+    },
+    {
+      "location": "html, paragraph 14",
+      "severity": "major",
+      "source_quote": "Not until the time when the island was all but taken, was he finally persuaded",
+      "suggested_fix": "Vervang “Net totdat die eiland byna heeltemal ingeneem was” met “Eers toe die eiland byna heeltemal ingeneem was”.",
+      "translation_quote": "Net totdat die eiland byna heeltemal ingeneem was, is hy uiteindelik oorreed"
+    },
+    {
+      "location": "html, paragraph 14",
+      "severity": "major",
+      "source_quote": "“I shall return.”",
+      "suggested_fix": "Vertaal die aanhaling as “Ek sal terugkeer.”",
+      "translation_quote": "“I shall return.”"
+    },
+    {
+      "location": "html, paragraph 17",
+      "severity": "major",
+      "source_quote": "The island nation had suffered through the years of the enemy occupation.",
+      "suggested_fix": "Vervang met “Die eilandnasie het gedurende die jare van vyandelike besetting gely.”",
+      "translation_quote": "Die eilandnasie het deur die jare van vyandelike besetting geraak."
+    },
+    {
+      "location": "html, paragraph 17",
+      "severity": "major",
+      "source_quote": "prison camps— housing prisoners of war and those accused of aiding the allies",
+      "suggested_fix": "Vervang met “gevangeniskampe gehuisves—kampe met krygsgevangenes en diegene wat daarvan beskuldig is dat hulle die Geallieerdes gehelp het”.",
+      "translation_quote": "gevangeniskampe gehuisves—kampte met oorlogsvanginne en diegene wat van aide aan die bondgenote beskuldig is"
+    },
+    {
+      "location": "html, figure/figcaption",
+      "severity": "major",
+      "source_quote": "AGAINST SPIRITUAL WICKEDNESS IN HIGH PLACES.",
+      "suggested_fix": "Vervang “IN HEERLIKE PLEKKE” met “IN DIE HOOGTES”, met behoud van die strong-element.",
+      "translation_quote": "TEEN GEESTELIKE BOOSAARDIGHEID IN HEERLIKE PLEKKE."
+    },
+    {
+      "location": "html, figure/img/@alt",
+      "severity": "major",
+      "source_quote": "Mountain silhouettes and birds at dusk beneath Ephesians 6:11-12",
+      "suggested_fix": "Vertaal slegs die alt-waarde as “Bergsilhoeëtte en voëls teen skemer onder Efesiërs 6:11-12”; behou die ander beeldattribute.",
+      "translation_quote": "Mountain silhouettes and birds at dusk beneath Ephesians 6:11-12"
+    },
+    {
+      "location": "html, paragraphs 4–5, 7–9, 11, 14–19, 21–22",
+      "severity": "minor",
+      "source_quote": "hosted battles; two-edged swords; animosity; Draftees; without ... going against; inferior to their own; inward crawl; massive casualties; a Mennonite youth; Unable to continue; battles had been fought; overseen; dragged on; sickened and died; having given up their faith; a fully surrendered life; They parallel each other",
+      "suggested_fix": "Herstel die ooreenstemmende taalvorme plaaslik: “was die toneel van gevegte”; “tweesnydende swaarde”; “vyandigheid”; “Dienspligtiges”; “sonder om teen ... in te gaan”; “aansienlik swakker as hul eie”; “geleidelike opmars na die binneland”; “swaar verliese gely”; “’n jong Mennoniet”; “Omdat hulle nie kon voortgaan nie, het die Duitsers om vrede gevra”; “is gevegte ... gevoer”; “toesig gehou oor”; “voortgesleep”; “siek geword en gesterf”; “het hul geloof prysgegee”; “’n volkome oorgegewe lewe”; “Hulle stem hier ... ooreen”. Behou die omliggende inhoud en HTML.",
+      "translation_quote": "veld geslaan vir gevegte; tweesnijdende swaarder; vijandigheid; Ingetrokkenes; sonder om in te stryd met; aansienlik minder as die hul s’n; binneste kruip; massiewe slagoffers gely; ’n Mennoniete‑jeug; Onvermoë om voort te gaan, het die Duitse; is ... oor gevegte gevoer; oor gesien; voortgedra; siek geword en oorlede; het hul geloof prysgee; ’n volkome oorgee lewe; Hulle parallelle mekaar"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
