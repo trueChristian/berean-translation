@@ -5,11 +5,215 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "e90f0acb3afc4178b3f57b52eb1207b6",
   "campaign": "auto-1d5f2c326ca61f45c567ff70019fa4e0359f0193081b1bd5cb9449cb1b34f9a0",
   "created_at": "2026-10-30T00:54:35+00:00",
-  "events": [],
-  "findings": [],
+  "events": [
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 3494,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 57,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8520,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 7417,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 12014
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "html, opening quotation (Matthew 4:18-22)",
+      "severity": "major",
+      "source_quote": "they straightway left their nets ... mending their nets ... they immediately left the ship and their father",
+      "suggested_fix": "החליפו את המשפטים הפגומים ב־\"הם עזבו מיד את רשתותיהם והלכו אחריו\", \"מתקנים את רשתותיהם\" ו־\"הם עזבו מיד את הספינה ואת אביהם והלכו אחריו\". את \"לכתו אחרי\" ו־\"כשסע משם\" החליפו ב־\"לכו אחריי\" ו־\"כשהמשיך משם\".",
+      "translation_quote": "וימשכו מיד את הרשתות ... מתקן את רשתותיו ... וימשכו מיד את הספינה ואת אביהם"
+    },
+    {
+      "location": "html, quotation of Matthew 3:11-12",
+      "severity": "major",
+      "source_quote": "I indeed baptize you with water unto repentance ... is mightier than I ... he shall baptize you with the Holy Ghost ... Whose fan is in his hand ... purge his floor ... gather his wheat",
+      "suggested_fix": "תקנו בתוך תגית em: \"אני מטביל אתכם במים לשם תשובה, אבל הבא אחריי חזק ממני, ואיני ראוי לשאת את נעליו. הוא יטביל אתכם ברוח הקודש ובאש. קלשון הזרייה בידו; הוא ינקה היטב את גורנו ויאסוף את חיטתו לאסם, אך את המוץ ישרוף באש שאינה נכבית\".",
+      "translation_quote": "ואני אמטיר אתכם ... והבא אחרי שאנכי, חזק ממנו הוא ... הוא ימלט אתכם ... לו הגורפת בידו ... ינקה את קומתו ... תבואתו"
+    },
+    {
+      "location": "html, paragraph beginning \"זה מדבר\"",
+      "severity": "major",
+      "source_quote": "Those who rejected Him were blown away",
+      "suggested_fix": "החליפו את \"נחתכו\" ב־\"נישאו ברוח\" כדי לשמר את דימוי הזרייה ולא לתאר חיתוך.",
+      "translation_quote": "אלה שסירבו לו נחתכו"
+    },
+    {
+      "location": "html, paragraph about the Sermon on the Mount",
+      "severity": "major",
+      "source_quote": "In the Sermon on the Mount, Jesus set forth teaching that challenged the most pious Pharisee",
+      "suggested_fix": "החליפו ב־\"בדרשה על ההר הציג ישוע הוראה שקראה תיגר אפילו על הפרוש האדוק ביותר\".",
+      "translation_quote": "בהרצאה על ההר, הציב ישוע תורת-לב שאיימה על הפרוש המתחשב ביותר"
+    },
+    {
+      "location": "html, first paragraph about Mary Magdalene",
+      "severity": "major",
+      "source_quote": "she was not only possessed of evil spirits",
+      "suggested_fix": "החליפו את \"היא לא הייתה רק נכבדה ברוחות רעות\" ב־\"לא רק ששלטו בה רוחות רעות\".",
+      "translation_quote": "היא לא הייתה רק נכבדה ברוחות רעות"
+    },
+    {
+      "location": "html, Luke 8:1-3 quotation",
+      "severity": "major",
+      "source_quote": "Joanna the wife of Chuza Herod's steward",
+      "suggested_fix": "החליפו ב־\"יוחנה אשת כוזא, הממונה על בית הורדוס\".",
+      "translation_quote": "ויואנה אשת חוזה החוזה"
+    },
+    {
+      "location": "html, paragraph beginning \"מריה הפכה\"",
+      "severity": "major",
+      "source_quote": "she lingered there ... Her diligent pursuit of Christ was rewarded",
+      "suggested_fix": "החליפו ב־\"היא נשארה שם לאחר שהאחרים עזבו. דבקותה המתמדת במשיח זכתה לגמול כאשר ישוע נגלה אליה תחילה\".",
+      "translation_quote": "היא שנאחזת שם ... מרדנותה השקדנית אחרי המשיח בוששה לה פירות"
+    },
+    {
+      "location": "html, John 20:15-16 quotation",
+      "severity": "major",
+      "source_quote": "She, supposing him to be the gardener ... tell me where thou hast laid him ... Master",
+      "suggested_fix": "תקנו ל־\"היא חשבה שהוא הגנן\" ול־\"אמור לי היכן הנחת אותו\"; החליפו את \"מאסטר\" ב־\"מורי\".",
+      "translation_quote": "היא, חשבתו על החוטר ... אמור לי איפה שמו ... מאסטר"
+    },
+    {
+      "location": "html, paragraph describing the paralytic's friends",
+      "severity": "major",
+      "source_quote": "removed enough of roof tiles to let their friend through and lowered him into the presence of Jesus",
+      "suggested_fix": "החליפו ב־\"הסירו די רעפים כדי להעביר את חברם דרך הפתח, והורידו אותו אל לפני ישוע\".",
+      "translation_quote": "הסירו חלק מן האריחים כדי להניח את ידידם מול ישוע"
+    },
+    {
+      "location": "html, Luke 5:22-24 quotation",
+      "severity": "major",
+      "source_quote": "(he said unto the sick of the palsy,)",
+      "suggested_fix": "החליפו ב־\"(אמר למשותק,)\".",
+      "translation_quote": "(אמר אל הנחבּל,)"
+    },
+    {
+      "location": "html, paragraph beginning \"לעקוב אחרי ישוע\"",
+      "severity": "major",
+      "source_quote": "a form of godliness that falls short of Christ’s righteousness",
+      "suggested_fix": "החליפו ב־\"מראית עין של יראת שמיים שאינה מגיעה לצדקת המשיח\".",
+      "translation_quote": "צורה של דת שמראה צדקנות, אך נשארת קצרה מול צדקת המשיח"
+    },
+    {
+      "location": "html, Romans 10:3 quotation",
+      "severity": "major",
+      "source_quote": "being ignorant of God's righteousness, and going about to establish their own righteousness",
+      "suggested_fix": "החליפו ב־\"מאחר שאינם מכירים את צדקת אלוהים ומנסים לכונן את צדקתם שלהם\".",
+      "translation_quote": "בלא ידיעת צדק אלהים, ובעשותם קפץ להקים צדקתם"
+    },
+    {
+      "location": "html, paragraph beginning \"'צדק אלהים' הזה\"",
+      "severity": "major",
+      "source_quote": "lead us to Calvary for it is there that we behold our dying Lord",
+      "suggested_fix": "החליפו ב־\"להוביל אותנו אל גולגולתא, כי שם אנו רואים את אדוננו הגוסס\".",
+      "translation_quote": "להוליך אותנו אל הגלגול שבו עומד אדוננו המת"
+    },
+    {
+      "location": "html, paragraph beginning \"דם ישוע\"",
+      "severity": "major",
+      "source_quote": "is imputed through forgiveness ... after being empowered through the Holy Spirit",
+      "suggested_fix": "החליפו את \"מצטייר דרך המחילה\" ב־\"נזקף לזכותנו באמצעות המחילה\", ואת \"לאחר שנעצמנו ברוח הקודש\" ב־\"לאחר שקיבלנו כוח באמצעות רוח הקודש\".",
+      "translation_quote": "מצטייר דרך המחילה ... לאחר שנעצמנו ברוח הקודש"
+    },
+    {
+      "location": "html, Adam Clark quotation",
+      "severity": "major",
+      "source_quote": "The person who invited the guests prepared such a garment for each",
+      "suggested_fix": "החליפו את \"המוזמן\" ב־\"מי שהזמין את האורחים\".",
+      "translation_quote": "המוזמן הכין בגד כזה לכל משתתף"
+    },
+    {
+      "location": "html, paragraph beginning \"'אי־לבישת בגד נישואין'\"",
+      "severity": "major",
+      "source_quote": "receive the gracious provision of the king",
+      "suggested_fix": "החליפו ב־\"לקבל את מה שהמלך סיפק בנדיבותו\".",
+      "translation_quote": "לקבל את הענווה הנדיבה של המלך"
+    },
+    {
+      "location": "html, Isaiah 64:6 quotation",
+      "severity": "major",
+      "source_quote": "all our righteousnesses are as filthy rags; and we all do fade as a leaf",
+      "suggested_fix": "החליפו ב־\"כל מעשי הצדקה שלנו הם כסמרטוטים מטונפים; וכולנו נובלים כעלה\".",
+      "translation_quote": "כל צדקינו כבטנפות; ונבלענו כמו עלה"
+    },
+    {
+      "location": "html, Ephesians 1:7 quotation and preceding paragraph",
+      "severity": "major",
+      "source_quote": "the forgiveness of sins ... we can be made righteous",
+      "suggested_fix": "החליפו את \"לכפרת החטאים\" ב־\"את סליחת החטאים\", ואת \"כדי שנוכל להתלבש בצדק\" ב־\"כדי שנוכל להיעשות צדיקים\".",
+      "translation_quote": "לכפרת החטאים ... כדי שנוכל להתלבש בצדק"
+    },
+    {
+      "location": "html, Luke 7:37-39 quotation",
+      "severity": "major",
+      "source_quote": "brought an alabaster box of ointment",
+      "suggested_fix": "החליפו את הצירוף המשובש ב־\"הביאה כלי בהט ובו משחת בושם\".",
+      "translation_quote": "הביאה באה לבשמים מארזובת"
+    },
+    {
+      "location": "html, paragraph beginning \"איננו יודעים שמה\"",
+      "severity": "major",
+      "source_quote": "An alabaster box of ointment ... washed them with her tears",
+      "suggested_fix": "החליפו את \"ארגז בשמים\" ב־\"כלי בהט ובו משחת בושם\", ואת \"וכיסתה אותן בדמעותיה\" ב־\"ורחצה אותן בדמעותיה\".",
+      "translation_quote": "ארגז בשמים ... וכיסתה אותן בדמעותיה"
+    },
+    {
+      "location": "html, Luke 7:44-47 quotation",
+      "severity": "major",
+      "source_quote": "My head with oil thou didst not anoint ... Her sins, which are many, are forgiven; for she loved much",
+      "suggested_fix": "החליפו ב־\"את ראשי לא משחת בשמן\" וב־\"חטאיה הרבים נסלחו לה, כי אהבה הרבה\". אין להציג את ריבוי חטאיה כסיבה לסליחה.",
+      "translation_quote": "לא שמחת את ראשי בשמן ... סלחו לה חטאותיה, כי רבות הן חטאותיה; כי היא אהבה הרבה"
+    },
+    {
+      "location": "html, concluding prose paragraph",
+      "severity": "major",
+      "source_quote": "the cause and the cure of the sin problem ... our fallen carnal nature",
+      "suggested_fix": "החליפו את \"ועם תרחומה\" ב־\"ועם התרופה לה\", ואת \"טבענו הבהמית הנפולה\" ב־\"טבענו הבשרי הנפול\".",
+      "translation_quote": "סיבת הבעיה של החטא ועם תרחומה ... טבענו הבהמית הנפולה"
+    },
+    {
+      "location": "html, all Scripture references and Matthew 22 prose reference",
+      "severity": "minor",
+      "source_quote": "Matthew 4:18-22; Matthew 3:11-12; Luke 8:1-3; John 20:15-16; Luke 5:20; Luke 5:21; Luke 5:22-24; Romans 10:3; Mathew 22; Isaiah 64:6; Ephesians 1:7; Luke 7:37-39; Luke 7:44-47; Luke 7:48; Matthew 1:21",
+      "suggested_fix": "החליפו בכל ההפניות את שמות הספרים באנגלית בשמות העבריים המקובלים: מתי, לוקס, יוחנן, רומים, ישעיהו ואפסים. שמרו על כל מספרי הפרקים והפסוקים, הטווחים ומיקומי ההפניות כפי שהם.",
+      "translation_quote": "Matthew 4:18-22; Matthew 3:11-12; Luke 8:1-3; John 20:15-16; Luke 5:20; Luke 5:21; Luke 5:22-24; Romans 10:3; ב-Mathew פרק כ\"ב; Isaiah 64:6; Ephesians 1:7; Luke 7:37-39; Luke 7:44-47; Luke 7:48; Matthew 1:21"
+    },
+    {
+      "location": "subtitle",
+      "severity": "major",
+      "source_quote": "The second article in the series “The Call of Discipleship”",
+      "suggested_fix": "המאמר השני בסדרה \"הקריאה להיות תלמידים\"",
+      "translation_quote": "המאמר השני בסדרה \"קריאת השליחות\""
+    },
+    {
+      "location": "html, final hymn line",
+      "severity": "major",
+      "source_quote": "Be of sin the double cure; save me ... through sanctification",
+      "suggested_fix": "החליפו ב־\"הֱיֵה התרופה הכפולה לחטא; הושיעני מאשמתו (באמצעות המחילה) ומכוחו (באמצעות ההתקדשות)\".",
+      "translation_quote": "להיות תרופה כפולה לחטא; הושיעני ... באמצעות הקדשה"
+    },
+    {
+      "location": "html, representative grammatical defects in narrative prose",
+      "severity": "minor",
+      "source_quote": "What exactly do we mean ... It was this promise and hope ... What a beautiful analogy",
+      "suggested_fix": "תקנו בהתאמה ל־\"למה בדיוק אנו מתכוונים\", \"ההבטחה והתקווה האלה הן שמשכו אליו המונים\" ו־\"איזה דימוי יפה\".",
+      "translation_quote": "מה בדיוק אנו מתכוונים ... זו ההבטחה והתקווה לאנושות חדשה שמשך אליו המונים ... איזו דימוי יפה"
+    }
+  ],
   "id": "754d175642ff5020c77ac8c1c96d72d2",
   "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
   "language": "heb",
@@ -98,11 +302,13 @@
     }
   },
   "protected": false,
+  "quality_score": 43,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/21c8641ce0ae285627965ca28d18397c39ccff0fa09ba301857fc1d0049b6b9d.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "review1",
     "max_candidate_bytes": 120000,
@@ -115,7 +321,7 @@
     "total_reserved_usd": 0.762398,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 0,
   "translation_key": "b3a0b32450038629cf20919c69af275c4549e0b458e25e2b5d03da547dfb97f7",
   "translation_model_actual": "gpt-5-mini-2025-08-07"
