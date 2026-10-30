@@ -8,10 +8,9 @@
     "active": 48,
     "already_translated": 108,
     "automatic_capacity_wait": 254,
-    "continuation_cooldown": 1,
     "continuation_progress_uncertain_requires_attention": 2,
     "continuation_repeated_findings_requires_attention": 1,
-    "eligible_automatic": 841,
+    "eligible_automatic": 842,
     "eligible_source_refresh": 187,
     "legacy_response_outcome_unknown_requires_owner_attention": 10,
     "pending_automatic_admission": 151,
@@ -2287,7 +2286,7 @@
       "language": "cmn",
       "latest_task": "c026c3c303dfe304cc596830a93a3c9b",
       "processing_status": "not_ready",
-      "reason": "continuation_cooldown"
+      "reason": "eligible_automatic"
     },
     {
       "accepted_cycles": 0,
