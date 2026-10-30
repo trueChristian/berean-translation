@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "e1771a89-6232-4b05-9980-d482dcc448dc",
+    "response_id": "chatcmpl-EeeUP4YYVuG7ILa97ybHwoFLTYDlx",
+    "usage": {
+      "completion_tokens": 873,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 746,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4225,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4222,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5098
+    }
+  },
+  "received_at": "2026-10-30T11:02:52+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Section 2, quoted sentence",
+        "severity": "major",
+        "source_quote": "“The Kingdom of God suffereth violence, and the violent take it by force.”",
+        "suggested_fix": "« Le royaume de Dieu est forcé, et ce sont les violents qui s’en emparent. »",
+        "translation_quote": "« Le royaume des cieux est forcé, et ce sont les violents qui s’en emparent. »"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 94
+  }
+}

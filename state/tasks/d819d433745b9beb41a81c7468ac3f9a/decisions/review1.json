@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Section 2, quoted sentence",
+      "severity": "major",
+      "source_quote": "“The Kingdom of God suffereth violence, and the violent take it by force.”",
+      "suggested_fix": "« Le royaume de Dieu est forcé, et ce sont les violents qui s’en emparent. »",
+      "translation_quote": "« Le royaume des cieux est forcé, et ce sont les violents qui s’en emparent. »"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

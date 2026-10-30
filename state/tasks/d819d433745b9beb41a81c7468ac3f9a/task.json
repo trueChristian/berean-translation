@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "57f536267385433688e9a5a236e1d786",
   "campaign": "auto-1d9323b4119bd594eeed3304c6efed37668c4439981eb4aac56255b65e308c7a",
   "created_at": "2026-10-30T01:07:33+00:00",
   "events": [
@@ -28,10 +27,38 @@
         },
         "total_tokens": 3871
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 873,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 746,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4225,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 4222,
+          "cached_tokens": 0
+        },
+        "total_tokens": 5098
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "Section 2, quoted sentence",
+      "severity": "major",
+      "source_quote": "“The Kingdom of God suffereth violence, and the violent take it by force.”",
+      "suggested_fix": "« Le royaume de Dieu est forcé, et ce sont les violents qui s’en emparent. »",
+      "translation_quote": "« Le royaume des cieux est forcé, et ce sont les violents qui s’en emparent. »"
+    }
+  ],
   "id": "d819d433745b9beb41a81c7468ac3f9a",
   "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
   "language": "fra",
@@ -120,11 +147,13 @@
     }
   },
   "protected": false,
+  "quality_score": 94,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/fe2a4b0674e6061085600197ed152af1fef7a737e5fd45a5d32f093a28d9a885.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "translate",
     "max_candidate_bytes": 120000,
@@ -138,7 +167,7 @@
     "total_reserved_usd": 0.087393,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "af0a2811aaad8facf9c0fb70e4f79fedbc83ae6bb333beb07b2d95c0bed6e2e6",
   "translation_model_actual": "gpt-6-luna"
