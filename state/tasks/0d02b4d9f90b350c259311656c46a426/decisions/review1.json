@@ -1,0 +1,42 @@
+{
+  "findings": [
+    {
+      "location": "translation.html，第5段，记忆讲章的描述",
+      "severity": "minor",
+      "source_quote": "or whatever else he wanted to memorize",
+      "suggested_fix": "将“或其它想要他记住的东西”改为“或他自己想记住的其他内容”。",
+      "translation_quote": "或其它想要他记住的东西"
+    },
+    {
+      "location": "translation.html，第6段首句",
+      "severity": "minor",
+      "source_quote": "Dr. Matheson’s final pastorate was taken up in 1886",
+      "suggested_fix": "在首句中补明这是他最后一任牧职，例如“马西森博士于1886年、44岁时开始了他最后一任牧职，担任爱丁堡大型圣伯纳德堂（St. Bernard’s Parish Church）的牧师”。",
+      "translation_quote": "马西森博士在44岁时于1886年受任为爱丁堡大型圣伯纳德堂（St. Bernard’s Parish Church）的牧师"
+    },
+    {
+      "location": "translation.html，第9段，引文开头",
+      "severity": "minor",
+      "source_quote": "on the evening of June 6, 1882",
+      "suggested_fix": "将“作于1882年6月6日”改为“作于1882年6月6日晚上”。",
+      "translation_quote": "作于1882年6月6日"
+    },
+    {
+      "location": "translation.html，第9段，婚礼描述",
+      "severity": "minor",
+      "source_quote": "It was the day of my sister’s wedding",
+      "suggested_fix": "将“那天是我妹妹的婚礼”改为“那天是我一位姊妹结婚的日子”，避免添加原文未说明的长幼关系。",
+      "translation_quote": "那天是我妹妹的婚礼"
+    },
+    {
+      "location": "translation.title",
+      "severity": "minor",
+      "source_quote": "O Love That Wilt Not Let Me Go",
+      "suggested_fix": "将标题改为“哦，不肯放开我的爱（O Love That Wilt Not Let Me Go）”，保留对爱的呼告及其不肯放手的确定含义。",
+      "translation_quote": "愿不舍我的爱（O Love That Wilt Not Let Me Go）"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}
