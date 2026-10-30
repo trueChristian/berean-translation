@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Alinea onder kop 4",
+      "severity": "minor",
+      "source_quote": "“we will never develop a fear of evil”",
+      "suggested_fix": "Vervang “een afkeer van het kwaad” door “vrees voor het kwaad”.",
+      "translation_quote": "“zullen we nooit een afkeer van het kwaad ontwikkelen”"
+    },
+    {
+      "location": "Slotparagraaf",
+      "severity": "minor",
+      "source_quote": "“it can only come through the revived individual”",
+      "suggested_fix": "Vervang “door de vernieuwing van de individuele gelovige” door “door de vernieuwde individuele gelovige”.",
+      "translation_quote": "“die kan alleen komen door de vernieuwing van de individuele gelovige”"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

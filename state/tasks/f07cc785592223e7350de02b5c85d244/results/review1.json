@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "ae0e51bd-33ea-42c7-9347-e411ad5a0e4b",
+    "response_id": "chatcmpl-Eeeqne3TV7tUVxiT0u4LSDrpBC0Oj",
+    "usage": {
+      "completion_tokens": 721,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 532,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4173,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3070,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 4894
+    }
+  },
+  "received_at": "2026-10-30T14:04:18+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Alinea onder kop 4",
+        "severity": "minor",
+        "source_quote": "“we will never develop a fear of evil”",
+        "suggested_fix": "Vervang “een afkeer van het kwaad” door “vrees voor het kwaad”.",
+        "translation_quote": "“zullen we nooit een afkeer van het kwaad ontwikkelen”"
+      },
+      {
+        "location": "Slotparagraaf",
+        "severity": "minor",
+        "source_quote": "“it can only come through the revived individual”",
+        "suggested_fix": "Vervang “door de vernieuwing van de individuele gelovige” door “door de vernieuwde individuele gelovige”.",
+        "translation_quote": "“die kan alleen komen door de vernieuwing van de individuele gelovige”"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 97
+  }
+}

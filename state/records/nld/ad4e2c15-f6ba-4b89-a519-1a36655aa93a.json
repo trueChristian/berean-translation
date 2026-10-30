@@ -7,9 +7,32 @@
       "event": "automatic_requested",
       "previous_task": null,
       "task": "f07cc785592223e7350de02b5c85d244"
+    },
+    {
+      "at": "2026-10-30T14:04:18+00:00",
+      "event": "complete",
+      "reason": null,
+      "task": "f07cc785592223e7350de02b5c85d244"
     }
   ],
   "language": "nld",
   "latest_task": "f07cc785592223e7350de02b5c85d244",
-  "published": null
+  "published": {
+    "html_path": "content/nld/articles/ad4e2c15-f6ba-4b89-a519-1a36655aa93a.html",
+    "html_sha256": "3bf5530ca88c1dce93eebcac4defaead458bc1fb13f74822a309194c4d31a9ea",
+    "human_review": null,
+    "human_reviewed": false,
+    "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
+    "metadata_path": "content/nld/articles/ad4e2c15-f6ba-4b89-a519-1a36655aa93a.json",
+    "metadata_sha256": "77cfc6ecec65b6f9cf1624a3767121087dcc6f4c2d3b4425c33b4f39ae3555c1",
+    "model": "gpt-6-luna",
+    "notice_html": "<aside class=\"translation-notice\" data-translation-notice=\"ai\" lang=\"nl\" dir=\"ltr\" role=\"note\">\n  <p>Dit artikel is vertaald met kunstmatige intelligentie van OpenAI (model: gpt-6-luna) en is nog niet door een mens gecontroleerd. Het Engelse origineel is de gezaghebbende versie. Raadpleeg bij twijfel over de betekenis het Engelse origineel. <a href=\"/en/articles/ad4e2c15-f6ba-4b89-a519-1a36655aa93a/\" data-source-article-id=\"ad4e2c15-f6ba-4b89-a519-1a36655aa93a\" hreflang=\"en\">Engels origineel</a></p>\n</aside>",
+    "published_at": "2026-10-30T14:04:18+00:00",
+    "quality_score": 97,
+    "review_model": "gpt-6-luna",
+    "source_revision": "ed75201a8e3b37913a14f4d949de33a7a0daa2c2",
+    "source_snapshot": "state/sources/fe2a4b0674e6061085600197ed152af1fef7a737e5fd45a5d32f093a28d9a885.json",
+    "task": "f07cc785592223e7350de02b5c85d244",
+    "translation_key": "af0a2811aaad8facf9c0fb70e4f79fedbc83ae6bb333beb07b2d95c0bed6e2e6"
+  }
 }
