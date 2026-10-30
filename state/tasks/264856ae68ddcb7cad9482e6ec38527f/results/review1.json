@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "d384379c-8733-486d-a542-c7188f320e4a",
+    "response_id": "chatcmpl-EeYHtDzZ86PnKb5LiYMWPzQ40W3Ni",
+    "usage": {
+      "completion_tokens": 1021,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 866,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9972,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8869,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 10993
+    }
+  },
+  "received_at": "2026-10-30T07:04:07+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph beginning “När hon var ledig…”",
+        "severity": "major",
+        "source_quote": "Such were the contrasts in this life – related by birth to the highest breeding and by choice to the greatest need.",
+        "suggested_fix": "Sådana var kontrasterna i detta liv – genom börd knuten till de högsta samhällsskikten och genom eget val till den största nöden.",
+        "translation_quote": "Sådana var kontrasterna i detta liv – genom börd knuten till den högsta bildningen och genom eget val till den största nöden."
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 92
+  }
+}

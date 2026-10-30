@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "491bdeeb555d40d0a37fdfe975f72453",
   "campaign": "auto-05460e5d942f869733c538b3f93105fd0c634ae2c83e0cbae1aca71eebf68b54",
   "created_at": "2026-10-29T23:02:09+00:00",
   "events": [
@@ -28,10 +27,38 @@
         },
         "total_tokens": 9618
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1021,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 866,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9972,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8869,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 10993
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "Paragraph beginning “När hon var ledig…”",
+      "severity": "major",
+      "source_quote": "Such were the contrasts in this life – related by birth to the highest breeding and by choice to the greatest need.",
+      "suggested_fix": "Sådana var kontrasterna i detta liv – genom börd knuten till de högsta samhällsskikten och genom eget val till den största nöden.",
+      "translation_quote": "Sådana var kontrasterna i detta liv – genom börd knuten till den högsta bildningen och genom eget val till den största nöden."
+    }
+  ],
   "id": "264856ae68ddcb7cad9482e6ec38527f",
   "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
   "language": "swe",
@@ -120,11 +147,13 @@
     }
   },
   "protected": false,
+  "quality_score": 92,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/17600542ba2281535063b51832b1ebaad8d50b662352bce1164408cda85adae0.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "translate",
     "max_candidate_bytes": 120000,
@@ -138,7 +167,7 @@
     "total_reserved_usd": 0.090525,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "385aeb5b4a7bcbf512c0d5b8310c2fd8f5f85b86d43d077caf80670ee93c6738",
   "translation_model_actual": "gpt-6-luna"
