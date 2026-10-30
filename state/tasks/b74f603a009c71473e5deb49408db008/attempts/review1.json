@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-30T07:04:41+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, section 10, paragraph 1\",\"severity\":\"minor\",\"source_quote\":\"Begin to expect.\",\"suggested_fix\":\"Comincia ad aspettarti.\",\"translation_quote\":\"Comincia ad aspettarti grandi cose.\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 262,
+    "content_evidence_truncated": false,
+    "content_sha256": "b6e2d4d516673f1ed0ce142d4f2ae5be8cad090cc55cad491b37b8d273d98bd7",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 590,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4303,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3200,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 4893
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

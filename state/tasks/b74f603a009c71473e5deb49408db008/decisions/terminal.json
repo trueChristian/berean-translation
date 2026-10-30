@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, section 10, paragraph 1",
+      "severity": "minor",
+      "source_quote": "Begin to expect.",
+      "suggested_fix": "Comincia ad aspettarti.",
+      "translation_quote": "Comincia ad aspettarti grandi cose."
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

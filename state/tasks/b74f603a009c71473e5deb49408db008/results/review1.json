@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "849c94ad-bd8d-4bc4-be23-263bf7bc8509",
+    "response_id": "chatcmpl-EeZIPahpmMueKbyOzWf7gNb1KSw2A",
+    "usage": {
+      "completion_tokens": 590,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4303,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3200,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 4893
+    }
+  },
+  "received_at": "2026-10-30T07:04:41+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, section 10, paragraph 1",
+        "severity": "minor",
+        "source_quote": "Begin to expect.",
+        "suggested_fix": "Comincia ad aspettarti.",
+        "translation_quote": "Comincia ad aspettarti grandi cose."
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}
