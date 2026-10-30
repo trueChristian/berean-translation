@@ -1,0 +1,73 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "a2a49dd5-1f3a-4413-bd51-6fad7cf64354",
+    "response_id": "chatcmpl-EeXiV3NpGBp7CszothqsM7rHQv44Q",
+    "usage": {
+      "completion_tokens": 581,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 10795,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9692,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 11376
+    }
+  },
+  "received_at": "2026-10-30T07:03:56+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "ছোটবেলায় বন্দিদের শিকল পরানোর ঘটনা",
+        "severity": "major",
+        "source_quote": "“the smith welding red-hot irons on a group of prisoners”",
+        "suggested_fix": "“একদল বন্দির জন্য কামারকে লাল-গরম লোহার বেড়ি জোড়া লাগাতে দেখেছিলেন”",
+        "translation_quote": "“এক কামার বন্দিদের একটি দলকে লাল-গরম লোহা দিয়ে শিকল পরাচ্ছেন”"
+      },
+      {
+        "location": "যিরমিয় ১:৬-এর উদ্ধৃতি",
+        "severity": "major",
+        "source_quote": "“Behold, I cannot speak; for I am a child.”",
+        "suggested_fix": "“দেখুন, আমি কথা বলতে পারি না; কারণ আমি শিশু।”",
+        "translation_quote": "“দেখুন, আমি কথা বলতে জানি না; কারণ আমি বালক।”"
+      },
+      {
+        "location": "যিরমিয় ১:৬-এর উদ্ধৃতি",
+        "severity": "major",
+        "source_quote": "“thou shalt go to all that I shall send thee”",
+        "suggested_fix": "“আমি যাদের কাছে তোমাকে পাঠাব, তাদের সকলের কাছে তুমি যাবে”",
+        "translation_quote": "“আমি যাদের কাছে তোমাকে পাঠাব, তাদের সকলের কাছে তুমি যাবে”"
+      },
+      {
+        "location": "যিহিষ্কেল ৩:১১-এর উদ্ধৃতি",
+        "severity": "major",
+        "source_quote": "“Go, get thee to them of the captivity, unto the children of thy people”",
+        "suggested_fix": "“যাও, তোমার স্বজাতির বন্দিদের কাছে যাও”",
+        "translation_quote": "“যাও, তোমার স্বজাতির বন্দিদের কাছে গিয়ে তাদের সঙ্গে কথা বলো”"
+      },
+      {
+        "location": "ব্রোচের শিলালিপি",
+        "severity": "major",
+        "source_quote": "“Anno ja Rauha, ‘Grace and Peace.’”",
+        "suggested_fix": "“আন্নো জা রাউহা, ‘অনুগ্রহ ও শান্তি।’”",
+        "translation_quote": "“আন্নো জা রাউহা, ‘অনুগ্রহ ও শান্তি।’”"
+      },
+      {
+        "location": "বন্দির তৈরি ব্রোচের বর্ণনা",
+        "severity": "major",
+        "source_quote": "“The sun of His love can consume all my sins as the power of sunshine has cleansed this bone.”",
+        "suggested_fix": "“তাঁর প্রেমের সূর্য আমার সব পাপ পুড়িয়ে ফেলতে পারে, যেমন রোদের শক্তি এই হাড়ের সব চর্বি শুকিয়ে পরিষ্কার করেছে।”",
+        "translation_quote": "“তাঁর প্রেমের সূর্য আমার সব পাপ পুড়িয়ে ফেলতে পারে, যেমন সূর্যের আলো এই হাড়কে পরিষ্কার করেছে।”"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 88
+  }
+}
