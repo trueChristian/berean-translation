@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "translation.html, citaat van Psalm 78:29-31",
+      "severity": "major",
+      "source_quote": "and smote down the chosen men of Israel",
+      "suggested_fix": "Vervang ‘en sloeg de jongelingen van Israël neder’ door ‘en sloeg de uitverkoren mannen van Israël neer’.",
+      "translation_quote": "en sloeg de jongelingen van Israël neder"
+    },
+    {
+      "location": "translation.html, alinea over de betekenis van verlangen",
+      "severity": "minor",
+      "source_quote": "Wish, want, crave, and covet all mean",
+      "suggested_fix": "Vervang ‘Wensen, willen, begeren en begeren’ door ‘Wensen, willen, hunkeren en begeren’.",
+      "translation_quote": "Wensen, willen, begeren en begeren"
+    },
+    {
+      "location": "translation.html, alinea die Achan introduceert",
+      "severity": "minor",
+      "source_quote": "Sometimes we are trying so hard to fulfill our fleshly comforts",
+      "suggested_fix": "Vervang ‘Soms proberen we zo hard om het onze vleselijke gemakken naar de zin te maken’ door ‘Soms proberen we zo hard onze behoefte aan lichamelijk comfort te bevredigen’.",
+      "translation_quote": "Soms proberen we zo hard om het onze vleselijke gemakken naar de zin te maken"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

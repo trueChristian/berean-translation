@@ -1,0 +1,52 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "8784a5f8-34bc-45ed-83d4-145f9ba708ea",
+    "response_id": "chatcmpl-EeVeTm8VmOfDsou5FLvaRj7MRTThP",
+    "usage": {
+      "completion_tokens": 464,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 95,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7736,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6633,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 8200
+    }
+  },
+  "received_at": "2026-10-30T01:28:33+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "translation.html, citaat van Psalm 78:29-31",
+        "severity": "major",
+        "source_quote": "and smote down the chosen men of Israel",
+        "suggested_fix": "Vervang ‘en sloeg de jongelingen van Israël neder’ door ‘en sloeg de uitverkoren mannen van Israël neer’.",
+        "translation_quote": "en sloeg de jongelingen van Israël neder"
+      },
+      {
+        "location": "translation.html, alinea over de betekenis van verlangen",
+        "severity": "minor",
+        "source_quote": "Wish, want, crave, and covet all mean",
+        "suggested_fix": "Vervang ‘Wensen, willen, begeren en begeren’ door ‘Wensen, willen, hunkeren en begeren’.",
+        "translation_quote": "Wensen, willen, begeren en begeren"
+      },
+      {
+        "location": "translation.html, alinea die Achan introduceert",
+        "severity": "minor",
+        "source_quote": "Sometimes we are trying so hard to fulfill our fleshly comforts",
+        "suggested_fix": "Vervang ‘Soms proberen we zo hard om het onze vleselijke gemakken naar de zin te maken’ door ‘Soms proberen we zo hard onze behoefte aan lichamelijk comfort te bevredigen’.",
+        "translation_quote": "Soms proberen we zo hard om het onze vleselijke gemakken naar de zin te maken"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 94
+  }
+}
