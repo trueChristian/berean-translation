@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "84c4a0fb006e49a6ae6e27dd3390bf63",
   "campaign": "auto-e890331f7fcdc2085f70bd915926e3cfd2f9b509633db1feca085b75ec24ddf2",
   "created_at": "2026-10-29T18:43:54+00:00",
   "events": [
@@ -48,81 +47,31 @@
         },
         "total_tokens": 8114
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 99,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 67,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4881,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 3778,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 4980
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "translation.html, paragraph beginning \"כן, אשאל אותו\"",
-      "severity": "major",
-      "source_quote": "She followed Grandpa out the door ... she quickly stepped up next to him ... she ducked back toward the doorway of the house.",
-      "suggested_fix": "Replace \"היא נסעה בעקבות סבא\" with \"היא הלכה בעקבות סבא\", \"היא הצטמצמה במהירות לידו\" with \"היא ניגשה אליו במהירות\", and \"ונמכרה חזרה לכיוון סף הבית\" with \"ונחפזה בחזרה לכיוון פתח הבית\".",
-      "translation_quote": "היא נסעה בעקבות סבא ... היא הצטמצמה במהירות לידו ... ונמכרה חזרה לכיוון סף הבית"
-    },
-    {
-      "location": "translation.html, paragraph beginning \"האם ידעת\"",
-      "severity": "major",
-      "source_quote": "Did you know that Grandpas weren’t there today?",
-      "suggested_fix": "Replace \"האם ידעת שסבים לא היו שם היום?\" with \"ידעת שסבא וסבתא לא היו שם היום?\" to identify Ellie's grandparents rather than grandfathers generally.",
-      "translation_quote": "האם ידעת שסבים לא היו שם היום?"
-    },
-    {
-      "location": "translation.html, div.lyrics, stanza 1, line 4",
-      "severity": "major",
-      "source_quote": "For our use Thy folds prepare:",
-      "suggested_fix": "Replace the line with \"הכן למעננו את מכלאות צאנך:\".",
-      "translation_quote": "עבור שימושנו עשה צורותיך מוכנות:"
-    },
-    {
-      "location": "translation.html, div.lyrics, stanza 2, line 4",
-      "severity": "major",
-      "source_quote": "Seek us when we go astray:",
-      "suggested_fix": "Replace the line with \"חפש אותנו כשאנו תועים בדרך:\".",
-      "translation_quote": "חפש אותנו כשהנלעג נודד:"
-    },
-    {
-      "location": "translation.html, div.lyrics, stanza 2, lines 6 and 8",
-      "severity": "major",
-      "source_quote": "Hear, O hear us when we pray.",
-      "suggested_fix": "In both occurrences, replace \"שמע, הו שמע אותנו כשתתפלל.\" with \"שמע, אנא שמע אותנו כשאנו מתפללים.\" The worshippers, not Jesus, are praying here.",
-      "translation_quote": "שמע, הו שמע אותנו כשתתפלל."
-    },
-    {
-      "location": "translation.html, opening paragraph",
-      "severity": "minor",
-      "source_quote": "Ellie edged her chair closer to the grown-ups ... Grandpa, Grandma, and Aunt Lily had stopped by for a visit",
-      "suggested_fix": "Replace \"אלי הזדחלה בכיסאה קרוב יותר לבוגרים\" with \"אלי קירבה את כיסאה למבוגרים\" and \"היו באים לביקור\" with \"באו לביקור\".",
-      "translation_quote": "אלי הזדחלה בכיסאה קרוב יותר לבוגרים ... סבא, סבתא ודודה לילי היו באים לביקור"
-    },
-    {
-      "location": "translation.html, paragraph beginning \"בכנסייתה של אלי\"",
-      "severity": "minor",
-      "source_quote": "They sang out of a little black hymnbook ... in the back of this little songbook was a section ... Her favorite song",
-      "suggested_fix": "Replace \"הם שרים\" with \"הם שרו\", \"בגב הספר הקטן הזה הייתה מדור\" with \"בסוף הספר הקטן הזה היה מדור\", and \"שירה האהובה\" with \"השיר האהוב עליה\".",
-      "translation_quote": "הם שרים ... בגב הספר הקטן הזה הייתה מדור ... שירה האהובה"
-    },
-    {
-      "location": "translation.html, Ellie's thoughts in the two paragraphs following the hymnbook description",
-      "severity": "minor",
-      "source_quote": "It’s been a long time since we have. ... Then a sudden thought struck her.",
-      "suggested_fix": "Replace \"עברה הרבה זמן מאז ששמענו אותו\" with \"עבר זמן רב מאז ששרנו אותו\" and \"מחשבה פתאומית ירדה בה\" with \"מחשבה פתאומית עלתה בדעתה\".",
-      "translation_quote": "עברה הרבה זמן מאז ששמענו אותו ... מחשבה פתאומית ירדה בה"
-    },
-    {
-      "location": "translation.html, paragraphs describing Sunday worship and the journey home",
-      "severity": "minor",
-      "source_quote": "worship services ... the song service ... after church was over",
-      "suggested_fix": "Replace \"בשירותי התפילה\" with \"בתפילות\", \"שהשירות של השירים יתחיל\" with \"שחלק השירה בתפילה יתחיל\", and \"אחרי שנגמרה הכנסייה\" with \"אחרי שהסתיימה התפילה בכנסייה\".",
-      "translation_quote": "בשירותי התפילה ... שהשירות של השירים יתחיל ... אחרי שנגמרה הכנסייה"
-    },
-    {
-      "location": "translation.html, div.lyrics, stanza 1 line 3; stanza 2 line 3; stanza 3 line 2; stanza 4 line 1",
-      "severity": "minor",
-      "source_quote": "In Thy pleasant pastures feed us ... from sin defend us ... Poor and sinful though we be ... Early let us seek Thy favor",
-      "suggested_fix": "Replace \"במרעים נעימים שלך רעה אותנו\" with \"רעה אותנו בשטחי המרעה הנעימים שלך\"; \"הגן מאתנו מפני החטא\" with \"הגן עלינו מפני החטא\"; \"עניים וחוטאים אף על פי שאנחנו\" with \"אף שאנחנו עניים וחוטאים\"; and \"מוקדם נחפש את חננתך\" with \"נבקש את חסדך כבר מראשית חיינו\".",
-      "translation_quote": "במרעים נעימים שלך רעה אותנו ... הגן מאתנו מפני החטא ... עניים וחוטאים אף על פי שאנחנו ... מוקדם נחפש את חננתך"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-30T02:32:38+00:00",
   "id": "09f529ae99fa0c6d69b6f8d13c1399bb",
   "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
   "language": "heb",
@@ -211,7 +160,7 @@
     }
   },
   "protected": false,
-  "quality_score": 73,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6.1-sol",
@@ -230,7 +179,7 @@
     "total_reserved_usd": 0.712721,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "d141263ef5e8a0b21b848818d2926b208c06eeac97c84e44af137498d97ac1dd",
   "translation_model_actual": "gpt-6.1-sol"
