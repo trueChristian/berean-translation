@@ -26,10 +26,17 @@
       "event": "complete",
       "reason": null,
       "task": "dd317af56e47171c166f47a4a61dc21c"
+    },
+    {
+      "at": "2026-10-30T19:30:42+00:00",
+      "campaign": "auto-fdb862582b3d8ccc4f3d5b767b48727e9f0563d8435227d3c8357790575c6b3c",
+      "event": "automatic_requested",
+      "previous_task": "dd317af56e47171c166f47a4a61dc21c",
+      "task": "0f9ffe7eb41e5586f92fa65743f4721c"
     }
   ],
   "language": "ell",
-  "latest_task": "dd317af56e47171c166f47a4a61dc21c",
+  "latest_task": "0f9ffe7eb41e5586f92fa65743f4721c",
   "published": {
     "html_path": "content/ell/articles/6b3e3e7e-b5fd-4701-9a63-699b90f17ec9.html",
     "html_sha256": "1b11761c5ff74585a736abe3523318c15d023b4bdad0ce872f9c9d22e31ab03c",

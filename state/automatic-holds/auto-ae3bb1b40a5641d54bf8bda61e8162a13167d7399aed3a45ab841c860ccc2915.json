@@ -1,6 +1,6 @@
 {
-  "last_checked_at": "2026-10-14T23:18:57+00:00",
-  "reason": "automatic_budget_blocked",
-  "remaining_usd": 0.027564,
-  "required_usd": 0.08613
+  "active_tasks": 50,
+  "last_checked_at": "2026-10-30T19:31:54+00:00",
+  "maximum_active_tasks": 50,
+  "reason": "automatic_capacity_wait"
 }
