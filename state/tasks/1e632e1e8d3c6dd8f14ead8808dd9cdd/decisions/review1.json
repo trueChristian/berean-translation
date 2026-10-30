@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Párrafo final",
+      "severity": "minor",
+      "source_quote": "And it can only come through the revived individual.",
+      "suggested_fix": "Y esta solo puede llegar por medio de la persona que ha experimentado un avivamiento.",
+      "translation_quote": "Y esta solo puede llegar por medio de la persona renovada."
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

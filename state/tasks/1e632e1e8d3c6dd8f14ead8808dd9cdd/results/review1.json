@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "d2602ac8-bc0b-4b28-866c-1a4ee636979f",
+    "response_id": "chatcmpl-EeVS40y3Zq4vQLeDFe4TcUyasICqL",
+    "usage": {
+      "completion_tokens": 668,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 565,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4087,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2984,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 4755
+    }
+  },
+  "received_at": "2026-10-30T01:19:41+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Párrafo final",
+        "severity": "minor",
+        "source_quote": "And it can only come through the revived individual.",
+        "suggested_fix": "Y esta solo puede llegar por medio de la persona que ha experimentado un avivamiento.",
+        "translation_quote": "Y esta solo puede llegar por medio de la persona renovada."
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}
