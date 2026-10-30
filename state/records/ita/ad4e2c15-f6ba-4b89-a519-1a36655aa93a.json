@@ -1,0 +1,15 @@
+{
+  "article_id": "ad4e2c15-f6ba-4b89-a519-1a36655aa93a",
+  "history": [
+    {
+      "at": "2026-10-30T02:35:12+00:00",
+      "campaign": "auto-b6939df157a3ad86730084e00683cd19286a3c105e50a278adb6bf8651e5a70c",
+      "event": "automatic_requested",
+      "previous_task": null,
+      "task": "b74f603a009c71473e5deb49408db008"
+    }
+  ],
+  "language": "ita",
+  "latest_task": "b74f603a009c71473e5deb49408db008",
+  "published": null
+}
