@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "translation.html, parágrafo iniciado por “A guerra terminou num piscar de olhos”",
+      "severity": "minor",
+      "source_quote": "Except for the formalities, the war was over. Over, but the temporary peace was bought with an astronomical price of human life.",
+      "suggested_fix": "Substituir “Terminado, mas a paz temporária” por “Terminada, mas a paz temporária”, fazendo a concordância com “a guerra”.",
+      "translation_quote": "Exceto pelas formalidades, a guerra havia terminado. Terminado, mas a paz temporária foi comprada com um preço astronômico em vidas humanas."
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

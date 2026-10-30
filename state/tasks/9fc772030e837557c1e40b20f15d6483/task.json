@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "8fff2b9130b74ec59984f8ee54c59882",
   "campaign": "auto-186c1c60aa298e6f95cc93cf4f085d1cf8afc3cab5f8b912bf90957cf3678106",
   "created_at": "2026-10-30T07:06:28+00:00",
   "events": [
@@ -48,53 +47,39 @@
         },
         "total_tokens": 12368
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 205,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 43,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8182,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8179,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8387
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "html, parágrafo 4",
-      "severity": "major",
-      "source_quote": "Destruction and carnage had become commonplace, none more so than in the Pacific theater.",
-      "suggested_fix": "Substituir a frase por: “A destruição e a carnificina haviam se tornado corriqueiras, sobretudo no teatro de operações do Pacífico.”",
-      "translation_quote": "Destruição e carnificina tornaram-se corriqueiras, nada mais do que no teatro do Pacífico."
-    },
-    {
-      "location": "html, parágrafo 7",
-      "severity": "major",
-      "source_quote": "scarcely a generation prior",
-      "suggested_fix": "Substituir “há pouco mais de uma geração” por “apenas uma geração antes”.",
-      "translation_quote": "há pouco mais de uma geração"
-    },
-    {
-      "location": "html, parágrafo 17",
-      "severity": "major",
-      "source_quote": "It was home to prison camps— housing prisoners of war and those accused of aiding the allies.",
-      "suggested_fix": "Substituir a frase por: “Ela abrigava campos de prisioneiros—onde eram mantidos prisioneiros de guerra e pessoas acusadas de ajudar os aliados.”",
-      "translation_quote": "Ela abrigava campos prisionais—prisões de guerra e locais para os acusados de ajudar os aliados."
-    },
-    {
-      "location": "html, parágrafo 3",
+      "location": "translation.html, parágrafo iniciado por “A guerra terminou num piscar de olhos”",
       "severity": "minor",
-      "source_quote": "a brief spark in this trying fire of strife",
-      "suggested_fix": "Substituir “nesse fogo provado de contenda” por “nesse fogo de contenda que põe à prova”.",
-      "translation_quote": "uma breve faísca nesse fogo provado de contenda"
-    },
-    {
-      "location": "html, parágrafo 18",
-      "severity": "minor",
-      "source_quote": "Spread thin—with troops, equipment, and resources dwindling",
-      "suggested_fix": "Substituir “Espalhados—with tropas, equipamentos e recursos diminuindo” por “Dispersos em excesso—com tropas, equipamentos e recursos diminuindo”.",
-      "translation_quote": "Espalhados—with tropas, equipamentos e recursos diminuindo"
-    },
-    {
-      "location": "html, parágrafo 22",
-      "severity": "minor",
-      "source_quote": "The crucial difference is in what they fought for, and how they fought for it.",
-      "suggested_fix": "Substituir a frase por: “A diferença crucial está naquilo por que lutaram e em como lutaram por isso.”",
-      "translation_quote": "A diferença crucial está no que lutaram, e em como lutaram."
+      "source_quote": "Except for the formalities, the war was over. Over, but the temporary peace was bought with an astronomical price of human life.",
+      "suggested_fix": "Substituir “Terminado, mas a paz temporária” por “Terminada, mas a paz temporária”, fazendo a concordância com “a guerra”.",
+      "translation_quote": "Exceto pelas formalidades, a guerra havia terminado. Terminado, mas a paz temporária foi comprada com um preço astronômico em vidas humanas."
     }
   ],
+  "finished_at": "2026-10-30T07:39:29+00:00",
   "id": "9fc772030e837557c1e40b20f15d6483",
   "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
   "language": "por",
@@ -183,7 +168,7 @@
     }
   },
   "protected": false,
-  "quality_score": 92,
+  "quality_score": 99,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6.1-sol",
@@ -202,7 +187,7 @@
     "total_reserved_usd": 0.765341,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "c767adc49633e338375567a05addcb2f986e5c013a016c2592a1cd600a81bb50",
   "translation_model_actual": "gpt-6.1-sol"
