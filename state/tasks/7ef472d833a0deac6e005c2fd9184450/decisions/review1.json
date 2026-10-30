@@ -1,0 +1,119 @@
+{
+  "findings": [
+    {
+      "location": "html, paragraph beginning ‘De weg van Jeruzalem’",
+      "severity": "major",
+      "source_quote": "about threescore furlongs",
+      "suggested_fix": "Vervang ‘ongeveer driehonderd stadiën’ door ‘ongeveer zestig stadiën’.",
+      "translation_quote": "ongeveer driehonderd stadiën"
+    },
+    {
+      "location": "html, Numbers 11:14-15 quotation",
+      "severity": "major",
+      "source_quote": "kill me, I pray thee, out of hand",
+      "suggested_fix": "Vervang ‘dood mij dan, Ik bid U, uit de hand’ door ‘dood mij dan toch onmiddellijk, bid ik U’.",
+      "translation_quote": "dood mij dan, Ik bid U, uit de hand"
+    },
+    {
+      "location": "html, Genesis 32:24-28 quotation",
+      "severity": "major",
+      "source_quote": "he touched the hollow of his thigh; and the hollow of Jacob's thigh was out of joint",
+      "suggested_fix": "Vervang dit gedeelte door ‘raakte hij zijn heupkom aan; en Jakobs heup raakte uit de kom’.",
+      "translation_quote": "riet hij de gewrichtskom van zijn heup; en de gewrichtskom van Jakobs heup werd uit de kom"
+    },
+    {
+      "location": "html, Genesis 32:24-28 quotation, final clause",
+      "severity": "major",
+      "source_quote": "for as a prince hast thou power with God and with men, and hast prevailed",
+      "suggested_fix": "Vervang de slotzin door ‘want als een vorst hebt gij macht bij God en bij mensen, en gij hebt overwonnen’.",
+      "translation_quote": "want gij hebt over God en over mensen overwonnen, en gij zijt een vorst geweest"
+    },
+    {
+      "location": "html, paragraph beginning ‘Abraham was het land Kanaän beloofd’",
+      "severity": "major",
+      "source_quote": "the covenant sacrifice prescribed by God",
+      "suggested_fix": "Vervang ‘het offerschaap dat God voorschreef’ door ‘het verbondsoffer dat God voorschreef’.",
+      "translation_quote": "het offerschaap dat God voorschreef"
+    },
+    {
+      "location": "html, Psalm 13:1 quotation",
+      "severity": "major",
+      "source_quote": "how long wilt thou hide thy face from me?",
+      "suggested_fix": "Vervang ‘mijn aangezicht’ door ‘Uw aangezicht’.",
+      "translation_quote": "hoe lang zult Gij mijn aangezicht verbergen voor mij?"
+    },
+    {
+      "location": "html, Luke 24:22-23 quotation",
+      "severity": "major",
+      "source_quote": "certain women also of our company made us astonished, which were early at the sepulchre",
+      "suggested_fix": "Vervang het begin door ‘Ja, en ook enkele vrouwen uit onze kring hebben ons versteld doen staan; zij waren vroeg bij het graf’.",
+      "translation_quote": "Ja, en bepaalde vrouwen van onze kring waren vroeg bij het graf"
+    },
+    {
+      "location": "html, conclusion paragraph beginning ‘De weg naar Emmaüs getuigt’",
+      "severity": "major",
+      "source_quote": "Our confident visions for the future",
+      "suggested_fix": "Vervang ‘Onze gezegende visioenen voor de toekomst’ door ‘Onze zelfverzekerde toekomstbeelden’. De bron noemt deze verwachtingen niet gezegend.",
+      "translation_quote": "Onze gezegende visioenen voor de toekomst"
+    },
+    {
+      "location": "html, Jeremiah 15:18 quotation",
+      "severity": "major",
+      "source_quote": "wilt thou be altogether unto me as a liar, and as waters that fail?",
+      "suggested_fix": "Vervang deze vraag door ‘Zult U voor mij werkelijk als een leugenaar zijn, als water dat het laat afweten?’",
+      "translation_quote": "Zou U mij dan geheel als een leugenaar aandoen, en als water dat tekortschiet?"
+    },
+    {
+      "location": "html, opening paragraph, D-word list",
+      "severity": "minor",
+      "source_quote": "so many words with a negative connotation begin with the letter D: Disappointment, Doubt",
+      "suggested_fix": "Maak duidelijk dat het om Engelse woorden gaat, bijvoorbeeld ‘zoveel Engelse woorden met een negatieve bijklank beginnen met de letter D’, en geef de Engelse termen met hun Nederlandse betekenis tussen haakjes.",
+      "translation_quote": "zoveel woorden met een negatieve bijklank beginnen met de letter D: teleurstelling, twijfel"
+    },
+    {
+      "location": "html, opening paragraph",
+      "severity": "minor",
+      "source_quote": "the event that seemed to sap the life",
+      "suggested_fix": "Vervang ‘die leek de levenssappen uit het beruchte Duitse leger te zuigen’ door ‘die de levenssappen uit het beruchte Duitse leger leek te zuigen’.",
+      "translation_quote": "die leek de levenssappen uit het beruchte Duitse leger te zuigen"
+    },
+    {
+      "location": "html, paragraph beginning ‘Deze smart’",
+      "severity": "minor",
+      "source_quote": "the sun of God's blessedness has been eclipsed",
+      "suggested_fix": "Vervang ‘verduistert is’ door ‘verduisterd is’.",
+      "translation_quote": "de zon van Gods zaligheid verduistert is"
+    },
+    {
+      "location": "html, heading ‘…On geduld’",
+      "severity": "minor",
+      "source_quote": "…Impatience",
+      "suggested_fix": "Vervang de koptekst door ‘…Ongeduld’.",
+      "translation_quote": "…On geduld"
+    },
+    {
+      "location": "html, Luke 7:19 quotation",
+      "severity": "minor",
+      "source_quote": "And John calling unto him two of his disciples sent them to Jesus",
+      "suggested_fix": "Vervang ‘En Johannes, roeptot hem twee van zijn discipelen, zond dezen tot Jezus’ door ‘En Johannes riep twee van zijn discipelen bij zich en zond hen tot Jezus’.",
+      "translation_quote": "En Johannes, roeptot hem twee van zijn discipelen, zond dezen tot Jezus"
+    },
+    {
+      "location": "html, paragraph beginning ‘Was ik verkeerd?’",
+      "severity": "minor",
+      "source_quote": "the slough of despond",
+      "suggested_fix": "Vervang ‘de moeras van wanhoop’ door ‘het moeras van wanhoop’.",
+      "translation_quote": "de moeras van wanhoop"
+    },
+    {
+      "location": "html, conclusion paragraph beginning ‘De metgezel van Cleopas’",
+      "severity": "minor",
+      "source_quote": "The scales fall from our eyes",
+      "suggested_fix": "Vervang ‘De schalen vallen van onze ogen’ door ‘De schellen vallen van onze ogen’.",
+      "translation_quote": "De schalen vallen van onze ogen"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
