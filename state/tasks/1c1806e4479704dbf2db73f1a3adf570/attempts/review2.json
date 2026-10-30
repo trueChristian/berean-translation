@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-30T01:32:46+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraf tentang perang saudara di Finlandia\",\"severity\":\"minor\",\"source_quote\":\"Mlle. Wrede was in family connections White\",\"suggested_fix\":\"Dalam hubungan keluarganya, Mlle. Wrede terkait dengan kelompok Putih;\",\"translation_quote\":\"Dalam hubungan keluarga, Nona Wrede berpihak kepada kelompok Putih;\"}],\"findings_complete\":true,\"passed\":true,\"score\":97}",
+    "content_bytes": 383,
+    "content_evidence_truncated": false,
+    "content_sha256": "f0a5bf887ab25a0ab9b2fccae88869f3f5cf93850a4cf15547c051e9ad5defab",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1003,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 892,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9938,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8835,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 10941
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraf tentang perang saudara di Finlandia",
+      "severity": "minor",
+      "source_quote": "Mlle. Wrede was in family connections White",
+      "suggested_fix": "Dalam hubungan keluarganya, Mlle. Wrede terkait dengan kelompok Putih;",
+      "translation_quote": "Dalam hubungan keluarga, Nona Wrede berpihak kepada kelompok Putih;"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}
