@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "0c6416d4aa5f481bbde98ef54c589af7",
   "campaign": "auto-3d540c130e0301ce82889dbdd381302cce0ee78867da2305d6e22f9cc0914ae6",
   "created_at": "2026-10-30T09:13:48+00:00",
   "events": [
@@ -28,10 +27,39 @@
         },
         "total_tokens": 10457
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 769,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 635,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 10811,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 10808,
+          "cached_tokens": 0
+        },
+        "total_tokens": 11580
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "Paragraph beginning “Durante le 13 ore di viaggio di ritorno”",
+      "severity": "minor",
+      "source_quote": "“my brother’s desire for a relative, rational, and modern religion”",
+      "suggested_fix": "Sostituire «una religione relativa» con «una religione relativistica» per rendere più chiara l’idea di una religione fondata sul relativismo.",
+      "translation_quote": "“una religione relativa, razionale e moderna”"
+    }
+  ],
+  "finished_at": "2026-10-30T14:17:28+00:00",
   "id": "86933da6b079837c6e2b189fbab2a5d4",
   "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
   "language": "ita",
@@ -120,9 +148,11 @@
     }
   },
   "protected": false,
+  "quality_score": 99,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/f2ce07ae07b7bb9037d663265e5daeece0e25b77fab6934f6d9167df093fe3dd.json",
   "stage": "review1",
   "stage_budget": {
@@ -138,7 +168,7 @@
     "total_reserved_usd": 0.091354,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "6db58cafff7cfe9f11556e892b54ec7a0015890307776806dd7acebca34a78c1",
   "translation_model_actual": "gpt-6-luna"

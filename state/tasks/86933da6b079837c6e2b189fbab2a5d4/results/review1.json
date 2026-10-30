@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "7c03ebed-6802-4355-82ed-13aa5fccfa88",
+    "response_id": "chatcmpl-Eehds6pG5clmAp8qRYsWcdbAil0Az",
+    "usage": {
+      "completion_tokens": 769,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 635,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 10811,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 10808,
+        "cached_tokens": 0
+      },
+      "total_tokens": 11580
+    }
+  },
+  "received_at": "2026-10-30T14:17:28+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph beginning “Durante le 13 ore di viaggio di ritorno”",
+        "severity": "minor",
+        "source_quote": "“my brother’s desire for a relative, rational, and modern religion”",
+        "suggested_fix": "Sostituire «una religione relativa» con «una religione relativistica» per rendere più chiara l’idea di una religione fondata sul relativismo.",
+        "translation_quote": "“una religione relativa, razionale e moderna”"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 99
+  }
+}
