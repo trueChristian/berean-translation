@@ -12332,6 +12332,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ben/articles/cac00fd8-ab2b-4033-92c7-bef44b4341db.html",
+      "html_sha256": "9c5a5f8db9dfc6eb9d9a317fe6c18766e3f40900899d7c24457397cd5d158e77",
+      "human_reviewed": false,
+      "id": "cac00fd8-ab2b-4033-92c7-bef44b4341db",
+      "images": [
+        {
+          "alt": "উপকূলের কাছে পাথরের পাশ দিয়ে যাওয়া একটি পালতোলা জাহাজ।",
+          "public_path": "/images/articles/cac00fd8-ab2b-4033-92c7-bef44b4341db-1.jpg"
+        }
+      ],
+      "issue_id": "07955de4-6574-4a4b-9c1b-f216374c02ee",
+      "language": "ben",
+      "language_tag": "bn",
+      "metadata": "content/ben/articles/cac00fd8-ab2b-4033-92c7-bef44b4341db.json",
+      "metadata_sha256": "e0a867c089d6b410cff93468dca0e612a42745eaf20a36f4abb72ce6c5166a4f",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "ed75201a8e3b37913a14f4d949de33a7a0daa2c2",
+      "source_translation_key": "30094b7d0bab0aaac033d51f712cb27efcf5eee8aacdb08736785e6e5d0e0518",
+      "status": "ready",
+      "subtitle": null,
+      "title": "সব পাথর",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ben/articles/cb06f158-b3bf-41e8-9b8c-3f8490443a07.html",
       "html_sha256": "b00b6013a06faf6790273c3356dd6102d6a37d25ce5951a785f208d9aa3893be",
       "human_reviewed": false,
@@ -36273,6 +36301,50 @@
       "subtitle": null,
       "title": "“सिंह” के मुँह से बचाया गया",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/hin/articles/9b22e638-a735-48fe-b31b-817c614538ca.html",
+      "html_sha256": "e6c2cf960f5356d044e8094c4bf6b15c10ebbde57ffed1d6f25d9a1be8250012",
+      "human_reviewed": false,
+      "id": "9b22e638-a735-48fe-b31b-817c614538ca",
+      "images": [
+        {
+          "alt": "मूल्य-टैग पर लिखा है “केवल $100.00”",
+          "public_path": "/images/articles/9b22e638-a735-48fe-b31b-817c614538ca-1.jpg"
+        },
+        {
+          "alt": "लोहे के रथ का रेखाचित्र",
+          "public_path": "/images/articles/9b22e638-a735-48fe-b31b-817c614538ca-2.png"
+        },
+        {
+          "alt": "शफ़लबोर्ड खेलते दो पुरुष",
+          "public_path": "/images/articles/9b22e638-a735-48fe-b31b-817c614538ca-3.png"
+        },
+        {
+          "alt": "कंप्यूटर के सामने सिर हाथों में थामे बैठा एक आदमी",
+          "public_path": "/images/articles/9b22e638-a735-48fe-b31b-817c614538ca-4.jpg"
+        },
+        {
+          "alt": "बड़ा घर और लॉन",
+          "public_path": "/images/articles/9b22e638-a735-48fe-b31b-817c614538ca-5.jpg"
+        }
+      ],
+      "issue_id": "05538f8e-6560-5f96-b313-890e87c05daf",
+      "language": "hin",
+      "language_tag": "hi",
+      "metadata": "content/hin/articles/9b22e638-a735-48fe-b31b-817c614538ca.json",
+      "metadata_sha256": "a7a95c3edccf1a77e9e2f0026146459f0d296175f0e8fab1f2070201c8e5d93a",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": null,
+      "source_revision": "3a4d9237b136f074ca1fae9ed0a26c4304577934",
+      "source_translation_key": "a748a750308bd832e277e952779df66318e4e2d2a2e40c0ec8292333d320ccad",
+      "status": "ready",
+      "subtitle": "कनानियों से कर वसूलना",
+      "title": "शत्रु या सहयोगी?",
+      "translation_model": "gpt-6.1-sol"
     },
     {
       "ai_notice_required": true,
@@ -60800,6 +60872,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/nob/articles/f09d8cd5-b48f-470f-936f-263e6940b6bd.html",
+      "html_sha256": "e526587075c08fddb6b82e4d89f7b7df079d1aaccc4694f1e1ff0584db70de59",
+      "human_reviewed": false,
+      "id": "f09d8cd5-b48f-470f-936f-263e6940b6bd",
+      "images": [
+        {
+          "alt": "Noter til «Hyll alle kraften i Jesu navn», melodi DIADEM C. M. med refreng",
+          "public_path": "/images/articles/f09d8cd5-b48f-470f-936f-263e6940b6bd-1.png"
+        }
+      ],
+      "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
+      "language": "nob",
+      "language_tag": "nb",
+      "metadata": "content/nob/articles/f09d8cd5-b48f-470f-936f-263e6940b6bd.json",
+      "metadata_sha256": "d1f1926d0a0a3b25dcd68894af6893bd365bcbf1827ddf7eaf790b5b71484aeb",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "En salmes historie",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "47590defb50af0ad3c498d9cc77626f00551d9639dd8391778097cb5eb70f00a",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Hyll alle kraften i Jesu navn",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/nob/articles/f21c4f39-9508-4f75-9e0c-0c68468c41f8.html",
       "html_sha256": "34afa3e054eff5007f3dcb7ed0773e5638337e7ae74fb039c0fa51439d73e4cb",
       "human_reviewed": false,
@@ -70585,6 +70685,29 @@
       "status": "ready",
       "subtitle": null,
       "title": "Наставления матери из тюрьмы",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/rus/articles/fb65688b-5aaf-4194-a345-31f6f1355389.html",
+      "html_sha256": "c6357560410f2f522d6cc80728aa47bfb0db77a29ca5aebb9bf2e19282fb26f6",
+      "human_reviewed": false,
+      "id": "fb65688b-5aaf-4194-a345-31f6f1355389",
+      "images": [],
+      "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
+      "language": "rus",
+      "language_tag": "ru",
+      "metadata": "content/rus/articles/fb65688b-5aaf-4194-a345-31f6f1355389.json",
+      "metadata_sha256": "f7c7c90ee89c08af192bd2c879df29c781844e1d340d15691d37df4a5a01abbc",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "От РЕДАКТОРА",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "2b4f275d7b7ba8096cb0ab03fead7b5dd10aa236b7e3bc6ad2626bd76b72e500",
+      "status": "ready",
+      "subtitle": null,
+      "title": "От редактора",
       "translation_model": "gpt-6.1-sol"
     },
     {
