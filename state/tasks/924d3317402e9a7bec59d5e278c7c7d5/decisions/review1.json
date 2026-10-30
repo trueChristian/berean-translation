@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "Section 7, final sentence",
+      "severity": "major",
+      "source_quote": "“the growth of spiritual graces”",
+      "suggested_fix": "Replace «των πνευματικών χαρισμάτων» with «των πνευματικών αρετών» to preserve the sense of spiritual graces/virtues.",
+      "translation_quote": "«την ανάπτυξη των πνευματικών χαρισμάτων»"
+    },
+    {
+      "location": "Section 8, paragraph 1",
+      "severity": "major",
+      "source_quote": "“The ‘Jesus only’ seems to the unconverted man to be the motto of death.”",
+      "suggested_fix": "Replace «στον αμετανόητο άνθρωπο» with «στον μη αναγεννημένο άνθρωπο» or «στον μη πιστό άνθρωπο» to convey “unconverted.”",
+      "translation_quote": "«Το «Μόνο ο Ιησούς» φαίνεται στον αμετανόητο άνθρωπο σύνθημα θανάτου.»"
+    },
+    {
+      "location": "Final paragraph",
+      "severity": "minor",
+      "source_quote": "“through the revived individual”",
+      "suggested_fix": "Replace «το αναζωογονημένο άτομο» with «το πνευματικά αναζωπυρωμένο άτομο» to make the spiritual sense of “revived” explicit.",
+      "translation_quote": "«μέσα από το αναζωογονημένο άτομο»"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

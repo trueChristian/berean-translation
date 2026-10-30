@@ -1,0 +1,52 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "3552681d-8656-4adb-ab4b-066ad1fccccc",
+    "response_id": "chatcmpl-EeZYqHstybeZQmf6eF1Tghm3vjiRA",
+    "usage": {
+      "completion_tokens": 933,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 610,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4987,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3884,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 5920
+    }
+  },
+  "received_at": "2026-10-30T07:05:10+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Section 7, final sentence",
+        "severity": "major",
+        "source_quote": "“the growth of spiritual graces”",
+        "suggested_fix": "Replace «των πνευματικών χαρισμάτων» with «των πνευματικών αρετών» to preserve the sense of spiritual graces/virtues.",
+        "translation_quote": "«την ανάπτυξη των πνευματικών χαρισμάτων»"
+      },
+      {
+        "location": "Section 8, paragraph 1",
+        "severity": "major",
+        "source_quote": "“The ‘Jesus only’ seems to the unconverted man to be the motto of death.”",
+        "suggested_fix": "Replace «στον αμετανόητο άνθρωπο» with «στον μη αναγεννημένο άνθρωπο» or «στον μη πιστό άνθρωπο» to convey “unconverted.”",
+        "translation_quote": "«Το «Μόνο ο Ιησούς» φαίνεται στον αμετανόητο άνθρωπο σύνθημα θανάτου.»"
+      },
+      {
+        "location": "Final paragraph",
+        "severity": "minor",
+        "source_quote": "“through the revived individual”",
+        "suggested_fix": "Replace «το αναζωογονημένο άτομο» with «το πνευματικά αναζωπυρωμένο άτομο» to make the spiritual sense of “revived” explicit.",
+        "translation_quote": "«μέσα από το αναζωογονημένο άτομο»"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 92
+  }
+}
