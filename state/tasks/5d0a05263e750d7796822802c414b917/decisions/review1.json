@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "Article, paragraph beginning “Her ministry began in the Kakola prison”",
+      "severity": "major",
+      "source_quote": "“where four hundred life-sentenced are interned”",
+      "suggested_fix": "“waar vierhonderd lewenslank veroordeeldes aangehou word”",
+      "translation_quote": "“waar vierhonderd lewenslank veroordeeldes opgesluit is”"
+    },
+    {
+      "location": "Article, paragraph beginning “Mlle. Wrede was in family connections White”",
+      "severity": "major",
+      "source_quote": "“She often quoted the words in Acts”",
+      "suggested_fix": "“Sy het dikwels die woorde uit Handelinge aangehaal”",
+      "translation_quote": "“Sy het dikwels die woorde uit Handelinge aangehaal”"
+    },
+    {
+      "location": "Article, final quoted paragraph about the brooch",
+      "severity": "major",
+      "source_quote": "“The thief on the cross was brought by Jesus to Paradise.”",
+      "suggested_fix": "“Jesus het die dief aan die kruis na die Paradys gebring.”",
+      "translation_quote": "“Jesus het die dief aan die kruis na die Paradys gebring.”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
