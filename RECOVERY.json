@@ -11,10 +11,10 @@
     "continuation_cooldown": 1,
     "continuation_progress_uncertain_requires_attention": 2,
     "continuation_repeated_findings_requires_attention": 1,
-    "eligible_automatic": 842,
+    "eligible_automatic": 841,
     "eligible_source_refresh": 187,
     "legacy_response_outcome_unknown_requires_owner_attention": 10,
-    "pending_automatic_admission": 149,
+    "pending_automatic_admission": 151,
     "provider_refusal_requires_owner_attention": 3,
     "repeated_technical_failure_requires_attention": 6,
     "source_error_requires_attention": 40,
@@ -687,11 +687,13 @@
     },
     {
       "accepted_cycles": 0,
+      "admission_status": "pending",
       "article_id": "1caf6642-2283-4363-b3b6-33e40c39f945",
       "language": "ara",
       "latest_task": "5f02df116b00e8ea2aa1faff9253f7cd",
-      "processing_status": "not_ready",
-      "reason": "eligible_automatic"
+      "processing_status": "queued",
+      "reason": "pending_automatic_admission",
+      "request_id": "auto-8825d1d325bc74c97873917b9e15eb92c1f894e5d4c4488045ff081b362148e8"
     },
     {
       "admission_status": "attention",
@@ -11308,6 +11310,15 @@
     },
     {
       "admission_status": "pending",
+      "article_id": "6b3e3e7e-b5fd-4701-9a63-699b90f17ec9",
+      "language": "spa",
+      "latest_task": "8cbd2cc1528c31ce9e40a28a8603af37",
+      "processing_status": "published",
+      "reason": "pending_automatic_admission",
+      "request_id": "auto-ab2d8bbba7ed767c28d38999eb8a12505507f2145f8b218f7be3d42c98a288d2"
+    },
+    {
+      "admission_status": "pending",
       "article_id": "7b699913-16ec-4087-9e0c-ca867e750d90",
       "language": "spa",
       "latest_task": null,
@@ -14013,7 +14024,7 @@
     }
   ],
   "settled_unused_usd": 322.4316,
-  "source_revision": "d7db93643dbfa1586791aaa8031cabeca5b771f0",
+  "source_revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
   "spending_policy": "owner-2026-10-29-provider-managed-spending",
   "usage_description": "Provider-reported usage priced at frozen rates; not invoice reconciliation"
 }
