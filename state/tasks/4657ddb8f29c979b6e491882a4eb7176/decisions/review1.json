@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Opening quotations (James 4:11-12; Romans 14:4; Matthew 7:1-2) and Romans 14:10-13 quotation",
+      "severity": "major",
+      "source_quote": "“He that speaketh evil of his brother, and judgeth his brother”; “Who art thou that judgest another man’s servant?”; “Judge not, that ye be not judged”; “why dost thou judge thy brother?”",
+      "suggested_fix": "Translate the references to judging with Urdu terms for judging or passing judgment (for example, «فیصلہ کرنا» or «عدالت کرنا») rather than consistently rendering them as «الزام لگانا». Preserve accusation/evil-speaking separately where the English says “speak evil.” For example: «تم اپنے بھائی پر کیوں فیصلہ کرتے ہو؟» and «فیصلہ نہ کرو تاکہ تمہارا بھی فیصلہ نہ کیا جائے۔»",
+      "translation_quote": "«اپنے بھائی پر الزام لگاتا ہے»; «تم کون ہو جو دوسرے کے نوکر پر الزام لگاتے ہو؟»; «الزام نہ لگاؤ تاکہ تم پر بھی الزام نہ لگایا جائے»; «تو اپنے بھائی پر کیوں الزام لگاتا ہے؟»"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
