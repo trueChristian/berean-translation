@@ -5,11 +5,131 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "888c90645b194645b89c22bb23a92fcd",
   "campaign": "auto-f49f59557dff36e10f1ff73a873a1dbd187a9c6c6ea06c257c26f9174a988eae",
   "created_at": "2026-10-30T07:58:16+00:00",
-  "events": [],
-  "findings": [],
+  "events": [
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1663,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 141,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8665,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 7562,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 10328
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "html, stycke 4",
+      "severity": "major",
+      "source_quote": "none more so than in the Pacific theater",
+      "suggested_fix": "Ersätt ”inget mer än i Stilla havets krigsöken” med ”ingenstans mer än på krigsskådeplatsen i Stilla havet”.",
+      "translation_quote": "inget mer än i Stilla havets krigsöken"
+    },
+    {
+      "location": "html, stycke 4",
+      "severity": "major",
+      "source_quote": "A wayward shell, some weighing as much as a small car",
+      "suggested_fix": "Ersätt med ”En granat på avvägar, som i vissa fall kunde väga lika mycket som en liten bil”. ”Shell” avser här en granat, inte dess skal.",
+      "translation_quote": "Ett vilselett granatskal, några vägande lika mycket som en liten bil"
+    },
+    {
+      "location": "html, stycke 5",
+      "severity": "major",
+      "source_quote": "Four thousand miles to the east",
+      "suggested_fix": "Ersätt med ”Fyratusen engelska mil österut”. Svenska mil är en annan längdenhet.",
+      "translation_quote": "Fyratusen mil österut"
+    },
+    {
+      "location": "html, stycke 9",
+      "severity": "major",
+      "source_quote": "fulfill the law without breaking the Law (see Mark 12:17)",
+      "suggested_fix": "Ersätt med ”uppfylla den världsliga lagen utan att bryta mot Guds lag (se Mark 12:17)” för att bevara skillnaden mellan de två lagarna.",
+      "translation_quote": "uppfylla lagen utan att bryta lagen (se Mark 12:17)"
+    },
+    {
+      "location": "html, stycke 12",
+      "severity": "major",
+      "source_quote": "detailing their observations about the abuse to their contacts at home",
+      "suggested_fix": "Ersätt ”sina iakttagelser om missbruk” med ”sina iakttagelser om övergreppen”. Här avses övergrepp mot patienterna, inte missbruk.",
+      "translation_quote": "redogöra för sina iakttagelser om missbruk till kontakter hemma"
+    },
+    {
+      "location": "html, stycke 14",
+      "severity": "major",
+      "source_quote": "“I shall return.”",
+      "suggested_fix": "Översätt citatet till ”Jag ska återvända.” och behåll det i samma stycke.",
+      "translation_quote": "\"I shall return.\""
+    },
+    {
+      "location": "html, stycke 18",
+      "severity": "major",
+      "source_quote": "he had overseen the island’s surrender",
+      "suggested_fix": "Ersätt ”hade han översett öns kapitulation” med ”hade han lett öns kapitulation”. ”Översett” återger inte betydelsen av ”overseen”.",
+      "translation_quote": "hade han översett öns kapitulation"
+    },
+    {
+      "location": "html, figcaption, sista betonade raden",
+      "severity": "major",
+      "source_quote": "AGAINST SPIRITUAL WICKEDNESS IN HIGH PLACES.",
+      "suggested_fix": "Ersätt texten inom befintlig strong-tagg med ”MOT ANDLIG ONDSKA I HÖGA REGIONER.”",
+      "translation_quote": "MOT ANDLIG ONDSKA I HÖGA BUD."
+    },
+    {
+      "location": "html, stycke 4 och 5",
+      "severity": "minor",
+      "source_quote": "a typically nocturnal all-out attack of massed infantry; an all-out struggle",
+      "suggested_fix": "Ersätt ”en vanligtvis nattlig alltigenom attack med massinfanteri” med ”ett vanligtvis nattligt fullskaligt anfall med samlat infanteri” och ”en alltigenom kamp” med ”en kamp med alla krafter”.",
+      "translation_quote": "en vanligtvis nattlig alltigenom attack med massinfanteri; en alltigenom kamp"
+    },
+    {
+      "location": "html, stycke 7",
+      "severity": "minor",
+      "source_quote": "subjected to all manner of malicious maltreatment",
+      "suggested_fix": "Ersätt ”utsatts för alla former av illvilligt missförhållande” med ”utsatts för alla slags illvillig behandling”.",
+      "translation_quote": "utsatts för alla former av illvilligt missförhållande"
+    },
+    {
+      "location": "html, stycke 10",
+      "severity": "minor",
+      "source_quote": "were shunned or looked down on",
+      "suggested_fix": "Ersätt ”blev utstötta eller sågade ner i anseende” med ”blev utstötta eller sedda över axeln”.",
+      "translation_quote": "blev utstötta eller sågade ner i anseende"
+    },
+    {
+      "location": "html, stycke 15",
+      "severity": "minor",
+      "source_quote": "a Mennonite youth in Canada",
+      "suggested_fix": "Ersätt ”en mennonitisk ung i Kanada” med ”en ung mennonit i Kanada”.",
+      "translation_quote": "en mennonitisk ung i Kanada"
+    },
+    {
+      "location": "html, stycke 16",
+      "severity": "minor",
+      "source_quote": "the Germans sued for peace; the tide of war shifted to the Pacific",
+      "suggested_fix": "Ersätt ”stämde tyskarna i för fred” med ”bad tyskarna om fred” och ”skiftade krigets ebb till Stilla havet” med ”försköts krigets tyngdpunkt till Stilla havet”.",
+      "translation_quote": "stämde tyskarna i för fred; skiftade krigets ebb till Stilla havet"
+    },
+    {
+      "location": "html, figcaption, bibelhänvisningen",
+      "severity": "minor",
+      "source_quote": "EPHESIANS 6:11-12",
+      "suggested_fix": "Ändra till ”EFESIERBREVET 6:11-12”, den vedertagna svenska stavningen, som också används i bildens alt-text.",
+      "translation_quote": "EPHESIERBREVET 6:11-12"
+    }
+  ],
   "id": "3f843559ee1ab1fa038a915ba2962676",
   "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
   "language": "swe",
@@ -98,11 +218,13 @@
     }
   },
   "protected": false,
+  "quality_score": 79,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/303eea9ede343be1d9acddc326e79733cfaca30a9ec14bd67edc70779b0f9f08.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "review1",
     "max_candidate_bytes": 120000,
@@ -115,7 +237,7 @@
     "total_reserved_usd": 0.763939,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 0,
   "translation_key": "c767adc49633e338375567a05addcb2f986e5c013a016c2592a1cd600a81bb50",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

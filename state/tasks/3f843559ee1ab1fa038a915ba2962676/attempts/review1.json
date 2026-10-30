@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-30T09:12:29+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"html, stycke 4\",\n      \"severity\": \"major\",\n      \"source_quote\": \"none more so than in the Pacific theater\",\n      \"suggested_fix\": \"Ersätt ”inget mer än i Stilla havets krigsöken” med ”ingenstans mer än på krigsskådeplatsen i Stilla havet”.\",\n      \"translation_quote\": \"inget mer än i Stilla havets krigsöken\"\n    },\n    {\n      \"location\": \"html, stycke 4\",\n      \"severity\": \"major\",\n      \"source_quote\": \"A wayward shell, some weighing as much as a small car\",\n      \"suggested_fix\": \"Ersätt med ”En granat på avvägar, som i vissa fall kunde väga lika mycket som en liten bil”. ”Shell” avser här en granat, inte dess skal.\",\n      \"translation_quote\": \"Ett vilselett granatskal, några vägande lika mycket som en liten bil\"\n    },\n    {\n      \"location\": \"html, stycke 5\",\n      \"severity\": \"major\",\n      \"source_quote\": \"Four thousand miles to the east\",\n      \"suggested_fix\": \"Ersätt med ”Fyratusen engelska mil österut”. Svenska mil är en annan längdenhet.\",\n      \"translation_quote\": \"Fyratusen mil österut\"\n    },\n    {\n      \"location\": \"html, stycke 9\",\n      \"severity\": \"major\",\n      \"source_quote\": \"fulfill the law without breaking the Law (see Mark 12:17)\",\n      \"suggested_fix\": \"Ersätt med ”uppfylla den världsliga lagen utan att bryta mot Guds lag (se Mark 12:17)” för att bevara skillnaden mellan de två lagarna.\",\n      \"translation_quote\": \"uppfylla lagen utan att bryta lagen (se Mark 12:17)\"\n    },\n    {\n      \"location\": \"html, stycke 12\",\n      \"severity\": \"major\",\n      \"source_quote\": \"detailing their observations about the abuse to their contacts at home\",\n      \"suggested_fix\": \"Ersätt ”sina iakttagelser om missbruk” med ”sina iakttagelser om övergreppen”. Här avses övergrepp mot patienterna, inte missbruk.\",\n      \"translation_quote\": \"redogöra för sina iakttagelser om missbruk till kontakter hemma\"\n    },\n    {\n      \"location\": \"html, stycke 14\",\n      \"severity\": \"major\",\n      \"source_quote\": \"“I shall return.”\",\n      \"suggested_fix\": \"Översätt citatet till ”Jag ska återvända.” och behåll det i samma stycke.\",\n      \"translation_quote\": \"\\\"I shall return.\\\"\"\n    },\n    {\n      \"location\": \"html, stycke 18\",\n      \"severity\": \"major\",\n      \"source_quote\": \"he had overseen the island’s surrender\",\n      \"suggested_fix\": \"Ersätt ”hade han översett öns kapitulation” med ”hade han lett öns kapitulation”. ”Översett” återger inte betydelsen av ”overseen”.\",\n      \"translation_quote\": \"hade han översett öns kapitulation\"\n    },\n    {\n      \"location\": \"html, figcaption, sista betonade raden\",\n      \"severity\": \"major\",\n      \"source_quote\": \"AGAINST SPIRITUAL WICKEDNESS IN HIGH PLACES.\",\n      \"suggested_fix\": \"Ersätt texten inom befintlig strong-tagg med ”MOT ANDLIG ONDSKA I HÖGA REGIONER.”\",\n      \"translation_quote\": \"MOT ANDLIG ONDSKA I HÖGA BUD.\"\n    },\n    {\n      \"location\": \"html, stycke 4 och 5\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"a typically nocturnal all-out attack of massed infantry; an all-out struggle\",\n      \"suggested_fix\": \"Ersätt ”en vanligtvis nattlig alltigenom attack med massinfanteri” med ”ett vanligtvis nattligt fullskaligt anfall med samlat infanteri” och ”en alltigenom kamp” med ”en kamp med alla krafter”.\",\n      \"translation_quote\": \"en vanligtvis nattlig alltigenom attack med massinfanteri; en alltigenom kamp\"\n    },\n    {\n      \"location\": \"html, stycke 7\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"subjected to all manner of malicious maltreatment\",\n      \"suggested_fix\": \"Ersätt ”utsatts för alla former av illvilligt missförhållande” med ”utsatts för alla slags illvillig behandling”.\",\n      \"translation_quote\": \"utsatts för alla former av illvilligt missförhållande\"\n    },\n    {\n      \"location\": \"html, stycke 10\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"were shunned or looked down on\",\n      \"suggested_fix\": \"Ersätt ”blev utstötta eller sågade ner i anseende” med ”blev utstötta eller sedda över axeln”.\",\n      \"translation_quote\": \"blev utstötta eller sågade ner i anseende\"\n    },\n    {\n      \"location\": \"html, stycke 15\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"a Mennonite youth in Canada\",\n      \"suggested_fix\": \"Ersätt ”en mennonitisk ung i Kanada” med ”en ung mennonit i Kanada”.\",\n      \"translation_quote\": \"en mennonitisk ung i Kanada\"\n    },\n    {\n      \"location\": \"html, stycke 16\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"the Germans sued for peace; the tide of war shifted to the Pacific\",\n      \"suggested_fix\": \"Ersätt ”stämde tyskarna i för fred” med ”bad tyskarna om fred” och ”skiftade krigets ebb till Stilla havet” med ”försköts krigets tyngdpunkt till Stilla havet”.\",\n      \"translation_quote\": \"stämde tyskarna i för fred; skiftade krigets ebb till Stilla havet\"\n    },\n    {\n      \"location\": \"html, figcaption, bibelhänvisningen\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"EPHESIANS 6:11-12\",\n      \"suggested_fix\": \"Ändra till ”EFESIERBREVET 6:11-12”, den vedertagna svenska stavningen, som också används i bildens alt-text.\",\n      \"translation_quote\": \"EPHESIERBREVET 6:11-12\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": false,\n  \"score\": 79\n}",
+    "content_bytes": 5399,
+    "content_evidence_truncated": false,
+    "content_sha256": "2d722af94d83e4f88af52f85b278e17cba89408acde46bb8a224bb5b30e3af9f",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1663,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 141,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8665,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7562,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 10328
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}

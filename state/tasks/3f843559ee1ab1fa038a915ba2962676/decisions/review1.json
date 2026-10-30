@@ -1,0 +1,105 @@
+{
+  "findings": [
+    {
+      "location": "html, stycke 4",
+      "severity": "major",
+      "source_quote": "none more so than in the Pacific theater",
+      "suggested_fix": "Ersätt ”inget mer än i Stilla havets krigsöken” med ”ingenstans mer än på krigsskådeplatsen i Stilla havet”.",
+      "translation_quote": "inget mer än i Stilla havets krigsöken"
+    },
+    {
+      "location": "html, stycke 4",
+      "severity": "major",
+      "source_quote": "A wayward shell, some weighing as much as a small car",
+      "suggested_fix": "Ersätt med ”En granat på avvägar, som i vissa fall kunde väga lika mycket som en liten bil”. ”Shell” avser här en granat, inte dess skal.",
+      "translation_quote": "Ett vilselett granatskal, några vägande lika mycket som en liten bil"
+    },
+    {
+      "location": "html, stycke 5",
+      "severity": "major",
+      "source_quote": "Four thousand miles to the east",
+      "suggested_fix": "Ersätt med ”Fyratusen engelska mil österut”. Svenska mil är en annan längdenhet.",
+      "translation_quote": "Fyratusen mil österut"
+    },
+    {
+      "location": "html, stycke 9",
+      "severity": "major",
+      "source_quote": "fulfill the law without breaking the Law (see Mark 12:17)",
+      "suggested_fix": "Ersätt med ”uppfylla den världsliga lagen utan att bryta mot Guds lag (se Mark 12:17)” för att bevara skillnaden mellan de två lagarna.",
+      "translation_quote": "uppfylla lagen utan att bryta lagen (se Mark 12:17)"
+    },
+    {
+      "location": "html, stycke 12",
+      "severity": "major",
+      "source_quote": "detailing their observations about the abuse to their contacts at home",
+      "suggested_fix": "Ersätt ”sina iakttagelser om missbruk” med ”sina iakttagelser om övergreppen”. Här avses övergrepp mot patienterna, inte missbruk.",
+      "translation_quote": "redogöra för sina iakttagelser om missbruk till kontakter hemma"
+    },
+    {
+      "location": "html, stycke 14",
+      "severity": "major",
+      "source_quote": "“I shall return.”",
+      "suggested_fix": "Översätt citatet till ”Jag ska återvända.” och behåll det i samma stycke.",
+      "translation_quote": "\"I shall return.\""
+    },
+    {
+      "location": "html, stycke 18",
+      "severity": "major",
+      "source_quote": "he had overseen the island’s surrender",
+      "suggested_fix": "Ersätt ”hade han översett öns kapitulation” med ”hade han lett öns kapitulation”. ”Översett” återger inte betydelsen av ”overseen”.",
+      "translation_quote": "hade han översett öns kapitulation"
+    },
+    {
+      "location": "html, figcaption, sista betonade raden",
+      "severity": "major",
+      "source_quote": "AGAINST SPIRITUAL WICKEDNESS IN HIGH PLACES.",
+      "suggested_fix": "Ersätt texten inom befintlig strong-tagg med ”MOT ANDLIG ONDSKA I HÖGA REGIONER.”",
+      "translation_quote": "MOT ANDLIG ONDSKA I HÖGA BUD."
+    },
+    {
+      "location": "html, stycke 4 och 5",
+      "severity": "minor",
+      "source_quote": "a typically nocturnal all-out attack of massed infantry; an all-out struggle",
+      "suggested_fix": "Ersätt ”en vanligtvis nattlig alltigenom attack med massinfanteri” med ”ett vanligtvis nattligt fullskaligt anfall med samlat infanteri” och ”en alltigenom kamp” med ”en kamp med alla krafter”.",
+      "translation_quote": "en vanligtvis nattlig alltigenom attack med massinfanteri; en alltigenom kamp"
+    },
+    {
+      "location": "html, stycke 7",
+      "severity": "minor",
+      "source_quote": "subjected to all manner of malicious maltreatment",
+      "suggested_fix": "Ersätt ”utsatts för alla former av illvilligt missförhållande” med ”utsatts för alla slags illvillig behandling”.",
+      "translation_quote": "utsatts för alla former av illvilligt missförhållande"
+    },
+    {
+      "location": "html, stycke 10",
+      "severity": "minor",
+      "source_quote": "were shunned or looked down on",
+      "suggested_fix": "Ersätt ”blev utstötta eller sågade ner i anseende” med ”blev utstötta eller sedda över axeln”.",
+      "translation_quote": "blev utstötta eller sågade ner i anseende"
+    },
+    {
+      "location": "html, stycke 15",
+      "severity": "minor",
+      "source_quote": "a Mennonite youth in Canada",
+      "suggested_fix": "Ersätt ”en mennonitisk ung i Kanada” med ”en ung mennonit i Kanada”.",
+      "translation_quote": "en mennonitisk ung i Kanada"
+    },
+    {
+      "location": "html, stycke 16",
+      "severity": "minor",
+      "source_quote": "the Germans sued for peace; the tide of war shifted to the Pacific",
+      "suggested_fix": "Ersätt ”stämde tyskarna i för fred” med ”bad tyskarna om fred” och ”skiftade krigets ebb till Stilla havet” med ”försköts krigets tyngdpunkt till Stilla havet”.",
+      "translation_quote": "stämde tyskarna i för fred; skiftade krigets ebb till Stilla havet"
+    },
+    {
+      "location": "html, figcaption, bibelhänvisningen",
+      "severity": "minor",
+      "source_quote": "EPHESIANS 6:11-12",
+      "suggested_fix": "Ändra till ”EFESIERBREVET 6:11-12”, den vedertagna svenska stavningen, som också används i bildens alt-text.",
+      "translation_quote": "EPHESIERBREVET 6:11-12"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
