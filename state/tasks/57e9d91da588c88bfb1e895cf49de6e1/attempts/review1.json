@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-30T01:28:35+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"html, párrafo sobre el paralítico en Lucas 5\",\n      \"severity\": \"major\",\n      \"source_quote\": \"removed enough of roof tiles to let their friend through and lowered him into the presence of Jesus\",\n      \"suggested_fix\": \"Sustituir «quitaron parte de las tejas, lo dejaron caer y lo bajaron hasta estar delante de Jesús» por «quitaron suficientes tejas para hacer pasar a su amigo y lo bajaron hasta ponerlo delante de Jesús».\",\n      \"translation_quote\": \"quitaron parte de las tejas, lo dejaron caer y lo bajaron hasta estar delante de Jesús\"\n    },\n    {\n      \"location\": \"html, párrafo que presenta a María Magdalena\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"Apparently, she was not only possessed of evil spirits, but also physically infirmed.\",\n      \"suggested_fix\": \"Sustituir «sino también física y enferma» por «sino que también estaba físicamente enferma».\",\n      \"translation_quote\": \"Aparentemente, no solo estaba poseída por espíritus malignos, sino también física y enferma.\"\n    },\n    {\n      \"location\": \"html, párrafo que comienza «Seguir a Jesús es dejar tus pecados»\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"We would be greatly mistaken to suggest that holiness is a product of human effort.\",\n      \"suggested_fix\": \"Sustituir «Seríamos muy equivocados» por «Estaríamos muy equivocados».\",\n      \"translation_quote\": \"Seríamos muy equivocados si sugiriéramos que la santidad es producto del esfuerzo humano.\"\n    },\n    {\n      \"location\": \"html, cita de Adam Clark\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"It was this which made the conduct of the person mentioned in the text inexcusable\",\n      \"suggested_fix\": \"Sustituir «hizo inexcusables la conducta» por «hizo inexcusable la conducta».\",\n      \"translation_quote\": \"Fue esto lo que hizo inexcusables la conducta de la persona mencionada en el texto\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": false,\n  \"score\": 94\n}",
+    "content_bytes": 2021,
+    "content_evidence_truncated": false,
+    "content_sha256": "f64c2c4794b7f2df942220248b7b4c7bb74990fa3201d5ab6702f91790481b89",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 591,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 81,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8206,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7103,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 8797
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}

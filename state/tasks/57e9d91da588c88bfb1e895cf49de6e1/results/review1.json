@@ -1,0 +1,59 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "8665aef8-2e17-472c-ad86-37797e87df2b",
+    "response_id": "chatcmpl-EeVgeYIfMFw1OpPJl9XfP5JmARxRm",
+    "usage": {
+      "completion_tokens": 591,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 81,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8206,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7103,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 8797
+    }
+  },
+  "received_at": "2026-10-30T01:28:35+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "html, párrafo sobre el paralítico en Lucas 5",
+        "severity": "major",
+        "source_quote": "removed enough of roof tiles to let their friend through and lowered him into the presence of Jesus",
+        "suggested_fix": "Sustituir «quitaron parte de las tejas, lo dejaron caer y lo bajaron hasta estar delante de Jesús» por «quitaron suficientes tejas para hacer pasar a su amigo y lo bajaron hasta ponerlo delante de Jesús».",
+        "translation_quote": "quitaron parte de las tejas, lo dejaron caer y lo bajaron hasta estar delante de Jesús"
+      },
+      {
+        "location": "html, párrafo que presenta a María Magdalena",
+        "severity": "minor",
+        "source_quote": "Apparently, she was not only possessed of evil spirits, but also physically infirmed.",
+        "suggested_fix": "Sustituir «sino también física y enferma» por «sino que también estaba físicamente enferma».",
+        "translation_quote": "Aparentemente, no solo estaba poseída por espíritus malignos, sino también física y enferma."
+      },
+      {
+        "location": "html, párrafo que comienza «Seguir a Jesús es dejar tus pecados»",
+        "severity": "minor",
+        "source_quote": "We would be greatly mistaken to suggest that holiness is a product of human effort.",
+        "suggested_fix": "Sustituir «Seríamos muy equivocados» por «Estaríamos muy equivocados».",
+        "translation_quote": "Seríamos muy equivocados si sugiriéramos que la santidad es producto del esfuerzo humano."
+      },
+      {
+        "location": "html, cita de Adam Clark",
+        "severity": "minor",
+        "source_quote": "It was this which made the conduct of the person mentioned in the text inexcusable",
+        "suggested_fix": "Sustituir «hizo inexcusables la conducta» por «hizo inexcusable la conducta».",
+        "translation_quote": "Fue esto lo que hizo inexcusables la conducta de la persona mencionada en el texto"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 94
+  }
+}
