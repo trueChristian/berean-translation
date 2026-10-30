@@ -52,6 +52,8 @@ Preserve all historical paid authorizations, allocations, predecessor histories,
 
 Legacy recovery lineage, cooldowns, canceled/aborted acceptance records, and unresolved provider outcomes remain auditable. Monetary limits no longer restrict processing; attempt limits, quality gates, human protections, payload/model-context constraints and duplicate-submission safeguards remain effective. A budget-only hold is eligible for ordinary current processing, never automatic acceptance of its translation.
 
+Keep the publication index synchronized with accepted records and observed source at every engine checkpoint. Website polling may select an intermediate checkpoint while other translations are still processing. Detailed status/recovery reports can wait until the end of the pass; unrelated task/provider checkpoints must not repeatedly rescan the accepted archive. Preserve Git staging verification of changed accepted files.
+
 Checkpoint pushes are never forced. Rebase only disjoint changes; same-file conflicts block the next external side effect. Cancellation goes through the durable collector, preserving records and allocations. Do not hand-edit terminal or frozen predecessor records.
 
 ## Validation and delivery
