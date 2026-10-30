@@ -1,0 +1,217 @@
+{
+  "findings": [
+    {
+      "location": "פסקאות 7, 9–10, 12",
+      "severity": "major",
+      "source_quote": "conscientious objectors",
+      "suggested_fix": "החליפו את הצורות „המתנגדים למצפון”, „המתנגד למצפון”, „מתנגדי המצפון”, „המתנגדי המצפון” ו„המתנגדי־המצפון” בצורות הדקדוקיות המתאימות של „סרבני מצפון”. בהופעה הראשונה של COs הבהירו שזהו הקיצור באנגלית לסרבני מצפון.",
+      "translation_quote": "המתנגדים למצפון; המתנגד למצפון; מתנגדי המצפון; המתנגדי המצפון; המתנגדי־המצפון"
+    },
+    {
+      "location": "פסקה 4",
+      "severity": "major",
+      "source_quote": "battles of unparalleled ferocity and savagery. Suicide charges",
+      "suggested_fix": "החליפו ב„קרבות באכזריות ובפראות חסרות תקדים. הסתערויות התאבדות”.",
+      "translation_quote": "קרבות בעוז וברוח חייתית שאין להם עדים. מטעני התאבדות"
+    },
+    {
+      "location": "פסקה 4",
+      "severity": "major",
+      "source_quote": "a banzai charge (a typically nocturnal all-out attack of massed infantry yelling at the top of their voices as they charged) might split the night air into a rush of charging enemies whipped into a killing frenzy",
+      "suggested_fix": "החליפו את הקטע ב„הסתערות באנזאי (התקפה כוללת, בדרך כלל לילית, של המוני חיילי רגלים הצועקים במלוא גרונם תוך כדי הסתערות) עלולה הייתה לקרוע את אוויר הלילה בשטף של אויבים מסתערים, שהוסתו לטירוף של הרג”.",
+      "translation_quote": "עלול היה למרום לפרוץ מטח־באנזאי (מַדְּרָךְ־הֲרָרָה לילית של התקפה כוללת של חיל רגלים בצעקה) ולקרוע את האוויר הלילי למבול של אויבים נוהרים שהובלו לשיסוף־הריגה"
+    },
+    {
+      "location": "פסקה 4, משפט אחרון",
+      "severity": "major",
+      "source_quote": "Death was ever present, claiming lives seemingly at random.",
+      "suggested_fix": "כתבו: „המוות היה נוכח תמיד, וגבה חיים לכאורה באקראי.”",
+      "translation_quote": "המוות היה נוכח תמיד, והביא בחורים חייהם כאילו באקראי."
+    },
+    {
+      "location": "פסקה 6",
+      "severity": "major",
+      "source_quote": "the Selective Training and Service Act of 1940 had been passed ... register for the draft",
+      "suggested_fix": "כתבו „נחקק חוק ההכשרה והשירות הסלקטיביים משנת 1940” ו„להירשם לגיוס”, בהתאמה.",
+      "translation_quote": "הוכר חוק גיוס והשירות של 1940 ... להירשם למצ'יטה"
+    },
+    {
+      "location": "פסקה 7",
+      "severity": "major",
+      "source_quote": "this draft ... a similar draft",
+      "suggested_fix": "החליפו „המילואים” ב„הגיוס הזה” ואת „ומילואים דומים” ב„וגיוס דומה”, והתאימו את התחביר.",
+      "translation_quote": "המילואים ... ומילואים דומים"
+    },
+    {
+      "location": "פסקה 7",
+      "severity": "major",
+      "source_quote": "join in the drills and decorum of the armed forces, and penalties of various kinds could be and were enforced ... many suffered physically, and several were killed",
+      "suggested_fix": "כתבו: „להשתתף בתרגילים ולקבל את כללי ההתנהגות של הכוחות המזוינים, וניתן היה להטיל עונשים מסוגים שונים על המסרבים, וכך אכן נעשה. העונשים היו כה חמורים שרבים סבלו פיזית, ואחדים אף נהרגו בשל היחס שקיבלו.”",
+      "translation_quote": "להצטרף לתרגולים ולדקלים של הכוחות המזוינים, ועונשים במגוון צורות נעצרו והוטלו ... שמטופלים רבים סבלו פיזית, ומספרים אף מתו"
+    },
+    {
+      "location": "פסקה 8",
+      "severity": "major",
+      "source_quote": "There they were to be molded into soldiers, prepared to kill their fellow man, and then sent overseas for that purpose. Yet their faith decreed otherwise.",
+      "suggested_fix": "כתבו: „שם היו אמורים להפוך אותם לחיילים, להכין אותם להרוג את בני מינם, ואז לשלוח אותם מעבר לים למטרה זו. אך אמונתם הורתה אחרת.”",
+      "translation_quote": "שם היו לעבד לחיילים, מוכנים להורגים את אדם ולשלוחם מעבר לים למטרה זו. אך אמונתם הפקידה אחרת."
+    },
+    {
+      "location": "פסקה 9, משפט אחרון",
+      "severity": "major",
+      "source_quote": "fulfill the law without breaking the Law",
+      "suggested_fix": "הבהירו את ההבחנה: „לקיים את חוק המדינה בלי להפר את חוק האלוהים”. השאירו את ההפניה למרקוס במקומה.",
+      "translation_quote": "לקיים את החוק מבלי לעבור על החוק"
+    },
+    {
+      "location": "פסקה 10",
+      "severity": "major",
+      "source_quote": "local law enforcement would turn a blind eye ... patriotic fervor would boil over ... perceived slackers",
+      "suggested_fix": "החליפו בהתאמה ב„רשויות אכיפת החוק המקומיות העלימו עין”, „הלהט הפטריוטי גלש מעבר לכל רסן” ו„מי שנתפסו כמשתמטים”.",
+      "translation_quote": "כוחות החוק המקומיים הפנו עין ... התלהבות פטריוטית ההפכה־את־הדם ... אלו שנתפסו כמצהיבים"
+    },
+    {
+      "location": "פסקה 11",
+      "severity": "major",
+      "source_quote": "The emperor was worshiped as infallible",
+      "suggested_fix": "כתבו: „הקיסר זכה לסגידה כמי שאינו יכול לטעות”.",
+      "translation_quote": "הקיסר הוכתר שלא הוא טועה"
+    },
+    {
+      "location": "פסקה 11, משפט אחרון",
+      "severity": "major",
+      "source_quote": "a force vastly inferior to their own",
+      "suggested_fix": "כתבו: „כוח שהיה נחות בהרבה מכוחו שלו”.",
+      "translation_quote": "כוח חסר־שווה לחלוטין"
+    },
+    {
+      "location": "פסקה 12",
+      "severity": "major",
+      "source_quote": "Troublesome ones would be bound in strait jackets for weeks",
+      "suggested_fix": "כתבו: „מטופלים שנחשבו בעייתיים נקשרו בכותנות כפייה למשך שבועות”.",
+      "translation_quote": "בעייתיים הוכנסו בחגורות הצמדה לשבועות"
+    },
+    {
+      "location": "פסקה 12, משפט אחרון",
+      "severity": "major",
+      "source_quote": "which would be the catalyst for change in the care",
+      "suggested_fix": "החליפו את „והן היו הגורם השינה לשינוי” ב„והדבר שימש זרז לשינוי”.",
+      "translation_quote": "והן היו הגורם השינה לשינוי בטיפול"
+    },
+    {
+      "location": "פסקה 13",
+      "severity": "major",
+      "source_quote": "these influences weighed more heavily on the young men’s minds ... lean on God as their strength, support, and defense",
+      "suggested_fix": "כתבו „השפעות אלו הכבידו על נפשם של הצעירים יותר משהיו מכבידות בבית” ובהמשך „להישען על אלוהים כמקור כוחם, תמיכתם והגנתם”.",
+      "translation_quote": "השפעות אלו טענו בחומרה רבה יותר במחשבות הצעירים ... לשאת על אלוהים כמקור כוחם, תמיכתם והגנתם"
+    },
+    {
+      "location": "פסקה 14, תחילת הפסקה",
+      "severity": "major",
+      "source_quote": "Japan moved in for an overpowering assault of the Philippines",
+      "suggested_fix": "כתבו: „יפן התקדמה לקראת מתקפה מכרעת על הפיליפינים”.",
+      "translation_quote": "יפן נתקפה למתקפה מרצחת על הפיליפינים"
+    },
+    {
+      "location": "פסקה 14",
+      "severity": "major",
+      "source_quote": "winning the war in Europe first ... defend against the inevitable landings and subsequent inward crawl of the invaders",
+      "suggested_fix": "כתבו „לנצח תחילה במלחמה באירופה”, ובהמשך „להתגונן מפני הנחיתות הבלתי נמנעות וההתקדמות האיטית של הפולשים אל פנים הארץ בעקבותיהן”.",
+      "translation_quote": "ניצחון על אירופה תחילה ... לעמוד בפני הנחיתות הבלתי נמנעת ולהתפשט פנימה של המפלשים"
+    },
+    {
+      "location": "פסקה 15",
+      "severity": "major",
+      "source_quote": "Churches prayed, wrote letters, and otherwise made efforts to support the young men",
+      "suggested_fix": "החליפו את „ולעגו מאמצים נוספים” ב„ועשו מאמצים נוספים”.",
+      "translation_quote": "כנסיות התפללו, כתבו מכתבים ולעגו מאמצים נוספים לתמוך בצעירים"
+    },
+    {
+      "location": "פסקה 16",
+      "severity": "major",
+      "source_quote": "causing the Japanese advance to grind to a halt",
+      "suggested_fix": "כתבו: „והביאה לעצירה מוחלטת של ההתקדמות היפנית”.",
+      "translation_quote": "וגרמה להתקדמות היפנית להאט"
+    },
+    {
+      "location": "פסקה 17",
+      "severity": "major",
+      "source_quote": "Even as the Japanese were uprooted from these strongholds",
+      "suggested_fix": "כתבו: „גם כאשר היפנים נעקרו ממעוזים אלה”.",
+      "translation_quote": "גם כאשר היפנים הושרו מהבסיסים הללו"
+    },
+    {
+      "location": "פסקה 19",
+      "severity": "major",
+      "source_quote": "or make them a gruesome example of a newly developed atomic bomb being dropped from the relative safety of the air?",
+      "suggested_fix": "כתבו: „או להפוך אותם לדוגמה מחרידה להרס שגורמת פצצת אטום שפותחה זה עתה, שתוטל מן האוויר בבטיחות יחסית?”",
+      "translation_quote": "או להביא לקורבנות אימתניים באמצעות פצצה אטומית החדשה שיושלכו מתוך בטיחות־לא־מהותית של האוויר?"
+    },
+    {
+      "location": "פסקה 20",
+      "severity": "major",
+      "source_quote": "Except for the formalities, the war was over.",
+      "suggested_fix": "כתבו: „מלבד ההליכים הרשמיים שנותרו, המלחמה הסתיימה.”",
+      "translation_quote": "בעודם נושאים בטקסיות, המלחמה תמה."
+    },
+    {
+      "location": "פסקה 21",
+      "severity": "major",
+      "source_quote": "raising their families ... wearing the full biblical armor available to them",
+      "suggested_fix": "החליפו „הרימו משפחות” ב„גידלו את משפחותיהם”, ואת „חבשו את כל שריון־המקרא שהיה זמין להם” ב„לבשו את מלוא השריון המתואר בכתבי הקודש, שעמד לרשותם”.",
+      "translation_quote": "הרימו משפחות ... חבשו את כל שריון־המקרא שהיה זמין להם"
+    },
+    {
+      "location": "פסקה 22",
+      "severity": "major",
+      "source_quote": "the victorious COs ... the redemption and peace of a fully surrendered life ... what they fought for",
+      "suggested_fix": "כתבו „סרבני המצפון שניצחו”, „בגאולה ובשלום של חיים שנמסרו כליל לאלוהים” ו„למען מה הם נלחמו”, בהתאמה.",
+      "translation_quote": "ה־COs הנצחים ... בגאולה ובשלום של חיים מוחזרים שלמים ... במה הם נלחמו"
+    },
+    {
+      "location": "figure > figcaption",
+      "severity": "major",
+      "source_quote": "For we wrestle not against flesh and blood, but against principalities, against powers, against the rulers of the darkness of this world",
+      "suggested_fix": "תרגמו בעברית מודרנית, תוך שימור התגים ושבירות השורה: „כי איננו נאבקים בבשר ודם, אלא בשררות,<br> בכוחות, בשליטי החושך של העולם הזה,”.",
+      "translation_quote": "כִּי לֹא־בְּנֶפֶשׁ וְדָם אֲנַחְנוּ נִלְחָמִים, כִּי־אִם־בְּנִשְׂאֵי<br>\n    הַשִּׁלְטוֹנִים, בְּכָחוֹת, בְּשָׂרוֹת־הַחֹשֶׁךְ הָעוֹלָם;"
+    },
+    {
+      "location": "figure > img > alt",
+      "severity": "major",
+      "source_quote": "Mountain silhouettes and birds at dusk beneath Ephesians 6:11-12",
+      "suggested_fix": "תרגמו את ערך alt ל„צלליות הרים וציפורים בשעת דמדומים מתחת לטקסט מאפסיים 6:11-12”, בלי לשנות את יתר מאפייני התמונה.",
+      "translation_quote": "Mountain silhouettes and birds at dusk beneath Ephesians 6:11-12"
+    },
+    {
+      "location": "פסקה 3",
+      "severity": "major",
+      "source_quote": "this trying fire of strife",
+      "suggested_fix": "החליפו „באש־המאבק המנסרת הזו” ב„באש המאבק המעמידה במבחן”.",
+      "translation_quote": "באש־המאבק המנסרת הזו"
+    },
+    {
+      "location": "פסקה 1",
+      "severity": "minor",
+      "source_quote": "From the earliest disputes of Cain and Abel ... treaties and ceasefires",
+      "suggested_fix": "כתבו „מן המחלוקות הראשונות בין קין להבל” ו„הסכמים והפסקות אש”, בהתאמה.",
+      "translation_quote": "ממחלקותיו הראשונות של קין והבל ... סכמי שביתת נשק והסכמים"
+    },
+    {
+      "location": "פסקה 5",
+      "severity": "minor",
+      "source_quote": "Four thousand miles ... the sharpest of two-edged swords ... The Holy Spirit",
+      "suggested_fix": "תקנו ל„ארבעת אלפים מייל”, „בחרב הפיפיות החדה ביותר” ו„רוח הקודש”, בהתאמה, תוך שימור תגי ההדגשה.",
+      "translation_quote": "ארבע אלף מיילים ... בחרב דו־חודדת ביותר ... הרוח הקודש"
+    },
+    {
+      "location": "figure > figcaption, פתיחה",
+      "severity": "minor",
+      "source_quote": "PUT ON THE WHOLE ARMOUR OF GOD ... that ye may be able to ... stand against the wiles of the devil",
+      "suggested_fix": "השתמשו בעברית מודרנית תקינה: „לבשו את מלוא שריון האלוהים” ו„כדי שתוכלו ... לעמוד נגד תחבולות השטן”, תוך שימור תגי העיצוב ושבירות השורה.",
+      "translation_quote": "לְבַשּׁוּ אֶת־כָּל־שַׁרְיֺן הָאֱלֹהִים ... כְּדֵי שֶׁתִּכְלוּ ... לַעֲמֹד נֶגֶד עָרוּמוֹת הַשָּׂטָן"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Review report is incomplete; all returned findings are retained for owner attention",
+  "stage": "terminal"
+}
