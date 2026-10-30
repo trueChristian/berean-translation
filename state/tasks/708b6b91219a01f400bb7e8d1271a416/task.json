@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "ec2a24e0d25a489a87591d2184fb6cdc",
   "campaign": "auto-3e7134004078dea37010ab21b30b0a9d3ebd4f05b4e6336be6cd9ed5c83b841d",
   "created_at": "2026-10-29T23:02:47+00:00",
   "events": [
@@ -28,10 +27,46 @@
         },
         "total_tokens": 9503
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 934,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 721,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9857,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8754,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 10791
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "Jeremiah 1:6 quotation",
+      "severity": "minor",
+      "source_quote": "“for I am a child. But the Lord said unto me, Say not, I am a child”",
+      "suggested_fix": "For a closer rendering of the printed quotation, change both instances of «jeg er ung» to «jeg er et barn».",
+      "translation_quote": "«for jeg er ung. Men Herren sa til meg: Si ikke: Jeg er ung!»"
+    },
+    {
+      "location": "Paragraph beginning “She tossed about greatly disturbed”",
+      "severity": "minor",
+      "source_quote": "“With a prayer, she asked for a confirmation of her commission.”",
+      "suggested_fix": "Include the prayer, for example: «Med en bønn ba hun om å få bekreftet kallet sitt.»",
+      "translation_quote": "«Hun ba om å få bekreftet kallet sitt.»"
+    }
+  ],
+  "finished_at": "2026-10-30T07:04:15+00:00",
   "id": "708b6b91219a01f400bb7e8d1271a416",
   "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
   "language": "nob",
@@ -120,9 +155,11 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/17600542ba2281535063b51832b1ebaad8d50b662352bce1164408cda85adae0.json",
   "stage": "review1",
   "stage_budget": {
@@ -138,7 +175,7 @@
     "total_reserved_usd": 0.090534,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "385aeb5b4a7bcbf512c0d5b8310c2fd8f5f85b86d43d077caf80670ee93c6738",
   "translation_model_actual": "gpt-6-luna"

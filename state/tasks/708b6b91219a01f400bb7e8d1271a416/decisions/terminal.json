@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Jeremiah 1:6 quotation",
+      "severity": "minor",
+      "source_quote": "“for I am a child. But the Lord said unto me, Say not, I am a child”",
+      "suggested_fix": "For a closer rendering of the printed quotation, change both instances of «jeg er ung» to «jeg er et barn».",
+      "translation_quote": "«for jeg er ung. Men Herren sa til meg: Si ikke: Jeg er ung!»"
+    },
+    {
+      "location": "Paragraph beginning “She tossed about greatly disturbed”",
+      "severity": "minor",
+      "source_quote": "“With a prayer, she asked for a confirmation of her commission.”",
+      "suggested_fix": "Include the prayer, for example: «Med en bønn ba hun om å få bekreftet kallet sitt.»",
+      "translation_quote": "«Hun ba om å få bekreftet kallet sitt.»"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}
