@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "4f1ca799ac99458a8cfc73ad54ccc26a",
   "campaign": "auto-3618d149f53351abef15f06b9cfa1afa2368c2c829e3e70efcbceae8e712d161",
   "created_at": "2026-10-30T14:06:52+00:00",
   "events": [
@@ -28,25 +27,31 @@
         },
         "total_tokens": 16774
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 87,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 55,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 10817,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 10814,
+          "cached_tokens": 0
+        },
+        "total_tokens": 10904
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "Article body, paragraph beginning “তিনি গভীরভাবে বিচলিত হয়ে”; Ezekiel 3:11 quotation",
-      "severity": "major",
-      "source_quote": "“Go, get thee to them of the captivity, unto the children of thy people, and speak to them.”",
-      "suggested_fix": "যিহিষ্কেল ৩:১১-এর উদ্ধৃতিতে সম্বোধন ও নির্দেশটি পূর্ণভাবে দিন, যেমন: “যাও, বন্দিদের কাছে যাও—তোমার স্বজাতির লোকদের কাছে—এবং তাদের সঙ্গে কথা বলো।”",
-      "translation_quote": "“যাও, তোমার স্বজাতির বন্দিদের কাছে যাও।”"
-    },
-    {
-      "location": "Article body, paragraph beginning “কিছুদিন পরে তিনি আবার তাকে দেখতে গেলেন”; prisoner’s speech about the bone brooch",
-      "severity": "minor",
-      "source_quote": "“The sun of His love can consume all my sins as the power of sunshine has cleansed this bone.”",
-      "suggested_fix": "“তাঁর প্রেমের সূর্য আমার সব পাপ গ্রাস করতে পারে, যেমন সূর্যালোকের শক্তি এই হাড়টিকে পরিষ্কার করেছে।”",
-      "translation_quote": "“তাঁর প্রেমের সূর্য আমার সব পাপ গ্রাস করতে পারে, যেমন সূর্যের আলোর শক্তি এই হাড়ের চর্বি পরিষ্কার করেছে।”"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-30T19:16:11+00:00",
   "id": "0b8b9cecda686aa61d9e66f017581610",
   "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
   "language": "ben",
@@ -135,9 +140,11 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/17600542ba2281535063b51832b1ebaad8d50b662352bce1164408cda85adae0.json",
   "stage": "review2",
   "stage_budget": {
@@ -151,7 +158,7 @@
     "total_reserved_usd": 0.621242,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "385aeb5b4a7bcbf512c0d5b8310c2fd8f5f85b86d43d077caf80670ee93c6738",
   "translation_model_actual": "gpt-6.1-sol"
