@@ -549,12 +549,12 @@
       "ai_notice_required": false,
       "direction": "ltr",
       "html": "content/afr/articles/1c698fb4-f4e6-419b-bdcc-1b25cbe2b035.html",
-      "html_sha256": "8d6ee3d30088d6929edcc0ea5492e41c5c6dda037e579bb0e61a1fd2ef7ab7a1",
+      "html_sha256": "5c9b211dde8578bb8c2754e050fa6a066e80f0dccd122d5106f086551b3e0068",
       "human_edit": {
         "author": "Malachi",
-        "commit": "6759c1b9bce861e5c781c0a2ab050fe375683a20",
+        "commit": "61abacc1e4b338376e4f61552001ea90e8c5340c",
         "email": "163401881+malachivdm@users.noreply.github.com",
-        "time": "2026-10-29T09:45:07+02:00"
+        "time": "2026-10-30T13:01:39+02:00"
       },
       "human_reviewed": true,
       "id": "1c698fb4-f4e6-419b-bdcc-1b25cbe2b035",
@@ -3737,6 +3737,34 @@
       "subtitle": null,
       "title": "Vreugde in die spleetjies",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/afr/articles/b40d86c2-0814-40ea-a893-20dd7fcbdadb.html",
+      "html_sha256": "4436f496cb226b158288246088b92dab1881fc1f657ac747b5677d53b12c365d",
+      "human_reviewed": false,
+      "id": "b40d86c2-0814-40ea-a893-20dd7fcbdadb",
+      "images": [
+        {
+          "alt": "Bergsilhoeëtte en voëls teen skemer onder Efesiërs 6:11-12",
+          "public_path": "/images/articles/b40d86c2-0814-40ea-a893-20dd7fcbdadb-1.jpg"
+        }
+      ],
+      "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
+      "language": "afr",
+      "language_tag": "af",
+      "metadata": "content/afr/articles/b40d86c2-0814-40ea-a893-20dd7fcbdadb.json",
+      "metadata_sha256": "95f071a731da8da21b217b6c97470d107825d5c8bf5536b8e8fa4a4ec36a144f",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "KERKGESKIEDENIS",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "c767adc49633e338375567a05addcb2f986e5c013a016c2592a1cd600a81bb50",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Helde",
+      "translation_model": "gpt-6.1-sol"
     },
     {
       "ai_notice_required": true,
@@ -79283,6 +79311,34 @@
       "subtitle": "MFULULIZO WA UFUASI",
       "title": "Wanawake wa Imani",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/swa/articles/b40d86c2-0814-40ea-a893-20dd7fcbdadb.html",
+      "html_sha256": "8bdcf700feb1557c4c50670518b582b6bbf242ae5fbbd89aa13f143c705fa79c",
+      "human_reviewed": false,
+      "id": "b40d86c2-0814-40ea-a893-20dd7fcbdadb",
+      "images": [
+        {
+          "alt": "Maumbo meusi ya milima na ndege wakati wa machweo chini ya Waefeso 6:11-12",
+          "public_path": "/images/articles/b40d86c2-0814-40ea-a893-20dd7fcbdadb-1.jpg"
+        }
+      ],
+      "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
+      "language": "swa",
+      "language_tag": "sw",
+      "metadata": "content/swa/articles/b40d86c2-0814-40ea-a893-20dd7fcbdadb.json",
+      "metadata_sha256": "16624ee366af415257f641fcd349872cfbe3238d3e8b893fda085261461a7eb3",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "HISTORIA YA KANISA",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "c767adc49633e338375567a05addcb2f986e5c013a016c2592a1cd600a81bb50",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Mashujaa",
+      "translation_model": "gpt-6.1-sol"
     },
     {
       "ai_notice_required": true,
