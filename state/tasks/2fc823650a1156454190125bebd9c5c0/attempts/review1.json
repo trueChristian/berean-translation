@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-30T11:12:06+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Abschnitt 4, Absatz\",\"severity\":\"minor\",\"source_quote\":\"Let godly sorrow do her healing work.\",\"suggested_fix\":\"Lass die gottgemäße Trauer ihre heilende Arbeit tun.\",\"translation_quote\":\"Lass die gottgewollte Trauer ihre heilende Arbeit tun.\"}],\"findings_complete\":true,\"passed\":true,\"score\":99}",
+    "content_bytes": 323,
+    "content_evidence_truncated": false,
+    "content_sha256": "f2cf2e4a0ab78e02e775224c85714ec849d5c252e15ce14f27d950153db9b731",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 608,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4270,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3167,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 4878
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Abschnitt 4, Absatz",
+      "severity": "minor",
+      "source_quote": "Let godly sorrow do her healing work.",
+      "suggested_fix": "Lass die gottgemäße Trauer ihre heilende Arbeit tun.",
+      "translation_quote": "Lass die gottgewollte Trauer ihre heilende Arbeit tun."
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}
