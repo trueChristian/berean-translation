@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Image 3 alt text",
+      "severity": "minor",
+      "source_quote": "“Women and children gathered in a bare room”",
+      "suggested_fix": "Γυναίκες και παιδιά συγκεντρωμένα σε ένα λιτά επιπλωμένο δωμάτιο",
+      "translation_quote": "«Γυναίκες και παιδιά συγκεντρωμένα σε ένα γυμνό δωμάτιο»"
+    },
+    {
+      "location": "Paragraph beginning “She tossed about greatly disturbed” — Jeremiah 1:6 quotation",
+      "severity": "minor",
+      "source_quote": "“Ah, Lord God!”",
+      "suggested_fix": "«Αχ, Κύριε Θεέ!»",
+      "translation_quote": "«Αλίμονο, Κύριε Θεέ!»"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

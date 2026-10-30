@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-30T14:04:33+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Image 3 alt text\",\"severity\":\"minor\",\"source_quote\":\"“Women and children gathered in a bare room”\",\"suggested_fix\":\"Γυναίκες και παιδιά συγκεντρωμένα σε ένα λιτά επιπλωμένο δωμάτιο\",\"translation_quote\":\"«Γυναίκες και παιδιά συγκεντρωμένα σε ένα γυμνό δωμάτιο»\"},{\"location\":\"Paragraph beginning “She tossed about greatly disturbed” — Jeremiah 1:6 quotation\",\"severity\":\"minor\",\"source_quote\":\"“Ah, Lord God!”\",\"suggested_fix\":\"«Αχ, Κύριε Θεέ!»\",\"translation_quote\":\"«Αλίμονο, Κύριε Θεέ!»\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 715,
+    "content_evidence_truncated": false,
+    "content_sha256": "357b819ad4af43f0592099dfd79cebcf46a0e675de1bd7d7a0f6a58c200b4c9f",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1091,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 906,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 11939,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 10836,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 13030
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

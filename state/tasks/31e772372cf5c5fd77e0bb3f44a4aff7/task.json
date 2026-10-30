@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "e09fd0973eb74172bb54858bcf84db74",
   "campaign": "auto-0a6153e802fbf6905fdf93566f84e655604f63ececb0d1d5e90fa7a17ec26869",
   "created_at": "2026-10-29T23:02:18+00:00",
   "events": [
@@ -68,18 +67,46 @@
         },
         "total_tokens": 18637
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1091,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 906,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 11939,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 10836,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 13030
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "Final quoted paragraph, sentence about the thief on the cross",
-      "severity": "major",
-      "source_quote": "The thief on the cross was brought by Jesus to Paradise.",
-      "suggested_fix": "Ο ληστής που ήταν στον σταυρό οδηγήθηκε από τον Ιησού στον Παράδεισο.",
-      "translation_quote": "Ο Ιησούς οδήγησε τον ληστή στον σταυρό στον Παράδεισο."
+      "location": "Image 3 alt text",
+      "severity": "minor",
+      "source_quote": "“Women and children gathered in a bare room”",
+      "suggested_fix": "Γυναίκες και παιδιά συγκεντρωμένα σε ένα λιτά επιπλωμένο δωμάτιο",
+      "translation_quote": "«Γυναίκες και παιδιά συγκεντρωμένα σε ένα γυμνό δωμάτιο»"
+    },
+    {
+      "location": "Paragraph beginning “She tossed about greatly disturbed” — Jeremiah 1:6 quotation",
+      "severity": "minor",
+      "source_quote": "“Ah, Lord God!”",
+      "suggested_fix": "«Αχ, Κύριε Θεέ!»",
+      "translation_quote": "«Αλίμονο, Κύριε Θεέ!»"
     }
   ],
+  "finished_at": "2026-10-30T14:04:33+00:00",
   "id": "31e772372cf5c5fd77e0bb3f44a4aff7",
   "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
   "language": "ell",
@@ -168,7 +195,7 @@
     }
   },
   "protected": false,
-  "quality_score": 94,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
@@ -188,7 +215,7 @@
     "total_reserved_usd": 0.090531,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "385aeb5b4a7bcbf512c0d5b8310c2fd8f5f85b86d43d077caf80670ee93c6738",
   "translation_model_actual": "gpt-6-luna"
