@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "d7be0adae98344f080a3ab2bd8e82067",
   "campaign": "auto-f984e27537561d6519bbebecdc7d5a6300e8507f4f0b57eb3bd7dd18e683762a",
   "created_at": "2026-10-30T14:09:32+00:00",
   "events": [
@@ -28,60 +27,31 @@
         },
         "total_tokens": 16231
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 107,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 75,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 10368,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 9265,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 10475
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "Aya kuhusu utoto wake",
-      "severity": "major",
-      "source_quote": "“she saw by accident the smith welding red-hot irons on a group of prisoners”",
-      "suggested_fix": "“aliona kwa bahati fundi wa chuma akichomelea vyuma vilivyopashwa moto kuwa vyekundu kwenye kundi la wafungwa.”",
-      "translation_quote": "“aliona kwa bahati seremala wa chuma akichomelea vyuma vyekundu kwa moto kwenye kundi la wafungwa.”"
-    },
-    {
-      "location": "Aya kuhusu Mathilde na Yohana 3:16",
-      "severity": "minor",
-      "source_quote": "“the golden words”",
-      "suggested_fix": "“maneno hayo ya thamani”",
-      "translation_quote": "“maneno hayo ya thamani”"
-    },
-    {
-      "location": "Aya kuhusu huduma yake Kakola",
-      "severity": "major",
-      "source_quote": "“four hundred life-sentenced are interned”",
-      "suggested_fix": "“ambako watu mia nne waliokuwa wamehukumiwa kifungo cha maisha walifungwa.”",
-      "translation_quote": "“ambako watu mia nne waliohukumiwa kifungo cha maisha walikuwa wamefungwa.”"
-    },
-    {
-      "location": "Aya kuhusu mahusiano yake na Wekundu na Weupe",
-      "severity": "major",
-      "source_quote": "“The Red Guardists treated her with childlike respect and kindness”",
-      "suggested_fix": "“Walinzi wa Jeshi Jekundu walimtendea kwa heshima na fadhili kama za watoto”",
-      "translation_quote": "“Walinzi wa Kihudumu Wekundu walimtendea kwa heshima na fadhili kama za watoto”"
-    },
-    {
-      "location": "Mazungumzo kuhusu kazi ya mfungwa wa zamani",
-      "severity": "major",
-      "source_quote": "“Oh, yes, I am an asphalteur.”",
-      "suggested_fix": "“Naam, mimi ni mfanyakazi wa kuweka lami.”",
-      "translation_quote": "“Naam, mimi ni mfinyanzi wa lami.”"
-    },
-    {
-      "location": "Aya kuhusu brooch ya mfungwa",
-      "severity": "minor",
-      "source_quote": "“Would you lend me, Miss, your brooch?”",
-      "suggested_fix": "“Bibi, utaniazima broshi yako?”",
-      "translation_quote": "“Bibi, utaniazima brooch yako?”"
-    },
-    {
-      "location": "Aya kuhusu brooch ya mfupa",
-      "severity": "minor",
-      "source_quote": "“a brooch, the exact replica of hers”",
-      "suggested_fix": "“broshi, nakala inayofanana kabisa na yake”",
-      "translation_quote": "“brooch, nakala inayofanana kabisa na yake”"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-30T20:02:09+00:00",
   "id": "396c780c55f409eec451adb6c8e744b2",
   "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
   "language": "swa",
@@ -170,9 +140,11 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/17600542ba2281535063b51832b1ebaad8d50b662352bce1164408cda85adae0.json",
   "stage": "review2",
   "stage_budget": {
@@ -186,7 +158,7 @@
     "total_reserved_usd": 0.595194,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "385aeb5b4a7bcbf512c0d5b8310c2fd8f5f85b86d43d077caf80670ee93c6738",
   "translation_model_actual": "gpt-6.1-sol"
