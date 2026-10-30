@@ -1,0 +1,35 @@
+{
+  "findings": [
+    {
+      "location": "translation.html, alinea's 1, 7, 8, 9 en 10",
+      "severity": "minor",
+      "source_quote": "This hymn; in this hymn; this hymn; The hymn; The hymn first appeared",
+      "suggested_fix": "Gebruik het vrouwelijke woordgeslacht van ‘hymne’: vervang ‘Dit hymne’ door ‘Deze hymne’, beide gevallen van ‘dit hymne’ door ‘deze hymne’ en beide gevallen van ‘Het hymne’ door ‘De hymne’.",
+      "translation_quote": "Dit hymne; in dit hymne; het schrijven van dit hymne; Het hymne was de vrucht; Het hymne verscheen"
+    },
+    {
+      "location": "translation.html, alinea 7",
+      "severity": "minor",
+      "source_quote": "the “cross” in the last verse",
+      "suggested_fix": "Vervang ‘in de laatste vers’ door ‘in de laatste strofe’.",
+      "translation_quote": "het “kruis” in de laatste vers"
+    },
+    {
+      "location": "translation.html, laatste zin van alinea 5",
+      "severity": "minor",
+      "source_quote": "finally prepared only an outline from which to preach",
+      "suggested_fix": "Vervang ‘bereidde hij uiteindelijk slechts een schets waaruit hij preekte’ door ‘maakte hij uiteindelijk alleen een preekschets van waaruit hij preekte’.",
+      "translation_quote": "bereidde hij uiteindelijk slechts een schets waaruit hij preekte"
+    },
+    {
+      "location": "translation.html, alinea's 10, 11 en 12",
+      "severity": "minor",
+      "source_quote": "Matheson’s text; Peace’s own account; Matheson’s life",
+      "suggested_fix": "Gebruik de Nederlandse bezitsvormen ‘Mathesons tekst’, ‘Peaces eigen relaas’ en ‘Mathesons leven’, zonder apostrof.",
+      "translation_quote": "Matheson’s tekst; Peace’s eigen relaas; Matheson’s leven"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

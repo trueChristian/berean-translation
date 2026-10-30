@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-30T20:20:52+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"translation.html, alinea's 1, 7, 8, 9 en 10\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"This hymn; in this hymn; this hymn; The hymn; The hymn first appeared\",\n      \"suggested_fix\": \"Gebruik het vrouwelijke woordgeslacht van ‘hymne’: vervang ‘Dit hymne’ door ‘Deze hymne’, beide gevallen van ‘dit hymne’ door ‘deze hymne’ en beide gevallen van ‘Het hymne’ door ‘De hymne’.\",\n      \"translation_quote\": \"Dit hymne; in dit hymne; het schrijven van dit hymne; Het hymne was de vrucht; Het hymne verscheen\"\n    },\n    {\n      \"location\": \"translation.html, alinea 7\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"the “cross” in the last verse\",\n      \"suggested_fix\": \"Vervang ‘in de laatste vers’ door ‘in de laatste strofe’.\",\n      \"translation_quote\": \"het “kruis” in de laatste vers\"\n    },\n    {\n      \"location\": \"translation.html, laatste zin van alinea 5\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"finally prepared only an outline from which to preach\",\n      \"suggested_fix\": \"Vervang ‘bereidde hij uiteindelijk slechts een schets waaruit hij preekte’ door ‘maakte hij uiteindelijk alleen een preekschets van waaruit hij preekte’.\",\n      \"translation_quote\": \"bereidde hij uiteindelijk slechts een schets waaruit hij preekte\"\n    },\n    {\n      \"location\": \"translation.html, alinea's 10, 11 en 12\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"Matheson’s text; Peace’s own account; Matheson’s life\",\n      \"suggested_fix\": \"Gebruik de Nederlandse bezitsvormen ‘Mathesons tekst’, ‘Peaces eigen relaas’ en ‘Mathesons leven’, zonder apostrof.\",\n      \"translation_quote\": \"Matheson’s tekst; Peace’s eigen relaas; Matheson’s leven\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": true,\n  \"score\": 96\n}",
+    "content_bytes": 1856,
+    "content_evidence_truncated": false,
+    "content_sha256": "10a026f49c390e2dcb3047a7376b6b1eeaec2d2c01503366ea0a598a3d664d50",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 623,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 120,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4950,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3847,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 5573
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}
