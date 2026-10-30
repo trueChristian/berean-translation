@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "305223746d384762bde0183e7e587c83",
   "campaign": "auto-0a6153e802fbf6905fdf93566f84e655604f63ececb0d1d5e90fa7a17ec26869",
   "created_at": "2026-10-29T23:02:18+00:00",
   "events": [
@@ -28,10 +27,38 @@
         },
         "total_tokens": 11624
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 777,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 648,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 11938,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 10835,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 12715
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "Final quoted paragraph, sentence about the thief on the cross",
+      "severity": "major",
+      "source_quote": "The thief on the cross was brought by Jesus to Paradise.",
+      "suggested_fix": "Ο ληστής που ήταν στον σταυρό οδηγήθηκε από τον Ιησού στον Παράδεισο.",
+      "translation_quote": "Ο Ιησούς οδήγησε τον ληστή στον σταυρό στον Παράδεισο."
+    }
+  ],
   "id": "31e772372cf5c5fd77e0bb3f44a4aff7",
   "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
   "language": "ell",
@@ -120,11 +147,13 @@
     }
   },
   "protected": false,
+  "quality_score": 94,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/17600542ba2281535063b51832b1ebaad8d50b662352bce1164408cda85adae0.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "translate",
     "max_candidate_bytes": 120000,
@@ -138,7 +167,7 @@
     "total_reserved_usd": 0.090531,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "385aeb5b4a7bcbf512c0d5b8310c2fd8f5f85b86d43d077caf80670ee93c6738",
   "translation_model_actual": "gpt-6-luna"

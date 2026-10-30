@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Final quoted paragraph, sentence about the thief on the cross",
+      "severity": "major",
+      "source_quote": "The thief on the cross was brought by Jesus to Paradise.",
+      "suggested_fix": "Ο ληστής που ήταν στον σταυρό οδηγήθηκε από τον Ιησού στον Παράδεισο.",
+      "translation_quote": "Ο Ιησούς οδήγησε τον ληστή στον σταυρό στον Παράδεισο."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

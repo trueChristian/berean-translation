@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "7d780fef-54f5-486b-b986-c746779b6fa2",
+    "response_id": "chatcmpl-EeYCykcVBm079IZcuKJLLPQplju1e",
+    "usage": {
+      "completion_tokens": 777,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 648,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 11938,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 10835,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 12715
+    }
+  },
+  "received_at": "2026-10-30T07:04:04+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Final quoted paragraph, sentence about the thief on the cross",
+        "severity": "major",
+        "source_quote": "The thief on the cross was brought by Jesus to Paradise.",
+        "suggested_fix": "Ο ληστής που ήταν στον σταυρό οδηγήθηκε από τον Ιησού στον Παράδεισο.",
+        "translation_quote": "Ο Ιησούς οδήγησε τον ληστή στον σταυρό στον Παράδεισο."
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 94
+  }
+}
