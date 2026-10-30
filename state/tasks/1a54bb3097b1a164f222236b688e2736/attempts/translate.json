@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-30T02:31:55+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"cac00fd8-ab2b-4033-92c7-bef44b4341db\\\">\\n  <figure>\\n    <img src=\\\"/images/articles/cac00fd8-ab2b-4033-92c7-bef44b4341db-1.jpg\\\" alt=\\\"উপকূলের কাছে পাথরের পাশ দিয়ে যাওয়া একটি পালতোলা জাহাজ।\\\">\\n  </figure>\\n  <p>একবার এক ক্যাপ্টেনকে জিজ্ঞেস করা হয়েছিল, উপকূলের সব পাথরের কথা তিনি জানেন কি না। “না,” তিনি বলেছিলেন, “সব পাথর চেনা জরুরি নয়; নিরাপদ জলপথটি চেনাই যথেষ্ট।”</p>\\n</article>\\n\",\"section\":null,\"subtitle\":null,\"title\":\"সব পাথর\"}",
+    "content_bytes": 838,
+    "content_evidence_truncated": false,
+    "content_sha256": "6854f8152c91ffef96512a260fddafa30d19283f991ad12c85c2d49ed94dc8f9",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 198,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 957,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1155
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}
