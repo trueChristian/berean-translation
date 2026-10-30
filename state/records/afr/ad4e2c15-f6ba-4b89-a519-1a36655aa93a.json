@@ -7,6 +7,12 @@
       "event": "automatic_requested",
       "previous_task": null,
       "task": "6bb3c087e652da64f2104424c4133949"
+    },
+    {
+      "at": "2026-10-30T07:04:38+00:00",
+      "event": "not_ready",
+      "reason": "Duplicate HTML attribute",
+      "task": "6bb3c087e652da64f2104424c4133949"
     }
   ],
   "language": "afr",
