@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-30T19:55:50+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"translation.html, Absatz 3\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"to consider the majority of it as “unsophisticated”\",\n      \"suggested_fix\": \"„un anspruchsvoll“ durch „unanspruchsvoll“ ersetzen.\",\n      \"translation_quote\": \"um den größten Teil davon für „un anspruchsvoll“ zu halten\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": true,\n  \"score\": 99\n}",
+    "content_bytes": 435,
+    "content_evidence_truncated": false,
+    "content_sha256": "ad51e2bfbca0eff2830ad74238a5c6b491bbc3d3418e92b38846f65e289f3f65",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 152,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 25,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 10507,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9404,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 10659
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review2",
+  "translation_attempts": 1
+}
