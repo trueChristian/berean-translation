@@ -9683,7 +9683,7 @@
       "article_id": "b40d86c2-0814-40ea-a893-20dd7fcbdadb",
       "language": "nob",
       "latest_task": "a2ff3d47b5dffe1896c267854bee4c0c",
-      "processing_status": "in_batch",
+      "processing_status": "queued",
       "reason": "active"
     },
     {
