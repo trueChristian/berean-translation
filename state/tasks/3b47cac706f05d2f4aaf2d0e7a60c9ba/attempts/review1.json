@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-30T14:06:02+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Article paragraph\",\"severity\":\"minor\",\"source_quote\":\"“No,” said he\",\"suggested_fix\":\"“Hapana,” akasema\",\"translation_quote\":\"“Hapana,” akasema\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 235,
+    "content_evidence_truncated": false,
+    "content_sha256": "0f957d6614d4a959b12e305c7791637c42f86c47289679c91a1c32cedafd846b",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 363,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 289,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1497,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 394,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 1860
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

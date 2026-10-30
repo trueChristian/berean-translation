@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "fdf47dd0c6bd4d768fa0c0ed9d444697",
   "campaign": "auto-ed0a42159a4de9bf49ba3d1a79d2e28228ee443c41dea409f60433479fab58d1",
   "created_at": "2026-10-29T18:44:04+00:00",
   "events": [
@@ -28,10 +27,39 @@
         },
         "total_tokens": 1241
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 363,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 289,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 1497,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 394,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 1860
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "Article paragraph",
+      "severity": "minor",
+      "source_quote": "“No,” said he",
+      "suggested_fix": "“Hapana,” akasema",
+      "translation_quote": "“Hapana,” akasema"
+    }
+  ],
+  "finished_at": "2026-10-30T14:06:02+00:00",
   "id": "3b47cac706f05d2f4aaf2d0e7a60c9ba",
   "issue_id": "07955de4-6574-4a4b-9c1b-f216374c02ee",
   "language": "swa",
@@ -120,9 +148,11 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/0ae41de326aa7cba59d562d6a913f080d22d6a8ea08e901024f07e36385932b8.json",
   "stage": "review1",
   "stage_budget": {
@@ -138,7 +168,7 @@
     "total_reserved_usd": 0.085706,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "30094b7d0bab0aaac033d51f712cb27efcf5eee8aacdb08736785e6e5d0e0518",
   "translation_model_actual": "gpt-6-luna"

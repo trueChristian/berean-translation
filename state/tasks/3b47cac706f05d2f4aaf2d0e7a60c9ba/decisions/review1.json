@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Article paragraph",
+      "severity": "minor",
+      "source_quote": "“No,” said he",
+      "suggested_fix": "“Hapana,” akasema",
+      "translation_quote": "“Hapana,” akasema"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

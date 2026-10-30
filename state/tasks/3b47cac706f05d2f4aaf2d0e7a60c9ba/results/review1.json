@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "cec4e840-59b5-4be7-9524-faaa72bbea66",
+    "response_id": "chatcmpl-EefI6A43sv8jBrmvGpxuwwNyTJu1o",
+    "usage": {
+      "completion_tokens": 363,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 289,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1497,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 394,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 1860
+    }
+  },
+  "received_at": "2026-10-30T14:06:02+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Article paragraph",
+        "severity": "minor",
+        "source_quote": "“No,” said he",
+        "suggested_fix": "“Hapana,” akasema",
+        "translation_quote": "“Hapana,” akasema"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}
