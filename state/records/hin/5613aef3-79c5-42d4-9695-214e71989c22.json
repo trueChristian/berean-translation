@@ -19,9 +19,32 @@
       "event": "automatic_requested",
       "previous_task": "959482d0be5d9a52862e9d1a4217e0a7",
       "task": "4c27f301670dce952a65d2fcd8fb994b"
+    },
+    {
+      "at": "2026-10-30T01:19:55+00:00",
+      "event": "complete",
+      "reason": null,
+      "task": "4c27f301670dce952a65d2fcd8fb994b"
     }
   ],
   "language": "hin",
   "latest_task": "4c27f301670dce952a65d2fcd8fb994b",
-  "published": null
+  "published": {
+    "html_path": "content/hin/articles/5613aef3-79c5-42d4-9695-214e71989c22.html",
+    "html_sha256": "a782c50568fb88e33e07eac79a5a2d3c25313b8f263e24f1d10adef2c020d3f3",
+    "human_review": null,
+    "human_reviewed": false,
+    "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
+    "metadata_path": "content/hin/articles/5613aef3-79c5-42d4-9695-214e71989c22.json",
+    "metadata_sha256": "bbd75c3ae3c2055c97fd1037aced79df59ea225517273a678710b71f3b94df2c",
+    "model": "gpt-6-luna",
+    "notice_html": "<aside class=\"translation-notice\" data-translation-notice=\"ai\" lang=\"hi\" dir=\"ltr\" role=\"note\">\n  <p>इस लेख का अनुवाद OpenAI (मॉडल: gpt-6-luna) द्वारा कृत्रिम बुद्धिमत्ता से किया गया है और अभी इसकी मानवीय समीक्षा नहीं हुई है। अंग्रेज़ी मूल पाठ ही प्रामाणिक संस्करण है। अर्थ के बारे में संदेह होने पर कृपया अंग्रेज़ी मूल पाठ देखें। <a href=\"/en/articles/5613aef3-79c5-42d4-9695-214e71989c22/\" data-source-article-id=\"5613aef3-79c5-42d4-9695-214e71989c22\" hreflang=\"en\">अंग्रेज़ी मूल पाठ</a></p>\n</aside>",
+    "published_at": "2026-10-30T01:19:55+00:00",
+    "quality_score": 98,
+    "review_model": "gpt-6.1-sol",
+    "source_revision": "a4c140808d10570088100bf72903af6bfe80b24b",
+    "source_snapshot": "state/sources/6b69ec32f3c591dde06bdc79dc3a851fd71299993e0486d80e9e5fc9fe8b1d86.json",
+    "task": "4c27f301670dce952a65d2fcd8fb994b",
+    "translation_key": "25a342e69db1f9564c4d013f3cc21b323e97a520b0f7ad9ab9787a58881371f3"
+  }
 }
