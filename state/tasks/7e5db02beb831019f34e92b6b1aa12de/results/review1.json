@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "b4ed70ee-a5c9-44f8-94be-e827ece334b3",
+    "response_id": "chatcmpl-EeYvJwOtZiSJCixJ1lpSFn4HWXYyp",
+    "usage": {
+      "completion_tokens": 727,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 568,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4248,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4245,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4975
+    }
+  },
+  "received_at": "2026-10-30T07:04:32+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, paragraph under heading 4",
+        "severity": "minor",
+        "source_quote": "Let godly sorrow do her healing work.",
+        "suggested_fix": "«Позвольте печали ради Бога совершить своё исцеляющее дело.»",
+        "translation_quote": "Позвольте скорби по Богу совершить своё исцеляющее дело."
+      },
+      {
+        "location": "HTML, heading 7",
+        "severity": "minor",
+        "source_quote": "Be Serious–minded.",
+        "suggested_fix": "«Будьте серьёзны и вдумчивы.»",
+        "translation_quote": "Относитесь к жизни серьёзно."
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}
