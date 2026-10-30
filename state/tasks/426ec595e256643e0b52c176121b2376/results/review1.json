@@ -1,0 +1,87 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "2ca42722-c32c-42c1-8a9f-2c5544621dd6",
+    "response_id": "chatcmpl-EebEprZjt34LeNz9sUoLCPevXDWEE",
+    "usage": {
+      "completion_tokens": 1056,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 144,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8482,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7379,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 9538
+    }
+  },
+  "received_at": "2026-10-30T07:30:58+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "html, Absatz 11: japanische Soldaten",
+        "severity": "major",
+        "source_quote": "even in the face of overwhelming odds",
+        "suggested_fix": "Ersetzen durch: „selbst angesichts einer überwältigenden Übermacht“.",
+        "translation_quote": "selbst angesichts überwältigender Chancen"
+      },
+      {
+        "location": "html, Absatz 14: MacArthurs Versprechen",
+        "severity": "major",
+        "source_quote": "“I shall return.”",
+        "suggested_fix": "Das Zitat übersetzen: „Ich werde zurückkehren.“",
+        "translation_quote": "„I shall return.“"
+      },
+      {
+        "location": "html, figcaption: letzter hervorgehobener Satz",
+        "severity": "major",
+        "source_quote": "AGAINST SPIRITUAL WICKEDNESS IN HIGH PLACES.",
+        "suggested_fix": "Ersetzen durch: „GEGEN DIE GEISTLICHEN MÄCHTE DER BOSHEIT IN DEN HIMMLISCHEN REGIONEN.“ Die vorhandenen HTML-Tags beibehalten.",
+        "translation_quote": "GEGEN DIE GEISTLICHEN HIMMLISCHEN WIDERGOTTHEITEN."
+      },
+      {
+        "location": "html, Absatz 10: Folgen patriotischer Erregung",
+        "severity": "major",
+        "source_quote": "resulting in mob violence, property damage",
+        "suggested_fix": "„führte zu Mobs, Sachschäden“ durch „führte zu Gewalttaten durch einen aufgebrachten Mob, Sachschäden“ ersetzen.",
+        "translation_quote": "führte zu Mobs, Sachschäden"
+      },
+      {
+        "location": "html, Absatz 9: abschließender Satz",
+        "severity": "minor",
+        "source_quote": "fulfill the law without breaking the Law",
+        "suggested_fix": "Den im Englischen durch Großschreibung markierten Gegensatz verdeutlichen: „Auf diese Weise konnten sie das staatliche Gesetz erfüllen, ohne Gottes Gesetz zu brechen (siehe Markus 12,17).“",
+        "translation_quote": "das Gesetz erfüllen, ohne das Gesetz zu brechen"
+      },
+      {
+        "location": "html, figcaption: erster hervorgehobener Satz",
+        "severity": "minor",
+        "source_quote": "PUT ON THE WHOLE ARMOUR OF GOD,",
+        "suggested_fix": "„WAPPENRÜSTUNG“ durch „WAFFENRÜSTUNG“ ersetzen.",
+        "translation_quote": "LEGT DIE GESAMTE WAPPENRÜSTUNG GOTTES AN,"
+      },
+      {
+        "location": "html, Absatz 19: Trumans Entscheidung",
+        "severity": "minor",
+        "source_quote": "to take Japan by land ... Truman deliberated and made his choice.",
+        "suggested_fix": "„Japan zu Fuß zu nehmen“ durch „Japan durch eine Bodeninvasion einzunehmen“ und „Truman beriet und traf seine Wahl“ durch „Truman wog die Möglichkeiten ab und traf seine Wahl“ ersetzen.",
+        "translation_quote": "Japan zu Fuß zu nehmen ... Truman beriet und traf seine Wahl."
+      },
+      {
+        "location": "html, Absatz 16: letzte deutsche Kriegsanstrengungen und Verlagerung des Krieges",
+        "severity": "minor",
+        "source_quote": "as Hitler made a last desperate stand ... the tide of war shifted to the Pacific",
+        "suggested_fix": "„als Hitler einen letzten verzweifelten Stand versuchte“ durch „als Hitler ein letztes Mal verzweifelt Widerstand leistete“ und „verlagerte sich die Kriegstide auf den Pazifik“ durch „verlagerte sich das Kriegsgeschehen auf den Pazifik“ ersetzen.",
+        "translation_quote": "als Hitler einen letzten verzweifelten Stand versuchte ... verlagerte sich die Kriegstide auf den Pazifik"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 88
+  }
+}

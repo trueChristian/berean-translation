@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-30T07:30:58+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"html, Absatz 11: japanische Soldaten\",\n      \"severity\": \"major\",\n      \"source_quote\": \"even in the face of overwhelming odds\",\n      \"suggested_fix\": \"Ersetzen durch: „selbst angesichts einer überwältigenden Übermacht“.\",\n      \"translation_quote\": \"selbst angesichts überwältigender Chancen\"\n    },\n    {\n      \"location\": \"html, Absatz 14: MacArthurs Versprechen\",\n      \"severity\": \"major\",\n      \"source_quote\": \"“I shall return.”\",\n      \"suggested_fix\": \"Das Zitat übersetzen: „Ich werde zurückkehren.“\",\n      \"translation_quote\": \"„I shall return.“\"\n    },\n    {\n      \"location\": \"html, figcaption: letzter hervorgehobener Satz\",\n      \"severity\": \"major\",\n      \"source_quote\": \"AGAINST SPIRITUAL WICKEDNESS IN HIGH PLACES.\",\n      \"suggested_fix\": \"Ersetzen durch: „GEGEN DIE GEISTLICHEN MÄCHTE DER BOSHEIT IN DEN HIMMLISCHEN REGIONEN.“ Die vorhandenen HTML-Tags beibehalten.\",\n      \"translation_quote\": \"GEGEN DIE GEISTLICHEN HIMMLISCHEN WIDERGOTTHEITEN.\"\n    },\n    {\n      \"location\": \"html, Absatz 10: Folgen patriotischer Erregung\",\n      \"severity\": \"major\",\n      \"source_quote\": \"resulting in mob violence, property damage\",\n      \"suggested_fix\": \"„führte zu Mobs, Sachschäden“ durch „führte zu Gewalttaten durch einen aufgebrachten Mob, Sachschäden“ ersetzen.\",\n      \"translation_quote\": \"führte zu Mobs, Sachschäden\"\n    },\n    {\n      \"location\": \"html, Absatz 9: abschließender Satz\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"fulfill the law without breaking the Law\",\n      \"suggested_fix\": \"Den im Englischen durch Großschreibung markierten Gegensatz verdeutlichen: „Auf diese Weise konnten sie das staatliche Gesetz erfüllen, ohne Gottes Gesetz zu brechen (siehe Markus 12,17).“\",\n      \"translation_quote\": \"das Gesetz erfüllen, ohne das Gesetz zu brechen\"\n    },\n    {\n      \"location\": \"html, figcaption: erster hervorgehobener Satz\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"PUT ON THE WHOLE ARMOUR OF GOD,\",\n      \"suggested_fix\": \"„WAPPENRÜSTUNG“ durch „WAFFENRÜSTUNG“ ersetzen.\",\n      \"translation_quote\": \"LEGT DIE GESAMTE WAPPENRÜSTUNG GOTTES AN,\"\n    },\n    {\n      \"location\": \"html, Absatz 19: Trumans Entscheidung\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"to take Japan by land ... Truman deliberated and made his choice.\",\n      \"suggested_fix\": \"„Japan zu Fuß zu nehmen“ durch „Japan durch eine Bodeninvasion einzunehmen“ und „Truman beriet und traf seine Wahl“ durch „Truman wog die Möglichkeiten ab und traf seine Wahl“ ersetzen.\",\n      \"translation_quote\": \"Japan zu Fuß zu nehmen ... Truman beriet und traf seine Wahl.\"\n    },\n    {\n      \"location\": \"html, Absatz 16: letzte deutsche Kriegsanstrengungen und Verlagerung des Krieges\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"as Hitler made a last desperate stand ... the tide of war shifted to the Pacific\",\n      \"suggested_fix\": \"„als Hitler einen letzten verzweifelten Stand versuchte“ durch „als Hitler ein letztes Mal verzweifelt Widerstand leistete“ und „verlagerte sich die Kriegstide auf den Pazifik“ durch „verlagerte sich das Kriegsgeschehen auf den Pazifik“ ersetzen.\",\n      \"translation_quote\": \"als Hitler einen letzten verzweifelten Stand versuchte ... verlagerte sich die Kriegstide auf den Pazifik\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": false,\n  \"score\": 88\n}",
+    "content_bytes": 3469,
+    "content_evidence_truncated": false,
+    "content_sha256": "128c82778102fcc32ec59df257d8541cd3a238859260200b5d4c377674fe2c5a",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1056,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 144,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8482,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7379,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 9538
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}
