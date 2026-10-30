@@ -5,11 +5,62 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "02dace8b4ffe47af86fcd8ef69790872",
   "campaign": "auto-2d136d13deb1a81172c8e05e03ff53e04f75ed05d675901c691f038bb2af91af",
   "created_at": "2026-10-30T14:06:41+00:00",
-  "events": [],
-  "findings": [],
+  "events": [
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 563,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 71,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5051,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 5048,
+          "cached_tokens": 0
+        },
+        "total_tokens": 5614
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "translation.html, premier paragraphe",
+      "severity": "minor",
+      "source_quote": "19<sup>th</sup> century",
+      "suggested_fix": "Remplacer « 19<sup>th</sup> siècle » par « 19<sup>e</sup> siècle ».",
+      "translation_quote": "19<sup>th</sup> siècle"
+    },
+    {
+      "location": "translation.html, deuxième paragraphe",
+      "severity": "minor",
+      "source_quote": "Except for “moments of shadowy eyesight”",
+      "suggested_fix": "Remplacer « moments de vue ombragée » par « moments de vision indistincte ».",
+      "translation_quote": "À l’exception de « moments de vue ombragée »"
+    },
+    {
+      "location": "translation.html, témoignage de Matheson en italique",
+      "severity": "minor",
+      "source_quote": "I had the impression rather of having it dictated to me by some inward voice than of working it out myself.",
+      "suggested_fix": "Remplacer « j’eus plutôt l’impression de l’avoir entendu me dicté par quelque voix intérieure que de l’avoir élaboré moi-même » par « j’eus plutôt l’impression qu’il m’était dicté par quelque voix intérieure que de l’avoir élaboré moi-même ».",
+      "translation_quote": "j’eus plutôt l’impression de l’avoir entendu me dicté par quelque voix intérieure que de l’avoir élaboré moi-même"
+    },
+    {
+      "location": "translation.html, titre et mentions de la rubrique bibliographique",
+      "severity": "minor",
+      "source_quote": "<h3>References:</h3>; Author; Composer",
+      "suggested_fix": "Remplacer « References: » par « Références : », « Author » par « Auteur » et « Composer » par « Compositeur », en conservant les balises, les espaces insécables et les renseignements associés.",
+      "translation_quote": "<h3>References:</h3>; Author; Composer"
+    }
+  ],
+  "finished_at": "2026-10-30T14:17:22+00:00",
   "id": "89a2518bbe95024d0a457e26b23a5e91",
   "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
   "language": "fra",
@@ -98,9 +149,11 @@
     }
   },
   "protected": false,
+  "quality_score": 96,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/4199dfaab0d5a21bda226eb26899e60946a88bb7c00ae9c880acb09af21e3ca7.json",
   "stage": "review1",
   "stage_budget": {
@@ -115,7 +168,7 @@
     "total_reserved_usd": 0.717737,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 0,
   "translation_key": "5af7c75ddc034efa2d45136926794f0498d0408b26a365657640e28417f4afea",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

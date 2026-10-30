@@ -1,0 +1,35 @@
+{
+  "findings": [
+    {
+      "location": "translation.html, premier paragraphe",
+      "severity": "minor",
+      "source_quote": "19<sup>th</sup> century",
+      "suggested_fix": "Remplacer « 19<sup>th</sup> siècle » par « 19<sup>e</sup> siècle ».",
+      "translation_quote": "19<sup>th</sup> siècle"
+    },
+    {
+      "location": "translation.html, deuxième paragraphe",
+      "severity": "minor",
+      "source_quote": "Except for “moments of shadowy eyesight”",
+      "suggested_fix": "Remplacer « moments de vue ombragée » par « moments de vision indistincte ».",
+      "translation_quote": "À l’exception de « moments de vue ombragée »"
+    },
+    {
+      "location": "translation.html, témoignage de Matheson en italique",
+      "severity": "minor",
+      "source_quote": "I had the impression rather of having it dictated to me by some inward voice than of working it out myself.",
+      "suggested_fix": "Remplacer « j’eus plutôt l’impression de l’avoir entendu me dicté par quelque voix intérieure que de l’avoir élaboré moi-même » par « j’eus plutôt l’impression qu’il m’était dicté par quelque voix intérieure que de l’avoir élaboré moi-même ».",
+      "translation_quote": "j’eus plutôt l’impression de l’avoir entendu me dicté par quelque voix intérieure que de l’avoir élaboré moi-même"
+    },
+    {
+      "location": "translation.html, titre et mentions de la rubrique bibliographique",
+      "severity": "minor",
+      "source_quote": "<h3>References:</h3>; Author; Composer",
+      "suggested_fix": "Remplacer « References: » par « Références : », « Author » par « Auteur » et « Composer » par « Compositeur », en conservant les balises, les espaces insécables et les renseignements associés.",
+      "translation_quote": "<h3>References:</h3>; Author; Composer"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

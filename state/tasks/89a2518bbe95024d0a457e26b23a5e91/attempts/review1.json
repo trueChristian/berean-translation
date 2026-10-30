@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-30T14:17:22+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"translation.html, premier paragraphe\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"19<sup>th</sup> century\",\n      \"suggested_fix\": \"Remplacer « 19<sup>th</sup> siècle » par « 19<sup>e</sup> siècle ».\",\n      \"translation_quote\": \"19<sup>th</sup> siècle\"\n    },\n    {\n      \"location\": \"translation.html, deuxième paragraphe\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"Except for “moments of shadowy eyesight”\",\n      \"suggested_fix\": \"Remplacer « moments de vue ombragée » par « moments de vision indistincte ».\",\n      \"translation_quote\": \"À l’exception de « moments de vue ombragée »\"\n    },\n    {\n      \"location\": \"translation.html, témoignage de Matheson en italique\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"I had the impression rather of having it dictated to me by some inward voice than of working it out myself.\",\n      \"suggested_fix\": \"Remplacer « j’eus plutôt l’impression de l’avoir entendu me dicté par quelque voix intérieure que de l’avoir élaboré moi-même » par « j’eus plutôt l’impression qu’il m’était dicté par quelque voix intérieure que de l’avoir élaboré moi-même ».\",\n      \"translation_quote\": \"j’eus plutôt l’impression de l’avoir entendu me dicté par quelque voix intérieure que de l’avoir élaboré moi-même\"\n    },\n    {\n      \"location\": \"translation.html, titre et mentions de la rubrique bibliographique\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"<h3>References:</h3>; Author; Composer\",\n      \"suggested_fix\": \"Remplacer « References: » par « Références : », « Author » par « Auteur » et « Composer » par « Compositeur », en conservant les balises, les espaces insécables et les renseignements associés.\",\n      \"translation_quote\": \"<h3>References:</h3>; Author; Composer\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": true,\n  \"score\": 96\n}",
+    "content_bytes": 1946,
+    "content_evidence_truncated": false,
+    "content_sha256": "5590ef3e67ff58d32d053502723aa193c188a76248c5460e9de0ddf4a8cdbf83",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 563,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 71,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5051,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5048,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5614
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}
