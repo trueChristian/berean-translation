@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "04ad31fd1718477dbf22dbd65ea21eba",
   "campaign": "auto-575582b6da4f43391e20866d990a91a66cfdd1dfc2426d7a215b254a811f88d8",
   "created_at": "2026-10-29T21:12:06+00:00",
   "events": [
@@ -48,25 +47,31 @@
         },
         "total_tokens": 12227
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 69,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 37,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8208,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8205,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8277
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "translation.html，“癌症的挑战”标题后的第一段末句",
-      "severity": "major",
-      "source_quote": "The chance that there will ever be a single treatment for all cancer—the “Cure for Cancer” which people talk about, is unlikely.",
-      "suggested_fix": "将该句改为：“未来出现一种适用于所有癌症的单一疗法——也就是人们所说的‘治愈癌症的方法’——的可能性不大。”",
-      "translation_quote": "很可能永远不会存在一种对所有癌症都适用的单一疗法——人们所谈论的“治愈癌症”的灵丹妙药，这种可能性不大。"
-    },
-    {
-      "location": "translation.html，“最后的思考”中的两段经文引文",
-      "severity": "minor",
-      "source_quote": "<em>Fear thou not; ... –Isaiah 41:10.</em>；<em>Therefore take no thought, ... –Matthew 6:31-34.</em>",
-      "suggested_fix": "保留现有中文经文内容，但恢复两处引文的 <em> 标签；删除引文前添加的“以赛亚书 41:10 说：”和“马太福音 6:31-34 说：”，分别将“——以赛亚书 41:10”和“——马太福音 6:31-34”置于对应引文末尾、</em> 之前，以保留原文的引用位置和结构。",
-      "translation_quote": "以赛亚书 41:10 说：“你不要害怕……扶持你。”；马太福音 6:31-34 说：“所以，不要忧虑说……一天的难处一天当就够了。”"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-30T01:06:16+00:00",
   "id": "7c91c3710d84148d01e95f1b600b258d",
   "issue_id": "1a7070c9-fd4f-546b-a220-f267ddb8cf5f",
   "language": "cmn",
@@ -155,7 +160,7 @@
     }
   },
   "protected": false,
-  "quality_score": 94,
+  "quality_score": 99,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6.1-sol",
@@ -174,7 +179,7 @@
     "total_reserved_usd": 0.755467,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "48e3cf7ce54a82130b52527f677657d3f940e34281e04d33a0d21d610cf9910a",
   "translation_model_actual": "gpt-6.1-sol"
