@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "3eb0fc14107049f3acf776219014d979",
   "campaign": "auto-d7a47268cff5f35f853a740046171a79ed2358124fbf0a330ac0cf22130c64f5",
   "created_at": "2026-10-29T10:21:50+00:00",
   "events": [
@@ -48,18 +47,39 @@
         },
         "total_tokens": 11776
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 177,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 59,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7944,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 6841,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 8121
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "translation.html, paragraphe citant Psaume 78:29-31",
-      "severity": "major",
-      "source_quote": "They were not estranged from their lust. But while their meat was yet in their mouths, The wrath of God came upon them, and slew the fattest of them, and smote down the chosen men of Israel",
-      "suggested_fix": "Remplacer ce passage par : « Ils ne s’étaient pas détournés de leur convoitise. Mais tandis que la viande était encore dans leur bouche, la colère de Dieu s’éleva contre eux ; il tua les plus corpulents d’entre eux et abattit les hommes d’élite d’Israël ». Conserver la référence et les balises existantes.",
-      "translation_quote": "Ils ne furent pas privés de ce qu’ils convoitaient. Mais tandis que la viande était encore dans leur bouche, la colère de Dieu s’éleva contre eux ; il frappa les plus vigoureux et abattit les jeunes hommes d’Israël"
+      "location": "translation.html, paragraphe commençant par « Garde ton cœur »",
+      "severity": "minor",
+      "source_quote": "The desires of the heart will make a difference on where we will end up in life.",
+      "suggested_fix": "Les désirs de notre cœur influent sur la direction que prendra notre vie.",
+      "translation_quote": "Les désirs de notre cœur influent sur où nous finirons dans la vie."
     }
   ],
+  "finished_at": "2026-10-30T00:53:12+00:00",
   "id": "9d896d3c0aa64b87c8e51bb1f5be0487",
   "issue_id": "1933c1f0-be1f-561a-b470-79a5ced64c04",
   "language": "fra",
@@ -148,7 +168,7 @@
     }
   },
   "protected": false,
-  "quality_score": 94,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6.1-sol",
@@ -167,7 +187,7 @@
     "total_reserved_usd": 0.752044,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "edc5d2d663c19be2cb124ae52e26f6267714a265b8d47257698c5fa0843e0c53",
   "translation_model_actual": "gpt-6.1-sol"

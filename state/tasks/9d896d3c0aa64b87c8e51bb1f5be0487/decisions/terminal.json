@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "translation.html, paragraphe commençant par « Garde ton cœur »",
+      "severity": "minor",
+      "source_quote": "The desires of the heart will make a difference on where we will end up in life.",
+      "suggested_fix": "Les désirs de notre cœur influent sur la direction que prendra notre vie.",
+      "translation_quote": "Les désirs de notre cœur influent sur où nous finirons dans la vie."
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

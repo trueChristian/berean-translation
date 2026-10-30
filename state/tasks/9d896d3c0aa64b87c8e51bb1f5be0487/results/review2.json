@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "557d35c7-656a-42c9-a34a-f0b97dea4d01",
+    "response_id": "chatcmpl-EeTXW3V8rqJLZiogmKh4OkzNHmA8g",
+    "usage": {
+      "completion_tokens": 177,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 59,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7944,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6841,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 8121
+    }
+  },
+  "received_at": "2026-10-30T00:53:12+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "translation.html, paragraphe commençant par « Garde ton cœur »",
+        "severity": "minor",
+        "source_quote": "The desires of the heart will make a difference on where we will end up in life.",
+        "suggested_fix": "Les désirs de notre cœur influent sur la direction que prendra notre vie.",
+        "translation_quote": "Les désirs de notre cœur influent sur où nous finirons dans la vie."
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}
