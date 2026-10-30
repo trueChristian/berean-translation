@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Heading 3",
+      "severity": "major",
+      "source_quote": "Put Yourself in the Way of the Blessing.",
+      "suggested_fix": "Sök dig till välsignelsens väg.",
+      "translation_quote": "Sätt dig själv i vägen för välsignelsen."
+    },
+    {
+      "location": "Heading 4 and paragraph 4",
+      "severity": "major",
+      "source_quote": "Do a Thorough Job of Repenting. Do not hurry to get it over with. Hasty repentance means shallow spiritual experience",
+      "suggested_fix": "Byt ”ånger” till ”omvändelse” här, exempelvis: ”Gör ett grundligt arbete med din omvändelse.” och ”Förhastad omvändelse leder till en ytlig andlig erfarenhet”.",
+      "translation_quote": "Gör ett grundligt arbete med din ånger. Ha inte bråttom att bli färdig med den. Förhastad ånger leder till en ytlig andlig erfarenhet"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

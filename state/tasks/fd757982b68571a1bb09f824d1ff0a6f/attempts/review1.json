@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-30T11:12:00+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Heading 3\",\"severity\":\"major\",\"source_quote\":\"Put Yourself in the Way of the Blessing.\",\"suggested_fix\":\"Sök dig till välsignelsens väg.\",\"translation_quote\":\"Sätt dig själv i vägen för välsignelsen.\"},{\"location\":\"Heading 4 and paragraph 4\",\"severity\":\"major\",\"source_quote\":\"Do a Thorough Job of Repenting. Do not hurry to get it over with. Hasty repentance means shallow spiritual experience\",\"suggested_fix\":\"Byt ”ånger” till ”omvändelse” här, exempelvis: ”Gör ett grundligt arbete med din omvändelse.” och ”Förhastad omvändelse leder till en ytlig andlig erfarenhet”.\",\"translation_quote\":\"Gör ett grundligt arbete med din ånger. Ha inte bråttom att bli färdig med den. Förhastad ånger leder till en ytlig andlig erfarenhet\"}],\"findings_complete\":true,\"passed\":false,\"score\":90}",
+    "content_bytes": 846,
+    "content_evidence_truncated": false,
+    "content_sha256": "1ab7c99367454ea9267474af09491a81f9ab68cbe2ee9714faca6334e7d645a6",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 666,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 439,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4332,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3229,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 4998
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}
