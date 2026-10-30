@@ -5,13 +5,35 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "2e9f5f8a3b9b44198957acbfbbd0316f",
   "campaign": "auto-91d0b46fd13d4d00ccfdb96cd634c71509dcfbc62fa6408c4e7562098e6c8bbd",
   "created_at": "2026-10-30T02:34:16+00:00",
-  "events": [],
+  "events": [
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 793,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 121,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8678,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 7575,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 9471
+      }
+    }
+  ],
+  "failure": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[97]: source /article[1]/p[32]/em[1] ('start', 'em', ()); translation /article[1]/p[32] ('end', 'p')",
+  "failure_kind": "invalid_result",
   "findings": [
     {
-      "location": "html, paragrafo sull'ingresso del re al banchetto",
+      "location": "html, paragrafo che inizia «Quando il re entrò»",
       "severity": "minor",
       "source_quote": "he was pleased with what he saw",
       "suggested_fix": "Sostituire «ne fu compiaciuto di ciò che vide» con «fu compiaciuto di ciò che vide».",
@@ -25,27 +47,35 @@
       "translation_quote": "lunghe veste bianche erano indossate nelle feste pubbliche"
     },
     {
-      "location": "html, paragrafo sulla condizione dell'uomo senza abito nuziale",
+      "location": "html, paragrafo che inizia «Non ci viene detto»",
       "severity": "minor",
       "source_quote": "We are not told the exact condition of this man",
       "suggested_fix": "Sostituire «Non ci viene detto la condizione esatta» con «Non ci viene detta la condizione esatta».",
-      "translation_quote": "Non ci viene detto la condizione esatta"
+      "translation_quote": "Non ci viene detto la condizione esatta di quest'uomo"
     },
     {
-      "location": "html, paragrafo sull'offerta della donna in casa di Simone",
+      "location": "html, citazione di Isaia 64:6",
+      "severity": "minor",
+      "source_quote": "all our righteousnesses are as filthy rags",
+      "suggested_fix": "Sostituire «come un velo contaminato» con «come stracci sporchi», preservando il resto della citazione.",
+      "translation_quote": "tutte le nostre giustizie sono come un velo contaminato"
+    },
+    {
+      "location": "html, paragrafo che inizia «Non conosciamo il suo nome»",
       "severity": "minor",
       "source_quote": "She anointed Jesus’ feet and washed them with her tears",
-      "suggested_fix": "Sostituire «Ungendo i piedi di Gesù e lavandoli con le sue lacrime» con «Unse i piedi di Gesù e li lavò con le sue lacrime», conservando il seguito del periodo.",
+      "suggested_fix": "Sostituire «Ungendo i piedi di Gesù e lavandoli con le sue lacrime» con «Unse i piedi di Gesù e li lavò con le sue lacrime».",
       "translation_quote": "Ungendo i piedi di Gesù e lavandoli con le sue lacrime"
     },
     {
-      "location": "html, citazione di Adam Clark, frase sulla distribuzione dell'abito",
+      "location": "html, blockquote.lyrics",
       "severity": "minor",
-      "source_quote": "and with which he was furnished on his application to the ruler of the feast",
-      "suggested_fix": "Sostituire «e con esso veniva fornito su sua richiesta al capo della festa» con «e ciascun ospite lo riceveva facendone richiesta al responsabile del banchetto».",
-      "translation_quote": "e con esso veniva fornito su sua richiesta al capo della festa"
+      "source_quote": "Be of sin the double cure; save me from its guilt",
+      "suggested_fix": "Sostituire «Sia doppia la cura del peccato» con «Sii la duplice cura del peccato», mantenendo la preghiera rivolta a Cristo.",
+      "translation_quote": "Sia doppia la cura del peccato; salvami dalla sua colpa"
     }
   ],
+  "finished_at": "2026-10-30T02:45:48+00:00",
   "id": "17c35935defdb8056c0824e1248a3954",
   "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
   "language": "ita",
@@ -134,9 +164,11 @@
     }
   },
   "protected": false,
+  "quality_score": 95,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/21c8641ce0ae285627965ca28d18397c39ccff0fa09ba301857fc1d0049b6b9d.json",
   "stage": "review1",
   "stage_budget": {
@@ -151,7 +183,7 @@
     "total_reserved_usd": 0.757391,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 0,
   "translation_key": "b3a0b32450038629cf20919c69af275c4549e0b458e25e2b5d03da547dfb97f7",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

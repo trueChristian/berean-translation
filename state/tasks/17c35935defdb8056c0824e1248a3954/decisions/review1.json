@@ -1,0 +1,49 @@
+{
+  "findings": [
+    {
+      "location": "html, paragrafo che inizia «Quando il re entrò»",
+      "severity": "minor",
+      "source_quote": "he was pleased with what he saw",
+      "suggested_fix": "Sostituire «ne fu compiaciuto di ciò che vide» con «fu compiaciuto di ciò che vide».",
+      "translation_quote": "ne fu compiaciuto di ciò che vide"
+    },
+    {
+      "location": "html, citazione di Adam Clark",
+      "severity": "minor",
+      "source_quote": "long white robes were worn at public festivals",
+      "suggested_fix": "Sostituire «lunghe veste bianche» con «lunghe vesti bianche».",
+      "translation_quote": "lunghe veste bianche erano indossate nelle feste pubbliche"
+    },
+    {
+      "location": "html, paragrafo che inizia «Non ci viene detto»",
+      "severity": "minor",
+      "source_quote": "We are not told the exact condition of this man",
+      "suggested_fix": "Sostituire «Non ci viene detto la condizione esatta» con «Non ci viene detta la condizione esatta».",
+      "translation_quote": "Non ci viene detto la condizione esatta di quest'uomo"
+    },
+    {
+      "location": "html, citazione di Isaia 64:6",
+      "severity": "minor",
+      "source_quote": "all our righteousnesses are as filthy rags",
+      "suggested_fix": "Sostituire «come un velo contaminato» con «come stracci sporchi», preservando il resto della citazione.",
+      "translation_quote": "tutte le nostre giustizie sono come un velo contaminato"
+    },
+    {
+      "location": "html, paragrafo che inizia «Non conosciamo il suo nome»",
+      "severity": "minor",
+      "source_quote": "She anointed Jesus’ feet and washed them with her tears",
+      "suggested_fix": "Sostituire «Ungendo i piedi di Gesù e lavandoli con le sue lacrime» con «Unse i piedi di Gesù e li lavò con le sue lacrime».",
+      "translation_quote": "Ungendo i piedi di Gesù e lavandoli con le sue lacrime"
+    },
+    {
+      "location": "html, blockquote.lyrics",
+      "severity": "minor",
+      "source_quote": "Be of sin the double cure; save me from its guilt",
+      "suggested_fix": "Sostituire «Sia doppia la cura del peccato» con «Sii la duplice cura del peccato», mantenendo la preghiera rivolta a Cristo.",
+      "translation_quote": "Sia doppia la cura del peccato; salvami dalla sua colpa"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

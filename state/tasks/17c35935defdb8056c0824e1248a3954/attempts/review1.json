@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-30T02:45:48+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"html, paragrafo che inizia «Quando il re entrò»\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"he was pleased with what he saw\",\n      \"suggested_fix\": \"Sostituire «ne fu compiaciuto di ciò che vide» con «fu compiaciuto di ciò che vide».\",\n      \"translation_quote\": \"ne fu compiaciuto di ciò che vide\"\n    },\n    {\n      \"location\": \"html, citazione di Adam Clark\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"long white robes were worn at public festivals\",\n      \"suggested_fix\": \"Sostituire «lunghe veste bianche» con «lunghe vesti bianche».\",\n      \"translation_quote\": \"lunghe veste bianche erano indossate nelle feste pubbliche\"\n    },\n    {\n      \"location\": \"html, paragrafo che inizia «Non ci viene detto»\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"We are not told the exact condition of this man\",\n      \"suggested_fix\": \"Sostituire «Non ci viene detto la condizione esatta» con «Non ci viene detta la condizione esatta».\",\n      \"translation_quote\": \"Non ci viene detto la condizione esatta di quest'uomo\"\n    },\n    {\n      \"location\": \"html, citazione di Isaia 64:6\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"all our righteousnesses are as filthy rags\",\n      \"suggested_fix\": \"Sostituire «come un velo contaminato» con «come stracci sporchi», preservando il resto della citazione.\",\n      \"translation_quote\": \"tutte le nostre giustizie sono come un velo contaminato\"\n    },\n    {\n      \"location\": \"html, paragrafo che inizia «Non conosciamo il suo nome»\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"She anointed Jesus’ feet and washed them with her tears\",\n      \"suggested_fix\": \"Sostituire «Ungendo i piedi di Gesù e lavandoli con le sue lacrime» con «Unse i piedi di Gesù e li lavò con le sue lacrime».\",\n      \"translation_quote\": \"Ungendo i piedi di Gesù e lavandoli con le sue lacrime\"\n    },\n    {\n      \"location\": \"html, blockquote.lyrics\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"Be of sin the double cure; save me from its guilt\",\n      \"suggested_fix\": \"Sostituire «Sia doppia la cura del peccato» con «Sii la duplice cura del peccato», mantenendo la preghiera rivolta a Cristo.\",\n      \"translation_quote\": \"Sia doppia la cura del peccato; salvami dalla sua colpa\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": true,\n  \"score\": 95\n}",
+    "content_bytes": 2397,
+    "content_evidence_truncated": false,
+    "content_sha256": "484f7e640e3f2b244d03bd88a51d59d29b18696c7bbad316b79cf3acde824cf9",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 793,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 121,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8678,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7575,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 9471
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}
