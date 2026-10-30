@@ -13,9 +13,16 @@
       "event": "not_ready",
       "reason": "Duplicate HTML attribute",
       "task": "6bb3c087e652da64f2104424c4133949"
+    },
+    {
+      "at": "2026-10-30T07:08:09+00:00",
+      "campaign": "auto-8b00601d3c3bfee11d9305509dfb70d852fc8845cdaaa68136a0e4130c1880f2",
+      "event": "automatic_requested",
+      "previous_task": "6bb3c087e652da64f2104424c4133949",
+      "task": "2f438dc5e3346ebc891c42c44d1b4de7"
     }
   ],
   "language": "afr",
-  "latest_task": "6bb3c087e652da64f2104424c4133949",
+  "latest_task": "2f438dc5e3346ebc891c42c44d1b4de7",
   "published": null
 }
