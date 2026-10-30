@@ -5,11 +5,229 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "06da6b4f309945dd8a1c9f4aaf4961a0",
   "campaign": "auto-58e6c30be0c5bbcc4e22ccb5299aaed7852f5fa87f18d75d4a2d6a09f0fb905a",
   "created_at": "2026-10-30T03:00:11+00:00",
-  "events": [],
-  "findings": [],
+  "events": [
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 3634,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 62,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8993,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 7890,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 12627
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "html, paragraph 6",
+      "severity": "major",
+      "source_quote": "all men between the ages of eighteen and forty-five",
+      "suggested_fix": "आयु-सीमा को ठीक करें: “अठारह से पैंतालीस वर्ष आयु के सभी पुरुषों को”।",
+      "translation_quote": "अड़़ाईस से पैंतालीस वर्ष आयु के सभी पुरुषों को"
+    },
+    {
+      "location": "html, paragraphs 7, 9, and 10",
+      "severity": "major",
+      "source_quote": "the conscientious objectors of the First World War; principles and convictions of conscientious objectors; Conscientious objectors were placed; conscientious objectors’ (COs) convictions; any conscientious objectors",
+      "suggested_fix": "इन सभी स्थानों पर “विवेकानंदों” या “विवेकानंद” के बजाय “अंतरात्मा के आधार पर सैन्य सेवा से इनकार करने वालों” का उपयुक्त व्याकरणिक रूप प्रयोग करें। अनुच्छेद 10 में “अंतरात्मा के आधार पर सैन्य सेवा से इनकार करने वालों (COs)” लिखें।",
+      "translation_quote": "प्रथम विश्व युद्ध के विवेकानंदों; विवेकानंदों के सिद्धांतों और विश्वासों; विवेकानंदों को; विवेकानंदों (COs) के विश्वासों; किसी भी विवेकानंद"
+    },
+    {
+      "location": "html, paragraph 9",
+      "severity": "major",
+      "source_quote": "fulfill the law without breaking the Law",
+      "suggested_fix": "लिखें: “इस तरह वे परमेश्वर की व्यवस्था का उल्लंघन किए बिना देश के कानून का पालन कर सकते थे (देखें मरकुस 12:17)।”",
+      "translation_quote": "कानून का पालन कर सकते थे बिना परम-पक्व कानून ... का उल्लंघन किए"
+    },
+    {
+      "location": "html, paragraph 10",
+      "severity": "major",
+      "source_quote": "the nonresistant Mennonites and Amish; the mistreatment of non-resistant people",
+      "suggested_fix": "दोनों स्थानों पर अहिंसक धार्मिक रुख स्पष्ट करें: “हिंसक प्रतिरोध न करने वाले मेनोनाइट और आमिश” तथा “हिंसक प्रतिरोध न करने वाले लोगों के साथ दुर्व्यवहार”।",
+      "translation_quote": "असहाय मेनोनाइट और आमिश; गैर-सहायता करने वाले लोगों के दुरुपयोग"
+    },
+    {
+      "location": "html, paragraph 10, final sentence",
+      "severity": "major",
+      "source_quote": "direct attacks against the perceived slackers",
+      "suggested_fix": "अंतिम अंश को “उन लोगों पर सीधे हमले तक हो जाते थे जिन्हें कर्तव्य से जी चुराने वाला समझा जाता था” करें।",
+      "translation_quote": "प्रत्यक्ष हमलों तक पहुँच गया, जिन्हें मानवता में ढीठियत समझा गया"
+    },
+    {
+      "location": "html, paragraph 11",
+      "severity": "major",
+      "source_quote": "The emperor was worshiped as infallible",
+      "suggested_fix": "लिखें: “सम्राट को अचूक मानकर उसकी पूजा की जाती थी”।",
+      "translation_quote": "सम्राट को अक्षुण्ण माना जाता था"
+    },
+    {
+      "location": "html, paragraph 11",
+      "severity": "major",
+      "source_quote": "Japanese soldiers hurled themselves into battle in his name, even in the face of overwhelming odds. Spurred by its fanaticism",
+      "suggested_fix": "“असाधारण शौर्य से” हटाएँ और अगले वाक्य में “ग़ुस्से” के बजाय “अपनी कट्टरता से प्रेरित होकर” लिखें।",
+      "translation_quote": "जापानी सैनिक उसके नाम पर असाधारण शौर्य से लड़ते हुए ... ग़ुस्से ... के सहारे"
+    },
+    {
+      "location": "html, paragraph 4",
+      "severity": "major",
+      "source_quote": "made life for the common soldier a living nightmare",
+      "suggested_fix": "लिखें: “आम सैनिक का जीवन जीता-जागता दुःस्वप्न बना देती थीं”।",
+      "translation_quote": "आम सैनिक के लिए जीवन को एक काल्पनिक दुःस्वप्न बना देती थीं"
+    },
+    {
+      "location": "html, paragraph 4, banzai-charge sentence",
+      "severity": "major",
+      "source_quote": "a banzai charge (a typically nocturnal all-out attack of massed infantry yelling at the top of their voices as they charged) might split the night air into a rush of charging enemies whipped into a killing frenzy",
+      "suggested_fix": "वाक्य को ठीक करें: “किसी भी क्षण बनज़ई धावा (आमतौर पर रात में होने वाला पूरी ताकत का हमला, जिसमें बड़ी संख्या में पैदल सैनिक पूरी आवाज़ से चिल्लाते हुए दौड़ते थे) रात के सन्नाटे को चीर सकता था, और हत्या के उन्माद में डूबे दुश्मन टूट पड़ सकते थे।”",
+      "translation_quote": "एक बनज़ई चार्ज (रात्रिकालीन परंपरागत सर्व-हमला, जिसमें पैदल सैनिक ज़ोर-ज़ोर से चिल्लाते हुए टूट पड़ते थे) रात की हवा को दुश्मनों के खून के उन्मत्त हमला में बदल सकता था"
+    },
+    {
+      "location": "html, paragraph 4, shell sentence",
+      "severity": "major",
+      "source_quote": "A wayward shell, some weighing as much as a small car",
+      "suggested_fix": "लिखें: “कोई भटका हुआ गोला—ऐसे कुछ गोले छोटी कार जितने भारी होते थे—आकाश से गिरकर जान ले सकता था।”",
+      "translation_quote": "कोई टकरा गया गोला, जिसका कुछ वजन किसी छोटी कार जितना हो सकता था"
+    },
+    {
+      "location": "html, paragraph 12",
+      "severity": "major",
+      "source_quote": "detailing their observations about the abuse to their contacts at home",
+      "suggested_fix": "लिखें: “या अपने घर के संपर्कों को वहाँ देखे गए दुर्व्यवहार का विस्तृत विवरण देकर”।",
+      "translation_quote": "दुरुपयोग के अपने अवसरों की रिपोर्ट करके अपने घर के संपर्कों को बताया"
+    },
+    {
+      "location": "html, paragraph 14",
+      "severity": "major",
+      "source_quote": "prepared to defend against the inevitable landings and subsequent inward crawl of the invaders",
+      "suggested_fix": "लिखें: “उन्होंने मोर्चा जमा लिया और आक्रमणकारियों के अवश्यंभावी तट पर उतरने तथा उसके बाद भीतर की ओर धीरे-धीरे बढ़ने का मुकाबला करने की तैयारी की।”",
+      "translation_quote": "अनिवार्य अवतरणों और आंतरिक प्रवेश की तैयारी की"
+    },
+    {
+      "location": "html, paragraph 16",
+      "severity": "major",
+      "source_quote": "Unable to continue, the Germans sued for peace.",
+      "suggested_fix": "“आगे बढ़ने में असमर्थ” को “युद्ध जारी रखने में असमर्थ” करें।",
+      "translation_quote": "आगे बढ़ने में असमर्थ, जर्मनों ने शांति के लिए याचना की।"
+    },
+    {
+      "location": "html, paragraph 16, final two sentences",
+      "severity": "major",
+      "source_quote": "America rallied, propelled by its greater industrial capacity and natural resources, causing the Japanese advance to grind to a halt—thus, the American counter-offensive began. Slowly, island-hopping across the ocean",
+      "suggested_fix": "लिखें: “अपनी अधिक औद्योगिक क्षमता और प्राकृतिक संसाधनों के बल पर अमेरिका ने फिर ताकत जुटाई और जापानियों की बढ़त पूरी तरह रोक दी—इस प्रकार अमेरिकी जवाबी आक्रमण शुरू हुआ। धीरे-धीरे, महासागर में एक द्वीप से दूसरे द्वीप की ओर बढ़ते हुए, जनरल मैकआर्थर जापान के और निकट आए।”",
+      "translation_quote": "अमेरिका ने ... जवाबी आक्रमण आरम्भ किया, जिससे जापानी आग बढ़ते-रुकते गए—इस प्रकार अमेरिकी प्रतियोद्धम चालू हुआ। धीरे-धीरे, महासागर में द्वीप-द्वापर करते हुए"
+    },
+    {
+      "location": "html, paragraph 17",
+      "severity": "major",
+      "source_quote": "battles had been fought over the smallest of atolls—coral islands just large enough for an airstrip and a garrison",
+      "suggested_fix": "लिखें: “छोटे-से-छोटे प्रवाल द्वीपों पर अधिकार के लिए लड़ाइयाँ लड़ी गई थीं—ये द्वीप बस इतने बड़े थे कि उन पर एक हवाई पट्टी और सैन्य चौकी समा सके।”",
+      "translation_quote": "छोटे-छोटे एटोल्स—मूंगों जैसे द्वीप जिनपर मात्र हवाई पट्टी और चौकी रखने की जगह थी—की स्थापना पर लड़ाइयाँ लड़ी गई थीं"
+    },
+    {
+      "location": "html, paragraph 18, opening",
+      "severity": "major",
+      "source_quote": "Spread thin—with troops, equipment, and resources dwindling",
+      "suggested_fix": "लिखें: “उनकी सेनाएँ इतने बड़े क्षेत्र में फैली थीं कि उनकी शक्ति कम पड़ रही थी, और सैनिकों, उपकरणों तथा संसाधनों की संख्या घटती जा रही थी”।",
+      "translation_quote": "भीतर-भाँति फैलाव—सेनाओं, उपकरणों, और संसाधनों की कमी के साथ"
+    },
+    {
+      "location": "html, paragraph 21",
+      "severity": "major",
+      "source_quote": "Months and years had been spent away from spiritual oversight. Many would settle into their communities",
+      "suggested_fix": "कारण-संबंध हटाकर दो वाक्य रखें: “उन्होंने महीने और वर्ष आध्यात्मिक देखरेख से दूर बिताए थे। बहुत-से लोग अपने समुदायों में बस जाते, अपने परिवारों का पालन-पोषण करते और अपनी ईसाई आस्था के अनुसार जीवन जीते।”",
+      "translation_quote": "कई महीनों और वर्षों तक आध्यात्मिक देख-रेख से दूर रहने के कारण कई लोग अपने समुदायों में बस गए"
+    },
+    {
+      "location": "html, paragraph 21, final sentence",
+      "severity": "major",
+      "source_quote": "not all its contestants had been wearing the full biblical armor available to them",
+      "suggested_fix": "लिखें: “इस संघर्ष में भाग लेने वाले सभी लोगों ने बाइबिल में बताया गया वह सम्पूर्ण कवच धारण नहीं किया था जो उनके लिए उपलब्ध था।”",
+      "translation_quote": "इसके सभी प्रतिद्वंदी पुस्तक-बाइबिल की सम्पूर्ण बाइबिलीय कवच नहीं पहन पाए थे"
+    },
+    {
+      "location": "html, paragraph 2",
+      "severity": "minor",
+      "source_quote": "a watchful peace that can be shattered in a moment of wavering",
+      "suggested_fix": "लिखें: “ऐसी शांति है जिसमें सतर्क रहना पड़ता है और जो विश्वास में डगमगाने के एक क्षण में टूट सकती है।”",
+      "translation_quote": "शांति भी सतर्क रहने योग्य होती है जो किसी झिझक के क्षण में टूट सकती है"
+    },
+    {
+      "location": "html, paragraph 3",
+      "severity": "minor",
+      "source_quote": "this trying fire of strife",
+      "suggested_fix": "“इस कसैले संघर्ष की आग” को “संघर्ष की इस परीक्षा लेने वाली आग” करें।",
+      "translation_quote": "इस कसैले संघर्ष की आग"
+    },
+    {
+      "location": "html, paragraph 4",
+      "severity": "minor",
+      "source_quote": "the Pacific theater; unparalleled ferocity and savagery",
+      "suggested_fix": "“प्रशांत थिएटर” के बजाय “प्रशांत युद्धक्षेत्र” और “अभूतपूर्व तेज़ी और क्रूरता” के बजाय “अभूतपूर्व उग्रता और बर्बरता” लिखें।",
+      "translation_quote": "प्रशांत थिएटर; अभूतपूर्व तेज़ी और क्रूरता"
+    },
+    {
+      "location": "html, paragraph 5",
+      "severity": "minor",
+      "source_quote": "the <strong>physical</strong> fighting; the sharpest of two-edged swords",
+      "suggested_fix": "“भौतिक” के चारों ओर मूल का बलाघात लौटाएँ: “<strong>भौतिक</strong> युद्ध”; और “धारदार दोधारी तलवारें” को “सबसे तेज़ धार वाली दोधारी तलवार” करें।",
+      "translation_quote": "भौतिक युद्ध; धारदार दोधारी तलवारें"
+    },
+    {
+      "location": "html, paragraph 7",
+      "severity": "minor",
+      "source_quote": "the drills and decorum of the armed forces",
+      "suggested_fix": "“मान-सम्मान और शस्त्र-शिक्षा की ड्रिलों” को “सशस्त्र सेनाओं की कवायद और अनुशासन” करें।",
+      "translation_quote": "मान-सम्मान और शस्त्र-शिक्षा की ड्रिलों"
+    },
+    {
+      "location": "html, paragraph 9",
+      "severity": "minor",
+      "source_quote": "In the two and a half decades since that war",
+      "suggested_fix": "लिखें: “उस युद्ध के बाद के ढाई दशकों में”।",
+      "translation_quote": "उस युद्ध के दो दशकों और कुछ वर्षों के भीतर"
+    },
+    {
+      "location": "html, paragraph 12",
+      "severity": "minor",
+      "source_quote": "Troublesome ones would be bound in strait jackets for weeks",
+      "suggested_fix": "बिना स्रोत के जोड़ा गया “किनारे” हटाएँ: “परेशानी देने वालों को हफ्तों तक स्ट्रेट जैकेट में बाँधकर रखा जाता था”।",
+      "translation_quote": "परेशानी देने वालों को किनारे बांधकर स्ट्रेट जैकेट में हफ्तों तक रखा जाता"
+    },
+    {
+      "location": "html, paragraph 17",
+      "severity": "minor",
+      "source_quote": "housing prisoners of war",
+      "suggested_fix": "“द्वितीय विश्व युद्ध के क़ैदी” को “युद्धबंदी” करें।",
+      "translation_quote": "द्वितीय विश्व युद्ध के क़ैदी"
+    },
+    {
+      "location": "html, paragraph 20",
+      "severity": "minor",
+      "source_quote": "a pair of atomic bombs; an astronomical price of human life",
+      "suggested_fix": "“जोड़ी गई दो परमाणु बमों” को “दो परमाणु बमों” और “अत्याधिक मानवीय मूल्य पर” को “असंख्य मानव जीवनों की कीमत पर” करें।",
+      "translation_quote": "जोड़ी गई दो परमाणु बमों; अत्याधिक मानवीय मूल्य पर"
+    },
+    {
+      "location": "html, figcaption",
+      "severity": "minor",
+      "source_quote": "the rulers of the darkness of this world",
+      "suggested_fix": "“इस अन्धकार के युग के शासकों” को “इस संसार के अन्धकार के शासकों” करें।",
+      "translation_quote": "इस अन्धकार के युग के शासकों"
+    }
+  ],
   "id": "9f0e688964c9d894eda13e6a9bde4620",
   "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
   "language": "hin",
@@ -98,11 +316,13 @@
     }
   },
   "protected": false,
+  "quality_score": 57,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/303eea9ede343be1d9acddc326e79733cfaca30a9ec14bd67edc70779b0f9f08.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "review1",
     "max_candidate_bytes": 120000,
@@ -115,7 +335,7 @@
     "total_reserved_usd": 0.813416,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 0,
   "translation_key": "c767adc49633e338375567a05addcb2f986e5c013a016c2592a1cd600a81bb50",
   "translation_model_actual": "gpt-5-mini-2025-08-07"
