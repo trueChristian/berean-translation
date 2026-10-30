@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph beginning “שירותה החל בכלא קקולה”",
+      "severity": "minor",
+      "source_quote": "“Day after day she visited them at their cell doors”",
+      "suggested_fix": "Replace „ליד דלתות תאם” with „ליד דלתות תאי האסירים” (or „ליד דלתות התאים שלהם”).",
+      "translation_quote": "„יום אחר יום ביקרה אותם ליד דלתות תאם”"
+    },
+    {
+      "location": "Paragraph beginning “במשך ארבעים שנה שירתה”",
+      "severity": "minor",
+      "source_quote": "“a special charisma given to this woman for the work for which she was called”",
+      "suggested_fix": "Consider „חסד רוחני מיוחד” or „מתת רוחנית מיוחדת” for „כישרון רוחני”, to better convey the sense of a divinely given charisma.",
+      "translation_quote": "„לאישה הזאת ניתן כישרון רוחני מיוחד לעבודה שאליה נקראה”"
+    },
+    {
+      "location": "Paragraph beginning “קשרי משפחתה של העלמה ורדה”",
+      "severity": "minor",
+      "source_quote": "“a glass with two flowers, one red, one white”",
+      "suggested_fix": "Use „כוס” or „כלי זכוכית” instead of „גביע”, unless the object is specifically a goblet.",
+      "translation_quote": "„גביע ובו שני פרחים, אחד אדום ואחד לבן”"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

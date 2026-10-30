@@ -1,0 +1,52 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "edb24f1f-59ff-408d-8dbe-490cdb7c7f97",
+    "response_id": "chatcmpl-EeYzEcjzNAoWb21isJe39ylUdNn3N",
+    "usage": {
+      "completion_tokens": 1419,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1079,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9966,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8863,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 11385
+    }
+  },
+  "received_at": "2026-10-30T07:04:44+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph beginning “שירותה החל בכלא קקולה”",
+        "severity": "minor",
+        "source_quote": "“Day after day she visited them at their cell doors”",
+        "suggested_fix": "Replace „ליד דלתות תאם” with „ליד דלתות תאי האסירים” (or „ליד דלתות התאים שלהם”).",
+        "translation_quote": "„יום אחר יום ביקרה אותם ליד דלתות תאם”"
+      },
+      {
+        "location": "Paragraph beginning “במשך ארבעים שנה שירתה”",
+        "severity": "minor",
+        "source_quote": "“a special charisma given to this woman for the work for which she was called”",
+        "suggested_fix": "Consider „חסד רוחני מיוחד” or „מתת רוחנית מיוחדת” for „כישרון רוחני”, to better convey the sense of a divinely given charisma.",
+        "translation_quote": "„לאישה הזאת ניתן כישרון רוחני מיוחד לעבודה שאליה נקראה”"
+      },
+      {
+        "location": "Paragraph beginning “קשרי משפחתה של העלמה ורדה”",
+        "severity": "minor",
+        "source_quote": "“a glass with two flowers, one red, one white”",
+        "suggested_fix": "Use „כוס” or „כלי זכוכית” instead of „גביע”, unless the object is specifically a goblet.",
+        "translation_quote": "„גביע ובו שני פרחים, אחד אדום ואחד לבן”"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 97
+  }
+}
