@@ -37881,6 +37881,62 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ind/articles/0c677d9e-ce73-4b27-a03f-d5457f7f1072.html",
+      "html_sha256": "b7d3480474fb0f4f5a34eeec515559b49e230364e7e73712fa03995b2bcb45be",
+      "human_reviewed": false,
+      "id": "0c677d9e-ce73-4b27-a03f-d5457f7f1072",
+      "images": [
+        {
+          "alt": "Seseorang menjulurkan tangan melalui jeruji penjara di atas tulisan “BEBASKAN KAMI dari PERBUDAKAN”",
+          "public_path": "/images/articles/0c677d9e-ce73-4b27-a03f-d5457f7f1072-1.jpg"
+        },
+        {
+          "alt": "Seorang tahanan di balik jeruji dengan malaikat di sampingnya",
+          "public_path": "/images/articles/0c677d9e-ce73-4b27-a03f-d5457f7f1072-2.jpg"
+        },
+        {
+          "alt": "Para perempuan dan anak-anak berkumpul di sebuah ruangan kosong",
+          "public_path": "/images/articles/0c677d9e-ce73-4b27-a03f-d5457f7f1072-3.jpg"
+        },
+        {
+          "alt": "Seorang penjaga berjalan di depan para tahanan yang mengenakan pakaian bergaris",
+          "public_path": "/images/articles/0c677d9e-ce73-4b27-a03f-d5457f7f1072-4.jpg"
+        },
+        {
+          "alt": "Barisan panjang para tahanan berdiri di luar sebuah bangunan",
+          "public_path": "/images/articles/0c677d9e-ce73-4b27-a03f-d5457f7f1072-5.jpg"
+        },
+        {
+          "alt": "Orang-orang tersebar di sebuah alun-alun kota",
+          "public_path": "/images/articles/0c677d9e-ce73-4b27-a03f-d5457f7f1072-6.jpg"
+        },
+        {
+          "alt": "Seorang perempuan membacakan sesuatu kepada orang-orang yang duduk di dalam sel penjara",
+          "public_path": "/images/articles/0c677d9e-ce73-4b27-a03f-d5457f7f1072-7.jpg"
+        },
+        {
+          "alt": "Ilustrasi terukir sebuah botol yang tergeletak miring",
+          "public_path": "/images/articles/0c677d9e-ce73-4b27-a03f-d5457f7f1072-8.jpg"
+        }
+      ],
+      "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
+      "language": "ind",
+      "language_tag": "id",
+      "metadata": "content/ind/articles/0c677d9e-ce73-4b27-a03f-d5457f7f1072.json",
+      "metadata_sha256": "d721880c4df3b6237ba8ede160254d6e1f63dc7b4dcff7596fe3c6e2c5e0cd37",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "ed75201a8e3b37913a14f4d949de33a7a0daa2c2",
+      "source_translation_key": "385aeb5b4a7bcbf512c0d5b8310c2fd8f5f85b86d43d077caf80670ee93c6738",
+      "status": "ready",
+      "subtitle": "Malaikat Penjara",
+      "title": "Mathilde Wrede",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ind/articles/0f775a7f-1f39-428b-8d96-3d48095e1f49.html",
       "html_sha256": "459bec5eb069e3706bf49167594c8c5a1a33cba4d81b2fc756848646d07646b0",
       "human_reviewed": false,
