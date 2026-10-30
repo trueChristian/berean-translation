@@ -16157,6 +16157,46 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/cmn/articles/a5c8b070-97f8-4050-9ac5-89af497287b0.html",
+      "html_sha256": "0299965ebba78020b5312bbba3edba89c9add331ad3be82bd3788a6654f3bcb9",
+      "human_reviewed": false,
+      "id": "a5c8b070-97f8-4050-9ac5-89af497287b0",
+      "images": [
+        {
+          "alt": "一头狮子和其他动物看着一个跳舞的孩子",
+          "public_path": "/images/articles/a5c8b070-97f8-4050-9ac5-89af497287b0-1.jpg"
+        },
+        {
+          "alt": "一块牌匾，介绍C. S.刘易斯和他的朋友们在酒吧后室聚会",
+          "public_path": "/images/articles/a5c8b070-97f8-4050-9ac5-89af497287b0-2.jpg"
+        },
+        {
+          "alt": "一张《时代》杂志封面，上面刊有C. S.刘易斯的肖像",
+          "public_path": "/images/articles/a5c8b070-97f8-4050-9ac5-89af497287b0-3.jpg"
+        },
+        {
+          "alt": "C. S.刘易斯坐着，手中拿着一本书",
+          "public_path": "/images/articles/a5c8b070-97f8-4050-9ac5-89af497287b0-4.jpg"
+        }
+      ],
+      "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
+      "language": "cmn",
+      "language_tag": "zh-Hans",
+      "metadata": "content/cmn/articles/a5c8b070-97f8-4050-9ac5-89af497287b0.json",
+      "metadata_sha256": "c7f2804ad498bdaba846fd361b6c7de9c709b291779e51f6b0cde628cc4b1429",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": null,
+      "source_revision": "ed75201a8e3b37913a14f4d949de33a7a0daa2c2",
+      "source_translation_key": "6db58cafff7cfe9f11556e892b54ec7a0015890307776806dd7acebca34a78c1",
+      "status": "ready",
+      "subtitle": "基督徒当心！",
+      "title": "狮子、女巫与开心乐园餐：",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/cmn/articles/a5dc3764-e799-4138-82f0-87b245a77db8.html",
       "html_sha256": "c0c0e7f695ba57a46df01e690731af85fa45b94c50f237f81621e7ab67656ad1",
       "human_reviewed": false,
