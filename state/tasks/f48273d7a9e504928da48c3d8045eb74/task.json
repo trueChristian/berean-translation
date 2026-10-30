@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "cff7c2d10b854aa587a494da63cf921e",
   "campaign": "auto-69714ff5b3b401598aeef2441074fdc9e795c22ce1eca558f701e4e0a73880b1",
   "created_at": "2026-10-30T14:10:37+00:00",
   "events": [
@@ -28,18 +27,39 @@
         },
         "total_tokens": 5987
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 300,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 202,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4161,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 0,
+          "cached_tokens": 4158
+        },
+        "total_tokens": 4461
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "HTML, quoted introduction, second paragraph",
-      "severity": "major",
-      "source_quote": "“Because they lived their love they had their heads cut off and were drowned.”",
-      "suggested_fix": "Replace the active wording with passive wording, for example: “משום שחיו את אהבתם, נערפו ראשיהם והם הוטבעו.”",
-      "translation_quote": "“משום שחיו את אהבתם, ערפו את ראשיהם והטביעו אותם.”"
+      "location": "translation.title",
+      "severity": "minor",
+      "source_quote": "Coals of Fire",
+      "suggested_fix": "תרגמו את כותרת המאמר ל״גחלי אש״. אפשר להשאיר את שם הספר באנגלית בגוף המאמר לצורך זיהויו.",
+      "translation_quote": "Coals of Fire"
     }
   ],
+  "finished_at": "2026-10-30T19:49:41+00:00",
   "id": "f48273d7a9e504928da48c3d8045eb74",
   "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
   "language": "heb",
@@ -128,9 +148,11 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/caa20f1dd068bdb02a8ed6b709d207800490e5c51d35d78d87d83d2a83e2df3a.json",
   "stage": "review2",
   "stage_budget": {
@@ -144,7 +166,7 @@
     "total_reserved_usd": 0.554834,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "6b160f8e80ff37efb0c85d952562627a67b0b80775d2b2f8b70bbf018d639db8",
   "translation_model_actual": "gpt-6.1-sol"

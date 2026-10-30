@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "translation.title",
+      "severity": "minor",
+      "source_quote": "Coals of Fire",
+      "suggested_fix": "תרגמו את כותרת המאמר ל״גחלי אש״. אפשר להשאיר את שם הספר באנגלית בגוף המאמר לצורך זיהויו.",
+      "translation_quote": "Coals of Fire"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}
