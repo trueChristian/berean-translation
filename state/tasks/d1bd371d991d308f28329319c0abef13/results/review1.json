@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "38537c8d-a8ef-46ed-8487-5b28d6ad42b1",
+    "response_id": "chatcmpl-EeXlUfvhPnB2NF0h3pDodrYaRj3sD",
+    "usage": {
+      "completion_tokens": 1003,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 885,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9726,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8623,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 10729
+    }
+  },
+  "received_at": "2026-10-30T07:02:58+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Alinea 5",
+        "severity": "major",
+        "source_quote": "“the smith welding red-hot irons on a group of prisoners”",
+        "suggested_fix": "“hoe de smid gloeiendhete ijzers aan een groep gevangenen vastlaste”",
+        "translation_quote": "“hoe de smid gloeiendhete ijzers smeedde voor een groep gevangenen”"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 92
+  }
+}

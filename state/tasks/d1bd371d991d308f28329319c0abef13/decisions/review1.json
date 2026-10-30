@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Alinea 5",
+      "severity": "major",
+      "source_quote": "“the smith welding red-hot irons on a group of prisoners”",
+      "suggested_fix": "“hoe de smid gloeiendhete ijzers aan een groep gevangenen vastlaste”",
+      "translation_quote": "“hoe de smid gloeiendhete ijzers smeedde voor een groep gevangenen”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
