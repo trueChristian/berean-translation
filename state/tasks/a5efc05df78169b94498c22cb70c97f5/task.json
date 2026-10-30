@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "344b934321ae48868538b1b91a042372",
   "campaign": "auto-8825d1d325bc74c97873917b9e15eb92c1f894e5d4c4488045ff081b362148e8",
   "created_at": "2026-10-30T14:08:14+00:00",
   "events": [
@@ -48,67 +47,31 @@
         },
         "total_tokens": 7906
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 95,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 63,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5061,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 3958,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 5156
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "html، الفقرتان الثالثة والرابعة",
-      "severity": "major",
-      "source_quote": "assisting in his calling of being a pastor and other ministerial duties; he was chosen minister of the Church of Scotland",
-      "suggested_fix": "استبدل «مساعدًا في رسالته كراعٍ وواجباته الوزارية الأخرى» بـ«مُعينةً إياه في دعوته راعيًا وفي واجباته الرعوية الأخرى»، واستبدل «اختير وزيرًا لكنيسة أسكتلندا» بـ«اختير راعيًا لكنيسة اسكتلندا».",
-      "translation_quote": "مساعدًا في رسالته كراعٍ وواجباته الوزارية الأخرى؛ اختير وزيرًا لكنيسة أسكتلندا"
-    },
-    {
-      "location": "html، الفقرة الرابعة، الجملة الأخيرة",
-      "severity": "major",
-      "source_quote": "Many families came to spend the summer there chiefly to be inspired by his preaching ministry.",
-      "suggested_fix": "استبدل الجملة بـ«كانت عائلات كثيرة تأتي لقضاء الصيف هناك، أساسًا لتستلهم من خدمته الوعظية.»",
-      "translation_quote": "جاؤوا إلى هناك كثيرًا لقضاء الصيف بشكل رئيسي ليستنشقوا الإلهام من خدمته الوعظية."
-    },
-    {
-      "location": "html، الفقرة الأولى",
-      "severity": "minor",
-      "source_quote": "the 19<sup>th</sup> century",
-      "suggested_fix": "احذف اللاحقة الإنجليزية من محتوى الوسم مع إبقاء بنيته: «القرن التاسع عشر<sup></sup>».",
-      "translation_quote": "القرن التاسع عشر<sup>th</sup>"
-    },
-    {
-      "location": "html، الفقرة الثانية والفقرة الثامنة والاقتباس في الفقرة التاسعة",
-      "severity": "minor",
-      "source_quote": "his eyesight continued to fail rapidly; Dr. Matheson did relate an account; than of working it out myself",
-      "suggested_fix": "صحّح المواضع إلى «استمر بصره في التدهور بسرعة»، و«روى الدكتور ماثيسون»، و«لا أنني كتبتها بنفسي»، على الترتيب.",
-      "translation_quote": "استمرت بصره في التدهور بسرعة؛ رواى الدكتور ماثيسون؛ لا أنني كتبها بنفسي"
-    },
-    {
-      "location": "html، الفقرة السابعة",
-      "severity": "minor",
-      "source_quote": "the “flickering torch”",
-      "suggested_fix": "استبدل «المشعل المتلألئ» بـ«المشعل المتذبذب اللهب» لإبراز اضطراب الضوء الذي يستشهد به النص علامةً على الحزن.",
-      "translation_quote": "«المشعل المتلألئ»"
-    },
-    {
-      "location": "html، الاقتباس في الفقرة التاسعة",
-      "severity": "minor",
-      "source_quote": "All the other verses I have ever written are manufactured articles",
-      "suggested_fix": "استبدل «كل الأبيات الأخرى التي كتبتها هي مقالات مصنعة» بـ«كل الأبيات الأخرى التي كتبتها هي أعمال مصنوعة بتكلّف». المقصود تشبيه الأبيات بمنتجات مصنوعة، لا وصفها بأنها مقالات.",
-      "translation_quote": "كل الأبيات الأخرى التي كتبتها هي مقالات مصنعة"
-    },
-    {
-      "location": "html، فقرة المراجع",
-      "severity": "minor",
-      "source_quote": "Author; Composer",
-      "suggested_fix": "ترجم تسميتي الدورين فقط إلى «المؤلف» و«الملحن»، مع إبقاء الأسماء والتواريخ ووسوم HTML والمسافات غير القابلة للكسر كما هي.",
-      "translation_quote": "Author; Composer"
-    },
-    {
-      "location": "title",
-      "severity": "minor",
-      "source_quote": "O Love That Wilt Not Let Me Go",
-      "suggested_fix": "عدّل العنوان إلى «يا أيتها المحبة التي لا تتركني» لتصحيح تركيب النداء.",
-      "translation_quote": "يا محبة التي لا تتركني"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-30T20:20:42+00:00",
   "id": "a5efc05df78169b94498c22cb70c97f5",
   "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
   "language": "ara",
@@ -197,7 +160,7 @@
     }
   },
   "protected": false,
-  "quality_score": 90,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6.1-sol",
@@ -216,7 +179,7 @@
     "total_reserved_usd": 0.721295,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "5af7c75ddc034efa2d45136926794f0498d0408b26a365657640e28417f4afea",
   "translation_model_actual": "gpt-6.1-sol"
