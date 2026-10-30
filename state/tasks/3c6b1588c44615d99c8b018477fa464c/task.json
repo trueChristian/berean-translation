@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "e96682e5a749431893f5c56916fb9e5e",
   "campaign": "auto-64bb4f9cdee48c45395b63edeeea58a40a31b4c98dfb43713272cfdad1075da5",
   "created_at": "2026-10-29T21:12:20+00:00",
   "events": [
@@ -68,32 +67,46 @@
         },
         "total_tokens": 16096
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1167,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 895,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 10484,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 9381,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 11651
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "첫 번째 본문 문단, 프랑스 사회학자의 발언",
-      "severity": "major",
-      "source_quote": "“All that can be done is, in one or another way, to render them harmless.”",
-      "suggested_fix": "“그들을 무해하게 만들기 위해 어떤 식으로든 할 수 있는 일은 다 해야 합니다.”",
-      "translation_quote": "“그들을 무해하게 만드는 방법은 어떤 식으로든 격리하는 것뿐입니다.”"
-    },
-    {
-      "location": "다섯 번째 본문 문단, 마틸데의 어린 시절",
-      "severity": "major",
-      "source_quote": "“she saw by accident the smith welding red-hot irons on a group of prisoners.”",
-      "suggested_fix": "“대장장이가 한 무리의 죄수들에게 벌겋게 달군 쇠를 용접하는 장면을 우연히 목격했다.”",
-      "translation_quote": "“대장장이가 한 무리의 죄수들에게 벌겋게 달군 쇠고랑을 채우는 장면을 우연히 목격했다.”"
-    },
-    {
-      "location": "브로치에 관한 죄수의 말",
+      "location": "Paragraph beginning “얼마 후 그녀는 수도 헬싱포르로 불려갔다”",
       "severity": "minor",
-      "source_quote": "“the power of sunshine has cleansed this bone.”",
-      "suggested_fix": "“햇볕의 힘이 이 뼈를 깨끗하게 했듯이”",
-      "translation_quote": "“햇볕의 힘이 이 뼈를 깨끗이 말렸듯”"
+      "source_quote": "“passing a chain-gang on the streets”",
+      "suggested_fix": "“거리에서 쇠사슬에 묶인 죄수 행렬을 지나치다가”처럼 ‘chain-gang’의 쇠사슬에 묶인 죄수 행렬이라는 뜻을 살려 주세요.",
+      "translation_quote": "“거리에서 중노동을 하는 죄수들을 지나치다가”"
+    },
+    {
+      "location": "Paragraph beginning “핀란드 죄수들의 마음속에서”",
+      "severity": "minor",
+      "source_quote": "“batches of prisoners were dispatched at intervals from Wiborg to the Siberian mines”",
+      "suggested_fix": "“죄수들은 일정한 간격으로 무리를 지어 비보르크에서 시베리아의 광산으로 이송되었다”처럼 ‘at intervals’의 뜻을 반영해 주세요.",
+      "translation_quote": "“죄수들은 무리를 지어 비보르크에서 시베리아의 광산으로 이송되었다”"
     }
   ],
+  "finished_at": "2026-10-30T14:04:38+00:00",
   "id": "3c6b1588c44615d99c8b018477fa464c",
   "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
   "language": "kor",
@@ -182,7 +195,7 @@
     }
   },
   "protected": false,
-  "quality_score": 90,
+  "quality_score": 97,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
@@ -202,7 +215,7 @@
     "total_reserved_usd": 0.090534,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "385aeb5b4a7bcbf512c0d5b8310c2fd8f5f85b86d43d077caf80670ee93c6738",
   "translation_model_actual": "gpt-6-luna"

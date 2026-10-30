@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph beginning “얼마 후 그녀는 수도 헬싱포르로 불려갔다”",
+      "severity": "minor",
+      "source_quote": "“passing a chain-gang on the streets”",
+      "suggested_fix": "“거리에서 쇠사슬에 묶인 죄수 행렬을 지나치다가”처럼 ‘chain-gang’의 쇠사슬에 묶인 죄수 행렬이라는 뜻을 살려 주세요.",
+      "translation_quote": "“거리에서 중노동을 하는 죄수들을 지나치다가”"
+    },
+    {
+      "location": "Paragraph beginning “핀란드 죄수들의 마음속에서”",
+      "severity": "minor",
+      "source_quote": "“batches of prisoners were dispatched at intervals from Wiborg to the Siberian mines”",
+      "suggested_fix": "“죄수들은 일정한 간격으로 무리를 지어 비보르크에서 시베리아의 광산으로 이송되었다”처럼 ‘at intervals’의 뜻을 반영해 주세요.",
+      "translation_quote": "“죄수들은 무리를 지어 비보르크에서 시베리아의 광산으로 이송되었다”"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}
