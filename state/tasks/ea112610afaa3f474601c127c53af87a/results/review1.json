@@ -1,0 +1,129 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "6511d421-c249-493b-9b9e-182ada000cc7",
+    "response_id": "chatcmpl-EeVukeOSyVO54wtC2GKjpp6iTeMpj",
+    "usage": {
+      "completion_tokens": 2221,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 101,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5750,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4647,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 7971
+    }
+  },
+  "received_at": "2026-10-30T01:46:53+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "html, første lyrics-div, vers 1",
+        "severity": "major",
+        "source_quote": "All hail the power of Jesus’ name, / Let angels prostrate fall / Bring forth the royal diadem, / To crown Him Lord of all!",
+        "suggested_fix": "Erstatt versets tekst, med eksisterende <p>- og <br>-tagger bevart, med: «Hyll alle kraften i Jesu navn,<br> La engler kaste seg ned.<br> Bring frem den kongelige kronen,<br> For å krone Ham til Herre over alle!»",
+        "translation_quote": "Heil over Jesu navn i makt, / La engler kaste seg ned! / Framfør den kongelige krone prakt, / Og kroner Ham til Herre for alt!"
+      },
+      {
+        "location": "html, første lyrics-div, vers 2",
+        "severity": "major",
+        "source_quote": "Let high born seraphs tune the lyre, / And, as they tune it, fall / Before His face who tunes their choir",
+        "suggested_fix": "Erstatt de tre første linjene med: «La høybårne serafer stemme lyren,<br> Og mens de stemmer den, falle ned<br> For Ham som stemmer deres kor,» og behold linjeskiftene.",
+        "translation_quote": "La høye serafers strenger kling / Og når de klinger, fall / For Hans åsyn som dirigerer deres sang"
+      },
+      {
+        "location": "html, første lyrics-div, vers 3",
+        "severity": "major",
+        "source_quote": "Crown Him, ye morning stars of light, / Who fixed this floating ball, / Now hail the Strength of Israel’s might",
+        "suggested_fix": "Erstatt de tre første linjene med: «Kron Ham, dere lysende morgenstjerner,<br> Ham som grunnfestet denne svevende kloden.<br> Hyll nå Ham som er styrken i Israels makt,» med eksisterende HTML bevart.",
+        "translation_quote": "Kron Ham, dere morgenstjerner så klare, / Som fastla dette flytende klodeball, / Gni nå Israels styrkes navn og prise Ham fare,"
+      },
+      {
+        "location": "html, første lyrics-div, vers 4, linje 3",
+        "severity": "major",
+        "source_quote": "Extol the stem of Jesse’s rod",
+        "suggested_fix": "Erstatt linjen med «Lovpris skuddet fra Isais stamme,»; navnet er Isai, ikke Jesaja.",
+        "translation_quote": "Forherlig Jesajas stamme, roden brud,"
+      },
+      {
+        "location": "html, første lyrics-div, vers 5–6, hyllingslinjene og inkarnasjonslinjen",
+        "severity": "major",
+        "source_quote": "Hail Him who saves you by His grace / ... / Hail Him, ye heirs of David’s line, / ... / The God incarnate, Man divine",
+        "suggested_fix": "Endre «Hyl Ham som frelser ved sin nådes makt» til «Hyll Ham som frelser dere ved sin nåde». Endre «Hyl Ham, dere arvinger av Davids slekt» til «Hyll Ham, dere arvinger av Davids slekt». Erstatt «Gud inkarnert, Menneske guddommelig vekt» med «Gud blitt menneske, det guddommelige mennesket». Behold HTML-strukturen.",
+        "translation_quote": "Hyl Ham som frelser ved sin nådes makt / ... / Hyl Ham, dere arvinger av Davids slekt, / ... / Gud inkarnert, Menneske guddommelig vekt,"
+      },
+      {
+        "location": "html, første lyrics-div, vers 7",
+        "severity": "major",
+        "source_quote": "Sinners, whose love can ne’er forget / The wormwood and the gall, / Go spread your trophies at His feet",
+        "suggested_fix": "Erstatt de tre første linjene med: «Dere syndere, hvis kjærlighet aldri kan glemme<br> Malurten og gallen,<br> Gå og legg deres trofeer ved Hans føtter,» med eksisterende linjeskift bevart.",
+        "translation_quote": "Synderes kjærlighet som aldri glemmer / Bitre sorgens, gallens kval, / Spre deres troféer ved Hans føtter frem,"
+      },
+      {
+        "location": "html, første lyrics-div, vers 8",
+        "severity": "major",
+        "source_quote": "Let every tribe and every tongue / That bound creation’s call / Now shout in universal song, / The crowned Lord of all!",
+        "suggested_fix": "Fjern den innførte forestillingen om en «skapelsens lov». Gjengi verset med bevart HTML, for eksempel: «La hver stamme og hver tunge<br> Som omfattes av skaperverkets kall,<br> Nå rope i en felles sang:<br> Den kronede Herre over alle!»",
+        "translation_quote": "La hvert stamme og hver tunge kalle / Som bundet skapelsens lov, / Nå juble i en universell salme alle, / Den kronede Herre for alt!"
+      },
+      {
+        "location": "html, siste fortellende avsnitt, Scotts sang",
+        "severity": "major",
+        "source_quote": "began to play and sing in the native language, “All hail the power of Jesus’ name!”",
+        "suggested_fix": "Oversett den siterte sanglinjen til «Hyll alle kraften i Jesu navn!» og endre «på morsmålet» til «på deres eget språk», slik at det er stammens språk som angis.",
+        "translation_quote": "begynte å spille og synge på morsmålet: «All hail the power of Jesus’ name!»"
+      },
+      {
+        "location": "html, innledende Skrift-sitat",
+        "severity": "minor",
+        "source_quote": "to receive glory and honour and power",
+        "suggested_fix": "Endre «til å få ære, ære og makt» til «til å motta herlighet, ære og makt».",
+        "translation_quote": "til å få ære, ære og makt"
+      },
+      {
+        "location": "html, avsnittet om Perronets siste ord",
+        "severity": "minor",
+        "source_quote": "Glory to God in the height of His divinity! Glory to God in the depth of His humanity!",
+        "suggested_fix": "Endre disse setningene til «Ære være Gud i Hans guddommelighets høyde! Ære være Gud i Hans menneskelighets dybde!» slik at høyden og dybden knyttes til henholdsvis guddommeligheten og menneskeligheten.",
+        "translation_quote": "Ære være Gud i høyden for Hans guddommelighet! Ære være Gud i dybden for Hans menneskelighet!"
+      },
+      {
+        "location": "html, første lyrics-div, avslutningslinjene i vers 1–7; andre lyrics-div, avslutningslinjen",
+        "severity": "minor",
+        "source_quote": "To crown Him Lord of all! / And crown Him Lord of all!",
+        "suggested_fix": "Bruk «For å krone Ham til Herre over alle!» i første vers og «Og kron Ham til Herre over alle!» i de øvrige versene, med punktum i Rippon-verset. Dette retter også de feilaktige imperativformene «kroner» og «krone».",
+        "translation_quote": "Og kroner Ham til Herre for alt! / Og krone Ham til Herre for alt! / Og krone Ham til Herre for alt."
+      },
+      {
+        "location": "html, andre lyrics-div, linje 3",
+        "severity": "minor",
+        "source_quote": "We’ll join the everlasting song",
+        "suggested_fix": "Erstatt linjen med «Vi skal stemme i den evige sangen,» og behold <br>-taggen.",
+        "translation_quote": "Vi går med i den evige salmesvar,"
+      },
+      {
+        "location": "html, avsnittet om forfølgelse, dagboksitatet",
+        "severity": "minor",
+        "source_quote": "the Rockdale lions were lambs",
+        "suggested_fix": "Endre «Rockdale-løvene var lammer» til «Rockdale-løvene var lam».",
+        "translation_quote": "Rockdale-løvene var lammer"
+      },
+      {
+        "location": "html, referanselisten, de fire melodihenvisningene",
+        "severity": "minor",
+        "source_quote": "“Coronation” Tune / “Miles Lane” Tune / “Diadem” Tune / “Let Us Crown Him” Tune",
+        "suggested_fix": "Erstatt «Tune» med «melodi» i alle fire oppføringene; behold titlene, navnene, årstallene og <br>-taggene.",
+        "translation_quote": "«Coronation» Tune / «Miles Lane» Tune / «Diadem» Tune / «Let Us Crown Him» Tune"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 66
+  }
+}
