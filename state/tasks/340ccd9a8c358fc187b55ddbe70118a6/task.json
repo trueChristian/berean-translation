@@ -5,11 +5,159 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "60c32d65a2234b53a616f155a149a629",
   "campaign": "auto-67a069556b8b2cec29b35e192d31c6561c3b454816909d3fb27d80c6ff3dadf1",
   "created_at": "2026-10-30T02:33:48+00:00",
-  "events": [],
-  "findings": [],
+  "events": [
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 2334,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 22,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3982,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 2879,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 6316
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "html, paragraph 3",
+      "severity": "major",
+      "source_quote": "liberal agendas over a conservative lifestyle",
+      "suggested_fix": "Badilisha “sera za ukombozi wa kijamii” kuwa “ajenda za kiliberali”.",
+      "translation_quote": "sera za ukombozi wa kijamii juu ya mtindo wa maisha wa kihafidhina"
+    },
+    {
+      "location": "html, paragraph 3, final sentence",
+      "severity": "major",
+      "source_quote": "Current skyrocketing inflation ... all tend to cause a person to be jolted out of a sense of normality.",
+      "suggested_fix": "Rekebisha sentensi iwe: “Mfumuko wa bei unaopanda kwa kasi sasa, uwezekano wa gharama za kupasha nyumba joto kufikia viwango visivyowahi kushuhudiwa kwa watu wengi, uvumi wa kupanda kwa viwango vya riba, na uhaba unaoendelea wa bidhaa, vyote huelekea kumshtua mtu na kumwondolea hisia kwamba mambo yanaendelea kama kawaida.”",
+      "translation_quote": "Kuinuka kwa bei kwa sasa ... vinavyosababisha mtu kutokwa na mhemko kutokana na kuporomoka kwa hali ya kawaida."
+    },
+    {
+      "location": "html, paragraph 4, Acts quotation",
+      "severity": "major",
+      "source_quote": "dwelleth not in temples made with hands; Neither is worshipped with men’s hands",
+      "suggested_fix": "Tumia “hakai katika mahekalu yaliyojengwa kwa mikono; wala haabudiwi kwa mikono ya wanadamu”.",
+      "translation_quote": "hafaili kuishi katika madhabahu yaliyojengwa kwa mikono; wala haisifiwi kwa mikono ya watu"
+    },
+    {
+      "location": "html, paragraph 5, opening sentence",
+      "severity": "major",
+      "source_quote": "Let’s stop focusing on the fact that evil seems to be prevailing and increasing around us and then concluding that somehow Satan has the upper hand right now.",
+      "suggested_fix": "Tumia “Tuache kukazia fikira kwamba uovu unaonekana kushinda na kuongezeka karibu nasi, kisha kuhitimisha kwamba kwa namna fulani Shetani ana nguvu zaidi sasa hivi.”",
+      "translation_quote": "Tusizoee kutegemea ukweli kwamba uovu unaonekana kushinda na kuongezeka mzunguko wetu na kisha kusema kwamba kwa namna fulani Shetani anaumiliki sasa."
+    },
+    {
+      "location": "html, paragraph 5, 2 Timothy quotation",
+      "severity": "major",
+      "source_quote": "But evil men and seducers shall wax worse and worse, deceiving, and being deceived.",
+      "suggested_fix": "Tumia “Lakini watu waovu na wadanganyifu watazidi kuwa waovu, wakidanganya na kudanganywa.”",
+      "translation_quote": "Lakini watu wabaya na watoza watakuwa waovu zaidi zaidi, wakidanganya, na wajidanganye wenyewe."
+    },
+    {
+      "location": "html, paragraph 6, opening exhortation and Hebrews quotation",
+      "severity": "major",
+      "source_quote": "Let us keep our eyes fixed on Jesus ... who for the joy that was set before him endured the cross",
+      "suggested_fix": "Badilisha “Tuyapimize macho yetu kwa Yesu” kuwa “Tuendelee kumkazia Yesu macho”, na “naye, kwa kuwa furaha iliyokuwa mbele yake” kuwa “ambaye, kwa ajili ya furaha iliyowekwa mbele yake”. Hifadhi sehemu nyingine ya nukuu na rejeo.",
+      "translation_quote": "Tuyapimize macho yetu kwa Yesu ... naye, kwa kuwa furaha iliyokuwa mbele yake, alivumilia msalaba"
+    },
+    {
+      "location": "html, paragraph 6",
+      "severity": "major",
+      "source_quote": "without God allowing him a temporary free rein",
+      "suggested_fix": "Badilisha “bila Mungu kumruhusu kwa muda ujazo wa uhuru” kuwa “bila Mungu kumpa uhuru wa kutenda kwa muda”.",
+      "translation_quote": "bila Mungu kumruhusu kwa muda ujazo wa uhuru"
+    },
+    {
+      "location": "html, paragraph 6",
+      "severity": "major",
+      "source_quote": "when Jesus was crucified and buried",
+      "suggested_fix": "Tumia “wakati Yesu aliposulubiwa na kuzikwa”.",
+      "translation_quote": "wakati Yesu alikulikwa msalabani na kuzikwa"
+    },
+    {
+      "location": "html, paragraph 6",
+      "severity": "major",
+      "source_quote": "Satan had unwittingly allowed God to use him",
+      "suggested_fix": "Badilisha “Shetani kwa kutotaka alimiruhusu Mungu kumtumia” kuwa “Shetani alikuwa amemruhusu Mungu kumtumia bila kujua”.",
+      "translation_quote": "Shetani kwa kutotaka alimiruhusu Mungu kumtumia"
+    },
+    {
+      "location": "html, paragraph 7, sentence about election and predestination",
+      "severity": "major",
+      "source_quote": "with biblical simplicity and clarity, into the controversial subjects of divine election and predestination",
+      "suggested_fix": "Tumia “kwa urahisi na uwazi wa kibiblia, mada zenye utata za uchaguzi wa Mungu na kuamuliwa kimbele”.",
+      "translation_quote": "kwa unyenyekevu na uwazi wa kibiblia, mada zinazokatisha tamaa za uteuzi wa kiungu na ulango wa awali wa wokovu"
+    },
+    {
+      "location": "html, paragraph 7, cited article title",
+      "severity": "major",
+      "source_quote": "The Foolishness of Preaching",
+      "suggested_fix": "Badilisha kichwa cha Kiswahili kuwa “Upumbavu wa Kuhubiri”; hifadhi jina la Kiingereza lililo kwenye mabano.",
+      "translation_quote": "\"Upotovu wa Kutangazwa kwa Injili\" (The Foolishness of Preaching)"
+    },
+    {
+      "location": "html, paragraph 8, opening sentence",
+      "severity": "major",
+      "source_quote": "All of this is sure to stir thoughts and discussion",
+      "suggested_fix": "Tumia “Yote haya bila shaka yatachochea mawazo na majadiliano”.",
+      "translation_quote": "Yote haya yatahisi nadharia na mijadala"
+    },
+    {
+      "location": "html, paragraph 1",
+      "severity": "minor",
+      "source_quote": "Greetings of brotherly love ... A lot has happened.",
+      "suggested_fix": "Tumia “Salamu za upendo wa kindugu” badala ya “Salamu za upendo wa ukaribu”, na “Mengi yametokea” badala ya “Mengi yamekutokea”.",
+      "translation_quote": "Salamu za upendo wa ukaribu ... Mengi yamekutokea."
+    },
+    {
+      "location": "html, paragraph 1, final sentence",
+      "severity": "minor",
+      "source_quote": "causing the conservatives and liberals to become even more polarized into opposing parties",
+      "suggested_fix": "Badilisha sehemu ya mwisho kuwa “na kusababisha wahafidhina na waliberali kugawanyika zaidi katika makundi yanayopingana”.",
+      "translation_quote": "ikisababisha wahafidhina na waliberali kuendelea kugeukana wapinzani zaidi"
+    },
+    {
+      "location": "html, paragraph 2",
+      "severity": "minor",
+      "source_quote": "a committed Bible-believing Christian ... a surprising rise of hostility",
+      "suggested_fix": "Tumia “Mkristo aliyejitoa anayeyaamini Maandiko ya Biblia” na “ongezeko la kushangaza la uhasama”.",
+      "translation_quote": "Mkristo mwaminifu anayemwamini Biblia ... kuongezeka kwa ghadhabu"
+    },
+    {
+      "location": "html, paragraph 5, remaining 2 Timothy quotation",
+      "severity": "minor",
+      "source_quote": "hast been assured of ... from a child thou hast known the holy scriptures ... throughly furnished unto all good works",
+      "suggested_fix": "Tumia “uliyohakikishiwa” badala ya “uliyoyatambua”, “tangu utoto umeyajua maandiko matakatifu” badala ya “tangu utoto umewajua maandiko matakatifu”, na “ameandaliwa kikamilifu kwa kila kazi njema” badala ya “amekamilishwa kwa kazi zote njema”.",
+      "translation_quote": "uliyoyatambua ... tangu utoto umewajua maandiko matakatifu ... amekamilishwa kwa kazi zote njema"
+    },
+    {
+      "location": "html, paragraph 7, Leonard Martin sentence",
+      "severity": "minor",
+      "source_quote": "Brother Leonard Martin, a bishop in one of our churches has shared an exhortation ... with a number of clear, practical observations",
+      "suggested_fix": "Tumia “Ndugu Leonard Martin, askofu katika mojawapo ya makanisa yetu, ametoa nasaha” na “pamoja na maelezo kadhaa yaliyo wazi na yenye manufaa ya vitendo”.",
+      "translation_quote": "Kaka Leonard Martin, askofu katika mmoja wa makanisa yetu, ameshare wito wa kuhamasisha ... pamoja na uchunguzi kadhaa wazi, wa vitendo"
+    },
+    {
+      "location": "html, paragraph 9",
+      "severity": "minor",
+      "source_quote": "One final thought ... to present a more clear gospel message.",
+      "suggested_fix": "Tumia “Wazo moja la mwisho” badala ya “Fikiria moja ya mwisho”, na “kuwasilisha ujumbe wa injili kwa uwazi zaidi” badala ya “kutoa ujumbe wa injili ulioweka wazi zaidi”.",
+      "translation_quote": "Fikiria moja ya mwisho ... kutoa ujumbe wa injili ulioweka wazi zaidi"
+    }
+  ],
   "id": "340ccd9a8c358fc187b55ddbe70118a6",
   "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
   "language": "swa",
@@ -98,11 +246,13 @@
     }
   },
   "protected": false,
+  "quality_score": 65,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/0d188eedb4a6b0936348346a7bbb1d6ba410af25119039e27c08f30a398b9e61.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "review1",
     "max_candidate_bytes": 120000,
@@ -115,7 +265,7 @@
     "total_reserved_usd": 0.702298,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 0,
   "translation_key": "2b4f275d7b7ba8096cb0ab03fead7b5dd10aa236b7e3bc6ad2626bd76b72e500",
   "translation_model_actual": "gpt-5-mini-2025-08-07"
