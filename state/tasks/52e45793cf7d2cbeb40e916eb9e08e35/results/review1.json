@@ -1,0 +1,122 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "f9037f5b-03c5-4ea7-aeed-59e1e9496311",
+    "response_id": "chatcmpl-EejFCvC6ItrNcJJNekRmVQfhh70Ua",
+    "usage": {
+      "completion_tokens": 1780,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 54,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5475,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4372,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 7255
+    }
+  },
+  "received_at": "2026-10-30T19:16:19+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "translation.html, paragraphs 1, 7–10, 12–13; translation.section",
+        "severity": "major",
+        "source_quote": "This hymn ...; Although this is his only hymn found in most hymnals ...; A HYMN HISTORY",
+        "suggested_fix": "গোটা গান বা hymn বোঝাতে ব্যবহৃত প্রতিটি “স্তবক” বদলে “স্তবগান” লিখুন; গানের পৃথক verse বা stanza বোঝালে “স্তবক” রাখুন। section লিখুন “একটি স্তবগানের ইতিহাস” এবং “স্তবকসংগ্রহে” বদলে “স্তবগানসংকলনে” লিখুন।",
+        "translation_quote": "এই স্তবক ...; যদিও এটি বেশিরভাগ স্তবকসংগ্রহে তাঁর একমাত্র স্তবক ...; একটি স্তবক ইতিহাস"
+      },
+      {
+        "location": "translation.html, paragraph 4",
+        "severity": "major",
+        "source_quote": "he was chosen minister of the Church of Scotland",
+        "suggested_fix": "“চার্চ অব স্কটল্যান্ডের মন্ত্রী” বদলে “চার্চ অব স্কটল্যান্ডের পাদরি” লিখুন।",
+        "translation_quote": "চার্চ অব স্কটল্যান্ডের মন্ত্রী নির্বাচিত করা হয়"
+      },
+      {
+        "location": "translation.html, paragraph 5",
+        "severity": "major",
+        "source_quote": "the passages of Scripture he used in his messages",
+        "suggested_fix": "লিখুন: “তাঁর উপদেশে ব্যবহৃত বাইবেলের অংশগুলোও তিনি মুখস্থ রাখতেন।”",
+        "translation_quote": "তিনি যা যা শাস্ত্রে উদ্ধৃত করতেন তা স্মৃতিতেই রাখতেন"
+      },
+      {
+        "location": "translation.html, paragraph 5",
+        "severity": "major",
+        "source_quote": "commenced to request a psalm to be sung",
+        "suggested_fix": "“একটি স্তবক গাওয়ার অনুরোধ করলেন” বদলে “একটি গীতসংহিতার গীত গাওয়ার অনুরোধ করলেন” লিখুন।",
+        "translation_quote": "একটি স্তবক গাওয়ার অনুরোধ করলেন"
+      },
+      {
+        "location": "translation.html, paragraph 6",
+        "severity": "major",
+        "source_quote": "his eloquent preaching consistently attracted large throngs of people to the services",
+        "suggested_fix": "লিখুন: “তাঁর বাগ্মিতাপূর্ণ প্রচার নিয়মিতভাবে বিপুলসংখ্যক মানুষকে উপাসনায় আকৃষ্ট করত।”",
+        "translation_quote": "তাঁর বাগাড়ম্বর প্রচার নিয়মিতভাবে অনেকে কে সেবায় আকৃষ্ট করত"
+      },
+      {
+        "location": "translation.html, paragraph 7",
+        "severity": "major",
+        "source_quote": "Many speculations ... although never verified ... many significant hints",
+        "suggested_fix": "“অনেক গোষ্ঠীভিত্তিক অনুমান আছে” বদলে “নানা অনুমান করা হয়েছে”, “যদি না কখনো প্রমাণিত” বদলে “যদিও তা কখনো যাচাই করা হয়নি”, এবং “গুরুত্বপূর্ণ সিদ্ধান্তমূলক ইঙ্গিত” বদলে “তাৎপর্যপূর্ণ ইঙ্গিত” লিখুন।",
+        "translation_quote": "অনেক গোষ্ঠীভিত্তিক অনুমান আছে ... যদি না কখনো প্রমাণিত ... গুরুত্বপূর্ণ সিদ্ধান্তমূলক ইঙ্গিত"
+      },
+      {
+        "location": "translation.html, paragraph 9",
+        "severity": "major",
+        "source_quote": "having it dictated to me by some inward voice",
+        "suggested_fix": "লিখুন: “মনে হয়েছিল, আমি নিজে এটি রচনা করছি না; বরং অন্তরের কোনো কণ্ঠ আমাকে বলে বলে এটি লিখিয়ে নিচ্ছে।”",
+        "translation_quote": "অন্তরের কণ্ঠের দ্বারা আমাকে অনুবাদ করে দেওয়ার মতো ছিল"
+      },
+      {
+        "location": "translation.html, paragraph 9",
+        "severity": "major",
+        "source_quote": "All the other verses I have ever written are manufactured articles",
+        "suggested_fix": "লিখুন: “আমার লেখা অন্য সব পদই সচেতন প্রচেষ্টায় তৈরি রচনা”।",
+        "translation_quote": "আমি যা অন্যান্য সব স্তবক লিখেছি সেগুলো কারিগরি নিবন্ধ"
+      },
+      {
+        "location": "translation.html, paragraph 9",
+        "severity": "major",
+        "source_quote": "I have never been able to gain once more the same fervor in verse.",
+        "suggested_fix": "লিখুন: “পদ রচনায় সেই একই গভীর আবেগ আর কখনো ফিরে পাইনি।”",
+        "translation_quote": "আমি আর কখনও একই জ্বরের মতো ছন্দে লিখতে সক্ষম হইনি।"
+      },
+      {
+        "location": "translation.html, paragraph 11",
+        "severity": "major",
+        "source_quote": "the beloved Queen Margaret of Scotland",
+        "suggested_fix": "“প্রিয় রাজকুমারী মার্গারেটের” বদলে “স্কটল্যান্ডের প্রিয় রানি মার্গারেটের” লিখুন।",
+        "translation_quote": "প্রিয় রাজকুমারী মার্গারেটের"
+      },
+      {
+        "location": "translation.html, paragraph 12",
+        "severity": "major",
+        "source_quote": "some of the finest devotional writings in the English tongue",
+        "suggested_fix": "লিখুন: “ইংরেজি ভাষার কয়েকটি উৎকৃষ্টতম ভক্তিমূলক রচনা লিখে কাটান”।",
+        "translation_quote": "কিছু অতি উৎকৃষ্ট ভক্তি-লেখায় ব্যয় করেন"
+      },
+      {
+        "location": "translation.html, References heading and attribution labels",
+        "severity": "minor",
+        "source_quote": "References: ... Author ... Composer",
+        "suggested_fix": "HTML ও গ্রন্থশিরোনাম অক্ষুণ্ণ রেখে “References:” বদলে “তথ্যসূত্র:”, “Author” বদলে “রচয়িতা”, এবং “Composer” বদলে “সুরকার” লিখুন।",
+        "translation_quote": "References: ... Author ... Composer"
+      },
+      {
+        "location": "translation.html, paragraphs 1 and 5",
+        "severity": "minor",
+        "source_quote": "19<sup>th</sup> century ... thoughtful and beautifully constructed text ... Whenever he preached ... pulpit ... after doing this for 12 years",
+        "suggested_fix": "“19<sup>th</sup>” বদলে “১৯<sup>শ</sup>”, “চিন্তাশীল ও সাবলীলভাবে নির্মিত লেখাটি লেখা আরও দৃশ্যমানভাবে আশ্চর্যজনক” বদলে “ভাবগম্ভীর ও সুন্দরভাবে গঠিত এই রচনাটির সৃষ্টি আরও বিস্ময়কর মনে হয়”, “খিতব দিতেন” বদলে “উপদেশ দিতেন”, “পিউলপিটে” বদলে “প্রচারবেদিতে”, এবং “দুই-বার এভাবে করবার বারো বছর পর” বদলে “বারো বছর এভাবে চলার পর” লিখুন।",
+        "translation_quote": "19<sup>th</sup> শতকের ... চিন্তাশীল ও সাবলীলভাবে নির্মিত লেখাটি লেখা আরও দৃশ্যমানভাবে আশ্চর্যজনক ... খিতব দিতেন ... পিউলপিটে ... দুই-বার এভাবে করবার বারো বছর পর"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 73
+  }
+}
