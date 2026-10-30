@@ -1,0 +1,42 @@
+{
+  "findings": [
+    {
+      "location": "translation.title",
+      "severity": "minor",
+      "source_quote": "O Love That Wilt Not Let Me Go",
+      "suggested_fix": "将标题改为“哦，不肯放开我的爱（O Love That Wilt Not Let Me Go）”，保留原题对“爱”的呼告语气。",
+      "translation_quote": "愿不舍我的爱（O Love That Wilt Not Let Me Go）"
+    },
+    {
+      "location": "translation.html，第5段",
+      "severity": "minor",
+      "source_quote": "or whatever else he wanted to memorize",
+      "suggested_fix": "将“或其它想要他记住的东西”改为“或他自己想要记住的其他内容”。",
+      "translation_quote": "或其它想要他记住的东西"
+    },
+    {
+      "location": "translation.html，第6段开头",
+      "severity": "minor",
+      "source_quote": "Dr. Matheson’s final pastorate was taken up in 1886 at the age of 44",
+      "suggested_fix": "将开头改为“马西森博士于1886年、44岁时开始了他最后一任牧职，担任爱丁堡大型圣伯纳德堂（St. Bernard’s Parish Church）的牧师”。",
+      "translation_quote": "马西森博士在44岁时于1886年受任为爱丁堡大型圣伯纳德堂（St. Bernard’s Parish Church）的牧师"
+    },
+    {
+      "location": "translation.html，第9段引文首句",
+      "severity": "minor",
+      "source_quote": "My hymn was composed in the manse of Innellan on the evening of June 6, 1882.",
+      "suggested_fix": "改为“我的这首赞美诗作于1882年6月6日晚，在因内兰的牧师住宅。”",
+      "translation_quote": "我的这首赞美诗作于1882年6月6日，在因内兰的牧师住宅。"
+    },
+    {
+      "location": "translation.html，第9段引文",
+      "severity": "minor",
+      "source_quote": "It was the day of my sister’s wedding",
+      "suggested_fix": "将“那天是我妹妹的婚礼”改为“那天是我一位姊妹结婚的日子”，避免增添原文未说明的长幼关系。",
+      "translation_quote": "那天是我妹妹的婚礼"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[24]: source /article[1]/p[10]/em[1] ('start', 'em', ()); translation /article[1]/p[10] ('end', 'p')",
+  "stage": "terminal"
+}
