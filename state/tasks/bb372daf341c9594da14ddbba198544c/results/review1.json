@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "a036b455-8b8b-4be2-b50f-9e8520ae23ae",
+    "response_id": "chatcmpl-EeYI2dcr3uHuimb9h2fM4OrwjJG8B",
+    "usage": {
+      "completion_tokens": 757,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 618,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4104,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3001,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 4861
+    }
+  },
+  "received_at": "2026-10-30T07:04:12+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, section 4, paragraph 1",
+        "severity": "minor",
+        "source_quote": "Hasty repentance means shallow spiritual experience and lack of certainty in the whole life.",
+        "suggested_fix": "Replace «à falta de firmeza em toda a vida» with «à falta de convicção em toda a vida» to better preserve the sense of certainty.",
+        "translation_quote": "Um arrependimento apressado leva a uma experiência espiritual superficial e à falta de firmeza em toda a vida."
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 99
+  }
+}
