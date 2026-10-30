@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Parágrafo 5",
+      "severity": "minor",
+      "source_quote": "the lovely birthday furniture of her chamber, which her father had given her as a present",
+      "suggested_fix": "Depois disso, os belos móveis que o pai lhe dera de presente de aniversário para o seu quarto deixaram de a satisfazer.",
+      "translation_quote": "os belos móveis de aniversário do seu quarto, que o pai lhe dera de presente"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

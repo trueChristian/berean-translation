@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "49ce2ed2-208b-49a8-9163-4a32e7673723",
+    "response_id": "chatcmpl-EeXm6u19r50gBsbBnuZxvI3GagvcU",
+    "usage": {
+      "completion_tokens": 817,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 694,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9556,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8453,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 10373
+    }
+  },
+  "received_at": "2026-10-30T07:03:21+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Parágrafo 5",
+        "severity": "minor",
+        "source_quote": "the lovely birthday furniture of her chamber, which her father had given her as a present",
+        "suggested_fix": "Depois disso, os belos móveis que o pai lhe dera de presente de aniversário para o seu quarto deixaram de a satisfazer.",
+        "translation_quote": "os belos móveis de aniversário do seu quarto, que o pai lhe dera de presente"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}
