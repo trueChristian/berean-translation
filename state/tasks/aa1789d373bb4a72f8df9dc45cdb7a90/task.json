@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "1aec32ac9add4e08857b970fbafe4578",
   "campaign": "auto-f12a114a0998db2f3c3e89600b599768def34e1ed6a0471d2a5b41152d7cf98c",
   "created_at": "2026-10-29T19:46:25+00:00",
   "events": [
@@ -28,10 +27,46 @@
         },
         "total_tokens": 9403
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1134,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 911,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9643,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8540,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 10777
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "First paragraph",
+      "severity": "minor",
+      "source_quote": "“A man may get hold of the wrong end of a poker”",
+      "suggested_fix": "Ändra till ”Man kan få tag i fel ände av en eldgaffel” (eller ”…av en eldgaffelstång”) för korrekt genus och idiomatisk svenska.",
+      "translation_quote": "”Man kan få tag i fel ände av ett eldgaffel”"
+    },
+    {
+      "location": "Paragraph beginning “One of these gentlemen came down to preach”",
+      "severity": "minor",
+      "source_quote": "“I have believed on Jesus Christ since I was knee high.”",
+      "suggested_fix": "Överväg ”Jag har trott på Jesus Kristus ända sedan jag var liten” för en naturligare svensk idiomatisk motsvarighet.",
+      "translation_quote": "”Jag har trott på Jesus Kristus sedan jag var knähög.”"
+    }
+  ],
+  "finished_at": "2026-10-30T14:05:01+00:00",
   "id": "aa1789d373bb4a72f8df9dc45cdb7a90",
   "issue_id": "07955de4-6574-4a4b-9c1b-f216374c02ee",
   "language": "swe",
@@ -120,9 +155,11 @@
     }
   },
   "protected": false,
+  "quality_score": 97,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/709d3a155a21360cd8fb58693a126925fd57eb925458ecf6917826d9c376930e.json",
   "stage": "review1",
   "stage_budget": {
@@ -138,7 +175,7 @@
     "total_reserved_usd": 0.090734,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "12ecac15cfbc01dc73c6465f6e9b62b72e07659904a3aab7621b587b0c2472e4",
   "translation_model_actual": "gpt-6-luna"

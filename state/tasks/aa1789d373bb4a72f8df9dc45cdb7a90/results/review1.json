@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "6b066001-aae9-4f6a-96d6-9e484ce46288",
+    "response_id": "chatcmpl-EefRoMFioUUjG7fs1hubnDSVXmB7V",
+    "usage": {
+      "completion_tokens": 1134,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 911,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9643,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8540,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 10777
+    }
+  },
+  "received_at": "2026-10-30T14:05:01+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "First paragraph",
+        "severity": "minor",
+        "source_quote": "“A man may get hold of the wrong end of a poker”",
+        "suggested_fix": "Ändra till ”Man kan få tag i fel ände av en eldgaffel” (eller ”…av en eldgaffelstång”) för korrekt genus och idiomatisk svenska.",
+        "translation_quote": "”Man kan få tag i fel ände av ett eldgaffel”"
+      },
+      {
+        "location": "Paragraph beginning “One of these gentlemen came down to preach”",
+        "severity": "minor",
+        "source_quote": "“I have believed on Jesus Christ since I was knee high.”",
+        "suggested_fix": "Överväg ”Jag har trott på Jesus Kristus ända sedan jag var liten” för en naturligare svensk idiomatisk motsvarighet.",
+        "translation_quote": "”Jag har trott på Jesus Kristus sedan jag var knähög.”"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 97
+  }
+}
