@@ -5,11 +5,69 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "46d1dfcdd48147ef9f3664fc08dc6742",
   "campaign": "auto-966af5c7257f7509653e82a2e00efca59fd5cc62bd0f1d06daca3acbb8077095",
   "created_at": "2026-10-30T21:19:03+00:00",
-  "events": [],
-  "findings": [],
+  "events": [
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 707,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 92,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5062,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 3959,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 5769
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "translation.title; translation.html, final paragraph and img alt",
+      "severity": "minor",
+      "source_quote": "O Love That Wilt Not Let Me Go",
+      "suggested_fix": "Sostituire «O amore che non mi lasciare» con «O amore che non mi lascerai andare» nel titolo, nel paragrafo conclusivo e nell’attributo alt, preservando la struttura HTML.",
+      "translation_quote": "O amore che non mi lasciare"
+    },
+    {
+      "location": "translation.html, paragraph beginning «Ogni volta che predicava»",
+      "severity": "minor",
+      "source_quote": "if someone read one of his prepared sermons to him twice",
+      "suggested_fix": "Sostituire «se qualcuno gli leggesse uno dei suoi sermoni preparati due volte» con «se qualcuno gli leggeva due volte uno dei sermoni che aveva preparato».",
+      "translation_quote": "se qualcuno gli leggesse uno dei suoi sermoni preparati due volte"
+    },
+    {
+      "location": "translation.html, paragraph beginning «Il pastorato finale»",
+      "severity": "minor",
+      "source_quote": "Here he remained for 13 years, his church growing from 1,494 members to 1,703 in the first 5 years.",
+      "suggested_fix": "Sostituire «Qui rimase per 13 anni, la sua chiesa crescendo da 1.494 membri a 1.703 nei primi 5 anni» con «Qui rimase per 13 anni; nei primi 5 anni la sua chiesa passò da 1.494 a 1.703 membri».",
+      "translation_quote": "Qui rimase per 13 anni, la sua chiesa crescendo da 1.494 membri a 1.703 nei primi 5 anni."
+    },
+    {
+      "location": "translation.html, paragraph discussing the hymn’s imagery",
+      "severity": "minor",
+      "source_quote": "the “borrowed ray” in the second verse",
+      "suggested_fix": "Sostituire «nel secondo verso» con «nella seconda strofa».",
+      "translation_quote": "il “raggio preso in prestito” nel secondo verso"
+    },
+    {
+      "location": "translation.html, Matheson’s quoted account",
+      "severity": "minor",
+      "source_quote": "this came like a dayspring from on high",
+      "suggested_fix": "Correggere «un aurora» in «un’aurora».",
+      "translation_quote": "questa venne come un aurora dall’alto"
+    }
+  ],
+  "finished_at": "2026-10-30T23:43:52+00:00",
   "id": "b6a5ed3c128828d60a1e2cdceed20de1",
   "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
   "language": "ita",
@@ -98,9 +156,11 @@
     }
   },
   "protected": false,
+  "quality_score": 95,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/4199dfaab0d5a21bda226eb26899e60946a88bb7c00ae9c880acb09af21e3ca7.json",
   "stage": "review1",
   "stage_budget": {
@@ -115,7 +175,7 @@
     "total_reserved_usd": 0.716203,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 0,
   "translation_key": "5af7c75ddc034efa2d45136926794f0498d0408b26a365657640e28417f4afea",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

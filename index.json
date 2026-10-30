@@ -44320,6 +44320,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ita/articles/1caf6642-2283-4363-b3b6-33e40c39f945.html",
+      "html_sha256": "df3ad9cca0af974d7c7035b5dd73c02ffbd604cc2652ad5a2213925a89238cd6",
+      "human_reviewed": false,
+      "id": "1caf6642-2283-4363-b3b6-33e40c39f945",
+      "images": [
+        {
+          "alt": "spartito per O amore che non mi lasciare",
+          "public_path": "/images/articles/1caf6642-2283-4363-b3b6-33e40c39f945-1.png"
+        }
+      ],
+      "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
+      "language": "ita",
+      "language_tag": "it",
+      "metadata": "content/ita/articles/1caf6642-2283-4363-b3b6-33e40c39f945.json",
+      "metadata_sha256": "fa178b1fbac11b585f6db7750fbdf938e63ef0c08fff873e358af9823124b973",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "UNA STORIA DELL'INNO",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "5af7c75ddc034efa2d45136926794f0498d0408b26a365657640e28417f4afea",
+      "status": "ready",
+      "subtitle": null,
+      "title": "O amore che non mi lasciare",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ita/articles/1ec0f654-0dd1-48f3-9a68-3b15189e6704.html",
       "html_sha256": "c7b62a81a58b2e30b6811d7d3717d9b4798239c1ba68757756b417563dd97937",
       "human_reviewed": false,
