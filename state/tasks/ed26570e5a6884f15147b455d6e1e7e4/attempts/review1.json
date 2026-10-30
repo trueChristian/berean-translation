@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-30T00:52:54+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"html, paragraphs 4–5, winnowing imagery\",\n      \"severity\": \"major\",\n      \"source_quote\": \"Whose fan is in his hand ... like a winnowing breeze\",\n      \"suggested_fix\": \"Vervang “dorswa” met “wan” en “dorswa-breeze” met “wind wat die kaf wegwaai”. Vervang ook “onsblusbare” met “onblusbare”.\",\n      \"translation_quote\": \"Hy het sy dorswa in sy hand ... soos ’n dorswa-breeze ... onsblusbare vuur\"\n    },\n    {\n      \"location\": \"html, paragraph 5\",\n      \"severity\": \"major\",\n      \"source_quote\": \"Those who rejected Him were blown away and disappeared from the narrative. Those who loved Him were set forth as the chosen ones\",\n      \"suggested_fix\": \"Vervang die twee sinne se aanvang met: “Diegene wat Hom verwerp het, is weggewaai en het uit die verhaal verdwyn. Diegene wat Hom liefgehad het, is voorgehou as die uitverkorenes”.\",\n      \"translation_quote\": \"Dikwels is diegene wat Hom verwerp het weggedryf en het uit die verhaal verdwyn. Dikwels is diegene wat Hom liefgehad het uitgestel as die uitverkorenes\"\n    },\n    {\n      \"location\": \"html, paragraph 21, parenthetical definition\",\n      \"severity\": \"major\",\n      \"source_quote\": \"A wedding garment was a white linen garment\",\n      \"suggested_fix\": \"Vervang “’n wit serwelingsaatklere” met “’n wit linnekleed”.\",\n      \"translation_quote\": \"’n Huwelikskleed was ’n wit serwelingsaatklere\"\n    },\n    {\n      \"location\": \"html, paragraph 22, Adam Clark quotation\",\n      \"severity\": \"major\",\n      \"source_quote\": \"Among the Orientals, long white robes were worn at public festivals; and those who appeared on such occasions with any other garments\",\n      \"suggested_fix\": \"Vervang hierdie gedeelte met: “Onder die Oosterlinge is lang wit gewade by openbare feeste gedra; en diegene wat by sulke geleenthede in enige ander klere verskyn het”.\",\n      \"translation_quote\": \"Onder die Oos-mense is lang wit rodens by publieke feesvierings gedra; en diegene wat by sulke geleenthede met ander kleed gedra het\"\n    },\n    {\n      \"location\": \"html, paragraph 26, Isaiah 64:6 quotation\",\n      \"severity\": \"major\",\n      \"source_quote\": \"our iniquities, like the wind, have taken us away\",\n      \"suggested_fix\": \"Vervang “ons ongerymdhede” met “ons ongeregtighede”.\",\n      \"translation_quote\": \"ons ongerymdhede het ons weggevoer soos die wind\"\n    },\n    {\n      \"location\": \"html, paragraph 28, Luke 7:39 quotation\",\n      \"severity\": \"major\",\n      \"source_quote\": \"Now when the Pharisee which had bidden him saw it\",\n      \"suggested_fix\": \"Vervang “En die Fariseër wat Hom genader het, het dit in homself gesê en gesê” met “Toe die Fariseër wat Hom genooi het dit sien, het hy by homself gesê”.\",\n      \"translation_quote\": \"En die Fariseër wat Hom genader het, het dit in homself gesê en gesê\"\n    },\n    {\n      \"location\": \"html, paragraphs 28–30, all occurrences of anointing\",\n      \"severity\": \"major\",\n      \"source_quote\": \"anointed them with the ointment; She anointed Jesus’ feet; My head with oil thou didst not anoint ... this woman hath anointed my feet with ointment\",\n      \"suggested_fix\": \"Vervang al vier voorkomste van “aangewrig” met “gesalf”, en behou die bestaande HTML en omliggende teks.\",\n      \"translation_quote\": \"met die salf aangewrig; Sy het Jesus se voete aangewrig; My hoof met olie het jy nie aangewrig nie ... hierdie vrou het My voete met salf aangewrig\"\n    },\n    {\n      \"location\": \"html, paragraph 25\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"a well-dressed gentleman ... Those who came shabbily dressed ... display his finery\",\n      \"suggested_fix\": \"Vervang “’n mooi geskikte gentleman” met “’n goed geklede heer”, “vaal geklee” met “armoedig geklee”, en “sy sierlikheid” met “sy deftige klere”.\",\n      \"translation_quote\": \"’n mooi geskikte gentleman ... Diegene wat vaal geklee gekom het ... sy sierlikheid wou vertoon\"\n    },\n    {\n      \"location\": \"html, paragraphs 1, 5, 6, 12, 16, 27–28 and 30, grammatical and lexical defects\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"casting a net into the sea; This speaks; teachings were such; the moment He spoke her name; We settle for a religion that is doable; in need of a redeemer; when she knew ... began to wash; the same loveth little\",\n      \"suggested_fix\": \"Gebruik onderskeidelik “wat ’n net in die see gegooi het”; “Dit praat”; “Jesus se onderrig was sodanig dat”; “Maria het Jesus herken die oomblik toe Hy haar naam uitgespreek het”; “Ons stel ons tevrede met ’n godsdiens wat ons self kan beoefen”; “vind ons onsself met ’n behoefte aan ’n Verlosser”; “toe sy gehoor het” en “en huilend begin sy sy voete met trane was”; en “dié het ook min lief”.\",\n      \"translation_quote\": \"wat ’n net in die see gooi het; Hierdie praat; Jesus se onderrig was sulke dat; Maria het Jesus reguit herken toe Hy haar naam uitgespreek het; Ons tevrede ons met ’n godsdiens wat moontlik is; vind ons onsself in behoeftes van ’n Verlosser; as sy gehoor het ... huilend begin sy sy voete met trane te was; die hou ook min lief\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": false,\n  \"score\": 80\n}",
+    "content_bytes": 5293,
+    "content_evidence_truncated": false,
+    "content_sha256": "62c880f026c618ab6252d18e91f25f0b3a5bbe2239d9f6740fdd43d25964504d",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1614,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 171,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8795,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7692,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 10409
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}
