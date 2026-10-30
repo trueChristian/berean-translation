@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "translation.title; html: salmetittelen i første og åttende prosavsnitt, første salmelinje, Scotts sangsitat og bildets alt-tekst",
+      "severity": "minor",
+      "source_quote": "All Hail the Power of Jesus Name; All hail the power of Jesus’ name",
+      "suggested_fix": "Erstatt «Hyll alle kraften i Jesu navn» med «Alle, hyll kraften i Jesu navn» på alle disse stedene. Behold omkringliggende HTML, attributter og øvrig tekst.",
+      "translation_quote": "Hyll alle kraften i Jesu navn"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}
