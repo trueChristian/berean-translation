@@ -9513,6 +9513,62 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ben/articles/0c677d9e-ce73-4b27-a03f-d5457f7f1072.html",
+      "html_sha256": "314fe230a4069c875019722faac6d5a441c2e33cb0af9cb3d4accb7efa0f2f54",
+      "human_reviewed": false,
+      "id": "0c677d9e-ce73-4b27-a03f-d5457f7f1072",
+      "images": [
+        {
+          "alt": "এক ব্যক্তি ‘বন্ধন থেকে আমাদের মুক্ত করুন’ কথাগুলোর ওপরে কারাগারের শিকের ফাঁক দিয়ে হাত বাড়াচ্ছেন",
+          "public_path": "/images/articles/0c677d9e-ce73-4b27-a03f-d5457f7f1072-1.jpg"
+        },
+        {
+          "alt": "শিকের আড়ালে একজন বন্দি, তার পাশে এক দেবদূত",
+          "public_path": "/images/articles/0c677d9e-ce73-4b27-a03f-d5457f7f1072-2.jpg"
+        },
+        {
+          "alt": "একটি অনাড়ম্বর ঘরে জড়ো হওয়া নারী ও শিশুরা",
+          "public_path": "/images/articles/0c677d9e-ce73-4b27-a03f-d5457f7f1072-3.jpg"
+        },
+        {
+          "alt": "ডোরাকাটা পোশাক পরা বন্দিদের সামনে দিয়ে হেঁটে যাচ্ছেন এক প্রহরী",
+          "public_path": "/images/articles/0c677d9e-ce73-4b27-a03f-d5457f7f1072-4.jpg"
+        },
+        {
+          "alt": "একটি ভবনের বাইরে দাঁড়িয়ে থাকা বন্দিদের দীর্ঘ সারি",
+          "public_path": "/images/articles/0c677d9e-ce73-4b27-a03f-d5457f7f1072-5.jpg"
+        },
+        {
+          "alt": "শহরের একটি চত্বরে ছড়িয়ে থাকা মানুষজন",
+          "public_path": "/images/articles/0c677d9e-ce73-4b27-a03f-d5457f7f1072-6.jpg"
+        },
+        {
+          "alt": "কারাকক্ষের ভেতরে বসে থাকা লোকদের পড়ে শোনাচ্ছেন এক নারী",
+          "public_path": "/images/articles/0c677d9e-ce73-4b27-a03f-d5457f7f1072-7.jpg"
+        },
+        {
+          "alt": "এক পাশে শোয়ানো একটি বোতলের খোদাই করা চিত্র",
+          "public_path": "/images/articles/0c677d9e-ce73-4b27-a03f-d5457f7f1072-8.jpg"
+        }
+      ],
+      "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
+      "language": "ben",
+      "language_tag": "bn",
+      "metadata": "content/ben/articles/0c677d9e-ce73-4b27-a03f-d5457f7f1072.json",
+      "metadata_sha256": "73378507073afa5f4be9b09e469c5422d20385d96e7d9c2e643bd9c02b7eabb2",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": null,
+      "source_revision": "ed75201a8e3b37913a14f4d949de33a7a0daa2c2",
+      "source_translation_key": "385aeb5b4a7bcbf512c0d5b8310c2fd8f5f85b86d43d077caf80670ee93c6738",
+      "status": "ready",
+      "subtitle": "কারাগারগুলোর দেবদূত",
+      "title": "ম্যাথিল্ডে ভ্রেডে",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ben/articles/0f775a7f-1f39-428b-8d96-3d48095e1f49.html",
       "html_sha256": "2b05f68972f048659ce9743ea1f6a951a1af97ac5f7afb5dd8fa7c859d99ae9b",
       "human_reviewed": false,
@@ -37094,6 +37150,46 @@
       "subtitle": "आभार के बारे में एक कहानी",
       "title": "मिंट वाला आदमी",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/hin/articles/a5c8b070-97f8-4050-9ac5-89af497287b0.html",
+      "html_sha256": "083c8db66c27467f90cd642e68545eaa29ae6baaa6c668a312c2a07ba1c7d531",
+      "human_reviewed": false,
+      "id": "a5c8b070-97f8-4050-9ac5-89af497287b0",
+      "images": [
+        {
+          "alt": "एक शेर और दूसरे जानवर नाचते हुए बच्चे को देख रहे हैं",
+          "public_path": "/images/articles/a5c8b070-97f8-4050-9ac5-89af497287b0-1.jpg"
+        },
+        {
+          "alt": "एक पट्टिका जिस पर सी. एस. लुईस और उनके मित्रों के एक पब के पिछले कमरे में मिलने का वर्णन है",
+          "public_path": "/images/articles/a5c8b070-97f8-4050-9ac5-89af497287b0-2.jpg"
+        },
+        {
+          "alt": "टाइम पत्रिका का आवरण, जिस पर सी. एस. लुईस का चित्र है",
+          "public_path": "/images/articles/a5c8b070-97f8-4050-9ac5-89af497287b0-3.jpg"
+        },
+        {
+          "alt": "सी. एस. लुईस पुस्तक लिए बैठे हुए",
+          "public_path": "/images/articles/a5c8b070-97f8-4050-9ac5-89af497287b0-4.jpg"
+        }
+      ],
+      "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
+      "language": "hin",
+      "language_tag": "hi",
+      "metadata": "content/hin/articles/a5c8b070-97f8-4050-9ac5-89af497287b0.json",
+      "metadata_sha256": "9ed899a0bdbed65c643d52e9ce2e5bb82659cf23e16fb80850473c01097056e8",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": null,
+      "source_revision": "ed75201a8e3b37913a14f4d949de33a7a0daa2c2",
+      "source_translation_key": "6db58cafff7cfe9f11556e892b54ec7a0015890307776806dd7acebca34a78c1",
+      "status": "ready",
+      "subtitle": "ईसाइयो, सावधान!",
+      "title": "शेर, चुड़ैल और हैप्पी मील:",
+      "translation_model": "gpt-6.1-sol"
     },
     {
       "ai_notice_required": true,
