@@ -5,11 +5,131 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "0517a792f37a4a0595ce21b89e39ed49",
   "campaign": "auto-30b5bdc7f05ebab208dc9e58a2d63015d6463fca4509ae0498f61cc00fd4ea94",
   "created_at": "2026-10-30T02:59:56+00:00",
-  "events": [],
-  "findings": [],
+  "events": [
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 2308,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 88,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8593,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 7490,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 10901
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "figure/figcaption",
+      "severity": "major",
+      "source_quote": "For we wrestle not against flesh and blood, but against principalities ... AGAINST SPIRITUAL WICKEDNESS IN HIGH PLACES. ... EPHESIANS 6:11-12",
+      "suggested_fix": "استبدال نص التعليق مع الحفاظ على وسومه وفواصله بالنص: <strong>اِلْبَسُوا سِلَاحَ اللهِ الْكَامِلَ،</strong> <em>لِكَيْ تَسْتَطِيعُوا<br>\n    الثَّبَاتَ أَمَامَ مَكَايِدِ إِبْلِيسَ.</em><br><br>\n    <em>فَإِنَّ صِرَاعَنَا لَيْسَ ضِدَّ لَحْمٍ وَدَمٍ، بَلْ ضِدَّ الرِّيَاسَاتِ،<br>\n    ضِدَّ السُّلُطَاتِ، ضِدَّ حُكَّامِ ظُلْمَةِ هَذَا الْعَالَمِ،</em><br>\n    <strong>ضِدَّ قُوَى الشَّرِّ الرُّوحِيَّةِ فِي الْأَمَاكِنِ الْعُلْيَا.</strong><br>\n    أفسس 6:11-12",
+      "translation_quote": "لأَنَّ لَنَا لاَ نُجَادِلُ بِدَمٍ وَلاَ بِلَحْمٍ، بَلْ بِالسَّيِّدَاتِ ... عِنْدَمَا نُقَاوِمُ الشُّرُورَ الرُّوحِيَّةَ ... أَفْسُسِيِّينَ 6:11-12"
+    },
+    {
+      "location": "p[5]",
+      "severity": "major",
+      "source_quote": "armed with the sharpest of two-edged swords (The Holy Scriptures)",
+      "suggested_fix": "استبدال «بأحد حدين حادَّين (الكتاب المقدس)» بـ«بأمضى سيف ذي حدين (الكتاب المقدس)».",
+      "translation_quote": "مسلَّحين بأحد حدين حادَّين (الكتاب المقدس)"
+    },
+    {
+      "location": "p[8]",
+      "severity": "major",
+      "source_quote": "prepared to kill their fellow man",
+      "suggested_fix": "استبدال «يُعدون لقتل الإنسانية» بـ«يُعَدّون لقتل إخوانهم من البشر».",
+      "translation_quote": "يُعدون لقتل الإنسانية"
+    },
+    {
+      "location": "p[11]",
+      "severity": "major",
+      "source_quote": "even in the face of overwhelming odds",
+      "suggested_fix": "استبدال «حتى في مواجهة odds ساحقة» بـ«حتى في مواجهة تفوق ساحق للعدو».",
+      "translation_quote": "حتى في مواجهة odds ساحقة"
+    },
+    {
+      "location": "p[12]",
+      "severity": "major",
+      "source_quote": "They had been afforded the relief of not needing to fight a physical fight.",
+      "suggested_fix": "استبدال «حُرموا من القتال المادي» بـ«أُعفوا من الاضطرار إلى خوض قتال جسدي، فكان ذلك مصدر راحة لهم».",
+      "translation_quote": "حُرموا من القتال المادي"
+    },
+    {
+      "location": "p[12]",
+      "severity": "major",
+      "source_quote": "Throughout their various ministries",
+      "suggested_fix": "استبدال «خلال وزاراتهم المختلفة» بـ«في مختلف مجالات خدمتهم».",
+      "translation_quote": "خلال وزاراتهم المختلفة"
+    },
+    {
+      "location": "p[4]",
+      "severity": "major",
+      "source_quote": "Death was ever present, claiming lives seemingly at random.",
+      "suggested_fix": "استبدال «كانت الموتى حاضرة دائمًا» بـ«كان الموت حاضرًا دائمًا».",
+      "translation_quote": "كانت الموتى حاضرة دائمًا، تفتك بالأرواح"
+    },
+    {
+      "location": "p[4]",
+      "severity": "major",
+      "source_quote": "a banzai charge (a typically nocturnal all-out attack of massed infantry yelling at the top of their voices as they charged)",
+      "suggested_fix": "استبدال العبارة بـ«هجمة بانزاي (هجوم شامل، عادةً ما يكون ليليًا، تشنه حشود من المشاة وهم يصرخون بأعلى أصواتهم أثناء اندفاعهم)».",
+      "translation_quote": "شحنة بانزاي (هجوم ليلي شامل لانتشار المشاة يصرخون بصوت عالٍ أثناء اندفاعهم)"
+    },
+    {
+      "location": "p[12]",
+      "severity": "major",
+      "source_quote": "Troublesome ones would be bound in strait jackets for weeks",
+      "suggested_fix": "استبدال «يُربَطون بأحزمة مشدودة لأسابيع» بـ«يُقيَّدون بسترات تقييد الحركة لأسابيع».",
+      "translation_quote": "يُربَطون بأحزمة مشدودة لأسابيع"
+    },
+    {
+      "location": "p[15]",
+      "severity": "major",
+      "source_quote": "he quickly filed for CO status",
+      "suggested_fix": "استبدال «قدم بسرعة طلبًا للحالة الضميرية» بـ«سارع إلى تقديم طلب للاعتراف به معترضًا على الخدمة العسكرية لأسباب ضميرية».",
+      "translation_quote": "قدم بسرعة طلبًا للحالة الضميرية"
+    },
+    {
+      "location": "p[17]",
+      "severity": "major",
+      "source_quote": "coral islands just large enough for an airstrip and a garrison",
+      "suggested_fix": "استبدال «جزر مرجانية لا تكفي إلا لهبوط طائرات ونقطة حامية» بـ«جزر مرجانية لا تتسع إلا لمدرج طائرات وحامية عسكرية».",
+      "translation_quote": "جزر مرجانية لا تكفي إلا لهبوط طائرات ونقطة حامية"
+    },
+    {
+      "location": "p[14]",
+      "severity": "minor",
+      "source_quote": "MacArthur dug in ... inevitable landings ... evacuating to Batchelor Field, Australia",
+      "suggested_fix": "استبدال «حفر ماك آرثر أخدوده» بـ«تحصّن ماك آرثر»، و«النزلات البرية الحتمية» بـ«عمليات الإنزال الحتمية»، و«مخلِّيًا إلى حقل باتشلور في أستراليا» بـ«منتقلًا إلى مطار باتشلور في أستراليا».",
+      "translation_quote": "حفر ماك آرثر أخدوده ... النزلات البرية الحتمية ... مخلِّيًا إلى حقل باتشلور في أستراليا"
+    },
+    {
+      "location": "p[2], p[4], p[5], p[6], p[7], p[10], p[11], p[13], p[17], p[20], p[21], p[22]",
+      "severity": "minor",
+      "source_quote": "whether it is acknowledged or not; Destruction and carnage had become commonplace; hearts and minds of those involved; had been passed; To these young men ...; pressure; war was declared; the opportunity to serve came at a cost; the Japanese were uprooted; peace was bought; living out their Christian faith; Both MacArthur and the victorious COs",
+      "suggested_fix": "إصلاح المواضع على الترتيب إلى: «سواء اعتُرف به أم لا»؛ «أصبح الدمار وسفك الدماء أمرين مألوفين»؛ «في <strong>قلوب</strong> المشاركين فيها و<strong>عقولهم</strong>»؛ «أُقرّ»؛ «ذكّر هذا التجنيد والحرب الدائرة هؤلاء الشبان بقصص حرب وتجنيد مماثلين قبل جيل واحد تقريبًا» و«كان الاعتقاد السائد»؛ «ضغطٌ شخصي»؛ «أُعلنت الحرب» و«مجتاحةً الدول الجزرية»؛ «أتت فرصة الخدمة بثمن»؛ «اقتُلع اليابانيون»؛ «اشتُري»؛ «ويعيشون»؛ «ثابر كلٌّ من ماك آرثر والمعارضين الضميريين المنتصرين».",
+      "translation_quote": "سواء أُعْرِف به أم لا؛ أصبحت الدمار والمذبحة أمورًا مألوفة؛ في <strong>القلوب</strong> و<strong>العقول</strong> المشاركين فيها؛ أُصدِق؛ أثارت لهذا الشباب ذاكرة قصص ... قبل جيل يكاد لا يتجاوزهم؛ كانت السائدة الظن؛ ضغطًا شخصيًا؛ أُعلِن الحرب؛ جابتًا جزر البلدان؛ أتى الفرصة للخدمة بثمن؛ جُذبت اليابانيون؛ شُتَرِي؛ ويعشن؛ ثابر كل من ماك آرثر والمعارضين الضميريين المنتصرين"
+    },
+    {
+      "location": "p[16]",
+      "severity": "minor",
+      "source_quote": "thus, the American counter-offensive began",
+      "suggested_fix": "استبدال «وبدأت بذلك المضادة الأمريكية» بـ«وبدأ بذلك الهجوم الأمريكي المضاد».",
+      "translation_quote": "وبدأت بذلك المضادة الأمريكية"
+    }
+  ],
   "id": "57e062ceda7395cf56a4bb3251e905bb",
   "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
   "language": "ara",
@@ -98,11 +218,13 @@
     }
   },
   "protected": false,
+  "quality_score": 72,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/303eea9ede343be1d9acddc326e79733cfaca30a9ec14bd67edc70779b0f9f08.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "review1",
     "max_candidate_bytes": 120000,
@@ -115,7 +237,7 @@
     "total_reserved_usd": 0.778231,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 0,
   "translation_key": "c767adc49633e338375567a05addcb2f986e5c013a016c2592a1cd600a81bb50",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

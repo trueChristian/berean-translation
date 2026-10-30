@@ -1,0 +1,105 @@
+{
+  "findings": [
+    {
+      "location": "figure/figcaption",
+      "severity": "major",
+      "source_quote": "For we wrestle not against flesh and blood, but against principalities ... AGAINST SPIRITUAL WICKEDNESS IN HIGH PLACES. ... EPHESIANS 6:11-12",
+      "suggested_fix": "استبدال نص التعليق مع الحفاظ على وسومه وفواصله بالنص: <strong>اِلْبَسُوا سِلَاحَ اللهِ الْكَامِلَ،</strong> <em>لِكَيْ تَسْتَطِيعُوا<br>\n    الثَّبَاتَ أَمَامَ مَكَايِدِ إِبْلِيسَ.</em><br><br>\n    <em>فَإِنَّ صِرَاعَنَا لَيْسَ ضِدَّ لَحْمٍ وَدَمٍ، بَلْ ضِدَّ الرِّيَاسَاتِ،<br>\n    ضِدَّ السُّلُطَاتِ، ضِدَّ حُكَّامِ ظُلْمَةِ هَذَا الْعَالَمِ،</em><br>\n    <strong>ضِدَّ قُوَى الشَّرِّ الرُّوحِيَّةِ فِي الْأَمَاكِنِ الْعُلْيَا.</strong><br>\n    أفسس 6:11-12",
+      "translation_quote": "لأَنَّ لَنَا لاَ نُجَادِلُ بِدَمٍ وَلاَ بِلَحْمٍ، بَلْ بِالسَّيِّدَاتِ ... عِنْدَمَا نُقَاوِمُ الشُّرُورَ الرُّوحِيَّةَ ... أَفْسُسِيِّينَ 6:11-12"
+    },
+    {
+      "location": "p[5]",
+      "severity": "major",
+      "source_quote": "armed with the sharpest of two-edged swords (The Holy Scriptures)",
+      "suggested_fix": "استبدال «بأحد حدين حادَّين (الكتاب المقدس)» بـ«بأمضى سيف ذي حدين (الكتاب المقدس)».",
+      "translation_quote": "مسلَّحين بأحد حدين حادَّين (الكتاب المقدس)"
+    },
+    {
+      "location": "p[8]",
+      "severity": "major",
+      "source_quote": "prepared to kill their fellow man",
+      "suggested_fix": "استبدال «يُعدون لقتل الإنسانية» بـ«يُعَدّون لقتل إخوانهم من البشر».",
+      "translation_quote": "يُعدون لقتل الإنسانية"
+    },
+    {
+      "location": "p[11]",
+      "severity": "major",
+      "source_quote": "even in the face of overwhelming odds",
+      "suggested_fix": "استبدال «حتى في مواجهة odds ساحقة» بـ«حتى في مواجهة تفوق ساحق للعدو».",
+      "translation_quote": "حتى في مواجهة odds ساحقة"
+    },
+    {
+      "location": "p[12]",
+      "severity": "major",
+      "source_quote": "They had been afforded the relief of not needing to fight a physical fight.",
+      "suggested_fix": "استبدال «حُرموا من القتال المادي» بـ«أُعفوا من الاضطرار إلى خوض قتال جسدي، فكان ذلك مصدر راحة لهم».",
+      "translation_quote": "حُرموا من القتال المادي"
+    },
+    {
+      "location": "p[12]",
+      "severity": "major",
+      "source_quote": "Throughout their various ministries",
+      "suggested_fix": "استبدال «خلال وزاراتهم المختلفة» بـ«في مختلف مجالات خدمتهم».",
+      "translation_quote": "خلال وزاراتهم المختلفة"
+    },
+    {
+      "location": "p[4]",
+      "severity": "major",
+      "source_quote": "Death was ever present, claiming lives seemingly at random.",
+      "suggested_fix": "استبدال «كانت الموتى حاضرة دائمًا» بـ«كان الموت حاضرًا دائمًا».",
+      "translation_quote": "كانت الموتى حاضرة دائمًا، تفتك بالأرواح"
+    },
+    {
+      "location": "p[4]",
+      "severity": "major",
+      "source_quote": "a banzai charge (a typically nocturnal all-out attack of massed infantry yelling at the top of their voices as they charged)",
+      "suggested_fix": "استبدال العبارة بـ«هجمة بانزاي (هجوم شامل، عادةً ما يكون ليليًا، تشنه حشود من المشاة وهم يصرخون بأعلى أصواتهم أثناء اندفاعهم)».",
+      "translation_quote": "شحنة بانزاي (هجوم ليلي شامل لانتشار المشاة يصرخون بصوت عالٍ أثناء اندفاعهم)"
+    },
+    {
+      "location": "p[12]",
+      "severity": "major",
+      "source_quote": "Troublesome ones would be bound in strait jackets for weeks",
+      "suggested_fix": "استبدال «يُربَطون بأحزمة مشدودة لأسابيع» بـ«يُقيَّدون بسترات تقييد الحركة لأسابيع».",
+      "translation_quote": "يُربَطون بأحزمة مشدودة لأسابيع"
+    },
+    {
+      "location": "p[15]",
+      "severity": "major",
+      "source_quote": "he quickly filed for CO status",
+      "suggested_fix": "استبدال «قدم بسرعة طلبًا للحالة الضميرية» بـ«سارع إلى تقديم طلب للاعتراف به معترضًا على الخدمة العسكرية لأسباب ضميرية».",
+      "translation_quote": "قدم بسرعة طلبًا للحالة الضميرية"
+    },
+    {
+      "location": "p[17]",
+      "severity": "major",
+      "source_quote": "coral islands just large enough for an airstrip and a garrison",
+      "suggested_fix": "استبدال «جزر مرجانية لا تكفي إلا لهبوط طائرات ونقطة حامية» بـ«جزر مرجانية لا تتسع إلا لمدرج طائرات وحامية عسكرية».",
+      "translation_quote": "جزر مرجانية لا تكفي إلا لهبوط طائرات ونقطة حامية"
+    },
+    {
+      "location": "p[14]",
+      "severity": "minor",
+      "source_quote": "MacArthur dug in ... inevitable landings ... evacuating to Batchelor Field, Australia",
+      "suggested_fix": "استبدال «حفر ماك آرثر أخدوده» بـ«تحصّن ماك آرثر»، و«النزلات البرية الحتمية» بـ«عمليات الإنزال الحتمية»، و«مخلِّيًا إلى حقل باتشلور في أستراليا» بـ«منتقلًا إلى مطار باتشلور في أستراليا».",
+      "translation_quote": "حفر ماك آرثر أخدوده ... النزلات البرية الحتمية ... مخلِّيًا إلى حقل باتشلور في أستراليا"
+    },
+    {
+      "location": "p[2], p[4], p[5], p[6], p[7], p[10], p[11], p[13], p[17], p[20], p[21], p[22]",
+      "severity": "minor",
+      "source_quote": "whether it is acknowledged or not; Destruction and carnage had become commonplace; hearts and minds of those involved; had been passed; To these young men ...; pressure; war was declared; the opportunity to serve came at a cost; the Japanese were uprooted; peace was bought; living out their Christian faith; Both MacArthur and the victorious COs",
+      "suggested_fix": "إصلاح المواضع على الترتيب إلى: «سواء اعتُرف به أم لا»؛ «أصبح الدمار وسفك الدماء أمرين مألوفين»؛ «في <strong>قلوب</strong> المشاركين فيها و<strong>عقولهم</strong>»؛ «أُقرّ»؛ «ذكّر هذا التجنيد والحرب الدائرة هؤلاء الشبان بقصص حرب وتجنيد مماثلين قبل جيل واحد تقريبًا» و«كان الاعتقاد السائد»؛ «ضغطٌ شخصي»؛ «أُعلنت الحرب» و«مجتاحةً الدول الجزرية»؛ «أتت فرصة الخدمة بثمن»؛ «اقتُلع اليابانيون»؛ «اشتُري»؛ «ويعيشون»؛ «ثابر كلٌّ من ماك آرثر والمعارضين الضميريين المنتصرين».",
+      "translation_quote": "سواء أُعْرِف به أم لا؛ أصبحت الدمار والمذبحة أمورًا مألوفة؛ في <strong>القلوب</strong> و<strong>العقول</strong> المشاركين فيها؛ أُصدِق؛ أثارت لهذا الشباب ذاكرة قصص ... قبل جيل يكاد لا يتجاوزهم؛ كانت السائدة الظن؛ ضغطًا شخصيًا؛ أُعلِن الحرب؛ جابتًا جزر البلدان؛ أتى الفرصة للخدمة بثمن؛ جُذبت اليابانيون؛ شُتَرِي؛ ويعشن؛ ثابر كل من ماك آرثر والمعارضين الضميريين المنتصرين"
+    },
+    {
+      "location": "p[16]",
+      "severity": "minor",
+      "source_quote": "thus, the American counter-offensive began",
+      "suggested_fix": "استبدال «وبدأت بذلك المضادة الأمريكية» بـ«وبدأ بذلك الهجوم الأمريكي المضاد».",
+      "translation_quote": "وبدأت بذلك المضادة الأمريكية"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
