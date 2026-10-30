@@ -1,0 +1,42 @@
+{
+  "findings": [
+    {
+      "location": "translation.title",
+      "severity": "major",
+      "source_quote": "O Love That Wilt Not Let Me Go",
+      "suggested_fix": "Traduzir o título do artigo para «Ó Amor que não me deixarás partir».",
+      "translation_quote": "O Love That Wilt Not Let Me Go"
+    },
+    {
+      "location": "translation.html, primeiro parágrafo",
+      "severity": "minor",
+      "source_quote": "the latter part of the 19<sup>th</sup> century",
+      "suggested_fix": "Substituir «século 19<sup>th</sup>» por «século <sup></sup>XIX», mantendo o elemento HTML sem o sufixo ordinal inglês.",
+      "translation_quote": "a última parte do século 19<sup>th</sup>"
+    },
+    {
+      "location": "translation.html, quinto parágrafo e citação autobiográfica",
+      "severity": "minor",
+      "source_quote": "he made a practice of memorizing his sermons; having it dictated to me",
+      "suggested_fix": "Substituir «passou a prática de memorizar» por «adotou a prática de memorizar» e «de tê‑lo sido ditado» por «de que ele me havia sido ditado».",
+      "translation_quote": "passou a prática de memorizar seus sermões; de tê‑lo sido ditado"
+    },
+    {
+      "location": "translation.html, final da citação autobiográfica",
+      "severity": "minor",
+      "source_quote": "I have never been able to gain once more the same fervor in verse.",
+      "suggested_fix": "Substituir «a mesma fervura em verso» por «o mesmo fervor em verso».",
+      "translation_quote": "Nunca mais consegui recuperar a mesma fervura em verso."
+    },
+    {
+      "location": "translation.html, parágrafos sobre a publicação, a melodia e os escritos devocionais",
+      "severity": "minor",
+      "source_quote": "<em>Life and Work</em>; <em>St. Margaret</em>; <em>Moments on the Mount</em>, <em>Voice of the Spirit</em>, and <em>Rests by the River</em>",
+      "suggested_fix": "Restaurar os elementos <em> em torno de cada um desses cinco títulos, preservando a marcação do original.",
+      "translation_quote": "Life and Work; St. Margaret; Moments on the Mount, Voice of the Spirit e Rests by the River"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

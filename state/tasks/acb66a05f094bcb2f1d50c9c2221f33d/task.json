@@ -5,11 +5,68 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "d93d841e357c4e77ba59fd96e9ea4cd1",
   "campaign": "auto-cbacca5d3d4b7971741e0f9f23795821ad80c2e7e9078c15bc84582d4e9f70be",
   "created_at": "2026-10-30T14:09:10+00:00",
-  "events": [],
-  "findings": [],
+  "events": [
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 735,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 129,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4837,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 3734,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 5572
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "translation.title",
+      "severity": "major",
+      "source_quote": "O Love That Wilt Not Let Me Go",
+      "suggested_fix": "Traduzir o título do artigo para «Ó Amor que não me deixarás partir».",
+      "translation_quote": "O Love That Wilt Not Let Me Go"
+    },
+    {
+      "location": "translation.html, primeiro parágrafo",
+      "severity": "minor",
+      "source_quote": "the latter part of the 19<sup>th</sup> century",
+      "suggested_fix": "Substituir «século 19<sup>th</sup>» por «século <sup></sup>XIX», mantendo o elemento HTML sem o sufixo ordinal inglês.",
+      "translation_quote": "a última parte do século 19<sup>th</sup>"
+    },
+    {
+      "location": "translation.html, quinto parágrafo e citação autobiográfica",
+      "severity": "minor",
+      "source_quote": "he made a practice of memorizing his sermons; having it dictated to me",
+      "suggested_fix": "Substituir «passou a prática de memorizar» por «adotou a prática de memorizar» e «de tê‑lo sido ditado» por «de que ele me havia sido ditado».",
+      "translation_quote": "passou a prática de memorizar seus sermões; de tê‑lo sido ditado"
+    },
+    {
+      "location": "translation.html, final da citação autobiográfica",
+      "severity": "minor",
+      "source_quote": "I have never been able to gain once more the same fervor in verse.",
+      "suggested_fix": "Substituir «a mesma fervura em verso» por «o mesmo fervor em verso».",
+      "translation_quote": "Nunca mais consegui recuperar a mesma fervura em verso."
+    },
+    {
+      "location": "translation.html, parágrafos sobre a publicação, a melodia e os escritos devocionais",
+      "severity": "minor",
+      "source_quote": "<em>Life and Work</em>; <em>St. Margaret</em>; <em>Moments on the Mount</em>, <em>Voice of the Spirit</em>, and <em>Rests by the River</em>",
+      "suggested_fix": "Restaurar os elementos <em> em torno de cada um desses cinco títulos, preservando a marcação do original.",
+      "translation_quote": "Life and Work; St. Margaret; Moments on the Mount, Voice of the Spirit e Rests by the River"
+    }
+  ],
   "id": "acb66a05f094bcb2f1d50c9c2221f33d",
   "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
   "language": "por",
@@ -98,11 +155,13 @@
     }
   },
   "protected": false,
+  "quality_score": 94,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/4199dfaab0d5a21bda226eb26899e60946a88bb7c00ae9c880acb09af21e3ca7.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "review1",
     "max_candidate_bytes": 120000,
@@ -115,7 +174,7 @@
     "total_reserved_usd": 0.715866,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 0,
   "translation_key": "5af7c75ddc034efa2d45136926794f0498d0408b26a365657640e28417f4afea",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

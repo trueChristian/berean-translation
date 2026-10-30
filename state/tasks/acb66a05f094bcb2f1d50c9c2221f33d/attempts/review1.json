@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-30T19:42:26+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"translation.title\",\n      \"severity\": \"major\",\n      \"source_quote\": \"O Love That Wilt Not Let Me Go\",\n      \"suggested_fix\": \"Traduzir o título do artigo para «Ó Amor que não me deixarás partir».\",\n      \"translation_quote\": \"O Love That Wilt Not Let Me Go\"\n    },\n    {\n      \"location\": \"translation.html, primeiro parágrafo\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"the latter part of the 19<sup>th</sup> century\",\n      \"suggested_fix\": \"Substituir «século 19<sup>th</sup>» por «século <sup></sup>XIX», mantendo o elemento HTML sem o sufixo ordinal inglês.\",\n      \"translation_quote\": \"a última parte do século 19<sup>th</sup>\"\n    },\n    {\n      \"location\": \"translation.html, quinto parágrafo e citação autobiográfica\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"he made a practice of memorizing his sermons; having it dictated to me\",\n      \"suggested_fix\": \"Substituir «passou a prática de memorizar» por «adotou a prática de memorizar» e «de tê‑lo sido ditado» por «de que ele me havia sido ditado».\",\n      \"translation_quote\": \"passou a prática de memorizar seus sermões; de tê‑lo sido ditado\"\n    },\n    {\n      \"location\": \"translation.html, final da citação autobiográfica\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"I have never been able to gain once more the same fervor in verse.\",\n      \"suggested_fix\": \"Substituir «a mesma fervura em verso» por «o mesmo fervor em verso».\",\n      \"translation_quote\": \"Nunca mais consegui recuperar a mesma fervura em verso.\"\n    },\n    {\n      \"location\": \"translation.html, parágrafos sobre a publicação, a melodia e os escritos devocionais\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"<em>Life and Work</em>; <em>St. Margaret</em>; <em>Moments on the Mount</em>, <em>Voice of the Spirit</em>, and <em>Rests by the River</em>\",\n      \"suggested_fix\": \"Restaurar os elementos <em> em torno de cada um desses cinco títulos, preservando a marcação do original.\",\n      \"translation_quote\": \"Life and Work; St. Margaret; Moments on the Mount, Voice of the Spirit e Rests by the River\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": false,\n  \"score\": 94\n}",
+    "content_bytes": 2239,
+    "content_evidence_truncated": false,
+    "content_sha256": "b400bf296532cc7611d41403dde02923e93aa7e3a6641d6f6434ce3d18dfabd7",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 735,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 129,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4837,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3734,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 5572
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}
