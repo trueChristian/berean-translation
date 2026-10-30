@@ -5,11 +5,61 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "49b2cdfc178d448e849c2b0f55f99318",
   "campaign": "auto-ff94db4803790aa1900926b0260dec87c1fea3704d3fe9bd5a1817b0445583c6",
   "created_at": "2026-10-30T01:20:47+00:00",
-  "events": [],
-  "findings": [],
+  "events": [
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 751,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 76,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4064,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 2961,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 4815
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "translation.html, पाँचवाँ अनुच्छेद, 2 तिमोथियुस 3:13-17 का उद्धरण",
+      "severity": "major",
+      "source_quote": "But evil men and seducers shall wax worse and worse, deceiving, and being deceived. ... profitable for doctrine, for reproof, for correction, for instruction in righteousness",
+      "suggested_fix": "आरंभिक वाक्य को करें: “परन्तु बुरे मनुष्य और छल करने वाले बद से बदतर होते जाएँगे, दूसरों को धोखा देते हुए और स्वयं धोखा खाते हुए।” बाद की सूची को करें: “और शिक्षा देने, ताड़ना देने, सुधारने और धार्मिकता में प्रशिक्षण देने के लिये लाभकारी है”। उद्धरण के मौजूदा HTML और संदर्भ को बनाए रखें।",
+      "translation_quote": "पर बुरे मनुष्य और लोलुप और अधिक-बढ़ते होंगे, भ्रामक और भ्रामित होते रहेंगे। ... नीति के लिये, प्रेरणा के लिये, सुधार के लिये, धर्म में परिपाठ्य शिक्षा के लिये लाभकारी है"
+    },
+    {
+      "location": "translation.html, छठा अनुच्छेद, शैतान के अनजाने में उपयोग किए जाने वाला वाक्य",
+      "severity": "major",
+      "source_quote": "Satan had unwittingly allowed God to use him to accomplish everything that had been prophesied throughout the Scriptures.",
+      "suggested_fix": "वाक्य को करें: “शैतान ने अनजाने में परमेश्वर को अपना उपयोग करने दिया था, ताकि पवित्र शास्त्रों में की गई सारी भविष्यवाणियाँ पूरी हों।”",
+      "translation_quote": "शैतान ने अनजाने में परमेश्वर को उन्हीं सब बातों की पूर्ति के लिये उपयोग करने की अनुमति दे दी जो शास्त्रों में भविष्यवाणी की गई थीं।"
+    },
+    {
+      "location": "translation.html, छठा अनुच्छेद, इब्रानियों 12:2 का उद्धरण",
+      "severity": "minor",
+      "source_quote": "who for the joy that was set before him",
+      "suggested_fix": "“जिन्होंने अपने सामने रखे हुए आनन्द के लिये” करें।",
+      "translation_quote": "जिन्होंने अपने सामने रखी हुई हुई आनन्द के लिये"
+    },
+    {
+      "location": "translation.html, अंतिम आशीर्वचन",
+      "severity": "minor",
+      "source_quote": "May God richly bless each of you,",
+      "suggested_fix": "“परमेश्वर आपमें से प्रत्येक को भरपूर आशीष दे,” करें, ताकि आशीष की प्रचुरता व्यक्त हो, समृद्धि का विशेष संकेत नहीं।",
+      "translation_quote": "परमेश्वर आपमें से प्रत्येक को समृद्धि से आशीर्वाद दे,"
+    }
+  ],
   "id": "007348ccfc626ff7a70080967a28be88",
   "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
   "language": "hin",
@@ -98,11 +148,13 @@
     }
   },
   "protected": false,
+  "quality_score": 90,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/0d188eedb4a6b0936348346a7bbb1d6ba410af25119039e27c08f30a398b9e61.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "review1",
     "max_candidate_bytes": 120000,
@@ -115,7 +167,7 @@
     "total_reserved_usd": 0.721398,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 0,
   "translation_key": "2b4f275d7b7ba8096cb0ab03fead7b5dd10aa236b7e3bc6ad2626bd76b72e500",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

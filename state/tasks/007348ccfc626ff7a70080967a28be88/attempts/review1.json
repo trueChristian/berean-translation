@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-30T02:32:21+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"translation.html, पाँचवाँ अनुच्छेद, 2 तिमोथियुस 3:13-17 का उद्धरण\",\n      \"severity\": \"major\",\n      \"source_quote\": \"But evil men and seducers shall wax worse and worse, deceiving, and being deceived. ... profitable for doctrine, for reproof, for correction, for instruction in righteousness\",\n      \"suggested_fix\": \"आरंभिक वाक्य को करें: “परन्तु बुरे मनुष्य और छल करने वाले बद से बदतर होते जाएँगे, दूसरों को धोखा देते हुए और स्वयं धोखा खाते हुए।” बाद की सूची को करें: “और शिक्षा देने, ताड़ना देने, सुधारने और धार्मिकता में प्रशिक्षण देने के लिये लाभकारी है”। उद्धरण के मौजूदा HTML और संदर्भ को बनाए रखें।\",\n      \"translation_quote\": \"पर बुरे मनुष्य और लोलुप और अधिक-बढ़ते होंगे, भ्रामक और भ्रामित होते रहेंगे। ... नीति के लिये, प्रेरणा के लिये, सुधार के लिये, धर्म में परिपाठ्य शिक्षा के लिये लाभकारी है\"\n    },\n    {\n      \"location\": \"translation.html, छठा अनुच्छेद, शैतान के अनजाने में उपयोग किए जाने वाला वाक्य\",\n      \"severity\": \"major\",\n      \"source_quote\": \"Satan had unwittingly allowed God to use him to accomplish everything that had been prophesied throughout the Scriptures.\",\n      \"suggested_fix\": \"वाक्य को करें: “शैतान ने अनजाने में परमेश्वर को अपना उपयोग करने दिया था, ताकि पवित्र शास्त्रों में की गई सारी भविष्यवाणियाँ पूरी हों।”\",\n      \"translation_quote\": \"शैतान ने अनजाने में परमेश्वर को उन्हीं सब बातों की पूर्ति के लिये उपयोग करने की अनुमति दे दी जो शास्त्रों में भविष्यवाणी की गई थीं।\"\n    },\n    {\n      \"location\": \"translation.html, छठा अनुच्छेद, इब्रानियों 12:2 का उद्धरण\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"who for the joy that was set before him\",\n      \"suggested_fix\": \"“जिन्होंने अपने सामने रखे हुए आनन्द के लिये” करें।\",\n      \"translation_quote\": \"जिन्होंने अपने सामने रखी हुई हुई आनन्द के लिये\"\n    },\n    {\n      \"location\": \"translation.html, अंतिम आशीर्वचन\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"May God richly bless each of you,\",\n      \"suggested_fix\": \"“परमेश्वर आपमें से प्रत्येक को भरपूर आशीष दे,” करें, ताकि आशीष की प्रचुरता व्यक्त हो, समृद्धि का विशेष संकेत नहीं।\",\n      \"translation_quote\": \"परमेश्वर आपमें से प्रत्येक को समृद्धि से आशीर्वाद दे,\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": false,\n  \"score\": 90\n}",
+    "content_bytes": 4066,
+    "content_evidence_truncated": false,
+    "content_sha256": "9683a59d07d3150ea2fb57abfb4424ed2dc89561b571c92995101290b42642cc",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 751,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 76,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4064,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2961,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 4815
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}
