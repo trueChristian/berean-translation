@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-30T14:04:36+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Article body, paragraph after heading 8\",\"severity\":\"minor\",\"source_quote\":\"The mansions of the heart will become larger when their doors are thrown open to Christ and closed against the world and sin.\",\"suggested_fix\":\"جب دل کے محل کے دروازے مسیح کے لیے کھلیں گے اور دنیا اور گناہ کے لیے بند ہوں گے تو دل کے یہ محل بڑے ہو جائیں گے۔\",\"translation_quote\":\"جب دل کے محل کے دروازے مسیح کے لیے کھلیں گے اور دنیا اور گناہ کے لیے بند ہوں گے تو وہ بڑے ہو جائیں گے۔\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 698,
+    "content_evidence_truncated": false,
+    "content_sha256": "b9626bb0b1ae62871aa8da5c8ff41fcb79cd10e4422a7cb26e9e010db46c57f4",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 635,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 479,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4510,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3407,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 5145
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

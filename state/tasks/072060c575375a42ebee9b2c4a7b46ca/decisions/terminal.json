@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Article body, paragraph after heading 8",
+      "severity": "minor",
+      "source_quote": "The mansions of the heart will become larger when their doors are thrown open to Christ and closed against the world and sin.",
+      "suggested_fix": "جب دل کے محل کے دروازے مسیح کے لیے کھلیں گے اور دنیا اور گناہ کے لیے بند ہوں گے تو دل کے یہ محل بڑے ہو جائیں گے۔",
+      "translation_quote": "جب دل کے محل کے دروازے مسیح کے لیے کھلیں گے اور دنیا اور گناہ کے لیے بند ہوں گے تو وہ بڑے ہو جائیں گے۔"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}
