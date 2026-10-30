@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-30T01:46:26+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"html, paragraf 4, kutipan Kisah Para Rasul 17:24-25\",\n      \"severity\": \"major\",\n      \"source_quote\": \"seeing that he is Lord of heaven and earth ... Neither is worshipped with men’s hands, as though he needed any thing\",\n      \"suggested_fix\": \"Ganti bagian terkait menjadi “karena Dialah Tuhan langit dan bumi ... juga tidak dilayani oleh tangan manusia seolah-olah Ia memerlukan sesuatu”.\",\n      \"translation_quote\": \"karena Dialah yang harus dipandang sebagai Tuhan sorga dan bumi ... juga tidak ditujukan untuk disembah dengan tangan manusia, seolah-olah Ia memerlukan sesuatu\"\n    },\n    {\n      \"location\": \"html, paragraf 5, kutipan 2 Timotius 3:13-17\",\n      \"severity\": \"major\",\n      \"source_quote\": \"the things which thou hast learned and hast been assured of, knowing of whom thou hast learned them\",\n      \"suggested_fix\": \"Ganti menjadi “apa yang telah engkau pelajari dan yakini, dengan mengetahui dari siapa engkau telah mempelajarinya”.\",\n      \"translation_quote\": \"apa yang telah engkau pelajari dan yang telah kukatakan kepadamu, mengetahui dari siapa engkau telah belajar hal-hal itu\"\n    },\n    {\n      \"location\": \"html, paragraf 5, akhir kutipan 2 Timotius 3:13-17\",\n      \"severity\": \"major\",\n      \"source_quote\": \"All scripture is given by inspiration of God, and is profitable ... That the man of God may be perfect, throughly furnished unto all good works\",\n      \"suggested_fix\": \"Ubah awal kalimat menjadi “Seluruh Kitab Suci diilhamkan oleh Allah dan bermanfaat” dan bagian akhirnya menjadi “supaya manusia Allah menjadi sempurna, diperlengkapi sepenuhnya untuk setiap perbuatan baik”. Pertahankan daftar manfaat dan referensi yang ada.\",\n      \"translation_quote\": \"Segala tulisan yang diilhamkan Allah memang berfaedah ... supaya manusia Allah diperlengkapi untuk setiap perbuatan baik\"\n    },\n    {\n      \"location\": \"html, paragraf 3, kalimat terakhir\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"cause a person to be jolted out of a sense of normality\",\n      \"suggested_fix\": \"Ganti “membuat seseorang terkejut dan tersingkap dari rasa normalitas” dengan “mengguncang perasaan seseorang bahwa keadaan masih berjalan normal”.\",\n      \"translation_quote\": \"membuat seseorang terkejut dan tersingkap dari rasa normalitas\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": false,\n  \"score\": 89\n}",
+    "content_bytes": 2410,
+    "content_evidence_truncated": false,
+    "content_sha256": "80c37438ce4122283ac7598315f1e39a03753c6da7212011bd764252a85b505b",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 685,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 69,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3872,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2769,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 4557
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}

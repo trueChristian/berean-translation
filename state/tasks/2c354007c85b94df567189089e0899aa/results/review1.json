@@ -1,0 +1,59 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "182be3e6-2f3c-494b-bacd-9afab65fca11",
+    "response_id": "chatcmpl-EeVioasIU5b56tG6RDbRYjpKiNrkx",
+    "usage": {
+      "completion_tokens": 685,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 69,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3872,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2769,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 4557
+    }
+  },
+  "received_at": "2026-10-30T01:46:26+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "html, paragraf 4, kutipan Kisah Para Rasul 17:24-25",
+        "severity": "major",
+        "source_quote": "seeing that he is Lord of heaven and earth ... Neither is worshipped with men’s hands, as though he needed any thing",
+        "suggested_fix": "Ganti bagian terkait menjadi “karena Dialah Tuhan langit dan bumi ... juga tidak dilayani oleh tangan manusia seolah-olah Ia memerlukan sesuatu”.",
+        "translation_quote": "karena Dialah yang harus dipandang sebagai Tuhan sorga dan bumi ... juga tidak ditujukan untuk disembah dengan tangan manusia, seolah-olah Ia memerlukan sesuatu"
+      },
+      {
+        "location": "html, paragraf 5, kutipan 2 Timotius 3:13-17",
+        "severity": "major",
+        "source_quote": "the things which thou hast learned and hast been assured of, knowing of whom thou hast learned them",
+        "suggested_fix": "Ganti menjadi “apa yang telah engkau pelajari dan yakini, dengan mengetahui dari siapa engkau telah mempelajarinya”.",
+        "translation_quote": "apa yang telah engkau pelajari dan yang telah kukatakan kepadamu, mengetahui dari siapa engkau telah belajar hal-hal itu"
+      },
+      {
+        "location": "html, paragraf 5, akhir kutipan 2 Timotius 3:13-17",
+        "severity": "major",
+        "source_quote": "All scripture is given by inspiration of God, and is profitable ... That the man of God may be perfect, throughly furnished unto all good works",
+        "suggested_fix": "Ubah awal kalimat menjadi “Seluruh Kitab Suci diilhamkan oleh Allah dan bermanfaat” dan bagian akhirnya menjadi “supaya manusia Allah menjadi sempurna, diperlengkapi sepenuhnya untuk setiap perbuatan baik”. Pertahankan daftar manfaat dan referensi yang ada.",
+        "translation_quote": "Segala tulisan yang diilhamkan Allah memang berfaedah ... supaya manusia Allah diperlengkapi untuk setiap perbuatan baik"
+      },
+      {
+        "location": "html, paragraf 3, kalimat terakhir",
+        "severity": "minor",
+        "source_quote": "cause a person to be jolted out of a sense of normality",
+        "suggested_fix": "Ganti “membuat seseorang terkejut dan tersingkap dari rasa normalitas” dengan “mengguncang perasaan seseorang bahwa keadaan masih berjalan normal”.",
+        "translation_quote": "membuat seseorang terkejut dan tersingkap dari rasa normalitas"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 89
+  }
+}
