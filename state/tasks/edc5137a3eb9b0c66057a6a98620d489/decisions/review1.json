@@ -1,0 +1,56 @@
+{
+  "findings": [
+    {
+      "location": "html, paragraph 3",
+      "severity": "major",
+      "source_quote": "the current victorious march of evil over good",
+      "suggested_fix": "Replace «برائی کے بھڑک اٹھنے» with «نیکی پر برائی کی موجودہ فاتحانہ پیش قدمی».",
+      "translation_quote": "برائی کے بھڑک اٹھنے"
+    },
+    {
+      "location": "html, paragraph 5, opening sentence",
+      "severity": "major",
+      "source_quote": "Let’s stop focusing on the fact that evil seems to be prevailing and increasing around us and then concluding that somehow Satan has the upper hand right now.",
+      "suggested_fix": "Replace the opening sentence with «آئیں ہم اس بات پر توجہ مرکوز کرنا چھوڑ دیں کہ بظاہر برائی ہمارے آس پاس غالب آ رہی ہے اور بڑھ رہی ہے، اور اس سے یہ نتیجہ نکالنا بھی چھوڑ دیں کہ کسی طرح اس وقت شیطان کو برتری حاصل ہے۔»",
+      "translation_quote": "آئیں اس بات پر توجہ دینا بند کریں کہ بظاہر برائی ہمارے آس پاس غالب اور بڑھتی جا رہی ہے اور پھر یہ نتیجہ اخذ کریں کہ کسی طرح شیطان ابھی برتری حاصل کر چکا ہے۔"
+    },
+    {
+      "location": "html, paragraph 6, sentence beginning “Surprise, surprise!”",
+      "severity": "major",
+      "source_quote": "Satan had unwittingly allowed God to use him to accomplish everything that had been prophesied throughout the Scriptures.",
+      "suggested_fix": "Replace the following sentence with «شیطان نے انجانے میں خدا کو اجازت دے دی تھی کہ وہ اُسے استعمال کر کے اُن تمام باتوں کو پورا کرے جن کی کتابِ مقدس میں پیش گوئی کی گئی تھی۔»",
+      "translation_quote": "شیطان نے انجانے میں خدا کو ہر اُس چیز کو پورا کرنے کی اجازت دے دی جو کتابِ مقدس میں متنبّأ کی گئی تھی۔"
+    },
+    {
+      "location": "html, paragraph 7, divine election",
+      "severity": "major",
+      "source_quote": "the controversial subjects of divine election and predestination",
+      "suggested_fix": "Replace «الہامی منتِ انتخاب اور تقدیر کے متنازع موضوعات» with «خدا کے برگزیدہ کرنے اور پیشگی تقدیر مقرر کرنے کے متنازع موضوعات».",
+      "translation_quote": "الہامی منتِ انتخاب اور تقدیر کے متنازع موضوعات"
+    },
+    {
+      "location": "html, paragraph 2",
+      "severity": "minor",
+      "source_quote": "an increasingly negative perspective of God’s people",
+      "suggested_fix": "Replace «ایک بڑھتی ہوئی منفی رُویہ کی طرف» with «ایک بڑھتے ہوئے منفی رویے کی طرف».",
+      "translation_quote": "ایک بڑھتی ہوئی منفی رُویہ کی طرف"
+    },
+    {
+      "location": "html, paragraph 6, Hebrews quotation",
+      "severity": "minor",
+      "source_quote": "the author and finisher of our faith; who for the joy that was set before him endured the cross",
+      "suggested_fix": "Within the existing <em> element, replace this portion with «ہمارے ایمان کے بانی اور اسے کامل کرنے والے؛ جنہوں نے اُس خوشی کے لیے جو اُن کے سامنے رکھی گئی تھی صلیب برداشت کی».",
+      "translation_quote": "ہمارے ایمان کے مصنف اور مکمل کرنے والا؛ جو اس خوشی کے لیے جو اُس کے سامنے رکھی گئی تھی صلیب کو برداشت کیا"
+    },
+    {
+      "location": "html, paragraph 9, final sentence",
+      "severity": "minor",
+      "source_quote": "We welcome this to continue.",
+      "suggested_fix": "Replace the sentence with «ہم اس سلسلے کے جاری رہنے کا خیرمقدم کرتے ہیں۔»",
+      "translation_quote": "ہم اس کی استمرار کا خیرمقدم کرتے ہیں۔"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
