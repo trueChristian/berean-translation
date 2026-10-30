@@ -1,0 +1,84 @@
+{
+  "findings": [
+    {
+      "location": "translation.html, paragrafo 15, esortazione sulle autorità",
+      "severity": "major",
+      "source_quote": "to not slander them; to obey them in all possible aspects; to stay away from their elections and campaigns; and yet, to yield ourselves to God and His authority as our final say?!",
+      "suggested_fix": "Sostituire il passaggio inglese con: «a non calunniarle; a obbedire loro in tutti gli aspetti possibili; a tenerci lontani dalle loro elezioni e campagne elettorali; e tuttavia a sottometterci a Dio e alla sua autorità come autorità ultima?!».",
+      "translation_quote": "to not slander them; to obey them in all possible aspects; to stay away from their elections and campaigns; and yet, to yield ourselves to God and His authority as our final say?!"
+    },
+    {
+      "location": "translation.html, paragrafo 17",
+      "severity": "major",
+      "source_quote": "the unregenerate around us",
+      "suggested_fix": "Sostituire «gli irreligiosi intorno a noi» con «le persone non rigenerate intorno a noi», preservando il riferimento teologico alla nuova nascita.",
+      "translation_quote": "gli irreligiosi intorno a noi"
+    },
+    {
+      "location": "translation.html, paragrafo 18, citazione di Efesini 5:15-17",
+      "severity": "major",
+      "source_quote": "See then that ye walk circumspectly, not as fools, but as wise",
+      "suggested_fix": "Sostituire «Vegliate dunque con prudenza» con «Badate dunque a comportarvi con prudenza», mantenendo il riferimento alla condotta, non alla veglia.",
+      "translation_quote": "Vegliate dunque con prudenza, non come stolti ma come saggi"
+    },
+    {
+      "location": "translation.html, paragrafo 14, citazione di Romani 13:1-5",
+      "severity": "minor",
+      "source_quote": "For there is no power but of God [...] they that resist shall receive to themselves damnation [...] For rulers are not a terror to good works, but to the evil [...] be afraid [...] a revenger to execute wrath [...] not only for wrath",
+      "suggested_fix": "Correggere i segmenti difettosi rispettivamente in «perché non vi è autorità se non da Dio», «quelli che si oppongono attireranno su di sé la condanna», «Infatti i governanti non incutono timore a chi opera il bene, ma a chi opera il male», «temi», «un vendicatore incaricato di infliggere l'ira a chi pratica il male» e «non soltanto per timore dell'ira». Conservare il tag <em> e il riferimento.",
+      "translation_quote": "perché non v'è potestas se non da Dio [...] quelli che si oppongono afferreranno giudizio sopra di sé [...] i magistrati non spaventano il bene operante, ma il male [...] tema' [...] vendicatore per sferrare ira [...] non solamente per la ira"
+    },
+    {
+      "location": "translation.html, paragrafo 15, citazione di Romani 13:1",
+      "severity": "minor",
+      "source_quote": "For there is no power but of God",
+      "suggested_fix": "Sostituire «perché non v'è potestas se non da Dio» con «perché non vi è autorità se non da Dio».",
+      "translation_quote": "perché non v'è potestas se non da Dio"
+    },
+    {
+      "location": "translation.html, paragrafo 2",
+      "severity": "minor",
+      "source_quote": "Nero would go on to marry Claudius’ daughter Octavia",
+      "suggested_fix": "Sostituire «Nerone andò poi in sposa a Ottavia» con «Nerone sposò poi Ottavia».",
+      "translation_quote": "Nerone andò poi in sposa a Ottavia"
+    },
+    {
+      "location": "translation.html, paragrafo 5",
+      "severity": "minor",
+      "source_quote": "Undeterred, Nero dispatched his executioners",
+      "suggested_fix": "Sostituire «Indifferente» con «Senza lasciarsi scoraggiare», per indicare che il fallimento non lo distolse dal piano.",
+      "translation_quote": "Indifferente, Nerone mandò i suoi esecutori"
+    },
+    {
+      "location": "translation.html, paragrafo 6",
+      "severity": "minor",
+      "source_quote": "a slave that is said to have resembled her strongly [...] He believed himself to be an artist—a genius, even—and gave massive public performances",
+      "suggested_fix": "Correggere «la somigliasse» in «le somigliasse» e «—un genio, addirittura—andò in scena» in «—un genio, addirittura—e si esibiva».",
+      "translation_quote": "uno schiavo che si diceva la somigliasse molto [...] Si credeva un artista—un genio, addirittura—andò in scena"
+    },
+    {
+      "location": "translation.html, paragrafo 11, citazione di Tacito",
+      "severity": "minor",
+      "source_quote": "inflicted the most exquisite tortures [...] Mockery of every sort was added to their deaths.",
+      "suggested_fix": "Sostituire «le più squisite torture» con «le torture più raffinate» e «A ogni sorta di scherno fu aggiunta alle loro morti» con «Alla loro morte si aggiungeva ogni sorta di scherno».",
+      "translation_quote": "inflisse le più squisite torture [...] A ogni sorta di scherno fu aggiunta alle loro morti"
+    },
+    {
+      "location": "translation.html, paragrafo 14, apertura",
+      "severity": "minor",
+      "source_quote": "Paul lived under Nero’s reign.",
+      "suggested_fix": "Correggere «Pao lo» in «Paolo».",
+      "translation_quote": "Pao lo visse sotto il regno di Nerone."
+    },
+    {
+      "location": "translation.html, nota finale",
+      "severity": "minor",
+      "source_quote": "Endnote:",
+      "suggested_fix": "Sostituire «Endnote:» con «Nota finale:», conservando <br> e l'indirizzo.",
+      "translation_quote": "Endnote:"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
