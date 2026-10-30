@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-30T07:03:01+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"cac00fd8-ab2b-4033-92c7-bef44b4341db\\\">\\n  <figure>\\n    <img src=\\\"/images/articles/cac00fd8-ab2b-4033-92c7-bef44b4341db-1.jpg\\\" alt=\\\"Meli ya tanga ikipita karibu na miamba kando ya pwani.\\\">\\n  </figure>\\n  <p>Nahodha mmoja aliwahi kuulizwa kama anazijua miamba yote iliyo kando ya pwani. “Hapana,” akasema, “si lazima kuijua miamba yote, bali kujua tu njia salama ya kupita.”</p>\\n</article>\\n\",\"section\":null,\"subtitle\":null,\"title\":\"MIAMBA YOTE\"}",
+    "content_bytes": 496,
+    "content_evidence_truncated": false,
+    "content_sha256": "b35e5a952072d5d2e111cb1bfd29a76bf07c48c9c0e7d8ede10979861e9750c8",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 286,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 92,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 955,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1241
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}
