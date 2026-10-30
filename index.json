@@ -42095,6 +42095,46 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ind/articles/a5c8b070-97f8-4050-9ac5-89af497287b0.html",
+      "html_sha256": "10eb96eed2e7b1b55800dea9d4a16ec00bc125e32d4f620358e379aae7f6ab43",
+      "human_reviewed": false,
+      "id": "a5c8b070-97f8-4050-9ac5-89af497287b0",
+      "images": [
+        {
+          "alt": "Seekor singa dan hewan-hewan lain menyaksikan seorang anak menari",
+          "public_path": "/images/articles/a5c8b070-97f8-4050-9ac5-89af497287b0-1.jpg"
+        },
+        {
+          "alt": "Plakat yang menjelaskan bahwa C. S. Lewis dan teman-temannya biasa bertemu di ruang belakang sebuah pub",
+          "public_path": "/images/articles/a5c8b070-97f8-4050-9ac5-89af497287b0-2.jpg"
+        },
+        {
+          "alt": "Sampul majalah TIME yang menampilkan potret C. S. Lewis",
+          "public_path": "/images/articles/a5c8b070-97f8-4050-9ac5-89af497287b0-3.jpg"
+        },
+        {
+          "alt": "C. S. Lewis duduk sambil memegang buku",
+          "public_path": "/images/articles/a5c8b070-97f8-4050-9ac5-89af497287b0-4.jpg"
+        }
+      ],
+      "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
+      "language": "ind",
+      "language_tag": "id",
+      "metadata": "content/ind/articles/a5c8b070-97f8-4050-9ac5-89af497287b0.json",
+      "metadata_sha256": "e079f8d3358629c0cf5aa046784c7a9d1b5ff2595f7204012bdeaaf49ccabeb7",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": null,
+      "source_revision": "ed75201a8e3b37913a14f4d949de33a7a0daa2c2",
+      "source_translation_key": "6db58cafff7cfe9f11556e892b54ec7a0015890307776806dd7acebca34a78c1",
+      "status": "ready",
+      "subtitle": "WASPADALAH, ORANG KRISTEN!",
+      "title": "Singa, Penyihir, dan Happy Meal:",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ind/articles/a5dc3764-e799-4138-82f0-87b245a77db8.html",
       "html_sha256": "556f3013ad23ed77dc80738862c8772466b0b0934d40ac35792095aa0b0afd64",
       "human_reviewed": false,
@@ -77807,6 +77847,62 @@
       "subtitle": null,
       "title": "Fumbo la Ndoa",
       "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/swa/articles/0c677d9e-ce73-4b27-a03f-d5457f7f1072.html",
+      "html_sha256": "711ae8d67a0c131762344124aa8c2cd9cf4f51e36a1b46761ad8a8563349c329",
+      "human_reviewed": false,
+      "id": "0c677d9e-ce73-4b27-a03f-d5457f7f1072",
+      "images": [
+        {
+          "alt": "Mtu akinyoosha mkono kupitia nondo za gereza juu ya maneno ‘TUKOMBOENI kutoka UTUMWANI’",
+          "public_path": "/images/articles/0c677d9e-ce73-4b27-a03f-d5457f7f1072-1.jpg"
+        },
+        {
+          "alt": "Mfungwa nyuma ya nondo akiwa na malaika kando yake",
+          "public_path": "/images/articles/0c677d9e-ce73-4b27-a03f-d5457f7f1072-2.jpg"
+        },
+        {
+          "alt": "Wanawake na watoto wamekusanyika katika chumba kitupu",
+          "public_path": "/images/articles/0c677d9e-ce73-4b27-a03f-d5457f7f1072-3.jpg"
+        },
+        {
+          "alt": "Mlinzi akipita mbele ya wafungwa waliovaa mavazi yenye mistari",
+          "public_path": "/images/articles/0c677d9e-ce73-4b27-a03f-d5457f7f1072-4.jpg"
+        },
+        {
+          "alt": "Msururu mrefu wa wafungwa wamesimama nje ya jengo",
+          "public_path": "/images/articles/0c677d9e-ce73-4b27-a03f-d5457f7f1072-5.jpg"
+        },
+        {
+          "alt": "Watu wametawanyika katika uwanja wa jiji",
+          "public_path": "/images/articles/0c677d9e-ce73-4b27-a03f-d5457f7f1072-6.jpg"
+        },
+        {
+          "alt": "Mwanamke anawasomea watu walioketi ndani ya seli ya gereza",
+          "public_path": "/images/articles/0c677d9e-ce73-4b27-a03f-d5457f7f1072-7.jpg"
+        },
+        {
+          "alt": "Mchoro uliochongwa wa chupa iliyolala ubavuni",
+          "public_path": "/images/articles/0c677d9e-ce73-4b27-a03f-d5457f7f1072-8.jpg"
+        }
+      ],
+      "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
+      "language": "swa",
+      "language_tag": "sw",
+      "metadata": "content/swa/articles/0c677d9e-ce73-4b27-a03f-d5457f7f1072.json",
+      "metadata_sha256": "b25a12307e34110cf289bcfca3e6420ca19eda77334a8f55ce342bd2129beac0",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": null,
+      "source_revision": "ed75201a8e3b37913a14f4d949de33a7a0daa2c2",
+      "source_translation_key": "385aeb5b4a7bcbf512c0d5b8310c2fd8f5f85b86d43d077caf80670ee93c6738",
+      "status": "ready",
+      "subtitle": "Malaika wa Magereza",
+      "title": "Mathilde Wrede",
+      "translation_model": "gpt-6.1-sol"
     },
     {
       "ai_notice_required": true,
