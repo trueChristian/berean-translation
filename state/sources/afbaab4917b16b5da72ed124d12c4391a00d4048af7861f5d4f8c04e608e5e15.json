@@ -1,0 +1,58 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "E. Hamilton",
+          "role": "Rev."
+        }
+      ],
+      "raw": "~Rev. E. Hamilton"
+    },
+    "categories": {
+      "additional": [],
+      "primary": "14ce3df8-6bae-5930-b2c4-2ab582ee1ea1"
+    },
+    "id": "1574be6e-308c-44a6-9d0e-63e8c7a7e5fb",
+    "images": [
+      {
+        "alt": "Flames and smoke rising from a burning house.",
+        "caption": null,
+        "credit": null,
+        "public_path": "/images/articles/1574be6e-308c-44a6-9d0e-63e8c7a7e5fb-1.jpg",
+        "repository_path": "public/images/articles/1574be6e-308c-44a6-9d0e-63e8c7a7e5fb-1.jpg",
+        "rights_note": "PDF base image object 147; source 503×397 pixels. Published rectangular clipping reproduced by native-pixel crop (0, 1, 502, 396); no rotation or flip. Encoded as baseline RGB/sRGB JPEG with nonzero 72 dpi density; source DeviceGray/CalRGB data required no CMYK inversion. Separately painted poem text, byline, typographic shadow, rectangular frame and surrounding green gradient cover-layout pieces omitted; clean CalRGB base exported. No individual image credit or license is printed; no license is inferred. The issue masthead credits artists Lisa Weaver and Kate Rutler generally without assigning individual works.",
+        "role": "photograph",
+        "sequence": 1,
+        "source_page": 36
+      }
+    ],
+    "issue_id": "472c9f50-2e8f-460e-8a99-0b7e48a24ab8",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 15,
+    "series": null,
+    "source_pages": {
+      "end": 36,
+      "start": 36
+    },
+    "subtitle": null,
+    "title": "Afraid Of What?",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "bee816a3a503e582dd9daac7e7957f1513029989d147ae28ee4213c40f000088",
+    "metadata_sha256": "e18f52a71b3c06b601db53157e1903b7cefe3efc8f0b7d3981b707488f73d35b",
+    "structure_sha256": "92ad1e905327b415dd7ac589b28dd4be4692189dfdbda270dae06f29f78f7341",
+    "text_sha256": "6a039c733a11db7980e804aed3e97305751545e082954ac240f01c49d3e41c0b",
+    "translation_metadata_sha256": "7e3c54a6d47fe1e18fedc4bd259699e8184a693e17f71cc07c13637b2eefd14c"
+  },
+  "html": "<article data-article-id=\"1574be6e-308c-44a6-9d0e-63e8c7a7e5fb\">\n  <figure>\n    <img src=\"/images/articles/1574be6e-308c-44a6-9d0e-63e8c7a7e5fb-1.jpg\" alt=\"Flames and smoke rising from a burning house.\">\n  </figure>\n  <p class=\"poem\">Afraid Of What?<br>To feel the spirit's glad release<br>To pass from pain to perfect peace<br>The strife and strain of life to cease<br>Afraid Of That?</p>\n  <p class=\"poem\">Afraid Of What?<br>Afraid to see the Savior's face<br>To hear His welcome, and to trace<br>The glory gleam from wounds of grace<br>Afraid Of That?</p>\n  <p class=\"poem\">Afraid Of What?<br>A flash, a crash, a pierced heart<br>Darkness, light, O Heaven s art<br>A wound of His, a counterpart<br>Afraid Of That?</p>\n  <p class=\"poem\">Afraid Of What?<br>To do by death what life could not<br>Baptize with blood a stony plot<br>Till souls shall blossom from the spot<br>Afraid Of That?</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
+  "translation_key": "28f9fff6cd013c09042fac01234c5791d376a88d5842525f98f672c235103519"
+}

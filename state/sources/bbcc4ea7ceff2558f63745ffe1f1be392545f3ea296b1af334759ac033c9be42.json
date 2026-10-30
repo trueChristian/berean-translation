@@ -1,0 +1,51 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Matthew Kauffman"
+        }
+      ],
+      "raw": "Poem by Matthew Kauffman"
+    },
+    "categories": {
+      "additional": [
+        "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+      ],
+      "primary": "14ce3df8-6bae-5930-b2c4-2ab582ee1ea1"
+    },
+    "id": "bddf62b1-cf16-40ec-b5e9-6bd42a5127b7",
+    "images": [],
+    "issue_id": "80908504-b3e7-43ef-9dde-1ac6cf22a040",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 14,
+    "series": null,
+    "source_pages": {
+      "end": 36,
+      "start": 36
+    },
+    "subtitle": null,
+    "title": "...Ready for either or both!",
+    "topics": [
+      "8feb4eca-5b0b-512b-8ef0-a76783fdb626",
+      "1a6d8df1-7179-53c8-969e-274ba40d4d4f",
+      "be523b84-148a-5633-9947-03c7c310d50a"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "29b3ab96cd7bb27200834030c5aa21519dbae561f9cdf7c563b12397b51430b7",
+    "metadata_sha256": "e98a8550bfe9f0cac9121b3377761e3faf1e06fa314733a0ac1a5ee9e85b92c1",
+    "structure_sha256": "5ea8f8511af4d54d4ad88db1622ddbc83d46ba74b0d76c6689986ed827c91cef",
+    "text_sha256": "c62cb4356368bf1fc6415221aadfc5619be21af9fba7a631f67e225cc5ee2a95",
+    "translation_metadata_sha256": "412f8a05df82996180da0ff3acf543b88ef7ad9fd4e14e46da59227950ef1e41"
+  },
+  "html": "<article data-article-id=\"bddf62b1-cf16-40ec-b5e9-6bd42a5127b7\">\n  <p class=\"poem\">My life was always full of ease,<br>\n  I ate and slept in summer’s breeze.<br>\n  My parents, too, and other kin<br>\n  Have healthy, full, e’en sated been.</p>\n\n  <p class=\"poem\">Our only purpose we have known<br>\n  To find more grass; we’re ne’er alone,<br>\n  We live in welcome company<br>\n  Of all our friends and family.</p>\n\n  <p class=\"poem\">When enemies or pests accost<br>\n  No time or energy is lost.<br>\n  We huddle round or side by side<br>\n  Defense for all the group provides.</p>\n\n  <p class=\"poem\">Such close companionship is sweet<br>\n  Our needs the streams and pastures meet.<br>\n  But lately I have heard the Call<br>\n  That’s constant, clear, and goes for all.</p>\n\n  <p class=\"poem\">Just yesterday I gazed awhile<br>\n  Across the fields for many miles<br>\n  The wide expanse lies fallow, bare.<br>\n  It’s barrenness yields only tares.</p>\n\n  <p class=\"poem\">And yon by Master’s tools, I see<br>\n  An instrument, it seems to me<br>\n  Whence all that sod would break and turn<br>\n  Potential fruits which now are spurned.</p>\n\n  <p class=\"poem\">The only lacking part, you see,<br>\n  Which is of dire necessity<br>\n  Is one or two to bear the yoke<br>\n  To pull that plow; it needs my folk.</p>\n\n  <p class=\"poem\">But wait! I see my Master kind;<br>\n  He’s gathering rocks. I see the signs<br>\n  Of something more I soon will learn<br>\n  Of service true for which He yearns.</p>\n\n  <p class=\"poem\">The rocks in order now He lays<br>\n  As tier by tier an altar’s raised.<br>\n  The wood he brings and all is set.<br>\n  An offering free is needed yet.</p>\n\n  <p class=\"poem\">And deep within myself I hear<br>\n  A witness quiet, first, but clear.<br>\n  It’s once again a task defined<br>\n  For one like me or of my kind.</p>\n\n  <p class=\"poem\">So as I contemplate, my sights<br>\n  Are widened in my Master’s light.<br>\n  I think I’ve started now to scan<br>\n  The greatness of His perfect plan.</p>\n\n  <p class=\"poem\">I yield myself, all Yours to use<br>\n  For labors long my life I’ll lose.<br>\n  Or may that altar be my place,<br>\n  Aromas round Your throne to raise?</p>\n\n  <p class=\"poem\">So if for work that bears much fruit,<br>\n  Or off’ring full Your purpose suits,<br>\n  My Lord, if life’s prime morn You’ll spend<br>\n  That altar’s still a welcome end.</p>\n\n  <p class=\"poem\">For now, dear Master, these lush fields<br>\n  No lasting satisfaction yield.<br>\n  How can I love perpetual ease,<br>\n  Till altars burn and fruits increase?</p>\n\n  <p class=\"poem\">So Lord, I give myself away,<br>\n  For either or for both, I pray.</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
+  "translation_key": "bb20efbea22327cfead013e0a4926ca9959d89abcb83dcb4c37aed0709f00041"
+}

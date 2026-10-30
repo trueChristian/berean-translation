@@ -1,0 +1,46 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "name": "Helen Mallicoa"
+        }
+      ],
+      "raw": "Helen Mallicoa"
+    },
+    "categories": {
+      "additional": [],
+      "primary": "14ce3df8-6bae-5930-b2c4-2ab582ee1ea1"
+    },
+    "id": "69583771-9cc5-4b3e-aff1-e6c5968f7f50",
+    "images": [],
+    "issue_id": "3fba45ba-eb36-49bf-9272-4767bc5087d3",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 15,
+    "series": null,
+    "source_pages": {
+      "end": 40,
+      "start": 40
+    },
+    "subtitle": null,
+    "title": "My Name is I AM",
+    "topics": [
+      "9538d8fb-7c90-57aa-b14d-af52754f5f6c"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "b0f2340e2d5a1fde45c8a030cb0e9ac5957b3dc8ebc440d36754716185e1626c",
+    "metadata_sha256": "347aae0e45dcfba23756ce9271cac5ba21f822cf9cda56effc7d10dac57d1710",
+    "structure_sha256": "f855204180cad1fa92eec2f72217af7aa129d37500815c306efded352749e549",
+    "text_sha256": "f83f031b1b2027a34887da0c5bd48551b8566313bc7f29852c2aa260393c2176",
+    "translation_metadata_sha256": "6acee3deb0c44628de6cf58a9cdc8d12b2c9e9e5668f3e79afc52a4bc70eca00"
+  },
+  "html": "<article data-article-id=\"69583771-9cc5-4b3e-aff1-e6c5968f7f50\">\n  <p class=\"poem\">When you live in the past,<br>with its mistakes and regrets,<br>it is hard. I am not there.<br>My name is not I Was.</p>\n  <p class=\"poem\">When you live in the future,<br>with its problems and fears,<br>it is hard. I am not there.<br>My name is not I Will Be.</p>\n  <p class=\"poem\">When you live in this moment,<br>it is not hard. I am here.<br><strong>My name is I AM.</strong></p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
+  "translation_key": "b9d9c4f4977a854ccd61476a511c301126272ecebd4d70c7dddd481072e9e623"
+}

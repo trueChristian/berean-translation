@@ -1,0 +1,45 @@
+{
+  "article": {
+    "byline": {
+      "authors": [],
+      "raw": null
+    },
+    "categories": {
+      "additional": [
+        "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+      ],
+      "primary": "14ce3df8-6bae-5930-b2c4-2ab582ee1ea1"
+    },
+    "id": "70fb6a6f-c616-4a62-a8f6-8f83aea38532",
+    "images": [],
+    "issue_id": "6be9e912-0842-493f-9d12-58011322de0d",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 15,
+    "series": null,
+    "source_pages": {
+      "end": 36,
+      "start": 36
+    },
+    "subtitle": null,
+    "title": "The Kitchen Sink",
+    "topics": [
+      "2d0907d9-f4ce-5ab1-9ff4-8795d1bfaf9e",
+      "75952f7e-5123-5cb9-8a6f-bcb75336e69f"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "7c03aa0ba459ab73231ca2897c0a7ea9da5a826f78541f1dca894886d470ac1e",
+    "metadata_sha256": "3cd917fd4464ce7e2806423c618ef121af81106cb113eb03c89c848159ba2c17",
+    "structure_sha256": "eadf7e83afdbd8b85fa4474e6cef91c80f8e9fd391f00ec4554e937da4bf40cf",
+    "text_sha256": "77258e85fe900d4f0017039e4b4115c24bd568e7ea06f5df62f039768e0b537b",
+    "translation_metadata_sha256": "5b6dabef20616b3917d8deab67d9f870761bc1eb3ac1349e9d4d3b746e124873"
+  },
+  "html": "<article data-article-id=\"70fb6a6f-c616-4a62-a8f6-8f83aea38532\">\n  <p class=\"poem\"><strong>Perhaps you’re at a steaming sink,<br>\n  A wall before your eyes;<br>\n  But sister, you can leap that wall,<br>\n  Escape the kitchen sighs.<br>\n  You’re washing pots and pans my dear,<br>\n  But think of it this way,<br>\n  Each piece to represent a soul,<br>\n  For whom you weep and pray.</strong></p>\n  <p class=\"poem\"><strong>Then as you plunge those dishes in,<br>\n  They’re souls you dearly love,<br>\n  Committed to the cleansing Blood,<br>\n  The stains of sin remove.<br>\n  Oh sister, give each dish a name,<br>\n  And make your washing up,<br>\n  A time of intercessory prayer;<br>\n  Revive believing hope.</strong></p>\n  <p class=\"poem\"><strong>You’ve laid unnumbered dishes down,<br>\n  But in your heart you know,<br>\n  You’ve laid unnumbered burdens down<br>\n  Where healing waters flow.<br>\n  Thus from that steaming kitchen sink.<br>\n  Upon the wings of prayer,<br>\n  You rise beyond confining walls,<br>\n  An angel unaware.</strong></p>\n  <p>From “Farm House Cooking”<br>\n  Kountry Korner Varity Store</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
+  "translation_key": "b97044ba482cc96a307b680c94adde577a3a0de220587b982376753d6b9c7ccc"
+}

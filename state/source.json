@@ -5592,9 +5592,9 @@
     },
     "59f45028-8586-43ca-a3a4-a025cb2ec4b1": {
       "fingerprints": {
-        "html_sha256": "9f268beef7b7254440b23990d0c61aa00aef043b1bbbb4612c669471d84f644c",
-        "metadata_sha256": "e3b46c7898bcf1a08d5575039a4bdbe37453a4c81b88d2962e16a0a2ed01f9fe",
-        "structure_sha256": "5ca1ded4716b4720ed0fa09cdb93046409d4fdd1c10ac25b9cf488827ab7f232",
+        "html_sha256": "b4ef19268893922849c7c41e123741882022272ff459b6b4261ddb80b722d42d",
+        "metadata_sha256": "60bef5833d2b823984f36d00a8965c1b1af7be44af54a1a8b8d73dca137c4eb4",
+        "structure_sha256": "5d7bd65549895c7a6a1a3a83f6729cd3584fde0cb6f010b4ec34ec9f0f5a7cc1",
         "text_sha256": "f1b024819656c3bd5d76a8c671635009a547478a4678c582bbb1cb44c59e2299",
         "translation_metadata_sha256": "558c9c81c857e6d015c6b852c48b57476f0f47b0f1d50abfa9795bada23d6b64"
       },
@@ -5602,7 +5602,7 @@
       "issue_id": "163bdfd6-5586-4f17-9423-c824e92ab992",
       "sequence": 12,
       "title": "Confess Your Faults",
-      "translation_key": "de6262c86618efafc568f149b52825ccd7f61d32e952b5672917bc171bc9fd02"
+      "translation_key": "45ebda856a8d52f83e023de7d25ad578ada8cdf810ce044656ac362f770f4c57"
     },
     "5a09fdc4-fb9e-4bdb-9501-bd4d5dfb1b5e": {
       "fingerprints": {
@@ -8224,9 +8224,9 @@
     },
     "7ff9c09f-fa5d-4bd3-a4f5-d3ef1daeff71": {
       "fingerprints": {
-        "html_sha256": "7724b7f275042ac62ccd0b65571aaff298fe92a002bf60b2be9043d3c24dbc95",
+        "html_sha256": "1400623dcbb08c6694bdf62c9f521447f7c7ef08c6d40f54edbd85cddcaacb25",
         "metadata_sha256": "f9c794ac7d993ea0a76c5c31316ea04ebbc7e847053916c92c51efb6bacaee4b",
-        "structure_sha256": "a92321212171a5d00397f95d04df9a32f6f40272e26ffa4944f859319f6c3a57",
+        "structure_sha256": "74f5c6ad7ba0e45292cb686c16a7b81685e2d6146b4f0c6d9efe70947620dc47",
         "text_sha256": "71f484e490ad4fcd68d4eeb866c852c3773072ba2b5101bdb3670032bafbbc3f",
         "translation_metadata_sha256": "9dc874f5f7608df2888a4676e219c9df532fa7d6a487cf04cb6e1939b3d470c1"
       },
@@ -8234,7 +8234,7 @@
       "issue_id": "52c67fc6-2d91-51a3-ae55-c8134ad2ed53",
       "sequence": 13,
       "title": "What Does Simple Living Have to Do with Christianity?",
-      "translation_key": "d6c756bc58a6765294b9c6889dbdb2b27dffafbeb8a19d938011ba25c222694f"
+      "translation_key": "1e734ed4d4f000526c641ad932d3926ec9251189d5ce6def829f9b6bb6a85122"
     },
     "8072bb08-e7aa-4602-a3c6-f82161b740ae": {
       "fingerprints": {
@@ -16343,7 +16343,7 @@
       "translation_key": "9ea9ca2e6ca2535eb81fffe7e7a9d7a7b70294c3f61cd7aa67870a24643f38b1"
     }
   },
-  "content_sha256": "3e146de93e79134e12d0b114a89808db8b91cb63a4a884ba7ade4de135a1e858",
+  "content_sha256": "faac7299755c84ded9b476dc4a5c80759c492680e7d80dfea1241f888c647d1f",
   "fingerprint_origin": "translation-runtime",
   "format_version": "1.0",
   "issues": [
@@ -17759,7 +17759,7 @@
     }
   ],
   "repository": "trueChristian/berean-voice",
-  "revision": "d7db93643dbfa1586791aaa8031cabeca5b771f0",
+  "revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
   "source_errors": {
     "27d98489-2986-4710-bc1e-590b9ad02133": {
       "article_id": "27d98489-2986-4710-bc1e-590b9ad02133",

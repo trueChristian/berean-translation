@@ -1,0 +1,46 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Amy Carmichael",
+          "role": null
+        }
+      ],
+      "raw": "Amy Carmichael"
+    },
+    "categories": {
+      "additional": [],
+      "primary": "14ce3df8-6bae-5930-b2c4-2ab582ee1ea1"
+    },
+    "id": "663da224-39d7-4c13-8154-e155dc2aaffc",
+    "images": [],
+    "issue_id": "535e096a-7dbd-4c94-9d0b-76b121c8bed1",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 11,
+    "series": null,
+    "source_pages": {
+      "end": 36,
+      "start": 36
+    },
+    "subtitle": null,
+    "title": null,
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "32639b65d281362faca751ef57fcef7bf9a2b64f72e10fa9b0719b96a6e7e16e",
+    "metadata_sha256": "bd20f4fac58bf9874d4c111658d7cdf6fad7e6fcb7edf4edf248bac4eb8624f2",
+    "structure_sha256": "6f3e7387d7bc07d44a25f15d161d55e531eb52496cd977d75c60eb67a4c5449b",
+    "text_sha256": "acb21994617b7325c7ac4233cad05821616fe979cfd01e379ff055bda7688bfe",
+    "translation_metadata_sha256": "1157b82ceaa22236932968eb90e245893115715ab7d84cba3a571af4fdff04d1"
+  },
+  "html": "<article data-article-id=\"663da224-39d7-4c13-8154-e155dc2aaffc\">\n  <p class=\"poem\"><strong>Hast thou no scar?<br>No hidden scar on foot, or side, or hand?<br>I hear thee sung as mighty in the land,<br>I hear them hail thy bright ascendant star:<br>Hast thou no scar?</strong></p>\n  <p class=\"poem\"><strong>Hast thou no wound?<br>Yet, I was wounded by the archers, spent.<br>Leaned me against the tree to die, and rent<br>By ravening beasts that compassed me, I swooned:<br>Hast thou no wound?</strong></p>\n  <p class=\"poem\"><strong>No wound? No scar?<br>Yes, as the master shall the servant be,<br>And pierced are the feet that follow Me;<br>But thine are whole. Can he have followed far<br>Who has no wound? No scar?</strong></p>\n  <p><strong>Amy Carmichael</strong></p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
+  "translation_key": "990677cb46b222df5c2f02e0e9199049ddb8fc6bbcb6411f82d1b6ad0fc317e1"
+}

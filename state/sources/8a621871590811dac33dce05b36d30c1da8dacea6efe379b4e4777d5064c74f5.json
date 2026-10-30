@@ -1,0 +1,46 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "The Editor",
+          "role": null
+        }
+      ],
+      "raw": "--The Editor"
+    },
+    "categories": {
+      "additional": [],
+      "primary": "9e94ac9c-a808-540e-9c71-be0d8731d5a1"
+    },
+    "id": "8cd05d73-b3a2-441a-accd-324c65df28e4",
+    "images": [],
+    "issue_id": "b432e14b-b55d-44f5-8c1a-d23d6bbaead6",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 4,
+    "series": null,
+    "source_pages": {
+      "end": 13,
+      "start": 13
+    },
+    "subtitle": null,
+    "title": "From the Editor’s Desk",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "acdfde80deb27e8fdfc3be831d807114aab74466329ee13ac5d1e62a058624e9",
+    "metadata_sha256": "4bb5d069f1cffa45c0811131b1c7d2d6fbdedffb9eff929082e2ed1492595d36",
+    "structure_sha256": "9e7eeba83b658e084ce6aa5336e1bba187d2e5a068ccd07e959790293515bd64",
+    "text_sha256": "24af32649e899787caed86e2433974ea95f1c6ab3aedab46080b90b6e8ed5677",
+    "translation_metadata_sha256": "1202655f537f9bda466f6be17e65c41dffcb2da2666cb138d42c823a40b0c943"
+  },
+  "html": "<article data-article-id=\"8cd05d73-b3a2-441a-accd-324c65df28e4\">\n  <p class=\"drop-cap\">Welcome to <em>The Remnant</em> with a new heart. It has been a very busy two months that looked like a long time when we started. As I said in my little introduction, I don’t know what I am doing, and I had no idea how long it takes to put one of these magazines together. It has been a challenging and enjoyable two months, and I have been thoroughly inspired by the new task. We have added two brothers to the editorial staff, who have consented to join me as we learn what producing a magazine is all about. These two men are Andrew Weaver from Bedford, PA, and Duane Binkley from the congregation here at Charity Christian Fellowship. Eric Wenger, also from the congregation here, has agreed to spend the many hours involved in the layout of the magazine, so we are beginning to see some semblance of order.</p>\n  <p>Let me say a bit about the content of the magazine. I know as I write these words that we still have a long way to go. Our guiding principle throughout this publication has been, let every article, every thought, and every picture be effective. Everything must say something that inspires, challenges, and changes lives. We have endeavored to do this, but we are still learning. Our desire is that as you look through <em>The Remnant</em> and read in it, you will be caused to stop for a few moments and ponder what you have read, and then move on to other parts of the whole. May I encourage you to slow down and read reflectively. We have designed it to be read in this way. Even the pictures have been selected with much care, as a picture is worth a thousand words. We would love to hear from you. If you know of someone who would appreciate this kind of material, please send us their name and address or just pass this on when you are finished reading it. Just a reminder to all, <em>The Remnant</em> magazine is a faith endeavor. We are thankful for all who help in this ministry of the printed page.</p>\n  <p><em>--The Editor</em></p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
+  "translation_key": "608690101a8b2435bd489ebf0f2fbf1a23d8e3407e7b32547c4cab4c1fbe4aa7"
+}

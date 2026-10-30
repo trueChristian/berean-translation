@@ -1,0 +1,50 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": "Dublin, GA",
+          "name": "Carolyn Yoder"
+        }
+      ],
+      "raw": "by Carolyn Yoder\nDublin, GA"
+    },
+    "categories": {
+      "additional": [
+        "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+      ],
+      "primary": "14ce3df8-6bae-5930-b2c4-2ab582ee1ea1"
+    },
+    "id": "b08acac9-e6df-41ae-a564-afd9d9e9592a",
+    "images": [],
+    "issue_id": "6be9e912-0842-493f-9d12-58011322de0d",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 6,
+    "series": null,
+    "source_pages": {
+      "end": 19,
+      "start": 19
+    },
+    "subtitle": null,
+    "title": "ALL THE WAY",
+    "topics": [
+      "be523b84-148a-5633-9947-03c7c310d50a",
+      "8ada4a0d-a538-532f-a615-13434b3cd997"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "84b6917656618c33f1c1197fd85e0c701fa73159493625924f74de4dcdd1b5fd",
+    "metadata_sha256": "842c6e91396b3b3011b134cf3c56c6335796be75a943f6fe46dff90ccdfc735a",
+    "structure_sha256": "6b984dca0501867762cd00a08240fa5a9687b0dedd359b3c552dbc311560bb44",
+    "text_sha256": "9ab98c142d482da5bcc10b0ab87af81b03dc3f0f568f99482242a14fc416d5ec",
+    "translation_metadata_sha256": "0a906416286451430864a6f469fee2405b085860825191477c2d3bd33fce4c8b"
+  },
+  "html": "<article data-article-id=\"b08acac9-e6df-41ae-a564-afd9d9e9592a\">\n  <p class=\"poem\"><strong>Jesus, I’ll follow You all the way,<br />\nMy heart so merrily and blithely did say.<br />\nAnything, Lord, I’m willing to take,<br />\nFor the honor and glory of Your Name’s sake.<br />\nAnd He asked, “All the way?”</strong></p>\n  <p class=\"poem\"><strong>Spirit of God, fill me up to the brim,<br />\nEmpty me totally of sin, dark and grim,<br />\nClean up my life and let me reflect<br />\nYour Spirit of Love; don’t let me neglect.<br />\nAnd He asked, “Fill to the brim?”</strong></p>\n  <p class=\"poem\"><strong>Holy Father, make me truly like You<br />\nHoly in spirit, words, and deeds too,<br />\nLet me live daily Your praises to sing<br />\nAnd all my life exalt my blessed King.<br />\nAnd He asked, “Truly like Me?”</strong></p>\n  <p class=\"poem\"><strong>“My child,” He replied to my questioning glance,<br />\n“Your life will be sweeter and greatly enhance<br />\nBy yielding to me when the storm winds arise<br />\nAnd clouds at midday darken the skies.”</strong></p>\n  <p class=\"poem\"><strong>“True strength is measured by the test of the storm,<br />\nFor, lo, any tree can stand in the norm.<br />\nIf it’s still your desire to sell out for Me,<br />\nI’ll lovingly guide you o’er life’s raging sea.</strong></p>\n  <p class=\"poem\"><strong>“In the mountain tops, you will hear the bird’s song,<br />\nIn the valley below—I’ll be your song,<br />\nIn the thick and the thin, I’ll be by your side,<br />\nIf in my presence you choose to abide.</strong></p>\n  <p class=\"poem\"><strong>“When the going gets rough, and the valley so long,<br />\nDon’t throw up your hands, but break forth in song.<br />\nMy grace is sufficient to carry you through,<br />\nJust trust me and rest—I know what to do.”<br />\nAnd I said, “Thank you, Lord.”</strong></p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
+  "translation_key": "1857e86366cdce892f4863d5fb9f3b1f469d3457f00c01b3647a31ebd6163cc5"
+}

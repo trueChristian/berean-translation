@@ -1,0 +1,72 @@
+{
+  "article": {
+    "byline": {
+      "authors": [],
+      "raw": null
+    },
+    "categories": {
+      "additional": [
+        "ef4f5581-8e5a-5cf6-933e-ac68e8b55839"
+      ],
+      "primary": "58468dbc-a7ad-56bc-aa5f-12bdbbed4e61"
+    },
+    "id": "cb2f1499-9006-46bb-8a54-9dcfc572c832",
+    "images": [
+      {
+        "alt": "Cover of The Pursuit of Godly Seed by Denny Kenaston.",
+        "caption": null,
+        "credit": null,
+        "height": 321,
+        "public_path": "/images/articles/cb2f1499-9006-46bb-8a54-9dcfc572c832-1.jpg",
+        "repository_path": "public/images/articles/cb2f1499-9006-46bb-8a54-9dcfc572c832-1.jpg",
+        "rights_note": "No image-creator credit or separate licence is printed. Clean embedded book-cover object 121 (221 × 321, RGB) extracted at native dimensions and upright orientation. Its book title, author name, photograph and oval frame are intrinsic to the displayed cover and retained. Separate page background/frame object 120, surrounding promotional typography and price panels, and separately painted placement border are omitted. The original JPEG had a trailing newline after its end-of-image marker; normalized to baseline sRGB JPEG with nonzero 72-dpi density, preserving source content, dimensions and orientation. No CMYK inversion or synthesized pixels.",
+        "role": "book cover",
+        "sequence": 1,
+        "source_page": 35,
+        "source_pdf_object": 121,
+        "verification": {
+          "browser_render": "Verified in Chromium at native resolution; complete image.decode() succeeded and rendered gallery visually matched the source and final files.",
+          "bytes": 27902,
+          "dimensions": [
+            221,
+            321
+          ],
+          "encoded_colour": "sRGB 221x321",
+          "imagemagick_complete_raster_decode": "passed without warnings",
+          "pillow_complete_raster_load": "passed",
+          "visual_against_pdf": "verified"
+        },
+        "width": 221
+      }
+    ],
+    "issue_id": "65297f9a-52a1-46e4-8cab-58218234c8f1",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 11,
+    "series": null,
+    "source_pages": {
+      "end": 35,
+      "start": 35
+    },
+    "subtitle": null,
+    "title": "An inspiring manual filled with old-fashioned Bible principles of child training and home life “that work.”",
+    "topics": [
+      "b834013d-7b5e-59cd-9cf6-3cedee692313",
+      "76b8f216-8c11-5378-90f6-37fe3f41d329"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "c8db9415a3b0be81e62b497d62fea9512dd566ff369d0cf8636c7d8e7ee7c1a6",
+    "metadata_sha256": "f770ced5518c974ba9dfd5451258e9d234631de7188948355e1e8866168c2798",
+    "structure_sha256": "7ed234aa8f4da148441d0a3b0007a9a80356cec375cc91654980ba3b0b5b0b3b",
+    "text_sha256": "bb11e8960199ca82102b4cd8854901f2113091e878522a772aff87be853d086c",
+    "translation_metadata_sha256": "ff868a21736237842a7b9a4d4232d3b497f13eac2b7fa8a46c45e8103b2b2eb2"
+  },
+  "html": "<article data-article-id=\"cb2f1499-9006-46bb-8a54-9dcfc572c832\">\n  <figure>\n    <img src=\"/images/articles/cb2f1499-9006-46bb-8a54-9dcfc572c832-1.jpg\" alt=\"Cover of The Pursuit of Godly Seed by Denny Kenaston.\">\n  </figure>\n  <p class=\"drop-cap\">This book, by <strong>Denny Kenaston</strong>, contains a wealth of instruction for your home. It is an A to Z child training manual with clear answers for many a puzzled parent. It is “radical,” you may never be the same. It is “inspirational,” your heart will flame with renewed vision. It is “practical,” you will be carefully guided in how to make it all happen. Brother Denny says, “Children who grow up in an atmosphere of revival, with parents who love the Lord extravagantly and obey His word joyfully, will be a mighty influence upon this earth. This is a promise. Generations of godly children come from this kind of home.” With a clear prophetic voice, Brother Denny calls the reader back to the old paths that work.</p>\n  <ul>\n    <li>Learn how to restore wounded relationships with your children.</li>\n    <li>Learn how to spank your child in such a way that he will thank you for loving him.</li>\n    <li>Find key answers to deal with a strong willed child.</li>\n    <li>Bring your home from chaos to a place of peace and rest; God’s Word has answers.</li>\n    <li>Learn the most powerful secrets of bringing children to a state of joyful obedience.</li>\n    <li>Fathers, you are a teacher. Find out how to make teaching a reality in your home.</li>\n    <li>Learn about three mysterious influences that will affect your children for eternity.</li>\n  </ul>\n  <table>\n    <tbody>\n      <tr><td>Hard Cover (long life binding)</td><td>ISBN 0-9742751-1-5</td><td><strong>$21.95</strong></td></tr>\n      <tr><td>Soft Cover</td><td>ISBN 0-9742751-0-7</td><td><strong>$17.95</strong></td></tr>\n    </tbody>\n  </table>\n  <p><strong><u>Ministry Only</u> discounts in half case lots</strong></p>\n  <p>Soft Cover - 16 per half case, $13.00 ea.<br>\nHard Cover - 14 per half case, $17.00 ea.</p>\n  <p><strong>Shipping and Handling - $14.00 for each case</strong></p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
+  "translation_key": "2f5c7e647a5fef836d432b6435f69fe9e5cac3d71fc20fc197315cfaf29aec22"
+}
