@@ -1,0 +1,98 @@
+{
+  "findings": [
+    {
+      "location": "html, अनुच्छेद 3",
+      "severity": "major",
+      "source_quote": "After his graduation he became entirely dependent on others",
+      "suggested_fix": "“अपनी सफलता के बाद” के स्थान पर “स्नातक होने के बाद” लिखें।",
+      "translation_quote": "अपनी सफलता के बाद वे पूरी तरह दूसरों पर निर्भर हो गए"
+    },
+    {
+      "location": "html, अनुच्छेद 4",
+      "severity": "major",
+      "source_quote": "he was chosen minister of the Church of Scotland in the seaport summer resort of Innellan",
+      "suggested_fix": "इस वाक्य को करें: “शीघ्र ही उन्हें समुद्रतटीय ग्रीष्मकालीन पर्यटन स्थल इननेलन में चर्च ऑफ स्कॉटलैंड का पादरी चुना गया।”",
+      "translation_quote": "उन्हें इननेलन के समुद्री छुट्टी रिसॉर्ट के चर्च का मंत्री चुना गया"
+    },
+    {
+      "location": "html, अनुच्छेद 5, आरंभ",
+      "severity": "major",
+      "source_quote": "Whenever he preached, the open Bible was before him as he stood in the pulpit",
+      "suggested_fix": "इस अंश को करें: “जब भी वे उपदेश देते थे, वे उपदेश-मंच पर खड़े होते थे और उनके सामने खुली बाइबल रखी रहती थी”।",
+      "translation_quote": "जब भी वे उपदेश देते थे, वे कीरस्थल-उपवन में खड़े होकर तथा उनके सामने खुला बाइबिल रहता था"
+    },
+    {
+      "location": "html, अनुच्छेद 5, स्मरण-शक्ति का वर्णन",
+      "severity": "major",
+      "source_quote": "if someone read one of his prepared sermons to him twice, or whatever else he wanted to memorize",
+      "suggested_fix": "“दो बार पढ़कर सुनाता” से पहले छूटा अंश जोड़ें: “यदि कोई व्यक्ति उनका कोई तैयार उपदेश, या कोई और सामग्री जिसे वे याद करना चाहते थे, उन्हें दो बार पढ़कर सुनाता”।",
+      "translation_quote": "यदि कोई व्यक्ति उनकी तैयार की हुई उपदेश-रचना को उन्हें दो बार पढ़कर सुनाता"
+    },
+    {
+      "location": "html, अनुच्छेद 7",
+      "severity": "major",
+      "source_quote": "when she learned of his impending total blindness",
+      "suggested_fix": "इस अंश को करें: “जब उसे पता चला कि वे जल्द ही पूरी तरह दृष्टिहीन हो जाएँगे”।",
+      "translation_quote": "क्योंकि उसने उनकी शीघ्र आपकृष्ट अंधता के बारे में जाना"
+    },
+    {
+      "location": "html, अनुच्छेद 9, भीतर की आवाज़ संबंधी उद्धरण",
+      "severity": "major",
+      "source_quote": "I had the impression rather of having it dictated to me by some inward voice than of working it out myself",
+      "suggested_fix": "इस अंश को करें: “मुझे ऐसा अधिक लगा मानो भीतर की कोई आवाज़ मुझे इसे बोलकर लिखवा रही हो, न कि मैं स्वयं इसकी रचना कर रहा हूँ।”",
+      "translation_quote": "मुझे यह अधिक आभास हुआ कि किसी भीतर की आवाज़ ने मुझे यह कथित रूप से सुनाया है बजाय इसके कि मैंने इसे स्वयं क्रमबद्ध किया हो"
+    },
+    {
+      "location": "html, अनुच्छेद 9, संशोधन संबंधी उद्धरण",
+      "severity": "major",
+      "source_quote": "equally sure it never received at my hands any retouching or correction",
+      "suggested_fix": "इस अंश को करें: “और मुझे उतना ही विश्वास है कि मैंने इसमें कभी कोई परिष्कार या सुधार नहीं किया।”",
+      "translation_quote": "उतना ही विश्वास है कि मेरे हाथों द्वारा इसे किसी प्रकार की retouching या संशोधन कभी स्वीकार नहीं हुआ"
+    },
+    {
+      "location": "html, अंतिम अनुच्छेद",
+      "severity": "major",
+      "source_quote": "It could take the rest of one’s life to completely discover the personal significance of these four expressions.",
+      "suggested_fix": "वाक्य को करें: “इन चार अभिव्यक्तियों का अपने जीवन के लिए महत्व पूरी तरह समझने में किसी का शेष जीवन लग सकता है।”",
+      "translation_quote": "इन चार अभिव्यक्तियों के व्यक्तिगत महत्व की पूरी खोज करने में एक मानव जीवन शेष रह सकता है।"
+    },
+    {
+      "location": "html, संदर्भ शीर्षक और संदर्भ-सूची के भूमिका-सूचक शब्द",
+      "severity": "minor",
+      "source_quote": "References: / Author / Composer",
+      "suggested_fix": "शीर्षक में “References:” को “संदर्भ:” तथा सूची में “Author” को “लेखक” और “Composer” को “संगीतकार” करें। मौजूदा टैग, रिक्तियाँ, नाम और तिथियाँ यथावत रखें।",
+      "translation_quote": "References: / Author / Composer"
+    },
+    {
+      "location": "html, अनुच्छेद 2",
+      "severity": "minor",
+      "source_quote": "Born in Glasgow, Scotland, March 27, 1842 / moments of shadowy eyesight / This affliction of blindness",
+      "suggested_fix": "आरंभ को “जॉर्ज मैथेसन का जन्म 27 मार्च, 1842 को स्कॉटलैंड के ग्लासगो में हुआ था। बचपन में उनकी दृष्टि आंशिक ही थी” करें; “छायादी दृष्टि के क्षणों” को “कभी-कभी धुंधला दिखाई देने के क्षणों” और “यह अंधकार का संकट” को “दृष्टिहीनता का यह कष्ट” करें।",
+      "translation_quote": "जन्म ग्लासगो, स्कॉटलैंड में, 27 मार्च, 1842 को हुआ, जॉर्ज मैथेसन बचपन में ही केवल आंशिक दृष्टि रखते थे / छायादी दृष्टि के क्षणों / यह अंधकार का संकट"
+    },
+    {
+      "location": "html, अनुच्छेद 3",
+      "severity": "minor",
+      "source_quote": "He entered the university at the early age of 15 / spending four more years after graduation in more theological studies / his two sisters / One of them continued to be his faithful co-worker and helper throughout his life",
+      "suggested_fix": "संबंधित अंशों को “उन्होंने मात्र 15 वर्ष की आयु में विश्वविद्यालय में प्रवेश लिया”, “स्नातक होने के बाद धर्मशास्त्र के आगे के अध्ययन में चार और वर्ष बिताए”, “अपनी दो बहनों” और “उनमें से एक जीवन भर उनकी विश्वसनीय सहकर्मी और सहायक बनी रहीं” करें।",
+      "translation_quote": "वे मात्र 15 वर्ष की अल्पावस्थ में विश्वविद्यालय में प्रवेश किए / स्नातक होने के बाद चार और वर्ष और धार्मिक अध्ययनों में व्यतीत किए / अपने दो बहनों / उनमें से एक उनकी जीवन भर उनकी विश्वसनीय सहकर्मी और सहायक बनी रहीं"
+    },
+    {
+      "location": "html, अनुच्छेद 11",
+      "severity": "minor",
+      "source_quote": "the beloved Queen Margaret of Scotland",
+      "suggested_fix": "“प्रियम रानी” को “प्रिय रानी” करें।",
+      "translation_quote": "स्कॉटलैंड की प्रियम रानी मार्गरेट"
+    },
+    {
+      "location": "html, अंतिम अनुच्छेद, दूसरा वाक्य",
+      "severity": "minor",
+      "source_quote": "any believer whose life is totally surrendered to the will of God",
+      "suggested_fix": "इस अंश को करें: “ऐसे किसी भी विश्वासी के लिए जिसका जीवन पूरी तरह परमेश्वर की इच्छा के प्रति समर्पित है”।",
+      "translation_quote": "उन किसी भी विश्वासी के लिए ... जिसकी जीवन-समर्पण पूरी तरह परमेश्वर की इच्छा के अनुकूल है"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
