@@ -3657,6 +3657,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/afr/articles/ad4e2c15-f6ba-4b89-a519-1a36655aa93a.html",
+      "html_sha256": "fbbf2d822d1a49302c8a77214cf2b36c83771a21877e164a00ecedcffd7effa2",
+      "human_reviewed": false,
+      "id": "ad4e2c15-f6ba-4b89-a519-1a36655aa93a",
+      "images": [
+        {
+          "alt": "Jesus kniel in gebed tussen rotse",
+          "public_path": "/images/articles/ad4e2c15-f6ba-4b89-a519-1a36655aa93a-1.jpg"
+        }
+      ],
+      "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
+      "language": "afr",
+      "language_tag": "af",
+      "metadata": "content/afr/articles/ad4e2c15-f6ba-4b89-a519-1a36655aa93a.json",
+      "metadata_sha256": "b79645852703289fd6d39ef8275a912404d7d4ed0ef652d6e66b72aed376506e",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": null,
+      "source_revision": "ed75201a8e3b37913a14f4d949de33a7a0daa2c2",
+      "source_translation_key": "af0a2811aaad8facf9c0fb70e4f79fedbc83ae6bb333beb07b2d95c0bed6e2e6",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Formule vir ’n brandende hart",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/afr/articles/af526358-a4bb-44b9-aeec-2535f8ce9a29.html",
       "html_sha256": "48bc79c53ba442ce6dd76e63f612caf73b6865ae578cac183f118a5d477dca8c",
       "human_reviewed": false,
@@ -7844,6 +7872,34 @@
       "subtitle": null,
       "title": "كين وأنا",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
+      "html": "content/ara/articles/ad4e2c15-f6ba-4b89-a519-1a36655aa93a.html",
+      "html_sha256": "dafc8dfe8d03459e40e53d5b41b1d98ce975350fb15d7eb05f31121917f68bf3",
+      "human_reviewed": false,
+      "id": "ad4e2c15-f6ba-4b89-a519-1a36655aa93a",
+      "images": [
+        {
+          "alt": "يسوع راكعًا في الصلاة بين الصخور",
+          "public_path": "/images/articles/ad4e2c15-f6ba-4b89-a519-1a36655aa93a-1.jpg"
+        }
+      ],
+      "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
+      "language": "ara",
+      "language_tag": "ar",
+      "metadata": "content/ara/articles/ad4e2c15-f6ba-4b89-a519-1a36655aa93a.json",
+      "metadata_sha256": "a5431b8f092783f7354483b3816f795d4aa27ce6b18fcc7d5ab51a248e740bb7",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "ed75201a8e3b37913a14f4d949de33a7a0daa2c2",
+      "source_translation_key": "af0a2811aaad8facf9c0fb70e4f79fedbc83ae6bb333beb07b2d95c0bed6e2e6",
+      "status": "ready",
+      "subtitle": null,
+      "title": "وصفة لقلب متقد",
+      "translation_model": "gpt-6-luna"
     },
     {
       "ai_notice_required": true,
@@ -20200,6 +20256,34 @@
       "subtitle": "DIE JÜNGERSCHAFTSREIHE",
       "title": "Frauen des Glaubens",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/deu/articles/b40d86c2-0814-40ea-a893-20dd7fcbdadb.html",
+      "html_sha256": "ecb8cc769e81e24f074c853459ff8649959c574c1e9df1ce129d9c8310848633",
+      "human_reviewed": false,
+      "id": "b40d86c2-0814-40ea-a893-20dd7fcbdadb",
+      "images": [
+        {
+          "alt": "Bergsilhouetten und Vögel in der Dämmerung unter Epheser 6,11-12",
+          "public_path": "/images/articles/b40d86c2-0814-40ea-a893-20dd7fcbdadb-1.jpg"
+        }
+      ],
+      "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
+      "language": "deu",
+      "language_tag": "de",
+      "metadata": "content/deu/articles/b40d86c2-0814-40ea-a893-20dd7fcbdadb.json",
+      "metadata_sha256": "c7ec984dbd1aca9ccb8cd806f2219e5c95e37de26cde92209e525cd477cadfe2",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "Kirchengeschichte",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "c767adc49633e338375567a05addcb2f986e5c013a016c2592a1cd600a81bb50",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Helden",
+      "translation_model": "gpt-6.1-sol"
     },
     {
       "ai_notice_required": true,
@@ -41671,6 +41755,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ind/articles/b40d86c2-0814-40ea-a893-20dd7fcbdadb.html",
+      "html_sha256": "a09918b7afbe453801fca9006226c2b017022f8eba09113113adf631d5ad459b",
+      "human_reviewed": false,
+      "id": "b40d86c2-0814-40ea-a893-20dd7fcbdadb",
+      "images": [
+        {
+          "alt": "Siluet gunung dan burung pada senja hari di bawah Efesus 6:11-12",
+          "public_path": "/images/articles/b40d86c2-0814-40ea-a893-20dd7fcbdadb-1.jpg"
+        }
+      ],
+      "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
+      "language": "ind",
+      "language_tag": "id",
+      "metadata": "content/ind/articles/b40d86c2-0814-40ea-a893-20dd7fcbdadb.json",
+      "metadata_sha256": "e8b18dfe6f3a4364111c9b6107a004cde1573d8c3fc708808547cad11be2a3da",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "SEJARAH GEREJA",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "c767adc49633e338375567a05addcb2f986e5c013a016c2592a1cd600a81bb50",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Pahlawan",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ind/articles/b43320f3-e4e8-450b-865c-099ef704149c.html",
       "html_sha256": "030b16fd9c52b4c458a5d766e5afdcce3b1efd016b68565207d5bb8b103e30af",
       "human_reviewed": false,
@@ -55714,6 +55826,34 @@
       "subtitle": "DE DISCIPELSCHAP-SERIE",
       "title": "Vrouwen van geloof",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/nld/articles/b40d86c2-0814-40ea-a893-20dd7fcbdadb.html",
+      "html_sha256": "9243e6570d88a8f187eb24d2839975c16a977e1059f5cd57ca23757aceb3955c",
+      "human_reviewed": false,
+      "id": "b40d86c2-0814-40ea-a893-20dd7fcbdadb",
+      "images": [
+        {
+          "alt": "Bergsilhouetten en vogels bij schemering onder Efeziërs 6:11-12",
+          "public_path": "/images/articles/b40d86c2-0814-40ea-a893-20dd7fcbdadb-1.jpg"
+        }
+      ],
+      "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
+      "language": "nld",
+      "language_tag": "nl",
+      "metadata": "content/nld/articles/b40d86c2-0814-40ea-a893-20dd7fcbdadb.json",
+      "metadata_sha256": "89f3a38bfe831010702b617aed7becd40a40a83799fe5cb299f30429b92154d1",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "KERKGESCHIEDENIS",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "c767adc49633e338375567a05addcb2f986e5c013a016c2592a1cd600a81bb50",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Helden",
+      "translation_model": "gpt-6.1-sol"
     },
     {
       "ai_notice_required": true,
@@ -87505,6 +87645,34 @@
       "subtitle": "سلسلۂ شاگردی",
       "title": "ایمان کی خواتین",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
+      "html": "content/urd/articles/b40d86c2-0814-40ea-a893-20dd7fcbdadb.html",
+      "html_sha256": "294805d76ae5fb8f7968c1f68de93d184cb4855da213419957a16baaeaf16923",
+      "human_reviewed": false,
+      "id": "b40d86c2-0814-40ea-a893-20dd7fcbdadb",
+      "images": [
+        {
+          "alt": "افسیوں 6:11-12 کی عبارت کے نیچے شام کے دھندلکے میں پہاڑوں کے سائے اور پرندے",
+          "public_path": "/images/articles/b40d86c2-0814-40ea-a893-20dd7fcbdadb-1.jpg"
+        }
+      ],
+      "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
+      "language": "urd",
+      "language_tag": "ur",
+      "metadata": "content/urd/articles/b40d86c2-0814-40ea-a893-20dd7fcbdadb.json",
+      "metadata_sha256": "18dc796b7ae1e08d77a24323cfee9da1156cac6f0906306025f83d56571dfce8",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "کلیسائی تاریخ",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "c767adc49633e338375567a05addcb2f986e5c013a016c2592a1cd600a81bb50",
+      "status": "ready",
+      "subtitle": null,
+      "title": "ہیرو",
+      "translation_model": "gpt-6.1-sol"
     },
     {
       "ai_notice_required": true,
