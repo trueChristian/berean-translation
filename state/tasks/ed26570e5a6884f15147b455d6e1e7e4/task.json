@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "23ad568d91a647da80cea8f9c73643e4",
   "campaign": "auto-27532597d755094a96e32bac8b220d30ef94cb3be731a49e82975c551e2e112d",
   "created_at": "2026-10-29T23:02:37+00:00",
   "events": [
@@ -48,74 +47,31 @@
         },
         "total_tokens": 14235
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 65,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 33,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8775,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 7672,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 8840
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "html, paragraphs 4–5, winnowing imagery",
-      "severity": "major",
-      "source_quote": "Whose fan is in his hand ... like a winnowing breeze",
-      "suggested_fix": "Vervang “dorswa” met “wan” en “dorswa-breeze” met “wind wat die kaf wegwaai”. Vervang ook “onsblusbare” met “onblusbare”.",
-      "translation_quote": "Hy het sy dorswa in sy hand ... soos ’n dorswa-breeze ... onsblusbare vuur"
-    },
-    {
-      "location": "html, paragraph 5",
-      "severity": "major",
-      "source_quote": "Those who rejected Him were blown away and disappeared from the narrative. Those who loved Him were set forth as the chosen ones",
-      "suggested_fix": "Vervang die twee sinne se aanvang met: “Diegene wat Hom verwerp het, is weggewaai en het uit die verhaal verdwyn. Diegene wat Hom liefgehad het, is voorgehou as die uitverkorenes”.",
-      "translation_quote": "Dikwels is diegene wat Hom verwerp het weggedryf en het uit die verhaal verdwyn. Dikwels is diegene wat Hom liefgehad het uitgestel as die uitverkorenes"
-    },
-    {
-      "location": "html, paragraph 21, parenthetical definition",
-      "severity": "major",
-      "source_quote": "A wedding garment was a white linen garment",
-      "suggested_fix": "Vervang “’n wit serwelingsaatklere” met “’n wit linnekleed”.",
-      "translation_quote": "’n Huwelikskleed was ’n wit serwelingsaatklere"
-    },
-    {
-      "location": "html, paragraph 22, Adam Clark quotation",
-      "severity": "major",
-      "source_quote": "Among the Orientals, long white robes were worn at public festivals; and those who appeared on such occasions with any other garments",
-      "suggested_fix": "Vervang hierdie gedeelte met: “Onder die Oosterlinge is lang wit gewade by openbare feeste gedra; en diegene wat by sulke geleenthede in enige ander klere verskyn het”.",
-      "translation_quote": "Onder die Oos-mense is lang wit rodens by publieke feesvierings gedra; en diegene wat by sulke geleenthede met ander kleed gedra het"
-    },
-    {
-      "location": "html, paragraph 26, Isaiah 64:6 quotation",
-      "severity": "major",
-      "source_quote": "our iniquities, like the wind, have taken us away",
-      "suggested_fix": "Vervang “ons ongerymdhede” met “ons ongeregtighede”.",
-      "translation_quote": "ons ongerymdhede het ons weggevoer soos die wind"
-    },
-    {
-      "location": "html, paragraph 28, Luke 7:39 quotation",
-      "severity": "major",
-      "source_quote": "Now when the Pharisee which had bidden him saw it",
-      "suggested_fix": "Vervang “En die Fariseër wat Hom genader het, het dit in homself gesê en gesê” met “Toe die Fariseër wat Hom genooi het dit sien, het hy by homself gesê”.",
-      "translation_quote": "En die Fariseër wat Hom genader het, het dit in homself gesê en gesê"
-    },
-    {
-      "location": "html, paragraphs 28–30, all occurrences of anointing",
-      "severity": "major",
-      "source_quote": "anointed them with the ointment; She anointed Jesus’ feet; My head with oil thou didst not anoint ... this woman hath anointed my feet with ointment",
-      "suggested_fix": "Vervang al vier voorkomste van “aangewrig” met “gesalf”, en behou die bestaande HTML en omliggende teks.",
-      "translation_quote": "met die salf aangewrig; Sy het Jesus se voete aangewrig; My hoof met olie het jy nie aangewrig nie ... hierdie vrou het My voete met salf aangewrig"
-    },
-    {
-      "location": "html, paragraph 25",
-      "severity": "minor",
-      "source_quote": "a well-dressed gentleman ... Those who came shabbily dressed ... display his finery",
-      "suggested_fix": "Vervang “’n mooi geskikte gentleman” met “’n goed geklede heer”, “vaal geklee” met “armoedig geklee”, en “sy sierlikheid” met “sy deftige klere”.",
-      "translation_quote": "’n mooi geskikte gentleman ... Diegene wat vaal geklee gekom het ... sy sierlikheid wou vertoon"
-    },
-    {
-      "location": "html, paragraphs 1, 5, 6, 12, 16, 27–28 and 30, grammatical and lexical defects",
-      "severity": "minor",
-      "source_quote": "casting a net into the sea; This speaks; teachings were such; the moment He spoke her name; We settle for a religion that is doable; in need of a redeemer; when she knew ... began to wash; the same loveth little",
-      "suggested_fix": "Gebruik onderskeidelik “wat ’n net in die see gegooi het”; “Dit praat”; “Jesus se onderrig was sodanig dat”; “Maria het Jesus herken die oomblik toe Hy haar naam uitgespreek het”; “Ons stel ons tevrede met ’n godsdiens wat ons self kan beoefen”; “vind ons onsself met ’n behoefte aan ’n Verlosser”; “toe sy gehoor het” en “en huilend begin sy sy voete met trane was”; en “dié het ook min lief”.",
-      "translation_quote": "wat ’n net in die see gooi het; Hierdie praat; Jesus se onderrig was sulke dat; Maria het Jesus reguit herken toe Hy haar naam uitgespreek het; Ons tevrede ons met ’n godsdiens wat moontlik is; vind ons onsself in behoeftes van ’n Verlosser; as sy gehoor het ... huilend begin sy sy voete met trane te was; die hou ook min lief"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-30T01:19:36+00:00",
   "id": "ed26570e5a6884f15147b455d6e1e7e4",
   "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
   "language": "afr",
@@ -204,7 +160,7 @@
     }
   },
   "protected": false,
-  "quality_score": 80,
+  "quality_score": 99,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6.1-sol",
@@ -223,7 +179,7 @@
     "total_reserved_usd": 0.758434,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "b3a0b32450038629cf20919c69af275c4549e0b458e25e2b5d03da547dfb97f7",
   "translation_model_actual": "gpt-6.1-sol"
