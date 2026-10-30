@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraf 3, kalimat 1",
+      "severity": "minor",
+      "source_quote": "as a kind of benign magic",
+      "suggested_fix": "sebagai semacam sihir yang tampak baik hati",
+      "translation_quote": "sebagai semacam mukjizat yang baik hati"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}
