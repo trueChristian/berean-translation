@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "a4e45a3bd38e4eb3a34fb4d84733f364",
   "campaign": "auto-e096e58fe8ad149ec4c8bb52d94365dc9cb59fe2b662a99a7b8fa86dbdcd2e08",
   "created_at": "2026-10-29T20:31:17+00:00",
   "events": [
@@ -48,25 +47,31 @@
         },
         "total_tokens": 11681
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 64,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 32,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7948,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 6845,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 8012
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "translation.html, alinea beginnend met ‘Een specifiek punt waarop ik me wil richten’",
-      "severity": "major",
-      "source_quote": "within the plain communities",
-      "suggested_fix": "Vervang ‘binnen de eenvoudige gemeenschappen’ door ‘binnen de traditioneel anabaptistische gemeenschappen met hun sobere levenswijze’.",
-      "translation_quote": "binnen de eenvoudige gemeenschappen"
-    },
-    {
-      "location": "translation.html, dezelfde alinea",
-      "severity": "minor",
-      "source_quote": "emotional/mental struggles",
-      "suggested_fix": "Vervang ‘emotionele/geestelijke problemen’ door ‘emotionele/psychische problemen’ om duidelijk te maken dat het om mentale gezondheid gaat, niet om geestelijke of geloofsproblemen.",
-      "translation_quote": "emotionele/geestelijke problemen"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-30T01:28:30+00:00",
   "id": "cf4bf53a7050be6c20be17e24f278349",
   "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
   "language": "nld",
@@ -155,7 +160,7 @@
     }
   },
   "protected": false,
-  "quality_score": 94,
+  "quality_score": 99,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6.1-sol",
@@ -174,7 +179,7 @@
     "total_reserved_usd": 0.754868,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "e0622a8bb1c0f31a62af348bbcdf1a1da1d53e0d8f3f815cb4fd5567f07e197c",
   "translation_model_actual": "gpt-6.1-sol"
