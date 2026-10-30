@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph 5",
+      "severity": "major",
+      "source_quote": "with rare exceptions, I am in a peaceful if not happy state of heart.",
+      "suggested_fix": "sodat ek teen ontbyttyd, met seldsame uitsonderings, in ’n rustige, indien nie gelukkige nie, gemoedstoestand is.",
+      "translation_quote": "sodat ek teen ontbyttyd, met uitsonderings, selde in ’n rustige, indien nie gelukkige nie, gemoedstoestand is."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

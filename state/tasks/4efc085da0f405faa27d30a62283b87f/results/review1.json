@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "63fdc382-9a8e-4f08-adf7-bd06fbd4ed11",
+    "response_id": "chatcmpl-EeUBSwXCGkZrHsQLapeZPQAhJ76dI",
+    "usage": {
+      "completion_tokens": 421,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 281,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4982,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3879,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 5403
+    }
+  },
+  "received_at": "2026-10-30T00:52:46+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph 5",
+        "severity": "major",
+        "source_quote": "with rare exceptions, I am in a peaceful if not happy state of heart.",
+        "suggested_fix": "sodat ek teen ontbyttyd, met seldsame uitsonderings, in ’n rustige, indien nie gelukkige nie, gemoedstoestand is.",
+        "translation_quote": "sodat ek teen ontbyttyd, met uitsonderings, selde in ’n rustige, indien nie gelukkige nie, gemoedstoestand is."
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 92
+  }
+}
