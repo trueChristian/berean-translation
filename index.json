@@ -4763,6 +4763,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/afr/articles/f896076d-76e2-4e42-8532-6cb2a3c029f0.html",
+      "html_sha256": "43219c655292cce42235350cd4a5fa8c18e3a43f87280e8a3f9b498a0bb31385",
+      "human_reviewed": false,
+      "id": "f896076d-76e2-4e42-8532-6cb2a3c029f0",
+      "images": [
+        {
+          "alt": "’n Perd wat ’n tweewielkar trek wat deur ’n man bestuur word.",
+          "public_path": "/images/articles/f896076d-76e2-4e42-8532-6cb2a3c029f0-1.jpg"
+        },
+        {
+          "alt": "Twee mans wat langs ’n tafel met boeke sit.",
+          "public_path": "/images/articles/f896076d-76e2-4e42-8532-6cb2a3c029f0-2.jpg"
+        }
+      ],
+      "issue_id": "07955de4-6574-4a4b-9c1b-f216374c02ee",
+      "language": "afr",
+      "language_tag": "af",
+      "metadata": "content/afr/articles/f896076d-76e2-4e42-8532-6cb2a3c029f0.json",
+      "metadata_sha256": "e7318bef2d5be3d6aa10573112b8047a2e74df53608c1c0192c9612a55e2ee4f",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "ed75201a8e3b37913a14f4d949de33a7a0daa2c2",
+      "source_translation_key": "12ecac15cfbc01dc73c6465f6e9b62b72e07659904a3aab7621b587b0c2472e4",
+      "status": "ready",
+      "subtitle": null,
+      "title": "DIE persoonlike getuienis",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/afr/articles/fb02a7e7-4fdc-4363-bea0-aa8a68b36f8b.html",
       "html_sha256": "4423a5663f9c574c88658df6fa58733132b3c1d13c904863df4abdd1c2774631",
       "human_reviewed": false,
@@ -45157,6 +45189,34 @@
       "status": "ready",
       "subtitle": null,
       "title": "La forza del patto",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/ita/articles/713c3d95-5295-421e-9ca7-3cd2cc1643d9.html",
+      "html_sha256": "d9c741d9628812acf6831b73979a310d6de64fdca640229e2b47c7cc7a8eea3b",
+      "human_reviewed": false,
+      "id": "713c3d95-5295-421e-9ca7-3cd2cc1643d9",
+      "images": [
+        {
+          "alt": "Un albero sempreverde accanto a un lago, con arbusti e un pendio montano coperto di neve.",
+          "public_path": "/images/articles/713c3d95-5295-421e-9ca7-3cd2cc1643d9-1.jpg"
+        }
+      ],
+      "issue_id": "07955de4-6574-4a4b-9c1b-f216374c02ee",
+      "language": "ita",
+      "language_tag": "it",
+      "metadata": "content/ita/articles/713c3d95-5295-421e-9ca7-3cd2cc1643d9.json",
+      "metadata_sha256": "3a672b90400e986a57546de955eaa866880d865123e9aca3bf2a953ed9253041",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "ed75201a8e3b37913a14f4d949de33a7a0daa2c2",
+      "source_translation_key": "9704c8a9ddf18fd2d3f3459b678185578331584dcb4b99104a040be948b131c6",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Autorità",
       "translation_model": "gpt-6-luna"
     },
     {
