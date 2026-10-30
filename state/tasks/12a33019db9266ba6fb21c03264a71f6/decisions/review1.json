@@ -1,0 +1,35 @@
+{
+  "findings": [
+    {
+      "location": "translation.html, Absatz 5, Zitat aus 2. Timotheus 3,14",
+      "severity": "minor",
+      "source_quote": "But continue thou in the things which thou hast learned and hast been assured of, knowing of whom thou hast learned them",
+      "suggested_fix": "Ersetzen Sie die betreffende Passage durch: „Du aber bleibe bei dem, was du gelernt hast und dessen du gewiss geworden bist, da du weißt, von wem du es gelernt hast;“.",
+      "translation_quote": "Du aber bleibe in dem, was du gelernt hast und überzeugt worden bist davon, dass du weißt, von wem du es gelernt hast"
+    },
+    {
+      "location": "translation.html, Absatz 6",
+      "severity": "minor",
+      "source_quote": "without God allowing him a temporary free rein",
+      "suggested_fix": "Ersetzen Sie „ohne dass Gott ihm eine vorübergehende Freigabe erlaubt“ durch „ohne dass Gott ihm vorübergehend freie Hand lässt“.",
+      "translation_quote": "ohne dass Gott ihm eine vorübergehende Freigabe erlaubt"
+    },
+    {
+      "location": "translation.html, Absatz 8, letzter Satz",
+      "severity": "minor",
+      "source_quote": "a section in our magazine dedicated to hearing from our readers",
+      "suggested_fix": "Präzisieren Sie den Schluss zu „eine Rubrik in unserem Magazin einzurichten, in der unsere Leser zu Wort kommen“.",
+      "translation_quote": "eine Rubrik in unserem Magazin einzurichten, die den Lesern gewidmet ist"
+    },
+    {
+      "location": "translation.html, Absatz 9",
+      "severity": "minor",
+      "source_quote": "to present a more clear gospel message",
+      "suggested_fix": "Ersetzen Sie „zur klareren Darstellung der Evangeliums Botschaft“ durch „zur klareren Darstellung der Evangeliumsbotschaft“.",
+      "translation_quote": "zur klareren Darstellung der Evangeliums Botschaft"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}
