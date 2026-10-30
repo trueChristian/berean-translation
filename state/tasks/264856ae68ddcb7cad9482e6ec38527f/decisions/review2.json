@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Vision or dream quotation",
+      "severity": "major",
+      "source_quote": "“Speak to them the word of Him who can make them free, so long as you have time.”",
+      "suggested_fix": "Replace “Tala till dem om honom som kan göra dem fria” with “Tala till dem det ord som kommer från honom som kan göra dem fria”.",
+      "translation_quote": "”Tala till dem om honom som kan göra dem fria, så länge du har tid.”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "2140a7b1d1724dce9612eee2be5ec6f3",
   "campaign": "auto-05460e5d942f869733c538b3f93105fd0c634ae2c83e0cbae1aca71eebf68b54",
   "created_at": "2026-10-29T23:02:09+00:00",
   "events": [
@@ -68,18 +67,40 @@
         },
         "total_tokens": 14644
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1001,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 866,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9974,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 9971,
+          "cached_tokens": 0
+        },
+        "total_tokens": 10975
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; a recovery continuation must pass admission",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "Paragraph beginning “När hon var ledig…”",
+      "location": "Vision or dream quotation",
       "severity": "major",
-      "source_quote": "Such were the contrasts in this life – related by birth to the highest breeding and by choice to the greatest need.",
-      "suggested_fix": "Sådana var kontrasterna i detta liv – genom börd knuten till de högsta samhällsskikten och genom eget val till den största nöden.",
-      "translation_quote": "Sådana var kontrasterna i detta liv – genom börd knuten till den högsta bildningen och genom eget val till den största nöden."
+      "source_quote": "“Speak to them the word of Him who can make them free, so long as you have time.”",
+      "suggested_fix": "Replace “Tala till dem om honom som kan göra dem fria” with “Tala till dem det ord som kommer från honom som kan göra dem fria”.",
+      "translation_quote": "”Tala till dem om honom som kan göra dem fria, så länge du har tid.”"
     }
   ],
+  "finished_at": "2026-10-30T15:49:31+00:00",
   "id": "264856ae68ddcb7cad9482e6ec38527f",
   "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
   "language": "swe",
@@ -168,7 +189,7 @@
     }
   },
   "protected": false,
-  "quality_score": 92,
+  "quality_score": 94,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
@@ -188,7 +209,7 @@
     "total_reserved_usd": 0.090525,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "385aeb5b4a7bcbf512c0d5b8310c2fd8f5f85b86d43d077caf80670ee93c6738",
   "translation_model_actual": "gpt-6-luna"
