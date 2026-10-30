@@ -5498,6 +5498,34 @@
     {
       "ai_notice_required": true,
       "direction": "rtl",
+      "html": "content/ara/articles/1caf6642-2283-4363-b3b6-33e40c39f945.html",
+      "html_sha256": "3d8dec5530b8258bff79892290023b3a481ad6498dadce0b90c18cde04c8b645",
+      "human_reviewed": false,
+      "id": "1caf6642-2283-4363-b3b6-33e40c39f945",
+      "images": [
+        {
+          "alt": "نوتة موسيقية لترنيمة يا أيتها المحبة التي لا تتركني",
+          "public_path": "/images/articles/1caf6642-2283-4363-b3b6-33e40c39f945-1.png"
+        }
+      ],
+      "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
+      "language": "ara",
+      "language_tag": "ar",
+      "metadata": "content/ara/articles/1caf6642-2283-4363-b3b6-33e40c39f945.json",
+      "metadata_sha256": "4cd68dc2e018bd43fb6ae58cc521b468db863ae525e68e5329fc0565f4c0c9ae",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "تاريخ ترنيمة",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "5af7c75ddc034efa2d45136926794f0498d0408b26a365657640e28417f4afea",
+      "status": "ready",
+      "subtitle": null,
+      "title": "يا أيتها المحبة التي لا تتركني",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
       "html": "content/ara/articles/1ec0f654-0dd1-48f3-9a68-3b15189e6704.html",
       "html_sha256": "807ef15f83cc6fdab48b74316f0e1b152ac7eadb4162ca6eb813a4ddc7fa2594",
       "human_reviewed": false,
@@ -53841,6 +53869,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/nld/articles/1caf6642-2283-4363-b3b6-33e40c39f945.html",
+      "html_sha256": "c99c9399d8a62f4c72159db1c549303f897d23e350070d63ae3ce7e45ebfc173",
+      "human_reviewed": false,
+      "id": "1caf6642-2283-4363-b3b6-33e40c39f945",
+      "images": [
+        {
+          "alt": "Bladmuziek voor O Love That Wilt Not Let Me Go",
+          "public_path": "/images/articles/1caf6642-2283-4363-b3b6-33e40c39f945-1.png"
+        }
+      ],
+      "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
+      "language": "nld",
+      "language_tag": "nl",
+      "metadata": "content/nld/articles/1caf6642-2283-4363-b3b6-33e40c39f945.json",
+      "metadata_sha256": "0c8444539e1c0733b940ee0c6c9bfd1f9e822240c8eeb4b3a5af36266dfec84f",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "EEN LIEDGESCHIEDENIS",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "5af7c75ddc034efa2d45136926794f0498d0408b26a365657640e28417f4afea",
+      "status": "ready",
+      "subtitle": null,
+      "title": "O Liefde, die Mij Niet Zal Loslaten",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/nld/articles/1ec0f654-0dd1-48f3-9a68-3b15189e6704.html",
       "html_sha256": "a0abcbb54b9d224ddeec8fedeed9889f5fa909653fc8d59e7748470c45ff9449",
       "human_reviewed": false,
@@ -63344,6 +63400,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/por/articles/1caf6642-2283-4363-b3b6-33e40c39f945.html",
+      "html_sha256": "a2ee3c26b201dc556205f5cb97d80fe7313551bc1d01e09d2abf90d53f2f3d86",
+      "human_reviewed": false,
+      "id": "1caf6642-2283-4363-b3b6-33e40c39f945",
+      "images": [
+        {
+          "alt": "Partitura de Ó Amor que não me deixarás partir",
+          "public_path": "/images/articles/1caf6642-2283-4363-b3b6-33e40c39f945-1.png"
+        }
+      ],
+      "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
+      "language": "por",
+      "language_tag": "pt",
+      "metadata": "content/por/articles/1caf6642-2283-4363-b3b6-33e40c39f945.json",
+      "metadata_sha256": "345677d728e2f74e241c46aefc5cec9a0f562cbdcd5376e4c4fc1b1549222b1b",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "HISTÓRIA DE UM HINO",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "5af7c75ddc034efa2d45136926794f0498d0408b26a365657640e28417f4afea",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Ó Amor que não me deixarás partir",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/por/articles/1ec0f654-0dd1-48f3-9a68-3b15189e6704.html",
       "html_sha256": "663ac3d3806c9ac6ad7b699e1679934505ba19324b5d671ba1efd0354091333f",
       "human_reviewed": false,
@@ -68696,6 +68780,34 @@
       "subtitle": "и вокруг меня звучит музыка сфер.",
       "title": "ВСЯ ПРИРОДА ПЕЕТ",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/rus/articles/1caf6642-2283-4363-b3b6-33e40c39f945.html",
+      "html_sha256": "dc91e4f3701656e58fb8d21de21131fda8e93c4c5e1acd8305f0298937c05b6b",
+      "human_reviewed": false,
+      "id": "1caf6642-2283-4363-b3b6-33e40c39f945",
+      "images": [
+        {
+          "alt": "Ноты гимна «О Любовь, что не отпустит меня»",
+          "public_path": "/images/articles/1caf6642-2283-4363-b3b6-33e40c39f945-1.png"
+        }
+      ],
+      "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
+      "language": "rus",
+      "language_tag": "ru",
+      "metadata": "content/rus/articles/1caf6642-2283-4363-b3b6-33e40c39f945.json",
+      "metadata_sha256": "dd596f506b8ef3afebf157bb7e4149c9fc8dfe25a868a305beef644056be0a24",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "ИСТОРИЯ ГИМНА",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "5af7c75ddc034efa2d45136926794f0498d0408b26a365657640e28417f4afea",
+      "status": "ready",
+      "subtitle": null,
+      "title": "О Любовь, что не отпустит меня",
+      "translation_model": "gpt-6.1-sol"
     },
     {
       "ai_notice_required": true,
