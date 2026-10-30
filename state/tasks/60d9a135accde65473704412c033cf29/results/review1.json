@@ -1,0 +1,115 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "2a0f34f9-f531-4371-ac28-0640ae3cb5e4",
+    "response_id": "chatcmpl-Eennquzcya2rxTG9949kVhAkYaHXt",
+    "usage": {
+      "completion_tokens": 1740,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 120,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5177,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4074,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 6917
+    }
+  },
+  "received_at": "2026-10-30T20:50:27+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "translation.html, paragraph 2",
+        "severity": "major",
+        "source_quote": "his eyesight continued to fail rapidly",
+        "suggested_fix": "Badilisha “uchunguzi wa macho yake uliendelea kuharibika kwa haraka” kuwa “uwezo wake wa kuona uliendelea kudhoofika kwa haraka”.",
+        "translation_quote": "uchunguzi wa macho yake uliendelea kuharibika kwa haraka"
+      },
+      {
+        "location": "translation.html, paragraph 3",
+        "severity": "major",
+        "source_quote": "his two sisters, who were so dedicated that they learned Latin, Greek, and Hebrew",
+        "suggested_fix": "Tumia “dada zake wawili, ambao walijitolea sana kiasi cha kujifunza Kilatini, Kigiriki, na Kiebrania”.",
+        "translation_quote": "ndugu zake wawili, ambao walikuwa watiifu kiasi cha kujifunza Kilatini, Kigiriki, na Kiebrania"
+      },
+      {
+        "location": "translation.html, paragraph 10",
+        "severity": "major",
+        "source_quote": "The tune was composed one year later by a prominent Scotch organist of his day, Albert L. Peace",
+        "suggested_fix": "Badilisha sehemu hii kuwa “Melodia ilitungwa mwaka mmoja baadaye na mpiga ogani maarufu wa Scotland wa wakati wake, Albert L. Peace”.",
+        "translation_quote": "Mwimbo uligharimiwa mwaka mmoja baadaye na organisti maarufu wa Scotland wa wakati wake, Albert L. Peace"
+      },
+      {
+        "location": "translation.title; translation.section; translation.html, final paragraph and image alt",
+        "severity": "major",
+        "source_quote": "O Love That Wilt Not Let Me Go; A HYMN HISTORY; The four key words of “O Love, That Wilt Not Let Me Go”; Sheet music for O Love That Wilt Not Let Me Go",
+        "suggested_fix": "Tafsiri kichwa kuwa “Ee Upendo Usioniacha Niende” na sehemu kuwa “HISTORIA YA WIMBO WA IBADA”. Tumia kichwa hicho pia katika aya ya mwisho na ubadilishe alt kuwa “Noti za muziki za Ee Upendo Usioniacha Niende”, ukihifadhi sifa nyingine zote za img.",
+        "translation_quote": "O Love That Wilt Not Let Me Go; A HYMN HISTORY; Maneno manne muhimu ya “O Love, That Wilt Not Let Me Go”; Muziki wa karatasi wa O Love That Wilt Not Let Me Go"
+      },
+      {
+        "location": "translation.html, references heading and attribution labels",
+        "severity": "minor",
+        "source_quote": "References:; Author; Composer",
+        "suggested_fix": "Tafsiri lebo kuwa “Marejeo:”, “Mwandishi”, na “Mtunzi wa melodia”, ukihifadhi h3, em, br, nafasi, majina na miaka.",
+        "translation_quote": "References:; Author; Composer"
+      },
+      {
+        "location": "translation.html, paragraphs 1 and 9",
+        "severity": "minor",
+        "source_quote": "the quickest bit of work I ever did in my life",
+        "suggested_fix": "Katika sehemu zote mbili, tumia “kazi niliyoikamilisha kwa muda mfupi zaidi kuliko kazi nyingine yoyote maishani mwangu” ili kueleza kasi ya kuitunga, si ufupi wa kazi yenyewe.",
+        "translation_quote": "kazi fupi kabisa niliyofanya maishani mwangu"
+      },
+      {
+        "location": "translation.html, paragraph 5",
+        "severity": "minor",
+        "source_quote": "the open Bible was before him as he stood in the pulpit",
+        "suggested_fix": "Tumia “Biblia iliyofunguliwa ilikuwa mbele yake alipokuwa amesimama mimbarini”.",
+        "translation_quote": "Biblia ilifunguka mbele yake alipokuwa ameegeshwa kwenye mimbari"
+      },
+      {
+        "location": "translation.html, paragraph 5",
+        "severity": "minor",
+        "source_quote": "his memory completely collapsed; gave out a new text",
+        "suggested_fix": "Badilisha “kumbukumbu yake ilipoteza kabisa” kuwa “kumbukumbu yake ilishindwa kabisa kufanya kazi” na “alitoa maandishi mapya” kuwa “alitaja kifungu kingine cha Maandiko”.",
+        "translation_quote": "kumbukumbu yake ilipoteza kabisa; alitoa maandishi mapya"
+      },
+      {
+        "location": "translation.html, paragraph 7",
+        "severity": "minor",
+        "source_quote": "A very popular account; the “flickering torch” ... in the second verse ... in the third stanza ... in the last verse",
+        "suggested_fix": "Tumia “Simulizi linalojulikana sana” badala ya “Akaunti maarufu sana”, “mwenge unaopepea” badala ya “mshumaa unaotetemeka”, na “ubeti” badala ya “betu” na “ayah” katika marejeo yote matatu ya beti.",
+        "translation_quote": "Akaunti maarufu sana; “mshumaa unaotetemeka” ... kwenye betu ya pili ... katika betu ya tatu ... katika ayah ya mwisho"
+      },
+      {
+        "location": "translation.html, paragraph 9",
+        "severity": "minor",
+        "source_quote": "in the manse of Innellan; having it dictated to me by some inward voice; All the other verses I have ever written",
+        "suggested_fix": "Tumia “katika nyumba ya mchungaji huko Innellan”, “kana kwamba sauti fulani ya ndani ilikuwa ikiniambia maneno ya kuandika”, na “Beti nyingine zote nilizowahi kuandika” katika sehemu husika.",
+        "translation_quote": "kwenye manse ya Innellan; iliniandikiwa kwa sauti ya ndani; Betu nyingine zote niliyowahi kuandika"
+      },
+      {
+        "location": "translation.html, paragraph 12",
+        "severity": "minor",
+        "source_quote": "his only hymn found in most hymnals",
+        "suggested_fix": "Tumia “wimbo wake pekee unaopatikana katika vitabu vingi vya nyimbo za ibada”.",
+        "translation_quote": "hymn yake pekee inayopatikana katika nyimbo nyingi"
+      },
+      {
+        "location": "translation.html, paragraphs 1, 7, 8, 9, 10 and 12",
+        "severity": "minor",
+        "source_quote": "hymn; hymns",
+        "suggested_fix": "Tumia “wimbo wa ibada” kwa “Hymni”, “hymn” na “hymni” zinazorejelea wimbo huu katika aya hizi, ukirekebisha upatanisho inapohitajika. Majina ya vitabu vilivyotajwa yanaweza kubaki kama yalivyo.",
+        "translation_quote": "Hymni hii; hymn hii; Hymni yangu; Hymni ilikuwa; Hymni ilitokea; hymn yake"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 80
+  }
+}
