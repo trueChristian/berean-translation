@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "d8d75566-1f2b-454b-a83d-56418cd3ff3a",
+    "response_id": "chatcmpl-EeetjS5SzA77IUZU9aRuA3SCeOoZd",
+    "usage": {
+      "completion_tokens": 861,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 641,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4559,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3456,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 5420
+    }
+  },
+  "received_at": "2026-10-30T14:04:10+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, heading 2, paragraph",
+        "severity": "major",
+        "source_quote": "We must throw our whole soul into our desire for God.",
+        "suggested_fix": "परमेश्वर के प्रति अपनी अभिलाषा में हमें अपनी पूरी आत्मा लगा देनी चाहिए।",
+        "translation_quote": "परमेश्वर की अभिलाषा में हमें अपनी पूरी आत्मा लगा देनी चाहिए।"
+      },
+      {
+        "location": "HTML, paragraph under heading 3",
+        "severity": "major",
+        "source_quote": "To desire revival, for instance, and at the same time to neglect prayer and devotion",
+        "suggested_fix": "उदाहरण के लिए, आध्यात्मिक जागृति की इच्छा करना और साथ ही प्रार्थना तथा भक्ति की उपेक्षा करना",
+        "translation_quote": "उदाहरण के लिए, पुनरुत्थान की इच्छा करना और साथ ही प्रार्थना तथा भक्ति की उपेक्षा करना"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 90
+  }
+}

@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "47b60c79d7ca4f6e90f1f70a57aec46c",
   "campaign": "auto-23c07565d122e5accddafed8720d349b1d55324561ec3ae0180e1bd84b31aad5",
   "created_at": "2026-10-30T00:55:02+00:00",
   "events": [
@@ -28,10 +27,45 @@
         },
         "total_tokens": 4205
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 861,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 641,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4559,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 3456,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 5420
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "HTML, heading 2, paragraph",
+      "severity": "major",
+      "source_quote": "We must throw our whole soul into our desire for God.",
+      "suggested_fix": "परमेश्वर के प्रति अपनी अभिलाषा में हमें अपनी पूरी आत्मा लगा देनी चाहिए।",
+      "translation_quote": "परमेश्वर की अभिलाषा में हमें अपनी पूरी आत्मा लगा देनी चाहिए।"
+    },
+    {
+      "location": "HTML, paragraph under heading 3",
+      "severity": "major",
+      "source_quote": "To desire revival, for instance, and at the same time to neglect prayer and devotion",
+      "suggested_fix": "उदाहरण के लिए, आध्यात्मिक जागृति की इच्छा करना और साथ ही प्रार्थना तथा भक्ति की उपेक्षा करना",
+      "translation_quote": "उदाहरण के लिए, पुनरुत्थान की इच्छा करना और साथ ही प्रार्थना तथा भक्ति की उपेक्षा करना"
+    }
+  ],
   "id": "662ca54c90e84b588264a562e1e189ff",
   "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
   "language": "hin",
@@ -120,11 +154,13 @@
     }
   },
   "protected": false,
+  "quality_score": 90,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/fe2a4b0674e6061085600197ed152af1fef7a737e5fd45a5d32f093a28d9a885.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "translate",
     "max_candidate_bytes": 120000,
@@ -138,7 +174,7 @@
     "total_reserved_usd": 0.08739,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "af0a2811aaad8facf9c0fb70e4f79fedbc83ae6bb333beb07b2d95c0bed6e2e6",
   "translation_model_actual": "gpt-6-luna"

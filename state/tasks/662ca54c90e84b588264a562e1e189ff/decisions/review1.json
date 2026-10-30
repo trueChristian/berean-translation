@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "HTML, heading 2, paragraph",
+      "severity": "major",
+      "source_quote": "We must throw our whole soul into our desire for God.",
+      "suggested_fix": "परमेश्वर के प्रति अपनी अभिलाषा में हमें अपनी पूरी आत्मा लगा देनी चाहिए।",
+      "translation_quote": "परमेश्वर की अभिलाषा में हमें अपनी पूरी आत्मा लगा देनी चाहिए।"
+    },
+    {
+      "location": "HTML, paragraph under heading 3",
+      "severity": "major",
+      "source_quote": "To desire revival, for instance, and at the same time to neglect prayer and devotion",
+      "suggested_fix": "उदाहरण के लिए, आध्यात्मिक जागृति की इच्छा करना और साथ ही प्रार्थना तथा भक्ति की उपेक्षा करना",
+      "translation_quote": "उदाहरण के लिए, पुनरुत्थान की इच्छा करना और साथ ही प्रार्थना तथा भक्ति की उपेक्षा करना"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
