@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "39d4e861-3967-4b8c-b581-72fd9686c1dc",
+    "response_id": "chatcmpl-Eep4iSrwWM95qbrW94aUKXKscMocA",
+    "usage": {
+      "completion_tokens": 147,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 38,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6161,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6158,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6308
+    }
+  },
+  "received_at": "2026-10-30T23:42:42+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "translation.html, paragraf pembuka",
+        "severity": "minor",
+        "source_quote": "wrapping her hands around her mug of coffee",
+        "suggested_fix": "Ganti “sambil merangkul mug kopinya dengan kedua tangan” dengan “sambil menggenggam mug kopinya dengan kedua tangan”.",
+        "translation_quote": "sambil merangkul mug kopinya dengan kedua tangan"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}

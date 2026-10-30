@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-30T23:42:42+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"translation.html, paragraf pembuka\",\"severity\":\"minor\",\"source_quote\":\"wrapping her hands around her mug of coffee\",\"suggested_fix\":\"Ganti “sambil merangkul mug kopinya dengan kedua tangan” dengan “sambil menggenggam mug kopinya dengan kedua tangan”.\",\"translation_quote\":\"sambil merangkul mug kopinya dengan kedua tangan\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 409,
+    "content_evidence_truncated": false,
+    "content_sha256": "27c8f500c9f9370308d2724392e3d963d5d297ad2806dc80f8be27216313b9c3",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 147,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 38,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6161,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6158,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6308
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}

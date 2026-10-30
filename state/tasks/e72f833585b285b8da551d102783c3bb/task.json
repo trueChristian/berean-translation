@@ -5,11 +5,41 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "50253d5839cf4286af32ebe7983531e9",
   "campaign": "auto-904a60cd28f9eaf7b9cf5d941fe8b2e524beeda924d6cba770d5ec2b99a6331b",
   "created_at": "2026-10-30T14:10:48+00:00",
-  "events": [],
-  "findings": [],
+  "events": [
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 147,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 38,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6161,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 6158,
+          "cached_tokens": 0
+        },
+        "total_tokens": 6308
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "translation.html, paragraf pembuka",
+      "severity": "minor",
+      "source_quote": "wrapping her hands around her mug of coffee",
+      "suggested_fix": "Ganti “sambil merangkul mug kopinya dengan kedua tangan” dengan “sambil menggenggam mug kopinya dengan kedua tangan”.",
+      "translation_quote": "sambil merangkul mug kopinya dengan kedua tangan"
+    }
+  ],
+  "finished_at": "2026-10-30T23:42:42+00:00",
   "id": "e72f833585b285b8da551d102783c3bb",
   "issue_id": "1933c1f0-be1f-561a-b470-79a5ced64c04",
   "language": "ind",
@@ -98,9 +128,11 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/06b12e22d80a9701c9b707fb2702e33e14c80afc982284702d29e496c31557d5.json",
   "stage": "review1",
   "stage_budget": {
@@ -115,7 +147,7 @@
     "total_reserved_usd": 0.727789,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 0,
   "translation_key": "5c16ed2871a1fc1b55f7d5eef0637ab09a0051f13538cba8d69f554bd566c053",
   "translation_model_actual": "gpt-6-luna"
