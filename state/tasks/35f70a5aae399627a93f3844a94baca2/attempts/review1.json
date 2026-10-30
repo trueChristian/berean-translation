@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-30T07:03:19+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Article, paragraph beginning “So much has happened…”\",\"severity\":\"major\",\"source_quote\":\"“the Jacobin elements which the revolution churned up from the depths”\",\"suggested_fix\":\"“انقلابی جیکوبن عناصر، جنہیں انقلاب نے گہرائیوں سے ابھارا تھا”\",\"translation_quote\":\"“انقلاب کے ابھارے ہوئے یعقوبی عناصر”\"},{\"location\":\"Article, paragraph beginning “Mlle. Wrede was in family connections White…”; also paragraph beginning “When the Whites returned to power…”\",\"severity\":\"major\",\"source_quote\":\"“closely in touch with Red society”; “When the Whites returned to power”\",\"suggested_fix\":\"سیاسی دھڑوں کے لیے “سرخ دھڑے/سرخ فریق” اور “سفید دھڑے/سفید فریق” استعمال کریں، مثلاً: “اپنے کام کے دوران وہ سرخ دھڑے سے قریبی رابطے میں رہیں” اور “جب سفید فام دھڑا دوبارہ اقتدار میں آیا”۔\",\"translation_quote\":\"“سرخ فاموں کے معاشرے سے بھی قریبی رابطے میں رہیں”; “جب سفید فام دوبارہ اقتدار میں آئے”\"},{\"location\":\"Article, paragraph beginning “Mlle. Wrede was in family connections White…”\",\"severity\":\"major\",\"source_quote\":\"“Her door was open to both Reds and Whites.”\",\"suggested_fix\":\"“ان کا دروازہ سرخ اور سفید، دونوں دھڑوں کے لوگوں کے لیے کھلا تھا۔”\",\"translation_quote\":\"“ان کا دروازہ سرخ فاموں اور سفید فاموں، دونوں کے لیے کھلا تھا۔”\"},{\"location\":\"Article, paragraph beginning “Her father was the provincial Governor…”\",\"severity\":\"minor\",\"source_quote\":\"“She bears a more unique title, ‘The Angel of the Prisons.’”\",\"suggested_fix\":\"“ان کا ایک اور، زیادہ منفرد لقب تھا: ’قیدیوں کا فرشتہ۔‘”\",\"translation_quote\":\"“ان کا ایک اور، زیادہ منفرد لقب تھا: ’قیدیوں کی فرشتہ‘۔”\"},{\"location\":\"Subtitle\",\"severity\":\"minor\",\"source_quote\":\"“The Angel Of The Prisons”\",\"suggested_fix\":\"“قیدیوں کا فرشتہ”\",\"translation_quote\":\"“قیدیوں کی فرشتہ”\"}],\"findings_complete\":true,\"passed\":false,\"score\":91}",
+    "content_bytes": 2418,
+    "content_evidence_truncated": false,
+    "content_sha256": "da30d5a6de5df15bfa40c534b6893e0f0c201249b8951833c9f1a880d78464b4",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1180,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 649,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 10726,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9623,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 11906
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

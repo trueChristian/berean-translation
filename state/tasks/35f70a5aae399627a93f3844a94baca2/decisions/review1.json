@@ -1,0 +1,42 @@
+{
+  "findings": [
+    {
+      "location": "Article, paragraph beginning “So much has happened…”",
+      "severity": "major",
+      "source_quote": "“the Jacobin elements which the revolution churned up from the depths”",
+      "suggested_fix": "“انقلابی جیکوبن عناصر، جنہیں انقلاب نے گہرائیوں سے ابھارا تھا”",
+      "translation_quote": "“انقلاب کے ابھارے ہوئے یعقوبی عناصر”"
+    },
+    {
+      "location": "Article, paragraph beginning “Mlle. Wrede was in family connections White…”; also paragraph beginning “When the Whites returned to power…”",
+      "severity": "major",
+      "source_quote": "“closely in touch with Red society”; “When the Whites returned to power”",
+      "suggested_fix": "سیاسی دھڑوں کے لیے “سرخ دھڑے/سرخ فریق” اور “سفید دھڑے/سفید فریق” استعمال کریں، مثلاً: “اپنے کام کے دوران وہ سرخ دھڑے سے قریبی رابطے میں رہیں” اور “جب سفید فام دھڑا دوبارہ اقتدار میں آیا”۔",
+      "translation_quote": "“سرخ فاموں کے معاشرے سے بھی قریبی رابطے میں رہیں”; “جب سفید فام دوبارہ اقتدار میں آئے”"
+    },
+    {
+      "location": "Article, paragraph beginning “Mlle. Wrede was in family connections White…”",
+      "severity": "major",
+      "source_quote": "“Her door was open to both Reds and Whites.”",
+      "suggested_fix": "“ان کا دروازہ سرخ اور سفید، دونوں دھڑوں کے لوگوں کے لیے کھلا تھا۔”",
+      "translation_quote": "“ان کا دروازہ سرخ فاموں اور سفید فاموں، دونوں کے لیے کھلا تھا۔”"
+    },
+    {
+      "location": "Article, paragraph beginning “Her father was the provincial Governor…”",
+      "severity": "minor",
+      "source_quote": "“She bears a more unique title, ‘The Angel of the Prisons.’”",
+      "suggested_fix": "“ان کا ایک اور، زیادہ منفرد لقب تھا: ’قیدیوں کا فرشتہ۔‘”",
+      "translation_quote": "“ان کا ایک اور، زیادہ منفرد لقب تھا: ’قیدیوں کی فرشتہ‘۔”"
+    },
+    {
+      "location": "Subtitle",
+      "severity": "minor",
+      "source_quote": "“The Angel Of The Prisons”",
+      "suggested_fix": "“قیدیوں کا فرشتہ”",
+      "translation_quote": "“قیدیوں کی فرشتہ”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
