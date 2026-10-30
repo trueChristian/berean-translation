@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-30T07:17:18+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"html, parágrafo 4\",\n      \"severity\": \"major\",\n      \"source_quote\": \"Destruction and carnage had become commonplace, none more so than in the Pacific theater.\",\n      \"suggested_fix\": \"Substituir a frase por: “A destruição e a carnificina haviam se tornado corriqueiras, sobretudo no teatro de operações do Pacífico.”\",\n      \"translation_quote\": \"Destruição e carnificina tornaram-se corriqueiras, nada mais do que no teatro do Pacífico.\"\n    },\n    {\n      \"location\": \"html, parágrafo 7\",\n      \"severity\": \"major\",\n      \"source_quote\": \"scarcely a generation prior\",\n      \"suggested_fix\": \"Substituir “há pouco mais de uma geração” por “apenas uma geração antes”.\",\n      \"translation_quote\": \"há pouco mais de uma geração\"\n    },\n    {\n      \"location\": \"html, parágrafo 17\",\n      \"severity\": \"major\",\n      \"source_quote\": \"It was home to prison camps— housing prisoners of war and those accused of aiding the allies.\",\n      \"suggested_fix\": \"Substituir a frase por: “Ela abrigava campos de prisioneiros—onde eram mantidos prisioneiros de guerra e pessoas acusadas de ajudar os aliados.”\",\n      \"translation_quote\": \"Ela abrigava campos prisionais—prisões de guerra e locais para os acusados de ajudar os aliados.\"\n    },\n    {\n      \"location\": \"html, parágrafo 3\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"a brief spark in this trying fire of strife\",\n      \"suggested_fix\": \"Substituir “nesse fogo provado de contenda” por “nesse fogo de contenda que põe à prova”.\",\n      \"translation_quote\": \"uma breve faísca nesse fogo provado de contenda\"\n    },\n    {\n      \"location\": \"html, parágrafo 18\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"Spread thin—with troops, equipment, and resources dwindling\",\n      \"suggested_fix\": \"Substituir “Espalhados—with tropas, equipamentos e recursos diminuindo” por “Dispersos em excesso—com tropas, equipamentos e recursos diminuindo”.\",\n      \"translation_quote\": \"Espalhados—with tropas, equipamentos e recursos diminuindo\"\n    },\n    {\n      \"location\": \"html, parágrafo 22\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"The crucial difference is in what they fought for, and how they fought for it.\",\n      \"suggested_fix\": \"Substituir a frase por: “A diferença crucial está naquilo por que lutaram e em como lutaram por isso.”\",\n      \"translation_quote\": \"A diferença crucial está no que lutaram, e em como lutaram.\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": false,\n  \"score\": 92\n}",
+    "content_bytes": 2593,
+    "content_evidence_truncated": false,
+    "content_sha256": "7c8f70153d1b74073b09cc4dcf48674d53cd81ddec33b26458f0bc5bf845d25c",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 766,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 111,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8128,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8125,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8894
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}

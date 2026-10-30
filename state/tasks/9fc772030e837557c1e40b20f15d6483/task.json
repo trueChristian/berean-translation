@@ -5,11 +5,75 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "ade74ac6a73b44f1aabce566f559c4f7",
   "campaign": "auto-186c1c60aa298e6f95cc93cf4f085d1cf8afc3cab5f8b912bf90957cf3678106",
   "created_at": "2026-10-30T07:06:28+00:00",
-  "events": [],
-  "findings": [],
+  "events": [
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 766,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 111,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8128,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8125,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8894
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "html, parágrafo 4",
+      "severity": "major",
+      "source_quote": "Destruction and carnage had become commonplace, none more so than in the Pacific theater.",
+      "suggested_fix": "Substituir a frase por: “A destruição e a carnificina haviam se tornado corriqueiras, sobretudo no teatro de operações do Pacífico.”",
+      "translation_quote": "Destruição e carnificina tornaram-se corriqueiras, nada mais do que no teatro do Pacífico."
+    },
+    {
+      "location": "html, parágrafo 7",
+      "severity": "major",
+      "source_quote": "scarcely a generation prior",
+      "suggested_fix": "Substituir “há pouco mais de uma geração” por “apenas uma geração antes”.",
+      "translation_quote": "há pouco mais de uma geração"
+    },
+    {
+      "location": "html, parágrafo 17",
+      "severity": "major",
+      "source_quote": "It was home to prison camps— housing prisoners of war and those accused of aiding the allies.",
+      "suggested_fix": "Substituir a frase por: “Ela abrigava campos de prisioneiros—onde eram mantidos prisioneiros de guerra e pessoas acusadas de ajudar os aliados.”",
+      "translation_quote": "Ela abrigava campos prisionais—prisões de guerra e locais para os acusados de ajudar os aliados."
+    },
+    {
+      "location": "html, parágrafo 3",
+      "severity": "minor",
+      "source_quote": "a brief spark in this trying fire of strife",
+      "suggested_fix": "Substituir “nesse fogo provado de contenda” por “nesse fogo de contenda que põe à prova”.",
+      "translation_quote": "uma breve faísca nesse fogo provado de contenda"
+    },
+    {
+      "location": "html, parágrafo 18",
+      "severity": "minor",
+      "source_quote": "Spread thin—with troops, equipment, and resources dwindling",
+      "suggested_fix": "Substituir “Espalhados—with tropas, equipamentos e recursos diminuindo” por “Dispersos em excesso—com tropas, equipamentos e recursos diminuindo”.",
+      "translation_quote": "Espalhados—with tropas, equipamentos e recursos diminuindo"
+    },
+    {
+      "location": "html, parágrafo 22",
+      "severity": "minor",
+      "source_quote": "The crucial difference is in what they fought for, and how they fought for it.",
+      "suggested_fix": "Substituir a frase por: “A diferença crucial está naquilo por que lutaram e em como lutaram por isso.”",
+      "translation_quote": "A diferença crucial está no que lutaram, e em como lutaram."
+    }
+  ],
   "id": "9fc772030e837557c1e40b20f15d6483",
   "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
   "language": "por",
@@ -98,11 +162,13 @@
     }
   },
   "protected": false,
+  "quality_score": 92,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/303eea9ede343be1d9acddc326e79733cfaca30a9ec14bd67edc70779b0f9f08.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "review1",
     "max_candidate_bytes": 120000,
@@ -115,7 +181,7 @@
     "total_reserved_usd": 0.765341,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 0,
   "translation_key": "c767adc49633e338375567a05addcb2f986e5c013a016c2592a1cd600a81bb50",
   "translation_model_actual": "gpt-5-mini-2025-08-07"
