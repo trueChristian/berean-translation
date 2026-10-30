@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph 2",
+      "severity": "major",
+      "source_quote": "She asked the indulgence of the chairman",
+      "suggested_fix": "Alimwomba mwenyekiti amruhusu azungumze",
+      "translation_quote": "Alimwomba mwenyekiti amsamehe kwa kuzungumza"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
