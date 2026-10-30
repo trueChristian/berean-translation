@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "f5658fff-2631-4ad4-b4e4-60e4ab5fb726",
+    "response_id": "chatcmpl-Eeevn82DxrlthUp0NprItHU7O8yOw",
+    "usage": {
+      "completion_tokens": 959,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 685,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4319,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3216,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 5278
+    }
+  },
+  "received_at": "2026-10-30T14:04:23+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph under heading 7",
+        "severity": "major",
+        "source_quote": "The devils ideals, moral standards, and mental attitudes are being accepted by you without you knowing it.",
+        "suggested_fix": "Replace ״של השדים״ with ״של השטן״ to preserve the source’s attribution to the Devil: ״האידיאלים, אמות המידה המוסריות והגישות המנטליות של השטן מתקבלים על ידיכם בלי שתדעו זאת.״",
+        "translation_quote": "האידיאלים, אמות המידה המוסריות והגישות המנטליות של השדים מתקבלים על ידיכם בלי שתדעו זאת."
+      },
+      {
+        "location": "Paragraph under heading 4",
+        "severity": "minor",
+        "source_quote": "Until we allow the consciousness of sin to wound us, we will never develop a fear of evil.",
+        "suggested_fix": "Replace ״יראת חטא״ with ״חשש מפני הרוע״ to retain the source’s wording about fear of evil.",
+        "translation_quote": "כל עוד לא ניתן למודעות לחטא לפצוע אותנו, לעולם לא נפתח יראת חטא."
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 94
+  }
+}

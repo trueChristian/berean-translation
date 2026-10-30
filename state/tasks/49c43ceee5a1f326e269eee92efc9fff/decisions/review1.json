@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph under heading 7",
+      "severity": "major",
+      "source_quote": "The devils ideals, moral standards, and mental attitudes are being accepted by you without you knowing it.",
+      "suggested_fix": "Replace ״של השדים״ with ״של השטן״ to preserve the source’s attribution to the Devil: ״האידיאלים, אמות המידה המוסריות והגישות המנטליות של השטן מתקבלים על ידיכם בלי שתדעו זאת.״",
+      "translation_quote": "האידיאלים, אמות המידה המוסריות והגישות המנטליות של השדים מתקבלים על ידיכם בלי שתדעו זאת."
+    },
+    {
+      "location": "Paragraph under heading 4",
+      "severity": "minor",
+      "source_quote": "Until we allow the consciousness of sin to wound us, we will never develop a fear of evil.",
+      "suggested_fix": "Replace ״יראת חטא״ with ״חשש מפני הרוע״ to retain the source’s wording about fear of evil.",
+      "translation_quote": "כל עוד לא ניתן למודעות לחטא לפצוע אותנו, לעולם לא נפתח יראת חטא."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
