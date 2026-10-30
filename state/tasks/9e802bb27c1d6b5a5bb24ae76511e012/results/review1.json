@@ -1,0 +1,59 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "294a78db-01a2-405d-bd27-1c03a783d524",
+    "response_id": "chatcmpl-EeelbYRqibrHzPq6bXb2onPRn89JU",
+    "usage": {
+      "completion_tokens": 588,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 64,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4899,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3796,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 5487
+    }
+  },
+  "received_at": "2026-10-30T14:03:58+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "translation.html, primer párrafo",
+        "severity": "minor",
+        "source_quote": "the 19<sup>th</sup> century",
+        "suggested_fix": "Sustituir «siglo 19<sup>º</sup>» por «siglo <sup></sup>XIX», conservando el elemento HTML existente.",
+        "translation_quote": "siglo 19<sup>º</sup>"
+      },
+      {
+        "location": "translation.html, párrafo que introduce el testimonio de Matheson",
+        "severity": "minor",
+        "source_quote": "Fortunately, Dr. Matheson did relate an account of his writing of this hymn:",
+        "suggested_fix": "Cambiar «relató un relato sobre» por «ofreció un relato sobre».",
+        "translation_quote": "Por fortuna, el Dr. Matheson relató un relato sobre la composición de este himno:"
+      },
+      {
+        "location": "translation.html, última oración del testimonio de Matheson",
+        "severity": "minor",
+        "source_quote": "I have never been able to gain once more the same fervor in verse.",
+        "suggested_fix": "Cambiar «esa misma fervor» por «ese mismo fervor».",
+        "translation_quote": "Nunca he podido recuperar esa misma fervor en verso."
+      },
+      {
+        "location": "translation.html, bloque de referencias, etiquetas de autor y compositor",
+        "severity": "minor",
+        "source_quote": "Author ... -George Matheson, 1842 – 1906; Composer ... -Albert L. Peace, 1844 – 1912",
+        "suggested_fix": "Traducir «Author» como «Autor» y «Composer» como «Compositor», conservando los espacios &nbsp;, los saltos <br>, los nombres y las fechas.",
+        "translation_quote": "Author&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-George Matheson, 1842 – 1906<br>\n  Composer&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Albert L. Peace, 1844 – 1912"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 96
+  }
+}

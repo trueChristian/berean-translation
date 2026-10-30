@@ -1,0 +1,35 @@
+{
+  "findings": [
+    {
+      "location": "translation.html, primer párrafo",
+      "severity": "minor",
+      "source_quote": "the 19<sup>th</sup> century",
+      "suggested_fix": "Sustituir «siglo 19<sup>º</sup>» por «siglo <sup></sup>XIX», conservando el elemento HTML existente.",
+      "translation_quote": "siglo 19<sup>º</sup>"
+    },
+    {
+      "location": "translation.html, párrafo que introduce el testimonio de Matheson",
+      "severity": "minor",
+      "source_quote": "Fortunately, Dr. Matheson did relate an account of his writing of this hymn:",
+      "suggested_fix": "Cambiar «relató un relato sobre» por «ofreció un relato sobre».",
+      "translation_quote": "Por fortuna, el Dr. Matheson relató un relato sobre la composición de este himno:"
+    },
+    {
+      "location": "translation.html, última oración del testimonio de Matheson",
+      "severity": "minor",
+      "source_quote": "I have never been able to gain once more the same fervor in verse.",
+      "suggested_fix": "Cambiar «esa misma fervor» por «ese mismo fervor».",
+      "translation_quote": "Nunca he podido recuperar esa misma fervor en verso."
+    },
+    {
+      "location": "translation.html, bloque de referencias, etiquetas de autor y compositor",
+      "severity": "minor",
+      "source_quote": "Author ... -George Matheson, 1842 – 1906; Composer ... -Albert L. Peace, 1844 – 1912",
+      "suggested_fix": "Traducir «Author» como «Autor» y «Composer» como «Compositor», conservando los espacios &nbsp;, los saltos <br>, los nombres y las fechas.",
+      "translation_quote": "Author&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-George Matheson, 1842 – 1906<br>\n  Composer&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Albert L. Peace, 1844 – 1912"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}
