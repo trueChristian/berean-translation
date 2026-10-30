@@ -301,7 +301,7 @@
       "section": "’N WOORD VAN DIE DOKTER",
       "source_revision": "5218aa9d155ece2a9fe433c9124bfd87783513eb",
       "source_translation_key": "e59b75700481435eacbacb44977c56edc6d21a27f62bd817a25bc0ab058ab7b4",
-      "status": "ready",
+      "status": "stale",
       "subtitle": "—Kwessies oor stamselle",
       "title": "“Regenerasie”",
       "translation_model": "gpt-6-luna"
@@ -846,7 +846,7 @@
       "section": "Kwesties waarmee die kerk te kampe het",
       "source_revision": "22388745ad7f149609e65f5e28cfcc1257cd689e",
       "source_translation_key": "2b4cf9970b894f7aedf5a219da1dc4346095485b89a6bbb1131b05841571db5f",
-      "status": "ready",
+      "status": "stale",
       "subtitle": null,
       "title": "Kerk en koninkryk",
       "translation_model": "gpt-6-luna"
@@ -1542,7 +1542,7 @@
       "section": "’n Woord van ’n Dokter",
       "source_revision": "9e6e1db340e802f71c7018950dc820482ecc4e5e",
       "source_translation_key": "ba22efc6cb9233faebc78cea85896092801ad5d430d2342a669d196dab4937e6",
-      "status": "ready",
+      "status": "stale",
       "subtitle": "DEEL 2",
       "title": "Kanker",
       "translation_model": "gpt-5-mini-2025-08-07"
@@ -2106,7 +2106,7 @@
       "section": "SUSTER TOT SUSTER",
       "source_revision": "58e50fca41cc0b53c8992502bd95166581036945",
       "source_translation_key": "4d40f50cafe108062bfb1732abf330fbbbb9f793395646dfdbb7a655811327dc",
-      "status": "ready",
+      "status": "stale",
       "subtitle": null,
       "title": "Klein Dinge",
       "translation_model": "gpt-6-luna"
@@ -2186,7 +2186,7 @@
       "section": null,
       "source_revision": "10c0f2432ce983497252f2dbafece735507c8574",
       "source_translation_key": "902e89194a80291dccbdca2ec785b51647fa9e7b6a37628b9453606d85075901",
-      "status": "ready",
+      "status": "stale",
       "subtitle": null,
       "title": "Wanneer koninkryke bots",
       "translation_model": "gpt-6-luna"
@@ -2842,7 +2842,7 @@
       "section": "Suster tot Suster",
       "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
       "source_translation_key": "bc655ca0e757a92869b0811d5a6de87a4ca48f1e4eef1923cd7135609b8dc379",
-      "status": "ready",
+      "status": "stale",
       "subtitle": null,
       "title": "’n Vreugdevolle Roeping",
       "translation_model": "gpt-6.1-sol"
@@ -3161,7 +3161,7 @@
       "section": "KINDERTYD",
       "source_revision": "a069ecca8827634ebc256b3b1cabc16aeb942ed7",
       "source_translation_key": "ec6de8a8b33bb22d48e0ed6657347459a8590c11da91cae3ce81604cef8bdf51",
-      "status": "ready",
+      "status": "stale",
       "subtitle": "’n Ware verhaal",
       "title": "Klein Ramona se hoogmoed",
       "translation_model": "gpt-6-luna"
@@ -3306,7 +3306,7 @@
       "section": null,
       "source_revision": "3a4d9237b136f074ca1fae9ed0a26c4304577934",
       "source_translation_key": "a748a750308bd832e277e952779df66318e4e2d2a2e40c0ec8292333d320ccad",
-      "status": "ready",
+      "status": "stale",
       "subtitle": "Skatting van die Kanaäniete eis",
       "title": "Vyand of bondgenoot?",
       "translation_model": "gpt-6-luna"
@@ -3394,7 +3394,7 @@
       "section": "’n Woord van ’n Dokter",
       "source_revision": "22388745ad7f149609e65f5e28cfcc1257cd689e",
       "source_translation_key": "0716e41f01ddda449f14a6bbee04f91763655c22cad9e3ea3bdcc679307e4a6d",
-      "status": "ready",
+      "status": "stale",
       "subtitle": null,
       "title": "’n Gesonde Immuunstelsel",
       "translation_model": "gpt-6-luna"
@@ -3426,7 +3426,7 @@
       "section": "’N WOORD VAN DIE DOKTER",
       "source_revision": "64ea28030e851a482123ca4c60821b9d7714265f",
       "source_translation_key": "ec43625b60066cefa888f232f4236209884f34b28ac83e77d97e991080cb7954",
-      "status": "ready",
+      "status": "stale",
       "subtitle": "—Stamselkwessies",
       "title": "“Regenerasie”",
       "translation_model": "gpt-6-luna"
@@ -5184,7 +5184,7 @@
       "section": "كلمة من الطبيب",
       "source_revision": "5218aa9d155ece2a9fe433c9124bfd87783513eb",
       "source_translation_key": "e59b75700481435eacbacb44977c56edc6d21a27f62bd817a25bc0ab058ab7b4",
-      "status": "ready",
+      "status": "stale",
       "subtitle": "—قضايا الخلايا الجذعية",
       "title": "«التجدد»",
       "translation_model": "gpt-6-luna"
@@ -5654,7 +5654,7 @@
       "section": "قضايا تواجه الكنيسة",
       "source_revision": "22388745ad7f149609e65f5e28cfcc1257cd689e",
       "source_translation_key": "2b4cf9970b894f7aedf5a219da1dc4346095485b89a6bbb1131b05841571db5f",
-      "status": "ready",
+      "status": "stale",
       "subtitle": null,
       "title": "الكنيسة والملكوت",
       "translation_model": "gpt-6-luna"
@@ -6597,7 +6597,7 @@
       "section": null,
       "source_revision": "10c0f2432ce983497252f2dbafece735507c8574",
       "source_translation_key": "902e89194a80291dccbdca2ec785b51647fa9e7b6a37628b9453606d85075901",
-      "status": "ready",
+      "status": "stale",
       "subtitle": null,
       "title": "حين تصطدم الممالك",
       "translation_model": "gpt-6-luna"
@@ -7253,7 +7253,7 @@
       "section": "من أخت إلى أخت",
       "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
       "source_translation_key": "bc655ca0e757a92869b0811d5a6de87a4ca48f1e4eef1923cd7135609b8dc379",
-      "status": "ready",
+      "status": "stale",
       "subtitle": null,
       "title": "دعوة مفرحة",
       "translation_model": "gpt-6.1-sol"
@@ -7544,7 +7544,7 @@
       "section": "ركن الأطفال",
       "source_revision": "a069ecca8827634ebc256b3b1cabc16aeb942ed7",
       "source_translation_key": "ec6de8a8b33bb22d48e0ed6657347459a8590c11da91cae3ce81604cef8bdf51",
-      "status": "ready",
+      "status": "stale",
       "subtitle": "قصة حقيقية",
       "title": "كبرياء رامونا الصغيرة",
       "translation_model": "gpt-6-luna"
@@ -7705,7 +7705,7 @@
       "section": "كلمة من الطبيب",
       "source_revision": "64ea28030e851a482123ca4c60821b9d7714265f",
       "source_translation_key": "ec43625b60066cefa888f232f4236209884f34b28ac83e77d97e991080cb7954",
-      "status": "ready",
+      "status": "stale",
       "subtitle": "—مسائل الخلايا الجذعية",
       "title": "«التجدد»",
       "translation_model": "gpt-6-luna"
@@ -8392,7 +8392,7 @@
       "section": "كلمة من طبيب",
       "source_revision": "4abee09be2b86df87635a1cdad1cab0a9693df12",
       "source_translation_key": "8ceae8db8be424ea71f28c6f16f87e584da5e2973ea32ca19fd1e65694a1caf4",
-      "status": "ready",
+      "status": "stale",
       "subtitle": null,
       "title": "التطعيم... أأكون أم لا أكون؟",
       "translation_model": "gpt-6-luna"
@@ -8642,7 +8642,7 @@
       "section": "كلمة من الطبيب",
       "source_revision": "515b02c3856faf0a131247f46824717e2758eadc",
       "source_translation_key": "58c6b186ae61399858ed8db90fde21695dac94e5071954e24b2a7174d56d96ef",
-      "status": "ready",
+      "status": "stale",
       "subtitle": null,
       "title": "الخَرَف",
       "translation_model": "gpt-5-mini-2025-08-07"
@@ -9263,7 +9263,7 @@
       "section": "বোন থেকে বোনের কাছে",
       "source_revision": "22388745ad7f149609e65f5e28cfcc1257cd689e",
       "source_translation_key": "02094487d8f24d702ac08faa8690036734e3452197733c757e1256a4e9018bcf",
-      "status": "ready",
+      "status": "stale",
       "subtitle": null,
       "title": "অসম্মান ও ক্ষতি",
       "translation_model": "gpt-6-luna"
@@ -9430,7 +9430,7 @@
       "section": "একজন চিকিৎসকের কথা",
       "source_revision": "5218aa9d155ece2a9fe433c9124bfd87783513eb",
       "source_translation_key": "e59b75700481435eacbacb44977c56edc6d21a27f62bd817a25bc0ab058ab7b4",
-      "status": "ready",
+      "status": "stale",
       "subtitle": "—স্টেম সেল-সংক্রান্ত বিষয়",
       "title": "“পুনর্জনন”",
       "translation_model": "gpt-6-luna"
@@ -9867,7 +9867,7 @@
       "section": "মণ্ডলীর ইতিহাস",
       "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
       "source_translation_key": "0ec18dc4a4b289e72e00424bde99770f0dbc52c0ceb26b1a16a8b4b40097dc16",
-      "status": "ready",
+      "status": "stale",
       "subtitle": null,
       "title": "নেরো: এক সম্রাটের জীবন",
       "translation_model": "gpt-6.1-sol"
@@ -9959,7 +9959,7 @@
       "section": "গির্জার সামনে থাকা বিষয়সমূহ",
       "source_revision": "22388745ad7f149609e65f5e28cfcc1257cd689e",
       "source_translation_key": "2b4cf9970b894f7aedf5a219da1dc4346095485b89a6bbb1131b05841571db5f",
-      "status": "ready",
+      "status": "stale",
       "subtitle": null,
       "title": "গির্জা ও রাজ্য",
       "translation_model": "gpt-6-luna"
@@ -10563,7 +10563,7 @@
       "section": "একজন ডাক্তারের কথা",
       "source_revision": "9e6e1db340e802f71c7018950dc820482ecc4e5e",
       "source_translation_key": "ba22efc6cb9233faebc78cea85896092801ad5d430d2342a669d196dab4937e6",
-      "status": "ready",
+      "status": "stale",
       "subtitle": "অংশ ২",
       "title": "ক্যান্সার",
       "translation_model": "gpt-5-mini-2025-08-07"
@@ -11879,7 +11879,7 @@
       "section": "একজন চিকিৎসকের কথা",
       "source_revision": "22388745ad7f149609e65f5e28cfcc1257cd689e",
       "source_translation_key": "0716e41f01ddda449f14a6bbee04f91763655c22cad9e3ea3bdcc679307e4a6d",
-      "status": "ready",
+      "status": "stale",
       "subtitle": null,
       "title": "সুস্থ রোগপ্রতিরোধ ব্যবস্থা",
       "translation_model": "gpt-6-luna"
@@ -12570,7 +12570,7 @@
       "section": "একজন চিকিৎসকের কথা",
       "source_revision": "4abee09be2b86df87635a1cdad1cab0a9693df12",
       "source_translation_key": "8ceae8db8be424ea71f28c6f16f87e584da5e2973ea32ca19fd1e65694a1caf4",
-      "status": "ready",
+      "status": "stale",
       "subtitle": null,
       "title": "টিকা নেবেন… নাকি নেবেন না?",
       "translation_model": "gpt-6-luna"
@@ -13343,7 +13343,7 @@
       "section": "姐妹之间",
       "source_revision": "22388745ad7f149609e65f5e28cfcc1257cd689e",
       "source_translation_key": "02094487d8f24d702ac08faa8690036734e3452197733c757e1256a4e9018bcf",
-      "status": "ready",
+      "status": "stale",
       "subtitle": null,
       "title": "轻蔑与失落",
       "translation_model": "gpt-6-luna"
@@ -13538,7 +13538,7 @@
       "section": "医生的话",
       "source_revision": "5218aa9d155ece2a9fe433c9124bfd87783513eb",
       "source_translation_key": "e59b75700481435eacbacb44977c56edc6d21a27f62bd817a25bc0ab058ab7b4",
-      "status": "ready",
+      "status": "stale",
       "subtitle": "—干细胞问题",
       "title": "“再生”",
       "translation_model": "gpt-6-luna"
@@ -13943,7 +13943,7 @@
       "section": "教会面临的问题",
       "source_revision": "22388745ad7f149609e65f5e28cfcc1257cd689e",
       "source_translation_key": "2b4cf9970b894f7aedf5a219da1dc4346095485b89a6bbb1131b05841571db5f",
-      "status": "ready",
+      "status": "stale",
       "subtitle": null,
       "title": "教会与国度",
       "translation_model": "gpt-6-luna"
@@ -14445,7 +14445,7 @@
       "section": "医生的话",
       "source_revision": "9e6e1db340e802f71c7018950dc820482ecc4e5e",
       "source_translation_key": "ba22efc6cb9233faebc78cea85896092801ad5d430d2342a669d196dab4937e6",
-      "status": "ready",
+      "status": "stale",
       "subtitle": "第2部分",
       "title": "癌症",
       "translation_model": "gpt-5-mini-2025-08-07"
@@ -14889,7 +14889,7 @@
       "section": "姐妹之间",
       "source_revision": "58e50fca41cc0b53c8992502bd95166581036945",
       "source_translation_key": "4d40f50cafe108062bfb1732abf330fbbbb9f793395646dfdbb7a655811327dc",
-      "status": "ready",
+      "status": "stale",
       "subtitle": null,
       "title": "微小的事",
       "translation_model": "gpt-6-luna"
@@ -14969,7 +14969,7 @@
       "section": null,
       "source_revision": "10c0f2432ce983497252f2dbafece735507c8574",
       "source_translation_key": "902e89194a80291dccbdca2ec785b51647fa9e7b6a37628b9453606d85075901",
-      "status": "ready",
+      "status": "stale",
       "subtitle": null,
       "title": "国度冲突之时",
       "translation_model": "gpt-6-luna"
@@ -15514,7 +15514,7 @@
       "section": "姐妹对姐妹",
       "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
       "source_translation_key": "bc655ca0e757a92869b0811d5a6de87a4ca48f1e4eef1923cd7135609b8dc379",
-      "status": "ready",
+      "status": "stale",
       "subtitle": null,
       "title": "喜乐的呼召",
       "translation_model": "gpt-5-mini-2025-08-07"
@@ -15930,7 +15930,7 @@
       "section": "医生的话",
       "source_revision": "22388745ad7f149609e65f5e28cfcc1257cd689e",
       "source_translation_key": "0716e41f01ddda449f14a6bbee04f91763655c22cad9e3ea3bdcc679307e4a6d",
-      "status": "ready",
+      "status": "stale",
       "subtitle": null,
       "title": "健康的免疫系统",
       "translation_model": "gpt-6-luna"
@@ -15990,7 +15990,7 @@
       "section": "医生的话",
       "source_revision": "64ea28030e851a482123ca4c60821b9d7714265f",
       "source_translation_key": "ec43625b60066cefa888f232f4236209884f34b28ac83e77d97e991080cb7954",
-      "status": "ready",
+      "status": "stale",
       "subtitle": "—干细胞问题",
       "title": "“再生”",
       "translation_model": "gpt-6-luna"
@@ -16863,7 +16863,7 @@
       "section": "医生的话",
       "source_revision": "4abee09be2b86df87635a1cdad1cab0a9693df12",
       "source_translation_key": "8ceae8db8be424ea71f28c6f16f87e584da5e2973ea32ca19fd1e65694a1caf4",
-      "status": "ready",
+      "status": "stale",
       "subtitle": null,
       "title": "接种疫苗……该不该接种？",
       "translation_model": "gpt-6-luna"
@@ -17154,7 +17154,7 @@
       "section": "医生的话",
       "source_revision": "515b02c3856faf0a131247f46824717e2758eadc",
       "source_translation_key": "58c6b186ae61399858ed8db90fde21695dac94e5071954e24b2a7174d56d96ef",
-      "status": "ready",
+      "status": "stale",
       "subtitle": null,
       "title": "痴呆",
       "translation_model": "gpt-5-mini-2025-08-07"
@@ -17738,7 +17738,7 @@
       "section": "EIN WORT VOM ARZT",
       "source_revision": "5218aa9d155ece2a9fe433c9124bfd87783513eb",
       "source_translation_key": "e59b75700481435eacbacb44977c56edc6d21a27f62bd817a25bc0ab058ab7b4",
-      "status": "ready",
+      "status": "stale",
       "subtitle": "—Stammzellfragen",
       "title": "„Regeneration“",
       "translation_model": "gpt-6-luna"
@@ -18246,7 +18246,7 @@
       "section": "THEMEN, DIE DIE KIRCHE BETREFFEN",
       "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
       "source_translation_key": "892a457085e971e00bab46af7f91c51fbdea164ca51ce422e2038ddc5e401e17",
-      "status": "ready",
+      "status": "stale",
       "subtitle": null,
       "title": "Die Torheit der Predigt",
       "translation_model": "gpt-5-mini-2025-08-07"
@@ -19978,7 +19978,7 @@
       "section": null,
       "source_revision": "3a4d9237b136f074ca1fae9ed0a26c4304577934",
       "source_translation_key": "a748a750308bd832e277e952779df66318e4e2d2a2e40c0ec8292333d320ccad",
-      "status": "ready",
+      "status": "stale",
       "subtitle": "Den Kanaanitern Tribut abnehmen",
       "title": "Feind oder Verbündeter?",
       "translation_model": "gpt-6.1-sol"
@@ -20038,7 +20038,7 @@
       "section": "Ein Wort von einem Arzt",
       "source_revision": "22388745ad7f149609e65f5e28cfcc1257cd689e",
       "source_translation_key": "0716e41f01ddda449f14a6bbee04f91763655c22cad9e3ea3bdcc679307e4a6d",
-      "status": "ready",
+      "status": "stale",
       "subtitle": null,
       "title": "Ein gesundes Immunsystem",
       "translation_model": "gpt-6-luna"
@@ -20936,7 +20936,7 @@
       "section": "Ein Wort des Arztes",
       "source_revision": "515b02c3856faf0a131247f46824717e2758eadc",
       "source_translation_key": "58c6b186ae61399858ed8db90fde21695dac94e5071954e24b2a7174d56d96ef",
-      "status": "ready",
+      "status": "stale",
       "subtitle": null,
       "title": "DEMENZ",
       "translation_model": "gpt-6.1-sol"
@@ -21664,7 +21664,7 @@
       "section": "ΜΙΑ ΛΕΞΗ ΑΠΟ ΤΟΝ ΓΙΑΤΡΟ",
       "source_revision": "5218aa9d155ece2a9fe433c9124bfd87783513eb",
       "source_translation_key": "e59b75700481435eacbacb44977c56edc6d21a27f62bd817a25bc0ab058ab7b4",
-      "status": "ready",
+      "status": "stale",
       "subtitle": "—Ζητήματα βλαστοκυττάρων",
       "title": "«Αναγέννηση»",
       "translation_model": "gpt-6-luna"
@@ -21950,7 +21950,7 @@
       "section": "ΙΣΤΟΡΙΑ ΤΗΣ ΕΚΚΛΗΣΙΑΣ",
       "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
       "source_translation_key": "0ec18dc4a4b289e72e00424bde99770f0dbc52c0ceb26b1a16a8b4b40097dc16",
-      "status": "ready",
+      "status": "stale",
       "subtitle": null,
       "title": "Νέρων: Η ζωή ενός αυτοκράτορα",
       "translation_model": "gpt-6.1-sol"
@@ -22065,7 +22065,7 @@
       "section": "Ζητήματα που αντιμετωπίζει η Εκκλησία",
       "source_revision": "22388745ad7f149609e65f5e28cfcc1257cd689e",
       "source_translation_key": "2b4cf9970b894f7aedf5a219da1dc4346095485b89a6bbb1131b05841571db5f",
-      "status": "ready",
+      "status": "stale",
       "subtitle": null,
       "title": "Εκκλησία και Βασιλεία",
       "translation_model": "gpt-6-luna"
@@ -22660,7 +22660,7 @@
       "section": "Λόγος Από Έναν Γιατρό",
       "source_revision": "9e6e1db340e802f71c7018950dc820482ecc4e5e",
       "source_translation_key": "ba22efc6cb9233faebc78cea85896092801ad5d430d2342a669d196dab4937e6",
-      "status": "ready",
+      "status": "stale",
       "subtitle": "ΜΕΡΟΣ 2",
       "title": "Καρκίνος",
       "translation_model": "gpt-5-mini-2025-08-07"
@@ -23211,7 +23211,7 @@
       "section": null,
       "source_revision": "1345fa41b99f7638900dd7c9385c44491d97f34b",
       "source_translation_key": "902e89194a80291dccbdca2ec785b51647fa9e7b6a37628b9453606d85075901",
-      "status": "ready",
+      "status": "stale",
       "subtitle": null,
       "title": "Όταν συγκρούονται βασίλεια",
       "translation_model": "gpt-6.1-sol"
@@ -24129,7 +24129,7 @@
       "section": "Η ΓΩΝΙΑ ΤΩΝ ΠΑΙΔΙΩΝ",
       "source_revision": "a069ecca8827634ebc256b3b1cabc16aeb942ed7",
       "source_translation_key": "ec6de8a8b33bb22d48e0ed6657347459a8590c11da91cae3ce81604cef8bdf51",
-      "status": "ready",
+      "status": "stale",
       "subtitle": "Μια αληθινή ιστορία",
       "title": "Η υπερηφάνεια της μικρής Ραμόνας",
       "translation_model": "gpt-6-luna"
@@ -24290,7 +24290,7 @@
       "section": "Μια λέξη από έναν γιατρό",
       "source_revision": "22388745ad7f149609e65f5e28cfcc1257cd689e",
       "source_translation_key": "0716e41f01ddda449f14a6bbee04f91763655c22cad9e3ea3bdcc679307e4a6d",
-      "status": "ready",
+      "status": "stale",
       "subtitle": null,
       "title": "Ένα υγιές ανοσοποιητικό σύστημα",
       "translation_model": "gpt-6-luna"
@@ -25055,7 +25055,7 @@
       "section": "ΜΙΑ ΛΕΞΗ ΑΠΟ ΕΝΑΝ ΓΙΑΤΡΟ",
       "source_revision": "4abee09be2b86df87635a1cdad1cab0a9693df12",
       "source_translation_key": "8ceae8db8be424ea71f28c6f16f87e584da5e2973ea32ca19fd1e65694a1caf4",
-      "status": "ready",
+      "status": "stale",
       "subtitle": null,
       "title": "Εμβολιασμός… Να γίνει ή να μη γίνει;",
       "translation_model": "gpt-6-luna"
@@ -25888,7 +25888,7 @@
       "section": "De sœur à sœur",
       "source_revision": "22388745ad7f149609e65f5e28cfcc1257cd689e",
       "source_translation_key": "02094487d8f24d702ac08faa8690036734e3452197733c757e1256a4e9018bcf",
-      "status": "ready",
+      "status": "stale",
       "subtitle": null,
       "title": "Mépris et perte",
       "translation_model": "gpt-6-luna"
@@ -26083,7 +26083,7 @@
       "section": "PAROLE DU MÉDECIN",
       "source_revision": "5218aa9d155ece2a9fe433c9124bfd87783513eb",
       "source_translation_key": "e59b75700481435eacbacb44977c56edc6d21a27f62bd817a25bc0ab058ab7b4",
-      "status": "ready",
+      "status": "stale",
       "subtitle": "— Questions liées aux cellules souches",
       "title": "« Régénération »",
       "translation_model": "gpt-6-luna"
@@ -26969,7 +26969,7 @@
       "section": "QUESTIONS AFFECTANT L'ÉGLISE",
       "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
       "source_translation_key": "892a457085e971e00bab46af7f91c51fbdea164ca51ce422e2038ddc5e401e17",
-      "status": "ready",
+      "status": "stale",
       "subtitle": null,
       "title": "La folie de la prédication",
       "translation_model": "gpt-5-mini-2025-08-07"
@@ -27278,7 +27278,7 @@
       "section": "Un mot d'un médecin",
       "source_revision": "9e6e1db340e802f71c7018950dc820482ecc4e5e",
       "source_translation_key": "ba22efc6cb9233faebc78cea85896092801ad5d430d2342a669d196dab4937e6",
-      "status": "ready",
+      "status": "stale",
       "subtitle": "PARTIE 2",
       "title": "Cancer",
       "translation_model": "gpt-5-mini-2025-08-07"
@@ -27787,7 +27787,7 @@
       "section": "DE SŒUR À SŒUR",
       "source_revision": "58e50fca41cc0b53c8992502bd95166581036945",
       "source_translation_key": "4d40f50cafe108062bfb1732abf330fbbbb9f793395646dfdbb7a655811327dc",
-      "status": "ready",
+      "status": "stale",
       "subtitle": null,
       "title": "Les petites choses",
       "translation_model": "gpt-6-luna"
@@ -28452,7 +28452,7 @@
       "section": "Sœur à sœur",
       "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
       "source_translation_key": "bc655ca0e757a92869b0811d5a6de87a4ca48f1e4eef1923cd7135609b8dc379",
-      "status": "ready",
+      "status": "stale",
       "subtitle": null,
       "title": "Un appel joyeux",
       "translation_model": "gpt-5-mini-2025-08-07"
@@ -28720,7 +28720,7 @@
       "section": "COIN DES ENFANTS",
       "source_revision": "a069ecca8827634ebc256b3b1cabc16aeb942ed7",
       "source_translation_key": "ec6de8a8b33bb22d48e0ed6657347459a8590c11da91cae3ce81604cef8bdf51",
-      "status": "ready",
+      "status": "stale",
       "subtitle": "Une histoire vraie",
       "title": "L’orgueil de la petite Ramona",
       "translation_model": "gpt-6-luna"
@@ -28748,7 +28748,7 @@
       "section": "HISTOIRE DES HYMNES",
       "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
       "source_translation_key": "151c676a3a3f4de7275eee354cc0c629e172ecc2dbb372f12ae064df79d4e44e",
-      "status": "ready",
+      "status": "stale",
       "subtitle": null,
       "title": "Quand toutes tes miséricordes, ô mon Dieu",
       "translation_model": "gpt-5-mini-2025-08-07"
@@ -28937,7 +28937,7 @@
       "section": "Parole d’un médecin",
       "source_revision": "22388745ad7f149609e65f5e28cfcc1257cd689e",
       "source_translation_key": "0716e41f01ddda449f14a6bbee04f91763655c22cad9e3ea3bdcc679307e4a6d",
-      "status": "ready",
+      "status": "stale",
       "subtitle": null,
       "title": "Un système immunitaire en bonne santé",
       "translation_model": "gpt-6-luna"
@@ -29791,7 +29791,7 @@
       "section": "PAROLE D’UN MÉDECIN",
       "source_revision": "4abee09be2b86df87635a1cdad1cab0a9693df12",
       "source_translation_key": "8ceae8db8be424ea71f28c6f16f87e584da5e2973ea32ca19fd1e65694a1caf4",
-      "status": "ready",
+      "status": "stale",
       "subtitle": null,
       "title": "Se faire vacciner… ou ne pas se faire vacciner?",
       "translation_model": "gpt-6-luna"
@@ -30476,7 +30476,7 @@
       "section": null,
       "source_revision": "4c7b25b348edeeef4eb5f9d22a221d06f0d80f02",
       "source_translation_key": "55e58c4244dd6dd6b1692c4227d138b24d40e716692e5145e50cf9883188c5b8",
-      "status": "ready",
+      "status": "stale",
       "subtitle": null,
       "title": "Racheter le baptême du Saint-Esprit au pentecôtisme",
       "translation_model": "gpt-6-luna"
@@ -30980,7 +30980,7 @@
       "section": "דבר הרופא",
       "source_revision": "5218aa9d155ece2a9fe433c9124bfd87783513eb",
       "source_translation_key": "e59b75700481435eacbacb44977c56edc6d21a27f62bd817a25bc0ab058ab7b4",
-      "status": "ready",
+      "status": "stale",
       "subtitle": "—סוגיות הנוגעות לתאי גזע",
       "title": "„התחדשות”",
       "translation_model": "gpt-6-luna"
@@ -31179,7 +31179,7 @@
       "section": "היסטוריה של הכנסייה",
       "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
       "source_translation_key": "0ec18dc4a4b289e72e00424bde99770f0dbc52c0ceb26b1a16a8b4b40097dc16",
-      "status": "ready",
+      "status": "stale",
       "subtitle": null,
       "title": "נירון: חייו של קיסר",
       "translation_model": "gpt-6.1-sol"
@@ -31266,7 +31266,7 @@
       "section": "סוגיות העומדות בפני הכנסייה",
       "source_revision": "22388745ad7f149609e65f5e28cfcc1257cd689e",
       "source_translation_key": "2b4cf9970b894f7aedf5a219da1dc4346095485b89a6bbb1131b05841571db5f",
-      "status": "ready",
+      "status": "stale",
       "subtitle": null,
       "title": "הכנסייה והמלכות",
       "translation_model": "gpt-6-luna"
@@ -31988,7 +31988,7 @@
       "section": null,
       "source_revision": "1345fa41b99f7638900dd7c9385c44491d97f34b",
       "source_translation_key": "902e89194a80291dccbdca2ec785b51647fa9e7b6a37628b9453606d85075901",
-      "status": "ready",
+      "status": "stale",
       "subtitle": null,
       "title": "כאשר ממלכות מתנגשות",
       "translation_model": "gpt-6-luna"
@@ -32580,7 +32580,7 @@
       "section": "מאחות לאחות",
       "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
       "source_translation_key": "bc655ca0e757a92869b0811d5a6de87a4ca48f1e4eef1923cd7135609b8dc379",
-      "status": "ready",
+      "status": "stale",
       "subtitle": null,
       "title": "קריאה מלאת שמחה",
       "translation_model": "gpt-6.1-sol"
@@ -32861,7 +32861,7 @@
       "section": "דברי רופא",
       "source_revision": "22388745ad7f149609e65f5e28cfcc1257cd689e",
       "source_translation_key": "0716e41f01ddda449f14a6bbee04f91763655c22cad9e3ea3bdcc679307e4a6d",
-      "status": "ready",
+      "status": "stale",
       "subtitle": null,
       "title": "מערכת חיסון בריאה",
       "translation_model": "gpt-6-luna"
@@ -33965,7 +33965,7 @@
       "section": "डॉक्टर की ओर से एक शब्द",
       "source_revision": "5218aa9d155ece2a9fe433c9124bfd87783513eb",
       "source_translation_key": "e59b75700481435eacbacb44977c56edc6d21a27f62bd817a25bc0ab058ab7b4",
-      "status": "ready",
+      "status": "stale",
       "subtitle": "—स्टेम कोशिकाओं के मुद्दे",
       "title": "“पुनर्योजन”",
       "translation_model": "gpt-6-luna"
@@ -34370,7 +34370,7 @@
       "section": "कलीसिया का इतिहास",
       "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
       "source_translation_key": "0ec18dc4a4b289e72e00424bde99770f0dbc52c0ceb26b1a16a8b4b40097dc16",
-      "status": "ready",
+      "status": "stale",
       "subtitle": null,
       "title": "नीरो: एक सम्राट का जीवन",
       "translation_model": "gpt-6.1-sol"
@@ -34734,7 +34734,7 @@
       "section": "चर्च को प्रभावित करने वाले मुद्दे",
       "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
       "source_translation_key": "892a457085e971e00bab46af7f91c51fbdea164ca51ce422e2038ddc5e401e17",
-      "status": "ready",
+      "status": "stale",
       "subtitle": null,
       "title": "उपदेश की मूर्खता",
       "translation_model": "gpt-5-mini-2025-08-07"
@@ -35062,7 +35062,7 @@
       "section": "डॉक्टर का शब्द",
       "source_revision": "9e6e1db340e802f71c7018950dc820482ecc4e5e",
       "source_translation_key": "ba22efc6cb9233faebc78cea85896092801ad5d430d2342a669d196dab4937e6",
-      "status": "ready",
+      "status": "stale",
       "subtitle": "भाग 2",
       "title": "कैंसर",
       "translation_model": "gpt-5-mini-2025-08-07"
@@ -35503,7 +35503,7 @@
       "section": "बहन से बहन",
       "source_revision": "58e50fca41cc0b53c8992502bd95166581036945",
       "source_translation_key": "4d40f50cafe108062bfb1732abf330fbbbb9f793395646dfdbb7a655811327dc",
-      "status": "ready",
+      "status": "stale",
       "subtitle": null,
       "title": "छोटी-छोटी बातें",
       "translation_model": "gpt-6-luna"
@@ -35583,7 +35583,7 @@
       "section": null,
       "source_revision": "10c0f2432ce983497252f2dbafece735507c8574",
       "source_translation_key": "902e89194a80291dccbdca2ec785b51647fa9e7b6a37628b9453606d85075901",
-      "status": "ready",
+      "status": "stale",
       "subtitle": null,
       "title": "जब राज्यों का टकराव होता है",
       "translation_model": "gpt-6-luna"
@@ -36525,7 +36525,7 @@
       "section": "बच्चों का कोना",
       "source_revision": "a069ecca8827634ebc256b3b1cabc16aeb942ed7",
       "source_translation_key": "ec6de8a8b33bb22d48e0ed6657347459a8590c11da91cae3ce81604cef8bdf51",
-      "status": "ready",
+      "status": "stale",
       "subtitle": "एक सच्ची कहानी",
       "title": "छोटी रामोना का घमंड",
       "translation_model": "gpt-6-luna"
@@ -36553,7 +36553,7 @@
       "section": "भजन इतिहास",
       "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
       "source_translation_key": "151c676a3a3f4de7275eee354cc0c629e172ecc2dbb372f12ae064df79d4e44e",
-      "status": "ready",
+      "status": "stale",
       "subtitle": null,
       "title": "तेरी सारी दयाएँ, हे मेरे परमेश्वर",
       "translation_model": "gpt-5-mini-2025-08-07"
@@ -36675,7 +36675,7 @@
       "section": null,
       "source_revision": "3a4d9237b136f074ca1fae9ed0a26c4304577934",
       "source_translation_key": "a748a750308bd832e277e952779df66318e4e2d2a2e40c0ec8292333d320ccad",
-      "status": "ready",
+      "status": "stale",
       "subtitle": "कनानियों से कर वसूलना",
       "title": "शत्रु या सहयोगी?",
       "translation_model": "gpt-6.1-sol"
@@ -36763,7 +36763,7 @@
       "section": "डॉक्टर की ओर से एक संदेश",
       "source_revision": "64ea28030e851a482123ca4c60821b9d7714265f",
       "source_translation_key": "ec43625b60066cefa888f232f4236209884f34b28ac83e77d97e991080cb7954",
-      "status": "ready",
+      "status": "stale",
       "subtitle": "—स्टेम सेल से जुड़े मुद्दे",
       "title": "“पुनर्जनन”",
       "translation_model": "gpt-6-luna"
@@ -37584,7 +37584,7 @@
       "section": "एक डॉक्टर की ओर से",
       "source_revision": "4abee09be2b86df87635a1cdad1cab0a9693df12",
       "source_translation_key": "8ceae8db8be424ea71f28c6f16f87e584da5e2973ea32ca19fd1e65694a1caf4",
-      "status": "ready",
+      "status": "stale",
       "subtitle": null,
       "title": "टीका लगवाएँ… या न लगवाएँ?",
       "translation_model": "gpt-6-luna"
@@ -38376,7 +38376,7 @@
       "section": "Dari Saudari kepada Saudari",
       "source_revision": "22388745ad7f149609e65f5e28cfcc1257cd689e",
       "source_translation_key": "02094487d8f24d702ac08faa8690036734e3452197733c757e1256a4e9018bcf",
-      "status": "ready",
+      "status": "stale",
       "subtitle": null,
       "title": "Sikap Tidak Hormat dan Kehilangan",
       "translation_model": "gpt-6-luna"
@@ -38576,7 +38576,7 @@
       "section": "SEPATAH KATA DARI DOKTER",
       "source_revision": "5218aa9d155ece2a9fe433c9124bfd87783513eb",
       "source_translation_key": "e59b75700481435eacbacb44977c56edc6d21a27f62bd817a25bc0ab058ab7b4",
-      "status": "ready",
+      "status": "stale",
       "subtitle": "—Persoalan Sel Punca",
       "title": "“Regenerasi”",
       "translation_model": "gpt-6-luna"
@@ -38921,7 +38921,7 @@
       "section": "SEJARAH GEREJA",
       "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
       "source_translation_key": "0ec18dc4a4b289e72e00424bde99770f0dbc52c0ceb26b1a16a8b4b40097dc16",
-      "status": "ready",
+      "status": "stale",
       "subtitle": null,
       "title": "Nero: Kehidupan Seorang Kaisar",
       "translation_model": "gpt-6.1-sol"
@@ -39036,7 +39036,7 @@
       "section": "Isu-Isu yang Dihadapi Gereja",
       "source_revision": "22388745ad7f149609e65f5e28cfcc1257cd689e",
       "source_translation_key": "2b4cf9970b894f7aedf5a219da1dc4346095485b89a6bbb1131b05841571db5f",
-      "status": "ready",
+      "status": "stale",
       "subtitle": null,
       "title": "Gereja dan Kerajaan",
       "translation_model": "gpt-6-luna"
@@ -39294,7 +39294,7 @@
       "section": "ISU YANG MEMPENGARUHI GEREJA",
       "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
       "source_translation_key": "892a457085e971e00bab46af7f91c51fbdea164ca51ce422e2038ddc5e401e17",
-      "status": "ready",
+      "status": "stale",
       "subtitle": null,
       "title": "Kebodohan Pemberitaan",
       "translation_model": "gpt-5-mini-2025-08-07"
@@ -39710,7 +39710,7 @@
       "section": "Kata Dari Seorang Dokter",
       "source_revision": "9e6e1db340e802f71c7018950dc820482ecc4e5e",
       "source_translation_key": "ba22efc6cb9233faebc78cea85896092801ad5d430d2342a669d196dab4937e6",
-      "status": "ready",
+      "status": "stale",
       "subtitle": "BAGIAN 2",
       "title": "Kanker",
       "translation_model": "gpt-5-mini-2025-08-07"
@@ -40163,7 +40163,7 @@
       "section": "DARI SAUDARI UNTUK SAUDARI",
       "source_revision": "58e50fca41cc0b53c8992502bd95166581036945",
       "source_translation_key": "4d40f50cafe108062bfb1732abf330fbbbb9f793395646dfdbb7a655811327dc",
-      "status": "ready",
+      "status": "stale",
       "subtitle": null,
       "title": "Hal-Hal Kecil",
       "translation_model": "gpt-6-luna"
@@ -40243,7 +40243,7 @@
       "section": null,
       "source_revision": "10c0f2432ce983497252f2dbafece735507c8574",
       "source_translation_key": "902e89194a80291dccbdca2ec785b51647fa9e7b6a37628b9453606d85075901",
-      "status": "ready",
+      "status": "stale",
       "subtitle": null,
       "title": "Ketika Kerajaan-Kerajaan Berbenturan",
       "translation_model": "gpt-6-luna"
@@ -40983,7 +40983,7 @@
       "section": "Saudari untuk Saudari",
       "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
       "source_translation_key": "bc655ca0e757a92869b0811d5a6de87a4ca48f1e4eef1923cd7135609b8dc379",
-      "status": "ready",
+      "status": "stale",
       "subtitle": null,
       "title": "Panggilan yang Penuh Sukacita",
       "translation_model": "gpt-5-mini-2025-08-07"
@@ -41246,7 +41246,7 @@
       "section": "POJOK ANAK-ANAK",
       "source_revision": "a069ecca8827634ebc256b3b1cabc16aeb942ed7",
       "source_translation_key": "ec6de8a8b33bb22d48e0ed6657347459a8590c11da91cae3ce81604cef8bdf51",
-      "status": "ready",
+      "status": "stale",
       "subtitle": "Kisah Nyata",
       "title": "Kesombongan Ramona Kecil",
       "translation_model": "gpt-6-luna"
@@ -41274,7 +41274,7 @@
       "section": "HYMN HISTORY",
       "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
       "source_translation_key": "151c676a3a3f4de7275eee354cc0c629e172ecc2dbb372f12ae064df79d4e44e",
-      "status": "ready",
+      "status": "stale",
       "subtitle": null,
       "title": "Ketika Semua Kasih‑Mu, Ya Allah",
       "translation_model": "gpt-5-mini-2025-08-07"
@@ -41440,7 +41440,7 @@
       "section": "Renungan dari Seorang Dokter",
       "source_revision": "22388745ad7f149609e65f5e28cfcc1257cd689e",
       "source_translation_key": "0716e41f01ddda449f14a6bbee04f91763655c22cad9e3ea3bdcc679307e4a6d",
-      "status": "ready",
+      "status": "stale",
       "subtitle": null,
       "title": "Sistem Kekebalan Tubuh yang Sehat",
       "translation_model": "gpt-6-luna"
@@ -41500,7 +41500,7 @@
       "section": "SEPATAH KATA DARI DOKTER",
       "source_revision": "64ea28030e851a482123ca4c60821b9d7714265f",
       "source_translation_key": "ec43625b60066cefa888f232f4236209884f34b28ac83e77d97e991080cb7954",
-      "status": "ready",
+      "status": "stale",
       "subtitle": "—Persoalan Sel Punca",
       "title": "“Regenerasi”",
       "translation_model": "gpt-6-luna"
@@ -42299,7 +42299,7 @@
       "section": "SEPATAH KATA DARI SEORANG DOKTER",
       "source_revision": "4abee09be2b86df87635a1cdad1cab0a9693df12",
       "source_translation_key": "8ceae8db8be424ea71f28c6f16f87e584da5e2973ea32ca19fd1e65694a1caf4",
-      "status": "ready",
+      "status": "stale",
       "subtitle": null,
       "title": "Divaksinasi. . . Ya atau Tidak?",
       "translation_model": "gpt-6-luna"
@@ -43217,7 +43217,7 @@
       "section": "Da sorella a sorella",
       "source_revision": "22388745ad7f149609e65f5e28cfcc1257cd689e",
       "source_translation_key": "02094487d8f24d702ac08faa8690036734e3452197733c757e1256a4e9018bcf",
-      "status": "ready",
+      "status": "stale",
       "subtitle": null,
       "title": "Disonore e perdita",
       "translation_model": "gpt-6-luna"
@@ -43384,7 +43384,7 @@
       "section": "UNA PAROLA DAL MEDICO",
       "source_revision": "5218aa9d155ece2a9fe433c9124bfd87783513eb",
       "source_translation_key": "e59b75700481435eacbacb44977c56edc6d21a27f62bd817a25bc0ab058ab7b4",
-      "status": "ready",
+      "status": "stale",
       "subtitle": "—Questioni relative alle cellule staminali",
       "title": "«Rigenerazione»",
       "translation_model": "gpt-6-luna"
@@ -43757,7 +43757,7 @@
       "section": "STORIA DELLA CHIESA",
       "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
       "source_translation_key": "0ec18dc4a4b289e72e00424bde99770f0dbc52c0ceb26b1a16a8b4b40097dc16",
-      "status": "ready",
+      "status": "stale",
       "subtitle": null,
       "title": "Nerone: vita di un imperatore",
       "translation_model": "gpt-6.1-sol"
@@ -43872,7 +43872,7 @@
       "section": "Questioni che la chiesa deve affrontare",
       "source_revision": "22388745ad7f149609e65f5e28cfcc1257cd689e",
       "source_translation_key": "2b4cf9970b894f7aedf5a219da1dc4346095485b89a6bbb1131b05841571db5f",
-      "status": "ready",
+      "status": "stale",
       "subtitle": null,
       "title": "Chiesa e regno",
       "translation_model": "gpt-6-luna"
@@ -44459,7 +44459,7 @@
       "section": "Una parola da un medico",
       "source_revision": "9e6e1db340e802f71c7018950dc820482ecc4e5e",
       "source_translation_key": "ba22efc6cb9233faebc78cea85896092801ad5d430d2342a669d196dab4937e6",
-      "status": "ready",
+      "status": "stale",
       "subtitle": "PARTE 2",
       "title": "Cancro",
       "translation_model": "gpt-5-mini-2025-08-07"
@@ -45023,7 +45023,7 @@
       "section": "DA SORELLA A SORELLA",
       "source_revision": "58e50fca41cc0b53c8992502bd95166581036945",
       "source_translation_key": "4d40f50cafe108062bfb1732abf330fbbbb9f793395646dfdbb7a655811327dc",
-      "status": "ready",
+      "status": "stale",
       "subtitle": null,
       "title": "Le piccole cose",
       "translation_model": "gpt-6-luna"
@@ -45126,7 +45126,7 @@
       "section": null,
       "source_revision": "1345fa41b99f7638900dd7c9385c44491d97f34b",
       "source_translation_key": "902e89194a80291dccbdca2ec785b51647fa9e7b6a37628b9453606d85075901",
-      "status": "ready",
+      "status": "stale",
       "subtitle": null,
       "title": "Quando i regni si scontrano",
       "translation_model": "gpt-6-luna"
@@ -45833,7 +45833,7 @@
       "section": "Sorella a sorella",
       "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
       "source_translation_key": "bc655ca0e757a92869b0811d5a6de87a4ca48f1e4eef1923cd7135609b8dc379",
-      "status": "ready",
+      "status": "stale",
       "subtitle": null,
       "title": "Una chiamata gioiosa",
       "translation_model": "gpt-5-mini-2025-08-07"
@@ -46152,7 +46152,7 @@
       "section": "ANGOLO DEI BAMBINI",
       "source_revision": "a069ecca8827634ebc256b3b1cabc16aeb942ed7",
       "source_translation_key": "ec6de8a8b33bb22d48e0ed6657347459a8590c11da91cae3ce81604cef8bdf51",
-      "status": "ready",
+      "status": "stale",
       "subtitle": "Una storia vera",
       "title": "L’orgoglio della piccola Ramona",
       "translation_model": "gpt-6-luna"
@@ -46180,7 +46180,7 @@
       "section": "STORIA DELL'INNO",
       "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
       "source_translation_key": "151c676a3a3f4de7275eee354cc0c629e172ecc2dbb372f12ae064df79d4e44e",
-      "status": "ready",
+      "status": "stale",
       "subtitle": null,
       "title": "Quando tutte le tue misericordie, o mio Dio",
       "translation_model": "gpt-5-mini-2025-08-07"
@@ -46369,7 +46369,7 @@
       "section": "UNA PAROLA DAL MEDICO",
       "source_revision": "64ea28030e851a482123ca4c60821b9d7714265f",
       "source_translation_key": "ec43625b60066cefa888f232f4236209884f34b28ac83e77d97e991080cb7954",
-      "status": "ready",
+      "status": "stale",
       "subtitle": "—Questioni relative alle cellule staminali",
       "title": "«Rigenerazione»",
       "translation_model": "gpt-6-luna"
@@ -47191,7 +47191,7 @@
       "section": "UNA PAROLA DA UN MEDICO",
       "source_revision": "4abee09be2b86df87635a1cdad1cab0a9693df12",
       "source_translation_key": "8ceae8db8be424ea71f28c6f16f87e584da5e2973ea32ca19fd1e65694a1caf4",
-      "status": "ready",
+      "status": "stale",
       "subtitle": null,
       "title": "Vaccinarsi… sì o no?",
       "translation_model": "gpt-6-luna"
@@ -47528,7 +47528,7 @@
       "section": "UNA PAROLA DAL DOTTORE",
       "source_revision": "515b02c3856faf0a131247f46824717e2758eadc",
       "source_translation_key": "58c6b186ae61399858ed8db90fde21695dac94e5071954e24b2a7174d56d96ef",
-      "status": "ready",
+      "status": "stale",
       "subtitle": null,
       "title": "DEMENZA",
       "translation_model": "gpt-6.1-sol"
@@ -48081,7 +48081,7 @@
       "section": "자매에게",
       "source_revision": "22388745ad7f149609e65f5e28cfcc1257cd689e",
       "source_translation_key": "02094487d8f24d702ac08faa8690036734e3452197733c757e1256a4e9018bcf",
-      "status": "ready",
+      "status": "stale",
       "subtitle": null,
       "title": "남편을 존중하지 않음과 상실",
       "translation_model": "gpt-6-luna"
@@ -48164,7 +48164,7 @@
       "section": "의사의 한마디",
       "source_revision": "5218aa9d155ece2a9fe433c9124bfd87783513eb",
       "source_translation_key": "e59b75700481435eacbacb44977c56edc6d21a27f62bd817a25bc0ab058ab7b4",
-      "status": "ready",
+      "status": "stale",
       "subtitle": "—줄기세포 문제",
       "title": "“재생”",
       "translation_model": "gpt-6-luna"
@@ -48508,7 +48508,7 @@
       "section": "교회사",
       "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
       "source_translation_key": "0ec18dc4a4b289e72e00424bde99770f0dbc52c0ceb26b1a16a8b4b40097dc16",
-      "status": "ready",
+      "status": "stale",
       "subtitle": null,
       "title": "네로: 한 황제의 생애",
       "translation_model": "gpt-6.1-sol"
@@ -48595,7 +48595,7 @@
       "section": "교회가 직면한 쟁점",
       "source_revision": "22388745ad7f149609e65f5e28cfcc1257cd689e",
       "source_translation_key": "2b4cf9970b894f7aedf5a219da1dc4346095485b89a6bbb1131b05841571db5f",
-      "status": "ready",
+      "status": "stale",
       "subtitle": null,
       "title": "교회와 하나님 나라",
       "translation_model": "gpt-6.1-sol"
@@ -49208,7 +49208,7 @@
       "section": "의사의 한 말씀",
       "source_revision": "9e6e1db340e802f71c7018950dc820482ecc4e5e",
       "source_translation_key": "ba22efc6cb9233faebc78cea85896092801ad5d430d2342a669d196dab4937e6",
-      "status": "ready",
+      "status": "stale",
       "subtitle": "2부",
       "title": "암",
       "translation_model": "gpt-5-mini-2025-08-07"
@@ -49741,7 +49741,7 @@
       "section": null,
       "source_revision": "1345fa41b99f7638900dd7c9385c44491d97f34b",
       "source_translation_key": "902e89194a80291dccbdca2ec785b51647fa9e7b6a37628b9453606d85075901",
-      "status": "ready",
+      "status": "stale",
       "subtitle": null,
       "title": "왕국들이 충돌할 때",
       "translation_model": "gpt-6-luna"
@@ -50462,7 +50462,7 @@
       "section": "Sister to Sister",
       "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
       "source_translation_key": "bc655ca0e757a92869b0811d5a6de87a4ca48f1e4eef1923cd7135609b8dc379",
-      "status": "ready",
+      "status": "stale",
       "subtitle": null,
       "title": "기쁜 부르심",
       "translation_model": "gpt-5-mini-2025-08-07"
@@ -50725,7 +50725,7 @@
       "section": "어린이 코너",
       "source_revision": "a069ecca8827634ebc256b3b1cabc16aeb942ed7",
       "source_translation_key": "ec6de8a8b33bb22d48e0ed6657347459a8590c11da91cae3ce81604cef8bdf51",
-      "status": "ready",
+      "status": "stale",
       "subtitle": "실화",
       "title": "꼬마 라모나의 교만",
       "translation_model": "gpt-6-luna"
@@ -50886,7 +50886,7 @@
       "section": "의사의 한마디",
       "source_revision": "22388745ad7f149609e65f5e28cfcc1257cd689e",
       "source_translation_key": "0716e41f01ddda449f14a6bbee04f91763655c22cad9e3ea3bdcc679307e4a6d",
-      "status": "ready",
+      "status": "stale",
       "subtitle": null,
       "title": "건강한 면역 체계",
       "translation_model": "gpt-6-luna"
@@ -50918,7 +50918,7 @@
       "section": "의사의 한마디",
       "source_revision": "64ea28030e851a482123ca4c60821b9d7714265f",
       "source_translation_key": "ec43625b60066cefa888f232f4236209884f34b28ac83e77d97e991080cb7954",
-      "status": "ready",
+      "status": "stale",
       "subtitle": "—줄기세포 문제",
       "title": "“재생”",
       "translation_model": "gpt-6-luna"
@@ -51712,7 +51712,7 @@
       "section": "의사의 한마디",
       "source_revision": "4abee09be2b86df87635a1cdad1cab0a9693df12",
       "source_translation_key": "8ceae8db8be424ea71f28c6f16f87e584da5e2973ea32ca19fd1e65694a1caf4",
-      "status": "ready",
+      "status": "stale",
       "subtitle": null,
       "title": "백신 접종… 할 것인가, 말 것인가?",
       "translation_model": "gpt-6-luna"
@@ -52767,7 +52767,7 @@
       "section": "EEN WOORD VAN DE ARTS",
       "source_revision": "5218aa9d155ece2a9fe433c9124bfd87783513eb",
       "source_translation_key": "e59b75700481435eacbacb44977c56edc6d21a27f62bd817a25bc0ab058ab7b4",
-      "status": "ready",
+      "status": "stale",
       "subtitle": "—Kwesties rond stamcellen",
       "title": "‘Regeneratie’",
       "translation_model": "gpt-6-luna"
@@ -53081,7 +53081,7 @@
       "section": "KERKGESCHIEDENIS",
       "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
       "source_translation_key": "0ec18dc4a4b289e72e00424bde99770f0dbc52c0ceb26b1a16a8b4b40097dc16",
-      "status": "ready",
+      "status": "stale",
       "subtitle": null,
       "title": "Nero: Leven van een keizer",
       "translation_model": "gpt-6.1-sol"
@@ -53168,7 +53168,7 @@
       "section": "Kwesties waarmee de kerk te maken heeft",
       "source_revision": "22388745ad7f149609e65f5e28cfcc1257cd689e",
       "source_translation_key": "2b4cf9970b894f7aedf5a219da1dc4346095485b89a6bbb1131b05841571db5f",
-      "status": "ready",
+      "status": "stale",
       "subtitle": null,
       "title": "Kerk en koninkrijk",
       "translation_model": "gpt-6-luna"
@@ -53740,7 +53740,7 @@
       "section": "A Word From A Doctor",
       "source_revision": "9e6e1db340e802f71c7018950dc820482ecc4e5e",
       "source_translation_key": "ba22efc6cb9233faebc78cea85896092801ad5d430d2342a669d196dab4937e6",
-      "status": "ready",
+      "status": "stale",
       "subtitle": "PART 2",
       "title": "Kanker",
       "translation_model": "gpt-5-mini-2025-08-07"
@@ -54333,7 +54333,7 @@
       "section": null,
       "source_revision": "10c0f2432ce983497252f2dbafece735507c8574",
       "source_translation_key": "902e89194a80291dccbdca2ec785b51647fa9e7b6a37628b9453606d85075901",
-      "status": "ready",
+      "status": "stale",
       "subtitle": null,
       "title": "Wanneer koninkrijken botsen",
       "translation_model": "gpt-6-luna"
@@ -55045,7 +55045,7 @@
       "section": "Sister to Sister",
       "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
       "source_translation_key": "bc655ca0e757a92869b0811d5a6de87a4ca48f1e4eef1923cd7135609b8dc379",
-      "status": "ready",
+      "status": "stale",
       "subtitle": null,
       "title": "Een vreugdevolle roeping",
       "translation_model": "gpt-5-mini-2025-08-07"
@@ -55364,7 +55364,7 @@
       "section": "KINDERHOEK",
       "source_revision": "a069ecca8827634ebc256b3b1cabc16aeb942ed7",
       "source_translation_key": "ec6de8a8b33bb22d48e0ed6657347459a8590c11da91cae3ce81604cef8bdf51",
-      "status": "ready",
+      "status": "stale",
       "subtitle": "Een waargebeurd verhaal",
       "title": "De hoogmoed van kleine Ramona",
       "translation_model": "gpt-6-luna"
@@ -55392,7 +55392,7 @@
       "section": "LIEDGESCHIEDENIS",
       "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
       "source_translation_key": "151c676a3a3f4de7275eee354cc0c629e172ecc2dbb372f12ae064df79d4e44e",
-      "status": "ready",
+      "status": "stale",
       "subtitle": null,
       "title": "Wanneer al Uw barmhartigheden, o mijn God",
       "translation_model": "gpt-5-mini-2025-08-07"
@@ -55576,7 +55576,7 @@
       "section": "Een woord van een arts",
       "source_revision": "22388745ad7f149609e65f5e28cfcc1257cd689e",
       "source_translation_key": "0716e41f01ddda449f14a6bbee04f91763655c22cad9e3ea3bdcc679307e4a6d",
-      "status": "ready",
+      "status": "stale",
       "subtitle": null,
       "title": "Een gezond afweersysteem",
       "translation_model": "gpt-6-luna"
@@ -56508,7 +56508,7 @@
       "section": "EEN WOORD VAN EEN ARTS",
       "source_revision": "4abee09be2b86df87635a1cdad1cab0a9693df12",
       "source_translation_key": "8ceae8db8be424ea71f28c6f16f87e584da5e2973ea32ca19fd1e65694a1caf4",
-      "status": "ready",
+      "status": "stale",
       "subtitle": null,
       "title": "Gevaccineerd… wel of niet?",
       "translation_model": "gpt-6-luna"
@@ -56878,7 +56878,7 @@
       "section": "EEN WOORD VAN DE ARTS",
       "source_revision": "515b02c3856faf0a131247f46824717e2758eadc",
       "source_translation_key": "58c6b186ae61399858ed8db90fde21695dac94e5071954e24b2a7174d56d96ef",
-      "status": "ready",
+      "status": "stale",
       "subtitle": null,
       "title": "DEMENTIE",
       "translation_model": "gpt-5-mini-2025-08-07"
@@ -57137,7 +57137,7 @@
       "section": null,
       "source_revision": "4c7b25b348edeeef4eb5f9d22a221d06f0d80f02",
       "source_translation_key": "55e58c4244dd6dd6b1692c4227d138b24d40e716692e5145e50cf9883188c5b8",
-      "status": "ready",
+      "status": "stale",
       "subtitle": null,
       "title": "De doop met de Heilige Geest bevrijden uit het pentecostalisme",
       "translation_model": "gpt-6-luna"
@@ -57502,7 +57502,7 @@
       "section": "Søster til søster",
       "source_revision": "22388745ad7f149609e65f5e28cfcc1257cd689e",
       "source_translation_key": "02094487d8f24d702ac08faa8690036734e3452197733c757e1256a4e9018bcf",
-      "status": "ready",
+      "status": "stale",
       "subtitle": null,
       "title": "Respektløshet og tap",
       "translation_model": "gpt-6-luna"
@@ -57697,7 +57697,7 @@
       "section": "ET ORD FRA LEGEN",
       "source_revision": "5218aa9d155ece2a9fe433c9124bfd87783513eb",
       "source_translation_key": "e59b75700481435eacbacb44977c56edc6d21a27f62bd817a25bc0ab058ab7b4",
-      "status": "ready",
+      "status": "stale",
       "subtitle": "—Problemer knyttet til stamceller",
       "title": "«Regenerering»",
       "translation_model": "gpt-6-luna"
@@ -58094,7 +58094,7 @@
       "section": "KIRKEHISTORIE",
       "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
       "source_translation_key": "0ec18dc4a4b289e72e00424bde99770f0dbc52c0ceb26b1a16a8b4b40097dc16",
-      "status": "ready",
+      "status": "stale",
       "subtitle": null,
       "title": "Nero: Livet til en keiser",
       "translation_model": "gpt-6.1-sol"
@@ -58209,7 +58209,7 @@
       "section": "Spørsmål kirken står overfor",
       "source_revision": "22388745ad7f149609e65f5e28cfcc1257cd689e",
       "source_translation_key": "2b4cf9970b894f7aedf5a219da1dc4346095485b89a6bbb1131b05841571db5f",
-      "status": "ready",
+      "status": "stale",
       "subtitle": null,
       "title": "Kirke og rike",
       "translation_model": "gpt-6-luna"
@@ -59948,7 +59948,7 @@
       "section": "Søster til søster",
       "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
       "source_translation_key": "bc655ca0e757a92869b0811d5a6de87a4ca48f1e4eef1923cd7135609b8dc379",
-      "status": "ready",
+      "status": "stale",
       "subtitle": null,
       "title": "Et gledelig kall",
       "translation_model": "gpt-6.1-sol"
@@ -61917,7 +61917,7 @@
       "section": "De Irmã para Irmã",
       "source_revision": "22388745ad7f149609e65f5e28cfcc1257cd689e",
       "source_translation_key": "02094487d8f24d702ac08faa8690036734e3452197733c757e1256a4e9018bcf",
-      "status": "ready",
+      "status": "stale",
       "subtitle": null,
       "title": "Desrespeito e Perda",
       "translation_model": "gpt-6-luna"
@@ -62140,7 +62140,7 @@
       "section": "UMA PALAVRA DO MÉDICO",
       "source_revision": "5218aa9d155ece2a9fe433c9124bfd87783513eb",
       "source_translation_key": "e59b75700481435eacbacb44977c56edc6d21a27f62bd817a25bc0ab058ab7b4",
-      "status": "ready",
+      "status": "stale",
       "subtitle": "—Questões sobre células-tronco",
       "title": "“Regeneração”",
       "translation_model": "gpt-6-luna"
@@ -62656,7 +62656,7 @@
       "section": "Questões que a igreja enfrenta",
       "source_revision": "22388745ad7f149609e65f5e28cfcc1257cd689e",
       "source_translation_key": "2b4cf9970b894f7aedf5a219da1dc4346095485b89a6bbb1131b05841571db5f",
-      "status": "ready",
+      "status": "stale",
       "subtitle": null,
       "title": "Igreja e Reino",
       "translation_model": "gpt-6-luna"
@@ -63108,7 +63108,7 @@
       "section": "QUESTÕES QUE AFETAM A IGREJA",
       "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
       "source_translation_key": "892a457085e971e00bab46af7f91c51fbdea164ca51ce422e2038ddc5e401e17",
-      "status": "ready",
+      "status": "stale",
       "subtitle": null,
       "title": "A Insensatez da Pregação",
       "translation_model": "gpt-5-mini-2025-08-07"
@@ -63437,7 +63437,7 @@
       "section": "Uma Palavra de um Médico",
       "source_revision": "9e6e1db340e802f71c7018950dc820482ecc4e5e",
       "source_translation_key": "ba22efc6cb9233faebc78cea85896092801ad5d430d2342a669d196dab4937e6",
-      "status": "ready",
+      "status": "stale",
       "subtitle": "PARTE 2",
       "title": "Câncer",
       "translation_model": "gpt-5-mini-2025-08-07"
@@ -63951,7 +63951,7 @@
       "section": "DE IRMÃ PARA IRMÃ",
       "source_revision": "58e50fca41cc0b53c8992502bd95166581036945",
       "source_translation_key": "4d40f50cafe108062bfb1732abf330fbbbb9f793395646dfdbb7a655811327dc",
-      "status": "ready",
+      "status": "stale",
       "subtitle": null,
       "title": "Pequenas coisas",
       "translation_model": "gpt-6-luna"
@@ -64054,7 +64054,7 @@
       "section": null,
       "source_revision": "10c0f2432ce983497252f2dbafece735507c8574",
       "source_translation_key": "902e89194a80291dccbdca2ec785b51647fa9e7b6a37628b9453606d85075901",
-      "status": "ready",
+      "status": "stale",
       "subtitle": null,
       "title": "Quando os reinos entram em choque",
       "translation_model": "gpt-6.1-sol"
@@ -64798,7 +64798,7 @@
       "section": "Sister to Sister",
       "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
       "source_translation_key": "bc655ca0e757a92869b0811d5a6de87a4ca48f1e4eef1923cd7135609b8dc379",
-      "status": "ready",
+      "status": "stale",
       "subtitle": null,
       "title": "Uma Vocação Alegre",
       "translation_model": "gpt-5-mini-2025-08-07"
@@ -65117,7 +65117,7 @@
       "section": "ESPAÇO INFANTIL",
       "source_revision": "a069ecca8827634ebc256b3b1cabc16aeb942ed7",
       "source_translation_key": "ec6de8a8b33bb22d48e0ed6657347459a8590c11da91cae3ce81604cef8bdf51",
-      "status": "ready",
+      "status": "stale",
       "subtitle": "Uma história verdadeira",
       "title": "O orgulho da pequena Ramona",
       "translation_model": "gpt-6-luna"
@@ -65145,7 +65145,7 @@
       "section": "HISTÓRIA DO HINO",
       "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
       "source_translation_key": "151c676a3a3f4de7275eee354cc0c629e172ecc2dbb372f12ae064df79d4e44e",
-      "status": "ready",
+      "status": "stale",
       "subtitle": null,
       "title": "Quando Todas as Tuas Misericórdias, Ó meu Deus",
       "translation_model": "gpt-5-mini-2025-08-07"
@@ -65352,7 +65352,7 @@
       "section": "Uma palavra de um médico",
       "source_revision": "22388745ad7f149609e65f5e28cfcc1257cd689e",
       "source_translation_key": "0716e41f01ddda449f14a6bbee04f91763655c22cad9e3ea3bdcc679307e4a6d",
-      "status": "ready",
+      "status": "stale",
       "subtitle": null,
       "title": "Um sistema imunológico saudável",
       "translation_model": "gpt-6-luna"
@@ -65412,7 +65412,7 @@
       "section": "UMA PALAVRA DO MÉDICO",
       "source_revision": "64ea28030e851a482123ca4c60821b9d7714265f",
       "source_translation_key": "ec43625b60066cefa888f232f4236209884f34b28ac83e77d97e991080cb7954",
-      "status": "ready",
+      "status": "stale",
       "subtitle": "—Questões sobre células-tronco",
       "title": "“Regeneração”",
       "translation_model": "gpt-6-luna"
@@ -66774,7 +66774,7 @@
       "section": "UMA PALAVRA DO MÉDICO",
       "source_revision": "515b02c3856faf0a131247f46824717e2758eadc",
       "source_translation_key": "58c6b186ae61399858ed8db90fde21695dac94e5071954e24b2a7174d56d96ef",
-      "status": "ready",
+      "status": "stale",
       "subtitle": null,
       "title": "DEMÊNCIA",
       "translation_model": "gpt-5-mini-2025-08-07"
@@ -67116,7 +67116,7 @@
       "section": null,
       "source_revision": "4c7b25b348edeeef4eb5f9d22a221d06f0d80f02",
       "source_translation_key": "55e58c4244dd6dd6b1692c4227d138b24d40e716692e5145e50cf9883188c5b8",
-      "status": "ready",
+      "status": "stale",
       "subtitle": null,
       "title": "Resgatando o batismo do Espírito Santo do pentecostalismo",
       "translation_model": "gpt-6-luna"
@@ -67454,7 +67454,7 @@
       "section": "Сестра сестре",
       "source_revision": "22388745ad7f149609e65f5e28cfcc1257cd689e",
       "source_translation_key": "02094487d8f24d702ac08faa8690036734e3452197733c757e1256a4e9018bcf",
-      "status": "ready",
+      "status": "stale",
       "subtitle": null,
       "title": "Бесчестие и утрата",
       "translation_model": "gpt-6-luna"
@@ -67598,7 +67598,7 @@
       "section": "СЛОВО ДОКТОРА",
       "source_revision": "5218aa9d155ece2a9fe433c9124bfd87783513eb",
       "source_translation_key": "e59b75700481435eacbacb44977c56edc6d21a27f62bd817a25bc0ab058ab7b4",
-      "status": "ready",
+      "status": "stale",
       "subtitle": "— Проблемы, связанные со стволовыми клетками",
       "title": "«Регенерация»",
       "translation_model": "gpt-6-luna"
@@ -67956,7 +67956,7 @@
       "section": "Вопросы, стоящие перед церковью",
       "source_revision": "22388745ad7f149609e65f5e28cfcc1257cd689e",
       "source_translation_key": "2b4cf9970b894f7aedf5a219da1dc4346095485b89a6bbb1131b05841571db5f",
-      "status": "ready",
+      "status": "stale",
       "subtitle": null,
       "title": "Церковь и Царство",
       "translation_model": "gpt-6-luna"
@@ -68497,7 +68497,7 @@
       "section": "Слово врача",
       "source_revision": "9e6e1db340e802f71c7018950dc820482ecc4e5e",
       "source_translation_key": "ba22efc6cb9233faebc78cea85896092801ad5d430d2342a669d196dab4937e6",
-      "status": "ready",
+      "status": "stale",
       "subtitle": "ЧАСТЬ 2",
       "title": "Рак",
       "translation_model": "gpt-5-mini-2025-08-07"
@@ -68913,7 +68913,7 @@
       "section": "ОТ СЕСТРЫ К СЕСТРЕ",
       "source_revision": "58e50fca41cc0b53c8992502bd95166581036945",
       "source_translation_key": "4d40f50cafe108062bfb1732abf330fbbbb9f793395646dfdbb7a655811327dc",
-      "status": "ready",
+      "status": "stale",
       "subtitle": null,
       "title": "Малые дела",
       "translation_model": "gpt-6-luna"
@@ -68993,7 +68993,7 @@
       "section": null,
       "source_revision": "10c0f2432ce983497252f2dbafece735507c8574",
       "source_translation_key": "902e89194a80291dccbdca2ec785b51647fa9e7b6a37628b9453606d85075901",
-      "status": "ready",
+      "status": "stale",
       "subtitle": null,
       "title": "Когда сталкиваются царства",
       "translation_model": "gpt-6-luna"
@@ -69370,7 +69370,7 @@
       "section": null,
       "source_revision": "4c7b25b348edeeef4eb5f9d22a221d06f0d80f02",
       "source_translation_key": "8d7f7210e0a149932ebfe132fd8b73952eaaa5a22998215dd9873c6b2ebbdac8",
-      "status": "ready",
+      "status": "stale",
       "subtitle": null,
       "title": "Об опасности умножения богатства",
       "translation_model": "gpt-6.1-sol"
@@ -69685,7 +69685,7 @@
       "section": "От сестры к сестре",
       "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
       "source_translation_key": "bc655ca0e757a92869b0811d5a6de87a4ca48f1e4eef1923cd7135609b8dc379",
-      "status": "ready",
+      "status": "stale",
       "subtitle": null,
       "title": "Радостное призвание",
       "translation_model": "gpt-6.1-sol"
@@ -69953,7 +69953,7 @@
       "section": "ДЕТСКИЙ УГОЛОК",
       "source_revision": "a069ecca8827634ebc256b3b1cabc16aeb942ed7",
       "source_translation_key": "ec6de8a8b33bb22d48e0ed6657347459a8590c11da91cae3ce81604cef8bdf51",
-      "status": "ready",
+      "status": "stale",
       "subtitle": "Правдивая история",
       "title": "Гордая маленькая Рамона",
       "translation_model": "gpt-6-luna"
@@ -70119,7 +70119,7 @@
       "section": "Слово врача",
       "source_revision": "22388745ad7f149609e65f5e28cfcc1257cd689e",
       "source_translation_key": "0716e41f01ddda449f14a6bbee04f91763655c22cad9e3ea3bdcc679307e4a6d",
-      "status": "ready",
+      "status": "stale",
       "subtitle": null,
       "title": "Здоровая иммунная система",
       "translation_model": "gpt-6-luna"
@@ -70151,7 +70151,7 @@
       "section": "СЛОВО ДОКТОРА",
       "source_revision": "64ea28030e851a482123ca4c60821b9d7714265f",
       "source_translation_key": "ec43625b60066cefa888f232f4236209884f34b28ac83e77d97e991080cb7954",
-      "status": "ready",
+      "status": "stale",
       "subtitle": "—Вопросы, связанные со стволовыми клетками",
       "title": "«Регенерация»",
       "translation_model": "gpt-6-luna"
@@ -70945,7 +70945,7 @@
       "section": "СЛОВО ВРАЧА",
       "source_revision": "4abee09be2b86df87635a1cdad1cab0a9693df12",
       "source_translation_key": "8ceae8db8be424ea71f28c6f16f87e584da5e2973ea32ca19fd1e65694a1caf4",
-      "status": "ready",
+      "status": "stale",
       "subtitle": null,
       "title": "Вакцинироваться… Быть или не быть?",
       "translation_model": "gpt-6-luna"
@@ -71653,7 +71653,7 @@
       "section": "De hermana a hermana",
       "source_revision": "22388745ad7f149609e65f5e28cfcc1257cd689e",
       "source_translation_key": "02094487d8f24d702ac08faa8690036734e3452197733c757e1256a4e9018bcf",
-      "status": "ready",
+      "status": "stale",
       "subtitle": null,
       "title": "Deshonra y pérdida",
       "translation_model": "gpt-6-luna"
@@ -71843,7 +71843,7 @@
       "section": "UNA PALABRA DEL MÉDICO",
       "source_revision": "5218aa9d155ece2a9fe433c9124bfd87783513eb",
       "source_translation_key": "e59b75700481435eacbacb44977c56edc6d21a27f62bd817a25bc0ab058ab7b4",
-      "status": "ready",
+      "status": "stale",
       "subtitle": "—Problemas relacionados con las células madre",
       "title": "«Regeneración»",
       "translation_model": "gpt-6-luna"
@@ -72336,7 +72336,7 @@
       "section": "Asuntos que enfrenta la iglesia",
       "source_revision": "22388745ad7f149609e65f5e28cfcc1257cd689e",
       "source_translation_key": "2b4cf9970b894f7aedf5a219da1dc4346095485b89a6bbb1131b05841571db5f",
-      "status": "ready",
+      "status": "stale",
       "subtitle": null,
       "title": "La iglesia y el reino",
       "translation_model": "gpt-6-luna"
@@ -72792,7 +72792,7 @@
       "section": "CUESTIONES QUE AFECTAN A LA IGLESIA",
       "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
       "source_translation_key": "892a457085e971e00bab46af7f91c51fbdea164ca51ce422e2038ddc5e401e17",
-      "status": "ready",
+      "status": "stale",
       "subtitle": null,
       "title": "La necedad de la predicación",
       "translation_model": "gpt-5-mini-2025-08-07"
@@ -73056,7 +73056,7 @@
       "section": "Una palabra de un médico",
       "source_revision": "9e6e1db340e802f71c7018950dc820482ecc4e5e",
       "source_translation_key": "ba22efc6cb9233faebc78cea85896092801ad5d430d2342a669d196dab4937e6",
-      "status": "ready",
+      "status": "stale",
       "subtitle": "PARTE 2",
       "title": "Cáncer",
       "translation_model": "gpt-5-mini-2025-08-07"
@@ -73574,7 +73574,7 @@
       "section": "DE HERMANA A HERMANA",
       "source_revision": "58e50fca41cc0b53c8992502bd95166581036945",
       "source_translation_key": "4d40f50cafe108062bfb1732abf330fbbbb9f793395646dfdbb7a655811327dc",
-      "status": "ready",
+      "status": "stale",
       "subtitle": null,
       "title": "Las cosas pequeñas",
       "translation_model": "gpt-6-luna"
@@ -73677,7 +73677,7 @@
       "section": null,
       "source_revision": "10c0f2432ce983497252f2dbafece735507c8574",
       "source_translation_key": "902e89194a80291dccbdca2ec785b51647fa9e7b6a37628b9453606d85075901",
-      "status": "ready",
+      "status": "stale",
       "subtitle": null,
       "title": "Cuando chocan los reinos",
       "translation_model": "gpt-6-luna"
@@ -74449,7 +74449,7 @@
       "section": "De hermana a hermana",
       "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
       "source_translation_key": "bc655ca0e757a92869b0811d5a6de87a4ca48f1e4eef1923cd7135609b8dc379",
-      "status": "ready",
+      "status": "stale",
       "subtitle": null,
       "title": "Un llamamiento gozoso",
       "translation_model": "gpt-5-mini-2025-08-07"
@@ -74768,7 +74768,7 @@
       "section": "RINCÓN INFANTIL",
       "source_revision": "a069ecca8827634ebc256b3b1cabc16aeb942ed7",
       "source_translation_key": "ec6de8a8b33bb22d48e0ed6657347459a8590c11da91cae3ce81604cef8bdf51",
-      "status": "ready",
+      "status": "stale",
       "subtitle": "Una historia verdadera",
       "title": "El orgullo de la pequeña Ramona",
       "translation_model": "gpt-6-luna"
@@ -74796,7 +74796,7 @@
       "section": "HISTORIA DEL HIMNO",
       "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
       "source_translation_key": "151c676a3a3f4de7275eee354cc0c629e172ecc2dbb372f12ae064df79d4e44e",
-      "status": "ready",
+      "status": "stale",
       "subtitle": null,
       "title": "Cuando todas tus misericordias, oh Dios mío",
       "translation_model": "gpt-5-mini-2025-08-07"
@@ -75008,7 +75008,7 @@
       "section": "Una palabra de un médico",
       "source_revision": "22388745ad7f149609e65f5e28cfcc1257cd689e",
       "source_translation_key": "0716e41f01ddda449f14a6bbee04f91763655c22cad9e3ea3bdcc679307e4a6d",
-      "status": "ready",
+      "status": "stale",
       "subtitle": null,
       "title": "Un sistema inmunitario saludable",
       "translation_model": "gpt-6-luna"
@@ -75068,7 +75068,7 @@
       "section": "UNA PALABRA DEL MÉDICO",
       "source_revision": "64ea28030e851a482123ca4c60821b9d7714265f",
       "source_translation_key": "ec43625b60066cefa888f232f4236209884f34b28ac83e77d97e991080cb7954",
-      "status": "ready",
+      "status": "stale",
       "subtitle": "—Cuestiones relacionadas con las células madre",
       "title": "«Regeneración»",
       "translation_model": "gpt-6-luna"
@@ -75929,7 +75929,7 @@
       "section": "UNA PALABRA DE UN MÉDICO",
       "source_revision": "4abee09be2b86df87635a1cdad1cab0a9693df12",
       "source_translation_key": "8ceae8db8be424ea71f28c6f16f87e584da5e2973ea32ca19fd1e65694a1caf4",
-      "status": "ready",
+      "status": "stale",
       "subtitle": null,
       "title": "Vacunarse… ¿sí o no?",
       "translation_model": "gpt-6-luna"
@@ -76785,7 +76785,7 @@
       "section": "Dada kwa Dada",
       "source_revision": "22388745ad7f149609e65f5e28cfcc1257cd689e",
       "source_translation_key": "02094487d8f24d702ac08faa8690036734e3452197733c757e1256a4e9018bcf",
-      "status": "ready",
+      "status": "stale",
       "subtitle": null,
       "title": "Dharau na Hasara",
       "translation_model": "gpt-6-luna"
@@ -76924,7 +76924,7 @@
       "section": "NENO KUTOKA KWA DAKTARI",
       "source_revision": "5218aa9d155ece2a9fe433c9124bfd87783513eb",
       "source_translation_key": "e59b75700481435eacbacb44977c56edc6d21a27f62bd817a25bc0ab058ab7b4",
-      "status": "ready",
+      "status": "stale",
       "subtitle": "—Masuala ya Seli Shina",
       "title": "“Kuzalisha Upya”",
       "translation_model": "gpt-6-luna"
@@ -77219,7 +77219,7 @@
       "section": "HISTORIA YA KANISA",
       "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
       "source_translation_key": "0ec18dc4a4b289e72e00424bde99770f0dbc52c0ceb26b1a16a8b4b40097dc16",
-      "status": "ready",
+      "status": "stale",
       "subtitle": null,
       "title": "Nero: Maisha ya Mfalme",
       "translation_model": "gpt-6.1-sol"
@@ -77283,7 +77283,7 @@
       "section": "Masuala Yanayoikabili Kanisa",
       "source_revision": "22388745ad7f149609e65f5e28cfcc1257cd689e",
       "source_translation_key": "2b4cf9970b894f7aedf5a219da1dc4346095485b89a6bbb1131b05841571db5f",
-      "status": "ready",
+      "status": "stale",
       "subtitle": null,
       "title": "Kanisa na Ufalme",
       "translation_model": "gpt-6-luna"
@@ -78553,7 +78553,7 @@
       "section": "Dada kwa Dada",
       "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
       "source_translation_key": "bc655ca0e757a92869b0811d5a6de87a4ca48f1e4eef1923cd7135609b8dc379",
-      "status": "ready",
+      "status": "stale",
       "subtitle": null,
       "title": "Wito wa Furaha",
       "translation_model": "gpt-6.1-sol"
@@ -78844,7 +78844,7 @@
       "section": "SEHEMU YA WATOTO",
       "source_revision": "a069ecca8827634ebc256b3b1cabc16aeb942ed7",
       "source_translation_key": "ec6de8a8b33bb22d48e0ed6657347459a8590c11da91cae3ce81604cef8bdf51",
-      "status": "ready",
+      "status": "stale",
       "subtitle": "Hadithi ya Kweli",
       "title": "Kiburi cha Ramona Mdogo",
       "translation_model": "gpt-6-luna"
@@ -79005,7 +79005,7 @@
       "section": "NENO KUTOKA KWA DAKTARI",
       "source_revision": "64ea28030e851a482123ca4c60821b9d7714265f",
       "source_translation_key": "ec43625b60066cefa888f232f4236209884f34b28ac83e77d97e991080cb7954",
-      "status": "ready",
+      "status": "stale",
       "subtitle": "—Masuala ya Seli Shina",
       "title": "“Uzalishaji Upya”",
       "translation_model": "gpt-6-luna"
@@ -80136,7 +80136,7 @@
       "section": "Syster till syster",
       "source_revision": "22388745ad7f149609e65f5e28cfcc1257cd689e",
       "source_translation_key": "02094487d8f24d702ac08faa8690036734e3452197733c757e1256a4e9018bcf",
-      "status": "ready",
+      "status": "stale",
       "subtitle": null,
       "title": "Vanära och förlust",
       "translation_model": "gpt-6-luna"
@@ -80224,7 +80224,7 @@
       "section": "ETT ORD FRÅN LÄKAREN",
       "source_revision": "5218aa9d155ece2a9fe433c9124bfd87783513eb",
       "source_translation_key": "e59b75700481435eacbacb44977c56edc6d21a27f62bd817a25bc0ab058ab7b4",
-      "status": "ready",
+      "status": "stale",
       "subtitle": "—Stamcellsfrågor",
       "title": "”Regeneration”",
       "translation_model": "gpt-6-luna"
@@ -80570,7 +80570,7 @@
       "section": "KYRKOHISTORIA",
       "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
       "source_translation_key": "0ec18dc4a4b289e72e00424bde99770f0dbc52c0ceb26b1a16a8b4b40097dc16",
-      "status": "ready",
+      "status": "stale",
       "subtitle": null,
       "title": "Nero: En kejsares liv",
       "translation_model": "gpt-6.1-sol"
@@ -80685,7 +80685,7 @@
       "section": "Frågor som kyrkan står inför",
       "source_revision": "22388745ad7f149609e65f5e28cfcc1257cd689e",
       "source_translation_key": "2b4cf9970b894f7aedf5a219da1dc4346095485b89a6bbb1131b05841571db5f",
-      "status": "ready",
+      "status": "stale",
       "subtitle": null,
       "title": "Kyrka och rike",
       "translation_model": "gpt-6-luna"
@@ -81026,7 +81026,7 @@
       "section": "FRÅGOR SOM PÅVERKAR KYRKAN",
       "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
       "source_translation_key": "892a457085e971e00bab46af7f91c51fbdea164ca51ce422e2038ddc5e401e17",
-      "status": "ready",
+      "status": "stale",
       "subtitle": null,
       "title": "Predikandets dårskap",
       "translation_model": "gpt-5-mini-2025-08-07"
@@ -81308,7 +81308,7 @@
       "section": "Ett ord från en läkare",
       "source_revision": "9e6e1db340e802f71c7018950dc820482ecc4e5e",
       "source_translation_key": "ba22efc6cb9233faebc78cea85896092801ad5d430d2342a669d196dab4937e6",
-      "status": "ready",
+      "status": "stale",
       "subtitle": "DEL 2",
       "title": "Cancer",
       "translation_model": "gpt-5-mini-2025-08-07"
@@ -81887,7 +81887,7 @@
       "section": null,
       "source_revision": "1345fa41b99f7638900dd7c9385c44491d97f34b",
       "source_translation_key": "902e89194a80291dccbdca2ec785b51647fa9e7b6a37628b9453606d85075901",
-      "status": "ready",
+      "status": "stale",
       "subtitle": null,
       "title": "När riken kolliderar",
       "translation_model": "gpt-6-luna"
@@ -82575,7 +82575,7 @@
       "section": "Syster till syster",
       "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
       "source_translation_key": "bc655ca0e757a92869b0811d5a6de87a4ca48f1e4eef1923cd7135609b8dc379",
-      "status": "ready",
+      "status": "stale",
       "subtitle": null,
       "title": "En glädjefylld kallelse",
       "translation_model": "gpt-5-mini-2025-08-07"
@@ -82838,7 +82838,7 @@
       "section": "BARNENS HÖRNA",
       "source_revision": "a069ecca8827634ebc256b3b1cabc16aeb942ed7",
       "source_translation_key": "ec6de8a8b33bb22d48e0ed6657347459a8590c11da91cae3ce81604cef8bdf51",
-      "status": "ready",
+      "status": "stale",
       "subtitle": "En sann berättelse",
       "title": "Lilla Ramonas högmod",
       "translation_model": "gpt-6-luna"
@@ -82866,7 +82866,7 @@
       "section": "Hymnhistoria",
       "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
       "source_translation_key": "151c676a3a3f4de7275eee354cc0c629e172ecc2dbb372f12ae064df79d4e44e",
-      "status": "ready",
+      "status": "stale",
       "subtitle": null,
       "title": "När alla dina nåder, o min Gud",
       "translation_model": "gpt-5-mini-2025-08-07"
@@ -84315,7 +84315,7 @@
       "section": null,
       "source_revision": "4c7b25b348edeeef4eb5f9d22a221d06f0d80f02",
       "source_translation_key": "55e58c4244dd6dd6b1692c4227d138b24d40e716692e5145e50cf9883188c5b8",
-      "status": "ready",
+      "status": "stale",
       "subtitle": null,
       "title": "Att återta den helige Andes dop från pingströrelsen",
       "translation_model": "gpt-6-luna"
@@ -84621,7 +84621,7 @@
       "section": "بہن سے بہن تک",
       "source_revision": "22388745ad7f149609e65f5e28cfcc1257cd689e",
       "source_translation_key": "02094487d8f24d702ac08faa8690036734e3452197733c757e1256a4e9018bcf",
-      "status": "ready",
+      "status": "stale",
       "subtitle": null,
       "title": "بے عزتی اور نقصان",
       "translation_model": "gpt-6-luna"
@@ -84737,7 +84737,7 @@
       "section": "ڈاکٹر کی جانب سے ایک بات",
       "source_revision": "5218aa9d155ece2a9fe433c9124bfd87783513eb",
       "source_translation_key": "e59b75700481435eacbacb44977c56edc6d21a27f62bd817a25bc0ab058ab7b4",
-      "status": "ready",
+      "status": "stale",
       "subtitle": "—خلیۂ مادر کے مسائل",
       "title": "”تجدید“",
       "translation_model": "gpt-6-luna"
@@ -85087,7 +85087,7 @@
       "section": "کلیسائی تاریخ",
       "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
       "source_translation_key": "0ec18dc4a4b289e72e00424bde99770f0dbc52c0ceb26b1a16a8b4b40097dc16",
-      "status": "ready",
+      "status": "stale",
       "subtitle": null,
       "title": "نیرون: ایک شہنشاہ کی زندگی",
       "translation_model": "gpt-6.1-sol"
@@ -85202,7 +85202,7 @@
       "section": "کلیسیا کو درپیش مسائل",
       "source_revision": "22388745ad7f149609e65f5e28cfcc1257cd689e",
       "source_translation_key": "2b4cf9970b894f7aedf5a219da1dc4346095485b89a6bbb1131b05841571db5f",
-      "status": "ready",
+      "status": "stale",
       "subtitle": null,
       "title": "کلیسیا اور بادشاہی",
       "translation_model": "gpt-6.1-sol"
@@ -85820,7 +85820,7 @@
       "section": "کسی ڈاکٹر کا کلمہ",
       "source_revision": "9e6e1db340e802f71c7018950dc820482ecc4e5e",
       "source_translation_key": "ba22efc6cb9233faebc78cea85896092801ad5d430d2342a669d196dab4937e6",
-      "status": "ready",
+      "status": "stale",
       "subtitle": "حصہ 2",
       "title": "کینسر",
       "translation_model": "gpt-5-mini-2025-08-07"
@@ -86325,7 +86325,7 @@
       "section": null,
       "source_revision": "10c0f2432ce983497252f2dbafece735507c8574",
       "source_translation_key": "902e89194a80291dccbdca2ec785b51647fa9e7b6a37628b9453606d85075901",
-      "status": "ready",
+      "status": "stale",
       "subtitle": null,
       "title": "جب سلطنتیں ٹکراتی ہیں",
       "translation_model": "gpt-6-luna"
@@ -87267,7 +87267,7 @@
       "section": "بچوں کا گوشہ",
       "source_revision": "a069ecca8827634ebc256b3b1cabc16aeb942ed7",
       "source_translation_key": "ec6de8a8b33bb22d48e0ed6657347459a8590c11da91cae3ce81604cef8bdf51",
-      "status": "ready",
+      "status": "stale",
       "subtitle": "ایک سچی کہانی",
       "title": "چھوٹی رامونا کا غرور",
       "translation_model": "gpt-6-luna"
@@ -87423,7 +87423,7 @@
       "section": "ڈاکٹر کی جانب سے ایک بات",
       "source_revision": "64ea28030e851a482123ca4c60821b9d7714265f",
       "source_translation_key": "ec43625b60066cefa888f232f4236209884f34b28ac83e77d97e991080cb7954",
-      "status": "ready",
+      "status": "stale",
       "subtitle": "—اسٹیم سیل کے مسائل",
       "title": "”تجدید“",
       "translation_model": "gpt-6-luna"
@@ -88141,7 +88141,7 @@
       "section": "ڈاکٹر کی بات",
       "source_revision": "4abee09be2b86df87635a1cdad1cab0a9693df12",
       "source_translation_key": "8ceae8db8be424ea71f28c6f16f87e584da5e2973ea32ca19fd1e65694a1caf4",
-      "status": "ready",
+      "status": "stale",
       "subtitle": null,
       "title": "ویکسین لگوائیں۔۔۔ لگوائیں یا نہ لگوائیں؟",
       "translation_model": "gpt-6-luna"
@@ -88418,7 +88418,7 @@
       "section": "ڈاکٹر کا پیغام",
       "source_revision": "515b02c3856faf0a131247f46824717e2758eadc",
       "source_translation_key": "58c6b186ae61399858ed8db90fde21695dac94e5071954e24b2a7174d56d96ef",
-      "status": "ready",
+      "status": "stale",
       "subtitle": null,
       "title": "ڈیمنشیا",
       "translation_model": "gpt-5-mini-2025-08-07"
@@ -88846,6 +88846,6 @@
     }
   ],
   "format_version": "1.0",
-  "observed_source_revision": "ed75201a8e3b37913a14f4d949de33a7a0daa2c2",
+  "observed_source_revision": "d7db93643dbfa1586791aaa8031cabeca5b771f0",
   "source_repository": "trueChristian/berean-voice"
 }

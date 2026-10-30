@@ -1,0 +1,53 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": "Griswold, IA",
+          "name": "Adrianna Fanton"
+        }
+      ],
+      "raw": "By Adrianna Fanton | Griswold, IA"
+    },
+    "categories": {
+      "additional": [
+        "88107a5a-274e-53cd-a586-ff44f4ed67cc",
+        "1706ffa6-a4d1-5e68-af38-d56888d6a2a2"
+      ],
+      "primary": "14ce3df8-6bae-5930-b2c4-2ab582ee1ea1"
+    },
+    "id": "75096264-e3eb-4ef7-8197-2443fe3df539",
+    "images": [],
+    "issue_id": "1d33b847-4514-5cad-bb2b-b62194674900",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 6,
+    "series": null,
+    "source_pages": {
+      "end": 17,
+      "start": 16
+    },
+    "subtitle": null,
+    "title": "Vision",
+    "topics": [
+      "a0279174-bf88-5c83-850d-c37281bea036",
+      "8eeb707e-2475-5ca6-b536-d8fa8256afb8",
+      "936596b1-8af5-5c3c-8c10-3acb7e2a1cf2",
+      "be523b84-148a-5633-9947-03c7c310d50a"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "babb64e1ff637df69d338e12f5781f17ed36b9ef80f86baa99fd5838c6e3c39b",
+    "metadata_sha256": "172aae2f593185a0bf41118da1a2e36da39ec1ded02c2b614309674580534844",
+    "structure_sha256": "d5ad79393c67231d184447711e520b65fa9354419cda221ddf16d7f4743cddf4",
+    "text_sha256": "1460c31f0cebda5888d1b7c6a3402e0177a200f25570fc268eeca5404dad6141",
+    "translation_metadata_sha256": "78b0d2768049bf61e9686f818ad7282095ebe1f5bd6b8128b24a422e8bc3a1d3"
+  },
+  "html": "<article data-article-id=\"75096264-e3eb-4ef7-8197-2443fe3df539\">\n  <div class=\"poem\">\n    <p>God, take my eyes off myself,<br>\n    Help me see more of You.<br>\n    Too often I find my heart and mind<br>\n    With nothing but “me” in view.</p>\n\n    <p>Teach me to see what You see, Lord,<br>\n    The visions that live in Your heart.<br>\n    There’s so much more to be living for,<br>\n    Father, give me Your vision to start!</p>\n\n    <p>When all I can see is my hurting,<br>\n    And only troubles seem to exist.<br>\n    Open my eyes to what You see, Father!<br>\n    The picture’s much bigger than this!</p>\n\n    <p>Behind each storm, You see sunshine;<br>\n    Veiled in each death, Lord, You see life!<br>\n    Under the sorrows, You see a song,<br>\n    Within the fire—a purified life.</p>\n\n    <p>When I cry over the wasteland of dreams,<br>\n    You see what is out of my view.<br>\n    Just below the expanse of loss, and death,<br>\n    You see the new life, budding through!</p>\n\n    <p>Father, You know that to bring forth new life,<br>\n    First there must be a cross.<br>\n    The seeds for these delicate buds,<br>\n    Lord, come not, without a cost.</p>\n\n    <p>So when I am tempted to despair Father,<br>\n    And my view is crowded with gloom,<br>\n    When the fire I feel in my life,<br>\n    And the future, for happiness, leaves no room.</p>\n\n    <p>Remind me that in love you send fire,<br>\n    Not to kill, but to revive.<br>\n    For it burns away the rubble,<br>\n    That a pure life then will thrive.</p>\n\n    <p>It takes Your purging to reveal new growth,<br>\n    It calls for pain, to prune.<br>\n    But if I see as You do Lord,<br>\n    To Your will, my heart will be in tune.</p>\n\n    <p>No longer will I run from fire,<br>\n    Or cry when I feel Your knife.<br>\n    Instead of pain, my eyes seek Your gain,<br>\n    And the product of a Christlike life.</p>\n  </div>\n\n  <p class=\"byline\"><em>By Adrianna Fanton | Griswold, IA</em></p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "d7db93643dbfa1586791aaa8031cabeca5b771f0",
+  "translation_key": "32277bfc647ba194f6faa834398c06e772697ff78ec1396693d3df5b696f6c95"
+}

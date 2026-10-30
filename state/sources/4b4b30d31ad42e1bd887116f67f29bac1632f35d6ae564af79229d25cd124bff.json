@@ -1,0 +1,42 @@
+{
+  "article": {
+    "byline": {
+      "authors": [],
+      "raw": "Author unknown"
+    },
+    "categories": {
+      "additional": [],
+      "primary": "14ce3df8-6bae-5930-b2c4-2ab582ee1ea1"
+    },
+    "id": "834dcbc2-39c5-4942-acc6-234ebca43d1c",
+    "images": [],
+    "issue_id": "7e3000e6-c929-4986-9686-cde275f7c685",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 9,
+    "series": null,
+    "source_pages": {
+      "end": 31,
+      "start": 31
+    },
+    "subtitle": null,
+    "title": "A Prayer for Quiet Time",
+    "topics": [
+      "2d0907d9-f4ce-5ab1-9ff4-8795d1bfaf9e"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "caf2ec5f89ee8c270e3d1b6288afa931d3b849af21d3433e1f8119ddb56f2305",
+    "metadata_sha256": "79779a606565c5ae62042d5a870924cbe93e28c871479be33f79c0df81e2bc13",
+    "structure_sha256": "92302e886e823119b7166f35ba86786bc8ba5cef831280ceb4cb69a7ba591a52",
+    "text_sha256": "bb783764e8f77901ab4efe825365184cf9b51ff9a8b6b1a25ae1d0d05194aa94",
+    "translation_metadata_sha256": "1b98e82e9fa25bd0a32b1f5515b7e08a1b327eab4be3f8c1ef81c63e51cd1029"
+  },
+  "html": "<article data-article-id=\"834dcbc2-39c5-4942-acc6-234ebca43d1c\">\n<p class=\"poem\">O Holy Spirit of God come into my heart and fill me;<br>\nI open up the windows of my soul to let Thee in.<br>\nI surrender my whole life to Thee;<br>\nCome and possess me, fill me with light and truth.<br>\nI offer to Thee the one thing I really possess.<br>\nMy capacity for being filled by Thee.<br>\nOf myself I am an empty vessel.<br>\nFill me so that I may live the life of the Spirit,<br>\nThe life of Truth and Goodness,<br>\nThe life of Beauty and Love,<br>\nThe life of Wisdom and Strength.<br>\nAnd guide me today in all things:<br>\nGuide me to the people I should meet or help,<br>\nTo the circumstances in which I can best serve Thee,<br>\nWhether by my actions or my sufferings.<br>\nBut above all make Christ to be formed in me,<br>\nThat I may dethrone self in my heart and make Him King,<br>\nSo that He is in me and I in Him,<br>\nToday and forever.</p>\n<p class=\"poem\">Amen</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "d7db93643dbfa1586791aaa8031cabeca5b771f0",
+  "translation_key": "a18af7c9311d94fa57df86cbabbcf4f9e638cd33a525d0442a381f12f1efbc10"
+}

@@ -1,0 +1,44 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "name": "Jennifer René Daniel"
+        }
+      ],
+      "raw": "Jennifer René Daniel"
+    },
+    "categories": {
+      "additional": [],
+      "primary": "14ce3df8-6bae-5930-b2c4-2ab582ee1ea1"
+    },
+    "id": "494ad7cd-d4b9-41d4-b393-52c277f86298",
+    "images": [],
+    "issue_id": "c438f95a-c3cd-46ee-bbd5-a2d904c41870",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 10,
+    "series": null,
+    "source_pages": {
+      "end": 31,
+      "start": 31
+    },
+    "subtitle": null,
+    "title": "If Christ is My Life",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "79de283a643128efa68f9703f3bc04b4d68fa2228f2d524967ba52b8e02bc148",
+    "metadata_sha256": "dc11b13c25fdd53141cce0e0f1b0065d26581e60da1353d0d4f7cc4ad5cbdc5f",
+    "structure_sha256": "ece09789284e5ff2670502a25ce8d1df1b7c30dde08ffac183a364b23958df54",
+    "text_sha256": "d26a41cf005a0a861572b325fb7e5ca4be09269ca84fae94d4941a8614b5e191",
+    "translation_metadata_sha256": "5d1ee3a03b9637359aec6676f9be2c7531617ad8ed6f4f7d283c07dcae591138"
+  },
+  "html": "<article data-article-id=\"494ad7cd-d4b9-41d4-b393-52c277f86298\">\n  <p class=\"poem\"><strong>If Christ is my life, I would value each day<br>\nTo follow His precepts, to heed and obey,<br>\nTo seek His approval in all that I am,<br>\nTo live out His purpose, to fulfill His plan.</strong></p>\n  <p class=\"poem\"><strong>The things of this life will seem mundane and small<br>\nWhen He is my mainstay, who gave up His all,<br>\nThe hopes and ambitions which consumed my time<br>\nWill fade into nothing when His will is mine.</strong></p>\n  <p class=\"poem\"><strong>If Christ is my life, I'd be burdened with prayer<br>\nThat all whom I influence will meet Him ‘up there’.<br>\nMy life will have meaning—be wrapped up in Him<br>\nWho loved me and saved me and freed me from sin.</strong></p>\n  <p><strong>Jennifer René Daniel</strong></p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "d7db93643dbfa1586791aaa8031cabeca5b771f0",
+  "translation_key": "5bf08b81d08ae28c998f6639146f39c2ac1437ec70c98618577257e17db8d897"
+}

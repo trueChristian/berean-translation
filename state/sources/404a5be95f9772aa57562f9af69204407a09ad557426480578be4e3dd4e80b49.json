@@ -1,0 +1,40 @@
+{
+  "article": {
+    "byline": {
+      "authors": [],
+      "raw": null
+    },
+    "categories": {
+      "additional": [],
+      "primary": "14ce3df8-6bae-5930-b2c4-2ab582ee1ea1"
+    },
+    "id": "e87ee0b4-4f29-40f5-a962-00a9f909d206",
+    "images": [],
+    "issue_id": "9ceb8019-37ee-4c66-8a99-6df0470c2490",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 12,
+    "series": null,
+    "source_pages": {
+      "end": 32,
+      "start": 32
+    },
+    "subtitle": null,
+    "title": "A Life Poured Out",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "6e659e62857c2a7bdaef4f482ab9cb6b3de174b518a28c40a152c78059a3ee7f",
+    "metadata_sha256": "3ced1927ecea5bc997c8d3849237b61e3595dbe271ff172196e83b74b87eefb2",
+    "structure_sha256": "c6f3321fc5b405a82c572d082e2aaf4760f4c0009d66b73e4601ecd566d0a23f",
+    "text_sha256": "ad79f4c448568dbbb71722de0e541b8acc4edbe6a98afc8887d4431aef98101f",
+    "translation_metadata_sha256": "d67068f4184c8805ab9b06dc8c7d8369baf90c27fad424195617fa9913e2e7bc"
+  },
+  "html": "<article data-article-id=\"e87ee0b4-4f29-40f5-a962-00a9f909d206\">\n  <p class=\"poem\"><strong>Beloved, let us live for others, living for others is of God<br>Everyone who lives for others is born of God and knoweth God<br>He that does not live for others, knoweth not God<br>For God lives for others</strong></p>\n  <p class=\"poem\"><strong>Beloved, this is how God lived for others<br>God sent His only begotten Son into the world<br>To be the propitiation for our sins<br>This is the true definition of love</strong></p>\n  <p class=\"poem\"><strong>Beloved, if God so loved us, we ought to live for others<br>If we live for others, God dwelleth in us<br>And His love is perfected in us<br>By this we are assured that God dwells in us</strong></p>\n  <p class=\"poem\"><strong>Beloved, whosoever shall confess to others<br>That the Father sent the Son to be the Savior<br>God dwells in him, and he dwells in God continually<br>God is love</strong></p>\n  <p><em>Adapted</em></p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "d7db93643dbfa1586791aaa8031cabeca5b771f0",
+  "translation_key": "aca93de5093bdbad1258ce557a152939b2a16d4c50fc7826d058e17e7dbefb7c"
+}

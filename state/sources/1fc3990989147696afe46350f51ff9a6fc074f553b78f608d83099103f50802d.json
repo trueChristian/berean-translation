@@ -1,0 +1,72 @@
+{
+  "article": {
+    "byline": {
+      "authors": [],
+      "raw": null
+    },
+    "categories": {
+      "additional": [
+        "2929e2be-19ce-58e2-97aa-0ab40108e60a"
+      ],
+      "primary": "ef4f5581-8e5a-5cf6-933e-ac68e8b55839"
+    },
+    "id": "4f76f07b-0e77-457d-b59c-12e67222dfc1",
+    "images": [
+      {
+        "alt": "The Kenaston family gathered outdoors beneath a tree.",
+        "caption": "The Kenaston family",
+        "credit": null,
+        "height": 205,
+        "public_path": "/images/articles/4f76f07b-0e77-457d-b59c-12e67222dfc1-1.jpg",
+        "repository_path": "public/images/articles/4f76f07b-0e77-457d-b59c-12e67222dfc1-1.jpg",
+        "rights_note": "No image credit or separate permission notice is stated. Clean embedded DeviceGray JPEG object 114 (320 × 205 pixels) was extracted and normalized as a baseline sRGB JPEG with a nonzero 72 dpi JFIF density, preserving the complete native photograph without retouching. The separately painted white caption typography was omitted from the raster and retained in semantic HTML. The dark lower edge is intrinsic grass and shadow in the original photograph, not a separate panel. Page graphics object 113 paints the image using matrix [321.0123, 0, 0, 204.1232, 228.27, 292.9068] inside clip [228.24, 293.75, 547.74, 497.03] in PDF bottom-left coordinates; this trims approximately 1.54 native pixels at the right and 0.85 at the bottom. The complete native asset is retained because this fractional-edge clipping is negligible and preserves all source image content.",
+        "role": "family photograph",
+        "sequence": 1,
+        "source_page": 30,
+        "verification": {
+          "browser_compatible_renderer": "Verified in Chromium at native resolution; complete image.decode() succeeded and rendered gallery visually matched the source and final files.",
+          "bytes": 21014,
+          "color": "Pillow reports RGB; ImageMagick reports sRGB and JPEG color space 2; baseline/nonprogressive; embedded sRGB ICC profile; JFIF 72×72 dpi.",
+          "complete_decoders": [
+            "Pillow Image.load() plus complete tobytes() (196800 RGB bytes)",
+            "ImageMagick convert -regard-warnings to PNG24; full raster decode completed with no warning"
+          ],
+          "git_blob_sha": "c07b0db52d6c3f49c69ab617ab03d22fd924d2c8",
+          "paint_order": "Page content xref 113 paints background and article text, the clean image via /Im29, then the list and caption. Caption uses separately painted white text; no independent caption panel or opacity wash exists.",
+          "raw_object": "PDF xref 114, DeviceGray, DCTDecode, 320 × 205; no mask or Decode override",
+          "uncertainties": [
+            "No photographer/source credit is printed."
+          ],
+          "visual_comparison": "Final JPEG and full ImageMagick-decoded PNG visually inspected against raw asset and source page; full scene, all people, orientation, intrinsic shadows and source tones retained; no text, panel, page furniture, corruption or truncation."
+        },
+        "width": 320
+      }
+    ],
+    "issue_id": "1a66dae0-06e5-495c-a0cc-d9e3aa18c51f",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 13,
+    "series": null,
+    "source_pages": {
+      "end": 30,
+      "start": 30
+    },
+    "subtitle": null,
+    "title": "Godly Home Series • 2003",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "b86a7137f2ba183d0deef611ccfb66857739dd29e6218daee471bc1e5730c3d6",
+    "metadata_sha256": "d41ea85a00fb8892a6d3a8f5d9240be461a0f0b26514b7c3faa3c6e175754e51",
+    "structure_sha256": "9942e51d897596f7bfe58e1f2534bf6f7a928b7d54b6c1dd28ede42cdab91633",
+    "text_sha256": "b94af7251df987beee82135801d257e2d117541bd9492277da19a87e44a33f26",
+    "translation_metadata_sha256": "5b8f517885a3223039e89191b0ff01531149fdb08173915be9a9cea958ad70d1"
+  },
+  "html": "<article data-article-id=\"4f76f07b-0e77-457d-b59c-12e67222dfc1\">\n  <p class=\"drop-cap\">As announced, the “Godly Home Series” was preached again in January 2003. We had some difficulty getting settled on where to have the meetings because of construction delays in North Carolina, but finally decided to host them at Charity Christian Fellowship in Pennsylvania.</p>\n  <p>Four hundred earnest souls gathered for ten days to seek the Lord for a blessing and a changed heart. My heart fills with gratitude as I look back on those days together. We had ten days of sitting together in heavenly places. Those days were filled with fastings, earnest seasons of prayer, and many times of weeping. We all stood in awe as we watched the Lord give the “Godly Home Series” again. It seemed as though the Lord had gathered all of us together to do the series again. I was stretched to my limits with 28 sermons to preach in ten days, but God gave me His abundant grace.</p>\n  <p>As I reflect on the new series, my heart is filled with a deep peace because I have done what the Lord said to do. The messages are so much more balanced. The standard was lifted high, yet God filled the words with grace and faith to obey them. There is so much more solid content, with many more years of experience to share from. As I pondered doing the series again, one of my deepest burdens centered on the issue of discipline. I felt as though many of the parents were leaning far too heavily on the use of the rod to bring order to their homes, and not giving time for close meaningful relationships. My son Daniel is home on furlough from Africa, so we asked him to give a second-generation perspective to the series as a concluding message. This makes 29 solid messages to establish a godly seed to the glory of God. We have listed below the titles to each of these messages.</p>\n  <p><strong><em>This tape set should be available<br>around April 1, 2003</em></strong></p>\n  <figure>\n    <img src=\"/images/articles/4f76f07b-0e77-457d-b59c-12e67222dfc1-1.jpg\" alt=\"The Kenaston family gathered outdoors beneath a tree.\">\n    <figcaption>The Kenaston family</figcaption>\n  </figure>\n  <ol>\n    <li>The Holy Art of Training Children</li>\n    <li>The Foundation of a Godly Home</li>\n    <li>The Eternal Value of a Child</li>\n    <li>A Vision That Motivates</li>\n    <li>A Godly Heritage Today</li>\n    <li>Bible Pictures of Promise</li>\n    <li>More Pictures of Promise</li>\n    <li>Whole-Hearted Households</li>\n    <li>The Key to Obedience is Blessings</li>\n    <li>The Hearts of the Fathers Must Turn</li>\n    <li>The Rod is Love</li>\n    <li>A Sacred Exercise</li>\n    <li>The Training of the Will</li>\n    <li>The Bondage of Foolishness</li>\n    <li>Father: the Anointed Teacher</li>\n    <li>Train Up a Child</li>\n    <li>A Quiet, Ordered Life</li>\n    <li>Three Mysterious Influences</li>\n    <li>A Dwelling Place for the Living God</li>\n    <li>Father: the Watchman</li>\n    <li>The Hidden Woman (Part I)</li>\n    <li>The Hidden Woman (Part II)</li>\n    <li>Where Are the Men?</li>\n    <li>Fighting for the Next Generation</li>\n    <li>Godly Men Have Radiant Wives</li>\n    <li>Joining the Next Generation</li>\n    <li>Youth: Anointed Disciples of Jesus Christ</li>\n    <li>Households on Fire</li>\n    <li>Overwhelming Blessings on the Second Generation</li>\n    <li>Family Verses and Songs</li>\n  </ol>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "d7db93643dbfa1586791aaa8031cabeca5b771f0",
+  "translation_key": "005c281d2d8a777d04485e846538d5b17133f2df0adef52c831d1a5616b793fd"
+}

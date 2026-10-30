@@ -1,0 +1,49 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "name": "Amy Carmichael"
+        }
+      ],
+      "raw": "-Amy Carmichael-"
+    },
+    "categories": {
+      "additional": [
+        "88107a5a-274e-53cd-a586-ff44f4ed67cc"
+      ],
+      "primary": "ef4f5581-8e5a-5cf6-933e-ac68e8b55839"
+    },
+    "id": "6f5da2d6-b248-440b-ba8c-a5f259000f85",
+    "images": [],
+    "issue_id": "23b80e56-9f67-4023-b0f8-e67794b16724",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 12,
+    "series": null,
+    "source_pages": {
+      "end": 36,
+      "start": 36
+    },
+    "subtitle": null,
+    "title": "Parents’ Prayer",
+    "topics": [
+      "2d0907d9-f4ce-5ab1-9ff4-8795d1bfaf9e",
+      "9aeecc23-2b8e-5b54-9b5f-6d6b71f294ba"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "bb955d67446217ea79899be2961501ce30d3270106f02d88268dbdd673f0874c",
+    "metadata_sha256": "b6b19dedc62130413da0591157060d414c3d10f52bace7195485e1e4965f4822",
+    "structure_sha256": "806a67efc315eb94abe19820ebc212dd94b3b8274969ab1366408d99c33e5c82",
+    "text_sha256": "e4a235a796fba3d01d60a19527534acd9b6f4c540fd57cff91a109b449917e54",
+    "translation_metadata_sha256": "22cf69fdb16196c3e663bede1d9467a9314797fd6a89fc1cf5dd23b8b18c6851"
+  },
+  "html": "<article data-article-id=\"6f5da2d6-b248-440b-ba8c-a5f259000f85\">\n  <p><strong>Make them good soldiers of Jesus Christ; let them<br>never turn back in the day of battle. Let them be<br>winners and helpers of souls. Let them live not to<br>be ministered to, but to minister.</strong></p>\n  <p><strong>Make them loyal; let them set loyalty high<br>above all things. Make them doers,<br>not mere talkers. Let them enjoy<br>hard work and choose hard things<br>rather than easy. Make them trustworthy. Make them wise,<br>for it is written, He hath no<br>pleasure in fools.</strong></p>\n  <p><strong>Let them pass from dependence<br>on us to dependence on Thee.<br>Let them never come under the<br>dominion of earthly things; keep<br>them free. Let them grow up healthy,<br>happy, friendly, and keen to make<br>others happy. Give them eyes to see the<br>beauty of the world and hearts to worship its Creator.</strong></p>\n  <p><strong>Let them be gentle to beast and bird; let cruelty be<br>hateful to them. May they walk, O Lord, in the light<br>of Thy countenance.</strong></p>\n  <p><strong>And for ourselves we ask that we might never weaken.<br>\"God is my strong salvation\" ...we ask that we<br>might train them to say that word and live that life,<br>and pour themselves out for others unhindered by self.</strong></p>\n  <p><strong>-Amy Carmichael-</strong></p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "d7db93643dbfa1586791aaa8031cabeca5b771f0",
+  "translation_key": "e1ef684d4194004eeb08589b4ac9ce0046a2eca3434d53213606f4cd3c158a5e"
+}

@@ -1,0 +1,98 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "name": "Betty Stam",
+          "role": "Missionary Martyr"
+        }
+      ],
+      "raw": "- Betty Stam -\nMissionary Martyr"
+    },
+    "categories": {
+      "additional": [],
+      "primary": "14ce3df8-6bae-5930-b2c4-2ab582ee1ea1"
+    },
+    "id": "cba5e203-d81e-40a3-a3be-690c4de11399",
+    "images": [
+      {
+        "alt": "Snow-covered mountain cliffs above dark evergreen treetops.",
+        "caption": null,
+        "credit": null,
+        "height": 439,
+        "public_path": "/images/articles/cba5e203-d81e-40a3-a3be-690c4de11399-1.jpg",
+        "repository_path": "public/images/articles/cba5e203-d81e-40a3-a3be-690c4de11399-1.jpg",
+        "rights_note": "Original PDF page 36 image object 128; no separate image licence or credit is stated. The poem title, complete poem, byline and translucent reading panel are baked into the source mountain raster; the user-requested crop now omits their entire region. Separate decorative cover frame and mailing panel were already omitted. The source JPEG was previously standards-normalized to remove one trailing byte after its EOI marker. The masthead states “Some images © 2001-2002” and “www.arttoday.com” without identifying particular images; no individual licence is inferred.",
+        "role": "background",
+        "sequence": 1,
+        "source_page": 36,
+        "source_xref": 128,
+        "transformations": "User-requested crop on 2026-10-14 from the canonical 506 × 504 JPEG at commit 3ddb41130d7b1fc835b13da2af7be1d00c198d3b: half-open pixel rectangle (0, 65, 240, 504) (left, top, right, bottom), yielding 240 × 439. The unobstructed left portion retains photographic scenery and excludes the complete poem, title, byline, translucent reading panel and shadow. Encoded as a baseline RGB/sRGB JPEG at quality 98 with nonzero 72 dpi density; no resize, rotation, inpainting, synthesis or tonal inverse. The existing poem transcription remains unchanged in HTML.",
+        "verification": {
+          "browser_compatible_renderer": "Skia Canvas: complete decode, paint at natural dimensions and full raster readback passed.",
+          "color_space": "RGB/sRGB",
+          "complete_decode": "passed_without_warnings",
+          "complete_decoders": [
+            "Pillow/libjpeg",
+            "FFmpeg native MJPEG"
+          ],
+          "crop_rectangle": [
+            0,
+            65,
+            240,
+            504
+          ],
+          "crop_rectangle_convention": "Half-open source JPEG pixels: left, top, right, bottom.",
+          "crop_source_blob": "64aea28588b1ef36443b2ba34e3dcda9fa5ece4f",
+          "crop_source_commit": "3ddb41130d7b1fc835b13da2af7be1d00c198d3b",
+          "encoded_bytes": 63046,
+          "independent_image_review": "A second AI reader opened both the final crop and the committed original at full useful resolution; useful scenery, matching orientation and colours, and absence of text, panels, shadows and corruption confirmed.",
+          "overlay_audit": "Complete final crop opened at full useful resolution: no title, poem, byline, reading panel or shadow remains.",
+          "source_export_verification": {
+            "results": {
+              "encoded_bytes": 136248,
+              "imagemagick_full_decode": "passed",
+              "overlay_audit": "unavoidable baked-in title, poem, byline and translucent panel documented",
+              "pillow_full_decode": "passed",
+              "visual_source_comparison": "verified_by_ai",
+              "web_colour_metadata": "JPEG 506x504 sRGB TrueColor 72 72",
+              "webkit_complete_decode_and_canvas_draw": "passed"
+            },
+            "scope": "Historical review of the uncropped repository image; not a new PDF review of this crop."
+          },
+          "visual_against_pdf": "not_rechecked_after_user_requested_crop",
+          "visual_against_repository_source": "verified_by_ai"
+        },
+        "width": 240
+      }
+    ],
+    "issue_id": "58e5607a-c1e0-472f-9c84-1527f23cc887",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 14,
+    "series": null,
+    "source_pages": {
+      "end": 36,
+      "start": 36
+    },
+    "subtitle": null,
+    "title": "I’m Standing",
+    "topics": [
+      "8ada4a0d-a538-532f-a615-13434b3cd997"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "6d6ce64b8b8f6e4f1901135743a12c5aad500a4ae0be5f40a9d65774a2fdc76c",
+    "metadata_sha256": "a02551808a839e9a2b0af352abf80817a62a2595fc2eb6aa42da5830e0c77832",
+    "structure_sha256": "4c30d6b0d0ee7924119fc3265c6b1fba2028873a88cb916be179aa79cd4d8304",
+    "text_sha256": "ff2d8214e98e829b0670af67213bf0cb58cf24be22c1f8b430a1fcb2e28bcd30",
+    "translation_metadata_sha256": "1e08cf85b56be50b7ebcc24680c0b89de1acbfd2beca777b42f7cfacdcca7ca2"
+  },
+  "html": "<article data-article-id=\"cba5e203-d81e-40a3-a3be-690c4de11399\">\n  <figure><img src=\"/images/articles/cba5e203-d81e-40a3-a3be-690c4de11399-1.jpg\" alt=\"Snow-covered mountain cliffs above dark evergreen treetops.\"></figure>\n  <p class=\"poem\"><strong>I’m standing, Lord;<br>There is a mist that blinds my sight.<br>Steep jagged rocks, front, left and right,<br>Lower, dim, gigantic, in the night.<br>Where is the way?</strong></p>\n  <p class=\"poem\"><strong>I’m standing, Lord;<br>The black rock hems me in behind.<br>Above my head a moaning wind<br>Chills and oppresses heart and mind.<br>I am afraid!</strong></p>\n  <p class=\"poem\"><strong>He answered me, and on His face<br>A look ineffable of grace,<br>Of perfect, understanding love,<br>Which all my murmuring did remove.</strong></p>\n  <p class=\"poem\"><strong>I’m standing, Lord;<br>Since Thou hast spoken, Lord, I see<br>Thou hast beset – these rocks are Thee!<br>And, since Thy love encloses me,<br>I stand and sing.</strong></p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "d7db93643dbfa1586791aaa8031cabeca5b771f0",
+  "translation_key": "79e5c0e3d92cd7254f9a77347be60a17b6aaeab72675432b3d8d55fac6535a75"
+}

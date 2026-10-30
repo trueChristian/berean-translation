@@ -1,0 +1,60 @@
+{
+  "article": {
+    "byline": {
+      "authors": [],
+      "raw": null
+    },
+    "categories": {
+      "additional": [],
+      "primary": "14ce3df8-6bae-5930-b2c4-2ab582ee1ea1"
+    },
+    "id": "7a66963a-8f7e-4083-bed3-227b354fae1b",
+    "images": [
+      {
+        "alt": "A sunset framed by trees with a faint crucifixion figure.",
+        "caption": null,
+        "credit": null,
+        "height": 256,
+        "public_path": "/images/articles/7a66963a-8f7e-4083-bed3-227b354fae1b-1.jpg",
+        "repository_path": "public/images/articles/7a66963a-8f7e-4083-bed3-227b354fae1b-1.jpg",
+        "rights_note": "No individual image credit or separate licence is printed. Exported under publisher authorization after whole-article eligibility review. The archived full 505×685 illustration originated from embedded PDF object 153. At the project owner’s request, the text-free sunset/tree/crucifixion region is now cropped from that archived JPEG; the title and complete poem remain in article metadata and HTML. Original colour toning and the faint central figure are retained. Separately painted mailing text, publication logo and tiled outer border were already omitted in the source export. No pixels were generated, inpainted or retouched.",
+        "role": "illustration",
+        "sequence": 1,
+        "source_page": 36,
+        "transformation": "User-requested rectangular crop of archived 505×685 JPEG (Git blob 58310756c5529a32ce09b3aa2e9c610243b0516c), using top-left pixel coordinates [0,256,505,512), to 505×256. Removes the baked title/poem above and excess dark lower margin. No resizing, rotation, recolouring or reconstruction; native-width image re-encoded as baseline sRGB JPEG, quality 100, 4:4:4 sampling, 72 dpi.",
+        "verification": {
+          "browser_compatible_render": "Cropped JPEG fully decoded, painted and read back through @napi-rs/canvas Skia Canvas 2D (517120 RGBA bytes); native-resolution render visually inspected.",
+          "full_decode": "Cropped JPEG fully decoded by Pillow (387840 RGB bytes) and independently by ImageMagick (517120 RGBA bytes), both without warnings; baseline RGB/sRGB and nonzero 72-dpi density confirmed.",
+          "visual_against_source": "Two AI readers compared the crop with the original archived 505×685 JPEG. No title or poem remnants remain; sunset, tree silhouettes and faint central crucifixion figure retained. This correction was checked against the archived image; the PDF was not reopened."
+        },
+        "width": 505
+      }
+    ],
+    "issue_id": "5a267233-b126-4092-a82b-2cd2ed4884af",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 13,
+    "series": null,
+    "source_pages": {
+      "end": 36,
+      "start": 36
+    },
+    "subtitle": null,
+    "title": "They Crucified God",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "e65c76c0d3aba3e855e93c1f32fa9aea59c60d24de9cd1fb9b6ceb980b3337b3",
+    "metadata_sha256": "f7a96edff61fb706ee0066ffb8313604d7874ebf36922ffe2d4731192f3c1c3c",
+    "structure_sha256": "f4846e5b6ae4de172de8193fb25ebc375c142e6589a6fd151f068e5170daccd5",
+    "text_sha256": "35e33a0781d8eba45d6e30c8354b2a20a5523d25e942babc6be9cd62b746ebae",
+    "translation_metadata_sha256": "27c368a426c188b846343d6146f542c4e5d21994bde7354e620ea3fbd7dd7f61"
+  },
+  "html": "<article data-article-id=\"7a66963a-8f7e-4083-bed3-227b354fae1b\">\n  <figure>\n    <img src=\"/images/articles/7a66963a-8f7e-4083-bed3-227b354fae1b-1.jpg\" alt=\"A sunset framed by trees with a faint crucifixion figure.\">\n  </figure>\n  <p class=\"poem\">Then the Jews cried out, \"Let <strong>God</strong> be crucified.<br>\n  Let <strong>God's</strong> blood be upon us and on our children.\"<br>\n  Then the soldiers took <strong>God</strong>, and stripped off His clothes.<br>\n  They put upon <strong>God</strong> a scarlet robe of mockery.<br>\n  They pushed a crown of thorns down on <strong>God's</strong> head.<br>\n  And placed a reed for a scepter, in <strong>God's</strong> right hand.<br>\n  They bowed the knee before <strong>God</strong> and mocked Him.<br>\n  They spit upon <strong>God's</strong> face and smote Him on the head.<br>\n  And then they lead <strong>God</strong> away, and crucified Him.<br>\n  Many that passed by reviled <strong>God</strong>, wagging their heads.<br>\n  And there was darkness over all the land.<br>\n  Then <strong>God</strong> cried out with a loud voice, \"<strong>It Is Finished</strong>\".</p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "d7db93643dbfa1586791aaa8031cabeca5b771f0",
+  "translation_key": "a62fa8e01b0980a89877ff1409f540737ba89ecd5ad2b60164c6ec41328d3eae"
+}

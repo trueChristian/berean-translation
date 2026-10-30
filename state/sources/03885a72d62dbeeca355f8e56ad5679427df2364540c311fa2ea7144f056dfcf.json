@@ -1,0 +1,52 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "location": null,
+          "name": "Katie Good"
+        }
+      ],
+      "raw": "–by Katie Good"
+    },
+    "categories": {
+      "additional": [
+        "1706ffa6-a4d1-5e68-af38-d56888d6a2a2"
+      ],
+      "primary": "14ce3df8-6bae-5930-b2c4-2ab582ee1ea1"
+    },
+    "id": "095ed998-d5e3-49fb-a63f-a2e4c434c1aa",
+    "images": [],
+    "issue_id": "ce5b62a6-87cb-57ad-8488-aacc67d06b00",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 11,
+    "series": null,
+    "source_pages": {
+      "end": 27,
+      "start": 27
+    },
+    "subtitle": null,
+    "title": "Only in the Darkness",
+    "topics": [
+      "2d0907d9-f4ce-5ab1-9ff4-8795d1bfaf9e",
+      "5933107a-a052-501e-9826-e25cb5a7e990",
+      "3639e3c0-6b3d-5723-b94a-6a1b62c91cf5",
+      "aa1cc781-4fa3-5a11-89a3-e94519678778"
+    ]
+  },
+  "fingerprints": {
+    "html_sha256": "3cd3c3bf3be72d62440d4425d437a64f548f34f7aefb1d64f4fc3b3ae8f60903",
+    "metadata_sha256": "894ba63de41207bc9d996ac4732cc8b356ecb90d7786a6b66769b6a20c20233b",
+    "structure_sha256": "1fc1f07a91c64063ac4feb9b26725e7f441c038c17f2275c12b6c51892495469",
+    "text_sha256": "c7b7ca56507f180fb1ae0b2766acb2704dbc1e22147167a15c57143ba37f4ec3",
+    "translation_metadata_sha256": "3a8e7dce4bbe574292bcee491fd11e827dbdeb83a8285af92dc59d49993f2094"
+  },
+  "html": "<article data-article-id=\"095ed998-d5e3-49fb-a63f-a2e4c434c1aa\">\n  <div class=\"poem\">\n    <p>Is it only in the heartbreak,<br>\n    When confusion ‘round me churns,<br>\n    That I truly seek my Savior’s arms<br>\n    And my will toward Him turns?</p>\n\n    <p>Is it only in the darkness,<br>\n    When I cannot see my way;<br>\n    Or when asked of something I do not know<br>\n    That I think to stop and pray?</p>\n\n    <p>Is it only when I feel<br>\n    The force of evil ‘round me gathered,<br>\n    That I seek for His protection;<br>\n    To in His arms be sheltered?</p>\n\n    <p>Oh, foolish heart of mine!<br>\n    How can you call Him your best friend<br>\n    When it’s only in your trials<br>\n    That on Him you will depend?</p>\n\n    <p>In good times too, you need Him,<br>\n    Perhaps more desperately;<br>\n    Since it’s easier to forget to seek<br>\n    When the way you think you see.</p>\n\n    <p>Even when you fail to hear Him,<br>\n    When by His side you fail to stay,<br>\n    He will hear you when you cry to Him<br>\n    And on Him your troubles lay.</p>\n\n    <p>But how much better it would be<br>\n    To earnestly seek His face<br>\n    As much in the smoother times of life<br>\n    As in the rougher place!</p>\n\n    <p>To seek and to search, to stay by His side,<br>\n    To share the joy and the sorrow,<br>\n    The unknowns in His hands, He’ll be at your side<br>\n    For whatever may come in tomorrow.</p>\n\n    <p class=\"byline\"><em>–by Katie Good</em></p>\n  </div>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "d7db93643dbfa1586791aaa8031cabeca5b771f0",
+  "translation_key": "705372f522f7317e2d009d2aaa9998e4d73cb36568790be910c48675e591d5e6"
+}

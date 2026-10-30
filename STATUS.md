@@ -2,50 +2,50 @@
 
 Generated from the pinned source catalogue and durable work records. No API call is made by this report.
 
-Generated: 2026-10-30T09:22:18+00:00.
+Generated: 2026-10-30T09:26:26+00:00.
 Published means an accepted translation is exportable here; live deployment is verified separately.
 Target categories are disjoint. Accepted publications remain published during replacement work. Source-stale versions and replacement outcomes are reported separately.
 Ready means source-compatible and exportable here; live deployment is verified separately.
 Finished means processing has stopped, not that every requested translation passed. Held items still need action.
 
-Observed English revision: `ed75201a8e3b37913a14f4d949de33a7a0daa2c2`
+Observed English revision: `d7db93643dbfa1586791aaa8031cabeca5b771f0`
 
-Total target: 23360 article/language pairs. published: 3124 | unstarted: 18663 | queued: 191 | active: 50 | held without publication: 1332.
+Total target: 23360 article/language pairs. published: 3124 | unstarted: 18666 | queued: 149 | active: 50 | held without publication: 1371.
 
 Last collection: 2026-10-30T09:22:18+00:00; newly published: 2; stop reason: wait_budget_exhausted; submitted batches remaining: 49.
 
 | Issue selector | Articles | Published / target | Unstarted | Queued / admission | Active | Held without publication | Source stale | Failed replacements |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | `heartbeat-remnant-2024-summer` | 10 | 199 / 200 | 0 | 0 | 0 | 1 | 0 | 108 |
-| `heartbeat-remnant-2024-spring` | 11 | 157 / 220 | 0 | 0 | 0 | 63 | 6 | 0 |
+| `heartbeat-remnant-2024-spring` | 11 | 157 / 220 | 0 | 0 | 0 | 63 | 13 | 0 |
 | `heartbeat-remnant-2024-winter` | 11 | 136 / 220 | 0 | 0 | 0 | 84 | 9 | 0 |
-| `heartbeat-remnant-2023-summer` | 13 | 177 / 260 | 0 | 0 | 0 | 83 | 0 | 0 |
+| `heartbeat-remnant-2023-summer` | 13 | 177 / 260 | 0 | 0 | 0 | 83 | 15 | 0 |
 | `heartbeat-remnant-2023-spring` | 10 | 115 / 200 | 0 | 0 | 1 | 84 | 0 | 0 |
-| `heartbeat-remnant-2023-winter` | 12 | 138 / 240 | 0 | 0 | 0 | 102 | 0 | 0 |
-| `heartbeat-remnant-2022-winter` | 10 | 101 / 200 | 0 | 0 | 5 | 94 | 0 | 0 |
-| `heartbeat-remnant-2022-fall` | 11 | 167 / 220 | 0 | 0 | 0 | 53 | 0 | 0 |
-| `heartbeat-remnant-2022-summer` | 9 | 148 / 180 | 0 | 0 | 0 | 32 | 0 | 0 |
+| `heartbeat-remnant-2023-winter` | 12 | 138 / 240 | 0 | 0 | 0 | 102 | 8 | 0 |
+| `heartbeat-remnant-2022-winter` | 10 | 101 / 200 | 0 | 0 | 5 | 94 | 7 | 0 |
+| `heartbeat-remnant-2022-fall` | 11 | 167 / 220 | 0 | 0 | 0 | 53 | 12 | 0 |
+| `heartbeat-remnant-2022-summer` | 9 | 148 / 180 | 0 | 0 | 0 | 32 | 15 | 0 |
 | `heartbeat-remnant-2022-spring` | 9 | 165 / 180 | 0 | 0 | 0 | 15 | 0 | 0 |
-| `heartbeat-remnant-2021-summer` | 11 | 129 / 220 | 0 | 0 | 0 | 91 | 13 | 0 |
-| `heartbeat-remnant-2021-spring` | 11 | 159 / 220 | 0 | 0 | 0 | 61 | 10 | 0 |
-| `heartbeat-remnant-2021-winter` | 12 | 172 / 240 | 0 | 0 | 0 | 68 | 21 | 0 |
-| `heartbeat-remnant-2020-summer` | 10 | 101 / 200 | 0 | 0 | 0 | 99 | 0 | 0 |
+| `heartbeat-remnant-2021-summer` | 11 | 129 / 220 | 0 | 0 | 0 | 91 | 26 | 0 |
+| `heartbeat-remnant-2021-spring` | 11 | 159 / 220 | 0 | 0 | 0 | 61 | 40 | 0 |
+| `heartbeat-remnant-2021-winter` | 12 | 172 / 240 | 0 | 0 | 0 | 68 | 30 | 0 |
+| `heartbeat-remnant-2020-summer` | 10 | 101 / 200 | 0 | 0 | 0 | 99 | 15 | 0 |
 | `heartbeat-remnant-2020-spring` | 12 | 146 / 240 | 0 | 0 | 0 | 94 | 18 | 0 |
-| `heartbeat-remnant-2020-winter` | 13 | 155 / 260 | 0 | 0 | 0 | 105 | 13 | 0 |
-| `heartbeat-remnant-2019-summer` | 11 | 149 / 220 | 0 | 0 | 0 | 71 | 0 | 27 |
-| `heartbeat-remnant-2019-spring` | 10 | 153 / 200 | 0 | 0 | 0 | 47 | 0 | 0 |
+| `heartbeat-remnant-2020-winter` | 13 | 155 / 260 | 0 | 0 | 0 | 105 | 26 | 0 |
+| `heartbeat-remnant-2019-summer` | 11 | 149 / 220 | 0 | 0 | 0 | 71 | 20 | 27 |
+| `heartbeat-remnant-2019-spring` | 10 | 153 / 200 | 0 | 0 | 0 | 47 | 12 | 0 |
 | `heartbeat-remnant-2019-winter` | 12 | 0 / 240 | 240 | 0 | 0 | 0 | 0 | 0 |
 | `heartbeat-remnant-2018-winter` | 12 | 0 / 240 | 240 | 0 | 0 | 0 | 0 | 0 |
 | `heartbeat-remnant-2018-summer` | 12 | 0 / 240 | 240 | 0 | 0 | 0 | 0 | 0 |
 | `heartbeat-remnant-2021-fall` | 12 | 0 / 240 | 240 | 0 | 0 | 0 | 0 | 0 |
 | `heartbeat-remnant-2020-fall` | 11 | 0 / 220 | 220 | 0 | 0 | 0 | 0 | 0 |
 | `heartbeat-remnant-2019-fall` | 14 | 0 / 280 | 280 | 0 | 0 | 0 | 0 | 0 |
-| `heartbeat-remnant-2018-fall` | 8 | 0 / 160 | 160 | 0 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2018-fall` | 8 | 0 / 160 | 140 | 0 | 0 | 20 | 0 | 0 |
 | `heartbeat-remnant-2024-autumn` | 14 | 0 / 280 | 280 | 0 | 0 | 0 | 0 | 0 |
 | `heartbeat-remnant-2023-autumn` | 10 | 0 / 200 | 200 | 0 | 0 | 0 | 0 | 0 |
 | `heartbeat-remnant-2013-07` | 11 | 0 / 220 | 220 | 0 | 0 | 0 | 0 | 0 |
 | `heartbeat-remnant-2013-05` | 9 | 0 / 180 | 180 | 0 | 0 | 0 | 0 | 0 |
-| `heartbeat-remnant-2013-03` | 10 | 80 / 200 | 0 | 94 | 3 | 23 | 0 | 0 |
+| `heartbeat-remnant-2013-03` | 10 | 80 / 200 | 39 | 56 | 3 | 22 | 8 | 0 |
 | `heartbeat-remnant-2013-01` | 9 | 0 / 180 | 180 | 0 | 0 | 0 | 0 | 0 |
 | `heartbeat-remnant-2012-11` | 10 | 0 / 200 | 200 | 0 | 0 | 0 | 0 | 0 |
 | `heartbeat-remnant-2012-09` | 7 | 0 / 140 | 140 | 0 | 0 | 0 | 0 | 0 |
@@ -56,9 +56,9 @@ Last collection: 2026-10-30T09:22:18+00:00; newly published: 2; stop reason: wai
 | `heartbeat-remnant-2011-11` | 12 | 0 / 240 | 240 | 0 | 0 | 0 | 0 | 0 |
 | `heartbeat-remnant-2011-09` | 11 | 0 / 220 | 220 | 0 | 0 | 0 | 0 | 0 |
 | `heartbeat-remnant-2011-07` | 10 | 0 / 200 | 200 | 0 | 0 | 0 | 0 | 0 |
-| `heartbeat-remnant-2011-05` | 14 | 234 / 280 | 0 | 33 | 0 | 13 | 0 | 0 |
+| `heartbeat-remnant-2011-05` | 14 | 234 / 280 | 4 | 29 | 0 | 13 | 15 | 0 |
 | `heartbeat-remnant-2011-03` | 17 | 0 / 340 | 340 | 0 | 0 | 0 | 0 | 0 |
-| `heartbeat-remnant-2011-01` | 12 | 0 / 240 | 240 | 0 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2011-01` | 12 | 0 / 240 | 220 | 0 | 0 | 20 | 0 | 0 |
 | `heartbeat-remnant-2010-11` | 12 | 0 / 240 | 240 | 0 | 0 | 0 | 0 | 0 |
 | `heartbeat-remnant-2007-special-edition` | 14 | 0 / 280 | 280 | 0 | 0 | 0 | 0 | 0 |
 | `heartbeat-remnant-2010-09` | 13 | 0 / 260 | 260 | 0 | 0 | 0 | 0 | 0 |
@@ -121,26 +121,26 @@ Last collection: 2026-10-30T09:22:18+00:00; newly published: 2; stop reason: wai
 
 | Language | Published / source articles | Unstarted | Queued / admission | Active | Held without publication | Source stale | Failed replacements | Human reviewed | Corrected candidates |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| `cmn` (zh-Hans) | 152 / 1168 | 933 | 9 | 2 | 72 | 4 | 5 | 0 | 112 |
-| `hin` (hi) | 161 / 1168 | 933 | 8 | 2 | 64 | 4 | 7 | 0 | 123 |
-| `spa` (es) | 182 / 1168 | 933 | 14 | 1 | 38 | 7 | 5 | 0 | 99 |
-| `ara` (ar) | 146 / 1168 | 933 | 9 | 1 | 79 | 5 | 9 | 0 | 135 |
-| `fra` (fr) | 175 / 1168 | 933 | 7 | 3 | 50 | 6 | 9 | 0 | 99 |
-| `ben` (bn) | 143 / 1168 | 933 | 10 | 3 | 79 | 6 | 7 | 0 | 125 |
-| `por` (pt) | 195 / 1168 | 933 | 9 | 1 | 30 | 5 | 6 | 0 | 92 |
-| `ind` (id) | 170 / 1168 | 933 | 11 | 3 | 51 | 6 | 6 | 0 | 109 |
-| `urd` (ur) | 152 / 1168 | 933 | 11 | 4 | 68 | 4 | 5 | 0 | 127 |
-| `rus` (ru) | 147 / 1168 | 933 | 11 | 2 | 75 | 4 | 6 | 0 | 138 |
-| `deu` (de) | 135 / 1168 | 933 | 13 | 3 | 84 | 1 | 4 | 0 | 117 |
-| `nld` (nl) | 168 / 1168 | 933 | 12 | 3 | 52 | 6 | 9 | 0 | 115 |
-| `afr` (af) | 172 / 1168 | 933 | 9 | 4 | 50 | 7 | 9 | 17 | 106 |
-| `swa` (sw) | 117 / 1168 | 933 | 9 | 4 | 105 | 2 | 7 | 0 | 148 |
-| `kor` (ko) | 161 / 1168 | 933 | 7 | 1 | 66 | 4 | 5 | 0 | 117 |
-| `ita` (it) | 173 / 1168 | 933 | 9 | 1 | 52 | 6 | 7 | 0 | 94 |
-| `heb` (he) | 103 / 1168 | 933 | 9 | 3 | 120 | 2 | 5 | 0 | 143 |
-| `ell` (el) | 155 / 1168 | 934 | 8 | 2 | 69 | 5 | 9 | 0 | 122 |
-| `swe` (sv) | 158 / 1168 | 934 | 8 | 4 | 64 | 3 | 7 | 0 | 119 |
-| `nob` (nb) | 159 / 1168 | 934 | 8 | 3 | 64 | 3 | 8 | 0 | 128 |
+| `cmn` (zh-Hans) | 152 / 1168 | 934 | 6 | 2 | 74 | 15 | 5 | 0 | 112 |
+| `hin` (hi) | 161 / 1168 | 932 | 7 | 2 | 66 | 15 | 7 | 0 | 123 |
+| `spa` (es) | 182 / 1168 | 933 | 12 | 1 | 40 | 20 | 5 | 0 | 99 |
+| `ara` (ar) | 146 / 1168 | 933 | 7 | 1 | 81 | 13 | 9 | 0 | 135 |
+| `fra` (fr) | 175 / 1168 | 934 | 4 | 3 | 52 | 17 | 9 | 0 | 99 |
+| `ben` (bn) | 143 / 1168 | 933 | 8 | 3 | 81 | 13 | 7 | 0 | 125 |
+| `por` (pt) | 195 / 1168 | 933 | 7 | 1 | 32 | 19 | 6 | 0 | 92 |
+| `ind` (id) | 170 / 1168 | 933 | 9 | 3 | 53 | 20 | 6 | 0 | 109 |
+| `urd` (ur) | 152 / 1168 | 934 | 8 | 4 | 70 | 14 | 5 | 0 | 127 |
+| `rus` (ru) | 147 / 1168 | 933 | 9 | 2 | 77 | 16 | 6 | 0 | 138 |
+| `deu` (de) | 135 / 1168 | 933 | 11 | 3 | 86 | 6 | 4 | 0 | 117 |
+| `nld` (nl) | 168 / 1168 | 933 | 10 | 3 | 54 | 18 | 9 | 0 | 115 |
+| `afr` (af) | 172 / 1168 | 933 | 7 | 4 | 52 | 17 | 9 | 17 | 106 |
+| `swa` (sw) | 117 / 1168 | 933 | 7 | 4 | 107 | 9 | 7 | 0 | 148 |
+| `kor` (ko) | 161 / 1168 | 933 | 5 | 1 | 68 | 15 | 5 | 0 | 117 |
+| `ita` (it) | 173 / 1168 | 934 | 7 | 1 | 53 | 19 | 7 | 0 | 94 |
+| `heb` (he) | 103 / 1168 | 933 | 7 | 3 | 122 | 8 | 5 | 0 | 143 |
+| `ell` (el) | 155 / 1168 | 934 | 6 | 2 | 71 | 13 | 9 | 0 | 122 |
+| `swe` (sv) | 158 / 1168 | 933 | 7 | 4 | 66 | 14 | 7 | 0 | 119 |
+| `nob` (nb) | 159 / 1168 | 935 | 5 | 3 | 66 | 8 | 8 | 0 | 128 |
 
 ## Issue / language work
 
@@ -628,26 +628,26 @@ Every source issue and configured language appears, including unstarted work. Re
 | `heartbeat-remnant-2019-fall` | `ell` | 0 / 14 | 14 | 0 | 0 | 0 | 0 |
 | `heartbeat-remnant-2019-fall` | `swe` | 0 / 14 | 14 | 0 | 0 | 0 | 0 |
 | `heartbeat-remnant-2019-fall` | `nob` | 0 / 14 | 14 | 0 | 0 | 0 | 0 |
-| `heartbeat-remnant-2018-fall` | `cmn` | 0 / 8 | 8 | 0 | 0 | 0 | 0 |
-| `heartbeat-remnant-2018-fall` | `hin` | 0 / 8 | 8 | 0 | 0 | 0 | 0 |
-| `heartbeat-remnant-2018-fall` | `spa` | 0 / 8 | 8 | 0 | 0 | 0 | 0 |
-| `heartbeat-remnant-2018-fall` | `ara` | 0 / 8 | 8 | 0 | 0 | 0 | 0 |
-| `heartbeat-remnant-2018-fall` | `fra` | 0 / 8 | 8 | 0 | 0 | 0 | 0 |
-| `heartbeat-remnant-2018-fall` | `ben` | 0 / 8 | 8 | 0 | 0 | 0 | 0 |
-| `heartbeat-remnant-2018-fall` | `por` | 0 / 8 | 8 | 0 | 0 | 0 | 0 |
-| `heartbeat-remnant-2018-fall` | `ind` | 0 / 8 | 8 | 0 | 0 | 0 | 0 |
-| `heartbeat-remnant-2018-fall` | `urd` | 0 / 8 | 8 | 0 | 0 | 0 | 0 |
-| `heartbeat-remnant-2018-fall` | `rus` | 0 / 8 | 8 | 0 | 0 | 0 | 0 |
-| `heartbeat-remnant-2018-fall` | `deu` | 0 / 8 | 8 | 0 | 0 | 0 | 0 |
-| `heartbeat-remnant-2018-fall` | `nld` | 0 / 8 | 8 | 0 | 0 | 0 | 0 |
-| `heartbeat-remnant-2018-fall` | `afr` | 0 / 8 | 8 | 0 | 0 | 0 | 0 |
-| `heartbeat-remnant-2018-fall` | `swa` | 0 / 8 | 8 | 0 | 0 | 0 | 0 |
-| `heartbeat-remnant-2018-fall` | `kor` | 0 / 8 | 8 | 0 | 0 | 0 | 0 |
-| `heartbeat-remnant-2018-fall` | `ita` | 0 / 8 | 8 | 0 | 0 | 0 | 0 |
-| `heartbeat-remnant-2018-fall` | `heb` | 0 / 8 | 8 | 0 | 0 | 0 | 0 |
-| `heartbeat-remnant-2018-fall` | `ell` | 0 / 8 | 8 | 0 | 0 | 0 | 0 |
-| `heartbeat-remnant-2018-fall` | `swe` | 0 / 8 | 8 | 0 | 0 | 0 | 0 |
-| `heartbeat-remnant-2018-fall` | `nob` | 0 / 8 | 8 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2018-fall` | `cmn` | 0 / 8 | 7 | 0 | 0 | 1 | 0 |
+| `heartbeat-remnant-2018-fall` | `hin` | 0 / 8 | 7 | 0 | 0 | 1 | 0 |
+| `heartbeat-remnant-2018-fall` | `spa` | 0 / 8 | 7 | 0 | 0 | 1 | 0 |
+| `heartbeat-remnant-2018-fall` | `ara` | 0 / 8 | 7 | 0 | 0 | 1 | 0 |
+| `heartbeat-remnant-2018-fall` | `fra` | 0 / 8 | 7 | 0 | 0 | 1 | 0 |
+| `heartbeat-remnant-2018-fall` | `ben` | 0 / 8 | 7 | 0 | 0 | 1 | 0 |
+| `heartbeat-remnant-2018-fall` | `por` | 0 / 8 | 7 | 0 | 0 | 1 | 0 |
+| `heartbeat-remnant-2018-fall` | `ind` | 0 / 8 | 7 | 0 | 0 | 1 | 0 |
+| `heartbeat-remnant-2018-fall` | `urd` | 0 / 8 | 7 | 0 | 0 | 1 | 0 |
+| `heartbeat-remnant-2018-fall` | `rus` | 0 / 8 | 7 | 0 | 0 | 1 | 0 |
+| `heartbeat-remnant-2018-fall` | `deu` | 0 / 8 | 7 | 0 | 0 | 1 | 0 |
+| `heartbeat-remnant-2018-fall` | `nld` | 0 / 8 | 7 | 0 | 0 | 1 | 0 |
+| `heartbeat-remnant-2018-fall` | `afr` | 0 / 8 | 7 | 0 | 0 | 1 | 0 |
+| `heartbeat-remnant-2018-fall` | `swa` | 0 / 8 | 7 | 0 | 0 | 1 | 0 |
+| `heartbeat-remnant-2018-fall` | `kor` | 0 / 8 | 7 | 0 | 0 | 1 | 0 |
+| `heartbeat-remnant-2018-fall` | `ita` | 0 / 8 | 7 | 0 | 0 | 1 | 0 |
+| `heartbeat-remnant-2018-fall` | `heb` | 0 / 8 | 7 | 0 | 0 | 1 | 0 |
+| `heartbeat-remnant-2018-fall` | `ell` | 0 / 8 | 7 | 0 | 0 | 1 | 0 |
+| `heartbeat-remnant-2018-fall` | `swe` | 0 / 8 | 7 | 0 | 0 | 1 | 0 |
+| `heartbeat-remnant-2018-fall` | `nob` | 0 / 8 | 7 | 0 | 0 | 1 | 0 |
 | `heartbeat-remnant-2024-autumn` | `cmn` | 0 / 14 | 14 | 0 | 0 | 0 | 0 |
 | `heartbeat-remnant-2024-autumn` | `hin` | 0 / 14 | 14 | 0 | 0 | 0 | 0 |
 | `heartbeat-remnant-2024-autumn` | `spa` | 0 / 14 | 14 | 0 | 0 | 0 | 0 |
@@ -728,26 +728,26 @@ Every source issue and configured language appears, including unstarted work. Re
 | `heartbeat-remnant-2013-05` | `ell` | 0 / 9 | 9 | 0 | 0 | 0 | 0 |
 | `heartbeat-remnant-2013-05` | `swe` | 0 / 9 | 9 | 0 | 0 | 0 | 0 |
 | `heartbeat-remnant-2013-05` | `nob` | 0 / 9 | 9 | 0 | 0 | 0 | 0 |
-| `heartbeat-remnant-2013-03` | `cmn` | 4 / 10 | 0 | 5 | 0 | 1 | 0 |
-| `heartbeat-remnant-2013-03` | `hin` | 3 / 10 | 0 | 5 | 0 | 2 | 0 |
-| `heartbeat-remnant-2013-03` | `spa` | 2 / 10 | 0 | 7 | 0 | 1 | 0 |
-| `heartbeat-remnant-2013-03` | `ara` | 5 / 10 | 0 | 3 | 0 | 2 | 0 |
-| `heartbeat-remnant-2013-03` | `fra` | 5 / 10 | 0 | 3 | 0 | 2 | 0 |
-| `heartbeat-remnant-2013-03` | `ben` | 5 / 10 | 0 | 3 | 0 | 2 | 0 |
-| `heartbeat-remnant-2013-03` | `por` | 4 / 10 | 0 | 5 | 0 | 1 | 0 |
-| `heartbeat-remnant-2013-03` | `ind` | 2 / 10 | 0 | 7 | 1 | 0 | 0 |
-| `heartbeat-remnant-2013-03` | `urd` | 2 / 10 | 0 | 6 | 1 | 1 | 0 |
-| `heartbeat-remnant-2013-03` | `rus` | 3 / 10 | 0 | 6 | 0 | 1 | 0 |
-| `heartbeat-remnant-2013-03` | `deu` | 3 / 10 | 0 | 7 | 0 | 0 | 0 |
-| `heartbeat-remnant-2013-03` | `nld` | 4 / 10 | 0 | 6 | 0 | 0 | 0 |
-| `heartbeat-remnant-2013-03` | `afr` | 6 / 10 | 0 | 4 | 0 | 0 | 0 |
-| `heartbeat-remnant-2013-03` | `swa` | 5 / 10 | 0 | 3 | 0 | 2 | 0 |
-| `heartbeat-remnant-2013-03` | `kor` | 6 / 10 | 0 | 3 | 0 | 1 | 0 |
-| `heartbeat-remnant-2013-03` | `ita` | 4 / 10 | 0 | 5 | 0 | 1 | 0 |
-| `heartbeat-remnant-2013-03` | `heb` | 3 / 10 | 0 | 6 | 0 | 1 | 0 |
-| `heartbeat-remnant-2013-03` | `ell` | 6 / 10 | 0 | 3 | 0 | 1 | 0 |
-| `heartbeat-remnant-2013-03` | `swe` | 2 / 10 | 0 | 5 | 0 | 3 | 0 |
-| `heartbeat-remnant-2013-03` | `nob` | 6 / 10 | 0 | 2 | 1 | 1 | 0 |
+| `heartbeat-remnant-2013-03` | `cmn` | 4 / 10 | 3 | 2 | 0 | 1 | 0 |
+| `heartbeat-remnant-2013-03` | `hin` | 3 / 10 | 1 | 4 | 0 | 2 | 0 |
+| `heartbeat-remnant-2013-03` | `spa` | 2 / 10 | 2 | 5 | 0 | 1 | 0 |
+| `heartbeat-remnant-2013-03` | `ara` | 5 / 10 | 2 | 1 | 0 | 2 | 0 |
+| `heartbeat-remnant-2013-03` | `fra` | 5 / 10 | 2 | 1 | 0 | 2 | 0 |
+| `heartbeat-remnant-2013-03` | `ben` | 5 / 10 | 1 | 2 | 0 | 2 | 0 |
+| `heartbeat-remnant-2013-03` | `por` | 4 / 10 | 2 | 3 | 0 | 1 | 0 |
+| `heartbeat-remnant-2013-03` | `ind` | 2 / 10 | 2 | 5 | 1 | 0 | 0 |
+| `heartbeat-remnant-2013-03` | `urd` | 2 / 10 | 3 | 3 | 1 | 1 | 0 |
+| `heartbeat-remnant-2013-03` | `rus` | 3 / 10 | 2 | 4 | 0 | 1 | 0 |
+| `heartbeat-remnant-2013-03` | `deu` | 3 / 10 | 2 | 5 | 0 | 0 | 0 |
+| `heartbeat-remnant-2013-03` | `nld` | 4 / 10 | 2 | 4 | 0 | 0 | 0 |
+| `heartbeat-remnant-2013-03` | `afr` | 6 / 10 | 2 | 2 | 0 | 0 | 0 |
+| `heartbeat-remnant-2013-03` | `swa` | 5 / 10 | 1 | 2 | 0 | 2 | 0 |
+| `heartbeat-remnant-2013-03` | `kor` | 6 / 10 | 2 | 1 | 0 | 1 | 0 |
+| `heartbeat-remnant-2013-03` | `ita` | 4 / 10 | 3 | 3 | 0 | 0 | 0 |
+| `heartbeat-remnant-2013-03` | `heb` | 3 / 10 | 2 | 4 | 0 | 1 | 0 |
+| `heartbeat-remnant-2013-03` | `ell` | 6 / 10 | 2 | 1 | 0 | 1 | 0 |
+| `heartbeat-remnant-2013-03` | `swe` | 2 / 10 | 1 | 4 | 0 | 3 | 0 |
+| `heartbeat-remnant-2013-03` | `nob` | 6 / 10 | 2 | 0 | 1 | 1 | 0 |
 | `heartbeat-remnant-2013-01` | `cmn` | 0 / 9 | 9 | 0 | 0 | 0 | 0 |
 | `heartbeat-remnant-2013-01` | `hin` | 0 / 9 | 9 | 0 | 0 | 0 | 0 |
 | `heartbeat-remnant-2013-01` | `spa` | 0 / 9 | 9 | 0 | 0 | 0 | 0 |
@@ -952,8 +952,8 @@ Every source issue and configured language appears, including unstarted work. Re
 | `heartbeat-remnant-2011-05` | `hin` | 13 / 14 | 0 | 1 | 0 | 0 | 0 |
 | `heartbeat-remnant-2011-05` | `spa` | 13 / 14 | 0 | 1 | 0 | 0 | 0 |
 | `heartbeat-remnant-2011-05` | `ara` | 13 / 14 | 0 | 1 | 0 | 0 | 0 |
-| `heartbeat-remnant-2011-05` | `fra` | 11 / 14 | 0 | 2 | 0 | 1 | 0 |
-| `heartbeat-remnant-2011-05` | `ben` | 9 / 14 | 0 | 3 | 0 | 2 | 0 |
+| `heartbeat-remnant-2011-05` | `fra` | 11 / 14 | 1 | 1 | 0 | 1 | 0 |
+| `heartbeat-remnant-2011-05` | `ben` | 9 / 14 | 1 | 2 | 0 | 2 | 0 |
 | `heartbeat-remnant-2011-05` | `por` | 13 / 14 | 0 | 1 | 0 | 0 | 0 |
 | `heartbeat-remnant-2011-05` | `ind` | 12 / 14 | 0 | 2 | 0 | 0 | 0 |
 | `heartbeat-remnant-2011-05` | `urd` | 11 / 14 | 0 | 2 | 0 | 1 | 0 |
@@ -961,13 +961,13 @@ Every source issue and configured language appears, including unstarted work. Re
 | `heartbeat-remnant-2011-05` | `deu` | 10 / 14 | 0 | 3 | 0 | 1 | 0 |
 | `heartbeat-remnant-2011-05` | `nld` | 12 / 14 | 0 | 2 | 0 | 0 | 0 |
 | `heartbeat-remnant-2011-05` | `afr` | 13 / 14 | 0 | 1 | 0 | 0 | 0 |
-| `heartbeat-remnant-2011-05` | `swa` | 10 / 14 | 0 | 3 | 0 | 1 | 0 |
+| `heartbeat-remnant-2011-05` | `swa` | 10 / 14 | 1 | 2 | 0 | 1 | 0 |
 | `heartbeat-remnant-2011-05` | `kor` | 14 / 14 | 0 | 0 | 0 | 0 | 0 |
 | `heartbeat-remnant-2011-05` | `ita` | 14 / 14 | 0 | 0 | 0 | 0 | 0 |
 | `heartbeat-remnant-2011-05` | `heb` | 12 / 14 | 0 | 0 | 0 | 2 | 0 |
 | `heartbeat-remnant-2011-05` | `ell` | 10 / 14 | 0 | 2 | 0 | 2 | 0 |
 | `heartbeat-remnant-2011-05` | `swe` | 12 / 14 | 0 | 2 | 0 | 0 | 0 |
-| `heartbeat-remnant-2011-05` | `nob` | 10 / 14 | 0 | 3 | 0 | 1 | 0 |
+| `heartbeat-remnant-2011-05` | `nob` | 10 / 14 | 1 | 2 | 0 | 1 | 0 |
 | `heartbeat-remnant-2011-03` | `cmn` | 0 / 17 | 17 | 0 | 0 | 0 | 0 |
 | `heartbeat-remnant-2011-03` | `hin` | 0 / 17 | 17 | 0 | 0 | 0 | 0 |
 | `heartbeat-remnant-2011-03` | `spa` | 0 / 17 | 17 | 0 | 0 | 0 | 0 |
@@ -988,26 +988,26 @@ Every source issue and configured language appears, including unstarted work. Re
 | `heartbeat-remnant-2011-03` | `ell` | 0 / 17 | 17 | 0 | 0 | 0 | 0 |
 | `heartbeat-remnant-2011-03` | `swe` | 0 / 17 | 17 | 0 | 0 | 0 | 0 |
 | `heartbeat-remnant-2011-03` | `nob` | 0 / 17 | 17 | 0 | 0 | 0 | 0 |
-| `heartbeat-remnant-2011-01` | `cmn` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
-| `heartbeat-remnant-2011-01` | `hin` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
-| `heartbeat-remnant-2011-01` | `spa` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
-| `heartbeat-remnant-2011-01` | `ara` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
-| `heartbeat-remnant-2011-01` | `fra` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
-| `heartbeat-remnant-2011-01` | `ben` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
-| `heartbeat-remnant-2011-01` | `por` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
-| `heartbeat-remnant-2011-01` | `ind` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
-| `heartbeat-remnant-2011-01` | `urd` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
-| `heartbeat-remnant-2011-01` | `rus` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
-| `heartbeat-remnant-2011-01` | `deu` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
-| `heartbeat-remnant-2011-01` | `nld` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
-| `heartbeat-remnant-2011-01` | `afr` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
-| `heartbeat-remnant-2011-01` | `swa` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
-| `heartbeat-remnant-2011-01` | `kor` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
-| `heartbeat-remnant-2011-01` | `ita` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
-| `heartbeat-remnant-2011-01` | `heb` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
-| `heartbeat-remnant-2011-01` | `ell` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
-| `heartbeat-remnant-2011-01` | `swe` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
-| `heartbeat-remnant-2011-01` | `nob` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
+| `heartbeat-remnant-2011-01` | `cmn` | 0 / 12 | 11 | 0 | 0 | 1 | 0 |
+| `heartbeat-remnant-2011-01` | `hin` | 0 / 12 | 11 | 0 | 0 | 1 | 0 |
+| `heartbeat-remnant-2011-01` | `spa` | 0 / 12 | 11 | 0 | 0 | 1 | 0 |
+| `heartbeat-remnant-2011-01` | `ara` | 0 / 12 | 11 | 0 | 0 | 1 | 0 |
+| `heartbeat-remnant-2011-01` | `fra` | 0 / 12 | 11 | 0 | 0 | 1 | 0 |
+| `heartbeat-remnant-2011-01` | `ben` | 0 / 12 | 11 | 0 | 0 | 1 | 0 |
+| `heartbeat-remnant-2011-01` | `por` | 0 / 12 | 11 | 0 | 0 | 1 | 0 |
+| `heartbeat-remnant-2011-01` | `ind` | 0 / 12 | 11 | 0 | 0 | 1 | 0 |
+| `heartbeat-remnant-2011-01` | `urd` | 0 / 12 | 11 | 0 | 0 | 1 | 0 |
+| `heartbeat-remnant-2011-01` | `rus` | 0 / 12 | 11 | 0 | 0 | 1 | 0 |
+| `heartbeat-remnant-2011-01` | `deu` | 0 / 12 | 11 | 0 | 0 | 1 | 0 |
+| `heartbeat-remnant-2011-01` | `nld` | 0 / 12 | 11 | 0 | 0 | 1 | 0 |
+| `heartbeat-remnant-2011-01` | `afr` | 0 / 12 | 11 | 0 | 0 | 1 | 0 |
+| `heartbeat-remnant-2011-01` | `swa` | 0 / 12 | 11 | 0 | 0 | 1 | 0 |
+| `heartbeat-remnant-2011-01` | `kor` | 0 / 12 | 11 | 0 | 0 | 1 | 0 |
+| `heartbeat-remnant-2011-01` | `ita` | 0 / 12 | 11 | 0 | 0 | 1 | 0 |
+| `heartbeat-remnant-2011-01` | `heb` | 0 / 12 | 11 | 0 | 0 | 1 | 0 |
+| `heartbeat-remnant-2011-01` | `ell` | 0 / 12 | 11 | 0 | 0 | 1 | 0 |
+| `heartbeat-remnant-2011-01` | `swe` | 0 / 12 | 11 | 0 | 0 | 1 | 0 |
+| `heartbeat-remnant-2011-01` | `nob` | 0 / 12 | 11 | 0 | 0 | 1 | 0 |
 | `heartbeat-remnant-2010-11` | `cmn` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
 | `heartbeat-remnant-2010-11` | `hin` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
 | `heartbeat-remnant-2010-11` | `spa` | 0 / 12 | 12 | 0 | 0 | 0 | 0 |
@@ -2163,7 +2163,7 @@ Progressing repairs can continue beyond three historical cycles. Repeated or unc
 Accepted shared allocations: $6.000000 across 6 runs. Allocations are not recycled after failure or cancellation.
 Separately authorized manual workflow allocations: $160.000000 across 10 accepted runs. Historical monetary limits are preserved as audit data and no longer restrict processing.
 [Recovery frontier](RECOVERY.json) lists missing work, admission holds, latest task outcomes and explicit blocking reasons. It is a derived report, not spending authority.
-active: 50 | already_translated: 108 | automatic_capacity_wait: 287 | continuation_cooldown: 1 | continuation_progress_uncertain_requires_attention: 3 | continuation_repeated_findings_requires_attention: 1 | eligible_automatic: 924 | eligible_source_refresh: 70 | legacy_response_outcome_unknown_requires_owner_attention: 10 | pending_automatic_admission: 191 | provider_refusal_requires_owner_attention: 3 | repeated_technical_failure_requires_attention: 8 | technical_failure_requires_attention: 25
+active: 50 | already_translated: 108 | automatic_capacity_wait: 254 | continuation_cooldown: 1 | continuation_progress_uncertain_requires_attention: 2 | continuation_repeated_findings_requires_attention: 1 | eligible_automatic: 844 | eligible_source_refresh: 186 | legacy_response_outcome_unknown_requires_owner_attention: 10 | pending_automatic_admission: 149 | provider_refusal_requires_owner_attention: 3 | repeated_technical_failure_requires_attention: 6 | source_error_requires_attention: 40 | technical_failure_requires_attention: 24
 A finished original campaign remains historical; current publication readiness is shown in the issue/language rows.
 
 ## Preserved overlong negative reviews
@@ -2182,115 +2182,190 @@ These requests did not start a paid campaign. Inspect the recorded validation er
 - [`auto-009fa457f85e1112fb6bdf5dabb774fdf7a076229d690d2acee7d64625179afb`](state/queue-errors/auto-009fa457f85e1112fb6bdf5dabb774fdf7a076229d690d2acee7d64625179afb.json)
 - [`auto-03eda9bc8a4559c7fb9a903c3e8584eb08b1f79fa0252c7aed11d9dc551dc242`](state/queue-errors/auto-03eda9bc8a4559c7fb9a903c3e8584eb08b1f79fa0252c7aed11d9dc551dc242.json)
 - [`auto-11ac795cb5c01029ac1e63e5fd35172109cf13f509f50ea9ff7c7177820bcab8`](state/queue-errors/auto-11ac795cb5c01029ac1e63e5fd35172109cf13f509f50ea9ff7c7177820bcab8.json)
+- [`auto-13c80c3a1a0ffa4ccd633a56ed05897536154e155a062a71c91aad097043a091`](state/queue-errors/auto-13c80c3a1a0ffa4ccd633a56ed05897536154e155a062a71c91aad097043a091.json)
 - [`auto-15660960cb48c58881d83870ec22c083b01b311224b37bbe7d122ebe9f05fd21`](state/queue-errors/auto-15660960cb48c58881d83870ec22c083b01b311224b37bbe7d122ebe9f05fd21.json)
 - [`auto-18cacf9c2a1139ee72c8c857b7ddc865523dcf09bc86c50b85a97ca5b1a961dd`](state/queue-errors/auto-18cacf9c2a1139ee72c8c857b7ddc865523dcf09bc86c50b85a97ca5b1a961dd.json)
 - [`auto-197da9da77185b3456b0ebc06a93364ac79ba042a1c5569d45af0bd5ab287261`](state/queue-errors/auto-197da9da77185b3456b0ebc06a93364ac79ba042a1c5569d45af0bd5ab287261.json)
 - [`auto-198d7dc5fad55cd0acfe25267782b3b51f0d19a3e00fa8687d241fc334808360`](state/queue-errors/auto-198d7dc5fad55cd0acfe25267782b3b51f0d19a3e00fa8687d241fc334808360.json)
+- [`auto-19e7a23869b3b1c3a5057304bf8ac9a37ef6e0318bda913b4be3639f525f3083`](state/queue-errors/auto-19e7a23869b3b1c3a5057304bf8ac9a37ef6e0318bda913b4be3639f525f3083.json)
 - [`auto-1c227d81be220a0d9a61dcb182821b4f2e09ada94d3c114d1ae3dd28461605a6`](state/queue-errors/auto-1c227d81be220a0d9a61dcb182821b4f2e09ada94d3c114d1ae3dd28461605a6.json)
 - [`auto-1d7754c9d60b70d9c6fefd83802a9b28dce22cbb5447d321f1f2f4491d54e3ba`](state/queue-errors/auto-1d7754c9d60b70d9c6fefd83802a9b28dce22cbb5447d321f1f2f4491d54e3ba.json)
 - [`auto-1db2b0e4b30c7fa734ef2030a27f942255cde97ad44486223e1b939914c2d9a5`](state/queue-errors/auto-1db2b0e4b30c7fa734ef2030a27f942255cde97ad44486223e1b939914c2d9a5.json)
 - [`auto-1eb1cf7bc95674a7842ea646f8dec741a467ea6f22167a7da45d99cb5aea2afc`](state/queue-errors/auto-1eb1cf7bc95674a7842ea646f8dec741a467ea6f22167a7da45d99cb5aea2afc.json)
 - [`auto-23baa30e58521d0f8d487247d5a41537a559a3fa645a1566305f620b3d7af8a3`](state/queue-errors/auto-23baa30e58521d0f8d487247d5a41537a559a3fa645a1566305f620b3d7af8a3.json)
 - [`auto-282c9307dbbdccc3f0d36a69f46c136278f85a1546426007f34c3003ca1ff3a0`](state/queue-errors/auto-282c9307dbbdccc3f0d36a69f46c136278f85a1546426007f34c3003ca1ff3a0.json)
+- [`auto-2a506128900c61ee45320a26445d718dcd70ecf1858a9b6d977657562cab0be6`](state/queue-errors/auto-2a506128900c61ee45320a26445d718dcd70ecf1858a9b6d977657562cab0be6.json)
 - [`auto-2cc3762ca5c3fa7f091ce9908e9a952255f5b7966e923eb98fc4cfed1d5fc7f4`](state/queue-errors/auto-2cc3762ca5c3fa7f091ce9908e9a952255f5b7966e923eb98fc4cfed1d5fc7f4.json)
 - [`auto-2f821bcb9c123a039aa2894e0feb7c5bef9a5ed17b83d98253a69a1b79154956`](state/queue-errors/auto-2f821bcb9c123a039aa2894e0feb7c5bef9a5ed17b83d98253a69a1b79154956.json)
 - [`auto-2fd7d747f21de72259d16e2403abadf6a1500ae0eea59107d4c8f72dc4f4dab5`](state/queue-errors/auto-2fd7d747f21de72259d16e2403abadf6a1500ae0eea59107d4c8f72dc4f4dab5.json)
 - [`auto-3102d3ad256cb9cb3a77750d2b4af8155c4104b58f232f97592147d09ad3a393`](state/queue-errors/auto-3102d3ad256cb9cb3a77750d2b4af8155c4104b58f232f97592147d09ad3a393.json)
 - [`auto-325a368d97b6a953f93a9df3aa9ab6a8c95f1f292faebc922457b92cade2981e`](state/queue-errors/auto-325a368d97b6a953f93a9df3aa9ab6a8c95f1f292faebc922457b92cade2981e.json)
+- [`auto-38a83bdb518c9b529c988ba314dcdb4532d74f6487e459350a5a236696124df3`](state/queue-errors/auto-38a83bdb518c9b529c988ba314dcdb4532d74f6487e459350a5a236696124df3.json)
 - [`auto-3a3972156f8d629c3fce358a7d65b06d0aadaee32fa796cbdeb491fd5d8a5c11`](state/queue-errors/auto-3a3972156f8d629c3fce358a7d65b06d0aadaee32fa796cbdeb491fd5d8a5c11.json)
 - [`auto-3e14ede044633f5b17e50aa8062b8d6d76c91c425102d8ad17fb97e6c0facadf`](state/queue-errors/auto-3e14ede044633f5b17e50aa8062b8d6d76c91c425102d8ad17fb97e6c0facadf.json)
 - [`auto-3e74ab06550d7874695d23ecf97c6942b51d8527b8baafdde478d541385b1bab`](state/queue-errors/auto-3e74ab06550d7874695d23ecf97c6942b51d8527b8baafdde478d541385b1bab.json)
 - [`auto-3ea805e20077e12e22cec591816c4c2289478d68e62bea3aa8cbb4119cc78357`](state/queue-errors/auto-3ea805e20077e12e22cec591816c4c2289478d68e62bea3aa8cbb4119cc78357.json)
 - [`auto-3ebfd81d4d723386cf99f3972750e8fb963a4009debd0b656658a97615957afa`](state/queue-errors/auto-3ebfd81d4d723386cf99f3972750e8fb963a4009debd0b656658a97615957afa.json)
+- [`auto-40fd4f766f6ec4f577900d2926a697594dee12ec875a359b67ad5b10b305bb8a`](state/queue-errors/auto-40fd4f766f6ec4f577900d2926a697594dee12ec875a359b67ad5b10b305bb8a.json)
 - [`auto-4284464365f8992c17dd89f6569812f82194394533cc93630dcd72aebd484ae3`](state/queue-errors/auto-4284464365f8992c17dd89f6569812f82194394533cc93630dcd72aebd484ae3.json)
+- [`auto-42a3e825b64e0cf66a1e1fef44ed40189c2281f5d3788fd84b4834e92639bdb4`](state/queue-errors/auto-42a3e825b64e0cf66a1e1fef44ed40189c2281f5d3788fd84b4834e92639bdb4.json)
 - [`auto-42e0324e6c4c2d33367c72dccacebbfae8bf0920fb4db078d9d484935f54042c`](state/queue-errors/auto-42e0324e6c4c2d33367c72dccacebbfae8bf0920fb4db078d9d484935f54042c.json)
 - [`auto-4384a92dd92024f0eda12c014a7bf654f2e1efee269f04f07f687fb5000fc112`](state/queue-errors/auto-4384a92dd92024f0eda12c014a7bf654f2e1efee269f04f07f687fb5000fc112.json)
 - [`auto-48bcc39542d544add556f56497f24ff8cd1a8e6132a438b62f50c10ddf00603e`](state/queue-errors/auto-48bcc39542d544add556f56497f24ff8cd1a8e6132a438b62f50c10ddf00603e.json)
 - [`auto-494b3abd96ec2ac3ce7ef5697c66c663c4bc30679a66408493ced7597192d832`](state/queue-errors/auto-494b3abd96ec2ac3ce7ef5697c66c663c4bc30679a66408493ced7597192d832.json)
+- [`auto-49b6b69750d93d9673f84c90ed95c495ea641c15906b0b7f6edf6912d91bad8f`](state/queue-errors/auto-49b6b69750d93d9673f84c90ed95c495ea641c15906b0b7f6edf6912d91bad8f.json)
 - [`auto-4b0aa768e56b9065f2e0e051d2497f38f174a31081ecc09d867b95426e11f102`](state/queue-errors/auto-4b0aa768e56b9065f2e0e051d2497f38f174a31081ecc09d867b95426e11f102.json)
 - [`auto-4d2e41ffcbfa9d22f717e0bb2422e3e8bf8dacab58094309ede9f769c9794dda`](state/queue-errors/auto-4d2e41ffcbfa9d22f717e0bb2422e3e8bf8dacab58094309ede9f769c9794dda.json)
 - [`auto-4e52721d7144e2bd335126947ba56d6ee79eee3bdc0d73ac98960e05b97160b4`](state/queue-errors/auto-4e52721d7144e2bd335126947ba56d6ee79eee3bdc0d73ac98960e05b97160b4.json)
+- [`auto-518664a5b8091a685b010ea992de4f0c778f18649fabd09467fc6f7b4445f7d2`](state/queue-errors/auto-518664a5b8091a685b010ea992de4f0c778f18649fabd09467fc6f7b4445f7d2.json)
 - [`auto-524c1914d20a002ae71c2be72c172d78d75c95a7b50b60c5f5c1c56afdbdf789`](state/queue-errors/auto-524c1914d20a002ae71c2be72c172d78d75c95a7b50b60c5f5c1c56afdbdf789.json)
+- [`auto-5590c42a5c89ceb9f398c7919eb5566a5ad069b4b486f746c065b3ce33389c27`](state/queue-errors/auto-5590c42a5c89ceb9f398c7919eb5566a5ad069b4b486f746c065b3ce33389c27.json)
 - [`auto-56207cd405254793d510ba28f524de72404ec1381f5fca8ad56f83cce9ee3741`](state/queue-errors/auto-56207cd405254793d510ba28f524de72404ec1381f5fca8ad56f83cce9ee3741.json)
 - [`auto-634d3deb929690f1aadc4726582beade842cc8c6bcd8b8619b9912bc4b1c4452`](state/queue-errors/auto-634d3deb929690f1aadc4726582beade842cc8c6bcd8b8619b9912bc4b1c4452.json)
 - [`auto-63597743a7bc88d65e7b63cdefd1b1151ee2275344a72307dc5424bc3c575111`](state/queue-errors/auto-63597743a7bc88d65e7b63cdefd1b1151ee2275344a72307dc5424bc3c575111.json)
+- [`auto-646d0fba0d21caffbc9a5c609645c469c6fdd8de50c1bd40de37c8d5adce9aa4`](state/queue-errors/auto-646d0fba0d21caffbc9a5c609645c469c6fdd8de50c1bd40de37c8d5adce9aa4.json)
+- [`auto-64d069b2a4bd65e5d9ca8b3e1cd969171111552c410359ab804edd98e1ae3f17`](state/queue-errors/auto-64d069b2a4bd65e5d9ca8b3e1cd969171111552c410359ab804edd98e1ae3f17.json)
 - [`auto-65addc392e87b59f843a51cdea088dae5a7160204b2d411163466efb82d43590`](state/queue-errors/auto-65addc392e87b59f843a51cdea088dae5a7160204b2d411163466efb82d43590.json)
 - [`auto-67847af214d780d86833c0ca062a460dab04e9acda843969838d3d68a81ad968`](state/queue-errors/auto-67847af214d780d86833c0ca062a460dab04e9acda843969838d3d68a81ad968.json)
 - [`auto-6789ede82b996c3d84fb948d5a4984d1c22f6ea1403a3d6b21bea3d3fd61f715`](state/queue-errors/auto-6789ede82b996c3d84fb948d5a4984d1c22f6ea1403a3d6b21bea3d3fd61f715.json)
 - [`auto-6857fef70c594f9b0ad9ddbfef5b3545429da3999e1d155de32dcd00aa5f2ef4`](state/queue-errors/auto-6857fef70c594f9b0ad9ddbfef5b3545429da3999e1d155de32dcd00aa5f2ef4.json)
+- [`auto-6874f7a309d52b6a1f7e286eccf15ca88221af30ed274e9260515e409d830a10`](state/queue-errors/auto-6874f7a309d52b6a1f7e286eccf15ca88221af30ed274e9260515e409d830a10.json)
 - [`auto-69c755e1a576446026803cdf8c6e92beb9e9bb27ce0f6486ba63ec751b757114`](state/queue-errors/auto-69c755e1a576446026803cdf8c6e92beb9e9bb27ce0f6486ba63ec751b757114.json)
 - [`auto-6b23c7e20041ca9b699f1f185971a0149c8ce716fb841a38f0959ac790dbe3d4`](state/queue-errors/auto-6b23c7e20041ca9b699f1f185971a0149c8ce716fb841a38f0959ac790dbe3d4.json)
 - [`auto-6c6a19990a8d5966162dd2052fd862911e33f3b050190ce9f33766edaad751b7`](state/queue-errors/auto-6c6a19990a8d5966162dd2052fd862911e33f3b050190ce9f33766edaad751b7.json)
 - [`auto-703454b84004be9300a777cc042e1f1dac789c949bddd6053274cfe4235c324d`](state/queue-errors/auto-703454b84004be9300a777cc042e1f1dac789c949bddd6053274cfe4235c324d.json)
+- [`auto-7107e7df51b1271cc9de6c790e2252b5b2658f92505d9b37b84e0b617bae1470`](state/queue-errors/auto-7107e7df51b1271cc9de6c790e2252b5b2658f92505d9b37b84e0b617bae1470.json)
 - [`auto-726baf2c88f485331f1ebf28c5db26a24b884c407ec0c4732c45d10acecdfcb9`](state/queue-errors/auto-726baf2c88f485331f1ebf28c5db26a24b884c407ec0c4732c45d10acecdfcb9.json)
+- [`auto-72d4e1e733bd24851cb356d4734620721ca0c4ade5b697ec730cd64107588038`](state/queue-errors/auto-72d4e1e733bd24851cb356d4734620721ca0c4ade5b697ec730cd64107588038.json)
 - [`auto-7532ce3f7cee88b66ca4720ac8e0836085394132118d61d727135f79fbed18a6`](state/queue-errors/auto-7532ce3f7cee88b66ca4720ac8e0836085394132118d61d727135f79fbed18a6.json)
 - [`auto-76767bcf063ef9889a7bd81d707064b259810411f6a322d286010c29f5be28d6`](state/queue-errors/auto-76767bcf063ef9889a7bd81d707064b259810411f6a322d286010c29f5be28d6.json)
 - [`auto-76853bf4c030570185ad047fa9848b9d08e6305db3c4ec0fd59b624e06b68662`](state/queue-errors/auto-76853bf4c030570185ad047fa9848b9d08e6305db3c4ec0fd59b624e06b68662.json)
 - [`auto-776c6208be22ecc73f6e8fe58639bcaeb89022972679f55b3cb9937e8a09a704`](state/queue-errors/auto-776c6208be22ecc73f6e8fe58639bcaeb89022972679f55b3cb9937e8a09a704.json)
+- [`auto-776de87772c2fea826a0a63e9d7191d721e3d47da38d75d4caa03e6f92131b9f`](state/queue-errors/auto-776de87772c2fea826a0a63e9d7191d721e3d47da38d75d4caa03e6f92131b9f.json)
+- [`auto-7807181bdc42324f68362bb65086167b5ee16dcdb9953610e5ca7f1b3b00d005`](state/queue-errors/auto-7807181bdc42324f68362bb65086167b5ee16dcdb9953610e5ca7f1b3b00d005.json)
+- [`auto-789556f6bf2bf50ff60967bea395119fe930944ddc535aefe0f02e0fa755caee`](state/queue-errors/auto-789556f6bf2bf50ff60967bea395119fe930944ddc535aefe0f02e0fa755caee.json)
 - [`auto-78f1b81c6ed3829f70cb5f38c76ab5faaa6ea916af2d972c0ee4a9cd4e039507`](state/queue-errors/auto-78f1b81c6ed3829f70cb5f38c76ab5faaa6ea916af2d972c0ee4a9cd4e039507.json)
+- [`auto-79b03c106ec5925fbe8414f2d766ac15000bc8a57c250554ac9a4e428fe8f498`](state/queue-errors/auto-79b03c106ec5925fbe8414f2d766ac15000bc8a57c250554ac9a4e428fe8f498.json)
+- [`auto-7c41ce8ea6bdce597182419622e23ef05cb8beda70439ab9c045a08b9d1aff50`](state/queue-errors/auto-7c41ce8ea6bdce597182419622e23ef05cb8beda70439ab9c045a08b9d1aff50.json)
 - [`auto-7ca1c4aea8f587036573c61b3d9047d8544049abe905739df5cbd3ff74535280`](state/queue-errors/auto-7ca1c4aea8f587036573c61b3d9047d8544049abe905739df5cbd3ff74535280.json)
 - [`auto-7d6f8060788ac68ba80bb32dd915c16fbda262d3ceabd55907a2eb0c32946b1e`](state/queue-errors/auto-7d6f8060788ac68ba80bb32dd915c16fbda262d3ceabd55907a2eb0c32946b1e.json)
+- [`auto-7dab18744f7a805c0e884f014d18448ce808b1eb7f01cef9c8437efc1fb7a21f`](state/queue-errors/auto-7dab18744f7a805c0e884f014d18448ce808b1eb7f01cef9c8437efc1fb7a21f.json)
 - [`auto-7eb08e988485a088d5fcb95fe446a880bf2cecbd467cca8a16ec27480276485e`](state/queue-errors/auto-7eb08e988485a088d5fcb95fe446a880bf2cecbd467cca8a16ec27480276485e.json)
+- [`auto-8088b5a2b4ab69cb2c066c1e49cd23cc79a0cd3eb027f3d701d1884bd349fc94`](state/queue-errors/auto-8088b5a2b4ab69cb2c066c1e49cd23cc79a0cd3eb027f3d701d1884bd349fc94.json)
 - [`auto-8115cd2b317de1dfc29de4aa8fbdb9177693104f256e8f76e0caff4a0435918f`](state/queue-errors/auto-8115cd2b317de1dfc29de4aa8fbdb9177693104f256e8f76e0caff4a0435918f.json)
+- [`auto-81a06426f9931e87e0288c95ac45b8db8f643cd314ddc7f1dee996154b9f7119`](state/queue-errors/auto-81a06426f9931e87e0288c95ac45b8db8f643cd314ddc7f1dee996154b9f7119.json)
 - [`auto-8355d7454a0128c5fad244ee91dbd573c722b5c95dbb51bd31c09caa350a0295`](state/queue-errors/auto-8355d7454a0128c5fad244ee91dbd573c722b5c95dbb51bd31c09caa350a0295.json)
 - [`auto-83ae9c8bc72e0529128ec247251c03afc773ce696f8e103c510d1da907280460`](state/queue-errors/auto-83ae9c8bc72e0529128ec247251c03afc773ce696f8e103c510d1da907280460.json)
 - [`auto-8668270874c6b2d7a3aba602ce0110b9eec893b03d2f8e8103eb4de5e396be52`](state/queue-errors/auto-8668270874c6b2d7a3aba602ce0110b9eec893b03d2f8e8103eb4de5e396be52.json)
+- [`auto-87c112f35853d4ed488652c11de36150587fac23961d2423235897351a7301ce`](state/queue-errors/auto-87c112f35853d4ed488652c11de36150587fac23961d2423235897351a7301ce.json)
 - [`auto-8dab0b6046afc0ff658d81edf68d3c386cac90062ae6ec8dc120b3eaa9940a08`](state/queue-errors/auto-8dab0b6046afc0ff658d81edf68d3c386cac90062ae6ec8dc120b3eaa9940a08.json)
 - [`auto-8ea5d133cfa50990ba44befa7b086a5b8083c3b9f0e2d0759e0e63391c682847`](state/queue-errors/auto-8ea5d133cfa50990ba44befa7b086a5b8083c3b9f0e2d0759e0e63391c682847.json)
+- [`auto-92ea530342dea60b26cd727387c1f28eb26074a1e8bd3d0ffa1123be6059c1d2`](state/queue-errors/auto-92ea530342dea60b26cd727387c1f28eb26074a1e8bd3d0ffa1123be6059c1d2.json)
+- [`auto-95e40648b9af06ea29450b251fe3bd44ebc77dbe440b2c442993800f604b029a`](state/queue-errors/auto-95e40648b9af06ea29450b251fe3bd44ebc77dbe440b2c442993800f604b029a.json)
+- [`auto-97aa4617c614f773ed8808ca817ee0ce682d6c3e9b8f97c26e16be698c2fec15`](state/queue-errors/auto-97aa4617c614f773ed8808ca817ee0ce682d6c3e9b8f97c26e16be698c2fec15.json)
 - [`auto-97e40174f0283715b601d86003d362b4ca1a166fe0dc65fccd4db8f7da27cbb0`](state/queue-errors/auto-97e40174f0283715b601d86003d362b4ca1a166fe0dc65fccd4db8f7da27cbb0.json)
+- [`auto-9b8cc7aebf59c08e53d42947e020823a31712fc390e4c79bee7ebb3d4fd41bad`](state/queue-errors/auto-9b8cc7aebf59c08e53d42947e020823a31712fc390e4c79bee7ebb3d4fd41bad.json)
 - [`auto-9ce21bc7660643cefa7570bb755c506c47e7d9620af0d3cce6d65ef17c1418f1`](state/queue-errors/auto-9ce21bc7660643cefa7570bb755c506c47e7d9620af0d3cce6d65ef17c1418f1.json)
+- [`auto-9d7af46f8ed5cdd733dfd8636c07506a162b7b25275e03923d998c9632e943fa`](state/queue-errors/auto-9d7af46f8ed5cdd733dfd8636c07506a162b7b25275e03923d998c9632e943fa.json)
 - [`auto-9efde31f4180e457b5eeaf1cd353ada02905d39b31816e8ea9a15fc976b88e25`](state/queue-errors/auto-9efde31f4180e457b5eeaf1cd353ada02905d39b31816e8ea9a15fc976b88e25.json)
 - [`auto-9f622c1fa6eba1962bee6b0ed9a3686ac75140a383c681bf31c760facd93a51f`](state/queue-errors/auto-9f622c1fa6eba1962bee6b0ed9a3686ac75140a383c681bf31c760facd93a51f.json)
 - [`auto-a11459e12939ef5c0f042bf97910e7aa1f20d824db98cc1b403aca00215e648c`](state/queue-errors/auto-a11459e12939ef5c0f042bf97910e7aa1f20d824db98cc1b403aca00215e648c.json)
+- [`auto-a12b2b71163f055b2d5eb940ca61fa48d24d8d9cb00eb20a77f19488ae0e3393`](state/queue-errors/auto-a12b2b71163f055b2d5eb940ca61fa48d24d8d9cb00eb20a77f19488ae0e3393.json)
+- [`auto-a4aeda4ffbcf86073b9299f4e0be2e0a4b16e8078cd9f58529fb5a7d1635bf3f`](state/queue-errors/auto-a4aeda4ffbcf86073b9299f4e0be2e0a4b16e8078cd9f58529fb5a7d1635bf3f.json)
 - [`auto-a66a525f3a03aae02abdae704eeeb34296dc10ac9f6de510128907c6b1c40430`](state/queue-errors/auto-a66a525f3a03aae02abdae704eeeb34296dc10ac9f6de510128907c6b1c40430.json)
 - [`auto-a7b6ca4e5ba69c899c15e7488b72a08d814bb13e5314fe72bd97572f023d284c`](state/queue-errors/auto-a7b6ca4e5ba69c899c15e7488b72a08d814bb13e5314fe72bd97572f023d284c.json)
+- [`auto-a997cc51c0c183f938537d03ffa026a07461fb321b4e5f26a858b2dca36172bd`](state/queue-errors/auto-a997cc51c0c183f938537d03ffa026a07461fb321b4e5f26a858b2dca36172bd.json)
 - [`auto-a9db960d4a3f294170329ca872609c06e4655b5c5b5463dddfadc8b7f1305c70`](state/queue-errors/auto-a9db960d4a3f294170329ca872609c06e4655b5c5b5463dddfadc8b7f1305c70.json)
+- [`auto-aa1f6f5a7d77cfeab6400afa5665d382c614f772f2c0c20a08f92048b27acf24`](state/queue-errors/auto-aa1f6f5a7d77cfeab6400afa5665d382c614f772f2c0c20a08f92048b27acf24.json)
+- [`auto-ab21d2ea35aa72f2538a598b7cc366863f46d90c144c25e5c543c9155b546f68`](state/queue-errors/auto-ab21d2ea35aa72f2538a598b7cc366863f46d90c144c25e5c543c9155b546f68.json)
 - [`auto-ab31b8372a8d2d74b79f0cfcf94364df533cc4b878c05d3f402827847f87a46f`](state/queue-errors/auto-ab31b8372a8d2d74b79f0cfcf94364df533cc4b878c05d3f402827847f87a46f.json)
+- [`auto-ab60586b643f19a20cd739e078bf03913c7381126b21a35fdca9b84e3fb903c4`](state/queue-errors/auto-ab60586b643f19a20cd739e078bf03913c7381126b21a35fdca9b84e3fb903c4.json)
+- [`auto-ab7cc0f7b2de7e83112073a99505780d8288653144afd6608a3c4ce7002edf4d`](state/queue-errors/auto-ab7cc0f7b2de7e83112073a99505780d8288653144afd6608a3c4ce7002edf4d.json)
 - [`auto-ac0c2de5dec432992ccbb9f58a9550023104e0606471b3b6a26fcf2bf666a2ba`](state/queue-errors/auto-ac0c2de5dec432992ccbb9f58a9550023104e0606471b3b6a26fcf2bf666a2ba.json)
 - [`auto-ad3cd704d068afc01388550a65dc419f2d9d51bb28a586a86b14f494c09e5616`](state/queue-errors/auto-ad3cd704d068afc01388550a65dc419f2d9d51bb28a586a86b14f494c09e5616.json)
 - [`auto-ae1a35c798adfa8286582372547901ce8a37af8bc2af8db755d6e90cd8ae647e`](state/queue-errors/auto-ae1a35c798adfa8286582372547901ce8a37af8bc2af8db755d6e90cd8ae647e.json)
+- [`auto-aebda62164ec977da7ab2b8c2373e3f5fba656aac39b56a3317807f98c83cec6`](state/queue-errors/auto-aebda62164ec977da7ab2b8c2373e3f5fba656aac39b56a3317807f98c83cec6.json)
+- [`auto-af4688f86d1e24a201c2464a68d3a8d981d3cb4f8af37cc7ed2337e7fd7892a9`](state/queue-errors/auto-af4688f86d1e24a201c2464a68d3a8d981d3cb4f8af37cc7ed2337e7fd7892a9.json)
 - [`auto-afc8b71e84f98ffe76f57566afe5e6afa71d014ee74327529de2c818df13805e`](state/queue-errors/auto-afc8b71e84f98ffe76f57566afe5e6afa71d014ee74327529de2c818df13805e.json)
+- [`auto-b1d237750b51bdc2fa702e8ab12fe9ca362a84d938a4c37d7a2f502c6b5c9827`](state/queue-errors/auto-b1d237750b51bdc2fa702e8ab12fe9ca362a84d938a4c37d7a2f502c6b5c9827.json)
+- [`auto-b2db36eb953351d13257d5a8450782bf63f7a0c5e2e3d0ef12010677599eb6a4`](state/queue-errors/auto-b2db36eb953351d13257d5a8450782bf63f7a0c5e2e3d0ef12010677599eb6a4.json)
 - [`auto-b2e83f9dcad2a914009ebec5bd26817dc8721578825acfba7538511ade867925`](state/queue-errors/auto-b2e83f9dcad2a914009ebec5bd26817dc8721578825acfba7538511ade867925.json)
+- [`auto-b6ba2bcd9bb524edd681f8cc724ab3d33a5eae04ce2b16d6d4926e7c1bbe0f06`](state/queue-errors/auto-b6ba2bcd9bb524edd681f8cc724ab3d33a5eae04ce2b16d6d4926e7c1bbe0f06.json)
+- [`auto-b8790fd6eb580e6e8e15341aac25fa0e92fec25474755dec1bc263ecb2218a08`](state/queue-errors/auto-b8790fd6eb580e6e8e15341aac25fa0e92fec25474755dec1bc263ecb2218a08.json)
 - [`auto-b9689519313c036f46f2d0494ec08e07ccccc6e2e6aca82b9200be0eba0a0e92`](state/queue-errors/auto-b9689519313c036f46f2d0494ec08e07ccccc6e2e6aca82b9200be0eba0a0e92.json)
+- [`auto-b9dd3ba20b44e90e071d78f6c365bd43835b7c1b8f39fa47d1baa12e457ca138`](state/queue-errors/auto-b9dd3ba20b44e90e071d78f6c365bd43835b7c1b8f39fa47d1baa12e457ca138.json)
 - [`auto-ba45094fe45aeb238128f98ff9009071892fecd25dc3e7abab1ada732d6b1769`](state/queue-errors/auto-ba45094fe45aeb238128f98ff9009071892fecd25dc3e7abab1ada732d6b1769.json)
 - [`auto-ba4e42f56fe59e04685b00d40578898651928113e03bad0cbea58976a9f58ade`](state/queue-errors/auto-ba4e42f56fe59e04685b00d40578898651928113e03bad0cbea58976a9f58ade.json)
 - [`auto-ba6126afaa173226c6b5981603082cc37985badb6eb07aac6af62adb85e9f051`](state/queue-errors/auto-ba6126afaa173226c6b5981603082cc37985badb6eb07aac6af62adb85e9f051.json)
+- [`auto-ba6b4a7e45ecd183aeb81b69133e5bdb9dd42abbe20290ee19ca255d7071de93`](state/queue-errors/auto-ba6b4a7e45ecd183aeb81b69133e5bdb9dd42abbe20290ee19ca255d7071de93.json)
 - [`auto-ba96dcb4001acee68b232f3255bfdf18e21dbb4ae86b42e3958d3885dbfe5bfe`](state/queue-errors/auto-ba96dcb4001acee68b232f3255bfdf18e21dbb4ae86b42e3958d3885dbfe5bfe.json)
+- [`auto-bc0ed2bb57d3623a5f5fbea81677106780509a7a2a125f32e2c1fe14a5567185`](state/queue-errors/auto-bc0ed2bb57d3623a5f5fbea81677106780509a7a2a125f32e2c1fe14a5567185.json)
+- [`auto-be052a56f1926be5a0f1f7a66ed3cfb47ba3bc613002b992b4d07b9150f307de`](state/queue-errors/auto-be052a56f1926be5a0f1f7a66ed3cfb47ba3bc613002b992b4d07b9150f307de.json)
+- [`auto-be647c4fdfb8469e548b94eddc94d8403fd7df9a0b8e4dd3c0e2cd478800cdda`](state/queue-errors/auto-be647c4fdfb8469e548b94eddc94d8403fd7df9a0b8e4dd3c0e2cd478800cdda.json)
+- [`auto-c11c5b2ff6307e5f7ffa0b712ffb8903735394f8a3a8b0cbdb70560191e24c69`](state/queue-errors/auto-c11c5b2ff6307e5f7ffa0b712ffb8903735394f8a3a8b0cbdb70560191e24c69.json)
 - [`auto-c1705c277c71d3e9301f6d922aef177f0477ead460e42b8feb91301c7a224cb3`](state/queue-errors/auto-c1705c277c71d3e9301f6d922aef177f0477ead460e42b8feb91301c7a224cb3.json)
 - [`auto-c24b9c162202fe065a66fc05e5fe815776488944642113bda74cb6bfd00f783e`](state/queue-errors/auto-c24b9c162202fe065a66fc05e5fe815776488944642113bda74cb6bfd00f783e.json)
+- [`auto-c6ceedc68848162036fd320e728e3de8fb3fda74d4255e9df6d1579651566505`](state/queue-errors/auto-c6ceedc68848162036fd320e728e3de8fb3fda74d4255e9df6d1579651566505.json)
+- [`auto-c975826671c826bf7c40122d52ccc21a8190d754be0e5286ec9a70158054d3f9`](state/queue-errors/auto-c975826671c826bf7c40122d52ccc21a8190d754be0e5286ec9a70158054d3f9.json)
+- [`auto-cabba09f9130ebf8197a18d77a7802fb1a327d90d3f26fb0fd32e68bfac00236`](state/queue-errors/auto-cabba09f9130ebf8197a18d77a7802fb1a327d90d3f26fb0fd32e68bfac00236.json)
+- [`auto-cb5d16d283cc20ff357c4ee10e8b18c78b5cd4df62ff7324820d31de0a88f80d`](state/queue-errors/auto-cb5d16d283cc20ff357c4ee10e8b18c78b5cd4df62ff7324820d31de0a88f80d.json)
 - [`auto-cb735912f83b4dba318150ad090151b485f481b1a7e7ec0c424b18c6b09211bb`](state/queue-errors/auto-cb735912f83b4dba318150ad090151b485f481b1a7e7ec0c424b18c6b09211bb.json)
 - [`auto-cbca80ef83bec82a3278950f9fe213c82e0b7fcf6b00f1dc82253e672cd9fd63`](state/queue-errors/auto-cbca80ef83bec82a3278950f9fe213c82e0b7fcf6b00f1dc82253e672cd9fd63.json)
+- [`auto-cc3ad88cba3112264b6c7567b5e1830fa6f9558ecf658254109a7b2d463f0ed2`](state/queue-errors/auto-cc3ad88cba3112264b6c7567b5e1830fa6f9558ecf658254109a7b2d463f0ed2.json)
+- [`auto-cca277f01adbf373f827ac224ec33ed8c8f03cb33ec42eb337af7ce42a9b2efc`](state/queue-errors/auto-cca277f01adbf373f827ac224ec33ed8c8f03cb33ec42eb337af7ce42a9b2efc.json)
 - [`auto-ccb980fff3d6fa047c65af194f76886518824ddd68a17537793168c29945c844`](state/queue-errors/auto-ccb980fff3d6fa047c65af194f76886518824ddd68a17537793168c29945c844.json)
+- [`auto-cccfa275dd525c0da77ebcc02d1ed6c481c7674f4849aaf9bcf6dc442bbe7676`](state/queue-errors/auto-cccfa275dd525c0da77ebcc02d1ed6c481c7674f4849aaf9bcf6dc442bbe7676.json)
 - [`auto-cd64242a317b499eaef61cbe51020c0f0487ac1dc9d68819f29bd1009f9df84b`](state/queue-errors/auto-cd64242a317b499eaef61cbe51020c0f0487ac1dc9d68819f29bd1009f9df84b.json)
 - [`auto-ceef6e5c54baee752f150756a428a346226d3ffca1b61b387661b5af180fff00`](state/queue-errors/auto-ceef6e5c54baee752f150756a428a346226d3ffca1b61b387661b5af180fff00.json)
 - [`auto-cef7240828f36e56fe1ad717ac9a8d61dff9493d7cfb70eccd56c98b4ff307a4`](state/queue-errors/auto-cef7240828f36e56fe1ad717ac9a8d61dff9493d7cfb70eccd56c98b4ff307a4.json)
 - [`auto-cf1bbc59255f4bacbacb1c91122f4ccb2ca0f924b08deac777e32ad9e093af1a`](state/queue-errors/auto-cf1bbc59255f4bacbacb1c91122f4ccb2ca0f924b08deac777e32ad9e093af1a.json)
 - [`auto-d031a7123b61e922a621da540403199bb1181dd915bc5c1842d1236b70eb721f`](state/queue-errors/auto-d031a7123b61e922a621da540403199bb1181dd915bc5c1842d1236b70eb721f.json)
 - [`auto-d50b84b5b4023448156799ec16c6867d1f2d01ed8e18a56accfd38f4ecb69cfb`](state/queue-errors/auto-d50b84b5b4023448156799ec16c6867d1f2d01ed8e18a56accfd38f4ecb69cfb.json)
+- [`auto-d5527cd910b3ed20024a39a32b5489f02344670e109a8301839bee94532cc972`](state/queue-errors/auto-d5527cd910b3ed20024a39a32b5489f02344670e109a8301839bee94532cc972.json)
+- [`auto-d57df8416df514d999de5769bdeba7265106a28d9760a8060df293876cdef168`](state/queue-errors/auto-d57df8416df514d999de5769bdeba7265106a28d9760a8060df293876cdef168.json)
+- [`auto-d84d8c90dd579ff23f836db95f36ee3c1e7303f020519bfe80a63c7b807dd462`](state/queue-errors/auto-d84d8c90dd579ff23f836db95f36ee3c1e7303f020519bfe80a63c7b807dd462.json)
 - [`auto-d875365b30fdf8dacb5a6a28f3b88f7907e9a5696e40df9af0daa4ccef5ec2e7`](state/queue-errors/auto-d875365b30fdf8dacb5a6a28f3b88f7907e9a5696e40df9af0daa4ccef5ec2e7.json)
 - [`auto-d878c50c37e695291d42bed5efec68d669de7ede7cfb465cc066d6b1060c2502`](state/queue-errors/auto-d878c50c37e695291d42bed5efec68d669de7ede7cfb465cc066d6b1060c2502.json)
+- [`auto-d8860cb41d206e2babeca8a00b9de2c79fe01fc2b609b2810e6770902f9a48a8`](state/queue-errors/auto-d8860cb41d206e2babeca8a00b9de2c79fe01fc2b609b2810e6770902f9a48a8.json)
 - [`auto-d93136f83063f146cd47f858f41f65bc756d174d35c78d5c0a9a98a7dce11485`](state/queue-errors/auto-d93136f83063f146cd47f858f41f65bc756d174d35c78d5c0a9a98a7dce11485.json)
+- [`auto-d948da3c6722eb1e0a30e063d3568166682f8102608bdf596ccdddd199bd12e3`](state/queue-errors/auto-d948da3c6722eb1e0a30e063d3568166682f8102608bdf596ccdddd199bd12e3.json)
 - [`auto-da744f6ee991e18f6bcf5a599368ba78f81658edf01202afaa60e328c543939a`](state/queue-errors/auto-da744f6ee991e18f6bcf5a599368ba78f81658edf01202afaa60e328c543939a.json)
 - [`auto-daed39bd059b1000f0f0441a15c4c11b45eb0d44f32155ca3cbf294d9b424fdb`](state/queue-errors/auto-daed39bd059b1000f0f0441a15c4c11b45eb0d44f32155ca3cbf294d9b424fdb.json)
+- [`auto-db475d2df98636d303f03237fb2b5b046ffe164d16b3990f555c1ffebfd3e780`](state/queue-errors/auto-db475d2df98636d303f03237fb2b5b046ffe164d16b3990f555c1ffebfd3e780.json)
 - [`auto-df18c8392cf1f703e81275b0896d5b72d6bddf019d63ba094f7318cbe99e1c2b`](state/queue-errors/auto-df18c8392cf1f703e81275b0896d5b72d6bddf019d63ba094f7318cbe99e1c2b.json)
+- [`auto-df33c0289b3039152161aaa614f2bcf3278bfb2fd7493ec2bba4aa268689e8ba`](state/queue-errors/auto-df33c0289b3039152161aaa614f2bcf3278bfb2fd7493ec2bba4aa268689e8ba.json)
+- [`auto-dfb428fa5664742f310a310b0900c8c0e51b16d4c30dccdd9e73532e598126ac`](state/queue-errors/auto-dfb428fa5664742f310a310b0900c8c0e51b16d4c30dccdd9e73532e598126ac.json)
 - [`auto-e06abe568de478adc9a88d5a9b2e7c9fee80b7c1610c5ef0b1d8f4634fd1d560`](state/queue-errors/auto-e06abe568de478adc9a88d5a9b2e7c9fee80b7c1610c5ef0b1d8f4634fd1d560.json)
 - [`auto-e130c254e19772571333bf2123dafe5575d67abfc0990d7ed06254c16abb8741`](state/queue-errors/auto-e130c254e19772571333bf2123dafe5575d67abfc0990d7ed06254c16abb8741.json)
+- [`auto-e16c8b5fe6b696efdbed27ab4fd65a1b400fbd75e9ab6a5a7c4dbd127755dd80`](state/queue-errors/auto-e16c8b5fe6b696efdbed27ab4fd65a1b400fbd75e9ab6a5a7c4dbd127755dd80.json)
+- [`auto-e2e35719f03ffa6ab94ac0a4ece87354b9b8540b0390991170f0674283799fd8`](state/queue-errors/auto-e2e35719f03ffa6ab94ac0a4ece87354b9b8540b0390991170f0674283799fd8.json)
+- [`auto-e396fbb8954710058849875e02c487e1285ca6898b11aff8d747635114ab3469`](state/queue-errors/auto-e396fbb8954710058849875e02c487e1285ca6898b11aff8d747635114ab3469.json)
 - [`auto-e62725a8a56edac683479a9441696911cf15f4b3b99fd412ffe5a8e1b6848028`](state/queue-errors/auto-e62725a8a56edac683479a9441696911cf15f4b3b99fd412ffe5a8e1b6848028.json)
 - [`auto-e6b27e9b272e54322f32fc415b48f96470151d602f288be3196df417b76471ae`](state/queue-errors/auto-e6b27e9b272e54322f32fc415b48f96470151d602f288be3196df417b76471ae.json)
+- [`auto-e6f7d81a9b0bc72aa30316d826105afc77bb43126eb7125a2038139ab08b17a6`](state/queue-errors/auto-e6f7d81a9b0bc72aa30316d826105afc77bb43126eb7125a2038139ab08b17a6.json)
 - [`auto-e7970600d4c94f2d0c296b21df916eb8a439953eddae3d9fb1989136b66fa230`](state/queue-errors/auto-e7970600d4c94f2d0c296b21df916eb8a439953eddae3d9fb1989136b66fa230.json)
+- [`auto-e7d54ff5ed9a3ffa754082e8f039acdc64a51e0c6588c289dc7a0396164d8b35`](state/queue-errors/auto-e7d54ff5ed9a3ffa754082e8f039acdc64a51e0c6588c289dc7a0396164d8b35.json)
 - [`auto-e7dd93a9e854e9b61d4a2ba673bc0ce040c4f075121e2c50fcc5ad0a374869f1`](state/queue-errors/auto-e7dd93a9e854e9b61d4a2ba673bc0ce040c4f075121e2c50fcc5ad0a374869f1.json)
 - [`auto-e7fc341f30b0daafe1f066131b6d78f4c974da1747200708433089546415ee0d`](state/queue-errors/auto-e7fc341f30b0daafe1f066131b6d78f4c974da1747200708433089546415ee0d.json)
 - [`auto-e804d4011cde9128e3b7751044c6139d1dc941696cf5aca25a9bbbd97d241fc3`](state/queue-errors/auto-e804d4011cde9128e3b7751044c6139d1dc941696cf5aca25a9bbbd97d241fc3.json)
 - [`auto-e843854188024f3f8e27c505461798edd2781e41b89ed5d4cd973b84aadfcb94`](state/queue-errors/auto-e843854188024f3f8e27c505461798edd2781e41b89ed5d4cd973b84aadfcb94.json)
 - [`auto-ebfc20fd6832341680fd380de9483aa81ef75f33efe5541a342657bce8af1c7a`](state/queue-errors/auto-ebfc20fd6832341680fd380de9483aa81ef75f33efe5541a342657bce8af1c7a.json)
 - [`auto-ecd6f3f172662b8dc155824f5572b021100c5ace6a5eafbb42128a347e014554`](state/queue-errors/auto-ecd6f3f172662b8dc155824f5572b021100c5ace6a5eafbb42128a347e014554.json)
+- [`auto-ecff2465b980b561d4eaa54f1ddfdbde7bb909f64705bf57b57332d7603dd7b2`](state/queue-errors/auto-ecff2465b980b561d4eaa54f1ddfdbde7bb909f64705bf57b57332d7603dd7b2.json)
 - [`auto-ed0e1233de88781d1ca2485fac6778cd7d91f93643fc8c36c65c7fb7ea4c5a6a`](state/queue-errors/auto-ed0e1233de88781d1ca2485fac6778cd7d91f93643fc8c36c65c7fb7ea4c5a6a.json)
 - [`auto-ee44f8be5c3045ea5580cbf5c1d20a14ffd245e81cab862534ae9fbd8fe1617c`](state/queue-errors/auto-ee44f8be5c3045ea5580cbf5c1d20a14ffd245e81cab862534ae9fbd8fe1617c.json)
+- [`auto-eee1d0e915bcb82ce1196a8059823c148656e7974a4c641c3269e8aea6ce4869`](state/queue-errors/auto-eee1d0e915bcb82ce1196a8059823c148656e7974a4c641c3269e8aea6ce4869.json)
 - [`auto-f0906169db9dd2bd31134045e87c6274634a22aa689f313dcab207624528784a`](state/queue-errors/auto-f0906169db9dd2bd31134045e87c6274634a22aa689f313dcab207624528784a.json)
 - [`auto-f20a288db93519584459de7e3a627be95e7d240a94c373eefcbcf65ee8199b7a`](state/queue-errors/auto-f20a288db93519584459de7e3a627be95e7d240a94c373eefcbcf65ee8199b7a.json)
+- [`auto-f38756da92beb64548899fb6f8431b7b6d6dfba87788c41fdb0947f4d0c40616`](state/queue-errors/auto-f38756da92beb64548899fb6f8431b7b6d6dfba87788c41fdb0947f4d0c40616.json)
 - [`auto-f45e8ccd582fa412ad5877c46152aeb22dbbbd850af7ac71cb35a69d75ed3dd0`](state/queue-errors/auto-f45e8ccd582fa412ad5877c46152aeb22dbbbd850af7ac71cb35a69d75ed3dd0.json)
+- [`auto-f549a749d9b2d55848c58aa1f104982c134892e866da777965178f785350eae2`](state/queue-errors/auto-f549a749d9b2d55848c58aa1f104982c134892e866da777965178f785350eae2.json)
 - [`auto-f59737ab15318612f9f26fcc983ba0f1c2f0fc94066af2fa711036e535071c75`](state/queue-errors/auto-f59737ab15318612f9f26fcc983ba0f1c2f0fc94066af2fa711036e535071c75.json)
 - [`auto-f65d86811212ec30193bc0b7d8852201696e9a782353dcd7db9a68eee9513704`](state/queue-errors/auto-f65d86811212ec30193bc0b7d8852201696e9a782353dcd7db9a68eee9513704.json)
+- [`auto-f85980f48521a4e5e6be397d1f3fee98a3cce7db90d7c7aaa5d4d1cd85ac44fd`](state/queue-errors/auto-f85980f48521a4e5e6be397d1f3fee98a3cce7db90d7c7aaa5d4d1cd85ac44fd.json)
+- [`auto-f8af3f392eeef2b208132723bd7da82edec6edbde496a124cb7d79ace3e8db0d`](state/queue-errors/auto-f8af3f392eeef2b208132723bd7da82edec6edbde496a124cb7d79ace3e8db0d.json)
+- [`auto-fa8c62c6b1ec62a06108a29c0526cb4063d98e4f46c4b213e3cd10c8af184988`](state/queue-errors/auto-fa8c62c6b1ec62a06108a29c0526cb4063d98e4f46c4b213e3cd10c8af184988.json)
+- [`auto-fb5318cd789888187e08f5698ce4f3ad3f9f3f639b42769ef4e5eb9e23084b57`](state/queue-errors/auto-fb5318cd789888187e08f5698ce4f3ad3f9f3f639b42769ef4e5eb9e23084b57.json)
 - [`gh-37137973917`](state/queue-errors/gh-37137973917.json)
 
 ## Campaigns

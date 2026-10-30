@@ -1,0 +1,44 @@
+{
+  "article": {
+    "byline": {
+      "authors": [
+        {
+          "name": "Francis of Assisi"
+        }
+      ],
+      "raw": "Francis of Assisi"
+    },
+    "categories": {
+      "additional": [],
+      "primary": "14ce3df8-6bae-5930-b2c4-2ab582ee1ea1"
+    },
+    "id": "96a4b941-e99e-4705-89c4-3d1c505f9c27",
+    "images": [],
+    "issue_id": "c438f95a-c3cd-46ee-bbd5-a2d904c41870",
+    "rights": {
+      "article_specific_permission_notice_detected": false,
+      "status": "eligible"
+    },
+    "section": null,
+    "sequence": 13,
+    "series": null,
+    "source_pages": {
+      "end": 36,
+      "start": 36
+    },
+    "subtitle": null,
+    "title": "The Prayer of St. Francis",
+    "topics": []
+  },
+  "fingerprints": {
+    "html_sha256": "57913231275ba7b0ed5324abcecb8815438434059b40845d9feb8152f82117f3",
+    "metadata_sha256": "544d60ed14ebd2c52ff92144584d4e9b241898218aec9c34f11cf57c8ac703fc",
+    "structure_sha256": "b454735348bac2fd764cd293548e257e0b96fe3283c0b7a9c27fa19935320500",
+    "text_sha256": "dc07c60d8254503482aad587738f0c2eec3e086d370bd8d152d7d57e280a1c4a",
+    "translation_metadata_sha256": "614e95d31f663975fa0ef585a50409f5c44402507662167e75395a3705402db3"
+  },
+  "html": "<article data-article-id=\"96a4b941-e99e-4705-89c4-3d1c505f9c27\">\n  <p class=\"poem\">Lord, make me an instrument of thy peace<br>\n<em>Where there is hatred...let me show love<br>\nWhere there is injury...pardon<br>\nWhere there is doubt...faith<br>\nWhere there is dispair...hope<br>\nWhere there is darkness...light<br>\nWhere there is sadness...joy</em></p>\n  <p class=\"poem\">O Master, grant that I may not so much seek<br>\n<em>To be consoled...as to console<br>\nTo be understood...as to understand<br>\nTo be loved...as to love<br>\nFor it is in giving...that we receive<br>\nIt is in pardoning...that we are pardoned<br>\nAnd it is in dying...that we are born to eternal life</em></p>\n  <p><em>Francis of Assisi</em></p>\n</article>\n",
+  "repository": "trueChristian/berean-voice",
+  "revision": "d7db93643dbfa1586791aaa8031cabeca5b771f0",
+  "translation_key": "4c1657a82cef2dff4e427e285c9ff4783acb85296ff46714cd17c1f02b03616d"
+}
