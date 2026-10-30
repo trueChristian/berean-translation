@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-30T14:04:01+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"translation.html, figure > figcaption\",\"severity\":\"major\",\"source_quote\":\"For we wrestle not against flesh and blood, but against principalities, against powers\",\"suggested_fix\":\"Erstatt «men mot fyrstedømmer» med «men mot åndelige myndigheter», og behold HTML-strukturen og resten av sitatet.\",\"translation_quote\":\"For vi kjemper ikke mot kjøtt og blod, men mot fyrstedømmer, mot makter\"}],\"findings_complete\":true,\"passed\":false,\"score\":96}",
+    "content_bytes": 476,
+    "content_evidence_truncated": false,
+    "content_sha256": "a9f917351886fd2208421d7a2306b3e68260d88c47196d8f39e1ee9d8763624d",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 289,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 161,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8740,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8737,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9029
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 1
+}

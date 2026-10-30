@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "translation.html, figure > figcaption",
+      "severity": "major",
+      "source_quote": "For we wrestle not against flesh and blood, but against principalities, against powers",
+      "suggested_fix": "Erstatt «men mot fyrstedømmer» med «men mot åndelige myndigheter», og behold HTML-strukturen og resten av sitatet.",
+      "translation_quote": "For vi kjemper ikke mot kjøtt og blod, men mot fyrstedømmer, mot makter"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; a recovery continuation must pass admission",
+  "stage": "terminal"
+}

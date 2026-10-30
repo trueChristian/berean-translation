@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "8b0d1df58f544f979010e4789d930f4f",
   "campaign": "auto-b0bd733e6c5d4629d7a9dc3a0c4f49638e866703ca7e87f5b2d60fea346c9a5b",
   "created_at": "2026-10-30T07:57:33+00:00",
   "events": [
@@ -48,81 +47,40 @@
         },
         "total_tokens": 13875
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 289,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 161,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8740,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8737,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9029
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; a recovery continuation must pass admission",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "html, avsnitt 5",
+      "location": "translation.html, figure > figcaption",
       "severity": "major",
-      "source_quote": "Four thousand miles to the east",
-      "suggested_fix": "Erstatt «Fire tusen mil lenger øst» med «Fire tusen engelske mil lenger øst».",
-      "translation_quote": "Fire tusen mil lenger øst"
-    },
-    {
-      "location": "html, avsnitt 4",
-      "severity": "major",
-      "source_quote": "A wayward shell, some weighing as much as a small car, could fall from the sky with deadly results.",
-      "suggested_fix": "Erstatt «Et viltgående granatskall» med «En granat på avveie». «Granatskall» betegner skallet, ikke selve artilleriprosjektilet.",
-      "translation_quote": "Et viltgående granatskall, noen av dem så tunge som en liten bil, kunne falle fra himmelen med dødelige følger."
-    },
-    {
-      "location": "html, avsnitt 10",
-      "severity": "major",
-      "source_quote": "resulting in mob violence, property damage",
-      "suggested_fix": "Erstatt «mobbeangrep» med «vold fra folkemengder».",
-      "translation_quote": "noe som resulterte i mobbeangrep, skade på eiendom"
-    },
-    {
-      "location": "html, avsnitt 16",
-      "severity": "major",
-      "source_quote": "as Hitler made a last desperate stand",
-      "suggested_fix": "Erstatt «mens Hitler gjorde et siste fortvilet standpunkt» med «mens Hitler gjorde et siste desperat forsøk på å holde stand».",
-      "translation_quote": "mens Hitler gjorde et siste fortvilet standpunkt"
-    },
-    {
-      "location": "html, avsnitt 20",
-      "severity": "major",
-      "source_quote": "The devastation of a pair of atomic bombs shocked Japan into surrender.",
-      "suggested_fix": "Erstatt setningen med «Ødeleggelsene som to atombomber forårsaket, sjokkerte Japan til overgivelse.» Dette tydeliggjør at bombene forårsaket ødeleggelsene, ikke at bombene ble ødelagt.",
-      "translation_quote": "Ødeleggelsen av et par atombomber sjokkerte Japan til overgivelse."
-    },
-    {
-      "location": "html, avsnitt 18",
-      "severity": "minor",
-      "source_quote": "Spread thin—with troops, equipment, and resources dwindling—they fought a desperate defensive campaign.",
-      "suggested_fix": "Erstatt setningen med «Med styrkene spredt over et stort område og stadig færre tropper, mindre utstyr og knappere ressurser kjempet de en desperat forsvarskamp.»",
-      "translation_quote": "Spredd tynt—with tropper, utstyr og ressurser minkende—kjempet de en desperat forsvarskampanje."
-    },
-    {
-      "location": "html, avsnitt 6, 7, 10 og 11",
-      "severity": "minor",
-      "source_quote": "These young men were called; a general anger; patriotic fervor; an efficient, well-supplied attack force",
-      "suggested_fix": "Rett uttrykkene til henholdsvis «Disse unge mennene ble kalt til tjeneste», «generelt sinne», «patriotisk glød» og «en effektiv, godt forsynt angrepsstyrke».",
-      "translation_quote": "Denne unge mannenes kallelse; generell sinne; patriotsk fervor; en effektiv, godt forsynte angrepsstyrke"
-    },
-    {
-      "location": "html, avsnitt 10 og senere bruk av CO/COene",
-      "severity": "minor",
-      "source_quote": "conscientious objectors’ (COs) convictions",
-      "suggested_fix": "Introduser forkortelsen ved første forekomst i avsnitt 10, for eksempel «samvittighetsnekternes (CO-enes) overbevisning», og bruk deretter konsekvent «CO-ene» og «CO».",
-      "translation_quote": "samvittighetsnekternes overbevisning; COene; status som CO"
-    },
-    {
-      "location": "html, avsnitt 5",
-      "severity": "minor",
-      "source_quote": "<strong>physical</strong>; <strong>hearts</strong> and<strong> minds</strong>",
-      "suggested_fix": "Gjeninnfør kildeavsnittets utheving med «den <strong>fysiske</strong> kampføringen» og «i <strong>hjertene</strong> og <strong>sinnene</strong>».",
-      "translation_quote": "den fysiske kampføringen; i hjertene og sinnene"
-    },
-    {
-      "location": "html, avsnitt 22",
-      "severity": "minor",
-      "source_quote": "MacArthur in the devastation and destruction of war",
-      "suggested_fix": "Erstatt «MacArthur i ødeleggelsen og ødeleggelsen som krig medførte» med «MacArthur på krigens herjinger og ødeleggelser».",
-      "translation_quote": "MacArthur i ødeleggelsen og ødeleggelsen som krig medførte"
+      "source_quote": "For we wrestle not against flesh and blood, but against principalities, against powers",
+      "suggested_fix": "Erstatt «men mot fyrstedømmer» med «men mot åndelige myndigheter», og behold HTML-strukturen og resten av sitatet.",
+      "translation_quote": "For vi kjemper ikke mot kjøtt og blod, men mot fyrstedømmer, mot makter"
     }
   ],
+  "finished_at": "2026-10-30T14:04:01+00:00",
   "id": "e096a002e8cf6df3e5ae8374c4138dff",
   "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
   "language": "nob",
@@ -211,7 +169,7 @@
     }
   },
   "protected": false,
-  "quality_score": 85,
+  "quality_score": 96,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6.1-sol",
@@ -230,7 +188,7 @@
     "total_reserved_usd": 0.763022,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 1,
   "translation_key": "c767adc49633e338375567a05addcb2f986e5c013a016c2592a1cd600a81bb50",
   "translation_model_actual": "gpt-6.1-sol"
