@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph 10, director’s reply",
+      "severity": "major",
+      "source_quote": "“Not exactly an advanced age.”",
+      "suggested_fix": "“Usia yang belum terlalu lanjut.”",
+      "translation_quote": "“Itu belum bisa dikatakan usia dewasa.”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

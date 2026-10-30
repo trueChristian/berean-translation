@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "da4f8375-0fca-4e32-a0ee-044de7857352",
+    "response_id": "chatcmpl-EeTgniLhVzfWQHBrkK70BfhOqQb0w",
+    "usage": {
+      "completion_tokens": 1116,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1024,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9941,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9938,
+        "cached_tokens": 0
+      },
+      "total_tokens": 11057
+    }
+  },
+  "received_at": "2026-10-30T00:52:17+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph 10, director’s reply",
+        "severity": "major",
+        "source_quote": "“Not exactly an advanced age.”",
+        "suggested_fix": "“Usia yang belum terlalu lanjut.”",
+        "translation_quote": "“Itu belum bisa dikatakan usia dewasa.”"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 94
+  }
+}
