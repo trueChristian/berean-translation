@@ -1,0 +1,42 @@
+{
+  "findings": [
+    {
+      "location": "translation.html, paragraf 5, kalimat terakhir",
+      "severity": "major",
+      "source_quote": "After that experience George wrote little of his sermons, and finally prepared only an outline from which to preach.",
+      "suggested_fix": "Setelah pengalaman itu George hanya menuliskan sedikit bagian dari khotbah-khotbahnya, dan akhirnya hanya menyiapkan garis besar untuk berkhotbah.",
+      "translation_quote": "Setelah pengalaman itu George menulis sedikit tentang khotbahnya, dan akhirnya hanya menyiapkan garis besar untuk berkhotbah."
+    },
+    {
+      "location": "translation.html, paragraf 12",
+      "severity": "major",
+      "source_quote": "Although this is his only hymn found in most hymnals",
+      "suggested_fix": "Meskipun ini adalah satu-satunya himne karyanya yang dimuat dalam kebanyakan buku himne",
+      "translation_quote": "Meskipun ini adalah satu-satunya himne yang ditemukan dalam kebanyakan himne"
+    },
+    {
+      "location": "translation.html, paragraf 5",
+      "severity": "minor",
+      "source_quote": "he stood to his feet, gave out a new text",
+      "suggested_fix": "ia berdiri dan menyampaikan nas Alkitab yang baru",
+      "translation_quote": "ia berdiri, mengeluarkan teks baru"
+    },
+    {
+      "location": "translation.html, paragraf 9, kutipan Matheson",
+      "severity": "minor",
+      "source_quote": "it never received at my hands any retouching or correction",
+      "suggested_fix": "karya itu tidak pernah saya poles ulang atau koreksi",
+      "translation_quote": "ia tidak pernah menerima retouching atau koreksi dari tangan saya"
+    },
+    {
+      "location": "translation.html, paragraf 9, kutipan Matheson",
+      "severity": "minor",
+      "source_quote": "All the other verses I have ever written are manufactured articles",
+      "suggested_fix": "Semua bait lain yang pernah saya tulis merupakan hasil yang saya susun dengan sengaja",
+      "translation_quote": "Semua bait lain yang pernah saya tulis adalah artikel buatan"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
