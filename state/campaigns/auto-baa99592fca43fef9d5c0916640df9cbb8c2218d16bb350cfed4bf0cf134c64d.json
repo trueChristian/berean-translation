@@ -1312,7 +1312,7 @@
   },
   "status": "active",
   "task_counts": {
-    "in_batch": 1
+    "queued": 1
   },
   "tasks": [
     "581e1ffc1f02990e0e1232371d661fa2"
