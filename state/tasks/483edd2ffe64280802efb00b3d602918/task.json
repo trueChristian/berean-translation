@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "82a40a5d6ca942178234301380e4f983",
   "campaign": "auto-b10de6b63b323f7a314e94dc8a02eb5378b19561b5bc53ad7217ccea991992d6",
   "created_at": "2026-10-29T20:59:26+00:00",
   "events": [
@@ -68,18 +67,82 @@
         },
         "total_tokens": 15335
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 556,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 10349,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 9246,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 10905
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; a recovery continuation must pass admission",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "Paragraph 2",
+      "location": "Aya kuhusu utoto wake",
       "severity": "major",
-      "source_quote": "She asked the indulgence of the chairman",
-      "suggested_fix": "Alimwomba mwenyekiti amruhusu azungumze",
-      "translation_quote": "Alimwomba mwenyekiti amsamehe kwa kuzungumza"
+      "source_quote": "“she saw by accident the smith welding red-hot irons on a group of prisoners”",
+      "suggested_fix": "“aliona kwa bahati fundi wa chuma akichomelea vyuma vilivyopashwa moto kuwa vyekundu kwenye kundi la wafungwa.”",
+      "translation_quote": "“aliona kwa bahati seremala wa chuma akichomelea vyuma vyekundu kwa moto kwenye kundi la wafungwa.”"
+    },
+    {
+      "location": "Aya kuhusu Mathilde na Yohana 3:16",
+      "severity": "minor",
+      "source_quote": "“the golden words”",
+      "suggested_fix": "“maneno hayo ya thamani”",
+      "translation_quote": "“maneno hayo ya thamani”"
+    },
+    {
+      "location": "Aya kuhusu huduma yake Kakola",
+      "severity": "major",
+      "source_quote": "“four hundred life-sentenced are interned”",
+      "suggested_fix": "“ambako watu mia nne waliokuwa wamehukumiwa kifungo cha maisha walifungwa.”",
+      "translation_quote": "“ambako watu mia nne waliohukumiwa kifungo cha maisha walikuwa wamefungwa.”"
+    },
+    {
+      "location": "Aya kuhusu mahusiano yake na Wekundu na Weupe",
+      "severity": "major",
+      "source_quote": "“The Red Guardists treated her with childlike respect and kindness”",
+      "suggested_fix": "“Walinzi wa Jeshi Jekundu walimtendea kwa heshima na fadhili kama za watoto”",
+      "translation_quote": "“Walinzi wa Kihudumu Wekundu walimtendea kwa heshima na fadhili kama za watoto”"
+    },
+    {
+      "location": "Mazungumzo kuhusu kazi ya mfungwa wa zamani",
+      "severity": "major",
+      "source_quote": "“Oh, yes, I am an asphalteur.”",
+      "suggested_fix": "“Naam, mimi ni mfanyakazi wa kuweka lami.”",
+      "translation_quote": "“Naam, mimi ni mfinyanzi wa lami.”"
+    },
+    {
+      "location": "Aya kuhusu brooch ya mfungwa",
+      "severity": "minor",
+      "source_quote": "“Would you lend me, Miss, your brooch?”",
+      "suggested_fix": "“Bibi, utaniazima broshi yako?”",
+      "translation_quote": "“Bibi, utaniazima brooch yako?”"
+    },
+    {
+      "location": "Aya kuhusu brooch ya mfupa",
+      "severity": "minor",
+      "source_quote": "“a brooch, the exact replica of hers”",
+      "suggested_fix": "“broshi, nakala inayofanana kabisa na yake”",
+      "translation_quote": "“brooch, nakala inayofanana kabisa na yake”"
     }
   ],
+  "finished_at": "2026-10-30T14:05:18+00:00",
   "id": "483edd2ffe64280802efb00b3d602918",
   "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
   "language": "swa",
@@ -168,7 +231,7 @@
     }
   },
   "protected": false,
-  "quality_score": 98,
+  "quality_score": 91,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
@@ -188,7 +251,7 @@
     "total_reserved_usd": 0.09052,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "385aeb5b4a7bcbf512c0d5b8310c2fd8f5f85b86d43d077caf80670ee93c6738",
   "translation_model_actual": "gpt-6-luna"

@@ -1,0 +1,56 @@
+{
+  "findings": [
+    {
+      "location": "Aya kuhusu utoto wake",
+      "severity": "major",
+      "source_quote": "“she saw by accident the smith welding red-hot irons on a group of prisoners”",
+      "suggested_fix": "“aliona kwa bahati fundi wa chuma akichomelea vyuma vilivyopashwa moto kuwa vyekundu kwenye kundi la wafungwa.”",
+      "translation_quote": "“aliona kwa bahati seremala wa chuma akichomelea vyuma vyekundu kwa moto kwenye kundi la wafungwa.”"
+    },
+    {
+      "location": "Aya kuhusu Mathilde na Yohana 3:16",
+      "severity": "minor",
+      "source_quote": "“the golden words”",
+      "suggested_fix": "“maneno hayo ya thamani”",
+      "translation_quote": "“maneno hayo ya thamani”"
+    },
+    {
+      "location": "Aya kuhusu huduma yake Kakola",
+      "severity": "major",
+      "source_quote": "“four hundred life-sentenced are interned”",
+      "suggested_fix": "“ambako watu mia nne waliokuwa wamehukumiwa kifungo cha maisha walifungwa.”",
+      "translation_quote": "“ambako watu mia nne waliohukumiwa kifungo cha maisha walikuwa wamefungwa.”"
+    },
+    {
+      "location": "Aya kuhusu mahusiano yake na Wekundu na Weupe",
+      "severity": "major",
+      "source_quote": "“The Red Guardists treated her with childlike respect and kindness”",
+      "suggested_fix": "“Walinzi wa Jeshi Jekundu walimtendea kwa heshima na fadhili kama za watoto”",
+      "translation_quote": "“Walinzi wa Kihudumu Wekundu walimtendea kwa heshima na fadhili kama za watoto”"
+    },
+    {
+      "location": "Mazungumzo kuhusu kazi ya mfungwa wa zamani",
+      "severity": "major",
+      "source_quote": "“Oh, yes, I am an asphalteur.”",
+      "suggested_fix": "“Naam, mimi ni mfanyakazi wa kuweka lami.”",
+      "translation_quote": "“Naam, mimi ni mfinyanzi wa lami.”"
+    },
+    {
+      "location": "Aya kuhusu brooch ya mfungwa",
+      "severity": "minor",
+      "source_quote": "“Would you lend me, Miss, your brooch?”",
+      "suggested_fix": "“Bibi, utaniazima broshi yako?”",
+      "translation_quote": "“Bibi, utaniazima brooch yako?”"
+    },
+    {
+      "location": "Aya kuhusu brooch ya mfupa",
+      "severity": "minor",
+      "source_quote": "“a brooch, the exact replica of hers”",
+      "suggested_fix": "“broshi, nakala inayofanana kabisa na yake”",
+      "translation_quote": "“brooch, nakala inayofanana kabisa na yake”"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; a recovery continuation must pass admission",
+  "stage": "terminal"
+}
