@@ -1,0 +1,42 @@
+{
+  "findings": [
+    {
+      "location": "html, paragrafo sull'ingresso del re al banchetto",
+      "severity": "minor",
+      "source_quote": "he was pleased with what he saw",
+      "suggested_fix": "Sostituire «ne fu compiaciuto di ciò che vide» con «fu compiaciuto di ciò che vide».",
+      "translation_quote": "ne fu compiaciuto di ciò che vide"
+    },
+    {
+      "location": "html, citazione di Adam Clark",
+      "severity": "minor",
+      "source_quote": "long white robes were worn at public festivals",
+      "suggested_fix": "Sostituire «lunghe veste bianche» con «lunghe vesti bianche».",
+      "translation_quote": "lunghe veste bianche erano indossate nelle feste pubbliche"
+    },
+    {
+      "location": "html, paragrafo sulla condizione dell'uomo senza abito nuziale",
+      "severity": "minor",
+      "source_quote": "We are not told the exact condition of this man",
+      "suggested_fix": "Sostituire «Non ci viene detto la condizione esatta» con «Non ci viene detta la condizione esatta».",
+      "translation_quote": "Non ci viene detto la condizione esatta"
+    },
+    {
+      "location": "html, paragrafo sull'offerta della donna in casa di Simone",
+      "severity": "minor",
+      "source_quote": "She anointed Jesus’ feet and washed them with her tears",
+      "suggested_fix": "Sostituire «Ungendo i piedi di Gesù e lavandoli con le sue lacrime» con «Unse i piedi di Gesù e li lavò con le sue lacrime», conservando il seguito del periodo.",
+      "translation_quote": "Ungendo i piedi di Gesù e lavandoli con le sue lacrime"
+    },
+    {
+      "location": "html, citazione di Adam Clark, frase sulla distribuzione dell'abito",
+      "severity": "minor",
+      "source_quote": "and with which he was furnished on his application to the ruler of the feast",
+      "suggested_fix": "Sostituire «e con esso veniva fornito su sua richiesta al capo della festa» con «e ciascun ospite lo riceveva facendone richiesta al responsabile del banchetto».",
+      "translation_quote": "e con esso veniva fornito su sua richiesta al capo della festa"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[97]: source /article[1]/p[32]/em[1] ('start', 'em', ()); translation /article[1]/p[32] ('end', 'p')",
+  "stage": "terminal"
+}
