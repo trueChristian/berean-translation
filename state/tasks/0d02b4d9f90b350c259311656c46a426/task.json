@@ -1,0 +1,157 @@
+{
+  "article_id": "1caf6642-2283-4363-b3b6-33e40c39f945",
+  "automatic_previous_task": "c026c3c303dfe304cc596830a93a3c9b",
+  "autonomous": true,
+  "autonomous_recovery": true,
+  "base_html_sha256": null,
+  "base_metadata_sha256": null,
+  "campaign": "auto-a5e991ec14de806ca003de8ba880641da9297e91d366f60a264dbd34ea896894",
+  "created_at": "2026-10-30T14:08:48+00:00",
+  "events": [],
+  "findings": [
+    {
+      "location": "translation.title",
+      "severity": "minor",
+      "source_quote": "O Love That Wilt Not Let Me Go",
+      "suggested_fix": "将标题改为“哦，不肯放开我的爱（O Love That Wilt Not Let Me Go）”，保留原题对“爱”的呼告语气。",
+      "translation_quote": "愿不舍我的爱（O Love That Wilt Not Let Me Go）"
+    },
+    {
+      "location": "translation.html，第5段",
+      "severity": "minor",
+      "source_quote": "or whatever else he wanted to memorize",
+      "suggested_fix": "将“或其它想要他记住的东西”改为“或他自己想要记住的其他内容”。",
+      "translation_quote": "或其它想要他记住的东西"
+    },
+    {
+      "location": "translation.html，第6段开头",
+      "severity": "minor",
+      "source_quote": "Dr. Matheson’s final pastorate was taken up in 1886 at the age of 44",
+      "suggested_fix": "将开头改为“马西森博士于1886年、44岁时开始了他最后一任牧职，担任爱丁堡大型圣伯纳德堂（St. Bernard’s Parish Church）的牧师”。",
+      "translation_quote": "马西森博士在44岁时于1886年受任为爱丁堡大型圣伯纳德堂（St. Bernard’s Parish Church）的牧师"
+    },
+    {
+      "location": "translation.html，第9段引文首句",
+      "severity": "minor",
+      "source_quote": "My hymn was composed in the manse of Innellan on the evening of June 6, 1882.",
+      "suggested_fix": "改为“我的这首赞美诗作于1882年6月6日晚，在因内兰的牧师住宅。”",
+      "translation_quote": "我的这首赞美诗作于1882年6月6日，在因内兰的牧师住宅。"
+    },
+    {
+      "location": "translation.html，第9段引文",
+      "severity": "minor",
+      "source_quote": "It was the day of my sister’s wedding",
+      "suggested_fix": "将“那天是我妹妹的婚礼”改为“那天是我一位姊妹结婚的日子”，避免增添原文未说明的长幼关系。",
+      "translation_quote": "那天是我妹妹的婚礼"
+    }
+  ],
+  "id": "0d02b4d9f90b350c259311656c46a426",
+  "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
+  "language": "cmn",
+  "model": "gpt-6.1-sol",
+  "models": {
+    "gpt-4.1": {
+      "api_model": "gpt-4.1-2025-04-14",
+      "context_tokens": 1047576,
+      "input_batch_usd_per_million": 1.0,
+      "max_output_tokens": 32768,
+      "output_batch_usd_per_million": 4.0,
+      "quality_note": "Higher-cost translation or reviewer option.",
+      "reasoning_effort": null
+    },
+    "gpt-4.1-mini": {
+      "api_model": "gpt-4.1-mini-2025-04-14",
+      "context_tokens": 1047576,
+      "input_batch_usd_per_million": 0.2,
+      "max_output_tokens": 32768,
+      "output_batch_usd_per_million": 0.8,
+      "quality_note": "Default cost-conscious candidate; not certified for theological accuracy in every language.",
+      "reasoning_effort": null
+    },
+    "gpt-4.1-nano": {
+      "api_model": "gpt-4.1-nano-2025-04-14",
+      "context_tokens": 1047576,
+      "input_batch_usd_per_million": 0.05,
+      "max_output_tokens": 32768,
+      "output_batch_usd_per_million": 0.2,
+      "quality_note": "Lowest-cost option in this registry; benchmark before bulk publication.",
+      "reasoning_effort": null
+    },
+    "gpt-5-mini": {
+      "api_model": "gpt-5-mini-2025-08-07",
+      "context_tokens": 400000,
+      "input_batch_usd_per_million": 0.125,
+      "max_output_tokens": 128000,
+      "output_batch_usd_per_million": 1.0,
+      "quality_note": "Reasoning tokens consume output budget; benchmark total cost and quality.",
+      "reasoning_effort": "low"
+    },
+    "gpt-6-astra": {
+      "api_model": "gpt-6-astra",
+      "cache_write_batch_usd_per_million": 6.25,
+      "cached_input_batch_usd_per_million": 0.5,
+      "context_tokens": 1050000,
+      "input_batch_usd_per_million": 5.0,
+      "long_context_input_multiplier": 2.0,
+      "long_context_output_multiplier": 1.5,
+      "long_context_threshold_tokens": 272000,
+      "max_output_tokens": 128000,
+      "output_batch_usd_per_million": 25.0,
+      "pricing_verified_on": "2026-10-02",
+      "quality_note": "Higher-cost manual recovery option. Documented API alias; no dated snapshot is published. Reasoning shares the output cap. Quality gates remain required.",
+      "reasoning_effort": "low"
+    },
+    "gpt-6-luna": {
+      "api_model": "gpt-6-luna",
+      "cache_write_batch_usd_per_million": 0.0625,
+      "cached_input_batch_usd_per_million": 0.005,
+      "context_tokens": 1050000,
+      "input_batch_usd_per_million": 0.05,
+      "long_context_input_multiplier": 2.0,
+      "long_context_output_multiplier": 1.5,
+      "long_context_threshold_tokens": 272000,
+      "max_output_tokens": 128000,
+      "output_batch_usd_per_million": 0.25,
+      "pricing_verified_on": "2026-10-02",
+      "quality_note": "Affordable default for new manual translation and review campaigns. Documented API alias; no dated snapshot is published. Reasoning shares the output cap. Benchmark theological accuracy; quality gates remain required.",
+      "reasoning_effort": "low"
+    },
+    "gpt-6.1-sol": {
+      "api_model": "gpt-6.1-sol",
+      "cache_write_batch_usd_per_million": 1.25,
+      "cached_input_batch_usd_per_million": 0.05,
+      "context_tokens": 1050000,
+      "input_batch_usd_per_million": 1.0,
+      "long_context_input_multiplier": 2.0,
+      "long_context_output_multiplier": 1.5,
+      "long_context_threshold_tokens": 272000,
+      "max_output_tokens": 128000,
+      "output_batch_usd_per_million": 5.0,
+      "pricing_verified_on": "2026-10-02",
+      "quality_note": "Stronger downstream recovery option. Documented API alias; no dated snapshot is published. Reasoning shares the output cap. Quality gates remain required.",
+      "reasoning_effort": "low"
+    }
+  },
+  "protected": false,
+  "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
+  "review_attempts": 0,
+  "review_model": "gpt-6.1-sol",
+  "source_snapshot": "state/sources/4199dfaab0d5a21bda226eb26899e60946a88bb7c00ae9c880acb09af21e3ca7.json",
+  "stage": "review1",
+  "stage_budget": {
+    "initial_stage": "review1",
+    "max_candidate_bytes": 120000,
+    "max_findings_bytes": 32768,
+    "stages_usd": {
+      "correct": 0.276762,
+      "review1": 0.072152,
+      "review2": 0.364015
+    },
+    "total_reserved_usd": 0.712929,
+    "version": 1
+  },
+  "status": "queued",
+  "translation_attempts": 0,
+  "translation_key": "5af7c75ddc034efa2d45136926794f0498d0408b26a365657640e28417f4afea",
+  "translation_model_actual": "gpt-5-mini-2025-08-07"
+}
