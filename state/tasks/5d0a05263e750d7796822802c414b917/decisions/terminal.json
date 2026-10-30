@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Article, first paragraph",
+      "severity": "minor",
+      "source_quote": "There were gala dinners and receptions.",
+      "suggested_fix": "Daar was galadineeë en onthale.",
+      "translation_quote": "Daar was galadinee’s en onthale."
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

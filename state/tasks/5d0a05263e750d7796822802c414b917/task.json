@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "6d8000a16e8d4cc4b0fd0f634695cd23",
   "campaign": "auto-64ba7620c2210631bc225e91d044808ec80acbe99c8c1e2fff191eb5bd91feb1",
   "created_at": "2026-10-29T20:59:07+00:00",
   "events": [
@@ -68,32 +67,39 @@
         },
         "total_tokens": 15325
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 866,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 778,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 10255,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 9152,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 11121
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "Article, paragraph beginning “Her ministry began in the Kakola prison”",
-      "severity": "major",
-      "source_quote": "“where four hundred life-sentenced are interned”",
-      "suggested_fix": "“waar vierhonderd lewenslank veroordeeldes aangehou word”",
-      "translation_quote": "“waar vierhonderd lewenslank veroordeeldes opgesluit is”"
-    },
-    {
-      "location": "Article, paragraph beginning “Mlle. Wrede was in family connections White”",
-      "severity": "major",
-      "source_quote": "“She often quoted the words in Acts”",
-      "suggested_fix": "“Sy het dikwels die woorde uit Handelinge aangehaal”",
-      "translation_quote": "“Sy het dikwels die woorde uit Handelinge aangehaal”"
-    },
-    {
-      "location": "Article, final quoted paragraph about the brooch",
-      "severity": "major",
-      "source_quote": "“The thief on the cross was brought by Jesus to Paradise.”",
-      "suggested_fix": "“Jesus het die dief aan die kruis na die Paradys gebring.”",
-      "translation_quote": "“Jesus het die dief aan die kruis na die Paradys gebring.”"
+      "location": "Article, first paragraph",
+      "severity": "minor",
+      "source_quote": "There were gala dinners and receptions.",
+      "suggested_fix": "Daar was galadineeë en onthale.",
+      "translation_quote": "Daar was galadinee’s en onthale."
     }
   ],
+  "finished_at": "2026-10-30T14:04:25+00:00",
   "id": "5d0a05263e750d7796822802c414b917",
   "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
   "language": "afr",
@@ -182,7 +188,7 @@
     }
   },
   "protected": false,
-  "quality_score": 93,
+  "quality_score": 99,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
@@ -202,7 +208,7 @@
     "total_reserved_usd": 0.090525,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "385aeb5b4a7bcbf512c0d5b8310c2fd8f5f85b86d43d077caf80670ee93c6738",
   "translation_model_actual": "gpt-6-luna"
