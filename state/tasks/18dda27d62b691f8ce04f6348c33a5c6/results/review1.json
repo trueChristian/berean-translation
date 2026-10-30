@@ -1,0 +1,143 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "fdfeb206-1c5e-4bdd-afe2-b5982dd5d17e",
+    "response_id": "chatcmpl-EeVULZh8R42sKP5tFTrhyHCNKEWbK",
+    "usage": {
+      "completion_tokens": 1998,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 118,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8649,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7546,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 10647
+    }
+  },
+  "received_at": "2026-10-30T01:19:48+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "html, första stycket, Matteus 4:18–22",
+        "severity": "major",
+        "source_quote": "mending their nets",
+        "suggested_fix": "Ersätt ”som särade sina nät” med ”som lagade sina nät”.",
+        "translation_quote": "som särade sina nät"
+      },
+      {
+        "location": "html, citatet ur Matteus 3:11–12",
+        "severity": "major",
+        "source_quote": "Whose fan is in his hand, and he will throughly purge his floor, and gather his wheat into the garner; but he will burn up the chaff with unquenchable fire",
+        "suggested_fix": "Ersätt denna del med ”Han har sin kastskovel i handen och ska grundligt rensa sin tröskplats och samla sitt vete i ladan, men agnarna ska han bränna upp i en eld som inte kan släckas”.",
+        "translation_quote": "Hans skovelska är i hans hand, och han skall rensa sin bålgård och samla sin säd i gården; men agnarna skall han bränna upp med oupphörlig eld"
+      },
+      {
+        "location": "html, stycket om Bergspredikan",
+        "severity": "major",
+        "source_quote": "disturbed the apathy of the sinner",
+        "suggested_fix": "Ersätt ”väckte syndarens likgiltighet” med ”ruskade om syndaren i hans likgiltighet”.",
+        "translation_quote": "väckte syndarens likgiltighet"
+      },
+      {
+        "location": "html, Lukas 8:1–3",
+        "severity": "major",
+        "source_quote": "which ministered unto him of their substance",
+        "suggested_fix": "Ersätt ”som tjänade dem av sina ägodelar” med ”som tjänade honom med sina tillgångar”.",
+        "translation_quote": "som tjänade dem av sina ägodelar"
+      },
+      {
+        "location": "html, Lukas 5:21",
+        "severity": "major",
+        "source_quote": "began to reason, saying, Who is this which speaketh blasphemies?",
+        "suggested_fix": "Ersätt ”böro föra en inre debatt och säga: Hvem är denne, som uttrar hädiska ord?” med ”började resonera och sade: Vem är denne som talar hädiska ord?”",
+        "translation_quote": "böro föra en inre debatt och säga: Hvem är denne, som uttrar hädiska ord?"
+      },
+      {
+        "location": "html, stycket som börjar ”Jesu blod”",
+        "severity": "major",
+        "source_quote": "after being empowered through the Holy Spirit",
+        "suggested_fix": "Ersätt ”efter att vi blivit bemyndigade genom den Helige Ande” med ”efter att vi fått kraft genom den helige Ande”. Källan handlar om tillförd kraft, inte om ett bemyndigande.",
+        "translation_quote": "efter att vi blivit bemyndigade genom den Helige Ande"
+      },
+      {
+        "location": "html, stycket om mannen som vägrade bröllopsklädseln",
+        "severity": "major",
+        "source_quote": "Those who came shabbily dressed",
+        "suggested_fix": "Ersätt ”De som kom styvmoderat klädda” med ”De som kom i slitna kläder”.",
+        "translation_quote": "De som kom styvmoderat klädda"
+      },
+      {
+        "location": "html, Efesierbrevet 1:7",
+        "severity": "major",
+        "source_quote": "according to the riches of his grace",
+        "suggested_fix": "Ersätt ”efter den rikes nåd” med ”enligt hans nåds rikedom”.",
+        "translation_quote": "efter den rikes nåd"
+      },
+      {
+        "location": "section",
+        "severity": "major",
+        "source_quote": "The New Testament Church",
+        "suggested_fix": "Översätt sektionsnamnet till ”Den nytestamentliga församlingen”.",
+        "translation_quote": "The New Testament Church"
+      },
+      {
+        "location": "html, stycket direkt efter Matteus 3:11–12",
+        "severity": "minor",
+        "source_quote": "like a winnowing breeze",
+        "suggested_fix": "Ersätt ”som en lösande vind” med ”som en vind som skiljer agnarna från vetet”.",
+        "translation_quote": "som en lösande vind"
+      },
+      {
+        "location": "html, språkformen i bibelcitat och löptext",
+        "severity": "minor",
+        "source_quote": "for they were fishers; And they straightway left their nets; a journey of faith; Simon was a Pharisee who was relying on his own righteousness",
+        "suggested_fix": "Använd samtida svenska konsekvent: ersätt ”de voro fiskare” med ”de var fiskare”, ”De läto genast sina nät” med ”De lämnade genast sina nät”, ”en troens vandring” med ”en vandring i tro” och ”som förlito sig” med ”som förlitade sig”. Modernisera även motsvarande återkommande former som ”eder”, ”icke”, ”äro”, ”hava”, ”skola” och ”kunna”.",
+        "translation_quote": "de voro fiskare; De läto genast sina nät; en troens vandring; Simon var en farisé som förlito sig på sin egen rättfärdighet"
+      },
+      {
+        "location": "html, Romarbrevet 10:3",
+        "severity": "minor",
+        "source_quote": "For they being ignorant of God's righteousness, and going about to establish their own righteousness, have not submitted themselves unto the righteousness of God",
+        "suggested_fix": "Ge meningen ett fullständigt predikat: ”De känner nämligen inte Guds rättfärdighet och försöker upprätta sin egen rättfärdighet, och därför har de inte underordnat sig Guds rättfärdighet”.",
+        "translation_quote": "Ty de, som sakna kunskap om Guds rättfärdighet och, i ett försök att upprätta sin egen rättfärdighet, icke underkastat sig Guds rättfärdighet"
+      },
+      {
+        "location": "html, stycket om den döende Herren",
+        "severity": "minor",
+        "source_quote": "for my sins—for your sins",
+        "suggested_fix": "Ersätt ”for mina synder—for dina synder” med ”för mina synder—för dina synder”.",
+        "translation_quote": "for mina synder—for dina synder"
+      },
+      {
+        "location": "html, stycket som börjar ”Att icke bära bröllopsklädsel”",
+        "severity": "minor",
+        "source_quote": "receive the gracious provision of the king",
+        "suggested_fix": "Ersätt ”mottaga konungens nådiga försyn” med ”ta emot det som kungen i sin nåd tillhandahöll”.",
+        "translation_quote": "mottaga konungens nådiga försyn"
+      },
+      {
+        "location": "html, stycket som börjar ”Vilken vacker liknelse”",
+        "severity": "minor",
+        "source_quote": "His heavenly feast",
+        "suggested_fix": "Ersätt ”sin himmelska gästabud” med ”sitt himmelska gästabud”.",
+        "translation_quote": "sin himmelska gästabud"
+      },
+      {
+        "location": "html, stycket om Topladys hymn",
+        "severity": "minor",
+        "source_quote": "<em>Rock of Ages</em>",
+        "suggested_fix": "Återställ titelns kursivering genom att skriva ”<em>Rock of Ages</em>”.",
+        "translation_quote": "Rock of Ages"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 73
+  }
+}
