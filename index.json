@@ -7908,6 +7908,34 @@
     {
       "ai_notice_required": true,
       "direction": "rtl",
+      "html": "content/ara/articles/b40d86c2-0814-40ea-a893-20dd7fcbdadb.html",
+      "html_sha256": "2701b08c54a2d6134487cb2bca3d01cd3ee0c2fcc843cd927b6e8cd37644dbf7",
+      "human_reviewed": false,
+      "id": "b40d86c2-0814-40ea-a893-20dd7fcbdadb",
+      "images": [
+        {
+          "alt": "ظلال جبال وطيور عند الغسق أسفل نص أفسس 6:11-12",
+          "public_path": "/images/articles/b40d86c2-0814-40ea-a893-20dd7fcbdadb-1.jpg"
+        }
+      ],
+      "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
+      "language": "ara",
+      "language_tag": "ar",
+      "metadata": "content/ara/articles/b40d86c2-0814-40ea-a893-20dd7fcbdadb.json",
+      "metadata_sha256": "645970c85405b4d6d4bbfefeb2d9b760626edf30467812de71d9ce339459b838",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "تَارِيخُ الْكَنِيسَةِ",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "c767adc49633e338375567a05addcb2f986e5c013a016c2592a1cd600a81bb50",
+      "status": "ready",
+      "subtitle": null,
+      "title": "أبطال",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
       "html": "content/ara/articles/b9a7b1b8-0a23-4e53-b835-31bf5a42dc33.html",
       "html_sha256": "7ddc23060a752065c352bab9900697a8eb1635e9d8079e8dd1ebb432d5749299",
       "human_reviewed": false,
@@ -16217,6 +16245,34 @@
       "subtitle": null,
       "title": "裂缝中的喜乐",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/cmn/articles/b40d86c2-0814-40ea-a893-20dd7fcbdadb.html",
+      "html_sha256": "2175773bba5c1416d29bb793520a28bd0bc2ce1d26f9b29a9359605b69d4a232",
+      "human_reviewed": false,
+      "id": "b40d86c2-0814-40ea-a893-20dd7fcbdadb",
+      "images": [
+        {
+          "alt": "以弗所书6:11-12经文下方，暮色中的山脉剪影与鸟群",
+          "public_path": "/images/articles/b40d86c2-0814-40ea-a893-20dd7fcbdadb-1.jpg"
+        }
+      ],
+      "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
+      "language": "cmn",
+      "language_tag": "zh-Hans",
+      "metadata": "content/cmn/articles/b40d86c2-0814-40ea-a893-20dd7fcbdadb.json",
+      "metadata_sha256": "1769263d5b71e4e144c0f007e15f10c5e59480aafe7a85084235d6b8bc162e2c",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "教会历史",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "c767adc49633e338375567a05addcb2f986e5c013a016c2592a1cd600a81bb50",
+      "status": "ready",
+      "subtitle": null,
+      "title": "英雄",
+      "translation_model": "gpt-6.1-sol"
     },
     {
       "ai_notice_required": true,
@@ -36933,6 +36989,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/hin/articles/b40d86c2-0814-40ea-a893-20dd7fcbdadb.html",
+      "html_sha256": "7065ba9c15892885185025ced6c033ef587421d4869ac0ec6e86ad9dfec8b3e2",
+      "human_reviewed": false,
+      "id": "b40d86c2-0814-40ea-a893-20dd7fcbdadb",
+      "images": [
+        {
+          "alt": "इफिसियों 6:11-12 के नीचे संध्या के समय पहाड़ों की छायाकृतियाँ और पक्षी",
+          "public_path": "/images/articles/b40d86c2-0814-40ea-a893-20dd7fcbdadb-1.jpg"
+        }
+      ],
+      "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
+      "language": "hin",
+      "language_tag": "hi",
+      "metadata": "content/hin/articles/b40d86c2-0814-40ea-a893-20dd7fcbdadb.json",
+      "metadata_sha256": "5f40e853527b3c18a3b430901248266437ae4e3315e04e0c8fe8f5836ac85ae3",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "चर्च का इतिहास",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "c767adc49633e338375567a05addcb2f986e5c013a016c2592a1cd600a81bb50",
+      "status": "ready",
+      "subtitle": null,
+      "title": "वीर",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/hin/articles/b5ea052a-167f-45c4-bf40-cd463c4546b6.html",
       "html_sha256": "65976c56396ad87d6a914ce3eaae1666117fc1414b809998dd68c4de40b98303",
       "human_reviewed": false,
@@ -50889,6 +50973,34 @@
       "subtitle": null,
       "title": "켄과 나",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/kor/articles/ad4e2c15-f6ba-4b89-a519-1a36655aa93a.html",
+      "html_sha256": "e6117f38212860ee4d29232ff40035e1c5ec2c6adf3c8801388da514bc26f95e",
+      "human_reviewed": false,
+      "id": "ad4e2c15-f6ba-4b89-a519-1a36655aa93a",
+      "images": [
+        {
+          "alt": "바위들 사이에서 무릎을 꿇고 기도하시는 예수님",
+          "public_path": "/images/articles/ad4e2c15-f6ba-4b89-a519-1a36655aa93a-1.jpg"
+        }
+      ],
+      "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
+      "language": "kor",
+      "language_tag": "ko",
+      "metadata": "content/kor/articles/ad4e2c15-f6ba-4b89-a519-1a36655aa93a.json",
+      "metadata_sha256": "f6820cc08e180dd551472f44d4d9828f078aef1782a6be8ab54cdfa0d80fc5df",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "ed75201a8e3b37913a14f4d949de33a7a0daa2c2",
+      "source_translation_key": "af0a2811aaad8facf9c0fb70e4f79fedbc83ae6bb333beb07b2d95c0bed6e2e6",
+      "status": "ready",
+      "subtitle": null,
+      "title": "불타는 마음을 위한 공식",
+      "translation_model": "gpt-6-luna"
     },
     {
       "ai_notice_required": true,
@@ -65494,6 +65606,34 @@
       "subtitle": "A SÉRIE DO DISCIPULADO",
       "title": "Mulheres de Fé",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/por/articles/b40d86c2-0814-40ea-a893-20dd7fcbdadb.html",
+      "html_sha256": "49fd6517704fcd24263a47f771a3877a6eeb3f1a1e058303ffc390045ea5b8e7",
+      "human_reviewed": false,
+      "id": "b40d86c2-0814-40ea-a893-20dd7fcbdadb",
+      "images": [
+        {
+          "alt": "Silhuetas de montanhas e aves ao anoitecer sob Efésios 6:11-12",
+          "public_path": "/images/articles/b40d86c2-0814-40ea-a893-20dd7fcbdadb-1.jpg"
+        }
+      ],
+      "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
+      "language": "por",
+      "language_tag": "pt",
+      "metadata": "content/por/articles/b40d86c2-0814-40ea-a893-20dd7fcbdadb.json",
+      "metadata_sha256": "beff82e201ce6684a77289c3d6053d98f341bb768a09efb4a46bf1c150a77ba4",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "HISTÓRIA DA IGREJA",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "c767adc49633e338375567a05addcb2f986e5c013a016c2592a1cd600a81bb50",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Heróis",
+      "translation_model": "gpt-6.1-sol"
     },
     {
       "ai_notice_required": true,
