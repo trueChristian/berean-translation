@@ -1,0 +1,6 @@
+{
+  "findings": [],
+  "outcome": "source_error",
+  "reason": "English source changed during downstream recovery",
+  "stage": "terminal"
+}

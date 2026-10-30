@@ -20,6 +20,12 @@
       "event": "automatic_requested",
       "previous_task": "374b006ab9579ba8745cf6414f5b9cb7",
       "task": "f8e2fee63b7c8fcf314a3c03fa584c0e"
+    },
+    {
+      "at": "2026-10-30T11:03:15+00:00",
+      "event": "source_error",
+      "reason": "English source changed during downstream recovery",
+      "task": "f8e2fee63b7c8fcf314a3c03fa584c0e"
     }
   ],
   "language": "ind",
