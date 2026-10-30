@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "6b741e76831c4754bd4f2f6e924d3036",
   "campaign": "auto-d622c8bae0aca17091c7a9185ee2318539b053e0e6955898f65a733a7a34f52a",
   "created_at": "2026-10-29T10:21:38+00:00",
   "events": [
@@ -48,109 +47,31 @@
         },
         "total_tokens": 18893
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 66,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 34,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 10410,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 9307,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 10476
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "translation.html, Luke 14:25-33 quotation",
-      "severity": "major",
-      "source_quote": "And whosoever doth not bear his cross, and come after me ... consulteth whether he be able with ten thousand to meet him ... while the other is yet a great way off",
-      "suggested_fix": "Αποδώστε ολόκληρο το παράθεμα σε σύγχρονα ελληνικά, διατηρώντας τα <em>, <strong>, <u> και την παραπομπή. Ειδικά: «Όποιος δεν <u>σηκώνει τον σταυρό του</u> και δεν με ακολουθεί, <strong>δεν μπορεί να είναι μαθητής μου.</strong>»· «εξετάζει αν μπορεί με δέκα χιλιάδες άντρες να αντιμετωπίσει εκείνον που έρχεται εναντίον του με είκοσι χιλιάδες»· «ενώ ο άλλος βρίσκεται ακόμη πολύ μακριά, στέλνει πρεσβεία και ζητά όρους ειρήνης». Αποδώστε επίσης την αρχή ως «Αν κάποιος έρθει σ’ εμένα και δεν μισεί τον πατέρα του ... ακόμη και την ίδια του τη ζωή» και το τέλος ως «όποιος από εσάς δεν <u>απαρνιέται όλα</u> όσα έχει, <strong>δεν μπορεί να είναι μαθητής μου</strong>».",
-      "translation_quote": "και ελθεί έπεμψάν με ... αν ισχύ εις δέκα χιλιάδας αντλήσει ... Ει όμως έτι απείρου του άλλου"
-    },
-    {
-      "location": "translation.html, 2 Timothy 3:12 quotation",
-      "severity": "major",
-      "source_quote": "Yea, and all that will live godly in Christ Jesus shall suffer persecution",
-      "suggested_fix": "Αντικαταστήστε το κείμενο μέσα στο υπάρχον <em> με: «Ναι, και όλοι όσοι θέλουν να ζουν με ευσέβεια εν Χριστώ Ιησού θα υποστούν διωγμό —2 Τιμοθέου 3:12.»",
-      "translation_quote": "Ναι, και πάντα οι θέλοντες εις ευσέβειαν εν Χριστώ Ιησού διωγμοί υπόξουσιν"
-    },
-    {
-      "location": "translation.html, Mark 15:28 quotation",
-      "severity": "major",
-      "source_quote": "…He was numbered with the transgressors",
-      "suggested_fix": "Αντικαταστήστε με «…Κατατάχθηκε ανάμεσα στους παραβάτες —Μάρκος 15:28.» μέσα στο υπάρχον <em>.",
-      "translation_quote": "…οργανούται με τους παραβάτας"
-    },
-    {
-      "location": "translation.html, Deuteronomy 3:3-6 quotation",
-      "severity": "major",
-      "source_quote": "we smote him ... high walls, gates, and bars; beside unwalled towns a great many ... Sihon king of Heshbon",
-      "suggested_fix": "Αποδώστε το παράθεμα σε σύγχρονα ελληνικά μέσα στο υπάρχον <em>. Διορθώστε συγκεκριμένα σε «τον χτυπήσαμε ώσπου δεν απέμεινε κανείς από τους δικούς του», «Όλες αυτές οι πόλεις ήταν οχυρωμένες με ψηλά τείχη, πύλες και αμπάρες· υπήρχαν επίσης πάρα πολλές ατείχιστες πόλεις» και «όπως κάναμε και στον Σηών, βασιλιά της Εσεβών». Διατηρήστε τις εξήντα πόλεις, τα υπόλοιπα τοπωνύμια, την εξολόθρευση αντρών, γυναικών και παιδιών κάθε πόλης και την παραπομπή 3:3-6.",
-      "translation_quote": "ελαφυραγωγήσαμεν αυτόν ... υψηλάς στοάς και πύλας και πηχάς· ει μη πόλεις άπασαι ατείχιστοι πολλαί ... τον Σιών, βασιλέα της Εσβών"
-    },
-    {
-      "location": "translation.html, Genesis 3:19 quotation",
-      "severity": "major",
-      "source_quote": "for out of it wast thou taken: for dust thou art, and unto dust shalt thou return",
-      "suggested_fix": "Αντικαταστήστε το παράθεμα μέσα στο υπάρχον <em> με: «Με τον ιδρώτα του προσώπου σου θα τρως το ψωμί σου, ώσπου να επιστρέψεις στη γη, γιατί από αυτήν πλάστηκες· σκόνη είσαι και στη σκόνη θα επιστρέψεις —Γένεση 3:19.»",
-      "translation_quote": "αφ εσπού σε εκ της γης· γαρ γη εστίς και εις γην υπάγεις"
-    },
-    {
-      "location": "translation.html, Matthew 16:25 quotation",
-      "severity": "major",
-      "source_quote": "For whosoever will save his life shall lose it: and whosoever will lose his life for my sake shall find it",
-      "suggested_fix": "Αντικαταστήστε μέσα στο υπάρχον <em> με: «Γιατί όποιος θέλει να σώσει τη ζωή του θα τη χάσει· και όποιος χάσει τη ζωή του για χάρη μου θα τη βρει —Ματθαίος 16:25».",
-      "translation_quote": "Ο γαρ θέλων την ψυχήν αυτού σώσει, απολέσει αυτήν· και ο φθείλων την ψυχήν αυτού ένεκεν εμού, ευρήσει αυτήν"
-    },
-    {
-      "location": "translation.html, Acts 21:10-13 quotation",
-      "severity": "major",
-      "source_quote": "he took Paul’s girdle ... So shall the Jews at Jerusalem bind the man that owneth this girdle",
-      "suggested_fix": "Αντικαταστήστε το αλλοιωμένο παράθεμα, διατηρώντας το <em> και την παραπομπή, με: «Καθώς μέναμε εκεί αρκετές ημέρες, κατέβηκε από την Ιουδαία ένας προφήτης που λεγόταν Άγαβος. Όταν ήρθε σ’ εμάς, πήρε τη ζώνη του Παύλου, έδεσε τα δικά του χέρια και πόδια και είπε: Αυτά λέει το Άγιο Πνεύμα: Έτσι θα δέσουν οι Ιουδαίοι στην Ιερουσαλήμ τον άνθρωπο στον οποίο ανήκει αυτή η ζώνη και θα τον παραδώσουν στα χέρια των εθνικών. Όταν τα ακούσαμε αυτά, τόσο εμείς όσο και οι άνθρωποι του τόπου τον παρακαλούσαμε να μην ανέβει στην Ιερουσαλήμ. Τότε ο Παύλος απάντησε: Γιατί κλαίτε και μου ραγίζετε την καρδιά; Εγώ είμαι έτοιμος όχι μόνο να δεθώ, αλλά και να πεθάνω στην Ιερουσαλήμ για το όνομα του Κυρίου Ιησού. —Πράξεις 21:10-13.»",
-      "translation_quote": "λαβών τον θυρεόν του Παύλου ... δεσμοίς δεσμάσουσιν τους Ιουδαίους ... τον άνθρωπον τον ουχ ονεί αυτόν τον θυρεόν"
-    },
-    {
-      "location": "translation.title; translation.section",
-      "severity": "major",
-      "source_quote": "If you love your life…; Musings of a Missionary",
-      "suggested_fix": "Μεταφράστε τον τίτλο ως «Αν αγαπάς τη ζωή σου…» και την ενότητα ως «Στοχασμοί ενός ιεραποστόλου».",
-      "translation_quote": "If you love your life…; Musings of a Missionary"
-    },
-    {
-      "location": "translation.html, paragraph beginning «Μπορείς να πας στους χαμένους»",
-      "severity": "major",
-      "source_quote": "will only go to the mission field if they can take their comforts with them",
-      "suggested_fix": "Αντικαταστήστε το «στο mission field» με «στο πεδίο της ιεραποστολής».",
-      "translation_quote": "θα πάνε στο mission field μόνο αν μπορούν να πάρουν τις ανέσεις τους μαζί τους"
-    },
-    {
-      "location": "translation.html, same missionary paragraph",
-      "severity": "major",
-      "source_quote": "despite their best efforts ... teach and disciple the tens of thousands who are seeking",
-      "suggested_fix": "Αντικαταστήστε το «παρά τις καλές τους προθέσεις» με «παρά τις καλύτερες προσπάθειές τους» και το «να διδάξουμε και να μαθητεύσουμε τις δεκάδες χιλιάδες που αναζητούν» με «να διδάξουμε τις δεκάδες χιλιάδες που αναζητούν και να τις καθοδηγήσουμε ως μαθητές του Χριστού».",
-      "translation_quote": "παρά τις καλές τους προθέσεις ... να διδάξουμε και να μαθητεύσουμε τις δεκάδες χιλιάδες που αναζητούν"
-    },
-    {
-      "location": "translation.html, paragraph following Acts quotation",
-      "severity": "major",
-      "source_quote": "Did they shake their heads and say, “I told him not to go!”?",
-      "suggested_fix": "Αντικαταστήστε με «Κούνησαν αποδοκιμαστικά το κεφάλι και είπαν: “Του είπα να μην πάει!”;»",
-      "translation_quote": "Έκρουσαν τα κεφάλια τους και είπαν, «Σου είπα να μην πας!»;"
-    },
-    {
-      "location": "translation.html, poem, second stanza; final paragraph",
-      "severity": "major",
-      "source_quote": "And end the night of wrong. ... the fires of revival will once again burn!",
-      "suggested_fix": "Στον στίχο χρησιμοποιήστε «Και βάλτε τέλος στη νύχτα του κακού.» και στην κατακλείδα «και οι φωτιές της πνευματικής αναζωπύρωσης θα ανάψουν και πάλι!», διατηρώντας τη δομή HTML.",
-      "translation_quote": "Και τελειώστε τη νύχτα του σφάλματος. ... οι φωτιές της ανανέωσης θα καούν και πάλι!"
-    },
-    {
-      "location": "translation.html, 1 John 2:6; John 12:25; James 4:14; Mark 16:15; Philippians 1:21 quotations",
-      "severity": "minor",
-      "source_quote": "He that saith he abideth in him ... He that loveth his life ... a vapour, that appeareth for a little time, and then vanisheth away ... Go ye into all the world ... For to me to live is Christ",
-      "suggested_fix": "Χρησιμοποιήστε σύγχρονα ελληνικά μέσα στα υπάρχοντα <em>, διατηρώντας τις παραπομπές: «Όποιος λέει ότι μένει ενωμένος μαζί του οφείλει και ο ίδιος να ζει όπως έζησε εκείνος —1 Ιωάννου 2:6.»· «Όποιος αγαπά τη ζωή του θα τη χάσει· και όποιος μισεί τη ζωή του σε αυτόν τον κόσμο θα τη διατηρήσει για την αιώνια ζωή —Ιωάννης 12:25.»· «Δεν ξέρετε τι θα συμβεί αύριο. Γιατί τι είναι η ζωή σας; Είναι ένας ατμός που εμφανίζεται για λίγο και ύστερα εξαφανίζεται —Ιάκωβος 4:14.»· «…Πηγαίνετε σε όλο τον κόσμο και κηρύξτε το ευαγγέλιο σε όλη την κτίση —Μάρκος 16:15.»· «Για μένα το να ζω είναι Χριστός και το να πεθάνω είναι κέρδος —Φιλιππησίους 1:21.»",
-      "translation_quote": "Ο λεγών ότι εν αυτώ μένει ... Ο αγαπών την ψυχήν αυτού ... ατμία εστίν, η φαντάζει διά μικρόν και μετά φθείρεται ... κηρύξατε το ευαγγέλιο πάση τη κτίσει ... Εμοί γαρ το ζην Χριστός"
-    },
-    {
-      "location": "translation.html, Haiti anecdote; coworker anecdote",
-      "severity": "minor",
-      "source_quote": "People by the hundreds ... Interestingly enough, he truly did seem happy. ... far from reaching him",
-      "suggested_fix": "Διορθώστε αντίστοιχα σε «Εκατοντάδες άνθρωποι», «Το ενδιαφέρον είναι ότι πράγματι φαινόταν ευτυχισμένος» και «απείχα πολύ από το να τον πείσω».",
-      "translation_quote": "Άνθρωποι εκατοντάδων ... Παρ’ όλα αυτά, φαίνεται πραγματικά ευτυχισμένος. ... ήμουν μακριά από να τον φτάσω"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-30T00:53:09+00:00",
   "id": "0572fa30d3655e13ee922c1a0e1cad25",
   "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
   "language": "ell",
@@ -239,7 +160,7 @@
     }
   },
   "protected": false,
-  "quality_score": 62,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6.1-sol",
@@ -258,7 +179,7 @@
     "total_reserved_usd": 0.787772,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "c2cade59cf352799776fd92a600c879eb44ca1d1a7d3f31107b23708781aed47",
   "translation_model_actual": "gpt-6.1-sol"
