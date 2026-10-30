@@ -5,11 +5,68 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "20357cb7d4c347ada424ea62757a79de",
   "campaign": "auto-6ebd004e91ee33cd8766200750631b9da97d9a9ed1798c82ee33920d1ef2d29f",
   "created_at": "2026-10-30T02:46:58+00:00",
-  "events": [],
-  "findings": [],
+  "events": [
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1051,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 97,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4495,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 3392,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 5546
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "html, παράγραφος 4, παράθεμα Πράξεις 17:24-25",
+      "severity": "major",
+      "source_quote": "God that made the world and all things therein ... dwelleth not in temples made with hands; Neither is worshipped with men’s hands",
+      "suggested_fix": "Αντικαταστήστε το κείμενο μέσα στο υπάρχον <em> με: «—Ο Θεός που δημιούργησε τον κόσμο και όλα όσα υπάρχουν σε αυτόν, καθώς είναι Κύριος του ουρανού και της γης, δεν κατοικεί σε ναούς φτιαγμένους από ανθρώπινα χέρια· ούτε λατρεύεται από ανθρώπινα χέρια σαν να είχε ανάγκη από κάτι, αφού ο ίδιος δίνει σε όλους ζωή και πνοή και τα πάντα —Πράξεις 17:24-25.»",
+      "translation_quote": "ὁ ποιήσας τὸν κόσμον ... οὐ κοιμᾶται ἐν χειροποιΐαις ναοῖς· οὐδὲ ἔστιν ὑπὸ ἄνθρωπων προσκυνούμενος"
+    },
+    {
+      "location": "html, παράγραφος 5, παράθεμα 2 Τιμόθεο 3:13-17",
+      "severity": "minor",
+      "source_quote": "knowing of whom thou hast learned them ... All scripture is given by inspiration of God ... That the man of God may be perfect",
+      "suggested_fix": "Αποδώστε το παράθεμα σε συνεπή σύγχρονη ελληνική γλώσσα. Ειδικότερα, αντικαταστήστε το «γνώριζε από ποιόν τα έμαθες» με «γνωρίζοντας από ποιον τα έμαθες» και το τμήμα από «τα οποία δύνανται» έως «κάθε καλό έργο» με «που μπορούν να σε κάνουν σοφό για τη σωτηρία μέσω της πίστης στον Χριστό Ιησού. Όλη η Γραφή είναι θεόπνευστη και ωφέλιμη για διδασκαλία, για έλεγχο, για διόρθωση και για εκπαίδευση στη δικαιοσύνη, ώστε ο άνθρωπος του Θεού να είναι ολοκληρωμένος, πλήρως εξοπλισμένος για κάθε καλό έργο». Διατηρήστε την αναφορά και το στοιχείο <em>.",
+      "translation_quote": "γνώριζε από ποιόν τα έμαθες ... τα οποία δύνανται ... διά πίστεως εν Χριστώ Ιησού· πάσα γραφή θεόπνευστος ... προς επανόρθωσιν ... ίνα ο άνθρωπος του Θεού είναι τέλειος"
+    },
+    {
+      "location": "html, παράγραφος 7, θεολογική ορολογία",
+      "severity": "minor",
+      "source_quote": "the controversial subjects of divine election and predestination",
+      "suggested_fix": "Αντικαταστήστε το «της θείας εκλογής και της προοριστικής προκαθοριστικότητας» με «της θείας εκλογής και του προορισμού».",
+      "translation_quote": "της θείας εκλογής και της προοριστικής προκαθοριστικότητας"
+    },
+    {
+      "location": "title",
+      "severity": "minor",
+      "source_quote": "From the Editor",
+      "suggested_fix": "Από τον Συντάκτη",
+      "translation_quote": "Από τον Σύντακτη"
+    },
+    {
+      "location": "html, παράγραφος 9, τελευταία πρόταση",
+      "severity": "minor",
+      "source_quote": "We welcome this to continue.",
+      "suggested_fix": "Αντικαταστήστε την τελευταία πρόταση με «Θα χαρούμε να συνεχίσετε να μας στέλνετε τέτοιες προτάσεις.»",
+      "translation_quote": "Καλωσορίζουμε τη συνέχισή αυτού."
+    }
+  ],
   "id": "fe6d5b3f234d326e7ca3f5d2c2ea5f94",
   "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
   "language": "ell",
@@ -98,11 +155,13 @@
     }
   },
   "protected": false,
+  "quality_score": 90,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/0d188eedb4a6b0936348346a7bbb1d6ba410af25119039e27c08f30a398b9e61.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "review1",
     "max_candidate_bytes": 120000,
@@ -115,7 +174,7 @@
     "total_reserved_usd": 0.713501,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 0,
   "translation_key": "2b4f275d7b7ba8096cb0ab03fead7b5dd10aa236b7e3bc6ad2626bd76b72e500",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

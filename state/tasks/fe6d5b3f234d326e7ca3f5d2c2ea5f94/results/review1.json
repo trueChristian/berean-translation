@@ -1,0 +1,66 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "8abc2d09-43d6-4dfb-ad98-e313ce8dea6b",
+    "response_id": "chatcmpl-EeX1Q1QLXEtR7I4tasjhtyCOLRJg1",
+    "usage": {
+      "completion_tokens": 1051,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 97,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4495,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3392,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 5546
+    }
+  },
+  "received_at": "2026-10-30T02:58:17+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "html, παράγραφος 4, παράθεμα Πράξεις 17:24-25",
+        "severity": "major",
+        "source_quote": "God that made the world and all things therein ... dwelleth not in temples made with hands; Neither is worshipped with men’s hands",
+        "suggested_fix": "Αντικαταστήστε το κείμενο μέσα στο υπάρχον <em> με: «—Ο Θεός που δημιούργησε τον κόσμο και όλα όσα υπάρχουν σε αυτόν, καθώς είναι Κύριος του ουρανού και της γης, δεν κατοικεί σε ναούς φτιαγμένους από ανθρώπινα χέρια· ούτε λατρεύεται από ανθρώπινα χέρια σαν να είχε ανάγκη από κάτι, αφού ο ίδιος δίνει σε όλους ζωή και πνοή και τα πάντα —Πράξεις 17:24-25.»",
+        "translation_quote": "ὁ ποιήσας τὸν κόσμον ... οὐ κοιμᾶται ἐν χειροποιΐαις ναοῖς· οὐδὲ ἔστιν ὑπὸ ἄνθρωπων προσκυνούμενος"
+      },
+      {
+        "location": "html, παράγραφος 5, παράθεμα 2 Τιμόθεο 3:13-17",
+        "severity": "minor",
+        "source_quote": "knowing of whom thou hast learned them ... All scripture is given by inspiration of God ... That the man of God may be perfect",
+        "suggested_fix": "Αποδώστε το παράθεμα σε συνεπή σύγχρονη ελληνική γλώσσα. Ειδικότερα, αντικαταστήστε το «γνώριζε από ποιόν τα έμαθες» με «γνωρίζοντας από ποιον τα έμαθες» και το τμήμα από «τα οποία δύνανται» έως «κάθε καλό έργο» με «που μπορούν να σε κάνουν σοφό για τη σωτηρία μέσω της πίστης στον Χριστό Ιησού. Όλη η Γραφή είναι θεόπνευστη και ωφέλιμη για διδασκαλία, για έλεγχο, για διόρθωση και για εκπαίδευση στη δικαιοσύνη, ώστε ο άνθρωπος του Θεού να είναι ολοκληρωμένος, πλήρως εξοπλισμένος για κάθε καλό έργο». Διατηρήστε την αναφορά και το στοιχείο <em>.",
+        "translation_quote": "γνώριζε από ποιόν τα έμαθες ... τα οποία δύνανται ... διά πίστεως εν Χριστώ Ιησού· πάσα γραφή θεόπνευστος ... προς επανόρθωσιν ... ίνα ο άνθρωπος του Θεού είναι τέλειος"
+      },
+      {
+        "location": "html, παράγραφος 7, θεολογική ορολογία",
+        "severity": "minor",
+        "source_quote": "the controversial subjects of divine election and predestination",
+        "suggested_fix": "Αντικαταστήστε το «της θείας εκλογής και της προοριστικής προκαθοριστικότητας» με «της θείας εκλογής και του προορισμού».",
+        "translation_quote": "της θείας εκλογής και της προοριστικής προκαθοριστικότητας"
+      },
+      {
+        "location": "title",
+        "severity": "minor",
+        "source_quote": "From the Editor",
+        "suggested_fix": "Από τον Συντάκτη",
+        "translation_quote": "Από τον Σύντακτη"
+      },
+      {
+        "location": "html, παράγραφος 9, τελευταία πρόταση",
+        "severity": "minor",
+        "source_quote": "We welcome this to continue.",
+        "suggested_fix": "Αντικαταστήστε την τελευταία πρόταση με «Θα χαρούμε να συνεχίσετε να μας στέλνετε τέτοιες προτάσεις.»",
+        "translation_quote": "Καλωσορίζουμε τη συνέχισή αυτού."
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 90
+  }
+}
