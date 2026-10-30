@@ -1,0 +1,87 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "9a4b1fe9-c000-462f-8536-048f98d5e3bb",
+    "response_id": "chatcmpl-Een1z7tFswm0ePcARUMEczAGcRQD5",
+    "usage": {
+      "completion_tokens": 1083,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 81,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5029,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3926,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 6112
+    }
+  },
+  "received_at": "2026-10-30T20:01:38+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "html، الفقرتان الثالثة والرابعة",
+        "severity": "major",
+        "source_quote": "assisting in his calling of being a pastor and other ministerial duties; he was chosen minister of the Church of Scotland",
+        "suggested_fix": "استبدل «مساعدًا في رسالته كراعٍ وواجباته الوزارية الأخرى» بـ«مُعينةً إياه في دعوته راعيًا وفي واجباته الرعوية الأخرى»، واستبدل «اختير وزيرًا لكنيسة أسكتلندا» بـ«اختير راعيًا لكنيسة اسكتلندا».",
+        "translation_quote": "مساعدًا في رسالته كراعٍ وواجباته الوزارية الأخرى؛ اختير وزيرًا لكنيسة أسكتلندا"
+      },
+      {
+        "location": "html، الفقرة الرابعة، الجملة الأخيرة",
+        "severity": "major",
+        "source_quote": "Many families came to spend the summer there chiefly to be inspired by his preaching ministry.",
+        "suggested_fix": "استبدل الجملة بـ«كانت عائلات كثيرة تأتي لقضاء الصيف هناك، أساسًا لتستلهم من خدمته الوعظية.»",
+        "translation_quote": "جاؤوا إلى هناك كثيرًا لقضاء الصيف بشكل رئيسي ليستنشقوا الإلهام من خدمته الوعظية."
+      },
+      {
+        "location": "html، الفقرة الأولى",
+        "severity": "minor",
+        "source_quote": "the 19<sup>th</sup> century",
+        "suggested_fix": "احذف اللاحقة الإنجليزية من محتوى الوسم مع إبقاء بنيته: «القرن التاسع عشر<sup></sup>».",
+        "translation_quote": "القرن التاسع عشر<sup>th</sup>"
+      },
+      {
+        "location": "html، الفقرة الثانية والفقرة الثامنة والاقتباس في الفقرة التاسعة",
+        "severity": "minor",
+        "source_quote": "his eyesight continued to fail rapidly; Dr. Matheson did relate an account; than of working it out myself",
+        "suggested_fix": "صحّح المواضع إلى «استمر بصره في التدهور بسرعة»، و«روى الدكتور ماثيسون»، و«لا أنني كتبتها بنفسي»، على الترتيب.",
+        "translation_quote": "استمرت بصره في التدهور بسرعة؛ رواى الدكتور ماثيسون؛ لا أنني كتبها بنفسي"
+      },
+      {
+        "location": "html، الفقرة السابعة",
+        "severity": "minor",
+        "source_quote": "the “flickering torch”",
+        "suggested_fix": "استبدل «المشعل المتلألئ» بـ«المشعل المتذبذب اللهب» لإبراز اضطراب الضوء الذي يستشهد به النص علامةً على الحزن.",
+        "translation_quote": "«المشعل المتلألئ»"
+      },
+      {
+        "location": "html، الاقتباس في الفقرة التاسعة",
+        "severity": "minor",
+        "source_quote": "All the other verses I have ever written are manufactured articles",
+        "suggested_fix": "استبدل «كل الأبيات الأخرى التي كتبتها هي مقالات مصنعة» بـ«كل الأبيات الأخرى التي كتبتها هي أعمال مصنوعة بتكلّف». المقصود تشبيه الأبيات بمنتجات مصنوعة، لا وصفها بأنها مقالات.",
+        "translation_quote": "كل الأبيات الأخرى التي كتبتها هي مقالات مصنعة"
+      },
+      {
+        "location": "html، فقرة المراجع",
+        "severity": "minor",
+        "source_quote": "Author; Composer",
+        "suggested_fix": "ترجم تسميتي الدورين فقط إلى «المؤلف» و«الملحن»، مع إبقاء الأسماء والتواريخ ووسوم HTML والمسافات غير القابلة للكسر كما هي.",
+        "translation_quote": "Author; Composer"
+      },
+      {
+        "location": "title",
+        "severity": "minor",
+        "source_quote": "O Love That Wilt Not Let Me Go",
+        "suggested_fix": "عدّل العنوان إلى «يا أيتها المحبة التي لا تتركني» لتصحيح تركيب النداء.",
+        "translation_quote": "يا محبة التي لا تتركني"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 90
+  }
+}
