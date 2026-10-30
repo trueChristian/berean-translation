@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Библейская цитата, Иез. 3:11",
+      "severity": "major",
+      "source_quote": "“Go, get thee to them of the captivity, unto the children of thy people, and speak to them.”",
+      "suggested_fix": "Заменить «к переселенцам» на «к пленникам» или «к находящимся в плену», чтобы передать смысл captivity.",
+      "translation_quote": "«Иди же к переселенцам, к сынам народа твоего, и говори им»."
+    },
+    {
+      "location": "Библейская цитата, Деян. 28:30",
+      "severity": "major",
+      "source_quote": "“And Paul dwelt two whole years in his own hired house, and received all that came in unto him.”",
+      "suggested_fix": "Передать hired house как «снятом доме» или «арендованном доме», например: «И жил Павел целых два года в снятом доме и принимал всех приходивших к нему».",
+      "translation_quote": "«И жил Павел целых два года на своём иждивении и принимал всех приходивших к нему»."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
