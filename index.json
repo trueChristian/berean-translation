@@ -666,6 +666,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/afr/articles/1f294c3b-4295-4493-8a52-a33af40f298b.html",
+      "html_sha256": "c519d7d2b91bee4f7d60c84d20985883f0c5e15c850d1d03e15819d505baca39",
+      "human_reviewed": false,
+      "id": "1f294c3b-4295-4493-8a52-a33af40f298b",
+      "images": [
+        {
+          "alt": "Watervalle gesien vanaf ’n rotsagtige uitkykpunt met verskeie mense.",
+          "public_path": "/images/articles/1f294c3b-4295-4493-8a52-a33af40f298b-1.jpg"
+        }
+      ],
+      "issue_id": "07955de4-6574-4a4b-9c1b-f216374c02ee",
+      "language": "afr",
+      "language_tag": "af",
+      "metadata": "content/afr/articles/1f294c3b-4295-4493-8a52-a33af40f298b.json",
+      "metadata_sha256": "c3bd3c26f76ecf1f877eaaaada7faf8ad4f0a44fb6392c4e944b7f1ad13a46d5",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "ed75201a8e3b37913a14f4d949de33a7a0daa2c2",
+      "source_translation_key": "b131164df71ee22a3a3eb4a9ab6c3e18fe2ffde3578cd909fb61036b7ebb19d8",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Verby die Verlossingspunt",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/afr/articles/201a1b3e-85b3-4e62-bc45-118a8c1f5367.html",
       "html_sha256": "3538d37a25a4b2a1c3d32a125c356e0fba884134baa899d08b49125dddc05403",
       "human_reviewed": false,
@@ -16944,6 +16972,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/cmn/articles/f09d8cd5-b48f-470f-936f-263e6940b6bd.html",
+      "html_sha256": "cc59ee5e6cce947c81607d61ee076d9324d29de46705171b1d572e87adfbd745",
+      "human_reviewed": false,
+      "id": "f09d8cd5-b48f-470f-936f-263e6940b6bd",
+      "images": [
+        {
+          "alt": "《齐颂耶稣圣名大能》乐谱，曲调 DIADEM，普通格律，含副歌",
+          "public_path": "/images/articles/f09d8cd5-b48f-470f-936f-263e6940b6bd-1.png"
+        }
+      ],
+      "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
+      "language": "cmn",
+      "language_tag": "zh-Hans",
+      "metadata": "content/cmn/articles/f09d8cd5-b48f-470f-936f-263e6940b6bd.json",
+      "metadata_sha256": "0c8864e63b38d0a16585f0c3353240e2e6117d5ea51dd4159ed08314eb615b84",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "圣诗史话",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "47590defb50af0ad3c498d9cc77626f00551d9639dd8391778097cb5eb70f00a",
+      "status": "ready",
+      "subtitle": null,
+      "title": "齐颂耶稣圣名大能",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/cmn/articles/f21c4f39-9508-4f75-9e0c-0c68468c41f8.html",
       "html_sha256": "ace0d35be02931e6d280365306b7229c9e53cc0c4d5d8d4051c46acd5a3ea2a1",
       "human_reviewed": false,
@@ -22259,6 +22315,29 @@
       "subtitle": "Μια εξήγηση της έννοιας της γερμανικής λέξης Gelassenheit.",
       "title": "Gelassenheit—Η εκούσια αποδέσμευση",
       "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/ell/articles/51e3c3a2-bccc-462c-9ae7-8f232752fbc0.html",
+      "html_sha256": "3a1dc6061734471ae9f3fc07587bf81bd0c9c99595976525d803173db639933c",
+      "human_reviewed": false,
+      "id": "51e3c3a2-bccc-462c-9ae7-8f232752fbc0",
+      "images": [],
+      "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
+      "language": "ell",
+      "language_tag": "el",
+      "metadata": "content/ell/articles/51e3c3a2-bccc-462c-9ae7-8f232752fbc0.json",
+      "metadata_sha256": "05e55add004ae1627759a6d6e4255da5098205dd9a4c6a92ea00ac099ed09e8b",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "Στοχασμοί ενός ιεραποστόλου",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "c2cade59cf352799776fd92a600c879eb44ca1d1a7d3f31107b23708781aed47",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Αν αγαπάς τη ζωή σου…",
+      "translation_model": "gpt-6.1-sol"
     },
     {
       "ai_notice_required": true,
@@ -27778,6 +27857,34 @@
       "subtitle": null,
       "title": "Soyez reconnaissants",
       "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/fra/articles/8aa76d0a-4ff5-403e-a366-7d6b8fe26924.html",
+      "html_sha256": "b928f57dc9d1d15552343cdfba8f2e24741de84bbb46e2e02ea8798ae725160c",
+      "human_reviewed": false,
+      "id": "8aa76d0a-4ff5-403e-a366-7d6b8fe26924",
+      "images": [
+        {
+          "alt": "Gravure représentant Acan en train de prendre du butin pendant une bataille",
+          "public_path": "/images/articles/8aa76d0a-4ff5-403e-a366-7d6b8fe26924-1.jpg"
+        }
+      ],
+      "issue_id": "1933c1f0-be1f-561a-b470-79a5ced64c04",
+      "language": "fra",
+      "language_tag": "fr",
+      "metadata": "content/fra/articles/8aa76d0a-4ff5-403e-a366-7d6b8fe26924.json",
+      "metadata_sha256": "3b21274f7c2326a17428fdc1152da9e5ce5fbac296a9297e4e3f60e976329c20",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "Inspirations pour les jeunes",
+      "source_revision": "22388745ad7f149609e65f5e28cfcc1257cd689e",
+      "source_translation_key": "edc5d2d663c19be2cb124ae52e26f6267714a265b8d47257698c5fa0843e0c53",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Les désirs de ton cœur",
+      "translation_model": "gpt-6.1-sol"
     },
     {
       "ai_notice_required": true,
@@ -75635,6 +75742,29 @@
       "subtitle": null,
       "title": "Uaminifu wa Mungu Unaonekana Hata Katika Laana",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/swa/articles/22957e4c-ccce-4a76-b982-60e61ec6b998.html",
+      "html_sha256": "a78fe526fbf81d02b237d9bf3b96037679e5037c5165490687ea3baa3e6ad91a",
+      "human_reviewed": false,
+      "id": "22957e4c-ccce-4a76-b982-60e61ec6b998",
+      "images": [],
+      "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
+      "language": "swa",
+      "language_tag": "sw",
+      "metadata": "content/swa/articles/22957e4c-ccce-4a76-b982-60e61ec6b998.json",
+      "metadata_sha256": "b26cb5f975d4048b82b053891d3c83c9745fd2d33ffd43716d16447d71040955",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "HISTORIA YA KANISA",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "0ec18dc4a4b289e72e00424bde99770f0dbc52c0ceb26b1a16a8b4b40097dc16",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Nero: Maisha ya Mfalme",
+      "translation_model": "gpt-6.1-sol"
     },
     {
       "ai_notice_required": true,
