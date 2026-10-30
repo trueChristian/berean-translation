@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "fef24326-67b1-46f1-a632-8a3141e3be9d",
+    "response_id": "chatcmpl-EeetNzcpjpSbtKnxhO04zQ06Iu4Cy",
+    "usage": {
+      "completion_tokens": 954,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 794,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4360,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3257,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 5314
+    }
+  },
+  "received_at": "2026-10-30T14:04:30+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Final paragraph",
+        "severity": "major",
+        "source_quote": "And who can tell how far it may spread?",
+        "suggested_fix": "Na ni nani ajuaye uamsho huo unaweza kuenea kwa kiwango gani?",
+        "translation_quote": "Na ni nani ajuaye utaenea kwa kiwango gani?"
+      },
+      {
+        "location": "Heading 5",
+        "severity": "minor",
+        "source_quote": "Make Restitution Wherever Possible.",
+        "suggested_fix": "Rekebisha makosa na ufanye marejesho pale inapowezekana.",
+        "translation_quote": "Fanya marekebisho na ulipize pale inapowezekana."
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 93
+  }
+}

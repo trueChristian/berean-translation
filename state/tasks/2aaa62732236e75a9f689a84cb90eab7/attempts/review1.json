@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-30T14:04:30+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Final paragraph\",\"severity\":\"major\",\"source_quote\":\"And who can tell how far it may spread?\",\"suggested_fix\":\"Na ni nani ajuaye uamsho huo unaweza kuenea kwa kiwango gani?\",\"translation_quote\":\"Na ni nani ajuaye utaenea kwa kiwango gani?\"},{\"location\":\"Heading 5\",\"severity\":\"minor\",\"source_quote\":\"Make Restitution Wherever Possible.\",\"suggested_fix\":\"Rekebisha makosa na ufanye marejesho pale inapowezekana.\",\"translation_quote\":\"Fanya marekebisho na ulipize pale inapowezekana.\"}],\"findings_complete\":true,\"passed\":false,\"score\":93}",
+    "content_bytes": 561,
+    "content_evidence_truncated": false,
+    "content_sha256": "c231b2040c2b02b5250ba1ee3304f8e5b30f12490a2506c9c66f5b878b1b39d2",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 954,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 794,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4360,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3257,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 5314
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

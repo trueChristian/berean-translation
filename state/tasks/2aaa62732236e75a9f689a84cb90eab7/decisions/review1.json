@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Final paragraph",
+      "severity": "major",
+      "source_quote": "And who can tell how far it may spread?",
+      "suggested_fix": "Na ni nani ajuaye uamsho huo unaweza kuenea kwa kiwango gani?",
+      "translation_quote": "Na ni nani ajuaye utaenea kwa kiwango gani?"
+    },
+    {
+      "location": "Heading 5",
+      "severity": "minor",
+      "source_quote": "Make Restitution Wherever Possible.",
+      "suggested_fix": "Rekebisha makosa na ufanye marejesho pale inapowezekana.",
+      "translation_quote": "Fanya marekebisho na ulipize pale inapowezekana."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
