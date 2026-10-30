@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "a9bfa57e32c74949937d0a58ba4f1201",
   "campaign": "auto-222bc371523c0aaa537abf064f2e51f23ee9c7ba83c88ee40f1982073de7dadd",
   "created_at": "2026-10-29T20:29:54+00:00",
   "events": [
@@ -68,53 +67,47 @@
         },
         "total_tokens": 16719
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1026,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 714,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 10792,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 9689,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 11818
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; a recovery continuation must pass admission",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "ছোটবেলায় বন্দিদের শিকল পরানোর ঘটনা",
+      "location": "Article body, paragraph beginning “তিনি গভীরভাবে বিচলিত হয়ে”; Ezekiel 3:11 quotation",
       "severity": "major",
-      "source_quote": "“the smith welding red-hot irons on a group of prisoners”",
-      "suggested_fix": "“একদল বন্দির জন্য কামারকে লাল-গরম লোহার বেড়ি জোড়া লাগাতে দেখেছিলেন”",
-      "translation_quote": "“এক কামার বন্দিদের একটি দলকে লাল-গরম লোহা দিয়ে শিকল পরাচ্ছেন”"
+      "source_quote": "“Go, get thee to them of the captivity, unto the children of thy people, and speak to them.”",
+      "suggested_fix": "যিহিষ্কেল ৩:১১-এর উদ্ধৃতিতে সম্বোধন ও নির্দেশটি পূর্ণভাবে দিন, যেমন: “যাও, বন্দিদের কাছে যাও—তোমার স্বজাতির লোকদের কাছে—এবং তাদের সঙ্গে কথা বলো।”",
+      "translation_quote": "“যাও, তোমার স্বজাতির বন্দিদের কাছে যাও।”"
     },
     {
-      "location": "যিরমিয় ১:৬-এর উদ্ধৃতি",
-      "severity": "major",
-      "source_quote": "“Behold, I cannot speak; for I am a child.”",
-      "suggested_fix": "“দেখুন, আমি কথা বলতে পারি না; কারণ আমি শিশু।”",
-      "translation_quote": "“দেখুন, আমি কথা বলতে জানি না; কারণ আমি বালক।”"
-    },
-    {
-      "location": "যিরমিয় ১:৬-এর উদ্ধৃতি",
-      "severity": "major",
-      "source_quote": "“thou shalt go to all that I shall send thee”",
-      "suggested_fix": "“আমি যাদের কাছে তোমাকে পাঠাব, তাদের সকলের কাছে তুমি যাবে”",
-      "translation_quote": "“আমি যাদের কাছে তোমাকে পাঠাব, তাদের সকলের কাছে তুমি যাবে”"
-    },
-    {
-      "location": "যিহিষ্কেল ৩:১১-এর উদ্ধৃতি",
-      "severity": "major",
-      "source_quote": "“Go, get thee to them of the captivity, unto the children of thy people”",
-      "suggested_fix": "“যাও, তোমার স্বজাতির বন্দিদের কাছে যাও”",
-      "translation_quote": "“যাও, তোমার স্বজাতির বন্দিদের কাছে গিয়ে তাদের সঙ্গে কথা বলো”"
-    },
-    {
-      "location": "ব্রোচের শিলালিপি",
-      "severity": "major",
-      "source_quote": "“Anno ja Rauha, ‘Grace and Peace.’”",
-      "suggested_fix": "“আন্নো জা রাউহা, ‘অনুগ্রহ ও শান্তি।’”",
-      "translation_quote": "“আন্নো জা রাউহা, ‘অনুগ্রহ ও শান্তি।’”"
-    },
-    {
-      "location": "বন্দির তৈরি ব্রোচের বর্ণনা",
-      "severity": "major",
+      "location": "Article body, paragraph beginning “কিছুদিন পরে তিনি আবার তাকে দেখতে গেলেন”; prisoner’s speech about the bone brooch",
+      "severity": "minor",
       "source_quote": "“The sun of His love can consume all my sins as the power of sunshine has cleansed this bone.”",
-      "suggested_fix": "“তাঁর প্রেমের সূর্য আমার সব পাপ পুড়িয়ে ফেলতে পারে, যেমন রোদের শক্তি এই হাড়ের সব চর্বি শুকিয়ে পরিষ্কার করেছে।”",
-      "translation_quote": "“তাঁর প্রেমের সূর্য আমার সব পাপ পুড়িয়ে ফেলতে পারে, যেমন সূর্যের আলো এই হাড়কে পরিষ্কার করেছে।”"
+      "suggested_fix": "“তাঁর প্রেমের সূর্য আমার সব পাপ গ্রাস করতে পারে, যেমন সূর্যালোকের শক্তি এই হাড়টিকে পরিষ্কার করেছে।”",
+      "translation_quote": "“তাঁর প্রেমের সূর্য আমার সব পাপ গ্রাস করতে পারে, যেমন সূর্যের আলোর শক্তি এই হাড়ের চর্বি পরিষ্কার করেছে।”"
     }
   ],
+  "finished_at": "2026-10-30T14:04:44+00:00",
   "id": "fa054f1f1cb117e28438a43ab56fc438",
   "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
   "language": "ben",
@@ -203,7 +196,7 @@
     }
   },
   "protected": false,
-  "quality_score": 88,
+  "quality_score": 93,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
@@ -223,7 +216,7 @@
     "total_reserved_usd": 0.09053,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "385aeb5b4a7bcbf512c0d5b8310c2fd8f5f85b86d43d077caf80670ee93c6738",
   "translation_model_actual": "gpt-6-luna"

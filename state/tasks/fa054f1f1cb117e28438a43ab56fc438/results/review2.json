@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "1075acc5-03f3-4d32-b9ac-c4e1a2c168c8",
+    "response_id": "chatcmpl-EeeoiSYZ0jTMEfY2HRnfF0cxtYS7v",
+    "usage": {
+      "completion_tokens": 1026,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 714,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 10792,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9689,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 11818
+    }
+  },
+  "received_at": "2026-10-30T14:04:44+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Article body, paragraph beginning “তিনি গভীরভাবে বিচলিত হয়ে”; Ezekiel 3:11 quotation",
+        "severity": "major",
+        "source_quote": "“Go, get thee to them of the captivity, unto the children of thy people, and speak to them.”",
+        "suggested_fix": "যিহিষ্কেল ৩:১১-এর উদ্ধৃতিতে সম্বোধন ও নির্দেশটি পূর্ণভাবে দিন, যেমন: “যাও, বন্দিদের কাছে যাও—তোমার স্বজাতির লোকদের কাছে—এবং তাদের সঙ্গে কথা বলো।”",
+        "translation_quote": "“যাও, তোমার স্বজাতির বন্দিদের কাছে যাও।”"
+      },
+      {
+        "location": "Article body, paragraph beginning “কিছুদিন পরে তিনি আবার তাকে দেখতে গেলেন”; prisoner’s speech about the bone brooch",
+        "severity": "minor",
+        "source_quote": "“The sun of His love can consume all my sins as the power of sunshine has cleansed this bone.”",
+        "suggested_fix": "“তাঁর প্রেমের সূর্য আমার সব পাপ গ্রাস করতে পারে, যেমন সূর্যালোকের শক্তি এই হাড়টিকে পরিষ্কার করেছে।”",
+        "translation_quote": "“তাঁর প্রেমের সূর্য আমার সব পাপ গ্রাস করতে পারে, যেমন সূর্যের আলোর শক্তি এই হাড়ের চর্বি পরিষ্কার করেছে।”"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 93
+  }
+}
