@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-30T20:50:24+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"html, paragraph 7\",\n      \"severity\": \"major\",\n      \"source_quote\": \"the tracing of the “rainbow through the rain” in the third stanza\",\n      \"suggested_fix\": \"‘세 번째 연에서 “빗속의 무지개”를 더듬어 찾는 모습’으로 수정하십시오.\",\n      \"translation_quote\": \"세 번째 연의 “비 속에 무지개를 밟는 것”을 연상시키는 표현들\"\n    },\n    {\n      \"location\": \"html, paragraph 11\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"certainly because of the beloved Queen Margaret of Scotland\",\n      \"suggested_fix\": \"‘특히 사랑받는 스코틀랜드의 마거릿 왕비 때문에 존경받는 이름임은 분명하다’로 수정하여 원문의 확신을 유지하십시오.\",\n      \"translation_quote\": \"특히 사랑받는 스코틀랜드의 마거릿 왕비(Queen Margaret)를 기리기 위한 것일 가능성이 크다\"\n    },\n    {\n      \"location\": \"html, paragraph 12\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"from the age of 57 to his death at age 64\",\n      \"suggested_fix\": \"‘57세부터 64세에 세상을 떠날 때까지의 시기’로 수정하십시오.\",\n      \"translation_quote\": \"57세부터 64세에 이르기까지의 시기\"\n    },\n    {\n      \"location\": \"html, References heading and attribution labels\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"<h3>References:</h3>; Author; Composer\",\n      \"suggested_fix\": \"기존 HTML 구조와 이름·연도를 유지하면서 ‘References:’를 ‘참고 자료:’로, ‘Author’를 ‘작사’로, ‘Composer’를 ‘작곡’으로 번역하십시오.\",\n      \"translation_quote\": \"<h3>References:</h3>; Author; Composer\"\n    },\n    {\n      \"location\": \"html, paragraph 1\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"19<sup>th</sup> century\",\n      \"suggested_fix\": \"sup 태그는 유지하되 영어 서수 접미사를 제거하여 ‘19<sup></sup>세기’로 수정하십시오.\",\n      \"translation_quote\": \"19<sup>th</sup>세기\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": false,\n  \"score\": 94\n}",
+    "content_bytes": 2130,
+    "content_evidence_truncated": false,
+    "content_sha256": "71041311922e3000799f43edb83e06818efae7b1196ece2387f5ef33cda2d584",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 724,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 155,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5284,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4181,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 6008
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}
