@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "6d0a5562-9a6d-4d25-b1a7-285107950ecb",
+    "response_id": "chatcmpl-EemVkaecZqzE7vaEQSPyYnPZFLgng",
+    "usage": {
+      "completion_tokens": 254,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 130,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 10545,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9442,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 10799
+    }
+  },
+  "received_at": "2026-10-30T19:42:16+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "translation.html：引用《诗篇撷思》的段落",
+        "severity": "minor",
+        "source_quote": "I have therefore no difficulty accepting, say, the view of those scholars",
+        "suggested_fix": "将“我毫不难以接受他们的观点”改为“我毫无困难地接受他们的观点”，保留现有段落结构及标签。",
+        "translation_quote": "我毫不难以接受他们的观点"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}
