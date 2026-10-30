@@ -1,0 +1,35 @@
+{
+  "findings": [
+    {
+      "location": "translation.html，第20段（战争结束）",
+      "severity": "major",
+      "source_quote": "They sued for peace, and peace was given. Except for the formalities, the war was over.",
+      "suggested_fix": "将“和约达成，战争形式上终止”改为“他们请求和平，也得到了和平。除了尚待完成的正式手续，战争已经结束了”。",
+      "translation_quote": "两枚原子弹的毁灭令日本震惊而求和。和约达成，战争形式上终止。"
+    },
+    {
+      "location": "translation.html，figure/figcaption，经文后半部分",
+      "severity": "major",
+      "source_quote": "For we wrestle not against flesh and blood, but against principalities,<br>\n    against powers, against the rulers of the darkness of this world,</em><br>\n    <strong>AGAINST SPIRITUAL WICKEDNESS IN HIGH PLACES.</strong>",
+      "suggested_fix": "将对应部分改为“<em>因为我们不是与血肉之躯争战，而是与执政的、<br>\n    掌权的、管辖这黑暗世界的势力争战，</em><br>\n    <strong>与高处的属灵邪恶势力争战。</strong>”，使最后一项仍是争战的对象，而不是另加的“面前”状语。",
+      "translation_quote": "<em>因为我们并不是与属血气的争战，乃是与执政的、掌权的、管辖这幽暗世界的，以及天上属灵势力的争战。</em><br>\n    <strong>在属天高处的属灵恶势力面前。</strong>"
+    },
+    {
+      "location": "translation.html，figure/img/@alt",
+      "severity": "minor",
+      "source_quote": "Mountain silhouettes and birds at dusk beneath Ephesians 6:11-12",
+      "suggested_fix": "将 alt 改为“以弗所书6:11-12经文下方，暮色中的山脉剪影与鸟群”，保留其他属性。",
+      "translation_quote": "暮色中山脉剪影与鸟群，底部为以弗所书6:11-12"
+    },
+    {
+      "location": "translation.html，第19段（杜鲁门就任）",
+      "severity": "minor",
+      "source_quote": "His first decision was one unlike anything he could have ever imagined.",
+      "suggested_fix": "将“杜鲁门面临一个他从未想象过的抉择”改为“杜鲁门就任后面临的第一个抉择，是他从未想象过的”。",
+      "translation_quote": "杜鲁门面临一个他从未想象过的抉择"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
