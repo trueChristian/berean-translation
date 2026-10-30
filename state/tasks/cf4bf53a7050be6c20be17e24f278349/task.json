@@ -5,11 +5,47 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "22f263d012334e39a9d07bd25e4c1212",
   "campaign": "auto-e096e58fe8ad149ec4c8bb52d94365dc9cb59fe2b662a99a7b8fa86dbdcd2e08",
   "created_at": "2026-10-29T20:31:17+00:00",
-  "events": [],
-  "findings": [],
+  "events": [
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 290,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 98,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7920,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 6817,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 8210
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "translation.html, alinea beginnend met ‘Een specifiek punt waarop ik me wil richten’",
+      "severity": "major",
+      "source_quote": "within the plain communities",
+      "suggested_fix": "Vervang ‘binnen de eenvoudige gemeenschappen’ door ‘binnen de traditioneel anabaptistische gemeenschappen met hun sobere levenswijze’.",
+      "translation_quote": "binnen de eenvoudige gemeenschappen"
+    },
+    {
+      "location": "translation.html, dezelfde alinea",
+      "severity": "minor",
+      "source_quote": "emotional/mental struggles",
+      "suggested_fix": "Vervang ‘emotionele/geestelijke problemen’ door ‘emotionele/psychische problemen’ om duidelijk te maken dat het om mentale gezondheid gaat, niet om geestelijke of geloofsproblemen.",
+      "translation_quote": "emotionele/geestelijke problemen"
+    }
+  ],
   "id": "cf4bf53a7050be6c20be17e24f278349",
   "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
   "language": "nld",
@@ -98,11 +134,13 @@
     }
   },
   "protected": false,
+  "quality_score": 94,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/a7ad1a6227f1cfa9e94538c9ab0eb21a71e9737ee9313da4c0a13a0a14896dbc.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "review1",
     "max_candidate_bytes": 120000,
@@ -115,7 +153,7 @@
     "total_reserved_usd": 0.754868,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 0,
   "translation_key": "e0622a8bb1c0f31a62af348bbcdf1a1da1d53e0d8f3f815cb4fd5567f07e197c",
   "translation_model_actual": "gpt-6-luna"

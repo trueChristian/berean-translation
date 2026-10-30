@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "translation.html, alinea beginnend met ‘Een specifiek punt waarop ik me wil richten’",
+      "severity": "major",
+      "source_quote": "within the plain communities",
+      "suggested_fix": "Vervang ‘binnen de eenvoudige gemeenschappen’ door ‘binnen de traditioneel anabaptistische gemeenschappen met hun sobere levenswijze’.",
+      "translation_quote": "binnen de eenvoudige gemeenschappen"
+    },
+    {
+      "location": "translation.html, dezelfde alinea",
+      "severity": "minor",
+      "source_quote": "emotional/mental struggles",
+      "suggested_fix": "Vervang ‘emotionele/geestelijke problemen’ door ‘emotionele/psychische problemen’ om duidelijk te maken dat het om mentale gezondheid gaat, niet om geestelijke of geloofsproblemen.",
+      "translation_quote": "emotionele/geestelijke problemen"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
