@@ -21891,6 +21891,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ell/articles/34125090-b480-4d63-b13a-33d47470f335.html",
+      "html_sha256": "de0bc269f644106ce4b10e0fe8ef2f7eb8daded55d38d8c4eb3ce8a2eb7cf168",
+      "human_reviewed": false,
+      "id": "34125090-b480-4d63-b13a-33d47470f335",
+      "images": [
+        {
+          "alt": "Ανατολή του ηλίου πάνω από απόκρημνες βουνοκορφές",
+          "public_path": "/images/articles/34125090-b480-4d63-b13a-33d47470f335-1.jpg"
+        }
+      ],
+      "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
+      "language": "ell",
+      "language_tag": "el",
+      "metadata": "content/ell/articles/34125090-b480-4d63-b13a-33d47470f335.json",
+      "metadata_sha256": "cf6ba1f1348c130d88b87b083768254edd43aa80ff0ef4a2b2b19e3c7e97c4fc",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "Η Εκκλησία της Καινής Διαθήκης",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "b3a0b32450038629cf20919c69af275c4549e0b458e25e2b5d03da547dfb97f7",
+      "status": "ready",
+      "subtitle": "Το δεύτερο άρθρο της σειράς «Η Κλήση της Μαθητείας»",
+      "title": "Μια Κλήση στην Αγιότητα",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ell/articles/391d4642-07e2-4003-83db-fa33dc08a8ca.html",
       "html_sha256": "65aa4145af7a47965c81f250ca19ac4379502c27ef93aed50d539874277abd78",
       "human_reviewed": false,
@@ -30892,6 +30920,34 @@
       "status": "ready",
       "subtitle": null,
       "title": "התבוננות בכנסייה המנוניטית האמריקאית המוקדמת",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
+      "html": "content/heb/articles/34125090-b480-4d63-b13a-33d47470f335.html",
+      "html_sha256": "d385f1a29d13cc97a6973719a4350d0f887578557bf88ae9b5bd430913619072",
+      "human_reviewed": false,
+      "id": "34125090-b480-4d63-b13a-33d47470f335",
+      "images": [
+        {
+          "alt": "זריחה מעל פסגות הרים טרשיות",
+          "public_path": "/images/articles/34125090-b480-4d63-b13a-33d47470f335-1.jpg"
+        }
+      ],
+      "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
+      "language": "heb",
+      "language_tag": "he",
+      "metadata": "content/heb/articles/34125090-b480-4d63-b13a-33d47470f335.json",
+      "metadata_sha256": "c0b46c819a9e34733c2d26011de38b3ea1d152f45b9a4b58fe6a5152bf5a39ee",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "כנסיית הברית החדשה",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "b3a0b32450038629cf20919c69af275c4549e0b458e25e2b5d03da547dfb97f7",
+      "status": "ready",
+      "subtitle": "המאמר השני בסדרה \"הקריאה להיות תלמידים\"",
+      "title": "קריאה אל הקדושה",
       "translation_model": "gpt-6.1-sol"
     },
     {
@@ -52375,6 +52431,34 @@
       "subtitle": null,
       "title": "Mussen",
       "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/nld/articles/30d02d2c-805c-437c-ad10-4542362ab6de.html",
+      "html_sha256": "b590509dd55ed6502472db395d71548de7e0e0cda8a834b29d86578afeed1d01",
+      "human_reviewed": false,
+      "id": "30d02d2c-805c-437c-ad10-4542362ab6de",
+      "images": [
+        {
+          "alt": "Opgeheven handen die reiken naar een lichtstraal uit een hoog raam",
+          "public_path": "/images/articles/30d02d2c-805c-437c-ad10-4542362ab6de-1.jpg"
+        }
+      ],
+      "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
+      "language": "nld",
+      "language_tag": "nl",
+      "metadata": "content/nld/articles/30d02d2c-805c-437c-ad10-4542362ab6de.json",
+      "metadata_sha256": "62aa55e3c8a4bf48f42c1e1c56ee0342633513c9fe95e5efc98cb0b69b1cc1b9",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "Overwinnend christelijk leven",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "ceb52dc3bb5b5ab212a3930b445c8849f8521bc253df2cec9d019d90e889292e",
+      "status": "ready",
+      "subtitle": null,
+      "title": "De weg naar Emmaüs",
+      "translation_model": "gpt-6.1-sol"
     },
     {
       "ai_notice_required": true,
@@ -79510,6 +79594,34 @@
       "subtitle": null,
       "title": "En reflektion över den tidiga amerikanska mennonitiska kyrkan",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/swe/articles/34125090-b480-4d63-b13a-33d47470f335.html",
+      "html_sha256": "efdb833baf7db907acadffebacf9dc96179f6775a39d8a5202f148a495d1c539",
+      "human_reviewed": false,
+      "id": "34125090-b480-4d63-b13a-33d47470f335",
+      "images": [
+        {
+          "alt": "Soluppgång över karga bergstoppar",
+          "public_path": "/images/articles/34125090-b480-4d63-b13a-33d47470f335-1.jpg"
+        }
+      ],
+      "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
+      "language": "swe",
+      "language_tag": "sv",
+      "metadata": "content/swe/articles/34125090-b480-4d63-b13a-33d47470f335.json",
+      "metadata_sha256": "7e3b68e3c8f50eb8af106140322ba58d953be5b655a39bf970175284a70aa50d",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "Den nytestamentliga församlingen",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "b3a0b32450038629cf20919c69af275c4549e0b458e25e2b5d03da547dfb97f7",
+      "status": "ready",
+      "subtitle": "Den andra artikeln i serien ”Kallelsen till lärjungaskap”",
+      "title": "En kallelse till helighet",
+      "translation_model": "gpt-6.1-sol"
     },
     {
       "ai_notice_required": true,

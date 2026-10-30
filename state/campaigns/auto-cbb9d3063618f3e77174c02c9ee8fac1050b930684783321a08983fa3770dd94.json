@@ -1270,6 +1270,9 @@
     "version": 1
   },
   "status": "active",
+  "task_counts": {
+    "in_batch": 1
+  },
   "tasks": [
     "6bb3c087e652da64f2104424c4133949"
   ]
