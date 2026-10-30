@@ -31,10 +31,26 @@ class Engine:
     def __init__(self, config, source_client, provider, gitstore):
         self.config, self.source_client, self.provider, self.gitstore = config,source_client,provider,gitstore
         self.state = State(config.root)
+        self._publication_index_key = None
+        self._publication_index = None
 
     def checkpoint(self, message):
-        # Durable task/budget/provider checkpoints precede external effects.
-        # Aggregate reports are derived once at the end of a collection pass.
+        # Website polling may select any checkpoint, including the first one
+        # after a publication or source/editorial change. Keep its index in the
+        # same commit; detailed reports still wait until the end of the pass.
+        publications = [(record['language'], record['article_id'], record['published'])
+                        for record in self.state.records() if record.get('published')]
+        key = json_hash({'source': self.state.read('state/source.json'),
+                         'source_repository': self.config.runtime['source_repository'],
+                         'languages': self.config.languages, 'publications': publications})
+        if key != self._publication_index_key:
+            # Published hashes and source snapshots are immutable between
+            # publication changes. GitStore separately verifies changed content
+            # before staging it. Provider/task-only checkpoints reuse this scan.
+            self._publication_index = self.state.projection(self.config)
+            self._publication_index_key = key
+        self.state.write('index.json', self._publication_index)
+        # Durable task/provider checkpoints still precede external effects.
         self.gitstore.checkpoint(message)
 
     def task_campaign(self, task):
@@ -844,6 +860,7 @@ class Engine:
         campaign = self.state.read(f'state/campaigns/{identity}.json')
         if not campaign:
             raise ContractError('Unknown campaign')
+        self.state.sync_human_reviews(self.gitstore)
         campaign = self.state.read(f'state/campaigns/{identity}.json')
         if campaign.get('downstream_recovery') and not campaign.get('downstream_acceptance_complete'):
             return downstream.abort_incomplete(self, campaign)
@@ -876,13 +893,13 @@ class Engine:
 
     def tick(self, *, discover_source=True, discover_only=False, continue_work=None,
              record_collection=True):
-        spending.record(self)
         started_at = now()
         published_before = { (record['language'], record['article_id']):
                              (record.get('published') or {}).get('task') for record in self.state.records() }
         self.continue_work = continue_work
         manual_admission.restore_orphans(self.state)
         self.state.sync_human_reviews(self.gitstore)
+        spending.record(self)
         autonomous.settle(self)
         if not discover_only and may_continue(continue_work):
             self.retire_legacy_unsubmitted()

@@ -47,7 +47,7 @@ OpenAI does not call this repository back. During an admitted collector run, act
 
 Unknown submissions are searched by their unique metadata key rather than resubmitted. Only explicit owner confirmation that no matching remote batch exists can resolve absence. No hidden synchronous endpoint or automatic billable retry is permitted. Missing/expired results preserve successful independent items and failed evidence without silently purchasing replacements.
 
-Git checkpoints never force-push. Disjoint concurrent changes can rebase; overlapping edits stop safely. A failed durable checkpoint blocks the next external side effect. Report generation is separated from essential submission checkpoints so aggregate bookkeeping does not consume every work window.
+Git checkpoints never force-push. Disjoint concurrent changes can rebase; overlapping edits stop safely. A failed durable checkpoint blocks the next external side effect. Every engine checkpoint includes a publication index matching its accepted records and observed source, so website polling can export a checkpoint while other translations are still processing. The engine refreshes the index on its first checkpoint and whenever the source catalogue, configured languages or accepted publication metadata changes; provider/task-only checkpoints reuse the in-memory projection. Git staging still verifies changed accepted files against their recorded hashes. Detailed status and recovery reports are generated at the end of the pass so aggregate bookkeeping does not consume every work window.
 
 ## Funding and migration
 
