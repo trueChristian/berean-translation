@@ -1,0 +1,70 @@
+{
+  "findings": [
+    {
+      "location": "html، دوسرا پیراگراف",
+      "severity": "major",
+      "source_quote": "it strengthened his walk with God",
+      "suggested_fix": "اور خدا کے ساتھ اُن کی رفاقت کو مضبوط کیا۔",
+      "translation_quote": "اور اُن کے ساتھ خدا کے قدم مضبوط کیے۔"
+    },
+    {
+      "location": "html، تیسرا پیراگراف، بہن کی مدد کا بیان",
+      "severity": "major",
+      "source_quote": "One of them continued to be his faithful co-worker and helper throughout his life, assisting in his calling of being a pastor and other ministerial duties.",
+      "suggested_fix": "ان میں سے ایک زندگی بھر اُن کی وفادار شریکِ کار اور مددگار رہی، اور اُن کی پادریانہ خدمت اور دیگر دینی ذمہ داریوں میں مدد کرتی رہی۔",
+      "translation_quote": "ان میں سے ایک تحریر کے دوران پورے کے پورے ان کے مخلص شریکِ کار اور مدد گار کے طور پر رہی، اُن کے پادری کے طور پر انجام دیے جانے والے کاموں اور دیگر رسمی ذمہ داریوں میں مدد کرتی رہیں۔"
+    },
+    {
+      "location": "html، پانچواں پیراگراف، متبادل خطبہ",
+      "severity": "major",
+      "source_quote": "preached an impromptu sermon of great power",
+      "suggested_fix": "ایک فی البدیہہ اور نہایت پُراثر خطبہ دیا",
+      "translation_quote": "ایک بے ترتیب مگر بے حد قوت والا خطبہ دیا"
+    },
+    {
+      "location": "html، ساتواں پیراگراف، غیر مصدقہ منگنی کا واقعہ",
+      "severity": "major",
+      "source_quote": "when she learned of his impending total blindness",
+      "suggested_fix": "جب اُسے معلوم ہوا کہ وہ جلد مکمل طور پر نابینا ہو جائیں گے",
+      "translation_quote": "اُن کی مکمل اندھا پن کی خبر پاتے ہی"
+    },
+    {
+      "location": "html، نواں پیراگراف، میتھیسن کے اقتباس کا آخری حصہ",
+      "severity": "major",
+      "source_quote": "All the other verses I have ever written are manufactured articles; this came like a dayspring from on high. I have never been able to gain once more the same fervor in verse.",
+      "suggested_fix": "میں نے اس کے علاوہ جتنے بھی اشعار لکھے ہیں، وہ سب محنت سے بنائی ہوئی تخلیقات ہیں؛ یہ عالمِ بالا سے طلوع ہونے والی صبح کی مانند آیا۔ میں شاعری میں پھر کبھی وہی جوش حاصل نہ کر سکا۔",
+      "translation_quote": "میں نے جو دوسرے بند لکھے وہ سب قابلِ تعمیر مضامین ہیں؛ یہ اوپر سے ایک دن کی روشنی کی مانند آیا۔ میں نے دوبارہ کبھی اس قسم کا جوش حاصل نہیں کیا۔"
+    },
+    {
+      "location": "html، حوالہ جات، البرٹ ایل۔ پیس کا تعارف",
+      "severity": "major",
+      "source_quote": "Composer",
+      "suggested_fix": "سنگر کی جگہ دُھن ساز لکھیں؛ باقی نام، تاریخیں اور HTML برقرار رکھیں۔",
+      "translation_quote": "سنگر"
+    },
+    {
+      "location": "section",
+      "severity": "minor",
+      "source_quote": "A HYMN HISTORY",
+      "suggested_fix": "ایک حمد کی تاریخ",
+      "translation_quote": "A HYMN HISTORY"
+    },
+    {
+      "location": "html، چوتھا پیراگراف",
+      "severity": "minor",
+      "source_quote": "he was chosen minister of the Church of Scotland in the seaport summer resort of Innellan",
+      "suggested_fix": "اُنہیں اِنلینن نامی بندرگاہی شہر اور موسمِ گرما کی تفریح گاہ میں چرچ آف اسکاٹ لینڈ کا پادری منتخب کر لیا گیا۔",
+      "translation_quote": "انہیں سی پورٹ سمر ریزورٹ اِنلینن میں چرچ آف سکاٹ لینڈ کے وزیر منتخب کر لیا گیا۔"
+    },
+    {
+      "location": "html، پہلا، تیسرا، چوتھا، پانچواں، چھٹا، نواں، دسواں اور گیارہواں پیراگراف",
+      "severity": "minor",
+      "source_quote": "19th century; four more years; Many families; the open Bible; His memory was so sharp; his memory completely collapsed; with perfect calmness; large throngs; the manse of Innellan; the most severe mental suffering; first appeared; the ink of the first note",
+      "suggested_fix": "بالترتیب یہ مقامی اصلاحات کریں: «انیسویں صدی»؛ «مزید چار سال»؛ «بہت سے خاندان»؛ «کھلی بائبل اُن کے سامنے ہوتی تھی»؛ «اُن کا حافظہ اتنا تیز تھا»؛ «اُن کا حافظہ مکمل طور پر جواب دے گیا»؛ «پورے سکون کے ساتھ»؛ «بہت بڑے ہجوم»؛ «اِنلینن میں پادری کی رہائش گاہ»؛ «انتہائی ذہنی تکلیف»؛ «شائع ہوئی»؛ «پہلے سُر کی سیاہی»۔ موجودہ HTML ساخت برقرار رکھیں۔",
+      "translation_quote": "19<sup>th</sup> صدی؛ چہار سال مزید؛ بہت سی خاندانیں؛ کھلا بائبل اُن کے سامنے ہوتا تھا؛ اُن کی حافظہ اتنی تیز تھی؛ اُن کی حافظہ مکمل طور پر دم توڑ گئی؛ پوری سُکون کے ساتھ؛ بہت بڑی ہجوم؛ اِنلینن کے منس؛ انتہایی ذہنی تکلیف؛ نمودار ہوا؛ پہلے نوٹ کا سیاہ"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

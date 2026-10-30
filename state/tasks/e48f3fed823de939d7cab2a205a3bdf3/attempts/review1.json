@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-30T20:02:06+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"html، دوسرا پیراگراف\",\n      \"severity\": \"major\",\n      \"source_quote\": \"it strengthened his walk with God\",\n      \"suggested_fix\": \"اور خدا کے ساتھ اُن کی رفاقت کو مضبوط کیا۔\",\n      \"translation_quote\": \"اور اُن کے ساتھ خدا کے قدم مضبوط کیے۔\"\n    },\n    {\n      \"location\": \"html، تیسرا پیراگراف، بہن کی مدد کا بیان\",\n      \"severity\": \"major\",\n      \"source_quote\": \"One of them continued to be his faithful co-worker and helper throughout his life, assisting in his calling of being a pastor and other ministerial duties.\",\n      \"suggested_fix\": \"ان میں سے ایک زندگی بھر اُن کی وفادار شریکِ کار اور مددگار رہی، اور اُن کی پادریانہ خدمت اور دیگر دینی ذمہ داریوں میں مدد کرتی رہی۔\",\n      \"translation_quote\": \"ان میں سے ایک تحریر کے دوران پورے کے پورے ان کے مخلص شریکِ کار اور مدد گار کے طور پر رہی، اُن کے پادری کے طور پر انجام دیے جانے والے کاموں اور دیگر رسمی ذمہ داریوں میں مدد کرتی رہیں۔\"\n    },\n    {\n      \"location\": \"html، پانچواں پیراگراف، متبادل خطبہ\",\n      \"severity\": \"major\",\n      \"source_quote\": \"preached an impromptu sermon of great power\",\n      \"suggested_fix\": \"ایک فی البدیہہ اور نہایت پُراثر خطبہ دیا\",\n      \"translation_quote\": \"ایک بے ترتیب مگر بے حد قوت والا خطبہ دیا\"\n    },\n    {\n      \"location\": \"html، ساتواں پیراگراف، غیر مصدقہ منگنی کا واقعہ\",\n      \"severity\": \"major\",\n      \"source_quote\": \"when she learned of his impending total blindness\",\n      \"suggested_fix\": \"جب اُسے معلوم ہوا کہ وہ جلد مکمل طور پر نابینا ہو جائیں گے\",\n      \"translation_quote\": \"اُن کی مکمل اندھا پن کی خبر پاتے ہی\"\n    },\n    {\n      \"location\": \"html، نواں پیراگراف، میتھیسن کے اقتباس کا آخری حصہ\",\n      \"severity\": \"major\",\n      \"source_quote\": \"All the other verses I have ever written are manufactured articles; this came like a dayspring from on high. I have never been able to gain once more the same fervor in verse.\",\n      \"suggested_fix\": \"میں نے اس کے علاوہ جتنے بھی اشعار لکھے ہیں، وہ سب محنت سے بنائی ہوئی تخلیقات ہیں؛ یہ عالمِ بالا سے طلوع ہونے والی صبح کی مانند آیا۔ میں شاعری میں پھر کبھی وہی جوش حاصل نہ کر سکا۔\",\n      \"translation_quote\": \"میں نے جو دوسرے بند لکھے وہ سب قابلِ تعمیر مضامین ہیں؛ یہ اوپر سے ایک دن کی روشنی کی مانند آیا۔ میں نے دوبارہ کبھی اس قسم کا جوش حاصل نہیں کیا۔\"\n    },\n    {\n      \"location\": \"html، حوالہ جات، البرٹ ایل۔ پیس کا تعارف\",\n      \"severity\": \"major\",\n      \"source_quote\": \"Composer\",\n      \"suggested_fix\": \"سنگر کی جگہ دُھن ساز لکھیں؛ باقی نام، تاریخیں اور HTML برقرار رکھیں۔\",\n      \"translation_quote\": \"سنگر\"\n    },\n    {\n      \"location\": \"section\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"A HYMN HISTORY\",\n      \"suggested_fix\": \"ایک حمد کی تاریخ\",\n      \"translation_quote\": \"A HYMN HISTORY\"\n    },\n    {\n      \"location\": \"html، چوتھا پیراگراف\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"he was chosen minister of the Church of Scotland in the seaport summer resort of Innellan\",\n      \"suggested_fix\": \"اُنہیں اِنلینن نامی بندرگاہی شہر اور موسمِ گرما کی تفریح گاہ میں چرچ آف اسکاٹ لینڈ کا پادری منتخب کر لیا گیا۔\",\n      \"translation_quote\": \"انہیں سی پورٹ سمر ریزورٹ اِنلینن میں چرچ آف سکاٹ لینڈ کے وزیر منتخب کر لیا گیا۔\"\n    },\n    {\n      \"location\": \"html، پہلا، تیسرا، چوتھا، پانچواں، چھٹا، نواں، دسواں اور گیارہواں پیراگراف\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"19th century; four more years; Many families; the open Bible; His memory was so sharp; his memory completely collapsed; with perfect calmness; large throngs; the manse of Innellan; the most severe mental suffering; first appeared; the ink of the first note\",\n      \"suggested_fix\": \"بالترتیب یہ مقامی اصلاحات کریں: «انیسویں صدی»؛ «مزید چار سال»؛ «بہت سے خاندان»؛ «کھلی بائبل اُن کے سامنے ہوتی تھی»؛ «اُن کا حافظہ اتنا تیز تھا»؛ «اُن کا حافظہ مکمل طور پر جواب دے گیا»؛ «پورے سکون کے ساتھ»؛ «بہت بڑے ہجوم»؛ «اِنلینن میں پادری کی رہائش گاہ»؛ «انتہائی ذہنی تکلیف»؛ «شائع ہوئی»؛ «پہلے سُر کی سیاہی»۔ موجودہ HTML ساخت برقرار رکھیں۔\",\n      \"translation_quote\": \"19<sup>th</sup> صدی؛ چہار سال مزید؛ بہت سی خاندانیں؛ کھلا بائبل اُن کے سامنے ہوتا تھا؛ اُن کی حافظہ اتنی تیز تھی؛ اُن کی حافظہ مکمل طور پر دم توڑ گئی؛ پوری سُکون کے ساتھ؛ بہت بڑی ہجوم؛ اِنلینن کے منس؛ انتہایی ذہنی تکلیف؛ نمودار ہوا؛ پہلے نوٹ کا سیاہ\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": false,\n  \"score\": 78\n}",
+    "content_bytes": 5934,
+    "content_evidence_truncated": false,
+    "content_sha256": "6fee2314475f3700bc85082958882605ec94a72bc6e608bb0ead416e6d3c9ce2",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1449,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 115,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5323,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4220,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 6772
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}
