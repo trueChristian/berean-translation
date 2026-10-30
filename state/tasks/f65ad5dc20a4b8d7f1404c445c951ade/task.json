@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "d71d6bcb00c1464f8ebc30b94e868697",
   "campaign": "auto-f3819140a0bbfdfe4dcddea63cb638aea48b578eb336695f00fb082ba20bea0a",
   "created_at": "2026-10-29T12:28:28+00:00",
   "events": [
@@ -48,109 +47,31 @@
         },
         "total_tokens": 16677
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 57,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 25,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9969,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8866,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 10026
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "첫 번째 인용문 다음 문단, 사도행전 7:22-23 인용",
-      "severity": "major",
-      "source_quote": "And when he was full forty years old, it came into his heart to visit his brethren the children of Israel –Acts 7:22-23.",
-      "suggested_fix": "인용문을 ‘…애굽인의 모든 지혜를 배워 말과 행위에 능하더라. 나이가 사십이 되었을 때 자기 형제 이스라엘 자손을 돌아볼 생각이 그의 마음에 일어났더라 –사도행전 7:22-23.’로 완성하고, 앞의 ‘그는 자신이’를 ‘그는’으로 조정하십시오.",
-      "translation_quote": "그는 자신이 <em>…애굽인의 모든 지혜를 배워 말과 행위에 능하고 –사도행전 7:22.</em>"
-    },
-    {
-      "location": "모세의 생애를 세 부분으로 나누는 문단",
-      "severity": "major",
-      "source_quote": "It had undoubtedly been rehearsed to him that at his birth he …was exceeding fair, and nourished up in his father’s house three months –Acts 7:20.",
-      "suggested_fix": "해당 문장을 ‘그는 자신이 태어났을 때의 이야기를 틀림없이 거듭 들었을 것이다. 곧 그가 <em>…심히 아름다워 아버지의 집에서 석 달 동안 길러졌더라 –사도행전 7:20.</em>’로 수정하십시오.",
-      "translation_quote": "그의 탄생 때 그가 <em>…심히 아름다워 아비의 집에서 사흘을 기르였더라 –사도행전 7:20.</em>"
-    },
-    {
-      "location": "오늘날의 교회 지도자 후보로 모세를 평가하는 문단",
-      "severity": "major",
-      "source_quote": "He was a conservative man who chose",
-      "suggested_fix": "인용문 앞의 ‘그는’을 ‘그는 보수적인 사람으로서’로 수정하여 누락된 인물 평가를 복원하십시오.",
-      "translation_quote": "그는 <em>…오히려 잠깐의 죄의 즐거움을 누리기보다"
-    },
-    {
-      "location": "미디안의 학교에 등록하는 문단 마지막 문장",
-      "severity": "major",
-      "source_quote": "this chapter of his life was enacted by compulsion",
-      "suggested_fix": "‘그의 삶의 이 장은 강요에 의해 연기되었다’를 ‘그의 삶의 이 시기는 자신의 의지와 무관하게 전개되었다’로 수정하십시오.",
-      "translation_quote": "그의 삶의 이 장은 강요에 의해 연기되었다."
-    },
-    {
-      "location": "‘하나님의 정련’ 아래 창세기 46:34 인용",
-      "severity": "major",
-      "source_quote": "for every shepherd is an abomination unto the Egyptians",
-      "suggested_fix": "인용문을 ‘…모든 목자는 애굽 사람들에게 가증한 존재이기 때문이라 –창세기 46:34.’로 수정하여 원문에 없는 ‘여호와께’를 삭제하십시오.",
-      "translation_quote": "…목자는 애굽 사람들에게 여호와께 가증한 것이라 –창세기 46:34."
-    },
-    {
-      "location": "‘하나님의 공급’ 첫 문단",
-      "severity": "major",
-      "source_quote": "He tailors our life circumstances to bring us into His fullness.",
-      "suggested_fix": "‘우리 삶의 형편을 우리의 충만으로 인도하시도록 맞추신다’를 ‘우리를 그분의 충만하심으로 이끄시도록 우리 삶의 형편을 맞추신다’로 수정하십시오.",
-      "translation_quote": "그분은 우리 삶의 형편을 우리의 충만으로 인도하시도록 맞추신다."
-    },
-    {
-      "location": "‘하나님의 승진’ 첫 문단 전체",
-      "severity": "major",
-      "source_quote": "38, 39, … 40 years. Come now therefore, and I will send thee unto Pharaoh, that thou mayest bring forth my people the children of Israel out of Egypt –Exodus 3:10.",
-      "suggested_fix": "문단을 ‘<p>38년, 39년, … 40년. <em>그러므로 <strong>이제</strong> 오라. 내가 너를 바로에게 보내어 네가 내 백성 이스라엘 자손을 애굽에서 인도하여 내게 하리라 –출애굽기 3:10.</em></p>’로 번역하십시오.",
-      "translation_quote": "38, 39, … 40 years. <em>Come <strong>now</strong> therefore, and I will send thee unto Pharaoh, that thou mayest bring forth my people the children of Israel out of Egypt –Exodus 3:10.</em>"
-    },
-    {
-      "location": "‘하나님의 약속’ 두 번째 문단, 하나님의 이름",
-      "severity": "major",
-      "source_quote": "Thus, the great I AM THAT I AM … has laid upon human shoulders",
-      "suggested_fix": "‘그러므로 스스로 있는 나는’을 ‘그러므로 위대하신 “나는 스스로 있는 자”께서는’으로 수정하십시오.",
-      "translation_quote": "그러므로 스스로 있는 나는 … 인류의 어깨 위에"
-    },
-    {
-      "location": "‘하나님의 능력’ 히브리서 12:6-8 인용",
-      "severity": "major",
-      "source_quote": "and scourgeth every son whom he receiveth. … for what son is he whom the father chasteneth not? But if ye be without chastisement, whereof all are partakers",
-      "suggested_fix": "인용문을 ‘주께서 사랑하시는 자를 징계하시며 받아들이시는 아들마다 채찍질하시느니라. 너희가 징계를 견디면 하나님께서 너희를 아들로 대하시나니, 아버지가 징계하지 않는 아들이 어디 있느냐? 모든 이가 함께 받는 징계를 너희가 받지 않는다면 너희는 사생아이지 아들이 아니니라 –히브리서 12:6-8.’로 수정하십시오.",
-      "translation_quote": "모든 아들을 채찍질하시나니 너희가 징계를 참으면 하나님이 너희를 자녀삼아 다루시나니 징계가 없이는 모든 아들이 참가하는 것이 아니니라 만일 징계가 없으면 너희는 사생아요 자녀가 아니니라"
-    },
-    {
-      "location": "‘하나님의 능력’ 마지막 긴 문단, 백성의 비난",
-      "severity": "major",
-      "source_quote": "The people who accused Moses of leading them out to kill them and even at one point were ready to stone him",
-      "suggested_fix": "해당 문장을 ‘모세가 자신들을 죽이려고 이끌어 냈다고 비난하고 한때는 그를 돌로 치려고까지 했던 백성이 이제는 그의 마음과 애정의 중심에 있었다.’로 수정하십시오.",
-      "translation_quote": "그를 죽이려고 인도한 자들이 그를 돌로 치려 했던 자들이었음에도 불구하고, 그 백성은 이제 그의 마음과 애정의 중심에 있었다."
-    },
-    {
-      "location": "‘하나님의 정련’ 잠언 17:3 인용",
-      "severity": "minor",
-      "source_quote": "The fining pot is for silver, and the furnace for gold",
-      "suggested_fix": "‘은을 단련하는 그릇은 연단을 위함이요 금을 위하여서는 화로이거니와’를 ‘도가니는 은을 위한 것이요 화로는 금을 위한 것이지만’으로 수정하여 병렬 구조를 명확히 하십시오.",
-      "translation_quote": "은을 단련하는 그릇은 연단을 위함이요 금을 위하여서는 화로이거니와"
-    },
-    {
-      "location": "영적 리더십을 설명하는 세 번째 문단",
-      "severity": "minor",
-      "source_quote": "inactivity, unfruitfulness, and rejection",
-      "suggested_fix": "‘비활동, 불임, 거부’를 ‘아무 활동도 하지 못함, 결실 없음, 거절당함’으로 수정하십시오. 여기서 unfruitfulness는 생식 능력이 아니라 사역의 결실에 관한 표현입니다.",
-      "translation_quote": "비활동, 불임, 거부"
-    },
-    {
-      "location": "‘하나님의 약속’ 직전 문단",
-      "severity": "minor",
-      "source_quote": "his presumption had evaporated",
-      "suggested_fix": "‘그의 추정감(자기 확신)은’을 ‘그의 자만심은’으로 수정하십시오.",
-      "translation_quote": "그의 추정감(자기 확신)은"
-    },
-    {
-      "location": "‘하나님의 약속’ 두 번째 문단",
-      "severity": "minor",
-      "source_quote": "prepared him for the Lord’s service",
-      "suggested_fix": "‘주의 서비스를 위한 준비로’를 ‘주님을 섬길 준비를 갖추도록’으로 수정하십시오.",
-      "translation_quote": "주의 서비스를 위한 준비로"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-30T02:32:47+00:00",
   "id": "f65ad5dc20a4b8d7f1404c445c951ade",
   "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
   "language": "kor",
@@ -239,7 +160,7 @@
     }
   },
   "protected": false,
-  "quality_score": 67,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6.1-sol",
@@ -258,7 +179,7 @@
     "total_reserved_usd": 0.771478,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "fa6973e1c0869cf8ea44c825b0af02960182750ad2e2fbf60dce9af0c7f03feb",
   "translation_model_actual": "gpt-6.1-sol"
