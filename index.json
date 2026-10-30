@@ -16740,6 +16740,29 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/cmn/articles/d38bf79f-957f-413c-ad4d-a6b4fa8c8112.html",
+      "html_sha256": "a77c9593cc440d5ad1a4bc37f16d86e8ff4591ec185015ec3b689f257a076fe1",
+      "human_reviewed": false,
+      "id": "d38bf79f-957f-413c-ad4d-a6b4fa8c8112",
+      "images": [],
+      "issue_id": "1a7070c9-fd4f-546b-a220-f267ddb8cf5f",
+      "language": "cmn",
+      "language_tag": "zh-Hans",
+      "metadata": "content/cmn/articles/d38bf79f-957f-413c-ad4d-a6b4fa8c8112.json",
+      "metadata_sha256": "88226864d7c953f9187ec67f3e1bd0832dd767889bc35203986b566eb4c5c128",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "来自医生的话",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "48e3cf7ce54a82130b52527f677657d3f940e34281e04d33a0d21d610cf9910a",
+      "status": "ready",
+      "subtitle": null,
+      "title": "癌症……它是什么？",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/cmn/articles/d5891c2f-007d-4926-90e0-81c25cf67fbd.html",
       "html_sha256": "5c08d7c3dc7bf5881c6693206e6ea21a674313e697a94f77c80e1acd82063a8b",
       "human_reviewed": false,
@@ -76220,6 +76243,34 @@
       "subtitle": null,
       "title": "Kutoka kwa Mhariri",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/swa/articles/53e8b534-1f5e-4d9d-b191-99707a404256.html",
+      "html_sha256": "94b9de397eeccf3747bb2d2b5a15bff6aa9158e78d5310fd5d5fdc98c852e27d",
+      "human_reviewed": false,
+      "id": "53e8b534-1f5e-4d9d-b191-99707a404256",
+      "images": [
+        {
+          "alt": "Bonde pana la jangwa chini ya milima yenye matabaka na mawingu",
+          "public_path": "/images/articles/53e8b534-1f5e-4d9d-b191-99707a404256-1.jpg"
+        }
+      ],
+      "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
+      "language": "swa",
+      "language_tag": "sw",
+      "metadata": "content/swa/articles/53e8b534-1f5e-4d9d-b191-99707a404256.json",
+      "metadata_sha256": "01ae49e8d6441e00bc32f231c0ee0a4f12b17b8b884e5f1b15c98cca98397a8f",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "UCHAMBUZI WA TABIA",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "fa6973e1c0869cf8ea44c825b0af02960182750ad2e2fbf60dce9af0c7f03feb",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Musa katika Midiani",
+      "translation_model": "gpt-6.1-sol"
     },
     {
       "ai_notice_required": true,
