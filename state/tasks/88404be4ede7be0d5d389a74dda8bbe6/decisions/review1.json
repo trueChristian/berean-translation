@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph 5",
+      "severity": "major",
+      "source_quote": "“the whole place had big pictures of lions, witches and wardrobes all over it.”",
+      "suggested_fix": "Replace “kleredrukkers” with “klerekaste”: “...groot prente van leeus, hekse en klerekaste was.”",
+      "translation_quote": "“...die hele plek vol groot prente van leeus, hekse en kleredrukkers was.”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
