@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-30T07:03:39+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"713c3d95-5295-421e-9ca7-3cd2cc1643d9\\\">\\n  <figure>\\n    <img src=\\\"/images/articles/713c3d95-5295-421e-9ca7-3cd2cc1643d9-1.jpg\\\" alt=\\\"Un albero sempreverde accanto a un lago, con arbusti e un pendio montano coperto di neve.\\\">\\n  </figure>\\n  <p class=\\\"poem\\\"><strong><em>Quando mura di monti sbarrano il cammino.<br>\\nPerché sedere e piangere? Àlzati e di':<br>\\n«Sii rimosso», e saranno<br>\\nScagliate in mare dalla potenza di Dio.</em></strong></p>\\n  <p class=\\\"poem\\\"><strong><em>Ogni potere sulla terra, ogni potere in cielo,<br>\\nÈ dato a Cristo, il Figlio di Dio;<br>\\nE dal trono Egli ti rivestirà di forza,<br>\\nE gli ostacoli fuggiranno da te.</em></strong></p>\\n  <p class=\\\"poem\\\"><strong><em>Contro ogni potere di demoni e uomini<br>\\nDi' con il Signore: «Io posso davvero»,<br>\\nPrendi da Lui il potere di calpestare sulla terra<br>\\nIl pungiglione del serpente e la testa del drago.</em></strong></p>\\n  <p class=\\\"poem\\\"><strong><em>Qualunque tu sia, o alta montagna,<br>\\nOvunque tu sia, sulla terra o nel cielo,<br>\\nIn qualunque momento tu sia, la verità è sempre la stessa:<br>\\n«Sii rimosso nel nome di Gesù».</em></strong></p>\\n  <p class=\\\"poem\\\"><strong><em>«Sii rimosso»: la fede ti esorta a partire.<br>\\nGuarda laggiù: sorgi! Allontànati!<br>\\nPosso, sono capace, devo, voglio<br>\\nCompiere il proposito del mio Dio.</em></strong></p>\\n</article>\\n\",\"section\":null,\"subtitle\":null,\"title\":\"Autorità\"}",
+    "content_bytes": 1485,
+    "content_evidence_truncated": false,
+    "content_sha256": "f7681db7b5a1cec901adad0d365daf9124e5a2a4faba84e97bf2a5f7e020fb43",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 855,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 324,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1253,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1250,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2108
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}
