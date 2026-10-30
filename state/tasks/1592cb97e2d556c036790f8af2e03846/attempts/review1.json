@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-30T00:52:43+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph 5\",\"severity\":\"minor\",\"source_quote\":\"half dreaming\",\"suggested_fix\":\"half aan die slaap\",\"translation_quote\":\"half aan die droom\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 219,
+    "content_evidence_truncated": false,
+    "content_sha256": "b6f7e60b10fa87fe8ea4e24876c94799c14320ab151acfeaca57881cde2d562c",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 714,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 643,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2738,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1635,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 3452
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

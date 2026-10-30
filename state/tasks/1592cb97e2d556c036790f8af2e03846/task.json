@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "d72f2a07e04542cc934c5cc36ec47e51",
   "campaign": "auto-d67f2eeecd32968599749d9a057c0d9e5461997c71be349668f994b58152c555",
   "created_at": "2026-10-29T12:26:46+00:00",
   "events": [
@@ -28,10 +27,39 @@
         },
         "total_tokens": 2549
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 714,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 643,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 2738,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 1635,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 3452
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "Paragraph 5",
+      "severity": "minor",
+      "source_quote": "half dreaming",
+      "suggested_fix": "half aan die slaap",
+      "translation_quote": "half aan die droom"
+    }
+  ],
+  "finished_at": "2026-10-30T00:52:43+00:00",
   "id": "1592cb97e2d556c036790f8af2e03846",
   "issue_id": "07955de4-6574-4a4b-9c1b-f216374c02ee",
   "language": "afr",
@@ -120,9 +148,11 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/4d955bb0e612e565d4ddd330c0abfc9fb3f99a87e2f1c1a6f89875faec60b08c.json",
   "stage": "review1",
   "stage_budget": {
@@ -138,7 +168,7 @@
     "total_reserved_usd": 0.086403,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "b131164df71ee22a3a3eb4a9ab6c3e18fe2ffde3578cd909fb61036b7ebb19d8",
   "translation_model_actual": "gpt-6-luna"
