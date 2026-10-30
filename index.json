@@ -20333,6 +20333,46 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/deu/articles/a5c8b070-97f8-4050-9ac5-89af497287b0.html",
+      "html_sha256": "9ec54508ae8c6f46d993c0bfa7ddbd6c7d2846978b3e6232475b873f04d31bb1",
+      "human_reviewed": false,
+      "id": "a5c8b070-97f8-4050-9ac5-89af497287b0",
+      "images": [
+        {
+          "alt": "Ein Löwe und andere Tiere beobachten ein tanzendes Kind",
+          "public_path": "/images/articles/a5c8b070-97f8-4050-9ac5-89af497287b0-1.jpg"
+        },
+        {
+          "alt": "Eine Gedenktafel beschreibt, wie C. S. Lewis und seine Freunde sich im Hinterzimmer eines Pubs trafen",
+          "public_path": "/images/articles/a5c8b070-97f8-4050-9ac5-89af497287b0-2.jpg"
+        },
+        {
+          "alt": "Ein TIME-Magazin-Cover mit einem Porträt von C. S. Lewis",
+          "public_path": "/images/articles/a5c8b070-97f8-4050-9ac5-89af497287b0-3.jpg"
+        },
+        {
+          "alt": "C. S. Lewis sitzt mit einem Buch",
+          "public_path": "/images/articles/a5c8b070-97f8-4050-9ac5-89af497287b0-4.jpg"
+        }
+      ],
+      "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
+      "language": "deu",
+      "language_tag": "de",
+      "metadata": "content/deu/articles/a5c8b070-97f8-4050-9ac5-89af497287b0.json",
+      "metadata_sha256": "246d6194b3340d7485a772adecc70011b25cafb9e8f5df52eeb0a0d714410405",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": null,
+      "source_revision": "ed75201a8e3b37913a14f4d949de33a7a0daa2c2",
+      "source_translation_key": "6db58cafff7cfe9f11556e892b54ec7a0015890307776806dd7acebca34a78c1",
+      "status": "ready",
+      "subtitle": "CHRISTEN, SEID GEWARNT!",
+      "title": "Der Löwe, die Hexe und das Happy Meal:",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/deu/articles/a666b8a8-f3c7-4478-b53d-bb0abe446f42.html",
       "html_sha256": "8147653e2015b3ab1e3befdc1f4023fccead8dfd67fe4546c5fbc6d6afbe2c48",
       "human_reviewed": false,
@@ -61495,6 +61535,34 @@
       "subtitle": "DISIPPELSKAPSSERIEN",
       "title": "Troens kvinner",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/nob/articles/b40d86c2-0814-40ea-a893-20dd7fcbdadb.html",
+      "html_sha256": "19aab8fc152332f49475e5faa6c3dac866cad29bbfec6674d4b8a6be2c10d611",
+      "human_reviewed": false,
+      "id": "b40d86c2-0814-40ea-a893-20dd7fcbdadb",
+      "images": [
+        {
+          "alt": "Fjellsilhuetter og fugler i skumringen under Efeserne 6:11-12",
+          "public_path": "/images/articles/b40d86c2-0814-40ea-a893-20dd7fcbdadb-1.jpg"
+        }
+      ],
+      "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
+      "language": "nob",
+      "language_tag": "nb",
+      "metadata": "content/nob/articles/b40d86c2-0814-40ea-a893-20dd7fcbdadb.json",
+      "metadata_sha256": "37aa4ac7e5c8f50974052f37a9501f935324e079f60f8a32cc56a45c563ba7d8",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "KIRKEHISTORIE",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "c767adc49633e338375567a05addcb2f986e5c013a016c2592a1cd600a81bb50",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Helter",
+      "translation_model": "gpt-6.1-sol"
     },
     {
       "ai_notice_required": true,
