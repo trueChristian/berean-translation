@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "2329d2ed-0355-4397-9aa1-cbd7c4c03afb",
+    "response_id": "chatcmpl-Eeoqk3R3Turymg1uOVvWbYQmEALbi",
+    "usage": {
+      "completion_tokens": 503,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 408,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4227,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4224,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4730
+    }
+  },
+  "received_at": "2026-10-30T23:42:29+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraphe sous « 10. Ayez foi en Dieu. »",
+        "severity": "major",
+        "source_quote": "Begin to expect.",
+        "suggested_fix": "Commencez à vous attendre à ce que Dieu agisse.",
+        "translation_quote": "Commencez à vous attendre à agir de Dieu."
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 92
+  }
+}

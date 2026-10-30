@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraphe sous « 10. Ayez foi en Dieu. »",
+      "severity": "major",
+      "source_quote": "Begin to expect.",
+      "suggested_fix": "Commencez à vous attendre à ce que Dieu agisse.",
+      "translation_quote": "Commencez à vous attendre à agir de Dieu."
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; a recovery continuation must pass admission",
+  "stage": "terminal"
+}

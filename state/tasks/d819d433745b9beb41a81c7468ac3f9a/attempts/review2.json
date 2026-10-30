@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-30T23:42:29+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraphe sous « 10. Ayez foi en Dieu. »\",\"severity\":\"major\",\"source_quote\":\"Begin to expect.\",\"suggested_fix\":\"Commencez à vous attendre à ce que Dieu agisse.\",\"translation_quote\":\"Commencez à vous attendre à agir de Dieu.\"}],\"findings_complete\":true,\"passed\":false,\"score\":92}",
+    "content_bytes": 311,
+    "content_evidence_truncated": false,
+    "content_sha256": "e8d9251d42cee5bef51a9ba26aedbfada7285bb2c37b80e4642ba28e4024e7c4",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 503,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 408,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4227,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4224,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4730
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}
