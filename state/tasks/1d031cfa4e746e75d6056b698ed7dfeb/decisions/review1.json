@@ -1,0 +1,203 @@
+{
+  "findings": [
+    {
+      "location": "html, paragraph 4, Pacific setting and attacks",
+      "severity": "major",
+      "source_quote": "the vast blue expanse of the Pacific Ocean ... Suicide charges ... enemies whipped into a killing frenzy",
+      "suggested_fix": "Tumia «katika eneo kubwa la buluu la Bahari ya Pasifiki», «mashambulizi ya kujitoa mhanga», na «maadui waliokuwa wakikimbia kushambulia, wakiwa wamechochewa na hamaki ya kuua» katika sehemu husika; eleza banzai kuwa shambulio la nguvu zote la askari wengi wa miguu, kwa kawaida usiku, wakipiga kelele.",
+      "translation_quote": "miongoni mwa mwamba mrefu wa Bahari ya Pasifiki ... Shambulio la kujitoa ... maadui waliovurugika hadi wawa wa dlifu la kuua"
+    },
+    {
+      "location": "html, paragraph 4, shells and death",
+      "severity": "major",
+      "source_quote": "A wayward shell, some weighing as much as a small car ... claiming lives seemingly at random",
+      "suggested_fix": "Badilisha kuwa «Ganda la mzinga lililopotoka, baadhi yake yakiwa na uzito sawa na gari dogo, lingeweza kuanguka kutoka angani na kuua. Kifo kilikuwepo daima, kikichukua maisha kana kwamba bila mpangilio.»",
+      "translation_quote": "Kipande cha mizinga kilichopotea, baadhi yake yakiyeyusha kama gari dogo ... kikitoa maisha kwa mpango uliokuwa wa nasibu"
+    },
+    {
+      "location": "html, paragraph 5",
+      "severity": "major",
+      "source_quote": "Instead of machine guns and grenades ... greater than any naval fleet",
+      "suggested_fix": "Badilisha «mitambo na mabomu ndogo» kuwa «bunduki za rashasha na mabomu ya kurusha kwa mkono», na «meli yoyote ya kivita» kuwa «kikosi chochote cha meli za kivita». Rejesha pia lebo za msisitizo: <strong>kimwili</strong>, <strong>mioyo</strong> na <strong> akili</strong>.",
+      "translation_quote": "Badala ya mitambo na mabomu ndogo ... kubwa kuliko meli yoyote ya kivita"
+    },
+    {
+      "location": "html, paragraph 6",
+      "severity": "major",
+      "source_quote": "this term would be extended until the end of the fighting",
+      "suggested_fix": "Badilisha «kipindi hicho kingetengenezwa» kuwa «kipindi hicho kingeongezwa».",
+      "translation_quote": "kipindi hicho kingetengenezwa hadi mwisho wa mapigano"
+    },
+    {
+      "location": "html, paragraph 7",
+      "severity": "major",
+      "source_quote": "several were killed by the treatment they received",
+      "suggested_fix": "Badilisha kuwa «na kadhaa walikufa kutokana na jinsi walivyotendewa». Hapa treatment ni kutendewa, si matibabu.",
+      "translation_quote": "kadhaa waliuawa kwa matibabu waliopewa"
+    },
+    {
+      "location": "html, paragraph 8",
+      "severity": "major",
+      "source_quote": "Draftees were to report ... There they were to be molded into soldiers",
+      "suggested_fix": "Tumia «Walioitwa kujiunga na jeshi walipaswa kuripoti» na «Huko wangefundishwa na kufinyangwa kuwa wanajeshi».",
+      "translation_quote": "Walioweka kwa wito walitarajiwa kuripoti ... Pale wangelazwa kuwa wanajeshi"
+    },
+    {
+      "location": "html, paragraphs 7, 9 and 10, conscientious objection and official acceptance",
+      "severity": "major",
+      "source_quote": "conscientious objectors of the First World War ... principles and convictions of conscientious objectors ... bureaucratic acceptance of the conscientious objectors’ (COs) convictions",
+      "suggested_fix": "Katika aya ya 7 tumia «waliokataa kupigana kwa sababu ya dhamiri katika Vita vya Kwanza vya Dunia»; katika aya ya 9 tumia «kanuni na misimamo ya waliokataa kupigana kwa sababu ya dhamiri»; anza aya ya 10 kwa «Licha ya mamlaka kukubali misimamo ya waliokataa kupigana kwa sababu ya dhamiri (COs), na huduma yao mbadala iliyofuata».",
+      "translation_quote": "wale waliokataa kupigana katika Vita vya Kwanza vya Dunia ... misimamo na imani za waliochukulia kwa kina waliokataa kupigana ... utambuzi wa kifisikali wa imani za waliochukulia kwa kina (COs)"
+    },
+    {
+      "location": "html, paragraph 10, community and police conduct",
+      "severity": "major",
+      "source_quote": "the local community boycotting their businesses ... law enforcement would turn a blind eye to the mistreatment",
+      "suggested_fix": "Tumia «jamii ya eneo hilo ikisusia biashara zao» na «vyombo vya utekelezaji wa sheria vya eneo hilo vilifumbia macho ukatili dhidi ya watu wasiotumia nguvu».",
+      "translation_quote": "jamii ya eneo hiyo ikateremsha biashara zao ... vyombo vya sheria vya eneo hilo viligeuka macho kuangalia ukatili"
+    },
+    {
+      "location": "html, paragraph 11, Japan and US neutrality",
+      "severity": "major",
+      "source_quote": "the early years of the war in the Pacific were dominated by Japan ... remained neutral ... ships moored in Pearl Harbor",
+      "suggested_fix": "Tumia «Japani ilitawala mapigano katika miaka ya mwanzo ya vita vya Pasifiki», «Marekani ilibaki bila kuunga mkono upande wowote, ikichochewa na mtazamo wa kujitenga na mambo ya mataifa mengine», na «meli zilizokuwa zimetia nanga Pearl Harbor».",
+      "translation_quote": "miaka ya mwanzo ya vita katika Pasifiki yalitimuliwa kwa Japani ... Marekani ilibaki upande wa upande ... meli zilizokuwa zimebukwa"
+    },
+    {
+      "location": "html, paragraph 11, Japanese commitment and emperor",
+      "severity": "major",
+      "source_quote": "The Japanese commitment to the war was personal and intense ... The emperor was worshiped as infallible",
+      "suggested_fix": "Badilisha kuwa «Kujitolea kwa Wajapani katika vita kulikuwa kwa binafsi na kwa dhati kubwa» na «Mfalme aliabudiwa kama asiyeweza kukosea».",
+      "translation_quote": "Kujitolea kwa vita kwa Japan kulikuwa kwa hiari na kwa msukumo ... Mfalme aliheshimiwa kama asiye na makosa"
+    },
+    {
+      "location": "html, paragraph 12, exemption and patient restraints",
+      "severity": "major",
+      "source_quote": "not needing to fight a physical fight ... bound in strait jackets for weeks",
+      "suggested_fix": "Badilisha kuwa «kutolazimika kupigana vita vya kimwili» na «wangefungwa kwa majaketi maalumu ya kuwazuia kusogeza mikono kwa majuma kadhaa».",
+      "translation_quote": "kutohitaji kupigana kivyovyote ... wangefungwa katika mikanda ya tundu kwa wiki"
+    },
+    {
+      "location": "html, paragraph 12, reporting abuse",
+      "severity": "major",
+      "source_quote": "detailing their observations about the abuse to their contacts at home",
+      "suggested_fix": "Badilisha kuwa «au kuwaeleza kwa undani watu waliowasiliana nao nyumbani mambo waliyoyaona kuhusu unyanyasaji huo».",
+      "translation_quote": "kuelezachezea maoni yao kuhusu uabusu kwa watu wa nyumbani"
+    },
+    {
+      "location": "html, paragraph 13",
+      "severity": "major",
+      "source_quote": "Ungodly influences abounded around them ... these influences weighed more heavily",
+      "suggested_fix": "Tumia «Vishawishi visivyo vya kimungu vilikuwa vingi karibu nao» na «vishawishi hivyo vilikuwa na uzito mkubwa zaidi katika akili za vijana hao kuliko ambavyo vingekuwa nyumbani».",
+      "translation_quote": "Mavurugo yasiyokuwa na mungu yalikuwa mengi ... maingiliano hayo yalikuwa na uzito zaidi"
+    },
+    {
+      "location": "html, paragraph 14, MacArthur's rank and retreat",
+      "severity": "major",
+      "source_quote": "the youngest divisional commander in the Army ... massive casualties in their slow retreat",
+      "suggested_fix": "Tumia «kamanda wa divisheni aliyekuwa na umri mdogo kuliko wote katika Jeshi» na «Vikosi vyake vilipata hasara kubwa ya wanajeshi waliokufa na kujeruhiwa vilipokuwa vikirudi nyuma polepole».",
+      "translation_quote": "kamanda mdogo mwenye umri mdogo katika Jeshi ... vifo vingi katika uvamizi wao wa polepole wa kukimbia"
+    },
+    {
+      "location": "html, paragraph 14, evacuation and promise",
+      "severity": "major",
+      "source_quote": "he was finally persuaded to slip through enemy lines ... he made a solemn promise",
+      "suggested_fix": "Tumia «hatimaye alishawishiwa kupenya safu za adui kwa siri» na «Hapo ndipo alipotoa ahadi nzito kwa wale aliowaacha: “Nitarudi.”»",
+      "translation_quote": "alitimizwa kumshawishi aondoke kupitia mistari ya adui ... Hapo ndipo alipotimiza ahadi ya pekee"
+    },
+    {
+      "location": "html, paragraph 15, Harry Litwiller",
+      "severity": "major",
+      "source_quote": "While his request was being processed, he picked up gambling and drinking from other recruits",
+      "suggested_fix": "Badilisha kuwa «Ombi lake lilipokuwa likishughulikiwa, alijifunza kucheza kamari na kunywa pombe kutoka kwa waajiriwa wengine wa jeshi».",
+      "translation_quote": "Wakati ombi lake liliposafirishwa, alianza kubahatisha na kunywa kutokana na wanachama wengine waliojiunga"
+    },
+    {
+      "location": "html, paragraph 16",
+      "severity": "major",
+      "source_quote": "Unable to continue, the Germans sued for peace ... island-hopping across the ocean",
+      "suggested_fix": "Badilisha kuwa «Wakiwa hawawezi kuendelea, Wajerumani waliomba amani» na «Polepole, akivuka bahari kutoka kisiwa kimoja hadi kingine».",
+      "translation_quote": "Wakiweza kuendelea, Wajerumani walitafuta amani ... kwa kuibua visiwa kwa visiwa"
+    },
+    {
+      "location": "html, paragraph 17",
+      "severity": "major",
+      "source_quote": "just large enough for an airstrip and a garrison ... they maintained a solid footing in the Philippines",
+      "suggested_fix": "Tumia «vilivyokuwa na nafasi ya kutosha tu kwa njia ya ndege kuruka na kutua na kituo cha wanajeshi» na «Hata Wajapani walipokuwa wakiondolewa katika ngome hizi, waliendelea kuwa na udhibiti imara nchini Ufilipino».",
+      "translation_quote": "vilivyo ndogo vya kutosha kwa uwanja wa ndege na garnisoni ... waliendelea kuwa na shauri imara katika Philippines"
+    },
+    {
+      "location": "html, paragraph 18",
+      "severity": "major",
+      "source_quote": "Spread thin—with troops, equipment, and resources dwindling—they fought a desperate defensive campaign",
+      "suggested_fix": "Badilisha kuwa «Wakiwa wametawanyika katika maeneo mengi huku wanajeshi, vifaa na rasilimali zao zikipungua, walipigana kwa juhudi za kukata tamaa katika kampeni ya kujilinda».",
+      "translation_quote": "Walikuwa wamesambaa kwa upana—with wanajeshi, vifaa, na rasilimali zikiondoka—walipigana kampeni ya kujilinda kwa msukumo"
+    },
+    {
+      "location": "html, paragraph 19, Roosevelt and Truman",
+      "severity": "major",
+      "source_quote": "sickened and died ... His first decision was one unlike anything he could have ever imagined",
+      "suggested_fix": "Badilisha «aliuma na kufa» kuwa «aliugua na kufa», na sentensi ya uamuzi kuwa «Uamuzi wake wa kwanza ulikuwa tofauti na chochote ambacho angeweza kuwazia».",
+      "translation_quote": "aliuma na kufa ... Uamuzi wake wa kwanza ulikuwa mmoja ambaye hakuwahi kusubiri"
+    },
+    {
+      "location": "html, paragraph 19, atomic-bomb decision",
+      "severity": "major",
+      "source_quote": "hundreds of thousands of lives ... a newly developed atomic bomb being dropped from the relative safety of the air",
+      "suggested_fix": "Tumia «Je, angepoteza maisha ya mamia ya maelfu ya watu ili kuiteka Japani kwa uvamizi wa nchi kavu, au kuifanya mfano wa kutisha kwa kuidondoshea bomu la atomiki lililotengenezwa hivi karibuni kutoka angani, ambako kulikuwa salama zaidi kwa washambuliaji?»",
+      "translation_quote": "angeweka maelfu ya maisha ... kwa kupandisha bomu la atomiki lililotengenezwa mapema kutoka angani kwa usalama wa mbali"
+    },
+    {
+      "location": "html, paragraph 20",
+      "severity": "major",
+      "source_quote": "a pair of atomic bombs shocked Japan into surrender ... Except for the formalities",
+      "suggested_fix": "Badilisha kuwa «Uharibifu uliosababishwa na mabomu mawili ya atomiki uliishtua Japani kiasi cha kuifanya ijisalimishe» na «Isipokuwa taratibu rasmi zilizobaki, vita vilikuwa vimekwisha».",
+      "translation_quote": "Uharibifu wa mizinga miwili ya atomiki ulitoa mshtuko kwa Japan kuomba amani ... Bila taratibu rasmi"
+    },
+    {
+      "location": "html, paragraph 21",
+      "severity": "major",
+      "source_quote": "the war had changed them. Months and years had been spent away from spiritual oversight",
+      "suggested_fix": "Badilisha kuwa «Lakini vita vilikuwa vimewabadilisha. Walikuwa wametumia miezi na miaka mbali na uangalizi wa kiroho.»",
+      "translation_quote": "vita ilinageuza wao. Miezi na miaka yalitetemwa mbali na uangalizi wa kiroho"
+    },
+    {
+      "location": "html, paragraph 22",
+      "severity": "major",
+      "source_quote": "Both MacArthur and the victorious COs persevered to the end ... a fully surrendered life",
+      "suggested_fix": "Badilisha mwanzo kuwa «MacArthur na wale COs waliopata ushindi walivumilia hadi mwisho», na «maisha ya kukamilika kwa kukubali» kuwa «maisha yaliyojitoa kikamilifu kwa Mungu».",
+      "translation_quote": "Zote MacArthur na COs waliushinda hadi mwisho ... maisha ya kukamilika kwa kukubali"
+    },
+    {
+      "location": "html, figure, figcaption",
+      "severity": "major",
+      "source_quote": "PUT ON THE WHOLE ARMOUR OF GOD ... wiles of the devil ... principalities ... rulers of the darkness of this world ... SPIRITUAL WICKEDNESS IN HIGH PLACES",
+      "suggested_fix": "Tumia: <strong>VAENI SILAHA ZOTE ZA MUNGU,</strong> <em>ili mpate kuweza<br>\n    kusimama dhidi ya hila za Ibilisi.</em><br><br>\n    <em>Kwa maana hatupigani dhidi ya nyama na damu, bali dhidi ya falme,<br>\n    dhidi ya mamlaka, dhidi ya watawala wa giza la ulimwengu huu,</em><br>\n    <strong>DHIDI YA UOVU WA KIROHO KATIKA MAENEO YA JUU.</strong><br>\n    WAEFESO 6:11-12",
+      "translation_quote": "VAA VESTI YOTE YA MUNGU ... vilipuzi vya satana ... mkuu wa nguvu ... wanao utawala wa giza katika enzi hizi ... UASI WA KIROHO MAENEONI"
+    },
+    {
+      "location": "html, figure, img alt",
+      "severity": "major",
+      "source_quote": "Mountain silhouettes and birds at dusk beneath Ephesians 6:11-12",
+      "suggested_fix": "Badilisha thamani ya alt kuwa «Maumbo meusi ya milima na ndege wakati wa machweo chini ya Waefeso 6:11-12», bila kubadili sifa nyingine za picha.",
+      "translation_quote": "Mwamvuli wa milima na ndege wakati wa jioni chini ya Waefeso 6:11-12"
+    },
+    {
+      "location": "html, paragraph 2",
+      "severity": "minor",
+      "source_quote": "Adam and Eve ... The struggle against temptation and rebellion is present in each of us",
+      "suggested_fix": "Badilisha «Adamu na Evai» kuwa «Adamu na Hawa» na «Kupigana na vishawishi na uasi kunako ndani yetu kila mmoja» kuwa «Mapambano dhidi ya vishawishi na uasi yapo ndani ya kila mmoja wetu».",
+      "translation_quote": "Adamu na Evai ... Kupigana na vishawishi na uasi kunako ndani yetu kila mmoja"
+    },
+    {
+      "location": "html, paragraph 15, church support",
+      "severity": "minor",
+      "source_quote": "Churches prayed, wrote letters, and otherwise made efforts to support the young men",
+      "suggested_fix": "Badilisha kuwa «Makanisa yaliomba, yakaandika barua, na kufanya jitihada nyingine za kuwasaidia vijana hao».",
+      "translation_quote": "Makanisa yalikuwa yakiumba sala, kuandika barua, na kujaribu kwa njia mbalimbali kumsaidia vijana hao"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
