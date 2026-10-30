@@ -16105,6 +16105,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/cmn/articles/ad4e2c15-f6ba-4b89-a519-1a36655aa93a.html",
+      "html_sha256": "c682f9906748984cf938015fc10500950526642d26d5ad8d3af0e5e6d852ab46",
+      "human_reviewed": false,
+      "id": "ad4e2c15-f6ba-4b89-a519-1a36655aa93a",
+      "images": [
+        {
+          "alt": "耶稣跪在岩石间祷告",
+          "public_path": "/images/articles/ad4e2c15-f6ba-4b89-a519-1a36655aa93a-1.jpg"
+        }
+      ],
+      "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
+      "language": "cmn",
+      "language_tag": "zh-Hans",
+      "metadata": "content/cmn/articles/ad4e2c15-f6ba-4b89-a519-1a36655aa93a.json",
+      "metadata_sha256": "b5a52cadcec1f5c7cac1a0d88bd9b9536abb1ff7406d3ea91a878e85d1a2448b",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "ed75201a8e3b37913a14f4d949de33a7a0daa2c2",
+      "source_translation_key": "af0a2811aaad8facf9c0fb70e4f79fedbc83ae6bb333beb07b2d95c0bed6e2e6",
+      "status": "ready",
+      "subtitle": null,
+      "title": "燃烧之心的秘诀",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/cmn/articles/af526358-a4bb-44b9-aeec-2535f8ce9a29.html",
       "html_sha256": "1f849460d28c9cb34cc2452bedc1a35c728b6e7e3897fd506e66245281d0a84c",
       "human_reviewed": false,
@@ -30189,6 +30217,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/fra/articles/f838e04e-5633-4a29-9d34-793f456248a6.html",
+      "html_sha256": "ce4271341509f251f880c1d064b725b28160585c50c030cdd0712c2466d6830b",
+      "human_reviewed": false,
+      "id": "f838e04e-5633-4a29-9d34-793f456248a6",
+      "images": [
+        {
+          "alt": "Une jeune femme souriante portant des lunettes, près d’un arbre.",
+          "public_path": "/images/articles/f838e04e-5633-4a29-9d34-793f456248a6-1.jpg"
+        },
+        {
+          "alt": "Sept personnes debout dehors, devant des arbres.",
+          "public_path": "/images/articles/f838e04e-5633-4a29-9d34-793f456248a6-2.jpg"
+        }
+      ],
+      "issue_id": "07955de4-6574-4a4b-9c1b-f216374c02ee",
+      "language": "fra",
+      "language_tag": "fr",
+      "metadata": "content/fra/articles/f838e04e-5633-4a29-9d34-793f456248a6.json",
+      "metadata_sha256": "84087e432ba18ef6761324f4cd843f8681547c6a11475b9f8a1168a200623960",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "Le Coin des bénédictions",
+      "source_revision": "ed75201a8e3b37913a14f4d949de33a7a0daa2c2",
+      "source_translation_key": "11c28bf114f234094c18d24228f24b70a3066d4fe9e7c681b61528fe1e483ca7",
+      "status": "ready",
+      "subtitle": "Le récit d’une adolescente",
+      "title": "Du tourment à la paix",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/fra/articles/f87354d0-0bb8-4271-a8db-792c77d0d090.html",
       "html_sha256": "8611f0e9e4b1b5881135c11ecf375825f9944853e0232d500a215724795d9568",
       "human_reviewed": false,
@@ -30640,6 +30700,62 @@
       "status": "ready",
       "subtitle": null,
       "title": "תעלומת הנישואים",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
+      "html": "content/heb/articles/0c677d9e-ce73-4b27-a03f-d5457f7f1072.html",
+      "html_sha256": "4eb0bb11449edbfc2023e95b0787308a98d0116c76253a2005972adfbccd7a74",
+      "human_reviewed": false,
+      "id": "0c677d9e-ce73-4b27-a03f-d5457f7f1072",
+      "images": [
+        {
+          "alt": "אדם מושיט יד דרך סורגי כלא, מעל המילים „שחררו אותנו מן השעבוד”",
+          "public_path": "/images/articles/0c677d9e-ce73-4b27-a03f-d5457f7f1072-1.jpg"
+        },
+        {
+          "alt": "אסיר מאחורי סורגים, ולצדו מלאך",
+          "public_path": "/images/articles/0c677d9e-ce73-4b27-a03f-d5457f7f1072-2.jpg"
+        },
+        {
+          "alt": "נשים וילדים מתאספים בחדר חשוף",
+          "public_path": "/images/articles/0c677d9e-ce73-4b27-a03f-d5457f7f1072-3.jpg"
+        },
+        {
+          "alt": "סוהר צועד לפני אסירים לבושים בגדים מפוספסים",
+          "public_path": "/images/articles/0c677d9e-ce73-4b27-a03f-d5457f7f1072-4.jpg"
+        },
+        {
+          "alt": "שורה ארוכה של אסירים עומדים מחוץ לבניין",
+          "public_path": "/images/articles/0c677d9e-ce73-4b27-a03f-d5457f7f1072-5.jpg"
+        },
+        {
+          "alt": "אנשים פזורים ברחבת עיר",
+          "public_path": "/images/articles/0c677d9e-ce73-4b27-a03f-d5457f7f1072-6.jpg"
+        },
+        {
+          "alt": "אישה קוראת בפני אנשים היושבים בתוך תא כלא",
+          "public_path": "/images/articles/0c677d9e-ce73-4b27-a03f-d5457f7f1072-7.jpg"
+        },
+        {
+          "alt": "איור חרוט של בקבוק מוטל על צדו",
+          "public_path": "/images/articles/0c677d9e-ce73-4b27-a03f-d5457f7f1072-8.jpg"
+        }
+      ],
+      "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
+      "language": "heb",
+      "language_tag": "he",
+      "metadata": "content/heb/articles/0c677d9e-ce73-4b27-a03f-d5457f7f1072.json",
+      "metadata_sha256": "8fd7f6afaea6eef3d9e93703fa5bf411d3b54d0529760f7b5c1defdaa4393cee",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "ed75201a8e3b37913a14f4d949de33a7a0daa2c2",
+      "source_translation_key": "385aeb5b4a7bcbf512c0d5b8310c2fd8f5f85b86d43d077caf80670ee93c6738",
+      "status": "ready",
+      "subtitle": "מלאך בתי הסוהר",
+      "title": "מתילדה ורדה",
       "translation_model": "gpt-6-luna"
     },
     {
@@ -33329,6 +33445,29 @@
       "subtitle": null,
       "title": "הקריאה השמימית",
       "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
+      "html": "content/heb/articles/fb65688b-5aaf-4194-a345-31f6f1355389.html",
+      "html_sha256": "77a1cd95c88e3e80de9aa1cbc2c79ff698c25756abcf89e3a4aaccf83a2dc10c",
+      "human_reviewed": false,
+      "id": "fb65688b-5aaf-4194-a345-31f6f1355389",
+      "images": [],
+      "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
+      "language": "heb",
+      "language_tag": "he",
+      "metadata": "content/heb/articles/fb65688b-5aaf-4194-a345-31f6f1355389.json",
+      "metadata_sha256": "ae859079988f81df385da2eba16a9b5615991978b7ec64dde6fdf32bbf350fcd",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "מאת העורך",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "2b4f275d7b7ba8096cb0ab03fead7b5dd10aa236b7e3bc6ad2626bd76b72e500",
+      "status": "ready",
+      "subtitle": null,
+      "title": "מאת העורך",
+      "translation_model": "gpt-6.1-sol"
     },
     {
       "ai_notice_required": true,
@@ -37732,6 +37871,29 @@
       "subtitle": null,
       "title": "स्वर्गीय बुलाहट",
       "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/hin/articles/fb65688b-5aaf-4194-a345-31f6f1355389.html",
+      "html_sha256": "ba7c95261559d9ef24bfcce7e0a04d24e9b118979e6068ae801208a56fdf445e",
+      "human_reviewed": false,
+      "id": "fb65688b-5aaf-4194-a345-31f6f1355389",
+      "images": [],
+      "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
+      "language": "hin",
+      "language_tag": "hi",
+      "metadata": "content/hin/articles/fb65688b-5aaf-4194-a345-31f6f1355389.json",
+      "metadata_sha256": "3886e92906b6555e6f934aa3f0ac0945ec7a5fe5a0057299eeb053fe111f1734",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "संपादक से",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "2b4f275d7b7ba8096cb0ab03fead7b5dd10aa236b7e3bc6ad2626bd76b72e500",
+      "status": "ready",
+      "subtitle": null,
+      "title": "संपादक से",
+      "translation_model": "gpt-6.1-sol"
     },
     {
       "ai_notice_required": true,
@@ -43329,6 +43491,29 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ita/articles/22957e4c-ccce-4a76-b982-60e61ec6b998.html",
+      "html_sha256": "a5efd7d2b9938513e1b231b693d10ea095c7d5e3a3760febe32ca8c1d1137896",
+      "human_reviewed": false,
+      "id": "22957e4c-ccce-4a76-b982-60e61ec6b998",
+      "images": [],
+      "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
+      "language": "ita",
+      "language_tag": "it",
+      "metadata": "content/ita/articles/22957e4c-ccce-4a76-b982-60e61ec6b998.json",
+      "metadata_sha256": "42077f105779512cb373dfcc0de4c4bb70ae8b7e2529d979fd22099aa3c36805",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "STORIA DELLA CHIESA",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "0ec18dc4a4b289e72e00424bde99770f0dbc52c0ceb26b1a16a8b4b40097dc16",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Nerone: vita di un imperatore",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ita/articles/269bd2b1-418e-4d93-bd15-e7937c1adb85.html",
       "html_sha256": "6a74e3b70895133126a9d4d010acda1b084c2dc2942d86a3b49d5765464aa637",
       "human_reviewed": false,
@@ -46132,6 +46317,34 @@
       "subtitle": null,
       "title": "Ken e io",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/ita/articles/ad4e2c15-f6ba-4b89-a519-1a36655aa93a.html",
+      "html_sha256": "9c4c4678c1ee9d5f3ed5f2f7cbeac37f51794218363d911cbadd54140eae857d",
+      "human_reviewed": false,
+      "id": "ad4e2c15-f6ba-4b89-a519-1a36655aa93a",
+      "images": [
+        {
+          "alt": "Gesù è inginocchiato in preghiera tra le rocce",
+          "public_path": "/images/articles/ad4e2c15-f6ba-4b89-a519-1a36655aa93a-1.jpg"
+        }
+      ],
+      "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
+      "language": "ita",
+      "language_tag": "it",
+      "metadata": "content/ita/articles/ad4e2c15-f6ba-4b89-a519-1a36655aa93a.json",
+      "metadata_sha256": "9321a6ce0861e37633a78df5edc50f958e06c559c09c696b156f8626d77d701b",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "ed75201a8e3b37913a14f4d949de33a7a0daa2c2",
+      "source_translation_key": "af0a2811aaad8facf9c0fb70e4f79fedbc83ae6bb333beb07b2d95c0bed6e2e6",
+      "status": "ready",
+      "subtitle": null,
+      "title": "La formula per un cuore ardente",
+      "translation_model": "gpt-6-luna"
     },
     {
       "ai_notice_required": true,
@@ -57069,6 +57282,62 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/nob/articles/0c677d9e-ce73-4b27-a03f-d5457f7f1072.html",
+      "html_sha256": "f35ea8f8f6d91c440ba3dbd48b98f6a64ad0d421441385b336957901968fcff1",
+      "human_reviewed": false,
+      "id": "0c677d9e-ce73-4b27-a03f-d5457f7f1072",
+      "images": [
+        {
+          "alt": "En person strekker seg gjennom fengselsgitteret over ordene «FRIGJØR OSS FRA TRELLDOM»",
+          "public_path": "/images/articles/0c677d9e-ce73-4b27-a03f-d5457f7f1072-1.jpg"
+        },
+        {
+          "alt": "En fange bak gitteret med en engel ved siden av seg",
+          "public_path": "/images/articles/0c677d9e-ce73-4b27-a03f-d5457f7f1072-2.jpg"
+        },
+        {
+          "alt": "Kvinner og barn samlet i et nakent rom",
+          "public_path": "/images/articles/0c677d9e-ce73-4b27-a03f-d5457f7f1072-3.jpg"
+        },
+        {
+          "alt": "En vakt går foran fanger i stripete klær",
+          "public_path": "/images/articles/0c677d9e-ce73-4b27-a03f-d5457f7f1072-4.jpg"
+        },
+        {
+          "alt": "En lang rekke fanger står utenfor en bygning",
+          "public_path": "/images/articles/0c677d9e-ce73-4b27-a03f-d5457f7f1072-5.jpg"
+        },
+        {
+          "alt": "Mennesker spredt utover et bytorg",
+          "public_path": "/images/articles/0c677d9e-ce73-4b27-a03f-d5457f7f1072-6.jpg"
+        },
+        {
+          "alt": "En kvinne leser for mennesker som sitter inne i en fengselscelle",
+          "public_path": "/images/articles/0c677d9e-ce73-4b27-a03f-d5457f7f1072-7.jpg"
+        },
+        {
+          "alt": "En gravert illustrasjon av en flaske som ligger på siden",
+          "public_path": "/images/articles/0c677d9e-ce73-4b27-a03f-d5457f7f1072-8.jpg"
+        }
+      ],
+      "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
+      "language": "nob",
+      "language_tag": "nb",
+      "metadata": "content/nob/articles/0c677d9e-ce73-4b27-a03f-d5457f7f1072.json",
+      "metadata_sha256": "b6fec777589233b86e5df29c478fd9c4e7b4804bcb2728c60a16aa7d22810a18",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "ed75201a8e3b37913a14f4d949de33a7a0daa2c2",
+      "source_translation_key": "385aeb5b4a7bcbf512c0d5b8310c2fd8f5f85b86d43d077caf80670ee93c6738",
+      "status": "ready",
+      "subtitle": "Fengslenes engel",
+      "title": "Mathilde Wrede",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/nob/articles/0f775a7f-1f39-428b-8d96-3d48095e1f49.html",
       "html_sha256": "01eba6129ffeeb1572582e507d39345fd8abceed870cdff9ded35b8c5dbf18f6",
       "human_reviewed": false,
@@ -61456,6 +61725,62 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/por/articles/0c677d9e-ce73-4b27-a03f-d5457f7f1072.html",
+      "html_sha256": "3f0a8a4492196fdbef1b467c57807fa2ba57706ce63d87ef9c9672261a27328d",
+      "human_reviewed": false,
+      "id": "0c677d9e-ce73-4b27-a03f-d5457f7f1072",
+      "images": [
+        {
+          "alt": "Uma pessoa estende a mão por entre as grades de uma prisão, acima das palavras “LIBERTEM-NOS DA ESCRAVIDÃO”",
+          "public_path": "/images/articles/0c677d9e-ce73-4b27-a03f-d5457f7f1072-1.jpg"
+        },
+        {
+          "alt": "Um preso atrás das grades, com um anjo ao seu lado",
+          "public_path": "/images/articles/0c677d9e-ce73-4b27-a03f-d5457f7f1072-2.jpg"
+        },
+        {
+          "alt": "Mulheres e crianças reunidas numa sala despojada",
+          "public_path": "/images/articles/0c677d9e-ce73-4b27-a03f-d5457f7f1072-3.jpg"
+        },
+        {
+          "alt": "Um guarda caminha diante de presos vestidos com roupas às riscas",
+          "public_path": "/images/articles/0c677d9e-ce73-4b27-a03f-d5457f7f1072-4.jpg"
+        },
+        {
+          "alt": "Uma longa fila de presos de pé diante de um edifício",
+          "public_path": "/images/articles/0c677d9e-ce73-4b27-a03f-d5457f7f1072-5.jpg"
+        },
+        {
+          "alt": "Pessoas espalhadas por uma praça da cidade",
+          "public_path": "/images/articles/0c677d9e-ce73-4b27-a03f-d5457f7f1072-6.jpg"
+        },
+        {
+          "alt": "Uma mulher lê para pessoas sentadas dentro de uma cela de prisão",
+          "public_path": "/images/articles/0c677d9e-ce73-4b27-a03f-d5457f7f1072-7.jpg"
+        },
+        {
+          "alt": "Uma ilustração gravada de uma garrafa deitada de lado",
+          "public_path": "/images/articles/0c677d9e-ce73-4b27-a03f-d5457f7f1072-8.jpg"
+        }
+      ],
+      "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
+      "language": "por",
+      "language_tag": "pt",
+      "metadata": "content/por/articles/0c677d9e-ce73-4b27-a03f-d5457f7f1072.json",
+      "metadata_sha256": "9721e9c89b3ddb4b7af73b02b3d883bcbfeec1daf237a7bdfcf3e7eeffc550e3",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "ed75201a8e3b37913a14f4d949de33a7a0daa2c2",
+      "source_translation_key": "385aeb5b4a7bcbf512c0d5b8310c2fd8f5f85b86d43d077caf80670ee93c6738",
+      "status": "ready",
+      "subtitle": "O Anjo das Prisões",
+      "title": "Mathilde Wrede",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/por/articles/0f775a7f-1f39-428b-8d96-3d48095e1f49.html",
       "html_sha256": "494fddd1db6c3126dc46064975a86f1a5ba4a8d1c3f80463953072bf76da90ab",
       "human_reviewed": false,
@@ -65007,6 +65332,34 @@
       "subtitle": null,
       "title": "Ken e Eu",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/por/articles/ad4e2c15-f6ba-4b89-a519-1a36655aa93a.html",
+      "html_sha256": "d695660bc531f53d09e0973ef00e49cbbeed42532810868c70a3f922a5bc75e5",
+      "human_reviewed": false,
+      "id": "ad4e2c15-f6ba-4b89-a519-1a36655aa93a",
+      "images": [
+        {
+          "alt": "Jesus ajoelhado em oração entre rochas",
+          "public_path": "/images/articles/ad4e2c15-f6ba-4b89-a519-1a36655aa93a-1.jpg"
+        }
+      ],
+      "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
+      "language": "por",
+      "language_tag": "pt",
+      "metadata": "content/por/articles/ad4e2c15-f6ba-4b89-a519-1a36655aa93a.json",
+      "metadata_sha256": "c7d732b6f1989966e9ae80ced3f4c975033e3dfb4f97c98a86b64fdf6e0c5f22",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "ed75201a8e3b37913a14f4d949de33a7a0daa2c2",
+      "source_translation_key": "af0a2811aaad8facf9c0fb70e4f79fedbc83ae6bb333beb07b2d95c0bed6e2e6",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Fórmula para um coração ardente",
+      "translation_model": "gpt-6-luna"
     },
     {
       "ai_notice_required": true,
@@ -69662,6 +70015,34 @@
       "subtitle": null,
       "title": "Кен и я",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/rus/articles/ad4e2c15-f6ba-4b89-a519-1a36655aa93a.html",
+      "html_sha256": "1a0114de8fd24d2a3091f04a5e3fab5e7879130830930bf4e4e21caae785827c",
+      "human_reviewed": false,
+      "id": "ad4e2c15-f6ba-4b89-a519-1a36655aa93a",
+      "images": [
+        {
+          "alt": "Иисус преклонил колени в молитве среди скал",
+          "public_path": "/images/articles/ad4e2c15-f6ba-4b89-a519-1a36655aa93a-1.jpg"
+        }
+      ],
+      "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
+      "language": "rus",
+      "language_tag": "ru",
+      "metadata": "content/rus/articles/ad4e2c15-f6ba-4b89-a519-1a36655aa93a.json",
+      "metadata_sha256": "208174a3bfce914095510c945ae233c584ad2312510e627dbd1197e5ffac33ee",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "ed75201a8e3b37913a14f4d949de33a7a0daa2c2",
+      "source_translation_key": "af0a2811aaad8facf9c0fb70e4f79fedbc83ae6bb333beb07b2d95c0bed6e2e6",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Формула пылающего сердца",
+      "translation_model": "gpt-6-luna"
     },
     {
       "ai_notice_required": true,
@@ -79215,6 +79596,29 @@
       "subtitle": null,
       "title": "MWITO WA MBINGUNI",
       "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/swa/articles/fb65688b-5aaf-4194-a345-31f6f1355389.html",
+      "html_sha256": "2c196a8be13bb7dbd23a58c9b255e2de6c2bea5d930586a8cfd2953e5a7d3c96",
+      "human_reviewed": false,
+      "id": "fb65688b-5aaf-4194-a345-31f6f1355389",
+      "images": [],
+      "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
+      "language": "swa",
+      "language_tag": "sw",
+      "metadata": "content/swa/articles/fb65688b-5aaf-4194-a345-31f6f1355389.json",
+      "metadata_sha256": "458dddcfcc8bd4919dd008e84d4d82a964c7d9b79123ac4fb9a545ef2d5c2cd1",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "Kutoka kwa MHARIRI",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "2b4f275d7b7ba8096cb0ab03fead7b5dd10aa236b7e3bc6ad2626bd76b72e500",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Kutoka kwa Mhariri",
+      "translation_model": "gpt-6.1-sol"
     },
     {
       "ai_notice_required": true,
