@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraph beginning „Vierzig Jahre lang …“",
+      "severity": "minor",
+      "source_quote": "“a special charisma given to this woman”",
+      "suggested_fix": "Ändern Sie „eine besondere Charisma“ zu „ein besonderes Charisma“: „… dass dieser Frau ein besonderes Charisma für die Arbeit geschenkt worden war …“",
+      "translation_quote": "„… dass dieser Frau eine besondere Charisma für die Arbeit geschenkt worden war …“"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

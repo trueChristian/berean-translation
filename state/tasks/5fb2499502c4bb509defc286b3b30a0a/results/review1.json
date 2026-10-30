@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "758eced0-0880-4e0a-88f0-e008802d29d7",
+    "response_id": "chatcmpl-EefXb1TGOU23dKruR2N3qXeRLmHY9",
+    "usage": {
+      "completion_tokens": 1031,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 896,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9860,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8757,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 10891
+    }
+  },
+  "received_at": "2026-10-30T14:05:46+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, paragraph beginning „Vierzig Jahre lang …“",
+        "severity": "minor",
+        "source_quote": "“a special charisma given to this woman”",
+        "suggested_fix": "Ändern Sie „eine besondere Charisma“ zu „ein besonderes Charisma“: „… dass dieser Frau ein besonderes Charisma für die Arbeit geschenkt worden war …“",
+        "translation_quote": "„… dass dieser Frau eine besondere Charisma für die Arbeit geschenkt worden war …“"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}
