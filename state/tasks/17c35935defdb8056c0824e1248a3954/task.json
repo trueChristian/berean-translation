@@ -1,0 +1,157 @@
+{
+  "article_id": "34125090-b480-4d63-b13a-33d47470f335",
+  "automatic_previous_task": "af6644db073cc2a4ffa5004276b2e0ef",
+  "autonomous": true,
+  "autonomous_recovery": true,
+  "base_html_sha256": null,
+  "base_metadata_sha256": null,
+  "campaign": "auto-91d0b46fd13d4d00ccfdb96cd634c71509dcfbc62fa6408c4e7562098e6c8bbd",
+  "created_at": "2026-10-30T02:34:16+00:00",
+  "events": [],
+  "findings": [
+    {
+      "location": "html, paragrafo sull'ingresso del re al banchetto",
+      "severity": "minor",
+      "source_quote": "he was pleased with what he saw",
+      "suggested_fix": "Sostituire «ne fu compiaciuto di ciò che vide» con «fu compiaciuto di ciò che vide».",
+      "translation_quote": "ne fu compiaciuto di ciò che vide"
+    },
+    {
+      "location": "html, citazione di Adam Clark",
+      "severity": "minor",
+      "source_quote": "long white robes were worn at public festivals",
+      "suggested_fix": "Sostituire «lunghe veste bianche» con «lunghe vesti bianche».",
+      "translation_quote": "lunghe veste bianche erano indossate nelle feste pubbliche"
+    },
+    {
+      "location": "html, paragrafo sulla condizione dell'uomo senza abito nuziale",
+      "severity": "minor",
+      "source_quote": "We are not told the exact condition of this man",
+      "suggested_fix": "Sostituire «Non ci viene detto la condizione esatta» con «Non ci viene detta la condizione esatta».",
+      "translation_quote": "Non ci viene detto la condizione esatta"
+    },
+    {
+      "location": "html, paragrafo sull'offerta della donna in casa di Simone",
+      "severity": "minor",
+      "source_quote": "She anointed Jesus’ feet and washed them with her tears",
+      "suggested_fix": "Sostituire «Ungendo i piedi di Gesù e lavandoli con le sue lacrime» con «Unse i piedi di Gesù e li lavò con le sue lacrime», conservando il seguito del periodo.",
+      "translation_quote": "Ungendo i piedi di Gesù e lavandoli con le sue lacrime"
+    },
+    {
+      "location": "html, citazione di Adam Clark, frase sulla distribuzione dell'abito",
+      "severity": "minor",
+      "source_quote": "and with which he was furnished on his application to the ruler of the feast",
+      "suggested_fix": "Sostituire «e con esso veniva fornito su sua richiesta al capo della festa» con «e ciascun ospite lo riceveva facendone richiesta al responsabile del banchetto».",
+      "translation_quote": "e con esso veniva fornito su sua richiesta al capo della festa"
+    }
+  ],
+  "id": "17c35935defdb8056c0824e1248a3954",
+  "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
+  "language": "ita",
+  "model": "gpt-6.1-sol",
+  "models": {
+    "gpt-4.1": {
+      "api_model": "gpt-4.1-2025-04-14",
+      "context_tokens": 1047576,
+      "input_batch_usd_per_million": 1.0,
+      "max_output_tokens": 32768,
+      "output_batch_usd_per_million": 4.0,
+      "quality_note": "Higher-cost translation or reviewer option.",
+      "reasoning_effort": null
+    },
+    "gpt-4.1-mini": {
+      "api_model": "gpt-4.1-mini-2025-04-14",
+      "context_tokens": 1047576,
+      "input_batch_usd_per_million": 0.2,
+      "max_output_tokens": 32768,
+      "output_batch_usd_per_million": 0.8,
+      "quality_note": "Default cost-conscious candidate; not certified for theological accuracy in every language.",
+      "reasoning_effort": null
+    },
+    "gpt-4.1-nano": {
+      "api_model": "gpt-4.1-nano-2025-04-14",
+      "context_tokens": 1047576,
+      "input_batch_usd_per_million": 0.05,
+      "max_output_tokens": 32768,
+      "output_batch_usd_per_million": 0.2,
+      "quality_note": "Lowest-cost option in this registry; benchmark before bulk publication.",
+      "reasoning_effort": null
+    },
+    "gpt-5-mini": {
+      "api_model": "gpt-5-mini-2025-08-07",
+      "context_tokens": 400000,
+      "input_batch_usd_per_million": 0.125,
+      "max_output_tokens": 128000,
+      "output_batch_usd_per_million": 1.0,
+      "quality_note": "Reasoning tokens consume output budget; benchmark total cost and quality.",
+      "reasoning_effort": "low"
+    },
+    "gpt-6-astra": {
+      "api_model": "gpt-6-astra",
+      "cache_write_batch_usd_per_million": 6.25,
+      "cached_input_batch_usd_per_million": 0.5,
+      "context_tokens": 1050000,
+      "input_batch_usd_per_million": 5.0,
+      "long_context_input_multiplier": 2.0,
+      "long_context_output_multiplier": 1.5,
+      "long_context_threshold_tokens": 272000,
+      "max_output_tokens": 128000,
+      "output_batch_usd_per_million": 25.0,
+      "pricing_verified_on": "2026-10-02",
+      "quality_note": "Higher-cost manual recovery option. Documented API alias; no dated snapshot is published. Reasoning shares the output cap. Quality gates remain required.",
+      "reasoning_effort": "low"
+    },
+    "gpt-6-luna": {
+      "api_model": "gpt-6-luna",
+      "cache_write_batch_usd_per_million": 0.0625,
+      "cached_input_batch_usd_per_million": 0.005,
+      "context_tokens": 1050000,
+      "input_batch_usd_per_million": 0.05,
+      "long_context_input_multiplier": 2.0,
+      "long_context_output_multiplier": 1.5,
+      "long_context_threshold_tokens": 272000,
+      "max_output_tokens": 128000,
+      "output_batch_usd_per_million": 0.25,
+      "pricing_verified_on": "2026-10-02",
+      "quality_note": "Affordable default for new manual translation and review campaigns. Documented API alias; no dated snapshot is published. Reasoning shares the output cap. Benchmark theological accuracy; quality gates remain required.",
+      "reasoning_effort": "low"
+    },
+    "gpt-6.1-sol": {
+      "api_model": "gpt-6.1-sol",
+      "cache_write_batch_usd_per_million": 1.25,
+      "cached_input_batch_usd_per_million": 0.05,
+      "context_tokens": 1050000,
+      "input_batch_usd_per_million": 1.0,
+      "long_context_input_multiplier": 2.0,
+      "long_context_output_multiplier": 1.5,
+      "long_context_threshold_tokens": 272000,
+      "max_output_tokens": 128000,
+      "output_batch_usd_per_million": 5.0,
+      "pricing_verified_on": "2026-10-02",
+      "quality_note": "Stronger downstream recovery option. Documented API alias; no dated snapshot is published. Reasoning shares the output cap. Quality gates remain required.",
+      "reasoning_effort": "low"
+    }
+  },
+  "protected": false,
+  "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
+  "review_attempts": 0,
+  "review_model": "gpt-6.1-sol",
+  "source_snapshot": "state/sources/21c8641ce0ae285627965ca28d18397c39ccff0fa09ba301857fc1d0049b6b9d.json",
+  "stage": "review1",
+  "stage_budget": {
+    "initial_stage": "review1",
+    "max_candidate_bytes": 120000,
+    "max_findings_bytes": 32768,
+    "stages_usd": {
+      "correct": 0.294903,
+      "review1": 0.090293,
+      "review2": 0.372195
+    },
+    "total_reserved_usd": 0.757391,
+    "version": 1
+  },
+  "status": "queued",
+  "translation_attempts": 0,
+  "translation_key": "b3a0b32450038629cf20919c69af275c4549e0b458e25e2b5d03da547dfb97f7",
+  "translation_model_actual": "gpt-5-mini-2025-08-07"
+}
