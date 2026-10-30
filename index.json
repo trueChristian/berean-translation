@@ -18864,6 +18864,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/deu/articles/713c3d95-5295-421e-9ca7-3cd2cc1643d9.html",
+      "html_sha256": "77e787318d642858825708e6eea8d50b891554cf6f3bb2bd812da8c270f257bd",
+      "human_reviewed": false,
+      "id": "713c3d95-5295-421e-9ca7-3cd2cc1643d9",
+      "images": [
+        {
+          "alt": "Ein immergrüner Baum an einem See, mit Sträuchern und einem schneebedeckten Berghang.",
+          "public_path": "/images/articles/713c3d95-5295-421e-9ca7-3cd2cc1643d9-1.jpg"
+        }
+      ],
+      "issue_id": "07955de4-6574-4a4b-9c1b-f216374c02ee",
+      "language": "deu",
+      "language_tag": "de",
+      "metadata": "content/deu/articles/713c3d95-5295-421e-9ca7-3cd2cc1643d9.json",
+      "metadata_sha256": "5bdd98b2506db7295b9552e7bf2e0357e5f89b8b2e6d22325679cdf4ded3c9c2",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": null,
+      "source_revision": "35e83d5cefdae79c4c465124635153dcb66c0efe",
+      "source_translation_key": "9704c8a9ddf18fd2d3f3459b678185578331584dcb4b99104a040be948b131c6",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Vollmacht",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/deu/articles/719ef93a-7242-445f-8e5b-201567145e20.html",
       "html_sha256": "b686b4beb94e70a70776adec36a8a23dc7807908244754ea1e54ef8dd92c624d",
       "human_reviewed": false,
@@ -20936,6 +20964,29 @@
       "subtitle": null,
       "title": "DIE HIMMLISCHE BERUFUNG",
       "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/deu/articles/fb65688b-5aaf-4194-a345-31f6f1355389.html",
+      "html_sha256": "42f34f50f4b450e145f9691c868f44c1923287c8ab91ee0f1fb7b4acb8c67737",
+      "human_reviewed": false,
+      "id": "fb65688b-5aaf-4194-a345-31f6f1355389",
+      "images": [],
+      "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
+      "language": "deu",
+      "language_tag": "de",
+      "metadata": "content/deu/articles/fb65688b-5aaf-4194-a345-31f6f1355389.json",
+      "metadata_sha256": "bb797a3c66eb32c49eeba39bce88876d3ee8bf13fc0aea271286a6a2df52df42",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "Vom HERAUSGEBER",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "2b4f275d7b7ba8096cb0ab03fead7b5dd10aa236b7e3bc6ad2626bd76b72e500",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Vom Herausgeber",
+      "translation_model": "gpt-5-mini-2025-08-07"
     },
     {
       "ai_notice_required": true,
@@ -32063,6 +32114,34 @@
     {
       "ai_notice_required": true,
       "direction": "rtl",
+      "html": "content/heb/articles/8ef84e9e-0a7f-4a0b-8b7d-4e3a10f611e8.html",
+      "html_sha256": "50d4a3840f82507bf86e949bfbbaa75c0d2860ec42ae56c6c42bbcdf2c137971",
+      "human_reviewed": false,
+      "id": "8ef84e9e-0a7f-4a0b-8b7d-4e3a10f611e8",
+      "images": [
+        {
+          "alt": "פרחי קוסמוס ורודים על רקע מטושטש בעדינות",
+          "public_path": "/images/articles/8ef84e9e-0a7f-4a0b-8b7d-4e3a10f611e8-1.jpg"
+        }
+      ],
+      "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
+      "language": "heb",
+      "language_tag": "he",
+      "metadata": "content/heb/articles/8ef84e9e-0a7f-4a0b-8b7d-4e3a10f611e8.json",
+      "metadata_sha256": "0300845516b7f04d12f4edb5226463038760ff76f1db3bdc8c314d3354e7df22",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "פינת הילדים",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "d141263ef5e8a0b21b848818d2926b208c06eeac97c84e44af137498d97ac1dd",
+      "status": "ready",
+      "subtitle": null,
+      "title": "הבטחה של שיר",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
       "html": "content/heb/articles/8f36dee3-685c-47b8-b1d4-9981806d4cd5.html",
       "html_sha256": "da6d0618af4fda0cf285c6ed1257efc92a2ee45e5e14fc01bbd83939272ab082",
       "human_reviewed": false,
@@ -42694,6 +42773,62 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ita/articles/0c677d9e-ce73-4b27-a03f-d5457f7f1072.html",
+      "html_sha256": "f6c0584294b0e8d59c36136daef34b0e9d5a87a245ff0299a8fbf244b2cf8ef5",
+      "human_reviewed": false,
+      "id": "0c677d9e-ce73-4b27-a03f-d5457f7f1072",
+      "images": [
+        {
+          "alt": "Una persona tende una mano attraverso le sbarre di una prigione, sopra le parole «LIBERATECI dalla SCHIAVITÙ»",
+          "public_path": "/images/articles/0c677d9e-ce73-4b27-a03f-d5457f7f1072-1.jpg"
+        },
+        {
+          "alt": "Un prigioniero dietro le sbarre con un angelo accanto",
+          "public_path": "/images/articles/0c677d9e-ce73-4b27-a03f-d5457f7f1072-2.jpg"
+        },
+        {
+          "alt": "Donne e bambini riuniti in una stanza spoglia",
+          "public_path": "/images/articles/0c677d9e-ce73-4b27-a03f-d5457f7f1072-3.jpg"
+        },
+        {
+          "alt": "Una guardia cammina davanti a prigionieri vestiti a righe",
+          "public_path": "/images/articles/0c677d9e-ce73-4b27-a03f-d5457f7f1072-4.jpg"
+        },
+        {
+          "alt": "Una lunga fila di prigionieri in piedi davanti a un edificio",
+          "public_path": "/images/articles/0c677d9e-ce73-4b27-a03f-d5457f7f1072-5.jpg"
+        },
+        {
+          "alt": "Persone sparse in una piazza cittadina",
+          "public_path": "/images/articles/0c677d9e-ce73-4b27-a03f-d5457f7f1072-6.jpg"
+        },
+        {
+          "alt": "Una donna legge a persone sedute in una cella",
+          "public_path": "/images/articles/0c677d9e-ce73-4b27-a03f-d5457f7f1072-7.jpg"
+        },
+        {
+          "alt": "Illustrazione incisa di una bottiglia coricata su un fianco",
+          "public_path": "/images/articles/0c677d9e-ce73-4b27-a03f-d5457f7f1072-8.jpg"
+        }
+      ],
+      "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
+      "language": "ita",
+      "language_tag": "it",
+      "metadata": "content/ita/articles/0c677d9e-ce73-4b27-a03f-d5457f7f1072.json",
+      "metadata_sha256": "65c9dc24e018c8cc4d0408f16e900b8cb32a84f33b1eb03e295da260fed42189",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "ed75201a8e3b37913a14f4d949de33a7a0daa2c2",
+      "source_translation_key": "385aeb5b4a7bcbf512c0d5b8310c2fd8f5f85b86d43d077caf80670ee93c6738",
+      "status": "ready",
+      "subtitle": "L'angelo delle prigioni",
+      "title": "Mathilde Wrede",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ita/articles/0f775a7f-1f39-428b-8d96-3d48095e1f49.html",
       "html_sha256": "f55877b2db28d26bf4a4556110b57e0036a41f10daa97cda185859c798a20735",
       "human_reviewed": false,
@@ -48582,6 +48717,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/kor/articles/53e8b534-1f5e-4d9d-b191-99707a404256.html",
+      "html_sha256": "cc292fdba633dad8921e005605c6c08fc3052e4e9a11be92bf131c2134091a21",
+      "human_reviewed": false,
+      "id": "53e8b534-1f5e-4d9d-b191-99707a404256",
+      "images": [
+        {
+          "alt": "겹겹의 산과 구름 아래 펼쳐진 넓은 사막 골짜기",
+          "public_path": "/images/articles/53e8b534-1f5e-4d9d-b191-99707a404256-1.jpg"
+        }
+      ],
+      "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
+      "language": "kor",
+      "language_tag": "ko",
+      "metadata": "content/kor/articles/53e8b534-1f5e-4d9d-b191-99707a404256.json",
+      "metadata_sha256": "c79730a9cecc7fe02025de53652d0356a6418c8023e59b1b1223744909172215",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "인물 연구",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "fa6973e1c0869cf8ea44c825b0af02960182750ad2e2fbf60dce9af0c7f03feb",
+      "status": "ready",
+      "subtitle": null,
+      "title": "미디안의 모세",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/kor/articles/54c17772-223b-4fc7-b2e6-0bda387f9b23.html",
       "html_sha256": "8d9516e1ae4dee3c0c52a096e2ecbdd08e2181662189bb55178efaa2d74c5019",
       "human_reviewed": false,
@@ -54025,6 +54188,34 @@
       "subtitle": null,
       "title": "Wees dankbaar",
       "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/nld/articles/8aa76d0a-4ff5-403e-a366-7d6b8fe26924.html",
+      "html_sha256": "46511e0de5e8e8401bd724716b2e80e98686fafe8e3b5a368d5b35ea33fb9040",
+      "human_reviewed": false,
+      "id": "8aa76d0a-4ff5-403e-a366-7d6b8fe26924",
+      "images": [
+        {
+          "alt": "Een gravure van Achan die tijdens een veldslag buit neemt",
+          "public_path": "/images/articles/8aa76d0a-4ff5-403e-a366-7d6b8fe26924-1.jpg"
+        }
+      ],
+      "issue_id": "1933c1f0-be1f-561a-b470-79a5ced64c04",
+      "language": "nld",
+      "language_tag": "nl",
+      "metadata": "content/nld/articles/8aa76d0a-4ff5-403e-a366-7d6b8fe26924.json",
+      "metadata_sha256": "f60005ebb58f3fcd4aed22c02266e810a1a7cd8587331d409f4cb9ec76afb948",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "Inspiratie voor jongeren",
+      "source_revision": "22388745ad7f149609e65f5e28cfcc1257cd689e",
+      "source_translation_key": "edc5d2d663c19be2cb124ae52e26f6267714a265b8d47257698c5fa0843e0c53",
+      "status": "ready",
+      "subtitle": null,
+      "title": "De verlangens van uw hart",
+      "translation_model": "gpt-6.1-sol"
     },
     {
       "ai_notice_required": true,
@@ -71384,6 +71575,34 @@
       "subtitle": null,
       "title": "La caída de Joey",
       "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/spa/articles/34125090-b480-4d63-b13a-33d47470f335.html",
+      "html_sha256": "ed465545244d2e01612bf7b9b603cf12d822a57bf3cf8484f364941b673c0611",
+      "human_reviewed": false,
+      "id": "34125090-b480-4d63-b13a-33d47470f335",
+      "images": [
+        {
+          "alt": "Amanecer sobre picos montañosos escarpados",
+          "public_path": "/images/articles/34125090-b480-4d63-b13a-33d47470f335-1.jpg"
+        }
+      ],
+      "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
+      "language": "spa",
+      "language_tag": "es",
+      "metadata": "content/spa/articles/34125090-b480-4d63-b13a-33d47470f335.json",
+      "metadata_sha256": "312c89565e017fadf814039c082fec645776beddb63161de6897950e11b83d2a",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "La iglesia del Nuevo Testamento",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "b3a0b32450038629cf20919c69af275c4549e0b458e25e2b5d03da547dfb97f7",
+      "status": "ready",
+      "subtitle": "El segundo artículo de la serie “El llamado al discipulado”",
+      "title": "Un llamado a la santidad",
+      "translation_model": "gpt-6.1-sol"
     },
     {
       "ai_notice_required": true,
