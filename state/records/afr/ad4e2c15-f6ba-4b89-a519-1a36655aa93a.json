@@ -1,0 +1,15 @@
+{
+  "article_id": "ad4e2c15-f6ba-4b89-a519-1a36655aa93a",
+  "history": [
+    {
+      "at": "2026-10-30T01:48:35+00:00",
+      "campaign": "auto-cbb9d3063618f3e77174c02c9ee8fac1050b930684783321a08983fa3770dd94",
+      "event": "automatic_requested",
+      "previous_task": null,
+      "task": "6bb3c087e652da64f2104424c4133949"
+    }
+  ],
+  "language": "afr",
+  "latest_task": "6bb3c087e652da64f2104424c4133949",
+  "published": null
+}
