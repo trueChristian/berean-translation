@@ -76135,6 +76135,46 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/spa/articles/a5c8b070-97f8-4050-9ac5-89af497287b0.html",
+      "html_sha256": "47873443df0c827428be0b4c74206e80fadb62ca6a796ddbfd46b4f3257a6f97",
+      "human_reviewed": false,
+      "id": "a5c8b070-97f8-4050-9ac5-89af497287b0",
+      "images": [
+        {
+          "alt": "Un león y otros animales observan a un niño que baila",
+          "public_path": "/images/articles/a5c8b070-97f8-4050-9ac5-89af497287b0-1.jpg"
+        },
+        {
+          "alt": "Una placa que describe a C. S. Lewis y a sus amigos reuniéndose en la sala trasera de un pub",
+          "public_path": "/images/articles/a5c8b070-97f8-4050-9ac5-89af497287b0-2.jpg"
+        },
+        {
+          "alt": "Una portada de la revista TIME con un retrato de C. S. Lewis",
+          "public_path": "/images/articles/a5c8b070-97f8-4050-9ac5-89af497287b0-3.jpg"
+        },
+        {
+          "alt": "C. S. Lewis sentado con un libro",
+          "public_path": "/images/articles/a5c8b070-97f8-4050-9ac5-89af497287b0-4.jpg"
+        }
+      ],
+      "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
+      "language": "spa",
+      "language_tag": "es",
+      "metadata": "content/spa/articles/a5c8b070-97f8-4050-9ac5-89af497287b0.json",
+      "metadata_sha256": "b7dd32b75fdb0b0fc8701bcd569f829fd9f7a93430d837c8af253dd3f97cc135",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": null,
+      "source_revision": "ed75201a8e3b37913a14f4d949de33a7a0daa2c2",
+      "source_translation_key": "6db58cafff7cfe9f11556e892b54ec7a0015890307776806dd7acebca34a78c1",
+      "status": "ready",
+      "subtitle": "¡CRISTIANO, ESTATE ALERTA!",
+      "title": "El león, la bruja y la Cajita Feliz:",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/spa/articles/a5dc3764-e799-4138-82f0-87b245a77db8.html",
       "html_sha256": "651f6cd215ee09dbdef4caff28a2a2b2efbaa8c2e1f09e0c7bee8ad68b24bb8b",
       "human_reviewed": false,
