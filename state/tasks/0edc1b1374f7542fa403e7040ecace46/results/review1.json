@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "f2f2929f-693e-438a-a138-cd746ee834f4",
+    "response_id": "chatcmpl-Eebfzxd8O5XY0eh4Zcf6VwAlRZkJY",
+    "usage": {
+      "completion_tokens": 482,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 398,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4242,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3139,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 4724
+    }
+  },
+  "received_at": "2026-10-30T07:56:33+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, section 10, paragraph 1",
+        "severity": "minor",
+        "source_quote": "Begin to expect.",
+        "suggested_fix": "ابدأ بترقّب ما سيفعله الله.",
+        "translation_quote": "ابدأ بالتوقع."
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 99
+  }
+}

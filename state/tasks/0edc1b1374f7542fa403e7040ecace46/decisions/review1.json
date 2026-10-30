@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, section 10, paragraph 1",
+      "severity": "minor",
+      "source_quote": "Begin to expect.",
+      "suggested_fix": "ابدأ بترقّب ما سيفعله الله.",
+      "translation_quote": "ابدأ بالتوقع."
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}
