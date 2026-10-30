@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "1ccdc8fb966b44cbbcff5a91aa9e379c",
   "campaign": "auto-952c7c2339ad3b4e551fafa90989158d44e870774e01794d233240e7d17fba4f",
   "created_at": "2026-10-30T01:48:07+00:00",
   "events": [
@@ -48,67 +47,31 @@
         },
         "total_tokens": 6814
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 66,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 34,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3864,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 2761,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 3930
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "translation.html, абзац 4, em",
-      "severity": "major",
-      "source_quote": "God that made the world and all things therein ... –Acts 17:24-25.",
-      "suggested_fix": "Заменить содержимое em русским переводом, сохранив тег: «—Бог, сотворивший мир и всё, что в нём, будучи Господом неба и земли, не живёт в рукотворных храмах и не принимает служения человеческих рук, словно нуждается в чём-либо, поскольку Сам даёт всем жизнь, дыхание и всё остальное; —Деяния 17:24-25.»",
-      "translation_quote": "God that made the world and all things therein, seeing that he is Lord of heaven and earth, dwelleth not in temples made with hands; Neither is worshipped with men’s hands, as though he needed any thing, seeing he giveth to all life, and breath, and all things; –Acts 17:24-25."
-    },
-    {
-      "location": "translation.html, абзац 5, em",
-      "severity": "major",
-      "source_quote": "But evil men and seducers shall wax worse and worse ... That the man of God may be perfect, throughly furnished unto all good works –2 Timothy 3:13-17.",
-      "suggested_fix": "Перевести содержимое em, сохранив тег: «Злые же люди и обманщики будут становиться всё хуже, вводя других в заблуждение и сами заблуждаясь. Ты же пребывай в том, чему научен и в чём убедился, зная, от кого ты научился; ведь с детства ты знаешь священные Писания, которые могут умудрить тебя ко спасению через веру во Христа Иисуса. Всё Писание богодухновенно и полезно для учения, обличения, исправления и наставления в праведности, чтобы человек Божий был совершенен и полностью подготовлен ко всякому доброму делу —2 Тимофею 3:13-17.»",
-      "translation_quote": "But evil men and seducers shall wax worse and worse, deceiving, and being deceived. But continue thou in the things which thou hast learned and hast been assured of, knowing of whom thou hast learned them; And that from a child thou hast known the holy scriptures, which are able to make thee wise unto salvation through faith which is in Christ Jesus. All scripture is given by inspiration of God, and is profitable for doctrine, for reproof, for correction, for instruction in righteousness: That the man of God may be perfect, throughly furnished unto all good works –2 Timothy 3:13-17."
-    },
-    {
-      "location": "translation.html, абзац 6, em",
-      "severity": "major",
-      "source_quote": "…the author and finisher of our faith; who for the joy that was set before him endured the cross, despising the shame, and is set down at the right hand of the throne of God –Hebrews 12:2.",
-      "suggested_fix": "Перевести содержимое em: «…начальника и совершителя нашей веры, Который ради предстоявшей Ему радости претерпел крест, пренебрегая позором, и воссел по правую сторону престола Божьего —Евреям 12:2.» Сохранить тег em.",
-      "translation_quote": "…the author and finisher of our faith; who for the joy that was set before him endured the cross, despising the shame, and is set down at the right hand of the throne of God –Hebrews 12:2."
-    },
-    {
-      "location": "translation.html, абзац 7, последнее предложение",
-      "severity": "major",
-      "source_quote": "Finally, we have The Foolishness of Preaching an evaluation regarding the basis of churches using “the altar call”—is it founded in the Scriptures and the history of the church or is it a method that the church has borrowed from the world in more recent years?!",
-      "suggested_fix": "Заменить предложение на: «Наконец, в статье „Юродство проповеди“ рассматриваются основания использования в церквях „призыва к алтарю“: основан ли он на Писании и истории церкви или это метод, который церковь заимствовала у мира в сравнительно недавнее время?!»",
-      "translation_quote": "Наконец, у нас есть The Foolishness of Preaching an evaluation regarding the basis of churches using “the altar call”—is it founded in the Scriptures and the history of the church or is it a method that the church has borrowed from the world in more recent years?!"
-    },
-    {
-      "location": "translation.title; translation.section",
-      "severity": "major",
-      "source_quote": "title: From the Editor; section: From the EDITOR",
-      "suggested_fix": "Перевести title как «От редактора», section как «От РЕДАКТОРА».",
-      "translation_quote": "title: From the Editor; section: From the EDITOR"
-    },
-    {
-      "location": "translation.html, абзац 7, описание статьи из Bible Helps",
-      "severity": "minor",
-      "source_quote": "The article that we have chosen to share from “Bible Helps” ... one of the best discourses on the subject of “faith and works”",
-      "suggested_fix": "Заменить «выбрали для пересказа» на «выбрали для публикации», а «одна из лучших дискуссий» на «одно из лучших рассуждений», согласовав продолжение: «которые мне когда-либо приходилось читать». Источник не утверждает, что статья пересказана.",
-      "translation_quote": "Статья, которую мы выбрали для пересказа из «Bible Helps» в этом выпуске, — одна из лучших дискуссий по теме «вера и дела», что мне когда-либо приходилось читать."
-    },
-    {
-      "location": "translation.html, абзац 2, первое предложение",
-      "severity": "minor",
-      "source_quote": "Recently, I have been reflecting on the current status of life as a committed Bible-believing Christian in our world today.",
-      "suggested_fix": "Заменить предложение на: «В последнее время я размышлял о том, каково сегодня жить в нашем мире христианину, преданному Богу и верящему Библии».",
-      "translation_quote": "В последнее время я размышлял о нынешнем положении жизни как преданных Библии христиан в нашем мире сегодня."
-    },
-    {
-      "location": "translation.html, абзац 3",
-      "severity": "minor",
-      "source_quote": "the current victorious march of evil over good, of liberal agendas over a conservative lifestyle ... all tend to cause a person to be jolted out of a sense of normality",
-      "suggested_fix": "Заменить «нынешнего победоносного марширования зла над добром, либеральных программ над консервативным образом жизни» на «нынешнего победоносного наступления зла на добро и либеральных программ на консервативный образ жизни»; заменить «всё это склонно выбить человека из ощущения нормальности» на «— всё это может лишить человека ощущения привычного порядка жизни».",
-      "translation_quote": "нынешнего победоносного марширования зла над добром, либеральных программ над консервативным образом жизни ... всё это склонно выбить человека из ощущения нормальности"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-30T02:58:23+00:00",
   "id": "7087e1d833f0330547ba37fa2fb73bf6",
   "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
   "language": "rus",
@@ -197,7 +160,7 @@
     }
   },
   "protected": false,
-  "quality_score": 66,
+  "quality_score": 99,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6.1-sol",
@@ -216,7 +179,7 @@
     "total_reserved_usd": 0.709141,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "2b4f275d7b7ba8096cb0ab03fead7b5dd10aa236b7e3bc6ad2626bd76b72e500",
   "translation_model_actual": "gpt-6.1-sol"
