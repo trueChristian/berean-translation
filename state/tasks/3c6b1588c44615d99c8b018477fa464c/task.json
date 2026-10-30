@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "94b9b9f0ee76492bb0d68c1ede215336",
   "campaign": "auto-64bb4f9cdee48c45395b63edeeea58a40a31b4c98dfb43713272cfdad1075da5",
   "created_at": "2026-10-29T21:12:20+00:00",
   "events": [
@@ -28,10 +27,52 @@
         },
         "total_tokens": 10212
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1065,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 720,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 10488,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 10485,
+          "cached_tokens": 0
+        },
+        "total_tokens": 11553
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "첫 번째 본문 문단, 프랑스 사회학자의 발언",
+      "severity": "major",
+      "source_quote": "“All that can be done is, in one or another way, to render them harmless.”",
+      "suggested_fix": "“그들을 무해하게 만들기 위해 어떤 식으로든 할 수 있는 일은 다 해야 합니다.”",
+      "translation_quote": "“그들을 무해하게 만드는 방법은 어떤 식으로든 격리하는 것뿐입니다.”"
+    },
+    {
+      "location": "다섯 번째 본문 문단, 마틸데의 어린 시절",
+      "severity": "major",
+      "source_quote": "“she saw by accident the smith welding red-hot irons on a group of prisoners.”",
+      "suggested_fix": "“대장장이가 한 무리의 죄수들에게 벌겋게 달군 쇠를 용접하는 장면을 우연히 목격했다.”",
+      "translation_quote": "“대장장이가 한 무리의 죄수들에게 벌겋게 달군 쇠고랑을 채우는 장면을 우연히 목격했다.”"
+    },
+    {
+      "location": "브로치에 관한 죄수의 말",
+      "severity": "minor",
+      "source_quote": "“the power of sunshine has cleansed this bone.”",
+      "suggested_fix": "“햇볕의 힘이 이 뼈를 깨끗하게 했듯이”",
+      "translation_quote": "“햇볕의 힘이 이 뼈를 깨끗이 말렸듯”"
+    }
+  ],
   "id": "3c6b1588c44615d99c8b018477fa464c",
   "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
   "language": "kor",
@@ -120,11 +161,13 @@
     }
   },
   "protected": false,
+  "quality_score": 90,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/17600542ba2281535063b51832b1ebaad8d50b662352bce1164408cda85adae0.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "translate",
     "max_candidate_bytes": 120000,
@@ -138,7 +181,7 @@
     "total_reserved_usd": 0.090534,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "385aeb5b4a7bcbf512c0d5b8310c2fd8f5f85b86d43d077caf80670ee93c6738",
   "translation_model_actual": "gpt-6-luna"
