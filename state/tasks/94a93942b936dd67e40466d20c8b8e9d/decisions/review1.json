@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph beginning «Sì», after the image of the engraved bottle",
+      "severity": "minor",
+      "source_quote": "“we will confer on how such capable and industrious men as yourselves may earn your own meals.”",
+      "suggested_fix": "«... parleremo di come uomini capaci e laboriosi come voi possano guadagnarsi da mangiare»",
+      "translation_quote": "«... parleremo di come uomini capaci e laboriosi come voi possano guadagnarsi da vivere»"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

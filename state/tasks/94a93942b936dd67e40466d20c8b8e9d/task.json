@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "00b3d7a976fb42858129b0ac053d3230",
   "campaign": "auto-b6efcfe9e8709d06e0276084b560dbadb8f5e9cb645fe807540dbce90079b315",
   "created_at": "2026-10-29T21:12:33+00:00",
   "events": [
@@ -28,10 +27,39 @@
         },
         "total_tokens": 9630
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 924,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 785,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9984,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 9981,
+          "cached_tokens": 0
+        },
+        "total_tokens": 10908
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "Paragraph beginning «Sì», after the image of the engraved bottle",
+      "severity": "minor",
+      "source_quote": "“we will confer on how such capable and industrious men as yourselves may earn your own meals.”",
+      "suggested_fix": "«... parleremo di come uomini capaci e laboriosi come voi possano guadagnarsi da mangiare»",
+      "translation_quote": "«... parleremo di come uomini capaci e laboriosi come voi possano guadagnarsi da vivere»"
+    }
+  ],
+  "finished_at": "2026-10-30T02:31:48+00:00",
   "id": "94a93942b936dd67e40466d20c8b8e9d",
   "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
   "language": "ita",
@@ -120,9 +148,11 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/17600542ba2281535063b51832b1ebaad8d50b662352bce1164408cda85adae0.json",
   "stage": "review1",
   "stage_budget": {
@@ -138,7 +168,7 @@
     "total_reserved_usd": 0.090525,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "385aeb5b4a7bcbf512c0d5b8310c2fd8f5f85b86d43d077caf80670ee93c6738",
   "translation_model_actual": "gpt-6-luna"

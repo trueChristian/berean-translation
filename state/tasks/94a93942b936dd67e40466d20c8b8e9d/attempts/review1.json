@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-30T02:31:48+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph beginning «Sì», after the image of the engraved bottle\",\"severity\":\"minor\",\"source_quote\":\"“we will confer on how such capable and industrious men as yourselves may earn your own meals.”\",\"suggested_fix\":\"«... parleremo di come uomini capaci e laboriosi come voi possano guadagnarsi da mangiare»\",\"translation_quote\":\"«... parleremo di come uomini capaci e laboriosi come voi possano guadagnarsi da vivere»\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 507,
+    "content_evidence_truncated": false,
+    "content_sha256": "2dc5683d0a03f38ab03a6941f4d9f62918b95dbce55148799f5616e8346074ec",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 924,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 785,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9984,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9981,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10908
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}
