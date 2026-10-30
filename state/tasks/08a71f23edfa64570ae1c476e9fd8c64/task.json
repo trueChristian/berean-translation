@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "677dd45f50ad495496e651ee1cc6f049",
   "campaign": "auto-f89dd237e485d864b52cc4ae7266144a68eaf262a443cd5762da6c510ee0752a",
   "created_at": "2026-10-30T15:50:41+00:00",
   "events": [
@@ -28,18 +27,31 @@
         },
         "total_tokens": 14964
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 74,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 42,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9995,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8892,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 10069
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "Vision or dream quotation",
-      "severity": "major",
-      "source_quote": "“Speak to them the word of Him who can make them free, so long as you have time.”",
-      "suggested_fix": "Replace “Tala till dem om honom som kan göra dem fria” with “Tala till dem det ord som kommer från honom som kan göra dem fria”.",
-      "translation_quote": "”Tala till dem om honom som kan göra dem fria, så länge du har tid.”"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-30T19:50:01+00:00",
   "id": "08a71f23edfa64570ae1c476e9fd8c64",
   "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
   "language": "swe",
@@ -128,9 +140,11 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/17600542ba2281535063b51832b1ebaad8d50b662352bce1164408cda85adae0.json",
   "stage": "review2",
   "stage_budget": {
@@ -144,7 +158,7 @@
     "total_reserved_usd": 0.592576,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "385aeb5b4a7bcbf512c0d5b8310c2fd8f5f85b86d43d077caf80670ee93c6738",
   "translation_model_actual": "gpt-6.1-sol"
