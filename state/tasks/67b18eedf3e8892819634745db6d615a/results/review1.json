@@ -1,0 +1,101 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "389915ff-ae27-4e5b-ab43-8cd062e3aacd",
+    "response_id": "chatcmpl-EebFa3cmpmTvtybBS1tXuO0GyXKkL",
+    "usage": {
+      "completion_tokens": 1242,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 58,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8369,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7266,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 9611
+    }
+  },
+  "received_at": "2026-10-30T07:31:02+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "html, paragraphs 9–10: references to conscientious objectors",
+        "severity": "major",
+        "source_quote": "the principles and convictions of conscientious objectors ... Conscientious objectors were placed ... against any conscientious objectors",
+        "suggested_fix": "Replace all three occurrences of “penentang bersenjata” with “penolak dinas militer atas dasar hati nurani”. At the introduction of the abbreviation, replace “para penentang (CO)” with “para penolak dinas militer atas dasar hati nurani (CO)”.",
+        "translation_quote": "prinsip dan keyakinan penentang bersenjata ... Para penentang bersenjata ditempatkan ... terhadap semua penentang bersenjata"
+      },
+      {
+        "location": "html, figcaption, opening strong element",
+        "severity": "major",
+        "source_quote": "PUT ON THE WHOLE ARMOUR OF GOD,",
+        "suggested_fix": "<strong>KENAKANLAH SELURUH PERLENGKAPAN SENJATA ALLAH,</strong>",
+        "translation_quote": "KENAKALAN SELURUH PERANGKAP ALLAH,"
+      },
+      {
+        "location": "html, paragraph 4, falling shell",
+        "severity": "major",
+        "source_quote": "A wayward shell, some weighing as much as a small car, could fall from the sky with deadly results.",
+        "suggested_fix": "Replace this sentence with “Sebuah peluru artileri yang menyasar, yang sebagian di antaranya seberat mobil kecil, bisa jatuh dari langit dengan akibat mematikan.”",
+        "translation_quote": "Sebuah artileri yang meleset, beberapa seberat mobil kecil, bisa jatuh dari langit dengan akibat mematikan."
+      },
+      {
+        "location": "html, paragraph 10, final sentence",
+        "severity": "major",
+        "source_quote": "direct attacks against the perceived slackers",
+        "suggested_fix": "Replace “mereka yang dianggap plin-plan” with “mereka yang dianggap menghindari kewajiban”.",
+        "translation_quote": "serangan langsung terhadap mereka yang dianggap plin-plan"
+      },
+      {
+        "location": "html, paragraph 12, reports about institutional abuse",
+        "severity": "major",
+        "source_quote": "Several of the young men brought attention to the situation of the mentally handicapped, through writing to newspapers or detailing their observations about the abuse to their contacts at home.",
+        "suggested_fix": "Replace this sentence with “Beberapa pemuda menarik perhatian orang lain pada keadaan para penyandang disabilitas mental dengan menulis kepada surat kabar atau memaparkan secara terperinci pengamatan mereka tentang penganiayaan tersebut kepada kenalan mereka di kampung halaman.”",
+        "translation_quote": "Beberapa pemuda memperhatikan situasi kaum berkebutuhan khusus melalui penulisan kepada surat kabar atau merinci pengamatan mereka tentang penyalahgunaan kepada kenalan mereka di rumah."
+      },
+      {
+        "location": "html, paragraph 16, Japanese advance",
+        "severity": "major",
+        "source_quote": "causing the Japanese advance to grind to a halt",
+        "suggested_fix": "Replace “membuat kemajuan Jepang melambat” with “membuat gerak maju Jepang terhenti”.",
+        "translation_quote": "membuat kemajuan Jepang melambat"
+      },
+      {
+        "location": "html, figcaption, final Scripture reference",
+        "severity": "minor",
+        "source_quote": "EPHESIANS 6:11-12",
+        "suggested_fix": "Replace “EFESIUS 6:11-12” with “EFESUS 6:11-12”, using the conventional Indonesian book name already used in the image alt text.",
+        "translation_quote": "EFESIUS 6:11-12"
+      },
+      {
+        "location": "html, paragraph 14, description of the Philippines",
+        "severity": "minor",
+        "source_quote": "whose beaches and jungles he was now defending",
+        "suggested_fix": "Replace “yang pantai dan junglenya kini ia bela” with “yang pantai dan hutan belantaranya kini ia bela”.",
+        "translation_quote": "yang pantai dan junglenya kini ia bela"
+      },
+      {
+        "location": "html, paragraph 22, comparison of causes",
+        "severity": "minor",
+        "source_quote": "MacArthur in the devastation and destruction of war",
+        "suggested_fix": "Replace “MacArthur pada kehancuran dan kehancuran perang” with “MacArthur pada kehancuran dan pemusnahan akibat perang”.",
+        "translation_quote": "MacArthur pada kehancuran dan kehancuran perang"
+      },
+      {
+        "location": "html, paragraph 11, Japanese soldiers facing opposition",
+        "severity": "minor",
+        "source_quote": "even in the face of overwhelming odds",
+        "suggested_fix": "Replace “meskipun menghadapi kemungkinan yang luar biasa” with “meskipun menghadapi peluang kemenangan yang sangat kecil”.",
+        "translation_quote": "meskipun menghadapi kemungkinan yang luar biasa"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 82
+  }
+}

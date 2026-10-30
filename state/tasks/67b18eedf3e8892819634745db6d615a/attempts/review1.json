@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-30T07:31:02+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"html, paragraphs 9–10: references to conscientious objectors\",\n      \"severity\": \"major\",\n      \"source_quote\": \"the principles and convictions of conscientious objectors ... Conscientious objectors were placed ... against any conscientious objectors\",\n      \"suggested_fix\": \"Replace all three occurrences of “penentang bersenjata” with “penolak dinas militer atas dasar hati nurani”. At the introduction of the abbreviation, replace “para penentang (CO)” with “para penolak dinas militer atas dasar hati nurani (CO)”.\",\n      \"translation_quote\": \"prinsip dan keyakinan penentang bersenjata ... Para penentang bersenjata ditempatkan ... terhadap semua penentang bersenjata\"\n    },\n    {\n      \"location\": \"html, figcaption, opening strong element\",\n      \"severity\": \"major\",\n      \"source_quote\": \"PUT ON THE WHOLE ARMOUR OF GOD,\",\n      \"suggested_fix\": \"<strong>KENAKANLAH SELURUH PERLENGKAPAN SENJATA ALLAH,</strong>\",\n      \"translation_quote\": \"KENAKALAN SELURUH PERANGKAP ALLAH,\"\n    },\n    {\n      \"location\": \"html, paragraph 4, falling shell\",\n      \"severity\": \"major\",\n      \"source_quote\": \"A wayward shell, some weighing as much as a small car, could fall from the sky with deadly results.\",\n      \"suggested_fix\": \"Replace this sentence with “Sebuah peluru artileri yang menyasar, yang sebagian di antaranya seberat mobil kecil, bisa jatuh dari langit dengan akibat mematikan.”\",\n      \"translation_quote\": \"Sebuah artileri yang meleset, beberapa seberat mobil kecil, bisa jatuh dari langit dengan akibat mematikan.\"\n    },\n    {\n      \"location\": \"html, paragraph 10, final sentence\",\n      \"severity\": \"major\",\n      \"source_quote\": \"direct attacks against the perceived slackers\",\n      \"suggested_fix\": \"Replace “mereka yang dianggap plin-plan” with “mereka yang dianggap menghindari kewajiban”.\",\n      \"translation_quote\": \"serangan langsung terhadap mereka yang dianggap plin-plan\"\n    },\n    {\n      \"location\": \"html, paragraph 12, reports about institutional abuse\",\n      \"severity\": \"major\",\n      \"source_quote\": \"Several of the young men brought attention to the situation of the mentally handicapped, through writing to newspapers or detailing their observations about the abuse to their contacts at home.\",\n      \"suggested_fix\": \"Replace this sentence with “Beberapa pemuda menarik perhatian orang lain pada keadaan para penyandang disabilitas mental dengan menulis kepada surat kabar atau memaparkan secara terperinci pengamatan mereka tentang penganiayaan tersebut kepada kenalan mereka di kampung halaman.”\",\n      \"translation_quote\": \"Beberapa pemuda memperhatikan situasi kaum berkebutuhan khusus melalui penulisan kepada surat kabar atau merinci pengamatan mereka tentang penyalahgunaan kepada kenalan mereka di rumah.\"\n    },\n    {\n      \"location\": \"html, paragraph 16, Japanese advance\",\n      \"severity\": \"major\",\n      \"source_quote\": \"causing the Japanese advance to grind to a halt\",\n      \"suggested_fix\": \"Replace “membuat kemajuan Jepang melambat” with “membuat gerak maju Jepang terhenti”.\",\n      \"translation_quote\": \"membuat kemajuan Jepang melambat\"\n    },\n    {\n      \"location\": \"html, figcaption, final Scripture reference\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"EPHESIANS 6:11-12\",\n      \"suggested_fix\": \"Replace “EFESIUS 6:11-12” with “EFESUS 6:11-12”, using the conventional Indonesian book name already used in the image alt text.\",\n      \"translation_quote\": \"EFESIUS 6:11-12\"\n    },\n    {\n      \"location\": \"html, paragraph 14, description of the Philippines\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"whose beaches and jungles he was now defending\",\n      \"suggested_fix\": \"Replace “yang pantai dan junglenya kini ia bela” with “yang pantai dan hutan belantaranya kini ia bela”.\",\n      \"translation_quote\": \"yang pantai dan junglenya kini ia bela\"\n    },\n    {\n      \"location\": \"html, paragraph 22, comparison of causes\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"MacArthur in the devastation and destruction of war\",\n      \"suggested_fix\": \"Replace “MacArthur pada kehancuran dan kehancuran perang” with “MacArthur pada kehancuran dan pemusnahan akibat perang”.\",\n      \"translation_quote\": \"MacArthur pada kehancuran dan kehancuran perang\"\n    },\n    {\n      \"location\": \"html, paragraph 11, Japanese soldiers facing opposition\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"even in the face of overwhelming odds\",\n      \"suggested_fix\": \"Replace “meskipun menghadapi kemungkinan yang luar biasa” with “meskipun menghadapi peluang kemenangan yang sangat kecil”.\",\n      \"translation_quote\": \"meskipun menghadapi kemungkinan yang luar biasa\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": false,\n  \"score\": 82\n}",
+    "content_bytes": 4837,
+    "content_evidence_truncated": false,
+    "content_sha256": "d81510b9fa5e9a3b93fc8e3a20f83848468ba7b02712b4ed24908200ab91a9ec",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1242,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 58,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8369,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7266,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 9611
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}
