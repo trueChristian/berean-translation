@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "translation.html, alinea met Spreuken 4:23",
+      "severity": "minor",
+      "source_quote": "Keep thy heart with all diligence",
+      "suggested_fix": "Vervang ‘Bew aak uw hart’ door ‘Bewaak uw hart’.",
+      "translation_quote": "Bew aak uw hart met alle zorgvuldigheid"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

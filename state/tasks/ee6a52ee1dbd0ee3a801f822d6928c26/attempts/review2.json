@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-30T02:32:41+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"translation.html, alinea met Spreuken 4:23\",\"severity\":\"minor\",\"source_quote\":\"Keep thy heart with all diligence\",\"suggested_fix\":\"Vervang ‘Bew aak uw hart’ door ‘Bewaak uw hart’.\",\"translation_quote\":\"Bew aak uw hart met alle zorgvuldigheid\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 329,
+    "content_evidence_truncated": false,
+    "content_sha256": "5905669076c140b0360e18779b25e9960a063b9f1135e14e9bbf23f1c3b717e0",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 123,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 24,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7719,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6616,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 7842
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 1
+}
