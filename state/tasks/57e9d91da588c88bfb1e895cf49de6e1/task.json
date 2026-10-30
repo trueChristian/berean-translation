@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "e6f29ee970de4c458d38aa6aba0542f8",
   "campaign": "auto-efa2624681be1b90b9010fb6a6a917cb87b2cbb09e0a16919cd1abea8d68410a",
   "created_at": "2026-10-29T14:13:52+00:00",
   "events": [
@@ -48,39 +47,31 @@
         },
         "total_tokens": 12276
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 62,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 30,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8240,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 7137,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 8302
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "html, párrafo sobre el paralítico en Lucas 5",
-      "severity": "major",
-      "source_quote": "removed enough of roof tiles to let their friend through and lowered him into the presence of Jesus",
-      "suggested_fix": "Sustituir «quitaron parte de las tejas, lo dejaron caer y lo bajaron hasta estar delante de Jesús» por «quitaron suficientes tejas para hacer pasar a su amigo y lo bajaron hasta ponerlo delante de Jesús».",
-      "translation_quote": "quitaron parte de las tejas, lo dejaron caer y lo bajaron hasta estar delante de Jesús"
-    },
-    {
-      "location": "html, párrafo que presenta a María Magdalena",
-      "severity": "minor",
-      "source_quote": "Apparently, she was not only possessed of evil spirits, but also physically infirmed.",
-      "suggested_fix": "Sustituir «sino también física y enferma» por «sino que también estaba físicamente enferma».",
-      "translation_quote": "Aparentemente, no solo estaba poseída por espíritus malignos, sino también física y enferma."
-    },
-    {
-      "location": "html, párrafo que comienza «Seguir a Jesús es dejar tus pecados»",
-      "severity": "minor",
-      "source_quote": "We would be greatly mistaken to suggest that holiness is a product of human effort.",
-      "suggested_fix": "Sustituir «Seríamos muy equivocados» por «Estaríamos muy equivocados».",
-      "translation_quote": "Seríamos muy equivocados si sugiriéramos que la santidad es producto del esfuerzo humano."
-    },
-    {
-      "location": "html, cita de Adam Clark",
-      "severity": "minor",
-      "source_quote": "It was this which made the conduct of the person mentioned in the text inexcusable",
-      "suggested_fix": "Sustituir «hizo inexcusables la conducta» por «hizo inexcusable la conducta».",
-      "translation_quote": "Fue esto lo que hizo inexcusables la conducta de la persona mencionada en el texto"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-30T02:32:44+00:00",
   "id": "57e9d91da588c88bfb1e895cf49de6e1",
   "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
   "language": "spa",
@@ -169,7 +160,7 @@
     }
   },
   "protected": false,
-  "quality_score": 94,
+  "quality_score": 99,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6.1-sol",
@@ -188,7 +179,7 @@
     "total_reserved_usd": 0.757325,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "b3a0b32450038629cf20919c69af275c4549e0b458e25e2b5d03da547dfb97f7",
   "translation_model_actual": "gpt-6.1-sol"
