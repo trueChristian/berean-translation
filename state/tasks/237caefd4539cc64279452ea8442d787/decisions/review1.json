@@ -1,0 +1,133 @@
+{
+  "findings": [
+    {
+      "location": "translation.html: English Scripture quotations throughout the article",
+      "severity": "critical",
+      "source_quote": "“straightway Jesus constrained his disciples…” (Matthew 14:22); “And in the fourth watch…” (Matthew 14:25-27); “Lord, if it be thou…” (Matthew 14:28); “Take nothing for your journey…” (Luke 9:3); “Later, after they had returned…” (Luke 22:35); “But when he saw the wind boisterous…” (Matthew 14:30-32); “faith is the substance…” (Hebrews 11:1); “In the beginning was the Word…” (John 1:1); “Howbeit when he, the Spirit of truth…” (John 16:13); “But the natural man receiveth not…” (1 Corinthians 2:14); “O thou of little faith…” (Matthew 14:31); “If ye have faith as a grain…” (Matthew 17:20); “and when they were come into the ship…” (Matthew 14:32); “then they that were in the ship…” (Matthew 14:33); “one another’s burdens…” (Galatians 6:2).",
+      "suggested_fix": "יש לתרגם את כל הקטעים האלה בתוך תגי ה־<em> הקיימים, תוך שמירת מיקומם והמספרים: מתי 14:22: ״…מיד הורה ישוע לתלמידיו לעלות לסירה ולהקדים אותו אל העבר השני, בזמן שהוא שילח את ההמונים״; מתי 14:25-27: ״ובאשמורת הרביעית של הלילה בא אליהם ישוע כשהוא הולך על הים. כשראו אותו התלמידים הולך על הים, נבהלו ואמרו: זו רוח רפאים! והם צעקו מפחד. אך מיד דיבר אליהם ישוע ואמר: התעודדו, זה אני; אל תפחדו״; מתי 14:28: ״…אדון, אם זה אתה, צווה עליי לבוא אליך על המים״; לוקס 9:3: ״והוא אמר להם: אל תיקחו דבר לדרך — לא מקלות, לא תרמיל, לא לחם ולא כסף; וגם אל יהיו לכל אחד מכם שתי כותנות״; לוקס 22:35: ״מאוחר יותר, לאחר שחזרו, שאל אותם ישוע ואמר להם: כששלחתי אתכם בלי ארנק, תרמיל ונעליים, האם חסר לכם דבר? והם אמרו: דבר לא חסר״; מתי 14:30-32: ״אך כשראה את הרוח העזה, פחד; וכשהחל לשקוע, צעק: אדון, הצל אותי! מיד הושיט ישוע את ידו, אחז בו ואמר לו: קטן אמונה, מדוע הטלת ספק? וכשעלו לסירה, הרוח פסקה״; עברים 11:1: ״…האמונה היא הממשות של הדברים שמקווים להם, והראיה לדברים שאינם נראים״; יוחנן 1:1: ״בראשית היה הדבר [לוגוס], והדבר [לוגוס] היה עם אלוהים, והדבר [לוגוס] היה אלוהים״; יוחנן 16:13: ״אך כאשר יבוא הוא, רוח האמת, הוא ידריך אתכם אל כל האמת…״; הראשונה אל הקורינתים 2:14: ״אך האדם הטבעי אינו מקבל את הדברים של רוח אלוהים, כי הם שטות בעיניו; והוא גם אינו יכול להבינם, מפני שהם נבחנים באופן רוחני״; מתי 14:31: ״…קטן אמונה, מדוע הטלת ספק?״; מתי 17:20: ״…אם יש לכם אמונה כגרגר חרדל, תאמרו להר הזה: עבור מכאן לשם, והוא יעבור; ושום דבר לא יהיה בלתי אפשרי לכם״; מתי 14:32: ״וכשעלו לסירה, הרוח פסקה״; מתי 14:33: ״אז באו אלה שהיו בסירה והשתחוו לו ואמרו: באמת אתה בן האלוהים״; גלטים 6:2: ״…איש את משאו של רעהו, וכך מקיימים את תורת המשיח״.",
+      "translation_quote": "All fifteen passages remain in English, including “straightway Jesus constrained his disciples…”; “And in the fourth watch of the night…”; “Later, after they had returned…”; “In the beginning was the Word [Logos]…”; and “…one another’s burdens, and so fulfil the law of Christ –Galatians 6:2.”"
+    },
+    {
+      "location": "translation.html: opening blockquote",
+      "severity": "major",
+      "source_quote": "“bid me come unto thee … And he said, Come. And when Peter was come down out of the ship”",
+      "suggested_fix": "החלף את תוכן הציטוט בתוך התגים הקיימים בנוסח עברי עכשווי: ״פטרוס ענה לו ואמר: אדון, אם זה אתה, צווה עליי לבוא אליך על המים. והוא אמר: בוא. פטרוס ירד מן הסירה והלך על המים כדי לבוא אל ישוע –מתי 14:28-29.״",
+      "translation_quote": "״אָמַר לִי לָבוֹא … וַיֹּאמֶר לוֹ, לֵךְ … וּבְרָדוֹתוֹ אֶל־הַסְּפִינָה״"
+    },
+    {
+      "location": "translation.section",
+      "severity": "major",
+      "source_quote": "Christian Discipleship",
+      "suggested_fix": "תלמידות נוצרית",
+      "translation_quote": "דיסציפלינות נוצריות"
+    },
+    {
+      "location": "translation.html: paragraph beginning “אם אתה רוצה להיות איש אמונה”",
+      "severity": "major",
+      "source_quote": "“open your Bible … The Bible contains many commandments”",
+      "suggested_fix": "החלף את ״פתח את התנ״ך״ ב״פתח את כתבי הקודש״ ואת ״התנ״ך מכיל מצוות רבות״ ב״כתבי הקודש מכילים מצוות רבות״.",
+      "translation_quote": "״פתח את התנ״ך … התנ״ך מכיל מצוות רבות״"
+    },
+    {
+      "location": "translation.html: paragraph about Peter’s boat",
+      "severity": "major",
+      "source_quote": "“In reckless abandonment he stepped off her deck”",
+      "suggested_fix": "מתוך התמסרות מוחלטת וללא חשבון הוא ירד מסיפונה",
+      "translation_quote": "בהתנפלות רשלנית הוא קפץ מסיפונה"
+    },
+    {
+      "location": "translation.html: paragraph beginning “אין צורך לצאת למשימות זרות”",
+      "severity": "major",
+      "source_quote": "“If we are going to succumb to a victim mentality (‘I can’t help it’)”",
+      "suggested_fix": "אם ניכנע לחשיבה של קורבן (״אין לי שליטה בזה״)",
+      "translation_quote": "אם נסגפנו למנטליות קורבן (״אני לא יכול לעזור בזה״)"
+    },
+    {
+      "location": "translation.html: paragraph beginning “כך גם ברבים מההיבטים”",
+      "severity": "major",
+      "source_quote": "“We reason away the nonconformed lifestyle.”",
+      "suggested_fix": "אנו משתמשים בנימוקים כדי לבטל את אורח החיים שאינו הולך בדרכי העולם.",
+      "translation_quote": "אנו מצמצמים לחיים לא מתמרדים."
+    },
+    {
+      "location": "translation.html: same paragraph, marriage sentence",
+      "severity": "major",
+      "source_quote": "“We reason away the permanence of marriage.”",
+      "suggested_fix": "אנו משתמשים בנימוקים כדי לבטל את הקביעות של קשר הנישואין.",
+      "translation_quote": "אנו מתירים את עמידות הנישואין."
+    },
+    {
+      "location": "translation.html: same paragraph, accountability sentence",
+      "severity": "major",
+      "source_quote": "“We reason away brotherhood accountability.”",
+      "suggested_fix": "אנו משתמשים בנימוקים כדי לבטל את האחריות ההדדית בין האחים באמונה.",
+      "translation_quote": "אנו משילים את אחריות האחוה."
+    },
+    {
+      "location": "translation.html: paragraph beginning “רוח סוערת”",
+      "severity": "major",
+      "source_quote": "“Boisterous wind and crashing waves produced a fearful, sinking Peter.”",
+      "suggested_fix": "הרוח העזה והגלים המתנפצים גרמו לפטרוס לפחד ולשקוע.",
+      "translation_quote": "רוח סוערת וגלים שברו פטרוס; הוא הפך לפחדן ושוקע."
+    },
+    {
+      "location": "translation.html: same paragraph, concluding sentence",
+      "severity": "major",
+      "source_quote": "“When we transition from obedient faith to carnal rationalization”",
+      "suggested_fix": "כשאנו עוברים מאמונה צייתנית להצדקות שכליות הנובעות מן הבשר",
+      "translation_quote": "כשאנו עוברים מאמונה צייתנית להסתכלות בשרית ורציונלית"
+    },
+    {
+      "location": "translation.html: paragraph beginning “כשהחל פטרוס לשקוע”",
+      "severity": "major",
+      "source_quote": "“His plaintive cry revealed an absolute trust in his Lord. Jesus reached out His hand and rescued him.”",
+      "suggested_fix": "זעקתו הנוגה גילתה אמון מוחלט באדונו. ישוע הושיט את ידו והציל אותו.",
+      "translation_quote": "קריאתו המנוסה חשפה אמון מוחלט במושיעו. ישוע השטיל את ידו והציל אותו."
+    },
+    {
+      "location": "translation.html: paragraph beginning “האמונה שלנו היא החומר”",
+      "severity": "minor",
+      "source_quote": "“Just as the scientific method proves the realities of the created world”",
+      "suggested_fix": "כפי שהשיטה המדעית מוכיחה את המציאויות של העולם הנברא",
+      "translation_quote": "כפי ששיטת המדע מוכיחה את מציאות עולמנו הבריאה"
+    },
+    {
+      "location": "translation.html: paragraph about Peter’s boat, fish and desire sentences",
+      "severity": "minor",
+      "source_quote": "“He had drawn many a draught of fish over her gunwales … he was overcome with a desire to go to Jesus.”",
+      "suggested_fix": "תקן ל״הוא משך מעל דופנותיה שלל רב של דגים״ ול״הציפה אותו תשוקה ללכת אל ישוע״.",
+      "translation_quote": "״הוא העלה דג רבים על סיפונה … נתפס בו תשוקה ללכת אל ישוע״"
+    },
+    {
+      "location": "translation.html: paragraphs beginning “כך גם ברבים” and “אם אתה, כאיש”",
+      "severity": "minor",
+      "source_quote": "“the simple teachings of Jesus”; “the radical teachings of Jesus”",
+      "suggested_fix": "החלף בהתאמה ל״תורתו הפשוטה של ישוע״ ול״תורתו הרדיקלית של ישוע״.",
+      "translation_quote": "״ללימודיה הפשוטים של ישוע״; ״ללימודיה הקיצוניים של ישוע״"
+    },
+    {
+      "location": "translation.html: paragraph beginning “מציאויות אלה נראות”",
+      "severity": "minor",
+      "source_quote": "“a journey that will run counter to the world view of many”",
+      "suggested_fix": "מסע שיעמוד בניגוד להשקפת העולם של רבים",
+      "translation_quote": "מסע שיינגש עם השקפת העולם של רבים"
+    },
+    {
+      "location": "translation.html: paragraph beginning “אנחנו, בעולם המערבי שלנו”",
+      "severity": "minor",
+      "source_quote": "“we can easily be led to believe that natural realities are the most powerful realities”",
+      "suggested_fix": "עד שקל להוביל אותנו להאמין שהמציאויות הטבעיות הן המציאויות החזקות ביותר",
+      "translation_quote": "שאנו נוטים להאמין שקל לנו לראות את המציאויות הטבעיות כחזקות ביותר"
+    },
+    {
+      "location": "translation.html: final figure img alt",
+      "severity": "minor",
+      "source_quote": "Lightning beneath dark storm clouds over a field",
+      "suggested_fix": "החלף רק את ערך המאפיין alt ל״ברק מתחת לענני סערה כהים מעל שדה״.",
+      "translation_quote": "alt=\"Lightning beneath dark storm clouds over a field\""
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
