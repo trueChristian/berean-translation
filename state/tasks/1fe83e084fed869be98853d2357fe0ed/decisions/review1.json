@@ -1,0 +1,49 @@
+{
+  "findings": [
+    {
+      "location": "translation.title; translation.html, последний абзац основного текста и figure/img/@alt",
+      "severity": "major",
+      "source_quote": "title: O Love That Wilt Not Let Me Go; The four key words of “O Love, That Wilt Not Let Me Go”; alt=\"Sheet music for O Love That Wilt Not Let Me Go\"",
+      "suggested_fix": "Перевести заглавие статьи как «О Любовь, что не отпустит меня». Использовать это же название в последнем абзаце и в атрибуте alt: «Ноты гимна „О Любовь, что не отпустит меня“». Сохранить остальные атрибуты изображения.",
+      "translation_quote": "title: O Love That Wilt Not Let Me Go; Четыре ключевых слова гимна «O Love, That Wilt Not Let Me Go»; alt=\"Нотная запись для O Love That Wilt Not Let Me Go\""
+    },
+    {
+      "location": "translation.html, абзац о последних годах жизни",
+      "severity": "major",
+      "source_quote": "Although this is his only hymn found in most hymnals",
+      "suggested_fix": "Заменить «единственный, обнаруживаемый во многих гимнографиях» на «единственный из его гимнов, встречающийся в большинстве сборников гимнов».",
+      "translation_quote": "Хотя этот гимн — единственный, обнаруживаемый во многих гимнографиях"
+    },
+    {
+      "location": "translation.html, заголовок и подписи в списке источников",
+      "severity": "minor",
+      "source_quote": "<h3>References:</h3>; Author; Composer",
+      "suggested_fix": "Заменить References: на «Источники:», Author на «Автор», Composer на «Композитор», сохранив HTML, пробелы-разделители, имена и даты.",
+      "translation_quote": "<h3>References:</h3>; Author; Composer"
+    },
+    {
+      "location": "translation.html, первый абзац, абзац о предполагаемой причине страдания и автобиографическая цитата",
+      "severity": "minor",
+      "source_quote": "fruit of much mental suffering; the cause of the mental distress; the most severe mental suffering",
+      "suggested_fix": "Передать эмоциональное страдание естественным русским выражением: «плод глубоких душевных страданий», «причины душевных страданий», «самые тяжёлые душевные страдания» с необходимым согласованием в соответствующих предложениях.",
+      "translation_quote": "плод большого умственного страдания; причины умственного страдания; самое тяжёлое умственное страдание"
+    },
+    {
+      "location": "translation.html, первый абзац",
+      "severity": "minor",
+      "source_quote": "during the latter part of the 19<sup>th</sup> century. The writing of this thoughtful and beautifully constructed text",
+      "suggested_fix": "Заменить «19<sup>th</sup> века» на «19<sup>-го</sup> века», а «Писание этого вдумчивого и прекрасно составленного текста» на «Создание этого глубокого и прекрасно построенного текста».",
+      "translation_quote": "во второй половине 19<sup>th</sup> века. Писание этого вдумчивого и прекрасно составленного текста"
+    },
+    {
+      "location": "translation.html, абзац с рассказом композитора",
+      "severity": "minor",
+      "source_quote": "The origin or the tune name, St. Margaret, is unknown",
+      "suggested_fix": "Устранить бессмысленное удвоение: «Происхождение названия мелодии St. Margaret неизвестно».",
+      "translation_quote": "Происхождение или происхождение названия мелодии St. Margaret неизвестно"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
