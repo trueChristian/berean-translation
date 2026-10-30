@@ -3,18 +3,18 @@
   "automatic_enabled": true,
   "automatic_policy_version": 3,
   "budget_enforcement": "none",
-  "committed_usd": 46.334839,
+  "committed_usd": 45.766549,
   "counts": {
     "active": 50,
     "already_translated": 108,
-    "automatic_capacity_wait": 285,
+    "automatic_capacity_wait": 286,
     "continuation_cooldown": 1,
     "continuation_progress_uncertain_requires_attention": 2,
     "continuation_repeated_findings_requires_attention": 1,
     "eligible_automatic": 834,
     "eligible_source_refresh": 185,
     "legacy_response_outcome_unknown_requires_owner_attention": 10,
-    "pending_automatic_admission": 116,
+    "pending_automatic_admission": 115,
     "provider_refusal_requires_owner_attention": 3,
     "repeated_technical_failure_requires_attention": 6,
     "source_error_requires_attention": 40,
@@ -22,7 +22,7 @@
   },
   "derived": true,
   "format_version": "2",
-  "gross_allocated_usd": 381.238909,
+  "gross_allocated_usd": 381.369578,
   "historical_approved_total_usd": 30.0,
   "items": [
     {
@@ -1106,6 +1106,14 @@
     },
     {
       "accepted_cycles": 0,
+      "article_id": "9b22e638-a735-48fe-b31b-817c614538ca",
+      "language": "ara",
+      "latest_task": "1d93d51bc336e2d2e4d2a652d2ca8e45",
+      "processing_status": "in_batch",
+      "reason": "active"
+    },
+    {
+      "accepted_cycles": 0,
       "article_id": "a1334217-82ac-49ef-8293-563122652b89",
       "language": "ara",
       "latest_task": "d33da41f418605adecb5bdf6d1e5f61c",
@@ -1453,14 +1461,6 @@
       "latest_task": "eac67cbcb51ae1e038a51c66d4802ec6",
       "processing_status": "not_ready",
       "reason": "already_translated"
-    },
-    {
-      "accepted_cycles": 1,
-      "article_id": "1caf6642-2283-4363-b3b6-33e40c39f945",
-      "language": "ben",
-      "latest_task": "52e45793cf7d2cbeb40e916eb9e08e35",
-      "processing_status": "in_batch",
-      "reason": "active"
     },
     {
       "accepted_cycles": 0,
@@ -8700,7 +8700,7 @@
       "article_id": "1caf6642-2283-4363-b3b6-33e40c39f945",
       "language": "nld",
       "latest_task": "72d1b886756abb715399a388ed6861b1",
-      "processing_status": "queued",
+      "processing_status": "in_batch",
       "reason": "active"
     },
     {
@@ -9923,7 +9923,7 @@
       "article_id": "1caf6642-2283-4363-b3b6-33e40c39f945",
       "language": "por",
       "latest_task": "acb66a05f094bcb2f1d50c9c2221f33d",
-      "processing_status": "queued",
+      "processing_status": "in_batch",
       "reason": "active"
     },
     {
@@ -11309,7 +11309,7 @@
       "article_id": "9b22e638-a735-48fe-b31b-817c614538ca",
       "language": "spa",
       "latest_task": "48f793ea6ae89b7fae0d77b1a2d3f403",
-      "processing_status": "queued",
+      "processing_status": "in_batch",
       "reason": "active"
     },
     {
@@ -11446,12 +11446,12 @@
       "request_id": "auto-73065fa984de58fb86da41a9c621016ce5b8e36263293ff1c9134294b47c3a57"
     },
     {
-      "admission_status": "pending",
+      "admission_status": "attention",
       "article_id": "e66a02d4-667c-4f50-b5e1-158ff98b82d5",
       "language": "spa",
       "latest_task": null,
-      "processing_status": "queued",
-      "reason": "pending_automatic_admission",
+      "processing_status": "held_without_publication",
+      "reason": "automatic_capacity_wait",
       "request_id": "auto-98ba03609c9371d460fbcf4710ecea796ae8d7f731c464bcadde0e75dbb165e7"
     },
     {
@@ -13277,7 +13277,7 @@
       "article_id": "1caf6642-2283-4363-b3b6-33e40c39f945",
       "language": "urd",
       "latest_task": "e48f3fed823de939d7cab2a205a3bdf3",
-      "processing_status": "queued",
+      "processing_status": "in_batch",
       "reason": "active"
     },
     {
@@ -13928,7 +13928,7 @@
       "reason": "eligible_automatic"
     }
   ],
-  "settled_unused_usd": 334.90407,
+  "settled_unused_usd": 335.603029,
   "source_revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
   "spending_policy": "owner-2026-10-29-provider-managed-spending",
   "usage_description": "Provider-reported usage priced at frozen rates; not invoice reconciliation"
