@@ -1,0 +1,122 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "71956467-73fe-47b6-828d-eacd79db0a70",
+    "response_id": "chatcmpl-EeWpgTi67WnZESpDD2BwQ2J3Dk2R0",
+    "usage": {
+      "completion_tokens": 2086,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 77,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4332,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3229,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 6418
+    }
+  },
+  "received_at": "2026-10-30T02:45:56+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "html, paragraph 3",
+        "severity": "major",
+        "source_quote": "and the list goes on",
+        "suggested_fix": "החליפו את „והאור שלך נמשך” ב„והרשימה עוד ארוכה”.",
+        "translation_quote": "והאור שלך נמשך"
+      },
+      {
+        "location": "html, paragraph 4, Acts quotation",
+        "severity": "major",
+        "source_quote": "dwelleth not in temples made with hands; Neither is worshipped with men’s hands, as though he needed any thing",
+        "suggested_fix": "החליפו את הקטע ב„אינו שוכן במקדשים מעשה ידי אדם; וגם אינו נעבד בידי אדם כאילו הוא זקוק לדבר כלשהו”. שמרו על תגית ההדגשה ועל ההפניה.",
+        "translation_quote": "אינו מתגורר בכנסיות עשויות ידי אדם; ולא היוים עבדיו על ידי ידי אדם, כאילו הוא זקוק למשהו"
+      },
+      {
+        "location": "html, paragraph 5, 2 Timothy quotation",
+        "severity": "major",
+        "source_quote": "But evil men and seducers shall wax worse and worse, deceiving, and being deceived. But continue thou in the things which thou hast learned and hast been assured of, knowing of whom thou hast learned them; And that from a child thou hast known the holy scriptures, which are able to make thee wise unto salvation through faith which is in Christ Jesus. All scripture is given by inspiration of God, and is profitable for doctrine, for reproof, for correction, for instruction in righteousness: That the man of God may be perfect, throughly furnished unto all good works –2 Timothy 3:13-17.",
+        "suggested_fix": "החליפו את תוכן תגית em בנוסח עברי מודרני וברור: „אך אנשים רעים ומתעים ילכו וייעשו גרועים יותר, יתעו אחרים ויותעו בעצמם. אך אתה, המשך לדבוק בדברים שלמדת ושבהם השתכנעת, בידיעה ממי למדת אותם; ומילדות אתה מכיר את כתבי הקודש, היכולים להחכים אותך לישועה באמצעות האמונה במשיח ישוע. כל הכתוב נכתב בהשראת אלוהים והוא מועיל להוראה, לתוכחה, לתיקון ולחינוך בצדקה, כדי שאיש האלוהים יהיה שלם ומצויד היטב לכל מעשה טוב – טימותיאוס ב׳ 3:13-17.”",
+        "translation_quote": "וְרָעִים וּמְמַשְׁרְקִים יָרְאוּ לְרַע־רָע, מִתְחַנְּכִים וּמִתְנַכְּלִים ... וּמִנְּעֻרִים בָּעַתָּה ... הַיְּכֹלִים לְחָכְמָה לְהַצִּילָה ... כָּל־הַכְּתוּבִים נְשָׂאִים בִּנְשִׁימַת אֱלֹהִים"
+      },
+      {
+        "location": "html, paragraph 6, Hebrews quotation",
+        "severity": "major",
+        "source_quote": "the author and finisher of our faith; who for the joy that was set before him endured the cross, despising the shame",
+        "suggested_fix": "החליפו את הקטע ב„מי שייסד את אמונתנו ומביא אותה לידי שלמות; אשר למען השמחה שהייתה לפניו נשא את סבל הצלב ובז לחרפה”.",
+        "translation_quote": "הַמְּחַבֵּר וּמְשַׁלֵּם הָאֱמוּנָה שֶׁלָּנוּ; הוּא שֶׁבְּעַד שִׂמְחָה שֶׁהָיְתָה לְפָנָיו עָמַד בַּצְּלָב, מְבַזֶּה אֶת הַבּוּשָׁה"
+      },
+      {
+        "location": "html, paragraph 6, sentence following “Surprise, surprise!”",
+        "severity": "major",
+        "source_quote": "Satan had unwittingly allowed God to use him to accomplish everything that had been prophesied throughout the Scriptures.",
+        "suggested_fix": "החליפו את „כדי להשלים את כל מה שניבא בכל הכתובים” ב„כדי להגשים את כל מה שנובא לאורך כתבי הקודש”, כדי שלא לייחס את הנבואות לשטן.",
+        "translation_quote": "השטן, בלי לדעת, אפשר שאלוהים ישתמש בו כדי להשלים את כל מה שניבא בכל הכתובים"
+      },
+      {
+        "location": "html, paragraph 7, theological subjects",
+        "severity": "major",
+        "source_quote": "divine election and predestination",
+        "suggested_fix": "החליפו את „בחירה אלוהית וקדמוּת גורל” ב„בחירה אלוהית וגזירה מראש”.",
+        "translation_quote": "בחירה אלוהית וקדמוּת גורל"
+      },
+      {
+        "location": "html, paragraph 7, cited article title",
+        "severity": "major",
+        "source_quote": "The Foolishness of Preaching",
+        "suggested_fix": "החליפו את הכותרת „טיפשות הַדְּבָרָה” ב„סכלות ההטפה”.",
+        "translation_quote": "טיפשות הַדְּבָרָה"
+      },
+      {
+        "location": "html, paragraph 1",
+        "severity": "minor",
+        "source_quote": "Greetings of brotherly love ... causing the conservatives and liberals to become even more polarized into opposing parties.",
+        "suggested_fix": "החליפו את „אהבה אחֵית” ב„אהבת אחים” ואת „ההפלגה” ב„הקיטוב”.",
+        "translation_quote": "ברכות של אהבה אחֵית ... שהעמיקה עוד יותר את ההפלגה"
+      },
+      {
+        "location": "html, paragraph 2",
+        "severity": "minor",
+        "source_quote": "In an increasingly developing trend",
+        "suggested_fix": "החליפו את „במגמה מתפתחת מספרית” ב„במסגרת מגמה ההולכת ומתחזקת”. המקור אינו מציין התפתחות מספרית.",
+        "translation_quote": "במגמה מתפתחת מספרית"
+      },
+      {
+        "location": "html, paragraph 3",
+        "severity": "minor",
+        "source_quote": "the current victorious march of evil over good",
+        "suggested_fix": "החליפו את „הצעד הניצחוני הנוכחי של הרע על פני הטוב” ב„מצעד הניצחון הנוכחי של הרע על הטוב”.",
+        "translation_quote": "הצעד הניצחוני הנוכחי של הרע על פני הטוב"
+      },
+      {
+        "location": "html, paragraph 4, opening sentence",
+        "severity": "minor",
+        "source_quote": "For us as Christians, let us always keep our focus fixed on the God of heaven.",
+        "suggested_fix": "החליפו את „כמונו כנוצרים, נתגייס תמיד לשמור את מבטנו מקובע” ב„כנוצרים, הבה נשמור תמיד את מבטנו ממוקד”.",
+        "translation_quote": "כמונו כנוצרים, נתגייס תמיד לשמור את מבטנו מקובע"
+      },
+      {
+        "location": "html, paragraph 8",
+        "severity": "minor",
+        "source_quote": "which is our goal with these types of articles",
+        "suggested_fix": "החליפו את „וזהו מטרתנו עם מאמרים מסוג זה” ב„וזו מטרתנו במאמרים מסוג זה”.",
+        "translation_quote": "וזהו מטרתנו עם מאמרים מסוג זה"
+      },
+      {
+        "location": "html, paragraph 9",
+        "severity": "minor",
+        "source_quote": "to present a more clear gospel message",
+        "suggested_fix": "החליפו את „הצגת מסר גאולה ברור יותר” ב„הצגת מסר הבשורה בצורה ברורה יותר”.",
+        "translation_quote": "הצגת מסר גאולה ברור יותר"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 66
+  }
+}
