@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-30T09:12:13+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"html, avsnitt 5\",\n      \"severity\": \"major\",\n      \"source_quote\": \"Four thousand miles to the east\",\n      \"suggested_fix\": \"Erstatt «Fire tusen mil lenger øst» med «Fire tusen engelske mil lenger øst».\",\n      \"translation_quote\": \"Fire tusen mil lenger øst\"\n    },\n    {\n      \"location\": \"html, avsnitt 4\",\n      \"severity\": \"major\",\n      \"source_quote\": \"A wayward shell, some weighing as much as a small car, could fall from the sky with deadly results.\",\n      \"suggested_fix\": \"Erstatt «Et viltgående granatskall» med «En granat på avveie». «Granatskall» betegner skallet, ikke selve artilleriprosjektilet.\",\n      \"translation_quote\": \"Et viltgående granatskall, noen av dem så tunge som en liten bil, kunne falle fra himmelen med dødelige følger.\"\n    },\n    {\n      \"location\": \"html, avsnitt 10\",\n      \"severity\": \"major\",\n      \"source_quote\": \"resulting in mob violence, property damage\",\n      \"suggested_fix\": \"Erstatt «mobbeangrep» med «vold fra folkemengder».\",\n      \"translation_quote\": \"noe som resulterte i mobbeangrep, skade på eiendom\"\n    },\n    {\n      \"location\": \"html, avsnitt 16\",\n      \"severity\": \"major\",\n      \"source_quote\": \"as Hitler made a last desperate stand\",\n      \"suggested_fix\": \"Erstatt «mens Hitler gjorde et siste fortvilet standpunkt» med «mens Hitler gjorde et siste desperat forsøk på å holde stand».\",\n      \"translation_quote\": \"mens Hitler gjorde et siste fortvilet standpunkt\"\n    },\n    {\n      \"location\": \"html, avsnitt 20\",\n      \"severity\": \"major\",\n      \"source_quote\": \"The devastation of a pair of atomic bombs shocked Japan into surrender.\",\n      \"suggested_fix\": \"Erstatt setningen med «Ødeleggelsene som to atombomber forårsaket, sjokkerte Japan til overgivelse.» Dette tydeliggjør at bombene forårsaket ødeleggelsene, ikke at bombene ble ødelagt.\",\n      \"translation_quote\": \"Ødeleggelsen av et par atombomber sjokkerte Japan til overgivelse.\"\n    },\n    {\n      \"location\": \"html, avsnitt 18\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"Spread thin—with troops, equipment, and resources dwindling—they fought a desperate defensive campaign.\",\n      \"suggested_fix\": \"Erstatt setningen med «Med styrkene spredt over et stort område og stadig færre tropper, mindre utstyr og knappere ressurser kjempet de en desperat forsvarskamp.»\",\n      \"translation_quote\": \"Spredd tynt—with tropper, utstyr og ressurser minkende—kjempet de en desperat forsvarskampanje.\"\n    },\n    {\n      \"location\": \"html, avsnitt 6, 7, 10 og 11\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"These young men were called; a general anger; patriotic fervor; an efficient, well-supplied attack force\",\n      \"suggested_fix\": \"Rett uttrykkene til henholdsvis «Disse unge mennene ble kalt til tjeneste», «generelt sinne», «patriotisk glød» og «en effektiv, godt forsynt angrepsstyrke».\",\n      \"translation_quote\": \"Denne unge mannenes kallelse; generell sinne; patriotsk fervor; en effektiv, godt forsynte angrepsstyrke\"\n    },\n    {\n      \"location\": \"html, avsnitt 10 og senere bruk av CO/COene\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"conscientious objectors’ (COs) convictions\",\n      \"suggested_fix\": \"Introduser forkortelsen ved første forekomst i avsnitt 10, for eksempel «samvittighetsnekternes (CO-enes) overbevisning», og bruk deretter konsekvent «CO-ene» og «CO».\",\n      \"translation_quote\": \"samvittighetsnekternes overbevisning; COene; status som CO\"\n    },\n    {\n      \"location\": \"html, avsnitt 5\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"<strong>physical</strong>; <strong>hearts</strong> and<strong> minds</strong>\",\n      \"suggested_fix\": \"Gjeninnfør kildeavsnittets utheving med «den <strong>fysiske</strong> kampføringen» og «i <strong>hjertene</strong> og <strong>sinnene</strong>».\",\n      \"translation_quote\": \"den fysiske kampføringen; i hjertene og sinnene\"\n    },\n    {\n      \"location\": \"html, avsnitt 22\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"MacArthur in the devastation and destruction of war\",\n      \"suggested_fix\": \"Erstatt «MacArthur i ødeleggelsen og ødeleggelsen som krig medførte» med «MacArthur på krigens herjinger og ødeleggelser».\",\n      \"translation_quote\": \"MacArthur i ødeleggelsen og ødeleggelsen som krig medførte\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": false,\n  \"score\": 85\n}",
+    "content_bytes": 4457,
+    "content_evidence_truncated": false,
+    "content_sha256": "c77ec89c93c4b504112fa3284e30721e7dd1288677300fc66413475f46082df8",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1403,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 151,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8592,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7489,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 9995
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}

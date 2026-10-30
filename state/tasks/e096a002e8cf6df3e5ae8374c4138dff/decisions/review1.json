@@ -1,0 +1,77 @@
+{
+  "findings": [
+    {
+      "location": "html, avsnitt 5",
+      "severity": "major",
+      "source_quote": "Four thousand miles to the east",
+      "suggested_fix": "Erstatt «Fire tusen mil lenger øst» med «Fire tusen engelske mil lenger øst».",
+      "translation_quote": "Fire tusen mil lenger øst"
+    },
+    {
+      "location": "html, avsnitt 4",
+      "severity": "major",
+      "source_quote": "A wayward shell, some weighing as much as a small car, could fall from the sky with deadly results.",
+      "suggested_fix": "Erstatt «Et viltgående granatskall» med «En granat på avveie». «Granatskall» betegner skallet, ikke selve artilleriprosjektilet.",
+      "translation_quote": "Et viltgående granatskall, noen av dem så tunge som en liten bil, kunne falle fra himmelen med dødelige følger."
+    },
+    {
+      "location": "html, avsnitt 10",
+      "severity": "major",
+      "source_quote": "resulting in mob violence, property damage",
+      "suggested_fix": "Erstatt «mobbeangrep» med «vold fra folkemengder».",
+      "translation_quote": "noe som resulterte i mobbeangrep, skade på eiendom"
+    },
+    {
+      "location": "html, avsnitt 16",
+      "severity": "major",
+      "source_quote": "as Hitler made a last desperate stand",
+      "suggested_fix": "Erstatt «mens Hitler gjorde et siste fortvilet standpunkt» med «mens Hitler gjorde et siste desperat forsøk på å holde stand».",
+      "translation_quote": "mens Hitler gjorde et siste fortvilet standpunkt"
+    },
+    {
+      "location": "html, avsnitt 20",
+      "severity": "major",
+      "source_quote": "The devastation of a pair of atomic bombs shocked Japan into surrender.",
+      "suggested_fix": "Erstatt setningen med «Ødeleggelsene som to atombomber forårsaket, sjokkerte Japan til overgivelse.» Dette tydeliggjør at bombene forårsaket ødeleggelsene, ikke at bombene ble ødelagt.",
+      "translation_quote": "Ødeleggelsen av et par atombomber sjokkerte Japan til overgivelse."
+    },
+    {
+      "location": "html, avsnitt 18",
+      "severity": "minor",
+      "source_quote": "Spread thin—with troops, equipment, and resources dwindling—they fought a desperate defensive campaign.",
+      "suggested_fix": "Erstatt setningen med «Med styrkene spredt over et stort område og stadig færre tropper, mindre utstyr og knappere ressurser kjempet de en desperat forsvarskamp.»",
+      "translation_quote": "Spredd tynt—with tropper, utstyr og ressurser minkende—kjempet de en desperat forsvarskampanje."
+    },
+    {
+      "location": "html, avsnitt 6, 7, 10 og 11",
+      "severity": "minor",
+      "source_quote": "These young men were called; a general anger; patriotic fervor; an efficient, well-supplied attack force",
+      "suggested_fix": "Rett uttrykkene til henholdsvis «Disse unge mennene ble kalt til tjeneste», «generelt sinne», «patriotisk glød» og «en effektiv, godt forsynt angrepsstyrke».",
+      "translation_quote": "Denne unge mannenes kallelse; generell sinne; patriotsk fervor; en effektiv, godt forsynte angrepsstyrke"
+    },
+    {
+      "location": "html, avsnitt 10 og senere bruk av CO/COene",
+      "severity": "minor",
+      "source_quote": "conscientious objectors’ (COs) convictions",
+      "suggested_fix": "Introduser forkortelsen ved første forekomst i avsnitt 10, for eksempel «samvittighetsnekternes (CO-enes) overbevisning», og bruk deretter konsekvent «CO-ene» og «CO».",
+      "translation_quote": "samvittighetsnekternes overbevisning; COene; status som CO"
+    },
+    {
+      "location": "html, avsnitt 5",
+      "severity": "minor",
+      "source_quote": "<strong>physical</strong>; <strong>hearts</strong> and<strong> minds</strong>",
+      "suggested_fix": "Gjeninnfør kildeavsnittets utheving med «den <strong>fysiske</strong> kampføringen» og «i <strong>hjertene</strong> og <strong>sinnene</strong>».",
+      "translation_quote": "den fysiske kampføringen; i hjertene og sinnene"
+    },
+    {
+      "location": "html, avsnitt 22",
+      "severity": "minor",
+      "source_quote": "MacArthur in the devastation and destruction of war",
+      "suggested_fix": "Erstatt «MacArthur i ødeleggelsen og ødeleggelsen som krig medførte» med «MacArthur på krigens herjinger og ødeleggelser».",
+      "translation_quote": "MacArthur i ødeleggelsen og ødeleggelsen som krig medførte"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
