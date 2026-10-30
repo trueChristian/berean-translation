@@ -1,0 +1,84 @@
+{
+  "findings": [
+    {
+      "location": "html, alinea 11",
+      "severity": "major",
+      "source_quote": "even in the face of overwhelming odds",
+      "suggested_fix": "Vervang ‘zelfs bij overweldigende kansen’ door ‘zelfs tegenover een overweldigende overmacht’.",
+      "translation_quote": "zelfs bij overweldigende kansen"
+    },
+    {
+      "location": "html, alinea 18",
+      "severity": "major",
+      "source_quote": "they fought a desperate defensive campaign",
+      "suggested_fix": "Vervang ‘voerden zij een wanhoopsoffensief ter verdediging’ door ‘voerden zij een wanhopige verdedigingsstrijd’.",
+      "translation_quote": "voerden zij een wanhoopsoffensief ter verdediging"
+    },
+    {
+      "location": "html, alinea 18",
+      "severity": "major",
+      "source_quote": "Many months earlier he had overseen the island’s surrender, now he commanded its repossession.",
+      "suggested_fix": "Vervang deze zin door: ‘Vele maanden eerder had hij toegezien op de overgave van het eiland; nu voerde hij het bevel over de herovering ervan.’",
+      "translation_quote": "Maanden eerder had hij al het ontwapeningsproces van het eiland gehandhaafd en nu beval hij de herovering."
+    },
+    {
+      "location": "html, alinea 21",
+      "severity": "major",
+      "source_quote": "Months and years had been spent away from spiritual oversight.",
+      "suggested_fix": "Vervang deze zin door: ‘Zij hadden maanden en jaren zonder geestelijk toezicht doorgebracht.’",
+      "translation_quote": "Maanden en jaren waren weggeëist van geestelijke supervisie."
+    },
+    {
+      "location": "html, alinea 10",
+      "severity": "minor",
+      "source_quote": "their families and friends would also be scrutinized",
+      "suggested_fix": "Vervang ‘zouden worden ondervraagd’ door ‘kritisch zouden worden bekeken’. De bron spreekt van nauwlettende beoordeling, niet specifiek van ondervraging.",
+      "translation_quote": "hun families en vrienden zouden worden ondervraagd"
+    },
+    {
+      "location": "html, alinea 4",
+      "severity": "minor",
+      "source_quote": "none more so than in the Pacific theater. There ... its tropical islands hosted battles",
+      "suggested_fix": "Vervang ‘nergens meer dan in het Pacifische toneel’ door ‘nergens meer dan op het strijdtoneel in de Stille Oceaan’ en ‘huisden tropische eilanden gevechten’ door ‘waren tropische eilanden het toneel van gevechten’.",
+      "translation_quote": "nergens meer dan in het Pacifische toneel. Daar ... huisden tropische eilanden gevechten"
+    },
+    {
+      "location": "html, alinea 13",
+      "severity": "minor",
+      "source_quote": "Ungodly influences abounded around them.",
+      "suggested_fix": "Vervang deze zin door: ‘Overal om hen heen waren goddeloze invloeden aanwezig.’",
+      "translation_quote": "Ongoddelijke invloeden overvloedden rondom hen."
+    },
+    {
+      "location": "html, alinea 15",
+      "severity": "minor",
+      "source_quote": "where he quickly filed for CO status",
+      "suggested_fix": "Vervang ‘waar hij snel CO‑status aanvroeg’ door ‘waar hij al snel erkenning als gewetensbezwaarde aanvroeg’, zodat de eerder vertaalde aanduiding consequent en begrijpelijk blijft.",
+      "translation_quote": "waar hij snel CO‑status aanvroeg"
+    },
+    {
+      "location": "html, alinea 15",
+      "severity": "minor",
+      "source_quote": "their time of testing would soon be drawing to a close",
+      "suggested_fix": "Vervang ‘hun tijd van beproeving trok spoedig naar een einde’ door ‘hun tijd van beproeving zou spoedig ten einde lopen’.",
+      "translation_quote": "hun tijd van beproeving trok spoedig naar een einde"
+    },
+    {
+      "location": "html, alinea 16",
+      "severity": "minor",
+      "source_quote": "as Hitler made a last desperate stand",
+      "suggested_fix": "Vervang ‘toen Hitler een laatste wanhopige stand maakte’ door ‘toen Hitler een laatste wanhopige poging deed om stand te houden’.",
+      "translation_quote": "toen Hitler een laatste wanhopige stand maakte"
+    },
+    {
+      "location": "section",
+      "severity": "minor",
+      "source_quote": "CHURCH HISTORY",
+      "suggested_fix": "Corrigeer naar ‘KERKGESCHIEDENIS’.",
+      "translation_quote": "KERKSGESCHIEDENIS"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

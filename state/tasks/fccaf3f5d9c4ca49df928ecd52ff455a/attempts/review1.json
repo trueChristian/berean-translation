@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-30T07:31:00+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"html, alinea 11\",\n      \"severity\": \"major\",\n      \"source_quote\": \"even in the face of overwhelming odds\",\n      \"suggested_fix\": \"Vervang ‘zelfs bij overweldigende kansen’ door ‘zelfs tegenover een overweldigende overmacht’.\",\n      \"translation_quote\": \"zelfs bij overweldigende kansen\"\n    },\n    {\n      \"location\": \"html, alinea 18\",\n      \"severity\": \"major\",\n      \"source_quote\": \"they fought a desperate defensive campaign\",\n      \"suggested_fix\": \"Vervang ‘voerden zij een wanhoopsoffensief ter verdediging’ door ‘voerden zij een wanhopige verdedigingsstrijd’.\",\n      \"translation_quote\": \"voerden zij een wanhoopsoffensief ter verdediging\"\n    },\n    {\n      \"location\": \"html, alinea 18\",\n      \"severity\": \"major\",\n      \"source_quote\": \"Many months earlier he had overseen the island’s surrender, now he commanded its repossession.\",\n      \"suggested_fix\": \"Vervang deze zin door: ‘Vele maanden eerder had hij toegezien op de overgave van het eiland; nu voerde hij het bevel over de herovering ervan.’\",\n      \"translation_quote\": \"Maanden eerder had hij al het ontwapeningsproces van het eiland gehandhaafd en nu beval hij de herovering.\"\n    },\n    {\n      \"location\": \"html, alinea 21\",\n      \"severity\": \"major\",\n      \"source_quote\": \"Months and years had been spent away from spiritual oversight.\",\n      \"suggested_fix\": \"Vervang deze zin door: ‘Zij hadden maanden en jaren zonder geestelijk toezicht doorgebracht.’\",\n      \"translation_quote\": \"Maanden en jaren waren weggeëist van geestelijke supervisie.\"\n    },\n    {\n      \"location\": \"html, alinea 10\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"their families and friends would also be scrutinized\",\n      \"suggested_fix\": \"Vervang ‘zouden worden ondervraagd’ door ‘kritisch zouden worden bekeken’. De bron spreekt van nauwlettende beoordeling, niet specifiek van ondervraging.\",\n      \"translation_quote\": \"hun families en vrienden zouden worden ondervraagd\"\n    },\n    {\n      \"location\": \"html, alinea 4\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"none more so than in the Pacific theater. There ... its tropical islands hosted battles\",\n      \"suggested_fix\": \"Vervang ‘nergens meer dan in het Pacifische toneel’ door ‘nergens meer dan op het strijdtoneel in de Stille Oceaan’ en ‘huisden tropische eilanden gevechten’ door ‘waren tropische eilanden het toneel van gevechten’.\",\n      \"translation_quote\": \"nergens meer dan in het Pacifische toneel. Daar ... huisden tropische eilanden gevechten\"\n    },\n    {\n      \"location\": \"html, alinea 13\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"Ungodly influences abounded around them.\",\n      \"suggested_fix\": \"Vervang deze zin door: ‘Overal om hen heen waren goddeloze invloeden aanwezig.’\",\n      \"translation_quote\": \"Ongoddelijke invloeden overvloedden rondom hen.\"\n    },\n    {\n      \"location\": \"html, alinea 15\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"where he quickly filed for CO status\",\n      \"suggested_fix\": \"Vervang ‘waar hij snel CO‑status aanvroeg’ door ‘waar hij al snel erkenning als gewetensbezwaarde aanvroeg’, zodat de eerder vertaalde aanduiding consequent en begrijpelijk blijft.\",\n      \"translation_quote\": \"waar hij snel CO‑status aanvroeg\"\n    },\n    {\n      \"location\": \"html, alinea 15\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"their time of testing would soon be drawing to a close\",\n      \"suggested_fix\": \"Vervang ‘hun tijd van beproeving trok spoedig naar een einde’ door ‘hun tijd van beproeving zou spoedig ten einde lopen’.\",\n      \"translation_quote\": \"hun tijd van beproeving trok spoedig naar een einde\"\n    },\n    {\n      \"location\": \"html, alinea 16\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"as Hitler made a last desperate stand\",\n      \"suggested_fix\": \"Vervang ‘toen Hitler een laatste wanhopige stand maakte’ door ‘toen Hitler een laatste wanhopige poging deed om stand te houden’.\",\n      \"translation_quote\": \"toen Hitler een laatste wanhopige stand maakte\"\n    },\n    {\n      \"location\": \"section\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"CHURCH HISTORY\",\n      \"suggested_fix\": \"Corrigeer naar ‘KERKGESCHIEDENIS’.\",\n      \"translation_quote\": \"KERKSGESCHIEDENIS\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": false,\n  \"score\": 87\n}",
+    "content_bytes": 4408,
+    "content_evidence_truncated": false,
+    "content_sha256": "c85299ee0e444dd27954b66153e55b7bbe50a6cedb61c63e370af27f662e6175",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1239,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 98,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8405,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7302,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 9644
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}
