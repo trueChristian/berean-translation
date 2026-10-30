@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Poem, stanzas 1 and 4",
+      "severity": "minor",
+      "source_quote": "“Be thou removed”",
+      "suggested_fix": "Use the feminine form for the mountain addressed: «Sii rimossa» in both instances.",
+      "translation_quote": "«Sii rimosso»; «Sii rimosso nel nome di Gesù»"
+    },
+    {
+      "location": "Poem, stanza 3",
+      "severity": "minor",
+      "source_quote": "“Take from Him power on earth to tread, / On serpent’s sting, on dragon’s head.”",
+      "suggested_fix": "Place «sulla terra» with «potere», rather than making it modify «calpestare»; for example: «Prendi da Lui il potere sulla terra di calpestare il pungiglione del serpente e la testa del drago».",
+      "translation_quote": "«Prendi da Lui il potere di calpestare sulla terra / Il pungiglione del serpente e la testa del drago.»"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

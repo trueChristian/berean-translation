@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "0d830796-5122-43a6-a2df-66ef43d57286",
+    "response_id": "chatcmpl-Eebx5CpduDhAob63KfDUOJaorJTiO",
+    "usage": {
+      "completion_tokens": 1318,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1068,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2132,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1029,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 3450
+    }
+  },
+  "received_at": "2026-10-30T09:12:32+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Poem, stanzas 1 and 4",
+        "severity": "minor",
+        "source_quote": "“Be thou removed”",
+        "suggested_fix": "Use the feminine form for the mountain addressed: «Sii rimossa» in both instances.",
+        "translation_quote": "«Sii rimosso»; «Sii rimosso nel nome di Gesù»"
+      },
+      {
+        "location": "Poem, stanza 3",
+        "severity": "minor",
+        "source_quote": "“Take from Him power on earth to tread, / On serpent’s sting, on dragon’s head.”",
+        "suggested_fix": "Place «sulla terra» with «potere», rather than making it modify «calpestare»; for example: «Prendi da Lui il potere sulla terra di calpestare il pungiglione del serpente e la testa del drago».",
+        "translation_quote": "«Prendi da Lui il potere di calpestare sulla terra / Il pungiglione del serpente e la testa del drago.»"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 96
+  }
+}

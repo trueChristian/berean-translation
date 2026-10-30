@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "a9c61a9baf174cc38d95ece7251e6d2f",
   "campaign": "auto-f61d6135315ce31aef14b1409fc97d035777859bc65d503d40516acd689a9c2a",
   "created_at": "2026-10-29T20:17:42+00:00",
   "events": [
@@ -28,10 +27,46 @@
         },
         "total_tokens": 2108
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1318,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 1068,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 2132,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 1029,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 3450
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "Poem, stanzas 1 and 4",
+      "severity": "minor",
+      "source_quote": "“Be thou removed”",
+      "suggested_fix": "Use the feminine form for the mountain addressed: «Sii rimossa» in both instances.",
+      "translation_quote": "«Sii rimosso»; «Sii rimosso nel nome di Gesù»"
+    },
+    {
+      "location": "Poem, stanza 3",
+      "severity": "minor",
+      "source_quote": "“Take from Him power on earth to tread, / On serpent’s sting, on dragon’s head.”",
+      "suggested_fix": "Place «sulla terra» with «potere», rather than making it modify «calpestare»; for example: «Prendi da Lui il potere sulla terra di calpestare il pungiglione del serpente e la testa del drago».",
+      "translation_quote": "«Prendi da Lui il potere di calpestare sulla terra / Il pungiglione del serpente e la testa del drago.»"
+    }
+  ],
+  "finished_at": "2026-10-30T09:12:32+00:00",
   "id": "d8fe302cd8e8c78962996a20cd0b224d",
   "issue_id": "07955de4-6574-4a4b-9c1b-f216374c02ee",
   "language": "ita",
@@ -120,9 +155,11 @@
     }
   },
   "protected": false,
+  "quality_score": 96,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/d7a2ef9662d7ae4639ab5c5f3a193bd7bf933b5615f089c060f43c9e9c8a5320.json",
   "stage": "review1",
   "stage_budget": {
@@ -138,7 +175,7 @@
     "total_reserved_usd": 0.086024,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "9704c8a9ddf18fd2d3f3459b678185578331584dcb4b99104a040be948b131c6",
   "translation_model_actual": "gpt-6-luna"
