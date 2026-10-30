@@ -5,11 +5,229 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "f87917b250ef4ba7bf70b59ac80233a0",
   "campaign": "auto-80758def6f084b64cf95a1e6e7e5d0a15278830baffbe3d0cacd8b27b83faa8e",
   "created_at": "2026-10-29T23:02:57+00:00",
-  "events": [],
-  "findings": [],
+  "events": [
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 4394,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 99,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8700,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8697,
+          "cached_tokens": 0
+        },
+        "total_tokens": 13094
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "translation.subtitle",
+      "severity": "major",
+      "source_quote": "The Call of Discipleship",
+      "suggested_fix": "Badilisha “Mwito wa Utumwa” kuwa “Mwito wa Uanafunzi”.",
+      "translation_quote": "Mwito wa Utumwa"
+    },
+    {
+      "location": "translation.html, opening Scripture quotation",
+      "severity": "major",
+      "source_quote": "casting a net into the sea: for they were fishers ... immediately left the ship and their father",
+      "suggested_fix": "Tumia “wakitupa wavu baharini; kwa maana walikuwa wavuvi”, “Mara wakaacha nyavu zao”, “ndugu wengine wawili”, “wakitengeneza nyavu zao”, na “Mara wakaacha mashua na baba yao”.",
+      "translation_quote": "wakitupa wavuzi katika bahari; kwa kuwa walikuwa wavuzi ... Mara walifanya kuacha wavua zao ... akamuona wawili wengine ... wakirekebisha wavua zao ... Mara waliiga meli na baba yao"
+    },
+    {
+      "location": "translation.html, definition of holiness",
+      "severity": "major",
+      "source_quote": "the inner renewing of the Holy Ghost",
+      "suggested_fix": "Badilisha “na ajili ya uondoaji wa ndani wa Roho Mtakatifu” kuwa “na kufanywa upya ndani kwa kazi ya Roho Mtakatifu”.",
+      "translation_quote": "na ajili ya uondoaji wa ndani wa Roho Mtakatifu"
+    },
+    {
+      "location": "translation.html, Matthew 3:11-12 quotation and following paragraph",
+      "severity": "major",
+      "source_quote": "I indeed baptize you ... whose shoes I am not worthy to bear ... Whose fan is in his hand ... purge his floor ... wheat into the garner ... burn up the chaff ... like a winnowing breeze",
+      "suggested_fix": "Rekebisha vipashio hivyo kuwa “Mimi nawabatiza kwa maji kwa ajili ya toba”, “ambaye sistahili kubeba viatu vyake”, “ungo wake uko mkononi mwake”, “atasafisha kabisa uwanja wake wa kupuria”, “ataikusanya ngano yake ghalani”, na “atayateketeza makapi kwa moto usiozimika”. Katika aya inayofuata tumia “kama upepo wa kupepeta nafaka” badala ya “kama upepo wa kusaga”.",
+      "translation_quote": "Mimi kwa kweli ninyi nimbatize ... si mworthy kubeba viatu vyake ... chafu yake iko mkononi mwake ... atasaga kutakasa ghorofa yake ... ngano yake kwenye ghorofa ... atawaka majani ... kama upepo wa kusaga"
+    },
+    {
+      "location": "translation.html, paragraph following image",
+      "severity": "major",
+      "source_quote": "In the Sermon on the Mount ... challenged the most pious Pharisee and disturbed the apathy of the sinner",
+      "suggested_fix": "Tumia “Katika Mahubiri ya Mlimani, Yesu alitoa mafundisho yaliyompa changamoto hata Farisayo mwenye uchaji mkubwa zaidi na kuutikisa ubaridi wa mwenye dhambi.”",
+      "translation_quote": "Katika Mhubiri wa Mlimani ... yalimchakaza Mfalisayo mwenye ufinyu zaidi na kuudhi mgeni wa mwenye dhambi"
+    },
+    {
+      "location": "translation.html, paragraph on the crowds",
+      "severity": "major",
+      "source_quote": "deliverance from the stranglehold of sin",
+      "suggested_fix": "Badilisha “kuokolewa kutokana na mkanda wa dhambi” kuwa “kukombolewa kutoka katika nguvu za dhambi zilizowakandamiza”.",
+      "translation_quote": "kuokolewa kutokana na mkanda wa dhambi"
+    },
+    {
+      "location": "translation.html, Mary Magdalene introduction, Luke 8:1-3, subsequent explanation, and final prose paragraph",
+      "severity": "major",
+      "source_quote": "Mary Magdalene ... possessed of evil spirits ... out of whom went seven devils ... delivered from seven devils",
+      "suggested_fix": "Katika maeneo yote manne tumia jina la kawaida “Maria Magdalene” badala ya “Maria Mtagata”. Badilisha “akiwa na mzimu” kuwa “amepagawa na pepo wabaya”, “ambapo kutoka kwake mara saba zilitoka roho mbaya” kuwa “ambaye pepo saba walimtoka”, na “kuwekewa huru kutoka kwa roho mbaya mara saba” kuwa “kuwekwa huru kutoka kwa pepo saba”.",
+      "translation_quote": "Maria Mtagata ... akiwa na mzimu ... ambapo kutoka kwake mara saba zilitoka roho mbaya ... kuwekewa huru kutoka kwa roho mbaya mara saba"
+    },
+    {
+      "location": "translation.html, John 20:15-16",
+      "severity": "major",
+      "source_quote": "Sir, if thou have borne him hence, tell me where thou hast laid him",
+      "suggested_fix": "Tumia “Bwana, ikiwa umemchukua kutoka hapa, niambie mahali ulipomweka”.",
+      "translation_quote": "Mwana, kama umemchukua mwanao, niambie umeweka wapi"
+    },
+    {
+      "location": "translation.html, introduction to Luke 5",
+      "severity": "major",
+      "source_quote": "deliver us from the power of sin ... a man who was paralyzed ... How desperate they were to help their friend",
+      "suggested_fix": "Tumia “kutukomboa kutoka katika nguvu za dhambi”, “mtu aliyepooza”, na “Walikuwa na hamu kubwa iliyoje ya kumsaidia rafiki yao apate uponyaji!”",
+      "translation_quote": "kututoa katika hali ya uzito ya dhambi ... mtu aliyekuwa amekolewa mguu ... Walikuwa wameshindwa kiasi gani kusaidia rafiki yao"
+    },
+    {
+      "location": "translation.html, Luke 5:20-24 quotations",
+      "severity": "major",
+      "source_quote": "Man, thy sins are forgiven thee ... speaketh blasphemies ... What reason ye in your hearts? ... he said unto the sick of the palsy",
+      "suggested_fix": "Tumia “Ewe mtu, dhambi zako zimesamehewa”, “anayetukana Mungu”, “Mnawaza nini mioyoni mwenu?”, na “akamwambia yule aliyepooza”. Katika swali linalofuata pia badilisha “Dhambi zako zimetokewa msamaha” kuwa “Dhambi zako zimesamehewa”.",
+      "translation_quote": "Mwana, dhambi zako zimetokewa msamaha ... anazungumza uasi ... Mnatakili moyoni mwenu? ... al isema kwa yule aliyesimama mgonjwa"
+    },
+    {
+      "location": "translation.html, paragraph beginning “Kumfuata Yesu ni kuacha dhambi zako”",
+      "severity": "major",
+      "source_quote": "We would be greatly mistaken ... Many “holy men” and “holy women” ... a form of godliness ... We settle for a religion that is doable",
+      "suggested_fix": "Tumia “Tungekosea sana kudokeza kwamba utakatifu ni matokeo ya juhudi za kibinadamu”, “Wanaume na wanawake wengi ‘watakatifu’”, “umbo la uchaji wa Mungu”, na “Tunaridhika na dini tunayoweza kuitekeleza kwa nguvu zetu wenyewe”.",
+      "translation_quote": "Tutakuwa na dharau kubwa ... Watu wengi “wanaoonekana watakatifu” ... aina ya uungu ... Tunakaribiana na dini inayoweza kufanywa kwa urahisi"
+    },
+    {
+      "location": "translation.html, Romans 10:3",
+      "severity": "major",
+      "source_quote": "being ignorant of God's righteousness ... have not submitted themselves unto the righteousness of God",
+      "suggested_fix": "Tumia “Kwa kuwa hawaijui haki ya Mungu, na wanajitahidi kuanzisha haki yao wenyewe, hawajajitiisha chini ya haki ya Mungu”.",
+      "translation_quote": "walipojua haki ya Mungu vibaya ... hawakukubali haki ya Mungu"
+    },
+    {
+      "location": "translation.html, paragraph on beholding the dying Lord",
+      "severity": "major",
+      "source_quote": "the renewing of the Holy Ghost ... our dying Lord—bleeding, dying for our sins",
+      "suggested_fix": "Tumia “kufanywa upya na Roho Mtakatifu” na “Bwana wetu anayekufa—akimwaga damu, akifa kwa ajili ya dhambi zetu”.",
+      "translation_quote": "uboreshaji wa Roho Mtakatifu ... Bwana wetu akisikia damu—akinava, akifa kwa ajili ya dhambi zetu"
+    },
+    {
+      "location": "translation.html, paragraph beginning “Damu ya Yesu”",
+      "severity": "major",
+      "source_quote": "is imputed through forgiveness ... after being empowered through the Holy Spirit",
+      "suggested_fix": "Tumia “‘Haki ya Mungu’ inahesabiwa kwetu kupitia msamaha, na ni tunda la maisha yetu baada ya kutiwa nguvu kwa njia ya Roho Mtakatifu.”",
+      "translation_quote": "inalipwa kupitia msamaha ... baada ya kuweza kufanywa kwa nguvu za Roho Mtakatifu"
+    },
+    {
+      "location": "translation.html, Adam Clark quotation",
+      "severity": "major",
+      "source_quote": "those who appeared ... were esteemed, not only highly culpable, but worthy of punishment",
+      "suggested_fix": "Rekebisha sehemu hiyo kuwa “wale waliojitokeza katika matukio hayo wakiwa wamevaa mavazi mengine walihesabiwa si tu kuwa na hatia kubwa, bali pia kustahili adhabu”.",
+      "translation_quote": "wale walioonekana ... yalihesabiwa, si tu kuwa na makosa makubwa, bali wakiwa wakeue waadhibiwa"
+    },
+    {
+      "location": "translation.html, paragraph explaining the wedding garment",
+      "severity": "major",
+      "source_quote": "the master of the feast ... any other amenity ... receive the gracious provision of the king",
+      "suggested_fix": "Tumia “mwenye karamu” badala ya “mwenyezi wa sherehe”, “hitaji jingine lolote” badala ya “urahisi mwingine wowote”, na “kupokea yale ambayo mfalme ametoa kwa neema” badala ya “kupokea kifaa cha neema cha mfalme”.",
+      "translation_quote": "mwenyezi wa sherehe ... urahisi mwingine wowote ... kupokea kifaa cha neema cha mfalme"
+    },
+    {
+      "location": "translation.html, Kingdom of Heaven analogy",
+      "severity": "major",
+      "source_quote": "from the gutters of sin ... from the depth of ignorance ... from the temples of self-righteousness",
+      "suggested_fix": "Tumia “kutoka katika mitaro ya dhambi”, “kutoka katika kina cha ujinga”, na “kutoka katika mahekalu ya kujihesabia haki”.",
+      "translation_quote": "kutoka vichaka vya dhambi ... kutoka katika uwongo wa ujinga ... kutoka ndani ya matabernakli ya ubinafsi wa haki"
+    },
+    {
+      "location": "translation.html, paragraph speculating about the guest's clothing",
+      "severity": "minor",
+      "source_quote": "a simple white cloak",
+      "suggested_fix": "Badilisha “koti rahisi nyeupe” kuwa “joho jeupe la kawaida”.",
+      "translation_quote": "koti rahisi nyeupe"
+    },
+    {
+      "location": "translation.html, Isaiah 64:6 paragraph",
+      "severity": "major",
+      "source_quote": "all who trust in their own righteousness ... we are all as an unclean thing ... we all do fade as a leaf",
+      "suggested_fix": "Tumia “wote wanaotegemea haki yao wenyewe”, “sisi sote ni kama kitu kichafu”, na “sisi sote tunanyauka kama jani”. Rekebisha “yameetuleta mbali” kuwa “yametupeperusha”.",
+      "translation_quote": "wote wanaootiwa kwa haki yao wenyewe ... sisi sote ni kama kitu kisichochafuliwa ... sisi sote tunamkaka kama jani ... yameetuleta mbali"
+    },
+    {
+      "location": "translation.html, Ephesians 1:7 and following sentence",
+      "severity": "major",
+      "source_quote": "we have redemption through his blood ... that we can be made righteous",
+      "suggested_fix": "Tumia “Katika yeye tuna ukombozi kwa damu yake” na “ili tuweze kufanywa wenye haki”.",
+      "translation_quote": "Katika yeye tuna ubatili kwa damu yake ... ili tuweze kuokotwa kwa haki"
+    },
+    {
+      "location": "translation.html, introduction to and quotation of Luke 7:37-39",
+      "severity": "major",
+      "source_quote": "a woman who “was a sinner” ... this ... woman ... toucheth him",
+      "suggested_fix": "Badilisha “alikuwa mhubiri wa dhambi” kuwa “alikuwa mwenye dhambi” na “ambaye anakagua kwake” kuwa “anayemgusa”.",
+      "translation_quote": "alikuwa mhubiri wa dhambi ... mwanamke huyu ambaye anakagua kwake"
+    },
+    {
+      "location": "translation.html, Simon's response and Luke 7:44-47",
+      "severity": "major",
+      "source_quote": "Jesus challenged him ... hath not ceased to kiss my feet ... My head with oil thou didst not anoint ... Her sins ... are forgiven",
+      "suggested_fix": "Tumia “Yesu alimpa changamoto”, “hajaacha kubusu miguu yangu”, “Hukunipaka mafuta kichwani”, na “Dhambi zake, ambazo ni nyingi, zimesamehewa”.",
+      "translation_quote": "Yesu alimkataa ... hajazima kummbusu miguu yangu ... Kichwa changu kwa mafuta hukaanika ... Dhambi zake, ambazo ni nyingi, zimetokewa"
+    },
+    {
+      "location": "translation.html, Luke 7:48 and following explanation",
+      "severity": "major",
+      "source_quote": "Thy sins are forgiven ... set free from the guilt and bondage of sin",
+      "suggested_fix": "Tumia “Dhambi zako zimesamehewa” na “Mwanamume au mwanamke anapowekwa huru kutoka katika hatia na utumwa wa dhambi”.",
+      "translation_quote": "Dhambi zako zimetokewa ... Mtu akiwa amefungwa huru kutoka kwa lawama na utumwa wa dhambi"
+    },
+    {
+      "location": "translation.html, concluding prose paragraph",
+      "severity": "major",
+      "source_quote": "The cause of sin is our fallen carnal nature",
+      "suggested_fix": "Badilisha sentensi hiyo kuwa “Chanzo cha dhambi ni asili yetu ya kimwili iliyoanguka”.",
+      "translation_quote": "Chanzo cha dhambi ni asili yetu ya kula"
+    },
+    {
+      "location": "translation.html, closing hymn quotation",
+      "severity": "major",
+      "source_quote": "save me from its guilt (through forgiveness) and power (through sanctification)",
+      "suggested_fix": "Tumia “niokoe kutoka katika hatia yake (kwa njia ya msamaha) na nguvu zake (kwa njia ya kutakaswa)”.",
+      "translation_quote": "niokoe kutokana na lawama zake (kupitia msamaha) na kutoka kwa nguvu zake (kupitia ukamilisho)"
+    },
+    {
+      "location": "translation.html, image alt attribute",
+      "severity": "major",
+      "source_quote": "Sunrise over rugged mountain peaks",
+      "suggested_fix": "Weka alt=\"Macheo juu ya vilele vya milima yenye miamba\" bila kubadili sifa nyingine za picha.",
+      "translation_quote": "Machweo juu ya milima yenye mfinyanzi"
+    },
+    {
+      "location": "translation.html, malformed paragraph and emphasis opening tags throughout",
+      "severity": "major",
+      "source_quote": "<p>Little did they know ... <p>One thing is certain ... <em>For they being ignorant ... <p>Be of sin",
+      "suggested_fix": "Rejesha alama > katika kila tagi ya aya iliyoandikwa “<p ” badala ya “<p>”, kuanzia aya ya pili hadi mstari wa wimbo. Badilisha pia “<em;Kwa” kuwa “<em>Kwa”. Hifadhi maandishi ya aya na mpangilio wa makala.",
+      "translation_quote": "<p Hawakujua ... <p Jambo moja ... <em;Kwa ... <p Kuwa"
+    },
+    {
+      "location": "translation.html, target-language grammar across the article",
+      "severity": "minor",
+      "source_quote": "They received the call ... the wedding was furnished with guests ... all must wear the wedding garment ... an alabaster box ... said to have been worth a year's wages",
+      "suggested_fix": "Rekebisha sarufi iliyo wazi: “wapi safari hii ingewapelekea” kuwa “safari hii ingewapeleka wapi”; “tunapomchagua kumfuata” kuwa “tunapochagua kumfuata”; “harusi ikajaza wenyealikwa” kuwa “karamu ya harusi ikajaa wageni”; “Nananukuu” kuwa “Ninanukuu”; “Ufalkme” kuwa “Ufalme”; “wote lazima vae” kuwa “wote lazima wavae”; “wakiwa vazi la kuchoka” kuwa “wakiwa wamevaa mavazi chakavu”; “Moja ya tabia” kuwa “Moja ya sifa”; “alikuwa na kukutana na Yesu hapo hapo zamani” kuwa “alikuwa amekutana na Yesu hapo awali”; “liliitwa kuwa lenye thamani” kuwa “lilisemekana kuwa na thamani”; “Alimwagia miguu ya Yesu” kuwa “Aliipaka miguu ya Yesu mafuta”; “amenioga miguu yangu” kuwa “ameiosha miguu yangu”; “Kumfuata Yesu kunatujia uso kwa uso” kuwa “Kumfuata Yesu kunatukutanisha uso kwa uso”; na “hitaji letu hunaita neema Yake” kuwa “hitaji letu hulilia neema Yake”.",
+      "translation_quote": "wapi safari hii ingewapelekea ... tunapomchagua kumfuata ... harusi ikajaza wenyealikwa ... Nananukuu ... Ufalkme ... wote lazima vae ... wakiwa vazi la kuchoka ... Moja ya tabia ... alikuwa na kukutana na Yesu hapo hapo zamani ... liliitwa kuwa lenye thamani ... Alimwagia miguu ya Yesu ... amenioga miguu yangu ... Kumfuata Yesu kunatujia uso kwa uso ... hitaji letu hunaita neema Yake"
+    }
+  ],
   "id": "cfb41e63bbca46a704a9b0d036e0211a",
   "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
   "language": "swa",
@@ -98,11 +316,13 @@
     }
   },
   "protected": false,
+  "quality_score": 35,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/21c8641ce0ae285627965ca28d18397c39ccff0fa09ba301857fc1d0049b6b9d.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "review1",
     "max_candidate_bytes": 120000,
@@ -115,7 +335,7 @@
     "total_reserved_usd": 0.755402,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 0,
   "translation_key": "b3a0b32450038629cf20919c69af275c4549e0b458e25e2b5d03da547dfb97f7",
   "translation_model_actual": "gpt-5-mini-2025-08-07"
