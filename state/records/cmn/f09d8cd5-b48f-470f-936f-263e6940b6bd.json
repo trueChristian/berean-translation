@@ -19,9 +19,32 @@
       "event": "automatic_requested",
       "previous_task": "96f62a85fba222d4dc9c8d171b9ad20d",
       "task": "ad8dac095036687481376d1ec6984ac1"
+    },
+    {
+      "at": "2026-10-30T00:53:06+00:00",
+      "event": "complete",
+      "reason": null,
+      "task": "ad8dac095036687481376d1ec6984ac1"
     }
   ],
   "language": "cmn",
   "latest_task": "ad8dac095036687481376d1ec6984ac1",
-  "published": null
+  "published": {
+    "html_path": "content/cmn/articles/f09d8cd5-b48f-470f-936f-263e6940b6bd.html",
+    "html_sha256": "cc59ee5e6cce947c81607d61ee076d9324d29de46705171b1d572e87adfbd745",
+    "human_review": null,
+    "human_reviewed": false,
+    "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
+    "metadata_path": "content/cmn/articles/f09d8cd5-b48f-470f-936f-263e6940b6bd.json",
+    "metadata_sha256": "0c8864e63b38d0a16585f0c3353240e2e6117d5ea51dd4159ed08314eb615b84",
+    "model": "gpt-6.1-sol",
+    "notice_html": "<aside class=\"translation-notice\" data-translation-notice=\"ai\" lang=\"zh-Hans\" dir=\"ltr\" role=\"note\">\n  <p>本文由 OpenAI（模型：gpt-6.1-sol）通过人工智能翻译，尚未经人工审核。英文原文为权威版本。如对含义有疑问，请参阅英文原文。 <a href=\"/en/articles/f09d8cd5-b48f-470f-936f-263e6940b6bd/\" data-source-article-id=\"f09d8cd5-b48f-470f-936f-263e6940b6bd\" hreflang=\"en\">英文原文</a></p>\n</aside>",
+    "published_at": "2026-10-30T00:53:06+00:00",
+    "quality_score": 98,
+    "review_model": "gpt-6.1-sol",
+    "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+    "source_snapshot": "state/sources/6b076b1f67d6fafc1720a4ac2de4e895d6d3d4ebd14b1f3db48cc7447fd2506b.json",
+    "task": "ad8dac095036687481376d1ec6984ac1",
+    "translation_key": "47590defb50af0ad3c498d9cc77626f00551d9639dd8391778097cb5eb70f00a"
+  }
 }

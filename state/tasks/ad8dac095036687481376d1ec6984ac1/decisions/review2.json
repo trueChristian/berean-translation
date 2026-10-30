@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "translation.html，第4段",
+      "severity": "minor",
+      "source_quote": "Edward Perronet was thrown down and rolled in mud and mire.",
+      "suggested_fix": "将“被人在泥浆与污泥中翻滚”改为“被人在泥浆与污泥中来回翻滚身体”。",
+      "translation_quote": "爱德华·佩罗奈特被推倒，被人在泥浆与污泥中翻滚。"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}
