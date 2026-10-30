@@ -34661,6 +34661,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/hin/articles/53e8b534-1f5e-4d9d-b191-99707a404256.html",
+      "html_sha256": "da5b3735a0c14d29ec15207f0aa3d752b8fa326055bd5840922880ba9e0f39e1",
+      "human_reviewed": false,
+      "id": "53e8b534-1f5e-4d9d-b191-99707a404256",
+      "images": [
+        {
+          "alt": "परतदार पर्वतों और बादलों के नीचे एक विस्तृत रेगिस्तानी घाटी",
+          "public_path": "/images/articles/53e8b534-1f5e-4d9d-b191-99707a404256-1.jpg"
+        }
+      ],
+      "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
+      "language": "hin",
+      "language_tag": "hi",
+      "metadata": "content/hin/articles/53e8b534-1f5e-4d9d-b191-99707a404256.json",
+      "metadata_sha256": "e3237eb657ad6020c2016a642aabd8f31aea079a54768c74bab6dd7f22c53e9d",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "चरित्र अध्ययन",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "fa6973e1c0869cf8ea44c825b0af02960182750ad2e2fbf60dce9af0c7f03feb",
+      "status": "ready",
+      "subtitle": null,
+      "title": "मिद्यान में मूसा",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/hin/articles/54c17772-223b-4fc7-b2e6-0bda387f9b23.html",
       "html_sha256": "6a369d922b2b30e778099ce0697e2ff35c6b98ccc87b7ee0823f24c24d9f481e",
       "human_reviewed": false,
@@ -46791,6 +46819,29 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ita/articles/f236d8e2-96e3-4d12-89e7-41dc995fa490.html",
+      "html_sha256": "6c65c591455da9e92d18c662b676ef190362e16cb31521f22b44377158e6ca28",
+      "human_reviewed": false,
+      "id": "f236d8e2-96e3-4d12-89e7-41dc995fa490",
+      "images": [],
+      "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
+      "language": "ita",
+      "language_tag": "it",
+      "metadata": "content/ita/articles/f236d8e2-96e3-4d12-89e7-41dc995fa490.json",
+      "metadata_sha256": "90e1574c7fc59af9b0739872b312943abb03d0ecfc595ed9c221fb011eb43de4",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "LA CASA PIA",
+      "source_revision": "a4c140808d10570088100bf72903af6bfe80b24b",
+      "source_translation_key": "898312b9e2985808962e7015203da21ff06c86a060f8b64c6111393491050496",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Non sono più due",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ita/articles/f23b48e8-ae04-4469-9ee3-be0e5461cb94.html",
       "html_sha256": "f52ab5055d7e9bc6864ead7add90987001ae51130d0c2ca27ff640c923574584",
       "human_reviewed": false,
@@ -55001,6 +55052,34 @@
       "subtitle": null,
       "title": "De roep om te arbeiden",
       "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/nld/articles/b8ff6643-9234-465f-ab06-4adfc189a851.html",
+      "html_sha256": "6e1a8c49157582ef5d3f67e7fcdd943c2a5f31e22bf27cf6740f99c64a70491d",
+      "human_reviewed": false,
+      "id": "b8ff6643-9234-465f-ab06-4adfc189a851",
+      "images": [
+        {
+          "alt": "Kleine paarse bloemen tegen zacht onscherpe groene heuvels",
+          "public_path": "/images/articles/b8ff6643-9234-465f-ab06-4adfc189a851-1.jpg"
+        }
+      ],
+      "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
+      "language": "nld",
+      "language_tag": "nl",
+      "metadata": "content/nld/articles/b8ff6643-9234-465f-ab06-4adfc189a851.json",
+      "metadata_sha256": "ba4c9882dc58055c59e0f4fc1790003cfd403c7d5e3a738c99ed31561db33882",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "VAN DE REDACTEUR",
+      "source_revision": "a4c140808d10570088100bf72903af6bfe80b24b",
+      "source_translation_key": "e0622a8bb1c0f31a62af348bbcdf1a1da1d53e0d8f3f815cb4fd5567f07e197c",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Van de redacteur",
+      "translation_model": "gpt-6.1-sol"
     },
     {
       "ai_notice_required": true,
