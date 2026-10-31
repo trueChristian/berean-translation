@@ -26,9 +26,16 @@
       "event": "source_error",
       "reason": "English source changed during downstream recovery",
       "task": "f8e2fee63b7c8fcf314a3c03fa584c0e"
+    },
+    {
+      "at": "2026-10-31T06:08:17+00:00",
+      "campaign": "auto-bae976ba4907b7724ecfb041100d0e1e9d8543e327264fecc7f3f96ca6df5838",
+      "event": "automatic_requested",
+      "previous_task": "f8e2fee63b7c8fcf314a3c03fa584c0e",
+      "task": "d45b59adae2f2417c406968b2b406991"
     }
   ],
   "language": "ind",
-  "latest_task": "f8e2fee63b7c8fcf314a3c03fa584c0e",
+  "latest_task": "d45b59adae2f2417c406968b2b406991",
   "published": null
 }
