@@ -39065,6 +39065,46 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/hin/articles/f87354d0-0bb8-4271-a8db-792c77d0d090.html",
+      "html_sha256": "b116d29893b203651b74c384554b851b6b2838ca28182387a701b27fe82c2411",
+      "human_reviewed": false,
+      "id": "f87354d0-0bb8-4271-a8db-792c77d0d090",
+      "images": [
+        {
+          "alt": "पिन्तेकुस्त के दिन विश्वासियों को पवित्र आत्मा प्राप्त करते हुए दिखाती हुई उत्कीर्ण छवि",
+          "public_path": "/images/articles/f87354d0-0bb8-4271-a8db-792c77d0d090-1.png"
+        },
+        {
+          "alt": "कलात्मक ढंग से दर्शाई गई ज्वाला",
+          "public_path": "/images/articles/f87354d0-0bb8-4271-a8db-792c77d0d090-2.jpg"
+        },
+        {
+          "alt": "फैली हुई हथेली की ओर उड़ता हुआ कबूतर",
+          "public_path": "/images/articles/f87354d0-0bb8-4271-a8db-792c77d0d090-3.png"
+        },
+        {
+          "alt": "मुस्कुराते और उदास चेहरों को मिलाकर बना सड़क संकेत",
+          "public_path": "/images/articles/f87354d0-0bb8-4271-a8db-792c77d0d090-4.jpg"
+        }
+      ],
+      "issue_id": "05538f8e-6560-5f96-b313-890e87c05daf",
+      "language": "hin",
+      "language_tag": "hi",
+      "metadata": "content/hin/articles/f87354d0-0bb8-4271-a8db-792c77d0d090.json",
+      "metadata_sha256": "02d8c88f4be84117ebd28b406dff5f50a888b33f23f017e4d8b70e01d249539e",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
+      "source_translation_key": "ecc35e8cd4c57e2b467ba1c07b4baf9d8db122db80e2c80ae9e2a166783c3de1",
+      "status": "ready",
+      "subtitle": null,
+      "title": "पेंटेकोस्टलवाद के कब्ज़े से पवित्र आत्मा के बपतिस्मे को छुड़ाना",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/hin/articles/f896076d-76e2-4e42-8532-6cb2a3c029f0.html",
       "html_sha256": "d551d2c5c792ab2f10c0ff9b51e90aa2c0b449c2d0b85e86f6c2b92271420910",
       "human_reviewed": false,
