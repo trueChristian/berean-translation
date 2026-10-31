@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-31T22:23:10+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"第4段，“雅各”的名字释义\",\"severity\":\"minor\",\"source_quote\":\"his old name Jacob, the Supplanter\",\"suggested_fix\":\"将“取代者”改为“篡夺者”（或“夺取者”），以表达“Supplanter”的含义。\",\"translation_quote\":\"他原来的名字“雅各”（意为“取代者”）\"},{\"location\":\"第4段，“以色列”的称谓\",\"severity\":\"minor\",\"source_quote\":\"he became Israel, “a Prince of God.”\",\"suggested_fix\":\"可将“上帝的王子”改为“属神的王者”，避免中文“王子”被理解为上帝的儿子，同时保留原文称谓。\",\"translation_quote\":\"于是他成了以色列，也就是“上帝的王子”。\"}],\"findings_complete\":true,\"passed\":true,\"score\":96}",
+    "content_bytes": 757,
+    "content_evidence_truncated": false,
+    "content_sha256": "5f37b2dda817cdd8b49f7dd3dfe5f7e15b71cf689f12bae51ae96915012bee8f",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 951,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 730,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2415,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1312,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 3366
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

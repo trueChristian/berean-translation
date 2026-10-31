@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "1fa79b8f36c54e638ae36ee4a96a0946",
   "campaign": "auto-cd6ebb88e40c56f21ce00422b190fb6ad9af61072996c3608a51ca3fcfd0744b",
   "created_at": "2026-10-31T18:25:24+00:00",
   "events": [
@@ -28,10 +27,46 @@
         },
         "total_tokens": 2179
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 951,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 730,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 2415,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 1312,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 3366
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "第4段，“雅各”的名字释义",
+      "severity": "minor",
+      "source_quote": "his old name Jacob, the Supplanter",
+      "suggested_fix": "将“取代者”改为“篡夺者”（或“夺取者”），以表达“Supplanter”的含义。",
+      "translation_quote": "他原来的名字“雅各”（意为“取代者”）"
+    },
+    {
+      "location": "第4段，“以色列”的称谓",
+      "severity": "minor",
+      "source_quote": "he became Israel, “a Prince of God.”",
+      "suggested_fix": "可将“上帝的王子”改为“属神的王者”，避免中文“王子”被理解为上帝的儿子，同时保留原文称谓。",
+      "translation_quote": "于是他成了以色列，也就是“上帝的王子”。"
+    }
+  ],
+  "finished_at": "2026-10-31T22:23:10+00:00",
   "id": "e1141c5e9b6872a065e9f4f0d784bbc2",
   "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
   "language": "cmn",
@@ -120,9 +155,11 @@
     }
   },
   "protected": false,
+  "quality_score": 96,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/970537de50127eebae71c064d746cc4558f6bb33c1c33fea434b6a8d803940db.json",
   "stage": "review1",
   "stage_budget": {
@@ -138,7 +175,7 @@
     "total_reserved_usd": 0.086265,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "63da7cacb1fe8b3491c5fd4fb86fa335742cd71d9cb8f136d36e8a661edff9fb",
   "translation_model_actual": "gpt-6-luna"
