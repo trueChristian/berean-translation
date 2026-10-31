@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "html, פסקה 9, המשפט האחרון בציטוט",
+      "severity": "minor",
+      "source_quote": "I have never been able to gain once more the same fervor in verse.",
+      "suggested_fix": "להחליף את ״לאותה להט״ ב״לאותו להט״.",
+      "translation_quote": "מעולם לא הצלחתי לשוב ולהגיע לאותה להט בשירה."
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

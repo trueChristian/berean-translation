@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "6bc7d0fc-9d27-4ce0-94be-26771cdaaae0",
+    "response_id": "chatcmpl-Ef7uZeKXffCmW1lEJnWEtUEG2hpNr",
+    "usage": {
+      "completion_tokens": 150,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 34,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5175,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4072,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 5325
+    }
+  },
+  "received_at": "2026-10-31T18:23:26+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "html, פסקה 9, המשפט האחרון בציטוט",
+        "severity": "minor",
+        "source_quote": "I have never been able to gain once more the same fervor in verse.",
+        "suggested_fix": "להחליף את ״לאותה להט״ ב״לאותו להט״.",
+        "translation_quote": "מעולם לא הצלחתי לשוב ולהגיע לאותה להט בשירה."
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 99
+  }
+}

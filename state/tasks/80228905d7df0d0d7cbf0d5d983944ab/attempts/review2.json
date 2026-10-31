@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-31T18:23:26+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"html, פסקה 9, המשפט האחרון בציטוט\",\"severity\":\"minor\",\"source_quote\":\"I have never been able to gain once more the same fervor in verse.\",\"suggested_fix\":\"להחליף את ״לאותה להט״ ב״לאותו להט״.\",\"translation_quote\":\"מעולם לא הצלחתי לשוב ולהגיע לאותה להט בשירה.\"}],\"findings_complete\":true,\"passed\":true,\"score\":99}",
+    "content_bytes": 423,
+    "content_evidence_truncated": false,
+    "content_sha256": "f7658e2d7e67f617044dff7cb8791239a3f6053f1a772eee2213d9bc714181f0",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 150,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 34,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5175,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4072,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 5325
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 1
+}
