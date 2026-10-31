@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "a69fd63e-30e3-4631-8c80-be9d436be44a",
+    "response_id": "chatcmpl-Ef87zaHZVNajkF3KpshVtdfBSUiaM",
+    "usage": {
+      "completion_tokens": 365,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 226,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 11082,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9979,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 11447
+    }
+  },
+  "received_at": "2026-10-31T18:37:34+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "html: הפסקה המתחילה ״כתבי הקודש עצמם״",
+        "severity": "minor",
+        "source_quote": "with such unbelievable stories as the parting of the Red Sea by Moses",
+        "suggested_fix": "החליפו את ״על סיפוריהם הבלתי ייאמנו כגון״ ב״על סיפוריהם שקשה להאמין להם, כגון״.",
+        "translation_quote": "על סיפוריהם הבלתי ייאמנו כגון קריעת ים סוף בידי משה"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}

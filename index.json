@@ -34100,6 +34100,46 @@
     {
       "ai_notice_required": true,
       "direction": "rtl",
+      "html": "content/heb/articles/a5c8b070-97f8-4050-9ac5-89af497287b0.html",
+      "html_sha256": "aeb2a681fd1c383a05fbfa7a5dec6e6573c725593607bee61d8e19277dc070e6",
+      "human_reviewed": false,
+      "id": "a5c8b070-97f8-4050-9ac5-89af497287b0",
+      "images": [
+        {
+          "alt": "אריה וחיות אחרות צופים בילד רוקד",
+          "public_path": "/images/articles/a5c8b070-97f8-4050-9ac5-89af497287b0-1.jpg"
+        },
+        {
+          "alt": "לוח המתאר את סי. אס. לואיס ואת חבריו נפגשים בחדר האחורי של פאב",
+          "public_path": "/images/articles/a5c8b070-97f8-4050-9ac5-89af497287b0-2.jpg"
+        },
+        {
+          "alt": "שער מגזין TIME ובו דיוקן של סי. אס. לואיס",
+          "public_path": "/images/articles/a5c8b070-97f8-4050-9ac5-89af497287b0-3.jpg"
+        },
+        {
+          "alt": "סי. אס. לואיס יושב עם ספר",
+          "public_path": "/images/articles/a5c8b070-97f8-4050-9ac5-89af497287b0-4.jpg"
+        }
+      ],
+      "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
+      "language": "heb",
+      "language_tag": "he",
+      "metadata": "content/heb/articles/a5c8b070-97f8-4050-9ac5-89af497287b0.json",
+      "metadata_sha256": "409c5fff13029bf0afe459bd287dd63848b6ebc787e7face9bd3420d396663b5",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": null,
+      "source_revision": "ed75201a8e3b37913a14f4d949de33a7a0daa2c2",
+      "source_translation_key": "6db58cafff7cfe9f11556e892b54ec7a0015890307776806dd7acebca34a78c1",
+      "status": "ready",
+      "subtitle": "נוצרים, היזהרו!",
+      "title": "האריה, המכשפה וארוחת ההפי־מיל:",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
       "html": "content/heb/articles/a666b8a8-f3c7-4478-b53d-bb0abe446f42.html",
       "html_sha256": "1a2e72a90ad668472b20be1d8214b86ab4c8aa325a651e25a423f8ed252f1dd5",
       "human_reviewed": false,

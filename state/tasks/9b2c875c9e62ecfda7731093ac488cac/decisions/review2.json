@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "html: הפסקה המתחילה ״כתבי הקודש עצמם״",
+      "severity": "minor",
+      "source_quote": "with such unbelievable stories as the parting of the Red Sea by Moses",
+      "suggested_fix": "החליפו את ״על סיפוריהם הבלתי ייאמנו כגון״ ב״על סיפוריהם שקשה להאמין להם, כגון״.",
+      "translation_quote": "על סיפוריהם הבלתי ייאמנו כגון קריעת ים סוף בידי משה"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}
