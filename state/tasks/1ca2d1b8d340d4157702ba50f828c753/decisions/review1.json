@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph beginning “Gedurende die volgende 150 jaar”",
+      "severity": "major",
+      "source_quote": "“even though the kingdom of this world called The United States of America made it illegal to extend the hand of love and compassion.”",
+      "suggested_fix": "Replace the untranslated English passage with: “al het die koninkryk van hierdie wêreld, genaamd <em>The United States of America</em>, dit onwettig gemaak om ’n hand van liefde en medelye uit te steek.”",
+      "translation_quote": "“Tog het baie Quakers en ander gelowiges ’n morele verpligting gevoel om dié te help wat onregmatig ontvoer is—even though the kingdom of this world called <em>The United States of America</em> made it illegal to extend the hand of love and compassion.”"
+    },
+    {
+      "location": "Quoted forum passage: paragraph beginning “Ons neem oor die algemeen nie”",
+      "severity": "major",
+      "source_quote": "“and we do not sue at courts.”",
+      "suggested_fix": "Change the final clause to “en ons dagvaar nie in die howe nie.”",
+      "translation_quote": "“en ons daag nie voor die howe nie.”"
+    },
+    {
+      "location": "Throughout article, including the paragraph beginning “Wat het Moslems” and the paragraph beginning “En dit is op hierdie punt”",
+      "severity": "minor",
+      "source_quote": "“Evangelicals”",
+      "suggested_fix": "Use the conventional Afrikaans form “Evangelikales” in these occurrences.",
+      "translation_quote": "“Evangelicals”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

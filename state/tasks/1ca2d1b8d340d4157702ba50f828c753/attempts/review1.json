@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-31T05:21:04+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph beginning “Gedurende die volgende 150 jaar”\",\"severity\":\"major\",\"source_quote\":\"“even though the kingdom of this world called The United States of America made it illegal to extend the hand of love and compassion.”\",\"suggested_fix\":\"Replace the untranslated English passage with: “al het die koninkryk van hierdie wêreld, genaamd <em>The United States of America</em>, dit onwettig gemaak om ’n hand van liefde en medelye uit te steek.”\",\"translation_quote\":\"“Tog het baie Quakers en ander gelowiges ’n morele verpligting gevoel om dié te help wat onregmatig ontvoer is—even though the kingdom of this world called <em>The United States of America</em> made it illegal to extend the hand of love and compassion.”\"},{\"location\":\"Quoted forum passage: paragraph beginning “Ons neem oor die algemeen nie”\",\"severity\":\"major\",\"source_quote\":\"“and we do not sue at courts.”\",\"suggested_fix\":\"Change the final clause to “en ons dagvaar nie in die howe nie.”\",\"translation_quote\":\"“en ons daag nie voor die howe nie.”\"},{\"location\":\"Throughout article, including the paragraph beginning “Wat het Moslems” and the paragraph beginning “En dit is op hierdie punt”\",\"severity\":\"minor\",\"source_quote\":\"“Evangelicals”\",\"suggested_fix\":\"Use the conventional Afrikaans form “Evangelikales” in these occurrences.\",\"translation_quote\":\"“Evangelicals”\"}],\"findings_complete\":true,\"passed\":false,\"score\":89}",
+    "content_bytes": 1484,
+    "content_evidence_truncated": false,
+    "content_sha256": "027272e28c3084feaa8960fd1be01e38f6496008fe677e20bf18f1ef16b7850a",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1318,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 967,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 14595,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 13492,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 15913
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}
