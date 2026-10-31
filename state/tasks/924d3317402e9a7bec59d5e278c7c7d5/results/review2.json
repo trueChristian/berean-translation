@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "89f0aacd-1f6a-4a14-873b-399b4544eb5f",
+    "response_id": "chatcmpl-Ees7zNINPTyjIKpEWVjYfy8ViBUGI",
+    "usage": {
+      "completion_tokens": 811,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 659,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4990,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3887,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 5801
+    }
+  },
+  "received_at": "2026-10-31T05:21:31+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, section 2, quoted sentence",
+        "severity": "major",
+        "source_quote": "“The Kingdom of God suffereth violence, and the violent take it by force.”",
+        "suggested_fix": "Αλλάξτε το «Η βασιλεία των ουρανών» σε «Η βασιλεία του Θεού», διατηρώντας το υπόλοιπο απόσπασμα.",
+        "translation_quote": "«Η βασιλεία των ουρανών ασκεί βία, και οι βίαιοι την αρπάζουν»"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 93
+  }
+}

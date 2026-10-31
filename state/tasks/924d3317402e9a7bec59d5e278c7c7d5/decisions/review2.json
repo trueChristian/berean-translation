@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, section 2, quoted sentence",
+      "severity": "major",
+      "source_quote": "“The Kingdom of God suffereth violence, and the violent take it by force.”",
+      "suggested_fix": "Αλλάξτε το «Η βασιλεία των ουρανών» σε «Η βασιλεία του Θεού», διατηρώντας το υπόλοιπο απόσπασμα.",
+      "translation_quote": "«Η βασιλεία των ουρανών ασκεί βία, και οι βίαιοι την αρπάζουν»"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}
