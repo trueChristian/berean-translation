@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "2174efc2-2eed-46c9-a678-f424a1a14c39",
+    "response_id": "chatcmpl-Eer2OT63yaxJhSxz0HO6qQzMhIjjE",
+    "usage": {
+      "completion_tokens": 376,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 64,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 11882,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 10779,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 12258
+    }
+  },
+  "received_at": "2026-10-31T00:16:37+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "translation.html — paragraph beginning “বিজ্ঞান, মনোবিজ্ঞান…”",
+        "severity": "minor",
+        "source_quote": "science, psychology, relativism and cynicism",
+        "suggested_fix": "“বিজ্ঞান, মনোবিজ্ঞান, আপেক্ষিকতাবাদ ও সংশয়বাদ” বদলে “বিজ্ঞান, মনোবিজ্ঞান, আপেক্ষিকতাবাদ ও নৈরাশ্যপূর্ণ অবিশ্বাস” লিখুন, যাতে cynicism-এর অর্থ skepticism থেকে পৃথক থাকে।",
+        "translation_quote": "বিজ্ঞান, মনোবিজ্ঞান, আপেক্ষিকতাবাদ ও সংশয়বাদ"
+      },
+      {
+        "location": "translation.html — same paragraph, sentence about cigar and beer",
+        "severity": "minor",
+        "source_quote": "Sporting his cigar and beer drinking demeanor",
+        "suggested_fix": "“সিগার ও বিয়ে পানকারীর ভঙ্গি প্রদর্শন করে” বদলে “সিগার ধূমপান ও বিয়ার পানের ভঙ্গি প্রদর্শন করে” লিখুন।",
+        "translation_quote": "সিগার ও বিয়ে পানকারীর ভঙ্গি প্রদর্শন করে"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 97
+  }
+}

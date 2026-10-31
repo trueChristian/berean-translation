@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "translation.html — paragraph beginning “বিজ্ঞান, মনোবিজ্ঞান…”",
+      "severity": "minor",
+      "source_quote": "science, psychology, relativism and cynicism",
+      "suggested_fix": "“বিজ্ঞান, মনোবিজ্ঞান, আপেক্ষিকতাবাদ ও সংশয়বাদ” বদলে “বিজ্ঞান, মনোবিজ্ঞান, আপেক্ষিকতাবাদ ও নৈরাশ্যপূর্ণ অবিশ্বাস” লিখুন, যাতে cynicism-এর অর্থ skepticism থেকে পৃথক থাকে।",
+      "translation_quote": "বিজ্ঞান, মনোবিজ্ঞান, আপেক্ষিকতাবাদ ও সংশয়বাদ"
+    },
+    {
+      "location": "translation.html — same paragraph, sentence about cigar and beer",
+      "severity": "minor",
+      "source_quote": "Sporting his cigar and beer drinking demeanor",
+      "suggested_fix": "“সিগার ও বিয়ে পানকারীর ভঙ্গি প্রদর্শন করে” বদলে “সিগার ধূমপান ও বিয়ার পানের ভঙ্গি প্রদর্শন করে” লিখুন।",
+      "translation_quote": "সিগার ও বিয়ে পানকারীর ভঙ্গি প্রদর্শন করে"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

@@ -12106,6 +12106,46 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ben/articles/a5c8b070-97f8-4050-9ac5-89af497287b0.html",
+      "html_sha256": "5bd6a0ba36955c99fd98f3c4a15d2bb365109cc8168475096d486be6237fa63f",
+      "human_reviewed": false,
+      "id": "a5c8b070-97f8-4050-9ac5-89af497287b0",
+      "images": [
+        {
+          "alt": "একটি সিংহ ও অন্যান্য প্রাণী নাচতে থাকা এক শিশুর দিকে তাকিয়ে আছে",
+          "public_path": "/images/articles/a5c8b070-97f8-4050-9ac5-89af497287b0-1.jpg"
+        },
+        {
+          "alt": "একটি ফলকে সি. এস. লুইস ও তাঁর বন্ধুদের একটি পানশালার পেছনের কক্ষে মিলিত হওয়ার বিবরণ লেখা আছে",
+          "public_path": "/images/articles/a5c8b070-97f8-4050-9ac5-89af497287b0-2.jpg"
+        },
+        {
+          "alt": "সি. এস. লুইসের প্রতিকৃতিসহ টাইম ম্যাগাজিনের প্রচ্ছদ",
+          "public_path": "/images/articles/a5c8b070-97f8-4050-9ac5-89af497287b0-3.jpg"
+        },
+        {
+          "alt": "সি. এস. লুইস বই হাতে বসে আছেন",
+          "public_path": "/images/articles/a5c8b070-97f8-4050-9ac5-89af497287b0-4.jpg"
+        }
+      ],
+      "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
+      "language": "ben",
+      "language_tag": "bn",
+      "metadata": "content/ben/articles/a5c8b070-97f8-4050-9ac5-89af497287b0.json",
+      "metadata_sha256": "f0e87886923e41b0ebf030b3a13b2dab0e4bf181170a5a930e582f905f728763",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": null,
+      "source_revision": "ed75201a8e3b37913a14f4d949de33a7a0daa2c2",
+      "source_translation_key": "6db58cafff7cfe9f11556e892b54ec7a0015890307776806dd7acebca34a78c1",
+      "status": "ready",
+      "subtitle": "খ্রিস্টান, সাবধান!",
+      "title": "সিংহ, ডাইনি ও হ্যাপি মিল:",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ben/articles/a666b8a8-f3c7-4478-b53d-bb0abe446f42.html",
       "html_sha256": "0e85d8b4cbfdbf0fcc958134755d706a3b240df8ddbd49d9c0989d35a998604e",
       "human_reviewed": false,

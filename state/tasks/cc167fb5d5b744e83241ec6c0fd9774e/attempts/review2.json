@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-31T00:16:37+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"translation.html — paragraph beginning “বিজ্ঞান, মনোবিজ্ঞান…”\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"science, psychology, relativism and cynicism\",\n      \"suggested_fix\": \"“বিজ্ঞান, মনোবিজ্ঞান, আপেক্ষিকতাবাদ ও সংশয়বাদ” বদলে “বিজ্ঞান, মনোবিজ্ঞান, আপেক্ষিকতাবাদ ও নৈরাশ্যপূর্ণ অবিশ্বাস” লিখুন, যাতে cynicism-এর অর্থ skepticism থেকে পৃথক থাকে।\",\n      \"translation_quote\": \"বিজ্ঞান, মনোবিজ্ঞান, আপেক্ষিকতাবাদ ও সংশয়বাদ\"\n    },\n    {\n      \"location\": \"translation.html — same paragraph, sentence about cigar and beer\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"Sporting his cigar and beer drinking demeanor\",\n      \"suggested_fix\": \"“সিগার ও বিয়ে পানকারীর ভঙ্গি প্রদর্শন করে” বদলে “সিগার ধূমপান ও বিয়ার পানের ভঙ্গি প্রদর্শন করে” লিখুন।\",\n      \"translation_quote\": \"সিগার ও বিয়ে পানকারীর ভঙ্গি প্রদর্শন করে\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": true,\n  \"score\": 97\n}",
+    "content_bytes": 1567,
+    "content_evidence_truncated": false,
+    "content_sha256": "0bb28ed2f05b0edaa1c0e7902d3dd0715e7c320443929ba985f5ca0e8e675215",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 376,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 64,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 11882,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 10779,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 12258
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review2",
+  "translation_attempts": 1
+}
