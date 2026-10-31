@@ -54215,6 +54215,46 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/kor/articles/f87354d0-0bb8-4271-a8db-792c77d0d090.html",
+      "html_sha256": "b137228c135f71cbfb9fe71bd9f7d9ee1ed267f1465eaef19e9cf268040fc535",
+      "human_reviewed": false,
+      "id": "f87354d0-0bb8-4271-a8db-792c77d0d090",
+      "images": [
+        {
+          "alt": "오순절에 성령을 받는 신자들을 새긴 판화",
+          "public_path": "/images/articles/f87354d0-0bb8-4271-a8db-792c77d0d090-1.png"
+        },
+        {
+          "alt": "양식화된 불꽃",
+          "public_path": "/images/articles/f87354d0-0bb8-4271-a8db-792c77d0d090-2.jpg"
+        },
+        {
+          "alt": "뻗은 손을 향해 날아가는 비둘기",
+          "public_path": "/images/articles/f87354d0-0bb8-4271-a8db-792c77d0d090-3.png"
+        },
+        {
+          "alt": "웃는 얼굴과 슬픈 얼굴을 결합한 도로 표지판",
+          "public_path": "/images/articles/f87354d0-0bb8-4271-a8db-792c77d0d090-4.jpg"
+        }
+      ],
+      "issue_id": "05538f8e-6560-5f96-b313-890e87c05daf",
+      "language": "kor",
+      "language_tag": "ko",
+      "metadata": "content/kor/articles/f87354d0-0bb8-4271-a8db-792c77d0d090.json",
+      "metadata_sha256": "5f3b423758bdbdc4b825f9773cda0bd113ae4115c4c772ed36df7d956535135b",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": null,
+      "source_revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
+      "source_translation_key": "ecc35e8cd4c57e2b467ba1c07b4baf9d8db122db80e2c80ae9e2a166783c3de1",
+      "status": "ready",
+      "subtitle": null,
+      "title": "오순절주의에서 성령의 침례를 되찾다",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/kor/articles/f896076d-76e2-4e42-8532-6cb2a3c029f0.html",
       "html_sha256": "929d66f1fb66d00068d03ded1c555583894b3be2e32c612b5ff22c188b448dd0",
       "human_reviewed": false,
