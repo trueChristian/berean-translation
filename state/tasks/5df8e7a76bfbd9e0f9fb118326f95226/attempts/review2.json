@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-31T22:22:21+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"The problem and the promise — Psalm 104:30 discussion\",\"severity\":\"major\",\"source_quote\":\"“The last Adam is called a ‘quickening spirit.’ 1 Co. 15:45 The word quickening is old English for life-giving or life-imparting.”\",\"suggested_fix\":\"Replace “lewende Gees” with “lewendmakende Gees” so it conveys the source’s explanation that the Spirit gives or imparts life.\",\"translation_quote\":\"“Die laaste Adam word ’n ‘lewende Gees’ genoem. 1 Ko. 15:45”\"}],\"findings_complete\":true,\"passed\":false,\"score\":92}",
+    "content_bytes": 559,
+    "content_evidence_truncated": false,
+    "content_sha256": "984e074deaafb0c0922f9becae1a13d09e56d7300a5687ea923825953c635eb1",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 945,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 780,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 27166,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 27163,
+        "cached_tokens": 0
+      },
+      "total_tokens": 28111
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review2",
+  "translation_attempts": 2
+}

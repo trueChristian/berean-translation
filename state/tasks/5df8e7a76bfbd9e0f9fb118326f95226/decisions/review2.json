@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "The problem and the promise — Psalm 104:30 discussion",
+      "severity": "major",
+      "source_quote": "“The last Adam is called a ‘quickening spirit.’ 1 Co. 15:45 The word quickening is old English for life-giving or life-imparting.”",
+      "suggested_fix": "Replace “lewende Gees” with “lewendmakende Gees” so it conveys the source’s explanation that the Spirit gives or imparts life.",
+      "translation_quote": "“Die laaste Adam word ’n ‘lewende Gees’ genoem. 1 Ko. 15:45”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}
