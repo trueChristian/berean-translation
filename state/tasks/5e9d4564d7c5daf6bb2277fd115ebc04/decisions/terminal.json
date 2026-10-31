@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "html — قسم «البيوت الكبيرة»، الفقرة الافتتاحية",
+      "severity": "minor",
+      "source_quote": "Many families can all live comfortably under the same roof, but in virtual isolation from other family members.",
+      "suggested_fix": "في أسر كثيرة، يستطيع جميع أفراد الأسرة العيش في راحة تحت سقف واحد، لكن في عزلة شبه تامة بعضهم عن بعض.",
+      "translation_quote": "تستطيع أسر كثيرة أن تعيش كلها في راحة تحت سقف واحد، لكنها تكون في عزلة شبه تامة عن أفراد الأسرة الآخرين."
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

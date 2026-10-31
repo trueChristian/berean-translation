@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "294a39e2-66f9-4605-a034-bbd7ab86765c",
+    "response_id": "chatcmpl-Ef2qEFd4OdbgA0HrQq1nuHbI5dxB8",
+    "usage": {
+      "completion_tokens": 205,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 59,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 15219,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 14116,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 15424
+    }
+  },
+  "received_at": "2026-10-31T12:59:15+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "html — قسم «البيوت الكبيرة»، الفقرة الافتتاحية",
+        "severity": "minor",
+        "source_quote": "Many families can all live comfortably under the same roof, but in virtual isolation from other family members.",
+        "suggested_fix": "في أسر كثيرة، يستطيع جميع أفراد الأسرة العيش في راحة تحت سقف واحد، لكن في عزلة شبه تامة بعضهم عن بعض.",
+        "translation_quote": "تستطيع أسر كثيرة أن تعيش كلها في راحة تحت سقف واحد، لكنها تكون في عزلة شبه تامة عن أفراد الأسرة الآخرين."
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}

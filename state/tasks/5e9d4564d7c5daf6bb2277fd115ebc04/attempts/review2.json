@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-31T12:59:15+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"html — قسم «البيوت الكبيرة»، الفقرة الافتتاحية\",\"severity\":\"minor\",\"source_quote\":\"Many families can all live comfortably under the same roof, but in virtual isolation from other family members.\",\"suggested_fix\":\"في أسر كثيرة، يستطيع جميع أفراد الأسرة العيش في راحة تحت سقف واحد، لكن في عزلة شبه تامة بعضهم عن بعض.\",\"translation_quote\":\"تستطيع أسر كثيرة أن تعيش كلها في راحة تحت سقف واحد، لكنها تكون في عزلة شبه تامة عن أفراد الأسرة الآخرين.\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 721,
+    "content_evidence_truncated": false,
+    "content_sha256": "b9b6914a2c58dd8baee2a5d8f1a6eea93f1a753ad908ec8f8244dfd9fcc66e11",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 205,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 59,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 15219,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 14116,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 15424
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review2",
+  "translation_attempts": 1
+}

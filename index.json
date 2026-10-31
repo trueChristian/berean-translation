@@ -7765,6 +7765,50 @@
     {
       "ai_notice_required": true,
       "direction": "rtl",
+      "html": "content/ara/articles/9b22e638-a735-48fe-b31b-817c614538ca.html",
+      "html_sha256": "cc09ef65b920096e0f2a87465476cf7e48f0b54971aec7a6500437e1d2884483",
+      "human_reviewed": false,
+      "id": "9b22e638-a735-48fe-b31b-817c614538ca",
+      "images": [
+        {
+          "alt": "بطاقة سعر كُتب عليها «100.00 دولار فقط»",
+          "public_path": "/images/articles/9b22e638-a735-48fe-b31b-817c614538ca-1.jpg"
+        },
+        {
+          "alt": "رسم خطي لمركبة حديدية",
+          "public_path": "/images/articles/9b22e638-a735-48fe-b31b-817c614538ca-2.png"
+        },
+        {
+          "alt": "رجلان يلعبان الشوفلبورد",
+          "public_path": "/images/articles/9b22e638-a735-48fe-b31b-817c614538ca-3.png"
+        },
+        {
+          "alt": "رجل جالس أمام حاسوب ورأسه بين يديه",
+          "public_path": "/images/articles/9b22e638-a735-48fe-b31b-817c614538ca-4.jpg"
+        },
+        {
+          "alt": "بيت كبير وحديقة عشبية",
+          "public_path": "/images/articles/9b22e638-a735-48fe-b31b-817c614538ca-5.jpg"
+        }
+      ],
+      "issue_id": "05538f8e-6560-5f96-b313-890e87c05daf",
+      "language": "ara",
+      "language_tag": "ar",
+      "metadata": "content/ara/articles/9b22e638-a735-48fe-b31b-817c614538ca.json",
+      "metadata_sha256": "545805d7d3f842b986a2b5593b2ebb07c96e48452f4ff88059f6ddac1a4283b2",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": null,
+      "source_revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
+      "source_translation_key": "c0545377542c9c79b4c68a51b2c277c621b53fab8d7966c5cf122b68f56f1739",
+      "status": "ready",
+      "subtitle": "أخذ الجزية من الكنعانيين",
+      "title": "عدو أم حليف؟",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
       "html": "content/ara/articles/a028f656-cd41-4330-9633-2a4b4ce028e3.html",
       "html_sha256": "fcc4a6c3deb509d84582edbbcf218629ced5fa970fffb286d6995d2c2661647d",
       "human_reviewed": false,
