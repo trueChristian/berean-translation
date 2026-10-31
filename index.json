@@ -76833,6 +76833,42 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/spa/articles/816d80f0-e3dd-46a6-ae6e-03214e209890.html",
+      "html_sha256": "a6e472ee883e068487a8cd22d21e4b968c2ba2daff4921ea83a12820df8ae0c2",
+      "human_reviewed": false,
+      "id": "816d80f0-e3dd-46a6-ae6e-03214e209890",
+      "images": [
+        {
+          "alt": "Una mano que toma dinero a través de una cerca de madera",
+          "public_path": "/images/articles/816d80f0-e3dd-46a6-ae6e-03214e209890-1.jpg"
+        },
+        {
+          "alt": "Firma facsimilar de John Wesley",
+          "public_path": "/images/articles/816d80f0-e3dd-46a6-ae6e-03214e209890-2.jpg"
+        },
+        {
+          "alt": "Estatua de John Wesley sosteniendo un libro abierto",
+          "public_path": "/images/articles/816d80f0-e3dd-46a6-ae6e-03214e209890-3.jpg"
+        }
+      ],
+      "issue_id": "05538f8e-6560-5f96-b313-890e87c05daf",
+      "language": "spa",
+      "language_tag": "es",
+      "metadata": "content/spa/articles/816d80f0-e3dd-46a6-ae6e-03214e209890.json",
+      "metadata_sha256": "9a328e3ecb4216ffdc46338cff8f7564c09edd66755b16e4a9bbdc5b900f0b5e",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": null,
+      "source_revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
+      "source_translation_key": "0af4e8eba8d76fd3ebe2cccff019f1ce29d88581ec1120c33079d9f90b1288d6",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Sobre el peligro de aumentar las riqueza$",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/spa/articles/85306410-6a2d-46f1-b6db-6d3450f7f908.html",
       "html_sha256": "acc7c5430f98269230682c7c6260c8270be2e986633732282e2d7f6321e3678c",
       "human_reviewed": false,
