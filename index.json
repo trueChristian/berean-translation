@@ -83401,6 +83401,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/swe/articles/1caf6642-2283-4363-b3b6-33e40c39f945.html",
+      "html_sha256": "fb26d72620df8935d806822a8134327ba91913166b01983ef8f98766495a126d",
+      "human_reviewed": false,
+      "id": "1caf6642-2283-4363-b3b6-33e40c39f945",
+      "images": [
+        {
+          "alt": "Notblad för O kärlek som inte vill låta mig gå",
+          "public_path": "/images/articles/1caf6642-2283-4363-b3b6-33e40c39f945-1.png"
+        }
+      ],
+      "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
+      "language": "swe",
+      "language_tag": "sv",
+      "metadata": "content/swe/articles/1caf6642-2283-4363-b3b6-33e40c39f945.json",
+      "metadata_sha256": "efce21e73b5a516a15432e2d0420344d09859cb18de533f46a5eedf67495cd85",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "HYMNHISTORIA",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "5af7c75ddc034efa2d45136926794f0498d0408b26a365657640e28417f4afea",
+      "status": "ready",
+      "subtitle": null,
+      "title": "O kärlek som inte vill låta mig gå",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/swe/articles/1f294c3b-4295-4493-8a52-a33af40f298b.html",
       "html_sha256": "840f1da490bc4acbfb11bef958e1ec7036854ee25f55614e3730f3dae01e76d4",
       "human_reviewed": false,

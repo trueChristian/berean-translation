@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "2e48102764b2433d9003fcc143f1dbb2",
   "campaign": "auto-624783f97837aa0b2333c26cba07934d26a42e9e3e31eddb8fec0609cdef3402",
   "created_at": "2026-10-31T18:40:50+00:00",
   "events": [
@@ -48,46 +47,31 @@
         },
         "total_tokens": 7774
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 65,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 33,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5113,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 4010,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 5178
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "translation.html, stycke 4",
-      "severity": "major",
-      "source_quote": "he was chosen minister of the Church of Scotland in the seaport summer resort of Innellan",
-      "suggested_fix": "Ersätt ”valdes han dock till minister i Church of Scotland i badorten Innellan” med ”utsågs han dock till präst inom Church of Scotland i hamn- och sommarorten Innellan”.",
-      "translation_quote": "valdes han dock till minister i Church of Scotland i badorten Innellan"
-    },
-    {
-      "location": "translation.html, stycke 1",
-      "severity": "minor",
-      "source_quote": "during the latter part of the 19<sup>th</sup> century",
-      "suggested_fix": "Skriv ”under senare delen av det 19<sup>:e</sup> århundradet” i stället för ”under senare delen av 19<sup>th</sup> seklet”.",
-      "translation_quote": "under senare delen av 19<sup>th</sup> seklet"
-    },
-    {
-      "location": "translation.html, stycke 5",
-      "severity": "minor",
-      "source_quote": "with perfect calmness ... gave out a new text",
-      "suggested_fix": "Ändra ”med fullständig lugn” till ”med fullständigt lugn” och ”gav ut en ny text” till ”angav en ny bibeltext”.",
-      "translation_quote": "med fullständig lugn ... gav ut en ny text"
-    },
-    {
-      "location": "translation.html, stycke 9",
-      "severity": "minor",
-      "source_quote": "caused me the most severe mental suffering ... this came like a dayspring from on high",
-      "suggested_fix": "Ändra ”den svåraste mentala lidanden” till ”det svåraste själsliga lidande” och ”som en daggry från höjden” till ”som en gryning från höjden”.",
-      "translation_quote": "orsakade mig den svåraste mentala lidanden ... denna kom som en daggry från höjden"
-    },
-    {
-      "location": "translation.html, referensstycket",
-      "severity": "minor",
-      "source_quote": "Author ... -George Matheson, 1842 – 1906 ... Composer ... -Albert L. Peace, 1844 – 1912",
-      "suggested_fix": "Översätt etiketterna ”Author” och ”Composer” till ”Författare” respektive ”Kompositör” och behåll övrig text och HTML oförändrade.",
-      "translation_quote": "Author&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-George Matheson, 1842 – 1906<br>\n  Composer&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Albert L. Peace, 1844 – 1912"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-31T21:55:45+00:00",
   "id": "89d99a02e5c8b2458c696c13e5654d97",
   "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
   "language": "swe",
@@ -176,7 +160,7 @@
     }
   },
   "protected": false,
-  "quality_score": 93,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6.1-sol",
@@ -195,7 +179,7 @@
     "total_reserved_usd": 0.715577,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "5af7c75ddc034efa2d45136926794f0498d0408b26a365657640e28417f4afea",
   "translation_model_actual": "gpt-6.1-sol"
