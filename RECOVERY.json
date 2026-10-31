@@ -3,9 +3,9 @@
   "automatic_enabled": true,
   "automatic_policy_version": 3,
   "budget_enforcement": "none",
-  "committed_usd": 46.293456,
+  "committed_usd": 45.710335,
   "counts": {
-    "active": 50,
+    "active": 48,
     "already_translated": 108,
     "automatic_capacity_wait": 302,
     "continuation_cooldown": 1,
@@ -14,7 +14,7 @@
     "eligible_automatic": 834,
     "eligible_source_refresh": 179,
     "legacy_response_outcome_unknown_requires_owner_attention": 10,
-    "pending_automatic_admission": 99,
+    "pending_automatic_admission": 101,
     "provider_refusal_requires_owner_attention": 3,
     "repeated_technical_failure_requires_attention": 8,
     "source_error_requires_attention": 40,
@@ -22,7 +22,7 @@
   },
   "derived": true,
   "format_version": "2",
-  "gross_allocated_usd": 396.241141,
+  "gross_allocated_usd": 397.242259,
   "historical_approved_total_usd": 30.0,
   "items": [
     {
@@ -327,11 +327,11 @@
       "reason": "eligible_source_refresh"
     },
     {
-      "accepted_cycles": 0,
+      "accepted_cycles": 1,
       "article_id": "9b22e638-a735-48fe-b31b-817c614538ca",
       "language": "afr",
-      "latest_task": "c8ed2f7a4550f53b8d68f42eb43b64c5",
-      "processing_status": "in_batch",
+      "latest_task": "affec6444774cf5461743b01aa51d3e7",
+      "processing_status": "queued",
       "reason": "active"
     },
     {
@@ -1149,7 +1149,7 @@
       "article_id": "a5c8b070-97f8-4050-9ac5-89af497287b0",
       "language": "ara",
       "latest_task": "cfac7468cff213d9e891c8b81fdfcd58",
-      "processing_status": "in_batch",
+      "processing_status": "queued",
       "reason": "active"
     },
     {
@@ -3744,6 +3744,15 @@
     },
     {
       "admission_status": "pending",
+      "article_id": "f87354d0-0bb8-4271-a8db-792c77d0d090",
+      "language": "deu",
+      "latest_task": null,
+      "processing_status": "queued",
+      "reason": "pending_automatic_admission",
+      "request_id": "auto-fa42324d2a1b414b7507acfb94e1cba34ce418fc74c0eb144b9fb0449e478036"
+    },
+    {
+      "admission_status": "pending",
       "article_id": "f896076d-76e2-4e42-8532-6cb2a3c029f0",
       "language": "deu",
       "latest_task": null,
@@ -4256,14 +4265,6 @@
       "processing_status": "held_without_publication",
       "reason": "automatic_capacity_wait",
       "request_id": "auto-29e2346692a1a3df68e0de9962aaf58f3c639491faf4da5fb8d9f5330393a051"
-    },
-    {
-      "accepted_cycles": 1,
-      "article_id": "ad4e2c15-f6ba-4b89-a519-1a36655aa93a",
-      "language": "ell",
-      "latest_task": "33090eb12ac1ee8e6de1aea118564b50",
-      "processing_status": "in_batch",
-      "reason": "active"
     },
     {
       "accepted_cycles": 0,
@@ -8231,14 +8232,6 @@
       "request_id": "auto-ff59f4d5185398b5325968facce34c2a4f3bb220f1536434571cdd2fc8d7c0d2"
     },
     {
-      "accepted_cycles": 1,
-      "article_id": "6b3e3e7e-b5fd-4701-9a63-699b90f17ec9",
-      "language": "kor",
-      "latest_task": "2cf9a44931e549ea2f53db7e69adea26",
-      "processing_status": "in_batch",
-      "reason": "active"
-    },
-    {
       "admission_status": "pending",
       "article_id": "7b699913-16ec-4087-9e0c-ca867e750d90",
       "language": "kor",
@@ -9162,6 +9155,15 @@
       "processing_status": "queued",
       "reason": "pending_automatic_admission",
       "request_id": "auto-660f1c517db1a2dd74c3081362ba4bffe5b62726a5c3cb4ae23ca3c4ddf08b39"
+    },
+    {
+      "admission_status": "pending",
+      "article_id": "f87354d0-0bb8-4271-a8db-792c77d0d090",
+      "language": "nld",
+      "latest_task": "fb28e35487f5e91728c0cb9fef773501",
+      "processing_status": "published",
+      "reason": "pending_automatic_admission",
+      "request_id": "auto-fd9e0830f0631c7e661e4148032632f128cd3d9772b1b9beedff377bf017fd17"
     },
     {
       "admission_status": "pending",
@@ -13195,7 +13197,7 @@
       "article_id": "0c677d9e-ce73-4b27-a03f-d5457f7f1072",
       "language": "urd",
       "latest_task": "e0a45bd32a5d80bc120fb3be011941b7",
-      "processing_status": "in_batch",
+      "processing_status": "queued",
       "reason": "active"
     },
     {
@@ -13502,7 +13504,7 @@
       "article_id": "8d329db2-4f64-4c9e-badb-7955e4c6f115",
       "language": "urd",
       "latest_task": "7d37f068572a79eea2e67b92390df27a",
-      "processing_status": "in_batch",
+      "processing_status": "queued",
       "reason": "active"
     },
     {
@@ -13896,7 +13898,7 @@
       "reason": "eligible_automatic"
     }
   ],
-  "settled_unused_usd": 349.947685,
+  "settled_unused_usd": 351.531924,
   "source_revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
   "spending_policy": "owner-2026-10-29-provider-managed-spending",
   "usage_description": "Provider-reported usage priced at frozen rates; not invoice reconciliation"
