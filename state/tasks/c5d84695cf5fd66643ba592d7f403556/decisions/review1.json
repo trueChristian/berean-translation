@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Article body, section “Недавнее столкновение,” paragraph beginning “И вот, с грохотом…”",
+      "severity": "major",
+      "source_quote": "In the mind of Christ’s followers, there is no question.",
+      "suggested_fix": "Для последователей Христа сомнений нет.",
+      "translation_quote": "Для последователей Христа ответа нет."
+    },
+    {
+      "location": "Quoted discussion, first paragraph attributed to Mike",
+      "severity": "major",
+      "source_quote": "they can be seen in the light of his Mennonite forefathers",
+      "suggested_fix": "их можно рассматривать в свете наследия его меннонитских предков",
+      "translation_quote": "а можно — как на потомков своих меннонитских предков"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-31T00:42:46+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Article body, section “Недавнее столкновение,” paragraph beginning “И вот, с грохотом…”\",\"severity\":\"major\",\"source_quote\":\"In the mind of Christ’s followers, there is no question.\",\"suggested_fix\":\"Для последователей Христа сомнений нет.\",\"translation_quote\":\"Для последователей Христа ответа нет.\"},{\"location\":\"Quoted discussion, first paragraph attributed to Mike\",\"severity\":\"major\",\"source_quote\":\"they can be seen in the light of his Mennonite forefathers\",\"suggested_fix\":\"их можно рассматривать в свете наследия его меннонитских предков\",\"translation_quote\":\"а можно — как на потомков своих меннонитских предков\"}],\"findings_complete\":true,\"passed\":false,\"score\":92}",
+    "content_bytes": 913,
+    "content_evidence_truncated": false,
+    "content_sha256": "a137f92bcd9ab35c310a51a07491833bca837ff8ca97e75037e846d4b292faad",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1016,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 833,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 14309,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 13206,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 15325
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}
