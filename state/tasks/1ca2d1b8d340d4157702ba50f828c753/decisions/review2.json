@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Historical letter quotation",
+      "severity": "minor",
+      "source_quote": "How fearful and fainthearted are many on sea",
+      "suggested_fix": "Vervang “bang en kleingelowig” met “bang en moedeloos” of “bang en kleinmoedig” om “fainthearted” as vreesagtig/banghartig weer te gee, nie as ’n gebrek aan geloof nie.",
+      "translation_quote": "Hoe bang en kleingelowig is baie mense op see"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

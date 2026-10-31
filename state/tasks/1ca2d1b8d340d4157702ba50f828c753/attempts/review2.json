@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-31T16:01:29+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Historical letter quotation\",\"severity\":\"minor\",\"source_quote\":\"How fearful and fainthearted are many on sea\",\"suggested_fix\":\"Vervang “bang en kleingelowig” met “bang en moedeloos” of “bang en kleinmoedig” om “fainthearted” as vreesagtig/banghartig weer te gee, nie as ’n gebrek aan geloof nie.\",\"translation_quote\":\"Hoe bang en kleingelowig is baie mense op see\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 461,
+    "content_evidence_truncated": false,
+    "content_sha256": "6b6c78d49c9c938a57fc7628023d0fcd633ffb209ca237e61723656b50fd8a3c",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1139,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1003,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 14613,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 14610,
+        "cached_tokens": 0
+      },
+      "total_tokens": 15752
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}
