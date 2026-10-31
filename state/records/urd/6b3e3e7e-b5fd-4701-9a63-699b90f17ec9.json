@@ -20,6 +20,12 @@
       "event": "automatic_requested",
       "previous_task": "bd8636abc7cac55ba48ecf5593162401",
       "task": "6a8e286bbf8cabafbc07800fdc6e0f35"
+    },
+    {
+      "at": "2026-10-31T05:21:10+00:00",
+      "event": "not_ready",
+      "reason": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[126]: source /article[1]/blockquote[2]/figure[2]/figcaption[1] ('end', 'figcaption'); translation /article[1]/blockquote[2]/figure[2]/figcaption[1]/em[1] ('start', 'em', ())",
+      "task": "6a8e286bbf8cabafbc07800fdc6e0f35"
     }
   ],
   "language": "urd",
