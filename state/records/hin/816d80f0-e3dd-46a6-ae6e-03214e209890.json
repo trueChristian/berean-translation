@@ -20,6 +20,12 @@
       "event": "automatic_requested",
       "previous_task": "b4df049b270c7b62c3cf336e51d3f5b7",
       "task": "7c9383f1cd78bf73733ce0195aae03dd"
+    },
+    {
+      "at": "2026-10-31T19:53:39+00:00",
+      "event": "not_ready",
+      "reason": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[93]: source /article[1]/p[27]/sup[1] ('start', 'sup', ()); translation /article[1]/p[27]/em[1] ('start', 'em', ())",
+      "task": "7c9383f1cd78bf73733ce0195aae03dd"
     }
   ],
   "language": "hin",
