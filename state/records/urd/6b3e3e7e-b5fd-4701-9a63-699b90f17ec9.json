@@ -26,10 +26,17 @@
       "event": "not_ready",
       "reason": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[126]: source /article[1]/blockquote[2]/figure[2]/figcaption[1] ('end', 'figcaption'); translation /article[1]/blockquote[2]/figure[2]/figcaption[1]/em[1] ('start', 'em', ())",
       "task": "6a8e286bbf8cabafbc07800fdc6e0f35"
+    },
+    {
+      "at": "2026-10-31T05:24:09+00:00",
+      "campaign": "auto-00205110191a1373427719afb35a1c23334eeefc6f0ccfd1d6334904f591dcef",
+      "event": "automatic_requested",
+      "previous_task": "6a8e286bbf8cabafbc07800fdc6e0f35",
+      "task": "df1864783fe877ddf328016004693d27"
     }
   ],
   "language": "urd",
-  "latest_task": "6a8e286bbf8cabafbc07800fdc6e0f35",
+  "latest_task": "df1864783fe877ddf328016004693d27",
   "published": {
     "html_path": "content/urd/articles/6b3e3e7e-b5fd-4701-9a63-699b90f17ec9.html",
     "html_sha256": "cefc2b0a1800df9e0bca8df3b867a3d1f223dcc19f685b0e031d6d8a413b9492",
