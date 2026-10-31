@@ -20227,6 +20227,42 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/deu/articles/816d80f0-e3dd-46a6-ae6e-03214e209890.html",
+      "html_sha256": "bac6590d47c1c301d4514f3b367297ad7258f12ebd7f6e6c0cea3cfdc360553c",
+      "human_reviewed": false,
+      "id": "816d80f0-e3dd-46a6-ae6e-03214e209890",
+      "images": [
+        {
+          "alt": "Eine Hand nimmt Geld durch einen Holzzaun entgegen",
+          "public_path": "/images/articles/816d80f0-e3dd-46a6-ae6e-03214e209890-1.jpg"
+        },
+        {
+          "alt": "Faksimile der Unterschrift von John Wesley",
+          "public_path": "/images/articles/816d80f0-e3dd-46a6-ae6e-03214e209890-2.jpg"
+        },
+        {
+          "alt": "Statue von John Wesley mit einem aufgeschlagenen Buch",
+          "public_path": "/images/articles/816d80f0-e3dd-46a6-ae6e-03214e209890-3.jpg"
+        }
+      ],
+      "issue_id": "05538f8e-6560-5f96-b313-890e87c05daf",
+      "language": "deu",
+      "language_tag": "de",
+      "metadata": "content/deu/articles/816d80f0-e3dd-46a6-ae6e-03214e209890.json",
+      "metadata_sha256": "b012d9826122a8ed9fdde165614f6e4b04dfb7094adf57d29749c6e2b3c02ef4",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": null,
+      "source_revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
+      "source_translation_key": "0af4e8eba8d76fd3ebe2cccff019f1ce29d88581ec1120c33079d9f90b1288d6",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Über die Gefahr wachsenden Reichtum$",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/deu/articles/85306410-6a2d-46f1-b6db-6d3450f7f908.html",
       "html_sha256": "70dd93001e280a0e6d5decb200f95e3c9daccf0c1d5d3dd727cc20aeeffef2c3",
       "human_reviewed": false,
