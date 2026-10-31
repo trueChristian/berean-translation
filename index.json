@@ -33764,6 +33764,34 @@
     {
       "ai_notice_required": true,
       "direction": "rtl",
+      "html": "content/heb/articles/ad4e2c15-f6ba-4b89-a519-1a36655aa93a.html",
+      "html_sha256": "ae7bb59244e3dfbc208cb0c836adc6066f30ff7cf733146dc50eab000c68f060",
+      "human_reviewed": false,
+      "id": "ad4e2c15-f6ba-4b89-a519-1a36655aa93a",
+      "images": [
+        {
+          "alt": "ישוע כורע בתפילה בין הסלעים",
+          "public_path": "/images/articles/ad4e2c15-f6ba-4b89-a519-1a36655aa93a-1.jpg"
+        }
+      ],
+      "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
+      "language": "heb",
+      "language_tag": "he",
+      "metadata": "content/heb/articles/ad4e2c15-f6ba-4b89-a519-1a36655aa93a.json",
+      "metadata_sha256": "54b5a8f1073769f53dd406869afc4e6e5c9a4655fbacd4ab3d102c23774508f7",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": null,
+      "source_revision": "ed75201a8e3b37913a14f4d949de33a7a0daa2c2",
+      "source_translation_key": "af0a2811aaad8facf9c0fb70e4f79fedbc83ae6bb333beb07b2d95c0bed6e2e6",
+      "status": "ready",
+      "subtitle": null,
+      "title": "נוסחה ללב בוער",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
       "html": "content/heb/articles/affa9e6e-7d44-4174-ae66-fd44cfaeeaa0.html",
       "html_sha256": "4f60639011f5f93f91b6e4a42283fc18522d474f1444370d83cf5b2a4cc5f93e",
       "human_reviewed": false,
