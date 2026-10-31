@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-31T18:37:52+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"19270b64-7f17-4623-b361-5486354b7303\\\">\\n  <figure><img src=\\\"/images/articles/19270b64-7f17-4623-b361-5486354b7303-1.jpg\\\" alt=\\\"雅各安歇在一座天使簇拥的阶梯下\\\"></figure>\\n  <p>要正确评估一个人生命中的任何阶段，我们必须把它看作他向上或向下成长过程中的一个篇章。</p>\\n  <p>想想伯特利的雅各：那时，一架梯子从天而降，将上帝的爱带给他。有些人指责雅各在伯特利所许的愿自私而唯利是图。上帝若为雅各做这事，雅各就为上帝做这事！与其如此，不如像亚伯拉罕那样，怀着慷慨之心安歇在上帝里面，将一切都交托给祂，这要高尚得多！</p>\\n  <p>但雅各在伯特利时，属灵生命才刚刚开始。他刚刚初次瞥见那异象，而这异象将塑造他的一生，直到生命终结。他自然还达不到完全舍己的境界。他诚实地陈述自己当时的看法，并以他一贯务实而平常的方式，照着上帝的话信靠祂。</p>\\n  <p>但到了雅博渡口，雅各更进一步。神圣的能力与临在再次进入他的生命，而这一次，他不再与它们讨价还价。他不求自己平安无事，也不求财产得到保全，或兄长的怒气平息。他只求上帝所能赐下的祝福，并任凭这祝福呈现任何样貌、带有任何意义，只要是上帝赐予的。他如今不再讨价还价，而是信靠并敬拜。就在那时，他原来的名字“雅各”（意为“取代者”）不再适合他，于是他成了以色列，也就是“上帝的王子”。</p>\\n  <figure><img src=\\\"/images/articles/19270b64-7f17-4623-b361-5486354b7303-2.jpg\\\" alt=\\\"雅各跪在一位长着翅膀的天使面前\\\"></figure>\\n  <p>上帝就这样带领我们从一个阶段进入另一个阶段，使我们从对自己与祂关系的狭隘、自私的看法，走到这样的时刻：在祂赐予的一切恩典中，我们所求的唯有那份祝福；这祝福表达祂因我们而喜悦，也帮助我们因祂而喜乐。</p>\\n</article>\\n\",\"section\":null,\"subtitle\":null,\"title\":\"人如何成长\"}",
+    "content_bytes": 2140,
+    "content_evidence_truncated": false,
+    "content_sha256": "09087881f06b4938be2afbf35894718eced5468293cd1c35470c33ccb2a37e8d",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 801,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 112,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1378,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1375,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2179
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}
