@@ -20,9 +20,32 @@
       "event": "automatic_requested",
       "previous_task": "3fac7f4a473e57eec5b4d70ecfc118f5",
       "task": "da04b0720701e620db816691db8cc582"
+    },
+    {
+      "at": "2026-10-31T22:09:00+00:00",
+      "event": "complete",
+      "reason": null,
+      "task": "da04b0720701e620db816691db8cc582"
     }
   ],
   "language": "por",
   "latest_task": "da04b0720701e620db816691db8cc582",
-  "published": null
+  "published": {
+    "html_path": "content/por/articles/816d80f0-e3dd-46a6-ae6e-03214e209890.html",
+    "html_sha256": "d7fb70755aff5dcdc306c08793e2914ac8ab0dcfc899073b0a9330153da880a2",
+    "human_review": null,
+    "human_reviewed": false,
+    "issue_id": "05538f8e-6560-5f96-b313-890e87c05daf",
+    "metadata_path": "content/por/articles/816d80f0-e3dd-46a6-ae6e-03214e209890.json",
+    "metadata_sha256": "867cd340776c247c5648ab5c304689636fe1bbb1305add1e7552ef8d2ff97e95",
+    "model": "gpt-6.1-sol",
+    "notice_html": "<aside class=\"translation-notice\" data-translation-notice=\"ai\" lang=\"pt\" dir=\"ltr\" role=\"note\">\n  <p>Este artigo foi traduzido por inteligência artificial com OpenAI (modelo: gpt-6.1-sol) e ainda não foi revisto por uma pessoa. O original em inglês é a versão de referência autorizada. Em caso de dúvida sobre o significado, consulte o original em inglês. <a href=\"/en/articles/816d80f0-e3dd-46a6-ae6e-03214e209890/\" data-source-article-id=\"816d80f0-e3dd-46a6-ae6e-03214e209890\" hreflang=\"en\">Original em inglês</a></p>\n</aside>",
+    "published_at": "2026-10-31T22:09:00+00:00",
+    "quality_score": 98,
+    "review_model": "gpt-6.1-sol",
+    "source_revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
+    "source_snapshot": "state/sources/33ad0ad60a5f5ec04a7ed30b13ecc8850d1965f6058e2e8355ee5137b5cdc0af.json",
+    "task": "da04b0720701e620db816691db8cc582",
+    "translation_key": "0af4e8eba8d76fd3ebe2cccff019f1ce29d88581ec1120c33079d9f90b1288d6"
+  }
 }
