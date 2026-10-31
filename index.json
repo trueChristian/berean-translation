@@ -72574,6 +72574,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/rus/articles/c6596509-ad91-49b6-a55b-d850c3b72c14.html",
+      "html_sha256": "6f4b5e78bf0bfed9644f31f77406d2e8c942ce2c0e121598a4bbd79e89496cba",
+      "human_reviewed": false,
+      "id": "c6596509-ad91-49b6-a55b-d850c3b72c14",
+      "images": [
+        {
+          "alt": "Крупный план розы.",
+          "public_path": "/images/articles/c6596509-ad91-49b6-a55b-d850c3b72c14-1.jpg"
+        }
+      ],
+      "issue_id": "07955de4-6574-4a4b-9c1b-f216374c02ee",
+      "language": "rus",
+      "language_tag": "ru",
+      "metadata": "content/rus/articles/c6596509-ad91-49b6-a55b-d850c3b72c14.json",
+      "metadata_sha256": "e7ee5f9d35f7e76da8073d099218cf4b556807a10ded6a7472d3ad02e82a43dd",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": null,
+      "source_revision": "77453848868ffdd6736c58e8c072c5ee12108fc7",
+      "source_translation_key": "0e0d3461779cb69fe2b7abdcf38f790945684497a7280f617caa1679f055a962",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Как мы готовим наших юных девушек к будущему?",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/rus/articles/c7009feb-1e58-4c54-a5e9-ae0bf90ed9cf.html",
       "html_sha256": "7d15109bd70bc8b3071d1020b029c8f92402c1efa7bae773f2538c85ae85f6e2",
       "human_reviewed": false,
