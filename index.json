@@ -14845,6 +14845,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/cmn/articles/3f679973-e351-4fe3-8930-e08d9fba23a5.html",
+      "html_sha256": "a199783fc5e21ea0b0d3228c15a8128952c0650a9f4ed3b2317784ebfef26f21",
+      "human_reviewed": false,
+      "id": "3f679973-e351-4fe3-8930-e08d9fba23a5",
+      "images": [
+        {
+          "alt": "一名徒步者在日落时帮助另一名徒步者攀爬",
+          "public_path": "/images/articles/3f679973-e351-4fe3-8930-e08d9fba23a5-1.png"
+        }
+      ],
+      "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
+      "language": "cmn",
+      "language_tag": "zh-Hans",
+      "metadata": "content/cmn/articles/3f679973-e351-4fe3-8930-e08d9fba23a5.json",
+      "metadata_sha256": "7c7519e0b70ebf17129e992be79ef60b21ee7e0d8964d0a3ed89e3cf21f3086f",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "青年励志",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "d910d483e90bcd959841ed8e96903546f249749ffefaa1d05b277a01a16ea99d",
+      "status": "ready",
+      "subtitle": null,
+      "title": "上帝不肯放开我",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/cmn/articles/3feab4dd-c830-4ead-ad57-24d853847088.html",
       "html_sha256": "d3376f82877b595e8544debca5595ee3f9b842ce577205bbfa243b64048db954",
       "human_reviewed": false,
