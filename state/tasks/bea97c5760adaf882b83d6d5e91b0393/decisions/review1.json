@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraph 2",
+      "severity": "minor",
+      "source_quote": "“before an assembled multitude whom no man can number”",
+      "suggested_fix": "«перед собравшейся толпой, которую никто не сможет сосчитать»",
+      "translation_quote": "«перед собравшейся толпой, которой никто не сможет сосчитать»"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "9140ec29-f6dc-4249-a91c-fcd49b3aed7e",
+    "response_id": "chatcmpl-EfCjbq6gemj0kqWbrgxsdGms2agKt",
+    "usage": {
+      "completion_tokens": 781,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 670,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3304,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3301,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4085
+    }
+  },
+  "received_at": "2026-10-31T23:28:10+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, paragraph 2",
+        "severity": "minor",
+        "source_quote": "“before an assembled multitude whom no man can number”",
+        "suggested_fix": "«перед собравшейся толпой, которую никто не сможет сосчитать»",
+        "translation_quote": "«перед собравшейся толпой, которой никто не сможет сосчитать»"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 97
+  }
+}
