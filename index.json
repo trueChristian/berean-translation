@@ -15777,6 +15777,42 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/cmn/articles/816d80f0-e3dd-46a6-ae6e-03214e209890.html",
+      "html_sha256": "8a9157d4a8f00c97ab2cf8e986b492c86597d44aa0ac9f2d2dd61438b1d9257c",
+      "human_reviewed": false,
+      "id": "816d80f0-e3dd-46a6-ae6e-03214e209890",
+      "images": [
+        {
+          "alt": "一只手正从木栅栏间取钱",
+          "public_path": "/images/articles/816d80f0-e3dd-46a6-ae6e-03214e209890-1.jpg"
+        },
+        {
+          "alt": "约翰·卫斯理的签名影印件",
+          "public_path": "/images/articles/816d80f0-e3dd-46a6-ae6e-03214e209890-2.jpg"
+        },
+        {
+          "alt": "手持打开书本的约翰·卫斯理雕像",
+          "public_path": "/images/articles/816d80f0-e3dd-46a6-ae6e-03214e209890-3.jpg"
+        }
+      ],
+      "issue_id": "05538f8e-6560-5f96-b313-890e87c05daf",
+      "language": "cmn",
+      "language_tag": "zh-Hans",
+      "metadata": "content/cmn/articles/816d80f0-e3dd-46a6-ae6e-03214e209890.json",
+      "metadata_sha256": "d46bcb7397f366a8fcbb6bd0bcbb9a443a2364d4223a5dde734d2a056830a649",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": null,
+      "source_revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
+      "source_translation_key": "0af4e8eba8d76fd3ebe2cccff019f1ce29d88581ec1120c33079d9f90b1288d6",
+      "status": "ready",
+      "subtitle": null,
+      "title": "论财富增长的危险",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/cmn/articles/85306410-6a2d-46f1-b6db-6d3450f7f908.html",
       "html_sha256": "d6b5d689f6d117ec44caaefa1b1a3a09ee533296610c76f914e471fc8adb7c0b",
       "human_reviewed": false,
