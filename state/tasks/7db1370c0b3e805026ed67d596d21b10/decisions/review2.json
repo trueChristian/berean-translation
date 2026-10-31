@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Historische brief, citaat",
+      "severity": "minor",
+      "source_quote": "“making no difference of what generation, descent, or color they are”",
+      "suggested_fix": "“zonder onderscheid te maken naar generatie, afkomst of huidskleur”",
+      "translation_quote": "“zonder onderscheid te maken naar hun afkomst, afkomstlijn of huidskleur”"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

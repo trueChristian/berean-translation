@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": "2961b90bcc331f20000bceeff2d6f8bc5a0e8029897040be5ec9fb2dd23558d4",
   "base_metadata_sha256": "7c8b0160c8c06ee90a70dfd4aa64bf96f16b82bd937c143b828554a315096488",
-  "batch": "6361d7092d76483cb62a9ea9318bb137",
   "campaign": "auto-ca366a8c5a947914e3fd1b53509de20192d893a4f299e800852bfbb48fe2cc37",
   "created_at": "2026-10-30T14:10:27+00:00",
   "events": [
@@ -48,18 +47,39 @@
         },
         "total_tokens": 20903
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 772,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 662,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 13924,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 12821,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 14696
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "HTML/metadata contract",
-      "severity": "critical",
-      "source_quote": "",
-      "suggested_fix": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[122]: source /article[1]/blockquote[2]/p[10] ('end', 'p'); translation /article[1]/blockquote[2]/p[10]/em[1] ('start', 'em', ())",
-      "translation_quote": ""
+      "location": "Historische brief, citaat",
+      "severity": "minor",
+      "source_quote": "“making no difference of what generation, descent, or color they are”",
+      "suggested_fix": "“zonder onderscheid te maken naar generatie, afkomst of huidskleur”",
+      "translation_quote": "“zonder onderscheid te maken naar hun afkomst, afkomstlijn of huidskleur”"
     }
   ],
+  "finished_at": "2026-10-31T11:01:02+00:00",
   "id": "7db1370c0b3e805026ed67d596d21b10",
   "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
   "language": "nld",
@@ -148,9 +168,11 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/59cbf8b476880356c033cf18426356b120a6c17f9d556255143dbd63b71c97e3.json",
   "stage": "review2",
   "stage_budget": {
@@ -166,7 +188,7 @@
     "total_reserved_usd": 0.129679,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "d2a2d95f0a98c90fa1d145d8f870384b0fec3bc25e401c2eedeb5709aa7ff254",
   "translation_model_actual": "gpt-6-luna"

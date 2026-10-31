@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "645646ac-da7c-4d46-a6f7-16129b452d52",
+    "response_id": "chatcmpl-Eez8K0t7Wgwzcvl37m4e2slyoZMv6",
+    "usage": {
+      "completion_tokens": 772,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 662,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 13924,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 12821,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 14696
+    }
+  },
+  "received_at": "2026-10-31T11:01:02+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Historische brief, citaat",
+        "severity": "minor",
+        "source_quote": "“making no difference of what generation, descent, or color they are”",
+        "suggested_fix": "“zonder onderscheid te maken naar generatie, afkomst of huidskleur”",
+        "translation_quote": "“zonder onderscheid te maken naar hun afkomst, afkomstlijn of huidskleur”"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}
