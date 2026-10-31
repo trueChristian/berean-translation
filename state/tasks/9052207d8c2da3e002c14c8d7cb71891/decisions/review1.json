@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "अंतिम मुख्य भाग, “The two kingdoms” अनुच्छेद और उससे संबद्ध चित्र-कैप्शन",
+      "severity": "minor",
+      "source_quote": "“children will be required by law to be indoctrinated with the perverted values”",
+      "suggested_fix": "दोनों स्थानों पर “विकृत मूल्यों की शिक्षा देना” को “विकृत मूल्यों में दीक्षित/प्रचारित करना” जैसे शब्दों से बदलें, ताकि “indoctrinated” का आशय बना रहे।",
+      "translation_quote": "“बच्चों को उस ... समाज के विकृत मूल्यों की शिक्षा देना अनिवार्य होगा”"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

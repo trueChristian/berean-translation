@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-31T05:20:43+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"अंतिम मुख्य भाग, “The two kingdoms” अनुच्छेद और उससे संबद्ध चित्र-कैप्शन\",\"severity\":\"minor\",\"source_quote\":\"“children will be required by law to be indoctrinated with the perverted values”\",\"suggested_fix\":\"दोनों स्थानों पर “विकृत मूल्यों की शिक्षा देना” को “विकृत मूल्यों में दीक्षित/प्रचारित करना” जैसे शब्दों से बदलें, ताकि “indoctrinated” का आशय बना रहे।\",\"translation_quote\":\"“बच्चों को उस ... समाज के विकृत मूल्यों की शिक्षा देना अनिवार्य होगा”\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 961,
+    "content_evidence_truncated": false,
+    "content_sha256": "04b8f73ac89859ca6d9fe97acb956bf512b64bc96c7ef33edf8bdc97d9ee3382",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1176,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1004,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 15222,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 14119,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 16398
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}
