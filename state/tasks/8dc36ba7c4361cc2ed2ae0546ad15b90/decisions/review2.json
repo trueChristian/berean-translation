@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraphe 7",
+      "severity": "minor",
+      "source_quote": "my brother’s desire for a relative, rational, and modern religion",
+      "suggested_fix": "Remplacer « une religion relative, rationnelle et moderne » par « une religion relativiste, rationnelle et moderne » pour rendre plus clairement l’idée de relativisme dans ce contexte.",
+      "translation_quote": "le désir de mon frère d’avoir une religion relative, rationnelle et moderne"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

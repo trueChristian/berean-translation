@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "0ff4ef55-c291-4309-96bb-ee6fdd5a6730",
+    "response_id": "chatcmpl-EezKXBu6EF4V2jpFBzc3swIWfzNX0",
+    "usage": {
+      "completion_tokens": 1079,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 950,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 10633,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9530,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 11712
+    }
+  },
+  "received_at": "2026-10-31T11:01:43+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraphe 7",
+        "severity": "minor",
+        "source_quote": "my brother’s desire for a relative, rational, and modern religion",
+        "suggested_fix": "Remplacer « une religion relative, rationnelle et moderne » par « une religion relativiste, rationnelle et moderne » pour rendre plus clairement l’idée de relativisme dans ce contexte.",
+        "translation_quote": "le désir de mon frère d’avoir une religion relative, rationnelle et moderne"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}

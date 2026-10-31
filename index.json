@@ -29612,6 +29612,46 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/fra/articles/a5c8b070-97f8-4050-9ac5-89af497287b0.html",
+      "html_sha256": "1d0a398b1029165164315946ba16783e00597a58e1abcbba7ede8e57f988e2d9",
+      "human_reviewed": false,
+      "id": "a5c8b070-97f8-4050-9ac5-89af497287b0",
+      "images": [
+        {
+          "alt": "Un lion et d’autres animaux observent un enfant qui danse",
+          "public_path": "/images/articles/a5c8b070-97f8-4050-9ac5-89af497287b0-1.jpg"
+        },
+        {
+          "alt": "Une plaque décrivant les réunions de C. S. Lewis et de ses amis dans l’arrière-salle d’un pub",
+          "public_path": "/images/articles/a5c8b070-97f8-4050-9ac5-89af497287b0-2.jpg"
+        },
+        {
+          "alt": "Une couverture du magazine TIME présentant un portrait de C. S. Lewis",
+          "public_path": "/images/articles/a5c8b070-97f8-4050-9ac5-89af497287b0-3.jpg"
+        },
+        {
+          "alt": "C. S. Lewis assis avec un livre",
+          "public_path": "/images/articles/a5c8b070-97f8-4050-9ac5-89af497287b0-4.jpg"
+        }
+      ],
+      "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
+      "language": "fra",
+      "language_tag": "fr",
+      "metadata": "content/fra/articles/a5c8b070-97f8-4050-9ac5-89af497287b0.json",
+      "metadata_sha256": "758e4f7a6497436b088ed142ca9abf181f5b0fd4c5bf2a80a6d255aede0651ee",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "ed75201a8e3b37913a14f4d949de33a7a0daa2c2",
+      "source_translation_key": "6db58cafff7cfe9f11556e892b54ec7a0015890307776806dd7acebca34a78c1",
+      "status": "ready",
+      "subtitle": "CHRISTIENS, PRENEZ GARDE !",
+      "title": "Le Lion, la Sorcière et le Happy Meal :",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/fra/articles/a666b8a8-f3c7-4478-b53d-bb0abe446f42.html",
       "html_sha256": "01c38ffe2d7fc89c6403c7fe0989f97268be1c6cd11ada3706d54deb55414b8c",
       "human_reviewed": false,
