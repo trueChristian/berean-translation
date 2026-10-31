@@ -4,12 +4,12 @@
   "budget_enforcement": "none",
   "counts": {
     "active": 33,
-    "held_without_publication": 1402,
+    "held_without_publication": 1403,
     "published": 3172,
-    "queued": 101,
+    "queued": 100,
     "unstarted": 18652
   },
-  "generated_at": "2026-10-31T00:27:41+00:00",
+  "generated_at": "2026-10-31T00:32:40+00:00",
   "pending_requests": 401,
   "replacement_counts": {
     "active": 17,
