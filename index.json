@@ -79669,6 +79669,46 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/spa/articles/f87354d0-0bb8-4271-a8db-792c77d0d090.html",
+      "html_sha256": "66866851f0829adbd96ad321a143bc2bf357f9d781efce8d8ed6fc727a9b1bca",
+      "human_reviewed": false,
+      "id": "f87354d0-0bb8-4271-a8db-792c77d0d090",
+      "images": [
+        {
+          "alt": "Grabado de creyentes recibiendo el Espíritu Santo en Pentecostés",
+          "public_path": "/images/articles/f87354d0-0bb8-4271-a8db-792c77d0d090-1.png"
+        },
+        {
+          "alt": "Llama estilizada",
+          "public_path": "/images/articles/f87354d0-0bb8-4271-a8db-792c77d0d090-2.jpg"
+        },
+        {
+          "alt": "Una paloma vuela hacia una mano extendida",
+          "public_path": "/images/articles/f87354d0-0bb8-4271-a8db-792c77d0d090-3.png"
+        },
+        {
+          "alt": "Señal vial que combina caras sonrientes y tristes",
+          "public_path": "/images/articles/f87354d0-0bb8-4271-a8db-792c77d0d090-4.jpg"
+        }
+      ],
+      "issue_id": "05538f8e-6560-5f96-b313-890e87c05daf",
+      "language": "spa",
+      "language_tag": "es",
+      "metadata": "content/spa/articles/f87354d0-0bb8-4271-a8db-792c77d0d090.json",
+      "metadata_sha256": "ae7e616cf01f915f7290111dfda15920437d76f418eb4bb106216d5eafab5654",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": null,
+      "source_revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
+      "source_translation_key": "ecc35e8cd4c57e2b467ba1c07b4baf9d8db122db80e2c80ae9e2a166783c3de1",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Rescatar el bautismo del Espíritu Santo del pentecostalismo",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/spa/articles/fb02a7e7-4fdc-4363-bea0-aa8a68b36f8b.html",
       "html_sha256": "78beadf0d7ed819c784bdc736732de49f897c3e987cb6d31c1c48a2a02c59584",
       "human_reviewed": false,

@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "0eccc99bf3b2488ea774043a03218d3a",
   "campaign": "auto-c96ca0968a7bab08e39ab4cec481ce1362e0f78abc2603e4dd05b34e2a6ba8a4",
   "created_at": "2026-10-31T22:11:34+00:00",
   "events": [
@@ -28,18 +27,31 @@
         },
         "total_tokens": 37877
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 64,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 32,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 25262,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 24159,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 25326
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "El problema y la promesa, lista de promesas, cita de Isaías 4:4-5 y explicación inmediata",
-      "severity": "major",
-      "source_quote": "“by the spirit of judgment, and by the spirit of burning” / “by the spirit of judgment … and of burning.”",
-      "suggested_fix": "En ambas apariciones, sustituir «espíritu de devastación» por «espíritu de fuego» para conservar la imagen de fuego de la cita y su explicación.",
-      "translation_quote": "«con espíritu de juicio y con espíritu de devastación» / «con espíritu de juicio… y de devastación»"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-31T23:06:55+00:00",
   "id": "05a52e636fc1b67bc2cba2d8a95d11ef",
   "issue_id": "05538f8e-6560-5f96-b313-890e87c05daf",
   "language": "spa",
@@ -128,9 +140,11 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/11b94d8a8e8a81e67a7fd3c0c4b463dbf9b119ac25d58f9d05d02c6535fa9d79.json",
   "stage": "review2",
   "stage_budget": {
@@ -144,7 +158,7 @@
     "total_reserved_usd": 1.10866,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "ecc35e8cd4c57e2b467ba1c07b4baf9d8db122db80e2c80ae9e2a166783c3de1",
   "translation_model_actual": "gpt-6.1-sol"
