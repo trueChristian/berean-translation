@@ -11643,6 +11643,42 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ben/articles/816d80f0-e3dd-46a6-ae6e-03214e209890.html",
+      "html_sha256": "946fa6b5c01474c5159b6a98c1a8686f1f96e0f5d843314da2dae5e4a3f19b27",
+      "human_reviewed": false,
+      "id": "816d80f0-e3dd-46a6-ae6e-03214e209890",
+      "images": [
+        {
+          "alt": "কাঠের বেড়ার ফাঁক দিয়ে টাকা নিচ্ছে একটি হাত",
+          "public_path": "/images/articles/816d80f0-e3dd-46a6-ae6e-03214e209890-1.jpg"
+        },
+        {
+          "alt": "জন ওয়েসলির স্বাক্ষরের প্রতিকৃতি",
+          "public_path": "/images/articles/816d80f0-e3dd-46a6-ae6e-03214e209890-2.jpg"
+        },
+        {
+          "alt": "খোলা বই হাতে জন ওয়েসলির মূর্তি",
+          "public_path": "/images/articles/816d80f0-e3dd-46a6-ae6e-03214e209890-3.jpg"
+        }
+      ],
+      "issue_id": "05538f8e-6560-5f96-b313-890e87c05daf",
+      "language": "ben",
+      "language_tag": "bn",
+      "metadata": "content/ben/articles/816d80f0-e3dd-46a6-ae6e-03214e209890.json",
+      "metadata_sha256": "7fc1212e9a7cac47201f8813da41a5a578526ff9de12357f7241dbcc27963dd6",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": null,
+      "source_revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
+      "source_translation_key": "0af4e8eba8d76fd3ebe2cccff019f1ce29d88581ec1120c33079d9f90b1288d6",
+      "status": "ready",
+      "subtitle": null,
+      "title": "ধনসম্পদ বৃদ্ধির বিপদ সম্পর্কে",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ben/articles/85306410-6a2d-46f1-b6db-6d3450f7f908.html",
       "html_sha256": "e1affc6a4d7561d497de86962f3081c0f69dc333b11b6d72cd8d938b17357e13",
       "human_reviewed": false,

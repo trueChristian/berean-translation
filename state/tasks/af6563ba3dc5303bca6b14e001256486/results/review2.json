@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "00fb6127-71ee-4556-9203-37ece37cf25e",
+    "response_id": "chatcmpl-Ef86gFJ20wClsPD0qcHKK5LFSMAjy",
+    "usage": {
+      "completion_tokens": 283,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 103,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 15297,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 14194,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 15580
+    }
+  },
+  "received_at": "2026-10-31T18:36:36+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "translation.html: ভূমিকা, প্রথম অনুচ্ছেদ",
+        "severity": "minor",
+        "source_quote": "From a small handful, his movement had grown to 135,000 members with over 500 itinerant preachers.",
+        "suggested_fix": "বাক্যটি করুন: “অল্প কয়েকজনের একটি দল থেকে তাঁর আন্দোলন বেড়ে উঠেছিল ১,৩৫,০০০ সদস্য ও ৫০০-রও বেশি ভ্রাম্যমাণ প্রচারক নিয়ে।”",
+        "translation_quote": "অল্প কয়েকজনের একটি দল থেকে তাঁর আন্দোলন বেড়ে ১,৩৫,০০০ সদস্য এবং ৫০০-রও বেশি ভ্রাম্যমাণ প্রচারকে পৌঁছেছিল।"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "translation.html: ভূমিকা, প্রথম অনুচ্ছেদ",
+      "severity": "minor",
+      "source_quote": "From a small handful, his movement had grown to 135,000 members with over 500 itinerant preachers.",
+      "suggested_fix": "বাক্যটি করুন: “অল্প কয়েকজনের একটি দল থেকে তাঁর আন্দোলন বেড়ে উঠেছিল ১,৩৫,০০০ সদস্য ও ৫০০-রও বেশি ভ্রাম্যমাণ প্রচারক নিয়ে।”",
+      "translation_quote": "অল্প কয়েকজনের একটি দল থেকে তাঁর আন্দোলন বেড়ে ১,৩৫,০০০ সদস্য এবং ৫০০-রও বেশি ভ্রাম্যমাণ প্রচারকে পৌঁছেছিল।"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}
