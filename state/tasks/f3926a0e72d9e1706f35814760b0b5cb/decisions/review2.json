@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Les programmes cananéens > Programmes d’aide gouvernementale",
+      "severity": "major",
+      "source_quote": "“When it comes time for the draft, and you are called to give account”",
+      "suggested_fix": "Rétablir l’idée de la conscription, par exemple : « Lorsque viendra le moment de la conscription et que vous serez appelé à rendre des comptes… »",
+      "translation_quote": "« Lorsque viendra le moment de rendre des comptes et que vous serez appelé à répondre »"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

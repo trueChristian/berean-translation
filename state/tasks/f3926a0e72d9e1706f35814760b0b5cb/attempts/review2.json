@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-31T16:03:11+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Les programmes cananéens > Programmes d’aide gouvernementale\",\"severity\":\"major\",\"source_quote\":\"“When it comes time for the draft, and you are called to give account”\",\"suggested_fix\":\"Rétablir l’idée de la conscription, par exemple : « Lorsque viendra le moment de la conscription et que vous serez appelé à rendre des comptes… »\",\"translation_quote\":\"« Lorsque viendra le moment de rendre des comptes et que vous serez appelé à répondre »\"}],\"findings_complete\":true,\"passed\":false,\"score\":93}",
+    "content_bytes": 544,
+    "content_evidence_truncated": false,
+    "content_sha256": "d92f1908ec08faa0eb11c562a0f6a074b43c590d0c58f4437fba85a1472551f7",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 647,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 15319,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 14216,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 15966
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review2",
+  "translation_attempts": 2
+}

@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "b7070c1485f34c5eac9a76f9decc622c",
   "campaign": "auto-b4bf99cdc5c12f0154d68e3645dc779d4c2b4cbbd544693de0b4a1afe4bcf566",
   "created_at": "2026-10-30T20:44:00+00:00",
   "events": [
@@ -48,18 +47,40 @@
         },
         "total_tokens": 22962
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 647,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 512,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 15319,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 14216,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 15966
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; a recovery continuation must pass admission",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "HTML/metadata contract",
-      "severity": "critical",
-      "source_quote": "",
-      "suggested_fix": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[18]: source /article[1]/blockquote[1]/p[1]/em[3] ('start', 'em', ()); translation /article[1]/blockquote[1]/p[1] ('end', 'p')",
-      "translation_quote": ""
+      "location": "Les programmes cananéens > Programmes d’aide gouvernementale",
+      "severity": "major",
+      "source_quote": "“When it comes time for the draft, and you are called to give account”",
+      "suggested_fix": "Rétablir l’idée de la conscription, par exemple : « Lorsque viendra le moment de la conscription et que vous serez appelé à rendre des comptes… »",
+      "translation_quote": "« Lorsque viendra le moment de rendre des comptes et que vous serez appelé à répondre »"
     }
   ],
+  "finished_at": "2026-10-31T16:03:11+00:00",
   "id": "f3926a0e72d9e1706f35814760b0b5cb",
   "issue_id": "05538f8e-6560-5f96-b313-890e87c05daf",
   "language": "fra",
@@ -148,9 +169,11 @@
     }
   },
   "protected": false,
+  "quality_score": 93,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/ef720e03cdb021dd5aafad2a9f2dcacb6eb268d1ce43a85e50ea12388a581fb8.json",
   "stage": "review2",
   "stage_budget": {
@@ -166,7 +189,7 @@
     "total_reserved_usd": 0.130669,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "c0545377542c9c79b4c68a51b2c277c621b53fab8d7966c5cf122b68f56f1739",
   "translation_model_actual": "gpt-6-luna"
