@@ -1,0 +1,66 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "6435d794-ba83-43b7-9fd9-05d09c66b253",
+    "response_id": "chatcmpl-Ef8My5rRRf4ffzPuTbdiWmqIaJxzl",
+    "usage": {
+      "completion_tokens": 790,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 88,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5034,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3931,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 5824
+    }
+  },
+  "received_at": "2026-10-31T19:54:08+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "translation.html, første avsnitt",
+        "severity": "major",
+        "source_quote": "during the latter part of the 19<sup>th</sup> century",
+        "suggested_fix": "Erstatt «i den siste delen av det 19<sup>th</sup> century» med «i siste del av det 19. århundre».",
+        "translation_quote": "i den siste delen av det 19<sup>th</sup> century"
+      },
+      {
+        "location": "translation.title; translation.html, img alt",
+        "severity": "major",
+        "source_quote": "title: O Love That Wilt Not Let Me Go; alt=\"Sheet music for O Love That Wilt Not Let Me Go\"",
+        "suggested_fix": "Oversett artikkeltittelen til «Å kjærlighet som ikke slipper meg», og bruk alt=\"Noter til Å kjærlighet som ikke slipper meg\". Den engelske salmetittelen kan beholdes som verkstittel i brødteksten.",
+        "translation_quote": "title: O Love That Wilt Not Let Me Go; alt=\"Noteark for O Love That Wilt Not Let Me Go\""
+      },
+      {
+        "location": "translation.html, avsnittet med Peaces egen beretning",
+        "severity": "major",
+        "source_quote": "After reading it over carefully, I wrote the music straight off",
+        "suggested_fix": "Erstatt «Etter å ha lest den nøye skrev jeg musikken rett av» med «Etter å ha lest teksten nøye skrev jeg musikken med det samme». «Rett av» antyder avskrift, mens originalen beskriver umiddelbar komponering.",
+        "translation_quote": "Etter å ha lest den nøye skrev jeg musikken rett av"
+      },
+      {
+        "location": "translation.html, første avsnitt og Mathesons siterte beretning",
+        "severity": "minor",
+        "source_quote": "fruit of much mental suffering; it never received at my hands any retouching or correction",
+        "suggested_fix": "Rett «mye mentalt lidelse» til «mye psykisk lidelse», og «noen etterarbeid» til «noe etterarbeid».",
+        "translation_quote": "frukten av mye mentalt lidelse; det aldri undergikk noen etterarbeid eller korreksjon fra min hånd"
+      },
+      {
+        "location": "translation.html, avsnittet om første publisering",
+        "severity": "minor",
+        "source_quote": "the Church of Scotland monthly magazine, <em>Life and Work</em>",
+        "suggested_fix": "Erstatt «Church of Scotland-magasinet Life and Work» med «Church of Scotlands månedsmagasin <em>Life and Work</em>» for å bevare utgivelsesfrekvensen og originalens fremheving.",
+        "translation_quote": "Church of Scotland-magasinet Life and Work"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 91
+  }
+}
