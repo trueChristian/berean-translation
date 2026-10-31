@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Article, prophetic promises list, second item (Isaiah 4:4–5)",
+      "severity": "major",
+      "source_quote": "“When the Lord shall have washed away the filth of the daughters of Zion ... by the spirit of judgment, and by the spirit of burning. And the LORD will create upon every dwelling place of mount Zion ... a cloud and smoke by day, and the shining of a flaming fire by night” (Is. 4:4-5)",
+      "suggested_fix": "Replace the quoted verse and its reference with a Hebrew translation of Isaiah 4:4–5, for example: <em>כאשר האדון ישטוף את זוהמת בנות ציון ויסיר את דמי ירושלים מקרבה, ברוח משפט וברוח בער. ויברא יהוה על כל מקום בהר ציון ועל אספותיה ענן ועשן ביום, ואור אש להבה בלילה; כי על כל הכבוד תהיה חופה. ישעיהו ד:ד–ה</em>",
+      "translation_quote": "<em>עד אשר ייערֶה עלינו רוח ממרום, והמדבר יהיה לכרמל, והכרמל ליער ייחשב. ושכן במדבר משפט, וצדקה בכרמל תשב. ישעיהו לב:טו</em>"
+    },
+    {
+      "location": "Article, Peter Riedemann quotation, final third",
+      "severity": "major",
+      "source_quote": "“Through this work God enables the person to partake of his Son’s (1 Corinthians 2:9-10) nature and character, (2 Peter 1:3-8)”",
+      "suggested_fix": "Change the citation order and attribution to: „באמצעות פעולה זו אלוהים מאפשר לאדם להשתתף בטבעו של בנו (הראשונה לקורינתים ב:ט–י) ובאופיו (השנייה לפטרוס א:ג–ח)”.",
+      "translation_quote": "„באמצעות פעולה זו אלוהים מאפשר לאדם להשתתף בטבעו (השנייה לפטרוס א:ג–ח) ובאופיו של בנו (הראשונה לקורינתים ב:ט–י)”"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; a recovery continuation must pass admission",
+  "stage": "terminal"
+}
