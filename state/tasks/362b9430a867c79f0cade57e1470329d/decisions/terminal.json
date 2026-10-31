@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Kommentarzitat, Absatz beginnend „Entführer für Jesus!“",
+      "severity": "minor",
+      "source_quote": "“a 2,000 ft no-clergy zone around areas frequented by children like schools, playgrounds, and residential housing”",
+      "suggested_fix": "„eine 2.000 Fuß breite Sperrzone für Geistliche um von Kindern häufig besuchte Orte wie Schulen, Spielplätze und Wohngebiete“",
+      "translation_quote": "„eine 2.000 Fuß breite Sperrzone für Geistliche um Orte einrichten sollten, die Kinder häufig besuchen, wie Schulen, Spielplätze und Wohngebiete“"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

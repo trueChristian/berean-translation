@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "e1fe873cf4004f52a8df7a495685f1a6",
   "campaign": "auto-36616a21ac1d346a73f7d485b58f7961104f8f69596a891e54468913e09a14e0",
   "created_at": "2026-10-30T14:07:33+00:00",
   "events": [
@@ -28,10 +27,39 @@
         },
         "total_tokens": 13723
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1190,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 1024,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 14077,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 12974,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 15267
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "Kommentarzitat, Absatz beginnend „Entführer für Jesus!“",
+      "severity": "minor",
+      "source_quote": "“a 2,000 ft no-clergy zone around areas frequented by children like schools, playgrounds, and residential housing”",
+      "suggested_fix": "„eine 2.000 Fuß breite Sperrzone für Geistliche um von Kindern häufig besuchte Orte wie Schulen, Spielplätze und Wohngebiete“",
+      "translation_quote": "„eine 2.000 Fuß breite Sperrzone für Geistliche um Orte einrichten sollten, die Kinder häufig besuchen, wie Schulen, Spielplätze und Wohngebiete“"
+    }
+  ],
+  "finished_at": "2026-10-31T05:22:12+00:00",
   "id": "362b9430a867c79f0cade57e1470329d",
   "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
   "language": "deu",
@@ -120,9 +148,11 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/59cbf8b476880356c033cf18426356b120a6c17f9d556255143dbd63b71c97e3.json",
   "stage": "review1",
   "stage_budget": {
@@ -138,7 +168,7 @@
     "total_reserved_usd": 0.129679,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "d2a2d95f0a98c90fa1d145d8f870384b0fec3bc25e401c2eedeb5709aa7ff254",
   "translation_model_actual": "gpt-6-luna"

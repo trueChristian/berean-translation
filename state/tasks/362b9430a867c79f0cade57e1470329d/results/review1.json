@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "47fdb7a1-751f-4f82-89b2-41d81786eb4d",
+    "response_id": "chatcmpl-Ees3okKJyiVNaMBZSqyp000wEQk4O",
+    "usage": {
+      "completion_tokens": 1190,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1024,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 14077,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 12974,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 15267
+    }
+  },
+  "received_at": "2026-10-31T05:22:12+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Kommentarzitat, Absatz beginnend „Entführer für Jesus!“",
+        "severity": "minor",
+        "source_quote": "“a 2,000 ft no-clergy zone around areas frequented by children like schools, playgrounds, and residential housing”",
+        "suggested_fix": "„eine 2.000 Fuß breite Sperrzone für Geistliche um von Kindern häufig besuchte Orte wie Schulen, Spielplätze und Wohngebiete“",
+        "translation_quote": "„eine 2.000 Fuß breite Sperrzone für Geistliche um Orte einrichten sollten, die Kinder häufig besuchen, wie Schulen, Spielplätze und Wohngebiete“"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}
