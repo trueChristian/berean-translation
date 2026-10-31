@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "html: استثنا 7:1-6 کے اقتباس میں آیت 5",
+      "severity": "major",
+      "source_quote": "cut down their groves",
+      "suggested_fix": "صرف ’اُن کے مقدس جھنڈوں کو کاٹ ڈالنا‘ کو ’اُن کے مقدس درختوں کے جھنڈ کاٹ ڈالنا‘ سے بدلیں۔",
+      "translation_quote": "اُن کے مقدس جھنڈوں کو کاٹ ڈالنا"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

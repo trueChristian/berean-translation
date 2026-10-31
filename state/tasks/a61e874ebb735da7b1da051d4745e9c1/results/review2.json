@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "b5106453-5e0c-4df3-ab5c-d449d38f9e6e",
+    "response_id": "chatcmpl-Ef2O2JSkg6JXkcDlAKv20t7U6cRQj",
+    "usage": {
+      "completion_tokens": 239,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 77,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 16560,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 16557,
+        "cached_tokens": 0
+      },
+      "total_tokens": 16799
+    }
+  },
+  "received_at": "2026-10-31T12:30:29+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "html: استثنا 7:1-6 کے اقتباس میں آیت 5",
+        "severity": "major",
+        "source_quote": "cut down their groves",
+        "suggested_fix": "صرف ’اُن کے مقدس جھنڈوں کو کاٹ ڈالنا‘ کو ’اُن کے مقدس درختوں کے جھنڈ کاٹ ڈالنا‘ سے بدلیں۔",
+        "translation_quote": "اُن کے مقدس جھنڈوں کو کاٹ ڈالنا"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 94
+  }
+}

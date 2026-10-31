@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-31T12:30:29+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"html: استثنا 7:1-6 کے اقتباس میں آیت 5\",\n      \"severity\": \"major\",\n      \"source_quote\": \"cut down their groves\",\n      \"suggested_fix\": \"صرف ’اُن کے مقدس جھنڈوں کو کاٹ ڈالنا‘ کو ’اُن کے مقدس درختوں کے جھنڈ کاٹ ڈالنا‘ سے بدلیں۔\",\n      \"translation_quote\": \"اُن کے مقدس جھنڈوں کو کاٹ ڈالنا\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": false,\n  \"score\": 94\n}",
+    "content_bytes": 529,
+    "content_evidence_truncated": false,
+    "content_sha256": "1aca10a4cf3ea82e4089febfbdf8d0eabb1ab3e5e69a10e97d33a4e61e2aa421",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 239,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 77,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 16560,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 16557,
+        "cached_tokens": 0
+      },
+      "total_tokens": 16799
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review2",
+  "translation_attempts": 1
+}
