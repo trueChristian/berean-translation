@@ -56731,6 +56731,50 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/nld/articles/9b22e638-a735-48fe-b31b-817c614538ca.html",
+      "html_sha256": "269aac218aaf547a9fde80bb27c1ffa5d8030b7aac3ba335b3c294494b527754",
+      "human_reviewed": false,
+      "id": "9b22e638-a735-48fe-b31b-817c614538ca",
+      "images": [
+        {
+          "alt": "Prijskaartje met de tekst ‘Slechts $100,00’",
+          "public_path": "/images/articles/9b22e638-a735-48fe-b31b-817c614538ca-1.jpg"
+        },
+        {
+          "alt": "Lijntekening van een ijzeren strijdwagen",
+          "public_path": "/images/articles/9b22e638-a735-48fe-b31b-817c614538ca-2.png"
+        },
+        {
+          "alt": "Twee mannen spelen shuffleboard",
+          "public_path": "/images/articles/9b22e638-a735-48fe-b31b-817c614538ca-3.png"
+        },
+        {
+          "alt": "Een man zit achter een computer met zijn hoofd in zijn handen",
+          "public_path": "/images/articles/9b22e638-a735-48fe-b31b-817c614538ca-4.jpg"
+        },
+        {
+          "alt": "Een groot huis met gazon",
+          "public_path": "/images/articles/9b22e638-a735-48fe-b31b-817c614538ca-5.jpg"
+        }
+      ],
+      "issue_id": "05538f8e-6560-5f96-b313-890e87c05daf",
+      "language": "nld",
+      "language_tag": "nl",
+      "metadata": "content/nld/articles/9b22e638-a735-48fe-b31b-817c614538ca.json",
+      "metadata_sha256": "fcb528169c9c940356237d641102cddc9dc9868cc44c0701ce9f719716776969",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
+      "source_translation_key": "c0545377542c9c79b4c68a51b2c277c621b53fab8d7966c5cf122b68f56f1739",
+      "status": "ready",
+      "subtitle": "Schatting innen van de Kanaänieten",
+      "title": "Vijand of bondgenoot?",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/nld/articles/a1f4c51b-a704-47c2-813f-d3cce04d5327.html",
       "html_sha256": "81be8ac789cf19d1e1698120f2bcd544e93cd73e69961618b01b32517d2139d8",
       "human_reviewed": false,
