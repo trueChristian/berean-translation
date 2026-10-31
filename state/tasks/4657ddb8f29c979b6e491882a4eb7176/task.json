@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "d3142fd5f08043d0a50bcfde29e8ebd6",
   "campaign": "auto-f151e2ec1019f0f0f9e76f7dad160399a7b026a870574775b50c49f6a06ca9df",
   "created_at": "2026-10-29T19:46:51+00:00",
   "events": [
@@ -68,18 +67,47 @@
         },
         "total_tokens": 13610
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1372,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 1168,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9174,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8071,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 10546
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; a recovery continuation must pass admission",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "Opening quotations (James 4:11-12; Romans 14:4; Matthew 7:1-2) and Romans 14:10-13 quotation",
+      "location": "Paragraph beginning “1 Corinthians 11:31-32 warns us”",
       "severity": "major",
-      "source_quote": "“He that speaketh evil of his brother, and judgeth his brother”; “Who art thou that judgest another man’s servant?”; “Judge not, that ye be not judged”; “why dost thou judge thy brother?”",
-      "suggested_fix": "Translate the references to judging with Urdu terms for judging or passing judgment (for example, «فیصلہ کرنا» or «عدالت کرنا») rather than consistently rendering them as «الزام لگانا». Preserve accusation/evil-speaking separately where the English says “speak evil.” For example: «تم اپنے بھائی پر کیوں فیصلہ کرتے ہو؟» and «فیصلہ نہ کرو تاکہ تمہارا بھی فیصلہ نہ کیا جائے۔»",
-      "translation_quote": "«اپنے بھائی پر الزام لگاتا ہے»; «تم کون ہو جو دوسرے کے نوکر پر الزام لگاتے ہو؟»; «الزام نہ لگاؤ تاکہ تم پر بھی الزام نہ لگایا جائے»; «تو اپنے بھائی پر کیوں الزام لگاتا ہے؟»"
+      "source_quote": "“the Lord will judge us with chastening”",
+      "suggested_fix": "«خداوند ہمیں تادیب کے ذریعے سزا دے گا»",
+      "translation_quote": "«خداوند ہمیں تنبیہ کے ذریعے پرکھے گا»"
+    },
+    {
+      "location": "Paragraph after Hebrews 12:12-13, quote about the lame",
+      "severity": "minor",
+      "source_quote": "“so that the lame would be healed rather than turned away”",
+      "suggested_fix": "«تاکہ لنگڑا شفا پائے، نہ کہ اسے راستے سے ہٹا دیا جائے»",
+      "translation_quote": "«تاکہ لنگڑا بھٹک نہ جائے بلکہ شفا پائے»"
     }
   ],
+  "finished_at": "2026-10-31T05:21:55+00:00",
   "id": "4657ddb8f29c979b6e491882a4eb7176",
   "issue_id": "05538f8e-6560-5f96-b313-890e87c05daf",
   "language": "urd",
@@ -168,7 +196,7 @@
     }
   },
   "protected": false,
-  "quality_score": 91,
+  "quality_score": 93,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
@@ -188,7 +216,7 @@
     "total_reserved_usd": 0.08993,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "ebe7ecab4743984d98acf839285c9c41a9c35b253dfb10d6a7c258ac09968d3c",
   "translation_model_actual": "gpt-6-luna"

@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "af789db5-b2a5-47ab-8e07-df22b3ccf085",
+    "response_id": "chatcmpl-EesBgVUMawFLdJKc9hJ66wvHm76E2",
+    "usage": {
+      "completion_tokens": 1372,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1168,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9174,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8071,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 10546
+    }
+  },
+  "received_at": "2026-10-31T05:21:55+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph beginning “1 Corinthians 11:31-32 warns us”",
+        "severity": "major",
+        "source_quote": "“the Lord will judge us with chastening”",
+        "suggested_fix": "«خداوند ہمیں تادیب کے ذریعے سزا دے گا»",
+        "translation_quote": "«خداوند ہمیں تنبیہ کے ذریعے پرکھے گا»"
+      },
+      {
+        "location": "Paragraph after Hebrews 12:12-13, quote about the lame",
+        "severity": "minor",
+        "source_quote": "“so that the lame would be healed rather than turned away”",
+        "suggested_fix": "«تاکہ لنگڑا شفا پائے، نہ کہ اسے راستے سے ہٹا دیا جائے»",
+        "translation_quote": "«تاکہ لنگڑا بھٹک نہ جائے بلکہ شفا پائے»"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 93
+  }
+}

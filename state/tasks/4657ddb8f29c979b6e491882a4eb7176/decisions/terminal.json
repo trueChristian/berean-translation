@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph beginning “1 Corinthians 11:31-32 warns us”",
+      "severity": "major",
+      "source_quote": "“the Lord will judge us with chastening”",
+      "suggested_fix": "«خداوند ہمیں تادیب کے ذریعے سزا دے گا»",
+      "translation_quote": "«خداوند ہمیں تنبیہ کے ذریعے پرکھے گا»"
+    },
+    {
+      "location": "Paragraph after Hebrews 12:12-13, quote about the lame",
+      "severity": "minor",
+      "source_quote": "“so that the lame would be healed rather than turned away”",
+      "suggested_fix": "«تاکہ لنگڑا شفا پائے، نہ کہ اسے راستے سے ہٹا دیا جائے»",
+      "translation_quote": "«تاکہ لنگڑا بھٹک نہ جائے بلکہ شفا پائے»"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; a recovery continuation must pass admission",
+  "stage": "terminal"
+}
