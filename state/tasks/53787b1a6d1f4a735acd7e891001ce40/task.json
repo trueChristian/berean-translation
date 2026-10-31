@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "b51eaefcea754148beacfc32f3dbdaf6",
   "campaign": "auto-f94655979f0746149f7844395a64e3d1ea439c98923e1aabc48947cedc6400d2",
   "created_at": "2026-10-31T11:06:52+00:00",
   "events": [
@@ -48,116 +47,31 @@
         },
         "total_tokens": 15092
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 65,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 33,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9146,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8043,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 9211
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "translation.html, kutipan Galatia 6:7",
-      "severity": "major",
-      "source_quote": "God is not mocked",
-      "suggested_fix": "Ganti “Allah tidak mempersalahkan” dengan “Allah tidak dapat dipermainkan”.",
-      "translation_quote": "Allah tidak mempersalahkan"
-    },
-    {
-      "location": "translation.html, paragraf yang dimulai “Satu hal”",
-      "severity": "major",
-      "source_quote": "what not to adorn ourselves with ... what to adorn ourselves with",
-      "suggested_fix": "Ganti bagian terkait dengan “Dia memberitahu kita dalam Firman-Nya <strong>dengan apa kita tidak boleh</strong> menghiasi diri, tetapi Dia juga memberitahu kita <strong>dengan apa kita harus</strong> menghiasi diri.”",
-      "translation_quote": "<strong>apa yang tidak</strong> kita hiasi ... <strong>apa yang</strong> harus kita hiasi"
-    },
-    {
-      "location": "translation.html, paragraf “Satu hal” dan paragraf “Lagi, ketika orang memandang kita”",
-      "severity": "major",
-      "source_quote": "foolishness or looseness ... concerning foolishness and looseness",
-      "suggested_fix": "Ganti “kebodohan atau keluwesan” dengan “kebodohan atau perilaku yang tidak terkendali”, dan “kebodohan dan keluwesan” dengan “kebodohan dan perilaku yang tidak terkendali”. Keluwesan bukan sifat buruk yang dimaksud sumber.",
-      "translation_quote": "kebodohan atau keluwesan ... mengenai kebodohan dan keluwesan"
-    },
-    {
-      "location": "translation.html, kutipan 1 Petrus 3:3-6",
-      "severity": "major",
-      "source_quote": "Sara obeyed Abraham, calling him lord",
-      "suggested_fix": "Ganti “menyebutnya Tuhan” dengan “menyebutnya tuan”.",
-      "translation_quote": "Sara taat kepada Abraham, menyebutnya Tuhan"
-    },
-    {
-      "location": "translation.html, seluruh paragraf definisi",
-      "severity": "major",
-      "source_quote": "Adorn; Plaiting; Apparel; Ornament; Meek; Quiet; Subjection; Afraid; Amazement; Entangleth; Shun; Profane; Vain; Babblings; Flee; Lusts; Righteousness; Faith; Charity; Peace; Pure; Shamefacedness; Sobriety",
-      "suggested_fix": "Terjemahkan label definisi agar terhubung dengan istilah Indonesia dalam artikel: “Menghiasi diri”; “Mengepang”; “Pakaian”; “Perhiasan”; “Lemah lembut”; “Tenang”; “Ketundukan”; “Takut”; “Keterkejutan”; “Menjerat diri”; “Menjauhi”; “Tidak menghormati yang suci”; “Sia-sia”; “Ocehan”; “Melarikan diri”; “Hawa nafsu”; “Kebenaran”; “Iman”; “Kasih”; “Damai”; “Murni”; “Rasa malu yang sopan”; “Penguasaan diri”. Pertahankan masing-masing paragraf dan definisinya.",
-      "translation_quote": "Adorn:; Plaiting:; Apparel:; Ornament:; Meek:; Quiet:; Subjection:; Afraid:; Amazement:; Entangleth:; Shun:; Profane:; Vain:; Babblings:; Flee:; Lusts:; Righteousness:; Faith:; Charity:; Peace:; Pure:; Shamefacedness:; Sobriety:"
-    },
-    {
-      "location": "translation.html, paragraf definisi “Flee” dan paragraf sesudahnya",
-      "severity": "major",
-      "source_quote": "expected evil ... the expected or dangerous evil",
-      "suggested_fix": "Ganti “kejahatan yang diharapkan” dengan “kejahatan yang diperkirakan akan terjadi” pada kedua lokasi. Sumber membicarakan bahaya yang diantisipasi, bukan kejahatan yang diinginkan.",
-      "translation_quote": "kejahatan yang diharapkan ... kejahatan yang diharapkan atau berbahaya"
-    },
-    {
-      "location": "translation.html, paragraf terakhir setelah kutipan Matius 10:28",
-      "severity": "major",
-      "source_quote": "as long as you believe in a God, you will be okay",
-      "suggested_fix": "Ganti dengan “asalkan kamu percaya kepada suatu allah, kamu akan baik-baik saja”. Pertahankan sifat umum kepercayaan yang sedang dikritik, bukan mengubahnya menjadi iman kepada Tuhan.",
-      "translation_quote": "selama kamu beriman kepada Tuhan, kamu akan baik-baik saja"
-    },
-    {
-      "location": "translation.html, kutipan 2 Timotius 2:4-22",
-      "severity": "major",
-      "source_quote": "But shun profane and vain babblings",
-      "suggested_fix": "Ganti “Tetapi jauhilah percakapan kosong dan bodoh” dengan “Tetapi jauhilah ocehan yang tidak menghormati hal-hal suci dan yang sia-sia”.",
-      "translation_quote": "Tetapi jauhilah percakapan kosong dan bodoh"
-    },
-    {
-      "location": "translation.html, kutipan Mazmur 19:7",
-      "severity": "major",
-      "source_quote": "converting the soul",
-      "suggested_fix": "Ganti “menyegarkan jiwa” dengan “mempertobatkan jiwa” untuk menyampaikan makna kutipan Inggris sebagaimana dicetak.",
-      "translation_quote": "menyegarkan jiwa"
-    },
-    {
-      "location": "translation.html, paragraf definisi “Subjection”",
-      "severity": "minor",
-      "source_quote": "the act of vanquishing and bringing under the dominion of another",
-      "suggested_fix": "Ganti “tindakan menghancurkan dan membawa di bawah kekuasaan orang lain” dengan “tindakan mengalahkan dan membawa ke bawah kekuasaan orang lain”.",
-      "translation_quote": "tindakan menghancurkan dan membawa di bawah kekuasaan orang lain"
-    },
-    {
-      "location": "translation.html, paragraf definisi “Quiet”",
-      "severity": "minor",
-      "source_quote": "not giving offence",
-      "suggested_fix": "Ganti “tidak menimbulkan offense” dengan “tidak menyinggung orang lain”.",
-      "translation_quote": "tidak menimbulkan offense"
-    },
-    {
-      "location": "translation.html, paragraf definisi “Afraid”, definisi “Amazement”, dan paragraf “Kita adalah anak-anak Sara”",
-      "severity": "minor",
-      "source_quote": "impressed with fear or apprehension ... confusion or perplexity from a sudden impression of fear ... are not impressed with fear or any confusion or perplexity",
-      "suggested_fix": "Gunakan “diliputi rasa takut atau kecemasan” untuk definisi takut; “kebingungan atau kebimbangan akibat rasa takut, keterkejutan, atau kekaguman yang tiba-tiba” untuk bagian definisi keterkejutan; dan “tidak diliputi rasa takut, kebingungan, atau kebimbangan apa pun” pada paragraf tentang anak-anak Sara.",
-      "translation_quote": "terkesan dengan takut atau kecemasan ... kebingungan atau kebingungan yang berasal dari kesan mendadak berupa takut ... tidak terkesan dengan takut atau kebingungan apapun"
-    },
-    {
-      "location": "translation.html, paragraf sesudah definisi “Sobriety” dan kutipan Titus 2:11-12",
-      "severity": "minor",
-      "source_quote": "Even if we are sober ... live soberly",
-      "suggested_fix": "Ganti “Bahkan jika kita sadar” dengan “Sekalipun kita bersikap serius dan menguasai diri”, dan “hidup dengan sadar, benar, dan saleh” dengan “hidup dengan menguasai diri, benar, dan saleh”. “Sadar” saja tidak jelas menyampaikan sikap moral yang dimaksud.",
-      "translation_quote": "Bahkan jika kita sadar ... hidup dengan sadar, benar, dan saleh"
-    },
-    {
-      "location": "translation.html, kutipan 1 Petrus 3:3-6 dan paragraf tentang wajah",
-      "severity": "minor",
-      "source_quote": "plaiting the hair ... the clear countenance on my face",
-      "suggested_fix": "Ganti “janganlahlah itu berupa kepil rambut” dengan “janganlah itu berupa kepangan rambut”, dan “wajahku yang jelas” dengan “wajahku yang berseri”.",
-      "translation_quote": "janganlahlah itu berupa kepil rambut ... wajahku yang jelas"
-    },
-    {
-      "location": "translation.html, paragraf kedua",
-      "severity": "minor",
-      "source_quote": "The prince of this world ... at whatever cost",
-      "suggested_fix": "Ganti “Pangeran dunia ini” dengan “Penguasa dunia ini”, dan “dengan segala biaya” dengan “dengan cara apa pun”.",
-      "translation_quote": "Pangeran dunia ini ... dengan segala biaya"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-31T23:20:14+00:00",
   "id": "53787b1a6d1f4a735acd7e891001ce40",
   "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
   "language": "ind",
@@ -246,7 +160,7 @@
     }
   },
   "protected": false,
-  "quality_score": 77,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6.1-sol",
@@ -265,7 +179,7 @@
     "total_reserved_usd": 0.761726,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "645f3b0dd9dba2fa145399753da1e466b9d79164115d769d8a631979fc803973",
   "translation_model_actual": "gpt-6.1-sol"
