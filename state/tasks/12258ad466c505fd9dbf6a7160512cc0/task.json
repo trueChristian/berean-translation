@@ -5,11 +5,75 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "3c97576fb4574c21bba2ab5690588c4d",
   "campaign": "auto-3e3e143474531e151a6bc0d17cc0619674db637e8dbd7375f31778c1c49cd820",
   "created_at": "2026-10-31T18:40:33+00:00",
-  "events": [],
-  "findings": [],
+  "events": [
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1046,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 177,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7837,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 6734,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 8883
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "translation.html，第3段",
+      "severity": "major",
+      "source_quote": "in a different house, on a different road, and with different neighbors",
+      "suggested_fix": "将“另一所房子、另一条路以及不同的邻居家度过了第一个夜晚”改为“另一条路上的另一所房子里度过了第一个夜晚，周围的邻居也都不同了”。",
+      "translation_quote": "另一所房子、另一条路以及不同的邻居家度过了第一个夜晚"
+    },
+    {
+      "location": "translation.html，第9段",
+      "severity": "major",
+      "source_quote": "I can’t say that something major happened",
+      "suggested_fix": "将“我不能说发生了什么重大的异象”改为“我不能说发生了什么重大的事”。原文没有提及异象。",
+      "translation_quote": "我不能说发生了什么重大的异象"
+    },
+    {
+      "location": "translation.html，第10段",
+      "severity": "major",
+      "source_quote": "I was baptized upon the confession of my faith.",
+      "suggested_fix": "将“我在信仰的认罪上受洗”改为“我在宣认自己的信仰后受了洗”。这里是宣认信仰，不是认罪。",
+      "translation_quote": "我在信仰的认罪上受洗"
+    },
+    {
+      "location": "translation.html，事故后的反思段",
+      "severity": "major",
+      "source_quote": "Would I be clear before God?",
+      "suggested_fix": "将“我在神面前是否清清楚楚？”改为“我在神面前是否问心无愧？”以表达在神面前没有未解决的罪责，而非神志或表达是否清楚。",
+      "translation_quote": "我在神面前是否清清楚楚？"
+    },
+    {
+      "location": "translation.html，引用彼得前书3:15的段落",
+      "severity": "major",
+      "source_quote": "be ready always to give an answer to every man that asketh [us] you a reason of the hope that is in [us] you with meekness and fear",
+      "suggested_fix": "将“常常竭力以温柔敬畏的心回答那询问我们盼望缘由的人”改为“时刻做好准备，以温柔、敬畏的心回答每一个询问我们心中盼望缘由的人”。",
+      "translation_quote": "常常竭力以温柔敬畏的心回答那询问我们盼望缘由的人"
+    },
+    {
+      "location": "translation.html，引用提摩太后书4:7-8的段落，两处",
+      "severity": "minor",
+      "source_quote": "the Lord, the righteous judge, shall give me at that day ... the Lord, the righteous judge, shall give me at that day",
+      "suggested_fix": "将第一处“到了那日公义的审判者要把它赐给我”改为“到了那日，主这位公义的审判者要把它赐给我”；将第二处“就是公义的审判者到了那日要把它赐给我”改为“就是主这位公义的审判者到了那日要把它赐给我”。",
+      "translation_quote": "到了那日公义的审判者要把它赐给我……就是公义的审判者到了那日要把它赐给我"
+    }
+  ],
   "id": "12258ad466c505fd9dbf6a7160512cc0",
   "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
   "language": "cmn",
@@ -98,11 +162,13 @@
     }
   },
   "protected": false,
+  "quality_score": 89,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/beecf92a90c285721a9995122795a9f69f408d8654cdb4e9b021a1869ce1805f.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "review1",
     "max_candidate_bytes": 120000,
@@ -115,7 +181,7 @@
     "total_reserved_usd": 0.749964,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 0,
   "translation_key": "d910d483e90bcd959841ed8e96903546f249749ffefaa1d05b277a01a16ea99d",
   "translation_model_actual": "gpt-5-mini-2025-08-07"
