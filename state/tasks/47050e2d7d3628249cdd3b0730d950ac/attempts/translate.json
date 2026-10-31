@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-31T22:08:54+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"19270b64-7f17-4623-b361-5486354b7303\\\">\\n  <figure><img src=\\\"/images/articles/19270b64-7f17-4623-b361-5486354b7303-1.jpg\\\" alt=\\\"Jacó descansa sob uma escada repleta de anjos\\\"></figure>\\n  <p>Para avaliar corretamente qualquer fase da vida de qualquer homem, devemos considerá-la como um capítulo no processo de seu crescimento — para cima ou para baixo.</p>\\n  <p>Considere Jacó em Betel, quando uma escada desceu do Céu, trazendo-lhe o amor de Deus. Alguns criticam o voto de Jacó em Betel por considerá-lo egoísta e interesseiro. Se Deus fizer isso por Jacó, então Jacó fará isso por Deus! Como seria muito mais nobre apoiar-se em Deus com uma generosidade como a de Abraão, que confia tudo a Ele!</p>\\n  <p>Mas Jacó estava bem no início de sua vida espiritual em Betel. Ele acabara de ter seu primeiro vislumbre da visão que moldaria essa vida até o fim. Naturalmente, ele não se eleva a grandes alturas de abnegação. Expõe honestamente a situação tal como ela lhe parece e toma Deus pela palavra de maneira prática e corriqueira, como lhe era característico.</p>\\n  <p>Mas, em Jaboque, Jacó foi mais longe. Mais uma vez, poderes e presenças divinos entram em sua vida e, dessa vez, ele não tem barganha alguma a fazer com eles. Ele não pede segurança para si mesmo, nem a preservação de seus bens, nem que a ira de seu irmão seja aplacada. Pede apenas a bênção que Deus pode conceder e deixa que ela assuma qualquer forma ou tenha qualquer significado que Deus lhe queira dar. Agora, ele não faz barganhas, mas confia e adora. Foi então que seu antigo nome, Jacó, o Suplantador, deixou de servir para aquele homem, e ele se tornou Israel, “um príncipe de Deus”.</p>\\n  <figure><img src=\\\"/images/articles/19270b64-7f17-4623-b361-5486354b7303-2.jpg\\\" alt=\\\"Jacó ajoelha-se diante de um anjo alado\\\"></figure>\\n  <p>E assim Deus nos conduz de uma etapa a outra, de visões estreitas e egoístas de nossa relação com Ele até o momento em que, entre todos os Seus dons, não pedimos nada além da bênção que expressa a alegria que Ele sente em nós e contribui para a nossa alegria nEle.</p>\\n</article>\\n\",\"section\":null,\"subtitle\":null,\"title\":\"Como os homens crescem\"}",
+    "content_bytes": 2263,
+    "content_evidence_truncated": false,
+    "content_sha256": "3f6bb16cf6689a95b225c75a392f91b3b6599e12d4065e7b2041a016bdcd5954",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 728,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 102,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1375,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1372,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2103
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}
