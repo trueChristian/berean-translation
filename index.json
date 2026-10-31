@@ -85571,6 +85571,50 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/swe/articles/9b22e638-a735-48fe-b31b-817c614538ca.html",
+      "html_sha256": "0dd02936f0e0cd4a550cf79d37bcaa25dfa2e0ed60a6037ef1c8339d35dc9fd6",
+      "human_reviewed": false,
+      "id": "9b22e638-a735-48fe-b31b-817c614538ca",
+      "images": [
+        {
+          "alt": "Prislapp märkt ”Endast 100,00 dollar”",
+          "public_path": "/images/articles/9b22e638-a735-48fe-b31b-817c614538ca-1.jpg"
+        },
+        {
+          "alt": "Linjeteckning av en järnvagn",
+          "public_path": "/images/articles/9b22e638-a735-48fe-b31b-817c614538ca-2.png"
+        },
+        {
+          "alt": "Två män spelar shuffleboard",
+          "public_path": "/images/articles/9b22e638-a735-48fe-b31b-817c614538ca-3.png"
+        },
+        {
+          "alt": "En man sitter vid en dator med huvudet i händerna",
+          "public_path": "/images/articles/9b22e638-a735-48fe-b31b-817c614538ca-4.jpg"
+        },
+        {
+          "alt": "Ett stort hus med gräsmatta",
+          "public_path": "/images/articles/9b22e638-a735-48fe-b31b-817c614538ca-5.jpg"
+        }
+      ],
+      "issue_id": "05538f8e-6560-5f96-b313-890e87c05daf",
+      "language": "swe",
+      "language_tag": "sv",
+      "metadata": "content/swe/articles/9b22e638-a735-48fe-b31b-817c614538ca.json",
+      "metadata_sha256": "ec1701584fd70106e4a0b4ac4d89e6448d1e37c0b83c5034b00cf718cb521362",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": null,
+      "source_revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
+      "source_translation_key": "c0545377542c9c79b4c68a51b2c277c621b53fab8d7966c5cf122b68f56f1739",
+      "status": "ready",
+      "subtitle": "Att ta skatt av kanaanéerna",
+      "title": "Fiende eller bundsförvant?",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/swe/articles/a42c5719-aea1-47ed-abad-ed0cd2571382.html",
       "html_sha256": "7b65d589c14eae0f8c23056f865a21cb2eae3c03611e0eb8cff4bef316e0c6b0",
       "human_reviewed": false,
