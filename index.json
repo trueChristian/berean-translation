@@ -17928,6 +17928,46 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/cmn/articles/f87354d0-0bb8-4271-a8db-792c77d0d090.html",
+      "html_sha256": "acff5f8add5560aa09a45d2953d23cc7409c644582d63fe8b35e168b6abf4ffa",
+      "human_reviewed": false,
+      "id": "f87354d0-0bb8-4271-a8db-792c77d0d090",
+      "images": [
+        {
+          "alt": "信徒在五旬节领受圣灵的版画",
+          "public_path": "/images/articles/f87354d0-0bb8-4271-a8db-792c77d0d090-1.png"
+        },
+        {
+          "alt": "风格化的火焰",
+          "public_path": "/images/articles/f87354d0-0bb8-4271-a8db-792c77d0d090-2.jpg"
+        },
+        {
+          "alt": "一只鸽子飞向伸出的手",
+          "public_path": "/images/articles/f87354d0-0bb8-4271-a8db-792c77d0d090-3.png"
+        },
+        {
+          "alt": "结合笑脸和悲伤表情的路标",
+          "public_path": "/images/articles/f87354d0-0bb8-4271-a8db-792c77d0d090-4.jpg"
+        }
+      ],
+      "issue_id": "05538f8e-6560-5f96-b313-890e87c05daf",
+      "language": "cmn",
+      "language_tag": "zh-Hans",
+      "metadata": "content/cmn/articles/f87354d0-0bb8-4271-a8db-792c77d0d090.json",
+      "metadata_sha256": "b6fcd4cc76498efbca2318ac6ea3d9067d2452fd2aa24b3bc3394dc5db8fe83f",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": null,
+      "source_revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
+      "source_translation_key": "ecc35e8cd4c57e2b467ba1c07b4baf9d8db122db80e2c80ae9e2a166783c3de1",
+      "status": "ready",
+      "subtitle": null,
+      "title": "从五旬节派手中救回圣灵之洗",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/cmn/articles/f896076d-76e2-4e42-8532-6cb2a3c029f0.html",
       "html_sha256": "9f2a070716780756ac022cc1151d1fc845fac5d9a1f5f303d083ba9e84b35af7",
       "human_reviewed": false,
