@@ -9220,6 +9220,46 @@
     {
       "ai_notice_required": true,
       "direction": "rtl",
+      "html": "content/ara/articles/f87354d0-0bb8-4271-a8db-792c77d0d090.html",
+      "html_sha256": "63cc24a1edb690603e6fc8d8e4c13046c1f2675b21b92fb8313ee378533b1235",
+      "human_reviewed": false,
+      "id": "f87354d0-0bb8-4271-a8db-792c77d0d090",
+      "images": [
+        {
+          "alt": "نقش يصوّر المؤمنين وهم ينالون الروح القدس في يوم الخمسين",
+          "public_path": "/images/articles/f87354d0-0bb8-4271-a8db-792c77d0d090-1.png"
+        },
+        {
+          "alt": "لهب مرسوم بأسلوب فني",
+          "public_path": "/images/articles/f87354d0-0bb8-4271-a8db-792c77d0d090-2.jpg"
+        },
+        {
+          "alt": "حمامة تطير نحو يد ممدودة",
+          "public_path": "/images/articles/f87354d0-0bb8-4271-a8db-792c77d0d090-3.png"
+        },
+        {
+          "alt": "إشارة طريق تجمع بين وجه مبتسم وآخر حزين",
+          "public_path": "/images/articles/f87354d0-0bb8-4271-a8db-792c77d0d090-4.jpg"
+        }
+      ],
+      "issue_id": "05538f8e-6560-5f96-b313-890e87c05daf",
+      "language": "ara",
+      "language_tag": "ar",
+      "metadata": "content/ara/articles/f87354d0-0bb8-4271-a8db-792c77d0d090.json",
+      "metadata_sha256": "bf4e8b276564cc168d123b9a1e5ed7bfa111073a1d573cd0af0e93fac1b7c950",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": null,
+      "source_revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
+      "source_translation_key": "ecc35e8cd4c57e2b467ba1c07b4baf9d8db122db80e2c80ae9e2a166783c3de1",
+      "status": "ready",
+      "subtitle": null,
+      "title": "افتداء معمودية الروح القدس من الخمسينية",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
       "html": "content/ara/articles/f896076d-76e2-4e42-8532-6cb2a3c029f0.html",
       "html_sha256": "21a19eb82c857e3790722feed4135508ec93001130d11754f355e1e8c2332de1",
       "human_reviewed": false,
