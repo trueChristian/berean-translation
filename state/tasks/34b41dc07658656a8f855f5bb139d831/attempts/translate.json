@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-31T21:55:27+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"19270b64-7f17-4623-b361-5486354b7303\\\">\\n  <figure><img src=\\\"/images/articles/19270b64-7f17-4623-b361-5486354b7303-1.jpg\\\" alt=\\\"Jacob se repose sous un escalier rempli d’anges\\\"></figure>\\n  <p>Pour bien évaluer une étape quelconque de la vie d’un homme, nous devons la considérer comme un chapitre du processus de son élévation — ou de sa chute.</p>\\n  <p>Considérons Jacob à Béthel, lorsqu’une échelle descendit du ciel pour lui manifester l’amour de Dieu. Certains reprochent à Jacob son vœu à Béthel, qu’ils jugent égoïste et intéressé. Si Dieu fait cela pour Jacob, alors Jacob fera cela pour Dieu ! Comme il serait plus noble de s’en remettre à Dieu avec une générosité telle que celle d’Abraham, qui lui confie tout !</p>\\n  <p>Mais Jacob n’en était qu’au tout début de sa vie spirituelle à Béthel. Il venait d’avoir son premier aperçu de la vision qui devait façonner cette vie jusqu’à son terme. Il ne s’élève naturellement pas à un degré élevé de renoncement à soi. Il expose honnêtement la situation telle qu’elle lui apparaît et prend Dieu au mot, d’une manière pratique et terre-à-terre qui lui était caractéristique.</p>\\n  <p>Mais au Jabbok, Jacob alla plus loin. Une fois encore, des puissances et des présences divines entrent dans sa vie, mais cette fois, il n’a aucun marché à conclure avec elles. Il ne demande ni sa propre sécurité, ni la préservation de ses biens, ni l’apaisement de la colère de son frère. Il demande simplement la bénédiction que Dieu peut accorder, et s’en remet à lui pour lui donner toute forme et tout sens qu’il voudra. Cette fois, il ne marchande pas, mais il se confie en Dieu et l’adore. C’est alors que son ancien nom, Jacob, le Supplanteur, cessa de lui convenir, et qu’il devint Israël, « un prince de Dieu ».</p>\\n  <figure><img src=\\\"/images/articles/19270b64-7f17-4623-b361-5486354b7303-2.jpg\\\" alt=\\\"Jacob s’agenouille devant un ange ailé\\\"></figure>\\n  <p>Ainsi, Dieu nous fait passer d’une étape à une autre, de conceptions étroites et égoïstes de notre relation avec lui à l’heure où, parmi tous ses dons, nous ne demandons rien d’autre que la bénédiction qui exprime la joie qu’il trouve en nous et contribue à notre joie en lui.</p>\\n</article>\\n\",\"section\":null,\"subtitle\":null,\"title\":\"Comment les hommes grandissent\"}",
+    "content_bytes": 2439,
+    "content_evidence_truncated": false,
+    "content_sha256": "0c60ffa57283af6aaf3c08a919a2feea3110436e52d0dea3cd44750cba36f8fb",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 717,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 63,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1368,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1365,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2085
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}
