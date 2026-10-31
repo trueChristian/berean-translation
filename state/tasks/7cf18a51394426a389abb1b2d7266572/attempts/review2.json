@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-31T06:05:57+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"translation.html, paragrafo successivo a «Uno scontro di valori» che inizia con «E la battaglia»\",\"severity\":\"minor\",\"source_quote\":\"Christ’s righteousness against the self-righteousness of those who choose their own standard of right and wrong\",\"suggested_fix\":\"Sostituire «contro l’autogiustizia di coloro» con «contro la presunzione di essere nel giusto di coloro».\",\"translation_quote\":\"La giustizia di Cristo contro l’autogiustizia di coloro che scelgono il proprio criterio del bene e del male\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 593,
+    "content_evidence_truncated": false,
+    "content_sha256": "b0066f005a774278c136f72f927c4eafac606738f429c69dd79d49878daed02e",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 293,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 136,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 14419,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 14416,
+        "cached_tokens": 0
+      },
+      "total_tokens": 14712
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review2",
+  "translation_attempts": 1
+}

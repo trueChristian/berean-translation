@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "239d761e-fb7b-4cfa-b656-28dd740654c5",
+    "response_id": "chatcmpl-EewMc4TBfpxH5iF90hXLj2pThVHso",
+    "usage": {
+      "completion_tokens": 293,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 136,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 14419,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 14416,
+        "cached_tokens": 0
+      },
+      "total_tokens": 14712
+    }
+  },
+  "received_at": "2026-10-31T06:05:57+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "translation.html, paragrafo successivo a «Uno scontro di valori» che inizia con «E la battaglia»",
+        "severity": "minor",
+        "source_quote": "Christ’s righteousness against the self-righteousness of those who choose their own standard of right and wrong",
+        "suggested_fix": "Sostituire «contro l’autogiustizia di coloro» con «contro la presunzione di essere nel giusto di coloro».",
+        "translation_quote": "La giustizia di Cristo contro l’autogiustizia di coloro che scelgono il proprio criterio del bene e del male"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}
