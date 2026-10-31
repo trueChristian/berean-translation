@@ -22202,6 +22202,46 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/deu/articles/f87354d0-0bb8-4271-a8db-792c77d0d090.html",
+      "html_sha256": "cec9c842a5d3846be97413c97ee16c1ce711d9343de518131234ddf9fd0b8fdd",
+      "human_reviewed": false,
+      "id": "f87354d0-0bb8-4271-a8db-792c77d0d090",
+      "images": [
+        {
+          "alt": "Stichdarstellung von Gläubigen, die zu Pfingsten den Heiligen Geist empfangen",
+          "public_path": "/images/articles/f87354d0-0bb8-4271-a8db-792c77d0d090-1.png"
+        },
+        {
+          "alt": "Stilisierte Flamme",
+          "public_path": "/images/articles/f87354d0-0bb8-4271-a8db-792c77d0d090-2.jpg"
+        },
+        {
+          "alt": "Eine Taube fliegt auf eine ausgestreckte Hand zu",
+          "public_path": "/images/articles/f87354d0-0bb8-4271-a8db-792c77d0d090-3.png"
+        },
+        {
+          "alt": "Verkehrsschild mit lächelndem und traurigem Gesicht",
+          "public_path": "/images/articles/f87354d0-0bb8-4271-a8db-792c77d0d090-4.jpg"
+        }
+      ],
+      "issue_id": "05538f8e-6560-5f96-b313-890e87c05daf",
+      "language": "deu",
+      "language_tag": "de",
+      "metadata": "content/deu/articles/f87354d0-0bb8-4271-a8db-792c77d0d090.json",
+      "metadata_sha256": "76aeb49445c63cd9dee12a168013fa179eb03181e0fc61ec0a52b68b816b2ada",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": null,
+      "source_revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
+      "source_translation_key": "ecc35e8cd4c57e2b467ba1c07b4baf9d8db122db80e2c80ae9e2a166783c3de1",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Die Taufe mit dem Heiligen Geist aus der Pfingstbewegung befreien",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/deu/articles/fb02a7e7-4fdc-4363-bea0-aa8a68b36f8b.html",
       "html_sha256": "7b960915c7b82d68452ea6254c600785b4095b83d2b6c1d94ef18cdd503b084d",
       "human_reviewed": false,
