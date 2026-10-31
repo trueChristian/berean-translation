@@ -33,6 +33,12 @@
       "event": "automatic_requested",
       "previous_task": "ea34883ed53bd11c3488786d82c2c2bd",
       "task": "14c75cd90f3376b139f5cd7296987cfa"
+    },
+    {
+      "at": "2026-10-31T11:00:30+00:00",
+      "event": "not_ready",
+      "reason": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[50]: source /article[1]/p[10]/em[1] ('start', 'em', ()); translation /article[1]/p[10] ('end', 'p')",
+      "task": "14c75cd90f3376b139f5cd7296987cfa"
     }
   ],
   "language": "deu",
