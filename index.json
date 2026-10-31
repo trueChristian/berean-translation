@@ -7149,6 +7149,42 @@
     {
       "ai_notice_required": true,
       "direction": "rtl",
+      "html": "content/ara/articles/816d80f0-e3dd-46a6-ae6e-03214e209890.html",
+      "html_sha256": "a714921de539732d17ac8d71a67ceaf92f00987279985143da8bbe6ec08af58c",
+      "human_reviewed": false,
+      "id": "816d80f0-e3dd-46a6-ae6e-03214e209890",
+      "images": [
+        {
+          "alt": "يد تمتد لأخذ المال من خلال سياج خشبي",
+          "public_path": "/images/articles/816d80f0-e3dd-46a6-ae6e-03214e209890-1.jpg"
+        },
+        {
+          "alt": "صورة طبق الأصل لتوقيع جون ويسلي",
+          "public_path": "/images/articles/816d80f0-e3dd-46a6-ae6e-03214e209890-2.jpg"
+        },
+        {
+          "alt": "تمثال لجون ويسلي يحمل كتابًا مفتوحًا",
+          "public_path": "/images/articles/816d80f0-e3dd-46a6-ae6e-03214e209890-3.jpg"
+        }
+      ],
+      "issue_id": "05538f8e-6560-5f96-b313-890e87c05daf",
+      "language": "ara",
+      "language_tag": "ar",
+      "metadata": "content/ara/articles/816d80f0-e3dd-46a6-ae6e-03214e209890.json",
+      "metadata_sha256": "68669b5ada2dc2a4e53cc60f644d6323a87dbb47b231856cb657d55bebf77118",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": null,
+      "source_revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
+      "source_translation_key": "0af4e8eba8d76fd3ebe2cccff019f1ce29d88581ec1120c33079d9f90b1288d6",
+      "status": "ready",
+      "subtitle": null,
+      "title": "في خطر ازدياد الثروات",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
       "html": "content/ara/articles/85306410-6a2d-46f1-b6db-6d3450f7f908.html",
       "html_sha256": "dc88116630d2ed87e7f735926454a5f93d21f4d97d58d27c49fd5d371205d2ab",
       "human_reviewed": false,
