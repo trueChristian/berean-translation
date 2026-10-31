@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "a0bef9d0d61e4c8bb9c60391df7e0468",
   "campaign": "auto-66cbf793234d01a3b0f7062664bb1268f565939ce5bd1e7c304cf7db891005a2",
   "created_at": "2026-10-30T02:47:27+00:00",
   "events": [
@@ -68,25 +67,39 @@
         },
         "total_tokens": 6220
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 700,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 599,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4331,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 4328,
+          "cached_tokens": 0
+        },
+        "total_tokens": 5031
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "Heading 3",
-      "severity": "major",
-      "source_quote": "Put Yourself in the Way of the Blessing.",
-      "suggested_fix": "Sök dig till välsignelsens väg.",
-      "translation_quote": "Sätt dig själv i vägen för välsignelsen."
-    },
-    {
-      "location": "Heading 4 and paragraph 4",
-      "severity": "major",
-      "source_quote": "Do a Thorough Job of Repenting. Do not hurry to get it over with. Hasty repentance means shallow spiritual experience",
-      "suggested_fix": "Byt ”ånger” till ”omvändelse” här, exempelvis: ”Gör ett grundligt arbete med din omvändelse.” och ”Förhastad omvändelse leder till en ytlig andlig erfarenhet”.",
-      "translation_quote": "Gör ett grundligt arbete med din ånger. Ha inte bråttom att bli färdig med den. Förhastad ånger leder till en ytlig andlig erfarenhet"
+      "location": "HTML, section 7, paragraph 1",
+      "severity": "minor",
+      "source_quote": "Unless you break away from the funny boys",
+      "suggested_fix": "Om du inte bryter dig loss från komikerna",
+      "translation_quote": "Om du inte bryter dig loss från de lustiga pojkarna"
     }
   ],
+  "finished_at": "2026-10-31T00:03:26+00:00",
   "id": "fd757982b68571a1bb09f824d1ff0a6f",
   "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
   "language": "swe",
@@ -175,7 +188,7 @@
     }
   },
   "protected": false,
-  "quality_score": 90,
+  "quality_score": 99,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
@@ -195,7 +208,7 @@
     "total_reserved_usd": 0.087389,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "af0a2811aaad8facf9c0fb70e4f79fedbc83ae6bb333beb07b2d95c0bed6e2e6",
   "translation_model_actual": "gpt-6-luna"

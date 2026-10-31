@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-31T00:03:26+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, section 7, paragraph 1\",\"severity\":\"minor\",\"source_quote\":\"Unless you break away from the funny boys\",\"suggested_fix\":\"Om du inte bryter dig loss från komikerna\",\"translation_quote\":\"Om du inte bryter dig loss från de lustiga pojkarna\"}],\"findings_complete\":true,\"passed\":true,\"score\":99}",
+    "content_bytes": 322,
+    "content_evidence_truncated": false,
+    "content_sha256": "ac402820c5e0241b3e99a57f7041c243ebec8241af04845f927a104dfec6ac33",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 700,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 599,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4331,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4328,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5031
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}
