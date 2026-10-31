@@ -5,11 +5,68 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "d9d4d4e1411545dfaca0df49713f988a",
   "campaign": "auto-abd255d2fcc09a79c382df401214a0a2b30eb9a86347785d9b88d42dac37d695",
   "created_at": "2026-10-31T23:09:07+00:00",
-  "events": [],
-  "findings": [],
+  "events": [
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 863,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 108,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8291,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 7188,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 9154
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "html, paragraphe commençant par « 15 juin 2018 »",
+      "severity": "major",
+      "source_quote": "as it crackled to life. “One-car rollover on ‘Gingko Avenue’, possible entrapment,” was the repeated dispatch.",
+      "suggested_fix": "Remplacer « tandis qu’il passait en vibration » par « tandis qu’il se mettait à grésiller », et la phrase suivante par : « “Un véhicule s’est retourné sur ‘Gingko Avenue’, une personne est peut-être coincée à l’intérieur”, répétait le centre de régulation. »",
+      "translation_quote": "tandis qu’il passait en vibration. « Renversement d’un véhicule sur ‘Gingko Avenue’, possible enlisement », répétait la répartition."
+    },
+    {
+      "location": "html, avant-dernier paragraphe",
+      "severity": "major",
+      "source_quote": "having brothers who surrounded me with discipleship, compassion, and prayerful support",
+      "suggested_fix": "Remplacer « de disciple, de compassion et d’un soutien dans la prière » par « d’un accompagnement dans la vie de disciple, de compassion et d’un soutien dans la prière ».",
+      "translation_quote": "avoir des frères qui m’ont entouré de disciple, de compassion et d’un soutien dans la prière"
+    },
+    {
+      "location": "html, deuxième paragraphe",
+      "severity": "minor",
+      "source_quote": "making the move to this new church",
+      "suggested_fix": "Remplacer « de déménager dans cette nouvelle église » par « de commencer à fréquenter cette nouvelle église » : il s’agit ici d’un changement d’assemblée, non d’un déménagement dans ses locaux.",
+      "translation_quote": "de déménager dans cette nouvelle église"
+    },
+    {
+      "location": "html, paragraphe commençant par « En quittant les lieux »",
+      "severity": "minor",
+      "source_quote": "Would I be clear before God?",
+      "suggested_fix": "Remplacer « Serais-je clair devant Dieu ? » par « Aurais-je la conscience en paix devant Dieu ? » pour rendre le sens spirituel de la question.",
+      "translation_quote": "Serais‑je clair devant Dieu ?"
+    },
+    {
+      "location": "html, paragraphe commençant par « En tant que chrétiens » et dernier paragraphe",
+      "severity": "minor",
+      "source_quote": "<em>…be ready always to give an answer ... –1 Peter 3:15. </em> ; <em>Draw nigh to God, and he will draw nigh to you… –James 4:8. </em>",
+      "suggested_fix": "Rétablir les balises <em> autour de chacune des deux citations traduites, référence comprise, conformément à la structure source.",
+      "translation_quote": "…être toujours prêts à rendre raison à quiconque nous demande la raison de l’espérance qui est en nous, avec douceur et respect –1 Pierre 3:15. ; Approchez‑vous de Dieu, et il s’approchera de vous… –Jacques 4:8."
+    }
+  ],
   "id": "10b38bba5cf135498caac491d8e24d34",
   "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
   "language": "fra",
@@ -98,11 +155,13 @@
     }
   },
   "protected": false,
+  "quality_score": 92,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/beecf92a90c285721a9995122795a9f69f408d8654cdb4e9b021a1869ce1805f.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "review1",
     "max_candidate_bytes": 120000,
@@ -115,7 +174,7 @@
     "total_reserved_usd": 0.759715,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 0,
   "translation_key": "d910d483e90bcd959841ed8e96903546f249749ffefaa1d05b277a01a16ea99d",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-31T23:20:08+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"html, paragraphe commençant par « 15 juin 2018 »\",\n      \"severity\": \"major\",\n      \"source_quote\": \"as it crackled to life. “One-car rollover on ‘Gingko Avenue’, possible entrapment,” was the repeated dispatch.\",\n      \"suggested_fix\": \"Remplacer « tandis qu’il passait en vibration » par « tandis qu’il se mettait à grésiller », et la phrase suivante par : « “Un véhicule s’est retourné sur ‘Gingko Avenue’, une personne est peut-être coincée à l’intérieur”, répétait le centre de régulation. »\",\n      \"translation_quote\": \"tandis qu’il passait en vibration. « Renversement d’un véhicule sur ‘Gingko Avenue’, possible enlisement », répétait la répartition.\"\n    },\n    {\n      \"location\": \"html, avant-dernier paragraphe\",\n      \"severity\": \"major\",\n      \"source_quote\": \"having brothers who surrounded me with discipleship, compassion, and prayerful support\",\n      \"suggested_fix\": \"Remplacer « de disciple, de compassion et d’un soutien dans la prière » par « d’un accompagnement dans la vie de disciple, de compassion et d’un soutien dans la prière ».\",\n      \"translation_quote\": \"avoir des frères qui m’ont entouré de disciple, de compassion et d’un soutien dans la prière\"\n    },\n    {\n      \"location\": \"html, deuxième paragraphe\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"making the move to this new church\",\n      \"suggested_fix\": \"Remplacer « de déménager dans cette nouvelle église » par « de commencer à fréquenter cette nouvelle église » : il s’agit ici d’un changement d’assemblée, non d’un déménagement dans ses locaux.\",\n      \"translation_quote\": \"de déménager dans cette nouvelle église\"\n    },\n    {\n      \"location\": \"html, paragraphe commençant par « En quittant les lieux »\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"Would I be clear before God?\",\n      \"suggested_fix\": \"Remplacer « Serais-je clair devant Dieu ? » par « Aurais-je la conscience en paix devant Dieu ? » pour rendre le sens spirituel de la question.\",\n      \"translation_quote\": \"Serais‑je clair devant Dieu ?\"\n    },\n    {\n      \"location\": \"html, paragraphe commençant par « En tant que chrétiens » et dernier paragraphe\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"<em>…be ready always to give an answer ... –1 Peter 3:15. </em> ; <em>Draw nigh to God, and he will draw nigh to you… –James 4:8. </em>\",\n      \"suggested_fix\": \"Rétablir les balises <em> autour de chacune des deux citations traduites, référence comprise, conformément à la structure source.\",\n      \"translation_quote\": \"…être toujours prêts à rendre raison à quiconque nous demande la raison de l’espérance qui est en nous, avec douceur et respect –1 Pierre 3:15. ; Approchez‑vous de Dieu, et il s’approchera de vous… –Jacques 4:8.\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": false,\n  \"score\": 92\n}",
+    "content_bytes": 2985,
+    "content_evidence_truncated": false,
+    "content_sha256": "651cf5ca6664c0dad7f0e2a21454db01ae1a2fe205f24f177f2566505707957f",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 863,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 108,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8291,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7188,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 9154
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}
