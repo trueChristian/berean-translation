@@ -2642,6 +2642,42 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/afr/articles/816d80f0-e3dd-46a6-ae6e-03214e209890.html",
+      "html_sha256": "956616346f15a6c289fbb44b34fd7f1eb14fee57f2d8e60e5da7c4e034438db7",
+      "human_reviewed": false,
+      "id": "816d80f0-e3dd-46a6-ae6e-03214e209890",
+      "images": [
+        {
+          "alt": "’n Hand wat geld deur ’n houtheining neem",
+          "public_path": "/images/articles/816d80f0-e3dd-46a6-ae6e-03214e209890-1.jpg"
+        },
+        {
+          "alt": "Faksimilee van John Wesley se handtekening",
+          "public_path": "/images/articles/816d80f0-e3dd-46a6-ae6e-03214e209890-2.jpg"
+        },
+        {
+          "alt": "Standbeeld van John Wesley met ’n oop boek in sy hand",
+          "public_path": "/images/articles/816d80f0-e3dd-46a6-ae6e-03214e209890-3.jpg"
+        }
+      ],
+      "issue_id": "05538f8e-6560-5f96-b313-890e87c05daf",
+      "language": "afr",
+      "language_tag": "af",
+      "metadata": "content/afr/articles/816d80f0-e3dd-46a6-ae6e-03214e209890.json",
+      "metadata_sha256": "ec518716700bdd32f96c206d19c9f70b1009ecab4d5b3e84738356236fabc0e4",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": null,
+      "source_revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
+      "source_translation_key": "0af4e8eba8d76fd3ebe2cccff019f1ce29d88581ec1120c33079d9f90b1288d6",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Oor die gevaar van toenemende rykdom",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/afr/articles/85306410-6a2d-46f1-b6db-6d3450f7f908.html",
       "html_sha256": "70cd736da7307ff0a6659a6bea651dced66f619e4cd0e45098afa6ef8fa8832c",
       "human_reviewed": false,

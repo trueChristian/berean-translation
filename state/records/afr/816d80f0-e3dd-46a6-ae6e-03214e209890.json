@@ -20,9 +20,32 @@
       "event": "automatic_requested",
       "previous_task": "79d1d62e48c57f74f73002b85d006717",
       "task": "a13b3d388b1553c0271b9346df3c3217"
+    },
+    {
+      "at": "2026-10-31T23:19:56+00:00",
+      "event": "complete",
+      "reason": null,
+      "task": "a13b3d388b1553c0271b9346df3c3217"
     }
   ],
   "language": "afr",
   "latest_task": "a13b3d388b1553c0271b9346df3c3217",
-  "published": null
+  "published": {
+    "html_path": "content/afr/articles/816d80f0-e3dd-46a6-ae6e-03214e209890.html",
+    "html_sha256": "956616346f15a6c289fbb44b34fd7f1eb14fee57f2d8e60e5da7c4e034438db7",
+    "human_review": null,
+    "human_reviewed": false,
+    "issue_id": "05538f8e-6560-5f96-b313-890e87c05daf",
+    "metadata_path": "content/afr/articles/816d80f0-e3dd-46a6-ae6e-03214e209890.json",
+    "metadata_sha256": "ec518716700bdd32f96c206d19c9f70b1009ecab4d5b3e84738356236fabc0e4",
+    "model": "gpt-6.1-sol",
+    "notice_html": "<aside class=\"translation-notice\" data-translation-notice=\"ai\" lang=\"af\" dir=\"ltr\" role=\"note\">\n  <p>Hierdie artikel is met kunsmatige intelligensie van OpenAI (model: gpt-6.1-sol) vertaal en is nog nie deur ’n mens nagegaan nie. Die Engelse oorspronklike is die gesaghebbende weergawe. Raadpleeg die Engelse oorspronklike indien daar onsekerheid oor die betekenis is. <a href=\"/en/articles/816d80f0-e3dd-46a6-ae6e-03214e209890/\" data-source-article-id=\"816d80f0-e3dd-46a6-ae6e-03214e209890\" hreflang=\"en\">Engelse oorspronklike</a></p>\n</aside>",
+    "published_at": "2026-10-31T23:19:56+00:00",
+    "quality_score": 98,
+    "review_model": "gpt-6.1-sol",
+    "source_revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
+    "source_snapshot": "state/sources/33ad0ad60a5f5ec04a7ed30b13ecc8850d1965f6058e2e8355ee5137b5cdc0af.json",
+    "task": "a13b3d388b1553c0271b9346df3c3217",
+    "translation_key": "0af4e8eba8d76fd3ebe2cccff019f1ce29d88581ec1120c33079d9f90b1288d6"
+  }
 }
