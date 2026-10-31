@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "§ “Mgongano wa hivi karibuni,” paragraph 2",
+      "severity": "minor",
+      "source_quote": "“homosexual ‘marriages’ are as legitimate and binding as God-ordained heterosexual marriages”",
+      "suggested_fix": "Replace “halali na zenye nguvu sawa na” with “halali na zenye nguvu ya kisheria sawa na” to convey that the marriages are binding.",
+      "translation_quote": "“‘ndoa’ za ushoga ni halali na zenye nguvu sawa na ndoa za mwanamume na mwanamke zilizoamriwa na Mungu”"
+    },
+    {
+      "location": "Quoted forum, paragraph beginning “Watekaji nyara kwa ajili ya Yesu!”",
+      "severity": "minor",
+      "source_quote": "“hospital maternity wards”",
+      "suggested_fix": "Replace “wodi za wazazi katika hospitali” with “wodi za uzazi katika hospitali.”",
+      "translation_quote": "“wodi za wazazi katika hospitali”"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}
