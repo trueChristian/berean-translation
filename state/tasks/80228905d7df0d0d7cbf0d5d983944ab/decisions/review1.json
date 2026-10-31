@@ -1,0 +1,133 @@
+{
+  "findings": [
+    {
+      "location": "html, paragraphs 3, 4, and 6: ministerial roles and church services",
+      "severity": "major",
+      "source_quote": "assisting in his calling of being a pastor and other ministerial duties; assistant pastor to the renowned Dr. Macduff; chosen minister of the Church of Scotland; became pastor ... attracted large throngs of people to the services",
+      "suggested_fix": "בפסקה 3 החליפו את „בקריאתו להיות פַּסטוֹר ובמטלות משרתיות אחרות” ב„בייעודו כרועה קהילה ובתפקידים אחרים בשירות הכנסייה”. בפסקה 4 כתבו „היה לעוזרו של רועה הקהילה הנודע ד״ר מקדאף” ו„נבחר לכהן כרועה קהילה בכנסיית סקוטלנד בעיירת הנופש והנמל אינלן”. בפסקה 6 כתבו „מונה לרועה הקהילה בכנסיית סנט ברנרד הגדולה באדינבורו” ו„משכה בהתמדה המונים לאספות התפילה”.",
+      "translation_quote": "מסייעת בקריאתו להיות פַּסטוֹר ובמטלות משרתיות אחרות; לעוזר־מורה לידו של הד״ר מקדאף; למשרת מיני בפרסביטריית הכנסייה של סקוטלנד; מונה להיות פקיד קהילת ... משכה בעקביות המונים רבים לשירותים"
+    },
+    {
+      "location": "html, paragraph 4: church membership",
+      "severity": "major",
+      "source_quote": "in whose church of thousands of members he had been brought up",
+      "suggested_fix": "החליפו ב„בכנסייתו, שמנתה אלפי חברים ובה גדל”.",
+      "translation_quote": "בכנסייה שבה גדל, כנסייה שרבתיה היו אלפים"
+    },
+    {
+      "location": "html, paragraph 5: audience",
+      "severity": "major",
+      "source_quote": "and to the congregation, he seemed to be reading from it",
+      "suggested_fix": "החליפו את „ולמקהלה” ב„ולבני הקהילה”.",
+      "translation_quote": "ולמקהלה הוא נראה כמי שקורא ממנו"
+    },
+    {
+      "location": "html, paragraph 7: alleged broken engagement",
+      "severity": "major",
+      "source_quote": "after his soon-to-be bride left him just before their marriage when she learned of his impending total blindness",
+      "suggested_fix": "החליפו ב„לאחר שארוסתו עזבה אותו זמן קצר לפני נישואיהם, כשנודע לה שהוא עומד להתעוור לחלוטין”.",
+      "translation_quote": "אחרי שאשתו שבדרך תתחתן עזבה אותו רגעים לפני נישואיהם כשהיא גלתה על הימשכותו לעתיד לעיוורון מלא"
+    },
+    {
+      "location": "html, paragraph 7: hymn imagery",
+      "severity": "major",
+      "source_quote": "the “borrowed ray”",
+      "suggested_fix": "החליפו את „הקרן הלוויה” ב„קרן האור השאולה”.",
+      "translation_quote": "הקרן הלוויה"
+    },
+    {
+      "location": "html, paragraph 9: location of composition",
+      "severity": "major",
+      "source_quote": "My hymn was composed in the manse of Innellan",
+      "suggested_fix": "החליפו את „מזמורתי נולדה בנסיגת האחוזה באינלן” ב„המזמור שלי נכתב בבית רועה הקהילה באינלן”.",
+      "translation_quote": "מזמורתי נולדה בנסיגת האחוזה באינלן"
+    },
+    {
+      "location": "html, paragraph 9: account of inspiration",
+      "severity": "major",
+      "source_quote": "having it dictated to me by some inward voice than of working it out myself",
+      "suggested_fix": "החליפו ב„שהוא הוכתב לי בידי קול פנימי כלשהו, ולא שחיברתי אותו בעצמי”.",
+      "translation_quote": "שהוא נצטווה עלי על־ידי קול פנימי מאשר שעבדתי עליו בעצמי"
+    },
+    {
+      "location": "html, paragraph 9: author's revisions",
+      "severity": "major",
+      "source_quote": "equally sure it never received at my hands any retouching or correction",
+      "suggested_fix": "החליפו ב„ובטוח באותה מידה שמעולם לא ערכתי בו שום שינוי או תיקון”.",
+      "translation_quote": "ושווה הבטחה שגם מעולם לא קיבלתי עליו שינויים או תיקונים"
+    },
+    {
+      "location": "html, paragraph 9: poetic ability",
+      "severity": "major",
+      "source_quote": "I have no natural gift of rhythm.",
+      "suggested_fix": "החליפו ב„אין לי כישרון טבעי למקצב.”",
+      "translation_quote": "אין לי כשרון טבעי לחריזה."
+    },
+    {
+      "location": "html, paragraph 12: devotional writings",
+      "severity": "major",
+      "source_quote": "some of the finest devotional writings in the English tongue",
+      "suggested_fix": "החליפו ב„כמה מהכתבים הרוחניים לטיפוח האמונה המשובחים ביותר בשפה האנגלית”.",
+      "translation_quote": "כמה מהיצירות ההתבודדותיות הטובות ביותר בשפה האנגלית"
+    },
+    {
+      "location": "html, paragraph 13: surrender to God's will",
+      "severity": "major",
+      "source_quote": "whose life is totally surrendered to the will of God",
+      "suggested_fix": "החליפו ב„שחייו מסורים לחלוטין לרצון האל”.",
+      "translation_quote": "שחייו נשלטים במלואם על־ידי רצון האל"
+    },
+    {
+      "location": "html, paragraph 2",
+      "severity": "minor",
+      "source_quote": "it caused him to trust in the Lord",
+      "suggested_fix": "תקנו את „באאדון” ל„באדון”.",
+      "translation_quote": "היא גרמה לו לבטוח באאדון"
+    },
+    {
+      "location": "html, paragraph 5: memorization and spontaneous sermon",
+      "severity": "minor",
+      "source_quote": "repeat it perfectly; One Sunday; the topic ... vanished from his mind; preached an impromptu sermon",
+      "suggested_fix": "תקנו ל„לחזור עליהם במדויק”, „ביום ראשון אחד”, „נושא הדרשה נעלם ממוחו” ו„נשא דרשה מאולתרת רבת־עוצמה”, בהתאמה.",
+      "translation_quote": "לחזר אותן בצורה מושלמת; באחד הימים; נושא הדרשה נעל ממוחו; דרש דרשה מרוממת ומידית בעוצמה רבה"
+    },
+    {
+      "location": "html, paragraph 7: opening sentence and stanza designation",
+      "severity": "minor",
+      "source_quote": "Many speculations have been made regarding the cause of the mental distress; in the third stanza",
+      "suggested_fix": "כתבו „הועלו השערות רבות בנוגע לסיבת המצוקה הנפשית” ו„בבית השלישי”.",
+      "translation_quote": "נדונו והשערו נושאים רבים לגבי סיבת המתח הנפשי; בביתה השלישי"
+    },
+    {
+      "location": "html, paragraph 8",
+      "severity": "minor",
+      "source_quote": "Fortunately, Dr. Matheson did relate an account",
+      "suggested_fix": "החליפו את „למזלו של ד״ר מת'יסון, הוא סיפר” ב„למרבה המזל, ד״ר מת'יסון אכן סיפר”.",
+      "translation_quote": "למזלו של ד\"ר מת'יסון, הוא סיפר"
+    },
+    {
+      "location": "html, paragraph 11: tune name",
+      "severity": "minor",
+      "source_quote": "The origin or the tune name, St. Margaret, is unknown",
+      "suggested_fix": "כדי לשקף את ההקשר, כתבו „מקור שמה של המנגינה, <em>St. Margaret</em>, אינו ידוע”.",
+      "translation_quote": "מקור השם או מוצא המנגינה, <em>St. Margaret</em>, אינם ידועים"
+    },
+    {
+      "location": "html, paragraph 12 and paragraph 13: agreement",
+      "severity": "minor",
+      "source_quote": "this is his only hymn; The four key words",
+      "suggested_fix": "תקנו ל„זהו המזמור היחיד שלו” ול„ארבע המילים המרכזיות”.",
+      "translation_quote": "זוהי המזמור היחיד שלו; ארבעת המילים המרכזיות"
+    },
+    {
+      "location": "html, references paragraph: role labels",
+      "severity": "minor",
+      "source_quote": "Author; Composer",
+      "suggested_fix": "תרגמו את התוויות בלבד: „מחבר” ו„מלחין”, תוך שמירת תגי ה־HTML, הרווחים, השמות והתאריכים.",
+      "translation_quote": "Author; Composer"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
