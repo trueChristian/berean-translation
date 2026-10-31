@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Partakers of the divine nature, introductory paragraph",
+      "severity": "major",
+      "source_quote": "Thomas von Imbroich was a Swiss Brethren in the early days of the Anabaptist movement.",
+      "suggested_fix": "Ändra till exempel till: ”Thomas von Imbroich tillhörde de schweiziska bröderna under den tidiga anabaptistiska rörelsens dagar.”",
+      "translation_quote": "Thomas von Imbroich var en schweizisk broder under den tidiga anabaptistiska rörelsens dagar."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

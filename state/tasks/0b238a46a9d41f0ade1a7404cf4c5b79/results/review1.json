@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "e03d62b5-5cc6-4d95-adc9-39bb9177454d",
+    "response_id": "chatcmpl-Ef9WUuNsI1nPhVWl8Vr1Zn6aTy4bH",
+    "usage": {
+      "completion_tokens": 1193,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1034,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 26485,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 26482,
+        "cached_tokens": 0
+      },
+      "total_tokens": 27678
+    }
+  },
+  "received_at": "2026-10-31T21:27:45+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Partakers of the divine nature, introductory paragraph",
+        "severity": "major",
+        "source_quote": "Thomas von Imbroich was a Swiss Brethren in the early days of the Anabaptist movement.",
+        "suggested_fix": "Ändra till exempel till: ”Thomas von Imbroich tillhörde de schweiziska bröderna under den tidiga anabaptistiska rörelsens dagar.”",
+        "translation_quote": "Thomas von Imbroich var en schweizisk broder under den tidiga anabaptistiska rörelsens dagar."
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 94
+  }
+}
