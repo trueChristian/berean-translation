@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "الاقتباسان المنسوبان إلى المعلّقين 3 و2 ضمن قسم «أريوس باغوس في العصر الحديث»",
+      "severity": "major",
+      "source_quote": "“kidnapping a child from her legal parent”; “keep a child from her other parent”",
+      "suggested_fix": "استبدل «والدها القانوني» و«والدها الآخر» بتعبيرين محايدين يحفظان معنى parent، مثل «وليّها القانوني» و«وليّها الآخر».",
+      "translation_quote": "«اختطاف طفلة من والدها القانوني»؛ «إبعاد طفلة عن والدها الآخر»"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; a recovery continuation must pass admission",
+  "stage": "terminal"
+}

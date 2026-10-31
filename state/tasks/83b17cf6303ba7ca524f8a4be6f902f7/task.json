@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": "b6a516592c12e3100b8cd829994dfe85a09831bea66cf0257a661c0e5f13c19d",
   "base_metadata_sha256": "297b8dc96844835b41a7e57889fe2bbe524ab71e69115acf0384013654f337b0",
-  "batch": "745393588b49478cba523beb1e4db3f2",
   "campaign": "auto-62442bdeb76b41b03ec10a045482853d1fe50149b1447e91050f4600afb49af1",
   "created_at": "2026-10-30T14:08:37+00:00",
   "events": [
@@ -48,18 +47,40 @@
         },
         "total_tokens": 21275
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1185,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 1007,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 14050,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 12947,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 15235
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; a recovery continuation must pass admission",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "HTML/metadata contract",
-      "severity": "critical",
-      "source_quote": "",
-      "suggested_fix": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[122]: source /article[1]/blockquote[2]/p[10] ('end', 'p'); translation /article[1]/blockquote[2]/p[10]/em[1] ('start', 'em', ())",
-      "translation_quote": ""
+      "location": "الاقتباسان المنسوبان إلى المعلّقين 3 و2 ضمن قسم «أريوس باغوس في العصر الحديث»",
+      "severity": "major",
+      "source_quote": "“kidnapping a child from her legal parent”; “keep a child from her other parent”",
+      "suggested_fix": "استبدل «والدها القانوني» و«والدها الآخر» بتعبيرين محايدين يحفظان معنى parent، مثل «وليّها القانوني» و«وليّها الآخر».",
+      "translation_quote": "«اختطاف طفلة من والدها القانوني»؛ «إبعاد طفلة عن والدها الآخر»"
     }
   ],
+  "finished_at": "2026-10-31T11:00:08+00:00",
   "id": "83b17cf6303ba7ca524f8a4be6f902f7",
   "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
   "language": "ara",
@@ -148,9 +169,11 @@
     }
   },
   "protected": false,
+  "quality_score": 93,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/59cbf8b476880356c033cf18426356b120a6c17f9d556255143dbd63b71c97e3.json",
   "stage": "review2",
   "stage_budget": {
@@ -166,7 +189,7 @@
     "total_reserved_usd": 0.129686,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "d2a2d95f0a98c90fa1d145d8f870384b0fec3bc25e401c2eedeb5709aa7ff254",
   "translation_model_actual": "gpt-6-luna"

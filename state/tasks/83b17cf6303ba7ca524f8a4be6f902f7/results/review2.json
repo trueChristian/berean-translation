@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "d834363f-ed3d-4ffb-be88-9622c4bddc0c",
+    "response_id": "chatcmpl-EeymslxfoTh1wq4abPR6OWZWQbsbq",
+    "usage": {
+      "completion_tokens": 1185,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1007,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 14050,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 12947,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 15235
+    }
+  },
+  "received_at": "2026-10-31T11:00:08+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "الاقتباسان المنسوبان إلى المعلّقين 3 و2 ضمن قسم «أريوس باغوس في العصر الحديث»",
+        "severity": "major",
+        "source_quote": "“kidnapping a child from her legal parent”; “keep a child from her other parent”",
+        "suggested_fix": "استبدل «والدها القانوني» و«والدها الآخر» بتعبيرين محايدين يحفظان معنى parent، مثل «وليّها القانوني» و«وليّها الآخر».",
+        "translation_quote": "«اختطاف طفلة من والدها القانوني»؛ «إبعاد طفلة عن والدها الآخر»"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 93
+  }
+}

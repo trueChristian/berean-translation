@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-31T11:00:08+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"الاقتباسان المنسوبان إلى المعلّقين 3 و2 ضمن قسم «أريوس باغوس في العصر الحديث»\",\"severity\":\"major\",\"source_quote\":\"“kidnapping a child from her legal parent”; “keep a child from her other parent”\",\"suggested_fix\":\"استبدل «والدها القانوني» و«والدها الآخر» بتعبيرين محايدين يحفظان معنى parent، مثل «وليّها القانوني» و«وليّها الآخر».\",\"translation_quote\":\"«اختطاف طفلة من والدها القانوني»؛ «إبعاد طفلة عن والدها الآخر»\"}],\"findings_complete\":true,\"passed\":false,\"score\":93}",
+    "content_bytes": 714,
+    "content_evidence_truncated": false,
+    "content_sha256": "252b67e63da29ce70e0e5589282e638b75efa0ca9a39b48803b95d96e4378146",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1185,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1007,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 14050,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 12947,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 15235
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review2",
+  "translation_attempts": 2
+}
