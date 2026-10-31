@@ -52216,6 +52216,42 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/kor/articles/816d80f0-e3dd-46a6-ae6e-03214e209890.html",
+      "html_sha256": "6faae281fc9706582d10e2535c313f4f493b7d1949a888cf1f531d9143cfb332",
+      "human_reviewed": false,
+      "id": "816d80f0-e3dd-46a6-ae6e-03214e209890",
+      "images": [
+        {
+          "alt": "나무 울타리 틈으로 돈을 집어 가는 손",
+          "public_path": "/images/articles/816d80f0-e3dd-46a6-ae6e-03214e209890-1.jpg"
+        },
+        {
+          "alt": "존 웨슬리의 서명 복제본",
+          "public_path": "/images/articles/816d80f0-e3dd-46a6-ae6e-03214e209890-2.jpg"
+        },
+        {
+          "alt": "펼친 책을 든 존 웨슬리 동상",
+          "public_path": "/images/articles/816d80f0-e3dd-46a6-ae6e-03214e209890-3.jpg"
+        }
+      ],
+      "issue_id": "05538f8e-6560-5f96-b313-890e87c05daf",
+      "language": "kor",
+      "language_tag": "ko",
+      "metadata": "content/kor/articles/816d80f0-e3dd-46a6-ae6e-03214e209890.json",
+      "metadata_sha256": "7a1ef35af746acc41fe84c259eab70cd6f4a0ed6426c816f515ddc7956612bf4",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": null,
+      "source_revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
+      "source_translation_key": "0af4e8eba8d76fd3ebe2cccff019f1ce29d88581ec1120c33079d9f90b1288d6",
+      "status": "ready",
+      "subtitle": null,
+      "title": "재물 증가의 위험에 대하여",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/kor/articles/85306410-6a2d-46f1-b6db-6d3450f7f908.html",
       "html_sha256": "37a6973ae86db92a94488b18e1cc236726cca82afcca6d8ca444099975f888cf",
       "human_reviewed": false,
