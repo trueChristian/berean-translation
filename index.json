@@ -80826,6 +80826,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/swa/articles/ad4e2c15-f6ba-4b89-a519-1a36655aa93a.html",
+      "html_sha256": "dd8d9eada4572459f247a453bb80e4a1bf137ee72f5d4cda760e896bc33d1deb",
+      "human_reviewed": false,
+      "id": "ad4e2c15-f6ba-4b89-a519-1a36655aa93a",
+      "images": [
+        {
+          "alt": "Yesu amepiga magoti akisali katikati ya miamba",
+          "public_path": "/images/articles/ad4e2c15-f6ba-4b89-a519-1a36655aa93a-1.jpg"
+        }
+      ],
+      "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
+      "language": "swa",
+      "language_tag": "sw",
+      "metadata": "content/swa/articles/ad4e2c15-f6ba-4b89-a519-1a36655aa93a.json",
+      "metadata_sha256": "fef26eb4fd31166eee396bf5ec530b92e946c9abe1375e9f0df85e895da7b728",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": null,
+      "source_revision": "ed75201a8e3b37913a14f4d949de33a7a0daa2c2",
+      "source_translation_key": "af0a2811aaad8facf9c0fb70e4f79fedbc83ae6bb333beb07b2d95c0bed6e2e6",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Fomula ya Moyo Unaowaka",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/swa/articles/b37f8111-4563-4b5b-ab9f-1f87bcd2b46a.html",
       "html_sha256": "42c5877279cbc1c510d9a342c8ddbe464cff150b6433bb7ff9696eb022d6dcbc",
       "human_reviewed": false,
