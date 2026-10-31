@@ -73740,6 +73740,46 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/rus/articles/f87354d0-0bb8-4271-a8db-792c77d0d090.html",
+      "html_sha256": "a0e55a5e6b087b5c0fe2e20a09dc9ec36ffaf3f11cd4f40a09ce8acb74a6bf01",
+      "human_reviewed": false,
+      "id": "f87354d0-0bb8-4271-a8db-792c77d0d090",
+      "images": [
+        {
+          "alt": "Гравюра: верующие принимают Святого Духа в день Пятидесятницы",
+          "public_path": "/images/articles/f87354d0-0bb8-4271-a8db-792c77d0d090-1.png"
+        },
+        {
+          "alt": "Стилизованное изображение пламени",
+          "public_path": "/images/articles/f87354d0-0bb8-4271-a8db-792c77d0d090-2.jpg"
+        },
+        {
+          "alt": "Голубь летит к протянутой руке",
+          "public_path": "/images/articles/f87354d0-0bb8-4271-a8db-792c77d0d090-3.png"
+        },
+        {
+          "alt": "Дорожный знак, сочетающий улыбающееся и печальное лица",
+          "public_path": "/images/articles/f87354d0-0bb8-4271-a8db-792c77d0d090-4.jpg"
+        }
+      ],
+      "issue_id": "05538f8e-6560-5f96-b313-890e87c05daf",
+      "language": "rus",
+      "language_tag": "ru",
+      "metadata": "content/rus/articles/f87354d0-0bb8-4271-a8db-792c77d0d090.json",
+      "metadata_sha256": "d0dd20544c1b3db825a48007a79d68be5a38700c169183852c66370b4b5d655e",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": null,
+      "source_revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
+      "source_translation_key": "ecc35e8cd4c57e2b467ba1c07b4baf9d8db122db80e2c80ae9e2a166783c3de1",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Возвращение крещения Святым Духом из плена пятидесятничества",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/rus/articles/fb65688b-5aaf-4194-a345-31f6f1355389.html",
       "html_sha256": "c6357560410f2f522d6cc80728aa47bfb0db77a29ca5aebb9bf2e19282fb26f6",
       "human_reviewed": false,
