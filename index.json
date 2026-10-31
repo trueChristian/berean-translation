@@ -57102,6 +57102,46 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/nld/articles/a5c8b070-97f8-4050-9ac5-89af497287b0.html",
+      "html_sha256": "5767c93b3045b472514f75d71c06410ebfb803c627bbc71fd4fd7c2fe7b04f89",
+      "human_reviewed": false,
+      "id": "a5c8b070-97f8-4050-9ac5-89af497287b0",
+      "images": [
+        {
+          "alt": "Een leeuw en andere dieren kijken naar een dansend kind",
+          "public_path": "/images/articles/a5c8b070-97f8-4050-9ac5-89af497287b0-1.jpg"
+        },
+        {
+          "alt": "Een plaquette over C. S. Lewis en zijn vrienden, die bijeenkwamen in de achterkamer van een pub",
+          "public_path": "/images/articles/a5c8b070-97f8-4050-9ac5-89af497287b0-2.jpg"
+        },
+        {
+          "alt": "Een omslag van TIME Magazine met een portret van C. S. Lewis",
+          "public_path": "/images/articles/a5c8b070-97f8-4050-9ac5-89af497287b0-3.jpg"
+        },
+        {
+          "alt": "C. S. Lewis zit met een boek",
+          "public_path": "/images/articles/a5c8b070-97f8-4050-9ac5-89af497287b0-4.jpg"
+        }
+      ],
+      "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
+      "language": "nld",
+      "language_tag": "nl",
+      "metadata": "content/nld/articles/a5c8b070-97f8-4050-9ac5-89af497287b0.json",
+      "metadata_sha256": "d57551457b3bb676ffa1fc744a9529633477e78850e50a8a79c0326f13c72a38",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "ed75201a8e3b37913a14f4d949de33a7a0daa2c2",
+      "source_translation_key": "6db58cafff7cfe9f11556e892b54ec7a0015890307776806dd7acebca34a78c1",
+      "status": "ready",
+      "subtitle": "CHRISTENEN, WEES OP UW HOEDE!",
+      "title": "De leeuw, de heks en de Happy Meal:",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/nld/articles/a666b8a8-f3c7-4478-b53d-bb0abe446f42.html",
       "html_sha256": "baee829a807985244c29c62321049942c527f1a85bd813d74d6e44f6eb4f9232",
       "human_reviewed": false,
