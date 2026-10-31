@@ -29452,6 +29452,42 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/fra/articles/816d80f0-e3dd-46a6-ae6e-03214e209890.html",
+      "html_sha256": "01f7926028839589385e5d79c9b72fe55a35abd28b1372209bbacc17f4a2716a",
+      "human_reviewed": false,
+      "id": "816d80f0-e3dd-46a6-ae6e-03214e209890",
+      "images": [
+        {
+          "alt": "Une main prenant de l’argent à travers une clôture en bois",
+          "public_path": "/images/articles/816d80f0-e3dd-46a6-ae6e-03214e209890-1.jpg"
+        },
+        {
+          "alt": "Fac-similé de la signature de John Wesley",
+          "public_path": "/images/articles/816d80f0-e3dd-46a6-ae6e-03214e209890-2.jpg"
+        },
+        {
+          "alt": "Statue de John Wesley tenant un livre ouvert",
+          "public_path": "/images/articles/816d80f0-e3dd-46a6-ae6e-03214e209890-3.jpg"
+        }
+      ],
+      "issue_id": "05538f8e-6560-5f96-b313-890e87c05daf",
+      "language": "fra",
+      "language_tag": "fr",
+      "metadata": "content/fra/articles/816d80f0-e3dd-46a6-ae6e-03214e209890.json",
+      "metadata_sha256": "d6f3d96c41750dce7798a590e5347609c477dc94110f06d952d7bebc3e5cc3a8",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": null,
+      "source_revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
+      "source_translation_key": "0af4e8eba8d76fd3ebe2cccff019f1ce29d88581ec1120c33079d9f90b1288d6",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Sur le danger d’accroître ses richesses",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/fra/articles/85306410-6a2d-46f1-b6db-6d3450f7f908.html",
       "html_sha256": "daeae8546edbc1be19676c60dcae538871f0e697345e25e60570523ac8b3568e",
       "human_reviewed": false,

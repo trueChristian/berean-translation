@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-31T23:27:51+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"translation.html — deuxième élément de la liste sous « Définir “le monde” »\",\"severity\":\"minor\",\"source_quote\":\"ruffles, necklaces, spider-caps\",\"suggested_fix\":\"Remplacer « coiffes en toile d’araignée » par « coiffes en dentelle fine ».\",\"translation_quote\":\"manchettes, colliers, coiffes en toile d’araignée\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 411,
+    "content_evidence_truncated": false,
+    "content_sha256": "f49e8019d2e075ca1783079df002e9f1a2e731f336c226f3e6b165d343492fd2",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 217,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 102,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 14104,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 14101
+      },
+      "total_tokens": 14321
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review2",
+  "translation_attempts": 1
+}

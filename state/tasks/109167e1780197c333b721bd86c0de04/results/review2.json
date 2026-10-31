@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "706ab658-74c7-4271-88f9-417497932a2c",
+    "response_id": "chatcmpl-EfClTlQA9GZFHoPgc63qpLTkjSfCP",
+    "usage": {
+      "completion_tokens": 217,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 102,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 14104,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 14101
+      },
+      "total_tokens": 14321
+    }
+  },
+  "received_at": "2026-10-31T23:27:51+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "translation.html — deuxième élément de la liste sous « Définir “le monde” »",
+        "severity": "minor",
+        "source_quote": "ruffles, necklaces, spider-caps",
+        "suggested_fix": "Remplacer « coiffes en toile d’araignée » par « coiffes en dentelle fine ».",
+        "translation_quote": "manchettes, colliers, coiffes en toile d’araignée"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}

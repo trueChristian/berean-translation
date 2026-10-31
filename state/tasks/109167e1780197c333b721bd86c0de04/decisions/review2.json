@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "translation.html — deuxième élément de la liste sous « Définir “le monde” »",
+      "severity": "minor",
+      "source_quote": "ruffles, necklaces, spider-caps",
+      "suggested_fix": "Remplacer « coiffes en toile d’araignée » par « coiffes en dentelle fine ».",
+      "translation_quote": "manchettes, colliers, coiffes en toile d’araignée"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}
