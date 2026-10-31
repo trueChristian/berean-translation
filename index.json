@@ -66622,6 +66622,46 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/por/articles/a5c8b070-97f8-4050-9ac5-89af497287b0.html",
+      "html_sha256": "00b1a3d1731d3836733a276782579622fe8a3e007e84c985bdc794a92f416490",
+      "human_reviewed": false,
+      "id": "a5c8b070-97f8-4050-9ac5-89af497287b0",
+      "images": [
+        {
+          "alt": "Um leão e outros animais observam uma criança dançando",
+          "public_path": "/images/articles/a5c8b070-97f8-4050-9ac5-89af497287b0-1.jpg"
+        },
+        {
+          "alt": "Uma placa que descreve C. S. Lewis e seus amigos reunindo-se na sala dos fundos de um pub",
+          "public_path": "/images/articles/a5c8b070-97f8-4050-9ac5-89af497287b0-2.jpg"
+        },
+        {
+          "alt": "Uma capa da revista TIME com um retrato de C. S. Lewis",
+          "public_path": "/images/articles/a5c8b070-97f8-4050-9ac5-89af497287b0-3.jpg"
+        },
+        {
+          "alt": "C. S. Lewis sentado com um livro",
+          "public_path": "/images/articles/a5c8b070-97f8-4050-9ac5-89af497287b0-4.jpg"
+        }
+      ],
+      "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
+      "language": "por",
+      "language_tag": "pt",
+      "metadata": "content/por/articles/a5c8b070-97f8-4050-9ac5-89af497287b0.json",
+      "metadata_sha256": "0645dd641a7449116a115d299b9c9c69fd6fad61415c90c9823c16f26c910fee",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "ed75201a8e3b37913a14f4d949de33a7a0daa2c2",
+      "source_translation_key": "6db58cafff7cfe9f11556e892b54ec7a0015890307776806dd7acebca34a78c1",
+      "status": "ready",
+      "subtitle": "CRISTÃOS, CUIDADO!",
+      "title": "O Leão, a Feiticeira e o McLanche Feliz:",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/por/articles/a5dc3764-e799-4138-82f0-87b245a77db8.html",
       "html_sha256": "abc42834103938f901b8820defa533f8de2edd7d37818c8d342e39de90acd02e",
       "human_reviewed": false,
