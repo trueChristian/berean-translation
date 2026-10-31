@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "4ab7106e-3e2f-4c97-a0c9-12118f430fe0",
+    "response_id": "chatcmpl-Ef2bnGuTniKfBChHlosVE1NCcm7pR",
+    "usage": {
+      "completion_tokens": 279,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 122,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 15945,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 14842,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 16224
+    }
+  },
+  "received_at": "2026-10-31T12:44:38+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "html: orodha chini ya “Mtindo wa maisha wa Wakanaani”, kipengele cha kwanza, maandishi yaliyokolezwa",
+        "severity": "major",
+        "source_quote": "Life-owes-me-a-vacation mentality.",
+        "suggested_fix": "Badili maandishi ndani ya <strong> kuwa: “Mtazamo kwamba maisha yana deni la kunipa likizo.”",
+        "translation_quote": "Mawazo kwamba maisha yananidai likizo."
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 96
+  }
+}

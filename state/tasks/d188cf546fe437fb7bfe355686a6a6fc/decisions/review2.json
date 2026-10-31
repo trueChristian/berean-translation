@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "html: orodha chini ya “Mtindo wa maisha wa Wakanaani”, kipengele cha kwanza, maandishi yaliyokolezwa",
+      "severity": "major",
+      "source_quote": "Life-owes-me-a-vacation mentality.",
+      "suggested_fix": "Badili maandishi ndani ya <strong> kuwa: “Mtazamo kwamba maisha yana deni la kunipa likizo.”",
+      "translation_quote": "Mawazo kwamba maisha yananidai likizo."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

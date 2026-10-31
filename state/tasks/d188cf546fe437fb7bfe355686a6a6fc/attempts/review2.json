@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-31T12:44:38+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"html: orodha chini ya “Mtindo wa maisha wa Wakanaani”, kipengele cha kwanza, maandishi yaliyokolezwa\",\n      \"severity\": \"major\",\n      \"source_quote\": \"Life-owes-me-a-vacation mentality.\",\n      \"suggested_fix\": \"Badili maandishi ndani ya <strong> kuwa: “Mtazamo kwamba maisha yana deni la kunipa likizo.”\",\n      \"translation_quote\": \"Mawazo kwamba maisha yananidai likizo.\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": false,\n  \"score\": 96\n}",
+    "content_bytes": 502,
+    "content_evidence_truncated": false,
+    "content_sha256": "f86e2e885f8f000231cfd11d0d5c1f0905c5c5e75115582a19ef57762ae2cab6",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 279,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 122,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 15945,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 14842,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 16224
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review2",
+  "translation_attempts": 1
+}
