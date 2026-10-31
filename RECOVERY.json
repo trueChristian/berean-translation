@@ -3,7 +3,7 @@
   "automatic_enabled": true,
   "automatic_policy_version": 3,
   "budget_enforcement": "none",
-  "committed_usd": 52.828837,
+  "committed_usd": 52.419866,
   "counts": {
     "active": 50,
     "already_translated": 108,
@@ -11,7 +11,7 @@
     "continuation_cooldown": 1,
     "continuation_progress_uncertain_requires_attention": 5,
     "continuation_repeated_findings_requires_attention": 1,
-    "eligible_automatic": 824,
+    "eligible_automatic": 823,
     "eligible_source_refresh": 173,
     "legacy_response_outcome_unknown_requires_owner_attention": 10,
     "pending_automatic_admission": 99,
@@ -22,7 +22,7 @@
   },
   "derived": true,
   "format_version": "2",
-  "gross_allocated_usd": 455.087521,
+  "gross_allocated_usd": 456.373589,
   "historical_approved_total_usd": 30.0,
   "items": [
     {
@@ -229,6 +229,14 @@
     },
     {
       "accepted_cycles": 0,
+      "article_id": "683a4e23-acbb-434a-8e0e-2b0793e1a0fb",
+      "language": "afr",
+      "latest_task": "cb88799a10c0aa04d0e3e270bb2e077b",
+      "processing_status": "in_batch",
+      "reason": "active"
+    },
+    {
+      "accepted_cycles": 0,
       "article_id": "6c4d3026-69b5-42c2-92aa-02d8ea8d73cf",
       "language": "afr",
       "latest_task": "36121717f9412ab6dd7ba2a286e473d1",
@@ -267,14 +275,6 @@
       "latest_task": "a2d221e7ca9005ccfe7de8541a9a7d30",
       "processing_status": "not_ready",
       "reason": "already_translated"
-    },
-    {
-      "accepted_cycles": 1,
-      "article_id": "816d80f0-e3dd-46a6-ae6e-03214e209890",
-      "language": "afr",
-      "latest_task": "a13b3d388b1553c0271b9346df3c3217",
-      "processing_status": "in_batch",
-      "reason": "active"
     },
     {
       "accepted_cycles": 0,
@@ -7051,14 +7051,6 @@
       "reason": "eligible_source_refresh"
     },
     {
-      "accepted_cycles": 1,
-      "article_id": "6485a6ed-e76f-4142-9e27-e649823cb1a3",
-      "language": "ind",
-      "latest_task": "53787b1a6d1f4a735acd7e891001ce40",
-      "processing_status": "in_batch",
-      "reason": "active"
-    },
-    {
       "accepted_cycles": 0,
       "article_id": "683a4e23-acbb-434a-8e0e-2b0793e1a0fb",
       "language": "ind",
@@ -7363,12 +7355,12 @@
       "request_id": "auto-e980e14309c835d179ee3e028b49cfa26f5e184517111bb94b63d1f6e28fad63"
     },
     {
-      "accepted_cycles": 1,
+      "accepted_cycles": 2,
       "article_id": "f87354d0-0bb8-4271-a8db-792c77d0d090",
       "language": "ind",
-      "latest_task": "d45b59adae2f2417c406968b2b406991",
-      "processing_status": "not_ready",
-      "reason": "eligible_automatic"
+      "latest_task": "2ee1f6a8eb4d6a5b7c93e9c49c383378",
+      "processing_status": "in_batch",
+      "reason": "active"
     },
     {
       "admission_status": "pending",
@@ -11011,14 +11003,6 @@
     },
     {
       "accepted_cycles": 0,
-      "article_id": "19270b64-7f17-4623-b361-5486354b7303",
-      "language": "spa",
-      "latest_task": "e2528cee3f999574cbaed64a819c5602",
-      "processing_status": "in_batch",
-      "reason": "active"
-    },
-    {
-      "accepted_cycles": 0,
       "admission_status": "attention",
       "article_id": "1c698fb4-f4e6-419b-bdcc-1b25cbe2b035",
       "language": "spa",
@@ -11889,6 +11873,14 @@
       "processing_status": "held_without_publication",
       "reason": "automatic_capacity_wait",
       "request_id": "auto-e4187d762229402ec1638c14f33f41cf4ea58395780bbc0370ca3095fb61b464"
+    },
+    {
+      "accepted_cycles": 0,
+      "article_id": "683a4e23-acbb-434a-8e0e-2b0793e1a0fb",
+      "language": "swa",
+      "latest_task": "b2cc686f2c00340f1c8eef0e4bd06582",
+      "processing_status": "in_batch",
+      "reason": "active"
     },
     {
       "accepted_cycles": 0,
@@ -13844,7 +13836,7 @@
       "reason": "eligible_automatic"
     }
   ],
-  "settled_unused_usd": 402.258684,
+  "settled_unused_usd": 403.953723,
   "source_revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
   "spending_policy": "owner-2026-10-29-provider-managed-spending",
   "usage_description": "Provider-reported usage priced at frozen rates; not invoice reconciliation"
