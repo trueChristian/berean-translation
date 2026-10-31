@@ -34024,6 +34024,50 @@
     {
       "ai_notice_required": true,
       "direction": "rtl",
+      "html": "content/heb/articles/9b22e638-a735-48fe-b31b-817c614538ca.html",
+      "html_sha256": "c42688d92757006fb494178e09b3ede42832c270c24cfbba5d67a3a62831bad1",
+      "human_reviewed": false,
+      "id": "9b22e638-a735-48fe-b31b-817c614538ca",
+      "images": [
+        {
+          "alt": "תג מחיר שעליו כתוב „רק 100.00 דולר”",
+          "public_path": "/images/articles/9b22e638-a735-48fe-b31b-817c614538ca-1.jpg"
+        },
+        {
+          "alt": "רישום קווי של מרכבת ברזל",
+          "public_path": "/images/articles/9b22e638-a735-48fe-b31b-817c614538ca-2.png"
+        },
+        {
+          "alt": "שני גברים משחקים שאפלבורד",
+          "public_path": "/images/articles/9b22e638-a735-48fe-b31b-817c614538ca-3.png"
+        },
+        {
+          "alt": "גבר יושב מול מחשב וראשו נתון בידיו",
+          "public_path": "/images/articles/9b22e638-a735-48fe-b31b-817c614538ca-4.jpg"
+        },
+        {
+          "alt": "בית גדול ומדשאה",
+          "public_path": "/images/articles/9b22e638-a735-48fe-b31b-817c614538ca-5.jpg"
+        }
+      ],
+      "issue_id": "05538f8e-6560-5f96-b313-890e87c05daf",
+      "language": "heb",
+      "language_tag": "he",
+      "metadata": "content/heb/articles/9b22e638-a735-48fe-b31b-817c614538ca.json",
+      "metadata_sha256": "2ce831843dae63abe5b943d3070af70d49550c425fed32c26b2e0116a59102a9",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": null,
+      "source_revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
+      "source_translation_key": "c0545377542c9c79b4c68a51b2c277c621b53fab8d7966c5cf122b68f56f1739",
+      "status": "ready",
+      "subtitle": "גביית מס מן הכנענים",
+      "title": "אויב או בן ברית?",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
       "html": "content/heb/articles/a4d4e3d1-c4ae-4c84-b991-b4ff13690ab9.html",
       "html_sha256": "353db464acdb8c1fa5cca66e208a5fb20c5505100792ec0231b2186b3ca11a76",
       "human_reviewed": false,
