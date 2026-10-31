@@ -20,6 +20,12 @@
       "event": "automatic_requested",
       "previous_task": "9b6bb12fb8a0718967e33f21511c9a21",
       "task": "55fc3ffc6c40c68f50f91caf31f999ad"
+    },
+    {
+      "at": "2026-10-31T12:16:17+00:00",
+      "event": "not_ready",
+      "reason": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[170]: source /article[1]/ol[4]/li[1]/ol[1]/li[1]/em[1] ('start', 'em', ()); translation /article[1]/ol[4]/li[1]/ol[1]/li[1]/strong[2] ('start', 'strong', ())",
+      "task": "55fc3ffc6c40c68f50f91caf31f999ad"
     }
   ],
   "language": "cmn",
