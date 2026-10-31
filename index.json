@@ -3481,6 +3481,46 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/afr/articles/a5c8b070-97f8-4050-9ac5-89af497287b0.html",
+      "html_sha256": "c51e15895685fa36dfcbf91f7aa0319945e3f1fc10422ebdf8f13061d6809b16",
+      "human_reviewed": false,
+      "id": "a5c8b070-97f8-4050-9ac5-89af497287b0",
+      "images": [
+        {
+          "alt": "’n Leeu en ander diere kyk na ’n dansende kind",
+          "public_path": "/images/articles/a5c8b070-97f8-4050-9ac5-89af497287b0-1.jpg"
+        },
+        {
+          "alt": "’n Gedenkplaat wat beskryf hoe C. S. Lewis en sy vriende in die agterkamer van ’n kroeg bymekaargekom het",
+          "public_path": "/images/articles/a5c8b070-97f8-4050-9ac5-89af497287b0-2.jpg"
+        },
+        {
+          "alt": "’n Voorblad van die tydskrif TIME met ’n portret van C. S. Lewis",
+          "public_path": "/images/articles/a5c8b070-97f8-4050-9ac5-89af497287b0-3.jpg"
+        },
+        {
+          "alt": "C. S. Lewis sit met ’n boek",
+          "public_path": "/images/articles/a5c8b070-97f8-4050-9ac5-89af497287b0-4.jpg"
+        }
+      ],
+      "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
+      "language": "afr",
+      "language_tag": "af",
+      "metadata": "content/afr/articles/a5c8b070-97f8-4050-9ac5-89af497287b0.json",
+      "metadata_sha256": "553d6c84e0989dcbecd3e08bde5c2292a830af75ae278160abb64c003e86bb06",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": null,
+      "source_revision": "ed75201a8e3b37913a14f4d949de33a7a0daa2c2",
+      "source_translation_key": "6db58cafff7cfe9f11556e892b54ec7a0015890307776806dd7acebca34a78c1",
+      "status": "ready",
+      "subtitle": "CHRISTEN, WEES OP JOU HOEDE!",
+      "title": "Die leeu, die heks en die Happy Meal:",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/afr/articles/a5dc3764-e799-4138-82f0-87b245a77db8.html",
       "html_sha256": "421e106c7bb677aa8c93198b4352d3d95a58556a73873c1c5f2a42b9b384cbfd",
       "human_reviewed": false,
