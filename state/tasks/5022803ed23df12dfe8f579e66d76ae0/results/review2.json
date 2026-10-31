@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "9ccb2c3c-e719-412c-9f0b-c9bcaf7ad1a7",
+    "response_id": "chatcmpl-Ef2ONySczbxtjXDV82tn8TzSnkrXT",
+    "usage": {
+      "completion_tokens": 181,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 60,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 15590,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 14487,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 15771
+    }
+  },
+  "received_at": "2026-10-31T12:30:15+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "translation.html, абзац «Во многом они были сильны»",
+        "severity": "minor",
+        "source_quote": "They recalled hearing their fathers tell stories of Egypt, and of the Great Deliverance.",
+        "suggested_fix": "Заменить «о Египте» на «об Египте».",
+        "translation_quote": "Они помнили, как отцы рассказывали им о Египте и Великом избавлении."
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 99
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "translation.html, абзац «Во многом они были сильны»",
+      "severity": "minor",
+      "source_quote": "They recalled hearing their fathers tell stories of Egypt, and of the Great Deliverance.",
+      "suggested_fix": "Заменить «о Египте» на «об Египте».",
+      "translation_quote": "Они помнили, как отцы рассказывали им о Египте и Великом избавлении."
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

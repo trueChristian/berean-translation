@@ -71669,6 +71669,50 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/rus/articles/9b22e638-a735-48fe-b31b-817c614538ca.html",
+      "html_sha256": "1f16f11b4ce8051584a957d48895278a6ac507bbd20d3585fad9837238338249",
+      "human_reviewed": false,
+      "id": "9b22e638-a735-48fe-b31b-817c614538ca",
+      "images": [
+        {
+          "alt": "Ценник с надписью «Всего 100,00 долларов»",
+          "public_path": "/images/articles/9b22e638-a735-48fe-b31b-817c614538ca-1.jpg"
+        },
+        {
+          "alt": "Линейный рисунок железной колесницы",
+          "public_path": "/images/articles/9b22e638-a735-48fe-b31b-817c614538ca-2.png"
+        },
+        {
+          "alt": "Двое мужчин играют в шаффлборд",
+          "public_path": "/images/articles/9b22e638-a735-48fe-b31b-817c614538ca-3.png"
+        },
+        {
+          "alt": "Мужчина сидит за компьютером, обхватив голову руками",
+          "public_path": "/images/articles/9b22e638-a735-48fe-b31b-817c614538ca-4.jpg"
+        },
+        {
+          "alt": "Большой дом и лужайка",
+          "public_path": "/images/articles/9b22e638-a735-48fe-b31b-817c614538ca-5.jpg"
+        }
+      ],
+      "issue_id": "05538f8e-6560-5f96-b313-890e87c05daf",
+      "language": "rus",
+      "language_tag": "ru",
+      "metadata": "content/rus/articles/9b22e638-a735-48fe-b31b-817c614538ca.json",
+      "metadata_sha256": "2975bef65d5eab7b790fd536f15150da653f9db4b9a7593ee55944af097d89d3",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": null,
+      "source_revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
+      "source_translation_key": "c0545377542c9c79b4c68a51b2c277c621b53fab8d7966c5cf122b68f56f1739",
+      "status": "ready",
+      "subtitle": "Взимание дани с хананеев",
+      "title": "Враг или союзник?",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/rus/articles/a1334217-82ac-49ef-8293-563122652b89.html",
       "html_sha256": "cfd8fd9a7fc7f2cbd33d2a1ca817e04023bb64e68f3a9780cb474d8191ddf571",
       "human_reviewed": false,
