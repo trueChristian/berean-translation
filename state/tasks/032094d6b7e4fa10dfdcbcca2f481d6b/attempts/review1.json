@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-31T17:55:34+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Body, “The dearth in our day” paragraph\",\"severity\":\"major\",\"source_quote\":\"To suggest that “all” means for youth (and older ones as well) to renounce sports and pleasure seeking may get a person tagged as “legalist.”\",\"suggested_fix\":\"Replace “mwanasheria” with “mtu anayeshikilia sheria kupita kiasi” or another Kiswahili rendering of “legalist.”\",\"translation_quote\":\"Kudokeza kwamba “vyote” humaanisha vijana (na hata wazee) waache michezo na kutafuta anasa kunaweza kumfanya mtu aitwe “mwanasheria.”\"},{\"location\":\"Schiemer quotation, second paragraph\",\"severity\":\"major\",\"source_quote\":\"But this Spirit is given to no one except he first submit himself to the cross and the chastisement of the Lord.\",\"suggested_fix\":\"Replace “Roho huyu hawi mtu yeyote isipokuwa ajitiishe kwanza” with “Hakuna mtu anayepewa Roho huyu isipokuwa ajitiishe kwanza.”\",\"translation_quote\":\"Lakini Roho huyu hawi mtu yeyote isipokuwa ajitiishe kwanza kwa msalaba na adhabu ya Bwana.\"}],\"findings_complete\":true,\"passed\":false,\"score\":92}",
+    "content_bytes": 1087,
+    "content_evidence_truncated": false,
+    "content_sha256": "48438853eb29f4d6ea9b0a6178f396f6fbd987e2689d54e4c37304509a4967a1",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1117,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 825,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 27412,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 27409,
+        "cached_tokens": 0
+      },
+      "total_tokens": 28529
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

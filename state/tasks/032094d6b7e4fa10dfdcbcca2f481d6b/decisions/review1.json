@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Body, “The dearth in our day” paragraph",
+      "severity": "major",
+      "source_quote": "To suggest that “all” means for youth (and older ones as well) to renounce sports and pleasure seeking may get a person tagged as “legalist.”",
+      "suggested_fix": "Replace “mwanasheria” with “mtu anayeshikilia sheria kupita kiasi” or another Kiswahili rendering of “legalist.”",
+      "translation_quote": "Kudokeza kwamba “vyote” humaanisha vijana (na hata wazee) waache michezo na kutafuta anasa kunaweza kumfanya mtu aitwe “mwanasheria.”"
+    },
+    {
+      "location": "Schiemer quotation, second paragraph",
+      "severity": "major",
+      "source_quote": "But this Spirit is given to no one except he first submit himself to the cross and the chastisement of the Lord.",
+      "suggested_fix": "Replace “Roho huyu hawi mtu yeyote isipokuwa ajitiishe kwanza” with “Hakuna mtu anayepewa Roho huyu isipokuwa ajitiishe kwanza.”",
+      "translation_quote": "Lakini Roho huyu hawi mtu yeyote isipokuwa ajitiishe kwanza kwa msalaba na adhabu ya Bwana."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

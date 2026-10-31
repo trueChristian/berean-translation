@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "eef123a7-30d2-4db8-ad4a-20cdbbb7c889",
+    "response_id": "chatcmpl-Ef7UTthY1ioVcfZJ2GEkEVA1DySaD",
+    "usage": {
+      "completion_tokens": 1117,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 825,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 27412,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 27409,
+        "cached_tokens": 0
+      },
+      "total_tokens": 28529
+    }
+  },
+  "received_at": "2026-10-31T17:55:34+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Body, “The dearth in our day” paragraph",
+        "severity": "major",
+        "source_quote": "To suggest that “all” means for youth (and older ones as well) to renounce sports and pleasure seeking may get a person tagged as “legalist.”",
+        "suggested_fix": "Replace “mwanasheria” with “mtu anayeshikilia sheria kupita kiasi” or another Kiswahili rendering of “legalist.”",
+        "translation_quote": "Kudokeza kwamba “vyote” humaanisha vijana (na hata wazee) waache michezo na kutafuta anasa kunaweza kumfanya mtu aitwe “mwanasheria.”"
+      },
+      {
+        "location": "Schiemer quotation, second paragraph",
+        "severity": "major",
+        "source_quote": "But this Spirit is given to no one except he first submit himself to the cross and the chastisement of the Lord.",
+        "suggested_fix": "Replace “Roho huyu hawi mtu yeyote isipokuwa ajitiishe kwanza” with “Hakuna mtu anayepewa Roho huyu isipokuwa ajitiishe kwanza.”",
+        "translation_quote": "Lakini Roho huyu hawi mtu yeyote isipokuwa ajitiishe kwanza kwa msalaba na adhabu ya Bwana."
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 92
+  }
+}
