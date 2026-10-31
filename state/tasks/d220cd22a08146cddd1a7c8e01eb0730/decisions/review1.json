@@ -1,0 +1,91 @@
+{
+  "findings": [
+    {
+      "location": "translation.html, paragraphs 11, 13, and 14",
+      "severity": "major",
+      "source_quote": "the prayers of others, and God’s faithfulness",
+      "suggested_fix": "तीनों स्थानों पर “ईश्वर की सच्चाई” को “ईश्वर की विश्वासयोग्यता” से बदलें।",
+      "translation_quote": "दूसरों की प्रार्थनाएँ, और ईश्वर की सच्चाई"
+    },
+    {
+      "location": "translation.html, paragraph 24",
+      "severity": "major",
+      "source_quote": "Today, I am thankful that God did not let me go.",
+      "suggested_fix": "इसे “आज मैं आभारी हूँ कि ईश्वर ने मुझे जाने नहीं दिया।” करें।",
+      "translation_quote": "आज मैं आभारी हूँ कि ईश्वर ने मुझे छोड़ने नहीं दिया।"
+    },
+    {
+      "location": "translation.html, paragraph 17",
+      "severity": "major",
+      "source_quote": "which the Lord, the righteous judge, shall give me at that day",
+      "suggested_fix": "इस अनुच्छेद में दोनों बार “जिसे धर्मी न्यायाधीश उस दिन मुझे देगा” को “जिसे प्रभु, जो धर्मी न्यायाधीश है, उस दिन मुझे देगा” करें।",
+      "translation_quote": "जिसे धर्मी न्यायाधीश उस दिन मुझे देगा"
+    },
+    {
+      "location": "translation.html, paragraph 21",
+      "severity": "major",
+      "source_quote": "Would I be clear before God?",
+      "suggested_fix": "इसे “क्या मैं ईश्वर के सामने निर्दोष होता?” करें, ताकि ईश्वर के सामने नैतिक स्थिति का प्रश्न स्पष्ट रहे।",
+      "translation_quote": "क्या मैं ईश्वर के सामने स्पष्ट होता?"
+    },
+    {
+      "location": "translation.html, paragraphs 17, 22, and 24",
+      "severity": "major",
+      "source_quote": "2 Timothy 4:7-8; 1 Corinthians 6:9-11; 1 Peter 3:15; James 4:8",
+      "suggested_fix": "संदर्भों के नाम क्रमशः “2 तीमुथियुस 4:7-8”, “1 कुरिन्थियों 6:9-11”, “1 पतरस 3:15” और “याकूब 4:8” करें; संख्याएँ और स्थान यथावत रखें।",
+      "translation_quote": "2 Timothy 4:7-8; 1 Corinthians 6:9-11; 1 Peter 3:15; James 4:8"
+    },
+    {
+      "location": "translation.html, paragraph 22, em",
+      "severity": "major",
+      "source_quote": "give an answer to every man that asketh [us] you a reason of the hope that is in [us] you with meekness and fear",
+      "suggested_fix": "उद्धरण को “...जो कोई हमसे हमारे भीतर की आशा का कारण पूछे, उसे नम्रता और भय के साथ उत्तर देने के लिए हमेशा तैयार रहें: –1 पतरस 3:15।” करें और मौजूदा em टैग बनाए रखें।",
+      "translation_quote": "प्रत्येक व्यक्ति को, जो हमसे कारण पूछे, हम आशा के कारण का वचन संयम और भय के साथ दें"
+    },
+    {
+      "location": "translation.html, paragraph 24, final sentence",
+      "severity": "major",
+      "source_quote": "for helping me find my ultimate source of love, security, and purpose—my Lord and Saviour, Jesus Christ",
+      "suggested_fix": "इसे “और प्रेम, सुरक्षा तथा उद्देश्य के मेरे परम स्रोत—मेरे प्रभु और उद्धारकर्ता, यीशु मसीह—को पाने में मेरी सहायता की।” करें।",
+      "translation_quote": "मुझे अपना परम स्रोत दिया—मेरा प्रभु और उद्धारकर्ता, यीसु मसीह—जो मेरा प्रेम, सुरक्षा और उद्देश्य है"
+    },
+    {
+      "location": "translation.html, paragraphs 19 and 20",
+      "severity": "minor",
+      "source_quote": "I may never see my baby again",
+      "suggested_fix": "इस कथन की सभी तीन आवृत्तियों में “अपनी बच्ची” को “अपने बच्चे” करें; मूल पाठ शिशु का लिंग नहीं बताता।",
+      "translation_quote": "अपनी बच्ची को फिर कभी न देख पाऊँ"
+    },
+    {
+      "location": "translation.html, paragraph 7",
+      "severity": "minor",
+      "source_quote": "a visiting minister (‘Mike’) and his family came to our church for meetings",
+      "suggested_fix": "“एक अतिथि मंत्री” को “एक अतिथि प्रचारक” करें, ताकि धार्मिक पद स्पष्ट हो।",
+      "translation_quote": "एक अतिथि मंत्री (‘माइक’) और उनका परिवार हमारे चर्च में मिटिंग्स के लिए आए"
+    },
+    {
+      "location": "translation.html, paragraph 9",
+      "severity": "minor",
+      "source_quote": "I can’t say that something major happened",
+      "suggested_fix": "“कोई बड़ा चमत्कार हुआ” को “कोई बड़ी घटना हुई” करें; स्रोत किसी चमत्कार का उल्लेख नहीं करता।",
+      "translation_quote": "मैं यह नहीं कह सकता कि कोई बड़ा चमत्कार हुआ"
+    },
+    {
+      "location": "translation.html, paragraph 23",
+      "severity": "minor",
+      "source_quote": "we were married on November 30, 2019",
+      "suggested_fix": "इसे “हमने 30 नवंबर, 2019 को विवाह किया।” करें; “कर बैठे” अनचाहे या असावधान निर्णय का भाव देता है।",
+      "translation_quote": "हम 30 नवंबर, 2019 को विवाह कर बैठे"
+    },
+    {
+      "location": "translation.html, paragraphs 3, 5, 8, 14, 19, and 24",
+      "severity": "minor",
+      "source_quote": "our first night; my feelings; do my own thing; what they had once stood for; in her mid-twenties; With each victory",
+      "suggested_fix": "क्रमशः “अपनी पहली रात”, “अपनी भावनाओं”, “अपनी मर्ज़ी से जीने”, “जिन सिद्धांतों पर वे कभी अडिग रहे थे”, “लगभग पच्चीस वर्ष की” और “प्रत्येक विजय” करें। अनुच्छेद 14 में मित्र के विषय में दोहराए गए “जिन चीज़ों के लिए खड़ा किया था” को भी “जिन सिद्धांतों पर वह कभी अडिग रहा था” करें।",
+      "translation_quote": "अपना पहला रात; अपने भावनाओं; अपना जीवन करने; जिनके लिए उन्होंने कभी खड़ा किया था / जिन चीज़ों के लिए खड़ा किया था; लगभग पच्चीस के मध्यवर्ती आयु की; प्रत्येक विजया"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
