@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-31T23:20:05+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"html، پیراگراف 2\",\n      \"severity\": \"major\",\n      \"source_quote\": \"was quickly turning into a rebellious teenager\",\n      \"suggested_fix\": \"متعلقہ عبارت کو بدلیں: «اور تیزی سے ایک باغی نوعمر بنتا جا رہا تھا۔»\",\n      \"translation_quote\": \"جلد ہی ایک فقدار نو عمر بنتا جا رہا تھا\"\n    },\n    {\n      \"location\": \"html، پیراگراف 9\",\n      \"severity\": \"major\",\n      \"source_quote\": \"I don’t remember that the conviction was any stronger than any other time.\",\n      \"suggested_fix\": \"لکھیں: «مجھے یاد نہیں کہ اُس وقت اپنے گناہ کا احساس کسی اور وقت سے زیادہ شدید تھا۔» یہاں conviction سے مراد گناہ کا باطنی احساس ہے، دلائل نہیں۔\",\n      \"translation_quote\": \"مجھے یاد نہیں کہ کسی وقت دلائل یا ملامت پہلے سے زیادہ مضبوط تھیں۔\"\n    },\n    {\n      \"location\": \"html، حادثے کے بعد غوروفکر والا پیراگراف\",\n      \"severity\": \"major\",\n      \"source_quote\": \"miraculously surviving an accident\",\n      \"suggested_fix\": \"«کسی معجزاتی حادثے سے بچ کر» کی جگہ «کسی حادثے میں معجزانہ طور پر بچ کر» لکھیں۔\",\n      \"translation_quote\": \"کسی معجزاتی حادثے سے بچ کر\"\n    },\n    {\n      \"location\": \"html، حادثے کے بعد غوروفکر والے پیراگراف کا آخری سوال\",\n      \"severity\": \"major\",\n      \"source_quote\": \"Would I be clear before God?\",\n      \"suggested_fix\": \"سوال کو یوں درست کریں: «کیا میں خدا کے حضور بے قصور ہوتا؟» یہاں مراد خدا کے سامنے اپنی روحانی حالت ہے، واضح ہونا نہیں۔\",\n      \"translation_quote\": \"کیا میں خدا کے سامنے واضح ہوتا؟\"\n    },\n    {\n      \"location\": \"html، پیجر والے پیراگراف اور اس کے اگلے پیراگراف میں عورت کے تمام پانچ اقوال\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"I may never see my baby again / Where’s my baby…?\",\n      \"suggested_fix\": \"ان پانچوں اقوال میں «بچی» کی جگہ «بچے» لکھیں تاکہ اصل میں غیرمتعین جنس کو لڑکی قرار نہ دیا جائے؛ مثلاً «شاید میں اپنے بچے کو دوبارہ نہ دیکھ سکوں» اور «میرا بچہ کہاں ہے؟»۔\",\n      \"translation_quote\": \"اپنی بچی کو دوبارہ نہ دیکھوں / میری بچی کہاں ہے\"\n    },\n    {\n      \"location\": \"html، پہلے امدادی کارکنوں والا پیراگراف\",\n      \"severity\": \"major\",\n      \"source_quote\": \"all we found was a car seat that wasn’t fastened in\",\n      \"suggested_fix\": \"متعلقہ عبارت کو بدلیں: «ہمیں صرف بچے کی ایک کار سیٹ ملی جو اپنی جگہ بندھی ہوئی نہیں تھی»۔ بچے کی مخصوص کار سیٹ ہونے کی تفصیل بحال کریں۔\",\n      \"translation_quote\": \"ہمیں صرف ایک سیٹ ملا جو بند نہیں تھی\"\n    },\n    {\n      \"location\": \"html، چاروں کتابی حوالہ جات\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"2 Timothy 4:7-8; 1 Corinthians 6:9-11; 1 Peter 3:15; James 4:8\",\n      \"suggested_fix\": \"حوالوں کو انھی مقامات اور عددی حدود کے ساتھ روایتی اردو ناموں میں لکھیں: «۲ تیمتھیس ۴:۷-۸»، «۱ کرنتھیوں ۶:۹-۱۱»، «۱ پطرس ۳:۱۵»، «یعقوب ۴:۸»۔\",\n      \"translation_quote\": \"2 Timothy 4:7-8؛ 1 Corinthians 6:9-11؛ 1 Peter 3:15؛ James 4:8\"\n    },\n    {\n      \"location\": \"html، 1 Peter 3:15 والا پیراگراف اور آخری پیراگراف\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"<em>…be ready always ... –1 Peter 3:15. </em> / <em>Draw nigh to God ... –James 4:8. </em>\",\n      \"suggested_fix\": \"ان دونوں مقامات پر متعلقہ ترجمہ شدہ اقتباس اور اس کے حوالہ کے گرد اصل کے مطابق <em>...</em> ٹیگ بحال کریں۔\",\n      \"translation_quote\": \"ہمیں چاہیے کہ ... ہر آدمی کو ... – 1 Peter 3:15۔ / نزدیک آ جاؤ خدا کے، اور وہ تمہارے قریب آ جائے گا۔۔۔ – James 4:8۔\"\n    },\n    {\n      \"location\": \"html، figure > img کا alt\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"One hiker helping another climb at sunset\",\n      \"suggested_fix\": \"صرف alt کی قدر بدلیں: «غروبِ آفتاب کے وقت ایک پیدل کوہ پیما دوسرے کو چڑھنے میں مدد دے رہا ہے»۔ اس سے چڑھنے کی تفصیل بھی بحال ہوگی اور دیوناگری لفظ بھی نکل جائے گا۔\",\n      \"translation_quote\": \"غروبِ آفتاب پر ایک پیدل راستہ طے کرنے वाला ایک فرد دوسرے کی مدد کر رہا ہے\"\n    },\n    {\n      \"location\": \"html، پیراگراف 1، 4، 5، اور شادی والا پیراگراف\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"in which my parents were born and raised / but I would have nothing to do with it / I withdrew more and more / Being married and having brothers ... helped me\",\n      \"suggested_fix\": \"متعلقہ حصوں کو بالترتیب درست کریں: «جس میں میرے والدین پیدا ہوئے اور پلے بڑھے تھے»، «مگر میں ان کی کسی کوشش کو قبول کرنے پر تیار نہیں تھا»، «میں اپنے خاندان اور چرچ سے مزید دور ہوتا گیا»، اور «شادی اور اُن بھائیوں کی شاگردی، ہمدردی اور دعائیہ حمایت نے مجھے کئی طرح سے خداوند میں بڑھنے میں مدد دی۔»\",\n      \"translation_quote\": \"جسی میں میرے والدین پیدا اور پرورش پائے تھے / مگر میں نے کسی بھی بات کا تعاون نہیں کیا / اور زیادہ عقب ہٹتا گیا / شادی شدہ ہونا اور بھائیوں کی طرف سے جو مجھے شاگردی، ہمدردی، اور دعاؤں کی حمایت کے ساتھ گھیرے رہے نے\"\n    },\n    {\n      \"location\": \"html، پیجر والے پیراگراف میں پیجر اور تباہ شدہ گاڑی کی تفصیل\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"as it crackled to life / We searched the mangled car\",\n      \"suggested_fix\": \"پہلی عبارت کو «جب وہ کڑکڑاہٹ کے ساتھ بج اٹھا» اور دوسری کو «ہم نے بری طرح تباہ شدہ گاڑی ... میں تلاش کی» سے درست کریں۔\",\n      \"translation_quote\": \"جب وہ زندگی پکارتے ہوئے کراکل کرنے لگا / ہم نے ٹھیلے ہوئے کار\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": false,\n  \"score\": 84\n}",
+    "content_bytes": 7155,
+    "content_evidence_truncated": false,
+    "content_sha256": "459eccf50371df04a67acb025c51328b8cc8547f9bace44540819ff7473415f9",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1706,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 70,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8650,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7547,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 10356
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}
