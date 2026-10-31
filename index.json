@@ -7816,6 +7816,46 @@
     {
       "ai_notice_required": true,
       "direction": "rtl",
+      "html": "content/ara/articles/a5c8b070-97f8-4050-9ac5-89af497287b0.html",
+      "html_sha256": "208cb9930b87e61dc7153cd36f08d51c360ef9b1b0a8b547c506f4b6e8325a77",
+      "human_reviewed": false,
+      "id": "a5c8b070-97f8-4050-9ac5-89af497287b0",
+      "images": [
+        {
+          "alt": "أسد وحيوانات أخرى تراقب طفلًا يرقص",
+          "public_path": "/images/articles/a5c8b070-97f8-4050-9ac5-89af497287b0-1.jpg"
+        },
+        {
+          "alt": "لوحة تصف اجتماع سي. إس. لويس وأصدقائه في الغرفة الخلفية لحانة",
+          "public_path": "/images/articles/a5c8b070-97f8-4050-9ac5-89af497287b0-2.jpg"
+        },
+        {
+          "alt": "غلاف مجلة تايم يتضمن صورة شخصية لسي. إس. لويس",
+          "public_path": "/images/articles/a5c8b070-97f8-4050-9ac5-89af497287b0-3.jpg"
+        },
+        {
+          "alt": "سي. إس. لويس جالسًا ومعه كتاب",
+          "public_path": "/images/articles/a5c8b070-97f8-4050-9ac5-89af497287b0-4.jpg"
+        }
+      ],
+      "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
+      "language": "ara",
+      "language_tag": "ar",
+      "metadata": "content/ara/articles/a5c8b070-97f8-4050-9ac5-89af497287b0.json",
+      "metadata_sha256": "de35a12235b845ec09d9274b0d643ca27b71a20b63cb9098daaf46343ba96171",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": null,
+      "source_revision": "ed75201a8e3b37913a14f4d949de33a7a0daa2c2",
+      "source_translation_key": "6db58cafff7cfe9f11556e892b54ec7a0015890307776806dd7acebca34a78c1",
+      "status": "ready",
+      "subtitle": "أيها المسيحي، احذر!",
+      "title": "الأسد والساحرة ووجبة هابي ميل:",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
       "html": "content/ara/articles/a5dc3764-e799-4138-82f0-87b245a77db8.html",
       "html_sha256": "1ac44f5eed500a3362ecdacdc0a367adf7781d18da81e5d384d4c3235f9f7206",
       "human_reviewed": false,
