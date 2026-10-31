@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "html — הציטוט המסכם תחת הכותרת „כניסה למלכות אלוהים”, הפסקה הראשונה",
+      "severity": "minor",
+      "source_quote": "the born-again children of God and new creatures in Christ Jesus",
+      "suggested_fix": "להחליף את „והבריאות החדשות במשיח ישוע” ב„והברואים החדשים במשיח ישוע”.",
+      "translation_quote": "ילדי אלוהים שנולדו מחדש והבריאות החדשות במשיח ישוע"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

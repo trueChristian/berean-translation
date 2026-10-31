@@ -34915,6 +34915,46 @@
     {
       "ai_notice_required": true,
       "direction": "rtl",
+      "html": "content/heb/articles/f87354d0-0bb8-4271-a8db-792c77d0d090.html",
+      "html_sha256": "4563bc7df714582bd5ce25ceb74379e1dff11bccab23773765988013ae9ee9e6",
+      "human_reviewed": false,
+      "id": "f87354d0-0bb8-4271-a8db-792c77d0d090",
+      "images": [
+        {
+          "alt": "תחריט המתאר מאמינים המקבלים את רוח הקודש בחג השבועות",
+          "public_path": "/images/articles/f87354d0-0bb8-4271-a8db-792c77d0d090-1.png"
+        },
+        {
+          "alt": "להבה מסוגננת",
+          "public_path": "/images/articles/f87354d0-0bb8-4271-a8db-792c77d0d090-2.jpg"
+        },
+        {
+          "alt": "יונה עפה לעבר יד מושטת",
+          "public_path": "/images/articles/f87354d0-0bb8-4271-a8db-792c77d0d090-3.png"
+        },
+        {
+          "alt": "תמרור המשלב פנים מחייכות ועצובות",
+          "public_path": "/images/articles/f87354d0-0bb8-4271-a8db-792c77d0d090-4.jpg"
+        }
+      ],
+      "issue_id": "05538f8e-6560-5f96-b313-890e87c05daf",
+      "language": "heb",
+      "language_tag": "he",
+      "metadata": "content/heb/articles/f87354d0-0bb8-4271-a8db-792c77d0d090.json",
+      "metadata_sha256": "b16e76fcddf48ad09f32bb470baf29a037ac834310d7afc5151136b7502de1c0",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": null,
+      "source_revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
+      "source_translation_key": "ecc35e8cd4c57e2b467ba1c07b4baf9d8db122db80e2c80ae9e2a166783c3de1",
+      "status": "ready",
+      "subtitle": null,
+      "title": "השבת טבילת רוח הקודש מידי הפנטקוסטליזם",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
       "html": "content/heb/articles/fb02a7e7-4fdc-4363-bea0-aa8a68b36f8b.html",
       "html_sha256": "f4fe418e79b93a4290e90906fed729f6653663148e5db2b071f45c1154b3e4a7",
       "human_reviewed": false,

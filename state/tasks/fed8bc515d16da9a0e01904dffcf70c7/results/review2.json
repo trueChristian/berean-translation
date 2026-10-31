@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "9cfd5858-2783-4e69-8fbc-64bbb68ca9ec",
+    "response_id": "chatcmpl-EfB27Y7yd5MgKaZBIctvdUzeTSQU9",
+    "usage": {
+      "completion_tokens": 260,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 126,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 26376,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 25273,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 26636
+    }
+  },
+  "received_at": "2026-10-31T21:41:20+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "html — הציטוט המסכם תחת הכותרת „כניסה למלכות אלוהים”, הפסקה הראשונה",
+        "severity": "minor",
+        "source_quote": "the born-again children of God and new creatures in Christ Jesus",
+        "suggested_fix": "להחליף את „והבריאות החדשות במשיח ישוע” ב„והברואים החדשים במשיח ישוע”.",
+        "translation_quote": "ילדי אלוהים שנולדו מחדש והבריאות החדשות במשיח ישוע"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}

@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "6f442d2760b246e6910ab4da00badf7e",
   "campaign": "auto-65ee0ebbd5c96dc74821cb8e39e50fba44246156c48f50c59b0ca0b173b02af5",
   "created_at": "2026-10-31T19:55:47+00:00",
   "events": [
@@ -28,25 +27,39 @@
         },
         "total_tokens": 40362
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 260,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 126,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 26376,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 25273,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 26636
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "Article, prophetic promises list, second item (Isaiah 4:4–5)",
-      "severity": "major",
-      "source_quote": "“When the Lord shall have washed away the filth of the daughters of Zion ... by the spirit of judgment, and by the spirit of burning. And the LORD will create upon every dwelling place of mount Zion ... a cloud and smoke by day, and the shining of a flaming fire by night” (Is. 4:4-5)",
-      "suggested_fix": "Replace the quoted verse and its reference with a Hebrew translation of Isaiah 4:4–5, for example: <em>כאשר האדון ישטוף את זוהמת בנות ציון ויסיר את דמי ירושלים מקרבה, ברוח משפט וברוח בער. ויברא יהוה על כל מקום בהר ציון ועל אספותיה ענן ועשן ביום, ואור אש להבה בלילה; כי על כל הכבוד תהיה חופה. ישעיהו ד:ד–ה</em>",
-      "translation_quote": "<em>עד אשר ייערֶה עלינו רוח ממרום, והמדבר יהיה לכרמל, והכרמל ליער ייחשב. ושכן במדבר משפט, וצדקה בכרמל תשב. ישעיהו לב:טו</em>"
-    },
-    {
-      "location": "Article, Peter Riedemann quotation, final third",
-      "severity": "major",
-      "source_quote": "“Through this work God enables the person to partake of his Son’s (1 Corinthians 2:9-10) nature and character, (2 Peter 1:3-8)”",
-      "suggested_fix": "Change the citation order and attribution to: „באמצעות פעולה זו אלוהים מאפשר לאדם להשתתף בטבעו של בנו (הראשונה לקורינתים ב:ט–י) ובאופיו (השנייה לפטרוס א:ג–ח)”.",
-      "translation_quote": "„באמצעות פעולה זו אלוהים מאפשר לאדם להשתתף בטבעו (השנייה לפטרוס א:ג–ח) ובאופיו של בנו (הראשונה לקורינתים ב:ט–י)”"
+      "location": "html — הציטוט המסכם תחת הכותרת „כניסה למלכות אלוהים”, הפסקה הראשונה",
+      "severity": "minor",
+      "source_quote": "the born-again children of God and new creatures in Christ Jesus",
+      "suggested_fix": "להחליף את „והבריאות החדשות במשיח ישוע” ב„והברואים החדשים במשיח ישוע”.",
+      "translation_quote": "ילדי אלוהים שנולדו מחדש והבריאות החדשות במשיח ישוע"
     }
   ],
+  "finished_at": "2026-10-31T21:41:20+00:00",
   "id": "fed8bc515d16da9a0e01904dffcf70c7",
   "issue_id": "05538f8e-6560-5f96-b313-890e87c05daf",
   "language": "heb",
@@ -135,9 +148,11 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/11b94d8a8e8a81e67a7fd3c0c4b463dbf9b119ac25d58f9d05d02c6535fa9d79.json",
   "stage": "review2",
   "stage_budget": {
@@ -151,7 +166,7 @@
     "total_reserved_usd": 1.12134,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "ecc35e8cd4c57e2b467ba1c07b4baf9d8db122db80e2c80ae9e2a166783c3de1",
   "translation_model_actual": "gpt-6.1-sol"
