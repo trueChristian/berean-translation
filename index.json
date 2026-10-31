@@ -76895,6 +76895,50 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/spa/articles/9b22e638-a735-48fe-b31b-817c614538ca.html",
+      "html_sha256": "8e7346cf9ab9762aa4a83b3125bdb1d5d49ec7a79de30fe7429387f32a3ea64c",
+      "human_reviewed": false,
+      "id": "9b22e638-a735-48fe-b31b-817c614538ca",
+      "images": [
+        {
+          "alt": "Etiqueta de precio marcada «Solo $100.00»",
+          "public_path": "/images/articles/9b22e638-a735-48fe-b31b-817c614538ca-1.jpg"
+        },
+        {
+          "alt": "Dibujo lineal de un carro de hierro",
+          "public_path": "/images/articles/9b22e638-a735-48fe-b31b-817c614538ca-2.png"
+        },
+        {
+          "alt": "Dos hombres jugando al tejo",
+          "public_path": "/images/articles/9b22e638-a735-48fe-b31b-817c614538ca-3.png"
+        },
+        {
+          "alt": "Un hombre sentado ante una computadora, con la cabeza entre las manos",
+          "public_path": "/images/articles/9b22e638-a735-48fe-b31b-817c614538ca-4.jpg"
+        },
+        {
+          "alt": "Una casa grande y su césped",
+          "public_path": "/images/articles/9b22e638-a735-48fe-b31b-817c614538ca-5.jpg"
+        }
+      ],
+      "issue_id": "05538f8e-6560-5f96-b313-890e87c05daf",
+      "language": "spa",
+      "language_tag": "es",
+      "metadata": "content/spa/articles/9b22e638-a735-48fe-b31b-817c614538ca.json",
+      "metadata_sha256": "0aff27e719ec8df5350f034c850ce3fff62b608b5f357dd972cc2c3e054fb470",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": null,
+      "source_revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
+      "source_translation_key": "c0545377542c9c79b4c68a51b2c277c621b53fab8d7966c5cf122b68f56f1739",
+      "status": "ready",
+      "subtitle": "Cobrar tributo a los cananeos",
+      "title": "¿Enemigo o aliado?",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/spa/articles/a1334217-82ac-49ef-8293-563122652b89.html",
       "html_sha256": "4706da464f0ba04f47ca757660c548e364f81af2660f80cd05447df6cf64c7c5",
       "human_reviewed": false,
