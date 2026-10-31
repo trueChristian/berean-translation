@@ -89954,6 +89954,34 @@
     {
       "ai_notice_required": true,
       "direction": "rtl",
+      "html": "content/urd/articles/8d329db2-4f64-4c9e-badb-7955e4c6f115.html",
+      "html_sha256": "3e29d98d02f5e6741c39ca7f505cc09e6c6d5120f48e035e32a30b095f3f3436",
+      "human_reviewed": false,
+      "id": "8d329db2-4f64-4c9e-badb-7955e4c6f115",
+      "images": [
+        {
+          "alt": "ایک منصف، قانون کی کتاب اور ترازو کی خطی تصویر",
+          "public_path": "/images/articles/8d329db2-4f64-4c9e-badb-7955e4c6f115-1.png"
+        }
+      ],
+      "issue_id": "05538f8e-6560-5f96-b313-890e87c05daf",
+      "language": "urd",
+      "language_tag": "ur",
+      "metadata": "content/urd/articles/8d329db2-4f64-4c9e-badb-7955e4c6f115.json",
+      "metadata_sha256": "c6ed2e0b4bfb52271417ff7a9edd3d9662b6da9d7d7b5451d8fa8b9b27bf9b86",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": null,
+      "source_revision": "ed75201a8e3b37913a14f4d949de33a7a0daa2c2",
+      "source_translation_key": "ebe7ecab4743984d98acf839285c9c41a9c35b253dfb10d6a7c258ac09968d3c",
+      "status": "ready",
+      "subtitle": null,
+      "title": "فیصلہ کرنے اور عمل کرنے پر تأملات",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
       "html": "content/urd/articles/8ef84e9e-0a7f-4a0b-8b7d-4e3a10f611e8.html",
       "html_sha256": "8b8d8b0e447c02b49649a069dce561d69491453c94b2d1750a137d894c4d1417",
       "human_reviewed": false,

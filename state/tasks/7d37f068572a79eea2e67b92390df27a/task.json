@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "a151f22d94b147f386998b10b1f9edd8",
   "campaign": "auto-f651dc88acaf360c938d28b807297850cc2006175c49db612944301329b7b3a6",
   "created_at": "2026-10-31T05:26:34+00:00",
   "events": [
@@ -28,25 +27,31 @@
         },
         "total_tokens": 13876
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 95,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 63,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9194,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8091,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 9289
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "Paragraph beginning “1 Corinthians 11:31-32 warns us”",
-      "severity": "major",
-      "source_quote": "“the Lord will judge us with chastening”",
-      "suggested_fix": "«خداوند ہمیں تادیب کے ذریعے سزا دے گا»",
-      "translation_quote": "«خداوند ہمیں تنبیہ کے ذریعے پرکھے گا»"
-    },
-    {
-      "location": "Paragraph after Hebrews 12:12-13, quote about the lame",
-      "severity": "minor",
-      "source_quote": "“so that the lame would be healed rather than turned away”",
-      "suggested_fix": "«تاکہ لنگڑا شفا پائے، نہ کہ اسے راستے سے ہٹا دیا جائے»",
-      "translation_quote": "«تاکہ لنگڑا بھٹک نہ جائے بلکہ شفا پائے»"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-31T18:38:41+00:00",
   "id": "7d37f068572a79eea2e67b92390df27a",
   "issue_id": "05538f8e-6560-5f96-b313-890e87c05daf",
   "language": "urd",
@@ -135,9 +140,11 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/e97fe9aff82d461e7578bdbbc7c1ef20420818301ed7a4f51a3b63088dc7f93e.json",
   "stage": "review2",
   "stage_budget": {
@@ -151,7 +158,7 @@
     "total_reserved_usd": 0.595181,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "ebe7ecab4743984d98acf839285c9c41a9c35b253dfb10d6a7c258ac09968d3c",
   "translation_model_actual": "gpt-6.1-sol"
