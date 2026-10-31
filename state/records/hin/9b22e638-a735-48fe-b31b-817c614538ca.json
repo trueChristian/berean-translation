@@ -33,6 +33,12 @@
       "event": "automatic_requested",
       "previous_task": "7d95f010841b472a35ec520ec4ad7271",
       "task": "fba9e8580e106557ffa2fdf0c081d1a5"
+    },
+    {
+      "at": "2026-10-31T16:01:59+00:00",
+      "event": "not_ready",
+      "reason": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[18]: source /article[1]/blockquote[1]/p[1]/em[3] ('start', 'em', ()); translation /article[1]/blockquote[1]/p[1] ('end', 'p')",
+      "task": "fba9e8580e106557ffa2fdf0c081d1a5"
     }
   ],
   "language": "hin",
