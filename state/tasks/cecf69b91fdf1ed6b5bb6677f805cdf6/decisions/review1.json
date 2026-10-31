@@ -1,0 +1,70 @@
+{
+  "findings": [
+    {
+      "location": "html, παράγραφος 4",
+      "severity": "major",
+      "source_quote": "in whose church of thousands of members he had been brought up",
+      "suggested_fix": "Αντικαταστήστε το «στην εκκλησία του οποίου είχε μεγαλώσει» με «στην εκκλησία του οποίου, που αριθμούσε χιλιάδες μέλη, είχε μεγαλώσει».",
+      "translation_quote": "στην εκκλησία του οποίου είχε μεγαλώσει"
+    },
+    {
+      "location": "html, παράγραφος 5, τελευταία πρόταση",
+      "severity": "major",
+      "source_quote": "After that experience George wrote little of his sermons",
+      "suggested_fix": "Αντικαταστήστε με «Μετά από εκείνη την εμπειρία ο George κατέγραφε μικρό μόνο μέρος των κηρυγμάτων του». Πρόκειται για την έκταση της γραπτής προετοιμασίας, όχι για τον αριθμό των κηρυγμάτων.",
+      "translation_quote": "Μετά από εκείνη την εμπειρία ο George έγραψε λίγα κηρύγματα"
+    },
+    {
+      "location": "html, παράγραφος 7",
+      "severity": "major",
+      "source_quote": "the “flickering torch”",
+      "suggested_fix": "Αντικαταστήστε το «φλεγμαίνουσα δάδα» με «δάδα που τρεμοσβήνει». Το «φλεγμαίνουσα» σημαίνει ότι παρουσιάζει φλεγμονή, όχι ότι η φλόγα της τρεμοσβήνει.",
+      "translation_quote": "η «φλεγμαίνουσα δάδα»"
+    },
+    {
+      "location": "html, παράγραφος 1",
+      "severity": "minor",
+      "source_quote": "19<sup>th</sup> century",
+      "suggested_fix": "Χρησιμοποιήστε «19<sup>ου</sup> αιώνα», διατηρώντας την ετικέτα sup.",
+      "translation_quote": "19<sup>th</sup> αιώνα"
+    },
+    {
+      "location": "html, παράγραφος 7",
+      "severity": "minor",
+      "source_quote": "in the second verse ... in the last verse",
+      "suggested_fix": "Αντικαταστήστε τα «στο δεύτερο στίχο» και «στον τελευταίο στίχο» με «στη δεύτερη στροφή» και «στην τελευταία στροφή», αντίστοιχα. Εδώ το verse αναφέρεται σε στροφές του ύμνου.",
+      "translation_quote": "στο δεύτερο στίχο ... στον τελευταίο στίχο"
+    },
+    {
+      "location": "html, παράγραφος 9, αρχή της παράθεσης",
+      "severity": "minor",
+      "source_quote": "in the manse of Innellan",
+      "suggested_fix": "Αντικαταστήστε το «στη μάνση του Innellan» με «στην κατοικία του ποιμένα στο Innellan».",
+      "translation_quote": "στη μάνση του Innellan"
+    },
+    {
+      "location": "html, παράγραφος 10",
+      "severity": "minor",
+      "source_quote": "Albert L. Peace, who was asked to write a tune",
+      "suggested_fix": "Αντικαταστήστε το «ο οποίος του ζητήθηκε» με «από τον οποίο ζητήθηκε».",
+      "translation_quote": "τον Albert L. Peace, ο οποίος του ζητήθηκε να γράψει μια μελωδία"
+    },
+    {
+      "location": "html, παράγραφος 11, εισαγωγή της παράθεσης",
+      "severity": "minor",
+      "source_quote": "Peace’s own account of the writing of this fine tune is as follows",
+      "suggested_fix": "Αντικαταστήστε το «Η ίδιος ο Peace αφηγείται» με «Ο ίδιος ο Peace αφηγείται».",
+      "translation_quote": "Η ίδιος ο Peace αφηγείται"
+    },
+    {
+      "location": "html, παράγραφος 11, παράθεση",
+      "severity": "minor",
+      "source_quote": "the ink of the first note was hardly dry when I had finished the tune",
+      "suggested_fix": "Αποδώστε ως «το μελάνι της πρώτης νότας μόλις που είχε προλάβει να στεγνώσει όταν τελείωσα τη μελωδία», ώστε να διατηρείται η έμφαση στην ταχύτητα της σύνθεσης.",
+      "translation_quote": "το μελάνι της πρώτης νότας μόλις είχε στεγνώσει όταν είχα τελειώσει τη μελωδία"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
