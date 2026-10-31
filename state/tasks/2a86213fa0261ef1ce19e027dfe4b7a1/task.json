@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": "6e0a8e8287d788a41ac79e92934647f842751d8f1bd2ab6798517a3c963c01c6",
   "base_metadata_sha256": "0659da919bfafd574a801a5468939235e9a4316d9825fb540301c2008d05e995",
-  "batch": "ea9bf6eefd314910bdfefbe7f40b567a",
   "campaign": "auto-ce7a45ff9bb0d0372cddcf8eb97bc4c2208a903cb8ac069dce7d60d09431d3b1",
   "created_at": "2026-10-31T05:27:26+00:00",
   "events": [
@@ -28,10 +27,45 @@
         },
         "total_tokens": 24698
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 986,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 795,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 25013,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 23910,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 25999
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "Lista de promessas, citação de Zacarias 4:6",
+      "severity": "major",
+      "source_quote": "“Not by might, nor by power, but by my spirit”",
+      "suggested_fix": "“Não por força, nem por poder, mas pelo meu Espírito”",
+      "translation_quote": "“Não por força, nem por violência, mas pelo meu Espírito”"
+    },
+    {
+      "location": "Participantes da natureza divina, parágrafo sobre Thomas von Imbroich",
+      "severity": "major",
+      "source_quote": "“Although he was martyred in his late 20s”",
+      "suggested_fix": "“Embora tenha sido martirizado no fim dos seus vinte anos”",
+      "translation_quote": "“Embora tenha sido martirizado com pouco mais de vinte anos”"
+    }
+  ],
   "id": "2a86213fa0261ef1ce19e027dfe4b7a1",
   "issue_id": "05538f8e-6560-5f96-b313-890e87c05daf",
   "language": "por",
@@ -120,11 +154,13 @@
     }
   },
   "protected": false,
+  "quality_score": 91,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/11b94d8a8e8a81e67a7fd3c0c4b463dbf9b119ac25d58f9d05d02c6535fa9d79.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "translate",
     "max_candidate_bytes": 120000,
@@ -138,7 +174,7 @@
     "total_reserved_usd": 0.139961,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "ecc35e8cd4c57e2b467ba1c07b4baf9d8db122db80e2c80ae9e2a166783c3de1",
   "translation_model_actual": "gpt-6-luna"

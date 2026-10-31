@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "b2e182bf-16ab-4e3c-86ca-090f360fc352",
+    "response_id": "chatcmpl-Ef3A1qRtKpsEjU6L0mNpz3iHo2BLM",
+    "usage": {
+      "completion_tokens": 986,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 795,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 25013,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 23910,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 25999
+    }
+  },
+  "received_at": "2026-10-31T16:04:04+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Lista de promessas, citação de Zacarias 4:6",
+        "severity": "major",
+        "source_quote": "“Not by might, nor by power, but by my spirit”",
+        "suggested_fix": "“Não por força, nem por poder, mas pelo meu Espírito”",
+        "translation_quote": "“Não por força, nem por violência, mas pelo meu Espírito”"
+      },
+      {
+        "location": "Participantes da natureza divina, parágrafo sobre Thomas von Imbroich",
+        "severity": "major",
+        "source_quote": "“Although he was martyred in his late 20s”",
+        "suggested_fix": "“Embora tenha sido martirizado no fim dos seus vinte anos”",
+        "translation_quote": "“Embora tenha sido martirizado com pouco mais de vinte anos”"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 91
+  }
+}
