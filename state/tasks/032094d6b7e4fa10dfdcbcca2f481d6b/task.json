@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "5cbc50ba70974316b153e427d820d559",
   "campaign": "auto-6bbb09d32050b9fbf80777d8cb4416f824d7f2c865e1bc6b668e0ddde890fb52",
   "created_at": "2026-10-31T11:04:53+00:00",
   "events": [
@@ -68,25 +67,31 @@
         },
         "total_tokens": 41980
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 997,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 959,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 27414,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 26311,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 28411
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "Body, “The dearth in our day” paragraph",
-      "severity": "major",
-      "source_quote": "To suggest that “all” means for youth (and older ones as well) to renounce sports and pleasure seeking may get a person tagged as “legalist.”",
-      "suggested_fix": "Replace “mwanasheria” with “mtu anayeshikilia sheria kupita kiasi” or another Kiswahili rendering of “legalist.”",
-      "translation_quote": "Kudokeza kwamba “vyote” humaanisha vijana (na hata wazee) waache michezo na kutafuta anasa kunaweza kumfanya mtu aitwe “mwanasheria.”"
-    },
-    {
-      "location": "Schiemer quotation, second paragraph",
-      "severity": "major",
-      "source_quote": "But this Spirit is given to no one except he first submit himself to the cross and the chastisement of the Lord.",
-      "suggested_fix": "Replace “Roho huyu hawi mtu yeyote isipokuwa ajitiishe kwanza” with “Hakuna mtu anayepewa Roho huyu isipokuwa ajitiishe kwanza.”",
-      "translation_quote": "Lakini Roho huyu hawi mtu yeyote isipokuwa ajitiishe kwanza kwa msalaba na adhabu ya Bwana."
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-31T23:33:44+00:00",
   "id": "032094d6b7e4fa10dfdcbcca2f481d6b",
   "issue_id": "05538f8e-6560-5f96-b313-890e87c05daf",
   "language": "swa",
@@ -175,7 +180,7 @@
     }
   },
   "protected": false,
-  "quality_score": 92,
+  "quality_score": 97,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
@@ -195,7 +200,7 @@
     "total_reserved_usd": 0.13993,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "ecc35e8cd4c57e2b467ba1c07b4baf9d8db122db80e2c80ae9e2a166783c3de1",
   "translation_model_actual": "gpt-6-luna"

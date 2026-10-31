@@ -83620,6 +83620,46 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/swa/articles/f87354d0-0bb8-4271-a8db-792c77d0d090.html",
+      "html_sha256": "84ff39e4da7a13b9887eee7ce4c8019903f26c6a97e7a584cc18a3c165bf2f04",
+      "human_reviewed": false,
+      "id": "f87354d0-0bb8-4271-a8db-792c77d0d090",
+      "images": [
+        {
+          "alt": "Mchoro unaoonyesha waumini wakimpokea Roho Mtakatifu siku ya Pentekoste",
+          "public_path": "/images/articles/f87354d0-0bb8-4271-a8db-792c77d0d090-1.png"
+        },
+        {
+          "alt": "Mwali wa moto uliochorwa kwa mtindo wa kisanaa",
+          "public_path": "/images/articles/f87354d0-0bb8-4271-a8db-792c77d0d090-2.jpg"
+        },
+        {
+          "alt": "Njiwa akiruka kuelekea kwenye mkono ulionyoshwa",
+          "public_path": "/images/articles/f87354d0-0bb8-4271-a8db-792c77d0d090-3.png"
+        },
+        {
+          "alt": "Alama ya barabarani yenye nyuso za tabasamu na huzuni",
+          "public_path": "/images/articles/f87354d0-0bb8-4271-a8db-792c77d0d090-4.jpg"
+        }
+      ],
+      "issue_id": "05538f8e-6560-5f96-b313-890e87c05daf",
+      "language": "swa",
+      "language_tag": "sw",
+      "metadata": "content/swa/articles/f87354d0-0bb8-4271-a8db-792c77d0d090.json",
+      "metadata_sha256": "49ea7dcdce58534a42c91878e6d4aab149bf62019c9115eeb9355ed49e1e2b12",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
+      "source_translation_key": "ecc35e8cd4c57e2b467ba1c07b4baf9d8db122db80e2c80ae9e2a166783c3de1",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Kukomboa Ubatizo wa Roho Mtakatifu kutoka kwa Upentekoste",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/swa/articles/fb02a7e7-4fdc-4363-bea0-aa8a68b36f8b.html",
       "html_sha256": "ae1ed7ff8718a5f967e9b7d7a79b2876a342fb177aa00f897052b160185eddb4",
       "human_reviewed": false,
