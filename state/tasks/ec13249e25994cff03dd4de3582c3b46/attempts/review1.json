@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-31T22:22:56+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Абзац 4\",\"severity\":\"minor\",\"source_quote\":\"Once more Divine powers and presences come into his life and this time he has no bargain to make with them.\",\"suggested_fix\":\"Но у Иавока Иаков пошёл дальше. И вновь божественные силы и присутствия входят в его жизнь, и на этот раз ему не о чем с ними торговаться.\",\"translation_quote\":\"И вновь божественные силы и присутствия входят в его жизнь, и на этот раз ему нечего с ними торговаться.\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 713,
+    "content_evidence_truncated": false,
+    "content_sha256": "dc1370d31283ec5c51bc10b0d1678086ef138f3392d7670bd8e21dd791e1bd11",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 657,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2357,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1254,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 3014
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

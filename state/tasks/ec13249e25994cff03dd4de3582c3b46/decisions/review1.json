@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Абзац 4",
+      "severity": "minor",
+      "source_quote": "Once more Divine powers and presences come into his life and this time he has no bargain to make with them.",
+      "suggested_fix": "Но у Иавока Иаков пошёл дальше. И вновь божественные силы и присутствия входят в его жизнь, и на этот раз ему не о чем с ними торговаться.",
+      "translation_quote": "И вновь божественные силы и присутствия входят в его жизнь, и на этот раз ему нечего с ними торговаться."
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}
