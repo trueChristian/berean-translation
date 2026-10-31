@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "2d46f126-6967-49c6-b856-16ee17025d41",
+    "response_id": "chatcmpl-Ef9gcSv2OqSJ9sqYb0BMbdpjP8RrG",
+    "usage": {
+      "completion_tokens": 703,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 96,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1371,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1368,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2074
+    }
+  },
+  "received_at": "2026-10-31T21:28:17+00:00",
+  "result": {
+    "html": "<article data-article-id=\"19270b64-7f17-4623-b361-5486354b7303\">\n  <figure><img src=\"/images/articles/19270b64-7f17-4623-b361-5486354b7303-1.jpg\" alt=\"Jacob descansa bajo una escalera llena de ángeles\"></figure>\n  <p>Para valorar correctamente cualquier etapa de la vida de un hombre, debemos considerarla como un capítulo del proceso de su crecimiento ascendente o descendente.</p>\n  <p>Consideremos a Jacob en Betel, cuando una escalera descendió del cielo y le manifestó el amor de Dios. Algunos critican el voto de Jacob en Betel por considerarlo egoísta e interesado. ¡Si Dios hace esto por Jacob, entonces Jacob hará esto por Dios! ¡Cuánto más noble es apoyarse en Dios con una generosidad como la de Abraham, que confía todo a Él!</p>\n  <p>Pero Jacob se encontraba en Betel justo al comienzo de su vida espiritual. Acababa de tener su primer atisbo de la visión que habría de dar forma a esa vida hasta el final. Naturalmente, no alcanza una gran altura de entrega absoluta. Expone con honestidad la situación tal como la percibe y toma a Dios por su palabra de la manera práctica y sencilla que lo caracterizaba.</p>\n  <p>Pero en el Jaboc, Jacob fue más lejos. Una vez más, poderes y presencias divinos irrumpen en su vida, y esta vez no tiene ningún trato que proponerles. No pide que lo protejan, ni que preserven sus bienes, ni que aplaquen la ira de su hermano. Solo pide la bendición que Dios puede concederle, y deja que esta adopte cualquier forma o tenga cualquier significado que Dios quiera darle. Ahora no negocia, sino que confía y adora. Fue entonces cuando su antiguo nombre, Jacob, el Suplantador, dejó de corresponderle, y se convirtió en Israel, «un príncipe de Dios».</p>\n  <figure><img src=\"/images/articles/19270b64-7f17-4623-b361-5486354b7303-2.jpg\" alt=\"Jacob se arrodilla ante un ángel alado\"></figure>\n  <p>Y así Dios nos lleva de una etapa a otra: de una visión estrecha y egoísta de nuestra relación con Él, a la hora en que, de todos sus dones, no pedimos nada más que la bendición que expresa el gozo que siente en nosotros y contribuye a nuestro gozo en Él.</p>\n</article>\n",
+    "section": null,
+    "subtitle": null,
+    "title": "Cómo crecen los hombres"
+  }
+}
