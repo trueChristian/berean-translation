@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "translation.html, δεύτερη παράγραφος",
+      "severity": "major",
+      "source_quote": "Except for “moments of shadowy eyesight”, he was totally blind by the age of 18.",
+      "suggested_fix": "Αντικαταστήστε το «ήταν εντελώς τυφλός μέχρι την ηλικία των 18 ετών» με το «είχε ήδη χάσει εντελώς την όρασή του στην ηλικία των 18 ετών».",
+      "translation_quote": "Εκτός από «στιγμές αμυδρής όρασης», ήταν εντελώς τυφλός μέχρι την ηλικία των 18 ετών."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}
