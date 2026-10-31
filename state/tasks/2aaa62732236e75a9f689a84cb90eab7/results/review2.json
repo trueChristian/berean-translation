@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "0208a404-355e-4302-be25-5eb34f8ec93b",
+    "response_id": "chatcmpl-Eeu0q8Pt6OKVmZ5x7GExaTI9GA6id",
+    "usage": {
+      "completion_tokens": 182,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4366,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4363,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4548
+    }
+  },
+  "received_at": "2026-10-31T05:22:48+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Heading 1",
+        "severity": "major",
+        "source_quote": "Get Thoroughly Dissatisfied with Yourself.",
+        "suggested_fix": "Usiridhike kabisa na hali yako mwenyewe.",
+        "translation_quote": "Usiridhike kabisa na hali yako mwenyewe."
+      },
+      {
+        "location": "Paragraph 7, final sentences",
+        "severity": "major",
+        "source_quote": "The devils ideals, moral standards, and mental attitudes are being accepted by you without you knowing it.",
+        "suggested_fix": "Unaanza kukubali bila kujua mawazo, viwango vya maadili na mitazamo ya akili ya watu waovu/ibilisi.",
+        "translation_quote": "Mawazo, viwango vya maadili na mitazamo ya akili ya ibilisi vinakubaliwa nawe bila wewe kujua."
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 91
+  }
+}

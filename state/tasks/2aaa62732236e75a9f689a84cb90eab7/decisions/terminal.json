@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Heading 1",
+      "severity": "major",
+      "source_quote": "Get Thoroughly Dissatisfied with Yourself.",
+      "suggested_fix": "Usiridhike kabisa na hali yako mwenyewe.",
+      "translation_quote": "Usiridhike kabisa na hali yako mwenyewe."
+    },
+    {
+      "location": "Paragraph 7, final sentences",
+      "severity": "major",
+      "source_quote": "The devils ideals, moral standards, and mental attitudes are being accepted by you without you knowing it.",
+      "suggested_fix": "Unaanza kukubali bila kujua mawazo, viwango vya maadili na mitazamo ya akili ya watu waovu/ibilisi.",
+      "translation_quote": "Mawazo, viwango vya maadili na mitazamo ya akili ya ibilisi vinakubaliwa nawe bila wewe kujua."
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; a recovery continuation must pass admission",
+  "stage": "terminal"
+}

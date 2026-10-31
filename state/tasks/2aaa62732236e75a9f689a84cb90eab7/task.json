@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "b60d9ee1ccf041cd8dea88e810774172",
   "campaign": "auto-497d6d7d5719f168e319e8b72e417dc1ac2eba52de7cf803189f18197ad9470c",
   "created_at": "2026-10-30T02:34:02+00:00",
   "events": [
@@ -68,25 +67,47 @@
         },
         "total_tokens": 5985
       }
-    }
-  ],
-  "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "Final paragraph",
-      "severity": "major",
-      "source_quote": "And who can tell how far it may spread?",
-      "suggested_fix": "Na ni nani ajuaye uamsho huo unaweza kuenea kwa kiwango gani?",
-      "translation_quote": "Na ni nani ajuaye utaenea kwa kiwango gani?"
     },
     {
-      "location": "Heading 5",
-      "severity": "minor",
-      "source_quote": "Make Restitution Wherever Possible.",
-      "suggested_fix": "Rekebisha makosa na ufanye marejesho pale inapowezekana.",
-      "translation_quote": "Fanya marekebisho na ulipize pale inapowezekana."
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 182,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4366,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 4363,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4548
+      }
     }
   ],
+  "failure": "Final review failed; a recovery continuation must pass admission",
+  "failure_kind": "quality_rejection",
+  "findings": [
+    {
+      "location": "Heading 1",
+      "severity": "major",
+      "source_quote": "Get Thoroughly Dissatisfied with Yourself.",
+      "suggested_fix": "Usiridhike kabisa na hali yako mwenyewe.",
+      "translation_quote": "Usiridhike kabisa na hali yako mwenyewe."
+    },
+    {
+      "location": "Paragraph 7, final sentences",
+      "severity": "major",
+      "source_quote": "The devils ideals, moral standards, and mental attitudes are being accepted by you without you knowing it.",
+      "suggested_fix": "Unaanza kukubali bila kujua mawazo, viwango vya maadili na mitazamo ya akili ya watu waovu/ibilisi.",
+      "translation_quote": "Mawazo, viwango vya maadili na mitazamo ya akili ya ibilisi vinakubaliwa nawe bila wewe kujua."
+    }
+  ],
+  "finished_at": "2026-10-31T05:22:48+00:00",
   "id": "2aaa62732236e75a9f689a84cb90eab7",
   "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
   "language": "swa",
@@ -175,7 +196,7 @@
     }
   },
   "protected": false,
-  "quality_score": 93,
+  "quality_score": 91,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
@@ -195,7 +216,7 @@
     "total_reserved_usd": 0.087385,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "af0a2811aaad8facf9c0fb70e4f79fedbc83ae6bb333beb07b2d95c0bed6e2e6",
   "translation_model_actual": "gpt-6-luna"
