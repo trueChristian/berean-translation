@@ -49669,6 +49669,46 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ita/articles/f87354d0-0bb8-4271-a8db-792c77d0d090.html",
+      "html_sha256": "5828f1a0f27c580d3add93a17c41a6ce5f69577b22e8db240956ee51c891b9ec",
+      "human_reviewed": false,
+      "id": "f87354d0-0bb8-4271-a8db-792c77d0d090",
+      "images": [
+        {
+          "alt": "Incisione di credenti che ricevono lo Spirito Santo a Pentecoste",
+          "public_path": "/images/articles/f87354d0-0bb8-4271-a8db-792c77d0d090-1.png"
+        },
+        {
+          "alt": "Fiamma stilizzata",
+          "public_path": "/images/articles/f87354d0-0bb8-4271-a8db-792c77d0d090-2.jpg"
+        },
+        {
+          "alt": "Una colomba che vola verso una mano tesa",
+          "public_path": "/images/articles/f87354d0-0bb8-4271-a8db-792c77d0d090-3.png"
+        },
+        {
+          "alt": "Segnale stradale che combina volti sorridenti e tristi",
+          "public_path": "/images/articles/f87354d0-0bb8-4271-a8db-792c77d0d090-4.jpg"
+        }
+      ],
+      "issue_id": "05538f8e-6560-5f96-b313-890e87c05daf",
+      "language": "ita",
+      "language_tag": "it",
+      "metadata": "content/ita/articles/f87354d0-0bb8-4271-a8db-792c77d0d090.json",
+      "metadata_sha256": "bdb7c7fa3cf1fe515a18dd105e830e6e1a4dc75d232ea3916a17620b4d24df88",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
+      "source_translation_key": "ecc35e8cd4c57e2b467ba1c07b4baf9d8db122db80e2c80ae9e2a166783c3de1",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Riscattare il battesimo dello Spirito Santo dal pentecostalismo",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ita/articles/fb02a7e7-4fdc-4363-bea0-aa8a68b36f8b.html",
       "html_sha256": "8be6683ce8b2ebcca51c075cd68aa19a80c3c7a836b779f31f01dbecde97d42d",
       "human_reviewed": false,
