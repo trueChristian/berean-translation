@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-31T21:41:43+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"translation.html — Εισαγωγή, δεύτερη παράγραφος\",\"severity\":\"major\",\"source_quote\":\"We are speaking of the baptism of the Holy Ghost and its captor, Pentecostalism.\",\"suggested_fix\":\"Αντικαταστήστε το «και τον δεσμώτη του, τον Πεντηκοστιανισμό» με «και εκείνον που το κρατά αιχμάλωτο, τον Πεντηκοστιανισμό».\",\"translation_quote\":\"Μιλάμε για το βάπτισμα του Αγίου Πνεύματος και τον δεσμώτη του, τον Πεντηκοστιανισμό.\"}],\"findings_complete\":true,\"passed\":false,\"score\":96}",
+    "content_bytes": 699,
+    "content_evidence_truncated": false,
+    "content_sha256": "36acbfb55df2f7bce35fa3279a458b054c454f80692d70cc23fbee283729548f",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 268,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 94,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 32221,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 31118,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 32489
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}
