@@ -13,9 +13,16 @@
       "event": "not_ready",
       "reason": "Missing, ambiguous, or truncated model response",
       "task": "9ecca7117efcd47b6251aede0a94981d"
+    },
+    {
+      "at": "2026-10-31T16:05:42+00:00",
+      "campaign": "auto-938d29bb129f18a0a10c37fcb2ba0d35e7f7375e0b6cff5acc3f33298aca0848",
+      "event": "automatic_requested",
+      "previous_task": "9ecca7117efcd47b6251aede0a94981d",
+      "task": "090fcc756981cef76bf4209e09ff6156"
     }
   ],
   "language": "ell",
-  "latest_task": "9ecca7117efcd47b6251aede0a94981d",
+  "latest_task": "090fcc756981cef76bf4209e09ff6156",
   "published": null
 }
