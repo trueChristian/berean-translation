@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "1 Korintiërs 1:18–29, aangehaalde gedeelte",
+      "severity": "major",
+      "source_quote": "For after that in the wisdom of God the world by wisdom knew not God",
+      "suggested_fix": "Vervang die frase deur: “Aangesien die wêreld God nie deur sy wysheid in die wysheid van God geken het nie”",
+      "translation_quote": "Aangesien die wêreld deur sy wysheid nie deur die wysheid van God vir God geken het nie"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; a recovery continuation must pass admission",
+  "stage": "terminal"
+}

@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-31T05:22:54+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"1 Korintiërs 1:18–29, aangehaalde gedeelte\",\"severity\":\"major\",\"source_quote\":\"For after that in the wisdom of God the world by wisdom knew not God\",\"suggested_fix\":\"Vervang die frase deur: “Aangesien die wêreld God nie deur sy wysheid in die wysheid van God geken het nie”\",\"translation_quote\":\"Aangesien die wêreld deur sy wysheid nie deur die wysheid van God vir God geken het nie\"}],\"findings_complete\":true,\"passed\":false,\"score\":94}",
+    "content_bytes": 473,
+    "content_evidence_truncated": false,
+    "content_sha256": "78f441815d79dcf493c06387691c573e26a61fad1575c02d86081f74cdd55761",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1249,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1101,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 10985,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9882,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 12234
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "e144d31a8ca4496c9c5cae928b49c29c",
   "campaign": "auto-6d9fa9a95075285c3a5d4f58ea1711e9606ca89b4e65464415cbacc417ff4439",
   "created_at": "2026-10-30T07:57:47+00:00",
   "events": [
@@ -68,18 +67,40 @@
         },
         "total_tokens": 16377
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1249,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 1101,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 10985,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 9882,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 12234
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; a recovery continuation must pass admission",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "Paragraph 5",
+      "location": "1 Korintiërs 1:18–29, aangehaalde gedeelte",
       "severity": "major",
-      "source_quote": "“the whole place had big pictures of lions, witches and wardrobes all over it.”",
-      "suggested_fix": "Replace “kleredrukkers” with “klerekaste”: “...groot prente van leeus, hekse en klerekaste was.”",
-      "translation_quote": "“...die hele plek vol groot prente van leeus, hekse en kleredrukkers was.”"
+      "source_quote": "For after that in the wisdom of God the world by wisdom knew not God",
+      "suggested_fix": "Vervang die frase deur: “Aangesien die wêreld God nie deur sy wysheid in die wysheid van God geken het nie”",
+      "translation_quote": "Aangesien die wêreld deur sy wysheid nie deur die wysheid van God vir God geken het nie"
     }
   ],
+  "finished_at": "2026-10-31T05:22:54+00:00",
   "id": "88404be4ede7be0d5d389a74dda8bbe6",
   "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
   "language": "afr",
@@ -188,7 +209,7 @@
     "total_reserved_usd": 0.091355,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "6db58cafff7cfe9f11556e892b54ec7a0015890307776806dd7acebca34a78c1",
   "translation_model_actual": "gpt-6-luna"
