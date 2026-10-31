@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "cec24e916517445c93c35d070a4b6559",
   "campaign": "auto-ee5206ea252c8e35412ecfc267fff215345b55117f464962c28c46b82a65cd49",
   "created_at": "2026-10-31T05:26:08+00:00",
   "events": [
@@ -28,25 +27,31 @@
         },
         "total_tokens": 16635
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 61,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 29,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 10773,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 9670,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 10834
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "Paragraph beginning “For forty years”",
-      "severity": "major",
-      "source_quote": "“not only of those in ward but of discharged prisoners, also, and of the families of prisoners both in duress and discharged”",
-      "suggested_fix": "“وہ نہ صرف زیرِ حراست قیدیوں بلکہ رہا ہونے والے قیدیوں اور قیدیوں کے خاندانوں کی بھی دیکھ بھال کرتی تھیں۔”",
-      "translation_quote": "“وہ نہ صرف وارڈ میں موجود قیدیوں بلکہ رہا ہونے والوں اور قیدیوں کے خاندانوں کی بھی، خواہ وہ قید میں ہوں یا آزاد، عمومی دیکھ بھال کرتی تھیں۔”"
-    },
-    {
-      "location": "Paragraph beginning “So much has happened”",
-      "severity": "major",
-      "source_quote": "“When it broke out, Russian soldiers stormed the Kakola prison”",
-      "suggested_fix": "“جب روسی انقلاب پھوٹ پڑا تو روسی سپاہیوں نے کاکولا جیل پر دھاوا بول دیا”",
-      "translation_quote": "“بغاوت پھوٹ پڑی تو روسی سپاہیوں نے کاکولا جیل پر دھاوا بول کر قیدیوں کو آزاد کر دیا۔”"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-31T18:38:27+00:00",
   "id": "e0a45bd32a5d80bc120fb3be011941b7",
   "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
   "language": "urd",
@@ -135,9 +140,11 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/17600542ba2281535063b51832b1ebaad8d50b662352bce1164408cda85adae0.json",
   "stage": "review2",
   "stage_budget": {
@@ -151,7 +158,7 @@
     "total_reserved_usd": 0.60583,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "385aeb5b4a7bcbf512c0d5b8310c2fd8f5f85b86d43d077caf80670ee93c6738",
   "translation_model_actual": "gpt-6.1-sol"

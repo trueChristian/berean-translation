@@ -87655,6 +87655,62 @@
     {
       "ai_notice_required": true,
       "direction": "rtl",
+      "html": "content/urd/articles/0c677d9e-ce73-4b27-a03f-d5457f7f1072.html",
+      "html_sha256": "48d35b2ba06d22594dd8f8fa0ecd7362cf14e82d7d0d016873e96956ed505346",
+      "human_reviewed": false,
+      "id": "0c677d9e-ce73-4b27-a03f-d5457f7f1072",
+      "images": [
+        {
+          "alt": "’ہمیں غلامی سے آزاد کرو‘ کے الفاظ کے اوپر ایک شخص جیل کی سلاخوں کے پار ہاتھ بڑھا رہا ہے",
+          "public_path": "/images/articles/0c677d9e-ce73-4b27-a03f-d5457f7f1072-1.jpg"
+        },
+        {
+          "alt": "سلاخوں کے پیچھے ایک قیدی، اس کے ساتھ ایک فرشتہ",
+          "public_path": "/images/articles/0c677d9e-ce73-4b27-a03f-d5457f7f1072-2.jpg"
+        },
+        {
+          "alt": "ایک بے سروسامان کمرے میں جمع عورتیں اور بچے",
+          "public_path": "/images/articles/0c677d9e-ce73-4b27-a03f-d5457f7f1072-3.jpg"
+        },
+        {
+          "alt": "ایک محافظ دھاری دار لباس پہنے قیدیوں کے سامنے سے گزر رہا ہے",
+          "public_path": "/images/articles/0c677d9e-ce73-4b27-a03f-d5457f7f1072-4.jpg"
+        },
+        {
+          "alt": "ایک عمارت کے باہر قیدیوں کی لمبی قطار کھڑی ہے",
+          "public_path": "/images/articles/0c677d9e-ce73-4b27-a03f-d5457f7f1072-5.jpg"
+        },
+        {
+          "alt": "شہر کے ایک چوک میں لوگ بکھرے ہوئے ہیں",
+          "public_path": "/images/articles/0c677d9e-ce73-4b27-a03f-d5457f7f1072-6.jpg"
+        },
+        {
+          "alt": "ایک عورت جیل کی کوٹھڑی میں بیٹھے لوگوں کو پڑھ کر سنا رہی ہے",
+          "public_path": "/images/articles/0c677d9e-ce73-4b27-a03f-d5457f7f1072-7.jpg"
+        },
+        {
+          "alt": "ایک بوتل کی پہلو کے بل پڑی ہوئی کندہ شدہ تصویر",
+          "public_path": "/images/articles/0c677d9e-ce73-4b27-a03f-d5457f7f1072-8.jpg"
+        }
+      ],
+      "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
+      "language": "urd",
+      "language_tag": "ur",
+      "metadata": "content/urd/articles/0c677d9e-ce73-4b27-a03f-d5457f7f1072.json",
+      "metadata_sha256": "22ee5ba669876c6a79518c8a0dfa7764756fde0d0ccb0d2e30319b3e34d80922",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": null,
+      "source_revision": "ed75201a8e3b37913a14f4d949de33a7a0daa2c2",
+      "source_translation_key": "385aeb5b4a7bcbf512c0d5b8310c2fd8f5f85b86d43d077caf80670ee93c6738",
+      "status": "ready",
+      "subtitle": "قیدیوں کا فرشتہ",
+      "title": "میتھلڈے وریڈے",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
       "html": "content/urd/articles/0f775a7f-1f39-428b-8d96-3d48095e1f49.html",
       "html_sha256": "4c1c9851efa88cb7841cd56b6ffbb92993537e3f97da0c4c9aa64b4658308ed6",
       "human_reviewed": false,
