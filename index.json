@@ -36205,6 +36205,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/hin/articles/3f679973-e351-4fe3-8930-e08d9fba23a5.html",
+      "html_sha256": "2f99a7f56427bc8a609f2fedf0cc38e22e1b2c9d81744a53a0c615391910e840",
+      "human_reviewed": false,
+      "id": "3f679973-e351-4fe3-8930-e08d9fba23a5",
+      "images": [
+        {
+          "alt": "सूर्यास्त के समय एक पदयात्री दूसरे को चढ़ने में मदद करता हुआ",
+          "public_path": "/images/articles/3f679973-e351-4fe3-8930-e08d9fba23a5-1.png"
+        }
+      ],
+      "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
+      "language": "hin",
+      "language_tag": "hi",
+      "metadata": "content/hin/articles/3f679973-e351-4fe3-8930-e08d9fba23a5.json",
+      "metadata_sha256": "d2e0c5554ee809ecd7f02ed60f4e8216f632610b3505619e3ca3c11f9cb52cae",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "युवाओं के लिए प्रेरणाएँ",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "d910d483e90bcd959841ed8e96903546f249749ffefaa1d05b277a01a16ea99d",
+      "status": "ready",
+      "subtitle": null,
+      "title": "ईश्वर ने मुझे जाने नहीं दिया",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/hin/articles/3feab4dd-c830-4ead-ad57-24d853847088.html",
       "html_sha256": "75deb06f9a4f9c175853b17a122d13e58b9d3ad3d6d6329d16b3158d13231b73",
       "human_reviewed": false,
