@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "93f1725e544843cc9549f70223d63ecc",
   "campaign": "auto-bd06d94ff201a38491939014c68ace944a892ec92c8f66911d405bd193cd8378",
   "created_at": "2026-10-31T16:07:10+00:00",
   "events": [
@@ -28,18 +27,31 @@
         },
         "total_tokens": 23124
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 67,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 35,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 15362,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 14259,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 15429
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "Les programmes cananéens > Programmes d’aide gouvernementale",
-      "severity": "major",
-      "source_quote": "“When it comes time for the draft, and you are called to give account”",
-      "suggested_fix": "Rétablir l’idée de la conscription, par exemple : « Lorsque viendra le moment de la conscription et que vous serez appelé à rendre des comptes… »",
-      "translation_quote": "« Lorsque viendra le moment de rendre des comptes et que vous serez appelé à répondre »"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-31T18:23:43+00:00",
   "id": "803e5176fb8f703408eedc5c339ffd97",
   "issue_id": "05538f8e-6560-5f96-b313-890e87c05daf",
   "language": "fra",
@@ -128,9 +140,11 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/ef720e03cdb021dd5aafad2a9f2dcacb6eb268d1ce43a85e50ea12388a581fb8.json",
   "stage": "review2",
   "stage_budget": {
@@ -144,7 +158,7 @@
     "total_reserved_usd": 1.005243,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "c0545377542c9c79b4c68a51b2c277c621b53fab8d7966c5cf122b68f56f1739",
   "translation_model_actual": "gpt-6.1-sol"

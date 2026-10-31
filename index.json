@@ -29789,6 +29789,50 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/fra/articles/9b22e638-a735-48fe-b31b-817c614538ca.html",
+      "html_sha256": "3fe4c8461b286351f7e50301a241f656ed106cb430232384ad211aae24dd00e4",
+      "human_reviewed": false,
+      "id": "9b22e638-a735-48fe-b31b-817c614538ca",
+      "images": [
+        {
+          "alt": "Étiquette de prix portant la mention « Seulement 100,00 $ »",
+          "public_path": "/images/articles/9b22e638-a735-48fe-b31b-817c614538ca-1.jpg"
+        },
+        {
+          "alt": "Dessin au trait d’un char de fer",
+          "public_path": "/images/articles/9b22e638-a735-48fe-b31b-817c614538ca-2.png"
+        },
+        {
+          "alt": "Deux hommes jouant au jeu de palets",
+          "public_path": "/images/articles/9b22e638-a735-48fe-b31b-817c614538ca-3.png"
+        },
+        {
+          "alt": "Un homme assis devant un ordinateur, la tête entre les mains",
+          "public_path": "/images/articles/9b22e638-a735-48fe-b31b-817c614538ca-4.jpg"
+        },
+        {
+          "alt": "Une grande maison et sa pelouse",
+          "public_path": "/images/articles/9b22e638-a735-48fe-b31b-817c614538ca-5.jpg"
+        }
+      ],
+      "issue_id": "05538f8e-6560-5f96-b313-890e87c05daf",
+      "language": "fra",
+      "language_tag": "fr",
+      "metadata": "content/fra/articles/9b22e638-a735-48fe-b31b-817c614538ca.json",
+      "metadata_sha256": "42d092f4c6a90915072f70c9fdc1fbbc4ea6b56ba811e7f66a8673e31e18ae83",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": null,
+      "source_revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
+      "source_translation_key": "c0545377542c9c79b4c68a51b2c277c621b53fab8d7966c5cf122b68f56f1739",
+      "status": "ready",
+      "subtitle": "Prélever un tribut sur les Cananéens",
+      "title": "Ennemi ou allié ?",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/fra/articles/a1334217-82ac-49ef-8293-563122652b89.html",
       "html_sha256": "3181df4857cd9dc6bd91f1b22ffaf84a02a6228d375a4404c7f31a8406bcd5a4",
       "human_reviewed": false,
