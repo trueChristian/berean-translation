@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "0258bb16-fe81-4dc6-bf78-e1cc3f4eef2b",
+    "response_id": "chatcmpl-Ef5yfFoXeRCclUq6WuTAUakQclBU7",
+    "usage": {
+      "completion_tokens": 1054,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 903,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 28202,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 28199,
+        "cached_tokens": 0
+      },
+      "total_tokens": 29256
+    }
+  },
+  "received_at": "2026-10-31T17:43:29+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Introduction, paragraph 2",
+        "severity": "major",
+        "source_quote": "“We are speaking of the baptism of the Holy Ghost and its captor, Pentecostalism.”",
+        "suggested_fix": "“ہم روح القدس کے بپتسمے اور اسے یرغمال بنانے والے، پینتیکوسٹ ازم، کی بات کر رہے ہیں۔”",
+        "translation_quote": "“ہم روح القدس کے بپتسمے اور اس کے اسیر، پینتیکوسٹ ازم، کی بات کر رہے ہیں۔”"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 93
+  }
+}

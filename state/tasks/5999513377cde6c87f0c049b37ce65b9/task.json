@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "81204e0f72534f1ba85b4a8d34354199",
   "campaign": "auto-2e7d3d63cd6e0ca5c1dd9c3b149b6f6575120deea84b5aa0ec671ab7a77b2a69",
   "created_at": "2026-10-31T06:08:00+00:00",
   "events": [
@@ -48,18 +47,40 @@
         },
         "total_tokens": 43976
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1054,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 903,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 28202,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 28199,
+          "cached_tokens": 0
+        },
+        "total_tokens": 29256
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; a recovery continuation must pass admission",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "HTML/metadata contract",
-      "severity": "critical",
-      "source_quote": "",
-      "suggested_fix": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[301]: source /article[1]/p[49]/em[1] ('start', 'em', ()); translation /article[1]/p[49] ('end', 'p')",
-      "translation_quote": ""
+      "location": "Introduction, paragraph 2",
+      "severity": "major",
+      "source_quote": "“We are speaking of the baptism of the Holy Ghost and its captor, Pentecostalism.”",
+      "suggested_fix": "“ہم روح القدس کے بپتسمے اور اسے یرغمال بنانے والے، پینتیکوسٹ ازم، کی بات کر رہے ہیں۔”",
+      "translation_quote": "“ہم روح القدس کے بپتسمے اور اس کے اسیر، پینتیکوسٹ ازم، کی بات کر رہے ہیں۔”"
     }
   ],
+  "finished_at": "2026-10-31T17:43:29+00:00",
   "id": "5999513377cde6c87f0c049b37ce65b9",
   "issue_id": "05538f8e-6560-5f96-b313-890e87c05daf",
   "language": "urd",
@@ -148,9 +169,11 @@
     }
   },
   "protected": false,
+  "quality_score": 93,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/11b94d8a8e8a81e67a7fd3c0c4b463dbf9b119ac25d58f9d05d02c6535fa9d79.json",
   "stage": "review2",
   "stage_budget": {
@@ -166,7 +189,7 @@
     "total_reserved_usd": 0.139944,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "ecc35e8cd4c57e2b467ba1c07b4baf9d8db122db80e2c80ae9e2a166783c3de1",
   "translation_model_actual": "gpt-6-luna"
