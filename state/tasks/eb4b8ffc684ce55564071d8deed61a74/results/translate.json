@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "7395c83e-ba90-4840-a800-89e904360a0e",
+    "response_id": "chatcmpl-EfBa4xnm8wJgJKZui4tic4ZalTxBE",
+    "usage": {
+      "completion_tokens": 725,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 63,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1368,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1365,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2093
+    }
+  },
+  "received_at": "2026-10-31T22:22:18+00:00",
+  "result": {
+    "html": "<article data-article-id=\"19270b64-7f17-4623-b361-5486354b7303\">\n  <figure><img src=\"/images/articles/19270b64-7f17-4623-b361-5486354b7303-1.jpg\" alt=\"Yakub beristirahat di bawah tangga yang dipenuhi para malaikat\"></figure>\n  <p>Untuk menilai dengan tepat setiap fase dalam kehidupan seseorang, kita harus memandangnya sebagai satu bab dalam proses pertumbuhannya ke arah yang lebih baik—atau lebih buruk.</p>\n  <p>Perhatikan Yakub di Betel, ketika sebuah tangga turun dari Surga untuk menyampaikan kasih Allah kepadanya. Ada yang mencela nazar Yakub di Betel karena dianggap egoistis dan penuh pamrih. Jika Allah melakukan ini bagi Yakub, maka Yakub akan melakukan ini bagi Allah! Betapa jauh lebih luhur jika seseorang bersandar kepada Allah dengan kemurahan hati seperti Abraham, yang mempercayakan segala sesuatu kepada-Nya!</p>\n  <p>Namun, di Betel, Yakub baru saja memulai kehidupan rohaninya. Ia baru saja mendapat sekilas pandangan tentang visi yang akan membentuk kehidupannya hingga akhir. Secara alami, ia belum mencapai tingkat penyerahan diri sepenuhnya. Ia dengan jujur menyatakan keadaan sebagaimana tampak baginya, dan menerima firman Allah dengan cara yang praktis dan apa adanya, yang memang menjadi ciri khasnya.</p>\n  <p>Namun, di Yabok, Yakub melangkah lebih jauh. Sekali lagi, kuasa dan kehadiran Ilahi masuk ke dalam kehidupannya, dan kali ini ia tidak mengajukan tawar-menawar kepada-Nya. Ia tidak meminta keselamatan bagi dirinya, perlindungan atas hartanya, ataupun agar amarah saudaranya diredakan. Ia hanya meminta berkat yang dapat dianugerahkan Allah, dan membiarkannya mengambil bentuk atau memiliki makna apa pun yang Allah kehendaki. Kini ia tidak mengajukan tawar-menawar, melainkan percaya dan menyembah. Di sanalah nama lamanya, Yakub, Sang Penipu, tidak lagi cocok baginya, dan ia menjadi Israel, “seorang pangeran Allah.”</p>\n  <figure><img src=\"/images/articles/19270b64-7f17-4623-b361-5486354b7303-2.jpg\" alt=\"Yakub berlutut di hadapan malaikat bersayap\"></figure>\n  <p>Demikianlah Allah membawa kita dari satu tahap ke tahap berikutnya, dari pandangan yang sempit dan egoistis tentang hubungan kita dengan-Nya, menuju saat ketika dari semua karunia-Nya kita tidak meminta apa pun selain berkat yang mengungkapkan sukacita-Nya atas diri kita dan membantu kita bersukacita di dalam Dia.</p>\n</article>\n",
+    "section": null,
+    "subtitle": null,
+    "title": "Bagaimana Manusia Bertumbuh"
+  }
+}
