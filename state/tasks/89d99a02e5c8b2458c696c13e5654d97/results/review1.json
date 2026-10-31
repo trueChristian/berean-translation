@@ -1,0 +1,66 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "24a1fb47-4ca9-4f03-8677-ca3d07822694",
+    "response_id": "chatcmpl-Ef9mK2VSWfvBLsh4VioqrdHzpz5qL",
+    "usage": {
+      "completion_tokens": 784,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 74,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5078,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5075,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5862
+    }
+  },
+  "received_at": "2026-10-31T21:28:23+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "translation.html, stycke 4",
+        "severity": "major",
+        "source_quote": "he was chosen minister of the Church of Scotland in the seaport summer resort of Innellan",
+        "suggested_fix": "Ersätt ”valdes han dock till minister i Church of Scotland i badorten Innellan” med ”utsågs han dock till präst inom Church of Scotland i hamn- och sommarorten Innellan”.",
+        "translation_quote": "valdes han dock till minister i Church of Scotland i badorten Innellan"
+      },
+      {
+        "location": "translation.html, stycke 1",
+        "severity": "minor",
+        "source_quote": "during the latter part of the 19<sup>th</sup> century",
+        "suggested_fix": "Skriv ”under senare delen av det 19<sup>:e</sup> århundradet” i stället för ”under senare delen av 19<sup>th</sup> seklet”.",
+        "translation_quote": "under senare delen av 19<sup>th</sup> seklet"
+      },
+      {
+        "location": "translation.html, stycke 5",
+        "severity": "minor",
+        "source_quote": "with perfect calmness ... gave out a new text",
+        "suggested_fix": "Ändra ”med fullständig lugn” till ”med fullständigt lugn” och ”gav ut en ny text” till ”angav en ny bibeltext”.",
+        "translation_quote": "med fullständig lugn ... gav ut en ny text"
+      },
+      {
+        "location": "translation.html, stycke 9",
+        "severity": "minor",
+        "source_quote": "caused me the most severe mental suffering ... this came like a dayspring from on high",
+        "suggested_fix": "Ändra ”den svåraste mentala lidanden” till ”det svåraste själsliga lidande” och ”som en daggry från höjden” till ”som en gryning från höjden”.",
+        "translation_quote": "orsakade mig den svåraste mentala lidanden ... denna kom som en daggry från höjden"
+      },
+      {
+        "location": "translation.html, referensstycket",
+        "severity": "minor",
+        "source_quote": "Author ... -George Matheson, 1842 – 1906 ... Composer ... -Albert L. Peace, 1844 – 1912",
+        "suggested_fix": "Översätt etiketterna ”Author” och ”Composer” till ”Författare” respektive ”Kompositör” och behåll övrig text och HTML oförändrade.",
+        "translation_quote": "Author&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-George Matheson, 1842 – 1906<br>\n  Composer&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Albert L. Peace, 1844 – 1912"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 93
+  }
+}
