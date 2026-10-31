@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "65806939-06ed-4d3d-a6ea-52a2d9d997e0",
+    "response_id": "chatcmpl-Eeu6LnKLykD1Y76OTvvW0DhS0wI1R",
+    "usage": {
+      "completion_tokens": 781,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 651,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4319,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3216,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 5100
+    }
+  },
+  "received_at": "2026-10-31T05:23:26+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, section 2, quotation",
+        "severity": "major",
+        "source_quote": "“The Kingdom of God suffereth violence, and the violent take it by force.”",
+        "suggested_fix": "שנו את ״מלכות השמים״ ל״מלכות האלוהים״ כדי לשמר את זהות המלכות שבמקור.",
+        "translation_quote": "״מלכות השמים בכוח תיכבש, והתקיפים יכבשוה״"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 94
+  }
+}

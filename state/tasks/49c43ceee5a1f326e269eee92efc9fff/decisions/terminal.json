@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, section 2, quotation",
+      "severity": "major",
+      "source_quote": "“The Kingdom of God suffereth violence, and the violent take it by force.”",
+      "suggested_fix": "שנו את ״מלכות השמים״ ל״מלכות האלוהים״ כדי לשמר את זהות המלכות שבמקור.",
+      "translation_quote": "״מלכות השמים בכוח תיכבש, והתקיפים יכבשוה״"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; a recovery continuation must pass admission",
+  "stage": "terminal"
+}

@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "fe31bc4a280a493aa5a5067f8a567b76",
   "campaign": "auto-6bda136155692ea8550ee190949eb45daf2e7b13e6347ee9b09ed0a0977bbee7",
   "created_at": "2026-10-30T02:34:44+00:00",
   "events": [
@@ -68,25 +67,40 @@
         },
         "total_tokens": 6086
       }
-    }
-  ],
-  "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "Paragraph under heading 7",
-      "severity": "major",
-      "source_quote": "The devils ideals, moral standards, and mental attitudes are being accepted by you without you knowing it.",
-      "suggested_fix": "Replace ״של השדים״ with ״של השטן״ to preserve the source’s attribution to the Devil: ״האידיאלים, אמות המידה המוסריות והגישות המנטליות של השטן מתקבלים על ידיכם בלי שתדעו זאת.״",
-      "translation_quote": "האידיאלים, אמות המידה המוסריות והגישות המנטליות של השדים מתקבלים על ידיכם בלי שתדעו זאת."
     },
     {
-      "location": "Paragraph under heading 4",
-      "severity": "minor",
-      "source_quote": "Until we allow the consciousness of sin to wound us, we will never develop a fear of evil.",
-      "suggested_fix": "Replace ״יראת חטא״ with ״חשש מפני הרוע״ to retain the source’s wording about fear of evil.",
-      "translation_quote": "כל עוד לא ניתן למודעות לחטא לפצוע אותנו, לעולם לא נפתח יראת חטא."
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 781,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 651,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4319,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 3216,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 5100
+      }
     }
   ],
+  "failure": "Final review failed; a recovery continuation must pass admission",
+  "failure_kind": "quality_rejection",
+  "findings": [
+    {
+      "location": "HTML, section 2, quotation",
+      "severity": "major",
+      "source_quote": "“The Kingdom of God suffereth violence, and the violent take it by force.”",
+      "suggested_fix": "שנו את ״מלכות השמים״ ל״מלכות האלוהים״ כדי לשמר את זהות המלכות שבמקור.",
+      "translation_quote": "״מלכות השמים בכוח תיכבש, והתקיפים יכבשוה״"
+    }
+  ],
+  "finished_at": "2026-10-31T05:23:26+00:00",
   "id": "49c43ceee5a1f326e269eee92efc9fff",
   "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
   "language": "heb",
@@ -195,7 +209,7 @@
     "total_reserved_usd": 0.087398,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "af0a2811aaad8facf9c0fb70e4f79fedbc83ae6bb333beb07b2d95c0bed6e2e6",
   "translation_model_actual": "gpt-6-luna"
