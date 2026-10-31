@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-31T22:08:57+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"19270b64-7f17-4623-b361-5486354b7303\\\">\\n  <figure><img src=\\\"/images/articles/19270b64-7f17-4623-b361-5486354b7303-1.jpg\\\" alt=\\\"Yakobo amepumzika chini ya ngazi iliyojaa malaika\\\"></figure>\\n  <p>Ili kutathmini kwa usahihi hatua yoyote katika maisha ya mtu yeyote, ni lazima tuichukulie kama sura katika mchakato wa kukua kwake kuelekea juu—au kuelekea chini.</p>\\n  <p>Fikiria kuhusu Yakobo huko Betheli, ambapo ngazi ilishuka kutoka Mbinguni, ikimdhihirishia upendo wa Mungu. Baadhi ya watu huikosoa nadhiri ya Yakobo huko Betheli kwa kuwa ya ubinafsi na ya kujinufaisha. Mungu akimfanyia Yakobo hili, basi Yakobo atamfanyia Mungu hili! Ni jambo bora zaidi kujikabidhi kwa Mungu kwa ukarimu kama ule wa Ibrahimu, ambaye humtegemea kabisa!</p>\\n  <p>Lakini huko Betheli, Yakobo alikuwa mwanzoni kabisa mwa maisha yake ya kiroho. Alikuwa ametoka tu kuona kwa mara ya kwanza maono ambayo yangeyaelekeza maisha yake hadi mwisho wake. Kwa kawaida hakuwa na uwezo wa kufikia kiwango cha juu cha kujikana nafsi. Alieleza kwa unyoofu hali hiyo jinsi alivyoiona, na kulichukulia neno la Mungu kuwa kweli kwa namna ya kivitendo na ya kawaida iliyokuwa na sifa yake.</p>\\n  <p>Lakini huko Yaboki, Yakobo alizidi hapo. Kwa mara nyingine tena, nguvu na uwepo wa Mungu viliingia katika maisha yake, na wakati huu hakuwa na makubaliano ya kufanya navyo. Hakuomba usalama wake mwenyewe, wala mali yake ihifadhiwe, wala hasira ya ndugu yake ipunguzwe. Aliomba tu baraka ambayo Mungu angeweza kutoa, na akamwachia Mungu aamue itachukua umbo gani au itakuwa na maana gani. Sasa hafanyi makubaliano yoyote, bali anatumaini na kumwabudu Mungu. Ndipo hapo jina lake la zamani, Yakobo, Mnyang’anyi, likaacha kumfaa mtu huyo, naye akawa Israeli, “Mkuu wa Mungu.”</p>\\n  <figure><img src=\\\"/images/articles/19270b64-7f17-4623-b361-5486354b7303-2.jpg\\\" alt=\\\"Yakobo amepiga magoti mbele ya malaika mwenye mabawa\\\"></figure>\\n  <p>Hivyo ndivyo Mungu anavyotuongoza kutoka hatua moja hadi nyingine, kutoka katika mitazamo finyu na ya ubinafsi kuhusu uhusiano wetu Naye, hadi wakati ambapo kati ya zawadi Zake zote hatuombi chochote isipokuwa baraka inayoonyesha furaha Yake ndani yetu, na kutusaidia kupata furaha yetu ndani Yake.</p>\\n</article>\\n\",\"section\":null,\"subtitle\":null,\"title\":\"Jinsi Watu Wanavyokua\"}",
+    "content_bytes": 2333,
+    "content_evidence_truncated": false,
+    "content_sha256": "a795203a837da75511093af3cd494902e9c26dd2f70b10e93ec23476f6f4f9d2",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 840,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 123,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1369,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1366,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2209
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}
