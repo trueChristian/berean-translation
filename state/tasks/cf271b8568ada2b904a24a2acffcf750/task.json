@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "ddb2b8b1edf347db9775a5eed9450eda",
   "campaign": "auto-e827548ee8705f67aa1f500089b79d82c8ee46ed52a5664f56fb8451c68a8a29",
   "created_at": "2026-10-30T07:45:21+00:00",
   "events": [
@@ -28,10 +27,45 @@
         },
         "total_tokens": 10112
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 976,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 712,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 10432,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 9329,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 11408
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "Paragraph beginning “Tegenwoordig lijkt het erop dat Hollywood…”",
+      "severity": "major",
+      "source_quote": "“Disney’s production over the years is filled with Masonic symbolism, occult over- and under-tones, mind control and indoctrination.”",
+      "suggested_fix": "Vervang “geestelijke beïnvloeding” door “gedachtenbeheersing” om “mind control” weer te geven.",
+      "translation_quote": "“De producties van Disney zijn door de jaren heen gevuld met vrijmetselaarssymboliek, occulte boventonen en ondertonen, geestelijke beïnvloeding en indoctrinatie.”"
+    },
+    {
+      "location": "Paragraph beginning “Clive Staples Lewis…”",
+      "severity": "major",
+      "source_quote": "“He was a literature professor at Oxford from 1925 to 1954”",
+      "suggested_fix": "Vervang “docent literatuur aan de universiteit van Oxford” door “hoogleraar literatuur aan de universiteit van Oxford”.",
+      "translation_quote": "“Van 1925 tot 1954 was hij docent literatuur aan de universiteit van Oxford”"
+    }
+  ],
   "id": "cf271b8568ada2b904a24a2acffcf750",
   "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
   "language": "nld",
@@ -120,11 +154,13 @@
     }
   },
   "protected": false,
+  "quality_score": 93,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/f2ce07ae07b7bb9037d663265e5daeece0e25b77fab6934f6d9167df093fe3dd.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "translate",
     "max_candidate_bytes": 120000,
@@ -138,7 +174,7 @@
     "total_reserved_usd": 0.091351,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "6db58cafff7cfe9f11556e892b54ec7a0015890307776806dd7acebca34a78c1",
   "translation_model_actual": "gpt-6-luna"

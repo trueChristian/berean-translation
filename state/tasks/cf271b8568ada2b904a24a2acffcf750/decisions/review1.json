@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph beginning “Tegenwoordig lijkt het erop dat Hollywood…”",
+      "severity": "major",
+      "source_quote": "“Disney’s production over the years is filled with Masonic symbolism, occult over- and under-tones, mind control and indoctrination.”",
+      "suggested_fix": "Vervang “geestelijke beïnvloeding” door “gedachtenbeheersing” om “mind control” weer te geven.",
+      "translation_quote": "“De producties van Disney zijn door de jaren heen gevuld met vrijmetselaarssymboliek, occulte boventonen en ondertonen, geestelijke beïnvloeding en indoctrinatie.”"
+    },
+    {
+      "location": "Paragraph beginning “Clive Staples Lewis…”",
+      "severity": "major",
+      "source_quote": "“He was a literature professor at Oxford from 1925 to 1954”",
+      "suggested_fix": "Vervang “docent literatuur aan de universiteit van Oxford” door “hoogleraar literatuur aan de universiteit van Oxford”.",
+      "translation_quote": "“Van 1925 tot 1954 was hij docent literatuur aan de universiteit van Oxford”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

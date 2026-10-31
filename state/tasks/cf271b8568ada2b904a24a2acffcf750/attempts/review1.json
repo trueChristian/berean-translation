@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-31T05:22:10+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph beginning “Tegenwoordig lijkt het erop dat Hollywood…”\",\"severity\":\"major\",\"source_quote\":\"“Disney’s production over the years is filled with Masonic symbolism, occult over- and under-tones, mind control and indoctrination.”\",\"suggested_fix\":\"Vervang “geestelijke beïnvloeding” door “gedachtenbeheersing” om “mind control” weer te geven.\",\"translation_quote\":\"“De producties van Disney zijn door de jaren heen gevuld met vrijmetselaarssymboliek, occulte boventonen en ondertonen, geestelijke beïnvloeding en indoctrinatie.”\"},{\"location\":\"Paragraph beginning “Clive Staples Lewis…”\",\"severity\":\"major\",\"source_quote\":\"“He was a literature professor at Oxford from 1925 to 1954”\",\"suggested_fix\":\"Vervang “docent literatuur aan de universiteit van Oxford” door “hoogleraar literatuur aan de universiteit van Oxford”.\",\"translation_quote\":\"“Van 1925 tot 1954 was hij docent literatuur aan de universiteit van Oxford”\"}],\"findings_complete\":true,\"passed\":false,\"score\":93}",
+    "content_bytes": 1057,
+    "content_evidence_truncated": false,
+    "content_sha256": "4d16cd7729f9543dc8cdf203c24e4a49c8d32eb691b5f6a4b55b900f44968e2c",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 976,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 712,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 10432,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9329,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 11408
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}
