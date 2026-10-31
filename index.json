@@ -4910,6 +4910,46 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/afr/articles/f87354d0-0bb8-4271-a8db-792c77d0d090.html",
+      "html_sha256": "e163bab7abda1658e1f950b099696f406664df1537a860f17cffdd422801ab59",
+      "human_reviewed": false,
+      "id": "f87354d0-0bb8-4271-a8db-792c77d0d090",
+      "images": [
+        {
+          "alt": "Gravering van gelowiges wat die Heilige Gees op Pinkster ontvang",
+          "public_path": "/images/articles/f87354d0-0bb8-4271-a8db-792c77d0d090-1.png"
+        },
+        {
+          "alt": "Gestileerde vlam",
+          "public_path": "/images/articles/f87354d0-0bb8-4271-a8db-792c77d0d090-2.jpg"
+        },
+        {
+          "alt": "’n Duif wat na ’n uitgestrekte hand vlieg",
+          "public_path": "/images/articles/f87354d0-0bb8-4271-a8db-792c77d0d090-3.png"
+        },
+        {
+          "alt": "Verkeersteken met glimlaggende en hartseer gesigte",
+          "public_path": "/images/articles/f87354d0-0bb8-4271-a8db-792c77d0d090-4.jpg"
+        }
+      ],
+      "issue_id": "05538f8e-6560-5f96-b313-890e87c05daf",
+      "language": "afr",
+      "language_tag": "af",
+      "metadata": "content/afr/articles/f87354d0-0bb8-4271-a8db-792c77d0d090.json",
+      "metadata_sha256": "caa49d4017eccbd0ca6904dd139f946309b8c452d0eaa75abc132b18f40692bf",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": null,
+      "source_revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
+      "source_translation_key": "ecc35e8cd4c57e2b467ba1c07b4baf9d8db122db80e2c80ae9e2a166783c3de1",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Die doop met die Heilige Gees uit die hande van die Pinksterbeweging red",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/afr/articles/f896076d-76e2-4e42-8532-6cb2a3c029f0.html",
       "html_sha256": "43219c655292cce42235350cd4a5fa8c18e3a43f87280e8a3f9b498a0bb31385",
       "human_reviewed": false,

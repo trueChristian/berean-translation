@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "e8cda8a2bce74c7098cdd668a6925a0d",
   "campaign": "auto-12a0c475c9def4d7b140e890858e873f49a7bde7f94058856742d8de3b27288e",
   "created_at": "2026-10-31T22:24:41+00:00",
   "events": [
@@ -28,18 +27,31 @@
         },
         "total_tokens": 41715
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 82,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 50,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 27200,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 26097,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 27282
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "The problem and the promise — Psalm 104:30 discussion",
-      "severity": "major",
-      "source_quote": "“The last Adam is called a ‘quickening spirit.’ 1 Co. 15:45 The word quickening is old English for life-giving or life-imparting.”",
-      "suggested_fix": "Replace “lewende Gees” with “lewendmakende Gees” so it conveys the source’s explanation that the Spirit gives or imparts life.",
-      "translation_quote": "“Die laaste Adam word ’n ‘lewende Gees’ genoem. 1 Ko. 15:45”"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-31T23:06:15+00:00",
   "id": "b16bdda4ed830b69b5d23fcb9a7ca885",
   "issue_id": "05538f8e-6560-5f96-b313-890e87c05daf",
   "language": "afr",
@@ -128,9 +140,11 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/11b94d8a8e8a81e67a7fd3c0c4b463dbf9b119ac25d58f9d05d02c6535fa9d79.json",
   "stage": "review2",
   "stage_budget": {
@@ -144,7 +158,7 @@
     "total_reserved_usd": 1.108233,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "ecc35e8cd4c57e2b467ba1c07b4baf9d8db122db80e2c80ae9e2a166783c3de1",
   "translation_model_actual": "gpt-6.1-sol"
