@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "e8d4fe1863694f478f4e653d3dc8c47c",
   "campaign": "auto-938d29bb129f18a0a10c37fcb2ba0d35e7f7375e0b6cff5acc3f33298aca0848",
   "created_at": "2026-10-31T16:05:42+00:00",
   "events": [
@@ -68,18 +67,31 @@
         },
         "total_tokens": 51806
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 102,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 70,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 32232,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 31129,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 32334
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "translation.html — Εισαγωγή, δεύτερη παράγραφος",
-      "severity": "major",
-      "source_quote": "We are speaking of the baptism of the Holy Ghost and its captor, Pentecostalism.",
-      "suggested_fix": "Αντικαταστήστε το «και τον δεσμώτη του, τον Πεντηκοστιανισμό» με «και εκείνον που το κρατά αιχμάλωτο, τον Πεντηκοστιανισμό».",
-      "translation_quote": "Μιλάμε για το βάπτισμα του Αγίου Πνεύματος και τον δεσμώτη του, τον Πεντηκοστιανισμό."
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-31T22:09:21+00:00",
   "id": "090fcc756981cef76bf4209e09ff6156",
   "issue_id": "05538f8e-6560-5f96-b313-890e87c05daf",
   "language": "ell",
@@ -168,7 +180,7 @@
     }
   },
   "protected": false,
-  "quality_score": 96,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6.1-sol",
@@ -188,7 +200,7 @@
     "total_reserved_usd": 3.007598,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "ecc35e8cd4c57e2b467ba1c07b4baf9d8db122db80e2c80ae9e2a166783c3de1",
   "translation_model_actual": "gpt-6.1-sol"

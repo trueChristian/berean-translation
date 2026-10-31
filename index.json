@@ -26566,6 +26566,46 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ell/articles/f87354d0-0bb8-4271-a8db-792c77d0d090.html",
+      "html_sha256": "74d8d41676c0fe4ff944472d9d1af1458669582bdd88b4135b1fd40ac10750f2",
+      "human_reviewed": false,
+      "id": "f87354d0-0bb8-4271-a8db-792c77d0d090",
+      "images": [
+        {
+          "alt": "Χαρακτικό με πιστούς που λαμβάνουν το Άγιο Πνεύμα την Πεντηκοστή",
+          "public_path": "/images/articles/f87354d0-0bb8-4271-a8db-792c77d0d090-1.png"
+        },
+        {
+          "alt": "Σχηματοποιημένη φλόγα",
+          "public_path": "/images/articles/f87354d0-0bb8-4271-a8db-792c77d0d090-2.jpg"
+        },
+        {
+          "alt": "Ένα περιστέρι που πετά προς ένα απλωμένο χέρι",
+          "public_path": "/images/articles/f87354d0-0bb8-4271-a8db-792c77d0d090-3.png"
+        },
+        {
+          "alt": "Οδική πινακίδα που συνδυάζει χαμογελαστά και λυπημένα πρόσωπα",
+          "public_path": "/images/articles/f87354d0-0bb8-4271-a8db-792c77d0d090-4.jpg"
+        }
+      ],
+      "issue_id": "05538f8e-6560-5f96-b313-890e87c05daf",
+      "language": "ell",
+      "language_tag": "el",
+      "metadata": "content/ell/articles/f87354d0-0bb8-4271-a8db-792c77d0d090.json",
+      "metadata_sha256": "5e7d539ef1cf78ac55779e851249e3ec74e27736de6cc1ab4a56c3bbd0ef402a",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": null,
+      "source_revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
+      "source_translation_key": "ecc35e8cd4c57e2b467ba1c07b4baf9d8db122db80e2c80ae9e2a166783c3de1",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Διασώζοντας το βάπτισμα του Αγίου Πνεύματος από τον Πεντηκοστιανισμό",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ell/articles/fb65688b-5aaf-4194-a345-31f6f1355389.html",
       "html_sha256": "3ab5bca28e113962db540b22d082d7392c295ade14b4e4dfbbf4d4f25fc5b3ab",
       "human_reviewed": false,
