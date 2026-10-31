@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "647cbc86-7acc-4356-b5de-c6ac7078dcf0",
+    "response_id": "chatcmpl-Ef7JLGdZeBY1t81FV8zy3MYvzEy8g",
+    "usage": {
+      "completion_tokens": 740,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 614,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 26715,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 25612,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 27455
+    }
+  },
+  "received_at": "2026-10-31T17:43:26+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragrafo sotto «Partecipi della natura divina»",
+        "severity": "major",
+        "source_quote": "Although he was martyred in his late 20s",
+        "suggested_fix": "Sostituire «poco dopo aver compiuto vent’anni» con «verso la fine dei suoi vent’anni».",
+        "translation_quote": "Sebbene fosse martirizzato poco dopo aver compiuto vent’anni"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 94
+  }
+}

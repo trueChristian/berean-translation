@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-31T17:43:26+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragrafo sotto «Partecipi della natura divina»\",\"severity\":\"major\",\"source_quote\":\"Although he was martyred in his late 20s\",\"suggested_fix\":\"Sostituire «poco dopo aver compiuto vent’anni» con «verso la fine dei suoi vent’anni».\",\"translation_quote\":\"Sebbene fosse martirizzato poco dopo aver compiuto vent’anni\"}],\"findings_complete\":true,\"passed\":false,\"score\":94}",
+    "content_bytes": 405,
+    "content_evidence_truncated": false,
+    "content_sha256": "4aaf975ebede1cb7054445c0672ec4965f3726e561b2bd699334404ccc35b690",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 740,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 614,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 26715,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 25612,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 27455
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

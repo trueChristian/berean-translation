@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragrafo sotto «Partecipi della natura divina»",
+      "severity": "major",
+      "source_quote": "Although he was martyred in his late 20s",
+      "suggested_fix": "Sostituire «poco dopo aver compiuto vent’anni» con «verso la fine dei suoi vent’anni».",
+      "translation_quote": "Sebbene fosse martirizzato poco dopo aver compiuto vent’anni"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
