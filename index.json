@@ -3350,12 +3350,12 @@
       "ai_notice_required": true,
       "direction": "ltr",
       "html": "content/afr/articles/9b22e638-a735-48fe-b31b-817c614538ca.html",
-      "html_sha256": "252ef15ed9c00bfcea6964d63d6368db278996e77c83a0bd41e5d8aea699eb17",
+      "html_sha256": "260acf055bbc991c3b2012f12d7b64804b5e80622f9cb6b6745873e51855843b",
       "human_reviewed": false,
       "id": "9b22e638-a735-48fe-b31b-817c614538ca",
       "images": [
         {
-          "alt": "Pryskaartjie gemerk ‘Slegs $100.00’",
+          "alt": "Pryskaartjie met die woorde ‘Slegs $100,00’",
           "public_path": "/images/articles/9b22e638-a735-48fe-b31b-817c614538ca-1.jpg"
         },
         {
@@ -3363,7 +3363,7 @@
           "public_path": "/images/articles/9b22e638-a735-48fe-b31b-817c614538ca-2.png"
         },
         {
-          "alt": "Twee mans wat shuffleboard speel",
+          "alt": "Twee mans speel shuffleboard",
           "public_path": "/images/articles/9b22e638-a735-48fe-b31b-817c614538ca-3.png"
         },
         {
@@ -3381,14 +3381,14 @@
       "metadata": "content/afr/articles/9b22e638-a735-48fe-b31b-817c614538ca.json",
       "metadata_sha256": "b780ad2edbfc71c35d3638a4ebd11e53053be9e3a2e54e6a0684b827b0a915eb",
       "provider": "OpenAI",
-      "review_model": "gpt-6-luna",
+      "review_model": "gpt-6.1-sol",
       "section": null,
-      "source_revision": "3a4d9237b136f074ca1fae9ed0a26c4304577934",
-      "source_translation_key": "a748a750308bd832e277e952779df66318e4e2d2a2e40c0ec8292333d320ccad",
-      "status": "stale",
+      "source_revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
+      "source_translation_key": "c0545377542c9c79b4c68a51b2c277c621b53fab8d7966c5cf122b68f56f1739",
+      "status": "ready",
       "subtitle": "Skatting van die Kanaäniete eis",
       "title": "Vyand of bondgenoot?",
-      "translation_model": "gpt-6-luna"
+      "translation_model": "gpt-6.1-sol"
     },
     {
       "ai_notice_required": true,

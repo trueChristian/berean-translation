@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-31T12:59:01+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"translation.html — paragraaf oor Kaleb, tussen hakies\",\"severity\":\"minor\",\"source_quote\":\"What muscles those guys must have had!\",\"suggested_fix\":\"Vervang “Wat ’n spiere moes daardie ouens gehad het!” met “Watter spiere moes daardie ouens gehad het!”\",\"translation_quote\":\"Wat ’n spiere moes daardie ouens gehad het!\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 410,
+    "content_evidence_truncated": false,
+    "content_sha256": "734b770a6e290a75c755b4ce836d38e7b76d09e54a703d4c06f68a6535dc9063",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 182,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 61,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 15724,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 14621,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 15906
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review2",
+  "translation_attempts": 1
+}

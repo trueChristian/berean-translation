@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": "252ef15ed9c00bfcea6964d63d6368db278996e77c83a0bd41e5d8aea699eb17",
   "base_metadata_sha256": "b780ad2edbfc71c35d3638a4ebd11e53053be9e3a2e54e6a0684b827b0a915eb",
-  "batch": "82d6bb10b73d4e1cba2c88daad2d32b5",
   "campaign": "auto-90731551ea3bd951718b506c958fce991a341db13db252e8798e36225215202d",
   "created_at": "2026-10-31T06:28:46+00:00",
   "events": [
@@ -28,18 +27,39 @@
         },
         "total_tokens": 23817
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 182,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 61,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 15724,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 14621,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 15906
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "HTML/metadata contract",
-      "severity": "critical",
-      "source_quote": "",
-      "suggested_fix": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[14]: source /article[1]/blockquote[1]/p[1]/em[1] ('start', 'em', ()); translation /article[1]/blockquote[1]/p[1] ('end', 'p')",
-      "translation_quote": ""
+      "location": "translation.html — paragraaf oor Kaleb, tussen hakies",
+      "severity": "minor",
+      "source_quote": "What muscles those guys must have had!",
+      "suggested_fix": "Vervang “Wat ’n spiere moes daardie ouens gehad het!” met “Watter spiere moes daardie ouens gehad het!”",
+      "translation_quote": "Wat ’n spiere moes daardie ouens gehad het!"
     }
   ],
+  "finished_at": "2026-10-31T12:59:01+00:00",
   "id": "affec6444774cf5461743b01aa51d3e7",
   "issue_id": "05538f8e-6560-5f96-b313-890e87c05daf",
   "language": "afr",
@@ -128,9 +148,11 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/ef720e03cdb021dd5aafad2a9f2dcacb6eb268d1ce43a85e50ea12388a581fb8.json",
   "stage": "review2",
   "stage_budget": {
@@ -144,7 +166,7 @@
     "total_reserved_usd": 1.001118,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "c0545377542c9c79b4c68a51b2c277c621b53fab8d7966c5cf122b68f56f1739",
   "translation_model_actual": "gpt-6.1-sol"

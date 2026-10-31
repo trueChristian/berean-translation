@@ -33,26 +33,39 @@
       "event": "automatic_requested",
       "previous_task": "c8ed2f7a4550f53b8d68f42eb43b64c5",
       "task": "affec6444774cf5461743b01aa51d3e7"
+    },
+    {
+      "archive": "state/publication-history/afr/9b22e638-a735-48fe-b31b-817c614538ca/157614a5115d1c843e7e9693dd5b15eef03d623ee595acd1a8c22c0757a7b184.json",
+      "at": "2026-10-31T12:59:01+00:00",
+      "event": "publication_replaced",
+      "previous_task": "ffef2b9ddba9adcd90afb5e9e45c3883",
+      "task": "affec6444774cf5461743b01aa51d3e7"
+    },
+    {
+      "at": "2026-10-31T12:59:01+00:00",
+      "event": "complete",
+      "reason": null,
+      "task": "affec6444774cf5461743b01aa51d3e7"
     }
   ],
   "language": "afr",
   "latest_task": "affec6444774cf5461743b01aa51d3e7",
   "published": {
     "html_path": "content/afr/articles/9b22e638-a735-48fe-b31b-817c614538ca.html",
-    "html_sha256": "252ef15ed9c00bfcea6964d63d6368db278996e77c83a0bd41e5d8aea699eb17",
+    "html_sha256": "260acf055bbc991c3b2012f12d7b64804b5e80622f9cb6b6745873e51855843b",
     "human_review": null,
     "human_reviewed": false,
     "issue_id": "05538f8e-6560-5f96-b313-890e87c05daf",
     "metadata_path": "content/afr/articles/9b22e638-a735-48fe-b31b-817c614538ca.json",
     "metadata_sha256": "b780ad2edbfc71c35d3638a4ebd11e53053be9e3a2e54e6a0684b827b0a915eb",
-    "model": "gpt-6-luna",
-    "notice_html": "<aside class=\"translation-notice\" data-translation-notice=\"ai\" lang=\"af\" dir=\"ltr\" role=\"note\">\n  <p>Hierdie artikel is met kunsmatige intelligensie van OpenAI (model: gpt-6-luna) vertaal en is nog nie deur ’n mens nagegaan nie. Die Engelse oorspronklike is die gesaghebbende weergawe. Raadpleeg die Engelse oorspronklike indien daar onsekerheid oor die betekenis is. <a href=\"/en/articles/9b22e638-a735-48fe-b31b-817c614538ca/\" data-source-article-id=\"9b22e638-a735-48fe-b31b-817c614538ca\" hreflang=\"en\">Engelse oorspronklike</a></p>\n</aside>",
-    "published_at": "2026-10-15T11:53:32+00:00",
-    "quality_score": 99,
-    "review_model": "gpt-6-luna",
-    "source_revision": "3a4d9237b136f074ca1fae9ed0a26c4304577934",
-    "source_snapshot": "state/sources/db09acb28768502a5289f3ae38d39da7fc8e3368d41373d847c31adaa571c104.json",
-    "task": "ffef2b9ddba9adcd90afb5e9e45c3883",
-    "translation_key": "a748a750308bd832e277e952779df66318e4e2d2a2e40c0ec8292333d320ccad"
+    "model": "gpt-6.1-sol",
+    "notice_html": "<aside class=\"translation-notice\" data-translation-notice=\"ai\" lang=\"af\" dir=\"ltr\" role=\"note\">\n  <p>Hierdie artikel is met kunsmatige intelligensie van OpenAI (model: gpt-6.1-sol) vertaal en is nog nie deur ’n mens nagegaan nie. Die Engelse oorspronklike is die gesaghebbende weergawe. Raadpleeg die Engelse oorspronklike indien daar onsekerheid oor die betekenis is. <a href=\"/en/articles/9b22e638-a735-48fe-b31b-817c614538ca/\" data-source-article-id=\"9b22e638-a735-48fe-b31b-817c614538ca\" hreflang=\"en\">Engelse oorspronklike</a></p>\n</aside>",
+    "published_at": "2026-10-31T12:59:01+00:00",
+    "quality_score": 98,
+    "review_model": "gpt-6.1-sol",
+    "source_revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
+    "source_snapshot": "state/sources/ef720e03cdb021dd5aafad2a9f2dcacb6eb268d1ce43a85e50ea12388a581fb8.json",
+    "task": "affec6444774cf5461743b01aa51d3e7",
+    "translation_key": "c0545377542c9c79b4c68a51b2c277c621b53fab8d7966c5cf122b68f56f1739"
   }
 }

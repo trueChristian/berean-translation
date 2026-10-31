@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "f7664efc-a44e-43c4-a8c9-ec0d9e33fdce",
+    "response_id": "chatcmpl-Ef2rpyMP6Fh713qNiZxkbM7G6Qbkq",
+    "usage": {
+      "completion_tokens": 182,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 61,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 15724,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 14621,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 15906
+    }
+  },
+  "received_at": "2026-10-31T12:59:01+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "translation.html — paragraaf oor Kaleb, tussen hakies",
+        "severity": "minor",
+        "source_quote": "What muscles those guys must have had!",
+        "suggested_fix": "Vervang “Wat ’n spiere moes daardie ouens gehad het!” met “Watter spiere moes daardie ouens gehad het!”",
+        "translation_quote": "Wat ’n spiere moes daardie ouens gehad het!"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}

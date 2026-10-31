@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "translation.html — paragraaf oor Kaleb, tussen hakies",
+      "severity": "minor",
+      "source_quote": "What muscles those guys must have had!",
+      "suggested_fix": "Vervang “Wat ’n spiere moes daardie ouens gehad het!” met “Watter spiere moes daardie ouens gehad het!”",
+      "translation_quote": "Wat ’n spiere moes daardie ouens gehad het!"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}
