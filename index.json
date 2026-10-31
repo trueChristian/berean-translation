@@ -90172,6 +90172,42 @@
     {
       "ai_notice_required": true,
       "direction": "rtl",
+      "html": "content/urd/articles/816d80f0-e3dd-46a6-ae6e-03214e209890.html",
+      "html_sha256": "d6cd2d88e66628bbe503cf855089bb14d7ea7e7aab6345fb5ace81914ce476e7",
+      "human_reviewed": false,
+      "id": "816d80f0-e3dd-46a6-ae6e-03214e209890",
+      "images": [
+        {
+          "alt": "لکڑی کی باڑ کے پار سے پیسے لیتا ہوا ایک ہاتھ",
+          "public_path": "/images/articles/816d80f0-e3dd-46a6-ae6e-03214e209890-1.jpg"
+        },
+        {
+          "alt": "جان ویزلی کے دستخط کی نقل",
+          "public_path": "/images/articles/816d80f0-e3dd-46a6-ae6e-03214e209890-2.jpg"
+        },
+        {
+          "alt": "جان ویزلی کا مجسمہ جس کے ہاتھ میں ایک کھلی کتاب ہے",
+          "public_path": "/images/articles/816d80f0-e3dd-46a6-ae6e-03214e209890-3.jpg"
+        }
+      ],
+      "issue_id": "05538f8e-6560-5f96-b313-890e87c05daf",
+      "language": "urd",
+      "language_tag": "ur",
+      "metadata": "content/urd/articles/816d80f0-e3dd-46a6-ae6e-03214e209890.json",
+      "metadata_sha256": "cba728d787286359ef88675cc5adecf1258536ab9fa220da6081803e63c34b29",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": null,
+      "source_revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
+      "source_translation_key": "0af4e8eba8d76fd3ebe2cccff019f1ce29d88581ec1120c33079d9f90b1288d6",
+      "status": "ready",
+      "subtitle": null,
+      "title": "دولت میں اضافے کے خطرے پر",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
       "html": "content/urd/articles/85306410-6a2d-46f1-b6db-6d3450f7f908.html",
       "html_sha256": "3787152678563096f9fbd5b6bb45d802b945906ec112d29dd32fdf61abb7d601",
       "human_reviewed": false,
