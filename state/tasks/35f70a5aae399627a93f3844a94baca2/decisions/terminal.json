@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph beginning “For forty years”",
+      "severity": "major",
+      "source_quote": "“not only of those in ward but of discharged prisoners, also, and of the families of prisoners both in duress and discharged”",
+      "suggested_fix": "“وہ نہ صرف زیرِ حراست قیدیوں بلکہ رہا ہونے والے قیدیوں اور قیدیوں کے خاندانوں کی بھی دیکھ بھال کرتی تھیں۔”",
+      "translation_quote": "“وہ نہ صرف وارڈ میں موجود قیدیوں بلکہ رہا ہونے والوں اور قیدیوں کے خاندانوں کی بھی، خواہ وہ قید میں ہوں یا آزاد، عمومی دیکھ بھال کرتی تھیں۔”"
+    },
+    {
+      "location": "Paragraph beginning “So much has happened”",
+      "severity": "major",
+      "source_quote": "“When it broke out, Russian soldiers stormed the Kakola prison”",
+      "suggested_fix": "“جب روسی انقلاب پھوٹ پڑا تو روسی سپاہیوں نے کاکولا جیل پر دھاوا بول دیا”",
+      "translation_quote": "“بغاوت پھوٹ پڑی تو روسی سپاہیوں نے کاکولا جیل پر دھاوا بول کر قیدیوں کو آزاد کر دیا۔”"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; a recovery continuation must pass admission",
+  "stage": "terminal"
+}

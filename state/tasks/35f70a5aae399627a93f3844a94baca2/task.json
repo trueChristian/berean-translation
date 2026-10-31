@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "53718e36abee4d40ad495a7d5f13413e",
   "campaign": "auto-8f6bfe823b1b735e3dbf6b8d4061dd2304a9868429b73b77b80f98b9cfaab9ed",
   "created_at": "2026-10-29T20:43:34+00:00",
   "events": [
@@ -68,46 +67,47 @@
         },
         "total_tokens": 16508
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1079,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 803,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 10716,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 10713,
+          "cached_tokens": 0
+        },
+        "total_tokens": 11795
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; a recovery continuation must pass admission",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "Article, paragraph beginning “So much has happened…”",
+      "location": "Paragraph beginning “For forty years”",
       "severity": "major",
-      "source_quote": "“the Jacobin elements which the revolution churned up from the depths”",
-      "suggested_fix": "“انقلابی جیکوبن عناصر، جنہیں انقلاب نے گہرائیوں سے ابھارا تھا”",
-      "translation_quote": "“انقلاب کے ابھارے ہوئے یعقوبی عناصر”"
+      "source_quote": "“not only of those in ward but of discharged prisoners, also, and of the families of prisoners both in duress and discharged”",
+      "suggested_fix": "“وہ نہ صرف زیرِ حراست قیدیوں بلکہ رہا ہونے والے قیدیوں اور قیدیوں کے خاندانوں کی بھی دیکھ بھال کرتی تھیں۔”",
+      "translation_quote": "“وہ نہ صرف وارڈ میں موجود قیدیوں بلکہ رہا ہونے والوں اور قیدیوں کے خاندانوں کی بھی، خواہ وہ قید میں ہوں یا آزاد، عمومی دیکھ بھال کرتی تھیں۔”"
     },
     {
-      "location": "Article, paragraph beginning “Mlle. Wrede was in family connections White…”; also paragraph beginning “When the Whites returned to power…”",
+      "location": "Paragraph beginning “So much has happened”",
       "severity": "major",
-      "source_quote": "“closely in touch with Red society”; “When the Whites returned to power”",
-      "suggested_fix": "سیاسی دھڑوں کے لیے “سرخ دھڑے/سرخ فریق” اور “سفید دھڑے/سفید فریق” استعمال کریں، مثلاً: “اپنے کام کے دوران وہ سرخ دھڑے سے قریبی رابطے میں رہیں” اور “جب سفید فام دھڑا دوبارہ اقتدار میں آیا”۔",
-      "translation_quote": "“سرخ فاموں کے معاشرے سے بھی قریبی رابطے میں رہیں”; “جب سفید فام دوبارہ اقتدار میں آئے”"
-    },
-    {
-      "location": "Article, paragraph beginning “Mlle. Wrede was in family connections White…”",
-      "severity": "major",
-      "source_quote": "“Her door was open to both Reds and Whites.”",
-      "suggested_fix": "“ان کا دروازہ سرخ اور سفید، دونوں دھڑوں کے لوگوں کے لیے کھلا تھا۔”",
-      "translation_quote": "“ان کا دروازہ سرخ فاموں اور سفید فاموں، دونوں کے لیے کھلا تھا۔”"
-    },
-    {
-      "location": "Article, paragraph beginning “Her father was the provincial Governor…”",
-      "severity": "minor",
-      "source_quote": "“She bears a more unique title, ‘The Angel of the Prisons.’”",
-      "suggested_fix": "“ان کا ایک اور، زیادہ منفرد لقب تھا: ’قیدیوں کا فرشتہ۔‘”",
-      "translation_quote": "“ان کا ایک اور، زیادہ منفرد لقب تھا: ’قیدیوں کی فرشتہ‘۔”"
-    },
-    {
-      "location": "Subtitle",
-      "severity": "minor",
-      "source_quote": "“The Angel Of The Prisons”",
-      "suggested_fix": "“قیدیوں کا فرشتہ”",
-      "translation_quote": "“قیدیوں کی فرشتہ”"
+      "source_quote": "“When it broke out, Russian soldiers stormed the Kakola prison”",
+      "suggested_fix": "“جب روسی انقلاب پھوٹ پڑا تو روسی سپاہیوں نے کاکولا جیل پر دھاوا بول دیا”",
+      "translation_quote": "“بغاوت پھوٹ پڑی تو روسی سپاہیوں نے کاکولا جیل پر دھاوا بول کر قیدیوں کو آزاد کر دیا۔”"
     }
   ],
+  "finished_at": "2026-10-31T00:42:31+00:00",
   "id": "35f70a5aae399627a93f3844a94baca2",
   "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
   "language": "urd",
@@ -196,7 +196,7 @@
     }
   },
   "protected": false,
-  "quality_score": 91,
+  "quality_score": 92,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
@@ -216,7 +216,7 @@
     "total_reserved_usd": 0.09053,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "385aeb5b4a7bcbf512c0d5b8310c2fd8f5f85b86d43d077caf80670ee93c6738",
   "translation_model_actual": "gpt-6-luna"
