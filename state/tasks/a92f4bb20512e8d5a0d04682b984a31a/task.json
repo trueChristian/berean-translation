@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "13198b9ed0394faeb269dd4e848852d2",
   "campaign": "auto-d617fb35591fcf7b81bd41377a0850e4e4c78352ad4cf12076195df99a6ab33b",
   "created_at": "2026-10-30T07:31:49+00:00",
   "events": [
@@ -48,18 +47,39 @@
         },
         "total_tokens": 17611
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1016,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 880,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 11534,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 0,
+          "cached_tokens": 11531
+        },
+        "total_tokens": 12550
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "HTML/metadata contract",
-      "severity": "critical",
-      "source_quote": "",
-      "suggested_fix": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[19]: source /article[1]/p[7]/sup[1] ('start', 'sup', ()); translation /article[1]/p[7] ('end', 'p')",
-      "translation_quote": ""
+      "location": "Paragraph beginning “But now at the end of our visit”",
+      "severity": "minor",
+      "source_quote": "“struggling over the obvious offenses and failed compromises of the weekend”",
+      "suggested_fix": "Replace “واضح رنجشوں” with “واضح کوتاہیوں” to convey the offenses and failed compromises being considered.",
+      "translation_quote": "“ہفتے کے آخر کی واضح رنجشوں اور ناکام سمجھوتوں پر الجھ رہا تھا”"
     }
   ],
+  "finished_at": "2026-10-31T11:00:32+00:00",
   "id": "a92f4bb20512e8d5a0d04682b984a31a",
   "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
   "language": "urd",
@@ -148,9 +168,11 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/f2ce07ae07b7bb9037d663265e5daeece0e25b77fab6934f6d9167df093fe3dd.json",
   "stage": "review2",
   "stage_budget": {
@@ -166,7 +188,7 @@
     "total_reserved_usd": 0.091359,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "6db58cafff7cfe9f11556e892b54ec7a0015890307776806dd7acebca34a78c1",
   "translation_model_actual": "gpt-6-luna"

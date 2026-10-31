@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "280ca40c-3339-48b5-bcb8-8d9239956304",
+    "response_id": "chatcmpl-EezIVzzm8oX2OJYe2niluiwMnInKY",
+    "usage": {
+      "completion_tokens": 1016,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 880,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 11534,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 11531
+      },
+      "total_tokens": 12550
+    }
+  },
+  "received_at": "2026-10-31T11:00:32+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph beginning “But now at the end of our visit”",
+        "severity": "minor",
+        "source_quote": "“struggling over the obvious offenses and failed compromises of the weekend”",
+        "suggested_fix": "Replace “واضح رنجشوں” with “واضح کوتاہیوں” to convey the offenses and failed compromises being considered.",
+        "translation_quote": "“ہفتے کے آخر کی واضح رنجشوں اور ناکام سمجھوتوں پر الجھ رہا تھا”"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}

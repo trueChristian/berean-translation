@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph beginning “But now at the end of our visit”",
+      "severity": "minor",
+      "source_quote": "“struggling over the obvious offenses and failed compromises of the weekend”",
+      "suggested_fix": "Replace “واضح رنجشوں” with “واضح کوتاہیوں” to convey the offenses and failed compromises being considered.",
+      "translation_quote": "“ہفتے کے آخر کی واضح رنجشوں اور ناکام سمجھوتوں پر الجھ رہا تھا”"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

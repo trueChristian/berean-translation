@@ -89273,6 +89273,46 @@
     {
       "ai_notice_required": true,
       "direction": "rtl",
+      "html": "content/urd/articles/a5c8b070-97f8-4050-9ac5-89af497287b0.html",
+      "html_sha256": "c1b77bb66049ea5c2728505604ca6106d1ddccb0cbd2aff3514568d1c9ab5727",
+      "human_reviewed": false,
+      "id": "a5c8b070-97f8-4050-9ac5-89af497287b0",
+      "images": [
+        {
+          "alt": "ایک شیر اور دوسرے جانور رقص کرتے ہوئے بچے کو دیکھ رہے ہیں",
+          "public_path": "/images/articles/a5c8b070-97f8-4050-9ac5-89af497287b0-1.jpg"
+        },
+        {
+          "alt": "ایک تختی جس پر سی ایس لیوس اور اس کے دوستوں کی ایک پب کے پچھلے کمرے میں ملاقات کا بیان ہے",
+          "public_path": "/images/articles/a5c8b070-97f8-4050-9ac5-89af497287b0-2.jpg"
+        },
+        {
+          "alt": "ٹائم میگزین کا سرورق جس پر سی ایس لیوس کی تصویر ہے",
+          "public_path": "/images/articles/a5c8b070-97f8-4050-9ac5-89af497287b0-3.jpg"
+        },
+        {
+          "alt": "سی ایس لیوس کتاب لیے بیٹھے ہوئے",
+          "public_path": "/images/articles/a5c8b070-97f8-4050-9ac5-89af497287b0-4.jpg"
+        }
+      ],
+      "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
+      "language": "urd",
+      "language_tag": "ur",
+      "metadata": "content/urd/articles/a5c8b070-97f8-4050-9ac5-89af497287b0.json",
+      "metadata_sha256": "8c01b75ea941dcbc884e5fe86ef109c88ce823afc35a71453a5d0724d87392c8",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "ed75201a8e3b37913a14f4d949de33a7a0daa2c2",
+      "source_translation_key": "6db58cafff7cfe9f11556e892b54ec7a0015890307776806dd7acebca34a78c1",
+      "status": "ready",
+      "subtitle": "مسیحیو، خبردار!",
+      "title": "شیر، چڑیل اور ہیپی میل:",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
       "html": "content/urd/articles/a5dc3764-e799-4138-82f0-87b245a77db8.html",
       "html_sha256": "b4c702c37955f19db74980dbcabd16bd7b2e87563652fce024755f069af10212",
       "human_reviewed": false,
