@@ -7,6 +7,12 @@
       "event": "automatic_requested",
       "previous_task": null,
       "task": "9ecca7117efcd47b6251aede0a94981d"
+    },
+    {
+      "at": "2026-10-31T16:02:14+00:00",
+      "event": "not_ready",
+      "reason": "Missing, ambiguous, or truncated model response",
+      "task": "9ecca7117efcd47b6251aede0a94981d"
     }
   ],
   "language": "ell",

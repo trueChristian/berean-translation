@@ -5,11 +5,13 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "3ec7b6c404554497a2b21e5c78631b9c",
   "campaign": "auto-491c8e2e91e3d251b1e01e5e9e033809476e6860bfc82e243fc8deedb4fa8d7e",
   "created_at": "2026-10-31T11:04:20+00:00",
   "events": [],
+  "failure": "Missing, ambiguous, or truncated model response",
+  "failure_kind": "truncated",
   "findings": [],
+  "finished_at": "2026-10-31T16:02:14+00:00",
   "id": "9ecca7117efcd47b6251aede0a94981d",
   "issue_id": "05538f8e-6560-5f96-b313-890e87c05daf",
   "language": "ell",
@@ -116,7 +118,7 @@
     "total_reserved_usd": 0.139944,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 1,
   "translation_key": "ecc35e8cd4c57e2b467ba1c07b4baf9d8db122db80e2c80ae9e2a166783c3de1",
   "translation_model_actual": null
