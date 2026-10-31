@@ -37909,6 +37909,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/hin/articles/ad4e2c15-f6ba-4b89-a519-1a36655aa93a.html",
+      "html_sha256": "1dbfc50f3f684771b7b9d082b8c5f3993dbcd17128753336a9838c6456e9369d",
+      "human_reviewed": false,
+      "id": "ad4e2c15-f6ba-4b89-a519-1a36655aa93a",
+      "images": [
+        {
+          "alt": "चट्टानों के बीच यीशु प्रार्थना में घुटने टेकते हुए",
+          "public_path": "/images/articles/ad4e2c15-f6ba-4b89-a519-1a36655aa93a-1.jpg"
+        }
+      ],
+      "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
+      "language": "hin",
+      "language_tag": "hi",
+      "metadata": "content/hin/articles/ad4e2c15-f6ba-4b89-a519-1a36655aa93a.json",
+      "metadata_sha256": "10ea279ca582829fcc1a43372a82dc0688e1e945cf0ccca7f67737ef86e0bd7e",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": null,
+      "source_revision": "ed75201a8e3b37913a14f4d949de33a7a0daa2c2",
+      "source_translation_key": "af0a2811aaad8facf9c0fb70e4f79fedbc83ae6bb333beb07b2d95c0bed6e2e6",
+      "status": "ready",
+      "subtitle": null,
+      "title": "जलते हुए हृदय का सूत्र",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/hin/articles/af526358-a4bb-44b9-aeec-2535f8ce9a29.html",
       "html_sha256": "f8d0ff14c0e9f0b48684ff153d764c0f3253a973aed11f9086dfc6736cdcf5fc",
       "human_reviewed": false,
