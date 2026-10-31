@@ -24618,6 +24618,42 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ell/articles/816d80f0-e3dd-46a6-ae6e-03214e209890.html",
+      "html_sha256": "988f0de8e75783028ae2b5fc564ebd50c2cbe89fe4ae4ad0d221a4f1df0464f0",
+      "human_reviewed": false,
+      "id": "816d80f0-e3dd-46a6-ae6e-03214e209890",
+      "images": [
+        {
+          "alt": "Ένα χέρι παίρνει χρήματα μέσα από έναν ξύλινο φράχτη",
+          "public_path": "/images/articles/816d80f0-e3dd-46a6-ae6e-03214e209890-1.jpg"
+        },
+        {
+          "alt": "Φωτομηχανική αναπαραγωγή της υπογραφής του Τζον Γουέσλι",
+          "public_path": "/images/articles/816d80f0-e3dd-46a6-ae6e-03214e209890-2.jpg"
+        },
+        {
+          "alt": "Άγαλμα του Τζον Γουέσλι που κρατά ανοιχτό βιβλίο",
+          "public_path": "/images/articles/816d80f0-e3dd-46a6-ae6e-03214e209890-3.jpg"
+        }
+      ],
+      "issue_id": "05538f8e-6560-5f96-b313-890e87c05daf",
+      "language": "ell",
+      "language_tag": "el",
+      "metadata": "content/ell/articles/816d80f0-e3dd-46a6-ae6e-03214e209890.json",
+      "metadata_sha256": "1933e8bfd37a081808e4989d6cc52ba79917f1ddbce1a96954226150091f8e86",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": null,
+      "source_revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
+      "source_translation_key": "0af4e8eba8d76fd3ebe2cccff019f1ce29d88581ec1120c33079d9f90b1288d6",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Για τον κίνδυνο της αύξησης των πλούτων",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ell/articles/85306410-6a2d-46f1-b6db-6d3450f7f908.html",
       "html_sha256": "7df7d1037feda1ddc37cbd4ad89b4af3bc5db64a5b55c227f2ca3fe3d2c88355",
       "human_reviewed": false,
