@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-31T18:38:13+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"html: citazione di Proverbi 6:27 sotto «Bruciati dal fuoco»\",\"severity\":\"minor\",\"source_quote\":\"Can a man take fire in his bosom, and his clothes not be burned?\",\"suggested_fix\":\"Può un uomo portare del fuoco in seno senza che i suoi vestiti brucino?\",\"translation_quote\":\"Può un uomo prendere fuoco in seno senza che i suoi vestiti brucino?\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 425,
+    "content_evidence_truncated": false,
+    "content_sha256": "7983efb0a92cceaac4dd485bcb425ca5a86846851082e0e384f690ecbf640889",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 218,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 87,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 15693,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 14590,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 15911
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review2",
+  "translation_attempts": 1
+}

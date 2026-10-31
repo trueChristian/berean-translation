@@ -47920,6 +47920,50 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ita/articles/9b22e638-a735-48fe-b31b-817c614538ca.html",
+      "html_sha256": "03cee906b28bbc4c80c0bb59f6da78e6db2f2275a41beeea33f186701ef5f8af",
+      "human_reviewed": false,
+      "id": "9b22e638-a735-48fe-b31b-817c614538ca",
+      "images": [
+        {
+          "alt": "Cartellino del prezzo con la scritta «Solo 100,00 $»",
+          "public_path": "/images/articles/9b22e638-a735-48fe-b31b-817c614538ca-1.jpg"
+        },
+        {
+          "alt": "Disegno al tratto di un carro di ferro",
+          "public_path": "/images/articles/9b22e638-a735-48fe-b31b-817c614538ca-2.png"
+        },
+        {
+          "alt": "Due uomini che giocano a shuffleboard",
+          "public_path": "/images/articles/9b22e638-a735-48fe-b31b-817c614538ca-3.png"
+        },
+        {
+          "alt": "Un uomo seduto al computer con la testa tra le mani",
+          "public_path": "/images/articles/9b22e638-a735-48fe-b31b-817c614538ca-4.jpg"
+        },
+        {
+          "alt": "Una casa grande con prato",
+          "public_path": "/images/articles/9b22e638-a735-48fe-b31b-817c614538ca-5.jpg"
+        }
+      ],
+      "issue_id": "05538f8e-6560-5f96-b313-890e87c05daf",
+      "language": "ita",
+      "language_tag": "it",
+      "metadata": "content/ita/articles/9b22e638-a735-48fe-b31b-817c614538ca.json",
+      "metadata_sha256": "cb63cb194d105f21e1546e44efb334952274fbb38fa4d99e8da42b9df1ff8d50",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": null,
+      "source_revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
+      "source_translation_key": "c0545377542c9c79b4c68a51b2c277c621b53fab8d7966c5cf122b68f56f1739",
+      "status": "ready",
+      "subtitle": "Riscuotere un tributo dai Cananei",
+      "title": "Nemico o alleato?",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ita/articles/a1334217-82ac-49ef-8293-563122652b89.html",
       "html_sha256": "d08e9c352563264f57b872d9f16ea4b951fcaafd6e820e01c10871aa1e610be7",
       "human_reviewed": false,
