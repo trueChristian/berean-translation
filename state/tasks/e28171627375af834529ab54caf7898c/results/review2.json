@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "e04b453f-6791-4d93-9767-038a0cf6e556",
+    "response_id": "chatcmpl-EfBSotkO9UKw9VzxNQxbdDlPNnSqO",
+    "usage": {
+      "completion_tokens": 652,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 489,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 25259,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 25256,
+        "cached_tokens": 0
+      },
+      "total_tokens": 25911
+    }
+  },
+  "received_at": "2026-10-31T22:09:30+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "El problema y la promesa, lista de promesas, cita de Isaías 4:4-5 y explicación inmediata",
+        "severity": "major",
+        "source_quote": "“by the spirit of judgment, and by the spirit of burning” / “by the spirit of judgment … and of burning.”",
+        "suggested_fix": "En ambas apariciones, sustituir «espíritu de devastación» por «espíritu de fuego» para conservar la imagen de fuego de la cita y su explicación.",
+        "translation_quote": "«con espíritu de juicio y con espíritu de devastación» / «con espíritu de juicio… y de devastación»"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 93
+  }
+}

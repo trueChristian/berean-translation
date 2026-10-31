@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "El problema y la promesa, lista de promesas, cita de Isaías 4:4-5 y explicación inmediata",
+      "severity": "major",
+      "source_quote": "“by the spirit of judgment, and by the spirit of burning” / “by the spirit of judgment … and of burning.”",
+      "suggested_fix": "En ambas apariciones, sustituir «espíritu de devastación» por «espíritu de fuego» para conservar la imagen de fuego de la cita y su explicación.",
+      "translation_quote": "«con espíritu de juicio y con espíritu de devastación» / «con espíritu de juicio… y de devastación»"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; a recovery continuation must pass admission",
+  "stage": "terminal"
+}
