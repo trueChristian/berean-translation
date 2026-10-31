@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-31T16:02:05+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"« La preuve est dans le pudding » (titre de section)\",\"severity\":\"minor\",\"source_quote\":\"The proof is in the pudding\",\"suggested_fix\":\"Remplacer par une formule idiomatique française telle que « C’est au résultat qu’on juge » ; conserver le sens de l’expression.\",\"translation_quote\":\"La preuve est dans le pudding\"},{\"location\":\"« Les fruits de cette expérience », paragraphe commençant par « Et, bien sûr, à cette occasion… »\",\"severity\":\"minor\",\"source_quote\":\"the roaring sounds\",\"suggested_fix\":\"Remplacer « les bruits de vent violent » par « les bruits assourdissants » ou « les grondements », sans préciser qu’il s’agissait de vent.\",\"translation_quote\":\"les bruits de vent violent\"},{\"location\":\"Citation de Menno Simons, paragraphe commençant par « La régénération… »\",\"severity\":\"minor\",\"source_quote\":\"from carnality to spirituality\",\"suggested_fix\":\"Remplacer « de la charnalité à la spiritualité » par une expression plus naturelle, par exemple « d’une vie charnelle à une vie spirituelle ».\",\"translation_quote\":\"de la charnalité à la spiritualité\"}],\"findings_complete\":true,\"passed\":true,\"score\":97}",
+    "content_bytes": 1195,
+    "content_evidence_truncated": false,
+    "content_sha256": "d12ac7633e3a84fff1fe50f33f00b779b4bfbb430a6c270b21920aeff08c517e",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1242,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 955,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 26160,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 25057,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 27402
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

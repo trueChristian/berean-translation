@@ -31292,7 +31292,7 @@
       "ai_notice_required": true,
       "direction": "ltr",
       "html": "content/fra/articles/f87354d0-0bb8-4271-a8db-792c77d0d090.html",
-      "html_sha256": "8611f0e9e4b1b5881135c11ecf375825f9944853e0232d500a215724795d9568",
+      "html_sha256": "15fb1eec261b32bfed2b7b5d0e5aa8ed915bee07b5d473db16c07905056c929c",
       "human_reviewed": false,
       "id": "f87354d0-0bb8-4271-a8db-792c77d0d090",
       "images": [
@@ -31309,7 +31309,7 @@
           "public_path": "/images/articles/f87354d0-0bb8-4271-a8db-792c77d0d090-3.png"
         },
         {
-          "alt": "Panneau routier combinant des visages souriants et tristes",
+          "alt": "Panneau routier combinant des visages souriant et triste",
           "public_path": "/images/articles/f87354d0-0bb8-4271-a8db-792c77d0d090-4.jpg"
         }
       ],
@@ -31321,9 +31321,9 @@
       "provider": "OpenAI",
       "review_model": "gpt-6-luna",
       "section": null,
-      "source_revision": "4c7b25b348edeeef4eb5f9d22a221d06f0d80f02",
-      "source_translation_key": "55e58c4244dd6dd6b1692c4227d138b24d40e716692e5145e50cf9883188c5b8",
-      "status": "stale",
+      "source_revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
+      "source_translation_key": "ecc35e8cd4c57e2b467ba1c07b4baf9d8db122db80e2c80ae9e2a166783c3de1",
+      "status": "ready",
       "subtitle": null,
       "title": "Racheter le baptême du Saint-Esprit au pentecôtisme",
       "translation_model": "gpt-6-luna"

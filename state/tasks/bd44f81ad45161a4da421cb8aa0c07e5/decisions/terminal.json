@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "« La preuve est dans le pudding » (titre de section)",
+      "severity": "minor",
+      "source_quote": "The proof is in the pudding",
+      "suggested_fix": "Remplacer par une formule idiomatique française telle que « C’est au résultat qu’on juge » ; conserver le sens de l’expression.",
+      "translation_quote": "La preuve est dans le pudding"
+    },
+    {
+      "location": "« Les fruits de cette expérience », paragraphe commençant par « Et, bien sûr, à cette occasion… »",
+      "severity": "minor",
+      "source_quote": "the roaring sounds",
+      "suggested_fix": "Remplacer « les bruits de vent violent » par « les bruits assourdissants » ou « les grondements », sans préciser qu’il s’agissait de vent.",
+      "translation_quote": "les bruits de vent violent"
+    },
+    {
+      "location": "Citation de Menno Simons, paragraphe commençant par « La régénération… »",
+      "severity": "minor",
+      "source_quote": "from carnality to spirituality",
+      "suggested_fix": "Remplacer « de la charnalité à la spiritualité » par une expression plus naturelle, par exemple « d’une vie charnelle à une vie spirituelle ».",
+      "translation_quote": "de la charnalité à la spiritualité"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

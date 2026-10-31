@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": "8611f0e9e4b1b5881135c11ecf375825f9944853e0232d500a215724795d9568",
   "base_metadata_sha256": "a297cd1f7145e3047ca06a3a7584998bbc58910146100308dfdfc27bf0dc9b39",
-  "batch": "27fedeb2d3134b1c86252fe864b72847",
   "campaign": "auto-63aa3f0941eb3248660acb1f33f27a2b5c7707d4b0b5a319fca0c91710a3465d",
   "created_at": "2026-10-31T05:25:29+00:00",
   "events": [
@@ -28,10 +27,53 @@
         },
         "total_tokens": 25878
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1242,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 955,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 26160,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 25057,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 27402
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "« La preuve est dans le pudding » (titre de section)",
+      "severity": "minor",
+      "source_quote": "The proof is in the pudding",
+      "suggested_fix": "Remplacer par une formule idiomatique française telle que « C’est au résultat qu’on juge » ; conserver le sens de l’expression.",
+      "translation_quote": "La preuve est dans le pudding"
+    },
+    {
+      "location": "« Les fruits de cette expérience », paragraphe commençant par « Et, bien sûr, à cette occasion… »",
+      "severity": "minor",
+      "source_quote": "the roaring sounds",
+      "suggested_fix": "Remplacer « les bruits de vent violent » par « les bruits assourdissants » ou « les grondements », sans préciser qu’il s’agissait de vent.",
+      "translation_quote": "les bruits de vent violent"
+    },
+    {
+      "location": "Citation de Menno Simons, paragraphe commençant par « La régénération… »",
+      "severity": "minor",
+      "source_quote": "from carnality to spirituality",
+      "suggested_fix": "Remplacer « de la charnalité à la spiritualité » par une expression plus naturelle, par exemple « d’une vie charnelle à une vie spirituelle ».",
+      "translation_quote": "de la charnalité à la spiritualité"
+    }
+  ],
+  "finished_at": "2026-10-31T16:02:05+00:00",
   "id": "bd44f81ad45161a4da421cb8aa0c07e5",
   "issue_id": "05538f8e-6560-5f96-b313-890e87c05daf",
   "language": "fra",
@@ -120,9 +162,11 @@
     }
   },
   "protected": false,
+  "quality_score": 97,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/11b94d8a8e8a81e67a7fd3c0c4b463dbf9b119ac25d58f9d05d02c6535fa9d79.json",
   "stage": "review1",
   "stage_budget": {
@@ -138,7 +182,7 @@
     "total_reserved_usd": 0.139941,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "ecc35e8cd4c57e2b467ba1c07b4baf9d8db122db80e2c80ae9e2a166783c3de1",
   "translation_model_actual": "gpt-6-luna"

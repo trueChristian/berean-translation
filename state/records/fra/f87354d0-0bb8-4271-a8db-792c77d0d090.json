@@ -20,13 +20,26 @@
       "event": "automatic_requested",
       "previous_task": "b1bd42a33055613275e14e487829a277",
       "task": "bd44f81ad45161a4da421cb8aa0c07e5"
+    },
+    {
+      "archive": "state/publication-history/fra/f87354d0-0bb8-4271-a8db-792c77d0d090/8bdcd0d7a848b857721f09dd9e5e9b738d3278d84040132301a6469aeb3b1cc2.json",
+      "at": "2026-10-31T16:02:05+00:00",
+      "event": "publication_replaced",
+      "previous_task": "b1bd42a33055613275e14e487829a277",
+      "task": "bd44f81ad45161a4da421cb8aa0c07e5"
+    },
+    {
+      "at": "2026-10-31T16:02:05+00:00",
+      "event": "complete",
+      "reason": null,
+      "task": "bd44f81ad45161a4da421cb8aa0c07e5"
     }
   ],
   "language": "fra",
   "latest_task": "bd44f81ad45161a4da421cb8aa0c07e5",
   "published": {
     "html_path": "content/fra/articles/f87354d0-0bb8-4271-a8db-792c77d0d090.html",
-    "html_sha256": "8611f0e9e4b1b5881135c11ecf375825f9944853e0232d500a215724795d9568",
+    "html_sha256": "15fb1eec261b32bfed2b7b5d0e5aa8ed915bee07b5d473db16c07905056c929c",
     "human_review": null,
     "human_reviewed": false,
     "issue_id": "05538f8e-6560-5f96-b313-890e87c05daf",
@@ -34,12 +47,12 @@
     "metadata_sha256": "a297cd1f7145e3047ca06a3a7584998bbc58910146100308dfdfc27bf0dc9b39",
     "model": "gpt-6-luna",
     "notice_html": "<aside class=\"translation-notice\" data-translation-notice=\"ai\" lang=\"fr\" dir=\"ltr\" role=\"note\">\n  <p>Cet article a été traduit par intelligence artificielle avec OpenAI (modèle : gpt-6-luna) et n’a pas encore fait l’objet d’une révision humaine. Le texte original anglais fait autorité. En cas de doute sur le sens, veuillez consulter l’original anglais. <a href=\"/en/articles/f87354d0-0bb8-4271-a8db-792c77d0d090/\" data-source-article-id=\"f87354d0-0bb8-4271-a8db-792c77d0d090\" hreflang=\"en\">Original anglais</a></p>\n</aside>",
-    "published_at": "2026-10-16T00:49:38+00:00",
+    "published_at": "2026-10-31T16:02:05+00:00",
     "quality_score": 97,
     "review_model": "gpt-6-luna",
-    "source_revision": "4c7b25b348edeeef4eb5f9d22a221d06f0d80f02",
-    "source_snapshot": "state/sources/ea317394a89de2f7bab35eaf19001702b53d69933288b254faf877f6e8d9a180.json",
-    "task": "b1bd42a33055613275e14e487829a277",
-    "translation_key": "55e58c4244dd6dd6b1692c4227d138b24d40e716692e5145e50cf9883188c5b8"
+    "source_revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
+    "source_snapshot": "state/sources/11b94d8a8e8a81e67a7fd3c0c4b463dbf9b119ac25d58f9d05d02c6535fa9d79.json",
+    "task": "bd44f81ad45161a4da421cb8aa0c07e5",
+    "translation_key": "ecc35e8cd4c57e2b467ba1c07b4baf9d8db122db80e2c80ae9e2a166783c3de1"
   }
 }
