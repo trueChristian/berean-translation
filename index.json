@@ -42851,6 +42851,50 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ind/articles/9b22e638-a735-48fe-b31b-817c614538ca.html",
+      "html_sha256": "f9ba49ce5d270b4989a4fd3675f867b713d7efc340ba831a36c5665d98474e9e",
+      "human_reviewed": false,
+      "id": "9b22e638-a735-48fe-b31b-817c614538ca",
+      "images": [
+        {
+          "alt": "Label harga bertuliskan “Hanya $100.00”",
+          "public_path": "/images/articles/9b22e638-a735-48fe-b31b-817c614538ca-1.jpg"
+        },
+        {
+          "alt": "Gambar garis sebuah kereta besi",
+          "public_path": "/images/articles/9b22e638-a735-48fe-b31b-817c614538ca-2.png"
+        },
+        {
+          "alt": "Dua pria bermain shuffleboard",
+          "public_path": "/images/articles/9b22e638-a735-48fe-b31b-817c614538ca-3.png"
+        },
+        {
+          "alt": "Seorang pria duduk di depan komputer dengan kepala di antara kedua tangannya",
+          "public_path": "/images/articles/9b22e638-a735-48fe-b31b-817c614538ca-4.jpg"
+        },
+        {
+          "alt": "Rumah besar dan halamannya",
+          "public_path": "/images/articles/9b22e638-a735-48fe-b31b-817c614538ca-5.jpg"
+        }
+      ],
+      "issue_id": "05538f8e-6560-5f96-b313-890e87c05daf",
+      "language": "ind",
+      "language_tag": "id",
+      "metadata": "content/ind/articles/9b22e638-a735-48fe-b31b-817c614538ca.json",
+      "metadata_sha256": "54d9e0a4386d080b3a7f11deeb8f4678f9e4d6ad35e9073984405791e1a28427",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": null,
+      "source_revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
+      "source_translation_key": "c0545377542c9c79b4c68a51b2c277c621b53fab8d7966c5cf122b68f56f1739",
+      "status": "ready",
+      "subtitle": "Mengambil upeti dari orang Kanaan",
+      "title": "Musuh atau Sekutu?",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ind/articles/a1334217-82ac-49ef-8293-563122652b89.html",
       "html_sha256": "471cbd435533b7ef8a260b3c8dd8e9cb333080e114540124aed37df123b3677b",
       "human_reviewed": false,

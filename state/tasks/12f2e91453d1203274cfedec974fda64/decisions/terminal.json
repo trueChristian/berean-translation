@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "translation.html, bagian Teknologi, butir Internet",
+      "severity": "minor",
+      "source_quote": "How many men must we lose before we say it is enough?",
+      "suggested_fix": "Ganti kalimat tersebut dengan: “Berapa banyak pria yang harus hilang dari antara kita sebelum kita berkata bahwa ini sudah cukup?”",
+      "translation_quote": "Berapa banyak pria yang harus kita kehilangan sebelum kita berkata bahwa ini sudah cukup?"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "88b7e4cf-dd17-4ce9-8cd9-eb03c7ac2e9e",
+    "response_id": "chatcmpl-Ef88JBUadx7NRa4Me8E1n3E3zqVFb",
+    "usage": {
+      "completion_tokens": 202,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 83,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 15477,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 14374,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 15679
+    }
+  },
+  "received_at": "2026-10-31T18:37:59+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "translation.html, bagian Teknologi, butir Internet",
+        "severity": "minor",
+        "source_quote": "How many men must we lose before we say it is enough?",
+        "suggested_fix": "Ganti kalimat tersebut dengan: “Berapa banyak pria yang harus hilang dari antara kita sebelum kita berkata bahwa ini sudah cukup?”",
+        "translation_quote": "Berapa banyak pria yang harus kita kehilangan sebelum kita berkata bahwa ini sudah cukup?"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}
