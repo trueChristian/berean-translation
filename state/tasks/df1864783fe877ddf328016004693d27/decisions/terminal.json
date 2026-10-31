@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "translation.html: paragraph under «دو بادشاہتیں», cited children's-book title",
+      "severity": "major",
+      "source_quote": "Either make “Heather Has Two Mommies” a part of your homeschool curriculum",
+      "suggested_fix": "کتاب کے عنوان میں ’’ہیدر کی دو مامیاں ہیں‘‘ کو ’’ہیدر کی دو مائیں ہیں‘‘ سے بدلیں؛ باقی عبارت اور HTML برقرار رکھیں۔",
+      "translation_quote": "یا تو ’’ہیدر کی دو مامیاں ہیں‘‘ کو اپنے گھر پر تعلیم دینے کے نصاب میں شامل کریں"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; a recovery continuation must pass admission",
+  "stage": "terminal"
+}

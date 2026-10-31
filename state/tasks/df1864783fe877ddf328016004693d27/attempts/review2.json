@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-31T06:19:25+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"translation.html: paragraph under «دو بادشاہتیں», cited children's-book title\",\"severity\":\"major\",\"source_quote\":\"Either make “Heather Has Two Mommies” a part of your homeschool curriculum\",\"suggested_fix\":\"کتاب کے عنوان میں ’’ہیدر کی دو مامیاں ہیں‘‘ کو ’’ہیدر کی دو مائیں ہیں‘‘ سے بدلیں؛ باقی عبارت اور HTML برقرار رکھیں۔\",\"translation_quote\":\"یا تو ’’ہیدر کی دو مامیاں ہیں‘‘ کو اپنے گھر پر تعلیم دینے کے نصاب میں شامل کریں\"}],\"findings_complete\":true,\"passed\":false,\"score\":97}",
+    "content_bytes": 685,
+    "content_evidence_truncated": false,
+    "content_sha256": "92173f52938ec596c74b8a64f7bfade1404f538be627a8854d358cc5c451438b",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 307,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 159,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 15494,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 14391,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 15801
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review2",
+  "translation_attempts": 1
+}
