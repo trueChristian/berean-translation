@@ -20,6 +20,12 @@
       "event": "automatic_requested",
       "previous_task": "d92b80442159591bc9e3c097fb100043",
       "task": "11fd1809b67f5fa0e8909567080db35b"
+    },
+    {
+      "at": "2026-10-31T05:22:01+00:00",
+      "event": "not_ready",
+      "reason": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[18]: source /article[1]/blockquote[1]/p[1]/em[3] ('start', 'em', ()); translation /article[1]/blockquote[1]/p[1] ('end', 'p')",
+      "task": "11fd1809b67f5fa0e8909567080db35b"
     }
   ],
   "language": "kor",
