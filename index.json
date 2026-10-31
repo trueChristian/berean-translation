@@ -42514,6 +42514,42 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ind/articles/816d80f0-e3dd-46a6-ae6e-03214e209890.html",
+      "html_sha256": "641b663246888e6f8b4ae41a532680e33d503b4be73e3dfa06348bee268a0aa7",
+      "human_reviewed": false,
+      "id": "816d80f0-e3dd-46a6-ae6e-03214e209890",
+      "images": [
+        {
+          "alt": "Sebuah tangan mengambil uang melalui pagar kayu",
+          "public_path": "/images/articles/816d80f0-e3dd-46a6-ae6e-03214e209890-1.jpg"
+        },
+        {
+          "alt": "Faksimile tanda tangan John Wesley",
+          "public_path": "/images/articles/816d80f0-e3dd-46a6-ae6e-03214e209890-2.jpg"
+        },
+        {
+          "alt": "Patung John Wesley memegang sebuah buku terbuka",
+          "public_path": "/images/articles/816d80f0-e3dd-46a6-ae6e-03214e209890-3.jpg"
+        }
+      ],
+      "issue_id": "05538f8e-6560-5f96-b313-890e87c05daf",
+      "language": "ind",
+      "language_tag": "id",
+      "metadata": "content/ind/articles/816d80f0-e3dd-46a6-ae6e-03214e209890.json",
+      "metadata_sha256": "4a231c89d3301e5b3f3c2b4ba884a9cc46107a09f268501ebe1699eda97fd767",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": null,
+      "source_revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
+      "source_translation_key": "0af4e8eba8d76fd3ebe2cccff019f1ce29d88581ec1120c33079d9f90b1288d6",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Tentang Bahaya Bertambahnya Kekayaan",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ind/articles/85306410-6a2d-46f1-b6db-6d3450f7f908.html",
       "html_sha256": "2af186e84cbf2a6f73c7bf35bf430eae4b9251bddd9490253fa5bca96120a57c",
       "human_reviewed": false,
