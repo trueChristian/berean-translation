@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-31T05:23:15+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"标题“现代雅略巴古”及对应段落\",\"severity\":\"minor\",\"source_quote\":\"A modern Mars’ Hill\",\"suggested_fix\":\"将“雅略巴古”改为中文常用地名“亚略巴古”，如“现代亚略巴古”。\",\"translation_quote\":\"现代雅略巴古\"}],\"findings_complete\":true,\"passed\":true,\"score\":99}",
+    "content_bytes": 339,
+    "content_evidence_truncated": false,
+    "content_sha256": "bca58532ed5a255f62f4ae9b55617eb7cc792653a361988d6debc6725a1e573a",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 891,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 782,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 13846,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 12743,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 14737
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review2",
+  "translation_attempts": 2
+}

@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "标题“现代雅略巴古”及对应段落",
+      "severity": "minor",
+      "source_quote": "A modern Mars’ Hill",
+      "suggested_fix": "将“雅略巴古”改为中文常用地名“亚略巴古”，如“现代亚略巴古”。",
+      "translation_quote": "现代雅略巴古"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}
