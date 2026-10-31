@@ -8,15 +8,14 @@
     "active": 50,
     "already_translated": 108,
     "automatic_capacity_wait": 300,
-    "continuation_cooldown": 2,
     "continuation_progress_uncertain_requires_attention": 3,
     "continuation_repeated_findings_requires_attention": 1,
-    "eligible_automatic": 835,
+    "eligible_automatic": 836,
     "eligible_source_refresh": 177,
     "legacy_response_outcome_unknown_requires_owner_attention": 10,
     "pending_automatic_admission": 99,
     "provider_refusal_requires_owner_attention": 3,
-    "repeated_technical_failure_requires_attention": 10,
+    "repeated_technical_failure_requires_attention": 11,
     "source_error_requires_attention": 40,
     "technical_failure_requires_attention": 25
   },
@@ -3474,7 +3473,7 @@
       "language": "deu",
       "latest_task": "14c75cd90f3376b139f5cd7296987cfa",
       "processing_status": "not_ready",
-      "reason": "continuation_cooldown"
+      "reason": "repeated_technical_failure_requires_attention"
     },
     {
       "accepted_cycles": 0,
@@ -4091,7 +4090,7 @@
       "language": "ell",
       "latest_task": "0f9ffe7eb41e5586f92fa65743f4721c",
       "processing_status": "not_ready",
-      "reason": "continuation_cooldown"
+      "reason": "eligible_automatic"
     },
     {
       "accepted_cycles": 0,
