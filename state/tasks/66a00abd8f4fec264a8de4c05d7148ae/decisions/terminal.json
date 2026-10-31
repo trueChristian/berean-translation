@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML/metadata contract",
+      "severity": "critical",
+      "source_quote": "",
+      "suggested_fix": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[118]: source /article[1]/figure[3]/img[1] ('start', 'img', (('alt', '<translated>'), ('loading', 'lazy'), ('src', '/images/articles/f87354d0-0bb8-4271-a8db-792c77d0d090-3.png'))); translation /article[1]/figure[3]/img[1] ('start', 'img', (('alt', '<translated>'), ('src', '/images/articles/f87354d0-0bb8-4271-a8db-792c77d0d090-3.png')))",
+      "translation_quote": ""
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[301]: source /article[1]/p[49]/em[1] ('start', 'em', ()); translation /article[1]/p[49] ('end', 'p')",
+  "stage": "terminal"
+}
