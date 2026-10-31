@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, section 2, quoted sentence",
+      "severity": "major",
+      "source_quote": "“The Kingdom of God suffereth violence, and the violent take it by force.”",
+      "suggested_fix": "“परमेश्वर का राज्य हिंसा का शिकार होता है, और हिंसक लोग उसे बलपूर्वक ले लेते हैं।”",
+      "translation_quote": "“स्वर्ग का राज्य बलपूर्वक आगे बढ़ता है, और बलवान उसे छीन लेते हैं।”"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; a recovery continuation must pass admission",
+  "stage": "terminal"
+}

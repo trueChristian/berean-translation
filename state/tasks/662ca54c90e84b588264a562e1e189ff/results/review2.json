@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "a78187c6-c349-4cf5-b60f-66a1406adcaf",
+    "response_id": "chatcmpl-EeuTJUo5VO63AcITvTb0T9GqXvlEB",
+    "usage": {
+      "completion_tokens": 966,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 832,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4562,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3459,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 5528
+    }
+  },
+  "received_at": "2026-10-31T05:23:07+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, section 2, quoted sentence",
+        "severity": "major",
+        "source_quote": "“The Kingdom of God suffereth violence, and the violent take it by force.”",
+        "suggested_fix": "“परमेश्वर का राज्य हिंसा का शिकार होता है, और हिंसक लोग उसे बलपूर्वक ले लेते हैं।”",
+        "translation_quote": "“स्वर्ग का राज्य बलपूर्वक आगे बढ़ता है, और बलवान उसे छीन लेते हैं।”"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 93
+  }
+}
