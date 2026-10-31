@@ -7,13 +7,13 @@
   "counts": {
     "active": 50,
     "already_translated": 108,
-    "automatic_capacity_wait": 299,
+    "automatic_capacity_wait": 300,
     "continuation_progress_uncertain_requires_attention": 2,
     "continuation_repeated_findings_requires_attention": 1,
     "eligible_automatic": 831,
     "eligible_source_refresh": 183,
     "legacy_response_outcome_unknown_requires_owner_attention": 10,
-    "pending_automatic_admission": 102,
+    "pending_automatic_admission": 101,
     "provider_refusal_requires_owner_attention": 3,
     "repeated_technical_failure_requires_attention": 7,
     "source_error_requires_attention": 40,
@@ -5058,12 +5058,12 @@
       "reason": "eligible_automatic"
     },
     {
-      "admission_status": "pending",
+      "admission_status": "attention",
       "article_id": "053cec10-1df0-4f62-832e-362809b44283",
       "language": "heb",
       "latest_task": null,
-      "processing_status": "queued",
-      "reason": "pending_automatic_admission",
+      "processing_status": "held_without_publication",
+      "reason": "automatic_capacity_wait",
       "request_id": "auto-e20c266959d9085b30e4b10d03019dda273925a644560ad4c9cebc55a48999ee"
     },
     {
@@ -7726,7 +7726,7 @@
       "article_id": "9b22e638-a735-48fe-b31b-817c614538ca",
       "language": "ita",
       "latest_task": "0451891b2c1a72ea182978deb6644683",
-      "processing_status": "queued",
+      "processing_status": "in_batch",
       "reason": "active"
     },
     {
