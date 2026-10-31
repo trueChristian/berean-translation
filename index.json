@@ -57084,6 +57084,42 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/nld/articles/816d80f0-e3dd-46a6-ae6e-03214e209890.html",
+      "html_sha256": "43d72db4f8ec3a174e015d63a68f4ec906114709d950dda8ea1db4b8fdafff21",
+      "human_reviewed": false,
+      "id": "816d80f0-e3dd-46a6-ae6e-03214e209890",
+      "images": [
+        {
+          "alt": "Een hand die geld aanneemt door een houten hek",
+          "public_path": "/images/articles/816d80f0-e3dd-46a6-ae6e-03214e209890-1.jpg"
+        },
+        {
+          "alt": "Facsimile van de handtekening van John Wesley",
+          "public_path": "/images/articles/816d80f0-e3dd-46a6-ae6e-03214e209890-2.jpg"
+        },
+        {
+          "alt": "Beeld van John Wesley met een open boek",
+          "public_path": "/images/articles/816d80f0-e3dd-46a6-ae6e-03214e209890-3.jpg"
+        }
+      ],
+      "issue_id": "05538f8e-6560-5f96-b313-890e87c05daf",
+      "language": "nld",
+      "language_tag": "nl",
+      "metadata": "content/nld/articles/816d80f0-e3dd-46a6-ae6e-03214e209890.json",
+      "metadata_sha256": "9d1bf12ee299782f0817d913352d08cb038485c1e5bd0076a371e5301b10b923",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": null,
+      "source_revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
+      "source_translation_key": "0af4e8eba8d76fd3ebe2cccff019f1ce29d88581ec1120c33079d9f90b1288d6",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Over het gevaar van toenemende rijkdom",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/nld/articles/85306410-6a2d-46f1-b6db-6d3450f7f908.html",
       "html_sha256": "c3f5963e889a585033213b1a2d361882d7408278bfa3ea9472b216b08722a70e",
       "human_reviewed": false,
