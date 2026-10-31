@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "9070023b71dc4b3ab5969d12845e2167",
   "campaign": "auto-312846f3296f87be5a3dc03ab07f9875b893decf863561ca4710f882762ac1cd",
   "created_at": "2026-10-31T06:07:43+00:00",
   "events": [
@@ -28,18 +27,31 @@
         },
         "total_tokens": 7571
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 141,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 109,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5007,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 3904,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 5148
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "HTML, section 2, quoted sentence",
-      "severity": "major",
-      "source_quote": "“The Kingdom of God suffereth violence, and the violent take it by force.”",
-      "suggested_fix": "Αλλάξτε το «Η βασιλεία των ουρανών» σε «Η βασιλεία του Θεού», διατηρώντας το υπόλοιπο απόσπασμα.",
-      "translation_quote": "«Η βασιλεία των ουρανών ασκεί βία, και οι βίαιοι την αρπάζουν»"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-10-31T06:27:43+00:00",
   "id": "33090eb12ac1ee8e6de1aea118564b50",
   "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
   "language": "ell",
@@ -128,9 +140,11 @@
     }
   },
   "protected": false,
+  "quality_score": 99,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/fe2a4b0674e6061085600197ed152af1fef7a737e5fd45a5d32f093a28d9a885.json",
   "stage": "review2",
   "stage_budget": {
@@ -144,7 +158,7 @@
     "total_reserved_usd": 0.560982,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "af0a2811aaad8facf9c0fb70e4f79fedbc83ae6bb333beb07b2d95c0bed6e2e6",
   "translation_model_actual": "gpt-6.1-sol"

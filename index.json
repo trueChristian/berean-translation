@@ -25160,6 +25160,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ell/articles/ad4e2c15-f6ba-4b89-a519-1a36655aa93a.html",
+      "html_sha256": "af912ca0effd183b80ff0cddf9c869fc4680a0f83950e21f79a868811fd9c90e",
+      "human_reviewed": false,
+      "id": "ad4e2c15-f6ba-4b89-a519-1a36655aa93a",
+      "images": [
+        {
+          "alt": "Ο Ιησούς γονατίζει και προσεύχεται ανάμεσα σε βράχους",
+          "public_path": "/images/articles/ad4e2c15-f6ba-4b89-a519-1a36655aa93a-1.jpg"
+        }
+      ],
+      "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
+      "language": "ell",
+      "language_tag": "el",
+      "metadata": "content/ell/articles/ad4e2c15-f6ba-4b89-a519-1a36655aa93a.json",
+      "metadata_sha256": "8321ed8978311f0becd9e28c495e0aec1b0c14515b92360284fb5c331fe9d394",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": null,
+      "source_revision": "ed75201a8e3b37913a14f4d949de33a7a0daa2c2",
+      "source_translation_key": "af0a2811aaad8facf9c0fb70e4f79fedbc83ae6bb333beb07b2d95c0bed6e2e6",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Η συνταγή για μια φλεγόμενη καρδιά",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ell/articles/af526358-a4bb-44b9-aeec-2535f8ce9a29.html",
       "html_sha256": "71d15ea0092d99c4eba38db43dda9144fc78f41c7c55261e853677472f75f7b7",
       "human_reviewed": false,
