@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-31T18:08:58+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"html: «ثبوت عمل سے ملتا ہے» کے تحت جذبات سے متعلق پیراگراف اور چوتھی تصویر کا figcaption\",\"severity\":\"minor\",\"source_quote\":\"Our emotional makeup is quite diverse, and we need to exercise extreme caution in trying to make other people respond emotionally just like we do.\",\"suggested_fix\":\"دونوں مقامات پر یہ جملہ کریں: «ہمارے جذباتی مزاج بہت مختلف ہوتے ہیں، اس لیے دوسروں سے اپنے ہی جیسا جذباتی ردِعمل ظاہر کروانے کی کوشش میں ہمیں انتہائی احتیاط کرنی چاہیے۔» موجودہ HTML ساخت برقرار رکھیں۔\",\"translation_quote\":\"ہمارے جذباتی مزاج بہت مختلف ہوتے ہیں، اس لیے دوسروں کو اپنے جیسا جذباتی ردِعمل دکھانے کی کوشش میں ہمیں انتہائی احتیاط کرنی چاہیے۔\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 1044,
+    "content_evidence_truncated": false,
+    "content_sha256": "e309c2f3ef02a5e9a42fbe1996a96ede7173e9c1f39164ae26a4e1b19c0763bc",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 300,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 86,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 28233,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 27130,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 28533
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review2",
+  "translation_attempts": 1
+}

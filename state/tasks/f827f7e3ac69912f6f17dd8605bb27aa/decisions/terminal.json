@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "html: «ثبوت عمل سے ملتا ہے» کے تحت جذبات سے متعلق پیراگراف اور چوتھی تصویر کا figcaption",
+      "severity": "minor",
+      "source_quote": "Our emotional makeup is quite diverse, and we need to exercise extreme caution in trying to make other people respond emotionally just like we do.",
+      "suggested_fix": "دونوں مقامات پر یہ جملہ کریں: «ہمارے جذباتی مزاج بہت مختلف ہوتے ہیں، اس لیے دوسروں سے اپنے ہی جیسا جذباتی ردِعمل ظاہر کروانے کی کوشش میں ہمیں انتہائی احتیاط کرنی چاہیے۔» موجودہ HTML ساخت برقرار رکھیں۔",
+      "translation_quote": "ہمارے جذباتی مزاج بہت مختلف ہوتے ہیں، اس لیے دوسروں کو اپنے جیسا جذباتی ردِعمل دکھانے کی کوشش میں ہمیں انتہائی احتیاط کرنی چاہیے۔"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

@@ -91211,6 +91211,46 @@
     {
       "ai_notice_required": true,
       "direction": "rtl",
+      "html": "content/urd/articles/f87354d0-0bb8-4271-a8db-792c77d0d090.html",
+      "html_sha256": "2c3386e9d97c2aa4bcd277ff21352dd0c9336aa1645923ef3ddd8c1e848c56b6",
+      "human_reviewed": false,
+      "id": "f87354d0-0bb8-4271-a8db-792c77d0d090",
+      "images": [
+        {
+          "alt": "پنتیکوست کے دن ایمانداروں کا روح القدس پانا دکھانے والی کندہ تصویر",
+          "public_path": "/images/articles/f87354d0-0bb8-4271-a8db-792c77d0d090-1.png"
+        },
+        {
+          "alt": "شعلے کی مصورانہ تصویر",
+          "public_path": "/images/articles/f87354d0-0bb8-4271-a8db-792c77d0d090-2.jpg"
+        },
+        {
+          "alt": "پھیلے ہوئے ہاتھ کی طرف اڑتا ہوا کبوتر",
+          "public_path": "/images/articles/f87354d0-0bb8-4271-a8db-792c77d0d090-3.png"
+        },
+        {
+          "alt": "مسکراتے اور اداس چہروں کو یکجا کرنے والا سڑک کا نشان",
+          "public_path": "/images/articles/f87354d0-0bb8-4271-a8db-792c77d0d090-4.jpg"
+        }
+      ],
+      "issue_id": "05538f8e-6560-5f96-b313-890e87c05daf",
+      "language": "urd",
+      "language_tag": "ur",
+      "metadata": "content/urd/articles/f87354d0-0bb8-4271-a8db-792c77d0d090.json",
+      "metadata_sha256": "5c16f050137dcfcde5955c5a794e363cc6588cb037a7bff33c7cb85c684807c1",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": null,
+      "source_revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
+      "source_translation_key": "ecc35e8cd4c57e2b467ba1c07b4baf9d8db122db80e2c80ae9e2a166783c3de1",
+      "status": "ready",
+      "subtitle": null,
+      "title": "پینتیکوسٹ ازم سے روح القدس کے بپتسمے کو چھڑانا",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
       "html": "content/urd/articles/fb65688b-5aaf-4194-a345-31f6f1355389.html",
       "html_sha256": "5eadb12c634c0fa18622ca3157388afb4a8856fc546a106b38e4bb300d3ca029",
       "human_reviewed": false,
