@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "3a6c3cc2-328e-4940-b4b8-24e4469d643d",
+    "response_id": "chatcmpl-EfBSuKlfPwc231C6xaiajjKr4RqSe",
+    "usage": {
+      "completion_tokens": 1116,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 902,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 26325,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 25222,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 27441
+    }
+  },
+  "received_at": "2026-10-31T22:09:33+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraf yang dimulai “Yesus lalu langsung berbicara tentang memiliki hidup kekal” dan keterangan gambar sesudahnya",
+        "severity": "major",
+        "source_quote": "“the name Jehovah is not found in the New Testament. But it actually is there … because Jehovah means ‘always existent.’” Caption: “the Spirit of God, Jehovah himself”",
+        "suggested_fix": "Gunakan “Yehova” secara konsisten, bukan “Yahweh”, di paragraf dan keterangan gambar; argumen artikel secara khusus merujuk pada nama “Jehovah” dan makna yang dilekatkan padanya.",
+        "translation_quote": "“nama Yahweh tidak ditemukan dalam Perjanjian Baru. Namun, sebenarnya nama itu ada di sana … karena Yahweh berarti ‘yang selalu ada.’” Caption: “Roh Allah, Yahweh sendiri”"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 94
+  }
+}

@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "ae59e0163dac4243a42f36e89628db39",
   "campaign": "auto-bae976ba4907b7724ecfb041100d0e1e9d8543e327264fecc7f3f96ca6df5838",
   "created_at": "2026-10-31T06:08:17+00:00",
   "events": [
@@ -48,18 +47,40 @@
         },
         "total_tokens": 39861
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1116,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 902,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 26325,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 25222,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 27441
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; a recovery continuation must pass admission",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "HTML/metadata contract",
-      "severity": "critical",
-      "source_quote": "",
-      "suggested_fix": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[36]: source /article[1]/blockquote[1]/p[1]/u[1] ('start', 'u', ()); translation /article[1]/blockquote[1]/p[1] ('end', 'p')",
-      "translation_quote": ""
+      "location": "Paragraf yang dimulai “Yesus lalu langsung berbicara tentang memiliki hidup kekal” dan keterangan gambar sesudahnya",
+      "severity": "major",
+      "source_quote": "“the name Jehovah is not found in the New Testament. But it actually is there … because Jehovah means ‘always existent.’” Caption: “the Spirit of God, Jehovah himself”",
+      "suggested_fix": "Gunakan “Yehova” secara konsisten, bukan “Yahweh”, di paragraf dan keterangan gambar; argumen artikel secara khusus merujuk pada nama “Jehovah” dan makna yang dilekatkan padanya.",
+      "translation_quote": "“nama Yahweh tidak ditemukan dalam Perjanjian Baru. Namun, sebenarnya nama itu ada di sana … karena Yahweh berarti ‘yang selalu ada.’” Caption: “Roh Allah, Yahweh sendiri”"
     }
   ],
+  "finished_at": "2026-10-31T22:09:33+00:00",
   "id": "d45b59adae2f2417c406968b2b406991",
   "issue_id": "05538f8e-6560-5f96-b313-890e87c05daf",
   "language": "ind",
@@ -148,9 +169,11 @@
     }
   },
   "protected": false,
+  "quality_score": 94,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/11b94d8a8e8a81e67a7fd3c0c4b463dbf9b119ac25d58f9d05d02c6535fa9d79.json",
   "stage": "review2",
   "stage_budget": {
@@ -166,7 +189,7 @@
     "total_reserved_usd": 0.139935,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "ecc35e8cd4c57e2b467ba1c07b4baf9d8db122db80e2c80ae9e2a166783c3de1",
   "translation_model_actual": "gpt-6-luna"

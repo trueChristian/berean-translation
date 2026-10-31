@@ -33,6 +33,12 @@
       "event": "automatic_requested",
       "previous_task": "f8e2fee63b7c8fcf314a3c03fa584c0e",
       "task": "d45b59adae2f2417c406968b2b406991"
+    },
+    {
+      "at": "2026-10-31T22:09:33+00:00",
+      "event": "not_ready",
+      "reason": "Final review failed; a recovery continuation must pass admission",
+      "task": "d45b59adae2f2417c406968b2b406991"
     }
   ],
   "language": "ind",
