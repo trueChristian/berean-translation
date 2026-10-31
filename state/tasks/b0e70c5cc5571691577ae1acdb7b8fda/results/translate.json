@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "bbcdae1f-03a6-4986-802e-c006ed6f984c",
+    "response_id": "chatcmpl-EfCoFwkdrRzZYizLoUkiR8LDM1pL3",
+    "usage": {
+      "completion_tokens": 741,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 114,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1366,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1363,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2107
+    }
+  },
+  "received_at": "2026-10-31T23:33:41+00:00",
+  "result": {
+    "html": "<article data-article-id=\"19270b64-7f17-4623-b361-5486354b7303\">\n  <figure><img src=\"/images/articles/19270b64-7f17-4623-b361-5486354b7303-1.jpg\" alt=\"Jakob rust onder een trap vol engelen\"></figure>\n  <p>Om elke fase in iemands leven goed te kunnen beoordelen, moeten we die beschouwen als een hoofdstuk in het proces van zijn groei omhoog — of omlaag.</p>\n  <p>Denk aan Jakob in Betel, toen een ladder uit de hemel neerdaalde en hem Gods liefde betoonde. Sommigen vinden Jakobs gelofte in Betel egoïstisch en berekenend. Als God dit voor Jakob doet, zal Jakob dit voor God doen! Hoeveel edeler is het om zich aan God toe te vertrouwen met een vrijgevigheid als die van Abraham, die alles aan Hem toevertrouwt!</p>\n  <p>Maar in Betel stond Jakob nog helemaal aan het begin van zijn geestelijke leven. Hij had net zijn eerste glimp opgevangen van het visioen dat zijn leven tot aan het einde zou vormgeven. Van nature stijgt hij niet tot grote zelfverloochening. Hij geeft eerlijk weer hoe de zaak op hem overkomt en houdt God aan Zijn woord op de praktische, alledaagse manier die kenmerkend voor hem was.</p>\n  <p>Maar bij de Jabbok ging Jakob verder. Opnieuw komen goddelijke machten en tegenwoordigheden in zijn leven, en ditmaal heeft hij geen overeenkomst met hen te sluiten. Hij vraagt niet om veiligheid voor zichzelf, of om het behoud van zijn bezit, of om de bedaring van de woede van zijn broer. Hij vraagt alleen om de zegen die God kan schenken, en laat het aan God over die zegen elke vorm te geven en elke betekenis te laten dragen die Hij eraan wil geven. Nu sluit hij geen overeenkomst, maar vertrouwt en aanbidt hij. Daar hield zijn oude naam Jakob, de bedrieger, niet langer bij hem; hij werd Israël, „een vorst van God”.</p>\n  <figure><img src=\"/images/articles/19270b64-7f17-4623-b361-5486354b7303-2.jpg\" alt=\"Jakob knielt voor een gevleugelde engel\"></figure>\n  <p>Zo brengt God ons van de ene fase naar de volgende: van bekrompen en egoïstische opvattingen over onze verhouding tot Hem naar het uur waarop we van al Zijn gaven niets anders vragen dan de zegen die uitdrukt hoe blij Hij met ons is en ons helpt blij te zijn in Hem.</p>\n</article>\n",
+    "section": null,
+    "subtitle": null,
+    "title": "Hoe mensen groeien"
+  }
+}
