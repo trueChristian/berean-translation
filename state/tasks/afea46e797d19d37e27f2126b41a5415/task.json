@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": "bf748dcf0d9a3a3d749e37e8a203f9e870f6622c1e0eb4334f10622bfc3a9268",
   "base_metadata_sha256": "1124b9c000d43f5fd3fd960e404d5413ed7cee1086e0018969709ee0eb3ce2f7",
-  "batch": "63102f5c412e4319a0f0f3552cffe855",
   "campaign": "auto-0a2bb357cbd3bf3afa933c6383db7822f8a3ab2a269dd6bf56e591d112a94043",
   "created_at": "2026-10-30T19:43:32+00:00",
   "events": [
@@ -28,10 +27,39 @@
         },
         "total_tokens": 14000
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1011,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 892,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 14355,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 14352,
+          "cached_tokens": 0
+        },
+        "total_tokens": 15366
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "Second figure caption, image of the Germantown statement",
+      "severity": "minor",
+      "source_quote": "The two-page 1688 Germantown antislavery statement",
+      "suggested_fix": "Det tvåsidiga antislaveriuttalandet från Germantown 1688",
+      "translation_quote": "Det tvåsidiga antislaveriuttalandet från Germantown 1688"
+    }
+  ],
+  "finished_at": "2026-10-31T10:59:51+00:00",
   "id": "afea46e797d19d37e27f2126b41a5415",
   "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
   "language": "swe",
@@ -120,9 +148,11 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/59cbf8b476880356c033cf18426356b120a6c17f9d556255143dbd63b71c97e3.json",
   "stage": "review1",
   "stage_budget": {
@@ -138,7 +168,7 @@
     "total_reserved_usd": 0.129679,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "d2a2d95f0a98c90fa1d145d8f870384b0fec3bc25e401c2eedeb5709aa7ff254",
   "translation_model_actual": "gpt-6-luna"

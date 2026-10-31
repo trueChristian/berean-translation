@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Second figure caption, image of the Germantown statement",
+      "severity": "minor",
+      "source_quote": "The two-page 1688 Germantown antislavery statement",
+      "suggested_fix": "Det tvåsidiga antislaveriuttalandet från Germantown 1688",
+      "translation_quote": "Det tvåsidiga antislaveriuttalandet från Germantown 1688"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}
