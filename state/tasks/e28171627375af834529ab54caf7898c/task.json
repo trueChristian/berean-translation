@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "7a068dd11690459a9fcf2f479edd32c4",
   "campaign": "auto-b683bc9ea2b0e75aec33d5c424c56e7b584d6212ee06836a2395f7a6918147bd",
   "created_at": "2026-10-31T05:27:00+00:00",
   "events": [
@@ -28,10 +27,38 @@
         },
         "total_tokens": 24943
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 129,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 25259,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 24156,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 25388
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "Cita de Menno Simons, segundo párrafo",
+      "severity": "major",
+      "source_quote": "“Yea, it is all in vain, if one were even baptized of Peter, or Paul, or Christ himself”",
+      "suggested_fix": "«Sí, todo es en vano, aunque uno haya sido bautizado por Pedro, Pablo o el mismo Cristo»",
+      "translation_quote": "«Sí, todo es en vano, aunque uno haya sido bautizado por Pedro, Pablo o el mismo Cristo»"
+    }
+  ],
   "id": "e28171627375af834529ab54caf7898c",
   "issue_id": "05538f8e-6560-5f96-b313-890e87c05daf",
   "language": "spa",
@@ -120,11 +147,13 @@
     }
   },
   "protected": false,
+  "quality_score": 91,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/11b94d8a8e8a81e67a7fd3c0c4b463dbf9b119ac25d58f9d05d02c6535fa9d79.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "translate",
     "max_candidate_bytes": 120000,
@@ -138,7 +167,7 @@
     "total_reserved_usd": 0.139954,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "ecc35e8cd4c57e2b467ba1c07b4baf9d8db122db80e2c80ae9e2a166783c3de1",
   "translation_model_actual": "gpt-6-luna"

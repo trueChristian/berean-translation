@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Cita de Menno Simons, segundo párrafo",
+      "severity": "major",
+      "source_quote": "“Yea, it is all in vain, if one were even baptized of Peter, or Paul, or Christ himself”",
+      "suggested_fix": "«Sí, todo es en vano, aunque uno haya sido bautizado por Pedro, Pablo o el mismo Cristo»",
+      "translation_quote": "«Sí, todo es en vano, aunque uno haya sido bautizado por Pedro, Pablo o el mismo Cristo»"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

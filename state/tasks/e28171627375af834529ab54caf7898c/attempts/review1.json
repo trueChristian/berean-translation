@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-10-31T16:03:14+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Cita de Menno Simons, segundo párrafo\",\"severity\":\"major\",\"source_quote\":\"“Yea, it is all in vain, if one were even baptized of Peter, or Paul, or Christ himself”\",\"suggested_fix\":\"«Sí, todo es en vano, aunque uno haya sido bautizado por Pedro, Pablo o el mismo Cristo»\",\"translation_quote\":\"«Sí, todo es en vano, aunque uno haya sido bautizado por Pedro, Pablo o el mismo Cristo»\"}],\"findings_complete\":true,\"passed\":false,\"score\":91}",
+    "content_bytes": 472,
+    "content_evidence_truncated": false,
+    "content_sha256": "63bf4433fac2070537d6f4ae8f1edb9a4ed22565752d03a37a657849126458f3",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 129,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 25259,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 24156,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 25388
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}
