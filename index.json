@@ -72021,6 +72021,46 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/rus/articles/a5c8b070-97f8-4050-9ac5-89af497287b0.html",
+      "html_sha256": "1c3b1dd6dad28f4a1c9ecfb2ff39d86800817a112b90785cdbe1eb271a70fd84",
+      "human_reviewed": false,
+      "id": "a5c8b070-97f8-4050-9ac5-89af497287b0",
+      "images": [
+        {
+          "alt": "Лев и другие животные смотрят на танцующего ребёнка",
+          "public_path": "/images/articles/a5c8b070-97f8-4050-9ac5-89af497287b0-1.jpg"
+        },
+        {
+          "alt": "Табличка о том, что К. С. Льюис и его друзья собирались в задней комнате паба",
+          "public_path": "/images/articles/a5c8b070-97f8-4050-9ac5-89af497287b0-2.jpg"
+        },
+        {
+          "alt": "Обложка журнала TIME с портретом К. С. Льюиса",
+          "public_path": "/images/articles/a5c8b070-97f8-4050-9ac5-89af497287b0-3.jpg"
+        },
+        {
+          "alt": "К. С. Льюис сидит с книгой",
+          "public_path": "/images/articles/a5c8b070-97f8-4050-9ac5-89af497287b0-4.jpg"
+        }
+      ],
+      "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
+      "language": "rus",
+      "language_tag": "ru",
+      "metadata": "content/rus/articles/a5c8b070-97f8-4050-9ac5-89af497287b0.json",
+      "metadata_sha256": "f3b38d0aff51d2645db641606bbeaeba8873389689904799b46e4c2fbe18f156",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": null,
+      "source_revision": "ed75201a8e3b37913a14f4d949de33a7a0daa2c2",
+      "source_translation_key": "6db58cafff7cfe9f11556e892b54ec7a0015890307776806dd7acebca34a78c1",
+      "status": "ready",
+      "subtitle": "ХРИСТИАНИН, БЕРЕГИСЬ!",
+      "title": "Лев, колдунья и «Хэппи Мил»:",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/rus/articles/a5dc3764-e799-4138-82f0-87b245a77db8.html",
       "html_sha256": "8ec4a63fc100c8bdf43d35d4112c31af07740f4f9b49b85ada2fef105daa6a30",
       "human_reviewed": false,

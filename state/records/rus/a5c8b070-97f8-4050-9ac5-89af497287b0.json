@@ -20,9 +20,32 @@
       "event": "automatic_requested",
       "previous_task": "c2de8ff1b25b2f37076d57235e80bf92",
       "task": "0029a4a286d7d4b288c6e884edae2588"
+    },
+    {
+      "at": "2026-10-31T16:03:34+00:00",
+      "event": "complete",
+      "reason": null,
+      "task": "0029a4a286d7d4b288c6e884edae2588"
     }
   ],
   "language": "rus",
   "latest_task": "0029a4a286d7d4b288c6e884edae2588",
-  "published": null
+  "published": {
+    "html_path": "content/rus/articles/a5c8b070-97f8-4050-9ac5-89af497287b0.html",
+    "html_sha256": "1c3b1dd6dad28f4a1c9ecfb2ff39d86800817a112b90785cdbe1eb271a70fd84",
+    "human_review": null,
+    "human_reviewed": false,
+    "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
+    "metadata_path": "content/rus/articles/a5c8b070-97f8-4050-9ac5-89af497287b0.json",
+    "metadata_sha256": "f3b38d0aff51d2645db641606bbeaeba8873389689904799b46e4c2fbe18f156",
+    "model": "gpt-6.1-sol",
+    "notice_html": "<aside class=\"translation-notice\" data-translation-notice=\"ai\" lang=\"ru\" dir=\"ltr\" role=\"note\">\n  <p>Эта статья переведена с помощью искусственного интеллекта OpenAI (модель: gpt-6.1-sol) и ещё не проверена человеком. Английский оригинал является авторитетной версией. При сомнениях в смысле обращайтесь к английскому оригиналу. <a href=\"/en/articles/a5c8b070-97f8-4050-9ac5-89af497287b0/\" data-source-article-id=\"a5c8b070-97f8-4050-9ac5-89af497287b0\" hreflang=\"en\">Английский оригинал</a></p>\n</aside>",
+    "published_at": "2026-10-31T16:03:34+00:00",
+    "quality_score": 98,
+    "review_model": "gpt-6.1-sol",
+    "source_revision": "ed75201a8e3b37913a14f4d949de33a7a0daa2c2",
+    "source_snapshot": "state/sources/f2ce07ae07b7bb9037d663265e5daeece0e25b77fab6934f6d9167df093fe3dd.json",
+    "task": "0029a4a286d7d4b288c6e884edae2588",
+    "translation_key": "6db58cafff7cfe9f11556e892b54ec7a0015890307776806dd7acebca34a78c1"
+  }
 }
