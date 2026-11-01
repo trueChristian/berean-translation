@@ -1,0 +1,77 @@
+{
+  "findings": [
+    {
+      "location": "html, alinea over de verslechterende relatie met de ouders",
+      "severity": "major",
+      "source_quote": "Thus, I continued to grow harder and colder.",
+      "suggested_fix": "Vervang de zin door: “Zo werd ik steeds harder en afstandelijker.”",
+      "translation_quote": "Zo bleef ik harder en kouwelijker worden."
+    },
+    {
+      "location": "html, alinea over de vriend die met zijn vrouw de kerk verliet",
+      "severity": "major",
+      "source_quote": "They threw aside a lot of what they had once stood for.",
+      "suggested_fix": "Vervang deze zin door: “Ze wierpen veel van wat ze ooit hadden voorgestaan overboord.”",
+      "translation_quote": "Ze wierpen veel van wat ze ooit hadden gehad overboord."
+    },
+    {
+      "location": "html, overdenking na het ongeval",
+      "severity": "major",
+      "source_quote": "Would I be clear before God?",
+      "suggested_fix": "Vervang deze vraag door: “Zou ik met een rein geweten voor God kunnen staan?” Het gaat om zijn geestelijke toestand tegenover God, niet om helderheid.",
+      "translation_quote": "Zou ik helder zijn voor God?"
+    },
+    {
+      "location": "html, alinea over de bijeenkomsten met Mike",
+      "severity": "minor",
+      "source_quote": "I don’t remember that the conviction was any stronger than any other time.",
+      "suggested_fix": "Vervang de zin door: “Ik herinner me niet dat het besef van mijn zonden daar sterker was dan op andere momenten.”",
+      "translation_quote": "Terwijl we daar waren, herinner ik me niet dat de overtuiging sterker was dan andere keren."
+    },
+    {
+      "location": "html, alinea over de verhuizing op veertienjarige leeftijd",
+      "severity": "minor",
+      "source_quote": "all the while growing colder and more rebellious",
+      "suggested_fix": "Vervang “steeds kouder en rebelerender” door “steeds kouder en opstandiger”.",
+      "translation_quote": "terwijl ik steeds kouder en rebelerender werd"
+    },
+    {
+      "location": "html, alinea over de vriend die vermist was",
+      "severity": "minor",
+      "source_quote": "he was okay and was living back in the states again",
+      "suggested_fix": "Vervang dit door: “het ging goed met hem en hij woonde weer in de Verenigde Staten”.",
+      "translation_quote": "hij had het overleefd en woonde weer in de Verenigde Staten"
+    },
+    {
+      "location": "html, alinea over de vriend die met zijn vrouw de kerk verliet",
+      "severity": "minor",
+      "source_quote": "What’s the use?",
+      "suggested_fix": "Vervang de vraag door: “Wat heeft het voor zin?”",
+      "translation_quote": "Waar heeft het voor nodig?"
+    },
+    {
+      "location": "html, alinea over het vertrek naar Washington in 2015",
+      "severity": "minor",
+      "source_quote": "due to a work opportunity",
+      "suggested_fix": "Vervang “vanwege een werkgelegenheid” door “vanwege een kans om daar te werken”.",
+      "translation_quote": "vanwege een werkgelegenheid"
+    },
+    {
+      "location": "html, eerste alinea over het ongeval",
+      "severity": "minor",
+      "source_quote": "All the while she sat there with lines of worry and fear.",
+      "suggested_fix": "Vervang de zin door: “Al die tijd zat ze daar met zorgen en angst op haar gezicht getekend.”",
+      "translation_quote": "Ondertussen zat zij daar met rijen van zorgen en angst."
+    },
+    {
+      "location": "html, overdenking na het ongeval",
+      "severity": "minor",
+      "source_quote": "What would the paramedics and rescue team remember me by?",
+      "suggested_fix": "Vervang de vraag door: “Hoe zouden de paramedici en het reddingsteam zich mij herinneren?”",
+      "translation_quote": "Waaraan zouden de paramedici en het reddingsteam mij herinneren?"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
