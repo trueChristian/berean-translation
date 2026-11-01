@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "الفقرة 12: الامتنان",
+      "severity": "minor",
+      "source_quote": "That to which we are most grateful, that we worship as God.",
+      "suggested_fix": "ما نكون أكثر امتنانًا له نعبده كأنه الله.",
+      "translation_quote": "لمن نكون أكثر امتنانًا نعبده كأنه الله."
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}
