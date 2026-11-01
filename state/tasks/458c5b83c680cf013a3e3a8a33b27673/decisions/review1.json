@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "Paragraf 2",
+      "severity": "major",
+      "source_quote": "“shame and everlasting contempt.”",
+      "suggested_fix": "Ganti “kehinaan dan kengerian yang kekal” dengan “kehinaan dan penghinaan yang kekal” agar makna “contempt” tidak berubah menjadi “horror”.",
+      "translation_quote": "“kehinaan dan kengerian yang kekal.”"
+    },
+    {
+      "location": "Paragraf 3",
+      "severity": "major",
+      "source_quote": "“in all holy conversation and godliness.”",
+      "suggested_fix": "Ganti “dalam segala percakapan yang kudus dan kesalehan” dengan “dalam seluruh perilaku yang kudus dan saleh”; “conversation” di sini berarti perilaku atau cara hidup.",
+      "translation_quote": "“hidup dalam segala percakapan yang kudus dan kesalehan.”"
+    },
+    {
+      "location": "Paragraf 5",
+      "severity": "minor",
+      "source_quote": "“Nothing is worth living for but eternity.”",
+      "suggested_fix": "Ganti “Tidak ada yang layak diperjuangkan dalam hidup selain keabadian” dengan “Tidak ada yang layak dijalani selain keabadian” agar mempertahankan gagasan tentang apa yang patut dijadikan tujuan hidup.",
+      "translation_quote": "“Tidak ada yang layak diperjuangkan dalam hidup selain keabadian.”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

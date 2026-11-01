@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "3393cf891dd54f199feea294953bead9",
   "campaign": "auto-12622db8e3151d160e8b046867c989b52eed58fdedff94d35540626309457708",
   "created_at": "2026-10-31T22:54:42+00:00",
   "events": [
@@ -28,10 +27,52 @@
         },
         "total_tokens": 3033
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 801,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 497,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3387,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 2284,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 4188
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "Paragraf 2",
+      "severity": "major",
+      "source_quote": "“shame and everlasting contempt.”",
+      "suggested_fix": "Ganti “kehinaan dan kengerian yang kekal” dengan “kehinaan dan penghinaan yang kekal” agar makna “contempt” tidak berubah menjadi “horror”.",
+      "translation_quote": "“kehinaan dan kengerian yang kekal.”"
+    },
+    {
+      "location": "Paragraf 3",
+      "severity": "major",
+      "source_quote": "“in all holy conversation and godliness.”",
+      "suggested_fix": "Ganti “dalam segala percakapan yang kudus dan kesalehan” dengan “dalam seluruh perilaku yang kudus dan saleh”; “conversation” di sini berarti perilaku atau cara hidup.",
+      "translation_quote": "“hidup dalam segala percakapan yang kudus dan kesalehan.”"
+    },
+    {
+      "location": "Paragraf 5",
+      "severity": "minor",
+      "source_quote": "“Nothing is worth living for but eternity.”",
+      "suggested_fix": "Ganti “Tidak ada yang layak diperjuangkan dalam hidup selain keabadian” dengan “Tidak ada yang layak dijalani selain keabadian” agar mempertahankan gagasan tentang apa yang patut dijadikan tujuan hidup.",
+      "translation_quote": "“Tidak ada yang layak diperjuangkan dalam hidup selain keabadian.”"
+    }
+  ],
   "id": "458c5b83c680cf013a3e3a8a33b27673",
   "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
   "language": "ind",
@@ -120,11 +161,13 @@
     }
   },
   "protected": false,
+  "quality_score": 91,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/d1ad1fde7c77815637c6fb95fb8f7e8a5023a172781ddce15f798d01cdf60f20.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "translate",
     "max_candidate_bytes": 120000,
@@ -138,7 +181,7 @@
     "total_reserved_usd": 0.086845,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "4a0f2e46d38c9417b9a0cd7d5b0a7beea7595a781a49fbd4e10a86619729e5b6",
   "translation_model_actual": "gpt-6-luna"

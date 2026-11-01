@@ -1,0 +1,52 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "d590dea9-00ba-40ea-bf0b-b014aa61d992",
+    "response_id": "chatcmpl-EfDi1uLZ1R3xttmOI00Fsx6pdYATg",
+    "usage": {
+      "completion_tokens": 801,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 497,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3387,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2284,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 4188
+    }
+  },
+  "received_at": "2026-11-01T01:05:11+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraf 2",
+        "severity": "major",
+        "source_quote": "“shame and everlasting contempt.”",
+        "suggested_fix": "Ganti “kehinaan dan kengerian yang kekal” dengan “kehinaan dan penghinaan yang kekal” agar makna “contempt” tidak berubah menjadi “horror”.",
+        "translation_quote": "“kehinaan dan kengerian yang kekal.”"
+      },
+      {
+        "location": "Paragraf 3",
+        "severity": "major",
+        "source_quote": "“in all holy conversation and godliness.”",
+        "suggested_fix": "Ganti “dalam segala percakapan yang kudus dan kesalehan” dengan “dalam seluruh perilaku yang kudus dan saleh”; “conversation” di sini berarti perilaku atau cara hidup.",
+        "translation_quote": "“hidup dalam segala percakapan yang kudus dan kesalehan.”"
+      },
+      {
+        "location": "Paragraf 5",
+        "severity": "minor",
+        "source_quote": "“Nothing is worth living for but eternity.”",
+        "suggested_fix": "Ganti “Tidak ada yang layak diperjuangkan dalam hidup selain keabadian” dengan “Tidak ada yang layak dijalani selain keabadian” agar mempertahankan gagasan tentang apa yang patut dijadikan tujuan hidup.",
+        "translation_quote": "“Tidak ada yang layak diperjuangkan dalam hidup selain keabadian.”"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 91
+  }
+}
