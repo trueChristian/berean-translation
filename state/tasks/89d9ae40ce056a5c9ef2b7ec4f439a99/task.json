@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "314dd66cb41c465b9cdade5d089ead16",
   "campaign": "auto-5f17a670e91e2057d0469aa81d3dff30950a12419122decb484c49321084b604",
   "created_at": "2026-10-31T22:11:21+00:00",
   "events": [
@@ -68,18 +67,31 @@
         },
         "total_tokens": 4301
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 464,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 432,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3316,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 2213,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 3780
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "Paragraph 4",
-      "severity": "major",
-      "source_quote": "“When the noble Russell was executed as a martyr to freedom, he handed his watch to a friend who stood beside him on the scaffold.”",
-      "suggested_fix": "将“站在断头台旁的一位朋友”改为“站在行刑台旁的一位朋友”，避免把未指明类型的行刑台具体化为断头台。",
-      "translation_quote": "“高贵的拉塞尔为自由殉道、即将被处决时，把自己的怀表交给站在断头台旁的一位朋友。”"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-11-01T14:58:11+00:00",
   "id": "89d9ae40ce056a5c9ef2b7ec4f439a99",
   "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
   "language": "cmn",
@@ -168,7 +180,7 @@
     }
   },
   "protected": false,
-  "quality_score": 94,
+  "quality_score": 100,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
@@ -188,7 +200,7 @@
     "total_reserved_usd": 0.08686,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "4a0f2e46d38c9417b9a0cd7d5b0a7beea7595a781a49fbd4e10a86619729e5b6",
   "translation_model_actual": "gpt-6-luna"
