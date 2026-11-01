@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph beginning «Όσον αφορά την Κόλαση»",
+      "severity": "minor",
+      "source_quote": "“There is no difference in Satanism, between white and black witchcraft or magic.”",
+      "suggested_fix": "«Στον σατανισμό δεν υπάρχει διαφορά ανάμεσα στη λευκή και τη μαύρη μαγεία ή τη μαγεία των μαγισσών»",
+      "translation_quote": "«Στον σατανισμό δεν υπάρχει διαφορά ανάμεσα στη λευκή και τη μαύρη μαγεία»"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

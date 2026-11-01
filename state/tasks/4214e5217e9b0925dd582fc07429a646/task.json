@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "b8b2b8422472493389f81365c6439945",
   "campaign": "auto-1079fc4e206cd3b10dddf2a471394b0e583523f3bf42464d6411e97831146b75",
   "created_at": "2026-10-31T17:56:36+00:00",
   "events": [
@@ -48,18 +47,39 @@
         },
         "total_tokens": 20605
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1014,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 863,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 13038,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 11935,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 14052
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "HTML/metadata contract",
-      "severity": "critical",
-      "source_quote": "",
-      "suggested_fix": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[19]: source /article[1]/p[7]/sup[1] ('start', 'sup', ()); translation /article[1]/p[7] ('end', 'p')",
-      "translation_quote": ""
+      "location": "Paragraph beginning «Όσον αφορά την Κόλαση»",
+      "severity": "minor",
+      "source_quote": "“There is no difference in Satanism, between white and black witchcraft or magic.”",
+      "suggested_fix": "«Στον σατανισμό δεν υπάρχει διαφορά ανάμεσα στη λευκή και τη μαύρη μαγεία ή τη μαγεία των μαγισσών»",
+      "translation_quote": "«Στον σατανισμό δεν υπάρχει διαφορά ανάμεσα στη λευκή και τη μαύρη μαγεία»"
     }
   ],
+  "finished_at": "2026-11-01T01:04:03+00:00",
   "id": "4214e5217e9b0925dd582fc07429a646",
   "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
   "language": "ell",
@@ -148,9 +168,11 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/b4887a5726fcaaf08bc4a805db49c31361507cef57fb22b667d518e224c092bf.json",
   "stage": "review2",
   "stage_budget": {
@@ -166,7 +188,7 @@
     "total_reserved_usd": 0.09136,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "6db58cafff7cfe9f11556e892b54ec7a0015890307776806dd7acebca34a78c1",
   "translation_model_actual": "gpt-6-luna"

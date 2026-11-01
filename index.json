@@ -25469,6 +25469,46 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ell/articles/a5c8b070-97f8-4050-9ac5-89af497287b0.html",
+      "html_sha256": "6bc4334a8e6a6f8cafaca7800080b572669c6ed2a9fa6b72dda5023985fd7f44",
+      "human_reviewed": false,
+      "id": "a5c8b070-97f8-4050-9ac5-89af497287b0",
+      "images": [
+        {
+          "alt": "Ένα λιοντάρι και άλλα ζώα παρακολουθούν ένα παιδί να χορεύει",
+          "public_path": "/images/articles/a5c8b070-97f8-4050-9ac5-89af497287b0-1.jpg"
+        },
+        {
+          "alt": "Πινακίδα που περιγράφει τις συναντήσεις του C. S. Lewis και των φίλων του στο πίσω δωμάτιο μιας παμπ",
+          "public_path": "/images/articles/a5c8b070-97f8-4050-9ac5-89af497287b0-2.jpg"
+        },
+        {
+          "alt": "Εξώφυλλο του περιοδικού TIME με πορτρέτο του C. S. Lewis",
+          "public_path": "/images/articles/a5c8b070-97f8-4050-9ac5-89af497287b0-3.jpg"
+        },
+        {
+          "alt": "Ο C. S. Lewis καθισμένος με ένα βιβλίο",
+          "public_path": "/images/articles/a5c8b070-97f8-4050-9ac5-89af497287b0-4.jpg"
+        }
+      ],
+      "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
+      "language": "ell",
+      "language_tag": "el",
+      "metadata": "content/ell/articles/a5c8b070-97f8-4050-9ac5-89af497287b0.json",
+      "metadata_sha256": "41ea41f506ba5fc34219ed16637c3b773096b89630e6bd16526c5fec3cf54776",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
+      "source_translation_key": "6db58cafff7cfe9f11556e892b54ec7a0015890307776806dd7acebca34a78c1",
+      "status": "ready",
+      "subtitle": "ΧΡΙΣΤΙΑΝΕ, ΠΡΟΣΟΧΗ!",
+      "title": "Το λιοντάρι, η μάγισσα και το Happy Meal:",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ell/articles/a666b8a8-f3c7-4478-b53d-bb0abe446f42.html",
       "html_sha256": "ea7672bac31b9221717d0e4f55959d03790cfc34dfe50088d7d530319b4789e9",
       "human_reviewed": false,
