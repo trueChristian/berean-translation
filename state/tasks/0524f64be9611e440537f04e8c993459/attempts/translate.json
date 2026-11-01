@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-01T01:58:24+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"683a4e23-acbb-434a-8e0e-2b0793e1a0fb\\\">\\n  <figure>\\n    <img src=\\\"/images/articles/683a4e23-acbb-434a-8e0e-2b0793e1a0fb-1.jpg\\\" alt=\\\"En sittende maler med en palett ved siden av et staffeli\\\">\\n  </figure>\\n  <p>Da den greske maleren Apelles ble spurt om hvorfor han la så mye arbeid i maleriene sine, svarte han: «Fordi jeg maler for evigheten.» Han brukte ordet som en dristig billedlig formulering, men vi kan bruke ordet bokstavelig når vi sier at vi maler bildene av livene våre for evigheten. Vi bruker farger som sitter fast. Alt rent og hellig ord eller verk som føyes inn i dette bildet, vil bli stående der, uforgjengelig og udødelig. Alt egoistisk eller syndig som males på dette livets lerret, kan aldri vaskes bort, bortsett fra ved at Jesu blod påføres her i dette livet. Nå eller aldri har dette dyrebare blodet virkning. Når døden kommer, stanser malingen! Da kan ingen penselstrøk av anger eller tro føyes til. Da kan ingen skyldige flekker vaskes bort. Maleriet er ferdig, og for alltid ferdig.</p>\\n  <p>Døden rammer inn bildet og sender det videre til dommens dag for fremvisning. Ikke en «privat forhåndsvisning» for en utvalgt krets, men en offentlig fremvisning for en samlet mengde som ingen kan telle. For Gud skal føre hvert ord og hver gjerning fram for dommen, enten den er god eller ond. Bildet av livene våre som blir lagt fram for «den store, hvite tronen», vil være uforanderlig for alltid. Hvis lerretet er prydet med gjerninger, hvor beskjedne de enn er, utført til Guds ære, vil livsverket stå som et evig minnesmerke over guddommelig nåde. Hvis livet bare ble brukt til å tilfredsstille det syndige selvet, vil det ynkelige bildet av det bare bli holdt fram til «skam og evig forakt».</p>\\n  <p>Vi kan ønske inderlig å endre portrettet da og gjøre det bedre, men blyanten og fargene har vi lagt igjen; hånden vil for alltid ha mistet sin ferdighet. Vi kan inntrengende be og trygle den rettferdige dommeren om å gi oss enda en mulighet. Svaret, som ikke kan gjøres om, vil være: «Den urettferdige får fortsatt være urettferdig, og den urene får fortsatt være uren. Den rettferdige får fortsatt være rettferdig, og den hellige får fortsatt være hellig.» Når vi ser at dette er sant, hvor slags mennesker bør vi da ikke være i all hellig ferd og gudsfrykt.</p>\\n  <p>Da den edle Russell ble henrettet som martyr for friheten, rakte han klokken sin til en venn som sto ved siden av ham på skafottet. «Ta denne klokken», sa han, «for jeg har ikke mer med <em>tiden</em> å gjøre. Tankene mine dreier seg nå bare om evigheten.» Den døende martyrens ord er et ord i rette tid for oss alle. Vi pastorer som på ny tar fatt på Mesterens arbeid, bør merke oss at vi forkynner for evigheten! La hver forelder som leser dette avsnittet, spørre sin samvittighet: «Oppdrar jeg barna mine ikke bare for denne verden, men også for den kommende?» La hver forretningsmann spørre seg selv om han bare prøver å fylle en sekk full av hull, eller om han, som Guds forvalter, samler seg skatter i himmelen. Unge venn, øver du deg i selvnytelse eller forbereder du deg på den udødelige kronen?</p>\\n  <p>På veggen i en institusjon i Montreal så jeg i sommer denne korte setningen: «Ingenting er langt, bortsett fra evigheten.» Det var et motto for enhver pastors arbeidsværelse og for veggene i hvert hjem. La oss alle skrive det opp foran oss på himmelhvelvingen. «Ingenting er verdt å leve for, bortsett fra evigheten.»</p>\\n  <p class=\\\"poem\\\">La tidens klangfulle klokker<br>\\n  skiftevis stige og falle!<br>\\n  Men i opphøyde undertoner –<br>\\n  som lyder dypere enn alt annet –<br>\\n  finnes en stemme som <em>må</em> høres,<br>\\n  mens våre øyeblikk flyr videre,<br>\\n  og den taler bare dette ordet<br>\\n  <strong>«Evighet! Evighet!»</strong></p>\\n</article>\\n\",\"section\":null,\"subtitle\":null,\"title\":\"Å male for evigheten\"}",
+    "content_bytes": 3977,
+    "content_evidence_truncated": false,
+    "content_sha256": "a1708553817ed67803d45b7d626cbcf797931dedefaa1156e8c10ee28feea902",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1174,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1804,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1801,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2978
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}
