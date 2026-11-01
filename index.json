@@ -20618,6 +20618,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/deu/articles/7c9d5015-158a-4c07-92fc-ae40c998d9ae.html",
+      "html_sha256": "5bafdf87b90cce35fa43fcb82c247d68aa30003439682dd2f8b3a2303d404e00",
+      "human_reviewed": false,
+      "id": "7c9d5015-158a-4c07-92fc-ae40c998d9ae",
+      "images": [
+        {
+          "alt": "Ein älterer bärtiger Mann legt einem knienden Mann die Hände auf den Kopf, während eine Frau in der Nähe sitzt",
+          "public_path": "/images/articles/7c9d5015-158a-4c07-92fc-ae40c998d9ae-1.jpg"
+        },
+        {
+          "alt": "Ein Mann in einem Gewand steht mit ausgebreiteten Armen neben einer knienden Gestalt im Freien",
+          "public_path": "/images/articles/7c9d5015-158a-4c07-92fc-ae40c998d9ae-2.jpg"
+        }
+      ],
+      "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
+      "language": "deu",
+      "language_tag": "de",
+      "metadata": "content/deu/articles/7c9d5015-158a-4c07-92fc-ae40c998d9ae.json",
+      "metadata_sha256": "2ef4304d6603855af963e37aa18fad7df7f97d25a46f222195afdfc3230aaf82",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
+      "source_translation_key": "45c04759c5b0f7d8a9038af8cc76e1ff17a52e5b989557b235da9ebe057bb77d",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Unsere Gemeinschaft ist mit dem Vater",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/deu/articles/7cdda5c4-11c0-4b7f-bcd4-b37677267f87.html",
       "html_sha256": "1580bfd7e169e21bd41901673778a99f5f3e7d820efe2ff97207f125d0eaefee",
       "human_reviewed": false,
