@@ -82793,6 +82793,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/swa/articles/683a4e23-acbb-434a-8e0e-2b0793e1a0fb.html",
+      "html_sha256": "85de1dc4a9347c7c1dd556f355e655962ac639c8ce905280d780506b23a3ed6b",
+      "human_reviewed": false,
+      "id": "683a4e23-acbb-434a-8e0e-2b0793e1a0fb",
+      "images": [
+        {
+          "alt": "Mchoraji ameketi akiwa ameshika ubao wa rangi kando ya fremu ya uchoraji",
+          "public_path": "/images/articles/683a4e23-acbb-434a-8e0e-2b0793e1a0fb-1.jpg"
+        }
+      ],
+      "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
+      "language": "swa",
+      "language_tag": "sw",
+      "metadata": "content/swa/articles/683a4e23-acbb-434a-8e0e-2b0793e1a0fb.json",
+      "metadata_sha256": "9e62e5f242c42027d482806504e8df69f2ba23965b98180d22b6cf4b0c0421cc",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
+      "source_translation_key": "4a0f2e46d38c9417b9a0cd7d5b0a7beea7595a781a49fbd4e10a86619729e5b6",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Kuchora kwa Ajili ya Umilele",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/swa/articles/6b3e3e7e-b5fd-4701-9a63-699b90f17ec9.html",
       "html_sha256": "21a8577817f07747c65dbbbfd8cb27a89555d7fff09d5c28d43de3baea2848a4",
       "human_reviewed": false,
