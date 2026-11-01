@@ -58100,6 +58100,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/nld/articles/7c9d5015-158a-4c07-92fc-ae40c998d9ae.html",
+      "html_sha256": "ed0051512f7e0af81f072b634c65aca7364a9eb4e5ee491938a7ec0885c03707",
+      "human_reviewed": false,
+      "id": "7c9d5015-158a-4c07-92fc-ae40c998d9ae",
+      "images": [
+        {
+          "alt": "Een oudere man met een baard legt zijn handen op het hoofd van een knielende man, terwijl een vrouw vlakbij zit",
+          "public_path": "/images/articles/7c9d5015-158a-4c07-92fc-ae40c998d9ae-1.jpg"
+        },
+        {
+          "alt": "Een man in een gewaad staat buiten met uitgestrekte armen naast een knielende gestalte",
+          "public_path": "/images/articles/7c9d5015-158a-4c07-92fc-ae40c998d9ae-2.jpg"
+        }
+      ],
+      "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
+      "language": "nld",
+      "language_tag": "nl",
+      "metadata": "content/nld/articles/7c9d5015-158a-4c07-92fc-ae40c998d9ae.json",
+      "metadata_sha256": "74587a202260baa02982e6d3b1e27f37dba55c376c96961e7de40e4eb3fb097b",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
+      "source_translation_key": "45c04759c5b0f7d8a9038af8cc76e1ff17a52e5b989557b235da9ebe057bb77d",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Onze gemeenschap is met de Vader",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/nld/articles/7cdda5c4-11c0-4b7f-bcd4-b37677267f87.html",
       "html_sha256": "b47ce707f36958e94edb9d8f70cb911c3b38d81b31701544e83407d9c050d278",
       "human_reviewed": false,
