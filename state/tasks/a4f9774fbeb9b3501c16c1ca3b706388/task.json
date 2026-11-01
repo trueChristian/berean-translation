@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "d6ca0d683f2143e8aea727ed2b6c43f7",
   "campaign": "auto-4f3a3ac9768b0c80fd7d783c9410bca76a4a3b4eceda9c628074bf21c5ba5c14",
   "created_at": "2026-10-31T23:36:44+00:00",
   "events": [
@@ -28,10 +27,46 @@
         },
         "total_tokens": 3555
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 798,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 608,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3803,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 2700,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 4601
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "Poem, line 2",
+      "severity": "minor",
+      "source_quote": "With their changes rise and fall!",
+      "suggested_fix": "με τις αλλαγές τους, ας ανεβοκατεβαίνουν!",
+      "translation_quote": "με τις εναλλαγές τους, πάνω και κάτω!"
+    },
+    {
+      "location": "Poem, final two lines of preceding paragraph",
+      "severity": "minor",
+      "source_quote": "“Nothing is worth living for but eternity.”",
+      "suggested_fix": "«Τίποτα δεν αξίζει να ζει κανείς γι’ αυτό, παρά μόνο η αιωνιότητα».",
+      "translation_quote": "«Τίποτα δεν αξίζει να ζεις γι’ αυτό, παρά μόνο η αιωνιότητα»."
+    }
+  ],
+  "finished_at": "2026-11-01T07:26:55+00:00",
   "id": "a4f9774fbeb9b3501c16c1ca3b706388",
   "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
   "language": "ell",
@@ -120,9 +155,11 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/d1ad1fde7c77815637c6fb95fb8f7e8a5023a172781ddce15f798d01cdf60f20.json",
   "stage": "review1",
   "stage_budget": {
@@ -138,7 +175,7 @@
     "total_reserved_usd": 0.086854,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "4a0f2e46d38c9417b9a0cd7d5b0a7beea7595a781a49fbd4e10a86619729e5b6",
   "translation_model_actual": "gpt-6-luna"

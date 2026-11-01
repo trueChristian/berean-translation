@@ -24546,6 +24546,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ell/articles/683a4e23-acbb-434a-8e0e-2b0793e1a0fb.html",
+      "html_sha256": "a79b6110d430c6bbb5fd6f265894df3df846ab20242287444097ff0c9d040427",
+      "human_reviewed": false,
+      "id": "683a4e23-acbb-434a-8e0e-2b0793e1a0fb",
+      "images": [
+        {
+          "alt": "Ένας καθισμένος ζωγράφος κρατά μια παλέτα δίπλα σε ένα καβαλέτο",
+          "public_path": "/images/articles/683a4e23-acbb-434a-8e0e-2b0793e1a0fb-1.jpg"
+        }
+      ],
+      "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
+      "language": "ell",
+      "language_tag": "el",
+      "metadata": "content/ell/articles/683a4e23-acbb-434a-8e0e-2b0793e1a0fb.json",
+      "metadata_sha256": "b421b2ee949dbafa81a77db6e6cf8dc6150de61b7eff30b72b535fe5d577e276",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
+      "source_translation_key": "4a0f2e46d38c9417b9a0cd7d5b0a7beea7595a781a49fbd4e10a86619729e5b6",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Ζωγραφίζοντας για την αιωνιότητα",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ell/articles/6b3e3e7e-b5fd-4701-9a63-699b90f17ec9.html",
       "html_sha256": "d9bcd9574d2ececa7795e9962a61f763fcb35a21e3a5829fb2cae6426dac551b",
       "human_reviewed": false,

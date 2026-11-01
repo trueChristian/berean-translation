@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Poem, line 2",
+      "severity": "minor",
+      "source_quote": "With their changes rise and fall!",
+      "suggested_fix": "με τις αλλαγές τους, ας ανεβοκατεβαίνουν!",
+      "translation_quote": "με τις εναλλαγές τους, πάνω και κάτω!"
+    },
+    {
+      "location": "Poem, final two lines of preceding paragraph",
+      "severity": "minor",
+      "source_quote": "“Nothing is worth living for but eternity.”",
+      "suggested_fix": "«Τίποτα δεν αξίζει να ζει κανείς γι’ αυτό, παρά μόνο η αιωνιότητα».",
+      "translation_quote": "«Τίποτα δεν αξίζει να ζεις γι’ αυτό, παρά μόνο η αιωνιότητα»."
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}
