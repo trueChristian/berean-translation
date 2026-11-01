@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "b60553f20ffb49b38e2e665ccb09c6de",
   "campaign": "auto-49aaab18e84e4a9877e8670332235e15fc996cf7f2a6d521c3c0195cc0b5e345",
   "created_at": "2026-10-31T21:29:38+00:00",
   "events": [
@@ -68,18 +67,31 @@
         },
         "total_tokens": 2925
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 315,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 283,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 2343,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 1240,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 2658
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "HTML, paragraph 3",
-      "severity": "major",
-      "source_quote": "He honestly states the case as it strikes him, and takes God at His word",
-      "suggested_fix": "Replace “houdt God aan Zijn woord” with “gelooft God op Zijn woord”.",
-      "translation_quote": "Hij geeft eerlijk weer hoe de zaak op hem overkomt en houdt God aan Zijn woord"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-11-01T14:58:37+00:00",
   "id": "b0e70c5cc5571691577ae1acdb7b8fda",
   "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
   "language": "nld",
@@ -168,7 +180,7 @@
     }
   },
   "protected": false,
-  "quality_score": 94,
+  "quality_score": 100,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
@@ -188,7 +200,7 @@
     "total_reserved_usd": 0.08625,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "63da7cacb1fe8b3491c5fd4fb86fa335742cd71d9cb8f136d36e8a661edff9fb",
   "translation_model_actual": "gpt-6-luna"
