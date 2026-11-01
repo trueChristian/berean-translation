@@ -1586,7 +1586,7 @@
   "reported_usage_usd": 0.0,
   "request_sha256": "0a85c7e963d54d343af37a67fd1e489b9cf8752e86cb5a7e3a8f49f2b1a2f4d7",
   "requested_by": "owner-authorized-autonomous-archive",
-  "reserved_usd": 0.0,
+  "reserved_usd": 0.074349,
   "review_contract_version": 2,
   "review_model": "gpt-6.1-sol",
   "review_output_tokens": 8192,
