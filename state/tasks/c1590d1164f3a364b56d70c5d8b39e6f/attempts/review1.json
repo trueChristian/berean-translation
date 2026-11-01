@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-01T15:30:34+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"translation.html, Absatz „Ich habe zahlreiche Menschen gefragt“, Zitat aus 1. Korinther 12,11\",\n      \"severity\": \"major\",\n      \"source_quote\": \"But all these worketh that one and the selfsame Spirit, dividing to every man severally as he will\",\n      \"suggested_fix\": \"Das Zitat ersetzen durch: „Dies alles aber wirkt ein und derselbe Geist, der einem jeden einzeln zuteilt, wie er will – 1. Korinther 12,11.“\",\n      \"translation_quote\": \"Aber alle diese wirken dasselbe eine und denselben Geist, der einem jeden seine besondere Gabe zuteilt, wie er will\"\n    },\n    {\n      \"location\": \"translation.html, Absatz „Gott kann auch die nötige Gabe“, Zitat aus 1. Korinther 12,24–25\",\n      \"severity\": \"major\",\n      \"source_quote\": \"that there should be no schism [division] in the body\",\n      \"suggested_fix\": \"„damit kein Zwischenraum im Leib sei“ ersetzen durch „damit keine Spaltung [Trennung] im Leib sei“.\",\n      \"translation_quote\": \"damit kein Zwischenraum im Leib sei\"\n    },\n    {\n      \"location\": \"translation.html, Absatz „Im Fall von Gemeindeschwierigkeiten“, Zitat aus Jakobus 3,13–18\",\n      \"severity\": \"major\",\n      \"source_quote\": \"let him shew out of a good conversation his works with meekness of wisdom ... And the fruit of righteousness is sown in peace of them that make peace.\",\n      \"suggested_fix\": \"Die erste Aussage durch „der zeige durch <strong>einen guten Lebenswandel</strong> seine Werke in <strong>der Sanftmut der Weisheit</strong>“ ersetzen. Den letzten Zitatsatz ersetzen durch „Und die Frucht der Gerechtigkeit wird von denen, die Frieden stiften, in Frieden gesät.“ Die übrigen Hervorhebungen des Ausgangszitats ebenfalls wiederherstellen, ohne den Text umzustrukturieren.\",\n      \"translation_quote\": \"der zeige aus guten Werken seine Werke in Sanftmut der Weisheit. ... Und die Frucht der Gerechtigkeit wird in Frieden gesät denen, die Frieden stiften.\"\n    },\n    {\n      \"location\": \"translation.html, Absatz „Hier sei vielleicht eine Warnung angebracht“\",\n      \"severity\": \"major\",\n      \"source_quote\": \"the prophet might excuse himself for being harsh because his gift is that of a prophet\",\n      \"suggested_fix\": \"„könnte sich der Prophet dafür entschuldigen, hart zu sein“ ersetzen durch „könnte der Prophet seine Härte damit rechtfertigen“.\",\n      \"translation_quote\": \"könnte sich der Prophet dafür entschuldigen, hart zu sein, weil seine Gabe die des Propheten ist\"\n    },\n    {\n      \"location\": \"translation.html, Absatz „Kürzlich wurde ich auf Studien aufmerksam gemacht“\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"by recording the gibberish that comprises most of what is called tongues today ... repeats syllables of their native tongue\",\n      \"suggested_fix\": \"Den Anfang präzisieren zu „die das unverständliche Gebrabbel aufzeichneten, aus dem das meiste dessen besteht, was heute als Zungenreden bezeichnet wird“. „Silben ihres Muttertuns“ durch „Silben ihrer Muttersprache“ ersetzen.\",\n      \"translation_quote\": \"die Aufnahmen von dem machten, was heute meist als Zungenreden bezeichnet wird ... Silben ihres Muttertuns\"\n    },\n    {\n      \"location\": \"translation.section\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"THE NEW TESTAMENT CHURCH\",\n      \"suggested_fix\": \"„DIE NEUTESTAMENTLICHE KIRCHE“ verwenden.\",\n      \"translation_quote\": \"DIE NEUE TESTAMENTLICHE KIRCHE\"\n    },\n    {\n      \"location\": \"translation.html, Schlussabsatz\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"two of the main purposes of God giving gifts to the church\",\n      \"suggested_fix\": \"„weshalb Gott den Gaben der Gemeinde gibt“ ersetzen durch „weshalb Gott der Gemeinde Gaben gibt“.\",\n      \"translation_quote\": \"zwei der Hauptzwecke, weshalb Gott den Gaben der Gemeinde gibt\"\n    },\n    {\n      \"location\": \"translation.html, Absatz „Die biblische Antwort“\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"the local brotherhood\",\n      \"suggested_fix\": \"„örtliche Bruder-schaft“ durch „örtliche Bruderschaft“ ersetzen.\",\n      \"translation_quote\": \"die örtliche Bruder-schaft\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": false,\n  \"score\": 88\n}",
+    "content_bytes": 4280,
+    "content_evidence_truncated": false,
+    "content_sha256": "412ae3a5d22f0e0c6d9cd6b2ad629c67582b301e00af72003b0f7537db0de043",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1151,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 93,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 11324,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 10221,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 12475
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}

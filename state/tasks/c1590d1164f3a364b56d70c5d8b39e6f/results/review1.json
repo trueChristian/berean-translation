@@ -1,0 +1,87 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "7474e274-bf30-40ce-b808-5f17c805f193",
+    "response_id": "chatcmpl-EfRhb8xQusLWxtiw0zPIKr4QNOWBq",
+    "usage": {
+      "completion_tokens": 1151,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 93,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 11324,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 10221,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 12475
+    }
+  },
+  "received_at": "2026-11-01T15:30:34+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "translation.html, Absatz „Ich habe zahlreiche Menschen gefragt“, Zitat aus 1. Korinther 12,11",
+        "severity": "major",
+        "source_quote": "But all these worketh that one and the selfsame Spirit, dividing to every man severally as he will",
+        "suggested_fix": "Das Zitat ersetzen durch: „Dies alles aber wirkt ein und derselbe Geist, der einem jeden einzeln zuteilt, wie er will – 1. Korinther 12,11.“",
+        "translation_quote": "Aber alle diese wirken dasselbe eine und denselben Geist, der einem jeden seine besondere Gabe zuteilt, wie er will"
+      },
+      {
+        "location": "translation.html, Absatz „Gott kann auch die nötige Gabe“, Zitat aus 1. Korinther 12,24–25",
+        "severity": "major",
+        "source_quote": "that there should be no schism [division] in the body",
+        "suggested_fix": "„damit kein Zwischenraum im Leib sei“ ersetzen durch „damit keine Spaltung [Trennung] im Leib sei“.",
+        "translation_quote": "damit kein Zwischenraum im Leib sei"
+      },
+      {
+        "location": "translation.html, Absatz „Im Fall von Gemeindeschwierigkeiten“, Zitat aus Jakobus 3,13–18",
+        "severity": "major",
+        "source_quote": "let him shew out of a good conversation his works with meekness of wisdom ... And the fruit of righteousness is sown in peace of them that make peace.",
+        "suggested_fix": "Die erste Aussage durch „der zeige durch <strong>einen guten Lebenswandel</strong> seine Werke in <strong>der Sanftmut der Weisheit</strong>“ ersetzen. Den letzten Zitatsatz ersetzen durch „Und die Frucht der Gerechtigkeit wird von denen, die Frieden stiften, in Frieden gesät.“ Die übrigen Hervorhebungen des Ausgangszitats ebenfalls wiederherstellen, ohne den Text umzustrukturieren.",
+        "translation_quote": "der zeige aus guten Werken seine Werke in Sanftmut der Weisheit. ... Und die Frucht der Gerechtigkeit wird in Frieden gesät denen, die Frieden stiften."
+      },
+      {
+        "location": "translation.html, Absatz „Hier sei vielleicht eine Warnung angebracht“",
+        "severity": "major",
+        "source_quote": "the prophet might excuse himself for being harsh because his gift is that of a prophet",
+        "suggested_fix": "„könnte sich der Prophet dafür entschuldigen, hart zu sein“ ersetzen durch „könnte der Prophet seine Härte damit rechtfertigen“.",
+        "translation_quote": "könnte sich der Prophet dafür entschuldigen, hart zu sein, weil seine Gabe die des Propheten ist"
+      },
+      {
+        "location": "translation.html, Absatz „Kürzlich wurde ich auf Studien aufmerksam gemacht“",
+        "severity": "minor",
+        "source_quote": "by recording the gibberish that comprises most of what is called tongues today ... repeats syllables of their native tongue",
+        "suggested_fix": "Den Anfang präzisieren zu „die das unverständliche Gebrabbel aufzeichneten, aus dem das meiste dessen besteht, was heute als Zungenreden bezeichnet wird“. „Silben ihres Muttertuns“ durch „Silben ihrer Muttersprache“ ersetzen.",
+        "translation_quote": "die Aufnahmen von dem machten, was heute meist als Zungenreden bezeichnet wird ... Silben ihres Muttertuns"
+      },
+      {
+        "location": "translation.section",
+        "severity": "minor",
+        "source_quote": "THE NEW TESTAMENT CHURCH",
+        "suggested_fix": "„DIE NEUTESTAMENTLICHE KIRCHE“ verwenden.",
+        "translation_quote": "DIE NEUE TESTAMENTLICHE KIRCHE"
+      },
+      {
+        "location": "translation.html, Schlussabsatz",
+        "severity": "minor",
+        "source_quote": "two of the main purposes of God giving gifts to the church",
+        "suggested_fix": "„weshalb Gott den Gaben der Gemeinde gibt“ ersetzen durch „weshalb Gott der Gemeinde Gaben gibt“.",
+        "translation_quote": "zwei der Hauptzwecke, weshalb Gott den Gaben der Gemeinde gibt"
+      },
+      {
+        "location": "translation.html, Absatz „Die biblische Antwort“",
+        "severity": "minor",
+        "source_quote": "the local brotherhood",
+        "suggested_fix": "„örtliche Bruder-schaft“ durch „örtliche Bruderschaft“ ersetzen.",
+        "translation_quote": "die örtliche Bruder-schaft"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 88
+  }
+}
