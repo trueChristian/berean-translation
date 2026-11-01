@@ -62698,6 +62698,42 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/nob/articles/816d80f0-e3dd-46a6-ae6e-03214e209890.html",
+      "html_sha256": "9c49b5d25d1c63ac81a5847a4589e26b39504edfaa954441b6ec233eaa97a607",
+      "human_reviewed": false,
+      "id": "816d80f0-e3dd-46a6-ae6e-03214e209890",
+      "images": [
+        {
+          "alt": "En hånd som tar imot penger gjennom et tregjerde",
+          "public_path": "/images/articles/816d80f0-e3dd-46a6-ae6e-03214e209890-1.jpg"
+        },
+        {
+          "alt": "Faksimile av John Wesleys signatur",
+          "public_path": "/images/articles/816d80f0-e3dd-46a6-ae6e-03214e209890-2.jpg"
+        },
+        {
+          "alt": "Statue av John Wesley med en åpen bok i hånden",
+          "public_path": "/images/articles/816d80f0-e3dd-46a6-ae6e-03214e209890-3.jpg"
+        }
+      ],
+      "issue_id": "05538f8e-6560-5f96-b313-890e87c05daf",
+      "language": "nob",
+      "language_tag": "nb",
+      "metadata": "content/nob/articles/816d80f0-e3dd-46a6-ae6e-03214e209890.json",
+      "metadata_sha256": "f5a7291faf86bb61779bdde9af84ac85470ca8dc984dde7858a88f499f1c1cc9",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": null,
+      "source_revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
+      "source_translation_key": "0af4e8eba8d76fd3ebe2cccff019f1ce29d88581ec1120c33079d9f90b1288d6",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Om faren ved økende rikdom",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/nob/articles/85306410-6a2d-46f1-b6db-6d3450f7f908.html",
       "html_sha256": "2e6b934cfbab4ac9fe280f8b96021bc724cdd0a141a31d9de8e8f18488520a09",
       "human_reviewed": false,
