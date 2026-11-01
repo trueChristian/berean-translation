@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "b260ed90dde94ee098ecfb13e067d016",
   "campaign": "auto-4cbb0e814ae433ee423d6a19300f60a5ce3c58a5b1659fcede047905f3ec48f6",
   "created_at": "2026-11-01T20:05:52+00:00",
   "events": [
@@ -48,88 +47,31 @@
         },
         "total_tokens": 18435
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 99,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 67,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 11688,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 11685,
+          "cached_tokens": 0
+        },
+        "total_tokens": 11787
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "html, avsnittet som lister gavene i 1. Korinterbrev 12",
-      "severity": "major",
-      "source_quote": "tongues, discerning of tongues, helps, and governments",
-      "suggested_fix": "Erstatt «å skjelne ånder, hjelpearbeid og styreoder» med «å tyde tungetale, hjelpetjenester og ledelse». Kildens trykte «discerning of tongues» må ikke erstattes med en annen gave.",
-      "translation_quote": "tungetale, å skjelne ånder, hjelpearbeid og styreoder"
-    },
-    {
-      "location": "html, sitatet fra 1. Korinter 12:24-25",
-      "severity": "major",
-      "source_quote": "having given more abundant honour to that part which lacked",
-      "suggested_fix": "Erstatt med «og gitt desto større ære til den delen som manglet den».",
-      "translation_quote": "og gitt stor ære til den del som var angrende"
-    },
-    {
-      "location": "html, avsnittet om å søke åndelige gaver alene",
-      "severity": "major",
-      "source_quote": "should be done alone in our closet",
-      "suggested_fix": "Erstatt «bør skje alene i vårt skap» med «bør skje alene i vårt lønnkammer». Her betyr «closet» et privat rom for bønn, ikke et skap.",
-      "translation_quote": "bør skje alene i vårt skap"
-    },
-    {
-      "location": "html, sitatet fra Hebreerne 2:4",
-      "severity": "major",
-      "source_quote": "God also bearing them witness, both with signs and wonders",
-      "suggested_fix": "Erstatt «Som også vitnet dem med tegn og under» med «Gud vitnet også sammen med dem, både med tegn og under». Behold resten av sitatet og eksisterende markering.",
-      "translation_quote": "Som også vitnet dem med tegn og under"
-    },
-    {
-      "location": "html, avsnittet «Den første grunnen», sitatet fra Efeserne 4:11-12",
-      "severity": "minor",
-      "source_quote": "<strong>the perfecting of the saints</strong>, for",
-      "suggested_fix": "Rett den ugyldige avslutningstaggen til «<strong>å gjøre de hellige fullkomne</strong>, til».",
-      "translation_quote": "<strong>å gjøre de hellige fullkomne</strong, til"
-    },
-    {
-      "location": "html, avsnittet om hvilken gave som var primær i Jesu liv",
-      "severity": "minor",
-      "source_quote": "He was full of the Holy Ghost and without measure",
-      "suggested_fix": "Erstatt «fylt av Den Hellige Ånd ute av mål» med «fylt av Den Hellige Ånd uten mål».",
-      "translation_quote": "fylt av Den Hellige Ånd ute av mål"
-    },
-    {
-      "location": "html, avsnittet om selektiv fremheving av gaver",
-      "severity": "minor",
-      "source_quote": "our Pentecostal friends; the gift of evangelism; some of us plain churches",
-      "suggested_fix": "Rett uttrykkene til henholdsvis «våre pinsevenner», «evangeliseringens gave» og «noen av oss i menigheter som legger vekt på en enkel livsførsel».",
-      "translation_quote": "våre pinsevennene; gavene til evangelisme; noen av oss i de enkelhetssamfunnene"
-    },
-    {
-      "location": "html, overskriftene om identitet og tungetale",
-      "severity": "minor",
-      "source_quote": "Spiritual Gifts Are Not The Christian’s Identity; The Gift of Tongues",
-      "suggested_fix": "Rett «kristenens» til «den kristnes» og «Tungtalegaven» til «Tungetalegaven».",
-      "translation_quote": "Åndelige gaver er ikke kristenens identitet; Tungtalegaven"
-    },
-    {
-      "location": "html, avsnittene om avsettelse, ekteskap og gjenopprettet stabilitet",
-      "severity": "minor",
-      "source_quote": "an ordained brother; yield her gifting; the local brotherhood",
-      "suggested_fix": "Rett «en ordinerte bror» til «en ordinert bror», «underordne sin gavning» til «underordne bruken av sine gaver» og «den lokale brorskap» til «det lokale brorskapet».",
-      "translation_quote": "en ordinerte bror; underordne sin gavning; den lokale brorskap"
-    },
-    {
-      "location": "html, sitatet fra Jakob 3:13-18",
-      "severity": "minor",
-      "source_quote": "then peaceable",
-      "suggested_fix": "Erstatt «<strong>freden skaper</strong>» med «<strong>fredelig</strong>».",
-      "translation_quote": "så <strong>freden skaper</strong>"
-    },
-    {
-      "location": "html, fortellingen om kvinnen i Canada",
-      "severity": "minor",
-      "source_quote": "it was heartwarming to know; the one speaking in tongues",
-      "suggested_fix": "Erstatt «det var hjertelig å vite» med «det var hjertevarmende å vite» og «den som taler i tungene» med «den som taler i tunger».",
-      "translation_quote": "det var hjertelig å vite; den som taler i tungene"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-11-01T23:36:23+00:00",
   "id": "19fac6f566c6df897485ef4484b1d9f0",
   "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
   "language": "nob",
@@ -218,7 +160,7 @@
     }
   },
   "protected": false,
-  "quality_score": 84,
+  "quality_score": 99,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6.1-sol",
@@ -237,7 +179,7 @@
     "total_reserved_usd": 0.796524,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "1c1dd57f73c720271265483775e7d93acfbda9f85eeefb95d0c905a5b442adfd",
   "translation_model_actual": "gpt-6.1-sol"

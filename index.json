@@ -65964,6 +65964,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/nob/articles/e8bdb12c-2e8e-4f55-9052-07bec6e103a1.html",
+      "html_sha256": "a722165ec80757432f81274e2d52abf19581ee8b2b1a075599ec376c7274ef69",
+      "human_reviewed": false,
+      "id": "e8bdb12c-2e8e-4f55-9052-07bec6e103a1",
+      "images": [
+        {
+          "alt": "En tåkete vinterskog som speiler seg i en innsjø",
+          "public_path": "/images/articles/e8bdb12c-2e8e-4f55-9052-07bec6e103a1-1.png"
+        }
+      ],
+      "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
+      "language": "nob",
+      "language_tag": "nb",
+      "metadata": "content/nob/articles/e8bdb12c-2e8e-4f55-9052-07bec6e103a1.json",
+      "metadata_sha256": "ab5e970d0fcdee42ddbdaa2304c77436d05b726ecbac9226786c711c37200497",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "DEN NYTESTAMENTLIGE KIRKE",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "1c1dd57f73c720271265483775e7d93acfbda9f85eeefb95d0c905a5b442adfd",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Åndelige gaver",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/nob/articles/e9621e7b-df8d-4497-998c-b98af23486b7.html",
       "html_sha256": "425f20491aa8179c9de479cd7e16f6feb2eb3b53a11a2a9d6d49f5d989b6f3a3",
       "human_reviewed": false,
