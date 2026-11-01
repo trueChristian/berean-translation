@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-01T01:05:18+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"683a4e23-acbb-434a-8e0e-2b0793e1a0fb\\\">\\n  <figure>\\n    <img src=\\\"/images/articles/683a4e23-acbb-434a-8e0e-2b0793e1a0fb-1.jpg\\\" alt=\\\"Een zittende schilder met een schilderspalet naast een ezel\\\">\\n  </figure>\\n  <p>Toen Apelles, de Griekse schilder, werd gevraagd waarom hij zoveel werk aan zijn schilderijen besteedde, antwoordde hij: ‘Omdat ik voor de eeuwigheid schilder.’ Hij gebruikte dat woord als een gedurfde beeldspraak; maar wij kunnen het letterlijk gebruiken wanneer we zeggen dat we de taferelen van ons leven voor de eeuwigheid schilderen. We gebruiken duurzame kleuren. Alles wat puur en heilig is en in dat tafereel wordt verwerkt, zal daar blijven staan, onvergankelijk en onsterfelijk. Alles wat zelfzuchtig of zondig is en op dat levensdoek wordt geschilderd, kan nooit worden weggewassen, behalve door de toepassing van het bloed van Jezus hier, in dit leven. Nu of nooit heeft dat kostbare bloed kracht. Wanneer de dood komt, stopt het schilderen! Dan kunnen er geen penseelstreken van berouw of geloof meer aan worden toegevoegd. Dan kunnen er geen schuldige vlekken meer worden weggewassen. Het schilderij is af, en voorgoed af.</p>\\n  <p>De dood omlijst het schilderij en stuurt het naar de oordeelsdag om tentoongesteld te worden. Geen ‘besloten voorbezichtiging’ voor een uitgelezen gezelschap, maar een openbare tentoonstelling voor een samengestroomde menigte die niemand kan tellen. Want God zal ieder woord en ieder werk ter verantwoording roepen, of het goed is of kwaad. Het beeld van ons leven dat voor de ‘grote witte troon’ wordt getoond, zal voor altijd onveranderlijk zijn. Als het doek is versierd met daden, hoe nederig ook, tot eer van God, dan zal het levenswerk blijven staan als een eeuwig gedenkteken van goddelijke genade. Als het leven alleen is besteed aan de bevrediging van het zondige eigen ik, dan zal dat ellendige beeld alleen maar worden getoond tot ‘schande en eeuwige verachting’.</p>\\n  <p>Dan kunnen we vurig wensen het portret te veranderen en te verbeteren, maar het potlood en de kleuren hebben we achtergelaten; onze hand zal voorgoed haar vaardigheid hebben verloren. We kunnen de rechtvaardige Rechter dringend smeken en bidden ons nog één gelegenheid te geven. Het onherroepelijke antwoord zal zijn: ‘Wie onrechtvaardig is, laat hij nog onrechtvaardiger worden; wie vuil is, laat hij nog vuiler worden. Wie rechtvaardig is, laat hij nog rechtvaardiger worden; wie heilig is, laat hij nog heiliger worden.’ Aangezien dit waar is, hoe behoren wij dan te zijn in heel onze heilige wandel en godsvrucht.</p>\\n  <p>Toen de edele Russell als martelaar voor de vrijheid werd terechtgesteld, gaf hij zijn horloge aan een vriend die naast hem op het schavot stond. ‘Neem dit horloge,’ zei hij, ‘want met de <em>tijd</em> heb ik niets meer te maken. Mijn gedachten gaan nu alleen nog uit naar de eeuwigheid.’ De woorden van de stervende martelaar zijn voor ons allen op het juiste moment gesproken. Wij predikanten, die opnieuw aan het werk van de Meester beginnen, mogen wel bedenken dat wij voor de eeuwigheid prediken! Laat iedere ouder die deze alinea leest zijn geweten vragen: ‘Voed ik mijn kinderen op, niet alleen voor deze wereld, maar ook voor de wereld die komt?’ Laat iedere zakenman zich afvragen of hij alleen probeert een zak te vullen die vol gaten zit, of dat hij als rentmeester van God schatten in de hemel verzamelt. Jonge vriend, oefen je jezelf in zelfzuchtige genoegens, of voor de onsterfelijke kroon?</p>\\n  <p>Op de muren van een instelling in Montreal zag ik deze zomer deze korte regel: ‘Niets duurt lang, behalve de eeuwigheid.’ Dat was een motto voor de studeerkamer van iedere predikant en voor de muren van iedere woning. Laten we het allemaal vóór ons opschrijven, aan de hemelboog. ‘Niets is het waard om voor te leven, behalve de eeuwigheid.’</p>\\n  <p class=\\\"poem\\\">Laat de dreunende klokken van de tijd<br>\\n  met hun wisselingen rijzen en dalen!<br>\\n  Maar in verheven ondertonen —<br>\\n  diep boven al hun klanken uit —<br>\\n  klinkt een stem die <em>gehoord moet</em> worden,<br>\\n  terwijl onze momenten voortsnellen,<br>\\n  en zij spreekt slechts dit ene woord:<br>\\n  <strong>‘Eeuwigheid! Eeuwigheid!’</strong></p>\\n</article>\\n\",\"section\":null,\"subtitle\":null,\"title\":\"Schilderen voor de eeuwigheid\"}",
+    "content_bytes": 4392,
+    "content_evidence_truncated": false,
+    "content_sha256": "02d5f000c0e89343de252f5b4f9185d228b0d587c0a9bfe1e8c9fcb30a24cbd9",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1267,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 113,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1792,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1789,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3059
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}
