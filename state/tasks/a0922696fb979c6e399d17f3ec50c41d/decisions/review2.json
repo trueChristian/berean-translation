@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, абзац 2",
+      "severity": "minor",
+      "source_quote": "“But the distinctive and overwhelming glory is, that it brings us into a new relationship”",
+      "suggested_fix": "«Но отличительная и поразительная слава этой вести в том, что она вводит нас в новые отношения…»",
+      "translation_quote": "«Но особая и непреходящая слава этой вести в том, что она вводит нас в новые отношения…»"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

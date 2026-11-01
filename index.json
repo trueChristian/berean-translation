@@ -73874,6 +73874,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/rus/articles/7c9d5015-158a-4c07-92fc-ae40c998d9ae.html",
+      "html_sha256": "cf323e35de84cdd4cd32ac298a686a7f5fa7473bfb3b6d1cfd7fc405f774be59",
+      "human_reviewed": false,
+      "id": "7c9d5015-158a-4c07-92fc-ae40c998d9ae",
+      "images": [
+        {
+          "alt": "Пожилой бородатый мужчина возлагает руки на голову стоящего на коленях мужчины, а рядом сидит женщина",
+          "public_path": "/images/articles/7c9d5015-158a-4c07-92fc-ae40c998d9ae-1.jpg"
+        },
+        {
+          "alt": "Мужчина в длинном одеянии стоит с распростёртыми руками рядом с фигурой, стоящей на коленях, на открытом воздухе",
+          "public_path": "/images/articles/7c9d5015-158a-4c07-92fc-ae40c998d9ae-2.jpg"
+        }
+      ],
+      "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
+      "language": "rus",
+      "language_tag": "ru",
+      "metadata": "content/rus/articles/7c9d5015-158a-4c07-92fc-ae40c998d9ae.json",
+      "metadata_sha256": "1ec8055ab853007ac818453114249649b58c9f8e1eedc99c84bfc9e0849957eb",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
+      "source_translation_key": "45c04759c5b0f7d8a9038af8cc76e1ff17a52e5b989557b235da9ebe057bb77d",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Наше общение — с Отцом",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/rus/articles/7cdda5c4-11c0-4b7f-bcd4-b37677267f87.html",
       "html_sha256": "8891f02928c3153da65f3ec67d63e67b30bba02a0899e60f9dbece5f9ec19454",
       "human_reviewed": false,

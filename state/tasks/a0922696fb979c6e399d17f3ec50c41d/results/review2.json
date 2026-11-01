@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "264a70fd-bbd2-4a44-af1d-e30db915cfa5",
+    "response_id": "chatcmpl-EfSAcfP6YEHXtIGGGLAvQlLpMtI7N",
+    "usage": {
+      "completion_tokens": 630,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 500,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4805,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3702,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 5435
+    }
+  },
+  "received_at": "2026-11-01T15:59:36+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, абзац 2",
+        "severity": "minor",
+        "source_quote": "“But the distinctive and overwhelming glory is, that it brings us into a new relationship”",
+        "suggested_fix": "«Но отличительная и поразительная слава этой вести в том, что она вводит нас в новые отношения…»",
+        "translation_quote": "«Но особая и непреходящая слава этой вести в том, что она вводит нас в новые отношения…»"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 99
+  }
+}
