@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Parágrafo 9. DESEJO, citação de Salmos 27:4",
+      "severity": "minor",
+      "source_quote": "“to behold the beauty of the Lord, and to inquire in his temple.”",
+      "suggested_fix": "“para contemplar a beleza do Senhor e buscar orientação no seu templo.”",
+      "translation_quote": "“para contemplar a beleza do Senhor e meditar no seu templo.”"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}
