@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Parágrafo final do corpo, frase sobre esperar por Deus",
+      "severity": "minor",
+      "source_quote": "“when a soul begins to practice this waiting for God and for His speech”",
+      "suggested_fix": "“quando uma alma começa a praticar essa espera por Deus e por sua fala”",
+      "translation_quote": "“quando uma alma começa a praticar essa espera por Deus e por sua palavra”"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

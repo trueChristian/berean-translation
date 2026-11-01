@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-01T15:29:50+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Parágrafo final do corpo, frase sobre esperar por Deus\",\"severity\":\"minor\",\"source_quote\":\"“when a soul begins to practice this waiting for God and for His speech”\",\"suggested_fix\":\"“quando uma alma começa a praticar essa espera por Deus e por sua fala”\",\"translation_quote\":\"“quando uma alma começa a praticar essa espera por Deus e por sua palavra”\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 445,
+    "content_evidence_truncated": false,
+    "content_sha256": "5d5f705534161e4be1b98008ad510962840d67193cd568f1ade814f042a12116",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 626,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4610,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3507,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 5236
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

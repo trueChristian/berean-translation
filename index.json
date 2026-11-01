@@ -68625,6 +68625,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/por/articles/7c9d5015-158a-4c07-92fc-ae40c998d9ae.html",
+      "html_sha256": "7550999ac276bb621052702fa7167a3e64e0a293512f619626f8f66c0902be80",
+      "human_reviewed": false,
+      "id": "7c9d5015-158a-4c07-92fc-ae40c998d9ae",
+      "images": [
+        {
+          "alt": "Um homem mais velho e barbado coloca as mãos sobre a cabeça de um homem ajoelhado, enquanto uma mulher se senta por perto",
+          "public_path": "/images/articles/7c9d5015-158a-4c07-92fc-ae40c998d9ae-1.jpg"
+        },
+        {
+          "alt": "Um homem vestido com túnica está de pé, com os braços estendidos, ao lado de uma figura ajoelhada ao ar livre",
+          "public_path": "/images/articles/7c9d5015-158a-4c07-92fc-ae40c998d9ae-2.jpg"
+        }
+      ],
+      "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
+      "language": "por",
+      "language_tag": "pt",
+      "metadata": "content/por/articles/7c9d5015-158a-4c07-92fc-ae40c998d9ae.json",
+      "metadata_sha256": "95def7a32bbd9c0d51eea15e72d802563ea227272efcd1066ae5f43555b28bb7",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
+      "source_translation_key": "45c04759c5b0f7d8a9038af8cc76e1ff17a52e5b989557b235da9ebe057bb77d",
+      "status": "ready",
+      "subtitle": null,
+      "title": "A nossa comunhão é com o Pai",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/por/articles/7cdda5c4-11c0-4b7f-bcd4-b37677267f87.html",
       "html_sha256": "b5cfaad275243016a49b921e5110185c48f026c43dafa49d61dd1b52d0c67cb7",
       "human_reviewed": false,

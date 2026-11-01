@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "af91f7357b5547c8beb15a29da782694",
   "campaign": "auto-14a51f3c35a9d32f4a5d840734c1a0820b59c7ef7f1b30ab633f328f9d54d77e",
   "created_at": "2026-11-01T01:32:48+00:00",
   "events": [
@@ -68,18 +67,39 @@
         },
         "total_tokens": 6298
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 626,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 512,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4610,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 3507,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 5236
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "Final paragraph",
-      "severity": "major",
-      "source_quote": "“Oh, that this message may at least call a halt amid all the activity of the church”",
-      "suggested_fix": "“Ah, que esta mensagem ao menos interrompa por um momento toda a agitação da igreja”",
-      "translation_quote": "“Ah, que esta mensagem ao menos faça cessar toda a atividade da igreja”"
+      "location": "Parágrafo final do corpo, frase sobre esperar por Deus",
+      "severity": "minor",
+      "source_quote": "“when a soul begins to practice this waiting for God and for His speech”",
+      "suggested_fix": "“quando uma alma começa a praticar essa espera por Deus e por sua fala”",
+      "translation_quote": "“quando uma alma começa a praticar essa espera por Deus e por sua palavra”"
     }
   ],
+  "finished_at": "2026-11-01T15:29:50+00:00",
   "id": "aa1f23eb5b44f1bc6757c705562fae9f",
   "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
   "language": "por",
@@ -168,7 +188,7 @@
     }
   },
   "protected": false,
-  "quality_score": 94,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
@@ -188,7 +208,7 @@
     "total_reserved_usd": 0.087784,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "45c04759c5b0f7d8a9038af8cc76e1ff17a52e5b989557b235da9ebe057bb77d",
   "translation_model_actual": "gpt-6-luna"
