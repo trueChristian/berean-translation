@@ -56264,6 +56264,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/nld/articles/3f679973-e351-4fe3-8930-e08d9fba23a5.html",
+      "html_sha256": "9907655a4d1b6e25ba354aae3839bb4d22c69f75a349db4a228b2e1aeb11fafe",
+      "human_reviewed": false,
+      "id": "3f679973-e351-4fe3-8930-e08d9fba23a5",
+      "images": [
+        {
+          "alt": "De ene wandelaar helpt de ander klimmen bij zonsondergang",
+          "public_path": "/images/articles/3f679973-e351-4fe3-8930-e08d9fba23a5-1.png"
+        }
+      ],
+      "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
+      "language": "nld",
+      "language_tag": "nl",
+      "metadata": "content/nld/articles/3f679973-e351-4fe3-8930-e08d9fba23a5.json",
+      "metadata_sha256": "f91c9d1a3d0719145f26c8d3aa3bba70804b396e9b2eafb29d8318783ae3c7ea",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "INSPIRATIES VOOR JONGEREN",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "d910d483e90bcd959841ed8e96903546f249749ffefaa1d05b277a01a16ea99d",
+      "status": "ready",
+      "subtitle": null,
+      "title": "God wilde mij niet loslaten",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/nld/articles/4171e741-b739-4659-8aec-4b8f5f833165.html",
       "html_sha256": "0d5b535f199667571dd7bbf81a4cc64c5b791de82c9a626057b9437ae30abd9c",
       "human_reviewed": false,
