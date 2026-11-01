@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "e9cbebd2-625b-4818-bed5-b0efc519abd0",
+    "response_id": "chatcmpl-EfD0yywd0gcpDn2RNFO1yL1tcu2mB",
+    "usage": {
+      "completion_tokens": 750,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 638,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2367,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1264,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 3117
+    }
+  },
+  "received_at": "2026-11-01T01:06:25+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph 4",
+        "severity": "minor",
+        "source_quote": "Divine powers and presences come into his life",
+        "suggested_fix": "استبدل «القوى والحضورات الإلهية» بـ«القوى والحضور الإلهي» لسلامة التعبير بالعربية.",
+        "translation_quote": "القوى والحضورات الإلهية إلى حياته"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}

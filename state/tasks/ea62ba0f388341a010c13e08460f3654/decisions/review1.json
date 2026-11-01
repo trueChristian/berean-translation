@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph 4",
+      "severity": "minor",
+      "source_quote": "Divine powers and presences come into his life",
+      "suggested_fix": "استبدل «القوى والحضورات الإلهية» بـ«القوى والحضور الإلهي» لسلامة التعبير بالعربية.",
+      "translation_quote": "القوى والحضورات الإلهية إلى حياته"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

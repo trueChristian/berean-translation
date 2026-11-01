@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-01T01:06:25+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph 4\",\"severity\":\"minor\",\"source_quote\":\"Divine powers and presences come into his life\",\"suggested_fix\":\"استبدل «القوى والحضورات الإلهية» بـ«القوى والحضور الإلهي» لسلامة التعبير بالعربية.\",\"translation_quote\":\"القوى والحضورات الإلهية إلى حياته\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 432,
+    "content_evidence_truncated": false,
+    "content_sha256": "d0d49221dc8141b79a0e5297cffeba37f2b92f0f9f4a8d557500d2594b11dd00",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 750,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 638,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2367,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1264,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 3117
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

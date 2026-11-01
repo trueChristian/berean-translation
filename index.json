@@ -5554,6 +5554,38 @@
     {
       "ai_notice_required": true,
       "direction": "rtl",
+      "html": "content/ara/articles/19270b64-7f17-4623-b361-5486354b7303.html",
+      "html_sha256": "567a21f6dcb589990272cbb6afc91777a7076bbe3ce88035f338eba147d879fa",
+      "human_reviewed": false,
+      "id": "19270b64-7f17-4623-b361-5486354b7303",
+      "images": [
+        {
+          "alt": "يعقوب يستريح تحت درجٍ تملؤه الملائكة",
+          "public_path": "/images/articles/19270b64-7f17-4623-b361-5486354b7303-1.jpg"
+        },
+        {
+          "alt": "يعقوب يجثو أمام ملاك مجنّح",
+          "public_path": "/images/articles/19270b64-7f17-4623-b361-5486354b7303-2.jpg"
+        }
+      ],
+      "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
+      "language": "ara",
+      "language_tag": "ar",
+      "metadata": "content/ara/articles/19270b64-7f17-4623-b361-5486354b7303.json",
+      "metadata_sha256": "d5b1fe65af9089faa552fbc0130a18eead27c2a77273f5b9501bf1520bab5f4a",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
+      "source_translation_key": "63da7cacb1fe8b3491c5fd4fb86fa335742cd71d9cb8f136d36e8a661edff9fb",
+      "status": "ready",
+      "subtitle": null,
+      "title": "كيف ينمو الناس",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
       "html": "content/ara/articles/1bdf0b87-af5f-4c9b-99a2-004277f7718d.html",
       "html_sha256": "db14f3a472b80795dc810ead5d80f02567d050ed59dab25498ec8862a8bc2c72",
       "human_reviewed": false,
