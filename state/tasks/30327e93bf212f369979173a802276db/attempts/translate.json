@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-01T01:04:00+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"19270b64-7f17-4623-b361-5486354b7303\\\">\\n  <figure><img src=\\\"/images/articles/19270b64-7f17-4623-b361-5486354b7303-1.jpg\\\" alt=\\\"Jakob rus onder ’n trap wat vol engele is\\\"></figure>\\n  <p>Om enige fase in enige man se lewe reg te beoordeel, moet ons dit beskou as ’n hoofstuk in die proses van sy groei opwaarts—of afwaarts.</p>\\n  <p>Dink aan Jakob by Bet-el, toe ’n leer uit die Hemel neergedaal het om God se liefde aan hom te betoon. Sommige vind fout met Jakob se gelofte by Bet-el omdat dit selfsugtig en berekenend sou wees. As God dit vir Jakob sal doen, sal Jakob dit vir God doen! Hoeveel edeler is dit om jou op God te verlaat met ’n vrygewigheid soos dié van Abraham, wat alles aan Hom toevertrou!</p>\\n  <p>Maar Jakob was by Bet-el heel aan die begin van sy geestelike lewe. Hy het pas sy eerste blik gekry op die visioen wat daardie lewe tot aan sy einde sou vorm. Dit is natuurlik dat hy nie tot ’n groot hoogte van selfverloëning sou styg nie. Hy stel die saak eerlik soos dit hom voorkom, en neem God op sy woord op die praktiese, alledaagse manier wat kenmerkend van hom was.</p>\\n  <p>Maar by Jabbok het Jakob verder gegaan. Weer het Goddelike kragte en teenwoordighede in sy lewe gekom, en hierdie keer het hy geen ooreenkoms met hulle aangegaan nie. Hy vra nie vir sy eie veiligheid, of vir die bewaring van sy besittings, of vir die beswering van sy broer se woede nie. Hy vra bloot vir die seën wat God kan skenk, en laat dit aan God oor om dit enige vorm te gee of enige betekenis daaraan te heg. Nou beding hy nie, maar vertrou en aanbid. Dit was toe dat sy ou naam, Jakob, die Bedrieër, nie meer by die man gepas het nie, en hy Israel geword het, “’n Vors van God”.</p>\\n  <figure><img src=\\\"/images/articles/19270b64-7f17-4623-b361-5486354b7303-2.jpg\\\" alt=\\\"Jakob kniel voor ’n gevleuelde engel\\\"></figure>\\n  <p>En so neem God ons van een stadium na ’n ander, van eng en selfsugtige sienings van ons verhouding met Hom, na die uur wanneer ons van al sy gawes niks anders vra nie as die seën wat sy blydskap in ons uitdruk, en ons help om ons in Hom te verbly.</p>\\n</article>\\n\",\"section\":null,\"subtitle\":null,\"title\":\"Hoe mense groei\"}",
+    "content_bytes": 2230,
+    "content_evidence_truncated": false,
+    "content_sha256": "d0f43677f2cd6443a0f83d7f315b3fc8ec660be7e17e9df236ca7c0213652941",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 749,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 76,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1369,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1366,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2118
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}
