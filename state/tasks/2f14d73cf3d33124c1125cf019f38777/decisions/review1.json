@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, second paragraph",
+      "severity": "major",
+      "source_quote": "How much nobler to stay one’s self upon God with a generosity such as Abraham’s, which trusts all to Him!",
+      "suggested_fix": "Wie viel edler ist es, sich auf Gott zu verlassen und dabei eine Großzügigkeit wie Abraham zu zeigen, der alles Gott anvertraut!",
+      "translation_quote": "Wie viel edler ist es, sich mit einer Großzügigkeit wie der Abrahams auf Gott zu verlassen, der ihm alles anvertraut!"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

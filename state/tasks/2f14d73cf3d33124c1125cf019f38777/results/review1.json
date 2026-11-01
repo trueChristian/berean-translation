@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "11f04283-5748-4fbf-bb49-d5bf072b39b8",
+    "response_id": "chatcmpl-EfLljZ1UZAkl8oZhvZzq56tP3T4PO",
+    "usage": {
+      "completion_tokens": 941,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 791,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2343,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1240,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 3284
+    }
+  },
+  "received_at": "2026-11-01T14:59:44+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, second paragraph",
+        "severity": "major",
+        "source_quote": "How much nobler to stay one’s self upon God with a generosity such as Abraham’s, which trusts all to Him!",
+        "suggested_fix": "Wie viel edler ist es, sich auf Gott zu verlassen und dabei eine Großzügigkeit wie Abraham zu zeigen, der alles Gott anvertraut!",
+        "translation_quote": "Wie viel edler ist es, sich mit einer Großzügigkeit wie der Abrahams auf Gott zu verlassen, der ihm alles anvertraut!"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 94
+  }
+}
