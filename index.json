@@ -29828,6 +29828,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/fra/articles/7c9d5015-158a-4c07-92fc-ae40c998d9ae.html",
+      "html_sha256": "0649e2c35e4f19a227dc79d45b29c43aadca5ecb8c7ec280c40ec6b7fc63f2d2",
+      "human_reviewed": false,
+      "id": "7c9d5015-158a-4c07-92fc-ae40c998d9ae",
+      "images": [
+        {
+          "alt": "Un homme âgé barbu pose les mains sur la tête d’un homme à genoux, tandis qu’une femme est assise à proximité",
+          "public_path": "/images/articles/7c9d5015-158a-4c07-92fc-ae40c998d9ae-1.jpg"
+        },
+        {
+          "alt": "Un homme vêtu d’une robe se tient debout, les bras étendus, près d’une silhouette agenouillée en plein air",
+          "public_path": "/images/articles/7c9d5015-158a-4c07-92fc-ae40c998d9ae-2.jpg"
+        }
+      ],
+      "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
+      "language": "fra",
+      "language_tag": "fr",
+      "metadata": "content/fra/articles/7c9d5015-158a-4c07-92fc-ae40c998d9ae.json",
+      "metadata_sha256": "f6a5f03f315199f61af3eec248297c08680444303518e7a0c3127a04080652fb",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
+      "source_translation_key": "45c04759c5b0f7d8a9038af8cc76e1ff17a52e5b989557b235da9ebe057bb77d",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Notre communion est avec le Père",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/fra/articles/8072bb08-e7aa-4602-a3c6-f82161b740ae.html",
       "html_sha256": "93d89d3c4f1927da2b82ef66c49f18054016a74cebda752540619a8646477949",
       "human_reviewed": false,
