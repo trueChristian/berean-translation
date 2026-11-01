@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-01T01:44:29+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"translation.html, quarto parágrafo\",\"severity\":\"minor\",\"source_quote\":\"The large maple tree in front of their old stone farmhouse beckoned to her.\",\"suggested_fix\":\"Substituir “os chamava” por “a chamava”.\",\"translation_quote\":\"A grande árvore de bordo em frente à velha casa de pedra os chamava.\"},{\"location\":\"translation.html, quinto parágrafo\",\"severity\":\"minor\",\"source_quote\":\"She shifted to the lowest branch and sat poised, ready to jump down\",\"suggested_fix\":\"Substituir “sentou-se pronta, pronta para saltar” por “sentou-se em posição, pronta para saltar”.\",\"translation_quote\":\"Mudou-se para o galho mais baixo e sentou-se pronta, pronta para saltar\"}],\"findings_complete\":true,\"passed\":true,\"score\":97}",
+    "content_bytes": 762,
+    "content_evidence_truncated": false,
+    "content_sha256": "45bd07c53a4cce2a4dd9d4391f434260540244032a0541227b481f669df8db91",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 282,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 92,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3852,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3849,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4134
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}

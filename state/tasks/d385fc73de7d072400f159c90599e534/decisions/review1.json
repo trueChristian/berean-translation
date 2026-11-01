@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "translation.html, quarto parágrafo",
+      "severity": "minor",
+      "source_quote": "The large maple tree in front of their old stone farmhouse beckoned to her.",
+      "suggested_fix": "Substituir “os chamava” por “a chamava”.",
+      "translation_quote": "A grande árvore de bordo em frente à velha casa de pedra os chamava."
+    },
+    {
+      "location": "translation.html, quinto parágrafo",
+      "severity": "minor",
+      "source_quote": "She shifted to the lowest branch and sat poised, ready to jump down",
+      "suggested_fix": "Substituir “sentou-se pronta, pronta para saltar” por “sentou-se em posição, pronta para saltar”.",
+      "translation_quote": "Mudou-se para o galho mais baixo e sentou-se pronta, pronta para saltar"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}
