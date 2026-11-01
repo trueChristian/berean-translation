@@ -5,6 +5,7 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
+  "batch": "c40a1430c0c14b29adb77884357e4053",
   "campaign": "auto-5d3d72e22a2a66070e366a6b6eb2efcff897cce088366e90b58f406b09beebef",
   "created_at": "2026-11-01T01:45:49+00:00",
   "events": [
@@ -191,7 +192,7 @@
   "protected": false,
   "quality_score": 86,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
-  "review_attempts": 1,
+  "review_attempts": 2,
   "review_model": "gpt-6.1-sol",
   "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/67a504cb12c02775b3a5cd8c97e9fa11f83f53d153a1c4dc8214a7a72f95aa69.json",
@@ -208,7 +209,7 @@
     "total_reserved_usd": 0.789292,
     "version": 1
   },
-  "status": "queued",
+  "status": "in_batch",
   "translation_attempts": 1,
   "translation_key": "1c1dd57f73c720271265483775e7d93acfbda9f85eeefb95d0c905a5b442adfd",
   "translation_model_actual": "gpt-6.1-sol"
