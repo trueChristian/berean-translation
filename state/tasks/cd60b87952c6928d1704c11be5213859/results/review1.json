@@ -1,0 +1,59 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "1503bf5e-23af-4089-ab53-3f8dda3321fa",
+    "response_id": "chatcmpl-EfZWXnxRJ6qZ0WHhZb1w0oBP8iIPt",
+    "usage": {
+      "completion_tokens": 521,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 87,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5716,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5713,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6237
+    }
+  },
+  "received_at": "2026-11-01T23:50:50+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "translation.html, paragraf 3",
+        "severity": "major",
+        "source_quote": "even without the dreaded “what ifs” becoming reality",
+        "suggested_fix": "Ganti “bahkan sebelum ‘bagaimana kalau’ yang ditakuti menjadi kenyataan” dengan “bahkan tanpa hal-hal yang kutakutkan dalam pikiran ‘bagaimana kalau’ itu menjadi kenyataan”.",
+        "translation_quote": "bahkan sebelum “bagaimana kalau” yang ditakuti menjadi kenyataan"
+      },
+      {
+        "location": "translation.html, paragraf 13",
+        "severity": "major",
+        "source_quote": "of my tiny world, and all its problems",
+        "suggested_fix": "Ganti “atas duniamu yang kecil ini” dengan “atas duniaku yang kecil ini”.",
+        "translation_quote": "atas duniamu yang kecil ini, dan semua masalahnya"
+      },
+      {
+        "location": "translation.html, paragraf 6",
+        "severity": "minor",
+        "source_quote": "he alone, as one man, had no strength",
+        "suggested_fix": "Ganti “ia sendiri, sebagai seorang pria, tak bertenaga” dengan “ia tidak memiliki kekuatan jika hanya mengandalkan dirinya seorang diri”.",
+        "translation_quote": "ia sendiri, sebagai seorang pria, tak bertenaga"
+      },
+      {
+        "location": "translation.html, paragraf 3",
+        "severity": "minor",
+        "source_quote": "turning them over and over in my mind",
+        "suggested_fix": "Ganti “memutarnya-puterinya dalam pikiranku” dengan “memikirkannya berulang-ulang”.",
+        "translation_quote": "memutarnya-puterinya dalam pikiranku"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 94
+  }
+}

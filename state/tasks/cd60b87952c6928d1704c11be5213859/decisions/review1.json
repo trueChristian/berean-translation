@@ -1,0 +1,35 @@
+{
+  "findings": [
+    {
+      "location": "translation.html, paragraf 3",
+      "severity": "major",
+      "source_quote": "even without the dreaded “what ifs” becoming reality",
+      "suggested_fix": "Ganti “bahkan sebelum ‘bagaimana kalau’ yang ditakuti menjadi kenyataan” dengan “bahkan tanpa hal-hal yang kutakutkan dalam pikiran ‘bagaimana kalau’ itu menjadi kenyataan”.",
+      "translation_quote": "bahkan sebelum “bagaimana kalau” yang ditakuti menjadi kenyataan"
+    },
+    {
+      "location": "translation.html, paragraf 13",
+      "severity": "major",
+      "source_quote": "of my tiny world, and all its problems",
+      "suggested_fix": "Ganti “atas duniamu yang kecil ini” dengan “atas duniaku yang kecil ini”.",
+      "translation_quote": "atas duniamu yang kecil ini, dan semua masalahnya"
+    },
+    {
+      "location": "translation.html, paragraf 6",
+      "severity": "minor",
+      "source_quote": "he alone, as one man, had no strength",
+      "suggested_fix": "Ganti “ia sendiri, sebagai seorang pria, tak bertenaga” dengan “ia tidak memiliki kekuatan jika hanya mengandalkan dirinya seorang diri”.",
+      "translation_quote": "ia sendiri, sebagai seorang pria, tak bertenaga"
+    },
+    {
+      "location": "translation.html, paragraf 3",
+      "severity": "minor",
+      "source_quote": "turning them over and over in my mind",
+      "suggested_fix": "Ganti “memutarnya-puterinya dalam pikiranku” dengan “memikirkannya berulang-ulang”.",
+      "translation_quote": "memutarnya-puterinya dalam pikiranku"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
