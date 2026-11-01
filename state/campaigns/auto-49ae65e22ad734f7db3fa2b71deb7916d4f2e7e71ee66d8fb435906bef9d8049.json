@@ -1577,6 +1577,9 @@
     "version": 1
   },
   "status": "active",
+  "task_counts": {
+    "in_batch": 1
+  },
   "tasks": [
     "10f46417db1182c331cd61c6f1417d42"
   ]
