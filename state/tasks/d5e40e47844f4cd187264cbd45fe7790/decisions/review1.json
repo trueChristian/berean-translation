@@ -1,0 +1,175 @@
+{
+  "findings": [
+    {
+      "location": "translation.title",
+      "severity": "major",
+      "source_quote": "God Would Not Let Me Go",
+      "suggested_fix": "Mungu Hakuniacha Niondoke",
+      "translation_quote": "Mungu Hakunitia"
+    },
+    {
+      "location": "translation.section",
+      "severity": "major",
+      "source_quote": "INSPIRATIONS FOR YOUTH",
+      "suggested_fix": "HAMASA KWA VIJANA",
+      "translation_quote": "FUNGUA MSUKUMO WA VIJANA"
+    },
+    {
+      "location": "html, paragraph 1",
+      "severity": "major",
+      "source_quote": "in which my parents were born and raised ... close to where we lived",
+      "suggested_fix": "Tumia “ambamo wazazi wangu walizaliwa na kulelewa” na “karibu na mahali tulipokuwa tukiishi”.",
+      "translation_quote": "walilokuwa wanazaliwa na kulelewa wazazi wangu ... karibu na mahali tulipopishana kuishi"
+    },
+    {
+      "location": "html, paragraphs 2–3",
+      "severity": "major",
+      "source_quote": "a rebellious teenager ... growing colder and more rebellious",
+      "suggested_fix": "Badili “kijana mvunja sheria” kuwa “kijana mwasi”, na kifungu cha mwisho kuwa “huku moyo wangu ukizidi kupoa na uasi wangu ukiongezeka”.",
+      "translation_quote": "kijana mvunja sheria ... huku nikiba baridi na kuendelea kuwa mvunja sheria"
+    },
+    {
+      "location": "html, paragraph 3",
+      "severity": "major",
+      "source_quote": "that church dissolved ... I didn’t like change ... I never bothered trying to plug in and be an active part in our new life",
+      "suggested_fix": "Tumia “kanisa hilo lilivunjika”, “Sikupenda mabadiliko”, na “sikujisumbua kujaribu kujihusisha na kushiriki kikamilifu katika maisha yetu mapya”.",
+      "translation_quote": "kanisa hilo liliafifia ... Sikutaki mabadiliko ... sikujaribu kuingiza na kuwa sehemu hai ya maisha yetu mapya"
+    },
+    {
+      "location": "html, paragraph 4",
+      "severity": "major",
+      "source_quote": "As I grew older and harder, my parents tried to work with me ... country music",
+      "suggested_fix": "Tumia “Kadiri nilivyozidi kukua na kuwa na moyo mgumu, wazazi wangu walijaribu kunisaidia” na “muziki wa country”.",
+      "translation_quote": "Nilikua nikiwa ngumu na mgumu, wazazi wangu walijaribu kunifanya kazi nao ... muziki wa taifa"
+    },
+    {
+      "location": "html, paragraph 5",
+      "severity": "major",
+      "source_quote": "I decided I was going to run away and live my own life.",
+      "suggested_fix": "Niliamua kutoroka nyumbani na kuishi maisha yangu mwenyewe.",
+      "translation_quote": "Niliamua kukimbilia maisha yangu mwenyewe."
+    },
+    {
+      "location": "html, paragraph 6",
+      "severity": "major",
+      "source_quote": "Somehow my parents got wind of this idea ... but I resented it",
+      "suggested_fix": "Tumia “Kwa namna fulani wazazi wangu walipata habari ya wazo hilo” na “lakini nilichukizwa na jitihada zao”.",
+      "translation_quote": "Kimsingi wazazi wangu walipata habari ya wazo hilo ... lakini nilihisi kiburi"
+    },
+    {
+      "location": "html, paragraph 7",
+      "severity": "major",
+      "source_quote": "The summer I was 17, a visiting minister ... my heart started to soften ... I’m not quite sure why",
+      "suggested_fix": "Tumia “Katika majira ya joto nilipokuwa na miaka 17, mhubiri mgeni”, “moyo wangu ulianza kulainika”, na “Sina hakika kabisa kwa nini”.",
+      "translation_quote": "Mwezi wa majira ya joto nikiwa na miaka 17, mwalimu mwenyeji ... moyo wangu ulianza kutulia ... Sizungumzii kabisa kwanini"
+    },
+    {
+      "location": "html, paragraph 9",
+      "severity": "major",
+      "source_quote": "Somehow ‘Mike’ convinced me ... the conviction ... helping me to see ... That is what has helped me through the years.",
+      "suggested_fix": "Tumia “Kwa namna fulani ‘Mike’ alinishawishi”, “hali ya kuhukumiwa na dhamiri kwa ajili ya dhambi”, “akinisaidia kuona”, na “Hilo ndilo limenisaidia katika miaka yote hiyo”. Rekebisha pia “Sikuti nakumbuka” kuwa “Sikumbuki”.",
+      "translation_quote": "Kimsingi ‘Mike’ alinishawishi ... dhamiri yangu ilikuwa kali ... akisaidia nionye ... Hilo ndilo limekanusha kupitia miaka. ... Sikuti nakumbuka"
+    },
+    {
+      "location": "html, paragraph 11",
+      "severity": "major",
+      "source_quote": "I didn’t know what to do with it ... trying to get my nerves to relax enough so I could sleep",
+      "suggested_fix": "Tumia “Sikujua jinsi ya kukabiliana nao” na “nikijaribu kutuliza mishipa yangu ya fahamu vya kutosha ili niweze kulala”.",
+      "translation_quote": "Sikutaja la kufanya nalo ... nikijaribu kupunguza neva zangu ili niweze kulala"
+    },
+    {
+      "location": "html, paragraph 13",
+      "severity": "major",
+      "source_quote": "Yet here I was, still struggling… Why not just give up fighting…? ... I continued to long for love and acceptance ... It would not get the end result that I wanted.",
+      "suggested_fix": "Tumia “Hata hivyo, mimi nilikuwa bado nikipambana… Kwa nini nisiache tu kupambana…?”, “niliendelea kutamani upendo na kukubalika”, na “Hilo lisingeniletea matokeo ya mwisho niliyoyataka”.",
+      "translation_quote": "Yet nilikuwa hapa, bado nikipigana... Kwa nini nisitie kupigana...? ... nilididimiza kwa hamu ya upendo na kukubalika ... Hilo halingepata matokeo niliyokuwa nayo."
+    },
+    {
+      "location": "html, paragraph 14",
+      "severity": "major",
+      "source_quote": "due to some disagreements with the church, they became dissatisfied and left the church ... what they had once stood for ... Maybe I should also give up… But I didn’t want to totally throw God out.",
+      "suggested_fix": "Tumia “kutokana na kutokubaliana na kanisa kuhusu mambo fulani, hawakuridhika na wakaondoka kanisani”; eleza yale waliyoyaacha kama “mambo waliyokuwa wakiyatetea hapo awali”. Tumia “Labda nami nikate tamaa… Lakini sikutaka kumwacha Mungu kabisa”.",
+      "translation_quote": "kutokana na migogoro ndani ya kanisa, wakatoka kanisani na wakaacha kukubaliana ... yale waliokuwa wamesimama ... yale aliyetumikia hapo awali ... Labda pia nifute... Lakini sikuweza kumwacha Mungu kabisa."
+    },
+    {
+      "location": "html, paragraph 15",
+      "severity": "major",
+      "source_quote": "“little Christs” ... Shouldn’t we be the ones that are joyful and full of life?",
+      "suggested_fix": "Tumia “Wakristo wadogo wanaofanana na Kristo” au “Kristo wadogo” kwa taswira iliyonukuliwa, kisha “Je, hatupaswi kuwa sisi wenye furaha na waliojaa uzima?”",
+      "translation_quote": "“Masiha wadogo” ... Hapana, sisi tunapaswa kuwa wenye furaha na uzima!"
+    },
+    {
+      "location": "html, paragraph 16",
+      "severity": "major",
+      "source_quote": "a church that was both Biblical and spiritually minded ... I left there ... with a renewed strength and vision",
+      "suggested_fix": "Tumia “kanisa lililozingatia Biblia na mambo ya kiroho” na “niliondoka huko na kurudi nyumbani nikiwa na nguvu na maono yaliyofanywa upya”.",
+      "translation_quote": "kanisa lililokuwa Biblica na lenye uzito wa kiroho ... niliwa kutoka huko ... nguvu na maono yaliyoshekezeka upya"
+    },
+    {
+      "location": "html, paragraph 17",
+      "severity": "major",
+      "source_quote": "individually and collectively ... all them also that love his appearing ... I have fought a good fight, I have finished my course, I have kept the faith",
+      "suggested_fix": "Tumia “kila mmoja wetu binafsi na kwa pamoja”, na katika sehemu zote mbili tumia “wote wanaopenda kuja kwake”. Rekebisha nukuu kuwa “Nimevipiga vita vizuri, nimemaliza mwendo wangu, nimeilinda imani”. Rekebisha pia “atatinipa”, “umetayarishwa” na “atanenipa” kuwa “atanipa”, “limeandaliwa” na “atanipa”.",
+      "translation_quote": "kikamilifu na pamoja ... wanaompenda kuonekana kwake ... Nimeshafanya vita iliyo nzuri, nimerudi njia, nimesihimili imani ... watakaompenda kuonekana kwake ... atatinipa ... umetayarishwa ... atanenipa"
+    },
+    {
+      "location": "html, paragraphs 17, 23 and 25: Scripture references",
+      "severity": "minor",
+      "source_quote": "2 Timothy 4:7-8; 1 Corinthians 6:9-11; 1 Peter 3:15; James 4:8",
+      "suggested_fix": "Badili majina ya vitabu katika maeneo hayo hayo kuwa “2 Timotheo 4:7-8”, “1 Wakorintho 6:9-11”, “1 Petro 3:15”, na “Yakobo 4:8”, ukihifadhi namba na uwekaji wa marejeo.",
+      "translation_quote": "2 Timothy 4:7-8; 1 Corinthians 6:9-11; 1 Peter 3:15; James 4:8"
+    },
+    {
+      "location": "html, paragraph 19",
+      "severity": "major",
+      "source_quote": "the repeated dispatch ... appeared to be in her mid-twenties ... the supposed missing baby",
+      "suggested_fix": "Tumia “ndio ujumbe wa dharura uliorudiwa”, “alionekana kuwa na umri wa takriban miaka ishirini na mitano”, na “mtoto aliyedhaniwa kuwa amepotea”.",
+      "translation_quote": "ile agizo iliyo-radiweka ... umri wa miaka ishirini hadi ishirini na tano ... mtoto aliyodaiwa kufifia"
+    },
+    {
+      "location": "html, paragraphs 19–20: all three repetitions",
+      "severity": "major",
+      "source_quote": "I may never see my baby again",
+      "suggested_fix": "Badili kila tukio la kifungu hiki kuwa “Huenda nisimwone mtoto wangu tena”.",
+      "translation_quote": "Huenda sikumwona mtoto wangu tena"
+    },
+    {
+      "location": "html, paragraph 20",
+      "severity": "major",
+      "source_quote": "strapped her to the stretcher",
+      "suggested_fix": "walimfunga kwa mikanda kwenye machela",
+      "translation_quote": "kilimfunga kwenye mto"
+    },
+    {
+      "location": "html, paragraph 21",
+      "severity": "major",
+      "source_quote": "barely coherent ... What would the paramedics and rescue team remember me by? ... Would I be clear before God?",
+      "suggested_fix": "Tumia “nikiwa siwezi kujieleza kwa ufasaha”, “Wahudumu wa tiba za dharura na kikosi cha uokoaji wangenikumbuka kwa jambo gani?”, na “Ningekuwa bila hatia mbele za Mungu?”",
+      "translation_quote": "nikiwa karibu kurudi kwa nafsi ... wangenikumbusha kwa nini? ... Ninge kuwa wazi mbele za Mungu?"
+    },
+    {
+      "location": "html, paragraph 24",
+      "severity": "major",
+      "source_quote": "God opened the door ... a godly young lady ... we were married ... Being married ... discipleship",
+      "suggested_fix": "Tumia “Mungu alinifungulia mlango”, “msichana mcha Mungu”, “tulifunga ndoa”, “Kuwa katika ndoa”, na “mafunzo ya uanafunzi”.",
+      "translation_quote": "Mungu alifunua mlango ... msichana mungu mwepesi ... tulioa ... Kuolewa ... ufunuo"
+    },
+    {
+      "location": "html, paragraph 25",
+      "severity": "major",
+      "source_quote": "God did not let me go ... Draw nigh to God, and he will draw nigh to you",
+      "suggested_fix": "Tumia “Mungu hakuniacha niondoke” na, ndani ya lebo ya em iliyopo, “Mkaribieni Mungu, naye atawakaribia ninyi”.",
+      "translation_quote": "Mungu kwa kutoacha kuniacha ... Mkaribuni kwa Mungu, naye atakaribuni nanyi"
+    },
+    {
+      "location": "html, paragraphs 1–3, 5, 8, 10, 12–14, 17, 19 and 21",
+      "severity": "minor",
+      "source_quote": "were going; a quiet ... child; all they knew to do with me; another state; people that I barely knew; most of them; of legal age; at times it seemed ... harder; had also gone through a lot; leave his car; My heart was torn; What’s the use?; we do go through; possible entrapment; As I left",
+      "suggested_fix": "Rekebisha vipashio husika kuwa “walikuwa wakielekea”; “mtoto mkimya”; “yote waliyojua kufanya ili kunisaidia”; “jimbo jingine”; “watu ambao sikuwafahamu vizuri”; “wengi wao”; “nitakuwa nimefikia umri wa utu uzima kisheria”; “wakati mwingine ilionekana kuwa migumu zaidi”; “alikuwa amepitia mengi”; “nilipotoka kwenye gari lake”; “Moyo wangu uliumia”; “Kuna manufaa gani?”; “tunapitia”; “huenda mtu amekwama ndani”; na “Nilipoondoka”.",
+      "translation_quote": "wakioelekea; mtoto mwenye kimya; yote waliyofahamu walivyoweza nifanyie; jimboni mwingine; watu ambao nilikuwa namjua kidogo; wengi yao; nitakuwa umri wa kisheria; wakati mwingine yalikuwa magumu zaidi; alikuwa kupitia mengi; nilizotoka gari lake; Moyo wangu ulikuwa uchungu; Je, kina manufaa gani?; tuna kupitia; inawezekana mtu amefungwa ndani; Nilikapoondoka"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
