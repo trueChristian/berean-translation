@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-01T14:58:25+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Final paragraph\",\"severity\":\"major\",\"source_quote\":\"“Oh, that this message may at least call a halt amid all the activity of the church”\",\"suggested_fix\":\"“Ah, que esta mensagem ao menos interrompa por um momento toda a agitação da igreja”\",\"translation_quote\":\"“Ah, que esta mensagem ao menos faça cessar toda a atividade da igreja”\"}],\"findings_complete\":true,\"passed\":false,\"score\":94}",
+    "content_bytes": 429,
+    "content_evidence_truncated": false,
+    "content_sha256": "bcce8989ffa0514ab3154a7d2c4590d2aaa687bbc7657e68b6fc56f886bc7ea8",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 731,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 613,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4608,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3505,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 5339
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}
