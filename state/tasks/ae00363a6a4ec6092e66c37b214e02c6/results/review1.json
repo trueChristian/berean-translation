@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "33e02329-506c-4f99-99b6-193b09f9203d",
+    "response_id": "chatcmpl-EfLH2u0HEiZOBOuQFL0cDzzLj3KBa",
+    "usage": {
+      "completion_tokens": 706,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 568,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5029,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3926,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 5735
+    }
+  },
+  "received_at": "2026-11-01T14:57:59+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "प्रथम अनुच्छेद",
+        "severity": "minor",
+        "source_quote": "waiting for its final exposition, for the language and illumination of the Father’s house.",
+        "suggested_fix": "Replace “पिता के घर की भाषा और प्रकाशन की प्रतीक्षा करता है” with “पिता के घर की भाषा और प्रकाश की प्रतीक्षा करता है” to render “illumination” as light rather than revelation.",
+        "translation_quote": "पिता के घर की भाषा और प्रकाशन की प्रतीक्षा करता है"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}

@@ -38292,6 +38292,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/hin/articles/7c9d5015-158a-4c07-92fc-ae40c998d9ae.html",
+      "html_sha256": "68547304e994d214679068148a4a335e1972b98b2dd32b5e9024898538e63684",
+      "human_reviewed": false,
+      "id": "7c9d5015-158a-4c07-92fc-ae40c998d9ae",
+      "images": [
+        {
+          "alt": "एक वृद्ध दाढ़ीवाला व्यक्ति घुटने टेककर बैठे व्यक्ति के सिर पर हाथ रखता है, जबकि पास ही एक स्त्री बैठी है",
+          "public_path": "/images/articles/7c9d5015-158a-4c07-92fc-ae40c998d9ae-1.jpg"
+        },
+        {
+          "alt": "चोगा पहने एक व्यक्ति बाहर घुटने टेककर बैठे व्यक्ति के पास बाँहें फैलाए खड़ा है",
+          "public_path": "/images/articles/7c9d5015-158a-4c07-92fc-ae40c998d9ae-2.jpg"
+        }
+      ],
+      "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
+      "language": "hin",
+      "language_tag": "hi",
+      "metadata": "content/hin/articles/7c9d5015-158a-4c07-92fc-ae40c998d9ae.json",
+      "metadata_sha256": "aed15517564e75b59f85219d8d5ff58363752c5ac7f76157b4b8996fdaf3090f",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
+      "source_translation_key": "45c04759c5b0f7d8a9038af8cc76e1ff17a52e5b989557b235da9ebe057bb77d",
+      "status": "ready",
+      "subtitle": null,
+      "title": "हमारी सहभागिता पिता के साथ है",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/hin/articles/7cdda5c4-11c0-4b7f-bcd4-b37677267f87.html",
       "html_sha256": "98fd82570077794ce16fa1aa64d332372fce681422b67d88df01263749de1e29",
       "human_reviewed": false,

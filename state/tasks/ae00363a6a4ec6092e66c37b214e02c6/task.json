@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "638386141e60450285c427fdf2fc1d4f",
   "campaign": "auto-3073ba330a6ae67c7e5460a0a6fa46e204899641fe9bc1019f0f6798c9e6cdf0",
   "created_at": "2026-11-01T01:08:23+00:00",
   "events": [
@@ -28,10 +27,39 @@
         },
         "total_tokens": 4675
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 706,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 568,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5029,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 3926,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 5735
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "प्रथम अनुच्छेद",
+      "severity": "minor",
+      "source_quote": "waiting for its final exposition, for the language and illumination of the Father’s house.",
+      "suggested_fix": "Replace “पिता के घर की भाषा और प्रकाशन की प्रतीक्षा करता है” with “पिता के घर की भाषा और प्रकाश की प्रतीक्षा करता है” to render “illumination” as light rather than revelation.",
+      "translation_quote": "पिता के घर की भाषा और प्रकाशन की प्रतीक्षा करता है"
+    }
+  ],
+  "finished_at": "2026-11-01T14:57:59+00:00",
   "id": "ae00363a6a4ec6092e66c37b214e02c6",
   "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
   "language": "hin",
@@ -120,9 +148,11 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/8d52a546b52937f22f6b07ebadc9080d1037a1206b5e9465f0000afe830e5d6a.json",
   "stage": "review1",
   "stage_budget": {
@@ -138,7 +168,7 @@
     "total_reserved_usd": 0.087769,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "45c04759c5b0f7d8a9038af8cc76e1ff17a52e5b989557b235da9ebe057bb77d",
   "translation_model_actual": "gpt-6-luna"
