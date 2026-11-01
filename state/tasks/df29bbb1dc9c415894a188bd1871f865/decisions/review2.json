@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph 12, sentence beginning “Thus when we ascribe”",
+      "severity": "major",
+      "source_quote": "our deliverances to friends, means, instruments",
+      "suggested_fix": "Change “kuokolewa kwetu” to “kuokolewa kwetu kutokana na hatari” or “kuponywa kwetu,” to convey deliverances/rescues rather than salvation.",
+      "translation_quote": "kuokolewa kwetu kumetokana na marafiki, njia na vyombo mbalimbali"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

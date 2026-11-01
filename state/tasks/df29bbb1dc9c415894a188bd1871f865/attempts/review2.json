@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-01T19:49:40+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph 12, sentence beginning “Thus when we ascribe”\",\"severity\":\"major\",\"source_quote\":\"our deliverances to friends, means, instruments\",\"suggested_fix\":\"Change “kuokolewa kwetu” to “kuokolewa kwetu kutokana na hatari” or “kuponywa kwetu,” to convey deliverances/rescues rather than salvation.\",\"translation_quote\":\"kuokolewa kwetu kumetokana na marafiki, njia na vyombo mbalimbali\"}],\"findings_complete\":true,\"passed\":false,\"score\":94}",
+    "content_bytes": 482,
+    "content_evidence_truncated": false,
+    "content_sha256": "0a834df9c310c2ab44febfdcd467106e3af43dc87b759dbf8c3e505f6deed21a",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1025,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 888,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 11195,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 11192,
+        "cached_tokens": 0
+      },
+      "total_tokens": 12220
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "406acc51-6057-440e-9a9d-ed4fc8eccc56",
+    "response_id": "chatcmpl-EfVfE7w2qadZgcYcW1VFaLeL1ocLa",
+    "usage": {
+      "completion_tokens": 1025,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 888,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 11195,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 11192,
+        "cached_tokens": 0
+      },
+      "total_tokens": 12220
+    }
+  },
+  "received_at": "2026-11-01T19:49:40+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph 12, sentence beginning “Thus when we ascribe”",
+        "severity": "major",
+        "source_quote": "our deliverances to friends, means, instruments",
+        "suggested_fix": "Change “kuokolewa kwetu” to “kuokolewa kwetu kutokana na hatari” or “kuponywa kwetu,” to convey deliverances/rescues rather than salvation.",
+        "translation_quote": "kuokolewa kwetu kumetokana na marafiki, njia na vyombo mbalimbali"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 94
+  }
+}
