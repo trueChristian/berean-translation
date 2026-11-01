@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "d18b704b-db74-4729-9d3c-03cea4d8385c",
+    "response_id": "chatcmpl-EfSAQSTvydm90LLcsydtyFVYitE4W",
+    "usage": {
+      "completion_tokens": 812,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 669,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 11590,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 10487,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 12402
+    }
+  },
+  "received_at": "2026-11-01T15:59:51+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML paragraph 9. DESIRE, Psalm 27:4 quotation",
+        "severity": "major",
+        "source_quote": "“One thing have I desired of the Lord, that will I seek after”",
+        "suggested_fix": "Change “उसी के यत्न में रहूँगा” to “उसी की खोज में रहूँगा” to convey “that will I seek after.”",
+        "translation_quote": "“मैंने यहोवा से एक वर माँगा है, उसी के यत्न में रहूँगा”"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 94
+  }
+}
