@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "마지막 문단",
+      "severity": "minor",
+      "source_quote": "then will come a new sense of Christ",
+      "suggested_fix": "그 영혼은 전에 한 번도 경험하지 못한 방식으로 그리스도를 새롭게 인식하게 될 것입니다.",
+      "translation_quote": "그 영혼은 전에 한 번도 경험하지 못한 새로운 그리스도의 임재를 느끼게 될 것"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

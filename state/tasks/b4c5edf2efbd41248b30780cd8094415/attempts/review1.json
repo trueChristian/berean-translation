@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-01T15:15:17+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"마지막 문단\",\"severity\":\"minor\",\"source_quote\":\"then will come a new sense of Christ\",\"suggested_fix\":\"그 영혼은 전에 한 번도 경험하지 못한 방식으로 그리스도를 새롭게 인식하게 될 것입니다.\",\"translation_quote\":\"그 영혼은 전에 한 번도 경험하지 못한 새로운 그리스도의 임재를 느끼게 될 것\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 437,
+    "content_evidence_truncated": false,
+    "content_sha256": "e40832b059547fbba56f74a1ceaa15f4ae7b9e78b42a5a4a8d00e25b69f1598b",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 528,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 415,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5053,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3950,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 5581
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}
