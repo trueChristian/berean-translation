@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "17d1ad95-92b8-4d6f-9d3f-6e76e88953cb",
+    "response_id": "chatcmpl-EfFK3TpgXmf8P56mh2OJlyV7y7PQK",
+    "usage": {
+      "completion_tokens": 648,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2484,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1381,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 3132
+    }
+  },
+  "received_at": "2026-11-01T07:26:42+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, fourth paragraph, Jacob’s former name",
+        "severity": "minor",
+        "source_quote": "“his old name Jacob, the Supplanter”",
+        "suggested_fix": "‘속이는 자’ 대신 ‘찬탈자’ 또는 문맥에 맞는 ‘자리를 빼앗는 자’처럼 “Supplanter”의 뜻을 살려 옮겨 주세요.",
+        "translation_quote": "“그의 옛 이름인 야곱, 곧 ‘속이는 자’라는 이름”"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}

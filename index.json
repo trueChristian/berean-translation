@@ -51016,6 +51016,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/kor/articles/19270b64-7f17-4623-b361-5486354b7303.html",
+      "html_sha256": "c2da5f5597f3b22f8f59dec7536b2570c7b69ee6223c95728f8cceb3f5c7e6de",
+      "human_reviewed": false,
+      "id": "19270b64-7f17-4623-b361-5486354b7303",
+      "images": [
+        {
+          "alt": "천사들로 가득한 계단 아래에서 쉬는 야곱",
+          "public_path": "/images/articles/19270b64-7f17-4623-b361-5486354b7303-1.jpg"
+        },
+        {
+          "alt": "날개 달린 천사 앞에 무릎 꿇은 야곱",
+          "public_path": "/images/articles/19270b64-7f17-4623-b361-5486354b7303-2.jpg"
+        }
+      ],
+      "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
+      "language": "kor",
+      "language_tag": "ko",
+      "metadata": "content/kor/articles/19270b64-7f17-4623-b361-5486354b7303.json",
+      "metadata_sha256": "12fab18c293e2b3cb5387842e4c2328e6c8a77aa3e0cb53acad03b13a96814c3",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
+      "source_translation_key": "63da7cacb1fe8b3491c5fd4fb86fa335742cd71d9cb8f136d36e8a661edff9fb",
+      "status": "ready",
+      "subtitle": null,
+      "title": "사람은 어떻게 성장하는가",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/kor/articles/1b371612-06aa-4d84-8c43-2a2adcfd473a.html",
       "html_sha256": "41ddae3224f9b533f6185d5a40b0f056d719a95f5acbefd13c9271e6a7f69240",
       "human_reviewed": false,

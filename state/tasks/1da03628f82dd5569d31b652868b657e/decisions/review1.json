@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, fourth paragraph, Jacob’s former name",
+      "severity": "minor",
+      "source_quote": "“his old name Jacob, the Supplanter”",
+      "suggested_fix": "‘속이는 자’ 대신 ‘찬탈자’ 또는 문맥에 맞는 ‘자리를 빼앗는 자’처럼 “Supplanter”의 뜻을 살려 옮겨 주세요.",
+      "translation_quote": "“그의 옛 이름인 야곱, 곧 ‘속이는 자’라는 이름”"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

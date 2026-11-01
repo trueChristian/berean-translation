@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "7382b15ce7d74cfa9355143083755c04",
   "campaign": "auto-5dd7aa5234d5bc93ed5910c451b624fcebabe20846776e0e96683aa2dc89d707",
   "created_at": "2026-10-31T21:43:25+00:00",
   "events": [
@@ -28,10 +27,39 @@
         },
         "total_tokens": 2218
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 648,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 512,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 2484,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 1381,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 3132
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "HTML, fourth paragraph, Jacob’s former name",
+      "severity": "minor",
+      "source_quote": "“his old name Jacob, the Supplanter”",
+      "suggested_fix": "‘속이는 자’ 대신 ‘찬탈자’ 또는 문맥에 맞는 ‘자리를 빼앗는 자’처럼 “Supplanter”의 뜻을 살려 옮겨 주세요.",
+      "translation_quote": "“그의 옛 이름인 야곱, 곧 ‘속이는 자’라는 이름”"
+    }
+  ],
+  "finished_at": "2026-11-01T07:26:42+00:00",
   "id": "1da03628f82dd5569d31b652868b657e",
   "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
   "language": "kor",
@@ -120,9 +148,11 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/970537de50127eebae71c064d746cc4558f6bb33c1c33fea434b6a8d803940db.json",
   "stage": "review1",
   "stage_budget": {
@@ -138,7 +168,7 @@
     "total_reserved_usd": 0.08626,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "63da7cacb1fe8b3491c5fd4fb86fa335742cd71d9cb8f136d36e8a661edff9fb",
   "translation_model_actual": "gpt-6-luna"
