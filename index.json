@@ -64472,6 +64472,46 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/nob/articles/f87354d0-0bb8-4271-a8db-792c77d0d090.html",
+      "html_sha256": "7c1d85e8ef638d2ced6a3bf8b45d744c97d467bc24407e8ac65dc2705795cd8c",
+      "human_reviewed": false,
+      "id": "f87354d0-0bb8-4271-a8db-792c77d0d090",
+      "images": [
+        {
+          "alt": "Gravering av troende som mottar Den hellige ånd på pinsedagen",
+          "public_path": "/images/articles/f87354d0-0bb8-4271-a8db-792c77d0d090-1.png"
+        },
+        {
+          "alt": "Stilisert flamme",
+          "public_path": "/images/articles/f87354d0-0bb8-4271-a8db-792c77d0d090-2.jpg"
+        },
+        {
+          "alt": "En due som flyr mot en utstrakt hånd",
+          "public_path": "/images/articles/f87354d0-0bb8-4271-a8db-792c77d0d090-3.png"
+        },
+        {
+          "alt": "Veiskilt som kombinerer glade og triste ansikter",
+          "public_path": "/images/articles/f87354d0-0bb8-4271-a8db-792c77d0d090-4.jpg"
+        }
+      ],
+      "issue_id": "05538f8e-6560-5f96-b313-890e87c05daf",
+      "language": "nob",
+      "language_tag": "nb",
+      "metadata": "content/nob/articles/f87354d0-0bb8-4271-a8db-792c77d0d090.json",
+      "metadata_sha256": "05433d4214dbcde6e3ec06cef0358a6d83f603f6ddce4b9d805bc1701e4d0282",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
+      "source_translation_key": "ecc35e8cd4c57e2b467ba1c07b4baf9d8db122db80e2c80ae9e2a166783c3de1",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Å redde dåpen i Den hellige ånd fra pinsebevegelsen",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/nob/articles/f896076d-76e2-4e42-8532-6cb2a3c029f0.html",
       "html_sha256": "b04f45caca70003b8212fe26b9ecfce9bd7199c267da328910901d89964fbee7",
       "human_reviewed": false,
