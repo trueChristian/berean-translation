@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-01T01:58:49+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"translation.html, avsnittet om ulykken og det påfølgende avsnittet\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"“I may never see my baby again.”\",\n      \"suggested_fix\": \"Endre alle tre forekomstene til «Kanskje jeg aldri får se babyen min igjen».\",\n      \"translation_quote\": \"«Jeg kanskje aldri får se babyen min igjen»\"\n    },\n    {\n      \"location\": \"translation.html, avsnittet som begynner «15. juni 2018»\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"All the while she sat there with lines of worry and fear.\",\n      \"suggested_fix\": \"Erstatt «Mens hun satt der, trukket av bekymringens og fryktens spor i ansiktet» med «Mens hun satt der med ansiktet preget av bekymring og frykt».\",\n      \"translation_quote\": \"Mens hun satt der, trukket av bekymringens og fryktens spor i ansiktet\"\n    },\n    {\n      \"location\": \"translation.html, avsnittet som begynner «Da jeg forlot stedet»\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"If that was me, miraculously surviving an accident and sitting there beside my vehicle, barely coherent\",\n      \"suggested_fix\": \"Erstatt innledningen med «Hvis det var jeg som på mirakuløst vis hadde overlevd en ulykke og satt der ved bilen min, knapt i stand til å uttrykke meg sammenhengende». Behold resten av spørsmålet.\",\n      \"translation_quote\": \"Hvis det var meg, mirakuløst overlevd en ulykke og sittende der ved bilen min, knapt sammenhengende\"\n    },\n    {\n      \"location\": \"translation.html, avsnittet om omvendelsen\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"I don’t remember that the conviction was any stronger than any other time.\",\n      \"suggested_fix\": \"Presiser den åndelige betydningen: «Jeg husker ikke at syndenøden var sterkere enn andre ganger.»\",\n      \"translation_quote\": \"husker jeg ikke at overbevisningen var sterkere enn andre ganger\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": true,\n  \"score\": 95\n}",
+    "content_bytes": 1982,
+    "content_evidence_truncated": false,
+    "content_sha256": "f9797d17e014a622babc1b13cc7b81de1329b8422f082cca1aa754790623bb73",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 602,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 61,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8206,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7103,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 8808
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}

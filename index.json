@@ -61561,6 +61561,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/nob/articles/3f679973-e351-4fe3-8930-e08d9fba23a5.html",
+      "html_sha256": "38e6c45aad1a639f891348b22beee2598cdec60fc5f51bbe043d9c61d97cd573",
+      "human_reviewed": false,
+      "id": "3f679973-e351-4fe3-8930-e08d9fba23a5",
+      "images": [
+        {
+          "alt": "En fjellvandrer hjelper en annen å klatre i solnedgang",
+          "public_path": "/images/articles/3f679973-e351-4fe3-8930-e08d9fba23a5-1.png"
+        }
+      ],
+      "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
+      "language": "nob",
+      "language_tag": "nb",
+      "metadata": "content/nob/articles/3f679973-e351-4fe3-8930-e08d9fba23a5.json",
+      "metadata_sha256": "357e6fac0fdce95aa9dc051ea655199c4712636647285fb2ba9d26dee7c0a7fa",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "INSPIRASJONER FOR UNGDOM",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "d910d483e90bcd959841ed8e96903546f249749ffefaa1d05b277a01a16ea99d",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Gud ville ikke la meg gå",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/nob/articles/4171e741-b739-4659-8aec-4b8f5f833165.html",
       "html_sha256": "2fd889b5f37aace7e78f9278993cd79644af95b8e4952762f158c4933594b3fc",
       "human_reviewed": false,

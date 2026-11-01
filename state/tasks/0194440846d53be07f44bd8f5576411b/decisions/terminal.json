@@ -1,0 +1,35 @@
+{
+  "findings": [
+    {
+      "location": "translation.html, avsnittet om ulykken og det påfølgende avsnittet",
+      "severity": "minor",
+      "source_quote": "“I may never see my baby again.”",
+      "suggested_fix": "Endre alle tre forekomstene til «Kanskje jeg aldri får se babyen min igjen».",
+      "translation_quote": "«Jeg kanskje aldri får se babyen min igjen»"
+    },
+    {
+      "location": "translation.html, avsnittet som begynner «15. juni 2018»",
+      "severity": "minor",
+      "source_quote": "All the while she sat there with lines of worry and fear.",
+      "suggested_fix": "Erstatt «Mens hun satt der, trukket av bekymringens og fryktens spor i ansiktet» med «Mens hun satt der med ansiktet preget av bekymring og frykt».",
+      "translation_quote": "Mens hun satt der, trukket av bekymringens og fryktens spor i ansiktet"
+    },
+    {
+      "location": "translation.html, avsnittet som begynner «Da jeg forlot stedet»",
+      "severity": "minor",
+      "source_quote": "If that was me, miraculously surviving an accident and sitting there beside my vehicle, barely coherent",
+      "suggested_fix": "Erstatt innledningen med «Hvis det var jeg som på mirakuløst vis hadde overlevd en ulykke og satt der ved bilen min, knapt i stand til å uttrykke meg sammenhengende». Behold resten av spørsmålet.",
+      "translation_quote": "Hvis det var meg, mirakuløst overlevd en ulykke og sittende der ved bilen min, knapt sammenhengende"
+    },
+    {
+      "location": "translation.html, avsnittet om omvendelsen",
+      "severity": "minor",
+      "source_quote": "I don’t remember that the conviction was any stronger than any other time.",
+      "suggested_fix": "Presiser den åndelige betydningen: «Jeg husker ikke at syndenøden var sterkere enn andre ganger.»",
+      "translation_quote": "husker jeg ikke at overbevisningen var sterkere enn andre ganger"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}
