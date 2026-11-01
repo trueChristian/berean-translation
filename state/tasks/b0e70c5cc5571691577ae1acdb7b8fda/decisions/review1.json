@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraph 3",
+      "severity": "major",
+      "source_quote": "He honestly states the case as it strikes him, and takes God at His word",
+      "suggested_fix": "Replace “houdt God aan Zijn woord” with “gelooft God op Zijn woord”.",
+      "translation_quote": "Hij geeft eerlijk weer hoe de zaak op hem overkomt en houdt God aan Zijn woord"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
