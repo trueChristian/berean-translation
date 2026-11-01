@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-01T15:58:57+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Absatz 12, Satz über Überfluss, Erfolg und Rettung\",\"severity\":\"major\",\"source_quote\":\"“without looking higher—or not so much to God as unto these”\",\"suggested_fix\":\"„ohne höher zu blicken oder Gott ebenso viel zuzuschreiben wie ihnen“\",\"translation_quote\":\"„ohne höher zu blicken oder ihnen ebenso viel zuzuschreiben wie Gott“\"}],\"findings_complete\":true,\"passed\":false,\"score\":93}",
+    "content_bytes": 426,
+    "content_evidence_truncated": false,
+    "content_sha256": "d863bb8925f29cf54900510995bf4d14d32020ae9691a55c1c048eb7ffb3eef2",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 785,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 664,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 10800,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9697,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 11585
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Absatz 12, Satz über Überfluss, Erfolg und Rettung",
+      "severity": "major",
+      "source_quote": "“without looking higher—or not so much to God as unto these”",
+      "suggested_fix": "„ohne höher zu blicken oder Gott ebenso viel zuzuschreiben wie ihnen“",
+      "translation_quote": "„ohne höher zu blicken oder ihnen ebenso viel zuzuschreiben wie Gott“"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
