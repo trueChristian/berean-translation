@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "c0b42675-0fe2-47f9-8656-a1443785bb61",
+    "response_id": "chatcmpl-EfZV49M6XiwzCIx960ioxxBJNNWvw",
+    "usage": {
+      "completion_tokens": 1216,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 977,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 13159,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 12056,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 14375
+    }
+  },
+  "received_at": "2026-11-01T23:50:24+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Image 1 alt text",
+        "severity": "minor",
+        "source_quote": "A young man with a guitar serenades a woman at an open window",
+        "suggested_fix": "ایک نوجوان مرد کھلی کھڑکی پر موجود عورت کے لیے گٹار بجا کر نغمہ گا رہا ہے",
+        "translation_quote": "ایک نوجوان مرد کھلی کھڑکی میں ایک عورت کے لیے گٹار بجا کر نغمہ گا رہا ہے"
+      },
+      {
+        "location": "Amy Carmichael quotations; paragraph ending “2 Sam. 1:26” and conclusion paragraph",
+        "severity": "minor",
+        "source_quote": "“thy love to me was wonderful.”",
+        "suggested_fix": "Translate “wonderful” as praise, for example: ”تیری محبت میرے لیے نہایت شاندار تھی۔“ Use the same correction in both locations.",
+        "translation_quote": "”تیری محبت میرے لیے عجیب تھی۔“ (۲ سموئیل 1:26); ”تیری محبت میرے لیے عجیب تھی“"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 97
+  }
+}
