@@ -33586,6 +33586,38 @@
     {
       "ai_notice_required": true,
       "direction": "rtl",
+      "html": "content/heb/articles/4ab4f655-4a17-4f5c-9623-e9085bd401f9.html",
+      "html_sha256": "3986bc7530e84947b7ea92131cca827417d21a79d9068a70243239cba770440f",
+      "human_reviewed": false,
+      "id": "4ab4f655-4a17-4f5c-9623-e9085bd401f9",
+      "images": [
+        {
+          "alt": "ילדה מגלפת מקל בסכין קטנה בעלת ידית אדומה",
+          "public_path": "/images/articles/4ab4f655-4a17-4f5c-9623-e9085bd401f9-1.png"
+        },
+        {
+          "alt": "נדנדת חבל תלויה מעץ גדול",
+          "public_path": "/images/articles/4ab4f655-4a17-4f5c-9623-e9085bd401f9-2.jpg"
+        }
+      ],
+      "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
+      "language": "heb",
+      "language_tag": "he",
+      "metadata": "content/heb/articles/4ab4f655-4a17-4f5c-9623-e9085bd401f9.json",
+      "metadata_sha256": "bffbedd32bf7b65a2a34ac4fc242524f5bd5d3278c5cc4a31e746d633eaedf51",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "פינת הילדים",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "bea4c0be47f056e7707aebabc8049992e7243ac83fcd337c2189cd783f263083",
+      "status": "ready",
+      "subtitle": null,
+      "title": "אמא צדקה",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
       "html": "content/heb/articles/4c0794e8-20a4-43fb-a2ea-5f8f45d93f7d.html",
       "html_sha256": "071d00cbd56f1b2c7760dcd1dcb835370e597bd91a116df5c37381b74f9253e1",
       "human_reviewed": false,
