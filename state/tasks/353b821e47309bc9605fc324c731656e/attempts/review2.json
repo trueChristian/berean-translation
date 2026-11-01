@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-01T07:54:59+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"translation.html，婚姻类比段落第二句\",\"severity\":\"minor\",\"source_quote\":\"How often has it happened that a wife was more gifted in leadership than her husband?\",\"suggested_fix\":\"将“岂不少见吗”改为“不是很常见吗”，明确表达这种情况经常发生。\",\"translation_quote\":\"妻子在领导上比丈夫更有恩赐的情形，岂不少见吗？\"},{\"location\":\"translation.html，关于录制当今所谓方言的研究的段落末句\",\"severity\":\"minor\",\"source_quote\":\"I believe that in many cases it is done innocently because of the vast amount of deception that follows the speaking in tongues.\",\"suggested_fix\":\"将“人们是无心这样做的”改为“人们这样做时并无欺骗的恶意”，保留原文对行为者并非有意欺骗的判断，而非暗示他们无意做出该行为。\",\"translation_quote\":\"我相信在许多情况下，人们是无心这样做的，因为说方言伴随着大量迷惑。\"}],\"findings_complete\":true,\"passed\":true,\"score\":97}",
+    "content_bytes": 1036,
+    "content_evidence_truncated": false,
+    "content_sha256": "50df5049c03b330d938249c5865f2728cb4b1560aee07097eb0653350e5ffca0",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 473,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 204,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 11345,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 10242,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 11818
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 1
+}

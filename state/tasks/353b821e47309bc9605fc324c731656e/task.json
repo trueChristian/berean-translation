@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "c40a1430c0c14b29adb77884357e4053",
   "campaign": "auto-5d3d72e22a2a66070e366a6b6eb2efcff897cce088366e90b58f406b09beebef",
   "created_at": "2026-11-01T01:45:49+00:00",
   "events": [
@@ -48,60 +47,46 @@
         },
         "total_tokens": 17786
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 473,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 204,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 11345,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 10242,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 11818
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "html，第2段",
-      "severity": "major",
-      "source_quote": "He took the power from death, hell, the grave and from Satan himself for those who repent and believe in Him.",
-      "suggested_fix": "改为：“他为那些悔改并信他的人，夺去了死亡、阴间、坟墓乃至撒但本身的权势。”",
-      "translation_quote": "他夺回了对死亡、阴间、墓穴乃至撒但的权势，向那些悔改并信他的人释放权能。"
-    },
-    {
-      "location": "html，“属灵恩赐不应成为不敬虔行为的借口”末段及“属灵恩赐是神所赐，不应由人强求”首段中的哥林多前书12:11引文",
-      "severity": "major",
-      "source_quote": "But all these worketh that one and the selfsame Spirit, dividing to every man severally as he will",
-      "suggested_fix": "两处均改为：“这一切都是同一位圣灵所运行的，他按自己的旨意分别赐给各人。”保留原有经文出处和外围标签；在后一处恢复对“按自己的旨意”的<strong>强调。",
-      "translation_quote": "这一位却用一位圣灵所运行，随己意把各人分给各人。／这各样都是这位同一位圣灵所运行，随己意把各人分给各人。"
-    },
-    {
-      "location": "html，“属灵恩赐是神所赐，不应由人强求”首段，希伯来书2:4引文",
-      "severity": "major",
-      "source_quote": "God also bearing them witness, both with signs and wonders, and with divers miracles, and gifts of the Holy Ghost, <strong>according to his own will</strong>?",
-      "suggested_fix": "将该引文改为：“神也借着神迹、奇事、各样异能，以及<strong>按他自己的旨意</strong>所赐的圣灵恩赐，为他们作见证。”保留<em>标签及原经文出处。",
-      "translation_quote": "神又借着神迹奇事，并各样的异能、并各样分赐的恩赐，证明那差他们来的事，是照着自己的旨意行的么？"
-    },
-    {
-      "location": "html，“属灵恩赐不在圣经列明的教会领袖资格之列”首段，提摩太前书4:14引文",
-      "severity": "major",
-      "source_quote": "which was given thee by prophecy, with the laying on of the hands of the presbytery",
-      "suggested_fix": "将“就是从前借着先知的预言、按着长老的手分给你的”改为“就是借着预言、伴随着长老团给你按手而赐给你的”。",
-      "translation_quote": "就是从前借着先知的预言、按着长老的手分给你的"
-    },
-    {
-      "location": "html，“神赐恩赐的目的”下以“第一个理由”开头的段落",
-      "severity": "major",
-      "source_quote": "and he gave… [various spiritual gifts to believers] [to some this gift and to others a different gift] … For <strong>the perfecting of the saints</strong>, for <strong>the work of the ministry</strong>, for <strong>the edifying of the body of Christ</strong>",
-      "suggested_fix": "将<em>内的引文正文改为：“他赐下……[各样属灵恩赐给信徒][赐给一些人这种恩赐，赐给另一些人另一种恩赐]……为要<strong>成全圣徒</strong>，为要<strong>从事服事的工作</strong>，为要<strong>建立基督的身体</strong>：——以弗所书 4:11-12。”既保留原文的括注与省略，也修复缺少“>”的</strong>结束标签。",
-      "translation_quote": "他所赐的，有使徒，有先知，有传福音的，有牧师和教师，<strong>为要成全圣徒</strong，<strong>为要做各人的服事</strong，<strong>为要建立基督的身体</strong。"
-    },
-    {
-      "location": "html，“神赐恩赐的目的”末段",
+      "location": "translation.html，婚姻类比段落第二句",
       "severity": "minor",
-      "source_quote": "The apostle Paul prayed three times to be healed from his recurring illness",
-      "suggested_fix": "将“使徒保罗为他那常作残扰他的刺，三次祷求得医治”改为“使徒保罗曾为自己反复发作的疾病三次祈求医治”，保留经文出处。",
-      "translation_quote": "使徒保罗为他那常作残扰他的刺，三次祷求得医治"
+      "source_quote": "How often has it happened that a wife was more gifted in leadership than her husband?",
+      "suggested_fix": "将“岂不少见吗”改为“不是很常见吗”，明确表达这种情况经常发生。",
+      "translation_quote": "妻子在领导上比丈夫更有恩赐的情形，岂不少见吗？"
     },
     {
-      "location": "html，“属灵恩赐不在圣经列明的教会领袖资格之列”中婚姻例证及其后段落",
+      "location": "translation.html，关于录制当今所谓方言的研究的段落末句",
       "severity": "minor",
-      "source_quote": "</p>\n\n  <p>God can also give the necessary gift to those in such a marriage and in such a ministry team if they find themselves lacking.",
-      "suggested_fix": "在“妻子也学会……使丈夫能成为家中的敬虔头。”之后结束该<p>，并在“若在婚姻或事工团队中觉得有所欠缺”之前另起<p>，恢复原文两段的结构。",
-      "translation_quote": "使丈夫能成为家中的敬虔头。若在婚姻或事工团队中觉得有所欠缺，神也能赐下必要的恩赐给那等人。"
+      "source_quote": "I believe that in many cases it is done innocently because of the vast amount of deception that follows the speaking in tongues.",
+      "suggested_fix": "将“人们是无心这样做的”改为“人们这样做时并无欺骗的恶意”，保留原文对行为者并非有意欺骗的判断，而非暗示他们无意做出该行为。",
+      "translation_quote": "我相信在许多情况下，人们是无心这样做的，因为说方言伴随着大量迷惑。"
     }
   ],
+  "finished_at": "2026-11-01T07:54:59+00:00",
   "id": "353b821e47309bc9605fc324c731656e",
   "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
   "language": "cmn",
@@ -190,7 +175,7 @@
     }
   },
   "protected": false,
-  "quality_score": 86,
+  "quality_score": 97,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6.1-sol",
@@ -209,7 +194,7 @@
     "total_reserved_usd": 0.789292,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "1c1dd57f73c720271265483775e7d93acfbda9f85eeefb95d0c905a5b442adfd",
   "translation_model_actual": "gpt-6.1-sol"

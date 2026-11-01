@@ -18161,6 +18161,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/cmn/articles/e8bdb12c-2e8e-4f55-9052-07bec6e103a1.html",
+      "html_sha256": "453e37b495a55a8cb64003ed64e4bc119c2918f0cbd9c2c64b45764d0d3c10e7",
+      "human_reviewed": false,
+      "id": "e8bdb12c-2e8e-4f55-9052-07bec6e103a1",
+      "images": [
+        {
+          "alt": "湖中倒映着薄雾笼罩的冬日森林",
+          "public_path": "/images/articles/e8bdb12c-2e8e-4f55-9052-07bec6e103a1-1.png"
+        }
+      ],
+      "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
+      "language": "cmn",
+      "language_tag": "zh-Hans",
+      "metadata": "content/cmn/articles/e8bdb12c-2e8e-4f55-9052-07bec6e103a1.json",
+      "metadata_sha256": "a3d3e5caeafcdcb8f771436e0884426dd8a71af8f5cd50596362eb5afcfc0a6a",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "新约教会",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "1c1dd57f73c720271265483775e7d93acfbda9f85eeefb95d0c905a5b442adfd",
+      "status": "ready",
+      "subtitle": null,
+      "title": "属灵恩赐",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/cmn/articles/e9621e7b-df8d-4497-998c-b98af23486b7.html",
       "html_sha256": "71afb36c8fa9d226205fab70cf77d2945f9508e2b86f2b0cad402b39d5d8fdb8",
       "human_reviewed": false,

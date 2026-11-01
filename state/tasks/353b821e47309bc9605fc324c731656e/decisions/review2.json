@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "translation.html，婚姻类比段落第二句",
+      "severity": "minor",
+      "source_quote": "How often has it happened that a wife was more gifted in leadership than her husband?",
+      "suggested_fix": "将“岂不少见吗”改为“不是很常见吗”，明确表达这种情况经常发生。",
+      "translation_quote": "妻子在领导上比丈夫更有恩赐的情形，岂不少见吗？"
+    },
+    {
+      "location": "translation.html，关于录制当今所谓方言的研究的段落末句",
+      "severity": "minor",
+      "source_quote": "I believe that in many cases it is done innocently because of the vast amount of deception that follows the speaking in tongues.",
+      "suggested_fix": "将“人们是无心这样做的”改为“人们这样做时并无欺骗的恶意”，保留原文对行为者并非有意欺骗的判断，而非暗示他们无意做出该行为。",
+      "translation_quote": "我相信在许多情况下，人们是无心这样做的，因为说方言伴随着大量迷惑。"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}
