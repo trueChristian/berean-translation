@@ -1,0 +1,87 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "a81a21c3-72f2-4233-b3b9-3fd25ea4c08e",
+    "response_id": "chatcmpl-EfRQUyHdHYz1DyJGltVL4ylQLRduX",
+    "usage": {
+      "completion_tokens": 1275,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 82,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 11339,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 11336,
+        "cached_tokens": 0
+      },
+      "total_tokens": 12614
+    }
+  },
+  "received_at": "2026-11-01T15:15:29+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "translation.html, alinea beginnend met ‘Ook is het goed’",
+        "severity": "major",
+        "source_quote": "Sometimes a select few are lifted out and taught to be more spiritually important, such as speaking in tongues, miracles, and healing.",
+        "suggested_fix": "Vervang de zin door: ‘Soms worden enkele gaven eruit gelicht en wordt geleerd dat die geestelijk belangrijker zijn, zoals spreken in tongen, wonderen en genezing.’",
+        "translation_quote": "Soms worden een paar uitverkorenen verheven en geleerd dat zij geestelijk belangrijker zijn, zoals spreken in tongen, wonderen en genezingen."
+      },
+      {
+        "location": "translation.html, citaat van Jakobus 3:13-18",
+        "severity": "major",
+        "source_quote": "easy to be intreated ... And the fruit of righteousness is sown in peace of them that make peace.",
+        "suggested_fix": "Vervang ‘gemakkelijk te bewerken’ door ‘voor rede vatbaar’ en ‘wordt gezaaid in vrede voor degenen die vrede maken’ door ‘wordt in vrede gezaaid door degenen die vrede maken’.",
+        "translation_quote": "gemakkelijk te bewerken ... En de vrucht der gerechtigheid wordt gezaaid in vrede voor degenen die vrede maken."
+      },
+      {
+        "location": "translation.html, Hebreeën 2:4 en Efeziërs 4:11-12",
+        "severity": "minor",
+        "source_quote": "<strong>as he will</strong>; <strong>the perfecting of the saints</strong>, for <strong>the work of the ministry</strong>",
+        "suggested_fix": "Herstel de beschadigde tags tot ‘<strong>zoals Hij wil</strong>’ en ‘<strong>de volmaking der heiligen</strong>’. Vervang daarnaast ‘<strong>de dienstbetoon</strong>’ door ‘<strong>het werk van de bediening</strong>’.",
+        "translation_quote": "<strongzoals Hij wil</strong>; <strong>de volmaking der heiligen</strong, tot <strong>de dienstbetoon</strong>"
+      },
+      {
+        "location": "translation.html, citaat van Jakobus 3:13-18",
+        "severity": "minor",
+        "source_quote": "<strong>a good conversation</strong> ... <strong>meekness of wisdom</strong> ... <strong>bitter envying and strife in your hearts</strong> ... <strong>lie not against the truth</strong>",
+        "suggested_fix": "Herstel de oorspronkelijke strong-markering rond de overeenkomstige Nederlandse passages, ook rond ‘zuiver’, ‘vredelievend’, ‘zacht’, ‘voor rede vatbaar, vol barmhartigheid’, ‘goede vruchten’, ‘zonder partijdigheid’ en ‘zonder huichelarij’. Behoud de bestaande em- en u-tags.",
+        "translation_quote": "een goede wandel ... zachtmoedigheid der wijsheid ... bittere nijd en twist in uw harten ... liegt niet tegen de waarheid"
+      },
+      {
+        "location": "translation.section",
+        "severity": "minor",
+        "source_quote": "THE NEW TESTAMENT CHURCH",
+        "suggested_fix": "Gebruik ‘DE NIEUWTESTAMENTISCHE KERK’.",
+        "translation_quote": "DE NIEUWE TESTAMENTISCHE KERK"
+      },
+      {
+        "location": "translation.html, alinea over de vrouw in Canada",
+        "severity": "minor",
+        "source_quote": "a revival meeting where the revivalist was preaching",
+        "suggested_fix": "Vervang ‘naar een herleving waar de herlevingsprediker’ door ‘naar een opwekkingsbijeenkomst waar de opwekkingsprediker’.",
+        "translation_quote": "naar een herleving waar de herlevingsprediker"
+      },
+      {
+        "location": "translation.html, alinea over Petrus en twee slotalinea’s",
+        "severity": "minor",
+        "source_quote": "the gospel message; Peter’s credibility",
+        "suggested_fix": "Vervang ‘de evangeliebericht’ en beide voorkomens van ‘het evangeliebericht’ door ‘de evangelieboodschap’. Vervang ‘Peters geloofwaardigheid’ door ‘Petrus’ geloofwaardigheid’.",
+        "translation_quote": "de evangeliebericht; Peters geloofwaardigheid; het evangeliebericht in zijn eigen taal; het evangeliebericht te horen"
+      },
+      {
+        "location": "translation.html, diverse alinea’s",
+        "severity": "minor",
+        "source_quote": "Paul told Timothy; the godly head of the home; in our midst; There are those; focused teaching; At times God chose",
+        "suggested_fix": "Corrigeer respectievelijk naar ‘Paulus zei tegen Timoteüs’, ‘het godvruchtige hoofd van het gezin’, ‘in ons midden’, ‘Er zijn mensen die’, ‘gericht onderricht’ en ‘Soms koos God ervoor’.",
+        "translation_quote": "PauI zei tegen Timoteüs; de godvruchtige hoofd van het huis; in onze midden; Er zijn hen die; gerichte leeringen; Soms koos God er toe"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 90
+  }
+}
