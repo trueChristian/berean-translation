@@ -7,9 +7,32 @@
       "event": "automatic_requested",
       "previous_task": null,
       "task": "c2ec794088dd37b9106eb55aae7e3337"
+    },
+    {
+      "at": "2026-11-01T20:04:18+00:00",
+      "event": "complete",
+      "reason": null,
+      "task": "c2ec794088dd37b9106eb55aae7e3337"
     }
   ],
   "language": "heb",
   "latest_task": "c2ec794088dd37b9106eb55aae7e3337",
-  "published": null
+  "published": {
+    "html_path": "content/heb/articles/7c9d5015-158a-4c07-92fc-ae40c998d9ae.html",
+    "html_sha256": "993bf2d99acc7621942d9a2fab706c50f6d52a559b67770502b78ee31d981d71",
+    "human_review": null,
+    "human_reviewed": false,
+    "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
+    "metadata_path": "content/heb/articles/7c9d5015-158a-4c07-92fc-ae40c998d9ae.json",
+    "metadata_sha256": "028f1991d0101761703f86d5bde3415ab6cbcabc2a7c822d48aadddbc2a9c611",
+    "model": "gpt-6-luna",
+    "notice_html": "<aside class=\"translation-notice\" data-translation-notice=\"ai\" lang=\"he\" dir=\"rtl\" role=\"note\">\n  <p>מאמר זה תורגם באמצעות בינה מלאכותית של OpenAI (מודל: gpt-6-luna) וטרם נבדק בידי אדם. המקור באנגלית הוא הגרסה המוסמכת. במקרה של ספק לגבי המשמעות, יש לעיין במקור באנגלית. <a href=\"/en/articles/7c9d5015-158a-4c07-92fc-ae40c998d9ae/\" data-source-article-id=\"7c9d5015-158a-4c07-92fc-ae40c998d9ae\" hreflang=\"en\">המקור באנגלית</a></p>\n</aside>",
+    "published_at": "2026-11-01T20:04:18+00:00",
+    "quality_score": 99,
+    "review_model": "gpt-6-luna",
+    "source_revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
+    "source_snapshot": "state/sources/8d52a546b52937f22f6b07ebadc9080d1037a1206b5e9465f0000afe830e5d6a.json",
+    "task": "c2ec794088dd37b9106eb55aae7e3337",
+    "translation_key": "45c04759c5b0f7d8a9038af8cc76e1ff17a52e5b989557b235da9ebe057bb77d"
+  }
 }

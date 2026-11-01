@@ -34599,6 +34599,38 @@
     {
       "ai_notice_required": true,
       "direction": "rtl",
+      "html": "content/heb/articles/7c9d5015-158a-4c07-92fc-ae40c998d9ae.html",
+      "html_sha256": "993bf2d99acc7621942d9a2fab706c50f6d52a559b67770502b78ee31d981d71",
+      "human_reviewed": false,
+      "id": "7c9d5015-158a-4c07-92fc-ae40c998d9ae",
+      "images": [
+        {
+          "alt": "גבר מבוגר מזוקן מניח את ידיו על ראשו של גבר כורע, ואישה יושבת בקרבת מקום",
+          "public_path": "/images/articles/7c9d5015-158a-4c07-92fc-ae40c998d9ae-1.jpg"
+        },
+        {
+          "alt": "גבר לבוש גלימה עומד בזרועות פרושות לצד דמות כורעת בחוץ",
+          "public_path": "/images/articles/7c9d5015-158a-4c07-92fc-ae40c998d9ae-2.jpg"
+        }
+      ],
+      "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
+      "language": "heb",
+      "language_tag": "he",
+      "metadata": "content/heb/articles/7c9d5015-158a-4c07-92fc-ae40c998d9ae.json",
+      "metadata_sha256": "028f1991d0101761703f86d5bde3415ab6cbcabc2a7c822d48aadddbc2a9c611",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
+      "source_translation_key": "45c04759c5b0f7d8a9038af8cc76e1ff17a52e5b989557b235da9ebe057bb77d",
+      "status": "ready",
+      "subtitle": null,
+      "title": "התחברותנו היא עם האב",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
       "html": "content/heb/articles/7cdda5c4-11c0-4b7f-bcd4-b37677267f87.html",
       "html_sha256": "60bc0a9f0a59def7711cc3977f1df13c4f8ea87991fb8337c417adb4201aa10e",
       "human_reviewed": false,

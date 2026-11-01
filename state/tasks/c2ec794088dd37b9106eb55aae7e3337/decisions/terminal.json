@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph 2",
+      "severity": "minor",
+      "source_quote": "all fear, save the fear of filial love",
+      "suggested_fix": "כל פחד, מלבד יראת בן הנובעת מאהבתו לאביו, מסולק לעד",
+      "translation_quote": "כל פחד, מלבד יראת אהבת הבן, מסולק לעד"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

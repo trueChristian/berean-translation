@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "84d622e8-f6b7-47d3-8a76-a09b7fd1bc9e",
+    "response_id": "chatcmpl-EfVz98UP1aiCyy7qRhnzt0KL2fnPO",
+    "usage": {
+      "completion_tokens": 767,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 655,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4817,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3714,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 5584
+    }
+  },
+  "received_at": "2026-11-01T20:04:18+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph 2",
+        "severity": "minor",
+        "source_quote": "all fear, save the fear of filial love",
+        "suggested_fix": "כל פחד, מלבד יראת בן הנובעת מאהבתו לאביו, מסולק לעד",
+        "translation_quote": "כל פחד, מלבד יראת אהבת הבן, מסולק לעד"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 99
+  }
+}
