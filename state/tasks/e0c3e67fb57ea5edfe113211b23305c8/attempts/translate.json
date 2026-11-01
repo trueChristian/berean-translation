@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-01T01:05:27+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"19270b64-7f17-4623-b361-5486354b7303\\\">\\n  <figure><img src=\\\"/images/articles/19270b64-7f17-4623-b361-5486354b7303-1.jpg\\\" alt=\\\"Giacobbe riposa sotto una scala piena di angeli\\\"></figure>\\n  <p>Per valutare correttamente una qualsiasi fase della vita di un uomo, dobbiamo considerarla come un capitolo nel processo della sua crescita verso l’alto — o verso il basso.</p>\\n  <p>Consideriamo Giacobbe a Betel, quando una scala scese dal Cielo per manifestargli l’amore di Dio. Alcuni criticano il voto di Giacobbe a Betel, giudicandolo egoista e interessato. Se Dio farà questo per Giacobbe, allora Giacobbe farà questo per Dio! Quanto sarebbe più nobile affidarsi a Dio con generosità come quella di Abramo, che rimette tutto nelle Sue mani!</p>\\n  <p>Ma a Betel Giacobbe si trovava proprio all’inizio della sua vita spirituale. Aveva appena intravisto per la prima volta la visione che avrebbe plasmato quella vita fino alla fine. Naturalmente non raggiunge un’altezza di totale abbandono. Espone con sincerità la situazione così come gli appare e prende Dio in parola nel modo pratico e prosaico che gli era caratteristico.</p>\\n  <p>Ma allo Iabboc Giacobbe andò oltre. Ancora una volta potenze e presenze divine entrarono nella sua vita e, questa volta, non aveva alcun patto da stringere con loro. Non chiede sicurezza per sé, né la salvaguardia dei suoi beni, né che venga placata l’ira di suo fratello. Chiede soltanto la benedizione che Dio può concedere, lasciando che assuma qualunque forma o abbia qualunque significato Dio voglia darle. Ora non contratta, ma si affida e adora. Fu allora che il suo vecchio nome, Giacobbe, il Soppiantatore, smise di essere adatto a quell’uomo, che divenne Israele, «un principe di Dio».</p>\\n  <figure><img src=\\\"/images/articles/19270b64-7f17-4623-b361-5486354b7303-2.jpg\\\" alt=\\\"Giacobbe si inginocchia davanti a un angelo alato\\\"></figure>\\n  <p>E così Dio ci conduce da una fase all’altra: da visioni ristrette ed egoistiche del nostro rapporto con Lui, fino al momento in cui, fra tutti i Suoi doni, non chiediamo altro che la benedizione che esprime la gioia che Egli prova per noi e contribuisce alla nostra gioia in Lui.</p>\\n</article>\\n\",\"section\":null,\"subtitle\":null,\"title\":\"Come crescono gli uomini\"}",
+    "content_bytes": 2326,
+    "content_evidence_truncated": false,
+    "content_sha256": "9aa88b22171d25d6b9adb4049c22d1796741068fa48073f41308a6d0571cfd3c",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 667,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1366,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1363,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2033
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}
