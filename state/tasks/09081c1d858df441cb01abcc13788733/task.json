@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "087bca2ebc274f429f5c6e19126b3156",
   "campaign": "auto-241e52fe9b3ff7640866117ba24f32e0c5d6936f0c8b025bec484455b2995d15",
   "created_at": "2026-10-31T23:36:05+00:00",
   "events": [
@@ -68,18 +67,39 @@
         },
         "total_tokens": 4537
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 590,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 451,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3330,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 3327,
+          "cached_tokens": 0
+        },
+        "total_tokens": 3920
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "Article, paragraph 4",
-      "severity": "major",
+      "location": "HTML, paragraph 4",
+      "severity": "minor",
       "source_quote": "Young friend, are you training yourself in self-indulgence, or for the immortal crown?",
-      "suggested_fix": "Replace “självförsakelse” with “självtillfredsställelse” or another Swedish term meaning self-indulgence.",
-      "translation_quote": "Unge vän, fostrar du dig själv till självförsakelse eller till den odödliga kronan?"
+      "suggested_fix": "Unge vän, övar du dig i att hänge dig åt dina egna begär eller strävar du efter den odödliga kronan?",
+      "translation_quote": "Unge vän, övar du dig i självtillfredsställelse eller strävar du efter den odödliga kronan?"
     }
   ],
+  "finished_at": "2026-11-01T15:15:38+00:00",
   "id": "09081c1d858df441cb01abcc13788733",
   "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
   "language": "swe",
@@ -168,7 +188,7 @@
     }
   },
   "protected": false,
-  "quality_score": 92,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
@@ -188,7 +208,7 @@
     "total_reserved_usd": 0.086846,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "4a0f2e46d38c9417b9a0cd7d5b0a7beea7595a781a49fbd4e10a86619729e5b6",
   "translation_model_actual": "gpt-6-luna"

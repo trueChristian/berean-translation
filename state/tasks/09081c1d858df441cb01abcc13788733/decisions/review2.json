@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraph 4",
+      "severity": "minor",
+      "source_quote": "Young friend, are you training yourself in self-indulgence, or for the immortal crown?",
+      "suggested_fix": "Unge vän, övar du dig i att hänge dig åt dina egna begär eller strävar du efter den odödliga kronan?",
+      "translation_quote": "Unge vän, övar du dig i självtillfredsställelse eller strävar du efter den odödliga kronan?"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

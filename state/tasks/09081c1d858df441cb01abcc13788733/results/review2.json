@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "bfcbb92b-bd94-4474-ac6d-4dab1f907c3c",
+    "response_id": "chatcmpl-EfRRT5JzhJJkS3UziGP6RCfqbeK3y",
+    "usage": {
+      "completion_tokens": 590,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 451,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3330,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3327,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3920
+    }
+  },
+  "received_at": "2026-11-01T15:15:38+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, paragraph 4",
+        "severity": "minor",
+        "source_quote": "Young friend, are you training yourself in self-indulgence, or for the immortal crown?",
+        "suggested_fix": "Unge vän, övar du dig i att hänge dig åt dina egna begär eller strävar du efter den odödliga kronan?",
+        "translation_quote": "Unge vän, övar du dig i självtillfredsställelse eller strävar du efter den odödliga kronan?"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}
