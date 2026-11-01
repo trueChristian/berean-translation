@@ -63767,6 +63767,46 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/nob/articles/a5c8b070-97f8-4050-9ac5-89af497287b0.html",
+      "html_sha256": "e33b4a0de15694e901de9b1dc30c2dc350db4b88949e47a28c3e122b4aafbb3b",
+      "human_reviewed": false,
+      "id": "a5c8b070-97f8-4050-9ac5-89af497287b0",
+      "images": [
+        {
+          "alt": "En løve og andre dyr ser på et dansende barn",
+          "public_path": "/images/articles/a5c8b070-97f8-4050-9ac5-89af497287b0-1.jpg"
+        },
+        {
+          "alt": "En plakett som forteller at C. S. Lewis og vennene hans møttes i bakrommet på en pub",
+          "public_path": "/images/articles/a5c8b070-97f8-4050-9ac5-89af497287b0-2.jpg"
+        },
+        {
+          "alt": "Forsiden av TIME Magazine med et portrett av C. S. Lewis",
+          "public_path": "/images/articles/a5c8b070-97f8-4050-9ac5-89af497287b0-3.jpg"
+        },
+        {
+          "alt": "C. S. Lewis sittende med en bok",
+          "public_path": "/images/articles/a5c8b070-97f8-4050-9ac5-89af497287b0-4.jpg"
+        }
+      ],
+      "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
+      "language": "nob",
+      "language_tag": "nb",
+      "metadata": "content/nob/articles/a5c8b070-97f8-4050-9ac5-89af497287b0.json",
+      "metadata_sha256": "0e3354dd83844f08df8a46437c10c5f3e38695750acfd9a4d5643edc1ba79239",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
+      "source_translation_key": "6db58cafff7cfe9f11556e892b54ec7a0015890307776806dd7acebca34a78c1",
+      "status": "ready",
+      "subtitle": "KRISTNE, VÆR PÅ VAKT!",
+      "title": "Løven, heksa og Happy Meal:",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/nob/articles/a666b8a8-f3c7-4478-b53d-bb0abe446f42.html",
       "html_sha256": "ccc5f054d1c9a55315e1770a44d066fbf23a963f20cd845d83bd51ec315fed27",
       "human_reviewed": false,
