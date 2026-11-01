@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-01T23:00:35+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Item 1, paragraph beginning “1. AGTING”; item 10, paragraph beginning “10. VREUGDE”\",\"severity\":\"minor\",\"source_quote\":\"“our relations and enjoyments” / “relations, wife, or children”\",\"suggested_fix\":\"Use “ons familielede en genietinge” in item 1 and “ons familielede, vrou of kinders” in item 10, to convey “relations” as relatives rather than relationships.\",\"translation_quote\":\"“ons verhoudings en genietinge” / “ons verhoudings, vrou of kinders”\"}],\"findings_complete\":true,\"passed\":true,\"score\":99}",
+    "content_bytes": 567,
+    "content_evidence_truncated": false,
+    "content_sha256": "e55248236b9bd4b260db7bde786a003f8c5e3f195c7960f23382fc8f5859ee5a",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1015,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 854,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 10920,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9817,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 11935
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Item 1, paragraph beginning “1. AGTING”; item 10, paragraph beginning “10. VREUGDE”",
+      "severity": "minor",
+      "source_quote": "“our relations and enjoyments” / “relations, wife, or children”",
+      "suggested_fix": "Use “ons familielede en genietinge” in item 1 and “ons familielede, vrou of kinders” in item 10, to convey “relations” as relatives rather than relationships.",
+      "translation_quote": "“ons verhoudings en genietinge” / “ons verhoudings, vrou of kinders”"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

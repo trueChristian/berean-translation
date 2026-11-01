@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "ac4e384e-3d2a-4f60-bebc-f660b7299c5a",
+    "response_id": "chatcmpl-EfWTR22weJKFDYRm0QzlFPuvco3uZ",
+    "usage": {
+      "completion_tokens": 1015,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 854,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 10920,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9817,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 11935
+    }
+  },
+  "received_at": "2026-11-01T23:00:35+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Item 1, paragraph beginning “1. AGTING”; item 10, paragraph beginning “10. VREUGDE”",
+        "severity": "minor",
+        "source_quote": "“our relations and enjoyments” / “relations, wife, or children”",
+        "suggested_fix": "Use “ons familielede en genietinge” in item 1 and “ons familielede, vrou of kinders” in item 10, to convey “relations” as relatives rather than relationships.",
+        "translation_quote": "“ons verhoudings en genietinge” / “ons verhoudings, vrou of kinders”"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 99
+  }
+}
