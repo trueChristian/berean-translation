@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Último párrafo",
+      "severity": "minor",
+      "source_quote": "when a soul begins to practice this waiting for God and for His speech",
+      "suggested_fix": "cuando un alma empieza a practicar esta espera en Dios y a escuchar su voz",
+      "translation_quote": "cuando un alma empieza a practicar esta espera en Dios y de su palabra"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}
