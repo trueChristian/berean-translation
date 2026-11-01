@@ -42864,6 +42864,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ind/articles/683a4e23-acbb-434a-8e0e-2b0793e1a0fb.html",
+      "html_sha256": "b657f43eb572ca19fd20a2643e6c59e20b1a72b30abc470138dd9586108f3dab",
+      "human_reviewed": false,
+      "id": "683a4e23-acbb-434a-8e0e-2b0793e1a0fb",
+      "images": [
+        {
+          "alt": "Seorang pelukis yang duduk, memegang palet di samping sebuah kuda-kuda",
+          "public_path": "/images/articles/683a4e23-acbb-434a-8e0e-2b0793e1a0fb-1.jpg"
+        }
+      ],
+      "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
+      "language": "ind",
+      "language_tag": "id",
+      "metadata": "content/ind/articles/683a4e23-acbb-434a-8e0e-2b0793e1a0fb.json",
+      "metadata_sha256": "c5d2ac1130c5999f1b4e0380e8dc02869d0b97539405f383499ff98c8f9a042e",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
+      "source_translation_key": "4a0f2e46d38c9417b9a0cd7d5b0a7beea7595a781a49fbd4e10a86619729e5b6",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Melukis untuk Keabadian",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ind/articles/6b3e3e7e-b5fd-4701-9a63-699b90f17ec9.html",
       "html_sha256": "d3f553762ead56bc073910c8ca1b61d6c3f5a9150b23d2ed0973fdd9d2bf7415",
       "human_reviewed": false,
