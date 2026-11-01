@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML paragraph 4, Jacob’s name gloss",
+      "severity": "minor",
+      "source_quote": "his old name Jacob, the Supplanter",
+      "suggested_fix": "তাঁর পুরোনো নাম যাকোব—যার অর্থ ‘অন্যের স্থান কৌশলে দখলকারী’—",
+      "translation_quote": "তাঁর পুরোনো নাম যাকোব—যার অর্থ ‘প্রতিস্থাপনকারী’—"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

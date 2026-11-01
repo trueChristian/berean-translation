@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "a526e91f11fb4d38a76be9aa8d45c30f",
   "campaign": "auto-5b6fd2cd80fd3dec7230023e859fd7fdbe1d9481543bc0bdab20640d1a7c8be4",
   "created_at": "2026-10-31T18:41:45+00:00",
   "events": [
@@ -28,10 +27,39 @@
         },
         "total_tokens": 2203
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 543,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 422,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 2557,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 1454,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 3100
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "HTML paragraph 4, Jacob’s name gloss",
+      "severity": "minor",
+      "source_quote": "his old name Jacob, the Supplanter",
+      "suggested_fix": "তাঁর পুরোনো নাম যাকোব—যার অর্থ ‘অন্যের স্থান কৌশলে দখলকারী’—",
+      "translation_quote": "তাঁর পুরোনো নাম যাকোব—যার অর্থ ‘প্রতিস্থাপনকারী’—"
+    }
+  ],
+  "finished_at": "2026-11-01T01:04:17+00:00",
   "id": "a6fc2250169ee43467e32f0620e2d8ed",
   "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
   "language": "ben",
@@ -120,9 +148,11 @@
     }
   },
   "protected": false,
+  "quality_score": 97,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/970537de50127eebae71c064d746cc4558f6bb33c1c33fea434b6a8d803940db.json",
   "stage": "review1",
   "stage_budget": {
@@ -138,7 +168,7 @@
     "total_reserved_usd": 0.086255,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "63da7cacb1fe8b3491c5fd4fb86fa335742cd71d9cb8f136d36e8a661edff9fb",
   "translation_model_actual": "gpt-6-luna"

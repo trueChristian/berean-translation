@@ -10076,6 +10076,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ben/articles/19270b64-7f17-4623-b361-5486354b7303.html",
+      "html_sha256": "6db817ffc1518adc46a9e135e22624b497a1c6e80e3203989a99fb620f8f073f",
+      "human_reviewed": false,
+      "id": "19270b64-7f17-4623-b361-5486354b7303",
+      "images": [
+        {
+          "alt": "স্বর্গদূতে ভরা সিঁড়ির নিচে বিশ্রাম নিচ্ছেন যাকোব",
+          "public_path": "/images/articles/19270b64-7f17-4623-b361-5486354b7303-1.jpg"
+        },
+        {
+          "alt": "ডানাওয়ালা এক স্বর্গদূতের সামনে হাঁটু গেড়ে বসে আছেন যাকোব",
+          "public_path": "/images/articles/19270b64-7f17-4623-b361-5486354b7303-2.jpg"
+        }
+      ],
+      "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
+      "language": "ben",
+      "language_tag": "bn",
+      "metadata": "content/ben/articles/19270b64-7f17-4623-b361-5486354b7303.json",
+      "metadata_sha256": "99f3b14d60e05190c481773cdc222ef62020fe6c33cbac7ad39f0f08246fd2f2",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
+      "source_translation_key": "63da7cacb1fe8b3491c5fd4fb86fa335742cd71d9cb8f136d36e8a661edff9fb",
+      "status": "ready",
+      "subtitle": null,
+      "title": "মানুষ কীভাবে বেড়ে ওঠে",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ben/articles/1c698fb4-f4e6-419b-bdcc-1b25cbe2b035.html",
       "html_sha256": "e8140d33935ba1dbdb5d96e481eedd49195558cdbf8c7702463b840158664faa",
       "human_reviewed": false,

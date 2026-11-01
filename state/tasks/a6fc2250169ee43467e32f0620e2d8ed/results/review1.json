@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "0f89e8e7-d870-4b64-ba91-45f8e1bd434f",
+    "response_id": "chatcmpl-EfDQImxkDzNVUs50gaAeZ0RpcA28D",
+    "usage": {
+      "completion_tokens": 543,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 422,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2557,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1454,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 3100
+    }
+  },
+  "received_at": "2026-11-01T01:04:17+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML paragraph 4, Jacob’s name gloss",
+        "severity": "minor",
+        "source_quote": "his old name Jacob, the Supplanter",
+        "suggested_fix": "তাঁর পুরোনো নাম যাকোব—যার অর্থ ‘অন্যের স্থান কৌশলে দখলকারী’—",
+        "translation_quote": "তাঁর পুরোনো নাম যাকোব—যার অর্থ ‘প্রতিস্থাপনকারী’—"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 97
+  }
+}
