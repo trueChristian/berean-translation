@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-01T01:31:40+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"translation.html, paragraph beginning “2015년 가을”\",\n      \"severity\": \"major\",\n      \"source_quote\": \"Shouldn’t we be the ones that are joyful and full of life?\",\n      \"suggested_fix\": \"“우리가 기쁨과 생명으로 충만한 사람들이 되어야 하지 않겠는가?”로 수정하십시오.\",\n      \"translation_quote\": \"우리가 기쁨과 생명으로 충만하지 않아야 하겠는가?\"\n    },\n    {\n      \"location\": \"translation.html, paragraph beginning “우리는 세상의 빛이 되어야 한다!”\",\n      \"severity\": \"major\",\n      \"source_quote\": \"if we fight the good fight of faith\",\n      \"suggested_fix\": \"“기쁨의 싸움을 싸우고”를 “믿음의 선한 싸움을 싸우고”로 수정하십시오.\",\n      \"translation_quote\": \"기쁨의 싸움을 싸우고\"\n    },\n    {\n      \"location\": \"translation.html, accident paragraph beginning “2018년 6월 15일”, emergency dispatch\",\n      \"severity\": \"major\",\n      \"source_quote\": \"One-car rollover on ‘Gingko Avenue’, possible entrapment\",\n      \"suggested_fix\": \"무전 내용을 “Gingko Avenue에서 차량 한 대 전복, 차량 내 갇힘 가능성”으로 수정하십시오. 원문은 매몰이 아니라 차량 안에 사람이 갇혔을 가능성을 말합니다.\",\n      \"translation_quote\": \"Gingko Avenue에서 1대 차량 전복, 매몰 가능성\"\n    },\n    {\n      \"location\": \"translation.html, accident paragraph beginning “2018년 6월 15일”, search for baby\",\n      \"severity\": \"major\",\n      \"source_quote\": \"We searched the mangled car and surrounding area for the supposed missing baby.\",\n      \"suggested_fix\": \"“우리는 실종된 것으로 추정되는 아기를 찾기 위해 심하게 파손된 차와 주변을 수색했다.”로 수정하십시오. 아기를 발견했다는 뜻이 되지 않도록 하십시오.\",\n      \"translation_quote\": \"우리는 망가진 차와 주변을 수색하여 실종된 것으로 추정되는 아기를 찾았다.\"\n    },\n    {\n      \"location\": \"translation.html, paragraph beginning “그날 밤 그 장면을 떠나오며”, final question\",\n      \"severity\": \"major\",\n      \"source_quote\": \"Would I be clear before God?\",\n      \"suggested_fix\": \"“하나님 앞에서 내 양심에 거리낌이 없을까?”로 수정하여 하나님 앞에서의 영적 상태를 묻는 의미를 전달하십시오.\",\n      \"translation_quote\": \"하나님 앞에서 분명할까?\"\n    },\n    {\n      \"location\": \"translation.html, paragraph beginning “그날 밤 그 장면을 떠나오며”, hypothetical accident scene\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"sitting there beside my vehicle, barely coherent, with blood streaming down my face\",\n      \"suggested_fix\": \"“차량 옆에 앉아 의식이 흐릿하고 얼굴에 피가 흐르는 사람이 나라면”으로 수정하여 앉아 있으면서 서 있다는 모순을 없애십시오.\",\n      \"translation_quote\": \"차량 옆에 앉아 거의 분별력을 잃은 채 피를 흘리며 서 있는 것이 나라면\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": false,\n  \"score\": 88\n}",
+    "content_bytes": 3189,
+    "content_evidence_truncated": false,
+    "content_sha256": "4e239e4dc3d241a93ad4b00ec7c8babd02e291ea995a15d6a00c90aa530e6c55",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 892,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 109,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8400,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8397,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9292
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}
