@@ -13704,6 +13704,42 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ben/articles/e08f3c82-7473-48d6-a445-1e8bf9f01d6f.html",
+      "html_sha256": "e8d7fd796ce3036dafc4e86dff5fc5f809f2706bd7923ed474971b34a6721124",
+      "human_reviewed": false,
+      "id": "e08f3c82-7473-48d6-a445-1e8bf9f01d6f",
+      "images": [
+        {
+          "alt": "খোলা জানালার কাছে গিটার হাতে এক তরুণীকে সেরেনেড শোনাচ্ছে",
+          "public_path": "/images/articles/e08f3c82-7473-48d6-a445-1e8bf9f01d6f-1.jpg"
+        },
+        {
+          "alt": "টুপি পরা দুই নারী পাখিদের পাশে একটি বেঞ্চে বসে আছেন",
+          "public_path": "/images/articles/e08f3c82-7473-48d6-a445-1e8bf9f01d6f-2.jpg"
+        },
+        {
+          "alt": "পাথুরে পথ ধরে মাথায় পাত্র নিয়ে এক নারী চলেছেন",
+          "public_path": "/images/articles/e08f3c82-7473-48d6-a445-1e8bf9f01d6f-3.jpg"
+        }
+      ],
+      "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
+      "language": "ben",
+      "language_tag": "bn",
+      "metadata": "content/ben/articles/e08f3c82-7473-48d6-a445-1e8bf9f01d6f.json",
+      "metadata_sha256": "a0f8148993067f003b0ec64b007ac2e7f416dc8760dbd52aa7008eba398a103a",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
+      "source_translation_key": "70020afc8ca6b4f0091f5d0e53860b679b8b1c300288c0340fe62643ff38207a",
+      "status": "ready",
+      "subtitle": "তরুণীদের জন্য",
+      "title": "আবেগগত স্বাধীনতা",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ben/articles/e66a02d4-667c-4f50-b5e1-158ff98b82d5.html",
       "html_sha256": "fe1cbd59842f48262862189dbcdce850d709ef9ba496c0f8164ffa3d66b800ec",
       "human_reviewed": false,

@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Amy Carmichael quotation, paragraph beginning “তারপর একরকম মরিয়া হয়ে…”",
+      "severity": "minor",
+      "source_quote": "“None of them that trust in Me shall be desolate.” (Psalm 34:22)",
+      "suggested_fix": "প্রতিশ্রুতির অর্থ আরও নির্ভুল রাখতে লিখুন: “যারা আমাকে বিশ্বাস করে, তাদের কেউই পরিত্যক্ত হবে না।”",
+      "translation_quote": "‘যাহারা তাঁহার শরণ লয়, তাহারা অনাথ হয় না।’ (গীতসংহিতা ৩৪:২২)"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}
