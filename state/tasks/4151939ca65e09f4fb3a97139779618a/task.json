@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "8c00d3a62b054ac4b73988ca0ed74d6d",
   "campaign": "auto-0f68b4906cae775649ff538a64ba5eea4c1841cc6cb8fe63dbb33cb2d5048aaf",
   "created_at": "2026-11-01T15:01:26+00:00",
   "events": [
@@ -48,67 +47,31 @@
         },
         "total_tokens": 17839
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 63,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 31,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 11479,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 10376,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 11542
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "translation.html, alinea beginnend met ‘Ook is het goed’",
-      "severity": "major",
-      "source_quote": "Sometimes a select few are lifted out and taught to be more spiritually important, such as speaking in tongues, miracles, and healing.",
-      "suggested_fix": "Vervang de zin door: ‘Soms worden enkele gaven eruit gelicht en wordt geleerd dat die geestelijk belangrijker zijn, zoals spreken in tongen, wonderen en genezing.’",
-      "translation_quote": "Soms worden een paar uitverkorenen verheven en geleerd dat zij geestelijk belangrijker zijn, zoals spreken in tongen, wonderen en genezingen."
-    },
-    {
-      "location": "translation.html, citaat van Jakobus 3:13-18",
-      "severity": "major",
-      "source_quote": "easy to be intreated ... And the fruit of righteousness is sown in peace of them that make peace.",
-      "suggested_fix": "Vervang ‘gemakkelijk te bewerken’ door ‘voor rede vatbaar’ en ‘wordt gezaaid in vrede voor degenen die vrede maken’ door ‘wordt in vrede gezaaid door degenen die vrede maken’.",
-      "translation_quote": "gemakkelijk te bewerken ... En de vrucht der gerechtigheid wordt gezaaid in vrede voor degenen die vrede maken."
-    },
-    {
-      "location": "translation.html, Hebreeën 2:4 en Efeziërs 4:11-12",
-      "severity": "minor",
-      "source_quote": "<strong>as he will</strong>; <strong>the perfecting of the saints</strong>, for <strong>the work of the ministry</strong>",
-      "suggested_fix": "Herstel de beschadigde tags tot ‘<strong>zoals Hij wil</strong>’ en ‘<strong>de volmaking der heiligen</strong>’. Vervang daarnaast ‘<strong>de dienstbetoon</strong>’ door ‘<strong>het werk van de bediening</strong>’.",
-      "translation_quote": "<strongzoals Hij wil</strong>; <strong>de volmaking der heiligen</strong, tot <strong>de dienstbetoon</strong>"
-    },
-    {
-      "location": "translation.html, citaat van Jakobus 3:13-18",
-      "severity": "minor",
-      "source_quote": "<strong>a good conversation</strong> ... <strong>meekness of wisdom</strong> ... <strong>bitter envying and strife in your hearts</strong> ... <strong>lie not against the truth</strong>",
-      "suggested_fix": "Herstel de oorspronkelijke strong-markering rond de overeenkomstige Nederlandse passages, ook rond ‘zuiver’, ‘vredelievend’, ‘zacht’, ‘voor rede vatbaar, vol barmhartigheid’, ‘goede vruchten’, ‘zonder partijdigheid’ en ‘zonder huichelarij’. Behoud de bestaande em- en u-tags.",
-      "translation_quote": "een goede wandel ... zachtmoedigheid der wijsheid ... bittere nijd en twist in uw harten ... liegt niet tegen de waarheid"
-    },
-    {
-      "location": "translation.section",
-      "severity": "minor",
-      "source_quote": "THE NEW TESTAMENT CHURCH",
-      "suggested_fix": "Gebruik ‘DE NIEUWTESTAMENTISCHE KERK’.",
-      "translation_quote": "DE NIEUWE TESTAMENTISCHE KERK"
-    },
-    {
-      "location": "translation.html, alinea over de vrouw in Canada",
-      "severity": "minor",
-      "source_quote": "a revival meeting where the revivalist was preaching",
-      "suggested_fix": "Vervang ‘naar een herleving waar de herlevingsprediker’ door ‘naar een opwekkingsbijeenkomst waar de opwekkingsprediker’.",
-      "translation_quote": "naar een herleving waar de herlevingsprediker"
-    },
-    {
-      "location": "translation.html, alinea over Petrus en twee slotalinea’s",
-      "severity": "minor",
-      "source_quote": "the gospel message; Peter’s credibility",
-      "suggested_fix": "Vervang ‘de evangeliebericht’ en beide voorkomens van ‘het evangeliebericht’ door ‘de evangelieboodschap’. Vervang ‘Peters geloofwaardigheid’ door ‘Petrus’ geloofwaardigheid’.",
-      "translation_quote": "de evangeliebericht; Peters geloofwaardigheid; het evangeliebericht in zijn eigen taal; het evangeliebericht te horen"
-    },
-    {
-      "location": "translation.html, diverse alinea’s",
-      "severity": "minor",
-      "source_quote": "Paul told Timothy; the godly head of the home; in our midst; There are those; focused teaching; At times God chose",
-      "suggested_fix": "Corrigeer respectievelijk naar ‘Paulus zei tegen Timoteüs’, ‘het godvruchtige hoofd van het gezin’, ‘in ons midden’, ‘Er zijn mensen die’, ‘gericht onderricht’ en ‘Soms koos God ervoor’.",
-      "translation_quote": "PauI zei tegen Timoteüs; de godvruchtige hoofd van het huis; in onze midden; Er zijn hen die; gerichte leeringen; Soms koos God er toe"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-11-01T15:44:23+00:00",
   "id": "4151939ca65e09f4fb3a97139779618a",
   "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
   "language": "nld",
@@ -197,7 +160,7 @@
     }
   },
   "protected": false,
-  "quality_score": 90,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6.1-sol",
@@ -216,7 +179,7 @@
     "total_reserved_usd": 0.800601,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "1c1dd57f73c720271265483775e7d93acfbda9f85eeefb95d0c905a5b442adfd",
   "translation_model_actual": "gpt-6.1-sol"
