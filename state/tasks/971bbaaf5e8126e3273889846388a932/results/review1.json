@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "a8a11a0a-de5d-42dd-8bcc-83a56d52adf5",
+    "response_id": "chatcmpl-EfDDVLoxxKfF97Ww7ko9mr8vajUdr",
+    "usage": {
+      "completion_tokens": 850,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 619,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2511,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1408,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 3361
+    }
+  },
+  "received_at": "2026-11-01T01:04:45+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph 4",
+        "severity": "minor",
+        "source_quote": "“Once more Divine powers and presences come into his life and this time he has no bargain to make with them.”",
+        "suggested_fix": "Replace “उन्हें देने के लिए उसके पास कोई सौदा नहीं था” with “उनसे करने के लिए उसके पास कोई सौदा नहीं था।”",
+        "translation_quote": "“एक बार फिर दिव्य शक्तियाँ और उपस्थितियाँ उसके जीवन में आईं, और इस बार उन्हें देने के लिए उसके पास कोई सौदा नहीं था।”"
+      },
+      {
+        "location": "Final paragraph",
+        "severity": "major",
+        "source_quote": "“the blessing that expresses His gladness in us”",
+        "suggested_fix": "Replace “जो हमसे उनकी प्रसन्नता व्यक्त करती है” with “जो हमारे प्रति उनकी प्रसन्नता व्यक्त करती है।”",
+        "translation_quote": "“केवल उसी आशीष की माँग करते हैं जो हमसे उनकी प्रसन्नता व्यक्त करती है”"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 93
+  }
+}

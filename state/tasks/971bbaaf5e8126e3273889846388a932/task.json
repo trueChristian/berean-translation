@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "c99274c96fab4faba94b0a2f456f4b8e",
   "campaign": "auto-b00f0f689eff86d754d0e674b8c7954091aaddaa43d2eae6957b313027e6afe9",
   "created_at": "2026-10-31T18:25:12+00:00",
   "events": [
@@ -28,10 +27,45 @@
         },
         "total_tokens": 2228
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 850,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 619,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 2511,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 1408,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 3361
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "Paragraph 4",
+      "severity": "minor",
+      "source_quote": "“Once more Divine powers and presences come into his life and this time he has no bargain to make with them.”",
+      "suggested_fix": "Replace “उन्हें देने के लिए उसके पास कोई सौदा नहीं था” with “उनसे करने के लिए उसके पास कोई सौदा नहीं था।”",
+      "translation_quote": "“एक बार फिर दिव्य शक्तियाँ और उपस्थितियाँ उसके जीवन में आईं, और इस बार उन्हें देने के लिए उसके पास कोई सौदा नहीं था।”"
+    },
+    {
+      "location": "Final paragraph",
+      "severity": "major",
+      "source_quote": "“the blessing that expresses His gladness in us”",
+      "suggested_fix": "Replace “जो हमसे उनकी प्रसन्नता व्यक्त करती है” with “जो हमारे प्रति उनकी प्रसन्नता व्यक्त करती है।”",
+      "translation_quote": "“केवल उसी आशीष की माँग करते हैं जो हमसे उनकी प्रसन्नता व्यक्त करती है”"
+    }
+  ],
   "id": "971bbaaf5e8126e3273889846388a932",
   "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
   "language": "hin",
@@ -120,11 +154,13 @@
     }
   },
   "protected": false,
+  "quality_score": 93,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/970537de50127eebae71c064d746cc4558f6bb33c1c33fea434b6a8d803940db.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "translate",
     "max_candidate_bytes": 120000,
@@ -138,7 +174,7 @@
     "total_reserved_usd": 0.086254,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "63da7cacb1fe8b3491c5fd4fb86fa335742cd71d9cb8f136d36e8a661edff9fb",
   "translation_model_actual": "gpt-6-luna"
