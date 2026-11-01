@@ -1,0 +1,143 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "d88149a2-364c-441c-bbc3-2b1d8111ca12",
+    "response_id": "chatcmpl-EfWDV5g7qrDcSyYguTVQ7r5ScL0FK",
+    "usage": {
+      "completion_tokens": 3703,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 84,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 14189,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 13086,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 17892
+    }
+  },
+  "received_at": "2026-11-01T20:18:59+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "html, first paragraph, Ephesians 4:8",
+        "severity": "major",
+        "source_quote": "When he ascended up on high, he led captivity captive, and gave gifts unto men",
+        "suggested_fix": "Replace the quotation with contemporary Greek: «Γι’ αυτό λέει: Όταν ανέβηκε ψηλά, οδήγησε αιχμάλωτη την αιχμαλωσία και έδωσε δώρα στους ανθρώπους – Εφεσίους 4:8.» Preserve the enclosing <em> tag.",
+        "translation_quote": "Διὸ λέγει, Ὀτε ἀνέβη εἰς ὕψος, ὅμησεν αἰχμαλωσίαν, ἔδωκεν δότες τοῖς ἀνθρώποις"
+      },
+      {
+        "location": "html, second paragraph, parenthetical quotation and Ephesians 4:11",
+        "severity": "major",
+        "source_quote": "(ascended up on high) ... And he [God] gave some, apostles; and some, prophets; and some, evangelists; and some, pastors and teachers",
+        "suggested_fix": "Use «ανέβηκε ψηλά» in the parenthesis and replace the verse text with «Και Αυτός [ο Θεός] έδωσε άλλους ως αποστόλους, άλλους ως προφήτες, άλλους ως ευαγγελιστές και άλλους ως ποιμένες και δασκάλους – Εφεσίους 4:11.» Preserve both <em> elements.",
+        "translation_quote": "(ἀνέβη εἰς ὕψος) ... Καὶ αὐτὸς ἔδωκεν τοὺς μὲν ἀποστόλους, τοὺς δὲ προφήτας, τοὺς δὲ εὐαγγελιστὰς, τοὺς δὲ ποιμένας καὶ διδασκάλους"
+      },
+      {
+        "location": "html, third paragraph, list of gifts",
+        "severity": "major",
+        "source_quote": "tongues, discerning of tongues, helps, and governments",
+        "suggested_fix": "Replace this portion of the list with «γλωσσολαλία, διάκριση γλωσσών, παροχή βοήθειας και διακυβέρνηση». Preserve the source's printed list rather than substituting different gifts.",
+        "translation_quote": "γλώσσαι, διακρίσεις πνευμάτων, διακονίες, και κυβερνήσεις"
+      },
+      {
+        "location": "html, fifth paragraph, final sentence",
+        "severity": "major",
+        "source_quote": "the Corinthian understanding of speaking in tongues was being abused and misused and the Church might not have been edified by their behavior",
+        "suggested_fix": "Replace the corresponding clause with «οι Κορίνθιοι καταχρώνταν και χρησιμοποιούσαν λανθασμένα τη γλωσσολαλία όπως την κατανοούσαν, και η Εκκλησία ίσως να μην οικοδομούνταν από τη συμπεριφορά τους».",
+        "translation_quote": "η κορινθιακή αντίληψη για τη γλωσσολαλία καταχράται και κακοποιείται και η Εκκλησία ενδέχεται να μη δοξαστεί από τη συμπεριφορά τους"
+      },
+      {
+        "location": "html, paragraph beginning «Έχω ρωτήσει πολλούς ανθρώπους»",
+        "severity": "major",
+        "source_quote": "But all these worketh that one and the selfsame Spirit, dividing to every man severally as he will –1 Corinthians 12:11.",
+        "suggested_fix": "Replace the untranslated sentence with «Όλα αυτά όμως τα ενεργεί το ένα και το ίδιο Πνεύμα, μοιράζοντάς τα στον καθένα ξεχωριστά όπως θέλει – Α’ Κορινθίους 12:11.»",
+        "translation_quote": "Αλλά all these worketh that one and the selfsame Spirit, dividing to every man severally as he will –1 Corinthians 12:11."
+      },
+      {
+        "location": "html, paragraph beginning «Μπορεί να δοθεί μια προειδοποίηση»",
+        "severity": "major",
+        "source_quote": "God also bearing them witness, both with signs and wonders, and with divers miracles, and gifts of the Holy Ghost, according to his own will ... But all these worketh that one and the selfsame Spirit, dividing to every man severally as he will",
+        "suggested_fix": "Replace the two quotations with contemporary Greek: «Ο Θεός επίσης επιβεβαίωνε τη μαρτυρία τους με σημεία και τέρατα, με διάφορα θαύματα και με χαρίσματα του Αγίου Πνεύματος, <strong>σύμφωνα με το δικό Του θέλημα</strong> – Εβραίους 2:4.» and «Όλα αυτά όμως τα ενεργεί το ένα και το ίδιο Πνεύμα, μοιράζοντάς τα στον καθένα ξεχωριστά <strong>όπως θέλει</strong> – Α’ Κορινθίους 12:11.» Retain the enclosing <em> elements and restore the source's <strong> emphasis.",
+        "translation_quote": "ὁ μὲν θεὸς μαρτυρῶν αὐτοῖς ξυν σημεῖοις ... πάσαι δὲ αἱ τοῦ αὐτοῦ πνεύματος ἐνεργίαι διακρίνουσαι ἑκάστῳ χωριστῶς, ὡς θέλει"
+      },
+      {
+        "location": "html, paragraph beginning «Παρατηρείτε και στους δύο στίχους»",
+        "severity": "major",
+        "source_quote": "the church body that I am a part of—“Not my will, but thine be done”",
+        "suggested_fix": "Replace «στο σωματείο της εκκλησίας στο οποίο ανήκουμε» with «στο σώμα της εκκλησίας στο οποίο ανήκουμε» and replace the quotation with «Ας γίνει όχι το δικό μου θέλημα, αλλά το δικό Σου». The current quotation refers to an uncle rather than the speaker's own will.",
+        "translation_quote": "στο σωματείο της εκκλησίας στο οποίο ανήκουμε—«Οὐ τοῦ θείου μου θέλημα, ἀλλὰ τὸ σὸν γενηθήτω»"
+      },
+      {
+        "location": "html, paragraph beginning «Επίσης, αξίζει να αναφερθεί»",
+        "severity": "major",
+        "source_quote": "an unrecognized element of pride",
+        "suggested_fix": "Replace «κάποιο ανεγνωρισμένο στοιχείο υπερηφάνειας» with «κάποιο στοιχείο υπερηφάνειας που δεν έχουμε αναγνωρίσει».",
+        "translation_quote": "κάποιο ανεγνωρισμένο στοιχείο υπερηφάνειας"
+      },
+      {
+        "location": "html, paragraph beginning «Ο Παύλος είπε προς τον Τιμόθεο»",
+        "severity": "minor",
+        "source_quote": "Neglect not the gift that is in thee, which was given thee by prophecy, with the laying on of the hands of the presbytery –1 Timothy 4:14.",
+        "suggested_fix": "Render the quotation in contemporary Greek: «Μην παραμελείς το χάρισμα που έχεις, το οποίο σου δόθηκε μέσω προφητείας με την τοποθέτηση των χεριών των πρεσβυτέρων πάνω σου» – Α’ Τιμοθέου 4:14.",
+        "translation_quote": "μὴ ἀθετῇς τὸ χάρισμα τὸ ἐν σοὶ, ὃ ἐδόθη σοι διὰ προφητείας μετὰ ἐπιθέσεως χειρῶν τῆς πρεσβυτερίας"
+      },
+      {
+        "location": "html, paragraph beginning «Ο Θεός μπορεί επίσης»",
+        "severity": "major",
+        "source_quote": "For our comely parts have no need: but God hath tempered the body together, having given more abundant honour to that part which lacked: That there should be no schism [division] in the body; but that the members should have the same care one for another",
+        "suggested_fix": "Replace the corrupted archaic quotation with «Τα ευπαρουσίαστα μέλη μας δεν έχουν ανάγκη· ο Θεός όμως συνέθεσε το σώμα, δίνοντας περισσότερη τιμή στο μέλος που υστερούσε, ώστε να μην υπάρχει σχίσμα [διαίρεση] στο σώμα, αλλά τα μέλη να φροντίζουν εξίσου το ένα το άλλο» – Α’ Κορινθίους 12:24-25.",
+        "translation_quote": "Οἱ δε καλαι τῶν μελῶν οὐ χρείαν ἔχει· Θὲός δὲ τὸ σῶμα ἐπηρέμει, διδόναι περισσοτερὰν δόξαν τῷ μελέι οὗ ἔλειπε"
+      },
+      {
+        "location": "html, paragraph beginning «Σε περίπτωση εκκλησιαστικής δυσκολίας», James 3:13-18",
+        "severity": "major",
+        "source_quote": "bitter envying and strife in your hearts ... lie not against the truth ... This wisdom descendeth not from above",
+        "suggested_fix": "Replace the entire quotation with contemporary Greek, preserving the source's emphasis: <em>Ποιος ανάμεσά σας είναι σοφός και έχει γνώση; Ας δείξει με <strong>την καλή του διαγωγή</strong> τα έργα του, με <strong>την πραότητα της σοφίας</strong>. Αν όμως έχετε <strong>πικρό φθόνο και φιλονικία στις καρδιές σας</strong>, μην καυχιέστε και <strong>μην ψεύδεστε ενάντια στην αλήθεια</strong>. <u>Αυτή η σοφία δεν κατεβαίνει από ψηλά, αλλά είναι επίγεια, σαρκική, δαιμονική.</u> Γιατί όπου υπάρχει φθόνος και φιλονικία, υπάρχει ακαταστασία και κάθε κακό έργο. Η σοφία όμως που έρχεται από ψηλά είναι πρώτα <strong>αγνή</strong>, έπειτα <strong>ειρηνική</strong>, <strong>ήπια</strong> και <strong>πρόθυμη να ακούσει, γεμάτη έλεος</strong> και <strong>καλούς καρπούς</strong>, <strong>χωρίς μεροληψία</strong> και <strong>χωρίς υποκρισία</strong>. Και ο καρπός της δικαιοσύνης σπέρνεται με ειρήνη από όσους δημιουργούν ειρήνη. – Ιάκωβος 3:13-18. </em> Place the following authorial sentence outside </em>, as in the source.",
+        "translation_quote": "πικρὰ φθορὰ καὶ ἔρις ... μὴ καυχᾶσθε καὶ ἀποκρίνεσθε τῇ ἀληθείᾳ ... αὕτη γὰρ ἡ σοφία ἡ ἄνωθεν οὐκ ἐστὶν"
+      },
+      {
+        "location": "html, numbered remedies paragraph, item (2)",
+        "severity": "minor",
+        "source_quote": "through …the laying on of the hands of the presbytery –1 Timothy 4:14.",
+        "suggested_fix": "Replace the quoted fragment with <em>…με την τοποθέτηση των χεριών των πρεσβυτέρων πάνω τους – Α’ Τιμοθέου 4:14.</em>, restoring the source's emphasis and ellipsis.",
+        "translation_quote": "μέσω «της επιθέσεως των χειρών της πρεσβυτερίας» – Α’ Τιμοθέου 4:14."
+      },
+      {
+        "location": "html, paragraph beginning «Ο πρώτος λόγος», Ephesians 4:11-12",
+        "severity": "major",
+        "source_quote": "and he gave… [various spiritual gifts to believers] [to some this gift and to others a different gift] … For the perfecting of the saints, for the work of the ministry, for the edifying of the body of Christ",
+        "suggested_fix": "Replace the quotation with <em>και Αυτός έδωσε… [διάφορα πνευματικά χαρίσματα στους πιστούς] [σε μερικούς αυτό το χάρισμα και σε άλλους ένα διαφορετικό] … για <strong>την τελειοποίηση των αγίων</strong>, για <strong>το έργο της διακονίας</strong>, για <strong>την οικοδομή του σώματος του Χριστού</strong> – Εφεσίους 4:11-12.</em>",
+        "translation_quote": "καὶ αὐτὸς ἔδωκεν… [διάφορα πνευματικά χαρίσματα τοῖς πιστοῖς] [τῶι ἑνῖ τοῖς χαρισματι και τῶι ἄλλῳ τὸ ἄλλο]"
+      },
+      {
+        "location": "html, «Ο δεύτερος λόγος» paragraph and first paragraph under «Το χάρισμα της γλωσσολαλίας»",
+        "severity": "minor",
+        "source_quote": "Wherefore tongues are for a sign, not to them that believe, but to them that believe not: but prophesying serveth not for them that believe not, but for them which believe –1 Corinthians 14:22.",
+        "suggested_fix": "Translate both occurrences into contemporary Greek: «Επομένως, οι γλώσσες είναι σημείο όχι για όσους πιστεύουν, αλλά για όσους δεν πιστεύουν· η προφητεία όμως δεν υπηρετεί όσους δεν πιστεύουν, αλλά όσους πιστεύουν – Α’ Κορινθίους 14:22.» Retain each <em> element and restore <strong> around «οι γλώσσες είναι σημείο» in the second occurrence.",
+        "translation_quote": "Διὸ αἱ γλώσσαι εἰσιν εἰς σημεῖον οὐ τοῖς πιστεύουσιν, ἀλλὰ τοῖς μὴ πιστεύουσιν ... / Διὸ αἱ γλώσσαι εἰσιν εἰς σημεῖον, οὐ τοῖς πιστεύουσιν, ἀλλὰ τοῖς μὴ πιστεύουσιν"
+      },
+      {
+        "location": "html, Canadian woman's account",
+        "severity": "major",
+        "source_quote": "This woman happened to come to a revival meeting",
+        "suggested_fix": "Replace «Αυτή η γυναίκα βρέθηκε σ’ ένα αναβρασμό» with «Αυτή η γυναίκα έτυχε να παρευρεθεί σε μια συνάθροιση πνευματικής αναζωπύρωσης».",
+        "translation_quote": "Αυτή η γυναίκα βρέθηκε σ’ ένα αναβρασμό"
+      },
+      {
+        "location": "html, marriage paragraph",
+        "severity": "minor",
+        "source_quote": "the godly head of the home",
+        "suggested_fix": "Replace «ο θεοήθητος αρχηγός του σπιτιού» with «ο ευσεβής αρχηγός της οικογένειας».",
+        "translation_quote": "ο θεοήθητος αρχηγός του σπιτιού"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 66
+  }
+}
