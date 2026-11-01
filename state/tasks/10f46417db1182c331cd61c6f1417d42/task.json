@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "1f67adffd0dd4580ae81cb91f7579f80",
   "campaign": "auto-49ae65e22ad734f7db3fa2b71deb7916d4f2e7e71ee66d8fb435906bef9d8049",
   "created_at": "2026-11-01T07:29:15+00:00",
   "events": [
@@ -28,25 +27,31 @@
         },
         "total_tokens": 4822
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 63,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 31,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3377,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 3374,
+          "cached_tokens": 0
+        },
+        "total_tokens": 3440
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "Paragraph 3, quoted judgment",
-      "severity": "major",
-      "source_quote": "“He that is unjust, let him be unjust still; he that is filthy, let him be filthy still. He that is righteous, let him be righteous still; he that is holy let him be holy still.”",
-      "suggested_fix": "Translate the four clauses as continuing states of the people described, for example: „העוול יוסיף לעשות עוול; והטמא יוסיף להיטמא; והצדיק יוסיף לעשות צדק; והקדוש יוסיף להתקדש.”",
-      "translation_quote": "„העוול עושה עוול עוד; והטמא ייטמא עוד; והצדיק יעשה צדק עוד; והקדוש יתקדש עוד.”"
-    },
-    {
-      "location": "Poem, line 2",
-      "severity": "minor",
-      "source_quote": "With their changes rise and fall!",
-      "suggested_fix": "Replace „עם חילופי השעה” with wording that conveys change more generally, such as „עם חילופי הדברים” or „עם תמורות הזמן.”",
-      "translation_quote": "עולים ויורדים עם חילופי השעה!"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-11-01T07:54:45+00:00",
   "id": "10f46417db1182c331cd61c6f1417d42",
   "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
   "language": "heb",
@@ -135,9 +140,11 @@
     }
   },
   "protected": false,
+  "quality_score": 99,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/d1ad1fde7c77815637c6fb95fb8f7e8a5023a172781ddce15f798d01cdf60f20.json",
   "stage": "review2",
   "stage_budget": {
@@ -151,7 +158,7 @@
     "total_reserved_usd": 0.549667,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "4a0f2e46d38c9417b9a0cd7d5b0a7beea7595a781a49fbd4e10a86619729e5b6",
   "translation_model_actual": "gpt-6.1-sol"
