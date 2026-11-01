@@ -50755,6 +50755,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ita/articles/e8bdb12c-2e8e-4f55-9052-07bec6e103a1.html",
+      "html_sha256": "ff796aa9d87c5f88e939c8e78bb24a523aeb28607e3bc263531bacead610edaf",
+      "human_reviewed": false,
+      "id": "e8bdb12c-2e8e-4f55-9052-07bec6e103a1",
+      "images": [
+        {
+          "alt": "Una foresta invernale nebbiosa riflessa in un lago",
+          "public_path": "/images/articles/e8bdb12c-2e8e-4f55-9052-07bec6e103a1-1.png"
+        }
+      ],
+      "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
+      "language": "ita",
+      "language_tag": "it",
+      "metadata": "content/ita/articles/e8bdb12c-2e8e-4f55-9052-07bec6e103a1.json",
+      "metadata_sha256": "eb8cdcc75409f0300eb749b2498ce64521c26b7d31b0fdc6ffef7fa49e3d0a4a",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "LA CHIESA DEL NUOVO TESTAMENTO",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "1c1dd57f73c720271265483775e7d93acfbda9f85eeefb95d0c905a5b442adfd",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Doni spirituali",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ita/articles/e9621e7b-df8d-4497-998c-b98af23486b7.html",
       "html_sha256": "86773107a1daaa8e9f53c933cb7d56d33de3469c456cd56daa8b29fa1d4b961d",
       "human_reviewed": false,
