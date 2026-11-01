@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "92de8cddad604106b318197ee63d967e",
   "campaign": "auto-74bb2564cdc50f4712728da56bea353aec9ae06415936b676308dc33cf2c2bae",
   "created_at": "2026-10-31T22:55:09+00:00",
   "events": [
@@ -28,10 +27,39 @@
         },
         "total_tokens": 2947
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 478,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 380,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3236,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 2133,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 3714
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "HTML, paragraph 5, final sentence",
+      "severity": "minor",
+      "source_quote": "“Nothing is worth living for but eternity.”",
+      "suggested_fix": "“Nada merece que vivamos por isso, exceto a eternidade.”",
+      "translation_quote": "“Nada vale a pena viver, exceto a eternidade.”"
+    }
+  ],
+  "finished_at": "2026-11-01T07:27:04+00:00",
   "id": "923f8c47000093f6845cfcc0e1d12a76",
   "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
   "language": "por",
@@ -120,9 +148,11 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/d1ad1fde7c77815637c6fb95fb8f7e8a5023a172781ddce15f798d01cdf60f20.json",
   "stage": "review1",
   "stage_budget": {
@@ -138,7 +168,7 @@
     "total_reserved_usd": 0.086865,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "4a0f2e46d38c9417b9a0cd7d5b0a7beea7595a781a49fbd4e10a86619729e5b6",
   "translation_model_actual": "gpt-6-luna"

@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-01T07:27:04+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, paragraph 5, final sentence\",\"severity\":\"minor\",\"source_quote\":\"“Nothing is worth living for but eternity.”\",\"suggested_fix\":\"“Nada merece que vivamos por isso, exceto a eternidade.”\",\"translation_quote\":\"“Nada vale a pena viver, exceto a eternidade.”\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 349,
+    "content_evidence_truncated": false,
+    "content_sha256": "8798e23278ea0257d130a2949eedb8edfe6260e9599545fa7d5f4ecec7c8f6ca",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 478,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 380,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3236,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2133,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 3714
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

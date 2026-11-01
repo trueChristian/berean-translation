@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraph 5, final sentence",
+      "severity": "minor",
+      "source_quote": "“Nothing is worth living for but eternity.”",
+      "suggested_fix": "“Nada merece que vivamos por isso, exceto a eternidade.”",
+      "translation_quote": "“Nada vale a pena viver, exceto a eternidade.”"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}
