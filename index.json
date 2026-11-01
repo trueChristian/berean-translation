@@ -23102,6 +23102,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ell/articles/1caf6642-2283-4363-b3b6-33e40c39f945.html",
+      "html_sha256": "82aed886ffd107910f2fb0b7e1c9504656d2f77f10ba92d807552864a95cca3c",
+      "human_reviewed": false,
+      "id": "1caf6642-2283-4363-b3b6-33e40c39f945",
+      "images": [
+        {
+          "alt": "Παρτιτούρα για το Ω Αγάπη, που δεν θα με αφήσεις να φύγω",
+          "public_path": "/images/articles/1caf6642-2283-4363-b3b6-33e40c39f945-1.png"
+        }
+      ],
+      "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
+      "language": "ell",
+      "language_tag": "el",
+      "metadata": "content/ell/articles/1caf6642-2283-4363-b3b6-33e40c39f945.json",
+      "metadata_sha256": "858ab8c330ec231de36eaabfadad6618b2f0865d4abc9728f6d6848f871c9736",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "ΙΣΤΟΡΙΑ ΕΝΟΣ ΥΜΝΟΥ",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "5af7c75ddc034efa2d45136926794f0498d0408b26a365657640e28417f4afea",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Ω Αγάπη, που δεν θα με αφήσεις να φύγω",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ell/articles/1ec0f654-0dd1-48f3-9a68-3b15189e6704.html",
       "html_sha256": "b6bde4c1208ba10357d0109368d1a8efb22abf46110cd7b588a03eb4a5c776bd",
       "human_reviewed": false,
