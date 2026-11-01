@@ -1,0 +1,192 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "15b80c82-5811-4aa1-b6c1-355143186314",
+    "response_id": "chatcmpl-EfVhe6kbNudoytxy59hc19ia5Lm3E",
+    "usage": {
+      "completion_tokens": 3976,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 74,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 12494,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 12491,
+        "cached_tokens": 0
+      },
+      "total_tokens": 16470
+    }
+  },
+  "received_at": "2026-11-01T19:50:19+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "html, opening paragraph, Ephesians 4:8 quotation",
+        "severity": "major",
+        "source_quote": "When he ascended up on high, he led captivity captive, and gave gifts unto men",
+        "suggested_fix": "Replace the quotation text within the existing <em> with contemporary Hebrew: ״לכן נאמר: כשעלה למרומים, שבה שבי ונתן מתנות לבני האדם – אפסיים 4:8.״",
+        "translation_quote": "כִּי הַוֹּא הָעָלָה לְמַעְלָה, הוּא שִׁלֵּחַ שְׁבוּיוֹת"
+      },
+      {
+        "location": "html, Ephesians references in opening paragraph, second paragraph, and first-reason paragraph",
+        "severity": "major",
+        "source_quote": "Ephesians 4:8; Ephesians 4:11; Ephesians 4:11-12",
+        "suggested_fix": "Replace אפרים with אפסיים in all three references, retaining their respective numbers and placement.",
+        "translation_quote": "אפרים 4:8; אפרים 4:11; אפרים 4:11-12"
+      },
+      {
+        "location": "html, second paragraph",
+        "severity": "major",
+        "source_quote": "for those who repent and believe in Him",
+        "suggested_fix": "Replace ״עבור אלה שיתבקשו ויאמינו בו״ with ״עבור אלה שחוזרים בתשובה ומאמינים בו״.",
+        "translation_quote": "עבור אלה שיתבקשו ויאמינו בו"
+      },
+      {
+        "location": "html, second paragraph, Ephesians 4:11 quotation",
+        "severity": "major",
+        "source_quote": "And he [God] gave some, apostles; and some, prophets; and some, evangelists; and some, pastors and teachers",
+        "suggested_fix": "Replace the quotation prose inside the existing <em> with ״והוא [אלוהים] נתן אחדים כשליחים, אחרים כנביאים, אחרים כמבשרים ואחרים כרועים ומורים״, retaining the reference.",
+        "translation_quote": "וְהוּא [אֱלֹהִים] נָתַן אֶת־אֲחָדִים שָׁלִיחִים ... בּוּשְׁרָאִים"
+      },
+      {
+        "location": "html, third paragraph, lists of gifts",
+        "severity": "major",
+        "source_quote": "tongues, discerning of tongues, helps, and governments ... ministry, exhortation, giving, ruling, and showing mercy",
+        "suggested_fix": "Render these lists as ״לשונות, הבחנה בלשונות, עזרה והנהגה״ and ״שירות, עידוד, נתינה, הנהגה וגילוי רחמים״. Do not use terms meaning offices or civil governments.",
+        "translation_quote": "לשונות, בכירות לשפות, שירותים (עזרות), וממשלות ... משרד (מעלה של שירות), עידוד, נדבה (נתינה), שלטון, והשתתפות ברחמים"
+      },
+      {
+        "location": "html, paragraph before first heading",
+        "severity": "minor",
+        "source_quote": "the first verse in chapter 14",
+        "suggested_fix": "Replace ״ובפסקה הראשונה של פרק 14״ with ״ובפסוק הראשון של פרק 14״.",
+        "translation_quote": "ובפסקה הראשונה של פרק 14"
+      },
+      {
+        "location": "html, first h3",
+        "severity": "major",
+        "source_quote": "Spiritual Gifts Should Not Excuse Ungodly Behavior",
+        "suggested_fix": "Replace the heading text with ״מתנות רוחניות אינן צריכות לשמש תירוץ להתנהגות שאינה ראויה בעיני אלוהים״.",
+        "translation_quote": "מתנות רוחניות אינן מיתרות התנהגות לא־אלוהית"
+      },
+      {
+        "location": "html, paragraph beginning שאלתי אנשים רבים",
+        "severity": "major",
+        "source_quote": "But all these worketh that one and the selfsame Spirit, dividing to every man severally as he will",
+        "suggested_fix": "Replace the quotation prose with ״אך את כל אלה פועלת אותה רוח אחת, המחלקת לכל אדם בנפרד כרצונה״, retaining 1 קורינתים 12:11.",
+        "translation_quote": "אך כל אלה פועל זהו ורוח אחת ושווה, מחלקת לכל איש בנפרד כרצונו"
+      },
+      {
+        "location": "html, end of paragraph beginning שאלתי אנשים רבים",
+        "severity": "major",
+        "source_quote": "let’s be careful that we do not excuse wrong behavior, or, on the other hand, negligence of doing good",
+        "suggested_fix": "Replace ״נהיה זהירים שנגזים בתירוץ להתנהגות שגויה, או, מצד שני, בְּהתעלמות מעשיית טוב״ with ״ניזהר שלא נצדיק התנהגות פסולה או, מצד שני, הזנחה של עשיית הטוב״.",
+        "translation_quote": "נהיה זהירים שנגזים בתירוץ להתנהגות שגויה, או, מצד שני, בְּהתעלמות מעשיית טוב"
+      },
+      {
+        "location": "html, paragraph containing Hebrews 2:4 and 1 Corinthians 12:11",
+        "severity": "major",
+        "source_quote": "God also bearing them witness, both with signs and wonders, and with divers miracles, and gifts of the Holy Ghost, according to his own will ... But all these worketh that one and the selfsame Spirit ... as he will",
+        "suggested_fix": "Replace the two garbled quotations with ״אלוהים גם העיד עליהם באותות ובמופתים, בניסים שונים ובמתנות רוח הקודש, <strong>לפי רצונו שלו</strong>? – העברים 2:4.״ and ״אך את כל אלה פועלת אותה רוח אחת, המחלקת לכל אדם בנפרד <strong>כרצונה</strong> –1 קורינתים 12:11.״ Preserve the surrounding <em> tags.",
+        "translation_quote": "וּגְוִיֵּךְ עֵדָה לוֹ ... וּבְשׁוֹנִים רַבּוֹת ... וְאֵלֶּה כֻּלָּם פּוֹעֲלִים אֶת־אֶחָד ... כַּאֲשֶׁר יְשַׁכֵּן"
+      },
+      {
+        "location": "html, paragraph beginning האם אתה שם לב",
+        "severity": "major",
+        "source_quote": "alone in our closet, asking God to make me humble ... stir up that gift and not neglect it",
+        "suggested_fix": "Replace ״לבד בסודית, בהתפלל לאל שיעשה אותי עני־נפח״ with ״ביחידות, בחדרנו, בתפילה לאלוהים שיעשה אותי עניו״. Replace ״לעורר את המתנה הזאת ולשמש בה״ with ״לעורר את המתנה הזאת ולא להזניח אותה, אלא להשתמש בה״.",
+        "translation_quote": "לבד בסודית, בהתפלל לאל שיעשה אותי עני־נפח ... לעורר את המתנה הזאת ולשמש בה"
+      },
+      {
+        "location": "html, occurrences describing evangelism and the evangelist",
+        "severity": "major",
+        "source_quote": "the gift of evangelism; if it is evangelism; such as evangelism; the evangelist has a more unique calling",
+        "suggested_fix": "Use ״מתנת בישור הבשורה״, ״אם מדובר בבישור הבשורה״, ״כגון בישור הבשורה״, and ״למבשר יש ייעוד ייחודי יותר להגיע לעולם״ respectively. These describe proclaiming the gospel, not the gospel itself, purification, or an informant.",
+        "translation_quote": "מתנת הבשורה; או אם זו הבשורה; כגון מטהרת הבשורה; המודיע (המטיף) מיועד יותר להגיע לעולם"
+      },
+      {
+        "location": "html, first 1 Timothy 4:14 quotation and numbered remedy (2)",
+        "severity": "major",
+        "source_quote": "with the laying on of the hands of the presbytery ... through …the laying on of the hands of the presbytery",
+        "suggested_fix": "Replace ״בהשמת הידיים של הנשאים״ with ״בסמיכת ידיהם של זקני הקהילה״. In remedy (2), replace ״ולבקש את תקומת היכולת באמצעות״ with ״ולבקש מאלוהים שיעניק להם את היכולת הדרושה באמצעות״ and replace the garbled quotation prose with ״…סמיכת ידיהם של זקני הקהילה״, preserving its <em> and reference.",
+        "translation_quote": "בהשמת הידיים של הנשאים ... ולבקש את תקומת היכולת באמצעות …הַשִּׂם הָיָה הַיָּדַיִם שֶׁל הַזְּקֵנִים"
+      },
+      {
+        "location": "html, marriage illustration",
+        "severity": "major",
+        "source_quote": "the wife learned to yield her gifting in a way that allowed her husband to be the godly head of the home",
+        "suggested_fix": "Replace ״והאישה למדה לוותר על מתנתה באופן שאיפשר לבעלה להיות ראש הבית בצדקת אלוהים״ with ״והאישה למדה להכפיף את השימוש במתנתה באופן שאִפשר לבעלה להיות ראש בית ירא אלוהים״.",
+        "translation_quote": "והאישה למדה לוותר על מתנתה באופן שאיפשר לבעלה להיות ראש הבית בצדקת אלוהים"
+      },
+      {
+        "location": "html, 1 Corinthians 12:24-25 quotation",
+        "severity": "major",
+        "source_quote": "God hath tempered the body together, having given more abundant honour to that part which lacked: That there should be no schism [division] in the body",
+        "suggested_fix": "Replace the quotation prose with ״הרי איברינו הנאים אינם זקוקים לכך; אך אלוהים חיבר את הגוף יחד ונתן כבוד רב יותר לאיבר שהיה חסר כבוד, כדי שלא יהיה פילוג [חלוקה] בגוף, אלא שהאיברים ידאגו זה לזה במידה שווה״, retaining the reference.",
+        "translation_quote": "אלוהים הכין את הגוף ונתן כבוד רב יותר לאותו חלק ששיער חוסר: למען שלא תהיה סכסוך בגוף"
+      },
+      {
+        "location": "html, James 3:13-18 quotation",
+        "severity": "major",
+        "source_quote": "a good conversation ... bitter envying and strife ... pure ... without partiality, and without hypocrisy",
+        "suggested_fix": "Replace the garbled quotation inside <em> with contemporary Hebrew preserving the source emphasis structure: ״מי בכם חכם ובעל דעת? יראה מתוך <strong>אורח חיים טוב</strong> את מעשיו <strong>בענווה הנובעת מחוכמה</strong>. אך אם יש בלבבכם <strong>קנאה מרה ומריבות</strong>, אל תתפארו ו<strong>אל תשקרו נגד האמת</strong>. <u>חוכמה זו אינה יורדת מלמעלה, אלא היא ארצית, חושנית ושטנית.</u> כי במקום שיש קנאה ומריבות, יש מהומה וכל מעשה רע. אך החוכמה שמלמעלה היא בראש ובראשונה <strong>טהורה</strong>, אחר כך <strong>אוהבת שלום</strong>, <strong>עדינה</strong>, <strong>נכונה להקשיב, מלאה רחמים</strong> ו<strong>פירות טובים</strong>, <strong>ללא משוא פנים</strong> ו<strong>ללא צביעות</strong>. ופרי הצדקה נזרע בשלום בידי עושי שלום. – יעקב 3:13-18.״",
+        "translation_quote": "בְּשׂוֹכָר טוֹב ... קִנְאָה מְרִירָה וּמְחֻלֶּקֶת ... זְכוּכִית ... בְּלִי פְלִיָּאוּת וּבְלִי צְנִעוּת"
+      },
+      {
+        "location": "html, first-reason paragraph, explanation of 1 Corinthians 12:25",
+        "severity": "major",
+        "source_quote": "that there should be no schisms in the body",
+        "suggested_fix": "Replace ״שיעמודו לא סכסוכים בגוף״ with ״שלא יהיו פילוגים בגוף״.",
+        "translation_quote": "שיעמודו לא סכסוכים בגוף"
+      },
+      {
+        "location": "html, second-reason paragraph",
+        "severity": "major",
+        "source_quote": "Some of the gifts were given as a sign for the unbeliever.",
+        "suggested_fix": "Replace ״כמה מהמתנות ניתנו כסימן לעממי בני־חוץ״ with ״כמה מהמתנות ניתנו כאות ללא־מאמין״.",
+        "translation_quote": "כמה מהמתנות ניתנו כסימן לעממי בני־חוץ"
+      },
+      {
+        "location": "html, paragraph on healing, sentence following 2 Corinthians 12:7-12",
+        "severity": "major",
+        "source_quote": "If he was not healed when he had healed many others, why would I think it needs to be different for me?",
+        "suggested_fix": "Replace the sentence with ״אם הוא לא נרפא אף שריפא רבים אחרים, מדוע שאחשוב שבמקרה שלי הדברים צריכים להיות שונים?״",
+        "translation_quote": "אם הוא לא חלה כאשר ריפא רבים אחרים, למה אני אפסיק לחשוב שצריך להיות שונה בענייני?"
+      },
+      {
+        "location": "html, Canadian woman's account",
+        "severity": "major",
+        "source_quote": "She responded in repentance to the message and those who counseled with her asked her",
+        "suggested_fix": "Replace ״היא הגבירה בתשובה להטפה ואז אלו שהתייעצו איתה שאלו״ with ״היא הגיבה למסר בחזרה בתשובה, ואלה שייעצו לה שאלו אותה״.",
+        "translation_quote": "היא הגבירה בתשובה להטפה ואז אלו שהתייעצו איתה שאלו"
+      },
+      {
+        "location": "html, biblical-qualifications heading, remedy paragraph, division paragraph, and final tongues-explanation paragraph",
+        "severity": "major",
+        "source_quote": "Biblical List; The biblical answer; The Bible says; we find in scripture",
+        "suggested_fix": "Replace ״התנכ״ית״ with ״שבכתבי הקודש״ in the heading and remedy introduction, adjusting word order as needed; replace ״התנ״ך אומר״ with ״כתבי הקודש אומרים״ and ״מוצאים בתנ״ך״ with ״מוצאים בכתבי הקודש״. The passages discussed include the New Testament, not only the Hebrew Bible.",
+        "translation_quote": "רשימת הכשירות התנכ\"ית; התשובה התנכ\"ית; התנ\"ך אומר; מוצאים בתנ\"ך"
+      },
+      {
+        "location": "translation.section",
+        "severity": "major",
+        "source_quote": "THE NEW TESTAMENT CHURCH",
+        "suggested_fix": "Translate the section as ״הכנסייה בברית החדשה״.",
+        "translation_quote": "THE NEW TESTAMENT CHURCH"
+      },
+      {
+        "location": "html, prose in opening, gifts caution, identity, local-church application, and studies paragraphs",
+        "severity": "minor",
+        "source_quote": "greeted by their people with great fanfare; We will all probably have a primary gift or gifts; pitfalls and dangers; came into our services; it is done innocently",
+        "suggested_fix": "Correct respectively to ״ובני עמם קיבלו את פניהם בחגיגיות רבה״; ״לכולנו כנראה תהיה מתנה עיקרית אחת או כמה מתנות עיקריות״; ״למכשולים ולסכנות רבות״; ״ייכנס לאספות התפילה שלנו״; and ״הדבר נעשה בתמימות״.",
+        "translation_quote": "וקיבלו אותם בעם שמחה גדולה; כולנו כנראה נלאה שיהיה לנו מתנה ראשית או מתנות עיקריות; לפחידות וסכנות רבות; ייכנס לשירותינו; נעשה זאת תמימותית"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 49
+  }
+}
