@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-01T01:05:45+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, third paragraph\",\"severity\":\"minor\",\"source_quote\":\"what manner of persons ought we to be in all holy conversation and godliness\",\"suggested_fix\":\"وما دامت هذه الأمور حقًا، فأيَّ أناسٍ ينبغي أن نكون، في كل سلوكٍ مقدس وتقوى؟\",\"translation_quote\":\"وما دامت هذه الأمور حقًا، فأي نوع من الناس ينبغي أن نكون في كل سيرة مقدسة وتقوى؟\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 538,
+    "content_evidence_truncated": false,
+    "content_sha256": "3acc0fa6d8dccb2be490bab6508fef6110c30450ed8919161fb146f428a596d9",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 617,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 488,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3311,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2208,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 3928
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, third paragraph",
+      "severity": "minor",
+      "source_quote": "what manner of persons ought we to be in all holy conversation and godliness",
+      "suggested_fix": "وما دامت هذه الأمور حقًا، فأيَّ أناسٍ ينبغي أن نكون، في كل سلوكٍ مقدس وتقوى؟",
+      "translation_quote": "وما دامت هذه الأمور حقًا، فأي نوع من الناس ينبغي أن نكون في كل سيرة مقدسة وتقوى؟"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

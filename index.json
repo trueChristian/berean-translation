@@ -6804,6 +6804,34 @@
     {
       "ai_notice_required": true,
       "direction": "rtl",
+      "html": "content/ara/articles/683a4e23-acbb-434a-8e0e-2b0793e1a0fb.html",
+      "html_sha256": "7850f88bcc046975cde197183c699499fd984f8ec5423140c12f0a4dd5a4b263",
+      "human_reviewed": false,
+      "id": "683a4e23-acbb-434a-8e0e-2b0793e1a0fb",
+      "images": [
+        {
+          "alt": "رسّام جالس يحمل لوحة ألوان إلى جانب حامل رسم",
+          "public_path": "/images/articles/683a4e23-acbb-434a-8e0e-2b0793e1a0fb-1.jpg"
+        }
+      ],
+      "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
+      "language": "ara",
+      "language_tag": "ar",
+      "metadata": "content/ara/articles/683a4e23-acbb-434a-8e0e-2b0793e1a0fb.json",
+      "metadata_sha256": "2a453a003b17b98041176a8291de9ccefac9e6a81a35e3d11febcb37ed6a3dd0",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
+      "source_translation_key": "4a0f2e46d38c9417b9a0cd7d5b0a7beea7595a781a49fbd4e10a86619729e5b6",
+      "status": "ready",
+      "subtitle": null,
+      "title": "الرسم للأبدية",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
       "html": "content/ara/articles/6b3e3e7e-b5fd-4701-9a63-699b90f17ec9.html",
       "html_sha256": "3c95b9a5bbf85a4ded3076149f2793f773246a75036b16aa4156f24e38d126d2",
       "human_reviewed": false,

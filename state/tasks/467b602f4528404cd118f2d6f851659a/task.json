@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "fa55407c5de549998d872847c6660d9d",
   "campaign": "auto-949ac0419c0a9ca33a55122bb7a54e542d162c3805a62418aebe3ce958a0fcad",
   "created_at": "2026-10-31T22:25:59+00:00",
   "events": [
@@ -28,10 +27,39 @@
         },
         "total_tokens": 2957
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 617,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 488,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3311,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 2208,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 3928
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "HTML, third paragraph",
+      "severity": "minor",
+      "source_quote": "what manner of persons ought we to be in all holy conversation and godliness",
+      "suggested_fix": "وما دامت هذه الأمور حقًا، فأيَّ أناسٍ ينبغي أن نكون، في كل سلوكٍ مقدس وتقوى؟",
+      "translation_quote": "وما دامت هذه الأمور حقًا، فأي نوع من الناس ينبغي أن نكون في كل سيرة مقدسة وتقوى؟"
+    }
+  ],
+  "finished_at": "2026-11-01T01:05:45+00:00",
   "id": "467b602f4528404cd118f2d6f851659a",
   "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
   "language": "ara",
@@ -120,9 +148,11 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/d1ad1fde7c77815637c6fb95fb8f7e8a5023a172781ddce15f798d01cdf60f20.json",
   "stage": "review1",
   "stage_budget": {
@@ -138,7 +168,7 @@
     "total_reserved_usd": 0.086851,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "4a0f2e46d38c9417b9a0cd7d5b0a7beea7595a781a49fbd4e10a86619729e5b6",
   "translation_model_actual": "gpt-6-luna"
