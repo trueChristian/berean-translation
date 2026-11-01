@@ -1,0 +1,87 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "5da01455-30e9-4390-90bc-f7b57ac8ea73",
+    "response_id": "chatcmpl-EfS9w8c57QxBZQWsYmzrSGQUrkd4I",
+    "usage": {
+      "completion_tokens": 1035,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 82,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 11727,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 10624,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 12762
+    }
+  },
+  "received_at": "2026-11-01T15:59:57+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "html, primo paragrafo, citazione di Efesini 4:8",
+        "severity": "major",
+        "source_quote": "he led captivity captive",
+        "suggested_fix": "Sostituire «menò in cattività gli uomini» con «condusse prigioniera la prigionia», mantenendo il resto della citazione e il riferimento.",
+        "translation_quote": "menò in cattività gli uomini"
+      },
+      {
+        "location": "html, paragrafo che inizia «Dio può anche»",
+        "severity": "major",
+        "source_quote": "God can also give the necessary gift",
+        "suggested_fix": "Sostituire «donare il bisogno necessario» con «donare il dono necessario».",
+        "translation_quote": "Dio può anche donare il bisogno necessario"
+      },
+      {
+        "location": "html, «La prima ragione», citazione di Efesini 4:11-12",
+        "severity": "major",
+        "source_quote": "the perfecting of the saints",
+        "suggested_fix": "Sostituire «<strong>l’adempimento dei santi</strong>» con «<strong>il perfezionamento dei santi</strong>».",
+        "translation_quote": "l’adempimento dei santi"
+      },
+      {
+        "location": "html, paragrafo che inizia «Notate in entrambi i versetti»",
+        "severity": "minor",
+        "source_quote": "Do you notice in both verses the WILL of God being very involved ... alone in our closet",
+        "suggested_fix": "Rendere i due segmenti con «Notate quanto sia coinvolta la VOLONTÀ di Dio, in entrambi i versetti, nel dare i doni nella Chiesa?» e «in solitudine nella nostra stanza», eliminando l’aggiunta esplicativa tra parentesi.",
+        "translation_quote": "Notate in entrambi i versetti l’AREA della VOLONTÀ di Dio molto coinvolta ... in solitudine nel nostro armadio (nel senso di luogo di preghiera)"
+      },
+      {
+        "location": "html, citazione di Giacomo 3:13-18",
+        "severity": "minor",
+        "source_quote": "let him shew out of a good conversation his works ... bitter envying and strife",
+        "suggested_fix": "Correggere in «mostri con <strong>una buona condotta</strong> le sue opere» e «<strong>amara invidia e contesa nei vostri cuori</strong>».",
+        "translation_quote": "<strong>mostrando dalla sua buona condotta</strong> le sue opere ... <strong>amare invidia e contesa nei vostri cuori</strong>"
+      },
+      {
+        "location": "html, risposta biblica triplice, punto (2)",
+        "severity": "minor",
+        "source_quote": "should seek God’s provision for enabling ability",
+        "suggested_fix": "Sostituire con «dovrebbero chiedere a Dio di provvedere le capacità necessarie».",
+        "translation_quote": "dovrebbero cercare la provvidenza di Dio per ottenere abilità abilitante"
+      },
+      {
+        "location": "html, paragrafo sugli studi sul parlare in lingue",
+        "severity": "minor",
+        "source_quote": "recording the gibberish",
+        "suggested_fix": "Sostituire «registrando il «gibberish»» con «registrando il linguaggio incomprensibile».",
+        "translation_quote": "registrando il «gibberish»"
+      },
+      {
+        "location": "html, episodio della donna in Canada",
+        "severity": "minor",
+        "source_quote": "where the revivalist was preaching in English",
+        "suggested_fix": "Sostituire «dove il risvegliante predicava in inglese» con «dove il predicatore del risveglio predicava in inglese».",
+        "translation_quote": "dove il risvegliante predicava in inglese"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 90
+  }
+}
