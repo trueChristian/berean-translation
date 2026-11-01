@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "742372d0-bc33-4753-bc37-207c98f40b77",
+    "response_id": "chatcmpl-EfWBOsodNtbfUQh36QLr4gbc4KCtu",
+    "usage": {
+      "completion_tokens": 712,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 581,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 10792,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9689,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 11504
+    }
+  },
+  "received_at": "2026-11-01T20:18:22+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, section 9 DESIDERIO, quotation of Psalm 27:4",
+        "severity": "major",
+        "source_quote": "“to behold the beauty of the Lord, and to inquire in his temple.”",
+        "suggested_fix": "«per contemplare la bellezza del Signore e per cercare il suo volto nel suo tempio»",
+        "translation_quote": "«per contemplare la bellezza del Signore e ammirare il suo tempio»"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 94
+  }
+}
