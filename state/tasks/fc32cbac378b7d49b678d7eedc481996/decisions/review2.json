@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Body, under “There is a Twofold Worship Due Only to God,” item 1",
+      "severity": "minor",
+      "source_quote": "“not out of a civil, but a religious respect”",
+      "suggested_fix": "Replace “شہری احترام” with “معاشرتی احترام” or “عام احترام” to convey ordinary civil courtesy rather than civic/citizen respect.",
+      "translation_quote": "“شہری احترام کی بنا پر نہیں بلکہ مذہبی تعظیم کے طور پر”"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}
