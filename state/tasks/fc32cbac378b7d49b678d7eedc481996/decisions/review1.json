@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "پيراگراف 6، زبور 118:8، 9 کا اقتباس",
+      "severity": "major",
+      "source_quote": "“It is better to trust in the Lord than to put confidence in princes.”",
+      "suggested_fix": "”امیروں پر اعتماد کرنے سے خداوند پر توکل کرنا بہتر ہے“ کی جگہ ”حاکموں پر اعتماد کرنے سے خداوند پر توکل کرنا بہتر ہے“ لکھیں۔",
+      "translation_quote": "”امیروں پر اعتماد کرنے سے خداوند پر توکل کرنا بہتر ہے۔“"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
