@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-01T01:58:03+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph 3, quoted judgment\",\"severity\":\"major\",\"source_quote\":\"“He that is unjust, let him be unjust still; he that is filthy, let him be filthy still. He that is righteous, let him be righteous still; he that is holy let him be holy still.”\",\"suggested_fix\":\"Translate the four clauses as continuing states of the people described, for example: „העוול יוסיף לעשות עוול; והטמא יוסיף להיטמא; והצדיק יוסיף לעשות צדק; והקדוש יוסיף להתקדש.”\",\"translation_quote\":\"„העוול עושה עוול עוד; והטמא ייטמא עוד; והצדיק יעשה צדק עוד; והקדוש יתקדש עוד.”\"},{\"location\":\"Poem, line 2\",\"severity\":\"minor\",\"source_quote\":\"With their changes rise and fall!\",\"suggested_fix\":\"Replace „עם חילופי השעה” with wording that conveys change more generally, such as „עם חילופי הדברים” or „עם תמורות הזמן.”\",\"translation_quote\":\"עולים ויורדים עם חילופי השעה!\"}],\"findings_complete\":true,\"passed\":false,\"score\":92}",
+    "content_bytes": 1126,
+    "content_evidence_truncated": false,
+    "content_sha256": "19ea9709987edaa1a9af3630a49fce1690dbbbb728090196b101999abf2dae27",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1000,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 727,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3360,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2257,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 4360
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}
