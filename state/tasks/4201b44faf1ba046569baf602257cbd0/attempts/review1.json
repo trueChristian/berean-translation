@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-01T15:44:41+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Laatste citaat\",\"severity\":\"minor\",\"source_quote\":\"flee from idolatry!\",\"suggested_fix\":\"<p><strong>Daarom, mijn geliefden,<br>\\n    vlucht voor afgoderij!</strong></p>\",\"translation_quote\":\"vlucht weg van de afgoderij!\"}],\"findings_complete\":true,\"passed\":true,\"score\":99}",
+    "content_bytes": 299,
+    "content_evidence_truncated": false,
+    "content_sha256": "166cbe54a58e6500924965d64b1014947263b71deb4b428fe77f2508ae603241",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 611,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 10584,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9481,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 11195
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

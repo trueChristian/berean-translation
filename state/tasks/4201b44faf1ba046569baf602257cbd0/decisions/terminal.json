@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Laatste citaat",
+      "severity": "minor",
+      "source_quote": "flee from idolatry!",
+      "suggested_fix": "<p><strong>Daarom, mijn geliefden,<br>\n    vlucht voor afgoderij!</strong></p>",
+      "translation_quote": "vlucht weg van de afgoderij!"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}
