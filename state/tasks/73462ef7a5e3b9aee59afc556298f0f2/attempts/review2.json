@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-01T19:49:46+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Absatz unter „Zwei Arten des Götzendienstes“\",\"severity\":\"major\",\"source_quote\":\"Then is that soul worship, which is due only to God.\",\"suggested_fix\":\"Dann ist das Anbetung der Seele, die allein Gott gebührt.\",\"translation_quote\":\"Dann wird die Seele auf eine Weise angebetet, die allein Gott gebührt.\"},{\"location\":\"Schlusszitat\",\"severity\":\"minor\",\"source_quote\":\"Therefore, my dearly beloved, flee from idolatry!\",\"suggested_fix\":\"Darum, meine Geliebten,<br>flieht vor dem Götzendienst!\",\"translation_quote\":\"Darum, meine geliebten Brüder,<br>flieht vor dem Götzendienst!\"}],\"findings_complete\":true,\"passed\":false,\"score\":95}",
+    "content_bytes": 666,
+    "content_evidence_truncated": false,
+    "content_sha256": "b38b0c37fdb78a5aaa5210ecc347ff18c005471afc82da4a19f8104675459de5",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1029,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 838,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 10802,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 10799,
+        "cached_tokens": 0
+      },
+      "total_tokens": 11831
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

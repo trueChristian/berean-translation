@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Absatz unter „Zwei Arten des Götzendienstes“",
+      "severity": "major",
+      "source_quote": "Then is that soul worship, which is due only to God.",
+      "suggested_fix": "Dann ist das Anbetung der Seele, die allein Gott gebührt.",
+      "translation_quote": "Dann wird die Seele auf eine Weise angebetet, die allein Gott gebührt."
+    },
+    {
+      "location": "Schlusszitat",
+      "severity": "minor",
+      "source_quote": "Therefore, my dearly beloved, flee from idolatry!",
+      "suggested_fix": "Darum, meine Geliebten,<br>flieht vor dem Götzendienst!",
+      "translation_quote": "Darum, meine geliebten Brüder,<br>flieht vor dem Götzendienst!"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; a recovery continuation must pass admission",
+  "stage": "terminal"
+}
