@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "106e2a71-3964-4d2a-8114-06152207a375",
+    "response_id": "chatcmpl-EfWRxiEchJLzXN2iPVqvY6r9M8ijJ",
+    "usage": {
+      "completion_tokens": 1093,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 812,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 10835,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9732,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 11928
+    }
+  },
+  "received_at": "2026-11-01T23:01:46+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph 12, opening sentences",
+        "severity": "minor",
+        "source_quote": "That to which we are most grateful, that we worship as God. ... We worship that for which we are most thankful.",
+        "suggested_fix": "Change «Det vi er mest takknemlige mot» to «Det vi er mest takknemlige for» and «Vi tilber den vi er mest takknemlige mot» to «Vi tilber det vi er mest takknemlige for».",
+        "translation_quote": "Det vi er mest takknemlige mot, tilber vi som Gud. ... Vi tilber den vi er mest takknemlige mot."
+      },
+      {
+        "location": "Opening paragraph, quotation of 1 John 2:16",
+        "severity": "minor",
+        "source_quote": "The lust of the flesh, the lust of the eye, and the pride of life.",
+        "suggested_fix": "Use «kjødets lyst, øynenes lyst og livets stolthet» to preserve the source’s broader phrase «the pride of life» without narrowing it to possessions.",
+        "translation_quote": "Kjødets lyst, øynenes lyst og hovmodig skryt av det en eier."
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}
