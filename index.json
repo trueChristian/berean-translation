@@ -48303,6 +48303,42 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ita/articles/816d80f0-e3dd-46a6-ae6e-03214e209890.html",
+      "html_sha256": "bf65595a04bc511459e80c2ca7837ec4720300b32d34d56d8f3adc952dbf8035",
+      "human_reviewed": false,
+      "id": "816d80f0-e3dd-46a6-ae6e-03214e209890",
+      "images": [
+        {
+          "alt": "Una mano che prende denaro attraverso una staccionata di legno",
+          "public_path": "/images/articles/816d80f0-e3dd-46a6-ae6e-03214e209890-1.jpg"
+        },
+        {
+          "alt": "Firma autografa riprodotta in facsimile di John Wesley",
+          "public_path": "/images/articles/816d80f0-e3dd-46a6-ae6e-03214e209890-2.jpg"
+        },
+        {
+          "alt": "Statua di John Wesley con un libro aperto in mano",
+          "public_path": "/images/articles/816d80f0-e3dd-46a6-ae6e-03214e209890-3.jpg"
+        }
+      ],
+      "issue_id": "05538f8e-6560-5f96-b313-890e87c05daf",
+      "language": "ita",
+      "language_tag": "it",
+      "metadata": "content/ita/articles/816d80f0-e3dd-46a6-ae6e-03214e209890.json",
+      "metadata_sha256": "4743e7a96d065dd425169f280f741f06735b2ffd705f04bfb1816f904a84c7b6",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": null,
+      "source_revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
+      "source_translation_key": "0af4e8eba8d76fd3ebe2cccff019f1ce29d88581ec1120c33079d9f90b1288d6",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Sul pericolo di accrescere le ricchezze",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ita/articles/85306410-6a2d-46f1-b6db-6d3450f7f908.html",
       "html_sha256": "8c1e093b990e726d5b3cef85b98ffb76a3a73847637cd6d2f61c384a22cfc763",
       "human_reviewed": false,
