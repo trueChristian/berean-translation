@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-01T20:18:06+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"html, avsnittet som lister gavene i 1. Korinterbrev 12\",\n      \"severity\": \"major\",\n      \"source_quote\": \"tongues, discerning of tongues, helps, and governments\",\n      \"suggested_fix\": \"Erstatt «å skjelne ånder, hjelpearbeid og styreoder» med «å tyde tungetale, hjelpetjenester og ledelse». Kildens trykte «discerning of tongues» må ikke erstattes med en annen gave.\",\n      \"translation_quote\": \"tungetale, å skjelne ånder, hjelpearbeid og styreoder\"\n    },\n    {\n      \"location\": \"html, sitatet fra 1. Korinter 12:24-25\",\n      \"severity\": \"major\",\n      \"source_quote\": \"having given more abundant honour to that part which lacked\",\n      \"suggested_fix\": \"Erstatt med «og gitt desto større ære til den delen som manglet den».\",\n      \"translation_quote\": \"og gitt stor ære til den del som var angrende\"\n    },\n    {\n      \"location\": \"html, avsnittet om å søke åndelige gaver alene\",\n      \"severity\": \"major\",\n      \"source_quote\": \"should be done alone in our closet\",\n      \"suggested_fix\": \"Erstatt «bør skje alene i vårt skap» med «bør skje alene i vårt lønnkammer». Her betyr «closet» et privat rom for bønn, ikke et skap.\",\n      \"translation_quote\": \"bør skje alene i vårt skap\"\n    },\n    {\n      \"location\": \"html, sitatet fra Hebreerne 2:4\",\n      \"severity\": \"major\",\n      \"source_quote\": \"God also bearing them witness, both with signs and wonders\",\n      \"suggested_fix\": \"Erstatt «Som også vitnet dem med tegn og under» med «Gud vitnet også sammen med dem, både med tegn og under». Behold resten av sitatet og eksisterende markering.\",\n      \"translation_quote\": \"Som også vitnet dem med tegn og under\"\n    },\n    {\n      \"location\": \"html, avsnittet «Den første grunnen», sitatet fra Efeserne 4:11-12\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"<strong>the perfecting of the saints</strong>, for\",\n      \"suggested_fix\": \"Rett den ugyldige avslutningstaggen til «<strong>å gjøre de hellige fullkomne</strong>, til».\",\n      \"translation_quote\": \"<strong>å gjøre de hellige fullkomne</strong, til\"\n    },\n    {\n      \"location\": \"html, avsnittet om hvilken gave som var primær i Jesu liv\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"He was full of the Holy Ghost and without measure\",\n      \"suggested_fix\": \"Erstatt «fylt av Den Hellige Ånd ute av mål» med «fylt av Den Hellige Ånd uten mål».\",\n      \"translation_quote\": \"fylt av Den Hellige Ånd ute av mål\"\n    },\n    {\n      \"location\": \"html, avsnittet om selektiv fremheving av gaver\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"our Pentecostal friends; the gift of evangelism; some of us plain churches\",\n      \"suggested_fix\": \"Rett uttrykkene til henholdsvis «våre pinsevenner», «evangeliseringens gave» og «noen av oss i menigheter som legger vekt på en enkel livsførsel».\",\n      \"translation_quote\": \"våre pinsevennene; gavene til evangelisme; noen av oss i de enkelhetssamfunnene\"\n    },\n    {\n      \"location\": \"html, overskriftene om identitet og tungetale\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"Spiritual Gifts Are Not The Christian’s Identity; The Gift of Tongues\",\n      \"suggested_fix\": \"Rett «kristenens» til «den kristnes» og «Tungtalegaven» til «Tungetalegaven».\",\n      \"translation_quote\": \"Åndelige gaver er ikke kristenens identitet; Tungtalegaven\"\n    },\n    {\n      \"location\": \"html, avsnittene om avsettelse, ekteskap og gjenopprettet stabilitet\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"an ordained brother; yield her gifting; the local brotherhood\",\n      \"suggested_fix\": \"Rett «en ordinerte bror» til «en ordinert bror», «underordne sin gavning» til «underordne bruken av sine gaver» og «den lokale brorskap» til «det lokale brorskapet».\",\n      \"translation_quote\": \"en ordinerte bror; underordne sin gavning; den lokale brorskap\"\n    },\n    {\n      \"location\": \"html, sitatet fra Jakob 3:13-18\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"then peaceable\",\n      \"suggested_fix\": \"Erstatt «<strong>freden skaper</strong>» med «<strong>fredelig</strong>».\",\n      \"translation_quote\": \"så <strong>freden skaper</strong>\"\n    },\n    {\n      \"location\": \"html, fortellingen om kvinnen i Canada\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"it was heartwarming to know; the one speaking in tongues\",\n      \"suggested_fix\": \"Erstatt «det var hjertelig å vite» med «det var hjertevarmende å vite» og «den som taler i tungene» med «den som taler i tunger».\",\n      \"translation_quote\": \"det var hjertelig å vite; den som taler i tungene\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": false,\n  \"score\": 84\n}",
+    "content_bytes": 4725,
+    "content_evidence_truncated": false,
+    "content_sha256": "81605d5a255fea8856e54395b4cac7a22e12e0c7ea6599f11e86f935e0bf6098",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1487,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 151,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 11644,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 10541,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 13131
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}
