@@ -1,0 +1,63 @@
+{
+  "findings": [
+    {
+      "location": "translation.html，第10段末尾",
+      "severity": "major",
+      "source_quote": "so what do all these infractions really have to do with my peace and joy?",
+      "suggested_fix": "将“这些过犯与我的平安喜乐又有什么关系呢？”改为“这些侵扰与我的平安喜乐又有什么关系呢？”",
+      "translation_quote": "这些过犯与我的平安喜乐又有什么关系呢？"
+    },
+    {
+      "location": "translation.html，第11段经文引语",
+      "severity": "major",
+      "source_quote": "praise the beauty of holiness",
+      "suggested_fix": "将“他要称赞圣者的美”改为“称赞圣洁之美”。",
+      "translation_quote": "他要称赞圣者的美"
+    },
+    {
+      "location": "translation.html，第11段经文出处",
+      "severity": "major",
+      "source_quote": "– verses 21-20.",
+      "suggested_fix": "将“第20–21节”改为“第21–20节”，保留权威英文印出的节号顺序，不自行订正。",
+      "translation_quote": "——第20–21节。"
+    },
+    {
+      "location": "translation.html，第15段",
+      "severity": "major",
+      "source_quote": "The fear of God fell on all the kingdoms of the land when they heard how God had fought this huge battle",
+      "suggested_fix": "将“列国众民听见神怎样打这场大仗，就都以惧怕临到”改为“地上列国听见神怎样打了这场大仗，就都惧怕神”。",
+      "translation_quote": "列国众民听见神怎样打这场大仗，就都以惧怕临到"
+    },
+    {
+      "location": "translation.html，第7段",
+      "severity": "minor",
+      "source_quote": "Often I try to fight my battles inside of myself rather than making myself vulnerable to others.",
+      "suggested_fix": "将该句改为“我常试图独自在内心争战，而不愿向他人敞露自己的软弱。”",
+      "translation_quote": "我常在内心与自己的争战，而不是向他人敞开自己。"
+    },
+    {
+      "location": "translation.html，第4段经文引语",
+      "severity": "minor",
+      "source_quote": "we have no might against this great company that cometh against us",
+      "suggested_fix": "将“我们无力抵挡这来攻击我们的众多”改为“我们无力抵挡这来攻击我们的庞大军队”。",
+      "translation_quote": "我们无力抵挡这来攻击我们的众多"
+    },
+    {
+      "location": "translation.title",
+      "severity": "minor",
+      "source_quote": "Lessons From Second Chronicles Twenty",
+      "suggested_fix": "改为“从《历代志下》第二十章学到的功课”。",
+      "translation_quote": "从《历代志下》二十章的教训"
+    },
+    {
+      "location": "translation.html，第11、12、14段",
+      "severity": "minor",
+      "source_quote": "your God; Ammon; the armies of Moab and Ammon",
+      "suggested_fix": "将“你們”改为“你们”，并将两处“亚捫”统一改为简体“亚扪”。",
+      "translation_quote": "你們的神；亚捫人；摩押与亚捫的军队"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

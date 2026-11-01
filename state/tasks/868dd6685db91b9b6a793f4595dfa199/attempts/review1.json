@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-01T23:51:04+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"translation.html，第10段末尾\",\n      \"severity\": \"major\",\n      \"source_quote\": \"so what do all these infractions really have to do with my peace and joy?\",\n      \"suggested_fix\": \"将“这些过犯与我的平安喜乐又有什么关系呢？”改为“这些侵扰与我的平安喜乐又有什么关系呢？”\",\n      \"translation_quote\": \"这些过犯与我的平安喜乐又有什么关系呢？\"\n    },\n    {\n      \"location\": \"translation.html，第11段经文引语\",\n      \"severity\": \"major\",\n      \"source_quote\": \"praise the beauty of holiness\",\n      \"suggested_fix\": \"将“他要称赞圣者的美”改为“称赞圣洁之美”。\",\n      \"translation_quote\": \"他要称赞圣者的美\"\n    },\n    {\n      \"location\": \"translation.html，第11段经文出处\",\n      \"severity\": \"major\",\n      \"source_quote\": \"– verses 21-20.\",\n      \"suggested_fix\": \"将“第20–21节”改为“第21–20节”，保留权威英文印出的节号顺序，不自行订正。\",\n      \"translation_quote\": \"——第20–21节。\"\n    },\n    {\n      \"location\": \"translation.html，第15段\",\n      \"severity\": \"major\",\n      \"source_quote\": \"The fear of God fell on all the kingdoms of the land when they heard how God had fought this huge battle\",\n      \"suggested_fix\": \"将“列国众民听见神怎样打这场大仗，就都以惧怕临到”改为“地上列国听见神怎样打了这场大仗，就都惧怕神”。\",\n      \"translation_quote\": \"列国众民听见神怎样打这场大仗，就都以惧怕临到\"\n    },\n    {\n      \"location\": \"translation.html，第7段\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"Often I try to fight my battles inside of myself rather than making myself vulnerable to others.\",\n      \"suggested_fix\": \"将该句改为“我常试图独自在内心争战，而不愿向他人敞露自己的软弱。”\",\n      \"translation_quote\": \"我常在内心与自己的争战，而不是向他人敞开自己。\"\n    },\n    {\n      \"location\": \"translation.html，第4段经文引语\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"we have no might against this great company that cometh against us\",\n      \"suggested_fix\": \"将“我们无力抵挡这来攻击我们的众多”改为“我们无力抵挡这来攻击我们的庞大军队”。\",\n      \"translation_quote\": \"我们无力抵挡这来攻击我们的众多\"\n    },\n    {\n      \"location\": \"translation.title\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"Lessons From Second Chronicles Twenty\",\n      \"suggested_fix\": \"改为“从《历代志下》第二十章学到的功课”。\",\n      \"translation_quote\": \"从《历代志下》二十章的教训\"\n    },\n    {\n      \"location\": \"translation.html，第11、12、14段\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"your God; Ammon; the armies of Moab and Ammon\",\n      \"suggested_fix\": \"将“你們”改为“你们”，并将两处“亚捫”统一改为简体“亚扪”。\",\n      \"translation_quote\": \"你們的神；亚捫人；摩押与亚捫的军队\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": false,\n  \"score\": 88\n}",
+    "content_bytes": 3180,
+    "content_evidence_truncated": false,
+    "content_sha256": "f363d28fada4e0e8dfa32341cd07b9c37035a98fd3625bd72b6f455107a9ee28",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 921,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 53,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5485,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5482,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6406
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}
