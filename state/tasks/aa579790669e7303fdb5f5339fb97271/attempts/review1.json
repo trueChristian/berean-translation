@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-01T14:59:55+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"html, заключительный абзац\",\n      \"severity\": \"major\",\n      \"source_quote\": \"two of the main purposes of God giving gifts to the church\",\n      \"suggested_fix\": \"Заменить «дарования Богом духов церкви» на «дарования Богом даров церкви».\",\n      \"translation_quote\": \"две основные цели дарования Богом духов церкви\"\n    },\n    {\n      \"location\": \"html, цитата Иакова 3:13–18\",\n      \"severity\": \"major\",\n      \"source_quote\": \"let him shew out of a good conversation his works with meekness of wisdom\",\n      \"suggested_fix\": \"Заменить «пусть покажет делами своими в кротости мудрости» на «пусть покажет свои дела добрым образом жизни, с кротостью мудрости», сохранив исходное выделение соответствующих фраз тегами <strong>.\",\n      \"translation_quote\": \"пусть покажет делами своими в кротости мудрости\"\n    },\n    {\n      \"location\": \"html, абзац «Вторая причина»\",\n      \"severity\": \"major\",\n      \"source_quote\": \"where it was being presented to those who had never heard it before\",\n      \"suggested_fix\": \"Заменить «где оно впервые возвестилось слышавшим о нём» на «где оно возвещалось тем, кто прежде никогда его не слышал».\",\n      \"translation_quote\": \"где оно впервые возвестилось слышавшим о нём\"\n    },\n    {\n      \"location\": \"html, рассказ о женщине в Канаде\",\n      \"severity\": \"major\",\n      \"source_quote\": \"those who counseled with her asked her how she understood the message\",\n      \"suggested_fix\": \"Заменить «те, кто уверял ее» на «те, кто беседовал с ней и давал ей духовные наставления».\",\n      \"translation_quote\": \"те, кто уверял ее, спросили, как она поняла послание\"\n    },\n    {\n      \"location\": \"html, абзац о дне Пятидесятницы\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"It would have taken a stubborn soul to scoff at the message being preached that day.\",\n      \"suggested_fix\": \"Заменить «усомниться в послании» на «насмехаться над посланием».\",\n      \"translation_quote\": \"Требовалась бы упрямая душа, чтобы усомниться в послании, проповедованном в тот день.\"\n    },\n    {\n      \"location\": \"html, рассказ о женщине в Канаде, описание собрания\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"This woman happened to come to a revival meeting where the revivalist was preaching in English with no French interpreter.\",\n      \"suggested_fix\": \"Заменить предложение на «Эта женщина однажды пришла на собрание духовного пробуждения, где проповедник говорил по-английски без переводчика на французский».\",\n      \"translation_quote\": \"Эта женщина пришла на пробуждение, где проповедовал на английском без переводчика на французский.\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": false,\n  \"score\": 89\n}",
+    "content_bytes": 3730,
+    "content_evidence_truncated": false,
+    "content_sha256": "6b9ec41bd46efae04ac0be005405db05b0b843e478b00eacd9d07436a9e8d9d1",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 850,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 99,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 11495,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 10392,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 12345
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}

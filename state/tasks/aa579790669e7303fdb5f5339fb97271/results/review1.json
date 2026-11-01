@@ -1,0 +1,73 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "09596c86-0817-417d-b5da-fba12dc8a4a1",
+    "response_id": "chatcmpl-EfLEUqbibNijQC6BIxXixDFefMOe5",
+    "usage": {
+      "completion_tokens": 850,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 99,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 11495,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 10392,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 12345
+    }
+  },
+  "received_at": "2026-11-01T14:59:55+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "html, заключительный абзац",
+        "severity": "major",
+        "source_quote": "two of the main purposes of God giving gifts to the church",
+        "suggested_fix": "Заменить «дарования Богом духов церкви» на «дарования Богом даров церкви».",
+        "translation_quote": "две основные цели дарования Богом духов церкви"
+      },
+      {
+        "location": "html, цитата Иакова 3:13–18",
+        "severity": "major",
+        "source_quote": "let him shew out of a good conversation his works with meekness of wisdom",
+        "suggested_fix": "Заменить «пусть покажет делами своими в кротости мудрости» на «пусть покажет свои дела добрым образом жизни, с кротостью мудрости», сохранив исходное выделение соответствующих фраз тегами <strong>.",
+        "translation_quote": "пусть покажет делами своими в кротости мудрости"
+      },
+      {
+        "location": "html, абзац «Вторая причина»",
+        "severity": "major",
+        "source_quote": "where it was being presented to those who had never heard it before",
+        "suggested_fix": "Заменить «где оно впервые возвестилось слышавшим о нём» на «где оно возвещалось тем, кто прежде никогда его не слышал».",
+        "translation_quote": "где оно впервые возвестилось слышавшим о нём"
+      },
+      {
+        "location": "html, рассказ о женщине в Канаде",
+        "severity": "major",
+        "source_quote": "those who counseled with her asked her how she understood the message",
+        "suggested_fix": "Заменить «те, кто уверял ее» на «те, кто беседовал с ней и давал ей духовные наставления».",
+        "translation_quote": "те, кто уверял ее, спросили, как она поняла послание"
+      },
+      {
+        "location": "html, абзац о дне Пятидесятницы",
+        "severity": "minor",
+        "source_quote": "It would have taken a stubborn soul to scoff at the message being preached that day.",
+        "suggested_fix": "Заменить «усомниться в послании» на «насмехаться над посланием».",
+        "translation_quote": "Требовалась бы упрямая душа, чтобы усомниться в послании, проповедованном в тот день."
+      },
+      {
+        "location": "html, рассказ о женщине в Канаде, описание собрания",
+        "severity": "minor",
+        "source_quote": "This woman happened to come to a revival meeting where the revivalist was preaching in English with no French interpreter.",
+        "suggested_fix": "Заменить предложение на «Эта женщина однажды пришла на собрание духовного пробуждения, где проповедник говорил по-английски без переводчика на французский».",
+        "translation_quote": "Эта женщина пришла на пробуждение, где проповедовал на английском без переводчика на французский."
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 89
+  }
+}
