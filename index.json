@@ -48736,6 +48736,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ita/articles/7c9d5015-158a-4c07-92fc-ae40c998d9ae.html",
+      "html_sha256": "0b4df6e6eaa1ebd2713e9a370b33c58067d873a7bc10013daf0075a71162ad91",
+      "human_reviewed": false,
+      "id": "7c9d5015-158a-4c07-92fc-ae40c998d9ae",
+      "images": [
+        {
+          "alt": "Un uomo anziano e barbuto posa le mani sulla testa di un uomo inginocchiato, mentre una donna siede lì vicino",
+          "public_path": "/images/articles/7c9d5015-158a-4c07-92fc-ae40c998d9ae-1.jpg"
+        },
+        {
+          "alt": "Un uomo in abiti lunghi è in piedi all’aperto con le braccia distese, accanto a una figura inginocchiata",
+          "public_path": "/images/articles/7c9d5015-158a-4c07-92fc-ae40c998d9ae-2.jpg"
+        }
+      ],
+      "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
+      "language": "ita",
+      "language_tag": "it",
+      "metadata": "content/ita/articles/7c9d5015-158a-4c07-92fc-ae40c998d9ae.json",
+      "metadata_sha256": "6e6bd678d6febc0ceb6a92f8a254cc4c8f79ecb67229e6d6e53edfd4ac89beb3",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
+      "source_translation_key": "45c04759c5b0f7d8a9038af8cc76e1ff17a52e5b989557b235da9ebe057bb77d",
+      "status": "ready",
+      "subtitle": null,
+      "title": "La nostra comunione è con il Padre",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ita/articles/7cdda5c4-11c0-4b7f-bcd4-b37677267f87.html",
       "html_sha256": "0089feb800ca4893800b5cf740344894abb81e23a49b8d3dc06684fe3110a5fb",
       "human_reviewed": false,
