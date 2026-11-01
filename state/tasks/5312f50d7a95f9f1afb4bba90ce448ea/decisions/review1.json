@@ -1,0 +1,91 @@
+{
+  "findings": [
+    {
+      "location": "html: ابتدائی دو پیراگراف، افسیوں 4:8 اور 4:11 کے اقتباسات اور درمیانی قوسین",
+      "severity": "major",
+      "source_quote": "Wherefore he saith, When he ascended up on high, he led captivity captive, and gave gifts unto men –Ephesians 4:8. / ascended up on high / And he [God] gave some, apostles; and some, prophets; and some, evangelists; and some, pastors and teachers –Ephesians 4:11.",
+      "suggested_fix": "انگریزی اقتباسات کو، موجودہ <em> ٹیگ برقرار رکھتے ہوئے، بالترتیب یوں ترجمہ کریں: «اسی لیے وہ فرماتا ہے کہ جب وہ بلندی پر چڑھا تو قیدیوں کو اسیر کرکے لے گیا اور انسانوں کو تحائف دیے –افسیوں 4:8۔»؛ «بلندی پر چڑھا»؛ «اور اُس نے [خدا نے] بعض کو رسول، بعض کو نبی، بعض کو مبشر، اور بعض کو پاسبان اور استاد مقرر کیا –افسیوں 4:11۔»",
+      "translation_quote": "Wherefore he saith, When he ascended up on high, he led captivity captive, and gave gifts unto men –Ephesians 4:8. / ascended up on high / And he [God] gave some, apostles; and some, prophets; and some, evangelists; and some, pastors and teachers –Ephesians 4:11."
+    },
+    {
+      "location": "html: عنوان «روحانی تحائف خدا کی دی ہوئی چیزیں ہیں» کے بعد پہلا پیراگراف",
+      "severity": "major",
+      "source_quote": "God also bearing them witness, both with signs and wonders, and with divers miracles, and gifts of the Holy Ghost, according to his own will? –Hebrews 2:4. / But all these worketh that one and the selfsame Spirit, dividing to every man severally as he will –1 Corinthians 12:11.",
+      "suggested_fix": "دونوں اقتباسات کا ترجمہ کریں، موجودہ <em> اور <strong> ٹیگ برقرار رکھتے ہوئے: «خدا بھی نشانوں، عجیب کاموں، طرح طرح کے معجزوں اور روح القدس کے تحائف کے ذریعے، <strong>اپنی مرضی کے مطابق</strong>، ان کی گواہی دیتا رہا؟ –عبرانیوں 2:4۔» اور «لیکن یہ سب کام وہی ایک روح کرتا ہے، جو ہر شخص کو الگ الگ <strong>اپنی مرضی کے مطابق</strong> بانٹتا ہے –1 کرنتھیوں 12:11۔»",
+      "translation_quote": "God also bearing them witness, both with signs and wonders, and with divers miracles, and gifts of the Holy Ghost, <strong>according to his own will</strong>? –Hebrews 2:4. / But all these worketh that one and the selfsame Spirit, dividing to every man severally <strong>as he will</strong> –1 Corinthians 12:11."
+    },
+    {
+      "location": "html: کلیسیائی رہنماؤں کی اہلیت والے حصے کا پہلا پیراگراف، اور تین جہتی جواب کا جزو (2)",
+      "severity": "major",
+      "source_quote": "Neglect not the gift that is in thee, which was given thee by prophecy, with the laying on of the hands of the presbytery –1 Timothy 4:14. / …the laying on of the hands of the presbytery –1 Timothy 4:14.",
+      "suggested_fix": "پہلے اقتباس کو «اپنے اندر موجود اُس تحفے سے غفلت نہ برت جو تجھے نبوت کے وسیلے سے، بزرگوں کی جماعت کے ہاتھ رکھنے کے ساتھ عطا ہوا تھا –1 تیموتھیس 4:14۔» اور دوسرے کو، موجودہ <em> میں، «…بزرگوں کی جماعت کے ہاتھ رکھنے کے ذریعے –1 تیموتھیس 4:14۔» سے بدلیں۔",
+      "translation_quote": "Neglect not the gift that is in thee, which was given thee by prophecy, with the laying on of the hands of the presbytery –1 Timothy 4:14. / …the laying on of the hands of the presbytery –1 Timothy 4:14."
+    },
+    {
+      "location": "html: «خدا ایسے شادی شدہ جوڑوں» سے شروع ہونے والا پیراگراف",
+      "severity": "major",
+      "source_quote": "For our comely parts have no need: but God hath tempered the body together, having given more abundant honour to that part which lacked: That there should be no schism [division] in the body; but that the members should have the same care one for another –1 Corinthians 12:24-25.",
+      "suggested_fix": "انگریزی متن کی جگہ لکھیں: «کیونکہ ہمارے خوش نما اعضا کو اس کی ضرورت نہیں؛ مگر خدا نے جسم کو اس طرح یکجا کیا ہے کہ جس عضو میں کمی تھی اسے زیادہ عزت دی، تاکہ جسم میں تفرقہ [تقسیم] نہ ہو بلکہ اعضا ایک دوسرے کی یکساں فکر کریں –1 کرنتھیوں 12:24-25۔»",
+      "translation_quote": "For our comely parts have no need: but God hath tempered the body together, having given more abundant honour to that part which lacked: That there should be no schism [division] in the body; but that the members should have the same care one for another –1 Corinthians 12:24-25."
+    },
+    {
+      "location": "html: «جہاں کلیسائی مشکل» سے شروع ہونے والا پیراگراف، یعقوب کا مکمل اقتباس",
+      "severity": "major",
+      "source_quote": "Who is a wise man and endued with knowledge among you? ... And the fruit of righteousness is sown in peace of them that make peace. –James 3:13-18.",
+      "suggested_fix": "پورے انگریزی اقتباس کو موجودہ ساخت میں یوں ترجمہ کریں: <em>تم میں دانا اور سمجھ دار کون ہے؟ وہ <strong>اچھے چال چلن</strong> سے اپنے کام <strong>حکمت کی فروتنی</strong> کے ساتھ ظاہر کرے۔ لیکن اگر تمہارے دلوں میں <strong>تلخ حسد اور جھگڑا</strong> ہے تو فخر نہ کرو اور <strong>حق کے خلاف جھوٹ نہ بولو</strong>۔ <u>یہ حکمت اوپر سے نہیں اترتی بلکہ زمینی، نفسانی اور شیطانی ہے۔</u> کیونکہ جہاں حسد اور جھگڑا ہے وہاں بدنظمی اور ہر طرح کا برا کام ہے۔ مگر اوپر سے آنے والی حکمت پہلے <strong>پاک</strong>، پھر <strong>صلح پسند</strong>، <strong>نرم</strong>، <strong>بات ماننے والی، رحم سے بھری</strong> اور <strong>اچھے پھلوں سے معمور</strong>، <strong>بے طرف دار</strong> اور <strong>بے ریا</strong> ہوتی ہے۔ اور صلح کرانے والے راست بازی کا پھل صلح کے ساتھ بوتے ہیں۔ –یعقوب 3:13-18۔ </em>",
+      "translation_quote": "Who is a wise man and endued with knowledge among you? let him shew out of <strong>a good conversation</strong> ... And the fruit of righteousness is sown in peace of them that make peace. –James 3:13-18."
+    },
+    {
+      "location": "html: «پہلا سبب» والا پیراگراف",
+      "severity": "major",
+      "source_quote": "and he gave… [various spiritual gifts to believers] [to some this gift and to others a different gift] … For the perfecting of the saints, for the work of the ministry, for the edifying of the body of Christ: –Ephesians 4:11-12.",
+      "suggested_fix": "اقتباس کو یوں ترجمہ کریں: <em>اور اُس نے دیے… [ایمان داروں کو مختلف روحانی تحائف] [کسی کو یہ تحفہ اور کسی کو دوسرا تحفہ] … تاکہ <strong>مقدسین کی تکمیل</strong> ہو، <strong>خدمت کا کام</strong> ہو اور <strong>مسیح کے جسم کی تعمیر</strong> ہو: –افسیوں 4:11-12۔</em>",
+      "translation_quote": "and he gave… [various spiritual gifts to believers] [to some this gift and to others a different gift] … For <strong>the perfecting of the saints</strong>, for <strong>the work of the ministry</strong>, for <strong>the edifying of the body of Christ</strong>: –Ephesians 4:11-12."
+    },
+    {
+      "location": "html: «دوسرا سبب» والا پیراگراف؛ «زبانوں کا تحفہ» کے تحت پہلا پیراگراف",
+      "severity": "major",
+      "source_quote": "Wherefore tongues are for a sign, not to them that believe, but to them that believe not: but prophesying serveth not for them that believe not, but for them which believe –1 Corinthians 14:22.",
+      "suggested_fix": "دونوں مقامات پر اقتباس کا ترجمہ کریں: «پس زبانیں ایمان لانے والوں کے لیے نہیں بلکہ ایمان نہ لانے والوں کے لیے نشان ہیں؛ لیکن نبوت ایمان نہ لانے والوں کے لیے نہیں بلکہ ایمان لانے والوں کے لیے ہے –1 کرنتھیوں 14:22۔» موجودہ <em> برقرار رکھیں، اور دوسرے مقام پر «زبانیں ... نشان ہیں» کے متعلقہ الفاظ پر موجود <strong> بھی برقرار رکھیں۔",
+      "translation_quote": "Wherefore tongues are for a sign, not to them that believe, but to them that believe not: but prophesying serveth not for them that believe not, but for them which believe –1 Corinthians 14:22. / Wherefore <strong>tongues are for a sign</strong>, not to them that believe ..."
+    },
+    {
+      "location": "html: چوتھا پیراگراف؛ مرکوز تلاش والا پیراگراف؛ کلیسیائی مشکل اور تین جہتی جواب والے پیراگراف",
+      "severity": "major",
+      "source_quote": "those who are ordained / ordained church leaders / the ordained among us / among the ordained / one or more of the ordained / before the rest of the ordained / ordaining another brother",
+      "suggested_fix": "مذہبی منصب پر تقرری کا مفہوم بحال کریں: «روحانی حیثیت رکھنے والوں» کو «کلیسیائی خدمت کے لیے مقرر کیے گئے لوگوں»، «روحانی قائدین» کو «کلیسیائی خدمت کے لیے مقرر کردہ قائدین»، «منظَّم لوگوں» اور «منظَّموں» کی تمام مذکورہ صورتوں کو سیاق کے مطابق «کلیسیائی خدمت کے لیے مقرر کردہ بھائیوں»، اور «مدّد کے لیے منظَّم کرنے» کو «مدد کے لیے کلیسیائی خدمت پر مقرر کرنے» سے بدلیں۔",
+      "translation_quote": "روحانی حیثیت رکھنے والوں / روحانی قائدین / ہم میں سے منظَّم لوگوں / منظَّموں میں / منظَّموں میں سے ایک یا زیادہ / باقی منظَّموں کے سامنے / دوسرے بھائی کو مدّد کے لیے منظَّم کرنے"
+    },
+    {
+      "location": "html: شادی کی مثال والا پیراگراف، آخری جملہ",
+      "severity": "major",
+      "source_quote": "the wife learned to yield her gifting in a way that allowed her husband to be the godly head of the home",
+      "suggested_fix": "اس جزو کو «اور بیوی نے اپنے تحفے کو اس طرح تابع رکھنا سیکھا کہ اس کا شوہر گھر کا خدا ترس سربراہ بن سکے» سے بدلیں۔ «خدائی» شوہر کو الٰہی قرار دیتا ہے، جبکہ اصل میں خدا ترسی مراد ہے؛ «تسلیم کرنا» بھی تحفے کو تابع رکھنے کا مفہوم ادا نہیں کرتا۔",
+      "translation_quote": "بیوی نے اپنے تحفے کو ایسی طرح تسلیم کرنا سیکھ لیا جس سے شوہر گھر کا خدائی سردار بن سکا"
+    },
+    {
+      "location": "html: صرف حوالہ رکھنے والے اردو پیراگراف",
+      "severity": "minor",
+      "source_quote": "–1 Corinthians 12:11 / (1 Corinthians 12:24-25) / (2 Corinthians 12:7-12)",
+      "suggested_fix": "اردو متن میں باقی رہ جانے والے ان حوالوں کے کتابی نام بالترتیب «–1 کرنتھیوں 12:11»، «(1 کرنتھیوں 12:24-25)» اور «(2 کرنتھیوں 12:7-12)» کریں؛ اعداد اور مقامات برقرار رکھیں۔",
+      "translation_quote": "–1 Corinthians 12:11 / (1 Corinthians 12:24-25) / (2 Corinthians 12:7-12)"
+    },
+    {
+      "location": "html: تحائف کی فہرست اور مرکوز تلاش والا پیراگراف",
+      "severity": "minor",
+      "source_quote": "the word of knowledge / ALL the gifts",
+      "suggested_fix": "«معلوم کا کلام» کو «علم کا کلام» اور «ALL تحائف» کو «تمام تحائف» سے بدلیں۔",
+      "translation_quote": "معلوم کا کلام / ALL تحائف"
+    },
+    {
+      "location": "html: تحفہ جگانے کی دعا والا پیراگراف",
+      "severity": "minor",
+      "source_quote": "what I actually need is to stir up that gift",
+      "suggested_fix": "«اس تحفے کو مشتعل کرنا» کے بجائے «اس تحفے کو بیدار کرنا» لکھیں؛ موجودہ لفظ غصہ یا اشتعال پیدا کرنے کا مفہوم دیتا ہے۔",
+      "translation_quote": "حقیقت میں مجھے جو درکار ہے وہ اس تحفے کو مشتعل کرنا ہے"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
