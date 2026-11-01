@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-01T01:05:59+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"683a4e23-acbb-434a-8e0e-2b0793e1a0fb\\\">\\n  <figure>\\n    <img src=\\\"/images/articles/683a4e23-acbb-434a-8e0e-2b0793e1a0fb-1.jpg\\\" alt=\\\"’n Sittende skilder met ’n palet langs ’n esel\\\">\\n  </figure>\\n  <p>Toe Apelles, die Griekse skilder, gevra is waarom hy soveel moeite aan sy skilderye bestee, het hy geantwoord: “Omdat ek vir die ewigheid skilder.” Hy het die woord as ’n kragtige beeldspraak gebruik; maar ons kan die woord letterlik gebruik wanneer ons sê dat ons die prente van ons lewens vir die ewigheid skilder. Ons gebruik kleure wat nie vervaag nie. Elke rein en heilige woord of daad wat in daardie prent ingewerk word, sal daar staan, onverganklik en onsterflik. Elke selfsugtige of sondige ding wat op daardie lewensdoek geskilder word, kan nooit uitgewas word nie, behalwe deur die toepassing van die bloed van Jesus hier in hierdie lewe. Nou of nooit baat daardie kosbare bloed. Wanneer die dood kom, stop die skilderproses! Dan kan geen hale van berou of geloof meer bygevoeg word nie. Dan kan geen skuldige kolle uitgewas word nie. Die skildery is klaar, en vir altyd klaar.</p>\\n  <p>Die dood raam die prent en stuur dit na die Oordeelsdag vir vertoning. Nie ’n “private voorskou” voor ’n uitgesoekte geselskap nie, maar ’n openbare vertoning voor ’n vergaderde menigte wat niemand kan tel nie. Want God sal elke woord en elke daad oordeel, of dit goed of kwaad is. Die prent van ons lewens wat voor die “groot wit troon” vertoon word, sal vir altyd onveranderlik wees. As die doek versier is met dade, hoe nederig ook al, tot eer van God, sal die lewenswerk as ’n ewige gedenkteken van Goddelike genade bly staan. As die lewe slegs bestee is aan die bevrediging van die sondige self, sal die ellendige prent daarvan slegs voorgehou word tot “skande en ewige veragting.”</p>\\n  <p>Ons mag dan intens verlang om die portret te verander en te verbeter, maar die potlood en die kleure is agtergelaat; die hand sal vir ewig sy vaardigheid verloor het. Ons mag die regverdige Regter dringend smeek en bid om ons nog een kans te gee. Die onherroeplike antwoord sal wees: “Laat die onregverdige nog onregverdig bly; en laat die onreine nog onrein bly; en laat die regverdige nog regverdig bly; en laat die heilige nog heilig bly.” Aangesien hierdie dinge waar is, watter soort mense behoort ons dan nie te wees in ’n heilige lewenswandel en godsvrug nie.</p>\\n  <p>Toe die edele Russell as martelaar vir die vryheid tereggestel is, het hy sy horlosie aan ’n vriend gegee wat langs hom op die steier gestaan het. “Neem hierdie horlosie,” het hy gesê, “want ek het niks meer met <em>tyd</em> te doen nie. My gedagtes gaan nou net oor die ewigheid.” Die sterwende martelaar se woorde is ’n tydige boodskap vir ons almal. Ons leraars, wat opnuut met die Meester se werk begin, kan gerus daarop let dat ons vir die ewigheid preek! Laat elke ouer wat hierdie paragraaf lees, sy gewete vra: “Lei ek my kinders op, nie net vir hierdie wêreld nie, maar ook vir die wêreld wat kom?” Laat elke sakeman homself afvra of hy net daarop mik om ’n sak vol gate vol te maak, of as God se rentmeester skatte in die hemel bymekaarmaak. Jong vriend, oefen jy jouself in selfbevrediging, of vir die onsterflike kroon?</p>\\n  <p>Op die mure van ’n instelling in Montreal het ek hierdie somer hierdie kort sin gesien—“Niks is lank nie, behalwe die ewigheid.” Dit was ’n leuse vir elke leraar se studeerkamer en vir die mure van elke woning. Laat ons dit almal voor ons op die hemelgewelf skryf. “Niks is die moeite werd om voor te lewe nie, behalwe die ewigheid.”</p>\\n  <p class=\\\"poem\\\">Laat die klinkende klokke van die tyd<br>\\n  Met hul wisseling styg en daal!<br>\\n  Maar in verhewe ondertone—<br>\\n  Wat diep bo hulle almal uitklink—<br>\\n  Is daar ’n stem wat <em>moet</em> gehoor word,<br>\\n  Terwyl ons oomblikke vorentoe vlug,<br>\\n  En dit spreek net hierdie woord<br>\\n  <strong>‘Ewigheid! Ewigheid!’</strong></p>\\n</article>\\n\",\"section\":null,\"subtitle\":null,\"title\":\"Skilder vir die ewigheid\"}",
+    "content_bytes": 4120,
+    "content_evidence_truncated": false,
+    "content_sha256": "18c20ac73759925a83f1f5b88518f995a510fa362e293e0085867c36d83e2842",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1274,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 50,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1795,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1792,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3069
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}
