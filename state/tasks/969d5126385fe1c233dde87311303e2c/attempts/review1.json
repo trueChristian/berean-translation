@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-01T01:04:31+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph 3\",\"severity\":\"minor\",\"source_quote\":\"and takes God at His word\",\"suggested_fix\":\"اور خدا کے وعدے پر بھروسا کرتا ہے\",\"translation_quote\":\"اور خدا کو اس کے کلام کے مطابق اسی عملی اور روزمرہ کے انداز میں قبول کرتا ہے\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 389,
+    "content_evidence_truncated": false,
+    "content_sha256": "7186f22e8fbcb8fdf9f7870b26f3138846a7728a6701ef3cca83c602e64f20b6",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 753,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 653,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2499,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1396,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 3252
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}
