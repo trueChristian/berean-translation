@@ -5,11 +5,82 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "f4dd6771e4e14cd0a32cbe5c2783f10c",
   "campaign": "auto-da01aca96323a067b563bea5334f306726a105d866af6211988d7da12e15257e",
   "created_at": "2026-11-01T07:30:14+00:00",
-  "events": [],
-  "findings": [],
+  "events": [
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 896,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 79,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 11007,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 9904,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 11903
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "html: parágrafo iniciado por “Paulo disse a Timóteo”",
+      "severity": "major",
+      "source_quote": "Neglect not the gift that is in thee",
+      "suggested_fix": "Substituir “Não retires o dom que está em ti” por “Não negligencies o dom que está em ti”.",
+      "translation_quote": "Não retires o dom que está em ti"
+    },
+    {
+      "location": "html: parágrafo iniciado por “Perguntei a diversas pessoas”, citação de 1 Coríntios 12:11",
+      "severity": "major",
+      "source_quote": "But all these worketh that one and the selfsame Spirit",
+      "suggested_fix": "Substituir por “Mas todas essas coisas são operadas por um só e o mesmo Espírito”.",
+      "translation_quote": "Mas todos esses operam um só e o mesmo Espírito"
+    },
+    {
+      "location": "html: parágrafo iniciado por “Deus também pode conceder”, citação de 1 Coríntios 12:24-25",
+      "severity": "major",
+      "source_quote": "having given more abundant honour to that part which lacked",
+      "suggested_fix": "Substituir “dando mais abundante honra à parte que faltava” por “dando mais abundante honra à parte que dela carecia”. O texto se refere a uma parte carente de honra, não a uma parte ausente.",
+      "translation_quote": "dando mais abundante honra à parte que faltava"
+    },
+    {
+      "location": "html: parágrafo iniciado por “No caso de dificuldade”, citação de Tiago 3:13-18",
+      "severity": "major",
+      "source_quote": "But if ye have <strong>bitter envying and strife in your hearts</strong>",
+      "suggested_fix": "Substituir “Mas, se tendes amargura, e espírito de contenda em vosso coração” por “Mas, se tendes <strong>inveja amarga e contenda em vossos corações</strong>”.",
+      "translation_quote": "Mas, se tendes amargura, e espírito de contenda em vosso coração"
+    },
+    {
+      "location": "html: parágrafo sob “Os Dons Espirituais Não São a Identidade do Cristão”",
+      "severity": "minor",
+      "source_quote": "we open ourselves up to many pitfalls and dangers",
+      "suggested_fix": "Substituir “e, assim, abrirmos mão a muitos perigos e armadilhas” por “e, assim, nos expomos a muitas armadilhas e perigos”.",
+      "translation_quote": "e, assim, abrirmos mão a muitos perigos e armadilhas"
+    },
+    {
+      "location": "html: parágrafo iniciado por “A resposta bíblica”, item (2)",
+      "severity": "minor",
+      "source_quote": "through fervent prayer",
+      "suggested_fix": "Substituir “oração febril” por “oração fervorosa”.",
+      "translation_quote": "por meio de oração febril"
+    },
+    {
+      "location": "html: parágrafo iniciado por “Consideraria essas”",
+      "severity": "minor",
+      "source_quote": "I would consider these to be the two main reasons",
+      "suggested_fix": "Eliminar a repetição: “Consideraria essas as duas razões principais”.",
+      "translation_quote": "Consideraria essas as as duas razões principais"
+    }
+  ],
   "id": "7cdabefdc42f67305ce4d256d3425fc2",
   "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
   "language": "por",
@@ -98,11 +169,13 @@
     }
   },
   "protected": false,
+  "quality_score": 90,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/67a504cb12c02775b3a5cd8c97e9fa11f83f53d153a1c4dc8214a7a72f95aa69.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "review1",
     "max_candidate_bytes": 120000,
@@ -115,7 +188,7 @@
     "total_reserved_usd": 0.798217,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 0,
   "translation_key": "1c1dd57f73c720271265483775e7d93acfbda9f85eeefb95d0c905a5b442adfd",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

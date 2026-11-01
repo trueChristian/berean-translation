@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-01T15:00:26+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"html: parágrafo iniciado por “Paulo disse a Timóteo”\",\n      \"severity\": \"major\",\n      \"source_quote\": \"Neglect not the gift that is in thee\",\n      \"suggested_fix\": \"Substituir “Não retires o dom que está em ti” por “Não negligencies o dom que está em ti”.\",\n      \"translation_quote\": \"Não retires o dom que está em ti\"\n    },\n    {\n      \"location\": \"html: parágrafo iniciado por “Perguntei a diversas pessoas”, citação de 1 Coríntios 12:11\",\n      \"severity\": \"major\",\n      \"source_quote\": \"But all these worketh that one and the selfsame Spirit\",\n      \"suggested_fix\": \"Substituir por “Mas todas essas coisas são operadas por um só e o mesmo Espírito”.\",\n      \"translation_quote\": \"Mas todos esses operam um só e o mesmo Espírito\"\n    },\n    {\n      \"location\": \"html: parágrafo iniciado por “Deus também pode conceder”, citação de 1 Coríntios 12:24-25\",\n      \"severity\": \"major\",\n      \"source_quote\": \"having given more abundant honour to that part which lacked\",\n      \"suggested_fix\": \"Substituir “dando mais abundante honra à parte que faltava” por “dando mais abundante honra à parte que dela carecia”. O texto se refere a uma parte carente de honra, não a uma parte ausente.\",\n      \"translation_quote\": \"dando mais abundante honra à parte que faltava\"\n    },\n    {\n      \"location\": \"html: parágrafo iniciado por “No caso de dificuldade”, citação de Tiago 3:13-18\",\n      \"severity\": \"major\",\n      \"source_quote\": \"But if ye have <strong>bitter envying and strife in your hearts</strong>\",\n      \"suggested_fix\": \"Substituir “Mas, se tendes amargura, e espírito de contenda em vosso coração” por “Mas, se tendes <strong>inveja amarga e contenda em vossos corações</strong>”.\",\n      \"translation_quote\": \"Mas, se tendes amargura, e espírito de contenda em vosso coração\"\n    },\n    {\n      \"location\": \"html: parágrafo sob “Os Dons Espirituais Não São a Identidade do Cristão”\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"we open ourselves up to many pitfalls and dangers\",\n      \"suggested_fix\": \"Substituir “e, assim, abrirmos mão a muitos perigos e armadilhas” por “e, assim, nos expomos a muitas armadilhas e perigos”.\",\n      \"translation_quote\": \"e, assim, abrirmos mão a muitos perigos e armadilhas\"\n    },\n    {\n      \"location\": \"html: parágrafo iniciado por “A resposta bíblica”, item (2)\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"through fervent prayer\",\n      \"suggested_fix\": \"Substituir “oração febril” por “oração fervorosa”.\",\n      \"translation_quote\": \"por meio de oração febril\"\n    },\n    {\n      \"location\": \"html: parágrafo iniciado por “Consideraria essas”\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"I would consider these to be the two main reasons\",\n      \"suggested_fix\": \"Eliminar a repetição: “Consideraria essas as duas razões principais”.\",\n      \"translation_quote\": \"Consideraria essas as as duas razões principais\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": false,\n  \"score\": 90\n}",
+    "content_bytes": 3142,
+    "content_evidence_truncated": false,
+    "content_sha256": "7c11e376bf23f81ca39c44dc5e2f8aea49b0c4dd4fa7ac1923634315c2ad23cc",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 896,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 79,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 11007,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9904,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 11903
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}

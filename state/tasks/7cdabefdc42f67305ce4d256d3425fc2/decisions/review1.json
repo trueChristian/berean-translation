@@ -1,0 +1,56 @@
+{
+  "findings": [
+    {
+      "location": "html: parágrafo iniciado por “Paulo disse a Timóteo”",
+      "severity": "major",
+      "source_quote": "Neglect not the gift that is in thee",
+      "suggested_fix": "Substituir “Não retires o dom que está em ti” por “Não negligencies o dom que está em ti”.",
+      "translation_quote": "Não retires o dom que está em ti"
+    },
+    {
+      "location": "html: parágrafo iniciado por “Perguntei a diversas pessoas”, citação de 1 Coríntios 12:11",
+      "severity": "major",
+      "source_quote": "But all these worketh that one and the selfsame Spirit",
+      "suggested_fix": "Substituir por “Mas todas essas coisas são operadas por um só e o mesmo Espírito”.",
+      "translation_quote": "Mas todos esses operam um só e o mesmo Espírito"
+    },
+    {
+      "location": "html: parágrafo iniciado por “Deus também pode conceder”, citação de 1 Coríntios 12:24-25",
+      "severity": "major",
+      "source_quote": "having given more abundant honour to that part which lacked",
+      "suggested_fix": "Substituir “dando mais abundante honra à parte que faltava” por “dando mais abundante honra à parte que dela carecia”. O texto se refere a uma parte carente de honra, não a uma parte ausente.",
+      "translation_quote": "dando mais abundante honra à parte que faltava"
+    },
+    {
+      "location": "html: parágrafo iniciado por “No caso de dificuldade”, citação de Tiago 3:13-18",
+      "severity": "major",
+      "source_quote": "But if ye have <strong>bitter envying and strife in your hearts</strong>",
+      "suggested_fix": "Substituir “Mas, se tendes amargura, e espírito de contenda em vosso coração” por “Mas, se tendes <strong>inveja amarga e contenda em vossos corações</strong>”.",
+      "translation_quote": "Mas, se tendes amargura, e espírito de contenda em vosso coração"
+    },
+    {
+      "location": "html: parágrafo sob “Os Dons Espirituais Não São a Identidade do Cristão”",
+      "severity": "minor",
+      "source_quote": "we open ourselves up to many pitfalls and dangers",
+      "suggested_fix": "Substituir “e, assim, abrirmos mão a muitos perigos e armadilhas” por “e, assim, nos expomos a muitas armadilhas e perigos”.",
+      "translation_quote": "e, assim, abrirmos mão a muitos perigos e armadilhas"
+    },
+    {
+      "location": "html: parágrafo iniciado por “A resposta bíblica”, item (2)",
+      "severity": "minor",
+      "source_quote": "through fervent prayer",
+      "suggested_fix": "Substituir “oração febril” por “oração fervorosa”.",
+      "translation_quote": "por meio de oração febril"
+    },
+    {
+      "location": "html: parágrafo iniciado por “Consideraria essas”",
+      "severity": "minor",
+      "source_quote": "I would consider these to be the two main reasons",
+      "suggested_fix": "Eliminar a repetição: “Consideraria essas as duas razões principais”.",
+      "translation_quote": "Consideraria essas as as duas razões principais"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
