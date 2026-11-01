@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph 4, sentence about the businessman",
+      "severity": "major",
+      "source_quote": "“as God’s steward, is laying up treasures in heaven?”",
+      "suggested_fix": "«خدا کے امانت دار کی حیثیت سے آسمان پر خزانے جمع کر رہا ہے؟»",
+      "translation_quote": "“خدا کے مختار کی حیثیت سے آسمان پر خزانے جمع کر رہا ہے؟”"
+    },
+    {
+      "location": "Poem, line 4",
+      "severity": "major",
+      "source_quote": "“Sounding deep beyond them all—”",
+      "suggested_fix": "«جو ان سب سے بھی گہری گونجتی ہے—»",
+      "translation_quote": "“جو سب آوازوں سے بلند گونجتی ہے—”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
