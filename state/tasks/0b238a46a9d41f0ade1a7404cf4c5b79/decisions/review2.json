@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Nåd!, paragraph beginning ”Jag är säker på att Hans …”",
+      "severity": "major",
+      "source_quote": "“For by the Holy Spirit are ye saved, through faith …”",
+      "suggested_fix": "Ändra citatet till: ”Ty genom den helige Ande är ni frälsta, genom tron …”",
+      "translation_quote": "”Ty genom den helige Ande är ni frälsta, av nåd genom tron …”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

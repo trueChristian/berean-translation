@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "54aa1005-4cb6-4ffa-a398-f43608781e0c",
+    "response_id": "chatcmpl-EfLWvuXYGiU7ZYida2J4otsurN5wg",
+    "usage": {
+      "completion_tokens": 871,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 738,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 26489,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 25386,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 27360
+    }
+  },
+  "received_at": "2026-11-01T14:59:42+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Nåd!, paragraph beginning ”Jag är säker på att Hans …”",
+        "severity": "major",
+        "source_quote": "“For by the Holy Spirit are ye saved, through faith …”",
+        "suggested_fix": "Ändra citatet till: ”Ty genom den helige Ande är ni frälsta, genom tron …”",
+        "translation_quote": "”Ty genom den helige Ande är ni frälsta, av nåd genom tron …”"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 93
+  }
+}
