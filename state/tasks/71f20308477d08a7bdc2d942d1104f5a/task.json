@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "80618b9a2dd9435caae239c9947ef306",
   "campaign": "auto-5fe0c4b62082af18bc50d09837f383c6bcca0873155e94dc7f7921a2b7575cf3",
   "created_at": "2026-11-01T15:02:23+00:00",
   "events": [
@@ -68,32 +67,31 @@
         },
         "total_tokens": 18328
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 604,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 566,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 11897,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 10794,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 12501
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "Paragraph beginning “মূর্তিপূজা হলো”; paragraph beginning “প্রকাশ্য, বাহ্যিক মূর্তিপূজা”; paragraph beginning “৮. আশা”",
-      "severity": "major",
-      "source_quote": "“papists” (in each of these three places)",
-      "suggested_fix": "In all three places, replace “পাপিষ্ঠরা/পাপিষ্ঠদের” with “পাপিস্টরা/পাপিস্টদের” (or “রোমান ক্যাথলিকরা/রোমান ক্যাথলিকদের”) to preserve the reference to papists rather than sinners generally.",
-      "translation_quote": "“পাপিষ্ঠরা দেবদূত, সাধু ও প্রতিমাকে”; “পাপিষ্ঠদের মূর্তিপূজা”; “পাপিষ্ঠরা প্রকাশ্যেই তা করে”"
-    },
-    {
-      "location": "Paragraph beginning “২. গোপন ও আত্মার মূর্তিপূজা”",
-      "severity": "major",
-      "source_quote": "“Then is that soul worship, which is due only to God.”",
-      "suggested_fix": "Change “তখন সেই আত্মা-উপাসনা ঈশ্বরকেই দেওয়া হয়, যা কেবল তাঁরই প্রাপ্য” to “তখন ঈশ্বরেরই প্রাপ্য সেই আত্মিক উপাসনা অন্য বিষয়কে দেওয়া হয়।”",
-      "translation_quote": "“তখন সেই আত্মা-উপাসনা ঈশ্বরকেই দেওয়া হয়, যা কেবল তাঁরই প্রাপ্য।”"
-    },
-    {
-      "location": "Heading “তেরোটি কাজ”",
-      "severity": "minor",
-      "source_quote": "“Thirteen Acts of Soul Worship”",
-      "suggested_fix": "Change the heading to “আত্মার উপাসনার তেরোটি কাজ” to retain the source’s reference to soul worship.",
-      "translation_quote": "“তেরোটি কাজ”"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-11-01T23:01:28+00:00",
   "id": "71f20308477d08a7bdc2d942d1104f5a",
   "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
   "language": "ben",
@@ -182,7 +180,7 @@
     }
   },
   "protected": false,
-  "quality_score": 90,
+  "quality_score": 100,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
@@ -202,7 +200,7 @@
     "total_reserved_usd": 0.091055,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "1592d5c49f7d9edd93bb2728e23ed568f883fb2f709d5fb8a672cfe5a474b053",
   "translation_model_actual": "gpt-6-luna"
