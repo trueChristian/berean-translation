@@ -22302,6 +22302,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/deu/articles/e8bdb12c-2e8e-4f55-9052-07bec6e103a1.html",
+      "html_sha256": "ace25328d561d8053e39020e1c47db98cb905d94f16209e1af713391a98f70f9",
+      "human_reviewed": false,
+      "id": "e8bdb12c-2e8e-4f55-9052-07bec6e103a1",
+      "images": [
+        {
+          "alt": "Ein nebliger Winterwald, der sich in einem See spiegelt",
+          "public_path": "/images/articles/e8bdb12c-2e8e-4f55-9052-07bec6e103a1-1.png"
+        }
+      ],
+      "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
+      "language": "deu",
+      "language_tag": "de",
+      "metadata": "content/deu/articles/e8bdb12c-2e8e-4f55-9052-07bec6e103a1.json",
+      "metadata_sha256": "a215d62fda255441623d6bbf6c720df3ce9f9f2dce984a2e96fb5dba1cefb400",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "DIE NEUTESTAMENTLICHE KIRCHE",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "1c1dd57f73c720271265483775e7d93acfbda9f85eeefb95d0c905a5b442adfd",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Geistliche Gaben",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/deu/articles/e9621e7b-df8d-4497-998c-b98af23486b7.html",
       "html_sha256": "da9db1b2b6124d14bf1ac436392ba6982db5a4f589aab3f0ff00073527dc6103",
       "human_reviewed": false,

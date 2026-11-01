@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "translation.html, Absatz 4, letzter Satz",
+      "severity": "minor",
+      "source_quote": "how some of us plain churches take only the gifts that have to do with Church government",
+      "suggested_fix": "Ersetze „wie einige von uns schlicht lebenden Gemeinden“ durch „wie einige unserer schlicht lebenden Gemeinden“.",
+      "translation_quote": "wie einige von uns schlicht lebenden Gemeinden nur die Gaben in Bezug auf Gemeindeleitung anerkennen"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

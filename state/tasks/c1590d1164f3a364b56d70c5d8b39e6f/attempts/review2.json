@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-01T19:31:30+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"translation.html, Absatz 4, letzter Satz\",\"severity\":\"minor\",\"source_quote\":\"how some of us plain churches take only the gifts that have to do with Church government\",\"suggested_fix\":\"Ersetze „wie einige von uns schlicht lebenden Gemeinden“ durch „wie einige unserer schlicht lebenden Gemeinden“.\",\"translation_quote\":\"wie einige von uns schlicht lebenden Gemeinden nur die Gaben in Bezug auf Gemeindeleitung anerkennen\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 507,
+    "content_evidence_truncated": false,
+    "content_sha256": "52c743670b45cd499b962f2bf9345ea1f8fd8dc6b7081d6d0b505f769b13eaa2",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 216,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 93,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 11592,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 10489,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 11808
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 1
+}
