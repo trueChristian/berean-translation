@@ -82095,6 +82095,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/swa/articles/3f679973-e351-4fe3-8930-e08d9fba23a5.html",
+      "html_sha256": "52d08d33472d0c761016d1f73176203b691102c96f9f1bc8c582d01d3fdff166",
+      "human_reviewed": false,
+      "id": "3f679973-e351-4fe3-8930-e08d9fba23a5",
+      "images": [
+        {
+          "alt": "Mtembea-milima mmoja akimsaidia mwingine kupanda wakati wa machweo",
+          "public_path": "/images/articles/3f679973-e351-4fe3-8930-e08d9fba23a5-1.png"
+        }
+      ],
+      "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
+      "language": "swa",
+      "language_tag": "sw",
+      "metadata": "content/swa/articles/3f679973-e351-4fe3-8930-e08d9fba23a5.json",
+      "metadata_sha256": "8b2730d50ccd7f169690e5e8e0eeeff3ae548764adbd5109e1673338d308ec1c",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "HAMASA KWA VIJANA",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "d910d483e90bcd959841ed8e96903546f249749ffefaa1d05b277a01a16ea99d",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Mungu Hakuniacha Niondoke",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/swa/articles/4171e741-b739-4659-8aec-4b8f5f833165.html",
       "html_sha256": "88357ab98599c72f5a2e7fe059a2b852da1c3c35d5bef7fb74254c4e80736bc2",
       "human_reviewed": false,
