@@ -20,9 +20,32 @@
       "event": "automatic_requested",
       "previous_task": "73462ef7a5e3b9aee59afc556298f0f2",
       "task": "c351a529251bab71849331f1b42ddb72"
+    },
+    {
+      "at": "2026-11-01T20:17:51+00:00",
+      "event": "complete",
+      "reason": null,
+      "task": "c351a529251bab71849331f1b42ddb72"
     }
   ],
   "language": "deu",
   "latest_task": "c351a529251bab71849331f1b42ddb72",
-  "published": null
+  "published": {
+    "html_path": "content/deu/articles/7f8746cc-2e3a-476f-a5a0-28d15abe5412.html",
+    "html_sha256": "84349379bbcdd007db47a458c1265459eb06f0aee2ccff296c078dc2fde109ca",
+    "human_review": null,
+    "human_reviewed": false,
+    "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
+    "metadata_path": "content/deu/articles/7f8746cc-2e3a-476f-a5a0-28d15abe5412.json",
+    "metadata_sha256": "727e4deab40b7e1d9039fa75f369cff0c6e5f1cfc8f90635559a08bc7a12b0a3",
+    "model": "gpt-6.1-sol",
+    "notice_html": "<aside class=\"translation-notice\" data-translation-notice=\"ai\" lang=\"de\" dir=\"ltr\" role=\"note\">\n  <p>Dieser Artikel wurde mit künstlicher Intelligenz von OpenAI (Modell: gpt-6.1-sol) übersetzt und noch nicht von einem Menschen überprüft. Maßgeblich ist das englische Original. Bei Unklarheiten über die Bedeutung ziehen Sie bitte das englische Original heran. <a href=\"/en/articles/7f8746cc-2e3a-476f-a5a0-28d15abe5412/\" data-source-article-id=\"7f8746cc-2e3a-476f-a5a0-28d15abe5412\" hreflang=\"en\">Englisches Original</a></p>\n</aside>",
+    "published_at": "2026-11-01T20:17:51+00:00",
+    "quality_score": 98,
+    "review_model": "gpt-6.1-sol",
+    "source_revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
+    "source_snapshot": "state/sources/51d606d75d530fd499bf35ec2974d90fa7a2324da5e2effd7bbf91caa4c13cfd.json",
+    "task": "c351a529251bab71849331f1b42ddb72",
+    "translation_key": "1592d5c49f7d9edd93bb2728e23ed568f883fb2f709d5fb8a672cfe5a474b053"
+  }
 }
