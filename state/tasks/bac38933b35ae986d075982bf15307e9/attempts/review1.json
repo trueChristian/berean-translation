@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-01T07:55:13+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"html, citations de 1 Corinthiens 12:11 dans les paragraphes commençant par « J’ai demandé » et « Peut-on donner »\",\n      \"severity\": \"major\",\n      \"source_quote\": \"But all these worketh that one and the selfsame Spirit, dividing to every man severally as he will\",\n      \"suggested_fix\": \"Dans la première citation, écrire : « Mais c’est un seul et même Esprit qui opère toutes ces choses, les distribuant à chacun en particulier comme il le veut – 1 Corinthiens 12:11. » Dans la seconde, conserver les balises existantes et écrire : « Mais c’est un seul et même Esprit qui opère toutes ces choses, les distribuant à chacun en particulier <strong>comme il le veut</strong> – 1 Corinthiens 12:11. »\",\n      \"translation_quote\": \"Mais tous ceux‑ci opèrent un seul et même Esprit, le distribuant à chacun comme il le veut […] Mais toutes ces choses-là opèrent le même et seul Esprit, qui les distribue à chacun en particulier\"\n    },\n    {\n      \"location\": \"html, paragraphe commençant par « Si je ne m’abuse », dernière phrase\",\n      \"severity\": \"major\",\n      \"source_quote\": \"leaving it only to those who are ordained to have gifts, while most all the rest of the gifts are left unrecognized\",\n      \"suggested_fix\": \"Remplacer « le laissant uniquement à ceux qui sont ordonnés » par « réservant aux seuls membres ordonnés le fait d’avoir des dons ».\",\n      \"translation_quote\": \"le laissant uniquement à ceux qui sont ordonnés, tandis que la plupart des autres dons restent non reconnus\"\n    },\n    {\n      \"location\": \"html, citation de Jacques 3:13-18, dernière phrase\",\n      \"severity\": \"major\",\n      \"source_quote\": \"And the fruit of righteousness is sown in peace of them that make peace.\",\n      \"suggested_fix\": \"Écrire : « Et le fruit de la justice est semé dans la paix par ceux qui font la paix. » Le texte source désigne ceux qui sèment, non les bénéficiaires.\",\n      \"translation_quote\": \"Et le fruit de justice est semé dans la paix pour ceux qui cultivent la paix.\"\n    },\n    {\n      \"location\": \"html, citation de Jacques 3:13-18\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"<strong>a good conversation</strong>; <strong>meekness of wisdom</strong>; <strong>bitter envying and strife in your hearts</strong>; <strong>lie not against the truth</strong>; <strong>pure</strong>; <strong>peaceable</strong>; <strong>gentle</strong>; <strong>easy to be intreated, full of mercy</strong>; <strong>good fruits</strong>; <strong>without partiality</strong>; <strong>without hypocrisy</strong>\",\n      \"suggested_fix\": \"Rétablir les balises <strong> autour des segments français correspondants : « sa bonne conduite », « l’humilité de la sagesse », « la jalousie amère et des luttes dans vos cœurs », « ne mentez pas contre la vérité », « pure », « pacifique », « modérée », « facile à persuader, pleine de miséricorde », « bons fruits », « sans partialité » et « sans hypocrisie ».\",\n      \"translation_quote\": \"sa bonne conduite […] l’humilité de la sagesse […] la jalousie amère et des luttes dans vos cœurs […] ne mentez pas contre la vérité […] pure, puis pacifique, modérée, facile à persuader, pleine de miséricorde et de bons fruits, sans partialité, et sans hypocrisie\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": false,\n  \"score\": 89\n}",
+    "content_bytes": 3443,
+    "content_evidence_truncated": false,
+    "content_sha256": "56d9dba28cb919945f6f52d42919547a5395f5779449beb93797a4a00bcc453a",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 990,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 127,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 11489,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 10386,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 12479
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}
