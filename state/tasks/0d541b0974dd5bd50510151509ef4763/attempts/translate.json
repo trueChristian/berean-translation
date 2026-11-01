@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-01T01:05:24+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"683a4e23-acbb-434a-8e0e-2b0793e1a0fb\\\">\\n  <figure>\\n    <img src=\\\"/images/articles/683a4e23-acbb-434a-8e0e-2b0793e1a0fb-1.jpg\\\" alt=\\\"Ein sitzender Maler hält neben einer Staffelei eine Palette\\\">\\n  </figure>\\n  <p>Als Apelles, der griechische Maler, gefragt wurde, warum er so viel Arbeit auf seine Bilder verwende, antwortete er: „Weil ich für die Ewigkeit male.“ Er gebrauchte das Wort als kühnes sprachliches Bild; doch wir können es wörtlich nehmen, wenn wir sagen, dass wir die Bilder unseres Lebens für die Ewigkeit malen. Wir verwenden beständige Farben. Jedes reine und heilige Wort und jede reine und heilige Tat, die in dieses Bild eingearbeitet wird, wird dort unvergänglich und unsterblich bestehen bleiben. Was immer Selbstsüchtiges oder Sündiges auf diese Leinwand des Lebens gemalt wird, kann niemals abgewaschen werden, außer durch die Anwendung des Blutes Jesu hier in diesem gegenwärtigen Leben. Jetzt oder nie vermag dieses kostbare Blut etwas. Wenn der Tod kommt, kommt der Malprozess zum Stillstand! Dann können keine Striche der Reue oder des Glaubens mehr hinzugefügt werden. Dann können keine schuldhaften Flecken mehr abgewaschen werden. Das Bild ist vollendet, und zwar für immer.</p>\\n  <p>Der Tod rahmt das Bild ein und schickt es zur Ausstellung am Tag des Gerichts. Keine „private Vorbesichtigung“ vor einer ausgewählten Gesellschaft, sondern eine öffentliche Ausstellung vor einer versammelten Menge, die niemand zählen kann. Denn Gott wird jedes Wort und jedes Werk ins Gericht bringen, sei es gut oder böse. Das Bild unseres Lebens, das vor dem „großen weißen Thron“ gezeigt wird, wird für immer unveränderlich sein. Ist die Leinwand mit Werken geschmückt, seien sie auch noch so bescheiden, die zur Ehre Gottes geschehen sind, dann wird das Lebenswerk als ewiges Denkmal göttlicher Gnade bestehen bleiben. Wurde das Leben hingegen nur damit verbracht, das sündige Ich zu befriedigen, dann wird dieses jämmerliche Bild nur zur „Schande und ewigen Verachtung“ vorgezeigt werden.</p>\\n  <p>Wir mögen dann sehnsüchtig wünschen, das Porträt zu verändern und zu verbessern, doch Bleistift und Farben haben wir zurückgelassen; die Hand wird ihre Geschicklichkeit für immer verloren haben. Wir mögen den gerechten Richter inständig bitten und anflehen, uns noch eine Gelegenheit zu geben. Die unumkehrbare Antwort wird lauten: „Wer ungerecht ist, der sei weiterhin ungerecht; wer unrein ist, der sei weiterhin unrein. Wer gerecht ist, der sei weiterhin gerecht; wer heilig ist, der sei weiterhin heilig.“ Da diese Dinge wahr sind, was für Menschen sollten wir dann sein in unserem ganzen heiligen Wandel und in unserer Frömmigkeit!</p>\\n  <p>Als der edle Russell als Märtyrer für die Freiheit hingerichtet wurde, reichte er einem Freund, der neben ihm auf dem Schafott stand, seine Uhr. „Nimm diese Uhr“, sagte er, „denn mit der <em>Zeit</em> habe ich nichts mehr zu tun. Meine Gedanken gelten jetzt nur noch der Ewigkeit.“ Die Worte des sterbenden Märtyrers sind für uns alle ein Wort zur rechten Zeit. Wir Pastoren, die wir uns aufs Neue an das Werk des Meisters machen, sollten wohl bedenken, dass wir für die Ewigkeit predigen! Jeder Elternteil, der diesen Absatz liest, frage sein Gewissen: „Erziehe ich meine Kinder nicht nur für diese Welt, sondern auch für die kommende?“ Jeder Geschäftsmann frage sich, ob er nur darauf aus ist, einen Sack zu füllen, der voller Löcher ist, oder ob er als Verwalter Gottes Schätze im Himmel sammelt. Junger Freund, erziehst du dich zur Selbstbefriedigung oder für die unvergängliche Krone?</p>\\n  <p>An der Wand einer Einrichtung in Montreal sah ich diesen Sommer diese kurze Zeile: „Nichts ist lang außer der Ewigkeit.“ Das wäre ein Leitspruch für das Arbeitszimmer jedes Pastors und für die Wände jedes Hauses. Lasst uns allen diesen Satz vor Augen schreiben, auf den Bogen des Himmels: „Nichts ist es wert, dafür zu leben, außer der Ewigkeit.“</p>\\n  <p class=\\\"poem\\\">Mögen der Zeit Glocken Klang<br>\\n  Mit ihrem Wandel steigen, fallen!<br>\\n  Doch in erhabnem Unterklang –<br>\\n  Der sie alle übertönt –<br>\\n  Ist eine Stimme, die <em>gehört</em> werden muss,<br>\\n  Während unsre Stunden eilen,<br>\\n  Und sie spricht nur dieses Wort:<br>\\n  <strong>„Ewigkeit! Ewigkeit!“</strong></p>\\n</article>\\n\",\"section\":null,\"subtitle\":null,\"title\":\"Für die Ewigkeit malen\"}",
+    "content_bytes": 4493,
+    "content_evidence_truncated": false,
+    "content_sha256": "174c8f0b9cbdb53cc36b5be7f9dfd1cc7224e97b5c9621f178a15a83a726da36",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1281,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 137,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1792,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1789,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3073
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}
