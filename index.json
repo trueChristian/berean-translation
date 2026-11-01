@@ -76113,6 +76113,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/rus/articles/e8bdb12c-2e8e-4f55-9052-07bec6e103a1.html",
+      "html_sha256": "1dadfbbf8eec7bd729b37cb4058e2e4a89d4e45f90f5edffdaaf59c33df8ab0f",
+      "human_reviewed": false,
+      "id": "e8bdb12c-2e8e-4f55-9052-07bec6e103a1",
+      "images": [
+        {
+          "alt": "Туманный зимний лес, отражающийся в озере",
+          "public_path": "/images/articles/e8bdb12c-2e8e-4f55-9052-07bec6e103a1-1.png"
+        }
+      ],
+      "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
+      "language": "rus",
+      "language_tag": "ru",
+      "metadata": "content/rus/articles/e8bdb12c-2e8e-4f55-9052-07bec6e103a1.json",
+      "metadata_sha256": "14218ccebc3712e38af9b3d964e8939547c0f0b0187cd7a2965ebc922267784f",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "НОВОЗАВЕТНАЯ ЦЕРКОВЬ",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "1c1dd57f73c720271265483775e7d93acfbda9f85eeefb95d0c905a5b442adfd",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Духовные дары",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/rus/articles/e9621e7b-df8d-4497-998c-b98af23486b7.html",
       "html_sha256": "86244882c8c8d46ba5f64d2439ca0dca46580e108562e6721542348195499f83",
       "human_reviewed": false,
