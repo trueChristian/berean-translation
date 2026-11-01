@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "2bd39417-741f-4d63-aeb2-6025309e8a67",
+    "response_id": "chatcmpl-EfFMNMHbn3ms4DWUJFhwE2xZ6rCB5",
+    "usage": {
+      "completion_tokens": 780,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 613,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3314,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2211,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 4094
+    }
+  },
+  "received_at": "2026-11-01T07:26:52+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph 4",
+        "severity": "major",
+        "source_quote": "“When the noble Russell was executed as a martyr to freedom, he handed his watch to a friend who stood beside him on the scaffold.”",
+        "suggested_fix": "将“站在断头台旁的一位朋友”改为“站在行刑台旁的一位朋友”，避免把未指明类型的行刑台具体化为断头台。",
+        "translation_quote": "“高贵的拉塞尔为自由殉道、即将被处决时，把自己的怀表交给站在断头台旁的一位朋友。”"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 94
+  }
+}
