@@ -1,0 +1,129 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "7a83ba05-8638-4ebd-8284-57c007aaf1eb",
+    "response_id": "chatcmpl-EfLGGpAAyyy5bfKsQdj5sC53BiDsI",
+    "usage": {
+      "completion_tokens": 2392,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 76,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 12143,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 11040,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 14535
+    }
+  },
+  "received_at": "2026-11-01T15:00:24+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "html، الفقرة الرابعة",
+        "severity": "major",
+        "source_quote": "the evangelicals tend to do the same with the gift of evangelism",
+        "suggested_fix": "استبدل «الإنجليكيين» بـ«الإنجيليين»، و«موهبة الوعظ/التبشير» بـ«موهبة التبشير».",
+        "translation_quote": "الإنجليكيين يميلون إلى نفس الشيء مع موهبة الوعظ/التبشير"
+      },
+      {
+        "location": "html، اقتباسا كورنثوس الأولى 12:11",
+        "severity": "major",
+        "source_quote": "But all these worketh that one and the selfsame Spirit, dividing to every man severally as he will",
+        "suggested_fix": "صحح الاقتباس الأول إلى «ولكن هذه كلها يعملها الروح الواحد نفسه، موزعًا على كل واحد بمفرده كما يشاء»، والثاني إلى «ولكن هذه كلها يعملها الروح الواحد نفسه، موزعًا على كل واحد بمفرده <strong>كما يشاء</strong>»، مع إبقاء المراجع ووسوم التأكيد.",
+        "translation_quote": "وَلكِنَّ هَذَا يَعْمَلُ كُلُّهُ ذَاكَ النَّفْسُ الْواحدةُ وَالرُّوحُ يَقْسِمُ كُلَّ وَاحِدٍ عَلَى حِدَةٍ كَمَا يَشَاءُ؛ وَكَلاَهَذِهِ يَعْمَلُ ذَاكُ النَّفْسُ الرُّوحُ الْوَاحِدُ، يُقَسِّمُ كُلَّ وَاحِدٍ عَلَى حِدَةٍ"
+      },
+      {
+        "location": "html، عنوان المواهب المعطاة من الله",
+        "severity": "major",
+        "source_quote": "Spiritual Gifts Are God-Given, Not To Be Sought After By Man",
+        "suggested_fix": "اجعل نص العنوان «المواهب الروحية معطاة من الله، ولا ينبغي للإنسان أن يسعى وراءها»، مع إبقاء وسم h3.",
+        "translation_quote": "المواهب الروحية مُعطاة من الله، وليست مُنتَظرة من الإنسان"
+      },
+      {
+        "location": "html، اقتباس عبرانيين 2:4",
+        "severity": "major",
+        "source_quote": "God also bearing them witness, both with signs and wonders, and with divers miracles",
+        "suggested_fix": "استبدل هذا الجزء بـ«والله أيضًا يشهد لهم بآيات وعجائب ومعجزات متنوعة»، مع إبقاء بقية الاقتباس ووسومه ومرجعه.",
+        "translation_quote": "اللَّهُ مُشْهِدًا بِهَذَا أَيْضًا بِآيَاتٍ وَعَجَائِبَ وَأَشْكَالِ أَعْمَالٍ"
+      },
+      {
+        "location": "html، اقتباس تيموثاوس الأولى 4:14 والاقتباس المختصر في فقرة الحل الثلاثي",
+        "severity": "major",
+        "source_quote": "which was given thee by prophecy, with the laying on of the hands of the presbytery; …the laying on of the hands of the presbytery",
+        "suggested_fix": "استبدل «بموضع النبوة» بـ«بالنبوة»، واستبدل «الإيبارشية» في الموضعين بـ«جماعة الشيوخ». الإيبارشية منطقة كنسية وليست جماعة الشيوخ التي تضع الأيدي.",
+        "translation_quote": "التي أُنْعِمَتْ عليكَ بموضع النبوة مع وضع الأيدي من قِبل الإيبارشية؛ …وَضْعِ الأَيَادِي مِنْ قِبَلِ الإِيبَارِشِيَّةِ"
+      },
+      {
+        "location": "html، اقتباس كورنثوس الأولى 12:24-25",
+        "severity": "major",
+        "source_quote": "but God hath tempered the body together, having given more abundant honour to that part which lacked",
+        "suggested_fix": "استبدل «بَلِ اللهُ قَدِ اشْتَرَبَ الجَسَدَ مَعًا» بـ«بل الله قد ألّف الجسد معًا».",
+        "translation_quote": "بَلِ اللهُ قَدِ اشْتَرَبَ الجَسَدَ مَعًا"
+      },
+      {
+        "location": "html، اقتباس يعقوب 3:13-18",
+        "severity": "major",
+        "source_quote": "with meekness of wisdom ... And the fruit of righteousness is sown in peace of them that make peace.",
+        "suggested_fix": "استبدل «بِمُسَاكِنَةِ الحِكْمَةِ» بـ«بوداعة الحكمة»، والجملة الأخيرة بـ«وثمر البر يُزرع في سلام من صانعي السلام».",
+        "translation_quote": "بِمُسَاكِنَةِ الحِكْمَةِ ... وَيُزْرَعُ ثَمَرُ البِرِّ فِي سَالِمِيِّنَ الَّذِينَ يُصْنَعُونَ السَّلاَمَ"
+      },
+      {
+        "location": "html، اقتباس أفسس 4:11-12 ضمن السبب الأول",
+        "severity": "major",
+        "source_quote": "[various spiritual gifts to believers] [to some this gift and to others a different gift]",
+        "suggested_fix": "أضف بعد «[مَوَاهِبَ مُخْتَلِفَةً لِلْمُؤْمِنِينَ]» العبارة المحذوفة «[لبعضهم هذه الموهبة ولآخرين موهبة مختلفة]» داخل الاقتباس.",
+        "translation_quote": "[مَوَاهِبَ مُخْتَلِفَةً لِلْمُؤْمِنِينَ] …"
+      },
+      {
+        "location": "html، قصة السيدة في كندا",
+        "severity": "major",
+        "source_quote": "I suspect there is a good possibility that at times, the one speaking in tongues may not even be aware of it.",
+        "suggested_fix": "استبدل الجملة بـ«أظن أن هناك احتمالًا كبيرًا أن المتكلم بالألسنة قد لا يكون أحيانًا مدركًا لذلك أصلًا». «أشكّ أن» توحي بالتشكيك في الاحتمال بدل ترجيحه.",
+        "translation_quote": "أشكّ أن المتكلم بالألسنة قد يكون أحيانًا غير مدرك لذلك."
+      },
+      {
+        "location": "html، قائمة المواهب في الفقرة الثالثة",
+        "severity": "minor",
+        "source_quote": "exhortation",
+        "suggested_fix": "استبدل «توبيخ (تشجيع)» بـ«وعظ وتشجيع» لتجنب حصر الموهبة في التوبيخ وإضافة بديل متناقض بين قوسين.",
+        "translation_quote": "توبيخ (تشجيع)"
+      },
+      {
+        "location": "html، الفقرة الرابعة",
+        "severity": "minor",
+        "source_quote": "our Pentecostal friends",
+        "suggested_fix": "استبدل «أصدقائنا الخماسيي الحركة» بـ«أصدقائنا الخمسينيين».",
+        "translation_quote": "أصدقائنا الخماسيي الحركة"
+      },
+      {
+        "location": "html، فقرة طلب المواهب في الخلوة",
+        "severity": "minor",
+        "source_quote": "the WILL of God being very involved ... asking God to make me humble",
+        "suggested_fix": "استبدل «تورط مَشِيئةِ الله بشكل كبير» بـ«الدور الكبير لمشيئة الله»، و«أن يُصغّر قلبنا» بـ«أن يجعلنا متواضعين».",
+        "translation_quote": "تورط مَشِيئةِ الله بشكل كبير ... أن يُصغّر قلبنا"
+      },
+      {
+        "location": "html، فقرة امتلاء يسوع بالمواهب ونهاية فقرة الحل الثلاثي",
+        "severity": "minor",
+        "source_quote": "He was full of the Holy Ghost ... in this flesh ... ordaining another brother",
+        "suggested_fix": "صحح «أنها كان» إلى «أنه كان»، و«في هذه الجسد» إلى «في هذا الجسد»، و«بشأن تسيم أخٍ آخر» إلى «بشأن ترسيم أخٍ آخر».",
+        "translation_quote": "أنها كان مملوءًا بالروح القدس ... في هذه الجسد ... بشأن تسيم أخٍ آخر"
+      },
+      {
+        "location": "html، اقتباس يعقوب 3:13-18",
+        "severity": "minor",
+        "source_quote": "<strong>a good conversation</strong> ... <strong>meekness of wisdom</strong> ... <strong>bitter envying and strife in your hearts</strong> ... <strong>lie not against the truth</strong> ... <strong>pure</strong> ... <strong>peaceable</strong> ... <strong>gentle</strong> ... <strong>easy to be intreated, full of mercy</strong> ... <strong>good fruits</strong> ... <strong>without partiality</strong> ... <strong>without hypocrisy</strong>",
+        "suggested_fix": "أعد وسوم strong إلى العبارات العربية المقابلة لهذه العبارات داخل الاقتباس، وأبقِ المرجع «– يعقوب 3:13-18.» داخل وسم em كما في المصدر.",
+        "translation_quote": "فَلْيُظْهِرْ مِنْ سُلُوكِهِ الْحَسَنِ أَعْمَالَهُ بِمُسَاكِنَةِ الحِكْمَةِ ... بِلا مَيْلٍ، وَبِلا نَفَاقٍ ... </em> – يعقوب 3:13-18."
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 78
+  }
+}
