@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-01T15:00:38+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph 4\",\"severity\":\"minor\",\"source_quote\":\"his old name Jacob, the Supplanter\",\"suggested_fix\":\"Replace „העוקב, מְחַתֵּר תחת אחרים” with a clearer rendering such as „יעקב, הנוטל את מקומו של אחר”\",\"translation_quote\":\"שמו הישן, יעקב — העוקב, מְחַתֵּר תחת אחרים —\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 432,
+    "content_evidence_truncated": false,
+    "content_sha256": "d95c2aeb8c5bc50754863943b8bd908f1c57bddf208cf5ce05cf8c558050d406",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 685,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 552,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2399,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1296,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 3084
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

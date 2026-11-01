@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph 4",
+      "severity": "minor",
+      "source_quote": "his old name Jacob, the Supplanter",
+      "suggested_fix": "Replace „העוקב, מְחַתֵּר תחת אחרים” with a clearer rendering such as „יעקב, הנוטל את מקומו של אחר”",
+      "translation_quote": "שמו הישן, יעקב — העוקב, מְחַתֵּר תחת אחרים —"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}
