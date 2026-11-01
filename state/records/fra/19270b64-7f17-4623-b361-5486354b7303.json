@@ -7,9 +7,32 @@
       "event": "automatic_requested",
       "previous_task": null,
       "task": "34b41dc07658656a8f855f5bb139d831"
+    },
+    {
+      "at": "2026-11-01T01:03:46+00:00",
+      "event": "complete",
+      "reason": null,
+      "task": "34b41dc07658656a8f855f5bb139d831"
     }
   ],
   "language": "fra",
   "latest_task": "34b41dc07658656a8f855f5bb139d831",
-  "published": null
+  "published": {
+    "html_path": "content/fra/articles/19270b64-7f17-4623-b361-5486354b7303.html",
+    "html_sha256": "231adb229f3abab4f8de6652d3c330976280c9b0067a5d762d36f66fb4542b71",
+    "human_review": null,
+    "human_reviewed": false,
+    "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
+    "metadata_path": "content/fra/articles/19270b64-7f17-4623-b361-5486354b7303.json",
+    "metadata_sha256": "d0f542fe48a461b371131105cbe25db1c9638ef93789ff48e3149257e17055b1",
+    "model": "gpt-6-luna",
+    "notice_html": "<aside class=\"translation-notice\" data-translation-notice=\"ai\" lang=\"fr\" dir=\"ltr\" role=\"note\">\n  <p>Cet article a été traduit par intelligence artificielle avec OpenAI (modèle : gpt-6-luna) et n’a pas encore fait l’objet d’une révision humaine. Le texte original anglais fait autorité. En cas de doute sur le sens, veuillez consulter l’original anglais. <a href=\"/en/articles/19270b64-7f17-4623-b361-5486354b7303/\" data-source-article-id=\"19270b64-7f17-4623-b361-5486354b7303\" hreflang=\"en\">Original anglais</a></p>\n</aside>",
+    "published_at": "2026-11-01T01:03:46+00:00",
+    "quality_score": 98,
+    "review_model": "gpt-6-luna",
+    "source_revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
+    "source_snapshot": "state/sources/970537de50127eebae71c064d746cc4558f6bb33c1c33fea434b6a8d803940db.json",
+    "task": "34b41dc07658656a8f855f5bb139d831",
+    "translation_key": "63da7cacb1fe8b3491c5fd4fb86fa335742cd71d9cb8f136d36e8a661edff9fb"
+  }
 }
