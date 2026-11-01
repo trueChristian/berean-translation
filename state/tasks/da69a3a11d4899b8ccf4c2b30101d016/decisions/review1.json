@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Poema, verso 4",
+      "severity": "minor",
+      "source_quote": "Sounding deep beyond them all—",
+      "suggested_fix": "Che risuonano più profondamente di ogni altro suono—",
+      "translation_quote": "Che risuonano più profondi di tutti loro—"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

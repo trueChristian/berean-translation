@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "8ca8bd2d-3802-4c27-9b96-e40930aa53c2",
+    "response_id": "chatcmpl-EfEZOoR9MIFEEAS28mH5WthYcvPC5",
+    "usage": {
+      "completion_tokens": 585,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 495,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3337,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3334,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3922
+    }
+  },
+  "received_at": "2026-11-01T01:31:03+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Poema, verso 4",
+        "severity": "minor",
+        "source_quote": "Sounding deep beyond them all—",
+        "suggested_fix": "Che risuonano più profondamente di ogni altro suono—",
+        "translation_quote": "Che risuonano più profondi di tutti loro—"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}
