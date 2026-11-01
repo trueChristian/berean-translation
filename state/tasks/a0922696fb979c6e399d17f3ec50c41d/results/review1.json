@@ -1,0 +1,59 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "5e756bbb-f07d-405f-a827-af4e793b8f64",
+    "response_id": "chatcmpl-EfLWj7iLF9GmgDkCTH5Oz7werLTOu",
+    "usage": {
+      "completion_tokens": 477,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4812,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 4809
+      },
+      "total_tokens": 5289
+    }
+  },
+  "received_at": "2026-11-01T14:57:48+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, абзац 2",
+        "severity": "major",
+        "source_quote": "“all fear, save the fear of filial love, is forever swept away”",
+        "suggested_fix": "Заменить «всякий страх, кроме благоговения, рождаемого сыновней любовью» на «всякий страх, кроме страха сыновней любви» или другую формулировку, сохраняющую именно этот смысл.",
+        "translation_quote": "«всякий страх, кроме благоговения, рождаемого сыновней любовью, навсегда исчезает»"
+      },
+      {
+        "location": "HTML, абзац 3",
+        "severity": "major",
+        "source_quote": "“if we do but know Him and understand its truth, we can together fulfill that very idea of friendship”",
+        "suggested_fix": "Заменить «сможем вместе осуществить саму идею дружбы» на формулировку со смыслом «сами можем осуществить эту самую идею дружбы».",
+        "translation_quote": "«то сможем вместе осуществить саму идею дружбы»"
+      },
+      {
+        "location": "HTML, абзац 5",
+        "severity": "major",
+        "source_quote": "“he was I, and I he”",
+        "suggested_fix": "Заменить «ведь он был мной, а я — им» на «ведь он был мной, а я — им» с согласованием местоимений с контекстом? Сохранить смысл взаимного слияния говорящего и возлюбленного; например: «ведь он был мной, а я был им».",
+        "translation_quote": "«ведь он был мной, а я — им»"
+      },
+      {
+        "location": "HTML, последний абзац",
+        "severity": "major",
+        "source_quote": "“then will come a new sense of Christ, such as the soul has never had before”",
+        "suggested_fix": "Заменить «она обретает новое чувство присутствия Христа» на «тогда душа обретёт новое познание Христа» или формулировку, не добавляющую идею присутствия.",
+        "translation_quote": "«она обретает новое чувство присутствия Христа, которого прежде никогда не знала»"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 91
+  }
+}
