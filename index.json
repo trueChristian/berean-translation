@@ -45784,6 +45784,46 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ind/articles/f87354d0-0bb8-4271-a8db-792c77d0d090.html",
+      "html_sha256": "302a2f95ac17fa4f91ed865a110952fe57b4dd14cda3080e29fb0b9512460fb6",
+      "human_reviewed": false,
+      "id": "f87354d0-0bb8-4271-a8db-792c77d0d090",
+      "images": [
+        {
+          "alt": "Ukiran orang-orang percaya menerima Roh Kudus pada hari Pentakosta",
+          "public_path": "/images/articles/f87354d0-0bb8-4271-a8db-792c77d0d090-1.png"
+        },
+        {
+          "alt": "Lidah api bergaya ilustrasi",
+          "public_path": "/images/articles/f87354d0-0bb8-4271-a8db-792c77d0d090-2.jpg"
+        },
+        {
+          "alt": "Seekor burung merpati terbang menuju tangan yang terulur",
+          "public_path": "/images/articles/f87354d0-0bb8-4271-a8db-792c77d0d090-3.png"
+        },
+        {
+          "alt": "Rambu jalan yang memadukan wajah tersenyum dan sedih",
+          "public_path": "/images/articles/f87354d0-0bb8-4271-a8db-792c77d0d090-4.jpg"
+        }
+      ],
+      "issue_id": "05538f8e-6560-5f96-b313-890e87c05daf",
+      "language": "ind",
+      "language_tag": "id",
+      "metadata": "content/ind/articles/f87354d0-0bb8-4271-a8db-792c77d0d090.json",
+      "metadata_sha256": "708de49c68df1964abc16d6f7ed29fae77e3623ea9ff8d1b2700ede8c003dbe7",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": null,
+      "source_revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
+      "source_translation_key": "ecc35e8cd4c57e2b467ba1c07b4baf9d8db122db80e2c80ae9e2a166783c3de1",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Menyelamatkan Baptisan Roh Kudus dari Pentakostalisme",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ind/articles/fb02a7e7-4fdc-4363-bea0-aa8a68b36f8b.html",
       "html_sha256": "84039375c1e00958f16f0bdc69120a89cecca89712e3f947a6129d1c54324168",
       "human_reviewed": false,

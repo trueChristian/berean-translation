@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "41fbe4dedcee48f1bdb690edd39e2f56",
   "campaign": "auto-dc50c28d339581a364e62aaa65ba6c7807d100648481845e5e86902358f8d384",
   "created_at": "2026-10-31T23:21:26+00:00",
   "events": [
@@ -28,18 +27,31 @@
         },
         "total_tokens": 40073
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 120,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 88,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 26337,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 25234,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 26457
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "Paragraf yang dimulai “Yesus lalu langsung berbicara tentang memiliki hidup kekal” dan keterangan gambar sesudahnya",
-      "severity": "major",
-      "source_quote": "“the name Jehovah is not found in the New Testament. But it actually is there … because Jehovah means ‘always existent.’” Caption: “the Spirit of God, Jehovah himself”",
-      "suggested_fix": "Gunakan “Yehova” secara konsisten, bukan “Yahweh”, di paragraf dan keterangan gambar; argumen artikel secara khusus merujuk pada nama “Jehovah” dan makna yang dilekatkan padanya.",
-      "translation_quote": "“nama Yahweh tidak ditemukan dalam Perjanjian Baru. Namun, sebenarnya nama itu ada di sana … karena Yahweh berarti ‘yang selalu ada.’” Caption: “Roh Allah, Yahweh sendiri”"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-11-01T15:00:29+00:00",
   "id": "2ee1f6a8eb4d6a5b7c93e9c49c383378",
   "issue_id": "05538f8e-6560-5f96-b313-890e87c05daf",
   "language": "ind",
@@ -128,9 +140,11 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/11b94d8a8e8a81e67a7fd3c0c4b463dbf9b119ac25d58f9d05d02c6535fa9d79.json",
   "stage": "review2",
   "stage_budget": {
@@ -144,7 +158,7 @@
     "total_reserved_usd": 1.112375,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "ecc35e8cd4c57e2b467ba1c07b4baf9d8db122db80e2c80ae9e2a166783c3de1",
   "translation_model_actual": "gpt-6.1-sol"
