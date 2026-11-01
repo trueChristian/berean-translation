@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph 9, Scripture quotation (Psalm 27:4)",
+      "severity": "major",
+      "source_quote": "“One thing have I desired of the Lord”",
+      "suggested_fix": "Replace “Neno moja nimelitaka kwa Bwana” with “Jambo moja nimelitaka kwa Bwana” to convey “one thing,” not “one word.”",
+      "translation_quote": "“Neno moja nimelitaka kwa Bwana”"
+    },
+    {
+      "location": "Paragraph 13, list of worldly efforts",
+      "severity": "major",
+      "source_quote": "“you rise early, go to bed late”",
+      "suggested_fix": "Replace “kwenda kulala usiku wa manane” with “kwenda kulala usiku sana” so the translation says “go to bed late” without specifying midnight.",
+      "translation_quote": "“mnapoamka mapema, kwenda kulala usiku wa manane”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "666e91db-3041-406a-935f-9fabc63790af",
+    "response_id": "chatcmpl-EfS8EXrrgtAb4bQRgtRDgIvf9yY1g",
+    "usage": {
+      "completion_tokens": 1056,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 838,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 11200,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 10097,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 12256
+    }
+  },
+  "received_at": "2026-11-01T15:59:15+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph 9, Scripture quotation (Psalm 27:4)",
+        "severity": "major",
+        "source_quote": "“One thing have I desired of the Lord”",
+        "suggested_fix": "Replace “Neno moja nimelitaka kwa Bwana” with “Jambo moja nimelitaka kwa Bwana” to convey “one thing,” not “one word.”",
+        "translation_quote": "“Neno moja nimelitaka kwa Bwana”"
+      },
+      {
+        "location": "Paragraph 13, list of worldly efforts",
+        "severity": "major",
+        "source_quote": "“you rise early, go to bed late”",
+        "suggested_fix": "Replace “kwenda kulala usiku wa manane” with “kwenda kulala usiku sana” so the translation says “go to bed late” without specifying midnight.",
+        "translation_quote": "“mnapoamka mapema, kwenda kulala usiku wa manane”"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 93
+  }
+}
