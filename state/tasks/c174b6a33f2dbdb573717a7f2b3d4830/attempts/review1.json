@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-01T19:31:21+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Opening Scripture quotation, Ephesians 5:5\",\"severity\":\"major\",\"source_quote\":\"“nor covetous man, who is an idolater”\",\"suggested_fix\":\"Change the embedded clause to “wat ’n afgodedienaar is” (without “nie”), preserving the final “nie” that negates the main clause.\",\"translation_quote\":\"“gierigaard—wat ’n afgodedienaar is nie—”\"},{\"location\":\"Paragraph 4, the sentence beginning “Wanneer ons dadelik…”\",\"severity\":\"minor\",\"source_quote\":\"“God is thrust down—the creatures and your lusts advanced into the place of God”\",\"suggested_fix\":\"Replace the English conjunction “and” with Afrikaans “en”: “God word na onder geskuif—die skepsele en jou begeertes word tot die plek van God verhef—en daardie eer …”\",\"translation_quote\":\"“God word na onder geskuif—die skepsele en jou begeertes word tot die plek van God verhef—and daardie eer”\"}],\"findings_complete\":true,\"passed\":false,\"score\":93}",
+    "content_bytes": 981,
+    "content_evidence_truncated": false,
+    "content_sha256": "f75b737c42a66b94351a5e843131faded9c4657506df212560f33dfda7445443",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 954,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 697,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 10920,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 10917,
+        "cached_tokens": 0
+      },
+      "total_tokens": 11874
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

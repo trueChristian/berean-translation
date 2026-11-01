@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Opening Scripture quotation, Ephesians 5:5",
+      "severity": "major",
+      "source_quote": "“nor covetous man, who is an idolater”",
+      "suggested_fix": "Change the embedded clause to “wat ’n afgodedienaar is” (without “nie”), preserving the final “nie” that negates the main clause.",
+      "translation_quote": "“gierigaard—wat ’n afgodedienaar is nie—”"
+    },
+    {
+      "location": "Paragraph 4, the sentence beginning “Wanneer ons dadelik…”",
+      "severity": "minor",
+      "source_quote": "“God is thrust down—the creatures and your lusts advanced into the place of God”",
+      "suggested_fix": "Replace the English conjunction “and” with Afrikaans “en”: “God word na onder geskuif—die skepsele en jou begeertes word tot die plek van God verhef—en daardie eer …”",
+      "translation_quote": "“God word na onder geskuif—die skepsele en jou begeertes word tot die plek van God verhef—and daardie eer”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
