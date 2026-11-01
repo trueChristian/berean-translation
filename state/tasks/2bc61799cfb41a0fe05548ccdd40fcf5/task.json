@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "d695b1e192ff466b8a4ac39d334a62e8",
   "campaign": "auto-629bca004560fc5d9c9f1ec63a54b0007ad7786f74cc49c3c40546b6ec899e14",
   "created_at": "2026-11-01T07:57:02+00:00",
   "events": [
@@ -48,25 +47,31 @@
         },
         "total_tokens": 17687
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 88,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 56,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 11764,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 11761,
+          "cached_tokens": 0
+        },
+        "total_tokens": 11852
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "translation.html: seluruh 29 paragraf dan keenam h3",
-      "severity": "critical",
-      "source_quote": "p1: “Spiritual Gifts”; “Wherefore he saith”; p2: “ascended up on high”; “And he [God] gave some”; p3: “the word of wisdom”; “ministry, exhortation”; p4: “What a wealth of”; p5: “Should we be lifting”; p6: “A word of caution”; p7: “primary in the life of our Lord Jesus”; p8: “A couple of cautions”; p9: “Could there be a caution”; p10: “Do you notice in both verses”; p11: “Also, it would be good”; p12: “Paul told Timothy”; p13: “We would never do that”; p14: “God can also give”; p15: “In the case of church difficulty”; p16: “The biblical answer”; p17: “I would see two main reasons”; p18: “The first reason”; p19: “There are those who are going about”; p20: “The second reason”; p21: “I would consider these”; p22: “It is interesting that of the 19 gifts”; p23: “We have seen where there was sickness”; p24: “It is important to consider”; p25: “It is not a sign to the believer”; p26: “Recently, I was made aware”; p27: “What I understand as the real thing”; p28: “The reason we find in scripture”; p29: “In conclusion, we find”. Headings: “Spiritual Gifts Should Not Excuse Ungodly Behavior”; “Spiritual Gifts Are Not The Christian’s Identity”; “Spiritual Gifts Are God-Given, Not To Be Sought After By Man”; “Spiritual Gifts Are Not Included In The Biblical List of Qualifications For Church Leaders”; “God’s Goal for Spiritual Gifts”; “The Gift of Tongues”.",
-      "suggested_fix": "Terjemahkan seluruh bagian bahasa Inggris yang tersisa dalam p1–p29, termasuk semua kutipan Alkitab, daftar karunia, dan nama kitab, tanpa mengubah tag, penekanan, struktur, atau nomor rujukan. Pada p1 gunakan “Karunia Rohani” dan terjemahkan kutipannya, misalnya “Itulah sebabnya dikatakan: Ketika Ia naik ke tempat tinggi, Ia membawa tawanan-tawanan dan memberikan karunia kepada manusia –Efesus 4:8.” Pada p2 gunakan “naik ke tempat tinggi”, “karunia”, “jemaat”, dan “Efesus”; pada p3 terjemahkan kedua daftar karunia serta gunakan “1 Korintus” dan “Roma”. Terjemahkan juga seluruh kelanjutan p4–p29 yang masih berbahasa Inggris. Ganti keenam judul, sesuai urutannya, dengan “Karunia Rohani Tidak Boleh Dijadikan Alasan untuk Perilaku yang Tidak Saleh”; “Karunia Rohani Bukanlah Identitas Orang Kristen”; “Karunia Rohani Diberikan oleh Allah, Bukan untuk Dikejar oleh Manusia”; “Karunia Rohani Tidak Termasuk dalam Daftar Alkitab tentang Persyaratan bagi Pemimpin Gereja”; “Tujuan Allah bagi Karunia Rohani”; dan “Karunia Bahasa Roh”.",
-      "translation_quote": "Bagian-bagian berikut masih sama persis dalam bahasa Inggris: p1 “Spiritual Gifts”; “Wherefore he saith”; p2 “ascended up on high”; “And he [God] gave some”; p3 “the word of wisdom”; “ministry, exhortation”; p4 “What a wealth of”; p5 “Should we be lifting”; p6 “A word of caution”; p7 “primary in the life of our Lord Jesus”; p8 “A couple of cautions”; p9 “Could there be a caution”; p10 “Do you notice in both verses”; p11 “Also, it would be good”; p12 “Paul told Timothy”; p13 “We would never do that”; p14 “God can also give”; p15 “In the case of church difficulty”; p16 “The biblical answer”; p17 “I would see two main reasons”; p18 “The first reason”; p19 “There are those who are going about”; p20 “The second reason”; p21 “I would consider these”; p22 “It is interesting that of the 19 gifts”; p23 “We have seen where there was sickness”; p24 “It is important to consider”; p25 “It is not a sign to the believer”; p26 “Recently, I was made aware”; p27 “What I understand as the real thing”; p28 “The reason we find in scripture”; p29 “In conclusion, we find”. Keenam h3 juga mempertahankan teks sumber bahasa Inggris secara utuh."
-    },
-    {
-      "location": "translation.html: figure > img, atribut alt",
-      "severity": "major",
-      "source_quote": "A misty winter forest reflected in a lake",
-      "suggested_fix": "Ganti nilai atribut alt dengan “Hutan musim dingin berkabut yang terpantul di sebuah danau”, sambil mempertahankan atribut gambar lainnya.",
-      "translation_quote": "A misty winter forest reflected in a lake"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-11-01T14:59:57+00:00",
   "id": "2bc61799cfb41a0fe05548ccdd40fcf5",
   "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
   "language": "ind",
@@ -155,7 +160,7 @@
     }
   },
   "protected": false,
-  "quality_score": 10,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6.1-sol",
@@ -174,7 +179,7 @@
     "total_reserved_usd": 0.798764,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "1c1dd57f73c720271265483775e7d93acfbda9f85eeefb95d0c905a5b442adfd",
   "translation_model_actual": "gpt-6.1-sol"

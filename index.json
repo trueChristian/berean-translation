@@ -45481,6 +45481,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ind/articles/e8bdb12c-2e8e-4f55-9052-07bec6e103a1.html",
+      "html_sha256": "ea41438d2a4904b96624088a96eee64b486b45ea58d1ad7abbda31799cdb8725",
+      "human_reviewed": false,
+      "id": "e8bdb12c-2e8e-4f55-9052-07bec6e103a1",
+      "images": [
+        {
+          "alt": "Hutan musim dingin berkabut yang terpantul di sebuah danau",
+          "public_path": "/images/articles/e8bdb12c-2e8e-4f55-9052-07bec6e103a1-1.png"
+        }
+      ],
+      "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
+      "language": "ind",
+      "language_tag": "id",
+      "metadata": "content/ind/articles/e8bdb12c-2e8e-4f55-9052-07bec6e103a1.json",
+      "metadata_sha256": "348f29c70d759a853c8fe02ca3e121a340c989b77a58f841d2004734febf9b4e",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "GEREJA PERJANJIAN BARU",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "1c1dd57f73c720271265483775e7d93acfbda9f85eeefb95d0c905a5b442adfd",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Karunia Rohani",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ind/articles/e9621e7b-df8d-4497-998c-b98af23486b7.html",
       "html_sha256": "39f574935a3916b0447244d4aa2d2e0f397a9314b95f508bb75a1a09e2a24a9e",
       "human_reviewed": false,
