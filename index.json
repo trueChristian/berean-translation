@@ -84508,6 +84508,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/swe/articles/19270b64-7f17-4623-b361-5486354b7303.html",
+      "html_sha256": "74bd6d630f0b3cb62645ca38f2af6cec0b47229903b66503d95d25c4d3f01b97",
+      "human_reviewed": false,
+      "id": "19270b64-7f17-4623-b361-5486354b7303",
+      "images": [
+        {
+          "alt": "Jakob vilar under en trappa fylld av änglar",
+          "public_path": "/images/articles/19270b64-7f17-4623-b361-5486354b7303-1.jpg"
+        },
+        {
+          "alt": "Jakob knäböjer inför en bevingad ängel",
+          "public_path": "/images/articles/19270b64-7f17-4623-b361-5486354b7303-2.jpg"
+        }
+      ],
+      "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
+      "language": "swe",
+      "language_tag": "sv",
+      "metadata": "content/swe/articles/19270b64-7f17-4623-b361-5486354b7303.json",
+      "metadata_sha256": "2e550c9ac7da205819d717e814ce2e07da552dccd861fa6ac7f46bf2163fd6d0",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
+      "source_translation_key": "63da7cacb1fe8b3491c5fd4fb86fa335742cd71d9cb8f136d36e8a661edff9fb",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Hur människor växer",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/swe/articles/1bdf0b87-af5f-4c9b-99a2-004277f7718d.html",
       "html_sha256": "1f901514ebb54660ea5d4765f075d00bd97b52dc4bb414e9a9b809a5e09b490f",
       "human_reviewed": false,

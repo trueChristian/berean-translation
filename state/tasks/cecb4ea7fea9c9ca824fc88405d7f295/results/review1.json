@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "98efd3fd-aadb-4a25-b7ab-ff6bb56c16c1",
+    "response_id": "chatcmpl-EfEbeQUG6oIUM1gZa4XgCXyQQPi2z",
+    "usage": {
+      "completion_tokens": 614,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2396,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1293,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 3010
+    }
+  },
+  "received_at": "2026-11-01T01:31:29+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, fourth paragraph",
+        "severity": "minor",
+        "source_quote": "his old name Jacob, the Supplanter",
+        "suggested_fix": "Byt ”bedragaren” mot exempelvis ”den som tränger undan” för att bättre återge ”the Supplanter”.",
+        "translation_quote": "hans gamla namn Jakob, bedragaren"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, fourth paragraph",
+      "severity": "minor",
+      "source_quote": "his old name Jacob, the Supplanter",
+      "suggested_fix": "Byt ”bedragaren” mot exempelvis ”den som tränger undan” för att bättre återge ”the Supplanter”.",
+      "translation_quote": "hans gamla namn Jakob, bedragaren"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

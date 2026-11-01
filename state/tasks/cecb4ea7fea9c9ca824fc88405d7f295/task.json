@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "d59ac45cbc1f4202a0b221befccec412",
   "campaign": "auto-14c983a375ec3a576645c858538c347a8c9e7d8bb97ef51dd5b44bf0442fdd6c",
   "created_at": "2026-10-31T22:10:30+00:00",
   "events": [
@@ -28,10 +27,39 @@
         },
         "total_tokens": 2137
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 614,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 512,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 2396,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 1293,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 3010
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "HTML, fourth paragraph",
+      "severity": "minor",
+      "source_quote": "his old name Jacob, the Supplanter",
+      "suggested_fix": "Byt ”bedragaren” mot exempelvis ”den som tränger undan” för att bättre återge ”the Supplanter”.",
+      "translation_quote": "hans gamla namn Jakob, bedragaren"
+    }
+  ],
+  "finished_at": "2026-11-01T01:31:29+00:00",
   "id": "cecb4ea7fea9c9ca824fc88405d7f295",
   "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
   "language": "swe",
@@ -120,9 +148,11 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/970537de50127eebae71c064d746cc4558f6bb33c1c33fea434b6a8d803940db.json",
   "stage": "review1",
   "stage_budget": {
@@ -138,7 +168,7 @@
     "total_reserved_usd": 0.08625,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "63da7cacb1fe8b3491c5fd4fb86fa335742cd71d9cb8f136d36e8a661edff9fb",
   "translation_model_actual": "gpt-6-luna"
