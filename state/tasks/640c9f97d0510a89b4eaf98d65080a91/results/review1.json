@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "e125d968-edd1-472e-8733-6f1977c09ba6",
+    "response_id": "chatcmpl-EfYyAuGoma4ciejkm4PQCtgWfBAoy",
+    "usage": {
+      "completion_tokens": 940,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 810,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 12100,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 10997,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 13040
+    }
+  },
+  "received_at": "2026-11-01T23:36:06+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraphe commençant par « Je ne parle pas d’un grand rêve irréalisable »",
+        "severity": "minor",
+        "source_quote": "He is not lacking in the supply required to meet our deepest needs!",
+        "suggested_fix": "« il ne manque pas des ressources nécessaires » → « il ne manque pas de ressources nécessaires »",
+        "translation_quote": "il ne manque pas des ressources nécessaires pour répondre à nos besoins les plus profonds !"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}

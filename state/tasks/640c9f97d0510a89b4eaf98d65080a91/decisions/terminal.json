@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraphe commençant par « Je ne parle pas d’un grand rêve irréalisable »",
+      "severity": "minor",
+      "source_quote": "He is not lacking in the supply required to meet our deepest needs!",
+      "suggested_fix": "« il ne manque pas des ressources nécessaires » → « il ne manque pas de ressources nécessaires »",
+      "translation_quote": "il ne manque pas des ressources nécessaires pour répondre à nos besoins les plus profonds !"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

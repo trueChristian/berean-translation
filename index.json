@@ -32411,6 +32411,42 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/fra/articles/e08f3c82-7473-48d6-a445-1e8bf9f01d6f.html",
+      "html_sha256": "4722cb9cf54436e865d5befea6486ba921c150cee42c0770f09ed894a3390d36",
+      "human_reviewed": false,
+      "id": "e08f3c82-7473-48d6-a445-1e8bf9f01d6f",
+      "images": [
+        {
+          "alt": "Un jeune homme à la guitare donne une sérénade à une femme devant une fenêtre ouverte",
+          "public_path": "/images/articles/e08f3c82-7473-48d6-a445-1e8bf9f01d6f-1.jpg"
+        },
+        {
+          "alt": "Deux femmes coiffées de bonnets sont assises sur un banc à côté d’oiseaux",
+          "public_path": "/images/articles/e08f3c82-7473-48d6-a445-1e8bf9f01d6f-2.jpg"
+        },
+        {
+          "alt": "Une femme porte un récipient sur la tête en marchant sur un sentier rocailleux",
+          "public_path": "/images/articles/e08f3c82-7473-48d6-a445-1e8bf9f01d6f-3.jpg"
+        }
+      ],
+      "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
+      "language": "fra",
+      "language_tag": "fr",
+      "metadata": "content/fra/articles/e08f3c82-7473-48d6-a445-1e8bf9f01d6f.json",
+      "metadata_sha256": "ab1309be8a30ab8da37d00cdb0cf864e5699ea6185ff3d08f9fc646ef050ff79",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
+      "source_translation_key": "70020afc8ca6b4f0091f5d0e53860b679b8b1c300288c0340fe62643ff38207a",
+      "status": "ready",
+      "subtitle": "Aux jeunes femmes",
+      "title": "La liberté affective",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/fra/articles/e7e3ec8b-76a7-4b0b-9837-12e668dd9abd.html",
       "html_sha256": "8ccdd513efaf5e07b101d867d26b13079e0439ce5590f556be981f4825a5d00a",
       "human_reviewed": false,
