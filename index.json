@@ -94542,6 +94542,34 @@
     {
       "ai_notice_required": true,
       "direction": "rtl",
+      "html": "content/urd/articles/e8bdb12c-2e8e-4f55-9052-07bec6e103a1.html",
+      "html_sha256": "a5b18d1826cc6094c50b908e7a99b715d9c32a158221f45b5e1a47d54a14fb5e",
+      "human_reviewed": false,
+      "id": "e8bdb12c-2e8e-4f55-9052-07bec6e103a1",
+      "images": [
+        {
+          "alt": "جھیل میں جھلکتا ہوا دھند میں لپٹا سرمائی جنگل",
+          "public_path": "/images/articles/e8bdb12c-2e8e-4f55-9052-07bec6e103a1-1.png"
+        }
+      ],
+      "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
+      "language": "urd",
+      "language_tag": "ur",
+      "metadata": "content/urd/articles/e8bdb12c-2e8e-4f55-9052-07bec6e103a1.json",
+      "metadata_sha256": "fed32b4fd0a1b34add820746a824a0a7ef0f4568a6b82e43f1d9959238ea16f5",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "نئے عہدنامے کی کلیسیا",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "1c1dd57f73c720271265483775e7d93acfbda9f85eeefb95d0c905a5b442adfd",
+      "status": "ready",
+      "subtitle": null,
+      "title": "روحانی تحائف",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
       "html": "content/urd/articles/e9621e7b-df8d-4497-998c-b98af23486b7.html",
       "html_sha256": "6da0c8e463970692aa7095e13e2e9f01ccb49fdca647ff7447a6f5c3bd98ef76",
       "human_reviewed": false,
