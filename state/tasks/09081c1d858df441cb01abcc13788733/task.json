@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "cc353286df9f41698d8561c6a7048df2",
   "campaign": "auto-241e52fe9b3ff7640866117ba24f32e0c5d6936f0c8b025bec484455b2995d15",
   "created_at": "2026-10-31T23:36:05+00:00",
   "events": [
@@ -28,10 +27,38 @@
         },
         "total_tokens": 3037
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 485,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 355,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3324,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 2221,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 3809
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "Article, paragraph 4",
+      "severity": "major",
+      "source_quote": "Young friend, are you training yourself in self-indulgence, or for the immortal crown?",
+      "suggested_fix": "Replace “självförsakelse” with “självtillfredsställelse” or another Swedish term meaning self-indulgence.",
+      "translation_quote": "Unge vän, fostrar du dig själv till självförsakelse eller till den odödliga kronan?"
+    }
+  ],
   "id": "09081c1d858df441cb01abcc13788733",
   "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
   "language": "swe",
@@ -120,11 +147,13 @@
     }
   },
   "protected": false,
+  "quality_score": 92,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/d1ad1fde7c77815637c6fb95fb8f7e8a5023a172781ddce15f798d01cdf60f20.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "translate",
     "max_candidate_bytes": 120000,
@@ -138,7 +167,7 @@
     "total_reserved_usd": 0.086846,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "4a0f2e46d38c9417b9a0cd7d5b0a7beea7595a781a49fbd4e10a86619729e5b6",
   "translation_model_actual": "gpt-6-luna"

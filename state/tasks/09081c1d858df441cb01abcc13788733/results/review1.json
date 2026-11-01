@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "8bbcd730-f841-40b3-8057-ef0684b39b9b",
+    "response_id": "chatcmpl-EfEvSzzZixGYN9u2nH4ApIh4Ko2XW",
+    "usage": {
+      "completion_tokens": 485,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 355,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3324,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2221,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 3809
+    }
+  },
+  "received_at": "2026-11-01T01:58:06+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Article, paragraph 4",
+        "severity": "major",
+        "source_quote": "Young friend, are you training yourself in self-indulgence, or for the immortal crown?",
+        "suggested_fix": "Replace “självförsakelse” with “självtillfredsställelse” or another Swedish term meaning self-indulgence.",
+        "translation_quote": "Unge vän, fostrar du dig själv till självförsakelse eller till den odödliga kronan?"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 92
+  }
+}
