@@ -35997,6 +35997,34 @@
     {
       "ai_notice_required": true,
       "direction": "rtl",
+      "html": "content/heb/articles/e8bdb12c-2e8e-4f55-9052-07bec6e103a1.html",
+      "html_sha256": "1907b1456a927623156be3f5597cd8bf752babb1be629a803770090c21f875f1",
+      "human_reviewed": false,
+      "id": "e8bdb12c-2e8e-4f55-9052-07bec6e103a1",
+      "images": [
+        {
+          "alt": "יער חורפי אפוף ערפל המשתקף באגם",
+          "public_path": "/images/articles/e8bdb12c-2e8e-4f55-9052-07bec6e103a1-1.png"
+        }
+      ],
+      "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
+      "language": "heb",
+      "language_tag": "he",
+      "metadata": "content/heb/articles/e8bdb12c-2e8e-4f55-9052-07bec6e103a1.json",
+      "metadata_sha256": "b3d8e4c431a4a5c1cb28228243cf2bd64ddd32b036e92cce1009f8d3b18b3fd4",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "הכנסייה בברית החדשה",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "1c1dd57f73c720271265483775e7d93acfbda9f85eeefb95d0c905a5b442adfd",
+      "status": "ready",
+      "subtitle": null,
+      "title": "מתנות רוחניות",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
       "html": "content/heb/articles/e9621e7b-df8d-4497-998c-b98af23486b7.html",
       "html_sha256": "d6a6c9057a0d3e59b68036d568f0b7dc704da14295e8130d73df16b9fe3ffa5c",
       "human_reviewed": false,
