@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-01T01:06:03+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"683a4e23-acbb-434a-8e0e-2b0793e1a0fb\\\">\\n  <figure>\\n    <img src=\\\"/images/articles/683a4e23-acbb-434a-8e0e-2b0793e1a0fb-1.jpg\\\" alt=\\\"Un pittore seduto con una tavolozza accanto a un cavalletto\\\">\\n  </figure>\\n  <p>Quando ad Apelle, il pittore greco, fu chiesto perché dedicava tanta fatica ai suoi dipinti, rispose: «Perché dipingo per l’eternità». Usò questa parola come un’audace figura retorica; ma possiamo usarla in senso letterale quando diciamo che dipingiamo i quadri della nostra vita per l’eternità. Usiamo colori indelebili. Qualunque parola o azione pura e santa venga impressa in quel quadro vi resterà, imperitura e immortale. Qualunque cosa egoistica o peccaminosa venga dipinta su quella tela della vita non potrà mai essere cancellata, se non applicandovi il sangue di Gesù qui, in questa vita terrena. Quel prezioso sangue è efficace ora, o mai più. Quando giunge la morte, il processo di pittura si arresta! Non vi si potranno più aggiungere pennellate di pentimento o di fede. Nessuna macchia di colpa potrà più essere cancellata. Il dipinto è terminato, e per sempre.</p>\\n  <p>La morte incornicia il quadro e lo invia al Giorno del Giudizio perché sia esposto. Non un’«anteprima privata» davanti a una cerchia ristretta, ma un’esposizione pubblica davanti a una moltitudine radunata che nessuno può contare. Perché Dio porterà in giudizio ogni parola e ogni opera, buona o cattiva che sia. Il quadro della nostra vita presentato davanti al «gran trono bianco» resterà per sempre immutabile. Se la tela è adornata da opere, per quanto umili, compiute per la gloria di Dio, allora l’opera della vita resterà come memoriale eterno della grazia divina. Se la vita è stata spesa soltanto per soddisfare un io peccaminoso, allora il suo misero quadro sarà esposto soltanto a «vergogna e disprezzo eterno».</p>\\n  <p>Allora potremmo desiderare ardentemente di modificare il ritratto e di migliorarlo, ma la matita e i colori saranno rimasti indietro; la mano avrà perduto per sempre la sua abilità. Potremmo supplicare con insistenza il Giudice giusto di concederci un’altra possibilità. La risposta irrevocabile sarà: «Chi è ingiusto continui a essere ingiusto; chi è impuro continui a essere impuro. Chi è giusto continui a essere giusto; chi è santo continui a essere santo». Poiché queste cose sono vere, quali persone dovremmo essere, in ogni santa condotta e pietà!</p>\\n  <p>Quando il nobile Russell fu giustiziato come martire della libertà, consegnò il suo orologio a un amico che gli stava accanto sul patibolo. «Prendi questo orologio», disse, «perché non ho più nulla a che fare con il <em>tempo</em>. Ora i miei pensieri riguardano soltanto l’eternità». Le parole del martire morente sono opportune per tutti noi. Noi pastori, che ci accingiamo di nuovo all’opera del Maestro, faremo bene a ricordare che predichiamo per l’eternità! Ogni genitore che legge questo paragrafo chieda alla propria coscienza: «Sto educando i miei figli non solo per questo mondo, ma anche per quello a venire?». Ogni uomo d’affari si chieda se mira soltanto a riempire un sacco pieno di buchi o se, in qualità di amministratore di Dio, accumula tesori in cielo. Giovane amico, ti stai formando per indulgere a te stesso o per conquistare la corona immortale?</p>\\n  <p>Sulle pareti di un istituto a Montréal, questa estate, ho visto questa breve frase: «Nulla è lungo, tranne l’eternità». Era un motto per lo studio di ogni pastore e per le pareti di ogni casa. Scriviamolo tutti davanti a noi, sull’arco dei cieli: «Nulla merita di essere vissuto, se non l’eternità».</p>\\n  <p class=\\\"poem\\\">Possano i rintocchi delle campane del tempo<br>\\n  Con i loro mutamenti levarsi e ricadere!<br>\\n  Ma in sublimi toni sommessi—<br>\\n  Che risuonano più profondi di tutti loro—<br>\\n  C’è una voce che <em>deve</em> essere udita,<br>\\n  Mentre i nostri istanti fuggono via,<br>\\n  E pronuncia soltanto questa parola<br>\\n  <strong>«Eternità! Eternità!»</strong></p>\\n</article>\\n\",\"section\":null,\"subtitle\":null,\"title\":\"Dipingere per l’eternità\"}",
+    "content_bytes": 4194,
+    "content_evidence_truncated": false,
+    "content_sha256": "be3bc1a2b64ba2451bbaf23b4e8fa63437d08cffa7643f6c6298fe5924ea2736",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1191,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1792,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1789,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2983
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}
