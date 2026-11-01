@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph 4",
+      "severity": "major",
+      "source_quote": "“a Prince of God.”",
+      "suggested_fix": "“mkuu mbele za Mungu.”",
+      "translation_quote": "“Mkuu wa Mungu.”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "20cea3f8-932a-4138-9ab0-325b6702966b",
+    "response_id": "chatcmpl-EfDJ069cTQjDyEjhbdZEUWfMvFHbN",
+    "usage": {
+      "completion_tokens": 587,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2434,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2431,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3021
+    }
+  },
+  "received_at": "2026-11-01T01:05:01+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph 4",
+        "severity": "major",
+        "source_quote": "“a Prince of God.”",
+        "suggested_fix": "“mkuu mbele za Mungu.”",
+        "translation_quote": "“Mkuu wa Mungu.”"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 92
+  }
+}

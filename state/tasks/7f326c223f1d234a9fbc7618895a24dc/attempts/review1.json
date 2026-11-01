@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-01T01:05:01+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph 4\",\"severity\":\"major\",\"source_quote\":\"“a Prince of God.”\",\"suggested_fix\":\"“mkuu mbele za Mungu.”\",\"translation_quote\":\"“Mkuu wa Mungu.”\"}],\"findings_complete\":true,\"passed\":false,\"score\":92}",
+    "content_bytes": 239,
+    "content_evidence_truncated": false,
+    "content_sha256": "784e2268e53b6b15a9d21a0b42469c79947ebd9d243f6c91e084314f93c2f3a7",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 587,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2434,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2431,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3021
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}
