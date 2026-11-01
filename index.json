@@ -20038,6 +20038,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/deu/articles/683a4e23-acbb-434a-8e0e-2b0793e1a0fb.html",
+      "html_sha256": "ce5acef73eadde9aec0d0ac5eb9f83f1494c5c8332a839f671a9dc194698150c",
+      "human_reviewed": false,
+      "id": "683a4e23-acbb-434a-8e0e-2b0793e1a0fb",
+      "images": [
+        {
+          "alt": "Ein sitzender Maler hält neben einer Staffelei eine Palette",
+          "public_path": "/images/articles/683a4e23-acbb-434a-8e0e-2b0793e1a0fb-1.jpg"
+        }
+      ],
+      "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
+      "language": "deu",
+      "language_tag": "de",
+      "metadata": "content/deu/articles/683a4e23-acbb-434a-8e0e-2b0793e1a0fb.json",
+      "metadata_sha256": "f805eb030a401e839ccb6982190605892dd5c961b8b5e82d5f7c46306ef8e688",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
+      "source_translation_key": "4a0f2e46d38c9417b9a0cd7d5b0a7beea7595a781a49fbd4e10a86619729e5b6",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Für die Ewigkeit malen",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/deu/articles/6b3e3e7e-b5fd-4701-9a63-699b90f17ec9.html",
       "html_sha256": "85c106a47f922519adea6f5bc7f2ed78b7f80981885b1126e36e123de908e94c",
       "human_reviewed": false,

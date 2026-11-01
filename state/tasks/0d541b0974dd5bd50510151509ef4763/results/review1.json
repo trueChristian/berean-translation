@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "2714f55f-155c-45d3-8ce9-f753b1d41238",
+    "response_id": "chatcmpl-EfF8Z2JIPFHpg8he1LO6XlLQnyRla",
+    "usage": {
+      "completion_tokens": 628,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 501,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3283,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2180,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 3911
+    }
+  },
+  "received_at": "2026-11-01T07:26:29+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Poem, first line",
+        "severity": "minor",
+        "source_quote": "Let the clanging bells of time",
+        "suggested_fix": "Lasst die Glocken der Zeit erschallen",
+        "translation_quote": "Mögen der Zeit Glocken Klang"
+      },
+      {
+        "location": "Paragraph 2",
+        "severity": "minor",
+        "source_quote": "shame and everlasting contempt",
+        "suggested_fix": "„Schande und ewiger Verachtung“",
+        "translation_quote": "„Schande und ewigen Verachtung“"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 96
+  }
+}
