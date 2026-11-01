@@ -1,0 +1,129 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "46b268e2-6b44-463f-bdd3-9902bf71976d",
+    "response_id": "chatcmpl-EfEop4k0IvykZSskHNbITkkg4LLnZ",
+    "usage": {
+      "completion_tokens": 1889,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 114,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9693,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8590,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 11582
+    }
+  },
+  "received_at": "2026-11-01T01:44:39+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "html, paragraph beginning «Το καλοκαίρι που έγινα 17»",
+        "severity": "major",
+        "source_quote": "a visiting minister (‘Mike’)",
+        "suggested_fix": "Αντικαταστήστε το «ένας επισκέπτης υπουργός» με «ένας επισκέπτης κήρυκας».",
+        "translation_quote": "ένας επισκέπτης υπουργός («Μάικ»)"
+      },
+      {
+        "location": "html, paragraphs beginning «Παρόλο που είχα απευθυνθεί», «Δεν είμαι σίγουρος τι συνέβαινε» and «Ένας άλλος νεαρός»",
+        "severity": "major",
+        "source_quote": "God’s faithfulness; God’s faithfulness; God’s faithfulness",
+        "suggested_fix": "Αντικαταστήστε το «η πίστη του Θεού» με «η πιστότητα του Θεού» στην πρώτη εμφάνιση και το «στην πίστη του Θεού» με «στην πιστότητα του Θεού» στις άλλες δύο.",
+        "translation_quote": "η πίστη του Θεού; στην πίστη του Θεού; στην πίστη του Θεού"
+      },
+      {
+        "location": "html, paragraph beginning «Πρέπει να είμαστε το φως του κόσμου»",
+        "severity": "major",
+        "source_quote": "all them also that love his appearing ... all them also that love his appearing –2 Timothy 4:7-8",
+        "suggested_fix": "Αποδώστε και τις δύο εμφανίσεις ως «όλους όσους αγαπούν την έλευσή Του», αντί για «όλους όσους αγαπούν την επιφάνεια Του» και «όλους όσους αγαπούν την ενανθρώπηση Του». Το χωρίο αναφέρεται στην έλευση του Χριστού, όχι στην ενανθρώπησή Του.",
+        "translation_quote": "όλους όσους αγαπούν την επιφάνεια Του ... όλους όσους αγαπούν την ενανθρώπηση Του"
+      },
+      {
+        "location": "html, paragraph beginning «Καθώς αποχωρούσα από τη σκηνή»",
+        "severity": "major",
+        "source_quote": "Would I be clear before God?",
+        "suggested_fix": "Αντικαταστήστε το «Θα ήμουν σαφής ενώπιον του Θεού;» με «Θα είχα καθαρή συνείδηση ενώπιον του Θεού;».",
+        "translation_quote": "Θα ήμουν σαφής ενώπιον του Θεού;"
+      },
+      {
+        "location": "html, paragraph beginning «Κάπως οι γονείς μου αντιλήφθηκαν»",
+        "severity": "major",
+        "source_quote": "but I resented it",
+        "suggested_fix": "Αντικαταστήστε το «αλλά εγώ το απέδιδα» με «αλλά εγώ δυσανασχετούσα με την προσπάθειά τους».",
+        "translation_quote": "αλλά εγώ το απέδιδα"
+      },
+      {
+        "location": "html, paragraph beginning «Καθώς μεγάλωνα»",
+        "severity": "major",
+        "source_quote": "was introduced to country music",
+        "suggested_fix": "Αντικαταστήστε το «γνώρισα τη μουσική της επαρχίας» με «γνώρισα τη μουσική κάντρι».",
+        "translation_quote": "γνώρισα τη μουσική της επαρχίας"
+      },
+      {
+        "location": "html, paragraph beginning «Στις 15 Ιουνίου 2018»",
+        "severity": "major",
+        "source_quote": "the scream of the emergency services’ pager",
+        "suggested_fix": "Αντικαταστήστε το «ο ήχος του πηκτήρα των υπηρεσιών έκτακτης ανάγκης» με «ο διαπεραστικός ήχος του βομβητή των υπηρεσιών έκτακτης ανάγκης».",
+        "translation_quote": "ο ήχος του πηκτήρα των υπηρεσιών έκτακτης ανάγκης"
+      },
+      {
+        "location": "html, paragraph beginning «Στις 15 Ιουνίου 2018»",
+        "severity": "major",
+        "source_quote": "We searched the mangled car",
+        "suggested_fix": "Αντικαταστήστε το «Ψάξαμε το παλιασμένο αυτοκίνητο» με «Ψάξαμε το παραμορφωμένο από τη σύγκρουση αυτοκίνητο».",
+        "translation_quote": "Ψάξαμε το παλιασμένο αυτοκίνητο"
+      },
+      {
+        "location": "section",
+        "severity": "major",
+        "source_quote": "INSPIRATIONS FOR YOUTH",
+        "suggested_fix": "Μεταφράστε την ενότητα ως «ΕΜΠΝΕΥΣΕΙΣ ΓΙΑ ΝΕΟΥΣ».",
+        "translation_quote": "INSPIRATIONS FOR YOUTH"
+      },
+      {
+        "location": "html, paragraph beginning «Το φθινόπωρο του 2015»",
+        "severity": "minor",
+        "source_quote": "I went to Washington state",
+        "suggested_fix": "Αντικαταστήστε το «πήγα στην Ουάσιγκτον» με «πήγα στην πολιτεία της Ουάσιγκτον», ώστε να διατηρηθεί η διάκριση από την ομώνυμη πρωτεύουσα.",
+        "translation_quote": "πήγα στην Ουάσιγκτον"
+      },
+      {
+        "location": "html, paragraph beginning «Ήμουν περισσότερο»",
+        "severity": "minor",
+        "source_quote": "a quiet, strong-willed child",
+        "suggested_fix": "Αντικαταστήστε το «ένα ήσυχο, δυναμικό παιδί» με «ένα ήσυχο παιδί με ισχυρή θέληση».",
+        "translation_quote": "ένα ήσυχο, δυναμικό παιδί"
+      },
+      {
+        "location": "html, paragraph beginning «Οι άνθρωποι της εκκλησίας»",
+        "severity": "minor",
+        "source_quote": "most of them just left me to myself ... like a social misfit",
+        "suggested_fix": "Αντικαταστήστε το «με άφηναν στον εαυτό μου» με «με άφηναν μόνο μου» και το «σαν κοινωνικός ακατάλληλος» με «σαν κάποιος που δεν ταίριαζε πουθενά».",
+        "translation_quote": "οι περισσότεροι απλώς με άφηναν στον εαυτό μου ... σαν κοινωνικός ακατάλληλος"
+      },
+      {
+        "location": "html, paragraph beginning «Κάπως ο “Μάικ” με έπεισε»",
+        "severity": "minor",
+        "source_quote": "one evening after the service",
+        "suggested_fix": "Αντικαταστήστε το «ένα βράδυ μετά την υπηρεσία» με «ένα βράδυ μετά τη λατρευτική συνάθροιση».",
+        "translation_quote": "ένα βράδυ μετά την υπηρεσία"
+      },
+      {
+        "location": "html, paragraph beginning «Ως πρώτοι ανταποκριτές»",
+        "severity": "minor",
+        "source_quote": "As first responders",
+        "suggested_fix": "Αντικαταστήστε το «Ως πρώτοι ανταποκριτές» με «Ως διασώστες πρώτης ανταπόκρισης».",
+        "translation_quote": "Ως πρώτοι ανταποκριτές"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 78
+  }
+}
