@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-01T14:59:17+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"html, tercer párrafo, lista de dones de Romanos\",\n      \"severity\": \"major\",\n      \"source_quote\": \"ministry, exhortation, giving, ruling, and showing mercy\",\n      \"suggested_fix\": \"Sustituir «dominio» por «dirección» o «liderazgo», para identificar el don de dirigir a otros y no sugerir dominio propio.\",\n      \"translation_quote\": \"ministerio, exhortación, don de dar, dominio y mostrar misericordia\"\n    },\n    {\n      \"location\": \"html, cita de 1 Corintios 12:24-25 en el párrafo que comienza «Dios también puede dar»\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"That there should be no schism [division] in the body\",\n      \"suggested_fix\": \"Restituir la aclaración entre corchetes: «para que no haya desmembramiento [división] en el cuerpo».\",\n      \"translation_quote\": \"para que no haya desmembramiento en el cuerpo\"\n    },\n    {\n      \"location\": \"html, párrafo que comienza «Recientemente, me enteré»\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"recording the gibberish\",\n      \"suggested_fix\": \"Cambiar «grabando la galimatía» por «grabando el galimatías».\",\n      \"translation_quote\": \"grabando la galimatía\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": false,\n  \"score\": 94\n}",
+    "content_bytes": 1282,
+    "content_evidence_truncated": false,
+    "content_sha256": "2895b5301e7cb1b4110c7c4698f7761548dabd7930e1326bee30a7609e13e127",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 433,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 74,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 11163,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 11160
+      },
+      "total_tokens": 11596
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}

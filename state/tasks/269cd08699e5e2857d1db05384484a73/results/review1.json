@@ -1,0 +1,52 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "d3faf999-b669-4259-8f23-75eadb6a6fac",
+    "response_id": "chatcmpl-EfLF5stfbcBGUY7mKC0irM6HqCqnk",
+    "usage": {
+      "completion_tokens": 433,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 74,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 11163,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 11160
+      },
+      "total_tokens": 11596
+    }
+  },
+  "received_at": "2026-11-01T14:59:17+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "html, tercer párrafo, lista de dones de Romanos",
+        "severity": "major",
+        "source_quote": "ministry, exhortation, giving, ruling, and showing mercy",
+        "suggested_fix": "Sustituir «dominio» por «dirección» o «liderazgo», para identificar el don de dirigir a otros y no sugerir dominio propio.",
+        "translation_quote": "ministerio, exhortación, don de dar, dominio y mostrar misericordia"
+      },
+      {
+        "location": "html, cita de 1 Corintios 12:24-25 en el párrafo que comienza «Dios también puede dar»",
+        "severity": "minor",
+        "source_quote": "That there should be no schism [division] in the body",
+        "suggested_fix": "Restituir la aclaración entre corchetes: «para que no haya desmembramiento [división] en el cuerpo».",
+        "translation_quote": "para que no haya desmembramiento en el cuerpo"
+      },
+      {
+        "location": "html, párrafo que comienza «Recientemente, me enteré»",
+        "severity": "minor",
+        "source_quote": "recording the gibberish",
+        "suggested_fix": "Cambiar «grabando la galimatía» por «grabando el galimatías».",
+        "translation_quote": "grabando la galimatía"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 94
+  }
+}

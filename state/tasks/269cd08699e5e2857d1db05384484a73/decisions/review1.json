@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "html, tercer párrafo, lista de dones de Romanos",
+      "severity": "major",
+      "source_quote": "ministry, exhortation, giving, ruling, and showing mercy",
+      "suggested_fix": "Sustituir «dominio» por «dirección» o «liderazgo», para identificar el don de dirigir a otros y no sugerir dominio propio.",
+      "translation_quote": "ministerio, exhortación, don de dar, dominio y mostrar misericordia"
+    },
+    {
+      "location": "html, cita de 1 Corintios 12:24-25 en el párrafo que comienza «Dios también puede dar»",
+      "severity": "minor",
+      "source_quote": "That there should be no schism [division] in the body",
+      "suggested_fix": "Restituir la aclaración entre corchetes: «para que no haya desmembramiento [división] en el cuerpo».",
+      "translation_quote": "para que no haya desmembramiento en el cuerpo"
+    },
+    {
+      "location": "html, párrafo que comienza «Recientemente, me enteré»",
+      "severity": "minor",
+      "source_quote": "recording the gibberish",
+      "suggested_fix": "Cambiar «grabando la galimatía» por «grabando el galimatías».",
+      "translation_quote": "grabando la galimatía"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
