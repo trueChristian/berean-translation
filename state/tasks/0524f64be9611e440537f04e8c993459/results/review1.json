@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "2b1ccdad-a7de-4b87-a07a-199241afc621",
+    "response_id": "chatcmpl-EfLybMaE9pT8iXIB7xaqmPJNGmvKe",
+    "usage": {
+      "completion_tokens": 720,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 597,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3332,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2229,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 4052
+    }
+  },
+  "received_at": "2026-11-01T14:58:28+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, paragraph 1",
+        "severity": "minor",
+        "source_quote": "Whatever pure and holy word or deed be wrought into that picture",
+        "suggested_fix": "Alt rent og hellig ord eller verk som føyes inn i dette bildet → Ethvert rent og hellig ord eller verk som føyes inn i dette bildet",
+        "translation_quote": "Alt rent og hellig ord eller verk som føyes inn i dette bildet"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}

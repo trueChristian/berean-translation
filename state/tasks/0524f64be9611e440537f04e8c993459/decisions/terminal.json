@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraph 1",
+      "severity": "minor",
+      "source_quote": "Whatever pure and holy word or deed be wrought into that picture",
+      "suggested_fix": "Alt rent og hellig ord eller verk som føyes inn i dette bildet → Ethvert rent og hellig ord eller verk som føyes inn i dette bildet",
+      "translation_quote": "Alt rent og hellig ord eller verk som føyes inn i dette bildet"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

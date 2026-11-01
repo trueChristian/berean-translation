@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "ae0aaf93f0184fe882349d56a640ee27",
   "campaign": "auto-353931fca0b7c28ff7203d7f387f6793f072296972aeabb111f6d1aa661b03be",
   "created_at": "2026-11-01T01:09:03+00:00",
   "events": [
@@ -28,10 +27,39 @@
         },
         "total_tokens": 2978
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 720,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 597,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3332,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 2229,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 4052
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "HTML, paragraph 1",
+      "severity": "minor",
+      "source_quote": "Whatever pure and holy word or deed be wrought into that picture",
+      "suggested_fix": "Alt rent og hellig ord eller verk som føyes inn i dette bildet → Ethvert rent og hellig ord eller verk som føyes inn i dette bildet",
+      "translation_quote": "Alt rent og hellig ord eller verk som føyes inn i dette bildet"
+    }
+  ],
+  "finished_at": "2026-11-01T14:58:28+00:00",
   "id": "0524f64be9611e440537f04e8c993459",
   "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
   "language": "nob",
@@ -120,9 +148,11 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/d1ad1fde7c77815637c6fb95fb8f7e8a5023a172781ddce15f798d01cdf60f20.json",
   "stage": "review1",
   "stage_budget": {
@@ -138,7 +168,7 @@
     "total_reserved_usd": 0.086855,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "4a0f2e46d38c9417b9a0cd7d5b0a7beea7595a781a49fbd4e10a86619729e5b6",
   "translation_model_actual": "gpt-6-luna"
