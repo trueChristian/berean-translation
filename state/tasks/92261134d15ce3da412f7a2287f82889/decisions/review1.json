@@ -1,0 +1,56 @@
+{
+  "findings": [
+    {
+      "location": "html, paragraph 3",
+      "severity": "major",
+      "source_quote": "He could carve the funniest little faces on small blocks of wood",
+      "suggested_fix": "Replace “הוא ידע לחרוט את פניו הקטנים והמצחיקים” with “הוא ידע לגלף פרצופים קטנים ומצחיקים מאוד”.",
+      "translation_quote": "הוא ידע לחרוט את פניו הקטנים והמצחיקים"
+    },
+    {
+      "location": "html, paragraph 6",
+      "severity": "major",
+      "source_quote": "her mother’s voice rang in her memory",
+      "suggested_fix": "Replace “נקבתה של אמה נשמעה בזכרונה” with “קולה של אמה הדהד בזיכרונה”.",
+      "translation_quote": "נקבתה של אמה נשמעה בזכרונה"
+    },
+    {
+      "location": "html, paragraph 8",
+      "severity": "major",
+      "source_quote": "That little knife had plunged into her left wrist",
+      "suggested_fix": "Replace “הסכין הקטנה שקיבלה מדוד נאחצה בפרק כף ידה השמאלית” with “הסכין הקטנה ננעצה בפרק כף ידה השמאלית”. The source does not say she received it from an uncle; Paul is her cousin.",
+      "translation_quote": "הסכין הקטנה שקיבלה מדוד נאחצה בפרק כף ידה השמאלית"
+    },
+    {
+      "location": "html, paragraph 10",
+      "severity": "major",
+      "source_quote": "confess what she had done ... she still wishes she had confessed her disobedience to her mother",
+      "suggested_fix": "Replace “להודיע על מעשיה” with “להתוודות על מה שעשתה”, and replace “אך היא עדיין מאחלת שהייתה מודה על מרותה בפני אמה” with “אך היא עדיין מצטערת שלא התוודתה בפני אמה על כך שלא צייתה לה”. The present wording loses confession and does not convey disobedience.",
+      "translation_quote": "להודיע על מעשיה ... אך היא עדיין מאחלת שהייתה מודה על מרותה בפני אמה"
+    },
+    {
+      "location": "html, first image alt",
+      "severity": "minor",
+      "source_quote": "A child whittling a stick with a small red-handled knife",
+      "suggested_fix": "Use “ילדה מגלפת מקל בסכין קטנה בעלת ידית אדומה”.",
+      "translation_quote": "ילדה שמחתיכה מקל עם סכין קטנה בידית אדומה"
+    },
+    {
+      "location": "html, paragraph 1",
+      "severity": "minor",
+      "source_quote": "Since Ellie was ten ... the sunny skies",
+      "suggested_fix": "Replace “מאז שאלי הייתה בת עשר” with “מכיוון שאלי הייתה בת עשר”, and “שמי השמש” with “השמיים שטופי השמש”. Here “since” gives her current age as the reason, rather than establishing a starting time.",
+      "translation_quote": "מאז שאלי הייתה בת עשר ... שמי השמש"
+    },
+    {
+      "location": "html, paragraphs 2, 3, 6, 8, 9, 10, and 11",
+      "severity": "minor",
+      "source_quote": "that knife Paul gave me; several counties over from hers; into one end; get cut very badly; her ankle turned and gave way under her; a small cut; she quickly pressed; placing it on her cut; a dirty, slightly rusty knife; It is God’s design",
+      "suggested_fix": "Correct the corresponding phrases to “הסכין שפול נתן לי”; “במרחק של כמה מחוזות מהמחוז שלה”; “לאחד מקצותיה”; “להיחתך קשה מאוד”; “הקרסול שלה התעקם וקרס תחתיה”; “זה היה חתך קטן”; “היא לחצה במהירות”; “והדביקה אותו על החתך”; “בסכין מלוכלכת וחלודה מעט”; and “זו תוכניתו של אלוהים”. Preserve the existing paragraph structure.",
+      "translation_quote": "הסכין שאותו נתן לי פול; כמה מחוזות משלה; לחלקה; להיפצע חמור; הקרסול שלה התעקם ונתן תחתיה; זו הייתה חתיכה קטנה; היא לחץ במהירות; והדביקה אותו על חתכה; בסכין מלוכלך וקצת חלוד; זו תכניתה של אלוהים"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
