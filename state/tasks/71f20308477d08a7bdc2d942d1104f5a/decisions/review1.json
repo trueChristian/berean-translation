@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph beginning “মূর্তিপূজা হলো”; paragraph beginning “প্রকাশ্য, বাহ্যিক মূর্তিপূজা”; paragraph beginning “৮. আশা”",
+      "severity": "major",
+      "source_quote": "“papists” (in each of these three places)",
+      "suggested_fix": "In all three places, replace “পাপিষ্ঠরা/পাপিষ্ঠদের” with “পাপিস্টরা/পাপিস্টদের” (or “রোমান ক্যাথলিকরা/রোমান ক্যাথলিকদের”) to preserve the reference to papists rather than sinners generally.",
+      "translation_quote": "“পাপিষ্ঠরা দেবদূত, সাধু ও প্রতিমাকে”; “পাপিষ্ঠদের মূর্তিপূজা”; “পাপিষ্ঠরা প্রকাশ্যেই তা করে”"
+    },
+    {
+      "location": "Paragraph beginning “২. গোপন ও আত্মার মূর্তিপূজা”",
+      "severity": "major",
+      "source_quote": "“Then is that soul worship, which is due only to God.”",
+      "suggested_fix": "Change “তখন সেই আত্মা-উপাসনা ঈশ্বরকেই দেওয়া হয়, যা কেবল তাঁরই প্রাপ্য” to “তখন ঈশ্বরেরই প্রাপ্য সেই আত্মিক উপাসনা অন্য বিষয়কে দেওয়া হয়।”",
+      "translation_quote": "“তখন সেই আত্মা-উপাসনা ঈশ্বরকেই দেওয়া হয়, যা কেবল তাঁরই প্রাপ্য।”"
+    },
+    {
+      "location": "Heading “তেরোটি কাজ”",
+      "severity": "minor",
+      "source_quote": "“Thirteen Acts of Soul Worship”",
+      "suggested_fix": "Change the heading to “আত্মার উপাসনার তেরোটি কাজ” to retain the source’s reference to soul worship.",
+      "translation_quote": "“তেরোটি কাজ”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
