@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-01T01:02:19+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"19270b64-7f17-4623-b361-5486354b7303\\\">\\n  <figure><img src=\\\"/images/articles/19270b64-7f17-4623-b361-5486354b7303-1.jpg\\\" alt=\\\"Jakob ruht unter einer von Engeln bevölkerten Treppe\\\"></figure>\\n  <p>Um irgendeine Phase im Leben eines Menschen richtig einzuschätzen, müssen wir sie als ein Kapitel im Prozess seines Aufstiegs – oder Abstiegs – betrachten.</p>\\n  <p>Betrachten wir Jakob in Bethel, als eine Leiter vom Himmel herabkam und ihm Gottes Liebe kundtat. Manche beanstanden Jakobs Gelübde in Bethel als selbstsüchtig und eigennützig. Wenn Gott dies für Jakob tun wird, dann wird Jakob dies für Gott tun! Wie viel edler ist es, sich mit einer Großzügigkeit wie der Abrahams auf Gott zu verlassen, der ihm alles anvertraut!</p>\\n  <p>Doch Jakob stand in Bethel ganz am Anfang seines geistlichen Lebens. Er hatte gerade erst einen ersten Blick auf die Vision erhascht, die sein Leben bis zu seinem Ende prägen sollte. Natürlich erhebt er sich nicht zu solcher Selbstaufgabe. Ehrlich schildert er die Sache, wie sie sich ihm darstellt, und nimmt Gott beim Wort auf jene praktisch-alltägliche Weise, die für ihn charakteristisch war.</p>\\n  <p>Am Jabbok aber ging Jakob weiter. Wieder traten göttliche Kräfte und Gegenwarten in sein Leben, und diesmal hatte er mit ihnen keinen Handel abzuschließen. Er bittet weder um seine eigene Sicherheit noch um den Erhalt seines Besitzes oder darum, den Zorn seines Bruders zu besänftigen. Er bittet einzig um den Segen, den Gott schenken kann, und überlässt es Gott, ihm jede Gestalt und jede Bedeutung zu geben. Jetzt schließt er keinen Handel mehr ab, sondern vertraut und betet an. Dort also hörte sein alter Name Jakob, der Überlister, auf, zu dem Mann zu passen, und er wurde Israel, „ein Fürst Gottes“.</p>\\n  <figure><img src=\\\"/images/articles/19270b64-7f17-4623-b361-5486354b7303-2.jpg\\\" alt=\\\"Jakob kniet vor einem geflügelten Engel\\\"></figure>\\n  <p>So führt Gott uns von einer Stufe zur nächsten: von engen und selbstsüchtigen Vorstellungen unserer Beziehung zu ihm zu jener Stunde, in der wir von all seinen Gaben nichts anderes erbitten als den Segen, der seine Freude an uns ausdrückt und uns hilft, uns an ihm zu freuen.</p>\\n</article>\\n\",\"section\":null,\"subtitle\":null,\"title\":\"Wie Menschen wachsen\"}",
+    "content_bytes": 2337,
+    "content_evidence_truncated": false,
+    "content_sha256": "70806ba1b07739627d99ac00cc36bd4c5a93b98ab78d1f23dba710c92097b1a9",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 732,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 103,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1366,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1363,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2098
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}
