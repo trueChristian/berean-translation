@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "6d42506a-8a81-482a-8d7c-5d856d8a5c2d",
+    "response_id": "chatcmpl-EfYsdFwZT436bWAanvDolvD3iFvje",
+    "usage": {
+      "completion_tokens": 698,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 586,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 10821,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 10818,
+        "cached_tokens": 0
+      },
+      "total_tokens": 11519
+    }
+  },
+  "received_at": "2026-11-01T23:35:48+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph 9. LE DÉSIR, quotation of Psaume 27:4",
+        "severity": "minor",
+        "source_quote": "and to inquire in his temple.",
+        "suggested_fix": "Replace « pour visiter son temple » with « pour méditer dans son temple » or another rendering conveying inquiry or meditation.",
+        "translation_quote": "et pour visiter son temple."
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}
