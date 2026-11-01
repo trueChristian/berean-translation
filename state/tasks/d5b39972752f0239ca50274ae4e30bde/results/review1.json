@@ -1,0 +1,108 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "6f2331af-79bd-4568-a717-9d1aa3ffc9b1",
+    "response_id": "chatcmpl-EfRemgknz5G5RYHMvFusezK8YA3v2",
+    "usage": {
+      "completion_tokens": 1716,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 62,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 11802,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 11799,
+        "cached_tokens": 0
+      },
+      "total_tokens": 13518
+    }
+  },
+  "received_at": "2026-11-01T15:29:43+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "html, 제4문단",
+        "severity": "major",
+        "source_quote": "some of us plain churches",
+        "suggested_fix": "“우리 일부 평안교회들은”을 “우리 가운데 소박한 생활양식을 따르는 일부 교회들은”으로 수정하십시오.",
+        "translation_quote": "우리 일부 평안교회들은"
+      },
+      {
+        "location": "html, 불경건한 행동에 관한 소제목 아래 두 번째 문단",
+        "severity": "major",
+        "source_quote": "dividing to every man severally as he will –1 Corinthians 12:11.",
+        "suggested_fix": "해당 인용을 “그러나 이 모든 일은 한 분, 곧 동일한 성령께서 행하시며, 그분의 뜻대로 각 사람에게 각각 나누어 주십니다 – 고린도전서 12:11.”로 수정하여 성령의 뜻에 따른 분배라는 내용을 복원하십시오.",
+        "translation_quote": "각 사람에게 각각 나누어 주시는 것이라 하셨습니다 – 고린도전서 12:11."
+      },
+      {
+        "location": "html, 교회 지도자 자격에 관한 소제목 아래 세 번째 문단",
+        "severity": "major",
+        "source_quote": "For our comely parts have no need",
+        "suggested_fix": "“아름다운 지체들은 쓸 데가 없나니”를 “우리의 아름다운 지체들은 그런 필요가 없으나”로 수정하십시오. 아름다운 지체가 쓸모없다는 뜻이 아닙니다.",
+        "translation_quote": "아름다운 지체들은 쓸 데가 없나니"
+      },
+      {
+        "location": "html, 야고보서 3:13-18 인용",
+        "severity": "major",
+        "source_quote": "For where envying and strife is, there is confusion and every evil work.",
+        "suggested_fix": "“화목과 다툼이 있는 곳에는”을 “시기와 다툼이 있는 곳에는”으로 수정하십시오.",
+        "translation_quote": "화목과 다툼이 있는 곳에는 혼란과 모든 악한 일이 있음이라."
+      },
+      {
+        "location": "html, 하나님의 목적에 관한 ‘둘째 이유’ 문단",
+        "severity": "major",
+        "source_quote": "tongues are for a sign, not to them that believe, but to them that believe not",
+        "suggested_fix": "해당 부분을 “방언은 믿는 자들을 위한 표적이 아니라 믿지 않는 자들을 위한 표적이요”로 수정하십시오. 신자에게 유익이 전혀 없다는 주장으로 바꾸지 마십시오.",
+        "translation_quote": "방언은 믿지 않는 자들에게는 표적이요 믿는 자들에게는 유익이 아니요"
+      },
+      {
+        "location": "html, 방언 연구를 소개하는 문단",
+        "severity": "major",
+        "source_quote": "the person, in their own language, repeats syllables of their native tongue in repetition. I believe that in many cases it is done innocently",
+        "suggested_fix": "“즉, 화자가 자기 모국어의 음절을 되풀이한다는 것입니다. 저는 많은 경우 사람들이 속이려는 의도 없이 그렇게 한다고 믿습니다.”로 수정하십시오. 원문에 없는 무자각을 단정하지 말고, ‘innocently’를 무해하다는 뜻으로 옮기지 마십시오.",
+        "translation_quote": "즉, 화자가 자신도 모르게 자기 모국어의 음절을 반복하는 경우가 많다는 것입니다. 저는 많은 경우 그것이 무해하게 행해진다고 믿습니다."
+      },
+      {
+        "location": "html, 캐나다 여인의 사례를 다룬 문단 마지막 문장",
+        "severity": "major",
+        "source_quote": "if God could confound the languages of those working on the tower of Babel",
+        "suggested_fix": "문장 앞부분을 “하나님께서 바벨탑을 짓던 사람들의 언어를 혼잡하게 하실 수 있었다면,”으로 수정하십시오.",
+        "translation_quote": "창세기 바벨탑에서 사람들이 언어를 혼잡하게 만드신 하나님이시니"
+      },
+      {
+        "location": "html, 첫 문단의 에베소서 4:8 인용",
+        "severity": "minor",
+        "source_quote": "Wherefore he saith",
+        "suggested_fix": "“이러므로 옛적 시편에 이르되”를 “그러므로 이르시기를”로 수정하여 원문에 없는 출처 설명을 제거하십시오.",
+        "translation_quote": "이러므로 옛적 시편에 이르되"
+      },
+      {
+        "location": "html, 제3문단 첫 문장",
+        "severity": "minor",
+        "source_quote": "in 1 Corinthians chapter 12 both at the beginning of the chapter and the end of the chapter",
+        "suggested_fix": "“고린도전서 12장과”를 “고린도전서 12장의 앞부분과 끝부분, 그리고”로 수정하여 원문이 제시한 위치 정보를 복원하십시오.",
+        "translation_quote": "고린도전서 12장과"
+      },
+      {
+        "location": "html, 하나님이 주시는 은사에 관한 소제목 아래 세 번째 문단 마지막 문장",
+        "severity": "minor",
+        "source_quote": "We are so prone to disillusionment",
+        "suggested_fix": "“우리는 환상에 쉽게 빠지기 쉬우니”를 “우리는 환멸에 빠지기 쉬우므로”로 수정하십시오.",
+        "translation_quote": "우리는 환상에 쉽게 빠지기 쉬우니"
+      },
+      {
+        "location": "html, 야고보서 3:13-18 인용 및 에베소서 4:11-12 인용",
+        "severity": "minor",
+        "source_quote": "<strong>a good conversation</strong>; <strong>meekness of wisdom</strong>; <strong>bitter envying and strife in your hearts</strong>; <strong>lie not against the truth</strong>; <strong>pure</strong>; <strong>peaceable</strong>; <strong>gentle</strong>; <strong>easy to be intreated, full of mercy</strong>; <strong>good fruits</strong>; <strong>without partiality</strong>; <strong>without hypocrisy</strong>; <strong>the perfecting of the saints</strong>; <strong>the work of the ministry</strong>; <strong>the edifying of the body of Christ</strong>",
+        "suggested_fix": "두 인용에서 대응하는 한국어 구절에 원문의 <strong> 태그를 복원하십시오. 또한 야고보서 인용의 “위선이 없음라”는 “위선이 없느니라”로 바로잡으십시오.",
+        "translation_quote": "선한 행실로 그 행위를 온유한 지혜로 나타내라 … 위선이 없음라; 성도를 온전케 하고 봉사의 일을 하게 하며 그리스도의 몸을 세우게 하려 하심이라"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 80
+  }
+}
