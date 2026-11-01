@@ -1,0 +1,128 @@
+{
+  "article_id": "7f8746cc-2e3a-476f-a5a0-28d15abe5412",
+  "automatic_previous_task": "702a122bb85464c1e16ac1a04f004c9e",
+  "autonomous": true,
+  "autonomous_recovery": true,
+  "base_html_sha256": null,
+  "base_metadata_sha256": null,
+  "campaign": "auto-5c2e0aa59e0e0c7e1e67da597bda579a70ebf3b1f03ced5fd606b3cb4e59d03e",
+  "created_at": "2026-11-01T15:33:09+00:00",
+  "events": [],
+  "findings": [
+    {
+      "location": "HTML/metadata contract",
+      "severity": "critical",
+      "source_quote": "",
+      "suggested_fix": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[4]: source /article[1]/blockquote[1]/p[1]/em[1]/strong[1] ('start', 'strong', ()); translation /article[1]/blockquote[1]/p[1]/em[1] ('end', 'em')",
+      "translation_quote": ""
+    }
+  ],
+  "id": "43e04d224f057227a6739a2b517f8d87",
+  "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
+  "language": "cmn",
+  "model": "gpt-6.1-sol",
+  "models": {
+    "gpt-4.1": {
+      "api_model": "gpt-4.1-2025-04-14",
+      "context_tokens": 1047576,
+      "input_batch_usd_per_million": 1.0,
+      "max_output_tokens": 32768,
+      "output_batch_usd_per_million": 4.0,
+      "quality_note": "Higher-cost translation or reviewer option.",
+      "reasoning_effort": null
+    },
+    "gpt-4.1-mini": {
+      "api_model": "gpt-4.1-mini-2025-04-14",
+      "context_tokens": 1047576,
+      "input_batch_usd_per_million": 0.2,
+      "max_output_tokens": 32768,
+      "output_batch_usd_per_million": 0.8,
+      "quality_note": "Default cost-conscious candidate; not certified for theological accuracy in every language.",
+      "reasoning_effort": null
+    },
+    "gpt-4.1-nano": {
+      "api_model": "gpt-4.1-nano-2025-04-14",
+      "context_tokens": 1047576,
+      "input_batch_usd_per_million": 0.05,
+      "max_output_tokens": 32768,
+      "output_batch_usd_per_million": 0.2,
+      "quality_note": "Lowest-cost option in this registry; benchmark before bulk publication.",
+      "reasoning_effort": null
+    },
+    "gpt-5-mini": {
+      "api_model": "gpt-5-mini-2025-08-07",
+      "context_tokens": 400000,
+      "input_batch_usd_per_million": 0.125,
+      "max_output_tokens": 128000,
+      "output_batch_usd_per_million": 1.0,
+      "quality_note": "Reasoning tokens consume output budget; benchmark total cost and quality.",
+      "reasoning_effort": "low"
+    },
+    "gpt-6-astra": {
+      "api_model": "gpt-6-astra",
+      "cache_write_batch_usd_per_million": 6.25,
+      "cached_input_batch_usd_per_million": 0.5,
+      "context_tokens": 1050000,
+      "input_batch_usd_per_million": 5.0,
+      "long_context_input_multiplier": 2.0,
+      "long_context_output_multiplier": 1.5,
+      "long_context_threshold_tokens": 272000,
+      "max_output_tokens": 128000,
+      "output_batch_usd_per_million": 25.0,
+      "pricing_verified_on": "2026-10-02",
+      "quality_note": "Higher-cost manual recovery option. Documented API alias; no dated snapshot is published. Reasoning shares the output cap. Quality gates remain required.",
+      "reasoning_effort": "low"
+    },
+    "gpt-6-luna": {
+      "api_model": "gpt-6-luna",
+      "cache_write_batch_usd_per_million": 0.0625,
+      "cached_input_batch_usd_per_million": 0.005,
+      "context_tokens": 1050000,
+      "input_batch_usd_per_million": 0.05,
+      "long_context_input_multiplier": 2.0,
+      "long_context_output_multiplier": 1.5,
+      "long_context_threshold_tokens": 272000,
+      "max_output_tokens": 128000,
+      "output_batch_usd_per_million": 0.25,
+      "pricing_verified_on": "2026-10-02",
+      "quality_note": "Affordable default for new manual translation and review campaigns. Documented API alias; no dated snapshot is published. Reasoning shares the output cap. Benchmark theological accuracy; quality gates remain required.",
+      "reasoning_effort": "low"
+    },
+    "gpt-6.1-sol": {
+      "api_model": "gpt-6.1-sol",
+      "cache_write_batch_usd_per_million": 1.25,
+      "cached_input_batch_usd_per_million": 0.05,
+      "context_tokens": 1050000,
+      "input_batch_usd_per_million": 1.0,
+      "long_context_input_multiplier": 2.0,
+      "long_context_output_multiplier": 1.5,
+      "long_context_threshold_tokens": 272000,
+      "max_output_tokens": 128000,
+      "output_batch_usd_per_million": 5.0,
+      "pricing_verified_on": "2026-10-02",
+      "quality_note": "Stronger downstream recovery option. Documented API alias; no dated snapshot is published. Reasoning shares the output cap. Quality gates remain required.",
+      "reasoning_effort": "low"
+    }
+  },
+  "protected": false,
+  "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
+  "review_attempts": 0,
+  "review_model": "gpt-6.1-sol",
+  "source_snapshot": "state/sources/51d606d75d530fd499bf35ec2974d90fa7a2324da5e2effd7bbf91caa4c13cfd.json",
+  "stage": "correct",
+  "stage_budget": {
+    "initial_stage": "correct",
+    "max_candidate_bytes": 120000,
+    "max_findings_bytes": 32768,
+    "stages_usd": {
+      "correct": 0.220828,
+      "review2": 0.376468
+    },
+    "total_reserved_usd": 0.597296,
+    "version": 1
+  },
+  "status": "queued",
+  "translation_attempts": 0,
+  "translation_key": "1592d5c49f7d9edd93bb2728e23ed568f883fb2f709d5fb8a672cfe5a474b053",
+  "translation_model_actual": "gpt-6-luna"
+}
