@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-01T20:04:30+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraphs 7–8 and final paragraph\",\"severity\":\"minor\",\"source_quote\":\"“how far do we practice it?”; “practicing friendship, practicing fellowship”; “time for the practice of fellowship with God”; “back to the practice of our fellowship”\",\"suggested_fix\":\"Use a more idiomatic expression for practicing or living out the fellowship, such as “kuishi katika ushirika” or “kudumisha ushirika,” consistently in these passages.\",\"translation_quote\":\"“tunautendea kazi kwa kiwango gani?”; “kutendea urafiki kazi, kutendea ushirika kazi”; “kutendea ushirika na Mungu kazi”; “kwenye kutendea ushirika wetu kazi”\"}],\"findings_complete\":true,\"passed\":true,\"score\":97}",
+    "content_bytes": 725,
+    "content_evidence_truncated": false,
+    "content_sha256": "1104a815d93c15c7b2d61a086c4911d74e7707ba952e60cd3e15e8ec68e42f45",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 892,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 698,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4912,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3809,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 5804
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

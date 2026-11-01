@@ -83730,6 +83730,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/swa/articles/7c9d5015-158a-4c07-92fc-ae40c998d9ae.html",
+      "html_sha256": "d04d5e75fd71b54d772f7ddcb6483d714aa99f03c89c9f872673f34b19cc8b9e",
+      "human_reviewed": false,
+      "id": "7c9d5015-158a-4c07-92fc-ae40c998d9ae",
+      "images": [
+        {
+          "alt": "Mwanamume mzee mwenye ndevu anaweka mikono yake juu ya kichwa cha mwanamume aliyepiga magoti, huku mwanamke akiwa ameketi karibu",
+          "public_path": "/images/articles/7c9d5015-158a-4c07-92fc-ae40c998d9ae-1.jpg"
+        },
+        {
+          "alt": "Mwanamume aliyevaa vazi amesimama nje akiwa amenyoosha mikono kando ya mtu aliyepiga magoti",
+          "public_path": "/images/articles/7c9d5015-158a-4c07-92fc-ae40c998d9ae-2.jpg"
+        }
+      ],
+      "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
+      "language": "swa",
+      "language_tag": "sw",
+      "metadata": "content/swa/articles/7c9d5015-158a-4c07-92fc-ae40c998d9ae.json",
+      "metadata_sha256": "d273d1eaaf67de1c057ac95731148307043b1c60a9e700c9678a5b44423aa44b",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
+      "source_translation_key": "45c04759c5b0f7d8a9038af8cc76e1ff17a52e5b989557b235da9ebe057bb77d",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Ushirika Wetu Ni Pamoja na Baba",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/swa/articles/80e78d22-936e-48de-885a-f9a8898d5e42.html",
       "html_sha256": "ee83eb3930635c542c9f6c5bbd2085cfe4bfdfe9607ad5930945828f3f8e033a",
       "human_reviewed": false,
