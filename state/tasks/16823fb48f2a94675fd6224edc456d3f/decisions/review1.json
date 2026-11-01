@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraph beginning “Lemos em Gênesis”",
+      "severity": "major",
+      "source_quote": "He is preparing the perfect choice of a life partner for us, as He did for Adam.",
+      "suggested_fix": "Está preparando para nós o companheiro perfeito para a vida, como fez para Adão.",
+      "translation_quote": "Está preparando para nós a companheira perfeita para a vida, como fez para Adão."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "0405c8b23169413cb23a537268a2181b",
   "campaign": "auto-26927a564608fa675fcce35bb2271c9f02b74ff492a688803309529eed2e93ca",
   "created_at": "2026-11-01T23:04:01+00:00",
   "events": [
@@ -28,10 +27,38 @@
         },
         "total_tokens": 11119
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 698,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 574,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 11434,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 11431,
+          "cached_tokens": 0
+        },
+        "total_tokens": 12132
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "HTML, paragraph beginning “Lemos em Gênesis”",
+      "severity": "major",
+      "source_quote": "He is preparing the perfect choice of a life partner for us, as He did for Adam.",
+      "suggested_fix": "Está preparando para nós o companheiro perfeito para a vida, como fez para Adão.",
+      "translation_quote": "Está preparando para nós a companheira perfeita para a vida, como fez para Adão."
+    }
+  ],
   "id": "16823fb48f2a94675fd6224edc456d3f",
   "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
   "language": "por",
@@ -120,11 +147,13 @@
     }
   },
   "protected": false,
+  "quality_score": 93,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/6b272c051a66dd7c357069608e2c8edecd6f7bbdcb18da4b642f5c5e4b1062b3.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "translate",
     "max_candidate_bytes": 120000,
@@ -138,7 +167,7 @@
     "total_reserved_usd": 0.128258,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "70020afc8ca6b4f0091f5d0e53860b679b8b1c300288c0340fe62643ff38207a",
   "translation_model_actual": "gpt-6-luna"
