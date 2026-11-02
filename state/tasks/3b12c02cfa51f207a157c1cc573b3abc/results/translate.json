@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "012f6b2a-f363-4484-b21e-4e87ef96572c",
+    "response_id": "chatcmpl-Efj8cg78KEwTkHNlwgbSablleVB9l",
+    "usage": {
+      "completion_tokens": 1208,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 108,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1723,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1720,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2931
+    }
+  },
+  "received_at": "2026-11-02T15:41:11+00:00",
+  "result": {
+    "html": "<article data-article-id=\"b72ea42a-1a86-4c21-a399-ebd3013c257b\">\n  <figure>\n    <img src=\"/images/articles/b72ea42a-1a86-4c21-a399-ebd3013c257b-1.jpg\" alt=\"Eine Telegrafentaste und ihre elektrischen Kontakte\">\n  </figure>\n  <p>„Wenn ihr bittet, werde ich handeln.“ Wenn es um Dinge geht, die nur Gott tun kann, wenden wir uns natürlich im Gebet an ihn. Denn da wir wissen, dass wir selbst sie nicht tun können, setzen wir unsere Hoffnung allein auf jenes Bitten, das Gottes Handeln bewirkt. Doch wollen wir auch daran denken, dass unser eigener persönlicher Dienst in den Dingen, die <em>wir tun können</em>, ebenfalls jenes Bitten braucht, das Gottes Handeln darin bewirkt. Ist uns bewusst, dass alles, was wir tun, vom Geist des Gebets durchdrungen sein muss, damit <em>Gott</em> der eigentliche Handelnde, der eigentliche Wirkende in den Dingen ist, mit denen wir uns eifrig beschäftigen? Und doch ist dies eine machtvolle Wahrheit: „Wenn ihr bittet, werde ich handeln“ gilt ebenso für euren eigenen Dienst wie für eure Fürbitte für andere.</p>\n  <p>Hast du schon einmal mit der Taste eines Telegrafen gespielt, während der Stromkreis geschlossen war? Wenn ja, ist dir Folgendes aufgefallen. Auf dieser Taste kannst du eine vollständige Nachricht schreiben, von der Anschrift bis zur Unterschrift. Jedes Telegrafenzeichen lässt sich darauf vollkommen formen; alle Voraussetzungen für fachkundiges Telegrafieren können erfüllt sein. Doch ganz gleich, wie geschickt du als Telegrafist bist: Solange der elektrische Stromkreis geschlossen ist, sind all deine Bemühungen nichts als tönendes Erz und klapperndes Platin. Du überträgst nicht einen einzigen Funken elektrischen Lebens; keine einzige Botschaft, weder zum Guten noch zum Schlechten, weder Unheil noch Segen, gelangt zum wartenden Empfänger am anderen Ende der Leitung.</p>\n  <h2>WARUM?</h2>\n  <p><em>Weil die Batterie nicht funktioniert.</em> Und all dein <em>Wirken</em> ist Bemühen ohne Ergebnis, Tätigkeit ohne Kraft.</p>\n  <p>Doch nun öffnest du den kleinen Messinghebel, der deine Taste mit der unter dem Tisch verborgenen Batterie verbindet. Sofort pulsiert jeder Buchstabe, den du formst, vor Leben; jedes Wort, das du schreibst, sendet eine lebendige Botschaft in den Sinn und das Herz des weit entfernten Empfängers. Durch deine Arbeit, die für sich genommen tot und mechanisch ist, strömt nun die elektrische Batterie mit ihrem lebensspendenden Strom und erfüllt jede geschickte Bewegung deiner flinken Finger mit Leben und Kraft.</p>\n  <h2>DIE LEHRE IST KLAR</h2>\n  <p>In der geistlichen Telegrafie ist es genauso wie in der materiellen. Wenn die Batterie nicht funktioniert, ist die Botschaft bloßes Geklapper. <em>Wir</em> mögen <em>handeln</em>, doch wenn <em>Gott</em> nicht durch uns handelt, ist all unser Tun nichts. Wenn wir in unserer eigenen fleischlichen Kraft wirken, werden wir nur fleischliche Ergebnisse hervorbringen, denn „was aus dem Fleisch geboren ist, das ist Fleisch“. Gott allein ist geistliches Leben. Gott allein ist der Urheber des Lebens. Unsere höchste Aufgabe als Diener ist es, das Leben Gottes an andere weiterzugeben. Unser höchstes Tun ist jenes, bei dem Gott durch uns handelt.</p>\n  <p>Und wie soll das geschehen?</p>\n  <h2>DURCH GEBET</h2>\n  <p>Das Gebet verbindet dich mit der göttlichen Batterie des Lebens und der Kraft. Das Gebet versetzt dich „in den Geist“, und „der Geist ist es, der lebendig macht“. Aus der Gebetskammer trittst du den Menschen entgegen, erfüllt von der Salbung, der feinen Kraft, dem Pulsieren von Gottes eigenem Leben. Während du weiterbittest, handelt Gott weiter. Wenn du das Beten vernachlässigst, verlieren deine Taten ihre Kraft. Leite keine Versammlung, ohne <em>darum zu bitten</em>, dass Gott durch dich der eigentliche Leiter sei; verkünde keine Botschaft, ohne <em>darum zu bitten</em>, dass er durch dich spreche; beginne kein Werk, ohne <em>darum zu bitten</em>, dass Gott durch dich wirke. Denn: <em>„Wenn ihr bittet, werde ich handeln.“</em></p>\n</article>\n",
+    "section": null,
+    "subtitle": null,
+    "title": "EINE VERHEISSUNG FÜR DEN DIENST"
+  }
+}
