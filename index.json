@@ -87296,6 +87296,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/swe/articles/2e021f55-6588-4d9d-bd0a-068af80732ff.html",
+      "html_sha256": "d05b8a2fcb89fc6e168b9c52d680adb741aff7b00a760feaeefdd83da0f77262",
+      "human_reviewed": false,
+      "id": "2e021f55-6588-4d9d-bd0a-068af80732ff",
+      "images": [
+        {
+          "alt": "En lysande lykta på en snötäckt stig om natten",
+          "public_path": "/images/articles/2e021f55-6588-4d9d-bd0a-068af80732ff-1.jpg"
+        }
+      ],
+      "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
+      "language": "swe",
+      "language_tag": "sv",
+      "metadata": "content/swe/articles/2e021f55-6588-4d9d-bd0a-068af80732ff.json",
+      "metadata_sha256": "b019d33677586a78a03e9be2233f23b45cd8507782a79a33ec8de51a7954306a",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "SYSTER TILL SYSTER",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "c849e4ea3ad84b761d78091fcac24b6703c3038258305b91a3abd924f8250de9",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Lärdomar från Andra Krönikeboken tjugo",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/swe/articles/30d02d2c-805c-437c-ad10-4542362ab6de.html",
       "html_sha256": "d6b0396a1a8339a0d0f13d50bdcc3491c54a5c80bd4d4667d482d2797dd44446",
       "human_reviewed": false,
