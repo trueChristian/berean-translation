@@ -7,9 +7,32 @@
       "event": "automatic_requested",
       "previous_task": null,
       "task": "2f14d73cf3d33124c1125cf019f38777"
+    },
+    {
+      "at": "2026-11-02T06:36:35+00:00",
+      "event": "complete",
+      "reason": null,
+      "task": "2f14d73cf3d33124c1125cf019f38777"
     }
   ],
   "language": "deu",
   "latest_task": "2f14d73cf3d33124c1125cf019f38777",
-  "published": null
+  "published": {
+    "html_path": "content/deu/articles/19270b64-7f17-4623-b361-5486354b7303.html",
+    "html_sha256": "62015d3f40da153f10c0f115b257f1588a5a12bca6129208270e004235c6815a",
+    "human_review": null,
+    "human_reviewed": false,
+    "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
+    "metadata_path": "content/deu/articles/19270b64-7f17-4623-b361-5486354b7303.json",
+    "metadata_sha256": "f40d38c5b35f41b729d351b57a6967afc1228fbca44b005a629589438ddeded1",
+    "model": "gpt-6-luna",
+    "notice_html": "<aside class=\"translation-notice\" data-translation-notice=\"ai\" lang=\"de\" dir=\"ltr\" role=\"note\">\n  <p>Dieser Artikel wurde mit künstlicher Intelligenz von OpenAI (Modell: gpt-6-luna) übersetzt und noch nicht von einem Menschen überprüft. Maßgeblich ist das englische Original. Bei Unklarheiten über die Bedeutung ziehen Sie bitte das englische Original heran. <a href=\"/en/articles/19270b64-7f17-4623-b361-5486354b7303/\" data-source-article-id=\"19270b64-7f17-4623-b361-5486354b7303\" hreflang=\"en\">Englisches Original</a></p>\n</aside>",
+    "published_at": "2026-11-02T06:36:35+00:00",
+    "quality_score": 98,
+    "review_model": "gpt-6-luna",
+    "source_revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
+    "source_snapshot": "state/sources/970537de50127eebae71c064d746cc4558f6bb33c1c33fea434b6a8d803940db.json",
+    "task": "2f14d73cf3d33124c1125cf019f38777",
+    "translation_key": "63da7cacb1fe8b3491c5fd4fb86fa335742cd71d9cb8f136d36e8a661edff9fb"
+  }
 }

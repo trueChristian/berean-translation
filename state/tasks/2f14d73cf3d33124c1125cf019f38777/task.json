@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "78b3c2fecd2f4e00a8453fe2cf285427",
   "campaign": "auto-a86edb2d3c047828dd19caee9168b3904125d9004ca438ba065c3433d28c4f09",
   "created_at": "2026-10-31T21:30:29+00:00",
   "events": [
@@ -68,18 +67,39 @@
         },
         "total_tokens": 2989
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 824,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 712,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 2343,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 2340,
+          "cached_tokens": 0
+        },
+        "total_tokens": 3167
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "HTML, second paragraph",
-      "severity": "major",
-      "source_quote": "How much nobler to stay one’s self upon God with a generosity such as Abraham’s, which trusts all to Him!",
-      "suggested_fix": "Wie viel edler ist es, sich auf Gott zu verlassen und dabei eine Großzügigkeit wie Abraham zu zeigen, der alles Gott anvertraut!",
-      "translation_quote": "Wie viel edler ist es, sich mit einer Großzügigkeit wie der Abrahams auf Gott zu verlassen, der ihm alles anvertraut!"
+      "location": "HTML, Absatz 4",
+      "severity": "minor",
+      "source_quote": "“Divine powers and presences come into his life”",
+      "suggested_fix": "Ersetze „göttliche Kräfte und Gegenwarten“ durch „göttliche Kräfte und Gegenwart“.",
+      "translation_quote": "„göttliche Kräfte und Gegenwarten in sein Leben“"
     }
   ],
+  "finished_at": "2026-11-02T06:36:35+00:00",
   "id": "2f14d73cf3d33124c1125cf019f38777",
   "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
   "language": "deu",
@@ -168,7 +188,7 @@
     }
   },
   "protected": false,
-  "quality_score": 94,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
@@ -188,7 +208,7 @@
     "total_reserved_usd": 0.08625,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "63da7cacb1fe8b3491c5fd4fb86fa335742cd71d9cb8f136d36e8a661edff9fb",
   "translation_model_actual": "gpt-6-luna"

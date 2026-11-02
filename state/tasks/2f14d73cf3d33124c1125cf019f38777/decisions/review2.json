@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, Absatz 4",
+      "severity": "minor",
+      "source_quote": "“Divine powers and presences come into his life”",
+      "suggested_fix": "Ersetze „göttliche Kräfte und Gegenwarten“ durch „göttliche Kräfte und Gegenwart“.",
+      "translation_quote": "„göttliche Kräfte und Gegenwarten in sein Leben“"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

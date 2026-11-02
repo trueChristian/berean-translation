@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "22edb787-dfac-4638-b95f-90bf4a578945",
+    "response_id": "chatcmpl-EffqOKuPJl7vE5ZiNrV5ZWN5RC6Nc",
+    "usage": {
+      "completion_tokens": 824,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 712,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2343,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2340,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3167
+    }
+  },
+  "received_at": "2026-11-02T06:36:35+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, Absatz 4",
+        "severity": "minor",
+        "source_quote": "“Divine powers and presences come into his life”",
+        "suggested_fix": "Ersetze „göttliche Kräfte und Gegenwarten“ durch „göttliche Kräfte und Gegenwart“.",
+        "translation_quote": "„göttliche Kräfte und Gegenwarten in sein Leben“"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}

@@ -19284,6 +19284,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/deu/articles/19270b64-7f17-4623-b361-5486354b7303.html",
+      "html_sha256": "62015d3f40da153f10c0f115b257f1588a5a12bca6129208270e004235c6815a",
+      "human_reviewed": false,
+      "id": "19270b64-7f17-4623-b361-5486354b7303",
+      "images": [
+        {
+          "alt": "Jakob ruht unter einer von Engeln bevölkerten Treppe",
+          "public_path": "/images/articles/19270b64-7f17-4623-b361-5486354b7303-1.jpg"
+        },
+        {
+          "alt": "Jakob kniet vor einem geflügelten Engel",
+          "public_path": "/images/articles/19270b64-7f17-4623-b361-5486354b7303-2.jpg"
+        }
+      ],
+      "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
+      "language": "deu",
+      "language_tag": "de",
+      "metadata": "content/deu/articles/19270b64-7f17-4623-b361-5486354b7303.json",
+      "metadata_sha256": "f40d38c5b35f41b729d351b57a6967afc1228fbca44b005a629589438ddeded1",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
+      "source_translation_key": "63da7cacb1fe8b3491c5fd4fb86fa335742cd71d9cb8f136d36e8a661edff9fb",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Wie Menschen wachsen",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/deu/articles/1c75dce8-1781-427f-8099-01596d53c2a4.html",
       "html_sha256": "72a875c4c895894ef5360a59f527d328af559f6f58408e4f4e40f6f44e3554a6",
       "human_reviewed": false,
