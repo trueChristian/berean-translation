@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "1a3c4843d6584eeda9f893728c173234",
   "campaign": "auto-87fdcb1df2fab354fce90057269fecf53989daabdf3334e2afaaedc3b5334bd4",
   "created_at": "2026-11-02T06:41:00+00:00",
   "events": [
@@ -28,10 +27,94 @@
         },
         "total_tokens": 3134
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 994,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3400,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 3397,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4394
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "প্রথম অনুচ্ছেদ; উদ্ধৃত প্রতিশ্রুতি",
+      "severity": "major",
+      "source_quote": "“If ye ask, I will do.”",
+      "suggested_fix": "“তোমরা যদি প্রার্থনা করো, আমি করব।”",
+      "translation_quote": "“তোমরা যদি চাও, আমি করব।”"
+    },
+    {
+      "location": "প্রথম অনুচ্ছেদ; শেষ বাক্য",
+      "severity": "major",
+      "source_quote": "“If ye ask, I will do” applies to your own service as well as your intercession for others.",
+      "suggested_fix": "“তোমরা যদি প্রার্থনা করো, আমি করব”—এ কথা তোমাদের নিজেদের সেবার ক্ষেত্রেও যেমন প্রযোজ্য, তেমনি অন্যদের জন্য তোমাদের মধ্যস্থতার ক্ষেত্রেও।",
+      "translation_quote": "“তোমরা যদি চাও, আমি করব”—এ কথা তোমাদের নিজেদের সেবার ক্ষেত্রেও যেমন প্রযোজ্য, তেমনি অন্যদের জন্য তোমাদের মধ্যস্থতার ক্ষেত্রেও।"
+    },
+    {
+      "location": "শেষ অনুচ্ছেদ; শেষ বাক্য",
+      "severity": "major",
+      "source_quote": "For, “If ye ask, I will do.”",
+      "suggested_fix": "কারণ, “তোমরা যদি প্রার্থনা করো, আমি করব।”",
+      "translation_quote": "কারণ, “তোমরা যদি চাও, আমি করব।”"
+    },
+    {
+      "location": "শেষ অনুচ্ছেদ; সভা, বার্তা ও কাজের নির্দেশ",
+      "severity": "major",
+      "source_quote": "Lead no meeting without asking that God may be the real leader through you; speak no message without asking that He may speak through you; begin no work without asking that God may work though you.",
+      "suggested_fix": "ঈশ্বর যেন আপনার মাধ্যমে প্রকৃত নেতা হন—এই প্রার্থনা না করে কোনো সভা পরিচালনা করবেন না; তিনি যেন আপনার মাধ্যমে কথা বলেন—এই প্রার্থনা না করে কোনো বার্তা দেবেন না; ঈশ্বর যেন আপনার মাধ্যমে কাজ করেন—এই প্রার্থনা না করে কোনো কাজ শুরু করবেন না।",
+      "translation_quote": "ঈশ্বর যেন আপনার মাধ্যমে প্রকৃত নেতা হন—এই প্রার্থনা না করে কোনো সভা পরিচালনা করবেন না; তিনি যেন আপনার মাধ্যমে কথা বলেন—এই প্রার্থনা না করে কোনো বার্তা দেবেন না; ঈশ্বর যেন আপনার মাধ্যমে কাজ করেন—এই প্রার্থনা না করে কোনো কাজ শুরু করবেন না।"
+    },
+    {
+      "location": "দ্বিতীয় অনুচ্ছেদ; টেলিগ্রাফের বর্তনী",
+      "severity": "major",
+      "source_quote": "while the circuit was closed",
+      "suggested_fix": "বর্তনী খোলা থাকা অবস্থায়",
+      "translation_quote": "বৈদ্যুতিক বর্তনী বন্ধ থাকা অবস্থায়"
+    },
+    {
+      "location": "দ্বিতীয় অনুচ্ছেদ; বর্তনী বন্ধ থাকলে ফলাফল",
+      "severity": "major",
+      "source_quote": "so long as the electric circuit is closed",
+      "suggested_fix": "বৈদ্যুতিক বর্তনী খোলা থাকা পর্যন্ত",
+      "translation_quote": "বৈদ্যুতিক বর্তনী বন্ধ থাকা পর্যন্ত"
+    },
+    {
+      "location": "তৃতীয় অনুচ্ছেদ; লিভার খোলা",
+      "severity": "major",
+      "source_quote": "you open the little brass lever which connects your key to the battery",
+      "suggested_fix": "আপনি সেই ছোট পিতলের লিভারটি বন্ধ করলেন, যা আপনার চাবিটিকে টেবিলের নিচে লুকানো ব্যাটারির সঙ্গে যুক্ত করে",
+      "translation_quote": "আপনি সেই ছোট পিতলের লিভারটি খুললেন, যা আপনার চাবিটিকে টেবিলের নিচে লুকানো ব্যাটারির সঙ্গে যুক্ত করে"
+    },
+    {
+      "location": "তৃতীয় অনুচ্ছেদ; ব্যাটারির প্রকৃতি",
+      "severity": "major",
+      "source_quote": "the electronic battery",
+      "suggested_fix": "বৈদ্যুতিক ব্যাটারিটি",
+      "translation_quote": "বৈদ্যুতিক ব্যাটারিটি"
+    },
+    {
+      "location": "শেষ অনুচ্ছেদ; সভা, বার্তা ও কাজের নির্দেশ",
+      "severity": "major",
+      "source_quote": "Lead no meeting without asking ... speak no message without asking ... begin no work without asking ...",
+      "suggested_fix": "এই নির্দেশগুলোকে প্রার্থনা না করার শর্ত হিসেবে নয়, বরং ঈশ্বরের কাছে প্রার্থনা করার নির্দেশ হিসেবে লিখুন—যেমন: “ঈশ্বর যেন আপনার মাধ্যমে প্রকৃত নেতা হন—এই প্রার্থনা না করে কোনো সভা পরিচালনা করবেন না।”",
+      "translation_quote": "এই <em>প্রার্থনা না করে</em> কোনো সভা পরিচালনা করবেন না; এই <em>প্রার্থনা না করে</em> কোনো বার্তা দেবেন না; এই <em>প্রার্থনা না করে</em> কোনো কাজ শুরু করবেন না।"
+    }
+  ],
   "id": "596403435d4b602825b0818f6a90205e",
   "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
   "language": "ben",
@@ -120,11 +203,13 @@
     }
   },
   "protected": false,
+  "quality_score": 70,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/87f95a553eb83f75422bde15eb3d35effd9dfaf6d17787923fba7393c54d1833.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "translate",
     "max_candidate_bytes": 120000,
@@ -138,7 +223,7 @@
     "total_reserved_usd": 0.08669,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "86918e2f92ec7ff09eda36ffc30c12ee294e7b521bd1120caa6adee2c38e97b0",
   "translation_model_actual": "gpt-6-luna"

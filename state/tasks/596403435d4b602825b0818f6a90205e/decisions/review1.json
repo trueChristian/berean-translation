@@ -1,0 +1,70 @@
+{
+  "findings": [
+    {
+      "location": "প্রথম অনুচ্ছেদ; উদ্ধৃত প্রতিশ্রুতি",
+      "severity": "major",
+      "source_quote": "“If ye ask, I will do.”",
+      "suggested_fix": "“তোমরা যদি প্রার্থনা করো, আমি করব।”",
+      "translation_quote": "“তোমরা যদি চাও, আমি করব।”"
+    },
+    {
+      "location": "প্রথম অনুচ্ছেদ; শেষ বাক্য",
+      "severity": "major",
+      "source_quote": "“If ye ask, I will do” applies to your own service as well as your intercession for others.",
+      "suggested_fix": "“তোমরা যদি প্রার্থনা করো, আমি করব”—এ কথা তোমাদের নিজেদের সেবার ক্ষেত্রেও যেমন প্রযোজ্য, তেমনি অন্যদের জন্য তোমাদের মধ্যস্থতার ক্ষেত্রেও।",
+      "translation_quote": "“তোমরা যদি চাও, আমি করব”—এ কথা তোমাদের নিজেদের সেবার ক্ষেত্রেও যেমন প্রযোজ্য, তেমনি অন্যদের জন্য তোমাদের মধ্যস্থতার ক্ষেত্রেও।"
+    },
+    {
+      "location": "শেষ অনুচ্ছেদ; শেষ বাক্য",
+      "severity": "major",
+      "source_quote": "For, “If ye ask, I will do.”",
+      "suggested_fix": "কারণ, “তোমরা যদি প্রার্থনা করো, আমি করব।”",
+      "translation_quote": "কারণ, “তোমরা যদি চাও, আমি করব।”"
+    },
+    {
+      "location": "শেষ অনুচ্ছেদ; সভা, বার্তা ও কাজের নির্দেশ",
+      "severity": "major",
+      "source_quote": "Lead no meeting without asking that God may be the real leader through you; speak no message without asking that He may speak through you; begin no work without asking that God may work though you.",
+      "suggested_fix": "ঈশ্বর যেন আপনার মাধ্যমে প্রকৃত নেতা হন—এই প্রার্থনা না করে কোনো সভা পরিচালনা করবেন না; তিনি যেন আপনার মাধ্যমে কথা বলেন—এই প্রার্থনা না করে কোনো বার্তা দেবেন না; ঈশ্বর যেন আপনার মাধ্যমে কাজ করেন—এই প্রার্থনা না করে কোনো কাজ শুরু করবেন না।",
+      "translation_quote": "ঈশ্বর যেন আপনার মাধ্যমে প্রকৃত নেতা হন—এই প্রার্থনা না করে কোনো সভা পরিচালনা করবেন না; তিনি যেন আপনার মাধ্যমে কথা বলেন—এই প্রার্থনা না করে কোনো বার্তা দেবেন না; ঈশ্বর যেন আপনার মাধ্যমে কাজ করেন—এই প্রার্থনা না করে কোনো কাজ শুরু করবেন না।"
+    },
+    {
+      "location": "দ্বিতীয় অনুচ্ছেদ; টেলিগ্রাফের বর্তনী",
+      "severity": "major",
+      "source_quote": "while the circuit was closed",
+      "suggested_fix": "বর্তনী খোলা থাকা অবস্থায়",
+      "translation_quote": "বৈদ্যুতিক বর্তনী বন্ধ থাকা অবস্থায়"
+    },
+    {
+      "location": "দ্বিতীয় অনুচ্ছেদ; বর্তনী বন্ধ থাকলে ফলাফল",
+      "severity": "major",
+      "source_quote": "so long as the electric circuit is closed",
+      "suggested_fix": "বৈদ্যুতিক বর্তনী খোলা থাকা পর্যন্ত",
+      "translation_quote": "বৈদ্যুতিক বর্তনী বন্ধ থাকা পর্যন্ত"
+    },
+    {
+      "location": "তৃতীয় অনুচ্ছেদ; লিভার খোলা",
+      "severity": "major",
+      "source_quote": "you open the little brass lever which connects your key to the battery",
+      "suggested_fix": "আপনি সেই ছোট পিতলের লিভারটি বন্ধ করলেন, যা আপনার চাবিটিকে টেবিলের নিচে লুকানো ব্যাটারির সঙ্গে যুক্ত করে",
+      "translation_quote": "আপনি সেই ছোট পিতলের লিভারটি খুললেন, যা আপনার চাবিটিকে টেবিলের নিচে লুকানো ব্যাটারির সঙ্গে যুক্ত করে"
+    },
+    {
+      "location": "তৃতীয় অনুচ্ছেদ; ব্যাটারির প্রকৃতি",
+      "severity": "major",
+      "source_quote": "the electronic battery",
+      "suggested_fix": "বৈদ্যুতিক ব্যাটারিটি",
+      "translation_quote": "বৈদ্যুতিক ব্যাটারিটি"
+    },
+    {
+      "location": "শেষ অনুচ্ছেদ; সভা, বার্তা ও কাজের নির্দেশ",
+      "severity": "major",
+      "source_quote": "Lead no meeting without asking ... speak no message without asking ... begin no work without asking ...",
+      "suggested_fix": "এই নির্দেশগুলোকে প্রার্থনা না করার শর্ত হিসেবে নয়, বরং ঈশ্বরের কাছে প্রার্থনা করার নির্দেশ হিসেবে লিখুন—যেমন: “ঈশ্বর যেন আপনার মাধ্যমে প্রকৃত নেতা হন—এই প্রার্থনা না করে কোনো সভা পরিচালনা করবেন না।”",
+      "translation_quote": "এই <em>প্রার্থনা না করে</em> কোনো সভা পরিচালনা করবেন না; এই <em>প্রার্থনা না করে</em> কোনো বার্তা দেবেন না; এই <em>প্রার্থনা না করে</em> কোনো কাজ শুরু করবেন না।"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
