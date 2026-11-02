@@ -76574,6 +76574,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/rus/articles/b72ea42a-1a86-4c21-a399-ebd3013c257b.html",
+      "html_sha256": "fc4a8337ee55ecd5bb30030eecc5699bc81053057f0e565c98cdf14e2e8d0991",
+      "human_reviewed": false,
+      "id": "b72ea42a-1a86-4c21-a399-ebd3013c257b",
+      "images": [
+        {
+          "alt": "Телеграфный ключ и его электрические контакты",
+          "public_path": "/images/articles/b72ea42a-1a86-4c21-a399-ebd3013c257b-1.jpg"
+        }
+      ],
+      "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
+      "language": "rus",
+      "language_tag": "ru",
+      "metadata": "content/rus/articles/b72ea42a-1a86-4c21-a399-ebd3013c257b.json",
+      "metadata_sha256": "d3e2038462600b742d25ce309b725bad6c82319d1828f61d87ebf1ca610d29d4",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
+      "source_translation_key": "86918e2f92ec7ff09eda36ffc30c12ee294e7b521bd1120caa6adee2c38e97b0",
+      "status": "ready",
+      "subtitle": null,
+      "title": "ОБЕТОВАНИЕ ДЛЯ СЛУЖЕНИЯ",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/rus/articles/b8c0cd82-3d1a-4287-b2f5-391e08dd8efd.html",
       "html_sha256": "71563c05464014f8468559f1d719cac2f5c509180974b1ff564f2cdaf994aee8",
       "human_reviewed": false,
