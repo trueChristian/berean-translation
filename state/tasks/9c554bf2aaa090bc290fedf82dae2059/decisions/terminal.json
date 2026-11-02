@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "translation.html: “अन्य भाषाओं का दान” खंड का दूसरा अनुच्छेद",
+      "severity": "minor",
+      "source_quote": "this speaking in many different languages was supernatural",
+      "suggested_fix": "“इतने भिन्न-भिन्न भाषाओं में यह बोलना” को “इतनी भिन्न-भिन्न भाषाओं में यह बोलना” करें।",
+      "translation_quote": "इतने भिन्न-भिन्न भाषाओं में यह बोलना अलौकिक था"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

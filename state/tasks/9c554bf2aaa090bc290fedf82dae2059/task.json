@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "43bcc422898e4686afa227de98b2c4a7",
   "campaign": "auto-9b13fa68bcf8be0d924db4cde2aa380063f18dbbd9ba51d9f6116ca007f32e44",
   "created_at": "2026-11-01T02:02:07+00:00",
   "events": [
@@ -48,186 +47,39 @@
         },
         "total_tokens": 20859
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 177,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 46,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 12492,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 12489,
+          "cached_tokens": 0
+        },
+        "total_tokens": 12669
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "html, paragraph 10, concluding sentence",
-      "severity": "major",
-      "source_quote": "it would be hard not to fall into pride",
-      "suggested_fix": "“गर्व में पड़ना कठिन होगा” को “गर्व में पड़ने से बचना कठिन होगा” करें।",
-      "translation_quote": "गर्व में पड़ना कठिन होगा"
-    },
-    {
-      "location": "html, paragraph 1, article subject",
-      "severity": "major",
-      "source_quote": "this article on <em>Spiritual Gifts</em>",
-      "suggested_fix": "इसे “<em>आध्यात्मिक दान</em> पर इस लेख” करें।",
-      "translation_quote": "इस लेख <em>आध्यात्मिक भावनाएँ (Spiritual Gifts)</em>"
-    },
-    {
-      "location": "html, paragraphs 1, 2, and 34, references to gifts",
-      "severity": "major",
-      "source_quote": "gave gifts unto men; He gave gifts to His people; God giving gifts to the church",
-      "suggested_fix": "इन स्थानों में “दाने” के स्थान पर “दान” लिखें: “लोगों को दान दिए”, “अपनी प्रजा—चर्च—को दान दिए”, और “चर्च को दान देने के”।",
-      "translation_quote": "लोगों को दाने दिये; अपनी जनता—चर्च—को दाने दिये; चर्च को दाने देने"
-    },
-    {
-      "location": "html, paragraph 1, Ephesians 4:8 quotation",
-      "severity": "major",
-      "source_quote": "When he ascended up on high, he led captivity captive",
-      "suggested_fix": "उद्धरण के इस भाग को “जब वह ऊँचे पर चढ़ा, तो बंदियों को बंदी बनाकर ले गया” करें।",
-      "translation_quote": "वह जो ऊपर उठा, उसने बन्धों को लेकर गया"
-    },
-    {
-      "location": "html, paragraph 2, Ephesians 4:11 quotation",
-      "severity": "major",
-      "source_quote": "And he [God] gave some, apostles",
-      "suggested_fix": "“और उसने [परमेश्वर ने] कुछों को प्रेरितों के रूप में दिया” लिखें, ताकि ‘प्रेरित’ पद और कोष्ठक में दिया गया कर्ता दोनों सुरक्षित रहें।",
-      "translation_quote": "और उसने कुछों को प्रेरित किया"
-    },
-    {
-      "location": "html, paragraph 3, list of gifts",
-      "severity": "major",
-      "source_quote": "the word of wisdom, the word of knowledge",
-      "suggested_fix": "“बुद्धि का वचन, ज्ञान का वचन” करें।",
-      "translation_quote": "विज्ञान का वचन, ज्ञान का वचन"
-    },
-    {
-      "location": "html, paragraphs 14 and 19, 1 Timothy 4:14 quotations",
-      "severity": "major",
-      "source_quote": "with the laying on of the hands of the presbytery; …the laying on of the hands of the presbytery",
-      "suggested_fix": "दोनों स्थानों में “PRESBYTERY के हाथों के रखे जाने” को “प्राचीनों की सभा द्वारा हाथ रखे जाने” करें।",
-      "translation_quote": "PRESBYTERY के हाथों के रखे जाने से; … PRESBYTERY के हाथों के रखे जाने द्वारा"
-    },
-    {
-      "location": "html, paragraph 18, James 3:13-18 quotation",
-      "severity": "major",
-      "source_quote": "glory not",
-      "suggested_fix": "“तो धन्य मत हो” को “तो घमंड मत करो” करें।",
-      "translation_quote": "तो धन्य मत हो"
-    },
-    {
-      "location": "html, paragraph 18, James 3:13-18 quotation",
-      "severity": "major",
-      "source_quote": "easy to be intreated",
-      "suggested_fix": "मौजूदा <strong> टैग के भीतर “समझाने पर मान लेने वाली” लिखें।",
-      "translation_quote": "सरल विलापी"
-    },
-    {
-      "location": "html, paragraph 18, sentence following James quotation",
+      "location": "translation.html: “अन्य भाषाओं का दान” खंड का दूसरा अनुच्छेद",
       "severity": "minor",
-      "source_quote": "Very rare is the case of church trouble involving church leadership",
-      "suggested_fix": "वाक्य की शुरुआत से असंबद्ध शब्द “तबादले में” हटाएँ।",
-      "translation_quote": "तबादले में चर्च नेतृत्व में शामिल कठिनाई का मामला बहुत दुर्लभ है"
-    },
-    {
-      "location": "html, paragraph 21, Ephesians 4:11-12 quotation",
-      "severity": "major",
-      "source_quote": "and he gave… [various spiritual gifts to believers] [to some this gift and to others a different gift]",
-      "suggested_fix": "उद्धरण का आरंभ “और उसने दिए… [विश्वासियों को विभिन्न आध्यात्मिक दान] [कुछों को यह दान और दूसरों को दूसरा दान] …” करें, शेष उद्धरण और HTML यथावत रखें।",
-      "translation_quote": "और उसने [विश्वासियों को विभिन्‍न आध्यात्मिक दान].…"
-    },
-    {
-      "location": "html, paragraph 23, opening sentences",
-      "severity": "major",
-      "source_quote": "The second reason is for the benefit of the unbeliever. Some of the gifts were given as a sign for the unbeliever.",
-      "suggested_fix": "“असंबद्ध (unbeliever)” को “अविश्वासी” और अगले वाक्य में “unbeliever” को “अविश्वासी” करें।",
-      "translation_quote": "असंबद्ध (unbeliever) के लाभ के लिये है। कुछ दान unbeliever के लिये"
-    },
-    {
-      "location": "html, paragraph 23, explanation of supernatural signs",
-      "severity": "major",
-      "source_quote": "because of the supernatural manifestations",
-      "suggested_fix": "“क्योंकि अलौकिक घटनाएँ प्रकट हुई थीं” करें।",
-      "translation_quote": "क्योंकि अतृथ्य घटनाएँ हुईं"
-    },
-    {
-      "location": "html, paragraph 26, healing and anointing",
-      "severity": "major",
-      "source_quote": "the elders of the church were called",
-      "suggested_fix": "“चर्च के वृद्धों” को “चर्च के प्राचीनों” करें; यहाँ नियुक्त कलीसियाई अगुवों की बात है, केवल वृद्ध व्यक्तियों की नहीं।",
-      "translation_quote": "चर्च के वृद्धों को बुलाया गया"
-    },
-    {
-      "location": "html, paragraph 26, concluding sentence",
-      "severity": "major",
-      "source_quote": "calling men from a world of sin and calling them into His kingdom",
-      "suggested_fix": "“पाप की दुनिया से लोगों को बुलाकर उसके राज्य में आने का आह्वान करने के लिये” करें।",
-      "translation_quote": "पाप की दुनिया से लोगों को बुलाकर उसके राज्य में प्रसारित करने के लिये"
-    },
-    {
-      "location": "html, paragraph 28, Peter's credibility",
-      "severity": "major",
-      "source_quote": "We do not determine Peter’s credibility",
-      "suggested_fix": "“हम पतरस की विश्वसनीयता ... निर्धारित नहीं करते” करें।",
-      "translation_quote": "हम पीटर की विचारणीयता ... निर्धारित नहीं करते"
-    },
-    {
-      "location": "html, paragraph 28, concluding sentence",
-      "severity": "major",
-      "source_quote": "It would have taken a stubborn soul to scoff at the message being preached that day.",
-      "suggested_fix": "“उस दिन प्रचार किए जा रहे संदेश का उपहास केवल कोई हठी व्यक्ति ही कर सकता था।” लिखें।",
-      "translation_quote": "उस दिन प्रचारित संदेश पर खिल्ली उड़ाना दृढ़ आत्मा की बात होती।"
-    },
-    {
-      "location": "html, paragraph 29, description of recorded speech",
-      "severity": "major",
-      "source_quote": "English speakers used English syllables ... Spanish speaking people used Spanish syllables ... repeats syllables of their native tongue",
-      "suggested_fix": "तीनों स्थानों में ध्वन्यात्मक इकाई स्पष्ट करें: “अंग्रेज़ी के शब्दांश”, “स्पैनिश के शब्दांश”, और “अपनी मातृभाषा के शब्दांशों को बार-बार दोहराता है”।",
-      "translation_quote": "अंग्रेज़ी अक्षरों/लय ... स्पैनिश अक्षर/लय ... अपनी मातृभाषा के अक्षरों को आवृत्ति में दोहराता है"
-    },
-    {
-      "location": "html, paragraph 30, revival meeting",
-      "severity": "major",
-      "source_quote": "a revival meeting where the revivalist was preaching",
-      "suggested_fix": "“एक आत्मिक जागृति सभा में आई जहाँ जागृति प्रचारक ... प्रचार कर रहे थे” करें।",
-      "translation_quote": "एक जीउ करने वाली सभा में आई जहाँ प्रचारक ... प्रचार कर रहे थे"
-    },
-    {
-      "location": "html, paragraph 30, counseling attribution",
-      "severity": "major",
-      "source_quote": "those who counseled with her asked her",
-      "suggested_fix": "“जिन लोगों ने उसे परामर्श दिया, उन्होंने उससे पूछा” करें।",
-      "translation_quote": "जिन लोगों ने उससे सलाह ली उन्होंने उससे पूछा"
-    },
-    {
-      "location": "html, paragraph 30, woman's response",
-      "severity": "major",
-      "source_quote": "what she had heard was shared in the most beautiful French she had ever heard",
-      "suggested_fix": "“उसने उत्तर दिया कि उसने संदेश ऐसी सुंदर फ्रेंच में सुना था जैसी उसने पहले कभी नहीं सुनी थी।” लिखें।",
-      "translation_quote": "उसने सबसे सुंदर फ्रेंच में वही सुना जो उसने सुना—जो उसने जीवन में कभी नहीं सुना था"
-    },
-    {
-      "location": "html, paragraph 30, speaker's awareness",
-      "severity": "major",
-      "source_quote": "I suspect there is a good possibility that at times, the one speaking in tongues may not even be aware of it.",
-      "suggested_fix": "“मुझे लगता है कि इस बात की अच्छी संभावना है कि कभी-कभी अन्य भाषाओं में बोलने वाले को स्वयं भी इसका पता न हो।” लिखें।",
-      "translation_quote": "मेरा संदेह है कि कभी-कभी जिस व्यक्ति ने भाषाएँ बोली वे स्वयं भी इसके बारे में अवगत न हों।"
-    },
-    {
-      "location": "html, paragraph 4, plain churches",
-      "severity": "minor",
-      "source_quote": "some of us plain churches",
-      "suggested_fix": "परंपरागत समुदाय का आशय स्पष्ट करने के लिए “हमारे कुछ सादगी की परंपरा वाले चर्च” करें।",
-      "translation_quote": "कुछ साधारण चर्च"
-    },
-    {
-      "location": "html, paragraph 28, script consistency",
-      "severity": "minor",
-      "source_quote": "It is not a sign to the believer",
-      "suggested_fix": "उर्दू लिपि के “کوئی” को देवनागरी “कोई” करें।",
-      "translation_quote": "यह विश्वास करने वाले के लिये کوئی संकेत नहीं है"
-    },
-    {
-      "location": "section",
-      "severity": "minor",
-      "source_quote": "THE NEW TESTAMENT CHURCH",
-      "suggested_fix": "प्रचलित हिंदी में “नए नियम की कलीसिया” करें।",
-      "translation_quote": "न्यू टेस्टामेंट चर्च"
+      "source_quote": "this speaking in many different languages was supernatural",
+      "suggested_fix": "“इतने भिन्न-भिन्न भाषाओं में यह बोलना” को “इतनी भिन्न-भिन्न भाषाओं में यह बोलना” करें।",
+      "translation_quote": "इतने भिन्न-भिन्न भाषाओं में यह बोलना अलौकिक था"
     }
   ],
+  "finished_at": "2026-11-02T05:52:32+00:00",
   "id": "9c554bf2aaa090bc290fedf82dae2059",
   "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
   "language": "hin",
@@ -316,7 +168,7 @@
     }
   },
   "protected": false,
-  "quality_score": 64,
+  "quality_score": 99,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6.1-sol",
@@ -335,7 +187,7 @@
     "total_reserved_usd": 0.86779,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "1c1dd57f73c720271265483775e7d93acfbda9f85eeefb95d0c905a5b442adfd",
   "translation_model_actual": "gpt-6.1-sol"

@@ -40939,6 +40939,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/hin/articles/e8bdb12c-2e8e-4f55-9052-07bec6e103a1.html",
+      "html_sha256": "3a93bf14b402719e6a9cce0017d825f4b8476a8435af8100d89026b248f8339e",
+      "human_reviewed": false,
+      "id": "e8bdb12c-2e8e-4f55-9052-07bec6e103a1",
+      "images": [
+        {
+          "alt": "झील में प्रतिबिंबित सर्दियों का एक धुंध भरा जंगल",
+          "public_path": "/images/articles/e8bdb12c-2e8e-4f55-9052-07bec6e103a1-1.png"
+        }
+      ],
+      "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
+      "language": "hin",
+      "language_tag": "hi",
+      "metadata": "content/hin/articles/e8bdb12c-2e8e-4f55-9052-07bec6e103a1.json",
+      "metadata_sha256": "ba745381466ce201077d9daf0095b581f58d356dcd46d0df94e67031249a5514",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "नए नियम की कलीसिया",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "1c1dd57f73c720271265483775e7d93acfbda9f85eeefb95d0c905a5b442adfd",
+      "status": "ready",
+      "subtitle": null,
+      "title": "आध्यात्मिक दान",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/hin/articles/e9621e7b-df8d-4497-998c-b98af23486b7.html",
       "html_sha256": "4287889e97a5cd283b0d49e089c390dd411e81deb8e6c47adf7709f9271c8ca9",
       "human_reviewed": false,

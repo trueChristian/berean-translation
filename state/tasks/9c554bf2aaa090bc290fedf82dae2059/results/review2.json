@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "ee2119f0-a098-4831-8da7-5753e4b77ac3",
+    "response_id": "chatcmpl-Efc0eFGtCZdsCF0ZYyJuqaeM3Lxne",
+    "usage": {
+      "completion_tokens": 177,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 46,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 12492,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 12489,
+        "cached_tokens": 0
+      },
+      "total_tokens": 12669
+    }
+  },
+  "received_at": "2026-11-02T05:52:32+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "translation.html: “अन्य भाषाओं का दान” खंड का दूसरा अनुच्छेद",
+        "severity": "minor",
+        "source_quote": "this speaking in many different languages was supernatural",
+        "suggested_fix": "“इतने भिन्न-भिन्न भाषाओं में यह बोलना” को “इतनी भिन्न-भिन्न भाषाओं में यह बोलना” करें।",
+        "translation_quote": "इतने भिन्न-भिन्न भाषाओं में यह बोलना अलौकिक था"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 99
+  }
+}
