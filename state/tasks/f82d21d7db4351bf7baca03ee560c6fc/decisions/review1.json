@@ -1,0 +1,56 @@
+{
+  "findings": [
+    {
+      "location": "html, paragraph beginning “Pria yang mengikuti Yesus”",
+      "severity": "major",
+      "source_quote": "After the feeding of the five thousand",
+      "suggested_fix": "Ganti “Setelah penggandaan lima ribu” dengan “Setelah pemberian makan kepada lima ribu orang”.",
+      "translation_quote": "Setelah penggandaan lima ribu"
+    },
+    {
+      "location": "html, paragraphs beginning “Pria yang mengikuti Yesus”, “Para leluhur kita”, and “Begitu juga”",
+      "severity": "major",
+      "source_quote": "Discipleship is not for cowards or the faint of heart; the journey of unreserved discipleship; Discipleship calls us to faithful obedience.",
+      "suggested_fix": "Ganti masing-masing dengan “Pemuridan bukanlah untuk para pengecut atau mereka yang lemah hati”, “perjalanan pemuridan tanpa syarat”, dan “Pemuridan memanggil kita untuk taat dengan setia”.",
+      "translation_quote": "Murid-murid bukan untuk pengecut atau yang lemah hati; perjalanan murid yang tanpa reservasi; Murid menghendaki ketaatan yang setia."
+    },
+    {
+      "location": "html, paragraph beginning “Engkau tidak perlu pergi”",
+      "severity": "major",
+      "source_quote": "a victim mentality (“I can’t help it”)",
+      "suggested_fix": "Ganti kutipan dalam kurung dengan “Aku tidak bisa berbuat apa-apa untuk mengatasinya”. Ungkapan sumber menyatakan ketidakberdayaan mengendalikan perilaku sendiri, bukan ketidakmampuan menolong sesuatu.",
+      "translation_quote": "mentalitas korban (“Aku tidak bisa menolongnya”)"
+    },
+    {
+      "location": "html, paragraph beginning “Sama seperti ada hukum-hukum alam”, quotation of John 16:13",
+      "severity": "major",
+      "source_quote": "when he, the Spirit of truth, is come",
+      "suggested_fix": "Ganti “Tetapi apabila Ia, Penghibur, datang” dengan “Tetapi apabila Ia, Roh kebenaran, datang”.",
+      "translation_quote": "Tetapi apabila Ia, Penghibur, datang"
+    },
+    {
+      "location": "html, paragraph beginning “Saat Petrus mulai tenggelam”",
+      "severity": "major",
+      "source_quote": "a feat no man had accomplished before or since",
+      "suggested_fix": "Ganti frasa tersebut dengan “suatu prestasi yang tidak pernah dicapai orang lain, baik sebelum maupun sesudahnya”.",
+      "translation_quote": "suatu prestasi yang belum dan tidak dicapai orang lain sebelumnya"
+    },
+    {
+      "location": "html, paragraph beginning “Begitu juga”",
+      "severity": "minor",
+      "source_quote": "We reason away the woman’s head covering. We reason away the nonconformed lifestyle. We reason away the permanence of marriage. We reason away brotherhood accountability.",
+      "suggested_fix": "Ganti pola “Kita menalar habis …” pada keempat kalimat dengan “Dengan berbagai alasan, kita menyingkirkan …” agar jelas bahwa penalaran dipakai untuk menolak praktik-praktik tersebut.",
+      "translation_quote": "Kita menalar habis penutup kepala perempuan. Kita menalar habis gaya hidup yang tidak menyesuaikan diri dengan dunia. Kita menalar habis kekekalan pernikahan. Kita menalar habis pertanggungjawaban persaudaraan."
+    },
+    {
+      "location": "html, paragraph quoting Matthew 14:25-27",
+      "severity": "minor",
+      "source_quote": "in the fourth watch of the night",
+      "suggested_fix": "Ganti “pada waktu yang keempat malam” dengan “pada giliran jaga keempat malam itu”.",
+      "translation_quote": "pada waktu yang keempat malam"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
