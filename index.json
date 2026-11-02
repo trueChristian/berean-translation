@@ -56335,6 +56335,42 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/kor/articles/e08f3c82-7473-48d6-a445-1e8bf9f01d6f.html",
+      "html_sha256": "3577260813ae7650a14b73f525c135f97da4a06d2eff9b59129cb75cd0675f13",
+      "human_reviewed": false,
+      "id": "e08f3c82-7473-48d6-a445-1e8bf9f01d6f",
+      "images": [
+        {
+          "alt": "젊은 남성이 열린 창가에 있는 여성에게 기타를 연주하며 세레나데를 부른다",
+          "public_path": "/images/articles/e08f3c82-7473-48d6-a445-1e8bf9f01d6f-1.jpg"
+        },
+        {
+          "alt": "보닛을 쓴 여성 두 명이 새들 옆 벤치에 앉아 있다",
+          "public_path": "/images/articles/e08f3c82-7473-48d6-a445-1e8bf9f01d6f-2.jpg"
+        },
+        {
+          "alt": "여성이 바위투성이 길을 따라 머리에 그릇을 이고 간다",
+          "public_path": "/images/articles/e08f3c82-7473-48d6-a445-1e8bf9f01d6f-3.jpg"
+        }
+      ],
+      "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
+      "language": "kor",
+      "language_tag": "ko",
+      "metadata": "content/kor/articles/e08f3c82-7473-48d6-a445-1e8bf9f01d6f.json",
+      "metadata_sha256": "6c0044eb75db2e613e5f82f7079400456822bb742d3778cdd7efc23de8a8b838",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
+      "source_translation_key": "70020afc8ca6b4f0091f5d0e53860b679b8b1c300288c0340fe62643ff38207a",
+      "status": "ready",
+      "subtitle": "젊은 여성들을 위하여",
+      "title": "정서적 자유",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/kor/articles/e66a02d4-667c-4f50-b5e1-158ff98b82d5.html",
       "html_sha256": "723dad538555412a924697384b7603745974c1c2a6d26a767d198a52ab1acc70",
       "human_reviewed": false,
