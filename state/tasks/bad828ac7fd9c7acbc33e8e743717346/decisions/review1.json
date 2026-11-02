@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Section “Θερμοί εραστές του Ιησού Χριστού,” Amy Carmichael quotation and following paragraph",
+      "severity": "major",
+      "source_quote": "“I pray that you may be an ardent lover, the kind of lover who sets others on fire.” / “My heart’s deep desire is to be one of the Lord’s true lovers”",
+      "suggested_fix": "Use wording that conveys ardent devotion to Jesus without implying a sexual or mistress-like relationship, for example: «Προσεύχομαι να είσαι ένθερμα αφοσιωμένη στον Ιησού, με τέτοιο ζήλο ώστε να εμπνέεις και άλλους» and «Η βαθιά επιθυμία της καρδιάς μου είναι να είμαι μία από τις αληθινά αφοσιωμένες στον Κύριο». Apply the same distinction to the repeated “ardent lover” phrasing in this section.",
+      "translation_quote": "«Προσεύχομαι να γίνεις θερμή ερωμένη, από εκείνες που ανάβουν φωτιά στις καρδιές των άλλων»; «να είμαι μία από τις αληθινές εραστές του Κυρίου»; «μια τέτοια θερμή ερωμένη»"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

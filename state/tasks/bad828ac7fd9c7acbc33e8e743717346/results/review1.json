@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "c93daae5-a59c-4805-aa85-22e9987158c1",
+    "response_id": "chatcmpl-EffNoueOD84pPYuZ43FP88mHXfPE8",
+    "usage": {
+      "completion_tokens": 999,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 692,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 14891,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 13788,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 15890
+    }
+  },
+  "received_at": "2026-11-02T06:06:53+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Section “Θερμοί εραστές του Ιησού Χριστού,” Amy Carmichael quotation and following paragraph",
+        "severity": "major",
+        "source_quote": "“I pray that you may be an ardent lover, the kind of lover who sets others on fire.” / “My heart’s deep desire is to be one of the Lord’s true lovers”",
+        "suggested_fix": "Use wording that conveys ardent devotion to Jesus without implying a sexual or mistress-like relationship, for example: «Προσεύχομαι να είσαι ένθερμα αφοσιωμένη στον Ιησού, με τέτοιο ζήλο ώστε να εμπνέεις και άλλους» and «Η βαθιά επιθυμία της καρδιάς μου είναι να είμαι μία από τις αληθινά αφοσιωμένες στον Κύριο». Apply the same distinction to the repeated “ardent lover” phrasing in this section.",
+        "translation_quote": "«Προσεύχομαι να γίνεις θερμή ερωμένη, από εκείνες που ανάβουν φωτιά στις καρδιές των άλλων»; «να είμαι μία από τις αληθινές εραστές του Κυρίου»; «μια τέτοια θερμή ερωμένη»"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 92
+  }
+}
