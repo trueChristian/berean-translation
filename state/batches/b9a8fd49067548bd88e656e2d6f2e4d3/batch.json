@@ -6,12 +6,14 @@
   ],
   "id": "b9a8fd49067548bd88e656e2d6f2e4d3",
   "input_file_id": "file-JipjnVJpUmkuJh5bT24B5r",
+  "last_collector_visit_at": "2026-11-02T16:11:44+00:00",
   "model": "gpt-6-luna",
   "payload_sha256": "b8437caaacbfb437ce15fed9ccf91f2826322249c36cf0917aa38cce0f9c806f",
   "remote_id": null,
   "reserved_usd": 0.004868,
   "stage": "translate",
-  "status": "prepared",
+  "status": "submitting",
+  "submission_started_at": "2026-11-02T16:11:55+00:00",
   "tasks": [
     "96e8736382519c4b1c158300aa61271e"
   ]
