@@ -1,0 +1,59 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "ea56ae65-3949-4764-a87a-2eb8b0c97635",
+    "response_id": "chatcmpl-EfZvyq4p4U9PrbgRJO3YUA98zkhgw",
+    "usage": {
+      "completion_tokens": 675,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 149,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5722,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5719,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6397
+    }
+  },
+  "received_at": "2026-11-02T00:18:43+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "html, stycke 2, citatet till vers 6",
+        "severity": "major",
+        "source_quote": "O LORD God of our fathers",
+        "suggested_fix": "Ändra till ”O HERRE, våra fäders Gud”.",
+        "translation_quote": "O HERRE, vår faderns Gud"
+      },
+      {
+        "location": "html, stycke 12, citatet till verserna 22–23",
+        "severity": "major",
+        "source_quote": "the LORD set… [an ambush] against the children of Ammon, [and] Moab, …which were come against Judah; and they were smitten",
+        "suggested_fix": "Ändra denna del inom befintlig em-tagg till ”lade HERREN … [ett bakhåll] mot ammoniterna [och] moabiterna … som hade kommit mot Juda; och de blev slagna”. ”De slogs” uttrycker att de kämpade, inte att de besegrades.",
+        "translation_quote": "lade HERREN … [en överrumpling] mot ammoniternas barn, moabiternas … som hade kommit mot Juda; och de slogs"
+      },
+      {
+        "location": "html, stycke 6, 8 och 14",
+        "severity": "minor",
+        "source_quote": "He called all the people of Judah together; let Him do the fighting; My heart is full of blessing, of being cared for, and being carried by a Heavenly Father.",
+        "suggested_fix": "Ändra respektive formulering till ”Han kallade samman hela Judas folk”, ”låta Honom utkämpa striden” och ”Mitt hjärta är fullt av välsignelse, av vissheten om att en himmelsk Fader tar hand om mig och bär mig.”",
+        "translation_quote": "Han kallade alla Juda folk samman; låta Honom göra striden; Mitt hjärta är fullt av välsignelse, av att bli omhändertaget och buren av en himmelsk Fader."
+      },
+      {
+        "location": "html, stycke 1, sista meningen",
+        "severity": "minor",
+        "source_quote": "<em>This is not comfortable, God, and I’m afraid.</em>",
+        "suggested_fix": "Återställ betoningen genom att omsluta den befintliga svenska meningen med <em> och </em>.",
+        "translation_quote": "Detta är inte bekvämt, Gud, och jag är rädd."
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 93
+  }
+}
