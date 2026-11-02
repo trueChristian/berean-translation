@@ -1,0 +1,59 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "c7fc4dd3-7c57-4aed-975a-dc6b1045e067",
+    "response_id": "chatcmpl-EfaAF8FVVQGdeXiDmsLWOMQr7MrHT",
+    "usage": {
+      "completion_tokens": 673,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 76,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9270,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8167,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 9943
+    }
+  },
+  "received_at": "2026-11-02T02:21:10+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "html：审讯段，使徒行传24:25引文",
+        "severity": "major",
+        "source_quote": "when I have a convenient season, I will call for thee",
+        "suggested_fix": "将“有机会我必叫你听”改为“等我有方便的时候，我会再召你来”。",
+        "translation_quote": "有机会我必叫你听"
+      },
+      {
+        "location": "html：“创造”节，罗马书1:20引文",
+        "severity": "major",
+        "source_quote": "For the invisible things of him from the creation of the world are clearly seen, being understood by the things that are made, even his eternal power and Godhead; so that they are without excuse",
+        "suggested_fix": "在原有<em>标签内改为：“自从创造世界以来，神那不能看见的事，就是他的永能和神性，借着所造之物就可以明明看见、得以理解，使他们无可推诿——罗马书1:20。”",
+        "translation_quote": "自从创造世界以先，神那不能看见之事（就是他那永能和神性）自从受造之物被造以来，借着所造之物就明明可知——以致他们无可推诿——罗马书1:20。"
+      },
+      {
+        "location": "html：“科学与医学”节，20世纪初糖尿病治疗段",
+        "severity": "major",
+        "source_quote": "an extremely low glycemic diet with severe calorie limits",
+        "suggested_fix": "将“极低血糖饮食并严格限制热量”改为“升糖指数极低且严格限制热量的饮食”。",
+        "translation_quote": "极低血糖饮食并严格限制热量"
+      },
+      {
+        "location": "html：“宇宙的规律仍旧成立”节，彼得后书3:4引文",
+        "severity": "minor",
+        "source_quote": "all things continue as they were from the beginning of the creation",
+        "suggested_fix": "将引文改为“……万物从创造之初起一直保持原样——彼得后书3:4。”，保留原有<em>标签。",
+        "translation_quote": "众事自起初原是如此，直到如今仍是如此——彼得后书3:4。"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 91
+  }
+}
