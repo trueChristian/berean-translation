@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "html, 「왜 치료법은 연구되어야 하는가」 첫 번째 문단",
+      "severity": "major",
+      "source_quote": "They probably would have bled him a fifth time, but he wasn’t thought to be strong enough to survive the procedure.",
+      "suggested_fix": "아마 다섯 번째 방혈도 하려 했을 것이지만, 그가 그 시술을 견딜 만큼 강하지 않다고 여겨져 시행하지 않았다.",
+      "translation_quote": "아마 다섯 번째 방혈도 했겠지만, 그가 그 시술을 견딜 만큼 강하지 않다고 여겨졌다."
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; a recovery continuation must pass admission",
+  "stage": "terminal"
+}

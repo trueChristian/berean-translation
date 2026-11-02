@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-02T15:41:21+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"html, 「왜 치료법은 연구되어야 하는가」 첫 번째 문단\",\n      \"severity\": \"major\",\n      \"source_quote\": \"They probably would have bled him a fifth time, but he wasn’t thought to be strong enough to survive the procedure.\",\n      \"suggested_fix\": \"아마 다섯 번째 방혈도 하려 했을 것이지만, 그가 그 시술을 견딜 만큼 강하지 않다고 여겨져 시행하지 않았다.\",\n      \"translation_quote\": \"아마 다섯 번째 방혈도 했겠지만, 그가 그 시술을 견딜 만큼 강하지 않다고 여겨졌다.\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": false,\n  \"score\": 94\n}",
+    "content_bytes": 679,
+    "content_evidence_truncated": false,
+    "content_sha256": "daf300d33e5efed485742139eb5b7c44d7850aef9f6f13f61046173e8ed490f0",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 313,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 123,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 10220,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9117,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 10533
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 1
+}
