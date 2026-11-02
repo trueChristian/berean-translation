@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "f0de2169-43f7-4578-95df-45c87e5368d6",
+    "response_id": "chatcmpl-EfZjEA6uT8oVlpAbijjzZ7CNQCL6D",
+    "usage": {
+      "completion_tokens": 607,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5461,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4358,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 6068
+    }
+  },
+  "received_at": "2026-11-02T00:04:41+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Dryden poem, third line",
+        "severity": "major",
+        "source_quote": "“both to ourselves were lost.”",
+        "suggested_fix": "«και τα δύο χάθηκαν ως ξεχωριστά ρυάκια.»",
+        "translation_quote": "«και οι δύο χάθηκαν μέσα στον εαυτό τους.»"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 94
+  }
+}

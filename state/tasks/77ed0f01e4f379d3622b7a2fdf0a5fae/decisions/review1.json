@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Dryden poem, third line",
+      "severity": "major",
+      "source_quote": "“both to ourselves were lost.”",
+      "suggested_fix": "«και τα δύο χάθηκαν ως ξεχωριστά ρυάκια.»",
+      "translation_quote": "«και οι δύο χάθηκαν μέσα στον εαυτό τους.»"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
