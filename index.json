@@ -25382,6 +25382,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ell/articles/7c9d5015-158a-4c07-92fc-ae40c998d9ae.html",
+      "html_sha256": "f5d13bb2c54063e3f0bbbc172a310152379ba47b1d94ff276740a49f3b9e3a1c",
+      "human_reviewed": false,
+      "id": "7c9d5015-158a-4c07-92fc-ae40c998d9ae",
+      "images": [
+        {
+          "alt": "Ένας ηλικιωμένος γενειοφόρος άνδρας ακουμπά τα χέρια του στο κεφάλι ενός γονατισμένου άνδρα, ενώ μια γυναίκα κάθεται κοντά",
+          "public_path": "/images/articles/7c9d5015-158a-4c07-92fc-ae40c998d9ae-1.jpg"
+        },
+        {
+          "alt": "Ένας άνδρας με ράσο στέκεται με τα χέρια απλωμένα δίπλα σε μια γονατισμένη μορφή στην ύπαιθρο",
+          "public_path": "/images/articles/7c9d5015-158a-4c07-92fc-ae40c998d9ae-2.jpg"
+        }
+      ],
+      "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
+      "language": "ell",
+      "language_tag": "el",
+      "metadata": "content/ell/articles/7c9d5015-158a-4c07-92fc-ae40c998d9ae.json",
+      "metadata_sha256": "1e52525320438a46da82c89741b6a64c293f4c24b1fcb028e7c8181352628397",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
+      "source_translation_key": "45c04759c5b0f7d8a9038af8cc76e1ff17a52e5b989557b235da9ebe057bb77d",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Η κοινωνία μας είναι με τον Πατέρα",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ell/articles/7cdda5c4-11c0-4b7f-bcd4-b37677267f87.html",
       "html_sha256": "f894e37223e275ae60703b7679f5e4795e6a20a49929e3d0751b2f0ec3a9b3bf",
       "human_reviewed": false,

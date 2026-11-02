@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "af231b61c56a4b4793681a90a9e769e2",
   "campaign": "auto-94ebc4cbac82f239cd3069620b7de46c99dfcfa3677e200eeba82ccaccb6ed2d",
   "created_at": "2026-11-01T07:30:44+00:00",
   "events": [
@@ -68,18 +67,31 @@
         },
         "total_tokens": 7971
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 472,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 440,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5465,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 4362,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 5937
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "Dryden poem, third line",
-      "severity": "major",
-      "source_quote": "“both to ourselves were lost.”",
-      "suggested_fix": "«και τα δύο χάθηκαν ως ξεχωριστά ρυάκια.»",
-      "translation_quote": "«και οι δύο χάθηκαν μέσα στον εαυτό τους.»"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-11-02T02:21:37+00:00",
   "id": "77ed0f01e4f379d3622b7a2fdf0a5fae",
   "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
   "language": "ell",
@@ -168,7 +180,7 @@
     }
   },
   "protected": false,
-  "quality_score": 94,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
@@ -188,7 +200,7 @@
     "total_reserved_usd": 0.087774,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "45c04759c5b0f7d8a9038af8cc76e1ff17a52e5b989557b235da9ebe057bb77d",
   "translation_model_actual": "gpt-6-luna"
