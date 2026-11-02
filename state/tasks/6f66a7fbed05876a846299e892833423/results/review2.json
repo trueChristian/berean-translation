@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "93a944cc-a6a7-48aa-a7eb-a31e5f3056bd",
+    "response_id": "chatcmpl-EffNPPQq0ToGsG0Da5UVbtmfraDnY",
+    "usage": {
+      "completion_tokens": 1020,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 900,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 12578,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 11475,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 13598
+    }
+  },
+  "received_at": "2026-11-02T06:07:32+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "First image alt text",
+        "severity": "minor",
+        "source_quote": "A young man with a guitar serenades a woman at an open window",
+        "suggested_fix": "Kijana mwenye gitaa anamwimbia mwanamke kwa mahaba kwenye dirisha lililo wazi",
+        "translation_quote": "Kijana mwenye gitaa anamwimbia mwanamke serenade kwenye dirisha lililo wazi"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}

@@ -86156,6 +86156,42 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/swa/articles/e08f3c82-7473-48d6-a445-1e8bf9f01d6f.html",
+      "html_sha256": "789d080a154bbef15e21f71609e88ffca244907ce2a5615a9fd12678a906046e",
+      "human_reviewed": false,
+      "id": "e08f3c82-7473-48d6-a445-1e8bf9f01d6f",
+      "images": [
+        {
+          "alt": "Kijana mwenye gitaa anamwimbia mwanamke serenade kwenye dirisha lililo wazi",
+          "public_path": "/images/articles/e08f3c82-7473-48d6-a445-1e8bf9f01d6f-1.jpg"
+        },
+        {
+          "alt": "Wanawake wawili waliovaa kofia wameketi kwenye benchi kando ya ndege",
+          "public_path": "/images/articles/e08f3c82-7473-48d6-a445-1e8bf9f01d6f-2.jpg"
+        },
+        {
+          "alt": "Mwanamke amebeba chombo kichwani akipita kwenye njia yenye mawe",
+          "public_path": "/images/articles/e08f3c82-7473-48d6-a445-1e8bf9f01d6f-3.jpg"
+        }
+      ],
+      "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
+      "language": "swa",
+      "language_tag": "sw",
+      "metadata": "content/swa/articles/e08f3c82-7473-48d6-a445-1e8bf9f01d6f.json",
+      "metadata_sha256": "b568a512bd0949aad66eb06f0010fcb112c46cd06046eee5819c34026e10162d",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
+      "source_translation_key": "70020afc8ca6b4f0091f5d0e53860b679b8b1c300288c0340fe62643ff38207a",
+      "status": "ready",
+      "subtitle": "Kwa Wasichana Vijana",
+      "title": "Uhuru wa Kihisia",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/swa/articles/e66a02d4-667c-4f50-b5e1-158ff98b82d5.html",
       "html_sha256": "e1399d2b97f60a1ef51ad9988a148258072aa368003ebcffb5f2477ae7205eeb",
       "human_reviewed": false,

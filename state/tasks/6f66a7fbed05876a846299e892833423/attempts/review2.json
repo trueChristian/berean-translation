@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-02T06:07:32+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"First image alt text\",\"severity\":\"minor\",\"source_quote\":\"A young man with a guitar serenades a woman at an open window\",\"suggested_fix\":\"Kijana mwenye gitaa anamwimbia mwanamke kwa mahaba kwenye dirisha lililo wazi\",\"translation_quote\":\"Kijana mwenye gitaa anamwimbia mwanamke serenade kwenye dirisha lililo wazi\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 392,
+    "content_evidence_truncated": false,
+    "content_sha256": "4b86405a4a35aa9fe4408ca329533383b7ecb8cfcd3e80efc12db66bd6f1d197",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1020,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 900,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 12578,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 11475,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 13598
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review2",
+  "translation_attempts": 2
+}

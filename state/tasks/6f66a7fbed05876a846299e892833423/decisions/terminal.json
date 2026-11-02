@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "First image alt text",
+      "severity": "minor",
+      "source_quote": "A young man with a guitar serenades a woman at an open window",
+      "suggested_fix": "Kijana mwenye gitaa anamwimbia mwanamke kwa mahaba kwenye dirisha lililo wazi",
+      "translation_quote": "Kijana mwenye gitaa anamwimbia mwanamke serenade kwenye dirisha lililo wazi"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}
