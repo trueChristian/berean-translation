@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "1a243d3dedeb4af2829c239df953ea8b",
   "campaign": "auto-9dcce844ed0b5415394e49ad8fd1c762459625072b4bc57e8be382e3ae1a6dcf",
   "created_at": "2026-10-31T23:09:38+00:00",
   "events": [
@@ -68,25 +67,46 @@
         },
         "total_tokens": 4869
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 732,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 512,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3513,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 3510,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4245
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "Paragraph 4, sentence about the businessman",
-      "severity": "major",
-      "source_quote": "“as God’s steward, is laying up treasures in heaven?”",
-      "suggested_fix": "«خدا کے امانت دار کی حیثیت سے آسمان پر خزانے جمع کر رہا ہے؟»",
-      "translation_quote": "“خدا کے مختار کی حیثیت سے آسمان پر خزانے جمع کر رہا ہے؟”"
+      "location": "Paragraph 1",
+      "severity": "minor",
+      "source_quote": "“No strokes of penitence or of faith can be added to it then.”",
+      "suggested_fix": "تصویر کے استعارے کو برقرار رکھنے کے لیے ”نیا خط“ کے بجائے ”توبہ یا ایمان کا کوئی نیا قلمی اسٹروک“ یا اس کا کوئی رواں متبادل استعمال کریں۔",
+      "translation_quote": "”اس کے بعد توبہ یا ایمان کا کوئی نیا خط اس میں شامل نہیں کیا جا سکتا۔“"
     },
     {
-      "location": "Poem, line 4",
-      "severity": "major",
-      "source_quote": "“Sounding deep beyond them all—”",
-      "suggested_fix": "«جو ان سب سے بھی گہری گونجتی ہے—»",
-      "translation_quote": "“جو سب آوازوں سے بلند گونجتی ہے—”"
+      "location": "Paragraph 4",
+      "severity": "minor",
+      "source_quote": "“Let every parent who reads this paragraph inquire of conscience”",
+      "suggested_fix": "”ہر والدین“ کی جگہ واحد، محاوراتی صورت ”ہر والد“ یا ”ہر ماں باپ“ لکھیں۔",
+      "translation_quote": "”یہ عبارت پڑھنے والا ہر والدین اپنے ضمیر سے پوچھے“"
     }
   ],
+  "finished_at": "2026-11-02T00:05:01+00:00",
   "id": "89032e8acf27fef38e08efde75253af6",
   "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
   "language": "urd",
@@ -175,7 +195,7 @@
     }
   },
   "protected": false,
-  "quality_score": 91,
+  "quality_score": 97,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
@@ -195,7 +215,7 @@
     "total_reserved_usd": 0.086853,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "4a0f2e46d38c9417b9a0cd7d5b0a7beea7595a781a49fbd4e10a86619729e5b6",
   "translation_model_actual": "gpt-6-luna"

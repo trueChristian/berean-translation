@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "fe6b3717-3a50-4e29-9b5e-c1a6935cafe3",
+    "response_id": "chatcmpl-EfZl9cBEHl31ycEqszo69yBQCyyKB",
+    "usage": {
+      "completion_tokens": 732,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3513,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3510,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4245
+    }
+  },
+  "received_at": "2026-11-02T00:05:01+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph 1",
+        "severity": "minor",
+        "source_quote": "“No strokes of penitence or of faith can be added to it then.”",
+        "suggested_fix": "تصویر کے استعارے کو برقرار رکھنے کے لیے ”نیا خط“ کے بجائے ”توبہ یا ایمان کا کوئی نیا قلمی اسٹروک“ یا اس کا کوئی رواں متبادل استعمال کریں۔",
+        "translation_quote": "”اس کے بعد توبہ یا ایمان کا کوئی نیا خط اس میں شامل نہیں کیا جا سکتا۔“"
+      },
+      {
+        "location": "Paragraph 4",
+        "severity": "minor",
+        "source_quote": "“Let every parent who reads this paragraph inquire of conscience”",
+        "suggested_fix": "”ہر والدین“ کی جگہ واحد، محاوراتی صورت ”ہر والد“ یا ”ہر ماں باپ“ لکھیں۔",
+        "translation_quote": "”یہ عبارت پڑھنے والا ہر والدین اپنے ضمیر سے پوچھے“"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 97
+  }
+}

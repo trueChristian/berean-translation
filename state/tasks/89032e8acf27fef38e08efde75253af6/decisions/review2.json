@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph 1",
+      "severity": "minor",
+      "source_quote": "“No strokes of penitence or of faith can be added to it then.”",
+      "suggested_fix": "تصویر کے استعارے کو برقرار رکھنے کے لیے ”نیا خط“ کے بجائے ”توبہ یا ایمان کا کوئی نیا قلمی اسٹروک“ یا اس کا کوئی رواں متبادل استعمال کریں۔",
+      "translation_quote": "”اس کے بعد توبہ یا ایمان کا کوئی نیا خط اس میں شامل نہیں کیا جا سکتا۔“"
+    },
+    {
+      "location": "Paragraph 4",
+      "severity": "minor",
+      "source_quote": "“Let every parent who reads this paragraph inquire of conscience”",
+      "suggested_fix": "”ہر والدین“ کی جگہ واحد، محاوراتی صورت ”ہر والد“ یا ”ہر ماں باپ“ لکھیں۔",
+      "translation_quote": "”یہ عبارت پڑھنے والا ہر والدین اپنے ضمیر سے پوچھے“"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}
