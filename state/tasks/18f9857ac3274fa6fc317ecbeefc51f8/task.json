@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "2698bed2ecc243a89e54909b3061b52e",
   "campaign": "auto-558db86c6fe5ca7a2aba25da518c2252f20d9bf90578167a61a98db72454ad8b",
   "created_at": "2026-11-02T06:40:37+00:00",
   "events": [
@@ -68,25 +67,39 @@
         },
         "total_tokens": 4324
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 621,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 512,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3088,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 3085,
+          "cached_tokens": 0
+        },
+        "total_tokens": 3709
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "Second paragraph",
-      "severity": "major",
-      "source_quote": "“so long as the electric circuit is closed”",
-      "suggested_fix": "“enquanto o circuito elétrico estiver aberto”",
-      "translation_quote": "“enquanto o circuito elétrico estiver fechado”"
-    },
-    {
-      "location": "Second paragraph",
-      "severity": "major",
-      "source_quote": "“so long as the electric circuit is closed, all your efforts are simply sounding brass and clattering platinum. Not a single spark of electric life do you transmit”",
-      "suggested_fix": "Preserve that the circuit is closed but that the battery is disconnected/not working, so no electric life is transmitted; for example: “enquanto a bateria não estiver ligada à chave, todos os seus esforços serão apenas um bronze que ressoa e uma platina que retine. Não transmite uma única centelha de vida elétrica”",
-      "translation_quote": "“enquanto o circuito elétrico estiver fechado, todos os seus esforços serão apenas um bronze que ressoa e uma platina que retine. Não transmite uma única centelha de vida elétrica”"
+      "location": "HTML, second paragraph",
+      "severity": "minor",
+      "source_quote": "“all your efforts are simply sounding brass and clattering platinum”",
+      "suggested_fix": "“todos os seus esforços são apenas um bronze que soa e uma platina que retine”",
+      "translation_quote": "“todos os seus esforços serão apenas um bronze que ressoa e uma platina que retine”"
     }
   ],
+  "finished_at": "2026-11-02T23:30:27+00:00",
   "id": "18f9857ac3274fa6fc317ecbeefc51f8",
   "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
   "language": "por",
@@ -175,7 +188,7 @@
     }
   },
   "protected": false,
-  "quality_score": 86,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
@@ -195,7 +208,7 @@
     "total_reserved_usd": 0.086704,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "86918e2f92ec7ff09eda36ffc30c12ee294e7b521bd1120caa6adee2c38e97b0",
   "translation_model_actual": "gpt-6-luna"

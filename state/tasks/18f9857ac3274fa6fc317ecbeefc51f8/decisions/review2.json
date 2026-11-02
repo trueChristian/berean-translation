@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, second paragraph",
+      "severity": "minor",
+      "source_quote": "“all your efforts are simply sounding brass and clattering platinum”",
+      "suggested_fix": "“todos os seus esforços são apenas um bronze que soa e uma platina que retine”",
+      "translation_quote": "“todos os seus esforços serão apenas um bronze que ressoa e uma platina que retine”"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

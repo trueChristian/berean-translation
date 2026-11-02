@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "8f797f1b-e5fd-4c12-9a44-dc42763f73c4",
+    "response_id": "chatcmpl-EftxQvnSRspHcL8lq9TkhEN7ITFfi",
+    "usage": {
+      "completion_tokens": 621,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3088,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3085,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3709
+    }
+  },
+  "received_at": "2026-11-02T23:30:27+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, second paragraph",
+        "severity": "minor",
+        "source_quote": "“all your efforts are simply sounding brass and clattering platinum”",
+        "suggested_fix": "“todos os seus esforços são apenas um bronze que soa e uma platina que retine”",
+        "translation_quote": "“todos os seus esforços serão apenas um bronze que ressoa e uma platina que retine”"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}
