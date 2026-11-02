@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "225c4dcba17a4da98f8172569fa25079",
   "campaign": "auto-a89d678a840c0079035af5440c785b25d17ef0962ab40fc7e53bb3a78eab0e3f",
   "created_at": "2026-11-01T19:52:38+00:00",
   "events": [
@@ -28,10 +27,38 @@
         },
         "total_tokens": 11667
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 534,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 408,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 12021,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 10918,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 12555
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "艾米·卡迈克尔引文，诗篇 34:22",
+      "severity": "major",
+      "source_quote": "“None of them that trust in Me shall be desolate.”",
+      "suggested_fix": "将“凡投靠我的，必不至于蒙羞”改为“凡投靠我的，必不至于孤苦无依”。",
+      "translation_quote": "“凡投靠我的，必不至于蒙羞。”"
+    }
+  ],
   "id": "331644478ba838fe1e3fff65f851e1ce",
   "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
   "language": "cmn",
@@ -120,11 +147,13 @@
     }
   },
   "protected": false,
+  "quality_score": 92,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/6b272c051a66dd7c357069608e2c8edecd6f7bbdcb18da4b642f5c5e4b1062b3.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "translate",
     "max_candidate_bytes": 120000,
@@ -138,7 +167,7 @@
     "total_reserved_usd": 0.128252,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "70020afc8ca6b4f0091f5d0e53860b679b8b1c300288c0340fe62643ff38207a",
   "translation_model_actual": "gpt-6-luna"

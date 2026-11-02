@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "艾米·卡迈克尔引文，诗篇 34:22",
+      "severity": "major",
+      "source_quote": "“None of them that trust in Me shall be desolate.”",
+      "suggested_fix": "将“凡投靠我的，必不至于蒙羞”改为“凡投靠我的，必不至于孤苦无依”。",
+      "translation_quote": "“凡投靠我的，必不至于蒙羞。”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
