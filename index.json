@@ -82043,6 +82043,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/spa/articles/e8bdb12c-2e8e-4f55-9052-07bec6e103a1.html",
+      "html_sha256": "48b52cb1b616f2637718aa7b036194a8cb86f2e36fa42a08c3a4334db7054037",
+      "human_reviewed": false,
+      "id": "e8bdb12c-2e8e-4f55-9052-07bec6e103a1",
+      "images": [
+        {
+          "alt": "Un bosque invernal brumoso reflejado en un lago",
+          "public_path": "/images/articles/e8bdb12c-2e8e-4f55-9052-07bec6e103a1-1.png"
+        }
+      ],
+      "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
+      "language": "spa",
+      "language_tag": "es",
+      "metadata": "content/spa/articles/e8bdb12c-2e8e-4f55-9052-07bec6e103a1.json",
+      "metadata_sha256": "45abed63e15235bcf7c92fc0f6a57c407e1b32ba84deffbd957c6687f5abb54e",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "LA IGLESIA DEL NUEVO TESTAMENTO",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "1c1dd57f73c720271265483775e7d93acfbda9f85eeefb95d0c905a5b442adfd",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Dones espirituales",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/spa/articles/e9621e7b-df8d-4497-998c-b98af23486b7.html",
       "html_sha256": "bf1f111fb8ba02da751c336be37fe1f8c1ef39a01151f58ac0725378dae5d231",
       "human_reviewed": false,

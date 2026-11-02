@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "5e87aa2bd71f4706b041e5701d23bca5",
   "campaign": "auto-983476d15d0e7e435d13a3b124557417ea8ce9ada5c06d1774e159fa836f96c5",
   "created_at": "2026-11-01T02:01:47+00:00",
   "events": [
@@ -48,32 +47,31 @@
         },
         "total_tokens": 16690
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 63,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 31,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 11200,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 10097,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 11263
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "html, tercer párrafo, lista de dones de Romanos",
-      "severity": "major",
-      "source_quote": "ministry, exhortation, giving, ruling, and showing mercy",
-      "suggested_fix": "Sustituir «dominio» por «dirección» o «liderazgo», para identificar el don de dirigir a otros y no sugerir dominio propio.",
-      "translation_quote": "ministerio, exhortación, don de dar, dominio y mostrar misericordia"
-    },
-    {
-      "location": "html, cita de 1 Corintios 12:24-25 en el párrafo que comienza «Dios también puede dar»",
-      "severity": "minor",
-      "source_quote": "That there should be no schism [division] in the body",
-      "suggested_fix": "Restituir la aclaración entre corchetes: «para que no haya desmembramiento [división] en el cuerpo».",
-      "translation_quote": "para que no haya desmembramiento en el cuerpo"
-    },
-    {
-      "location": "html, párrafo que comienza «Recientemente, me enteré»",
-      "severity": "minor",
-      "source_quote": "recording the gibberish",
-      "suggested_fix": "Cambiar «grabando la galimatía» por «grabando el galimatías».",
-      "translation_quote": "grabando la galimatía"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-11-02T02:20:28+00:00",
   "id": "269cd08699e5e2857d1db05384484a73",
   "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
   "language": "spa",
@@ -162,7 +160,7 @@
     }
   },
   "protected": false,
-  "quality_score": 94,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6.1-sol",
@@ -181,7 +179,7 @@
     "total_reserved_usd": 0.800508,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "1c1dd57f73c720271265483775e7d93acfbda9f85eeefb95d0c905a5b442adfd",
   "translation_model_actual": "gpt-6.1-sol"
