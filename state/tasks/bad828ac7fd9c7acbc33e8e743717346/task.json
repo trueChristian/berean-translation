@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "a271bf2ce2874e01a540c91bbb4afc9c",
   "campaign": "auto-0dc5cb51253b0eb7a6fafa7ecafd4dd3331022e52483404631561f020d163086",
   "created_at": "2026-11-02T02:23:51+00:00",
   "events": [
@@ -68,18 +67,39 @@
         },
         "total_tokens": 23792
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 993,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 896,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 14907,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 13804,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 15900
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "Section “Θερμοί εραστές του Ιησού Χριστού,” Amy Carmichael quotation and following paragraph",
-      "severity": "major",
-      "source_quote": "“I pray that you may be an ardent lover, the kind of lover who sets others on fire.” / “My heart’s deep desire is to be one of the Lord’s true lovers”",
-      "suggested_fix": "Use wording that conveys ardent devotion to Jesus without implying a sexual or mistress-like relationship, for example: «Προσεύχομαι να είσαι ένθερμα αφοσιωμένη στον Ιησού, με τέτοιο ζήλο ώστε να εμπνέεις και άλλους» and «Η βαθιά επιθυμία της καρδιάς μου είναι να είμαι μία από τις αληθινά αφοσιωμένες στον Κύριο». Apply the same distinction to the repeated “ardent lover” phrasing in this section.",
-      "translation_quote": "«Προσεύχομαι να γίνεις θερμή ερωμένη, από εκείνες που ανάβουν φωτιά στις καρδιές των άλλων»; «να είμαι μία από τις αληθινές εραστές του Κυρίου»; «μια τέτοια θερμή ερωμένη»"
+      "location": "Paragraph after the quotation about vision and action",
+      "severity": "minor",
+      "source_quote": "But, first things first.",
+      "suggested_fix": "Αλλά, ας πάρουμε τα πράγματα με τη σειρά.",
+      "translation_quote": "Πρώτα, όμως, τα πρώτα πράγματα."
     }
   ],
+  "finished_at": "2026-11-02T06:34:45+00:00",
   "id": "bad828ac7fd9c7acbc33e8e743717346",
   "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
   "language": "ell",
@@ -168,7 +188,7 @@
     }
   },
   "protected": false,
-  "quality_score": 92,
+  "quality_score": 99,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
@@ -188,7 +208,7 @@
     "total_reserved_usd": 0.128243,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "70020afc8ca6b4f0091f5d0e53860b679b8b1c300288c0340fe62643ff38207a",
   "translation_model_actual": "gpt-6-luna"

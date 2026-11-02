@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph after the quotation about vision and action",
+      "severity": "minor",
+      "source_quote": "But, first things first.",
+      "suggested_fix": "Αλλά, ας πάρουμε τα πράγματα με τη σειρά.",
+      "translation_quote": "Πρώτα, όμως, τα πρώτα πράγματα."
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}
