@@ -5,11 +5,215 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "aeb6d93ae8864ebca06fde1e3a0f92b1",
   "campaign": "auto-4f65cfa1d911dc65962cfa90c2eabac9dc44e8813f69d2832ac80b03bba65d30",
   "created_at": "2026-11-02T06:39:09+00:00",
-  "events": [],
-  "findings": [],
+  "events": [
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 3191,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 73,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9844,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8741,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 13035
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "html, paragraph 2",
+      "severity": "major",
+      "source_quote": "a group of Jewish plotters",
+      "suggested_fix": "החליפו את „קבוצת מזמinsiים יהודים” ב„קבוצת קושרים יהודים”.",
+      "translation_quote": "קבוצת מזמinsiים יהודים"
+    },
+    {
+      "location": "html, paragraph 3, Acts 24:25 quotation",
+      "severity": "major",
+      "source_quote": "righteousness, temperance, and judgment to come",
+      "suggested_fix": "החליפו את „הצדק, הענווה והמשפט העתיד לבוא” ב„הצדק, השליטה העצמית והמשפט העתיד לבוא”.",
+      "translation_quote": "הצדק, הענווה והמשפט העתיד לבוא"
+    },
+    {
+      "location": "html, paragraph 3, Acts 24:25 quotation",
+      "severity": "major",
+      "source_quote": "when I have a convenient season, I will call for thee",
+      "suggested_fix": "החליפו ב„כשיהיה לי זמן מתאים, אקרא לך”.",
+      "translation_quote": "בשעה הנוחה אדרוש ממך"
+    },
+    {
+      "location": "html, paragraph 3, Acts 26:24 quotation",
+      "severity": "major",
+      "source_quote": "much learning doth make thee mad",
+      "suggested_fix": "החליפו ב„הלימוד הרב מוציא אותך מדעתך”.",
+      "translation_quote": "הרבה תואר משגע אותך"
+    },
+    {
+      "location": "html, paragraph 7",
+      "severity": "major",
+      "source_quote": "turns many Christians away from science entirely",
+      "suggested_fix": "החליפו את המשפט הראשון ב„הדבר בהחלט מרחיק נוצרים רבים מן המדע לחלוטין.”",
+      "translation_quote": "גורם להרבה נוצרים להססוּת כלפי המדע לחלוטין"
+    },
+    {
+      "location": "html, Creation, Romans 1:20 quotation",
+      "severity": "major",
+      "source_quote": "the invisible things of him ... are clearly seen, being understood by the things that are made",
+      "suggested_fix": "החליפו את הציטוט, בתוך תגית em הקיימת, ב„כי תכונותיו הבלתי נראות — כוחו הנצחי ואלוהותו — ניכרות בבירור מאז בריאת העולם וניתנות להבנה מתוך הדברים שנבראו, כך שאין להם תירוץ. –רומאים א:20.”",
+      "translation_quote": "כי הנסתרים ממנו מאז בריאת העולם נראים בעיניהן, כי נגלו באמצעות הנבראים—את עוצמתו הנצחית ואלהותו"
+    },
+    {
+      "location": "html, The Laws of the Universe Still Stand, Jeremiah quotation",
+      "severity": "major",
+      "source_quote": "which divideth the sea when the waves thereof roar ... then the seed of Israel also shall cease from being a nation before me for ever",
+      "suggested_fix": "החליפו את הציטוט בתוך תגית em ב„כך אומר ה׳, הנותן את השמש לאור ביום ואת חוקי הירח והכוכבים לאור בלילה, החוצה את הים כאשר גליו שואגים; ה׳ צבאות שמו: אם יחדלו החוקים האלה להתקיים לפניי, אומר ה׳, גם צאצאי ישראל יחדלו להיות עם לפניי לעולם. –ירמיהו לא:35-36.” שמרו על מספרי ההפניה שבמקור.",
+      "translation_quote": "המבדיל את הים כשהם רעמים ... אז גם זרע ישראל יפסיק מעמי לנצח"
+    },
+    {
+      "location": "html, Science Will Never Understand Everything, Isaiah reference",
+      "severity": "major",
+      "source_quote": "Isaiah 55:8-9",
+      "suggested_fix": "החליפו את ההפניה ב„ישעיהו נה:8-9”.",
+      "translation_quote": "ישעיהו נ:8-9"
+    },
+    {
+      "location": "html, Science and Medicine, opening paragraph",
+      "severity": "major",
+      "source_quote": "It is not against Scripture",
+      "suggested_fix": "החליפו את „אין זה נוגד את הספרות” ב„אין זה מנוגד לכתבי הקודש”.",
+      "translation_quote": "אין זה נוגד את הספרות"
+    },
+    {
+      "location": "html, Why Treatments Need to be Studied, first paragraph",
+      "severity": "major",
+      "source_quote": "They probably would have bled him a fifth time",
+      "suggested_fix": "החליפו את „סביר שהיו מנקים אותו בפעם החמישית” ב„סביר שהיו מקיזים את דמו בפעם החמישית”.",
+      "translation_quote": "סביר שהיו מנקים אותו בפעם החמישית"
+    },
+    {
+      "location": "html, Conclusion, final paragraph",
+      "severity": "major",
+      "source_quote": "Those who do not know God are bound to be",
+      "suggested_fix": "החליפו את „עלולים להיות” ב„בהכרח יהיו”.",
+      "translation_quote": "אלה שאינם מכירים את אלוהים עלולים להיות"
+    },
+    {
+      "location": "html, paragraph 4",
+      "severity": "minor",
+      "source_quote": "Paul was making the governor uncomfortable with his sinful life",
+      "suggested_fix": "החליפו ב„פולוס גרם למושל לחוש אי־נוחות בנוגע לחייו החטאיים”.",
+      "translation_quote": "פולוס עשה את המושל בלתי נוח באמצעות הצגת חייו החטאיים"
+    },
+    {
+      "location": "html, paragraph 8",
+      "severity": "minor",
+      "source_quote": "we should not give up learning",
+      "suggested_fix": "החליפו את „שאין לוויתור על הלימוד” ב„שאין לוותר על הלימוד”.",
+      "translation_quote": "שאין לוויתור על הלימוד"
+    },
+    {
+      "location": "html, Creation, paragraphs 2–4 and 6; Science and Medicine opening; Conclusion penultimate paragraph",
+      "severity": "minor",
+      "source_quote": "a Creator God; seeing God’s fingerprints; It takes a lot more faith; the Creation account",
+      "suggested_fix": "בכל מופעי „בורא אלוהים” השתמשו ב„אלוהים בורא”. החליפו „בעקבות האצבעות של אלוהים” ב„זיהוי טביעות אצבעותיו של אלוהים”, „דרוש הרבה יותר אמונה” ב„דרושה אמונה רבה הרבה יותר”, ו„חשבון הבריאה” ב„סיפור הבריאה”. שמרו על תגיות em הקיימות.",
+      "translation_quote": "בורא אלוהים; בעקבות האצבעות של אלוהים; דרוש הרבה יותר אמונה; חשבון הבריאה"
+    },
+    {
+      "location": "html, The Laws of the Universe Still Stand, paragraph 3",
+      "severity": "minor",
+      "source_quote": "Everything from the speed of light",
+      "suggested_fix": "החליפו את „מתחושת מהירות האור” ב„ממהירות האור”.",
+      "translation_quote": "כל דבר, מתחושת מהירות האור"
+    },
+    {
+      "location": "html, Science Will Never Understand Everything, paragraph 2",
+      "severity": "minor",
+      "source_quote": "will admit that they don’t understand everything",
+      "suggested_fix": "החליפו את „ייצרו וימסרו” ב„יודו”.",
+      "translation_quote": "ייצרו וימסרו שהם אינם מבינים הכל"
+    },
+    {
+      "location": "html, Presuppositions are a Problem, paragraphs 3–4",
+      "severity": "minor",
+      "source_quote": "When they come to gaps in their knowledge; that thou visitest him; For in him we live, and move, and have our being",
+      "suggested_fix": "החליפו „כשמופיעות להם פערים בידע” ב„כשהם נתקלים בפערים בידע שלהם”; בציטוט מתהילים החליפו „כי תשקף־בו” ב„שאתה דואג לו”; בציטוט ממעשי השליחים החליפו „כִּי בּוֹ חַיִּים וְנוּעַ וְנִהְיֶה” ב„כי בו אנו חיים, נעים וקיימים”.",
+      "translation_quote": "כשמופיעות להם פערים בידע; כי תשקף־בו; כִּי בּוֹ חַיִּים וְנוּעַ וְנִהְיֶה"
+    },
+    {
+      "location": "html, Many Scientists Believe in God, paragraphs 2–4",
+      "severity": "minor",
+      "source_quote": "Just because one is working in science; Christian belief and teaching; the same information",
+      "suggested_fix": "החליפו „העובדה שעוסק במדע” ב„העובדה שאדם עוסק במדע”, „אמונה ונלמדות נוצריות” ב„האמונה והתורה הנוצריות”, ו„אותה המידע” ב„אותו המידע”.",
+      "translation_quote": "העובדה שעוסק במדע; אמונה ונלמדות נוצריות; אותה המידע"
+    },
+    {
+      "location": "html, Science and Medicine, diabetes history and controlled-study paragraphs",
+      "severity": "minor",
+      "source_quote": "this wasn’t an ideal treatment; half of the participants",
+      "suggested_fix": "החליפו „זו לא הייתה טיפול אידיאלי” ב„זה לא היה טיפול אידיאלי”, ו„מחצי המשתתפים” ב„מחצית המשתתפים”.",
+      "translation_quote": "זו לא הייתה טיפול אידיאלי; מחצי המשתתפים"
+    },
+    {
+      "location": "html, Why Treatments Need to be Studied, paragraphs 1–3",
+      "severity": "minor",
+      "source_quote": "His doctors; bleeding him; Doctors bled patients; bloodletting",
+      "suggested_fix": "החליפו „רופאו ככל הנראה פגע” ב„רופאיו ככל הנראה פגעו”. תארו את ההליך כ„הקזת דם”: „על ידי הקזת דמו ארבע פעמים”, „רופאים הקיזו דם לחולים”, „אחרי הקזת דם”, „הקזת דם לחולים קשים”, ו„המטופלים ציפו להקזת דם ולכן הרופאים נענו לציפיות אלה”.",
+      "translation_quote": "רופאו ככל הנראה פגע; על ידי ניקוזו ארבע פעמים; רופאים ניקזו חולים; אחרי ניקוז דם; ניקוז חולים קשים; המטופלים ציפו לניקוז דם ולכן ענו על ציפיות אלה"
+    },
+    {
+      "location": "html, What Makes a Good Study and Problems, sample-size sentences",
+      "severity": "minor",
+      "source_quote": "ten or twenty patients",
+      "suggested_fix": "בשני המופעים החליפו „עשר או עשרים מטופלים” ב„עשרה או עשרים מטופלים”.",
+      "translation_quote": "עשר או עשרים מטופלים"
+    },
+    {
+      "location": "html, What Makes a Good Study, paragraph 2",
+      "severity": "minor",
+      "source_quote": "For many diseases; Interestingly, in studies, many people",
+      "suggested_fix": "החליפו „לרבים מהמחלות” ב„במחלות רבות”, ו„מעניין ששבים במחקרים רבים אנשים” ב„מעניין שבמחקרים אנשים רבים”.",
+      "translation_quote": "לרבים מהמחלות; מעניין ששבים במחקרים רבים אנשים"
+    },
+    {
+      "location": "html, Problems, aducanumab paragraph",
+      "severity": "minor",
+      "source_quote": "was recently approved by the FDA",
+      "suggested_fix": "החליפו את „ניתנה לאחרונה אישור ה-FDA” ב„אושרה לאחרונה בידי ה-FDA”.",
+      "translation_quote": "ניתנה לאחרונה אישור ה-FDA"
+    },
+    {
+      "location": "html, Conclusion, paragraph 2",
+      "severity": "minor",
+      "source_quote": "atheists or agnostics",
+      "suggested_fix": "החליפו „אגוניסטים” ב„אגנוסטים”.",
+      "translation_quote": "אתאיסטים או אגוניסטים"
+    },
+    {
+      "location": "translation.section",
+      "severity": "minor",
+      "source_quote": "A WORD FROM A DOCTOR",
+      "suggested_fix": "החליפו ב„מילה מרופא”.",
+      "translation_quote": "מִלָּה מֵרָפוֹא"
+    },
+    {
+      "location": "translation.title",
+      "severity": "minor",
+      "source_quote": "The Christian’s View of Science",
+      "suggested_fix": "החליפו ב„נקודת המבט הנוצרית על המדע”.",
+      "translation_quote": "הדעת הנוצרית על המדע"
+    }
+  ],
   "id": "03429c92709c8822de50ee636c9b2f54",
   "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
   "language": "heb",
@@ -98,11 +302,13 @@
     }
   },
   "protected": false,
+  "quality_score": 70,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/52f684b8d02f77793b6e7dc1b48ec48b97a6055434007d0dad3db046e47c8044.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "review1",
     "max_candidate_bytes": 120000,
@@ -115,7 +321,7 @@
     "total_reserved_usd": 0.783762,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 0,
   "translation_key": "5fb27f23eb62db29608050722b6dfaf82ff0b381b3a8cf3c6ff5dca578b5db55",
   "translation_model_actual": "gpt-5-mini-2025-08-07"
