@@ -1,0 +1,143 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "9d9619a2-f5b0-40b9-8bba-f5a345f5c5e8",
+    "response_id": "chatcmpl-EffLzSNU3QR6ZRRw5GsVMHKephbZk",
+    "usage": {
+      "completion_tokens": 1779,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 69,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9817,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9814,
+        "cached_tokens": 0
+      },
+      "total_tokens": 11596
+    }
+  },
+  "received_at": "2026-11-02T06:06:56+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "html, второй абзац",
+        "severity": "major",
+        "source_quote": "the new Procurator, Festus",
+        "suggested_fix": "Заменить «новый прокурор, Фест» на «новый прокуратор, Фест».",
+        "translation_quote": "новый прокурор, Фест"
+      },
+      {
+        "location": "html, цитата Деяния 24:25",
+        "severity": "major",
+        "source_quote": "Go thy way for this time; when I have a convenient season, I will call for thee",
+        "suggested_fix": "Заменить реплику на «Теперь иди; когда у меня будет удобный случай, я позову тебя». Исходник не сообщает об освобождении Павла из заключения.",
+        "translation_quote": "Иди, временно освобождаю тебя; когда будет удобный случай, я позову тебя"
+      },
+      {
+        "location": "html, абзац после цитаты Деяния 26:24",
+        "severity": "major",
+        "source_quote": "to follow the Scriptures of the Hebrews",
+        "suggested_fix": "Заменить «следовать книгам иудеев» на «следовать Священному Писанию иудеев».",
+        "translation_quote": "следовать книгам иудеев"
+      },
+      {
+        "location": "html, цитата Иеремия 31:35–36",
+        "severity": "major",
+        "source_quote": "which divideth the sea when the waves thereof roar",
+        "suggested_fix": "Заменить «раздевающий море, когда шумят его волны» на «разделяющий море, когда шумят его волны».",
+        "translation_quote": "раздевающий море, когда шумят его волны"
+      },
+      {
+        "location": "html, абзац о лечении диабета в начале 1900-х годов",
+        "severity": "major",
+        "source_quote": "an extremely low glycemic diet",
+        "suggested_fix": "Заменить «чрезвычайно низкоуглеводная диета» на «диета с крайне низким гликемическим индексом». Низкий гликемический индекс и низкое содержание углеводов — разные характеристики.",
+        "translation_quote": "чрезвычайно низкоуглеводная диета"
+      },
+      {
+        "location": "html, первый абзац раздела «Проблемы»",
+        "severity": "major",
+        "source_quote": "Most of the information is anecdotal.",
+        "suggested_fix": "Заменить предложение на «Большая часть информации основана на отдельных случаях». Русское «анекдотична» приписывает информации комический или нелепый характер вместо указания на характер доказательств.",
+        "translation_quote": "Большая часть информации анекдотична."
+      },
+      {
+        "location": "html, второй абзац заключения",
+        "severity": "major",
+        "source_quote": "The scientific method is valid",
+        "suggested_fix": "Заменить «Научный метод законен» на «Научный метод обоснован». Речь об обоснованности метода, а не о его законности.",
+        "translation_quote": "Научный метод законен"
+      },
+      {
+        "location": "translation.section",
+        "severity": "major",
+        "source_quote": "A WORD FROM A DOCTOR",
+        "suggested_fix": "Перевести название раздела: «СЛОВО ВРАЧА».",
+        "translation_quote": "A WORD FROM A DOCTOR"
+      },
+      {
+        "location": "html, заголовок раздела об учёных, верящих в Бога",
+        "severity": "minor",
+        "source_quote": "Many Scientists Believe in God",
+        "suggested_fix": "Заменить заголовок на «Многие учёные верят в Бога», сохранив настоящее время и охват современных учёных.",
+        "translation_quote": "Многие учёные верили в Бога"
+      },
+      {
+        "location": "html, абзац после цитаты Деяния 26:24",
+        "severity": "minor",
+        "source_quote": "Paul was making the governor uncomfortable with his sinful life",
+        "suggested_fix": "Заменить «Павел делал правителя неловким, указывая на его греховный образ жизни» на «Павел заставлял правителя чувствовать неловкость из-за его греховного образа жизни».",
+        "translation_quote": "Павел делал правителя неловким, указывая на его греховный образ жизни"
+      },
+      {
+        "location": "html, абзац о структуре и законах творения",
+        "severity": "minor",
+        "source_quote": "laws that govern it",
+        "suggested_fix": "Заменить «законам, которые его управляют» на «законам, которые им управляют».",
+        "translation_quote": "законам, которые его управляют"
+      },
+      {
+        "location": "html, цитата Иеремия 31:35–36",
+        "severity": "minor",
+        "source_quote": "If those ordinances depart from before me",
+        "suggested_fix": "Заменить «если те порядки отступят от предо Мною» на «если эти установления перестанут действовать предо Мною».",
+        "translation_quote": "если те порядки отступят от предо Мною"
+      },
+      {
+        "location": "html, последний абзац раздела «Наука никогда не постигнет всего»",
+        "severity": "minor",
+        "source_quote": "what an amazing and orderly God we serve",
+        "suggested_fix": "Заменить «какого удивительного и упорядоченного Бога мы служим» на «какому удивительному Богу порядка мы служим».",
+        "translation_quote": "какого удивительного и упорядоченного Бога мы служим"
+      },
+      {
+        "location": "html, цитата Псалом 8:3–4",
+        "severity": "minor",
+        "source_quote": "that thou art mindful of him",
+        "suggested_fix": "Заменить «чтобы Ты вознёс о нём помышление» на «что Ты помнишь о нём».",
+        "translation_quote": "чтобы Ты вознёс о нём помышление"
+      },
+      {
+        "location": "html, заголовок перед абзацем о Джордже Вашингтоне",
+        "severity": "minor",
+        "source_quote": "Why Treatments Need to be Studied",
+        "suggested_fix": "Заменить заголовок на «Почему нужно изучать методы лечения».",
+        "translation_quote": "Почему нужно изучать лечения"
+      },
+      {
+        "location": "html, абзац об одобрении препаратов FDA",
+        "severity": "minor",
+        "source_quote": "studied on between 1,000 to 3,000 patients with the disease",
+        "suggested_fix": "Заменить «изучается на от 1 000 до 3 000 пациентов с болезнью» на «изучается с участием от 1 000 до 3 000 пациентов с этим заболеванием».",
+        "translation_quote": "изучается на от 1 000 до 3 000 пациентов с болезнью"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 83
+  }
+}
