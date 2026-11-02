@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "37a37029-b020-4117-824e-bec91254c225",
+    "response_id": "chatcmpl-EfonarQTG2PXaFpeEvp51d3ycuywU",
+    "usage": {
+      "completion_tokens": 560,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 181,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9949,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8846,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 10509
+    }
+  },
+  "received_at": "2026-11-02T16:11:26+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "פסקאות העוסקות בהתנגשות בין המדע לכתבי הקודש, בבריאה ובאמונתם של מדענים",
+        "severity": "major",
+        "source_quote": "“science” and the Bible first come into conflict; The Bible makes it clear ... (John 1:1-3); The Bible makes it clear that God intentionally created the world; believed in the God of the Bible ... believed in the Bible; believe in the God of the Bible",
+        "suggested_fix": "במקומות אלה החליפו את „התנ״ך” ב„כתבי הקודש” ואת „באלוהי התנ״ך” ב„באלוהי כתבי הקודש”. בפרט: „כתבי הקודש מבהירים שאלוהים לא רק היה נוכח בזמן הבריאה, אלא הוא גם זה שהתחיל אותה (יוחנן א:1-3).” השאירו ללא שינוי את „התנ״ך היהודי” בפסקה על ציטוטיו של פולוס, שבה המקור מציין במפורש Jewish Bible. שמרו על תגי ה-HTML ועל ההפניות.",
+        "translation_quote": "„המדע\" והתנ\"ך מתנגשים; התנ\"ך מבהיר ... (יוחנן א:1-3); התנ\"ך מבהיר שאלוהים ברא את העולם בכוונה; שהאמינו באלוהי התנ\"ך ... האמינו בתנ\"ך; ומאמינים באלוהי התנ\"ך"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 96
+  }
+}
