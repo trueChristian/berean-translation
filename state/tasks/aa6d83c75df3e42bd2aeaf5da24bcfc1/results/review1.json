@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "578dff20-73e5-48d1-b95d-548eb1097bac",
+    "response_id": "chatcmpl-EfZjI9iqNuX3Ft2VgIcI70CWK9qdq",
+    "usage": {
+      "completion_tokens": 725,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 598,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4828,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3725,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 5553
+    }
+  },
+  "received_at": "2026-11-02T00:04:44+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph 7",
+        "severity": "minor",
+        "source_quote": "I give to God, but I can only give to Him only Himself as He has given Himself to me.",
+        "suggested_fix": "Jeg gir til Gud, men jeg kan bare gi ham ham selv, slik han har gitt seg selv til meg.",
+        "translation_quote": "Jeg gir til Gud, men jeg kan bare gi ham ham selv, slik han har gitt seg selv til meg."
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 99
+  }
+}

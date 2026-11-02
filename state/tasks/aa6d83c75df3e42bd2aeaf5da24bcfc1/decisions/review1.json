@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph 7",
+      "severity": "minor",
+      "source_quote": "I give to God, but I can only give to Him only Himself as He has given Himself to me.",
+      "suggested_fix": "Jeg gir til Gud, men jeg kan bare gi ham ham selv, slik han har gitt seg selv til meg.",
+      "translation_quote": "Jeg gir til Gud, men jeg kan bare gi ham ham selv, slik han har gitt seg selv til meg."
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}
