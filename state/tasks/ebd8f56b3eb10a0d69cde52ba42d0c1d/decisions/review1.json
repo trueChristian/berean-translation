@@ -1,0 +1,112 @@
+{
+  "findings": [
+    {
+      "location": "translation.title",
+      "severity": "major",
+      "source_quote": "Lessons From Second Chronicles Twenty",
+      "suggested_fix": "לקחים מדברי הימים ב׳ פרק כ׳",
+      "translation_quote": "לקחים מממלכת דברי הימים ב׳ פרק כ"
+    },
+    {
+      "location": "translation.html, paragraph 2",
+      "severity": "major",
+      "source_quote": "His perfect, omnipotent rule",
+      "suggested_fix": "Replace \"בשלטונו המושלם והאוניברסלי\" with \"בשלטונו המושלם והכול־יכול\".",
+      "translation_quote": "בשלטונו המושלם והאוניברסלי"
+    },
+    {
+      "location": "translation.html, paragraph 4",
+      "severity": "major",
+      "source_quote": "In humble entreaty, Jehoshaphat acknowledges their weakness",
+      "suggested_fix": "Replace \"בהכנעה משוחחת\" with \"בתחינה ענווה\".",
+      "translation_quote": "בהכנעה משוחחת, יהושפט מכיר בחולשתם"
+    },
+    {
+      "location": "translation.html, paragraph 6, quotation",
+      "severity": "major",
+      "source_quote": "And all Judah stood before the LORD, with their little ones, their wives, and their children –verse 13.",
+      "suggested_fix": "Replace the text inside the existing em element with \"וכל יהודה עמדו לפני ה׳, עם טפם, נשותיהם וילדיהם — פסוק 13. \". This restores standing rather than arriving and children rather than grandchildren.",
+      "translation_quote": "ויבאו כל יהודה לפני ה׳ עם ילדיהם הקטנים, נשיהם ובני בניהם – פסוק 13."
+    },
+    {
+      "location": "translation.html, paragraph 11, Scripture reference",
+      "severity": "major",
+      "source_quote": "– verses 21-20.",
+      "suggested_fix": "Preserve the reference as printed in the authoritative source: replace \"פסוקים 20–21\" with \"פסוקים 21–20\".",
+      "translation_quote": "– פסוקים 20–21."
+    },
+    {
+      "location": "translation.html, paragraph 12, quotation",
+      "severity": "major",
+      "source_quote": "And when they began to sing and to praise, the LORD set… [an ambush] against the children of Ammon, [and] Moab, …which were come against Judah; and they were smitten …every one helped to destroy another –verses 22-23.",
+      "suggested_fix": "Replace the text inside the existing em element with \"וכאשר החלו לשיר ולהלל, ה׳ הציב… [מארב] נגד בני עמון [ומואב], …שבאו נגד יהודה; והם הוכו …כל אחד עזר להשמיד את האחר — פסוקים 22-23. \".",
+      "translation_quote": "ויבאו כשהחלו לשיר ולהלל נתקל ה׳ באמיתם נגד בני עמון ומואב … אשר באו על יהודה ויהרגו איש את רעהו – פסוקים 22-23."
+    },
+    {
+      "location": "translation.html, paragraph 15",
+      "severity": "major",
+      "source_quote": "The fear of God fell on all the kingdoms of the land",
+      "suggested_fix": "Replace \"כל מלכי הארץ\" with \"כל ממלכות הארץ\".",
+      "translation_quote": "יראת ה׳ נפלה על כל מלכי הארץ"
+    },
+    {
+      "location": "translation.html, paragraph 16",
+      "severity": "major",
+      "source_quote": "will be amazed and curious at the strength that is within us, because it is the strength that no one can match",
+      "suggested_fix": "Replace \"יופתעו ויתרשמו מהכוח שבתוכנו, כי זהו הכוח שאין לו תחליף\" with \"יתפלאו ויסתקרנו לנוכח הכוח שבתוכנו, כי זהו כוח שאיש אינו יכול להשתוות לו\".",
+      "translation_quote": "יופתעו ויתרשמו מהכוח שבתוכנו, כי זהו הכוח שאין לו תחליף"
+    },
+    {
+      "location": "translation.html, paragraph 1",
+      "severity": "minor",
+      "source_quote": "like being misunderstood and misused",
+      "suggested_fix": "Replace \"כמו כשמובן אותי לא נכון ונעשה שימוש לרע בכוונותיי\" with \"כמו כשלא מבינים אותי נכון ומנצלים אותי לרעה\". The current wording is ungrammatical and unnecessarily shifts the object of misuse to the author's intentions.",
+      "translation_quote": "כמו כשמובן אותי לא נכון ונעשה שימוש לרע בכוונותיי"
+    },
+    {
+      "location": "translation.html, paragraphs 2 and 8",
+      "severity": "minor",
+      "source_quote": "set himself to seek the Lord; Ye shall not need to fight in this battle: set yourselves, stand ye still, and see the salvation of the LORD",
+      "suggested_fix": "In paragraph 2 replace \"חישב לדרוש את ה׳\" with \"החליט לבקש את ה׳\". In paragraph 8 replace \"לכם לא צורכן להילחם במלחמה הזאת; התיצבו וראו ישועה ה׳\" with \"לא תצטרכו להילחם במלחמה הזאת; התייצבו, עמדו במקומכם וראו את ישועת ה׳\". These corrections use grammatical contemporary Hebrew and explicitly convey standing still.",
+      "translation_quote": "חישב לדרוש את ה׳; לכם לא צורכן להילחם במלחמה הזאת; התיצבו וראו ישועה ה׳"
+    },
+    {
+      "location": "translation.html, paragraphs 3 and 5",
+      "severity": "minor",
+      "source_quote": "my own fearful thoughts; even without the dreaded “what ifs” becoming reality; the fruitful worker in Your kingdom that I always dreamed of being",
+      "suggested_fix": "In paragraph 3 replace \"במחשבותיי המפחדות\" with \"במחשבות הפחד שלי\" and \"אפילו בלי ש\\\"מה אם\\\" האיום יהפכו למציאות\" with \"אפילו בלי שתרחישי ה\\\"מה אם\\\" המפחידים יתממשו\". In paragraph 5 replace \"העובד הפורה\" with \"העובדת הפורייה\" to maintain the narrator's feminine voice.",
+      "translation_quote": "במחשבותיי המפחדות; אפילו בלי ש\"מה אם\" האיום יהפכו למציאות; העובד הפורה בממלכתך שתמיד חלמתי להיות"
+    },
+    {
+      "location": "translation.html, paragraph 9",
+      "severity": "minor",
+      "source_quote": "If I obey and trust; changes my focus and attitude",
+      "suggested_fix": "Replace \"לציית ולבוטח\" with \"לציית ולבטוח\", and \"שמחליף את מוקדי ותפיסתי\" with \"שמשנה את המיקוד שלי ואת הגישה שלי\".",
+      "translation_quote": "לציית ולבוטח; שמחליף את מוקדי ותפיסתי"
+    },
+    {
+      "location": "translation.html, paragraph 10",
+      "severity": "minor",
+      "source_quote": "there was a joyful expectation; He will show my heart the way of peace",
+      "suggested_fix": "Replace \"אולי היה ציפייה שמחה\" with \"אולי הייתה ציפייה שמחה\", and \"הוא יראה ליבי את דרך השלום\" with \"הוא יראה ללבי את דרך השלום\".",
+      "translation_quote": "אולי היה ציפייה שמחה; הוא יראה ליבי את דרך השלום"
+    },
+    {
+      "location": "translation.html, paragraph 13",
+      "severity": "minor",
+      "source_quote": "their watch tower; Singing is a deliberate act of worship",
+      "suggested_fix": "Replace \"למגדל שימורם\" with \"למגדל התצפית שלהם\", and \"השירה היא מעשה מדוד של הערצה\" with \"השירה היא מעשה מכוון של עבודת ה׳\".",
+      "translation_quote": "למגדל שימורם; השירה היא מעשה מדוד של הערצה"
+    },
+    {
+      "location": "translation.html, paragraph 15",
+      "severity": "minor",
+      "source_quote": "overloaded with all their spoil",
+      "suggested_fix": "Replace \"מעמוסים בכל שללם\" with \"עמוסים לעייפה בכל שללם\".",
+      "translation_quote": "מעמוסים בכל שללם"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
