@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-02T19:52:59+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"html, paragraf yang dimulai dengan “Ada beberapa contoh dalam Kitab Suci”\",\n      \"severity\": \"major\",\n      \"source_quote\": \"“Thy sins be forgiven thee.” Then He said, “Rise up and walk.”\",\n      \"suggested_fix\": \"Ganti kedua kutipan tersebut menjadi “Dosamu diampuni.” Lalu Ia berkata, “Bangunlah dan berjalanlah.”\",\n      \"translation_quote\": \"“Hai anak, dosamu diampuni.” Lalu Ia berkata, “Bangunlah, angkatlah tempat tidurmu dan pulanglah ke rumahmu.”\"\n    },\n    {\n      \"location\": \"html, blockquote, paragraf ketiga\",\n      \"severity\": \"major\",\n      \"source_quote\": \"pray for them which despitefully use you, and persecute you\",\n      \"suggested_fix\": \"Ganti menjadi “doakanlah orang-orang yang memperlakukan kamu dengan buruk dan menganiaya kamu”. “Menghasut” berarti menggerakkan orang untuk melakukan sesuatu, bukan memperlakukan seseorang dengan buruk.\",\n      \"translation_quote\": \"doakanlah orang-orang yang menganiaya kamu dan yang menghasut kamu\"\n    },\n    {\n      \"location\": \"html, paragraf yang dimulai dengan “Saat Yesus berjalan”\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"a desire for healing and wholeness\",\n      \"suggested_fix\": \"Ganti “kerinduan akan pemulihan dan keseluruhan” dengan “kerinduan akan kesembuhan dan keutuhan”.\",\n      \"translation_quote\": \"kerinduan akan pemulihan dan keseluruhan\"\n    },\n    {\n      \"location\": \"html, paragraf yang dimulai dengan “Pengajaran murid yang radikal”\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"This radical discipleship should also affect our emotional responses\",\n      \"suggested_fix\": \"Ganti “Pengajaran murid yang radikal ini” dengan “Pemuridan yang radikal ini” agar merujuk pada kehidupan sebagai pengikut Yesus, bukan pengajaran murid.\",\n      \"translation_quote\": \"Pengajaran murid yang radikal ini seharusnya juga memengaruhi respons emosional kita\"\n    },\n    {\n      \"location\": \"html, kutipan penutup Mazmur 103:1-5\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"Who satisfieth thy mouth with good things\",\n      \"suggested_fix\": \"Ganti “yang memuaskan hidupmu dengan kebaikan” dengan “yang memuaskan mulutmu dengan hal-hal yang baik” untuk mempertahankan gambaran dalam teks sumber yang dicetak.\",\n      \"translation_quote\": \"yang memuaskan hidupmu dengan kebaikan\"\n    },\n    {\n      \"location\": \"html, blockquote, paragraf ketiga\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"do good to them that hate you\",\n      \"suggested_fix\": \"Ganti “berbuatlah baiklah” dengan “berbuatlah baik”.\",\n      \"translation_quote\": \"berbuatlah baiklah kepada orang-orang yang membenci kamu\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": false,\n  \"score\": 93\n}",
+    "content_bytes": 2785,
+    "content_evidence_truncated": false,
+    "content_sha256": "3280286bb7c196343072584166484cc574f822bb73f1951a8af867724428e7ce",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 850,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 129,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9532,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8429,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 10382
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}

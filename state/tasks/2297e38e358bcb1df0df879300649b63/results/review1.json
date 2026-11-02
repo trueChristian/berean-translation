@@ -1,0 +1,73 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "e45baf18-a951-4841-acfb-d05dcd46d294",
+    "response_id": "chatcmpl-EfpG87U90rbGO1Xp67tMXnwHPbZ4c",
+    "usage": {
+      "completion_tokens": 850,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 129,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9532,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8429,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 10382
+    }
+  },
+  "received_at": "2026-11-02T19:52:59+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "html, paragraf yang dimulai dengan “Ada beberapa contoh dalam Kitab Suci”",
+        "severity": "major",
+        "source_quote": "“Thy sins be forgiven thee.” Then He said, “Rise up and walk.”",
+        "suggested_fix": "Ganti kedua kutipan tersebut menjadi “Dosamu diampuni.” Lalu Ia berkata, “Bangunlah dan berjalanlah.”",
+        "translation_quote": "“Hai anak, dosamu diampuni.” Lalu Ia berkata, “Bangunlah, angkatlah tempat tidurmu dan pulanglah ke rumahmu.”"
+      },
+      {
+        "location": "html, blockquote, paragraf ketiga",
+        "severity": "major",
+        "source_quote": "pray for them which despitefully use you, and persecute you",
+        "suggested_fix": "Ganti menjadi “doakanlah orang-orang yang memperlakukan kamu dengan buruk dan menganiaya kamu”. “Menghasut” berarti menggerakkan orang untuk melakukan sesuatu, bukan memperlakukan seseorang dengan buruk.",
+        "translation_quote": "doakanlah orang-orang yang menganiaya kamu dan yang menghasut kamu"
+      },
+      {
+        "location": "html, paragraf yang dimulai dengan “Saat Yesus berjalan”",
+        "severity": "minor",
+        "source_quote": "a desire for healing and wholeness",
+        "suggested_fix": "Ganti “kerinduan akan pemulihan dan keseluruhan” dengan “kerinduan akan kesembuhan dan keutuhan”.",
+        "translation_quote": "kerinduan akan pemulihan dan keseluruhan"
+      },
+      {
+        "location": "html, paragraf yang dimulai dengan “Pengajaran murid yang radikal”",
+        "severity": "minor",
+        "source_quote": "This radical discipleship should also affect our emotional responses",
+        "suggested_fix": "Ganti “Pengajaran murid yang radikal ini” dengan “Pemuridan yang radikal ini” agar merujuk pada kehidupan sebagai pengikut Yesus, bukan pengajaran murid.",
+        "translation_quote": "Pengajaran murid yang radikal ini seharusnya juga memengaruhi respons emosional kita"
+      },
+      {
+        "location": "html, kutipan penutup Mazmur 103:1-5",
+        "severity": "minor",
+        "source_quote": "Who satisfieth thy mouth with good things",
+        "suggested_fix": "Ganti “yang memuaskan hidupmu dengan kebaikan” dengan “yang memuaskan mulutmu dengan hal-hal yang baik” untuk mempertahankan gambaran dalam teks sumber yang dicetak.",
+        "translation_quote": "yang memuaskan hidupmu dengan kebaikan"
+      },
+      {
+        "location": "html, blockquote, paragraf ketiga",
+        "severity": "minor",
+        "source_quote": "do good to them that hate you",
+        "suggested_fix": "Ganti “berbuatlah baiklah” dengan “berbuatlah baik”.",
+        "translation_quote": "berbuatlah baiklah kepada orang-orang yang membenci kamu"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 93
+  }
+}
