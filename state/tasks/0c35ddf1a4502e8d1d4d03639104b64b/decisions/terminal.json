@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "כותרת המשנה «We Need to Have the Vision for It»",
+      "severity": "minor",
+      "source_quote": "We Need to Have the Vision for It",
+      "suggested_fix": "עלינו לגבש חזון לכך",
+      "translation_quote": "עלינו לחזות בכך"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

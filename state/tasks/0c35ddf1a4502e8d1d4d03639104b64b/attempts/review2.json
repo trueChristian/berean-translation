@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-02T06:35:00+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"כותרת המשנה «We Need to Have the Vision for It»\",\"severity\":\"minor\",\"source_quote\":\"We Need to Have the Vision for It\",\"suggested_fix\":\"עלינו לגבש חזון לכך\",\"translation_quote\":\"עלינו לחזות בכך\"}],\"findings_complete\":true,\"passed\":true,\"score\":99}",
+    "content_bytes": 314,
+    "content_evidence_truncated": false,
+    "content_sha256": "46bb1435cf890fe2dc06143b12739758b994b24e58cd5ee07189a6148ef9d904",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1037,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 942,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 12363,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 11260,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 13400
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

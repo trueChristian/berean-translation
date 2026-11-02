@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "a338df00-0149-442a-973f-9013685f1d5e",
+    "response_id": "chatcmpl-Effm34iCTLMHMllGCabXfqzbe4rDU",
+    "usage": {
+      "completion_tokens": 1037,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 942,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 12363,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 11260,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 13400
+    }
+  },
+  "received_at": "2026-11-02T06:35:00+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "כותרת המשנה «We Need to Have the Vision for It»",
+        "severity": "minor",
+        "source_quote": "We Need to Have the Vision for It",
+        "suggested_fix": "עלינו לגבש חזון לכך",
+        "translation_quote": "עלינו לחזות בכך"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 99
+  }
+}

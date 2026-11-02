@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "d6eca5459ddf4cc79867d5d488a1df0c",
   "campaign": "auto-16b8ac4986344f56d9478ea399c228eb70630bead00693b27cb07f8139d5e373",
   "created_at": "2026-11-02T00:20:49+00:00",
   "events": [
@@ -68,25 +67,39 @@
         },
         "total_tokens": 18790
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1037,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 942,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 12363,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 11260,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 13400
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "Paragraph beginning “We need the wise counsel…”; Romans 13:14 quotation",
-      "severity": "major",
-      "source_quote": "“ . . make not provision for the flesh, to fulfil the lusts thereof.” (Romans 13:14)",
-      "suggested_fix": "Replace the quotation with wording that conveys not providing for the flesh in order to fulfill its desires, for example: „...ואל תספקו את צורכי הבשר כדי למלא את תאוותיו.”",
-      "translation_quote": "„...ואל תדאגו לבשר למלא את תאוותיו.”"
-    },
-    {
-      "location": "Paragraph beginning “This situation reminds me…”; 2 Samuel 24:24 quotation",
-      "severity": "major",
-      "source_quote": "“And the king said. . . neither will I offer burnt offerings unto the LORD my God of that which doth cost me nothing. . .”",
-      "suggested_fix": "Remove „לא, כי קנה אקנה מאתך במחיר” from the quotation, and translate only the printed excerpt: „ויאמר המלך... אף לא אעלה עולות ליהוה אלוהי ממה שאינו עולה לי דבר...”",
-      "translation_quote": "„ויאמר המלך... לא, כי קנה אקנה מאתך במחיר, ולא אעלה ליהוה אלוהי עולות חינם...”"
+      "location": "כותרת המשנה «We Need to Have the Vision for It»",
+      "severity": "minor",
+      "source_quote": "We Need to Have the Vision for It",
+      "suggested_fix": "עלינו לגבש חזון לכך",
+      "translation_quote": "עלינו לחזות בכך"
     }
   ],
+  "finished_at": "2026-11-02T06:35:00+00:00",
   "id": "0c35ddf1a4502e8d1d4d03639104b64b",
   "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
   "language": "heb",
@@ -175,7 +188,7 @@
     }
   },
   "protected": false,
-  "quality_score": 89,
+  "quality_score": 99,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
@@ -195,7 +208,7 @@
     "total_reserved_usd": 0.128247,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "70020afc8ca6b4f0091f5d0e53860b679b8b1c300288c0340fe62643ff38207a",
   "translation_model_actual": "gpt-6-luna"
