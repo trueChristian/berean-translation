@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-02T23:59:36+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraf kutipan Mazmur 34:22; Amy Carmichael\",\"severity\":\"major\",\"source_quote\":\"“None of them that trust in Me shall be desolate.” (Psalm 34:22)\",\"suggested_fix\":\"Terjemahkan kutipan sesuai makna tercetak, misalnya: “Tidak seorang pun yang percaya kepada-Ku akan ditinggalkan.”\",\"translation_quote\":\"“Tak seorang pun yang berlindung kepada-Ku akan ditinggalkan.” (Mazmur 34:22)\"},{\"location\":\"Paragraf kutipan himne, John H. Sammis\",\"severity\":\"minor\",\"source_quote\":\"“Trust and Obey”\",\"suggested_fix\":\"Tambahkan tanda kutip penutup pada judul: “Trust and Obey”).\",\"translation_quote\":\"(John H. Sammis, “Trust and Obey)\"}],\"findings_complete\":true,\"passed\":true,\"score\":97}",
+    "content_bytes": 723,
+    "content_evidence_truncated": false,
+    "content_sha256": "6752cb29ab45d5c5ac8287b616bfc2bbe105e5fa407eda20ff5d52dc87c2d553",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 203,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 12437,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 12434,
+        "cached_tokens": 0
+      },
+      "total_tokens": 12640
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

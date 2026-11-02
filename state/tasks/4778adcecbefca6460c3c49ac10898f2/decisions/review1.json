@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Paragraf kutipan Mazmur 34:22; Amy Carmichael",
+      "severity": "major",
+      "source_quote": "“None of them that trust in Me shall be desolate.” (Psalm 34:22)",
+      "suggested_fix": "Terjemahkan kutipan sesuai makna tercetak, misalnya: “Tidak seorang pun yang percaya kepada-Ku akan ditinggalkan.”",
+      "translation_quote": "“Tak seorang pun yang berlindung kepada-Ku akan ditinggalkan.” (Mazmur 34:22)"
+    },
+    {
+      "location": "Paragraf kutipan himne, John H. Sammis",
+      "severity": "minor",
+      "source_quote": "“Trust and Obey”",
+      "suggested_fix": "Tambahkan tanda kutip penutup pada judul: “Trust and Obey”).",
+      "translation_quote": "(John H. Sammis, “Trust and Obey)"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

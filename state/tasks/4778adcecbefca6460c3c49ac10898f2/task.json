@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "99b8189b636845a08586fa0192b064e5",
   "campaign": "auto-b62f87075572fbabfbc53e33c2ab99f5ffa32475550b2d49bde05a752d5fae68",
   "created_at": "2026-11-01T23:05:25+00:00",
   "events": [
@@ -28,10 +27,45 @@
         },
         "total_tokens": 12083
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 203,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 12437,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 12434,
+          "cached_tokens": 0
+        },
+        "total_tokens": 12640
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "Paragraf kutipan Mazmur 34:22; Amy Carmichael",
+      "severity": "major",
+      "source_quote": "“None of them that trust in Me shall be desolate.” (Psalm 34:22)",
+      "suggested_fix": "Terjemahkan kutipan sesuai makna tercetak, misalnya: “Tidak seorang pun yang percaya kepada-Ku akan ditinggalkan.”",
+      "translation_quote": "“Tak seorang pun yang berlindung kepada-Ku akan ditinggalkan.” (Mazmur 34:22)"
+    },
+    {
+      "location": "Paragraf kutipan himne, John H. Sammis",
+      "severity": "minor",
+      "source_quote": "“Trust and Obey”",
+      "suggested_fix": "Tambahkan tanda kutip penutup pada judul: “Trust and Obey”).",
+      "translation_quote": "(John H. Sammis, “Trust and Obey)"
+    }
+  ],
   "id": "4778adcecbefca6460c3c49ac10898f2",
   "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
   "language": "ind",
@@ -120,11 +154,13 @@
     }
   },
   "protected": false,
+  "quality_score": 97,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/6b272c051a66dd7c357069608e2c8edecd6f7bbdcb18da4b642f5c5e4b1062b3.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "translate",
     "max_candidate_bytes": 120000,
@@ -138,7 +174,7 @@
     "total_reserved_usd": 0.092185,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "70020afc8ca6b4f0091f5d0e53860b679b8b1c300288c0340fe62643ff38207a",
   "translation_model_actual": "gpt-6-luna"
