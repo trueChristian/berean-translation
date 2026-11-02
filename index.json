@@ -22426,6 +22426,42 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/deu/articles/e08f3c82-7473-48d6-a445-1e8bf9f01d6f.html",
+      "html_sha256": "bdc10ec247cac9d55e9499133957d849a6084736e559684775a97daf0b0de5fe",
+      "human_reviewed": false,
+      "id": "e08f3c82-7473-48d6-a445-1e8bf9f01d6f",
+      "images": [
+        {
+          "alt": "Ein junger Mann bringt einer Frau am geöffneten Fenster mit einer Gitarre ein Ständchen",
+          "public_path": "/images/articles/e08f3c82-7473-48d6-a445-1e8bf9f01d6f-1.jpg"
+        },
+        {
+          "alt": "Zwei Frauen mit Hauben sitzen neben Vögeln auf einer Bank",
+          "public_path": "/images/articles/e08f3c82-7473-48d6-a445-1e8bf9f01d6f-2.jpg"
+        },
+        {
+          "alt": "Eine Frau trägt ein Gefäß auf dem Kopf einen felsigen Weg entlang",
+          "public_path": "/images/articles/e08f3c82-7473-48d6-a445-1e8bf9f01d6f-3.jpg"
+        }
+      ],
+      "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
+      "language": "deu",
+      "language_tag": "de",
+      "metadata": "content/deu/articles/e08f3c82-7473-48d6-a445-1e8bf9f01d6f.json",
+      "metadata_sha256": "4050e9d3f2a46a8b9dfcf2b6e99cc0757ea317c3781d764ac67d216c75b4f91b",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
+      "source_translation_key": "70020afc8ca6b4f0091f5d0e53860b679b8b1c300288c0340fe62643ff38207a",
+      "status": "ready",
+      "subtitle": "Für junge Frauen",
+      "title": "Emotionale Freiheit",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/deu/articles/e66a02d4-667c-4f50-b5e1-158ff98b82d5.html",
       "html_sha256": "05979bac7b1bfa6a0332b1ba0e7329f34aa9eeb449f56b215683d207e1677e49",
       "human_reviewed": false,
