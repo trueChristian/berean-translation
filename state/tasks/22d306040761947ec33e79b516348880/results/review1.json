@@ -1,0 +1,150 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "2aeedfbc-9b9c-4ce6-80e8-76b6dc723197",
+    "response_id": "chatcmpl-EfpGNJ9w299qXbSBiTSePrp9jFb5a",
+    "usage": {
+      "completion_tokens": 2764,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 124,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 10158,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9055,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 12922
+    }
+  },
+  "received_at": "2026-11-02T19:51:44+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "html, paragraph 7, Jesus’ reply to Bartimaeus",
+        "severity": "major",
+        "source_quote": "Go thy way; thy faith hath made thee whole.",
+        "suggested_fix": "Replace the reply with “جا، تیرے ایمان نے تجھے شفا بخشی ہے۔”",
+        "translation_quote": "آؤ، تیری ایمان نے تجھے شفا بخش دیا ہے۔"
+      },
+      {
+        "location": "html, paragraph 7, final sentence",
+        "severity": "major",
+        "source_quote": "He healed men and women of unclean spirits.",
+        "suggested_fix": "Replace this sentence with “اس نے ناپاک روحوں میں مبتلا مردوں اور عورتوں کو شفا دی۔”",
+        "translation_quote": "میلِ روح سے پُرجانے والے مرد اور عورتیں شفا پائیں۔"
+      },
+      {
+        "location": "html, paragraph beginning “In John 5”",
+        "severity": "major",
+        "source_quote": "sin no more, lest a worse thing come unto thee.",
+        "suggested_fix": "Replace the warning with “اب گناہ نہ کرنا، کہیں ایسا نہ ہو کہ تجھ پر اس سے بھی بدتر مصیبت آ پڑے۔”",
+        "translation_quote": "مزید گناہ نہ کر، کہ کہیں تیرے ساتھ بُری چیز نہ ہو جائے۔"
+      },
+      {
+        "location": "html, Hebrews 4:15-16 quotation",
+        "severity": "major",
+        "source_quote": "For we have not an high priest which cannot be touched with the feeling of our infirmities",
+        "suggested_fix": "Replace the opening clause with “کیونکہ ہمارا ایسا سردار کاہن نہیں جو ہماری کمزوریوں میں ہمارا ہمدرد نہ ہو؛”",
+        "translation_quote": "ہماری وہ کِہمانی راہنما نہ ہے جو ہماری کمزوری کے احساس سے بے نیاز ہو"
+      },
+      {
+        "location": "html, Hebrews 4:1-2 quotation",
+        "severity": "major",
+        "source_quote": "but the word preached did not profit them, not being mixed with faith in them that heard it",
+        "suggested_fix": "Replace the corresponding clause with “مگر سنائے گئے کلام نے انہیں فائدہ نہ پہنچایا، کیونکہ سننے والوں میں وہ ایمان کے ساتھ نہ ملا تھا” and retain the source emphasis by placing <strong> around “انہیں فائدہ نہ پہنچایا، کیونکہ سننے والوں میں وہ ایمان کے ساتھ نہ ملا تھا”.",
+        "translation_quote": "مگر جو کلام سُنایا گیا وہ اُن کے فائدے کے لیے نہ تھا، کیونکہ وہ جنہوں نے سنا اُس میں ایمان کے ساتھ ملا ہوا نہ تھا"
+      },
+      {
+        "location": "html, blockquote, paragraph 1",
+        "severity": "major",
+        "source_quote": "An eye for an eye",
+        "suggested_fix": "Replace “عين کے عوض عين” with “آنکھ کے بدلے آنکھ”.",
+        "translation_quote": "عين کے عوض عين"
+      },
+      {
+        "location": "html, blockquote, paragraph 2",
+        "severity": "major",
+        "source_quote": "Give to him that asketh thee, and from him that would borrow of thee turn not thou away.",
+        "suggested_fix": "Replace these clauses with “جو تجھ سے مانگے اسے دے، اور جو تجھ سے قرض لینا چاہے اس سے منہ نہ موڑ۔”",
+        "translation_quote": "جس سے مانگو وہی دو، اور جس سے ادھار مانگنے والا ہو اسے منہ موڑ کر نہ بھاگو۔"
+      },
+      {
+        "location": "html, blockquote, paragraph 3",
+        "severity": "major",
+        "source_quote": "pray for them which despitefully use you",
+        "suggested_fix": "Replace “جو تمہیں بے وقوف بناتے” with “جو تم سے بدسلوکی کرتے”.",
+        "translation_quote": "اُن کے لئے دعا کرو جو تمہیں بے وقوف بناتے"
+      },
+      {
+        "location": "html, final Psalm quotation, opening",
+        "severity": "major",
+        "source_quote": "Bless the LORD, O my soul: and all that is within me, bless his holy name.",
+        "suggested_fix": "Replace the opening sentence with “اے میری جان، خداوند کی حمد کر، اور جو کچھ میرے اندر ہے اُس کے مقدس نام کی حمد کرے۔”",
+        "translation_quote": "منّے یار، اے میری جان! سارے جو میرے اندر ہے، اُس کے مقدس نام کو برکت دے۔"
+      },
+      {
+        "location": "html, paragraphs on nonconformity and discipleship, and paragraph following the blockquote",
+        "severity": "major",
+        "source_quote": "a life of radical nonconformity to the world around us. / This radical discipleship / These are radical teachings. Radical in that they are so opposite from our natural inclinations",
+        "suggested_fix": "Replace “دنیا سے انتہا پسند غیر مطابقت کی زندگی” with “اپنے اردگرد کی دنیا سے بنیادی طور پر مختلف زندگی”; replace “یہ انتہا پسند شاگردی” with “یہ بنیادی تبدیلی لانے والی شاگردی”; replace “یہ انتہاپسند تعلیمات ہیں۔ انتہاپسند اس لیے” with “یہ یکسر مختلف تعلیمات ہیں۔ یکسر مختلف اس لیے”. The source describes fundamental departure from ordinary inclinations, not extremism.",
+        "translation_quote": "دنیا سے انتہا پسند غیر مطابقت کی زندگی / یہ انتہا پسند شاگردی / یہ انتہاپسند تعلیمات ہیں۔ انتہاپسند اس لیے"
+      },
+      {
+        "location": "html, all English Scripture-reference book names",
+        "severity": "minor",
+        "source_quote": "Luke 4:18-19 (twice); Luke 4:21; John 10:10; James 5:14-16; Psalm 119:67; 1 John 4:18; Psalm 56:3; Philippians 4:6; Ephesians 4:31; Hebrews 4:15-16; Hebrews 4:1-2; Psalm 103:1-5",
+        "suggested_fix": "Use conventional Urdu book names at every listed location, preserving all numbers and placements: لوقا 4:18-19 (both occurrences)، لوقا 4:21، یوحنا 10:10، یعقوب 5:14-16، زبور 119:67، 1 یوحنا 4:18، زبور 56:3، فلپیوں 4:6، افسیوں 4:31، عبرانیوں 4:15-16، عبرانیوں 4:1-2، زبور 103:1-5.",
+        "translation_quote": "Luke 4:18-19 (twice); Luke 4:21; John 10:10; James 5:14-16; Psalm 119:67; 1 John 4:18; Psalm 56:3; Philippians 4:6; Ephesians 4:31; Hebrews 4:15-16; Hebrews 4:1-2; Psalm 103:1-5"
+      },
+      {
+        "location": "html, paragraph 5",
+        "severity": "minor",
+        "source_quote": "drew many to seek Him out and to follow him. / In the garden of Eden",
+        "suggested_fix": "Render the first clause as “بہت سے لوگوں کو اسے تلاش کرنے اور اس کی پیروی کرنے کی طرف کھینچا۔” Replace “جنت کے باغ میں” with “باغِ عدن میں”.",
+        "translation_quote": "بہت سے لوگوں کو اس کی طرف کھینچا اور اسے تلاش کرنے پر مجبور کیا۔ / جنت کے باغ میں"
+      },
+      {
+        "location": "html, paragraph on the last bloodwork",
+        "severity": "minor",
+        "source_quote": "My last bloodwork came back “undetectable”.",
+        "suggested_fix": "Replace the sentence with “میرے خون کے تازہ ترین ٹیسٹ کا نتیجہ یہ آیا کہ سرطان کا نشان قابلِ شناخت نہیں تھا۔”",
+        "translation_quote": "میری آخری بلڈ ورک رپورٹ “قابلِ تلاش نہیں” کے طور پر آئی۔"
+      },
+      {
+        "location": "html, paragraph introducing Fear, Anxiety, and Anger",
+        "severity": "minor",
+        "source_quote": "are appalled / The Bible addresses most emotional disorders",
+        "suggested_fix": "Replace “حران ہیں” with “سخت پریشان ہیں” and “بائبل اکثر جذباتی مسائل کا حل پیش کرتی ہے” with “بائبل زیادہ تر جذباتی مسائل کا حل پیش کرتی ہے”.",
+        "translation_quote": "حران ہیں / بائبل اکثر جذباتی مسائل کا حل پیش کرتی ہے"
+      },
+      {
+        "location": "html, Ephesians 4:31 quotation",
+        "severity": "minor",
+        "source_quote": "be put away from you, with all malice",
+        "suggested_fix": "Replace the ending with “ہر طرح کی بد نیتی سمیت تم سے دور کر دی جائیں۔” so that malice clearly belongs among the things to remove.",
+        "translation_quote": "تم سے دور کر دی جائے، سب بد نیتی کے ساتھ"
+      },
+      {
+        "location": "html, paragraphs 3, 5, 6, 9, 12, 13, 16, 17, 18, and paragraph beginning “This is just a sampling”",
+        "severity": "minor",
+        "source_quote": "Jesus came / dusty paths of Judea / He began to call out / my body / the one affects the other / we cleanse our hearts inwardly / my first step / draw my strength from my Heavenly Father Who is the source of strength / I was expected / God has been merciful / my spirit / emotional disorders that we encounter",
+        "suggested_fix": "Correct the corresponding phrases to “یسوع ... آیا”، “یہودیہ کی دھول بھری راہوں”، “اس نے یسوع کو پکارنا شروع کیا”، “میرے جسم”، “ایک دوسرے کو متاثر کرتا ہے”، “ہم اپنے دلوں کو اندر سے پاک کرتے ہیں”، “یہ میری شفا کی طرف پہلا قدم تھا”، “اپنے آسمانی باپ سے قوت حاصل کرنے کی طرف مائل کیا، جو قوت کا سرچشمہ ہے”، “مجھ سے توقع تھی”، “خدا نے رحم کیا”، “میری روح”، and “یہ اُن جذباتی مسائل کی صرف چند مثالیں ہیں جن کا ہمیں زندگی میں سامنا ہوتا ہے”.",
+        "translation_quote": "یسوع نے ... آيا / یہودیہ کے دھول بھری راہوں / اس نے یسوع کو پکارتا شروع کیا / میری جسم / ایک ایک دوسرے کو متاثر کرتے ہیں / ہم اپنے دلوں کو اندر سے پاک کریں / یہ میری شفا کی پہلی قدم تھی / اپنے قوتِ کا سرچشمہ ہمارے آسمانی باپ سے حاصل کرنے / میرا توقع تھا / خدا رحم ہوا / میرے روح / یہ زندگی میں ہم جو جذباتی مسائل سے ملتے ہیں ان کی صرف ایک جھلک ہے"
+      },
+      {
+        "location": "html, paragraph beginning “In John 5”",
+        "severity": "minor",
+        "source_quote": "Jesus healed a man who lay by the pool of Bethesda.",
+        "suggested_fix": "Replace the opening sentence with “یوحنا 5 میں، یسوع نے اُس شخص کو شفا دی جو بیت حسدا کے حوض کے کنارے پڑا تھا۔”",
+        "translation_quote": "یسوع نے وہ شخص شفا دی جو بیتحداسہ کے حوض کے کنارے پڑا تھا۔"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 68
+  }
+}
