@@ -1,0 +1,206 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "8a0c2498-efad-42ea-8a42-c4d05b20c5c8",
+    "response_id": "chatcmpl-EfpHgd2kHGxcbweWnXiN3kO9L7btB",
+    "usage": {
+      "completion_tokens": 3281,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 43,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 10040,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8937,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 13321
+    }
+  },
+  "received_at": "2026-11-02T19:53:09+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "html, paragraph 2",
+        "severity": "major",
+        "source_quote": "A few days later ... because of danger from a group of Jewish plotters.",
+        "suggested_fix": "Badilisha sentensi ya kwanza iwe: “Siku chache baadaye, alipelekwa haraka kwa gavana wa Kirumi Feliksi kwa sababu ya hatari iliyotokana na kundi la Wayahudi waliokuwa wakipanga njama.”",
+        "translation_quote": "Wiki chache baadaye ... kwa sababu ya hatari kutoka kwa kundi la Wayahudi walioshingwa."
+      },
+      {
+        "location": "html, paragraph beginning “Katika nyakati za kisasa”",
+        "severity": "major",
+        "source_quote": "those who believe such things are the next thing to savages",
+        "suggested_fix": "Badilisha “ni karibu wanyama wa porini” kuwa “ni karibu sawa na watu wasio wastaarabu”.",
+        "translation_quote": "wale wanaoamini mambo kama hayo ni karibu wanyama wa porini"
+      },
+      {
+        "location": "html, paragraph beginning “Kuna vitabu vingi” and paragraph beginning “Sayansi inapaswa”",
+        "severity": "major",
+        "source_quote": "seeing God’s fingerprints; uncovering God’s fingerprints on the universe",
+        "suggested_fix": "Badilisha “kuona vidole vya Mungu” kuwa “kuona alama za vidole vya Mungu”, na “akigundua vidole vya Mungu kwenye ulimwengu” kuwa “ikifichua alama za vidole vya Mungu katika ulimwengu”. Hifadhi tagi za em.",
+        "translation_quote": "kuona vidole vya Mungu; akigundua vidole vya Mungu kwenye ulimwengu"
+      },
+      {
+        "location": "html, Romans 1:20 quotation",
+        "severity": "major",
+        "source_quote": "the invisible things of him ... even his eternal power and Godhead; so that they are without excuse",
+        "suggested_fix": "Rekebisha maandishi ndani ya em yawe: “Kwa maana sifa zake zisizoonekana zinaonekana wazi tangu kuumbwa kwa ulimwengu, zikieleweka kupitia vitu vilivyoumbwa, yaani nguvu zake za milele na Uungu wake; kwa hiyo hawana udhuru—Warumi 1:20.”",
+        "translation_quote": "matendo yasiyoonekana ya yeye ... nguvu zake za milele na ubinadamu wake; ili wasiwe na uzinzi wa kusamehewa"
+      },
+      {
+        "location": "html, paragraph beginning “Watu wanapaswa”",
+        "severity": "major",
+        "source_quote": "a specific structure and laws that govern it",
+        "suggested_fix": "Badilisha “sheria zinazoisawiri” kuwa “sheria zinazoitawala”.",
+        "translation_quote": "muundo maalum na sheria zinazoisawiri"
+      },
+      {
+        "location": "html, paragraph beginning “Hii ni moja ya tofauti kubwa”",
+        "severity": "major",
+        "source_quote": "every part of it meshed with all the other parts. There is no magic or mystical thinking in the Genesis account.",
+        "suggested_fix": "Rekebisha sehemu hii iwe: “kila sehemu yake ilifanya kazi kwa upatanifu na sehemu nyingine zote. Hakuna uchawi au fikra za kimiujiza katika simulizi la Mwanzo.”",
+        "translation_quote": "kila sehemu yake ilifananishwa na sehemu nyingine zote. Hakuna uchawi au fikra za kifahamu katika ukurasa wa Mwanzo."
+      },
+      {
+        "location": "html, Jeremiah 31:35-36 quotation",
+        "severity": "major",
+        "source_quote": "when the waves thereof roar ... then the seed of Israel also shall cease from being a nation before me for ever",
+        "suggested_fix": "Badilisha “wakati mawimbi yake yanaporomoka” kuwa “wakati mawimbi yake yanapovuma”, na kishazi cha mwisho kiwe “basi wazao wa Israeli nao wataacha kuwa taifa mbele zangu milele—Yeremia 31:35-36.”",
+        "translation_quote": "wakati mawimbi yake yanaporomoka ... kisha taifa la Israeli litakasimama pia kutokuwa taifa mbele zangu milele"
+      },
+      {
+        "location": "html, paragraph beginning “Kuna seti nzima ya sheria”",
+        "severity": "major",
+        "source_quote": "the way that gravity pulls things towards large bodies of mass",
+        "suggested_fix": "Badilisha “jinsi uzito (graviti) unavyovuta vitu kuelekea miundo mikubwa ya wingi” kuwa “jinsi nguvu ya uvutano inavyovuta vitu kuelekea magimba yenye masi kubwa”.",
+        "translation_quote": "jinsi uzito (graviti) unavyovuta vitu kuelekea miundo mikubwa ya wingi"
+      },
+      {
+        "location": "html, paragraph beginning “Hata watafiti”",
+        "severity": "major",
+        "source_quote": "Even the smartest quantum physicists",
+        "suggested_fix": "Badilisha “Hata watafiti wa ioni (quantum) werevu” kuwa “Hata wanafizikia wa kwanta wenye akili nyingi zaidi”.",
+        "translation_quote": "Hata watafiti wa ioni (quantum) werevu"
+      },
+      {
+        "location": "html, paragraph beginning “Wengi wetu”",
+        "severity": "major",
+        "source_quote": "what an amazing and orderly God we serve",
+        "suggested_fix": "Badilisha “ni Mungu jinsi gani wa kustaajabisha na aliye na utaratibu anayetumika” kuwa “jinsi Mungu tunayemtumikia alivyo wa ajabu na mwenye utaratibu”.",
+        "translation_quote": "ni Mungu jinsi gani wa kustaajabisha na aliye na utaratibu anayetumika"
+      },
+      {
+        "location": "html, heading “Dharura za Mwanzo ni Tatizo”",
+        "severity": "major",
+        "source_quote": "Presuppositions are a Problem",
+        "suggested_fix": "Badilisha kichwa kuwa “Dhana za Awali ni Tatizo”.",
+        "translation_quote": "Dharura za Mwanzo ni Tatizo"
+      },
+      {
+        "location": "html, paragraph beginning “Sidhani hilo”",
+        "severity": "major",
+        "source_quote": "I don’t say this lightly. Atheists observe the universe ... explain how it exists without the presence of an actual Creator.",
+        "suggested_fix": "Rekebisha sentensi mbili za kwanza ziwe: “Sisemi hili bila kulifikiria kwa uzito. Watu wanaokataa kuwepo kwa Mungu huuchunguza ulimwengu, na kwa kuwa wanaamini kwamba Mungu hawezi kuwepo, lazima waeleze jinsi ulimwengu ulivyopo bila uwepo wa Muumba halisi.”",
+        "translation_quote": "Sidhani hilo kwa urahisi. Wahubiri wa kutokuwa na Mungu ... watazitia ulimwengu ... jinsi ulimwengu unavyojitegemea"
+      },
+      {
+        "location": "html, paragraph beginning “Wakati wanakutana”",
+        "severity": "major",
+        "source_quote": "when we look at the complexity of the universe",
+        "suggested_fix": "Badilisha “tunaposoma ukuvu wa ulimwengu” kuwa “tunapoutazama ulimwengu ulivyo changamani”.",
+        "translation_quote": "tunaposoma ukuvu wa ulimwengu"
+      },
+      {
+        "location": "html, Acts 17:28 quotation",
+        "severity": "major",
+        "source_quote": "For in him we live, and move, and have our being",
+        "suggested_fix": "Badilisha nukuu ndani ya em kuwa “Kwa maana ndani yake tunaishi, tunatembea, na tuna uhai wetu…—Matendo 17:28,”.",
+        "translation_quote": "Kwa maana katika yeye tunaishi, tunahamisha, na tunapata maisha yetu"
+      },
+      {
+        "location": "html, paragraph beginning “Sayansi inapaswa”",
+        "severity": "major",
+        "source_quote": "not someone bound and determined to discredit His very real presence",
+        "suggested_fix": "Badilisha “sio mtu aliyekhama na kuiwekea nia kumdhihaki uwepo wake halisi” kuwa “si mtu aliyeazimia kabisa kukanusha uwepo wake halisi”.",
+        "translation_quote": "sio mtu aliyekhama na kuiwekea nia kumdhihaki uwepo wake halisi"
+      },
+      {
+        "location": "html, paragraph beginning “Tunapaswa kukumbuka”",
+        "severity": "major",
+        "source_quote": "Creation and evolution examine the same facts of nature",
+        "suggested_fix": "Badilisha “Uumbaji na mabadiliko hupitia ukweli ule ule wa asili” kuwa “Nadharia ya uumbaji na nadharia ya mageuzi huchunguza mambo yale yale ya hakika katika maumbile”.",
+        "translation_quote": "Uumbaji na mabadiliko hupitia ukweli ule ule wa asili"
+      },
+      {
+        "location": "html, paragraph beginning “Tiba ya kisasa”",
+        "severity": "major",
+        "source_quote": "fix the things that go wrong with it",
+        "suggested_fix": "Badilisha “kurekebisha yale yanayokosekana” kuwa “kurekebisha matatizo yanayotokea katika mwili”.",
+        "translation_quote": "kurekebisha yale yanayokosekana"
+      },
+      {
+        "location": "html, three paragraphs about George Washington and bloodletting",
+        "severity": "major",
+        "source_quote": "bleeding him four times ... Doctors bled patients ... Patients expected bloodletting and so they met those expectations",
+        "suggested_fix": "Tumia “kumtoa damu mara nne” na “kumtoa damu mara ya tano” katika aya ya Washington. Katika aya inayofuata tumia “Madaktari waliwatoa wagonjwa damu”, “baada ya kutolewa damu”, na “kuwatoa damu watu ambao ni wagonjwa sana hakuwasaidii kupona”. Rekebisha sentensi ya matarajio iwe: “Wagonjwa walitarajia kutolewa damu, hivyo madaktari walitimiza matarajio hayo, ingawa kufanya hivyo kuliwadhuru wagonjwa.”",
+        "translation_quote": "kumfanya damu mara nne ... kumfanya damu mara ya tano ... wanamfanya mtu damu ... baada ya kuchomwa damu ... kumfanya mtu aliye mgonjwa vibaya damu ... Wagonjwa walitarajia kuchomiwa damu hivyo walipimika matarajio hayo"
+      },
+      {
+        "location": "html, paragraph beginning “Utafiti mzuri”",
+        "severity": "major",
+        "source_quote": "an inactive pill called a placebo, or the current best treatment for that disease",
+        "suggested_fix": "Badilisha maandishi ya mabano kuwa “(ambacho hupokea ama kidonge kisicho na kiambato hai, kinachoitwa placebo, au tiba bora zaidi iliyopo sasa kwa ugonjwa huo)”.",
+        "translation_quote": "(ambacho au hupokea kidonge chenye ufanisi wa kiafya au, au tiba bora ya sasa ya ugonjwa huo)"
+      },
+      {
+        "location": "html, placebo-effect paragraph",
+        "severity": "major",
+        "source_quote": "20 percent ... get better and 45 percent ... get better",
+        "suggested_fix": "Badilisha “wanaponya” katika sehemu zote mbili kuwa “wanapata nafuu”.",
+        "translation_quote": "asilimia 20 ... wanaponya na asilimia 45 ... wanaponya"
+      },
+      {
+        "location": "html, paragraph beginning “Tatizo kubwa na matibabu”",
+        "severity": "major",
+        "source_quote": "someone’s grandmother or uncle",
+        "suggested_fix": "Badilisha “babu au mjomba wa mtu” kuwa “bibi au mjomba wa mtu”.",
+        "translation_quote": "babu au mjomba wa mtu"
+      },
+      {
+        "location": "html, paragraph beginning “Mtu anaweza kuhoji”",
+        "severity": "major",
+        "source_quote": "how much of a meaningful improvement in someone’s everyday activities would come from using such a medicine?",
+        "suggested_fix": "Badilisha swali la pili kuwa “Zaidi ya hayo, kutumia dawa kama hiyo kungeleta maboresho yenye maana kwa kiasi gani katika shughuli za kila siku za mtu?”",
+        "translation_quote": "ni kuboresha kiasi gani katika shughuli za kila siku za mtu kusingetokea kwa kutumia dawa kama hiyo?"
+      },
+      {
+        "location": "html, paragraph beginning “Mkutano wa kisayansi”",
+        "severity": "major",
+        "source_quote": "The scientific method is valid ... atheists or agnostics",
+        "suggested_fix": "Rekebisha sentensi ya kwanza iwe: “Mbinu ya kisayansi ni halali, hata kama wengi wa wanaoitumia ni watu wanaokataa kuwepo kwa Mungu au wasio na uhakika kuhusu kuwepo kwake.”",
+        "translation_quote": "Mkutano wa kisayansi ni halali ... wawakataa Mungu au washakataa"
+      },
+      {
+        "location": "html, final paragraph",
+        "severity": "major",
+        "source_quote": "Those who do not know God are bound to be",
+        "suggested_fix": "Badilisha “Wale wasiomjua Mungu wamehifadhiwa kuwa” kuwa “Wale wasiomjua Mungu bila shaka watakuwa”.",
+        "translation_quote": "Wale wasiomjua Mungu wamehifadhiwa kuwa"
+      },
+      {
+        "location": "html, image alt attribute",
+        "severity": "minor",
+        "source_quote": "Laboratory glassware, green leaves, capsules, and a cream jar",
+        "suggested_fix": "Rekebisha alt kuwa “Vyombo vya kioo vya maabara, majani ya kijani, kapsuli, na kopo la krimu”, bila kubadilisha sifa nyingine za img.",
+        "translation_quote": "Vyombo vya maabara, majani ya kijani, makapusi, na chupa ya krimu"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 61
+  }
+}
