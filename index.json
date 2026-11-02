@@ -10374,6 +10374,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ben/articles/1bdf0b87-af5f-4c9b-99a2-004277f7718d.html",
+      "html_sha256": "60e94856e7e1a5892e2b3a04d067ee4f3b12e04903b2b3495cdba1d5f6e6db29",
+      "human_reviewed": false,
+      "id": "1bdf0b87-af5f-4c9b-99a2-004277f7718d",
+      "images": [
+        {
+          "alt": "পরীক্ষাগারের কাঁচপাত্র, সবুজ পাতা, ক্যাপসুল এবং একটি ক্রিমের জার",
+          "public_path": "/images/articles/1bdf0b87-af5f-4c9b-99a2-004277f7718d-1.jpg"
+        }
+      ],
+      "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
+      "language": "ben",
+      "language_tag": "bn",
+      "metadata": "content/ben/articles/1bdf0b87-af5f-4c9b-99a2-004277f7718d.json",
+      "metadata_sha256": "a58cd4a1b1aa77295b42db7294c1224e2e685c1e0ba38fac48167cc4461db25e",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "একজন চিকিৎসকের কথা",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "5fb27f23eb62db29608050722b6dfaf82ff0b381b3a8cf3c6ff5dca578b5db55",
+      "status": "ready",
+      "subtitle": null,
+      "title": "বিজ্ঞান সম্পর্কে খ্রিস্টানের দৃষ্টিভঙ্গি",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ben/articles/1c698fb4-f4e6-419b-bdcc-1b25cbe2b035.html",
       "html_sha256": "e8140d33935ba1dbdb5d96e481eedd49195558cdbf8c7702463b840158664faa",
       "human_reviewed": false,
