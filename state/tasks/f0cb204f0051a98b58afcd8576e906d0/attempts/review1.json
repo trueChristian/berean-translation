@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-02T06:07:05+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Steps to Victory, paragraph beginning “We need the wise counsel…”\",\"severity\":\"major\",\"source_quote\":\"“special, close friendships (outside of a holy courtship relationship) are dangerous”\",\"suggested_fix\":\"“거룩한 구애 관계가 아닌 특별하고 가까운 우정은 위험하며 불필요한 갈등을 일으킵니다.”\",\"translation_quote\":\"“거룩한 교제 관계가 아닌 특별하고 가까운 우정은 위험하며 불필요한 갈등을 일으킵니다.”\"},{\"location\":\"Paragraph beginning “The Lord has also given us human authorities…”\",\"severity\":\"major\",\"source_quote\":\"“Honest accountability with our dad and mom helps us greatly in achieving emotional freedom.”\",\"suggested_fix\":\"“아버지와 어머니에게 솔직하게 책임을 지고 점검받는 것은 정서적 자유를 얻는 데 큰 도움이 됩니다.”\",\"translation_quote\":\"“아버지와 어머니에게 솔직하게 책임을 나누면 정서적 자유를 얻는 데 큰 도움이 됩니다.”\"}],\"findings_complete\":true,\"passed\":false,\"score\":92}",
+    "content_bytes": 1098,
+    "content_evidence_truncated": false,
+    "content_sha256": "a388c75b855dd1e2120d3846e2a585b59febbebf73cd5e0adf302074478abb5f",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 938,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 676,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 12937,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 11834,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 13875
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}
