@@ -9323,6 +9323,34 @@
     {
       "ai_notice_required": true,
       "direction": "rtl",
+      "html": "content/ara/articles/e8bdb12c-2e8e-4f55-9052-07bec6e103a1.html",
+      "html_sha256": "2a97f6b90fdee1fb8b4f4fd31b6a2b6034b525fe91caef791be9d34cb7d48d97",
+      "human_reviewed": false,
+      "id": "e8bdb12c-2e8e-4f55-9052-07bec6e103a1",
+      "images": [
+        {
+          "alt": "غابة شتوية ضبابية منعكسة في بحيرة",
+          "public_path": "/images/articles/e8bdb12c-2e8e-4f55-9052-07bec6e103a1-1.png"
+        }
+      ],
+      "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
+      "language": "ara",
+      "language_tag": "ar",
+      "metadata": "content/ara/articles/e8bdb12c-2e8e-4f55-9052-07bec6e103a1.json",
+      "metadata_sha256": "40aeb9155e902e1c0e233bd79c7c7bd482fdc3b586f34abc1c787cc74989444c",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "كنيسة العهد الجديد",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "1c1dd57f73c720271265483775e7d93acfbda9f85eeefb95d0c905a5b442adfd",
+      "status": "ready",
+      "subtitle": null,
+      "title": "المواهب الروحية",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
       "html": "content/ara/articles/e9621e7b-df8d-4497-998c-b98af23486b7.html",
       "html_sha256": "0f76e9512b11a6ee54eb2d17902a30398a4eba91440fe3f8ecb879e0f6d4cc99",
       "human_reviewed": false,
