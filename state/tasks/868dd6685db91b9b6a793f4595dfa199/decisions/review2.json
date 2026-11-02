@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "translation.html，第14段",
+      "severity": "minor",
+      "source_quote": "being cared for, and being carried by a Heavenly Father",
+      "suggested_fix": "将“感受到天父的看顾和托负”改为“感受到天父的看顾和托扶”。",
+      "translation_quote": "感受到天父的看顾和托负"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

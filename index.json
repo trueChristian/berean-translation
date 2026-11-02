@@ -14983,6 +14983,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/cmn/articles/2e021f55-6588-4d9d-bd0a-068af80732ff.html",
+      "html_sha256": "693e95e5d4354b40df10ee31f127738267ce64a0f1756916dafc096472141931",
+      "human_reviewed": false,
+      "id": "2e021f55-6588-4d9d-bd0a-068af80732ff",
+      "images": [
+        {
+          "alt": "夜间雪地小径上一盏发光的灯笼",
+          "public_path": "/images/articles/2e021f55-6588-4d9d-bd0a-068af80732ff-1.jpg"
+        }
+      ],
+      "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
+      "language": "cmn",
+      "language_tag": "zh-Hans",
+      "metadata": "content/cmn/articles/2e021f55-6588-4d9d-bd0a-068af80732ff.json",
+      "metadata_sha256": "d7ad39eb2a5efd1eb60d8ce1d32fb825dc9896409a60f79f2a95c2716325084e",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "姐妹对姐妹",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "c849e4ea3ad84b761d78091fcac24b6703c3038258305b91a3abd924f8250de9",
+      "status": "ready",
+      "subtitle": null,
+      "title": "从《历代志下》第二十章学到的功课",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/cmn/articles/31ea7041-cab6-4ccd-9ead-04cc949321a6.html",
       "html_sha256": "964caee90788f21d1d7a8bb6b78bb3a312172ee68df846de76633d89c5d4ee0b",
       "human_reviewed": false,
