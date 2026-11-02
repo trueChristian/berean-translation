@@ -45833,6 +45833,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ind/articles/b72ea42a-1a86-4c21-a399-ebd3013c257b.html",
+      "html_sha256": "76359d34e713b606781b578883f7906ac454f09f584fca67d3a0038ecc364721",
+      "human_reviewed": false,
+      "id": "b72ea42a-1a86-4c21-a399-ebd3013c257b",
+      "images": [
+        {
+          "alt": "Sebuah kunci telegraf dan kontak-kontak listriknya",
+          "public_path": "/images/articles/b72ea42a-1a86-4c21-a399-ebd3013c257b-1.jpg"
+        }
+      ],
+      "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
+      "language": "ind",
+      "language_tag": "id",
+      "metadata": "content/ind/articles/b72ea42a-1a86-4c21-a399-ebd3013c257b.json",
+      "metadata_sha256": "0c2a4915884c2253c14fdddc833e4ffaf4860a4114db53787e59d2d627bce562",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": null,
+      "source_revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
+      "source_translation_key": "86918e2f92ec7ff09eda36ffc30c12ee294e7b521bd1120caa6adee2c38e97b0",
+      "status": "ready",
+      "subtitle": null,
+      "title": "JANJI UNTUK PELAYANAN",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ind/articles/b8c0cd82-3d1a-4287-b2f5-391e08dd8efd.html",
       "html_sha256": "5046728fd71d537d9215e759ecf139092ab4927d565b92b3c6a7e67b11897f52",
       "human_reviewed": false,
