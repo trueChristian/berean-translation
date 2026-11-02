@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "الفقرة الأولى",
+      "severity": "minor",
+      "source_quote": "“for as few or many years as He should choose”",
+      "suggested_fix": "استبدل «عامًا واحدًا أو أعوامًا كثيرة» بـ«أعوامًا قليلة أو كثيرة» للمحافظة على معنى المدة التي يختارها الرب.",
+      "translation_quote": "«عامًا واحدًا أو أعوامًا كثيرة، بحسب ما يختار»"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

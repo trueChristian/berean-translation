@@ -9227,6 +9227,42 @@
     {
       "ai_notice_required": true,
       "direction": "rtl",
+      "html": "content/ara/articles/e08f3c82-7473-48d6-a445-1e8bf9f01d6f.html",
+      "html_sha256": "f7f6e0f34de1a803fd87ea138b6ec6703e54a96cf5342d52c4218f6eaf851e2d",
+      "human_reviewed": false,
+      "id": "e08f3c82-7473-48d6-a445-1e8bf9f01d6f",
+      "images": [
+        {
+          "alt": "شاب يعزف على الغيتار مغنيًا لامرأة عند نافذة مفتوحة",
+          "public_path": "/images/articles/e08f3c82-7473-48d6-a445-1e8bf9f01d6f-1.jpg"
+        },
+        {
+          "alt": "امرأتان ترتديان قبعتين تجلسان على مقعد بجانب طيور",
+          "public_path": "/images/articles/e08f3c82-7473-48d6-a445-1e8bf9f01d6f-2.jpg"
+        },
+        {
+          "alt": "امرأة تحمل إناءً على رأسها وتمشي في درب صخري",
+          "public_path": "/images/articles/e08f3c82-7473-48d6-a445-1e8bf9f01d6f-3.jpg"
+        }
+      ],
+      "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
+      "language": "ara",
+      "language_tag": "ar",
+      "metadata": "content/ara/articles/e08f3c82-7473-48d6-a445-1e8bf9f01d6f.json",
+      "metadata_sha256": "82f5296301681c58fcb8773df435f723d2471b50d75a299dfb22c7ecca929231",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
+      "source_translation_key": "70020afc8ca6b4f0091f5d0e53860b679b8b1c300288c0340fe62643ff38207a",
+      "status": "ready",
+      "subtitle": "للشابات",
+      "title": "الحرية العاطفية",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
       "html": "content/ara/articles/e7e3ec8b-76a7-4b0b-9837-12e668dd9abd.html",
       "html_sha256": "661c0ab7c3276ca3e86bea3e14e5fbb4c627e6f23e26e3b8b83bfed36fef39c4",
       "human_reviewed": false,

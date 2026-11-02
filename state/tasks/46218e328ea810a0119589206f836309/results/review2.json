@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "d6f90146-18b0-462f-84a5-ca3c9f42f0fd",
+    "response_id": "chatcmpl-EfomrnOr4JH7ZeQgjVyF0kMexaKLz",
+    "usage": {
+      "completion_tokens": 930,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 801,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 12025,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 12022,
+        "cached_tokens": 0
+      },
+      "total_tokens": 12955
+    }
+  },
+  "received_at": "2026-11-02T16:10:54+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "الفقرة الأولى",
+        "severity": "minor",
+        "source_quote": "“for as few or many years as He should choose”",
+        "suggested_fix": "استبدل «عامًا واحدًا أو أعوامًا كثيرة» بـ«أعوامًا قليلة أو كثيرة» للمحافظة على معنى المدة التي يختارها الرب.",
+        "translation_quote": "«عامًا واحدًا أو أعوامًا كثيرة، بحسب ما يختار»"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}
