@@ -1,0 +1,136 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "bbb40c83-4ba0-449b-bd92-c913a8f8b30e",
+    "response_id": "chatcmpl-EfgMz5bMteUTWLxsbPHdi5YUwkFEp",
+    "usage": {
+      "completion_tokens": 2316,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 79,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 10211,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9108,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 12527
+    }
+  },
+  "received_at": "2026-11-02T09:40:13+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "आरंभिक लूका 4:18-19 उद्धरण; तीसरा अनुच्छेद; अंतिम भाग में दोहराया गया लूका उद्धरण; भावनात्मक चंगाई संबंधी दो अनुच्छेद",
+        "severity": "major",
+        "source_quote": "recovering of sight to the blind ... liberty to the bruised ... the acceptable year of the Lord",
+        "suggested_fix": "दोनों लूका उद्धरणों में संबंधित अंश करें: “अंधों को दृष्टि मिलने का संदेश सुनाने के लिए, कुचले हुए लोगों को स्वतंत्र करने के लिए, प्रभु के अनुग्रह के वर्ष की घोषणा करने के लिए”। संबंधित व्याख्यात्मक अनुच्छेदों में भी “दबोचों”, “दबोचे हुए” और “दबोचे गये” के स्थान पर संदर्भानुसार “कुचले हुए” प्रयोग करें।",
+        "translation_quote": "अँखों को दृष्टि लौटाने ... दबोचे हुए लोगों को ... प्रभु का मनोहर वर्ष; और दबोचों के लिए आज़ादी; यदि तुम दबोचे गये हो"
+      },
+      {
+        "location": "नाज़रेथ वाला अनुच्छेद",
+        "severity": "major",
+        "source_quote": "read the scripture ... This day is this scripture fulfilled in your ears",
+        "suggested_fix": "“वेदग्रंथ पढ़ने” को “पवित्रशास्त्र पढ़ने” और उद्धरण को “आज तुम्हारे सुनते ही पवित्रशास्त्र की यह बात पूरी हुई है” करें।",
+        "translation_quote": "वेदग्रंथ पढ़ने ... आज यह शास्त्र तुम्हारी सुनने की में पूरा हुआ"
+      },
+      {
+        "location": "अदन और संपूर्णता वाला अनुच्छेद",
+        "severity": "minor",
+        "source_quote": "a desire for healing and wholeness. In the garden of Eden",
+        "suggested_fix": "“चंगाई और समेकन” को “चंगाई और संपूर्णता” तथा “आदम-एव के बगीचे में” को “अदन की वाटिका में” करें।",
+        "translation_quote": "चंगाई और समेकन की इच्छा ... आदम-एव के बगीचे में"
+      },
+      {
+        "location": "बरतिमाई के चंगा होने वाला अनुच्छेद",
+        "severity": "major",
+        "source_quote": "blindly rushed into the street ... What wilt thou that I should do unto thee? ... thy faith hath made thee whole ... He healed men and women of unclean spirits.",
+        "suggested_fix": "संबंधित वाक्य करें: “उसने अपना चोगा एक ओर फेंक दिया और अंधा होते हुए भी सड़क पर दौड़ पड़ा।” “तू क्या चाहता है कि मैं तेरे लिए करूँ?” “जा, तेरे विश्वास ने तुझे चंगा किया है।” अंतिम वाक्य करें: “उन्होंने पुरुषों और स्त्रियों को अशुद्ध आत्माओं से मुक्त करके चंगा किया।”",
+        "translation_quote": "अँधेरे में सड़क की ओर दौड़ा ... मैं तुझसे करूँ ... तेरा विश्वास तुझे पूरा कर दिया ... उन्होंने मेहरबान और मर्द तथा स्त्रियों को अस्वच्छ आत्माओं से चंगा किया"
+      },
+      {
+        "location": "याकूब 5:14-16 का उद्धरण",
+        "severity": "major",
+        "source_quote": "let them pray over him, anointing him with oil in the name of the Lord ... Confess your faults one to another, and pray one for another",
+        "suggested_fix": "संबंधित अंश करें: “वे प्रभु के नाम में उस रोगी का तेल से अभिषेक करके उसके लिए प्रार्थना करें” और “एक दूसरे के सामने अपने दोष स्वीकार करो और एक दूसरे के लिए प्रार्थना करो”।",
+        "translation_quote": "उनके ऊपर तेल मलकर उनके नाम में प्रार्थना करें ... एक दूसरे के दोषों को दृश्यमान कर के अपनी-अपनी ओर प्रार्थना करो"
+      },
+      {
+        "location": "तेल से अभिषेक के समर्थन वाला अनुच्छेद",
+        "severity": "major",
+        "source_quote": "any known, unconfessed sin",
+        "suggested_fix": "“किसी भी ज्ञात, अविक्रित पाप” को “ऐसे किसी भी ज्ञात पाप से, जिसे अभी तक स्वीकार नहीं किया गया है” करें और वाक्य का शेष व्याकरण उसी अनुसार समायोजित करें।",
+        "translation_quote": "किसी भी ज्ञात, अविक्रित पाप"
+      },
+      {
+        "location": "तेल से अभिषेक के समर्थन वाला अनुच्छेद",
+        "severity": "minor",
+        "source_quote": "I have always been a strong advocate of anointing with oil ... things that are expected of those seeking the healing",
+        "suggested_fix": "“प्राचीन अभ्यास” का अतिरिक्त विशेषण हटाकर “तेल से अभिषेक का प्रबल समर्थक” करें। अस्पष्ट वाक्यांश को “चंगाई चाहने वाले लोगों से कई बातें अपेक्षित होती हैं” करें।",
+        "translation_quote": "तेल से अभिषेक के प्राचीन अभ्यास ... उन लोगों से जिनके पास चंगाई माँग रहे होते हैं, कई बातें अपेक्षित होती हैं"
+      },
+      {
+        "location": "अंतिम रक्त परीक्षण वाला अनुच्छेद",
+        "severity": "major",
+        "source_quote": "My last bloodwork came back “undetectable”.",
+        "suggested_fix": "वाक्य करें: “मेरे अंतिम रक्त परीक्षण का परिणाम आया कि कैंसर का संकेत ‘पता लगाने योग्य नहीं’ था।”",
+        "translation_quote": "मेरा अंतिम रक्त परीक्षण “निरूपणीय” आया।"
+      },
+      {
+        "location": "ऑन्कोलॉजिस्ट से अंतिम मुलाकात वाला अनुच्छेद",
+        "severity": "major",
+        "source_quote": "he said to me ... Thank God for God-fearing doctors!",
+        "suggested_fix": "“मेरी मेडिकल ऑन्कोलॉजिस्ट” को “मेरे मेडिकल ऑन्कोलॉजिस्ट” करें। अंतिम वाक्य करें: “परमेश्वर का भय मानने वाले चिकित्सकों के लिए परमेश्वर का धन्यवाद हो!”",
+        "translation_quote": "मेरी मेडिकल ऑन्कोलॉजिस्ट ... परमेश्वर-भयपात्र चिकित्सकों के लिए धन्यवाद!"
+      },
+      {
+        "location": "यूहन्ना 5 वाला अनुच्छेद",
+        "severity": "major",
+        "source_quote": "the pool of Bethesda ... thirty-eight years",
+        "suggested_fix": "“बेथेस्दा के कुएं” को “बैतहसदा के कुंड” और “तीस आठ वर्षों” को “अड़तीस वर्षों” करें।",
+        "translation_quote": "बेथेस्दा के कुएं ... तीस आठ वर्षों"
+      },
+      {
+        "location": "क्रोध शीर्षक के नीचे इफिसियों 4:31 का उद्धरण",
+        "severity": "major",
+        "source_quote": "Let all bitterness, and wrath, and anger, and clamour, and evil speaking, be put away from you, with all malice –Ephesians 4:31.",
+        "suggested_fix": "उद्धरण का पाठ करें: “सारी कटुता, रोष, क्रोध, शोरगुल और निंदा को, हर प्रकार की दुर्भावना सहित, अपने से दूर करो – इफिसियों 4:31।” मौजूदा li और em टैग बनाए रखें।",
+        "translation_quote": "सभी कटुता और क्रोध और राग ... सब दुराशक्ति के साथ – औरिफिसियों 4:31।"
+      },
+      {
+        "location": "अनबैपटिस्ट विरासत वाला अनुच्छेद",
+        "severity": "major",
+        "source_quote": "a life of radical nonconformity to the world around us",
+        "suggested_fix": "अंतिम वाक्य करें: “इसका परिणाम ऐसा जीवन होता है जो अपने आसपास के संसार की रीति से पूरी तरह अलग चलता है।”",
+        "translation_quote": "दुनिया के अनुरूप न रहने वाला एक चरम अनुकरणशील जीवन"
+      },
+      {
+        "location": "पर्वत के उपदेश के blockquote का पहला अनुच्छेद",
+        "severity": "major",
+        "source_quote": "turn to him the other also",
+        "suggested_fix": "“उसे दूसरा भी टेढ़ा कर देना” को “उसकी ओर दूसरा गाल भी फेर देना” करें।",
+        "translation_quote": "उसे दूसरा भी टेढ़ा कर देना"
+      },
+      {
+        "location": "पर्वत के उपदेश के blockquote का तीसरा अनुच्छेद",
+        "severity": "major",
+        "source_quote": "sendeth rain on the just and on the unjust",
+        "suggested_fix": "“न्यायियों और अन्यायियों” को “धर्मियों और अधर्मियों” करें।",
+        "translation_quote": "न्यायियों और अन्यायियों पर बारिश भेजता है"
+      },
+      {
+        "location": "समूचे लेख में व्याकरण के स्पष्ट दोष: प्रारंभिक सेवा-विवरण, उपचार-यात्रा और अंतिम भजन उद्धरण",
+        "severity": "minor",
+        "source_quote": "He described the nature of His ministry ... This was my first step to healing ... Who redeemeth thy life",
+        "suggested_fix": "क्रमशः “उन्होंने अपनी सेवा के स्वरूप का वर्णन किया”, “यह चंगाई की ओर मेरा पहला कदम था” और “जिसने तेरे जीवन को विनाश से छुटकारा दिलाया” करें।",
+        "translation_quote": "उन्होंने अपनी सेवा का स्वभाव वर्णित किया ... यह मेरी चंगाई की पहली कदम थी ... जिसने तेरी जीवन को विनाश से छुटकारा दिलाया"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 71
+  }
+}
