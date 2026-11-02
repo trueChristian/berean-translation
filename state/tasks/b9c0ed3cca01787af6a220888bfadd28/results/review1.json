@@ -1,0 +1,171 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "1fe82c7a-a984-46b6-9471-21cd56b30719",
+    "response_id": "chatcmpl-Efa9e3lQV866zVpRaG2Vy9JEQkPJX",
+    "usage": {
+      "completion_tokens": 2581,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 92,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 10317,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9214,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 12898
+    }
+  },
+  "received_at": "2026-11-02T02:20:46+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "html, প্রথম অনুচ্ছেদ",
+        "severity": "major",
+        "source_quote": "The year was around 60 AD. ... in the Temple at Jerusalem",
+        "suggested_fix": "প্রথম অনুচ্ছেদ লিখুন: “সময়টা ছিল প্রায় 60 খ্রিষ্টাব্দ। রোষান্বিত ইহুদিদের একটি জনতা যিরূশালেমের মন্দিরে প্রেরিত পলকে আটক করেছিল এবং প্রায় মেরেই ফেলেছিল।”",
+        "translation_quote": "ঈসা খৃষ্টপূর্ব 60 খ্রিষ্টাব্দ নাগাদ ... মন্দিরে ধরে নিয়ে গিয়ে"
+      },
+      {
+        "location": "html, প্রেরিতদের কার্যবিবরণের তিনটি উদ্ধৃতি",
+        "severity": "major",
+        "source_quote": "Acts 24:25; Acts 26:24; Acts 17:28",
+        "suggested_fix": "তিনটি স্থানেই “কাজকর্ম” বদলে প্রচলিত বাইবেলীয় পুস্তকনাম “প্রেরিত” ব্যবহার করুন; যথাক্রমে 24:25, 26:24 এবং 17:28 অপরিবর্তিত রাখুন।",
+        "translation_quote": "কাজকর্ম 24:25; কাজকর্ম 26:24; কাজকর্ম 17:28"
+      },
+      {
+        "location": "html, রোমীয় 1:20 উদ্ধৃতি",
+        "severity": "major",
+        "source_quote": "even his eternal power and Godhead",
+        "suggested_fix": "“তাঁর চিরন্তন শক্তি ও ঐশ্বর্য” বদলে “তাঁর অনন্ত শক্তি ও ঈশ্বরত্ব” লিখুন।",
+        "translation_quote": "এমনকি তাঁর চিরন্তন শক্তি ও ঐশ্বর্য"
+      },
+      {
+        "location": "html, সৃষ্টি থেকে ঈশ্বরকে চেনার অনুচ্ছেদ",
+        "severity": "major",
+        "source_quote": "a Creator God involved in our world and the universe",
+        "suggested_fix": "“একজন স্রষ্টা ঈশ্বরের অনুপ্রবেশ দেখতে পারা” বদলে “একজন স্রষ্টা ঈশ্বর যে আমাদের জগত ও মহাবিশ্বে সক্রিয় আছেন, তা উপলব্ধি করতে পারা” লিখুন।",
+        "translation_quote": "একজন স্রষ্টা ঈশ্বরের অনুপ্রবেশ দেখতে পারা"
+      },
+      {
+        "location": "html, যিরমিয় 31:35-36 উদ্ধৃতি",
+        "severity": "major",
+        "source_quote": "The LORD of hosts is his name",
+        "suggested_fix": "“তাঁর নাম সওয়াকার প্রভু” বদলে “তাঁর নাম বাহিনীগণের সদাপ্রভু” লিখুন।",
+        "translation_quote": "তাঁর নাম সওয়াকার প্রভু"
+      },
+      {
+        "location": "html, মহাকর্ষ ও সৃষ্টির বিধি-সংক্রান্ত অনুচ্ছেদ",
+        "severity": "major",
+        "source_quote": "gravity pulls things towards large bodies of mass",
+        "suggested_fix": "“মহাকর্ষ কীভাবে বড় ভরযুক্ত বস্তুকে আকর্ষণ করে” বদলে “মহাকর্ষ কীভাবে বস্তুগুলোকে বৃহৎ ভরবিশিষ্ট বস্তুর দিকে টানে” লিখুন।",
+        "translation_quote": "মহাকর্ষ কীভাবে বড় ভরযুক্ত বস্তুকে আকর্ষণ করে"
+      },
+      {
+        "location": "html, মহাবিশ্বের জটিলতা-সংক্রান্ত অনুচ্ছেদ",
+        "severity": "major",
+        "source_quote": "we can see the hands of God at work",
+        "suggested_fix": "“আমরা ঈশ্বরের করণীয় দেখতে পাই” বদলে “আমরা ঈশ্বরের হাতের কাজ দেখতে পাই” লিখুন।",
+        "translation_quote": "আমরা ঈশ্বরের করণীয় দেখতে পাই"
+      },
+      {
+        "location": "html, গীতসংহিতা 8:3-4 উদ্ধৃতি",
+        "severity": "major",
+        "source_quote": "the son of man, that thou visitest him?",
+        "suggested_fix": "“মানুষের সন্তান কী যে তুমি তাহাকে দেখাও?” বদলে “মানবসন্তানই বা কে যে তুমি তার যত্ন নাও?” লিখুন।",
+        "translation_quote": "মানুষের সন্তান কী যে তুমি তাহাকে দেখাও?"
+      },
+      {
+        "location": "html, গোয়েন্দার সঙ্গে বিজ্ঞানের তুলনা",
+        "severity": "major",
+        "source_quote": "determined to discredit His very real presence",
+        "suggested_fix": "“তাঁর বাস্তব উপস্থিতিকে অসম্মান করতে” বদলে “তাঁর প্রকৃত উপস্থিতিকে অপ্রমাণিত বলে দেখাতে” লিখুন।",
+        "translation_quote": "তাঁর বাস্তব উপস্থিতিকে অসম্মান করতে"
+      },
+      {
+        "location": "html, ইনসুলিন আবিষ্কারের অনুচ্ছেদ",
+        "severity": "major",
+        "source_quote": "a couple of researchers ... a 14-year-old ... saved his life",
+        "suggested_fix": "“কয়েকজন গবেষক” বদলে “দুজন গবেষক” এবং “একটি 14 বছরের মেয়েকে” বদলে “একজন 14 বছরের ছেলেকে” লিখুন।",
+        "translation_quote": "কয়েকজন গবেষক ... একটি 14 বছরের মেয়েকে"
+      },
+      {
+        "location": "html, ডায়াবেটিসের প্রাথমিক চিকিৎসার অনুচ্ছেদ",
+        "severity": "major",
+        "source_quote": "Even into the early 1900s",
+        "suggested_fix": "“1900-এর দশকের প্রথমার্ধ পর্যন্ত” বদলে “বিংশ শতাব্দীর গোড়ার দিকেও” লিখুন।",
+        "translation_quote": "1900-এর দশকের প্রথমার্ধ পর্যন্ত"
+      },
+      {
+        "location": "html, ভালো গবেষণার বৈশিষ্ট্য",
+        "severity": "major",
+        "source_quote": "the control group and the test group to be matched as closely as possible",
+        "suggested_fix": "বাক্যটি লিখুন: “কন্ট্রোল গ্রুপ ও পরীক্ষামূলক গ্রুপের অংশগ্রহণকারীদের বৈশিষ্ট্য যতটা সম্ভব একই রকম হওয়াও গুরুত্বপূর্ণ।”",
+        "translation_quote": "কন্ট্রোল ও পরীক্ষাগুলি যতটা সম্ভব মিলতে হবে।"
+      },
+      {
+        "location": "html, প্লেসেবো প্রভাবের ব্যাখ্যা",
+        "severity": "major",
+        "source_quote": "people get better from an illness even though they are not receiving something that should be effective at treating the malady",
+        "suggested_fix": "ব্যাখ্যাটি লিখুন: “রোগটির চিকিৎসায় কার্যকর হওয়ার কথা এমন কিছু না পেলেও মানুষ যখন অসুস্থতা থেকে উন্নতি লাভ করে, তখন তাকে প্লেসেবো প্রভাব বলা হয়।”",
+        "translation_quote": "মানুষরা এমন কিছু খাবার পেলেও ভাল বোধ করতে পারে যা বাস্তবে কার্যকর নয়"
+      },
+      {
+        "location": "html, উপসংহারের প্রথম অনুচ্ছেদ",
+        "severity": "major",
+        "source_quote": "Many would try to use science as a way to bludgeon them into giving up their faith.",
+        "suggested_fix": "বাক্যটি লিখুন: “অনেকেই বিজ্ঞানকে হাতিয়ার করে খ্রিস্টানদের ওপর চাপ দিয়ে তাদের বিশ্বাস ত্যাগ করাতে চাইবে।”",
+        "translation_quote": "অনেকেই বিজ্ঞানের মাধ্যমে তাদের ধর্মীয় বিশ্বাস ছেড়ে দিতে চায়।"
+      },
+      {
+        "location": "html, উপসংহারের দ্বিতীয় অনুচ্ছেদ",
+        "severity": "major",
+        "source_quote": "atheists or agnostics",
+        "suggested_fix": "“নাস্তিক বা সন্দেহবাদী” বদলে “নাস্তিক বা অজ্ঞেয়বাদী” লিখুন।",
+        "translation_quote": "নাস্তিক বা সন্দেহবাদী"
+      },
+      {
+        "location": "html, আদিপুস্তক ও গীতসংহিতার নাম",
+        "severity": "minor",
+        "source_quote": "Creation account found in Genesis; Genesis account; Psalm 14:1; Psalm 8:3-4",
+        "suggested_fix": "“সৃষ্টি কাহিনী (Genesis)” লিখুন “আদিপুস্তকে পাওয়া সৃষ্টির বিবরণ”; “জেনেসিস বর্ণনায়” লিখুন “আদিপুস্তকের বিবরণে”; উভয় উদ্ধৃতিতে “ভজনসংহিতা” বদলে “গীতসংহিতা” লিখুন।",
+        "translation_quote": "সৃষ্টি কাহিনী (Genesis); জেনেসিস বর্ণনায়; ভজনসংহিতা 14:1; ভজনসংহিতা 8:3-4"
+      },
+      {
+        "location": "html, দ্বিতীয় অনুচ্ছেদ",
+        "severity": "minor",
+        "source_quote": "though there was no evidence to convict Paul",
+        "suggested_fix": "“পারদর্শীভাবে কোন দোষী প্রমাণ না থাকলেও” বদলে “পলকে দোষী সাব্যস্ত করার মতো কোনো প্রমাণ না থাকলেও” লিখুন।",
+        "translation_quote": "পারদর্শীভাবে কোন দোষী প্রমাণ না থাকলেও"
+      },
+      {
+        "location": "html, আধুনিক বিজ্ঞানীদের বিশ্বাস-সংক্রান্ত শিরোনাম",
+        "severity": "minor",
+        "source_quote": "Many Scientists Believe in God",
+        "suggested_fix": "শিরোনামটি লিখুন “অনেক বিজ্ঞানী ঈশ্বরে বিশ্বাস করেন”।",
+        "translation_quote": "অনেক বিজ্ঞানী ঈশ্বরকে বিশ্বাস করতেন"
+      },
+      {
+        "location": "html, বৃহত্তম ছায়াপথ ও চিকিৎসার তথ্য-সংক্রান্ত অনুচ্ছেদ",
+        "severity": "minor",
+        "source_quote": "largest galaxies; Most of the information is anecdotal.",
+        "suggested_fix": "“বৃহত্তম-g্যালাক্সি” বদলে “বৃহত্তম ছায়াপথ” এবং “অধিকাংশ তথ্য কাহ্যনাভিত্তিক” বদলে “অধিকাংশ তথ্য ব্যক্তিগত অভিজ্ঞতার বর্ণনাভিত্তিক” লিখুন।",
+        "translation_quote": "বৃহত্তম-g্যালাক্সি; অধিকাংশ তথ্য কাহ্যনাভিত্তিক"
+      },
+      {
+        "location": "html, ভালো গবেষণার কন্ট্রোল গ্রুপের ব্যাখ্যা",
+        "severity": "minor",
+        "source_quote": "an inactive pill called a placebo",
+        "suggested_fix": "“নীরস প্লেসেবো” বদলে “প্লেসেবো নামে একটি নিষ্ক্রিয় বড়ি” লিখুন।",
+        "translation_quote": "নীরস প্লেসেবো"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 73
+  }
+}
