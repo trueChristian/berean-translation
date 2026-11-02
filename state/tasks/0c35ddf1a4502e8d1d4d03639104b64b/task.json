@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "b8136a1c910446e0bf436f3b752c6f01",
   "campaign": "auto-16b8ac4986344f56d9478ea399c228eb70630bead00693b27cb07f8139d5e373",
   "created_at": "2026-11-02T00:20:49+00:00",
   "events": [
@@ -28,10 +27,45 @@
         },
         "total_tokens": 12013
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1274,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 960,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 12367,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 12364,
+          "cached_tokens": 0
+        },
+        "total_tokens": 13641
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "Paragraph beginning “We need the wise counsel…”; Romans 13:14 quotation",
+      "severity": "major",
+      "source_quote": "“ . . make not provision for the flesh, to fulfil the lusts thereof.” (Romans 13:14)",
+      "suggested_fix": "Replace the quotation with wording that conveys not providing for the flesh in order to fulfill its desires, for example: „...ואל תספקו את צורכי הבשר כדי למלא את תאוותיו.”",
+      "translation_quote": "„...ואל תדאגו לבשר למלא את תאוותיו.”"
+    },
+    {
+      "location": "Paragraph beginning “This situation reminds me…”; 2 Samuel 24:24 quotation",
+      "severity": "major",
+      "source_quote": "“And the king said. . . neither will I offer burnt offerings unto the LORD my God of that which doth cost me nothing. . .”",
+      "suggested_fix": "Remove „לא, כי קנה אקנה מאתך במחיר” from the quotation, and translate only the printed excerpt: „ויאמר המלך... אף לא אעלה עולות ליהוה אלוהי ממה שאינו עולה לי דבר...”",
+      "translation_quote": "„ויאמר המלך... לא, כי קנה אקנה מאתך במחיר, ולא אעלה ליהוה אלוהי עולות חינם...”"
+    }
+  ],
   "id": "0c35ddf1a4502e8d1d4d03639104b64b",
   "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
   "language": "heb",
@@ -120,11 +154,13 @@
     }
   },
   "protected": false,
+  "quality_score": 89,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/6b272c051a66dd7c357069608e2c8edecd6f7bbdcb18da4b642f5c5e4b1062b3.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "translate",
     "max_candidate_bytes": 120000,
@@ -138,7 +174,7 @@
     "total_reserved_usd": 0.128247,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "70020afc8ca6b4f0091f5d0e53860b679b8b1c300288c0340fe62643ff38207a",
   "translation_model_actual": "gpt-6-luna"

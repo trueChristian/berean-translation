@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-02T06:06:24+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph beginning “We need the wise counsel…”; Romans 13:14 quotation\",\"severity\":\"major\",\"source_quote\":\"“ . . make not provision for the flesh, to fulfil the lusts thereof.” (Romans 13:14)\",\"suggested_fix\":\"Replace the quotation with wording that conveys not providing for the flesh in order to fulfill its desires, for example: „...ואל תספקו את צורכי הבשר כדי למלא את תאוותיו.”\",\"translation_quote\":\"„...ואל תדאגו לבשר למלא את תאוותיו.”\"},{\"location\":\"Paragraph beginning “This situation reminds me…”; 2 Samuel 24:24 quotation\",\"severity\":\"major\",\"source_quote\":\"“And the king said. . . neither will I offer burnt offerings unto the LORD my God of that which doth cost me nothing. . .”\",\"suggested_fix\":\"Remove „לא, כי קנה אקנה מאתך במחיר” from the quotation, and translate only the printed excerpt: „ויאמר המלך... אף לא אעלה עולות ליהוה אלוהי ממה שאינו עולה לי דבר...”\",\"translation_quote\":\"„ויאמר המלך... לא, כי קנה אקנה מאתך במחיר, ולא אעלה ליהוה אלוהי עולות חינם...”\"}],\"findings_complete\":true,\"passed\":false,\"score\":89}",
+    "content_bytes": 1280,
+    "content_evidence_truncated": false,
+    "content_sha256": "12ff12c2075a1b8edbb1fe2be9bdb81d69926c9b79a01ab0c24a851ace3b1c53",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1274,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 960,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 12367,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 12364,
+        "cached_tokens": 0
+      },
+      "total_tokens": 13641
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}
