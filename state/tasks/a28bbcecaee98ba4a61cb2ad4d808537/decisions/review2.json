@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "translation.html: आरंभिक blockquote का पहला अनुच्छेद",
+      "severity": "minor",
+      "source_quote": "no whoremonger, nor unclean person, nor covetous man ... hath any inheritance",
+      "suggested_fix": "“किसी व्यभिचारी, अशुद्ध जन, या लोभी व्यक्ति का” में “का” को “की” करें, ताकि “विरासत” के साथ लिंग-संगति सही हो।",
+      "translation_quote": "किसी व्यभिचारी, अशुद्ध जन, या लोभी व्यक्ति का ... कोई विरासत नहीं है।"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

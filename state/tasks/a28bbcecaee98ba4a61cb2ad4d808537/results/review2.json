@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "518ee518-601e-4dd2-912d-5cfe8064769e",
+    "response_id": "chatcmpl-EfZyXOluQWubkLfswGPirZE8notf8",
+    "usage": {
+      "completion_tokens": 227,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 73,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 11647,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 11644,
+        "cached_tokens": 0
+      },
+      "total_tokens": 11874
+    }
+  },
+  "received_at": "2026-11-02T00:19:16+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "translation.html: आरंभिक blockquote का पहला अनुच्छेद",
+        "severity": "minor",
+        "source_quote": "no whoremonger, nor unclean person, nor covetous man ... hath any inheritance",
+        "suggested_fix": "“किसी व्यभिचारी, अशुद्ध जन, या लोभी व्यक्ति का” में “का” को “की” करें, ताकि “विरासत” के साथ लिंग-संगति सही हो।",
+        "translation_quote": "किसी व्यभिचारी, अशुद्ध जन, या लोभी व्यक्ति का ... कोई विरासत नहीं है।"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 99
+  }
+}
