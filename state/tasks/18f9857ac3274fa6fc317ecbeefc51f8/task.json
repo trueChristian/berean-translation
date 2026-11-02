@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "033b9bb8fa2d4d3995cb0d73538ffbb5",
   "campaign": "auto-558db86c6fe5ca7a2aba25da518c2252f20d9bf90578167a61a98db72454ad8b",
   "created_at": "2026-11-02T06:40:37+00:00",
   "events": [
@@ -28,10 +27,45 @@
         },
         "total_tokens": 2734
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 239,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3088,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 3085,
+          "cached_tokens": 0
+        },
+        "total_tokens": 3327
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "Second paragraph",
+      "severity": "major",
+      "source_quote": "“so long as the electric circuit is closed”",
+      "suggested_fix": "“enquanto o circuito elétrico estiver aberto”",
+      "translation_quote": "“enquanto o circuito elétrico estiver fechado”"
+    },
+    {
+      "location": "Second paragraph",
+      "severity": "major",
+      "source_quote": "“so long as the electric circuit is closed, all your efforts are simply sounding brass and clattering platinum. Not a single spark of electric life do you transmit”",
+      "suggested_fix": "Preserve that the circuit is closed but that the battery is disconnected/not working, so no electric life is transmitted; for example: “enquanto a bateria não estiver ligada à chave, todos os seus esforços serão apenas um bronze que ressoa e uma platina que retine. Não transmite uma única centelha de vida elétrica”",
+      "translation_quote": "“enquanto o circuito elétrico estiver fechado, todos os seus esforços serão apenas um bronze que ressoa e uma platina que retine. Não transmite uma única centelha de vida elétrica”"
+    }
+  ],
   "id": "18f9857ac3274fa6fc317ecbeefc51f8",
   "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
   "language": "por",
@@ -120,11 +154,13 @@
     }
   },
   "protected": false,
+  "quality_score": 86,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/87f95a553eb83f75422bde15eb3d35effd9dfaf6d17787923fba7393c54d1833.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "translate",
     "max_candidate_bytes": 120000,
@@ -138,7 +174,7 @@
     "total_reserved_usd": 0.086704,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "86918e2f92ec7ff09eda36ffc30c12ee294e7b521bd1120caa6adee2c38e97b0",
   "translation_model_actual": "gpt-6-luna"

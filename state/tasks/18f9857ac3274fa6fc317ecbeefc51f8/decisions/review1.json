@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Second paragraph",
+      "severity": "major",
+      "source_quote": "“so long as the electric circuit is closed”",
+      "suggested_fix": "“enquanto o circuito elétrico estiver aberto”",
+      "translation_quote": "“enquanto o circuito elétrico estiver fechado”"
+    },
+    {
+      "location": "Second paragraph",
+      "severity": "major",
+      "source_quote": "“so long as the electric circuit is closed, all your efforts are simply sounding brass and clattering platinum. Not a single spark of electric life do you transmit”",
+      "suggested_fix": "Preserve that the circuit is closed but that the battery is disconnected/not working, so no electric life is transmitted; for example: “enquanto a bateria não estiver ligada à chave, todos os seus esforços serão apenas um bronze que ressoa e uma platina que retine. Não transmite uma única centelha de vida elétrica”",
+      "translation_quote": "“enquanto o circuito elétrico estiver fechado, todos os seus esforços serão apenas um bronze que ressoa e uma platina que retine. Não transmite uma única centelha de vida elétrica”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
