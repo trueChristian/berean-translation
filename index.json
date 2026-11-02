@@ -13891,6 +13891,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ben/articles/e8bdb12c-2e8e-4f55-9052-07bec6e103a1.html",
+      "html_sha256": "44e504486b93e4aea7ea9080dbfb83b9b3f65e4191d54fcb89628d3ba902e2d4",
+      "human_reviewed": false,
+      "id": "e8bdb12c-2e8e-4f55-9052-07bec6e103a1",
+      "images": [
+        {
+          "alt": "হ্রদের জলে প্রতিফলিত কুয়াশাচ্ছন্ন শীতকালীন বন",
+          "public_path": "/images/articles/e8bdb12c-2e8e-4f55-9052-07bec6e103a1-1.png"
+        }
+      ],
+      "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
+      "language": "ben",
+      "language_tag": "bn",
+      "metadata": "content/ben/articles/e8bdb12c-2e8e-4f55-9052-07bec6e103a1.json",
+      "metadata_sha256": "76030f30011f7d722b4d0cfc4da82110b95ba6b15f8c502d20597b3b4521c7b8",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "নতুন নিয়মের মণ্ডলী",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "1c1dd57f73c720271265483775e7d93acfbda9f85eeefb95d0c905a5b442adfd",
+      "status": "ready",
+      "subtitle": null,
+      "title": "আত্মিক উপহারসমূহ",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ben/articles/e9621e7b-df8d-4497-998c-b98af23486b7.html",
       "html_sha256": "09c163958f887ff0619f828868a7f2a1388399b0f11d87c6cbfa6084ac8448dc",
       "human_reviewed": false,

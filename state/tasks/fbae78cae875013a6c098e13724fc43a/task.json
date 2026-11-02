@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "d7fc82aa1e6d452183d5e896a3a96a63",
   "campaign": "auto-9fb085f7934709046607e3049e635166f834885176f84b60cad95fa343b23d14",
   "created_at": "2026-11-01T07:29:44+00:00",
   "events": [
@@ -48,95 +47,31 @@
         },
         "total_tokens": 22053
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 80,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 48,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 12742,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 11639,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 12822
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "html, দ্বিতীয় অনুচ্ছেদ",
-      "severity": "critical",
-      "source_quote": "Likewise ... He took the power from death, hell, the grave and from Satan himself for those who repent and believe in Him.",
-      "suggested_fix": "“অন্যভাবে” বদলে “একইভাবে” লিখুন এবং বিকৃত বাক্যটির পরিবর্তে লিখুন: “যারা অনুতাপ করে ও তাঁকে বিশ্বাস করে, তাদের জন্য তিনি মৃত্যু, নরক, কবর এবং স্বয়ং শয়তানের ক্ষমতা কেড়ে নিয়েছিলেন।”",
-      "translation_quote": "অন্যভাবে ... তিনি পাপীদের জন্য মৃত্যু, নরক, কবর এবং সার্বিকভাবে শয়তানের ক্ষমতা ছিনিয়ে নেন, যারা তর্কপূর্ণভাবে তাঁকে পরিত্যাগ করে, ত-ই বিশ্বাস করে ও তীক্ষ্ণ করার জন্য।"
-    },
-    {
-      "location": "html, “আত্মিক উপহার বোঝার সময়” দিয়ে শুরু অনুচ্ছেদ",
-      "severity": "major",
-      "source_quote": "it would be hard not to fall into pride",
-      "suggested_fix": "“অহংকারে পড়া কঠিন হবে” বদলে “অহংকারে না পড়ে থাকা কঠিন হবে” লিখুন।",
-      "translation_quote": "তাহলে অহংকারে পড়া কঠিন হবে"
-    },
-    {
-      "location": "html, সমস্ত শাস্ত্র-উদ্ধৃতি ও সংশ্লিষ্ট বন্ধনীবদ্ধ উদ্ধৃতি",
-      "severity": "major",
-      "source_quote": "Wherefore he saith ... –Ephesians 4:8; ascended up on high; And he [God] gave some ... –Ephesians 4:11; But all these worketh ... –1 Corinthians 12:11; God also bearing them witness ... –Hebrews 2:4; Neglect not the gift ... –1 Timothy 4:14; For our comely parts ... –1 Corinthians 12:24-25; Who is a wise man ... –James 3:13-18; …the laying on of the hands of the presbytery –1 Timothy 4:14; and he gave… ... –Ephesians 4:11-12; Wherefore tongues are for a sign ... –1 Corinthians 14:22.",
-      "suggested_fix": "প্রতিটি উদ্ধৃতির সম্পূর্ণ মুদ্রিত বক্তব্য বাংলায় অনুবাদ করুন; একই উদ্ধৃতির পুনরাবৃত্ত স্থানগুলিও সংশোধন করুন। বিদ্যমান em, strong ও u ট্যাগ এবং বন্ধনীর ব্যাখ্যা অক্ষুণ্ণ রাখুন। পুস্তকের নাম লিখুন “ইফিষীয়”, “১ করিন্থীয়”, “ইব্রীয়”, “১ তীমথিয়” ও “যাকোব”; অধ্যায়-পদ ও পরিসর অপরিবর্তিত রাখুন। দ্বিতীয় অনুচ্ছেদের বন্ধনীবদ্ধ বাক্যাংশটি হবে “ঊর্ধ্বে আরোহণ করলেন”।",
-      "translation_quote": "Wherefore he saith, When he ascended up on high ... –Ephesians 4:8; ascended up on high; And he [God] gave some ... –Ephesians 4:11; But all these worketh ... –1 Corinthians 12:11 (দুই স্থান); God also bearing them witness ... –Hebrews 2:4; Paul told Timothy, Neglect not the gift ... –1 Timothy 4:14; For our comely parts ... –1 Corinthians 12:24-25; Who is a wise man ... –James 3:13-18; …the laying on of the hands of the presbytery –1 Timothy 4:14; and he gave… [various spiritual gifts to believers] ... –Ephesians 4:11-12; Wherefore tongues are for a sign ... –1 Corinthians 14:22 (দুই স্থান)"
-    },
-    {
-      "location": "html, সাতটি h3 শিরোনাম",
-      "severity": "major",
-      "source_quote": "Spiritual Gifts Should Not Excuse Ungodly Behavior; Spiritual Gifts Are Not The Christian’s Identity; Spiritual Gifts Are God-Given, Not To Be Sought After By Man; Spiritual Gifts Are Not Included In The Biblical List of Qualifications For Church Leaders; God’s Goal for Spiritual Gifts; The Gift of Tongues",
-      "suggested_fix": "বর্তমান h3 ট্যাগে যথাক্রমে লিখুন: “আত্মিক উপহারকে অধার্মিক আচরণের অজুহাত করা উচিত নয়”; “আত্মিক উপহার খ্রিস্টবিশ্বাসীর পরিচয় নয়”; “আত্মিক উপহার ঈশ্বরপ্রদত্ত, মানুষের তা অন্বেষণ করার বিষয় নয়”; “মণ্ডলীর নেতাদের যোগ্যতার বাইবেলীয় তালিকায় আত্মিক উপহার অন্তর্ভুক্ত নয়”; “আত্মিক উপহার দেওয়ার ক্ষেত্রে ঈশ্বরের লক্ষ্য”; “অন্য ভাষায় কথা বলার উপহার”।",
-      "translation_quote": "Spiritual Gifts Should Not Excuse Ungodly Behavior; Spiritual Gifts Are Not The Christian’s Identity; Spiritual Gifts Are God-Given, Not To Be Sought After By Man; Spiritual Gifts Are Not Included In The Biblical List of Qualifications For Church Leaders; God’s Goal for Spiritual Gifts; The Gift of Tongues"
-    },
-    {
-      "location": "html, উপহারের তালিকা থেকে খ্রিস্টবিশ্বাসীর পরিচয়-বিষয়ক অনুচ্ছেদ পর্যন্ত ইংরেজিতে রয়ে যাওয়া গদ্য",
-      "severity": "major",
-      "source_quote": "the word of wisdom ... governments; ministry ... showing mercy; miracles, healing, and speaking in tongues; the gift of evangelism; plain churches; Church government; ordained; prophecy; knowing what my spiritual gift is; He was full of the Holy Ghost and without measure and had them all; we are meant to be interdependent; Well, that is just not my gift; Our identity should not be the gift that we have but rather that our identity is in Christ.",
-      "suggested_fix": "এই অনুচ্ছেদগুলির ইংরেজি গদ্য বাংলায় অনুবাদ করুন। তালিকাগুলি হবে “প্রজ্ঞার বাণী, জ্ঞানের বাণী, বিশ্বাস, আরোগ্যদান, অলৌকিক কাজ, অন্য ভাষায় কথা বলা, অন্য ভাষার অর্থ নির্ণয়, সাহায্য এবং পরিচালনা” ও “সেবাকাজ, উৎসাহদান, দান, নেতৃত্বদান এবং দয়া প্রদর্শন”। ধারাবাহিকভাবে gift/gifts = “উপহার/উপহারসমূহ”, prophecy = “ভাববাণী”, ordained = “অভিষিক্ত”, mercy = “দয়া”, primary = “প্রধান”, receptive = “গ্রহণে প্রস্তুত” ব্যবহার করুন। পূর্ণ বাক্যগুলি লিখুন: “তিনি অপরিমেয়ভাবে পবিত্র আত্মায় পরিপূর্ণ ছিলেন এবং সব উপহারই তাঁর ছিল”; “আমাদের পরস্পরনির্ভর হওয়ার কথা”; “আসলে, এটি তো আমার উপহার নয়”; “আমাদের পরিচয় আমাদের প্রাপ্ত উপহার নয়, বরং আমাদের পরিচয় খ্রিস্টে।” plain churches বলতে অনাড়ম্বর জীবনযাপনকারী মণ্ডলীগুলি বোঝান; সম্প্রদায়ের নাম বাংলা হরফে লিখুন।",
-      "translation_quote": "the word of wisdom, the word of knowledge, faith, healing, miracles, tongues, discerning of tongues, helps, and governments; ministry, exhortation, giving, ruling, and showing mercy; miracles, healing, এবং speaking in tongues; the gift of evangelism; Anabaptist; plain churches; government; ordainedদের; prophecy-র; tongues-এর; knowing what my spiritual gift is; the prophet; gift; mercy; primary gift বা gifts; He was full of the Holy Ghost and without measure and had them all; receptive; meant to be interdependent; severally; doing good; Well, that is just not my gift; Our identity should not be the gift that we have but rather that our identity is in Christ; prophet, teacher, বা evangelist; primary identity; this gift that I have"
-    },
-    {
-      "location": "html, ঈশ্বরপ্রদত্ত উপহার-বিষয়ক অংশ থেকে মণ্ডলীর সমস্যা সমাধানের তিনটি ধাপ পর্যন্ত ইংরেজিতে রয়ে যাওয়া গদ্য",
-      "severity": "major",
-      "source_quote": "God gives gifts according to His choosing; the WILL of God; seeking spiritual gifts; Not my will, but thine be done; stir up that gift; counterfeit; ALL the gifts are essential; God gave the husband what he lacked; outside overseers; fervent prayer; Then AFTER stability is restored the local brotherhood is at a good place to seek God’s will together about ordaining another brother to assist.",
-      "suggested_fix": "এই অংশের সব ইংরেজি গদ্য বাংলায় রূপান্তর করুন। প্রধান বাক্যাংশগুলি হবে “ঈশ্বর নিজের নির্বাচন অনুসারে উপহার দেন”, “ঈশ্বরের ইচ্ছা”, “আত্মিক উপহার অন্বেষণ”, “আমার ইচ্ছা নয়, তোমার ইচ্ছাই পূর্ণ হোক”, “সেই উপহারকে জাগিয়ে তোলা”, “নকল”, “সব উপহারই অপরিহার্য”, “ঈশ্বর স্বামীর যে অভাব ছিল তা পূরণ করেছিলেন”, “বাইরের তত্ত্বাবধায়ক” এবং “আকুল প্রার্থনা”। শেষ ধাপটি লিখুন: “(3) তারপর স্থিতিশীলতা ফিরে আসার পরেই স্থানীয় ভ্রাতৃসমাজ সাহায্যের জন্য আরেকজন ভাইকে অভিষিক্ত করার বিষয়ে একসঙ্গে ঈশ্বরের ইচ্ছা অন্বেষণের উপযুক্ত অবস্থায় থাকবে।” অবশিষ্ট ইংরেজি পদগুলিও যথাস্থানে বাংলা করুন; ministry-team = “পরিচর্যা দল”, laying on of hands = “হস্তার্পণ”, individualistic = “ব্যক্তিকেন্দ্রিক”।",
-      "translation_quote": "God gives gifts according to His choosing; the WILL of God; seeking spiritual gifts; humble; useful tool; Not my will, but thine be done; stir up; church; spiritual gift; counterfeit; spiritual gifts শিক্ষা; ordained church leaders; government, pastors, and teachers; understanding of spiritual gifts; individualistic; body; scriptures; ALL the gifts are essential; God; gifts; evangelism; ordinal; laying on of hands; gifted; perceived lack-of-gifting; prayer; the Holy Ghost; God gave the husband what he lacked (1 Corinthians 12:24-25); gifting; yielding; ministry-team; ordained; overseers; wisdom; fervent prayer; enabling ability; seek; through; THEN AFTER stability restored, the local brotherhood is in a good place to seek God’s will together about ordaining another brother to assist."
-    },
-    {
-      "location": "html, “আমি আত্মার উপহার” থেকে “The Gift of Tongues” শিরোনামের আগের অনুচ্ছেদ পর্যন্ত ইংরেজিতে রয়ে যাওয়া গদ্য ও তথ্যসূত্র",
-      "severity": "major",
-      "source_quote": "The first reason; there should be no schisms in the body, but that the members should have the same care one for another; The second reason; unity, oneness, and edification; the frontier of the gospel; elders; anointing and prayer; the apostle Paul ... (2 Corinthians 12:7-12)",
-      "suggested_fix": "এই অংশের সব ইংরেজি গদ্য বাংলায় অনুবাদ করুন। strong ট্যাগে “প্রথম কারণ” ও “দ্বিতীয় কারণ” লিখুন। verse 25-এর বক্তব্য হবে “দেহে যেন কোনো বিভেদ না থাকে, বরং সদস্যরা যেন পরস্পরের সমান যত্ন নেয়”। unity, oneness, edification = “ঐক্য, একতা ও আত্মিক গঠন”; evangelist = “সুসমাচার প্রচারক”; gospel-এর frontier = “সুসমাচার প্রচারের নতুন ক্ষেত্র”; elders = “প্রাচীনেরা”; anointing ও prayer = “তৈলাভিষেক ও প্রার্থনা”; recurring illness = “বারবার ফিরে আসা অসুস্থতা”। তথ্যসূত্রটি “২ করিন্থীয় 12:7-12” লিখুন এবং Pentecost-কে “পঞ্চাশত্তমীর দিন” হিসেবে অনুবাদ করুন।",
-      "translation_quote": "The first reason; verse 25; there should be no schisms in the body, but that the members should have the same care one for another; preaching the need to have spiritual gifts; evangelism, healing, miracles, এবং tongues; focused teaching; division; unity; counterfeit; oneness; edification; The second reason; sign; tongues, miracles এবং healings; gospel; Pentecost; gifts; evangelist; frontier; interpret; edified; elders; anointing ও prayer; wonderful gift of healing; Apostle Paul; recurring illness; (2 Corinthians 12:7-12); the gifts of the Spirit"
-    },
-    {
-      "location": "html, অন্য ভাষায় কথা বলার উপহার-বিষয়ক শেষ অংশের সমস্ত অনুচ্ছেদ",
-      "severity": "major",
-      "source_quote": "spiritual gift of tongues; Peter’s credibility; English speakers used English syllables ... Spanish ...; a revival meeting ... French interpreter; salvation; tower of Babel; gospel message; giving them severally as He wills",
-      "suggested_fix": "এই অংশের অবশিষ্ট ইংরেজি শব্দ ও বাক্যাংশ বাংলায় অনুবাদ করুন। tongues = “অন্য ভাষায় কথা বলা”, spiritual gift = “আত্মিক উপহার”, sign = “চিহ্ন”, Holy Spirit = “পবিত্র আত্মা”, gospel message = “সুসমাচারের বার্তা”, Peter = “পিতর”, credibility = “বিশ্বাসযোগ্যতা”, approval = “স্বীকৃতি”, preaching = “প্রচার”, studies = “গবেষণা”, gibberish = “অর্থহীন বকবকানি”, syllables = “উচ্চারণের ধ্বনিখণ্ড”, counterfeit = “নকল”, deception = “প্রতারণা”। French/English/Spanish-কে “ফরাসি/ইংরেজি/স্প্যানিশ”, revival meeting-কে “আত্মিক জাগরণের সভা”, interpreter-কে “দোভাষী”, counsel-কে “পরামর্শ”, miracle-কে “অলৌকিক ঘটনা”, salvation-কে “পরিত্রাণ”, Babel-কে “বাবিল” করুন। উপসংহারে severally as He wills হবে “তাঁর ইচ্ছামতো প্রত্যেককে পৃথকভাবে”, unity ও edification হবে “ঐক্য ও আত্মিক গঠন”।",
-      "translation_quote": "tongues-র spiritual gift; Apostle Paul; sign; the Holy Spirit; gospel message; Pentecost; Peter-এর credibility; approval; preaching; studies; gibberish; English speakers English syllables; Spanish speakers Spanish syllables; counterfeit; deception; French; revival meeting; revivalist; French interpreter; counsel; miracle; salvation; Babel; confound; English-speaking preacher; French-speaking hearer; gospel; sign; gifts; severally as He wills; unity ও edification; spiritual gifts"
-    },
-    {
-      "location": "html, image alt",
-      "severity": "major",
-      "source_quote": "A misty winter forest reflected in a lake",
-      "suggested_fix": "শুধু alt-এর মানটি করুন: “হ্রদের জলে প্রতিফলিত কুয়াশাচ্ছন্ন শীতকালীন বন”।",
-      "translation_quote": "একটি দুষ্কৃত ও শীতল বন যা একটি হ্রদের আয়নায় প্রতিফলিত"
-    },
-    {
-      "location": "html, করিন্থীয়দের চিঠি-বিষয়ক অনুচ্ছেদ",
-      "severity": "minor",
-      "source_quote": "one lifted above the rest ... the last verse of Chapter 12, and the first verse in chapter 14 ... might not have been edified",
-      "suggested_fix": "“একজনকে” বদলে “একটি উপহারকে”, “শেষ ছেদে” ও “প্রথম ছেদে” বদলে “শেষ পদে” ও “প্রথম পদে” লিখুন; শেষাংশ করুন “এবং তাদের আচরণের মাধ্যমে মণ্ডলীর আত্মিক গঠন হয়তো হচ্ছিল না”।",
-      "translation_quote": "একজনকে ... অধ্যায় 12-এর শেষ ছেদে এবং অধ্যায় 14-এর প্রথম ছেদে ... চার্চ তাদের আচরণের দ্বারা নির্মিত হচ্ছিল না"
-    },
-    {
-      "location": "html, পরিচয়-বিষয়ক অনুচ্ছেদ",
-      "severity": "minor",
-      "source_quote": "Recognizing first and foremost who we are in Christ",
-      "suggested_fix": "বাক্যাংশটি করুন “সর্বাগ্রে খ্রিস্টে আমাদের পরিচয় উপলব্ধি করা”।",
-      "translation_quote": "প্রথমে আমাদের কে তা চেনা"
-    },
-    {
-      "location": "html, মণ্ডলীর সমস্যায় যাকোবের উদ্ধৃতির আগের বাক্য",
-      "severity": "major",
-      "source_quote": "church difficulty that seems to be due to the lack of gifting among the ordained",
-      "suggested_fix": "লিখুন: “মণ্ডলীর কোনো সমস্যা যদি অভিষিক্ত নেতাদের মধ্যে উপহারের অভাবের কারণে হয়েছে বলে মনে হয়, তবে আমাদের নিচের পদগুলি বিবেচনা করতে হবে।”",
-      "translation_quote": "চার্চে সমস্যা দেখা দেয় যা ordainedদের মধ্যে উপহারের অভাবকে অপরাধ মনে করায়"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-11-02T06:07:50+00:00",
   "id": "fbae78cae875013a6c098e13724fc43a",
   "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
   "language": "ben",
@@ -225,7 +160,7 @@
     }
   },
   "protected": false,
-  "quality_score": 30,
+  "quality_score": 99,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6.1-sol",
@@ -244,7 +179,7 @@
     "total_reserved_usd": 0.84424,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "1c1dd57f73c720271265483775e7d93acfbda9f85eeefb95d0c905a5b442adfd",
   "translation_model_actual": "gpt-6.1-sol"
