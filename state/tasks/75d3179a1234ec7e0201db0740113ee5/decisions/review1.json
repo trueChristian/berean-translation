@@ -1,0 +1,154 @@
+{
+  "findings": [
+    {
+      "location": "html, paragraph beginning فسٹس علمی علم",
+      "severity": "major",
+      "source_quote": "Festus was not speaking of scientific knowledge",
+      "suggested_fix": "Replace «فسٹس علمی علم کی بات نہیں کر رہا تھا» with «فسٹس سائنسی علم کی بات نہیں کر رہا تھا».",
+      "translation_quote": "فسٹس علمی علم کی بات نہیں کر رہا تھا"
+    },
+    {
+      "location": "html, paragraph beginning آج کے دور",
+      "severity": "major",
+      "source_quote": "an intelligent designer of the Universe",
+      "suggested_fix": "Replace «کائنات کے ایک ذہین منظر ساز» with «کائنات کے ایک ذہین طراح».",
+      "translation_quote": "کائنات کے ایک ذہین منظر ساز"
+    },
+    {
+      "location": "html, paragraph beginning آج کے دور",
+      "severity": "major",
+      "source_quote": "those who believe such things are the next thing to savages",
+      "suggested_fix": "Replace «وہ آہستہ آہستہ جنگلی لوگوں کے قریب ہیں» with «وہ وحشیوں سے کچھ زیادہ مختلف نہیں ہیں». The source makes a comparison, not a claim of gradual change.",
+      "translation_quote": "وہ آہستہ آہستہ جنگلی لوگوں کے قریب ہیں"
+    },
+    {
+      "location": "html, Romans 1:20 quotation",
+      "severity": "major",
+      "source_quote": "so that they are without excuse",
+      "suggested_fix": "Replace «تاکہ وہ بےعذری میں نہ رہیں» with «تاکہ ان کے پاس کوئی عذر نہ رہے».",
+      "translation_quote": "تاکہ وہ بےعذری میں نہ رہیں"
+    },
+    {
+      "location": "html, first paragraph under کائنات کے قوانین برقرار ہیں",
+      "severity": "major",
+      "source_quote": "they can behave in immoral ways and not suffer the rewards of sin",
+      "suggested_fix": "Replace «وہ اخلاقی طور پر برتاؤ کر سکتے ہیں» with «وہ غیر اخلاقی طرزِ عمل اختیار کر سکتے ہیں».",
+      "translation_quote": "وہ اخلاقی طور پر برتاؤ کر سکتے ہیں اور گناہ کے نتائج سے بچ سکتے ہیں"
+    },
+    {
+      "location": "html, Jeremiah 31:35-36 quotation",
+      "severity": "major",
+      "source_quote": "Thus saith the LORD, which giveth the sun for a light by day ... If those ordinances depart from before me, saith the LORD",
+      "suggested_fix": "Replace «کہتا ہے یہودیوں کا خدا، جو دن میں سورج کو روشنی دیتا ہے» with «خداوند یوں فرماتا ہے، جو دن کی روشنی کے لیے سورج دیتا ہے»; replace «اگر وہ قواعد میرے سامنے سے رُخ نکل آئیں، کہتا ہے یہ LORD» with «اگر یہ قوانین میرے حضور سے ہٹ جائیں، خداوند فرماتا ہے».",
+      "translation_quote": "کہتا ہے یہودیوں کا خدا، جو دن میں سورج کو روشنی دیتا ہے ... اگر وہ قواعد میرے سامنے سے رُخ نکل آئیں، کہتا ہے یہ LORD"
+    },
+    {
+      "location": "html, Isaiah 55:8-9 quotation",
+      "severity": "major",
+      "source_quote": "saith the LORD",
+      "suggested_fix": "Replace «کہتا ہے یہ LORD» with «خداوند فرماتا ہے».",
+      "translation_quote": "کہتا ہے یہ LORD"
+    },
+    {
+      "location": "html, Psalm 14:1 quotation",
+      "severity": "major",
+      "source_quote": "The fool hath said in his heart",
+      "suggested_fix": "Replace «پست نے اپنے دل میں کہا» with «نادان نے اپنے دل میں کہا».",
+      "translation_quote": "پست نے اپنے دل میں کہا"
+    },
+    {
+      "location": "html, paragraphs beginning میں یہ بات، سائنسی طریقۂ کار، and یہاں تک",
+      "severity": "major",
+      "source_quote": "Atheists observe the universe; atheists or agnostics; a basic understanding of the universe that atheists don’t have",
+      "suggested_fix": "Replace «ناقدُاللہ» and both occurrences of «ناقدالہ» with «ملحدین». In the scientific-method paragraph, replace «شک پسند» with «لاادری». These terms identify atheists and agnostics, not critics of God and skeptics generally.",
+      "translation_quote": "ناقدُاللہ دنیا کا مشاہدہ کرتے ہیں؛ ناقدالہ یا شک پسند؛ ایک بنیادی سمجھ ہے جو ناقدالہ کے پاس نہیں ہوتی"
+    },
+    {
+      "location": "html, Psalm 8:3-4 quotation",
+      "severity": "major",
+      "source_quote": "and the son of man, that thou visitest him?",
+      "suggested_fix": "Replace «اور انسانِ نرّ کیا ہے کہ تو اس کا دیکھ بھال کرتا ہے؟» with «اور ابنِ آدم کیا ہے کہ تو اس کی خبر لیتا ہے؟».",
+      "translation_quote": "اور انسانِ نرّ کیا ہے کہ تو اس کا دیکھ بھال کرتا ہے؟"
+    },
+    {
+      "location": "html, paragraph beginning وقت کے ساتھ",
+      "severity": "major",
+      "source_quote": "something was specifically wrong with the islet cells",
+      "suggested_fix": "Replace «جزیروںِ خلا میں کچھ خاص طور پر غلط تھا» with «لبلبے کے جزیرہ نما خلیات میں خاص طور پر کوئی خرابی تھی».",
+      "translation_quote": "جزیروںِ خلا میں کچھ خاص طور پر غلط تھا"
+    },
+    {
+      "location": "html, paragraph beginning وقت کے ساتھ",
+      "severity": "major",
+      "source_quote": "an extremely low glycemic diet",
+      "suggested_fix": "Replace «انتہائی کم گلوکوز کے ڈائٹ» with «ایسی غذا جو خون میں شکر کی سطح بہت کم بڑھائے».",
+      "translation_quote": "انتہائی کم گلوکوز کے ڈائٹ"
+    },
+    {
+      "location": "html, paragraph describing aducanumab",
+      "severity": "major",
+      "source_quote": "dementia (aducanumab)",
+      "suggested_fix": "Replace «ڈیمینشیا (کم عقلی)» with «ڈیمنشیا (یادداشت اور ذہنی صلاحیتوں میں زوال)». The current gloss misidentifies an acquired cognitive disorder as low intelligence.",
+      "translation_quote": "ڈیمینشیا (کم عقلی)"
+    },
+    {
+      "location": "html, heading بہت سے سائنسدان خدا پر ایمان رکھتے تھے",
+      "severity": "minor",
+      "source_quote": "Many Scientists Believe in God",
+      "suggested_fix": "Replace the heading text with «بہت سے سائنسدان خدا پر ایمان رکھتے ہیں» to retain its present-day scope.",
+      "translation_quote": "بہت سے سائنسدان خدا پر ایمان رکھتے تھے"
+    },
+    {
+      "location": "html, paragraph beginning بہت سی کتابیں",
+      "severity": "minor",
+      "source_quote": "<em>seeing God’s fingerprints</em> throughout creation",
+      "suggested_fix": "Replace «خلقت میں خدا کے \"ہتھیلی کے نشانات\" دیکھنے» with «تمام خلقت میں <em>خدا کی انگلیوں کے نشانات دیکھنے</em>» to preserve the fingerprint metaphor and the source emphasis.",
+      "translation_quote": "خلقت میں خدا کے \"ہتھیلی کے نشانات\" دیکھنے"
+    },
+    {
+      "location": "html, paragraph comparing Genesis with creation myths",
+      "severity": "minor",
+      "source_quote": "This is one of the big differences between the Creation account found in Genesis and the myths of creation found in other cultures of the time. ... There is no magic or mystical thinking in the Genesis account.",
+      "suggested_fix": "Replace the first sentence with «یہ پیدایش میں بیان کردہ تخلیق کے بیان اور اُس زمانے کی دوسری ثقافتوں میں پائے جانے والے تخلیق کے اساطیر کے درمیان بڑے فرقوں میں سے ایک ہے۔» Replace the final «پیدایش کے حساب میں» with «پیدایش کے بیان میں». Here “account” means a narrative, not a calculation.",
+      "translation_quote": "یہ پیدایش کے حساب میں پائی جانے والی بڑی فرقوں میں سے ایک ہے اور دیگر ثقافتوں کے خلقت کے اساطیر کے درمیان فرق ہے۔ ... پیدایش کے حساب میں"
+    },
+    {
+      "location": "html, Scripture reference following all things continue",
+      "severity": "minor",
+      "source_quote": "2 Peter 3:4",
+      "suggested_fix": "Replace «2 پت 3:4» with the conventional Urdu book name «2 پطرس 3:4».",
+      "translation_quote": "2 پت 3:4"
+    },
+    {
+      "location": "html, Acts hearing paragraph",
+      "severity": "minor",
+      "source_quote": "[until finally]",
+      "suggested_fix": "Replace «[تا کہ آخر کار]» with «[یہاں تک کہ آخرکار]» to convey culmination rather than purpose.",
+      "translation_quote": "[تا کہ آخر کار]"
+    },
+    {
+      "location": "html, opening paragraph",
+      "severity": "minor",
+      "source_quote": "had been apprehended and almost killed ... by a mob of angry Jews",
+      "suggested_fix": "Replace the second sentence with «رسول پال کو یروشلم کی ہیکل میں غصے سے بھرے یہودی ہجوم نے پکڑ لیا تھا اور قریب تھا کہ اسے جان سے مار ڈالتا۔»",
+      "translation_quote": "رسول پال کو یروشلم کے ہیکل میں غصّے سے بھرے یہودی ہجوم نے گرفتار کیا اور تقریباً مار دیا گیا تھا۔"
+    },
+    {
+      "location": "html, paragraphs on Paul's education, physical laws, and faith among scientists",
+      "severity": "minor",
+      "source_quote": "Paul was well educated.; the earth rotates on its axis; have a life of faith",
+      "suggested_fix": "Replace «پال اچھی تعلیم یافتہ تھا» with «پال اچھی طرح تعلیم یافتہ تھا»; «زمین کے دھوری گردش» with «زمین کی اپنے محور پر گردش»; and «وہ ایمان زندگی نہیں رکھ سکتا» with «وہ ایمان کی زندگی نہیں گزار سکتا».",
+      "translation_quote": "پال اچھی تعلیم یافتہ تھا؛ زمین کے دھوری گردش؛ وہ ایمان زندگی نہیں رکھ سکتا"
+    },
+    {
+      "location": "html, img alt attribute",
+      "severity": "minor",
+      "source_quote": "capsules",
+      "suggested_fix": "Within the existing alt attribute, replace «گولیاں» with «کیپسول».",
+      "translation_quote": "گولیاں"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
