@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Article, Scripture references in the paragraphs beginning “We read in Genesis…”, “In our times of need…”, “Since I was 15 years old…”, and Amy Carmichael’s quoted testimony",
+      "severity": "major",
+      "source_quote": "“Psalm 127:2”; “Psalm 121:3~5”; “Psalm 3:5”; “Ps 107:9”; “Psalm 34:22”",
+      "suggested_fix": "Keep the translated quotations, but use the source’s exact reference numbers: “Псалом 127:2”; “Псалом 121:3–5”; “Псалом 3:5”; “Псалом 107:9”; “Псалом 34:22”.",
+      "translation_quote": "“Псалом 126:2”; “Псалом 120:3~5”; “Псалом 3:6”; “Псалом 106:9”; “Псалом 33:23”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
