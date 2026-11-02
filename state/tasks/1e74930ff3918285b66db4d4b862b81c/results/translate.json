@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "fd72056b-d91e-45b3-885b-52fcbe1d7b89",
+    "response_id": "chatcmpl-EffpPodJX2CmXzCYV4S1lVEMpbRyS",
+    "usage": {
+      "completion_tokens": 1144,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 121,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1728,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1725,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2872
+    }
+  },
+  "received_at": "2026-11-02T06:36:23+00:00",
+  "result": {
+    "html": "<article data-article-id=\"b72ea42a-1a86-4c21-a399-ebd3013c257b\">\n  <figure>\n    <img src=\"/images/articles/b72ea42a-1a86-4c21-a399-ebd3013c257b-1.jpg\" alt=\"Una llave telegráfica y sus contactos eléctricos\">\n  </figure>\n  <p>«Si piden, yo lo haré». En cuanto a aquellas cosas que solo Dios puede hacer, naturalmente recurrimos a la oración. Pues, sabiendo que nosotros mismos no podemos hacerlas, encontramos nuestra esperanza únicamente en esa petición que hace que Dios actúe. Pero recordemos también que nuestro servicio personal, en las cosas que <em>podemos</em> hacer, necesita igualmente esa petición que hará que Dios actúe en él. ¿Nos damos cuenta de que todo lo que hacemos necesita estar impregnado del espíritu de oración, para que <em>Dios</em> sea quien realmente actúe, quien realmente obre en las cosas que estamos haciendo afanosamente? Sin embargo, esta es una verdad poderosa: «Si piden, yo lo haré» se aplica tanto a su propio servicio como a su intercesión por los demás.</p>\n  <p>¿Alguna vez ha jugueteado con la llave de un telégrafo mientras el circuito estaba cerrado? Si es así, habrá observado este hecho. En esa llave puede escribir un mensaje completo, desde la dirección hasta la firma. En ella puede formar perfectamente cada carácter telegráfico; puede cumplir todas las condiciones para operar con pericia. Pero no importa cuán hábil sea como operador: mientras el circuito eléctrico esté cerrado, todos sus esfuerzos no serán más que címbalo que resuena y platino que repiquetea. No transmite ni una sola chispa de vida eléctrica; no se comunica un solo mensaje, bueno o malo, de desgracia o bendición, al oyente que espera al otro extremo de la línea.</p>\n  <h2>¿POR QUÉ?</h2>\n  <p><em>Porque la batería no está funcionando.</em> Y todo <em>su</em> trabajo es esfuerzo sin resultado, actividad sin poder.</p>\n  <p>Pero ahora usted abre la pequeña palanca de latón que conecta la llave con la batería escondida debajo de la mesa. De inmediato, cada letra que forma vibra con vida; cada palabra que escribe lanza un mensaje vivo a la mente y al corazón del receptor que está lejos. Por medio de su trabajo, muerto y mecánico en sí mismo, la batería electrónica derrama ahora su corriente vital, inundando de vida y poder cada hábil movimiento de sus dedos ágiles.</p>\n  <h2>LA LECCIÓN ES CLARA</h2>\n  <p>En la telegrafía espiritual ocurre lo mismo que en la material. Si la batería no está funcionando, el mensaje no es más que ruido. <em>Nosotros</em> podemos <em>hacer</em>, pero si <em>Dios</em> no obra por medio de nosotros, todo lo que hacemos es en vano. Si trabajamos con nuestras propias fuerzas carnales, no produciremos más que resultados carnales, pues «lo que nace de la carne <em>es</em> carne». Solo Dios es vida espiritual. Dios es el único que engendra vida. Nuestra función más elevada como servidores es transmitir la vida de Dios a los demás. Nuestra obra más elevada es aquella en la que Dios obra por medio de nosotros.</p>\n  <p>¿Y cómo ha de ser esto?</p>\n  <h2>POR MEDIO DE LA ORACIÓN</h2>\n  <p>La oración lo conecta con la batería divina de vida y poder. La oración lo pone «en el Espíritu», y «es <em>el Espíritu</em> quien da vida». De la cámara de oración sale al encuentro de las personas con la unción, el poder sutil, el estremecimiento de la propia vida de Dios sobre usted. Mientras usted sigue pidiendo, Dios sigue actuando. Cuando deja de orar, sus obras pierden poder. No dirija ninguna reunión sin <em>pedir</em> que Dios sea quien realmente la dirija por medio de usted; no pronuncie ningún mensaje sin <em>pedir</em> que Él hable por medio de usted; no comience ninguna obra sin <em>pedir</em> que Dios obre por medio de usted. Pues <em>«Si piden, yo lo haré».</em></p>\n</article>\n",
+    "section": null,
+    "subtitle": null,
+    "title": "UNA PROMESA PARA EL SERVICIO"
+  }
+}
