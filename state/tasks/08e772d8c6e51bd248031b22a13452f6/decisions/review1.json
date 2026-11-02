@@ -1,0 +1,84 @@
+{
+  "findings": [
+    {
+      "location": "html, paragraph 3",
+      "severity": "major",
+      "source_quote": "Jehoshaphat, the king of Judah",
+      "suggested_fix": "Replace «یہوشافاط، یروشلم کے بادشاہ» with «یہوشافاط، یہوداہ کے بادشاہ».",
+      "translation_quote": "یہوشافاط، یروشلم کے بادشاہ"
+    },
+    {
+      "location": "html, paragraph 5",
+      "severity": "major",
+      "source_quote": "I have no power, not even to be the fruitful worker in Your kingdom that I always dreamed of being.",
+      "suggested_fix": "Replace this sentence with «مجھ میں قوت نہیں، یہاں تک کہ تیری بادشاہی میں وہ پھل دار خدمت گزار بننے کی بھی نہیں جس کے بننے کا میں نے ہمیشہ خواب دیکھا تھا۔» This restores the omitted kingdom and the statement about lacking power.",
+      "translation_quote": "میرے پاس قوت نہیں، حتیٰ کہ میں وہ میوے دار عامل بھی نہیں بن سکی جس کا میں نے ہمیشہ تڑپ کے ساتھ خواب دیکھا تھا۔"
+    },
+    {
+      "location": "html, paragraph 11, Scripture reference",
+      "severity": "major",
+      "source_quote": "– verses 21-20.",
+      "suggested_fix": "Change «آیتیں 20-21» to «آیتیں 21-20» to preserve the reference as printed in the authoritative source.",
+      "translation_quote": "— آیتیں 20-21۔"
+    },
+    {
+      "location": "html, paragraph 12, Scripture quotation",
+      "severity": "major",
+      "source_quote": "the LORD set… [an ambush] against the children of Ammon, [and] Moab",
+      "suggested_fix": "Replace «کے خلاف [ایک غول] مقرر کیا» with «کے خلاف … [گھات لگانے والوں کو] مقرر کیا».",
+      "translation_quote": "خداوند نے امون کے بچوں، موآب، …جنہوں نے یہودیہ کے خلاف آ کر حملہ کیا تھا، کے خلاف [ایک غول] مقرر کیا"
+    },
+    {
+      "location": "html, paragraph 15, musical instruments",
+      "severity": "major",
+      "source_quote": "with singing, and harps, and trumpets",
+      "suggested_fix": "Replace «گیت، بربطیں اور شیورین (شور بجانے والے ساز) کے ساتھ» with «گیت گاتے ہوئے، بربطوں اور نرسنگوں کے ساتھ». Remove the invented explanatory parenthesis.",
+      "translation_quote": "گیت، بربطیں اور شیورین (شور بجانے والے ساز) کے ساتھ"
+    },
+    {
+      "location": "html, paragraph 15, final clauses",
+      "severity": "major",
+      "source_quote": "then Jehoshaphat’s realm was quiet",
+      "suggested_fix": "Replace «پھر یہوشافاط کا سلسلہ پر سکون ہوگیا» with «پھر یہوشافاط کی سلطنت میں سکون ہوگیا».",
+      "translation_quote": "پھر یہوشافاط کا سلسلہ پر سکون ہوگیا"
+    },
+    {
+      "location": "html, paragraph 3",
+      "severity": "minor",
+      "source_quote": "with my messy and fearful concoctions",
+      "suggested_fix": "Replace «ان اذیت ناک اور ڈرے ہوئے مکسچر سے» with «اپنے ان الجھے ہوئے، خوف سے بھرے خیالات سے».",
+      "translation_quote": "ان اذیت ناک اور ڈرے ہوئے مکسچر سے"
+    },
+    {
+      "location": "html, paragraph 4, Scripture quotation",
+      "severity": "minor",
+      "source_quote": "O our God, wilt thou not judge them?",
+      "suggested_fix": "Replace «اے ہمارے خدا کیا تو انہیں فیصلہ نہیں کرے گا؟» with «اے ہمارے خدا، کیا تو اُن کا انصاف نہیں کرے گا؟».",
+      "translation_quote": "اے ہمارے خدا کیا تو انہیں فیصلہ نہیں کرے گا؟"
+    },
+    {
+      "location": "html, paragraph 10, opening question",
+      "severity": "minor",
+      "source_quote": "Do you think any of them slept that night?",
+      "suggested_fix": "Replace «کیا تمہیں لگتا ہے کہ ان میں سے کسی نے اُس رات سُونا؟» with «کیا تمہیں لگتا ہے کہ ان میں سے کوئی اُس رات سویا ہوگا؟».",
+      "translation_quote": "کیا تمہیں لگتا ہے کہ ان میں سے کسی نے اُس رات سُونا؟"
+    },
+    {
+      "location": "html, paragraph 11, Scripture quotation",
+      "severity": "minor",
+      "source_quote": "Jehoshaphat stood and said, …Believe in the LORD your God, so shall ye be established; believe his prophets",
+      "suggested_fix": "Change «یہوشافاط کھڑا ہو کر کہا» to «یہوشافاط نے کھڑے ہو کر کہا» and «اس کے نبوان» to «اس کے نبیوں».",
+      "translation_quote": "یہوشافاط کھڑا ہو کر کہا، …خداوند اپنے خدا پر ایمان لاؤ، تو تم قائم رہو گے؛ اس کے نبوان پر ایمان لاؤ"
+    },
+    {
+      "location": "html, paragraph 14",
+      "severity": "minor",
+      "source_quote": "gathering the riches and spoils",
+      "suggested_fix": "Replace «خزائن اور لُوٹتی ہوئی چیزیں جمع کرتی رہی» with «دولت اور مالِ غنیمت جمع کرتی رہی».",
+      "translation_quote": "خزائن اور لُوٹتی ہوئی چیزیں جمع کرتی رہی"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

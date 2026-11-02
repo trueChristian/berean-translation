@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-02T23:30:44+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"html, paragraph 3\",\n      \"severity\": \"major\",\n      \"source_quote\": \"Jehoshaphat, the king of Judah\",\n      \"suggested_fix\": \"Replace «یہوشافاط، یروشلم کے بادشاہ» with «یہوشافاط، یہوداہ کے بادشاہ».\",\n      \"translation_quote\": \"یہوشافاط، یروشلم کے بادشاہ\"\n    },\n    {\n      \"location\": \"html, paragraph 5\",\n      \"severity\": \"major\",\n      \"source_quote\": \"I have no power, not even to be the fruitful worker in Your kingdom that I always dreamed of being.\",\n      \"suggested_fix\": \"Replace this sentence with «مجھ میں قوت نہیں، یہاں تک کہ تیری بادشاہی میں وہ پھل دار خدمت گزار بننے کی بھی نہیں جس کے بننے کا میں نے ہمیشہ خواب دیکھا تھا۔» This restores the omitted kingdom and the statement about lacking power.\",\n      \"translation_quote\": \"میرے پاس قوت نہیں، حتیٰ کہ میں وہ میوے دار عامل بھی نہیں بن سکی جس کا میں نے ہمیشہ تڑپ کے ساتھ خواب دیکھا تھا۔\"\n    },\n    {\n      \"location\": \"html, paragraph 11, Scripture reference\",\n      \"severity\": \"major\",\n      \"source_quote\": \"– verses 21-20.\",\n      \"suggested_fix\": \"Change «آیتیں 20-21» to «آیتیں 21-20» to preserve the reference as printed in the authoritative source.\",\n      \"translation_quote\": \"— آیتیں 20-21۔\"\n    },\n    {\n      \"location\": \"html, paragraph 12, Scripture quotation\",\n      \"severity\": \"major\",\n      \"source_quote\": \"the LORD set… [an ambush] against the children of Ammon, [and] Moab\",\n      \"suggested_fix\": \"Replace «کے خلاف [ایک غول] مقرر کیا» with «کے خلاف … [گھات لگانے والوں کو] مقرر کیا».\",\n      \"translation_quote\": \"خداوند نے امون کے بچوں، موآب، …جنہوں نے یہودیہ کے خلاف آ کر حملہ کیا تھا، کے خلاف [ایک غول] مقرر کیا\"\n    },\n    {\n      \"location\": \"html, paragraph 15, musical instruments\",\n      \"severity\": \"major\",\n      \"source_quote\": \"with singing, and harps, and trumpets\",\n      \"suggested_fix\": \"Replace «گیت، بربطیں اور شیورین (شور بجانے والے ساز) کے ساتھ» with «گیت گاتے ہوئے، بربطوں اور نرسنگوں کے ساتھ». Remove the invented explanatory parenthesis.\",\n      \"translation_quote\": \"گیت، بربطیں اور شیورین (شور بجانے والے ساز) کے ساتھ\"\n    },\n    {\n      \"location\": \"html, paragraph 15, final clauses\",\n      \"severity\": \"major\",\n      \"source_quote\": \"then Jehoshaphat’s realm was quiet\",\n      \"suggested_fix\": \"Replace «پھر یہوشافاط کا سلسلہ پر سکون ہوگیا» with «پھر یہوشافاط کی سلطنت میں سکون ہوگیا».\",\n      \"translation_quote\": \"پھر یہوشافاط کا سلسلہ پر سکون ہوگیا\"\n    },\n    {\n      \"location\": \"html, paragraph 3\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"with my messy and fearful concoctions\",\n      \"suggested_fix\": \"Replace «ان اذیت ناک اور ڈرے ہوئے مکسچر سے» with «اپنے ان الجھے ہوئے، خوف سے بھرے خیالات سے».\",\n      \"translation_quote\": \"ان اذیت ناک اور ڈرے ہوئے مکسچر سے\"\n    },\n    {\n      \"location\": \"html, paragraph 4, Scripture quotation\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"O our God, wilt thou not judge them?\",\n      \"suggested_fix\": \"Replace «اے ہمارے خدا کیا تو انہیں فیصلہ نہیں کرے گا؟» with «اے ہمارے خدا، کیا تو اُن کا انصاف نہیں کرے گا؟».\",\n      \"translation_quote\": \"اے ہمارے خدا کیا تو انہیں فیصلہ نہیں کرے گا؟\"\n    },\n    {\n      \"location\": \"html, paragraph 10, opening question\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"Do you think any of them slept that night?\",\n      \"suggested_fix\": \"Replace «کیا تمہیں لگتا ہے کہ ان میں سے کسی نے اُس رات سُونا؟» with «کیا تمہیں لگتا ہے کہ ان میں سے کوئی اُس رات سویا ہوگا؟».\",\n      \"translation_quote\": \"کیا تمہیں لگتا ہے کہ ان میں سے کسی نے اُس رات سُونا؟\"\n    },\n    {\n      \"location\": \"html, paragraph 11, Scripture quotation\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"Jehoshaphat stood and said, …Believe in the LORD your God, so shall ye be established; believe his prophets\",\n      \"suggested_fix\": \"Change «یہوشافاط کھڑا ہو کر کہا» to «یہوشافاط نے کھڑے ہو کر کہا» and «اس کے نبوان» to «اس کے نبیوں».\",\n      \"translation_quote\": \"یہوشافاط کھڑا ہو کر کہا، …خداوند اپنے خدا پر ایمان لاؤ، تو تم قائم رہو گے؛ اس کے نبوان پر ایمان لاؤ\"\n    },\n    {\n      \"location\": \"html, paragraph 14\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"gathering the riches and spoils\",\n      \"suggested_fix\": \"Replace «خزائن اور لُوٹتی ہوئی چیزیں جمع کرتی رہی» with «دولت اور مالِ غنیمت جمع کرتی رہی».\",\n      \"translation_quote\": \"خزائن اور لُوٹتی ہوئی چیزیں جمع کرتی رہی\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": false,\n  \"score\": 83\n}",
+    "content_bytes": 5598,
+    "content_evidence_truncated": false,
+    "content_sha256": "446aa5f15547f5698214ac31764cda4e1fd764d77d48500e3a36df25b6c61c54",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1413,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 100,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6007,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6004,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7420
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}
