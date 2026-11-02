@@ -1,0 +1,18 @@
+{
+  "campaign": "auto-b2a68aa4e219ca91be1fa78adef4baf26572f1899946f975cbe8f991538abb93",
+  "created_at": "2026-11-02T16:31:19+00:00",
+  "custom_ids": [
+    "0419df81de33f1f858ec8b35e0893abb:correct"
+  ],
+  "id": "c100af94f8d848a99bfddf8d86ba7c4c",
+  "input_file_id": null,
+  "model": "gpt-6-luna",
+  "payload_sha256": "acfd86a7716b2d838849f1703bd9010e989990a6777e2daf5fcda56fcf7aac44",
+  "remote_id": null,
+  "reserved_usd": 0.005215,
+  "stage": "correct",
+  "status": "prepared",
+  "tasks": [
+    "0419df81de33f1f858ec8b35e0893abb"
+  ]
+}
