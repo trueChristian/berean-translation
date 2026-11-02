@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-02T19:52:15+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"html, абзац 2, цитата Луки 4:21\",\n      \"severity\": \"major\",\n      \"source_quote\": \"This day is this scripture fulfilled in your ears\",\n      \"suggested_fix\": \"Заменить цитату на: «…Сегодня исполнилось это Писание, которое вы слышали — Лука 4:21».\",\n      \"translation_quote\": \"В этот день исполнилось Писание сими устами вашими\"\n    },\n    {\n      \"location\": \"html, абзац о Марка 2\",\n      \"severity\": \"major\",\n      \"source_quote\": \"“Thy sins be forgiven thee.” Then He said, “Rise up and walk.”\",\n      \"suggested_fix\": \"Заменить две цитаты на: «Прощены тебе грехи твои». Затем сказал: «Встань и иди». Не добавлять отсутствующее в исходной цитате повеление взять постель.\",\n      \"translation_quote\": \"«Простятся тебе грехи твои». Затем сказал: «Встань, возьми постель свою и иди».\"\n    },\n    {\n      \"location\": \"html, blockquote, второй абзац\",\n      \"severity\": \"major\",\n      \"source_quote\": \"Give to him that asketh thee\",\n      \"suggested_fix\": \"Заменить на: «Просящему у тебя дай».\",\n      \"translation_quote\": \"Дающему просить у тебя дай\"\n    },\n    {\n      \"location\": \"html, blockquote, второй абзац, одежда\",\n      \"severity\": \"major\",\n      \"source_quote\": \"And if any man will sue thee at the law, and take away thy coat, let him have thy cloak also.\",\n      \"suggested_fix\": \"Заменить предложение на: «И если кто захочет судиться с тобой и забрать твою рубаху, отдай ему и плащ».\",\n      \"translation_quote\": \"И кто будет судить тебя и отнять у тебя рубаху, отдай ему и хитон\"\n    },\n    {\n      \"location\": \"html, первая и повторная цитаты Луки 4:18–19\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"to set at liberty them that are bruised, To preach the acceptable year of the Lord\",\n      \"suggested_fix\": \"В обеих цитатах заменить на: «отпустить измученных на свободу, возвещать год Господней милости».\",\n      \"translation_quote\": \"отпустить измученных свободу, благовествовать приемлемый год Господень\"\n    },\n    {\n      \"location\": \"html, два абзаца о Вартимее\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"a blind man, Bartimaeus ... They tried to silence him ... blindly rushed into the street ... Jesus’ response to this simple faith\",\n      \"suggested_fix\": \"Исправить имя на «Вартимей»; заменить «Пытались его умолкнуть» на «Его пытались заставить замолчать», «и, слепо маясь, бросился на улицу» на «и вслепую бросился на улицу», «На такой простой вере Иисус ответил» на «На эту простую веру Иисус ответил».\",\n      \"translation_quote\": \"слепой человек по имени Вартимеев ... Пытались его умолкнуть ... и, слепо маясь, бросился на улицу ... На такой простой вере Иисус ответил\"\n    },\n    {\n      \"location\": \"html, абзац о целостном действии Евангелия\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"Our Anabaptist heritage\",\n      \"suggested_fix\": \"Исправить согласование: «Наше анабаптистское наследие».\",\n      \"translation_quote\": \"Наш анабаптистский наследие\"\n    },\n    {\n      \"location\": \"html, цитата Евреям 4:1–2\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"lest, a promise being left us of entering into his rest ... <strong>did not profit them, not being mixed with faith </strong>\",\n      \"suggested_fix\": \"Заменить начало на «Итак, будем опасаться, чтобы, пока остаётся обещание войти в Его покой, кто-нибудь из вас не оказался не достигшим его»; восстановить выделение: «<strong>не принесло им пользы, не сочетавшись с верою </strong>у слышавших».\",\n      \"translation_quote\": \"дабы, оставшись обещание входить в покой Его ... не принесло им пользы, не сочетавшись с верою у слышавших\"\n    },\n    {\n      \"location\": \"html, абзац 3\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"Jesus came to provide a remedy for our brokenness. He came to repair the damage that sin has brought into humanity.\",\n      \"suggested_fix\": \"Заменить на: «Иисус пришёл, чтобы исцелить нашу внутреннюю надломленность. Он пришёл устранить ущерб, который грех причинил человечеству».\",\n      \"translation_quote\": \"Иисус пришёл, чтобы предоставить средство от нашего разрушения. Он пришёл восстановить ущерб, который грех внёс в человечество.\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": false,\n  \"score\": 87\n}",
+    "content_bytes": 5878,
+    "content_evidence_truncated": false,
+    "content_sha256": "13b54c905307910905f7a088308a98f3379df469b581d7893de3b9db8e77eca0",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1319,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 77,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9432,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9429,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10751
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}

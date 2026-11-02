@@ -1,0 +1,94 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "cb2d0765-53dc-4ca1-b634-eb2ed27444a2",
+    "response_id": "chatcmpl-EfpE4kt4hT0YIHuI7SS9jShkfihlI",
+    "usage": {
+      "completion_tokens": 1319,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 77,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9432,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9429,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10751
+    }
+  },
+  "received_at": "2026-11-02T19:52:15+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "html, абзац 2, цитата Луки 4:21",
+        "severity": "major",
+        "source_quote": "This day is this scripture fulfilled in your ears",
+        "suggested_fix": "Заменить цитату на: «…Сегодня исполнилось это Писание, которое вы слышали — Лука 4:21».",
+        "translation_quote": "В этот день исполнилось Писание сими устами вашими"
+      },
+      {
+        "location": "html, абзац о Марка 2",
+        "severity": "major",
+        "source_quote": "“Thy sins be forgiven thee.” Then He said, “Rise up and walk.”",
+        "suggested_fix": "Заменить две цитаты на: «Прощены тебе грехи твои». Затем сказал: «Встань и иди». Не добавлять отсутствующее в исходной цитате повеление взять постель.",
+        "translation_quote": "«Простятся тебе грехи твои». Затем сказал: «Встань, возьми постель свою и иди»."
+      },
+      {
+        "location": "html, blockquote, второй абзац",
+        "severity": "major",
+        "source_quote": "Give to him that asketh thee",
+        "suggested_fix": "Заменить на: «Просящему у тебя дай».",
+        "translation_quote": "Дающему просить у тебя дай"
+      },
+      {
+        "location": "html, blockquote, второй абзац, одежда",
+        "severity": "major",
+        "source_quote": "And if any man will sue thee at the law, and take away thy coat, let him have thy cloak also.",
+        "suggested_fix": "Заменить предложение на: «И если кто захочет судиться с тобой и забрать твою рубаху, отдай ему и плащ».",
+        "translation_quote": "И кто будет судить тебя и отнять у тебя рубаху, отдай ему и хитон"
+      },
+      {
+        "location": "html, первая и повторная цитаты Луки 4:18–19",
+        "severity": "minor",
+        "source_quote": "to set at liberty them that are bruised, To preach the acceptable year of the Lord",
+        "suggested_fix": "В обеих цитатах заменить на: «отпустить измученных на свободу, возвещать год Господней милости».",
+        "translation_quote": "отпустить измученных свободу, благовествовать приемлемый год Господень"
+      },
+      {
+        "location": "html, два абзаца о Вартимее",
+        "severity": "minor",
+        "source_quote": "a blind man, Bartimaeus ... They tried to silence him ... blindly rushed into the street ... Jesus’ response to this simple faith",
+        "suggested_fix": "Исправить имя на «Вартимей»; заменить «Пытались его умолкнуть» на «Его пытались заставить замолчать», «и, слепо маясь, бросился на улицу» на «и вслепую бросился на улицу», «На такой простой вере Иисус ответил» на «На эту простую веру Иисус ответил».",
+        "translation_quote": "слепой человек по имени Вартимеев ... Пытались его умолкнуть ... и, слепо маясь, бросился на улицу ... На такой простой вере Иисус ответил"
+      },
+      {
+        "location": "html, абзац о целостном действии Евангелия",
+        "severity": "minor",
+        "source_quote": "Our Anabaptist heritage",
+        "suggested_fix": "Исправить согласование: «Наше анабаптистское наследие».",
+        "translation_quote": "Наш анабаптистский наследие"
+      },
+      {
+        "location": "html, цитата Евреям 4:1–2",
+        "severity": "minor",
+        "source_quote": "lest, a promise being left us of entering into his rest ... <strong>did not profit them, not being mixed with faith </strong>",
+        "suggested_fix": "Заменить начало на «Итак, будем опасаться, чтобы, пока остаётся обещание войти в Его покой, кто-нибудь из вас не оказался не достигшим его»; восстановить выделение: «<strong>не принесло им пользы, не сочетавшись с верою </strong>у слышавших».",
+        "translation_quote": "дабы, оставшись обещание входить в покой Его ... не принесло им пользы, не сочетавшись с верою у слышавших"
+      },
+      {
+        "location": "html, абзац 3",
+        "severity": "minor",
+        "source_quote": "Jesus came to provide a remedy for our brokenness. He came to repair the damage that sin has brought into humanity.",
+        "suggested_fix": "Заменить на: «Иисус пришёл, чтобы исцелить нашу внутреннюю надломленность. Он пришёл устранить ущерб, который грех причинил человечеству».",
+        "translation_quote": "Иисус пришёл, чтобы предоставить средство от нашего разрушения. Он пришёл восстановить ущерб, который грех внёс в человечество."
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 87
+  }
+}
