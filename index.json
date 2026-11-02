@@ -15044,6 +15044,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/cmn/articles/269bd2b1-418e-4d93-bd15-e7937c1adb85.html",
+      "html_sha256": "e45b3e92c769a832eb3a4219b6636d1e8d6484cc12e43b5b03a232a5c3b3fa07",
+      "human_reviewed": false,
+      "id": "269bd2b1-418e-4d93-bd15-e7937c1adb85",
+      "images": [
+        {
+          "alt": "一扇古老的木门向明亮的光中开启",
+          "public_path": "/images/articles/269bd2b1-418e-4d93-bd15-e7937c1adb85-1.jpg"
+        }
+      ],
+      "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
+      "language": "cmn",
+      "language_tag": "zh-Hans",
+      "metadata": "content/cmn/articles/269bd2b1-418e-4d93-bd15-e7937c1adb85.json",
+      "metadata_sha256": "175c8bfaa86874fbb66c5f419bfdf6a95ca83a61f3b193f53846544f54a373f9",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "得胜的基督徒生活",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "fc44b039aea712201d6120cdd0a9cc720777f5be0958b210ab2feef1a8e2d639",
+      "status": "ready",
+      "subtitle": "门徒训练系列",
+      "title": "门徒训练——医治之路",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/cmn/articles/28cd0392-f481-4e7c-9674-fbeb3c49fdf1.html",
       "html_sha256": "463c366d06d5d1a3e7ceafb388b814817384e21fbc96433953c531bd2fbcc907",
       "human_reviewed": false,
