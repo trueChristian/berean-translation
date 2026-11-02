@@ -7,9 +7,32 @@
       "event": "automatic_requested",
       "previous_task": null,
       "task": "f7ef760614698b45400ecd4f8f481974"
+    },
+    {
+      "at": "2026-11-02T09:39:22+00:00",
+      "event": "complete",
+      "reason": null,
+      "task": "f7ef760614698b45400ecd4f8f481974"
     }
   ],
   "language": "cmn",
   "latest_task": "f7ef760614698b45400ecd4f8f481974",
-  "published": null
+  "published": {
+    "html_path": "content/cmn/articles/b72ea42a-1a86-4c21-a399-ebd3013c257b.html",
+    "html_sha256": "8bf3450294ddbc11dd68537ec4c541504bdbbe5b636ff5c1fbf1c8f381c258c4",
+    "human_review": null,
+    "human_reviewed": false,
+    "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
+    "metadata_path": "content/cmn/articles/b72ea42a-1a86-4c21-a399-ebd3013c257b.json",
+    "metadata_sha256": "a0cfb62a673d7153f293dd4437a6b58aedbebc15194fcf7c45ebd26d733973c9",
+    "model": "gpt-6-luna",
+    "notice_html": "<aside class=\"translation-notice\" data-translation-notice=\"ai\" lang=\"zh-Hans\" dir=\"ltr\" role=\"note\">\n  <p>本文由 OpenAI（模型：gpt-6-luna）通过人工智能翻译，尚未经人工审核。英文原文为权威版本。如对含义有疑问，请参阅英文原文。 <a href=\"/en/articles/b72ea42a-1a86-4c21-a399-ebd3013c257b/\" data-source-article-id=\"b72ea42a-1a86-4c21-a399-ebd3013c257b\" hreflang=\"en\">英文原文</a></p>\n</aside>",
+    "published_at": "2026-11-02T09:39:22+00:00",
+    "quality_score": 98,
+    "review_model": "gpt-6-luna",
+    "source_revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
+    "source_snapshot": "state/sources/87f95a553eb83f75422bde15eb3d35effd9dfaf6d17787923fba7393c54d1833.json",
+    "task": "f7ef760614698b45400ecd4f8f481974",
+    "translation_key": "86918e2f92ec7ff09eda36ffc30c12ee294e7b521bd1120caa6adee2c38e97b0"
+  }
 }

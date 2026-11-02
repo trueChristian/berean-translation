@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "正文第2段",
+      "severity": "minor",
+      "source_quote": "Not a single spark of electric life do you transmit",
+      "suggested_fix": "你传不出一丝电的火花；",
+      "translation_quote": "你传不出一丝电流的生命；"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

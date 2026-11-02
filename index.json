@@ -17756,6 +17756,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/cmn/articles/b72ea42a-1a86-4c21-a399-ebd3013c257b.html",
+      "html_sha256": "8bf3450294ddbc11dd68537ec4c541504bdbbe5b636ff5c1fbf1c8f381c258c4",
+      "human_reviewed": false,
+      "id": "b72ea42a-1a86-4c21-a399-ebd3013c257b",
+      "images": [
+        {
+          "alt": "电报键及其电触点",
+          "public_path": "/images/articles/b72ea42a-1a86-4c21-a399-ebd3013c257b-1.jpg"
+        }
+      ],
+      "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
+      "language": "cmn",
+      "language_tag": "zh-Hans",
+      "metadata": "content/cmn/articles/b72ea42a-1a86-4c21-a399-ebd3013c257b.json",
+      "metadata_sha256": "a0cfb62a673d7153f293dd4437a6b58aedbebc15194fcf7c45ebd26d733973c9",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
+      "source_translation_key": "86918e2f92ec7ff09eda36ffc30c12ee294e7b521bd1120caa6adee2c38e97b0",
+      "status": "ready",
+      "subtitle": null,
+      "title": "服事的应许",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/cmn/articles/b8181ffd-5861-420e-b92a-573b7e66fc3e.html",
       "html_sha256": "41aef52e081c485511cc9403b5bd772fa142fe67f164a966b2860cc28b2b6334",
       "human_reviewed": false,

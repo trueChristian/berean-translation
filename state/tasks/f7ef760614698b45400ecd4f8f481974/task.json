@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "345ca6b7e2784f42888671dafa5b1872",
   "campaign": "auto-1b691afb7633330d2b1483ca9810744c29a0de584614a77b734dd481ac6764b4",
   "created_at": "2026-11-02T05:53:56+00:00",
   "events": [
@@ -48,18 +47,39 @@
         },
         "total_tokens": 4245
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 511,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 422,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3190,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 2087,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 3701
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "HTML/metadata contract",
-      "severity": "critical",
-      "source_quote": "",
-      "suggested_fix": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[7]: source /article[1]/p[1]/em[2] ('start', 'em', ()); translation /article[1]/p[1] ('end', 'p')",
-      "translation_quote": ""
+      "location": "正文第2段",
+      "severity": "minor",
+      "source_quote": "Not a single spark of electric life do you transmit",
+      "suggested_fix": "你传不出一丝电的火花；",
+      "translation_quote": "你传不出一丝电流的生命；"
     }
   ],
+  "finished_at": "2026-11-02T09:39:22+00:00",
   "id": "f7ef760614698b45400ecd4f8f481974",
   "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
   "language": "cmn",
@@ -148,9 +168,11 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/87f95a553eb83f75422bde15eb3d35effd9dfaf6d17787923fba7393c54d1833.json",
   "stage": "review2",
   "stage_budget": {
@@ -166,7 +188,7 @@
     "total_reserved_usd": 0.0867,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "86918e2f92ec7ff09eda36ffc30c12ee294e7b521bd1120caa6adee2c38e97b0",
   "translation_model_actual": "gpt-6-luna"

@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "8381d685-87ea-43e8-8d39-7fa7cbca8455",
+    "response_id": "chatcmpl-EfgGNBIPRWr34ifAHxbFjU6GwTCD4",
+    "usage": {
+      "completion_tokens": 511,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 422,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3190,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2087,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 3701
+    }
+  },
+  "received_at": "2026-11-02T09:39:22+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "正文第2段",
+        "severity": "minor",
+        "source_quote": "Not a single spark of electric life do you transmit",
+        "suggested_fix": "你传不出一丝电的火花；",
+        "translation_quote": "你传不出一丝电流的生命；"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}
