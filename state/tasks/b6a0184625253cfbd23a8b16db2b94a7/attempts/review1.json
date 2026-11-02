@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-02T02:21:51+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Amy Carmichael quotation, paragraph beginning “तब मैंने एक तरह की हताशा में...”\",\"severity\":\"minor\",\"source_quote\":\"“None of them that trust in Me shall be desolate.”\",\"suggested_fix\":\"“जो मुझ पर भरोसा करते हैं, उनमें से कोई भी बेसहारा न छोड़ा जाएगा।”\",\"translation_quote\":\"“उनमें से कोई भी जो मेरा भरोसा करते हैं, निराश न होंगे।”\"},{\"location\":\"First image alt text\",\"severity\":\"minor\",\"source_quote\":\"A young man with a guitar serenades a woman at an open window\",\"suggested_fix\":\"एक युवक खुले झरोखे पर खड़ी स्त्री के लिए गिटार बजाकर गीत गा रहा है\",\"translation_quote\":\"एक युवक खुले झरोखे पर खड़ी स्त्री के लिए गिटार बजाकर प्रेमगीत गा रहा है\"}],\"findings_complete\":true,\"passed\":true,\"score\":97}",
+    "content_bytes": 1185,
+    "content_evidence_truncated": false,
+    "content_sha256": "7d345b3f0a353359acd179bb8efa24e807349aa229ba8b9e95be8052406007c7",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1241,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1024,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 13103,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 12000,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 14344
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Amy Carmichael quotation, paragraph beginning “तब मैंने एक तरह की हताशा में...”",
+      "severity": "minor",
+      "source_quote": "“None of them that trust in Me shall be desolate.”",
+      "suggested_fix": "“जो मुझ पर भरोसा करते हैं, उनमें से कोई भी बेसहारा न छोड़ा जाएगा।”",
+      "translation_quote": "“उनमें से कोई भी जो मेरा भरोसा करते हैं, निराश न होंगे।”"
+    },
+    {
+      "location": "First image alt text",
+      "severity": "minor",
+      "source_quote": "A young man with a guitar serenades a woman at an open window",
+      "suggested_fix": "एक युवक खुले झरोखे पर खड़ी स्त्री के लिए गिटार बजाकर गीत गा रहा है",
+      "translation_quote": "एक युवक खुले झरोखे पर खड़ी स्त्री के लिए गिटार बजाकर प्रेमगीत गा रहा है"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

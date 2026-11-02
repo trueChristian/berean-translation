@@ -40852,6 +40852,42 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/hin/articles/e08f3c82-7473-48d6-a445-1e8bf9f01d6f.html",
+      "html_sha256": "917121322e6645d19f11d2520ea626adcf689ce115121d3040e909c99432a04a",
+      "human_reviewed": false,
+      "id": "e08f3c82-7473-48d6-a445-1e8bf9f01d6f",
+      "images": [
+        {
+          "alt": "एक युवक खुले झरोखे पर खड़ी स्त्री के लिए गिटार बजाकर प्रेमगीत गा रहा है",
+          "public_path": "/images/articles/e08f3c82-7473-48d6-a445-1e8bf9f01d6f-1.jpg"
+        },
+        {
+          "alt": "टोपी पहने दो महिलाएँ पक्षियों के पास एक बेंच पर बैठी हैं",
+          "public_path": "/images/articles/e08f3c82-7473-48d6-a445-1e8bf9f01d6f-2.jpg"
+        },
+        {
+          "alt": "एक स्त्री पथरीले रास्ते पर सिर पर बर्तन उठाए जा रही है",
+          "public_path": "/images/articles/e08f3c82-7473-48d6-a445-1e8bf9f01d6f-3.jpg"
+        }
+      ],
+      "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
+      "language": "hin",
+      "language_tag": "hi",
+      "metadata": "content/hin/articles/e08f3c82-7473-48d6-a445-1e8bf9f01d6f.json",
+      "metadata_sha256": "1881cdc5c5e2c9d981fc025b6932f80354ea72c97e7d776e8ec7ef46c60531ac",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
+      "source_translation_key": "70020afc8ca6b4f0091f5d0e53860b679b8b1c300288c0340fe62643ff38207a",
+      "status": "ready",
+      "subtitle": "युवतियों के लिए",
+      "title": "भावनात्मक स्वतंत्रता",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/hin/articles/e7e3ec8b-76a7-4b0b-9837-12e668dd9abd.html",
       "html_sha256": "723006a8f0ad22783f55cc8966b9aa37639e273eaa6aee4e44d1f79134cd4e9f",
       "human_reviewed": false,
