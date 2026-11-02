@@ -1,0 +1,70 @@
+{
+  "findings": [
+    {
+      "location": "html: الفقرات 1، 2، 4–9، 11، 12، جميع المقاطع الإنجليزية",
+      "severity": "major",
+      "source_quote": "“This is not comfortable, God, and I’m afraid.”; “Jehoshaphat laid his fear aside … verse 3”; “And [he] said, O LORD God of our fathers … verse 6”; “O our God, wilt thou not judge them? … verse 12”; “Yes, God, I am nothing …”; “And all Judah stood before the LORD … verse 13”; “…Be not afraid nor dismayed … verse 15”; “Tomorrow go ye down against them … verses 16-17”; “And Jehoshaphat bowed his head … verse 18”; “And they rose early in the morning … verses 21-20”; “And when they began to sing and to praise … verses 22-23.”",
+      "suggested_fix": "ترجم المقاطع الإنجليزية كاملة، مع إبقاء الوسوم وبقية البنية، على النحو التالي بحسب ترتيبها: (1) «هذا ليس مريحًا يا الله، وأنا خائفة.» (2) «طرح يهوشافاط خوفه جانبًا، وعزم على طلب الرب، ونادى بصوم في كل أرض يهوذا – الآية 3.» (3) «وقال: يا رب إله آبائنا، ألست أنت الله في السماء؟ وأنت تحكم على جميع ممالك الأمم، وفي يدك قوة وجبروت، فلا يستطيع أحد مقاومتك – الآية 6.» (4) «يا إلهنا، أما تقضي عليهم؟ فليس لنا قوة أمام هذا الجمع العظيم الآتي علينا، ولا نعرف ماذا نفعل، ولكن أعيننا نحوك – الآية 12.» (5) «نعم يا الله، أنا لا شيء في مجمل الأمور. ليست لي قوة، حتى لأكون العاملة المثمرة في ملكوتك التي حلمت دائمًا بأن أكونها. لا أستطيع خوض هذه المعركة.» (6) «ووقف كل يهوذا أمام الرب، مع صغارهم ونسائهم وأولادهم – الآية 13.» (7) «…لا تخافوا ولا ترتاعوا بسبب هذا الجمع العظيم، لأن المعركة ليست لكم بل لله – الآية 15.» (8) «غدًا انزلوا عليهم … لن تحتاجوا إلى القتال في هذه المعركة: خذوا مواقعكم، واثبتوا، وانظروا خلاص الرب … لا تخافوا ولا ترتاعوا؛ غدًا اخرجوا عليهم، لأن الرب سيكون معكم – الآيتان 16-17.» (9) «فانحنى يهوشافاط بوجهه إلى الأرض، وسقط كل يهوذا وسكان أورشليم أمام الرب ساجدين للرب – الآية 18.» (10) «وبكروا صباحًا … وعند خروجهم وقف يهوشافاط وقال: … آمنوا بالرب إلهكم فتثبتوا؛ وآمنوا بأنبيائه فتفلحوا. و… أقام مغنين للرب يسبحون جمال القداسة، وهم يخرجون أمام الجيش… – الآيتان 21-20.» (11) «وعندما ابتدأوا بالغناء والتسبيح، أقام الرب… [كمينًا] على بني عمون [وموآب] … الذين أتوا على يهوذا، فانكسروا … وساعد كل واحد على إهلاك الآخر – الآيتان 22-23.» أبقِ ترتيب أرقام المراجع كما ورد في المصدر.",
+      "translation_quote": "بقيت المقاطع كاملة بالإنجليزية، ومنها: “This is not comfortable, God, and I’m afraid.”؛ “Jehoshaphat laid his fear aside, set himself to seek the Lord, and proclaimed a fast throughout all the land of Judah – verse 3.”؛ “O our God, wilt thou not judge them?”؛ “Yes, God, I am nothing in the grand scheme of things.”؛ “And all Judah stood before the LORD”؛ “…Be not afraid nor dismayed”؛ “Tomorrow go ye down against them”؛ “And Jehoshaphat bowed his head”؛ “And they rose early in the morning”؛ “And when they began to sing and to praise”."
+    },
+    {
+      "location": "html: الفقرة 6، الجملة الأخيرة",
+      "severity": "major",
+      "source_quote": "God gave them the words of help and hope that they were desperate for.",
+      "suggested_fix": "استبدل «التي كانوا يائسين منها» بـ«التي كانوا في أمسّ الحاجة إليها».",
+      "translation_quote": "وأعطاهم الله كلمات العون والأمل التي كانوا يائسين منها."
+    },
+    {
+      "location": "html: الفقرة 15",
+      "severity": "major",
+      "source_quote": "with singing, and harps, and trumpets",
+      "suggested_fix": "استبدل «بالغناء، والعتائق، والابواق» بـ«بالغناء والقيثارات والأبواق».",
+      "translation_quote": "بالغناء، والعتائق، والابواق"
+    },
+    {
+      "location": "html: الفقرة 15، الجملة قبل الأخيرة",
+      "severity": "major",
+      "source_quote": "then Jehoshaphat’s realm was quiet.",
+      "suggested_fix": "استبدل «ثم خبت مملكة جوشافات» بـ«ثم ساد الهدوء مملكة يهوشافاط».",
+      "translation_quote": "ثم خبت مملكة جوشافات."
+    },
+    {
+      "location": "html: الفقرة 9",
+      "severity": "minor",
+      "source_quote": "If I obey and trust instead of worry and sit still instead of jumping into the middle of things",
+      "suggested_fix": "وحّد ضمائر المتكلم: «إذا أطعت ووثقت بدلًا من أن أقلق، وجلست ساكنة بدلًا من أن أقفز إلى وسط الأمور».",
+      "translation_quote": "إذا أطعت وثقت بدل أن تقلق وجلست ساكنًا بدل أن تقفز إلى وسط الأمور"
+    },
+    {
+      "location": "html: الفقرة 1",
+      "severity": "minor",
+      "source_quote": "like being misunderstood and misused",
+      "suggested_fix": "استبدل «مثل أن يُساء فهمي ويُستغل» بـ«مثل أن يُساء فهمي وأُستغلّ».",
+      "translation_quote": "مثل أن يُساء فهمي ويُستغل"
+    },
+    {
+      "location": "html: الفقرتان 10 و11 و13",
+      "severity": "minor",
+      "source_quote": "on its way to destroy them; Morning dawned; their enemies had destroyed each other",
+      "suggested_fix": "صحّح العبارات على الترتيب إلى «في طريقه لإفنائهم»، و«طلع الصباح»، و«أن أعداءهم قد أهلك بعضهم بعضًا».",
+      "translation_quote": "في طريقه ليفنوا بهم؛ أشرقت الصباح؛ أن أعداءهم قد هلك بعضهم بعضًا"
+    },
+    {
+      "location": "html: اسم الملك في الفقرات 1–4 و6 و8 و11",
+      "severity": "minor",
+      "source_quote": "Jehoshaphat",
+      "suggested_fix": "استخدم الاسم الكتابي العربي المتعارف عليه «يهوشافاط» بدل «جوشافات» في جميع هذه المواضع.",
+      "translation_quote": "جوشافات"
+    },
+    {
+      "location": "html: figure/img/@alt",
+      "severity": "major",
+      "source_quote": "A glowing lantern on a snowy path at night",
+      "suggested_fix": "استبدل قيمة alt فقط بـ«فانوس مضيء على درب مغطى بالثلج ليلًا»، مع الحفاظ على بقية خصائص الصورة.",
+      "translation_quote": "A glowing lantern on a snowy path at night"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
