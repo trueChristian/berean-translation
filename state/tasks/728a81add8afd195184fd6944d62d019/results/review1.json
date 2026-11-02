@@ -1,0 +1,87 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "e4a57dba-9ea1-42fe-9d9a-a84be91c77fe",
+    "response_id": "chatcmpl-EffOkqrZsv298bVR1p2Yn1KSetsFI",
+    "usage": {
+      "completion_tokens": 1468,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 60,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 11681,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 10578,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 13149
+    }
+  },
+  "received_at": "2026-11-02T06:08:11+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "html, inledande styckets bibelcitat",
+        "severity": "major",
+        "source_quote": "Wherefore he saith",
+        "suggested_fix": "Ersätt ”Varför säger han” med ”Därför säger han”.",
+        "translation_quote": "Varför säger han"
+      },
+      {
+        "location": "html, samtliga engelskspråkiga bibelhänvisningar",
+        "severity": "major",
+        "source_quote": "Ephesians 4:8; Ephesians 4:11; 1 Corinthians 12:11 (twice); Hebrews 2:4; 1 Timothy 4:14 (twice); 1 Corinthians 12:24-25 (twice); James 3:13-18; Ephesians 4:11-12; 1 Corinthians 14:22 (twice); 2 Corinthians 12:7-12",
+        "suggested_fix": "Byt boknamnen på samtliga angivna ställen: Ephesians → Efesierbrevet; 1 Corinthians → 1 Korintierbrevet; Hebrews → Hebreerbrevet; 1 Timothy → 1 Timoteusbrevet; James → Jakobsbrevet; 2 Corinthians → 2 Korintierbrevet. Bevara alla kapitel- och versnummer samt hänvisningarnas placering.",
+        "translation_quote": "Ephesians 4:8; Ephesians 4:11; 1 Corinthians 12:11 (två gånger); Hebrews 2:4; 1 Timothy 4:14 (två gånger); 1 Corinthians 12:24-25 (två gånger); James 3:13-18; Ephesians 4:11-12; 1 Corinthians 14:22 (två gånger); 2 Corinthians 12:7-12"
+      },
+      {
+        "location": "html, stycket som börjar ”Gud kan också ge”, bibelcitatet",
+        "severity": "major",
+        "source_quote": "having given more abundant honour to that part which lacked",
+        "suggested_fix": "Ersätt med ”och skänkt rikare ära åt den del som saknade ära”. Källan avser en befintlig del med en brist, inte en del som fattades.",
+        "translation_quote": "och skänkt rikare ära åt den del som fattades"
+      },
+      {
+        "location": "html, citatet ur Jakobsbrevet 3:13–18",
+        "severity": "major",
+        "source_quote": "But if ye have bitter envying and strife in your hearts, glory not, and lie not against the truth.",
+        "suggested_fix": "Ersätt meningen med ”Men om ni har <strong>bitter avund och strid i era hjärtan</strong>, så skryt inte och <strong>ljug inte mot sanningen</strong>.” Bevara övriga taggar. Uppmaningarna får inte återges som påståenden om vad läsarna inte gör.",
+        "translation_quote": "Men har ni <strong>bittrt avund och strid i era hjärtan</strong>, så prisar ni er inte, och ni <strong>ljuger inte mot sanningen</strong>."
+      },
+      {
+        "location": "html, stycket som börjar ”Nyligen”",
+        "severity": "major",
+        "source_quote": "the gibberish that comprises most of what is called tongues today",
+        "suggested_fix": "Ersätt ”det svammel som utgör det som idag kallas tungotal” med ”det svammel som utgör det mesta av det som idag kallas tungotal”.",
+        "translation_quote": "det svammel som utgör det som idag kallas tungotal"
+      },
+      {
+        "location": "html, fjärde stycket, beskrivningen av församlingstraditioner",
+        "severity": "minor",
+        "source_quote": "some of us plain churches",
+        "suggested_fix": "Ersätt ”vissa av våra enkla kyrkor” med ”vissa av oss församlingar som följer en tradition av enkel livsföring” för att tydliggöra den religiösa innebörden av ”plain”.",
+        "translation_quote": "vissa av våra enkla kyrkor"
+      },
+      {
+        "location": "html, rubriken om identitet; styckena om sökande, ledaravsättning, ledarproblem och det första skälet",
+        "severity": "minor",
+        "source_quote": "The Christian’s Identity; our “seeking spiritual gifts”; little to no value; the easy way out; outside overseers; the local brotherhood; In Ephesians we read",
+        "suggested_fix": "Rätta respektive uttryck till ”den kristnes identitet”, ”vårt sökande efter andliga gåvor”, ”litet eller inget värde”, ”den enkla utvägen”, ”utomstående tillsyningsmän”, ”den lokala brödragemenskapen” och ”I Efesierbrevet läser vi”.",
+        "translation_quote": "kristens identitet; vår \"sökande efter andliga gåvor\"; liten eller ingen värde; det enkla utvägen; utomstående överinseende; den lokala broderskapen; I Efesierläser vi"
+      },
+      {
+        "location": "html, stycket om kvinnan i Kanada",
+        "severity": "minor",
+        "source_quote": "the most beautiful French she had ever heard; Clearly a miracle took place; those working on the tower of Babel; an English-speaking preacher",
+        "suggested_fix": "Rätta respektive uttryck till ”den vackraste franska hon någonsin hört”, ”Det är tydligt att ett under ägde rum”, ”dem som byggde Babels torn” och ”en engelsktalande predikant”.",
+        "translation_quote": "det mest vackra franska hon någonsin hört; Klart att ett under ägt rum; dem som bygde Babels torn; en engelsktalande predika"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 84
+  }
+}
