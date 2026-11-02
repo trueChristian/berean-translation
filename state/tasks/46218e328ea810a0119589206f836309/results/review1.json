@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "9ebf95bd-9695-4bb8-bdb9-e0d16d06a881",
+    "response_id": "chatcmpl-EffNpYyL779w4w8hcjiWn3xLrFxzl",
+    "usage": {
+      "completion_tokens": 981,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 694,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 12023,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 10920,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 13004
+    }
+  },
+  "received_at": "2026-11-02T06:07:47+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "فقرة «نقرأ في سفر التكوين...»",
+        "severity": "major",
+        "source_quote": "“He is preparing the perfect choice of a life partner for us, as He did for Adam.”",
+        "suggested_fix": "استبدلي «إنه يهيئ لنا شريكة الحياة المثالية، كما فعل لآدم» بـ«إنه يهيئ لنا شريك الحياة المثالي، كما فعل لآدم».",
+        "translation_quote": "«إنه يهيئ لنا شريكة الحياة المثالية، كما فعل لآدم»"
+      },
+      {
+        "location": "اقتباس إيمي كارمايكل، الفقرة التي تبدأ «ثم التفتُّ إلى إلهي...»",
+        "severity": "major",
+        "source_quote": "“None of them that trust in Me shall be desolate.” (Psalm 34:22)",
+        "suggested_fix": "استبدلي «لن يخيب كل من يتكل عليّ» بعبارة تنقل معنى أن من يتكل على الله لن يُترك أو يُخذل، مثل «كل من يتكل عليّ لن يُترك وحيدًا».",
+        "translation_quote": "«لن يخيب كل من يتكل عليّ» (مزمور 34:22)"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 91
+  }
+}

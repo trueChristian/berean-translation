@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "فقرة «نقرأ في سفر التكوين...»",
+      "severity": "major",
+      "source_quote": "“He is preparing the perfect choice of a life partner for us, as He did for Adam.”",
+      "suggested_fix": "استبدلي «إنه يهيئ لنا شريكة الحياة المثالية، كما فعل لآدم» بـ«إنه يهيئ لنا شريك الحياة المثالي، كما فعل لآدم».",
+      "translation_quote": "«إنه يهيئ لنا شريكة الحياة المثالية، كما فعل لآدم»"
+    },
+    {
+      "location": "اقتباس إيمي كارمايكل، الفقرة التي تبدأ «ثم التفتُّ إلى إلهي...»",
+      "severity": "major",
+      "source_quote": "“None of them that trust in Me shall be desolate.” (Psalm 34:22)",
+      "suggested_fix": "استبدلي «لن يخيب كل من يتكل عليّ» بعبارة تنقل معنى أن من يتكل على الله لن يُترك أو يُخذل، مثل «كل من يتكل عليّ لن يُترك وحيدًا».",
+      "translation_quote": "«لن يخيب كل من يتكل عليّ» (مزمور 34:22)"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
