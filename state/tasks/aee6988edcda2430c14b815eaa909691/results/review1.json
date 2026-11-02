@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "23a4cc61-9902-4183-ad2a-a896858d93fe",
+    "response_id": "chatcmpl-EfrNrROOm992x3Fw4um3lz4ZaBuDt",
+    "usage": {
+      "completion_tokens": 953,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 795,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 12283,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 12280,
+        "cached_tokens": 0
+      },
+      "total_tokens": 13236
+    }
+  },
+  "received_at": "2026-11-02T19:52:18+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragrafo che inizia «Nel libro della Genesi»",
+        "severity": "minor",
+        "source_quote": "God, the eternal matchmaker",
+        "suggested_fix": "Dio, l’eterno artefice di unioni",
+        "translation_quote": "Dio, il mediatore eterno di matrimoni"
+      },
+      {
+        "location": "Citazione di Amy Carmichael, terzo paragrafo",
+        "severity": "minor",
+        "source_quote": "trust Him to take care of you",
+        "suggested_fix": "confida in Lui, perché si prenda cura di te",
+        "translation_quote": "confidagli la tua cura"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}

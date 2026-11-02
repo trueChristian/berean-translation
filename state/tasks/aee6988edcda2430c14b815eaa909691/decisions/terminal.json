@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Paragrafo che inizia «Nel libro della Genesi»",
+      "severity": "minor",
+      "source_quote": "God, the eternal matchmaker",
+      "suggested_fix": "Dio, l’eterno artefice di unioni",
+      "translation_quote": "Dio, il mediatore eterno di matrimoni"
+    },
+    {
+      "location": "Citazione di Amy Carmichael, terzo paragrafo",
+      "severity": "minor",
+      "source_quote": "trust Him to take care of you",
+      "suggested_fix": "confida in Lui, perché si prenda cura di te",
+      "translation_quote": "confidagli la tua cura"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}
