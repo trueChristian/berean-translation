@@ -27267,6 +27267,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ell/articles/e8bdb12c-2e8e-4f55-9052-07bec6e103a1.html",
+      "html_sha256": "46bd30494eb0516ff8a61ef2057f5358c052d7348507b267da71cbaebb71b9f4",
+      "human_reviewed": false,
+      "id": "e8bdb12c-2e8e-4f55-9052-07bec6e103a1",
+      "images": [
+        {
+          "alt": "Ένα ομιχλώδες χειμερινό δάσος που αντικατοπτρίζεται σε μια λίμνη",
+          "public_path": "/images/articles/e8bdb12c-2e8e-4f55-9052-07bec6e103a1-1.png"
+        }
+      ],
+      "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
+      "language": "ell",
+      "language_tag": "el",
+      "metadata": "content/ell/articles/e8bdb12c-2e8e-4f55-9052-07bec6e103a1.json",
+      "metadata_sha256": "8de20b8e4c43b12a6ce2642ba309c445fbe631840e17dba5810e37db3364951a",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "Η ΕΚΚΛΗΣΙΑ ΤΗΣ ΚΑΙΝΗΣ ΔΙΑΘΗΚΗΣ",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "1c1dd57f73c720271265483775e7d93acfbda9f85eeefb95d0c905a5b442adfd",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Πνευματικά Χαρίσματα",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ell/articles/e9621e7b-df8d-4497-998c-b98af23486b7.html",
       "html_sha256": "90ed261fac5844c962513596ef1379107b55f00f3fbc84a13afc2475fa11d8fa",
       "human_reviewed": false,
