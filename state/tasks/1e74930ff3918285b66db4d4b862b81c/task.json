@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "d9b44d93d2b94686aeb8ddf65466b1b0",
   "campaign": "auto-9c1603e0e73d53962da9cf5678aaca23819152c44954d425b19bb1b389e65110",
   "created_at": "2026-11-02T06:10:31+00:00",
   "events": [
@@ -28,10 +27,39 @@
         },
         "total_tokens": 2872
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 785,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 673,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3099,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 1996,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 3884
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "Article, second paragraph",
+      "severity": "minor",
+      "source_quote": "“sounding brass and clattering platinum”",
+      "suggested_fix": "Use «bronce que resuena y platino que repiquetea» to preserve the source’s brass image.",
+      "translation_quote": "«címbalo que resuena y platino que repiquetea»"
+    }
+  ],
+  "finished_at": "2026-11-02T15:41:32+00:00",
   "id": "1e74930ff3918285b66db4d4b862b81c",
   "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
   "language": "spa",
@@ -120,9 +148,11 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/87f95a553eb83f75422bde15eb3d35effd9dfaf6d17787923fba7393c54d1833.json",
   "stage": "review1",
   "stage_budget": {
@@ -138,7 +168,7 @@
     "total_reserved_usd": 0.086699,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "86918e2f92ec7ff09eda36ffc30c12ee294e7b521bd1120caa6adee2c38e97b0",
   "translation_model_actual": "gpt-6-luna"

@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-02T15:41:32+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Article, second paragraph\",\"severity\":\"minor\",\"source_quote\":\"“sounding brass and clattering platinum”\",\"suggested_fix\":\"Use «bronce que resuena y platino que repiquetea» to preserve the source’s brass image.\",\"translation_quote\":\"«címbalo que resuena y platino que repiquetea»\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 368,
+    "content_evidence_truncated": false,
+    "content_sha256": "bacfeab935018aa904c3a938dba10b23289c3fe455c54bf14305bac5d7fa8be7",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 785,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 673,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3099,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1996,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 3884
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

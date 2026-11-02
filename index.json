@@ -81841,6 +81841,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/spa/articles/b72ea42a-1a86-4c21-a399-ebd3013c257b.html",
+      "html_sha256": "a1eae18e2bb286f08623fc05acccad9ec06a8af4b0d2fbe39fb1f499ca59b16f",
+      "human_reviewed": false,
+      "id": "b72ea42a-1a86-4c21-a399-ebd3013c257b",
+      "images": [
+        {
+          "alt": "Una llave telegráfica y sus contactos eléctricos",
+          "public_path": "/images/articles/b72ea42a-1a86-4c21-a399-ebd3013c257b-1.jpg"
+        }
+      ],
+      "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
+      "language": "spa",
+      "language_tag": "es",
+      "metadata": "content/spa/articles/b72ea42a-1a86-4c21-a399-ebd3013c257b.json",
+      "metadata_sha256": "a01e5ae70ff638186f9af55aa768b4b0aa88ec878c425de8756235a39a9335f1",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
+      "source_translation_key": "86918e2f92ec7ff09eda36ffc30c12ee294e7b521bd1120caa6adee2c38e97b0",
+      "status": "ready",
+      "subtitle": null,
+      "title": "UNA PROMESA PARA EL SERVICIO",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/spa/articles/b8c0cd82-3d1a-4287-b2f5-391e08dd8efd.html",
       "html_sha256": "5ff46adecfcc05d55f117fe7f02c163086cae87916aad1ec849be73d4d120622",
       "human_reviewed": false,
