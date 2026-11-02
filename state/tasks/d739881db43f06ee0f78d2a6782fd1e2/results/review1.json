@@ -1,0 +1,108 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "fb14a0c6-5dd9-4258-872a-ec7fddb72292",
+    "response_id": "chatcmpl-EfihAjX3gJvgQQMO9oaK49lkqbewI",
+    "usage": {
+      "completion_tokens": 1732,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 110,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9152,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9149,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10884
+    }
+  },
+  "received_at": "2026-11-02T09:39:44+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "html，第7段（巴底买的行动及医治事工）",
+        "severity": "major",
+        "source_quote": "He cast his coat aside and blindly rushed into the street. ... He healed men and women of unclean spirits.",
+        "suggested_fix": "将首句改为“他把外衣扔在一旁，看不见路却仍冲到街上。”将末句改为“他医治了被污灵附身的男男女女。”",
+        "translation_quote": "他脱下外衣，伸手抓住街上摸索前进。……赶出污灵，医治男女各样的病症。"
+      },
+      {
+        "location": "html，第19段（马可福音第二章的叙述及引语）",
+        "severity": "major",
+        "source_quote": "Then He said, “Rise up and walk.” When He was challenged by the Pharisees for forgiving sins, He said to them, “Which is easier to say <em>rise up and walk</em> or <em>thy sins be forgiven</em>”",
+        "suggested_fix": "改为“然后他说：‘起来行走。’当法利赛人因他赦罪而质问他时，他对他们说：‘说<em>起来行走</em>，或说<em>你的罪得赦了</em>，哪一样更容易呢？’”，保留后面的解释。不要补入原文没有的褥子及回家指令。",
+        "translation_quote": "随即又说：“起来，拿你的褥子回家去吧。”当法利赛人因他赦罪被质问时，耶稣对他们说：“起来拿褥子，或者说你的罪得赦了呢？”"
+      },
+      {
+        "location": "html，第25段及第31段（Anabaptist的两处译法）",
+        "severity": "major",
+        "source_quote": "our Anabaptist churches ... Our Anabaptist heritage",
+        "suggested_fix": "分别改为“我们的再洗礼派教会”和“我们的再洗礼派传统”，避免将范围较广的再洗礼派限定为门诺派。",
+        "translation_quote": "我们门诺派（Anabaptist）教会……我们的门诺派传统"
+      },
+      {
+        "location": "html，希伯来书4:1-2引文",
+        "severity": "major",
+        "source_quote": "a promise being left us of entering into his rest ... the word preached <strong>did not profit them, not being mixed with faith </strong>in them that heard it",
+        "suggested_fix": "将整段引文改为“<em>所以，既然进入他安息的应许仍为我们存留，我们就当存敬畏的心，免得你们中间有人似乎未能进入。因为福音也传给我们，像传给他们一样；只是所传的道<strong>对他们没有益处，因为听见的人没有以信心与之相合</strong>——希伯来书 4:1-2。</em>”，保留后文。",
+        "translation_quote": "恐惧若有一应许让我们能够进入他的安息……只是所传的道没有加给他们信心，就不能益处听道的人"
+      },
+      {
+        "location": "html，blockquote第3段",
+        "severity": "major",
+        "source_quote": "Love your enemies, bless them that curse you, do good to them that hate you, and pray for them which despitefully use you, and persecute you",
+        "suggested_fix": "将相应句子改为“要爱你们的仇敌，为咒诅你们的人祝福，善待恨你们的人，为恶待你们、逼迫你们的人祷告。”",
+        "translation_quote": "要爱你们的仇敌，为那逼迫你们的祷告。"
+      },
+      {
+        "location": "html，末段诗篇103:1-5引文",
+        "severity": "major",
+        "source_quote": "Bless the LORD, O my soul ... Bless the LORD, O my soul ... Who satisfieth thy mouth with good things",
+        "suggested_fix": "将两处“你们要称颂耶和华，我的心哪”均改为“我的心哪，你要称颂耶和华”；将“他用美物使你所愿的得以满足”改为“他用美物使你的口得以满足”。",
+        "translation_quote": "你们要称颂耶和华，我的心哪。……你们要称颂耶和华，我的心哪……他用美物使你所愿的得以满足"
+      },
+      {
+        "location": "html，第1段及第21段的路加福音4:18-19引文",
+        "severity": "minor",
+        "source_quote": "he hath sent me to heal the brokenhearted",
+        "suggested_fix": "两处均将“差遣我报伤心的人得医治”改为“差遣我医治伤心的人”。",
+        "translation_quote": "差遣我报伤心的人得医治"
+      },
+      {
+        "location": "html，第15段",
+        "severity": "minor",
+        "source_quote": "I had scheduled a series of meetings for the month of February",
+        "suggested_fix": "将“二月的一系列会晤”改为“二月的一系列聚会”，与下文连续四晚讲道的语境一致。",
+        "translation_quote": "我原本安排了二月的一系列会晤"
+      },
+      {
+        "location": "html，第21段的诗篇119:67引文",
+        "severity": "minor",
+        "source_quote": "but now have I kept thy word",
+        "suggested_fix": "将“现在我要守你的话”改为“但如今我遵守了你的话”，保留从前走迷与如今实际遵守之间的对照。",
+        "translation_quote": "现在我要守你的话"
+      },
+      {
+        "location": "html，希伯来书4:15-16引文",
+        "severity": "minor",
+        "source_quote": "For we have not an high priest which cannot be touched with the feeling of our infirmities",
+        "suggested_fix": "删除重复的“的”，改为“我们并非有一位不能体恤我们软弱的大祭司”。",
+        "translation_quote": "我们并非有一位不能体恤我们软弱的的大祭司"
+      },
+      {
+        "location": "section",
+        "severity": "minor",
+        "source_quote": "VICTORIOUS CHRISTIAN LIVING",
+        "suggested_fix": "改为“得胜的基督徒生活”。",
+        "translation_quote": "凯旋基督徒生活"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 81
+  }
+}
