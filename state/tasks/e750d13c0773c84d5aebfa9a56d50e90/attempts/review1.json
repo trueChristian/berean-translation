@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-02T06:35:50+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"html, 바울의 심문을 설명하는 문단\",\n      \"severity\": \"major\",\n      \"source_quote\": \"…reasoned of righteousness, temperance, and judgment to come, [until finally] ... Go thy way for this time; when I have a convenient season, I will call for thee\",\n      \"suggested_fix\": \"해당 부분을 “<em>…의와 절제와 장차 올 심판에 관하여 변론하자, </em>[마침내] <em>펠릭스가 두려워하며 대답하였다. 지금은 가라. 내가 적절한 기회를 얻으면 너를 부르겠다”로 고치고 기존 인용의 나머지 부분과 태그를 유지하십시오.\",\n      \"translation_quote\": \"…의와 절제와 내일의 심판에 관하여 변론하더라, </em>[until finally] <em>펠릭스가 두려워하며 대답하여 이르되 가라, 이 때에 가서라 내가 형편이 좋은 기회를 얻으면 너를 부르리라\"\n    },\n    {\n      \"location\": \"html, 「우주의 법칙은 여전히 유효하다」의 베드로후서 인용\",\n      \"severity\": \"major\",\n      \"source_quote\": \"…all things continue as they were from the beginning of the creation –2 Peter 3:4.\",\n      \"suggested_fix\": \"인용문을 “<em>…만물이 창조의 시작부터 있었던 그대로 계속되고 있다 –베드로후서 3:4. </em>”로 번역하십시오.\",\n      \"translation_quote\": \"…all things continue as they were from the beginning of the creation –2 Peter 3:4.\"\n    },\n    {\n      \"location\": \"html, 예레미야 31:35-36 인용\",\n      \"severity\": \"major\",\n      \"source_quote\": \"which divideth the sea when the waves thereof roar; The LORD of hosts is his name ... then the seed of Israel also shall cease from being a nation before me for ever\",\n      \"suggested_fix\": \"인용문을 “여호와께서 이같이 말씀하신다. 낮의 빛으로 해를 주시고 밤의 빛으로 달과 별의 규례를 정하시며, 파도가 포효할 때 바다를 가르시는 분, 그 이름은 만군의 여호와이시다. 여호와께서 말씀하신다. 이 규례들이 내 앞에서 사라진다면, 이스라엘의 자손도 내 앞에서 한 나라로 존재하기를 영원히 그칠 것이다 –예레미야 31:35-36.”로 고치되 기존 em 태그를 유지하십시오.\",\n      \"translation_quote\": \"밤에는 달과 별을 규례로 삼아 빙빙 도는 바다를 갈라 파도 치게 하시며 만군의 여호와의 이름은 이러하니라 만일 이 규례가 내 앞에서 떠나면 이스라엘의 남은 자도 영영히 내 앞에서 끊어지리라 하라\"\n    },\n    {\n      \"location\": \"html, 결론의 디모데후서 3:7 인용\",\n      \"severity\": \"major\",\n      \"source_quote\": \"ever learning, and never able to come to the knowledge of the truth\",\n      \"suggested_fix\": \"인용문을 “항상 배우지만 결코 진리를 아는 데 이르지 못하는 자들이니라 –디모데후서 3:7.”로 고치십시오.\",\n      \"translation_quote\": \"항상 배우나 깨달음에 이를 수 없는 자들이니라 –2 Timothy 3:7.\"\n    },\n    {\n      \"location\": \"html, 「창조」의 요한복음 1:1-3을 언급하는 문단\",\n      \"severity\": \"major\",\n      \"source_quote\": \"God was not only present at the time of Creation, but it was also He who began it\",\n      \"suggested_fix\": \"“하나님께서는 창조 때에 계셨을 뿐 아니라 창조를 시작하신 분이심을”로 고치십시오.\",\n      \"translation_quote\": \"하나님께서 창조 당시만 계셨던 분이 아니라, 창조를 시작하신 분이심을\"\n    },\n    {\n      \"location\": \"html, 한국어로 번역되지 않은 성경 책 이름 전체\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"Acts 24:25; Acts 26:24; Romans 1:20; Jeremiah 31:35-36; 2 Peter 3:4; Isaiah 55:8-9; Psalm 14:1; Psalm 8:3-4; Acts 17:28; 2 Timothy 3:7\",\n      \"suggested_fix\": \"각 위치에서 숫자와 참조 위치는 유지하면서 책 이름을 각각 “사도행전”, “사도행전”, “로마서”, “예레미야”, “베드로후서”, “이사야”, “시편”, “시편”, “사도행전”, “디모데후서”로 바꾸십시오.\",\n      \"translation_quote\": \"Acts 24:25; Acts 26:24; Romans 1:20; Jeremiah 31:35-36; 2 Peter 3:4; Isaiah 55:8-9; Psalm 14:1; Psalm 8:3-4; Acts 17:28; 2 Timothy 3:7\"\n    },\n    {\n      \"location\": \"html, 시편 8:3-4 인용의 첫 문장\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"When I consider thy heavens, the work of thy fingers, the moon and the stars, which thou hast ordained\",\n      \"suggested_fix\": \"해당 부분을 “주의 손가락으로 지으신 주의 하늘과 주께서 정해 놓으신 달과 별을 내가 바라볼 때”로 고쳐 수식 관계와 문장을 분명히 하십시오.\",\n      \"translation_quote\": \"여호와의 하늘을 내가 주의하며 주의 손가락의 일이 달과 별을 보며 주께서 그것들을 마련하셨나이다\"\n    },\n    {\n      \"location\": \"html, 「많은 과학자들이 하나님을 믿었다」 제목\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"Many Scientists Believe in God\",\n      \"suggested_fix\": \"제목을 “많은 과학자들이 하나님을 믿는다”로 고쳐 현재의 과학자들도 포함하는 원문의 시제를 보존하십시오.\",\n      \"translation_quote\": \"많은 과학자들이 하나님을 믿었다\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": false,\n  \"score\": 87\n}",
+    "content_bytes": 5445,
+    "content_evidence_truncated": false,
+    "content_sha256": "a590c4ab7393833b6c751c844ae61fbd4f15685a9ea2034a31b3fc90e15d5da6",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1603,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 72,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9975,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8872,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 11578
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}
