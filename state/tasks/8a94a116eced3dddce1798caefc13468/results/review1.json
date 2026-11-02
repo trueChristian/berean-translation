@@ -1,0 +1,199 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "af153614-b56e-406b-b2c5-ea6c11579aa4",
+    "response_id": "chatcmpl-EfgvVP2VOvUOuaTDsE7UlKrBySq84",
+    "usage": {
+      "completion_tokens": 2907,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 33,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 10383,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9280,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 13290
+    }
+  },
+  "received_at": "2026-11-02T09:39:10+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Opening quotation and repeated Luke 4:18-19 quotation",
+        "severity": "major",
+        "source_quote": "The Spirit of the Lord is upon me, because he hath anointed me",
+        "suggested_fix": "প্রথম উদ্ধৃতিতে “প্রভুর পরিতাপ” বদলে “প্রভুর আত্মা” লিখুন। উভয় উদ্ধৃতিতে “অলঙ্কৃত করেছেন” ও “অলংকৃত করেছেন” বদলে “অভিষিক্ত করেছেন” লিখুন।",
+        "translation_quote": "প্রভুর পরিতাপ আমার উপর আছে ... অলঙ্কৃত করেছেন; প্রভুর আত্মা আমার উপর আছে ... অলংকৃত করেছেন"
+      },
+      {
+        "location": "Paragraph 2",
+        "severity": "major",
+        "source_quote": "It was on the Sabbath ... This Sabbath",
+        "suggested_fix": "হিব্রু লিপির “שבת দিবস” ও “שבתে” যথাক্রমে “বিশ্রামবার” ও “বিশ্রামবারে” দিয়ে প্রতিস্থাপন করুন।",
+        "translation_quote": "এটি שבת দিবস ছিল ... এই שבתে"
+      },
+      {
+        "location": "Paragraphs 3 and 7",
+        "severity": "major",
+        "source_quote": "Jesus’ earthly ministry ... His ministry ... Jesus’ healing ministry",
+        "suggested_fix": "যথাক্রমে “যীশুর পার্থিব সেবাকাজ”, “তাঁর সেবাকাজ” এবং “যীশুর নিরাময়মূলক সেবাকাজ” লিখুন; এখানে দাসত্ব বোঝানো হয়নি।",
+        "translation_quote": "যীশুর পৃথিবীর দাসত্ব ... তাঁর দাসত্ব ... যীশুর নিরাময় দাসত্ব"
+      },
+      {
+        "location": "Paragraph 4",
+        "severity": "major",
+        "source_quote": "inner restoration with outside remediation. Physical healing begins at the cellular level",
+        "suggested_fix": "লিখুন: “নিরাময় এমন একটি প্রক্রিয়া, যার জন্য বাহ্যিক প্রতিকারের পাশাপাশি অন্তরের পুনরুদ্ধার প্রয়োজন। শারীরিক নিরাময় কোষীয় স্তর থেকে শুরু হয়”।",
+        "translation_quote": "অন্তর্দৃষ্টি পুনঃস্থাপন ও বাহ্যিক প্রতিকার ... কণিকা স্তর"
+      },
+      {
+        "location": "Paragraph 6, both cries of Bartimaeus",
+        "severity": "major",
+        "source_quote": "have mercy on me",
+        "suggested_fix": "দুই স্থানেই “আমাদের প্রতি দয়া কর” বদলে “আমার প্রতি দয়া করুন” লিখুন।",
+        "translation_quote": "আমাদের প্রতি দয়া কর"
+      },
+      {
+        "location": "James 5:14-16 quotation",
+        "severity": "major",
+        "source_quote": "and if he have committed sins, they shall be forgiven him",
+        "suggested_fix": "লিখুন: “আর যদি সে পাপ করে থাকে, তবে তার সেই পাপ ক্ষমা করা হবে।”",
+        "translation_quote": "এবং যদি সে পাপ করে থাকে, তখন তারা তাকে ক্ষমা করা হবে"
+      },
+      {
+        "location": "Paragraph on preparing for anointing",
+        "severity": "major",
+        "source_quote": "any known, unconfessed sin",
+        "suggested_fix": "“কোনও জানা, অনস্বীকার করা পাপের থেকে” বদলে “জানা আছে অথচ স্বীকার করা হয়নি এমন যেকোনো পাপ থেকে” লিখুন।",
+        "translation_quote": "কোনও জানা, অনস্বীকার করা পাপের থেকে"
+      },
+      {
+        "location": "Paragraph reporting bloodwork",
+        "severity": "major",
+        "source_quote": "My last bloodwork came back “undetectable”.",
+        "suggested_fix": "লিখুন: “আমার সর্বশেষ রক্তপরীক্ষার ফল এসেছে—‘শনাক্ত করা যায়নি’।”",
+        "translation_quote": "আমার সর্বশেষ রক্তপরীক্ষা “অদৃশ্য” এসেছে।"
+      },
+      {
+        "location": "Paragraph reporting the oncologist’s words",
+        "severity": "major",
+        "source_quote": "On my last visit to my Medical Oncologist",
+        "suggested_fix": "“আমার শেষ চিকিৎসকের কাছে যাবার সময়” বদলে “আমার মেডিক্যাল অনকোলজিস্টের কাছে শেষবার যাওয়ার সময়” লিখুন।",
+        "translation_quote": "আমার শেষ চিকিৎসকের কাছে যাবার সময়"
+      },
+      {
+        "location": "Paragraph discussing Mark 2",
+        "severity": "major",
+        "source_quote": "In Mark 2 ... He has the power to heal our bodies",
+        "suggested_fix": "“মরক 2-এ” বদলে “মার্ক 2-এ” এবং “তাঁর শরীর নিরাময় করার ক্ষমতাও আছে” বদলে “আমাদের শরীর নিরাময় করার ক্ষমতাও তাঁর আছে” লিখুন।",
+        "translation_quote": "মরক 2-এ ... তাঁর শরীর নিরাময় করার ক্ষমতাও আছে"
+      },
+      {
+        "location": "Paragraph discussing John 5",
+        "severity": "major",
+        "source_quote": "He had this infirmity for thirty-eight years.",
+        "suggested_fix": "লিখুন: “তিনি আটত্রিশ বছর ধরে এই অসুস্থতায় ভুগছিলেন।” স্থানটিতে পুরো সময় থাকার দাবি যোগ করবেন না।",
+        "translation_quote": "তিনি সেখানে ত্রিশ আট বছর ধরে এই অস্বাস্থ্যতা ভুগছিলেন।"
+      },
+      {
+        "location": "Psalm 119:67 quotation",
+        "severity": "major",
+        "source_quote": "but now have I kept thy word",
+        "suggested_fix": "“কিন্তু এখন আমি তোমার বাক্য পাল্টে দিয়েছি” বদলে “কিন্তু এখন আমি তোমার বাক্য পালন করি” লিখুন।",
+        "translation_quote": "কিন্তু এখন আমি তোমার বাক্য পাল্টে দিয়েছি"
+      },
+      {
+        "location": "Philippians 4:6 quotation",
+        "severity": "major",
+        "source_quote": "by prayer and supplication with thanksgiving",
+        "suggested_fix": "“প্রার্থনা ও আরাধনা সহ কৃতজ্ঞতার সঙ্গে” বদলে “কৃতজ্ঞতার সঙ্গে প্রার্থনা ও মিনতির মাধ্যমে” লিখুন।",
+        "translation_quote": "প্রার্থনা ও আরাধনা সহ কৃতজ্ঞতার সঙ্গে"
+      },
+      {
+        "location": "Ephesians 4:31 quotation",
+        "severity": "major",
+        "source_quote": "with all malice",
+        "suggested_fix": "“সমস্ত ব্যাভিচারসহ” বদলে “সমস্ত বিদ্বেষসহ” লিখুন।",
+        "translation_quote": "সমস্ত ব্যাভিচারসহ"
+      },
+      {
+        "location": "Paragraph immediately before Hebrews 4:15-16",
+        "severity": "major",
+        "source_quote": "he has come through it in victory",
+        "suggested_fix": "“জয় নিয়ে তার মধ্য দিয়ে প্রতিফলিত হয়েছেন” বদলে “তিনি বিজয়ী হয়ে তার মধ্য দিয়ে উত্তীর্ণ হয়েছেন” লিখুন।",
+        "translation_quote": "জয় নিয়ে তার মধ্য দিয়ে প্রতিফলিত হয়েছেন"
+      },
+      {
+        "location": "Hebrews 4:15-16 quotation",
+        "severity": "major",
+        "source_quote": "For we have not an high priest which cannot be touched with the feeling of our infirmities; but was in all points tempted like as we are, yet without sin.",
+        "suggested_fix": "প্রথম বাক্যটি লিখুন: “কারণ আমাদের এমন মহাযাজক নেই যিনি আমাদের দুর্বলতায় সহানুভূতি দেখাতে অক্ষম; বরং তিনি সব বিষয়ে আমাদের মতোই পরীক্ষিত হয়েছেন, অথচ পাপ করেননি।”",
+        "translation_quote": "আমাদের এমন এক মহীরপ নয় যে আমরা অসুস্থতাগুলি অনুভব করতে না পারে; বরং সমস্ত বিষয়ে আমাদের মতোই পরীক্ষিত হয়েছে, কিন্তু পাপহীন।"
+      },
+      {
+        "location": "Paragraph on Anabaptist heritage",
+        "severity": "major",
+        "source_quote": "a life of radical nonconformity to the world around us",
+        "suggested_fix": "লিখুন: “এর ফলে এমন এক জীবন গড়ে ওঠে, যা চারপাশের জগতের রীতির সঙ্গে মৌলিকভাবে আপস করে না।”",
+        "translation_quote": "বিশ্বের সঙ্গে গভীর অপ্রতিম মিলভঙ্গীর জীবন"
+      },
+      {
+        "location": "Hebrews 4:1-2 quotation",
+        "severity": "major",
+        "source_quote": "a promise being left us of entering into his rest",
+        "suggested_fix": "উদ্ধৃতির প্রথম বাক্যটি লিখুন: “অতএব আসুন আমরা সতর্ক থাকি, যেন তাঁর বিশ্রামে প্রবেশের প্রতিশ্রুতি আমাদের জন্য রয়ে গেলেও তোমাদের কাউকে তা থেকে বঞ্চিত বলে মনে না হয়।”",
+        "translation_quote": "অতএব আমরা ভয় করো, যাতে কোনো প্রতিশ্রুতি রেখে আমাদের বিশ্রামে প্রবেশের কথা বলে"
+      },
+      {
+        "location": "Parenthesis following Hebrews 4:1-2",
+        "severity": "major",
+        "source_quote": "it was their faith that enabled the healing",
+        "suggested_fix": "“নিরাম্য সম্ভবত তাদের বিশ্বাসের ফলে ঘটেছিল” বদলে “তাদের বিশ্বাসই নিরাময় সম্ভব করেছিল” লিখুন।",
+        "translation_quote": "নিরাম্য সম্ভবত তাদের বিশ্বাসের ফলে ঘটেছিল"
+      },
+      {
+        "location": "Blockquote, second paragraph",
+        "severity": "major",
+        "source_quote": "sue thee at the law, and take away thy coat, let him have thy cloak also",
+        "suggested_fix": "লিখুন: “যদি কেউ তোমার বিরুদ্ধে মামলা করে তোমার জামা নিতে চায়, তবে তাকে তোমার চাদরও নিতে দাও।”",
+        "translation_quote": "তোমাকে আদালতে তাড়ায় এবং তোমার কোট নিতে চায়, তাহলে তোমার মোজা তাকে দাও"
+      },
+      {
+        "location": "Blockquote, third paragraph",
+        "severity": "major",
+        "source_quote": "pray for them which despitefully use you, and persecute you",
+        "suggested_fix": "“যারা তোমাকে ঘৃণা করে ও তোমাকে অপমান করে তাদের জন্য প্রার্থনা করো” বদলে “যারা তোমাদের সঙ্গে দুর্ব্যবহার করে ও তোমাদের নির্যাতন করে, তাদের জন্য প্রার্থনা করো” লিখুন।",
+        "translation_quote": "যারা তোমাকে ঘৃণা করে ও তোমাকে অপমান করে তাদের জন্য প্রার্থনা করো"
+      },
+      {
+        "location": "Blockquote, third paragraph",
+        "severity": "major",
+        "source_quote": "on the evil and on the good",
+        "suggested_fix": "“অকার্যকর ও কার্যকর উভয়ের উপরই” বদলে “মন্দ ও ভালো উভয়ের উপরই” লিখুন।",
+        "translation_quote": "অকার্যকর ও কার্যকর উভয়ের উপরই"
+      },
+      {
+        "location": "Psalm 103:1-5 quotation",
+        "severity": "major",
+        "source_quote": "all that is within me, bless his holy name ... Who satisfieth thy mouth with good things",
+        "suggested_fix": "প্রথম অংশটি “আমার অন্তরের সমস্ত কিছু তাঁর পবিত্র নামের প্রশংসা করুক” এবং পরের অংশটি “যিনি উত্তম দ্রব্যে তোমার মুখ তৃপ্ত করেন” করুন।",
+        "translation_quote": "আমার ভেতরে যা আছে সব কিছু তাঁর পবিত্র নামে আশীর্বাদ করো ... যে তোমার মুখকে সচ্ছন্দ দিয়ে তৃপ্ত করে"
+      },
+      {
+        "location": "Throughout prose; representative instances in paragraphs 3, 7, 16, and the paragraph on psychiatric medication",
+        "severity": "minor",
+        "source_quote": "our brokenness; Go thy way; I was expected to deliver; are turning to psych drugs ... to find solutions for emotional disorders",
+        "suggested_fix": "যথাক্রমে “আমাদের ভগ্নাবস্থা”, “তুমি চলে যাও”, “আমার কাছ থেকে আশা করা হচ্ছিল যে আমি ... দেব” এবং “আবেগগত সমস্যার সমাধান খুঁজতে ... ঝুঁকছেন দেখে” ব্যবহার করুন।",
+        "translation_quote": "আমাদের ভাঙনকারিতা; চলে গে; আমার প্রত্যাশা করা হচ্ছিল; ... ঝুঁকছেন আবেক্ষণে হতভম্ব"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 48
+  }
+}
