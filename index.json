@@ -92227,6 +92227,34 @@
     {
       "ai_notice_required": true,
       "direction": "rtl",
+      "html": "content/urd/articles/1bdf0b87-af5f-4c9b-99a2-004277f7718d.html",
+      "html_sha256": "b3e5a276e78a654b4a5b66d394375874a79bb1419406740187649d38132df18c",
+      "human_reviewed": false,
+      "id": "1bdf0b87-af5f-4c9b-99a2-004277f7718d",
+      "images": [
+        {
+          "alt": "تجربہ گاہ کے شیشے کے برتن، سبز پتے، کیپسول، اور کریم کا مرتبان",
+          "public_path": "/images/articles/1bdf0b87-af5f-4c9b-99a2-004277f7718d-1.jpg"
+        }
+      ],
+      "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
+      "language": "urd",
+      "language_tag": "ur",
+      "metadata": "content/urd/articles/1bdf0b87-af5f-4c9b-99a2-004277f7718d.json",
+      "metadata_sha256": "29206feccba763b5da64e41cfefda7d7879a8796741b87f4775caf84da61c706",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "ایک ڈاکٹر کی بات",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "5fb27f23eb62db29608050722b6dfaf82ff0b381b3a8cf3c6ff5dca578b5db55",
+      "status": "ready",
+      "subtitle": null,
+      "title": "سائنس کے بارے میں مسیحی کا نظریہ",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
       "html": "content/urd/articles/1c698fb4-f4e6-419b-bdcc-1b25cbe2b035.html",
       "html_sha256": "b66b3f8901c9e872e9c217789cbee96f827bb1ed09ecb922587b496ee698e49c",
       "human_reviewed": false,
