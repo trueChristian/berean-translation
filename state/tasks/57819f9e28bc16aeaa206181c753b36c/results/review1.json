@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "f89ee625-fae2-43df-a6a9-86459d409f94",
+    "response_id": "chatcmpl-EfZui3IblDkZN8Srz9gKhNWPPDlIz",
+    "usage": {
+      "completion_tokens": 646,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 12524,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 12521,
+        "cached_tokens": 0
+      },
+      "total_tokens": 13170
+    }
+  },
+  "received_at": "2026-11-02T00:18:25+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph beginning “Ons het die wyse raad…”",
+        "severity": "major",
+        "source_quote": "“Avoid unhealthy situations. This includes developing any special friendships with other young men.”",
+        "suggested_fix": "Change the sentence to: “Dit sluit in dat ons geen spesiale vriendskappe met ander jong mans aanknoop nie.”",
+        "translation_quote": "“Vermy ongesonde situasies. Dit sluit in dat ons enige spesiale vriendskap met ander jong mans aanknoop.”"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 92
+  }
+}
