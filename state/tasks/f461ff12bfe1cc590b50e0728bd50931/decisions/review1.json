@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraf 9. KEINGINAN, kutipan Mazmur 27:4",
+      "severity": "major",
+      "source_quote": "“...to behold the beauty of the Lord...”",
+      "suggested_fix": "Ganti “menyaksikan kemurahan TUHAN” dengan “memandang keindahan TUHAN” agar kutipan mempertahankan makna “beauty”.",
+      "translation_quote": "“...menyaksikan kemurahan TUHAN...”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

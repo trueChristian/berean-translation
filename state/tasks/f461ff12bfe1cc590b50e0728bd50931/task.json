@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "9f543046d1c3484d8d8059c4e34a431e",
   "campaign": "auto-a29ecb0cc65399ad93b4badfd1d688355d06e380eaf78579304ccc58d82ce092",
   "created_at": "2026-11-01T15:04:17+00:00",
   "events": [
@@ -28,10 +27,38 @@
         },
         "total_tokens": 10723
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 717,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 583,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 11046,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 9943,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 11763
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "Paragraf 9. KEINGINAN, kutipan Mazmur 27:4",
+      "severity": "major",
+      "source_quote": "“...to behold the beauty of the Lord...”",
+      "suggested_fix": "Ganti “menyaksikan kemurahan TUHAN” dengan “memandang keindahan TUHAN” agar kutipan mempertahankan makna “beauty”.",
+      "translation_quote": "“...menyaksikan kemurahan TUHAN...”"
+    }
+  ],
   "id": "f461ff12bfe1cc590b50e0728bd50931",
   "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
   "language": "ind",
@@ -120,11 +147,13 @@
     }
   },
   "protected": false,
+  "quality_score": 93,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/51d606d75d530fd499bf35ec2974d90fa7a2324da5e2effd7bbf91caa4c13cfd.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "translate",
     "max_candidate_bytes": 120000,
@@ -138,7 +167,7 @@
     "total_reserved_usd": 0.091049,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "1592d5c49f7d9edd93bb2728e23ed568f883fb2f709d5fb8a672cfe5a474b053",
   "translation_model_actual": "gpt-6-luna"
