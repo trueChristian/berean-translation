@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "43ec8c7a40f742b49b87dbfd91957590",
   "campaign": "auto-18093a6dd00b25a5e682fc58491a534e7359a375b3646d6d8a7b65d51fdf96e2",
   "created_at": "2026-11-01T23:37:40+00:00",
   "events": [
@@ -68,18 +67,40 @@
         },
         "total_tokens": 18495
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1161,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 898,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 12281,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 11178,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 13442
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; a recovery continuation must pass admission",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "Article, Scripture references in the paragraphs beginning “We read in Genesis…”, “In our times of need…”, “Since I was 15 years old…”, and Amy Carmichael’s quoted testimony",
+      "location": "Заголовок раздела «Пылкие возлюбленные Иисуса Христа» и абзацы, начинающиеся «Эми Кармайкл — пример…» и «Глубокое желание моего сердца…»",
       "severity": "major",
-      "source_quote": "“Psalm 127:2”; “Psalm 121:3~5”; “Psalm 3:5”; “Ps 107:9”; “Psalm 34:22”",
-      "suggested_fix": "Keep the translated quotations, but use the source’s exact reference numbers: “Псалом 127:2”; “Псалом 121:3–5”; “Псалом 3:5”; “Псалом 107:9”; “Псалом 34:22”.",
-      "translation_quote": "“Псалом 126:2”; “Псалом 120:3~5”; “Псалом 3:6”; “Псалом 106:9”; “Псалом 33:23”"
+      "source_quote": "“Ardent Lovers of Jesus Christ”; “Amy Carmichael is an example of what I call a ‘lover’ of Jesus”; “one of the Lord’s true lovers”",
+      "suggested_fix": "Везде передать именно любовь людей к Иисусу, а не то, что Иисус любит их: например, заголовок «Пылкие любящие Иисуса Христа», далее «Эми Кармайкл — пример того, кого я называю человеком, любящим Иисуса» и «стать одной из истинно любящих Господа».",
+      "translation_quote": "«Пылкие возлюбленные Иисуса Христа»; «пример того, кого я называю „возлюбленной“ Иисуса»; «одной из истинных возлюбленных Господа»"
     }
   ],
+  "finished_at": "2026-11-02T02:20:52+00:00",
   "id": "20d1f06dec997397bf59a84badd68fa3",
   "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
   "language": "rus",
@@ -188,7 +209,7 @@
     "total_reserved_usd": 0.092185,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "70020afc8ca6b4f0091f5d0e53860b679b8b1c300288c0340fe62643ff38207a",
   "translation_model_actual": "gpt-6-luna"

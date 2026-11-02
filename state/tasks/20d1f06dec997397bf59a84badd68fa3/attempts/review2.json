@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-02T02:20:52+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Заголовок раздела «Пылкие возлюбленные Иисуса Христа» и абзацы, начинающиеся «Эми Кармайкл — пример…» и «Глубокое желание моего сердца…»\",\"severity\":\"major\",\"source_quote\":\"“Ardent Lovers of Jesus Christ”; “Amy Carmichael is an example of what I call a ‘lover’ of Jesus”; “one of the Lord’s true lovers”\",\"suggested_fix\":\"Везде передать именно любовь людей к Иисусу, а не то, что Иисус любит их: например, заголовок «Пылкие любящие Иисуса Христа», далее «Эми Кармайкл — пример того, кого я называю человеком, любящим Иисуса» и «стать одной из истинно любящих Господа».\",\"translation_quote\":\"«Пылкие возлюбленные Иисуса Христа»; «пример того, кого я называю „возлюбленной“ Иисуса»; «одной из истинных возлюбленных Господа»\"}],\"findings_complete\":true,\"passed\":false,\"score\":92}",
+    "content_bytes": 1256,
+    "content_evidence_truncated": false,
+    "content_sha256": "1014c09cf0e0e9990effef05d8fa2590df1eda481825973593f63a8d1c0b8181",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1161,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 898,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 12281,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 11178,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 13442
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}
