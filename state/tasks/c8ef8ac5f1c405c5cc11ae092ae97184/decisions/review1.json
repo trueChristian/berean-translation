@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "translation.html, paragrafo 11, frase iniziale",
+      "severity": "minor",
+      "source_quote": "Morning dawned; it was the day God had told them to go out against these enemies.",
+      "suggested_fix": "Sostituire «Sorsero il mattino» con «Spuntò il giorno», mantenendo il resto del paragrafo.",
+      "translation_quote": "Sorsero il mattino; era il giorno in cui Dio aveva detto loro di uscire contro questi nemici."
+    },
+    {
+      "location": "translation.html, paragrafo 7, ultima frase",
+      "severity": "minor",
+      "source_quote": "When we all pray together, we will get an answer to our prayer for direction.",
+      "suggested_fix": "Sostituire «alla nostra preghiera per la direzione» con «alla nostra preghiera per ricevere una guida».",
+      "translation_quote": "Quando tutti preghiamo insieme, otterremo una risposta alla nostra preghiera per la direzione."
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

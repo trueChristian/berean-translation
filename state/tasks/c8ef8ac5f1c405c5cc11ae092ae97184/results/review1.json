@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "e267b5a9-a8cd-48a2-b9b1-7c910ca9d752",
+    "response_id": "chatcmpl-Efitij8a2wOKESgfbu6Z9nOm2AsoM",
+    "usage": {
+      "completion_tokens": 322,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 92,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5723,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5720,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6045
+    }
+  },
+  "received_at": "2026-11-02T15:40:56+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "translation.html, paragrafo 11, frase iniziale",
+        "severity": "minor",
+        "source_quote": "Morning dawned; it was the day God had told them to go out against these enemies.",
+        "suggested_fix": "Sostituire «Sorsero il mattino» con «Spuntò il giorno», mantenendo il resto del paragrafo.",
+        "translation_quote": "Sorsero il mattino; era il giorno in cui Dio aveva detto loro di uscire contro questi nemici."
+      },
+      {
+        "location": "translation.html, paragrafo 7, ultima frase",
+        "severity": "minor",
+        "source_quote": "When we all pray together, we will get an answer to our prayer for direction.",
+        "suggested_fix": "Sostituire «alla nostra preghiera per la direzione» con «alla nostra preghiera per ricevere una guida».",
+        "translation_quote": "Quando tutti preghiamo insieme, otterremo una risposta alla nostra preghiera per la direzione."
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 96
+  }
+}
