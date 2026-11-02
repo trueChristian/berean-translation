@@ -42108,6 +42108,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ind/articles/2e021f55-6588-4d9d-bd0a-068af80732ff.html",
+      "html_sha256": "f232093a9340b62f7b31d2fa3d06b5023de72ab0c740fd77728036f02954938e",
+      "human_reviewed": false,
+      "id": "2e021f55-6588-4d9d-bd0a-068af80732ff",
+      "images": [
+        {
+          "alt": "Sebuah lentera yang menyala di jalan setapak bersalju pada malam hari",
+          "public_path": "/images/articles/2e021f55-6588-4d9d-bd0a-068af80732ff-1.jpg"
+        }
+      ],
+      "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
+      "language": "ind",
+      "language_tag": "id",
+      "metadata": "content/ind/articles/2e021f55-6588-4d9d-bd0a-068af80732ff.json",
+      "metadata_sha256": "60e01299ec7a5989129fba35f12ced412970e728f852a5e3aadf541c6a7a86b3",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "SAUDARI UNTUK SAUDARI",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "c849e4ea3ad84b761d78091fcac24b6703c3038258305b91a3abd924f8250de9",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Pelajaran dari 2 Tawarikh 20",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ind/articles/2e21a1f2-3b5b-44d9-a29d-4d7767a772c4.html",
       "html_sha256": "9493264cb4adb00779e127a150a42bb6f7f727c8d523769f4ad339520e313095",
       "human_reviewed": false,
