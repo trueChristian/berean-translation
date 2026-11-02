@@ -91022,6 +91022,42 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/swe/articles/e08f3c82-7473-48d6-a445-1e8bf9f01d6f.html",
+      "html_sha256": "14dbe9bf9e061041e2cc202bde5073a89a68e938c242ae49c5673e7f3b6c14c5",
+      "human_reviewed": false,
+      "id": "e08f3c82-7473-48d6-a445-1e8bf9f01d6f",
+      "images": [
+        {
+          "alt": "En ung man med gitarr serenaderar en kvinna vid ett öppet fönster",
+          "public_path": "/images/articles/e08f3c82-7473-48d6-a445-1e8bf9f01d6f-1.jpg"
+        },
+        {
+          "alt": "Två kvinnor med hättor sitter på en bänk bredvid fåglar",
+          "public_path": "/images/articles/e08f3c82-7473-48d6-a445-1e8bf9f01d6f-2.jpg"
+        },
+        {
+          "alt": "En kvinna bär ett kärl på huvudet längs en stenig stig",
+          "public_path": "/images/articles/e08f3c82-7473-48d6-a445-1e8bf9f01d6f-3.jpg"
+        }
+      ],
+      "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
+      "language": "swe",
+      "language_tag": "sv",
+      "metadata": "content/swe/articles/e08f3c82-7473-48d6-a445-1e8bf9f01d6f.json",
+      "metadata_sha256": "59d360a220dea2ea248e6fccfcfa272c65929ba260e5d57a8bf0bcf23c2ee449",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
+      "source_translation_key": "70020afc8ca6b4f0091f5d0e53860b679b8b1c300288c0340fe62643ff38207a",
+      "status": "ready",
+      "subtitle": "För unga kvinnor",
+      "title": "Känslomässig frihet",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/swe/articles/e66a02d4-667c-4f50-b5e1-158ff98b82d5.html",
       "html_sha256": "bcc559e3ea67cf7559fe9df3ca7ddc9e6d9248d876757e3c44b45a88cf33f2b8",
       "human_reviewed": false,

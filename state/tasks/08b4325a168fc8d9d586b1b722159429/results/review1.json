@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "9c70eb68-bc75-4358-a002-a4ab7f77ae83",
+    "response_id": "chatcmpl-EffoM1wD7lndkA9wRzbLT4jrC33xs",
+    "usage": {
+      "completion_tokens": 746,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 660,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 12416,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 11313,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 13162
+    }
+  },
+  "received_at": "2026-11-02T06:36:08+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Att hantera känslor, första stycket",
+        "severity": "minor",
+        "source_quote": "Regardless of our marital status",
+        "suggested_fix": "Oavsett vårt civilstånd",
+        "translation_quote": "Oavsett vår civilstånd"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 99
+  }
+}
