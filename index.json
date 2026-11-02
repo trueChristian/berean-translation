@@ -95750,6 +95750,34 @@
     {
       "ai_notice_required": true,
       "direction": "rtl",
+      "html": "content/urd/articles/b72ea42a-1a86-4c21-a399-ebd3013c257b.html",
+      "html_sha256": "9ade188b20b98e77be10db6d82a9cc57605309b5181ebb2f8f20beba6c0545f7",
+      "human_reviewed": false,
+      "id": "b72ea42a-1a86-4c21-a399-ebd3013c257b",
+      "images": [
+        {
+          "alt": "ٹیلی گراف کی کنجی اور اس کے برقی رابطے",
+          "public_path": "/images/articles/b72ea42a-1a86-4c21-a399-ebd3013c257b-1.jpg"
+        }
+      ],
+      "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
+      "language": "urd",
+      "language_tag": "ur",
+      "metadata": "content/urd/articles/b72ea42a-1a86-4c21-a399-ebd3013c257b.json",
+      "metadata_sha256": "b672c070b9f2923c60dc054c3c57bce705d7ae9d608ba81a92aea72b47340fa8",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": null,
+      "source_revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
+      "source_translation_key": "86918e2f92ec7ff09eda36ffc30c12ee294e7b521bd1120caa6adee2c38e97b0",
+      "status": "ready",
+      "subtitle": null,
+      "title": "خدمت کے لیے ایک وعدہ",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
       "html": "content/urd/articles/b8181ffd-5861-420e-b92a-573b7e66fc3e.html",
       "html_sha256": "4fbadf8e0af5c6f6416f9ac2c7c6964795b69ab895ca91962529cb5739002b03",
       "human_reviewed": false,
