@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "translation.html, paragrafo 11, frase iniziale",
+      "severity": "minor",
+      "source_quote": "Morning dawned; it was the day God had told them to go out against these enemies.",
+      "suggested_fix": "Sostituire «Sorsero il mattino» con «Sorse il mattino».",
+      "translation_quote": "Sorsero il mattino; era il giorno in cui Dio aveva detto loro di uscire contro questi nemici."
+    },
+    {
+      "location": "translation.html, paragrafo 4, citazione del versetto 12",
+      "severity": "minor",
+      "source_quote": "O our God, wilt thou not judge them?",
+      "suggested_fix": "Sostituire «O nostro Dio, non giudicherai tu loro?» con «O nostro Dio, non li giudicherai tu?».",
+      "translation_quote": "O nostro Dio, non giudicherai tu loro?"
+    },
+    {
+      "location": "translation.title",
+      "severity": "minor",
+      "source_quote": "Lessons From Second Chronicles Twenty",
+      "suggested_fix": "Usare la denominazione italiana convenzionale: «Lezioni dal capitolo venti del Secondo libro delle Cronache».",
+      "translation_quote": "Lezioni da Secondo Cronache venti"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

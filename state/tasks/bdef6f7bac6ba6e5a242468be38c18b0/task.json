@@ -5,11 +5,56 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "015e895f82ad43d797958a1bb8c67a9a",
   "campaign": "auto-a1fae09720c8f8a6f90e12ffbbd040b50d1fd51c918692b0ccac0254570da371",
   "created_at": "2026-11-01T23:38:02+00:00",
-  "events": [],
-  "findings": [],
+  "events": [
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 467,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 128,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5723,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 4620,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 6190
+      }
+    }
+  ],
+  "failure": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[40]: source /article[1]/p[11] ('end', 'p'); translation /article[1]/p[11]/em[1] ('start', 'em', ())",
+  "failure_kind": "invalid_result",
+  "findings": [
+    {
+      "location": "translation.html, paragrafo 11, frase iniziale",
+      "severity": "minor",
+      "source_quote": "Morning dawned; it was the day God had told them to go out against these enemies.",
+      "suggested_fix": "Sostituire «Sorsero il mattino» con «Sorse il mattino».",
+      "translation_quote": "Sorsero il mattino; era il giorno in cui Dio aveva detto loro di uscire contro questi nemici."
+    },
+    {
+      "location": "translation.html, paragrafo 4, citazione del versetto 12",
+      "severity": "minor",
+      "source_quote": "O our God, wilt thou not judge them?",
+      "suggested_fix": "Sostituire «O nostro Dio, non giudicherai tu loro?» con «O nostro Dio, non li giudicherai tu?».",
+      "translation_quote": "O nostro Dio, non giudicherai tu loro?"
+    },
+    {
+      "location": "translation.title",
+      "severity": "minor",
+      "source_quote": "Lessons From Second Chronicles Twenty",
+      "suggested_fix": "Usare la denominazione italiana convenzionale: «Lezioni dal capitolo venti del Secondo libro delle Cronache».",
+      "translation_quote": "Lezioni da Secondo Cronache venti"
+    }
+  ],
+  "finished_at": "2026-11-02T06:08:04+00:00",
   "id": "bdef6f7bac6ba6e5a242468be38c18b0",
   "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
   "language": "ita",
@@ -98,9 +143,11 @@
     }
   },
   "protected": false,
+  "quality_score": 96,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/f31cc8b34c5cf672315cfd39ccfc47a998b57e754ee6813a57508dd0fe98b5c8.json",
   "stage": "review1",
   "stage_budget": {
@@ -115,7 +162,7 @@
     "total_reserved_usd": 0.722857,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 0,
   "translation_key": "c849e4ea3ad84b761d78091fcac24b6703c3038258305b91a3abd924f8250de9",
   "translation_model_actual": "gpt-5-mini-2025-08-07"
