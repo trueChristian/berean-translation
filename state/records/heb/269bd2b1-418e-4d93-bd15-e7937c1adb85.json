@@ -12,9 +12,16 @@
       "event": "not_ready",
       "reason": "Forbidden HTML element: pב",
       "task": "5ccad71800a7c3e02bbcecd3c9e91522"
+    },
+    {
+      "at": "2026-11-03T15:53:11+00:00",
+      "campaign": "auto-6d61372019e25728cf0a162811e60ec6c3e0bf4dcf80aa9dd1deff223bdb8ea1",
+      "event": "automatic_requested",
+      "previous_task": "5ccad71800a7c3e02bbcecd3c9e91522",
+      "task": "69727d3f992ae1f7cbd4fc09cda17408"
     }
   ],
   "language": "heb",
-  "latest_task": "5ccad71800a7c3e02bbcecd3c9e91522",
+  "latest_task": "69727d3f992ae1f7cbd4fc09cda17408",
   "published": null
 }
