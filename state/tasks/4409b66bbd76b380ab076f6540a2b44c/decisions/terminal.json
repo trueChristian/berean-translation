@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "第二段读者见证，关于其他家庭搬走后的处境",
+      "severity": "minor",
+      "source_quote": "which left us here alone for about a year and a half",
+      "suggested_fix": "只剩下我们留在这里，身边没有其他团契伙伴，约有一年半。",
+      "translation_quote": "只剩下我们在这里独自生活了一年半左右"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

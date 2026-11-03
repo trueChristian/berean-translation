@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "4bc9a804f84b4e969b6e78ed5815b001",
   "campaign": "auto-14f833a49ff579018be143006666bff617e3093fea0479b5747518fc145a5feb",
   "created_at": "2026-11-03T15:06:53+00:00",
   "events": [
@@ -48,18 +47,39 @@
         },
         "total_tokens": 6373
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 835,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 715,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4609,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 0,
+          "cached_tokens": 4606
+        },
+        "total_tokens": 5444
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "HTML/metadata contract",
-      "severity": "critical",
-      "source_quote": "",
-      "suggested_fix": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[6]: source /article[1]/p[1]/strong[1]/em[1] ('start', 'em', ()); translation /article[1]/p[1]/strong[1] ('end', 'strong')",
-      "translation_quote": ""
+      "location": "第二段读者见证，关于其他家庭搬走后的处境",
+      "severity": "minor",
+      "source_quote": "which left us here alone for about a year and a half",
+      "suggested_fix": "只剩下我们留在这里，身边没有其他团契伙伴，约有一年半。",
+      "translation_quote": "只剩下我们在这里独自生活了一年半左右"
     }
   ],
+  "finished_at": "2026-11-03T21:06:38+00:00",
   "id": "4409b66bbd76b380ab076f6540a2b44c",
   "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
   "language": "cmn",
@@ -148,9 +168,11 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/b90a551397024be9f0d057a09f4b11218c609006eb7fba34164cc6a14aacedb6.json",
   "stage": "review2",
   "stage_budget": {
@@ -166,7 +188,7 @@
     "total_reserved_usd": 0.08774,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "459eee2e9c07155a363c1c0e355fdda66adbf2039a8df9dc3c6dcd5288b5461e",
   "translation_model_actual": "gpt-6-luna"

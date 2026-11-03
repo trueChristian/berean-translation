@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "37cdec18-eff3-4667-bec4-e6cb890efb2c",
+    "response_id": "chatcmpl-EgCbxn9l8DFfom4tj9056fLj5s8CK",
+    "usage": {
+      "completion_tokens": 835,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 715,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4609,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 4606
+      },
+      "total_tokens": 5444
+    }
+  },
+  "received_at": "2026-11-03T21:06:38+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "第二段读者见证，关于其他家庭搬走后的处境",
+        "severity": "minor",
+        "source_quote": "which left us here alone for about a year and a half",
+        "suggested_fix": "只剩下我们留在这里，身边没有其他团契伙伴，约有一年半。",
+        "translation_quote": "只剩下我们在这里独自生活了一年半左右"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}

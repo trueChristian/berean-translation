@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-03T21:06:38+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"第二段读者见证，关于其他家庭搬走后的处境\",\"severity\":\"minor\",\"source_quote\":\"which left us here alone for about a year and a half\",\"suggested_fix\":\"只剩下我们留在这里，身边没有其他团契伙伴，约有一年半。\",\"translation_quote\":\"只剩下我们在这里独自生活了一年半左右\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 406,
+    "content_evidence_truncated": false,
+    "content_sha256": "cc1b414937368d2b258cfc1485a2dccb8e5b8f11f53d80ba01de39e6eb558271",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 835,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 715,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4609,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 4606
+      },
+      "total_tokens": 5444
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review2",
+  "translation_attempts": 2
+}

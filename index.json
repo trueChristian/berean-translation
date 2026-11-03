@@ -15467,6 +15467,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/cmn/articles/3558b7f3-5296-4770-a7c6-d420c923642d.html",
+      "html_sha256": "49e095ae7de948fab9e080472fdf825742282fe95e3cd9cab6a6507bea144956",
+      "human_reviewed": false,
+      "id": "3558b7f3-5296-4770-a7c6-d420c923642d",
+      "images": [
+        {
+          "alt": "路边的邮箱，上面标有本杂志的邮寄地址",
+          "public_path": "/images/articles/3558b7f3-5296-4770-a7c6-d420c923642d-1.jpg"
+        }
+      ],
+      "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
+      "language": "cmn",
+      "language_tag": "zh-Hans",
+      "metadata": "content/cmn/articles/3558b7f3-5296-4770-a7c6-d420c923642d.json",
+      "metadata_sha256": "4c828dd3db12aec934f1c4484a223574fd96d08ef4ccd730a1e3d02ad23cde34",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
+      "source_translation_key": "459eee2e9c07155a363c1c0e355fdda66adbf2039a8df9dc3c6dcd5288b5461e",
+      "status": "ready",
+      "subtitle": null,
+      "title": "读者来信，弥足珍贵",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/cmn/articles/37272f7d-a8c0-4c15-b884-ebbf333303cb.html",
       "html_sha256": "c981d8843e885457c4c7ffc54bd87f6b5ee597c8e7c783877364e2bd05e26c6f",
       "human_reviewed": false,
