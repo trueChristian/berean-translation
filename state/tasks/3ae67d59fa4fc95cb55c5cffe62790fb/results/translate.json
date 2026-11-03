@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "99f96579-84dc-4e93-8ac7-f4fa9f2568b9",
+    "response_id": "chatcmpl-EfwErQdV4kljh3WI2QyOOI2Zl6T4f",
+    "usage": {
+      "completion_tokens": 1173,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1726,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1723,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2899
+    }
+  },
+  "received_at": "2026-11-03T00:14:09+00:00",
+  "result": {
+    "html": "<article data-article-id=\"b72ea42a-1a86-4c21-a399-ebd3013c257b\">\n  <figure>\n    <img src=\"/images/articles/b72ea42a-1a86-4c21-a399-ebd3013c257b-1.jpg\" alt=\"Ufunguo wa telegrafu na viunganishi vyake vya umeme\">\n  </figure>\n  <p>“Ukiomba, nitafanya.” Kuhusu mambo yale ambayo Mungu pekee anaweza kufanya, kwa kawaida tunakimbilia maombi. Kwa kuwa tunajua kwamba sisi wenyewe hatuwezi kuyafanya, tumaini letu pekee tunalipata katika kuomba huko kunakoleta utendaji wa Mungu. Lakini tukumbuke pia kwamba huduma yetu binafsi, katika mambo ambayo <em>tunaweza</em> kuyafanya, nayo inahitaji maombi yatakayoleta utendaji wa Mungu ndani yake. Je, tunatambua kwamba kila kitu tunachofanya kinahitaji kujazwa kabisa na roho ya maombi, ili <em>Mungu</em> awe mtendaji halisi, mfanyakazi halisi katika mambo tunayoyafanya kwa bidii? Hata hivyo, huu ni ukweli mkuu: “Ukiomba, nitafanya” unahusu huduma yako mwenyewe na pia maombezi yako kwa ajili ya wengine.</p>\n  <p>Je, umewahi kuchezea ufunguo wa telegrafu wakati sakiti imefungwa? Ikiwa ndivyo, umeona jambo hili. Kwenye ufunguo huo unaweza kuandika ujumbe kamili, kuanzia anwani hadi sahihi. Kila alama ya telegrafu inaweza kuundwa kikamilifu juu yake; kila sharti la uendeshaji wa kitaalamu linaweza kutimizwa. Lakini haijalishi wewe ni mwendeshaji stadi kiasi gani, maadamu sakiti ya umeme imefungwa, jitihada zako zote ni mlio wa shaba tu na mlio wa platinamu. Hupitishi hata cheche moja ya uhai wa umeme; hakuna ujumbe hata mmoja, wa heri au shari, wa maafa au baraka, unaofikishwa kwa msikilizaji anayesubiri upande mwingine wa mstari.</p>\n  <h2>KWANINI?</h2>\n  <p><em>Kwa sababu betri haifanyi kazi.</em> Na kazi <em>yako</em> yote ni jitihada zisizo na matokeo, shughuli zisizo na nguvu.</p>\n  <p>Lakini sasa unafungua kishikio kidogo cha shaba kinachounganisha ufunguo wako na betri iliyofichwa chini ya meza. Mara moja kila herufi unayounda hujaa uhai, kila neno unaloandika hung’arisha ujumbe hai ndani ya akili na moyo wa mpokeaji aliye mbali. Kupitia kazi yako, ambayo yenyewe haina uhai na ni ya kimakanika, betri ya umeme sasa inamwaga mkondo wake wenye uhai, ikijaza uhai na nguvu kila mwendo stadi wa vidole vyako vinavyoruka.</p>\n  <h2>SOMO LI WAZI</h2>\n  <p>Katika telegrafu ya kiroho ni kama ilivyo katika ile ya kimwili. Ikiwa betri haifanyi kazi, ujumbe ni mlio mtupu. <em>Sisi</em> tunaweza <em>kutenda</em>, lakini ikiwa <em>Mungu</em> hatendi kupitia kwetu, basi matendo yetu yote si kitu. Tukifanya kazi kwa nguvu zetu za kibinadamu, tutazaa matokeo ya kibinadamu tu, kwa maana “chochote kilichozaliwa na mwili <em>ni</em> mwili.” Mungu pekee ndiye uhai wa kiroho. Mungu ndiye pekee atoaye uhai. Kazi yetu ya juu kabisa kama watumishi ni kuwa wapitishaji wa uhai wa Mungu kwa wengine. Tendo letu la juu kabisa ni lile ambalo Mungu anatenda kupitia kwetu.</p>\n  <p>Na hili litatokeaje?</p>\n  <h2>KWA NJIA YA MAOMBI</h2>\n  <p>Maombi yanakuunganisha na betri ya kimungu ya uhai na nguvu. Maombi yanakuweka “katika Roho,” na “ni <em>Roho</em> ndiye atoaye uhai.” Kutoka katika chumba cha maombi unatoka kwenda kwa watu ukiwa na upako, nguvu fiche, msisimko wa uhai wenyewe wa Mungu juu yako. Unapoendelea kuomba, Mungu anaendelea kutenda. Unapoacha kuomba, matendo yako hupoteza nguvu. Usiongoze mkutano wowote bila <em>kuomba</em> kwamba Mungu awe kiongozi halisi kupitia kwako; usitoe ujumbe wowote bila <em>kuomba</em> kwamba Yeye aseme kupitia kwako; usianze kazi yoyote bila <em>kuomba</em> kwamba Mungu afanye kazi kupitia kwako. Kwa maana, <em>“Ukiomba, nitafanya.”</em></p>\n</article>\n",
+    "section": null,
+    "subtitle": null,
+    "title": "AHADI KWA AJILI YA HUDUMA"
+  }
+}
