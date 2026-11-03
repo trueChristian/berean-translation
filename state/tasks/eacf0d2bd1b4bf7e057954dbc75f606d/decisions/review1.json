@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "html: paragraf tentang Martin Luther dan orang-orang Anabaptis",
+      "severity": "major",
+      "source_quote": "The Anabaptist people were not respecters of people.",
+      "suggested_fix": "Ganti kalimat tersebut dengan: “Orang-orang Anabaptis tidak memandang bulu.”",
+      "translation_quote": "Orang-orang Anabaptis tidak menghormati manusia."
+    },
+    {
+      "location": "html: kutipan Efesus 5:10-13, klausa terakhir",
+      "severity": "major",
+      "source_quote": "for whatsoever doth make manifest is light",
+      "suggested_fix": "Ganti klausa terakhir dengan: “sebab segala sesuatu yang membuat sesuatu menjadi nyata adalah terang”. Pertahankan tag dan rujukan yang ada.",
+      "translation_quote": "sebab semua yang menjadi nyata adalah terang"
+    },
+    {
+      "location": "html: paragraf yang diawali “Kita dapat menjalani hidup”",
+      "severity": "minor",
+      "source_quote": "I think we should prayerfully consider this move, the move to join hands with the mainstream church.",
+      "suggested_fix": "Ganti “mempertimbangkan dengan sungguh-sungguh langkah ini” dengan “mempertimbangkan langkah ini dengan berdoa”.",
+      "translation_quote": "Saya rasa kita harus mempertimbangkan dengan sungguh-sungguh langkah ini, yaitu langkah untuk bergandengan tangan dengan gereja arus utama."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

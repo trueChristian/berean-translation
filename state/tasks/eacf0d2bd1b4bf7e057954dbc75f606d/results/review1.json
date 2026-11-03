@@ -1,0 +1,52 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "888de405-4d4c-4e1f-96f3-c85e77ba34ac",
+    "response_id": "chatcmpl-EgHH8VpT4l0RC0ArGaNE3QltQWB6W",
+    "usage": {
+      "completion_tokens": 402,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 93,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9650,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8547,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 10052
+    }
+  },
+  "received_at": "2026-11-03T22:37:07+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "html: paragraf tentang Martin Luther dan orang-orang Anabaptis",
+        "severity": "major",
+        "source_quote": "The Anabaptist people were not respecters of people.",
+        "suggested_fix": "Ganti kalimat tersebut dengan: “Orang-orang Anabaptis tidak memandang bulu.”",
+        "translation_quote": "Orang-orang Anabaptis tidak menghormati manusia."
+      },
+      {
+        "location": "html: kutipan Efesus 5:10-13, klausa terakhir",
+        "severity": "major",
+        "source_quote": "for whatsoever doth make manifest is light",
+        "suggested_fix": "Ganti klausa terakhir dengan: “sebab segala sesuatu yang membuat sesuatu menjadi nyata adalah terang”. Pertahankan tag dan rujukan yang ada.",
+        "translation_quote": "sebab semua yang menjadi nyata adalah terang"
+      },
+      {
+        "location": "html: paragraf yang diawali “Kita dapat menjalani hidup”",
+        "severity": "minor",
+        "source_quote": "I think we should prayerfully consider this move, the move to join hands with the mainstream church.",
+        "suggested_fix": "Ganti “mempertimbangkan dengan sungguh-sungguh langkah ini” dengan “mempertimbangkan langkah ini dengan berdoa”.",
+        "translation_quote": "Saya rasa kita harus mempertimbangkan dengan sungguh-sungguh langkah ini, yaitu langkah untuk bergandengan tangan dengan gereja arus utama."
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 93
+  }
+}
