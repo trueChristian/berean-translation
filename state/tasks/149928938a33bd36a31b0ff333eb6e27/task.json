@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "5511fc46899742bc9bbf61352f99dce7",
   "campaign": "auto-6867dc89900d2c43445869a16c544e5381933547fc4e2d7c0c1a345f59778836",
   "created_at": "2026-11-03T08:44:20+00:00",
   "events": [
@@ -28,18 +27,31 @@
         },
         "total_tokens": 18897
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 55,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 23,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 12429,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 12426,
+          "cached_tokens": 0
+        },
+        "total_tokens": 12484
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "HTML, “Langkah-Langkah Menuju Kemenangan,” quotation of 2 Timotius 1:12",
-      "severity": "major",
-      "source_quote": "“for I know whom I have believed, and am persuaded that he is able to keep that which I have committed unto him against that day.”",
-      "suggested_fix": "“sebab aku tahu kepada siapa aku percaya dan aku yakin bahwa Dia berkuasa memelihara apa yang telah kupercayakan kepada-Nya hingga pada hari itu.”",
-      "translation_quote": "“sebab aku tahu kepada siapa aku percaya dan aku yakin bahwa Dia berkuasa memelihara apa yang telah dipercayakan-Nya kepadaku hingga pada hari itu.”"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-11-03T15:35:46+00:00",
   "id": "149928938a33bd36a31b0ff333eb6e27",
   "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
   "language": "ind",
@@ -128,9 +140,11 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/6b272c051a66dd7c357069608e2c8edecd6f7bbdcb18da4b642f5c5e4b1062b3.json",
   "stage": "review2",
   "stage_budget": {
@@ -144,7 +158,7 @@
     "total_reserved_usd": 0.616863,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "70020afc8ca6b4f0091f5d0e53860b679b8b1c300288c0340fe62643ff38207a",
   "translation_model_actual": "gpt-6.1-sol"

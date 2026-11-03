@@ -46994,6 +46994,42 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ind/articles/e08f3c82-7473-48d6-a445-1e8bf9f01d6f.html",
+      "html_sha256": "789951d5b91a968583ddff0ee7a8a5a265e2b18a1d55b6a9cc41172f6207f4ae",
+      "human_reviewed": false,
+      "id": "e08f3c82-7473-48d6-a445-1e8bf9f01d6f",
+      "images": [
+        {
+          "alt": "Seorang pemuda dengan gitar menyanyikan lagu untuk seorang perempuan di jendela yang terbuka",
+          "public_path": "/images/articles/e08f3c82-7473-48d6-a445-1e8bf9f01d6f-1.jpg"
+        },
+        {
+          "alt": "Dua perempuan bertudung duduk di bangku di samping burung-burung",
+          "public_path": "/images/articles/e08f3c82-7473-48d6-a445-1e8bf9f01d6f-2.jpg"
+        },
+        {
+          "alt": "Seorang perempuan membawa bejana di atas kepalanya menyusuri jalan berbatu",
+          "public_path": "/images/articles/e08f3c82-7473-48d6-a445-1e8bf9f01d6f-3.jpg"
+        }
+      ],
+      "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
+      "language": "ind",
+      "language_tag": "id",
+      "metadata": "content/ind/articles/e08f3c82-7473-48d6-a445-1e8bf9f01d6f.json",
+      "metadata_sha256": "9d3e3d9ff35676d65d79e6834bcb9f4fc88a9d4e86f3a4eb5929debfea1bed56",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": null,
+      "source_revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
+      "source_translation_key": "70020afc8ca6b4f0091f5d0e53860b679b8b1c300288c0340fe62643ff38207a",
+      "status": "ready",
+      "subtitle": "Untuk Perempuan Muda",
+      "title": "Kebebasan Emosional",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ind/articles/e7e3ec8b-76a7-4b0b-9837-12e668dd9abd.html",
       "html_sha256": "3282ceb36ec27731f1bcab41b23b9e922bd2746de8861cad654f3ecccea73cae",
       "human_reviewed": false,
