@@ -29657,6 +29657,42 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/fra/articles/37272f7d-a8c0-4c15-b884-ebbf333303cb.html",
+      "html_sha256": "3225f0645208fba5dd67e182f5ab900b81044d02479461736b972907b8eedc06",
+      "human_reviewed": false,
+      "id": "37272f7d-a8c0-4c15-b884-ebbf333303cb",
+      "images": [
+        {
+          "alt": "Jésus debout devant Pilate et une foule rassemblée",
+          "public_path": "/images/articles/37272f7d-a8c0-4c15-b884-ebbf333303cb-1.jpg"
+        },
+        {
+          "alt": "Bible ouverte dans une faible lumière, moitié gauche d’une photographie sur deux pages",
+          "public_path": "/images/articles/37272f7d-a8c0-4c15-b884-ebbf333303cb-2.jpg"
+        },
+        {
+          "alt": "Bible ouverte dans une faible lumière, moitié droite d’une photographie sur deux pages",
+          "public_path": "/images/articles/37272f7d-a8c0-4c15-b884-ebbf333303cb-3.jpg"
+        }
+      ],
+      "issue_id": "4e575f26-fabd-5104-ba0d-d54ca032653b",
+      "language": "fra",
+      "language_tag": "fr",
+      "metadata": "content/fra/articles/37272f7d-a8c0-4c15-b884-ebbf333303cb.json",
+      "metadata_sha256": "d71d209d2715535b6fb51c0fa5ff87c354df61c7b94b69bf108cd7008599cccf",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "Réflexions d’un missionnaire",
+      "source_revision": "22388745ad7f149609e65f5e28cfcc1257cd689e",
+      "source_translation_key": "b60f5232f76b3d6e5573e616829a89d507fba9c836e4dbf3fc2981eb0eff86a2",
+      "status": "ready",
+      "subtitle": null,
+      "title": "La séparation",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/fra/articles/391d4642-07e2-4003-83db-fa33dc08a8ca.html",
       "html_sha256": "b84a14218efe2f827c494f64ba3b30e1b75750d2b17f96434d324623a94621c5",
       "human_reviewed": false,
