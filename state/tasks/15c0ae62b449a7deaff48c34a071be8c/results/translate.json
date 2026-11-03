@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "43ba72c4-471a-4c96-96c9-313d05a23fd7",
+    "response_id": "chatcmpl-Eg0z9Lonb913i0uxDFocykMUeSvrL",
+    "usage": {
+      "completion_tokens": 1341,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 237,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1724,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1721,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3065
+    }
+  },
+  "received_at": "2026-11-03T06:35:35+00:00",
+  "result": {
+    "html": "<article data-article-id=\"b72ea42a-1a86-4c21-a399-ebd3013c257b\">\n  <figure>\n    <img src=\"/images/articles/b72ea42a-1a86-4c21-a399-ebd3013c257b-1.jpg\" alt=\"En telegrafnyckel och dess elektriska kontakter\">\n  </figure>\n  <p>”Om ni ber, ska jag göra det.” När det gäller sådant som bara Gud kan göra, vänder vi oss naturligtvis till bönen. Eftersom vi vet att vi själva inte kan göra det, sätter vi vårt hopp endast till den bön som får Gud att handla. Men låt oss också komma ihåg att även vår egen personliga tjänst, i sådant som <em>vi kan</em> göra, behöver den bön som låter Gud verka i den. Förstår vi att allt vi gör behöver genomsyras av bönens anda, så att <em>Gud</em> verkligen är den som gör och verkar i det vi så ivrigt håller på med? Ändå är detta en mäktig sanning: ”Om ni ber, ska jag göra det” gäller både er egen tjänst och er förbön för andra.</p>\n  <p>Har du någon gång lekt med en telegrafnyckel medan kretsen var sluten? I så fall har du lagt märke till följande. På den nyckeln kan du skriva ett fullständigt meddelande, från adress till underskrift. Varje telegraftecken kan formas perfekt; alla krav på skicklig telegrafering kan uppfyllas. Men det spelar ingen roll hur skicklig operatör du är: så länge den elektriska kretsen är sluten är alla dina ansträngningar bara klingande mässing och klapprande platina. Inte en enda gnista av elektriskt liv sänder du iväg; inte ett enda meddelande, gott eller ont, till skada eller välsignelse, når den väntande lyssnaren vid linjens andra ände.</p>\n  <h2>VARFÖR?</h2>\n  <p><em>Därför att batteriet inte fungerar.</em> Och allt <em>ditt</em> arbete är möda utan resultat, aktivitet utan kraft.</p>\n  <p>Men nu öppnar du den lilla mässingsspaken som förbinder din nyckel med batteriet under bordet. Genast fylls varje bokstav du formar av liv, och varje ord du skriver sänder ett levande meddelande in i den avlägsna mottagarens sinne och hjärta. Genom ditt arbete, som i sig är dött och mekaniskt, strömmar nu det elektriska batteriets livgivande flöde, som fyller varje skicklig rörelse hos dina snabba fingrar med liv och kraft.</p>\n  <h2>LÄRDOMEN ÄR TYDLIG</h2>\n  <p>Det är likadant i andlig telegrafi som i materiell. Om batteriet inte fungerar är meddelandet bara ett klapper. <em>Vi</em> kan <em>göra</em>, men om <em>Gud</em> inte verkar genom oss är allt vi gör förgäves. Om vi arbetar i vår egen köttsliga styrka åstadkommer vi bara köttsliga resultat, för ”det som är fött av köttet <em>är</em> kött”. Gud ensam är andligt liv. Gud är den ende som ger liv. Vår främsta uppgift som tjänare är att förmedla Guds liv till andra. Det främsta vi kan göra är det som Gud gör genom oss.</p>\n  <p>Och hur ska detta ske?</p>\n  <h2>GENOM BÖN</h2>\n  <p>Bönen förbinder dig med livets och kraftens gudomliga batteri. Bönen försätter dig ”i Anden”, och ”det är <em>Anden</em> som ger liv”. Från bönens kammare kommer du ut till människorna med smörjelsen, den subtila kraften, känslan av Guds eget liv över dig. När du fortsätter att be, fortsätter Gud att verka. När du blir bönefattig blir dina gärningar kraftlösa. Led inget möte utan att <em>be</em> att Gud verkligen ska leda genom dig; framför inget budskap utan att <em>be</em> att han ska tala genom dig; påbörja inget arbete utan att <em>be</em> att Gud ska verka genom dig. För: <em>”Om ni ber, ska jag göra det.”</em></p>\n</article>\n",
+    "section": null,
+    "subtitle": null,
+    "title": "ETT LÖFTE FÖR TJÄNSTEN"
+  }
+}
