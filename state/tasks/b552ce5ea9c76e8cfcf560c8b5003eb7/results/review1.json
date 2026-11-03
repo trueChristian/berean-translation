@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "69bb51f1-6337-4ce7-bdb3-83692943a2eb",
+    "response_id": "chatcmpl-Eg35ZOLgaZHVBceZyf5HngvXYwmQY",
+    "usage": {
+      "completion_tokens": 565,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 371,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3539,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3536,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4104
+    }
+  },
+  "received_at": "2026-11-03T08:41:57+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML: paragraph beginning «ابتسم الرجل ابتسامة عريضة»; paragraph beginning «ابتسم الشيطان ابتسامة عريضة»",
+        "severity": "major",
+        "source_quote": "“I’m going to prod them with sticks”; “I’m going to prod them, provoke them”",
+        "suggested_fix": "في الفقرة الأولى، استبدل «سأطعنها بالعصي» بـ«سأوخزها بالعصي». وفي الفقرة الثانية، استبدل «سأطعنهم وأستفزهم» بـ«سأوخزهم وأستفزهم».",
+        "translation_quote": "«سأطعنها بالعصي وأغضبها كثيرًا»؛ «سأطعنهم وأستفزهم»"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 93
+  }
+}

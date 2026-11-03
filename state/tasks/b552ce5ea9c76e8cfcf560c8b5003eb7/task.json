@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "23b318c03dcb45c19d893311bbc2c45e",
   "campaign": "auto-81092f5e8de2da0ba4dcb54ccb8846189a2d901636cffafef33055ad4efe78e8",
   "created_at": "2026-11-03T00:01:37+00:00",
   "events": [
@@ -28,10 +27,38 @@
         },
         "total_tokens": 3185
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 565,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 371,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3539,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 3536,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4104
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "HTML: paragraph beginning «ابتسم الرجل ابتسامة عريضة»; paragraph beginning «ابتسم الشيطان ابتسامة عريضة»",
+      "severity": "major",
+      "source_quote": "“I’m going to prod them with sticks”; “I’m going to prod them, provoke them”",
+      "suggested_fix": "في الفقرة الأولى، استبدل «سأطعنها بالعصي» بـ«سأوخزها بالعصي». وفي الفقرة الثانية، استبدل «سأطعنهم وأستفزهم» بـ«سأوخزهم وأستفزهم».",
+      "translation_quote": "«سأطعنها بالعصي وأغضبها كثيرًا»؛ «سأطعنهم وأستفزهم»"
+    }
+  ],
   "id": "b552ce5ea9c76e8cfcf560c8b5003eb7",
   "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
   "language": "ara",
@@ -120,11 +147,13 @@
     }
   },
   "protected": false,
+  "quality_score": 93,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/b08ec4f0215afd6de2e0d4479cbfcb21946e5e3f007c8edb4babcb4586294002.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "translate",
     "max_candidate_bytes": 120000,
@@ -138,7 +167,7 @@
     "total_reserved_usd": 0.086778,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "2fe4971d188bb3d6dead7e494929bc66c75dcadb7d5a5a8de1ac402304b85733",
   "translation_model_actual": "gpt-6-luna"

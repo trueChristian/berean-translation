@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML: paragraph beginning «ابتسم الرجل ابتسامة عريضة»; paragraph beginning «ابتسم الشيطان ابتسامة عريضة»",
+      "severity": "major",
+      "source_quote": "“I’m going to prod them with sticks”; “I’m going to prod them, provoke them”",
+      "suggested_fix": "في الفقرة الأولى، استبدل «سأطعنها بالعصي» بـ«سأوخزها بالعصي». وفي الفقرة الثانية، استبدل «سأطعنهم وأستفزهم» بـ«سأوخزهم وأستفزهم».",
+      "translation_quote": "«سأطعنها بالعصي وأغضبها كثيرًا»؛ «سأطعنهم وأستفزهم»"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
