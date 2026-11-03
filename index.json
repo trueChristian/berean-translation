@@ -53855,6 +53855,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/kor/articles/30796e2b-9ec4-4bcf-b9e3-7d40802ff1f9.html",
+      "html_sha256": "80333348ab900598324b5f822c57d29c25c5a2af47eecda3fd203ad1daeeee08",
+      "human_reviewed": false,
+      "id": "30796e2b-9ec4-4bcf-b9e3-7d40802ff1f9",
+      "images": [
+        {
+          "alt": "나이 든 남자가 새장 옆에서 부채를 들고 있다",
+          "public_path": "/images/articles/30796e2b-9ec4-4bcf-b9e3-7d40802ff1f9-1.jpg"
+        },
+        {
+          "alt": "아이들이 매달린 새장 옆에 서 있는 남자를 마주하고 있다",
+          "public_path": "/images/articles/30796e2b-9ec4-4bcf-b9e3-7d40802ff1f9-2.jpg"
+        }
+      ],
+      "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
+      "language": "kor",
+      "language_tag": "ko",
+      "metadata": "content/kor/articles/30796e2b-9ec4-4bcf-b9e3-7d40802ff1f9.json",
+      "metadata_sha256": "6d5efa13266c9510d025863263605feee7244b7c7995dea7d223e82734dca6a9",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": null,
+      "source_revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
+      "source_translation_key": "2fe4971d188bb3d6dead7e494929bc66c75dcadb7d5a5a8de1ac402304b85733",
+      "status": "ready",
+      "subtitle": null,
+      "title": "새장",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/kor/articles/30d02d2c-805c-437c-ad10-4542362ab6de.html",
       "html_sha256": "334367c8c2f2760bcf74717f7a805b313ee58a2799108344fd4b0f41b295705b",
       "human_reviewed": false,
