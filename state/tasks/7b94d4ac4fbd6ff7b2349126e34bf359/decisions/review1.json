@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragrafo «L’uomo fece un passo avanti»",
+      "severity": "major",
+      "source_quote": "“Can I buy these people from you?”",
+      "suggested_fix": "«Posso comprare queste persone da te?», chiese.",
+      "translation_quote": "«Posso comprarti queste persone?», chiese."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

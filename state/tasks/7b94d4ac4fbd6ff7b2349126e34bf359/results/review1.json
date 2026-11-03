@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "e4631412-40f7-4253-9401-6cfa7c10e2b4",
+    "response_id": "chatcmpl-EgBN0yLTDxCqRdVuBXPrrIof9DCxV",
+    "usage": {
+      "completion_tokens": 658,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 553,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3616,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2513,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 4274
+    }
+  },
+  "received_at": "2026-11-03T16:40:37+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragrafo «L’uomo fece un passo avanti»",
+        "severity": "major",
+        "source_quote": "“Can I buy these people from you?”",
+        "suggested_fix": "«Posso comprare queste persone da te?», chiese.",
+        "translation_quote": "«Posso comprarti queste persone?», chiese."
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 94
+  }
+}
