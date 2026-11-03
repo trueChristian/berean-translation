@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-03T08:42:23+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, “Langkah-Langkah Menuju Kemenangan,” quotation of 2 Timotius 1:12\",\"severity\":\"major\",\"source_quote\":\"“for I know whom I have believed, and am persuaded that he is able to keep that which I have committed unto him against that day.”\",\"suggested_fix\":\"“sebab aku tahu kepada siapa aku percaya dan aku yakin bahwa Dia berkuasa memelihara apa yang telah kupercayakan kepada-Nya hingga pada hari itu.”\",\"translation_quote\":\"“sebab aku tahu kepada siapa aku percaya dan aku yakin bahwa Dia berkuasa memelihara apa yang telah dipercayakan-Nya kepadaku hingga pada hari itu.”\"}],\"findings_complete\":true,\"passed\":false,\"score\":92}",
+    "content_bytes": 671,
+    "content_evidence_truncated": false,
+    "content_sha256": "9920e94e80c85674f554699b2ba704b6c4776328be15ad05ffd980764e1e66a4",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 691,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 12436,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 11333,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 13127
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}
