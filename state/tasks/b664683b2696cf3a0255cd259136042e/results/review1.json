@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "ea78422b-237e-4128-a3c8-a846e8932727",
+    "response_id": "chatcmpl-EfyHIIe8MQGBY2LRznwNm0fdp6Lg3",
+    "usage": {
+      "completion_tokens": 603,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 356,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3118,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2015,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 3721
+    }
+  },
+  "received_at": "2026-11-03T06:36:16+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Laatste alinea, drie zinnen over een bijeenkomst leiden, een boodschap brengen en werk beginnen",
+        "severity": "major",
+        "source_quote": "“Lead no meeting without asking that God may be the real leader through you; speak no message without asking that He may speak through you; begin no work without asking that God may work though you.”",
+        "suggested_fix": "Vervang in deze drie zinnen ‘te vragen of God door u heen de ware leider mag zijn’, ‘te vragen of Hij door u heen mag spreken’ en ‘te vragen of God door u heen mag werken’ door respectievelijk ‘God te vragen om door u heen de ware leider te zijn’, ‘Hem te vragen om door u heen te spreken’ en ‘God te vragen om door u heen te werken’.",
+        "translation_quote": "‘Leid geen bijeenkomst zonder te vragen of God door u heen de ware leider mag zijn; breng geen boodschap zonder te vragen of Hij door u heen mag spreken; begin geen werk zonder te vragen of God door u heen mag werken.’"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 93
+  }
+}
