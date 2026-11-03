@@ -1,0 +1,184 @@
+{
+  "article_id": "b72ea42a-1a86-4c21-a399-ebd3013c257b",
+  "automatic_previous_task": "596403435d4b602825b0818f6a90205e",
+  "autonomous": true,
+  "autonomous_recovery": true,
+  "base_html_sha256": null,
+  "base_metadata_sha256": null,
+  "campaign": "auto-cf5d2464c1e75834b901c137fe5a4cc2ba6cf258f66aa08775de4f311d54784b",
+  "created_at": "2026-11-03T06:40:59+00:00",
+  "events": [],
+  "findings": [
+    {
+      "location": "প্রথম অনুচ্ছেদ; উদ্ধৃত প্রতিশ্রুতি",
+      "severity": "major",
+      "source_quote": "“If ye ask, I will do.”",
+      "suggested_fix": "“তোমরা যদি প্রার্থনা করো, আমি করব।”",
+      "translation_quote": "“তোমরা যদি চাও, আমি করব।”"
+    },
+    {
+      "location": "প্রথম অনুচ্ছেদ; শেষ বাক্য",
+      "severity": "major",
+      "source_quote": "“If ye ask, I will do” applies to your own service as well as your intercession for others.",
+      "suggested_fix": "“তোমরা যদি প্রার্থনা করো, আমি করব”—এ কথা তোমাদের নিজেদের সেবার ক্ষেত্রেও যেমন প্রযোজ্য, তেমনি অন্যদের জন্য তোমাদের মধ্যস্থতার ক্ষেত্রেও।",
+      "translation_quote": "“তোমরা যদি চাও, আমি করব”—এ কথা তোমাদের নিজেদের সেবার ক্ষেত্রেও যেমন প্রযোজ্য, তেমনি অন্যদের জন্য তোমাদের মধ্যস্থতার ক্ষেত্রেও।"
+    },
+    {
+      "location": "শেষ অনুচ্ছেদ; শেষ বাক্য",
+      "severity": "major",
+      "source_quote": "For, “If ye ask, I will do.”",
+      "suggested_fix": "কারণ, “তোমরা যদি প্রার্থনা করো, আমি করব।”",
+      "translation_quote": "কারণ, “তোমরা যদি চাও, আমি করব।”"
+    },
+    {
+      "location": "শেষ অনুচ্ছেদ; সভা, বার্তা ও কাজের নির্দেশ",
+      "severity": "major",
+      "source_quote": "Lead no meeting without asking that God may be the real leader through you; speak no message without asking that He may speak through you; begin no work without asking that God may work though you.",
+      "suggested_fix": "ঈশ্বর যেন আপনার মাধ্যমে প্রকৃত নেতা হন—এই প্রার্থনা না করে কোনো সভা পরিচালনা করবেন না; তিনি যেন আপনার মাধ্যমে কথা বলেন—এই প্রার্থনা না করে কোনো বার্তা দেবেন না; ঈশ্বর যেন আপনার মাধ্যমে কাজ করেন—এই প্রার্থনা না করে কোনো কাজ শুরু করবেন না।",
+      "translation_quote": "ঈশ্বর যেন আপনার মাধ্যমে প্রকৃত নেতা হন—এই প্রার্থনা না করে কোনো সভা পরিচালনা করবেন না; তিনি যেন আপনার মাধ্যমে কথা বলেন—এই প্রার্থনা না করে কোনো বার্তা দেবেন না; ঈশ্বর যেন আপনার মাধ্যমে কাজ করেন—এই প্রার্থনা না করে কোনো কাজ শুরু করবেন না।"
+    },
+    {
+      "location": "দ্বিতীয় অনুচ্ছেদ; টেলিগ্রাফের বর্তনী",
+      "severity": "major",
+      "source_quote": "while the circuit was closed",
+      "suggested_fix": "বর্তনী খোলা থাকা অবস্থায়",
+      "translation_quote": "বৈদ্যুতিক বর্তনী বন্ধ থাকা অবস্থায়"
+    },
+    {
+      "location": "দ্বিতীয় অনুচ্ছেদ; বর্তনী বন্ধ থাকলে ফলাফল",
+      "severity": "major",
+      "source_quote": "so long as the electric circuit is closed",
+      "suggested_fix": "বৈদ্যুতিক বর্তনী খোলা থাকা পর্যন্ত",
+      "translation_quote": "বৈদ্যুতিক বর্তনী বন্ধ থাকা পর্যন্ত"
+    },
+    {
+      "location": "তৃতীয় অনুচ্ছেদ; লিভার খোলা",
+      "severity": "major",
+      "source_quote": "you open the little brass lever which connects your key to the battery",
+      "suggested_fix": "আপনি সেই ছোট পিতলের লিভারটি বন্ধ করলেন, যা আপনার চাবিটিকে টেবিলের নিচে লুকানো ব্যাটারির সঙ্গে যুক্ত করে",
+      "translation_quote": "আপনি সেই ছোট পিতলের লিভারটি খুললেন, যা আপনার চাবিটিকে টেবিলের নিচে লুকানো ব্যাটারির সঙ্গে যুক্ত করে"
+    },
+    {
+      "location": "তৃতীয় অনুচ্ছেদ; ব্যাটারির প্রকৃতি",
+      "severity": "major",
+      "source_quote": "the electronic battery",
+      "suggested_fix": "বৈদ্যুতিক ব্যাটারিটি",
+      "translation_quote": "বৈদ্যুতিক ব্যাটারিটি"
+    },
+    {
+      "location": "শেষ অনুচ্ছেদ; সভা, বার্তা ও কাজের নির্দেশ",
+      "severity": "major",
+      "source_quote": "Lead no meeting without asking ... speak no message without asking ... begin no work without asking ...",
+      "suggested_fix": "এই নির্দেশগুলোকে প্রার্থনা না করার শর্ত হিসেবে নয়, বরং ঈশ্বরের কাছে প্রার্থনা করার নির্দেশ হিসেবে লিখুন—যেমন: “ঈশ্বর যেন আপনার মাধ্যমে প্রকৃত নেতা হন—এই প্রার্থনা না করে কোনো সভা পরিচালনা করবেন না।”",
+      "translation_quote": "এই <em>প্রার্থনা না করে</em> কোনো সভা পরিচালনা করবেন না; এই <em>প্রার্থনা না করে</em> কোনো বার্তা দেবেন না; এই <em>প্রার্থনা না করে</em> কোনো কাজ শুরু করবেন না।"
+    }
+  ],
+  "id": "ead6f609b67a1998f5e0868de6541930",
+  "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
+  "language": "ben",
+  "model": "gpt-6.1-sol",
+  "models": {
+    "gpt-4.1": {
+      "api_model": "gpt-4.1-2025-04-14",
+      "context_tokens": 1047576,
+      "input_batch_usd_per_million": 1.0,
+      "max_output_tokens": 32768,
+      "output_batch_usd_per_million": 4.0,
+      "quality_note": "Higher-cost translation or reviewer option.",
+      "reasoning_effort": null
+    },
+    "gpt-4.1-mini": {
+      "api_model": "gpt-4.1-mini-2025-04-14",
+      "context_tokens": 1047576,
+      "input_batch_usd_per_million": 0.2,
+      "max_output_tokens": 32768,
+      "output_batch_usd_per_million": 0.8,
+      "quality_note": "Default cost-conscious candidate; not certified for theological accuracy in every language.",
+      "reasoning_effort": null
+    },
+    "gpt-4.1-nano": {
+      "api_model": "gpt-4.1-nano-2025-04-14",
+      "context_tokens": 1047576,
+      "input_batch_usd_per_million": 0.05,
+      "max_output_tokens": 32768,
+      "output_batch_usd_per_million": 0.2,
+      "quality_note": "Lowest-cost option in this registry; benchmark before bulk publication.",
+      "reasoning_effort": null
+    },
+    "gpt-5-mini": {
+      "api_model": "gpt-5-mini-2025-08-07",
+      "context_tokens": 400000,
+      "input_batch_usd_per_million": 0.125,
+      "max_output_tokens": 128000,
+      "output_batch_usd_per_million": 1.0,
+      "quality_note": "Reasoning tokens consume output budget; benchmark total cost and quality.",
+      "reasoning_effort": "low"
+    },
+    "gpt-6-astra": {
+      "api_model": "gpt-6-astra",
+      "cache_write_batch_usd_per_million": 6.25,
+      "cached_input_batch_usd_per_million": 0.5,
+      "context_tokens": 1050000,
+      "input_batch_usd_per_million": 5.0,
+      "long_context_input_multiplier": 2.0,
+      "long_context_output_multiplier": 1.5,
+      "long_context_threshold_tokens": 272000,
+      "max_output_tokens": 128000,
+      "output_batch_usd_per_million": 25.0,
+      "pricing_verified_on": "2026-10-02",
+      "quality_note": "Higher-cost manual recovery option. Documented API alias; no dated snapshot is published. Reasoning shares the output cap. Quality gates remain required.",
+      "reasoning_effort": "low"
+    },
+    "gpt-6-luna": {
+      "api_model": "gpt-6-luna",
+      "cache_write_batch_usd_per_million": 0.0625,
+      "cached_input_batch_usd_per_million": 0.005,
+      "context_tokens": 1050000,
+      "input_batch_usd_per_million": 0.05,
+      "long_context_input_multiplier": 2.0,
+      "long_context_output_multiplier": 1.5,
+      "long_context_threshold_tokens": 272000,
+      "max_output_tokens": 128000,
+      "output_batch_usd_per_million": 0.25,
+      "pricing_verified_on": "2026-10-02",
+      "quality_note": "Affordable default for new manual translation and review campaigns. Documented API alias; no dated snapshot is published. Reasoning shares the output cap. Benchmark theological accuracy; quality gates remain required.",
+      "reasoning_effort": "low"
+    },
+    "gpt-6.1-sol": {
+      "api_model": "gpt-6.1-sol",
+      "cache_write_batch_usd_per_million": 1.25,
+      "cached_input_batch_usd_per_million": 0.05,
+      "context_tokens": 1050000,
+      "input_batch_usd_per_million": 1.0,
+      "long_context_input_multiplier": 2.0,
+      "long_context_output_multiplier": 1.5,
+      "long_context_threshold_tokens": 272000,
+      "max_output_tokens": 128000,
+      "output_batch_usd_per_million": 5.0,
+      "pricing_verified_on": "2026-10-02",
+      "quality_note": "Stronger downstream recovery option. Documented API alias; no dated snapshot is published. Reasoning shares the output cap. Quality gates remain required.",
+      "reasoning_effort": "low"
+    }
+  },
+  "protected": false,
+  "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
+  "review_attempts": 0,
+  "review_model": "gpt-6.1-sol",
+  "source_snapshot": "state/sources/87f95a553eb83f75422bde15eb3d35effd9dfaf6d17787923fba7393c54d1833.json",
+  "stage": "correct",
+  "stage_budget": {
+    "initial_stage": "correct",
+    "max_candidate_bytes": 120000,
+    "max_findings_bytes": 32768,
+    "stages_usd": {
+      "correct": 0.20105,
+      "review2": 0.358978
+    },
+    "total_reserved_usd": 0.560028,
+    "version": 1
+  },
+  "status": "queued",
+  "translation_attempts": 0,
+  "translation_key": "86918e2f92ec7ff09eda36ffc30c12ee294e7b521bd1120caa6adee2c38e97b0",
+  "translation_model_actual": "gpt-6-luna"
+}
