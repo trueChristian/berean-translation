@@ -55996,6 +55996,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/kor/articles/b72ea42a-1a86-4c21-a399-ebd3013c257b.html",
+      "html_sha256": "71d2f37514f38e7e92a542c913680c440e76e57829618b4ef9f608dc5bacab3a",
+      "human_reviewed": false,
+      "id": "b72ea42a-1a86-4c21-a399-ebd3013c257b",
+      "images": [
+        {
+          "alt": "전신기 키와 전기 접점",
+          "public_path": "/images/articles/b72ea42a-1a86-4c21-a399-ebd3013c257b-1.jpg"
+        }
+      ],
+      "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
+      "language": "kor",
+      "language_tag": "ko",
+      "metadata": "content/kor/articles/b72ea42a-1a86-4c21-a399-ebd3013c257b.json",
+      "metadata_sha256": "b3d32a85504889cdca53edfa394b80e11708096db584f8877029af1982e1928f",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": null,
+      "source_revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
+      "source_translation_key": "86918e2f92ec7ff09eda36ffc30c12ee294e7b521bd1120caa6adee2c38e97b0",
+      "status": "ready",
+      "subtitle": null,
+      "title": "섬김을 위한 약속",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/kor/articles/b8ff6643-9234-465f-ab06-4adfc189a851.html",
       "html_sha256": "1f9d98dc364dff23f1bb7e3c8bd4a1f52db919a576708cd37fb25613d17a868b",
       "human_reviewed": false,

@@ -20,9 +20,32 @@
       "event": "automatic_requested",
       "previous_task": "4bea181c039365a7f6b67b39d39e5ba7",
       "task": "776b7c2d93a313a0b76dabe5dd31632a"
+    },
+    {
+      "at": "2026-11-03T01:52:49+00:00",
+      "event": "complete",
+      "reason": null,
+      "task": "776b7c2d93a313a0b76dabe5dd31632a"
     }
   ],
   "language": "kor",
   "latest_task": "776b7c2d93a313a0b76dabe5dd31632a",
-  "published": null
+  "published": {
+    "html_path": "content/kor/articles/b72ea42a-1a86-4c21-a399-ebd3013c257b.html",
+    "html_sha256": "71d2f37514f38e7e92a542c913680c440e76e57829618b4ef9f608dc5bacab3a",
+    "human_review": null,
+    "human_reviewed": false,
+    "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
+    "metadata_path": "content/kor/articles/b72ea42a-1a86-4c21-a399-ebd3013c257b.json",
+    "metadata_sha256": "b3d32a85504889cdca53edfa394b80e11708096db584f8877029af1982e1928f",
+    "model": "gpt-6.1-sol",
+    "notice_html": "<aside class=\"translation-notice\" data-translation-notice=\"ai\" lang=\"ko\" dir=\"ltr\" role=\"note\">\n  <p>이 글은 OpenAI의 인공지능(모델: gpt-6.1-sol)으로 번역되었으며 아직 사람의 검토를 거치지 않았습니다. 영어 원문이 권위 있는 기준입니다. 의미가 불확실한 경우 영어 원문을 확인해 주십시오. <a href=\"/en/articles/b72ea42a-1a86-4c21-a399-ebd3013c257b/\" data-source-article-id=\"b72ea42a-1a86-4c21-a399-ebd3013c257b\" hreflang=\"en\">영어 원문</a></p>\n</aside>",
+    "published_at": "2026-11-03T01:52:49+00:00",
+    "quality_score": 98,
+    "review_model": "gpt-6.1-sol",
+    "source_revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
+    "source_snapshot": "state/sources/87f95a553eb83f75422bde15eb3d35effd9dfaf6d17787923fba7393c54d1833.json",
+    "task": "776b7c2d93a313a0b76dabe5dd31632a",
+    "translation_key": "86918e2f92ec7ff09eda36ffc30c12ee294e7b521bd1120caa6adee2c38e97b0"
+  }
 }
