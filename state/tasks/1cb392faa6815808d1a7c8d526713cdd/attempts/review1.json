@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-03T16:41:55+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Slutcitatet, Ordspråksboken 3:5–6\",\"severity\":\"minor\",\"source_quote\":\"In all thy ways acknowledge him\",\"suggested_fix\":\"Tänk på honom på alla dina vägar → Räkna med honom på alla dina vägar\",\"translation_quote\":\"Tänk på honom på alla dina vägar\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 340,
+    "content_evidence_truncated": false,
+    "content_sha256": "6753cd88f381f21056eb9d56038a1497824ff7398583dbc15d7d17976e1c9f70",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 684,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 571,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3521,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2418,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 4205
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}
