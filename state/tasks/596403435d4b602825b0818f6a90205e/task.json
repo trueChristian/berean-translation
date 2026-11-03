@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "6f62643b2b154f1a8a0ef8c44abfb927",
   "campaign": "auto-87fdcb1df2fab354fce90057269fecf53989daabdf3334e2afaaedc3b5334bd4",
   "created_at": "2026-11-02T06:41:00+00:00",
   "events": [
@@ -48,9 +47,30 @@
         },
         "total_tokens": 4394
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "correct",
+      "usage": {
+        "completion_tokens": 1501,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 184,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4068,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 4065,
+          "cached_tokens": 0
+        },
+        "total_tokens": 5569
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[43]: source /article[1]/p[7]/em[3] ('start', 'em', ()); translation /article[1]/p[7] ('end', 'p')",
+  "failure_kind": "invalid_result",
   "findings": [
     {
       "location": "প্রথম অনুচ্ছেদ; উদ্ধৃত প্রতিশ্রুতি",
@@ -116,6 +136,7 @@
       "translation_quote": "এই <em>প্রার্থনা না করে</em> কোনো সভা পরিচালনা করবেন না; এই <em>প্রার্থনা না করে</em> কোনো বার্তা দেবেন না; এই <em>প্রার্থনা না করে</em> কোনো কাজ শুরু করবেন না।"
     }
   ],
+  "finished_at": "2026-11-03T06:35:38+00:00",
   "id": "596403435d4b602825b0818f6a90205e",
   "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
   "language": "ben",
@@ -224,7 +245,7 @@
     "total_reserved_usd": 0.08669,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "86918e2f92ec7ff09eda36ffc30c12ee294e7b521bd1120caa6adee2c38e97b0",
   "translation_model_actual": "gpt-6-luna"
