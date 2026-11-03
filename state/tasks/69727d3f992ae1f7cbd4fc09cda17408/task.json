@@ -5,11 +5,229 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "630c554cb1f444a9afc72629fdb91bf6",
   "campaign": "auto-6d61372019e25728cf0a162811e60ec6c3e0bf4dcf80aa9dd1deff223bdb8ea1",
   "created_at": "2026-11-03T15:53:11+00:00",
-  "events": [],
-  "findings": [],
+  "events": [
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 3408,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 36,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9393,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8290,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 12801
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "translation.title, translation.subtitle, translation.section",
+      "severity": "major",
+      "source_quote": "Discipleship—The Path of Healing; The Discipleship Series; VICTORIOUS CHRISTIAN LIVING",
+      "suggested_fix": "תרגמו את שלושת השדות: title: \"תלמידות — דרך הריפוי\"; subtitle: \"סדרת התלמידות\"; section: \"חיים נוצריים של ניצחון\".",
+      "translation_quote": "Discipleship—The Path of Healing; The Discipleship Series; VICTORIOUS CHRISTIAN LIVING"
+    },
+    {
+      "location": "html: Scripture references throughout",
+      "severity": "major",
+      "source_quote": "Luke 4:18-19; Luke 4:21; John 10:10; James 5:14-16; John 5; Psalm 119:67; Luke 4:18-19; 1 John 4:18; Psalm 56:3; Philippians 4:6; Ephesians 4:31; Hebrews 4:15-16; Hebrews 4:1-2; Psalm 103:1-5",
+      "suggested_fix": "החליפו את שמות הספרים בכל המיקומים האלה בשמות עבריים מקובלים, ללא שינוי במספרים או במיקום ההפניות: לוקס, יוחנן, יעקב, תהילים, יוחנן א׳, פיליפים, אפסים, עברים. בפרט כתבו \"ביוחנן 5\" במקום \"בJohn 5\".",
+      "translation_quote": "Luke 4:18-19; Luke 4:21; John 10:10; James 5:14-16; בJohn 5; Psalm 119:67; Luke 4:18-19; 1 John 4:18; Psalm 56:3; Philippians 4:6; Ephesians 4:31; Hebrews 4:15-16; Hebrews 4:1-2; Psalm 103:1-5"
+    },
+    {
+      "location": "html: opening quotation and its repetition after the Bethesda account",
+      "severity": "major",
+      "source_quote": "he hath anointed me to preach the gospel to the poor ... To preach the acceptable year of the Lord",
+      "suggested_fix": "בשני המיקומים החליפו ב\"כי משח אותי לבשר לעניים\" וב\"להכריז על שנת הרצון של ה׳\".",
+      "translation_quote": "כי משח אותי להגבִיר בשורת לעניים ... לקרוא לשנת־ה׳ הנעימה"
+    },
+    {
+      "location": "html: James 5:14-16 quotation",
+      "severity": "critical",
+      "source_quote": "anointing him with oil ... Confess your faults one to another",
+      "suggested_fix": "החליפו \"וישחטו אותו בשמן\" ב\"וימשחו אותו בשמן\", ואת \"פרגו זה לחברו את אשמותיו\" ב\"התוודו זה בפני זה על חטאיכם\".",
+      "translation_quote": "וישחטו אותו בשמן ... פרגו זה לחברו את אשמותיו"
+    },
+    {
+      "location": "html: paragraph explaining requirements for anointing",
+      "severity": "major",
+      "source_quote": "there are a number of things that are expected of those seeking the healing ... Confess[ing] your faults one to another ... any known, unconfessed sin",
+      "suggested_fix": "כתבו \"יש כמה דברים הנדרשים ממבקשי הריפוי\", \"להתוודות זה בפני זה על חטאיכם\", ו\"כל חטא ידוע שלא התוודיתי עליו\" בהתאמה.",
+      "translation_quote": "יש מספר דברים שהמצפים לריפוי נשאפים אליהם ... להודיע אשמות איש לרעהו ... כל חטא ידוע שלא הודה"
+    },
+    {
+      "location": "html: radiation-treatment paragraph",
+      "severity": "major",
+      "source_quote": "the delayed effect of radiation. I breezed through the treatments",
+      "suggested_fix": "כתבו \"ההשפעה המאוחרת של ההקרנות. עברתי את הטיפולים בקלות\".",
+      "translation_quote": "ההשפעה המעכבת של ההקרנות. עברתי את הטיפולים"
+    },
+    {
+      "location": "html: four-sermon paragraph",
+      "severity": "major",
+      "source_quote": "those evening messages",
+      "suggested_fix": "החליפו ב\"אותן דרשות בשעות הערב\".",
+      "translation_quote": "אותן דרשות ערביות"
+    },
+    {
+      "location": "html: bloodwork paragraph",
+      "severity": "major",
+      "source_quote": "May God be praised!",
+      "suggested_fix": "החליפו ב\"ישתבח האל!\".",
+      "translation_quote": "יהי שם ה׳ במלל!"
+    },
+    {
+      "location": "html: Mark 2 paragraph, both forgiveness quotations",
+      "severity": "major",
+      "source_quote": "Thy sins be forgiven thee ... thy sins be forgiven",
+      "suggested_fix": "החליפו את \"נחלו חטאיך\" בשני המופעים ב\"נסלחו לך חטאיך\".",
+      "translation_quote": "נחלו חטאיך ... נחלו חטאיך"
+    },
+    {
+      "location": "html: Psalm 119:67 introduction and quotation",
+      "severity": "major",
+      "source_quote": "The Psalmist said ... Before I was afflicted I went astray: but now have I kept thy word",
+      "suggested_fix": "כתבו \"מחבר המזמור אמר\" במקום הייחוס לקינות; תרגמו את הציטוט \"לפני שסבלתי תעיתי, אך כעת אני שומר את דברך\".",
+      "translation_quote": "המשורר בקינות אמר ... לפני שנענשתי סרתי; ועכשיו אני שומר מדרכך"
+    },
+    {
+      "location": "html: questions about emotional healing",
+      "severity": "major",
+      "source_quote": "fear, anxiety, anger, and bitterness",
+      "suggested_fix": "החליפו \"זעם ומרים\" ב\"זעם ומרירות\".",
+      "translation_quote": "פחד, חרדה, זעם ומרים"
+    },
+    {
+      "location": "html: introduction to emotional-disorder lists and final Fear list item",
+      "severity": "major",
+      "source_quote": "The Bible addresses most emotional disorders ... “Fear not” is found 63 times in the Bible",
+      "suggested_fix": "החליפו את \"התנ״ך\" בשני המקומות ב\"כתבי הקודש\", כדי לכלול גם את הברית החדשה כמובנה של Bible במקור.",
+      "translation_quote": "התנ\"ך דן ברוב ההפרעות הרגשיות ... \"אל־תִּירָא\" נמצא 63 פעמים בתנ\"ך"
+    },
+    {
+      "location": "html: Anxiety quotation",
+      "severity": "major",
+      "source_quote": "with thanksgiving",
+      "suggested_fix": "החליפו \"עם תודעה\" ב\"בהודיה\".",
+      "translation_quote": "עם תודעה"
+    },
+    {
+      "location": "html: Anger quotation",
+      "severity": "major",
+      "source_quote": "with all malice",
+      "suggested_fix": "הוסיפו \"וכן כל זדון\" בסוף הציטוט, לפני ההפניה.",
+      "translation_quote": "הרחיקו מעליכם כל מרירות וחמה וזעם וצעקה וכל דיבה רעה"
+    },
+    {
+      "location": "html: Hebrews 4:15-16 quotation",
+      "severity": "major",
+      "source_quote": "our infirmities; but was in all points tempted like as we are, yet without sin",
+      "suggested_fix": "כתבו \"חולשותינו; אלא שהוא נוסה בכל דבר כמונו, אך ללא חטא\".",
+      "translation_quote": "חוליותינו; כי בכל נקודות הוא נוסה כמונו, חוץ מהחטא"
+    },
+    {
+      "location": "html: Hebrews 4:1-2 quotation",
+      "severity": "major",
+      "source_quote": "lest, a promise being left us of entering into his rest, any of you should seem to come short of it. For unto us was the gospel preached",
+      "suggested_fix": "החליפו את תחילת הציטוט ב\"לכן ניזהר, שמא, אף שנותרה לנו ההבטחה להיכנס למנוחתו, יתברר שאחד מכם לא הגיע אליה. כי גם לנו בושרה הבשורה\".",
+      "translation_quote": "פן־תישאר לנו הבטחה להיכנס למנוחתו, שמא נראה שאחד מכם יפקיר מכך. כי לנו הובשה הבשורה"
+    },
+    {
+      "location": "html: blockquote, first paragraph",
+      "severity": "major",
+      "source_quote": "That ye resist not evil",
+      "suggested_fix": "החליפו ב\"אל תתנגדו לרע\".",
+      "translation_quote": "אל תעמדו ברעתו"
+    },
+    {
+      "location": "html: blockquote, third paragraph",
+      "severity": "major",
+      "source_quote": "bless them that curse you",
+      "suggested_fix": "החליפו ב\"ברכו את המקללים אתכם\".",
+      "translation_quote": "ברכו את המללליכם"
+    },
+    {
+      "location": "html: concluding Psalm 103:1-5 quotation",
+      "severity": "major",
+      "source_quote": "who crowneth thee with lovingkindness and tender mercies ... so that thy youth is renewed like the eagle’s",
+      "suggested_fix": "החליפו ב\"הוא מעטר אותך בחסד וברחמים\" וב\"כך שנעורייך מתחדשים כנשר\" בהתאמה.",
+      "translation_quote": "הוא משיב עליך חסד ורחמים ... והשיבה נעוריך כשל־נץ"
+    },
+    {
+      "location": "html: paragraph beginning “In this article”",
+      "severity": "minor",
+      "source_quote": "<p>In this article",
+      "suggested_fix": "תקנו את תג הפתיחה ל-<p>, תוך שמירת יתר הפסקה והמבנה.",
+      "translation_quote": "<pב>במאמר זה"
+    },
+    {
+      "location": "html: Bartimaeus healing paragraph",
+      "severity": "minor",
+      "source_quote": "blindly rushed into the street ... of unclean spirits",
+      "suggested_fix": "החליפו \"וברדף בעיוורון\" ב\"ומיהר בעיוורון\", ואת \"מרוחות טמאה\" ב\"מרוחות טמאות\".",
+      "translation_quote": "וברדף בעיוורון אל הרחוב ... מרוחות טמאה"
+    },
+    {
+      "location": "html: diagnosis paragraph",
+      "severity": "minor",
+      "source_quote": "I knew that someday I would die",
+      "suggested_fix": "כתבו \"ידעתי שיום אחד אמות\".",
+      "translation_quote": "ידעתי שאבוא יום־מה אל המוות"
+    },
+    {
+      "location": "html: Paul paragraph and four-sermon paragraph",
+      "severity": "minor",
+      "source_quote": "Paul was given a thorn ... My grace is sufficient for you, for my strength is made perfect in your weakness ... four consecutive evenings",
+      "suggested_fix": "כתבו \"ניתן לפאולוס קוץ\", \"די לך בחסדי, כי כוחי מגיע לשלמות בחולשתך\", ו\"בארבעה ערבים רצופים\" בהתאמה.",
+      "translation_quote": "נתן לפאולוס קוץ ... חסדי מספיק לך כי בכוחי מתמלאת שלמות בחולשתך ... בארבע ערבים רצופים"
+    },
+    {
+      "location": "html: Mark 2 paragraph",
+      "severity": "minor",
+      "source_quote": "for forgiving sins ... Jesus has the power",
+      "suggested_fix": "כתבו \"על סליחת חטאים\" ו\"שלישו יש את הכוח\" בהתאמה.",
+      "translation_quote": "על הסליחת חטאים ... שישו יש ל־ו את הכוח"
+    },
+    {
+      "location": "html: emotional-healing paragraphs",
+      "severity": "minor",
+      "source_quote": "people reading this article ... if you are bound to a past",
+      "suggested_fix": "כתבו \"קוראים רבים של מאמר זה\" ו\"אם אתה כבול לעבר\" בהתאמה.",
+      "translation_quote": "קוראים רבים שלמאמר זה ... אם אתה כבל לעבר"
+    },
+    {
+      "location": "html: blockquote, second and third paragraphs",
+      "severity": "minor",
+      "source_quote": "from you ... go with him twain ... do good to them that hate you, and pray for them which despitefully use you, and persecute you",
+      "suggested_fix": "החליפו את שני מופעי \"ממכם\" ב\"מכם\", \"לכו אתו שתים\" ב\"לכו איתו שני מיילים\", ואת סוף ההוראה ב\"עשו טוב לשונאיכם והתפללו בעד המציקים לכם והרודפים אתכם\".",
+      "translation_quote": "ממכם ... ממכם ... לכו אתו שתים ... עשו טוב לשונאיך, והתפללו בעד המציקים אתכם והרדפים אתכם"
+    },
+    {
+      "location": "html: final explanatory paragraph and final Psalm quotation",
+      "severity": "minor",
+      "source_quote": "that is the nature of the gospel ... Bless the LORD, O my soul: and all that is within me ... forget not all his benefits",
+      "suggested_fix": "כתבו \"כזה טבעה של הבשורה\"; בפתיחת המזמור כתבו \"ברכי את ה׳, נפשי, וכל מה שבתוכי יברך את שמו הקדוש\"; ובהמשך \"ואל תשכחי את כל טובותיו\".",
+      "translation_quote": "כזה טבען של הבשורה ... ברכּו את ה׳, נפשי; וכל־בתוכי ... ואל־תשכח כל־טובתו"
+    },
+    {
+      "location": "html: John 10:10 quotation",
+      "severity": "minor",
+      "source_quote": "that they might have life",
+      "suggested_fix": "החליפו \"שיהיה להם חיים\" ב\"שיהיו להם חיים\".",
+      "translation_quote": "שיהיה להם חיים"
+    }
+  ],
   "id": "69727d3f992ae1f7cbd4fc09cda17408",
   "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
   "language": "heb",
@@ -98,11 +316,13 @@
     }
   },
   "protected": false,
+  "quality_score": 54,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/cff3b99283ac5731e52f58a9f2a616f2665b7254c005e40044018899ae3703d0.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "review1",
     "max_candidate_bytes": 120000,
@@ -115,7 +335,7 @@
     "total_reserved_usd": 0.772829,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 0,
   "translation_key": "fc44b039aea712201d6120cdd0a9cc720777f5be0958b210ab2feef1a8e2d639",
   "translation_model_actual": "gpt-5-mini-2025-08-07"
