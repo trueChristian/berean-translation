@@ -93627,6 +93627,38 @@
     {
       "ai_notice_required": true,
       "direction": "rtl",
+      "html": "content/urd/articles/30796e2b-9ec4-4bcf-b9e3-7d40802ff1f9.html",
+      "html_sha256": "fbfd9747e42dea02ee99c1d9cc069e3d8733e92a1966372abeb727d0e4ee1d22",
+      "human_reviewed": false,
+      "id": "30796e2b-9ec4-4bcf-b9e3-7d40802ff1f9",
+      "images": [
+        {
+          "alt": "ایک عمر رسیدہ آدمی پرندوں کے پنجرے کے پاس پنکھا پکڑے ہوئے ہے",
+          "public_path": "/images/articles/30796e2b-9ec4-4bcf-b9e3-7d40802ff1f9-1.jpg"
+        },
+        {
+          "alt": "بچے ایک لٹکتے پرندوں کے پنجرے کے پاس کھڑے آدمی کے سامنے ہیں",
+          "public_path": "/images/articles/30796e2b-9ec4-4bcf-b9e3-7d40802ff1f9-2.jpg"
+        }
+      ],
+      "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
+      "language": "urd",
+      "language_tag": "ur",
+      "metadata": "content/urd/articles/30796e2b-9ec4-4bcf-b9e3-7d40802ff1f9.json",
+      "metadata_sha256": "fce059f00e96f7bcfa58f518ef4810c43310178572076e13c2c5199cd3af9c2c",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": null,
+      "source_revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
+      "source_translation_key": "2fe4971d188bb3d6dead7e494929bc66c75dcadb7d5a5a8de1ac402304b85733",
+      "status": "ready",
+      "subtitle": null,
+      "title": "پرندوں کا پنجرہ",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
       "html": "content/urd/articles/30d02d2c-805c-437c-ad10-4542362ab6de.html",
       "html_sha256": "52eba9a60da1c88ec83b176c0a9356ccbceba044a3dad57bcb810bd1b9e02be3",
       "human_reviewed": false,
