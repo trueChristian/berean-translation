@@ -5,11 +5,180 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "3d2ded4eead844e7a28a46a6ac61c3bf",
   "campaign": "auto-792bc8df02004f816864cd12059b5cc6633591edde2eadd48ae01186b9a3670b",
   "created_at": "2026-11-03T08:46:18+00:00",
-  "events": [],
-  "findings": [],
+  "events": [
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 3267,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 65,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 11175,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 11172,
+          "cached_tokens": 0
+        },
+        "total_tokens": 14442
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "html, Genesis 3:16–19 quotation",
+      "severity": "major",
+      "source_quote": "I will greatly multiply thy sorrow and thy conception ... he shall rule over thee ... Because thou hast hearkened unto the voice of thy wife",
+      "suggested_fix": "החליפו את תוכן ה־em, תוך שימור התגית וההפניה, ב: לאישה אמר: ארבה מאוד את כאבך ואת הריונך; בכאב תלדי ילדים, ותשוקתך תהיה לבעלך, והוא ימשול בך. ולאדם אמר: מפני שהקשבת לקול אשתך ואכלת מן העץ שעליו ציוויתי אותך ואמרתי שלא תאכל ממנו, האדמה ארורה בגללך; בעצב תאכל ממנה כל ימי חייך. קוצים ודרדרים היא תצמיח לך, ותאכל את צמחי השדה. בזיעת פניך תאכל לחם עד שתשוב לאדמה, כי ממנה נלקחת; כי עפר אתה ואל עפר תשוב –בראשית 3:16-19.",
+      "translation_quote": "המרבה עצבך והרננתך ... והוא ישלשל בך ... כי־שמע לבקול אשתי ... אשר צוה אתך לאכול ממנו לא־תאכל"
+    },
+    {
+      "location": "html, paragraph on the continuum of depression",
+      "severity": "major",
+      "source_quote": "Some people have mild discouragement",
+      "suggested_fix": "החליפו את ״יש אנשים עם עידוד קל״ ב״יש אנשים שחשים דכדוך קל״.",
+      "translation_quote": "יש אנשים עם עידוד קל"
+    },
+    {
+      "location": "html, first paragraph introducing Naomi",
+      "severity": "major",
+      "source_quote": "she went with her husband and her two sons to Moab",
+      "suggested_fix": "החליפו את ״לעשיו״ ב״למואב״.",
+      "translation_quote": "היא הלכה עם בעלה ושני בניה לעשיו"
+    },
+    {
+      "location": "html, Ruth 1:20–21 quotation",
+      "severity": "major",
+      "source_quote": "Call me not Naomi [pleasant], call me Mara [bitter]: for the Almighty hath dealt very bitterly with me. I went out full",
+      "suggested_fix": "החליפו את תוכן ה־em ב: אל תקראו לי נעמי [נעימה], קראו לי מרה [מרה], כי שדי נהג בי במרירות רבה. יצאתי מלאה, וה׳ החזיר אותי הביתה ריקה. מדוע תקראו לי נעמי, כאשר ה׳ העיד נגדי ושדי הביא עליי צרה? –רות 1:20-21.",
+      "translation_quote": "כי־גדל עלי המר מכלי נעימים עבר עלי. יצאתי שְׂבָעָה ... והאל הגדול רעה לי"
+    },
+    {
+      "location": "html, Ruth 4:14–16 quotation",
+      "severity": "major",
+      "source_quote": "a restorer of thy life ... thy daughter in law, which loveth thee, which is better to thee than seven sons ... became nurse unto it",
+      "suggested_fix": "החליפו את תוכן ה־em ב: והנשים אמרו לנעמי: ברוך ה׳ שלא השאיר אותך היום בלי גואל; יהי שמו מפורסם בישראל. הוא ישיב לך את חיותך ויכלכל אותך בזקנתך, כי כלתך, האוהבת אותך וטובה לך משבעה בנים, ילדה אותו. נעמי לקחה את הילד, הניחה אותו בחיקה והייתה לו לאומנת –רות 4:14-16.",
+      "translation_quote": "והוא לך למנוחת נפש ... הכלה שאהבת יותר לך משבעה בנים ... ותשמנה על־שדה בחיקה והיתה לו לאמו מַלְקָה"
+    },
+    {
+      "location": "html, paragraph on threats to Jeremiah",
+      "severity": "major",
+      "source_quote": "At one time, he was thrown into a dungeon full of mud",
+      "suggested_fix": "החליפו את ״פעמיים או שלוש הוא הושלך לכלא בוצי״ ב״באחת הפעמים הוא הושלך לצינוק מלא בוץ״.",
+      "translation_quote": "פעמיים או שלוש הוא הושלך לכלא בוצי"
+    },
+    {
+      "location": "html, Jeremiah 20:14–18 quotation",
+      "severity": "major",
+      "source_quote": "let not the day wherein my mother bare me be blessed ... the cities which the LORD overthrew, and repented not",
+      "suggested_fix": "החליפו את תוכן ה־em ב: ארור היום שבו נולדתי; אל יהיה מבורך היום שבו ילדה אותי אמי. ארור האיש שבישר לאבי: נולד לך בן, ושימח אותו מאוד. יהיה האיש ההוא כערים שה׳ החריב ולא התחרט על כך; ישמע זעקה בבוקר ותרועה בצהריים … מדוע יצאתי מן הרחם לראות עמל וצער, ושימיי יכלו בבושה? –ירמיהו 20:14-18.",
+      "translation_quote": "יומתי אל־יהי ביום אשר נולדתי אמא ... ככל־הערים אשר־הוכו ה׳ ולא־נחם"
+    },
+    {
+      "location": "html, paragraph on genetic differences",
+      "severity": "major",
+      "source_quote": "we tend towards being moody ... debilitating (extreme) depression",
+      "suggested_fix": "החליפו את ״רוחניים-משתנים״ ב״נתונים לתנודות במצב הרוח״ ואת ״דיכאון מפלגתי (קיצוני)״ ב״דיכאון משתק (קיצוני)״.",
+      "translation_quote": "נוטים להיות רוחניים-משתנים ... לדיכאון מפלגתי (קיצוני)"
+    },
+    {
+      "location": "html, paragraph on guilt and assurance of salvation",
+      "severity": "major",
+      "source_quote": "they must have done something wrong",
+      "suggested_fix": "החליפו את ״וחייבים לעשות משהו לא בסדר״ ב״ושבוודאי עשו משהו לא בסדר״.",
+      "translation_quote": "הם רק בטוחים שאלוהים כועס עליהם, וחייבים לעשות משהו לא בסדר"
+    },
+    {
+      "location": "html, first James 5:16 quotation",
+      "severity": "major",
+      "source_quote": "The effectual fervent prayer of a righteous man availeth much",
+      "suggested_fix": "החליפו את תוכן ה־em ב״…תפילתו הנמרצת ורבת־העוצמה של אדם צדיק מועילה מאוד –יעקב 5:16.״",
+      "translation_quote": "תפלת צדיק בעצה הרבה תועיל"
+    },
+    {
+      "location": "html, paragraph under התפללו",
+      "severity": "major",
+      "source_quote": "it is also really encouraging for someone who is struggling to hear themselves being prayed for",
+      "suggested_fix": "החליפו את ״אבל זה גם מאוד מעודד לשומע את תפלותיהם לעצמם״ ב״אבל גם מעודד מאוד לאדם שמתמודד עם קושי לשמוע אחרים מתפללים עבורו״.",
+      "translation_quote": "אבל זה גם מאוד מעודד לשומע את תפלותיהם לעצמם"
+    },
+    {
+      "location": "html, paragraph under טפל בחטא",
+      "severity": "major",
+      "source_quote": "That isn’t to say that simply confessing sin will suddenly make someone’s depression lift",
+      "suggested_fix": "החליפו את ״אין זה אומר שווידוי חטאים יחזיר מיד את הדיכאון״ ב״אין זה אומר שעצם הווידוי על חטאים יעלים מיד את הדיכאון״.",
+      "translation_quote": "אין זה אומר שווידוי חטאים יחזיר מיד את הדיכאון"
+    },
+    {
+      "location": "html, second James 5:16 quotation",
+      "severity": "major",
+      "source_quote": "Confess your faults one to another, and pray one for another, that ye may be healed",
+      "suggested_fix": "החליפו את תוכן ה־em ב״התוודו על חטאיכם זה בפני זה, והתפללו זה למען זה כדי שתירפאו… –יעקב 5:16.״",
+      "translation_quote": "הודו / הודיעו על־פגמיכם זה לזה ותתפללו זה בעד זה למען רפואה"
+    },
+    {
+      "location": "html, second paragraph under היה מוכן לקחת תרופות",
+      "severity": "major",
+      "source_quote": "with the goal to transition off of those medications down the road",
+      "suggested_fix": "החליפו את ״במטרה לעבור בהמשך להדרכה ולהפחתה בטוחה״ ב״במטרה להפסיק בהמשך את נטילת התרופות בהדרגה״.",
+      "translation_quote": "במטרה לעבור בהמשך להדרכה ולהפחתה בטוחה"
+    },
+    {
+      "location": "html, paragraph under אל תשוו",
+      "severity": "minor",
+      "source_quote": "it probably will make you feel worse",
+      "suggested_fix": "החליפו את ״וככל הנראה יהפוך אותך למרוגז יותר״ ב״וככל הנראה יגרום לך להרגיש רע יותר״.",
+      "translation_quote": "וככל הנראה יהפוך אותך למרוגז יותר"
+    },
+    {
+      "location": "html, final paragraph",
+      "severity": "minor",
+      "source_quote": "You may not be gloriously happy all of the time",
+      "suggested_fix": "החליפו את ״אינך יכול להיות מאושר בצורה מרוממת כל הזמן״ ב״ייתכן שלא תהיה מאושר עד מאוד כל הזמן״.",
+      "translation_quote": "אינך יכול להיות מאושר בצורה מרוממת כל הזמן"
+    },
+    {
+      "location": "html, opening dialogue",
+      "severity": "minor",
+      "source_quote": "Dr. Waldron",
+      "suggested_fix": "החליפו את ״וולדון״ ב״וולדרון״.",
+      "translation_quote": "ד\"ר וולדון"
+    },
+    {
+      "location": "html, all references to Naomi",
+      "severity": "minor",
+      "source_quote": "Naomi",
+      "suggested_fix": "החליפו את ״נאומי״ ב״נעמי״ בכל הופעות השם בגוף המאמר ובציטוטים.",
+      "translation_quote": "נאומי"
+    },
+    {
+      "location": "html, Genesis 1:31 and Genesis 3:12–13 quotations",
+      "severity": "minor",
+      "source_quote": "And God saw every thing that he had made ... And the man said ... The serpent beguiled me",
+      "suggested_fix": "נסחו את הציטוטים בעברית מודרנית תוך שימור em ו־strong: בבראשית 1:31, ״ואלוהים ראה את כל מה שעשה, והנה הכול טוב מאוד…״; בבראשית 3:12-13, ״והאדם אמר: <strong>האישה שנתת לי להיות איתי, היא נתנה לי מפרי העץ</strong>, ואכלתי. וה׳ אלוהים אמר לאישה: מה עשית? והאישה אמרה: <strong>הנחש הטעה אותי, ואכלתי</strong>״. השאירו את ההפניות במקומן.",
+      "translation_quote": "וירא אלהים את כל־אשר עשה והנה־טוב מאד ... ויאמר האדם ... הנחש השיאני ואכלתי"
+    },
+    {
+      "location": "html, multiple prose paragraphs",
+      "severity": "minor",
+      "source_quote": "symptoms consistent with ... factors that break a person down ... Jesus asks us to pray in secret ... when we’re feeling discouraged most of the time ... a fallen world ... feeling down ... Periodically take an inventory",
+      "suggested_fix": "תקנו בהתאמה: ״תסמינים התואמים לדיכאון״; ״גורמים ... ששוברים אדם״; ״ישוע מבקש שנתפלל בסתר״; ״כשאנחנו מרגישים מיואשים רוב הזמן״; ״בעולם שנפגע מן החטא״; ״מרגיש מדוכדך״; ״מעת לעת הערך את מצבך״.",
+      "translation_quote": "תסמינים המתחייבים עם ... גורמים ... שמשבר אדם ... ישוע מבקש שנתפל בסתר ... כשהרוב הזמן מרגישים מיואשים ... בעולם נפל ... מרגיש מטה ... מעת לעת בצע מלאי של מצבך"
+    },
+    {
+      "location": "html, introduction to Jeremiah and discussion following Ruth 4",
+      "severity": "minor",
+      "source_quote": "Another one that comes to mind is the Prophet Jeremiah ... a very long career ... weeping prophet ... encouraging her in the Lord’s goodness",
+      "suggested_fix": "תקנו בהתאמה ל״דמות נוספת שעולה בדעתי היא הנביא ירמיהו״, ״הייתה לו קריירה ארוכה מאוד״, ״הנביא הבוכה״ ו״שעודדו אותה והזכירו לה את טובו של ה׳״.",
+      "translation_quote": "אחרת שנזכרה היא הנביא ירמיהו ... היה לו קריירה ארוכה מאוד ... נביא הבכה ... שעודדו אותה בטוב הק׳"
+    }
+  ],
   "id": "04604445e36198299e27e1d4a3b83e86",
   "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
   "language": "heb",
@@ -98,11 +267,13 @@
     }
   },
   "protected": false,
+  "quality_score": 57,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/f177e57409e960665e128f135c5d31a6b5c47dfb179f4bf630790d509d4b9294.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "review1",
     "max_candidate_bytes": 120000,
@@ -115,7 +286,7 @@
     "total_reserved_usd": 0.798906,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 0,
   "translation_key": "5dadc96220966a62c190dc496511f1659046db2b2d97b2ce157a164fa768d4e2",
   "translation_model_actual": "gpt-5-mini-2025-08-07"
