@@ -5,11 +5,40 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "d3eee602ad20464b8086eaa4143b1b99",
   "campaign": "auto-32a101a3ace3471048e14fce853e450f2fdfc3b5c60e9aa1740d369ffa6d1f07",
   "created_at": "2026-11-03T22:09:20+00:00",
-  "events": [],
-  "findings": [],
+  "events": [
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 206,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 85,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9746,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8643,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 9952
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "translation.html — citation d’Éphésiens 5:10-13, dernière proposition",
+      "severity": "major",
+      "source_quote": "for whatsoever doth make manifest is light",
+      "suggested_fix": "Remplacer « car tout ce qui est manifesté est lumière » par « car tout ce qui rend manifeste est lumière », en conservant les balises et la référence.",
+      "translation_quote": "car tout ce qui est manifesté est lumière"
+    }
+  ],
   "id": "7d944d3c085d63b51a496e4933abb5f7",
   "issue_id": "4e575f26-fabd-5104-ba0d-d54ca032653b",
   "language": "fra",
@@ -98,11 +127,13 @@
     }
   },
   "protected": false,
+  "quality_score": 94,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/ca40023e50c915a7258ad4b58f87f9226bb9b3cad9ebbbe9ba9d4725b817d7e3.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "review1",
     "max_candidate_bytes": 120000,
@@ -115,7 +146,7 @@
     "total_reserved_usd": 0.77895,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 0,
   "translation_key": "b60f5232f76b3d6e5573e616829a89d507fba9c836e4dbf3fc2981eb0eff86a2",
   "translation_model_actual": "gpt-6-luna"

@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "translation.html — citation d’Éphésiens 5:10-13, dernière proposition",
+      "severity": "major",
+      "source_quote": "for whatsoever doth make manifest is light",
+      "suggested_fix": "Remplacer « car tout ce qui est manifesté est lumière » par « car tout ce qui rend manifeste est lumière », en conservant les balises et la référence.",
+      "translation_quote": "car tout ce qui est manifesté est lumière"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

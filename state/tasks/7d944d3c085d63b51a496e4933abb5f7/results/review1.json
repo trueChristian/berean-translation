@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "c3455475-91a9-49af-97a9-699ea2dc27a7",
+    "response_id": "chatcmpl-EgH3TVSQGKgOP9eR6ErsXAV9PcbvR",
+    "usage": {
+      "completion_tokens": 206,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 85,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9746,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8643,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 9952
+    }
+  },
+  "received_at": "2026-11-03T22:22:36+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "translation.html — citation d’Éphésiens 5:10-13, dernière proposition",
+        "severity": "major",
+        "source_quote": "for whatsoever doth make manifest is light",
+        "suggested_fix": "Remplacer « car tout ce qui est manifesté est lumière » par « car tout ce qui rend manifeste est lumière », en conservant les balises et la référence.",
+        "translation_quote": "car tout ce qui est manifesté est lumière"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 94
+  }
+}
