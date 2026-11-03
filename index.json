@@ -79607,6 +79607,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/spa/articles/30796e2b-9ec4-4bcf-b9e3-7d40802ff1f9.html",
+      "html_sha256": "3abf7dd45024af74ddd567709a4f19de73e4326b32a55e15fff1843b61eb1689",
+      "human_reviewed": false,
+      "id": "30796e2b-9ec4-4bcf-b9e3-7d40802ff1f9",
+      "images": [
+        {
+          "alt": "Un hombre mayor sostiene un abanico junto a una jaula de pájaros",
+          "public_path": "/images/articles/30796e2b-9ec4-4bcf-b9e3-7d40802ff1f9-1.jpg"
+        },
+        {
+          "alt": "Unos niños se enfrentan a un hombre de pie junto a una jaula de pájaros colgada",
+          "public_path": "/images/articles/30796e2b-9ec4-4bcf-b9e3-7d40802ff1f9-2.jpg"
+        }
+      ],
+      "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
+      "language": "spa",
+      "language_tag": "es",
+      "metadata": "content/spa/articles/30796e2b-9ec4-4bcf-b9e3-7d40802ff1f9.json",
+      "metadata_sha256": "a4927a860497d342a078bb7ed5e384e76f3560b847cc4fe5ae2331407b3587ef",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
+      "source_translation_key": "2fe4971d188bb3d6dead7e494929bc66c75dcadb7d5a5a8de1ac402304b85733",
+      "status": "ready",
+      "subtitle": null,
+      "title": "La jaula de pájaros",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/spa/articles/30d02d2c-805c-437c-ad10-4542362ab6de.html",
       "html_sha256": "264aad0b38dc3d59cc2e733dd82cac4a6fcc1bbd353022a3a51b18a7511bf8f0",
       "human_reviewed": false,
