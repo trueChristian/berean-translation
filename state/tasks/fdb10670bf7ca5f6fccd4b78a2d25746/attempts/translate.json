@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-03T08:42:04+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"30796e2b-9ec4-4bcf-b9e3-7d40802ff1f9\\\">\\n  <figure><img src=\\\"/images/articles/30796e2b-9ec4-4bcf-b9e3-7d40802ff1f9-1.jpg\\\" alt=\\\"Mzee ameshika feni kando ya kizimba cha ndege\\\"></figure>\\n  <p>Mwanaume mmoja alikuwa kando ya barabara akiwa na kizimba kikubwa cha ndege.</p>\\n  <p>Kijana mmoja aliona kwamba kizimba kilikuwa kimejaa ndege wa aina nyingi.</p>\\n  <p>“Ulipata wapi ndege hao?” akauliza.</p>\\n  <p>“Ah, kila mahali,” akajibu yule mwanaume. “Ninawanasa kwa makombo ya chakula na kujifanya rafiki yao. Kisha wanapokuwa karibu, ninawanasa kwa wavu na kuwasukuma ndani ya kizimba changu.”</p>\\n  <p>“Na utafanya nini nao sasa?”</p>\\n  <p>Yule mwanaume akatabasamu kwa dharau. “Nitawachokoza kwa vijiti na kuwakasirisha sana ili wapigane na kuuana. Wale watakaosalia, nitawaua. Hakuna atakayeponyoka.”</p>\\n  <p>Kijana akamtazama yule mwanaume kwa makini. Ni nini kilichomfanya afanye mambo kama hayo? Akatazama macho yake katili na makali. Kisha akawatazama ndege, wasio na uwezo wa kujitetea, wasio na tumaini.</p>\\n  <p>“Naweza kununua ndege hao?” akauliza kijana. Yule mwanaume akaficha tabasamu, akijua kwamba angeweza kupata dili zuri ikiwa angecheza karata zake kwa busara.</p>\\n  <figure><img src=\\\"/images/articles/30796e2b-9ec4-4bcf-b9e3-7d40802ff1f9-2.jpg\\\" alt=\\\"Watoto wakimkabili mwanaume aliyesimama kando ya kizimba cha ndege kinachoning'inia\\\"></figure>\\n  <p>“Naam,” akasema kwa kusita, “Kizimba hiki ni ghali sana, na nimetumia muda mwingi kuwakusanya ndege hawa. Nitakuambia nitakachofanya: nitakuachia wote, ndege na kizimba pamoja, kwa pauni kumi na koti hilo ulilovaa.”</p>\\n  <p>Kijana akasita. Pauni kumi ndizo pesa zote alizokuwa nazo, na koti lilikuwa jipya na la pekee sana; kwa kweli, ndilo alilolipenda kuliko vitu vyake vyote. Polepole, akatoa pauni kumi na kumpa, kisha polepole zaidi akavua koti lake, akalitazama kwa mara ya mwisho, halafu akalikabidhi pia.</p>\\n  <p>Akakipokea kizimba kutoka kwa yule mwanaume. Kisha (huenda umekisia) akafungua mlango na kuwaachilia ndege huru.</p>\\n  <hr>\\n  <p>Adui wa ulimwengu, Shetani, alikuwa kando ya barabara ya maisha akiwa na kizimba kikubwa sana.</p>\\n  <p>Mwanaume aliyekuwa akimjia aliona kwamba kilikuwa kimejaa watu wa kila aina, vijana kwa wazee, kutoka kila jamii na taifa.</p>\\n  <p>“Uliwapata wapi watu hawa?” akauliza yule mwanaume.</p>\\n  <p>“Ah, kutoka sehemu zote za ulimwengu,” akajibu Shetani. “Ninawanasa kwa pombe, dawa za kulevya, tamaa, uongo, hasira, chuki, kupenda pesa na mambo ya kila aina. Ninajifanya rafiki yao, ninayetaka kuwapa wakati mzuri, kisha ninapowanasa, wanaingia kizimbani.”</p>\\n  <p>“Na utafanya nini nao sasa?” akauliza yule mwanaume.</p>\\n  <p>Shetani akatabasamu kwa dharau. “Nitawachokoza, nitawakasirisha, na kuwafanya wachukiane na kuangamizana; nitachochea chuki za kikabila, uasi dhidi ya sheria na utaratibu; nitawafanya watu wachoshwe na maisha, wawe wapweke, wasioridhika, wenye kuchanganyikiwa na wasiotulia. Ni rahisi. Watu watasikiliza daima ninachowapa, na jambo bora zaidi ni kwamba watamlaumu Mungu kwa matokeo hayo!”</p>\\n  <p>“Na kisha nini?” akauliza yule mwanaume.</p>\\n  <p>“Wale ambao hawatajiangamiza wenyewe, nitawaangamiza. Hakuna atakayenitoroka.”</p>\\n  <p>Yule mwanaume akasonga mbele. “Naweza kuwanunua watu hawa kutoka kwako?” akauliza.</p>\\n  <p>Shetani akanguruma, “Ndiyo, lakini itakugharimu maisha yako.” Hivyo Yesu Kristo, Mwana wa Mungu, alilipa kwa maisha yake mwenyewe, msalabani Kalvari, ili kukuachilia huru kutoka katika mtego wa Shetani. Mlango uko wazi, na yeyote ambaye Shetani amemdanganya na kumfunga anaweza kuwekwa huru.</p>\\n  <blockquote>\\n    <p><strong>Mtumaini BWANA<br>kwa moyo wako wote;<br>wala usizitegemee<br>akili zako mwenyewe.<br>Katika njia zako zote mkiri yeye,<br>naye atanyoosha mapito yako.</strong></p>\\n    <p><strong>Mithali 3:5-6</strong></p>\\n  </blockquote>\\n</article>\\n\",\"section\":null,\"subtitle\":null,\"title\":\"Kizimba cha Ndege\"}",
+    "content_bytes": 4036,
+    "content_evidence_truncated": false,
+    "content_sha256": "e37f27175c25eb8cc673babb5a99bd8680d59920a5f83e098dbc187c95ad585b",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1367,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1894,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1891,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3261
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}
