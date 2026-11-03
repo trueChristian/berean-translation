@@ -1,0 +1,98 @@
+{
+  "findings": [
+    {
+      "location": "html: opening Luke 4:18-19 quotation; paragraph beginning «Αυτό σηματοδότησε»; repeated Luke quotation after Psalm 119:67",
+      "severity": "major",
+      "source_quote": "he hath sent me to heal the brokenhearted",
+      "suggested_fix": "Στις δύο παραθέσεις του Λουκά αντικαταστήστε το «ἀπέστειλέν με ἰάσασθαι τοὺς σπλαγχνισμένους» με «με έστειλε να θεραπεύσω όσους έχουν συντετριμμένη καρδιά». Στην επεξηγηματική παράγραφο χρησιμοποιήστε μόνο «θεραπεία στους συντετριμμένους στην καρδιά», χωρίς το λανθασμένο αρχαΐζον ισοδύναμο.",
+      "translation_quote": "ἀπέστειλέν με ἰάσασθαι τοὺς σπλαγχνισμένους / ἰάσεσιν τοῖς σπλαγχνισμένοις (θεραπεία στους συντετριμμένους στην καρδιά)"
+    },
+    {
+      "location": "html: Bartimaeus healing paragraph",
+      "severity": "major",
+      "source_quote": "“Lord, that I might receive my sight.” ... “Go thy way; thy faith hath made thee whole.”",
+      "suggested_fix": "Αντικαταστήστε τις δύο απαντήσεις με «Κύριε, να ξαναβρώ την όρασή μου» και «Πήγαινε· η πίστη σου σε θεράπευσε», αντίστοιχα.",
+      "translation_quote": "«Κύριε, ἵνα ἀφῶ τὸν ὄμματός μου.» ... «᾿Υπάγε· ἡ πίστις σου σε σέσωκέν σε.»"
+    },
+    {
+      "location": "html: paragraph beginning «Θεραπεύει ακόμη»",
+      "severity": "major",
+      "source_quote": "I realize that not all are healed.",
+      "suggested_fix": "Αντικαταστήστε τη συγκεκριμένη πρόταση με «Αναγνωρίζω ότι δεν θεραπεύονται όλοι». Το πρωτότυπο περιγράφει το αποτέλεσμα, όχι την ανυπαρξία διαθέσιμης θεραπείας για ορισμένους.",
+      "translation_quote": "Κατανοώ ότι δεν για όλους υπάρχει θεραπεία."
+    },
+    {
+      "location": "html: Mark 2 paragraph",
+      "severity": "major",
+      "source_quote": "“Thy sins be forgiven thee.” Then He said, “Rise up and walk.” When He was challenged by the Pharisees for forgiving sins, He said to them, “Which is easier to say rise up and walk or thy sins be forgiven”",
+      "suggested_fix": "Αποδώστε τα αντίστοιχα σημεία ως «Οι αμαρτίες σου συγχωρούνται», «Σήκω και περπάτα», «Όταν οι Φαρισαίοι Τον αμφισβήτησαν επειδή συγχωρούσε αμαρτίες» και «Τι είναι ευκολότερο να πει κανείς, <em>σήκω και περπάτα</em> ή <em>οι αμαρτίες σου συγχωρούνται</em>;». Διατηρήστε τις δύο επισημάνσεις <em> του πρωτοτύπου.",
+      "translation_quote": "«Ἀφεῖσθε αἱ ἁμαρτίαι σου.» ... «Ὄρθιε καὶ περιπάτει.» ... για το ότι αφέθηκε αμαρτίες ... «Τί ἐύκολον ἐστιν εἰπεῖν Ῥήγειο καὶ περιπάτει ἢ Ἀφεῖσθε αἱ ἁμαρτίαι σου;»"
+    },
+    {
+      "location": "html: John 5 paragraph",
+      "severity": "major",
+      "source_quote": "by the pool of Bethesda ... “Behold, thou art made whole: sin no more, lest a worse thing come unto thee.”",
+      "suggested_fix": "Αντικαταστήστε το «κοντά στη λίμνη Βηθεσδά» με «κοντά στην κολυμβήθρα της Βηθεσδά» και την παράθεση με «Να, έχεις θεραπευτεί· μην αμαρτάνεις πια, για να μη σου συμβεί κάτι χειρότερο».",
+      "translation_quote": "κοντά στη λίμνη Βηθεσδά ... «Ἴδε, συνετέθης· μὴ ἁμάρτανε ἵνα μὴ χείρων σοι γένηται.»"
+    },
+    {
+      "location": "html: Psalm 119:67 quotation",
+      "severity": "major",
+      "source_quote": "Before I was afflicted I went astray: but now have I kept thy word",
+      "suggested_fix": "Αντικαταστήστε το κείμενο μέσα στο υπάρχον <em> με «Πριν δοκιμαστώ από τη θλίψη, παραστρατούσα· τώρα όμως τηρώ τον λόγο σου —Ψαλμοί 119:67.»",
+      "translation_quote": "Πρὸ τοῦ ἐνταφιασθῆναι πλανήθην· νῦν δὲ τὸν λόγον σου τηρῶ"
+    },
+    {
+      "location": "html: Hebrews 4:15-16 quotation",
+      "severity": "major",
+      "source_quote": "For we have not an high priest which cannot be touched with the feeling of our infirmities; but was in all points tempted like as we are, yet without sin.",
+      "suggested_fix": "Αντικαταστήστε την πρώτη πρόταση με «Γιατί δεν έχουμε έναν αρχιερέα που να μην μπορεί να νιώσει τις αδυναμίες μας, αλλά έναν που πειράστηκε σε όλα όπως κι εμείς, χωρίς όμως να αμαρτήσει».",
+      "translation_quote": "Οὐκ ἔχομεν ἀρχιερέα ἀνίκανόν, ἀλλὰ συμπαθῆναι τοῖς ἀσθενέσιν ἡμῶν· πεπειραμένον δὲ ἐν πᾶσιν καθ᾿ ὅμοιον, ἀφ᾿ ἧς μὴ ἁμαρτήσει"
+    },
+    {
+      "location": "html: Hebrews 4:1-2 quotation",
+      "severity": "major",
+      "source_quote": "Let us therefore fear, lest, a promise being left us of entering into his rest, any of you should seem to come short of it. For unto us was the gospel preached, as well as unto them: but the word preached did not profit them, not being mixed with faith in them that heard it",
+      "suggested_fix": "Αντικαταστήστε το περιεχόμενο του υπάρχοντος <em> με «Ας προσέχουμε λοιπόν με φόβο, μήπως, ενώ παραμένει η υπόσχεση να μπούμε στην ανάπαυσή Του, φανεί ότι κάποιος από εσάς δεν την έφτασε. Γιατί και σε εμάς κηρύχθηκε το ευαγγέλιο, όπως και σε εκείνους· όμως ο λόγος που κηρύχθηκε <strong>δεν τους ωφέλησε, επειδή δεν συνδυάστηκε με πίστη </strong>σε εκείνους που τον άκουσαν —Εβραίους 4:1-2.»",
+      "translation_quote": "δοκή τις ὑμῶν ὀλιγοψύχῃγεν ἀπ᾿ αὐτής. Ἐκ τοῦτο γὰρ ἡμῖν το εὐαγγέλιον ἐκηρύχθη, καθὼς καὶ τοῖς ἑτέραις· ... οὐ γὰρ ἐσμιγμένον ὑπὸ τῆς πίστεως τῶν ἀκουόντων"
+    },
+    {
+      "location": "html: blockquote, second paragraph",
+      "severity": "major",
+      "source_quote": "And if any man will sue thee at the law, and take away thy coat, let him have thy cloak also. And whosoever shall compel thee to go a mile, go with him twain.",
+      "suggested_fix": "Αντικαταστήστε τις δύο πρώτες προτάσεις με «Και αν κάποιος θέλει να σε πάει στο δικαστήριο και να σου πάρει τον χιτώνα, άφησέ του και τον μανδύα σου. Και όποιος σε αναγκάσει να πας ένα μίλι, πήγαινε μαζί του δύο».",
+      "translation_quote": "καὶ ἐὰν τις ἐπωσέληται σε ἐν τῷ δικαστηρίῳ καὶ λάβῃ τὸ χιτῶνά σου ... καὶ ὃς ἐπιτάσσει σε βηθῆναι μίλιον"
+    },
+    {
+      "location": "html: final Psalm 103:1-5 quotation",
+      "severity": "major",
+      "source_quote": "and all that is within me, bless his holy name ... forget not all his benefits ... Who satisfieth thy mouth with good things",
+      "suggested_fix": "Αντικαταστήστε τα αντίστοιχα τμήματα με «και όλα όσα είναι μέσα μου ας ευλογούν το άγιο όνομά Του», «και μην ξεχνάς όλες τις ευεργεσίες Του» και «που χορταίνει το στόμα σου με αγαθά».",
+      "translation_quote": "καὶ ὅσα ἐν ἐμοὶ, τὰ ἅγια τοῦ ὀνόματός αὐτοῦ ... μὴ ἐπιλανθάνου πᾶσῶν τῶν ἀνακολουθιῶν αὐτοῦ ... ὃς ἀρεσκίζει τὸ στόμα σου ἀγαθά"
+    },
+    {
+      "location": "html: Scripture quotations throughout and archaic insertions in surrounding prose",
+      "severity": "minor",
+      "source_quote": "The Spirit of the Lord is upon me ... This day is this scripture fulfilled in your ears ... I am come that they might have life ... Jesus, thou son of David, have mercy on me ... Is any sick among you? ... My grace is sufficient for you ... There is no fear in love ... What time I am afraid ... Be careful [anxious] for nothing ... Let all bitterness ... Let us therefore come boldly ... Ye have heard ... Bless the LORD, O my soul",
+      "suggested_fix": "Αποδώστε και τα υπόλοιπα παρατιθέμενα χωρία σε σύγχρονη δημοτική, διατηρώντας τις αναφορές, τις παραγράφους και τις ετικέτες. Ενδεικτικά: «Το Πνεύμα του Κυρίου είναι πάνω μου», «Σήμερα εκπληρώθηκε αυτή η γραφή που ακούσατε», «Ήρθα για να έχουν ζωή και να την έχουν σε αφθονία», «Ιησού, γιε του Δαβίδ, ελέησέ με», «Υπάρχει κάποιος άρρωστος ανάμεσά σας;», «Η χάρη μου σου αρκεί, γιατί η δύναμή μου φτάνει στην τελειότητά της μέσα στην αδυναμία σου», «Δεν υπάρχει φόβος στην αγάπη», «Όταν φοβάμαι, θα Σε εμπιστεύομαι», «Μην αγχώνεστε για τίποτα», «Απομακρύνετε κάθε πικρία», «Ας πλησιάσουμε λοιπόν με θάρρος», «Ακούσατε ότι ειπώθηκε», «Ευλόγησε τον Κύριο, ψυχή μου». Εκσυγχρονίστε επίσης τα «ἱμάτιόν», «κάλειν», «ὁμολογεῖτε», «ἱκετήρια προσευχὴ δικαίου» και «κάρφος ἐν τῇ σαρκί» στις αφηγηματικές παραγράφους.",
+      "translation_quote": "Το Πνεῦμα τοῦ Κυρίου ἐπ᾿ ἐμέ ... Αὐτὴν τὴν ἡμέραν ἐπληρώθη ... ἦλθον ἵνα ζωὴν ἔχωσιν ... Ἰησοῦ, υἱὲ Δαβίδ, ἐλέησόν με ... Ἐστὶν τις ἐν ὑμῖν ἀσθενῶν ... Ἡ χάρις μου ἀρκεῖ σοι ... Οὐ φόβος ἐν τῇ ἀγάπῃ ... Ὅταν φοβοῦμαι ... Μὴ μεριμνᾶτε ... Πᾶσαν πικρίαν ... προσέλθωμεν οὖν παρρησίᾳ ... Ἠκούσατε ὅτι ἐρρέθη ... Εὐλόγει, ἡ ψυχή μου"
+    },
+    {
+      "location": "html: paragraphs about Judea, sharing the healing journey, emotional healing, and radical teachings",
+      "severity": "minor",
+      "source_quote": "many who needed physical healing ... sharing my own journey of healing ... anger, and bitterness ... this is the way of peace",
+      "suggested_fix": "Διορθώστε αντίστοιχα σε «πολλούς που χρειάζονταν σωματική θεραπεία», «μοιραζόμενος το δικό μου ταξίδι θεραπείας», «τον θυμό και την πικρότητα» και «αυτός είναι ο δρόμος της ειρήνης».",
+      "translation_quote": "πολλούς που χρειαζόταν σωματική θεραπεία ... μοιράζοντας το δικό μου ταξίδι θεραπείας ... τον θυμό και το πικρότητα ... αυτή είναι ο δρόμος της ειρήνης"
+    },
+    {
+      "location": "html: figure img alt",
+      "severity": "minor",
+      "source_quote": "An old wooden door opening into bright light",
+      "suggested_fix": "Αλλάξτε μόνο την τιμή του alt σε «Μια παλιά ξύλινη πόρτα που ανοίγει προς λαμπρό φως».",
+      "translation_quote": "Ένας παλιός ξύλινος πόρτας που ανοίγει προς λαμπρό φως"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
