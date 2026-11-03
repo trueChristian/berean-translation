@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-03T01:53:24+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"30796e2b-9ec4-4bcf-b9e3-7d40802ff1f9\\\">\\n  <figure><img src=\\\"/images/articles/30796e2b-9ec4-4bcf-b9e3-7d40802ff1f9-1.jpg\\\" alt=\\\"Un homme âgé tient un éventail près d’une cage à oiseaux\\\"></figure>\\n  <p>Un homme se tenait au bord de la route avec une grande cage à oiseaux.</p>\\n  <p>Un garçon remarqua que la cage était remplie d’oiseaux de toutes sortes.</p>\\n  <p>« Où avez-vous trouvé ces oiseaux ? » demanda-t-il.</p>\\n  <p>« Oh, un peu partout », répondit l’homme. « Je les attire avec des miettes et je fais semblant d’être leur ami. Puis, quand ils sont tout près, je les attrape au filet et les fourre dans ma cage. »</p>\\n  <p>« Et qu’allez-vous faire d’eux maintenant ? »</p>\\n  <p>L’homme eut un sourire en coin. « Je vais les pousser avec des bâtons et les rendre vraiment furieux pour qu’ils se battent et s’entretuent. Ceux qui survivront, je les tuerai. Aucun ne s’échappera. »</p>\\n  <p>Le garçon fixa l’homme. Qu’est-ce qui pouvait le pousser à faire de telles choses ? Il plongea son regard dans ses yeux cruels et durs. Puis il regarda les oiseaux, sans défense et sans espoir.</p>\\n  <p>« Puis-je acheter ces oiseaux ? » demanda le garçon. L’homme dissimula un sourire, conscient qu’il pouvait faire une bonne affaire s’il jouait bien ses cartes.</p>\\n  <figure><img src=\\\"/images/articles/30796e2b-9ec4-4bcf-b9e3-7d40802ff1f9-2.jpg\\\" alt=\\\"Des enfants font face à un homme debout près d’une cage à oiseaux suspendue\\\"></figure>\\n  <p>« Eh bien, dit-il avec hésitation, la cage coûte assez cher, et j’ai passé beaucoup de temps à rassembler ces oiseaux. Voilà ce que je vais faire : je vous laisse le tout, les oiseaux, la cage et tout le reste, pour dix livres et la veste que vous portez. »</p>\\n  <p>Le garçon hésita. Dix livres, c’était tout ce qu’il avait, et la veste était neuve et très spéciale ; en fait, c’était son bien le plus précieux. Lentement, il sortit les dix livres et les tendit à l’homme, puis, plus lentement encore, il ôta sa veste, la contempla une dernière fois et la lui tendit aussi.</p>\\n  <p>Il reçut la cage des mains de l’homme. Puis (vous l’avez peut-être deviné) il ouvrit la porte et libéra les oiseaux.</p>\\n  <hr>\\n  <p>L’ennemi du monde, Satan, se tenait au bord de la route de la vie avec une très grande cage.</p>\\n  <p>L’homme qui s’approchait remarqua qu’elle était remplie à craquer de personnes de toutes sortes, jeunes et âgées, de toutes races et de toutes nations.</p>\\n  <p>« Où avez-vous trouvé ces personnes ? » demanda l’homme.</p>\\n  <p>« Oh, partout dans le monde », répondit Satan. « Je les attire avec l’alcool, la drogue, la luxure, les mensonges, la colère, la haine, l’amour de l’argent et toutes sortes d’autres choses. Je fais semblant d’être leur ami, de vouloir leur faire passer un bon moment ; puis, une fois qu’elles sont prises à l’hameçon, elles finissent dans la cage. »</p>\\n  <p>« Et qu’allez-vous faire d’elles maintenant ? » demanda l’homme.</p>\\n  <p>Satan eut un sourire en coin. « Je vais les pousser, les provoquer, les amener à se haïr et à se détruire les unes les autres ; j’attiserai la haine raciale et le mépris de la loi et de l’ordre ; je rendrai les gens ennuyés, seuls, insatisfaits, désorientés et agités. C’est facile. Les gens écouteront toujours ce que je leur propose et, mieux encore, ils rejetteront la faute sur Dieu pour les conséquences ! »</p>\\n  <p>« Et ensuite ? » demanda l’homme.</p>\\n  <p>« Ceux qui ne se détruiront pas eux-mêmes, je les détruirai. Aucun ne m’échappera. »</p>\\n  <p>L’homme s’avança. « Puis-je vous acheter ces personnes ? » demanda-t-il.</p>\\n  <p>Satan gronda : « Oui, mais cela vous coûtera la vie. » C’est ainsi que Jésus-Christ, le Fils de Dieu, a payé de sa propre vie, sur la croix du Calvaire, pour votre délivrance, pour vous libérer du piège de Satan. La porte est ouverte, et quiconque a été trompé et emprisonné par Satan peut être libéré.</p>\\n  <blockquote>\\n    <p><strong>Confie-toi en l’Éternel<br>de tout ton cœur,<br>et ne t’appuie pas sur<br>ta propre intelligence.<br>Reconnais-le dans toutes tes voies,<br>et il aplanira tes sentiers.</strong></p>\\n    <p><strong>Proverbes 3:5-6</strong></p>\\n  </blockquote>\\n</article>\\n\",\"section\":null,\"subtitle\":null,\"title\":\"La cage à oiseaux\"}",
+    "content_bytes": 4498,
+    "content_evidence_truncated": false,
+    "content_sha256": "11343938a080c41c69cc5556925b0cc0c4d9d23d105727cb034286a98d0362d5",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1375,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 76,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1893,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1890,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3268
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}
