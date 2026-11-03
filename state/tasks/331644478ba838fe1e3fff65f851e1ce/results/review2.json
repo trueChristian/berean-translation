@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "67f30f07-8108-4b4f-8a08-bf86e8410305",
+    "response_id": "chatcmpl-EfySdGTKIeyMUeDv1dE2NcbRuZsoE",
+    "usage": {
+      "completion_tokens": 948,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 783,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 12022,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 10919,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 12970
+    }
+  },
+  "received_at": "2026-11-03T06:36:40+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Steps to Victory, paragraph beginning “We need the wise counsel”",
+        "severity": "major",
+        "source_quote": "“ . . make not provision for the flesh, to fulfil the lusts thereof.” (Romans 13:14)",
+        "suggested_fix": "将引文改为只对应原文所引部分，例如：“……不要为肉体安排，去放纵私欲。”（罗马书 13:14）",
+        "translation_quote": "“……总要披戴主耶稣基督，不要为肉体安排，去放纵私欲。”（罗马书 13:14）"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 93
+  }
+}

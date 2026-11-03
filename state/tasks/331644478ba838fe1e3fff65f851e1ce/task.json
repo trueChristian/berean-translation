@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "801f7e2a4484440193b12933e45aa53f",
   "campaign": "auto-a89d678a840c0079035af5440c785b25d17ef0962ab40fc7e53bb3a78eab0e3f",
   "created_at": "2026-11-01T19:52:38+00:00",
   "events": [
@@ -68,18 +67,40 @@
         },
         "total_tokens": 17711
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 948,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 783,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 12022,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 10919,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 12970
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; a recovery continuation must pass admission",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "艾米·卡迈克尔引文，诗篇 34:22",
+      "location": "Steps to Victory, paragraph beginning “We need the wise counsel”",
       "severity": "major",
-      "source_quote": "“None of them that trust in Me shall be desolate.”",
-      "suggested_fix": "将“凡投靠我的，必不至于蒙羞”改为“凡投靠我的，必不至于孤苦无依”。",
-      "translation_quote": "“凡投靠我的，必不至于蒙羞。”"
+      "source_quote": "“ . . make not provision for the flesh, to fulfil the lusts thereof.” (Romans 13:14)",
+      "suggested_fix": "将引文改为只对应原文所引部分，例如：“……不要为肉体安排，去放纵私欲。”（罗马书 13:14）",
+      "translation_quote": "“……总要披戴主耶稣基督，不要为肉体安排，去放纵私欲。”（罗马书 13:14）"
     }
   ],
+  "finished_at": "2026-11-03T06:36:40+00:00",
   "id": "331644478ba838fe1e3fff65f851e1ce",
   "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
   "language": "cmn",
@@ -168,7 +189,7 @@
     }
   },
   "protected": false,
-  "quality_score": 92,
+  "quality_score": 93,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
@@ -188,7 +209,7 @@
     "total_reserved_usd": 0.128252,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "70020afc8ca6b4f0091f5d0e53860b679b8b1c300288c0340fe62643ff38207a",
   "translation_model_actual": "gpt-6-luna"

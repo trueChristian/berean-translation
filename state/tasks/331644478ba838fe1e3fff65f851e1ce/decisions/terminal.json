@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Steps to Victory, paragraph beginning “We need the wise counsel”",
+      "severity": "major",
+      "source_quote": "“ . . make not provision for the flesh, to fulfil the lusts thereof.” (Romans 13:14)",
+      "suggested_fix": "将引文改为只对应原文所引部分，例如：“……不要为肉体安排，去放纵私欲。”（罗马书 13:14）",
+      "translation_quote": "“……总要披戴主耶稣基督，不要为肉体安排，去放纵私欲。”（罗马书 13:14）"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; a recovery continuation must pass admission",
+  "stage": "terminal"
+}
