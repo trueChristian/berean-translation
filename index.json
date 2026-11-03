@@ -13526,6 +13526,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ben/articles/b72ea42a-1a86-4c21-a399-ebd3013c257b.html",
+      "html_sha256": "fe408842b33b1374698db49e88bd737262e6bebe71200e628e7b47a0076139f9",
+      "human_reviewed": false,
+      "id": "b72ea42a-1a86-4c21-a399-ebd3013c257b",
+      "images": [
+        {
+          "alt": "একটি টেলিগ্রাফের চাবি ও এর বৈদ্যুতিক সংযোগবিন্দু",
+          "public_path": "/images/articles/b72ea42a-1a86-4c21-a399-ebd3013c257b-1.jpg"
+        }
+      ],
+      "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
+      "language": "ben",
+      "language_tag": "bn",
+      "metadata": "content/ben/articles/b72ea42a-1a86-4c21-a399-ebd3013c257b.json",
+      "metadata_sha256": "4d29441bdfdaabfdf968030e04fc18e1afac5e5f007dbc6530cf263dd70c2c72",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": null,
+      "source_revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
+      "source_translation_key": "86918e2f92ec7ff09eda36ffc30c12ee294e7b521bd1120caa6adee2c38e97b0",
+      "status": "ready",
+      "subtitle": null,
+      "title": "সেবার জন্য এক প্রতিশ্রুতি",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ben/articles/b8c0cd82-3d1a-4287-b2f5-391e08dd8efd.html",
       "html_sha256": "7614ecf70b92b63e2acc7663138a3045829ba7713f9f496d01bacc01de4c5ada",
       "human_reviewed": false,
