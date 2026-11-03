@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "cf6c2ff7-e97d-4f54-9335-936f5720ed90",
+    "response_id": "chatcmpl-EfyFbu1TMUal1nBFOfQhVvOgnByEY",
+    "usage": {
+      "completion_tokens": 899,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 721,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3253,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2150,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 4152
+    }
+  },
+  "received_at": "2026-11-03T06:36:43+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph beginning “Katika telegrafu ya kiroho”",
+        "severity": "major",
+        "source_quote": "“If we work in our own fleshly strength we will but effect fleshly results”",
+        "suggested_fix": "Replace “Tukifanya kazi kwa nguvu zetu za kibinadamu, tutazaa matokeo ya kibinadamu tu” with “Tukifanya kazi kwa nguvu zetu za mwili, tutapata matokeo ya mwili tu” to preserve the source’s theological contrast between fleshly and spiritual work.",
+        "translation_quote": "“Tukifanya kazi kwa nguvu zetu za kibinadamu, tutazaa matokeo ya kibinadamu tu”"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 93
+  }
+}

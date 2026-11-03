@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "928964514c6e4e4783d53b48b1e7ac20",
   "campaign": "auto-b890fd158109796bfac0ba656f7ef1c0941ec3bf036a79a9e5233754df145821",
   "created_at": "2026-11-02T15:44:26+00:00",
   "events": [
@@ -28,10 +27,38 @@
         },
         "total_tokens": 2899
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 899,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 721,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3253,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 2150,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 4152
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "Paragraph beginning “Katika telegrafu ya kiroho”",
+      "severity": "major",
+      "source_quote": "“If we work in our own fleshly strength we will but effect fleshly results”",
+      "suggested_fix": "Replace “Tukifanya kazi kwa nguvu zetu za kibinadamu, tutazaa matokeo ya kibinadamu tu” with “Tukifanya kazi kwa nguvu zetu za mwili, tutapata matokeo ya mwili tu” to preserve the source’s theological contrast between fleshly and spiritual work.",
+      "translation_quote": "“Tukifanya kazi kwa nguvu zetu za kibinadamu, tutazaa matokeo ya kibinadamu tu”"
+    }
+  ],
   "id": "3ae67d59fa4fc95cb55c5cffe62790fb",
   "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
   "language": "swa",
@@ -120,11 +147,13 @@
     }
   },
   "protected": false,
+  "quality_score": 93,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/87f95a553eb83f75422bde15eb3d35effd9dfaf6d17787923fba7393c54d1833.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "translate",
     "max_candidate_bytes": 120000,
@@ -138,7 +167,7 @@
     "total_reserved_usd": 0.086681,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "86918e2f92ec7ff09eda36ffc30c12ee294e7b521bd1120caa6adee2c38e97b0",
   "translation_model_actual": "gpt-6-luna"
