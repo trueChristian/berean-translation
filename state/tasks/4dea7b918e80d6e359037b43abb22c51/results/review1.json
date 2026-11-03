@@ -1,0 +1,241 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "4a48947e-659d-4068-8da5-9525368d303c",
+    "response_id": "chatcmpl-EgHL3J6Q95gwBL3BN3OO2LXk1tsqS",
+    "usage": {
+      "completion_tokens": 4259,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 64,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9725,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8622,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 13984
+    }
+  },
+  "received_at": "2026-11-03T22:37:47+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "html, opening quotation and repeated Luke quotation after John 5",
+        "severity": "critical",
+        "source_quote": "The Spirit of the Lord is upon me, because he hath anointed me ... heal the brokenhearted ... deliverance to the captives ... the acceptable year of the Lord",
+        "suggested_fix": "Katika nukuu zote mbili tumia: “Roho wa Bwana yuko juu yangu, kwa sababu amenitia mafuta kuwahubiria maskini habari njema; amenituma kuwaponya waliovunjika moyo, kuwatangazia wafungwa kufunguliwa, na vipofu kupata kuona tena, kuwaweka huru waliopondeka, kutangaza mwaka wa kibali cha Bwana – Luka 4:18-19.” Hifadhi lebo zilizopo.",
+        "translation_quote": "Mwanga wa Bwana uko juu yangu, maana ameninyoosha ... nikuponye waliovuawa moyo ... uwekaji huru kwa wale waliotawaliwa ... mwaka wa kupendekezwa"
+      },
+      {
+        "location": "html, paragraph beginning “Siku zote nimekuwa”",
+        "severity": "critical",
+        "source_quote": "I have always been a strong advocate of anointing with oil.",
+        "suggested_fix": "Badili sentensi ya kwanza iwe: “Siku zote nimekuwa mtetezi thabiti wa kupakwa mafuta.”",
+        "translation_quote": "Siku zote nimekuwa mkemeaji wa kutengeneza mafuta kwa kumwagwa."
+      },
+      {
+        "location": "html, Hebrews 4:15-16 quotation",
+        "severity": "critical",
+        "source_quote": "For we have not an high priest which cannot be touched with the feeling of our infirmities ... Let us therefore come boldly unto the throne of grace ... Hebrews 4:15-16",
+        "suggested_fix": "Tumia: “Kwa maana hatuna kuhani mkuu asiyeweza kutuhurumia katika udhaifu wetu; bali alijaribiwa katika mambo yote kama sisi, lakini bila dhambi. Basi na tukikaribie kiti cha neema kwa ujasiri, ili tupate rehema na neema ya kutusaidia wakati wa uhitaji – Waebrania 4:15-16.” Hifadhi lebo zilizopo.",
+        "translation_quote": "Mimi si mwanapadri mkuu ambaye asiweze kuguswa na hisia za magonjwa yetu ... tukamrukiwa kiti cha neema ... Wahudi 4:15-16"
+      },
+      {
+        "location": "html, Nazareth paragraph",
+        "severity": "major",
+        "source_quote": "His hometown of Nazareth ... This day is this scripture fulfilled in your ears",
+        "suggested_fix": "Badili “mji wake wa kuzaliwa Nazareti” kuwa “mji wake wa Nazareti” na nukuu iwe “Leo andiko hili limetimia masikioni mwenu”.",
+        "translation_quote": "mji wake wa kuzaliwa Nazareti ... Leo maandiko haya yamekamilika machoni mwenu"
+      },
+      {
+        "location": "html, introductory healing paragraph and paragraph beginning “Chukua mtazamo”",
+        "severity": "major",
+        "source_quote": "healing to the brokenhearted, deliverance to the captives ... a broken, sin-cursed world",
+        "suggested_fix": "Katika aya zote mbili badili “waliovuawa moyo” kuwa “waliovunjika moyo” na “uwekaji huru kwa waliotawaliwa” kuwa “kufunguliwa kwa wafungwa”. Badili “iliyovunjika, iliyochanganywa na dhambi” kuwa “iliyoharibika na kulaaniwa kwa sababu ya dhambi”.",
+        "translation_quote": "kuponya waliovuawa moyo, uwekaji huru kwa waliotawaliwa ... iliyovunjika, iliyochanganywa na dhambi"
+      },
+      {
+        "location": "html, paragraph beginning “Wakati Yesu”",
+        "severity": "major",
+        "source_quote": "drew many to seek Him out and to follow him ... brought their friends and family to Him for healing",
+        "suggested_fix": "Tumia “uliwavuta wengi kumtafuta na kumfuata” na “Wengi waliwaleta marafiki na jamaa zao kwake ili waponywe.”",
+        "translation_quote": "ulivutia wengi kumwendeleza na kumfuata ... ili aopeanwe uponyaji"
+      },
+      {
+        "location": "html, first Bartimaeus paragraph",
+        "severity": "major",
+        "source_quote": "journeying through Jericho ... have mercy on me ... They tried to silence him",
+        "suggested_fix": "Badili “akiwasili Yeriko” kuwa “akipita Yeriko”; katika maombi yote mawili tumia “nihurumie”; badili “Walijaribu kumatafuta kutiisha sauti yake” kuwa “Walijaribu kumnyamazisha”.",
+        "translation_quote": "akiwasili Yeriko ... niee hurumia ... Walijaribu kumatafuta kutiisha sauti yake"
+      },
+      {
+        "location": "html, second Bartimaeus paragraph",
+        "severity": "major",
+        "source_quote": "followed Jesus ... He healed lepers. He healed paralytics.",
+        "suggested_fix": "Tumia “akamfuata Yesu”, “Aliwaponya wenye ukoma” na “Aliwaponya waliopooza”.",
+        "translation_quote": "akamuunga Yesu ... Aliwaponya nyamaza. Aliwaponya wenye kuharibika mwili."
+      },
+      {
+        "location": "html, paragraph asking whether Jesus still heals",
+        "severity": "major",
+        "source_quote": "I realize that not all are healed.",
+        "suggested_fix": "Badili iwe “Natambua kwamba si wote wanaoponywa.”",
+        "translation_quote": "Natambua kwamba si wote wanaponya."
+      },
+      {
+        "location": "html, James 5:14-16 quotation",
+        "severity": "major",
+        "source_quote": "anointing him with oil ... if he have committed sins, they shall be forgiven him. Confess your faults one to another ... The effectual fervent prayer",
+        "suggested_fix": "Tumia “wakimpaka mafuta”, “ikiwa ametenda dhambi, atasamehewa”, “Ungameni makosa yenu ninyi kwa ninyi, na kuombeana” na “Sala ya bidii ya mwenye haki ina nguvu na hufanikisha mengi”.",
+        "translation_quote": "wakimchukua kwa mafuta ... atamsamehe. Ombeni dhambi zenu mmoja kwa mwingine ... Sala yenye nguvu"
+      },
+      {
+        "location": "html, anointing discussion in paragraphs beginning “Siku zote” and “Angalieni uwiano”",
+        "severity": "major",
+        "source_quote": "anoint me with oil ... through the anointing with oil ... unconfessed sin ... anything that would hinder God’s healing of my body ... A few drops of oil",
+        "suggested_fix": "Tumia “wanipake mafuta” badala ya “waanidishe kwa mafuta”, na “kupakwa mafuta” badala ya kila “kunyanywa kwa mafuta”. Badili “isiyothibitishwa” kuwa “ambayo haijaungamwa”; hitimisho liwe “nikautakasa moyo wangu kutokana na chochote ambacho kingezuia Mungu kuuponya mwili wangu”. Tumia “Matone machache ya mafuta”.",
+        "translation_quote": "waanidishe kwa mafuta ... kunyanywa kwa mafuta ... isiyothibitishwa ... yangekukwamisha uponyaji wa mwili wangu na Mungu ... Madoa machache ya mafuta"
+      },
+      {
+        "location": "html, treatment-protocol paragraph",
+        "severity": "major",
+        "source_quote": "included radiation and hormone therapy ... made me more dependent on God and others",
+        "suggested_fix": "Tumia “zilizojumuisha tiba ya mionzi na tiba ya homoni” na “Ilinifanya nimtegemee zaidi Mungu na wengine”.",
+        "translation_quote": "zilizojaa mionzi na matibabu ya homoni ... Ilinifanya nimtegemeze zaidi Mungu na wengine"
+      },
+      {
+        "location": "html, Paul paragraph",
+        "severity": "major",
+        "source_quote": "Paul was given a thorn in the flesh",
+        "suggested_fix": "Badili sentensi iwe “Ilikuwa kwa sababu hii kwamba Paulo alipewa mwiba katika mwili.”",
+        "translation_quote": "Paulo alipopewa ncha ya kazi katika mwili"
+      },
+      {
+        "location": "html, January and February treatment paragraph",
+        "severity": "major",
+        "source_quote": "What I did not realize was the delayed effect of radiation.",
+        "suggested_fix": "Tumia “Jambo ambalo sikulitambua ni kwamba athari za mionzi zinaweza kujitokeza baadaye.”",
+        "translation_quote": "Kile nisichokiwa ni athari zilizoahirishwa za mionzi."
+      },
+      {
+        "location": "html, four-sermons paragraph",
+        "severity": "major",
+        "source_quote": "God provided supernatural strength for those evening messages.",
+        "suggested_fix": "Tumia “Mungu alinipa nguvu zisizo za kawaida kwa ajili ya mahubiri yale ya jioni.”",
+        "translation_quote": "Mungu alitupatia nguvu za kihangaika kwa yale mahubiri ya jioni."
+      },
+      {
+        "location": "html, bloodwork paragraph",
+        "severity": "major",
+        "source_quote": "herbs and supplements ... My last bloodwork came back 'undetectable'. May God be praised!",
+        "suggested_fix": "Badili “viwango vya lishe” kuwa “virutubisho”; tumia “Matokeo ya uchunguzi wangu wa mwisho wa damu yalionyesha ‘hakigunduliki’” na “Mungu asifiwe!”",
+        "translation_quote": "mimea na viwango vya lishe ... Uchunguzi wangu wa damu wa mwisho ulibaki “hauonekani.” Mungu apendwe!"
+      },
+      {
+        "location": "html, oncologist paragraph",
+        "severity": "major",
+        "source_quote": "my Medical Oncologist ... God-fearing doctors",
+        "suggested_fix": "Tumia “daktari wangu bingwa wa tiba ya saratani” na “madaktari wanaomcha Mungu”.",
+        "translation_quote": "Onkolojia yangu ya Tiba ... madaktari wanaomtukuza Mungu"
+      },
+      {
+        "location": "html, Mark 2 paragraph",
+        "severity": "major",
+        "source_quote": "let the paralytic down through the roof ... Thy sins be forgiven thee ... Rise up and walk ... challenged by the Pharisees",
+        "suggested_fix": "Tumia “walipomshusha mtu aliyepooza kupitia paa”; katika nukuu zote mbili badili “Dharma/dharma” kuwa “Dhambi/dhambi” na “Inuka/inuka, nitenge” kuwa “Inuka/inuka, uende”. Badili “Walipompinga kwa Mafarisayo” kuwa “Mafarisayo walipompinga”.",
+        "translation_quote": "walipopandisha mlemavu juu kupitia paa ... Dharma zako ... Inuka, nitenge ... Walipompinga kwa Mafarisayo"
+      },
+      {
+        "location": "html, John 5 paragraph",
+        "severity": "major",
+        "source_quote": "Behold, thou art made whole: sin no more, lest a worse thing come unto thee.",
+        "suggested_fix": "Badili nukuu iwe “Tazama, umepona; usitende dhambi tena, lisije likakupata jambo baya zaidi.”",
+        "translation_quote": "Tazama, umefanywa wa kuishi: usonge dhambi tena, mpunguzi zaidi akikuwe."
+      },
+      {
+        "location": "html, Psalm 119:67 introduction and quotation",
+        "severity": "major",
+        "source_quote": "The Psalmist said ... Before I was afflicted I went astray",
+        "suggested_fix": "Tumia “Mtunga-zaburi alisema” na “Kabla sijateswa nilipotea, lakini sasa nimelishika neno lako”.",
+        "translation_quote": "Mwanamzabibu alisema ... Kabla nilipoteshwa nilitenda kimakosa"
+      },
+      {
+        "location": "html, paragraph beginning “Tulizungumzia”",
+        "severity": "major",
+        "source_quote": "If you have been bruised Jesus will heal you.",
+        "suggested_fix": "Tumia “Ikiwa umejeruhiwa, Yesu atakuponya.”",
+        "translation_quote": "Ikiwa umekuwa mkomwa Yesu atakuponya."
+      },
+      {
+        "location": "html, anxiety list quotation",
+        "severity": "major",
+        "source_quote": "Be careful [anxious] for nothing ... let your requests be made known unto God",
+        "suggested_fix": "Tumia “Msihangaike [msiwe na wasiwasi] juu ya jambo lolote; bali katika kila jambo kwa sala na maombi pamoja na shukrani, mjulisheni Mungu haja zenu – Wafilipi 4:6.” Hifadhi lebo zilizopo.",
+        "translation_quote": "Msijali wala kwa vitu ... mtaelezea matarajio yenu kwa Mungu"
+      },
+      {
+        "location": "html, paragraph beginning “Ufuasi wa kikimbilio”",
+        "severity": "major",
+        "source_quote": "This radical discipleship",
+        "suggested_fix": "Badili kuwa “Ufuasi huu unaobadili maisha kwa kina”.",
+        "translation_quote": "Ufuasi wa kikimbilio huu"
+      },
+      {
+        "location": "html, Hebrews 4:1-2 paragraph",
+        "severity": "major",
+        "source_quote": "lest ... any of you should seem to come short of it ... Hebrews 4:1-2 ... a board-certified secular counselor",
+        "suggested_fix": "Tumia “Basi na tuogope, isije ikawa kwamba, ingawa ahadi ya kuingia katika raha yake bado ipo, yeyote kati yenu aonekane ameikosa.” Badili “Wahudi 4:1-2” kuwa “Waebrania 4:1-2”, na “mshauri wa kivitendo wa kidunia” kuwa “mshauri wa kidunia aliyethibitishwa na bodi ya kitaaluma”. Rejesha lebo ya ufunguzi kuwa <strong> badala ya <strong_hali=\"\">.",
+        "translation_quote": "jamani ... asije akawa mkomo yake ... Wahudi 4:1-2 ... mshauri wa kivitendo wa kidunia ... <strong_hali=\"\">"
+      },
+      {
+        "location": "html, invitation to the mountain",
+        "severity": "major",
+        "source_quote": "we will try to get close enough to hear",
+        "suggested_fix": "Tumia “tutajaribu kusogea karibu vya kutosha ili tusikie”.",
+        "translation_quote": "tutajaribu kutosheka kusikia"
+      },
+      {
+        "location": "html, blockquote, first and third paragraphs",
+        "severity": "major",
+        "source_quote": "Ye have heard ... persecute you ... he maketh his sun to rise on the evil and on the good",
+        "suggested_fix": "Katika aya zote mbili badili “Mmejisikia” kuwa “Mmesikia”. Katika aya ya tatu tumia “wanaowatesa” badala ya “kuwatawanya” na “hulichomoza jua lake juu ya waovu na wema” badala ya “hufanya jua lake lipuke juu ya mabaya na wema”.",
+        "translation_quote": "Mmejisikia ... kuwatawanya ... hufanya jua lake lipuke juu ya mabaya na wema"
+      },
+      {
+        "location": "html, blockquote, second paragraph",
+        "severity": "major",
+        "source_quote": "let him have thy cloak also ... compel thee ... Give to him that asketh thee, and from him that would borrow of thee turn not thou away",
+        "suggested_fix": "Badili “kapeti yako” kuwa “joho lako” na “atakusaliti” kuwa “atakayekulazimisha”. Badili sentensi ya mwisho iwe “Mpe anayekuomba, wala usimgeukie kisogo anayetaka kukopa kwako.”",
+        "translation_quote": "mpe pia kapeti yako ... atakusaliti ... Mpe msiyetaka, na usimkimbie mwombaji"
+      },
+      {
+        "location": "html, final Psalm 103:1-5 quotation",
+        "severity": "major",
+        "source_quote": "bless his holy name ... crowneth thee with lovingkindness and tender mercies ... satisfieth thy mouth with good things ... eagle’s",
+        "suggested_fix": "Tumia “libariki jina lake takatifu”, “anayekuvika taji la fadhili na rehema nyororo”, “anayekishibisha kinywa chako kwa vitu vyema” na “tai” badala ya vifungu vilivyopotoka.",
+        "translation_quote": "yimwabuduye jina lake ... anakushika kwa wema na rehema ... anayekufidianisha kinywa chako ... mwewe"
+      },
+      {
+        "location": "translation.section",
+        "severity": "major",
+        "source_quote": "VICTORIOUS CHRISTIAN LIVING",
+        "suggested_fix": "Tumia “MAISHA YA KIKRISTO YA USHINDI”.",
+        "translation_quote": "MAISHI YA KRISTE YASHINDA"
+      },
+      {
+        "location": "html, paragraphs discussing traumatic experiences",
+        "severity": "major",
+        "source_quote": "experienced trauma ... deep-seated trauma. Your trauma is not an astonishment to Jesus.",
+        "suggested_fix": "Katika aya inayoanza “Nina uhakika” tumia “wamepitia kiwewe ambacho sikifahamu”. Katika aya inayoanza “Hii ni sampuli” tumia “kiwewe kilichokita mizizi” badala ya “madhara makubwa yaliyopitiliza”, na “Kiwewe chako hakimshangazi Yesu ... kiwewe kama chako hasa” badala ya marejeleo ya jumla ya “madhara”.",
+        "translation_quote": "wamepitia madhara ambayo sijui ... madhara makubwa yaliyopitiliza. Madhara yako sio ya mshangao kwa Yesu ... madhara yako hasa"
+      }
+    ],
+    "findings_complete": false,
+    "passed": false,
+    "score": 35
+  }
+}
