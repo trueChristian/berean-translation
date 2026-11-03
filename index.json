@@ -29145,6 +29145,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/fra/articles/30796e2b-9ec4-4bcf-b9e3-7d40802ff1f9.html",
+      "html_sha256": "d6cc86fa42ee1369383a3a5459793c2fb1a617420fda6b12583d13b4a321675d",
+      "human_reviewed": false,
+      "id": "30796e2b-9ec4-4bcf-b9e3-7d40802ff1f9",
+      "images": [
+        {
+          "alt": "Un homme âgé tient un éventail près d’une cage à oiseaux",
+          "public_path": "/images/articles/30796e2b-9ec4-4bcf-b9e3-7d40802ff1f9-1.jpg"
+        },
+        {
+          "alt": "Des enfants font face à un homme debout près d’une cage à oiseaux suspendue",
+          "public_path": "/images/articles/30796e2b-9ec4-4bcf-b9e3-7d40802ff1f9-2.jpg"
+        }
+      ],
+      "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
+      "language": "fra",
+      "language_tag": "fr",
+      "metadata": "content/fra/articles/30796e2b-9ec4-4bcf-b9e3-7d40802ff1f9.json",
+      "metadata_sha256": "4ace833675443d17a6613198f8ccb5927c4998e948454c113241c8ce9e26f188",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
+      "source_translation_key": "2fe4971d188bb3d6dead7e494929bc66c75dcadb7d5a5a8de1ac402304b85733",
+      "status": "ready",
+      "subtitle": null,
+      "title": "La cage à oiseaux",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/fra/articles/30d02d2c-805c-437c-ad10-4542362ab6de.html",
       "html_sha256": "c3d2dc5f9fe2bf12cba0cc07a0f8110d38727c7df39e96eb85c750e4cf7f032a",
       "human_reviewed": false,

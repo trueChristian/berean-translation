@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "adbf41f8-0d41-4afd-b1a9-bc93f208b395",
+    "response_id": "chatcmpl-EfzBot824wsSMTlqEJZWUuWtrH4OZ",
+    "usage": {
+      "completion_tokens": 810,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 596,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3540,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3537,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4350
+    }
+  },
+  "received_at": "2026-11-03T06:37:02+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, paragraph beginning « L’homme eut un sourire en coin »",
+        "severity": "minor",
+        "source_quote": "“I’m going to prod them with sticks”",
+        "suggested_fix": "Remplacer « les pousser avec des bâtons » par « les piquer avec des bâtons ».",
+        "translation_quote": "« Je vais les pousser avec des bâtons »"
+      },
+      {
+        "location": "HTML, paragraphe commençant par « Satan eut un sourire en coin »",
+        "severity": "minor",
+        "source_quote": "“I’ll make people bored, lonely, dissatisfied, confused and restless.”",
+        "suggested_fix": "Remplacer « je rendrai les gens ennuyés » par « je ferai en sorte que les gens s’ennuient ».",
+        "translation_quote": "« je rendrai les gens ennuyés, seuls, insatisfaits, désorientés et agités »"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}

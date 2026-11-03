@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraph beginning « L’homme eut un sourire en coin »",
+      "severity": "minor",
+      "source_quote": "“I’m going to prod them with sticks”",
+      "suggested_fix": "Remplacer « les pousser avec des bâtons » par « les piquer avec des bâtons ».",
+      "translation_quote": "« Je vais les pousser avec des bâtons »"
+    },
+    {
+      "location": "HTML, paragraphe commençant par « Satan eut un sourire en coin »",
+      "severity": "minor",
+      "source_quote": "“I’ll make people bored, lonely, dissatisfied, confused and restless.”",
+      "suggested_fix": "Remplacer « je rendrai les gens ennuyés » par « je ferai en sorte que les gens s’ennuient ».",
+      "translation_quote": "« je rendrai les gens ennuyés, seuls, insatisfaits, désorientés et agités »"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

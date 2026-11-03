@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "c54fa626da4140dda49cff5f5103b16d",
   "campaign": "auto-1c707fbc51a791e6f700627fe3358fa4a99b9696fc9640b9519e1acfd1eb0d15",
   "created_at": "2026-11-03T00:15:40+00:00",
   "events": [
@@ -28,10 +27,46 @@
         },
         "total_tokens": 3268
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 810,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 596,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3540,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 3537,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4350
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "HTML, paragraph beginning « L’homme eut un sourire en coin »",
+      "severity": "minor",
+      "source_quote": "“I’m going to prod them with sticks”",
+      "suggested_fix": "Remplacer « les pousser avec des bâtons » par « les piquer avec des bâtons ».",
+      "translation_quote": "« Je vais les pousser avec des bâtons »"
+    },
+    {
+      "location": "HTML, paragraphe commençant par « Satan eut un sourire en coin »",
+      "severity": "minor",
+      "source_quote": "“I’ll make people bored, lonely, dissatisfied, confused and restless.”",
+      "suggested_fix": "Remplacer « je rendrai les gens ennuyés » par « je ferai en sorte que les gens s’ennuient ».",
+      "translation_quote": "« je rendrai les gens ennuyés, seuls, insatisfaits, désorientés et agités »"
+    }
+  ],
+  "finished_at": "2026-11-03T06:37:02+00:00",
   "id": "d6bd2d8ba21c95fa7527729976e75cfe",
   "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
   "language": "fra",
@@ -120,9 +155,11 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/b08ec4f0215afd6de2e0d4479cbfcb21946e5e3f007c8edb4babcb4586294002.json",
   "stage": "review1",
   "stage_budget": {
@@ -138,7 +175,7 @@
     "total_reserved_usd": 0.086776,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "2fe4971d188bb3d6dead7e494929bc66c75dcadb7d5a5a8de1ac402304b85733",
   "translation_model_actual": "gpt-6-luna"
