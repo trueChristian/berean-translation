@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "7605d8b0-d5f4-44f5-8b11-d408327e710a",
+    "response_id": "chatcmpl-EgCIbG7t8c49GnWmIryQFqzPLXn5h",
+    "usage": {
+      "completion_tokens": 881,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 667,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4769,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3666,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 5650
+    }
+  },
+  "received_at": "2026-11-03T21:07:06+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph beginning “We were at the grocery story…”",
+        "severity": "major",
+        "source_quote": "“We couldn’t talk at all to each other, but we both had Christ, and that was enough!”",
+        "suggested_fix": "«لم نستطع التحدث معًا إطلاقًا، لكن كان المسيح لكلينا، وكان ذلك كافيًا!»",
+        "translation_quote": "«لم نستطع التحدث معًا إطلاقًا، لكن المسيح كان يجمعنا، وكان ذلك كافيًا!»"
+      },
+      {
+        "location": "Paragraph beginning “Anyway, though I did not understand…”",
+        "severity": "minor",
+        "source_quote": "“longing to find likeminded Christian fellowship”",
+        "suggested_fix": "«أتوق إلى إيجاد جماعة مسيحية تشاركنا الرأي»",
+        "translation_quote": "«أتوق إلى إيجاد شركة مسيحية تشاركنا الرأي»"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 92
+  }
+}
