@@ -1,15 +1,15 @@
 {
-  "allocated_usd": 60.538631,
+  "allocated_usd": 62.47914,
   "approved_total_usd": null,
   "budget_enforcement": "none",
   "counts": {
-    "active": 15,
-    "held_without_publication": 1343,
-    "published": 3387,
-    "queued": 132,
-    "unstarted": 18483
+    "active": 4,
+    "held_without_publication": 1342,
+    "published": 3391,
+    "queued": 143,
+    "unstarted": 18480
   },
-  "generated_at": "2026-11-03T07:35:58+00:00",
+  "generated_at": "2026-11-03T08:51:18+00:00",
   "pending_requests": 399,
   "replacement_counts": {
     "active": 0,
