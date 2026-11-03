@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-03T15:51:26+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"30796e2b-9ec4-4bcf-b9e3-7d40802ff1f9\\\">\\n  <figure><img src=\\\"/images/articles/30796e2b-9ec4-4bcf-b9e3-7d40802ff1f9-1.jpg\\\" alt=\\\"En äldre man håller en solfjäder bredvid en fågelbur\\\"></figure>\\n  <p>En man stod vid vägkanten med en stor fågelbur.</p>\\n  <p>En pojke lade märke till att buren var full av fåglar av många olika slag.</p>\\n  <p>”Var har du fått tag på de där fåglarna?” frågade han.</p>\\n  <p>”Åh, lite överallt”, svarade mannen. ”Jag lockar dem med smulor och låtsas vara deras vän. När de sedan kommer nära fångar jag dem i ett nät och trycker in dem i min bur.”</p>\\n  <p>”Och vad tänker du göra med dem nu?”</p>\\n  <p>Mannen flinade. ”Jag tänker peta på dem med pinnar och göra dem riktigt arga så att de slåss och dödar varandra. De som överlever dödar jag. Ingen kommer undan.”</p>\\n  <p>Pojken såg stadigt på mannen. Vad fick honom att göra sådana saker? Han såg in i de grymma, hårda ögonen. Sedan såg han på fåglarna, försvarslösa och utan hopp.</p>\\n  <p>”Kan jag köpa fåglarna?” frågade pojken. Mannen dolde ett leende, medveten om att han kunde göra en bra affär om han spelade sina kort rätt.</p>\\n  <figure><img src=\\\"/images/articles/30796e2b-9ec4-4bcf-b9e3-7d40802ff1f9-2.jpg\\\" alt=\\\"Barn står framför en man bredvid en upphängd fågelbur\\\"></figure>\\n  <p>”Nå”, sa han tveksamt, ”buren är ganska dyr, och jag har lagt ner mycket tid på att samla ihop fåglarna. Jag ska säga dig vad jag kan göra: du får hela paketet, fåglarna, buren och allt, för tio pund och jackan du har på dig.”</p>\\n  <p>Pojken tvekade. Tio pund var allt han hade, och jackan var ny och mycket speciell – den var faktiskt hans käraste ägodel. Långsamt tog han fram de tio punden och räckte över dem. Sedan tog han, ännu långsammare, av sig jackan, såg på den en sista gång och räckte också över den.</p>\\n  <p>Han tog emot buren från mannen. Och sedan (ja, ni kanske redan har gissat det) öppnade han dörren och släppte ut fåglarna.</p>\\n  <hr>\\n  <p>Världens fiende, Satan, stod vid livets vägkant med en mycket stor bur.</p>\\n  <p>Mannen som kom emot honom lade märke till att den var proppfull av människor av alla slag, unga och gamla, från alla raser och nationer.</p>\\n  <p>”Var har du fått tag på de här människorna?” frågade mannen.</p>\\n  <p>”Åh, från hela världen”, svarade Satan. ”Jag lockar dem med alkohol, droger, begär, lögner, vrede, hat, kärlek till pengar och allehanda saker. Jag låtsas vara deras vän och vilja ge dem en trevlig stund. När jag sedan har fått dem på kroken hamnar de i buren.”</p>\\n  <p>”Och vad tänker du göra med dem nu?” frågade mannen.</p>\\n  <p>Satan flinade. ”Jag tänker peta på dem, provocera dem, få dem att hata och förgöra varandra. Jag ska piska upp rashat och trots mot lag och ordning. Jag ska göra människor uttråkade, ensamma, missnöjda, förvirrade och rastlösa. Det är lätt. Människor kommer alltid att lyssna på vad jag erbjuder dem och, ännu bättre, skylla på Gud för följderna!”</p>\\n  <p>”Och sedan då?” frågade mannen.</p>\\n  <p>”Dem som inte förgör sig själva ska jag förgöra. Ingen kommer undan mig.”</p>\\n  <p>Mannen steg fram. ”Kan jag köpa de här människorna av dig?” frågade han.</p>\\n  <p>Satan morrade: ”Ja, men det kommer att kosta dig livet.” Så betalade Jesus Kristus, Guds Son, med sitt eget liv på korset på Golgata för att du skulle bli fri, befriad ur Satans fälla. Dörren står öppen, och alla som Satan har bedragit och stängt in kan bli fria.</p>\\n  <blockquote>\\n    <p><strong>Förtrösta på HERREN<br>av hela ditt hjärta<br>och förlita dig inte på<br>ditt eget förstånd.<br>Tänk på honom på alla dina vägar,<br>så ska han göra dina stigar jämna.</strong></p>\\n    <p><strong>Ordspråksboken 3:5-6</strong></p>\\n  </blockquote>\\n</article>\\n\",\"section\":null,\"subtitle\":null,\"title\":\"Fågelbur\"}",
+    "content_bytes": 4039,
+    "content_evidence_truncated": false,
+    "content_sha256": "0e18398b009a3a8ffa4dc61a3636111a9f0f82084b8e9cda5ddf301649f5b440",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1275,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1892,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1889,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3167
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}
