@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "箴言 3:5-6 引文",
+      "severity": "minor",
+      "source_quote": "In all thy ways acknowledge him",
+      "suggested_fix": "在你一切所行的事上都要认定他，",
+      "translation_quote": "在你一切所行的事上都要承认他，"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

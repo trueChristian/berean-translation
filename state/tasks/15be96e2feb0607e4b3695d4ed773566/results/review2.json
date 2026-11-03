@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "3b1fff1b-ca73-4a66-8fba-072e0d719aa7",
+    "response_id": "chatcmpl-EgAVgVpjAg9AsPPMR2kJqkwVwObQR",
+    "usage": {
+      "completion_tokens": 607,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 507,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3542,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3539,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4149
+    }
+  },
+  "received_at": "2026-11-03T15:20:14+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "箴言 3:5-6 引文",
+        "severity": "minor",
+        "source_quote": "In all thy ways acknowledge him",
+        "suggested_fix": "在你一切所行的事上都要认定他，",
+        "translation_quote": "在你一切所行的事上都要承认他，"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}
