@@ -1,0 +1,101 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "ce1ad83a-037d-4a2a-9d94-e1e2c5f3d1b7",
+    "response_id": "chatcmpl-EgHImidioKbwU5xT4NVi8KvSEZ7hQ",
+    "usage": {
+      "completion_tokens": 1306,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 96,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9308,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8205,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 10614
+    }
+  },
+  "received_at": "2026-11-03T22:37:13+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "html: einleitendes Lukas-Zitat und wiederholtes Lukas-Zitat nach Psalm 119,67",
+        "severity": "major",
+        "source_quote": "to set at liberty them that are bruised",
+        "suggested_fix": "In beiden Zitaten „Gefangene frei zu setzen“ durch „die Zerschlagenen in Freiheit zu setzen“ ersetzen.",
+        "translation_quote": "Gefangene frei zu setzen"
+      },
+      {
+        "location": "html: Absatz „Notice the close correlation …“",
+        "severity": "major",
+        "source_quote": "If we practice this ordinance as James offered it",
+        "suggested_fix": "„Wenn wir diese Ordination so praktizieren, wie sie Jakobus anbietet“ durch „Wenn wir diese geistliche Handlung so praktizieren, wie Jakobus sie beschreibt“ ersetzen. Gemeint ist die Ölsalbung, keine Ordination.",
+        "translation_quote": "Wenn wir diese Ordination so praktizieren, wie sie Jakobus anbietet"
+      },
+      {
+        "location": "html: Zitat Hebräer 4,1-2",
+        "severity": "major",
+        "source_quote": "Let us therefore fear, lest, a promise being left us of entering into his rest, any of you should seem to come short of it.",
+        "suggested_fix": "Den ersten Satz ersetzen durch: „Lasst uns daher darauf bedacht sein, dass nicht einer von euch den Anschein erweckt, das Ziel verfehlt zu haben, solange die Verheißung noch gilt, in seine Ruhe einzugehen.“ Die ausgelassene Aussage über das Eingehen in Gottes Ruhe muss enthalten sein.",
+        "translation_quote": "Lasst uns nun dafür fürchten, dass nicht, wenn eine Verheißung übriggeblieben ist, zu der wir gelangen sollen, jemand von euch es so erscheine, als käme er nicht dazu."
+      },
+      {
+        "location": "html: abschließendes Zitat Psalm 103,1-5",
+        "severity": "major",
+        "source_quote": "so that thy youth is renewed like the eagle’s",
+        "suggested_fix": "„dass sich dein Jugendgefahr wie des Adlers erneuert“ durch „sodass deine Jugend wie die des Adlers erneuert wird“ ersetzen.",
+        "translation_quote": "dass sich dein Jugendgefahr wie des Adlers erneuert"
+      },
+      {
+        "location": "html: Jakobus 5,14-16 und unmittelbar folgender Absatz",
+        "severity": "minor",
+        "source_quote": "The effectual fervent prayer of a righteous man availeth much; the effectual fervent prayer of a righteous man",
+        "suggested_fix": "Im Zitat „Das erflehte Gebet eines Gerechten vermag viel“ durch „Das innige, wirksame Gebet eines Gerechten vermag viel“ ersetzen; in der anschließenden Aufzählung entsprechend „das innige, wirksame Gebet eines Gerechten“ verwenden. „Erfleht“ bedeutet nicht „fervent“.",
+        "translation_quote": "Das erflehte Gebet eines Gerechten vermag viel; das erflehte Gebet eines Gerechten"
+      },
+      {
+        "location": "html: Absatz „I am sharing my experience …“",
+        "severity": "minor",
+        "source_quote": "Physical illness in my experience had a sanctifying effect on my spirit",
+        "suggested_fix": "„eine heilende (heiligende) Wirkung“ durch „eine heiligende Wirkung“ ersetzen.",
+        "translation_quote": "Körperliche Krankheit hatte in meiner Erfahrung eine heilende (heiligende) Wirkung auf meinen Geist"
+      },
+      {
+        "location": "html: Absatz zur Definition von Heilung",
+        "severity": "minor",
+        "source_quote": "Healing is a process that requires inner restoration with outside remediation.",
+        "suggested_fix": "Den Satz ersetzen durch: „Heilung ist ein Prozess, der innere Wiederherstellung und unterstützende Maßnahmen von außen erfordert.“",
+        "translation_quote": "Heilung ist ein Prozess, der innere Wiederherstellung mit äußerer Maßnahmen verbindet."
+      },
+      {
+        "location": "html: Zitat Jakobus 5,14-16",
+        "severity": "minor",
+        "source_quote": "Confess your faults one to another",
+        "suggested_fix": "„Bekenntt“ zu „Bekennt“ korrigieren.",
+        "translation_quote": "Bekenntt einander die Sünden"
+      },
+      {
+        "location": "html: wiederholtes Lukas-Zitat nach Psalm 119,67",
+        "severity": "minor",
+        "source_quote": "The Spirit of the Lord is upon me",
+        "suggested_fix": "„Der Geist des Herrn ist über mich“ durch „Der Geist des Herrn ist über mir“ ersetzen.",
+        "translation_quote": "Der Geist des Herrn ist über mich"
+      },
+      {
+        "location": "html: Absatz über Psychopharmaka und weltliche Beratung",
+        "severity": "minor",
+        "source_quote": "psych drugs (mind medication)",
+        "suggested_fix": "„Psychopharmaka (Geist-medikation)“ durch „Psychopharmaka (Medikamente für die Psyche)“ ersetzen.",
+        "translation_quote": "Psychopharmaka (Geist-medikation)"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 86
+  }
+}
