@@ -38254,6 +38254,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/hin/articles/30796e2b-9ec4-4bcf-b9e3-7d40802ff1f9.html",
+      "html_sha256": "164b1d2d6ac443576f51cbad996e0cb4a28eb8cc9a5fac362e25f416a0d01b4f",
+      "human_reviewed": false,
+      "id": "30796e2b-9ec4-4bcf-b9e3-7d40802ff1f9",
+      "images": [
+        {
+          "alt": "एक वृद्ध व्यक्ति पक्षी के पिंजरे के पास पंखा पकड़े हुए है",
+          "public_path": "/images/articles/30796e2b-9ec4-4bcf-b9e3-7d40802ff1f9-1.jpg"
+        },
+        {
+          "alt": "बच्चे एक लटके हुए पक्षी-पिंजरे के पास खड़े आदमी का सामना कर रहे हैं",
+          "public_path": "/images/articles/30796e2b-9ec4-4bcf-b9e3-7d40802ff1f9-2.jpg"
+        }
+      ],
+      "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
+      "language": "hin",
+      "language_tag": "hi",
+      "metadata": "content/hin/articles/30796e2b-9ec4-4bcf-b9e3-7d40802ff1f9.json",
+      "metadata_sha256": "bceca7276ab3cec6e46da11d48231abea8b953b6ef5f039ab5abc2c2238b11d8",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
+      "source_translation_key": "2fe4971d188bb3d6dead7e494929bc66c75dcadb7d5a5a8de1ac402304b85733",
+      "status": "ready",
+      "subtitle": null,
+      "title": "पक्षियों का पिंजरा",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/hin/articles/31ea7041-cab6-4ccd-9ead-04cc949321a6.html",
       "html_sha256": "0f8cc2052a5e44d0cbed268faf06d4ee9392f405775d07c24ef7344375de7dc1",
       "human_reviewed": false,
