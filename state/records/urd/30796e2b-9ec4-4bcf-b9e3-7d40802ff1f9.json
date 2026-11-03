@@ -7,6 +7,12 @@
       "event": "automatic_requested",
       "previous_task": null,
       "task": "6814e9fd35831550159b35a40296c9d7"
+    },
+    {
+      "at": "2026-11-03T07:21:18+00:00",
+      "event": "not_ready",
+      "reason": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[56]: source /article[1]/blockquote[1]/p[1]/strong[1]/br[4] ('start', 'br', ()); translation /article[1]/blockquote[1]/p[1]/strong[1] ('end', 'strong')",
+      "task": "6814e9fd35831550159b35a40296c9d7"
     }
   ],
   "language": "urd",
