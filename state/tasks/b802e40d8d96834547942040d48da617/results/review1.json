@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "dff9f635-b5d8-4d5d-918f-f0a9d86e0c4c",
+    "response_id": "chatcmpl-EgBNusVLRQGqzr7A8axVoSjObfXEc",
+    "usage": {
+      "completion_tokens": 721,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3574,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2471,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 4295
+    }
+  },
+  "received_at": "2026-11-03T16:40:33+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph beginning “האיש חייך חיוך רחב” and paragraph beginning “השטן חייך חיוך רחב”",
+        "severity": "major",
+        "source_quote": "“I’m going to prod them with sticks” / “I’m going to prod them, provoke them”",
+        "suggested_fix": "Replace “לדקור אותן במקלות” with “לדקור אותן” only if the intended action is stabbing; to preserve the source, use “לדחוף אותן במקלות” or “לדקור אותן קלות במקלות” in the first paragraph, and replace “אני אדקור אותם ואסית אותם” with “אני אציק להם ואסית אותם” in the second.",
+        "translation_quote": "“אני מתכוון לדקור אותן במקלות” / “אני אדקור אותם ואסית אותם”"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 92
+  }
+}

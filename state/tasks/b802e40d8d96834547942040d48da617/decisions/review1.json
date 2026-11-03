@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph beginning “האיש חייך חיוך רחב” and paragraph beginning “השטן חייך חיוך רחב”",
+      "severity": "major",
+      "source_quote": "“I’m going to prod them with sticks” / “I’m going to prod them, provoke them”",
+      "suggested_fix": "Replace “לדקור אותן במקלות” with “לדקור אותן” only if the intended action is stabbing; to preserve the source, use “לדחוף אותן במקלות” or “לדקור אותן קלות במקלות” in the first paragraph, and replace “אני אדקור אותם ואסית אותם” with “אני אציק להם ואסית אותם” in the second.",
+      "translation_quote": "“אני מתכוון לדקור אותן במקלות” / “אני אדקור אותם ואסית אותם”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
