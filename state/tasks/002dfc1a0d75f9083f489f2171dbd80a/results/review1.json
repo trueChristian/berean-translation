@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "5af39f5e-0397-4090-82a9-0d9f78a982f2",
+    "response_id": "chatcmpl-Efy5bNU9a6wBQsci3cll49xEKskKu",
+    "usage": {
+      "completion_tokens": 824,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 670,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 12283,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 12280,
+        "cached_tokens": 0
+      },
+      "total_tokens": 13107
+    }
+  },
+  "received_at": "2026-11-03T06:35:41+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Amy Carmichael quotation",
+        "severity": "minor",
+        "source_quote": "“You will, I believe and trust, become more and more in love with a crucified Saviour. He wants lovers.”",
+        "suggested_fix": "«Jeg tror og stoler på at du vil bli mer og mer glad i en korsfestet Frelser. Han ønsker seg mennesker som elsker Ham.»",
+        "translation_quote": "«Du vil, tror og stoler jeg på, bli mer og mer forelsket i en korsfestet Frelser. Han ønsker seg elskende.»"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}
