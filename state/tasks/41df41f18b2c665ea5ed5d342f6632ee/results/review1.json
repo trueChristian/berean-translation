@@ -1,0 +1,59 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "d687ff27-9b61-4fce-8134-a5fa8df4471b",
+    "response_id": "chatcmpl-EfwEuSRX1hECjEltpNixtbR9o79qk",
+    "usage": {
+      "completion_tokens": 624,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 81,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9638,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9635,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10262
+    }
+  },
+  "received_at": "2026-11-03T00:14:13+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Schöpfung, Bibelzitat Römer 1:20",
+        "severity": "major",
+        "source_quote": "even his eternal power and Godhead",
+        "suggested_fix": "Ersetze „sein ewiges Wesen und seine Gottheit“ durch „seine ewige Macht und Gottheit“.",
+        "translation_quote": "sein ewiges Wesen und seine Gottheit"
+      },
+      {
+        "location": "Wissenschaft und Medizin, Absatz über die Diabetesbehandlung im frühen 20. Jahrhundert",
+        "severity": "major",
+        "source_quote": "an extremely low glycemic diet with severe calorie limits",
+        "suggested_fix": "Ersetze „eine extrem kohlenhydratarme Diät mit strengen Kalorienbegrenzungen“ durch „eine Diät mit äußerst geringer blutzuckersteigernder Wirkung und strengen Kalorienbegrenzungen“.",
+        "translation_quote": "eine extrem kohlenhydratarme Diät mit strengen Kalorienbegrenzungen"
+      },
+      {
+        "location": "Die Wissenschaft wird niemals alles verstehen, letzter Absatz",
+        "severity": "minor",
+        "source_quote": "what an amazing and orderly God we serve",
+        "suggested_fix": "Ersetze „was für einen erstaunlichen und ordentlichen Gott wir dienen“ durch „was für einem erstaunlichen und ordnungsliebenden Gott wir dienen“.",
+        "translation_quote": "was für einen erstaunlichen und ordentlichen Gott wir dienen"
+      },
+      {
+        "location": "Warum Behandlungen untersucht werden müssen, erste zwei Absätze",
+        "severity": "minor",
+        "source_quote": "bleeding him four times; bled him a fifth time; Doctors bled patients; bleeding people who are really sick",
+        "suggested_fix": "Verwende die deutsche Wendung „zur Ader lassen“: „indem sie ihn viermal zur Ader ließen“, „ihn ein fünftes Mal zur Ader gelassen“, „Ärzte ließen Patienten zur Ader“ und „schwer kranke Menschen zur Ader zu lassen hilft ihnen sicher nicht bei der Genesung“.",
+        "translation_quote": "indem sie ihn viermal bluteten; ihn ein fünftes Mal geblutet; Ärzte bluteten Patienten; kranke Menschen zu bluten"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 92
+  }
+}

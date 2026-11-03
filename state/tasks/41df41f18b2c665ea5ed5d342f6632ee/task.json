@@ -5,11 +5,61 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "1fb35abd75f24502892be33b65df42ec",
   "campaign": "auto-df35855dd9b5f2a8ef95ef5336300b6bd117e04d9e55b483c89c50a58abd7a7c",
   "created_at": "2026-11-02T05:54:12+00:00",
-  "events": [],
-  "findings": [],
+  "events": [
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 624,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 81,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9638,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 9635,
+          "cached_tokens": 0
+        },
+        "total_tokens": 10262
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "Schöpfung, Bibelzitat Römer 1:20",
+      "severity": "major",
+      "source_quote": "even his eternal power and Godhead",
+      "suggested_fix": "Ersetze „sein ewiges Wesen und seine Gottheit“ durch „seine ewige Macht und Gottheit“.",
+      "translation_quote": "sein ewiges Wesen und seine Gottheit"
+    },
+    {
+      "location": "Wissenschaft und Medizin, Absatz über die Diabetesbehandlung im frühen 20. Jahrhundert",
+      "severity": "major",
+      "source_quote": "an extremely low glycemic diet with severe calorie limits",
+      "suggested_fix": "Ersetze „eine extrem kohlenhydratarme Diät mit strengen Kalorienbegrenzungen“ durch „eine Diät mit äußerst geringer blutzuckersteigernder Wirkung und strengen Kalorienbegrenzungen“.",
+      "translation_quote": "eine extrem kohlenhydratarme Diät mit strengen Kalorienbegrenzungen"
+    },
+    {
+      "location": "Die Wissenschaft wird niemals alles verstehen, letzter Absatz",
+      "severity": "minor",
+      "source_quote": "what an amazing and orderly God we serve",
+      "suggested_fix": "Ersetze „was für einen erstaunlichen und ordentlichen Gott wir dienen“ durch „was für einem erstaunlichen und ordnungsliebenden Gott wir dienen“.",
+      "translation_quote": "was für einen erstaunlichen und ordentlichen Gott wir dienen"
+    },
+    {
+      "location": "Warum Behandlungen untersucht werden müssen, erste zwei Absätze",
+      "severity": "minor",
+      "source_quote": "bleeding him four times; bled him a fifth time; Doctors bled patients; bleeding people who are really sick",
+      "suggested_fix": "Verwende die deutsche Wendung „zur Ader lassen“: „indem sie ihn viermal zur Ader ließen“, „ihn ein fünftes Mal zur Ader gelassen“, „Ärzte ließen Patienten zur Ader“ und „schwer kranke Menschen zur Ader zu lassen hilft ihnen sicher nicht bei der Genesung“.",
+      "translation_quote": "indem sie ihn viermal bluteten; ihn ein fünftes Mal geblutet; Ärzte bluteten Patienten; kranke Menschen zu bluten"
+    }
+  ],
   "id": "41df41f18b2c665ea5ed5d342f6632ee",
   "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
   "language": "deu",
@@ -98,11 +148,13 @@
     }
   },
   "protected": false,
+  "quality_score": 92,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/52f684b8d02f77793b6e7dc1b48ec48b97a6055434007d0dad3db046e47c8044.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "review1",
     "max_candidate_bytes": 120000,
@@ -115,7 +167,7 @@
     "total_reserved_usd": 0.779213,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 0,
   "translation_key": "5fb27f23eb62db29608050722b6dfaf82ff0b381b3a8cf3c6ff5dca578b5db55",
   "translation_model_actual": "gpt-5-mini-2025-08-07"
