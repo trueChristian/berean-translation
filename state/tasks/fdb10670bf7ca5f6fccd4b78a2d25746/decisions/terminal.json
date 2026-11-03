@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML paragraphs beginning “The man grinned” and “Satan grinned”",
+      "severity": "minor",
+      "source_quote": "“The man grinned” / “Satan grinned.”",
+      "suggested_fix": "Use “akatabasamu” in both places, without adding a suggestion of contempt.",
+      "translation_quote": "“Yule mwanaume akatabasamu kwa dharau” / “Shetani akatabasamu kwa dharau.”"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

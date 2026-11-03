@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-03T16:39:58+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML paragraphs beginning “The man grinned” and “Satan grinned”\",\"severity\":\"minor\",\"source_quote\":\"“The man grinned” / “Satan grinned.”\",\"suggested_fix\":\"Use “akatabasamu” in both places, without adding a suggestion of contempt.\",\"translation_quote\":\"“Yule mwanaume akatabasamu kwa dharau” / “Shetani akatabasamu kwa dharau.”\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 434,
+    "content_evidence_truncated": false,
+    "content_sha256": "8d2191bc8cae73cf7a5a58bbfa7c7ee1a93e1c0747bd6e2ed4c1317552ae85a3",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 760,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 630,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3615,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2512,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 4375
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

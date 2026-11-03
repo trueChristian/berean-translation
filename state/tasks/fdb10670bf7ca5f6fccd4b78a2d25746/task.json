@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "0b9804dcf63b41a3bdf54bd0e8531cf3",
   "campaign": "auto-97ffd2a134a5be3d8f0ef58e9a43239251548efd4fa4948fc124c675ea57dffa",
   "created_at": "2026-11-03T06:41:23+00:00",
   "events": [
@@ -28,10 +27,39 @@
         },
         "total_tokens": 3261
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 760,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 630,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3615,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 2512,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 4375
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "HTML paragraphs beginning “The man grinned” and “Satan grinned”",
+      "severity": "minor",
+      "source_quote": "“The man grinned” / “Satan grinned.”",
+      "suggested_fix": "Use “akatabasamu” in both places, without adding a suggestion of contempt.",
+      "translation_quote": "“Yule mwanaume akatabasamu kwa dharau” / “Shetani akatabasamu kwa dharau.”"
+    }
+  ],
+  "finished_at": "2026-11-03T16:39:58+00:00",
   "id": "fdb10670bf7ca5f6fccd4b78a2d25746",
   "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
   "language": "swa",
@@ -120,9 +148,11 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/b08ec4f0215afd6de2e0d4479cbfcb21946e5e3f007c8edb4babcb4586294002.json",
   "stage": "review1",
   "stage_budget": {
@@ -138,7 +168,7 @@
     "total_reserved_usd": 0.086769,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "2fe4971d188bb3d6dead7e494929bc66c75dcadb7d5a5a8de1ac402304b85733",
   "translation_model_actual": "gpt-6-luna"
