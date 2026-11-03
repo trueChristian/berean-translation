@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-03T15:50:55+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"translation.html — הפסקה המתארת את אדם וחוה לפני הנפילה בחטא\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"even if there could have been stress in a perfect garden\",\n      \"suggested_fix\": \"החליפו את הסוגריים ב־„(גם אילו היה יכול להיות לחץ בגן מושלם)”.\",\n      \"translation_quote\": \"גם אילו ייתכן לחץ בגן מושלם\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": true,\n  \"score\": 98\n}",
+    "content_bytes": 543,
+    "content_evidence_truncated": false,
+    "content_sha256": "2d659955f73b68525a620f5e1825a77c0a35c94c83b7059373c2f829c7a422f3",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 238,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 88,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 11400,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 10297,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 11638
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 1
+}

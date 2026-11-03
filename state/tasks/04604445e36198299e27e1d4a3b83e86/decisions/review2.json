@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "translation.html — הפסקה המתארת את אדם וחוה לפני הנפילה בחטא",
+      "severity": "minor",
+      "source_quote": "even if there could have been stress in a perfect garden",
+      "suggested_fix": "החליפו את הסוגריים ב־„(גם אילו היה יכול להיות לחץ בגן מושלם)”.",
+      "translation_quote": "גם אילו ייתכן לחץ בגן מושלם"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

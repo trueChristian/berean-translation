@@ -35957,6 +35957,34 @@
     {
       "ai_notice_required": true,
       "direction": "rtl",
+      "html": "content/heb/articles/9240e6d5-f395-4db7-ab6f-3b4b603d6ea0.html",
+      "html_sha256": "51e3689734b3cad2f08859b93c0c947c26fbc9b1d9c3c8bb95b6c24ca6d2a9b1",
+      "human_reviewed": false,
+      "id": "9240e6d5-f395-4db7-ab6f-3b4b603d6ea0",
+      "images": [
+        {
+          "alt": "יער סתווי אפוף ערפל המשתקף באגם שליו",
+          "public_path": "/images/articles/9240e6d5-f395-4db7-ab6f-3b4b603d6ea0-1.jpg"
+        }
+      ],
+      "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
+      "language": "heb",
+      "language_tag": "he",
+      "metadata": "content/heb/articles/9240e6d5-f395-4db7-ab6f-3b4b603d6ea0.json",
+      "metadata_sha256": "4c695208232a8d4e7bcc8de98ad9be1eed5333646de4b5bf34d169fd265de97e",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "מילה מרופא",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "5dadc96220966a62c190dc496511f1659046db2b2d97b2ce157a164fa768d4e2",
+      "status": "ready",
+      "subtitle": null,
+      "title": "דיכאון",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
       "html": "content/heb/articles/924514c7-52be-4e2b-ab75-3141e14ea9a0.html",
       "html_sha256": "d53a71a0abba904b10540658dcb714901bff9584e20bb6f987965822412912ec",
       "human_reviewed": false,

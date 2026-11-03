@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "ee2de5e1-c10e-4520-9286-d18b4dbb2210",
+    "response_id": "chatcmpl-EgAvyquIVvpVvFjWbbOnzaPXjHp3d",
+    "usage": {
+      "completion_tokens": 238,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 88,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 11400,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 10297,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 11638
+    }
+  },
+  "received_at": "2026-11-03T15:50:55+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "translation.html — הפסקה המתארת את אדם וחוה לפני הנפילה בחטא",
+        "severity": "minor",
+        "source_quote": "even if there could have been stress in a perfect garden",
+        "suggested_fix": "החליפו את הסוגריים ב־„(גם אילו היה יכול להיות לחץ בגן מושלם)”.",
+        "translation_quote": "גם אילו ייתכן לחץ בגן מושלם"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}
