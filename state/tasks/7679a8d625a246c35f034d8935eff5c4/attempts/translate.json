@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-03T08:41:53+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"30796e2b-9ec4-4bcf-b9e3-7d40802ff1f9\\\">\\n  <figure><img src=\\\"/images/articles/30796e2b-9ec4-4bcf-b9e3-7d40802ff1f9-1.jpg\\\" alt=\\\"Een oudere man houdt een waaier vast naast een vogelkooi\\\"></figure>\\n  <p>Een man stond langs de kant van de weg met een grote vogelkooi.</p>\\n  <p>Een jongen zag dat de kooi vol vogels van allerlei soorten zat.</p>\\n  <p>‘Waar heb je die vogels vandaan?’ vroeg hij.</p>\\n  <p>‘O, overal vandaan,’ antwoordde de man. ‘Ik lok ze met broodkruimels en doe alsof ik hun vriend ben. Zodra ze dichtbij zijn, vang ik ze met een net en prop ik ze in mijn kooi.’</p>\\n  <p>‘En wat ga je nu met ze doen?’</p>\\n  <p>De man grijnsde. ‘Ik ga ze met stokken porren en ze razend maken, zodat ze met elkaar vechten en elkaar doden. De vogels die het overleven, zal ik doden. Geen enkele zal ontsnappen.’</p>\\n  <p>De jongen keek de man strak aan. Waarom deed hij zulke dingen? Hij keek in de wrede, harde ogen. Toen keek hij naar de vogels, weerloos en zonder hoop.</p>\\n  <p>‘Kan ik die vogels van je kopen?’ vroeg de jongen. De man verborg een glimlach; hij besefte dat hij er een goede deal aan kon overhouden als hij het slim aanpakte.</p>\\n  <figure><img src=\\\"/images/articles/30796e2b-9ec4-4bcf-b9e3-7d40802ff1f9-2.jpg\\\" alt=\\\"Kinderen staan tegenover een man naast een hangende vogelkooi\\\"></figure>\\n  <p>‘Nou,’ zei hij aarzelend, ‘de kooi is behoorlijk duur en ik heb veel tijd besteed aan het verzamelen van deze vogels. Ik zal je zeggen wat ik doe: je mag ze allemaal hebben, de vogels, de kooi, alles, voor tien pond en de jas die je aan hebt.’</p>\\n  <p>De jongen aarzelde. Tien pond was alles wat hij had, en de jas was nieuw en heel bijzonder; het was zelfs zijn kostbaarste bezit. Langzaam haalde hij de tien pond tevoorschijn en gaf die aan de man. Nog langzamer deed hij zijn jas uit, keek er nog één keer naar en gaf hem toen ook af.</p>\\n  <p>Hij kreeg de kooi van de man. En toen (je hebt het misschien al geraden) deed hij het deurtje open en liet de vogels vrij.</p>\\n  <hr>\\n  <p>De vijand van de wereld, Satan, stond langs de levensweg met een heel grote kooi.</p>\\n  <p>De man die naar hem toe kwam, merkte dat die propvol zat met allerlei mensen, jong en oud, uit elk ras en elke natie.</p>\\n  <p>‘Waar heb je deze mensen vandaan?’ vroeg de man.</p>\\n  <p>‘O, overal vandaan, uit de hele wereld,’ antwoordde Satan. ‘Ik lok ze met drank, drugs, lust, leugens, woede, haat, geldzucht en allerlei andere dingen. Ik doe alsof ik hun vriend ben en hun een leuke tijd wil bezorgen; als ik ze eenmaal aan de haak heb, gaan ze de kooi in.’</p>\\n  <p>‘En wat ga je nu met ze doen?’ vroeg de man.</p>\\n  <p>Satan grijnsde. ‘Ik ga ze porren en provoceren, ze ertoe brengen elkaar te haten en te vernietigen; ik zal raciale haat aanwakkeren en verzet tegen wet en orde. Ik zal mensen verveeld, eenzaam, ontevreden, verward en rusteloos maken. Het is makkelijk. Mensen zullen altijd luisteren naar wat ik hun aanbied, en wat nog beter is: ze zullen God de schuld geven van de gevolgen!’</p>\\n  <p>‘En daarna?’ vroeg de man.</p>\\n  <p>‘Wie zichzelf niet vernietigt, zal ik vernietigen. Niemand zal aan mij ontsnappen.’</p>\\n  <p>De man stapte naar voren. ‘Kan ik deze mensen van je kopen?’ vroeg hij.</p>\\n  <p>Satan gromde: ‘Ja, maar dat zal je je leven kosten.’ Zo betaalde Jezus Christus, de Zoon van God, met zijn eigen leven aan het kruis op Golgotha voor jouw bevrijding, jouw vrijheid uit Satans val. De deur staat open, en iedereen die door Satan is misleid en opgesloten, kan worden bevrijd.</p>\\n  <blockquote>\\n    <p><strong>Vertrouw op de HEER<br>met heel je hart,<br>steun niet op je eigen<br>inzicht.<br>Denk aan Hem bij alles wat je doet,<br>dan baant Hij voor jou de weg.</strong></p>\\n    <p><strong>Spreuken 3:5-6</strong></p>\\n  </blockquote>\\n</article>\\n\",\"section\":null,\"subtitle\":null,\"title\":\"Vogelkooi\"}",
+    "content_bytes": 3964,
+    "content_evidence_truncated": false,
+    "content_sha256": "e9597004886fb969b3d51964e49082d83f77a6beb2d43a0efd9209373b40a684",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1209,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1891,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1888,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3100
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}
