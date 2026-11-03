@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "5212ef76-2779-4776-86fa-3c85ed32fbb8",
+    "response_id": "chatcmpl-Efy7k61nQQXjWRHAGDB89nLZEIGeY",
+    "usage": {
+      "completion_tokens": 1271,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 126,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1723,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1720,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2994
+    }
+  },
+  "received_at": "2026-11-03T06:36:19+00:00",
+  "result": {
+    "html": "<article data-article-id=\"b72ea42a-1a86-4c21-a399-ebd3013c257b\">\n  <figure>\n    <img src=\"/images/articles/b72ea42a-1a86-4c21-a399-ebd3013c257b-1.jpg\" alt=\"Una chiave telegrafica e i suoi contatti elettrici\">\n  </figure>\n  <p>«Se chiederete, io agirò». Per quanto riguarda le cose che solo Dio può fare, naturalmente ricorriamo alla preghiera. Sapendo infatti che noi stessi non possiamo farle, riponiamo la nostra speranza soltanto in quella richiesta che porta Dio ad agire. Ma ricordiamoci anche che il nostro servizio personale, nelle cose che <em>possiamo</em> fare, ha ugualmente bisogno di quella richiesta che vi porterà l’azione di Dio. Ci rendiamo conto che tutto ciò che facciamo deve essere permeato dallo spirito di preghiera, affinché <em>Dio</em> sia il vero autore, il vero operatore delle cose che ci affanniamo a fare? Eppure questa è una verità potente: «Se chiederete, io agirò» vale tanto per il vostro servizio quanto per la vostra intercessione a favore degli altri.</p>\n  <p>Avete mai giocherellato con la chiave di un telegrafo mentre il circuito era chiuso? Se sì, avrete notato questo fatto. Su quella chiave potete comporre un messaggio completo, dall’indirizzo alla firma. Su di essa si può formare alla perfezione ogni carattere telegrafico; si possono soddisfare tutte le condizioni richieste a un operatore esperto. Ma non importa quanto siate abili come operatori: finché il circuito elettrico è chiuso, tutti i vostri sforzi non sono che bronzo risonante e platino sferragliante. Non trasmettete neppure una scintilla di vita elettrica; non giunge all’ascoltatore in attesa all’altro capo della linea un solo messaggio, né di bene né di male, né di rovina né di benedizione.</p>\n  <h2>PERCHÉ?</h2>\n  <p><em>Perché la batteria non è in funzione.</em> E tutto il <em>vostro</em> lavoro è uno sforzo senza risultato, attività senza potenza.</p>\n  <p>Ma ora aprite la piccola leva di ottone che collega la vostra chiave alla batteria nascosta sotto il tavolo. Immediatamente ogni lettera che formate vibra di vita; ogni parola che scrivete trasmette un messaggio vivo nella mente e nel cuore del ricevente lontano. Attraverso il vostro lavoro, di per sé inerte e meccanico, la batteria elettronica riversa ora la sua corrente vitale, colmando di vita e potenza ogni abile movimento delle vostre dita agili.</p>\n  <h2>LA LEZIONE È CHIARA</h2>\n  <p>La telegrafia spirituale è come quella materiale. Se la batteria non è in funzione, il messaggio è solo un rumore. <em>Noi</em> possiamo <em>agire</em>, ma se <em>Dio</em> non agisce attraverso di noi, tutto il nostro agire è vano. Se operiamo con la nostra forza carnale, produrremo soltanto risultati carnali, perché «ciò che è nato dalla carne <em>è</em> carne». Solo Dio è vita spirituale. Dio è l’unico generatore di vita. La nostra funzione più alta come servitori è trasmettere agli altri la vita di Dio. La nostra opera più alta è quella in cui Dio opera attraverso di noi.</p>\n  <p>E come avverrà questo?</p>\n  <h2>ATTRAVERSO LA PREGHIERA</h2>\n  <p>La preghiera vi collega alla batteria divina della vita e della potenza. La preghiera vi pone «nello Spirito», e «è lo <em>Spirito</em> che dà la vita». Dalla camera di preghiera uscite per andare tra gli uomini con l’unzione, la potenza sottile, il fremito della vita stessa di Dio su di voi. Mentre continuate a chiedere, Dio continua ad agire. Quando trascurate la preghiera, le vostre opere perdono potenza. Non guidate alcuna riunione senza <em>chiedere</em> che Dio ne sia il vero conduttore attraverso di voi; non pronunciate alcun messaggio senza <em>chiedere</em> che sia Lui a parlare attraverso di voi; non iniziate alcuna opera senza <em>chiedere</em> che Dio operi attraverso di voi. Perché «<em>se chiederete, io agirò</em>».</p>\n</article>\n",
+    "section": null,
+    "subtitle": null,
+    "title": "UNA PROMESSA PER IL SERVIZIO"
+  }
+}
