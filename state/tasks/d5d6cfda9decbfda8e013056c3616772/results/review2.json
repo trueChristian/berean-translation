@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "83ae7314-d921-430f-be45-d96bbb280668",
+    "response_id": "chatcmpl-EgGfjc3fcSl6ELOi5lQHRNm9Morqe",
+    "usage": {
+      "completion_tokens": 66,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 34,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3614,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3611,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3680
+    }
+  },
+  "received_at": "2026-11-03T22:07:54+00:00",
+  "result": {
+    "findings": [],
+    "findings_complete": true,
+    "passed": true,
+    "score": 99
+  }
+}

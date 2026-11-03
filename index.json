@@ -27258,6 +27258,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ell/articles/b72ea42a-1a86-4c21-a399-ebd3013c257b.html",
+      "html_sha256": "2bb1f65dcdcb60cda81d3fad56616d3f9a997d2c603b51df50d6dcc3b0192406",
+      "human_reviewed": false,
+      "id": "b72ea42a-1a86-4c21-a399-ebd3013c257b",
+      "images": [
+        {
+          "alt": "Ένα κλειδί τηλεγράφου και οι ηλεκτρικές επαφές του",
+          "public_path": "/images/articles/b72ea42a-1a86-4c21-a399-ebd3013c257b-1.jpg"
+        }
+      ],
+      "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
+      "language": "ell",
+      "language_tag": "el",
+      "metadata": "content/ell/articles/b72ea42a-1a86-4c21-a399-ebd3013c257b.json",
+      "metadata_sha256": "c8d724e6cac355ee4a5620325952b0f12d1533e14f4f162738b14a45f8d44690",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": null,
+      "source_revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
+      "source_translation_key": "86918e2f92ec7ff09eda36ffc30c12ee294e7b521bd1120caa6adee2c38e97b0",
+      "status": "ready",
+      "subtitle": null,
+      "title": "ΜΙΑ ΥΠΟΣΧΕΣΗ ΓΙΑ ΤΗΝ ΥΠΗΡΕΣΙΑ",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ell/articles/b8181ffd-5861-420e-b92a-573b7e66fc3e.html",
       "html_sha256": "02ed8450d41137ae416d641c374982729619756c12ed4c9317457aae21f221a7",
       "human_reviewed": false,
