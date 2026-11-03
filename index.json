@@ -1025,6 +1025,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/afr/articles/30796e2b-9ec4-4bcf-b9e3-7d40802ff1f9.html",
+      "html_sha256": "33e941771b5cf9fd9d6e1520566aaf2b3eb763fd2e6e41dc7e1adb2517649cc1",
+      "human_reviewed": false,
+      "id": "30796e2b-9ec4-4bcf-b9e3-7d40802ff1f9",
+      "images": [
+        {
+          "alt": "’n Bejaarde man hou ’n waaier vas langs ’n voëlhok",
+          "public_path": "/images/articles/30796e2b-9ec4-4bcf-b9e3-7d40802ff1f9-1.jpg"
+        },
+        {
+          "alt": "Kinders staan teenoor ’n man langs ’n voëlhok wat hang",
+          "public_path": "/images/articles/30796e2b-9ec4-4bcf-b9e3-7d40802ff1f9-2.jpg"
+        }
+      ],
+      "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
+      "language": "afr",
+      "language_tag": "af",
+      "metadata": "content/afr/articles/30796e2b-9ec4-4bcf-b9e3-7d40802ff1f9.json",
+      "metadata_sha256": "eb773564f70b3d3b51bca8928a6a23644f1797acf3e70a528d233a18eb13bac7",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
+      "source_translation_key": "2fe4971d188bb3d6dead7e494929bc66c75dcadb7d5a5a8de1ac402304b85733",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Voëlhok",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/afr/articles/30d02d2c-805c-437c-ad10-4542362ab6de.html",
       "html_sha256": "df8f3019e2d5e638eca69d56b41860d7ceed66d7b7d6aefc3c2ed79fbbbf2feb",
       "human_reviewed": false,
