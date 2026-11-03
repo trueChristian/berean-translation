@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "translation.html, aya ya kwanza chini ya “Kinachofanya Utafiti Uwe Mzuri”",
+      "severity": "minor",
+      "source_quote": "it is not a large enough group",
+      "suggested_fix": "Badilisha “hicho si kikundi kikubwa vya kutosha” kuwa “hicho si kikundi kikubwa cha kutosha”.",
+      "translation_quote": "hicho si kikundi kikubwa vya kutosha"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

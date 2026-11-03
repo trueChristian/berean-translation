@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "6f5a263b-ba77-4418-88ef-fd7aebf3cf70",
+    "response_id": "chatcmpl-EfwZLL0Qk9mBuauA6x2IuMHtdI1ST",
+    "usage": {
+      "completion_tokens": 164,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 44,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 10251,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9148,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 10415
+    }
+  },
+  "received_at": "2026-11-03T01:53:39+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "translation.html, aya ya kwanza chini ya “Kinachofanya Utafiti Uwe Mzuri”",
+        "severity": "minor",
+        "source_quote": "it is not a large enough group",
+        "suggested_fix": "Badilisha “hicho si kikundi kikubwa vya kutosha” kuwa “hicho si kikundi kikubwa cha kutosha”.",
+        "translation_quote": "hicho si kikundi kikubwa vya kutosha"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 99
+  }
+}

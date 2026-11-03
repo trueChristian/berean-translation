@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-03T01:53:39+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"translation.html, aya ya kwanza chini ya “Kinachofanya Utafiti Uwe Mzuri”\",\"severity\":\"minor\",\"source_quote\":\"it is not a large enough group\",\"suggested_fix\":\"Badilisha “hicho si kikundi kikubwa vya kutosha” kuwa “hicho si kikundi kikubwa cha kutosha”.\",\"translation_quote\":\"hicho si kikundi kikubwa vya kutosha\"}],\"findings_complete\":true,\"passed\":true,\"score\":99}",
+    "content_bytes": 403,
+    "content_evidence_truncated": false,
+    "content_sha256": "9eb2de07587cd2780a04a579e41c494976f0489cf350d17055378c3213a57b18",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 164,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 44,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 10251,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9148,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 10415
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 1
+}
