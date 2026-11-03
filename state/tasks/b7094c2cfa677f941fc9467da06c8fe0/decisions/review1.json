@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "translation.html: इफिसियों 5:10-13 के उद्धरण का अंतिम वाक्य",
+      "severity": "major",
+      "source_quote": "for whatsoever doth make manifest is light",
+      "suggested_fix": "उद्धरण के अंतिम उपवाक्य को बदलें: “क्योंकि जो कुछ प्रकट करता है, वह ज्योति है।” मौजूदा <em> टैग और संदर्भ बनाए रखें।",
+      "translation_quote": "क्योंकि जो कुछ प्रगट होता है, वह ज्योति है।"
+    },
+    {
+      "location": "translation.html: यूहन्ना 8:39-44 का उद्धरण",
+      "severity": "major",
+      "source_quote": "a man that hath told you the truth",
+      "suggested_fix": "“उस मनुष्य को जिसने तुम्हें परमेश्वर से सुना हुआ सत्य बताया” को “उस मनुष्य को जिसने तुम्हें सत्य बताया” करें। मौजूदा उद्धरण-संरचना और संदर्भ बनाए रखें।",
+      "translation_quote": "उस मनुष्य को जिसने तुम्हें परमेश्वर से सुना हुआ सत्य बताया"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
