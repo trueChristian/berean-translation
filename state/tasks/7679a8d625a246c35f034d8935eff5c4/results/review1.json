@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "a04176ff-44d0-45df-86ae-390d0667a378",
+    "response_id": "chatcmpl-Eg5l4ReIjMH6PSo1Z4E5taJqKiKo2",
+    "usage": {
+      "completion_tokens": 633,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 510,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3454,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3451,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4087
+    }
+  },
+  "received_at": "2026-11-03T15:04:41+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Slotcitaat, Spreuken 3:6",
+        "severity": "minor",
+        "source_quote": "“In all thy ways acknowledge him”",
+        "suggested_fix": "Vervang “Denk aan Hem bij alles wat je doet” door “Erken Hem in alles wat je doet” om de betekenis van “acknowledge” nauwkeuriger weer te geven.",
+        "translation_quote": "“Denk aan Hem bij alles wat je doet”"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 97
+  }
+}

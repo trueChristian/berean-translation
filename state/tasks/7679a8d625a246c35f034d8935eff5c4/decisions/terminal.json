@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Slotcitaat, Spreuken 3:6",
+      "severity": "minor",
+      "source_quote": "“In all thy ways acknowledge him”",
+      "suggested_fix": "Vervang “Denk aan Hem bij alles wat je doet” door “Erken Hem in alles wat je doet” om de betekenis van “acknowledge” nauwkeuriger weer te geven.",
+      "translation_quote": "“Denk aan Hem bij alles wat je doet”"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}
