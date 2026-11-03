@@ -72839,6 +72839,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/por/articles/e8bdb12c-2e8e-4f55-9052-07bec6e103a1.html",
+      "html_sha256": "25b97fb472e8d5746f082c76b9762e1833e48c86394584783219a148adeeae26",
+      "human_reviewed": false,
+      "id": "e8bdb12c-2e8e-4f55-9052-07bec6e103a1",
+      "images": [
+        {
+          "alt": "Uma floresta invernal enevoada refletida em um lago",
+          "public_path": "/images/articles/e8bdb12c-2e8e-4f55-9052-07bec6e103a1-1.png"
+        }
+      ],
+      "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
+      "language": "por",
+      "language_tag": "pt",
+      "metadata": "content/por/articles/e8bdb12c-2e8e-4f55-9052-07bec6e103a1.json",
+      "metadata_sha256": "e9df1a878b32a645fb28b839930c6d460fe724d0e5e46990194c29c1e555a480",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "A IGREJA DO NOVO TESTAMENTO",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "1c1dd57f73c720271265483775e7d93acfbda9f85eeefb95d0c905a5b442adfd",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Dons Espirituais",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/por/articles/e9621e7b-df8d-4497-998c-b98af23486b7.html",
       "html_sha256": "e7cf66803736113753effbc7f5f599a243e42a2c2c4d5002945dde9f27aae6be",
       "human_reviewed": false,
