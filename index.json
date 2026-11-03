@@ -43011,6 +43011,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ind/articles/30796e2b-9ec4-4bcf-b9e3-7d40802ff1f9.html",
+      "html_sha256": "a04d582a360f8b10d6711b5d30045fb4c2d1897441868a416b5e99c6e20a2172",
+      "human_reviewed": false,
+      "id": "30796e2b-9ec4-4bcf-b9e3-7d40802ff1f9",
+      "images": [
+        {
+          "alt": "Seorang pria tua memegang kipas di samping sangkar burung",
+          "public_path": "/images/articles/30796e2b-9ec4-4bcf-b9e3-7d40802ff1f9-1.jpg"
+        },
+        {
+          "alt": "Anak-anak berhadapan dengan seorang pria yang berdiri di samping sangkar burung yang tergantung",
+          "public_path": "/images/articles/30796e2b-9ec4-4bcf-b9e3-7d40802ff1f9-2.jpg"
+        }
+      ],
+      "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
+      "language": "ind",
+      "language_tag": "id",
+      "metadata": "content/ind/articles/30796e2b-9ec4-4bcf-b9e3-7d40802ff1f9.json",
+      "metadata_sha256": "1b3b8cb9604fc6695f05aeff6ba7edc037e53a1eade994063d2036be82e144ac",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
+      "source_translation_key": "2fe4971d188bb3d6dead7e494929bc66c75dcadb7d5a5a8de1ac402304b85733",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Sangkar Burung",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ind/articles/30d02d2c-805c-437c-ad10-4542362ab6de.html",
       "html_sha256": "b610d0655fd10836d6eac77a7e9329d82c2201f743f496236ed01fc5d90cd524",
       "human_reviewed": false,
