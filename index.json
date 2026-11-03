@@ -6188,6 +6188,38 @@
     {
       "ai_notice_required": true,
       "direction": "rtl",
+      "html": "content/ara/articles/30796e2b-9ec4-4bcf-b9e3-7d40802ff1f9.html",
+      "html_sha256": "a88a1387327abe8d572ffd3782510f515e66c41f9def64c1a78832158f39faa3",
+      "human_reviewed": false,
+      "id": "30796e2b-9ec4-4bcf-b9e3-7d40802ff1f9",
+      "images": [
+        {
+          "alt": "رجل مسنّ يحمل مروحة بجوار قفص طيور",
+          "public_path": "/images/articles/30796e2b-9ec4-4bcf-b9e3-7d40802ff1f9-1.jpg"
+        },
+        {
+          "alt": "أطفال يواجهون رجلًا يقف بجوار قفص طيور معلّق",
+          "public_path": "/images/articles/30796e2b-9ec4-4bcf-b9e3-7d40802ff1f9-2.jpg"
+        }
+      ],
+      "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
+      "language": "ara",
+      "language_tag": "ar",
+      "metadata": "content/ara/articles/30796e2b-9ec4-4bcf-b9e3-7d40802ff1f9.json",
+      "metadata_sha256": "d40dcca49c58bc8d97b1e772f49c89ba09219cf7a7d424f3a5df970ee450feb4",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
+      "source_translation_key": "2fe4971d188bb3d6dead7e494929bc66c75dcadb7d5a5a8de1ac402304b85733",
+      "status": "ready",
+      "subtitle": null,
+      "title": "قفص الطيور",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
       "html": "content/ara/articles/31ea7041-cab6-4ccd-9ead-04cc949321a6.html",
       "html_sha256": "1aae3a5ff6fd708ad6c76733e8b3a2c412894e9bdeb51cd3e6a744ada03a1988",
       "human_reviewed": false,
