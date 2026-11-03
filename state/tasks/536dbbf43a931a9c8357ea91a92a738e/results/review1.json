@@ -1,0 +1,129 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "fb5862db-a41f-42fa-bbcf-aacc341a453f",
+    "response_id": "chatcmpl-Efy86E6kUcEBop3fWC8QznxG8v9Qe",
+    "usage": {
+      "completion_tokens": 1731,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 97,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9296,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9293,
+        "cached_tokens": 0
+      },
+      "total_tokens": 11027
+    }
+  },
+  "received_at": "2026-11-03T06:36:59+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "html, eerste alinea",
+        "severity": "major",
+        "source_quote": "To preach the acceptable year of the Lord",
+        "suggested_fix": "Vervang de Engelse woorden door: ‘om het aanvaardbare jaar des Heren te prediken’. Behoud de bestaande em-tags en Schriftverwijzing.",
+        "translation_quote": "To preach the acceptable year of the Lord"
+      },
+      {
+        "location": "html, tweede alinea",
+        "severity": "major",
+        "source_quote": "Jesus was in His hometown of Nazareth.",
+        "suggested_fix": "Vervang ‘Zijn geboorteplaats Nazareth’ door ‘Nazareth, de plaats waar Hij was opgegroeid’.",
+        "translation_quote": "Jezus was in Zijn geboorteplaats Nazareth."
+      },
+      {
+        "location": "html, beide citaten van Lukas 4:18-19",
+        "severity": "major",
+        "source_quote": "to preach deliverance to the captives",
+        "suggested_fix": "Vervang in beide citaten ‘vrijspraak te prediken aan de gevangenen’ door ‘bevrijding te verkondigen aan de gevangenen’. Het gaat om bevrijding, niet om een gerechtelijke vrijspraak.",
+        "translation_quote": "om vrijspraak te prediken aan de gevangenen"
+      },
+      {
+        "location": "html, alinea over de geestelijke betekenis van de oliezalving",
+        "severity": "major",
+        "source_quote": "If we practice this ordinance as James offered it",
+        "suggested_fix": "Vervang ‘dit sacrament’ door ‘deze voorgeschreven handeling’.",
+        "translation_quote": "Als we dit sacrament beoefenen zoals Jakobus het aanbiedt"
+      },
+      {
+        "location": "html, alinea over het laatste bloedonderzoek",
+        "severity": "major",
+        "source_quote": "My last bloodwork came back “undetectable”.",
+        "suggested_fix": "Vervang de zin door: ‘De uitslag van mijn laatste bloedonderzoek luidde: “niet aantoonbaar”.’",
+        "translation_quote": "Mijn laatste bloedonderzoek was niet aantoonbaar."
+      },
+      {
+        "location": "html, citaat van Hebreeën 4:15-16",
+        "severity": "major",
+        "source_quote": "For we have not an high priest which cannot be touched with the feeling of our infirmities; ... find grace to help in time of need",
+        "suggested_fix": "Vervang ‘die niet kan innemen medelijden met onze zwakheden’ door ‘die geen medelijden kan hebben met onze zwakheden’ en ‘tot hulp in den tijd van aangelegenheid’ door ‘om ons te helpen wanneer wij hulp nodig hebben’.",
+        "translation_quote": "die niet kan innemen medelijden met onze zwakheden; ... tot hulp in den tijd van aangelegenheid"
+      },
+      {
+        "location": "html, eerste zin van het citaat van Hebreeën 4:1-2",
+        "severity": "major",
+        "source_quote": "Let us therefore fear, lest, a promise being left us of entering into his rest, any of you should seem to come short of it.",
+        "suggested_fix": "Vervang deze zin door: ‘Laten wij daarom op onze hoede zijn dat niemand van u blijkt tekort te schieten, nu de belofte om Zijn rust binnen te gaan nog geldt.’",
+        "translation_quote": "Laten wij dan vreezen, opdat niet, dat een belofte overblijvende ons te geven om in Zijn rust in te gaan, iemand van u schijnbaar daaraan tekort zou doen komen."
+      },
+      {
+        "location": "html, blockquote, eerste alinea",
+        "severity": "major",
+        "source_quote": "but whosoever shall smite thee on thy right cheek, turn to him the other also.",
+        "suggested_fix": "Vervang de betreffende bijzin door: ‘maar als iemand u op de rechterwang slaat, keer hem dan ook de andere toe.’",
+        "translation_quote": "doch zoudt een iegelijk die u een tik op de rechterwang geeft, ook de andere wenden."
+      },
+      {
+        "location": "html, alinea die de persoonlijke genezingsgeschiedenis inleidt",
+        "severity": "minor",
+        "source_quote": "Does Jesus still heal in our day?",
+        "suggested_fix": "Vervang de vraag door: ‘Geneest Jezus ook vandaag nog?’",
+        "translation_quote": "Heet Jezus vandaag de dag nog steeds genezen?"
+      },
+      {
+        "location": "html, alinea over genezing als proces",
+        "severity": "minor",
+        "source_quote": "Healing is a process that requires inner restoration with outside remediation.",
+        "suggested_fix": "Vervang de zin door: ‘Genezing is een proces dat innerlijk herstel en behandeling van buitenaf vereist.’",
+        "translation_quote": "Genezing is een proces dat innerlijke herstelwerkzaamheden met uiterlijke remediëring vereist."
+      },
+      {
+        "location": "html, alinea over het onderzoeken van het hart",
+        "severity": "minor",
+        "source_quote": "any known, unconfessed sin",
+        "suggested_fix": "Vervang ‘enige bekende, niet-belijden zonde’ door ‘elke bekende, niet-beleden zonde’.",
+        "translation_quote": "enige bekende, niet-belijden zonde"
+      },
+      {
+        "location": "html, citaat van Johannes 5",
+        "severity": "minor",
+        "source_quote": "sin no more, lest a worse thing come unto thee",
+        "suggested_fix": "Vervang ‘opdat u niet iets noch ergers geschiede’ door ‘opdat u niet iets nog ergers overkomt’.",
+        "translation_quote": "zondig niet meer, opdat u niet iets noch ergers geschiede"
+      },
+      {
+        "location": "html, citaat van Psalm 119:67",
+        "severity": "minor",
+        "source_quote": "Before I was afflicted I went astray: but now have I kept thy word",
+        "suggested_fix": "Vervang de citaattekst vóór de verwijzing door: ‘Voordat ik door leed werd getroffen, dwaalde ik af; maar nu houd ik mij aan Uw woord’.",
+        "translation_quote": "Voor ik bengekwetst, ging ik verkeerd; maar nu heb ik Uw woord bewaard"
+      },
+      {
+        "location": "html, citaat van Jakobus 5:14-16 en de daaropvolgende opsomming in lopende tekst",
+        "severity": "minor",
+        "source_quote": "The effectual fervent prayer of a righteous man availeth much; the effectual fervent prayer of a righteous man…",
+        "suggested_fix": "Gebruik in het citaat ‘Het krachtige, vurige gebed van een rechtvaardige vermag veel’ en in de daaropvolgende opsomming ‘het krachtige, vurige gebed van een rechtvaardige…’.",
+        "translation_quote": "Het krachtige verzoek des rechtvaardigen baat veel; het krachtige verzoek van een rechtvaardige…"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 80
+  }
+}
