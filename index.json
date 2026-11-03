@@ -93208,6 +93208,34 @@
     {
       "ai_notice_required": true,
       "direction": "rtl",
+      "html": "content/urd/articles/2e021f55-6588-4d9d-bd0a-068af80732ff.html",
+      "html_sha256": "4dcf675953222313cf0b4c128ac64f251987a3ea292bc08b866454cabb227c5d",
+      "human_reviewed": false,
+      "id": "2e021f55-6588-4d9d-bd0a-068af80732ff",
+      "images": [
+        {
+          "alt": "رات کے وقت برف سے ڈھکے راستے پر جلتی ہوئی لالٹین",
+          "public_path": "/images/articles/2e021f55-6588-4d9d-bd0a-068af80732ff-1.jpg"
+        }
+      ],
+      "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
+      "language": "urd",
+      "language_tag": "ur",
+      "metadata": "content/urd/articles/2e021f55-6588-4d9d-bd0a-068af80732ff.json",
+      "metadata_sha256": "284d8831d79f62a61e514fe6db2344f3d4cd0edce41dc8093b89a68268e08715",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "بہن سے بہن کے لیے",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "c849e4ea3ad84b761d78091fcac24b6703c3038258305b91a3abd924f8250de9",
+      "status": "ready",
+      "subtitle": null,
+      "title": "دوسری تواریخ باب بیس سے اسباق",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
       "html": "content/urd/articles/30d02d2c-805c-437c-ad10-4542362ab6de.html",
       "html_sha256": "52eba9a60da1c88ec83b176c0a9356ccbceba044a3dad57bcb810bd1b9e02be3",
       "human_reviewed": false,
