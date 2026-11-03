@@ -87097,6 +87097,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/swa/articles/b72ea42a-1a86-4c21-a399-ebd3013c257b.html",
+      "html_sha256": "d98a5ec300ff371ceaf2740577bc1ea961f5959710a604c7164c96b1922f7b3a",
+      "human_reviewed": false,
+      "id": "b72ea42a-1a86-4c21-a399-ebd3013c257b",
+      "images": [
+        {
+          "alt": "Ufunguo wa telegrafu na viunganishi vyake vya umeme",
+          "public_path": "/images/articles/b72ea42a-1a86-4c21-a399-ebd3013c257b-1.jpg"
+        }
+      ],
+      "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
+      "language": "swa",
+      "language_tag": "sw",
+      "metadata": "content/swa/articles/b72ea42a-1a86-4c21-a399-ebd3013c257b.json",
+      "metadata_sha256": "6a1e5ba0272735fd58117eecc7bc0bda2d5ea0aa882ee220dc83219d108acd19",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
+      "source_translation_key": "86918e2f92ec7ff09eda36ffc30c12ee294e7b521bd1120caa6adee2c38e97b0",
+      "status": "ready",
+      "subtitle": null,
+      "title": "AHADI KWA AJILI YA HUDUMA",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/swa/articles/b8181ffd-5861-420e-b92a-573b7e66fc3e.html",
       "html_sha256": "f39efe7e968dc7430067890f9e280acca29cce3ca1132c020cad2de01dc969ce",
       "human_reviewed": false,

@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-03T15:51:11+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Heading “WHY?”\",\"severity\":\"minor\",\"source_quote\":\"WHY?\",\"suggested_fix\":\"Kwa nini?\",\"translation_quote\":\"KWANINI?\"},{\"location\":\"Heading “THE LESSON IS PLAIN”\",\"severity\":\"minor\",\"source_quote\":\"THE LESSON IS PLAIN\",\"suggested_fix\":\"SOMO LIKO WAZI\",\"translation_quote\":\"SOMO LI WAZI\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 371,
+    "content_evidence_truncated": false,
+    "content_sha256": "bb2f5822d5eec04fc53eceff00b1cc70b4c41955718b4adfe91c462f0324a842",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 568,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 454,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3250,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2147,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 3818
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "e378d26d-404e-4361-9b85-3c53a1820bf9",
+    "response_id": "chatcmpl-EgAzKooHZ7udbVouFZmO63RWFjFUD",
+    "usage": {
+      "completion_tokens": 568,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 454,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3250,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2147,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 3818
+    }
+  },
+  "received_at": "2026-11-03T15:51:11+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Heading “WHY?”",
+        "severity": "minor",
+        "source_quote": "WHY?",
+        "suggested_fix": "Kwa nini?",
+        "translation_quote": "KWANINI?"
+      },
+      {
+        "location": "Heading “THE LESSON IS PLAIN”",
+        "severity": "minor",
+        "source_quote": "THE LESSON IS PLAIN",
+        "suggested_fix": "SOMO LIKO WAZI",
+        "translation_quote": "SOMO LI WAZI"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}

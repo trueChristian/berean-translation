@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Heading “WHY?”",
+      "severity": "minor",
+      "source_quote": "WHY?",
+      "suggested_fix": "Kwa nini?",
+      "translation_quote": "KWANINI?"
+    },
+    {
+      "location": "Heading “THE LESSON IS PLAIN”",
+      "severity": "minor",
+      "source_quote": "THE LESSON IS PLAIN",
+      "suggested_fix": "SOMO LIKO WAZI",
+      "translation_quote": "SOMO LI WAZI"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

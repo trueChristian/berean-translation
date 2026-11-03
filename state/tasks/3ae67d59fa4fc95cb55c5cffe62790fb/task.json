@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "0e60cfbe57b140f894c2780163d87059",
   "campaign": "auto-b890fd158109796bfac0ba656f7ef1c0941ec3bf036a79a9e5233754df145821",
   "created_at": "2026-11-02T15:44:26+00:00",
   "events": [
@@ -68,18 +67,46 @@
         },
         "total_tokens": 4262
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 568,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 454,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3250,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 2147,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 3818
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "Paragraph beginning “Katika telegrafu ya kiroho”",
-      "severity": "major",
-      "source_quote": "“If we work in our own fleshly strength we will but effect fleshly results”",
-      "suggested_fix": "Replace “Tukifanya kazi kwa nguvu zetu za kibinadamu, tutazaa matokeo ya kibinadamu tu” with “Tukifanya kazi kwa nguvu zetu za mwili, tutapata matokeo ya mwili tu” to preserve the source’s theological contrast between fleshly and spiritual work.",
-      "translation_quote": "“Tukifanya kazi kwa nguvu zetu za kibinadamu, tutazaa matokeo ya kibinadamu tu”"
+      "location": "Heading “WHY?”",
+      "severity": "minor",
+      "source_quote": "WHY?",
+      "suggested_fix": "Kwa nini?",
+      "translation_quote": "KWANINI?"
+    },
+    {
+      "location": "Heading “THE LESSON IS PLAIN”",
+      "severity": "minor",
+      "source_quote": "THE LESSON IS PLAIN",
+      "suggested_fix": "SOMO LIKO WAZI",
+      "translation_quote": "SOMO LI WAZI"
     }
   ],
+  "finished_at": "2026-11-03T15:51:11+00:00",
   "id": "3ae67d59fa4fc95cb55c5cffe62790fb",
   "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
   "language": "swa",
@@ -168,7 +195,7 @@
     }
   },
   "protected": false,
-  "quality_score": 93,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
@@ -188,7 +215,7 @@
     "total_reserved_usd": 0.086681,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "86918e2f92ec7ff09eda36ffc30c12ee294e7b521bd1120caa6adee2c38e97b0",
   "translation_model_actual": "gpt-6-luna"
