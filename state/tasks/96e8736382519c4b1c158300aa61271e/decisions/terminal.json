@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Article body, paragraph beginning “In geestelike telegrafie”",
+      "severity": "minor",
+      "source_quote": "God is the only begetter of life.",
+      "suggested_fix": "God alleen is die Voortbringer van lewe.",
+      "translation_quote": "God alleen is die Gewer van lewe."
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

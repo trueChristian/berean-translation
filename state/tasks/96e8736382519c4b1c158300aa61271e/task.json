@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "022fead39eff43628413562c4e3c5db8",
   "campaign": "auto-8a22ce14285b93cfcae979a15d5122e13f51ecca63bfc37a97ba303a5fab26c8",
   "created_at": "2026-11-02T15:44:03+00:00",
   "events": [
@@ -28,10 +27,39 @@
         },
         "total_tokens": 2949
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 605,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 512,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3186,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 2083,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 3791
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "Article body, paragraph beginning “In geestelike telegrafie”",
+      "severity": "minor",
+      "source_quote": "God is the only begetter of life.",
+      "suggested_fix": "God alleen is die Voortbringer van lewe.",
+      "translation_quote": "God alleen is die Gewer van lewe."
+    }
+  ],
+  "finished_at": "2026-11-03T06:35:14+00:00",
   "id": "96e8736382519c4b1c158300aa61271e",
   "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
   "language": "afr",
@@ -120,9 +148,11 @@
     }
   },
   "protected": false,
+  "quality_score": 97,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/87f95a553eb83f75422bde15eb3d35effd9dfaf6d17787923fba7393c54d1833.json",
   "stage": "review1",
   "stage_budget": {
@@ -138,7 +168,7 @@
     "total_reserved_usd": 0.086685,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "86918e2f92ec7ff09eda36ffc30c12ee294e7b521bd1120caa6adee2c38e97b0",
   "translation_model_actual": "gpt-6-luna"

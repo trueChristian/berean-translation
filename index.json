@@ -4095,6 +4095,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/afr/articles/b72ea42a-1a86-4c21-a399-ebd3013c257b.html",
+      "html_sha256": "52b9fec90298248c445509455d3b0e1b819ac424fd0dbafb28070777ed11f022",
+      "human_reviewed": false,
+      "id": "b72ea42a-1a86-4c21-a399-ebd3013c257b",
+      "images": [
+        {
+          "alt": "’n Telegraafsleutel en sy elektriese kontakte",
+          "public_path": "/images/articles/b72ea42a-1a86-4c21-a399-ebd3013c257b-1.jpg"
+        }
+      ],
+      "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
+      "language": "afr",
+      "language_tag": "af",
+      "metadata": "content/afr/articles/b72ea42a-1a86-4c21-a399-ebd3013c257b.json",
+      "metadata_sha256": "4338d7f53e7cd203d6a01c6310c5ddc276f39849381ebfd21332a1054af230e8",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
+      "source_translation_key": "86918e2f92ec7ff09eda36ffc30c12ee294e7b521bd1120caa6adee2c38e97b0",
+      "status": "ready",
+      "subtitle": null,
+      "title": "’N BELOFTE VIR DIENS",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/afr/articles/b8181ffd-5861-420e-b92a-573b7e66fc3e.html",
       "html_sha256": "0577c8d3750021d8b828c83be1cad36691706c6a710b71a1564694622fe40423",
       "human_reviewed": false,

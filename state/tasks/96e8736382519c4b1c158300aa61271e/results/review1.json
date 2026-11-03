@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "58dafd82-9b3b-46b1-ba04-a7d3e8b62163",
+    "response_id": "chatcmpl-EfyE1rws4kehoaTahZqIby9rDDCHO",
+    "usage": {
+      "completion_tokens": 605,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3186,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2083,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 3791
+    }
+  },
+  "received_at": "2026-11-03T06:35:14+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Article body, paragraph beginning “In geestelike telegrafie”",
+        "severity": "minor",
+        "source_quote": "God is the only begetter of life.",
+        "suggested_fix": "God alleen is die Voortbringer van lewe.",
+        "translation_quote": "God alleen is die Gewer van lewe."
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 97
+  }
+}
