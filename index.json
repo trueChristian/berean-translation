@@ -19855,6 +19855,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/deu/articles/30796e2b-9ec4-4bcf-b9e3-7d40802ff1f9.html",
+      "html_sha256": "ca8733c373740b02ca523822cf7e4f6d594da5994ce9420d82c8047e4e0426f7",
+      "human_reviewed": false,
+      "id": "30796e2b-9ec4-4bcf-b9e3-7d40802ff1f9",
+      "images": [
+        {
+          "alt": "Ein älterer Mann hält neben einem Vogelkäfig einen Fächer",
+          "public_path": "/images/articles/30796e2b-9ec4-4bcf-b9e3-7d40802ff1f9-1.jpg"
+        },
+        {
+          "alt": "Kinder stehen einem Mann gegenüber, der neben einem hängenden Vogelkäfig steht",
+          "public_path": "/images/articles/30796e2b-9ec4-4bcf-b9e3-7d40802ff1f9-2.jpg"
+        }
+      ],
+      "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
+      "language": "deu",
+      "language_tag": "de",
+      "metadata": "content/deu/articles/30796e2b-9ec4-4bcf-b9e3-7d40802ff1f9.json",
+      "metadata_sha256": "23c3f4452287591eae75fc6c532936c778d6ac10e36b4b991a57b99c2c25ddd9",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
+      "source_translation_key": "2fe4971d188bb3d6dead7e494929bc66c75dcadb7d5a5a8de1ac402304b85733",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Vogelkäfig",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/deu/articles/31ea7041-cab6-4ccd-9ead-04cc949321a6.html",
       "html_sha256": "da57832c0a6f1aaea2f6ecbe5708c29690e8673f05b5dfbbb738ded892a7cc88",
       "human_reviewed": false,
