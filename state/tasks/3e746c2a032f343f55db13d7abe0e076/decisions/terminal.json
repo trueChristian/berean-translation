@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraphe 2",
+      "severity": "minor",
+      "source_quote": "“On that key you may write a complete message”",
+      "suggested_fix": "« À l’aide de cette clé, vous pouvez transmettre un message complet, de l’adresse à la signature. »",
+      "translation_quote": "« Sur cette clé, vous pouvez écrire un message complet, de l’adresse à la signature. »"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

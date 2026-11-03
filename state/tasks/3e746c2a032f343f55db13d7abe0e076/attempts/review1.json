@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-03T06:35:58+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraphe 2\",\"severity\":\"minor\",\"source_quote\":\"“On that key you may write a complete message”\",\"suggested_fix\":\"« À l’aide de cette clé, vous pouvez transmettre un message complet, de l’adresse à la signature. »\",\"translation_quote\":\"« Sur cette clé, vous pouvez écrire un message complet, de l’adresse à la signature. »\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 422,
+    "content_evidence_truncated": false,
+    "content_sha256": "3c41641f87ed72a1b13186d15c6c50e769e3a52d45f4e20c84afca04dda94176",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 649,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 530,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3167,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2064,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 3816
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

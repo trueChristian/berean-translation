@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "ce34030da87a45a79cd4690e78a49535",
   "campaign": "auto-c6ac3c6f249b11518f38a1d4901ac93f234f56bec05f0ec768b946081fe078f8",
   "created_at": "2026-11-02T06:22:12+00:00",
   "events": [
@@ -28,10 +27,39 @@
         },
         "total_tokens": 2813
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 649,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 530,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3167,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 2064,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 3816
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "Paragraphe 2",
+      "severity": "minor",
+      "source_quote": "“On that key you may write a complete message”",
+      "suggested_fix": "« À l’aide de cette clé, vous pouvez transmettre un message complet, de l’adresse à la signature. »",
+      "translation_quote": "« Sur cette clé, vous pouvez écrire un message complet, de l’adresse à la signature. »"
+    }
+  ],
+  "finished_at": "2026-11-03T06:35:58+00:00",
   "id": "3e746c2a032f343f55db13d7abe0e076",
   "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
   "language": "fra",
@@ -120,9 +148,11 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/87f95a553eb83f75422bde15eb3d35effd9dfaf6d17787923fba7393c54d1833.json",
   "stage": "review1",
   "stage_budget": {
@@ -138,7 +168,7 @@
     "total_reserved_usd": 0.08669,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "86918e2f92ec7ff09eda36ffc30c12ee294e7b521bd1120caa6adee2c38e97b0",
   "translation_model_actual": "gpt-6-luna"
