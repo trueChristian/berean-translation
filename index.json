@@ -91321,6 +91321,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/swe/articles/b72ea42a-1a86-4c21-a399-ebd3013c257b.html",
+      "html_sha256": "212feda10702edb93cf75dc89f072d2c341dc902a0e6a277e774b9b25a2b52cc",
+      "human_reviewed": false,
+      "id": "b72ea42a-1a86-4c21-a399-ebd3013c257b",
+      "images": [
+        {
+          "alt": "En telegrafnyckel och dess elektriska kontakter",
+          "public_path": "/images/articles/b72ea42a-1a86-4c21-a399-ebd3013c257b-1.jpg"
+        }
+      ],
+      "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
+      "language": "swe",
+      "language_tag": "sv",
+      "metadata": "content/swe/articles/b72ea42a-1a86-4c21-a399-ebd3013c257b.json",
+      "metadata_sha256": "fc1a0b5d3447a0644b1f1fb1eb213ba9f5b5cfdcc097b0649155f110cd457c9f",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
+      "source_translation_key": "86918e2f92ec7ff09eda36ffc30c12ee294e7b521bd1120caa6adee2c38e97b0",
+      "status": "ready",
+      "subtitle": null,
+      "title": "ETT LÖFTE FÖR TJÄNSTEN",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/swe/articles/b8181ffd-5861-420e-b92a-573b7e66fc3e.html",
       "html_sha256": "843585f983521cf796be6b4ef8415417b0ea1b3d29fa6ae2b1ace639954c66d9",
       "human_reviewed": false,
