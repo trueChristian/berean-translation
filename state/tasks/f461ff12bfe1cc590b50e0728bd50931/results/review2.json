@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "865e3276-27a0-45c6-bbdf-dd6f4e8bf9cd",
+    "response_id": "chatcmpl-EfyBLD10TLhk3m6iFAXzSqUU4sVqR",
+    "usage": {
+      "completion_tokens": 618,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 474,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 11046,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9943,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 11664
+    }
+  },
+  "received_at": "2026-11-03T06:36:25+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraf 13, kalimat penutup",
+        "severity": "minor",
+        "source_quote": "the worship and service due unto Him alone is hereby idolatrously given to other things!",
+        "suggested_fix": "Dengan demikian, penyembahan dan pengabdian yang hanya patut diberikan kepada-Nya justru diberikan kepada hal-hal lain sebagai penyembahan berhala!",
+        "translation_quote": "Dengan demikian, penyembahan dan pengabdian yang hanya patut diberikan kepada-Nya diberikan secara menyembah berhala kepada hal-hal lain!"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}

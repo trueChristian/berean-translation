@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraf 13, kalimat penutup",
+      "severity": "minor",
+      "source_quote": "the worship and service due unto Him alone is hereby idolatrously given to other things!",
+      "suggested_fix": "Dengan demikian, penyembahan dan pengabdian yang hanya patut diberikan kepada-Nya justru diberikan kepada hal-hal lain sebagai penyembahan berhala!",
+      "translation_quote": "Dengan demikian, penyembahan dan pengabdian yang hanya patut diberikan kepada-Nya diberikan secara menyembah berhala kepada hal-hal lain!"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}
