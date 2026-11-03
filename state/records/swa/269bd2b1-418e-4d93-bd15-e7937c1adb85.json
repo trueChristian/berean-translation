@@ -12,9 +12,16 @@
       "event": "not_ready",
       "reason": "Forbidden HTML element: strong_hali=\"\"",
       "task": "7d07ef3f12423bbbe6da6dabf52f17ad"
+    },
+    {
+      "at": "2026-11-03T08:45:07+00:00",
+      "campaign": "auto-e96cb2568baa0f38e9d32fc8d6a194496c5bcc81ba26ca69a51c216dae2e3cda",
+      "event": "automatic_requested",
+      "previous_task": "7d07ef3f12423bbbe6da6dabf52f17ad",
+      "task": "4dea7b918e80d6e359037b43abb22c51"
     }
   ],
   "language": "swa",
-  "latest_task": "7d07ef3f12423bbbe6da6dabf52f17ad",
+  "latest_task": "4dea7b918e80d6e359037b43abb22c51",
   "published": null
 }
