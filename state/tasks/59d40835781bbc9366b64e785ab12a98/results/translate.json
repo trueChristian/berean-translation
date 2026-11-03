@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "f133e2c8-1d9b-4a81-b10d-b05c3ba9205f",
+    "response_id": "chatcmpl-Eg3IAAzYeOKiIpzvS0h1dwqMXWqB2",
+    "usage": {
+      "completion_tokens": 1283,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1891,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1888,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3174
+    }
+  },
+  "received_at": "2026-11-03T08:41:50+00:00",
+  "result": {
+    "html": "<article data-article-id=\"30796e2b-9ec4-4bcf-b9e3-7d40802ff1f9\">\n  <figure><img src=\"/images/articles/30796e2b-9ec4-4bcf-b9e3-7d40802ff1f9-1.jpg\" alt=\"Ein älterer Mann hält neben einem Vogelkäfig einen Fächer\"></figure>\n  <p>Ein Mann stand am Straßenrand neben einem großen Vogelkäfig.</p>\n  <p>Ein Junge bemerkte, dass der Käfig voller Vögel verschiedenster Arten war.</p>\n  <p>„Wo hast du diese Vögel her?“, fragte er.</p>\n  <p>„Ach, von überall her“, antwortete der Mann. „Ich locke sie mit Krümeln an und tue so, als wäre ich ihr Freund. Wenn sie dann nahe genug sind, fange ich sie mit einem Netz und stopfe sie in meinen Käfig.“</p>\n  <p>„Und was hast du jetzt mit ihnen vor?“</p>\n  <p>Der Mann grinste. „Ich werde sie mit Stöcken anstupsen und richtig wütend machen, damit sie kämpfen und einander töten. Diejenigen, die überleben, werde ich töten. Keiner wird entkommen.“</p>\n  <p>Der Junge sah den Mann unverwandt an. Was brachte ihn dazu, so etwas zu tun? Er blickte in die grausamen, harten Augen. Dann sah er die Vögel an, wehrlos und ohne Hoffnung.</p>\n  <p>„Kann ich dir diese Vögel abkaufen?“, fragte der Junge. Der Mann unterdrückte ein Lächeln; ihm war klar, dass er ein gutes Geschäft machen könnte, wenn er es geschickt anstellte.</p>\n  <figure><img src=\"/images/articles/30796e2b-9ec4-4bcf-b9e3-7d40802ff1f9-2.jpg\" alt=\"Kinder stehen einem Mann gegenüber, der neben einem hängenden Vogelkäfig steht\"></figure>\n  <p>„Nun“, sagte er zögernd, „der Käfig ist ziemlich teuer, und ich habe viel Zeit damit verbracht, diese Vögel zu sammeln. Ich sage dir was: Du kannst das Ganze haben – die Vögel, den Käfig und alles – für zehn Pfund und die Jacke, die du trägst.“</p>\n  <p>Der Junge zögerte. Zehn Pfund waren alles, was er hatte, und die Jacke war neu und etwas ganz Besonderes; tatsächlich war sie sein wertvollster Besitz. Langsam holte er die zehn Pfund heraus und reichte sie ihm. Dann zog er, noch langsamer, seine Jacke aus, warf einen letzten Blick auf sie und gab auch sie dem Mann.</p>\n  <p>Er nahm dem Mann den Käfig ab. Und dann öffnete er (ihr habt es euch vielleicht schon gedacht) die Tür und ließ die Vögel frei.</p>\n  <hr>\n  <p>Der Feind der Welt, Satan, stand am Weg des Lebens neben einem sehr großen Käfig.</p>\n  <p>Der Mann, der auf ihn zukam, bemerkte, dass der Käfig bis zum Rand mit Menschen aller Art gefüllt war: jung und alt, aus allen Völkern und Nationen.</p>\n  <p>„Wo hast du diese Menschen her?“, fragte der Mann.</p>\n  <p>„Ach, aus aller Welt“, antwortete Satan. „Ich locke sie mit Alkohol, Drogen, Begierde, Lügen, Zorn, Hass, Geldgier und allen möglichen anderen Dingen. Ich tue so, als wäre ich ihr Freund und wollte ihnen eine gute Zeit verschaffen. Sobald ich sie dann am Haken habe, kommen sie in den Käfig.“</p>\n  <p>„Und was hast du jetzt mit ihnen vor?“, fragte der Mann.</p>\n  <p>Satan grinste. „Ich werde sie anstacheln und provozieren, sie dazu bringen, einander zu hassen und zu zerstören; ich werde Rassenhass schüren und zur Missachtung von Recht und Ordnung anstiften. Ich werde die Menschen gelangweilt, einsam, unzufrieden, verwirrt und rastlos machen. Das ist leicht. Die Menschen werden immer auf das hören, was ich ihnen anbiete, und was noch besser ist: Sie werden Gott für die Folgen verantwortlich machen!“</p>\n  <p>„Und was dann?“, fragte der Mann.</p>\n  <p>„Diejenigen, die sich nicht selbst zerstören, werde ich zerstören. Keiner wird mir entkommen.“</p>\n  <p>Der Mann trat vor. „Kann ich dir diese Menschen abkaufen?“, fragte er.</p>\n  <p>Satan fauchte: „Ja, aber es wird dich dein Leben kosten.“ So bezahlte Jesus Christus, der Sohn Gottes, mit seinem eigenen Leben am Kreuz auf Golgatha für deine Erlösung, für deine Freiheit aus Satans Falle. Die Tür steht offen, und jeder, den Satan getäuscht und gefangen genommen hat, kann befreit werden.</p>\n  <blockquote>\n    <p><strong>Vertraue auf den HERRN<br>mit deinem ganzen Herzen<br>und verlass dich nicht auf deinen<br>eigenen Verstand.<br>Auf all deinen Wegen erkenne ihn an,<br>und er wird deine Pfade ebnen.</strong></p>\n    <p><strong>Sprüche 3,5–6</strong></p>\n  </blockquote>\n</article>\n",
+    "section": null,
+    "subtitle": null,
+    "title": "Vogelkäfig"
+  }
+}
