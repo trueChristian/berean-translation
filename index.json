@@ -11000,6 +11000,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ben/articles/30796e2b-9ec4-4bcf-b9e3-7d40802ff1f9.html",
+      "html_sha256": "9f185530a05753510f6c01c9b4556da4218c86d85bf5e27dd5c8e67b663c514a",
+      "human_reviewed": false,
+      "id": "30796e2b-9ec4-4bcf-b9e3-7d40802ff1f9",
+      "images": [
+        {
+          "alt": "একজন বয়স্ক ব্যক্তি পাখির খাঁচার পাশে দাঁড়িয়ে পাখা হাতে ধরে আছেন",
+          "public_path": "/images/articles/30796e2b-9ec4-4bcf-b9e3-7d40802ff1f9-1.jpg"
+        },
+        {
+          "alt": "ঝুলন্ত পাখির খাঁচার পাশে দাঁড়ানো এক লোকের সামনে শিশুরা",
+          "public_path": "/images/articles/30796e2b-9ec4-4bcf-b9e3-7d40802ff1f9-2.jpg"
+        }
+      ],
+      "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
+      "language": "ben",
+      "language_tag": "bn",
+      "metadata": "content/ben/articles/30796e2b-9ec4-4bcf-b9e3-7d40802ff1f9.json",
+      "metadata_sha256": "ac8e0a1b8f90e8b31e1695b23f260d5c95e06aef648273f9a95936ab5569b7f9",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
+      "source_translation_key": "2fe4971d188bb3d6dead7e494929bc66c75dcadb7d5a5a8de1ac402304b85733",
+      "status": "ready",
+      "subtitle": null,
+      "title": "পাখির খাঁচা",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ben/articles/31ea7041-cab6-4ccd-9ead-04cc949321a6.html",
       "html_sha256": "20134248312402479579116137452b144c8b693c2c36bf390c960f8b4aa69bea",
       "human_reviewed": false,
