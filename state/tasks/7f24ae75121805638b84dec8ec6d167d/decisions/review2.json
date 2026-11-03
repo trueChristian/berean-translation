@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "translation.html: विज्ञान से ईसाइयों के दूर होने वाला अनुच्छेद",
+      "severity": "minor",
+      "source_quote": "They do not see something so antagonistic to the fundamental Christian faith as being useful.",
+      "suggested_fix": "“बुनियादी ईसाई आस्था के इतनी विरुद्ध हो” को “बुनियादी ईसाई आस्था के इतना विरुद्ध हो” करें।",
+      "translation_quote": "वे ऐसी किसी चीज़ को उपयोगी नहीं मानते जो बुनियादी ईसाई आस्था के इतनी विरुद्ध हो।"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}
