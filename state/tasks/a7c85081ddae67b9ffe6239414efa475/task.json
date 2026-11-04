@@ -5,11 +5,48 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "c217b314bd5741bab4dfe9c935a17f7c",
   "campaign": "auto-40411f106db12455789e9081c2f4921e9f72ca591fc6c0bae8c5903dbda4fbae",
   "created_at": "2026-11-04T01:50:38+00:00",
-  "events": [],
-  "findings": [],
+  "events": [
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 371,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 133,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 11792,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 10689,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 12163
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "translation.html, paragraph beginning «Εν τω μεταξύ»",
+      "severity": "minor",
+      "source_quote": "how judgmental she thought that I had acted",
+      "suggested_fix": "Αντικαταστήστε το «πόσο επικριτική νόμιζε ότι ήμουν» με «πόσο επικριτικός νόμιζε ότι είχα φερθεί».",
+      "translation_quote": "πόσο επικριτική νόμιζε ότι ήμουν"
+    },
+    {
+      "location": "translation.html, final sentence of the concluding prose paragraph",
+      "severity": "minor",
+      "source_quote": "we point the masses to Christ!",
+      "suggested_fix": "Αντικαταστήστε το «δείχνουμε τα πλήθη στον Χριστό!» με «στρέφουμε τα πλήθη προς τον Χριστό!», ώστε η ελληνική διατύπωση να αποδίδει σωστά την κατεύθυνση της προτροπής.",
+      "translation_quote": "δείχνουμε τα πλήθη στον Χριστό!"
+    }
+  ],
+  "finished_at": "2026-11-04T02:03:06+00:00",
   "id": "a7c85081ddae67b9ffe6239414efa475",
   "issue_id": "4e575f26-fabd-5104-ba0d-d54ca032653b",
   "language": "ell",
@@ -98,9 +135,11 @@
     }
   },
   "protected": false,
+  "quality_score": 97,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/ca40023e50c915a7258ad4b58f87f9226bb9b3cad9ebbbe9ba9d4725b817d7e3.json",
   "stage": "review1",
   "stage_budget": {
@@ -115,7 +154,7 @@
     "total_reserved_usd": 0.811264,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 0,
   "translation_key": "b60f5232f76b3d6e5573e616829a89d507fba9c836e4dbf3fc2981eb0eff86a2",
   "translation_model_actual": "gpt-6-luna"

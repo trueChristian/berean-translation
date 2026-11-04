@@ -24879,6 +24879,42 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ell/articles/37272f7d-a8c0-4c15-b884-ebbf333303cb.html",
+      "html_sha256": "23315a68ee08944e9615a8f70f32afe4beca4a75c3b892c73b57d2fa1c73b167",
+      "human_reviewed": false,
+      "id": "37272f7d-a8c0-4c15-b884-ebbf333303cb",
+      "images": [
+        {
+          "alt": "Ο Ιησούς στέκεται μπροστά στον Πιλάτο και στο συγκεντρωμένο πλήθος",
+          "public_path": "/images/articles/37272f7d-a8c0-4c15-b884-ebbf333303cb-1.jpg"
+        },
+        {
+          "alt": "Ανοιχτή Αγία Γραφή σε χαμηλό φωτισμό, το αριστερό μισό μιας φωτογραφίας δύο σελίδων",
+          "public_path": "/images/articles/37272f7d-a8c0-4c15-b884-ebbf333303cb-2.jpg"
+        },
+        {
+          "alt": "Ανοιχτή Αγία Γραφή σε χαμηλό φωτισμό, το δεξί μισό μιας φωτογραφίας δύο σελίδων",
+          "public_path": "/images/articles/37272f7d-a8c0-4c15-b884-ebbf333303cb-3.jpg"
+        }
+      ],
+      "issue_id": "4e575f26-fabd-5104-ba0d-d54ca032653b",
+      "language": "ell",
+      "language_tag": "el",
+      "metadata": "content/ell/articles/37272f7d-a8c0-4c15-b884-ebbf333303cb.json",
+      "metadata_sha256": "c6e1b2e0c4a0a31269fb082811cad11afdf8d89d10ceea5af78450404ade815b",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "Στοχασμοί ενός ιεραποστόλου",
+      "source_revision": "22388745ad7f149609e65f5e28cfcc1257cd689e",
+      "source_translation_key": "b60f5232f76b3d6e5573e616829a89d507fba9c836e4dbf3fc2981eb0eff86a2",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Διαχωρισμός",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ell/articles/391d4642-07e2-4003-83db-fa33dc08a8ca.html",
       "html_sha256": "65aa4145af7a47965c81f250ca19ac4379502c27ef93aed50d539874277abd78",
       "human_reviewed": false,

@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-04T02:03:06+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"translation.html, paragraph beginning «Εν τω μεταξύ»\",\"severity\":\"minor\",\"source_quote\":\"how judgmental she thought that I had acted\",\"suggested_fix\":\"Αντικαταστήστε το «πόσο επικριτική νόμιζε ότι ήμουν» με «πόσο επικριτικός νόμιζε ότι είχα φερθεί».\",\"translation_quote\":\"πόσο επικριτική νόμιζε ότι ήμουν\"},{\"location\":\"translation.html, final sentence of the concluding prose paragraph\",\"severity\":\"minor\",\"source_quote\":\"we point the masses to Christ!\",\"suggested_fix\":\"Αντικαταστήστε το «δείχνουμε τα πλήθη στον Χριστό!» με «στρέφουμε τα πλήθη προς τον Χριστό!», ώστε η ελληνική διατύπωση να αποδίδει σωστά την κατεύθυνση της προτροπής.\",\"translation_quote\":\"δείχνουμε τα πλήθη στον Χριστό!\"}],\"findings_complete\":true,\"passed\":true,\"score\":97}",
+    "content_bytes": 1062,
+    "content_evidence_truncated": false,
+    "content_sha256": "4591215fe1f506f98ccf9d8f4baa1cabc51d10f7ac5bbe6f86f19a909f215838",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 371,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 133,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 11792,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 10689,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 12163
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}

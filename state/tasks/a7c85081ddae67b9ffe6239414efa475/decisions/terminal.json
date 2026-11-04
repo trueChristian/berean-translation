@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "translation.html, paragraph beginning «Εν τω μεταξύ»",
+      "severity": "minor",
+      "source_quote": "how judgmental she thought that I had acted",
+      "suggested_fix": "Αντικαταστήστε το «πόσο επικριτική νόμιζε ότι ήμουν» με «πόσο επικριτικός νόμιζε ότι είχα φερθεί».",
+      "translation_quote": "πόσο επικριτική νόμιζε ότι ήμουν"
+    },
+    {
+      "location": "translation.html, final sentence of the concluding prose paragraph",
+      "severity": "minor",
+      "source_quote": "we point the masses to Christ!",
+      "suggested_fix": "Αντικαταστήστε το «δείχνουμε τα πλήθη στον Χριστό!» με «στρέφουμε τα πλήθη προς τον Χριστό!», ώστε η ελληνική διατύπωση να αποδίδει σωστά την κατεύθυνση της προτροπής.",
+      "translation_quote": "δείχνουμε τα πλήθη στον Χριστό!"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

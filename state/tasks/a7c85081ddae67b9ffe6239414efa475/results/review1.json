@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "22456227-bc61-499c-b0fc-37a36568b51e",
+    "response_id": "chatcmpl-EgKWiKnlMjeU8V4IX3WR5Dt5nqiZ9",
+    "usage": {
+      "completion_tokens": 371,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 133,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 11792,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 10689,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 12163
+    }
+  },
+  "received_at": "2026-11-04T02:03:06+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "translation.html, paragraph beginning «Εν τω μεταξύ»",
+        "severity": "minor",
+        "source_quote": "how judgmental she thought that I had acted",
+        "suggested_fix": "Αντικαταστήστε το «πόσο επικριτική νόμιζε ότι ήμουν» με «πόσο επικριτικός νόμιζε ότι είχα φερθεί».",
+        "translation_quote": "πόσο επικριτική νόμιζε ότι ήμουν"
+      },
+      {
+        "location": "translation.html, final sentence of the concluding prose paragraph",
+        "severity": "minor",
+        "source_quote": "we point the masses to Christ!",
+        "suggested_fix": "Αντικαταστήστε το «δείχνουμε τα πλήθη στον Χριστό!» με «στρέφουμε τα πλήθη προς τον Χριστό!», ώστε η ελληνική διατύπωση να αποδίδει σωστά την κατεύθυνση της προτροπής.",
+        "translation_quote": "δείχνουμε τα πλήθη στον Χριστό!"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 97
+  }
+}
