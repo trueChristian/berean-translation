@@ -8837,6 +8837,34 @@
     {
       "ai_notice_required": true,
       "direction": "rtl",
+      "html": "content/ara/articles/b72ea42a-1a86-4c21-a399-ebd3013c257b.html",
+      "html_sha256": "fc91e100e7684a8e3d3e623bbaf71ca6b31c6af95ca013296098c15f8e0cfe16",
+      "human_reviewed": false,
+      "id": "b72ea42a-1a86-4c21-a399-ebd3013c257b",
+      "images": [
+        {
+          "alt": "مفتاح تلغراف وملامساته الكهربائية",
+          "public_path": "/images/articles/b72ea42a-1a86-4c21-a399-ebd3013c257b-1.jpg"
+        }
+      ],
+      "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
+      "language": "ara",
+      "language_tag": "ar",
+      "metadata": "content/ara/articles/b72ea42a-1a86-4c21-a399-ebd3013c257b.json",
+      "metadata_sha256": "5037831a3493152ee8c222bf616cb0879ea4ec3f766c30bbd12ad0960b1a9592",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": null,
+      "source_revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
+      "source_translation_key": "86918e2f92ec7ff09eda36ffc30c12ee294e7b521bd1120caa6adee2c38e97b0",
+      "status": "ready",
+      "subtitle": null,
+      "title": "وَعْدٌ لِلْخِدْمَة",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
       "html": "content/ara/articles/b9a7b1b8-0a23-4e53-b835-31bf5a42dc33.html",
       "html_sha256": "7ddc23060a752065c352bab9900697a8eb1635e9d8079e8dd1ebb432d5749299",
       "human_reviewed": false,

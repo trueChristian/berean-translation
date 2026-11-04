@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "5d63402a-6df9-4b4a-a336-53fd0ec49e2a",
+    "response_id": "chatcmpl-EgINOio7KKz3KFtGhrtNZsLEorGDJ",
+    "usage": {
+      "completion_tokens": 225,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 43,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3135,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 3132
+      },
+      "total_tokens": 3360
+    }
+  },
+  "received_at": "2026-11-04T01:20:35+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "html: الفقرة الأولى تحت عنوان «العبرة واضحة»",
+        "severity": "minor",
+        "source_quote": "We may do, but if God is not doing through us",
+        "suggested_fix": "استبدل «قد <em>نحن</em> <em>نفعل</em>» بـ«<em>نحن</em> قد <em>نفعل</em>».",
+        "translation_quote": "قد <em>نحن</em> <em>نفعل</em>، لكن إن لم يكن <em>الله</em> يعمل من خلالنا"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}

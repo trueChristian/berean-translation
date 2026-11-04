@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "html: الفقرة الأولى تحت عنوان «العبرة واضحة»",
+      "severity": "minor",
+      "source_quote": "We may do, but if God is not doing through us",
+      "suggested_fix": "استبدل «قد <em>نحن</em> <em>نفعل</em>» بـ«<em>نحن</em> قد <em>نفعل</em>».",
+      "translation_quote": "قد <em>نحن</em> <em>نفعل</em>، لكن إن لم يكن <em>الله</em> يعمل من خلالنا"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}
