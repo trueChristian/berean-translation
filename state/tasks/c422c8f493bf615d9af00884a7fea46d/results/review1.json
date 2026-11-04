@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "4b1bcf18-37d7-4939-bd9d-b8331ad58332",
+    "response_id": "chatcmpl-EgKVSKKX9knqlaabPi1AS5yc4hMQ9",
+    "usage": {
+      "completion_tokens": 901,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 653,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5094,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5091,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5995
+    }
+  },
+  "received_at": "2026-11-04T02:03:03+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Testimony, from “I also found a second century article” through the account of the Mexican couple; and final paragraph, wherever “نقاب” is used for the head covering",
+        "severity": "major",
+        "source_quote": "“all of the women wore a cloth veiling on their heads”; “my wife began to veil her head”; “since we have begun the practice of veiling”",
+        "suggested_fix": "Replace “نقاب” in these references with wording for a cloth head covering, such as “سر ڈھانپنے کا کپڑا” or “سرپوش,” and adjust the surrounding phrases accordingly. For example, “کپڑے کا نقاب پہنتی تھیں” → “کپڑے سے سر ڈھانپتی تھیں.”",
+        "translation_quote": "“تمام عورتیں اپنے سروں پر کپڑے کا نقاب پہنتی تھیں”؛ “میری بیوی نے سر پر نقاب لینا شروع کر دیا”؛ “ہم نے نقاب لینے کا عمل شروع کیا ہے”"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 92
+  }
+}
