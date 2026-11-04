@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "5775977df6014387bf5aead1f174a5b4",
   "campaign": "auto-dfdd567cf1aa9450ddecc21240d230ff92eac64a88502234c2bf81314fb858b2",
   "created_at": "2026-11-01T15:03:06+00:00",
   "events": [
@@ -48,123 +47,31 @@
         },
         "total_tokens": 19651
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 63,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 31,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 12042,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 10939,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 12105
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "translation.html, opening paragraph, Ephesians 4:8 quotation",
-      "severity": "major",
-      "source_quote": "he led captivity captive",
-      "suggested_fix": "Vervang “het Hy die gevangene as ’t ware weggevoer” met “het Hy die gevangenskap gevange geneem”.",
-      "translation_quote": "het Hy die gevangene as ’t ware weggevoer"
-    },
-    {
-      "location": "translation.html, paragraph listing the gifts in 1 Corinthians 12",
-      "severity": "major",
-      "source_quote": "helps, and governments",
-      "suggested_fix": "Vervang “hulpvaardigheid en besturende manskap” met “hulpverlening en bestuur”. Die bron verwys na gawes van diens en bestuur, nie na personeel nie.",
-      "translation_quote": "hulpvaardigheid en besturende manskap"
-    },
-    {
-      "location": "translation.html, opening quotation under the heading about qualifications for church leaders",
-      "severity": "major",
-      "source_quote": "Neglect not the gift that is in thee",
-      "suggested_fix": "Vervang “Vergeet nie die gawe wat in jou is nie” met “Moenie die gawe wat in jou is, verwaarloos nie”.",
-      "translation_quote": "Vergeet nie die gawe wat in jou is nie"
-    },
-    {
-      "location": "translation.html, sentence immediately following James 3:13–18",
-      "severity": "major",
-      "source_quote": "Very rare is the case of church trouble involving church leadership when there is not a major lack by one or more of the ordained to be fully living out of God’s will and wisdom as defined herein.",
-      "suggested_fix": "Vervang die sin met: “Dit is baie selde dat kerklike probleme waarby die kerkleierskap betrokke is, voorkom sonder dat een of meer van die geordendes ernstig tekortskiet daarin om ten volle volgens God se wil en wysheid, soos hier omskryf, te leef.”",
-      "translation_quote": "Baie skaars is die geval van kerklike onrus wat gelei word deur kerkleierskap wat nie ’n groot gebrek van die geordendes het om ten volle uit God se wil en wysheid soos hierin gedefinieer te leef nie."
-    },
-    {
-      "location": "translation.title and translation.html, all occurrences of “Geestesgaver”, “geestesgaver” and “geestesgaaf”",
-      "severity": "minor",
-      "source_quote": "Spiritual Gifts; spiritual gift",
-      "suggested_fix": "Vervang deurgaans “Geestesgaver” met “Geestesgawes”, “geestesgaver” met “geestesgawes” en “geestesgaaf” met “geestesgawe”, ook in die titel en opskrifte.",
-      "translation_quote": "Geestesgaver; geestesgaver; geestesgaaf"
-    },
-    {
-      "location": "translation.section",
-      "severity": "minor",
-      "source_quote": "THE NEW TESTAMENT CHURCH",
-      "suggested_fix": "Verander na “DIE NUWE-TESTAMENTIESE KERK”.",
-      "translation_quote": "DIE NYE TESTAMENTSE KERK"
-    },
-    {
-      "location": "translation.html, paragraph warning against excusing bad behavior",
-      "severity": "minor",
-      "source_quote": "As much as we may try to be well-equipped with as many of the gifts as we can",
-      "suggested_fix": "Vervang met “Hoe hard ons ook al probeer om met soveel moontlik van die gawes toegerus te wees”.",
-      "translation_quote": "Hoe hard ons ook al probeer om so veel moontlik gawes toe te rus te wees"
-    },
-    {
-      "location": "translation.html, both quotations of 1 Corinthians 12:11",
-      "severity": "minor",
-      "source_quote": "But all these worketh that one and the selfsame Spirit",
-      "suggested_fix": "Vervang “Maar al hierdie werkt een en dieselfde Gees” in albei aanhalings met “Maar een en dieselfde Gees bewerk al hierdie dinge”.",
-      "translation_quote": "Maar al hierdie werkt een en dieselfde Gees"
-    },
-    {
-      "location": "translation.html, paragraph beginning “Ook is dit goed”",
-      "severity": "minor",
-      "source_quote": "Sometimes a select few are lifted out",
-      "suggested_fix": "Vervang “Soms word ’n paar gekose liefs uitgelig” met “Soms word ’n paar uitgesoekte gawes uitgelig”.",
-      "translation_quote": "Soms word ’n paar gekose liefs uitgelig"
-    },
-    {
-      "location": "translation.html, marriage example and following paragraph",
-      "severity": "minor",
-      "source_quote": "God gave the husband what he lacked; if they find themselves lacking",
-      "suggested_fix": "Vervang “God die man gegee het wat hy gebrekig was” met “God aan die man gegee het wat hy kortgekom het”; vervang “as hulle ontbreek” met “as hulle daarin tekortskiet”.",
-      "translation_quote": "God die man gegee het wat hy gebrekig was; as hulle ontbreek"
-    },
-    {
-      "location": "translation.html, James 3:13–18 and Ephesians 4:11–12 quotations",
-      "severity": "minor",
-      "source_quote": "<strong>a good conversation</strong>; <strong>meekness of wisdom</strong>; <strong>bitter envying and strife in your hearts</strong>; <strong>lie not against the truth</strong>; <strong>pure</strong>; <strong>peaceable</strong>; <strong>gentle</strong>; <strong>easy to be intreated, full of mercy</strong>; <strong>good fruits</strong>; <strong>without partiality</strong>; <strong>without hypocrisy</strong>; <strong>the perfecting of the saints</strong>; <strong>the work of the ministry</strong>; <strong>the edifying of the body of Christ</strong>",
-      "suggested_fix": "Herstel die bron se <strong>-etikette rondom die ooreenstemmende Afrikaanse frases in albei aanhalings, sonder om die bestaande <em>- en <u>-etikette te verander.",
-      "translation_quote": "sy goeie wandel; sagmoedigheid van wysheid; bitter afgunst en tweedracht in julle harte; loën nie die waarheid; suiwer; vredeliewend; sagmoedig; gewillig om mee te werk, vol barmhartigheid; goeie vrugte; sonder partydigheid; sonder huigelary; die voltooiing van die heiliges; dienswerk; opbouing van die liggaam van Christus"
-    },
-    {
-      "location": "translation.html, paragraph on biblical solutions to church problems",
-      "severity": "minor",
-      "source_quote": "outside overseers; God’s provision",
-      "suggested_fix": "Vervang “buitenste toesighouers” met “toesighouers van buite” en “God se voorziening” met “God se voorsiening”.",
-      "translation_quote": "buitenste toesighouers; God se voorziening"
-    },
-    {
-      "location": "translation.html, healing paragraph",
-      "severity": "minor",
-      "source_quote": "so we will have the gifts of the Spirit working together through all the members",
-      "suggested_fix": "Vervang “sodat ons die gawes van die Gees hê wat saamwerk deur al die lede” met “sodat die gawes van die Gees deur al die lede saam kan werk”.",
-      "translation_quote": "sodat ons die gawes van die Gees hê wat saamwerk deur al die lede"
-    },
-    {
-      "location": "translation.html, paragraph about studies of tongues",
-      "severity": "minor",
-      "source_quote": "English syllables; Spanish syllables; they deducted; syllables of their native tongue",
-      "suggested_fix": "Vervang al drie voorkomste van “syllabes” met “lettergrepe” en “het hulle afgeleid” met “het hulle afgelei”.",
-      "translation_quote": "Engelse syllabes; Spaanse syllabes; het hulle afgeleid; syllabes van hul moedertaal"
-    },
-    {
-      "location": "translation.html, Canadian woman example",
-      "severity": "minor",
-      "source_quote": "may not even be aware of it; tower of Babel; a French-speaking hearer",
-      "suggested_fix": "Vervang “nie eens bewustelik daarvan is nie” met “nie eens daarvan bewus is nie”, “toren van Babel” met “toring van Babel”, en “’n Franssprekende gehore” met “’n Franssprekende hoorder”.",
-      "translation_quote": "nie eens bewustelik daarvan is nie; toren van Babel; ’n Franssprekende gehore"
-    },
-    {
-      "location": "translation.html, image alt attribute",
-      "severity": "minor",
-      "source_quote": "A misty winter forest reflected in a lake",
-      "suggested_fix": "Verander slegs die alt-teks na “’n Mistige winterwoud wat in ’n meer weerspieël word”.",
-      "translation_quote": "’n miste winterbos wat in ’n meer weerspieël word"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-11-04T01:20:01+00:00",
   "id": "f266922a4f3adb465e95f1e49c9ffc32",
   "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
   "language": "afr",
@@ -253,7 +160,7 @@
     }
   },
   "protected": false,
-  "quality_score": 86,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6.1-sol",
@@ -272,7 +179,7 @@
     "total_reserved_usd": 0.798085,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "1c1dd57f73c720271265483775e7d93acfbda9f85eeefb95d0c905a5b442adfd",
   "translation_model_actual": "gpt-6.1-sol"
