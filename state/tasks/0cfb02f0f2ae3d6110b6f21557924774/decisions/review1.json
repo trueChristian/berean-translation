@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "html，I.a，引用出埃及记20:23的段落",
+      "severity": "major",
+      "source_quote": "Ye shall not make with me gods of silver, neither shall ye make unto you gods of gold",
+      "suggested_fix": "将引文改为：“你们不可做银神像与我并列，也不可为自己做金神像。”保留现有的<em>标签及经文出处。",
+      "translation_quote": "你们不可与我一同做什么神像，也不可为自己做金像。"
+    },
+    {
+      "location": "html，III.b，引用马可福音1:14的段落",
+      "severity": "major",
+      "source_quote": "came into Galilee, preaching the gospel of the kingdom of God",
+      "suggested_fix": "将“到了加利利，宣传神的福音”改为“到了加利利，传讲神国的福音”，保留现有标签和经文出处。",
+      "translation_quote": "到了加利利，宣传神的福音。"
+    },
+    {
+      "location": "html，III.c，以弗所书5:19引文后的解释",
+      "severity": "major",
+      "source_quote": "“Making melody in your heart” involves the accompaniment of the heart.",
+      "suggested_fix": "将“‘心被恩感歌颂’意味着心也一同伴奏”改为“‘心和地赞美’意味着心也一同伴奏”，使解释对应本段所引用的以弗所书5:19，而非上一段歌罗西书的措辞。",
+      "translation_quote": "“心被恩感歌颂”意味着心也一同伴奏。"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

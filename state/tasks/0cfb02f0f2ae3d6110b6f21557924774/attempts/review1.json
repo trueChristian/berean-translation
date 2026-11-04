@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-04T22:51:36+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"html，I.a，引用出埃及记20:23的段落\",\n      \"severity\": \"major\",\n      \"source_quote\": \"Ye shall not make with me gods of silver, neither shall ye make unto you gods of gold\",\n      \"suggested_fix\": \"将引文改为：“你们不可做银神像与我并列，也不可为自己做金神像。”保留现有的<em>标签及经文出处。\",\n      \"translation_quote\": \"你们不可与我一同做什么神像，也不可为自己做金像。\"\n    },\n    {\n      \"location\": \"html，III.b，引用马可福音1:14的段落\",\n      \"severity\": \"major\",\n      \"source_quote\": \"came into Galilee, preaching the gospel of the kingdom of God\",\n      \"suggested_fix\": \"将“到了加利利，宣传神的福音”改为“到了加利利，传讲神国的福音”，保留现有标签和经文出处。\",\n      \"translation_quote\": \"到了加利利，宣传神的福音。\"\n    },\n    {\n      \"location\": \"html，III.c，以弗所书5:19引文后的解释\",\n      \"severity\": \"major\",\n      \"source_quote\": \"“Making melody in your heart” involves the accompaniment of the heart.\",\n      \"suggested_fix\": \"将“‘心被恩感歌颂’意味着心也一同伴奏”改为“‘心和地赞美’意味着心也一同伴奏”，使解释对应本段所引用的以弗所书5:19，而非上一段歌罗西书的措辞。\",\n      \"translation_quote\": \"“心被恩感歌颂”意味着心也一同伴奏。\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": false,\n  \"score\": 94\n}",
+    "content_bytes": 1533,
+    "content_evidence_truncated": false,
+    "content_sha256": "4625b76d920d22de4236f45fd12b274de83a9f488ee3ee582d5df7277809aa67",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 506,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 66,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 11728,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 11725
+      },
+      "total_tokens": 12234
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}
