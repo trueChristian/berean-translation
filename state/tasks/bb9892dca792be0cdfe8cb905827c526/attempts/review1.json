@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-04T13:02:33+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"translation.html, div.poem, paragraph 16\",\"severity\":\"minor\",\"source_quote\":\"He wants me to be proved; He’s the Life and the Way.\",\"suggested_fix\":\"<p>Hy wil hê dat ek beproef moet word; Hy is die Lewe en die Weg.</p>\",\"translation_quote\":\"<p>Hy wil hê dat ek bewys moet word; Hy is die Lewe en die Weg.</p>\"}],\"findings_complete\":true,\"passed\":true,\"score\":97}",
+    "content_bytes": 391,
+    "content_evidence_truncated": false,
+    "content_sha256": "d4cc991e4cc90402fc0de67c7bec02097f12df4c5cc3a8621e61cac72acd7194",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 259,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 133,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2259,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2256,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2518
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}
