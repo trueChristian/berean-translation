@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-04T09:07:29+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, paragraph beginning «Мальчик замешкался»\",\"severity\":\"minor\",\"source_quote\":\"“it was his prized possession”\",\"suggested_fix\":\"Заменить «самая дорогая вещь» на «самая ценная для него вещь», чтобы передать личную значимость куртки, а не только её денежную стоимость.\",\"translation_quote\":\"«это была его самая дорогая вещь»\"}],\"findings_complete\":true,\"passed\":true,\"score\":99}",
+    "content_bytes": 572,
+    "content_evidence_truncated": false,
+    "content_sha256": "4a8b606356600572d0d58c46abb53b825306f92c35617c5f31a9149ad23c5d07",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 493,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 370,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3559,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2456,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 4052
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review2",
+  "translation_attempts": 2
+}

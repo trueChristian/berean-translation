@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraph beginning «Мальчик замешкался»",
+      "severity": "minor",
+      "source_quote": "“it was his prized possession”",
+      "suggested_fix": "Заменить «самая дорогая вещь» на «самая ценная для него вещь», чтобы передать личную значимость куртки, а не только её денежную стоимость.",
+      "translation_quote": "«это была его самая дорогая вещь»"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

@@ -75996,6 +75996,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/rus/articles/30796e2b-9ec4-4bcf-b9e3-7d40802ff1f9.html",
+      "html_sha256": "6baddd223782a439fdacb4372c3ffc39f26438691158338a8d3ede4749c73a31",
+      "human_reviewed": false,
+      "id": "30796e2b-9ec4-4bcf-b9e3-7d40802ff1f9",
+      "images": [
+        {
+          "alt": "Пожилой мужчина держит веер рядом с клеткой для птиц",
+          "public_path": "/images/articles/30796e2b-9ec4-4bcf-b9e3-7d40802ff1f9-1.jpg"
+        },
+        {
+          "alt": "Дети стоят перед мужчиной возле подвешенной клетки для птиц",
+          "public_path": "/images/articles/30796e2b-9ec4-4bcf-b9e3-7d40802ff1f9-2.jpg"
+        }
+      ],
+      "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
+      "language": "rus",
+      "language_tag": "ru",
+      "metadata": "content/rus/articles/30796e2b-9ec4-4bcf-b9e3-7d40802ff1f9.json",
+      "metadata_sha256": "bd2338ee2810c9f2742dfeca807efbc5d59efc893c25418bc81641b7fa0b6c18",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
+      "source_translation_key": "2fe4971d188bb3d6dead7e494929bc66c75dcadb7d5a5a8de1ac402304b85733",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Клетка для птиц",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/rus/articles/30d02d2c-805c-437c-ad10-4542362ab6de.html",
       "html_sha256": "763a32b6780ff4146ad6937c3038d1b0a78c0ef3e30c7cba26e90e7dd8dd588d",
       "human_reviewed": false,
