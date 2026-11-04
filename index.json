@@ -67737,6 +67737,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/nob/articles/b72ea42a-1a86-4c21-a399-ebd3013c257b.html",
+      "html_sha256": "8242c839db55ac47d5906dc8c914bf0f1f2118af4d4f1bb0b6493a19a0e608d5",
+      "human_reviewed": false,
+      "id": "b72ea42a-1a86-4c21-a399-ebd3013c257b",
+      "images": [
+        {
+          "alt": "En telegrafnøkkel og dens elektriske kontakter",
+          "public_path": "/images/articles/b72ea42a-1a86-4c21-a399-ebd3013c257b-1.jpg"
+        }
+      ],
+      "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
+      "language": "nob",
+      "language_tag": "nb",
+      "metadata": "content/nob/articles/b72ea42a-1a86-4c21-a399-ebd3013c257b.json",
+      "metadata_sha256": "9ce90e0624cabdf6a6285ce09d22634dba95c522d27c595ddfdef03286b79154",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
+      "source_translation_key": "86918e2f92ec7ff09eda36ffc30c12ee294e7b521bd1120caa6adee2c38e97b0",
+      "status": "ready",
+      "subtitle": null,
+      "title": "ET LØFTE FOR TJENESTEN",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/nob/articles/b8181ffd-5861-420e-b92a-573b7e66fc3e.html",
       "html_sha256": "5714ed99b820852136e1974580fc14e910aa0adfa5c88466e8572c5e8ff2e2b2",
       "human_reviewed": false,

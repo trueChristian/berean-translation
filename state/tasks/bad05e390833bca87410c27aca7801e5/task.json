@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "de7ec50ecee24b5da8bfafa9ccfe963e",
   "campaign": "auto-e4b2cec293d75dd3096e0cf345fd3d4db1887dcd3d9c3f5b07e07af5c9155fc8",
   "created_at": "2026-11-02T19:55:50+00:00",
   "events": [
@@ -28,10 +27,39 @@
         },
         "total_tokens": 2853
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 529,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 446,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3207,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 2104,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 3736
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "Article, paragraph 2",
+      "severity": "minor",
+      "source_quote": "“of bane or blessing”",
+      "suggested_fix": "«ødeleggelse eller velsignelse»",
+      "translation_quote": "«ulykke eller velsignelse»"
+    }
+  ],
+  "finished_at": "2026-11-04T09:05:21+00:00",
   "id": "bad05e390833bca87410c27aca7801e5",
   "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
   "language": "nob",
@@ -120,9 +148,11 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/87f95a553eb83f75422bde15eb3d35effd9dfaf6d17787923fba7393c54d1833.json",
   "stage": "review1",
   "stage_budget": {
@@ -138,7 +168,7 @@
     "total_reserved_usd": 0.086694,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "86918e2f92ec7ff09eda36ffc30c12ee294e7b521bd1120caa6adee2c38e97b0",
   "translation_model_actual": "gpt-6-luna"

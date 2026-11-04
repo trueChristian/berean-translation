@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "6843bd57-5389-45f2-9c48-35d978ed5a11",
+    "response_id": "chatcmpl-EgN02TDgf64F3TgCvQovxz1SXR7un",
+    "usage": {
+      "completion_tokens": 529,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 446,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3207,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2104,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 3736
+    }
+  },
+  "received_at": "2026-11-04T09:05:21+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Article, paragraph 2",
+        "severity": "minor",
+        "source_quote": "“of bane or blessing”",
+        "suggested_fix": "«ødeleggelse eller velsignelse»",
+        "translation_quote": "«ulykke eller velsignelse»"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}
