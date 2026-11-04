@@ -70485,6 +70485,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/por/articles/3558b7f3-5296-4770-a7c6-d420c923642d.html",
+      "html_sha256": "7c93ed8902d0b10670d29361f66f0336c548b261f13186a8ca0f99cd8fbd4708",
+      "human_reviewed": false,
+      "id": "3558b7f3-5296-4770-a7c6-d420c923642d",
+      "images": [
+        {
+          "alt": "Uma caixa de correio à beira da estrada com o endereço postal da revista",
+          "public_path": "/images/articles/3558b7f3-5296-4770-a7c6-d420c923642d-1.jpg"
+        }
+      ],
+      "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
+      "language": "por",
+      "language_tag": "pt",
+      "metadata": "content/por/articles/3558b7f3-5296-4770-a7c6-d420c923642d.json",
+      "metadata_sha256": "8fe913c605ce713858758d94cd45bcc6f30d928a569f12b23f523ea57d3db136",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": null,
+      "source_revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
+      "source_translation_key": "459eee2e9c07155a363c1c0e355fdda66adbf2039a8df9dc3c6dcd5288b5461e",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Cartas preciosas dos nossos leitores",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/por/articles/37272f7d-a8c0-4c15-b884-ebbf333303cb.html",
       "html_sha256": "f7d7e4d4f1ab85a30b35d6edfae917fb3fa39286fd12b36186035880a08dd772",
       "human_reviewed": false,
