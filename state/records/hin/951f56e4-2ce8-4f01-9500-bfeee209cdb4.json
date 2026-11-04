@@ -12,9 +12,16 @@
       "event": "not_ready",
       "reason": "Missing, ambiguous, or truncated model response",
       "task": "1ff9d131806fef8c180bfe6b5dc4859c"
+    },
+    {
+      "at": "2026-11-04T09:12:16+00:00",
+      "campaign": "auto-ba0b51a4b22a8714b293d8bdeb785c8a92f461530e0a8ea405a5d39a9e3ad2f9",
+      "event": "automatic_requested",
+      "previous_task": "1ff9d131806fef8c180bfe6b5dc4859c",
+      "task": "80289daacfc8abc1aca5b64d42c8abb1"
     }
   ],
   "language": "hin",
-  "latest_task": "1ff9d131806fef8c180bfe6b5dc4859c",
+  "latest_task": "80289daacfc8abc1aca5b64d42c8abb1",
   "published": null
 }
