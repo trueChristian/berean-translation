@@ -11236,6 +11236,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ben/articles/3558b7f3-5296-4770-a7c6-d420c923642d.html",
+      "html_sha256": "1bf108a48c6e924524f0196c8be3694c0b345043606f29536125b932cfcf3119",
+      "human_reviewed": false,
+      "id": "3558b7f3-5296-4770-a7c6-d420c923642d",
+      "images": [
+        {
+          "alt": "পত্রিকার ডাকের ঠিকানা লেখা রাস্তার পাশের একটি ডাকবাক্স",
+          "public_path": "/images/articles/3558b7f3-5296-4770-a7c6-d420c923642d-1.jpg"
+        }
+      ],
+      "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
+      "language": "ben",
+      "language_tag": "bn",
+      "metadata": "content/ben/articles/3558b7f3-5296-4770-a7c6-d420c923642d.json",
+      "metadata_sha256": "3baa5f528c996e052ffafdb4a57e5ff8f50306cd860815c203992d78b5a30687",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
+      "source_translation_key": "459eee2e9c07155a363c1c0e355fdda66adbf2039a8df9dc3c6dcd5288b5461e",
+      "status": "ready",
+      "subtitle": null,
+      "title": "আমাদের পাঠকদের কাছ থেকে মূল্যবান চিঠি",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ben/articles/37272f7d-a8c0-4c15-b884-ebbf333303cb.html",
       "html_sha256": "e0e27b3bf9c91cef5b4e2e7ae8806f1d292c1e8db469d3f907732acde6e26e96",
       "human_reviewed": false,
