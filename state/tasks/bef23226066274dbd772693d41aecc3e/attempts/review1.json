@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-04T22:50:50+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"translation.html, diktets første linje\",\"severity\":\"minor\",\"source_quote\":\"The night was still, the air was drear.\",\"suggested_fix\":\"<p>Natten var stille, luften dyster og grå.</p>\",\"translation_quote\":\"<p>Natten var stille, luften kald og grå.</p>\"}],\"findings_complete\":true,\"passed\":true,\"score\":97}",
+    "content_bytes": 331,
+    "content_evidence_truncated": false,
+    "content_sha256": "f17e9ade134aa732ebd8ec3ccc68b9acd6869e1b1b4067eadd3c4a996b197e01",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 211,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 107,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2239,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1136,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 2450
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}
