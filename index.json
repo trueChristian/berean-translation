@@ -6336,6 +6336,34 @@
     {
       "ai_notice_required": true,
       "direction": "rtl",
+      "html": "content/ara/articles/3558b7f3-5296-4770-a7c6-d420c923642d.html",
+      "html_sha256": "b19bdc2917d7738e92b92b07e617f15bd7f94fb9ac0340530bfdc4b1f6a6ee3d",
+      "human_reviewed": false,
+      "id": "3558b7f3-5296-4770-a7c6-d420c923642d",
+      "images": [
+        {
+          "alt": "صندوق بريد على جانب الطريق يحمل عنوان المراسلات الخاص بالمجلة",
+          "public_path": "/images/articles/3558b7f3-5296-4770-a7c6-d420c923642d-1.jpg"
+        }
+      ],
+      "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
+      "language": "ara",
+      "language_tag": "ar",
+      "metadata": "content/ara/articles/3558b7f3-5296-4770-a7c6-d420c923642d.json",
+      "metadata_sha256": "e5ea4751d4ebac3cff2278ae69431aee5e7078469aedd58e69c85e14e31fc7e9",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
+      "source_translation_key": "459eee2e9c07155a363c1c0e355fdda66adbf2039a8df9dc3c6dcd5288b5461e",
+      "status": "ready",
+      "subtitle": null,
+      "title": "رسائل ثمينة من قرائنا",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
       "html": "content/ara/articles/37272f7d-a8c0-4c15-b884-ebbf333303cb.html",
       "html_sha256": "1db50576ff996bd7e41288deb0698d85fec51211297b8c62b230356bbc6dcff6",
       "human_reviewed": false,

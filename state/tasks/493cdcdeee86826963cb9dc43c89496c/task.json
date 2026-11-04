@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "d6d4cb508a1c4eb79b33b268048cbb58",
   "campaign": "auto-85165c9c350be42503c9db2564dbdda24aa815cedfa225324c18b2f22d87ce1b",
   "created_at": "2026-11-03T15:53:36+00:00",
   "events": [
@@ -68,25 +67,31 @@
         },
         "total_tokens": 6796
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 711,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 673,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4769,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 3666,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 5480
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "Paragraph beginning “We were at the grocery story…”",
-      "severity": "major",
-      "source_quote": "“We couldn’t talk at all to each other, but we both had Christ, and that was enough!”",
-      "suggested_fix": "«لم نستطع التحدث معًا إطلاقًا، لكن كان المسيح لكلينا، وكان ذلك كافيًا!»",
-      "translation_quote": "«لم نستطع التحدث معًا إطلاقًا، لكن المسيح كان يجمعنا، وكان ذلك كافيًا!»"
-    },
-    {
-      "location": "Paragraph beginning “Anyway, though I did not understand…”",
-      "severity": "minor",
-      "source_quote": "“longing to find likeminded Christian fellowship”",
-      "suggested_fix": "«أتوق إلى إيجاد جماعة مسيحية تشاركنا الرأي»",
-      "translation_quote": "«أتوق إلى إيجاد شركة مسيحية تشاركنا الرأي»"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-11-04T09:05:06+00:00",
   "id": "493cdcdeee86826963cb9dc43c89496c",
   "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
   "language": "ara",
@@ -175,7 +180,7 @@
     }
   },
   "protected": false,
-  "quality_score": 92,
+  "quality_score": 99,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
@@ -195,7 +200,7 @@
     "total_reserved_usd": 0.08773,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "459eee2e9c07155a363c1c0e355fdda66adbf2039a8df9dc3c6dcd5288b5461e",
   "translation_model_actual": "gpt-6-luna"
