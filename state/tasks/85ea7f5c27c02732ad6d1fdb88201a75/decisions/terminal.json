@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "First paragraph, column name",
+      "severity": "minor",
+      "source_quote": "“The Blessing Corner”",
+      "suggested_fix": "Change «Γωνιά των Ευλογιών» to «Γωνιά της Ευλογίας», preserving the singular in the column name.",
+      "translation_quote": "«Γωνιά των Ευλογιών»"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

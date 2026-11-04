@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-04T23:39:32+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"First paragraph, column name\",\"severity\":\"minor\",\"source_quote\":\"“The Blessing Corner”\",\"suggested_fix\":\"Change «Γωνιά των Ευλογιών» to «Γωνιά της Ευλογίας», preserving the singular in the column name.\",\"translation_quote\":\"«Γωνιά των Ευλογιών»\"}],\"findings_complete\":true,\"passed\":true,\"score\":99}",
+    "content_bytes": 382,
+    "content_evidence_truncated": false,
+    "content_sha256": "d936cbc004e620565fd9e02d2192c11a4cf5f4c95b087e586207eb2a83ec997b",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 825,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 719,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5607,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5604,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6432
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

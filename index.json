@@ -25035,6 +25035,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ell/articles/3558b7f3-5296-4770-a7c6-d420c923642d.html",
+      "html_sha256": "8bf94b84e0b4941952fd1d5196deea445152bd6170d5c26920a99e8ded619c46",
+      "human_reviewed": false,
+      "id": "3558b7f3-5296-4770-a7c6-d420c923642d",
+      "images": [
+        {
+          "alt": "Ένα γραμματοκιβώτιο στην άκρη του δρόμου με την ταχυδρομική διεύθυνση του περιοδικού",
+          "public_path": "/images/articles/3558b7f3-5296-4770-a7c6-d420c923642d-1.jpg"
+        }
+      ],
+      "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
+      "language": "ell",
+      "language_tag": "el",
+      "metadata": "content/ell/articles/3558b7f3-5296-4770-a7c6-d420c923642d.json",
+      "metadata_sha256": "9942b080e41e2528bd04473650d499e6c8074d895524a7e35bd1e9dfdced5053",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
+      "source_translation_key": "459eee2e9c07155a363c1c0e355fdda66adbf2039a8df9dc3c6dcd5288b5461e",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Πολύτιμες επιστολές από τους αναγνώστες μας",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ell/articles/37272f7d-a8c0-4c15-b884-ebbf333303cb.html",
       "html_sha256": "23315a68ee08944e9615a8f70f32afe4beca4a75c3b892c73b57d2fa1c73b167",
       "human_reviewed": false,

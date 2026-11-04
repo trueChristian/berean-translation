@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "a1a99683c4274f2692e24f123e977996",
   "campaign": "auto-1de34eeb9516680b3ec89f7c01543f9b5e7fba8dd5e87a5e360a1e1b4e576d78",
   "created_at": "2026-11-04T01:22:26+00:00",
   "events": [
@@ -68,25 +67,39 @@
         },
         "total_tokens": 8634
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 825,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 719,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5607,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 5604,
+          "cached_tokens": 0
+        },
+        "total_tokens": 6432
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "Πρώτη παράγραφος της μαρτυρίας, στο επεισόδιο με τον Ισπανόφωνο άνδρα",
-      "severity": "major",
-      "source_quote": "I could think of a word to say, so I just said “Christ?”",
-      "suggested_fix": "Μπορούσα να σκεφτώ μια λέξη να πω, κι έτσι είπα μόνο «Χριστός;»",
-      "translation_quote": "Δεν μπορούσα να σκεφτώ τι να πω, οπότε είπα μόνο «Χριστός;»"
-    },
-    {
-      "location": "Αρχική έντονη παράγραφος",
+      "location": "First paragraph, column name",
       "severity": "minor",
-      "source_quote": "a free flow of edification, inspiration and burden from us to you, and you to us",
-      "suggested_fix": "μια ελεύθερη ροή οικοδομής, έμπνευσης και φορτίων από εμάς προς εσάς και από εσάς προς εμάς",
-      "translation_quote": "μια ελεύθερη ροή οικοδομής, έμπνευσης και βαρύτητας από εμάς προς εσάς και από εσάς προς εμάς"
+      "source_quote": "“The Blessing Corner”",
+      "suggested_fix": "Change «Γωνιά των Ευλογιών» to «Γωνιά της Ευλογίας», preserving the singular in the column name.",
+      "translation_quote": "«Γωνιά των Ευλογιών»"
     }
   ],
+  "finished_at": "2026-11-04T23:39:32+00:00",
   "id": "85ea7f5c27c02732ad6d1fdb88201a75",
   "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
   "language": "ell",
@@ -175,7 +188,7 @@
     }
   },
   "protected": false,
-  "quality_score": 94,
+  "quality_score": 99,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
@@ -195,7 +208,7 @@
     "total_reserved_usd": 0.087734,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "459eee2e9c07155a363c1c0e355fdda66adbf2039a8df9dc3c6dcd5288b5461e",
   "translation_model_actual": "gpt-6-luna"
