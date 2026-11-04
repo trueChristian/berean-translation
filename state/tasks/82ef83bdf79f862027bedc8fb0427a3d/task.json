@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "d64a465c15a249aeb9bb4b893736f6f8",
   "campaign": "auto-75caf5375e600ed979db8391a4b267c897026dec0160ee9773b9cffe70f60049",
   "created_at": "2026-11-04T01:23:14+00:00",
   "events": [
@@ -48,18 +47,31 @@
         },
         "total_tokens": 14587
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 57,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 25,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9761,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8658,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 9818
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "html, paragrafo che inizia «Mentre ero in fila in un fast food»",
-      "severity": "major",
-      "source_quote": "He got sober and explained that he wanted to believe in God but couldn’t.",
-      "suggested_fix": "Sostituire «Tornò in sé» con «Si fece serio», mantenendo invariato il resto del paragrafo.",
-      "translation_quote": "Tornò in sé e mi spiegò che avrebbe voluto credere in Dio, ma non ci riusciva."
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-11-04T09:06:59+00:00",
   "id": "82ef83bdf79f862027bedc8fb0427a3d",
   "issue_id": "4e575f26-fabd-5104-ba0d-d54ca032653b",
   "language": "ita",
@@ -148,7 +160,7 @@
     }
   },
   "protected": false,
-  "quality_score": 94,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6.1-sol",
@@ -167,7 +179,7 @@
     "total_reserved_usd": 0.773507,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "b60f5232f76b3d6e5573e616829a89d507fba9c836e4dbf3fc2981eb0eff86a2",
   "translation_model_actual": "gpt-6.1-sol"

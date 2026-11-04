@@ -49441,6 +49441,42 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ita/articles/37272f7d-a8c0-4c15-b884-ebbf333303cb.html",
+      "html_sha256": "9cff676ed4e271f8d4776934515a95dcee297b0df01a43b0f3e10f84f2a6bce4",
+      "human_reviewed": false,
+      "id": "37272f7d-a8c0-4c15-b884-ebbf333303cb",
+      "images": [
+        {
+          "alt": "Gesù davanti a Pilato e alla folla riunita",
+          "public_path": "/images/articles/37272f7d-a8c0-4c15-b884-ebbf333303cb-1.jpg"
+        },
+        {
+          "alt": "Bibbia aperta in penombra, metà sinistra di una fotografia su due pagine",
+          "public_path": "/images/articles/37272f7d-a8c0-4c15-b884-ebbf333303cb-2.jpg"
+        },
+        {
+          "alt": "Bibbia aperta in penombra, metà destra di una fotografia su due pagine",
+          "public_path": "/images/articles/37272f7d-a8c0-4c15-b884-ebbf333303cb-3.jpg"
+        }
+      ],
+      "issue_id": "4e575f26-fabd-5104-ba0d-d54ca032653b",
+      "language": "ita",
+      "language_tag": "it",
+      "metadata": "content/ita/articles/37272f7d-a8c0-4c15-b884-ebbf333303cb.json",
+      "metadata_sha256": "8ed84549c2f3081935694042a37c64213c387a722dd0ee2174415ec215a17333",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "Riflessioni di un missionario",
+      "source_revision": "22388745ad7f149609e65f5e28cfcc1257cd689e",
+      "source_translation_key": "b60f5232f76b3d6e5573e616829a89d507fba9c836e4dbf3fc2981eb0eff86a2",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Separazione",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ita/articles/391d4642-07e2-4003-83db-fa33dc08a8ca.html",
       "html_sha256": "cae5f6b76c330ee41e8b0222911572730ef2fe1a3e91efe1432a0820080c8047",
       "human_reviewed": false,
