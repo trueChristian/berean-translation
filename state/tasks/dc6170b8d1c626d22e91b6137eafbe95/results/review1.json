@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "58595300-117c-4b7c-8664-b74183f6c72c",
+    "response_id": "chatcmpl-EgSPuZO5okqdahJmL1rgbGiUfzT1N",
+    "usage": {
+      "completion_tokens": 330,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 97,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2233,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1130,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 2563
+    }
+  },
+  "received_at": "2026-11-04T13:03:07+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "translation.html, diktens fjärde stycke",
+        "severity": "major",
+        "source_quote": "He was at the crossroads, all his life as a whole.",
+        "suggested_fix": "<p>Han stod vid ett vägskäl som gällde hela hans liv.</p>",
+        "translation_quote": "Han stod vid ett vägskäl, med hela sitt liv framför sig."
+      },
+      {
+        "location": "translation.html, diktens fjortonde stycke",
+        "severity": "major",
+        "source_quote": "I believe in myself, not the God from way back.",
+        "suggested_fix": "<p><em>Jag tror på mig själv, inte på Gud från forna tider.</em></p>",
+        "translation_quote": "Jag tror på mig själv, inte på den Gud jag en gång hört om."
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 93
+  }
+}

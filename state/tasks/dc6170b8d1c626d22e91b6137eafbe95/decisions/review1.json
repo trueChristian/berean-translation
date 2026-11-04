@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "translation.html, diktens fjärde stycke",
+      "severity": "major",
+      "source_quote": "He was at the crossroads, all his life as a whole.",
+      "suggested_fix": "<p>Han stod vid ett vägskäl som gällde hela hans liv.</p>",
+      "translation_quote": "Han stod vid ett vägskäl, med hela sitt liv framför sig."
+    },
+    {
+      "location": "translation.html, diktens fjortonde stycke",
+      "severity": "major",
+      "source_quote": "I believe in myself, not the God from way back.",
+      "suggested_fix": "<p><em>Jag tror på mig själv, inte på Gud från forna tider.</em></p>",
+      "translation_quote": "Jag tror på mig själv, inte på den Gud jag en gång hört om."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

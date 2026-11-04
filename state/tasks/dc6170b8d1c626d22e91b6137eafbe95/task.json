@@ -5,11 +5,47 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "9a4c26c94f9743eb9ecea3bb81584ad3",
   "campaign": "auto-39d3737d047729da06a588ff95bbb515d346b5c18457de198f65c32700e60799",
   "created_at": "2026-11-04T09:09:16+00:00",
-  "events": [],
-  "findings": [],
+  "events": [
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 330,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 97,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 2233,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 1130,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 2563
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "translation.html, diktens fjärde stycke",
+      "severity": "major",
+      "source_quote": "He was at the crossroads, all his life as a whole.",
+      "suggested_fix": "<p>Han stod vid ett vägskäl som gällde hela hans liv.</p>",
+      "translation_quote": "Han stod vid ett vägskäl, med hela sitt liv framför sig."
+    },
+    {
+      "location": "translation.html, diktens fjortonde stycke",
+      "severity": "major",
+      "source_quote": "I believe in myself, not the God from way back.",
+      "suggested_fix": "<p><em>Jag tror på mig själv, inte på Gud från forna tider.</em></p>",
+      "translation_quote": "Jag tror på mig själv, inte på den Gud jag en gång hört om."
+    }
+  ],
   "id": "dc6170b8d1c626d22e91b6137eafbe95",
   "issue_id": "4e575f26-fabd-5104-ba0d-d54ca032653b",
   "language": "swe",
@@ -98,11 +134,13 @@
     }
   },
   "protected": false,
+  "quality_score": 93,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/e432f56755703380f3b3ac9c7877c897278a764791a5821f9a6e2dc5709eea87.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "review1",
     "max_candidate_bytes": 120000,
@@ -115,7 +153,7 @@
     "total_reserved_usd": 0.678128,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 0,
   "translation_key": "785589167219dc6eebe3c06efe60a9e6c02cb55ae9cb8557bf7c692a1961e88f",
   "translation_model_actual": "gpt-6-luna"

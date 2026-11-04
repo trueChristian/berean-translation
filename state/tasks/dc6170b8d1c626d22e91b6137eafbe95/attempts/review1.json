@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-04T13:03:07+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"translation.html, diktens fjärde stycke\",\n      \"severity\": \"major\",\n      \"source_quote\": \"He was at the crossroads, all his life as a whole.\",\n      \"suggested_fix\": \"<p>Han stod vid ett vägskäl som gällde hela hans liv.</p>\",\n      \"translation_quote\": \"Han stod vid ett vägskäl, med hela sitt liv framför sig.\"\n    },\n    {\n      \"location\": \"translation.html, diktens fjortonde stycke\",\n      \"severity\": \"major\",\n      \"source_quote\": \"I believe in myself, not the God from way back.\",\n      \"suggested_fix\": \"<p><em>Jag tror på mig själv, inte på Gud från forna tider.</em></p>\",\n      \"translation_quote\": \"Jag tror på mig själv, inte på den Gud jag en gång hört om.\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": false,\n  \"score\": 93\n}",
+    "content_bytes": 809,
+    "content_evidence_truncated": false,
+    "content_sha256": "4e7fb376b30d471f0d83edd48e672e19dbb93ff7c5d3be84734b91e29c68e252",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 330,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 97,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2233,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1130,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 2563
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}
