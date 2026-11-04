@@ -5,11 +5,48 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "5a7020b473ce487c9d63a935394568ea",
   "campaign": "auto-33e4caa0d6e9c16f689d1db470fa2334c352a70fb35244d9f3a17e1979412ae8",
   "created_at": "2026-11-03T16:44:24+00:00",
-  "events": [],
-  "findings": [],
+  "events": [
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 390,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 104,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9665,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 9662,
+          "cached_tokens": 0
+        },
+        "total_tokens": 10055
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "html: فقرة السيدة الواقفة خلف الراوي في المطعم",
+      "severity": "minor",
+      "source_quote": "the lady behind me was beginning to get frustrated",
+      "suggested_fix": "استبدال «السيدة الواقفة خلفي بدأت تنفد صبرًا» بـ«السيدة الواقفة خلفي بدأ صبرها ينفد».",
+      "translation_quote": "السيدة الواقفة خلفي بدأت تنفد صبرًا"
+    },
+    {
+      "location": "html: نهاية فقرة الشابة في المحيط البروتستانتي",
+      "severity": "minor",
+      "source_quote": "Being cool does not define a true Christian but being rejected for the sake of the Gospel does.",
+      "suggested_fix": "استبدال الجملة بـ«ليس التمتع بالقبول والإعجاب بين الناس ما يميز المسيحي الحقيقي، بل التعرض للرفض من أجل الإنجيل».",
+      "translation_quote": "أن تكون رائعًا لا يعرّف المسيحي الحقيقي، أما أن يرفضك الآخرون من أجل الإنجيل فيفعل."
+    }
+  ],
+  "finished_at": "2026-11-04T09:04:04+00:00",
   "id": "7c3d5637767504b116f3df473339fbc9",
   "issue_id": "4e575f26-fabd-5104-ba0d-d54ca032653b",
   "language": "ara",
@@ -98,9 +135,11 @@
     }
   },
   "protected": false,
+  "quality_score": 97,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/ca40023e50c915a7258ad4b58f87f9226bb9b3cad9ebbbe9ba9d4725b817d7e3.json",
   "stage": "review1",
   "stage_budget": {
@@ -115,7 +154,7 @@
     "total_reserved_usd": 0.786961,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 0,
   "translation_key": "b60f5232f76b3d6e5573e616829a89d507fba9c836e4dbf3fc2981eb0eff86a2",
   "translation_model_actual": "gpt-6-luna"

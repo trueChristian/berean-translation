@@ -6336,6 +6336,42 @@
     {
       "ai_notice_required": true,
       "direction": "rtl",
+      "html": "content/ara/articles/37272f7d-a8c0-4c15-b884-ebbf333303cb.html",
+      "html_sha256": "1db50576ff996bd7e41288deb0698d85fec51211297b8c62b230356bbc6dcff6",
+      "human_reviewed": false,
+      "id": "37272f7d-a8c0-4c15-b884-ebbf333303cb",
+      "images": [
+        {
+          "alt": "يسوع واقف أمام بيلاطس وجمع من الناس المحتشدين",
+          "public_path": "/images/articles/37272f7d-a8c0-4c15-b884-ebbf333303cb-1.jpg"
+        },
+        {
+          "alt": "كتاب مقدس مفتوح في إضاءة خافتة، النصف الأيسر من صورة تمتد على صفحتين",
+          "public_path": "/images/articles/37272f7d-a8c0-4c15-b884-ebbf333303cb-2.jpg"
+        },
+        {
+          "alt": "كتاب مقدس مفتوح في إضاءة خافتة، النصف الأيمن من صورة تمتد على صفحتين",
+          "public_path": "/images/articles/37272f7d-a8c0-4c15-b884-ebbf333303cb-3.jpg"
+        }
+      ],
+      "issue_id": "4e575f26-fabd-5104-ba0d-d54ca032653b",
+      "language": "ara",
+      "language_tag": "ar",
+      "metadata": "content/ara/articles/37272f7d-a8c0-4c15-b884-ebbf333303cb.json",
+      "metadata_sha256": "d19799ced82db866c5054a19bf4c8b0c08c7f5f6346ee6f2e2e9d17a0d54b5b3",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "تأملات مبشر",
+      "source_revision": "22388745ad7f149609e65f5e28cfcc1257cd689e",
+      "source_translation_key": "b60f5232f76b3d6e5573e616829a89d507fba9c836e4dbf3fc2981eb0eff86a2",
+      "status": "ready",
+      "subtitle": null,
+      "title": "الانفصال",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
       "html": "content/ara/articles/3b86d0e0-ebd7-4521-92f4-5d7f8a89e901.html",
       "html_sha256": "99fbe7b03bbd04d849c254214cb27f01eb398ba454f598ec03e34510494974b7",
       "human_reviewed": false,

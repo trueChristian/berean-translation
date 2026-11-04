@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "html: فقرة السيدة الواقفة خلف الراوي في المطعم",
+      "severity": "minor",
+      "source_quote": "the lady behind me was beginning to get frustrated",
+      "suggested_fix": "استبدال «السيدة الواقفة خلفي بدأت تنفد صبرًا» بـ«السيدة الواقفة خلفي بدأ صبرها ينفد».",
+      "translation_quote": "السيدة الواقفة خلفي بدأت تنفد صبرًا"
+    },
+    {
+      "location": "html: نهاية فقرة الشابة في المحيط البروتستانتي",
+      "severity": "minor",
+      "source_quote": "Being cool does not define a true Christian but being rejected for the sake of the Gospel does.",
+      "suggested_fix": "استبدال الجملة بـ«ليس التمتع بالقبول والإعجاب بين الناس ما يميز المسيحي الحقيقي، بل التعرض للرفض من أجل الإنجيل».",
+      "translation_quote": "أن تكون رائعًا لا يعرّف المسيحي الحقيقي، أما أن يرفضك الآخرون من أجل الإنجيل فيفعل."
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

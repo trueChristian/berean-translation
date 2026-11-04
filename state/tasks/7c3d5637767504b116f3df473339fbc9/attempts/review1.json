@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-04T09:04:04+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"html: فقرة السيدة الواقفة خلف الراوي في المطعم\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"the lady behind me was beginning to get frustrated\",\n      \"suggested_fix\": \"استبدال «السيدة الواقفة خلفي بدأت تنفد صبرًا» بـ«السيدة الواقفة خلفي بدأ صبرها ينفد».\",\n      \"translation_quote\": \"السيدة الواقفة خلفي بدأت تنفد صبرًا\"\n    },\n    {\n      \"location\": \"html: نهاية فقرة الشابة في المحيط البروتستانتي\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"Being cool does not define a true Christian but being rejected for the sake of the Gospel does.\",\n      \"suggested_fix\": \"استبدال الجملة بـ«ليس التمتع بالقبول والإعجاب بين الناس ما يميز المسيحي الحقيقي، بل التعرض للرفض من أجل الإنجيل».\",\n      \"translation_quote\": \"أن تكون رائعًا لا يعرّف المسيحي الحقيقي، أما أن يرفضك الآخرون من أجل الإنجيل فيفعل.\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": true,\n  \"score\": 97\n}",
+    "content_bytes": 1261,
+    "content_evidence_truncated": false,
+    "content_sha256": "7797f6c64e994b70be119261a70c873fb6f4817b1d6e5bc71e5732550a6f4c12",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 390,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 104,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9665,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9662,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10055
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}
