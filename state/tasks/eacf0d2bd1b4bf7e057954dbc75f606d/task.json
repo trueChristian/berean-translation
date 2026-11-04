@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "4df28b99386d4737beff9f3d0eccd40c",
   "campaign": "auto-577c753c2b09cf8e419950cdbbdc80db7fd3cef3b6a103ed4f434b458bab5d98",
   "created_at": "2026-11-03T22:24:20+00:00",
   "events": [
@@ -48,32 +47,31 @@
         },
         "total_tokens": 14525
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 62,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 30,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9652,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8549,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 9714
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "html: paragraf tentang Martin Luther dan orang-orang Anabaptis",
-      "severity": "major",
-      "source_quote": "The Anabaptist people were not respecters of people.",
-      "suggested_fix": "Ganti kalimat tersebut dengan: “Orang-orang Anabaptis tidak memandang bulu.”",
-      "translation_quote": "Orang-orang Anabaptis tidak menghormati manusia."
-    },
-    {
-      "location": "html: kutipan Efesus 5:10-13, klausa terakhir",
-      "severity": "major",
-      "source_quote": "for whatsoever doth make manifest is light",
-      "suggested_fix": "Ganti klausa terakhir dengan: “sebab segala sesuatu yang membuat sesuatu menjadi nyata adalah terang”. Pertahankan tag dan rujukan yang ada.",
-      "translation_quote": "sebab semua yang menjadi nyata adalah terang"
-    },
-    {
-      "location": "html: paragraf yang diawali “Kita dapat menjalani hidup”",
-      "severity": "minor",
-      "source_quote": "I think we should prayerfully consider this move, the move to join hands with the mainstream church.",
-      "suggested_fix": "Ganti “mempertimbangkan dengan sungguh-sungguh langkah ini” dengan “mempertimbangkan langkah ini dengan berdoa”.",
-      "translation_quote": "Saya rasa kita harus mempertimbangkan dengan sungguh-sungguh langkah ini, yaitu langkah untuk bergandengan tangan dengan gereja arus utama."
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-11-04T01:19:28+00:00",
   "id": "eacf0d2bd1b4bf7e057954dbc75f606d",
   "issue_id": "4e575f26-fabd-5104-ba0d-d54ca032653b",
   "language": "ind",
@@ -162,7 +160,7 @@
     }
   },
   "protected": false,
-  "quality_score": 93,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6.1-sol",
@@ -181,7 +179,7 @@
     "total_reserved_usd": 0.777148,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "b60f5232f76b3d6e5573e616829a89d507fba9c836e4dbf3fc2981eb0eff86a2",
   "translation_model_actual": "gpt-6.1-sol"

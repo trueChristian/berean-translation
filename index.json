@@ -43703,6 +43703,42 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ind/articles/37272f7d-a8c0-4c15-b884-ebbf333303cb.html",
+      "html_sha256": "74cbad3bf2244978925184c1ed05283ef9ec279085e6b12b29fe93dc7d9e36e7",
+      "human_reviewed": false,
+      "id": "37272f7d-a8c0-4c15-b884-ebbf333303cb",
+      "images": [
+        {
+          "alt": "Yesus berdiri di hadapan Pilatus dan orang banyak yang berkumpul",
+          "public_path": "/images/articles/37272f7d-a8c0-4c15-b884-ebbf333303cb-1.jpg"
+        },
+        {
+          "alt": "Alkitab terbuka dalam cahaya redup, separuh kiri dari foto dua halaman",
+          "public_path": "/images/articles/37272f7d-a8c0-4c15-b884-ebbf333303cb-2.jpg"
+        },
+        {
+          "alt": "Alkitab terbuka dalam cahaya redup, separuh kanan dari foto dua halaman",
+          "public_path": "/images/articles/37272f7d-a8c0-4c15-b884-ebbf333303cb-3.jpg"
+        }
+      ],
+      "issue_id": "4e575f26-fabd-5104-ba0d-d54ca032653b",
+      "language": "ind",
+      "language_tag": "id",
+      "metadata": "content/ind/articles/37272f7d-a8c0-4c15-b884-ebbf333303cb.json",
+      "metadata_sha256": "91d46ba5cce5ce9bc59cd1a9ef1240a3fbf054da9417d5b8d071f913de1c9253",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "Renungan Seorang Misionaris",
+      "source_revision": "22388745ad7f149609e65f5e28cfcc1257cd689e",
+      "source_translation_key": "b60f5232f76b3d6e5573e616829a89d507fba9c836e4dbf3fc2981eb0eff86a2",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Pemisahan",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ind/articles/391d4642-07e2-4003-83db-fa33dc08a8ca.html",
       "html_sha256": "e4d742f01040e51aa440d1843043bee756227e89c6642964e2081352388279aa",
       "human_reviewed": false,
