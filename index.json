@@ -59763,6 +59763,42 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/nld/articles/37272f7d-a8c0-4c15-b884-ebbf333303cb.html",
+      "html_sha256": "0e1a88cbdf3fff62bdc8d2ac7ac4df4e42c5181f8c68837c7bf4d797fc4504ca",
+      "human_reviewed": false,
+      "id": "37272f7d-a8c0-4c15-b884-ebbf333303cb",
+      "images": [
+        {
+          "alt": "Jezus staat voor Pilatus en een samengestroomde menigte",
+          "public_path": "/images/articles/37272f7d-a8c0-4c15-b884-ebbf333303cb-1.jpg"
+        },
+        {
+          "alt": "Open Bijbel in zwak licht, linkerhelft van een foto over twee pagina’s",
+          "public_path": "/images/articles/37272f7d-a8c0-4c15-b884-ebbf333303cb-2.jpg"
+        },
+        {
+          "alt": "Open Bijbel in zwak licht, rechterhelft van een foto over twee pagina’s",
+          "public_path": "/images/articles/37272f7d-a8c0-4c15-b884-ebbf333303cb-3.jpg"
+        }
+      ],
+      "issue_id": "4e575f26-fabd-5104-ba0d-d54ca032653b",
+      "language": "nld",
+      "language_tag": "nl",
+      "metadata": "content/nld/articles/37272f7d-a8c0-4c15-b884-ebbf333303cb.json",
+      "metadata_sha256": "b5b6d27734f38bdd175b0c3332e10af01df9fc48d1a7c7e4bc1ce395dea07dfb",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "Overpeinzingen van een zendeling",
+      "source_revision": "22388745ad7f149609e65f5e28cfcc1257cd689e",
+      "source_translation_key": "b60f5232f76b3d6e5573e616829a89d507fba9c836e4dbf3fc2981eb0eff86a2",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Afzondering",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/nld/articles/3a3501f6-fc1b-4e76-919f-9d00a44c6698.html",
       "html_sha256": "9e2a27e6e3ec61ff76b97d09a9af9ce3491bb8ed7f39d85d70d57ae84505f397",
       "human_reviewed": false,

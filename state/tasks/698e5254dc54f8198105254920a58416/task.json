@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "4990a55bb9db44459b90d4dbc4ad54f3",
   "campaign": "auto-6ec30121c514801be23980178cbaba14840c81196dcffd0f74eb8b3f75ae05ff",
   "created_at": "2026-11-04T01:22:50+00:00",
   "events": [
@@ -48,25 +47,31 @@
         },
         "total_tokens": 14195
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 80,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 48,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9505,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8402,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 9585
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "html, alinea vóór de kop ‘Oorlog’",
-      "severity": "major",
-      "source_quote": "slow down this draw to join them in any compromising manner",
-      "suggested_fix": "Vervang ‘deze neiging om ons op welke manier dan ook met hen te vereenzelvigen moeten afremmen’ door ‘deze neiging om ons met hen te verbinden op een manier die compromissen inhoudt moeten afremmen’.",
-      "translation_quote": "deze neiging om ons op welke manier dan ook met hen te vereenzelvigen moeten afremmen"
-    },
-    {
-      "location": "html, eerste alinea onder ‘Oorlog’",
-      "severity": "major",
-      "source_quote": "Can you believe in war, killing your enemies, and still be a New Testament Christian?",
-      "suggested_fix": "Vervang de vraag door: ‘Kun je voorstander zijn van oorlog, van het doden van je vijanden, en toch een nieuwtestamentische christen zijn?’",
-      "translation_quote": "Kun je oorlog voeren, je vijanden doden en toch een nieuwtestamentische christen zijn?"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-11-04T09:06:17+00:00",
   "id": "698e5254dc54f8198105254920a58416",
   "issue_id": "4e575f26-fabd-5104-ba0d-d54ca032653b",
   "language": "nld",
@@ -155,7 +160,7 @@
     }
   },
   "protected": false,
-  "quality_score": 93,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6.1-sol",
@@ -174,7 +179,7 @@
     "total_reserved_usd": 0.775074,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "b60f5232f76b3d6e5573e616829a89d507fba9c836e4dbf3fc2981eb0eff86a2",
   "translation_model_actual": "gpt-6.1-sol"
