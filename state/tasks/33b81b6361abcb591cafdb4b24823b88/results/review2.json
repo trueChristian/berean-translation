@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "52d3b7f7-c9da-45ad-bfea-a5fe9ebe40f6",
+    "response_id": "chatcmpl-EgTvfbwDqYDvjtynsDAhGGYVYI9UV",
+    "usage": {
+      "completion_tokens": 778,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 653,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4568,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4565,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5346
+    }
+  },
+  "received_at": "2026-11-04T13:02:27+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Second reader letter, encounter at the store",
+        "severity": "major",
+        "source_quote": "“I could think of a word to say, so I just said ‘Christ?’”",
+        "suggested_fix": "“Não conseguia pensar em uma palavra para dizer, então simplesmente disse: ‘Cristo?’”",
+        "translation_quote": "“Conseguia pensar em uma palavra para dizer, então simplesmente disse: ‘Cristo?’”"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 90
+  }
+}
