@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "ad190cc0-b8ff-9425-88be-cca7eb0a4b58",
+    "response_id": "chatcmpl-EgN6mbqFNcm1JsEdMTeAnsArLC0oM",
+    "usage": {
+      "completion_tokens": 529,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 127,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1155,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1152,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1684
+    }
+  },
+  "received_at": "2026-11-04T09:05:48+00:00",
+  "result": {
+    "html": "<article data-article-id=\"f1f8d898-1108-4e49-9e62-b12667509107\">\n  <p class=\"poem\"><strong>你有罪吗？<br>有沉重的重担，似乎要阻碍你<br>奔跑得好？被囚的灵魂啊，若要得着基督的自由，<br>就放手吧，放手吧，看看<br>耶稣将从何处开始。</strong></p>\n  <p class=\"poem\"><strong>你有忧虑吗？<br>那就把你的忧虑交托给上帝；<br>祂并不愿你背负那重担；<br>把它留给祂，你就会走在人生的道路上，<br>仿佛漫步在空中。</strong></p>\n  <p class=\"poem\"><strong>你有基督的喜乐吗？<br>把祂赐给你的幸福分享给那些<br>生活被人间忧患注满的人；<br>祂的喜乐超越一切，且愈发丰盛，<br>没有什么能将它摧毁。</strong></p>\n  <p class=\"poem\"><strong>你有祂的平安吗？<br>基督的平安超越人的思想与认知，<br>如此宁静、纯洁而深邃。唯有当<br>我们认识这样的安宁——但在那之前还不能——<br>一切烦忧才会止息。</strong></p>\n</article>\n",
+    "section": null,
+    "subtitle": null,
+    "title": "基督的恩赐"
+  }
+}
