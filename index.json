@@ -29853,6 +29853,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/fra/articles/3558b7f3-5296-4770-a7c6-d420c923642d.html",
+      "html_sha256": "b3c18658bdfca53d2e784ea9c21e60ba411f3f619eba316e9cd9a0972c7cd70e",
+      "human_reviewed": false,
+      "id": "3558b7f3-5296-4770-a7c6-d420c923642d",
+      "images": [
+        {
+          "alt": "Une boîte aux lettres au bord de la route portant l’adresse postale du magazine",
+          "public_path": "/images/articles/3558b7f3-5296-4770-a7c6-d420c923642d-1.jpg"
+        }
+      ],
+      "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
+      "language": "fra",
+      "language_tag": "fr",
+      "metadata": "content/fra/articles/3558b7f3-5296-4770-a7c6-d420c923642d.json",
+      "metadata_sha256": "ce9aac8d70febc6981784f136ca3aefddc0afb4da716fcc1776be741a40a3de9",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
+      "source_translation_key": "459eee2e9c07155a363c1c0e355fdda66adbf2039a8df9dc3c6dcd5288b5461e",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Précieuses lettres de nos lecteurs",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/fra/articles/37272f7d-a8c0-4c15-b884-ebbf333303cb.html",
       "html_sha256": "3225f0645208fba5dd67e182f5ab900b81044d02479461736b972907b8eedc06",
       "human_reviewed": false,
