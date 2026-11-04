@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Πρώτη παράγραφος της μαρτυρίας, στο επεισόδιο με τον Ισπανόφωνο άνδρα",
+      "severity": "major",
+      "source_quote": "I could think of a word to say, so I just said “Christ?”",
+      "suggested_fix": "Μπορούσα να σκεφτώ μια λέξη να πω, κι έτσι είπα μόνο «Χριστός;»",
+      "translation_quote": "Δεν μπορούσα να σκεφτώ τι να πω, οπότε είπα μόνο «Χριστός;»"
+    },
+    {
+      "location": "Αρχική έντονη παράγραφος",
+      "severity": "minor",
+      "source_quote": "a free flow of edification, inspiration and burden from us to you, and you to us",
+      "suggested_fix": "μια ελεύθερη ροή οικοδομής, έμπνευσης και φορτίων από εμάς προς εσάς και από εσάς προς εμάς",
+      "translation_quote": "μια ελεύθερη ροή οικοδομής, έμπνευσης και βαρύτητας από εμάς προς εσάς και από εσάς προς εμάς"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

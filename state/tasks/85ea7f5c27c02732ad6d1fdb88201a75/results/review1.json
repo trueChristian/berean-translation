@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "40d9a558-2224-4388-9e48-ef34cc493e2a",
+    "response_id": "chatcmpl-EgMr49VPPP4qw5eEz4UEvnV6ra4pe",
+    "usage": {
+      "completion_tokens": 994,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 709,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5603,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4500,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 6597
+    }
+  },
+  "received_at": "2026-11-04T09:06:56+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Πρώτη παράγραφος της μαρτυρίας, στο επεισόδιο με τον Ισπανόφωνο άνδρα",
+        "severity": "major",
+        "source_quote": "I could think of a word to say, so I just said “Christ?”",
+        "suggested_fix": "Μπορούσα να σκεφτώ μια λέξη να πω, κι έτσι είπα μόνο «Χριστός;»",
+        "translation_quote": "Δεν μπορούσα να σκεφτώ τι να πω, οπότε είπα μόνο «Χριστός;»"
+      },
+      {
+        "location": "Αρχική έντονη παράγραφος",
+        "severity": "minor",
+        "source_quote": "a free flow of edification, inspiration and burden from us to you, and you to us",
+        "suggested_fix": "μια ελεύθερη ροή οικοδομής, έμπνευσης και φορτίων από εμάς προς εσάς και από εσάς προς εμάς",
+        "translation_quote": "μια ελεύθερη ροή οικοδομής, έμπνευσης και βαρύτητας από εμάς προς εσάς και από εσάς προς εμάς"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 94
+  }
+}
