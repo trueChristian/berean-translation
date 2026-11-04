@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Article, paragraph 3 (leprosy illustration)",
+      "severity": "minor",
+      "source_quote": "“that fat rat”",
+      "suggested_fix": "Replace «quel grosso ratto» with «quel ratto grasso» to preserve the source’s description.",
+      "translation_quote": "«quel grosso ratto»"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

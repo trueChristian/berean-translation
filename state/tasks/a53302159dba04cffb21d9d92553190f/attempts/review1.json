@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-04T09:06:03+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Article, paragraph 3 (leprosy illustration)\",\"severity\":\"minor\",\"source_quote\":\"“that fat rat”\",\"suggested_fix\":\"Replace «quel grosso ratto» with «quel ratto grasso» to preserve the source’s description.\",\"translation_quote\":\"«quel grosso ratto»\"}],\"findings_complete\":true,\"passed\":true,\"score\":99}",
+    "content_bytes": 337,
+    "content_evidence_truncated": false,
+    "content_sha256": "db6e798eec32632ecf6abfcf69cb738b6809a86268b56b5e5f3ecbfbc4349a4b",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 764,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 661,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4779,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3676,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 5543
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

@@ -49385,6 +49385,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ita/articles/3558b7f3-5296-4770-a7c6-d420c923642d.html",
+      "html_sha256": "60e0c926fd3d495c5545abb6b481fb4730a95a6991a6f389d8d0237d88a3e1c0",
+      "human_reviewed": false,
+      "id": "3558b7f3-5296-4770-a7c6-d420c923642d",
+      "images": [
+        {
+          "alt": "Una cassetta postale sul ciglio della strada con l’indirizzo postale della rivista",
+          "public_path": "/images/articles/3558b7f3-5296-4770-a7c6-d420c923642d-1.jpg"
+        }
+      ],
+      "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
+      "language": "ita",
+      "language_tag": "it",
+      "metadata": "content/ita/articles/3558b7f3-5296-4770-a7c6-d420c923642d.json",
+      "metadata_sha256": "9b999f0e641c6bb870396d8a4f038785806c2dc48f831a67c08b4fecf1a19e53",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
+      "source_translation_key": "459eee2e9c07155a363c1c0e355fdda66adbf2039a8df9dc3c6dcd5288b5461e",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Lettere preziose dai nostri lettori",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ita/articles/391d4642-07e2-4003-83db-fa33dc08a8ca.html",
       "html_sha256": "cae5f6b76c330ee41e8b0222911572730ef2fe1a3e91efe1432a0820080c8047",
       "human_reviewed": false,

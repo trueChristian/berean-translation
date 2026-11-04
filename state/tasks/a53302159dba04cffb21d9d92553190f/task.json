@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "77b69927ea704f5aa97d12e93589b40b",
   "campaign": "auto-8fa6ddaae3ade9a4be45fa97791974215de04bdfafd2197e3f82d3cbc6a8e0b5",
   "created_at": "2026-11-04T01:24:02+00:00",
   "events": [
@@ -28,10 +27,39 @@
         },
         "total_tokens": 4567
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 764,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 661,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4779,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 3676,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 5543
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "Article, paragraph 3 (leprosy illustration)",
+      "severity": "minor",
+      "source_quote": "“that fat rat”",
+      "suggested_fix": "Replace «quel grosso ratto» with «quel ratto grasso» to preserve the source’s description.",
+      "translation_quote": "«quel grosso ratto»"
+    }
+  ],
+  "finished_at": "2026-11-04T09:06:03+00:00",
   "id": "a53302159dba04cffb21d9d92553190f",
   "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
   "language": "ita",
@@ -120,9 +148,11 @@
     }
   },
   "protected": false,
+  "quality_score": 99,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/b90a551397024be9f0d057a09f4b11218c609006eb7fba34164cc6a14aacedb6.json",
   "stage": "review1",
   "stage_budget": {
@@ -138,7 +168,7 @@
     "total_reserved_usd": 0.087725,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "459eee2e9c07155a363c1c0e355fdda66adbf2039a8df9dc3c6dcd5288b5461e",
   "translation_model_actual": "gpt-6-luna"
