@@ -17113,6 +17113,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/cmn/articles/88345a38-6c33-495a-8407-f0fda29b67e0.html",
+      "html_sha256": "16bbaaf83b270271d6026d6f3dd23478e46614f58fdf23e190ee9ae115ee1568",
+      "human_reviewed": false,
+      "id": "88345a38-6c33-495a-8407-f0fda29b67e0",
+      "images": [
+        {
+          "alt": "一根柱子上立着一个邮箱，周围长着花。",
+          "public_path": "/images/articles/88345a38-6c33-495a-8407-f0fda29b67e0-1.jpg"
+        }
+      ],
+      "issue_id": "07955de4-6574-4a4b-9c1b-f216374c02ee",
+      "language": "cmn",
+      "language_tag": "zh-Hans",
+      "metadata": "content/cmn/articles/88345a38-6c33-495a-8407-f0fda29b67e0.json",
+      "metadata_sha256": "0c07718f06c9dc892c32ee49be64fd37959c3ad5b2716472e19384c1f7d4e853",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": null,
+      "source_revision": "918709aaa14615100c469d3545de047031baed9d",
+      "source_translation_key": "f8c504eebe2c2189a06d81874c74b49a91b4b0d112dfb0d43f9900df3a67392f",
+      "status": "ready",
+      "subtitle": null,
+      "title": "读者寄来的珍贵信件",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/cmn/articles/8a3dfa09-f40f-4615-8f83-59a8fccb1a2f.html",
       "html_sha256": "ad82c6fc2021cc90cddef2e1a9a3dcab04623ef750810bcf20c56024e77a7678",
       "human_reviewed": false,
