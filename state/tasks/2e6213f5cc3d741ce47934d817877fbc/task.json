@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "bca1bfec71f44536ae02d4217bb8a11e",
   "campaign": "auto-e4efe9c229bacf4a4ccf5d21c01a9d524d0644ab5e5530505be01874ed3ae6fa",
   "created_at": "2026-11-01T15:03:34+00:00",
   "events": [
@@ -48,214 +47,31 @@
         },
         "total_tokens": 21646
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 94,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 62,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 12122,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 11019,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 12216
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "html, aya 1, 2 na 4: kupaa kwa Yesu",
-      "severity": "major",
-      "source_quote": "When he ascended up on high, he led captivity captive ... (ascended up on high) ... when Jesus ascended up on high",
-      "suggested_fix": "Katika maeneo yote matatu, badili “alipoongeza juu” kuwa “alipopaa juu”. Katika Waefeso 4:8, badili pia “alipeleka mafungwa kwa ufalme” kuwa “aliteka mateka”.",
-      "translation_quote": "Alipoongeza juu, alipeleka mafungwa kwa ufalme ... (alipoongeza juu) ... wakati Yesu alipoongeza juu"
-    },
-    {
-      "location": "html, aya 1: mfano wa mfalme",
-      "severity": "major",
-      "source_quote": "with all the spoils of war ... the king would hand out gifts from the stuff that was taken in battle",
-      "suggested_fix": "Badili sehemu hii kuwa “Wangepita mjini wakiwa na nyara zote za vita, na baada ya hapo mfalme angewagawia watu wake zawadi kutoka katika vitu vilivyotekwa vitani.”",
-      "translation_quote": "wakiwa na mateka na maghorofa yote ya vita ... mfalme angenunua zawadi"
-    },
-    {
-      "location": "html, aya 2",
-      "severity": "major",
-      "source_quote": "He took the power from death, hell, the grave and from Satan himself",
-      "suggested_fix": "Badili kuwa “Alivunja nguvu za kifo, kuzimu, kaburi na hata za Shetani mwenyewe”.",
-      "translation_quote": "Alipokea mamlaka juu ya kifo, kuzimu, kaburi na hata kwa Shetani mwenyewe"
-    },
-    {
-      "location": "html, aya 3: orodha ya Warumi",
-      "severity": "major",
-      "source_quote": "ministry, exhortation, giving, ruling, and showing mercy",
-      "suggested_fix": "Badili “wananihimiza” kuwa “kutia moyo”.",
-      "translation_quote": "huduma, wananihimiza, kutoa, kutawala, na kuonyesha rehema"
-    },
-    {
-      "location": "html, aya 4: makundi ya Kikristo",
-      "severity": "major",
-      "source_quote": "baptized in the Holy Spirit ... the evangelicals ... conservative Anabaptist churches",
-      "suggested_fix": "Badili “ametapakuliwa kwa Roho Mtakatifu” kuwa “amebatizwa katika Roho Mtakatifu”, “waundenominationali” kuwa “Wakristo wa kiinjili”, na “Anabaptisti waliolindwa” kuwa “Wa-anabaptisti wanaoshikilia mapokeo”.",
-      "translation_quote": "ametapakuliwa kwa Roho Mtakatifu ... waundenominationali ... Anabaptisti waliolindwa"
-    },
-    {
-      "location": "html, kichwa cha kwanza cha h3",
-      "severity": "major",
-      "source_quote": "Spiritual Gifts Should Not Excuse Ungodly Behavior",
-      "suggested_fix": "Badili kichwa kuwa “Zawadi za Kiroho Hazipaswi Kutumiwa Kuhalalisha Tabia Isiyompendeza Mungu”.",
-      "translation_quote": "Zawadi za Kiroho Haizuili Tabia Isiyo ya Mungu"
-    },
-    {
-      "location": "html, aya inayofuata kichwa cha kwanza",
-      "severity": "major",
-      "source_quote": "the prophet might excuse himself ... since he may not have the gift of mercy ... a primary gift or gifts",
-      "suggested_fix": "Badili “anaweza kujidanganya” kuwa “anaweza kujitetea”, “kwa kuwa yeye hana” kuwa “kwa kuwa huenda hana”, na “zawadi kuu au zawadi kuu ndogo” kuwa “zawadi moja au zaidi zilizo kuu”.",
-      "translation_quote": "nabii anaweza kujidanganya ... kwa kuwa yeye hana zawadi ya huruma ... zawadi kuu au zawadi kuu ndogo"
-    },
-    {
-      "location": "html, aya inayoanza “Nimewauliza watu wengi”",
-      "severity": "major",
-      "source_quote": "stop excusing ourselves to one limited gift and pursue to be as fully equipped as possible ... we will not master them all",
-      "suggested_fix": "Badili sehemu husika kuwa “tuache kujitetea kwa kujifungia katika zawadi moja tu na tujitahidi kuwa na maandalizi kamili kadiri iwezekanavyo” na “hatutakuwa mahiri katika kuzitumia zote”.",
-      "translation_quote": "kuacha kujimwagia msamaha kwa kuwa na zawadi ndogo tu na kujaribu kupata zana ... hatutazipasua zote zote"
-    },
-    {
-      "location": "html, aya inayoanza “Nimewauliza watu wengi”: 1 Wakorintho 12:11",
-      "severity": "major",
-      "source_quote": "But all these worketh that one and the selfsame Spirit, dividing to every man severally as he will",
-      "suggested_fix": "Badili nukuu kuwa “Lakini yote haya hutendwa na Roho mmoja na huyo huyo, akimgawia kila mtu kivyake kama apendavyo – 1 Wakorintho 12:11.”",
-      "translation_quote": "Lakini yote haya hufanya huo mmoja na Roho mmoja huyo anagawanya kwa kila mtu pekee kama anavyotaka"
-    },
-    {
-      "location": "html, aya kuhusu utambulisho",
-      "severity": "major",
-      "source_quote": "we are not primarily a prophet, a teacher, or an evangelist",
-      "suggested_fix": "Badili kuwa “utambulisho wetu wa msingi si kuwa nabii, mwalimu, au mwinjilisti”.",
-      "translation_quote": "hatuwezi kuwa kwa msingi nabii, mwalimu, au muinjilisti"
-    },
-    {
-      "location": "html, aya yenye Waebrania 2:4 na 1 Wakorintho 12:11",
-      "severity": "major",
-      "source_quote": "with divers miracles ... dividing to every man severally",
-      "suggested_fix": "Badili “mataji mbalimbali ya miujiza” kuwa “miujiza mbalimbali”, na “akigawanya kwa kila mtu kwa njia yake mwenyewe” kuwa “akimgawia kila mtu kivyake”.",
-      "translation_quote": "mataji mbalimbali ya miujiza ... akigawanya kwa kila mtu kwa njia yake mwenyewe"
-    },
-    {
-      "location": "html, aya inayoanza “Je, unaona”",
-      "severity": "major",
-      "source_quote": "Maybe He has given me a gift that I am not recognizing or using",
-      "suggested_fix": "Badili kuwa “Labda amenipa zawadi ambayo siitambui au siitumii”.",
-      "translation_quote": "Labda Amenyenyekevu amenipatia zawadi ambayo sitaitambua wala kuitumia"
-    },
-    {
-      "location": "html, aya inayoanza “Pia, ni vizuri”",
-      "severity": "major",
-      "source_quote": "Sometimes a select few are lifted out and taught to be more spiritually important",
-      "suggested_fix": "Badili kuwa “Wakati mwingine zawadi chache huteuliwa na kuinuliwa, na hufundishwa kuwa muhimu zaidi kiroho”.",
-      "translation_quote": "Wakati mwingine chache huondolewa na kufundishwa kuwa za kiroho zaidi"
-    },
-    {
-      "location": "html, aya inayoanza “Paulo alisema kwa Timoti”",
-      "severity": "major",
-      "source_quote": "Neglect not the gift that is in thee, which was given thee by prophecy, with the laying on of the hands of the presbytery ... stop neglecting the gift",
-      "suggested_fix": "Badili nukuu kuwa “Usiipuuze zawadi iliyo ndani yako, uliyopewa kwa unabii pamoja na kuwekewa mikono na baraza la wazee – 1 Timoti 4:14.” Badili “kuacha kuacha zawadi” kuwa “kuacha kuipuuza zawadi”.",
-      "translation_quote": "UsipendeZaye zawadi uliyonayo, iliyo kwako kwa unabii, kwa kuteuliwa kwa mikono ya wajumbe ... kuacha kuacha zawadi"
-    },
-    {
-      "location": "html, aya inayoanza “Paulo alisema kwa Timoti”: uamuzi wa kumwondoa kiongozi",
-      "severity": "major",
-      "source_quote": "I would be very slow and very prayerful before removing an ordained brother from his office",
-      "suggested_fix": "Badili kuwa “Nisingeharakisha hata kidogo, na ningeomba sana kabla ya kumwondoa ndugu aliyewekwa wakfu katika wadhifa wake”.",
-      "translation_quote": "Nitakuwa mvivu sana na mwenye sala kabla ya kumtoa ndugu aliyeteuliwa"
-    },
-    {
-      "location": "html, aya kuhusu ndoa",
-      "severity": "major",
-      "source_quote": "to bring balance to the perceived lack of a proper balance of gifting ... the wife learned to yield her gifting ... the godly head of the home",
-      "suggested_fix": "Badili sehemu ya kwanza kuwa “ili kurekebisha hali inayodhaniwa ya kutokuwa na uwiano unaofaa wa zawadi”. Badili sehemu ya mwisho kuwa “mke alijifunza kuitumia zawadi yake kwa unyenyekevu kwa njia iliyomruhusu mumewe kuwa kichwa cha familia anayemcha Mungu”.",
-      "translation_quote": "ili kuleta usawa wa kutendekezwa kwa zawadi zinazosemwa kushukiwa ... mke alijifunza kumpa nafasi zawadi yake ... kichwa mwenye utu wa moyo wa nyumbani"
-    },
-    {
-      "location": "html, nukuu ya 1 Wakorintho 12:24-25 na aya chini ya “Sababu ya kwanza”",
-      "severity": "major",
-      "source_quote": "the members should have the same care one for another",
-      "suggested_fix": "Katika maeneo yote mawili, badili “wanachama wawe na uzito ule ule kwa kila mmoja” kuwa “viungo vitunzane kwa kujali kila kimoja kwa usawa”.",
-      "translation_quote": "wanachama wawe na uzito ule ule kwa kila mmoja"
-    },
-    {
-      "location": "html, nukuu ya Yakobo 3:13-18",
-      "severity": "major",
-      "source_quote": "endued with knowledge ... bitter envying and strife ... where envying and strife is",
-      "suggested_fix": "Badili “aliyezaliwa kwa maarifa” kuwa “mwenye maarifa”, “hasira kali na uvivu” kuwa “wivu mchungu na ugomvi”, na “palipo hasira na uvivu” kuwa “palipo wivu na ugomvi”.",
-      "translation_quote": "aliyezaliwa kwa maarifa ... hasira kali na uvivu ... palipo hasira na uvivu"
-    },
-    {
-      "location": "html, nukuu ya Yakobo 3:13-18, sehemu ya mwisho",
-      "severity": "major",
-      "source_quote": "easy to be intreated ... without hypocrisy. And the fruit of righteousness is sown in peace of them that make peace",
-      "suggested_fix": "Badili “rahisi kuombewa” kuwa “tayari kusikiliza na kushaurika”, “bila uwongo wa kidini” kuwa “bila unafiki”, na sentensi ya mwisho kuwa “Na tunda la haki hupandwa kwa amani na wale wanaofanya amani.” Hifadhi tagi zilizopo.",
-      "translation_quote": "rahisi kuombewa ... bila uwongo wa kidini ... tunda la haki linaepukuliwa katika amani kwa wale wanaowatia amani"
-    },
-    {
-      "location": "html, hatua (1b) na (2) za kutatua matatizo",
-      "severity": "major",
-      "source_quote": "the wisdom of outside overseers ... the laying on of the hands of the presbytery",
-      "suggested_fix": "Badili “busara ya wakfu wa nje” kuwa “hekima ya waangalizi kutoka nje”, na “kuteuliwa kwa mikono ya wajumbe” kuwa “kuwekewa mikono na baraza la wazee”.",
-      "translation_quote": "busara ya wakfu wa nje ... kuteuliwa kwa mikono ya wajumbe"
-    },
-    {
-      "location": "html, nukuu zote mbili za 1 Wakorintho 14:22",
-      "severity": "major",
-      "source_quote": "to them that believe not ... prophesying serveth not for them that believe not",
-      "suggested_fix": "Katika nukuu zote mbili, badili kila “wale wasiowaamini” kuwa “wale wasioamini”.",
-      "translation_quote": "kwa wale wasiowaamini; lakini unabii hauwafai wale wasiowaamini"
-    },
-    {
-      "location": "html, aya inayoanza “Ni ya kuvutia”",
-      "severity": "major",
-      "source_quote": "the evangelist ... more prevalent on the frontier of the gospel ... cannot understand a word of English ... hear the gospel",
-      "suggested_fix": "Badili “uinjilisti ana wito” kuwa “mwinjilisti ana wito”, “mbele za injili” kuwa “katika maeneo mapya yanayofikiwa na injili”, “hasemi neno la Kiingereza” kuwa “haelewi hata neno moja la Kiingereza”, na “waone injili” kuwa “waisikie injili”.",
-      "translation_quote": "uinjilisti ana wito ... mbele za injili ... hasemi neno la Kiingereza ... waone injili"
-    },
-    {
-      "location": "html, aya inayoanza “Tumeona pale”",
-      "severity": "major",
-      "source_quote": "the elders of the church were called and there was anointing and prayer",
-      "suggested_fix": "Badili kuwa “wazee wa kanisa waliitwa, na mgonjwa akapakwa mafuta na kuombewa”.",
-      "translation_quote": "wazee wa kanisa walipotumwa na kulikuwa kwa mafuta na sala"
-    },
-    {
-      "location": "html, aya kuhusu Petro siku ya Pentekoste",
-      "severity": "major",
-      "source_quote": "this speaking in many different languages was supernatural. It would have taken a stubborn soul to scoff at the message",
-      "suggested_fix": "Badili “ilikuwa ya kimataifa” kuwa “kulikuwa kwa muujiza”. Badili sentensi inayofuata kuwa “Ni mtu mwenye moyo mgumu tu ambaye angeudhihaki ujumbe uliohubiriwa siku hiyo.”",
-      "translation_quote": "kuongea kwa lugha nyingi ilikuwa ya kimataifa. Ingekuwa ngumu kwa moyo mgumu kupuuza ujumbe"
-    },
-    {
-      "location": "html, aya kuhusu tafiti za lugha",
-      "severity": "major",
-      "source_quote": "the gibberish that comprises most of what is called tongues today",
-      "suggested_fix": "Badili kuwa “matamshi yasiyoeleweka yanayounda sehemu kubwa ya kile kinachoitwa kunena kwa lugha leo”.",
-      "translation_quote": "maneno yasiyoeleweka ambayo yanafanana na kile kinachoitwa lugha leo"
-    },
-    {
-      "location": "html, aya kuhusu mwanamke wa Kanada: mkutano na mhubiri",
-      "severity": "major",
-      "source_quote": "a revival meeting where the revivalist was preaching ... an English-speaking preacher",
-      "suggested_fix": "Badili “mkutano wa maboresho” kuwa “mkutano wa uamsho”, “mwenehuruma alikuwa akihubiri” kuwa “mhubiri wa uamsho alikuwa akihubiri”, na “mwenehuruma wa Kiingereza” kuwa “mhubiri anayezungumza Kiingereza”.",
-      "translation_quote": "mkutano wa maboresho ambapo mwenehuruma alikuwa akihubiri ... mwenehuruma wa Kiingereza"
-    },
-    {
-      "location": "html, aya kuhusu mwanamke wa Kanada: muujiza na Babeli",
-      "severity": "major",
-      "source_quote": "it was heartwarming to know how it was supernatural ... confound the languages of those working on the tower of Babel",
-      "suggested_fix": "Badili sentensi ya kwanza kuwa “Nina hakika ilitia moyo kujua kwamba aliweza kuusikia kwa njia ya muujiza.” Badili sehemu ya Babeli kuwa “kama Mungu aliweza kuchanganya lugha za wale waliokuwa wakijenga mnara wa Babeli”.",
-      "translation_quote": "ilikuwa ya kupongezwa kujua jinsi ilivyokuwa ya kimuanadamu ... akimuumiza lugha wale waliokubaliana katika ujenzi wa Mnara wa Babel"
-    },
-    {
-      "location": "html, aya inayoanza “Sababu tunazoona” na hitimisho",
-      "severity": "major",
-      "source_quote": "so that he would hear the gospel message ... giving them severally as He wills ... hear and be persuaded of the gospel message",
-      "suggested_fix": "Badili “ili asingazwe ujumbe wa injili” kuwa “ili ausikie ujumbe wa injili”, “akiziwanikiza kwa kila mtu” kuwa “akimgawia kila mtu kivyake”, na “asikilize na kuvutiwa na ujumbe” kuwa “ausikie na kusadikishwa kuhusu ujumbe”.",
-      "translation_quote": "ili asingazwe ujumbe wa injili ... akiziwanikiza kwa kila mtu ... asikilize na kuvutiwa na ujumbe"
-    },
-    {
-      "location": "html, matumizi kadhaa ya Kiswahili na alt ya picha",
-      "severity": "minor",
-      "source_quote": "a condensed list ... WILL of God ... A misty winter forest reflected in a lake",
-      "suggested_fix": "Badili “orodha iliyoshinifishwa” kuwa “orodha iliyofupishwa”, “HIARI ya Mungu” kuwa “MAPENZI ya Mungu”, na alt kuwa “Taswira ya msitu wenye ukungu wakati wa majira ya baridi ikijitokeza katika ziwa”.",
-      "translation_quote": "orodha iliyoshinifishwa ... HIARI ya Mungu ... Msitu wa baridi wenye ukungu ukionyeshwa kioo kwenye ziwa"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-11-04T01:49:25+00:00",
   "id": "2e6213f5cc3d741ce47934d817877fbc",
   "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
   "language": "swa",
@@ -344,7 +160,7 @@
     }
   },
   "protected": false,
-  "quality_score": 48,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6.1-sol",
@@ -363,7 +179,7 @@
     "total_reserved_usd": 0.796042,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "1c1dd57f73c720271265483775e7d93acfbda9f85eeefb95d0c905a5b442adfd",
   "translation_model_actual": "gpt-6.1-sol"

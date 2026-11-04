@@ -88450,6 +88450,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/swa/articles/e8bdb12c-2e8e-4f55-9052-07bec6e103a1.html",
+      "html_sha256": "4ac57901b4a9dddf0fd2bce190a792a495192fb4420c0f6e3e745e1616fdea16",
+      "human_reviewed": false,
+      "id": "e8bdb12c-2e8e-4f55-9052-07bec6e103a1",
+      "images": [
+        {
+          "alt": "Taswira ya msitu wenye ukungu wakati wa majira ya baridi ikijitokeza katika ziwa",
+          "public_path": "/images/articles/e8bdb12c-2e8e-4f55-9052-07bec6e103a1-1.png"
+        }
+      ],
+      "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
+      "language": "swa",
+      "language_tag": "sw",
+      "metadata": "content/swa/articles/e8bdb12c-2e8e-4f55-9052-07bec6e103a1.json",
+      "metadata_sha256": "039e01f2b1af044e0e82b19f38f231e1c9ab5099c9c6d1a876e04efc9e86e279",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "KANISA LA AGANO JIPYA",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "1c1dd57f73c720271265483775e7d93acfbda9f85eeefb95d0c905a5b442adfd",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Zawadi za Kiroho",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/swa/articles/e9621e7b-df8d-4497-998c-b98af23486b7.html",
       "html_sha256": "2c4d85521f0f3fe8430db765a372e7dd60b94e41e3fe5eb0985cfc3b7de5acbf",
       "human_reviewed": false,
