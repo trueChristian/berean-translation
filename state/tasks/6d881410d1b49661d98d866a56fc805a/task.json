@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "cdc19b5a04eb4f869099d698cf92726f",
   "campaign": "auto-0856a999d74581a7430c85734e8c9a8bc8d77dafcecd5d57d0e36028d50799b0",
   "created_at": "2026-11-03T21:25:34+00:00",
   "events": [
@@ -28,10 +27,46 @@
         },
         "total_tokens": 4345
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 794,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 601,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4699,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 3596,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 5493
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "HTML, paragraph beginning «За пять с половиной лет»",
+      "severity": "minor",
+      "source_quote": "even ungodly people in the community treat her",
+      "suggested_fix": "даже нечестивые люди в нашем сообществе относятся к ней",
+      "translation_quote": "даже нечестивые люди в нашей общине относятся к ней"
+    },
+    {
+      "location": "HTML, opening bold paragraph",
+      "severity": "minor",
+      "source_quote": "a free flow of edification, inspiration and burden from us to you, and you to us",
+      "suggested_fix": "свободно обменивались назиданием, вдохновением и тем, что нас тяготит",
+      "translation_quote": "свободно распространялись назидание, вдохновение и наши тяготы"
+    }
+  ],
+  "finished_at": "2026-11-04T09:06:32+00:00",
   "id": "6d881410d1b49661d98d866a56fc805a",
   "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
   "language": "rus",
@@ -120,9 +155,11 @@
     }
   },
   "protected": false,
+  "quality_score": 97,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/b90a551397024be9f0d057a09f4b11218c609006eb7fba34164cc6a14aacedb6.json",
   "stage": "review1",
   "stage_budget": {
@@ -138,7 +175,7 @@
     "total_reserved_usd": 0.087725,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "459eee2e9c07155a363c1c0e355fdda66adbf2039a8df9dc3c6dcd5288b5461e",
   "translation_model_actual": "gpt-6-luna"

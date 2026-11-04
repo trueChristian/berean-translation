@@ -75988,6 +75988,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/rus/articles/3558b7f3-5296-4770-a7c6-d420c923642d.html",
+      "html_sha256": "d7f623e16a403c2f00f296eb144b15c6c2e4445471c6026c30a575a925f86883",
+      "human_reviewed": false,
+      "id": "3558b7f3-5296-4770-a7c6-d420c923642d",
+      "images": [
+        {
+          "alt": "Придорожный почтовый ящик с почтовым адресом журнала",
+          "public_path": "/images/articles/3558b7f3-5296-4770-a7c6-d420c923642d-1.jpg"
+        }
+      ],
+      "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
+      "language": "rus",
+      "language_tag": "ru",
+      "metadata": "content/rus/articles/3558b7f3-5296-4770-a7c6-d420c923642d.json",
+      "metadata_sha256": "ead432e481d9168330d77814b76b0eeae3ff31223e8c2e9b09c7e5cd165d17db",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
+      "source_translation_key": "459eee2e9c07155a363c1c0e355fdda66adbf2039a8df9dc3c6dcd5288b5461e",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Дорогие письма наших читателей",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/rus/articles/39530116-8c39-4abd-beb6-89f05771a4f8.html",
       "html_sha256": "89d0e93f449b0dc04e36a380179d6206ec6324056fe46c23acb1d646052beec3",
       "human_reviewed": false,

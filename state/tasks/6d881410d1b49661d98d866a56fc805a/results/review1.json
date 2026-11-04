@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "256d4e1f-c124-44d9-9be7-164394a1429a",
+    "response_id": "chatcmpl-EgMqzNT001teSKoZvasWNFXKJJLRc",
+    "usage": {
+      "completion_tokens": 794,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 601,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4699,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3596,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 5493
+    }
+  },
+  "received_at": "2026-11-04T09:06:32+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, paragraph beginning «За пять с половиной лет»",
+        "severity": "minor",
+        "source_quote": "even ungodly people in the community treat her",
+        "suggested_fix": "даже нечестивые люди в нашем сообществе относятся к ней",
+        "translation_quote": "даже нечестивые люди в нашей общине относятся к ней"
+      },
+      {
+        "location": "HTML, opening bold paragraph",
+        "severity": "minor",
+        "source_quote": "a free flow of edification, inspiration and burden from us to you, and you to us",
+        "suggested_fix": "свободно обменивались назиданием, вдохновением и тем, что нас тяготит",
+        "translation_quote": "свободно распространялись назидание, вдохновение и наши тяготы"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 97
+  }
+}
