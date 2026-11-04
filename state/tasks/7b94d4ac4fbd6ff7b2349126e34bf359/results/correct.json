@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "9d5a605b-c5bb-4b81-a463-c0deaf28eb88",
+    "response_id": "chatcmpl-EgKWq3KezxUhsq8oXV1maW8yWq1HI",
+    "usage": {
+      "completion_tokens": 1513,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 134,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3384,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3381,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4897
+    }
+  },
+  "received_at": "2026-11-04T02:02:34+00:00",
+  "result": {
+    "html": "<article data-article-id=\"30796e2b-9ec4-4bcf-b9e3-7d40802ff1f9\">\n  <figure><img src=\"/images/articles/30796e2b-9ec4-4bcf-b9e3-7d40802ff1f9-1.jpg\" alt=\"Un uomo anziano tiene in mano un ventaglio accanto a una gabbia per uccelli\"></figure>\n  <p>Un uomo si trovava sul ciglio della strada con una grande gabbia per uccelli.</p>\n  <p>Un ragazzo notò che la gabbia era piena di uccelli di molte specie.</p>\n  <p>«Dove hai preso quegli uccelli?» chiese.</p>\n  <p>«Oh, un po’ dappertutto», rispose l’uomo. «Li attiro con delle briciole e fingo di essere loro amico. Poi, quando sono vicini, li catturo con una rete e li ficco nella mia gabbia.»</p>\n  <p>«E che cosa hai intenzione di farne adesso?»</p>\n  <p>L’uomo sogghignò: «Li stuzzicherò con dei bastoni e li farò arrabbiare molto, così combatteranno e si uccideranno a vicenda. Quelli che sopravvivranno, li ucciderò io. Nessuno scapperà.»</p>\n  <p>Il ragazzo fissò l’uomo. Che cosa lo spingeva a fare cose del genere? Guardò i suoi occhi crudeli e duri. Poi guardò gli uccelli, indifesi, senza speranza.</p>\n  <p>«Posso comprare quegli uccelli?» chiese il ragazzo. L’uomo nascose un sorriso, consapevole che, se avesse giocato bene le sue carte, avrebbe potuto fare un buon affare.</p>\n  <figure><img src=\"/images/articles/30796e2b-9ec4-4bcf-b9e3-7d40802ff1f9-2.jpg\" alt=\"Bambini di fronte a un uomo accanto a una gabbia per uccelli appesa\"></figure>\n  <p>«Beh», disse esitante, «la gabbia è piuttosto costosa e ho passato molto tempo a raccogliere questi uccelli. Ti dirò che cosa farò: ti lascerò avere tutto, uccelli, gabbia e ogni cosa, per dieci sterline e la giacca che indossi.»</p>\n  <p>Il ragazzo esitò: dieci sterline erano tutto ciò che possedeva, e la giacca era nuova e molto speciale; anzi, era il suo bene più prezioso. Lentamente tirò fuori le dieci sterline e le consegnò, poi, ancora più lentamente, si tolse la giacca, la guardò un’ultima volta e la consegnò anche quella.</p>\n  <p>Ricevette la gabbia dall’uomo. E poi (beh, forse l’avete indovinato) aprì lo sportello e lasciò liberi gli uccelli.</p>\n  <hr>\n  <p>Il nemico del mondo, Satana, si trovava sul ciglio della strada della vita con una gabbia molto grande.</p>\n  <p>L’uomo che gli veniva incontro notò che era stipata di persone di ogni genere, giovani e anziani, di ogni razza e nazione.</p>\n  <p>«Dove hai preso queste persone?» chiese l’uomo.</p>\n  <p>«Oh, da tutto il mondo», rispose Satana. «Le attiro con alcol, droghe, lussuria, menzogne, rabbia, odio, amore per il denaro e ogni sorta di cose. Fingo di essere loro amico, di voler far passare loro dei bei momenti, poi, quando sono cadute nella mia trappola, finiscono nella gabbia.»</p>\n  <p>«E che cosa hai intenzione di farne adesso?» chiese l’uomo.</p>\n  <p>Satana sogghignò. «Le stuzzicherò, le provocherò, le farò arrivare a odiarsi e a distruggersi a vicenda; alimenterò l’odio razziale, la ribellione contro la legge e l’ordine; renderò le persone annoiate, sole, insoddisfatte, confuse e irrequiete. È facile. Le persone ascolteranno sempre ciò che offro loro e, quel che è meglio, daranno la colpa a Dio per le conseguenze!»</p>\n  <p>«E poi?» chiese l’uomo.</p>\n  <p>«Quelli che non si distruggeranno da soli, li distruggerò io. Nessuno mi sfuggirà.»</p>\n  <p>L’uomo fece un passo avanti. «Posso comprare queste persone da te?», chiese.</p>\n  <p>Satana ringhiò: «Sì, ma ti costerà la vita». Così Gesù Cristo, il Figlio di Dio, pagò con la propria vita, sulla croce del Calvario, per la tua liberazione, per affrancarti dalla trappola di Satana. La porta è aperta e chiunque, ingannato e imprigionato da Satana, può essere liberato.</p>\n  <blockquote>\n    <p><strong>Confida nel Signore<br>con tutto il tuo cuore<br>e non appoggiarti<br>sulla tua intelligenza.<br>Riconoscilo in tutte le tue vie<br>ed egli appianerà i tuoi sentieri.</strong></p>\n    <p><strong>Proverbi 3:5-6</strong></p>\n  </blockquote>\n</article>\n",
+    "section": null,
+    "subtitle": null,
+    "title": "La gabbia per uccelli"
+  }
+}
