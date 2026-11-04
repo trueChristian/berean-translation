@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "2a0acbf4-ca62-408c-acfc-2be5069938f9",
+    "response_id": "chatcmpl-EgKGdRcUOlYkXpAFA1OeLam6FAXCp",
+    "usage": {
+      "completion_tokens": 363,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 60,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9493,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9490,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9856
+    }
+  },
+  "received_at": "2026-11-04T01:48:51+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "html, alinea vóór de kop ‘Oorlog’",
+        "severity": "major",
+        "source_quote": "slow down this draw to join them in any compromising manner",
+        "suggested_fix": "Vervang ‘deze neiging om ons op welke manier dan ook met hen te vereenzelvigen moeten afremmen’ door ‘deze neiging om ons met hen te verbinden op een manier die compromissen inhoudt moeten afremmen’.",
+        "translation_quote": "deze neiging om ons op welke manier dan ook met hen te vereenzelvigen moeten afremmen"
+      },
+      {
+        "location": "html, eerste alinea onder ‘Oorlog’",
+        "severity": "major",
+        "source_quote": "Can you believe in war, killing your enemies, and still be a New Testament Christian?",
+        "suggested_fix": "Vervang de vraag door: ‘Kun je voorstander zijn van oorlog, van het doden van je vijanden, en toch een nieuwtestamentische christen zijn?’",
+        "translation_quote": "Kun je oorlog voeren, je vijanden doden en toch een nieuwtestamentische christen zijn?"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 93
+  }
+}

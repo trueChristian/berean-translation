@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "html, alinea vóór de kop ‘Oorlog’",
+      "severity": "major",
+      "source_quote": "slow down this draw to join them in any compromising manner",
+      "suggested_fix": "Vervang ‘deze neiging om ons op welke manier dan ook met hen te vereenzelvigen moeten afremmen’ door ‘deze neiging om ons met hen te verbinden op een manier die compromissen inhoudt moeten afremmen’.",
+      "translation_quote": "deze neiging om ons op welke manier dan ook met hen te vereenzelvigen moeten afremmen"
+    },
+    {
+      "location": "html, eerste alinea onder ‘Oorlog’",
+      "severity": "major",
+      "source_quote": "Can you believe in war, killing your enemies, and still be a New Testament Christian?",
+      "suggested_fix": "Vervang de vraag door: ‘Kun je voorstander zijn van oorlog, van het doden van je vijanden, en toch een nieuwtestamentische christen zijn?’",
+      "translation_quote": "Kun je oorlog voeren, je vijanden doden en toch een nieuwtestamentische christen zijn?"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
