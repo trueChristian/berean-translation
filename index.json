@@ -35155,6 +35155,38 @@
     {
       "ai_notice_required": true,
       "direction": "rtl",
+      "html": "content/heb/articles/30796e2b-9ec4-4bcf-b9e3-7d40802ff1f9.html",
+      "html_sha256": "b3d8fd7109c8387d60c6dd5feb471424cfc3bdb8753d2600f6ce1d6e60df4546",
+      "human_reviewed": false,
+      "id": "30796e2b-9ec4-4bcf-b9e3-7d40802ff1f9",
+      "images": [
+        {
+          "alt": "גבר מבוגר אוחז במניפה לצד כלוב ציפורים",
+          "public_path": "/images/articles/30796e2b-9ec4-4bcf-b9e3-7d40802ff1f9-1.jpg"
+        },
+        {
+          "alt": "ילדים עומדים מול גבר הניצב לצד כלוב ציפורים תלוי",
+          "public_path": "/images/articles/30796e2b-9ec4-4bcf-b9e3-7d40802ff1f9-2.jpg"
+        }
+      ],
+      "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
+      "language": "heb",
+      "language_tag": "he",
+      "metadata": "content/heb/articles/30796e2b-9ec4-4bcf-b9e3-7d40802ff1f9.json",
+      "metadata_sha256": "682384ba6be6b989f9aa67d52ecebb70363c6ad8e670295cb81e0de6792c398b",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
+      "source_translation_key": "2fe4971d188bb3d6dead7e494929bc66c75dcadb7d5a5a8de1ac402304b85733",
+      "status": "ready",
+      "subtitle": null,
+      "title": "כלוב ציפורים",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
       "html": "content/heb/articles/31ea7041-cab6-4ccd-9ead-04cc949321a6.html",
       "html_sha256": "6a9f0928b32425045822db7acd77f87a0472b9e590b7f79be8a12f36a865d651",
       "human_reviewed": false,
