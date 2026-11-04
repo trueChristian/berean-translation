@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "9fe5f887-ed8e-4e5c-bf44-191429a49399",
+    "response_id": "chatcmpl-EgeqixTzv1zRlJjTdUf77qLhTkelZ",
+    "usage": {
+      "completion_tokens": 391,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1639,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1636,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2030
+    }
+  },
+  "received_at": "2026-11-04T23:39:42+00:00",
+  "result": {
+    "html": "<article data-article-id=\"f1f8d898-1108-4e49-9e62-b12667509107\">\n  <p class=\"poem\"><strong>ألك خطيئة؟<br>أو ثقلٌ عظيمٌ يوشك أن يعوقك<br>عن حسن الجري؟ لكي تنال حرية المسيح،<br>يا نفسًا أسيرة، أطلقيه؛ أطلقيه، وانظري<br>من أين يبدأ يسوع.</strong></p>\n  <p class=\"poem\"><strong>ألك همّ؟<br>فألقِ همّك على الله؛<br>فليس من مشيئته أن تحملي ذلك العبء؛<br>اتركيه عنده، وسوف تسلكين درب الحياة<br>كأنك تمشين في الهواء.</strong></p>\n  <p class=\"poem\"><strong>ألك فرح المسيح؟<br>شاركي السعادة التي يمنحها مع أولئك<br>الذين تفيض حياتهم بالويلات البشرية؛<br>فرحه يسمو على كل شيء، ويزداد اكتمالًا،<br>ولا شيء يستطيع أن يدمره.</strong></p>\n  <p class=\"poem\"><strong>ألك سلامه؟<br>سلام المسيح الذي يفوق الفكر البشري والإدراك،<br>هادئٌ ونقيٌّ وعميق. لا ينتهي كل قلق<br>إلا حين نعرف مثل هذا السكون—ولا ينتهي قبله—<br>يمكن لكل قلق أن يزول.</strong></p>\n</article>\n",
+    "section": null,
+    "subtitle": null,
+    "title": "عطايا المسيح"
+  }
+}
