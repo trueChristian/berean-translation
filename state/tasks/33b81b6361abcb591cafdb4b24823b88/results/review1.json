@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "b132ca22-3071-40f7-bc53-e65c34f55181",
+    "response_id": "chatcmpl-EgJRtej4pu8cSQYcjUiOKKsza2Nxj",
+    "usage": {
+      "completion_tokens": 797,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 668,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4569,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4566,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5366
+    }
+  },
+  "received_at": "2026-11-04T01:18:58+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Article, reader’s account, sentence about speaking Spanish",
+        "severity": "major",
+        "source_quote": "“I could think of a word to say, so I just said ‘Christ?’”",
+        "suggested_fix": "“Conseguia pensar em uma palavra para dizer, então simplesmente disse: ‘Cristo?’”",
+        "translation_quote": "“Não conseguia pensar em nenhuma palavra para dizer, então simplesmente perguntei: ‘Cristo?’”"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 94
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Article, reader’s account, sentence about speaking Spanish",
+      "severity": "major",
+      "source_quote": "“I could think of a word to say, so I just said ‘Christ?’”",
+      "suggested_fix": "“Conseguia pensar em uma palavra para dizer, então simplesmente disse: ‘Cristo?’”",
+      "translation_quote": "“Não conseguia pensar em nenhuma palavra para dizer, então simplesmente perguntei: ‘Cristo?’”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

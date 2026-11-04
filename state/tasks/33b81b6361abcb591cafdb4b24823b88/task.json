@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "33ea65bd61844688b667eb87f2f34c44",
   "campaign": "auto-0fff79c05dc8c716b134ddfecdd0e25decfe26f6242262d2855d7d23b63aa9c1",
   "created_at": "2026-11-03T16:43:59+00:00",
   "events": [
@@ -28,10 +27,38 @@
         },
         "total_tokens": 4298
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 797,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 668,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4569,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 4566,
+          "cached_tokens": 0
+        },
+        "total_tokens": 5366
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "Article, reader’s account, sentence about speaking Spanish",
+      "severity": "major",
+      "source_quote": "“I could think of a word to say, so I just said ‘Christ?’”",
+      "suggested_fix": "“Conseguia pensar em uma palavra para dizer, então simplesmente disse: ‘Cristo?’”",
+      "translation_quote": "“Não conseguia pensar em nenhuma palavra para dizer, então simplesmente perguntei: ‘Cristo?’”"
+    }
+  ],
   "id": "33b81b6361abcb591cafdb4b24823b88",
   "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
   "language": "por",
@@ -120,11 +147,13 @@
     }
   },
   "protected": false,
+  "quality_score": 94,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/b90a551397024be9f0d057a09f4b11218c609006eb7fba34164cc6a14aacedb6.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "translate",
     "max_candidate_bytes": 120000,
@@ -138,7 +167,7 @@
     "total_reserved_usd": 0.087745,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "459eee2e9c07155a363c1c0e355fdda66adbf2039a8df9dc3c6dcd5288b5461e",
   "translation_model_actual": "gpt-6-luna"
