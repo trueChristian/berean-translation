@@ -31205,6 +31205,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/fra/articles/6c4d3026-69b5-42c2-92aa-02d8ea8d73cf.html",
+      "html_sha256": "6c3a81755be8fb8fd7fb68b92635d8935b5d827f02decd5925c980dac747b425",
+      "human_reviewed": false,
+      "id": "6c4d3026-69b5-42c2-92aa-02d8ea8d73cf",
+      "images": [
+        {
+          "alt": "Trois voiliers sur une eau calme",
+          "public_path": "/images/articles/6c4d3026-69b5-42c2-92aa-02d8ea8d73cf-1.jpg"
+        }
+      ],
+      "issue_id": "4e575f26-fabd-5104-ba0d-d54ca032653b",
+      "language": "fra",
+      "language_tag": "fr",
+      "metadata": "content/fra/articles/6c4d3026-69b5-42c2-92aa-02d8ea8d73cf.json",
+      "metadata_sha256": "8e164d3d43f4aec6791ffc28e98d4f8e4875198d5e92e300f4ffe1a39fc5476e",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": null,
+      "source_revision": "22388745ad7f149609e65f5e28cfcc1257cd689e",
+      "source_translation_key": "785589167219dc6eebe3c06efe60a9e6c02cb55ae9cb8557bf7c692a1961e88f",
+      "status": "ready",
+      "subtitle": null,
+      "title": "L’appel",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/fra/articles/6f528c85-5ee6-4ccd-804f-63652b5c3a1d.html",
       "html_sha256": "d4e032eae6dfa4d7a404238578b6ca444c88ca7f877710f6df85fdaa7009f15d",
       "human_reviewed": false,
