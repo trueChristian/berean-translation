@@ -77181,6 +77181,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/rus/articles/6c4d3026-69b5-42c2-92aa-02d8ea8d73cf.html",
+      "html_sha256": "f3e6e324895b1c1289e461f136114bd962779bd752faba6c378fbf950ab267d7",
+      "human_reviewed": false,
+      "id": "6c4d3026-69b5-42c2-92aa-02d8ea8d73cf",
+      "images": [
+        {
+          "alt": "Три парусные лодки на спокойной воде",
+          "public_path": "/images/articles/6c4d3026-69b5-42c2-92aa-02d8ea8d73cf-1.jpg"
+        }
+      ],
+      "issue_id": "4e575f26-fabd-5104-ba0d-d54ca032653b",
+      "language": "rus",
+      "language_tag": "ru",
+      "metadata": "content/rus/articles/6c4d3026-69b5-42c2-92aa-02d8ea8d73cf.json",
+      "metadata_sha256": "8106a7c4ddaf828cbbe19395709a3721f0aff59f2347930fe1a3e4aa29e01a2f",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": null,
+      "source_revision": "22388745ad7f149609e65f5e28cfcc1257cd689e",
+      "source_translation_key": "785589167219dc6eebe3c06efe60a9e6c02cb55ae9cb8557bf7c692a1961e88f",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Призыв",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/rus/articles/706a8a3f-0194-434e-a3c9-27c1635ec6f9.html",
       "html_sha256": "79fad5204c82dd3bd773bf846bf0a919ab253895c494eb14cd1f0254e0ac1a8d",
       "human_reviewed": false,

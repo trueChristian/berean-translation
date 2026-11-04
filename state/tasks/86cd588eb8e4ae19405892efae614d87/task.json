@@ -5,11 +5,55 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "ebbeab97b47340eaac8fc9fbe3fea853",
   "campaign": "auto-8580254f3b36a9d2fcdf108d5ae3dcf41cc281886a4aabf0f14c288ea808aaad",
   "created_at": "2026-11-04T09:10:16+00:00",
-  "events": [],
-  "findings": [],
+  "events": [
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 472,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 90,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 2238,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 1135,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 2710
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "html, div.poem, p[2]",
+      "severity": "minor",
+      "source_quote": "A man walked alone; his direction unclear.",
+      "suggested_fix": "<p>Человек шёл один, не зная, куда идти.</p>",
+      "translation_quote": "<p>Один человек брёл, не зная, куда путь привёл.</p>"
+    },
+    {
+      "location": "html, div.poem, p[4]",
+      "severity": "minor",
+      "source_quote": "He was at the crossroads, all his life as a whole.",
+      "suggested_fix": "<p>Он стоял на распутье — решалась вся его жизнь.</p>",
+      "translation_quote": "<p>Он стоял на распутье — вся его жизнь целиком.</p>"
+    },
+    {
+      "location": "html, div.poem, p[17–18]",
+      "severity": "minor",
+      "source_quote": "There’s no better One, in Whom to put all your trust;\nThan the almighty God. For all men it’s a must!",
+      "suggested_fix": "<p>Нет никого, кому лучше довериться целиком,</p>\n\n    <p>Чем всемогущему Богу. Так должно поступать каждому!</p>",
+      "translation_quote": "<p>Нет никого лучше, кому можно довериться целиком;</p>\n\n    <p>Всемогущему Богу. Так должно поступать каждому!</p>"
+    }
+  ],
+  "finished_at": "2026-11-04T22:51:05+00:00",
   "id": "86cd588eb8e4ae19405892efae614d87",
   "issue_id": "4e575f26-fabd-5104-ba0d-d54ca032653b",
   "language": "rus",
@@ -98,9 +142,11 @@
     }
   },
   "protected": false,
+  "quality_score": 96,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/e432f56755703380f3b3ac9c7877c897278a764791a5821f9a6e2dc5709eea87.json",
   "stage": "review1",
   "stage_budget": {
@@ -115,7 +161,7 @@
     "total_reserved_usd": 0.679524,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 0,
   "translation_key": "785589167219dc6eebe3c06efe60a9e6c02cb55ae9cb8557bf7c692a1961e88f",
   "translation_model_actual": "gpt-6-luna"

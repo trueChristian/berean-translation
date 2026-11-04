@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "html, div.poem, p[2]",
+      "severity": "minor",
+      "source_quote": "A man walked alone; his direction unclear.",
+      "suggested_fix": "<p>Человек шёл один, не зная, куда идти.</p>",
+      "translation_quote": "<p>Один человек брёл, не зная, куда путь привёл.</p>"
+    },
+    {
+      "location": "html, div.poem, p[4]",
+      "severity": "minor",
+      "source_quote": "He was at the crossroads, all his life as a whole.",
+      "suggested_fix": "<p>Он стоял на распутье — решалась вся его жизнь.</p>",
+      "translation_quote": "<p>Он стоял на распутье — вся его жизнь целиком.</p>"
+    },
+    {
+      "location": "html, div.poem, p[17–18]",
+      "severity": "minor",
+      "source_quote": "There’s no better One, in Whom to put all your trust;\nThan the almighty God. For all men it’s a must!",
+      "suggested_fix": "<p>Нет никого, кому лучше довериться целиком,</p>\n\n    <p>Чем всемогущему Богу. Так должно поступать каждому!</p>",
+      "translation_quote": "<p>Нет никого лучше, кому можно довериться целиком;</p>\n\n    <p>Всемогущему Богу. Так должно поступать каждому!</p>"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}
