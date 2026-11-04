@@ -33,26 +33,39 @@
       "event": "automatic_requested",
       "previous_task": "0b238a46a9d41f0ade1a7404cf4c5b79",
       "task": "7af20b09a000c3e5085a8c4ebabdfab0"
+    },
+    {
+      "archive": "state/publication-history/swe/f87354d0-0bb8-4271-a8db-792c77d0d090/9376456dd28f98f71961d7e44d990a4fb48c26d1e5c981e544e9360b91605cc9.json",
+      "at": "2026-11-04T01:20:17+00:00",
+      "event": "publication_replaced",
+      "previous_task": "bfbf934d6e595b04817a9aac0b1da28c",
+      "task": "7af20b09a000c3e5085a8c4ebabdfab0"
+    },
+    {
+      "at": "2026-11-04T01:20:17+00:00",
+      "event": "complete",
+      "reason": null,
+      "task": "7af20b09a000c3e5085a8c4ebabdfab0"
     }
   ],
   "language": "swe",
   "latest_task": "7af20b09a000c3e5085a8c4ebabdfab0",
   "published": {
     "html_path": "content/swe/articles/f87354d0-0bb8-4271-a8db-792c77d0d090.html",
-    "html_sha256": "08c42dcf40fd53d9eae68d6715c5eac2f46d0454f5b11f0fc68aceca1b9f91b8",
+    "html_sha256": "d304b9b7dea4de9d6b20576c83ca45fcc3f38351ddeed996e8a71b44e694973b",
     "human_review": null,
     "human_reviewed": false,
     "issue_id": "05538f8e-6560-5f96-b313-890e87c05daf",
     "metadata_path": "content/swe/articles/f87354d0-0bb8-4271-a8db-792c77d0d090.json",
-    "metadata_sha256": "45f1c2e18510083de0cb61ff695ea9f2f09fc4eede872832ccf5a277b30ab26b",
-    "model": "gpt-6-luna",
-    "notice_html": "<aside class=\"translation-notice\" data-translation-notice=\"ai\" lang=\"sv\" dir=\"ltr\" role=\"note\">\n  <p>Denna artikel har översatts med artificiell intelligens från OpenAI (modell: gpt-6-luna) och har ännu inte granskats av en människa. Det engelska originalet är den auktoritativa versionen. Vid osäkerhet om innebörden, se det engelska originalet. <a href=\"/en/articles/f87354d0-0bb8-4271-a8db-792c77d0d090/\" data-source-article-id=\"f87354d0-0bb8-4271-a8db-792c77d0d090\" hreflang=\"en\">Engelskt original</a></p>\n</aside>",
-    "published_at": "2026-10-16T07:05:59+00:00",
+    "metadata_sha256": "19257bd85453e6fe26478a666a8e26fd99c0a37405e3bea6ee373163d2d97e47",
+    "model": "gpt-6.1-sol",
+    "notice_html": "<aside class=\"translation-notice\" data-translation-notice=\"ai\" lang=\"sv\" dir=\"ltr\" role=\"note\">\n  <p>Denna artikel har översatts med artificiell intelligens från OpenAI (modell: gpt-6.1-sol) och har ännu inte granskats av en människa. Det engelska originalet är den auktoritativa versionen. Vid osäkerhet om innebörden, se det engelska originalet. <a href=\"/en/articles/f87354d0-0bb8-4271-a8db-792c77d0d090/\" data-source-article-id=\"f87354d0-0bb8-4271-a8db-792c77d0d090\" hreflang=\"en\">Engelskt original</a></p>\n</aside>",
+    "published_at": "2026-11-04T01:20:17+00:00",
     "quality_score": 98,
-    "review_model": "gpt-6-luna",
-    "source_revision": "4c7b25b348edeeef4eb5f9d22a221d06f0d80f02",
-    "source_snapshot": "state/sources/ea317394a89de2f7bab35eaf19001702b53d69933288b254faf877f6e8d9a180.json",
-    "task": "bfbf934d6e595b04817a9aac0b1da28c",
-    "translation_key": "55e58c4244dd6dd6b1692c4227d138b24d40e716692e5145e50cf9883188c5b8"
+    "review_model": "gpt-6.1-sol",
+    "source_revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
+    "source_snapshot": "state/sources/11b94d8a8e8a81e67a7fd3c0c4b463dbf9b119ac25d58f9d05d02c6535fa9d79.json",
+    "task": "7af20b09a000c3e5085a8c4ebabdfab0",
+    "translation_key": "ecc35e8cd4c57e2b467ba1c07b4baf9d8db122db80e2c80ae9e2a166783c3de1"
   }
 }

@@ -93297,7 +93297,7 @@
       "ai_notice_required": true,
       "direction": "ltr",
       "html": "content/swe/articles/f87354d0-0bb8-4271-a8db-792c77d0d090.html",
-      "html_sha256": "08c42dcf40fd53d9eae68d6715c5eac2f46d0454f5b11f0fc68aceca1b9f91b8",
+      "html_sha256": "d304b9b7dea4de9d6b20576c83ca45fcc3f38351ddeed996e8a71b44e694973b",
       "human_reviewed": false,
       "id": "f87354d0-0bb8-4271-a8db-792c77d0d090",
       "images": [
@@ -93314,7 +93314,7 @@
           "public_path": "/images/articles/f87354d0-0bb8-4271-a8db-792c77d0d090-3.png"
         },
         {
-          "alt": "Vägskylt med ett glatt och ett sorgset ansikte",
+          "alt": "Vägskylt med kombinerade glada och ledsna ansikten",
           "public_path": "/images/articles/f87354d0-0bb8-4271-a8db-792c77d0d090-4.jpg"
         }
       ],
@@ -93322,16 +93322,16 @@
       "language": "swe",
       "language_tag": "sv",
       "metadata": "content/swe/articles/f87354d0-0bb8-4271-a8db-792c77d0d090.json",
-      "metadata_sha256": "45f1c2e18510083de0cb61ff695ea9f2f09fc4eede872832ccf5a277b30ab26b",
+      "metadata_sha256": "19257bd85453e6fe26478a666a8e26fd99c0a37405e3bea6ee373163d2d97e47",
       "provider": "OpenAI",
-      "review_model": "gpt-6-luna",
+      "review_model": "gpt-6.1-sol",
       "section": null,
-      "source_revision": "4c7b25b348edeeef4eb5f9d22a221d06f0d80f02",
-      "source_translation_key": "55e58c4244dd6dd6b1692c4227d138b24d40e716692e5145e50cf9883188c5b8",
-      "status": "stale",
+      "source_revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
+      "source_translation_key": "ecc35e8cd4c57e2b467ba1c07b4baf9d8db122db80e2c80ae9e2a166783c3de1",
+      "status": "ready",
       "subtitle": null,
-      "title": "Att återta den helige Andes dop från pingströrelsen",
-      "translation_model": "gpt-6-luna"
+      "title": "Att återlösa den helige Andes dop från pingströrelsen",
+      "translation_model": "gpt-6.1-sol"
     },
     {
       "ai_notice_required": true,
