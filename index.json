@@ -38634,6 +38634,42 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/hin/articles/37272f7d-a8c0-4c15-b884-ebbf333303cb.html",
+      "html_sha256": "aae27e4430a5a5a1114bba13faf85a043446f58063da18342912419abe081233",
+      "human_reviewed": false,
+      "id": "37272f7d-a8c0-4c15-b884-ebbf333303cb",
+      "images": [
+        {
+          "alt": "पिलातुस और एकत्रित भीड़ के सामने खड़े यीशु",
+          "public_path": "/images/articles/37272f7d-a8c0-4c15-b884-ebbf333303cb-1.jpg"
+        },
+        {
+          "alt": "कम रोशनी में खुली बाइबल, दो-पृष्ठीय तस्वीर का बायाँ आधा भाग",
+          "public_path": "/images/articles/37272f7d-a8c0-4c15-b884-ebbf333303cb-2.jpg"
+        },
+        {
+          "alt": "कम रोशनी में खुली बाइबल, दो-पृष्ठीय तस्वीर का दायाँ आधा भाग",
+          "public_path": "/images/articles/37272f7d-a8c0-4c15-b884-ebbf333303cb-3.jpg"
+        }
+      ],
+      "issue_id": "4e575f26-fabd-5104-ba0d-d54ca032653b",
+      "language": "hin",
+      "language_tag": "hi",
+      "metadata": "content/hin/articles/37272f7d-a8c0-4c15-b884-ebbf333303cb.json",
+      "metadata_sha256": "6572002c3411e264a70482ee6cba6003079a5eb72fb95dadf2a55357e6f18e46",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "एक मिशनरी के विचार",
+      "source_revision": "22388745ad7f149609e65f5e28cfcc1257cd689e",
+      "source_translation_key": "b60f5232f76b3d6e5573e616829a89d507fba9c836e4dbf3fc2981eb0eff86a2",
+      "status": "ready",
+      "subtitle": null,
+      "title": "अलगाव",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/hin/articles/39530116-8c39-4abd-beb6-89f05771a4f8.html",
       "html_sha256": "9f75c2c9b7b285dc20db2a7ef12cde16f11ad8f2dc0106aa282ef0de2e8709fd",
       "human_reviewed": false,

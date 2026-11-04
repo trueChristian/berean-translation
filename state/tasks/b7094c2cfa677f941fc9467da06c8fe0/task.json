@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "fabfb5af03d0417a81c1aa1d61133428",
   "campaign": "auto-dd6dd376e9852c04c5c7176f141f239a8962efbe3263b8eaf3cdbd906fc5cd63",
   "created_at": "2026-11-03T16:46:03+00:00",
   "events": [
@@ -48,25 +47,31 @@
         },
         "total_tokens": 16078
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 107,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 75,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 10469,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 9366,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 10576
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "translation.html: इफिसियों 5:10-13 के उद्धरण का अंतिम वाक्य",
-      "severity": "major",
-      "source_quote": "for whatsoever doth make manifest is light",
-      "suggested_fix": "उद्धरण के अंतिम उपवाक्य को बदलें: “क्योंकि जो कुछ प्रकट करता है, वह ज्योति है।” मौजूदा <em> टैग और संदर्भ बनाए रखें।",
-      "translation_quote": "क्योंकि जो कुछ प्रगट होता है, वह ज्योति है।"
-    },
-    {
-      "location": "translation.html: यूहन्ना 8:39-44 का उद्धरण",
-      "severity": "major",
-      "source_quote": "a man that hath told you the truth",
-      "suggested_fix": "“उस मनुष्य को जिसने तुम्हें परमेश्वर से सुना हुआ सत्य बताया” को “उस मनुष्य को जिसने तुम्हें सत्य बताया” करें। मौजूदा उद्धरण-संरचना और संदर्भ बनाए रखें।",
-      "translation_quote": "उस मनुष्य को जिसने तुम्हें परमेश्वर से सुना हुआ सत्य बताया"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-11-04T01:19:46+00:00",
   "id": "b7094c2cfa677f941fc9467da06c8fe0",
   "issue_id": "4e575f26-fabd-5104-ba0d-d54ca032653b",
   "language": "hin",
@@ -155,7 +160,7 @@
     }
   },
   "protected": false,
-  "quality_score": 93,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6.1-sol",
@@ -174,7 +179,7 @@
     "total_reserved_usd": 0.832491,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "b60f5232f76b3d6e5573e616829a89d507fba9c836e4dbf3fc2981eb0eff86a2",
   "translation_model_actual": "gpt-6.1-sol"
