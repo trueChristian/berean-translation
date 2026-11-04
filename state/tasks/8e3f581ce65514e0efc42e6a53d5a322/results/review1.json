@@ -1,0 +1,52 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "a7345d53-0e99-4534-a812-35fd37fb22ae",
+    "response_id": "chatcmpl-EgHkLGfefWJU6W1aoZ2pjcRTV9dhE",
+    "usage": {
+      "completion_tokens": 486,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 96,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9597,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8494,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 10083
+    }
+  },
+  "received_at": "2026-11-04T01:19:25+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "translation.html, Absatz über Martin Luther und die Täufer",
+        "severity": "major",
+        "source_quote": "The Anabaptist people were not respecters of people. Rather their only respect was for God and His Word",
+        "suggested_fix": "Ersetze „Das täuferische Volk nahm keine Rücksicht auf Menschen“ durch „Das täuferische Volk kannte kein Ansehen der Person“.",
+        "translation_quote": "Das täuferische Volk nahm keine Rücksicht auf Menschen. Seine einzige Ehrfurcht galt vielmehr Gott und seinem Wort"
+      },
+      {
+        "location": "translation.html, Schriftzitat Epheser 5:10-13, letzter Teilsatz",
+        "severity": "major",
+        "source_quote": "for whatsoever doth make manifest is light",
+        "suggested_fix": "Ersetze „denn alles, was offenbar wird, ist Licht“ durch „denn alles, was offenbar macht, ist Licht“.",
+        "translation_quote": "denn alles, was offenbar wird, ist Licht"
+      },
+      {
+        "location": "translation.html, Abschnitt „Unterhaltung“, erster Absatz",
+        "severity": "minor",
+        "source_quote": "to indulge in all the self-gratifying activities we want",
+        "suggested_fix": "Ersetze „all den selbstgefälligen Aktivitäten nachzugehen, die wir wollen“ durch „all den Aktivitäten nachzugehen, die unserer eigenen Befriedigung dienen und nach denen uns verlangt“.",
+        "translation_quote": "all den selbstgefälligen Aktivitäten nachzugehen, die wir wollen"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 93
+  }
+}
