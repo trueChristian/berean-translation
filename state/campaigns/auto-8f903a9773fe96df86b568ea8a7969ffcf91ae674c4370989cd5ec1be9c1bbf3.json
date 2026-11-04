@@ -1730,7 +1730,7 @@
   "reported_usage_usd": 0.0,
   "request_sha256": "17f44b689c742bdc91552143b15beb50443df836daa12185c834ab9770eb320f",
   "requested_by": "owner-authorized-autonomous-archive",
-  "reserved_usd": 0.0,
+  "reserved_usd": 0.058493,
   "review_contract_version": 2,
   "review_model": "gpt-6.1-sol",
   "review_output_tokens": 8192,
