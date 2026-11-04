@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "8ab802b3-e734-4c70-8d7f-db97e551a543",
+    "response_id": "chatcmpl-EgMywGfI5y2FoNHW74hy37CaZWm7E",
+    "usage": {
+      "completion_tokens": 449,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 87,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1148,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1145,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1597
+    }
+  },
+  "received_at": "2026-11-04T09:07:14+00:00",
+  "result": {
+    "html": "<article data-article-id=\"f1f8d898-1108-4e49-9e62-b12667509107\">\n  <p class=\"poem\"><strong>¿Tienes algún pecado?<br>¿Algún peso abrumador que parezca impedirte<br>correr bien? Para gozar de la libertad de Cristo,<br>alma cautiva, suéltalo; suéltalo y verás<br>por dónde comenzará Jesús.</strong></p>\n  <p class=\"poem\"><strong>¿Tienes alguna preocupación?<br>Entonces deposita esa preocupación tuya en Dios;<br>no es voluntad suya que cargues con ese peso;<br>déjalo con Él, y recorrerás el camino de la vida<br>como si caminaras por el aire.</strong></p>\n  <p class=\"poem\"><strong>¿Tienes el gozo de Cristo?<br>Comparte la felicidad que Él da con quienes<br>tienen la vida rebosante de penas humanas;<br>su gozo lo trasciende todo y crece aún más:<br>nada puede destruirlo.</strong></p>\n  <p class=\"poem\"><strong>¿Tienes su paz?<br>La paz de Cristo, que supera el pensamiento y el entendimiento humanos,<br>tan serena, tan pura y profunda. Solo cuando<br>conocemos tal sosiego —y no antes—<br>puede cesar toda inquietud.</strong></p>\n</article>\n",
+    "section": null,
+    "subtitle": null,
+    "title": "Los dones de Cristo"
+  }
+}
