@@ -35275,6 +35275,42 @@
     {
       "ai_notice_required": true,
       "direction": "rtl",
+      "html": "content/heb/articles/37272f7d-a8c0-4c15-b884-ebbf333303cb.html",
+      "html_sha256": "2352902d98d2e3fae0bf56cf8c5897252973df9d303149c9129d34d4c6124588",
+      "human_reviewed": false,
+      "id": "37272f7d-a8c0-4c15-b884-ebbf333303cb",
+      "images": [
+        {
+          "alt": "ישוע עומד לפני פילטוס והמון שהתאסף",
+          "public_path": "/images/articles/37272f7d-a8c0-4c15-b884-ebbf333303cb-1.jpg"
+        },
+        {
+          "alt": "ספר כתבי הקודש פתוח באור עמום, החצי השמאלי של צילום המשתרע על פני שני עמודים",
+          "public_path": "/images/articles/37272f7d-a8c0-4c15-b884-ebbf333303cb-2.jpg"
+        },
+        {
+          "alt": "ספר כתבי הקודש פתוח באור עמום, החצי הימני של צילום המשתרע על פני שני עמודים",
+          "public_path": "/images/articles/37272f7d-a8c0-4c15-b884-ebbf333303cb-3.jpg"
+        }
+      ],
+      "issue_id": "4e575f26-fabd-5104-ba0d-d54ca032653b",
+      "language": "heb",
+      "language_tag": "he",
+      "metadata": "content/heb/articles/37272f7d-a8c0-4c15-b884-ebbf333303cb.json",
+      "metadata_sha256": "2a78b21765a8b77f653f2a9b369e54e175b2c8368a294d4163b57632b86c160e",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "הרהורים של מיסיונר",
+      "source_revision": "22388745ad7f149609e65f5e28cfcc1257cd689e",
+      "source_translation_key": "b60f5232f76b3d6e5573e616829a89d507fba9c836e4dbf3fc2981eb0eff86a2",
+      "status": "ready",
+      "subtitle": null,
+      "title": "היבדלות",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
       "html": "content/heb/articles/3a3501f6-fc1b-4e76-919f-9d00a44c6698.html",
       "html_sha256": "9024f6e2ce337d4172c033a287811534944957db3e03d10bd66bba0ce0e3e567",
       "human_reviewed": false,

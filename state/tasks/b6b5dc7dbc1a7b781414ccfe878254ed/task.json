@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "1201cec365c34e17a306f0ec6912d1d0",
   "campaign": "auto-d5ff85e2ec137e5752aaedb2b77bad8754a5e5b277353b69b16f0b17bf3d1f84",
   "created_at": "2026-11-04T01:23:38+00:00",
   "events": [
@@ -48,25 +47,31 @@
         },
         "total_tokens": 15073
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 86,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 54,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9865,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8762,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 9951
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "translation.html: restaurant paragraph; paragraphs beginning “Am I saying”, “We can live”, “I’ve heard”, and “There was a modern church”; both final image alt attributes",
-      "severity": "major",
-      "source_quote": "“a few Bible verses”; “obey the Bible”; “The Bible calls us to action!”; “the Bible calls it”; “The Bible says that few will make it”; “not because the Bible says”; “so many Bible teachings”; “Open Bible” (both final images)",
-      "suggested_fix": "יש להחליף את ״התנ״ך״ ב״כתבי הקודש״ ואת ״מן התנ״ך״ ב״מכתבי הקודש״ בכל המופעים האלה, לרבות בפסקת המלחמה ובשני תיאורי התמונות. כך יישמר היקף המונח Bible, הכולל כאן גם את הברית החדשה.",
-      "translation_quote": "״כמה פסוקים מן התנ״ך״; ״לציית לתנ״ך״; ״התנ״ך קורא לנו לפעול!״; ״התנ״ך מכנה זאת״; ״התנ״ך אומר שרק מעטים יגיעו״; ״לא מפני שהתנ״ך אומר זאת״; ״מתורות התנ״ך״; ״תנ״ך פתוח״ (בשתי התמונות האחרונות)"
-    },
-    {
-      "location": "translation.html: Ephesians 5:10–13 quotation, final clause",
-      "severity": "major",
-      "source_quote": "for whatsoever doth make manifest is light",
-      "suggested_fix": "להחליף את ״כי כל דבר המתגלה הוא אור״ ב״כי כל מה שמגלה הוא אור״.",
-      "translation_quote": "כי כל דבר המתגלה הוא אור"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-11-04T13:01:56+00:00",
   "id": "b6b5dc7dbc1a7b781414ccfe878254ed",
   "issue_id": "4e575f26-fabd-5104-ba0d-d54ca032653b",
   "language": "heb",
@@ -155,7 +160,7 @@
     }
   },
   "protected": false,
-  "quality_score": 92,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6.1-sol",
@@ -174,7 +179,7 @@
     "total_reserved_usd": 0.783938,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "b60f5232f76b3d6e5573e616829a89d507fba9c836e4dbf3fc2981eb0eff86a2",
   "translation_model_actual": "gpt-6.1-sol"
