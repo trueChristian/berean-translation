@@ -20231,6 +20231,42 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/deu/articles/37272f7d-a8c0-4c15-b884-ebbf333303cb.html",
+      "html_sha256": "917e711a5e60c1be62271957902b381ec6db7fad8bf775ada8c5b1686bbe70b5",
+      "human_reviewed": false,
+      "id": "37272f7d-a8c0-4c15-b884-ebbf333303cb",
+      "images": [
+        {
+          "alt": "Jesus steht vor Pilatus und einer versammelten Menschenmenge",
+          "public_path": "/images/articles/37272f7d-a8c0-4c15-b884-ebbf333303cb-1.jpg"
+        },
+        {
+          "alt": "Aufgeschlagene Bibel bei schwachem Licht, linke Hälfte eines zweiseitigen Fotos",
+          "public_path": "/images/articles/37272f7d-a8c0-4c15-b884-ebbf333303cb-2.jpg"
+        },
+        {
+          "alt": "Aufgeschlagene Bibel bei schwachem Licht, rechte Hälfte eines zweiseitigen Fotos",
+          "public_path": "/images/articles/37272f7d-a8c0-4c15-b884-ebbf333303cb-3.jpg"
+        }
+      ],
+      "issue_id": "4e575f26-fabd-5104-ba0d-d54ca032653b",
+      "language": "deu",
+      "language_tag": "de",
+      "metadata": "content/deu/articles/37272f7d-a8c0-4c15-b884-ebbf333303cb.json",
+      "metadata_sha256": "a5e9202b297f60c4b841230d74143b3df6851eb3df6e38fea368d5415f68bc18",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "Gedanken eines Missionars",
+      "source_revision": "22388745ad7f149609e65f5e28cfcc1257cd689e",
+      "source_translation_key": "b60f5232f76b3d6e5573e616829a89d507fba9c836e4dbf3fc2981eb0eff86a2",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Absonderung",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/deu/articles/3a3501f6-fc1b-4e76-919f-9d00a44c6698.html",
       "html_sha256": "90f45581d0119111db5c123e5dd75d21ecb4df18100b038a7683b2dfdda09cdb",
       "human_reviewed": false,
