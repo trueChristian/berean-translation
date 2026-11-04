@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "d7ebc7d6-bf82-41bf-9a1d-0a7339265f75",
+    "response_id": "chatcmpl-EgU2k38l3uKrb8gLZL7hgiCeg2Ek8",
+    "usage": {
+      "completion_tokens": 752,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 624,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4871,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3768,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 5623
+    }
+  },
+  "received_at": "2026-11-04T13:02:12+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Second paragraph after the testimony; explanation of “manifest”",
+        "severity": "minor",
+        "source_quote": "The word “manifest” means “to come to view”",
+        "suggested_fix": "Change “in die gesig kom” to “sigbaar word” (or “in die gesigsveld kom”) to convey “to come to view.”",
+        "translation_quote": "Die woord “openbaar” beteken “in die gesig kom”"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}
