@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "bf1c732a-c846-4280-8835-6bc4fc14226e",
+    "response_id": "chatcmpl-EgKIzISN0LxDiuQmOJYwjjZG1vBPg",
+    "usage": {
+      "completion_tokens": 523,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 71,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9858,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9855,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10381
+    }
+  },
+  "received_at": "2026-11-04T01:49:11+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "translation.html: restaurant paragraph; paragraphs beginning “Am I saying”, “We can live”, “I’ve heard”, and “There was a modern church”; both final image alt attributes",
+        "severity": "major",
+        "source_quote": "“a few Bible verses”; “obey the Bible”; “The Bible calls us to action!”; “the Bible calls it”; “The Bible says that few will make it”; “not because the Bible says”; “so many Bible teachings”; “Open Bible” (both final images)",
+        "suggested_fix": "יש להחליף את ״התנ״ך״ ב״כתבי הקודש״ ואת ״מן התנ״ך״ ב״מכתבי הקודש״ בכל המופעים האלה, לרבות בפסקת המלחמה ובשני תיאורי התמונות. כך יישמר היקף המונח Bible, הכולל כאן גם את הברית החדשה.",
+        "translation_quote": "״כמה פסוקים מן התנ״ך״; ״לציית לתנ״ך״; ״התנ״ך קורא לנו לפעול!״; ״התנ״ך מכנה זאת״; ״התנ״ך אומר שרק מעטים יגיעו״; ״לא מפני שהתנ״ך אומר זאת״; ״מתורות התנ״ך״; ״תנ״ך פתוח״ (בשתי התמונות האחרונות)"
+      },
+      {
+        "location": "translation.html: Ephesians 5:10–13 quotation, final clause",
+        "severity": "major",
+        "source_quote": "for whatsoever doth make manifest is light",
+        "suggested_fix": "להחליף את ״כי כל דבר המתגלה הוא אור״ ב״כי כל מה שמגלה הוא אור״.",
+        "translation_quote": "כי כל דבר המתגלה הוא אור"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 92
+  }
+}
