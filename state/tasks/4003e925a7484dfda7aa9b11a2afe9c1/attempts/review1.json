@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-04T22:51:51+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"html: div.poem, p[4]\",\"severity\":\"minor\",\"source_quote\":\"He was at the crossroads, all his life as a whole.\",\"suggested_fix\":\"<p>הוא עמד בצומת דרכים בחייו, על כל היבטיהם.</p>\",\"translation_quote\":\"הוא עמד בצומת דרכים, ובכל חייו היה עליו לבחור.\"}],\"findings_complete\":true,\"passed\":true,\"score\":97}",
+    "content_bytes": 391,
+    "content_evidence_truncated": false,
+    "content_sha256": "4c4fdee062d909e34fec8d6b717547c348ab48dec5ce44026ac4c1a3f303f3c1",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 237,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 121,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2241,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1138,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 2478
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}

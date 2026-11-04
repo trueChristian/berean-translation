@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "html: div.poem, p[4]",
+      "severity": "minor",
+      "source_quote": "He was at the crossroads, all his life as a whole.",
+      "suggested_fix": "<p>הוא עמד בצומת דרכים בחייו, על כל היבטיהם.</p>",
+      "translation_quote": "הוא עמד בצומת דרכים, ובכל חייו היה עליו לבחור."
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

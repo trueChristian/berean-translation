@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "a054a3f1-54f9-4613-b2dc-97fadc669008",
+    "response_id": "chatcmpl-EgaZwh9OZ0Un5OyLkQqy3J0rPHe0q",
+    "usage": {
+      "completion_tokens": 237,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 121,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2241,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1138,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 2478
+    }
+  },
+  "received_at": "2026-11-04T22:51:52+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "html: div.poem, p[4]",
+        "severity": "minor",
+        "source_quote": "He was at the crossroads, all his life as a whole.",
+        "suggested_fix": "<p>הוא עמד בצומת דרכים בחייו, על כל היבטיהם.</p>",
+        "translation_quote": "הוא עמד בצומת דרכים, ובכל חייו היה עליו לבחור."
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 97
+  }
+}
