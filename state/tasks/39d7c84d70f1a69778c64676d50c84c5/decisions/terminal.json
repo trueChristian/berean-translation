@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "translation.html, avsnittet som begynner «Jeg har hørt mange anabaptister si»",
+      "severity": "minor",
+      "source_quote": "If we pass on to our children that the Protestant church is also ok",
+      "suggested_fix": "Endre «Hvis vi gir barna våre videre at» til «Hvis vi formidler til barna våre at».",
+      "translation_quote": "Hvis vi gir barna våre videre at den protestantiske kirken også er grei"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

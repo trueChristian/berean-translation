@@ -64907,6 +64907,42 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/nob/articles/37272f7d-a8c0-4c15-b884-ebbf333303cb.html",
+      "html_sha256": "f142a7528e1970768309a029d2ca807f9f0a6d014423bf3c709f8ed8876f0d51",
+      "human_reviewed": false,
+      "id": "37272f7d-a8c0-4c15-b884-ebbf333303cb",
+      "images": [
+        {
+          "alt": "Jesus står foran Pilatus og en samlet folkemengde",
+          "public_path": "/images/articles/37272f7d-a8c0-4c15-b884-ebbf333303cb-1.jpg"
+        },
+        {
+          "alt": "Åpen Bibel i dempet lys, venstre halvdel av et fotografi over to sider",
+          "public_path": "/images/articles/37272f7d-a8c0-4c15-b884-ebbf333303cb-2.jpg"
+        },
+        {
+          "alt": "Åpen Bibel i dempet lys, høyre halvdel av et fotografi over to sider",
+          "public_path": "/images/articles/37272f7d-a8c0-4c15-b884-ebbf333303cb-3.jpg"
+        }
+      ],
+      "issue_id": "4e575f26-fabd-5104-ba0d-d54ca032653b",
+      "language": "nob",
+      "language_tag": "nb",
+      "metadata": "content/nob/articles/37272f7d-a8c0-4c15-b884-ebbf333303cb.json",
+      "metadata_sha256": "7836b802a5ba00c22c5d35df607d76936099c7b521be7d37ea7c835332feef4e",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "En misjonærs betraktninger",
+      "source_revision": "22388745ad7f149609e65f5e28cfcc1257cd689e",
+      "source_translation_key": "b60f5232f76b3d6e5573e616829a89d507fba9c836e4dbf3fc2981eb0eff86a2",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Å skille lag",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/nob/articles/391d4642-07e2-4003-83db-fa33dc08a8ca.html",
       "html_sha256": "4e0cd435a1ae041e9b6cff885cb8f983b6e16f0de35502c1a0f15b3abdc8a426",
       "human_reviewed": false,

@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "ae0cd0a1-e759-4e0f-8c5f-052818e9c135",
+    "response_id": "chatcmpl-EgKWgyT6Gd3Fv0ZS2FE6XnSAj3jyc",
+    "usage": {
+      "completion_tokens": 177,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 49,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9729,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8626,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 9906
+    }
+  },
+  "received_at": "2026-11-04T02:16:58+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "translation.html, avsnittet som begynner «Jeg har hørt mange anabaptister si»",
+        "severity": "minor",
+        "source_quote": "If we pass on to our children that the Protestant church is also ok",
+        "suggested_fix": "Endre «Hvis vi gir barna våre videre at» til «Hvis vi formidler til barna våre at».",
+        "translation_quote": "Hvis vi gir barna våre videre at den protestantiske kirken også er grei"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}
