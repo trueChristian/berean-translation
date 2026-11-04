@@ -95482,6 +95482,34 @@
     {
       "ai_notice_required": true,
       "direction": "rtl",
+      "html": "content/urd/articles/3558b7f3-5296-4770-a7c6-d420c923642d.html",
+      "html_sha256": "bd1729747dc465f5800de98795251c53f8fc567cff15250d44f01af2914b67f3",
+      "human_reviewed": false,
+      "id": "3558b7f3-5296-4770-a7c6-d420c923642d",
+      "images": [
+        {
+          "alt": "سڑک کنارے نصب ڈاک کا ڈبہ، جس پر رسالے کا ڈاک کا پتہ درج ہے",
+          "public_path": "/images/articles/3558b7f3-5296-4770-a7c6-d420c923642d-1.jpg"
+        }
+      ],
+      "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
+      "language": "urd",
+      "language_tag": "ur",
+      "metadata": "content/urd/articles/3558b7f3-5296-4770-a7c6-d420c923642d.json",
+      "metadata_sha256": "3201634f1eaf462a82b05e1b49763f54dcf71f1b68713fe6a45b0c563a97c691",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
+      "source_translation_key": "459eee2e9c07155a363c1c0e355fdda66adbf2039a8df9dc3c6dcd5288b5461e",
+      "status": "ready",
+      "subtitle": null,
+      "title": "ہمارے قارئین کے قیمتی خطوط",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
       "html": "content/urd/articles/37272f7d-a8c0-4c15-b884-ebbf333303cb.html",
       "html_sha256": "a4d1d6695563e2536581539dd868d7be6c84b9571593b121ade5fda23d89f306",
       "human_reviewed": false,

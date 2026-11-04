@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Opening paragraph",
+      "severity": "minor",
+      "source_quote": "“a free flow of edification, inspiration and burden from us to you, and you to us”",
+      "suggested_fix": "Clarify that the “burden” is something shared between the writers and readers, for example: “ہماری اور آپ کی طرف سے ایک دوسرے کے ساتھ حوصلہ افزائی، ترغیب اور دل کے بوجھ بانٹنے کا آزادانہ تبادلہ”",
+      "translation_quote": "“ایک دوسرے کی حوصلہ افزائی، ترغیب اور بوجھ کے بارے میں ہمارے اور آپ کے درمیان آزادانہ تبادلہ”"
+    },
+    {
+      "location": "Paragraph beginning “Lepers lose fingers”",
+      "severity": "minor",
+      "source_quote": "“Lepers lose fingers, toes, sometimes noses.”",
+      "suggested_fix": "Use plural agreement: “جذامیوں کی انگلیاں، پاؤں کی انگلیاں اور کبھی کبھی ناک بھی ضائع ہو جاتی ہیں۔”",
+      "translation_quote": "“جذامیوں کی انگلیاں، پاؤں کی انگلیاں اور کبھی کبھی ناک بھی ضائع ہو جاتی ہے۔”"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

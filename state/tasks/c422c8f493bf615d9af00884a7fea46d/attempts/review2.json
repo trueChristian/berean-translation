@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-04T13:03:14+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Opening paragraph\",\"severity\":\"minor\",\"source_quote\":\"“a free flow of edification, inspiration and burden from us to you, and you to us”\",\"suggested_fix\":\"Clarify that the “burden” is something shared between the writers and readers, for example: “ہماری اور آپ کی طرف سے ایک دوسرے کے ساتھ حوصلہ افزائی، ترغیب اور دل کے بوجھ بانٹنے کا آزادانہ تبادلہ”\",\"translation_quote\":\"“ایک دوسرے کی حوصلہ افزائی، ترغیب اور بوجھ کے بارے میں ہمارے اور آپ کے درمیان آزادانہ تبادلہ”\"},{\"location\":\"Paragraph beginning “Lepers lose fingers”\",\"severity\":\"minor\",\"source_quote\":\"“Lepers lose fingers, toes, sometimes noses.”\",\"suggested_fix\":\"Use plural agreement: “جذامیوں کی انگلیاں، پاؤں کی انگلیاں اور کبھی کبھی ناک بھی ضائع ہو جاتی ہیں۔”\",\"translation_quote\":\"“جذامیوں کی انگلیاں، پاؤں کی انگلیاں اور کبھی کبھی ناک بھی ضائع ہو جاتی ہے۔”\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 1208,
+    "content_evidence_truncated": false,
+    "content_sha256": "2139d902c80024e6b5acb98abce6877548e57a154c6b6c199c2a4039150609d9",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1050,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 785,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5113,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4010,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 6163
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

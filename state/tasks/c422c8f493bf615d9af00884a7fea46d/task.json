@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "c90951f08ccc44f5b4b6e84d18be3547",
   "campaign": "auto-3a4f0affa5aec539c619925c01cb857fa411db911b455b60e5fa0e1abc6d78a5",
   "created_at": "2026-11-03T21:08:13+00:00",
   "events": [
@@ -68,18 +67,46 @@
         },
         "total_tokens": 7357
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1050,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 785,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5113,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 4010,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 6163
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "Testimony, from “I also found a second century article” through the account of the Mexican couple; and final paragraph, wherever “نقاب” is used for the head covering",
-      "severity": "major",
-      "source_quote": "“all of the women wore a cloth veiling on their heads”; “my wife began to veil her head”; “since we have begun the practice of veiling”",
-      "suggested_fix": "Replace “نقاب” in these references with wording for a cloth head covering, such as “سر ڈھانپنے کا کپڑا” or “سرپوش,” and adjust the surrounding phrases accordingly. For example, “کپڑے کا نقاب پہنتی تھیں” → “کپڑے سے سر ڈھانپتی تھیں.”",
-      "translation_quote": "“تمام عورتیں اپنے سروں پر کپڑے کا نقاب پہنتی تھیں”؛ “میری بیوی نے سر پر نقاب لینا شروع کر دیا”؛ “ہم نے نقاب لینے کا عمل شروع کیا ہے”"
+      "location": "Opening paragraph",
+      "severity": "minor",
+      "source_quote": "“a free flow of edification, inspiration and burden from us to you, and you to us”",
+      "suggested_fix": "Clarify that the “burden” is something shared between the writers and readers, for example: “ہماری اور آپ کی طرف سے ایک دوسرے کے ساتھ حوصلہ افزائی، ترغیب اور دل کے بوجھ بانٹنے کا آزادانہ تبادلہ”",
+      "translation_quote": "“ایک دوسرے کی حوصلہ افزائی، ترغیب اور بوجھ کے بارے میں ہمارے اور آپ کے درمیان آزادانہ تبادلہ”"
+    },
+    {
+      "location": "Paragraph beginning “Lepers lose fingers”",
+      "severity": "minor",
+      "source_quote": "“Lepers lose fingers, toes, sometimes noses.”",
+      "suggested_fix": "Use plural agreement: “جذامیوں کی انگلیاں، پاؤں کی انگلیاں اور کبھی کبھی ناک بھی ضائع ہو جاتی ہیں۔”",
+      "translation_quote": "“جذامیوں کی انگلیاں، پاؤں کی انگلیاں اور کبھی کبھی ناک بھی ضائع ہو جاتی ہے۔”"
     }
   ],
+  "finished_at": "2026-11-04T13:03:14+00:00",
   "id": "c422c8f493bf615d9af00884a7fea46d",
   "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
   "language": "urd",
@@ -168,7 +195,7 @@
     }
   },
   "protected": false,
-  "quality_score": 92,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
@@ -188,7 +215,7 @@
     "total_reserved_usd": 0.087731,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "459eee2e9c07155a363c1c0e355fdda66adbf2039a8df9dc3c6dcd5288b5461e",
   "translation_model_actual": "gpt-6-luna"
