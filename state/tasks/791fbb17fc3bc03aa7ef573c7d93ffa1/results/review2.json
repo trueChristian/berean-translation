@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "a4298bed-e76f-4845-afb5-bae3b84dae45",
+    "response_id": "chatcmpl-EgKKNvCvmYk9twAPqhR04hQl8yiHa",
+    "usage": {
+      "completion_tokens": 269,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 144,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9370,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8267,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 9639
+    }
+  },
+  "received_at": "2026-11-04T01:49:14+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "translation.html, Absatz beginnend mit „Ich war immer ein starker Verfechter“",
+        "severity": "minor",
+        "source_quote": "the clearing of the heart of any known, unconfessed sin",
+        "suggested_fix": "Ersetzen Sie „von jeder bekannten, nicht bekannten Sünde“ durch „von jeder erkannten, aber noch nicht bekannten Sünde“.",
+        "translation_quote": "die Reinigung des Herzens von jeder bekannten, nicht bekannten Sünde"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 96
+  }
+}

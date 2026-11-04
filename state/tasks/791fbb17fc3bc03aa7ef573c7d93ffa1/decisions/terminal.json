@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "translation.html, Absatz beginnend mit „Ich war immer ein starker Verfechter“",
+      "severity": "minor",
+      "source_quote": "the clearing of the heart of any known, unconfessed sin",
+      "suggested_fix": "Ersetzen Sie „von jeder bekannten, nicht bekannten Sünde“ durch „von jeder erkannten, aber noch nicht bekannten Sünde“.",
+      "translation_quote": "die Reinigung des Herzens von jeder bekannten, nicht bekannten Sünde"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}
