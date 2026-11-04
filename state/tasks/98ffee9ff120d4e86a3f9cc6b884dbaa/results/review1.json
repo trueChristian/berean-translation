@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "7ffb6de4-de4d-4b4a-92d7-d732a9c2e7d1",
+    "response_id": "chatcmpl-EgKuX99nBBbecc8NcykWZgNpkSoPB",
+    "usage": {
+      "completion_tokens": 730,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 625,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5000,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3897,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 5730
+    }
+  },
+  "received_at": "2026-11-04T09:04:28+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Image alt text",
+        "severity": "minor",
+        "source_quote": "A roadside mailbox bearing the magazine’s mailing address",
+        "suggested_fix": "पत्रिका का डाक-पता लगी सड़क किनारे की डाक-पेटी",
+        "translation_quote": "पत्रिका के डाक-पते वाला सड़क किनारे का डाक-पेटी"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 99
+  }
+}

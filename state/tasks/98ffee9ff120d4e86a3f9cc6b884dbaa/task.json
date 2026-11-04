@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "ae8c3c76ef044411a706a297d5e86010",
   "campaign": "auto-b6240cc7ef8387c8a243b195f7ebf9f12aebe546b76d65fe89027d275a2cfe24",
   "created_at": "2026-11-03T15:21:56+00:00",
   "events": [
@@ -28,10 +27,39 @@
         },
         "total_tokens": 4693
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 730,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 625,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5000,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 3897,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 5730
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "Image alt text",
+      "severity": "minor",
+      "source_quote": "A roadside mailbox bearing the magazine’s mailing address",
+      "suggested_fix": "पत्रिका का डाक-पता लगी सड़क किनारे की डाक-पेटी",
+      "translation_quote": "पत्रिका के डाक-पते वाला सड़क किनारे का डाक-पेटी"
+    }
+  ],
+  "finished_at": "2026-11-04T09:04:28+00:00",
   "id": "98ffee9ff120d4e86a3f9cc6b884dbaa",
   "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
   "language": "hin",
@@ -120,9 +148,11 @@
     }
   },
   "protected": false,
+  "quality_score": 99,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/b90a551397024be9f0d057a09f4b11218c609006eb7fba34164cc6a14aacedb6.json",
   "stage": "review1",
   "stage_budget": {
@@ -138,7 +168,7 @@
     "total_reserved_usd": 0.08773,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "459eee2e9c07155a363c1c0e355fdda66adbf2039a8df9dc3c6dcd5288b5461e",
   "translation_model_actual": "gpt-6-luna"

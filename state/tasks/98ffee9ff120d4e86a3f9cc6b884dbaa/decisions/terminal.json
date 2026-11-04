@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Image alt text",
+      "severity": "minor",
+      "source_quote": "A roadside mailbox bearing the magazine’s mailing address",
+      "suggested_fix": "पत्रिका का डाक-पता लगी सड़क किनारे की डाक-पेटी",
+      "translation_quote": "पत्रिका के डाक-पते वाला सड़क किनारे का डाक-पेटी"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

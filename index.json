@@ -38910,6 +38910,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/hin/articles/3558b7f3-5296-4770-a7c6-d420c923642d.html",
+      "html_sha256": "11d33a66f3b0a271261ca88d126dd3b77dca9a9c2434cacc1e07ce31376c546a",
+      "human_reviewed": false,
+      "id": "3558b7f3-5296-4770-a7c6-d420c923642d",
+      "images": [
+        {
+          "alt": "पत्रिका के डाक-पते वाला सड़क किनारे का डाक-पेटी",
+          "public_path": "/images/articles/3558b7f3-5296-4770-a7c6-d420c923642d-1.jpg"
+        }
+      ],
+      "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
+      "language": "hin",
+      "language_tag": "hi",
+      "metadata": "content/hin/articles/3558b7f3-5296-4770-a7c6-d420c923642d.json",
+      "metadata_sha256": "50bf9ac05f605f13bea501175582388ac24d76f92d168661c5298e02cc9d5ff2",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
+      "source_translation_key": "459eee2e9c07155a363c1c0e355fdda66adbf2039a8df9dc3c6dcd5288b5461e",
+      "status": "ready",
+      "subtitle": null,
+      "title": "हमारे पाठकों के अनमोल पत्र",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/hin/articles/37272f7d-a8c0-4c15-b884-ebbf333303cb.html",
       "html_sha256": "aae27e4430a5a5a1114bba13faf85a043446f58063da18342912419abe081233",
       "human_reviewed": false,
