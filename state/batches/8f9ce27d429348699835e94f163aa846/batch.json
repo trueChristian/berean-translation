@@ -4,6 +4,7 @@
   "custom_ids": [
     "62d07ed8a568434698734ce3b111d138:review1"
   ],
+  "error_type": "RateLimitError",
   "id": "8f9ce27d429348699835e94f163aa846",
   "input_file_id": null,
   "model": "gpt-6-luna",
@@ -14,5 +15,6 @@
   "status": "prepared",
   "tasks": [
     "62d07ed8a568434698734ce3b111d138"
-  ]
+  ],
+  "upload_failures": 1
 }
