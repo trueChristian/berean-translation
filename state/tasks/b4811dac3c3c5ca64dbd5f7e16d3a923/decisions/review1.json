@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Poem, fourth stanza, final line",
+      "severity": "major",
+      "source_quote": "All fretfulness can cease.",
+      "suggested_fix": "يمكن لكل قلق أن يزول.",
+      "translation_quote": "فهل لك سلامه؟"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

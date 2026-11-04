@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "c4ca9680-0eeb-4a69-bcb4-295bc94c6bd2",
+    "response_id": "chatcmpl-EgSPrtWazQdZueXtL9penxp7dWVLw",
+    "usage": {
+      "completion_tokens": 989,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 903,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1891,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 788,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 2880
+    }
+  },
+  "received_at": "2026-11-04T13:02:30+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Poem, fourth stanza, final line",
+        "severity": "major",
+        "source_quote": "All fretfulness can cease.",
+        "suggested_fix": "يمكن لكل قلق أن يزول.",
+        "translation_quote": "فهل لك سلامه؟"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 92
+  }
+}
