@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-04T17:12:00+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"f1f8d898-1108-4e49-9e62-b12667509107\\\">\\n  <p class=\\\"poem\\\"><strong>Heb je een zonde?<br>Een zware last die je graag zou belemmeren<br>om goed te lopen? Om Christus’ vrijheid te ontvangen,<br>laat los, geketende ziel; laat los en zie<br>waar Jezus zal beginnen.</strong></p>\\n  <p class=\\\"poem\\\"><strong>Heb je zorgen?<br>Leg dan jouw zorgen bij God neer;<br>Het is niet Zijn wens dat jij die last draagt;<br>Laat hem bij Hem, en je zult je levensweg gaan<br>alsof je door de lucht liep.</strong></p>\\n  <p class=\\\"poem\\\"><strong>Ken je de vreugde van Christus?<br>Deel het geluk dat Hij geeft met hen<br>wiens leven overloopt van menselijk leed;<br>Zijn vreugde overstijgt alles en groeit overvloediger,<br>niets kan haar vernietigen.</strong></p>\\n  <p class=\\\"poem\\\"><strong>Ken je Zijn vrede?<br>Christus’ vrede, die het menselijk denken en begrip te boven gaat,<br>zo kalm, zo zuiver en diep. Pas wanneer<br>we zulke rust kennen — maar niet eerder —<br>kan alle onrust ophouden.</strong></p>\\n</article>\\n\",\"section\":null,\"subtitle\":null,\"title\":\"De gaven van Christus\"}",
+    "content_bytes": 1120,
+    "content_evidence_truncated": false,
+    "content_sha256": "99c99771fb6f1d74ce47286c3e14fb31bf7c6926fd10a34793597ec4a913b67e",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 341,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1143,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1140,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1484
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}
