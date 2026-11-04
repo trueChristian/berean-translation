@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "c6ffb8e2-0651-495c-9b8e-1cbed7403356",
+    "response_id": "chatcmpl-EgaVLqisreQMjBURgtTW1E8i5EQrp",
+    "usage": {
+      "completion_tokens": 140,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 50,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2264,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2261,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2404
+    }
+  },
+  "received_at": "2026-11-04T22:50:35+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "translation.html: figure/img/@alt",
+        "severity": "minor",
+        "source_quote": "Three sailboats on calm water",
+        "suggested_fix": "Mashua tatu zenye matanga juu ya maji tulivu",
+        "translation_quote": "Mashua matatu yenye matanga juu ya maji tulivu"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}

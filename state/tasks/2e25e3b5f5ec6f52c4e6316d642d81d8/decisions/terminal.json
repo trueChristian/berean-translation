@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "translation.html: figure/img/@alt",
+      "severity": "minor",
+      "source_quote": "Three sailboats on calm water",
+      "suggested_fix": "Mashua tatu zenye matanga juu ya maji tulivu",
+      "translation_quote": "Mashua matatu yenye matanga juu ya maji tulivu"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-04T22:50:35+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"translation.html: figure/img/@alt\",\"severity\":\"minor\",\"source_quote\":\"Three sailboats on calm water\",\"suggested_fix\":\"Mashua tatu zenye matanga juu ya maji tulivu\",\"translation_quote\":\"Mashua matatu yenye matanga juu ya maji tulivu\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 311,
+    "content_evidence_truncated": false,
+    "content_sha256": "ac0501cec5e7b9043dbb5ea8761f050f51dc56233d28aa6f0f536a9fac1ed995",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 140,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 50,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2264,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2261,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2404
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}
