@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-04T13:03:10+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"f1f8d898-1108-4e49-9e62-b12667509107\\\">\\n  <p class=\\\"poem\\\"><strong>Apakah engkau memiliki dosa?<br>Beban berat yang sungguh hendak menghalangimu<br>Untuk berlari dengan baik? Agar memperoleh kebebasan Kristus,<br>Wahai jiwa yang tertawan, lepaskan; lepaskan, dan lihatlah<br>Di mana Yesus akan memulai.</strong></p>\\n  <p class=\\\"poem\\\"><strong>Apakah engkau memiliki kekhawatiran?<br>Maka serahkanlah kekhawatiranmu itu kepada Allah;<br>Bukan kehendak-Nya engkau memikul beban itu;<br>Tinggalkanlah itu bersama-Nya, maka engkau akan menapaki jalan kehidupan<br>Seolah-olah engkau berjalan di udara.</strong></p>\\n  <p class=\\\"poem\\\"><strong>Apakah engkau memiliki sukacita Kristus?<br>Bagikanlah kebahagiaan yang Dia berikan kepada mereka<br>Yang hidupnya berlimpah dengan kesengsaraan manusia;<br>Sukacita-Nya melampaui segala sesuatu dan semakin penuh,<br>Tak ada yang dapat menghancurkannya.</strong></p>\\n  <p class=\\\"poem\\\"><strong>Apakah engkau memiliki damai-Nya?<br>Damai Kristus yang melampaui pikiran dan pengertian manusia,<br>Begitu tenang, begitu murni dan dalam. Hanya ketika<br>Kita mengenal ketenteraman semacam itu—dan tidak sebelumnya—<br>Segala kegelisahan dapat berhenti.</strong></p>\\n</article>\\n\",\"section\":null,\"subtitle\":null,\"title\":\"Karunia-Karunia Kristus\"}",
+    "content_bytes": 1328,
+    "content_evidence_truncated": false,
+    "content_sha256": "28474d5e8484faafc68483ab55fbb75d1291a4393b88828542df496a63e163d1",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 405,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1145,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1142,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1550
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}
