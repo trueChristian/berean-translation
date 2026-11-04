@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "html, paragrafo che inizia «Mentre ero in fila in un fast food»",
+      "severity": "major",
+      "source_quote": "He got sober and explained that he wanted to believe in God but couldn’t.",
+      "suggested_fix": "Sostituire «Tornò in sé» con «Si fece serio», mantenendo invariato il resto del paragrafo.",
+      "translation_quote": "Tornò in sé e mi spiegò che avrebbe voluto credere in Dio, ma non ci riusciva."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

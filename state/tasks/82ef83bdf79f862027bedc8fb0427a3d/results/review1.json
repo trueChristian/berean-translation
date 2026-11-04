@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "45427e0c-6f1d-481e-b1ae-090cbf4acd09",
+    "response_id": "chatcmpl-EgKHWXNS2W0p3tFKTEKibIySzZbov",
+    "usage": {
+      "completion_tokens": 266,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 127,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9753,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8650,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 10019
+    }
+  },
+  "received_at": "2026-11-04T01:48:54+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "html, paragrafo che inizia «Mentre ero in fila in un fast food»",
+        "severity": "major",
+        "source_quote": "He got sober and explained that he wanted to believe in God but couldn’t.",
+        "suggested_fix": "Sostituire «Tornò in sé» con «Si fece serio», mantenendo invariato il resto del paragrafo.",
+        "translation_quote": "Tornò in sé e mi spiegò che avrebbe voluto credere in Dio, ma non ci riusciva."
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 94
+  }
+}

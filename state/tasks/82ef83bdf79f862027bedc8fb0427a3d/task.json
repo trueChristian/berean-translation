@@ -5,11 +5,40 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "4a7a186e1f27495193eb68aba8715834",
   "campaign": "auto-75caf5375e600ed979db8391a4b267c897026dec0160ee9773b9cffe70f60049",
   "created_at": "2026-11-04T01:23:14+00:00",
-  "events": [],
-  "findings": [],
+  "events": [
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 266,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 127,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9753,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8650,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 10019
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "html, paragrafo che inizia «Mentre ero in fila in un fast food»",
+      "severity": "major",
+      "source_quote": "He got sober and explained that he wanted to believe in God but couldn’t.",
+      "suggested_fix": "Sostituire «Tornò in sé» con «Si fece serio», mantenendo invariato il resto del paragrafo.",
+      "translation_quote": "Tornò in sé e mi spiegò che avrebbe voluto credere in Dio, ma non ci riusciva."
+    }
+  ],
   "id": "82ef83bdf79f862027bedc8fb0427a3d",
   "issue_id": "4e575f26-fabd-5104-ba0d-d54ca032653b",
   "language": "ita",
@@ -98,11 +127,13 @@
     }
   },
   "protected": false,
+  "quality_score": 94,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/ca40023e50c915a7258ad4b58f87f9226bb9b3cad9ebbbe9ba9d4725b817d7e3.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "review1",
     "max_candidate_bytes": 120000,
@@ -115,7 +146,7 @@
     "total_reserved_usd": 0.773507,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 0,
   "translation_key": "b60f5232f76b3d6e5573e616829a89d507fba9c836e4dbf3fc2981eb0eff86a2",
   "translation_model_actual": "gpt-6-luna"
