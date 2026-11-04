@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "3f1ca91fd08a441d8d9cdda25c5f8932",
   "campaign": "auto-bc9db15068d418778b4c7a1fb3ae02245a6ee24c522b9b8925f2144a121b0d84",
   "created_at": "2026-11-02T15:44:49+00:00",
   "events": [
@@ -68,18 +67,31 @@
         },
         "total_tokens": 4071
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 344,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 312,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3115,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 2012,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 3459
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "Laatste alinea, drie zinnen over een bijeenkomst leiden, een boodschap brengen en werk beginnen",
-      "severity": "major",
-      "source_quote": "“Lead no meeting without asking that God may be the real leader through you; speak no message without asking that He may speak through you; begin no work without asking that God may work though you.”",
-      "suggested_fix": "Vervang in deze drie zinnen ‘te vragen of God door u heen de ware leider mag zijn’, ‘te vragen of Hij door u heen mag spreken’ en ‘te vragen of God door u heen mag werken’ door respectievelijk ‘God te vragen om door u heen de ware leider te zijn’, ‘Hem te vragen om door u heen te spreken’ en ‘God te vragen om door u heen te werken’.",
-      "translation_quote": "‘Leid geen bijeenkomst zonder te vragen of God door u heen de ware leider mag zijn; breng geen boodschap zonder te vragen of Hij door u heen mag spreken; begin geen werk zonder te vragen of God door u heen mag werken.’"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-11-04T02:16:29+00:00",
   "id": "b664683b2696cf3a0255cd259136042e",
   "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
   "language": "nld",
@@ -168,7 +180,7 @@
     }
   },
   "protected": false,
-  "quality_score": 93,
+  "quality_score": 100,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
@@ -188,7 +200,7 @@
     "total_reserved_usd": 0.086684,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "86918e2f92ec7ff09eda36ffc30c12ee294e7b521bd1120caa6adee2c38e97b0",
   "translation_model_actual": "gpt-6-luna"
