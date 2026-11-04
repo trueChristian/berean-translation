@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "translation.html, div.poem, 13η παράγραφος",
+      "severity": "major",
+      "source_quote": "The fact of the matter, it’s confidence I lack.",
+      "suggested_fix": "<p><em>Η αλήθεια είναι πως μου λείπει η εμπιστοσύνη στον Θεό.</em></p>",
+      "translation_quote": "<p><em>Η αλήθεια είναι πως μου λείπει η αυτοπεποίθηση.</em></p>"
+    },
+    {
+      "location": "translation.html, div.poem, 16η παράγραφος",
+      "severity": "major",
+      "source_quote": "He wants me to be proved; He’s the Life and the Way.",
+      "suggested_fix": "<p>Θέλει να δοκιμαστώ· Αυτός είναι η Ζωή και η Οδός.</p>",
+      "translation_quote": "<p>Θέλει να αποδειχτώ· Αυτός είναι η Ζωή και η Οδός.</p>"
+    },
+    {
+      "location": "translation.html, div.poem, 8η παράγραφος",
+      "severity": "minor",
+      "source_quote": "I’ve lived like most others, as my life plays back.",
+      "suggested_fix": "<p>Έζησα όπως οι περισσότεροι, καθώς ξαναφέρνω τη ζωή μου στον νου.</p>",
+      "translation_quote": "<p>Έζησα όπως οι περισσότεροι, καθώς ξετυλίγεται η ζωή μου.</p>"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

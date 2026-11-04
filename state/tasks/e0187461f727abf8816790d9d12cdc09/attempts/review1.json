@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-04T22:51:48+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"translation.html, div.poem, 13η παράγραφος\",\n      \"severity\": \"major\",\n      \"source_quote\": \"The fact of the matter, it’s confidence I lack.\",\n      \"suggested_fix\": \"<p><em>Η αλήθεια είναι πως μου λείπει η εμπιστοσύνη στον Θεό.</em></p>\",\n      \"translation_quote\": \"<p><em>Η αλήθεια είναι πως μου λείπει η αυτοπεποίθηση.</em></p>\"\n    },\n    {\n      \"location\": \"translation.html, div.poem, 16η παράγραφος\",\n      \"severity\": \"major\",\n      \"source_quote\": \"He wants me to be proved; He’s the Life and the Way.\",\n      \"suggested_fix\": \"<p>Θέλει να δοκιμαστώ· Αυτός είναι η Ζωή και η Οδός.</p>\",\n      \"translation_quote\": \"<p>Θέλει να αποδειχτώ· Αυτός είναι η Ζωή και η Οδός.</p>\"\n    },\n    {\n      \"location\": \"translation.html, div.poem, 8η παράγραφος\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"I’ve lived like most others, as my life plays back.\",\n      \"suggested_fix\": \"<p>Έζησα όπως οι περισσότεροι, καθώς ξαναφέρνω τη ζωή μου στον νου.</p>\",\n      \"translation_quote\": \"<p>Έζησα όπως οι περισσότεροι, καθώς ξετυλίγεται η ζωή μου.</p>\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": false,\n  \"score\": 92\n}",
+    "content_bytes": 1472,
+    "content_evidence_truncated": false,
+    "content_sha256": "bb82fa9e4b0ab2b2acb8523136baf53e572d39e59971a0aaeb732f3253bd8249",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 461,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 78,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2363,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1260,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 2824
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}
