@@ -1,0 +1,35 @@
+{
+  "findings": [
+    {
+      "location": "translation.html, citation du Psaume 107:25-30",
+      "severity": "major",
+      "source_quote": "They mount up to the heaven, they go down again to the depths: their soul is melted because of trouble. They reel to and fro, and stagger like a drunken man ... Then they cry unto the LORD",
+      "suggested_fix": "Remplacer le passage correspondant par : « Ils montent jusqu’aux cieux, puis redescendent aux profondeurs ; leur âme fond à cause de l’angoisse. Ils chancellent et vacillent comme un homme ivre, et ne savent plus que faire. Alors ils crient à l’Éternel dans leur affliction ». Le pronom doit désigner les hommes ballottés par la mer, et non les vagues.",
+      "translation_quote": "Elles s’élèvent jusqu’aux cieux, puis redescendent aux profondeurs ; leur âme fond à cause de l’angoisse. Elles chancellent et vacillent comme l’homme ivre, et sont hors de leur sens. Alors elles crient à l’Éternel"
+    },
+    {
+      "location": "translation.html, références bibliques dans les paragraphes et citations",
+      "severity": "minor",
+      "source_quote": "Acts 27:20; 2 Corinthians 11:25; Acts 27:23-24; Jonah 1:6; 2 Corinthians 1:8; Psalm 107:25-30; Acts 27:12-13; John 14:27; Acts 27:14; Mark 8:35; Luke 12:13; Acts 27:22; Matthew 19:22; Luke 10:40; Hebrews 4:9-11",
+      "suggested_fix": "Employer les noms français conventionnels aux emplacements correspondants, sans changer les numéros : « Actes 27:20 », « 2 Corinthiens 11:25 », « Actes 27:23-24 », « Jonas 1:6 », « 2 Corinthiens 1:8 », « Psaume 107:25-30 », « Actes 27:12-13 », « Jean 14:27 », « Actes 27:14 », « Marc 8:35 », « Luc 12:13 », « Actes 27:22 », « Matthieu 19:22 », « Luc 10:40 », « Hébreux 4:9-11 ».",
+      "translation_quote": "Acts 27:20; 2 Corinthians 11:25; Acts 27:23-24; Jonah 1:6; 2 Corinthians 1:8; Psalm 107:25-30; Acts 27:12-13; John 14:27; Acts 27:14; Mark 8:35; Luke 12:13; Acts 27:22; Matthew 19:22; Luke 10:40; Hebrews 4:9-11"
+    },
+    {
+      "location": "translation.html, paragraphe commençant par « Quand nous sommes heureux »",
+      "severity": "minor",
+      "source_quote": "even though we have no sense of truly needing Him ... But the question must be answered",
+      "suggested_fix": "Remplacer « le sentiment de Le nécessiter » par « le sentiment d’avoir réellement besoin de Lui » et « la question doit être répondue » par « il faut répondre à la question ».",
+      "translation_quote": "bien que nous n’ayons pas vraiment le sentiment de Le nécessiter ... Mais la question doit être répondue"
+    },
+    {
+      "location": "translation.html, dernier paragraphe avant la citation d’Hébreux",
+      "severity": "minor",
+      "source_quote": "we will eventually encounter a disappointing squall",
+      "suggested_fix": "Remplacer « nous rencontrerons éventuellement une bourrasque décevante » par « nous finirons par rencontrer une bourrasque décevante », afin de conserver l’idée d’une rencontre qui se produira tôt ou tard, plutôt que d’une simple possibilité.",
+      "translation_quote": "nous rencontrerons éventuellement une bourrasque décevante"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
