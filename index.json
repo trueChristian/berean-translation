@@ -52319,6 +52319,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ita/articles/b72ea42a-1a86-4c21-a399-ebd3013c257b.html",
+      "html_sha256": "a85fefd8e6467c98fc8a436805ef7693bb2cc96de4419e8107a5d8864f2b6f42",
+      "human_reviewed": false,
+      "id": "b72ea42a-1a86-4c21-a399-ebd3013c257b",
+      "images": [
+        {
+          "alt": "Una chiave telegrafica e i suoi contatti elettrici",
+          "public_path": "/images/articles/b72ea42a-1a86-4c21-a399-ebd3013c257b-1.jpg"
+        }
+      ],
+      "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
+      "language": "ita",
+      "language_tag": "it",
+      "metadata": "content/ita/articles/b72ea42a-1a86-4c21-a399-ebd3013c257b.json",
+      "metadata_sha256": "c66131bd4ad1b35f0ff78af9b09f2eac1d2749384488327dbb8aaf0f946f551b",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
+      "source_translation_key": "86918e2f92ec7ff09eda36ffc30c12ee294e7b521bd1120caa6adee2c38e97b0",
+      "status": "ready",
+      "subtitle": null,
+      "title": "UNA PROMESSA PER IL SERVIZIO",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ita/articles/b8c0cd82-3d1a-4287-b2f5-391e08dd8efd.html",
       "html_sha256": "1b357795062cb1e2701ea80f984e8b776e1410425446e7b597499f42ede27ebb",
       "human_reviewed": false,
