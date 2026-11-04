@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "7ee5160fe2544f748219e349cef5999b",
   "campaign": "auto-072046be31f946b399a6a53f11d914498af3bc5917cedfe3d4e26dfd402b1366",
   "created_at": "2026-11-03T16:43:34+00:00",
   "events": [
@@ -28,10 +27,39 @@
         },
         "total_tokens": 4444
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 711,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 567,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4752,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 4749,
+          "cached_tokens": 0
+        },
+        "total_tokens": 5463
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "Paragraf pembuka, kalimat “Keinginan kami...”",
+      "severity": "minor",
+      "source_quote": "“a free flow of edification, inspiration and burden from us to you, and you to us”",
+      "suggested_fix": "“aliran bebas penguatan, inspirasi, dan beban hati dari kami kepada Anda, dan dari Anda kepada kami”",
+      "translation_quote": "“aliran penguatan, inspirasi, dan beban yang bebas dari kami kepada Anda, dan dari Anda kepada kami”"
+    }
+  ],
+  "finished_at": "2026-11-04T01:48:26+00:00",
   "id": "0baf18fcfff77546f92c9a518140b85d",
   "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
   "language": "ind",
@@ -120,9 +148,11 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/b90a551397024be9f0d057a09f4b11218c609006eb7fba34164cc6a14aacedb6.json",
   "stage": "review1",
   "stage_budget": {
@@ -138,7 +168,7 @@
     "total_reserved_usd": 0.087725,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "459eee2e9c07155a363c1c0e355fdda66adbf2039a8df9dc3c6dcd5288b5461e",
   "translation_model_actual": "gpt-6-luna"

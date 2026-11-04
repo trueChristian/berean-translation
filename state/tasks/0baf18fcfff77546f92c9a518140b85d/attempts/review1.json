@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-04T01:48:26+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraf pembuka, kalimat “Keinginan kami...”\",\"severity\":\"minor\",\"source_quote\":\"“a free flow of edification, inspiration and burden from us to you, and you to us”\",\"suggested_fix\":\"“aliran bebas penguatan, inspirasi, dan beban hati dari kami kepada Anda, dan dari Anda kepada kami”\",\"translation_quote\":\"“aliran penguatan, inspirasi, dan beban yang bebas dari kami kepada Anda, dan dari Anda kepada kami”\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 502,
+    "content_evidence_truncated": false,
+    "content_sha256": "aa1c5483159e6ffd792747ae33b7e2497fce699953e437f7b5dff2a97f8f89ed",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 711,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 567,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4752,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4749,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5463
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

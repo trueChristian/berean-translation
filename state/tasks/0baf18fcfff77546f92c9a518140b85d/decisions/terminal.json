@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraf pembuka, kalimat “Keinginan kami...”",
+      "severity": "minor",
+      "source_quote": "“a free flow of edification, inspiration and burden from us to you, and you to us”",
+      "suggested_fix": "“aliran bebas penguatan, inspirasi, dan beban hati dari kami kepada Anda, dan dari Anda kepada kami”",
+      "translation_quote": "“aliran penguatan, inspirasi, dan beban yang bebas dari kami kepada Anda, dan dari Anda kepada kami”"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}
