@@ -12576,6 +12576,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ben/articles/7c9d5015-158a-4c07-92fc-ae40c998d9ae.html",
+      "html_sha256": "e010638658c59339f4a891e78a22f7013e3b1259dda914641752f24f22f33853",
+      "human_reviewed": false,
+      "id": "7c9d5015-158a-4c07-92fc-ae40c998d9ae",
+      "images": [
+        {
+          "alt": "দাড়িওয়ালা এক বৃদ্ধ এক হাঁটু গেড়ে বসা মানুষের মাথায় হাত রেখেছেন, আর পাশে এক নারী বসে আছেন",
+          "public_path": "/images/articles/7c9d5015-158a-4c07-92fc-ae40c998d9ae-1.jpg"
+        },
+        {
+          "alt": "বাইরে এক হাঁটু গেড়ে বসা ব্যক্তির পাশে আলখাল্লা পরা এক ব্যক্তি দুই হাত প্রসারিত করে দাঁড়িয়ে আছেন",
+          "public_path": "/images/articles/7c9d5015-158a-4c07-92fc-ae40c998d9ae-2.jpg"
+        }
+      ],
+      "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
+      "language": "ben",
+      "language_tag": "bn",
+      "metadata": "content/ben/articles/7c9d5015-158a-4c07-92fc-ae40c998d9ae.json",
+      "metadata_sha256": "5f94d89c4ba4a70de174247cade02a70ef42cf713e6c6560bd295066c29dde76",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
+      "source_translation_key": "45c04759c5b0f7d8a9038af8cc76e1ff17a52e5b989557b235da9ebe057bb77d",
+      "status": "ready",
+      "subtitle": null,
+      "title": "পিতার সঙ্গে আমাদের সহভাগিতা",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ben/articles/7f8746cc-2e3a-476f-a5a0-28d15abe5412.html",
       "html_sha256": "8b38d3e44617fad1a38271a5c65f8d8f2406676cb280733056e97d9331ee6761",
       "human_reviewed": false,
