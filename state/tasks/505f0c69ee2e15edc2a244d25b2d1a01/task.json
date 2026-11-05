@@ -5,10 +5,31 @@
   "autonomous_recovery": false,
   "base_html_sha256": "398264f50910d974979b91b62bc57d1071afa27510b4a73234e309fa08d0076d",
   "base_metadata_sha256": "49048411adfda5d05d61c40b7e849c39848be22bad5694661f7d3c72128bee01",
-  "batch": "4ce7ee99e3bc4813b464c28c5f8679fa",
   "campaign": "auto-8fee002c64d187fbfc2d51ab995feaab508f20694ffbb88bd056bd7e0de9d83a",
   "created_at": "2026-11-05T02:57:20+00:00",
-  "events": [],
+  "events": [
+    {
+      "model": "gpt-6-luna",
+      "stage": "translate",
+      "usage": {
+        "completion_tokens": 3017,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3529,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 3526,
+          "cached_tokens": 0
+        },
+        "total_tokens": 6546
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
   "findings": [],
   "id": "505f0c69ee2e15edc2a244d25b2d1a01",
   "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
@@ -102,7 +123,7 @@
   "review_attempts": 0,
   "review_model": "gpt-6-luna",
   "source_snapshot": "state/sources/ee1d1c4c726665ca5725eef036aae90f81e779ea0d47055f2cf908d0b809c75d.json",
-  "stage": "translate",
+  "stage": "review1",
   "stage_budget": {
     "initial_stage": "translate",
     "max_candidate_bytes": 120000,
@@ -116,8 +137,8 @@
     "total_reserved_usd": 0.089145,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "aca8415cfcf9e5554286626ac6bcaa5724f97b93dadbcdbbe3b6300ec48874e3",
-  "translation_model_actual": null
+  "translation_model_actual": "gpt-6-luna"
 }
