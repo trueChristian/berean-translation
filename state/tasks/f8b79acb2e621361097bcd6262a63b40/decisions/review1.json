@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "translation.html: div.poem, paragraph 13",
+      "severity": "major",
+      "source_quote": "The fact of the matter, it’s confidence I lack.",
+      "suggested_fix": "<p><em>আসল কথা হলো, আমার আস্থার অভাব।</em></p>",
+      "translation_quote": "<p><em>আসল কথা হলো, আমার আত্মবিশ্বাসের অভাব।</em></p>"
+    },
+    {
+      "location": "translation.html: div.poem, paragraph 16",
+      "severity": "major",
+      "source_quote": "He wants me to be proved; He’s the Life and the Way.",
+      "suggested_fix": "<p>তিনি চান, আমি পরীক্ষিত হই; তিনিই জীবন, তিনিই পথ।</p>",
+      "translation_quote": "<p>তিনি চান, আমার মধ্যে তাঁর শক্তির প্রমাণ ফুটে উঠুক; তিনিই জীবন, তিনিই পথ।</p>"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

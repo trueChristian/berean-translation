@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-05T02:54:28+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"translation.html: div.poem, paragraph 13\",\n      \"severity\": \"major\",\n      \"source_quote\": \"The fact of the matter, it’s confidence I lack.\",\n      \"suggested_fix\": \"<p><em>আসল কথা হলো, আমার আস্থার অভাব।</em></p>\",\n      \"translation_quote\": \"<p><em>আসল কথা হলো, আমার আত্মবিশ্বাসের অভাব।</em></p>\"\n    },\n    {\n      \"location\": \"translation.html: div.poem, paragraph 16\",\n      \"severity\": \"major\",\n      \"source_quote\": \"He wants me to be proved; He’s the Life and the Way.\",\n      \"suggested_fix\": \"<p>তিনি চান, আমি পরীক্ষিত হই; তিনিই জীবন, তিনিই পথ।</p>\",\n      \"translation_quote\": \"<p>তিনি চান, আমার মধ্যে তাঁর শক্তির প্রমাণ ফুটে উঠুক; তিনিই জীবন, তিনিই পথ।</p>\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": false,\n  \"score\": 91\n}",
+    "content_bytes": 1089,
+    "content_evidence_truncated": false,
+    "content_sha256": "6d4ee9da8f6e821e190380806af344670278bb891e1d7e1bac1fd6348b57e2b9",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 305,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 49,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2345,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1242,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 2650
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}
