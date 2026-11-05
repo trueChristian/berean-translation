@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "html: “हमारा विशिष्ट व्यक्तित्व” के दूसरे अनुच्छेद में",
+      "severity": "major",
+      "source_quote": "Live sparingly and you shall hear sparingly, though you be listening to an angel from heaven. Live nobly and you will hear nobly",
+      "suggested_fix": "“सादगी से जियो, तो तुम्हारी सुनाई भी सीमित होगी” को “संकीर्ण भाव से जियो, तो तुम्हारा ग्रहण करना भी सीमित होगा” से बदलें, ताकि उदात्त जीवन के साथ मूल विरोध बना रहे।",
+      "translation_quote": "सादगी से जियो, तो तुम्हारी सुनाई भी सीमित होगी"
+    },
+    {
+      "location": "html: “…प्रतिष्ठा” का अनुच्छेद, तीसरा वाक्य",
+      "severity": "major",
+      "source_quote": "the many questionable things that people bring to our attention really depend upon our meager character",
+      "suggested_fix": "“लोगों का ध्यान हमारी ओर खींचने वाली अनेक संदिग्ध बातें” को “लोग हमारे ध्यान में जो अनेक संदिग्ध बातें लाते हैं, वे” से बदलें।",
+      "translation_quote": "लोगों का ध्यान हमारी ओर खींचने वाली अनेक संदिग्ध बातें वास्तव में हमारे तुच्छ चरित्र पर निर्भर करती हैं"
+    },
+    {
+      "location": "html: “जलते हुए हृदय” का पहला अनुच्छेद, लूका 24:25 का उद्धरण",
+      "severity": "major",
+      "source_quote": "slow of heart to believe all that the prophets have spoken –Luke 24:25",
+      "suggested_fix": "“उन सब बातों पर विश्वास करने में मंदबुद्धि बताया” को “उन सब बातों पर विश्वास करने में हृदय से सुस्त बताया” से बदलें। यहाँ बुद्धि की कमी नहीं, हृदय की विश्वास करने में सुस्ती अभिप्रेत है।",
+      "translation_quote": "उन सब बातों पर विश्वास करने में मंदबुद्धि बताया जो भविष्यद्वक्ताओं ने कही हैं—लूका 24:25।"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

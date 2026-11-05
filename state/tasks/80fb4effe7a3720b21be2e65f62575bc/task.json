@@ -5,11 +5,54 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "998f8253ae6e4db4bc5cef3ea9665d06",
   "campaign": "auto-4cc5eb2af23606cf6ffc22ec31b58aa6fc91bd1bfb7122a328be5da7d74fdf08",
   "created_at": "2026-11-05T10:46:17+00:00",
-  "events": [],
-  "findings": [],
+  "events": [
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 576,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 60,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9099,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 9096,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9675
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "html: “हमारा विशिष्ट व्यक्तित्व” के दूसरे अनुच्छेद में",
+      "severity": "major",
+      "source_quote": "Live sparingly and you shall hear sparingly, though you be listening to an angel from heaven. Live nobly and you will hear nobly",
+      "suggested_fix": "“सादगी से जियो, तो तुम्हारी सुनाई भी सीमित होगी” को “संकीर्ण भाव से जियो, तो तुम्हारा ग्रहण करना भी सीमित होगा” से बदलें, ताकि उदात्त जीवन के साथ मूल विरोध बना रहे।",
+      "translation_quote": "सादगी से जियो, तो तुम्हारी सुनाई भी सीमित होगी"
+    },
+    {
+      "location": "html: “…प्रतिष्ठा” का अनुच्छेद, तीसरा वाक्य",
+      "severity": "major",
+      "source_quote": "the many questionable things that people bring to our attention really depend upon our meager character",
+      "suggested_fix": "“लोगों का ध्यान हमारी ओर खींचने वाली अनेक संदिग्ध बातें” को “लोग हमारे ध्यान में जो अनेक संदिग्ध बातें लाते हैं, वे” से बदलें।",
+      "translation_quote": "लोगों का ध्यान हमारी ओर खींचने वाली अनेक संदिग्ध बातें वास्तव में हमारे तुच्छ चरित्र पर निर्भर करती हैं"
+    },
+    {
+      "location": "html: “जलते हुए हृदय” का पहला अनुच्छेद, लूका 24:25 का उद्धरण",
+      "severity": "major",
+      "source_quote": "slow of heart to believe all that the prophets have spoken –Luke 24:25",
+      "suggested_fix": "“उन सब बातों पर विश्वास करने में मंदबुद्धि बताया” को “उन सब बातों पर विश्वास करने में हृदय से सुस्त बताया” से बदलें। यहाँ बुद्धि की कमी नहीं, हृदय की विश्वास करने में सुस्ती अभिप्रेत है।",
+      "translation_quote": "उन सब बातों पर विश्वास करने में मंदबुद्धि बताया जो भविष्यद्वक्ताओं ने कही हैं—लूका 24:25।"
+    }
+  ],
   "id": "80fb4effe7a3720b21be2e65f62575bc",
   "issue_id": "4e575f26-fabd-5104-ba0d-d54ca032653b",
   "language": "hin",
@@ -98,11 +141,13 @@
     }
   },
   "protected": false,
+  "quality_score": 92,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/28ef4175d9682ec11c356de3b1c8d9c4732e965780598aa940518ed0ccc01aee.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "review1",
     "max_candidate_bytes": 120000,
@@ -115,7 +160,7 @@
     "total_reserved_usd": 0.807903,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 0,
   "translation_key": "2ab4f83b970977b517b8c5966e0879530863628afa0c94a3bb7186e69daacb25",
   "translation_model_actual": "gpt-6-luna"
