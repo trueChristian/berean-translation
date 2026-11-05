@@ -41495,6 +41495,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/hin/articles/93f83966-049f-4767-8fe5-497ec16dad40.html",
+      "html_sha256": "d1bf95c2ebcf380e3e8683eeec727044d2e28f78f421d99cc3223fdccd7108ae",
+      "human_reviewed": false,
+      "id": "93f83966-049f-4767-8fe5-497ec16dad40",
+      "images": [
+        {
+          "alt": "यीशु एम्माउस के मार्ग पर दो व्यक्तियों के साथ चलते हुए",
+          "public_path": "/images/articles/93f83966-049f-4767-8fe5-497ec16dad40-1.jpg"
+        }
+      ],
+      "issue_id": "4e575f26-fabd-5104-ba0d-d54ca032653b",
+      "language": "hin",
+      "language_tag": "hi",
+      "metadata": "content/hin/articles/93f83966-049f-4767-8fe5-497ec16dad40.json",
+      "metadata_sha256": "4da3e9f34579807d2b04c284bfaa35ce8b823b615e7d07257eaedbd090b12f50",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "बाइबल के सिद्धांत",
+      "source_revision": "22388745ad7f149609e65f5e28cfcc1257cd689e",
+      "source_translation_key": "2ab4f83b970977b517b8c5966e0879530863628afa0c94a3bb7186e69daacb25",
+      "status": "ready",
+      "subtitle": null,
+      "title": "जिसके सुनने के कान हों…",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/hin/articles/94ef8ae0-ec29-4ca5-870a-4c3e33abcfe6.html",
       "html_sha256": "f957d9e3ecebc77f7081d23301215a4ac2c547aab7f50f258cf5357165aaafc2",
       "human_reviewed": false,
