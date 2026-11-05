@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-05T22:02:14+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"translation.html, avsnittet under «IV. Sann gudsdyrkelses vesen» som begynner «Kvinnens fedre ved brønnen»\",\"severity\":\"minor\",\"source_quote\":\"The fathers of the woman at the well had lost both the focus and the concept of worship\",\"suggested_fix\":\"Endre innledningen til «Fedrene til kvinnen ved brønnen hadde mistet både fokus og forståelse av gudsdyrkelsen».\",\"translation_quote\":\"Kvinnens fedre ved brønnen hadde mistet både fokus og forståelse av gudsdyrkelsen\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 558,
+    "content_evidence_truncated": false,
+    "content_sha256": "601c9d53b3d92c45bfcf7b4a136a926beec6f7220213d8a7ad533b8be3b172f2",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 394,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 234,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 12398,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 12395,
+        "cached_tokens": 0
+      },
+      "total_tokens": 12792
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}

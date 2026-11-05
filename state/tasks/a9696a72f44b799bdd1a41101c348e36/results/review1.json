@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "58b5089b-9f82-4dcc-a925-3fe5511b7b5d",
+    "response_id": "chatcmpl-EgwUqTZNSpGvm99P0MIhVzVl4WsMX",
+    "usage": {
+      "completion_tokens": 394,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 234,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 12398,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 12395,
+        "cached_tokens": 0
+      },
+      "total_tokens": 12792
+    }
+  },
+  "received_at": "2026-11-05T22:02:14+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "translation.html, avsnittet under «IV. Sann gudsdyrkelses vesen» som begynner «Kvinnens fedre ved brønnen»",
+        "severity": "minor",
+        "source_quote": "The fathers of the woman at the well had lost both the focus and the concept of worship",
+        "suggested_fix": "Endre innledningen til «Fedrene til kvinnen ved brønnen hadde mistet både fokus og forståelse av gudsdyrkelsen».",
+        "translation_quote": "Kvinnens fedre ved brønnen hadde mistet både fokus og forståelse av gudsdyrkelsen"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}

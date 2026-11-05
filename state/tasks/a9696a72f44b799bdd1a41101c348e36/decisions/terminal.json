@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "translation.html, avsnittet under «IV. Sann gudsdyrkelses vesen» som begynner «Kvinnens fedre ved brønnen»",
+      "severity": "minor",
+      "source_quote": "The fathers of the woman at the well had lost both the focus and the concept of worship",
+      "suggested_fix": "Endre innledningen til «Fedrene til kvinnen ved brønnen hadde mistet både fokus og forståelse av gudsdyrkelsen».",
+      "translation_quote": "Kvinnens fedre ved brønnen hadde mistet både fokus og forståelse av gudsdyrkelsen"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}
