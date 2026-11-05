@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "a4abe6fe-b60d-4bda-9d0a-aa7d55dc3932",
+    "response_id": "chatcmpl-EgfTIaMgnxvcjjG1wBOhZo6UDJvBv",
+    "usage": {
+      "completion_tokens": 524,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 170,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1143,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1140,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1667
+    }
+  },
+  "received_at": "2026-11-05T00:23:21+00:00",
+  "result": {
+    "html": "<article data-article-id=\"f1f8d898-1108-4e49-9e62-b12667509107\">\n  <p class=\"poem\"><strong>Hast du eine Sünde?<br>Eine schwere Last, die dich scheinbar hindern will,<br>gut zu laufen? Um Christi Freiheit zu haben,<br>lass los, gefangene Seele; lass los und sieh,<br>wo Jesus beginnen wird.</strong></p>\n  <p class=\"poem\"><strong>Hast du eine Sorge?<br>Dann wirf deine Sorge auf Gott;<br>es ist nicht sein Wunsch, dass du diese Last trägst;<br>überlass sie ihm, und du wirst den Weg des Lebens gehen,<br>als würdest du auf Luft wandeln.</strong></p>\n  <p class=\"poem\"><strong>Hast du Christi Freude?<br>Teile das Glück, das er denen schenkt,<br>deren Leben von menschlichem Leid überströmt ist;<br>seine Freude übersteigt alles und wird immer größer,<br>nichts kann sie zerstören.</strong></p>\n  <p class=\"poem\"><strong>Hast du seinen Frieden?<br>Christi Frieden, der menschliches Denken und Wissen übersteigt,<br>so ruhig, so rein und tief. Erst wenn<br>wir solche Ruhe kennen – und nicht vorher –<br>kann alle Unruhe enden.</strong></p>\n</article>\n",
+    "section": null,
+    "subtitle": null,
+    "title": "Die Gaben Christi"
+  }
+}
