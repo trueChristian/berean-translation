@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-05T02:54:25+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"तीसरा पद, दूसरी पंक्ति\",\"severity\":\"major\",\"source_quote\":\"The share the happiness He gives with those\",\"suggested_fix\":\"उस सुख को, जो वह देता है, उन लोगों के साथ बाँट\",\"translation_quote\":\"उस सुख को उन लोगों के साथ बाँट,\"}],\"findings_complete\":true,\"passed\":false,\"score\":94}",
+    "content_bytes": 450,
+    "content_evidence_truncated": false,
+    "content_sha256": "8b09c70801d998447d99c9f27e059a0376de57d09de05eeab5ce1f29484263c7",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 858,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 757,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1914,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 811,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 2772
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

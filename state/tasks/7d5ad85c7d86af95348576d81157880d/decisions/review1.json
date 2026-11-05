@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "तीसरा पद, दूसरी पंक्ति",
+      "severity": "major",
+      "source_quote": "The share the happiness He gives with those",
+      "suggested_fix": "उस सुख को, जो वह देता है, उन लोगों के साथ बाँट",
+      "translation_quote": "उस सुख को उन लोगों के साथ बाँट,"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

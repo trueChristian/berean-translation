@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "df3d865455f04094b00727991c95b588",
   "campaign": "auto-d3df681cce7a574c593369e878a5f38be7ccb5bb6067dc67acef31f4a041540d",
   "created_at": "2026-11-04T02:05:08+00:00",
   "events": [
@@ -28,10 +27,38 @@
         },
         "total_tokens": 1560
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 858,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 757,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 1914,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 811,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 2772
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "तीसरा पद, दूसरी पंक्ति",
+      "severity": "major",
+      "source_quote": "The share the happiness He gives with those",
+      "suggested_fix": "उस सुख को, जो वह देता है, उन लोगों के साथ बाँट",
+      "translation_quote": "उस सुख को उन लोगों के साथ बाँट,"
+    }
+  ],
   "id": "7d5ad85c7d86af95348576d81157880d",
   "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
   "language": "hin",
@@ -120,11 +147,13 @@
     }
   },
   "protected": false,
+  "quality_score": 94,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/821fd8b7bdbe958f1c83461194c360b8b6f18beaf13e2b3a273ec87ad9b8ab46.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "translate",
     "max_candidate_bytes": 120000,
@@ -138,7 +167,7 @@
     "total_reserved_usd": 0.085938,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "4deddfa3d35292dd8b7346a9588ef6e393981b43a05742af679adb2e81fd001c",
   "translation_model_actual": "gpt-6-luna"
