@@ -12,10 +12,17 @@
       "event": "complete",
       "reason": null,
       "task": "149b41f0c8e2cb91f43bae5fb768d4de"
+    },
+    {
+      "at": "2026-11-05T07:21:26+00:00",
+      "campaign": "auto-887df2892f441dda1f9e4cc52d03575ad3bb49ed4914c050a8dc8f105c1d2697",
+      "event": "automatic_requested",
+      "previous_task": "149b41f0c8e2cb91f43bae5fb768d4de",
+      "task": "976dc126031646de0aa085f518742bcf"
     }
   ],
   "language": "ita",
-  "latest_task": "149b41f0c8e2cb91f43bae5fb768d4de",
+  "latest_task": "976dc126031646de0aa085f518742bcf",
   "published": {
     "html_path": "content/ita/articles/903e4b58-b246-4ee3-85e7-eecf158a7a75.html",
     "html_sha256": "6d20fbaedacb829043ea230cd6d15f4b55b826b5486fde8e4f2bef8efe6df9b0",
