@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Third stanza, line 3",
+      "severity": "minor",
+      "source_quote": "Who’s lives are brimming o’re with human woes;",
+      "suggested_fix": "van hen wier leven overloopt van menselijk leed;",
+      "translation_quote": "wiens leven overloopt van menselijk leed;"
+    },
+    {
+      "location": "Third stanza, line 4",
+      "severity": "minor",
+      "source_quote": "His joy transcendeth all, and fuller grows,",
+      "suggested_fix": "Zijn vreugde overstijgt alles en wordt steeds voller,",
+      "translation_quote": "Zijn vreugde overstijgt alles en groeit overvloediger,"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-05T06:34:36+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Third stanza, line 3\",\"severity\":\"minor\",\"source_quote\":\"Who’s lives are brimming o’re with human woes;\",\"suggested_fix\":\"van hen wier leven overloopt van menselijk leed;\",\"translation_quote\":\"wiens leven overloopt van menselijk leed;\"},{\"location\":\"Third stanza, line 4\",\"severity\":\"minor\",\"source_quote\":\"His joy transcendeth all, and fuller grows,\",\"suggested_fix\":\"Zijn vreugde overstijgt alles en wordt steeds voller,\",\"translation_quote\":\"Zijn vreugde overstijgt alles en groeit overvloediger,\"}],\"findings_complete\":true,\"passed\":true,\"score\":97}",
+    "content_bytes": 583,
+    "content_evidence_truncated": false,
+    "content_sha256": "ca1a7341bbc7fbed5f62a99ea2a658b3f886229b156447ce12114237b8ced46c",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 775,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 614,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1838,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 1835
+      },
+      "total_tokens": 2613
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

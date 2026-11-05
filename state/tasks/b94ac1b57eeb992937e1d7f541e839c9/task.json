@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "ab2c09055f4f460caab41816bd10eca3",
   "campaign": "auto-032c86d5e198a10142f9a1b2fbcaafde365e0d37977a6f83e2245830e20ab4cc",
   "created_at": "2026-11-04T13:04:41+00:00",
   "events": [
@@ -28,10 +27,46 @@
         },
         "total_tokens": 1484
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 775,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 614,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 1838,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 0,
+          "cached_tokens": 1835
+        },
+        "total_tokens": 2613
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "Third stanza, line 3",
+      "severity": "minor",
+      "source_quote": "Who’s lives are brimming o’re with human woes;",
+      "suggested_fix": "van hen wier leven overloopt van menselijk leed;",
+      "translation_quote": "wiens leven overloopt van menselijk leed;"
+    },
+    {
+      "location": "Third stanza, line 4",
+      "severity": "minor",
+      "source_quote": "His joy transcendeth all, and fuller grows,",
+      "suggested_fix": "Zijn vreugde overstijgt alles en wordt steeds voller,",
+      "translation_quote": "Zijn vreugde overstijgt alles en groeit overvloediger,"
+    }
+  ],
+  "finished_at": "2026-11-05T06:34:36+00:00",
   "id": "b94ac1b57eeb992937e1d7f541e839c9",
   "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
   "language": "nld",
@@ -120,9 +155,11 @@
     }
   },
   "protected": false,
+  "quality_score": 97,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/821fd8b7bdbe958f1c83461194c360b8b6f18beaf13e2b3a273ec87ad9b8ab46.json",
   "stage": "review1",
   "stage_budget": {
@@ -138,7 +175,7 @@
     "total_reserved_usd": 0.085934,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "4deddfa3d35292dd8b7346a9588ef6e393981b43a05742af679adb2e81fd001c",
   "translation_model_actual": "gpt-6-luna"
