@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": "27d7879a1e3dc562afc7eddd95c5a76b8a76e7810eb8c38c506cb837360bec46",
   "base_metadata_sha256": "0d679314ed86517d02172eda05fa36368fc058258da18cb25afb13970ec138c6",
-  "batch": "3452d23db9fe4f51a89dda1da0d08db0",
   "campaign": "auto-ae6691c08896d91006023f1d1625dd29bd9100c07ec3a1168c1730d13044fb47",
   "created_at": "2026-11-05T10:47:25+00:00",
   "events": [
@@ -68,25 +67,31 @@
         },
         "total_tokens": 10640
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 723,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 685,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7279,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 6176,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 8002
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "Titus 2:3–5 quotation; repeated in the later Titus 2:4–5 quotations (3 occurrences)",
-      "severity": "major",
-      "source_quote": "“keepers at home”",
-      "suggested_fix": "In each occurrence, render this as “vara hemma och sköta hemmet” to retain the source’s emphasis on being at home, not only on household tasks.",
-      "translation_quote": "“ta hand om hemmet”"
-    },
-    {
-      "location": "Paragraph beginning “Throughout history”",
-      "severity": "minor",
-      "source_quote": "“a new buzzword—fullfillment”",
-      "suggested_fix": "Consider “ett nytt modeord – tillfredsställelse” to convey “fulfillment” without introducing the additional idea of self-realization.",
-      "translation_quote": "“ett nytt modeord – självförverkligande”"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-11-05T23:44:23+00:00",
   "id": "56a8ff3f891a08195974d3b7e6ff29a5",
   "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
   "language": "swe",
@@ -175,7 +180,7 @@
     }
   },
   "protected": false,
-  "quality_score": 93,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
@@ -195,7 +200,7 @@
     "total_reserved_usd": 0.089129,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "aca8415cfcf9e5554286626ac6bcaa5724f97b93dadbcdbbe3b6300ec48874e3",
   "translation_model_actual": "gpt-6-luna"
