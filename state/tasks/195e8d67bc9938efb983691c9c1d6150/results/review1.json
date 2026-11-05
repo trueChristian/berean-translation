@@ -1,0 +1,52 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "25b59aee-62de-45ff-b5e4-ff9e804c38f8",
+    "response_id": "chatcmpl-EgzxEZDImoLEiCMJSNbqfmZSMAnkT",
+    "usage": {
+      "completion_tokens": 632,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 167,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9312,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9309,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9944
+    }
+  },
+  "received_at": "2026-11-05T22:16:04+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "html: “Our Unique Personality” শিরোনামের পর দ্বিতীয় অনুচ্ছেদ",
+        "severity": "major",
+        "source_quote": "Live sparingly and you shall hear sparingly, though you be listening to an angel from heaven.",
+        "suggested_fix": "“সংযতভাবে জীবন যাপন করো” বদলে “সংকীর্ণভাবে জীবন যাপন করো” লিখুন, যাতে পরের বাক্যের মহৎ জীবনযাপনের সঙ্গে মূল বৈপরীত্য বজায় থাকে।",
+        "translation_quote": "সংযতভাবে জীবন যাপন করো, তবে অল্পই শুনবে—স্বর্গ থেকে কোনো দূতকে শুনলেও।"
+      },
+      {
+        "location": "html: “…কল্পকাহিনি” অংশের অনুচ্ছেদ",
+        "severity": "major",
+        "source_quote": "People will flock to hear inspirational preaching and seminar propaganda in an ecumenical setting.",
+        "suggested_fix": "“সমন্বয়বাদী পরিবেশে” বদলে “বিভিন্ন খ্রিষ্টীয় সম্প্রদায়ের ঐক্যমূলক পরিবেশে” লিখুন। এখানে ecumenical খ্রিষ্টীয় সম্প্রদায়গুলোর পারস্পরিক ঐক্য বোঝায়, ধর্মীয় মতের সংমিশ্রণ নয়।",
+        "translation_quote": "মানুষ সমন্বয়বাদী পরিবেশে অনুপ্রেরণামূলক প্রচার ও সেমিনারের প্রচার শুনতে দলে দলে যাবে।"
+      },
+      {
+        "location": "html: “জ্বলন্ত হৃদয়” অংশের প্রথম অনুচ্ছেদের প্রথম বাক্য",
+        "severity": "minor",
+        "source_quote": "As two bedraggled disciples trudged the road to Emmaus",
+        "suggested_fix": "“ছেঁড়া-ফাটা পোশাক পরা দুজন শিষ্য” বদলে “বিধ্বস্ত চেহারার দুজন শিষ্য” লিখুন; মূল পাঠে পোশাক ছেঁড়া থাকার নির্দিষ্ট তথ্য নেই।",
+        "translation_quote": "ছেঁড়া-ফাটা পোশাক পরা দুজন শিষ্য যখন ইম্মায়ূর পথে ধীর পায়ে চলছিল"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 94
+  }
+}
