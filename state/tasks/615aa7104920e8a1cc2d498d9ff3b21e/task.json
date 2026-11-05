@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "44179caafcd04f439b9730af2e889c24",
   "campaign": "auto-bd42898699a96b4ae5b01bbd02de609d27acb5b6ab1250d6af0c7eeeb8cbc9da",
   "created_at": "2026-11-04T09:11:56+00:00",
   "events": [
@@ -28,10 +27,31 @@
         },
         "total_tokens": 1667
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 467,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 435,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 1845,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 742,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 2312
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [],
+  "finished_at": "2026-11-05T10:44:47+00:00",
   "id": "615aa7104920e8a1cc2d498d9ff3b21e",
   "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
   "language": "deu",
@@ -120,9 +140,11 @@
     }
   },
   "protected": false,
+  "quality_score": 100,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/821fd8b7bdbe958f1c83461194c360b8b6f18beaf13e2b3a273ec87ad9b8ab46.json",
   "stage": "review1",
   "stage_budget": {
@@ -138,7 +160,7 @@
     "total_reserved_usd": 0.085934,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "4deddfa3d35292dd8b7346a9588ef6e393981b43a05742af679adb2e81fd001c",
   "translation_model_actual": "gpt-6-luna"
