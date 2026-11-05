@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-05T23:44:01+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, testimony paragraph beginning “After spending about 9 years”\",\"severity\":\"major\",\"source_quote\":\"I could think of a word to say, so I just said “Christ?”\",\"suggested_fix\":\"Change to «Jeg kunne ikke komme på et ord å si, så jeg sa bare «Kristus?»»\",\"translation_quote\":\"Jeg kunne komme på et ord å si, så jeg sa bare «Kristus?»\"}],\"findings_complete\":true,\"passed\":false,\"score\":93}",
+    "content_bytes": 433,
+    "content_evidence_truncated": false,
+    "content_sha256": "d196c71fa4e8359ebe08b3fd9a6bb853d99b62758deba8d9b4db63f15811c8be",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 681,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 554,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4743,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3640,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 5424
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}
