@@ -81481,6 +81481,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/spa/articles/3558b7f3-5296-4770-a7c6-d420c923642d.html",
+      "html_sha256": "dbd22969ef6ff671b6d2eb9d3016e46c3dcb1ea6808044c1083c76533d343ac2",
+      "human_reviewed": false,
+      "id": "3558b7f3-5296-4770-a7c6-d420c923642d",
+      "images": [
+        {
+          "alt": "Un buzón junto a la carretera con la dirección postal de la revista",
+          "public_path": "/images/articles/3558b7f3-5296-4770-a7c6-d420c923642d-1.jpg"
+        }
+      ],
+      "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
+      "language": "spa",
+      "language_tag": "es",
+      "metadata": "content/spa/articles/3558b7f3-5296-4770-a7c6-d420c923642d.json",
+      "metadata_sha256": "96b2c0f17e2f86efb8e5c5fda8516072228e75840dfc1d50cd28633eda1b136e",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
+      "source_translation_key": "459eee2e9c07155a363c1c0e355fdda66adbf2039a8df9dc3c6dcd5288b5461e",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Preciosas cartas de nuestros lectores",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/spa/articles/37272f7d-a8c0-4c15-b884-ebbf333303cb.html",
       "html_sha256": "c1edf1958f318e22710ba52b062d0432023f350b913247376e0f5c69139e951c",
       "human_reviewed": false,
