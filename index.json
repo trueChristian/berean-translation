@@ -32564,6 +32564,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/fra/articles/951f56e4-2ce8-4f01-9500-bfeee209cdb4.html",
+      "html_sha256": "c7dfcc1bee1af952b9d27bdd39576f6ecd018c6e10f4ae5de5390a2850388673",
+      "human_reviewed": false,
+      "id": "951f56e4-2ce8-4f01-9500-bfeee209cdb4",
+      "images": [
+        {
+          "alt": "Une route ensoleillée qui serpente à travers un paysage boisé",
+          "public_path": "/images/articles/951f56e4-2ce8-4f01-9500-bfeee209cdb4-1.jpg"
+        }
+      ],
+      "issue_id": "1a7070c9-fd4f-546b-a220-f267ddb8cf5f",
+      "language": "fra",
+      "language_tag": "fr",
+      "metadata": "content/fra/articles/951f56e4-2ce8-4f01-9500-bfeee209cdb4.json",
+      "metadata_sha256": "a53049a4abbe83ac0c59751755a6225a697d89c3387b93aaa3fef7ffed9b2437",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "Vie chrétienne victorieuse",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "6ba0f430c997b1ea3450b766c83b9abcf64dbdc84cdd47383ef0cebf9766d0dd",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Le havre de repos",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/fra/articles/95aac01a-bc7b-4c4b-a8c0-0c193488e249.html",
       "html_sha256": "f2795f2edfcc5a31b490546fb884968546dbbed22404a869a0b2e36d71e43460",
       "human_reviewed": false,
