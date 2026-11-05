@@ -13166,6 +13166,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ben/articles/93f83966-049f-4767-8fe5-497ec16dad40.html",
+      "html_sha256": "929c01609d247020a681660c4a138abc221bc24644f5b99ba3ae33bc19abcf09",
+      "human_reviewed": false,
+      "id": "93f83966-049f-4767-8fe5-497ec16dad40",
+      "images": [
+        {
+          "alt": "ইম্মায়ূর পথে দুজন মানুষের সঙ্গে হাঁটছেন যিশু",
+          "public_path": "/images/articles/93f83966-049f-4767-8fe5-497ec16dad40-1.jpg"
+        }
+      ],
+      "issue_id": "4e575f26-fabd-5104-ba0d-d54ca032653b",
+      "language": "ben",
+      "language_tag": "bn",
+      "metadata": "content/ben/articles/93f83966-049f-4767-8fe5-497ec16dad40.json",
+      "metadata_sha256": "578ef648f96381c55ac103b015085ad6b98ac84883609c054d4e70f6e4256768",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "বাইবেলের মতবাদসমূহ",
+      "source_revision": "22388745ad7f149609e65f5e28cfcc1257cd689e",
+      "source_translation_key": "2ab4f83b970977b517b8c5966e0879530863628afa0c94a3bb7186e69daacb25",
+      "status": "ready",
+      "subtitle": null,
+      "title": "যার শোনার কান আছে…",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ben/articles/94ef8ae0-ec29-4ca5-870a-4c3e33abcfe6.html",
       "html_sha256": "f36ad7f8d14d6a14b79cfa0222cf19cb420606de6e944d683a445079e27fe286",
       "human_reviewed": false,
