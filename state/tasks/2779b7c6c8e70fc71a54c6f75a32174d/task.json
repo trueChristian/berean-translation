@@ -5,11 +5,61 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "dc9b3a15977f4d46805297392fd45891",
   "campaign": "auto-c0adc934577d190e6a91dd5278dc5a56e43b28d0c746dd217731635e38c460d6",
   "created_at": "2026-11-05T07:06:26+00:00",
-  "events": [],
-  "findings": [],
+  "events": [
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 986,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 138,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 13481,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 12378,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 14467
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "IV, הפסקה המתחילה ״אבותיה של האישה ליד הבאר״",
+      "severity": "major",
+      "source_quote": "“Salvation is of Jesus” (4:22c).",
+      "suggested_fix": "החליפו את הציטוט ב־״הישועה היא מישו״, תוך שמירת ההפניה (4:22c). יש לתרגם את נוסח המאמר המודפס, גם כאשר הוא שונה מנוסח הפסוק המקובל.",
+      "translation_quote": "״הַיְשׁוּעָה מִן הַיְּהוּדִים הִיא״ (4:22c)."
+    },
+    {
+      "location": "הערת העורך; פסקת התחייה האנבפטיסטית; I.a, הפסקה הראשונה; I.b, הפסקה המתחילה ״העמדת פנים״; II.a; רשימת המקורות",
+      "severity": "major",
+      "source_quote": "“Bible Schools”; “Bible-based”; “found over 1,000 times in the Bible”; “the whole Bible is God speaking to man”; “Bible characters”; “any other Bible character”; “The Bible—King James Version.”",
+      "suggested_fix": "במקומות אלה החליפו את ״תנ״ך״ ב״כתבי הקודש״ בהתאמה דקדוקית: ״בתי ספר לכתבי הקודש״; ״מבוססת על כתבי הקודש״; ״מופיעות בכתבי הקודש״; ״כתבי הקודש כולם הם אלוהים המדבר אל האדם״; ״דמויות מכתבי הקודש״; ״כל דמות אחרת מכתבי הקודש״; ״כתבי הקודש — גרסת המלך ג׳יימס״. אין לשנות את ״תנ״ך״ במקומות שבהם המקור אומר Old Testament.",
+      "translation_quote": "״בתי ספר לתנ״ך״; ״מבוססת על התנ״ך״; ״מופיעות בתנ״ך יותר מאלף פעמים״; ״התנ״ך כולו הוא אלוהים המדבר אל האדם״; ״דמויות מן התנ״ך״; ״כל דמות אחרת מן התנ״ך״; ״התנ״ך — גרסת המלך ג׳יימס״."
+    },
+    {
+      "location": "III.c, הציטוט מאל הקולוסים 3:16",
+      "severity": "major",
+      "source_quote": "“singing with grace in your hearts to the Lord”",
+      "suggested_fix": "החליפו את סיום הציטוט ב־״ושרים לאדון בחסד שבלבכם״, תוך שמירת תגית ההדגשה וההפניה הקיימות.",
+      "translation_quote": "״וְשָׁרִים לֵאלֹהִים בְּלִבְּכֶם בִּתְהִלָּה״"
+    },
+    {
+      "location": "I.a, הפסקה המתחילה ״בהר סיני״",
+      "severity": "minor",
+      "source_quote": "“especially immodesty”",
+      "suggested_fix": "החליפו ״ובמיוחד חוסר צניעות בלבוש״ ב״ובמיוחד חוסר צניעות״, כדי לא לצמצם את דברי המקור ללבוש בלבד.",
+      "translation_quote": "״ובמיוחד חוסר צניעות בלבוש״"
+    }
+  ],
   "id": "2779b7c6c8e70fc71a54c6f75a32174d",
   "issue_id": "4e575f26-fabd-5104-ba0d-d54ca032653b",
   "language": "heb",
@@ -98,11 +148,13 @@
     }
   },
   "protected": false,
+  "quality_score": 90,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/f170b59c5b4cc7d1f9e03dcb7760474d0f2879e0f09d0377b8f46e67154d4f56.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "review1",
     "max_candidate_bytes": 120000,
@@ -115,7 +167,7 @@
     "total_reserved_usd": 0.814595,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 0,
   "translation_key": "a730f2b1d562664fcfe74fe583444280e3ed7c510ba96079c4edaa5ae23bcb52",
   "translation_model_actual": "gpt-6-luna"

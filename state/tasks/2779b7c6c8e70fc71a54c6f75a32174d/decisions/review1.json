@@ -1,0 +1,35 @@
+{
+  "findings": [
+    {
+      "location": "IV, הפסקה המתחילה ״אבותיה של האישה ליד הבאר״",
+      "severity": "major",
+      "source_quote": "“Salvation is of Jesus” (4:22c).",
+      "suggested_fix": "החליפו את הציטוט ב־״הישועה היא מישו״, תוך שמירת ההפניה (4:22c). יש לתרגם את נוסח המאמר המודפס, גם כאשר הוא שונה מנוסח הפסוק המקובל.",
+      "translation_quote": "״הַיְשׁוּעָה מִן הַיְּהוּדִים הִיא״ (4:22c)."
+    },
+    {
+      "location": "הערת העורך; פסקת התחייה האנבפטיסטית; I.a, הפסקה הראשונה; I.b, הפסקה המתחילה ״העמדת פנים״; II.a; רשימת המקורות",
+      "severity": "major",
+      "source_quote": "“Bible Schools”; “Bible-based”; “found over 1,000 times in the Bible”; “the whole Bible is God speaking to man”; “Bible characters”; “any other Bible character”; “The Bible—King James Version.”",
+      "suggested_fix": "במקומות אלה החליפו את ״תנ״ך״ ב״כתבי הקודש״ בהתאמה דקדוקית: ״בתי ספר לכתבי הקודש״; ״מבוססת על כתבי הקודש״; ״מופיעות בכתבי הקודש״; ״כתבי הקודש כולם הם אלוהים המדבר אל האדם״; ״דמויות מכתבי הקודש״; ״כל דמות אחרת מכתבי הקודש״; ״כתבי הקודש — גרסת המלך ג׳יימס״. אין לשנות את ״תנ״ך״ במקומות שבהם המקור אומר Old Testament.",
+      "translation_quote": "״בתי ספר לתנ״ך״; ״מבוססת על התנ״ך״; ״מופיעות בתנ״ך יותר מאלף פעמים״; ״התנ״ך כולו הוא אלוהים המדבר אל האדם״; ״דמויות מן התנ״ך״; ״כל דמות אחרת מן התנ״ך״; ״התנ״ך — גרסת המלך ג׳יימס״."
+    },
+    {
+      "location": "III.c, הציטוט מאל הקולוסים 3:16",
+      "severity": "major",
+      "source_quote": "“singing with grace in your hearts to the Lord”",
+      "suggested_fix": "החליפו את סיום הציטוט ב־״ושרים לאדון בחסד שבלבכם״, תוך שמירת תגית ההדגשה וההפניה הקיימות.",
+      "translation_quote": "״וְשָׁרִים לֵאלֹהִים בְּלִבְּכֶם בִּתְהִלָּה״"
+    },
+    {
+      "location": "I.a, הפסקה המתחילה ״בהר סיני״",
+      "severity": "minor",
+      "source_quote": "“especially immodesty”",
+      "suggested_fix": "החליפו ״ובמיוחד חוסר צניעות בלבוש״ ב״ובמיוחד חוסר צניעות״, כדי לא לצמצם את דברי המקור ללבוש בלבד.",
+      "translation_quote": "״ובמיוחד חוסר צניעות בלבוש״"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

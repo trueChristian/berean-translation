@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-05T22:46:22+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"IV, הפסקה המתחילה ״אבותיה של האישה ליד הבאר״\",\n      \"severity\": \"major\",\n      \"source_quote\": \"“Salvation is of Jesus” (4:22c).\",\n      \"suggested_fix\": \"החליפו את הציטוט ב־״הישועה היא מישו״, תוך שמירת ההפניה (4:22c). יש לתרגם את נוסח המאמר המודפס, גם כאשר הוא שונה מנוסח הפסוק המקובל.\",\n      \"translation_quote\": \"״הַיְשׁוּעָה מִן הַיְּהוּדִים הִיא״ (4:22c).\"\n    },\n    {\n      \"location\": \"הערת העורך; פסקת התחייה האנבפטיסטית; I.a, הפסקה הראשונה; I.b, הפסקה המתחילה ״העמדת פנים״; II.a; רשימת המקורות\",\n      \"severity\": \"major\",\n      \"source_quote\": \"“Bible Schools”; “Bible-based”; “found over 1,000 times in the Bible”; “the whole Bible is God speaking to man”; “Bible characters”; “any other Bible character”; “The Bible—King James Version.”\",\n      \"suggested_fix\": \"במקומות אלה החליפו את ״תנ״ך״ ב״כתבי הקודש״ בהתאמה דקדוקית: ״בתי ספר לכתבי הקודש״; ״מבוססת על כתבי הקודש״; ״מופיעות בכתבי הקודש״; ״כתבי הקודש כולם הם אלוהים המדבר אל האדם״; ״דמויות מכתבי הקודש״; ״כל דמות אחרת מכתבי הקודש״; ״כתבי הקודש — גרסת המלך ג׳יימס״. אין לשנות את ״תנ״ך״ במקומות שבהם המקור אומר Old Testament.\",\n      \"translation_quote\": \"״בתי ספר לתנ״ך״; ״מבוססת על התנ״ך״; ״מופיעות בתנ״ך יותר מאלף פעמים״; ״התנ״ך כולו הוא אלוהים המדבר אל האדם״; ״דמויות מן התנ״ך״; ״כל דמות אחרת מן התנ״ך״; ״התנ״ך — גרסת המלך ג׳יימס״.\"\n    },\n    {\n      \"location\": \"III.c, הציטוט מאל הקולוסים 3:16\",\n      \"severity\": \"major\",\n      \"source_quote\": \"“singing with grace in your hearts to the Lord”\",\n      \"suggested_fix\": \"החליפו את סיום הציטוט ב־״ושרים לאדון בחסד שבלבכם״, תוך שמירת תגית ההדגשה וההפניה הקיימות.\",\n      \"translation_quote\": \"״וְשָׁרִים לֵאלֹהִים בְּלִבְּכֶם בִּתְהִלָּה״\"\n    },\n    {\n      \"location\": \"I.a, הפסקה המתחילה ״בהר סיני״\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"“especially immodesty”\",\n      \"suggested_fix\": \"החליפו ״ובמיוחד חוסר צניעות בלבוש״ ב״ובמיוחד חוסר צניעות״, כדי לא לצמצם את דברי המקור ללבוש בלבד.\",\n      \"translation_quote\": \"״ובמיוחד חוסר צניעות בלבוש״\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": false,\n  \"score\": 90\n}",
+    "content_bytes": 3023,
+    "content_evidence_truncated": false,
+    "content_sha256": "51bccbd8966f79dd191ed9a163569e05fd3505dcd12b40a1c113eafa6b96b188",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 986,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 138,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 13481,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 12378,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 14467
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}
