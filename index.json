@@ -60035,6 +60035,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/nld/articles/3558b7f3-5296-4770-a7c6-d420c923642d.html",
+      "html_sha256": "aee6bb9eacd987f17111251d655011a86aa087b030fbb325f8894ba811c85b26",
+      "human_reviewed": false,
+      "id": "3558b7f3-5296-4770-a7c6-d420c923642d",
+      "images": [
+        {
+          "alt": "Een brievenbus langs de weg met het postadres van het tijdschrift",
+          "public_path": "/images/articles/3558b7f3-5296-4770-a7c6-d420c923642d-1.jpg"
+        }
+      ],
+      "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
+      "language": "nld",
+      "language_tag": "nl",
+      "metadata": "content/nld/articles/3558b7f3-5296-4770-a7c6-d420c923642d.json",
+      "metadata_sha256": "bf7917f3930a97d9c5c56020e000cc0630a3bfbf6a11e356378d646f7a15dc8e",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
+      "source_translation_key": "459eee2e9c07155a363c1c0e355fdda66adbf2039a8df9dc3c6dcd5288b5461e",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Kostbare brieven van onze lezers",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/nld/articles/37272f7d-a8c0-4c15-b884-ebbf333303cb.html",
       "html_sha256": "0e1a88cbdf3fff62bdc8d2ac7ac4df4e42c5181f8c68837c7bf4d797fc4504ca",
       "human_reviewed": false,
