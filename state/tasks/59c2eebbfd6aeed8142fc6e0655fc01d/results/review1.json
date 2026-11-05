@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "8bfb0334-e787-4f52-a251-6d4a75123eb6",
+    "response_id": "chatcmpl-Egk5XgXkAq3VnZLOjjfyjLsb3oUtN",
+    "usage": {
+      "completion_tokens": 873,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 755,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 11115,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 10012,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 11988
+    }
+  },
+  "received_at": "2026-11-05T06:36:01+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Opening Scripture quotation",
+        "severity": "major",
+        "source_quote": "“no whoremonger, nor unclean person”",
+        "suggested_fix": "Replace “זונה” with a gender-neutral phrase for a sexually immoral person, such as “מי שחי בפריצות מינית”, preserving the distinction from “טמא”.",
+        "translation_quote": "“כל זונה, או טמא”"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 94
+  }
+}

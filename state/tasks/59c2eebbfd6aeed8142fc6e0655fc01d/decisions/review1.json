@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Opening Scripture quotation",
+      "severity": "major",
+      "source_quote": "“no whoremonger, nor unclean person”",
+      "suggested_fix": "Replace “זונה” with a gender-neutral phrase for a sexually immoral person, such as “מי שחי בפריצות מינית”, preserving the distinction from “טמא”.",
+      "translation_quote": "“כל זונה, או טמא”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
