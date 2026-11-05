@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": "45c9864ca9f590113fc06d6410b756679dfd13c8816a6018f8087b4d313ef85e",
   "base_metadata_sha256": "2c5cbd2ecd96744605e2d61814bf79472979e2f265a8c3f852029bf7f0bc4d7e",
-  "batch": "40ba7a72ef694e2e96b625f389427dd1",
   "campaign": "auto-2e5e700147727c9961e6839cfd905d8d2ec6d329e34fa990758c11a3e408a226",
   "created_at": "2026-11-05T00:10:52+00:00",
   "events": [
@@ -28,9 +27,30 @@
         },
         "total_tokens": 6651
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "correct",
+      "usage": {
+        "completion_tokens": 3285,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 157,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6795,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 6792,
+          "cached_tokens": 0
+        },
+        "total_tokens": 10080
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Malformed HTML closing tag: u",
+  "failure_kind": "invalid_result",
   "findings": [
     {
       "location": "HTML/metadata contract",
@@ -40,6 +60,7 @@
       "translation_quote": ""
     }
   ],
+  "finished_at": "2026-11-05T15:28:10+00:00",
   "id": "d80a5701b0ab429bf6b02e14bfef4e7a",
   "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
   "language": "cmn",
@@ -146,7 +167,7 @@
     "total_reserved_usd": 0.089143,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "aca8415cfcf9e5554286626ac6bcaa5724f97b93dadbcdbbe3b6300ec48874e3",
   "translation_model_actual": "gpt-6-luna"
