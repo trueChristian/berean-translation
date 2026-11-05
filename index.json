@@ -91876,6 +91876,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/swe/articles/6c4d3026-69b5-42c2-92aa-02d8ea8d73cf.html",
+      "html_sha256": "74bbf9bbb0564aec364d2b018a0e56020d910460c1aad7afb8b47dc34ae50752",
+      "human_reviewed": false,
+      "id": "6c4d3026-69b5-42c2-92aa-02d8ea8d73cf",
+      "images": [
+        {
+          "alt": "Tre segelbåtar på stilla vatten",
+          "public_path": "/images/articles/6c4d3026-69b5-42c2-92aa-02d8ea8d73cf-1.jpg"
+        }
+      ],
+      "issue_id": "4e575f26-fabd-5104-ba0d-d54ca032653b",
+      "language": "swe",
+      "language_tag": "sv",
+      "metadata": "content/swe/articles/6c4d3026-69b5-42c2-92aa-02d8ea8d73cf.json",
+      "metadata_sha256": "5b384c84818a209360c88f1f6d001f2753f18f855a09d04d304025a989d3d79b",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": null,
+      "source_revision": "22388745ad7f149609e65f5e28cfcc1257cd689e",
+      "source_translation_key": "785589167219dc6eebe3c06efe60a9e6c02cb55ae9cb8557bf7c692a1961e88f",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Kallelsen",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/swe/articles/6f528c85-5ee6-4ccd-804f-63652b5c3a1d.html",
       "html_sha256": "d5d4635c841a4f843cd3a5abf87f1ed94c28edeaee269f0a4c115383e2a42651",
       "human_reviewed": false,
