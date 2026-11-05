@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-05T06:35:02+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"30796e2b-9ec4-4bcf-b9e3-7d40802ff1f9\\\">\\n  <figure><img src=\\\"/images/articles/30796e2b-9ec4-4bcf-b9e3-7d40802ff1f9-1.jpg\\\" alt=\\\"En eldre mann holder en vifte ved siden av et fuglebur\\\"></figure>\\n  <p>En mann sto ved veikanten med et stort fuglebur.</p>\\n  <p>En gutt la merke til at buret var fullt av mange slags fugler.</p>\\n  <p>«Hvor fikk du tak i disse fuglene?» spurte han.</p>\\n  <p>«Å, litt overalt», svarte mannen. «Jeg lokker dem til meg med smuler og later som om jeg er vennen deres. Når de kommer nær, fanger jeg dem med et nett og stapper dem inn i buret mitt.»</p>\\n  <p>«Og hva skal du gjøre med dem nå?»</p>\\n  <p>Mannen gliste. «Jeg skal pirke borti dem med pinner og gjøre dem skikkelig sinte, så de slåss og dreper hverandre. Dem som overlever, skal jeg drepe. Ingen slipper unna.»</p>\\n  <p>Gutten så fast på mannen. Hva fikk ham til å gjøre slike ting? Han så inn i de grusomme, harde øynene. Så så han på fuglene, forsvarsløse og uten håp.</p>\\n  <p>«Kan jeg kjøpe fuglene?» spurte gutten. Mannen skjulte et smil, klar over at han kunne gjøre en god handel hvis han spilte kortene sine riktig.</p>\\n  <figure><img src=\\\"/images/articles/30796e2b-9ec4-4bcf-b9e3-7d40802ff1f9-2.jpg\\\" alt=\\\"Barn står overfor en mann ved siden av et hengende fuglebur\\\"></figure>\\n  <p>«Vel», sa han nølende. «Buret er ganske dyrt, og jeg har brukt mye tid på å samle disse fuglene. Jeg skal si deg hva jeg kan gjøre: Du kan få hele greia, fugler, bur og alt, for ti pund og jakken du har på deg.»</p>\\n  <p>Gutten nølte. Ti pund var alt han hadde, og jakken var ny og svært spesiell; den var faktisk hans mest verdifulle eiendel. Langsomt tok han fram de ti pundene og rakte dem over. Så tok han av seg jakken, enda langsommere, så på den en siste gang og rakte den også over.</p>\\n  <p>Han fikk buret av mannen. Og så (ja, du har kanskje gjettet det) åpnet han døren og slapp fuglene fri.</p>\\n  <hr>\\n  <p>Verdens fiende, Satan, sto ved livets veikant med et svært stort bur.</p>\\n  <p>Mannen som kom mot ham, la merke til at det var stappfullt av mennesker av alle slag, unge og gamle, fra alle raser og nasjoner.</p>\\n  <p>«Hvor fikk du tak i disse menneskene?» spurte mannen.</p>\\n  <p>«Å, fra hele verden», svarte Satan. «Jeg lokker dem med alkohol, narkotika, begjær, løgner, sinne, hat, kjærlighet til penger og alt mulig annet. Jeg later som om jeg er vennen deres og vil gi dem en god stund. Når jeg så har fått dem på kroken, går de inn i buret.»</p>\\n  <p>«Og hva skal du gjøre med dem nå?» spurte mannen.</p>\\n  <p>Satan gliste. «Jeg skal pirke borti dem, provosere dem og få dem til å hate og ødelegge hverandre. Jeg skal hisse opp rasehat og motstand mot lov og orden. Jeg skal gjøre folk lei, ensomme, misfornøyde, forvirrede og rastløse. Det er enkelt. Folk vil alltid lytte til det jeg tilbyr dem, og enda bedre: De vil skylde på Gud for følgene!»</p>\\n  <p>«Og så?» spurte mannen.</p>\\n  <p>«Dem som ikke ødelegger seg selv, skal jeg ødelegge. Ingen slipper unna meg.»</p>\\n  <p>Mannen gikk fram. «Kan jeg kjøpe disse menneskene av deg?» spurte han.</p>\\n  <p>Satan freste: «Ja, men det vil koste deg livet.» Så betalte Jesus Kristus, Guds Sønn, for at du skulle bli løslatt, for din frihet fra Satans felle, med sitt eget liv på korset på Golgata. Døren står åpen, og enhver som Satan har bedratt og sperret inne, kan bli satt fri.</p>\\n  <blockquote>\\n    <p><strong>Sett din lit til HERREN<br>av hele ditt hjerte,<br>og stol ikke på din egen<br>forstand.<br>Tenk på ham på alle dine veier,<br>så skal han gjøre stiene dine rette.</strong></p>\\n    <p><strong>Ordspråkene 3:5-6</strong></p>\\n  </blockquote>\\n</article>\\n\",\"section\":null,\"subtitle\":null,\"title\":\"Fuglebur\"}",
+    "content_bytes": 3846,
+    "content_evidence_truncated": false,
+    "content_sha256": "8cc8a0bed42138e03fd68db433e3f02dcc3df75033c57af97ef6a4ffe429e64f",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1299,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 58,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1903,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1900,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3202
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}
