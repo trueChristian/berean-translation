@@ -1468,6 +1468,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/afr/articles/3f679973-e351-4fe3-8930-e08d9fba23a5.html",
+      "html_sha256": "b648a84e571fd84e3c5a05c9656ddd61608c0e01cb60b1d88022f7fec8afea07",
+      "human_reviewed": false,
+      "id": "3f679973-e351-4fe3-8930-e08d9fba23a5",
+      "images": [
+        {
+          "alt": "Een stapper help ’n ander om teen sonsondergang te klim",
+          "public_path": "/images/articles/3f679973-e351-4fe3-8930-e08d9fba23a5-1.png"
+        }
+      ],
+      "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
+      "language": "afr",
+      "language_tag": "af",
+      "metadata": "content/afr/articles/3f679973-e351-4fe3-8930-e08d9fba23a5.json",
+      "metadata_sha256": "50179241d331de34ffe54c3f1064f8b61a3c3757cce88d5ad21bd960ad620684",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "INSPIRASIES VIR DIE JEUG",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "d910d483e90bcd959841ed8e96903546f249749ffefaa1d05b277a01a16ea99d",
+      "status": "ready",
+      "subtitle": null,
+      "title": "God wou my nie laat gaan nie",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/afr/articles/3feab4dd-c830-4ead-ad57-24d853847088.html",
       "html_sha256": "aa429c63cce6cd4fa50b5b1167ea8b9238577c8b83f9a2bfeb5b9fa4ec11dbca",
       "human_reviewed": false,
