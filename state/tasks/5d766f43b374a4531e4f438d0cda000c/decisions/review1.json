@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "Titus 2:3-5 quotation in the paragraph beginning “Die bejaarde vroue”; repeated quotations in the paragraphs beginning “Uiteindelik kom die jare…” and “Net soos Paulus…”",
+      "severity": "major",
+      "source_quote": "“keepers at home”",
+      "suggested_fix": "Replace “tuis te werk” with “die huis te behartig” in each quoted occurrence, preserving the existing HTML structure.",
+      "translation_quote": "“tuis te werk”"
+    },
+    {
+      "location": "Psalm 127:3-5 quotation in the paragraph beginning “Hoewel sommige dalk bevraagteken…”",
+      "severity": "major",
+      "source_quote": "“so are children of the youth”",
+      "suggested_fix": "Change “so is die seuns van die jeug” to “so is die kinders van die jeug” to preserve the source’s reference to children generally.",
+      "translation_quote": "“so is die seuns van die jeug”"
+    },
+    {
+      "location": "Titus 2:3-5 quotations in the paragraphs beginning “Die bejaarde vroue,” “Uiteindelik kom die jare…,” and “Net soos Paulus…”",
+      "severity": "minor",
+      "source_quote": "“teach the young women to be sober … To be discreet”",
+      "suggested_fix": "Use “nugter” for “sober” and retain “verstandig” for “discreet” in each quoted occurrence, so the two distinct qualities are not rendered identically.",
+      "translation_quote": "“die jong vroue kan leer om verstandig te wees … verstandig te wees”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

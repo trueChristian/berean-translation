@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-05T15:28:36+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Titus 2:3-5 quotation in the paragraph beginning “Die bejaarde vroue”; repeated quotations in the paragraphs beginning “Uiteindelik kom die jare…” and “Net soos Paulus…”\",\"severity\":\"major\",\"source_quote\":\"“keepers at home”\",\"suggested_fix\":\"Replace “tuis te werk” with “die huis te behartig” in each quoted occurrence, preserving the existing HTML structure.\",\"translation_quote\":\"“tuis te werk”\"},{\"location\":\"Psalm 127:3-5 quotation in the paragraph beginning “Hoewel sommige dalk bevraagteken…”\",\"severity\":\"major\",\"source_quote\":\"“so are children of the youth”\",\"suggested_fix\":\"Change “so is die seuns van die jeug” to “so is die kinders van die jeug” to preserve the source’s reference to children generally.\",\"translation_quote\":\"“so is die seuns van die jeug”\"},{\"location\":\"Titus 2:3-5 quotations in the paragraphs beginning “Die bejaarde vroue,” “Uiteindelik kom die jare…,” and “Net soos Paulus…”\",\"severity\":\"minor\",\"source_quote\":\"“teach the young women to be sober … To be discreet”\",\"suggested_fix\":\"Use “nugter” for “sober” and retain “verstandig” for “discreet” in each quoted occurrence, so the two distinct qualities are not rendered identically.\",\"translation_quote\":\"“die jong vroue kan leer om verstandig te wees … verstandig te wees”\"}],\"findings_complete\":true,\"passed\":false,\"score\":91}",
+    "content_bytes": 1438,
+    "content_evidence_truncated": false,
+    "content_sha256": "64cd9c589db24a9fb0ef71cd85706e85777344f53e7632b58634451d12819b03",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 993,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 638,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7359,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7356,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8352
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}
