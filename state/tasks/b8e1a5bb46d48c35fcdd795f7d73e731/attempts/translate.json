@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-05T02:54:03+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"f1f8d898-1108-4e49-9e62-b12667509107\\\">\\n  <p class=\\\"poem\\\"><strong>As-tu un péché ?<br>Un lourd fardeau qui prétend t’empêcher<br>De bien courir ? Pour jouir de la liberté du Christ,<br>Ô âme captive, lâche prise ; lâche prise, et vois<br>Où Jésus commencera.</strong></p>\\n  <p class=\\\"poem\\\"><strong>As-tu un souci ?<br>Alors remets ton souci à Dieu ;<br>Ce n’est pas son désir que tu portes ce fardeau ;<br>Laisse-le auprès de lui, et tu suivras le chemin de la vie<br>Comme si tu marchais dans les airs.</strong></p>\\n  <p class=\\\"poem\\\"><strong>As-tu la joie du Christ ?<br>Partage le bonheur qu’il donne à ceux<br>Dont la vie déborde de peines humaines ;<br>Sa joie transcende tout et devient plus pleine,<br>Rien ne peut la détruire.</strong></p>\\n  <p class=\\\"poem\\\"><strong>As-tu sa paix ?<br>La paix du Christ, qui dépasse l’entendement humain,<br>Si calme, si pure et profonde. Ce n’est que lorsque<br>Nous connaissons un tel repos — mais pas avant —<br>Que toute inquiétude peut cesser.</strong></p>\\n</article>\\n\",\"section\":null,\"subtitle\":null,\"title\":\"Les dons du Christ\"}",
+    "content_bytes": 1158,
+    "content_evidence_truncated": false,
+    "content_sha256": "a73f27dca3091e67c5581aedec238e88b0bf49f425b430cdf2476a8775674dac",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 560,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 197,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1145,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1142,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1705
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}
