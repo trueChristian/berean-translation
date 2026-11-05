@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "1e6a0df4-e42f-4245-8399-7242c59e0c73",
+    "response_id": "chatcmpl-Egk5wjoPx4tZ0ucZHJJBkYP375ZHS",
+    "usage": {
+      "completion_tokens": 368,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1144,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1141,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1512
+    }
+  },
+  "received_at": "2026-11-05T06:34:59+00:00",
+  "result": {
+    "html": "<article data-article-id=\"f1f8d898-1108-4e49-9e62-b12667509107\">\n  <p class=\"poem\"><strong>Bär du på en synd?<br>Någon tung börda som tycks vilja hindra dig<br>från att löpa väl? För att få Kristi frihet,<br>o fångna själ, släpp taget; släpp taget och se<br>var Jesus ska börja.</strong></p>\n  <p class=\"poem\"><strong>Bär du på en oro?<br>Lägg då din oro på Gud;<br>det är inte hans vilja att du ska bära den bördan;<br>lämna den hos honom, så går du livets väg<br>som om du vandrade på luft.</strong></p>\n  <p class=\"poem\"><strong>Har du Kristi glädje?<br>Den lycka han ger delar du med dem<br>vars liv svämmar över av mänsklig sorg;<br>hans glädje överträffar allt och växer sig större,<br>den kan ingenting förstöra.</strong></p>\n  <p class=\"poem\"><strong>Har du hans frid?<br>Kristi frid som övergår människans tankeförmåga och insikt,<br>så lugn, så ren och djup. Det är bara när<br>vi känner en sådan vila — men inte förrän då —<br>som all oro kan upphöra.</strong></p>\n</article>\n",
+    "section": null,
+    "subtitle": null,
+    "title": "Kristi gåvor"
+  }
+}
