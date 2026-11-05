@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-05T06:34:56+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"f1f8d898-1108-4e49-9e62-b12667509107\\\">\\n  <p class=\\\"poem\\\"><strong>האם יש בך חטא?<br>משא כבד כלשהו שמבקש לעכב אותך<br>מלרוץ היטב? כדי לזכות בחירותו של המשיח,<br>נפש שבויה, שחררי אותו; שחררי וראי<br>היכן ישוע יתחיל.</strong></p>\\n  <p class=\\\"poem\\\"><strong>האם יש בך דאגה?<br>השליכי אז את דאגתך על אלוהים;<br>אין זה רצונו שתישאי במשא הזה;<br>השאירי אותו בידיו, ותצעדי בדרך החיים<br>כאילו הלכת באוויר.</strong></p>\\n  <p class=\\\"poem\\\"><strong>האם יש בך שמחת המשיח?<br>חלקי את האושר שהוא מעניק לאלה<br>שחייהם גדושים בצרות אנוש;<br>שמחתו עולה על הכול ומוסיפה להתעצם,<br>ואי־דבר אינו יכול להשמידה.</strong></p>\\n  <p class=\\\"poem\\\"><strong>האם יש לך את שלומו?<br>שלום המשיח העולה על כל מחשבה והשגה,<br>שלו כל כך, טהור ועמוק. רק כשאנו<br>מכירים מנוחה כזאת — ולא לפני כן —<br>כל טרדה יכולה לחדול.</strong></p>\\n</article>\\n\",\"section\":null,\"subtitle\":null,\"title\":\"מתנות המשיח\"}",
+    "content_bytes": 1347,
+    "content_evidence_truncated": false,
+    "content_sha256": "21a91bdc120101724749de37e6f6427188a4a4f586d788e771583a9918ec73fb",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 384,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1149,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1146,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1533
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}

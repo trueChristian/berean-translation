@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "e693fa75-5c72-492e-aca8-18f0063786ab",
+    "response_id": "chatcmpl-Egk30D04cXc6i3zo2erW2HGx0kqSy",
+    "usage": {
+      "completion_tokens": 384,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1149,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1146,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1533
+    }
+  },
+  "received_at": "2026-11-05T06:34:56+00:00",
+  "result": {
+    "html": "<article data-article-id=\"f1f8d898-1108-4e49-9e62-b12667509107\">\n  <p class=\"poem\"><strong>האם יש בך חטא?<br>משא כבד כלשהו שמבקש לעכב אותך<br>מלרוץ היטב? כדי לזכות בחירותו של המשיח,<br>נפש שבויה, שחררי אותו; שחררי וראי<br>היכן ישוע יתחיל.</strong></p>\n  <p class=\"poem\"><strong>האם יש בך דאגה?<br>השליכי אז את דאגתך על אלוהים;<br>אין זה רצונו שתישאי במשא הזה;<br>השאירי אותו בידיו, ותצעדי בדרך החיים<br>כאילו הלכת באוויר.</strong></p>\n  <p class=\"poem\"><strong>האם יש בך שמחת המשיח?<br>חלקי את האושר שהוא מעניק לאלה<br>שחייהם גדושים בצרות אנוש;<br>שמחתו עולה על הכול ומוסיפה להתעצם,<br>ואי־דבר אינו יכול להשמידה.</strong></p>\n  <p class=\"poem\"><strong>האם יש לך את שלומו?<br>שלום המשיח העולה על כל מחשבה והשגה,<br>שלו כל כך, טהור ועמוק. רק כשאנו<br>מכירים מנוחה כזאת — ולא לפני כן —<br>כל טרדה יכולה לחדול.</strong></p>\n</article>\n",
+    "section": null,
+    "subtitle": null,
+    "title": "מתנות המשיח"
+  }
+}
