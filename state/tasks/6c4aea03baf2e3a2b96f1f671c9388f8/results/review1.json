@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "29b6fdfe-0ee5-4544-9402-1e365d05005a",
+    "response_id": "chatcmpl-Eh1A6v1uEXJYEIUclVNxGAHNM22tB",
+    "usage": {
+      "completion_tokens": 933,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 782,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7055,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7052,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7988
+    }
+  },
+  "received_at": "2026-11-05T23:43:48+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Psalm 127:3 quotation and the following paragraph",
+        "severity": "major",
+        "source_quote": "“the fruit of the womb is his reward” / “Our children are His heritage and His reward!”",
+        "suggested_fix": "Use „Lohn“ for „reward“ in both places: „…und Leibesfrucht ist sein Lohn“ and „Unsere Kinder sind sein Erbe und sein Lohn!“",
+        "translation_quote": "„…und Leibesfrucht ist ein Geschenk“ / „Unsere Kinder sind sein Erbe und sein Geschenk!“"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 92
+  }
+}
