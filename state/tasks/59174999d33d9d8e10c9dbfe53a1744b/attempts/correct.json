@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-05T23:44:08+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"f1f8d898-1108-4e49-9e62-b12667509107\\\">\\n  <p class=\\\"poem\\\"><strong>Bär du på en synd?<br>Någon tung börda som tycks vilja hindra dig<br>från att löpa väl? För att få Kristi frihet,<br>o fångna själ, släpp taget; släpp taget och se<br>var Jesus ska börja.</strong></p>\\n  <p class=\\\"poem\\\"><strong>Bär du på en oro?<br>Lägg då din oro på Gud;<br>det är inte hans vilja att du ska bära den bördan;<br>lämna den hos honom, så går du livets väg<br>som om du vandrade på luft.</strong></p>\\n  <p class=\\\"poem\\\"><strong>Har du Kristi glädje?<br>Den lycka han ger delar du med dem<br>vars liv svämmar över av mänsklig sorg;<br>hans glädje överträffar allt och växer sig större,<br>ingenting kan förstöra den.</strong></p>\\n  <p class=\\\"poem\\\"><strong>Har du hans frid?<br>Kristi frid som övergår människans tankeförmåga och insikt,<br>så lugn, så ren och djup. Det är bara när<br>vi känner en sådan vila — men inte förrän då —<br>som all oro kan upphöra.</strong></p>\\n</article>\\n\",\"section\":null,\"subtitle\":null,\"title\":\"Kristi gåvor\"}",
+    "content_bytes": 1126,
+    "content_evidence_truncated": false,
+    "content_sha256": "d93dbcda99854ec55b34f936f145c3ad98b0cd6786488fbcc509bf375ceb643d",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 559,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 185,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1615,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1612,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2174
+    }
+  },
+  "review_attempts": 1,
+  "stage": "correct",
+  "translation_attempts": 2
+}
