@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-05T23:44:19+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"html, paragraf kedua di bawah “Kepribadian Kita yang Unik”\",\n      \"severity\": \"major\",\n      \"source_quote\": \"Live sparingly and you shall hear sparingly, though you be listening to an angel from heaven.\",\n      \"suggested_fix\": \"Ganti kalimat tersebut dengan: “Hiduplah dengan jiwa yang sempit, maka sedikit pula yang akan kaudengar, sekalipun engkau mendengarkan malaikat dari surga.”\",\n      \"translation_quote\": \"Hiduplah dengan hemat, maka sedikit pula yang akan kaudengar, sekalipun engkau mendengarkan malaikat dari surga.\"\n    },\n    {\n      \"location\": \"html, bagian “…Fiksi”, kutipan Matius 13:57\",\n      \"severity\": \"major\",\n      \"source_quote\": \"A prophet is not without honour, save in his own country, and in his own house\",\n      \"suggested_fix\": \"Ganti teks kutipan dengan “...Seorang nabi dihormati di mana-mana, kecuali di negerinya sendiri dan di rumahnya sendiri”, dengan mempertahankan tag dan referensi yang ada.\",\n      \"translation_quote\": \"Seorang nabi tidak dihormati di negerinya sendiri dan di rumahnya\"\n    },\n    {\n      \"location\": \"html, paragraf terakhir, awal kutipan 2 Petrus 1:19\",\n      \"severity\": \"major\",\n      \"source_quote\": \"We have also a more sure word of prophecy;\",\n      \"suggested_fix\": \"Ganti “Dengan demikian kami makin diteguhkan oleh firman yang telah disampaikan oleh para nabi.” dengan “Kami juga memiliki firman nubuat yang lebih pasti;” agar yang dinyatakan lebih pasti adalah firman nubuat, bukan keadaan para penerimanya.\",\n      \"translation_quote\": \"Dengan demikian kami makin diteguhkan oleh firman yang telah disampaikan oleh para nabi.\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": false,\n  \"score\": 92\n}",
+    "content_bytes": 1746,
+    "content_evidence_truncated": false,
+    "content_sha256": "4b81c1a81b0caf0dd7c8cc70ae75de13a3b654dc1c2845aeca32b7adf56132a7",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 518,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 64,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8705,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7602,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 9223
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}

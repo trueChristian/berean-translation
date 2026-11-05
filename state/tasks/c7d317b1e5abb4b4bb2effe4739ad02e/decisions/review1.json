@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "html, paragraf kedua di bawah “Kepribadian Kita yang Unik”",
+      "severity": "major",
+      "source_quote": "Live sparingly and you shall hear sparingly, though you be listening to an angel from heaven.",
+      "suggested_fix": "Ganti kalimat tersebut dengan: “Hiduplah dengan jiwa yang sempit, maka sedikit pula yang akan kaudengar, sekalipun engkau mendengarkan malaikat dari surga.”",
+      "translation_quote": "Hiduplah dengan hemat, maka sedikit pula yang akan kaudengar, sekalipun engkau mendengarkan malaikat dari surga."
+    },
+    {
+      "location": "html, bagian “…Fiksi”, kutipan Matius 13:57",
+      "severity": "major",
+      "source_quote": "A prophet is not without honour, save in his own country, and in his own house",
+      "suggested_fix": "Ganti teks kutipan dengan “...Seorang nabi dihormati di mana-mana, kecuali di negerinya sendiri dan di rumahnya sendiri”, dengan mempertahankan tag dan referensi yang ada.",
+      "translation_quote": "Seorang nabi tidak dihormati di negerinya sendiri dan di rumahnya"
+    },
+    {
+      "location": "html, paragraf terakhir, awal kutipan 2 Petrus 1:19",
+      "severity": "major",
+      "source_quote": "We have also a more sure word of prophecy;",
+      "suggested_fix": "Ganti “Dengan demikian kami makin diteguhkan oleh firman yang telah disampaikan oleh para nabi.” dengan “Kami juga memiliki firman nubuat yang lebih pasti;” agar yang dinyatakan lebih pasti adalah firman nubuat, bukan keadaan para penerimanya.",
+      "translation_quote": "Dengan demikian kami makin diteguhkan oleh firman yang telah disampaikan oleh para nabi."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
