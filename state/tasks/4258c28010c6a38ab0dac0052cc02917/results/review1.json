@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "727a6ae0-03fb-42fc-bbe2-c3a726a7c5a0",
+    "response_id": "chatcmpl-Egh1kGRhfLPvpMJdwY4yzV9VIpwPX",
+    "usage": {
+      "completion_tokens": 1077,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 817,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4820,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3717,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 5897
+    }
+  },
+  "received_at": "2026-11-05T02:54:06+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "הפסקה השנייה הארוכה, לקראת סופה",
+        "severity": "minor",
+        "source_quote": "I was alone with my family, longing to find likeminded Christian fellowship.",
+        "suggested_fix": "החליפו את «כמה למצוא אחווה נוצרית בעלת השקפה דומה לשלנו» בנוסח טבעי המשמר את הכמיהה, למשל: «כמה השתוקקתי למצוא אחווה נוצרית בעלת השקפה דומה לשלנו».",
+        "translation_quote": "הייתי לבדי עם משפחתי, כמה למצוא אחווה נוצרית בעלת השקפה דומה לשלנו."
+      },
+      {
+        "location": "הפסקה שאחרי קו ההפרדה, תחילתה",
+        "severity": "minor",
+        "source_quote": "I have been very challenged by this magazine.",
+        "suggested_fix": "נסחו באופן טבעי יותר, למשל: «המגזין הזה עורר בי מחשבה רבה והציב בפניי אתגר רוחני משמעותי.»",
+        "translation_quote": "המגזין הזה עורר בי אתגר רב."
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 97
+  }
+}

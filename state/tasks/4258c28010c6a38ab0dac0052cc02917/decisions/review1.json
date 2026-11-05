@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "הפסקה השנייה הארוכה, לקראת סופה",
+      "severity": "minor",
+      "source_quote": "I was alone with my family, longing to find likeminded Christian fellowship.",
+      "suggested_fix": "החליפו את «כמה למצוא אחווה נוצרית בעלת השקפה דומה לשלנו» בנוסח טבעי המשמר את הכמיהה, למשל: «כמה השתוקקתי למצוא אחווה נוצרית בעלת השקפה דומה לשלנו».",
+      "translation_quote": "הייתי לבדי עם משפחתי, כמה למצוא אחווה נוצרית בעלת השקפה דומה לשלנו."
+    },
+    {
+      "location": "הפסקה שאחרי קו ההפרדה, תחילתה",
+      "severity": "minor",
+      "source_quote": "I have been very challenged by this magazine.",
+      "suggested_fix": "נסחו באופן טבעי יותר, למשל: «המגזין הזה עורר בי מחשבה רבה והציב בפניי אתגר רוחני משמעותי.»",
+      "translation_quote": "המגזין הזה עורר בי אתגר רב."
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

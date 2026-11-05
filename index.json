@@ -35466,6 +35466,34 @@
     {
       "ai_notice_required": true,
       "direction": "rtl",
+      "html": "content/heb/articles/3558b7f3-5296-4770-a7c6-d420c923642d.html",
+      "html_sha256": "1fccd02860b28e0afaafdd928657d881bf5cbbe19aa5d4c7dedfdc235ea66a08",
+      "human_reviewed": false,
+      "id": "3558b7f3-5296-4770-a7c6-d420c923642d",
+      "images": [
+        {
+          "alt": "תיבת דואר בצד הדרך שעליה מופיעה כתובת המשלוח של המגזין",
+          "public_path": "/images/articles/3558b7f3-5296-4770-a7c6-d420c923642d-1.jpg"
+        }
+      ],
+      "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
+      "language": "heb",
+      "language_tag": "he",
+      "metadata": "content/heb/articles/3558b7f3-5296-4770-a7c6-d420c923642d.json",
+      "metadata_sha256": "01ad484519e9844ae2e4ebf16d4479247221a6e55e489ffa415ae48cc01324da",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
+      "source_translation_key": "459eee2e9c07155a363c1c0e355fdda66adbf2039a8df9dc3c6dcd5288b5461e",
+      "status": "ready",
+      "subtitle": null,
+      "title": "מכתבים יקרים מקוראינו",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
       "html": "content/heb/articles/37272f7d-a8c0-4c15-b884-ebbf333303cb.html",
       "html_sha256": "2352902d98d2e3fae0bf56cf8c5897252973df9d303149c9129d34d4c6124588",
       "human_reviewed": false,
