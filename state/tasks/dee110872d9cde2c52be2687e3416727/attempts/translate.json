@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-05T02:54:51+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"f1f8d898-1108-4e49-9e62-b12667509107\\\">\\n  <p class=\\\"poem\\\"><strong>Har du synd?<br>En tung byrde som liksom vil hindre deg<br>i å løpe godt? For å få Kristi frihet,<br>slipp taket, du fangne sjel; slipp taket, og se<br>hvor Jesus vil begynne.</strong></p>\\n  <p class=\\\"poem\\\"><strong>Har du en bekymring?<br>Så kast din bekymring på Gud;<br>det er ikke hans ønske at du skal bære den byrden;<br>overlat den til ham, så vil du gå livets vei<br>som om du gikk på luft.</strong></p>\\n  <p class=\\\"poem\\\"><strong>Har du Kristi glede?<br>Del den lykken han gir med dem<br>hvis liv flommer over av menneskelig sorg;<br>hans glede overgår alt og blir enda større,<br>og dette kan ingenting ødelegge.</strong></p>\\n  <p class=\\\"poem\\\"><strong>Har du hans fred?<br>Kristi fred, som overgår menneskelig tanke og forstand,<br>så rolig, så ren og dyp. Det er først når<br>vi kjenner en slik hvile – men ikke før da –<br>at all uro kan ta slutt.</strong></p>\\n</article>\\n\",\"section\":null,\"subtitle\":null,\"title\":\"Kristi gaver\"}",
+    "content_bytes": 1078,
+    "content_evidence_truncated": false,
+    "content_sha256": "7d78da8ca1727345179b1792649ca0a5550de6a0b872cb34c233e5be3ed318c4",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 357,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1155,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1152,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1512
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}
