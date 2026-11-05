@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-05T02:53:38+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML paragraph beginning “After spending about 9 years”\",\"severity\":\"major\",\"source_quote\":\"“I could think of a word to say, so I just said ‘Christ?’”\",\"suggested_fix\":\"Translate the printed affirmative wording, for example: «Jeg kunne komme på et ord å si, så jeg sa bare «Kristus?»»\",\"translation_quote\":\"«Jeg kom ikke på noe ord å si, så jeg sa bare «Kristus?»»\"}],\"findings_complete\":true,\"passed\":false,\"score\":94}",
+    "content_bytes": 471,
+    "content_evidence_truncated": false,
+    "content_sha256": "37de3ffa4eba65938d1b151a6dcf0878c271526d5d9e8254b669788cbc8f20f7",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 702,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 567,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4743,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3640,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 5445
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}
