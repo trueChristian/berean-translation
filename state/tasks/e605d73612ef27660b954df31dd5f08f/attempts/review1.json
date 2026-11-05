@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-05T07:03:47+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"translation.html, alinea over de berg van de verheerlijking (Mattheüs 17)\",\"severity\":\"major\",\"source_quote\":\"Peter wanted to reinvent the worship experience by building three shrines.\",\"suggested_fix\":\"Vervang „door drie tenten te bouwen” door „door drie heiligdommen te bouwen”.\",\"translation_quote\":\"wilde Petrus de ervaring van de aanbidding opnieuw vormgeven door drie tenten te bouwen.\"},{\"location\":\"translation.html, eerste alinea onder I.a over Openbaring\",\"severity\":\"minor\",\"source_quote\":\"In the 2nd and 3rd chapters of Revelation\",\"suggested_fix\":\"Vervang „In de tweede en derde hoofdstukken van Openbaring” door „In het tweede en derde hoofdstuk van Openbaring”.\",\"translation_quote\":\"In de tweede en derde hoofdstukken van Openbaring\"}],\"findings_complete\":true,\"passed\":false,\"score\":94}",
+    "content_bytes": 846,
+    "content_evidence_truncated": false,
+    "content_sha256": "91f8ba72db383ae0eb05f249741eb127e3bee7bcdd8c40de73d0bf17e1c31bac",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 298,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 84,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 11925,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 10822,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 12223
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}

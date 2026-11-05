@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "7f34b40a-0f5b-418d-85f9-4d6b1728c38b",
+    "response_id": "chatcmpl-EglfM5pC93yHkKHAFQ7xE8Jg9vLu5",
+    "usage": {
+      "completion_tokens": 298,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 84,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 11925,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 10822,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 12223
+    }
+  },
+  "received_at": "2026-11-05T07:03:47+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "translation.html, alinea over de berg van de verheerlijking (Mattheüs 17)",
+        "severity": "major",
+        "source_quote": "Peter wanted to reinvent the worship experience by building three shrines.",
+        "suggested_fix": "Vervang „door drie tenten te bouwen” door „door drie heiligdommen te bouwen”.",
+        "translation_quote": "wilde Petrus de ervaring van de aanbidding opnieuw vormgeven door drie tenten te bouwen."
+      },
+      {
+        "location": "translation.html, eerste alinea onder I.a over Openbaring",
+        "severity": "minor",
+        "source_quote": "In the 2nd and 3rd chapters of Revelation",
+        "suggested_fix": "Vervang „In de tweede en derde hoofdstukken van Openbaring” door „In het tweede en derde hoofdstuk van Openbaring”.",
+        "translation_quote": "In de tweede en derde hoofdstukken van Openbaring"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 94
+  }
+}

@@ -5,11 +5,47 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "c2addbca52cd4f6b8c1d166658fda5a6",
   "campaign": "auto-494f9aec135c06bba90186cb5be5be9a153cbc7c1ce2291f8c0d1eccc9747310",
   "created_at": "2026-11-05T06:39:47+00:00",
-  "events": [],
-  "findings": [],
+  "events": [
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 298,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 84,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 11925,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 10822,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 12223
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "translation.html, alinea over de berg van de verheerlijking (Mattheüs 17)",
+      "severity": "major",
+      "source_quote": "Peter wanted to reinvent the worship experience by building three shrines.",
+      "suggested_fix": "Vervang „door drie tenten te bouwen” door „door drie heiligdommen te bouwen”.",
+      "translation_quote": "wilde Petrus de ervaring van de aanbidding opnieuw vormgeven door drie tenten te bouwen."
+    },
+    {
+      "location": "translation.html, eerste alinea onder I.a over Openbaring",
+      "severity": "minor",
+      "source_quote": "In the 2nd and 3rd chapters of Revelation",
+      "suggested_fix": "Vervang „In de tweede en derde hoofdstukken van Openbaring” door „In het tweede en derde hoofdstuk van Openbaring”.",
+      "translation_quote": "In de tweede en derde hoofdstukken van Openbaring"
+    }
+  ],
   "id": "e605d73612ef27660b954df31dd5f08f",
   "issue_id": "4e575f26-fabd-5104-ba0d-d54ca032653b",
   "language": "nld",
@@ -98,11 +134,13 @@
     }
   },
   "protected": false,
+  "quality_score": 94,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/f170b59c5b4cc7d1f9e03dcb7760474d0f2879e0f09d0377b8f46e67154d4f56.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "review1",
     "max_candidate_bytes": 120000,
@@ -115,7 +153,7 @@
     "total_reserved_usd": 0.800691,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 0,
   "translation_key": "a730f2b1d562664fcfe74fe583444280e3ed7c510ba96079c4edaa5ae23bcb52",
   "translation_model_actual": "gpt-6-luna"
