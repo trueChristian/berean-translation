@@ -37089,7 +37089,7 @@
       "ai_notice_required": true,
       "direction": "rtl",
       "html": "content/heb/articles/903e4b58-b246-4ee3-85e7-eecf158a7a75.html",
-      "html_sha256": "99f5a3f18b8e49699e01a079d4a5bba0e3dd2cb7c644026cb10ce92e1e64f948",
+      "html_sha256": "8ee81f607a4e0e950fd24397c202967d1c05a730deba544c6a97385b8e1cde6a",
       "human_reviewed": false,
       "id": "903e4b58-b246-4ee3-85e7-eecf158a7a75",
       "images": [
@@ -37102,16 +37102,16 @@
       "language": "heb",
       "language_tag": "he",
       "metadata": "content/heb/articles/903e4b58-b246-4ee3-85e7-eecf158a7a75.json",
-      "metadata_sha256": "fa3aca897d98cfe86b2a4aba785dbafe49b7bb0a8fc4abf854ad1be2a52c898a",
+      "metadata_sha256": "768bf807ef623cff3c1b894a9aea542966e99f6993d20a98bc47178832f061a5",
       "provider": "OpenAI",
-      "review_model": "gpt-6.1-sol",
+      "review_model": "gpt-6-luna",
       "section": "מאחות לאחות",
-      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
-      "source_translation_key": "bc655ca0e757a92869b0811d5a6de87a4ca48f1e4eef1923cd7135609b8dc379",
-      "status": "stale",
+      "source_revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
+      "source_translation_key": "aca8415cfcf9e5554286626ac6bcaa5724f97b93dadbcdbbe3b6300ec48874e3",
+      "status": "ready",
       "subtitle": null,
-      "title": "קריאה מלאת שמחה",
-      "translation_model": "gpt-6.1-sol"
+      "title": "ייעוד של שמחה",
+      "translation_model": "gpt-6-luna"
     },
     {
       "ai_notice_required": true,
