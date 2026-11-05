@@ -20402,6 +20402,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/deu/articles/3558b7f3-5296-4770-a7c6-d420c923642d.html",
+      "html_sha256": "cea64e95d5efb280ce95f0d828ffc4586be628e4408540d54558955e15eafd4d",
+      "human_reviewed": false,
+      "id": "3558b7f3-5296-4770-a7c6-d420c923642d",
+      "images": [
+        {
+          "alt": "Ein Straßenbriefkasten mit der Postanschrift der Zeitschrift",
+          "public_path": "/images/articles/3558b7f3-5296-4770-a7c6-d420c923642d-1.jpg"
+        }
+      ],
+      "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
+      "language": "deu",
+      "language_tag": "de",
+      "metadata": "content/deu/articles/3558b7f3-5296-4770-a7c6-d420c923642d.json",
+      "metadata_sha256": "44ba9e7b9c757999aaa70cff4e99d9b5c839f1477aa1f57d6ba1c44634122184",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
+      "source_translation_key": "459eee2e9c07155a363c1c0e355fdda66adbf2039a8df9dc3c6dcd5288b5461e",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Kostbare Briefe unserer Leser",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/deu/articles/37272f7d-a8c0-4c15-b884-ebbf333303cb.html",
       "html_sha256": "917e711a5e60c1be62271957902b381ec6db7fad8bf775ada8c5b1686bbe70b5",
       "human_reviewed": false,

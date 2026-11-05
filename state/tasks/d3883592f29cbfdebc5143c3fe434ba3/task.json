@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "42c20ebe1d0a421a9f8dfe0100c7e487",
   "campaign": "auto-99476cec55fac3351dfc93f08809e83e0efe60f1a3bae028cf151568854b8bed",
   "created_at": "2026-11-03T22:10:03+00:00",
   "events": [
@@ -28,10 +27,46 @@
         },
         "total_tokens": 4294
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 938,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 705,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4648,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 3545,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 5586
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "HTML, second-to-last paragraph",
+      "severity": "minor",
+      "source_quote": "My wife has noticed that even ungodly people in the community treat her with a measure of reverence, tenderness and respect",
+      "suggested_fix": "Replace „in der Gemeinde“ with „in der Gemeinschaft“ to avoid implying the people were members of a church congregation.",
+      "translation_quote": "Meine Frau hat festgestellt, dass selbst gottlose Menschen in der Gemeinde ihr mit einem Maß an Ehrfurcht, Zartheit und Respekt begegnen"
+    },
+    {
+      "location": "HTML, long testimony paragraph",
+      "severity": "minor",
+      "source_quote": "They ... saw us, with my wife covered, entering this store",
+      "suggested_fix": "Replace „mit der bedeckten Frau“ with „mit meiner verschleierten Frau“ to make clear that the wife was wearing a head covering.",
+      "translation_quote": "Sie kamen gerade aus dem K-Mart und sahen uns mit der bedeckten Frau dieses Geschäft betreten."
+    }
+  ],
+  "finished_at": "2026-11-05T02:53:41+00:00",
   "id": "d3883592f29cbfdebc5143c3fe434ba3",
   "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
   "language": "deu",
@@ -120,9 +155,11 @@
     }
   },
   "protected": false,
+  "quality_score": 97,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/b90a551397024be9f0d057a09f4b11218c609006eb7fba34164cc6a14aacedb6.json",
   "stage": "review1",
   "stage_budget": {
@@ -138,7 +175,7 @@
     "total_reserved_usd": 0.087725,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "459eee2e9c07155a363c1c0e355fdda66adbf2039a8df9dc3c6dcd5288b5461e",
   "translation_model_actual": "gpt-6-luna"

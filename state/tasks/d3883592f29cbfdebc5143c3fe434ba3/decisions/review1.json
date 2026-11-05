@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "HTML, second-to-last paragraph",
+      "severity": "minor",
+      "source_quote": "My wife has noticed that even ungodly people in the community treat her with a measure of reverence, tenderness and respect",
+      "suggested_fix": "Replace „in der Gemeinde“ with „in der Gemeinschaft“ to avoid implying the people were members of a church congregation.",
+      "translation_quote": "Meine Frau hat festgestellt, dass selbst gottlose Menschen in der Gemeinde ihr mit einem Maß an Ehrfurcht, Zartheit und Respekt begegnen"
+    },
+    {
+      "location": "HTML, long testimony paragraph",
+      "severity": "minor",
+      "source_quote": "They ... saw us, with my wife covered, entering this store",
+      "suggested_fix": "Replace „mit der bedeckten Frau“ with „mit meiner verschleierten Frau“ to make clear that the wife was wearing a head covering.",
+      "translation_quote": "Sie kamen gerade aus dem K-Mart und sahen uns mit der bedeckten Frau dieses Geschäft betreten."
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

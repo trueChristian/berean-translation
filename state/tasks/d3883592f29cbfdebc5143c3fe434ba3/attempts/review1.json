@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-05T02:53:41+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, second-to-last paragraph\",\"severity\":\"minor\",\"source_quote\":\"My wife has noticed that even ungodly people in the community treat her with a measure of reverence, tenderness and respect\",\"suggested_fix\":\"Replace „in der Gemeinde“ with „in der Gemeinschaft“ to avoid implying the people were members of a church congregation.\",\"translation_quote\":\"Meine Frau hat festgestellt, dass selbst gottlose Menschen in der Gemeinde ihr mit einem Maß an Ehrfurcht, Zartheit und Respekt begegnen\"},{\"location\":\"HTML, long testimony paragraph\",\"severity\":\"minor\",\"source_quote\":\"They ... saw us, with my wife covered, entering this store\",\"suggested_fix\":\"Replace „mit der bedeckten Frau“ with „mit meiner verschleierten Frau“ to make clear that the wife was wearing a head covering.\",\"translation_quote\":\"Sie kamen gerade aus dem K-Mart und sahen uns mit der bedeckten Frau dieses Geschäft betreten.\"}],\"findings_complete\":true,\"passed\":true,\"score\":97}",
+    "content_bytes": 990,
+    "content_evidence_truncated": false,
+    "content_sha256": "fd3e55fbf5f29837e20c5f1ec4d9032445eb06abf09f6ec289a81c2735c8e1e8",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 938,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 705,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4648,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3545,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 5586
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}
