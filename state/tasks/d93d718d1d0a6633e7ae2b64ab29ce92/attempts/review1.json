@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-05T23:44:12+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"html, Absatz unter „Unsere einzigartige Persönlichkeit“, beginnend mit „Worauf wir unser Herz richten“\",\n      \"severity\": \"major\",\n      \"source_quote\": \"Live sparingly and you shall hear sparingly, though you be listening to an angel from heaven. Live nobly and you will hear nobly\",\n      \"suggested_fix\": \"Ersetze „Lebe maßvoll, und du wirst nur wenig hören“ durch „Lebe geistlich kärglich, und du wirst nur wenig hören“.\",\n      \"translation_quote\": \"Lebe maßvoll, und du wirst nur wenig hören, selbst wenn du einem Engel vom Himmel zuhörst. Lebe edel, und du wirst Edles hören\"\n    },\n    {\n      \"location\": \"html, Absatz beginnend mit „Das geschieht bei allen von uns“\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"We are listening, not with the bodily ear, but with our loves and hates, our grudges and preferences.\",\n      \"suggested_fix\": \"Ersetze „mit unseren Lieben und unserem Hass“ durch „mit dem, was wir lieben und hassen“.\",\n      \"translation_quote\": \"Wir hören nicht mit dem körperlichen Ohr, sondern mit unseren Lieben und unserem Hass, unseren Grollgefühlen und Vorlieben.\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": false,\n  \"score\": 94\n}",
+    "content_bytes": 1259,
+    "content_evidence_truncated": false,
+    "content_sha256": "671fd460e9831295639b7a977faeae1ab4ce66caf324ca46bef80cccfec7e569",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 378,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 51,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8420,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7317,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 8798
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}

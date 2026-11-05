@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "html, Absatz unter „Unsere einzigartige Persönlichkeit“, beginnend mit „Worauf wir unser Herz richten“",
+      "severity": "major",
+      "source_quote": "Live sparingly and you shall hear sparingly, though you be listening to an angel from heaven. Live nobly and you will hear nobly",
+      "suggested_fix": "Ersetze „Lebe maßvoll, und du wirst nur wenig hören“ durch „Lebe geistlich kärglich, und du wirst nur wenig hören“.",
+      "translation_quote": "Lebe maßvoll, und du wirst nur wenig hören, selbst wenn du einem Engel vom Himmel zuhörst. Lebe edel, und du wirst Edles hören"
+    },
+    {
+      "location": "html, Absatz beginnend mit „Das geschieht bei allen von uns“",
+      "severity": "minor",
+      "source_quote": "We are listening, not with the bodily ear, but with our loves and hates, our grudges and preferences.",
+      "suggested_fix": "Ersetze „mit unseren Lieben und unserem Hass“ durch „mit dem, was wir lieben und hassen“.",
+      "translation_quote": "Wir hören nicht mit dem körperlichen Ohr, sondern mit unseren Lieben und unserem Hass, unseren Grollgefühlen und Vorlieben."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

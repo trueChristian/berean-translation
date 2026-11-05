@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "385f1475-9faf-4ebf-991c-797509aef5fa",
+    "response_id": "chatcmpl-Eh0fj0VOJWJWJpBLexZha4zeaQssL",
+    "usage": {
+      "completion_tokens": 378,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 51,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8420,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7317,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 8798
+    }
+  },
+  "received_at": "2026-11-05T23:44:12+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "html, Absatz unter „Unsere einzigartige Persönlichkeit“, beginnend mit „Worauf wir unser Herz richten“",
+        "severity": "major",
+        "source_quote": "Live sparingly and you shall hear sparingly, though you be listening to an angel from heaven. Live nobly and you will hear nobly",
+        "suggested_fix": "Ersetze „Lebe maßvoll, und du wirst nur wenig hören“ durch „Lebe geistlich kärglich, und du wirst nur wenig hören“.",
+        "translation_quote": "Lebe maßvoll, und du wirst nur wenig hören, selbst wenn du einem Engel vom Himmel zuhörst. Lebe edel, und du wirst Edles hören"
+      },
+      {
+        "location": "html, Absatz beginnend mit „Das geschieht bei allen von uns“",
+        "severity": "minor",
+        "source_quote": "We are listening, not with the bodily ear, but with our loves and hates, our grudges and preferences.",
+        "suggested_fix": "Ersetze „mit unseren Lieben und unserem Hass“ durch „mit dem, was wir lieben und hassen“.",
+        "translation_quote": "Wir hören nicht mit dem körperlichen Ohr, sondern mit unseren Lieben und unserem Hass, unseren Grollgefühlen und Vorlieben."
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 94
+  }
+}
