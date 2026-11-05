@@ -17613,12 +17613,12 @@
       "ai_notice_required": true,
       "direction": "ltr",
       "html": "content/cmn/articles/903e4b58-b246-4ee3-85e7-eecf158a7a75.html",
-      "html_sha256": "45c9864ca9f590113fc06d6410b756679dfd13c8816a6018f8087b4d313ef85e",
+      "html_sha256": "cf7eb7de941437868f133d6d3607b01bd3f7d1a64c0903e9198295ed0507ab3c",
       "human_reviewed": false,
       "id": "903e4b58-b246-4ee3-85e7-eecf158a7a75",
       "images": [
         {
-          "alt": "成年人牵着小孩的手在户外行走",
+          "alt": "一位成年人牵着一个小孩子的手，在户外行走",
           "public_path": "/images/articles/903e4b58-b246-4ee3-85e7-eecf158a7a75-1.jpg"
         }
       ],
@@ -17626,16 +17626,16 @@
       "language": "cmn",
       "language_tag": "zh-Hans",
       "metadata": "content/cmn/articles/903e4b58-b246-4ee3-85e7-eecf158a7a75.json",
-      "metadata_sha256": "2c5cbd2ecd96744605e2d61814bf79472979e2f265a8c3f852029bf7f0bc4d7e",
+      "metadata_sha256": "a0e2a50d9aaa7a605fc2362b0dfd892bce7453f2b47d9ecc7b1114c509824c3d",
       "provider": "OpenAI",
-      "review_model": "gpt-5-mini-2025-08-07",
-      "section": "姐妹对姐妹",
-      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
-      "source_translation_key": "bc655ca0e757a92869b0811d5a6de87a4ca48f1e4eef1923cd7135609b8dc379",
-      "status": "stale",
+      "review_model": "gpt-6.1-sol",
+      "section": "姊妹相交",
+      "source_revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
+      "source_translation_key": "aca8415cfcf9e5554286626ac6bcaa5724f97b93dadbcdbbe3b6300ec48874e3",
+      "status": "ready",
       "subtitle": null,
       "title": "喜乐的呼召",
-      "translation_model": "gpt-5-mini-2025-08-07"
+      "translation_model": "gpt-6.1-sol"
     },
     {
       "ai_notice_required": true,
