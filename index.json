@@ -86846,6 +86846,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/swa/articles/3558b7f3-5296-4770-a7c6-d420c923642d.html",
+      "html_sha256": "1f877c42f5ab4a3a984a7e3b1152d83ce5805db7ad6e3dd426fd56925d5d8c76",
+      "human_reviewed": false,
+      "id": "3558b7f3-5296-4770-a7c6-d420c923642d",
+      "images": [
+        {
+          "alt": "Sanduku la barua kando ya barabara lenye anwani ya posta ya gazeti",
+          "public_path": "/images/articles/3558b7f3-5296-4770-a7c6-d420c923642d-1.jpg"
+        }
+      ],
+      "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
+      "language": "swa",
+      "language_tag": "sw",
+      "metadata": "content/swa/articles/3558b7f3-5296-4770-a7c6-d420c923642d.json",
+      "metadata_sha256": "c73c7a8ca4d7fc2c5fe0ea76c813676cd5f19fb845ceaef734849e509e650ceb",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
+      "source_translation_key": "459eee2e9c07155a363c1c0e355fdda66adbf2039a8df9dc3c6dcd5288b5461e",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Barua Zenye Thamani kutoka kwa Wasomaji Wetu",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/swa/articles/37272f7d-a8c0-4c15-b884-ebbf333303cb.html",
       "html_sha256": "5258dba5810edd8735ca177bff6c372a0c6850128e992cada153309490ae2485",
       "human_reviewed": false,
