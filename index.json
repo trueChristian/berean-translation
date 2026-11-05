@@ -26153,6 +26153,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ell/articles/6c4d3026-69b5-42c2-92aa-02d8ea8d73cf.html",
+      "html_sha256": "7d45ba61830b1418eb823837e339277af159ded35e07ab98622f8ff1e2ce4ba0",
+      "human_reviewed": false,
+      "id": "6c4d3026-69b5-42c2-92aa-02d8ea8d73cf",
+      "images": [
+        {
+          "alt": "Τρία ιστιοφόρα σε γαλήνια νερά",
+          "public_path": "/images/articles/6c4d3026-69b5-42c2-92aa-02d8ea8d73cf-1.jpg"
+        }
+      ],
+      "issue_id": "4e575f26-fabd-5104-ba0d-d54ca032653b",
+      "language": "ell",
+      "language_tag": "el",
+      "metadata": "content/ell/articles/6c4d3026-69b5-42c2-92aa-02d8ea8d73cf.json",
+      "metadata_sha256": "92e53acf8d1523c17c2469e0ffcd2a03355f82e1646846d27db89a71ef2ea3a9",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": null,
+      "source_revision": "22388745ad7f149609e65f5e28cfcc1257cd689e",
+      "source_translation_key": "785589167219dc6eebe3c06efe60a9e6c02cb55ae9cb8557bf7c692a1961e88f",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Το κάλεσμα",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ell/articles/706a8a3f-0194-434e-a3c9-27c1635ec6f9.html",
       "html_sha256": "0ba5e1b50a0c9ad9e5ff118f7a51aee1c7bfd3bedbf12587db0f843b5e694612",
       "human_reviewed": false,

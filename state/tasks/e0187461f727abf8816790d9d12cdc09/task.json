@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "2a00e8949dea47ad8e88fbfba8b5fbab",
   "campaign": "auto-c78f1cbaedc508d6e6631fc1c3f773763446dd3750db193d2f9cbadeba9071b4",
   "created_at": "2026-11-04T09:10:56+00:00",
   "events": [
@@ -48,32 +47,31 @@
         },
         "total_tokens": 3425
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 57,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 25,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 2368,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 2365,
+          "cached_tokens": 0
+        },
+        "total_tokens": 2425
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "translation.html, div.poem, 13η παράγραφος",
-      "severity": "major",
-      "source_quote": "The fact of the matter, it’s confidence I lack.",
-      "suggested_fix": "<p><em>Η αλήθεια είναι πως μου λείπει η εμπιστοσύνη στον Θεό.</em></p>",
-      "translation_quote": "<p><em>Η αλήθεια είναι πως μου λείπει η αυτοπεποίθηση.</em></p>"
-    },
-    {
-      "location": "translation.html, div.poem, 16η παράγραφος",
-      "severity": "major",
-      "source_quote": "He wants me to be proved; He’s the Life and the Way.",
-      "suggested_fix": "<p>Θέλει να δοκιμαστώ· Αυτός είναι η Ζωή και η Οδός.</p>",
-      "translation_quote": "<p>Θέλει να αποδειχτώ· Αυτός είναι η Ζωή και η Οδός.</p>"
-    },
-    {
-      "location": "translation.html, div.poem, 8η παράγραφος",
-      "severity": "minor",
-      "source_quote": "I’ve lived like most others, as my life plays back.",
-      "suggested_fix": "<p>Έζησα όπως οι περισσότεροι, καθώς ξαναφέρνω τη ζωή μου στον νου.</p>",
-      "translation_quote": "<p>Έζησα όπως οι περισσότεροι, καθώς ξετυλίγεται η ζωή μου.</p>"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-11-05T00:08:27+00:00",
   "id": "e0187461f727abf8816790d9d12cdc09",
   "issue_id": "4e575f26-fabd-5104-ba0d-d54ca032653b",
   "language": "ell",
@@ -162,7 +160,7 @@
     }
   },
   "protected": false,
-  "quality_score": 92,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6.1-sol",
@@ -181,7 +179,7 @@
     "total_reserved_usd": 0.680234,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "785589167219dc6eebe3c06efe60a9e6c02cb55ae9cb8557bf7c692a1961e88f",
   "translation_model_actual": "gpt-6.1-sol"
