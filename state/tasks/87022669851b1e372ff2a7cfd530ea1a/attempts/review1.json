@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-05T23:44:05+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"দুটি অনুচ্ছেদ: “ঈশ্বর বলেন…” এবং “কেউ কেউ সন্তান বেশি বা কম…”\",\"severity\":\"major\",\"source_quote\":\"“children are an heritage of the LORD”; “Our children are His heritage and His reward!”\",\"suggested_fix\":\"দুই জায়গাতেই “সদাপ্রভুর উত্তরাধিকার” ব্যবহার করুন; দ্বিতীয় অনুচ্ছেদে লিখুন: “আমাদের সন্তানেরা তাঁর উত্তরাধিকার ও তাঁর পুরস্কার!”\",\"translation_quote\":\"“সন্তানসন্ততি সদাপ্রভুর দান”; “আমাদের সন্তানেরা তাঁর দান, তাঁর পুরস্কার!”\"}],\"findings_complete\":true,\"passed\":false,\"score\":94}",
+    "content_bytes": 967,
+    "content_evidence_truncated": false,
+    "content_sha256": "6f1f544653820de535fa6478d7053ee79ba12a1d8537a19a8e0d5952fd578e36",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 901,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 722,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7724,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6621,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 8625
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

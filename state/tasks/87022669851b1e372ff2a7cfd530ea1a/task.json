@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "68795f7ec0564207bbf8ebd9885e9fcd",
   "campaign": "auto-6ddbd9661827edbf0c1eba73f30f1744a4ebdc1ddd50ad968f9bd86c8d3d14a4",
   "created_at": "2026-11-05T02:57:03+00:00",
   "events": [
@@ -28,10 +27,38 @@
         },
         "total_tokens": 7370
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 901,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 722,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7724,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 6621,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 8625
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "দুটি অনুচ্ছেদ: “ঈশ্বর বলেন…” এবং “কেউ কেউ সন্তান বেশি বা কম…”",
+      "severity": "major",
+      "source_quote": "“children are an heritage of the LORD”; “Our children are His heritage and His reward!”",
+      "suggested_fix": "দুই জায়গাতেই “সদাপ্রভুর উত্তরাধিকার” ব্যবহার করুন; দ্বিতীয় অনুচ্ছেদে লিখুন: “আমাদের সন্তানেরা তাঁর উত্তরাধিকার ও তাঁর পুরস্কার!”",
+      "translation_quote": "“সন্তানসন্ততি সদাপ্রভুর দান”; “আমাদের সন্তানেরা তাঁর দান, তাঁর পুরস্কার!”"
+    }
+  ],
   "id": "87022669851b1e372ff2a7cfd530ea1a",
   "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
   "language": "ben",
@@ -120,11 +147,13 @@
     }
   },
   "protected": false,
+  "quality_score": 94,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/ee1d1c4c726665ca5725eef036aae90f81e779ea0d47055f2cf908d0b809c75d.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "translate",
     "max_candidate_bytes": 120000,
@@ -138,7 +167,7 @@
     "total_reserved_usd": 0.089134,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "aca8415cfcf9e5554286626ac6bcaa5724f97b93dadbcdbbe3b6300ec48874e3",
   "translation_model_actual": "gpt-6-luna"

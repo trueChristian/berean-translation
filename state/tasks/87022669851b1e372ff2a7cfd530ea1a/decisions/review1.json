@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "দুটি অনুচ্ছেদ: “ঈশ্বর বলেন…” এবং “কেউ কেউ সন্তান বেশি বা কম…”",
+      "severity": "major",
+      "source_quote": "“children are an heritage of the LORD”; “Our children are His heritage and His reward!”",
+      "suggested_fix": "দুই জায়গাতেই “সদাপ্রভুর উত্তরাধিকার” ব্যবহার করুন; দ্বিতীয় অনুচ্ছেদে লিখুন: “আমাদের সন্তানেরা তাঁর উত্তরাধিকার ও তাঁর পুরস্কার!”",
+      "translation_quote": "“সন্তানসন্ততি সদাপ্রভুর দান”; “আমাদের সন্তানেরা তাঁর দান, তাঁর পুরস্কার!”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
