@@ -5,11 +5,41 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "4f4c5c559437417aaa6861c90edbe40a",
   "campaign": "auto-c1728fbca1fddfad23e25ab8f1dc142105ba7684ef7a57202883a18aee0fa3aa",
   "created_at": "2026-11-05T06:42:20+00:00",
-  "events": [],
-  "findings": [],
+  "events": [
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 281,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 127,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 12626,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 11523,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 12907
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "translation.html, nukuu ya A. W. Tozer katika sehemu I.b",
+      "severity": "minor",
+      "source_quote": "“Playacting embodies a gross moral contradiction in that it calls a lie to the service of the truth.”",
+      "suggested_fix": "Badilisha “unaifanya uongo uitumikie kweli” kuwa “unaufanya uongo uitumikie kweli”, ukihifadhi nukuu na muundo wa HTML.",
+      "translation_quote": "“Uigizaji unajumuisha mkanganyiko mkubwa wa kimaadili kwa kuwa unaifanya uongo uitumikie kweli.”"
+    }
+  ],
+  "finished_at": "2026-11-05T07:18:08+00:00",
   "id": "a16f1101328b8718ea0bff8b293fffcb",
   "issue_id": "4e575f26-fabd-5104-ba0d-d54ca032653b",
   "language": "swa",
@@ -98,9 +128,11 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/f170b59c5b4cc7d1f9e03dcb7760474d0f2879e0f09d0377b8f46e67154d4f56.json",
   "stage": "review1",
   "stage_budget": {
@@ -115,7 +147,7 @@
     "total_reserved_usd": 0.795805,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 0,
   "translation_key": "a730f2b1d562664fcfe74fe583444280e3ed7c510ba96079c4edaa5ae23bcb52",
   "translation_model_actual": "gpt-6-luna"

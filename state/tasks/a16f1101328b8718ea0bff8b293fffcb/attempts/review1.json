@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-05T07:18:08+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"translation.html, nukuu ya A. W. Tozer katika sehemu I.b\",\"severity\":\"minor\",\"source_quote\":\"“Playacting embodies a gross moral contradiction in that it calls a lie to the service of the truth.”\",\"suggested_fix\":\"Badilisha “unaifanya uongo uitumikie kweli” kuwa “unaufanya uongo uitumikie kweli”, ukihifadhi nukuu na muundo wa HTML.\",\"translation_quote\":\"“Uigizaji unajumuisha mkanganyiko mkubwa wa kimaadili kwa kuwa unaifanya uongo uitumikie kweli.”\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 547,
+    "content_evidence_truncated": false,
+    "content_sha256": "52a014c7615d4aba26c23c9db5fedb77b281b9c9b7cded631471207f3f375dda",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 281,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 127,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 12626,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 11523,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 12907
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}

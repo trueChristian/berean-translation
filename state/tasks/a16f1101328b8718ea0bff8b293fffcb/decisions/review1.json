@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "translation.html, nukuu ya A. W. Tozer katika sehemu I.b",
+      "severity": "minor",
+      "source_quote": "“Playacting embodies a gross moral contradiction in that it calls a lie to the service of the truth.”",
+      "suggested_fix": "Badilisha “unaifanya uongo uitumikie kweli” kuwa “unaufanya uongo uitumikie kweli”, ukihifadhi nukuu na muundo wa HTML.",
+      "translation_quote": "“Uigizaji unajumuisha mkanganyiko mkubwa wa kimaadili kwa kuwa unaifanya uongo uitumikie kweli.”"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}
