@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "7a8b1e778b5746dba86747b843bfff62",
   "campaign": "auto-ea0b2145c0eecf07cf6467156293785df5ec080cbd89fbd166ace4a4d5e98088",
   "created_at": "2026-11-03T22:39:28+00:00",
   "events": [
@@ -48,18 +47,39 @@
         },
         "total_tokens": 14646
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 187,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 92,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9798,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 9795,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9985
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "html: абзац с цитатой Ефесянам 5:10-13, последнее предложение цитаты",
-      "severity": "major",
-      "source_quote": "for whatsoever doth make manifest is light",
-      "suggested_fix": "Заменить «потому что все, делающееся явным, свет есть» на «потому что всё, что делает явным, есть свет», сохранив тег <em> и ссылку.",
-      "translation_quote": "потому что все, делающееся явным, свет есть"
+      "location": "translation.html, h2 «Несообразность миру»",
+      "severity": "minor",
+      "source_quote": "Non-conformity",
+      "suggested_fix": "<h2>Отказ уподобляться миру</h2>",
+      "translation_quote": "<h2>Несообразность миру</h2>"
     }
   ],
+  "finished_at": "2026-11-05T00:08:42+00:00",
   "id": "0b41502000476d44b8d03bfb05b01751",
   "issue_id": "4e575f26-fabd-5104-ba0d-d54ca032653b",
   "language": "rus",
@@ -148,7 +168,7 @@
     }
   },
   "protected": false,
-  "quality_score": 96,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6.1-sol",
@@ -167,7 +187,7 @@
     "total_reserved_usd": 0.800493,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "b60f5232f76b3d6e5573e616829a89d507fba9c836e4dbf3fc2981eb0eff86a2",
   "translation_model_actual": "gpt-6.1-sol"

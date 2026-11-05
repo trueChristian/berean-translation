@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "translation.html, h2 «Несообразность миру»",
+      "severity": "minor",
+      "source_quote": "Non-conformity",
+      "suggested_fix": "<h2>Отказ уподобляться миру</h2>",
+      "translation_quote": "<h2>Несообразность миру</h2>"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

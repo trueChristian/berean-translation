@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-05T00:08:42+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"translation.html, h2 «Несообразность миру»\",\"severity\":\"minor\",\"source_quote\":\"Non-conformity\",\"suggested_fix\":\"<h2>Отказ уподобляться миру</h2>\",\"translation_quote\":\"<h2>Несообразность миру</h2>\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 334,
+    "content_evidence_truncated": false,
+    "content_sha256": "8374d58e1f8bb84e68b26219571487cd5323de1ef843890981a4fff904ed5aac",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 187,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 92,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9798,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9795,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9985
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 1
+}

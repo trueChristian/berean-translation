@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "ccdec06a-a103-4c5a-a0a8-eefb559b809a",
+    "response_id": "chatcmpl-EgfBrIiwlJehTVex7QbdXJdfv6xk7",
+    "usage": {
+      "completion_tokens": 187,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 92,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9798,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9795,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9985
+    }
+  },
+  "received_at": "2026-11-05T00:08:42+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "translation.html, h2 «Несообразность миру»",
+        "severity": "minor",
+        "source_quote": "Non-conformity",
+        "suggested_fix": "<h2>Отказ уподобляться миру</h2>",
+        "translation_quote": "<h2>Несообразность миру</h2>"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}
