@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Poem, stanza 1, line 2",
+      "severity": "minor",
+      "source_quote": "Some heavy weight that feign would hinder thee",
+      "suggested_fix": "أو ثقلٌ عظيمٌ يريد أن يعوقك",
+      "translation_quote": "أو ثقلٌ عظيمٌ يوشك أن يعوقك"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

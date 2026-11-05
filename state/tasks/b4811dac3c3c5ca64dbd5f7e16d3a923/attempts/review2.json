@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-05T00:23:40+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Poem, stanza 1, line 2\",\"severity\":\"minor\",\"source_quote\":\"Some heavy weight that feign would hinder thee\",\"suggested_fix\":\"أو ثقلٌ عظيمٌ يريد أن يعوقك\",\"translation_quote\":\"أو ثقلٌ عظيمٌ يوشك أن يعوقك\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 325,
+    "content_evidence_truncated": false,
+    "content_sha256": "efda3187ba4cf99d3e8b0d574ab7933fb02b53662d47c478de24d64975b0e892",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1067,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 961,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1893,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 790,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 2960
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}
