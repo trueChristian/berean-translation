@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "Titus 2:3–5 quotation; repeated in Titus 2:4–5 quotations later in the article",
+      "severity": "major",
+      "source_quote": "“keepers at home”",
+      "suggested_fix": "Vervang op alle drie de plaatsen “huiselijk” door een formulering die de betekenis van thuis voor het gezin zorgen weergeeft, bijvoorbeeld “zorg dragen voor hun huis en gezin”.",
+      "translation_quote": "“huiselijk te zijn”"
+    },
+    {
+      "location": "Psalm 127:3–5 quotation",
+      "severity": "major",
+      "source_quote": "“so are children of the youth”",
+      "suggested_fix": "Vertaal “children” als “kinderen”, bijvoorbeeld: “zo zijn de kinderen van de jeugd”.",
+      "translation_quote": "“zo zijn de zonen van de jeugd”"
+    },
+    {
+      "location": "Paragraph beginning “Was my mother deprived…”",
+      "severity": "minor",
+      "source_quote": "“Was my mother deprived of a fulfilling life?”",
+      "suggested_fix": "Gebruik de idiomatischer formulering: “Was mijn moeder een vervullend leven onthouden?”",
+      "translation_quote": "“Was mijn moeder een vervullend leven ontzegd?”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

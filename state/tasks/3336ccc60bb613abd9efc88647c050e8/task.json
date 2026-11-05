@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": "bf228b1bb87c8a1c059656c36e9946e0eba701253d36108ddd46b51a1cea2d50",
   "base_metadata_sha256": "b10f37e1ce9d3458384cff82b3b7255a5123f0d6bcc59e9bc10a5e2896d59224",
-  "batch": "5fbfc10bc43040c8a670e6ea8ff3620a",
   "campaign": "auto-3897993d392e06f73cf32a9ecf245c487edb1d1f331c5b5f10759388dba7aa23",
   "created_at": "2026-11-05T06:40:12+00:00",
   "events": [
@@ -28,10 +27,52 @@
         },
         "total_tokens": 6619
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 825,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 553,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6973,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 6970,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7798
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "Titus 2:3–5 quotation; repeated in Titus 2:4–5 quotations later in the article",
+      "severity": "major",
+      "source_quote": "“keepers at home”",
+      "suggested_fix": "Vervang op alle drie de plaatsen “huiselijk” door een formulering die de betekenis van thuis voor het gezin zorgen weergeeft, bijvoorbeeld “zorg dragen voor hun huis en gezin”.",
+      "translation_quote": "“huiselijk te zijn”"
+    },
+    {
+      "location": "Psalm 127:3–5 quotation",
+      "severity": "major",
+      "source_quote": "“so are children of the youth”",
+      "suggested_fix": "Vertaal “children” als “kinderen”, bijvoorbeeld: “zo zijn de kinderen van de jeugd”.",
+      "translation_quote": "“zo zijn de zonen van de jeugd”"
+    },
+    {
+      "location": "Paragraph beginning “Was my mother deprived…”",
+      "severity": "minor",
+      "source_quote": "“Was my mother deprived of a fulfilling life?”",
+      "suggested_fix": "Gebruik de idiomatischer formulering: “Was mijn moeder een vervullend leven onthouden?”",
+      "translation_quote": "“Was mijn moeder een vervullend leven ontzegd?”"
+    }
+  ],
   "id": "3336ccc60bb613abd9efc88647c050e8",
   "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
   "language": "nld",
@@ -120,11 +161,13 @@
     }
   },
   "protected": false,
+  "quality_score": 91,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/ee1d1c4c726665ca5725eef036aae90f81e779ea0d47055f2cf908d0b809c75d.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "translate",
     "max_candidate_bytes": 120000,
@@ -138,7 +181,7 @@
     "total_reserved_usd": 0.089128,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "aca8415cfcf9e5554286626ac6bcaa5724f97b93dadbcdbbe3b6300ec48874e3",
   "translation_model_actual": "gpt-6-luna"
