@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "0ef56bf69e414e99b410534d694ec234",
   "campaign": "auto-ab3984c4b85f9eeafc38693fda4a2d5b6300b9bdf074a2150e8de37b9df685ec",
   "created_at": "2026-11-04T22:55:01+00:00",
   "events": [
@@ -28,10 +27,46 @@
         },
         "total_tokens": 1533
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 620,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 488,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 1887,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 784,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 2507
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "Poem 3, final line",
+      "severity": "minor",
+      "source_quote": "This, nothing can destroy.",
+      "suggested_fix": "ואין דבר שיכול להשמידה.",
+      "translation_quote": "ואי־דבר אינו יכול להשמידה."
+    },
+    {
+      "location": "Poem 4, final line",
+      "severity": "minor",
+      "source_quote": "All fretfulness can cease.",
+      "suggested_fix": "כל אי־השקט יכול לחלוף.",
+      "translation_quote": "כל טרדה יכולה לחדול."
+    }
+  ],
+  "finished_at": "2026-11-05T10:44:35+00:00",
   "id": "a908958113575ba3f30aa37cf150adc6",
   "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
   "language": "heb",
@@ -120,9 +155,11 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/821fd8b7bdbe958f1c83461194c360b8b6f18beaf13e2b3a273ec87ad9b8ab46.json",
   "stage": "review1",
   "stage_budget": {
@@ -138,7 +175,7 @@
     "total_reserved_usd": 0.085944,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "4deddfa3d35292dd8b7346a9588ef6e393981b43a05742af679adb2e81fd001c",
   "translation_model_actual": "gpt-6-luna"

@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Poem 3, final line",
+      "severity": "minor",
+      "source_quote": "This, nothing can destroy.",
+      "suggested_fix": "ואין דבר שיכול להשמידה.",
+      "translation_quote": "ואי־דבר אינו יכול להשמידה."
+    },
+    {
+      "location": "Poem 4, final line",
+      "severity": "minor",
+      "source_quote": "All fretfulness can cease.",
+      "suggested_fix": "כל אי־השקט יכול לחלוף.",
+      "translation_quote": "כל טרדה יכולה לחדול."
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-05T10:44:35+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Poem 3, final line\",\"severity\":\"minor\",\"source_quote\":\"This, nothing can destroy.\",\"suggested_fix\":\"ואין דבר שיכול להשמידה.\",\"translation_quote\":\"ואי־דבר אינו יכול להשמידה.\"},{\"location\":\"Poem 4, final line\",\"severity\":\"minor\",\"source_quote\":\"All fretfulness can cease.\",\"suggested_fix\":\"כל אי־השקט יכול לחלוף.\",\"translation_quote\":\"כל טרדה יכולה לחדול.\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 508,
+    "content_evidence_truncated": false,
+    "content_sha256": "2fddfb69c959cd64d35f529fea22513f1aca411813e47fc141d22598c2f81987",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 620,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 488,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1887,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 784,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 2507
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

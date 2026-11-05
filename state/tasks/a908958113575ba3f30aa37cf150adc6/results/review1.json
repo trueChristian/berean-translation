@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "2a2c67e7-1ebe-410c-87ce-ba0d4d0da1f3",
+    "response_id": "chatcmpl-Egora5Uc2qQOH87dfrRGGarnCxZ5y",
+    "usage": {
+      "completion_tokens": 620,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 488,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1887,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 784,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 2507
+    }
+  },
+  "received_at": "2026-11-05T10:44:35+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Poem 3, final line",
+        "severity": "minor",
+        "source_quote": "This, nothing can destroy.",
+        "suggested_fix": "ואין דבר שיכול להשמידה.",
+        "translation_quote": "ואי־דבר אינו יכול להשמידה."
+      },
+      {
+        "location": "Poem 4, final line",
+        "severity": "minor",
+        "source_quote": "All fretfulness can cease.",
+        "suggested_fix": "כל אי־השקט יכול לחלוף.",
+        "translation_quote": "כל טרדה יכולה לחדול."
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}
