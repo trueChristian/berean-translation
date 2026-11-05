@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "f7994eb7-c47f-42d8-b8e0-b75994e38dde",
+    "response_id": "chatcmpl-EgfK6BeEzMtJrWVgtqVSSGaaOUK7g",
+    "usage": {
+      "completion_tokens": 503,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 128,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1146,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1143,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1649
+    }
+  },
+  "received_at": "2026-11-05T00:23:05+00:00",
+  "result": {
+    "html": "<article data-article-id=\"f1f8d898-1108-4e49-9e62-b12667509107\">\n  <p class=\"poem\"><strong>Je, una dhambi?<br>Mzigo mzito unaotaka kukuzuia<br>Usikimbie vyema? Ili upate uhuru wa Kristo,<br>Ee nafsi iliyotekwa, achilia; achilia, uone<br>Yesu ataanzia wapi.</strong></p>\n  <p class=\"poem\"><strong>Je, una hangaiko?<br>Basi mtwike Mungu hangaiko hilo lako;<br>Si mapenzi yake ubebe mzigo huo;<br>Uache kwake, nawe utapita njia ya maisha<br>Kana kwamba unatembea hewani.</strong></p>\n  <p class=\"poem\"><strong>Je, una furaha ya Kristo?<br>Shiriki furaha anayoitoa kwa wale<br>Ambao maisha yao yamefurika huzuni za kibinadamu;<br>Furaha yake huzidi yote na huongezeka,<br>Hakuna kiwezacho kuiangamiza.</strong></p>\n  <p class=\"poem\"><strong>Je, una amani yake?<br>Amani ya Kristo ipitayo ufahamu na maarifa ya mwanadamu,<br>Tulivu, safi na yenye kina. Ni pale tu<br>Tunapojua utulivu huo—lakini si kabla ya hapo—<br>Ndipo wasiwasi wote unaweza kukoma.</strong></p>\n</article>\n",
+    "section": null,
+    "subtitle": null,
+    "title": "Zawadi za Kristo"
+  }
+}
