@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "html، القسم IV، الفقرة التي تتضمن يوحنا 4:22ج",
+      "severity": "major",
+      "source_quote": "“Salvation is of Jesus” (4:22c).",
+      "suggested_fix": "استبدال «الخلاص من اليهود» بـ«الخلاص من يسوع»، مع إبقاء المرجع كما ورد في المصدر؛ فالمطلوب ترجمة الاقتباس المطبوع لا استبداله بنص من ترجمة كتابية أخرى.",
+      "translation_quote": "«الخلاص من اليهود» (4:22ج)."
+    },
+    {
+      "location": "html، الفقرة التاريخية التي تسبق القسم I",
+      "severity": "major",
+      "source_quote": "the Anabaptist Revival during the Reformation time period",
+      "suggested_fix": "استبدال «نهضة قائلِيَة المعمودية» بـ«نهضة معيدي المعمودية» لتحديد الحركة الدينية المقصودة تحديدًا صحيحًا.",
+      "translation_quote": "نهضة قائلِيَة المعمودية"
+    },
+    {
+      "location": "html، آخر فقرة في قائمة المراجع",
+      "severity": "minor",
+      "source_quote": "Wisconsin Rapids: Rapids Christian Press.",
+      "suggested_fix": "استبدال «رابيدز، ويسكونسن» بـ«ويسكونسن رابيدز»؛ فهذا اسم المدينة المركّب، وليس مدينة اسمها رابيدز متبوعة باسم الولاية.",
+      "translation_quote": "رابيدز، ويسكونسن: مطبعة رابيدز المسيحية."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

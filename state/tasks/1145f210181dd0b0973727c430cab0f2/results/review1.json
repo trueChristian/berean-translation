@@ -1,0 +1,52 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "5cdc2208-7d57-4af3-9b12-d81faf4b1133",
+    "response_id": "chatcmpl-Egezyu01laVWDOanqoz3IZ3ZitJiz",
+    "usage": {
+      "completion_tokens": 534,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 132,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 12044,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 10941,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 12578
+    }
+  },
+  "received_at": "2026-11-05T00:08:09+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "html، القسم IV، الفقرة التي تتضمن يوحنا 4:22ج",
+        "severity": "major",
+        "source_quote": "“Salvation is of Jesus” (4:22c).",
+        "suggested_fix": "استبدال «الخلاص من اليهود» بـ«الخلاص من يسوع»، مع إبقاء المرجع كما ورد في المصدر؛ فالمطلوب ترجمة الاقتباس المطبوع لا استبداله بنص من ترجمة كتابية أخرى.",
+        "translation_quote": "«الخلاص من اليهود» (4:22ج)."
+      },
+      {
+        "location": "html، الفقرة التاريخية التي تسبق القسم I",
+        "severity": "major",
+        "source_quote": "the Anabaptist Revival during the Reformation time period",
+        "suggested_fix": "استبدال «نهضة قائلِيَة المعمودية» بـ«نهضة معيدي المعمودية» لتحديد الحركة الدينية المقصودة تحديدًا صحيحًا.",
+        "translation_quote": "نهضة قائلِيَة المعمودية"
+      },
+      {
+        "location": "html، آخر فقرة في قائمة المراجع",
+        "severity": "minor",
+        "source_quote": "Wisconsin Rapids: Rapids Christian Press.",
+        "suggested_fix": "استبدال «رابيدز، ويسكونسن» بـ«ويسكونسن رابيدز»؛ فهذا اسم المدينة المركّب، وليس مدينة اسمها رابيدز متبوعة باسم الولاية.",
+        "translation_quote": "رابيدز، ويسكونسن: مطبعة رابيدز المسيحية."
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 93
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-05T00:08:09+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"html، القسم IV، الفقرة التي تتضمن يوحنا 4:22ج\",\n      \"severity\": \"major\",\n      \"source_quote\": \"“Salvation is of Jesus” (4:22c).\",\n      \"suggested_fix\": \"استبدال «الخلاص من اليهود» بـ«الخلاص من يسوع»، مع إبقاء المرجع كما ورد في المصدر؛ فالمطلوب ترجمة الاقتباس المطبوع لا استبداله بنص من ترجمة كتابية أخرى.\",\n      \"translation_quote\": \"«الخلاص من اليهود» (4:22ج).\"\n    },\n    {\n      \"location\": \"html، الفقرة التاريخية التي تسبق القسم I\",\n      \"severity\": \"major\",\n      \"source_quote\": \"the Anabaptist Revival during the Reformation time period\",\n      \"suggested_fix\": \"استبدال «نهضة قائلِيَة المعمودية» بـ«نهضة معيدي المعمودية» لتحديد الحركة الدينية المقصودة تحديدًا صحيحًا.\",\n      \"translation_quote\": \"نهضة قائلِيَة المعمودية\"\n    },\n    {\n      \"location\": \"html، آخر فقرة في قائمة المراجع\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"Wisconsin Rapids: Rapids Christian Press.\",\n      \"suggested_fix\": \"استبدال «رابيدز، ويسكونسن» بـ«ويسكونسن رابيدز»؛ فهذا اسم المدينة المركّب، وليس مدينة اسمها رابيدز متبوعة باسم الولاية.\",\n      \"translation_quote\": \"رابيدز، ويسكونسن: مطبعة رابيدز المسيحية.\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": false,\n  \"score\": 93\n}",
+    "content_bytes": 1705,
+    "content_evidence_truncated": false,
+    "content_sha256": "dfa91a84727dd0aa3206ffed319a08027b58b4fe9f0f6ddd3b713f1df302d5ee",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 534,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 132,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 12044,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 10941,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 12578
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}
