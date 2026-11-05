@@ -1,0 +1,52 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "af59c087-31f6-4ff3-ad7d-93c3db3cb405",
+    "response_id": "chatcmpl-EgliPiqaCp9wxs5AUjMxSGFSolVYN",
+    "usage": {
+      "completion_tokens": 553,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 99,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 12513,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 11410,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 13066
+    }
+  },
+  "received_at": "2026-11-05T07:04:34+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "source.html: paragraaf oor die oorsprong van godsdienstige drama gedurende die Donker Eeue",
+        "severity": "major",
+        "source_quote": "dramatic performances with religious themes known as “miracle plays.”",
+        "suggested_fix": "Vervang “bekend as ‘wonderwerke’” met “bekend as ‘mirakelspele’”.",
+        "translation_quote": "dramatiese opvoerings met godsdienstige temas, bekend as “wonderwerke”."
+      },
+      {
+        "location": "source.html: afdeling I.a, aanhaling van Eksodus 20:23",
+        "severity": "major",
+        "source_quote": "Ye shall not make with me gods of silver",
+        "suggested_fix": "Vervang “Julle mag nie vir My gode van silwer maak nie” met “Julle mag nie naas My gode van silwer maak nie”, binne die bestaande <em>-element.",
+        "translation_quote": "Julle mag nie vir My gode van silwer maak nie"
+      },
+      {
+        "location": "source.html: afdeling II.d, sin met die aanhaling van 2 Timoteus 2:15",
+        "severity": "minor",
+        "source_quote": "He no longer needs to: <em>Study to shew thyself approved unto God… –2 Timothy 2:15.</em>",
+        "suggested_fix": "Maak die inleiding en aanhaling grammatikaal volledig: “Hy hoef nie meer hierdie opdrag na te kom nie: <em>Lê jou daarop toe om jou beproef voor God te stel… –2 Timoteus 2:15.</em>”",
+        "translation_quote": "Hy hoef nie meer: <em>Hom daarop toe te lê om jou beproef voor God te stel… –2 Timoteus 2:15.</em>"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 94
+  }
+}

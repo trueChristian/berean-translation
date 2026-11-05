@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-05T07:04:34+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"source.html: paragraaf oor die oorsprong van godsdienstige drama gedurende die Donker Eeue\",\n      \"severity\": \"major\",\n      \"source_quote\": \"dramatic performances with religious themes known as “miracle plays.”\",\n      \"suggested_fix\": \"Vervang “bekend as ‘wonderwerke’” met “bekend as ‘mirakelspele’”.\",\n      \"translation_quote\": \"dramatiese opvoerings met godsdienstige temas, bekend as “wonderwerke”.\"\n    },\n    {\n      \"location\": \"source.html: afdeling I.a, aanhaling van Eksodus 20:23\",\n      \"severity\": \"major\",\n      \"source_quote\": \"Ye shall not make with me gods of silver\",\n      \"suggested_fix\": \"Vervang “Julle mag nie vir My gode van silwer maak nie” met “Julle mag nie naas My gode van silwer maak nie”, binne die bestaande <em>-element.\",\n      \"translation_quote\": \"Julle mag nie vir My gode van silwer maak nie\"\n    },\n    {\n      \"location\": \"source.html: afdeling II.d, sin met die aanhaling van 2 Timoteus 2:15\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"He no longer needs to: <em>Study to shew thyself approved unto God… –2 Timothy 2:15.</em>\",\n      \"suggested_fix\": \"Maak die inleiding en aanhaling grammatikaal volledig: “Hy hoef nie meer hierdie opdrag na te kom nie: <em>Lê jou daarop toe om jou beproef voor God te stel… –2 Timoteus 2:15.</em>”\",\n      \"translation_quote\": \"Hy hoef nie meer: <em>Hom daarop toe te lê om jou beproef voor God te stel… –2 Timoteus 2:15.</em>\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": false,\n  \"score\": 94\n}",
+    "content_bytes": 1584,
+    "content_evidence_truncated": false,
+    "content_sha256": "28fe44a223749009d6478c37af97d6d8b9e979b8b608ea9b429cfbad7cda5ca3",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 553,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 99,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 12513,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 11410,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 13066
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}
