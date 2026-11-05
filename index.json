@@ -17719,6 +17719,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/cmn/articles/93f83966-049f-4767-8fe5-497ec16dad40.html",
+      "html_sha256": "549ed80b831c3bbddee09677a4cd04c071cb23845b02881330c1153bb280fa74",
+      "human_reviewed": false,
+      "id": "93f83966-049f-4767-8fe5-497ec16dad40",
+      "images": [
+        {
+          "alt": "耶稣与两个人同行，走在去以马忤斯的路上",
+          "public_path": "/images/articles/93f83966-049f-4767-8fe5-497ec16dad40-1.jpg"
+        }
+      ],
+      "issue_id": "4e575f26-fabd-5104-ba0d-d54ca032653b",
+      "language": "cmn",
+      "language_tag": "zh-Hans",
+      "metadata": "content/cmn/articles/93f83966-049f-4767-8fe5-497ec16dad40.json",
+      "metadata_sha256": "8c11be59dc18e2fbbecc97b0d9c8333e9a563e9464b54daa6d9587c2b711a8f7",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "圣经教义",
+      "source_revision": "22388745ad7f149609e65f5e28cfcc1257cd689e",
+      "source_translation_key": "2ab4f83b970977b517b8c5966e0879530863628afa0c94a3bb7186e69daacb25",
+      "status": "ready",
+      "subtitle": null,
+      "title": "有耳可听的……",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/cmn/articles/94ef8ae0-ec29-4ca5-870a-4c3e33abcfe6.html",
       "html_sha256": "d7bb3ea1b86500247fd3a52714f3f93e10e28c4de60359053a75f789bb4f1f61",
       "human_reviewed": false,
