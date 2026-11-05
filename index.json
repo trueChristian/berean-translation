@@ -73336,12 +73336,12 @@
       "ai_notice_required": true,
       "direction": "ltr",
       "html": "content/por/articles/903e4b58-b246-4ee3-85e7-eecf158a7a75.html",
-      "html_sha256": "398264f50910d974979b91b62bc57d1071afa27510b4a73234e309fa08d0076d",
+      "html_sha256": "a93e0ca35e748be4a8c88e234de342399be74b7b4288abd30b8adcc4a7968e92",
       "human_reviewed": false,
       "id": "903e4b58-b246-4ee3-85e7-eecf158a7a75",
       "images": [
         {
-          "alt": "Adulto segurando a mão de uma criança pequena caminhando ao ar livre",
+          "alt": "Adulto segurando a mão de uma criança pequena que caminha ao ar livre",
           "public_path": "/images/articles/903e4b58-b246-4ee3-85e7-eecf158a7a75-1.jpg"
         }
       ],
@@ -73349,16 +73349,16 @@
       "language": "por",
       "language_tag": "pt",
       "metadata": "content/por/articles/903e4b58-b246-4ee3-85e7-eecf158a7a75.json",
-      "metadata_sha256": "49048411adfda5d05d61c40b7e849c39848be22bad5694661f7d3c72128bee01",
+      "metadata_sha256": "0a69bee37ebf3d241de9e6dcb557ecf85052c0c90e1b5b03bb579a5db24de5c0",
       "provider": "OpenAI",
-      "review_model": "gpt-5-mini-2025-08-07",
-      "section": "Sister to Sister",
-      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
-      "source_translation_key": "bc655ca0e757a92869b0811d5a6de87a4ca48f1e4eef1923cd7135609b8dc379",
-      "status": "stale",
+      "review_model": "gpt-6-luna",
+      "section": "Irmã para Irmã",
+      "source_revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
+      "source_translation_key": "aca8415cfcf9e5554286626ac6bcaa5724f97b93dadbcdbbe3b6300ec48874e3",
+      "status": "ready",
       "subtitle": null,
-      "title": "Uma Vocação Alegre",
-      "translation_model": "gpt-5-mini-2025-08-07"
+      "title": "Um Chamado Alegre",
+      "translation_model": "gpt-6-luna"
     },
     {
       "ai_notice_required": true,
