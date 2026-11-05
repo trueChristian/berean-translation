@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-05T02:54:54+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"translation.html, bagian III.b. Khotbah, paragraf pertama, kutipan Markus 1:14\",\n      \"severity\": \"major\",\n      \"source_quote\": \"…[He] came into Galilee, preaching the gospel of the kingdom of God –Mark 1:14.\",\n      \"suggested_fix\": \"Ganti kutipan tersebut menjadi: <em>…[Ia] datang ke Galilea, memberitakan Injil Kerajaan Allah –Markus 1:14.</em>\",\n      \"translation_quote\": \"…[Ia] datang ke Galilea memberitakan Injil Allah –Markus 1:14.\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": false,\n  \"score\": 97\n}",
+    "content_bytes": 574,
+    "content_evidence_truncated": false,
+    "content_sha256": "099b071e4836c8cefe49ddaa1bf0ec9beeaf1d33f2103330433ee49edb20a8bb",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 278,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 93,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 12147,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 11044,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 12425
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}

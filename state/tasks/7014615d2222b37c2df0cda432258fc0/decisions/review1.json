@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "translation.html, bagian III.b. Khotbah, paragraf pertama, kutipan Markus 1:14",
+      "severity": "major",
+      "source_quote": "…[He] came into Galilee, preaching the gospel of the kingdom of God –Mark 1:14.",
+      "suggested_fix": "Ganti kutipan tersebut menjadi: <em>…[Ia] datang ke Galilea, memberitakan Injil Kerajaan Allah –Markus 1:14.</em>",
+      "translation_quote": "…[Ia] datang ke Galilea memberitakan Injil Allah –Markus 1:14."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
