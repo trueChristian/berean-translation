@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "aebb01297b5a4d7da049638c6762a5ed",
   "campaign": "auto-d256d70bb99e29d4288ddf067f39de043f7320be4727e77898cfafa647a168bf",
   "created_at": "2026-11-04T09:12:57+00:00",
   "events": [
@@ -48,158 +47,31 @@
         },
         "total_tokens": 15489
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 57,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 25,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8998,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 7895,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 9055
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "html, Final Thoughts, Matthew quotation",
-      "severity": "critical",
-      "source_quote": "and all these things shall be added unto you",
-      "suggested_fix": "החליפו את ״ואל־תינתן לכם כל־אלה״ ב״וכל הדברים האלה יינתנו לכם גם כן״, בתוך תגית ה-em הקיימת.",
-      "translation_quote": "ואל־תינתן לכם כל־אלה"
-    },
-    {
-      "location": "html, Final Thoughts, Isaiah quotation and reference",
-      "severity": "major",
-      "source_quote": "be not dismayed; for I am thy God ... I will uphold thee with the right hand of my righteousness –Isaiah 41:10.",
-      "suggested_fix": "החליפו את הציטוט בתוך תגית ה-em ב״אל תפחד, כי אני איתך; אל תיבהל, כי אני אלוהיך. אחזק אותך, אכן אעזור לך, ואכן אתמוך בך בימין צדקי — ישעיהו 41:10.״",
-      "translation_quote": "אל־תשתע ואף כי אני אלוהיך ... אף אתן־לך את־ימין צדקי׃ — ישעיהו מ׳:י"
-    },
-    {
-      "location": "html, What is Cancer?, first paragraph",
-      "severity": "major",
-      "source_quote": "we can trace the beginnings of cancer back to the fall of man",
-      "suggested_fix": "החליפו את ״ניתן לעצור את תחילת הסרטן עד לנפילת האדם״ ב״אפשר להתחקות אחר ראשיתו של הסרטן עד לנפילת האדם בחטא״.",
-      "translation_quote": "ניתן לעצור את תחילת הסרטן עד לנפילת האדם"
-    },
-    {
-      "location": "html, paragraph classifying skin cancers",
-      "severity": "major",
-      "source_quote": "get bigger in a local area and seldom spread elsewhere",
-      "suggested_fix": "החליפו את ״גדלות באופן מקומי ודל שפעתם במקומות אחרים״ ב״גדלות באופן מקומי ורק לעיתים רחוקות מתפשטות למקומות אחרים״.",
-      "translation_quote": "גדלות באופן מקומי ודל שפעתם במקומות אחרים"
-    },
-    {
-      "location": "html, Environmental Factors, first paragraph",
-      "severity": "major",
-      "source_quote": "something must have happened around the time of the flood",
-      "suggested_fix": "החליפו את ״משהו אולי קרה״ ב״משהו בוודאי קרה״.",
-      "translation_quote": "משהו אולי קרה"
-    },
-    {
-      "location": "html, Environmental Factors, paragraph about Abraham",
-      "severity": "major",
-      "source_quote": "by soon after the time of Abraham",
-      "suggested_fix": "החליפו את ״וברבות הימים, כבר בתקופת אברהם״ ב״וכבר זמן קצר לאחר תקופת אברהם״.",
-      "translation_quote": "וברבות הימים, כבר בתקופת אברהם"
-    },
-    {
-      "location": "html, Environmental Factors, atomic-bomb paragraph",
-      "severity": "major",
-      "source_quote": "survivors were noted to have significant increases",
-      "suggested_fix": "החליפו את ״בין השרידים״ ב״בקרב הניצולים״.",
-      "translation_quote": "נצפתה עלייה משמעותית בסוגים מסוימים של סרטן בין השרידים"
-    },
-    {
-      "location": "html, Unhealthy Foods",
-      "severity": "major",
-      "source_quote": "smoked and cured meats",
-      "suggested_fix": "החליפו את ״בבשרים מעושנים ומתובלים״ ב״בבשרים מעושנים וכבושים״.",
-      "translation_quote": "בבשרים מעושנים ומתובלים"
-    },
-    {
-      "location": "html, Certain Prior Diseases, first paragraph",
-      "severity": "major",
-      "source_quote": "has been associated with certain kinds of lymphoma",
-      "suggested_fix": "החליפו את ״הושווּה עם סוגים מסוימים של לימפומה״ ב״נמצא קשור לסוגים מסוימים של לימפומה״.",
-      "translation_quote": "הושווּה עם סוגים מסוימים של לימפומה"
-    },
-    {
-      "location": "html, Screening for Cancer, ideal-test paragraph",
-      "severity": "major",
-      "source_quote": "minimally invasive",
-      "suggested_fix": "החליפו את ״ומעט ככל האפשר פוגענית״ ב״ופולשנית במידה מזערית״.",
-      "translation_quote": "ומעט ככל האפשר פוגענית"
-    },
-    {
-      "location": "html, paragraph introducing the United States Preventive Services Task Force",
-      "severity": "major",
-      "source_quote": "The United States Preventive Services Task Force",
-      "suggested_fix": "החליפו את שם הגוף ב״כוח המשימה האמריקאי לשירותי רפואה מונעת״.",
-      "translation_quote": "ועדת השירותים המנבאים למניעה של ארצות הברית"
-    },
-    {
-      "location": "html, Final Thoughts, paragraph about fatalism",
-      "severity": "major",
-      "source_quote": "I don’t think that we should fatalistically allow anything to happen that might, simply because it is “God’s will.”",
-      "suggested_fix": "החליפו את המשפט הראשון ב״אינני חושב שעלינו לאפשר מתוך השלמה עם הגורל לכל מה שעלול לקרות להתרחש, רק מפני שזהו ‘רצון האלוהים’.״",
-      "translation_quote": "אני לא חושב שעלינו לאלף גורלית לאפשר שיקרה כל דבר שיכול להתרחש, סתם כי זו ״רצונם של האלוהים.״"
-    },
-    {
-      "location": "html, opening dialogue, fourth paragraph",
-      "severity": "major",
-      "source_quote": "I shook my head.",
-      "suggested_fix": "החליפו את ״נערמתי ראשי״ ב״הנדתי בראשי לשלילה״.",
-      "translation_quote": "נערמתי ראשי."
-    },
-    {
-      "location": "html, opening dialogue, second and third paragraphs",
-      "severity": "minor",
-      "source_quote": "I shrugged. ... for others ... a top-secret theory",
-      "suggested_fix": "החליפו את ״הנפנתי בכתפי״ ב״משכתי בכתפיי״, את ״לחלקים אחרים״ ב״לסוגים אחרים״ ואת ״תיאוריה עלומה״ ב״תיאוריה סודית ביותר״.",
-      "translation_quote": "הנפנתי בכתפי ... לחלקים אחרים ... תיאוריה עלומה"
-    },
-    {
-      "location": "html, paragraph about the Christian man",
-      "severity": "minor",
-      "source_quote": "he would choose almost any other way to go than to die of cancer",
-      "suggested_fix": "החליפו את ״הוא היה בוחר כמעט כל דרך אחרת מלהת, מאשר למות מסרטן״ ב״הוא היה מעדיף למות כמעט בכל דרך אחרת ולא מסרטן״.",
-      "translation_quote": "הוא היה בוחר כמעט כל דרך אחרת מלהת, מאשר למות מסרטן"
-    },
-    {
-      "location": "html, What is Cancer?, paragraphs on creation, apoptosis, cell division, and skin cancers",
-      "severity": "minor",
-      "source_quote": "they did not have cancer ... constant turnover of cells ... daughter cells ... Each one of these skin cancers",
-      "suggested_fix": "החליפו את ״הייתה להם סרטן״ ב״היה להם סרטן״, את ״חלפת תאים קבועה״ ב״תחלופה מתמדת של תאים״, את ״לתאים הבתיים״ ב״לתאי הבת״ ואת ״כל אחד מהסרטןיים של העור האלה״ ב״כל אחד מסוגי סרטן העור האלה״.",
-      "translation_quote": "הייתה להם סרטן ... חלפת תאים קבועה ... לתאים הבתיים ... כל אחד מהסרטןיים של העור האלה"
-    },
-    {
-      "location": "html, Causes of Mutations, second paragraph",
-      "severity": "minor",
-      "source_quote": "21<sup>st</sup> century (AD)",
-      "suggested_fix": "הסירו את הסיומת האנגלית מתוך תגית ה-sup, כך שיישאר ״במאה ה-21<sup></sup> לספירה״.",
-      "translation_quote": "במאה ה-21<sup>st</sup> לספירה"
-    },
-    {
-      "location": "html, Screening for Cancer, paragraph on treatment and response",
-      "severity": "minor",
-      "source_quote": "If treatment and response rates are the same",
-      "suggested_fix": "החליפו את ״אם שיעורי הטיפול והתגובה זהים״ ב״אם הטיפול ושיעורי התגובה אליו זהים״.",
-      "translation_quote": "אם שיעורי הטיפול והתגובה זהים"
-    },
-    {
-      "location": "html, mammography recommendation",
-      "severity": "minor",
-      "source_quote": "<strong><em>yearly</em></strong> screening",
-      "suggested_fix": "החזירו את ההדגשה למילה המקבילה: ״לסקר <strong><em>השנתי</em></strong> שמומלץ״.",
-      "translation_quote": "לסקר השנתי שמומלץ"
-    },
-    {
-      "location": "html, Cancer Challenges, second paragraph",
-      "severity": "minor",
-      "source_quote": "we are trying to poison the cancer",
-      "suggested_fix": "החליפו את ״אנו מנסים לרעיל את הסרטן״ ב״אנו מנסים להרעיל את הסרטן״.",
-      "translation_quote": "אנו מנסים לרעיל את הסרטן"
-    },
-    {
-      "location": "html, Final Thoughts, Matthew quotation, remaining wording",
-      "severity": "minor",
-      "source_quote": "Therefore take no thought, saying ... your heavenly Father ... for the morrow shall take thought for the things of itself. Sufficient unto the day is the evil thereof",
-      "suggested_fix": "החליפו את ״אל־תדאגו ביניכם לאמר״ ב״לכן אל תדאגו ותאמרו״, את ״אביכם השמים״ ב״אביכם שבשמיים״ ואת ״כי למחר ידאג לעצמו יומו; די ביום צרתו הוא״ ב״כי המחר ידאג לענייניו שלו; די לכל יום בצרותיו״. השתמשו גם ב״אל תפחד״ וב״אל תיבהל״ בציטוט מישעיהו כנדרש בתיקון הנפרד, כדי לשמור על עברית בת זמננו.",
-      "translation_quote": "אל־תדאגו ביניכם לאמר ... אביכם השמים ... כי למחר ידאג לעצמו יומו; די ביום צרתו הוא"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-11-05T23:44:42+00:00",
   "id": "f0826ea80b4d9e8f69395ec6af59f956",
   "issue_id": "1a7070c9-fd4f-546b-a220-f267ddb8cf5f",
   "language": "heb",
@@ -288,7 +160,7 @@
     }
   },
   "protected": false,
-  "quality_score": 66,
+  "quality_score": 99,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6.1-sol",
@@ -307,7 +179,7 @@
     "total_reserved_usd": 0.772005,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "48e3cf7ce54a82130b52527f677657d3f940e34281e04d33a0d21d610cf9910a",
   "translation_model_actual": "gpt-6.1-sol"
