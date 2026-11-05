@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "ebc2afbe1e2340ec87bc81acb0ab1e54",
   "campaign": "auto-98fdbd5b56772b4ffa64f23d8fd9c2fc546fff05bbdb5f39677471a4b81de1d0",
   "created_at": "2026-11-05T02:56:47+00:00",
   "events": [
@@ -48,46 +47,31 @@
         },
         "total_tokens": 18968
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 65,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 33,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 12283,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 11180,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 12348
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "html: раздел I.a, абзац «В Евреям 11:6 сказано»",
-      "severity": "major",
-      "source_quote": "the evidence of things not seen (or demonstrated)",
-      "suggested_fix": "Заменить «в невидимом (или недоказанном)» на «в невидимом (или не показанном наглядно)», сохранив напечатанную ссылку Евреям 11:6.",
-      "translation_quote": "уверенность в невидимом (или недоказанном)"
-    },
-    {
-      "location": "html: раздел III.a, цитата Деяния 16:13",
-      "severity": "major",
-      "source_quote": "…prayer was wont to be made…",
-      "suggested_fix": "Заменить текст внутри существующего em на «…где обычно совершалась молитва… — Деяния 16:13.». В источнике говорится об обычае молиться, а не о наличии молитвенного дома.",
-      "translation_quote": "…там, по обыкновению, был молитвенный дом…"
-    },
-    {
-      "location": "html: раздел III.a, абзац о Петре и Иоанне, оба упоминания времени собрания",
-      "severity": "minor",
-      "source_quote": "Peter and John attended a midafternoon prayer meeting ... when was the last time that you attended a midafternoon prayer meeting?",
-      "suggested_fix": "В обоих предложениях заменить «в середине дня» на «в середине второй половины дня», чтобы не переносить собрание на полдень.",
-      "translation_quote": "Пётр и Иоанн пришли на молитвенное собрание в середине дня ... когда вы в последний раз были на молитвенном собрании в середине дня?"
-    },
-    {
-      "location": "title",
-      "severity": "minor",
-      "source_quote": "Religious Drama vs True Worship",
-      "suggested_fix": "Передать противопоставление: «Религиозная драма против истинного поклонения».",
-      "translation_quote": "Религиозная драма и истинное поклонение"
-    },
-    {
-      "location": "html: вводный абзац «Должна ли церковь беспокоиться об этом?»",
-      "severity": "minor",
-      "source_quote": "instrumental presentations",
-      "suggested_fix": "Заменить «музыкальные выступления» на «инструментальные выступления», сохранив указание на конкретный вид музыки.",
-      "translation_quote": "музыкальные выступления"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-11-05T07:18:26+00:00",
   "id": "385fc636ecbcb417678eb2745e3064cb",
   "issue_id": "4e575f26-fabd-5104-ba0d-d54ca032653b",
   "language": "rus",
@@ -176,7 +160,7 @@
     }
   },
   "protected": false,
-  "quality_score": 94,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6.1-sol",
@@ -195,7 +179,7 @@
     "total_reserved_usd": 0.83122,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "a730f2b1d562664fcfe74fe583444280e3ed7c510ba96079c4edaa5ae23bcb52",
   "translation_model_actual": "gpt-6.1-sol"
