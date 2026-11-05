@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "f03e2266-5e66-459c-9656-bc35467cf5c7",
+    "response_id": "chatcmpl-EgkA1iFa1BaZznTfPvxCw18mxeYfA",
+    "usage": {
+      "completion_tokens": 370,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1143,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1140,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1513
+    }
+  },
+  "received_at": "2026-11-05T06:34:22+00:00",
+  "result": {
+    "html": "<article data-article-id=\"f1f8d898-1108-4e49-9e62-b12667509107\">\n  <p class=\"poem\"><strong>Hai un peccato?<br>Un peso grave che vorrebbe impedirti<br>di correre bene? Per avere la libertà di Cristo,<br>anima prigioniera, lascialo andare; lascialo andare e vedrai<br>da dove Gesù comincerà.</strong></p>\n  <p class=\"poem\"><strong>Hai una preoccupazione?<br>Allora affida la tua preoccupazione a Dio;<br>non è suo desiderio che tu porti quel peso;<br>lascialo a lui, e percorrerai la strada della vita<br>come se camminassi nell’aria.</strong></p>\n  <p class=\"poem\"><strong>Hai la gioia di Cristo?<br>Condividi la felicità che egli dona a coloro<br>le cui vite traboccano di affanni umani;<br>la sua gioia trascende ogni cosa e si fa più piena:<br>nulla può distruggerla.</strong></p>\n  <p class=\"poem\"><strong>Hai la sua pace?<br>La pace di Cristo, che supera ogni pensiero e conoscenza umani,<br>così calma, così pura e profonda. Solo quando<br>conosciamo una simile serenità—ma non prima—<br>ogni inquietudine può cessare.</strong></p>\n</article>\n",
+    "section": null,
+    "subtitle": null,
+    "title": "I doni di Cristo"
+  }
+}
