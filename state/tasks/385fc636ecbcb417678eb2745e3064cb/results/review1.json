@@ -1,0 +1,66 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "2423b084-0bd5-44bc-a693-d9fd7780add0",
+    "response_id": "chatcmpl-EglPrCoWKIH650FrDTeTykvDvjdju",
+    "usage": {
+      "completion_tokens": 782,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 145,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 12223,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 12220,
+        "cached_tokens": 0
+      },
+      "total_tokens": 13005
+    }
+  },
+  "received_at": "2026-11-05T06:49:16+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "html: раздел I.a, абзац «В Евреям 11:6 сказано»",
+        "severity": "major",
+        "source_quote": "the evidence of things not seen (or demonstrated)",
+        "suggested_fix": "Заменить «в невидимом (или недоказанном)» на «в невидимом (или не показанном наглядно)», сохранив напечатанную ссылку Евреям 11:6.",
+        "translation_quote": "уверенность в невидимом (или недоказанном)"
+      },
+      {
+        "location": "html: раздел III.a, цитата Деяния 16:13",
+        "severity": "major",
+        "source_quote": "…prayer was wont to be made…",
+        "suggested_fix": "Заменить текст внутри существующего em на «…где обычно совершалась молитва… — Деяния 16:13.». В источнике говорится об обычае молиться, а не о наличии молитвенного дома.",
+        "translation_quote": "…там, по обыкновению, был молитвенный дом…"
+      },
+      {
+        "location": "html: раздел III.a, абзац о Петре и Иоанне, оба упоминания времени собрания",
+        "severity": "minor",
+        "source_quote": "Peter and John attended a midafternoon prayer meeting ... when was the last time that you attended a midafternoon prayer meeting?",
+        "suggested_fix": "В обоих предложениях заменить «в середине дня» на «в середине второй половины дня», чтобы не переносить собрание на полдень.",
+        "translation_quote": "Пётр и Иоанн пришли на молитвенное собрание в середине дня ... когда вы в последний раз были на молитвенном собрании в середине дня?"
+      },
+      {
+        "location": "title",
+        "severity": "minor",
+        "source_quote": "Religious Drama vs True Worship",
+        "suggested_fix": "Передать противопоставление: «Религиозная драма против истинного поклонения».",
+        "translation_quote": "Религиозная драма и истинное поклонение"
+      },
+      {
+        "location": "html: вводный абзац «Должна ли церковь беспокоиться об этом?»",
+        "severity": "minor",
+        "source_quote": "instrumental presentations",
+        "suggested_fix": "Заменить «музыкальные выступления» на «инструментальные выступления», сохранив указание на конкретный вид музыки.",
+        "translation_quote": "музыкальные выступления"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 94
+  }
+}

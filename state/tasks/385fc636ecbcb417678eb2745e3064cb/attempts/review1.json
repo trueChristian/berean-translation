@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-05T06:49:16+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"html: раздел I.a, абзац «В Евреям 11:6 сказано»\",\n      \"severity\": \"major\",\n      \"source_quote\": \"the evidence of things not seen (or demonstrated)\",\n      \"suggested_fix\": \"Заменить «в невидимом (или недоказанном)» на «в невидимом (или не показанном наглядно)», сохранив напечатанную ссылку Евреям 11:6.\",\n      \"translation_quote\": \"уверенность в невидимом (или недоказанном)\"\n    },\n    {\n      \"location\": \"html: раздел III.a, цитата Деяния 16:13\",\n      \"severity\": \"major\",\n      \"source_quote\": \"…prayer was wont to be made…\",\n      \"suggested_fix\": \"Заменить текст внутри существующего em на «…где обычно совершалась молитва… — Деяния 16:13.». В источнике говорится об обычае молиться, а не о наличии молитвенного дома.\",\n      \"translation_quote\": \"…там, по обыкновению, был молитвенный дом…\"\n    },\n    {\n      \"location\": \"html: раздел III.a, абзац о Петре и Иоанне, оба упоминания времени собрания\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"Peter and John attended a midafternoon prayer meeting ... when was the last time that you attended a midafternoon prayer meeting?\",\n      \"suggested_fix\": \"В обоих предложениях заменить «в середине дня» на «в середине второй половины дня», чтобы не переносить собрание на полдень.\",\n      \"translation_quote\": \"Пётр и Иоанн пришли на молитвенное собрание в середине дня ... когда вы в последний раз были на молитвенном собрании в середине дня?\"\n    },\n    {\n      \"location\": \"title\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"Religious Drama vs True Worship\",\n      \"suggested_fix\": \"Передать противопоставление: «Религиозная драма против истинного поклонения».\",\n      \"translation_quote\": \"Религиозная драма и истинное поклонение\"\n    },\n    {\n      \"location\": \"html: вводный абзац «Должна ли церковь беспокоиться об этом?»\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"instrumental presentations\",\n      \"suggested_fix\": \"Заменить «музыкальные выступления» на «инструментальные выступления», сохранив указание на конкретный вид музыки.\",\n      \"translation_quote\": \"музыкальные выступления\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": false,\n  \"score\": 94\n}",
+    "content_bytes": 3089,
+    "content_evidence_truncated": false,
+    "content_sha256": "9cd3e102b3bfd5ca3bef055d0e4da146127b0beed9536faf529b42a7c6f03e03",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 782,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 145,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 12223,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 12220,
+        "cached_tokens": 0
+      },
+      "total_tokens": 13005
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}
