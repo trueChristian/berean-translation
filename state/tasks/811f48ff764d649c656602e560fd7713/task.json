@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "d7ccecba4d944c75baa7895c9524aa39",
   "campaign": "auto-a9da96879911421dd28c917936a96cc4a2a648d2796f30c1763ff840c34b3e03",
   "created_at": "2026-11-04T22:53:47+00:00",
   "events": [
@@ -48,39 +47,31 @@
         },
         "total_tokens": 18510
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 82,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 50,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 12108,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 11005,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 12190
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "html — paragraphe commençant par « Hébreux 11:6 »",
-      "severity": "major",
-      "source_quote": "the evidence of things not seen (or demonstrated)",
-      "suggested_fix": "Remplacer « une démonstration de celles qu’on ne voit pas » par « une preuve des choses qu’on ne voit pas (ou qu’on ne démontre pas) », en conservant la référence imprimée Hébreux 11:6.",
-      "translation_quote": "une démonstration de celles qu’on ne voit pas"
-    },
-    {
-      "location": "html — paragraphe sur la montagne de la Transfiguration",
-      "severity": "minor",
-      "source_quote": "by building three shrines",
-      "suggested_fix": "Remplacer « en construisant trois abris » par « en construisant trois sanctuaires », afin de préserver la caractérisation religieuse donnée par l’auteur.",
-      "translation_quote": "en construisant trois abris"
-    },
-    {
-      "location": "html — dernier énoncé du paragraphe commençant par « Le théâtre religieux, ceux qui s’y impliquent »",
-      "severity": "minor",
-      "source_quote": "The Holy Spirit does not honor pretense and showmanship!",
-      "suggested_fix": "Remplacer « la prétention » par « le faux-semblant » : « Le Saint-Esprit n’honore ni le faux-semblant ni le cabotinage ! »",
-      "translation_quote": "Le Saint-Esprit n’honore ni la prétention ni le cabotinage !"
-    },
-    {
-      "location": "html — titre II.a",
-      "severity": "minor",
-      "source_quote": "Religious drama demoralizes reverence for God.",
-      "suggested_fix": "Remplacer le texte du titre par « a. Le théâtre religieux sape le respect dû à Dieu. », en conservant la balise h3.",
-      "translation_quote": "Le théâtre religieux démoralise le respect dû à Dieu."
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-11-05T07:18:41+00:00",
   "id": "811f48ff764d649c656602e560fd7713",
   "issue_id": "4e575f26-fabd-5104-ba0d-d54ca032653b",
   "language": "fra",
@@ -169,7 +160,7 @@
     }
   },
   "protected": false,
-  "quality_score": 94,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6.1-sol",
@@ -188,7 +179,7 @@
     "total_reserved_usd": 0.804376,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "a730f2b1d562664fcfe74fe583444280e3ed7c510ba96079c4edaa5ae23bcb52",
   "translation_model_actual": "gpt-6.1-sol"
