@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-05T00:24:10+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"translation.html، فقرة «العواصف جزء شائع من الحياة»، اقتباس 2 كورنثوس 11:25\",\n      \"severity\": \"major\",\n      \"source_quote\": \"Paul had spent a precarious …night and a day I have been in the deep\",\n      \"suggested_fix\": \"استبدل «لقد أمضى بولس ليلة وخطرًا» بـ«لقد أمضى بولس وقتًا محفوفًا بالخطر»، واستبدل نص الاقتباس بـ«…ليلةً ونهارًا قضيتُ في الغمر –2 كورنثوس 11:25»، مع إبقاء وسم <em>.\",\n      \"translation_quote\": \"لقد أمضى بولس ليلة وخطرًا …ليلتين ويومًا في الغمر كنت\"\n    },\n    {\n      \"location\": \"translation.html، اقتباس أعمال 27:23-24\",\n      \"severity\": \"major\",\n      \"source_quote\": \"the angel of God, whose I am, and whom I serve\",\n      \"suggested_fix\": \"استبدل «ملاك الله الذي لي وأنا أخدمه» بـ«ملاك الله الذي أنا له والذي أخدمه».\",\n      \"translation_quote\": \"ملاك الله الذي لي وأنا أخدمه\"\n    },\n    {\n      \"location\": \"translation.html، الفقرة التي تبدأ «يبدو في تأنيب ربان السفينة»\",\n      \"severity\": \"major\",\n      \"source_quote\": \"there seems to be no other veritable vehicle of grace wherewith His peace can flood our souls\",\n      \"suggested_fix\": \"استبدل الجملة المعنية بـ«لكن يبدو أنه لا توجد وسيلة حقيقية أخرى للنعمة يمكن أن يغمر سلامه نفوسنا من خلالها».\",\n      \"translation_quote\": \"لكنه يبدو أنه لا يوجد مركبة حقيقية للنعمة من خلالها يمكن أن يغمر سلامه نفوسنا\"\n    },\n    {\n      \"location\": \"translation.html، الفقرة الأخيرة قبل اقتباس عبرانيين\",\n      \"severity\": \"major\",\n      \"source_quote\": \"We shall do much better to make excuses for others’ poor behavior than for our own.\",\n      \"suggested_fix\": \"استبدل الجملة بـ«الأفضل لنا بكثير أن نلتمس الأعذار لسلوك الآخرين السيئ بدلًا من أن نلتمسها لسلوكنا نحن».\",\n      \"translation_quote\": \"سنفعل أفضل بكثير إن اعتذرنا عن سلوك الآخرين السيئ أكثر مما نفعل عن أخطائنا.\"\n    },\n    {\n      \"location\": \"translation.html، اقتباس عبرانيين 4:9-11\",\n      \"severity\": \"major\",\n      \"source_quote\": \"For he that is entered into his rest ... Let us labour therefore to enter into that rest\",\n      \"suggested_fix\": \"استبدل «لأن من دخل إلى سُبَتِه» بـ«لأن من دخل إلى راحته»، واستبدل «فلتجتهدوا أن تدخلوا إلى ذلك السُبَتِ» بـ«فلنجتهد إذن أن ندخل إلى تلك الراحة». يمكن إبقاء «سَبْتٌ» في الجملة الأولى.\",\n      \"translation_quote\": \"لأن من دخل إلى سُبَتِه ... فلتجتهدوا أن تدخلوا إلى ذلك السُبَتِ\"\n    },\n    {\n      \"location\": \"translation.html، فقرة «يمكن أن تنقضَّ عواصف الشدائد»\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"Our central medulla gland ... from backsliders\",\n      \"suggested_fix\": \"استبدل «غدّة لبكريّة مركزيّة» بـ«غدّتنا النخاعية المركزية» لنقل تسمية المصدر دون اختراع مصطلح، واستبدل «المريدين المنحرفين» بـ«المتراجعين عن الإيمان».\",\n      \"translation_quote\": \"غدّة لبكريّة مركزيّة ... المريدين المنحرفين\"\n    },\n    {\n      \"location\": \"translation.html، اقتباس مزمور 107:25-30\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"so he bringeth them unto their <strong>desired haven</strong>\",\n      \"suggested_fix\": \"استبدل «فقادهم إلى ميناء مسكنهم المطلوب» بـ«فقادهم إلى <strong>مينائهم المرغوب</strong>» لاستعادة المعنى وإبراز العبارة كما في المصدر.\",\n      \"translation_quote\": \"فقادهم إلى ميناء مسكنهم المطلوب\"\n    },\n    {\n      \"location\": \"translation.html، فقرات متعددة: الأسئلة الافتتاحية، قائمة المخاوف، حماية الممتلكات، وإكمال المخطط\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"through the troublesome pastures of life; the claustrophobic is afraid; the life of Christ was one of the most troubled lives; speak to my brother; the disciples’; Mary’s neglect; when his unfulfilled vision falls short\",\n      \"suggested_fix\": \"صحّح «خلال مراعٍ الحياة» إلى «عبر مراعي الحياة»، و«الخوف من الأماكن الضيقة ... يخشى» إلى «المصاب برهاب الأماكن الضيقة ... يخشى» ونظيرها في رهاب الأماكن المفتوحة، و«كان حياة المسيح من أشد الحياوات» إلى «كانت حياة المسيح من أشد الحيوات»، و«لإخيي» إلى «لأخي»، و«من تلاميذهم» إلى «من شكوى التلاميذ»، و«مَرِية» إلى الاسم الكتابي المعتاد «مريم»، و«عندما يخفق رؤيته غير المكتملة عن توقعاته» إلى «عندما تقصر رؤيته غير المتحققة عن توقعاته».\",\n      \"translation_quote\": \"خلال مراعٍ الحياة؛ الخوف من الأماكن الضيقة ... يخشى؛ كان حياة المسيح من أشد الحياوات؛ قل لإخيي؛ من تلاميذهم؛ إهمال مَرِية؛ عندما يخفق رؤيته غير المكتملة عن توقعاته\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": false,\n  \"score\": 82\n}",
+    "content_bytes": 6093,
+    "content_evidence_truncated": false,
+    "content_sha256": "a27513c33165edeb700a03df7687586bed2134beb8a5c93e4251b251976fa851",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1525,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 149,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9160,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8057,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 10685
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}
