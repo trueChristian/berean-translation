@@ -41149,6 +41149,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/hin/articles/951f56e4-2ce8-4f01-9500-bfeee209cdb4.html",
+      "html_sha256": "2d6f2c3ee1841f9a3293fada91308f9bcc5fd1a05b81f6d0132e1fa144e74e6f",
+      "human_reviewed": false,
+      "id": "951f56e4-2ce8-4f01-9500-bfeee209cdb4",
+      "images": [
+        {
+          "alt": "पेड़ों से भरे परिदृश्य के बीच मुड़ती हुई धूप से नहाई सड़क",
+          "public_path": "/images/articles/951f56e4-2ce8-4f01-9500-bfeee209cdb4-1.jpg"
+        }
+      ],
+      "issue_id": "1a7070c9-fd4f-546b-a220-f267ddb8cf5f",
+      "language": "hin",
+      "language_tag": "hi",
+      "metadata": "content/hin/articles/951f56e4-2ce8-4f01-9500-bfeee209cdb4.json",
+      "metadata_sha256": "bf1f208a566be7cac5e10524b7e4b0a2c27b2333f77b15b356c89565fb2c12e4",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "विजयी मसीही जीवन",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "6ba0f430c997b1ea3450b766c83b9abcf64dbdc84cdd47383ef0cebf9766d0dd",
+      "status": "ready",
+      "subtitle": null,
+      "title": "विश्राम का आश्रय-बंदरगाह",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/hin/articles/95aac01a-bc7b-4c4b-a8c0-0c193488e249.html",
       "html_sha256": "0375f0003cb57bb27db72de67dc9eaba3925a0e3f9875fb0a500d3f1906486dc",
       "human_reviewed": false,

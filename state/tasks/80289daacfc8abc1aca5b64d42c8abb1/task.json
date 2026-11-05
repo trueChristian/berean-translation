@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "3e45cf395e294fbf864085d82e0ed48f",
   "campaign": "auto-ba0b51a4b22a8714b293d8bdeb785c8a92f461530e0a8ea405a5d39a9e3ad2f9",
   "created_at": "2026-11-04T09:12:16+00:00",
   "events": [
@@ -48,102 +47,31 @@
         },
         "total_tokens": 17066
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 73,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 41,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 10093,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8990,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 10166
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "html: opening p.drop-cap",
-      "severity": "major",
-      "source_quote": "the waves beat into the ship, so that it was now full ... in the hinder part ... carest thou not that we perish? ... rebuked the wind ... Why are ye so fearful?",
-      "suggested_fix": "इस अनुच्छेद को सुधारें: “और एक बड़ा आँधी-तूफान उठा, और लहरें नाव में आने लगीं, यहाँ तक कि वह भर गई। वह नाव के पिछले भाग में तकिये पर सो रहे थे। उन्होंने उन्हें जगाकर कहा, हे गुरु, क्या आपको चिंता नहीं कि हम नाश हो रहे हैं? तब उन्होंने उठकर हवा को डाँटा और समुद्र से कहा, शांत हो, थम जा। हवा थम गई और बड़ा सन्नाटा छा गया। उन्होंने उनसे कहा, तुम इतने भयभीत क्यों हो? तुममें विश्वास क्यों नहीं है? वे अत्यन्त भयभीत हो गए और आपस में कहने लगे, यह कैसा मनुष्य है कि हवा और समुद्र भी उसकी आज्ञा मानते हैं? मरकुस 4:37-41”",
-      "translation_quote": "लहरों ने नाव में जैसे-तैसे जगह भर दी ... पच्छिम भाग ... हम खो रहे हैं ... हवा को बोला ... बड़ा स्थिर शांतधरा हुआ ... तुम किस अपराध से भयभीत हो?"
-    },
-    {
-      "location": "html: paragraph beginning “मैंने अनेक बार”",
-      "severity": "major",
-      "source_quote": "a story that generates more questions than it solves ... Jesus as the relational form of the Godhead ... strong enough to secure our salvation",
-      "suggested_fix": "संबंधित वाक्यांशों को क्रमशः “ऐसी कहानी जो जितने प्रश्नों के उत्तर देती है, उससे अधिक प्रश्न खड़े करती है”, “यीशु को परमेश्वरत्व के उस रूप के रूप में, जिसके साथ हम व्यक्तिगत संबंध बना सकते हैं”, और “इतना दृढ़ है कि हमारा उद्धार सुनिश्चित हो” करें।",
-      "translation_quote": "ऐसा कथ्य ... जो प्रश्न उत्पन्न करता है जितना कि हल करता है ... यीशु को परमोच्च के साथ संबंध-रूप के रूप में ... इतना दृढ़ है कि वह हमारी रक्षा करेगा"
-    },
-    {
-      "location": "html: third paragraph",
-      "severity": "major",
-      "source_quote": "Why are ye so fearful? How is it that ye have no faith? ... an abiding lesson here concerning fear and faith.",
-      "suggested_fix": "पूरे अनुच्छेद का हिंदी अनुवाद करें: “तुम इतने भयभीत क्यों हो? तुममें विश्वास क्यों नहीं है? हमारे उद्धारकर्ता के मुख से ये प्रश्न लगभग असंगत लगते हैं, मानो वे उतने धीरजवन्त और सहनशील नहीं हैं जितनी हमने आशा की थी। पर मसीह ने अपने शिष्यों से एक स्पष्ट अपेक्षा रखी है जिसे पूरा करना उनकी क्षमता से बाहर नहीं है। क्या वे उनसे स्वयं तूफान को डाँटने के लिए कह रहे थे? क्या उन्हें पहले ही जगा देना चाहिए था? क्या वे चाहते थे कि वे पूरे भरोसे के साथ चुपचाप नाव खेते रहें? यहाँ पवित्रशास्त्र हमें बहुत कम उत्तर देता है, पर हम इतना जानते हैं कि यहाँ भय और विश्वास के विषय में एक स्थायी शिक्षा है।”",
-      "translation_quote": "Why are ye so fearful? How is it that ye have no faith? ... an abiding lesson here concerning fear and faith."
-    },
-    {
-      "location": "html: paragraph beginning “तूफान जीवन”",
-      "severity": "major",
-      "source_quote": "all hope that we should be saved was then taken away ... the angel of God, whose I am, and whom I serve",
-      "suggested_fix": "इन उद्धृत अंशों को “तब हमारे बचने की सारी आशा जाती रही” और “उस परमेश्वर का स्वर्गदूत, जिसका मैं हूँ और जिसकी मैं सेवा करता हूँ” करें। दूसरा अंश स्पष्ट रूप से बताए कि पौलुस परमेश्वर का है और उसी की सेवा करता है।",
-      "translation_quote": "हमें बचने की कोई छोटी आशा नहीं बची ... परमेश्वर का एक स्वर्गदूत ... जिसकी मैं हूँ और जिसका मैं सेवक हूँ"
-    },
-    {
-      "location": "html: Psalm quotation; h2 “The Desired Haven…”; following three English paragraphs",
-      "severity": "major",
-      "source_quote": "For he commandeth, and raiseth the stormy wind ... –Psalm 107:25-30. / The Desired Haven… / Somehow, we have embraced the thought ... / The tenacious storms of adversity ... / When we are happy ...",
-      "suggested_fix": "इन सभी अंशों का पूरा हिंदी अनुवाद करें; कोई वाक्य न छोड़ें। शीर्षक “मनचाहा आश्रय-बंदरगाह…” रखें। भजन के उद्धरण में <strong>मनचाहे आश्रय-बंदरगाह</strong> और संदर्भ “भजन संहिता 107:25-30” रखें। अगले अनुच्छेदों में क्रमशः सांसारिक तूफानरहित विश्राम और मसीह की शांति का अंतर, विपत्ति में परमेश्वर के नियंत्रण पर भरोसा, तथा भीतर से उठने वाली चिंता और चार प्रकार के भय की भूमिका पूरी तरह हिंदी में प्रस्तुत करें। सभी मौजूदा <p>, <em>, <strong> और <h2> टैग तथा संदर्भों के स्थान और संख्याएँ बनाए रखें।",
-      "translation_quote": "For he commandeth, and raiseth the stormy wind ... –Psalm 107:25-30. / The Desired Haven… / Somehow, we have embraced the thought ... / The tenacious storms of adversity ... / When we are happy ..."
-    },
-    {
-      "location": "html: all four ol/li elements; paragraph immediately after ol; Mark 8:35 quotation",
-      "severity": "major",
-      "source_quote": "The acrophobic person has a fear of heights ... / The zoophobic lives in fear of animals ... / The claustrophobic ... / Arachibutyrophobia ... / In the face of his fear ... / For whosoever will save his life shall lose it",
-      "suggested_fix": "चारों सूची-मदों तथा उनके बाद के दोनों अनुच्छेदों का पूरा हिंदी अनुवाद करें। सूची में ऊँचाई, पशुओं, तंग और खुले स्थानों, तथा तालू से मूँगफली का मक्खन चिपकने के भय के सभी विवरण बनाए रखें। अगले अनुच्छेद में शारीरिक लक्षण, निराधार चिंता, स्वयं की रक्षा और मृत्यु में भी मसीह पर भरोसा करने का तर्क बनाए रखें। अंतिम उद्धरण करें: “क्योंकि जो कोई अपना जीवन बचाना चाहेगा, वह उसे खो देगा; पर जो कोई मेरे और सुसमाचार के लिए अपना जीवन खो देगा, वही उसे बचाएगा –मरकुस 8:35।” फिलिप्पियों 1:23 के उद्धरण और सभी HTML टैग भी बनाए रखें।",
-      "translation_quote": "The acrophobic person has a fear of heights ... / The zoophobic lives in fear of animals ... / The claustrophobic ... / Arachibutyrophobia ... / In the face of his fear ... / For whosoever will save his life shall lose it"
-    },
-    {
-      "location": "html: four English h2 headings",
-      "severity": "major",
-      "source_quote": "…Preserving our Person / …Protecting our Property / …Perfecting our Plan / …Pleasing all People",
-      "suggested_fix": "शीर्षकों को क्रमशः “…स्वयं को बचाने में”, “…अपनी संपत्ति की रक्षा करने में”, “…अपनी योजना को पूर्ण बनाने में” और “…सभी लोगों को प्रसन्न करने में” करें; <h2> टैग बनाए रखें।",
-      "translation_quote": "…Preserving our Person / …Protecting our Property / …Perfecting our Plan / …Pleasing all People"
-    },
-    {
-      "location": "html: paragraph beginning “बाह्य रूप से”, three em quotations",
-      "severity": "major",
-      "source_quote": "And one of the company said unto him ... –Luke 12:13. / …to be of good cheer ... –Acts 27:22. / …he went away sorrowful ... –Matthew 19:22.",
-      "suggested_fix": "इन उद्धरणों को हिंदी में करें: “भीड़ में से एक व्यक्ति ने उनसे कहा, हे गुरु, मेरे भाई से कहिए कि वह मेरे साथ विरासत बाँट ले –लूका 12:13।” / “…हिम्मत रखो, क्योंकि तुममें से किसी का प्राण नहीं जाएगा, केवल जहाज नष्ट होगा –प्रेरितों के काम 27:22।” / “…वह उदास होकर चला गया, क्योंकि उसके पास बहुत संपत्ति थी –मत्ती 19:22।” मौजूदा <em> टैग बनाए रखें।",
-      "translation_quote": "And one of the company said unto him ... –Luke 12:13. / …be of good cheer ... –Acts 27:22. / …he went away sorrowful ... –Matthew 19:22."
-    },
-    {
-      "location": "html: paragraph beginning “बाह्य रूप से”",
-      "severity": "major",
-      "source_quote": "Foxes had their dens and the birds had their nests",
-      "suggested_fix": "“लोमड़ियों के बिल थे और पक्षियों के घोंसले थे” करें।",
-      "translation_quote": "लोमड़ियों के बिल हैं और पक्षियों के तिनके हैं"
-    },
-    {
-      "location": "html: paragraph beginning “हम किसी पथ पर निकले”",
-      "severity": "major",
-      "source_quote": "some new avenue of ministry ... Lord, dost thou not care that my sister hath left me to serve alone? bid her therefore that she help me –Luke 10:40.",
-      "suggested_fix": "“किसी नए मंत्रालय के मार्ग” को “सेवकाई के किसी नए मार्ग” करें। उद्धरण को हिंदी में करें: “…हे प्रभु, क्या आपको चिंता नहीं कि मेरी बहन ने मुझे अकेले सेवा करने के लिए छोड़ दिया है? इसलिए उससे कहिए कि वह मेरी सहायता करे –लूका 10:40।” <em> टैग बनाए रखें।",
-      "translation_quote": "किसी नए मंत्रालय के मार्ग ... Lord, dost thou not care that my sister hath left me to serve alone? bid her therefore that she help me –Luke 10:40."
-    },
-    {
-      "location": "html: final em paragraph",
-      "severity": "major",
-      "source_quote": "There remaineth therefore a rest to the people of God ... –Hebrews 4:9-11.",
-      "suggested_fix": "उद्धरण का अनुवाद करें: “इसलिए परमेश्वर के लोगों के लिए एक विश्राम शेष है। क्योंकि जिसने उसके विश्राम में प्रवेश किया है, उसने भी अपने कामों से विश्राम किया है, जैसे परमेश्वर ने अपने कामों से किया था। इसलिए आओ, हम उस विश्राम में प्रवेश करने का पूरा प्रयत्न करें… –इब्रानियों 4:9-11।” <p><em> संरचना बनाए रखें।",
-      "translation_quote": "There remaineth therefore a rest to the people of God ... –Hebrews 4:9-11."
-    },
-    {
-      "location": "html: Scripture references throughout",
-      "severity": "minor",
-      "source_quote": "Mark 4:37-41; Acts 27:20; 2 Corinthians 11:25; Acts 27:23-24; Mark 4:38; Jonah 1:6; 2 Corinthians 1:8; Psalm 107:25-30; Acts 27:12-13; John 14:27; Acts 27:14; Philippians 1:23; Mark 8:35; Luke 12:13; Acts 27:22; Matthew 19:22; Luke 10:40; Hebrews 4:9-11",
-      "suggested_fix": "सभी पुस्तक-नामों के प्रचलित हिंदी रूप इस्तेमाल करें: Mark → मरकुस; Acts → प्रेरितों के काम; 2 Corinthians → 2 कुरिन्थियों; Jonah → योना; Psalm → भजन संहिता; John → यूहन्ना; Philippians → फिलिप्पियों; Luke → लूका; Matthew → मत्ती; Hebrews → इब्रानियों। प्रत्येक संदर्भ की संख्या, सीमा और स्थान यथावत रखें।",
-      "translation_quote": "Mark 4:37-41; Acts 27:20; 2 Corinthians 11:25; Acts 27:23-24; Mark 4:38; Jonah 1:6; 2 Corinthians 1:8; Psalm 107:25-30; Acts 27:12-13; John 14:27; Acts 27:14; Philippians 1:23; Mark 8:35; Luke 12:13; Acts 27:22; Matthew 19:22; Luke 10:40; Hebrews 4:9-11"
-    },
-    {
-      "location": "html: img alt",
-      "severity": "minor",
-      "source_quote": "A sunlit road curving through a wooded landscape",
-      "suggested_fix": "केवल alt का मान बदलें: “पेड़ों से भरे परिदृश्य के बीच मुड़ती हुई धूप से नहाई सड़क”। src तथा अन्य संरचना बनाए रखें।",
-      "translation_quote": "A sunlit road curving through a wooded landscape"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-11-05T00:08:12+00:00",
   "id": "80289daacfc8abc1aca5b64d42c8abb1",
   "issue_id": "1a7070c9-fd4f-546b-a220-f267ddb8cf5f",
   "language": "hin",
@@ -232,7 +160,7 @@
     }
   },
   "protected": false,
-  "quality_score": 40,
+  "quality_score": 99,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6.1-sol",
@@ -251,7 +179,7 @@
     "total_reserved_usd": 0.792464,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "6ba0f430c997b1ea3450b766c83b9abcf64dbdc84cdd47383ef0cebf9766d0dd",
   "translation_model_actual": "gpt-6.1-sol"
