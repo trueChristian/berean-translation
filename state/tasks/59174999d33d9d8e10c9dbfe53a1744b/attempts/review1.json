@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-05T10:44:22+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Tredje strofen, sista raden\",\"severity\":\"major\",\"source_quote\":\"This, nothing can destroy.\",\"suggested_fix\":\"ingenting kan förstöra den.\",\"translation_quote\":\"den kan ingenting förstöra.\"}],\"findings_complete\":true,\"passed\":false,\"score\":93}",
+    "content_bytes": 271,
+    "content_evidence_truncated": false,
+    "content_sha256": "b1fc6fa9f67ad2ac16589b21b2f256c9dde13dd1728366f191420971491824e9",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 622,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 535,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1866,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1863,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2488
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

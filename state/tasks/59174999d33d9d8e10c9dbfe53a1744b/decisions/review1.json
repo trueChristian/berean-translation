@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Tredje strofen, sista raden",
+      "severity": "major",
+      "source_quote": "This, nothing can destroy.",
+      "suggested_fix": "ingenting kan förstöra den.",
+      "translation_quote": "den kan ingenting förstöra."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

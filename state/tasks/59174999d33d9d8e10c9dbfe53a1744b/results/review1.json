@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "6077a855-58fb-421a-b518-9e4dbf52bd65",
+    "response_id": "chatcmpl-EgopGtETJVAyOGPYV99FlhdxdF3c5",
+    "usage": {
+      "completion_tokens": 622,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 535,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1866,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1863,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2488
+    }
+  },
+  "received_at": "2026-11-05T10:44:22+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Tredje strofen, sista raden",
+        "severity": "major",
+        "source_quote": "This, nothing can destroy.",
+        "suggested_fix": "ingenting kan förstöra den.",
+        "translation_quote": "den kan ingenting förstöra."
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 93
+  }
+}
