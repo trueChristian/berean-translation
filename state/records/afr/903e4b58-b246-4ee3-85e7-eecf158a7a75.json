@@ -25,10 +25,17 @@
       "event": "complete",
       "reason": null,
       "task": "dd4cae43073eb580e6b53ce58b8e6f68"
+    },
+    {
+      "at": "2026-11-05T07:05:44+00:00",
+      "campaign": "auto-20570c30ff1fba13198f71abedf5c9f0d1dbaab5c35cd5df1f59b7ecbbf292dd",
+      "event": "automatic_requested",
+      "previous_task": "dd4cae43073eb580e6b53ce58b8e6f68",
+      "task": "5d766f43b374a4531e4f438d0cda000c"
     }
   ],
   "language": "afr",
-  "latest_task": "dd4cae43073eb580e6b53ce58b8e6f68",
+  "latest_task": "5d766f43b374a4531e4f438d0cda000c",
   "published": {
     "html_path": "content/afr/articles/903e4b58-b246-4ee3-85e7-eecf158a7a75.html",
     "html_sha256": "f2ddea2bdfef1071ebfb43d8f3beca49a5d46578caac9459524dd8bc4c0bf20f",
