@@ -92467,6 +92467,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/swe/articles/7c9d5015-158a-4c07-92fc-ae40c998d9ae.html",
+      "html_sha256": "de14f09d341ee8041b033ac44ba2a8b0fc5246824fa2faea73c1afcbe8edc1ac",
+      "human_reviewed": false,
+      "id": "7c9d5015-158a-4c07-92fc-ae40c998d9ae",
+      "images": [
+        {
+          "alt": "En äldre skäggig man lägger händerna på huvudet på en knäböjande man medan en kvinna sitter i närheten",
+          "public_path": "/images/articles/7c9d5015-158a-4c07-92fc-ae40c998d9ae-1.jpg"
+        },
+        {
+          "alt": "En man i mantel står med armarna utsträckta bredvid en knäböjande gestalt utomhus",
+          "public_path": "/images/articles/7c9d5015-158a-4c07-92fc-ae40c998d9ae-2.jpg"
+        }
+      ],
+      "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
+      "language": "swe",
+      "language_tag": "sv",
+      "metadata": "content/swe/articles/7c9d5015-158a-4c07-92fc-ae40c998d9ae.json",
+      "metadata_sha256": "f08dd5a6bebb54476985450bd19253a1802298e074e5d60b82d82ff4772ccfbe",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
+      "source_translation_key": "45c04759c5b0f7d8a9038af8cc76e1ff17a52e5b989557b235da9ebe057bb77d",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Vår gemenskap är med Fadern",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/swe/articles/7cdda5c4-11c0-4b7f-bcd4-b37677267f87.html",
       "html_sha256": "15578290708094ce2bd1f2892f2c53c8fffd211371862f6fcb4af7ad9254cd6d",
       "human_reviewed": false,
