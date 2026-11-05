@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-05T22:45:57+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"translation.html, avsnitt I.a, citatet av Romarbrevet 10:17\",\n      \"severity\": \"major\",\n      \"source_quote\": \"So then faith cometh by hearing, and hearing by the word of God\",\n      \"suggested_fix\": \"Ersätt citattexten med: ”Alltså kommer tron genom att höra, och hörandet genom Guds ord”. Behåll em-taggen och hänvisningen.\",\n      \"translation_quote\": \"Alltså kommer tron av predikan, och predikan i kraft av Kristi ord\"\n    },\n    {\n      \"location\": \"translation.html, avsnitt III.b, första stycket, citatet av Markusevangeliet 1:14\",\n      \"severity\": \"major\",\n      \"source_quote\": \"…[He] came into Galilee, preaching the gospel of the kingdom of God\",\n      \"suggested_fix\": \"Ändra ”predikade Guds evangelium” till ”predikade evangeliet om Guds rike”. Behåll övrig citattext, em-taggen och hänvisningen.\",\n      \"translation_quote\": \"…kom [han] till Galileen och predikade Guds evangelium\"\n    },\n    {\n      \"location\": \"translation.html, avsnitt I.a, citatet av 2 Moseboken 20:23\",\n      \"severity\": \"major\",\n      \"source_quote\": \"Ye shall not make with me gods of silver\",\n      \"suggested_fix\": \"Ändra ”Ni skall inte göra några gudar av silver tillsammans med mig” till ”Ni skall inte göra er några gudar av silver vid sidan av mig”. Behåll resten av citatet och dess HTML-struktur.\",\n      \"translation_quote\": \"Ni skall inte göra några gudar av silver tillsammans med mig\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": false,\n  \"score\": 92\n}",
+    "content_bytes": 1550,
+    "content_evidence_truncated": false,
+    "content_sha256": "5553abac48b8dc4dc9254a2869a78d41bea48245c7bc70f6937b293373f9de4c",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 572,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 137,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 12430,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 12427,
+        "cached_tokens": 0
+      },
+      "total_tokens": 13002
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}

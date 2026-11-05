@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "translation.html, avsnitt I.a, citatet av Romarbrevet 10:17",
+      "severity": "major",
+      "source_quote": "So then faith cometh by hearing, and hearing by the word of God",
+      "suggested_fix": "Ersätt citattexten med: ”Alltså kommer tron genom att höra, och hörandet genom Guds ord”. Behåll em-taggen och hänvisningen.",
+      "translation_quote": "Alltså kommer tron av predikan, och predikan i kraft av Kristi ord"
+    },
+    {
+      "location": "translation.html, avsnitt III.b, första stycket, citatet av Markusevangeliet 1:14",
+      "severity": "major",
+      "source_quote": "…[He] came into Galilee, preaching the gospel of the kingdom of God",
+      "suggested_fix": "Ändra ”predikade Guds evangelium” till ”predikade evangeliet om Guds rike”. Behåll övrig citattext, em-taggen och hänvisningen.",
+      "translation_quote": "…kom [han] till Galileen och predikade Guds evangelium"
+    },
+    {
+      "location": "translation.html, avsnitt I.a, citatet av 2 Moseboken 20:23",
+      "severity": "major",
+      "source_quote": "Ye shall not make with me gods of silver",
+      "suggested_fix": "Ändra ”Ni skall inte göra några gudar av silver tillsammans med mig” till ”Ni skall inte göra er några gudar av silver vid sidan av mig”. Behåll resten av citatet och dess HTML-struktur.",
+      "translation_quote": "Ni skall inte göra några gudar av silver tillsammans med mig"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
