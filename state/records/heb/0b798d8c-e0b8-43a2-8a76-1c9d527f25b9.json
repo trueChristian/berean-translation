@@ -12,9 +12,16 @@
       "event": "not_ready",
       "reason": "Scripture chapter/verse numbers or ranges changed at /article[1]/p[7]; missing: 13:18; extra: Matthew 13:18",
       "task": "b92367acf304e52bd1ea1e2969591852"
+    },
+    {
+      "at": "2026-11-05T07:06:26+00:00",
+      "campaign": "auto-c0adc934577d190e6a91dd5278dc5a56e43b28d0c746dd217731635e38c460d6",
+      "event": "automatic_requested",
+      "previous_task": "b92367acf304e52bd1ea1e2969591852",
+      "task": "2779b7c6c8e70fc71a54c6f75a32174d"
     }
   ],
   "language": "heb",
-  "latest_task": "b92367acf304e52bd1ea1e2969591852",
+  "latest_task": "2779b7c6c8e70fc71a54c6f75a32174d",
   "published": null
 }
