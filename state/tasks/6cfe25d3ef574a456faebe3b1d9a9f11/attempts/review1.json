@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-05T07:04:31+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"html > aside > p\",\n      \"severity\": \"major\",\n      \"source_quote\": \"para-church events (such as concerts, seminars, Bible Schools, etc.)\",\n      \"suggested_fix\": \"“교회 연합 행사(콘서트, 세미나, 성경학교 등)”를 “교회 외 기독교 단체의 행사(콘서트, 세미나, 성경학교 등)”로 수정하십시오.\",\n      \"translation_quote\": \"교회 연합 행사(콘서트, 세미나, 성경학교 등)\"\n    },\n    {\n      \"location\": \"html > I.a, 히브리서 11:6을 인용하는 문단\",\n      \"severity\": \"major\",\n      \"source_quote\": \"the evidence of things not seen (or demonstrated)\",\n      \"suggested_fix\": \"“보이지 않는 것들(또는 시연된 것들)의 증거니”를 “눈으로 보거나 시연으로 확인하지 못하는 것들의 증거니”로 수정하여 부정의 의미가 두 표현 모두에 적용되도록 하십시오. 인쇄된 성경 참조 번호는 그대로 유지하십시오.\",\n      \"translation_quote\": \"보이지 않는 것들(또는 시연된 것들)의 증거니\"\n    },\n    {\n      \"location\": \"html > II.d, 디모데후서 2:15 인용\",\n      \"severity\": \"major\",\n      \"source_quote\": \"<em>Study to shew thyself approved unto God… –2 Timothy 2:15.</em>\",\n      \"suggested_fix\": \"인용문을 <em>하나님께 인정받는 자로 자신을 드리기를 힘쓰라… –디모데후서 2:15.</em>로 수정하여 원문에 인쇄되지 않은 성경 구절을 덧붙이지 마십시오.\",\n      \"translation_quote\": \"<em>네가 진리의 말씀을 옳게 분변하며 부끄러울 것이 없는 일꾼으로 인정된 자로 자신을 하나님 앞에 드리기를 힘쓰라… –디모데후서 2:15.</em>\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": false,\n  \"score\": 93\n}",
+    "content_bytes": 1810,
+    "content_evidence_truncated": false,
+    "content_sha256": "cae7207b219ee9a0825c09806770d4b911d187bae6ffb8aa7ce4413cd4c27447",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 607,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 94,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 12656,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 11553,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 13263
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}

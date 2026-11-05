@@ -5,11 +5,54 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "23618f0284f24206b08b73198b5bb83e",
   "campaign": "auto-b7d5ec74ef546e78e786e6e87413f2c77d48f17c07b84c7e068a1dfe38ca7967",
   "created_at": "2026-11-05T06:41:29+00:00",
-  "events": [],
-  "findings": [],
+  "events": [
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 607,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 94,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 12656,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 11553,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 13263
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "html > aside > p",
+      "severity": "major",
+      "source_quote": "para-church events (such as concerts, seminars, Bible Schools, etc.)",
+      "suggested_fix": "“교회 연합 행사(콘서트, 세미나, 성경학교 등)”를 “교회 외 기독교 단체의 행사(콘서트, 세미나, 성경학교 등)”로 수정하십시오.",
+      "translation_quote": "교회 연합 행사(콘서트, 세미나, 성경학교 등)"
+    },
+    {
+      "location": "html > I.a, 히브리서 11:6을 인용하는 문단",
+      "severity": "major",
+      "source_quote": "the evidence of things not seen (or demonstrated)",
+      "suggested_fix": "“보이지 않는 것들(또는 시연된 것들)의 증거니”를 “눈으로 보거나 시연으로 확인하지 못하는 것들의 증거니”로 수정하여 부정의 의미가 두 표현 모두에 적용되도록 하십시오. 인쇄된 성경 참조 번호는 그대로 유지하십시오.",
+      "translation_quote": "보이지 않는 것들(또는 시연된 것들)의 증거니"
+    },
+    {
+      "location": "html > II.d, 디모데후서 2:15 인용",
+      "severity": "major",
+      "source_quote": "<em>Study to shew thyself approved unto God… –2 Timothy 2:15.</em>",
+      "suggested_fix": "인용문을 <em>하나님께 인정받는 자로 자신을 드리기를 힘쓰라… –디모데후서 2:15.</em>로 수정하여 원문에 인쇄되지 않은 성경 구절을 덧붙이지 마십시오.",
+      "translation_quote": "<em>네가 진리의 말씀을 옳게 분변하며 부끄러울 것이 없는 일꾼으로 인정된 자로 자신을 하나님 앞에 드리기를 힘쓰라… –디모데후서 2:15.</em>"
+    }
+  ],
   "id": "6cfe25d3ef574a456faebe3b1d9a9f11",
   "issue_id": "4e575f26-fabd-5104-ba0d-d54ca032653b",
   "language": "kor",
@@ -98,11 +141,13 @@
     }
   },
   "protected": false,
+  "quality_score": 93,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/f170b59c5b4cc7d1f9e03dcb7760474d0f2879e0f09d0377b8f46e67154d4f56.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "review1",
     "max_candidate_bytes": 120000,
@@ -115,7 +160,7 @@
     "total_reserved_usd": 0.806121,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 0,
   "translation_key": "a730f2b1d562664fcfe74fe583444280e3ed7c510ba96079c4edaa5ae23bcb52",
   "translation_model_actual": "gpt-6-luna"

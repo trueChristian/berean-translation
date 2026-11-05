@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "html > aside > p",
+      "severity": "major",
+      "source_quote": "para-church events (such as concerts, seminars, Bible Schools, etc.)",
+      "suggested_fix": "“교회 연합 행사(콘서트, 세미나, 성경학교 등)”를 “교회 외 기독교 단체의 행사(콘서트, 세미나, 성경학교 등)”로 수정하십시오.",
+      "translation_quote": "교회 연합 행사(콘서트, 세미나, 성경학교 등)"
+    },
+    {
+      "location": "html > I.a, 히브리서 11:6을 인용하는 문단",
+      "severity": "major",
+      "source_quote": "the evidence of things not seen (or demonstrated)",
+      "suggested_fix": "“보이지 않는 것들(또는 시연된 것들)의 증거니”를 “눈으로 보거나 시연으로 확인하지 못하는 것들의 증거니”로 수정하여 부정의 의미가 두 표현 모두에 적용되도록 하십시오. 인쇄된 성경 참조 번호는 그대로 유지하십시오.",
+      "translation_quote": "보이지 않는 것들(또는 시연된 것들)의 증거니"
+    },
+    {
+      "location": "html > II.d, 디모데후서 2:15 인용",
+      "severity": "major",
+      "source_quote": "<em>Study to shew thyself approved unto God… –2 Timothy 2:15.</em>",
+      "suggested_fix": "인용문을 <em>하나님께 인정받는 자로 자신을 드리기를 힘쓰라… –디모데후서 2:15.</em>로 수정하여 원문에 인쇄되지 않은 성경 구절을 덧붙이지 마십시오.",
+      "translation_quote": "<em>네가 진리의 말씀을 옳게 분변하며 부끄러울 것이 없는 일꾼으로 인정된 자로 자신을 하나님 앞에 드리기를 힘쓰라… –디모데후서 2:15.</em>"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
