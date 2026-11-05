@@ -25,10 +25,17 @@
       "event": "not_ready",
       "reason": "Malformed HTML closing tag: u",
       "task": "d80a5701b0ab429bf6b02e14bfef4e7a"
+    },
+    {
+      "at": "2026-11-05T22:04:51+00:00",
+      "campaign": "auto-a9fcd7cf3b759b4668ef9c9551c3ec2b2b94b7827cc6349ef7223b811ddc20b0",
+      "event": "automatic_requested",
+      "previous_task": "d80a5701b0ab429bf6b02e14bfef4e7a",
+      "task": "f4846b59a26575092b26330a7241ef12"
     }
   ],
   "language": "cmn",
-  "latest_task": "d80a5701b0ab429bf6b02e14bfef4e7a",
+  "latest_task": "f4846b59a26575092b26330a7241ef12",
   "published": {
     "html_path": "content/cmn/articles/903e4b58-b246-4ee3-85e7-eecf158a7a75.html",
     "html_sha256": "45c9864ca9f590113fc06d6410b756679dfd13c8816a6018f8087b4d313ef85e",
