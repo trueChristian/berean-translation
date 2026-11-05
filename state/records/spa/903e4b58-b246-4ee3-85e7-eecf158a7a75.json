@@ -12,10 +12,17 @@
       "event": "complete",
       "reason": null,
       "task": "c09423b27dc94c6009404656ebf6db07"
+    },
+    {
+      "at": "2026-11-05T00:26:17+00:00",
+      "campaign": "auto-459d964b4abcaf21d8ec36f22a763fef18ae51f2e51263db2e9ca150760d8e78",
+      "event": "automatic_requested",
+      "previous_task": "c09423b27dc94c6009404656ebf6db07",
+      "task": "31e1c2f4c9bfce3ea78e88cc43f412b6"
     }
   ],
   "language": "spa",
-  "latest_task": "c09423b27dc94c6009404656ebf6db07",
+  "latest_task": "31e1c2f4c9bfce3ea78e88cc43f412b6",
   "published": {
     "html_path": "content/spa/articles/903e4b58-b246-4ee3-85e7-eecf158a7a75.html",
     "html_sha256": "f44908a8e5479bc41e04dbf168ed29882328cab94c21dc64db90c56270665234",
