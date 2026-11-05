@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-05T06:36:04+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"f1f8d898-1108-4e49-9e62-b12667509107\\\">\\n  <p class=\\\"poem\\\"><strong>Έχεις αμαρτία;<br>Κάποιο βαρύ φορτίο που θαρρείς πως σε εμποδίζει<br>να τρέχεις σωστά; Για να έχεις την ελευθερία του Χριστού,<br>ψυχή αιχμάλωτη, άφησέ το· άφησέ το και δες<br>πού θα αρχίσει ο Ιησούς.</strong></p>\\n  <p class=\\\"poem\\\"><strong>Έχεις έγνοια;<br>Τότε απόθεσε την έγνοια σου στον Θεό·<br>δεν είναι θέλημά Του να σηκώνεις αυτό το βάρος·<br>άφησέ το σ’ Εκείνον, και θα βαδίσεις τον δρόμο της ζωής<br>σαν να περπατούσες στον αέρα.</strong></p>\\n  <p class=\\\"poem\\\"><strong>Έχεις τη χαρά του Χριστού;<br>Μοιράσου την ευτυχία που χαρίζει σε όσους<br>η ζωή τους ξεχειλίζει από ανθρώπινα βάσανα·<br>η χαρά Του τα ξεπερνά όλα και μεγαλώνει,<br>τίποτε δεν μπορεί να την καταστρέψει.</strong></p>\\n  <p class=\\\"poem\\\"><strong>Έχεις την ειρήνη Του;<br>Την ειρήνη του Χριστού, που ξεπερνά την ανθρώπινη σκέψη και γνώση,<br>τόσο γαλήνια, τόσο καθαρή και βαθιά. Μόνο όταν<br>γνωρίσουμε τέτοια γαλήνη —και όχι νωρίτερα—<br>μπορεί να πάψει κάθε ανησυχία.</strong></p>\\n</article>\\n\",\"section\":null,\"subtitle\":null,\"title\":\"Τα δώρα του Χριστού\"}",
+    "content_bytes": 1792,
+    "content_evidence_truncated": false,
+    "content_sha256": "9edaf5ac519d44c7922159ce2fc9a250d25832cd376ff84a5d8598ecda8df954",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 696,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 221,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1150,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1147,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1846
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}
