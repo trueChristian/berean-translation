@@ -25,10 +25,17 @@
       "event": "complete",
       "reason": null,
       "task": "af13c2f33f4b547eea12a0d6c010b4c4"
+    },
+    {
+      "at": "2026-11-05T06:43:12+00:00",
+      "campaign": "auto-e03526f76a80c7ff57067afe04469a3982571fc7da9f24a0a52d3c355f352e60",
+      "event": "automatic_requested",
+      "previous_task": "af13c2f33f4b547eea12a0d6c010b4c4",
+      "task": "381035a8c72b351aa3f7457b259ba8b1"
     }
   ],
   "language": "rus",
-  "latest_task": "af13c2f33f4b547eea12a0d6c010b4c4",
+  "latest_task": "381035a8c72b351aa3f7457b259ba8b1",
   "published": {
     "html_path": "content/rus/articles/903e4b58-b246-4ee3-85e7-eecf158a7a75.html",
     "html_sha256": "6882788e369b29168f0b07af60b62c9ebb20d0ddfcd0698cfdeddec2fdfb3469",
