@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "c4db0bdc-7ec9-43e8-9d91-1c5417238d38",
+    "response_id": "chatcmpl-Egp092qk2HXnx9f1gwXpuTeflQZYi",
+    "usage": {
+      "completion_tokens": 814,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 622,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6952,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5849,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 7766
+    }
+  },
+  "received_at": "2026-11-05T10:44:28+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Párrafos que citan Salmo 127:3 y Salmo 127:3-5",
+        "severity": "major",
+        "source_quote": "“the fruit of the womb is his reward”",
+        "suggested_fix": "En ambas citas, sustituir «cosa de estima» por «su recompensa» para conservar el sentido de «his reward» tal como aparece en el texto fuente.",
+        "translation_quote": "«cosa de estima el fruto del vientre»"
+      },
+      {
+        "location": "Lista, tercer elemento",
+        "severity": "minor",
+        "source_quote": "“more about others than ourselves”",
+        "suggested_fix": "Cambiar «nosotros mismas» por «nosotras mismas».",
+        "translation_quote": "«preocuparnos más por los demás que por nosotros mismas»"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 92
+  }
+}
