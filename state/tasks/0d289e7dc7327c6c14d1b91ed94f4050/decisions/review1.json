@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "html，“我们独特的个性”下第二段",
+      "severity": "major",
+      "source_quote": "Live sparingly and you shall hear sparingly ... Live nobly and you will hear nobly",
+      "suggested_fix": "将“生活俭朴，你听见的也会有限”改为“生命贫乏，你所领受的也会贫乏”，保留后文与高尚生活的对比。",
+      "translation_quote": "生活俭朴，你听见的也会有限"
+    },
+    {
+      "location": "html，“燃烧的心”下第一段，路加福音 24:25 引文",
+      "severity": "major",
+      "source_quote": "slow of heart to believe all that the prophets have spoken",
+      "suggested_fix": "将“心里迟钝，不信先知所说的一切话”改为“对于先知所说的一切话，你们心里信得太迟钝了”。保留现有 em 标签和经文出处。",
+      "translation_quote": "心里迟钝，不信先知所说的一切话"
+    },
+    {
+      "location": "html，“……名声”下段落",
+      "severity": "major",
+      "source_quote": "I should be ashamed that he had such thoughts of me and of the kind of thing that I love to hear",
+      "suggested_fix": "将“我应当羞愧的是，他竟然对我有那样的看法；也羞愧自己竟爱听这类东西，以致他敢把这种垃圾讲给我听”改为“我应当羞愧的是，他竟然那样看待我，认为我爱听这类东西，以致敢把这种垃圾讲给我听”。",
+      "translation_quote": "我应当羞愧的是，他竟然对我有那样的看法；也羞愧自己竟爱听这类东西，以致他敢把这种垃圾讲给我听"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
