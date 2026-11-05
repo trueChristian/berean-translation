@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "0ab242331cca4f42881f2bac0c6d41ee",
   "campaign": "auto-172133b11214aee5ad48ebd67419f51529803bdfafaa01d9d9e33acedbc789be",
   "created_at": "2026-11-05T00:10:25+00:00",
   "events": [
@@ -48,32 +47,31 @@
         },
         "total_tokens": 20878
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 80,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 48,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 13293,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 13290,
+          "cached_tokens": 0
+        },
+        "total_tokens": 13373
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "html: aside, সম্পাদকের নোট",
-      "severity": "major",
-      "source_quote": "para-church events (such as concerts, seminars, Bible Schools, etc.)",
-      "suggested_fix": "“পাড়া-গির্জার অনুষ্ঠানগুলোতে” বদলে “গির্জার আনুষ্ঠানিক কাঠামোর বাইরে পরিচালিত খ্রিস্টীয় সংগঠনগুলোর অনুষ্ঠানগুলোতে” লিখুন।",
-      "translation_quote": "পাড়া-গির্জার অনুষ্ঠানগুলোতে (যেমন কনসার্ট, সেমিনার, বাইবেল স্কুল ইত্যাদি)"
-    },
-    {
-      "location": "html: I.a, ইব্রীয় ১১:৬ দিয়ে শুরু অনুচ্ছেদ",
-      "severity": "major",
-      "source_quote": "the evidence of things not seen (or demonstrated)",
-      "suggested_fix": "উদ্ধৃত অংশটি করুন: “অদেখা (অথবা প্রদর্শিত হয়নি এমন) বিষয়গুলোর প্রমাণ”। এতে বন্ধনীর কথাতেও মূলের নেতিবাচক অর্থ বজায় থাকবে। মুদ্রিত সূত্র ইব্রীয় ১১:৬ অপরিবর্তিত রাখুন।",
-      "translation_quote": "অদেখা বিষয়গুলোর প্রমাণ (অথবা প্রদর্শন)"
-    },
-    {
-      "location": "html: IV, কুয়ার কাছে নারীর পূর্বপুরুষদের নিয়ে অনুচ্ছেদ",
-      "severity": "major",
-      "source_quote": "“Salvation is of Jesus” (4:22c).",
-      "suggested_fix": "উদ্ধৃতিটি “পরিত্রাণ যিশুর কাছ থেকে আসে” (৪:২২গ) করুন, যাতে নিবন্ধে মুদ্রিত বক্তব্যই অনূদিত হয়, অন্য বাইবেলপাঠ দিয়ে তা প্রতিস্থাপিত না হয়।",
-      "translation_quote": "“পরিত্রাণ ইহুদিদের কাছ থেকে আসে” (৪:২২গ)।"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-11-05T06:36:32+00:00",
   "id": "68c014b3cab3b63c99a2c1544fe03540",
   "issue_id": "4e575f26-fabd-5104-ba0d-d54ca032653b",
   "language": "ben",
@@ -162,7 +160,7 @@
     }
   },
   "protected": false,
-  "quality_score": 91,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6.1-sol",
@@ -181,7 +179,7 @@
     "total_reserved_usd": 0.864631,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "a730f2b1d562664fcfe74fe583444280e3ed7c510ba96079c4edaa5ae23bcb52",
   "translation_model_actual": "gpt-6.1-sol"
