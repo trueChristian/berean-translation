@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "62b3a4a0-b70f-437f-844c-605953309f0e",
+    "response_id": "chatcmpl-EglgTGzyOW8HrzfJaZ7X1i9KYWof3",
+    "usage": {
+      "completion_tokens": 445,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 109,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 12368,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 11265,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 12813
+    }
+  },
+  "received_at": "2026-11-05T07:04:02+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "translation.html, sezione III.a, paragrafo su Pietro e Giovanni",
+        "severity": "minor",
+        "source_quote": "Peter and John attended a midafternoon prayer meeting ... when was the last time that you attended a midafternoon prayer meeting?",
+        "suggested_fix": "Sostituire «nel primo pomeriggio» con «a metà pomeriggio» in entrambe le occorrenze del paragrafo.",
+        "translation_quote": "Pietro e Giovanni parteciparono a una riunione di preghiera nel primo pomeriggio ... quand’è stata l’ultima volta che avete partecipato a una riunione di preghiera nel primo pomeriggio?"
+      },
+      {
+        "location": "translation.html, sezione I.a, citazione attribuita a Ebrei 11:6",
+        "severity": "minor",
+        "source_quote": "the evidence of things not seen (or demonstrated)",
+        "suggested_fix": "Sostituire «dimostrazione di cose che non si vedono (o dimostrate)» con «dimostrazione di cose che non si vedono (o non vengono dimostrate)», conservando il riferimento stampato nella fonte.",
+        "translation_quote": "dimostrazione di cose che non si vedono (o dimostrate)"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 97
+  }
+}

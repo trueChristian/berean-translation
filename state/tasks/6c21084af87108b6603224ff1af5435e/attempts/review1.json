@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-05T07:04:02+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"translation.html, sezione III.a, paragrafo su Pietro e Giovanni\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"Peter and John attended a midafternoon prayer meeting ... when was the last time that you attended a midafternoon prayer meeting?\",\n      \"suggested_fix\": \"Sostituire «nel primo pomeriggio» con «a metà pomeriggio» in entrambe le occorrenze del paragrafo.\",\n      \"translation_quote\": \"Pietro e Giovanni parteciparono a una riunione di preghiera nel primo pomeriggio ... quand’è stata l’ultima volta che avete partecipato a una riunione di preghiera nel primo pomeriggio?\"\n    },\n    {\n      \"location\": \"translation.html, sezione I.a, citazione attribuita a Ebrei 11:6\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"the evidence of things not seen (or demonstrated)\",\n      \"suggested_fix\": \"Sostituire «dimostrazione di cose che non si vedono (o dimostrate)» con «dimostrazione di cose che non si vedono (o non vengono dimostrate)», conservando il riferimento stampato nella fonte.\",\n      \"translation_quote\": \"dimostrazione di cose che non si vedono (o dimostrate)\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": true,\n  \"score\": 97\n}",
+    "content_bytes": 1220,
+    "content_evidence_truncated": false,
+    "content_sha256": "375901a6d06bb500715d777bb2e677c35203c4fe82ac00b00740226f9826f82d",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 445,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 109,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 12368,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 11265,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 12813
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}
