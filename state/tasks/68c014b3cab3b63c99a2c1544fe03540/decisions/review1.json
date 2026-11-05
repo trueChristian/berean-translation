@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "html: aside, সম্পাদকের নোট",
+      "severity": "major",
+      "source_quote": "para-church events (such as concerts, seminars, Bible Schools, etc.)",
+      "suggested_fix": "“পাড়া-গির্জার অনুষ্ঠানগুলোতে” বদলে “গির্জার আনুষ্ঠানিক কাঠামোর বাইরে পরিচালিত খ্রিস্টীয় সংগঠনগুলোর অনুষ্ঠানগুলোতে” লিখুন।",
+      "translation_quote": "পাড়া-গির্জার অনুষ্ঠানগুলোতে (যেমন কনসার্ট, সেমিনার, বাইবেল স্কুল ইত্যাদি)"
+    },
+    {
+      "location": "html: I.a, ইব্রীয় ১১:৬ দিয়ে শুরু অনুচ্ছেদ",
+      "severity": "major",
+      "source_quote": "the evidence of things not seen (or demonstrated)",
+      "suggested_fix": "উদ্ধৃত অংশটি করুন: “অদেখা (অথবা প্রদর্শিত হয়নি এমন) বিষয়গুলোর প্রমাণ”। এতে বন্ধনীর কথাতেও মূলের নেতিবাচক অর্থ বজায় থাকবে। মুদ্রিত সূত্র ইব্রীয় ১১:৬ অপরিবর্তিত রাখুন।",
+      "translation_quote": "অদেখা বিষয়গুলোর প্রমাণ (অথবা প্রদর্শন)"
+    },
+    {
+      "location": "html: IV, কুয়ার কাছে নারীর পূর্বপুরুষদের নিয়ে অনুচ্ছেদ",
+      "severity": "major",
+      "source_quote": "“Salvation is of Jesus” (4:22c).",
+      "suggested_fix": "উদ্ধৃতিটি “পরিত্রাণ যিশুর কাছ থেকে আসে” (৪:২২গ) করুন, যাতে নিবন্ধে মুদ্রিত বক্তব্যই অনূদিত হয়, অন্য বাইবেলপাঠ দিয়ে তা প্রতিস্থাপিত না হয়।",
+      "translation_quote": "“পরিত্রাণ ইহুদিদের কাছ থেকে আসে” (৪:২২গ)।"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

@@ -1,0 +1,52 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "c4d48bcd-c4da-4d81-9e43-4634ad32334c",
+    "response_id": "chatcmpl-EgfSeOgDV5FlT6wonq7tlCVEZ5d5z",
+    "usage": {
+      "completion_tokens": 535,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 59,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 13256,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 12153,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 13791
+    }
+  },
+  "received_at": "2026-11-05T00:24:13+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "html: aside, সম্পাদকের নোট",
+        "severity": "major",
+        "source_quote": "para-church events (such as concerts, seminars, Bible Schools, etc.)",
+        "suggested_fix": "“পাড়া-গির্জার অনুষ্ঠানগুলোতে” বদলে “গির্জার আনুষ্ঠানিক কাঠামোর বাইরে পরিচালিত খ্রিস্টীয় সংগঠনগুলোর অনুষ্ঠানগুলোতে” লিখুন।",
+        "translation_quote": "পাড়া-গির্জার অনুষ্ঠানগুলোতে (যেমন কনসার্ট, সেমিনার, বাইবেল স্কুল ইত্যাদি)"
+      },
+      {
+        "location": "html: I.a, ইব্রীয় ১১:৬ দিয়ে শুরু অনুচ্ছেদ",
+        "severity": "major",
+        "source_quote": "the evidence of things not seen (or demonstrated)",
+        "suggested_fix": "উদ্ধৃত অংশটি করুন: “অদেখা (অথবা প্রদর্শিত হয়নি এমন) বিষয়গুলোর প্রমাণ”। এতে বন্ধনীর কথাতেও মূলের নেতিবাচক অর্থ বজায় থাকবে। মুদ্রিত সূত্র ইব্রীয় ১১:৬ অপরিবর্তিত রাখুন।",
+        "translation_quote": "অদেখা বিষয়গুলোর প্রমাণ (অথবা প্রদর্শন)"
+      },
+      {
+        "location": "html: IV, কুয়ার কাছে নারীর পূর্বপুরুষদের নিয়ে অনুচ্ছেদ",
+        "severity": "major",
+        "source_quote": "“Salvation is of Jesus” (4:22c).",
+        "suggested_fix": "উদ্ধৃতিটি “পরিত্রাণ যিশুর কাছ থেকে আসে” (৪:২২গ) করুন, যাতে নিবন্ধে মুদ্রিত বক্তব্যই অনূদিত হয়, অন্য বাইবেলপাঠ দিয়ে তা প্রতিস্থাপিত না হয়।",
+        "translation_quote": "“পরিত্রাণ ইহুদিদের কাছ থেকে আসে” (৪:২২গ)।"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 91
+  }
+}
