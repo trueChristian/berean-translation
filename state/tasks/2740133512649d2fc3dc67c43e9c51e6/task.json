@@ -5,11 +5,41 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "f17bbfee5e6f4878ae15906ca5b27588",
   "campaign": "auto-8d89138c88c909b78361a1a307444045f7034abfe6da4ff3f0143129162536a9",
   "created_at": "2026-11-05T02:56:15+00:00",
-  "events": [],
-  "findings": [],
+  "events": [
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 291,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 123,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 12103,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 12100,
+          "cached_tokens": 0
+        },
+        "total_tokens": 12394
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "translation.html, Absatz über den Berg der Verklärung",
+      "severity": "minor",
+      "source_quote": "Peter wanted to reinvent the worship experience by building three shrines.",
+      "suggested_fix": "Ersetzen Sie „indem er drei Hütten baute“ durch „indem er drei Hütten bauen ließ oder selbst baute“ nicht; formulieren Sie stattdessen eindeutig als Absicht: „Auf dem Berg der Verklärung (Matthäus 17) wollte Petrus durch den Bau dreier Hütten das Gottesdiensterlebnis neu gestalten.“",
+      "translation_quote": "Petrus das Gottesdiensterlebnis neu gestalten, indem er drei Hütten baute."
+    }
+  ],
+  "finished_at": "2026-11-05T06:37:32+00:00",
   "id": "2740133512649d2fc3dc67c43e9c51e6",
   "issue_id": "4e575f26-fabd-5104-ba0d-d54ca032653b",
   "language": "deu",
@@ -98,9 +128,11 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/f170b59c5b4cc7d1f9e03dcb7760474d0f2879e0f09d0377b8f46e67154d4f56.json",
   "stage": "review1",
   "stage_budget": {
@@ -115,7 +147,7 @@
     "total_reserved_usd": 0.803106,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 0,
   "translation_key": "a730f2b1d562664fcfe74fe583444280e3ed7c510ba96079c4edaa5ae23bcb52",
   "translation_model_actual": "gpt-6-luna"

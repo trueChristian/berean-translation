@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "382d257d-ec68-4f66-89df-51f65dbcb4d0",
+    "response_id": "chatcmpl-Egi2Pw7W3IGF9H5iN06EU71b7mfuj",
+    "usage": {
+      "completion_tokens": 291,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 123,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 12103,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 12100,
+        "cached_tokens": 0
+      },
+      "total_tokens": 12394
+    }
+  },
+  "received_at": "2026-11-05T06:37:32+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "translation.html, Absatz über den Berg der Verklärung",
+        "severity": "minor",
+        "source_quote": "Peter wanted to reinvent the worship experience by building three shrines.",
+        "suggested_fix": "Ersetzen Sie „indem er drei Hütten baute“ durch „indem er drei Hütten bauen ließ oder selbst baute“ nicht; formulieren Sie stattdessen eindeutig als Absicht: „Auf dem Berg der Verklärung (Matthäus 17) wollte Petrus durch den Bau dreier Hütten das Gottesdiensterlebnis neu gestalten.“",
+        "translation_quote": "Petrus das Gottesdiensterlebnis neu gestalten, indem er drei Hütten baute."
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}
