@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-05T22:31:48+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Titus 2:3–5 quotation; repeated in the later Titus 2:4–5 quotations (3 occurrences)\",\"severity\":\"major\",\"source_quote\":\"“keepers at home”\",\"suggested_fix\":\"In each occurrence, render this as “vara hemma och sköta hemmet” to retain the source’s emphasis on being at home, not only on household tasks.\",\"translation_quote\":\"“ta hand om hemmet”\"},{\"location\":\"Paragraph beginning “Throughout history”\",\"severity\":\"minor\",\"source_quote\":\"“a new buzzword—fullfillment”\",\"suggested_fix\":\"Consider “ett nytt modeord – tillfredsställelse” to convey “fulfillment” without introducing the additional idea of self-realization.\",\"translation_quote\":\"“ett nytt modeord – självförverkligande”\"}],\"findings_complete\":true,\"passed\":false,\"score\":93}",
+    "content_bytes": 807,
+    "content_evidence_truncated": false,
+    "content_sha256": "7431b61af38dedfa12ec6398ea077ac42d147349fa21b8cbef99a086f457c2bb",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 964,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 758,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7268,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7265,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8232
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

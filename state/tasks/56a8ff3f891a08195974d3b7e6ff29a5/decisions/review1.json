@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Titus 2:3–5 quotation; repeated in the later Titus 2:4–5 quotations (3 occurrences)",
+      "severity": "major",
+      "source_quote": "“keepers at home”",
+      "suggested_fix": "In each occurrence, render this as “vara hemma och sköta hemmet” to retain the source’s emphasis on being at home, not only on household tasks.",
+      "translation_quote": "“ta hand om hemmet”"
+    },
+    {
+      "location": "Paragraph beginning “Throughout history”",
+      "severity": "minor",
+      "source_quote": "“a new buzzword—fullfillment”",
+      "suggested_fix": "Consider “ett nytt modeord – tillfredsställelse” to convey “fulfillment” without introducing the additional idea of self-realization.",
+      "translation_quote": "“ett nytt modeord – självförverkligande”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
