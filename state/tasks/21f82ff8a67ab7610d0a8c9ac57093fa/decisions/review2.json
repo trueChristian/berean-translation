@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "html: stycket som börjar ”Hebreerbrevet 11:6 säger oss”",
+      "severity": "minor",
+      "source_quote": "Faith is the substance of things hoped for",
+      "suggested_fix": "Ersätt ”Tron är det man hoppas pås verklighet” med ”Tron är verkligheten hos det man hoppas på”.",
+      "translation_quote": "Tron är det man hoppas pås verklighet"
+    },
+    {
+      "location": "html: II.a, stycket som börjar ”Den som låtsas vara Jesus Kristus”",
+      "severity": "minor",
+      "source_quote": "if a person can pretend to be equal to Christ",
+      "suggested_fix": "Ändra ”om en person kan låtsas vara Kristus jämlik” till ”om en person kan låtsas vara jämlik med Kristus”.",
+      "translation_quote": "Om en person kan låtsas vara Kristus jämlik"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

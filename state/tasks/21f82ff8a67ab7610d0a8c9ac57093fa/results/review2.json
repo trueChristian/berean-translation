@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "9fd33731-3cdd-462f-964d-7df4554efee3",
+    "response_id": "chatcmpl-Eh1lhuzo5AWmeO8qDbdIocEE8Zem4",
+    "usage": {
+      "completion_tokens": 285,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 69,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 12447,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 12444,
+        "cached_tokens": 0
+      },
+      "total_tokens": 12732
+    }
+  },
+  "received_at": "2026-11-06T02:21:39+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "html: stycket som börjar ”Hebreerbrevet 11:6 säger oss”",
+        "severity": "minor",
+        "source_quote": "Faith is the substance of things hoped for",
+        "suggested_fix": "Ersätt ”Tron är det man hoppas pås verklighet” med ”Tron är verkligheten hos det man hoppas på”.",
+        "translation_quote": "Tron är det man hoppas pås verklighet"
+      },
+      {
+        "location": "html: II.a, stycket som börjar ”Den som låtsas vara Jesus Kristus”",
+        "severity": "minor",
+        "source_quote": "if a person can pretend to be equal to Christ",
+        "suggested_fix": "Ändra ”om en person kan låtsas vara Kristus jämlik” till ”om en person kan låtsas vara jämlik med Kristus”.",
+        "translation_quote": "Om en person kan låtsas vara Kristus jämlik"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}
