@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "a1aeabba15c94c76aa992abaca6ffe6a",
   "campaign": "auto-4d179f3dffb0d59c18c5de97b17afe58eae3f421760a2ab28cf4b69a185d6131",
   "created_at": "2026-11-06T02:24:47+00:00",
   "events": [
@@ -48,18 +47,31 @@
         },
         "total_tokens": 13909
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 100,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 68,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9113,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 9110,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9213
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "html: ‘우리의 독특한 성품’ 아래 두 번째 문단",
-      "severity": "major",
-      "source_quote": "Live sparingly and you shall hear sparingly, though you be listening to an angel from heaven. Live nobly and you will hear nobly",
-      "suggested_fix": "‘검소하게 살면 듣는 것도 빈약해질 것입니다’를 ‘빈약한 삶을 살면 듣는 것도 빈약해질 것입니다’로 수정하여, 검소함이 아니라 삶의 내적 빈약함을 가리키도록 하십시오.",
-      "translation_quote": "검소하게 살면 듣는 것도 빈약해질 것입니다. 하늘에서 온 천사의 말을 듣고 있더라도 말입니다. 고결하게 살면 듣는 것도 고결해질 것입니다."
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-11-06T03:57:54+00:00",
   "id": "81df5e06295f84e29397da2d0fc4730f",
   "issue_id": "4e575f26-fabd-5104-ba0d-d54ca032653b",
   "language": "kor",
@@ -148,7 +160,7 @@
     }
   },
   "protected": false,
-  "quality_score": 94,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6.1-sol",
@@ -167,7 +179,7 @@
     "total_reserved_usd": 0.768137,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "2ab4f83b970977b517b8c5966e0879530863628afa0c94a3bb7186e69daacb25",
   "translation_model_actual": "gpt-6.1-sol"

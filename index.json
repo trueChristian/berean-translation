@@ -57980,6 +57980,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/kor/articles/93f83966-049f-4767-8fe5-497ec16dad40.html",
+      "html_sha256": "98fb2474c6922c07a2c691a46aa944e454e89528d610e440e55d6218c657e5b6",
+      "human_reviewed": false,
+      "id": "93f83966-049f-4767-8fe5-497ec16dad40",
+      "images": [
+        {
+          "alt": "엠마오로 가는 길에서 두 사람과 함께 걸으시는 예수님",
+          "public_path": "/images/articles/93f83966-049f-4767-8fe5-497ec16dad40-1.jpg"
+        }
+      ],
+      "issue_id": "4e575f26-fabd-5104-ba0d-d54ca032653b",
+      "language": "kor",
+      "language_tag": "ko",
+      "metadata": "content/kor/articles/93f83966-049f-4767-8fe5-497ec16dad40.json",
+      "metadata_sha256": "ccdc1e313bf47eeb226903bb1ef91170ab7fb1f2a91146b0847ce36726633c85",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "성경 교리",
+      "source_revision": "22388745ad7f149609e65f5e28cfcc1257cd689e",
+      "source_translation_key": "2ab4f83b970977b517b8c5966e0879530863628afa0c94a3bb7186e69daacb25",
+      "status": "ready",
+      "subtitle": null,
+      "title": "들을 귀 있는 자는 들으라…",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/kor/articles/94ef8ae0-ec29-4ca5-870a-4c3e33abcfe6.html",
       "html_sha256": "3017d9f022f2e3c1d103624c773fd06990a7cdb1377f3e529706ebc7c6052e12",
       "human_reviewed": false,
