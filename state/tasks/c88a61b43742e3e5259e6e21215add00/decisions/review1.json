@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "First paragraph",
+      "severity": "major",
+      "source_quote": "“My new baby brother was crying”",
+      "suggested_fix": "Replace “Mdogo wangu mpya kuzaliwa” with “Mdogo wangu wa kiume aliyezaliwa hivi karibuni” to preserve that the baby is the speaker’s brother.",
+      "translation_quote": "“Mdogo wangu mpya kuzaliwa alikuwa akilia”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

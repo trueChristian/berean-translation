@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-06T03:04:08+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"First paragraph\",\"severity\":\"major\",\"source_quote\":\"“My new baby brother was crying”\",\"suggested_fix\":\"Replace “Mdogo wangu mpya kuzaliwa” with “Mdogo wangu wa kiume aliyezaliwa hivi karibuni” to preserve that the baby is the speaker’s brother.\",\"translation_quote\":\"“Mdogo wangu mpya kuzaliwa alikuwa akilia”\"}],\"findings_complete\":true,\"passed\":false,\"score\":94}",
+    "content_bytes": 408,
+    "content_evidence_truncated": false,
+    "content_sha256": "a08d548a14ada07240fcf416f46e898d133986067dc54bcf0b0851264f663fb9",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1063,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 947,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7362,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6259,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 8425
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

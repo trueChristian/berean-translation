@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "570d667d-bdeb-43a2-a7c3-f113bc7fe0be",
+    "response_id": "chatcmpl-Eh4MhoQt03G0bt2Cxqjjb7rBHu8Hz",
+    "usage": {
+      "completion_tokens": 1063,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 947,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7362,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6259,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 8425
+    }
+  },
+  "received_at": "2026-11-06T03:04:08+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "First paragraph",
+        "severity": "major",
+        "source_quote": "“My new baby brother was crying”",
+        "suggested_fix": "Replace “Mdogo wangu mpya kuzaliwa” with “Mdogo wangu wa kiume aliyezaliwa hivi karibuni” to preserve that the baby is the speaker’s brother.",
+        "translation_quote": "“Mdogo wangu mpya kuzaliwa alikuwa akilia”"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 94
+  }
+}
