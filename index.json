@@ -81574,6 +81574,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/rus/articles/fb02a7e7-4fdc-4363-bea0-aa8a68b36f8b.html",
+      "html_sha256": "e3a09be4c66fe8fb54957a548559abaae5964ae3f2fe16c70ec15338d25df8a7",
+      "human_reviewed": false,
+      "id": "fb02a7e7-4fdc-4363-bea0-aa8a68b36f8b",
+      "images": [
+        {
+          "alt": "Туманный вечнозелёный лес",
+          "public_path": "/images/articles/fb02a7e7-4fdc-4363-bea0-aa8a68b36f8b-1.jpg"
+        }
+      ],
+      "issue_id": "4e575f26-fabd-5104-ba0d-d54ca032653b",
+      "language": "rus",
+      "language_tag": "ru",
+      "metadata": "content/rus/articles/fb02a7e7-4fdc-4363-bea0-aa8a68b36f8b.json",
+      "metadata_sha256": "649b3af815c3ae5a7f5c0d73af3daa15ce9d14fc2c7703e133c6663f16c09e2c",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": null,
+      "source_revision": "22388745ad7f149609e65f5e28cfcc1257cd689e",
+      "source_translation_key": "9aa7bb9243a4951727cfb6179796c72ee27a6edc2814022ae3842d468d371b8c",
+      "status": "ready",
+      "subtitle": null,
+      "title": "НЕБЕСНОЕ ПРИЗВАНИЕ",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/rus/articles/fb65688b-5aaf-4194-a345-31f6f1355389.html",
       "html_sha256": "c6357560410f2f522d6cc80728aa47bfb0db77a29ca5aebb9bf2e19282fb26f6",
       "human_reviewed": false,

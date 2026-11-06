@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "translation.html, вторая строфа, строка 4",
+      "severity": "minor",
+      "source_quote": "Diminished hope, dejected will.",
+      "suggested_fix": "Заменить строку на: «Надежды меньше, воля ослабела.»",
+      "translation_quote": "Надежды меньше, воля пала духом."
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

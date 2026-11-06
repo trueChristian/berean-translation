@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "b18e802dc35b4b75b5eb2048e90850c2",
   "campaign": "auto-9d51ac6cdafd84943c724b3ff95a708ba636850099c1022ecc8fdd5688f8b801",
   "created_at": "2026-11-06T02:51:21+00:00",
   "events": [
@@ -48,18 +47,39 @@
         },
         "total_tokens": 3192
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 217,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 111,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 2376,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 1273,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 2593
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "html, div.poem, третья строфа, третья строка",
-      "severity": "major",
-      "source_quote": "Those who yield are those who fall,",
-      "suggested_fix": "Заменить строку на «Кто поддаётся, тот и падает,» с сохранением тега <br>.",
-      "translation_quote": "Кто уступил, тот падает в забвенье,"
+      "location": "translation.html, вторая строфа, строка 4",
+      "severity": "minor",
+      "source_quote": "Diminished hope, dejected will.",
+      "suggested_fix": "Заменить строку на: «Надежды меньше, воля ослабела.»",
+      "translation_quote": "Надежды меньше, воля пала духом."
     }
   ],
+  "finished_at": "2026-11-06T10:51:01+00:00",
   "id": "3a5ae96d2341c1b7380a3a32cc3162e9",
   "issue_id": "4e575f26-fabd-5104-ba0d-d54ca032653b",
   "language": "rus",
@@ -148,7 +168,7 @@
     }
   },
   "protected": false,
-  "quality_score": 94,
+  "quality_score": 97,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6.1-sol",
@@ -167,7 +187,7 @@
     "total_reserved_usd": 0.68104,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "9aa7bb9243a4951727cfb6179796c72ee27a6edc2814022ae3842d468d371b8c",
   "translation_model_actual": "gpt-6.1-sol"

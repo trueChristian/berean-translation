@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "66859504-6c56-43a7-911a-03900d610546",
+    "response_id": "chatcmpl-Eh5cd5YOhFrXFGa187F2JOSYrOkrX",
+    "usage": {
+      "completion_tokens": 217,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 111,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2376,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1273,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 2593
+    }
+  },
+  "received_at": "2026-11-06T10:51:01+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "translation.html, вторая строфа, строка 4",
+        "severity": "minor",
+        "source_quote": "Diminished hope, dejected will.",
+        "suggested_fix": "Заменить строку на: «Надежды меньше, воля ослабела.»",
+        "translation_quote": "Надежды меньше, воля пала духом."
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 97
+  }
+}
