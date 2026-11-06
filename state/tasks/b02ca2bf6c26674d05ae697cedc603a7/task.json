@@ -5,11 +5,41 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "b2693e31d07540d99101282854e43315",
   "campaign": "auto-5a06b3e0a453e4b9cc490847ca86a53ad3cfc2d8db43fb1a2e3f4336d84e4db6",
   "created_at": "2026-11-06T03:08:09+00:00",
-  "events": [],
-  "findings": [],
+  "events": [
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 308,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 130,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 2371,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 1268,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 2679
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "translation.html, diktens fjärde strof, rad 3–4",
+      "severity": "minor",
+      "source_quote": "A humble heart will stay more tears,<br>\n    Than all of life’s great wit and will.",
+      "suggested_fix": "Ett ödmjukt hjärta besparar oss fler tårar<br>\n    än livets samlade klokhet och vilja.",
+      "translation_quote": "Ett ödmjukt hjärta sparar många tårar<br>\n    än all livets stora klokhet och vilja."
+    }
+  ],
+  "finished_at": "2026-11-06T03:58:09+00:00",
   "id": "b02ca2bf6c26674d05ae697cedc603a7",
   "issue_id": "4e575f26-fabd-5104-ba0d-d54ca032653b",
   "language": "swe",
@@ -98,9 +128,11 @@
     }
   },
   "protected": false,
+  "quality_score": 97,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/3cb89a87a9aa0e8e788ce5f8b7d50505397494e0bb1438849093ff394f7a7a49.json",
   "stage": "review1",
   "stage_budget": {
@@ -115,7 +147,7 @@
     "total_reserved_usd": 0.679384,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 0,
   "translation_key": "9aa7bb9243a4951727cfb6179796c72ee27a6edc2814022ae3842d468d371b8c",
   "translation_model_actual": "gpt-6-luna"

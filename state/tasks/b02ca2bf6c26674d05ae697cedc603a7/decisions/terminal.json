@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "translation.html, diktens fjärde strof, rad 3–4",
+      "severity": "minor",
+      "source_quote": "A humble heart will stay more tears,<br>\n    Than all of life’s great wit and will.",
+      "suggested_fix": "Ett ödmjukt hjärta besparar oss fler tårar<br>\n    än livets samlade klokhet och vilja.",
+      "translation_quote": "Ett ödmjukt hjärta sparar många tårar<br>\n    än all livets stora klokhet och vilja."
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

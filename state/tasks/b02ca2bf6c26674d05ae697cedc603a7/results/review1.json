@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "98d64dda-9430-4cbd-a405-5f4ca2eb65cd",
+    "response_id": "chatcmpl-Eh5JRnlBjDKANuPZd3Vw13uchCJOE",
+    "usage": {
+      "completion_tokens": 308,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 130,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2371,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1268,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 2679
+    }
+  },
+  "received_at": "2026-11-06T03:58:09+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "translation.html, diktens fjärde strof, rad 3–4",
+        "severity": "minor",
+        "source_quote": "A humble heart will stay more tears,<br>\n    Than all of life’s great wit and will.",
+        "suggested_fix": "Ett ödmjukt hjärta besparar oss fler tårar<br>\n    än livets samlade klokhet och vilja.",
+        "translation_quote": "Ett ödmjukt hjärta sparar många tårar<br>\n    än all livets stora klokhet och vilja."
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 97
+  }
+}

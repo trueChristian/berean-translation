@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-06T03:58:09+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"translation.html, diktens fjärde strof, rad 3–4\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"A humble heart will stay more tears,<br>\\n    Than all of life’s great wit and will.\",\n      \"suggested_fix\": \"Ett ödmjukt hjärta besparar oss fler tårar<br>\\n    än livets samlade klokhet och vilja.\",\n      \"translation_quote\": \"Ett ödmjukt hjärta sparar många tårar<br>\\n    än all livets stora klokhet och vilja.\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": true,\n  \"score\": 97\n}",
+    "content_bytes": 547,
+    "content_evidence_truncated": false,
+    "content_sha256": "16bd1c8db3dffde6c353c281988f5d1f683597ddb2137c2cece9e0f055e88653",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 308,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 130,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2371,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1268,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 2679
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}
