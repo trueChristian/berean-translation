@@ -7687,6 +7687,38 @@
     {
       "ai_notice_required": true,
       "direction": "rtl",
+      "html": "content/ara/articles/73def952-dd77-4a51-b030-27713e0cedd2.html",
+      "html_sha256": "2d9ea41b46902c2d2abbb5b3365a379fe75d67e42e2ce43eb6d257bd491df73b",
+      "human_reviewed": false,
+      "id": "73def952-dd77-4a51-b030-27713e0cedd2",
+      "images": [
+        {
+          "alt": "قارب تجديف منعكس على مياه هادئة",
+          "public_path": "/images/articles/73def952-dd77-4a51-b030-27713e0cedd2-1.jpg"
+        },
+        {
+          "alt": "مجاديف خشبية متآكلة ومكسورة فوق ألواح",
+          "public_path": "/images/articles/73def952-dd77-4a51-b030-27713e0cedd2-2.jpg"
+        }
+      ],
+      "issue_id": "4e575f26-fabd-5104-ba0d-d54ca032653b",
+      "language": "ara",
+      "language_tag": "ar",
+      "metadata": "content/ara/articles/73def952-dd77-4a51-b030-27713e0cedd2.json",
+      "metadata_sha256": "d66c1cd019a922daa2cc57d3a5a5c2197ebeddbec21d56b74b04b0bb9b07e90f",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "ركن الأطفال",
+      "source_revision": "22388745ad7f149609e65f5e28cfcc1257cd689e",
+      "source_translation_key": "4495f12a281c559d419fa93922b800b7fa95e251e187216d7846b8abc9c22a13",
+      "status": "ready",
+      "subtitle": null,
+      "title": "«هل ينبغي أن أخبر؟»",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
       "html": "content/ara/articles/77cd4a24-14db-4ba2-905f-4f3ecb1d3ea5.html",
       "html_sha256": "4a2cf5fac0f708f33b316459c73b6004fce6387a0b3c55b32c738b49f0305979",
       "human_reviewed": false,
