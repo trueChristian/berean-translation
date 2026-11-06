@@ -66258,6 +66258,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/nob/articles/3558b7f3-5296-4770-a7c6-d420c923642d.html",
+      "html_sha256": "5ddabf413cb7b198749130168768f6abf34dc9bf8646be3e3c858407b9f926e5",
+      "human_reviewed": false,
+      "id": "3558b7f3-5296-4770-a7c6-d420c923642d",
+      "images": [
+        {
+          "alt": "En postkasse langs veien med bladets postadresse",
+          "public_path": "/images/articles/3558b7f3-5296-4770-a7c6-d420c923642d-1.jpg"
+        }
+      ],
+      "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
+      "language": "nob",
+      "language_tag": "nb",
+      "metadata": "content/nob/articles/3558b7f3-5296-4770-a7c6-d420c923642d.json",
+      "metadata_sha256": "8588b54a919a6dc9aae7cbf09f7ebc9bbf86875bdcfd10ed32cfd74453a88a5c",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": null,
+      "source_revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
+      "source_translation_key": "459eee2e9c07155a363c1c0e355fdda66adbf2039a8df9dc3c6dcd5288b5461e",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Dyrebare brev fra leserne våre",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/nob/articles/37272f7d-a8c0-4c15-b884-ebbf333303cb.html",
       "html_sha256": "f142a7528e1970768309a029d2ca807f9f0a6d014423bf3c709f8ed8876f0d51",
       "human_reviewed": false,

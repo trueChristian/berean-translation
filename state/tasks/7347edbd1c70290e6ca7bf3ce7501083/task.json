@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "c4fcbf1e4c3247ffb75fdf531d3feb92",
   "campaign": "auto-214a214e37b4c141080c86f927c5d0ecd8365b631898eb92403417a4c0fd4c47",
   "created_at": "2026-11-05T23:46:29+00:00",
   "events": [
@@ -28,18 +27,31 @@
         },
         "total_tokens": 6840
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 76,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 44,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4745,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 3642,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 4821
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "HTML, testimony paragraph beginning “After spending about 9 years”",
-      "severity": "major",
-      "source_quote": "I could think of a word to say, so I just said “Christ?”",
-      "suggested_fix": "Change to «Jeg kunne ikke komme på et ord å si, så jeg sa bare «Kristus?»»",
-      "translation_quote": "Jeg kunne komme på et ord å si, så jeg sa bare «Kristus?»"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-11-06T02:21:05+00:00",
   "id": "7347edbd1c70290e6ca7bf3ce7501083",
   "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
   "language": "nob",
@@ -128,9 +140,11 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/b90a551397024be9f0d057a09f4b11218c609006eb7fba34164cc6a14aacedb6.json",
   "stage": "review2",
   "stage_budget": {
@@ -144,7 +158,7 @@
     "total_reserved_usd": 0.558397,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "459eee2e9c07155a363c1c0e355fdda66adbf2039a8df9dc3c6dcd5288b5461e",
   "translation_model_actual": "gpt-6.1-sol"
