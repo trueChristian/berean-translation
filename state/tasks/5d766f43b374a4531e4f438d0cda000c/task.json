@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": "f2ddea2bdfef1071ebfb43d8f3beca49a5d46578caac9459524dd8bc4c0bf20f",
   "base_metadata_sha256": "19fec0121bb277117b7d16c0c9d6f988905a4dcb0d76669e8c3872efc33c7d37",
-  "batch": "2791ec15cbd64529ba70bce33901d4ab",
   "campaign": "auto-20570c30ff1fba13198f71abedf5c9f0d1dbaab5c35cd5df1f59b7ecbbf292dd",
   "created_at": "2026-11-05T07:05:44+00:00",
   "events": [
@@ -68,32 +67,61 @@
         },
         "total_tokens": 11080
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 489,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7364,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 7361,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7853
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; a recovery continuation must pass admission",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "Titus 2:3-5 quotation in the paragraph beginning “Die bejaarde vroue”; repeated quotations in the paragraphs beginning “Uiteindelik kom die jare…” and “Net soos Paulus…”",
+      "location": "Article body, paragraph 5, quotation about the 1970s",
       "severity": "major",
-      "source_quote": "“keepers at home”",
-      "suggested_fix": "Replace “tuis te werk” with “die huis te behartig” in each quoted occurrence, preserving the existing HTML structure.",
-      "translation_quote": "“tuis te werk”"
+      "source_quote": "“...mothering only takes a third-grade education and a fulltime mother is unnecessary.”",
+      "suggested_fix": "“...moederskap net ’n derdegraadse opleiding verg en ’n ma wat voltyds tuis is, onnodig is.”",
+      "translation_quote": "“...moederskap net ’n graad agt-opleiding verg en dat ’n ma wat voltyds tuis is, onnodig is.”"
     },
     {
-      "location": "Psalm 127:3-5 quotation in the paragraph beginning “Hoewel sommige dalk bevraagteken…”",
+      "location": "Article body, paragraph 5, final word of the quoted sentence",
       "severity": "major",
-      "source_quote": "“so are children of the youth”",
-      "suggested_fix": "Change “so is die seuns van die jeug” to “so is die kinders van die jeug” to preserve the source’s reference to children generally.",
-      "translation_quote": "“so is die seuns van die jeug”"
+      "source_quote": "“...Mothers who were applauded by society were suddenly bombarded with a new buzzword—fullfillment.”",
+      "suggested_fix": "“...Moeders wat deur die samelewing toegejuig is, is skielik met ’n nuwe modewoord bestook—vervulling.” (Preserve the source’s printed word as intended: “fulfillment” means ‘vervulling’, not an alternate concept.)",
+      "translation_quote": "“...Moeders wat deur die samelewing toegejuig is, is skielik met ’n nuwe modewoord bestook—vervulling.”"
     },
     {
-      "location": "Titus 2:3-5 quotations in the paragraphs beginning “Die bejaarde vroue,” “Uiteindelik kom die jare…,” and “Net soos Paulus…”",
-      "severity": "minor",
-      "source_quote": "“teach the young women to be sober … To be discreet”",
-      "suggested_fix": "Use “nugter” for “sober” and retain “verstandig” for “discreet” in each quoted occurrence, so the two distinct qualities are not rendered identically.",
-      "translation_quote": "“die jong vroue kan leer om verstandig te wees … verstandig te wees”"
+      "location": "Article body, paragraph 6, first sentence",
+      "severity": "major",
+      "source_quote": "“roughly 27% of infants and toddlers in America are placed in some form of paid childcare arrangement.”",
+      "suggested_fix": "“ongeveer 27% van babas en kleuters in Amerika word in een of ander vorm van betaalde kindersorg geplaas.”",
+      "translation_quote": "“word ongeveer 27% van babas en kleuters in Amerika in een of ander vorm van betaalde kindersorg geplaas.”"
+    },
+    {
+      "location": "Article body, paragraph 9, final sentence",
+      "severity": "major",
+      "source_quote": "“Choosing to stay at home in your focuses and thoughts produces peace and contentment.”",
+      "suggested_fix": "“Om tuis te bly en jou aandag en gedagtes daarop te rig, bring vrede en tevredenheid.”",
+      "translation_quote": "“Om tuis te bly en jou aandag en gedagtes daarop te rig, bring vrede en tevredenheid.”"
     }
   ],
+  "finished_at": "2026-11-06T10:48:40+00:00",
   "id": "5d766f43b374a4531e4f438d0cda000c",
   "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
   "language": "afr",
@@ -182,7 +210,7 @@
     }
   },
   "protected": false,
-  "quality_score": 91,
+  "quality_score": 94,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
@@ -202,7 +230,7 @@
     "total_reserved_usd": 0.08913,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "aca8415cfcf9e5554286626ac6bcaa5724f97b93dadbcdbbe3b6300ec48874e3",
   "translation_model_actual": "gpt-6-luna"
