@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "048bc340-bc1f-4970-94ab-7088d6be7639",
+    "response_id": "chatcmpl-EhCOIU3agQV5aB2OPElbsBdIIh7bF",
+    "usage": {
+      "completion_tokens": 531,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 419,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3492,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2389,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 4023
+    }
+  },
+  "received_at": "2026-11-06T11:32:35+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "title",
+        "severity": "minor",
+        "source_quote": "From the EDITOR",
+        "suggested_fix": "Dall’EDITORE",
+        "translation_quote": "Dall’EDITOR"
+      },
+      {
+        "location": "HTML, paragraph 6",
+        "severity": "minor",
+        "source_quote": "the Baltimore Orioles arrived",
+        "suggested_fix": "sono arrivati gli itteri di Baltimora",
+        "translation_quote": "sono arrivati i Baltimore Orioles"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 97
+  }
+}

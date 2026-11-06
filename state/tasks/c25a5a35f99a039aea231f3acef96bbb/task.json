@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "c38a195b717b4b1d94aa1d9e1baf5819",
   "campaign": "auto-ba2f83fc1fa73283f21238456e6eefd8b63279a62f0d2b80822d149c75bd6f7c",
   "created_at": "2026-11-06T03:09:06+00:00",
   "events": [
@@ -28,10 +27,46 @@
         },
         "total_tokens": 3138
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 531,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 419,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3492,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 2389,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 4023
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "title",
+      "severity": "minor",
+      "source_quote": "From the EDITOR",
+      "suggested_fix": "Dall’EDITORE",
+      "translation_quote": "Dall’EDITOR"
+    },
+    {
+      "location": "HTML, paragraph 6",
+      "severity": "minor",
+      "source_quote": "the Baltimore Orioles arrived",
+      "suggested_fix": "sono arrivati gli itteri di Baltimora",
+      "translation_quote": "sono arrivati i Baltimore Orioles"
+    }
+  ],
+  "finished_at": "2026-11-06T11:32:35+00:00",
   "id": "c25a5a35f99a039aea231f3acef96bbb",
   "issue_id": "103c93e0-6e9a-44f6-a6bc-377af8e08e38",
   "language": "ita",
@@ -120,9 +155,11 @@
     }
   },
   "protected": false,
+  "quality_score": 97,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/31f646ebbe09c88881758f32680d6c5f8b1c8194c3eb8a94ff96e4874c476ba4.json",
   "stage": "review1",
   "stage_budget": {
@@ -138,7 +175,7 @@
     "total_reserved_usd": 0.086911,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "0fb584030db33dd2b72332a91a0b7c15fa746dd719ac5f16dd38c2251e56bee5",
   "translation_model_actual": "gpt-6-luna"

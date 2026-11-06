@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "title",
+      "severity": "minor",
+      "source_quote": "From the EDITOR",
+      "suggested_fix": "Dall’EDITORE",
+      "translation_quote": "Dall’EDITOR"
+    },
+    {
+      "location": "HTML, paragraph 6",
+      "severity": "minor",
+      "source_quote": "the Baltimore Orioles arrived",
+      "suggested_fix": "sono arrivati gli itteri di Baltimora",
+      "translation_quote": "sono arrivati i Baltimore Orioles"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}
