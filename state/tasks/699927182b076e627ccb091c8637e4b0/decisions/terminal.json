@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML paragraph 1",
+      "severity": "minor",
+      "source_quote": "Almost like clockwork, early-blooming flowers bravely push their way through the cold spring soil.",
+      "suggested_fix": "लगभग घड़ी की तरह नियमित रूप से, जल्दी खिलने वाले फूल बहादुरी से ठंडी वसंतकालीन मिट्टी को चीरकर बाहर निकलते हैं।",
+      "translation_quote": "मानो घड़ी की सुई के साथ, जल्दी खिलने वाले फूल बहादुरी से ठंडी वसंतकालीन मिट्टी को चीरकर बाहर निकलते हैं।"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

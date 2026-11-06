@@ -38801,6 +38801,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/hin/articles/049f2e7d-675c-4dac-9584-5aefceb9b9c1.html",
+      "html_sha256": "5b804647d24d9fe47214a80c5037af3282f02c0b5def8679dc4fc367d1a52537",
+      "human_reviewed": false,
+      "id": "049f2e7d-675c-4dac-9584-5aefceb9b9c1",
+      "images": [
+        {
+          "alt": "हल्के गुलाबी रंग का एक फूल और एक बंद फूल की कली।",
+          "public_path": "/images/articles/049f2e7d-675c-4dac-9584-5aefceb9b9c1-1.jpg"
+        }
+      ],
+      "issue_id": "103c93e0-6e9a-44f6-a6bc-377af8e08e38",
+      "language": "hin",
+      "language_tag": "hi",
+      "metadata": "content/hin/articles/049f2e7d-675c-4dac-9584-5aefceb9b9c1.json",
+      "metadata_sha256": "e962df3dc1d191be608410a3154f74d1220b31cb2f1bca2f452c8a3e5f6d1ba1",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
+      "source_translation_key": "0fb584030db33dd2b72332a91a0b7c15fa746dd719ac5f16dd38c2251e56bee5",
+      "status": "ready",
+      "subtitle": null,
+      "title": "संपादक की ओर से",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/hin/articles/053cec10-1df0-4f62-832e-362809b44283.html",
       "html_sha256": "b3c800a807e40168b9f1839813d21ec84883cd3155aa007f0a1561b32d4fb321",
       "human_reviewed": false,
