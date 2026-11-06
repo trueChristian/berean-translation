@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": "f44908a8e5479bc41e04dbf168ed29882328cab94c21dc64db90c56270665234",
   "base_metadata_sha256": "0ae9229c7181384291d9ba2805b675a56d2f4c393ec9e4effa31dc5e6301a558",
-  "batch": "0807da45538a4532861104e74e8735a7",
   "campaign": "auto-459d964b4abcaf21d8ec36f22a763fef18ae51f2e51263db2e9ca150760d8e78",
   "created_at": "2026-11-05T00:26:17+00:00",
   "events": [
@@ -68,25 +67,39 @@
         },
         "total_tokens": 9880
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 724,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 613,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6953,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 5850,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 7677
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "Párrafos que citan Salmo 127:3 y Salmo 127:3-5",
-      "severity": "major",
-      "source_quote": "“the fruit of the womb is his reward”",
-      "suggested_fix": "En ambas citas, sustituir «cosa de estima» por «su recompensa» para conservar el sentido de «his reward» tal como aparece en el texto fuente.",
-      "translation_quote": "«cosa de estima el fruto del vientre»"
-    },
-    {
-      "location": "Lista, tercer elemento",
+      "location": "Elliot quotation",
       "severity": "minor",
-      "source_quote": "“more about others than ourselves”",
-      "suggested_fix": "Cambiar «nosotros mismas» por «nosotras mismas».",
-      "translation_quote": "«preocuparnos más por los demás que por nosotros mismas»"
+      "source_quote": "Reverence for her sacred burden calls her to all that is pure and good",
+      "suggested_fix": "La reverencia por su sagrada carga la llama a todo lo puro y bueno",
+      "translation_quote": "La reverencia por su sagrada responsabilidad la llama a todo lo puro y bueno"
     }
   ],
+  "finished_at": "2026-11-06T10:48:26+00:00",
   "id": "31e1c2f4c9bfce3ea78e88cc43f412b6",
   "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
   "language": "spa",
@@ -175,7 +188,7 @@
     }
   },
   "protected": false,
-  "quality_score": 92,
+  "quality_score": 99,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
@@ -195,7 +208,7 @@
     "total_reserved_usd": 0.08914,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "aca8415cfcf9e5554286626ac6bcaa5724f97b93dadbcdbbe3b6300ec48874e3",
   "translation_model_actual": "gpt-6-luna"

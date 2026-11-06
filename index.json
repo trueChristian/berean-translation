@@ -84637,12 +84637,12 @@
       "ai_notice_required": true,
       "direction": "ltr",
       "html": "content/spa/articles/903e4b58-b246-4ee3-85e7-eecf158a7a75.html",
-      "html_sha256": "f44908a8e5479bc41e04dbf168ed29882328cab94c21dc64db90c56270665234",
+      "html_sha256": "7894c74a1a0542d3c4ae06f6c35c3082a2f4f6d8baeac7518efd1dee9583c0d5",
       "human_reviewed": false,
       "id": "903e4b58-b246-4ee3-85e7-eecf158a7a75",
       "images": [
         {
-          "alt": "Un adulto sosteniendo la mano de un niño pequeño mientras caminan al aire libre",
+          "alt": "Adulto que sostiene la mano de un niño pequeño mientras caminan al aire libre",
           "public_path": "/images/articles/903e4b58-b246-4ee3-85e7-eecf158a7a75-1.jpg"
         }
       ],
@@ -84650,16 +84650,16 @@
       "language": "spa",
       "language_tag": "es",
       "metadata": "content/spa/articles/903e4b58-b246-4ee3-85e7-eecf158a7a75.json",
-      "metadata_sha256": "0ae9229c7181384291d9ba2805b675a56d2f4c393ec9e4effa31dc5e6301a558",
+      "metadata_sha256": "ea3b1bc39490b00fb33cf412c74e4573b435307672862297dd3138441ab08bd7",
       "provider": "OpenAI",
-      "review_model": "gpt-5-mini-2025-08-07",
+      "review_model": "gpt-6-luna",
       "section": "De hermana a hermana",
-      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
-      "source_translation_key": "bc655ca0e757a92869b0811d5a6de87a4ca48f1e4eef1923cd7135609b8dc379",
-      "status": "stale",
+      "source_revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
+      "source_translation_key": "aca8415cfcf9e5554286626ac6bcaa5724f97b93dadbcdbbe3b6300ec48874e3",
+      "status": "ready",
       "subtitle": null,
-      "title": "Un llamamiento gozoso",
-      "translation_model": "gpt-5-mini-2025-08-07"
+      "title": "Un llamado gozoso",
+      "translation_model": "gpt-6-luna"
     },
     {
       "ai_notice_required": true,

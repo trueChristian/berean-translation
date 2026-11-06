@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-06T10:48:26+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Elliot quotation\",\"severity\":\"minor\",\"source_quote\":\"Reverence for her sacred burden calls her to all that is pure and good\",\"suggested_fix\":\"La reverencia por su sagrada carga la llama a todo lo puro y bueno\",\"translation_quote\":\"La reverencia por su sagrada responsabilidad la llama a todo lo puro y bueno\"}],\"findings_complete\":true,\"passed\":true,\"score\":99}",
+    "content_bytes": 387,
+    "content_evidence_truncated": false,
+    "content_sha256": "6d955d0a0ee5a7ad024d3cdcebec7f51cd533883fa658eef07d7a0ac0622fb35",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 724,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 613,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6953,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5850,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 7677
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

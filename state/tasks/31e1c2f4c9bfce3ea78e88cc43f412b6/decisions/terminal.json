@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Elliot quotation",
+      "severity": "minor",
+      "source_quote": "Reverence for her sacred burden calls her to all that is pure and good",
+      "suggested_fix": "La reverencia por su sagrada carga la llama a todo lo puro y bueno",
+      "translation_quote": "La reverencia por su sagrada responsabilidad la llama a todo lo puro y bueno"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}
