@@ -15308,6 +15308,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/cmn/articles/049f2e7d-675c-4dac-9584-5aefceb9b9c1.html",
+      "html_sha256": "d7b3d93f68612c7c74376352161eb140fefc3b01e308fff01de949286f779f9a",
+      "human_reviewed": false,
+      "id": "049f2e7d-675c-4dac-9584-5aefceb9b9c1",
+      "images": [
+        {
+          "alt": "一朵淡粉色的花和一个尚未开放的花蕾。",
+          "public_path": "/images/articles/049f2e7d-675c-4dac-9584-5aefceb9b9c1-1.jpg"
+        }
+      ],
+      "issue_id": "103c93e0-6e9a-44f6-a6bc-377af8e08e38",
+      "language": "cmn",
+      "language_tag": "zh-Hans",
+      "metadata": "content/cmn/articles/049f2e7d-675c-4dac-9584-5aefceb9b9c1.json",
+      "metadata_sha256": "e83df3cd1388a20090b9319c2be19c677735a9781337dc21debb40ccca8c68b7",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
+      "source_translation_key": "0fb584030db33dd2b72332a91a0b7c15fa746dd719ac5f16dd38c2251e56bee5",
+      "status": "ready",
+      "subtitle": null,
+      "title": "编者的话",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/cmn/articles/053cec10-1df0-4f62-832e-362809b44283.html",
       "html_sha256": "52b32fa8addf3894fb95916dc19f9ad471210f15ba0bbe4502bf5fe3a48b9a7e",
       "human_reviewed": false,
