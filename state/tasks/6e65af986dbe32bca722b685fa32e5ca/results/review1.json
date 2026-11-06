@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "52d9d1da-a48e-4f67-83b2-540ecc089237",
+    "response_id": "chatcmpl-Eh5GfpBFAFqfUcgoJkiEBQaYeo0HN",
+    "usage": {
+      "completion_tokens": 352,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 105,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8669,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7566,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 9021
+    }
+  },
+  "received_at": "2026-11-06T03:58:24+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "html, avsnittet under «…Visse tidligere sykdommer»",
+        "severity": "major",
+        "source_quote": "Helicobacter pylori infections in the stomach are associated with stomach cancers.",
+        "suggested_fix": "Endre «magesårskreft» til «magesekkreft».",
+        "translation_quote": "Helicobacter pylori-infeksjoner i magen er assosiert med magesårskreft."
+      },
+      {
+        "location": "html, avsnittet som begynner «Hvis en pasient får koloskopi»",
+        "severity": "minor",
+        "source_quote": "More than that, he can remove the polyps through the scope, hopefully stopping the progression to cancer.",
+        "suggested_fix": "Erstatt den andre setningen med: «Dessuten kan han fjerne polyppene gjennom koloskopet og dermed forhåpentligvis stoppe utviklingen mot kreft.»",
+        "translation_quote": "Mer enn det kan han fjerne polypper gjennom scopen, forhåpentligvis og dermed stoppe utviklingen mot kreft."
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 94
+  }
+}

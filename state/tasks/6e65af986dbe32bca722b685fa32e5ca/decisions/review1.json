@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "html, avsnittet under «…Visse tidligere sykdommer»",
+      "severity": "major",
+      "source_quote": "Helicobacter pylori infections in the stomach are associated with stomach cancers.",
+      "suggested_fix": "Endre «magesårskreft» til «magesekkreft».",
+      "translation_quote": "Helicobacter pylori-infeksjoner i magen er assosiert med magesårskreft."
+    },
+    {
+      "location": "html, avsnittet som begynner «Hvis en pasient får koloskopi»",
+      "severity": "minor",
+      "source_quote": "More than that, he can remove the polyps through the scope, hopefully stopping the progression to cancer.",
+      "suggested_fix": "Erstatt den andre setningen med: «Dessuten kan han fjerne polyppene gjennom koloskopet og dermed forhåpentligvis stoppe utviklingen mot kreft.»",
+      "translation_quote": "Mer enn det kan han fjerne polypper gjennom scopen, forhåpentligvis og dermed stoppe utviklingen mot kreft."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
