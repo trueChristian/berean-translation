@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "06038b613f9f434086dbeb79d69fc5ce",
   "campaign": "auto-7b862fe45efbe0afb11b67a1b85d5b383803a85213a25a959ec7d7e43a9d5142",
   "created_at": "2026-11-06T03:09:38+00:00",
   "events": [
@@ -48,25 +47,31 @@
         },
         "total_tokens": 12970
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 56,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 24,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8684,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 7581,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 8740
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "html, avsnittet under «…Visse tidligere sykdommer»",
-      "severity": "major",
-      "source_quote": "Helicobacter pylori infections in the stomach are associated with stomach cancers.",
-      "suggested_fix": "Endre «magesårskreft» til «magesekkreft».",
-      "translation_quote": "Helicobacter pylori-infeksjoner i magen er assosiert med magesårskreft."
-    },
-    {
-      "location": "html, avsnittet som begynner «Hvis en pasient får koloskopi»",
-      "severity": "minor",
-      "source_quote": "More than that, he can remove the polyps through the scope, hopefully stopping the progression to cancer.",
-      "suggested_fix": "Erstatt den andre setningen med: «Dessuten kan han fjerne polyppene gjennom koloskopet og dermed forhåpentligvis stoppe utviklingen mot kreft.»",
-      "translation_quote": "Mer enn det kan han fjerne polypper gjennom scopen, forhåpentligvis og dermed stoppe utviklingen mot kreft."
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-11-06T11:32:00+00:00",
   "id": "6e65af986dbe32bca722b685fa32e5ca",
   "issue_id": "1a7070c9-fd4f-546b-a220-f267ddb8cf5f",
   "language": "nob",
@@ -155,7 +160,7 @@
     }
   },
   "protected": false,
-  "quality_score": 94,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6.1-sol",
@@ -174,7 +179,7 @@
     "total_reserved_usd": 0.760279,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "48e3cf7ce54a82130b52527f677657d3f940e34281e04d33a0d21d610cf9910a",
   "translation_model_actual": "gpt-6.1-sol"
