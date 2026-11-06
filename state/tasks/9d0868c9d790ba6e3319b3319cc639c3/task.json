@@ -5,11 +5,48 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "4fb236a5d24d44edaf8632026b762f7a",
   "campaign": "auto-a8b5d7ae3d0ac51a4cc8210d90ea02f5558b5f677fcfde655fb36c222e315997",
   "created_at": "2026-11-06T23:11:41+00:00",
-  "events": [],
-  "findings": [],
+  "events": [
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 267,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 47,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4197,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 3094,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 4464
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "html: первая строфа песни и абзац после рассказа о госпитализации",
+      "severity": "minor",
+      "source_quote": "In the dark of the midnight; in the dark of the midnight when I couldn’t sleep",
+      "suggested_fix": "В обоих местах заменить «в тёмной полночь» на «во тьме полуночи», сохранив остальной текст и HTML.",
+      "translation_quote": "В тёмной полночь я не раз скрывал лицо своё; в тёмной полночь, когда не могла уснуть"
+    },
+    {
+      "location": "html: абзац после рассказа о госпитализации, первое предложение",
+      "severity": "minor",
+      "source_quote": "This song was one I’d pray",
+      "suggested_fix": "Заменить «Эту песню я молилась» на «Словами этой песни я молилась».",
+      "translation_quote": "Эту песню я молилась"
+    }
+  ],
+  "finished_at": "2026-11-06T23:36:25+00:00",
   "id": "9d0868c9d790ba6e3319b3319cc639c3",
   "issue_id": "4e575f26-fabd-5104-ba0d-d54ca032653b",
   "language": "rus",
@@ -98,9 +135,11 @@
     }
   },
   "protected": false,
+  "quality_score": 97,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/ed4292a280d035a48fce6784293d9c81967e6013bd626639e1d958c963f7a077.json",
   "stage": "review1",
   "stage_budget": {
@@ -115,7 +154,7 @@
     "total_reserved_usd": 0.709421,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 0,
   "translation_key": "589935b71d98b7f8c7ccc2aec7175a306daa35b8356cdcf6ebb03c78609b5a1a",
   "translation_model_actual": "gpt-6-luna"

@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "html: первая строфа песни и абзац после рассказа о госпитализации",
+      "severity": "minor",
+      "source_quote": "In the dark of the midnight; in the dark of the midnight when I couldn’t sleep",
+      "suggested_fix": "В обоих местах заменить «в тёмной полночь» на «во тьме полуночи», сохранив остальной текст и HTML.",
+      "translation_quote": "В тёмной полночь я не раз скрывал лицо своё; в тёмной полночь, когда не могла уснуть"
+    },
+    {
+      "location": "html: абзац после рассказа о госпитализации, первое предложение",
+      "severity": "minor",
+      "source_quote": "This song was one I’d pray",
+      "suggested_fix": "Заменить «Эту песню я молилась» на «Словами этой песни я молилась».",
+      "translation_quote": "Эту песню я молилась"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

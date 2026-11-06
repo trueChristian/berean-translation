@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "8bc39a76-fc19-4b31-9bc0-a0803d495040",
+    "response_id": "chatcmpl-EhNfWX53P2RYhXmnxqjVeHRyLxMOT",
+    "usage": {
+      "completion_tokens": 267,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 47,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4197,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3094,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 4464
+    }
+  },
+  "received_at": "2026-11-06T23:36:25+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "html: первая строфа песни и абзац после рассказа о госпитализации",
+        "severity": "minor",
+        "source_quote": "In the dark of the midnight; in the dark of the midnight when I couldn’t sleep",
+        "suggested_fix": "В обоих местах заменить «в тёмной полночь» на «во тьме полуночи», сохранив остальной текст и HTML.",
+        "translation_quote": "В тёмной полночь я не раз скрывал лицо своё; в тёмной полночь, когда не могла уснуть"
+      },
+      {
+        "location": "html: абзац после рассказа о госпитализации, первое предложение",
+        "severity": "minor",
+        "source_quote": "This song was one I’d pray",
+        "suggested_fix": "Заменить «Эту песню я молилась» на «Словами этой песни я молилась».",
+        "translation_quote": "Эту песню я молилась"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 97
+  }
+}
