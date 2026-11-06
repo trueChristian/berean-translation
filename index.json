@@ -13166,6 +13166,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ben/articles/903e4b58-b246-4ee3-85e7-eecf158a7a75.html",
+      "html_sha256": "ab6cb53267f81f4ab413e3c136da77d32289371f7e6e020bc89024d517e39054",
+      "human_reviewed": false,
+      "id": "903e4b58-b246-4ee3-85e7-eecf158a7a75",
+      "images": [
+        {
+          "alt": "বাইরে হাঁটার সময় একজন প্রাপ্তবয়স্ক ব্যক্তি একটি ছোট শিশুর হাত ধরে আছেন",
+          "public_path": "/images/articles/903e4b58-b246-4ee3-85e7-eecf158a7a75-1.jpg"
+        }
+      ],
+      "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
+      "language": "ben",
+      "language_tag": "bn",
+      "metadata": "content/ben/articles/903e4b58-b246-4ee3-85e7-eecf158a7a75.json",
+      "metadata_sha256": "52a0cba39044108ee82ab80457615f8610c46caa9e9877c6521f28b002610cb7",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "বোন থেকে বোনের প্রতি",
+      "source_revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
+      "source_translation_key": "aca8415cfcf9e5554286626ac6bcaa5724f97b93dadbcdbbe3b6300ec48874e3",
+      "status": "ready",
+      "subtitle": null,
+      "title": "আনন্দময় আহ্বান",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ben/articles/90d8e22a-d7b1-453e-98bf-cab1571a7f56.html",
       "html_sha256": "d4eeccd8dcfd87f5ec20b3c73545cd0b1f4890c5814c10bc6c40569cc0742eb4",
       "human_reviewed": false,
