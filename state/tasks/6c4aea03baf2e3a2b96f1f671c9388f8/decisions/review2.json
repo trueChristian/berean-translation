@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Psalm 127:3 quotation, first occurrence and repeated quotation in the following paragraph",
+      "severity": "major",
+      "source_quote": "“children are an heritage of the LORD”",
+      "suggested_fix": "Replace “Kinder sind eine Gabe des HERRN” in both quotations with “Kinder sind ein Erbe des HERRN” (or another wording that preserves the inheritance/heritage meaning).",
+      "translation_quote": "“Kinder sind eine Gabe des HERRN”"
+    },
+    {
+      "location": "Psalm 127:5 quotation",
+      "severity": "major",
+      "source_quote": "“they shall not be ashamed, but they shall speak with the enemies in the gate”",
+      "suggested_fix": "Preserve the contrast expressed by “but”: for example, “Sie werden nicht zuschanden, sondern werden mit den Feinden im Tor reden.”",
+      "translation_quote": "“sie werden nicht zuschanden, wenn sie mit den Feinden im Tor reden”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

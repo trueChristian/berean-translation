@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-06T17:58:57+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Psalm 127:3 quotation, first occurrence and repeated quotation in the following paragraph\",\"severity\":\"major\",\"source_quote\":\"“children are an heritage of the LORD”\",\"suggested_fix\":\"Replace “Kinder sind eine Gabe des HERRN” in both quotations with “Kinder sind ein Erbe des HERRN” (or another wording that preserves the inheritance/heritage meaning).\",\"translation_quote\":\"“Kinder sind eine Gabe des HERRN”\"},{\"location\":\"Psalm 127:5 quotation\",\"severity\":\"major\",\"source_quote\":\"“they shall not be ashamed, but they shall speak with the enemies in the gate”\",\"suggested_fix\":\"Preserve the contrast expressed by “but”: for example, “Sie werden nicht zuschanden, sondern werden mit den Feinden im Tor reden.”\",\"translation_quote\":\"“sie werden nicht zuschanden, wenn sie mit den Feinden im Tor reden”\"}],\"findings_complete\":true,\"passed\":false,\"score\":91}",
+    "content_bytes": 912,
+    "content_evidence_truncated": false,
+    "content_sha256": "fd492c45b5fe2ba1323cae2f54cf0653d5e7b98ede7c0371d7a33f823003710f",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 929,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 704,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7058,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5955,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 7987
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

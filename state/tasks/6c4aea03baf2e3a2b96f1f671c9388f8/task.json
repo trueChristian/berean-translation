@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "62fe1acfc10e4f398abb0c591f05d6c2",
   "campaign": "auto-58264e9b6b7113f9f6083722ad3e5c8cf377122a92e3356bc247a10c33a37f36",
   "created_at": "2026-11-05T06:41:03+00:00",
   "events": [
@@ -68,18 +67,47 @@
         },
         "total_tokens": 10156
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 929,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 704,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7058,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 5955,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 7987
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; a recovery continuation must pass admission",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "Psalm 127:3 quotation and the following paragraph",
+      "location": "Psalm 127:3 quotation, first occurrence and repeated quotation in the following paragraph",
       "severity": "major",
-      "source_quote": "“the fruit of the womb is his reward” / “Our children are His heritage and His reward!”",
-      "suggested_fix": "Use „Lohn“ for „reward“ in both places: „…und Leibesfrucht ist sein Lohn“ and „Unsere Kinder sind sein Erbe und sein Lohn!“",
-      "translation_quote": "„…und Leibesfrucht ist ein Geschenk“ / „Unsere Kinder sind sein Erbe und sein Geschenk!“"
+      "source_quote": "“children are an heritage of the LORD”",
+      "suggested_fix": "Replace “Kinder sind eine Gabe des HERRN” in both quotations with “Kinder sind ein Erbe des HERRN” (or another wording that preserves the inheritance/heritage meaning).",
+      "translation_quote": "“Kinder sind eine Gabe des HERRN”"
+    },
+    {
+      "location": "Psalm 127:5 quotation",
+      "severity": "major",
+      "source_quote": "“they shall not be ashamed, but they shall speak with the enemies in the gate”",
+      "suggested_fix": "Preserve the contrast expressed by “but”: for example, “Sie werden nicht zuschanden, sondern werden mit den Feinden im Tor reden.”",
+      "translation_quote": "“sie werden nicht zuschanden, wenn sie mit den Feinden im Tor reden”"
     }
   ],
+  "finished_at": "2026-11-06T17:58:57+00:00",
   "id": "6c4aea03baf2e3a2b96f1f671c9388f8",
   "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
   "language": "deu",
@@ -168,7 +196,7 @@
     }
   },
   "protected": false,
-  "quality_score": 92,
+  "quality_score": 91,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
@@ -188,7 +216,7 @@
     "total_reserved_usd": 0.089129,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "aca8415cfcf9e5554286626ac6bcaa5724f97b93dadbcdbbe3b6300ec48874e3",
   "translation_model_actual": "gpt-6-luna"
