@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "1ce8a4e318094baaad7b19fe3f8e0c75",
   "campaign": "auto-8e70403e5fb0de321b20947796aa84e8c5e7667c21c159d1a1b50609779ca177",
   "created_at": "2026-11-06T02:26:06+00:00",
   "events": [
@@ -68,18 +67,31 @@
         },
         "total_tokens": 4871
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 26,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3622,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 2519,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 3648
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "HTML, paragraph 4",
-      "severity": "major",
-      "source_quote": "“our graves of sin, dead works, and our Adamic sin nature”",
-      "suggested_fix": "اسی طرح خدا کا بیٹا وہ قوت ہے جو ہمیں گناہ، مردہ اعمال اور ہماری آدمی گناہ آلود فطرت کی قبروں سے باہر نکالتا اور ہمارے اندر ایک خوبصورت نئی زندگی پیدا کرتا ہے۔",
-      "translation_quote": "“گناہ، مردہ اعمال اور ہماری آدمی فطرت کے گناہ کی قبروں”"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-11-06T17:59:04+00:00",
   "id": "76182a2537a43af3078bfdb09022e296",
   "issue_id": "103c93e0-6e9a-44f6-a6bc-377af8e08e38",
   "language": "urd",
@@ -168,7 +180,7 @@
     }
   },
   "protected": false,
-  "quality_score": 93,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
@@ -188,7 +200,7 @@
     "total_reserved_usd": 0.086918,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "0fb584030db33dd2b72332a91a0b7c15fa746dd719ac5f16dd38c2251e56bee5",
   "translation_model_actual": "gpt-6-luna"
