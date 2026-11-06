@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraph 1",
+      "severity": "minor",
+      "source_quote": "the cold spring soil",
+      "suggested_fix": "Verander “lent grond” na “lentegrond”.",
+      "translation_quote": "die koue lent grond"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

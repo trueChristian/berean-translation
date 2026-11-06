@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-06T18:02:40+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, paragraph 1\",\"severity\":\"minor\",\"source_quote\":\"the cold spring soil\",\"suggested_fix\":\"Verander “lent grond” na “lentegrond”.\",\"translation_quote\":\"die koue lent grond\"}],\"findings_complete\":true,\"passed\":true,\"score\":99}",
+    "content_bytes": 261,
+    "content_evidence_truncated": false,
+    "content_sha256": "8807785b6c4e206c497b4323361d770d3a167bd4e078ef9240f1fe183fbf7367",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 430,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 351,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3475,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 3472
+      },
+      "total_tokens": 3905
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}
