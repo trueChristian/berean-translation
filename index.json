@@ -22547,6 +22547,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/deu/articles/93f83966-049f-4767-8fe5-497ec16dad40.html",
+      "html_sha256": "dcdb5ed2cb05e07f44dd80a0254dea9f02f78b841ffdced99ea2855f2f656c6c",
+      "human_reviewed": false,
+      "id": "93f83966-049f-4767-8fe5-497ec16dad40",
+      "images": [
+        {
+          "alt": "Jesus geht mit zwei Männern auf dem Weg nach Emmaus",
+          "public_path": "/images/articles/93f83966-049f-4767-8fe5-497ec16dad40-1.jpg"
+        }
+      ],
+      "issue_id": "4e575f26-fabd-5104-ba0d-d54ca032653b",
+      "language": "deu",
+      "language_tag": "de",
+      "metadata": "content/deu/articles/93f83966-049f-4767-8fe5-497ec16dad40.json",
+      "metadata_sha256": "0c34f0f0f107995bd349573640091cf8df1e9acb453abdd598117e789cbb3326",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "Biblische Lehren",
+      "source_revision": "22388745ad7f149609e65f5e28cfcc1257cd689e",
+      "source_translation_key": "2ab4f83b970977b517b8c5966e0879530863628afa0c94a3bb7186e69daacb25",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Wer Ohren hat zu hören …",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/deu/articles/94ef8ae0-ec29-4ca5-870a-4c3e33abcfe6.html",
       "html_sha256": "f1e72d46e87e73d8c418ea297d6734a99739486b9a3727c194f1a675b1d7faed",
       "human_reviewed": false,

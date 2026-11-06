@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "1f3befa912a243f08aa93549703b7094",
   "campaign": "auto-25d47548bd439cb70fe85450952b0da84fca68a92ac1a6b75449f8fbfa34b656",
   "created_at": "2026-11-05T22:47:36+00:00",
   "events": [
@@ -48,25 +47,31 @@
         },
         "total_tokens": 12598
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 77,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 45,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8428,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 0,
+          "cached_tokens": 8425
+        },
+        "total_tokens": 8505
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "html, Absatz unter „Unsere einzigartige Persönlichkeit“, beginnend mit „Worauf wir unser Herz richten“",
-      "severity": "major",
-      "source_quote": "Live sparingly and you shall hear sparingly, though you be listening to an angel from heaven. Live nobly and you will hear nobly",
-      "suggested_fix": "Ersetze „Lebe maßvoll, und du wirst nur wenig hören“ durch „Lebe geistlich kärglich, und du wirst nur wenig hören“.",
-      "translation_quote": "Lebe maßvoll, und du wirst nur wenig hören, selbst wenn du einem Engel vom Himmel zuhörst. Lebe edel, und du wirst Edles hören"
-    },
-    {
-      "location": "html, Absatz beginnend mit „Das geschieht bei allen von uns“",
-      "severity": "minor",
-      "source_quote": "We are listening, not with the bodily ear, but with our loves and hates, our grudges and preferences.",
-      "suggested_fix": "Ersetze „mit unseren Lieben und unserem Hass“ durch „mit dem, was wir lieben und hassen“.",
-      "translation_quote": "Wir hören nicht mit dem körperlichen Ohr, sondern mit unseren Lieben und unserem Hass, unseren Grollgefühlen und Vorlieben."
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-11-06T02:21:20+00:00",
   "id": "d93d718d1d0a6633e7ae2b64ab29ce92",
   "issue_id": "4e575f26-fabd-5104-ba0d-d54ca032653b",
   "language": "deu",
@@ -155,7 +160,7 @@
     }
   },
   "protected": false,
-  "quality_score": 94,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6.1-sol",
@@ -174,7 +179,7 @@
     "total_reserved_usd": 0.762594,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "2ab4f83b970977b517b8c5966e0879530863628afa0c94a3bb7186e69daacb25",
   "translation_model_actual": "gpt-6.1-sol"
