@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "HTML, Absatz 5",
+      "severity": "major",
+      "source_quote": "May we bring God glory by dying to self",
+      "suggested_fix": "Mögen wir Gott verherrlichen, indem wir unserem eigenen Ich absterben, in neuem Leben hervorsprießen, uns dem Sohn entgegenstrecken und Frucht für unseren Meister hervorbringen.",
+      "translation_quote": "Mögen wir Gott verherrlichen, indem wir uns selbst sterben, in neuem Leben hervorsprießen, uns dem Sohn entgegenstrecken und Frucht für unseren Meister hervorbringen."
+    },
+    {
+      "location": "HTML, Absatz 1",
+      "severity": "minor",
+      "source_quote": "Almost like clockwork",
+      "suggested_fix": "Fast wie ein Uhrwerk bahnen sich früh blühende Blumen mutig ihren Weg durch den kalten Frühlingsboden.",
+      "translation_quote": "Fast wie nach einem Uhrwerk bahnen sich früh blühende Blumen mutig ihren Weg durch den kalten Frühlingsboden."
+    },
+    {
+      "location": "HTML, Absatz 6",
+      "severity": "minor",
+      "source_quote": "the Baltimore Orioles arrived",
+      "suggested_fix": "Diese Woche sind die Baltimoretrupiale eingetroffen, und heute haben wir den ersten Kolibri der Saison gesehen.",
+      "translation_quote": "Diese Woche sind die Baltimore Orioles eingetroffen, und heute haben wir den ersten Kolibri der Saison gesehen."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

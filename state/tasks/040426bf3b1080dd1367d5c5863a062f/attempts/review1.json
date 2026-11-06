@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-06T18:01:55+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, Absatz 5\",\"severity\":\"major\",\"source_quote\":\"May we bring God glory by dying to self\",\"suggested_fix\":\"Mögen wir Gott verherrlichen, indem wir unserem eigenen Ich absterben, in neuem Leben hervorsprießen, uns dem Sohn entgegenstrecken und Frucht für unseren Meister hervorbringen.\",\"translation_quote\":\"Mögen wir Gott verherrlichen, indem wir uns selbst sterben, in neuem Leben hervorsprießen, uns dem Sohn entgegenstrecken und Frucht für unseren Meister hervorbringen.\"},{\"location\":\"HTML, Absatz 1\",\"severity\":\"minor\",\"source_quote\":\"Almost like clockwork\",\"suggested_fix\":\"Fast wie ein Uhrwerk bahnen sich früh blühende Blumen mutig ihren Weg durch den kalten Frühlingsboden.\",\"translation_quote\":\"Fast wie nach einem Uhrwerk bahnen sich früh blühende Blumen mutig ihren Weg durch den kalten Frühlingsboden.\"},{\"location\":\"HTML, Absatz 6\",\"severity\":\"minor\",\"source_quote\":\"the Baltimore Orioles arrived\",\"suggested_fix\":\"Diese Woche sind die Baltimoretrupiale eingetroffen, und heute haben wir den ersten Kolibri der Saison gesehen.\",\"translation_quote\":\"Diese Woche sind die Baltimore Orioles eingetroffen, und heute haben wir den ersten Kolibri der Saison gesehen.\"}],\"findings_complete\":true,\"passed\":false,\"score\":93}",
+    "content_bytes": 1269,
+    "content_evidence_truncated": false,
+    "content_sha256": "8ee8e692bc84db3b21215f5c2ce470dc2fbbbc943c022815eac96cb377c766a3",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 802,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 503,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3406,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2303,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 4208
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}
