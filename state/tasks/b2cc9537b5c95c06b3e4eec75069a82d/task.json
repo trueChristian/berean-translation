@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": "954ba0ea621f62955d27b8cb00b16d8a3e766f01fdcdf6e7155679451b706905",
   "base_metadata_sha256": "649020619bd354afac7c9be62c110b8e3b674787823724fde513dc85f374e12a",
-  "batch": "3e6da88de22b42a989ddfb80b142ab39",
   "campaign": "auto-e2cb1f2a9ff416f9faa9d7f4a96c8243a95978a5c877d3063aa38cd7b2264118",
   "created_at": "2026-11-05T02:57:36+00:00",
   "events": [
@@ -28,10 +27,53 @@
         },
         "total_tokens": 6875
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1020,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 752,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7192,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 7189,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8212
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "Paragraph beginning “Autrefois…”",
+      "severity": "minor",
+      "source_quote": "Choosing to stay at home in your focuses and thoughts produces peace and contentment.",
+      "suggested_fix": "Garder son attention et ses pensées centrées sur son foyer procure paix et contentement.",
+      "translation_quote": "Choisir de rester chez soi dans ses centres d’intérêt et ses pensées procure paix et contentement."
+    },
+    {
+      "location": "First item in the final list",
+      "severity": "minor",
+      "source_quote": "Reach out and ask. Don’t always wait until someone pursues you.",
+      "suggested_fix": "Prenez contact et posez la question. N’attendez pas toujours que quelqu’un vienne vers vous.",
+      "translation_quote": "Allez vers les autres et proposez-leur votre aide. N’attendez pas toujours que quelqu’un vienne vers vous."
+    },
+    {
+      "location": "Paragraph 2",
+      "severity": "minor",
+      "source_quote": "My mother was picking him up, crooning softly.",
+      "suggested_fix": "Ma mère le prenait dans ses bras en fredonnant doucement.",
+      "translation_quote": "Ma mère le prenait dans ses bras en lui fredonnant doucement une chanson."
+    }
+  ],
+  "finished_at": "2026-11-06T23:06:10+00:00",
   "id": "b2cc9537b5c95c06b3e4eec75069a82d",
   "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
   "language": "fra",
@@ -120,9 +162,11 @@
     }
   },
   "protected": false,
+  "quality_score": 97,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/ee1d1c4c726665ca5725eef036aae90f81e779ea0d47055f2cf908d0b809c75d.json",
   "stage": "review1",
   "stage_budget": {
@@ -138,7 +182,7 @@
     "total_reserved_usd": 0.089134,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "aca8415cfcf9e5554286626ac6bcaa5724f97b93dadbcdbbe3b6300ec48874e3",
   "translation_model_actual": "gpt-6-luna"

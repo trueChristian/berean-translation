@@ -32833,12 +32833,12 @@
       "ai_notice_required": true,
       "direction": "ltr",
       "html": "content/fra/articles/903e4b58-b246-4ee3-85e7-eecf158a7a75.html",
-      "html_sha256": "954ba0ea621f62955d27b8cb00b16d8a3e766f01fdcdf6e7155679451b706905",
+      "html_sha256": "d52061b4d5c21178b2a448d4d3493c60a733e954b991a1e0d4d382e75d0efc4a",
       "human_reviewed": false,
       "id": "903e4b58-b246-4ee3-85e7-eecf158a7a75",
       "images": [
         {
-          "alt": "Adulte tenant la main d’un petit enfant marchant en plein air",
+          "alt": "Un adulte tenant la main d’un jeune enfant qui marche en plein air",
           "public_path": "/images/articles/903e4b58-b246-4ee3-85e7-eecf158a7a75-1.jpg"
         }
       ],
@@ -32846,16 +32846,16 @@
       "language": "fra",
       "language_tag": "fr",
       "metadata": "content/fra/articles/903e4b58-b246-4ee3-85e7-eecf158a7a75.json",
-      "metadata_sha256": "649020619bd354afac7c9be62c110b8e3b674787823724fde513dc85f374e12a",
+      "metadata_sha256": "99ddc1ecd5f5d45214a263f2a456114aac661a4e2b64cc56a7dab81862168291",
       "provider": "OpenAI",
-      "review_model": "gpt-5-mini-2025-08-07",
-      "section": "Sœur à sœur",
-      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
-      "source_translation_key": "bc655ca0e757a92869b0811d5a6de87a4ca48f1e4eef1923cd7135609b8dc379",
-      "status": "stale",
+      "review_model": "gpt-6-luna",
+      "section": "De sœur à sœur",
+      "source_revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
+      "source_translation_key": "aca8415cfcf9e5554286626ac6bcaa5724f97b93dadbcdbbe3b6300ec48874e3",
+      "status": "ready",
       "subtitle": null,
-      "title": "Un appel joyeux",
-      "translation_model": "gpt-5-mini-2025-08-07"
+      "title": "Une vocation joyeuse",
+      "translation_model": "gpt-6-luna"
     },
     {
       "ai_notice_required": true,

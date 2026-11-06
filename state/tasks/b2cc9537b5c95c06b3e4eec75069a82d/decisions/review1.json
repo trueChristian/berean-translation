@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph beginning “Autrefois…”",
+      "severity": "minor",
+      "source_quote": "Choosing to stay at home in your focuses and thoughts produces peace and contentment.",
+      "suggested_fix": "Garder son attention et ses pensées centrées sur son foyer procure paix et contentement.",
+      "translation_quote": "Choisir de rester chez soi dans ses centres d’intérêt et ses pensées procure paix et contentement."
+    },
+    {
+      "location": "First item in the final list",
+      "severity": "minor",
+      "source_quote": "Reach out and ask. Don’t always wait until someone pursues you.",
+      "suggested_fix": "Prenez contact et posez la question. N’attendez pas toujours que quelqu’un vienne vers vous.",
+      "translation_quote": "Allez vers les autres et proposez-leur votre aide. N’attendez pas toujours que quelqu’un vienne vers vous."
+    },
+    {
+      "location": "Paragraph 2",
+      "severity": "minor",
+      "source_quote": "My mother was picking him up, crooning softly.",
+      "suggested_fix": "Ma mère le prenait dans ses bras en fredonnant doucement.",
+      "translation_quote": "Ma mère le prenait dans ses bras en lui fredonnant doucement une chanson."
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

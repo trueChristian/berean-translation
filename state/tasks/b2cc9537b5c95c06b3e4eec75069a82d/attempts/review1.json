@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-06T23:06:10+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph beginning “Autrefois…”\",\"severity\":\"minor\",\"source_quote\":\"Choosing to stay at home in your focuses and thoughts produces peace and contentment.\",\"suggested_fix\":\"Garder son attention et ses pensées centrées sur son foyer procure paix et contentement.\",\"translation_quote\":\"Choisir de rester chez soi dans ses centres d’intérêt et ses pensées procure paix et contentement.\"},{\"location\":\"First item in the final list\",\"severity\":\"minor\",\"source_quote\":\"Reach out and ask. Don’t always wait until someone pursues you.\",\"suggested_fix\":\"Prenez contact et posez la question. N’attendez pas toujours que quelqu’un vienne vers vous.\",\"translation_quote\":\"Allez vers les autres et proposez-leur votre aide. N’attendez pas toujours que quelqu’un vienne vers vous.\"},{\"location\":\"Paragraph 2\",\"severity\":\"minor\",\"source_quote\":\"My mother was picking him up, crooning softly.\",\"suggested_fix\":\"Ma mère le prenait dans ses bras en fredonnant doucement.\",\"translation_quote\":\"Ma mère le prenait dans ses bras en lui fredonnant doucement une chanson.\"}],\"findings_complete\":true,\"passed\":true,\"score\":97}",
+    "content_bytes": 1153,
+    "content_evidence_truncated": false,
+    "content_sha256": "809349f12465e19286749db1be7dfff586ce25c2be8be8999915871adad6f476",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1020,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 752,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7192,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7189,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8212
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}
