@@ -60449,6 +60449,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/nld/articles/049f2e7d-675c-4dac-9584-5aefceb9b9c1.html",
+      "html_sha256": "ea1bec37160b3b02185186efaa1c21f666469697dcee5510e2288e33d5c4a036",
+      "human_reviewed": false,
+      "id": "049f2e7d-675c-4dac-9584-5aefceb9b9c1",
+      "images": [
+        {
+          "alt": "Een lichtroze bloem en een gesloten bloemknop.",
+          "public_path": "/images/articles/049f2e7d-675c-4dac-9584-5aefceb9b9c1-1.jpg"
+        }
+      ],
+      "issue_id": "103c93e0-6e9a-44f6-a6bc-377af8e08e38",
+      "language": "nld",
+      "language_tag": "nl",
+      "metadata": "content/nld/articles/049f2e7d-675c-4dac-9584-5aefceb9b9c1.json",
+      "metadata_sha256": "8bbee33f2d4fc0dba9167cc76ea8b8924d7b68e65f15812d5d9ac6e9d0108429",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
+      "source_translation_key": "0fb584030db33dd2b72332a91a0b7c15fa746dd719ac5f16dd38c2251e56bee5",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Van de REDACTEUR",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/nld/articles/069fc797-01e4-44d3-8b71-1c07f0821965.html",
       "html_sha256": "4d4e73f46366b800bed6746bfddd943edeeb103f05ed0daf7f9bd22ab43812c4",
       "human_reviewed": false,
