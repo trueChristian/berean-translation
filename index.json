@@ -100730,6 +100730,34 @@
     {
       "ai_notice_required": true,
       "direction": "rtl",
+      "html": "content/urd/articles/fb02a7e7-4fdc-4363-bea0-aa8a68b36f8b.html",
+      "html_sha256": "0d246a7a81e247c2d4060706ee8d382899a112c35df8693a55fdfe9b35c0ccc2",
+      "human_reviewed": false,
+      "id": "fb02a7e7-4fdc-4363-bea0-aa8a68b36f8b",
+      "images": [
+        {
+          "alt": "دھند میں لپٹا سدا بہار جنگل",
+          "public_path": "/images/articles/fb02a7e7-4fdc-4363-bea0-aa8a68b36f8b-1.jpg"
+        }
+      ],
+      "issue_id": "4e575f26-fabd-5104-ba0d-d54ca032653b",
+      "language": "urd",
+      "language_tag": "ur",
+      "metadata": "content/urd/articles/fb02a7e7-4fdc-4363-bea0-aa8a68b36f8b.json",
+      "metadata_sha256": "2131167f617ec4c9f6b156ece9b1bfe72705f17ed09388b6303c75541298667b",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": null,
+      "source_revision": "22388745ad7f149609e65f5e28cfcc1257cd689e",
+      "source_translation_key": "9aa7bb9243a4951727cfb6179796c72ee27a6edc2814022ae3842d468d371b8c",
+      "status": "ready",
+      "subtitle": null,
+      "title": "آسمانی بلاہٹ",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
       "html": "content/urd/articles/fb65688b-5aaf-4194-a345-31f6f1355389.html",
       "html_sha256": "5eadb12c634c0fa18622ca3157388afb4a8856fc546a106b38e4bb300d3ca029",
       "human_reviewed": false,
