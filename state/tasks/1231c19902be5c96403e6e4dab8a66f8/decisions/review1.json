@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph after heading “Kuzaliwa upya”",
+      "severity": "major",
+      "source_quote": "This new birth is not a slow change. It takes years, decades, or even generations.",
+      "suggested_fix": "Kuzaliwa upya huku si mabadiliko ya polepole. Huchukua miaka, miongo, au hata vizazi.",
+      "translation_quote": "Kuzaliwa upya huku si mabadiliko ya polepole. Hakuchukui miaka, miongo, au hata vizazi."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

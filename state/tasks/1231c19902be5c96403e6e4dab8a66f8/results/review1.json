@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "dbc33ae3-2520-46bb-9b11-44cf6072d4ae",
+    "response_id": "chatcmpl-EhNhX9hZJH4XPYk6y88osf0Ni3Tto",
+    "usage": {
+      "completion_tokens": 526,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 391,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7814,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7811,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8340
+    }
+  },
+  "received_at": "2026-11-06T23:36:21+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph after heading “Kuzaliwa upya”",
+        "severity": "major",
+        "source_quote": "This new birth is not a slow change. It takes years, decades, or even generations.",
+        "suggested_fix": "Kuzaliwa upya huku si mabadiliko ya polepole. Huchukua miaka, miongo, au hata vizazi.",
+        "translation_quote": "Kuzaliwa upya huku si mabadiliko ya polepole. Hakuchukui miaka, miongo, au hata vizazi."
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 91
+  }
+}
