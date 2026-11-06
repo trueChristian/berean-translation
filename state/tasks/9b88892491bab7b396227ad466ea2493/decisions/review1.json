@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Абзац после заголовка «Новое рождение»",
+      "severity": "major",
+      "source_quote": "This new birth is not a slow change. It takes years, decades, or even generations.",
+      "suggested_fix": "Это новое рождение — не медленное изменение. Оно требует лет, десятилетий или даже поколений.",
+      "translation_quote": "Это новое рождение — не медленное изменение. Оно не требует лет, десятилетий или даже поколений."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
