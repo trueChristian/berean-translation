@@ -17282,6 +17282,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/cmn/articles/73def952-dd77-4a51-b030-27713e0cedd2.html",
+      "html_sha256": "a70adfe608d6cb5efdd2d1a1507683021da147b0fa515a75d0c7f2080c568a20",
+      "human_reviewed": false,
+      "id": "73def952-dd77-4a51-b030-27713e0cedd2",
+      "images": [
+        {
+          "alt": "平静水面上倒映着一艘划艇",
+          "public_path": "/images/articles/73def952-dd77-4a51-b030-27713e0cedd2-1.jpg"
+        },
+        {
+          "alt": "搁在木板上的风化断裂木船桨",
+          "public_path": "/images/articles/73def952-dd77-4a51-b030-27713e0cedd2-2.jpg"
+        }
+      ],
+      "issue_id": "4e575f26-fabd-5104-ba0d-d54ca032653b",
+      "language": "cmn",
+      "language_tag": "zh-Hans",
+      "metadata": "content/cmn/articles/73def952-dd77-4a51-b030-27713e0cedd2.json",
+      "metadata_sha256": "82c486c2f99509e3cf77e4999b377f6b5e9ef51f08473fb144a014a0882bfc5e",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "儿童天地",
+      "source_revision": "22388745ad7f149609e65f5e28cfcc1257cd689e",
+      "source_translation_key": "4495f12a281c559d419fa93922b800b7fa95e251e187216d7846b8abc9c22a13",
+      "status": "ready",
+      "subtitle": null,
+      "title": "“我需要说出来吗？”",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/cmn/articles/77cd4a24-14db-4ba2-905f-4f3ecb1d3ea5.html",
       "html_sha256": "dc3040e9f9c5232fd1beff89e5359dab378ab4767eaf7d1e32043529c347a440",
       "human_reviewed": false,
