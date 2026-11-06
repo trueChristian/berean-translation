@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "html: nukuu ya Isaya 6:9-10 chini ya kichwa “Mioyo Mizito”",
+      "severity": "major",
+      "source_quote": "Make the heart of this people fat, and make their ears heavy, and shut their eyes",
+      "suggested_fix": "Badilisha “na uzitoe masikio yao” kuwa “na uyafanye masikio yao kuwa mazito”, ukihifadhi muundo uliopo wa HTML.",
+      "translation_quote": "Uifanye mioyo ya watu hawa kuwa migumu, na uzitoe masikio yao, na uyafumbe macho yao"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

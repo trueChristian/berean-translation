@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-06T02:22:41+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"html: nukuu ya Isaya 6:9-10 chini ya kichwa “Mioyo Mizito”\",\n      \"severity\": \"major\",\n      \"source_quote\": \"Make the heart of this people fat, and make their ears heavy, and shut their eyes\",\n      \"suggested_fix\": \"Badilisha “na uzitoe masikio yao” kuwa “na uyafanye masikio yao kuwa mazito”, ukihifadhi muundo uliopo wa HTML.\",\n      \"translation_quote\": \"Uifanye mioyo ya watu hawa kuwa migumu, na uzitoe masikio yao, na uyafumbe macho yao\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": false,\n  \"score\": 94\n}",
+    "content_bytes": 576,
+    "content_evidence_truncated": false,
+    "content_sha256": "a8408f11383c14e142a695a5386fd74295bef2e9a4740be8b08446bf1152fae0",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 316,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 128,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9008,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7905,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 9324
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}
