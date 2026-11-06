@@ -5,11 +5,41 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "cd112b7a42744a96ab4aae324b4329a3",
   "campaign": "auto-2b151880f41b6ffb4c5a1eae7f431b4140954a0ac25fd6308dffb5b2e806422c",
   "created_at": "2026-11-06T11:46:11+00:00",
-  "events": [],
-  "findings": [],
+  "events": [
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 180,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 58,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8215,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 7112,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 8395
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "html: parágrafo sobre o objetivo de longo prazo após a seção sobre comprimidos para emagrecer",
+      "severity": "minor",
+      "source_quote": "The goal should never be simply to “take off ten pounds,”",
+      "suggested_fix": "Substituir “perder cinco quilos” por “perder cerca de 4,5 quilos”.",
+      "translation_quote": "O objetivo nunca deve ser simplesmente “perder cinco quilos”,"
+    }
+  ],
+  "finished_at": "2026-11-06T18:01:27+00:00",
   "id": "1f03a62b2ca452825ad421ca0a862dad",
   "issue_id": "4e575f26-fabd-5104-ba0d-d54ca032653b",
   "language": "por",
@@ -98,9 +128,11 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/ac8fa1e027a9ec819bd2ef1323c6f1c6bd34a71f9ab24cb0b22ba5416b1909ae.json",
   "stage": "review1",
   "stage_budget": {
@@ -115,7 +147,7 @@
     "total_reserved_usd": 0.761129,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 0,
   "translation_key": "e643aa29500591776446d855b5b97ade0f5810fdbdfe96e5ddfa615deab4a4eb",
   "translation_model_actual": "gpt-6-luna"

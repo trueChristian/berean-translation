@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "html: parágrafo sobre o objetivo de longo prazo após a seção sobre comprimidos para emagrecer",
+      "severity": "minor",
+      "source_quote": "The goal should never be simply to “take off ten pounds,”",
+      "suggested_fix": "Substituir “perder cinco quilos” por “perder cerca de 4,5 quilos”.",
+      "translation_quote": "O objetivo nunca deve ser simplesmente “perder cinco quilos”,"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}
