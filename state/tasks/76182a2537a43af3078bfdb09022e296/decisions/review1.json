@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraph 4",
+      "severity": "major",
+      "source_quote": "“our graves of sin, dead works, and our Adamic sin nature”",
+      "suggested_fix": "اسی طرح خدا کا بیٹا وہ قوت ہے جو ہمیں گناہ، مردہ اعمال اور ہماری آدمی گناہ آلود فطرت کی قبروں سے باہر نکالتا اور ہمارے اندر ایک خوبصورت نئی زندگی پیدا کرتا ہے۔",
+      "translation_quote": "“گناہ، مردہ اعمال اور ہماری آدمی فطرت کے گناہ کی قبروں”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
