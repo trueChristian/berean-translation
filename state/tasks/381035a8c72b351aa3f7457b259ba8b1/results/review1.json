@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "704a7ca5-c301-465b-8f98-252a67c89870",
+    "response_id": "chatcmpl-EhH3mFNzka5BuccQRpOd5mZpibzmF",
+    "usage": {
+      "completion_tokens": 1009,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 736,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7128,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6025,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 8137
+    }
+  },
+  "received_at": "2026-11-06T18:02:57+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Абзацы с цитатами из Псалма 127:3 и 127:3–5",
+        "severity": "major",
+        "source_quote": "—Psalm 127:3; … —Psalm 127:3-5.",
+        "suggested_fix": "Заменить в обоих местах «Псалом 126» на «Псалом 127», сохранив номера стихов: «Псалом 127:3» и «Псалом 127:3–5».",
+        "translation_quote": "— Псалом 126:3; … — Псалом 126:3–5."
+      },
+      {
+        "location": "Абзац, начинающийся «Наставление других…»",
+        "severity": "minor",
+        "source_quote": "Teaching others about the things of God strengthens everyone involved—the teacher and the disciple.",
+        "suggested_fix": "Исправить неполное выражение, например: «Наставление других истинам Божьим укрепляет всех участников — и учителя, и ученика».",
+        "translation_quote": "Наставление других в Божьем укрепляет всех участников — и учителя, и ученика."
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 92
+  }
+}

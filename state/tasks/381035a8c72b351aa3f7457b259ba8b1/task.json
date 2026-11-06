@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": "6882788e369b29168f0b07af60b62c9ebb20d0ddfcd0698cfdeddec2fdfb3469",
   "base_metadata_sha256": "d593f7022ee5a4bc6784ac53d2be234e4f256c8d1b48aba144e70cd3830a8fa8",
-  "batch": "a8627d61fdde4e1b88d90fe7542bd19f",
   "campaign": "auto-e03526f76a80c7ff57067afe04469a3982571fc7da9f24a0a52d3c355f352e60",
   "created_at": "2026-11-05T06:43:12+00:00",
   "events": [
@@ -28,10 +27,45 @@
         },
         "total_tokens": 6774
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1009,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 736,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7128,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 6025,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 8137
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "Абзацы с цитатами из Псалма 127:3 и 127:3–5",
+      "severity": "major",
+      "source_quote": "—Psalm 127:3; … —Psalm 127:3-5.",
+      "suggested_fix": "Заменить в обоих местах «Псалом 126» на «Псалом 127», сохранив номера стихов: «Псалом 127:3» и «Псалом 127:3–5».",
+      "translation_quote": "— Псалом 126:3; … — Псалом 126:3–5."
+    },
+    {
+      "location": "Абзац, начинающийся «Наставление других…»",
+      "severity": "minor",
+      "source_quote": "Teaching others about the things of God strengthens everyone involved—the teacher and the disciple.",
+      "suggested_fix": "Исправить неполное выражение, например: «Наставление других истинам Божьим укрепляет всех участников — и учителя, и ученика».",
+      "translation_quote": "Наставление других в Божьем укрепляет всех участников — и учителя, и ученика."
+    }
+  ],
   "id": "381035a8c72b351aa3f7457b259ba8b1",
   "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
   "language": "rus",
@@ -120,11 +154,13 @@
     }
   },
   "protected": false,
+  "quality_score": 92,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/ee1d1c4c726665ca5725eef036aae90f81e779ea0d47055f2cf908d0b809c75d.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "translate",
     "max_candidate_bytes": 120000,
@@ -138,7 +174,7 @@
     "total_reserved_usd": 0.089129,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "aca8415cfcf9e5554286626ac6bcaa5724f97b93dadbcdbbe3b6300ec48874e3",
   "translation_model_actual": "gpt-6-luna"
