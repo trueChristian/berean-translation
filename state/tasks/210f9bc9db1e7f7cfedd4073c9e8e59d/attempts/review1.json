@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-06T11:44:50+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Section “El nuevo nacimiento,” paragraph beginning “Este nuevo nacimiento…”\",\"severity\":\"major\",\"source_quote\":\"“This new birth is not a slow change. It takes years, decades, or even generations.”\",\"suggested_fix\":\"Replace the opening sentence with: “Este nuevo nacimiento no es un cambio lento. Tarda años, décadas o incluso generaciones.” This preserves both statements as printed in the source.\",\"translation_quote\":\"“Este nuevo nacimiento no es un cambio gradual que tarda años, décadas o incluso generaciones.”\"}],\"findings_complete\":true,\"passed\":false,\"score\":92}",
+    "content_bytes": 622,
+    "content_evidence_truncated": false,
+    "content_sha256": "a87e5b07515b6b51c3a23865ea3a5ec92ac83505a065c373b2b0d3650667e663",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 922,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 778,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7188,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6085,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 8110
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

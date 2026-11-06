@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Section “El nuevo nacimiento,” paragraph beginning “Este nuevo nacimiento…”",
+      "severity": "major",
+      "source_quote": "“This new birth is not a slow change. It takes years, decades, or even generations.”",
+      "suggested_fix": "Replace the opening sentence with: “Este nuevo nacimiento no es un cambio lento. Tarda años, décadas o incluso generaciones.” This preserves both statements as printed in the source.",
+      "translation_quote": "“Este nuevo nacimiento no es un cambio gradual que tarda años, décadas o incluso generaciones.”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
