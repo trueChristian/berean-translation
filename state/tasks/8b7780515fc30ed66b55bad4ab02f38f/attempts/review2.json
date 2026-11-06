@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-06T23:06:32+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph 5, quotation from “The New Creation”\",\"severity\":\"minor\",\"source_quote\":\"“The old man must first die”\",\"suggested_fix\":\"Replace “Mtu wa kale lazima afe kwanza” with “Utu wa kale lazima ufe kwanza” to convey the metaphorical old self more clearly.\",\"translation_quote\":\"“Mtu wa kale lazima afe kwanza”\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 410,
+    "content_evidence_truncated": false,
+    "content_sha256": "23f7aa1046adf095bbaa29ab054b931e05a3ebdae4a18af5fdb13d7f37a1ab35",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 517,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 406,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3646,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3643,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4163
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

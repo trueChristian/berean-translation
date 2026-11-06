@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph 5, quotation from “The New Creation”",
+      "severity": "minor",
+      "source_quote": "“The old man must first die”",
+      "suggested_fix": "Replace “Mtu wa kale lazima afe kwanza” with “Utu wa kale lazima ufe kwanza” to convey the metaphorical old self more clearly.",
+      "translation_quote": "“Mtu wa kale lazima afe kwanza”"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}
