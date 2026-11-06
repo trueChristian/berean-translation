@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "প্রথম অনুচ্ছেদ",
+      "severity": "major",
+      "source_quote": "He needs another fix",
+      "suggested_fix": "তার আরেকবার নেশার মাত্রা নেওয়া দরকার",
+      "translation_quote": "তার আরেকবার নেশা করার দরকার"
+    },
+    {
+      "location": "“The new birth” শিরোনামের পরের অনুচ্ছেদ",
+      "severity": "major",
+      "source_quote": "This new birth is not a slow change. It takes years, decades, or even generations.",
+      "suggested_fix": "এই নতুন জন্ম ধীরগতির কোনো পরিবর্তন নয়; এর জন্য বছর, দশক, এমনকি প্রজন্মের পর প্রজন্ম লাগে না।",
+      "translation_quote": "এই নতুন জন্ম ধীরগতির কোনো পরিবর্তন নয়—যার জন্য বছর, দশক, এমনকি প্রজন্মের পর প্রজন্ম লাগে।"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
