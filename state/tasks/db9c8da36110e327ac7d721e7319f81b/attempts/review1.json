@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-06T11:17:31+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Job 12:7–10 quotation\",\"severity\":\"minor\",\"source_quote\":\"“the soul of every living thing, and the breath of all mankind”\",\"suggested_fix\":\"«livet til alt levende og livspusten til alle mennesker»\",\"translation_quote\":\"«livet til alt levende og ånden til hvert menneske»\"}],\"findings_complete\":true,\"passed\":true,\"score\":97}",
+    "content_bytes": 361,
+    "content_evidence_truncated": false,
+    "content_sha256": "d4225290dba991e7f18d67f59e6baf528f92a6c0dae5bb8d7fbaa3647d98f115",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 686,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 578,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3470,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3467,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4156
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

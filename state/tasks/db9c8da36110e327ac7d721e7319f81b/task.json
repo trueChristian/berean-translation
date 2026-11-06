@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "4f465618fea14a5bb3149fdfb8a3d777",
   "campaign": "auto-0baeb013075a9bc7d8e892f82f3bbbd75e6dee70d26e4fe3b97e8b7148c482c3",
   "created_at": "2026-11-06T04:14:40+00:00",
   "events": [
@@ -28,10 +27,39 @@
         },
         "total_tokens": 3116
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 686,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 578,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3470,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 3467,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4156
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "Job 12:7–10 quotation",
+      "severity": "minor",
+      "source_quote": "“the soul of every living thing, and the breath of all mankind”",
+      "suggested_fix": "«livet til alt levende og livspusten til alle mennesker»",
+      "translation_quote": "«livet til alt levende og ånden til hvert menneske»"
+    }
+  ],
+  "finished_at": "2026-11-06T11:17:31+00:00",
   "id": "db9c8da36110e327ac7d721e7319f81b",
   "issue_id": "103c93e0-6e9a-44f6-a6bc-377af8e08e38",
   "language": "nob",
@@ -120,9 +148,11 @@
     }
   },
   "protected": false,
+  "quality_score": 97,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/31f646ebbe09c88881758f32680d6c5f8b1c8194c3eb8a94ff96e4874c476ba4.json",
   "stage": "review1",
   "stage_budget": {
@@ -138,7 +168,7 @@
     "total_reserved_usd": 0.08692,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "0fb584030db33dd2b72332a91a0b7c15fa746dd719ac5f16dd38c2251e56bee5",
   "translation_model_actual": "gpt-6-luna"
