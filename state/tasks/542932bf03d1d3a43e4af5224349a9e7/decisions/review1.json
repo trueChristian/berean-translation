@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "पैराग्राफ़: “God doesn’t need perfect women…”",
+      "severity": "major",
+      "source_quote": "God doesn’t need perfect women to teach the younger",
+      "suggested_fix": "जवान स्त्रियों को सिखाने के लिए परमेश्वर को सिद्ध स्त्रियों की आवश्यकता नहीं",
+      "translation_quote": "जवानों को सिखाने के लिए परमेश्वर को सिद्ध स्त्रियों की आवश्यकता नहीं"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
