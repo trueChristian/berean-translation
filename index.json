@@ -44129,6 +44129,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ind/articles/049f2e7d-675c-4dac-9584-5aefceb9b9c1.html",
+      "html_sha256": "f69e0d7be6ca1fb65c871f1b7e9139d1c874fe8ab812fd68882802c3971f7847",
+      "human_reviewed": false,
+      "id": "049f2e7d-675c-4dac-9584-5aefceb9b9c1",
+      "images": [
+        {
+          "alt": "Bunga berwarna merah muda pucat dan kuncup bunga yang masih tertutup.",
+          "public_path": "/images/articles/049f2e7d-675c-4dac-9584-5aefceb9b9c1-1.jpg"
+        }
+      ],
+      "issue_id": "103c93e0-6e9a-44f6-a6bc-377af8e08e38",
+      "language": "ind",
+      "language_tag": "id",
+      "metadata": "content/ind/articles/049f2e7d-675c-4dac-9584-5aefceb9b9c1.json",
+      "metadata_sha256": "a0b4d41464d0ecb84022a1ebe1f9f0084d258ea77e72bfcef8237bd88363b28d",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
+      "source_translation_key": "0fb584030db33dd2b72332a91a0b7c15fa746dd719ac5f16dd38c2251e56bee5",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Dari SANG EDITOR",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ind/articles/053cec10-1df0-4f62-832e-362809b44283.html",
       "html_sha256": "d358b7ad00855b194943fefd8b0cba2d31984620dc45317c4eba0b467adb0387",
       "human_reviewed": false,
