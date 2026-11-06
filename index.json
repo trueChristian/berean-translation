@@ -63305,12 +63305,12 @@
       "ai_notice_required": true,
       "direction": "ltr",
       "html": "content/nld/articles/903e4b58-b246-4ee3-85e7-eecf158a7a75.html",
-      "html_sha256": "bf228b1bb87c8a1c059656c36e9946e0eba701253d36108ddd46b51a1cea2d50",
+      "html_sha256": "88b2b48a3d3bddafdc28b09ec0fc6232391bd8e9b0537495cfeae94a773a5c51",
       "human_reviewed": false,
       "id": "903e4b58-b246-4ee3-85e7-eecf158a7a75",
       "images": [
         {
-          "alt": "Volwassene die de hand vasthoudt van een klein kind dat buiten loopt",
+          "alt": "Volwassene houdt de hand vast van een klein kind dat buiten loopt",
           "public_path": "/images/articles/903e4b58-b246-4ee3-85e7-eecf158a7a75-1.jpg"
         }
       ],
@@ -63318,16 +63318,16 @@
       "language": "nld",
       "language_tag": "nl",
       "metadata": "content/nld/articles/903e4b58-b246-4ee3-85e7-eecf158a7a75.json",
-      "metadata_sha256": "b10f37e1ce9d3458384cff82b3b7255a5123f0d6bcc59e9bc10a5e2896d59224",
+      "metadata_sha256": "d3a72272e1643215109291d234870aab025c3a26fc380c1b1f30b29e1835728b",
       "provider": "OpenAI",
-      "review_model": "gpt-5-mini-2025-08-07",
-      "section": "Sister to Sister",
-      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
-      "source_translation_key": "bc655ca0e757a92869b0811d5a6de87a4ca48f1e4eef1923cd7135609b8dc379",
-      "status": "stale",
+      "review_model": "gpt-6.1-sol",
+      "section": "Zuster tot zuster",
+      "source_revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
+      "source_translation_key": "aca8415cfcf9e5554286626ac6bcaa5724f97b93dadbcdbbe3b6300ec48874e3",
+      "status": "ready",
       "subtitle": null,
       "title": "Een vreugdevolle roeping",
-      "translation_model": "gpt-5-mini-2025-08-07"
+      "translation_model": "gpt-6.1-sol"
     },
     {
       "ai_notice_required": true,
