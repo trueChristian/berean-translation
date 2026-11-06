@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraph 6",
+      "severity": "major",
+      "source_quote": "This week, the Baltimore Orioles arrived",
+      "suggested_fix": "השבוע הגיעו האוריולים הבולטימוריים, והיום ראינו את יונק הדבש הראשון של העונה.",
+      "translation_quote": "השבוע הגיעו לבולטימור ציפורי האוריאול, והיום ראינו את יונק הדבש הראשון של העונה."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "35e12a16-b873-40c5-9faa-0d1ce052b9d0",
+    "response_id": "chatcmpl-EhFLrQlraT24Ebld3jDUOmfsPnBI9",
+    "usage": {
+      "completion_tokens": 740,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 611,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3512,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 3509
+      },
+      "total_tokens": 4252
+    }
+  },
+  "received_at": "2026-11-06T17:59:01+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, paragraph 6",
+        "severity": "major",
+        "source_quote": "This week, the Baltimore Orioles arrived",
+        "suggested_fix": "השבוע הגיעו האוריולים הבולטימוריים, והיום ראינו את יונק הדבש הראשון של העונה.",
+        "translation_quote": "השבוע הגיעו לבולטימור ציפורי האוריאול, והיום ראינו את יונק הדבש הראשון של העונה."
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 93
+  }
+}
