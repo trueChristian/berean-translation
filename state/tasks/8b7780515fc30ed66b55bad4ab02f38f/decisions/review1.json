@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "Job 12:7-10 quotation",
+      "severity": "major",
+      "source_quote": "“In whose hand is the soul of every living thing”",
+      "suggested_fix": "Replace “Mkono wake una uhai wa kila kiumbe hai” with “Katika mkono wake imo nafsi ya kila kiumbe hai” to preserve the source’s reference to the soul of every living thing.",
+      "translation_quote": "“Mkono wake una uhai wa kila kiumbe hai”"
+    },
+    {
+      "location": "Final sentence of the pea-plant paragraph",
+      "severity": "major",
+      "source_quote": "“by dying to self”",
+      "suggested_fix": "Replace “kwa kufa kwa ubinafsi” with “kwa kuikana nafsi yetu” to convey the spiritual sense of dying to self.",
+      "translation_quote": "“kwa kufa kwa ubinafsi”"
+    },
+    {
+      "location": "Alt text",
+      "severity": "minor",
+      "source_quote": "“A pale pink flower”",
+      "suggested_fix": "Use “Ua la rangi ya waridi iliyopauka” to describe the flower’s color without implying it is a rose.",
+      "translation_quote": "“Ua la waridi hafifu”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

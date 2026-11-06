@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-06T10:50:55+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Job 12:7-10 quotation\",\"severity\":\"major\",\"source_quote\":\"“In whose hand is the soul of every living thing”\",\"suggested_fix\":\"Replace “Mkono wake una uhai wa kila kiumbe hai” with “Katika mkono wake imo nafsi ya kila kiumbe hai” to preserve the source’s reference to the soul of every living thing.\",\"translation_quote\":\"“Mkono wake una uhai wa kila kiumbe hai”\"},{\"location\":\"Final sentence of the pea-plant paragraph\",\"severity\":\"major\",\"source_quote\":\"“by dying to self”\",\"suggested_fix\":\"Replace “kwa kufa kwa ubinafsi” with “kwa kuikana nafsi yetu” to convey the spiritual sense of dying to self.\",\"translation_quote\":\"“kwa kufa kwa ubinafsi”\"},{\"location\":\"Alt text\",\"severity\":\"minor\",\"source_quote\":\"“A pale pink flower”\",\"suggested_fix\":\"Use “Ua la rangi ya waridi iliyopauka” to describe the flower’s color without implying it is a rose.\",\"translation_quote\":\"“Ua la waridi hafifu”\"}],\"findings_complete\":true,\"passed\":false,\"score\":92}",
+    "content_bytes": 1020,
+    "content_evidence_truncated": false,
+    "content_sha256": "114e0a5a25716a694e75f06b0a6ecfd731f45fe9d21f116cd2eab9f91c32adf5",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 884,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 614,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3641,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2538,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 4525
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}
