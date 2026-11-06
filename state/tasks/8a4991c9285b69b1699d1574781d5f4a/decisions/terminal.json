@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Title",
+      "severity": "minor",
+      "source_quote": "From the EDITOR",
+      "suggested_fix": "Από τον ΣΥΝΤΑΚΤΗ",
+      "translation_quote": "Από τον ΕΚΔΟΤΗ"
+    },
+    {
+      "location": "Paragraph 1",
+      "severity": "minor",
+      "source_quote": "Almost like clockwork",
+      "suggested_fix": "Σχεδόν σαν ρολόι",
+      "translation_quote": "Σχεδόν σαν να ακολουθούν ρολόι"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}
