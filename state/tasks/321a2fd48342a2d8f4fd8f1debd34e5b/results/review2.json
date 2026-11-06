@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "8f248a80-1f35-4058-bc61-1b3ece0ebc58",
+    "response_id": "chatcmpl-EhGxaRs3XuU27s9Tk1HGsd3KgUpvV",
+    "usage": {
+      "completion_tokens": 515,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 416,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3384,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2281,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 3899
+    }
+  },
+  "received_at": "2026-11-06T18:00:13+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, párrafo 5",
+        "severity": "minor",
+        "source_quote": "“we will be harvesting a delicious crop of new peas”",
+        "suggested_fix": "«cosecharemos una deliciosa cosecha de guisantes»",
+        "translation_quote": "«cosecharemos una deliciosa producción de guisantes nuevos»"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}

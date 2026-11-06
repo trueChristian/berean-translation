@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, párrafo 5",
+      "severity": "minor",
+      "source_quote": "“we will be harvesting a delicious crop of new peas”",
+      "suggested_fix": "«cosecharemos una deliciosa cosecha de guisantes»",
+      "translation_quote": "«cosecharemos una deliciosa producción de guisantes nuevos»"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

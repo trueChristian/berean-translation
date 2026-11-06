@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "c122b79ab32443699fd561bc7e2c63d4",
   "campaign": "auto-7bbac9c7074d07803e9d52c6b00cb385787fe77ddaf694a27c314334952de365",
   "created_at": "2026-11-05T22:05:12+00:00",
   "events": [
@@ -68,18 +67,39 @@
         },
         "total_tokens": 4567
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 515,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 416,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3384,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 2281,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 3899
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "HTML, paragraph beginning «Esta semana llegaron…»",
-      "severity": "major",
-      "source_quote": "“This week, the Baltimore Orioles arrived”",
-      "suggested_fix": "Sustituir «las oropéndolas de Baltimore» por «los orioles de Baltimore» (o el nombre español convencional para la especie Icterus galbula).",
-      "translation_quote": "«Esta semana llegaron las oropéndolas de Baltimore»"
+      "location": "HTML, párrafo 5",
+      "severity": "minor",
+      "source_quote": "“we will be harvesting a delicious crop of new peas”",
+      "suggested_fix": "«cosecharemos una deliciosa cosecha de guisantes»",
+      "translation_quote": "«cosecharemos una deliciosa producción de guisantes nuevos»"
     }
   ],
+  "finished_at": "2026-11-06T18:00:13+00:00",
   "id": "321a2fd48342a2d8f4fd8f1debd34e5b",
   "issue_id": "103c93e0-6e9a-44f6-a6bc-377af8e08e38",
   "language": "spa",
@@ -168,7 +188,7 @@
     }
   },
   "protected": false,
-  "quality_score": 96,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
@@ -188,7 +208,7 @@
     "total_reserved_usd": 0.086925,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "0fb584030db33dd2b72332a91a0b7c15fa746dd719ac5f16dd38c2251e56bee5",
   "translation_model_actual": "gpt-6-luna"
