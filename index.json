@@ -27371,6 +27371,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ell/articles/903e4b58-b246-4ee3-85e7-eecf158a7a75.html",
+      "html_sha256": "46198f6b505a1b28cdc2d179e763d877d2827b61d62368c0bdbe35fd543617c3",
+      "human_reviewed": false,
+      "id": "903e4b58-b246-4ee3-85e7-eecf158a7a75",
+      "images": [
+        {
+          "alt": "Ενήλικας κρατά το χέρι μικρού παιδιού που περπατά έξω",
+          "public_path": "/images/articles/903e4b58-b246-4ee3-85e7-eecf158a7a75-1.jpg"
+        }
+      ],
+      "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
+      "language": "ell",
+      "language_tag": "el",
+      "metadata": "content/ell/articles/903e4b58-b246-4ee3-85e7-eecf158a7a75.json",
+      "metadata_sha256": "0d34132ccb0ce08daa926f7e1e45002d95aef88619af2532fa1c7cd1caf9fda3",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "Αδελφή προς Αδελφή",
+      "source_revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
+      "source_translation_key": "aca8415cfcf9e5554286626ac6bcaa5724f97b93dadbcdbbe3b6300ec48874e3",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Μια χαρούμενη κλήση",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ell/articles/90d8e22a-d7b1-453e-98bf-cab1571a7f56.html",
       "html_sha256": "5ece9d64b56762c6b50358e0a28f019f0504bc0c047a344bae073849db6f3cda",
       "human_reviewed": false,
