@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-06T11:31:32+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"html، فقرة الاقتباس من الأمثال 23:20-21\",\n      \"severity\": \"major\",\n      \"source_quote\": \"Be not among winebibbers; among riotous eaters of flesh\",\n      \"suggested_fix\": \"استبدل «بين المتلفين أجسادهم» بـ«بين المفرطين في أكل اللحم»، مع إبقاء وسم الاقتباس والمرجع كما هما.\",\n      \"translation_quote\": \"لا تكن بين شَرّابي الخمر، بين المتلفين أجسادهم\"\n    },\n    {\n      \"location\": \"html، الفقرة الرابعة\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"Maintaining weight loss is harder yet.\",\n      \"suggested_fix\": \"استبدل الجملة بـ«أما الحفاظ على فقدان الوزن وعدم استعادته فأصعب من ذلك.»\",\n      \"translation_quote\": \"أما الحفاظ على الوزن الذي خسرناه فأصعب من ذلك.\"\n    },\n    {\n      \"location\": \"html، عنوان h3 الخاص بالطعام الحارق للدهون\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"…You just need to eat ‘___’ fat burning food to lose weight!\",\n      \"suggested_fix\": \"أعد الفراغ الذي تشير إليه الفقرة التالية: «...كل ما تحتاج إليه هو تناول طعام «___» الحارق للدهون لإنقاص الوزن!»، مع الحفاظ على وسمي h3 وem.\",\n      \"translation_quote\": \"...كل ما تحتاج إليه هو تناول طعام «يحرق الدهون» لإنقاص الوزن!\"\n    },\n    {\n      \"location\": \"html، فقرة الكربوهيدرات الصحية وفقرة مثال استبدال الفطور\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"A bowl of oatmeal … a glass of water and a bowl of oatmeal … the oatmeal is “burning fat”\",\n      \"suggested_fix\": \"استبدل «دقيق الشوفان» بـ«عصيدة الشوفان» في المواضع الثلاثة، لأن المقصود وجبة الشوفان المطبوخة لا الدقيق.\",\n      \"translation_quote\": \"وعاء من دقيق الشوفان … كأساً من الماء ووعاءً من دقيق الشوفان … دقيق الشوفان «يحرق الدهون»\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": false,\n  \"score\": 94\n}",
+    "content_bytes": 2377,
+    "content_evidence_truncated": false,
+    "content_sha256": "781d39daf867c86e66ae8fff9e999ccbd4d23371fba3cfdf08c40de391bf7e63",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 650,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 112,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8559,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7456,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 9209
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}
