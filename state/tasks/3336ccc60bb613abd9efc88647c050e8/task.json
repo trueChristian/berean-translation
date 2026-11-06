@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": "bf228b1bb87c8a1c059656c36e9946e0eba701253d36108ddd46b51a1cea2d50",
   "base_metadata_sha256": "b10f37e1ce9d3458384cff82b3b7255a5123f0d6bcc59e9bc10a5e2896d59224",
-  "batch": "8313a80bc1c74645a992f542353ba614",
   "campaign": "auto-3897993d392e06f73cf32a9ecf245c487edb1d1f331c5b5f10759388dba7aa23",
   "created_at": "2026-11-05T06:40:12+00:00",
   "events": [
@@ -68,32 +67,40 @@
         },
         "total_tokens": 10164
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 838,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 677,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6983,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 5880,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 7821
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; a recovery continuation must pass admission",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "Titus 2:3–5 quotation; repeated in Titus 2:4–5 quotations later in the article",
+      "location": "HTML, paragraph beginning “Een vrouw moet in stilheid leren” (1 Timotheüs 2:11–13)",
       "severity": "major",
-      "source_quote": "“keepers at home”",
-      "suggested_fix": "Vervang op alle drie de plaatsen “huiselijk” door een formulering die de betekenis van thuis voor het gezin zorgen weergeeft, bijvoorbeeld “zorg dragen voor hun huis en gezin”.",
-      "translation_quote": "“huiselijk te zijn”"
-    },
-    {
-      "location": "Psalm 127:3–5 quotation",
-      "severity": "major",
-      "source_quote": "“so are children of the youth”",
-      "suggested_fix": "Vertaal “children” als “kinderen”, bijvoorbeeld: “zo zijn de kinderen van de jeugd”.",
-      "translation_quote": "“zo zijn de zonen van de jeugd”"
-    },
-    {
-      "location": "Paragraph beginning “Was my mother deprived…”",
-      "severity": "minor",
-      "source_quote": "“Was my mother deprived of a fulfilling life?”",
-      "suggested_fix": "Gebruik de idiomatischer formulering: “Was mijn moeder een vervullend leven onthouden?”",
-      "translation_quote": "“Was mijn moeder een vervullend leven ontzegd?”"
+      "source_quote": "“I suffer not a woman to teach, nor to usurp authority over the man”",
+      "suggested_fix": "Vervang “of gezag over de man uit te oefenen” door “of zich gezag over de man toe te eigenen” om de nuance van “usurp authority” te behouden.",
+      "translation_quote": "“Ik sta een vrouw echter niet toe onderwijs te geven of gezag over de man uit te oefenen”"
     }
   ],
+  "finished_at": "2026-11-06T10:49:02+00:00",
   "id": "3336ccc60bb613abd9efc88647c050e8",
   "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
   "language": "nld",
@@ -182,7 +189,7 @@
     }
   },
   "protected": false,
-  "quality_score": 91,
+  "quality_score": 93,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
@@ -202,7 +209,7 @@
     "total_reserved_usd": 0.089128,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "aca8415cfcf9e5554286626ac6bcaa5724f97b93dadbcdbbe3b6300ec48874e3",
   "translation_model_actual": "gpt-6-luna"

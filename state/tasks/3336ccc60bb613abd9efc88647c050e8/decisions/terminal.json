@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraph beginning “Een vrouw moet in stilheid leren” (1 Timotheüs 2:11–13)",
+      "severity": "major",
+      "source_quote": "“I suffer not a woman to teach, nor to usurp authority over the man”",
+      "suggested_fix": "Vervang “of gezag over de man uit te oefenen” door “of zich gezag over de man toe te eigenen” om de nuance van “usurp authority” te behouden.",
+      "translation_quote": "“Ik sta een vrouw echter niet toe onderwijs te geven of gezag over de man uit te oefenen”"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; a recovery continuation must pass admission",
+  "stage": "terminal"
+}

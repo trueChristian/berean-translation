@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "6653e620-ce7c-4677-812b-56309c912006",
+    "response_id": "chatcmpl-Eh7QQgHorKaZ6P9fHvDODwFFHibGX",
+    "usage": {
+      "completion_tokens": 838,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 677,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6983,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5880,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 7821
+    }
+  },
+  "received_at": "2026-11-06T10:49:02+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, paragraph beginning “Een vrouw moet in stilheid leren” (1 Timotheüs 2:11–13)",
+        "severity": "major",
+        "source_quote": "“I suffer not a woman to teach, nor to usurp authority over the man”",
+        "suggested_fix": "Vervang “of gezag over de man uit te oefenen” door “of zich gezag over de man toe te eigenen” om de nuance van “usurp authority” te behouden.",
+        "translation_quote": "“Ik sta een vrouw echter niet toe onderwijs te geven of gezag over de man uit te oefenen”"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 93
+  }
+}
