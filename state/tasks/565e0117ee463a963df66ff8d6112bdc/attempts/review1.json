@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-06T11:17:41+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"html: cita de 1 Corintios 3:16-17\",\n      \"severity\": \"major\",\n      \"source_quote\": \"If any man defile the temple of God, him shall God destroy\",\n      \"suggested_fix\": \"Cambiar «Si alguno destruye el templo de Dios, Dios lo destruirá a él» por «Si alguno profana el templo de Dios, Dios lo destruirá a él», conservando las etiquetas y el resto de la cita.\",\n      \"translation_quote\": \"Si alguno destruye el templo de Dios, Dios lo destruirá a él\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": false,\n  \"score\": 94\n}",
+    "content_bytes": 577,
+    "content_evidence_truncated": false,
+    "content_sha256": "66dfe4d989bdfd6f8eb3a1154ce7adac0bdee6dd70161d1b137d11c6618e3314",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 278,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 104,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8255,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8252,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8533
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}

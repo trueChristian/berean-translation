@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "html: cita de 1 Corintios 3:16-17",
+      "severity": "major",
+      "source_quote": "If any man defile the temple of God, him shall God destroy",
+      "suggested_fix": "Cambiar «Si alguno destruye el templo de Dios, Dios lo destruirá a él» por «Si alguno profana el templo de Dios, Dios lo destruirá a él», conservando las etiquetas y el resto de la cita.",
+      "translation_quote": "Si alguno destruye el templo de Dios, Dios lo destruirá a él"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
