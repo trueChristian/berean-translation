@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "translation.html: cita de Apocalipsis 21:1-4, último párrafo",
+      "severity": "minor",
+      "source_quote": "And God shall wipe away all tears from their eyes",
+      "suggested_fix": "Cambiar «toda lágrágrima» por «toda lágrima».",
+      "translation_quote": "Y Dios enjugará toda lágrágrima de sus ojos"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

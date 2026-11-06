@@ -86259,6 +86259,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/spa/articles/affa9e6e-7d44-4174-ae66-fd44cfaeeaa0.html",
+      "html_sha256": "9234c4922e3128fdba92ac35fd7fde335a9b340e7193103161aa31f43046e7b3",
+      "human_reviewed": false,
+      "id": "affa9e6e-7d44-4174-ae66-fd44cfaeeaa0",
+      "images": [
+        {
+          "alt": "Nubes de tormenta sobre un camino de pradera, mitad izquierda de una fotografía de dos páginas",
+          "public_path": "/images/articles/affa9e6e-7d44-4174-ae66-fd44cfaeeaa0-1.jpg"
+        },
+        {
+          "alt": "Nubes de tormenta sobre una pradera, mitad derecha de una fotografía de dos páginas",
+          "public_path": "/images/articles/affa9e6e-7d44-4174-ae66-fd44cfaeeaa0-2.jpg"
+        }
+      ],
+      "issue_id": "4e575f26-fabd-5104-ba0d-d54ca032653b",
+      "language": "spa",
+      "language_tag": "es",
+      "metadata": "content/spa/articles/affa9e6e-7d44-4174-ae66-fd44cfaeeaa0.json",
+      "metadata_sha256": "11385695ec380773ca19e7fbc8be4cf3629a833d98363715deefd04291aa6a99",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "Ánimo para las mujeres cristianas",
+      "source_revision": "22388745ad7f149609e65f5e28cfcc1257cd689e",
+      "source_translation_key": "589935b71d98b7f8c7ccc2aec7175a306daa35b8356cdcf6ebb03c78609b5a1a",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Hasta que pase la tormenta",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/spa/articles/b37f8111-4563-4b5b-ab9f-1f87bcd2b46a.html",
       "html_sha256": "49cf5febc712f1320335e0392bd0b83532ffcffda675635d1fa0e9b426d1c6d1",
       "human_reviewed": false,
