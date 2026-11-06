@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "cc50d797-258b-4c8e-9ad1-4507b74b121a",
+    "response_id": "chatcmpl-Eh7cpG1i83Rl3pBNohVq3awkwuUCd",
+    "usage": {
+      "completion_tokens": 775,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 645,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3408,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2305,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 4183
+    }
+  },
+  "received_at": "2026-11-06T10:49:56+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph 4",
+        "severity": "major",
+        "source_quote": "The sun is the cosmic power of God, causing plants to come out of their wintry graves.",
+        "suggested_fix": "Солнце — космическая сила Бога, благодаря которой растения выходят из своих зимних могил.",
+        "translation_quote": "Солнце — космическая сила, посланная Богом, благодаря которой растения выходят из своих зимних могил."
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 93
+  }
+}

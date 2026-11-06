@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph 4",
+      "severity": "major",
+      "source_quote": "The sun is the cosmic power of God, causing plants to come out of their wintry graves.",
+      "suggested_fix": "Солнце — космическая сила Бога, благодаря которой растения выходят из своих зимних могил.",
+      "translation_quote": "Солнце — космическая сила, посланная Богом, благодаря которой растения выходят из своих зимних могил."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
