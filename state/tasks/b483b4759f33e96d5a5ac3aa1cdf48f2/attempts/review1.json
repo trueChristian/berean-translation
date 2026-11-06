@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-06T10:49:14+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"الفقرة السادسة\",\"severity\":\"minor\",\"source_quote\":\"This week, the Baltimore Orioles arrived\",\"suggested_fix\":\"وصلت هذا الأسبوع طيور الأوريول (الصفارية البالتيمورية)\",\"translation_quote\":\"وصلت هذا الأسبوع طيور الصفارية في بالتيمور\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 404,
+    "content_evidence_truncated": false,
+    "content_sha256": "a8d68b2d72376882a66a689381320fb72a014d4b9bdaab427050fdd424faf851",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 607,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3413,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2310,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 4020
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

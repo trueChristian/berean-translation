@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "الفقرة السادسة",
+      "severity": "minor",
+      "source_quote": "This week, the Baltimore Orioles arrived",
+      "suggested_fix": "وصلت هذا الأسبوع طيور الأوريول (الصفارية البالتيمورية)",
+      "translation_quote": "وصلت هذا الأسبوع طيور الصفارية في بالتيمور"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

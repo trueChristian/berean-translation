@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "afc4fa29cddc4c3d8b45defe545746b5",
   "campaign": "auto-4c0a3183a4c03f3847ad77ff07a82ee347600afde4386f805c947f004a68c1e4",
   "created_at": "2026-11-05T22:04:29+00:00",
   "events": [
@@ -28,10 +27,39 @@
         },
         "total_tokens": 3157
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 607,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 512,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3413,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 2310,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 4020
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "الفقرة السادسة",
+      "severity": "minor",
+      "source_quote": "This week, the Baltimore Orioles arrived",
+      "suggested_fix": "وصلت هذا الأسبوع طيور الأوريول (الصفارية البالتيمورية)",
+      "translation_quote": "وصلت هذا الأسبوع طيور الصفارية في بالتيمور"
+    }
+  ],
+  "finished_at": "2026-11-06T10:49:14+00:00",
   "id": "b483b4759f33e96d5a5ac3aa1cdf48f2",
   "issue_id": "103c93e0-6e9a-44f6-a6bc-377af8e08e38",
   "language": "ara",
@@ -120,9 +148,11 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/31f646ebbe09c88881758f32680d6c5f8b1c8194c3eb8a94ff96e4874c476ba4.json",
   "stage": "review1",
   "stage_budget": {
@@ -138,7 +168,7 @@
     "total_reserved_usd": 0.086916,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "0fb584030db33dd2b72332a91a0b7c15fa746dd719ac5f16dd38c2251e56bee5",
   "translation_model_actual": "gpt-6-luna"
