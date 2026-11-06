@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "ea226f4a-ab35-4ec9-948b-7faacb7db158",
+    "response_id": "chatcmpl-EhKPozfSMfCDpXrolWAxrlYtMVxJV",
+    "usage": {
+      "completion_tokens": 951,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 774,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7635,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6532,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 8586
+    }
+  },
+  "received_at": "2026-11-06T23:08:35+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Psalm 127:3–5 quotations, paragraphs 9 and 11",
+        "severity": "major",
+        "source_quote": "“children are an heritage of the LORD” … “so are children of the youth”",
+        "suggested_fix": "इन उद्धरणों में “लड़के” और “पुत्र” के स्थान पर “बच्चे” और “जवानी में उत्पन्न बच्चे” जैसे शब्द रखें, ताकि मूल के सामान्य अर्थ “children” को केवल लड़कों/पुत्रों तक सीमित न किया जाए।",
+        "translation_quote": "“लड़के यहोवा के दिए हुए भाग हैं” … “जवानी में उत्पन्न हुए पुत्र हैं”"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 92
+  }
+}

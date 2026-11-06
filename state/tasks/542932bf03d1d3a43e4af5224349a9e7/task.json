@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "ccc47d549f5849489f5d18411e0d6a84",
   "campaign": "auto-d197405049b465b31e859e74666196ec1d346f0ca90f795ad08f0f4c161175ca",
   "created_at": "2026-11-05T00:12:07+00:00",
   "events": [
@@ -68,18 +67,40 @@
         },
         "total_tokens": 11177
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 951,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 774,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7635,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 6532,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 8586
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; a recovery continuation must pass admission",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "पैराग्राफ़: “God doesn’t need perfect women…”",
+      "location": "Psalm 127:3–5 quotations, paragraphs 9 and 11",
       "severity": "major",
-      "source_quote": "God doesn’t need perfect women to teach the younger",
-      "suggested_fix": "जवान स्त्रियों को सिखाने के लिए परमेश्वर को सिद्ध स्त्रियों की आवश्यकता नहीं",
-      "translation_quote": "जवानों को सिखाने के लिए परमेश्वर को सिद्ध स्त्रियों की आवश्यकता नहीं"
+      "source_quote": "“children are an heritage of the LORD” … “so are children of the youth”",
+      "suggested_fix": "इन उद्धरणों में “लड़के” और “पुत्र” के स्थान पर “बच्चे” और “जवानी में उत्पन्न बच्चे” जैसे शब्द रखें, ताकि मूल के सामान्य अर्थ “children” को केवल लड़कों/पुत्रों तक सीमित न किया जाए।",
+      "translation_quote": "“लड़के यहोवा के दिए हुए भाग हैं” … “जवानी में उत्पन्न हुए पुत्र हैं”"
     }
   ],
+  "finished_at": "2026-11-06T23:08:35+00:00",
   "id": "542932bf03d1d3a43e4af5224349a9e7",
   "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
   "language": "hin",
@@ -168,7 +189,7 @@
     }
   },
   "protected": false,
-  "quality_score": 93,
+  "quality_score": 92,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
@@ -188,7 +209,7 @@
     "total_reserved_usd": 0.08913,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "aca8415cfcf9e5554286626ac6bcaa5724f97b93dadbcdbbe3b6300ec48874e3",
   "translation_model_actual": "gpt-6-luna"

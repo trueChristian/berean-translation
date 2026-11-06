@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Psalm 127:3–5 quotations, paragraphs 9 and 11",
+      "severity": "major",
+      "source_quote": "“children are an heritage of the LORD” … “so are children of the youth”",
+      "suggested_fix": "इन उद्धरणों में “लड़के” और “पुत्र” के स्थान पर “बच्चे” और “जवानी में उत्पन्न बच्चे” जैसे शब्द रखें, ताकि मूल के सामान्य अर्थ “children” को केवल लड़कों/पुत्रों तक सीमित न किया जाए।",
+      "translation_quote": "“लड़के यहोवा के दिए हुए भाग हैं” … “जवानी में उत्पन्न हुए पुत्र हैं”"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; a recovery continuation must pass admission",
+  "stage": "terminal"
+}
