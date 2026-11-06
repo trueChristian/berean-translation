@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Article, paragraph 7",
+      "severity": "major",
+      "source_quote": "I give to God, but I can only give to Him only Himself as He has given Himself to me.",
+      "suggested_fix": "我献给上帝的，唯有祂自己——正如祂已将自己赐给我。",
+      "translation_quote": "我把自己献给上帝，但我所能献给祂的，只有祂自己——正如祂已把自己赐给我。"
+    },
+    {
+      "location": "Article, paragraph 7",
+      "severity": "major",
+      "source_quote": "God gives to me my new self in Christ.",
+      "suggested_fix": "上帝把我在基督里新的自己赐给我。",
+      "translation_quote": "上帝把我在基督里的新生命赐给我。"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

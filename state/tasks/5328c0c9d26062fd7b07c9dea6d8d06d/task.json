@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "2d45ee36fe1c40acb29a1b8e6a348cc0",
   "campaign": "auto-ec19612633d58f11787d2b50cb5bba8f4e268ad3687a7d0a0db559661489edb8",
   "created_at": "2026-11-01T01:11:41+00:00",
   "events": [
@@ -28,10 +27,45 @@
         },
         "total_tokens": 4431
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 691,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 489,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4726,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 4723,
+          "cached_tokens": 0
+        },
+        "total_tokens": 5417
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "Article, paragraph 7",
+      "severity": "major",
+      "source_quote": "I give to God, but I can only give to Him only Himself as He has given Himself to me.",
+      "suggested_fix": "我献给上帝的，唯有祂自己——正如祂已将自己赐给我。",
+      "translation_quote": "我把自己献给上帝，但我所能献给祂的，只有祂自己——正如祂已把自己赐给我。"
+    },
+    {
+      "location": "Article, paragraph 7",
+      "severity": "major",
+      "source_quote": "God gives to me my new self in Christ.",
+      "suggested_fix": "上帝把我在基督里新的自己赐给我。",
+      "translation_quote": "上帝把我在基督里的新生命赐给我。"
+    }
+  ],
   "id": "5328c0c9d26062fd7b07c9dea6d8d06d",
   "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
   "language": "cmn",
@@ -120,11 +154,13 @@
     }
   },
   "protected": false,
+  "quality_score": 91,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/8d52a546b52937f22f6b07ebadc9080d1037a1206b5e9465f0000afe830e5d6a.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "translate",
     "max_candidate_bytes": 120000,
@@ -138,7 +174,7 @@
     "total_reserved_usd": 0.08778,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "45c04759c5b0f7d8a9038af8cc76e1ff17a52e5b989557b235da9ebe057bb77d",
   "translation_model_actual": "gpt-6-luna"
