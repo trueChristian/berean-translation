@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "87e35740-5c8e-4631-8859-b8adb73d9333",
+    "response_id": "chatcmpl-Eh7IcdU0Rc6MdhwbsosyT6GBKL6eU",
+    "usage": {
+      "completion_tokens": 523,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 428,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3420,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2317,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 3943
+    }
+  },
+  "received_at": "2026-11-06T10:50:16+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, paragraphe 1",
+        "severity": "minor",
+        "source_quote": "Almost like clockwork, early-blooming flowers",
+        "suggested_fix": "« Avec une régularité presque mécanique, les fleurs précoces »",
+        "translation_quote": "Presque comme une horloge, les fleurs précoces"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}

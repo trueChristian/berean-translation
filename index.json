@@ -29640,6 +29640,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/fra/articles/049f2e7d-675c-4dac-9584-5aefceb9b9c1.html",
+      "html_sha256": "b4e4060742a08d5a5352724c13a757d2133ee6540168c56e0a8ed38f327ecc3a",
+      "human_reviewed": false,
+      "id": "049f2e7d-675c-4dac-9584-5aefceb9b9c1",
+      "images": [
+        {
+          "alt": "Une fleur rose pâle et un bouton de fleur fermé.",
+          "public_path": "/images/articles/049f2e7d-675c-4dac-9584-5aefceb9b9c1-1.jpg"
+        }
+      ],
+      "issue_id": "103c93e0-6e9a-44f6-a6bc-377af8e08e38",
+      "language": "fra",
+      "language_tag": "fr",
+      "metadata": "content/fra/articles/049f2e7d-675c-4dac-9584-5aefceb9b9c1.json",
+      "metadata_sha256": "7ece51efef7fb5407287db99afa325effac3faca6643a1a74814efaa0ac5ec67",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
+      "source_translation_key": "0fb584030db33dd2b72332a91a0b7c15fa746dd719ac5f16dd38c2251e56bee5",
+      "status": "ready",
+      "subtitle": null,
+      "title": "De la RÉDACTION",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/fra/articles/053cec10-1df0-4f62-832e-362809b44283.html",
       "html_sha256": "0e8bd6026dd1dff0b9658cc1813e592eaf49984591e8843162ee32e0a20985e6",
       "human_reviewed": false,
