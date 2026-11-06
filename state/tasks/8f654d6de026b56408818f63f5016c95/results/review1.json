@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "a12ce486-d956-416c-b16c-084dfd50ca84",
+    "response_id": "chatcmpl-EhJMr9025CAwajjQ1rqO287piSHzg",
+    "usage": {
+      "completion_tokens": 588,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 457,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7099,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5996,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 7687
+    }
+  },
+  "received_at": "2026-11-06T23:08:09+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, paragraph beginning “Esse novo nascimento”",
+        "severity": "major",
+        "source_quote": "“This new birth is not a slow change. It takes years, decades, or even generations.”",
+        "suggested_fix": "Preserve both claims as printed, for example: “Esse novo nascimento não é uma mudança lenta. Leva anos, décadas ou até gerações.”",
+        "translation_quote": "“Esse novo nascimento não é uma mudança lenta que leva anos, décadas ou até gerações.”"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 93
+  }
+}
