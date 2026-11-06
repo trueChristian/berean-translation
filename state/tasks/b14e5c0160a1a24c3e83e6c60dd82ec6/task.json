@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "0fd89cc67cb0495587f335fb734406b4",
   "campaign": "auto-1f8294b88b8dbb5ae28241f99367fb2e4a074040d75410b70c3898fe40cf14f5",
   "created_at": "2026-11-06T10:52:23+00:00",
   "events": [
@@ -48,39 +47,31 @@
         },
         "total_tokens": 13020
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 83,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 51,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8581,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 0,
+          "cached_tokens": 8578
+        },
+        "total_tokens": 8664
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "html، فقرة الاقتباس من الأمثال 23:20-21",
-      "severity": "major",
-      "source_quote": "Be not among winebibbers; among riotous eaters of flesh",
-      "suggested_fix": "استبدل «بين المتلفين أجسادهم» بـ«بين المفرطين في أكل اللحم»، مع إبقاء وسم الاقتباس والمرجع كما هما.",
-      "translation_quote": "لا تكن بين شَرّابي الخمر، بين المتلفين أجسادهم"
-    },
-    {
-      "location": "html، الفقرة الرابعة",
-      "severity": "minor",
-      "source_quote": "Maintaining weight loss is harder yet.",
-      "suggested_fix": "استبدل الجملة بـ«أما الحفاظ على فقدان الوزن وعدم استعادته فأصعب من ذلك.»",
-      "translation_quote": "أما الحفاظ على الوزن الذي خسرناه فأصعب من ذلك."
-    },
-    {
-      "location": "html، عنوان h3 الخاص بالطعام الحارق للدهون",
-      "severity": "minor",
-      "source_quote": "…You just need to eat ‘___’ fat burning food to lose weight!",
-      "suggested_fix": "أعد الفراغ الذي تشير إليه الفقرة التالية: «...كل ما تحتاج إليه هو تناول طعام «___» الحارق للدهون لإنقاص الوزن!»، مع الحفاظ على وسمي h3 وem.",
-      "translation_quote": "...كل ما تحتاج إليه هو تناول طعام «يحرق الدهون» لإنقاص الوزن!"
-    },
-    {
-      "location": "html، فقرة الكربوهيدرات الصحية وفقرة مثال استبدال الفطور",
-      "severity": "minor",
-      "source_quote": "A bowl of oatmeal … a glass of water and a bowl of oatmeal … the oatmeal is “burning fat”",
-      "suggested_fix": "استبدل «دقيق الشوفان» بـ«عصيدة الشوفان» في المواضع الثلاثة، لأن المقصود وجبة الشوفان المطبوخة لا الدقيق.",
-      "translation_quote": "وعاء من دقيق الشوفان … كأساً من الماء ووعاءً من دقيق الشوفان … دقيق الشوفان «يحرق الدهون»"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-11-06T18:01:11+00:00",
   "id": "b14e5c0160a1a24c3e83e6c60dd82ec6",
   "issue_id": "4e575f26-fabd-5104-ba0d-d54ca032653b",
   "language": "ara",
@@ -169,7 +160,7 @@
     }
   },
   "protected": false,
-  "quality_score": 94,
+  "quality_score": 99,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6.1-sol",
@@ -188,7 +179,7 @@
     "total_reserved_usd": 0.774082,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "e643aa29500591776446d855b5b97ade0f5810fdbdfe96e5ddfa615deab4a4eb",
   "translation_model_actual": "gpt-6.1-sol"
