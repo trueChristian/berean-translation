@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "translation.html, पहला अनुच्छेद",
+      "severity": "major",
+      "source_quote": "the woman said to me as I prepared to leave the exam room",
+      "suggested_fix": "“डॉ. वाल्ड्रन,” उस महिला ने मुझसे कहा, जब मैं जाँच-कक्ष से निकलने की तैयारी कर रहा था।",
+      "translation_quote": "परीक्षा-कक्ष से निकलने की तैयारी करते हुए उस महिला ने मुझसे कहा।"
+    },
+    {
+      "location": "translation.html, वसा जलाने वाले भोजन संबंधी खंड का अंतिम अनुच्छेद, दोनों स्थान",
+      "severity": "major",
+      "source_quote": "Celery, iceberg lettuce, and mushrooms all fall into this category. ... if you put peanut butter on the celery",
+      "suggested_fix": "दोनों स्थानों पर “अजवाइन” की जगह “सेलेरी” लिखें: “सेलेरी, आइसबर्ग सलाद-पत्ता और मशरूम…” तथा “अगर आप सेलेरी पर मूँगफली का मक्खन लगाएँ…”। अजवाइन और सेलेरी अलग खाद्य पदार्थ हैं।",
+      "translation_quote": "अजवाइन, आइसबर्ग सलाद-पत्ता और मशरूम इसी श्रेणी में आते हैं। ... अगर आप अजवाइन पर मूँगफली का मक्खन लगाएँ"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

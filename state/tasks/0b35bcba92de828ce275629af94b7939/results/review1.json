@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "c133ebfe-98c0-4043-8620-460f976f1f3f",
+    "response_id": "chatcmpl-EhCbEWEb03vXhpfVrvGKoSN36zIQs",
+    "usage": {
+      "completion_tokens": 400,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 48,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9423,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8320,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 9823
+    }
+  },
+  "received_at": "2026-11-06T11:44:53+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "translation.html, पहला अनुच्छेद",
+        "severity": "major",
+        "source_quote": "the woman said to me as I prepared to leave the exam room",
+        "suggested_fix": "“डॉ. वाल्ड्रन,” उस महिला ने मुझसे कहा, जब मैं जाँच-कक्ष से निकलने की तैयारी कर रहा था।",
+        "translation_quote": "परीक्षा-कक्ष से निकलने की तैयारी करते हुए उस महिला ने मुझसे कहा।"
+      },
+      {
+        "location": "translation.html, वसा जलाने वाले भोजन संबंधी खंड का अंतिम अनुच्छेद, दोनों स्थान",
+        "severity": "major",
+        "source_quote": "Celery, iceberg lettuce, and mushrooms all fall into this category. ... if you put peanut butter on the celery",
+        "suggested_fix": "दोनों स्थानों पर “अजवाइन” की जगह “सेलेरी” लिखें: “सेलेरी, आइसबर्ग सलाद-पत्ता और मशरूम…” तथा “अगर आप सेलेरी पर मूँगफली का मक्खन लगाएँ…”। अजवाइन और सेलेरी अलग खाद्य पदार्थ हैं।",
+        "translation_quote": "अजवाइन, आइसबर्ग सलाद-पत्ता और मशरूम इसी श्रेणी में आते हैं। ... अगर आप अजवाइन पर मूँगफली का मक्खन लगाएँ"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 94
+  }
+}
