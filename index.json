@@ -58129,12 +58129,12 @@
       "ai_notice_required": true,
       "direction": "ltr",
       "html": "content/kor/articles/903e4b58-b246-4ee3-85e7-eecf158a7a75.html",
-      "html_sha256": "e0ce6f928f9ea48829f94ab93a8405354a541a5d32b112b2d19ca08d687dfbce",
+      "html_sha256": "6ba81d1b9348af450025d8a059012fdfe9387f8f87a60868449c5c48bc0eb5ba",
       "human_reviewed": false,
       "id": "903e4b58-b246-4ee3-85e7-eecf158a7a75",
       "images": [
         {
-          "alt": "성인이 야외에서 어린 아이의 손을 잡고 걷고 있음",
+          "alt": "야외를 걷는 어린아이의 손을 잡고 있는 어른",
           "public_path": "/images/articles/903e4b58-b246-4ee3-85e7-eecf158a7a75-1.jpg"
         }
       ],
@@ -58142,16 +58142,16 @@
       "language": "kor",
       "language_tag": "ko",
       "metadata": "content/kor/articles/903e4b58-b246-4ee3-85e7-eecf158a7a75.json",
-      "metadata_sha256": "d0fab5b7c0e7fbc70d712cc96813f78ab7372f290f3f079f073b04e82c5fbded",
+      "metadata_sha256": "0a3f7925f99d5ddf2e142efdc782a62aa703847fea5c7a5fff89b30edf1a66ab",
       "provider": "OpenAI",
-      "review_model": "gpt-5-mini-2025-08-07",
-      "section": "Sister to Sister",
-      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
-      "source_translation_key": "bc655ca0e757a92869b0811d5a6de87a4ca48f1e4eef1923cd7135609b8dc379",
-      "status": "stale",
+      "review_model": "gpt-6.1-sol",
+      "section": "자매에서 자매에게",
+      "source_revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
+      "source_translation_key": "aca8415cfcf9e5554286626ac6bcaa5724f97b93dadbcdbbe3b6300ec48874e3",
+      "status": "ready",
       "subtitle": null,
-      "title": "기쁜 부르심",
-      "translation_model": "gpt-5-mini-2025-08-07"
+      "title": "기쁨으로 감당하는 소명",
+      "translation_model": "gpt-6.1-sol"
     },
     {
       "ai_notice_required": true,

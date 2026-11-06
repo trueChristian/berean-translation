@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": "e0ce6f928f9ea48829f94ab93a8405354a541a5d32b112b2d19ca08d687dfbce",
   "base_metadata_sha256": "d0fab5b7c0e7fbc70d712cc96813f78ab7372f290f3f079f073b04e82c5fbded",
-  "batch": "f4505faf012640b1b30e814ba6e0802b",
   "campaign": "auto-958f7e575c31b70d903a9c7ff5aafa631bc830d8f95582b2099beaaf0edc69c9",
   "created_at": "2026-11-06T10:53:38+00:00",
   "events": [
@@ -28,18 +27,31 @@
         },
         "total_tokens": 11345
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 59,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 27,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7567,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 6464,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 7626
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "HTML/metadata contract",
-      "severity": "critical",
-      "source_quote": "",
-      "suggested_fix": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[41]: source /article[1]/p[11]/em[1]/u[2] ('start', 'u', ()); translation /article[1]/p[11]/em[1] ('end', 'em')",
-      "translation_quote": ""
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-11-06T18:00:50+00:00",
   "id": "d9255ad6f06897bcaf4dfb7ff1f852c0",
   "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
   "language": "kor",
@@ -128,9 +140,11 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/ee1d1c4c726665ca5725eef036aae90f81e779ea0d47055f2cf908d0b809c75d.json",
   "stage": "review2",
   "stage_budget": {
@@ -144,7 +158,7 @@
     "total_reserved_usd": 0.578112,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "aca8415cfcf9e5554286626ac6bcaa5724f97b93dadbcdbbe3b6300ec48874e3",
   "translation_model_actual": "gpt-6.1-sol"
