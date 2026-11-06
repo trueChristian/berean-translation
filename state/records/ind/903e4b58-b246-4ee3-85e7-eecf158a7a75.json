@@ -25,10 +25,17 @@
       "event": "not_ready",
       "reason": "Final review failed; a recovery continuation must pass admission",
       "task": "ecfd9d8d0efd1d02698b57bbb52bccd0"
+    },
+    {
+      "at": "2026-11-06T03:07:42+00:00",
+      "campaign": "auto-50efab00e26daa3d3579f23846b22cf8735486463529fbecded4640f9b16cc77",
+      "event": "automatic_requested",
+      "previous_task": "ecfd9d8d0efd1d02698b57bbb52bccd0",
+      "task": "0aa5ccf4be8d825a88c539da07db84c3"
     }
   ],
   "language": "ind",
-  "latest_task": "ecfd9d8d0efd1d02698b57bbb52bccd0",
+  "latest_task": "0aa5ccf4be8d825a88c539da07db84c3",
   "published": {
     "html_path": "content/ind/articles/903e4b58-b246-4ee3-85e7-eecf158a7a75.html",
     "html_sha256": "a0a8113c6b3bc2814f4eae09e722d2950276e579a71d795b07a418f0d034b155",
