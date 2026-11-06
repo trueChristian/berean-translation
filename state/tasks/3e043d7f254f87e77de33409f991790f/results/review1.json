@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "bc4acf26-8f5a-4c5d-9e80-7810b23b4b08",
+    "response_id": "chatcmpl-EhLioNjhKQDdgQySUDrxMTRBOsyxi",
+    "usage": {
+      "completion_tokens": 875,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 631,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7945,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7942,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8820
+    }
+  },
+  "received_at": "2026-11-06T23:07:24+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Repeated throughout the paragraphs discussing “the flesh” (especially the paragraph beginning “Jesus said” and the following paragraph beginning “The flesh is flesh”)",
+        "severity": "major",
+        "source_quote": "“The flesh only thinks of itself” and “The flesh is flesh, and the spirit is spirit, and they are opposed to each other.”",
+        "suggested_fix": "Where “flesh” means the sinful human nature opposed to the Spirit, use a term such as “पापमय स्वभाव” or “शारीरिक स्वभाव” rather than “शरीर”; for example, “पापमय स्वभाव केवल अपने बारे में सोचता है” and “पापमय स्वभाव और आत्मा एक-दूसरे के विरोधी हैं।” Apply this distinction consistently in the surrounding discussion.",
+        "translation_quote": "“शरीर केवल अपने बारे में सोचता है” and “शरीर शरीर है, और आत्मा आत्मा है, और वे एक-दूसरे के विरोधी हैं।”"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 92
+  }
+}

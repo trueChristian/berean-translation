@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Repeated throughout the paragraphs discussing “the flesh” (especially the paragraph beginning “Jesus said” and the following paragraph beginning “The flesh is flesh”)",
+      "severity": "major",
+      "source_quote": "“The flesh only thinks of itself” and “The flesh is flesh, and the spirit is spirit, and they are opposed to each other.”",
+      "suggested_fix": "Where “flesh” means the sinful human nature opposed to the Spirit, use a term such as “पापमय स्वभाव” or “शारीरिक स्वभाव” rather than “शरीर”; for example, “पापमय स्वभाव केवल अपने बारे में सोचता है” and “पापमय स्वभाव और आत्मा एक-दूसरे के विरोधी हैं।” Apply this distinction consistently in the surrounding discussion.",
+      "translation_quote": "“शरीर केवल अपने बारे में सोचता है” and “शरीर शरीर है, और आत्मा आत्मा है, और वे एक-दूसरे के विरोधी हैं।”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
