@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Second stanza, final line",
+      "severity": "minor",
+      "source_quote": "As if thou walked on air.",
+      "suggested_fix": "som om du svävade fram.",
+      "translation_quote": "som om du vandrade på luft."
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

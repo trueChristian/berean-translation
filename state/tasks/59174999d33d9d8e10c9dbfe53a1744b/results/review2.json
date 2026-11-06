@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "6c57bf69-d7b5-43aa-8bca-13d34c7664fd",
+    "response_id": "chatcmpl-Eh6nMwdLX51wBvkzFys4rUsNLYVkk",
+    "usage": {
+      "completion_tokens": 532,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 453,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1866,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 763,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 2398
+    }
+  },
+  "received_at": "2026-11-06T10:48:52+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Second stanza, final line",
+        "severity": "minor",
+        "source_quote": "As if thou walked on air.",
+        "suggested_fix": "som om du svävade fram.",
+        "translation_quote": "som om du vandrade på luft."
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}

@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "7491abda9c3d4a56b5ec8223e5890d22",
   "campaign": "auto-5db7f484dba3c6e509e3fcb31aae8d609c90c883df55e82617a2cbb04405326d",
   "created_at": "2026-11-04T23:55:20+00:00",
   "events": [
@@ -68,18 +67,39 @@
         },
         "total_tokens": 2174
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 532,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 453,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 1866,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 763,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 2398
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "Tredje strofen, sista raden",
-      "severity": "major",
-      "source_quote": "This, nothing can destroy.",
-      "suggested_fix": "ingenting kan förstöra den.",
-      "translation_quote": "den kan ingenting förstöra."
+      "location": "Second stanza, final line",
+      "severity": "minor",
+      "source_quote": "As if thou walked on air.",
+      "suggested_fix": "som om du svävade fram.",
+      "translation_quote": "som om du vandrade på luft."
     }
   ],
+  "finished_at": "2026-11-06T10:48:52+00:00",
   "id": "59174999d33d9d8e10c9dbfe53a1744b",
   "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
   "language": "swe",
@@ -168,7 +188,7 @@
     }
   },
   "protected": false,
-  "quality_score": 93,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
@@ -188,7 +208,7 @@
     "total_reserved_usd": 0.085935,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "4deddfa3d35292dd8b7346a9588ef6e393981b43a05742af679adb2e81fd001c",
   "translation_model_actual": "gpt-6-luna"
