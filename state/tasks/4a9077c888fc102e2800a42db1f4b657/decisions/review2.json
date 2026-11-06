@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph 6, quoted article title",
+      "severity": "minor",
+      "source_quote": "“The Dangers of Ultra-processed Foods”",
+      "suggested_fix": "«Опасности ультрапереработанных продуктов»",
+      "translation_quote": "«Опасность ультраобработанных продуктов»"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

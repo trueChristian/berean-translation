@@ -77238,6 +77238,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/rus/articles/049f2e7d-675c-4dac-9584-5aefceb9b9c1.html",
+      "html_sha256": "a885b81c1ccf256f108b50f8e55046dead259f72178ba6c481c44383c48a9a36",
+      "human_reviewed": false,
+      "id": "049f2e7d-675c-4dac-9584-5aefceb9b9c1",
+      "images": [
+        {
+          "alt": "Бледно-розовый цветок и закрытый бутон.",
+          "public_path": "/images/articles/049f2e7d-675c-4dac-9584-5aefceb9b9c1-1.jpg"
+        }
+      ],
+      "issue_id": "103c93e0-6e9a-44f6-a6bc-377af8e08e38",
+      "language": "rus",
+      "language_tag": "ru",
+      "metadata": "content/rus/articles/049f2e7d-675c-4dac-9584-5aefceb9b9c1.json",
+      "metadata_sha256": "dc91a16c07958bea3977f2452384b1036f2058c9cd8f05abae3f9ca7c06a0ee2",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
+      "source_translation_key": "0fb584030db33dd2b72332a91a0b7c15fa746dd719ac5f16dd38c2251e56bee5",
+      "status": "ready",
+      "subtitle": null,
+      "title": "От редактора",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/rus/articles/0678981b-d0f9-4c28-970e-2617f9543c9b.html",
       "html_sha256": "b64f8291e5f0c082443861e0b59d55d84fa3aac6f3702373b2bd4b386fac2a0e",
       "human_reviewed": false,

@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "e29b1e16-9f3c-4947-a6f1-2af097cba591",
+    "response_id": "chatcmpl-EhMdP3lJnpZnmBpSh3GjOdsfgvAJ9",
+    "usage": {
+      "completion_tokens": 605,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3403,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2300,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 4008
+    }
+  },
+  "received_at": "2026-11-06T23:07:06+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph 6, quoted article title",
+        "severity": "minor",
+        "source_quote": "“The Dangers of Ultra-processed Foods”",
+        "suggested_fix": "«Опасности ультрапереработанных продуктов»",
+        "translation_quote": "«Опасность ультраобработанных продуктов»"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}

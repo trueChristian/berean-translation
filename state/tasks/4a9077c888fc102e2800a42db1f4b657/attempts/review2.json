@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-06T23:07:06+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph 6, quoted article title\",\"severity\":\"minor\",\"source_quote\":\"“The Dangers of Ultra-processed Foods”\",\"suggested_fix\":\"«Опасности ультрапереработанных продуктов»\",\"translation_quote\":\"«Опасность ультраобработанных продуктов»\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 394,
+    "content_evidence_truncated": false,
+    "content_sha256": "49f59aab6cd5eabb8cbc1c9e44e21179b30b59178162289c0f7bd08c265c0190",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 605,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3403,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2300,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 4008
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}
