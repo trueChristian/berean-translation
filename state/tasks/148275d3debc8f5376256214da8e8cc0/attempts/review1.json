@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-06T23:07:28+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"html: Überschrift „… Verhungern ist der einzige Weg …“ und unmittelbar folgender Absatz\",\n      \"severity\": \"major\",\n      \"source_quote\": \"…Starvation is the only way to lose weight. / Starvation does result in weight loss\",\n      \"suggested_fix\": \"In der Überschrift „… Hungern ist der einzige Weg, Gewicht zu verlieren.“ und im folgenden Absatz „Hungern führt zwar zu Gewichtsverlust“ schreiben. „Verhungern“ bedeutet, an Nahrungsmangel zu sterben, während hier anhaltender Nahrungsentzug gemeint ist.\",\n      \"translation_quote\": \"… Verhungern ist der einzige Weg, Gewicht zu verlieren. / Verhungern führt zwar zu Gewichtsverlust\"\n    },\n    {\n      \"location\": \"html: vierter Absatz, letzter Satz\",\n      \"severity\": \"major\",\n      \"source_quote\": \"Maintaining weight loss is harder yet.\",\n      \"suggested_fix\": \"Den Satz ersetzen durch: „Das nach dem Abnehmen erreichte Gewicht zu halten, ist noch schwieriger.“\",\n      \"translation_quote\": \"Das Gewicht zu halten, das man verloren hat, ist noch schwieriger.\"\n    },\n    {\n      \"location\": \"html: letzter Absatz unter „… Fettfreie und Diätprodukte sind der Schlüssel zur Gewichtsabnahme.“\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"This is what will lead to a better metabolism and not simply getting reduced fat versions of our favorite foods.\",\n      \"suggested_fix\": \"Den letzten Satz ersetzen durch: „Das führt zu einem besseren Stoffwechsel – nicht der bloße Kauf fettreduzierter Varianten unserer Lieblingsspeisen.“\",\n      \"translation_quote\": \"Das führt zu einem besseren Stoffwechsel und nicht bloß dazu, fettreduzierte Varianten unserer Lieblingsspeisen zu essen.\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": false,\n  \"score\": 94\n}",
+    "content_bytes": 1812,
+    "content_evidence_truncated": false,
+    "content_sha256": "223998a4d4df84480b9c839414e6ce84b9f1363b83089165eb465e34c97a1864",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 529,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 95,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8471,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 8468
+      },
+      "total_tokens": 9000
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}

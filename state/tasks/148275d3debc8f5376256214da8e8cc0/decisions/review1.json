@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "html: Überschrift „… Verhungern ist der einzige Weg …“ und unmittelbar folgender Absatz",
+      "severity": "major",
+      "source_quote": "…Starvation is the only way to lose weight. / Starvation does result in weight loss",
+      "suggested_fix": "In der Überschrift „… Hungern ist der einzige Weg, Gewicht zu verlieren.“ und im folgenden Absatz „Hungern führt zwar zu Gewichtsverlust“ schreiben. „Verhungern“ bedeutet, an Nahrungsmangel zu sterben, während hier anhaltender Nahrungsentzug gemeint ist.",
+      "translation_quote": "… Verhungern ist der einzige Weg, Gewicht zu verlieren. / Verhungern führt zwar zu Gewichtsverlust"
+    },
+    {
+      "location": "html: vierter Absatz, letzter Satz",
+      "severity": "major",
+      "source_quote": "Maintaining weight loss is harder yet.",
+      "suggested_fix": "Den Satz ersetzen durch: „Das nach dem Abnehmen erreichte Gewicht zu halten, ist noch schwieriger.“",
+      "translation_quote": "Das Gewicht zu halten, das man verloren hat, ist noch schwieriger."
+    },
+    {
+      "location": "html: letzter Absatz unter „… Fettfreie und Diätprodukte sind der Schlüssel zur Gewichtsabnahme.“",
+      "severity": "minor",
+      "source_quote": "This is what will lead to a better metabolism and not simply getting reduced fat versions of our favorite foods.",
+      "suggested_fix": "Den letzten Satz ersetzen durch: „Das führt zu einem besseren Stoffwechsel – nicht der bloße Kauf fettreduzierter Varianten unserer Lieblingsspeisen.“",
+      "translation_quote": "Das führt zu einem besseren Stoffwechsel und nicht bloß dazu, fettreduzierte Varianten unserer Lieblingsspeisen zu essen."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
