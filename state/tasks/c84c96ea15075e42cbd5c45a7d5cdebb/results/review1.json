@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "e5f42206-79f1-456d-9383-58dd05084acb",
+    "response_id": "chatcmpl-EhNeNx1yf7ramUuO2FBwTt9tfBqwk",
+    "usage": {
+      "completion_tokens": 387,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 104,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8680,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7577,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 9067
+    }
+  },
+  "received_at": "2026-11-06T23:36:14+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "html, citazione di 1 Corinzi 3:16-17",
+        "severity": "major",
+        "source_quote": "If any man defile the temple of God, him shall God destroy",
+        "suggested_fix": "Sostituire «Se qualcuno distrugge il tempio di Dio» con «Se qualcuno profana il tempio di Dio», mantenendo invariato il resto della citazione.",
+        "translation_quote": "Se qualcuno distrugge il tempio di Dio, Dio distruggerà lui"
+      },
+      {
+        "location": "html, citazione di Proverbi 23:20-21",
+        "severity": "minor",
+        "source_quote": "Be not among winebibbers; among riotous eaters of flesh",
+        "suggested_fix": "Sostituire «né tra i ghiottoni» con «né tra quelli che si abbuffano di carne», per conservare il riferimento esplicito alla carne.",
+        "translation_quote": "Non stare tra gli ubriaconi, né tra i ghiottoni"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 94
+  }
+}

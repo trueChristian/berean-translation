@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "html, citazione di 1 Corinzi 3:16-17",
+      "severity": "major",
+      "source_quote": "If any man defile the temple of God, him shall God destroy",
+      "suggested_fix": "Sostituire «Se qualcuno distrugge il tempio di Dio» con «Se qualcuno profana il tempio di Dio», mantenendo invariato il resto della citazione.",
+      "translation_quote": "Se qualcuno distrugge il tempio di Dio, Dio distruggerà lui"
+    },
+    {
+      "location": "html, citazione di Proverbi 23:20-21",
+      "severity": "minor",
+      "source_quote": "Be not among winebibbers; among riotous eaters of flesh",
+      "suggested_fix": "Sostituire «né tra i ghiottoni» con «né tra quelli che si abbuffano di carne», per conservare il riferimento esplicito alla carne.",
+      "translation_quote": "Non stare tra gli ubriaconi, né tra i ghiottoni"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

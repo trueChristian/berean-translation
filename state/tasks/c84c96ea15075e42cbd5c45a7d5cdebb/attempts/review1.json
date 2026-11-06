@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-06T23:36:14+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"html, citazione di 1 Corinzi 3:16-17\",\n      \"severity\": \"major\",\n      \"source_quote\": \"If any man defile the temple of God, him shall God destroy\",\n      \"suggested_fix\": \"Sostituire «Se qualcuno distrugge il tempio di Dio» con «Se qualcuno profana il tempio di Dio», mantenendo invariato il resto della citazione.\",\n      \"translation_quote\": \"Se qualcuno distrugge il tempio di Dio, Dio distruggerà lui\"\n    },\n    {\n      \"location\": \"html, citazione di Proverbi 23:20-21\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"Be not among winebibbers; among riotous eaters of flesh\",\n      \"suggested_fix\": \"Sostituire «né tra i ghiottoni» con «né tra quelli che si abbuffano di carne», per conservare il riferimento esplicito alla carne.\",\n      \"translation_quote\": \"Non stare tra gli ubriaconi, né tra i ghiottoni\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": false,\n  \"score\": 94\n}",
+    "content_bytes": 950,
+    "content_evidence_truncated": false,
+    "content_sha256": "7a7f3c75085586b311e90e91c87e081affb644e02f47f05a18aa5bc5593ed4bd",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 387,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 104,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8680,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7577,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 9067
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}
