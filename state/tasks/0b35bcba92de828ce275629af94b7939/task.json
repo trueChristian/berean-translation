@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "c81d0911753a4c1c9c60a0ec725a550b",
   "campaign": "auto-bb3d8452c56732f6f2cb15ca6c40b61ca8d7a19a5438a1bdfec5f9e61ec9894a",
   "created_at": "2026-11-06T10:54:15+00:00",
   "events": [
@@ -48,25 +47,31 @@
         },
         "total_tokens": 14609
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 75,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 43,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9457,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 9454,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9532
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "translation.html, पहला अनुच्छेद",
-      "severity": "major",
-      "source_quote": "the woman said to me as I prepared to leave the exam room",
-      "suggested_fix": "“डॉ. वाल्ड्रन,” उस महिला ने मुझसे कहा, जब मैं जाँच-कक्ष से निकलने की तैयारी कर रहा था।",
-      "translation_quote": "परीक्षा-कक्ष से निकलने की तैयारी करते हुए उस महिला ने मुझसे कहा।"
-    },
-    {
-      "location": "translation.html, वसा जलाने वाले भोजन संबंधी खंड का अंतिम अनुच्छेद, दोनों स्थान",
-      "severity": "major",
-      "source_quote": "Celery, iceberg lettuce, and mushrooms all fall into this category. ... if you put peanut butter on the celery",
-      "suggested_fix": "दोनों स्थानों पर “अजवाइन” की जगह “सेलेरी” लिखें: “सेलेरी, आइसबर्ग सलाद-पत्ता और मशरूम…” तथा “अगर आप सेलेरी पर मूँगफली का मक्खन लगाएँ…”। अजवाइन और सेलेरी अलग खाद्य पदार्थ हैं।",
-      "translation_quote": "अजवाइन, आइसबर्ग सलाद-पत्ता और मशरूम इसी श्रेणी में आते हैं। ... अगर आप अजवाइन पर मूँगफली का मक्खन लगाएँ"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-11-06T23:08:12+00:00",
   "id": "0b35bcba92de828ce275629af94b7939",
   "issue_id": "4e575f26-fabd-5104-ba0d-d54ca032653b",
   "language": "hin",
@@ -155,7 +160,7 @@
     }
   },
   "protected": false,
-  "quality_score": 94,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6.1-sol",
@@ -174,7 +179,7 @@
     "total_reserved_usd": 0.81053,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "e643aa29500591776446d855b5b97ade0f5810fdbdfe96e5ddfa615deab4a4eb",
   "translation_model_actual": "gpt-6.1-sol"
