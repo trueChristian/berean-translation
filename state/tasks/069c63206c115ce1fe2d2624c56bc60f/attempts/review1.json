@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-06T11:44:56+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"html, h3 sur les aliments brûle-graisse et paragraphe suivant\",\"severity\":\"minor\",\"source_quote\":\"…You just need to eat ‘___’ fat burning food to lose weight! / I specifically left the food blank above\",\"suggested_fix\":\"Dans le h3, remplacer « tel ou tel aliment brûle-graisse » par « l’aliment brûle-graisse “___” » afin de conserver le blanc auquel renvoie le paragraphe suivant, sans modifier les balises.\",\"translation_quote\":\"… Il suffit de manger tel ou tel aliment brûle-graisse pour perdre du poids ! / J’ai volontairement laissé en blanc l’aliment ci-dessus\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 673,
+    "content_evidence_truncated": false,
+    "content_sha256": "565c664e8db67441029bbec6902592a99be3a00dd8c49ed245a7ec3d3e51fbca",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 246,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 70,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8619,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7516,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 8865
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}

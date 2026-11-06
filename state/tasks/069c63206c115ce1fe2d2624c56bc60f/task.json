@@ -5,11 +5,41 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "f12f47175edf41f080e29380bbe7e44b",
   "campaign": "auto-bf333594b72aad8fcecdbc84130b3e70a58c350d4169218032a361d324b49ed2",
   "created_at": "2026-11-06T11:33:53+00:00",
-  "events": [],
-  "findings": [],
+  "events": [
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 246,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 70,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8619,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 7516,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 8865
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "html, h3 sur les aliments brûle-graisse et paragraphe suivant",
+      "severity": "minor",
+      "source_quote": "…You just need to eat ‘___’ fat burning food to lose weight! / I specifically left the food blank above",
+      "suggested_fix": "Dans le h3, remplacer « tel ou tel aliment brûle-graisse » par « l’aliment brûle-graisse “___” » afin de conserver le blanc auquel renvoie le paragraphe suivant, sans modifier les balises.",
+      "translation_quote": "… Il suffit de manger tel ou tel aliment brûle-graisse pour perdre du poids ! / J’ai volontairement laissé en blanc l’aliment ci-dessus"
+    }
+  ],
+  "finished_at": "2026-11-06T11:44:56+00:00",
   "id": "069c63206c115ce1fe2d2624c56bc60f",
   "issue_id": "4e575f26-fabd-5104-ba0d-d54ca032653b",
   "language": "fra",
@@ -98,9 +128,11 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/ac8fa1e027a9ec819bd2ef1323c6f1c6bd34a71f9ab24cb0b22ba5416b1909ae.json",
   "stage": "review1",
   "stage_budget": {
@@ -115,7 +147,7 @@
     "total_reserved_usd": 0.765467,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 0,
   "translation_key": "e643aa29500591776446d855b5b97ade0f5810fdbdfe96e5ddfa615deab4a4eb",
   "translation_model_actual": "gpt-6-luna"

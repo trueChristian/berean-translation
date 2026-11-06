@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "html, h3 sur les aliments brûle-graisse et paragraphe suivant",
+      "severity": "minor",
+      "source_quote": "…You just need to eat ‘___’ fat burning food to lose weight! / I specifically left the food blank above",
+      "suggested_fix": "Dans le h3, remplacer « tel ou tel aliment brûle-graisse » par « l’aliment brûle-graisse “___” » afin de conserver le blanc auquel renvoie le paragraphe suivant, sans modifier les balises.",
+      "translation_quote": "… Il suffit de manger tel ou tel aliment brûle-graisse pour perdre du poids ! / J’ai volontairement laissé en blanc l’aliment ci-dessus"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}
