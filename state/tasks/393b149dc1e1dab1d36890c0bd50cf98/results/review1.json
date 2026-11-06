@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "c3c846ea-6163-43db-883f-cb8550ebf060",
+    "response_id": "chatcmpl-Eh7UELSHpj9eK2Zx9taZU4yjXSH3R",
+    "usage": {
+      "completion_tokens": 598,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 509,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3492,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2389,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 4090
+    }
+  },
+  "received_at": "2026-11-06T10:50:32+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Sitat fra Ordspråkene 3:6",
+        "severity": "minor",
+        "source_quote": "In all thy ways acknowledge him",
+        "suggested_fix": "Kjenn ham på alle dine veier",
+        "translation_quote": "Tenk på ham på alle dine veier"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Sitat fra Ordspråkene 3:6",
+      "severity": "minor",
+      "source_quote": "In all thy ways acknowledge him",
+      "suggested_fix": "Kjenn ham på alle dine veier",
+      "translation_quote": "Tenk på ham på alle dine veier"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}
