@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "第2段，引用《但以理书》2:21处",
+      "severity": "major",
+      "source_quote": "“changeth the times and the seasons.”",
+      "suggested_fix": "将引文改为“改变时候和季节”，准确表达 times and seasons。",
+      "translation_quote": "“改变时候、日期”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

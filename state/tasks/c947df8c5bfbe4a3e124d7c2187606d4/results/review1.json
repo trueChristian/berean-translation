@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "e91b1415-65bc-46f7-ba81-ec3217fe3004",
+    "response_id": "chatcmpl-Eh7SOB5JRdCVOte0Y3X88w5uqhHhc",
+    "usage": {
+      "completion_tokens": 630,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 523,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3393,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2290,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 4023
+    }
+  },
+  "received_at": "2026-11-06T10:49:53+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "第2段，引用《但以理书》2:21处",
+        "severity": "major",
+        "source_quote": "“changeth the times and the seasons.”",
+        "suggested_fix": "将引文改为“改变时候和季节”，准确表达 times and seasons。",
+        "translation_quote": "“改变时候、日期”"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 96
+  }
+}
