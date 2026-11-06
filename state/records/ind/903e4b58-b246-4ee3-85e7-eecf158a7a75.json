@@ -19,6 +19,12 @@
       "event": "automatic_requested",
       "previous_task": "818df4eefa548ef28cebc5379ebf1c1f",
       "task": "ecfd9d8d0efd1d02698b57bbb52bccd0"
+    },
+    {
+      "at": "2026-11-06T03:03:52+00:00",
+      "event": "not_ready",
+      "reason": "Final review failed; a recovery continuation must pass admission",
+      "task": "ecfd9d8d0efd1d02698b57bbb52bccd0"
     }
   ],
   "language": "ind",

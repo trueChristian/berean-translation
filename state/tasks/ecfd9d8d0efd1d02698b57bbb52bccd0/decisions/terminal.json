@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Paragraf yang mengutip Mazmur 127:3",
+      "severity": "major",
+      "source_quote": "“children are an heritage of the LORD”",
+      "suggested_fix": "Ganti “anak-anak lelaki” dengan “anak-anak” agar kutipan mempertahankan makna umum “children” dalam teks sumber.",
+      "translation_quote": "“anak-anak lelaki adalah milik pusaka dari TUHAN”"
+    },
+    {
+      "location": "Paragraf yang mengutip Mazmur 127:3-5",
+      "severity": "major",
+      "source_quote": "“children are an heritage of the LORD”",
+      "suggested_fix": "Pada kedua kemunculan dalam kutipan ini, ganti “anak-anak lelaki” dengan “anak-anak” agar makna umum “children” tetap terjaga.",
+      "translation_quote": "“anak-anak lelaki adalah milik pusaka dari TUHAN”"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; a recovery continuation must pass admission",
+  "stage": "terminal"
+}

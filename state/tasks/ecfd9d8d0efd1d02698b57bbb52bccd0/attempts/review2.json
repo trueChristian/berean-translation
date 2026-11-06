@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-06T03:03:52+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraf yang mengutip Mazmur 127:3\",\"severity\":\"major\",\"source_quote\":\"“children are an heritage of the LORD”\",\"suggested_fix\":\"Ganti “anak-anak lelaki” dengan “anak-anak” agar kutipan mempertahankan makna umum “children” dalam teks sumber.\",\"translation_quote\":\"“anak-anak lelaki adalah milik pusaka dari TUHAN”\"},{\"location\":\"Paragraf yang mengutip Mazmur 127:3-5\",\"severity\":\"major\",\"source_quote\":\"“children are an heritage of the LORD”\",\"suggested_fix\":\"Pada kedua kemunculan dalam kutipan ini, ganti “anak-anak lelaki” dengan “anak-anak” agar makna umum “children” tetap terjaga.\",\"translation_quote\":\"“anak-anak lelaki adalah milik pusaka dari TUHAN”\"}],\"findings_complete\":true,\"passed\":false,\"score\":92}",
+    "content_bytes": 779,
+    "content_evidence_truncated": false,
+    "content_sha256": "640e0ad9991f501c54c271d2a2fa132236f03cfd7fc3dba42beff3c8bca41c3f",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 715,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7127,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7124,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7842
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review2",
+  "translation_attempts": 2
+}

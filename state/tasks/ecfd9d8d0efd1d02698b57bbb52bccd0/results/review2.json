@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "3b7204e5-76ac-4767-80f0-46f4a400bf5d",
+    "response_id": "chatcmpl-Eh4JjEO6nfspnVSlf9PH8U4agRpU8",
+    "usage": {
+      "completion_tokens": 715,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7127,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7124,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7842
+    }
+  },
+  "received_at": "2026-11-06T03:03:52+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraf yang mengutip Mazmur 127:3",
+        "severity": "major",
+        "source_quote": "“children are an heritage of the LORD”",
+        "suggested_fix": "Ganti “anak-anak lelaki” dengan “anak-anak” agar kutipan mempertahankan makna umum “children” dalam teks sumber.",
+        "translation_quote": "“anak-anak lelaki adalah milik pusaka dari TUHAN”"
+      },
+      {
+        "location": "Paragraf yang mengutip Mazmur 127:3-5",
+        "severity": "major",
+        "source_quote": "“children are an heritage of the LORD”",
+        "suggested_fix": "Pada kedua kemunculan dalam kutipan ini, ganti “anak-anak lelaki” dengan “anak-anak” agar makna umum “children” tetap terjaga.",
+        "translation_quote": "“anak-anak lelaki adalah milik pusaka dari TUHAN”"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 92
+  }
+}
