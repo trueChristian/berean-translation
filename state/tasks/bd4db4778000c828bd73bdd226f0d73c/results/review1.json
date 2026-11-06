@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "e9b4df22-8422-4c5e-acb9-118afaecfa86",
+    "response_id": "chatcmpl-Eh76kBv8rhOSqLBi9RlHiEKtrV3cU",
+    "usage": {
+      "completion_tokens": 578,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 455,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 12925,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 11822,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 13503
+    }
+  },
+  "received_at": "2026-11-06T10:48:46+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Section “11. ΖΗΛΟΣ”",
+        "severity": "major",
+        "source_quote": "That for which we are most zealous, we worship as God.",
+        "suggested_fix": "Για εκείνο για το οποίο δείχνουμε τον μεγαλύτερο ζήλο, το λατρεύουμε ως Θεό.",
+        "translation_quote": "Για εκείνο για το οποίο δείχνουμε τον μεγαλύτερο ζήλο, λατρεύουμε τον Θεό."
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 94
+  }
+}

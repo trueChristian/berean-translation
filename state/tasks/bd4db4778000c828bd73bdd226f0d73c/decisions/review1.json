@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Section “11. ΖΗΛΟΣ”",
+      "severity": "major",
+      "source_quote": "That for which we are most zealous, we worship as God.",
+      "suggested_fix": "Για εκείνο για το οποίο δείχνουμε τον μεγαλύτερο ζήλο, το λατρεύουμε ως Θεό.",
+      "translation_quote": "Για εκείνο για το οποίο δείχνουμε τον μεγαλύτερο ζήλο, λατρεύουμε τον Θεό."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
