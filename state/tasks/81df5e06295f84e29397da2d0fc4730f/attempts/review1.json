@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-06T02:49:38+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"html: ‘우리의 독특한 성품’ 아래 두 번째 문단\",\"severity\":\"major\",\"source_quote\":\"Live sparingly and you shall hear sparingly, though you be listening to an angel from heaven. Live nobly and you will hear nobly\",\"suggested_fix\":\"‘검소하게 살면 듣는 것도 빈약해질 것입니다’를 ‘빈약한 삶을 살면 듣는 것도 빈약해질 것입니다’로 수정하여, 검소함이 아니라 삶의 내적 빈약함을 가리키도록 하십시오.\",\"translation_quote\":\"검소하게 살면 듣는 것도 빈약해질 것입니다. 하늘에서 온 천사의 말을 듣고 있더라도 말입니다. 고결하게 살면 듣는 것도 고결해질 것입니다.\"}],\"findings_complete\":true,\"passed\":false,\"score\":94}",
+    "content_bytes": 775,
+    "content_evidence_truncated": false,
+    "content_sha256": "0b55b194c37f4bd20daa2b33b3109f682a6953f62dbeb64a3f314993f202da8f",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 317,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 121,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9095,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7992,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 9412
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}
