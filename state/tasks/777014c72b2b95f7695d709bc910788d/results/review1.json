@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "3b8e289a-8449-4ea2-9347-a7bcc489222f",
+    "response_id": "chatcmpl-EhHqashzFkMfxkuYFPF08EAbTmMak",
+    "usage": {
+      "completion_tokens": 640,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 481,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7468,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6365,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 8108
+    }
+  },
+  "received_at": "2026-11-06T18:00:06+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraf setelah judul “Kelahiran baru”",
+        "severity": "major",
+        "source_quote": "“This new birth is not a slow change. It takes years, decades, or even generations.”",
+        "suggested_fix": "Pertahankan kedua pernyataan sumber, misalnya: “Kelahiran baru ini bukanlah perubahan yang lambat. Prosesnya membutuhkan waktu bertahun-tahun, puluhan tahun, atau bahkan beberapa generasi.”",
+        "translation_quote": "“Kelahiran baru ini bukanlah perubahan yang berlangsung perlahan selama bertahun-tahun, puluhan tahun, atau bahkan beberapa generasi.”"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 91
+  }
+}

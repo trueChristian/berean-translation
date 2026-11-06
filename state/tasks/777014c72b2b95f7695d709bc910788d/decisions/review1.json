@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraf setelah judul “Kelahiran baru”",
+      "severity": "major",
+      "source_quote": "“This new birth is not a slow change. It takes years, decades, or even generations.”",
+      "suggested_fix": "Pertahankan kedua pernyataan sumber, misalnya: “Kelahiran baru ini bukanlah perubahan yang lambat. Prosesnya membutuhkan waktu bertahun-tahun, puluhan tahun, atau bahkan beberapa generasi.”",
+      "translation_quote": "“Kelahiran baru ini bukanlah perubahan yang berlangsung perlahan selama bertahun-tahun, puluhan tahun, atau bahkan beberapa generasi.”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

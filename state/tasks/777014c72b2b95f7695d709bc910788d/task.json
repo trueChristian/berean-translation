@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "44d0ffb330374f3f92d6962ec6399e85",
   "campaign": "auto-4024e8da968856ce913b5d3dccdc9e49017b2379ff4eaa251d116e7673198e21",
   "created_at": "2026-11-06T11:18:47+00:00",
   "events": [
@@ -28,10 +27,38 @@
         },
         "total_tokens": 7114
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 640,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 481,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7468,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 6365,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 8108
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "Paragraf setelah judul “Kelahiran baru”",
+      "severity": "major",
+      "source_quote": "“This new birth is not a slow change. It takes years, decades, or even generations.”",
+      "suggested_fix": "Pertahankan kedua pernyataan sumber, misalnya: “Kelahiran baru ini bukanlah perubahan yang lambat. Prosesnya membutuhkan waktu bertahun-tahun, puluhan tahun, atau bahkan beberapa generasi.”",
+      "translation_quote": "“Kelahiran baru ini bukanlah perubahan yang berlangsung perlahan selama bertahun-tahun, puluhan tahun, atau bahkan beberapa generasi.”"
+    }
+  ],
   "id": "777014c72b2b95f7695d709bc910788d",
   "issue_id": "103c93e0-6e9a-44f6-a6bc-377af8e08e38",
   "language": "ind",
@@ -120,11 +147,13 @@
     }
   },
   "protected": false,
+  "quality_score": 91,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/a108a3b6af0fef7d2f032338daceade4985b65739ae7195250fd552638ab5431.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "translate",
     "max_candidate_bytes": 120000,
@@ -138,7 +167,7 @@
     "total_reserved_usd": 0.089331,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "0d016e3d15af155742e3fc7945ea9e376978e0f79b04bfc82e552feeff6bb6b0",
   "translation_model_actual": "gpt-6-luna"
