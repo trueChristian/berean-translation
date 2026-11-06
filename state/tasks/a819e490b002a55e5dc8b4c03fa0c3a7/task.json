@@ -5,11 +5,41 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "954922df60114e219157517033f01e3a",
   "campaign": "auto-35a19ddb9b06cf82eaf2e29bd5c74a15eccbbd19fcbbcd4188d586efc2ee6f78",
   "created_at": "2026-11-06T02:24:21+00:00",
-  "events": [],
-  "findings": [],
+  "events": [
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 258,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 151,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8794,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8791,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9052
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "translation.html: h2 «לבבות כבדים»",
+      "severity": "minor",
+      "source_quote": "Fat Hearts",
+      "suggested_fix": "החליפו את הכותרת ב־«לבבות שמנים», כדי לשמר את דימוי השומן שבציטוט מישעיהו ובהמשך המאמר.",
+      "translation_quote": "לבבות כבדים"
+    }
+  ],
+  "finished_at": "2026-11-06T02:49:25+00:00",
   "id": "a819e490b002a55e5dc8b4c03fa0c3a7",
   "issue_id": "4e575f26-fabd-5104-ba0d-d54ca032653b",
   "language": "heb",
@@ -98,9 +128,11 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/28ef4175d9682ec11c356de3b1c8d9c4732e965780598aa940518ed0ccc01aee.json",
   "stage": "review1",
   "stage_budget": {
@@ -115,7 +147,7 @@
     "total_reserved_usd": 0.768825,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 0,
   "translation_key": "2ab4f83b970977b517b8c5966e0879530863628afa0c94a3bb7186e69daacb25",
   "translation_model_actual": "gpt-6-luna"

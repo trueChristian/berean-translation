@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "translation.html: h2 «לבבות כבדים»",
+      "severity": "minor",
+      "source_quote": "Fat Hearts",
+      "suggested_fix": "החליפו את הכותרת ב־«לבבות שמנים», כדי לשמר את דימוי השומן שבציטוט מישעיהו ובהמשך המאמר.",
+      "translation_quote": "לבבות כבדים"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

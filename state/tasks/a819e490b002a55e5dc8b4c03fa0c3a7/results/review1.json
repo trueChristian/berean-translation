@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "f3469a87-04c6-4160-ba1b-91494116858b",
+    "response_id": "chatcmpl-Eh4AaOhfoASMFksjNlsId5Pvj5iZp",
+    "usage": {
+      "completion_tokens": 258,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 151,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8794,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8791,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9052
+    }
+  },
+  "received_at": "2026-11-06T02:49:25+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "translation.html: h2 «לבבות כבדים»",
+        "severity": "minor",
+        "source_quote": "Fat Hearts",
+        "suggested_fix": "החליפו את הכותרת ב־«לבבות שמנים», כדי לשמר את דימוי השומן שבציטוט מישעיהו ובהמשך המאמר.",
+        "translation_quote": "לבבות כבדים"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}
