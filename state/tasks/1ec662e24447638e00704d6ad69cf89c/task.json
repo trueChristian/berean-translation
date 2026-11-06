@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "853285b732c943d39179e79795dea448",
   "campaign": "auto-e650e33372b1eaf6bbb222d6a22fadfbae44681c35c832cf481e32aee795c50d",
   "created_at": "2026-11-05T23:47:12+00:00",
   "events": [
@@ -48,18 +47,31 @@
         },
         "total_tokens": 13713
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 85,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 53,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9071,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 7968,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 9156
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "html: nukuu ya Isaya 6:9-10 chini ya kichwa “Mioyo Mizito”",
-      "severity": "major",
-      "source_quote": "Make the heart of this people fat, and make their ears heavy, and shut their eyes",
-      "suggested_fix": "Badilisha “na uzitoe masikio yao” kuwa “na uyafanye masikio yao kuwa mazito”, ukihifadhi muundo uliopo wa HTML.",
-      "translation_quote": "Uifanye mioyo ya watu hawa kuwa migumu, na uzitoe masikio yao, na uyafumbe macho yao"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-11-06T03:05:15+00:00",
   "id": "1ec662e24447638e00704d6ad69cf89c",
   "issue_id": "4e575f26-fabd-5104-ba0d-d54ca032653b",
   "language": "swa",
@@ -148,7 +160,7 @@
     }
   },
   "protected": false,
-  "quality_score": 94,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6.1-sol",
@@ -167,7 +179,7 @@
     "total_reserved_usd": 0.758781,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "2ab4f83b970977b517b8c5966e0879530863628afa0c94a3bb7186e69daacb25",
   "translation_model_actual": "gpt-6.1-sol"

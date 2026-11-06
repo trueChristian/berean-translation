@@ -89394,6 +89394,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/swa/articles/93f83966-049f-4767-8fe5-497ec16dad40.html",
+      "html_sha256": "6455a943a4cfca289c3d3d556751ddb2dc7eef70b2435366d5c1924045dad101",
+      "human_reviewed": false,
+      "id": "93f83966-049f-4767-8fe5-497ec16dad40",
+      "images": [
+        {
+          "alt": "Yesu akitembea na wanaume wawili kwenye barabara ya kwenda Emau",
+          "public_path": "/images/articles/93f83966-049f-4767-8fe5-497ec16dad40-1.jpg"
+        }
+      ],
+      "issue_id": "4e575f26-fabd-5104-ba0d-d54ca032653b",
+      "language": "swa",
+      "language_tag": "sw",
+      "metadata": "content/swa/articles/93f83966-049f-4767-8fe5-497ec16dad40.json",
+      "metadata_sha256": "0d0acd42311079e3f447303c579b2d78c500ac934cab4637392eff7dd6170d8e",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "Mafundisho ya Biblia",
+      "source_revision": "22388745ad7f149609e65f5e28cfcc1257cd689e",
+      "source_translation_key": "2ab4f83b970977b517b8c5966e0879530863628afa0c94a3bb7186e69daacb25",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Aliye na Masikio ya Kusikia…",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/swa/articles/94ef8ae0-ec29-4ca5-870a-4c3e33abcfe6.html",
       "html_sha256": "f1d1b30dc925d4695daf4fa9901496837a914cb533a762094d0c09c2f4f53998",
       "human_reviewed": false,
