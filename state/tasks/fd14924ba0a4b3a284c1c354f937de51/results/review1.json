@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "390b8f01-5fea-4dc2-822e-230d5034fe57",
+    "response_id": "chatcmpl-Eh4SrNJBdoQcDoXjDI9ac6YS77xSL",
+    "usage": {
+      "completion_tokens": 611,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 502,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1973,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 870,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 2584
+    }
+  },
+  "received_at": "2026-11-06T03:05:34+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "First stanza, second line",
+        "severity": "minor",
+        "source_quote": "Some heavy weight that feign would hinder thee",
+        "suggested_fix": "Κάποιο βαρύ φορτίο που θα ήθελε να σε εμποδίσει",
+        "translation_quote": "Κάποιο βαρύ φορτίο που θαρρείς πως σε εμποδίζει"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}
