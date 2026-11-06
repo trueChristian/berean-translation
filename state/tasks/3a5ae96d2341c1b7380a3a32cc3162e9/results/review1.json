@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "285b8f64-89e5-4d34-8095-d103445a5dda",
+    "response_id": "chatcmpl-Eh4QM0EY2McrZcWWiXVsB9HqvhBAL",
+    "usage": {
+      "completion_tokens": 216,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 72,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2374,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2371,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2590
+    }
+  },
+  "received_at": "2026-11-06T03:05:11+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "html, div.poem, третья строфа, третья строка",
+        "severity": "major",
+        "source_quote": "Those who yield are those who fall,",
+        "suggested_fix": "Заменить строку на «Кто поддаётся, тот и падает,» с сохранением тега <br>.",
+        "translation_quote": "Кто уступил, тот падает в забвенье,"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 94
+  }
+}

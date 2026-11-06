@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "html, div.poem, третья строфа, третья строка",
+      "severity": "major",
+      "source_quote": "Those who yield are those who fall,",
+      "suggested_fix": "Заменить строку на «Кто поддаётся, тот и падает,» с сохранением тега <br>.",
+      "translation_quote": "Кто уступил, тот падает в забвенье,"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

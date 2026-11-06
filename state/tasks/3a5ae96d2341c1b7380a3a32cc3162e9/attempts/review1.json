@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-06T03:05:11+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"html, div.poem, третья строфа, третья строка\",\n      \"severity\": \"major\",\n      \"source_quote\": \"Those who yield are those who fall,\",\n      \"suggested_fix\": \"Заменить строку на «Кто поддаётся, тот и падает,» с сохранением тега <br>.\",\n      \"translation_quote\": \"Кто уступил, тот падает в забвенье,\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": false,\n  \"score\": 94\n}",
+    "content_bytes": 526,
+    "content_evidence_truncated": false,
+    "content_sha256": "5ddaf39c550f685f4db4416484ac9b17321620f5f97ad63523579ea5c1608dff",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 216,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 72,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2374,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2371,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2590
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}
