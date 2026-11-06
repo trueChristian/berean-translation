@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "translation.html, 고린도전서 6:19-20 인용문",
+      "severity": "major",
+      "source_quote": "therefore glorify God in your body, and in your spirit, which are God’s",
+      "suggested_fix": "“그러므로 너희 몸과 영으로 하나님께 영광을 돌리라. 너희의 몸과 영은 하나님의 것이니라”로 수정하십시오.",
+      "translation_quote": "그러므로 너희 몸으로 하나님께 영광을 돌리라. 너희의 몸과 영은 하나님의 것이니라"
+    },
+    {
+      "location": "translation.html, ‘태초에’ 아래 첫 문단",
+      "severity": "minor",
+      "source_quote": "We do know that …God saw every thing that he had made, and, behold, it was very good… –Genesis 1:31.",
+      "suggested_fix": "인용문 앞의 “다만”을 “다만 다음 사실은 알고 있습니다.”로 바꾸어 문장을 완결하십시오.",
+      "translation_quote": "다만 <em>하나님이 지으신 그 모든 것을 보시니 보시기에 심히 좋았더라… –창세기 1:31.</em>"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

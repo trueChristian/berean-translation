@@ -5,11 +5,47 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "4d806809f5e6453da7f6dd1f4382e306",
   "campaign": "auto-28d90ec869a812b8f46940c78ca31fc6fe04f2b4f06be845bb6005534bb8e095",
   "created_at": "2026-11-06T18:04:46+00:00",
-  "events": [],
-  "findings": [],
+  "events": [
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 313,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 36,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8761,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8758,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9074
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "translation.html, 고린도전서 6:19-20 인용문",
+      "severity": "major",
+      "source_quote": "therefore glorify God in your body, and in your spirit, which are God’s",
+      "suggested_fix": "“그러므로 너희 몸과 영으로 하나님께 영광을 돌리라. 너희의 몸과 영은 하나님의 것이니라”로 수정하십시오.",
+      "translation_quote": "그러므로 너희 몸으로 하나님께 영광을 돌리라. 너희의 몸과 영은 하나님의 것이니라"
+    },
+    {
+      "location": "translation.html, ‘태초에’ 아래 첫 문단",
+      "severity": "minor",
+      "source_quote": "We do know that …God saw every thing that he had made, and, behold, it was very good… –Genesis 1:31.",
+      "suggested_fix": "인용문 앞의 “다만”을 “다만 다음 사실은 알고 있습니다.”로 바꾸어 문장을 완결하십시오.",
+      "translation_quote": "다만 <em>하나님이 지으신 그 모든 것을 보시니 보시기에 심히 좋았더라… –창세기 1:31.</em>"
+    }
+  ],
   "id": "ca609327c63ec7d63a4b91baa7d9573f",
   "issue_id": "4e575f26-fabd-5104-ba0d-d54ca032653b",
   "language": "kor",
@@ -98,11 +134,13 @@
     }
   },
   "protected": false,
+  "quality_score": 94,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/ac8fa1e027a9ec819bd2ef1323c6f1c6bd34a71f9ab24cb0b22ba5416b1909ae.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "review1",
     "max_candidate_bytes": 120000,
@@ -115,7 +153,7 @@
     "total_reserved_usd": 0.763368,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 0,
   "translation_key": "e643aa29500591776446d855b5b97ade0f5810fdbdfe96e5ddfa615deab4a4eb",
   "translation_model_actual": "gpt-6-luna"

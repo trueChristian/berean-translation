@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-06T18:28:04+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"translation.html, 고린도전서 6:19-20 인용문\",\"severity\":\"major\",\"source_quote\":\"therefore glorify God in your body, and in your spirit, which are God’s\",\"suggested_fix\":\"“그러므로 너희 몸과 영으로 하나님께 영광을 돌리라. 너희의 몸과 영은 하나님의 것이니라”로 수정하십시오.\",\"translation_quote\":\"그러므로 너희 몸으로 하나님께 영광을 돌리라. 너희의 몸과 영은 하나님의 것이니라\"},{\"location\":\"translation.html, ‘태초에’ 아래 첫 문단\",\"severity\":\"minor\",\"source_quote\":\"We do know that …God saw every thing that he had made, and, behold, it was very good… –Genesis 1:31.\",\"suggested_fix\":\"인용문 앞의 “다만”을 “다만 다음 사실은 알고 있습니다.”로 바꾸어 문장을 완결하십시오.\",\"translation_quote\":\"다만 <em>하나님이 지으신 그 모든 것을 보시니 보시기에 심히 좋았더라… –창세기 1:31.</em>\"}],\"findings_complete\":true,\"passed\":false,\"score\":94}",
+    "content_bytes": 1045,
+    "content_evidence_truncated": false,
+    "content_sha256": "ff837522afff2511cac9be98f1720bd49e8d6d1b68465aae082f00452eaa74a8",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 313,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 36,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8761,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8758,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9074
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}
