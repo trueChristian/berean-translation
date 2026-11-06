@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph 6",
+      "severity": "minor",
+      "source_quote": "“This week, the Baltimore Orioles arrived”",
+      "suggested_fix": "Överväg det etablerade svenska fågelnamnet: ”Den här veckan anlände baltimoretrupialerna”",
+      "translation_quote": "“Den här veckan kom Baltimore Orioles”"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}
