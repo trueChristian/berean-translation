@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "तीसरा पद, पंक्ति 4",
+      "severity": "minor",
+      "source_quote": "His joy transcendeth all, and fuller grows,",
+      "suggested_fix": "उसका आनंद सबसे बढ़कर है और और अधिक पूर्ण होता जाता है,",
+      "translation_quote": "उसका आनंद सबसे बढ़कर है और और भी पूर्ण होता जाता है,"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

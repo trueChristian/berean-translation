@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "d0456da3f69b4991967c0f9f12a104db",
   "campaign": "auto-d3df681cce7a574c593369e878a5f38be7ccb5bb6067dc67acef31f4a041540d",
   "created_at": "2026-11-04T02:05:08+00:00",
   "events": [
@@ -68,18 +67,39 @@
         },
         "total_tokens": 2324
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 640,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 531,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 1921,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 818,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 2561
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "तीसरा पद, दूसरी पंक्ति",
-      "severity": "major",
-      "source_quote": "The share the happiness He gives with those",
-      "suggested_fix": "उस सुख को, जो वह देता है, उन लोगों के साथ बाँट",
-      "translation_quote": "उस सुख को उन लोगों के साथ बाँट,"
+      "location": "तीसरा पद, पंक्ति 4",
+      "severity": "minor",
+      "source_quote": "His joy transcendeth all, and fuller grows,",
+      "suggested_fix": "उसका आनंद सबसे बढ़कर है और और अधिक पूर्ण होता जाता है,",
+      "translation_quote": "उसका आनंद सबसे बढ़कर है और और भी पूर्ण होता जाता है,"
     }
   ],
+  "finished_at": "2026-11-06T18:02:24+00:00",
   "id": "7d5ad85c7d86af95348576d81157880d",
   "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
   "language": "hin",
@@ -168,7 +188,7 @@
     }
   },
   "protected": false,
-  "quality_score": 94,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
@@ -188,7 +208,7 @@
     "total_reserved_usd": 0.085938,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "4deddfa3d35292dd8b7346a9588ef6e393981b43a05742af679adb2e81fd001c",
   "translation_model_actual": "gpt-6-luna"

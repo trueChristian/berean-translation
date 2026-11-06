@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-06T18:02:24+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"तीसरा पद, पंक्ति 4\",\"severity\":\"minor\",\"source_quote\":\"His joy transcendeth all, and fuller grows,\",\"suggested_fix\":\"उसका आनंद सबसे बढ़कर है और और अधिक पूर्ण होता जाता है,\",\"translation_quote\":\"उसका आनंद सबसे बढ़कर है और और भी पूर्ण होता जाता है,\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 516,
+    "content_evidence_truncated": false,
+    "content_sha256": "68a1da18aff80afa432402458d803171120a57cba7b20295e2730d149da2958b",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 640,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 531,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1921,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 818,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 2561
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}
