@@ -10428,6 +10428,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ben/articles/049f2e7d-675c-4dac-9584-5aefceb9b9c1.html",
+      "html_sha256": "0cecef50800e240be666d7030386e8f65ff28ac6335e5139f75faa5f9738139e",
+      "human_reviewed": false,
+      "id": "049f2e7d-675c-4dac-9584-5aefceb9b9c1",
+      "images": [
+        {
+          "alt": "একটি হালকা গোলাপি ফুল ও একটি বন্ধ ফুলের কুঁড়ি।",
+          "public_path": "/images/articles/049f2e7d-675c-4dac-9584-5aefceb9b9c1-1.jpg"
+        }
+      ],
+      "issue_id": "103c93e0-6e9a-44f6-a6bc-377af8e08e38",
+      "language": "ben",
+      "language_tag": "bn",
+      "metadata": "content/ben/articles/049f2e7d-675c-4dac-9584-5aefceb9b9c1.json",
+      "metadata_sha256": "b817b8b98d471c75141129d1c0703671c990aec9d1544f4340492622f6b99f16",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
+      "source_translation_key": "0fb584030db33dd2b72332a91a0b7c15fa746dd719ac5f16dd38c2251e56bee5",
+      "status": "ready",
+      "subtitle": null,
+      "title": "সম্পাদকের কলমে",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ben/articles/0678981b-d0f9-4c28-970e-2617f9543c9b.html",
       "html_sha256": "1b8c0f9d4cba6f8a31dc5058f2c3532aecda198f65a07fff9692b08d36bfabbe",
       "human_reviewed": false,
