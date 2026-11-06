@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "0ec28174-cac9-49d7-9c1a-1451cdd2b7d3",
+    "response_id": "chatcmpl-Eh7RuFES4jFtjz4eEawfRgdEihGhf",
+    "usage": {
+      "completion_tokens": 540,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 419,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3385,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2282,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 3925
+    }
+  },
+  "received_at": "2026-11-06T10:49:59+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, paragraph beginning «Esta semana llegaron…»",
+        "severity": "major",
+        "source_quote": "“This week, the Baltimore Orioles arrived”",
+        "suggested_fix": "Sustituir «las oropéndolas de Baltimore» por «los orioles de Baltimore» (o el nombre español convencional para la especie Icterus galbula).",
+        "translation_quote": "«Esta semana llegaron las oropéndolas de Baltimore»"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 96
+  }
+}

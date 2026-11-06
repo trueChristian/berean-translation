@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraph beginning «Esta semana llegaron…»",
+      "severity": "major",
+      "source_quote": "“This week, the Baltimore Orioles arrived”",
+      "suggested_fix": "Sustituir «las oropéndolas de Baltimore» por «los orioles de Baltimore» (o el nombre español convencional para la especie Icterus galbula).",
+      "translation_quote": "«Esta semana llegaron las oropéndolas de Baltimore»"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
