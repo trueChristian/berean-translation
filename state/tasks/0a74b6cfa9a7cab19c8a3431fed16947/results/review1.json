@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "1931a197-d60d-4c29-a98e-c5f02eced242",
+    "response_id": "chatcmpl-Eh4OpnJ2G5UqaDakyDixdidvQwpfM",
+    "usage": {
+      "completion_tokens": 239,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 94,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2554,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1451,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 2793
+    }
+  },
+  "received_at": "2026-11-06T03:04:47+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "translation.html, πρώτη στροφή, πέμπτος στίχος",
+        "severity": "minor",
+        "source_quote": "Forbear and press in patient ways...",
+        "suggested_fix": "Αντικαταστήστε το «Μη διστάζεις· προχώρα με υπομονή...» με «Κάνε υπομονή και συνέχισε καρτερικά...» διατηρώντας το υπάρχον <br>.",
+        "translation_quote": "Μη διστάζεις· προχώρα με υπομονή..."
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 97
+  }
+}

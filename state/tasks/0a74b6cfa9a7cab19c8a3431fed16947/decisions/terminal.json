@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "translation.html, πρώτη στροφή, πέμπτος στίχος",
+      "severity": "minor",
+      "source_quote": "Forbear and press in patient ways...",
+      "suggested_fix": "Αντικαταστήστε το «Μη διστάζεις· προχώρα με υπομονή...» με «Κάνε υπομονή και συνέχισε καρτερικά...» διατηρώντας το υπάρχον <br>.",
+      "translation_quote": "Μη διστάζεις· προχώρα με υπομονή..."
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}
