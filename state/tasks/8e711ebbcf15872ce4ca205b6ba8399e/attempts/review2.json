@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-06T10:49:30+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph 5\",\"severity\":\"minor\",\"source_quote\":\"“fullfillment”\",\"suggested_fix\":\"استبدلي «الإنجاز» بـ«الإشباع» أو «تحقيق الذات» بما ينقل معنى fulfillment في هذا السياق.\",\"translation_quote\":\"«الإنجاز»\"},{\"location\":\"الفقرة الأخيرة من القائمة\",\"severity\":\"minor\",\"source_quote\":\"“be vulnerable in your relationships”\",\"suggested_fix\":\"استبدلي «صريحة وضعيفة أمام الآخرين» بتعبير مثل «منفتحة وصريحة في علاقاتك» لتجنب معنى الضعف.\",\"translation_quote\":\"«صريحة وضعيفة أمام الآخرين»\"},{\"location\":\"الاقتباس الختامي، غلاطية 6:9\",\"severity\":\"minor\",\"source_quote\":\"“And let us not be weary in well doing”\",\"suggested_fix\":\"يمكن ترجمة المعنى بـ«ولا نملّ من عمل الخير» بدلًا من «ولا نفشل في عمل الخير».\",\"translation_quote\":\"«ولا نفشل في عمل الخير»\"}],\"findings_complete\":true,\"passed\":true,\"score\":97}",
+    "content_bytes": 1127,
+    "content_evidence_truncated": false,
+    "content_sha256": "94041536e6a6b29d3b9e24fc3efaa0fd055d8a25c12da7a4607f614bdd852a1f",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 938,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 684,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7179,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6076,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 8117
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review2",
+  "translation_attempts": 2
+}

@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph 5",
+      "severity": "minor",
+      "source_quote": "“fullfillment”",
+      "suggested_fix": "استبدلي «الإنجاز» بـ«الإشباع» أو «تحقيق الذات» بما ينقل معنى fulfillment في هذا السياق.",
+      "translation_quote": "«الإنجاز»"
+    },
+    {
+      "location": "الفقرة الأخيرة من القائمة",
+      "severity": "minor",
+      "source_quote": "“be vulnerable in your relationships”",
+      "suggested_fix": "استبدلي «صريحة وضعيفة أمام الآخرين» بتعبير مثل «منفتحة وصريحة في علاقاتك» لتجنب معنى الضعف.",
+      "translation_quote": "«صريحة وضعيفة أمام الآخرين»"
+    },
+    {
+      "location": "الاقتباس الختامي، غلاطية 6:9",
+      "severity": "minor",
+      "source_quote": "“And let us not be weary in well doing”",
+      "suggested_fix": "يمكن ترجمة المعنى بـ«ولا نملّ من عمل الخير» بدلًا من «ولا نفشل في عمل الخير».",
+      "translation_quote": "«ولا نفشل في عمل الخير»"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

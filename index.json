@@ -8208,12 +8208,12 @@
       "ai_notice_required": true,
       "direction": "rtl",
       "html": "content/ara/articles/903e4b58-b246-4ee3-85e7-eecf158a7a75.html",
-      "html_sha256": "42acf46814c1724ea82a22939924a010afd7b455d8725c1c4ba13467ccaa6db2",
+      "html_sha256": "5694649b93d1ad0223952e557dba7e1de7bf12894d03107dfe1ada4d9ad4f9e9",
       "human_reviewed": false,
       "id": "903e4b58-b246-4ee3-85e7-eecf158a7a75",
       "images": [
         {
-          "alt": "شخص بالغ يمسك يد طفل صغير يمشي في الهواء الطلق",
+          "alt": "شخص بالغ يمسك بيد طفل صغير يمشي في الخارج",
           "public_path": "/images/articles/903e4b58-b246-4ee3-85e7-eecf158a7a75-1.jpg"
         }
       ],
@@ -8221,16 +8221,16 @@
       "language": "ara",
       "language_tag": "ar",
       "metadata": "content/ara/articles/903e4b58-b246-4ee3-85e7-eecf158a7a75.json",
-      "metadata_sha256": "eb531b8c467f809464d7d99849b6cae88ebb46189c829e2af216fa0c586b8464",
+      "metadata_sha256": "24bfb27df2df794703587daff9bdb6fbf9e20d579fb4bd6481f8076d1c2c822c",
       "provider": "OpenAI",
-      "review_model": "gpt-6.1-sol",
+      "review_model": "gpt-6-luna",
       "section": "من أخت إلى أخت",
-      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
-      "source_translation_key": "bc655ca0e757a92869b0811d5a6de87a4ca48f1e4eef1923cd7135609b8dc379",
-      "status": "stale",
+      "source_revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
+      "source_translation_key": "aca8415cfcf9e5554286626ac6bcaa5724f97b93dadbcdbbe3b6300ec48874e3",
+      "status": "ready",
       "subtitle": null,
-      "title": "دعوة مفرحة",
-      "translation_model": "gpt-6.1-sol"
+      "title": "دعوة مفعمة بالفرح",
+      "translation_model": "gpt-6-luna"
     },
     {
       "ai_notice_required": true,
