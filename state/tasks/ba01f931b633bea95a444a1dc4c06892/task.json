@@ -1,0 +1,149 @@
+{
+  "article_id": "903e4b58-b246-4ee3-85e7-eecf158a7a75",
+  "automatic_previous_task": "5d766f43b374a4531e4f438d0cda000c",
+  "autonomous": true,
+  "autonomous_recovery": true,
+  "base_html_sha256": "f2ddea2bdfef1071ebfb43d8f3beca49a5d46578caac9459524dd8bc4c0bf20f",
+  "base_metadata_sha256": "19fec0121bb277117b7d16c0c9d6f988905a4dcb0d76669e8c3872efc33c7d37",
+  "campaign": "auto-cb145bbfc5d07cebbb70cc30f1f3e8fa30380ea7c74b36fb5beac38cdf14ce6e",
+  "created_at": "2026-11-06T18:07:39+00:00",
+  "events": [],
+  "findings": [
+    {
+      "location": "Article body, paragraph 5, quotation about the 1970s",
+      "severity": "major",
+      "source_quote": "“...mothering only takes a third-grade education and a fulltime mother is unnecessary.”",
+      "suggested_fix": "“...moederskap net ’n derdegraadse opleiding verg en ’n ma wat voltyds tuis is, onnodig is.”",
+      "translation_quote": "“...moederskap net ’n graad agt-opleiding verg en dat ’n ma wat voltyds tuis is, onnodig is.”"
+    },
+    {
+      "location": "Article body, paragraph 5, final word of the quoted sentence",
+      "severity": "major",
+      "source_quote": "“...Mothers who were applauded by society were suddenly bombarded with a new buzzword—fullfillment.”",
+      "suggested_fix": "“...Moeders wat deur die samelewing toegejuig is, is skielik met ’n nuwe modewoord bestook—vervulling.” (Preserve the source’s printed word as intended: “fulfillment” means ‘vervulling’, not an alternate concept.)",
+      "translation_quote": "“...Moeders wat deur die samelewing toegejuig is, is skielik met ’n nuwe modewoord bestook—vervulling.”"
+    },
+    {
+      "location": "Article body, paragraph 6, first sentence",
+      "severity": "major",
+      "source_quote": "“roughly 27% of infants and toddlers in America are placed in some form of paid childcare arrangement.”",
+      "suggested_fix": "“ongeveer 27% van babas en kleuters in Amerika word in een of ander vorm van betaalde kindersorg geplaas.”",
+      "translation_quote": "“word ongeveer 27% van babas en kleuters in Amerika in een of ander vorm van betaalde kindersorg geplaas.”"
+    },
+    {
+      "location": "Article body, paragraph 9, final sentence",
+      "severity": "major",
+      "source_quote": "“Choosing to stay at home in your focuses and thoughts produces peace and contentment.”",
+      "suggested_fix": "“Om tuis te bly en jou aandag en gedagtes daarop te rig, bring vrede en tevredenheid.”",
+      "translation_quote": "“Om tuis te bly en jou aandag en gedagtes daarop te rig, bring vrede en tevredenheid.”"
+    }
+  ],
+  "id": "ba01f931b633bea95a444a1dc4c06892",
+  "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
+  "language": "afr",
+  "model": "gpt-6.1-sol",
+  "models": {
+    "gpt-4.1": {
+      "api_model": "gpt-4.1-2025-04-14",
+      "context_tokens": 1047576,
+      "input_batch_usd_per_million": 1.0,
+      "max_output_tokens": 32768,
+      "output_batch_usd_per_million": 4.0,
+      "quality_note": "Higher-cost translation or reviewer option.",
+      "reasoning_effort": null
+    },
+    "gpt-4.1-mini": {
+      "api_model": "gpt-4.1-mini-2025-04-14",
+      "context_tokens": 1047576,
+      "input_batch_usd_per_million": 0.2,
+      "max_output_tokens": 32768,
+      "output_batch_usd_per_million": 0.8,
+      "quality_note": "Default cost-conscious candidate; not certified for theological accuracy in every language.",
+      "reasoning_effort": null
+    },
+    "gpt-4.1-nano": {
+      "api_model": "gpt-4.1-nano-2025-04-14",
+      "context_tokens": 1047576,
+      "input_batch_usd_per_million": 0.05,
+      "max_output_tokens": 32768,
+      "output_batch_usd_per_million": 0.2,
+      "quality_note": "Lowest-cost option in this registry; benchmark before bulk publication.",
+      "reasoning_effort": null
+    },
+    "gpt-5-mini": {
+      "api_model": "gpt-5-mini-2025-08-07",
+      "context_tokens": 400000,
+      "input_batch_usd_per_million": 0.125,
+      "max_output_tokens": 128000,
+      "output_batch_usd_per_million": 1.0,
+      "quality_note": "Reasoning tokens consume output budget; benchmark total cost and quality.",
+      "reasoning_effort": "low"
+    },
+    "gpt-6-astra": {
+      "api_model": "gpt-6-astra",
+      "cache_write_batch_usd_per_million": 6.25,
+      "cached_input_batch_usd_per_million": 0.5,
+      "context_tokens": 1050000,
+      "input_batch_usd_per_million": 5.0,
+      "long_context_input_multiplier": 2.0,
+      "long_context_output_multiplier": 1.5,
+      "long_context_threshold_tokens": 272000,
+      "max_output_tokens": 128000,
+      "output_batch_usd_per_million": 25.0,
+      "pricing_verified_on": "2026-10-02",
+      "quality_note": "Higher-cost manual recovery option. Documented API alias; no dated snapshot is published. Reasoning shares the output cap. Quality gates remain required.",
+      "reasoning_effort": "low"
+    },
+    "gpt-6-luna": {
+      "api_model": "gpt-6-luna",
+      "cache_write_batch_usd_per_million": 0.0625,
+      "cached_input_batch_usd_per_million": 0.005,
+      "context_tokens": 1050000,
+      "input_batch_usd_per_million": 0.05,
+      "long_context_input_multiplier": 2.0,
+      "long_context_output_multiplier": 1.5,
+      "long_context_threshold_tokens": 272000,
+      "max_output_tokens": 128000,
+      "output_batch_usd_per_million": 0.25,
+      "pricing_verified_on": "2026-10-02",
+      "quality_note": "Affordable default for new manual translation and review campaigns. Documented API alias; no dated snapshot is published. Reasoning shares the output cap. Benchmark theological accuracy; quality gates remain required.",
+      "reasoning_effort": "low"
+    },
+    "gpt-6.1-sol": {
+      "api_model": "gpt-6.1-sol",
+      "cache_write_batch_usd_per_million": 1.25,
+      "cached_input_batch_usd_per_million": 0.05,
+      "context_tokens": 1050000,
+      "input_batch_usd_per_million": 1.0,
+      "long_context_input_multiplier": 2.0,
+      "long_context_output_multiplier": 1.5,
+      "long_context_threshold_tokens": 272000,
+      "max_output_tokens": 128000,
+      "output_batch_usd_per_million": 5.0,
+      "pricing_verified_on": "2026-10-02",
+      "quality_note": "Stronger downstream recovery option. Documented API alias; no dated snapshot is published. Reasoning shares the output cap. Quality gates remain required.",
+      "reasoning_effort": "low"
+    }
+  },
+  "protected": false,
+  "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
+  "review_attempts": 0,
+  "review_model": "gpt-6.1-sol",
+  "source_snapshot": "state/sources/ee1d1c4c726665ca5725eef036aae90f81e779ea0d47055f2cf908d0b809c75d.json",
+  "stage": "correct",
+  "stage_budget": {
+    "initial_stage": "correct",
+    "max_candidate_bytes": 120000,
+    "max_findings_bytes": 32768,
+    "stages_usd": {
+      "correct": 0.208993,
+      "review2": 0.368733
+    },
+    "total_reserved_usd": 0.577726,
+    "version": 1
+  },
+  "status": "queued",
+  "translation_attempts": 0,
+  "translation_key": "aca8415cfcf9e5554286626ac6bcaa5724f97b93dadbcdbbe3b6300ec48874e3",
+  "translation_model_actual": "gpt-6-luna"
+}
