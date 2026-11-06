@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-06T04:12:12+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph 4\",\"severity\":\"minor\",\"source_quote\":\"Was my mother deprived of a fulfilling life?\",\"suggested_fix\":\"کیا میری ماں ایک بھرپور اور اطمینان بخش زندگی سے محروم تھیں؟\",\"translation_quote\":\"کیا میری ماں ایک بامقصد زندگی سے محروم تھیں؟\"}],\"findings_complete\":true,\"passed\":true,\"score\":97}",
+    "content_bytes": 403,
+    "content_evidence_truncated": false,
+    "content_sha256": "316d19925415fd095cb0f61c79f758b3622d72756dc85961e39234fff76e7291",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 902,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 795,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7721,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7718,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8623
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

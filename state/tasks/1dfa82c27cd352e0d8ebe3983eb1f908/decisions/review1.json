@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph 4",
+      "severity": "minor",
+      "source_quote": "Was my mother deprived of a fulfilling life?",
+      "suggested_fix": "کیا میری ماں ایک بھرپور اور اطمینان بخش زندگی سے محروم تھیں؟",
+      "translation_quote": "کیا میری ماں ایک بامقصد زندگی سے محروم تھیں؟"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

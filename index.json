@@ -99116,6 +99116,34 @@
     {
       "ai_notice_required": true,
       "direction": "rtl",
+      "html": "content/urd/articles/903e4b58-b246-4ee3-85e7-eecf158a7a75.html",
+      "html_sha256": "9b0683e58899e097ab98d59c3a479f8000fc6ee4abe914f50d6c42f59af4d979",
+      "human_reviewed": false,
+      "id": "903e4b58-b246-4ee3-85e7-eecf158a7a75",
+      "images": [
+        {
+          "alt": "ایک بالغ شخص باہر چہل قدمی کرتے ہوئے چھوٹے بچے کا ہاتھ تھامے ہوئے",
+          "public_path": "/images/articles/903e4b58-b246-4ee3-85e7-eecf158a7a75-1.jpg"
+        }
+      ],
+      "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
+      "language": "urd",
+      "language_tag": "ur",
+      "metadata": "content/urd/articles/903e4b58-b246-4ee3-85e7-eecf158a7a75.json",
+      "metadata_sha256": "b0c897417e5da32e6134a51068907e765ea2553f7663482c9dd59d14e44c998c",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "بہن سے بہن تک",
+      "source_revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
+      "source_translation_key": "aca8415cfcf9e5554286626ac6bcaa5724f97b93dadbcdbbe3b6300ec48874e3",
+      "status": "ready",
+      "subtitle": null,
+      "title": "ایک پُرمسرت بلاہٹ",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
       "html": "content/urd/articles/90d8e22a-d7b1-453e-98bf-cab1571a7f56.html",
       "html_sha256": "b8ba28b9f982b098eed883480b86c8c24c420eeca9dd34a8c393d63478918b1a",
       "human_reviewed": false,
