@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": "6d20fbaedacb829043ea230cd6d15f4b55b826b5486fde8e4f2bef8efe6df9b0",
   "base_metadata_sha256": "7b1d8ffda6c57298b0e05c3e6ccd1e4e82768b0e8c982c06983de1646f636f56",
-  "batch": "f672390899b74ab7889511eb2f1bc938",
   "campaign": "auto-887df2892f441dda1f9e4cc52d03575ad3bb49ed4914c050a8dc8f105c1d2697",
   "created_at": "2026-11-05T07:21:26+00:00",
   "events": [
@@ -68,25 +67,31 @@
         },
         "total_tokens": 10423
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 429,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 397,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7185,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 6082,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 7614
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "Psalm 127:3, quoted in the paragraph beginning “Dio dice”; also Psalm 127:3 in the quotation beginning “Anche se alcuni…”",
-      "severity": "major",
-      "source_quote": "“children are an heritage of the LORD”",
-      "suggested_fix": "In both quotations, replace «i figli sono un dono che viene dal SIGNORE» with «i figli sono un’eredità che viene dal SIGNORE» (or equivalent Italian wording preserving the meaning of “heritage”).",
-      "translation_quote": "«i figli sono un dono che viene dal SIGNORE»"
-    },
-    {
-      "location": "Psalm 127:5, in the quotation beginning “Anche se alcuni…”",
-      "severity": "major",
-      "source_quote": "“they shall not be ashamed, but they shall speak with the enemies in the gate”",
-      "suggested_fix": "Replace «non sarà confuso quando parlerà con i nemici alla porta» with wording preserving both the plural subject and the printed meaning, such as «non saranno svergognati, ma parleranno con i nemici alla porta».",
-      "translation_quote": "«non sarà confuso quando parlerà con i nemici alla porta»"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-11-06T11:32:17+00:00",
   "id": "976dc126031646de0aa085f518742bcf",
   "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
   "language": "ita",
@@ -175,7 +180,7 @@
     }
   },
   "protected": false,
-  "quality_score": 91,
+  "quality_score": 99,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
@@ -195,7 +200,7 @@
     "total_reserved_usd": 0.089129,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "aca8415cfcf9e5554286626ac6bcaa5724f97b93dadbcdbbe3b6300ec48874e3",
   "translation_model_actual": "gpt-6-luna"

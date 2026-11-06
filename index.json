@@ -52808,12 +52808,12 @@
       "ai_notice_required": true,
       "direction": "ltr",
       "html": "content/ita/articles/903e4b58-b246-4ee3-85e7-eecf158a7a75.html",
-      "html_sha256": "6d20fbaedacb829043ea230cd6d15f4b55b826b5486fde8e4f2bef8efe6df9b0",
+      "html_sha256": "55f784f36a8fd0274c1f639262e72d850dc56182f820a6f28441f9a60b0d06a3",
       "human_reviewed": false,
       "id": "903e4b58-b246-4ee3-85e7-eecf158a7a75",
       "images": [
         {
-          "alt": "Adulto che tiene la mano di un bambino piccolo che cammina all'aperto",
+          "alt": "Un adulto tiene per mano un bambino mentre camminano all’aperto",
           "public_path": "/images/articles/903e4b58-b246-4ee3-85e7-eecf158a7a75-1.jpg"
         }
       ],
@@ -52821,16 +52821,16 @@
       "language": "ita",
       "language_tag": "it",
       "metadata": "content/ita/articles/903e4b58-b246-4ee3-85e7-eecf158a7a75.json",
-      "metadata_sha256": "7b1d8ffda6c57298b0e05c3e6ccd1e4e82768b0e8c982c06983de1646f636f56",
+      "metadata_sha256": "a0fec1bc8fe54fbca62825ac08c78adcebf37d1f64c6ac1a4293c151a48a326c",
       "provider": "OpenAI",
-      "review_model": "gpt-5-mini-2025-08-07",
+      "review_model": "gpt-6-luna",
       "section": "Sorella a sorella",
-      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
-      "source_translation_key": "bc655ca0e757a92869b0811d5a6de87a4ca48f1e4eef1923cd7135609b8dc379",
-      "status": "stale",
+      "source_revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
+      "source_translation_key": "aca8415cfcf9e5554286626ac6bcaa5724f97b93dadbcdbbe3b6300ec48874e3",
+      "status": "ready",
       "subtitle": null,
-      "title": "Una chiamata gioiosa",
-      "translation_model": "gpt-5-mini-2025-08-07"
+      "title": "Una vocazione gioiosa",
+      "translation_model": "gpt-6-luna"
     },
     {
       "ai_notice_required": true,
