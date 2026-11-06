@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph beginning “Mungu hahitaji wanawake wakamilifu…”",
+      "severity": "minor",
+      "source_quote": "you are all the more qualified to disciple a younger woman",
+      "suggested_fix": "unastahili zaidi kuwashauri na kuwalea kiroho wanawake vijana",
+      "translation_quote": "unastahili zaidi kuwafundisha wanawake vijana"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

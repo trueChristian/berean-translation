@@ -89760,12 +89760,12 @@
       "ai_notice_required": true,
       "direction": "ltr",
       "html": "content/swa/articles/903e4b58-b246-4ee3-85e7-eecf158a7a75.html",
-      "html_sha256": "837e8e1cb1a021ce45c91c1f0f36bde0b1a6d8449520206c3be21ad1d35aff17",
+      "html_sha256": "d8923435c263619fb1112809512696134cb8edcb59fa1fa04dde50fadf4c626a",
       "human_reviewed": false,
       "id": "903e4b58-b246-4ee3-85e7-eecf158a7a75",
       "images": [
         {
-          "alt": "Mtu mzima amemshika mkono mtoto mdogo wanapotembea nje",
+          "alt": "Mtu mzima akishika mkono wa mtoto mdogo anayetembea nje",
           "public_path": "/images/articles/903e4b58-b246-4ee3-85e7-eecf158a7a75-1.jpg"
         }
       ],
@@ -89775,14 +89775,14 @@
       "metadata": "content/swa/articles/903e4b58-b246-4ee3-85e7-eecf158a7a75.json",
       "metadata_sha256": "0fce06d7147e13eddea2f6515eb1a0cface473eb8908407dca44c62d221ff293",
       "provider": "OpenAI",
-      "review_model": "gpt-6.1-sol",
+      "review_model": "gpt-6-luna",
       "section": "Dada kwa Dada",
-      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
-      "source_translation_key": "bc655ca0e757a92869b0811d5a6de87a4ca48f1e4eef1923cd7135609b8dc379",
-      "status": "stale",
+      "source_revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
+      "source_translation_key": "aca8415cfcf9e5554286626ac6bcaa5724f97b93dadbcdbbe3b6300ec48874e3",
+      "status": "ready",
       "subtitle": null,
       "title": "Wito wa Furaha",
-      "translation_model": "gpt-6.1-sol"
+      "translation_model": "gpt-6-luna"
     },
     {
       "ai_notice_required": true,

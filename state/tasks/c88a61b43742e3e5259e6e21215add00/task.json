@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": "837e8e1cb1a021ce45c91c1f0f36bde0b1a6d8449520206c3be21ad1d35aff17",
   "base_metadata_sha256": "0fce06d7147e13eddea2f6515eb1a0cface473eb8908407dca44c62d221ff293",
-  "batch": "2a1301ae39a14d3ab36eff13e66cb517",
   "campaign": "auto-b055ef2bbdee175fa8513bde22b0c85048fe33437887d045977154cabaf6243f",
   "created_at": "2026-11-05T07:06:47+00:00",
   "events": [
@@ -68,18 +67,39 @@
         },
         "total_tokens": 10775
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 792,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 685,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7371,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 6268,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 8163
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "First paragraph",
-      "severity": "major",
-      "source_quote": "“My new baby brother was crying”",
-      "suggested_fix": "Replace “Mdogo wangu mpya kuzaliwa” with “Mdogo wangu wa kiume aliyezaliwa hivi karibuni” to preserve that the baby is the speaker’s brother.",
-      "translation_quote": "“Mdogo wangu mpya kuzaliwa alikuwa akilia”"
+      "location": "Paragraph beginning “Mungu hahitaji wanawake wakamilifu…”",
+      "severity": "minor",
+      "source_quote": "you are all the more qualified to disciple a younger woman",
+      "suggested_fix": "unastahili zaidi kuwashauri na kuwalea kiroho wanawake vijana",
+      "translation_quote": "unastahili zaidi kuwafundisha wanawake vijana"
     }
   ],
+  "finished_at": "2026-11-06T17:59:24+00:00",
   "id": "c88a61b43742e3e5259e6e21215add00",
   "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
   "language": "swa",
@@ -168,7 +188,7 @@
     }
   },
   "protected": false,
-  "quality_score": 94,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
@@ -188,7 +208,7 @@
     "total_reserved_usd": 0.089125,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "aca8415cfcf9e5554286626ac6bcaa5724f97b93dadbcdbbe3b6300ec48874e3",
   "translation_model_actual": "gpt-6-luna"

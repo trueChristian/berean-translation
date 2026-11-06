@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-06T17:59:24+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph beginning “Mungu hahitaji wanawake wakamilifu…”\",\"severity\":\"minor\",\"source_quote\":\"you are all the more qualified to disciple a younger woman\",\"suggested_fix\":\"unastahili zaidi kuwashauri na kuwalea kiroho wanawake vijana\",\"translation_quote\":\"unastahili zaidi kuwafundisha wanawake vijana\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 386,
+    "content_evidence_truncated": false,
+    "content_sha256": "7aa58b7c382ab67ac6f40c2089e3a6a0f32975af8011064430f5d4c409d799e8",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 792,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 685,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7371,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6268,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 8163
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}
