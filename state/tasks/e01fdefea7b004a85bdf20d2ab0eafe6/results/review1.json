@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "50617017-01c1-4b15-ab6a-bed832f1a1bd",
+    "response_id": "chatcmpl-Eh5UTox1n6EGZHry8hhNa58kxMNHY",
+    "usage": {
+      "completion_tokens": 319,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 91,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4515,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3412,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 4834
+    }
+  },
+  "received_at": "2026-11-06T04:12:27+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "html, paragraph 13",
+        "severity": "minor",
+        "source_quote": "Melissa followed her example and began splashing on her side of the boat.",
+        "suggested_fix": "Replace “नाव के अपनी ओर पानी उछालने लगी” with “नाव में अपनी तरफ़ से पानी उछालने लगी”.",
+        "translation_quote": "मेलिसा ने भी उसकी नकल की और नाव के अपनी ओर पानी उछालने लगी।"
+      },
+      {
+        "location": "html, paragraph 17",
+        "severity": "minor",
+        "source_quote": "They picked up the life jackets and the oars and carried them into the barn.",
+        "suggested_fix": "Replace the sentence with “उन्होंने जीवनरक्षक जैकेट और चप्पू उठाए और वे उन्हें खलिहान में ले गईं।” to give “ले गईं” the appropriate subject.",
+        "translation_quote": "उन्होंने जीवनरक्षक जैकेट और चप्पू उठाए और उन्हें खलिहान में ले गईं।"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}

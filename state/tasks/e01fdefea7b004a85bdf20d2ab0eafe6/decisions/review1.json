@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "html, paragraph 13",
+      "severity": "minor",
+      "source_quote": "Melissa followed her example and began splashing on her side of the boat.",
+      "suggested_fix": "Replace “नाव के अपनी ओर पानी उछालने लगी” with “नाव में अपनी तरफ़ से पानी उछालने लगी”.",
+      "translation_quote": "मेलिसा ने भी उसकी नकल की और नाव के अपनी ओर पानी उछालने लगी।"
+    },
+    {
+      "location": "html, paragraph 17",
+      "severity": "minor",
+      "source_quote": "They picked up the life jackets and the oars and carried them into the barn.",
+      "suggested_fix": "Replace the sentence with “उन्होंने जीवनरक्षक जैकेट और चप्पू उठाए और वे उन्हें खलिहान में ले गईं।” to give “ले गईं” the appropriate subject.",
+      "translation_quote": "उन्होंने जीवनरक्षक जैकेट और चप्पू उठाए और उन्हें खलिहान में ले गईं।"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

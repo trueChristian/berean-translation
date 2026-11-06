@@ -41252,6 +41252,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/hin/articles/73def952-dd77-4a51-b030-27713e0cedd2.html",
+      "html_sha256": "0f4af3b81aeed2cb7ddea69dcb393bfd1a91bc662d2d8ba971bacd7d5bf253c4",
+      "human_reviewed": false,
+      "id": "73def952-dd77-4a51-b030-27713e0cedd2",
+      "images": [
+        {
+          "alt": "शांत पानी में प्रतिबिंबित होती छोटी नाव",
+          "public_path": "/images/articles/73def952-dd77-4a51-b030-27713e0cedd2-1.jpg"
+        },
+        {
+          "alt": "पुराने और टूटे हुए लकड़ी के चप्पू तख्तों पर रखे हुए",
+          "public_path": "/images/articles/73def952-dd77-4a51-b030-27713e0cedd2-2.jpg"
+        }
+      ],
+      "issue_id": "4e575f26-fabd-5104-ba0d-d54ca032653b",
+      "language": "hin",
+      "language_tag": "hi",
+      "metadata": "content/hin/articles/73def952-dd77-4a51-b030-27713e0cedd2.json",
+      "metadata_sha256": "9502f660466dc1c8655ff027615ff981fed27e74bbf219405e97fa8ff7dfbed6",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "बच्चों का कोना",
+      "source_revision": "22388745ad7f149609e65f5e28cfcc1257cd689e",
+      "source_translation_key": "4495f12a281c559d419fa93922b800b7fa95e251e187216d7846b8abc9c22a13",
+      "status": "ready",
+      "subtitle": null,
+      "title": "“क्या मुझे बताना चाहिए?”",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/hin/articles/77cd4a24-14db-4ba2-905f-4f3ecb1d3ea5.html",
       "html_sha256": "8c54fadb2bf58923628c1288cc1ce44275adabe6208af642c2a4f70b2c6b6d68",
       "human_reviewed": false,
