@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "e26c5447-e8c2-480e-9d4e-5477c837f5db",
+    "response_id": "chatcmpl-Eh1l4KEHWEj5cdgTYMDy6UxcLPoz7",
+    "usage": {
+      "completion_tokens": 406,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 121,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 12511,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 11408,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 12917
+    }
+  },
+  "received_at": "2026-11-06T02:21:55+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "html > aside > p",
+        "severity": "minor",
+        "source_quote": "then start asking questions of family, friends, and acquaintances",
+        "suggested_fix": "Replace ״ואז להתחיל לשאול שאלות בני משפחה, חברים ומכרים״ with ״ואז להתחיל לשאול בני משפחה, חברים ומכרים שאלות״.",
+        "translation_quote": "ואז להתחיל לשאול שאלות בני משפחה, חברים ומכרים"
+      },
+      {
+        "location": "html > section III.a, paragraph beginning ״פטרוס ויוחנן״",
+        "severity": "minor",
+        "source_quote": "The power and presence of the Holy Spirit in our worship services brings results!",
+        "suggested_fix": "Replace ״מביאות לתוצאות״ with ״מביאים לתוצאות״ to agree with the compound subject ״כוחה ונוכחותה״.",
+        "translation_quote": "כוחה ונוכחותה של רוח הקודש באספות הפולחן שלנו מביאות לתוצאות!"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-06T02:21:55+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"html > aside > p\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"then start asking questions of family, friends, and acquaintances\",\n      \"suggested_fix\": \"Replace ״ואז להתחיל לשאול שאלות בני משפחה, חברים ומכרים״ with ״ואז להתחיל לשאול בני משפחה, חברים ומכרים שאלות״.\",\n      \"translation_quote\": \"ואז להתחיל לשאול שאלות בני משפחה, חברים ומכרים\"\n    },\n    {\n      \"location\": \"html > section III.a, paragraph beginning ״פטרוס ויוחנן״\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"The power and presence of the Holy Spirit in our worship services brings results!\",\n      \"suggested_fix\": \"Replace ״מביאות לתוצאות״ with ״מביאים לתוצאות״ to agree with the compound subject ״כוחה ונוכחותה״.\",\n      \"translation_quote\": \"כוחה ונוכחותה של רוח הקודש באספות הפולחן שלנו מביאות לתוצאות!\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": true,\n  \"score\": 98\n}",
+    "content_bytes": 1134,
+    "content_evidence_truncated": false,
+    "content_sha256": "0b29e15c6e76ef35b765322d2a83c5d41ae9407eea6c9d2b7f1f8c710606d3ba",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 406,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 121,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 12511,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 11408,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 12917
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 1
+}

@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "html > aside > p",
+      "severity": "minor",
+      "source_quote": "then start asking questions of family, friends, and acquaintances",
+      "suggested_fix": "Replace ״ואז להתחיל לשאול שאלות בני משפחה, חברים ומכרים״ with ״ואז להתחיל לשאול בני משפחה, חברים ומכרים שאלות״.",
+      "translation_quote": "ואז להתחיל לשאול שאלות בני משפחה, חברים ומכרים"
+    },
+    {
+      "location": "html > section III.a, paragraph beginning ״פטרוס ויוחנן״",
+      "severity": "minor",
+      "source_quote": "The power and presence of the Holy Spirit in our worship services brings results!",
+      "suggested_fix": "Replace ״מביאות לתוצאות״ with ״מביאים לתוצאות״ to agree with the compound subject ״כוחה ונוכחותה״.",
+      "translation_quote": "כוחה ונוכחותה של רוח הקודש באספות הפולחן שלנו מביאות לתוצאות!"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}
