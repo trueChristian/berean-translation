@@ -1,0 +1,35 @@
+{
+  "findings": [
+    {
+      "location": "html: aya ya kwanza, sentensi kuhusu ugonjwa wa wapendwa",
+      "severity": "major",
+      "source_quote": "Our loved ones might have a terminal illness.",
+      "suggested_fix": "Badilisha sentensi hiyo kuwa: “Wapendwa wetu huenda wana ugonjwa utakaosababisha kifo.”",
+      "translation_quote": "Wapendwa wetu huenda wana ugonjwa usiotibika."
+    },
+    {
+      "location": "html: nukuu ya Warumi 8:28",
+      "severity": "major",
+      "source_quote": "all things work together for good to them that love God, to them who are the called according to his purpose",
+      "suggested_fix": "Badilisha maandishi ndani ya <em> kuwa: “Nasi tunajua kwamba mambo yote hufanya kazi pamoja kwa mema kwa wale wanaompenda Mungu, wale walioitwa kulingana na kusudi lake —Warumi 8:28.”",
+      "translation_quote": "katika mambo yote Mungu hufanya kazi pamoja na wale wampendao katika kuwapatia mema, yaani, wale walioitwa kwa kusudi lake"
+    },
+    {
+      "location": "html: nukuu ya Ufunuo 21:1-4, kauli kuhusu Mungu kukaa na watu",
+      "severity": "major",
+      "source_quote": "and they shall be his people, and God himself shall be with them, and be their God.",
+      "suggested_fix": "Badilisha sehemu hiyo kuwa: “nao watakuwa watu wake, naye Mungu mwenyewe atakuwa pamoja nao, na kuwa Mungu wao.”",
+      "translation_quote": "nao watakuwa watu wake, naye atakuwa Mungu wao."
+    },
+    {
+      "location": "html: alt za picha zote mbili",
+      "severity": "minor",
+      "source_quote": "Storm clouds over a prairie road, left half of a two-page photograph; Storm clouds over a prairie, right half of a two-page photograph",
+      "suggested_fix": "Katika alt ya picha ya kwanza, badilisha “nyanda za prairie” kuwa “nyanda za nyasi”; fanya badiliko hilohilo katika alt ya picha ya pili. Hifadhi sifa nyingine zote za picha.",
+      "translation_quote": "Mawingu ya dhoruba juu ya barabara ya nyanda za prairie, nusu ya kushoto ya picha ya kurasa mbili; Mawingu ya dhoruba juu ya nyanda za prairie, nusu ya kulia ya picha ya kurasa mbili"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
