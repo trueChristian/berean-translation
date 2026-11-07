@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Absatz beginnend „Diese neue Geburt ist keine allmähliche Veränderung.“",
+      "severity": "major",
+      "source_quote": "“This new birth is not a slow change. It takes years, decades, or even generations.”",
+      "suggested_fix": "Die widersprüchliche Aussage des Originals beibehalten: „Diese neue Geburt ist keine allmähliche Veränderung. Sie dauert Jahre, Jahrzehnte oder sogar Generationen.“",
+      "translation_quote": "„Diese neue Geburt ist keine allmähliche Veränderung. Sie dauert nicht Jahre, Jahrzehnte oder gar Generationen.“"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

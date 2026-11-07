@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-07T02:47:10+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Absatz beginnend „Diese neue Geburt ist keine allmähliche Veränderung.“\",\"severity\":\"major\",\"source_quote\":\"“This new birth is not a slow change. It takes years, decades, or even generations.”\",\"suggested_fix\":\"Die widersprüchliche Aussage des Originals beibehalten: „Diese neue Geburt ist keine allmähliche Veränderung. Sie dauert Jahre, Jahrzehnte oder sogar Generationen.“\",\"translation_quote\":\"„Diese neue Geburt ist keine allmähliche Veränderung. Sie dauert nicht Jahre, Jahrzehnte oder gar Generationen.“\"}],\"findings_complete\":true,\"passed\":false,\"score\":90}",
+    "content_bytes": 614,
+    "content_evidence_truncated": false,
+    "content_sha256": "36f7906437c85c654a7fbd6f7c5e16aea469b66bcf0a56e64bdd61597fee655c",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 664,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7355,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7352,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8019
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}
