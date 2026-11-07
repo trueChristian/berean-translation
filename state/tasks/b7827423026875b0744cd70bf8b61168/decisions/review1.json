@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "html: ol > li:first-child, second sentence",
+      "severity": "minor",
+      "source_quote": "This is according to His fact, not according to our feeling.",
+      "suggested_fix": "Vervang “Dit is volgens sy Woord, nie volgens ons gevoel nie” met “Dit berus op sy werklikheid, nie op ons gevoel nie”.",
+      "translation_quote": "Dit is volgens sy Woord, nie volgens ons gevoel nie."
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

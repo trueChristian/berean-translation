@@ -2842,6 +2842,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/afr/articles/7a4d646a-0c04-4b44-a54f-ef63df487f81.html",
+      "html_sha256": "78892a9ef2c05f7be920d98091b919c377d0a12b2986c36578417f11afebab96",
+      "human_reviewed": false,
+      "id": "7a4d646a-0c04-4b44-a54f-ef63df487f81",
+      "images": [
+        {
+          "alt": "Die aarde snags vanuit ’n wentelbaan gesien, met verligte stede",
+          "public_path": "/images/articles/7a4d646a-0c04-4b44-a54f-ef63df487f81-1.jpg"
+        }
+      ],
+      "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
+      "language": "afr",
+      "language_tag": "af",
+      "metadata": "content/afr/articles/7a4d646a-0c04-4b44-a54f-ef63df487f81.json",
+      "metadata_sha256": "b53e1ae1daf71c3d07a6d0cd6e375cae94318cdca46f611c5a468a8f76731677",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "VAN DIE REDAKTEUR",
+      "source_revision": "a069ecca8827634ebc256b3b1cabc16aeb942ed7",
+      "source_translation_key": "e52f483f09dabafafef934afe52248c9117008e635c4f1ce75160e79a8b53b14",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Van die redakteur",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/afr/articles/7c9d5015-158a-4c07-92fc-ae40c998d9ae.html",
       "html_sha256": "adcec1769f6fda099f824aba137b0b0c0adc4bc4dbf170954c85d60fadb7e73c",
       "human_reviewed": false,

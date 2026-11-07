@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "14f30006-656f-4165-831e-81b264a6f90d",
+    "response_id": "chatcmpl-EhhsbZunxJxlJJegM10uKUWtyOzAz",
+    "usage": {
+      "completion_tokens": 195,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 73,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5812,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4709,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 6007
+    }
+  },
+  "received_at": "2026-11-07T21:08:52+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "html: ol > li:first-child, second sentence",
+        "severity": "minor",
+        "source_quote": "This is according to His fact, not according to our feeling.",
+        "suggested_fix": "Vervang “Dit is volgens sy Woord, nie volgens ons gevoel nie” met “Dit berus op sy werklikheid, nie op ons gevoel nie”.",
+        "translation_quote": "Dit is volgens sy Woord, nie volgens ons gevoel nie."
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 97
+  }
+}

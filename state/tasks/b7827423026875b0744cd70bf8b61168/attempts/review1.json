@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-07T21:08:52+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"html: ol > li:first-child, second sentence\",\"severity\":\"minor\",\"source_quote\":\"This is according to His fact, not according to our feeling.\",\"suggested_fix\":\"Vervang “Dit is volgens sy Woord, nie volgens ons gevoel nie” met “Dit berus op sy werklikheid, nie op ons gevoel nie”.\",\"translation_quote\":\"Dit is volgens sy Woord, nie volgens ons gevoel nie.\"}],\"findings_complete\":true,\"passed\":true,\"score\":97}",
+    "content_bytes": 440,
+    "content_evidence_truncated": false,
+    "content_sha256": "3c12ff86f484690e07c81a1859611680273979d9554fa08cf3462ea3460c7139",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 195,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 73,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5812,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4709,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 6007
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}
