@@ -90727,6 +90727,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/swa/articles/7a4d646a-0c04-4b44-a54f-ef63df487f81.html",
+      "html_sha256": "e922bd5210b6f84cbaacffd1b6ebc73fd98867850cf37af4d6403a5e9728a5ce",
+      "human_reviewed": false,
+      "id": "7a4d646a-0c04-4b44-a54f-ef63df487f81",
+      "images": [
+        {
+          "alt": "Dunia usiku inavyoonekana kutoka kwenye obiti, ikiwa na miji yenye mwanga",
+          "public_path": "/images/articles/7a4d646a-0c04-4b44-a54f-ef63df487f81-1.jpg"
+        }
+      ],
+      "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
+      "language": "swa",
+      "language_tag": "sw",
+      "metadata": "content/swa/articles/7a4d646a-0c04-4b44-a54f-ef63df487f81.json",
+      "metadata_sha256": "749789582393cb021b519ce3836b9482f4382ccb98f14d13eefd9fe7704e2639",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "KUTOKA KWA MHARIRI",
+      "source_revision": "a069ecca8827634ebc256b3b1cabc16aeb942ed7",
+      "source_translation_key": "e52f483f09dabafafef934afe52248c9117008e635c4f1ce75160e79a8b53b14",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Kutoka kwa Mhariri",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/swa/articles/7b699913-16ec-4087-9e0c-ca867e750d90.html",
       "html_sha256": "3d9689a0d68f14000eecf54f53be5a494bb85063343fa01eb8cd2060938a1d17",
       "human_reviewed": false,
