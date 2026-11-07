@@ -1941,6 +1941,9 @@
     "version": 1
   },
   "status": "active",
+  "task_counts": {
+    "queued": 1
+  },
   "tasks": [
     "fb1692339c5e1a75892ecd33d161d916"
   ]
