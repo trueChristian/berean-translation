@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "26082712-e471-479a-b89b-6f4b1a7ae923",
+    "response_id": "chatcmpl-EhhHMJHXYNRwINrq2EyRD03DhCoJG",
+    "usage": {
+      "completion_tokens": 208,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 59,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5891,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5888,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6099
+    }
+  },
+  "received_at": "2026-11-07T20:54:42+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "html: paragraph beginning “Tukizingatia yote haya”, prayer sentence",
+        "severity": "major",
+        "source_quote": "As we pray, we can ask God to bring people to our minds that would be blessed by our assistance of one sort or another.",
+        "suggested_fix": "Tunapoomba, tunaweza kumwomba Mungu atukumbushe watu ambao watabarikiwa na msaada wetu wa namna moja au nyingine.",
+        "translation_quote": "Tunapoomba, tunaweza kumwomba Mungu awakumbushe watu ambao watabarikiwa na msaada wetu wa namna moja au nyingine."
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 94
+  }
+}

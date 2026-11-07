@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-07T20:54:42+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"html: paragraph beginning “Tukizingatia yote haya”, prayer sentence\",\"severity\":\"major\",\"source_quote\":\"As we pray, we can ask God to bring people to our minds that would be blessed by our assistance of one sort or another.\",\"suggested_fix\":\"Tunapoomba, tunaweza kumwomba Mungu atukumbushe watu ambao watabarikiwa na msaada wetu wa namna moja au nyingine.\",\"translation_quote\":\"Tunapoomba, tunaweza kumwomba Mungu awakumbushe watu ambao watabarikiwa na msaada wetu wa namna moja au nyingine.\"}],\"findings_complete\":true,\"passed\":false,\"score\":94}",
+    "content_bytes": 576,
+    "content_evidence_truncated": false,
+    "content_sha256": "0d4d2e561c9807fc780756a48b3de3968f3227a11de7f904694cc97e625afb72",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 208,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 59,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5891,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5888,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6099
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}

@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "html: paragraph beginning “Tukizingatia yote haya”, prayer sentence",
+      "severity": "major",
+      "source_quote": "As we pray, we can ask God to bring people to our minds that would be blessed by our assistance of one sort or another.",
+      "suggested_fix": "Tunapoomba, tunaweza kumwomba Mungu atukumbushe watu ambao watabarikiwa na msaada wetu wa namna moja au nyingine.",
+      "translation_quote": "Tunapoomba, tunaweza kumwomba Mungu awakumbushe watu ambao watabarikiwa na msaada wetu wa namna moja au nyingine."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
