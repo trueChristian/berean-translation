@@ -1833,7 +1833,7 @@
   },
   "status": "active",
   "task_counts": {
-    "queued": 1
+    "in_batch": 1
   },
   "tasks": [
     "ed84e253666da22f9f768598dbbdc96c"
