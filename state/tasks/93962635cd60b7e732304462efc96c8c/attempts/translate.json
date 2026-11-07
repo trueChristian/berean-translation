@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-07T09:55:48+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"6c25be17-3343-451b-afeb-ed9c56942fd0\\\">\\n  <figure>\\n    <img src=\\\"/images/articles/6c25be17-3343-451b-afeb-ed9c56942fd0-1.jpg\\\" alt=\\\"Una vieja puerta de madera junto a un muro desgastado y ramas en flor.\\\">\\n  </figure>\\n  <p class=\\\"poem\\\">Ven, oh Viajero desconocido,<br>a quien aún sujeto, pero no puedo ver;<br>mi compañía se ha marchado,<br>contigo pienso quedarme toda la noche,<br>y luchar hasta el romper del día.</p>\\n  <p class=\\\"poem\\\">No necesito decirte quién soy,<br>mi miseria y mi pecado lo declaran;<br>tú mismo me has llamado por mi nombre,<br>¡mira tus manos y léelo allí!<br>Pero ¿quién eres, te pregunto, quién?<br>Dime tu nombre, y dímelo ahora.</p>\\n  <p class=\\\"poem\\\">En vano luchas por liberarte,<br>nunca soltaré mi presa:<br>¿Eres el Hombre que murió por mí?<br>Desvela el secreto de tu amor:<br>luchando, no te dejaré ir<br>hasta conocer tu nombre y tu naturaleza.</p>\\n  <p class=\\\"poem\\\">De nada sirve que calles<br>o que toques el hueco de mi muslo;<br>aunque se me desgarre cada tendón,<br>no escaparás de mis brazos;<br>luchando, no te dejaré ir<br>hasta conocer tu nombre y tu naturaleza.</p>\\n  <p class=\\\"poem\\\">¿Qué importa que mi carne, que se estremece, se queje<br>y murmure por luchar tanto tiempo?<br>Me elevo por encima de mi dolor;<br>cuando soy débil, entonces soy fuerte;<br>y cuando me falten todas las fuerzas,<br>prevaleceré con el Dios-hombre.</p>\\n  <p class=\\\"poem\\\">Se me han agotado las fuerzas, mi naturaleza muere,<br>me hundo bajo tu mano poderosa;<br>desfallezco para revivir, y caigo para levantarme;<br>caigo y, sin embargo, por la fe me mantengo en pie:<br>me mantengo en pie y no te dejaré ir<br>hasta conocer tu nombre y tu naturaleza.</p>\\n  <p class=\\\"poem\\\">Cede ahora ante mí, pues soy débil,<br>pero confío en mi propia desesperación;<br>háblale a mi corazón, háblale con bendiciones,<br>déjate vencer por mi oración apremiante:<br>habla, o no podrás marcharte de aquí,<br>y dime si tu nombre es Amor.</p>\\n  <p class=\\\"poem\\\">¡Es Amor! ¡Es Amor! Tú moriste por mí,<br>oigo tu susurro en mi corazón;<br>rompe la mañana, huyen las sombras,<br>eres Amor puro y universal:<br>hacia mí, hacia todos, se dirigen tus misericordias;<br>tu naturaleza y tu nombre son Amor.</p>\\n  <p class=\\\"poem\\\">Mi oración tiene poder ante Dios; la gracia<br>inefable recibo ahora;<br>por la fe te veo cara a cara,<br>¡te veo cara a cara y vivo!<br>No he llorado ni luchado en vano:<br>tu naturaleza y tu nombre son Amor.</p>\\n  <p class=\\\"poem\\\">Sé quién eres, Salvador:<br>Jesús, amigo del pecador débil;<br>no te marcharás con la noche,<br>sino que te quedarás y me amarás hasta el fin;<br>tus misericordias nunca se apartarán,<br>tu naturaleza y tu nombre son Amor.</p>\\n  <p class=\\\"poem\\\">El Sol de justicia<br>ha salido sobre mí con sanidad en sus alas;<br>marchita la fuerza de mi naturaleza, de ti<br>mi alma recibe su vida y su socorro;<br>toda mi ayuda está guardada en lo alto:<br>tu naturaleza y tu nombre son Amor.</p>\\n  <p class=\\\"poem\\\">Contento ahora, apoyado en mi muslo,<br>cojeo hasta que termine el breve viaje de la vida;<br>en toda mi impotencia, en toda mi debilidad,<br>solo de ti dependo para tener fuerzas;<br>ni siquiera tengo poder para alejarme de ti:<br>tu naturaleza y tu nombre son Amor.</p>\\n  <p class=\\\"poem\\\">Aunque cojee, me apodero de la presa,<br>venzo sin dificultad al infierno, la tierra y el pecado;<br>salto de alegría, sigo mi camino<br>y, como ciervo que brinca, vuelo a casa,<br>para comprobar por toda la eternidad<br>que tu naturaleza y tu nombre son Amor.</p>\\n  <p class=\\\"poem\\\">A Dios sea la gloria por el día<br>en que pude ver tu rostro sonriente,<br>el alba de tu misericordia, tu rayo matutino<br>y todas las riquezas de tu gracia:<br>por siempre se elevará mi canto:<br>tu naturaleza y tu nombre son Amor.</p>\\n</article>\\n\",\"section\":null,\"subtitle\":null,\"title\":\"La lucha de Jacob\"}",
+    "content_bytes": 3989,
+    "content_evidence_truncated": false,
+    "content_sha256": "60ca4d3d01d3a179387620299702ebae930ec794569c7baa0fd454d55e9b8135",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1306,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 77,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1946,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1943,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3252
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}
