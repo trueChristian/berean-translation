@@ -23441,6 +23441,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/deu/articles/affa9e6e-7d44-4174-ae66-fd44cfaeeaa0.html",
+      "html_sha256": "b85ed8c1d61e971e58fff427ec4835c90f024e3bf505ceba3ceba4112476386a",
+      "human_reviewed": false,
+      "id": "affa9e6e-7d44-4174-ae66-fd44cfaeeaa0",
+      "images": [
+        {
+          "alt": "Gewitterwolken über einer Präriestraße, linke Hälfte eines zweiseitigen Fotos",
+          "public_path": "/images/articles/affa9e6e-7d44-4174-ae66-fd44cfaeeaa0-1.jpg"
+        },
+        {
+          "alt": "Gewitterwolken über einer Prärie, rechte Hälfte eines zweiseitigen Fotos",
+          "public_path": "/images/articles/affa9e6e-7d44-4174-ae66-fd44cfaeeaa0-2.jpg"
+        }
+      ],
+      "issue_id": "4e575f26-fabd-5104-ba0d-d54ca032653b",
+      "language": "deu",
+      "language_tag": "de",
+      "metadata": "content/deu/articles/affa9e6e-7d44-4174-ae66-fd44cfaeeaa0.json",
+      "metadata_sha256": "325d14725c58810dcbc8b3300ca3d05b74e1306380c67ff3ce68611791b68b96",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "Ermutigung für christliche Frauen",
+      "source_revision": "22388745ad7f149609e65f5e28cfcc1257cd689e",
+      "source_translation_key": "589935b71d98b7f8c7ccc2aec7175a306daa35b8356cdcf6ebb03c78609b5a1a",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Bis der Sturm vorüberzieht",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/deu/articles/b3c8e9e3-2b81-4f91-846f-23e68fbd5b70.html",
       "html_sha256": "d76a5e4ce38f38b8c41d26a8638a3a68322362eff4acf204c49bf20fe72515d9",
       "human_reviewed": false,

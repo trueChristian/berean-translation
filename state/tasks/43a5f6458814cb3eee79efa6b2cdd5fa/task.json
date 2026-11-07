@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "b38111fef9e048bdb2d23ff6e76f78f1",
   "campaign": "auto-5b66eb3f36a98863d2c76e36e65ff5d949f3e9689ca2f1c6515eb47616ddc0fc",
   "created_at": "2026-11-06T23:39:13+00:00",
   "events": [
@@ -48,18 +47,31 @@
         },
         "total_tokens": 5811
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 56,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 24,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4136,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 4133,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4192
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "translation.html – Liedtext, Strophe „Oft flüsterte Satan“, zweite Zeile",
-      "severity": "major",
-      "source_quote": "For there’s no end of sorrow, there’s no hope by and by",
-      "suggested_fix": "denn das Leid nimmt kein Ende, und auch in Zukunft gibt es keine Hoffnung.",
-      "translation_quote": "denn das Leid nimmt kein Ende, und bald gibt es keine Hoffnung mehr."
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-11-07T10:13:35+00:00",
   "id": "43a5f6458814cb3eee79efa6b2cdd5fa",
   "issue_id": "4e575f26-fabd-5104-ba0d-d54ca032653b",
   "language": "deu",
@@ -148,7 +160,7 @@
     }
   },
   "protected": false,
-  "quality_score": 94,
+  "quality_score": 99,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6.1-sol",
@@ -167,7 +179,7 @@
     "total_reserved_usd": 0.703367,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "589935b71d98b7f8c7ccc2aec7175a306daa35b8356cdcf6ebb03c78609b5a1a",
   "translation_model_actual": "gpt-6.1-sol"
