@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "9f1a7f5a-146a-47f7-9cd5-a26c1296e01e",
+    "response_id": "chatcmpl-EhehOv5xq99QFYIXnatAY3WQhHOwB",
+    "usage": {
+      "completion_tokens": 782,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 649,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3502,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3499,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4284
+    }
+  },
+  "received_at": "2026-11-07T20:17:23+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Poem, stanza 12, lines 3–4",
+        "severity": "minor",
+        "source_quote": "All helplessness, all weakness, I / On thee alone for strength depend;",
+        "suggested_fix": "Toda a impotência, toda a fraqueza, eu / Só de ti dependo para ter força;",
+        "translation_quote": "Toda a minha impotência, toda a minha fraqueza, / Somente de ti dependem para ter força;"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 97
+  }
+}

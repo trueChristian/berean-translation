@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "2f1a7d5bf97e4043b70a67706cfb5d4a",
   "campaign": "auto-07faac3492eb337deb2201a5a8d5e590865581b9dbcb9669844ac05213ab40ca",
   "created_at": "2026-11-07T03:35:22+00:00",
   "events": [
@@ -28,10 +27,39 @@
         },
         "total_tokens": 3379
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 782,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 649,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3502,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 3499,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4284
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "Poem, stanza 12, lines 3–4",
+      "severity": "minor",
+      "source_quote": "All helplessness, all weakness, I / On thee alone for strength depend;",
+      "suggested_fix": "Toda a impotência, toda a fraqueza, eu / Só de ti dependo para ter força;",
+      "translation_quote": "Toda a minha impotência, toda a minha fraqueza, / Somente de ti dependem para ter força;"
+    }
+  ],
+  "finished_at": "2026-11-07T20:17:23+00:00",
   "id": "4819df85318096f1e9e8367bcb4d3fe7",
   "issue_id": "103c93e0-6e9a-44f6-a6bc-377af8e08e38",
   "language": "por",
@@ -120,9 +148,11 @@
     }
   },
   "protected": false,
+  "quality_score": 97,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/9d1635e3bd5ab75f1e24d51f491424a977dd8f697473a7308d40b9aab6f4782e.json",
   "stage": "review1",
   "stage_budget": {
@@ -138,7 +168,7 @@
     "total_reserved_usd": 0.086785,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "06e2bba937ce86ced2a2682fcfc332bcc329e09bbb284783b9affc01916db9ff",
   "translation_model_actual": "gpt-6-luna"

@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Poem, stanza 12, lines 3–4",
+      "severity": "minor",
+      "source_quote": "All helplessness, all weakness, I / On thee alone for strength depend;",
+      "suggested_fix": "Toda a impotência, toda a fraqueza, eu / Só de ti dependo para ter força;",
+      "translation_quote": "Toda a minha impotência, toda a minha fraqueza, / Somente de ti dependem para ter força;"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}
