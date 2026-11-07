@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "daf8356f-c9f1-47cf-8e8f-871434b87d58",
+    "response_id": "chatcmpl-EhdKnsQUWS1mWkOWTfnCoDmNRRIdi",
+    "usage": {
+      "completion_tokens": 1478,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 76,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1943,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1940,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3421
+    }
+  },
+  "received_at": "2026-11-07T16:18:59+00:00",
+  "result": {
+    "html": "<article data-article-id=\"6c25be17-3343-451b-afeb-ed9c56942fd0\">\n  <figure>\n    <img src=\"/images/articles/6c25be17-3343-451b-afeb-ed9c56942fd0-1.jpg\" alt=\"Pintu kayu tua di samping dinding lapuk dan ranting-ranting berbunga.\">\n  </figure>\n  <p class=\"poem\">Datanglah, hai Pengembara yang tak kukenal,<br>Yang tetap kupegang, tetapi tak dapat kulihat;<br>Kawanku yang tadi telah pergi,<br>Bersamamu sepanjang malam aku hendak tinggal,<br>Dan bergulat hingga fajar menyingsing.</p>\n  <p class=\"poem\">Tak perlu kukatakan siapa diriku,<br>Penderitaan dan dosaku menyatakannya;<br>Engkau sendiri telah memanggilku dengan namaku,<br>Lihatlah tangan-Mu, dan bacalah namaku di sana!<br>Namun siapa, tanyaku, siapakah Engkau?<br>Katakan nama-Mu, katakan sekarang.</p>\n  <p class=\"poem\">Sia-sia engkau berjuang untuk membebaskan diri,<br>Aku takkan pernah melepaskan peganganku:<br>Engkaukah Dia yang mati bagiku?<br>Ungkapkanlah rahasia kasih-Mu:<br>Aku akan bergulat, takkan membiarkan-Mu pergi,<br>Sampai kukenal nama-Mu dan hakikat-Mu.</p>\n  <p class=\"poem\">Sia-sia saja engkau membungkam diri,<br>Atau menyentuh pangkal pahaku;<br>Meski setiap urat sarafku terlepas,<br>Engkau takkan lolos dari pelukanku;<br>Aku akan bergulat, takkan membiarkan-Mu pergi,<br>Sampai kukenal nama-Mu dan hakikat-Mu.</p>\n  <p class=\"poem\">Apa peduliku jika dagingku yang gentar mengeluh,<br>Dan menggerutu karena begitu lama bergulat?<br>Aku mengatasi rasa sakitku,<br>Saat aku lemah, saat itulah aku kuat;<br>Dan ketika seluruh kekuatanku habis,<br>Aku akan menang atas Allah-manusia itu.</p>\n  <p class=\"poem\">Kekuatanku habis, kodratku binasa,<br>Aku rebah di bawah tangan-Mu yang berat;<br>Lemas untuk bangkit, jatuh untuk berdiri;<br>Aku jatuh, tetapi oleh iman aku tetap berdiri:<br>Aku berdiri, dan takkan membiarkan-Mu pergi,<br>Sampai kukenal nama-Mu dan hakikat-Mu.</p>\n  <p class=\"poem\">Menyerahlah kepadaku sekarang—sebab aku lemah,<br>Namun teguh dalam keputusasaan akan diriku sendiri;<br>Bicaralah kepada hatiku, ucapkanlah berkat,<br>Kalahkanlah aku oleh doaku yang mendesak:<br>Bicaralah, atau Engkau takkan pergi dari sini,<br>Dan katakan apakah nama-Mu adalah Kasih.</p>\n  <p class=\"poem\">Kasih! Kasih! Engkau mati bagiku,<br>Kudengar bisikan-Mu di dalam hatiku;<br>Fajar menyingsing, bayang-bayang lenyap,<br>Engkaulah Kasih yang murni dan universal:<br>Belas kasih-Mu tertuju kepadaku dan semua orang—<br>Hakikat-Mu dan nama-Mu adalah Kasih.</p>\n  <p class=\"poem\">Doaku berkuasa di hadapan Allah; anugerah<br>Yang tak terkatakan kini kuterima;<br>Oleh iman aku melihat-Mu berhadapan muka,<br>Aku melihat-Mu berhadapan muka dan hidup!<br>Sia-sia bukan tangis dan perjuanganku—<br>Hakikat-Mu dan nama-Mu adalah Kasih.</p>\n  <p class=\"poem\">Aku mengenal-Mu, Juruselamat, siapa Engkau,<br>Yesus, sahabat orang berdosa yang lemah;<br>Engkau takkan pergi bersama malam,<br>Melainkan tinggal dan mengasihiku sampai akhir,<br>Belas kasih-Mu takkan pernah sirna,<br>Hakikat-Mu dan nama-Mu adalah Kasih.</p>\n  <p class=\"poem\">Matahari Kebenaran telah terbit bagiku<br>Dengan kesembuhan pada sayap-sayap-Nya;<br>Kekuatan kodratku telah layu; dari-Mu<br>Jiwaku memperoleh hidup dan pertolongan;<br>Segala pertolonganku tersimpan di atas—<br>Hakikat-Mu dan nama-Mu adalah Kasih.</p>\n  <p class=\"poem\">Kini dengan hati puas, aku bertumpu pada pahaku,<br>Berjalan terpincang-pincang hingga perjalanan hidup yang singkat berakhir;<br>Dalam segala ketidakberdayaan dan kelemahan, aku<br>Bergantung hanya kepada-Mu untuk memperoleh kekuatan;<br>Aku tak berdaya menjauh dari-Mu—<br>Hakikat-Mu dan nama-Mu adalah Kasih.</p>\n  <p class=\"poem\">Meski pincang, aku meraih rampasan,<br>Neraka, bumi, dan dosa dengan mudah kukalahkan;<br>Aku melompat kegirangan, melanjutkan perjalananku,<br>Dan pulang terbang seperti rusa yang melompat-lompat,<br>Untuk membuktikan sepanjang kekekalan<br>Hakikat-Mu dan nama-Mu adalah Kasih.</p>\n  <p class=\"poem\">Bagi Allah kemuliaan atas hari itu,<br>Ketika aku dapat melihat wajah-Mu yang tersenyum,<br>Fajar belas kasih-Mu, sinar pagi-Mu,<br>Dan segala kekayaan anugerah-Mu:<br>Nyanyianku akan terus berkumandang selamanya,<br>Hakikat-Mu dan nama-Mu adalah Kasih.</p>\n</article>\n",
+    "section": null,
+    "subtitle": null,
+    "title": "Yakub Bergulat"
+  }
+}
