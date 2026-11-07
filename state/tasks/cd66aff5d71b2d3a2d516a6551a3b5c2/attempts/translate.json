@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-07T16:37:31+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"6c25be17-3343-451b-afeb-ed9c56942fd0\\\">\\n  <figure>\\n    <img src=\\\"/images/articles/6c25be17-3343-451b-afeb-ed9c56942fd0-1.jpg\\\" alt=\\\"Eine alte Holztür neben einer verwitterten Mauer und blühenden Zweigen.\\\">\\n  </figure>\\n  <p class=\\\"poem\\\">Komm, unbekannter Wandrer, komm,<br>den ich noch halte, doch nicht seh;<br>meine Gefährten sind voraus,<br>mit dir bleib ich die ganze Nacht<br>und ringe, bis der Morgen tagt.</p>\\n  <p class=\\\"poem\\\">Ich muss dir nicht sagen, wer ich bin,<br>mein Elend und meine Sünd’ bekenn’n’s;<br>du selbst hast mich bei meinem Namen gerufen,<br>sieh deine Hände an und lies ihn dort!<br>Doch wer bist du, frag ich dich,<br>sag mir deinen Namen, sag ihn jetzt.</p>\\n  <p class=\\\"poem\\\">Vergeblich ringst du dich hier frei,<br>ich lass dich niemals aus dem Griff:<br>Bist du der Mann, der für mich starb?<br>Enthülle mir das Geheimnis deiner Liebe:<br>Im Ringen lass ich dich nicht los,<br>bis ich deinen Namen, dein Wesen kenn.</p>\\n  <p class=\\\"poem\\\">Vergeblich schweigst du still,<br>oder berührst meine Hüftpfanne;<br>selbst wenn jede Sehne sich löst,<br>entkommst du meinen Armen nicht;<br>im Ringen lass ich dich nicht los,<br>bis ich deinen Namen, dein Wesen kenn.</p>\\n  <p class=\\\"poem\\\">Was, wenn mein bebendes Fleisch klagt<br>und murrt, so lange zu ringen?<br>Ich erhebe mich über meinen Schmerz,<br>wenn ich schwach bin, dann bin ich stark;<br>und wenn all meine Kraft versagt,<br>wird mir der Gottmensch unterliegen.</p>\\n  <p class=\\\"poem\\\">Meine Kraft ist dahin, mein Wesen schwindet,<br>ich sinke unter deiner schweren Hand;<br>ich sinke, um neu zu leben, falle, um aufzustehen;<br>ich falle und stehe doch durch Glauben:<br>ich stehe und lass dich nicht los,<br>bis ich deinen Namen, dein Wesen kenn.</p>\\n  <p class=\\\"poem\\\">Gib dich mir jetzt hin – denn ich bin schwach,<br>doch zuversichtlich in meiner Verzweiflung;<br>sprich zu meinem Herzen, sprich Segen,<br>lass dich durch mein dringendes Gebet besiegen:<br>Sprich, sonst gehst du niemals fort,<br>und sag mir, ob dein Name Liebe ist.</p>\\n  <p class=\\\"poem\\\">Es ist Liebe! Liebe! Du starbst für mich,<br>ich hör dein Flüstern in meinem Herzen;<br>der Morgen bricht an, die Schatten fliehn,<br>reine, allumfassende Liebe bist du:<br>zu mir, zu allen strömt deine Gnade –<br>dein Wesen und dein Name ist Liebe.</p>\\n  <p class=\\\"poem\\\">Mein Gebet vermag etwas bei Gott; die Gnade,<br>unaussprechlich, empfange ich jetzt;<br>durch Glauben seh ich dich von Angesicht zu Angesicht,<br>ich seh dich von Angesicht zu Angesicht und lebe!<br>Vergeblich hab ich nicht geweint und gerungen –<br>dein Wesen und dein Name ist Liebe.</p>\\n  <p class=\\\"poem\\\">Ich kenne dich, Retter, wer du bist,<br>Jesus, Freund des schwachen Sünders;<br>du wirst auch nicht mit der Nacht fortgehen,<br>sondern bleiben und mich lieben bis ans Ende,<br>deine Gnade wird niemals weichen,<br>dein Wesen und dein Name ist Liebe.</p>\\n  <p class=\\\"poem\\\">Die Sonne der Gerechtigkeit<br>ist mir aufgegangen mit Heilung unter ihren Flügeln;<br>die Kraft meines Wesens ist versiegt, von dir<br>empfängt meine Seele Leben und Hilfe;<br>meine Hilfe ist ganz oben aufbewahrt –<br>dein Wesen und dein Name ist Liebe.</p>\\n  <p class=\\\"poem\\\">Nun zufrieden, auf meiner Hüfte,<br>hink ich, bis die kurze Lebensreise endet;<br>ganz hilflos, völlig schwach,<br>bin ich allein auf dich angewiesen um Kraft;<br>ich vermag mich nicht von dir zu lösen –<br>dein Wesen und dein Name ist Liebe.</p>\\n  <p class=\\\"poem\\\">Obwohl ich lahm bin, ergreif ich die Beute,<br>Hölle, Erde und Sünde überwind ich mühelos;<br>voll Freude spring ich und setze meinen Weg fort,<br>und fliege wie ein springender Hirsch nach Hause,<br>um in alle Ewigkeit zu erfahren:<br>dein Wesen und dein Name ist Liebe.</p>\\n  <p class=\\\"poem\\\">Gott sei die Ehre für den Tag,<br>an dem ich dein lächelndes Angesicht sah,<br>den Anbruch deiner Gnade, deinen Morgenstrahl<br>und all den Reichtum deiner Gnade:<br>für immer soll mein Lied verkünden:<br>dein Wesen und dein Name ist Liebe.</p>\\n</article>\\n\",\"section\":null,\"subtitle\":null,\"title\":\"Der ringende Jakob\"}",
+    "content_bytes": 4176,
+    "content_evidence_truncated": false,
+    "content_sha256": "0df7405f699e4f6144744b8736b9f18854d6227e681d0c51b4898b225f23cc34",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1696,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 421,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1941,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1938,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3637
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}
