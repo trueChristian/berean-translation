@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "translation.html, citazione di Apocalisse 21:1-4",
+      "severity": "minor",
+      "source_quote": "they shall be his people",
+      "suggested_fix": "Sostituire «essi saranno suoi popoli» con «essi saranno il suo popolo».",
+      "translation_quote": "essi saranno suoi popoli"
+    },
+    {
+      "location": "translation.html, paragrafo sui discepoli nella tempesta",
+      "severity": "minor",
+      "source_quote": "He is with us too.",
+      "suggested_fix": "Sostituire «È con noi anche Lui» con «È anche con noi».",
+      "translation_quote": "È con noi anche Lui."
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

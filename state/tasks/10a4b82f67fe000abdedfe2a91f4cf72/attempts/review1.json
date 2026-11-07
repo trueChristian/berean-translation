@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-07T16:19:50+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"translation.html, citazione di Apocalisse 21:1-4\",\"severity\":\"minor\",\"source_quote\":\"they shall be his people\",\"suggested_fix\":\"Sostituire «essi saranno suoi popoli» con «essi saranno il suo popolo».\",\"translation_quote\":\"essi saranno suoi popoli\"},{\"location\":\"translation.html, paragrafo sui discepoli nella tempesta\",\"severity\":\"minor\",\"source_quote\":\"He is with us too.\",\"suggested_fix\":\"Sostituire «È con noi anche Lui» con «È anche con noi».\",\"translation_quote\":\"È con noi anche Lui.\"}],\"findings_complete\":true,\"passed\":true,\"score\":97}",
+    "content_bytes": 581,
+    "content_evidence_truncated": false,
+    "content_sha256": "6ea630fddf2243d0fbb25c2370affad0c943d5e704485bd590a6623d1f005ed9",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 256,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 96,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4233,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3130,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 4489
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}

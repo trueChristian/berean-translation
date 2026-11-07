@@ -54255,6 +54255,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ita/articles/affa9e6e-7d44-4174-ae66-fd44cfaeeaa0.html",
+      "html_sha256": "192d29dfaa167dd03ab2a4b8eb618a49c9bac76f5c8f1e482d6fde5c0389a49e",
+      "human_reviewed": false,
+      "id": "affa9e6e-7d44-4174-ae66-fd44cfaeeaa0",
+      "images": [
+        {
+          "alt": "Nuvole temporalesche sopra una strada nella prateria, metà sinistra di una fotografia su due pagine",
+          "public_path": "/images/articles/affa9e6e-7d44-4174-ae66-fd44cfaeeaa0-1.jpg"
+        },
+        {
+          "alt": "Nuvole temporalesche sopra la prateria, metà destra di una fotografia su due pagine",
+          "public_path": "/images/articles/affa9e6e-7d44-4174-ae66-fd44cfaeeaa0-2.jpg"
+        }
+      ],
+      "issue_id": "4e575f26-fabd-5104-ba0d-d54ca032653b",
+      "language": "ita",
+      "language_tag": "it",
+      "metadata": "content/ita/articles/affa9e6e-7d44-4174-ae66-fd44cfaeeaa0.json",
+      "metadata_sha256": "5b98deb22d1c5443bbc134c6a53df888ed3981d007c2359a29999cd97adb7415",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "Incoraggiamento per le donne cristiane",
+      "source_revision": "22388745ad7f149609e65f5e28cfcc1257cd689e",
+      "source_translation_key": "589935b71d98b7f8c7ccc2aec7175a306daa35b8356cdcf6ebb03c78609b5a1a",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Finché la tempesta non sarà passata",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ita/articles/b37f8111-4563-4b5b-ab9f-1f87bcd2b46a.html",
       "html_sha256": "e60c8d884c1e8c4942dff024adbe8c710234de4ceb2d9f8dff4d85152f48854d",
       "human_reviewed": false,

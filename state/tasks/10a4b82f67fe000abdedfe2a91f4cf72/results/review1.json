@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "1fde859a-bdf8-4c24-999f-95fb69d32b05",
+    "response_id": "chatcmpl-EhYJBJ6Hq2DNIcn8HmdACMIDySUFL",
+    "usage": {
+      "completion_tokens": 256,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 96,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4233,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3130,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 4489
+    }
+  },
+  "received_at": "2026-11-07T16:19:50+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "translation.html, citazione di Apocalisse 21:1-4",
+        "severity": "minor",
+        "source_quote": "they shall be his people",
+        "suggested_fix": "Sostituire «essi saranno suoi popoli» con «essi saranno il suo popolo».",
+        "translation_quote": "essi saranno suoi popoli"
+      },
+      {
+        "location": "translation.html, paragrafo sui discepoli nella tempesta",
+        "severity": "minor",
+        "source_quote": "He is with us too.",
+        "suggested_fix": "Sostituire «È con noi anche Lui» con «È anche con noi».",
+        "translation_quote": "È con noi anche Lui."
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 97
+  }
+}
