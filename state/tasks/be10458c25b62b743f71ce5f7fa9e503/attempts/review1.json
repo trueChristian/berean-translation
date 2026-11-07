@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-07T23:41:50+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"html: stycket före punktlistan ”… har vi HOPP!”, citatet ur 1 Korinthierbrevet 15:19\",\"severity\":\"major\",\"source_quote\":\"If in this life only we have hope in Christ, we are of all men most miserable\",\"suggested_fix\":\"Ändra citatets inledning till: ”Om vårt hopp i Kristus gäller endast detta livet, då är vi de mest beklagansvärda av alla människor”. Behåll em-taggen och bibelhänvisningen.\",\"translation_quote\":\"Om vi i detta livet endast har ett hopp i Kristus, då är vi de mest beklagansvärda av alla människor\"}],\"findings_complete\":true,\"passed\":false,\"score\":94}",
+    "content_bytes": 618,
+    "content_evidence_truncated": false,
+    "content_sha256": "1d6e80c08fda0891cbdc6214e860148293543d7bcadf3e973868e68b0d4ab838",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 255,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 81,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5735,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5732,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5990
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}
