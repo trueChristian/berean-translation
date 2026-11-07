@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph 3",
+      "severity": "minor",
+      "source_quote": "A tear slides down his cheek as he remembers all the wrong that he has done.",
+      "suggested_fix": "’n Traan rol oor sy wang terwyl hy alles onthou wat hy verkeerd gedoen het.",
+      "translation_quote": "’n Traan rol oor sy wang terwyl hy alles verkeerd onthou wat hy gedoen het."
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

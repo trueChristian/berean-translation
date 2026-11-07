@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-07T23:41:12+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph 3\",\"severity\":\"minor\",\"source_quote\":\"A tear slides down his cheek as he remembers all the wrong that he has done.\",\"suggested_fix\":\"’n Traan rol oor sy wang terwyl hy alles onthou wat hy verkeerd gedoen het.\",\"translation_quote\":\"’n Traan rol oor sy wang terwyl hy alles verkeerd onthou wat hy gedoen het.\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 400,
+    "content_evidence_truncated": false,
+    "content_sha256": "6b7e4d4b41f932ab753e71762691ec140663ea4b0190475c2a56972740f2ba33",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 593,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 480,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7665,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7662,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8258
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}
