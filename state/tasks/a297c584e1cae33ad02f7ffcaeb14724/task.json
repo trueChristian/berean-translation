@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "93771efccd7f472d82f8a5964ce74c99",
   "campaign": "auto-c1058e5c798820b4dc8e8de1ea2f1116dd62dbd4edffe62c62b1d7ab44a27140",
   "created_at": "2026-11-07T16:24:52+00:00",
   "events": [
@@ -28,10 +27,38 @@
         },
         "total_tokens": 3277
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1080,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 976,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3630,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 2527,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 4710
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "Poem stanza beginning “Yield to me now,” line 2",
+      "severity": "major",
+      "source_quote": "But confident in self-despair;",
+      "suggested_fix": "Maar vol vertroue omdat ek aan myself wanhoop;",
+      "translation_quote": "Maar vol vertroue in my eie wanhoop;"
+    }
+  ],
   "id": "a297c584e1cae33ad02f7ffcaeb14724",
   "issue_id": "103c93e0-6e9a-44f6-a6bc-377af8e08e38",
   "language": "afr",
@@ -120,11 +147,13 @@
     }
   },
   "protected": false,
+  "quality_score": 94,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/9d1635e3bd5ab75f1e24d51f491424a977dd8f697473a7308d40b9aab6f4782e.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "translate",
     "max_candidate_bytes": 120000,
@@ -138,7 +167,7 @@
     "total_reserved_usd": 0.086769,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "06e2bba937ce86ced2a2682fcfc332bcc329e09bbb284783b9affc01916db9ff",
   "translation_model_actual": "gpt-6-luna"

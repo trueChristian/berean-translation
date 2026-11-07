@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-07T23:41:38+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Poem stanza beginning “Yield to me now,” line 2\",\"severity\":\"major\",\"source_quote\":\"But confident in self-despair;\",\"suggested_fix\":\"Maar vol vertroue omdat ek aan myself wanhoop;\",\"translation_quote\":\"Maar vol vertroue in my eie wanhoop;\"}],\"findings_complete\":true,\"passed\":false,\"score\":94}",
+    "content_bytes": 323,
+    "content_evidence_truncated": false,
+    "content_sha256": "cf69399155a887029a22cacb66e21fb86a7de34e996e19dc6f72f6714bbc885d",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1080,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 976,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3630,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2527,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 4710
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}
