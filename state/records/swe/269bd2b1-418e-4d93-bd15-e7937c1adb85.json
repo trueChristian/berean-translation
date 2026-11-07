@@ -19,9 +19,32 @@
       "event": "automatic_requested",
       "previous_task": "1511748389531d316550aef6a78ed70d",
       "task": "d58dfd2568fedb081a053f485a76f6d9"
+    },
+    {
+      "at": "2026-11-07T20:18:50+00:00",
+      "event": "complete",
+      "reason": null,
+      "task": "d58dfd2568fedb081a053f485a76f6d9"
     }
   ],
   "language": "swe",
   "latest_task": "d58dfd2568fedb081a053f485a76f6d9",
-  "published": null
+  "published": {
+    "html_path": "content/swe/articles/269bd2b1-418e-4d93-bd15-e7937c1adb85.html",
+    "html_sha256": "ed19c77fd3e5f83355bbc4c7838c99f19a339ed3c6340cb795e901b4df93ad88",
+    "human_review": null,
+    "human_reviewed": false,
+    "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
+    "metadata_path": "content/swe/articles/269bd2b1-418e-4d93-bd15-e7937c1adb85.json",
+    "metadata_sha256": "fcdb969518e73705970639688ba851834185fc69fdb118263c4942b2c1073ee2",
+    "model": "gpt-6.1-sol",
+    "notice_html": "<aside class=\"translation-notice\" data-translation-notice=\"ai\" lang=\"sv\" dir=\"ltr\" role=\"note\">\n  <p>Denna artikel har översatts med artificiell intelligens från OpenAI (modell: gpt-6.1-sol) och har ännu inte granskats av en människa. Det engelska originalet är den auktoritativa versionen. Vid osäkerhet om innebörden, se det engelska originalet. <a href=\"/en/articles/269bd2b1-418e-4d93-bd15-e7937c1adb85/\" data-source-article-id=\"269bd2b1-418e-4d93-bd15-e7937c1adb85\" hreflang=\"en\">Engelskt original</a></p>\n</aside>",
+    "published_at": "2026-11-07T20:18:50+00:00",
+    "quality_score": 98,
+    "review_model": "gpt-6.1-sol",
+    "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+    "source_snapshot": "state/sources/cff3b99283ac5731e52f58a9f2a616f2665b7254c005e40044018899ae3703d0.json",
+    "task": "d58dfd2568fedb081a053f485a76f6d9",
+    "translation_key": "fc44b039aea712201d6120cdd0a9cc720777f5be0958b210ab2feef1a8e2d639"
+  }
 }

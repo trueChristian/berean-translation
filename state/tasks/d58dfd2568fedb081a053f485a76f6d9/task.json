@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "5f0c353be1114158bfbdf209f915eb2e",
   "campaign": "auto-f1718d0d3d1e62a435fa686714f7553cfe0d29143e8f9dd2590adee86fc947ec",
   "created_at": "2026-11-03T16:46:28+00:00",
   "events": [
@@ -48,81 +47,31 @@
         },
         "total_tokens": 15409
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 165,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 133,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9532,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8429,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 9697
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "translation.html, blockquote, all three paragraphs",
-      "severity": "major",
-      "source_quote": "Ye have heard that it hath been said, An eye for an eye ... sendeth rain on the just and on the unjust.",
-      "suggested_fix": "Translate all three paragraphs while preserving their tags: <p><em>”Ni har hört att det har sagts: Öga för öga och tand för tand. Men jag säger er: Gör inte motstånd mot det onda. Om någon slår dig på högra kinden, vänd också den andra mot honom.</em></p><p><em>Om någon vill dra dig inför rätta och ta din tunika, låt honom också få din mantel. Om någon tvingar dig att gå en mil, gå två med honom. Ge åt den som ber dig, och vänd dig inte bort från den som vill låna av dig.</em></p><p><em>Ni har hört att det har sagts: Du ska älska din nästa och hata din fiende. Men jag säger er: Älska era fiender, välsigna dem som förbannar er, gör gott mot dem som hatar er och be för dem som behandlar er illa och förföljer er, så att ni blir er himmelske Faders barn. Han låter sin sol gå upp över onda och goda och låter det regna över rättfärdiga och orättfärdiga.”</em></p>",
-      "translation_quote": "“I have heard that it was said, An eye for an eye ... And if any man will sue thee ... Ye have heard that it hath been said, Thou shalt love thy neighbour ..."
-    },
-    {
-      "location": "translation.html, paragraph beginning “Jag har alltid varit”",
-      "severity": "major",
-      "source_quote": "clearing of the heart of any known, unconfessed sin",
-      "suggested_fix": "Replace “från någon känd, obekänd synd” with “från all känd synd som ännu inte har bekänts”.",
-      "translation_quote": "rensa hjärtat från någon känd, obekänd synd"
-    },
-    {
-      "location": "translation.html, opening quotation and repeated Luke quotation in paragraph beginning “Fysisk svaghet”",
-      "severity": "major",
-      "source_quote": "To preach the acceptable year of the Lord –Luke 4:18-19.",
-      "suggested_fix": "In both occurrences, replace “Att förkunna Herrens nådegärning” with “att förkunna Herrens nådeår”, preserving the existing references and tags.",
-      "translation_quote": "Att förkunna Herrens nådegärning –Lukas 4:18-19.; Att förkunna Herrens nådegärning – Lukas 4:18-19."
-    },
-    {
-      "location": "translation.html, final Psalm quotation",
-      "severity": "major",
-      "source_quote": "all that is within me, bless his holy name ... forget not all his benefits",
-      "suggested_fix": "Replace “alla som är inom mig” with “allt som finns inom mig” and “glöm icke något av hans välbehag” with “glöm inte alla hans välgärningar”.",
-      "translation_quote": "alla som är inom mig, välsigna hans heliga namn ... glöm icke något av hans välbehag"
-    },
-    {
-      "location": "translation.html, paragraph about January 2021 radiation treatments",
-      "severity": "minor",
-      "source_quote": "I breezed through the treatments",
-      "suggested_fix": "Replace “Jag gick igenom behandlingarna” with “Jag klarade behandlingarna utan svårigheter”.",
-      "translation_quote": "Jag gick igenom behandlingarna"
-    },
-    {
-      "location": "translation.title, translation.subtitle, and translation.html paragraph introducing the mountain scene",
-      "severity": "minor",
-      "source_quote": "Discipleship—The Path of Healing; The Discipleship Series; This is a discipleship series.",
-      "suggested_fix": "Use “Lärjungaskap – helandets väg” for the title, “Serien om lärjungaskap” for the subtitle, and “Detta är en serie om lärjungaskap.” in the paragraph.",
-      "translation_quote": "Disciplesskap — Helandets väg; Disciplesskapet — Serie; Detta är en discipleskapsserie."
-    },
-    {
-      "location": "translation.html, James references and Hebrews references",
-      "severity": "minor",
-      "source_quote": "James 5:14-16; Hebrews 4:15-16; Hebrews 4:1-2",
-      "suggested_fix": "Use the conventional Swedish book names “Jakobsbrevet 5:14-16”, “Hebreerbrevet 4:15-16”, and “Hebreerbrevet 4:1-2”, retaining their current placement.",
-      "translation_quote": "Jakob 5:14-16; Hebréerna 4:15-16; Hebréerna 4:1-2"
-    },
-    {
-      "location": "translation.html, Hebrews 4:1-2 quotation",
-      "severity": "minor",
-      "source_quote": "Let us therefore fear, lest, a promise being left us of entering into his rest, any of you should seem to come short of it.",
-      "suggested_fix": "Replace the opening sentence with “Låt oss därför vara på vår vakt, så att ingen av er visar sig gå miste om löftet att komma in i hans vila, ett löfte som fortfarande gäller.”",
-      "translation_quote": "Låt oss därför frukta, att, ett löfte att inträda i hans vila blivit oss lämnat, någon av er synes komma kort därav."
-    },
-    {
-      "location": "translation.html, Mark 2 paragraph",
-      "severity": "minor",
-      "source_quote": "“Which is easier to say <em>rise up and walk</em> or <em>thy sins be forgiven</em>”",
-      "suggested_fix": "Restore the emphasis tags around the corresponding phrases: ”Vad är lättare att säga, <em>stå upp och gå</em> eller <em>dina synder är förlåtna</em>?”",
-      "translation_quote": "”Vad är lättare att säga, stå upp och gå eller dina synder är förlåtna?”"
-    },
-    {
-      "location": "translation.html, paragraphs about Nazareth, Jesus’ ministry, and examining the heart",
-      "severity": "minor",
-      "source_quote": "Jesus was in His hometown ... Jesus came to provide a remedy ... I searched my heart",
-      "suggested_fix": "Replace “i Hans hemstad” with “i sin hemstad”, “för att förse en bot” with “för att ge ett botemedel”, and “sökte jag mitt hjärta” with “rannsakade jag mitt hjärta”.",
-      "translation_quote": "Jesus var i Hans hemstad ... Jesus kom för att förse en bot ... Därför sökte jag mitt hjärta"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-11-07T20:18:50+00:00",
   "id": "d58dfd2568fedb081a053f485a76f6d9",
   "issue_id": "4e40b8a1-8100-5940-8668-c73d5e3ad0fe",
   "language": "swe",
@@ -211,7 +160,7 @@
     }
   },
   "protected": false,
-  "quality_score": 78,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6.1-sol",
@@ -230,7 +179,7 @@
     "total_reserved_usd": 0.767046,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "fc44b039aea712201d6120cdd0a9cc720777f5be0958b210ab2feef1a8e2d639",
   "translation_model_actual": "gpt-6.1-sol"
