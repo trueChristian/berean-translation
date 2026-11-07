@@ -69084,6 +69084,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/nob/articles/73def952-dd77-4a51-b030-27713e0cedd2.html",
+      "html_sha256": "0337b6e9ffe7fcfc04b59a693d2b3a1ccb1924f0177d0c614df2fcd8a9f55982",
+      "human_reviewed": false,
+      "id": "73def952-dd77-4a51-b030-27713e0cedd2",
+      "images": [
+        {
+          "alt": "Robåt speilet i stille vann",
+          "public_path": "/images/articles/73def952-dd77-4a51-b030-27713e0cedd2-1.jpg"
+        },
+        {
+          "alt": "Slitte og ødelagte årer av tre på planker",
+          "public_path": "/images/articles/73def952-dd77-4a51-b030-27713e0cedd2-2.jpg"
+        }
+      ],
+      "issue_id": "4e575f26-fabd-5104-ba0d-d54ca032653b",
+      "language": "nob",
+      "language_tag": "nb",
+      "metadata": "content/nob/articles/73def952-dd77-4a51-b030-27713e0cedd2.json",
+      "metadata_sha256": "c152c493438b8e2bcf1de8a1193da30b6ab84130c001d7241685653b16d288bf",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "Barnas hjørne",
+      "source_revision": "22388745ad7f149609e65f5e28cfcc1257cd689e",
+      "source_translation_key": "4495f12a281c559d419fa93922b800b7fa95e251e187216d7846b8abc9c22a13",
+      "status": "ready",
+      "subtitle": null,
+      "title": "«Må jeg si det?»",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/nob/articles/77cd4a24-14db-4ba2-905f-4f3ecb1d3ea5.html",
       "html_sha256": "b8921d5410f37430ef644abb60bcba0e80a2700dee9c69dc8d00d8cf358bf1ed",
       "human_reviewed": false,
