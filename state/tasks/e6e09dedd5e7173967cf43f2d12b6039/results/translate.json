@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "e5491153-f376-43bc-a36c-3604d0105c26",
+    "response_id": "chatcmpl-EhjTtE6WPRcY3PAWxFuMvEESneiHv",
+    "usage": {
+      "completion_tokens": 1428,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 45,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1953,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1950,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3381
+    }
+  },
+  "received_at": "2026-11-07T23:41:31+00:00",
+  "result": {
+    "html": "<article data-article-id=\"6c25be17-3343-451b-afeb-ed9c56942fd0\">\n  <figure>\n    <img src=\"/images/articles/6c25be17-3343-451b-afeb-ed9c56942fd0-1.jpg\" alt=\"一扇古老的木门，旁边是斑驳的墙和繁花盛开的枝条。\">\n  </figure>\n  <p class=\"poem\">来吧，哦，你这陌生旅人，<br>我仍紧握着你，却看不见你；<br>我的同伴早已离去，<br>我决意与你彻夜相伴，<br>与你角力，直到黎明破晓。</p>\n  <p class=\"poem\">我不必告诉你我是谁，<br>我的苦难和罪已将我显明；<br>是你亲自按我的名字呼唤我，<br>看看你的手，就在那里读出它！<br>但我问你：你究竟是谁？<br>告诉我你的名字，现在就告诉我。</p>\n  <p class=\"poem\">你徒然挣扎，想要脱身，<br>我绝不松开我的手；<br>你可是那为我而死的人？<br>揭开你爱的奥秘：<br>我与你角力，绝不放你离去，<br>直到我知道你的名字、你的本性。</p>\n  <p class=\"poem\">你沉默不语，终究徒劳，<br>或触摸我大腿窝也无济于事；<br>即使我的每一根筋都已脱臼，<br>你也休想逃出我的怀抱；<br>我与你角力，绝不放你离去，<br>直到我知道你的名字、你的本性。</p>\n  <p class=\"poem\">即使我颤抖的肉身抱怨，<br>低声埋怨这争斗如此漫长，<br>我仍凌驾于痛苦之上；<br>我软弱时，反倒刚强；<br>当我所有的力量都耗尽，<br>我仍要胜过这位神人。</p>\n  <p class=\"poem\">我已力竭，我的本性衰亡，<br>我沉在你沉重的手下；<br>气息奄奄，却要复苏；跌倒，又要站起；<br>我跌倒，却仍凭信心站立：<br>我站立着，绝不放你离去，<br>直到我知道你的名字、你的本性。</p>\n  <p class=\"poem\">如今向我屈服——我虽软弱，<br>却在绝望中满怀信心；<br>向我的心说话，说祝福的话，<br>被我恳切的祈求所征服：<br>开口，否则你绝不能离开这里，<br>告诉我你的名字是否就是爱。</p>\n  <p class=\"poem\">是爱！是爱！你为我而死，<br>我听见你在我心中低语；<br>黎明来临，阴影消散，<br>你是纯洁、普世的爱：<br>你的怜悯临到我，也临到众人——<br>你的本性，你的名字，就是爱。</p>\n  <p class=\"poem\">我的祈求在神面前有力；<br>我如今领受了那不可言喻的恩典；<br>借着信心，我与你面对面，<br>我与你面对面，仍得存活！<br>我所流的泪、所作的争战并非徒然——<br>你的本性，你的名字，就是爱。</p>\n  <p class=\"poem\">救主，我知道你是谁，<br>耶稣，软弱罪人的朋友；<br>你也不会随着黑夜离去，<br>而要留下来，爱我到底；<br>你的怜悯永不离开，<br>你的本性，你的名字，就是爱。</p>\n  <p class=\"poem\">公义的太阳向我升起，<br>祂的翅膀带来医治；<br>我本性的力量因你而枯竭，<br>我的灵魂从你领受生命和扶助；<br>我的帮助全都储存在天上——<br>你的本性，你的名字，就是爱。</p>\n  <p class=\"poem\">如今我满足地扶着大腿，<br>跛行，直到人生短暂的旅程结束；<br>我全然无助，软弱不堪，<br>唯独倚靠你赐我力量；<br>我也无力离开你而去——<br>你的本性，你的名字，就是爱。</p>\n  <p class=\"poem\">我虽瘸腿，仍夺得胜利，<br>轻易胜过地狱、世界和罪；<br>我欢喜雀跃，继续前行，<br>如奔腾的雄鹿飞奔回家，<br>直到永恒，亲证<br>你的本性，你的名字，就是爱。</p>\n  <p class=\"poem\">愿荣耀归于神，为着那一天，<br>我得以看见你含笑的面容，<br>你怜悯的曙光，你清晨的光芒，<br>以及你恩典的一切丰盛：<br>我的歌声将永远传扬，<br>你的本性，你的名字，就是爱。</p>\n</article>\n",
+    "section": null,
+    "subtitle": null,
+    "title": "与雅各摔跤"
+  }
+}
