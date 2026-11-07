@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-07T20:18:47+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"html, раздел «…Похудеть можно только голодая.», первый абзац\",\n      \"severity\": \"major\",\n      \"source_quote\": \"there were no heavy-set people who came out of the concentration camps in World War II\",\n      \"suggested_fix\": \"Заменить на: «среди тех, кто вышел из концентрационных лагерей Второй мировой войны, не было людей с избыточным весом».\",\n      \"translation_quote\": \"среди узников концентрационных лагерей Второй мировой войны не было людей с избыточным весом\"\n    },\n    {\n      \"location\": \"html, абзац с анонсом второго материала\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"A second part (Lord willing) will be coming with the next issue to discuss positive things that we can do to achieve a healthy weight.\",\n      \"suggested_fix\": \"Изменить порядок слов: «Во втором материале, который, если будет на то воля Господа, выйдет в следующем выпуске, мы поговорим о том, что можно делать для достижения здорового веса».\",\n      \"translation_quote\": \"Во втором материале, если будет на то воля Господа, который выйдет в следующем выпуске, мы поговорим о том, что можно делать для достижения здорового веса.\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": false,\n  \"score\": 94\n}",
+    "content_bytes": 1768,
+    "content_evidence_truncated": false,
+    "content_sha256": "bc06021aa45f09f811e8437a6ccbb79bfe4822c377441eb4f3ed29a43d99f687",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 439,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 103,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8498,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7395,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 8937
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}

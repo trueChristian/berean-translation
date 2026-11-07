@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "9def181a-730d-4cac-94ad-70f995322245",
+    "response_id": "chatcmpl-EheIMnYPgdubyhWMfoidDa4kdmy0Y",
+    "usage": {
+      "completion_tokens": 439,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 103,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8498,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7395,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 8937
+    }
+  },
+  "received_at": "2026-11-07T20:18:47+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "html, раздел «…Похудеть можно только голодая.», первый абзац",
+        "severity": "major",
+        "source_quote": "there were no heavy-set people who came out of the concentration camps in World War II",
+        "suggested_fix": "Заменить на: «среди тех, кто вышел из концентрационных лагерей Второй мировой войны, не было людей с избыточным весом».",
+        "translation_quote": "среди узников концентрационных лагерей Второй мировой войны не было людей с избыточным весом"
+      },
+      {
+        "location": "html, абзац с анонсом второго материала",
+        "severity": "minor",
+        "source_quote": "A second part (Lord willing) will be coming with the next issue to discuss positive things that we can do to achieve a healthy weight.",
+        "suggested_fix": "Изменить порядок слов: «Во втором материале, который, если будет на то воля Господа, выйдет в следующем выпуске, мы поговорим о том, что можно делать для достижения здорового веса».",
+        "translation_quote": "Во втором материале, если будет на то воля Господа, который выйдет в следующем выпуске, мы поговорим о том, что можно делать для достижения здорового веса."
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 94
+  }
+}

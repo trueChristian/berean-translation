@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "html, раздел «…Похудеть можно только голодая.», первый абзац",
+      "severity": "major",
+      "source_quote": "there were no heavy-set people who came out of the concentration camps in World War II",
+      "suggested_fix": "Заменить на: «среди тех, кто вышел из концентрационных лагерей Второй мировой войны, не было людей с избыточным весом».",
+      "translation_quote": "среди узников концентрационных лагерей Второй мировой войны не было людей с избыточным весом"
+    },
+    {
+      "location": "html, абзац с анонсом второго материала",
+      "severity": "minor",
+      "source_quote": "A second part (Lord willing) will be coming with the next issue to discuss positive things that we can do to achieve a healthy weight.",
+      "suggested_fix": "Изменить порядок слов: «Во втором материале, который, если будет на то воля Господа, выйдет в следующем выпуске, мы поговорим о том, что можно делать для достижения здорового веса».",
+      "translation_quote": "Во втором материале, если будет на то воля Господа, который выйдет в следующем выпуске, мы поговорим о том, что можно делать для достижения здорового веса."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

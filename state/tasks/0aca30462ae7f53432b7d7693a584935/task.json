@@ -5,11 +5,47 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "553407cc710e490da3f217d9884ab9e0",
   "campaign": "auto-f0f7015503ad42b1f2e526b402275790b08181215bb0a6b29ac5638218716e36",
   "created_at": "2026-11-06T18:16:05+00:00",
-  "events": [],
-  "findings": [],
+  "events": [
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 439,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 103,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8498,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 7395,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 8937
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "html, раздел «…Похудеть можно только голодая.», первый абзац",
+      "severity": "major",
+      "source_quote": "there were no heavy-set people who came out of the concentration camps in World War II",
+      "suggested_fix": "Заменить на: «среди тех, кто вышел из концентрационных лагерей Второй мировой войны, не было людей с избыточным весом».",
+      "translation_quote": "среди узников концентрационных лагерей Второй мировой войны не было людей с избыточным весом"
+    },
+    {
+      "location": "html, абзац с анонсом второго материала",
+      "severity": "minor",
+      "source_quote": "A second part (Lord willing) will be coming with the next issue to discuss positive things that we can do to achieve a healthy weight.",
+      "suggested_fix": "Изменить порядок слов: «Во втором материале, который, если будет на то воля Господа, выйдет в следующем выпуске, мы поговорим о том, что можно делать для достижения здорового веса».",
+      "translation_quote": "Во втором материале, если будет на то воля Господа, который выйдет в следующем выпуске, мы поговорим о том, что можно делать для достижения здорового веса."
+    }
+  ],
   "id": "0aca30462ae7f53432b7d7693a584935",
   "issue_id": "4e575f26-fabd-5104-ba0d-d54ca032653b",
   "language": "rus",
@@ -98,11 +134,13 @@
     }
   },
   "protected": false,
+  "quality_score": 94,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/ac8fa1e027a9ec819bd2ef1323c6f1c6bd34a71f9ab24cb0b22ba5416b1909ae.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "review1",
     "max_candidate_bytes": 120000,
@@ -115,7 +153,7 @@
     "total_reserved_usd": 0.783408,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 0,
   "translation_key": "e643aa29500591776446d855b5b97ade0f5810fdbdfe96e5ddfa615deab4a4eb",
   "translation_model_actual": "gpt-6-luna"
