@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "db816246-e30d-40d4-927c-254d3767fc37",
+    "response_id": "chatcmpl-EhdHf2v8SSLLJQgWzM8B8ajH3RoEe",
+    "usage": {
+      "completion_tokens": 814,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 703,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7574,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7571,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8388
+    }
+  },
+  "received_at": "2026-11-07T16:37:10+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, paragraph beginning «Gjennom hele Bibelen»",
+        "severity": "minor",
+        "source_quote": "He sent the shepherd boy David to fight the giant.",
+        "suggested_fix": "Endre «gjeterGutten» til «gjetergutten».",
+        "translation_quote": "Han sendte gjeterGutten David for å kjempe mot kjempen."
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 99
+  }
+}

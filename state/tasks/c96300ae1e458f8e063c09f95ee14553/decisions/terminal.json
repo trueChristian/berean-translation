@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraph beginning «Gjennom hele Bibelen»",
+      "severity": "minor",
+      "source_quote": "He sent the shepherd boy David to fight the giant.",
+      "suggested_fix": "Endre «gjeterGutten» til «gjetergutten».",
+      "translation_quote": "Han sendte gjeterGutten David for å kjempe mot kjempen."
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

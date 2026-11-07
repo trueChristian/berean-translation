@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-07T16:37:10+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, paragraph beginning «Gjennom hele Bibelen»\",\"severity\":\"minor\",\"source_quote\":\"He sent the shepherd boy David to fight the giant.\",\"suggested_fix\":\"Endre «gjeterGutten» til «gjetergutten».\",\"translation_quote\":\"Han sendte gjeterGutten David for å kjempe mot kjempen.\"}],\"findings_complete\":true,\"passed\":true,\"score\":99}",
+    "content_bytes": 359,
+    "content_evidence_truncated": false,
+    "content_sha256": "de5b9f0a85c02fdf04be57453268b4e7cd55780fd3416ca8fcddd8c67fdfede6",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 814,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 703,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7574,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7571,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8388
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}
