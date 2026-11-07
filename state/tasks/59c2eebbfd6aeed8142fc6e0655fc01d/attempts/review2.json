@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-07T21:40:21+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph on external worship, first numbered definition\",\"severity\":\"minor\",\"source_quote\":\"“not out of a civil, but a religious respect”\",\"suggested_fix\":\"Replace כבוד אזרחי with כבוד חברתי or נימוס רגיל to convey ordinary social courtesy rather than civic honor.\",\"translation_quote\":\"״לא מתוך כבוד אזרחי אלא מתוך יראת קודש״\"}],\"findings_complete\":true,\"passed\":true,\"score\":99}",
+    "content_bytes": 470,
+    "content_evidence_truncated": false,
+    "content_sha256": "95def4711dc605f44e3efd10a2dea38174e4fe420234268dfcfc9d709c7a7ad0",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 861,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 741,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 11122,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 11119,
+        "cached_tokens": 0
+      },
+      "total_tokens": 11983
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

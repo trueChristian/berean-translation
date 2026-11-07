@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph on external worship, first numbered definition",
+      "severity": "minor",
+      "source_quote": "“not out of a civil, but a religious respect”",
+      "suggested_fix": "Replace כבוד אזרחי with כבוד חברתי or נימוס רגיל to convey ordinary social courtesy rather than civic honor.",
+      "translation_quote": "״לא מתוך כבוד אזרחי אלא מתוך יראת קודש״"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}
