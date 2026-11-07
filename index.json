@@ -4178,6 +4178,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/afr/articles/affa9e6e-7d44-4174-ae66-fd44cfaeeaa0.html",
+      "html_sha256": "f461df39d60a113c19e91c66c769a32b2193ccaa84c0898fc9b8fabaebc142ec",
+      "human_reviewed": false,
+      "id": "affa9e6e-7d44-4174-ae66-fd44cfaeeaa0",
+      "images": [
+        {
+          "alt": "Stormwolke oor ’n prairieweg, linkerhelfte van ’n foto wat oor twee bladsye strek",
+          "public_path": "/images/articles/affa9e6e-7d44-4174-ae66-fd44cfaeeaa0-1.jpg"
+        },
+        {
+          "alt": "Stormwolke oor ’n prairie, regterhelfte van ’n foto wat oor twee bladsye strek",
+          "public_path": "/images/articles/affa9e6e-7d44-4174-ae66-fd44cfaeeaa0-2.jpg"
+        }
+      ],
+      "issue_id": "4e575f26-fabd-5104-ba0d-d54ca032653b",
+      "language": "afr",
+      "language_tag": "af",
+      "metadata": "content/afr/articles/affa9e6e-7d44-4174-ae66-fd44cfaeeaa0.json",
+      "metadata_sha256": "5a169d3ff338011398059480fe446ea1b7dbd1117b0119a5cc81d07821002f0a",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "Bemoediging vir Christenvroue",
+      "source_revision": "22388745ad7f149609e65f5e28cfcc1257cd689e",
+      "source_translation_key": "589935b71d98b7f8c7ccc2aec7175a306daa35b8356cdcf6ebb03c78609b5a1a",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Tot die storm verbygaan",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/afr/articles/b37f8111-4563-4b5b-ab9f-1f87bcd2b46a.html",
       "html_sha256": "0b637fd5951a1b9d787497fe6db23b3b332013d817f183b7d8ae515d6bbefc66",
       "human_reviewed": false,
