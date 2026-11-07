@@ -59384,6 +59384,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/kor/articles/affa9e6e-7d44-4174-ae66-fd44cfaeeaa0.html",
+      "html_sha256": "d5babf10c76227529b0475b11985e4b9a6fc53c9cf5eb12e469f8c130729408f",
+      "human_reviewed": false,
+      "id": "affa9e6e-7d44-4174-ae66-fd44cfaeeaa0",
+      "images": [
+        {
+          "alt": "초원 길 위로 몰려오는 폭풍 구름, 두 쪽 사진의 왼쪽 절반",
+          "public_path": "/images/articles/affa9e6e-7d44-4174-ae66-fd44cfaeeaa0-1.jpg"
+        },
+        {
+          "alt": "초원 위로 몰려오는 폭풍 구름, 두 쪽 사진의 오른쪽 절반",
+          "public_path": "/images/articles/affa9e6e-7d44-4174-ae66-fd44cfaeeaa0-2.jpg"
+        }
+      ],
+      "issue_id": "4e575f26-fabd-5104-ba0d-d54ca032653b",
+      "language": "kor",
+      "language_tag": "ko",
+      "metadata": "content/kor/articles/affa9e6e-7d44-4174-ae66-fd44cfaeeaa0.json",
+      "metadata_sha256": "7be586897c755a1811d8f69adfa4625952c144ab5714efabc26be7fe98feb360",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "그리스도인 여성을 위한 격려",
+      "source_revision": "22388745ad7f149609e65f5e28cfcc1257cd689e",
+      "source_translation_key": "589935b71d98b7f8c7ccc2aec7175a306daa35b8356cdcf6ebb03c78609b5a1a",
+      "status": "ready",
+      "subtitle": null,
+      "title": "폭풍이 지나갈 때까지",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/kor/articles/b37f8111-4563-4b5b-ab9f-1f87bcd2b46a.html",
       "html_sha256": "832b321605b75b487c0ead55061895771312ad05721bab49b8dbe326903b96ef",
       "human_reviewed": false,
