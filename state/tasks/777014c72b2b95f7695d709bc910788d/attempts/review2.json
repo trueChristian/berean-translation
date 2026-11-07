@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-07T03:01:41+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraf dimulai “Ketika seseorang pindah ke negara Haiti”\",\"severity\":\"major\",\"source_quote\":\"“at first, he will be very much outside his own culture”\",\"suggested_fix\":\"Ganti “pada awalnya ia akan sangat asing dengan budayanya sendiri” dengan “pada awalnya ia akan sangat jauh dari budayanya sendiri” agar tetap jelas bahwa ia berada di luar budaya asalnya.\",\"translation_quote\":\"“pada awalnya ia akan sangat asing dengan budayanya sendiri”\"},{\"location\":\"Paragraf dimulai “Yesus meninggalkan pesan terakhir bagi kita”\",\"severity\":\"minor\",\"source_quote\":\"“He told us to go and make disciples.”\",\"suggested_fix\":\"Ganti “pergi dan menjadikan semua bangsa murid-Nya” dengan “pergi dan menjadikan murid” agar tidak menambahkan “semua bangsa” yang tidak tercantum dalam sumber.\",\"translation_quote\":\"“Dia menyuruh kita pergi dan menjadikan semua bangsa murid-Nya.”\"}],\"findings_complete\":true,\"passed\":false,\"score\":92}",
+    "content_bytes": 985,
+    "content_evidence_truncated": false,
+    "content_sha256": "6c5c20c5150e4f478e6fabdf4deaac8459e9c1d6c6412d8fd6c8e9ad757257af",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1002,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 753,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7473,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7470,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8475
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

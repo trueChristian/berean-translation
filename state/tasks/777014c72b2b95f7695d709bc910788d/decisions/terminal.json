@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Paragraf dimulai “Ketika seseorang pindah ke negara Haiti”",
+      "severity": "major",
+      "source_quote": "“at first, he will be very much outside his own culture”",
+      "suggested_fix": "Ganti “pada awalnya ia akan sangat asing dengan budayanya sendiri” dengan “pada awalnya ia akan sangat jauh dari budayanya sendiri” agar tetap jelas bahwa ia berada di luar budaya asalnya.",
+      "translation_quote": "“pada awalnya ia akan sangat asing dengan budayanya sendiri”"
+    },
+    {
+      "location": "Paragraf dimulai “Yesus meninggalkan pesan terakhir bagi kita”",
+      "severity": "minor",
+      "source_quote": "“He told us to go and make disciples.”",
+      "suggested_fix": "Ganti “pergi dan menjadikan semua bangsa murid-Nya” dengan “pergi dan menjadikan murid” agar tidak menambahkan “semua bangsa” yang tidak tercantum dalam sumber.",
+      "translation_quote": "“Dia menyuruh kita pergi dan menjadikan semua bangsa murid-Nya.”"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; a recovery continuation must pass admission",
+  "stage": "terminal"
+}
