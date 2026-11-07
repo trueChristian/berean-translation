@@ -47063,6 +47063,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ind/articles/6c25be17-3343-451b-afeb-ed9c56942fd0.html",
+      "html_sha256": "6f75ca1959c4db781ad82c42ddd16e0ac1b8f474c6bcaa104c6cbf660ccbbeeb",
+      "human_reviewed": false,
+      "id": "6c25be17-3343-451b-afeb-ed9c56942fd0",
+      "images": [
+        {
+          "alt": "Pintu kayu tua di samping dinding lapuk dan ranting-ranting berbunga.",
+          "public_path": "/images/articles/6c25be17-3343-451b-afeb-ed9c56942fd0-1.jpg"
+        }
+      ],
+      "issue_id": "103c93e0-6e9a-44f6-a6bc-377af8e08e38",
+      "language": "ind",
+      "language_tag": "id",
+      "metadata": "content/ind/articles/6c25be17-3343-451b-afeb-ed9c56942fd0.json",
+      "metadata_sha256": "ce69b85b4ae6614de9784703a8b0e50e5bf50e1da8e3af7bb65e05c015437d11",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
+      "source_translation_key": "06e2bba937ce86ced2a2682fcfc332bcc329e09bbb284783b9affc01916db9ff",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Yakub Bergulat",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ind/articles/6c4d3026-69b5-42c2-92aa-02d8ea8d73cf.html",
       "html_sha256": "11fa99093b8795eb373a32fcb37b0ca1d6a656490b784f8f3962af3fb01f6d19",
       "human_reviewed": false,

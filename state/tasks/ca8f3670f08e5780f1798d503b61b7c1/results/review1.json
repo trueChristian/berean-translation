@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "72ab19a9-1457-4e77-a4f2-54d686bc5438",
+    "response_id": "chatcmpl-Ehdoa9atOA6HLKjQG0cADSE8qsFXp",
+    "usage": {
+      "completion_tokens": 880,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 731,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3693,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3690,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4573
+    }
+  },
+  "received_at": "2026-11-07T16:51:38+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Puisi, bait pertama, baris ketiga",
+        "severity": "minor",
+        "source_quote": "My company before is gone,",
+        "suggested_fix": "Teman-temanku yang tadi telah pergi,",
+        "translation_quote": "Kawanku yang tadi telah pergi,"
+      },
+      {
+        "location": "Puisi, bait kedua belas, baris pertama",
+        "severity": "minor",
+        "source_quote": "Contented now upon my thigh",
+        "suggested_fix": "Kini puas, dengan paha yang cedera",
+        "translation_quote": "Kini dengan hati puas, aku bertumpu pada pahaku,"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 97
+  }
+}

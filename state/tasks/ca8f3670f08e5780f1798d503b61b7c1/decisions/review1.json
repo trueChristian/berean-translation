@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Puisi, bait pertama, baris ketiga",
+      "severity": "minor",
+      "source_quote": "My company before is gone,",
+      "suggested_fix": "Teman-temanku yang tadi telah pergi,",
+      "translation_quote": "Kawanku yang tadi telah pergi,"
+    },
+    {
+      "location": "Puisi, bait kedua belas, baris pertama",
+      "severity": "minor",
+      "source_quote": "Contented now upon my thigh",
+      "suggested_fix": "Kini puas, dengan paha yang cedera",
+      "translation_quote": "Kini dengan hati puas, aku bertumpu pada pahaku,"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}
