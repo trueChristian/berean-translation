@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "96b511030328461d9eeba53f5c9faa27",
   "campaign": "auto-c4606e540dbe4dcdb280a6298a9857d6bfb8712ccbc2d24255f6b6e69df798a9",
   "created_at": "2026-11-06T02:26:32+00:00",
   "events": [
@@ -68,32 +67,31 @@
         },
         "total_tokens": 4825
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 376,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 344,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3409,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 2306,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 3785
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "HTML, Absatz 5",
-      "severity": "major",
-      "source_quote": "May we bring God glory by dying to self",
-      "suggested_fix": "Mögen wir Gott verherrlichen, indem wir unserem eigenen Ich absterben, in neuem Leben hervorsprießen, uns dem Sohn entgegenstrecken und Frucht für unseren Meister hervorbringen.",
-      "translation_quote": "Mögen wir Gott verherrlichen, indem wir uns selbst sterben, in neuem Leben hervorsprießen, uns dem Sohn entgegenstrecken und Frucht für unseren Meister hervorbringen."
-    },
-    {
-      "location": "HTML, Absatz 1",
-      "severity": "minor",
-      "source_quote": "Almost like clockwork",
-      "suggested_fix": "Fast wie ein Uhrwerk bahnen sich früh blühende Blumen mutig ihren Weg durch den kalten Frühlingsboden.",
-      "translation_quote": "Fast wie nach einem Uhrwerk bahnen sich früh blühende Blumen mutig ihren Weg durch den kalten Frühlingsboden."
-    },
-    {
-      "location": "HTML, Absatz 6",
-      "severity": "minor",
-      "source_quote": "the Baltimore Orioles arrived",
-      "suggested_fix": "Diese Woche sind die Baltimoretrupiale eingetroffen, und heute haben wir den ersten Kolibri der Saison gesehen.",
-      "translation_quote": "Diese Woche sind die Baltimore Orioles eingetroffen, und heute haben wir den ersten Kolibri der Saison gesehen."
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-11-07T20:17:36+00:00",
   "id": "040426bf3b1080dd1367d5c5863a062f",
   "issue_id": "103c93e0-6e9a-44f6-a6bc-377af8e08e38",
   "language": "deu",
@@ -182,7 +180,7 @@
     }
   },
   "protected": false,
-  "quality_score": 93,
+  "quality_score": 100,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
@@ -202,7 +200,7 @@
     "total_reserved_usd": 0.08691,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "0fb584030db33dd2b72332a91a0b7c15fa746dd719ac5f16dd38c2251e56bee5",
   "translation_model_actual": "gpt-6-luna"
