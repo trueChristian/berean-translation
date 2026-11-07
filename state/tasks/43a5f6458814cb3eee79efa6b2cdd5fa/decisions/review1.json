@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "translation.html – Liedtext, Strophe „Oft flüsterte Satan“, zweite Zeile",
+      "severity": "major",
+      "source_quote": "For there’s no end of sorrow, there’s no hope by and by",
+      "suggested_fix": "denn das Leid nimmt kein Ende, und auch in Zukunft gibt es keine Hoffnung.",
+      "translation_quote": "denn das Leid nimmt kein Ende, und bald gibt es keine Hoffnung mehr."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

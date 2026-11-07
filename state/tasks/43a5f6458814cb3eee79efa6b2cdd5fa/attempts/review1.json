@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-07T03:17:42+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"translation.html – Liedtext, Strophe „Oft flüsterte Satan“, zweite Zeile\",\"severity\":\"major\",\"source_quote\":\"For there’s no end of sorrow, there’s no hope by and by\",\"suggested_fix\":\"denn das Leid nimmt kein Ende, und auch in Zukunft gibt es keine Hoffnung.\",\"translation_quote\":\"denn das Leid nimmt kein Ende, und bald gibt es keine Hoffnung mehr.\"}],\"findings_complete\":true,\"passed\":false,\"score\":94}",
+    "content_bytes": 440,
+    "content_evidence_truncated": false,
+    "content_sha256": "3e60c7b163fb310ebd0dbb0b31b561afa4c5b6e2691f8cd9d05c8ba13b869a92",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 204,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 84,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4125,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4122,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4329
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}
