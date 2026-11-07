@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-07T23:41:35+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Stanza 7, first line\",\"severity\":\"major\",\"source_quote\":\"Yield to me now—for I am weak,\",\"suggested_fix\":\"Gib jetzt nach – denn ich bin schwach,\",\"translation_quote\":\"Gib dich mir jetzt hin – denn ich bin schwach,\"}],\"findings_complete\":true,\"passed\":false,\"score\":93}",
+    "content_bytes": 300,
+    "content_evidence_truncated": false,
+    "content_sha256": "b7cb6cefaa1cbcb5ff25e5e7d1baa3ffffe3e1cb1404718c8ce69d6cc1272e12",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1123,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1024,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3564,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3561,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4687
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

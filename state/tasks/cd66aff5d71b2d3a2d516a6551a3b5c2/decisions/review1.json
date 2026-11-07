@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Stanza 7, first line",
+      "severity": "major",
+      "source_quote": "Yield to me now—for I am weak,",
+      "suggested_fix": "Gib jetzt nach – denn ich bin schwach,",
+      "translation_quote": "Gib dich mir jetzt hin – denn ich bin schwach,"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
