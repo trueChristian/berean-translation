@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "8235a332-0517-4e2b-920a-e44307b59351",
+    "response_id": "chatcmpl-EhdqBCtvCYjcs33zl6Btyjg9FMb8b",
+    "usage": {
+      "completion_tokens": 1333,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1944,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1941,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3277
+    }
+  },
+  "received_at": "2026-11-07T16:52:05+00:00",
+  "result": {
+    "html": "<article data-article-id=\"6c25be17-3343-451b-afeb-ed9c56942fd0\">\n  <figure>\n    <img src=\"/images/articles/6c25be17-3343-451b-afeb-ed9c56942fd0-1.jpg\" alt=\"’n Ou houtdeur langs ’n verweerde muur en bloeiende takke.\">\n  </figure>\n  <p class=\"poem\">Kom, o onbekende Reisiger,<br>Wat ek steeds vashou, maar nie kan sien nie;<br>My vorige metgesel is weg,<br>Saam met U wil ek die hele nag bly,<br>En worstel totdat die dag breek.</p>\n  <p class=\"poem\">Ek hoef U nie te sê wie ek is nie,<br>My ellende en sonde getuig daarvan;<br>U het my self op my naam geroep,<br>Kyk na U hande en lees dit daar!<br>Maar wie, vra ek U, wie is U?<br>Sê my U naam, en sê dit nou.</p>\n  <p class=\"poem\">Tevergeefs spartel U om los te kom,<br>Ek sal my greep nooit verslap nie:<br>Is U die Man wat vir my gesterf het?<br>Onthul die geheim van U liefde:<br>Terwyl ek worstel, sal ek U nie laat gaan nie,<br>Totdat ek U naam, U aard ken.</p>\n  <p class=\"poem\">Dit is alles tevergeefs om stil te bly,<br>Of my heup se holte aan te raak;<br>Al word elke sening ook ontwrig,<br>Uit my arms sal U nie ontsnap nie;<br>Terwyl ek worstel, sal ek U nie laat gaan nie,<br>Totdat ek U naam, U aard ken.</p>\n  <p class=\"poem\">Wat as my terugdeinsende vlees kla,<br>En mor dat ons so lank stry?<br>Ek staan bo my pyn,<br>Wanneer ek swak is, dan is ek sterk;<br>En wanneer al my krag my begewe,<br>Sal ek saam met die God-mens oorwin.</p>\n  <p class=\"poem\">My krag is weg, my natuur sterf,<br>Ek swig onder U swaar hand;<br>Beswyk om te herleef, en val om op te staan;<br>Ek val, en tog staan ek deur geloof:<br>Ek staan, en sal U nie laat gaan nie,<br>Totdat ek U naam, U aard ken.</p>\n  <p class=\"poem\">Gee nou aan my toe—want ek is swak,<br>Maar vol vertroue in my eie wanhoop;<br>Praat met my hart, praat met seëninge,<br>Laat U deur my dringende gebed oorwin:<br>Praat, anders sal U nooit hiervandaan beweeg nie,<br>En sê my of U naam Liefde is.</p>\n  <p class=\"poem\">Dit is Liefde! Dit is Liefde! U het vir my gesterf,<br>Ek hoor U fluistering in my hart;<br>Die oggend breek aan, die skaduwees vlug,<br>U is suiwer, universele Liefde:<br>Na my, na almal, reik U ontferming uit—<br>U aard en U naam is Liefde.</p>\n  <p class=\"poem\">My gebed het krag by God; die genade<br>Wat onuitspreeklik is, ontvang ek nou;<br>Deur geloof sien ek U van aangesig tot aangesig,<br>Ek sien U van aangesig tot aangesig en leef!<br>Ek het nie tevergeefs geween en gestry nie—<br>U aard en U naam is Liefde.</p>\n  <p class=\"poem\">Ek ken U, Verlosser, weet wie U is,<br>Jesus, die vriend van die swakke sondaar;<br>U sal ook nie saam met die nag vertrek nie,<br>Maar bly en my liefhê tot die einde,<br>U ontferming sal nooit wyk nie,<br>U aard en U naam is Liefde.</p>\n  <p class=\"poem\">Die Son van Geregtigheid het oor my<br>Opgekom met genesing in sy vleuels;<br>My natuur se krag het verdor, van U af<br>Ontvang my siel sy lewe en hulp;<br>My hulp is geheel en al daar bo weggelê—<br>U aard en U naam is Liefde.</p>\n  <p class=\"poem\">Tevrede hink ek nou op my heup<br>Totdat die kort lewensreis eindig;<br>Heeltemal hulpeloos, heeltemal swak,<br>Is ek vir krag net van U afhanklik;<br>Ek het ook nie die krag om van U af weg te gaan nie—<br>U aard en U naam is Liefde.</p>\n  <p class=\"poem\">Al is ek kreupel, neem ek die buit,<br>Hel, aarde en sonde oorwin ek maklik;<br>Ek spring van vreugde, vervolg my weg,<br>En vlieg soos ’n springende wildsbok huis toe,<br>Om deur die ewigheid heen te bewys<br>Dat U aard en U naam Liefde is.</p>\n  <p class=\"poem\">Aan God die eer vir die dag<br>Toe ek U glimlaggende aangesig kon sien,<br>Die daeraad van U ontferming, U môrestraal,<br>En al die rykdom van U genade:<br>Vir ewig sal my lied weerklink,<br>U aard en U naam is Liefde.</p>\n</article>\n",
+    "section": null,
+    "subtitle": null,
+    "title": "Jakob wat worstel"
+  }
+}
