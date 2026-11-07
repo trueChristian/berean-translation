@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "html, абзац «В этой статье признаётся…»",
+      "severity": "minor",
+      "source_quote": "as time has passed this event is different than most past events",
+      "suggested_fix": "Заменить «по мере времени» на «с течением времени».",
+      "translation_quote": "по мере времени это событие стало отличаться от большинства событий прошлого"
+    },
+    {
+      "location": "html, абзац «Учитывая всё это…»",
+      "severity": "minor",
+      "source_quote": "people ... that would be blessed by our assistance of one sort or another",
+      "suggested_fix": "Заменить «о людях, которым поможет наша помощь — та или иная» на «о людях, которым наша помощь в той или иной форме принесёт благо».",
+      "translation_quote": "о людях, которым поможет наша помощь — та или иная"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

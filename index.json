@@ -80189,6 +80189,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/rus/articles/7a4d646a-0c04-4b44-a54f-ef63df487f81.html",
+      "html_sha256": "9cd56ba86f5401c5507bbb789a00ac4f18baf006ef6e0e0bb4503e041483c0cb",
+      "human_reviewed": false,
+      "id": "7a4d646a-0c04-4b44-a54f-ef63df487f81",
+      "images": [
+        {
+          "alt": "Земля ночью, вид из космоса, с освещёнными городами",
+          "public_path": "/images/articles/7a4d646a-0c04-4b44-a54f-ef63df487f81-1.jpg"
+        }
+      ],
+      "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
+      "language": "rus",
+      "language_tag": "ru",
+      "metadata": "content/rus/articles/7a4d646a-0c04-4b44-a54f-ef63df487f81.json",
+      "metadata_sha256": "0b99550936e128df5c1ba8ec2ad7b371308e15f02c1b3aa607aeeabed3283be5",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "ОТ РЕДАКТОРА",
+      "source_revision": "a069ecca8827634ebc256b3b1cabc16aeb942ed7",
+      "source_translation_key": "e52f483f09dabafafef934afe52248c9117008e635c4f1ce75160e79a8b53b14",
+      "status": "ready",
+      "subtitle": null,
+      "title": "От редактора",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/rus/articles/7c9d5015-158a-4c07-92fc-ae40c998d9ae.html",
       "html_sha256": "cf323e35de84cdd4cd32ac298a686a7f5fa7473bfb3b6d1cfd7fc405f774be59",
       "human_reviewed": false,

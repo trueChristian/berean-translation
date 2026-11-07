@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-07T20:54:45+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"html, абзац «В этой статье признаётся…»\",\"severity\":\"minor\",\"source_quote\":\"as time has passed this event is different than most past events\",\"suggested_fix\":\"Заменить «по мере времени» на «с течением времени».\",\"translation_quote\":\"по мере времени это событие стало отличаться от большинства событий прошлого\"},{\"location\":\"html, абзац «Учитывая всё это…»\",\"severity\":\"minor\",\"source_quote\":\"people ... that would be blessed by our assistance of one sort or another\",\"suggested_fix\":\"Заменить «о людях, которым поможет наша помощь — та или иная» на «о людях, которым наша помощь в той или иной форме принесёт благо».\",\"translation_quote\":\"о людях, которым поможет наша помощь — та или иная\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 1080,
+    "content_evidence_truncated": false,
+    "content_sha256": "d0a6b216a74c5d2179c8d056df3e66f26f6ccd82325b9766281ca5270497aaf7",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 272,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 70,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5631,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4528,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 5903
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}
