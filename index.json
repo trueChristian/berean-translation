@@ -91205,6 +91205,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/swa/articles/affa9e6e-7d44-4174-ae66-fd44cfaeeaa0.html",
+      "html_sha256": "da23f5ebce135d69d878e20e7450f800eaf5cba060941fb22cefb54dd6fe51dd",
+      "human_reviewed": false,
+      "id": "affa9e6e-7d44-4174-ae66-fd44cfaeeaa0",
+      "images": [
+        {
+          "alt": "Mawingu ya dhoruba juu ya barabara ya nyanda za nyasi, nusu ya kushoto ya picha ya kurasa mbili",
+          "public_path": "/images/articles/affa9e6e-7d44-4174-ae66-fd44cfaeeaa0-1.jpg"
+        },
+        {
+          "alt": "Mawingu ya dhoruba juu ya nyanda za nyasi, nusu ya kulia ya picha ya kurasa mbili",
+          "public_path": "/images/articles/affa9e6e-7d44-4174-ae66-fd44cfaeeaa0-2.jpg"
+        }
+      ],
+      "issue_id": "4e575f26-fabd-5104-ba0d-d54ca032653b",
+      "language": "swa",
+      "language_tag": "sw",
+      "metadata": "content/swa/articles/affa9e6e-7d44-4174-ae66-fd44cfaeeaa0.json",
+      "metadata_sha256": "92512d62aeabeb14e5d5d99e3b290cc30c623897233db317f7d0d87461c24871",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "Kutia Moyo Wanawake Wakristo",
+      "source_revision": "22388745ad7f149609e65f5e28cfcc1257cd689e",
+      "source_translation_key": "589935b71d98b7f8c7ccc2aec7175a306daa35b8356cdcf6ebb03c78609b5a1a",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Mpaka Dhoruba Ipite",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/swa/articles/b37f8111-4563-4b5b-ab9f-1f87bcd2b46a.html",
       "html_sha256": "42c5877279cbc1c510d9a342c8ddbe464cff150b6433bb7ff9696eb022d6dcbc",
       "human_reviewed": false,
