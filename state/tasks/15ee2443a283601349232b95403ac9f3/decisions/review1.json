@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "본문, <h2>거듭남</h2> 뒤의 문단",
+      "severity": "major",
+      "source_quote": "This new birth is not a slow change. It takes years, decades, or even generations.",
+      "suggested_fix": "이 새로 태어남은 느린 변화가 아니다. 그것은 몇 년, 수십 년, 심지어 여러 세대가 걸리는 일이다.",
+      "translation_quote": "이 새 생명은 서서히 일어나는 변화가 아니다. 몇 년, 수십 년, 심지어 여러 세대가 걸리는 일이 아니다."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

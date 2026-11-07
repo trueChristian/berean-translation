@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "0b49dd2b-6474-464a-899b-9559dca96a21",
+    "response_id": "chatcmpl-EhR9Hq0aep9q6762dj1C2X8Esa0NZ",
+    "usage": {
+      "completion_tokens": 462,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 306,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7870,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6767,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 8332
+    }
+  },
+  "received_at": "2026-11-07T03:32:58+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "본문, <h2>거듭남</h2> 뒤의 문단",
+        "severity": "major",
+        "source_quote": "This new birth is not a slow change. It takes years, decades, or even generations.",
+        "suggested_fix": "이 새로 태어남은 느린 변화가 아니다. 그것은 몇 년, 수십 년, 심지어 여러 세대가 걸리는 일이다.",
+        "translation_quote": "이 새 생명은 서서히 일어나는 변화가 아니다. 몇 년, 수십 년, 심지어 여러 세대가 걸리는 일이 아니다."
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 93
+  }
+}
