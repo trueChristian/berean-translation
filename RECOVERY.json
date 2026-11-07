@@ -3,7 +3,7 @@
   "automatic_enabled": true,
   "automatic_policy_version": 3,
   "budget_enforcement": "none",
-  "committed_usd": 63.388425,
+  "committed_usd": 63.389962,
   "counts": {
     "active": 50,
     "already_translated": 108,
@@ -21,7 +21,7 @@
   },
   "derived": true,
   "format_version": "2",
-  "gross_allocated_usd": 603.101224,
+  "gross_allocated_usd": 603.187998,
   "historical_approved_total_usd": 30.0,
   "items": [
     {
@@ -1585,6 +1585,14 @@
       "processing_status": "held_without_publication",
       "reason": "automatic_capacity_wait",
       "request_id": "auto-33b8f9bc4414a0e85bf6df8913329df0dbe1d727f39ec1756c185a6ea07c16c1"
+    },
+    {
+      "accepted_cycles": 0,
+      "article_id": "6c25be17-3343-451b-afeb-ed9c56942fd0",
+      "language": "ben",
+      "latest_task": "1a0b273b9a4957575ac41697f9074430",
+      "processing_status": "in_batch",
+      "reason": "active"
     },
     {
       "admission_status": "attention",
@@ -6261,14 +6269,6 @@
       "processing_status": "held_without_publication",
       "reason": "automatic_capacity_wait",
       "request_id": "auto-cd1bd46ad7500d6c9c841afa1590516f6a625314e059c6ea1e7e040494083e98"
-    },
-    {
-      "accepted_cycles": 0,
-      "article_id": "fac37c80-d157-4543-8b49-8bdf869e9d4a",
-      "language": "hin",
-      "latest_task": "3e043d7f254f87e77de33409f991790f",
-      "processing_status": "in_batch",
-      "reason": "active"
     },
     {
       "accepted_cycles": 1,
@@ -11198,7 +11198,7 @@
       "article_id": "affa9e6e-7d44-4174-ae66-fd44cfaeeaa0",
       "language": "swa",
       "latest_task": "f55739439c5424700454b3fc18f758cd",
-      "processing_status": "queued",
+      "processing_status": "in_batch",
       "reason": "active"
     },
     {
@@ -12787,7 +12787,7 @@
       "reason": "eligible_automatic"
     }
   ],
-  "settled_unused_usd": 539.712799,
+  "settled_unused_usd": 539.798036,
   "source_revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
   "spending_policy": "owner-2026-10-29-provider-managed-spending",
   "usage_description": "Provider-reported usage priced at frozen rates; not invoice reconciliation"
