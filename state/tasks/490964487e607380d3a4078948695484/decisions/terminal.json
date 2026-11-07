@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Poem, stanza 1, line 3",
+      "severity": "minor",
+      "source_quote": "My company before is gone,",
+      "suggested_fix": "i miei compagni se ne sono andati,",
+      "translation_quote": "i miei compagni sono già andati avanti,"
+    },
+    {
+      "location": "Poem, stanza 12, line 1",
+      "severity": "minor",
+      "source_quote": "Contented now upon my thigh / I halt,",
+      "suggested_fix": "Ora, rassegnato, zoppico per la coscia ferita,",
+      "translation_quote": "Ora, pago, zoppico sulla mia coscia"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

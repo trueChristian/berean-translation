@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "73e5970c6c2d401b80a0547d3534b40a",
   "campaign": "auto-ce6fd0fc84c70263ad7dd641740999f1c24de8451ac6e80932c74ef354b52bd4",
   "created_at": "2026-11-07T16:39:16+00:00",
   "events": [
@@ -28,10 +27,46 @@
         },
         "total_tokens": 3762
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1007,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 842,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3642,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 3639,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4649
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "Poem, stanza 1, line 3",
+      "severity": "minor",
+      "source_quote": "My company before is gone,",
+      "suggested_fix": "i miei compagni se ne sono andati,",
+      "translation_quote": "i miei compagni sono già andati avanti,"
+    },
+    {
+      "location": "Poem, stanza 12, line 1",
+      "severity": "minor",
+      "source_quote": "Contented now upon my thigh / I halt,",
+      "suggested_fix": "Ora, rassegnato, zoppico per la coscia ferita,",
+      "translation_quote": "Ora, pago, zoppico sulla mia coscia"
+    }
+  ],
+  "finished_at": "2026-11-07T21:40:54+00:00",
   "id": "490964487e607380d3a4078948695484",
   "issue_id": "103c93e0-6e9a-44f6-a6bc-377af8e08e38",
   "language": "ita",
@@ -120,9 +155,11 @@
     }
   },
   "protected": false,
+  "quality_score": 96,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/9d1635e3bd5ab75f1e24d51f491424a977dd8f697473a7308d40b9aab6f4782e.json",
   "stage": "review1",
   "stage_budget": {
@@ -138,7 +175,7 @@
     "total_reserved_usd": 0.086768,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "06e2bba937ce86ced2a2682fcfc332bcc329e09bbb284783b9affc01916db9ff",
   "translation_model_actual": "gpt-6-luna"

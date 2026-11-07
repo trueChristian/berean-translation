@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "402ff567-075f-446c-8074-c0d39ea9c30c",
+    "response_id": "chatcmpl-EhiMjkU61qxms0CENRLpy5vW4TOpi",
+    "usage": {
+      "completion_tokens": 1007,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 842,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3642,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3639,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4649
+    }
+  },
+  "received_at": "2026-11-07T21:40:54+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Poem, stanza 1, line 3",
+        "severity": "minor",
+        "source_quote": "My company before is gone,",
+        "suggested_fix": "i miei compagni se ne sono andati,",
+        "translation_quote": "i miei compagni sono già andati avanti,"
+      },
+      {
+        "location": "Poem, stanza 12, line 1",
+        "severity": "minor",
+        "source_quote": "Contented now upon my thigh / I halt,",
+        "suggested_fix": "Ora, rassegnato, zoppico per la coscia ferita,",
+        "translation_quote": "Ora, pago, zoppico sulla mia coscia"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 96
+  }
+}
