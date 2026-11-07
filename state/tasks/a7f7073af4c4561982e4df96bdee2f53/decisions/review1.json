@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "html: 첫 번째 p.drop-cap, 남편이나 부모에 관한 문장",
+      "severity": "major",
+      "source_quote": "Maybe a husband or parent is abusive or unfaithful.",
+      "suggested_fix": "해당 문장을 “남편이나 부모가 학대하거나 부부간의 정절을 저버렸을지도 모릅니다.”로 수정하십시오.",
+      "translation_quote": "남편이나 부모가 학대하거나 불성실할지도 모릅니다."
+    },
+    {
+      "location": "html: 마지막 성경 인용문, 요한계시록 21:2에 해당하는 문장",
+      "severity": "major",
+      "source_quote": "And I John saw the holy city, new Jerusalem",
+      "suggested_fix": "“또 내가 보매 거룩한 성 새 예루살렘이”를 “또 나 요한이 보니 거룩한 성 새 예루살렘이”로 수정하여 원문에 명시된 화자의 이름을 보존하십시오.",
+      "translation_quote": "또 내가 보매 거룩한 성 새 예루살렘이"
+    },
+    {
+      "location": "html: 첫 번째 p.drop-cap, 사랑하는 사람의 질병에 관한 문장",
+      "severity": "minor",
+      "source_quote": "Our loved ones might have a terminal illness.",
+      "suggested_fix": "“사랑하는 사람이 말기 질환을 앓고 있을 수도 있습니다.”로 수정하십시오. 불치병이라는 표현만으로는 생명을 앗아갈 말기 질환이라는 의미가 충분히 전달되지 않습니다.",
+      "translation_quote": "사랑하는 사람이 불치병에 걸렸을 수도 있습니다."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

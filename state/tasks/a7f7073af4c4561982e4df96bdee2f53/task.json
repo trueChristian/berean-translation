@@ -5,11 +5,54 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "a0122d78f82c434d82964206a57102c9",
   "campaign": "auto-528679c02e70a662be103c93c4ebb94c11fd2bfa3d55def0e0dcd74d1cc16e10",
   "created_at": "2026-11-07T10:14:57+00:00",
-  "events": [],
-  "findings": [],
+  "events": [
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 556,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 129,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4475,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 3372,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 5031
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "html: 첫 번째 p.drop-cap, 남편이나 부모에 관한 문장",
+      "severity": "major",
+      "source_quote": "Maybe a husband or parent is abusive or unfaithful.",
+      "suggested_fix": "해당 문장을 “남편이나 부모가 학대하거나 부부간의 정절을 저버렸을지도 모릅니다.”로 수정하십시오.",
+      "translation_quote": "남편이나 부모가 학대하거나 불성실할지도 모릅니다."
+    },
+    {
+      "location": "html: 마지막 성경 인용문, 요한계시록 21:2에 해당하는 문장",
+      "severity": "major",
+      "source_quote": "And I John saw the holy city, new Jerusalem",
+      "suggested_fix": "“또 내가 보매 거룩한 성 새 예루살렘이”를 “또 나 요한이 보니 거룩한 성 새 예루살렘이”로 수정하여 원문에 명시된 화자의 이름을 보존하십시오.",
+      "translation_quote": "또 내가 보매 거룩한 성 새 예루살렘이"
+    },
+    {
+      "location": "html: 첫 번째 p.drop-cap, 사랑하는 사람의 질병에 관한 문장",
+      "severity": "minor",
+      "source_quote": "Our loved ones might have a terminal illness.",
+      "suggested_fix": "“사랑하는 사람이 말기 질환을 앓고 있을 수도 있습니다.”로 수정하십시오. 불치병이라는 표현만으로는 생명을 앗아갈 말기 질환이라는 의미가 충분히 전달되지 않습니다.",
+      "translation_quote": "사랑하는 사람이 불치병에 걸렸을 수도 있습니다."
+    }
+  ],
   "id": "a7f7073af4c4561982e4df96bdee2f53",
   "issue_id": "4e575f26-fabd-5104-ba0d-d54ca032653b",
   "language": "kor",
@@ -98,11 +141,13 @@
     }
   },
   "protected": false,
+  "quality_score": 94,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/ed4292a280d035a48fce6784293d9c81967e6013bd626639e1d958c963f7a077.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "review1",
     "max_candidate_bytes": 120000,
@@ -115,7 +160,7 @@
     "total_reserved_usd": 0.706296,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 0,
   "translation_key": "589935b71d98b7f8c7ccc2aec7175a306daa35b8356cdcf6ebb03c78609b5a1a",
   "translation_model_actual": "gpt-6-luna"
