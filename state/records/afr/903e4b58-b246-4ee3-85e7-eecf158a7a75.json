@@ -45,26 +45,39 @@
       "event": "automatic_requested",
       "previous_task": "5d766f43b374a4531e4f438d0cda000c",
       "task": "ba01f931b633bea95a444a1dc4c06892"
+    },
+    {
+      "archive": "state/publication-history/afr/903e4b58-b246-4ee3-85e7-eecf158a7a75/b5075910e2387bfe03ea047b6def71faba52fc678abf4f00ecf4a35128b3e93c.json",
+      "at": "2026-11-07T16:20:09+00:00",
+      "event": "publication_replaced",
+      "previous_task": "dd4cae43073eb580e6b53ce58b8e6f68",
+      "task": "ba01f931b633bea95a444a1dc4c06892"
+    },
+    {
+      "at": "2026-11-07T16:20:09+00:00",
+      "event": "complete",
+      "reason": null,
+      "task": "ba01f931b633bea95a444a1dc4c06892"
     }
   ],
   "language": "afr",
   "latest_task": "ba01f931b633bea95a444a1dc4c06892",
   "published": {
     "html_path": "content/afr/articles/903e4b58-b246-4ee3-85e7-eecf158a7a75.html",
-    "html_sha256": "f2ddea2bdfef1071ebfb43d8f3beca49a5d46578caac9459524dd8bc4c0bf20f",
+    "html_sha256": "1d4b1e172223bf9042dc86048c5428e6b55145694d6cc875e76c3b5a3c0855f5",
     "human_review": null,
     "human_reviewed": false,
     "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
     "metadata_path": "content/afr/articles/903e4b58-b246-4ee3-85e7-eecf158a7a75.json",
-    "metadata_sha256": "19fec0121bb277117b7d16c0c9d6f988905a4dcb0d76669e8c3872efc33c7d37",
+    "metadata_sha256": "7f665361d25c3c817b288dbf2b918645db1bf2e3c63a154effde0e246aef3ed6",
     "model": "gpt-6.1-sol",
     "notice_html": "<aside class=\"translation-notice\" data-translation-notice=\"ai\" lang=\"af\" dir=\"ltr\" role=\"note\">\n  <p>Hierdie artikel is met kunsmatige intelligensie van OpenAI (model: gpt-6.1-sol) vertaal en is nog nie deur ’n mens nagegaan nie. Die Engelse oorspronklike is die gesaghebbende weergawe. Raadpleeg die Engelse oorspronklike indien daar onsekerheid oor die betekenis is. <a href=\"/en/articles/903e4b58-b246-4ee3-85e7-eecf158a7a75/\" data-source-article-id=\"903e4b58-b246-4ee3-85e7-eecf158a7a75\" hreflang=\"en\">Engelse oorspronklike</a></p>\n</aside>",
-    "published_at": "2026-10-14T20:09:43+00:00",
-    "quality_score": 98,
+    "published_at": "2026-11-07T16:20:09+00:00",
+    "quality_score": 99,
     "review_model": "gpt-6.1-sol",
-    "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
-    "source_snapshot": "state/sources/7c85424e5984fd791f1fa504f0338be2aed2d0572a02d43d9b8370601de3fda8.json",
-    "task": "dd4cae43073eb580e6b53ce58b8e6f68",
-    "translation_key": "bc655ca0e757a92869b0811d5a6de87a4ca48f1e4eef1923cd7135609b8dc379"
+    "source_revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
+    "source_snapshot": "state/sources/ee1d1c4c726665ca5725eef036aae90f81e779ea0d47055f2cf908d0b809c75d.json",
+    "task": "ba01f931b633bea95a444a1dc4c06892",
+    "translation_key": "aca8415cfcf9e5554286626ac6bcaa5724f97b93dadbcdbbe3b6300ec48874e3"
   }
 }

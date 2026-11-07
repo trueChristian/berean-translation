@@ -3248,12 +3248,12 @@
       "ai_notice_required": true,
       "direction": "ltr",
       "html": "content/afr/articles/903e4b58-b246-4ee3-85e7-eecf158a7a75.html",
-      "html_sha256": "f2ddea2bdfef1071ebfb43d8f3beca49a5d46578caac9459524dd8bc4c0bf20f",
+      "html_sha256": "1d4b1e172223bf9042dc86048c5428e6b55145694d6cc875e76c3b5a3c0855f5",
       "human_reviewed": false,
       "id": "903e4b58-b246-4ee3-85e7-eecf158a7a75",
       "images": [
         {
-          "alt": "Volwassene wat ’n klein kind se hand vashou terwyl hulle buite stap",
+          "alt": "Volwassene hou ’n klein kind se hand vas terwyl hulle buite stap",
           "public_path": "/images/articles/903e4b58-b246-4ee3-85e7-eecf158a7a75-1.jpg"
         }
       ],
@@ -3261,15 +3261,15 @@
       "language": "afr",
       "language_tag": "af",
       "metadata": "content/afr/articles/903e4b58-b246-4ee3-85e7-eecf158a7a75.json",
-      "metadata_sha256": "19fec0121bb277117b7d16c0c9d6f988905a4dcb0d76669e8c3872efc33c7d37",
+      "metadata_sha256": "7f665361d25c3c817b288dbf2b918645db1bf2e3c63a154effde0e246aef3ed6",
       "provider": "OpenAI",
       "review_model": "gpt-6.1-sol",
-      "section": "Suster tot Suster",
-      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
-      "source_translation_key": "bc655ca0e757a92869b0811d5a6de87a4ca48f1e4eef1923cd7135609b8dc379",
-      "status": "stale",
+      "section": "Suster tot suster",
+      "source_revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
+      "source_translation_key": "aca8415cfcf9e5554286626ac6bcaa5724f97b93dadbcdbbe3b6300ec48874e3",
+      "status": "ready",
       "subtitle": null,
-      "title": "’n Vreugdevolle Roeping",
+      "title": "’n Vreugdevolle roeping",
       "translation_model": "gpt-6.1-sol"
     },
     {
