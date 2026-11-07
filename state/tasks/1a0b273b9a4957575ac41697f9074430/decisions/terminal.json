@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "Poem, stanza 4, line 2",
+      "severity": "minor",
+      "source_quote": "Or touch the hollow of my thigh;",
+      "suggested_fix": "উরুর সন্ধিতে স্পর্শ করাও বৃথা;",
+      "translation_quote": "উরুর সন্ধিতে আঘাত করাও বৃথা;"
+    },
+    {
+      "location": "Poem, stanza 4, line 3",
+      "severity": "minor",
+      "source_quote": "Though every sinew be unstrung,",
+      "suggested_fix": "আমার প্রতিটি পেশির টান শিথিল হয়ে গেলেও,",
+      "translation_quote": "আমার প্রতিটি শিরা-উপশিরা শিথিল হয়ে গেলেও,"
+    },
+    {
+      "location": "Poem, stanza 11, lines 3–4",
+      "severity": "minor",
+      "source_quote": "Withered my nature’s strength, from thee / My soul its life and succour brings;",
+      "suggested_fix": "আমার স্বাভাবিক শক্তি ক্ষয় হয়েছে; তোমার কাছ থেকেই / আমার আত্মা জীবন ও সহায় পায়;",
+      "translation_quote": "তোমার কাছে আমার স্বভাবের শক্তি ক্ষয় হয়েছে, / তোমার কাছ থেকেই আমার প্রাণ পায় জীবন ও সহায়;"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

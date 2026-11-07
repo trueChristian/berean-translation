@@ -1,0 +1,52 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "200a23e9-f002-47a5-9f45-680eca7b51ee",
+    "response_id": "chatcmpl-EhYJUxDaDKyauyCHf1ZoSoAvyGl7P",
+    "usage": {
+      "completion_tokens": 1129,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 844,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3933,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 3930
+      },
+      "total_tokens": 5062
+    }
+  },
+  "received_at": "2026-11-07T16:19:03+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Poem, stanza 4, line 2",
+        "severity": "minor",
+        "source_quote": "Or touch the hollow of my thigh;",
+        "suggested_fix": "উরুর সন্ধিতে স্পর্শ করাও বৃথা;",
+        "translation_quote": "উরুর সন্ধিতে আঘাত করাও বৃথা;"
+      },
+      {
+        "location": "Poem, stanza 4, line 3",
+        "severity": "minor",
+        "source_quote": "Though every sinew be unstrung,",
+        "suggested_fix": "আমার প্রতিটি পেশির টান শিথিল হয়ে গেলেও,",
+        "translation_quote": "আমার প্রতিটি শিরা-উপশিরা শিথিল হয়ে গেলেও,"
+      },
+      {
+        "location": "Poem, stanza 11, lines 3–4",
+        "severity": "minor",
+        "source_quote": "Withered my nature’s strength, from thee / My soul its life and succour brings;",
+        "suggested_fix": "আমার স্বাভাবিক শক্তি ক্ষয় হয়েছে; তোমার কাছ থেকেই / আমার আত্মা জীবন ও সহায় পায়;",
+        "translation_quote": "তোমার কাছে আমার স্বভাবের শক্তি ক্ষয় হয়েছে, / তোমার কাছ থেকেই আমার প্রাণ পায় জীবন ও সহায়;"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 97
+  }
+}
