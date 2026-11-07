@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, stanza beginning «Yield to me now»",
+      "severity": "major",
+      "source_quote": "Yield to me now—for I am weak,",
+      "suggested_fix": "اخضع لي الآن، فأنا ضعيف،",
+      "translation_quote": "استجب لي الآن، فأنا ضعيف،"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
