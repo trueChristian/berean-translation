@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-07T21:24:43+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"6c25be17-3343-451b-afeb-ed9c56942fd0\\\">\\n  <figure>\\n    <img src=\\\"/images/articles/6c25be17-3343-451b-afeb-ed9c56942fd0-1.jpg\\\" alt=\\\"Una vecchia porta di legno accanto a un muro consunto e a rami in fiore.\\\">\\n  </figure>\\n  <p class=\\\"poem\\\">Vieni, o viandante sconosciuto,<br>che ancora stringo, ma non posso vedere;<br>i miei compagni sono già andati avanti,<br>con te intendo restare tutta la notte<br>e lottare fino allo spuntare del giorno.</p>\\n  <p class=\\\"poem\\\">Non devo dirti chi sono,<br>la mia miseria e il mio peccato lo dichiarano;<br>tu stesso mi hai chiamato per nome,<br>guarda le tue mani e leggilo là!<br>Ma chi sei, ti domando, chi sei?<br>Dimmi il tuo nome, dimmelo ora.</p>\\n  <p class=\\\"poem\\\">Invano lotti per liberarti,<br>non allenterò mai la presa:<br>sei tu l’Uomo che è morto per me?<br>Svela il segreto del tuo amore:<br>lottando, non ti lascerò andare<br>finché non conoscerò il tuo nome, la tua natura.</p>\\n  <p class=\\\"poem\\\">È tutto inutile tacere<br>o toccarmi l’incavo della coscia;<br>anche se ogni mio tendine si strappasse,<br>non potrai sfuggire alle mie braccia;<br>lottando, non ti lascerò andare<br>finché non conoscerò il tuo nome, la tua natura.</p>\\n  <p class=\\\"poem\\\">Che importa se la mia carne che si ritrae si lamenta<br>e brontola per una lotta così lunga?<br>Mi elevo al di sopra del mio dolore,<br>quando sono debole, allora sono forte;<br>e quando ogni mia forza verrà meno,<br>prevarrò sul Dio-uomo.</p>\\n  <p class=\\\"poem\\\">La mia forza è svanita, la mia natura muore,<br>sprofondo sotto la tua mano potente;<br>svengo per riprendermi, cado per rialzarmi;<br>cado, eppure per fede sto in piedi:<br>sto in piedi e non ti lascerò andare<br>finché non conoscerò il tuo nome, la tua natura.</p>\\n  <p class=\\\"poem\\\">Arrenditi ora a me, perché sono debole,<br>ma fiducioso nella disperazione di me stesso;<br>parla al mio cuore, parlami con benedizioni,<br>lasciati vincere dalla mia preghiera insistente:<br>parla, oppure non potrai mai allontanarti da qui,<br>e dimmi se il tuo nome è Amore.</p>\\n  <p class=\\\"poem\\\">È Amore! È Amore! Sei morto per me,<br>odo il tuo sussurro nel mio cuore;<br>spunta il mattino, le ombre svaniscono,<br>tu sei Amore puro e universale:<br>a me, a tutti, si volgono le tue misericordie—<br>la tua natura e il tuo nome sono Amore.</p>\\n  <p class=\\\"poem\\\">La mia preghiera ha potere presso Dio; la grazia<br>indicibile che ora ricevo;<br>per fede ti vedo faccia a faccia,<br>ti vedo faccia a faccia e vivo!<br>Non ho pianto e lottato invano—<br>la tua natura e il tuo nome sono Amore.</p>\\n  <p class=\\\"poem\\\">So chi sei, Salvatore,<br>Gesù, amico del peccatore debole;<br>né te ne andrai con la notte,<br>ma resterai e mi amerai fino alla fine;<br>le tue misericordie non verranno mai meno,<br>la tua natura e il tuo nome sono Amore.</p>\\n  <p class=\\\"poem\\\">Il Sole di giustizia è sorto su di me<br>con la guarigione nelle sue ali;<br>la forza della mia natura, inaridita, da te<br>la mia anima trae vita e soccorso;<br>tutto il mio aiuto è riposto in alto—<br>la tua natura e il tuo nome sono Amore.</p>\\n  <p class=\\\"poem\\\">Ora, pago, zoppico sulla mia coscia<br>finché non giunga al termine il breve viaggio della vita;<br>tutta la mia impotenza, tutta la mia debolezza,<br>solo da te dipendono per avere forza;<br>né ho il potere di allontanarmi da te—<br>la tua natura e il tuo nome sono Amore.</p>\\n  <p class=\\\"poem\\\">Pur essendo zoppo, mi impadronisco della preda,<br>vinco facilmente inferno, terra e peccato;<br>salto di gioia, proseguo il mio cammino<br>e, come un cervo che balza, volo verso casa,<br>per dimostrare per tutta l’eternità<br>che la tua natura e il tuo nome sono Amore.</p>\\n  <p class=\\\"poem\\\">A Dio sia gloria per il giorno<br>in cui potei vedere il tuo volto sorridente,<br>l’aurora della tua misericordia, il tuo raggio mattutino<br>e tutte le ricchezze della tua grazia:<br>per sempre il mio canto proclamerà<br>che la tua natura e il tuo nome sono Amore.</p>\\n</article>\\n\",\"section\":null,\"subtitle\":null,\"title\":\"Giacobbe in lotta\"}",
+    "content_bytes": 4139,
+    "content_evidence_truncated": false,
+    "content_sha256": "49bdbfb8aa2fb7840a8a4e7ec23b669af9b449b2cd36be7d2976c2504da91c2a",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1821,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 468,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1941,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1938,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3762
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}
