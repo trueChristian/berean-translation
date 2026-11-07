@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-07T20:17:45+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Стихотворение, строфа 5, строка 6\",\"severity\":\"major\",\"source_quote\":\"I shall with the God-man prevail.\",\"suggested_fix\":\"И с Богочеловеком я одержу победу.\",\"translation_quote\":\"Я одержу верх над Богочеловеком.\"}],\"findings_complete\":true,\"passed\":false,\"score\":93}",
+    "content_bytes": 372,
+    "content_evidence_truncated": false,
+    "content_sha256": "adf0928498cefbeb45525635933b23ffb2ba82328f58bef167b094579fe9630f",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 913,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 807,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3705,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3702,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4618
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Стихотворение, строфа 5, строка 6",
+      "severity": "major",
+      "source_quote": "I shall with the God-man prevail.",
+      "suggested_fix": "И с Богочеловеком я одержу победу.",
+      "translation_quote": "Я одержу верх над Богочеловеком."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
