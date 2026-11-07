@@ -3,7 +3,7 @@
   "automatic_enabled": true,
   "automatic_policy_version": 3,
   "budget_enforcement": "none",
-  "committed_usd": 62.659416,
+  "committed_usd": 62.20086,
   "counts": {
     "active": 50,
     "already_translated": 108,
@@ -21,7 +21,7 @@
   },
   "derived": true,
   "format_version": "2",
-  "gross_allocated_usd": 604.735266,
+  "gross_allocated_usd": 604.822034,
   "historical_approved_total_usd": 30.0,
   "items": [
     {
@@ -6744,14 +6744,6 @@
       "request_id": "auto-91070233bd9570f1533e53a2724995b5eee4a5404c4d11637ea325998218aac6"
     },
     {
-      "accepted_cycles": 1,
-      "article_id": "fac37c80-d157-4543-8b49-8bdf869e9d4a",
-      "language": "ind",
-      "latest_task": "d3cf747112a9f75f8a02c48c04b32cdb",
-      "processing_status": "in_batch",
-      "reason": "active"
-    },
-    {
       "accepted_cycles": 0,
       "article_id": "fbb7faf4-04de-4858-b608-09cb6aedaacf",
       "language": "ind",
@@ -9681,6 +9673,14 @@
       "processing_status": "held_without_publication",
       "reason": "automatic_capacity_wait",
       "request_id": "auto-9d3cbd9d8b1e769d4706d3b3f6662cae1a50f3af60dc10bd274375bc08e0b984"
+    },
+    {
+      "accepted_cycles": 0,
+      "article_id": "6c25be17-3343-451b-afeb-ed9c56942fd0",
+      "language": "rus",
+      "latest_task": "54ed310f2c4ff6c03feb99a194e446ec",
+      "processing_status": "in_batch",
+      "reason": "active"
     },
     {
       "accepted_cycles": 0,
@@ -12771,7 +12771,7 @@
       "reason": "eligible_automatic"
     }
   ],
-  "settled_unused_usd": 542.07585,
+  "settled_unused_usd": 542.621174,
   "source_revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
   "spending_policy": "owner-2026-10-29-provider-managed-spending",
   "usage_description": "Provider-reported usage priced at frozen rates; not invoice reconciliation"
