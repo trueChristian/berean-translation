@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "87ad3c64-4ca2-426a-a1cd-9b7de8f6fb77",
+    "response_id": "chatcmpl-EhdJRI7rMhGyo399Tt0RS4WTHOuqO",
+    "usage": {
+      "completion_tokens": 884,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 783,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3673,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2570,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 4557
+    }
+  },
+  "received_at": "2026-11-07T16:18:28+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, 5e strophe, 1er vers",
+        "severity": "minor",
+        "source_quote": "What though my shrinking flesh complain,",
+        "suggested_fix": "Qu’importe si ma chair qui se rétracte se plaint",
+        "translation_quote": "Qu’importe si ma chair frissonnante se plaint"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}

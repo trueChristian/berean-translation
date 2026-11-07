@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, 5e strophe, 1er vers",
+      "severity": "minor",
+      "source_quote": "What though my shrinking flesh complain,",
+      "suggested_fix": "Qu’importe si ma chair qui se rétracte se plaint",
+      "translation_quote": "Qu’importe si ma chair frissonnante se plaint"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}
