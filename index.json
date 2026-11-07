@@ -96539,6 +96539,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/swe/articles/affa9e6e-7d44-4174-ae66-fd44cfaeeaa0.html",
+      "html_sha256": "579f248248ccb39253ceece5bea286422fd9996a5de72bbc51a2c9e4a0ca6422",
+      "human_reviewed": false,
+      "id": "affa9e6e-7d44-4174-ae66-fd44cfaeeaa0",
+      "images": [
+        {
+          "alt": "Stormmoln över en prärieväg, vänstra halvan av ett tvåsidigt fotografi",
+          "public_path": "/images/articles/affa9e6e-7d44-4174-ae66-fd44cfaeeaa0-1.jpg"
+        },
+        {
+          "alt": "Stormmoln över en prärie, högra halvan av ett tvåsidigt fotografi",
+          "public_path": "/images/articles/affa9e6e-7d44-4174-ae66-fd44cfaeeaa0-2.jpg"
+        }
+      ],
+      "issue_id": "4e575f26-fabd-5104-ba0d-d54ca032653b",
+      "language": "swe",
+      "language_tag": "sv",
+      "metadata": "content/swe/articles/affa9e6e-7d44-4174-ae66-fd44cfaeeaa0.json",
+      "metadata_sha256": "af6ba3a17ce751cb50139eed8cc8f8350f50fd5612faa9751487641dbb42a886",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "Uppmuntran för kristna kvinnor",
+      "source_revision": "22388745ad7f149609e65f5e28cfcc1257cd689e",
+      "source_translation_key": "589935b71d98b7f8c7ccc2aec7175a306daa35b8356cdcf6ebb03c78609b5a1a",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Tills stormen har dragit förbi",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/swe/articles/b37f8111-4563-4b5b-ab9f-1f87bcd2b46a.html",
       "html_sha256": "076b37c9d22ec5d7a34f3fc0a340208a4f0b3c8e347f7d9bb51559ba21307d6a",
       "human_reviewed": false,

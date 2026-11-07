@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "translation.html, div.lyrics, refrängens tredje rad",
+      "severity": "minor",
+      "source_quote": "let me stand in the hollow of Thy hand",
+      "suggested_fix": "Ersätt ”låt mig stå i din hands sköte” med ”låt mig stå i din kupade hand”.",
+      "translation_quote": "låt mig stå i din hands sköte"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "b8352ede-7fa0-46a8-b422-ce564eb7d33d",
+    "response_id": "chatcmpl-EhhqOPGEVDMbXqFfmIC9h4bd6y7Tm",
+    "usage": {
+      "completion_tokens": 167,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 56,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4233,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4230,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4400
+    }
+  },
+  "received_at": "2026-11-07T21:09:08+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "translation.html, div.lyrics, refrängens tredje rad",
+        "severity": "minor",
+        "source_quote": "let me stand in the hollow of Thy hand",
+        "suggested_fix": "Ersätt ”låt mig stå i din hands sköte” med ”låt mig stå i din kupade hand”.",
+        "translation_quote": "låt mig stå i din hands sköte"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 99
+  }
+}

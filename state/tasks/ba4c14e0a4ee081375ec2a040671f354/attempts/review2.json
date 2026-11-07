@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-07T21:09:08+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"translation.html, div.lyrics, refrängens tredje rad\",\"severity\":\"minor\",\"source_quote\":\"let me stand in the hollow of Thy hand\",\"suggested_fix\":\"Ersätt ”låt mig stå i din hands sköte” med ”låt mig stå i din kupade hand”.\",\"translation_quote\":\"låt mig stå i din hands sköte\"}],\"findings_complete\":true,\"passed\":true,\"score\":99}",
+    "content_bytes": 370,
+    "content_evidence_truncated": false,
+    "content_sha256": "04181e2aab373791aaa6adb2e4887c3ca473acdf67db96c8908b0f4d037e05df",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 167,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 56,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4233,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4230,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4400
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 1
+}
