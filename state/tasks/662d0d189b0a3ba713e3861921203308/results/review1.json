@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "fc2dc097-9a84-4be8-aa28-847518efbb23",
+    "response_id": "chatcmpl-EheZ274VDHKPHA1CwWlEESNYoC6BV",
+    "usage": {
+      "completion_tokens": 213,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 101,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6009,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 6006
+      },
+      "total_tokens": 6222
+    }
+  },
+  "received_at": "2026-11-07T20:18:00+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "translation.html، آخری پیراگراف",
+        "severity": "minor",
+        "source_quote": "our Sovereign God",
+        "suggested_fix": "صرف ”اپنے قادرِ مطلق خدا“ کو ”اپنے حاکمِ مطلق خدا“ سے بدلیں تاکہ خدا کی حاکمیت کا مفہوم برقرار رہے۔",
+        "translation_quote": "اپنے قادرِ مطلق خدا"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}

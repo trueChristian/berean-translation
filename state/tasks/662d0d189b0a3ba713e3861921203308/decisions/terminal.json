@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "translation.html، آخری پیراگراف",
+      "severity": "minor",
+      "source_quote": "our Sovereign God",
+      "suggested_fix": "صرف ”اپنے قادرِ مطلق خدا“ کو ”اپنے حاکمِ مطلق خدا“ سے بدلیں تاکہ خدا کی حاکمیت کا مفہوم برقرار رہے۔",
+      "translation_quote": "اپنے قادرِ مطلق خدا"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

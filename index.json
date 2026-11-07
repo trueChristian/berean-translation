@@ -100363,6 +100363,34 @@
     {
       "ai_notice_required": true,
       "direction": "rtl",
+      "html": "content/urd/articles/7a4d646a-0c04-4b44-a54f-ef63df487f81.html",
+      "html_sha256": "b34c191b149cf67ab8c125306b6d673f0aa890cdbb36040d0ba3f2713bd8c9a2",
+      "human_reviewed": false,
+      "id": "7a4d646a-0c04-4b44-a54f-ef63df487f81",
+      "images": [
+        {
+          "alt": "مدار سے رات کے وقت زمین کا منظر، جس میں روشن شہر دکھائی دے رہے ہیں",
+          "public_path": "/images/articles/7a4d646a-0c04-4b44-a54f-ef63df487f81-1.jpg"
+        }
+      ],
+      "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
+      "language": "urd",
+      "language_tag": "ur",
+      "metadata": "content/urd/articles/7a4d646a-0c04-4b44-a54f-ef63df487f81.json",
+      "metadata_sha256": "63972073875aea5eb773f59f4830983f9a80410e3b6fd60d8de0724aaabb7740",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "مدیر کی جانب سے",
+      "source_revision": "a069ecca8827634ebc256b3b1cabc16aeb942ed7",
+      "source_translation_key": "e52f483f09dabafafef934afe52248c9117008e635c4f1ce75160e79a8b53b14",
+      "status": "ready",
+      "subtitle": null,
+      "title": "مدیر کی جانب سے",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
       "html": "content/urd/articles/7cdda5c4-11c0-4b7f-bcd4-b37677267f87.html",
       "html_sha256": "70d9ec0f1f6c7614f46d8253ea6c7e047a4b76908b6c3b2dd741f04851b33533",
       "human_reviewed": false,
