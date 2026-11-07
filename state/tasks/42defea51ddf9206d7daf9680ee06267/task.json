@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "a144cbe76ecb4943bb25879a16fc9d69",
   "campaign": "auto-a16078baa0e4d29482cd6f06146f5cc70234270be3a978d5db0ba3e6d2bc9dcb",
   "created_at": "2026-11-06T11:46:30+00:00",
   "events": [
@@ -68,18 +67,31 @@
         },
         "total_tokens": 10567
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 664,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 626,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7354,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 7351,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8018
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "Absatz beginnend „Diese neue Geburt ist keine allmähliche Veränderung.“",
-      "severity": "major",
-      "source_quote": "“This new birth is not a slow change. It takes years, decades, or even generations.”",
-      "suggested_fix": "Die widersprüchliche Aussage des Originals beibehalten: „Diese neue Geburt ist keine allmähliche Veränderung. Sie dauert Jahre, Jahrzehnte oder sogar Generationen.“",
-      "translation_quote": "„Diese neue Geburt ist keine allmähliche Veränderung. Sie dauert nicht Jahre, Jahrzehnte oder gar Generationen.“"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-11-07T21:08:33+00:00",
   "id": "42defea51ddf9206d7daf9680ee06267",
   "issue_id": "103c93e0-6e9a-44f6-a6bc-377af8e08e38",
   "language": "deu",
@@ -168,7 +180,7 @@
     }
   },
   "protected": false,
-  "quality_score": 90,
+  "quality_score": 99,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
@@ -188,7 +200,7 @@
     "total_reserved_usd": 0.08933,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "0d016e3d15af155742e3fc7945ea9e376978e0f79b04bfc82e552feeff6bb6b0",
   "translation_model_actual": "gpt-6-luna"
