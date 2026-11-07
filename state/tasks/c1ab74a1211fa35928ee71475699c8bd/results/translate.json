@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "5ce67b1b-187a-4169-abed-f2ccef7ebd84",
+    "response_id": "chatcmpl-EhWgOBMsl5l2ZvyfDboSzRfQ8wiQj",
+    "usage": {
+      "completion_tokens": 1376,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1943,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1940,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3319
+    }
+  },
+  "received_at": "2026-11-07T09:56:06+00:00",
+  "result": {
+    "html": "<article data-article-id=\"6c25be17-3343-451b-afeb-ed9c56942fd0\">\n  <figure>\n    <img src=\"/images/articles/6c25be17-3343-451b-afeb-ed9c56942fd0-1.jpg\" alt=\"Une vieille porte en bois près d’un mur patiné et de branches en fleurs.\">\n  </figure>\n  <p class=\"poem\">Viens, ô toi, Voyageur inconnu,<br>Que je tiens toujours, sans pouvoir te voir ;<br>Ceux qui m’accompagnaient sont partis,<br>Avec toi, je veux rester toute la nuit,<br>Et lutter jusqu’à la pointe du jour.</p>\n  <p class=\"poem\">Nul besoin de te dire qui je suis :<br>Ma misère et mon péché le déclarent ;<br>Toi-même, tu m’as appelé par mon nom ;<br>Regarde tes mains, et lis-le là !<br>Mais qui es-tu, je te le demande, qui es-tu ?<br>Dis-moi ton nom, dis-le-moi maintenant.</p>\n  <p class=\"poem\">En vain tu luttes pour te libérer,<br>Jamais je ne desserrerai mon étreinte :<br>Es-tu l’Homme qui est mort pour moi ?<br>Révèle-moi le secret de ton amour :<br>Je lutterai, je ne te laisserai pas partir,<br>Jusqu’à connaître ton nom et ta nature.</p>\n  <p class=\"poem\">En vain gardes-tu le silence,<br>Ou touches le creux de ma hanche ;<br>Même si tous mes tendons se détendent,<br>Tu ne t’échapperas pas de mes bras ;<br>Je lutterai, je ne te laisserai pas partir,<br>Jusqu’à connaître ton nom et ta nature.</p>\n  <p class=\"poem\">Qu’importe si ma chair frissonnante se plaint<br>Et murmure de lutter si longtemps ?<br>Je m’élève au-dessus de ma douleur ;<br>Quand je suis faible, alors je suis fort ;<br>Et quand toute ma force m’aura quitté,<br>Je prévaudrai sur l’Homme-Dieu.</p>\n  <p class=\"poem\">Ma force m’abandonne, ma nature s’éteint,<br>Je succombe sous le poids de ta main ;<br>Faible, je reprends vie, et je tombe pour me relever ;<br>Je tombe, et pourtant, par la foi, je tiens debout :<br>Je tiens debout, et ne te laisserai pas partir,<br>Jusqu’à connaître ton nom et ta nature.</p>\n  <p class=\"poem\">Cède-moi maintenant — car je suis faible,<br>Mais confiant dans mon désespoir même ;<br>Parle à mon cœur, parle en bénédictions,<br>Laisse-toi vaincre par ma prière instante :<br>Parle, ou tu ne partiras jamais d’ici,<br>Et dis-moi si ton nom est Amour.</p>\n  <p class=\"poem\">C’est l’Amour ! C’est l’Amour ! Tu es mort pour moi,<br>J’entends ton murmure dans mon cœur ;<br>Le matin se lève, les ombres s’enfuient,<br>Tu es l’Amour pur et universel :<br>Tes miséricordes s’étendent à moi, à tous —<br>Ta nature et ton nom sont Amour.</p>\n  <p class=\"poem\">Ma prière a pouvoir auprès de Dieu ; la grâce<br>Indicible, je la reçois maintenant ;<br>Par la foi, je te vois face à face,<br>Je te vois face à face et je vis !<br>Ce n’est pas en vain que j’ai pleuré et lutté —<br>Ta nature et ton nom sont Amour.</p>\n  <p class=\"poem\">Je te connais, Sauveur, je sais qui tu es,<br>Jésus, l’ami du pécheur faible ;<br>Tu ne partiras pas avec la nuit,<br>Mais tu resteras et m’aimeras jusqu’à la fin ;<br>Tes miséricordes ne s’éloigneront jamais,<br>Ta nature et ton nom sont Amour.</p>\n  <p class=\"poem\">Le Soleil de justice s’est levé sur moi,<br>Avec la guérison sous ses ailes ;<br>Ma force naturelle s’est desséchée ; de toi,<br>Mon âme tire sa vie et son secours ;<br>Mon aide est entièrement réservée là-haut —<br>Ta nature et ton nom sont Amour.</p>\n  <p class=\"poem\">À présent, satisfait, appuyé sur ma hanche,<br>Je boite jusqu’au terme du bref voyage de la vie ;<br>Impuissant, faible en tout point,<br>Je dépends de toi seul pour ma force ;<br>Je n’ai pas non plus le pouvoir de m’éloigner de toi —<br>Ta nature et ton nom sont Amour.</p>\n  <p class=\"poem\">Boiteux comme je suis, je prends la proie,<br>Je triomphe sans peine de l’enfer, de la terre et du péché ;<br>Je bondis de joie, poursuis mon chemin,<br>Et, tel un cerf bondissant, je vole vers ma demeure,<br>Pour éprouver durant toute l’éternité<br>Que ta nature et ton nom sont Amour.</p>\n  <p class=\"poem\">À Dieu soit la gloire pour ce jour<br>Où j’ai pu voir ton visage souriant,<br>L’aube de ta miséricorde, ton rayon matinal,<br>Et toutes les richesses de ta grâce :<br>À jamais, mon chant célébrera<br>Que ta nature et ton nom sont Amour.</p>\n</article>\n",
+    "section": null,
+    "subtitle": null,
+    "title": "Jacob en lutte"
+  }
+}
