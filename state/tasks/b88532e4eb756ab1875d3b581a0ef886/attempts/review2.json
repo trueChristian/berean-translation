@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-07T16:18:44+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph beginning “Let’s look at an example”\",\"severity\":\"minor\",\"source_quote\":\"when a Haitian comes to a town with many cats\",\"suggested_fix\":\"حين يأتي شخصٌ هايتيّ إلى بلدة فيها قطط كثيرة\",\"translation_quote\":\"حين يأتي هايتي إلى بلدة فيها قطط كثيرة\"},{\"location\":\"Paragraph beginning “The flesh is flesh”\",\"severity\":\"minor\",\"source_quote\":\"turning the other cheek\",\"suggested_fix\":\"إدارة الخد الآخر\",\"translation_quote\":\"إدارة الخد الآخر\"}],\"findings_complete\":true,\"passed\":true,\"score\":97}",
+    "content_bytes": 627,
+    "content_evidence_truncated": false,
+    "content_sha256": "0fedd3fee7f3be3ca2ac177c5602fdac8f35be8aa742f6b48f8eee787cbc3153",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 829,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 682,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7429,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6326,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 8258
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

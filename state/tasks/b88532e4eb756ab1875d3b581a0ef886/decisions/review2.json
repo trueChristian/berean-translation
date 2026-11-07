@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph beginning “Let’s look at an example”",
+      "severity": "minor",
+      "source_quote": "when a Haitian comes to a town with many cats",
+      "suggested_fix": "حين يأتي شخصٌ هايتيّ إلى بلدة فيها قطط كثيرة",
+      "translation_quote": "حين يأتي هايتي إلى بلدة فيها قطط كثيرة"
+    },
+    {
+      "location": "Paragraph beginning “The flesh is flesh”",
+      "severity": "minor",
+      "source_quote": "turning the other cheek",
+      "suggested_fix": "إدارة الخد الآخر",
+      "translation_quote": "إدارة الخد الآخر"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}
