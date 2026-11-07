@@ -1,0 +1,59 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "e735eef6-a80f-46b2-bb07-10ec09a5a28b",
+    "response_id": "chatcmpl-EhNzJ5sbaDP2CBFajD5V8Q4P8jKe4",
+    "usage": {
+      "completion_tokens": 1130,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 694,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7428,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6325,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 8558
+    }
+  },
+  "received_at": "2026-11-07T02:47:25+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "الفقرة التي تبدأ بـ«هذه الولادة الجديدة ليست تغييرًا بطيئًا»",
+        "severity": "major",
+        "source_quote": "This new birth is not a slow change. It takes years, decades, or even generations.",
+        "suggested_fix": "هذه الولادة الجديدة ليست تغييرًا بطيئًا. إنها تستغرق سنوات أو عقودًا أو حتى أجيالًا.",
+        "translation_quote": "هذه الولادة الجديدة ليست تغييرًا بطيئًا يستغرق سنوات أو عقودًا أو حتى أجيالًا."
+      },
+      {
+        "location": "الفقرة التي تبدأ بـ«هذه الولادة الجديدة ليست تغييرًا بطيئًا»",
+        "severity": "major",
+        "source_quote": "If our conversions are not of God, then it becomes about us and our church’s culture.",
+        "suggested_fix": "إذا لم يكن اهتداؤنا من الله، فسيصبح الأمر متعلقًا بنا وبثقافة كنيستنا.",
+        "translation_quote": "وإذا لم تكن توبتنا من الله، فسيصبح الأمر متعلقًا بنا وبثقافة كنيستنا."
+      },
+      {
+        "location": "الفقرة التي تبدأ بـ«في الكتاب المقدس كله»",
+        "severity": "major",
+        "source_quote": "When people meet a Christian, God desires that they would know that He has met with them.",
+        "suggested_fix": "وحين يلتقي الناس مسيحيًا، يريد الله أن يعلموا أنه قد التقى بذلك المسيحي.",
+        "translation_quote": "وحين يلتقي الناس مسيحيًا، يريد الله أن يعلموا أنه قد التقاهم."
+      },
+      {
+        "location": "النص البديل للصورة الأولى",
+        "severity": "minor",
+        "source_quote": "An ornate key on an open book beside tulip leaves and buds.",
+        "suggested_fix": "مفتاح مزخرف على كتاب مفتوح بجوار أوراق التوليب وبراعمه.",
+        "translation_quote": "مفتاح مزخرف على كتاب مفتوح بجوار أوراق براعم التوليب وأزهارها."
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 88
+  }
+}
