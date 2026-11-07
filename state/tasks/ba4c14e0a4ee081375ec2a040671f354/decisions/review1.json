@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "html, inledningsstycket",
+      "severity": "major",
+      "source_quote": "Our loved ones might have a terminal illness.",
+      "suggested_fix": "Ersätt ”Våra nära och kära kanske har en obotlig sjukdom” med ”Våra nära och kära kanske har en dödlig sjukdom”.",
+      "translation_quote": "Våra nära och kära kanske har en obotlig sjukdom."
+    },
+    {
+      "location": "html, sista stycket, citatet från Uppenbarelseboken 21:1–4",
+      "severity": "major",
+      "source_quote": "And I John saw the holy city, new Jerusalem",
+      "suggested_fix": "Ersätt ”Och jag såg den heliga staden, det nya Jerusalem” med ”Och jag, Johannes, såg den heliga staden, det nya Jerusalem” för att bevara källtextens uttryckliga identifiering av berättaren.",
+      "translation_quote": "Och jag såg den heliga staden, det nya Jerusalem"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

@@ -5,11 +5,47 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "42daf3fe92134e15b47ab78a8fa2b897",
   "campaign": "auto-cb7dabac56594207721929d4d1d665927ff7454d54efd233e714ea21bbd4e617",
   "created_at": "2026-11-07T16:23:00+00:00",
-  "events": [],
-  "findings": [],
+  "events": [
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 355,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 71,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4231,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 4228,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4586
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "html, inledningsstycket",
+      "severity": "major",
+      "source_quote": "Our loved ones might have a terminal illness.",
+      "suggested_fix": "Ersätt ”Våra nära och kära kanske har en obotlig sjukdom” med ”Våra nära och kära kanske har en dödlig sjukdom”.",
+      "translation_quote": "Våra nära och kära kanske har en obotlig sjukdom."
+    },
+    {
+      "location": "html, sista stycket, citatet från Uppenbarelseboken 21:1–4",
+      "severity": "major",
+      "source_quote": "And I John saw the holy city, new Jerusalem",
+      "suggested_fix": "Ersätt ”Och jag såg den heliga staden, det nya Jerusalem” med ”Och jag, Johannes, såg den heliga staden, det nya Jerusalem” för att bevara källtextens uttryckliga identifiering av berättaren.",
+      "translation_quote": "Och jag såg den heliga staden, det nya Jerusalem"
+    }
+  ],
   "id": "ba4c14e0a4ee081375ec2a040671f354",
   "issue_id": "4e575f26-fabd-5104-ba0d-d54ca032653b",
   "language": "swe",
@@ -98,11 +134,13 @@
     }
   },
   "protected": false,
+  "quality_score": 94,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/ed4292a280d035a48fce6784293d9c81967e6013bd626639e1d958c963f7a077.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "review1",
     "max_candidate_bytes": 120000,
@@ -115,7 +153,7 @@
     "total_reserved_usd": 0.702661,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 0,
   "translation_key": "589935b71d98b7f8c7ccc2aec7175a306daa35b8356cdcf6ebb03c78609b5a1a",
   "translation_model_actual": "gpt-6-luna"

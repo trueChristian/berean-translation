@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-07T16:52:21+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"html, inledningsstycket\",\n      \"severity\": \"major\",\n      \"source_quote\": \"Our loved ones might have a terminal illness.\",\n      \"suggested_fix\": \"Ersätt ”Våra nära och kära kanske har en obotlig sjukdom” med ”Våra nära och kära kanske har en dödlig sjukdom”.\",\n      \"translation_quote\": \"Våra nära och kära kanske har en obotlig sjukdom.\"\n    },\n    {\n      \"location\": \"html, sista stycket, citatet från Uppenbarelseboken 21:1–4\",\n      \"severity\": \"major\",\n      \"source_quote\": \"And I John saw the holy city, new Jerusalem\",\n      \"suggested_fix\": \"Ersätt ”Och jag såg den heliga staden, det nya Jerusalem” med ”Och jag, Johannes, såg den heliga staden, det nya Jerusalem” för att bevara källtextens uttryckliga identifiering av berättaren.\",\n      \"translation_quote\": \"Och jag såg den heliga staden, det nya Jerusalem\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": false,\n  \"score\": 94\n}",
+    "content_bytes": 981,
+    "content_evidence_truncated": false,
+    "content_sha256": "1d0bef94b6df90a71347e84337c52e529b0c9b252bfe223198e80e7e8bd35400",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 355,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 71,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4231,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4228,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4586
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}

@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "09fc6892-e37b-4820-8f7f-57b1b07e8f85",
+    "response_id": "chatcmpl-Ehdqp57JXK3XiIAc8fmrjBX58wzv5",
+    "usage": {
+      "completion_tokens": 355,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 71,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4231,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4228,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4586
+    }
+  },
+  "received_at": "2026-11-07T16:52:21+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "html, inledningsstycket",
+        "severity": "major",
+        "source_quote": "Our loved ones might have a terminal illness.",
+        "suggested_fix": "Ersätt ”Våra nära och kära kanske har en obotlig sjukdom” med ”Våra nära och kära kanske har en dödlig sjukdom”.",
+        "translation_quote": "Våra nära och kära kanske har en obotlig sjukdom."
+      },
+      {
+        "location": "html, sista stycket, citatet från Uppenbarelseboken 21:1–4",
+        "severity": "major",
+        "source_quote": "And I John saw the holy city, new Jerusalem",
+        "suggested_fix": "Ersätt ”Och jag såg den heliga staden, det nya Jerusalem” med ”Och jag, Johannes, såg den heliga staden, det nya Jerusalem” för att bevara källtextens uttryckliga identifiering av berättaren.",
+        "translation_quote": "Och jag såg den heliga staden, det nya Jerusalem"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 94
+  }
+}
