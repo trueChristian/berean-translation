@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph 5, quoted sentence",
+      "severity": "major",
+      "source_quote": "“Mothers who were applauded by society were suddenly bombarded with a new buzzword—fullfillment.”",
+      "suggested_fix": "Replace «selvrealisering» with «oppfyllelse» (or «fullbyrdelse») to convey the source’s “fulfillment.”",
+      "translation_quote": "«Mødre som samfunnet hadde hyllet, ble plutselig bombardert med et nytt moteord – selvrealisering.»"
+    },
+    {
+      "location": "Paragraph 11, Psalm 127:3–5 quotation",
+      "severity": "major",
+      "source_quote": "“Happy is the man that hath his quiver full of them”",
+      "suggested_fix": "Replace «koggoret fullt av dem» with «koggeret fullt av dem».",
+      "translation_quote": "«Lykkelig er den mann som har koggoret fullt av dem»"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
