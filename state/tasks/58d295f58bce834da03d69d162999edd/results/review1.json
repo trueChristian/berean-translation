@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "6069d67c-62b3-422c-ba77-99677d9f15d9",
+    "response_id": "chatcmpl-EheEi48sXOxspysTo2nu0PPzO4hGz",
+    "usage": {
+      "completion_tokens": 215,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 122,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2787,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1684,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 3002
+    }
+  },
+  "received_at": "2026-11-07T20:18:18+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "translation.html, final stanza, line 1",
+        "severity": "minor",
+        "source_quote": "Obedient even unto death, Lord,",
+        "suggested_fix": "Tuwe watiifu hata kufa, Bwana,",
+        "translation_quote": "Mtiifu hata kufa, Bwana,"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 97
+  }
+}

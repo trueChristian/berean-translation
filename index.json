@@ -90409,6 +90409,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/swa/articles/71acc7cf-0c85-4e46-9a50-7afaeca6c9ac.html",
+      "html_sha256": "377cd92ba53295844b97f333b5b9ecdb5c5ba5d0d1bdf855da2e92e30457e2a3",
+      "human_reviewed": false,
+      "id": "71acc7cf-0c85-4e46-9a50-7afaeca6c9ac",
+      "images": [
+        {
+          "alt": "Nyasi na maji yenye ukungu pamoja na kulungu, nusu ya kushoto ya picha ya kurasa mbili",
+          "public_path": "/images/articles/71acc7cf-0c85-4e46-9a50-7afaeca6c9ac-1.jpg"
+        },
+        {
+          "alt": "Kulungu kando ya mti mkubwa na maji tulivu yenye ukungu, nusu ya kulia ya picha ya kurasa mbili",
+          "public_path": "/images/articles/71acc7cf-0c85-4e46-9a50-7afaeca6c9ac-2.jpg"
+        }
+      ],
+      "issue_id": "4e575f26-fabd-5104-ba0d-d54ca032653b",
+      "language": "swa",
+      "language_tag": "sw",
+      "metadata": "content/swa/articles/71acc7cf-0c85-4e46-9a50-7afaeca6c9ac.json",
+      "metadata_sha256": "92168c25a368fca756528ece631ce8d4c1348d0fc3d8a1b49dbc920cb8e7d9e4",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": null,
+      "source_revision": "22388745ad7f149609e65f5e28cfcc1257cd689e",
+      "source_translation_key": "3428e3dfe0b88050c4877e32e99eb4787e5c47d0cb144007ca16b538f3713f93",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Si Mapenzi Yangu",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/swa/articles/73def952-dd77-4a51-b030-27713e0cedd2.html",
       "html_sha256": "4679a2ee7a855e8b62bad3dd7ef97433b5515cfe9af25c2dc402e1f466183624",
       "human_reviewed": false,

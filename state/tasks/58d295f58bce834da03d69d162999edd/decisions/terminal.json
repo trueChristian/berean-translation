@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "translation.html, final stanza, line 1",
+      "severity": "minor",
+      "source_quote": "Obedient even unto death, Lord,",
+      "suggested_fix": "Tuwe watiifu hata kufa, Bwana,",
+      "translation_quote": "Mtiifu hata kufa, Bwana,"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-07T20:18:18+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"translation.html, final stanza, line 1\",\"severity\":\"minor\",\"source_quote\":\"Obedient even unto death, Lord,\",\"suggested_fix\":\"Tuwe watiifu hata kufa, Bwana,\",\"translation_quote\":\"Mtiifu hata kufa, Bwana,\"}],\"findings_complete\":true,\"passed\":true,\"score\":97}",
+    "content_bytes": 282,
+    "content_evidence_truncated": false,
+    "content_sha256": "99bc60f3b3e0fd0b1f6d666ad25b169133f10748cb301cd71a9d58e51b427788",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 215,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 122,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2787,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1684,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 3002
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}
