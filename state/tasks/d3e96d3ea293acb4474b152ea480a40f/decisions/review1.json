@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "translation.html، پیراگراف 9 (سرنگ کے دہانے پر واقعہ)",
+      "severity": "major",
+      "source_quote": "She moved a rock, then screamed and scrambled up the bank to join Melissa. “There was a crayfish under there!” she exclaimed.",
+      "suggested_fix": "متعلقہ جملے یوں درست کریں: اینجی نے ایک پتھر ہٹایا، پھر چیخی اور پھرتی سے کنارے پر چڑھ کر میلیسا کے پاس آ گئی۔ ”اس کے نیچے ایک دریائی جھینگا تھا!“ اس نے جوش سے کہا۔",
+      "translation_quote": "میلیسا نے ایک پتھر ہٹایا، پھر چیخی اور پھرتی سے کنارے پر چڑھ کر اینجی کے پاس آ گئی۔ ”اس کے نیچے ایک دریائی جھینگا تھا!“ اس نے جوش سے کہا۔"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

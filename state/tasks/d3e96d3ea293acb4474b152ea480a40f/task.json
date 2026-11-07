@@ -5,11 +5,40 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "cfd8031d9fc14af6afc9fd32175a6742",
   "campaign": "auto-f60268579edee30030c007294dd189eb84fa4971e555c5a7eac07fecbbd62696",
   "created_at": "2026-11-06T10:54:53+00:00",
-  "events": [],
-  "findings": [],
+  "events": [
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 264,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 49,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4593,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 4590,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4857
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "translation.html، پیراگراف 9 (سرنگ کے دہانے پر واقعہ)",
+      "severity": "major",
+      "source_quote": "She moved a rock, then screamed and scrambled up the bank to join Melissa. “There was a crayfish under there!” she exclaimed.",
+      "suggested_fix": "متعلقہ جملے یوں درست کریں: اینجی نے ایک پتھر ہٹایا، پھر چیخی اور پھرتی سے کنارے پر چڑھ کر میلیسا کے پاس آ گئی۔ ”اس کے نیچے ایک دریائی جھینگا تھا!“ اس نے جوش سے کہا۔",
+      "translation_quote": "میلیسا نے ایک پتھر ہٹایا، پھر چیخی اور پھرتی سے کنارے پر چڑھ کر اینجی کے پاس آ گئی۔ ”اس کے نیچے ایک دریائی جھینگا تھا!“ اس نے جوش سے کہا۔"
+    }
+  ],
   "id": "d3e96d3ea293acb4474b152ea480a40f",
   "issue_id": "4e575f26-fabd-5104-ba0d-d54ca032653b",
   "language": "urd",
@@ -98,11 +127,13 @@
     }
   },
   "protected": false,
+  "quality_score": 94,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/22d2041a7ab9e865d8113908d06f7b504a61850acbfdd24b41db464e5d7ce643.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "review1",
     "max_candidate_bytes": 120000,
@@ -115,7 +146,7 @@
     "total_reserved_usd": 0.713057,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 0,
   "translation_key": "4495f12a281c559d419fa93922b800b7fa95e251e187216d7846b8abc9c22a13",
   "translation_model_actual": "gpt-6-luna"

@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "5d4e5300-3b0f-49dc-a16c-2f975f2e7c95",
+    "response_id": "chatcmpl-EhhDF2aoM44iVXV0wgDiRUEdHkWYG",
+    "usage": {
+      "completion_tokens": 264,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 49,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4593,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4590,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4857
+    }
+  },
+  "received_at": "2026-11-07T20:54:32+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "translation.html، پیراگراف 9 (سرنگ کے دہانے پر واقعہ)",
+        "severity": "major",
+        "source_quote": "She moved a rock, then screamed and scrambled up the bank to join Melissa. “There was a crayfish under there!” she exclaimed.",
+        "suggested_fix": "متعلقہ جملے یوں درست کریں: اینجی نے ایک پتھر ہٹایا، پھر چیخی اور پھرتی سے کنارے پر چڑھ کر میلیسا کے پاس آ گئی۔ ”اس کے نیچے ایک دریائی جھینگا تھا!“ اس نے جوش سے کہا۔",
+        "translation_quote": "میلیسا نے ایک پتھر ہٹایا، پھر چیخی اور پھرتی سے کنارے پر چڑھ کر اینجی کے پاس آ گئی۔ ”اس کے نیچے ایک دریائی جھینگا تھا!“ اس نے جوش سے کہا۔"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 94
+  }
+}
