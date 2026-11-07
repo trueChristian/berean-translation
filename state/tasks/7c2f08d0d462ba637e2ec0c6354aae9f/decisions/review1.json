@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph beginning “Het christendom draait om God”",
+      "severity": "major",
+      "source_quote": "“Being a Christian is not because of how we live, the way we talk, or because of things we do.”",
+      "suggested_fix": "“Christen zijn komt niet door de manier waarop we leven, praten of door de dingen die we doen.”",
+      "translation_quote": "“Je bent geen christen vanwege de manier waarop je leeft, de manier waarop je praat of vanwege de dingen die je doet.”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

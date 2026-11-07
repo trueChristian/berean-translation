@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "a1f73748-dd0a-465c-8b4a-2b592570560e",
+    "response_id": "chatcmpl-EhSZWi4yeLYf9kaqcLJ0gHRAqawIZ",
+    "usage": {
+      "completion_tokens": 609,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 474,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7319,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7316,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7928
+    }
+  },
+  "received_at": "2026-11-07T09:55:32+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph beginning “Het christendom draait om God”",
+        "severity": "major",
+        "source_quote": "“Being a Christian is not because of how we live, the way we talk, or because of things we do.”",
+        "suggested_fix": "“Christen zijn komt niet door de manier waarop we leven, praten of door de dingen die we doen.”",
+        "translation_quote": "“Je bent geen christen vanwege de manier waarop je leeft, de manier waarop je praat of vanwege de dingen die je doet.”"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 93
+  }
+}
