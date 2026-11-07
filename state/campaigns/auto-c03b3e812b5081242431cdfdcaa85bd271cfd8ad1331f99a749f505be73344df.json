@@ -1909,7 +1909,7 @@
   },
   "status": "active",
   "task_counts": {
-    "queued": 1
+    "in_batch": 1
   },
   "tasks": [
     "fa7049b3469b956718feeb9956a0576e"
