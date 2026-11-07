@@ -1937,6 +1937,9 @@
     "version": 1
   },
   "status": "active",
+  "task_counts": {
+    "queued": 1
+  },
   "tasks": [
     "cd6a0a4b27597978496e92089ff5da6c"
   ]
