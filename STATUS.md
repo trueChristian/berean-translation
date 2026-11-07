@@ -2,7 +2,7 @@
 
 Generated from the pinned source catalogue and durable work records. No API call is made by this report.
 
-Generated: 2026-11-07T10:38:10+00:00.
+Generated: 2026-11-07T10:52:46+00:00.
 Published means an accepted translation is exportable here; live deployment is verified separately.
 Target categories are disjoint. Accepted publications remain published during replacement work. Source-stale versions and replacement outcomes are reported separately.
 Ready means source-compatible and exportable here; live deployment is verified separately.
@@ -10,7 +10,7 @@ Finished means processing has stopped, not that every requested translation pass
 
 Observed English revision: `bcb4169f4e852e7a2cc4c3beb402fbfef313a0df`
 
-Total target: 23360 article/language pairs. published: 3563 | unstarted: 18390 | queued: 126 | active: 19 | held without publication: 1262.
+Total target: 23360 article/language pairs. published: 3565 | unstarted: 18389 | queued: 121 | active: 24 | held without publication: 1261.
 
 Last collection: 2026-11-07T10:38:10+00:00; newly published: 1; stop reason: wait_budget_exhausted; submitted batches remaining: 18.
 
@@ -26,7 +26,7 @@ Last collection: 2026-11-07T10:38:10+00:00; newly published: 1; stop reason: wai
 | `heartbeat-remnant-2022-fall` | 11 | 169 / 220 | 0 | 0 | 0 | 51 | 12 | 0 |
 | `heartbeat-remnant-2022-summer` | 9 | 151 / 180 | 0 | 2 | 0 | 27 | 3 | 0 |
 | `heartbeat-remnant-2022-spring` | 9 | 165 / 180 | 0 | 0 | 0 | 15 | 0 | 0 |
-| `heartbeat-remnant-2021-summer` | 11 | 195 / 220 | 0 | 3 | 3 | 19 | 26 | 0 |
+| `heartbeat-remnant-2021-summer` | 11 | 197 / 220 | 0 | 3 | 2 | 18 | 26 | 0 |
 | `heartbeat-remnant-2021-spring` | 11 | 160 / 220 | 0 | 0 | 0 | 60 | 40 | 0 |
 | `heartbeat-remnant-2021-winter` | 12 | 172 / 240 | 0 | 0 | 0 | 68 | 30 | 0 |
 | `heartbeat-remnant-2020-summer` | 10 | 101 / 200 | 0 | 0 | 0 | 99 | 15 | 0 |
@@ -88,7 +88,7 @@ Last collection: 2026-11-07T10:38:10+00:00; newly published: 1; stop reason: wai
 | `heartbeat-remnant-2005-01` | 11 | 0 / 220 | 220 | 0 | 0 | 0 | 0 | 0 |
 | `heartbeat-remnant-2025-autumn` | 10 | 0 / 200 | 200 | 0 | 0 | 0 | 0 | 0 |
 | `heartbeat-remnant-2025-summer` | 11 | 0 / 220 | 220 | 0 | 0 | 0 | 0 | 0 |
-| `heartbeat-remnant-2025-spring` | 11 | 23 / 220 | 170 | 11 | 15 | 1 | 0 | 0 |
+| `heartbeat-remnant-2025-spring` | 11 | 23 / 220 | 169 | 6 | 21 | 1 | 0 | 0 |
 | `heartbeat-remnant-2004-11` | 9 | 0 / 180 | 180 | 0 | 0 | 0 | 0 | 0 |
 | `heartbeat-remnant-2004-09` | 10 | 0 / 200 | 200 | 0 | 0 | 0 | 0 | 0 |
 | `heartbeat-remnant-2004-07` | 12 | 133 / 240 | 0 | 62 | 0 | 45 | 0 | 0 |
@@ -124,19 +124,19 @@ Last collection: 2026-11-07T10:38:10+00:00; newly published: 1; stop reason: wai
 | `cmn` (zh-Hans) | 173 / 1168 | 919 | 7 | 0 | 69 | 13 | 5 | 0 | 107 |
 | `hin` (hi) | 184 / 1168 | 919 | 6 | 1 | 58 | 14 | 8 | 0 | 116 |
 | `spa` (es) | 202 / 1168 | 919 | 8 | 0 | 39 | 18 | 5 | 0 | 95 |
-| `ara` (ar) | 167 / 1168 | 919 | 8 | 1 | 73 | 11 | 9 | 0 | 131 |
+| `ara` (ar) | 167 / 1168 | 919 | 7 | 2 | 73 | 11 | 9 | 0 | 131 |
 | `fra` (fr) | 199 / 1168 | 919 | 3 | 1 | 46 | 15 | 9 | 0 | 93 |
-| `ben` (bn) | 166 / 1168 | 919 | 6 | 1 | 76 | 13 | 7 | 0 | 119 |
+| `ben` (bn) | 166 / 1168 | 919 | 5 | 2 | 76 | 13 | 7 | 0 | 120 |
 | `por` (pt) | 211 / 1168 | 919 | 6 | 2 | 30 | 16 | 6 | 0 | 93 |
 | `ind` (id) | 197 / 1168 | 919 | 5 | 1 | 46 | 18 | 6 | 0 | 99 |
-| `urd` (ur) | 176 / 1168 | 919 | 8 | 0 | 65 | 14 | 6 | 0 | 119 |
-| `rus` (ru) | 170 / 1168 | 919 | 7 | 1 | 71 | 15 | 7 | 0 | 133 |
-| `deu` (de) | 158 / 1168 | 920 | 8 | 1 | 81 | 6 | 5 | 0 | 112 |
+| `urd` (ur) | 176 / 1168 | 919 | 7 | 1 | 65 | 14 | 6 | 0 | 119 |
+| `rus` (ru) | 170 / 1168 | 919 | 6 | 2 | 71 | 15 | 7 | 0 | 134 |
+| `deu` (de) | 158 / 1168 | 919 | 7 | 3 | 81 | 6 | 5 | 0 | 112 |
 | `nld` (nl) | 188 / 1168 | 920 | 7 | 1 | 52 | 16 | 9 | 0 | 115 |
-| `afr` (af) | 193 / 1168 | 920 | 6 | 2 | 47 | 15 | 9 | 17 | 104 |
-| `swa` (sw) | 139 / 1168 | 920 | 7 | 2 | 100 | 8 | 7 | 0 | 144 |
+| `afr` (af) | 194 / 1168 | 920 | 6 | 1 | 47 | 15 | 9 | 17 | 104 |
+| `swa` (sw) | 140 / 1168 | 920 | 7 | 1 | 100 | 8 | 7 | 0 | 144 |
 | `kor` (ko) | 180 / 1168 | 920 | 5 | 2 | 61 | 13 | 5 | 0 | 109 |
-| `ita` (it) | 192 / 1168 | 920 | 8 | 0 | 48 | 17 | 7 | 0 | 89 |
+| `ita` (it) | 192 / 1168 | 920 | 8 | 1 | 47 | 17 | 7 | 0 | 88 |
 | `heb` (he) | 130 / 1168 | 920 | 6 | 0 | 112 | 6 | 5 | 0 | 133 |
 | `ell` (el) | 176 / 1168 | 920 | 5 | 1 | 66 | 12 | 9 | 0 | 118 |
 | `swe` (sv) | 180 / 1168 | 920 | 6 | 0 | 62 | 11 | 7 | 0 | 112 |
@@ -360,10 +360,10 @@ Every source issue and configured language appears, including unstarted work. Re
 | `heartbeat-remnant-2021-summer` | `rus` | 10 / 11 | 0 | 1 | 0 | 0 | 0 |
 | `heartbeat-remnant-2021-summer` | `deu` | 9 / 11 | 0 | 0 | 0 | 2 | 0 |
 | `heartbeat-remnant-2021-summer` | `nld` | 9 / 11 | 0 | 0 | 0 | 2 | 0 |
-| `heartbeat-remnant-2021-summer` | `afr` | 8 / 11 | 0 | 0 | 1 | 2 | 0 |
-| `heartbeat-remnant-2021-summer` | `swa` | 8 / 11 | 0 | 0 | 1 | 2 | 0 |
+| `heartbeat-remnant-2021-summer` | `afr` | 9 / 11 | 0 | 0 | 0 | 2 | 0 |
+| `heartbeat-remnant-2021-summer` | `swa` | 9 / 11 | 0 | 0 | 0 | 2 | 0 |
 | `heartbeat-remnant-2021-summer` | `kor` | 10 / 11 | 0 | 0 | 1 | 0 | 0 |
-| `heartbeat-remnant-2021-summer` | `ita` | 9 / 11 | 0 | 0 | 0 | 2 | 0 |
+| `heartbeat-remnant-2021-summer` | `ita` | 9 / 11 | 0 | 0 | 1 | 1 | 0 |
 | `heartbeat-remnant-2021-summer` | `heb` | 9 / 11 | 0 | 0 | 0 | 2 | 0 |
 | `heartbeat-remnant-2021-summer` | `ell` | 10 / 11 | 0 | 0 | 0 | 1 | 0 |
 | `heartbeat-remnant-2021-summer` | `swe` | 9 / 11 | 0 | 0 | 0 | 2 | 0 |
@@ -1591,14 +1591,14 @@ Every source issue and configured language appears, including unstarted work. Re
 | `heartbeat-remnant-2025-spring` | `cmn` | 1 / 11 | 8 | 2 | 0 | 0 | 0 |
 | `heartbeat-remnant-2025-spring` | `hin` | 2 / 11 | 8 | 0 | 1 | 0 | 0 |
 | `heartbeat-remnant-2025-spring` | `spa` | 3 / 11 | 8 | 0 | 0 | 0 | 0 |
-| `heartbeat-remnant-2025-spring` | `ara` | 1 / 11 | 8 | 1 | 1 | 0 | 0 |
+| `heartbeat-remnant-2025-spring` | `ara` | 1 / 11 | 8 | 0 | 2 | 0 | 0 |
 | `heartbeat-remnant-2025-spring` | `fra` | 1 / 11 | 8 | 1 | 1 | 0 | 0 |
-| `heartbeat-remnant-2025-spring` | `ben` | 1 / 11 | 8 | 1 | 1 | 0 | 0 |
+| `heartbeat-remnant-2025-spring` | `ben` | 1 / 11 | 8 | 0 | 2 | 0 | 0 |
 | `heartbeat-remnant-2025-spring` | `por` | 0 / 11 | 8 | 1 | 2 | 0 | 0 |
 | `heartbeat-remnant-2025-spring` | `ind` | 2 / 11 | 8 | 0 | 1 | 0 | 0 |
-| `heartbeat-remnant-2025-spring` | `urd` | 2 / 11 | 8 | 1 | 0 | 0 | 0 |
-| `heartbeat-remnant-2025-spring` | `rus` | 1 / 11 | 8 | 1 | 1 | 0 | 0 |
-| `heartbeat-remnant-2025-spring` | `deu` | 0 / 11 | 9 | 1 | 1 | 0 | 0 |
+| `heartbeat-remnant-2025-spring` | `urd` | 2 / 11 | 8 | 0 | 1 | 0 | 0 |
+| `heartbeat-remnant-2025-spring` | `rus` | 1 / 11 | 8 | 0 | 2 | 0 | 0 |
+| `heartbeat-remnant-2025-spring` | `deu` | 0 / 11 | 8 | 0 | 3 | 0 | 0 |
 | `heartbeat-remnant-2025-spring` | `nld` | 1 / 11 | 9 | 0 | 1 | 0 | 0 |
 | `heartbeat-remnant-2025-spring` | `afr` | 1 / 11 | 9 | 0 | 1 | 0 | 0 |
 | `heartbeat-remnant-2025-spring` | `swa` | 1 / 11 | 9 | 0 | 1 | 0 | 0 |
@@ -2153,7 +2153,7 @@ Every source issue and configured language appears, including unstarted work. Re
 
 Automatic policy enabled: True. Scheduled discovery and collection create missing work across the whole archive and all configured languages. Disable repository Actions to stop starting work; already submitted provider batches may finish.
 Spending is managed by the owner at the AI provider. No repository monetary limits apply to new or existing work.
-Historical commitments and outstanding cost estimates: $62.200860. These records are informational, not a spending allowance or provider balance.
+Historical commitments and outstanding cost estimates: $61.616732. These records are informational, not a spending allowance or provider balance.
 Usage is provider-reported and priced at frozen rates, not invoice reconciliation.
 Progressing repairs can continue beyond three historical cycles. Repeated or uncertain progress, refusals and unknown outcomes remain held for attention. Human-reviewed pairs never enter AI work.
 [Recovery frontier](RECOVERY.json) records current holds and cost history.
@@ -2163,7 +2163,7 @@ Progressing repairs can continue beyond three historical cycles. Repeated or unc
 Accepted shared allocations: $6.000000 across 6 runs. Allocations are not recycled after failure or cancellation.
 Separately authorized manual workflow allocations: $160.000000 across 10 accepted runs. Historical monetary limits are preserved as audit data and no longer restrict processing.
 [Recovery frontier](RECOVERY.json) lists missing work, admission holds, latest task outcomes and explicit blocking reasons. It is a derived report, not spending authority.
-active: 50 | already_translated: 108 | automatic_capacity_wait: 300 | continuation_progress_uncertain_requires_attention: 5 | continuation_repeated_findings_requires_attention: 1 | eligible_automatic: 692 | eligible_source_refresh: 168 | legacy_response_outcome_unknown_requires_owner_attention: 10 | pending_automatic_admission: 99 | provider_refusal_requires_owner_attention: 3 | repeated_technical_failure_requires_attention: 21 | source_error_requires_attention: 40 | technical_failure_requires_attention: 26
+active: 50 | already_translated: 108 | automatic_capacity_wait: 300 | continuation_progress_uncertain_requires_attention: 5 | continuation_repeated_findings_requires_attention: 1 | eligible_automatic: 691 | eligible_source_refresh: 168 | legacy_response_outcome_unknown_requires_owner_attention: 10 | pending_automatic_admission: 99 | provider_refusal_requires_owner_attention: 3 | repeated_technical_failure_requires_attention: 21 | source_error_requires_attention: 40 | technical_failure_requires_attention: 26
 A finished original campaign remains historical; current publication readiness is shown in the issue/language rows.
 
 ## Preserved overlong negative reviews
@@ -2494,6 +2494,7 @@ These requests did not start a paid campaign. Inspect the recorded validation er
 | `auto-1093b2d71aaf7cfa656431f66cf83d1178c83c1bdbce47879a4d6e01c32db216` | automatic archive | automatic | finished | 1 | 1 complete | 0.05930150 | 0.421041 | [state](state/campaigns/auto-1093b2d71aaf7cfa656431f66cf83d1178c83c1bdbce47879a4d6e01c32db216.json) |
 | `auto-10a8db2fd6043bfed0f84a9021a1237e90e65cc0585df37a3bec8281a3459ded` | automatic archive | automatic | finished | 1 | 1 held | 0.01124764 | 0.028393 | [state](state/campaigns/auto-10a8db2fd6043bfed0f84a9021a1237e90e65cc0585df37a3bec8281a3459ded.json) |
 | `auto-10d8be248243e97afec7ea3bdef0cea0bf0ff272b1797500a38f7828163fe7ef` | automatic archive | automatic | finished | 1 | 1 complete | 0.05231975 | 0.330722 | [state](state/campaigns/auto-10d8be248243e97afec7ea3bdef0cea0bf0ff272b1797500a38f7828163fe7ef.json) |
+| `auto-11991b0c4dbf311a071cf0b3b451f687546563fdd48a51aae2560f85bfa8a4b2` | automatic archive | automatic | active | 1 | 1 active | 0.00000000 | 0.004884 | [state](state/campaigns/auto-11991b0c4dbf311a071cf0b3b451f687546563fdd48a51aae2560f85bfa8a4b2.json) |
 | `auto-11bc1d8d9fb091d1748371b46d98358e6d738fa702c6293f876adea9308127cb` | automatic archive | automatic | finished | 1 | 1 complete | 0.08964560 | 0.452070 | [state](state/campaigns/auto-11bc1d8d9fb091d1748371b46d98358e6d738fa702c6293f876adea9308127cb.json) |
 | `auto-11c2a7c48d89570b05aa8051fa339960fae8aa646c1c0e048a727acd0613dd80` | automatic archive | automatic | finished | 1 | 1 complete | 0.03618100 | 0.309399 | [state](state/campaigns/auto-11c2a7c48d89570b05aa8051fa339960fae8aa646c1c0e048a727acd0613dd80.json) |
 | `auto-11ce5fb97433e03f24f773fe33b7389768a6de902911f6c8bd6b5bc62c74b0d4` | automatic archive | automatic | finished | 1 | 1 held | 0.00475967 | 0.014075 | [state](state/campaigns/auto-11ce5fb97433e03f24f773fe33b7389768a6de902911f6c8bd6b5bc62c74b0d4.json) |
@@ -2544,7 +2545,7 @@ These requests did not start a paid campaign. Inspect the recorded validation er
 | `auto-184484dde4932a8d2230b8c34106bb6fc475ee97c5b5c0c432b2d43ad2132fab` | automatic archive | automatic | finished | 1 | 1 complete | 0.00092524 | 0.008204 | [state](state/campaigns/auto-184484dde4932a8d2230b8c34106bb6fc475ee97c5b5c0c432b2d43ad2132fab.json) |
 | `auto-186c1c60aa298e6f95cc93cf4f085d1cf8afc3cab5f8b912bf90957cf3678106` | automatic archive | automatic | finished | 1 | 1 complete | 0.05364810 | 0.406318 | [state](state/campaigns/auto-186c1c60aa298e6f95cc93cf4f085d1cf8afc3cab5f8b912bf90957cf3678106.json) |
 | `auto-18900c0992d06936d3d2115704c86e4f682886e6947d961d1f5186403e86aa63` | automatic archive | automatic | finished | 1 | 1 held | 0.00576674 | 0.014716 | [state](state/campaigns/auto-18900c0992d06936d3d2115704c86e4f682886e6947d961d1f5186403e86aa63.json) |
-| `auto-18d123135d152dcb1735c67fde3f540ec73860c30edb4b9307d45ca3e260d20e` | automatic archive | automatic | active | 1 | 1 active | 0.00000000 | 0.004884 | [state](state/campaigns/auto-18d123135d152dcb1735c67fde3f540ec73860c30edb4b9307d45ca3e260d20e.json) |
+| `auto-18d123135d152dcb1735c67fde3f540ec73860c30edb4b9307d45ca3e260d20e` | automatic archive | automatic | active | 1 | 1 active | 0.00047378 | 0.008222 | [state](state/campaigns/auto-18d123135d152dcb1735c67fde3f540ec73860c30edb4b9307d45ca3e260d20e.json) |
 | `auto-191ea46c7f80709f4c800d5b86b80b7d7304375d7b75c0128a8b4fab8d8db2e7` | automatic archive | automatic | finished | 1 | 1 complete | 0.00103762 | 0.008827 | [state](state/campaigns/auto-191ea46c7f80709f4c800d5b86b80b7d7304375d7b75c0128a8b4fab8d8db2e7.json) |
 | `auto-1927f9ccac14e145195440f5b1e29a9b6e59e54b5e019cf0365be2e4bb6337a0` | automatic archive | automatic | finished | 1 | 1 complete | 0.00180773 | 0.009902 | [state](state/campaigns/auto-1927f9ccac14e145195440f5b1e29a9b6e59e54b5e019cf0365be2e4bb6337a0.json) |
 | `auto-192bfc07acb4a8298002a99cc7871f1b04b38e5d2593dc8361ef5914b67d4eae` | automatic archive | automatic | finished | 1 | 1 complete | 0.01927600 | 0.262106 | [state](state/campaigns/auto-192bfc07acb4a8298002a99cc7871f1b04b38e5d2593dc8361ef5914b67d4eae.json) |
@@ -2951,7 +2952,7 @@ These requests did not start a paid campaign. Inspect the recorded validation er
 | `auto-516cde8d90cfc02dc1391f839f4f2b6a272966cb7569d027f584487e9b373acc` | automatic archive | automatic | finished | 1 | 1 complete | 0.00065111 | 0.007995 | [state](state/campaigns/auto-516cde8d90cfc02dc1391f839f4f2b6a272966cb7569d027f584487e9b373acc.json) |
 | `auto-5188961ce18fd0fe72beca6ea6ad44ed9a76f90cc9041bea1c0c1ef43cf8b0c8` | automatic archive | automatic | finished | 1 | 1 complete | 0.07313685 | 0.441734 | [state](state/campaigns/auto-5188961ce18fd0fe72beca6ea6ad44ed9a76f90cc9041bea1c0c1ef43cf8b0c8.json) |
 | `auto-526ac55410f8bd494e7caa18fade4603a76f4c281488e2dd067b56c0596a0e12` | automatic archive | automatic | finished | 1 | 1 complete | 0.03031185 | 0.348042 | [state](state/campaigns/auto-526ac55410f8bd494e7caa18fade4603a76f4c281488e2dd067b56c0596a0e12.json) |
-| `auto-528679c02e70a662be103c93c4ebb94c11fd2bfa3d55def0e0dcd74d1cc16e10` | automatic archive | automatic | active | 1 | 1 active | 0.00705300 | 0.264831 | [state](state/campaigns/auto-528679c02e70a662be103c93c4ebb94c11fd2bfa3d55def0e0dcd74d1cc16e10.json) |
+| `auto-528679c02e70a662be103c93c4ebb94c11fd2bfa3d55def0e0dcd74d1cc16e10` | automatic archive | automatic | active | 1 | 1 active | 0.02156385 | 0.335066 | [state](state/campaigns/auto-528679c02e70a662be103c93c4ebb94c11fd2bfa3d55def0e0dcd74d1cc16e10.json) |
 | `auto-52f9d5502d81852e01850337aae59fb37e272e34b1e3d8f60dda785c97300f45` | automatic archive | automatic | finished | 1 | 1 complete | 0.02702415 | 0.347192 | [state](state/campaigns/auto-52f9d5502d81852e01850337aae59fb37e272e34b1e3d8f60dda785c97300f45.json) |
 | `auto-530ceec8caa33d09af3f5c817c3a37ef9b6ec7f03635b3b59fccecff989bdbe1` | automatic archive | automatic | finished | 1 | 1 complete | 0.01220800 | 0.097193 | [state](state/campaigns/auto-530ceec8caa33d09af3f5c817c3a37ef9b6ec7f03635b3b59fccecff989bdbe1.json) |
 | `auto-53121775c9f0fac73bbe6154255eda843ae6b7e366ba95eee1522a63da106f59` | automatic archive | automatic | finished | 1 | 1 complete | 0.06790385 | 0.350776 | [state](state/campaigns/auto-53121775c9f0fac73bbe6154255eda843ae6b7e366ba95eee1522a63da106f59.json) |
@@ -3222,7 +3223,7 @@ These requests did not start a paid campaign. Inspect the recorded validation er
 | `auto-7bd2a0477638851303733654b7f6e856d2fde06df4e6a2cc6b4963aefb339f2b` | automatic archive | automatic | finished | 1 | 1 complete | 0.01375300 | 0.116505 | [state](state/campaigns/auto-7bd2a0477638851303733654b7f6e856d2fde06df4e6a2cc6b4963aefb339f2b.json) |
 | `auto-7be77620837dd3d6c9606de957f00060991f08c73ed11da5ee8f989aa58b46cc` | automatic archive | automatic | finished | 1 | 1 complete | 0.00271111 | 0.011520 | [state](state/campaigns/auto-7be77620837dd3d6c9606de957f00060991f08c73ed11da5ee8f989aa58b46cc.json) |
 | `auto-7c00c4c9ebecc21ab0bd86a04c8b6772901ad6f330c853fcc8c3133a7ae819fd` | automatic archive | automatic | finished | 1 | 1 complete | 0.00309425 | 0.065435 | [state](state/campaigns/auto-7c00c4c9ebecc21ab0bd86a04c8b6772901ad6f330c853fcc8c3133a7ae819fd.json) |
-| `auto-7c0def88bcb95069756b75481645581dd35c038384c85dbcde65bd2935590eee` | automatic archive | automatic | active | 1 | 1 active | 0.02272600 | 0.330498 | [state](state/campaigns/auto-7c0def88bcb95069756b75481645581dd35c038384c85dbcde65bd2935590eee.json) |
+| `auto-7c0def88bcb95069756b75481645581dd35c038384c85dbcde65bd2935590eee` | automatic archive | automatic | finished | 1 | 1 complete | 0.02718525 | 0.330498 | [state](state/campaigns/auto-7c0def88bcb95069756b75481645581dd35c038384c85dbcde65bd2935590eee.json) |
 | `auto-7c1de8cd45c71ff5ab21402efd95b2fc5947bbe37a10ee3f0a0f733297767d1f` | automatic archive | automatic | finished | 1 | 1 held | 0.00773049 | 0.019179 | [state](state/campaigns/auto-7c1de8cd45c71ff5ab21402efd95b2fc5947bbe37a10ee3f0a0f733297767d1f.json) |
 | `auto-7c934124a81047e3b4fb8e52ccee996f204ae20c9a0133f8fcb234cec7a719e9` | automatic archive | automatic | finished | 1 | 1 complete | 0.00195193 | 0.010246 | [state](state/campaigns/auto-7c934124a81047e3b4fb8e52ccee996f204ae20c9a0133f8fcb234cec7a719e9.json) |
 | `auto-7cb61441f360a1fbbff89d17573b8bfe1a9fa94a2f3de6f90f02270bcb12a90e` | automatic archive | automatic | finished | 1 | 1 held | 0.00372309 | 0.020364 | [state](state/campaigns/auto-7cb61441f360a1fbbff89d17573b8bfe1a9fa94a2f3de6f90f02270bcb12a90e.json) |
@@ -3252,6 +3253,7 @@ These requests did not start a paid campaign. Inspect the recorded validation er
 | `auto-80260bdb2041a22bd214cf61bbf4ccea288d0790c9af6ff5de0e11eb41633514` | automatic archive | automatic | finished | 1 | 1 complete | 0.08385510 | 0.412159 | [state](state/campaigns/auto-80260bdb2041a22bd214cf61bbf4ccea288d0790c9af6ff5de0e11eb41633514.json) |
 | `auto-80758def6f084b64cf95a1e6e7e5d0a15278830baffbe3d0cacd8b27b83faa8e` | automatic archive | automatic | finished | 1 | 1 complete | 0.07803310 | 0.409674 | [state](state/campaigns/auto-80758def6f084b64cf95a1e6e7e5d0a15278830baffbe3d0cacd8b27b83faa8e.json) |
 | `auto-80806de79265ee5f6e1154d3ba6e41ce8e67e8030032d298afae32ab6d358eed` | automatic archive | automatic | finished | 1 | 1 complete | 0.04282740 | 0.378851 | [state](state/campaigns/auto-80806de79265ee5f6e1154d3ba6e41ce8e67e8030032d298afae32ab6d358eed.json) |
+| `auto-80aee800dba6aaa825c52a0ec8ae1d2362890615fa93ea0b184c7f2e812fe793` | automatic archive | automatic | active | 1 | 1 active | 0.00000000 | 0.068594 | [state](state/campaigns/auto-80aee800dba6aaa825c52a0ec8ae1d2362890615fa93ea0b184c7f2e812fe793.json) |
 | `auto-80c356022d6644def78926ae610c9d291b513bbf4d5c23b45882637ac550b253` | automatic archive | automatic | finished | 1 | 1 complete | 0.09723435 | 0.455649 | [state](state/campaigns/auto-80c356022d6644def78926ae610c9d291b513bbf4d5c23b45882637ac550b253.json) |
 | `auto-81013be1c428e1d0f7b69600e0504b9762c31ef168739973a983264f3945cd03` | automatic archive | automatic | finished | 1 | 1 complete | 0.00091887 | 0.008481 | [state](state/campaigns/auto-81013be1c428e1d0f7b69600e0504b9762c31ef168739973a983264f3945cd03.json) |
 | `auto-81092f5e8de2da0ba4dcb54ccb8846189a2d901636cffafef33055ad4efe78e8` | automatic archive | automatic | finished | 1 | 1 complete | 0.00162579 | 0.016731 | [state](state/campaigns/auto-81092f5e8de2da0ba4dcb54ccb8846189a2d901636cffafef33055ad4efe78e8.json) |
@@ -3579,7 +3581,7 @@ These requests did not start a paid campaign. Inspect the recorded validation er
 | `auto-b890fd158109796bfac0ba656f7ef1c0941ec3bf036a79a9e5233754df145821` | automatic archive | automatic | finished | 1 | 1 complete | 0.00153342 | 0.016383 | [state](state/campaigns/auto-b890fd158109796bfac0ba656f7ef1c0941ec3bf036a79a9e5233754df145821.json) |
 | `auto-b8f18130cc9b67a397a433ca24b5145faf986f6bbf93f13f7b7052066c5d6ba4` | automatic archive | automatic | finished | 1 | 1 complete | 0.07957435 | 0.447206 | [state](state/campaigns/auto-b8f18130cc9b67a397a433ca24b5145faf986f6bbf93f13f7b7052066c5d6ba4.json) |
 | `auto-b90bb9e3066dc920ec72e438728a5917656f9703644ac0e41a65b11a1a3402f3` | automatic archive | automatic | finished | 1 | 1 complete | 0.00095830 | 0.008867 | [state](state/campaigns/auto-b90bb9e3066dc920ec72e438728a5917656f9703644ac0e41a65b11a1a3402f3.json) |
-| `auto-b914d515fa38f877f005241c2d7d17ebc5b2878ddc755159c7989f6b16756958` | automatic archive | automatic | active | 1 | 1 active | 0.00000000 | 0.068460 | [state](state/campaigns/auto-b914d515fa38f877f005241c2d7d17ebc5b2878ddc755159c7989f6b16756958.json) |
+| `auto-b914d515fa38f877f005241c2d7d17ebc5b2878ddc755159c7989f6b16756958` | automatic archive | automatic | finished | 1 | 1 complete | 0.00444425 | 0.068460 | [state](state/campaigns/auto-b914d515fa38f877f005241c2d7d17ebc5b2878ddc755159c7989f6b16756958.json) |
 | `auto-b97d09f361674388ece23aeaa6c7b329ac2b5aaec989edf4af7f2e05f01df0bd` | automatic archive | automatic | finished | 1 | 1 complete | 0.00505285 | 0.022151 | [state](state/campaigns/auto-b97d09f361674388ece23aeaa6c7b329ac2b5aaec989edf4af7f2e05f01df0bd.json) |
 | `auto-ba0b51a4b22a8714b293d8bdeb785c8a92f461530e0a8ea405a5d39a9e3ad2f9` | automatic archive | automatic | finished | 1 | 1 complete | 0.06762360 | 0.481249 | [state](state/campaigns/auto-ba0b51a4b22a8714b293d8bdeb785c8a92f461530e0a8ea405a5d39a9e3ad2f9.json) |
 | `auto-ba2f83fc1fa73283f21238456e6eefd8b63279a62f0d2b80822d149c75bd6f7c` | automatic archive | automatic | finished | 1 | 1 complete | 0.00073055 | 0.008210 | [state](state/campaigns/auto-ba2f83fc1fa73283f21238456e6eefd8b63279a62f0d2b80822d149c75bd6f7c.json) |
@@ -3619,7 +3621,7 @@ These requests did not start a paid campaign. Inspect the recorded validation er
 | `auto-bf4b85489990a93ef45ee559ff635962a4d6b892a44787ebc3fc5234a9a69f10` | automatic archive | automatic | finished | 1 | 1 complete | 0.00076474 | 0.008107 | [state](state/campaigns/auto-bf4b85489990a93ef45ee559ff635962a4d6b892a44787ebc3fc5234a9a69f10.json) |
 | `auto-bf5bee3d0d45cd62fe51d36ef962ed7f7ded42d8a74065f0e3e2e68e9a071bbd` | automatic archive | automatic | finished | 1 | 1 held | 0.00487468 | 0.014748 | [state](state/campaigns/auto-bf5bee3d0d45cd62fe51d36ef962ed7f7ded42d8a74065f0e3e2e68e9a071bbd.json) |
 | `auto-bf60f3d65781c6bf4f7e60453be5961414994987d927a1f2500a3910c9549a5a` | automatic archive | automatic | finished | 1 | 1 complete | 0.00096937 | 0.008372 | [state](state/campaigns/auto-bf60f3d65781c6bf4f7e60453be5961414994987d927a1f2500a3910c9549a5a.json) |
-| `auto-c03b3e812b5081242431cdfdcaa85bd271cfd8ad1331f99a749f505be73344df` | automatic archive | automatic | active | 1 | 1 active | 0.00000000 | 0.000000 | [state](state/campaigns/auto-c03b3e812b5081242431cdfdcaa85bd271cfd8ad1331f99a749f505be73344df.json) |
+| `auto-c03b3e812b5081242431cdfdcaa85bd271cfd8ad1331f99a749f505be73344df` | automatic archive | automatic | active | 1 | 1 active | 0.00000000 | 0.004886 | [state](state/campaigns/auto-c03b3e812b5081242431cdfdcaa85bd271cfd8ad1331f99a749f505be73344df.json) |
 | `auto-c0adc934577d190e6a91dd5278dc5a56e43b28d0c746dd217731635e38c460d6` | automatic archive | automatic | finished | 1 | 1 complete | 0.08573310 | 0.469788 | [state](state/campaigns/auto-c0adc934577d190e6a91dd5278dc5a56e43b28d0c746dd217731635e38c460d6.json) |
 | `auto-c0e9c5d36220a161e807a6aa559891023f3b1e4989481c6fa0a2c87effc2b770` | automatic archive | automatic | finished | 1 | 1 complete | 0.00105786 | 0.008734 | [state](state/campaigns/auto-c0e9c5d36220a161e807a6aa559891023f3b1e4989481c6fa0a2c87effc2b770.json) |
 | `auto-c10748e8c6a8b6bbcaf215e47ea55397ce6abf15d3a2b80a91ade1d449b1905a` | automatic archive | automatic | finished | 1 | 1 complete | 0.06152775 | 0.404197 | [state](state/campaigns/auto-c10748e8c6a8b6bbcaf215e47ea55397ce6abf15d3a2b80a91ade1d449b1905a.json) |
@@ -3639,8 +3641,8 @@ These requests did not start a paid campaign. Inspect the recorded validation er
 | `auto-c3e98e4c282ae1709b3d792f8eb60847532d7f07bb5e9fa086d636ec756611f1` | automatic archive | automatic | finished | 1 | 1 complete | 0.00355505 | 0.012367 | [state](state/campaigns/auto-c3e98e4c282ae1709b3d792f8eb60847532d7f07bb5e9fa086d636ec756611f1.json) |
 | `auto-c4392a986955b22d8c19ec5edf1041d4c8c1495003f686fa77aca796e36c8e54` | automatic archive | automatic | finished | 1 | 1 complete | 0.06162775 | 0.417119 | [state](state/campaigns/auto-c4392a986955b22d8c19ec5edf1041d4c8c1495003f686fa77aca796e36c8e54.json) |
 | `auto-c449821f9a8afbe2ba965177bb084e5025e6d9730c45d713f233a95bb3faa39e` | automatic archive | automatic | finished | 1 | 1 complete | 0.00121811 | 0.015564 | [state](state/campaigns/auto-c449821f9a8afbe2ba965177bb084e5025e6d9730c45d713f233a95bb3faa39e.json) |
-| `auto-c456db05775b1969c5eec7cd660f4f34a89f25d397c170edb755deb9e38f8911` | automatic archive | automatic | active | 1 | 1 active | 0.00164323 | 0.010173 | [state](state/campaigns/auto-c456db05775b1969c5eec7cd660f4f34a89f25d397c170edb755deb9e38f8911.json) |
-| `auto-c4606e540dbe4dcdb280a6298a9857d6bfb8712ccbc2d24255f6b6e69df798a9` | automatic archive | automatic | active | 1 | 1 active | 0.00136670 | 0.013545 | [state](state/campaigns/auto-c4606e540dbe4dcdb280a6298a9857d6bfb8712ccbc2d24255f6b6e69df798a9.json) |
+| `auto-c456db05775b1969c5eec7cd660f4f34a89f25d397c170edb755deb9e38f8911` | automatic archive | automatic | active | 1 | 1 active | 0.00164323 | 0.016928 | [state](state/campaigns/auto-c456db05775b1969c5eec7cd660f4f34a89f25d397c170edb755deb9e38f8911.json) |
+| `auto-c4606e540dbe4dcdb280a6298a9857d6bfb8712ccbc2d24255f6b6e69df798a9` | automatic archive | automatic | active | 1 | 1 active | 0.00136670 | 0.016852 | [state](state/campaigns/auto-c4606e540dbe4dcdb280a6298a9857d6bfb8712ccbc2d24255f6b6e69df798a9.json) |
 | `auto-c46c5bfd18e818f82ea0f68364752bcbf84c9819b9189a78fe6e7f8cec6a15e6` | automatic archive | automatic | finished | 1 | 1 held | 0.00514567 | 0.013786 | [state](state/campaigns/auto-c46c5bfd18e818f82ea0f68364752bcbf84c9819b9189a78fe6e7f8cec6a15e6.json) |
 | `auto-c48d77a5d495623e25c243644a5324f37970305d6b54d1c5c4abbe92ffe1ee43` | automatic archive | automatic | finished | 1 | 1 complete | 0.00015387 | 0.007465 | [state](state/campaigns/auto-c48d77a5d495623e25c243644a5324f37970305d6b54d1c5c4abbe92ffe1ee43.json) |
 | `auto-c4efe37825663faf3e763ecab64b6a90e2c148df79d706413a10d67a06e533d3` | automatic archive | automatic | finished | 1 | 1 complete | 0.05367185 | 0.455609 | [state](state/campaigns/auto-c4efe37825663faf3e763ecab64b6a90e2c148df79d706413a10d67a06e533d3.json) |
@@ -3672,7 +3674,7 @@ These requests did not start a paid campaign. Inspect the recorded validation er
 | `auto-ca914afebf5fd716d83c9e5548fda11b51968485008a84cb2014fb62cbdd4d4c` | automatic archive | automatic | finished | 1 | 1 complete | 0.03425010 | 0.298713 | [state](state/campaigns/auto-ca914afebf5fd716d83c9e5548fda11b51968485008a84cb2014fb62cbdd4d4c.json) |
 | `auto-cae86379fbb6bbdc0d73299816cacb44d8b28a9ed3981f737fa7172a371ab67c` | automatic archive | automatic | finished | 1 | 1 complete | 0.05840185 | 0.397965 | [state](state/campaigns/auto-cae86379fbb6bbdc0d73299816cacb44d8b28a9ed3981f737fa7172a371ab67c.json) |
 | `auto-caef7ad43017e45f0f64573938059feafebdf3c41f1a7dd06819cb98fb588e08` | automatic archive | automatic | finished | 1 | 1 complete | 0.00093574 | 0.008422 | [state](state/campaigns/auto-caef7ad43017e45f0f64573938059feafebdf3c41f1a7dd06819cb98fb588e08.json) |
-| `auto-cb145bbfc5d07cebbb70cc30f1f3e8fa30380ea7c74b36fb5beac38cdf14ce6e` | automatic archive | automatic | active | 1 | 1 active | 0.02617460 | 0.208993 | [state](state/campaigns/auto-cb145bbfc5d07cebbb70cc30f1f3e8fa30380ea7c74b36fb5beac38cdf14ce6e.json) |
+| `auto-cb145bbfc5d07cebbb70cc30f1f3e8fa30380ea7c74b36fb5beac38cdf14ce6e` | automatic archive | automatic | active | 1 | 1 active | 0.02617460 | 0.292826 | [state](state/campaigns/auto-cb145bbfc5d07cebbb70cc30f1f3e8fa30380ea7c74b36fb5beac38cdf14ce6e.json) |
 | `auto-cb5f8f0386ef95c2122c076b6573530858d85f8af0a587de9d1aa9dfa62e3e14` | automatic archive | automatic | finished | 1 | 1 complete | 0.05403435 | 0.390861 | [state](state/campaigns/auto-cb5f8f0386ef95c2122c076b6573530858d85f8af0a587de9d1aa9dfa62e3e14.json) |
 | `auto-cb627379f8a87b8836f81846a95562955794d4996f0203e91500ea181b9d00f3` | automatic archive | automatic | finished | 1 | 1 held | 0.07867635 | 0.363653 | [state](state/campaigns/auto-cb627379f8a87b8836f81846a95562955794d4996f0203e91500ea181b9d00f3.json) |
 | `auto-cb64fd1e4640d455e4fa9d5addce2dd4513476765364e43c0c1e67d9040b5acd` | automatic archive | automatic | finished | 1 | 1 complete | 0.00266550 | 0.058892 | [state](state/campaigns/auto-cb64fd1e4640d455e4fa9d5addce2dd4513476765364e43c0c1e67d9040b5acd.json) |
@@ -3710,7 +3712,7 @@ These requests did not start a paid campaign. Inspect the recorded validation er
 | `auto-d28cf02138e918e89353caba43091d99e5f927b2ff8a545d9a6f461b36717574` | automatic archive | automatic | finished | 1 | 1 complete | 0.05262310 | 0.415256 | [state](state/campaigns/auto-d28cf02138e918e89353caba43091d99e5f927b2ff8a545d9a6f461b36717574.json) |
 | `auto-d290e7990a54ba7da07e937021e573fee1af84503a0c15cd7e362bc870f53f1c` | automatic archive | automatic | finished | 1 | 1 complete | 0.00066918 | 0.007857 | [state](state/campaigns/auto-d290e7990a54ba7da07e937021e573fee1af84503a0c15cd7e362bc870f53f1c.json) |
 | `auto-d2c360b62c11962a5c5db0205b2750518bb7dedaf2fc8c2646c4d2f01280b8af` | automatic archive | automatic | finished | 1 | 1 complete | 0.00135364 | 0.013569 | [state](state/campaigns/auto-d2c360b62c11962a5c5db0205b2750518bb7dedaf2fc8c2646c4d2f01280b8af.json) |
-| `auto-d36736c5178563c23ae3aa36789b4f5179713f170e099dced4b30593900b57e7` | automatic archive | automatic | active | 1 | 1 active | 0.00174205 | 0.010764 | [state](state/campaigns/auto-d36736c5178563c23ae3aa36789b4f5179713f170e099dced4b30593900b57e7.json) |
+| `auto-d36736c5178563c23ae3aa36789b4f5179713f170e099dced4b30593900b57e7` | automatic archive | automatic | active | 1 | 1 active | 0.00174205 | 0.018139 | [state](state/campaigns/auto-d36736c5178563c23ae3aa36789b4f5179713f170e099dced4b30593900b57e7.json) |
 | `auto-d376a819f492a483c1b4c11212f75e099a7d4519015953ad043e30dd6710a2a1` | automatic archive | automatic | finished | 1 | 1 complete | 0.00094473 | 0.008517 | [state](state/campaigns/auto-d376a819f492a483c1b4c11212f75e099a7d4519015953ad043e30dd6710a2a1.json) |
 | `auto-d3be62c64e05727cf6d154c3fc5d5cfdd2e1525ea3c5a64a25faa1331054f3b2` | automatic archive | automatic | finished | 1 | 1 complete | 0.05602785 | 0.414866 | [state](state/campaigns/auto-d3be62c64e05727cf6d154c3fc5d5cfdd2e1525ea3c5a64a25faa1331054f3b2.json) |
 | `auto-d3df681cce7a574c593369e878a5f38be7ccb5bb6067dc67acef31f4a041540d` | automatic archive | automatic | finished | 1 | 1 complete | 0.00092884 | 0.015528 | [state](state/campaigns/auto-d3df681cce7a574c593369e878a5f38be7ccb5bb6067dc67acef31f4a041540d.json) |
@@ -3764,7 +3766,7 @@ These requests did not start a paid campaign. Inspect the recorded validation er
 | `auto-de613a0953207162dee210d1d92ac055f05acbb44f0f4e8892fa6bcf526a8d5a` | automatic archive | automatic | finished | 1 | 1 complete | 0.00023088 | 0.007483 | [state](state/campaigns/auto-de613a0953207162dee210d1d92ac055f05acbb44f0f4e8892fa6bcf526a8d5a.json) |
 | `auto-de6ebe634725325a5ca2cec6d009ce913043a7a45fc2dfaa75a06dce131e0ac0` | automatic archive | automatic | finished | 1 | 1 complete | 0.06242810 | 0.415535 | [state](state/campaigns/auto-de6ebe634725325a5ca2cec6d009ce913043a7a45fc2dfaa75a06dce131e0ac0.json) |
 | `auto-de98f278d648c5d11b7777ec3d6106c4399bc87d71e5d0620388e5de0d80c1b0` | automatic archive | automatic | finished | 1 | 1 complete | 0.00105749 | 0.008693 | [state](state/campaigns/auto-de98f278d648c5d11b7777ec3d6106c4399bc87d71e5d0620388e5de0d80c1b0.json) |
-| `auto-dec31b3bfa3d78af57465f29d76bc855a24e6e72cdf868f78b7200bcb97f41ad` | automatic archive | automatic | active | 1 | 1 active | 0.00000000 | 0.000000 | [state](state/campaigns/auto-dec31b3bfa3d78af57465f29d76bc855a24e6e72cdf868f78b7200bcb97f41ad.json) |
+| `auto-dec31b3bfa3d78af57465f29d76bc855a24e6e72cdf868f78b7200bcb97f41ad` | automatic archive | automatic | active | 1 | 1 active | 0.00000000 | 0.004885 | [state](state/campaigns/auto-dec31b3bfa3d78af57465f29d76bc855a24e6e72cdf868f78b7200bcb97f41ad.json) |
 | `auto-deff946e7c397a91845936560abfb79ef44aea2df2f7aee6e82b472504d2b3b0` | automatic archive | automatic | finished | 1 | 1 complete | 0.05331890 | 0.359027 | [state](state/campaigns/auto-deff946e7c397a91845936560abfb79ef44aea2df2f7aee6e82b472504d2b3b0.json) |
 | `auto-df0addbd3535db35d06697682defcd838577a55192df76d5b66ed9a8c46a5470` | automatic archive | automatic | finished | 1 | 1 held | 0.00482986 | 0.013994 | [state](state/campaigns/auto-df0addbd3535db35d06697682defcd838577a55192df76d5b66ed9a8c46a5470.json) |
 | `auto-df2e952ff966675067edfd5240d71bb071fbf17e59e77e893f8bae4e17b8363f` | automatic archive | automatic | finished | 1 | 1 complete | 0.07454135 | 0.367531 | [state](state/campaigns/auto-df2e952ff966675067edfd5240d71bb071fbf17e59e77e893f8bae4e17b8363f.json) |
@@ -4227,6 +4229,7 @@ Provider completion and local collection are separate clocks. Older records with
 | [102025f292254d4cb74753c39aa5c39d](state/batches/102025f292254d4cb74753c39aa5c39d/batch.json) / translate | collected / completed | 1 / 1 / 0 | 2026-10-11T21:55:54+00:00 | 2026-10-12T00:28:29+00:00 | 2026-10-12T00:28:28+00:00 |
 | [102053be70594aea8713dd922c24405d](state/batches/102053be70594aea8713dd922c24405d/batch.json) / translate | collected / completed | 1 / 1 / 0 | 2026-10-30T01:02:46+00:00 | 2026-10-30T01:06:24+00:00 | 2026-10-30T01:06:24+00:00 |
 | [105a6f3ae29746519fe118e37fb6cdce](state/batches/105a6f3ae29746519fe118e37fb6cdce/batch.json) / correct | collected / completed | 1 / 1 / 0 | 2026-10-15T13:56:23+00:00 | 2026-10-15T15:46:18+00:00 | 2026-10-15T15:46:17+00:00 |
+| [106ca82e8a5448eb9ba6b8bc967529a9](state/batches/106ca82e8a5448eb9ba6b8bc967529a9/batch.json) / review1 | submitted / validating | 0 / 0 / 0 | not recorded | not collected | not recorded |
 | [108914262f9d4c6d99e0a71e391f77a4](state/batches/108914262f9d4c6d99e0a71e391f77a4/batch.json) / review2 | collected / completed | 1 / 1 / 0 | 2026-10-18T20:24:41+00:00 | 2026-10-18T20:36:52+00:00 | 2026-10-18T20:36:51+00:00 |
 | [10a50b381c6941db9ae5411bf3997a02](state/batches/10a50b381c6941db9ae5411bf3997a02/batch.json) / review2 | collected / completed | 1 / 1 / 0 | 2026-10-11T15:45:07+00:00 | 2026-10-11T18:00:54+00:00 | 2026-10-11T18:00:53+00:00 |
 | [10ad1a0ca718447aa619833d50819b26](state/batches/10ad1a0ca718447aa619833d50819b26/batch.json) / review1 | collected / completed | 1 / 1 / 0 | 2026-10-13T03:29:33+00:00 | 2026-10-13T07:41:23+00:00 | 2026-10-13T07:41:23+00:00 |
@@ -4411,7 +4414,7 @@ Provider completion and local collection are separate clocks. Older records with
 | [1b3378649a8246a29d537cd797b726d8](state/batches/1b3378649a8246a29d537cd797b726d8/batch.json) / translate | collected / completed | 1 / 1 / 0 | 2026-10-14T20:15:48+00:00 | 2026-10-14T22:15:14+00:00 | 2026-10-14T22:15:13+00:00 |
 | [1b39162dca1a41f6ba5af01031656847](state/batches/1b39162dca1a41f6ba5af01031656847/batch.json) / correct | collected / completed | 1 / 1 / 0 | 2026-10-31T14:01:16+00:00 | 2026-10-31T16:01:27+00:00 | 2026-10-31T16:01:26+00:00 |
 | [1b48fb3e339c4284a8aa0522239a39f9](state/batches/1b48fb3e339c4284a8aa0522239a39f9/batch.json) / review2 | collected / completed | 1 / 1 / 0 | 2026-10-25T21:50:46+00:00 | 2026-10-25T21:55:29+00:00 | 2026-10-25T21:55:28+00:00 |
-| [1b61b802e51f4558b0e24ca9640ba1fe](state/batches/1b61b802e51f4558b0e24ca9640ba1fe/batch.json) / correct | submitted / in_progress | 1 / 0 / 0 | not recorded | not collected | 2026-11-07T10:28:18+00:00 |
+| [1b61b802e51f4558b0e24ca9640ba1fe](state/batches/1b61b802e51f4558b0e24ca9640ba1fe/batch.json) / correct | submitted / in_progress | 1 / 0 / 0 | not recorded | not collected | 2026-11-07T10:43:02+00:00 |
 | [1b666a5592334790957d023471f195d6](state/batches/1b666a5592334790957d023471f195d6/batch.json) / review1 | collected / completed | 1 / 1 / 0 | 2026-10-13T00:46:00+00:00 | 2026-10-13T03:15:13+00:00 | 2026-10-13T03:15:12+00:00 |
 | [1b6adc2d66074ce2b732da3e5ae902f6](state/batches/1b6adc2d66074ce2b732da3e5ae902f6/batch.json) / review2 | collected / completed | 1 / 1 / 0 | 2026-10-11T18:15:30+00:00 | 2026-10-11T20:13:43+00:00 | 2026-10-11T20:13:43+00:00 |
 | [1b95a4ca7aba43018dd425ac84244d63](state/batches/1b95a4ca7aba43018dd425ac84244d63/batch.json) / review1 | collected / completed | 1 / 1 / 0 | 2026-11-04T12:06:49+00:00 | 2026-11-04T13:02:12+00:00 | 2026-11-04T13:02:11+00:00 |
@@ -4671,6 +4674,7 @@ Provider completion and local collection are separate clocks. Older records with
 | [29bbd6ed315e4742889f59658a6f3d7d](state/batches/29bbd6ed315e4742889f59658a6f3d7d/batch.json) / translate | collected / completed | 1 / 1 / 0 | 2026-11-02T06:30:22+00:00 | 2026-11-02T06:36:23+00:00 | 2026-11-02T06:36:22+00:00 |
 | [29ca75b2d0474c8b9bc9a5ffff6886a5](state/batches/29ca75b2d0474c8b9bc9a5ffff6886a5/batch.json) / correct | collected / completed | 1 / 1 / 0 | 2026-10-17T04:19:30+00:00 | 2026-10-17T04:22:59+00:00 | 2026-10-17T04:22:59+00:00 |
 | [29dbeabb1f664f41846ee329dff7038f](state/batches/29dbeabb1f664f41846ee329dff7038f/batch.json) / review2 | collected / completed | 1 / 1 / 0 | 2026-11-01T08:50:50+00:00 | 2026-11-01T14:59:42+00:00 | 2026-11-01T14:59:42+00:00 |
+| [29de1ed7f51c4201916b9ac00fcfc151](state/batches/29de1ed7f51c4201916b9ac00fcfc151/batch.json) / translate | submitted / validating | 0 / 0 / 0 | not recorded | not collected | not recorded |
 | [29e391800e0e4e4bb5a1ce344434415f](state/batches/29e391800e0e4e4bb5a1ce344434415f/batch.json) / translate | collected / completed | 1 / 1 / 0 | 2026-10-11T06:33:30+00:00 | 2026-10-11T08:43:16+00:00 | 2026-10-11T08:43:16+00:00 |
 | [29e4d3aa9f42462198412c38220bd80d](state/batches/29e4d3aa9f42462198412c38220bd80d/batch.json) / correct | collected / completed | 1 / 1 / 0 | 2026-10-14T01:43:32+00:00 | 2026-10-14T06:04:03+00:00 | 2026-10-14T06:04:02+00:00 |
 | [29f4bd4370794e738641607e3e709498](state/batches/29f4bd4370794e738641607e3e709498/batch.json) / review1 | collected / completed | 8 / 8 / 0 | 2026-10-01T19:37:10+00:00 | 2026-10-01T20:28:05+00:00 | 2026-10-01T20:28:04+00:00 |
@@ -4765,7 +4769,7 @@ Provider completion and local collection are separate clocks. Older records with
 | [2ee681a7120e4bcdad783d3dd766ba9f](state/batches/2ee681a7120e4bcdad783d3dd766ba9f/batch.json) / review1 | collected / completed | 1 / 1 / 0 | 2026-10-30T05:36:15+00:00 | 2026-10-30T07:05:10+00:00 | 2026-10-30T07:05:10+00:00 |
 | [2f03c3cc293f4dd2baacb0a752bb091e](state/batches/2f03c3cc293f4dd2baacb0a752bb091e/batch.json) / correct | collected / completed | 1 / 1 / 0 | 2026-10-31T03:35:58+00:00 | 2026-10-31T05:21:10+00:00 | 2026-10-31T05:21:10+00:00 |
 | [2f19ff2c5bac4cc3a672dde61f61d694](state/batches/2f19ff2c5bac4cc3a672dde61f61d694/batch.json) / translate | collected / completed | 1 / 1 / 0 | 2026-10-13T00:49:03+00:00 | 2026-10-13T03:15:45+00:00 | 2026-10-13T03:15:45+00:00 |
-| [2f1a7d5bf97e4043b70a67706cfb5d4a](state/batches/2f1a7d5bf97e4043b70a67706cfb5d4a/batch.json) / review1 | submitted / in_progress | 1 / 0 / 0 | not recorded | not collected | 2026-11-07T10:27:47+00:00 |
+| [2f1a7d5bf97e4043b70a67706cfb5d4a](state/batches/2f1a7d5bf97e4043b70a67706cfb5d4a/batch.json) / review1 | submitted / in_progress | 1 / 0 / 0 | not recorded | not collected | 2026-11-07T10:43:01+00:00 |
 | [2f4a8eb01182452391392e92e5ea324b](state/batches/2f4a8eb01182452391392e92e5ea324b/batch.json) / review2 | collected / completed | 1 / 1 / 0 | 2026-11-03T00:11:48+00:00 | 2026-11-03T00:14:17+00:00 | 2026-11-03T00:14:17+00:00 |
 | [2f4fba892531432b88a6da5ecbf1291c](state/batches/2f4fba892531432b88a6da5ecbf1291c/batch.json) / translate | collected / completed | 1 / 1 / 0 | 2026-10-31T23:31:25+00:00 | 2026-10-31T23:33:41+00:00 | 2026-10-31T23:33:41+00:00 |
 | [2f5ce9770a47497487e0fddaaf8706cf](state/batches/2f5ce9770a47497487e0fddaaf8706cf/batch.json) / correct | collected / completed | 1 / 1 / 0 | 2026-10-14T17:44:18+00:00 | 2026-10-14T18:33:11+00:00 | 2026-10-14T18:33:10+00:00 |
@@ -5044,6 +5048,7 @@ Provider completion and local collection are separate clocks. Older records with
 | [40ba7a72ef694e2e96b625f389427dd1](state/batches/40ba7a72ef694e2e96b625f389427dd1/batch.json) / correct | collected / completed | 1 / 1 / 0 | 2026-11-05T12:57:24+00:00 | 2026-11-05T15:28:10+00:00 | 2026-11-05T15:28:09+00:00 |
 | [410aecd75e124e24acc00870f8c38557](state/batches/410aecd75e124e24acc00870f8c38557/batch.json) / correct | collected / completed | 2 / 2 / 0 | 2026-10-01T21:02:16+00:00 | 2026-10-02T00:07:18+00:00 | 2026-10-02T00:07:17+00:00 |
 | [41189ec8b37743fd8b3e166c08580f9a](state/batches/41189ec8b37743fd8b3e166c08580f9a/batch.json) / correct | collected / completed | 1 / 1 / 0 | 2026-11-01T08:34:08+00:00 | 2026-11-01T15:00:16+00:00 | 2026-11-01T15:00:15+00:00 |
+| [411dc33499a64e878b702ec09e25c633](state/batches/411dc33499a64e878b702ec09e25c633/batch.json) / review2 | submitted / validating | 0 / 0 / 0 | not recorded | not collected | not recorded |
 | [4124c603d73843f8b42c740a069afcab](state/batches/4124c603d73843f8b42c740a069afcab/batch.json) / correct | collected / completed | 1 / 1 / 0 | 2026-10-31T18:12:14+00:00 | 2026-10-31T18:22:58+00:00 | 2026-10-31T18:22:58+00:00 |
 | [414558ad57374124a8adee6217c93cf9](state/batches/414558ad57374124a8adee6217c93cf9/batch.json) / correct | collected / completed | 1 / 1 / 0 | 2026-11-01T09:16:32+00:00 | 2026-11-01T14:57:57+00:00 | 2026-11-01T14:57:56+00:00 |
 | [41469206f9bc4922a13b542f778e3341](state/batches/41469206f9bc4922a13b542f778e3341/batch.json) / correct | collected / completed | 1 / 1 / 0 | 2026-11-03T22:45:51+00:00 | 2026-11-03T22:52:25+00:00 | 2026-11-03T22:52:24+00:00 |
@@ -5110,7 +5115,7 @@ Provider completion and local collection are separate clocks. Older records with
 | [44f7726592e74470b432bd8db91cc25a](state/batches/44f7726592e74470b432bd8db91cc25a/batch.json) / review1 | collected / completed | 1 / 1 / 0 | 2026-10-11T03:15:05+00:00 | 2026-10-11T06:20:23+00:00 | 2026-10-11T06:20:22+00:00 |
 | [44fe438094c44efca6892ca8c31feb87](state/batches/44fe438094c44efca6892ca8c31feb87/batch.json) / review2 | collected / completed | 1 / 1 / 0 | 2026-10-18T01:17:12+00:00 | 2026-10-18T01:18:49+00:00 | 2026-10-18T01:18:49+00:00 |
 | [450a3d88e3064d768fa0d294cf098ebf](state/batches/450a3d88e3064d768fa0d294cf098ebf/batch.json) / correct | collected / completed | 1 / 1 / 0 | 2026-10-16T07:13:34+00:00 | 2026-10-16T09:55:32+00:00 | 2026-10-16T09:55:32+00:00 |
-| [4513887ac03a40dd8d569cea32adedd4](state/batches/4513887ac03a40dd8d569cea32adedd4/batch.json) / translate | submitted / validating | 0 / 0 / 0 | not recorded | not collected | not recorded |
+| [4513887ac03a40dd8d569cea32adedd4](state/batches/4513887ac03a40dd8d569cea32adedd4/batch.json) / translate | collected / completed | 1 / 1 / 0 | 2026-11-07T10:36:40+00:00 | 2026-11-07T10:43:15+00:00 | 2026-11-07T10:43:15+00:00 |
 | [452491c0814745a7b144b65f87fd924c](state/batches/452491c0814745a7b144b65f87fd924c/batch.json) / translate | collected / completed | 1 / 1 / 0 | 2026-11-05T10:27:06+00:00 | 2026-11-05T10:44:19+00:00 | 2026-11-05T10:44:18+00:00 |
 | [4524e05873db4869a8c1e4fc9bf88e94](state/batches/4524e05873db4869a8c1e4fc9bf88e94/batch.json) / review1 | collected / completed | 1 / 1 / 0 | 2026-10-10T21:35:34+00:00 | 2026-10-10T21:38:23+00:00 | 2026-10-10T21:38:22+00:00 |
 | [452549e993924e2b9d3a2a4230e5a802](state/batches/452549e993924e2b9d3a2a4230e5a802/batch.json) / review1 | collected / completed | 1 / 1 / 0 | 2026-10-30T11:05:15+00:00 | 2026-10-30T11:12:00+00:00 | 2026-10-30T11:11:59+00:00 |
@@ -5440,7 +5445,7 @@ Provider completion and local collection are separate clocks. Older records with
 | [5938046ef9cf4ab1a0765794fd330d1c](state/batches/5938046ef9cf4ab1a0765794fd330d1c/batch.json) / correct | collected / completed | 1 / 1 / 0 | 2026-10-14T11:46:01+00:00 | 2026-10-14T11:48:00+00:00 | 2026-10-14T11:47:59+00:00 |
 | [59553f6346ae41b7ae64911bf36078f8](state/batches/59553f6346ae41b7ae64911bf36078f8/batch.json) / correct | collected / completed | 1 / 1 / 0 | 2026-11-06T03:05:09+00:00 | 2026-11-06T03:43:00+00:00 | 2026-11-06T03:43:00+00:00 |
 | [596829e8a3f14a2dae84b19ea0c05bc8](state/batches/596829e8a3f14a2dae84b19ea0c05bc8/batch.json) / correct | collected / completed | 1 / 1 / 0 | 2026-10-14T18:42:27+00:00 | 2026-10-14T20:09:50+00:00 | 2026-10-14T20:09:49+00:00 |
-| [59780e6ea8ce4897a9822dbe3495a11e](state/batches/59780e6ea8ce4897a9822dbe3495a11e/batch.json) / review1 | submitted / in_progress | 1 / 0 / 0 | not recorded | not collected | 2026-11-07T10:27:47+00:00 |
+| [59780e6ea8ce4897a9822dbe3495a11e](state/batches/59780e6ea8ce4897a9822dbe3495a11e/batch.json) / review1 | submitted / in_progress | 1 / 0 / 0 | not recorded | not collected | 2026-11-07T10:43:02+00:00 |
 | [597c69353b6c4ef1bae497ce504a11f8](state/batches/597c69353b6c4ef1bae497ce504a11f8/batch.json) / review2 | collected / completed | 1 / 1 / 0 | 2026-11-06T06:10:49+00:00 | 2026-11-06T10:49:30+00:00 | 2026-11-06T10:49:29+00:00 |
 | [597c9afba9cf4efdb75a8340010133c9](state/batches/597c9afba9cf4efdb75a8340010133c9/batch.json) / correct | collected / completed | 1 / 1 / 0 | 2026-11-05T07:06:52+00:00 | 2026-11-05T07:17:53+00:00 | 2026-11-05T07:17:52+00:00 |
 | [59bb5e829d3140188cdf6c4ba0e773ba](state/batches/59bb5e829d3140188cdf6c4ba0e773ba/batch.json) / correct | collected / completed | 1 / 1 / 0 | 2026-10-29T20:25:24+00:00 | 2026-10-29T20:28:55+00:00 | 2026-10-29T20:28:54+00:00 |
@@ -5861,9 +5866,10 @@ Provider completion and local collection are separate clocks. Older records with
 | [744aac2d004b43629d78b9b526a01914](state/batches/744aac2d004b43629d78b9b526a01914/batch.json) / review1 | collected / completed | 1 / 1 / 0 | 2026-10-12T07:23:17+00:00 | 2026-10-12T07:24:40+00:00 | 2026-10-12T07:24:39+00:00 |
 | [745393588b49478cba523beb1e4db3f2](state/batches/745393588b49478cba523beb1e4db3f2/batch.json) / review2 | collected / completed | 1 / 1 / 0 | 2026-10-31T08:33:07+00:00 | 2026-10-31T11:00:08+00:00 | 2026-10-31T11:00:08+00:00 |
 | [745f7fd934844a1a8f1ab8d6e1d96f05](state/batches/745f7fd934844a1a8f1ab8d6e1d96f05/batch.json) / review2 | collected / completed | 1 / 1 / 0 | 2026-10-13T00:48:44+00:00 | 2026-10-13T03:15:28+00:00 | 2026-10-13T03:15:27+00:00 |
+| [74789c3fbe91417ebe2d11b8cf77045b](state/batches/74789c3fbe91417ebe2d11b8cf77045b/batch.json) / translate | prepared / not recorded | ? / ? / ? | not recorded | not collected | not recorded |
 | [748a30a5e48d431b918c84c16850e40d](state/batches/748a30a5e48d431b918c84c16850e40d/batch.json) / translate | collected / completed | 1 / 1 / 0 | 2026-11-01T00:48:19+00:00 | 2026-11-01T01:06:06+00:00 | 2026-11-01T01:06:05+00:00 |
 | [748cb22de7314195a2edb167603650f7](state/batches/748cb22de7314195a2edb167603650f7/batch.json) / correct | collected / completed | 1 / 1 / 0 | 2026-10-16T07:13:18+00:00 | 2026-10-16T09:55:29+00:00 | 2026-10-16T09:55:29+00:00 |
-| [74905acb7bdf4adeb0b779074d60f434](state/batches/74905acb7bdf4adeb0b779074d60f434/batch.json) / correct | submitted / in_progress | 1 / 0 / 0 | not recorded | not collected | 2026-11-07T10:27:47+00:00 |
+| [74905acb7bdf4adeb0b779074d60f434](state/batches/74905acb7bdf4adeb0b779074d60f434/batch.json) / correct | submitted / in_progress | 1 / 0 / 0 | not recorded | not collected | 2026-11-07T10:43:02+00:00 |
 | [7491abda9c3d4a56b5ec8223e5890d22](state/batches/7491abda9c3d4a56b5ec8223e5890d22/batch.json) / review2 | collected / completed | 1 / 1 / 0 | 2026-11-06T05:29:42+00:00 | 2026-11-06T10:48:52+00:00 | 2026-11-06T10:48:51+00:00 |
 | [74a0a577c9594b9387ba2d1c47fb85ee](state/batches/74a0a577c9594b9387ba2d1c47fb85ee/batch.json) / correct | collected / completed | 3 / 3 / 0 | 2026-10-01T20:32:43+00:00 | 2026-10-01T20:33:18+00:00 | 2026-10-01T20:33:17+00:00 |
 | [74a0c1074b584bfabd63732c2a31c285](state/batches/74a0c1074b584bfabd63732c2a31c285/batch.json) / review2 | collected / completed | 1 / 1 / 0 | 2026-10-17T17:21:32+00:00 | 2026-10-17T17:23:40+00:00 | 2026-10-17T17:23:39+00:00 |
@@ -5982,7 +5988,7 @@ Provider completion and local collection are separate clocks. Older records with
 | [7c422536e31a4bd1a8eb1547151d53b8](state/batches/7c422536e31a4bd1a8eb1547151d53b8/batch.json) / review2 | collected / completed | 1 / 1 / 0 | 2026-10-12T17:55:17+00:00 | 2026-10-12T22:53:04+00:00 | 2026-10-12T22:53:04+00:00 |
 | [7c4461c814e04523bf2b864a419e25a8](state/batches/7c4461c814e04523bf2b864a419e25a8/batch.json) / correct | collected / completed | 2 / 2 / 0 | 2026-10-01T19:44:35+00:00 | 2026-10-01T20:28:26+00:00 | 2026-10-01T20:28:25+00:00 |
 | [7c50bdd52cad4a92ab7e5eb312bafdd4](state/batches/7c50bdd52cad4a92ab7e5eb312bafdd4/batch.json) / correct | collected / completed | 1 / 1 / 0 | 2026-10-31T22:31:56+00:00 | 2026-10-31T22:53:22+00:00 | 2026-10-31T22:53:22+00:00 |
-| [7c55d1f7c8a3479ca5d6bbb1596088d2](state/batches/7c55d1f7c8a3479ca5d6bbb1596088d2/batch.json) / review2 | submitted / validating | 0 / 0 / 0 | not recorded | not collected | not recorded |
+| [7c55d1f7c8a3479ca5d6bbb1596088d2](state/batches/7c55d1f7c8a3479ca5d6bbb1596088d2/batch.json) / review2 | collected / completed | 1 / 1 / 0 | 2026-11-07T10:37:55+00:00 | 2026-11-07T10:43:21+00:00 | 2026-11-07T10:43:21+00:00 |
 | [7c62509b70ad417e82787ba95287594a](state/batches/7c62509b70ad417e82787ba95287594a/batch.json) / review2 | collected / completed | 1 / 1 / 0 | 2026-10-31T23:00:20+00:00 | 2026-10-31T23:07:06+00:00 | 2026-10-31T23:07:06+00:00 |
 | [7c8e1184612b4fecaeae0677cf981d75](state/batches/7c8e1184612b4fecaeae0677cf981d75/batch.json) / review1 | collected / completed | 1 / 1 / 0 | 2026-10-31T17:51:01+00:00 | 2026-10-31T17:55:40+00:00 | 2026-10-31T17:55:40+00:00 |
 | [7ca719419cfe4c3f89e144979e69c1ec](state/batches/7ca719419cfe4c3f89e144979e69c1ec/batch.json) / correct | collected / completed | 1 / 1 / 0 | 2026-11-01T01:55:10+00:00 | 2026-11-01T01:59:47+00:00 | 2026-11-01T01:59:47+00:00 |
@@ -6053,7 +6059,7 @@ Provider completion and local collection are separate clocks. Older records with
 | [80afd7d04fb442d0a1d09c30ae0702ce](state/batches/80afd7d04fb442d0a1d09c30ae0702ce/batch.json) / review1 | collected / completed | 1 / 1 / 0 | 2026-11-05T00:09:47+00:00 | 2026-11-05T00:24:06+00:00 | 2026-11-05T00:24:06+00:00 |
 | [80b8f3b6417d402eb4f3bc101c1d771f](state/batches/80b8f3b6417d402eb4f3bc101c1d771f/batch.json) / translate | collected / completed | 1 / 1 / 0 | 2026-10-13T10:48:09+00:00 | 2026-10-13T10:51:00+00:00 | 2026-10-13T10:50:59+00:00 |
 | [80de4e94eeb24990a93cf0834ce971c9](state/batches/80de4e94eeb24990a93cf0834ce971c9/batch.json) / review2 | collected / completed | 1 / 1 / 0 | 2026-11-04T01:42:07+00:00 | 2026-11-04T01:49:00+00:00 | 2026-11-04T01:49:00+00:00 |
-| [80edf02347b048e09788e46fba7f5785](state/batches/80edf02347b048e09788e46fba7f5785/batch.json) / review2 | submitted / in_progress | 1 / 0 / 0 | not recorded | not collected | 2026-11-07T10:27:47+00:00 |
+| [80edf02347b048e09788e46fba7f5785](state/batches/80edf02347b048e09788e46fba7f5785/batch.json) / review2 | submitted / in_progress | 1 / 0 / 0 | not recorded | not collected | 2026-11-07T10:43:02+00:00 |
 | [80fa87a201ae4017bb5b7fa5748a2e9c](state/batches/80fa87a201ae4017bb5b7fa5748a2e9c/batch.json) / correct | collected / completed | 51 / 51 / 0 | 2026-10-03T21:58:35+00:00 | 2026-10-04T00:09:45+00:00 | 2026-10-04T00:09:42+00:00 |
 | [80ff41e3f76b49a880c3048da1598a4e](state/batches/80ff41e3f76b49a880c3048da1598a4e/batch.json) / correct | collected / completed | 1 / 1 / 0 | 2026-10-14T01:10:36+00:00 | 2026-10-14T01:13:43+00:00 | 2026-10-14T01:13:42+00:00 |
 | [8105b536107e40e3a6d75bd568217893](state/batches/8105b536107e40e3a6d75bd568217893/batch.json) / translate | collected / completed | 1 / 1 / 0 | 2026-11-03T07:54:58+00:00 | 2026-11-03T08:43:03+00:00 | 2026-11-03T08:43:03+00:00 |
@@ -6167,7 +6173,7 @@ Provider completion and local collection are separate clocks. Older records with
 | [877049e88b4042fcb201c7a9e839a905](state/batches/877049e88b4042fcb201c7a9e839a905/batch.json) / review1 | collected / completed | 1 / 1 / 0 | 2026-10-15T18:22:02+00:00 | 2026-10-15T19:28:19+00:00 | 2026-10-15T19:28:19+00:00 |
 | [877145b70abf4b0cb3784377f33a4076](state/batches/877145b70abf4b0cb3784377f33a4076/batch.json) / translate | collected / completed | 1 / 1 / 0 | 2026-11-03T02:04:07+00:00 | 2026-11-03T06:37:16+00:00 | 2026-11-03T06:37:16+00:00 |
 | [877c4052bb7948b9b51a392e4a8d7e84](state/batches/877c4052bb7948b9b51a392e4a8d7e84/batch.json) / correct | collected / completed | 1 / 1 / 0 | 2026-10-22T12:48:49+00:00 | 2026-10-22T15:13:21+00:00 | 2026-10-22T15:13:20+00:00 |
-| [87b14e6d14d244daa276518f20d7727b](state/batches/87b14e6d14d244daa276518f20d7727b/batch.json) / review1 | submitted / in_progress | 1 / 0 / 0 | not recorded | not collected | 2026-11-07T10:27:47+00:00 |
+| [87b14e6d14d244daa276518f20d7727b](state/batches/87b14e6d14d244daa276518f20d7727b/batch.json) / review1 | submitted / in_progress | 1 / 0 / 0 | not recorded | not collected | 2026-11-07T10:43:02+00:00 |
 | [87b332981d274bbdbf98120b8bd78f27](state/batches/87b332981d274bbdbf98120b8bd78f27/batch.json) / translate | collected / completed | ? / ? / ? | not recorded | 2026-09-29T15:57:12+00:00 | not recorded |
 | [87c76d86c9314638ae5cb1afa8913b48](state/batches/87c76d86c9314638ae5cb1afa8913b48/batch.json) / review2 | collected / completed | 1 / 1 / 0 | 2026-11-03T21:49:40+00:00 | 2026-11-03T22:07:54+00:00 | 2026-11-03T22:07:53+00:00 |
 | [87cc35e8582749309f3126efb6d90d63](state/batches/87cc35e8582749309f3126efb6d90d63/batch.json) / review2 | collected / completed | 1 / 1 / 0 | 2026-10-16T14:50:17+00:00 | 2026-10-16T14:54:17+00:00 | 2026-10-16T14:54:17+00:00 |
@@ -6257,7 +6263,7 @@ Provider completion and local collection are separate clocks. Older records with
 | [8c5e4d61a63a428cb8f96e73c7d59fd5](state/batches/8c5e4d61a63a428cb8f96e73c7d59fd5/batch.json) / review2 | collected / completed | 1 / 1 / 0 | 2026-10-14T17:32:27+00:00 | 2026-10-14T18:33:30+00:00 | 2026-10-14T18:33:30+00:00 |
 | [8c7bc7f586c84665905abc379336fe51](state/batches/8c7bc7f586c84665905abc379336fe51/batch.json) / review2 | collected / completed | 1 / 1 / 0 | 2026-10-15T13:28:43+00:00 | 2026-10-15T13:31:14+00:00 | 2026-10-15T13:31:14+00:00 |
 | [8c9ef4729a1241b182c9c162249c16bb](state/batches/8c9ef4729a1241b182c9c162249c16bb/batch.json) / correct | collected / completed | 1 / 1 / 0 | 2026-10-29T12:39:19+00:00 | 2026-10-29T12:50:08+00:00 | 2026-10-29T12:50:07+00:00 |
-| [8cad975e102547f99c37707d21dc0e29](state/batches/8cad975e102547f99c37707d21dc0e29/batch.json) / translate | submitted / in_progress | 1 / 0 / 0 | not recorded | not collected | 2026-11-07T10:28:18+00:00 |
+| [8cad975e102547f99c37707d21dc0e29](state/batches/8cad975e102547f99c37707d21dc0e29/batch.json) / translate | submitted / in_progress | 1 / 0 / 0 | not recorded | not collected | 2026-11-07T10:43:02+00:00 |
 | [8caf92d33d664e2ebd6b23522da4d7c4](state/batches/8caf92d33d664e2ebd6b23522da4d7c4/batch.json) / correct | collected / completed | 1 / 1 / 0 | 2026-10-12T00:36:55+00:00 | 2026-10-12T00:46:04+00:00 | 2026-10-12T00:46:04+00:00 |
 | [8d128273243d43e093d44e7aaab9d44d](state/batches/8d128273243d43e093d44e7aaab9d44d/batch.json) / correct | collected / completed | 1 / 1 / 0 | 2026-10-30T01:27:14+00:00 | 2026-10-30T01:28:16+00:00 | 2026-10-30T01:28:15+00:00 |
 | [8d182d8ca6f5466085135598363d694c](state/batches/8d182d8ca6f5466085135598363d694c/batch.json) / translate | collected / completed | 1 / 1 / 0 | 2026-11-05T05:15:18+00:00 | 2026-11-05T06:35:24+00:00 | 2026-11-05T06:35:23+00:00 |
@@ -6285,6 +6291,7 @@ Provider completion and local collection are separate clocks. Older records with
 | [8e6d1479891044da8ed7af83d3fc402b](state/batches/8e6d1479891044da8ed7af83d3fc402b/batch.json) / review1 | collected / completed | 1 / 1 / 0 | 2026-10-29T14:24:36+00:00 | 2026-10-29T18:41:33+00:00 | 2026-10-29T18:41:32+00:00 |
 | [8e87f90b13cb414cb8d4f94f6c76584f](state/batches/8e87f90b13cb414cb8d4f94f6c76584f/batch.json) / review1 | collected / completed | 1 / 1 / 0 | 2026-11-06T03:59:47+00:00 | 2026-11-06T04:12:12+00:00 | 2026-11-06T04:12:11+00:00 |
 | [8e9c8520f8bf42c387a4e8e2715d2407](state/batches/8e9c8520f8bf42c387a4e8e2715d2407/batch.json) / review1 | collected / completed | 1 / 1 / 0 | 2026-11-02T16:33:31+00:00 | 2026-11-02T19:52:59+00:00 | 2026-11-02T19:52:58+00:00 |
+| [8ea709e0fb964c59b073c91cc7398fac](state/batches/8ea709e0fb964c59b073c91cc7398fac/batch.json) / translate | submitted / validating | 0 / 0 / 0 | not recorded | not collected | not recorded |
 | [8ec07a8f0d294a508ba7cf154cfdf7f6](state/batches/8ec07a8f0d294a508ba7cf154cfdf7f6/batch.json) / translate | collected / completed | 1 / 1 / 0 | 2026-10-31T14:10:54+00:00 | 2026-10-31T16:03:43+00:00 | 2026-10-31T16:03:43+00:00 |
 | [8ed732019f304a5280d7ebc55cbef9b8](state/batches/8ed732019f304a5280d7ebc55cbef9b8/batch.json) / correct | collected / completed | 1 / 1 / 0 | 2026-11-01T15:22:01+00:00 | 2026-11-01T15:29:47+00:00 | 2026-11-01T15:29:46+00:00 |
 | [8eee1234b85a4f6abdf55e533f42e765](state/batches/8eee1234b85a4f6abdf55e533f42e765/batch.json) / review1 | collected / completed | 1 / 1 / 0 | 2026-11-01T02:14:19+00:00 | 2026-11-01T07:26:52+00:00 | 2026-11-01T07:26:51+00:00 |
@@ -6398,6 +6405,7 @@ Provider completion and local collection are separate clocks. Older records with
 | [9607da28ed8341c5b4ecb1caca6340d3](state/batches/9607da28ed8341c5b4ecb1caca6340d3/batch.json) / review1 | collected / completed | 1 / 1 / 0 | 2026-10-16T18:38:36+00:00 | 2026-10-16T20:59:07+00:00 | 2026-10-16T20:59:06+00:00 |
 | [960b3dfa280a43a3877ba70448fdadf9](state/batches/960b3dfa280a43a3877ba70448fdadf9/batch.json) / review1 | collected / completed | 1 / 1 / 0 | 2026-11-04T10:23:08+00:00 | 2026-11-04T13:02:52+00:00 | 2026-11-04T13:02:51+00:00 |
 | [967077c4e46246ffb525cd40bfb279ae](state/batches/967077c4e46246ffb525cd40bfb279ae/batch.json) / translate | collected / completed | 1 / 1 / 0 | 2026-10-31T17:48:41+00:00 | 2026-10-31T17:55:06+00:00 | 2026-10-31T17:55:05+00:00 |
+| [96b511030328461d9eeba53f5c9faa27](state/batches/96b511030328461d9eeba53f5c9faa27/batch.json) / review2 | submitted / validating | 0 / 0 / 0 | not recorded | not collected | not recorded |
 | [96e2318b15904562aedfbecacfc86a98](state/batches/96e2318b15904562aedfbecacfc86a98/batch.json) / correct | collected / completed | 1 / 1 / 0 | 2026-10-15T11:50:00+00:00 | 2026-10-15T11:53:19+00:00 | 2026-10-15T11:53:18+00:00 |
 | [96ee82b8e5a6417f868508686409e8e0](state/batches/96ee82b8e5a6417f868508686409e8e0/batch.json) / correct | collected / completed | 1 / 1 / 0 | 2026-10-17T01:43:31+00:00 | 2026-10-17T04:14:36+00:00 | 2026-10-17T04:14:36+00:00 |
 | [96f27eb4315947a1bbc8fd2e01701ee8](state/batches/96f27eb4315947a1bbc8fd2e01701ee8/batch.json) / review1 | collected / completed | 1 / 1 / 0 | 2026-10-17T17:06:55+00:00 | 2026-10-17T17:09:46+00:00 | 2026-10-17T17:09:45+00:00 |
@@ -6416,6 +6424,7 @@ Provider completion and local collection are separate clocks. Older records with
 | [97f52553e7a248a9867f2cde33763835](state/batches/97f52553e7a248a9867f2cde33763835/batch.json) / review2 | collected / completed | 1 / 1 / 0 | 2026-10-30T02:57:35+00:00 | 2026-10-30T02:58:34+00:00 | 2026-10-30T02:58:33+00:00 |
 | [9808fab5e2a34d9a8a7f04617d33e31c](state/batches/9808fab5e2a34d9a8a7f04617d33e31c/batch.json) / correct | collected / completed | 107 / 107 / 0 | 2026-10-03T11:34:19+00:00 | 2026-10-03T11:36:14+00:00 | 2026-10-03T11:36:13+00:00 |
 | [980c86d7c0ff486586767117848f2f5b](state/batches/980c86d7c0ff486586767117848f2f5b/batch.json) / review1 | collected / completed | 1 / 1 / 0 | 2026-11-06T03:49:34+00:00 | 2026-11-06T03:57:42+00:00 | 2026-11-06T03:57:42+00:00 |
+| [98208c5b77eb48b59b92710e6483e557](state/batches/98208c5b77eb48b59b92710e6483e557/batch.json) / correct | submitted / validating | 0 / 0 / 0 | not recorded | not collected | not recorded |
 | [98270f1b11f946b5b4a4b2a08effbc5e](state/batches/98270f1b11f946b5b4a4b2a08effbc5e/batch.json) / translate | collected / completed | 1 / 1 / 0 | 2026-11-03T15:19:45+00:00 | 2026-11-03T15:20:30+00:00 | 2026-11-03T15:20:29+00:00 |
 | [982f7a3c8e974e5f83645a9e91e95563](state/batches/982f7a3c8e974e5f83645a9e91e95563/batch.json) / correct | collected / completed | 1 / 1 / 0 | 2026-10-04T00:17:32+00:00 | 2026-10-04T06:05:16+00:00 | 2026-10-04T06:05:16+00:00 |
 | [983298299cb1481f8370ccfd43ebc760](state/batches/983298299cb1481f8370ccfd43ebc760/batch.json) / review1 | collected / completed | 1 / 1 / 0 | 2026-10-12T16:42:18+00:00 | 2026-10-12T17:47:58+00:00 | 2026-10-12T17:47:57+00:00 |
@@ -6671,7 +6680,7 @@ Provider completion and local collection are separate clocks. Older records with
 | [a7cee13ebeda4ac18f87509eb74c8285](state/batches/a7cee13ebeda4ac18f87509eb74c8285/batch.json) / translate | collected / completed | 1 / 1 / 0 | 2026-10-16T15:22:02+00:00 | 2026-10-16T17:23:10+00:00 | 2026-10-16T17:23:09+00:00 |
 | [a7dc8c317742437ebac4534c19bd3e52](state/batches/a7dc8c317742437ebac4534c19bd3e52/batch.json) / review1 | collected / completed | 1 / 1 / 0 | 2026-10-15T18:26:41+00:00 | 2026-10-15T19:29:08+00:00 | 2026-10-15T19:29:07+00:00 |
 | [a7e3d702c9bd4823aee6e231eeec76a9](state/batches/a7e3d702c9bd4823aee6e231eeec76a9/batch.json) / review1 | collected / completed | 1 / 1 / 0 | 2026-10-13T23:00:10+00:00 | 2026-10-14T01:06:31+00:00 | 2026-10-14T01:06:31+00:00 |
-| [a7ed495a75a748b785b76b048159bff0](state/batches/a7ed495a75a748b785b76b048159bff0/batch.json) / review2 | submitted / in_progress | 1 / 0 / 0 | not recorded | not collected | 2026-11-07T10:28:03+00:00 |
+| [a7ed495a75a748b785b76b048159bff0](state/batches/a7ed495a75a748b785b76b048159bff0/batch.json) / review2 | submitted / in_progress | 1 / 0 / 0 | not recorded | not collected | 2026-11-07T10:43:02+00:00 |
 | [a84a843523cd42e98df328a7e93141ca](state/batches/a84a843523cd42e98df328a7e93141ca/batch.json) / translate | collected / completed | 1 / 1 / 0 | 2026-10-15T01:46:14+00:00 | 2026-10-15T06:21:45+00:00 | 2026-10-15T06:21:44+00:00 |
 | [a8627d61fdde4e1b88d90fe7542bd19f](state/batches/a8627d61fdde4e1b88d90fe7542bd19f/batch.json) / review1 | collected / completed | 1 / 1 / 0 | 2026-11-06T16:27:06+00:00 | 2026-11-06T18:02:57+00:00 | 2026-11-06T18:02:57+00:00 |
 | [a87522261c1642cb97c77b755a6eacc9](state/batches/a87522261c1642cb97c77b755a6eacc9/batch.json) / correct | collected / completed | 1 / 1 / 0 | 2026-10-31T12:55:50+00:00 | 2026-10-31T12:59:46+00:00 | 2026-10-31T12:59:46+00:00 |
@@ -6766,7 +6775,7 @@ Provider completion and local collection are separate clocks. Older records with
 | [ade1911753f34d1ea2aa2f5311a0373c](state/batches/ade1911753f34d1ea2aa2f5311a0373c/batch.json) / review1 | collected / completed | 1 / 1 / 0 | 2026-10-18T00:15:12+00:00 | 2026-10-18T00:55:07+00:00 | 2026-10-18T00:55:06+00:00 |
 | [ade74ac6a73b44f1aabce566f559c4f7](state/batches/ade74ac6a73b44f1aabce566f559c4f7/batch.json) / review1 | collected / completed | 1 / 1 / 0 | 2026-10-30T07:13:32+00:00 | 2026-10-30T07:17:18+00:00 | 2026-10-30T07:17:18+00:00 |
 | [adec8e5797e040ed972ae0761d5f6ca7](state/batches/adec8e5797e040ed972ae0761d5f6ca7/batch.json) / correct | collected / completed | 1 / 1 / 0 | 2026-10-13T22:12:03+00:00 | 2026-10-14T01:06:59+00:00 | 2026-10-14T01:06:58+00:00 |
-| [adf919fcd8cc4eefbbea18a7202d9d3f](state/batches/adf919fcd8cc4eefbbea18a7202d9d3f/batch.json) / review1 | submitted / in_progress | 1 / 0 / 0 | not recorded | not collected | 2026-11-07T10:28:18+00:00 |
+| [adf919fcd8cc4eefbbea18a7202d9d3f](state/batches/adf919fcd8cc4eefbbea18a7202d9d3f/batch.json) / review1 | submitted / in_progress | 1 / 0 / 0 | not recorded | not collected | 2026-11-07T10:43:02+00:00 |
 | [adfa507d7c59467aa1b144fadd85ca51](state/batches/adfa507d7c59467aa1b144fadd85ca51/batch.json) / translate | collected / completed | 1 / 1 / 0 | 2026-10-16T17:29:35+00:00 | 2026-10-16T17:31:39+00:00 | 2026-10-16T17:31:38+00:00 |
 | [ae0139b8cdd14b8190a68c552c7d41c6](state/batches/ae0139b8cdd14b8190a68c552c7d41c6/batch.json) / review2 | collected / completed | 1 / 1 / 0 | 2026-10-17T00:07:58+00:00 | 2026-10-17T01:38:21+00:00 | 2026-10-17T01:38:21+00:00 |
 | [ae04cf3af7f345ce837d79d0bc4d30d2](state/batches/ae04cf3af7f345ce837d79d0bc4d30d2/batch.json) / review1 | collected / completed | 1 / 1 / 0 | 2026-10-18T14:39:09+00:00 | 2026-10-18T14:44:30+00:00 | 2026-10-18T14:44:30+00:00 |
@@ -7001,6 +7010,7 @@ Provider completion and local collection are separate clocks. Older records with
 | [bcd5f391a4fa464c8e3536a695994a11](state/batches/bcd5f391a4fa464c8e3536a695994a11/batch.json) / review2 | collected / completed | 1 / 1 / 0 | 2026-10-11T18:11:17+00:00 | 2026-10-11T20:13:30+00:00 | 2026-10-11T20:13:29+00:00 |
 | [bced06319c444e7591677c246dd88001](state/batches/bced06319c444e7591677c246dd88001/batch.json) / review2 | collected / completed | 1 / 1 / 0 | 2026-10-29T12:56:25+00:00 | 2026-10-29T14:12:18+00:00 | 2026-10-29T14:12:17+00:00 |
 | [bcef97050f4c491483e3c033d9c5236d](state/batches/bcef97050f4c491483e3c033d9c5236d/batch.json) / review2 | collected / completed | 1 / 1 / 0 | 2026-10-17T06:50:30+00:00 | 2026-10-17T09:14:11+00:00 | 2026-10-17T09:14:11+00:00 |
+| [bcfc30dcd82442c2a8ebd4de329a7698](state/batches/bcfc30dcd82442c2a8ebd4de329a7698/batch.json) / review2 | submitted / validating | 0 / 0 / 0 | not recorded | not collected | not recorded |
 | [bd52e856723a4a54a0a361af8ec61a95](state/batches/bd52e856723a4a54a0a361af8ec61a95/batch.json) / review1 | collected / completed | 1 / 1 / 0 | 2026-10-16T00:55:02+00:00 | 2026-10-16T00:59:07+00:00 | 2026-10-16T00:59:07+00:00 |
 | [bd53a1167af84e5980b6884fcf76d0eb](state/batches/bd53a1167af84e5980b6884fcf76d0eb/batch.json) / review2 | collected / completed | 1 / 1 / 0 | 2026-11-02T00:12:30+00:00 | 2026-11-02T00:18:58+00:00 | 2026-11-02T00:18:57+00:00 |
 | [bd664b332dc94252bac8ffeccdd68e4c](state/batches/bd664b332dc94252bac8ffeccdd68e4c/batch.json) / correct | collected / completed | ? / ? / ? | not recorded | 2026-09-29T20:52:08+00:00 | not recorded |
@@ -7116,7 +7126,7 @@ Provider completion and local collection are separate clocks. Older records with
 | [c4ce3334a75b49a5a7a77cd3fe18eccc](state/batches/c4ce3334a75b49a5a7a77cd3fe18eccc/batch.json) / review2 | collected / completed | 1 / 1 / 0 | 2026-10-15T07:29:36+00:00 | 2026-10-15T07:31:17+00:00 | 2026-10-15T07:31:17+00:00 |
 | [c4d647b8bf20411381d72f12817738b4](state/batches/c4d647b8bf20411381d72f12817738b4/batch.json) / correct | collected / completed | 1 / 1 / 0 | 2026-10-29T12:57:25+00:00 | 2026-10-29T14:12:27+00:00 | 2026-10-29T14:12:26+00:00 |
 | [c4e03304c97f493cbea555da7900b281](state/batches/c4e03304c97f493cbea555da7900b281/batch.json) / review1 | collected / completed | 1 / 1 / 0 | 2026-11-04T01:45:59+00:00 | 2026-11-04T01:48:37+00:00 | 2026-11-04T01:48:36+00:00 |
-| [c4e2ac4407634770bcda7e86b28c2925](state/batches/c4e2ac4407634770bcda7e86b28c2925/batch.json) / review2 | submitted / validating | 0 / 0 / 0 | not recorded | not collected | not recorded |
+| [c4e2ac4407634770bcda7e86b28c2925](state/batches/c4e2ac4407634770bcda7e86b28c2925/batch.json) / review2 | submitted / in_progress | 1 / 0 / 0 | not recorded | not collected | 2026-11-07T10:43:32+00:00 |
 | [c4f222df206e49f7811a3db1d2258e94](state/batches/c4f222df206e49f7811a3db1d2258e94/batch.json) / correct | collected / completed | 113 / 113 / 0 | 2026-10-02T12:56:26+00:00 | 2026-10-02T13:00:01+00:00 | 2026-10-02T12:59:59+00:00 |
 | [c4f85b6502674fa5b905bb332873b081](state/batches/c4f85b6502674fa5b905bb332873b081/batch.json) / review1 | collected / completed | 1 / 1 / 0 | 2026-11-05T06:39:24+00:00 | 2026-11-05T06:49:16+00:00 | 2026-11-05T06:49:15+00:00 |
 | [c4fcbf1e4c3247ffb75fdf531d3feb92](state/batches/c4fcbf1e4c3247ffb75fdf531d3feb92/batch.json) / review2 | collected / completed | 1 / 1 / 0 | 2026-11-06T00:06:16+00:00 | 2026-11-06T02:21:05+00:00 | 2026-11-06T02:21:04+00:00 |
@@ -7174,7 +7184,7 @@ Provider completion and local collection are separate clocks. Older records with
 | [c81d0911753a4c1c9c60a0ec725a550b](state/batches/c81d0911753a4c1c9c60a0ec725a550b/batch.json) / review2 | collected / completed | 1 / 1 / 0 | 2026-11-06T18:50:45+00:00 | 2026-11-06T23:08:12+00:00 | 2026-11-06T23:08:12+00:00 |
 | [c8234a03c2874aa780cefed980d596d7](state/batches/c8234a03c2874aa780cefed980d596d7/batch.json) / review1 | collected / completed | 1 / 1 / 0 | 2026-11-02T16:34:01+00:00 | 2026-11-02T19:53:02+00:00 | 2026-11-02T19:53:02+00:00 |
 | [c82f6a2c61d04aef9d965627e30b4bfc](state/batches/c82f6a2c61d04aef9d965627e30b4bfc/batch.json) / review1 | collected / completed | 1 / 1 / 0 | 2026-11-05T02:54:09+00:00 | 2026-11-05T02:54:16+00:00 | 2026-11-05T02:54:15+00:00 |
-| [c832ff77528b4f8693b12ab38af102a8](state/batches/c832ff77528b4f8693b12ab38af102a8/batch.json) / review2 | submitted / in_progress | 1 / 0 / 0 | not recorded | not collected | 2026-11-07T10:28:25+00:00 |
+| [c832ff77528b4f8693b12ab38af102a8](state/batches/c832ff77528b4f8693b12ab38af102a8/batch.json) / review2 | submitted / in_progress | 1 / 0 / 0 | not recorded | not collected | 2026-11-07T10:43:02+00:00 |
 | [c8333a15991e47258a84162660cedf63](state/batches/c8333a15991e47258a84162660cedf63/batch.json) / correct | collected / completed | 1 / 1 / 0 | 2026-10-15T11:52:36+00:00 | 2026-10-15T11:53:40+00:00 | 2026-10-15T11:53:39+00:00 |
 | [c84b9ad4989841eb9de079bd3e4f46dd](state/batches/c84b9ad4989841eb9de079bd3e4f46dd/batch.json) / review1 | collected / completed | 1 / 1 / 0 | 2026-10-30T14:18:02+00:00 | 2026-10-30T15:49:38+00:00 | 2026-10-30T15:49:38+00:00 |
 | [c851376557b346798e6382ec8722034b](state/batches/c851376557b346798e6382ec8722034b/batch.json) / correct | collected / completed | 1 / 1 / 0 | 2026-10-31T00:42:14+00:00 | 2026-10-31T00:42:50+00:00 | 2026-10-31T00:42:50+00:00 |
@@ -7244,6 +7254,7 @@ Provider completion and local collection are separate clocks. Older records with
 | [cbc720423d464f3481c6b3359faaad92](state/batches/cbc720423d464f3481c6b3359faaad92/batch.json) / review2 | collected / completed | 1 / 1 / 0 | 2026-10-15T22:15:36+00:00 | 2026-10-15T22:18:55+00:00 | 2026-10-15T22:18:55+00:00 |
 | [cbd13ba37dda4ce897fcf1e9f320047f](state/batches/cbd13ba37dda4ce897fcf1e9f320047f/batch.json) / review1 | collected / completed | 1 / 1 / 0 | 2026-11-01T20:12:00+00:00 | 2026-11-01T20:18:28+00:00 | 2026-11-01T20:18:27+00:00 |
 | [cbe45d8b4534488c9af7f588bb76c3c3](state/batches/cbe45d8b4534488c9af7f588bb76c3c3/batch.json) / correct | collected / completed | 1 / 1 / 0 | 2026-10-14T20:31:57+00:00 | 2026-10-14T22:15:04+00:00 | 2026-10-14T22:15:03+00:00 |
+| [cbe5dd6f49c64c5bb4b28603040dc575](state/batches/cbe5dd6f49c64c5bb4b28603040dc575/batch.json) / review1 | submitted / validating | 0 / 0 / 0 | not recorded | not collected | not recorded |
 | [cbe6436fd5ee4e3287514eb0bc1ec425](state/batches/cbe6436fd5ee4e3287514eb0bc1ec425/batch.json) / review1 | collected / completed | 1 / 1 / 0 | 2026-10-14T07:37:13+00:00 | 2026-10-14T07:38:31+00:00 | 2026-10-14T07:38:30+00:00 |
 | [cbfa6f2f2e064f32bc9a0828d1305397](state/batches/cbfa6f2f2e064f32bc9a0828d1305397/batch.json) / translate | collected / completed | 1 / 1 / 0 | 2026-11-01T00:10:57+00:00 | 2026-11-01T01:04:48+00:00 | 2026-11-01T01:04:48+00:00 |
 | [cc00a869398d4041925f21c753424ef3](state/batches/cc00a869398d4041925f21c753424ef3/batch.json) / correct | collected / completed | 1 / 1 / 0 | 2026-10-12T00:30:51+00:00 | 2026-10-12T00:33:58+00:00 | 2026-10-12T00:33:58+00:00 |
@@ -7400,7 +7411,7 @@ Provider completion and local collection are separate clocks. Older records with
 | [d5401ecfc39b494185f0612748c651d3](state/batches/d5401ecfc39b494185f0612748c651d3/batch.json) / review2 | collected / completed | 1 / 1 / 0 | 2026-10-30T23:11:05+00:00 | 2026-10-30T23:43:34+00:00 | 2026-10-30T23:43:33+00:00 |
 | [d546c2a1bd404bb999b924571fb731e5](state/batches/d546c2a1bd404bb999b924571fb731e5/batch.json) / review1 | collected / completed | 1 / 1 / 0 | 2026-10-16T01:25:22+00:00 | 2026-10-16T05:10:19+00:00 | 2026-10-16T05:10:18+00:00 |
 | [d56489c208c641b7b3f8cb66ed97da44](state/batches/d56489c208c641b7b3f8cb66ed97da44/batch.json) / correct | collected / completed | 1 / 1 / 0 | 2026-10-15T22:18:42+00:00 | 2026-10-15T22:19:26+00:00 | 2026-10-15T22:19:25+00:00 |
-| [d566ebf6245745ff9216c9bb0d6899bf](state/batches/d566ebf6245745ff9216c9bb0d6899bf/batch.json) / translate | submitted / in_progress | 1 / 0 / 0 | not recorded | not collected | 2026-11-07T10:28:25+00:00 |
+| [d566ebf6245745ff9216c9bb0d6899bf](state/batches/d566ebf6245745ff9216c9bb0d6899bf/batch.json) / translate | submitted / in_progress | 1 / 0 / 0 | not recorded | not collected | 2026-11-07T10:43:03+00:00 |
 | [d578c99699694d30b0bf6ff4a96d71d1](state/batches/d578c99699694d30b0bf6ff4a96d71d1/batch.json) / review2 | collected / completed | 1 / 1 / 0 | 2026-11-06T02:42:42+00:00 | 2026-11-06T02:49:44+00:00 | 2026-11-06T02:49:44+00:00 |
 | [d5953924ae594a9b9ae5a4eecdf157db](state/batches/d5953924ae594a9b9ae5a4eecdf157db/batch.json) / review1 | collected / completed | 1 / 1 / 0 | 2026-10-17T17:22:02+00:00 | 2026-10-17T17:23:30+00:00 | 2026-10-17T17:23:30+00:00 |
 | [d59ac45cbc1f4202a0b221befccec412](state/batches/d59ac45cbc1f4202a0b221befccec412/batch.json) / review1 | collected / completed | 1 / 1 / 0 | 2026-11-01T01:27:14+00:00 | 2026-11-01T01:31:29+00:00 | 2026-11-01T01:31:28+00:00 |
@@ -7563,6 +7574,7 @@ Provider completion and local collection are separate clocks. Older records with
 | [de248e22a0d94f5284a4586cde403e0e](state/batches/de248e22a0d94f5284a4586cde403e0e/batch.json) / translate | collected / completed | 1 / 1 / 0 | 2026-10-14T01:25:45+00:00 | 2026-10-14T01:27:03+00:00 | 2026-10-14T01:27:02+00:00 |
 | [de3976a8fd004c3cb7c3d72fd098cf30](state/batches/de3976a8fd004c3cb7c3d72fd098cf30/batch.json) / translate | collected / completed | 1 / 1 / 0 | 2026-10-12T00:32:49+00:00 | 2026-10-12T00:34:03+00:00 | 2026-10-12T00:34:02+00:00 |
 | [de3b6b463da442799bdfd444eb73d0c4](state/batches/de3b6b463da442799bdfd444eb73d0c4/batch.json) / translate | collected / completed | 1 / 1 / 0 | 2026-10-24T14:46:10+00:00 | 2026-10-24T16:36:43+00:00 | 2026-10-24T16:36:43+00:00 |
+| [de404f1f311648d185d937564795d8d2](state/batches/de404f1f311648d185d937564795d8d2/batch.json) / correct | submitted / validating | 0 / 0 / 0 | not recorded | not collected | not recorded |
 | [de452656d3ec4f85b85c4893ba5983fe](state/batches/de452656d3ec4f85b85c4893ba5983fe/batch.json) / correct | collected / completed | 1 / 1 / 0 | 2026-10-18T14:49:36+00:00 | 2026-10-18T14:51:21+00:00 | 2026-10-18T14:51:21+00:00 |
 | [de61b5d1dffd46c3a579a9bb38917b0b](state/batches/de61b5d1dffd46c3a579a9bb38917b0b/batch.json) / translate | collected / completed | 1 / 1 / 0 | 2026-11-01T09:28:41+00:00 | 2026-11-01T14:59:07+00:00 | 2026-11-01T14:59:07+00:00 |
 | [de71cdc847fa491fa9737862fe2dbd79](state/batches/de71cdc847fa491fa9737862fe2dbd79/batch.json) / review2 | collected / completed | 1 / 1 / 0 | 2026-10-22T15:25:39+00:00 | 2026-10-22T15:33:13+00:00 | 2026-10-22T15:33:13+00:00 |
@@ -7592,7 +7604,7 @@ Provider completion and local collection are separate clocks. Older records with
 | [df9546535cee4165b487d1b8c55969b5](state/batches/df9546535cee4165b487d1b8c55969b5/batch.json) / review1 | collected / completed | 1 / 1 / 0 | 2026-11-05T15:51:11+00:00 | 2026-11-05T15:58:42+00:00 | 2026-11-05T15:58:41+00:00 |
 | [df96115472794945a9758387091ec616](state/batches/df96115472794945a9758387091ec616/batch.json) / correct | collected / completed | 1 / 1 / 0 | 2026-10-12T00:32:41+00:00 | 2026-10-12T00:34:05+00:00 | 2026-10-12T00:34:05+00:00 |
 | [dfa3e917f6d84a9ead7e9d2b8a1f2f8f](state/batches/dfa3e917f6d84a9ead7e9d2b8a1f2f8f/batch.json) / correct | collected / completed | 1 / 1 / 0 | 2026-11-01T20:12:37+00:00 | 2026-11-01T20:18:25+00:00 | 2026-11-01T20:18:24+00:00 |
-| [dfaa95fc35b54c2a97b7444f1db7fe89](state/batches/dfaa95fc35b54c2a97b7444f1db7fe89/batch.json) / correct | submitted / in_progress | 1 / 0 / 0 | not recorded | not collected | 2026-11-07T10:28:25+00:00 |
+| [dfaa95fc35b54c2a97b7444f1db7fe89](state/batches/dfaa95fc35b54c2a97b7444f1db7fe89/batch.json) / correct | submitted / in_progress | 1 / 0 / 0 | not recorded | not collected | 2026-11-07T10:43:03+00:00 |
 | [dfbce78aae4b412a81ab95ff5c2fe556](state/batches/dfbce78aae4b412a81ab95ff5c2fe556/batch.json) / review1 | collected / completed | 1 / 1 / 0 | 2026-10-15T22:45:17+00:00 | 2026-10-15T22:48:59+00:00 | 2026-10-15T22:48:58+00:00 |
 | [dfbe2c4a443540de82db27aa6e2a4c50](state/batches/dfbe2c4a443540de82db27aa6e2a4c50/batch.json) / correct | collected / completed | 1 / 1 / 0 | 2026-10-31T11:15:03+00:00 | 2026-10-31T12:15:59+00:00 | 2026-10-31T12:15:59+00:00 |
 | [dfcc96d1026847b3bb1904228aa23cdd](state/batches/dfcc96d1026847b3bb1904228aa23cdd/batch.json) / review1 | collected / completed | 1 / 1 / 0 | 2026-10-16T15:19:48+00:00 | 2026-10-16T17:23:23+00:00 | 2026-10-16T17:23:22+00:00 |
@@ -7774,7 +7786,7 @@ Provider completion and local collection are separate clocks. Older records with
 | [eb26afd1120d449f8b73f36a5a4ccb00](state/batches/eb26afd1120d449f8b73f36a5a4ccb00/batch.json) / correct | collected / completed | 1 / 1 / 0 | 2026-10-11T17:07:47+00:00 | 2026-10-11T18:00:48+00:00 | 2026-10-11T18:00:48+00:00 |
 | [eb32a7931ae84640bd453e460e4edcec](state/batches/eb32a7931ae84640bd453e460e4edcec/batch.json) / translate | collected / completed | 10 / 10 / 0 | 2026-10-01T19:07:29+00:00 | 2026-10-01T19:07:40+00:00 | 2026-10-01T19:07:37+00:00 |
 | [eb51fa503de24db595f6640937900db5](state/batches/eb51fa503de24db595f6640937900db5/batch.json) / translate | collected / completed | 1 / 1 / 0 | 2026-11-07T09:09:37+00:00 | 2026-11-07T09:56:06+00:00 | 2026-11-07T09:56:06+00:00 |
-| [eb8a54c82a734bb583fdbe79a3b38d83](state/batches/eb8a54c82a734bb583fdbe79a3b38d83/batch.json) / correct | submitted / validating | 0 / 0 / 0 | not recorded | not collected | not recorded |
+| [eb8a54c82a734bb583fdbe79a3b38d83](state/batches/eb8a54c82a734bb583fdbe79a3b38d83/batch.json) / correct | collected / completed | 1 / 1 / 0 | 2026-11-07T10:37:37+00:00 | 2026-11-07T10:43:18+00:00 | 2026-11-07T10:43:18+00:00 |
 | [ebbeab97b47340eaac8fc9fbe3fea853](state/batches/ebbeab97b47340eaac8fc9fbe3fea853/batch.json) / review1 | collected / completed | 1 / 1 / 0 | 2026-11-04T19:11:31+00:00 | 2026-11-04T22:51:05+00:00 | 2026-11-04T22:51:05+00:00 |
 | [ebbef0c6c59d402e9d7d86dc2d8b051a](state/batches/ebbef0c6c59d402e9d7d86dc2d8b051a/batch.json) / review1 | collected / completed | 145 / 145 / 0 | 2026-10-02T18:20:06+00:00 | 2026-10-02T21:03:10+00:00 | 2026-10-02T21:03:07+00:00 |
 | [ebc19d4e4b6b4732bd491f61192cfbae](state/batches/ebc19d4e4b6b4732bd491f61192cfbae/batch.json) / correct | collected / completed | 1 / 1 / 0 | 2026-10-14T01:51:11+00:00 | 2026-10-14T06:05:05+00:00 | 2026-10-14T06:05:05+00:00 |
@@ -7889,7 +7901,7 @@ Provider completion and local collection are separate clocks. Older records with
 | [f23cb87fc6284f879314ca8798e8553f](state/batches/f23cb87fc6284f879314ca8798e8553f/batch.json) / correct | collected / completed | 1 / 1 / 0 | 2026-11-06T23:29:13+00:00 | 2026-11-06T23:36:18+00:00 | 2026-11-06T23:36:17+00:00 |
 | [f23e0af715844d849124a7848772b375](state/batches/f23e0af715844d849124a7848772b375/batch.json) / review2 | collected / completed | 1 / 1 / 0 | 2026-10-10T22:29:34+00:00 | 2026-10-10T22:33:05+00:00 | 2026-10-10T22:33:05+00:00 |
 | [f23f85b4a7b846b4808e51bcebecad24](state/batches/f23f85b4a7b846b4808e51bcebecad24/batch.json) / review1 | collected / completed | 1 / 1 / 0 | 2026-10-11T04:18:38+00:00 | 2026-10-11T06:20:29+00:00 | 2026-10-11T06:20:27+00:00 |
-| [f2436c06262448c1bcbdc0bcf00912a1](state/batches/f2436c06262448c1bcbdc0bcf00912a1/batch.json) / correct | submitted / in_progress | 1 / 0 / 0 | not recorded | not collected | 2026-11-07T10:27:47+00:00 |
+| [f2436c06262448c1bcbdc0bcf00912a1](state/batches/f2436c06262448c1bcbdc0bcf00912a1/batch.json) / correct | submitted / in_progress | 1 / 0 / 0 | not recorded | not collected | 2026-11-07T10:43:02+00:00 |
 | [f25c80e01002482a8a6aa416e28f31b9](state/batches/f25c80e01002482a8a6aa416e28f31b9/batch.json) / review1 | collected / completed | 1 / 1 / 0 | 2026-10-16T05:20:30+00:00 | 2026-10-16T07:06:04+00:00 | 2026-10-16T07:06:04+00:00 |
 | [f25dbeb5c138428cb4ff9532758ea552](state/batches/f25dbeb5c138428cb4ff9532758ea552/batch.json) / correct | collected / completed | 1 / 1 / 0 | 2026-10-14T11:46:16+00:00 | 2026-10-14T11:47:51+00:00 | 2026-10-14T11:47:50+00:00 |
 | [f27d031aa735465d84409de869f2d824](state/batches/f27d031aa735465d84409de869f2d824/batch.json) / correct | collected / completed | 1 / 1 / 0 | 2026-10-17T04:22:08+00:00 | 2026-10-17T04:23:22+00:00 | 2026-10-17T04:23:22+00:00 |
@@ -7913,7 +7925,7 @@ Provider completion and local collection are separate clocks. Older records with
 | [f3ca7d4d27d542dfb9617a07171bd836](state/batches/f3ca7d4d27d542dfb9617a07171bd836/batch.json) / correct | collected / completed | 1 / 1 / 0 | 2026-10-31T19:47:56+00:00 | 2026-10-31T19:53:48+00:00 | 2026-10-31T19:53:48+00:00 |
 | [f3d90cc091a04e8f9c7b884407a8daff](state/batches/f3d90cc091a04e8f9c7b884407a8daff/batch.json) / translate | collected / completed | 1 / 1 / 0 | 2026-10-16T05:18:35+00:00 | 2026-10-16T07:05:43+00:00 | 2026-10-16T07:05:43+00:00 |
 | [f3dd8ea60a2f49468ea0fafb50dff2cc](state/batches/f3dd8ea60a2f49468ea0fafb50dff2cc/batch.json) / correct | collected / completed | 1 / 1 / 0 | 2026-10-28T09:14:25+00:00 | 2026-10-28T15:30:33+00:00 | 2026-10-28T15:30:32+00:00 |
-| [f407470688df4e65b6edc0f3f0e59455](state/batches/f407470688df4e65b6edc0f3f0e59455/batch.json) / review1 | submitted / validating | 0 / 0 / 0 | not recorded | not collected | not recorded |
+| [f407470688df4e65b6edc0f3f0e59455](state/batches/f407470688df4e65b6edc0f3f0e59455/batch.json) / review1 | collected / completed | 1 / 1 / 0 | 2026-11-07T10:28:54+00:00 | 2026-11-07T10:43:03+00:00 | 2026-11-07T10:43:03+00:00 |
 | [f4119b0a12e4441196ad9308362d03ce](state/batches/f4119b0a12e4441196ad9308362d03ce/batch.json) / review2 | collected / completed | 1 / 1 / 0 | 2026-11-02T16:21:36+00:00 | 2026-11-02T16:25:41+00:00 | 2026-11-02T16:25:40+00:00 |
 | [f41efced2fb34a50b850560726e66bb9](state/batches/f41efced2fb34a50b850560726e66bb9/batch.json) / translate | collected / completed | 1 / 1 / 0 | 2026-10-10T23:15:49+00:00 | 2026-10-11T00:24:42+00:00 | 2026-10-11T00:24:42+00:00 |
 | [f4505faf012640b1b30e814ba6e0802b](state/batches/f4505faf012640b1b30e814ba6e0802b/batch.json) / review2 | collected / completed | 1 / 1 / 0 | 2026-11-06T12:15:19+00:00 | 2026-11-06T18:00:50+00:00 | 2026-11-06T18:00:50+00:00 |
