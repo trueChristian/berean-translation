@@ -13,9 +13,16 @@
       "event": "not_ready",
       "reason": "Article UUID mismatch",
       "task": "d93f4516d0dea72fe1a830f4dcf5086f"
+    },
+    {
+      "at": "2026-11-07T21:43:16+00:00",
+      "campaign": "auto-70250268bfa08ec28d1276e9822be2d74d82367ecc7da109d957a657be0477a2",
+      "event": "automatic_requested",
+      "previous_task": "d93f4516d0dea72fe1a830f4dcf5086f",
+      "task": "fb1692339c5e1a75892ecd33d161d916"
     }
   ],
   "language": "kor",
-  "latest_task": "d93f4516d0dea72fe1a830f4dcf5086f",
+  "latest_task": "fb1692339c5e1a75892ecd33d161d916",
   "published": null
 }
