@@ -1,0 +1,108 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "dc29fcaf-3687-4486-a6c1-d6e5a180c4e3",
+    "response_id": "chatcmpl-EheBVsot5eXjXd7MLU3tiKXhBaP5M",
+    "usage": {
+      "completion_tokens": 1257,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 83,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3741,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2638,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 4998
+    }
+  },
+  "received_at": "2026-11-07T20:18:13+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "translation.html, p.drop-cap",
+        "severity": "major",
+        "source_quote": "Your little acts of kindness will not soon be forgotten.",
+        "suggested_fix": "Replace the sentence with: “Matendo yako madogo ya wema hayatasahaulika upesi.”",
+        "translation_quote": "Matendo yako madogo ya wema hayatapitwa na wakati haraka."
+      },
+      {
+        "location": "translation.html, paragraph 2",
+        "severity": "major",
+        "source_quote": "Maybe it would have been better if Hadassah had stood up to them, but she didn’t.",
+        "suggested_fix": "Replace the sentence with: “Labda ingekuwa bora kama Hadassah angejitetea mbele yao, lakini hakufanya hivyo.”",
+        "translation_quote": "Labda ingekuwa bora kama Hadassah angehimili na kuwakananisha, lakini hakufanya hivyo."
+      },
+      {
+        "location": "translation.html, paragraph 2",
+        "severity": "major",
+        "source_quote": "she chose to act as if it didn’t hurt and tried to ignore them",
+        "suggested_fix": "Replace with: “aliamua kujifanya kana kwamba matendo yao hayakumwumiza na akajaribu kutowatilia maanani”.",
+        "translation_quote": "aliamua kuonyesha kama haikuumiza na alijaribu kuwasahau"
+      },
+      {
+        "location": "translation.html, paragraph 7",
+        "severity": "major",
+        "source_quote": "It was a very sad group of schoolgirls when Esther died at the age of 13.",
+        "suggested_fix": "Replace the sentence with: “Esther alipofariki akiwa na umri wa miaka 13, kundi hilo la wasichana wa shule lilihuzunika sana.”",
+        "translation_quote": "Walikuwa kundi la wasichana waliotia huzuni walipomuaga Esther akiwa na umri wa miaka 13."
+      },
+      {
+        "location": "translation.html, paragraph 8",
+        "severity": "major",
+        "source_quote": "It so happened that in about the fourth grade, Esther was in school more often.",
+        "suggested_fix": "Replace the sentence with: “Ilitokea kwamba walipokuwa takriban darasa la nne, Esther alihudhuria shule mara nyingi zaidi.”",
+        "translation_quote": "Ilikuwa hivyo hadi takriban darasa la nne, Esther alianza kuwa shuleni mara kwa mara."
+      },
+      {
+        "location": "translation.html, paragraph 3",
+        "severity": "minor",
+        "source_quote": "many evenings she walked home from school",
+        "suggested_fix": "Replace “usiku wengi” with “jioni nyingi”.",
+        "translation_quote": "usiku wengi alitembea nyumbani kutoka shuleni"
+      },
+      {
+        "location": "translation.html, paragraph 4",
+        "severity": "minor",
+        "source_quote": "This was very disturbing to a very conscientious Hadassah.",
+        "suggested_fix": "Replace the sentence with: “Hili lilimsumbua sana Hadassah, ambaye alijitahidi sana kufanya yaliyo sawa.”",
+        "translation_quote": "Hii ilimkera sana Hadassah ambaye alikuwa mwangalifu sana."
+      },
+      {
+        "location": "translation.html, paragraph 8",
+        "severity": "minor",
+        "source_quote": "when Esther was in school the other girls weren’t as mean to her (Hadassah)",
+        "suggested_fix": "Replace the clause with: “Esther alipokuwa shuleni, wasichana wengine hawakumtendea yeye (Hadassah) kwa ukatili mkubwa kama walivyofanya Esther asipokuwepo”.",
+        "translation_quote": "alipokuwa Esther shuleni wasichana wengine hawakuwa wakiwa mkali kwake (Hadassah)"
+      },
+      {
+        "location": "translation.html, first image alt",
+        "severity": "minor",
+        "source_quote": "Colorful school supplies and a stethoscope around a pale background",
+        "suggested_fix": "Use alt=\"Vifaa vya shule vya rangi mbalimbali na stethoskopu vilivyozunguka mandhari ya rangi hafifu\".",
+        "translation_quote": "Vifaa vya shule vyenye rangi mbalimbali na stethoscope juu ya mandhari nyepesi"
+      },
+      {
+        "location": "translation.html, second image alt",
+        "severity": "minor",
+        "source_quote": "An empty classroom with rows of desks",
+        "suggested_fix": "Use alt=\"Darasa tupu lenye madawati yaliyopangwa kwa safu\".",
+        "translation_quote": "Darasa tupu lenye mizunguko ya dawati"
+      },
+      {
+        "location": "translation.html, p.drop-cap",
+        "severity": "minor",
+        "source_quote": "can change that person’s life forever",
+        "suggested_fix": "Replace “kumabadilisha maisha yake milele” with “kubadilisha maisha yake milele”.",
+        "translation_quote": "kunaweza kumabadilisha maisha yake milele"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 83
+  }
+}
