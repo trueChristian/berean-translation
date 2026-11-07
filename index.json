@@ -35550,6 +35550,34 @@
     {
       "ai_notice_required": true,
       "direction": "rtl",
+      "html": "content/heb/articles/049f2e7d-675c-4dac-9584-5aefceb9b9c1.html",
+      "html_sha256": "f2af6f70f90f2afff1bff9a29a4a6aceb66ed6fcb5467bf318866159c14f6e9c",
+      "human_reviewed": false,
+      "id": "049f2e7d-675c-4dac-9584-5aefceb9b9c1",
+      "images": [
+        {
+          "alt": "פרח ורוד בהיר וניצן פרח סגור.",
+          "public_path": "/images/articles/049f2e7d-675c-4dac-9584-5aefceb9b9c1-1.jpg"
+        }
+      ],
+      "issue_id": "103c93e0-6e9a-44f6-a6bc-377af8e08e38",
+      "language": "heb",
+      "language_tag": "he",
+      "metadata": "content/heb/articles/049f2e7d-675c-4dac-9584-5aefceb9b9c1.json",
+      "metadata_sha256": "d841e8ab890ef86b2766cad69e5356ca2c320daf1c3eda5ded2707696f8cc47b",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
+      "source_translation_key": "0fb584030db33dd2b72332a91a0b7c15fa746dd719ac5f16dd38c2251e56bee5",
+      "status": "ready",
+      "subtitle": null,
+      "title": "מדברי העורך",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
       "html": "content/heb/articles/069fc797-01e4-44d3-8b71-1c07f0821965.html",
       "html_sha256": "f343b7fcc32d77261b9edae300548cde4043b6fa8d940ec9f81f77df807537f2",
       "human_reviewed": false,
