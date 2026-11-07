@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "5f29b4b7-f327-44ed-b51b-ba812a5c790f",
+    "response_id": "chatcmpl-EhSac3snx9Blj5oiVWjq0f7isW9CZ",
+    "usage": {
+      "completion_tokens": 666,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7665,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6562,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 8331
+    }
+  },
+  "received_at": "2026-11-07T09:55:16+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph beginning “Hierdie nuwe geboorte is nie…”",
+        "severity": "major",
+        "source_quote": "“This new birth is not a slow change. It takes years, decades, or even generations.”",
+        "suggested_fix": "Vertaal die twee stellings afsonderlik en behou die bron se betekenis: “Hierdie nuwe geboorte is nie ’n stadige verandering nie. Dit neem jare, dekades of selfs geslagte.”",
+        "translation_quote": "“Hierdie nuwe geboorte is nie ’n geleidelike verandering wat jare, dekades of selfs geslagte duur nie.”"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 91
+  }
+}
