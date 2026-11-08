@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-08T20:38:40+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Article, paragraph beginning “Mnamo Januari 5, 1527”\",\"severity\":\"major\",\"source_quote\":\"“The executioner stripped his bound hands over his knees, placed a stick between his knees and arms”\",\"suggested_fix\":\"Badilisha sehemu hiyo iwe: “Mnyongaji aliweka mikono yake iliyokuwa imefungwa juu ya magoti yake, akaweka fimbo kati ya magoti na mikono yake”\",\"translation_quote\":\"“Mnyongaji alimvua nguo, akamfunga mikono juu ya magoti, akaweka fimbo kati ya magoti na mikono yake”\"}],\"findings_complete\":true,\"passed\":false,\"score\":93}",
+    "content_bytes": 571,
+    "content_evidence_truncated": false,
+    "content_sha256": "fa10a29e5eb18c9349bb2eb5b189a69abbf1cc788a5289e5fcc0878f4447d053",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1035,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 864,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5642,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4539,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 6677
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

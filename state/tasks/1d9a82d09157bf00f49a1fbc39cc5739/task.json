@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "4f68e922eec846379d79a8529f5f5fba",
   "campaign": "auto-2471c7d2e5c69e0f285a19db4b2ffe110f02d76f7fff8be512ed0562ec145960",
   "created_at": "2026-11-08T07:25:23+00:00",
   "events": [
@@ -68,32 +67,40 @@
         },
         "total_tokens": 8553
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1035,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 864,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5642,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 4539,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 6677
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; a recovery continuation must pass admission",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "Article, paragraph 2",
+      "location": "Article, paragraph beginning “Mnamo Januari 5, 1527”",
       "severity": "major",
-      "source_quote": "They claimed that Scripture was being compromised to pacify the city council.",
-      "suggested_fix": "They claimed that Maandiko yalikuwa yakipotoshwa ili kuuridhisha baraza la jiji.",
-      "translation_quote": "Walidai kwamba Maandiko yalikuwa yakivunjwa ili kuuridhisha baraza la jiji."
-    },
-    {
-      "location": "Article, paragraph 6",
-      "severity": "major",
-      "source_quote": "because of his fiery disposition and skillful oratory abilities.",
-      "suggested_fix": "kwa sababu ya bidii yake yenye motomoto na uwezo wake wa kusema kwa ustadi.",
-      "translation_quote": "kwa sababu ya tabia yake ya uchangamfu na uwezo wake wa kusema kwa ustadi."
-    },
-    {
-      "location": "Article, paragraph 9",
-      "severity": "major",
-      "source_quote": "On September 6, he was burned at the stake along with a fellow minister.",
-      "suggested_fix": "Mnamo Septemba 6, alichomwa akiwa amefungwa kwenye nguzo pamoja na mhudumu mwenzake.",
-      "translation_quote": "Mnamo Septemba 6, alichomwa kwenye mti pamoja na mhudumu mwenzake."
+      "source_quote": "“The executioner stripped his bound hands over his knees, placed a stick between his knees and arms”",
+      "suggested_fix": "Badilisha sehemu hiyo iwe: “Mnyongaji aliweka mikono yake iliyokuwa imefungwa juu ya magoti yake, akaweka fimbo kati ya magoti na mikono yake”",
+      "translation_quote": "“Mnyongaji alimvua nguo, akamfunga mikono juu ya magoti, akaweka fimbo kati ya magoti na mikono yake”"
     }
   ],
+  "finished_at": "2026-11-08T20:38:40+00:00",
   "id": "1d9a82d09157bf00f49a1fbc39cc5739",
   "issue_id": "103c93e0-6e9a-44f6-a6bc-377af8e08e38",
   "language": "swa",
@@ -182,7 +189,7 @@
     }
   },
   "protected": false,
-  "quality_score": 91,
+  "quality_score": 93,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
@@ -202,7 +209,7 @@
     "total_reserved_usd": 0.088219,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "dcde981bb8a2de6c36d041bdd00094be4150bee86267332e4ae76a69b15c1fa4",
   "translation_model_actual": "gpt-6-luna"
