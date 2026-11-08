@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "0f9a7b52-834d-4b0a-a91b-7716270ded56",
+    "response_id": "chatcmpl-EhvPhReZ6PiX4HaHQhJoAgZ9CWdoV",
+    "usage": {
+      "completion_tokens": 845,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 702,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5430,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5427,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6275
+    }
+  },
+  "received_at": "2026-11-08T15:06:34+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, paragraph 5: Felix Manz’s execution",
+        "severity": "major",
+        "source_quote": "“The executioner stripped his bound hands over his knees, placed a stick between his knees and arms”",
+        "suggested_fix": "«Палач положил его связанные руки поверх колен, просунул палку между коленями и руками…»",
+        "translation_quote": "«Палач отвёл связанные руки Манца за колени, просунул палку между коленями и руками»"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 94
+  }
+}

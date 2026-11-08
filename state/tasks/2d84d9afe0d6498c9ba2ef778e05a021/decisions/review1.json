@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraph 5: Felix Manz’s execution",
+      "severity": "major",
+      "source_quote": "“The executioner stripped his bound hands over his knees, placed a stick between his knees and arms”",
+      "suggested_fix": "«Палач положил его связанные руки поверх колен, просунул палку между коленями и руками…»",
+      "translation_quote": "«Палач отвёл связанные руки Манца за колени, просунул палку между коленями и руками»"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
