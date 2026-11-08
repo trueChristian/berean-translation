@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "26ee7826-49e1-40af-aae4-e334e8861e49",
+    "response_id": "chatcmpl-Ei28N11NISHWwXJ3pLhNAZuRvGHjA",
+    "usage": {
+      "completion_tokens": 728,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 605,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5419,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4316,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 6147
+    }
+  },
+  "received_at": "2026-11-08T19:40:24+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragrafen som begynner «Derfra dro George Blaurock til Østerrike»",
+        "severity": "minor",
+        "source_quote": "he was burned at the stake along with a fellow minister",
+        "suggested_fix": "Bytt «med en medtjener» med «sammen med en medforkynner».",
+        "translation_quote": "ble han brent på bålet sammen med en medtjener"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 99
+  }
+}

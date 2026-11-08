@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragrafen som begynner «Derfra dro George Blaurock til Østerrike»",
+      "severity": "minor",
+      "source_quote": "he was burned at the stake along with a fellow minister",
+      "suggested_fix": "Bytt «med en medtjener» med «sammen med en medforkynner».",
+      "translation_quote": "ble han brent på bålet sammen med en medtjener"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}
