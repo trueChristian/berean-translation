@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph 11, conditions for Marx Boshart’s release",
+      "severity": "major",
+      "source_quote": "“signed a bond of one hundred pounds”",
+      "suggested_fix": "“firmato una cauzione di cento sterline”",
+      "translation_quote": "“firmato una cauzione di cento lire”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}
