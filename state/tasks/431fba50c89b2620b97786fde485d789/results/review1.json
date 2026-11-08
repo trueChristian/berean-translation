@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "6e9b7fea-7bc1-463f-8bcc-646afced128a",
+    "response_id": "chatcmpl-EhlRkcsXsSEGWRkIJIG1Syu5FsAjm",
+    "usage": {
+      "completion_tokens": 892,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 746,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5109,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4006,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 6001
+    }
+  },
+  "received_at": "2026-11-08T01:00:58+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, paragraph beginning “Em 5 de janeiro de 1527”",
+        "severity": "major",
+        "source_quote": "The executioner stripped his bound hands over his knees, placed a stick between his knees and arms",
+        "suggested_fix": "O carrasco despiu-o e posicionou suas mãos amarradas sobre os joelhos, colocou um bastão entre os joelhos e os braços",
+        "translation_quote": "O carrasco amarrou suas mãos sobre os joelhos, colocou um bastão entre os joelhos e os braços"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 94
+  }
+}

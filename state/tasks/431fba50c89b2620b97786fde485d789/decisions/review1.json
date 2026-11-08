@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraph beginning “Em 5 de janeiro de 1527”",
+      "severity": "major",
+      "source_quote": "The executioner stripped his bound hands over his knees, placed a stick between his knees and arms",
+      "suggested_fix": "O carrasco despiu-o e posicionou suas mãos amarradas sobre os joelhos, colocou um bastão entre os joelhos e os braços",
+      "translation_quote": "O carrasco amarrou suas mãos sobre os joelhos, colocou um bastão entre os joelhos e os braços"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
