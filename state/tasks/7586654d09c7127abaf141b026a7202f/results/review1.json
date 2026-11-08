@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "11de4e48-2b6b-45cb-bb4d-32080522a173",
+    "response_id": "chatcmpl-Ei46Q88WjFDiL6q9VnfbQ6rYfWthD",
+    "usage": {
+      "completion_tokens": 214,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 93,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4632,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3529,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 4846
+    }
+  },
+  "received_at": "2026-11-08T23:46:02+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "translation.html — Lukas 1:1-4 quotation",
+        "severity": "minor",
+        "source_quote": "I myself have carefully investigated everything from the beginning",
+        "suggested_fix": "Vervang “ek alles van voor af noukeurig ondersoek het” met “ek self alles van die begin af noukeurig ondersoek het”, binne die bestaande <u>-merkers.",
+        "translation_quote": "ek alles van voor af noukeurig ondersoek het"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}

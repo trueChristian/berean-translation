@@ -5,11 +5,42 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "127e7a1c95ff408385e3615aed1dc2fb",
   "campaign": "auto-9593579965c27265c53d440fe3aa93bc072eb4823bed6246a02d4249c7664b93",
   "created_at": "2026-11-08T19:43:27+00:00",
-  "events": [],
-  "findings": [],
+  "events": [
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 214,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 93,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4632,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 3529,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 4846
+      }
+    }
+  ],
+  "failure": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[59]: source /article[1]/p[8]/em[4] ('start', 'em', ()); translation /article[1]/p[8] ('end', 'p')",
+  "failure_kind": "invalid_result",
+  "findings": [
+    {
+      "location": "translation.html — Lukas 1:1-4 quotation",
+      "severity": "minor",
+      "source_quote": "I myself have carefully investigated everything from the beginning",
+      "suggested_fix": "Vervang “ek alles van voor af noukeurig ondersoek het” met “ek self alles van die begin af noukeurig ondersoek het”, binne die bestaande <u>-merkers.",
+      "translation_quote": "ek alles van voor af noukeurig ondersoek het"
+    }
+  ],
+  "finished_at": "2026-11-08T23:46:02+00:00",
   "id": "7586654d09c7127abaf141b026a7202f",
   "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
   "language": "afr",
@@ -98,9 +129,11 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/c5a53a68da3d3a0dcfdea44a6be1ec876cbdb82ebcff07b3ac3d5c1401f92201.json",
   "stage": "review1",
   "stage_budget": {
@@ -115,7 +148,7 @@
     "total_reserved_usd": 0.709442,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 0,
   "translation_key": "8e1431ea881b67c4ad4954313f7377e010f9f58557ffeba6077169e187cbed60",
   "translation_model_actual": "gpt-6-luna"

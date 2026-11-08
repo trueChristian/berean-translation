@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "translation.html — Lukas 1:1-4 quotation",
+      "severity": "minor",
+      "source_quote": "I myself have carefully investigated everything from the beginning",
+      "suggested_fix": "Vervang “ek alles van voor af noukeurig ondersoek het” met “ek self alles van die begin af noukeurig ondersoek het”, binne die bestaande <u>-merkers.",
+      "translation_quote": "ek alles van voor af noukeurig ondersoek het"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "translation.html — Lukas 1:1-4 quotation",
+      "severity": "minor",
+      "source_quote": "I myself have carefully investigated everything from the beginning",
+      "suggested_fix": "Vervang “ek alles van voor af noukeurig ondersoek het” met “ek self alles van die begin af noukeurig ondersoek het”, binne die bestaande <u>-merkers.",
+      "translation_quote": "ek alles van voor af noukeurig ondersoek het"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[59]: source /article[1]/p[8]/em[4] ('start', 'em', ()); translation /article[1]/p[8] ('end', 'p')",
+  "stage": "terminal"
+}
