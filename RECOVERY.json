@@ -3933,7 +3933,7 @@
       "article_id": "bd2e73dd-b296-4983-a6ec-54a3527362d8",
       "language": "ell",
       "latest_task": "e664f0b3483dd8241645d2d7b0604333",
-      "processing_status": "queued",
+      "processing_status": "in_batch",
       "reason": "active"
     },
     {
@@ -11785,7 +11785,7 @@
       "article_id": "bd2e73dd-b296-4983-a6ec-54a3527362d8",
       "language": "swe",
       "latest_task": "bd98a4b0daa506a59b1d12a40635a63c",
-      "processing_status": "queued",
+      "processing_status": "in_batch",
       "reason": "active"
     },
     {
