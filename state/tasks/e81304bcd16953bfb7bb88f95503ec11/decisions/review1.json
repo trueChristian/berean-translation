@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "translation.html, stycket som börjar ”Bibeln säger att”, citatet från Galaterbrevet 5:22–23",
+      "severity": "major",
+      "source_quote": "the fruit of the Spirit is love, joy, peace, longsuffering, gentleness, goodness, faith, meekness, temperance",
+      "suggested_fix": "Ändra ”godhet, trohet, ödmjukhet” till ”godhet, tro, ödmjukhet” så att citatet återger den tryckta engelska textens ”faith”.",
+      "translation_quote": "Andens frukt är kärlek, glädje, frid, tålamod, vänlighet, godhet, trohet, ödmjukhet och självbehärskning"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
