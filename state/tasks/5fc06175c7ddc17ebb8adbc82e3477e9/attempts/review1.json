@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-08T02:46:20+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"translation.html, kutipan 1 Petrus 2:2\",\"severity\":\"major\",\"source_quote\":\"desire the sincere milk of the word, that ye may grow thereby\",\"suggested_fix\":\"Ganti “menginginkan susu yang murni dan rohani” dengan “menginginkan susu firman yang murni”, dengan mempertahankan tag dan rujukan yang ada.\",\"translation_quote\":\"menginginkan susu yang murni dan rohani, supaya olehnya kamu bertumbuh\"},{\"location\":\"translation.html, kutipan Galatia 5:22-23\",\"severity\":\"major\",\"source_quote\":\"goodness, faith, meekness, temperance\",\"suggested_fix\":\"Ganti “kesetiaan” dengan “iman” agar daftar tersebut menyampaikan kata “faith” sebagaimana tercetak dalam sumber, bukan menggantinya dengan pembacaan versi lain.\",\"translation_quote\":\"kebaikan, kesetiaan, kelemahlembutan, penguasaan diri\"},{\"location\":\"translation.html, paragraf tentang tahanan di penjara bawah tanah\",\"severity\":\"minor\",\"source_quote\":\"He’s claustrophobic, weary, and worn.\",\"suggested_fix\":\"Ganti “Ia sesak, letih, dan lunglai” dengan “Ia merasa takut berada di ruang sempit, letih, dan lunglai” untuk mempertahankan makna klaustrofobia, bukan sekadar rasa sesak.\",\"translation_quote\":\"Ia sesak, letih, dan lunglai.\"}],\"findings_complete\":true,\"passed\":false,\"score\":94}",
+    "content_bytes": 1285,
+    "content_evidence_truncated": false,
+    "content_sha256": "eadca0f37d5f397b0f3b85938dde87721414e6c3775180e386d25740b7bec2c2",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 394,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 55,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9174,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8071,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 9568
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}

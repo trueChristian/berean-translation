@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "translation.html, kutipan 1 Petrus 2:2",
+      "severity": "major",
+      "source_quote": "desire the sincere milk of the word, that ye may grow thereby",
+      "suggested_fix": "Ganti “menginginkan susu yang murni dan rohani” dengan “menginginkan susu firman yang murni”, dengan mempertahankan tag dan rujukan yang ada.",
+      "translation_quote": "menginginkan susu yang murni dan rohani, supaya olehnya kamu bertumbuh"
+    },
+    {
+      "location": "translation.html, kutipan Galatia 5:22-23",
+      "severity": "major",
+      "source_quote": "goodness, faith, meekness, temperance",
+      "suggested_fix": "Ganti “kesetiaan” dengan “iman” agar daftar tersebut menyampaikan kata “faith” sebagaimana tercetak dalam sumber, bukan menggantinya dengan pembacaan versi lain.",
+      "translation_quote": "kebaikan, kesetiaan, kelemahlembutan, penguasaan diri"
+    },
+    {
+      "location": "translation.html, paragraf tentang tahanan di penjara bawah tanah",
+      "severity": "minor",
+      "source_quote": "He’s claustrophobic, weary, and worn.",
+      "suggested_fix": "Ganti “Ia sesak, letih, dan lunglai” dengan “Ia merasa takut berada di ruang sempit, letih, dan lunglai” untuk mempertahankan makna klaustrofobia, bukan sekadar rasa sesak.",
+      "translation_quote": "Ia sesak, letih, dan lunglai."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
