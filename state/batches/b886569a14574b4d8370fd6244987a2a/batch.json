@@ -11,7 +11,8 @@
   "remote_id": null,
   "reserved_usd": 0.004985,
   "stage": "translate",
-  "status": "prepared",
+  "status": "submitting",
+  "submission_started_at": "2026-11-08T15:42:38+00:00",
   "tasks": [
     "950f2ae7e4588a76a990297c951fce4a"
   ]
