@@ -34446,6 +34446,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/fra/articles/a9c1e70c-906d-4eda-ad05-2789badb2369.html",
+      "html_sha256": "e5aaafa280ed6b63e9021753e36b2e4dc10d07bc37ce5c348e72bb3d414f39a1",
+      "human_reviewed": false,
+      "id": "a9c1e70c-906d-4eda-ad05-2789badb2369",
+      "images": [
+        {
+          "alt": "Un coucher de soleil éclatant, rose, violet et bleu, au-dessus de l’océan",
+          "public_path": "/images/articles/a9c1e70c-906d-4eda-ad05-2789badb2369-1.jpg"
+        }
+      ],
+      "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
+      "language": "fra",
+      "language_tag": "fr",
+      "metadata": "content/fra/articles/a9c1e70c-906d-4eda-ad05-2789badb2369.json",
+      "metadata_sha256": "84e5be6e11ab44d8b8a72b6f2ee3b5f466bff50065f3a231d4329dc1230ae445",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "ARTICLE À LA UNE",
+      "source_revision": "a069ecca8827634ebc256b3b1cabc16aeb942ed7",
+      "source_translation_key": "8e1431ea881b67c4ad4954313f7377e010f9f58557ffeba6077169e187cbed60",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Foi et raison",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/fra/articles/aa552c1c-4324-40a5-a7c3-8f36b6a99ee2.html",
       "html_sha256": "320d0aa2f644b051ca7e2724b96a6768970acc1deb3a5710a7fbe80db8c184e9",
       "human_reviewed": false,
