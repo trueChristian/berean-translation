@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-08T15:37:22+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Blockquote, and final paragraph\",\"severity\":\"minor\",\"source_quote\":\"“Are we gaining or burying?”\",\"suggested_fix\":\"Byt ”Vinner vi eller begraver vi?” mot ”Förökar vi eller begraver vi?” för att tydligare återge kontrasten mellan att vinna mer och att begrava det man fått.\",\"translation_quote\":\"”Vinner vi eller begraver vi?”\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 426,
+    "content_evidence_truncated": false,
+    "content_sha256": "4e24375f9224a700d97a7a25a3306daa3dde4b40621d09cb27f75fc8a44852e9",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 866,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 743,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5363,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5360,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6229
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

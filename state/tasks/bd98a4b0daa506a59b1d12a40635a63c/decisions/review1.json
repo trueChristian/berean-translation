@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Blockquote, and final paragraph",
+      "severity": "minor",
+      "source_quote": "“Are we gaining or burying?”",
+      "suggested_fix": "Byt ”Vinner vi eller begraver vi?” mot ”Förökar vi eller begraver vi?” för att tydligare återge kontrasten mellan att vinna mer och att begrava det man fått.",
+      "translation_quote": "”Vinner vi eller begraver vi?”"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}
