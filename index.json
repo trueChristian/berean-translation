@@ -19012,6 +19012,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/cmn/articles/a9c1e70c-906d-4eda-ad05-2789badb2369.html",
+      "html_sha256": "ba020f662915e4a509ce3b8f425634a0c4d3ca130c3c9a35a7bd750bbf2a97b3",
+      "human_reviewed": false,
+      "id": "a9c1e70c-906d-4eda-ad05-2789badb2369",
+      "images": [
+        {
+          "alt": "海面上绚丽的粉色、紫色和蓝色晚霞",
+          "public_path": "/images/articles/a9c1e70c-906d-4eda-ad05-2789badb2369-1.jpg"
+        }
+      ],
+      "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
+      "language": "cmn",
+      "language_tag": "zh-Hans",
+      "metadata": "content/cmn/articles/a9c1e70c-906d-4eda-ad05-2789badb2369.json",
+      "metadata_sha256": "7ff6c480f00207e53a2347dd236369618c40a0d74657cd758ef30e2a4e20546d",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "特色文章",
+      "source_revision": "a069ecca8827634ebc256b3b1cabc16aeb942ed7",
+      "source_translation_key": "8e1431ea881b67c4ad4954313f7377e010f9f58557ffeba6077169e187cbed60",
+      "status": "ready",
+      "subtitle": null,
+      "title": "信心与理性",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/cmn/articles/aa552c1c-4324-40a5-a7c3-8f36b6a99ee2.html",
       "html_sha256": "e33396dd7da71346f8f7f250db6ef498e514768cc0a3b8d1df63b16e9da833b0",
       "human_reviewed": false,
