@@ -15607,6 +15607,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/cmn/articles/01a0a64f-d629-4e05-b1ec-993f86ef4d68.html",
+      "html_sha256": "b3954b8a4e27b57fcfed32a6072915f6159bbddd0eaca2c28c532871ad5d225a",
+      "human_reviewed": false,
+      "id": "01a0a64f-d629-4e05-b1ec-993f86ef4d68",
+      "images": [
+        {
+          "alt": "浅色背景前垂挂着长长的枝叶。",
+          "public_path": "/images/articles/01a0a64f-d629-4e05-b1ec-993f86ef4d68-1.jpg"
+        }
+      ],
+      "issue_id": "103c93e0-6e9a-44f6-a6bc-377af8e08e38",
+      "language": "cmn",
+      "language_tag": "zh-Hans",
+      "metadata": "content/cmn/articles/01a0a64f-d629-4e05-b1ec-993f86ef4d68.json",
+      "metadata_sha256": "ab635f535a57a576b8a58886ee02b3a4d26fb34597f9513cd200f26a58da3021",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": null,
+      "source_revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
+      "source_translation_key": "0bd5a7158c3c967ae2d717d605a8900c05380dfe6cec6d3e4b4f139ce0827dab",
+      "status": "ready",
+      "subtitle": null,
+      "title": "他要将自己的百姓从罪恶中拯救出来",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/cmn/articles/02db24ae-5132-49c6-a6fd-da73417871e3.html",
       "html_sha256": "8d7fe9a73b3dcf47492785acc96967c910519dd741ac059c8fc8dedff9024ca5",
       "human_reviewed": false,
