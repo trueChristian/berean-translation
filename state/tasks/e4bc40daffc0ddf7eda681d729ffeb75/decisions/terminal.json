@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph 11",
+      "severity": "minor",
+      "source_quote": "He became very homesick for his young family.",
+      "suggested_fix": "اسے اپنے کم عمر گھرانے کی بہت یاد ستانے لگی۔",
+      "translation_quote": "اسے اپنے کم عمر خاندان کی بہت یاد ستانے لگی۔"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

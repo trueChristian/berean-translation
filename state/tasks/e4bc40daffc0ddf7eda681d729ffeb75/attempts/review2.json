@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-08T19:38:54+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph 11\",\"severity\":\"minor\",\"source_quote\":\"He became very homesick for his young family.\",\"suggested_fix\":\"اسے اپنے کم عمر گھرانے کی بہت یاد ستانے لگی۔\",\"translation_quote\":\"اسے اپنے کم عمر خاندان کی بہت یاد ستانے لگی۔\"}],\"findings_complete\":true,\"passed\":true,\"score\":99}",
+    "content_bytes": 374,
+    "content_evidence_truncated": false,
+    "content_sha256": "1929c7751a31b12ed7160af57c7136fa1c3692350e25e08d70ab315329934377",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 966,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 866,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5837,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4734,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 6803
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}
