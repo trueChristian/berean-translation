@@ -1992,6 +1992,9 @@
     "version": 1
   },
   "status": "active",
+  "task_counts": {
+    "queued": 1
+  },
   "tasks": [
     "4a6ea4b7ae09ae5d1e43ce6845bd873f"
   ]
