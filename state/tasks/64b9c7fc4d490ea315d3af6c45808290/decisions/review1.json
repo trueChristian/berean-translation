@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, sixth poem stanza, third line",
+      "severity": "major",
+      "source_quote": "Faint to revive, and fall to rise;",
+      "suggested_fix": "Ik bezwijm om weer tot leven te komen, en val om weer op te staan;",
+      "translation_quote": "Te zwak om op te leven, en toch val ik om op te staan;"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

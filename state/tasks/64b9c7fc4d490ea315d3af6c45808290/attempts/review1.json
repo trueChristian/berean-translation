@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-08T07:18:56+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, sixth poem stanza, third line\",\"severity\":\"major\",\"source_quote\":\"Faint to revive, and fall to rise;\",\"suggested_fix\":\"Ik bezwijm om weer tot leven te komen, en val om weer op te staan;\",\"translation_quote\":\"Te zwak om op te leven, en toch val ik om op te staan;\"}],\"findings_complete\":true,\"passed\":false,\"score\":93}",
+    "content_bytes": 349,
+    "content_evidence_truncated": false,
+    "content_sha256": "0d8873fc983ab06beb851f476481d50d796f577dffb78b314d10e76318be638e",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 923,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 810,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3581,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2478,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 4504
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}
