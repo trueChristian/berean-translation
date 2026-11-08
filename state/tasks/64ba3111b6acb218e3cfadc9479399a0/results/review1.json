@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "b1d244f9-5e2e-4ea7-8efd-401ad5d18df8",
+    "response_id": "chatcmpl-Ehl2TyJMivdGNDtuNjraHQwKcv2w6",
+    "usage": {
+      "completion_tokens": 520,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 357,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8949,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8946,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9469
+    }
+  },
+  "received_at": "2026-11-08T00:31:12+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Παράγραφος αμέσως μετά την επικεφαλίδα «Η νέα γέννηση»",
+        "severity": "major",
+        "source_quote": "This new birth is not a slow change. It takes years, decades, or even generations.",
+        "suggested_fix": "Αυτή η νέα γέννηση δεν είναι μια αργή αλλαγή. Χρειάζονται χρόνια, δεκαετίες ή ακόμη και γενιές.",
+        "translation_quote": "Αυτή η νέα γέννηση δεν είναι μια αργή αλλαγή. Δεν χρειάζεται χρόνια, δεκαετίες ή ακόμη και γενιές."
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 92
+  }
+}

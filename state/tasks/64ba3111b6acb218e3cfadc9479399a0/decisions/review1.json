@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Παράγραφος αμέσως μετά την επικεφαλίδα «Η νέα γέννηση»",
+      "severity": "major",
+      "source_quote": "This new birth is not a slow change. It takes years, decades, or even generations.",
+      "suggested_fix": "Αυτή η νέα γέννηση δεν είναι μια αργή αλλαγή. Χρειάζονται χρόνια, δεκαετίες ή ακόμη και γενιές.",
+      "translation_quote": "Αυτή η νέα γέννηση δεν είναι μια αργή αλλαγή. Δεν χρειάζεται χρόνια, δεκαετίες ή ακόμη και γενιές."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
