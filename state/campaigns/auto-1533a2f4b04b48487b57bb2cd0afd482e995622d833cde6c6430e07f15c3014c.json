@@ -1968,6 +1968,9 @@
     "version": 1
   },
   "status": "active",
+  "task_counts": {
+    "queued": 1
+  },
   "tasks": [
     "b394362176c2ba7bc6e92d4465eed8c4"
   ]
