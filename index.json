@@ -58192,6 +58192,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/kor/articles/6c25be17-3343-451b-afeb-ed9c56942fd0.html",
+      "html_sha256": "c9183705a5c508681266cd4e79bd8e446ec462e1ab80e127d8285a8edda6b057",
+      "human_reviewed": false,
+      "id": "6c25be17-3343-451b-afeb-ed9c56942fd0",
+      "images": [
+        {
+          "alt": "낡은 벽과 꽃이 핀 가지 곁에 서 있는 오래된 나무문.",
+          "public_path": "/images/articles/6c25be17-3343-451b-afeb-ed9c56942fd0-1.jpg"
+        }
+      ],
+      "issue_id": "103c93e0-6e9a-44f6-a6bc-377af8e08e38",
+      "language": "kor",
+      "language_tag": "ko",
+      "metadata": "content/kor/articles/6c25be17-3343-451b-afeb-ed9c56942fd0.json",
+      "metadata_sha256": "77ab5118511368943409cac52ca521e66f4829151da044c0ad1f69ae16fcac92",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": null,
+      "source_revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
+      "source_translation_key": "06e2bba937ce86ced2a2682fcfc332bcc329e09bbb284783b9affc01916db9ff",
+      "status": "ready",
+      "subtitle": null,
+      "title": "씨름하는 야곱",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/kor/articles/6c4d3026-69b5-42c2-92aa-02d8ea8d73cf.html",
       "html_sha256": "bd42f7ce383b46e580a7f601f007214e788524df73da33028541cb217ecc54f1",
       "human_reviewed": false,
