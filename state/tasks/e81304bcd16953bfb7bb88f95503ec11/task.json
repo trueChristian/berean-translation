@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "607ea71a89754a19a65d130921861f6e",
   "campaign": "auto-9a60e230fef67f0c66fa6ff1ffc9c492a6a9b8c24b9e28545b87743d382a6317",
   "created_at": "2026-11-08T07:25:50+00:00",
   "events": [
@@ -48,18 +47,31 @@
         },
         "total_tokens": 13897
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 76,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 44,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9232,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 0,
+          "cached_tokens": 9229
+        },
+        "total_tokens": 9308
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "translation.html, stycket som börjar ”Bibeln säger att”, citatet från Galaterbrevet 5:22–23",
-      "severity": "major",
-      "source_quote": "the fruit of the Spirit is love, joy, peace, longsuffering, gentleness, goodness, faith, meekness, temperance",
-      "suggested_fix": "Ändra ”godhet, trohet, ödmjukhet” till ”godhet, tro, ödmjukhet” så att citatet återger den tryckta engelska textens ”faith”.",
-      "translation_quote": "Andens frukt är kärlek, glädje, frid, tålamod, vänlighet, godhet, trohet, ödmjukhet och självbehärskning"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-11-08T17:01:54+00:00",
   "id": "e81304bcd16953bfb7bb88f95503ec11",
   "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
   "language": "swe",
@@ -148,7 +160,7 @@
     }
   },
   "protected": false,
-  "quality_score": 94,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6.1-sol",
@@ -167,7 +179,7 @@
     "total_reserved_usd": 0.765545,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "8dba71a9e8e7624f097828fdb277dce5e5ab51f70a2be94a8e381e89648a56eb",
   "translation_model_actual": "gpt-6.1-sol"

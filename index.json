@@ -94984,6 +94984,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/swe/articles/3a454052-a824-4d0c-888d-a6b04c8cf917.html",
+      "html_sha256": "64b5ae02b3ab1dfabdeb249e836c680560745e6bded4b17ef04da26e6a5c6817",
+      "human_reviewed": false,
+      "id": "3a454052-a824-4d0c-888d-a6b04c8cf917",
+      "images": [
+        {
+          "alt": "Röda äpplen som hänger i ett lummigt äppelträd",
+          "public_path": "/images/articles/3a454052-a824-4d0c-888d-a6b04c8cf917-1.jpg"
+        },
+        {
+          "alt": "Ett ensamt rött äpple på en ljusgrå yta",
+          "public_path": "/images/articles/3a454052-a824-4d0c-888d-a6b04c8cf917-2.jpg"
+        }
+      ],
+      "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
+      "language": "swe",
+      "language_tag": "sv",
+      "metadata": "content/swe/articles/3a454052-a824-4d0c-888d-a6b04c8cf917.json",
+      "metadata_sha256": "915a4a2c47c5f838b04fccf9f39c7432ef0ba05ff3a063dbb6eadc9feb3404e7",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "EN MISSIONÄRS FUNDERINGAR",
+      "source_revision": "a069ecca8827634ebc256b3b1cabc16aeb942ed7",
+      "source_translation_key": "8dba71a9e8e7624f097828fdb277dce5e5ab51f70a2be94a8e381e89648a56eb",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Av deras frukt",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/swe/articles/3b3b3e75-afd9-49a6-ac06-d99a29802261.html",
       "html_sha256": "6b95afcdb6f5d3b7fbaeff94306569d2c29b6f70afd22751d8fa75e892e8978d",
       "human_reviewed": false,
