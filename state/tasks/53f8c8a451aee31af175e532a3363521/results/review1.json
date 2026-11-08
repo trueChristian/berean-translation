@@ -1,0 +1,52 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "1607c77b-d785-450d-a266-dd6e49c0b148",
+    "response_id": "chatcmpl-Ei6zofeero6qYvCy33hvMNPpAtKdd",
+    "usage": {
+      "completion_tokens": 575,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 145,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4738,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4735,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5313
+    }
+  },
+  "received_at": "2026-11-08T23:58:35+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "html, פסקה 6, הציטוט מרומים א׳:18–20",
+        "severity": "major",
+        "source_quote": "against all the godlessness and wickedness of people",
+        "suggested_fix": "החליפו את „נגד כל רשעותם ועוולתם של בני אדם” ב„נגד כל חוסר יראת האל והרשעות של בני האדם”.",
+        "translation_quote": "נגד כל רשעותם ועוולתם של בני אדם"
+      },
+      {
+        "location": "html, פסקה 7, תיאור שכבות הסלע",
+        "severity": "major",
+        "source_quote": "in rock layers that were laid down by water",
+        "suggested_fix": "החליפו את „בשכבות סלע שנוצרו משקיעת מים” ב„בשכבות סלע שהורבדו בידי מים”. המים הם הגורם המשקיע, ולא החומר ששקע.",
+        "translation_quote": "בשכבות סלע שנוצרו משקיעת מים"
+      },
+      {
+        "location": "html, פסקאות 3, 6 ו־7",
+        "severity": "minor",
+        "source_quote": "Hebrews 11:1 affirms; God’s invisible qualities ... have been clearly seen; Birds’ beaks",
+        "suggested_fix": "תקנו ל„באל העברים י״א:1 נאמר”, „נראות בבירור תכונותיו” ו„מקוריהן של ציפורים”, בהתאמה.",
+        "translation_quote": "אל העברים י״א:1 נאמר; נראים בבירור תכונותיו; מקוריהם של ציפורים"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 93
+  }
+}

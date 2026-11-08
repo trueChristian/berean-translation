@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-08T23:58:35+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"html, פסקה 6, הציטוט מרומים א׳:18–20\",\n      \"severity\": \"major\",\n      \"source_quote\": \"against all the godlessness and wickedness of people\",\n      \"suggested_fix\": \"החליפו את „נגד כל רשעותם ועוולתם של בני אדם” ב„נגד כל חוסר יראת האל והרשעות של בני האדם”.\",\n      \"translation_quote\": \"נגד כל רשעותם ועוולתם של בני אדם\"\n    },\n    {\n      \"location\": \"html, פסקה 7, תיאור שכבות הסלע\",\n      \"severity\": \"major\",\n      \"source_quote\": \"in rock layers that were laid down by water\",\n      \"suggested_fix\": \"החליפו את „בשכבות סלע שנוצרו משקיעת מים” ב„בשכבות סלע שהורבדו בידי מים”. המים הם הגורם המשקיע, ולא החומר ששקע.\",\n      \"translation_quote\": \"בשכבות סלע שנוצרו משקיעת מים\"\n    },\n    {\n      \"location\": \"html, פסקאות 3, 6 ו־7\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"Hebrews 11:1 affirms; God’s invisible qualities ... have been clearly seen; Birds’ beaks\",\n      \"suggested_fix\": \"תקנו ל„באל העברים י״א:1 נאמר”, „נראות בבירור תכונותיו” ו„מקוריהן של ציפורים”, בהתאמה.\",\n      \"translation_quote\": \"אל העברים י״א:1 נאמר; נראים בבירור תכונותיו; מקוריהם של ציפורים\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": false,\n  \"score\": 93\n}",
+    "content_bytes": 1590,
+    "content_evidence_truncated": false,
+    "content_sha256": "52d378dc61e78511b03a69ab52f710dede98224ab2be06287dce5e90477db596",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 575,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 145,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4738,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4735,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5313
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}
