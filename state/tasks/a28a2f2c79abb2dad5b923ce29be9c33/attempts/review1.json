@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-08T16:16:17+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"translation.html，第1段\",\n      \"severity\": \"major\",\n      \"source_quote\": \"her three youth-aged children\",\n      \"suggested_fix\": \"将“三位尚在幼年的子女”改为“三位尚在青少年时期的子女”；后文“you are still in your youth”对应的“你们仍在幼年”也改为“你们仍在青少年时期”。\",\n      \"translation_quote\": \"三位尚在幼年的子女；你们仍在幼年\"\n    },\n    {\n      \"location\": \"translation.html，“不要对穷人……”段，箴言21:13引文\",\n      \"severity\": \"major\",\n      \"source_quote\": \"Whoso stoppeth his ears at the cry of the poor, he also shall cry himself, but shall not be heard\",\n      \"suggested_fix\": \"将“祂自己呼求的时候”改为“他自己呼求的时候”，使代词明确指向不听穷人哀求的人，而不是神。\",\n      \"translation_quote\": \"人若塞耳不听穷人的哀求，祂自己呼求的时候也必不得蒙应。\"\n    },\n    {\n      \"location\": \"translation.html，“也不要让污秽的话……”段末\",\n      \"severity\": \"major\",\n      \"source_quote\": \"For Christ who is the greatest made Himself the least for an example unto us.\",\n      \"suggested_fix\": \"改为“因为基督本为至大，却使自己成为至小，为要给我们作榜样。”保留随后的经文参照。\",\n      \"translation_quote\": \"基督为要给我们作榜样，乃将自己显为至小。\"\n    },\n    {\n      \"location\": \"translation.html，“避免奢侈生活”段\",\n      \"severity\": \"major\",\n      \"source_quote\": \"He that desires costly feasts will not become rich.\",\n      \"suggested_fix\": \"将“贪求宴乐的人不必然富足”改为“贪求奢华宴席的人不会富足”。\",\n      \"translation_quote\": \"贪求宴乐的人不必然富足。\"\n    },\n    {\n      \"location\": \"translation.html，“到了有辨识能力的年纪……”段\",\n      \"severity\": \"major\",\n      \"source_quote\": \"Love God above all that is in the world\",\n      \"suggested_fix\": \"将“以爱重于世上一切”改为“要爱神胜过世上的一切”。\",\n      \"translation_quote\": \"以爱重于世上一切\"\n    },\n    {\n      \"location\": \"translation.html，箴言17:1引文\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"than an house full of sacrifices with strife\",\n      \"suggested_fix\": \"将“强如好家中满了祭物并在其间有纷争”改为“强如家中满了祭物却充满纷争”。\",\n      \"translation_quote\": \"强如好家中满了祭物并在其间有纷争\"\n    },\n    {\n      \"location\": \"translation.html，但以理及其同伴一段\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"they were fairer and fatter than those who ate of the king’s dainties\",\n      \"suggested_fix\": \"将“他们比吃王桌美味之人更显容旺盛”改为“他们比吃王桌美味的人容貌更俊美、身体更丰健”。\",\n      \"translation_quote\": \"他们比吃王桌美味之人更显容旺盛\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": false,\n  \"score\": 89\n}",
+    "content_bytes": 3073,
+    "content_evidence_truncated": false,
+    "content_sha256": "a50776f35d28da02c9e89c3883dfaf7d79ad3772a74831b46e4bf2b808778c00",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 909,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 61,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9032,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7929,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 9941
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}
