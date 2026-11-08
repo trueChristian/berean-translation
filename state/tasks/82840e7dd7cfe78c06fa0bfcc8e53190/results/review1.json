@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "3f95ca37-4a5c-40e1-8c53-1b5fbba2e81f",
+    "response_id": "chatcmpl-Ei3VdDZFoYPYNjHewmuiKeeulYNCS",
+    "usage": {
+      "completion_tokens": 370,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 53,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5004,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5001,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5374
+    }
+  },
+  "received_at": "2026-11-08T20:24:52+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "translation.html، آخری پیراگراف، پہلا جملہ",
+        "severity": "major",
+        "source_quote": "Thomas repented of his disbelief",
+        "suggested_fix": "”توما نے اپنے بے ایمانی سے توبہ کی“ کی جگہ ”توما نے اپنی بے اعتقادی سے توبہ کی“ لکھیں۔",
+        "translation_quote": "توما نے اپنے بے ایمانی سے توبہ کی"
+      },
+      {
+        "location": "translation.html، آٹھواں پیراگراف، یوحنا 20:29 کا اقتباس",
+        "severity": "minor",
+        "source_quote": "Have you believed because you have seen me? Blessed are those who have not seen and yet have believed",
+        "suggested_fix": "اقتباس کی فعلی مطابقت درست کریں: ”…کیا تم اس لیے ایمان لائے ہو کہ تم نے مجھے دیکھا ہے؟ مبارک ہیں وہ جو دیکھے بغیر ایمان لائے“۔ موجودہ em ٹیگ اور حوالہ برقرار رکھیں۔",
+        "translation_quote": "…کیا تم نے اس لیے ایمان لایا کہ تم نے مجھے دیکھا ہے؟ مبارک ہیں وہ جنہوں نے دیکھے بغیر ایمان لایا"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 94
+  }
+}

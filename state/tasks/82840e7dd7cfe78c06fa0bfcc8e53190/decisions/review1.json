@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "translation.html، آخری پیراگراف، پہلا جملہ",
+      "severity": "major",
+      "source_quote": "Thomas repented of his disbelief",
+      "suggested_fix": "”توما نے اپنے بے ایمانی سے توبہ کی“ کی جگہ ”توما نے اپنی بے اعتقادی سے توبہ کی“ لکھیں۔",
+      "translation_quote": "توما نے اپنے بے ایمانی سے توبہ کی"
+    },
+    {
+      "location": "translation.html، آٹھواں پیراگراف، یوحنا 20:29 کا اقتباس",
+      "severity": "minor",
+      "source_quote": "Have you believed because you have seen me? Blessed are those who have not seen and yet have believed",
+      "suggested_fix": "اقتباس کی فعلی مطابقت درست کریں: ”…کیا تم اس لیے ایمان لائے ہو کہ تم نے مجھے دیکھا ہے؟ مبارک ہیں وہ جو دیکھے بغیر ایمان لائے“۔ موجودہ em ٹیگ اور حوالہ برقرار رکھیں۔",
+      "translation_quote": "…کیا تم نے اس لیے ایمان لایا کہ تم نے مجھے دیکھا ہے؟ مبارک ہیں وہ جنہوں نے دیکھے بغیر ایمان لایا"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

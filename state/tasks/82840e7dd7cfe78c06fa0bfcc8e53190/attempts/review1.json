@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-08T20:24:52+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"translation.html، آخری پیراگراف، پہلا جملہ\",\n      \"severity\": \"major\",\n      \"source_quote\": \"Thomas repented of his disbelief\",\n      \"suggested_fix\": \"”توما نے اپنے بے ایمانی سے توبہ کی“ کی جگہ ”توما نے اپنی بے اعتقادی سے توبہ کی“ لکھیں۔\",\n      \"translation_quote\": \"توما نے اپنے بے ایمانی سے توبہ کی\"\n    },\n    {\n      \"location\": \"translation.html، آٹھواں پیراگراف، یوحنا 20:29 کا اقتباس\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"Have you believed because you have seen me? Blessed are those who have not seen and yet have believed\",\n      \"suggested_fix\": \"اقتباس کی فعلی مطابقت درست کریں: ”…کیا تم اس لیے ایمان لائے ہو کہ تم نے مجھے دیکھا ہے؟ مبارک ہیں وہ جو دیکھے بغیر ایمان لائے“۔ موجودہ em ٹیگ اور حوالہ برقرار رکھیں۔\",\n      \"translation_quote\": \"…کیا تم نے اس لیے ایمان لایا کہ تم نے مجھے دیکھا ہے؟ مبارک ہیں وہ جنہوں نے دیکھے بغیر ایمان لایا\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": false,\n  \"score\": 94\n}",
+    "content_bytes": 1341,
+    "content_evidence_truncated": false,
+    "content_sha256": "511228541547587b1624f6e20efb898f1f30630994484aaa46701be094f7f387",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 370,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 53,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5004,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5001,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5374
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}
