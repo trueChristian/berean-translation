@@ -2005,6 +2005,9 @@
     "version": 1
   },
   "status": "active",
+  "task_counts": {
+    "queued": 1
+  },
   "tasks": [
     "777458e58cd29b660218f0486a7b3304"
   ]
