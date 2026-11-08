@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "84592baf-b73e-43c8-aa0a-4392b6c5aae5",
+    "response_id": "chatcmpl-EhotsXFC3PBo04LFp1XZQy4efV18a",
+    "usage": {
+      "completion_tokens": 1182,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1000,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4058,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2955,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 5240
+    }
+  },
+  "received_at": "2026-11-08T07:18:36+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, poem stanza 7, line 2",
+        "severity": "minor",
+        "source_quote": "But confident in self-despair;",
+        "suggested_fix": "μα με σιγουριά, έχοντας απελπιστεί για τον εαυτό μου;",
+        "translation_quote": "μα έχω εμπιστοσύνη μέσα στην απόγνωση·"
+      },
+      {
+        "location": "HTML, poem stanza 7, line 4",
+        "severity": "minor",
+        "source_quote": "Be conquered by my instant prayer:",
+        "suggested_fix": "Νικήσου από την κατεπείγουσα προσευχή μου:",
+        "translation_quote": "νικήσου από την επίμονη προσευχή μου:"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 97
+  }
+}

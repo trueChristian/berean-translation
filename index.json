@@ -27229,6 +27229,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ell/articles/6c25be17-3343-451b-afeb-ed9c56942fd0.html",
+      "html_sha256": "8d9671494a93231d561d28233f71e17a612b51355fbc007b933424c53015d6f5",
+      "human_reviewed": false,
+      "id": "6c25be17-3343-451b-afeb-ed9c56942fd0",
+      "images": [
+        {
+          "alt": "Μια παλιά ξύλινη πόρτα δίπλα σε έναν φθαρμένο τοίχο και ανθισμένα κλαδιά.",
+          "public_path": "/images/articles/6c25be17-3343-451b-afeb-ed9c56942fd0-1.jpg"
+        }
+      ],
+      "issue_id": "103c93e0-6e9a-44f6-a6bc-377af8e08e38",
+      "language": "ell",
+      "language_tag": "el",
+      "metadata": "content/ell/articles/6c25be17-3343-451b-afeb-ed9c56942fd0.json",
+      "metadata_sha256": "9d60488609408f1d79536ea768009635e634a734b9244e95325083fa1e6561d8",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
+      "source_translation_key": "06e2bba937ce86ced2a2682fcfc332bcc329e09bbb284783b9affc01916db9ff",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Ο Ιακώβ που πάλευε",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ell/articles/6c4d3026-69b5-42c2-92aa-02d8ea8d73cf.html",
       "html_sha256": "7d45ba61830b1418eb823837e339277af159ded35e07ab98622f8ff1e2ce4ba0",
       "human_reviewed": false,

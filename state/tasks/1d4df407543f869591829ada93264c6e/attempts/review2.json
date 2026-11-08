@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-08T07:18:36+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, poem stanza 7, line 2\",\"severity\":\"minor\",\"source_quote\":\"But confident in self-despair;\",\"suggested_fix\":\"μα με σιγουριά, έχοντας απελπιστεί για τον εαυτό μου;\",\"translation_quote\":\"μα έχω εμπιστοσύνη μέσα στην απόγνωση·\"},{\"location\":\"HTML, poem stanza 7, line 4\",\"severity\":\"minor\",\"source_quote\":\"Be conquered by my instant prayer:\",\"suggested_fix\":\"Νικήσου από την κατεπείγουσα προσευχή μου:\",\"translation_quote\":\"νικήσου από την επίμονη προσευχή μου:\"}],\"findings_complete\":true,\"passed\":true,\"score\":97}",
+    "content_bytes": 685,
+    "content_evidence_truncated": false,
+    "content_sha256": "e9322e44484a6b6de88f3de8c3f96e802a11c46fac9b0a5e7c9feaf2008e918a",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1182,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1000,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4058,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2955,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 5240
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review2",
+  "translation_attempts": 2
+}
