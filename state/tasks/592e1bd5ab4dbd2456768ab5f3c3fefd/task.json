@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "c0d3956a53c64ccea90252bfa6fb4bce",
   "campaign": "auto-91eb8810c3c73670cb802383036e0240b6584128fe21b50481acdfc015ad5a95",
   "created_at": "2026-11-07T20:21:14+00:00",
   "events": [
@@ -68,25 +67,31 @@
         },
         "total_tokens": 4689
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 669,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 631,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3595,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 2492,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 4264
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "Stanza 5, line 6",
-      "severity": "major",
-      "source_quote": "I shall with the God-man prevail.",
-      "suggested_fix": "skal jeg vinne fram hos Gud-mennesket.",
-      "translation_quote": "skal jeg seire over Gud-mennesket."
-    },
-    {
-      "location": "Stanza 10, line 4",
-      "severity": "major",
-      "source_quote": "But stay and love me to the end,",
-      "suggested_fix": "men blir og elsker meg helt til enden,",
-      "translation_quote": "men blir og elsker meg til slutt,"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-11-08T07:18:59+00:00",
   "id": "592e1bd5ab4dbd2456768ab5f3c3fefd",
   "issue_id": "103c93e0-6e9a-44f6-a6bc-377af8e08e38",
   "language": "nob",
@@ -175,7 +180,7 @@
     }
   },
   "protected": false,
-  "quality_score": 91,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
@@ -195,7 +200,7 @@
     "total_reserved_usd": 0.086775,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "06e2bba937ce86ced2a2682fcfc332bcc329e09bbb284783b9affc01916db9ff",
   "translation_model_actual": "gpt-6-luna"
