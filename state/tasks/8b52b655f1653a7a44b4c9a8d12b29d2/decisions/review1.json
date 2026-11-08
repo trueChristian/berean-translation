@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragrafo 5",
+      "severity": "major",
+      "source_quote": "The executioner stripped his bound hands over his knees, placed a stick between his knees and arms",
+      "suggested_fix": "Sostituire «gli sfilò le mani legate sopra le ginocchia» con «gli mise le mani legate sopra le ginocchia», mantenendo poi la frase sul bastone.",
+      "translation_quote": "Il boia gli sfilò le mani legate sopra le ginocchia, gli mise un bastone tra le ginocchia e le braccia"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
