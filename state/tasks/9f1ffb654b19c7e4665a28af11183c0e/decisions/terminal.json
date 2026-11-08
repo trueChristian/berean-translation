@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "본문 4문단",
+      "severity": "minor",
+      "source_quote": "But within ten days, he was arrested and put in prison.",
+      "suggested_fix": "그러나 열흘 안에 그는 체포되어 감옥에 갇혔습니다.",
+      "translation_quote": "그러나 열흘도 지나지 않아 그는 체포되어 감옥에 갇혔습니다."
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "cb2e5b5b-28ce-4740-924d-9f851a20ed80",
+    "response_id": "chatcmpl-Ei47p4QNpvwP4gEb3xemYBUCFC7xs",
+    "usage": {
+      "completion_tokens": 853,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 735,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5699,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4596,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 6552
+    }
+  },
+  "received_at": "2026-11-08T23:46:05+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "본문 4문단",
+        "severity": "minor",
+        "source_quote": "But within ten days, he was arrested and put in prison.",
+        "suggested_fix": "그러나 열흘 안에 그는 체포되어 감옥에 갇혔습니다.",
+        "translation_quote": "그러나 열흘도 지나지 않아 그는 체포되어 감옥에 갇혔습니다."
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 99
+  }
+}

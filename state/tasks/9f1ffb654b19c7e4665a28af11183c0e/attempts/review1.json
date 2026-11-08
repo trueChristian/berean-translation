@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-08T23:46:05+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"본문 4문단\",\"severity\":\"minor\",\"source_quote\":\"But within ten days, he was arrested and put in prison.\",\"suggested_fix\":\"그러나 열흘 안에 그는 체포되어 감옥에 갇혔습니다.\",\"translation_quote\":\"그러나 열흘도 지나지 않아 그는 체포되어 감옥에 갇혔습니다.\"}],\"findings_complete\":true,\"passed\":true,\"score\":99}",
+    "content_bytes": 381,
+    "content_evidence_truncated": false,
+    "content_sha256": "de1db034ad85e0466a4b11f663f3ced8bf6bd55487f02d23960924357a201fbb",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 853,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 735,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5699,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4596,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 6552
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}
