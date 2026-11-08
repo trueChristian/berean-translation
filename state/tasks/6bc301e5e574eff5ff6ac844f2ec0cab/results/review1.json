@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "ec355bf5-46b2-446d-8859-6406d177d15a",
+    "response_id": "chatcmpl-EhzNn7XOXgZ38tbhpw9D8SRIYklUW",
+    "usage": {
+      "completion_tokens": 356,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 86,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9090,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7987,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 9446
+    }
+  },
+  "received_at": "2026-11-08T15:52:49+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "html: Absatz mit Galater 5:22-23",
+        "severity": "major",
+        "source_quote": "love, joy, peace, longsuffering, gentleness, goodness, faith, meekness, temperance",
+        "suggested_fix": "Ersetze „Treue“ durch „Glaube“, um die hier gedruckte englische Aufzählung wiederzugeben.",
+        "translation_quote": "Liebe, Freude, Friede, Langmut, Freundlichkeit, Güte, Treue, Sanftmut, Selbstbeherrschung"
+      },
+      {
+        "location": "html: Absatz vor Matthäus 7:16-20",
+        "severity": "minor",
+        "source_quote": "For Christians we are expected to judge by what they claim.",
+        "suggested_fix": "Bei Christen wird von uns erwartet, dass wir sie danach beurteilen, was sie von sich behaupten.",
+        "translation_quote": "Von Christen erwarten wir, dass wir sie danach beurteilen, was sie von sich behaupten."
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 94
+  }
+}

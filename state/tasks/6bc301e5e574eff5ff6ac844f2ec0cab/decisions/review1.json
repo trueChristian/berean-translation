@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "html: Absatz mit Galater 5:22-23",
+      "severity": "major",
+      "source_quote": "love, joy, peace, longsuffering, gentleness, goodness, faith, meekness, temperance",
+      "suggested_fix": "Ersetze „Treue“ durch „Glaube“, um die hier gedruckte englische Aufzählung wiederzugeben.",
+      "translation_quote": "Liebe, Freude, Friede, Langmut, Freundlichkeit, Güte, Treue, Sanftmut, Selbstbeherrschung"
+    },
+    {
+      "location": "html: Absatz vor Matthäus 7:16-20",
+      "severity": "minor",
+      "source_quote": "For Christians we are expected to judge by what they claim.",
+      "suggested_fix": "Bei Christen wird von uns erwartet, dass wir sie danach beurteilen, was sie von sich behaupten.",
+      "translation_quote": "Von Christen erwarten wir, dass wir sie danach beurteilen, was sie von sich behaupten."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
