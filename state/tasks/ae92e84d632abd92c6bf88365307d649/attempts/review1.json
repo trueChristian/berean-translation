@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-08T07:47:12+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"html: avsnittet om nye kristne, sitatet fra 1. Peter 2:2\",\n      \"severity\": \"major\",\n      \"source_quote\": \"desire the sincere milk of the word, that ye may grow thereby\",\n      \"suggested_fix\": \"Endre sitatteksten til «lengte etter Ordets rene melk, så dere kan vokse ved den.» Behold em-taggen og skriftstedshenvisningen.\",\n      \"translation_quote\": \"lengte etter den rene, åndelige melk, så dere kan vokse ved den.\"\n    },\n    {\n      \"location\": \"html: siste avsnitt, siste setning\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"There is a very rewarding feeling, a feeling of peace that passes all understanding.\",\n      \"suggested_fix\": \"Erstatt siste setning med «Det gir en dyp følelse av tilfredsstillelse, en følelse av fred som overgår all forstand.»\",\n      \"translation_quote\": \"Det gir en svært stor belønning, en fred som overgår all forstand.\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": false,\n  \"score\": 94\n}",
+    "content_bytes": 997,
+    "content_evidence_truncated": false,
+    "content_sha256": "09708add62e04de20c989b4c884b990e2ce6f28068f407dd55eeec52610ac446",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 383,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 95,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9224,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8121,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 9607
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}

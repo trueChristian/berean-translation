@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "479dc107-0ff0-4ec7-8981-aa4722c9c299",
+    "response_id": "chatcmpl-Ehroep4cEW86CGClLUs3tjYv9W9AY",
+    "usage": {
+      "completion_tokens": 383,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 95,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9224,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8121,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 9607
+    }
+  },
+  "received_at": "2026-11-08T07:47:12+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "html: avsnittet om nye kristne, sitatet fra 1. Peter 2:2",
+        "severity": "major",
+        "source_quote": "desire the sincere milk of the word, that ye may grow thereby",
+        "suggested_fix": "Endre sitatteksten til «lengte etter Ordets rene melk, så dere kan vokse ved den.» Behold em-taggen og skriftstedshenvisningen.",
+        "translation_quote": "lengte etter den rene, åndelige melk, så dere kan vokse ved den."
+      },
+      {
+        "location": "html: siste avsnitt, siste setning",
+        "severity": "minor",
+        "source_quote": "There is a very rewarding feeling, a feeling of peace that passes all understanding.",
+        "suggested_fix": "Erstatt siste setning med «Det gir en dyp følelse av tilfredsstillelse, en følelse av fred som overgår all forstand.»",
+        "translation_quote": "Det gir en svært stor belønning, en fred som overgår all forstand."
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 94
+  }
+}

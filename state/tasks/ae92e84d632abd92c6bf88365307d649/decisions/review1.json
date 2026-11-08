@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "html: avsnittet om nye kristne, sitatet fra 1. Peter 2:2",
+      "severity": "major",
+      "source_quote": "desire the sincere milk of the word, that ye may grow thereby",
+      "suggested_fix": "Endre sitatteksten til «lengte etter Ordets rene melk, så dere kan vokse ved den.» Behold em-taggen og skriftstedshenvisningen.",
+      "translation_quote": "lengte etter den rene, åndelige melk, så dere kan vokse ved den."
+    },
+    {
+      "location": "html: siste avsnitt, siste setning",
+      "severity": "minor",
+      "source_quote": "There is a very rewarding feeling, a feeling of peace that passes all understanding.",
+      "suggested_fix": "Erstatt siste setning med «Det gir en dyp følelse av tilfredsstillelse, en følelse av fred som overgår all forstand.»",
+      "translation_quote": "Det gir en svært stor belønning, en fred som overgår all forstand."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

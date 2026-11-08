@@ -5,11 +5,47 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "4422ce44b43a448987864cbdf2d1ac7a",
   "campaign": "auto-185ec9c1f0bb91c9591004ba4c9c5844ccfa0714b66042f2ea2fa7dcbda5bac3",
   "created_at": "2026-11-08T07:24:31+00:00",
-  "events": [],
-  "findings": [],
+  "events": [
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 383,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 95,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9224,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8121,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 9607
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "html: avsnittet om nye kristne, sitatet fra 1. Peter 2:2",
+      "severity": "major",
+      "source_quote": "desire the sincere milk of the word, that ye may grow thereby",
+      "suggested_fix": "Endre sitatteksten til «lengte etter Ordets rene melk, så dere kan vokse ved den.» Behold em-taggen og skriftstedshenvisningen.",
+      "translation_quote": "lengte etter den rene, åndelige melk, så dere kan vokse ved den."
+    },
+    {
+      "location": "html: siste avsnitt, siste setning",
+      "severity": "minor",
+      "source_quote": "There is a very rewarding feeling, a feeling of peace that passes all understanding.",
+      "suggested_fix": "Erstatt siste setning med «Det gir en dyp følelse av tilfredsstillelse, en følelse av fred som overgår all forstand.»",
+      "translation_quote": "Det gir en svært stor belønning, en fred som overgår all forstand."
+    }
+  ],
   "id": "ae92e84d632abd92c6bf88365307d649",
   "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
   "language": "nob",
@@ -98,11 +134,13 @@
     }
   },
   "protected": false,
+  "quality_score": 94,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/ed8e4f3374a7115ead0333cfae7dddfc70b3ec5fcf32f1a2a6c962f76387b296.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "review1",
     "max_candidate_bytes": 120000,
@@ -115,7 +153,7 @@
     "total_reserved_usd": 0.76434,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 0,
   "translation_key": "8dba71a9e8e7624f097828fdb277dce5e5ab51f70a2be94a8e381e89648a56eb",
   "translation_model_actual": "gpt-6-luna"
