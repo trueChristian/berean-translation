@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-08T19:39:22+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph 3\",\"severity\":\"minor\",\"source_quote\":\"an impulsive man named George Blaurock sprang to his feet\",\"suggested_fix\":\"בעודם כורעים על ברכיהם וזועקים אל אלוהים שינחה אותם, קם בפתאומיות אדם פזיז בשם גאורג בלאורוק.\",\"translation_quote\":\"קם בפתאומיות אדם נמרץ בשם גאורג בלאורוק\"}],\"findings_complete\":true,\"passed\":true,\"score\":99}",
+    "content_bytes": 468,
+    "content_evidence_truncated": false,
+    "content_sha256": "9af2564115ca1a116f9262f84e704c51d7ae4fb4d4c424d900c6408828bcdbcc",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 793,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 661,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5428,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5425,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6221
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}
