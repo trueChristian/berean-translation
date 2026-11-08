@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph beginning “وہاں سے جارج بلاؤروک آسٹریا گیا”",
+      "severity": "major",
+      "source_quote": "On September 6, he was burned at the stake along with a fellow minister.",
+      "suggested_fix": "6 ستمبر کو اسے ایک ساتھی خادم کے ساتھ داؤ پر جلا دیا گیا۔",
+      "translation_quote": "6 ستمبر کو اسے ایک ساتھی خادم کے ساتھ سولی پر جلا دیا گیا۔"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

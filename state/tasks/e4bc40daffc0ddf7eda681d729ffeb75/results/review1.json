@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "9b227ce1-a11c-44fb-8877-5fd92898280e",
+    "response_id": "chatcmpl-EhwOyhPXRpn8mDeTaywOzwXI4DOqQ",
+    "usage": {
+      "completion_tokens": 822,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 690,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5834,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5831,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6656
+    }
+  },
+  "received_at": "2026-11-08T15:07:07+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph beginning “وہاں سے جارج بلاؤروک آسٹریا گیا”",
+        "severity": "major",
+        "source_quote": "On September 6, he was burned at the stake along with a fellow minister.",
+        "suggested_fix": "6 ستمبر کو اسے ایک ساتھی خادم کے ساتھ داؤ پر جلا دیا گیا۔",
+        "translation_quote": "6 ستمبر کو اسے ایک ساتھی خادم کے ساتھ سولی پر جلا دیا گیا۔"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 94
+  }
+}
