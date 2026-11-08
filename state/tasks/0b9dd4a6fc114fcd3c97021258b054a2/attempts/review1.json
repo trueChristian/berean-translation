@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-08T17:02:10+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"translation.html، الفقرة الرابعة، الجملة الأولى\",\"severity\":\"minor\",\"source_quote\":\"One aspect of Christ’s dependability is His word.\",\"suggested_fix\":\"استبدل «ومن جوانب اعتمادنا على المسيح كلمته» بـ«ومن جوانب جدارة المسيح بالثقة كلمته».\",\"translation_quote\":\"ومن جوانب اعتمادنا على المسيح كلمته.\"},{\"location\":\"translation.html، الفقرة الأخيرة، قائمة النظريات\",\"severity\":\"minor\",\"source_quote\":\"Descent with Modification\",\"suggested_fix\":\"استبدل «النسل مع التعديل» بـ«التحدّر مع التعديل» للدلالة على التحدّر التطوري لا النسل نفسه.\",\"translation_quote\":\"النسل مع التعديل\"}],\"findings_complete\":true,\"passed\":true,\"score\":97}",
+    "content_bytes": 901,
+    "content_evidence_truncated": false,
+    "content_sha256": "4d66f3f53ab6721035dedf15db8a7737199b8b5a6d1b36141b67218b000bcd63",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 295,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 106,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4607,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3504,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 4902
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}

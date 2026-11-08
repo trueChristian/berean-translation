@@ -5,11 +5,48 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "1bd431d9e65b43a5a2c4af986a755e75",
   "campaign": "auto-d40f809f469fb7854f0b46deafe9490d479d95262e91a04b2308979e58545872",
   "created_at": "2026-11-08T15:09:40+00:00",
-  "events": [],
-  "findings": [],
+  "events": [
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 295,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 106,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4607,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 3504,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 4902
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "translation.html، الفقرة الرابعة، الجملة الأولى",
+      "severity": "minor",
+      "source_quote": "One aspect of Christ’s dependability is His word.",
+      "suggested_fix": "استبدل «ومن جوانب اعتمادنا على المسيح كلمته» بـ«ومن جوانب جدارة المسيح بالثقة كلمته».",
+      "translation_quote": "ومن جوانب اعتمادنا على المسيح كلمته."
+    },
+    {
+      "location": "translation.html، الفقرة الأخيرة، قائمة النظريات",
+      "severity": "minor",
+      "source_quote": "Descent with Modification",
+      "suggested_fix": "استبدل «النسل مع التعديل» بـ«التحدّر مع التعديل» للدلالة على التحدّر التطوري لا النسل نفسه.",
+      "translation_quote": "النسل مع التعديل"
+    }
+  ],
+  "finished_at": "2026-11-08T17:02:10+00:00",
   "id": "0b9dd4a6fc114fcd3c97021258b054a2",
   "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
   "language": "ara",
@@ -98,9 +135,11 @@
     }
   },
   "protected": false,
+  "quality_score": 97,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/c5a53a68da3d3a0dcfdea44a6be1ec876cbdb82ebcff07b3ac3d5c1401f92201.json",
   "stage": "review1",
   "stage_budget": {
@@ -115,7 +154,7 @@
     "total_reserved_usd": 0.714681,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 0,
   "translation_key": "8e1431ea881b67c4ad4954313f7377e010f9f58557ffeba6077169e187cbed60",
   "translation_model_actual": "gpt-6-luna"

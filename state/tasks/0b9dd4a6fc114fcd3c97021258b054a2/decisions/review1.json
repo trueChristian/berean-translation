@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "translation.html، الفقرة الرابعة، الجملة الأولى",
+      "severity": "minor",
+      "source_quote": "One aspect of Christ’s dependability is His word.",
+      "suggested_fix": "استبدل «ومن جوانب اعتمادنا على المسيح كلمته» بـ«ومن جوانب جدارة المسيح بالثقة كلمته».",
+      "translation_quote": "ومن جوانب اعتمادنا على المسيح كلمته."
+    },
+    {
+      "location": "translation.html، الفقرة الأخيرة، قائمة النظريات",
+      "severity": "minor",
+      "source_quote": "Descent with Modification",
+      "suggested_fix": "استبدل «النسل مع التعديل» بـ«التحدّر مع التعديل» للدلالة على التحدّر التطوري لا النسل نفسه.",
+      "translation_quote": "النسل مع التعديل"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}
