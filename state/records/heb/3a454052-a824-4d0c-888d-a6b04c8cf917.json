@@ -12,9 +12,16 @@
       "event": "not_ready",
       "reason": "Scripture chapter/verse numbers or ranges changed at /article[1]/blockquote[1]/p[1]; missing: 1 John 5:3; extra: 5:3",
       "task": "14c60ac21c173af352ecc70847aba6f3"
+    },
+    {
+      "at": "2026-11-08T07:23:39+00:00",
+      "campaign": "auto-003814c4c359608902cbc08841a4a7ca572c3b2cd33b862651c956d824ea49ea",
+      "event": "automatic_requested",
+      "previous_task": "14c60ac21c173af352ecc70847aba6f3",
+      "task": "3e7390396aa4d2ddf1db81597761a5d1"
     }
   ],
   "language": "heb",
-  "latest_task": "14c60ac21c173af352ecc70847aba6f3",
+  "latest_task": "3e7390396aa4d2ddf1db81597761a5d1",
   "published": null
 }
