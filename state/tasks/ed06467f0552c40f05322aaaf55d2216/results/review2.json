@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "d3bb01e5-2b60-425e-aa04-beb8b34829cd",
+    "response_id": "chatcmpl-Ei1iXf8pgSjZie0mPfUngC8vcoSWJ",
+    "usage": {
+      "completion_tokens": 577,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 364,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4073,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2970,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 4650
+    }
+  },
+  "received_at": "2026-11-08T19:38:15+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "第二个条件，第二条项目（马可福音 10:21）",
+        "severity": "major",
+        "source_quote": "“Go thy way, sell whatsoever thou hast, and give to the poor, and thou shalt have treasure in heaven: and come, take up the cross, and follow me”",
+        "suggested_fix": "删除引文中源文没有的开头内容，改为：“去变卖你所有的，分给穷人，就必有财宝在天上；还要来，背起十字架跟从我。”",
+        "translation_quote": "“耶稣看着他，就爱他，对他说：‘你还缺少一件：去变卖你所有的，分给穷人，就必有财宝在天上；你还要来背起十字架跟从我。’”"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 91
+  }
+}

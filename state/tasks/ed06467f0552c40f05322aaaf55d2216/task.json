@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "10ab17ef32744d31ab2e8f94bb392d37",
   "campaign": "auto-77cf2f6243b94ebdf140294b45a9ad1ca8ef2bb92e55f6a928527f46153873f2",
   "created_at": "2026-11-08T07:34:21+00:00",
   "events": [
@@ -48,18 +47,40 @@
         },
         "total_tokens": 5781
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 577,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 364,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4073,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 2970,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 4650
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; a recovery continuation must pass admission",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "HTML/metadata contract",
-      "severity": "critical",
-      "source_quote": "",
-      "suggested_fix": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[31]: source /article[1]/p[8]/em[1] ('start', 'em', ()); translation /article[1]/p[8] ('end', 'p')",
-      "translation_quote": ""
+      "location": "第二个条件，第二条项目（马可福音 10:21）",
+      "severity": "major",
+      "source_quote": "“Go thy way, sell whatsoever thou hast, and give to the poor, and thou shalt have treasure in heaven: and come, take up the cross, and follow me”",
+      "suggested_fix": "删除引文中源文没有的开头内容，改为：“去变卖你所有的，分给穷人，就必有财宝在天上；还要来，背起十字架跟从我。”",
+      "translation_quote": "“耶稣看着他，就爱他，对他说：‘你还缺少一件：去变卖你所有的，分给穷人，就必有财宝在天上；你还要来背起十字架跟从我。’”"
     }
   ],
+  "finished_at": "2026-11-08T19:38:15+00:00",
   "id": "ed06467f0552c40f05322aaaf55d2216",
   "issue_id": "103c93e0-6e9a-44f6-a6bc-377af8e08e38",
   "language": "cmn",
@@ -148,9 +169,11 @@
     }
   },
   "protected": false,
+  "quality_score": 91,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/d7b2f9204f8c880ac06ecdb66b7ea1f500cf845e46a60bfd52f2c4a154c0e5c9.json",
   "stage": "review2",
   "stage_budget": {
@@ -166,7 +189,7 @@
     "total_reserved_usd": 0.087269,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "0bd5a7158c3c967ae2d717d605a8900c05380dfe6cec6d3e4b4f139ce0827dab",
   "translation_model_actual": "gpt-6-luna"
