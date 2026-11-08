@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-08T07:20:20+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph beginning “Denna nya födelse är inte en långsam förändring.”\",\"severity\":\"major\",\"source_quote\":\"“The new birth is not a slow change. It takes years, decades, or even generations. It’s a transformation”\",\"suggested_fix\":\"Restore the omitted sentence after the first one, for example: “Den nya födelsen tar år, årtionden eller till och med generationer. Det är en förvandling …”\",\"translation_quote\":\"“Denna nya födelse är inte en långsam förändring. Det är en förvandling”\"}],\"findings_complete\":true,\"passed\":false,\"score\":93}",
+    "content_bytes": 600,
+    "content_evidence_truncated": false,
+    "content_sha256": "f5a92adf045ea8e85db38f3a557d73d4483ab0f4e3e8449579fc8ebd32f237db",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 613,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 457,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7492,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6389,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 8105
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}
