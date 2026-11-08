@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "b86310ed8a1340bdb90a1d72407b48d6",
   "campaign": "auto-cf4a195352d58f79a6bb901a406e4c7d04ac35bb2552ea4fdad4a5b8b2f94f04",
   "created_at": "2026-11-07T21:11:28+00:00",
   "events": [
@@ -48,18 +47,31 @@
         },
         "total_tokens": 8436
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 84,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 52,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5749,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 4646,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 5833
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "html: stycket före punktlistan ”… har vi HOPP!”, citatet ur 1 Korinthierbrevet 15:19",
-      "severity": "major",
-      "source_quote": "If in this life only we have hope in Christ, we are of all men most miserable",
-      "suggested_fix": "Ändra citatets inledning till: ”Om vårt hopp i Kristus gäller endast detta livet, då är vi de mest beklagansvärda av alla människor”. Behåll em-taggen och bibelhänvisningen.",
-      "translation_quote": "Om vi i detta livet endast har ett hopp i Kristus, då är vi de mest beklagansvärda av alla människor"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-11-08T02:46:07+00:00",
   "id": "be10458c25b62b743f71ce5f7fa9e503",
   "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
   "language": "swe",
@@ -148,7 +160,7 @@
     }
   },
   "protected": false,
-  "quality_score": 94,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6.1-sol",
@@ -167,7 +179,7 @@
     "total_reserved_usd": 0.72237,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "e52f483f09dabafafef934afe52248c9117008e635c4f1ce75160e79a8b53b14",
   "translation_model_actual": "gpt-6.1-sol"

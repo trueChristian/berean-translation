@@ -95648,6 +95648,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/swe/articles/7a4d646a-0c04-4b44-a54f-ef63df487f81.html",
+      "html_sha256": "50a2ff9fe957ec71ed879cd9f6b41e786348ee902fad3eb8cbd366333cab6f3f",
+      "human_reviewed": false,
+      "id": "7a4d646a-0c04-4b44-a54f-ef63df487f81",
+      "images": [
+        {
+          "alt": "Jorden om natten sedd från omloppsbana, med upplysta städer",
+          "public_path": "/images/articles/7a4d646a-0c04-4b44-a54f-ef63df487f81-1.jpg"
+        }
+      ],
+      "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
+      "language": "swe",
+      "language_tag": "sv",
+      "metadata": "content/swe/articles/7a4d646a-0c04-4b44-a54f-ef63df487f81.json",
+      "metadata_sha256": "577f558c2fb37c62ad3f38dd296a8795daf3147d0c90ad8cf9b231304a2fd7b3",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "FRÅN REDAKTÖREN",
+      "source_revision": "a069ecca8827634ebc256b3b1cabc16aeb942ed7",
+      "source_translation_key": "e52f483f09dabafafef934afe52248c9117008e635c4f1ce75160e79a8b53b14",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Från redaktören",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/swe/articles/7c9d5015-158a-4c07-92fc-ae40c998d9ae.html",
       "html_sha256": "de14f09d341ee8041b033ac44ba2a8b0fc5246824fa2faea73c1afcbe8edc1ac",
       "human_reviewed": false,
