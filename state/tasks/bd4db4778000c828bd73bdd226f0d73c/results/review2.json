@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "af4c3267-4a69-4ab5-a498-79ef3fd54861",
+    "response_id": "chatcmpl-Ehq2pMrKcsq792ZdU7404PIEe5cZl",
+    "usage": {
+      "completion_tokens": 977,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 795,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 12926,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 11823,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 13903
+    }
+  },
+  "received_at": "2026-11-08T07:20:23+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Heading for act 2",
+        "severity": "minor",
+        "source_quote": "“2. MINDFULNESS.”",
+        "suggested_fix": "Replace «ΕΝΔΙΑΦΕΡΟΝ» with «ΕΝΘΥΜΗΣΗ» or another term conveying mindfulness.",
+        "translation_quote": "«2. ΕΝΔΙΑΦΕΡΟΝ.»"
+      },
+      {
+        "location": "Heading for act 10",
+        "severity": "minor",
+        "source_quote": "“10. DELIGHT.”",
+        "suggested_fix": "Replace «ΕΥΦΡΟΣΥΝΗ» with «ΑΠΟΛΑΥΣΗ» or another term conveying delight.",
+        "translation_quote": "«10. ΕΥΦΡΟΣΥΝΗ.»"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Heading for act 2",
+      "severity": "minor",
+      "source_quote": "“2. MINDFULNESS.”",
+      "suggested_fix": "Replace «ΕΝΔΙΑΦΕΡΟΝ» with «ΕΝΘΥΜΗΣΗ» or another term conveying mindfulness.",
+      "translation_quote": "«2. ΕΝΔΙΑΦΕΡΟΝ.»"
+    },
+    {
+      "location": "Heading for act 10",
+      "severity": "minor",
+      "source_quote": "“10. DELIGHT.”",
+      "suggested_fix": "Replace «ΕΥΦΡΟΣΥΝΗ» with «ΑΠΟΛΑΥΣΗ» or another term conveying delight.",
+      "translation_quote": "«10. ΕΥΦΡΟΣΥΝΗ.»"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

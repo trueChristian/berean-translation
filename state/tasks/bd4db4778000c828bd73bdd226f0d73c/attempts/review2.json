@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-08T07:20:23+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Heading for act 2\",\"severity\":\"minor\",\"source_quote\":\"“2. MINDFULNESS.”\",\"suggested_fix\":\"Replace «ΕΝΔΙΑΦΕΡΟΝ» with «ΕΝΘΥΜΗΣΗ» or another term conveying mindfulness.\",\"translation_quote\":\"«2. ΕΝΔΙΑΦΕΡΟΝ.»\"},{\"location\":\"Heading for act 10\",\"severity\":\"minor\",\"source_quote\":\"“10. DELIGHT.”\",\"suggested_fix\":\"Replace «ΕΥΦΡΟΣΥΝΗ» with «ΑΠΟΛΑΥΣΗ» or another term conveying delight.\",\"translation_quote\":\"«10. ΕΥΦΡΟΣΥΝΗ.»\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 571,
+    "content_evidence_truncated": false,
+    "content_sha256": "46eb851c05e50b2d16e55e9a54b57d7a867df6ff0f3302e50c3682fd255b5b1f",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 977,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 795,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 12926,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 11823,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 13903
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}
