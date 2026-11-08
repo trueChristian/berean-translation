@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-08T01:15:51+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"html, अनुच्छेद 4\",\n      \"severity\": \"major\",\n      \"source_quote\": \"a middle-aged married man\",\n      \"suggested_fix\": \"“एक मध्य-आयु के विवाहितชาย” को “एक अधेड़ उम्र के विवाहित पुरुष” से बदलें।\",\n      \"translation_quote\": \"एक मध्य-आयु के विवाहितชาย\"\n    },\n    {\n      \"location\": \"html, अनुच्छेद 5\",\n      \"severity\": \"major\",\n      \"source_quote\": \"or turn His back on us\",\n      \"suggested_fix\": \"“वह हमारी पीठ घुमा लेता है” को “वह हमसे मुँह मोड़ लेता है” से बदलें।\",\n      \"translation_quote\": \"वह हमारी पीठ घुमा लेता है\"\n    },\n    {\n      \"location\": \"html, सभी नौ पवित्रशास्त्र-संदर्भ\",\n      \"severity\": \"major\",\n      \"source_quote\": \"Proverbs 21:1; Daniel 4:31-32; John 18:36; Hebrews 11:13-16; 2 Corinthians 6:17; Romans 13:1-4; 1 Timothy 2:1-2; Matthew 17:20; James 5:16\",\n      \"suggested_fix\": \"पुस्तकों के नाम क्रमशः “नीतिवचन 21:1”, “दानिय्येल 4:31-32”, “यूहन्ना 18:36”, “इब्रानियों 11:13-16”, “2 कुरिन्थियों 6:17”, “रोमियों 13:1-4”, “1 तीमुथियुस 2:1-2”, “मत्ती 17:20” और “याकूब 5:16” करें। संदर्भों की संख्या, स्थान और अंक अपरिवर्तित रखें।\",\n      \"translation_quote\": \"Proverbs 21:1; Daniel 4:31-32; John 18:36; Hebrews 11:13-16; 2 Corinthians 6:17; Romans 13:1-4; 1 Timothy 2:1-2; Matthew 17:20; James 5:16\"\n    },\n    {\n      \"location\": \"html, इब्रानियों 11:13-16 का उद्धरण\",\n      \"severity\": \"major\",\n      \"source_quote\": \"strangers and pilgrims on the earth\",\n      \"suggested_fix\": \"“धरती पर परदेशी और आतिथ्यकारी (यात्री)” को “पृथ्वी पर परदेशी और यात्री” करें। “आतिथ्यकारी” का अर्थ मेहमाननवाज़ है, यात्री नहीं।\",\n      \"translation_quote\": \"धरती पर परदेशी और आतिथ्यकारी (यात्री)\"\n    },\n    {\n      \"location\": \"html, इब्रानियों 11:13-16 का उद्धरण\",\n      \"severity\": \"major\",\n      \"source_quote\": \"wherefore God is not ashamed to be called [our] God\",\n      \"suggested_fix\": \"इसे “इसलिए परमेश्वर हमारा परमेश्वर कहलाने से लज्जित नहीं होता” करें, ताकि लज्जित न होने का कर्ता परमेश्वर ही रहे।\",\n      \"translation_quote\": \"इसलिए परमेश्वर को हमारे परमेश्वर कहा जाना लज्जास्पद न था\"\n    },\n    {\n      \"location\": \"html, 2 कुरिन्थियों 6:17 का उद्धरण\",\n      \"severity\": \"major\",\n      \"source_quote\": \"come out from among them, and be ye separate\",\n      \"suggested_fix\": \"“उनके मध्य से बहिष्कृत हो जाओ” को “उनके बीच से निकल आओ” करें।\",\n      \"translation_quote\": \"उनके मध्य से बहिष्कृत हो जाओ, और पृथक हो जाओ\"\n    },\n    {\n      \"location\": \"html, राजनीतिक भागीदारी पर अंतिम विचार वाला अनुच्छेद\",\n      \"severity\": \"major\",\n      \"source_quote\": \"ungodly men in positions of power\",\n      \"suggested_fix\": \"“सत्ता में असभ्य पुरुषों” को “सत्ता में बैठे अधर्मी लोगों” करें। यहाँ धार्मिक अधर्म का आशय है, अशिष्टता का नहीं।\",\n      \"translation_quote\": \"सत्ता में असभ्य पुरुषों\"\n    },\n    {\n      \"location\": \"html, 1 तीमुथियुस 2:1-2 का उद्धरण\",\n      \"severity\": \"major\",\n      \"source_quote\": \"first of all, supplications, prayers, intercessions, and giving of thanks ... a quiet and peaceable life\",\n      \"suggested_fix\": \"“कि सब प्रकार की विनतीयें” को “कि सबसे पहले विनतियाँ” और “शांत और धैर्यपूर्ण जीवन” को “शांत और शान्तिपूर्ण जीवन” करें। मूल में प्रार्थना की प्राथमिकता और शांतिपूर्वक जीवन का उल्लेख है, सभी प्रकार की विनतियों या धैर्य का नहीं।\",\n      \"translation_quote\": \"कि सब प्रकार की विनतीयें ... शांत और धैर्यपूर्ण जीवन\"\n    },\n    {\n      \"location\": \"html, प्रार्थना की गुप्त शक्ति वाला वाक्य\",\n      \"severity\": \"major\",\n      \"source_quote\": \"prayer that is produced in the privacy of his or her closet\",\n      \"suggested_fix\": \"“उसके कपाट के भीतर पैदा होने वाली प्रार्थना” को “उसके निजी कक्ष के एकांत में की जाने वाली प्रार्थना” करें।\",\n      \"translation_quote\": \"उसके कपाट के भीतर पैदा होने वाली प्रार्थना\"\n    },\n    {\n      \"location\": \"html, याकूब 5:16 का उद्धरण\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"The effectual fervent prayer of a righteous man availeth much\",\n      \"suggested_fix\": \"“प्रभावशाली उत्तेजित प्रार्थना” को “प्रभावशाली और उत्कट प्रार्थना” करें; “उत्तेजित” यहाँ प्रार्थना की गहरी लगन का उपयुक्त रूप नहीं है।\",\n      \"translation_quote\": \"धर्मी मनुष्य की प्रभावशाली उत्तेजित प्रार्थना बहुत कुछ कर सकती है\"\n    },\n    {\n      \"location\": \"html, अंतिम चित्र का alt\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"A straight road through a misty autumn forest\",\n      \"suggested_fix\": \"alt को “कोहरे से घिरे पतझड़ के जंगल से होकर जाती एक सीधी सड़क” करें।\",\n      \"translation_quote\": \"एक कुशल मार्ग जो कोहरे भरे शरद्-वन से होकर जाता है\"\n    },\n    {\n      \"location\": \"html, अनुच्छेद 3 और अंतिम अभिवादन\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"We value this feedback. ... according to His Word\",\n      \"suggested_fix\": \"“इन प्रतिक्रियों” को “इन प्रतिक्रियाओं” और “उसकी वचन” को “उसके वचन” करें।\",\n      \"translation_quote\": \"हम इन प्रतिक्रियों को महत्व देते हैं। ... उसकी वचन के अनुसार\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": false,\n  \"score\": 78\n}",
+    "content_bytes": 8338,
+    "content_evidence_truncated": false,
+    "content_sha256": "195a5e6b838daffbddca954acaab59e176a1a2042d860729ea5f19446699205d",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1753,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 134,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5233,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4130,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 6986
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}
