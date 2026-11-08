@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "2be1f22189d1426fb2ef29464e7ae257",
   "campaign": "auto-185ec9c1f0bb91c9591004ba4c9c5844ccfa0714b66042f2ea2fa7dcbda5bac3",
   "created_at": "2026-11-08T07:24:31+00:00",
   "events": [
@@ -48,25 +47,31 @@
         },
         "total_tokens": 13891
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 97,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 65,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9244,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8141,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 9341
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "html: avsnittet om nye kristne, sitatet fra 1. Peter 2:2",
-      "severity": "major",
-      "source_quote": "desire the sincere milk of the word, that ye may grow thereby",
-      "suggested_fix": "Endre sitatteksten til «lengte etter Ordets rene melk, så dere kan vokse ved den.» Behold em-taggen og skriftstedshenvisningen.",
-      "translation_quote": "lengte etter den rene, åndelige melk, så dere kan vokse ved den."
-    },
-    {
-      "location": "html: siste avsnitt, siste setning",
-      "severity": "minor",
-      "source_quote": "There is a very rewarding feeling, a feeling of peace that passes all understanding.",
-      "suggested_fix": "Erstatt siste setning med «Det gir en dyp følelse av tilfredsstillelse, en følelse av fred som overgår all forstand.»",
-      "translation_quote": "Det gir en svært stor belønning, en fred som overgår all forstand."
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-11-08T09:34:48+00:00",
   "id": "ae92e84d632abd92c6bf88365307d649",
   "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
   "language": "nob",
@@ -155,7 +160,7 @@
     }
   },
   "protected": false,
-  "quality_score": 94,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6.1-sol",
@@ -174,7 +179,7 @@
     "total_reserved_usd": 0.76434,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "8dba71a9e8e7624f097828fdb277dce5e5ab51f70a2be94a8e381e89648a56eb",
   "translation_model_actual": "gpt-6.1-sol"

@@ -68429,6 +68429,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/nob/articles/3a454052-a824-4d0c-888d-a6b04c8cf917.html",
+      "html_sha256": "cb82aa1c6dd1c7caf3383a395ecd1522867264ae8f6a72f1f0f1eb457b6626e3",
+      "human_reviewed": false,
+      "id": "3a454052-a824-4d0c-888d-a6b04c8cf917",
+      "images": [
+        {
+          "alt": "Røde epler som henger på et løvrikt epletre",
+          "public_path": "/images/articles/3a454052-a824-4d0c-888d-a6b04c8cf917-1.jpg"
+        },
+        {
+          "alt": "Et enkelt rødt eple på en lysegrå overflate",
+          "public_path": "/images/articles/3a454052-a824-4d0c-888d-a6b04c8cf917-2.jpg"
+        }
+      ],
+      "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
+      "language": "nob",
+      "language_tag": "nb",
+      "metadata": "content/nob/articles/3a454052-a824-4d0c-888d-a6b04c8cf917.json",
+      "metadata_sha256": "b5be58f1d72d66fe78869a53073b2831619979e6406a403f02c5bfcb1bbcd1d9",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "TANKER FRA EN MISJONÆR",
+      "source_revision": "a069ecca8827634ebc256b3b1cabc16aeb942ed7",
+      "source_translation_key": "8dba71a9e8e7624f097828fdb277dce5e5ab51f70a2be94a8e381e89648a56eb",
+      "status": "ready",
+      "subtitle": null,
+      "title": "På fruktene skal dere kjenne dem",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/nob/articles/3b86d0e0-ebd7-4521-92f4-5d7f8a89e901.html",
       "html_sha256": "4e1677da1bb4f12f37f7c5ed4de73b16b4af1ed6085274dc3970825a12c9363e",
       "human_reviewed": false,
