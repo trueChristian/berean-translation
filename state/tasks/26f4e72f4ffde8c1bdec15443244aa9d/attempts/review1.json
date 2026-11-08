@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-08T00:31:20+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"translation.html，首段《马太福音》7:22引文\",\"severity\":\"major\",\"source_quote\":\"have we not prophesied in thy name?\",\"suggested_fix\":\"将“我们不是奉你的名传道”改为“我们不是奉你的名说预言”。\",\"translation_quote\":\"我们不是奉你的名传道\"},{\"location\":\"translation.html，论新信徒成长的段落，《彼得前书》2:2引文\",\"severity\":\"major\",\"source_quote\":\"desire the sincere milk of the word, that ye may grow thereby\",\"suggested_fix\":\"将“爱慕那纯净的灵奶，叫你们因此渐长”改为“爱慕神话语的纯净奶汁，叫你们因此渐长”，保留现有强调标签和经文出处。\",\"translation_quote\":\"爱慕那纯净的灵奶，叫你们因此渐长\"}],\"findings_complete\":true,\"passed\":false,\"score\":94}",
+    "content_bytes": 813,
+    "content_evidence_truncated": false,
+    "content_sha256": "5ae57d83ba687b0a1f1079f72151256497b386d003e89782fdc3d86847582e1a",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 434,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 202,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8951,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8948,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9385
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}

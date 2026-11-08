@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "07882dcc-89b3-42f6-8aa8-e30bb9c22aba",
+    "response_id": "chatcmpl-EhkLLw6sHOD8kpxQ5XLEswvYjDccR",
+    "usage": {
+      "completion_tokens": 434,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 202,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8951,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8948,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9385
+    }
+  },
+  "received_at": "2026-11-08T00:31:20+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "translation.html，首段《马太福音》7:22引文",
+        "severity": "major",
+        "source_quote": "have we not prophesied in thy name?",
+        "suggested_fix": "将“我们不是奉你的名传道”改为“我们不是奉你的名说预言”。",
+        "translation_quote": "我们不是奉你的名传道"
+      },
+      {
+        "location": "translation.html，论新信徒成长的段落，《彼得前书》2:2引文",
+        "severity": "major",
+        "source_quote": "desire the sincere milk of the word, that ye may grow thereby",
+        "suggested_fix": "将“爱慕那纯净的灵奶，叫你们因此渐长”改为“爱慕神话语的纯净奶汁，叫你们因此渐长”，保留现有强调标签和经文出处。",
+        "translation_quote": "爱慕那纯净的灵奶，叫你们因此渐长"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 94
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "translation.html，首段《马太福音》7:22引文",
+      "severity": "major",
+      "source_quote": "have we not prophesied in thy name?",
+      "suggested_fix": "将“我们不是奉你的名传道”改为“我们不是奉你的名说预言”。",
+      "translation_quote": "我们不是奉你的名传道"
+    },
+    {
+      "location": "translation.html，论新信徒成长的段落，《彼得前书》2:2引文",
+      "severity": "major",
+      "source_quote": "desire the sincere milk of the word, that ye may grow thereby",
+      "suggested_fix": "将“爱慕那纯净的灵奶，叫你们因此渐长”改为“爱慕神话语的纯净奶汁，叫你们因此渐长”，保留现有强调标签和经文出处。",
+      "translation_quote": "爱慕那纯净的灵奶，叫你们因此渐长"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
