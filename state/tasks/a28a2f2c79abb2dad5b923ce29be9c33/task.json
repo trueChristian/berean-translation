@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "e571a1ee37504b35a252b17ef3186b1d",
   "campaign": "auto-543791eee0761281d2be1ae47aab64343bf59d40481955642ff163d7e6a3a2fa",
   "created_at": "2026-11-08T15:55:20+00:00",
   "events": [
@@ -48,60 +47,31 @@
         },
         "total_tokens": 13966
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 83,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 51,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9150,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8047,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 9233
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "translation.html，第1段",
-      "severity": "major",
-      "source_quote": "her three youth-aged children",
-      "suggested_fix": "将“三位尚在幼年的子女”改为“三位尚在青少年时期的子女”；后文“you are still in your youth”对应的“你们仍在幼年”也改为“你们仍在青少年时期”。",
-      "translation_quote": "三位尚在幼年的子女；你们仍在幼年"
-    },
-    {
-      "location": "translation.html，“不要对穷人……”段，箴言21:13引文",
-      "severity": "major",
-      "source_quote": "Whoso stoppeth his ears at the cry of the poor, he also shall cry himself, but shall not be heard",
-      "suggested_fix": "将“祂自己呼求的时候”改为“他自己呼求的时候”，使代词明确指向不听穷人哀求的人，而不是神。",
-      "translation_quote": "人若塞耳不听穷人的哀求，祂自己呼求的时候也必不得蒙应。"
-    },
-    {
-      "location": "translation.html，“也不要让污秽的话……”段末",
-      "severity": "major",
-      "source_quote": "For Christ who is the greatest made Himself the least for an example unto us.",
-      "suggested_fix": "改为“因为基督本为至大，却使自己成为至小，为要给我们作榜样。”保留随后的经文参照。",
-      "translation_quote": "基督为要给我们作榜样，乃将自己显为至小。"
-    },
-    {
-      "location": "translation.html，“避免奢侈生活”段",
-      "severity": "major",
-      "source_quote": "He that desires costly feasts will not become rich.",
-      "suggested_fix": "将“贪求宴乐的人不必然富足”改为“贪求奢华宴席的人不会富足”。",
-      "translation_quote": "贪求宴乐的人不必然富足。"
-    },
-    {
-      "location": "translation.html，“到了有辨识能力的年纪……”段",
-      "severity": "major",
-      "source_quote": "Love God above all that is in the world",
-      "suggested_fix": "将“以爱重于世上一切”改为“要爱神胜过世上的一切”。",
-      "translation_quote": "以爱重于世上一切"
-    },
-    {
-      "location": "translation.html，箴言17:1引文",
-      "severity": "minor",
-      "source_quote": "than an house full of sacrifices with strife",
-      "suggested_fix": "将“强如好家中满了祭物并在其间有纷争”改为“强如家中满了祭物却充满纷争”。",
-      "translation_quote": "强如好家中满了祭物并在其间有纷争"
-    },
-    {
-      "location": "translation.html，但以理及其同伴一段",
-      "severity": "minor",
-      "source_quote": "they were fairer and fatter than those who ate of the king’s dainties",
-      "suggested_fix": "将“他们比吃王桌美味之人更显容旺盛”改为“他们比吃王桌美味的人容貌更俊美、身体更丰健”。",
-      "translation_quote": "他们比吃王桌美味之人更显容旺盛"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-11-08T23:45:29+00:00",
   "id": "a28a2f2c79abb2dad5b923ce29be9c33",
   "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
   "language": "cmn",
@@ -190,7 +160,7 @@
     }
   },
   "protected": false,
-  "quality_score": 89,
+  "quality_score": 99,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6.1-sol",
@@ -209,7 +179,7 @@
     "total_reserved_usd": 0.753435,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "9fe63733192a6c2b1a16992f2a220dd14dbfe93f8ff3f2c18b549b1da7db5b88",
   "translation_model_actual": "gpt-6.1-sol"
