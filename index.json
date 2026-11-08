@@ -90041,6 +90041,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/swa/articles/01a0a64f-d629-4e05-b1ec-993f86ef4d68.html",
+      "html_sha256": "3bb087aec3c296991dc56ffd4252f1a19c7a7de16b9db6daef720da941dc1d57",
+      "human_reviewed": false,
+      "id": "01a0a64f-d629-4e05-b1ec-993f86ef4d68",
+      "images": [
+        {
+          "alt": "Matawi marefu yenye majani yakining’inia mbele ya mandharinyuma yenye rangi hafifu.",
+          "public_path": "/images/articles/01a0a64f-d629-4e05-b1ec-993f86ef4d68-1.jpg"
+        }
+      ],
+      "issue_id": "103c93e0-6e9a-44f6-a6bc-377af8e08e38",
+      "language": "swa",
+      "language_tag": "sw",
+      "metadata": "content/swa/articles/01a0a64f-d629-4e05-b1ec-993f86ef4d68.json",
+      "metadata_sha256": "efb3e707e9a2b9ac8ce52ea7eb54731b51290cfb3a5fd46af47f0909eadf029a",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
+      "source_translation_key": "0bd5a7158c3c967ae2d717d605a8900c05380dfe6cec6d3e4b4f139ce0827dab",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Atawaokoa Watu Wake Kutoka Katika Dhambi Zao",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/swa/articles/049f2e7d-675c-4dac-9584-5aefceb9b9c1.html",
       "html_sha256": "8e573334b75725c1ad02005811650e2737e01cebc8efd205c507c81afb0800a6",
       "human_reviewed": false,
