@@ -46724,6 +46724,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ind/articles/3a454052-a824-4d0c-888d-a6b04c8cf917.html",
+      "html_sha256": "c3fed1946b3807cffc2524acabe48fb193d9dc7a8f313e7b9f792eea8f2caf7e",
+      "human_reviewed": false,
+      "id": "3a454052-a824-4d0c-888d-a6b04c8cf917",
+      "images": [
+        {
+          "alt": "Apel merah bergelantungan pada pohon apel yang rimbun",
+          "public_path": "/images/articles/3a454052-a824-4d0c-888d-a6b04c8cf917-1.jpg"
+        },
+        {
+          "alt": "Sebuah apel merah di atas permukaan abu-abu muda",
+          "public_path": "/images/articles/3a454052-a824-4d0c-888d-a6b04c8cf917-2.jpg"
+        }
+      ],
+      "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
+      "language": "ind",
+      "language_tag": "id",
+      "metadata": "content/ind/articles/3a454052-a824-4d0c-888d-a6b04c8cf917.json",
+      "metadata_sha256": "59504bddd9d7a852afcab88dda70f2351260879a1d3ab3c15a7e36997392a20c",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "RENUNGAN SEORANG MISIONARIS",
+      "source_revision": "a069ecca8827634ebc256b3b1cabc16aeb942ed7",
+      "source_translation_key": "8dba71a9e8e7624f097828fdb277dce5e5ab51f70a2be94a8e381e89648a56eb",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Dari Buahnya",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ind/articles/3b3b3e75-afd9-49a6-ac06-d99a29802261.html",
       "html_sha256": "b608ce377c2712ce265d4a8ebc127a420aa6cf599a13ceac6958ead3ef6c73bd",
       "human_reviewed": false,
