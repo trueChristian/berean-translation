@@ -5,11 +5,40 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "3dae43fc9c67419381fef03bf1e0a0bd",
   "campaign": "auto-f0803217e3d83d9a26fcd9e6140388f7af199401d08a57612f607aca520a1765",
   "created_at": "2026-11-08T09:36:43+00:00",
-  "events": [],
-  "findings": [],
+  "events": [
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 282,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 113,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4453,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 3350,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 4735
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "translation.html, citas de Lucas 1:1-4 y Romanos 1:18-20",
+      "severity": "major",
+      "source_quote": "–Luke 1:1-4. (NIV) / –Romans 1:18-20. (NIV)",
+      "suggested_fix": "Cambiar «(NVI)» por «(NIV)» en ambas citas para conservar la atribución a la versión inglesa indicada en el original. Mantener las citas traducidas al español.",
+      "translation_quote": "–Lucas 1:1-4. (NVI) / –Romanos 1:18-20. (NVI)"
+    }
+  ],
   "id": "a8ba7ab1055e0e94922c90b52ab5d1d0",
   "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
   "language": "spa",
@@ -98,11 +127,13 @@
     }
   },
   "protected": false,
+  "quality_score": 96,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/c5a53a68da3d3a0dcfdea44a6be1ec876cbdb82ebcff07b3ac3d5c1401f92201.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "review1",
     "max_candidate_bytes": 120000,
@@ -115,7 +146,7 @@
     "total_reserved_usd": 0.710107,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 0,
   "translation_key": "8e1431ea881b67c4ad4954313f7377e010f9f58557ffeba6077169e187cbed60",
   "translation_model_actual": "gpt-6-luna"

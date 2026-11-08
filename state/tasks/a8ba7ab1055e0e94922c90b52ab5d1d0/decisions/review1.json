@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "translation.html, citas de Lucas 1:1-4 y Romanos 1:18-20",
+      "severity": "major",
+      "source_quote": "–Luke 1:1-4. (NIV) / –Romans 1:18-20. (NIV)",
+      "suggested_fix": "Cambiar «(NVI)» por «(NIV)» en ambas citas para conservar la atribución a la versión inglesa indicada en el original. Mantener las citas traducidas al español.",
+      "translation_quote": "–Lucas 1:1-4. (NVI) / –Romanos 1:18-20. (NVI)"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
