@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "html：路加福音引文段落",
+      "severity": "major",
+      "source_quote": "the things that have been fulfilled [or been surely believed] among us",
+      "suggested_fix": "将“我们中间所成就之事”改为“我们中间所成就［或：所确信］之事”，保留原文括注中的另一种含义。",
+      "translation_quote": "我们中间所成就之事"
+    },
+    {
+      "location": "html：首段口号",
+      "severity": "minor",
+      "source_quote": "Faith <u>begins</u> when reason ends.",
+      "suggested_fix": "改为“信心<u>始于</u>理性终止之处。”",
+      "translation_quote": "理性终止之处，信心<u>始于</u>。"
+    },
+    {
+      "location": "html：路加福音引文中的强调格式",
+      "severity": "minor",
+      "source_quote": "<u>I myself have carefully investigated everything</u>",
+      "suggested_fix": "将“既然我从头详细查考了这一切”改为“既然<u>我亲自从头详细查考了这一切</u>”，恢复原文的强调标记及“亲自”的强调。",
+      "translation_quote": "既然我从头详细查考了这一切"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

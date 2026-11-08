@@ -1,0 +1,52 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "6656b9c7-0920-4ecb-8194-30c880e0ad03",
+    "response_id": "chatcmpl-EhroHFURAR5nS0x8rDfpymcKUEE4W",
+    "usage": {
+      "completion_tokens": 469,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 101,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4507,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4504,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4976
+    }
+  },
+  "received_at": "2026-11-08T07:47:09+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "html：路加福音引文段落",
+        "severity": "major",
+        "source_quote": "the things that have been fulfilled [or been surely believed] among us",
+        "suggested_fix": "将“我们中间所成就之事”改为“我们中间所成就［或：所确信］之事”，保留原文括注中的另一种含义。",
+        "translation_quote": "我们中间所成就之事"
+      },
+      {
+        "location": "html：首段口号",
+        "severity": "minor",
+        "source_quote": "Faith <u>begins</u> when reason ends.",
+        "suggested_fix": "改为“信心<u>始于</u>理性终止之处。”",
+        "translation_quote": "理性终止之处，信心<u>始于</u>。"
+      },
+      {
+        "location": "html：路加福音引文中的强调格式",
+        "severity": "minor",
+        "source_quote": "<u>I myself have carefully investigated everything</u>",
+        "suggested_fix": "将“既然我从头详细查考了这一切”改为“既然<u>我亲自从头详细查考了这一切</u>”，恢复原文的强调标记及“亲自”的强调。",
+        "translation_quote": "既然我从头详细查考了这一切"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 94
+  }
+}
