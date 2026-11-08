@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "第4节，第3行",
+      "severity": "minor",
+      "source_quote": "Though every sinew be unstrung,",
+      "suggested_fix": "即使我的每一根筋都已松弛，",
+      "translation_quote": "即使我的每一根筋都已脱臼，"
+    },
+    {
+      "location": "第12节，第1行",
+      "severity": "minor",
+      "source_quote": "Contented now upon my thigh",
+      "suggested_fix": "如今我安然忍受大腿的伤痛，",
+      "translation_quote": "如今我满足地扶着大腿，"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

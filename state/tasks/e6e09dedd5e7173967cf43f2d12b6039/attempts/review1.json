@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-08T07:20:06+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"第4节，第3行\",\"severity\":\"minor\",\"source_quote\":\"Though every sinew be unstrung,\",\"suggested_fix\":\"即使我的每一根筋都已松弛，\",\"translation_quote\":\"即使我的每一根筋都已脱臼，\"},{\"location\":\"第12节，第1行\",\"severity\":\"minor\",\"source_quote\":\"Contented now upon my thigh\",\"suggested_fix\":\"如今我安然忍受大腿的伤痛，\",\"translation_quote\":\"如今我满足地扶着大腿，\"}],\"findings_complete\":true,\"passed\":true,\"score\":97}",
+    "content_bytes": 497,
+    "content_evidence_truncated": false,
+    "content_sha256": "66e3fb180d1c8cdc1feff73fcd7636fc486e9a75deb024027d2496b133cc072e",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 847,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 694,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3684,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2581,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 4531
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}
