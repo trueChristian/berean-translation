@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-08T15:07:40+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Blockquote, first line\",\"severity\":\"minor\",\"source_quote\":\"These questions beg an answer:\",\"suggested_fix\":\"Deze vragen verdienen een antwoord:\",\"translation_quote\":\"Deze vragen vragen om een antwoord:\"}],\"findings_complete\":true,\"passed\":true,\"score\":99}",
+    "content_bytes": 281,
+    "content_evidence_truncated": false,
+    "content_sha256": "1965b4fcbfcb8a04f7fdcaaaa39c3df1b66203f86776f07f45053cd11f41341a",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 552,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 475,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5274,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4171,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 5826
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Blockquote, first line",
+      "severity": "minor",
+      "source_quote": "These questions beg an answer:",
+      "suggested_fix": "Deze vragen verdienen een antwoord:",
+      "translation_quote": "Deze vragen vragen om een antwoord:"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

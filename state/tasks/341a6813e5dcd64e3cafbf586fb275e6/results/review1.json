@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "ea7437e9-c6b3-422f-a49c-4a2bfae1a7d9",
+    "response_id": "chatcmpl-EhvgOHk6fr0KhoOc7gJCHTdm7cDOr",
+    "usage": {
+      "completion_tokens": 552,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 475,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5274,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4171,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 5826
+    }
+  },
+  "received_at": "2026-11-08T15:07:40+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Blockquote, first line",
+        "severity": "minor",
+        "source_quote": "These questions beg an answer:",
+        "suggested_fix": "Deze vragen verdienen een antwoord:",
+        "translation_quote": "Deze vragen vragen om een antwoord:"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 99
+  }
+}
