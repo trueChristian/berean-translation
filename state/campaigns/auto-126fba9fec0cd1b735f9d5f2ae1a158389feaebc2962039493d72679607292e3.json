@@ -1973,6 +1973,9 @@
     "version": 1
   },
   "status": "active",
+  "task_counts": {
+    "in_batch": 1
+  },
   "tasks": [
     "950f2ae7e4588a76a990297c951fce4a"
   ]
