@@ -6761,6 +6761,38 @@
     {
       "ai_notice_required": true,
       "direction": "rtl",
+      "html": "content/ara/articles/3a454052-a824-4d0c-888d-a6b04c8cf917.html",
+      "html_sha256": "73d5fa34b4ad73390d04da3cbd2b8f53b8c46070de4334c5573fd4dd6370b1ba",
+      "human_reviewed": false,
+      "id": "3a454052-a824-4d0c-888d-a6b04c8cf917",
+      "images": [
+        {
+          "alt": "تفاحات حمراء معلقة على شجرة تفاح مورقة",
+          "public_path": "/images/articles/3a454052-a824-4d0c-888d-a6b04c8cf917-1.jpg"
+        },
+        {
+          "alt": "تفاحة حمراء واحدة على سطح رمادي فاتح",
+          "public_path": "/images/articles/3a454052-a824-4d0c-888d-a6b04c8cf917-2.jpg"
+        }
+      ],
+      "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
+      "language": "ara",
+      "language_tag": "ar",
+      "metadata": "content/ara/articles/3a454052-a824-4d0c-888d-a6b04c8cf917.json",
+      "metadata_sha256": "2fae42daf0e829122668906e71dd584209fdff53bdcc9f97437c48c72f03979e",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "تأملات مبشر",
+      "source_revision": "a069ecca8827634ebc256b3b1cabc16aeb942ed7",
+      "source_translation_key": "8dba71a9e8e7624f097828fdb277dce5e5ab51f70a2be94a8e381e89648a56eb",
+      "status": "ready",
+      "subtitle": null,
+      "title": "من ثمارهم تعرفونهم",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
       "html": "content/ara/articles/3b86d0e0-ebd7-4521-92f4-5d7f8a89e901.html",
       "html_sha256": "99fbe7b03bbd04d849c254214cb27f01eb398ba454f598ec03e34510494974b7",
       "human_reviewed": false,

@@ -5,11 +5,41 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "5855aed62b834e5d8289304403e36b3c",
   "campaign": "auto-f42ca7a1923bd41d08807a407dd2455e75bd1bf1189c5a71df5d4f4fd1ee633c",
   "created_at": "2026-11-07T23:43:46+00:00",
-  "events": [],
-  "findings": [],
+  "events": [
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 339,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 131,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9161,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8058,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 9500
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "translation.html — فقرة «قال لي أناس إن علينا أن نمنح المسيحي الجديد بعض المساحة»، اقتباس 1 بطرس 2:2",
+      "severity": "minor",
+      "source_quote": "commands each of us to desire the sincere milk of the word, that ye may grow thereby",
+      "suggested_fix": "استبدل «بأن <em>«يشتهوا اللبن العقلي العديم الغش لكي تنموا به»» بـ «بأن <em>«تشتهوا اللبن العقلي العديم الغش لكي تنموا به»» لتوحيد صيغة الخطاب داخل الاقتباس، مع إبقاء المرجع وبقية الوسوم كما هي.",
+      "translation_quote": "وتأمر كل واحد منا بأن <em>«يشتهوا اللبن العقلي العديم الغش لكي تنموا به»"
+    }
+  ],
+  "finished_at": "2026-11-08T19:40:40+00:00",
   "id": "7deb9e7b4d19244a00455969ea066351",
   "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
   "language": "ara",
@@ -98,9 +128,11 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/ed8e4f3374a7115ead0333cfae7dddfc70b3ec5fcf32f1a2a6c962f76387b296.json",
   "stage": "review1",
   "stage_budget": {
@@ -115,7 +147,7 @@
     "total_reserved_usd": 0.778063,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 0,
   "translation_key": "8dba71a9e8e7624f097828fdb277dce5e5ab51f70a2be94a8e381e89648a56eb",
   "translation_model_actual": "gpt-6-luna"

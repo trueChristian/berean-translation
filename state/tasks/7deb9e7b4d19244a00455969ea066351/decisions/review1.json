@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "translation.html — فقرة «قال لي أناس إن علينا أن نمنح المسيحي الجديد بعض المساحة»، اقتباس 1 بطرس 2:2",
+      "severity": "minor",
+      "source_quote": "commands each of us to desire the sincere milk of the word, that ye may grow thereby",
+      "suggested_fix": "استبدل «بأن <em>«يشتهوا اللبن العقلي العديم الغش لكي تنموا به»» بـ «بأن <em>«تشتهوا اللبن العقلي العديم الغش لكي تنموا به»» لتوحيد صيغة الخطاب داخل الاقتباس، مع إبقاء المرجع وبقية الوسوم كما هي.",
+      "translation_quote": "وتأمر كل واحد منا بأن <em>«يشتهوا اللبن العقلي العديم الغش لكي تنموا به»"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}
