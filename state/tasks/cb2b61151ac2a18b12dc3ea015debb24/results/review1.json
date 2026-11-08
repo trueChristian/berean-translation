@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "efe8fd69-4660-477c-b9dc-2ce1a996ba6b",
+    "response_id": "chatcmpl-EhzcipC0hucAUo2LUWEA5SRlyIAWT",
+    "usage": {
+      "completion_tokens": 264,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 54,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4574,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3471,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 4838
+    }
+  },
+  "received_at": "2026-11-08T16:16:33+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "translation.html — paragraphe commençant par « Hébreux 11:1 »",
+        "severity": "major",
+        "source_quote": "faith is “<u>confidence</u> in what we hope for and <u>assurance</u> about what we do not see.”",
+        "suggested_fix": "Remplacer la citation par : « <u>la confiance</u> en ce que nous espérons et <u>l’assurance</u> concernant ce que nous ne voyons pas ».",
+        "translation_quote": "la foi est « <u>la ferme assurance</u> de ce qu’on espère et <u>la démonstration</u> de ce qu’on ne voit pas »"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 94
+  }
+}

@@ -5,11 +5,40 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "6f29d05432c34bebba01f7be95a697ff",
   "campaign": "auto-84f54259861ef140d73438da1ecc8966aa240234d1c69a4ee9fd22bb3187159c",
   "created_at": "2026-11-08T15:54:54+00:00",
-  "events": [],
-  "findings": [],
+  "events": [
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 264,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 54,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4574,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 3471,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 4838
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "translation.html — paragraphe commençant par « Hébreux 11:1 »",
+      "severity": "major",
+      "source_quote": "faith is “<u>confidence</u> in what we hope for and <u>assurance</u> about what we do not see.”",
+      "suggested_fix": "Remplacer la citation par : « <u>la confiance</u> en ce que nous espérons et <u>l’assurance</u> concernant ce que nous ne voyons pas ».",
+      "translation_quote": "la foi est « <u>la ferme assurance</u> de ce qu’on espère et <u>la démonstration</u> de ce qu’on ne voit pas »"
+    }
+  ],
   "id": "cb2b61151ac2a18b12dc3ea015debb24",
   "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
   "language": "fra",
@@ -98,11 +127,13 @@
     }
   },
   "protected": false,
+  "quality_score": 94,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/c5a53a68da3d3a0dcfdea44a6be1ec876cbdb82ebcff07b3ac3d5c1401f92201.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "review1",
     "max_candidate_bytes": 120000,
@@ -115,7 +146,7 @@
     "total_reserved_usd": 0.711634,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 0,
   "translation_key": "8e1431ea881b67c4ad4954313f7377e010f9f58557ffeba6077169e187cbed60",
   "translation_model_actual": "gpt-6-luna"
