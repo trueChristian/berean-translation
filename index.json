@@ -37046,6 +37046,38 @@
     {
       "ai_notice_required": true,
       "direction": "rtl",
+      "html": "content/heb/articles/3a454052-a824-4d0c-888d-a6b04c8cf917.html",
+      "html_sha256": "a06e61310e147a4e47867bc655b8a98b989c29568d583b22e4352cd18c8e6dc0",
+      "human_reviewed": false,
+      "id": "3a454052-a824-4d0c-888d-a6b04c8cf917",
+      "images": [
+        {
+          "alt": "תפוחים אדומים תלויים על עץ תפוחים עטור עלים",
+          "public_path": "/images/articles/3a454052-a824-4d0c-888d-a6b04c8cf917-1.jpg"
+        },
+        {
+          "alt": "תפוח אדום יחיד על משטח אפור בהיר",
+          "public_path": "/images/articles/3a454052-a824-4d0c-888d-a6b04c8cf917-2.jpg"
+        }
+      ],
+      "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
+      "language": "heb",
+      "language_tag": "he",
+      "metadata": "content/heb/articles/3a454052-a824-4d0c-888d-a6b04c8cf917.json",
+      "metadata_sha256": "d10c13f150f2d3b9ccbf5cdef349cf10c0701be4c91e1405351f132ae958458f",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "הגיגיו של שליח",
+      "source_revision": "a069ecca8827634ebc256b3b1cabc16aeb942ed7",
+      "source_translation_key": "8dba71a9e8e7624f097828fdb277dce5e5ab51f70a2be94a8e381e89648a56eb",
+      "status": "ready",
+      "subtitle": null,
+      "title": "על פי פירותיהם",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
       "html": "content/heb/articles/3b86d0e0-ebd7-4521-92f4-5d7f8a89e901.html",
       "html_sha256": "52b7107aa1f72cc26fa268d56ab06b798040d568aa85771e221356d9d56a299d",
       "human_reviewed": false,

@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "24d4e7855d9745ea801f944bf8f6a1b0",
   "campaign": "auto-003814c4c359608902cbc08841a4a7ca572c3b2cd33b862651c956d824ea49ea",
   "created_at": "2026-11-08T07:23:39+00:00",
   "events": [
@@ -48,39 +47,31 @@
         },
         "total_tokens": 13996
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 74,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 42,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9140,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8037,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 9214
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "הפסקה הפותחת „לב שלא חודש ברוח אלוהים”",
-      "severity": "major",
-      "source_quote": "many unbelievers attend church services regularly",
-      "suggested_fix": "החליפו את „מאמינים רבים שאינם מאמינים” ב„אנשים רבים שאינם מאמינים”.",
-      "translation_quote": "מאמינים רבים שאינם מאמינים משתתפים בקביעות בתפילות הכנסייה"
-    },
-    {
-      "location": "הפסקה הפותחת „אבל מה לגבי רבים כל כך אחרים”; הפסקה הפותחת „נדמה שאנו שופטים”; הפסקה הפותחת „התנ״ך אומר”",
-      "severity": "major",
-      "source_quote": "they argue with the Bible ... it’s what the Bible says; However, the Bible is clear; The Bible says that …the fruit of the Spirit",
-      "suggested_fix": "החליפו בכל ארבע ההופעות האלה את „התנ״ך” ב„כתבי הקודש” והתאימו את הפעלים: „מתווכחים עם כתבי הקודש”, „שכך כתוב בכתבי הקודש”, „אולם כתבי הקודש ברורים”, „כתבי הקודש אומרים”. התנ״ך אינו כולל את הברית החדשה, שממנה מובאים כאן הציטוטים.",
-      "translation_quote": "הם מתווכחים עם התנ״ך; שכך כתוב בתנ״ך; אולם התנ״ך ברור; התנ״ך אומר"
-    },
-    {
-      "location": "ציטוט גלטים ה׳:כ״ב–כ״ג",
-      "severity": "major",
-      "source_quote": "gentleness, goodness, faith, meekness, temperance",
-      "suggested_fix": "בציטוט החליפו את „נדיבות” ב„עדינות” ואת „נאמנות” ב„אמונה”, כדי לשמר את התכונות בנוסח האנגלי המודפס ולא להחליפן בתכונות מנוסח אחר.",
-      "translation_quote": "נדיבות, טוב לב, נאמנות, ענווה, שליטה עצמית"
-    },
-    {
-      "location": "הפסקה המתארת את ההטפה בכנסייה הגדולה",
-      "severity": "minor",
-      "source_quote": "The service began",
-      "suggested_fix": "החליפו את „השירות התחיל” ב„התפילה התחילה”.",
-      "translation_quote": "השירות התחיל"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-11-08T09:34:24+00:00",
   "id": "3e7390396aa4d2ddf1db81597761a5d1",
   "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
   "language": "heb",
@@ -169,7 +160,7 @@
     }
   },
   "protected": false,
-  "quality_score": 91,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6.1-sol",
@@ -188,7 +179,7 @@
     "total_reserved_usd": 0.774624,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "8dba71a9e8e7624f097828fdb277dce5e5ab51f70a2be94a8e381e89648a56eb",
   "translation_model_actual": "gpt-6.1-sol"
