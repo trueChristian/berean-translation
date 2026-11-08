@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-08T19:39:10+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"6c25be17-3343-451b-afeb-ed9c56942fd0\\\">\\n  <figure>\\n    <img src=\\\"/images/articles/6c25be17-3343-451b-afeb-ed9c56942fd0-1.jpg\\\" alt=\\\"Een oude houten deur naast een verweerde muur en bloeiende takken.\\\">\\n  </figure>\\n  <p class=\\\"poem\\\">Kom, o onbekende Reiziger,<br>Die ik nog altijd vasthoud, maar niet kan zien;<br>Mijn metgezel is al verdwenen,<br>Met U wil ik de hele nacht blijven,<br>En worstelen tot het aanbreken van de dag.</p>\\n  <p class=\\\"poem\\\">Ik hoef U niet te vertellen wie ik ben,<br>Mijn ellende en zonde spreken voor zich;<br>Uzelf hebt mij bij mijn naam genoemd,<br>Kijk naar Uw handen en lees het daar!<br>Maar wie bent U, vraag ik, wie bent U?<br>Vertel mij Uw naam, en vertel het mij nu.</p>\\n  <p class=\\\"poem\\\">Tevergeefs worstelt U om vrij te komen,<br>Ik zal mijn greep nooit loslaten:<br>Bent U de Man die voor mij stierf?<br>Onthul het geheim van Uw liefde:<br>Al worstelend laat ik U niet gaan,<br>Tot ik Uw naam, Uw aard ken.</p>\\n  <p class=\\\"poem\\\">Het heeft geen zin Uw mond te houden,<br>Of mijn heup aan te raken;<br>Ook al raakt elke pees ontwricht,<br>Uit mijn armen zult U niet ontsnappen;<br>Al worstelend laat ik U niet gaan,<br>Tot ik Uw naam, Uw aard ken.</p>\\n  <p class=\\\"poem\\\">Wat geeft het dat mijn terugdeinzende vlees klaagt,<br>En murmelt dat het zo lang moet strijden?<br>Ik stijg boven mijn pijn uit,<br>Als ik zwak ben, dan ben ik sterk;<br>En wanneer al mijn kracht bezwijkt,<br>Zal ik overwinnen met de God-mens.</p>\\n  <p class=\\\"poem\\\">Mijn kracht is weg, mijn natuur sterft,<br>Ik bezwijk onder Uw zware hand;<br>Ik bezwijk om weer op krachten te komen, en val om weer op te staan;<br>Ik val, en toch sta ik door het geloof:<br>Ik sta, en laat U niet gaan,<br>Tot ik Uw naam, Uw aard ken.</p>\\n  <p class=\\\"poem\\\">Geef U nu aan mij over—want ik ben zwak,<br>Maar vol vertrouwen in mijn wanhoop aan mezelf;<br>Spreek tot mijn hart, spreek met zegeningen,<br>Laat U door mijn dringende gebed overwinnen:<br>Spreek, anders zult U hier nooit weggaan,<br>En zeg mij of Uw naam Liefde is.</p>\\n  <p class=\\\"poem\\\">Het is Liefde! Het is Liefde! U stierf voor mij,<br>Ik hoor Uw fluistering in mijn hart;<br>De morgen breekt aan, de schaduwen vluchten,<br>U bent zuivere, universele Liefde:<br>Uw barmhartigheid strekt zich uit tot mij, tot allen—<br>Uw aard en Uw naam zijn Liefde.</p>\\n  <p class=\\\"poem\\\">Mijn gebed heeft macht bij God; de onuitsprekelijke<br>Genade ontvang ik nu;<br>Door het geloof zie ik U van aangezicht tot aangezicht,<br>Ik zie U van aangezicht tot aangezicht en leef!<br>Niet tevergeefs heb ik gehuild en gestreden—<br>Uw aard en Uw naam zijn Liefde.</p>\\n  <p class=\\\"poem\\\">Ik ken U, Heiland, weet wie U bent,<br>Jezus, vriend van de zwakke zondaar;<br>U zult ook niet met de nacht vertrekken,<br>Maar blijven en mij liefhebben tot het einde,<br>Uw barmhartigheid zal nooit wijken,<br>Uw aard en Uw naam zijn Liefde.</p>\\n  <p class=\\\"poem\\\">De Zon der gerechtigheid is over mij<br>Opgegaan met genezing onder zijn vleugels;<br>Mijn natuurlijke kracht is verdord; van U<br>ontvangt mijn ziel haar leven en hulp;<br>Al mijn hulp ligt opgeslagen daarboven—<br>Uw aard en Uw naam zijn Liefde.</p>\\n  <p class=\\\"poem\\\">Nu tevreden strompel ik op mijn heup,<br>Tot de korte levensreis eindigt;<br>In alle hulpeloosheid en zwakheid<br>Ben ik alleen op U aangewezen voor kracht;<br>Ik kan mij niet van U losmaken—<br>Uw aard en Uw naam zijn Liefde.</p>\\n  <p class=\\\"poem\\\">Hoewel ik kreupel ben, grijp ik de buit,<br>Hel, aarde en zonde overwin ik moeiteloos;<br>Ik spring van vreugde, vervolg mijn weg,<br>En vlieg als een springend hert naar huis,<br>Om voor alle eeuwigheid te bewijzen<br>Dat Uw aard en Uw naam Liefde zijn.</p>\\n  <p class=\\\"poem\\\">God zij dank voor de dag<br>Waarop ik Uw glimlachende gezicht kon zien,<br>De dageraad van Uw barmhartigheid, Uw ochtendstraal,<br>En heel de rijkdom van Uw genade:<br>Voor eeuwig zal mijn lied weerklinken,<br>Uw aard en Uw naam zijn Liefde.</p>\\n</article>\\n\",\"section\":null,\"subtitle\":null,\"title\":\"Worstelen met Jakob\"}",
+    "content_bytes": 4099,
+    "content_evidence_truncated": false,
+    "content_sha256": "c013299987b52e21f709c7ba82553461740ba6770b45e04eeb97589ea5690bee",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1288,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3356,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3353,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4644
+    }
+  },
+  "review_attempts": 1,
+  "stage": "correct",
+  "translation_attempts": 2
+}
