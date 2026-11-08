@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-08T15:07:24+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Blockquote and final paragraph\",\"severity\":\"minor\",\"source_quote\":\"Are we gaining or burying?\",\"suggested_fix\":\"Κερδίζουμε ή θάβουμε;\",\"translation_quote\":\"Αυξάνουμε ή θάβουμε;\"} ,{\"location\":\"Final paragraph\",\"severity\":\"minor\",\"source_quote\":\"But the story of Marx Boshart is sobering, and one from which to take warning.\",\"suggested_fix\":\"Η ιστορία όμως του Μαρξ Μπόσχαρτ είναι προβληματιστική και αποτελεί προειδοποίηση.\",\"translation_quote\":\"Η ιστορία όμως του Μαρξ Μπόσχαρτ είναι απογοητευτική και αποτελεί προειδοποίηση.\"}],\"findings_complete\":true,\"passed\":true,\"score\":97}",
+    "content_bytes": 782,
+    "content_evidence_truncated": false,
+    "content_sha256": "f1655b91c9433d2f742a9f03218e13af6e161272833f4a1b7b268880e20be18e",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 835,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 648,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6537,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6534,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7372
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

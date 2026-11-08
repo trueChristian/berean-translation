@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Blockquote and final paragraph",
+      "severity": "minor",
+      "source_quote": "Are we gaining or burying?",
+      "suggested_fix": "Κερδίζουμε ή θάβουμε;",
+      "translation_quote": "Αυξάνουμε ή θάβουμε;"
+    },
+    {
+      "location": "Final paragraph",
+      "severity": "minor",
+      "source_quote": "But the story of Marx Boshart is sobering, and one from which to take warning.",
+      "suggested_fix": "Η ιστορία όμως του Μαρξ Μπόσχαρτ είναι προβληματιστική και αποτελεί προειδοποίηση.",
+      "translation_quote": "Η ιστορία όμως του Μαρξ Μπόσχαρτ είναι απογοητευτική και αποτελεί προειδοποίηση."
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}
