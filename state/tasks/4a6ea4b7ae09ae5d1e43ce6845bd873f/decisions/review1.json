@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Final paragraph",
+      "severity": "major",
+      "source_quote": "“Let us also be brothers to others in cross-bearing, helping them live a life of Christian obedience”",
+      "suggested_fix": "«Siamo anche fratelli per gli altri nel portare la croce, aiutandoli a vivere una vita di obbedienza cristiana»",
+      "translation_quote": "«Siamo anche fratelli gli uni degli altri nel portare la croce, aiutandoci a vivere una vita di obbedienza cristiana»"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

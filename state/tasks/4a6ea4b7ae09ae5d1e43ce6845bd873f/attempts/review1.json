@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-08T20:25:07+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Final paragraph\",\"severity\":\"major\",\"source_quote\":\"“Let us also be brothers to others in cross-bearing, helping them live a life of Christian obedience”\",\"suggested_fix\":\"«Siamo anche fratelli per gli altri nel portare la croce, aiutandoli a vivere una vita di obbedienza cristiana»\",\"translation_quote\":\"«Siamo anche fratelli gli uni degli altri nel portare la croce, aiutandoci a vivere una vita di obbedienza cristiana»\"}],\"findings_complete\":true,\"passed\":false,\"score\":94}",
+    "content_bytes": 512,
+    "content_evidence_truncated": false,
+    "content_sha256": "3326e44073a26abee4652c1df6c0ba69ce5b5c384cf25bb4bdf39ab654a68631",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 859,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 716,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4145,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3042,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 5004
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}
