@@ -84185,6 +84185,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/spa/articles/01a0a64f-d629-4e05-b1ec-993f86ef4d68.html",
+      "html_sha256": "c9b421055adf6349757088070059d5c1a9018c4340c4363cee14a8594336669e",
+      "human_reviewed": false,
+      "id": "01a0a64f-d629-4e05-b1ec-993f86ef4d68",
+      "images": [
+        {
+          "alt": "Ramas largas y frondosas que cuelgan sobre un fondo claro.",
+          "public_path": "/images/articles/01a0a64f-d629-4e05-b1ec-993f86ef4d68-1.jpg"
+        }
+      ],
+      "issue_id": "103c93e0-6e9a-44f6-a6bc-377af8e08e38",
+      "language": "spa",
+      "language_tag": "es",
+      "metadata": "content/spa/articles/01a0a64f-d629-4e05-b1ec-993f86ef4d68.json",
+      "metadata_sha256": "bd58a1cf653fc5d4fc6ab52e06b76b13e2d88fbd69856086756d2db5a938087f",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
+      "source_translation_key": "0bd5a7158c3c967ae2d717d605a8900c05380dfe6cec6d3e4b4f139ce0827dab",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Él salvará a su pueblo de sus pecados",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/spa/articles/02db24ae-5132-49c6-a6fd-da73417871e3.html",
       "html_sha256": "fd9e8d91753ade52092c3aa15029b0627562faad0c092fc30ec2bb252109c189",
       "human_reviewed": false,

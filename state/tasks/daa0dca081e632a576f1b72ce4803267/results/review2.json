@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "e634b10c-cc38-4ebd-bd51-38a3c88deae7",
+    "response_id": "chatcmpl-Ei4djXSB5HRx57ke7L3ArRr19pBbe",
+    "usage": {
+      "completion_tokens": 592,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 451,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3954,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3951,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4546
+    }
+  },
+  "received_at": "2026-11-08T23:44:39+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, paragraph quoting Lucas 7:29-30",
+        "severity": "minor",
+        "source_quote": "“the Pharisees and lawyers rejected the counsel of God against themselves”",
+        "suggested_fix": "«Pero los fariseos y los intérpretes de la ley rechazaron el consejo de Dios para ellos, al no ser bautizados por él»",
+        "translation_quote": "«Pero los fariseos y los intérpretes de la ley rechazaron el propósito de Dios para ellos, al no ser bautizados por él»"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}

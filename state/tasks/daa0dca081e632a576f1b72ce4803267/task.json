@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "4a04d244a5724abdaae6cfafc80b7c3f",
   "campaign": "auto-516aa5fffeba01fb7b78ce6686a9e87c8c52f274f0da5dc675f4137ee7dddc52",
   "created_at": "2026-11-08T09:36:20+00:00",
   "events": [
@@ -48,18 +47,39 @@
         },
         "total_tokens": 5451
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 592,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 451,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3954,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 3951,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4546
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "HTML/metadata contract",
-      "severity": "critical",
-      "source_quote": "",
-      "suggested_fix": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[31]: source /article[1]/p[8]/em[1] ('start', 'em', ()); translation /article[1]/p[8] ('end', 'p')",
-      "translation_quote": ""
+      "location": "HTML, paragraph quoting Lucas 7:29-30",
+      "severity": "minor",
+      "source_quote": "“the Pharisees and lawyers rejected the counsel of God against themselves”",
+      "suggested_fix": "«Pero los fariseos y los intérpretes de la ley rechazaron el consejo de Dios para ellos, al no ser bautizados por él»",
+      "translation_quote": "«Pero los fariseos y los intérpretes de la ley rechazaron el propósito de Dios para ellos, al no ser bautizados por él»"
     }
   ],
+  "finished_at": "2026-11-08T23:44:39+00:00",
   "id": "daa0dca081e632a576f1b72ce4803267",
   "issue_id": "103c93e0-6e9a-44f6-a6bc-377af8e08e38",
   "language": "spa",
@@ -148,9 +168,11 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/d7b2f9204f8c880ac06ecdb66b7ea1f500cf845e46a60bfd52f2c4a154c0e5c9.json",
   "stage": "review2",
   "stage_budget": {
@@ -166,7 +188,7 @@
     "total_reserved_usd": 0.087268,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "0bd5a7158c3c967ae2d717d605a8900c05380dfe6cec6d3e4b4f139ce0827dab",
   "translation_model_actual": "gpt-6-luna"
