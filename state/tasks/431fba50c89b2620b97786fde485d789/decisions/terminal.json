@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, parágrafo sobre a prisão de Felix Manz",
+      "severity": "minor",
+      "source_quote": "“an opinionated and obstinate person”",
+      "suggested_fix": "Replace “opiniática” with “de opiniões fortes” (for example, “uma pessoa de opiniões fortes e obstinada”).",
+      "translation_quote": "“uma pessoa opiniática e obstinada”"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "01fa0345-a4fc-4e6f-b1f2-a414c320cc4f",
+    "response_id": "chatcmpl-EhpCKKanF63vx2PwAKQR4AuIKJJGt",
+    "usage": {
+      "completion_tokens": 795,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 679,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5112,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4009,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 5907
+    }
+  },
+  "received_at": "2026-11-08T07:19:26+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, parágrafo sobre a prisão de Felix Manz",
+        "severity": "minor",
+        "source_quote": "“an opinionated and obstinate person”",
+        "suggested_fix": "Replace “opiniática” with “de opiniões fortes” (for example, “uma pessoa de opiniões fortes e obstinada”).",
+        "translation_quote": "“uma pessoa opiniática e obstinada”"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}
