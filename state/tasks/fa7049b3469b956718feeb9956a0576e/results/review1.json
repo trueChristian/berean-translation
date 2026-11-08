@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "06652026-10dc-4442-b000-5bfb471df85f",
+    "response_id": "chatcmpl-EhnElMdYS8tYXVgu9QNcr85hs0wBC",
+    "usage": {
+      "completion_tokens": 901,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 787,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3902,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2799,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 4803
+    }
+  },
+  "received_at": "2026-11-08T07:18:19+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Poem stanza 12, line 1",
+        "severity": "minor",
+        "source_quote": "Contented now upon my thigh / I halt",
+        "suggested_fix": "اب مطمئن، اپنی ران کی چوٹ کے باعث / لنگڑاتا ہوں",
+        "translation_quote": "اب میں اپنی ران کے جوڑ کی حالت سے مطمئن / لنگڑاتا ہوں"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 97
+  }
+}
