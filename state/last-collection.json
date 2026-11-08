@@ -1,18 +1,18 @@
 {
   "collection": {
-    "batches_collected": 1,
-    "batches_submitted": 13,
+    "batches_collected": 8,
+    "batches_submitted": 5,
     "discover_source": false,
     "poll_interval_seconds": 60,
     "stop_reason": "wait_budget_exhausted",
-    "submitted_batches": 19,
-    "tasks_created": 1,
+    "submitted_batches": 16,
+    "tasks_created": 3,
     "ticks": 1,
-    "translations_published": 1,
+    "translations_published": 3,
     "wait_budget_seconds": 600
   },
-  "completed_at": "2026-11-08T15:47:33+00:00",
-  "newly_published": 1,
+  "completed_at": "2026-11-08T16:02:18+00:00",
+  "newly_published": 3,
   "operation": "collect",
-  "started_at": "2026-11-08T15:36:49+00:00"
+  "started_at": "2026-11-08T15:51:26+00:00"
 }
