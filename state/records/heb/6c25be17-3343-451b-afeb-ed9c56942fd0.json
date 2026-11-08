@@ -7,6 +7,12 @@
       "event": "automatic_requested",
       "previous_task": null,
       "task": "daff93eb5219d084ce40a3c7b29b515f"
+    },
+    {
+      "at": "2026-11-08T02:45:58+00:00",
+      "event": "not_ready",
+      "reason": "Article UUID mismatch",
+      "task": "daff93eb5219d084ce40a3c7b29b515f"
     }
   ],
   "language": "heb",
