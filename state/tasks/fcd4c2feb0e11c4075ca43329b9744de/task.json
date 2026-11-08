@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "ef3d665f917a4c8e8bf2346e63c4bf44",
   "campaign": "auto-b31628d1b3dd338ebeedf2ce93290afea0a559cea9e146b49eb08179723a4f64",
   "created_at": "2026-11-07T16:24:24+00:00",
   "events": [
@@ -68,18 +67,39 @@
         },
         "total_tokens": 4915
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1143,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 1022,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3654,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 2551,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 4797
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "Poem stanza 7, line 1",
-      "severity": "major",
-      "source_quote": "Yield to me now—for I am weak,",
-      "suggested_fix": "Jisalimishe kwangu sasa—kwa maana mimi ni dhaifu,",
-      "translation_quote": "Nisalimie sasa—kwa maana mimi ni dhaifu,"
+      "location": "Poem, stanza 6, line 3",
+      "severity": "minor",
+      "source_quote": "Faint to revive, and fall to rise;",
+      "suggested_fix": "Ninazimia, kisha napata nguvu; naanguka, kisha ninainuka;",
+      "translation_quote": "Ninazimia ili nipate kufufuka, na kuanguka ili kuinuka;"
     }
   ],
+  "finished_at": "2026-11-08T07:19:12+00:00",
   "id": "fcd4c2feb0e11c4075ca43329b9744de",
   "issue_id": "103c93e0-6e9a-44f6-a6bc-377af8e08e38",
   "language": "swa",
@@ -168,7 +188,7 @@
     }
   },
   "protected": false,
-  "quality_score": 93,
+  "quality_score": 97,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
@@ -188,7 +208,7 @@
     "total_reserved_usd": 0.086764,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "06e2bba937ce86ced2a2682fcfc332bcc329e09bbb284783b9affc01916db9ff",
   "translation_model_actual": "gpt-6-luna"

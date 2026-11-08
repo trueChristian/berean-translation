@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "6e39d65a-930c-4389-a821-af86a932cddb",
+    "response_id": "chatcmpl-Ehp4F0tCRNJThmmwAtREdNInqV3EV",
+    "usage": {
+      "completion_tokens": 1143,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1022,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3654,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2551,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 4797
+    }
+  },
+  "received_at": "2026-11-08T07:19:12+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Poem, stanza 6, line 3",
+        "severity": "minor",
+        "source_quote": "Faint to revive, and fall to rise;",
+        "suggested_fix": "Ninazimia, kisha napata nguvu; naanguka, kisha ninainuka;",
+        "translation_quote": "Ninazimia ili nipate kufufuka, na kuanguka ili kuinuka;"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 97
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Poem, stanza 6, line 3",
+      "severity": "minor",
+      "source_quote": "Faint to revive, and fall to rise;",
+      "suggested_fix": "Ninazimia, kisha napata nguvu; naanguka, kisha ninainuka;",
+      "translation_quote": "Ninazimia ili nipate kufufuka, na kuanguka ili kuinuka;"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

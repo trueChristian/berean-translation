@@ -90767,6 +90767,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/swa/articles/6c25be17-3343-451b-afeb-ed9c56942fd0.html",
+      "html_sha256": "59a3ae98b905a1133f1f032e77aa6cbb3d67246d4f4a615b2b5d902a90403c45",
+      "human_reviewed": false,
+      "id": "6c25be17-3343-451b-afeb-ed9c56942fd0",
+      "images": [
+        {
+          "alt": "Mlango wa zamani wa mbao kando ya ukuta uliochakaa na matawi yenye maua.",
+          "public_path": "/images/articles/6c25be17-3343-451b-afeb-ed9c56942fd0-1.jpg"
+        }
+      ],
+      "issue_id": "103c93e0-6e9a-44f6-a6bc-377af8e08e38",
+      "language": "swa",
+      "language_tag": "sw",
+      "metadata": "content/swa/articles/6c25be17-3343-451b-afeb-ed9c56942fd0.json",
+      "metadata_sha256": "76e277772a120becd30ed293c2635fec16605922c67f2a62b62df6064c3a4551",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
+      "source_translation_key": "06e2bba937ce86ced2a2682fcfc332bcc329e09bbb284783b9affc01916db9ff",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Yakobo Akishindana",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/swa/articles/6c4d3026-69b5-42c2-92aa-02d8ea8d73cf.html",
       "html_sha256": "7245cc65f5ddc8056751a33e5f50c603eedb392ddb6f8860178674ae366deea2",
       "human_reviewed": false,
