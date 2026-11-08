@@ -40136,6 +40136,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/hin/articles/01a0a64f-d629-4e05-b1ec-993f86ef4d68.html",
+      "html_sha256": "b7bbca631de9da0d6eb401e2862208b937d395a1f65b5f042f88ae801b9112d8",
+      "human_reviewed": false,
+      "id": "01a0a64f-d629-4e05-b1ec-993f86ef4d68",
+      "images": [
+        {
+          "alt": "हल्की पृष्ठभूमि के सामने लटकती लंबी पत्तेदार शाखाएँ।",
+          "public_path": "/images/articles/01a0a64f-d629-4e05-b1ec-993f86ef4d68-1.jpg"
+        }
+      ],
+      "issue_id": "103c93e0-6e9a-44f6-a6bc-377af8e08e38",
+      "language": "hin",
+      "language_tag": "hi",
+      "metadata": "content/hin/articles/01a0a64f-d629-4e05-b1ec-993f86ef4d68.json",
+      "metadata_sha256": "ea25247b39d6ebb9f8940a37eee096b3071391760e6f059538bfb04c9334e409",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": null,
+      "source_revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
+      "source_translation_key": "0bd5a7158c3c967ae2d717d605a8900c05380dfe6cec6d3e4b4f139ce0827dab",
+      "status": "ready",
+      "subtitle": null,
+      "title": "वह अपने लोगों का उनके पापों से उद्धार करेगा",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/hin/articles/02db24ae-5132-49c6-a6fd-da73417871e3.html",
       "html_sha256": "5bb22d0284feb9d8002cffb874b877e5aad9697e24b0bb743ada43fe929ef8d2",
       "human_reviewed": false,
