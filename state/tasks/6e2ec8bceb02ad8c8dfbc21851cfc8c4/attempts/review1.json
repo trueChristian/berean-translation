@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-08T07:17:40+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"“重生”部分，关于新生所需时间的段落\",\"severity\":\"major\",\"source_quote\":\"This new birth is not a slow change. It takes years, decades, or even generations.\",\"suggested_fix\":\"这新生不是缓慢的改变。它需要几年、几十年，甚至几代人的时间。\",\"translation_quote\":\"这新生不是缓慢的改变，不需要几年、几十年，甚至几代人的时间。\"}],\"findings_complete\":true,\"passed\":false,\"score\":92}",
+    "content_bytes": 476,
+    "content_evidence_truncated": false,
+    "content_sha256": "1f5a15f7d32d3735492164733c7a974ed6048225e41e77a49a0259ec184a95e2",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 615,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 486,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7272,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6169,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 7887
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

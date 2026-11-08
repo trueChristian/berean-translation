@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "“重生”部分，关于新生所需时间的段落",
+      "severity": "major",
+      "source_quote": "This new birth is not a slow change. It takes years, decades, or even generations.",
+      "suggested_fix": "这新生不是缓慢的改变。它需要几年、几十年，甚至几代人的时间。",
+      "translation_quote": "这新生不是缓慢的改变，不需要几年、几十年，甚至几代人的时间。"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
