@@ -81117,12 +81117,12 @@
       "ai_notice_required": true,
       "direction": "ltr",
       "html": "content/rus/articles/903e4b58-b246-4ee3-85e7-eecf158a7a75.html",
-      "html_sha256": "6882788e369b29168f0b07af60b62c9ebb20d0ddfcd0698cfdeddec2fdfb3469",
+      "html_sha256": "6bb0002a691128a959957545cb5258fae420007a369befd39d38706127c099e9",
       "human_reviewed": false,
       "id": "903e4b58-b246-4ee3-85e7-eecf158a7a75",
       "images": [
         {
-          "alt": "Взрослый держит за руку маленького ребёнка, идущего на улице",
+          "alt": "Взрослый держит за руку маленького ребёнка, гуляющего на свежем воздухе",
           "public_path": "/images/articles/903e4b58-b246-4ee3-85e7-eecf158a7a75-1.jpg"
         }
       ],
@@ -81132,14 +81132,14 @@
       "metadata": "content/rus/articles/903e4b58-b246-4ee3-85e7-eecf158a7a75.json",
       "metadata_sha256": "d593f7022ee5a4bc6784ac53d2be234e4f256c8d1b48aba144e70cd3830a8fa8",
       "provider": "OpenAI",
-      "review_model": "gpt-6.1-sol",
+      "review_model": "gpt-6-luna",
       "section": "От сестры к сестре",
-      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
-      "source_translation_key": "bc655ca0e757a92869b0811d5a6de87a4ca48f1e4eef1923cd7135609b8dc379",
-      "status": "stale",
+      "source_revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
+      "source_translation_key": "aca8415cfcf9e5554286626ac6bcaa5724f97b93dadbcdbbe3b6300ec48874e3",
+      "status": "ready",
       "subtitle": null,
       "title": "Радостное призвание",
-      "translation_model": "gpt-6.1-sol"
+      "translation_model": "gpt-6-luna"
     },
     {
       "ai_notice_required": true,

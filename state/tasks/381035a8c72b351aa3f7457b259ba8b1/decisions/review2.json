@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Абзац 6",
+      "severity": "minor",
+      "source_quote": "are placed in some form of paid childcare arrangement",
+      "suggested_fix": "примерно 27% младенцев и малышей в Америке посещают платные учреждения по уходу за детьми или пользуются другими формами платного ухода",
+      "translation_quote": "примерно 27% младенцев и малышей в Америке находятся на платном уходе в той или иной форме"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

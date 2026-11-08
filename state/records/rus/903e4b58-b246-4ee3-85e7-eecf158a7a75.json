@@ -32,26 +32,39 @@
       "event": "automatic_requested",
       "previous_task": "af13c2f33f4b547eea12a0d6c010b4c4",
       "task": "381035a8c72b351aa3f7457b259ba8b1"
+    },
+    {
+      "archive": "state/publication-history/rus/903e4b58-b246-4ee3-85e7-eecf158a7a75/a1f694fce1fbd0dc3f9da081038bc9d616c4cfeb508621e79768e8c3eb2b7313.json",
+      "at": "2026-11-08T07:19:53+00:00",
+      "event": "publication_replaced",
+      "previous_task": "af13c2f33f4b547eea12a0d6c010b4c4",
+      "task": "381035a8c72b351aa3f7457b259ba8b1"
+    },
+    {
+      "at": "2026-11-08T07:19:53+00:00",
+      "event": "complete",
+      "reason": null,
+      "task": "381035a8c72b351aa3f7457b259ba8b1"
     }
   ],
   "language": "rus",
   "latest_task": "381035a8c72b351aa3f7457b259ba8b1",
   "published": {
     "html_path": "content/rus/articles/903e4b58-b246-4ee3-85e7-eecf158a7a75.html",
-    "html_sha256": "6882788e369b29168f0b07af60b62c9ebb20d0ddfcd0698cfdeddec2fdfb3469",
+    "html_sha256": "6bb0002a691128a959957545cb5258fae420007a369befd39d38706127c099e9",
     "human_review": null,
     "human_reviewed": false,
     "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
     "metadata_path": "content/rus/articles/903e4b58-b246-4ee3-85e7-eecf158a7a75.json",
     "metadata_sha256": "d593f7022ee5a4bc6784ac53d2be234e4f256c8d1b48aba144e70cd3830a8fa8",
-    "model": "gpt-6.1-sol",
-    "notice_html": "<aside class=\"translation-notice\" data-translation-notice=\"ai\" lang=\"ru\" dir=\"ltr\" role=\"note\">\n  <p>Эта статья переведена с помощью искусственного интеллекта OpenAI (модель: gpt-6.1-sol) и ещё не проверена человеком. Английский оригинал является авторитетной версией. При сомнениях в смысле обращайтесь к английскому оригиналу. <a href=\"/en/articles/903e4b58-b246-4ee3-85e7-eecf158a7a75/\" data-source-article-id=\"903e4b58-b246-4ee3-85e7-eecf158a7a75\" hreflang=\"en\">Английский оригинал</a></p>\n</aside>",
-    "published_at": "2026-10-15T01:25:33+00:00",
+    "model": "gpt-6-luna",
+    "notice_html": "<aside class=\"translation-notice\" data-translation-notice=\"ai\" lang=\"ru\" dir=\"ltr\" role=\"note\">\n  <p>Эта статья переведена с помощью искусственного интеллекта OpenAI (модель: gpt-6-luna) и ещё не проверена человеком. Английский оригинал является авторитетной версией. При сомнениях в смысле обращайтесь к английскому оригиналу. <a href=\"/en/articles/903e4b58-b246-4ee3-85e7-eecf158a7a75/\" data-source-article-id=\"903e4b58-b246-4ee3-85e7-eecf158a7a75\" hreflang=\"en\">Английский оригинал</a></p>\n</aside>",
+    "published_at": "2026-11-08T07:19:53+00:00",
     "quality_score": 98,
-    "review_model": "gpt-6.1-sol",
-    "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
-    "source_snapshot": "state/sources/7c85424e5984fd791f1fa504f0338be2aed2d0572a02d43d9b8370601de3fda8.json",
-    "task": "af13c2f33f4b547eea12a0d6c010b4c4",
-    "translation_key": "bc655ca0e757a92869b0811d5a6de87a4ca48f1e4eef1923cd7135609b8dc379"
+    "review_model": "gpt-6-luna",
+    "source_revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
+    "source_snapshot": "state/sources/ee1d1c4c726665ca5725eef036aae90f81e779ea0d47055f2cf908d0b809c75d.json",
+    "task": "381035a8c72b351aa3f7457b259ba8b1",
+    "translation_key": "aca8415cfcf9e5554286626ac6bcaa5724f97b93dadbcdbbe3b6300ec48874e3"
   }
 }

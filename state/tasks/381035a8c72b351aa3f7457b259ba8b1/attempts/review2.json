@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-08T07:19:53+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Абзац 6\",\"severity\":\"minor\",\"source_quote\":\"are placed in some form of paid childcare arrangement\",\"suggested_fix\":\"примерно 27% младенцев и малышей в Америке посещают платные учреждения по уходу за детьми или пользуются другими формами платного ухода\",\"translation_quote\":\"примерно 27% младенцев и малышей в Америке находятся на платном уходе в той или иной форме\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 634,
+    "content_evidence_truncated": false,
+    "content_sha256": "12d8aa4c0be7d4876abf12f03e34d64a3c86dc459d26fcd8b314c99eb4778176",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 781,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 650,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7137,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6034,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 7918
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}
