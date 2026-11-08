@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Stanza 7, first line",
+      "severity": "major",
+      "source_quote": "Yield to me now—for I am weak,",
+      "suggested_fix": "Gib jetzt nach – denn ich bin schwach,",
+      "translation_quote": "Gib dich mir jetzt hin – denn ich bin schwach,"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[85]: source /article[1]/p[12]/br[5] ('start', 'br', ()); translation /article[1]/p[12] ('end', 'p')",
+  "stage": "terminal"
+}
