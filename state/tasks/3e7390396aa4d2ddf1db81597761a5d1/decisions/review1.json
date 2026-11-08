@@ -1,0 +1,35 @@
+{
+  "findings": [
+    {
+      "location": "הפסקה הפותחת „לב שלא חודש ברוח אלוהים”",
+      "severity": "major",
+      "source_quote": "many unbelievers attend church services regularly",
+      "suggested_fix": "החליפו את „מאמינים רבים שאינם מאמינים” ב„אנשים רבים שאינם מאמינים”.",
+      "translation_quote": "מאמינים רבים שאינם מאמינים משתתפים בקביעות בתפילות הכנסייה"
+    },
+    {
+      "location": "הפסקה הפותחת „אבל מה לגבי רבים כל כך אחרים”; הפסקה הפותחת „נדמה שאנו שופטים”; הפסקה הפותחת „התנ״ך אומר”",
+      "severity": "major",
+      "source_quote": "they argue with the Bible ... it’s what the Bible says; However, the Bible is clear; The Bible says that …the fruit of the Spirit",
+      "suggested_fix": "החליפו בכל ארבע ההופעות האלה את „התנ״ך” ב„כתבי הקודש” והתאימו את הפעלים: „מתווכחים עם כתבי הקודש”, „שכך כתוב בכתבי הקודש”, „אולם כתבי הקודש ברורים”, „כתבי הקודש אומרים”. התנ״ך אינו כולל את הברית החדשה, שממנה מובאים כאן הציטוטים.",
+      "translation_quote": "הם מתווכחים עם התנ״ך; שכך כתוב בתנ״ך; אולם התנ״ך ברור; התנ״ך אומר"
+    },
+    {
+      "location": "ציטוט גלטים ה׳:כ״ב–כ״ג",
+      "severity": "major",
+      "source_quote": "gentleness, goodness, faith, meekness, temperance",
+      "suggested_fix": "בציטוט החליפו את „נדיבות” ב„עדינות” ואת „נאמנות” ב„אמונה”, כדי לשמר את התכונות בנוסח האנגלי המודפס ולא להחליפן בתכונות מנוסח אחר.",
+      "translation_quote": "נדיבות, טוב לב, נאמנות, ענווה, שליטה עצמית"
+    },
+    {
+      "location": "הפסקה המתארת את ההטפה בכנסייה הגדולה",
+      "severity": "minor",
+      "source_quote": "The service began",
+      "suggested_fix": "החליפו את „השירות התחיל” ב„התפילה התחילה”.",
+      "translation_quote": "השירות התחיל"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

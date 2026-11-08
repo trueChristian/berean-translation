@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-08T07:46:58+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"הפסקה הפותחת „לב שלא חודש ברוח אלוהים”\",\n      \"severity\": \"major\",\n      \"source_quote\": \"many unbelievers attend church services regularly\",\n      \"suggested_fix\": \"החליפו את „מאמינים רבים שאינם מאמינים” ב„אנשים רבים שאינם מאמינים”.\",\n      \"translation_quote\": \"מאמינים רבים שאינם מאמינים משתתפים בקביעות בתפילות הכנסייה\"\n    },\n    {\n      \"location\": \"הפסקה הפותחת „אבל מה לגבי רבים כל כך אחרים”; הפסקה הפותחת „נדמה שאנו שופטים”; הפסקה הפותחת „התנ״ך אומר”\",\n      \"severity\": \"major\",\n      \"source_quote\": \"they argue with the Bible ... it’s what the Bible says; However, the Bible is clear; The Bible says that …the fruit of the Spirit\",\n      \"suggested_fix\": \"החליפו בכל ארבע ההופעות האלה את „התנ״ך” ב„כתבי הקודש” והתאימו את הפעלים: „מתווכחים עם כתבי הקודש”, „שכך כתוב בכתבי הקודש”, „אולם כתבי הקודש ברורים”, „כתבי הקודש אומרים”. התנ״ך אינו כולל את הברית החדשה, שממנה מובאים כאן הציטוטים.\",\n      \"translation_quote\": \"הם מתווכחים עם התנ״ך; שכך כתוב בתנ״ך; אולם התנ״ך ברור; התנ״ך אומר\"\n    },\n    {\n      \"location\": \"ציטוט גלטים ה׳:כ״ב–כ״ג\",\n      \"severity\": \"major\",\n      \"source_quote\": \"gentleness, goodness, faith, meekness, temperance\",\n      \"suggested_fix\": \"בציטוט החליפו את „נדיבות” ב„עדינות” ואת „נאמנות” ב„אמונה”, כדי לשמר את התכונות בנוסח האנגלי המודפס ולא להחליפן בתכונות מנוסח אחר.\",\n      \"translation_quote\": \"נדיבות, טוב לב, נאמנות, ענווה, שליטה עצמית\"\n    },\n    {\n      \"location\": \"הפסקה המתארת את ההטפה בכנסייה הגדולה\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"The service began\",\n      \"suggested_fix\": \"החליפו את „השירות התחיל” ב„התפילה התחילה”.\",\n      \"translation_quote\": \"השירות התחיל\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": false,\n  \"score\": 91\n}",
+    "content_bytes": 2489,
+    "content_evidence_truncated": false,
+    "content_sha256": "3436967a0933f8796ac66fb59e2c6caaf1218c05404b2f6bb3a9c6b0e452614d",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 700,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 90,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9158,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8055,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 9858
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}
