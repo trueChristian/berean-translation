@@ -1,0 +1,52 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "8dcf18ca-6d19-4846-af48-f85e20160616",
+    "response_id": "chatcmpl-Ei2a7bV7WExvg7bJWPlbWLOoEPbDZ",
+    "usage": {
+      "completion_tokens": 1003,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 717,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5634,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4531,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 6637
+    }
+  },
+  "received_at": "2026-11-08T19:39:04+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Article, paragraph 2",
+        "severity": "major",
+        "source_quote": "They claimed that Scripture was being compromised to pacify the city council.",
+        "suggested_fix": "They claimed that Maandiko yalikuwa yakipotoshwa ili kuuridhisha baraza la jiji.",
+        "translation_quote": "Walidai kwamba Maandiko yalikuwa yakivunjwa ili kuuridhisha baraza la jiji."
+      },
+      {
+        "location": "Article, paragraph 6",
+        "severity": "major",
+        "source_quote": "because of his fiery disposition and skillful oratory abilities.",
+        "suggested_fix": "kwa sababu ya bidii yake yenye motomoto na uwezo wake wa kusema kwa ustadi.",
+        "translation_quote": "kwa sababu ya tabia yake ya uchangamfu na uwezo wake wa kusema kwa ustadi."
+      },
+      {
+        "location": "Article, paragraph 9",
+        "severity": "major",
+        "source_quote": "On September 6, he was burned at the stake along with a fellow minister.",
+        "suggested_fix": "Mnamo Septemba 6, alichomwa akiwa amefungwa kwenye nguzo pamoja na mhudumu mwenzake.",
+        "translation_quote": "Mnamo Septemba 6, alichomwa kwenye mti pamoja na mhudumu mwenzake."
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 91
+  }
+}
