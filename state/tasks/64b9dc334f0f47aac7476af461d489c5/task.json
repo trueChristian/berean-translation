@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "0ac668ca4fa9414da935d3ffb29fac1e",
   "campaign": "auto-d2385ba82f04d036fbde7849d4ba42fed21957b37ad8a354217f090dfabd1a24",
   "created_at": "2026-11-08T02:47:46+00:00",
   "events": [
@@ -28,32 +27,31 @@
         },
         "total_tokens": 5637
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 116,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 84,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3858,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 2755,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 3974
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "कविता, सातवाँ पद, पहली पंक्ति",
-      "severity": "major",
-      "source_quote": "Yield to me now—for I am weak,",
-      "suggested_fix": "अब मेरे आगे झुक जा—क्योंकि मैं निर्बल हूँ,",
-      "translation_quote": "अब मुझ पर दया कर—क्योंकि मैं निर्बल हूँ,"
-    },
-    {
-      "location": "कविता, सातवाँ पद, दूसरी पंक्ति",
-      "severity": "major",
-      "source_quote": "But confident in self-despair;",
-      "suggested_fix": "पर अपने ही निराश हो जाने में आश्वस्त हूँ;",
-      "translation_quote": "पर निराशा के बावजूद आत्मविश्वास से भरा हूँ;"
-    },
-    {
-      "location": "कविता, ग्यारहवाँ पद, तीसरी पंक्ति",
-      "severity": "major",
-      "source_quote": "Withered my nature’s strength, from thee",
-      "suggested_fix": "मेरी प्रकृति का बल मुरझा गया; तुझसे",
-      "translation_quote": "तुझसे दूर होने पर मेरी प्रकृति का बल क्षीण हुआ,"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-11-08T19:39:43+00:00",
   "id": "64b9dc334f0f47aac7476af461d489c5",
   "issue_id": "103c93e0-6e9a-44f6-a6bc-377af8e08e38",
   "language": "hin",
@@ -142,9 +140,11 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/9d1635e3bd5ab75f1e24d51f491424a977dd8f697473a7308d40b9aab6f4782e.json",
   "stage": "review2",
   "stage_budget": {
@@ -158,7 +158,7 @@
     "total_reserved_usd": 0.554195,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "06e2bba937ce86ced2a2682fcfc332bcc329e09bbb284783b9affc01916db9ff",
   "translation_model_actual": "gpt-6.1-sol"
