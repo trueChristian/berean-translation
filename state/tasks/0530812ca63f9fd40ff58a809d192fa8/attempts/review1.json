@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-08T19:38:42+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraf 3\",\"severity\":\"major\",\"source_quote\":\"a despondent group of sixteen men\",\"suggested_fix\":\"sekelompok enam belas pria yang putus asa\",\"translation_quote\":\"sekelompok enam belas pria yang berduka\"},{\"location\":\"Paragraf 4\",\"severity\":\"major\",\"source_quote\":\"the authorities reported him as being an opinionated and obstinate person\",\"suggested_fix\":\"Para pejabat melaporkan bahwa ia adalah orang yang suka mengemukakan pendapat dan keras kepala\",\"translation_quote\":\"Para pejabat melaporkan bahwa ia adalah orang yang keras kepala dan kukuh pendirian\"},{\"location\":\"Paragraf 4\",\"severity\":\"major\",\"source_quote\":\"refusing to renounce the error of his ways\",\"suggested_fix\":\"karena ia menolak meninggalkan apa yang mereka anggap sebagai kesesatan jalannya\",\"translation_quote\":\"karena ia menolak menyangkal kesesatan jalan yang dianutnya\"},{\"location\":\"Paragraf 6\",\"severity\":\"major\",\"source_quote\":\"Soon after Blaurock’s baptism, he was arrested for the first time\",\"suggested_fix\":\"Tak lama setelah baptisan Blaurock, ia ditangkap untuk pertama kalinya\",\"translation_quote\":\"Tak lama setelah dibaptis oleh Blaurock, ia ditangkap untuk pertama kalinya\"}],\"findings_complete\":true,\"passed\":false,\"score\":91}",
+    "content_bytes": 1241,
+    "content_evidence_truncated": false,
+    "content_sha256": "f3d9cd4706c01456ed9482a22b1ddf4ee0af1be921839b892ca8e9958ac9e36c",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 299,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5352,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4249,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 5651
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

@@ -1,0 +1,35 @@
+{
+  "findings": [
+    {
+      "location": "Paragraf 3",
+      "severity": "major",
+      "source_quote": "a despondent group of sixteen men",
+      "suggested_fix": "sekelompok enam belas pria yang putus asa",
+      "translation_quote": "sekelompok enam belas pria yang berduka"
+    },
+    {
+      "location": "Paragraf 4",
+      "severity": "major",
+      "source_quote": "the authorities reported him as being an opinionated and obstinate person",
+      "suggested_fix": "Para pejabat melaporkan bahwa ia adalah orang yang suka mengemukakan pendapat dan keras kepala",
+      "translation_quote": "Para pejabat melaporkan bahwa ia adalah orang yang keras kepala dan kukuh pendirian"
+    },
+    {
+      "location": "Paragraf 4",
+      "severity": "major",
+      "source_quote": "refusing to renounce the error of his ways",
+      "suggested_fix": "karena ia menolak meninggalkan apa yang mereka anggap sebagai kesesatan jalannya",
+      "translation_quote": "karena ia menolak menyangkal kesesatan jalan yang dianutnya"
+    },
+    {
+      "location": "Paragraf 6",
+      "severity": "major",
+      "source_quote": "Soon after Blaurock’s baptism, he was arrested for the first time",
+      "suggested_fix": "Tak lama setelah baptisan Blaurock, ia ditangkap untuk pertama kalinya",
+      "translation_quote": "Tak lama setelah dibaptis oleh Blaurock, ia ditangkap untuk pertama kalinya"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
