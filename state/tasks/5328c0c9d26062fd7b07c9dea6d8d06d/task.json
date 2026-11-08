@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "43a853b3b1fe4ea5a098b1e68175bd58",
   "campaign": "auto-ec19612633d58f11787d2b50cb5bba8f4e268ad3687a7d0a0db559661489edb8",
   "created_at": "2026-11-01T01:11:41+00:00",
   "events": [
@@ -68,25 +67,31 @@
         },
         "total_tokens": 6463
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 513,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 481,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4716,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 4713,
+          "cached_tokens": 0
+        },
+        "total_tokens": 5229
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "Article, paragraph 7",
-      "severity": "major",
-      "source_quote": "I give to God, but I can only give to Him only Himself as He has given Himself to me.",
-      "suggested_fix": "我献给上帝的，唯有祂自己——正如祂已将自己赐给我。",
-      "translation_quote": "我把自己献给上帝，但我所能献给祂的，只有祂自己——正如祂已把自己赐给我。"
-    },
-    {
-      "location": "Article, paragraph 7",
-      "severity": "major",
-      "source_quote": "God gives to me my new self in Christ.",
-      "suggested_fix": "上帝把我在基督里新的自己赐给我。",
-      "translation_quote": "上帝把我在基督里的新生命赐给我。"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-11-08T07:20:37+00:00",
   "id": "5328c0c9d26062fd7b07c9dea6d8d06d",
   "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
   "language": "cmn",
@@ -175,7 +180,7 @@
     }
   },
   "protected": false,
-  "quality_score": 91,
+  "quality_score": 99,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
@@ -195,7 +200,7 @@
     "total_reserved_usd": 0.08778,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "45c04759c5b0f7d8a9038af8cc76e1ff17a52e5b989557b235da9ebe057bb77d",
   "translation_model_actual": "gpt-6-luna"
