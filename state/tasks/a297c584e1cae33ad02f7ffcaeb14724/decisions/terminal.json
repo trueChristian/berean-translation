@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, first poem stanza, line 3",
+      "severity": "minor",
+      "source_quote": "My company before is gone,",
+      "suggested_fix": "My geselskap het voor my uit gegaan,",
+      "translation_quote": "My vorige metgesel is weg,"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

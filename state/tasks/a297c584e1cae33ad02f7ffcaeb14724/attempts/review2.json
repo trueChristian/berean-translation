@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-08T07:19:39+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, first poem stanza, line 3\",\"severity\":\"minor\",\"source_quote\":\"My company before is gone,\",\"suggested_fix\":\"My geselskap het voor my uit gegaan,\",\"translation_quote\":\"My vorige metgesel is weg,\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 278,
+    "content_evidence_truncated": false,
+    "content_sha256": "1e5c6db6924cd33def96c7394f90b8101435332e97916c93bfa3f87ceca6d267",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 904,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 812,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3631,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2528,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 4535
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

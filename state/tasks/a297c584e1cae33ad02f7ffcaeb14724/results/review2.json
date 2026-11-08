@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "d412c39a-24b8-410e-90fc-e67576d129ec",
+    "response_id": "chatcmpl-EhpBiPZduAFD9jXVCBJnhFRrmOnxS",
+    "usage": {
+      "completion_tokens": 904,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 812,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3631,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2528,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 4535
+    }
+  },
+  "received_at": "2026-11-08T07:19:39+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, first poem stanza, line 3",
+        "severity": "minor",
+        "source_quote": "My company before is gone,",
+        "suggested_fix": "My geselskap het voor my uit gegaan,",
+        "translation_quote": "My vorige metgesel is weg,"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}

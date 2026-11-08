@@ -2500,6 +2500,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/afr/articles/6c25be17-3343-451b-afeb-ed9c56942fd0.html",
+      "html_sha256": "2c48106b71081225ca00a2d5677745be5b3b7abb8a7c58de6bda7073727b3ff4",
+      "human_reviewed": false,
+      "id": "6c25be17-3343-451b-afeb-ed9c56942fd0",
+      "images": [
+        {
+          "alt": "’n Ou houtdeur langs ’n verweerde muur en bloeiende takke.",
+          "public_path": "/images/articles/6c25be17-3343-451b-afeb-ed9c56942fd0-1.jpg"
+        }
+      ],
+      "issue_id": "103c93e0-6e9a-44f6-a6bc-377af8e08e38",
+      "language": "afr",
+      "language_tag": "af",
+      "metadata": "content/afr/articles/6c25be17-3343-451b-afeb-ed9c56942fd0.json",
+      "metadata_sha256": "0fba29495ec96d918b7f7f03051efb97b488fa88319bd7c803c2b4bf44dab429",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
+      "source_translation_key": "06e2bba937ce86ced2a2682fcfc332bcc329e09bbb284783b9affc01916db9ff",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Jakob wat worstel",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/afr/articles/6c4d3026-69b5-42c2-92aa-02d8ea8d73cf.html",
       "html_sha256": "b72fcbb8503942ae679c2d5e7077d39a1c544a32c69764012e1bd6a1136c8381",
       "human_reviewed": false,
