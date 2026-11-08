@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Stanza 5, line 6",
+      "severity": "major",
+      "source_quote": "I shall with the God-man prevail.",
+      "suggested_fix": "skal jeg vinne fram hos Gud-mennesket.",
+      "translation_quote": "skal jeg seire over Gud-mennesket."
+    },
+    {
+      "location": "Stanza 10, line 4",
+      "severity": "major",
+      "source_quote": "But stay and love me to the end,",
+      "suggested_fix": "men blir og elsker meg helt til enden,",
+      "translation_quote": "men blir og elsker meg til slutt,"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

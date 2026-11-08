@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-08T00:45:59+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Stanza 5, line 6\",\"severity\":\"major\",\"source_quote\":\"I shall with the God-man prevail.\",\"suggested_fix\":\"skal jeg vinne fram hos Gud-mennesket.\",\"translation_quote\":\"skal jeg seire over Gud-mennesket.\"},{\"location\":\"Stanza 10, line 4\",\"severity\":\"major\",\"source_quote\":\"But stay and love me to the end,\",\"suggested_fix\":\"men blir og elsker meg helt til enden,\",\"translation_quote\":\"men blir og elsker meg til slutt,\"}],\"findings_complete\":true,\"passed\":false,\"score\":91}",
+    "content_bytes": 496,
+    "content_evidence_truncated": false,
+    "content_sha256": "8c2990a72d15fc1e08aad01d43e97d22313611ab8076a85354149bfbb25530c8",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 853,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 705,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3590,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3587,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4443
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}
