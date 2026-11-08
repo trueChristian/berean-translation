@@ -62853,6 +62853,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/nld/articles/3a454052-a824-4d0c-888d-a6b04c8cf917.html",
+      "html_sha256": "e5f45aa246ba498f2a36e349b689cacccebc6a7522e3a44d05a151206a749c5b",
+      "human_reviewed": false,
+      "id": "3a454052-a824-4d0c-888d-a6b04c8cf917",
+      "images": [
+        {
+          "alt": "Rode appels aan een loofrijke appelboom",
+          "public_path": "/images/articles/3a454052-a824-4d0c-888d-a6b04c8cf917-1.jpg"
+        },
+        {
+          "alt": "Een enkele rode appel op een lichtgrijs oppervlak",
+          "public_path": "/images/articles/3a454052-a824-4d0c-888d-a6b04c8cf917-2.jpg"
+        }
+      ],
+      "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
+      "language": "nld",
+      "language_tag": "nl",
+      "metadata": "content/nld/articles/3a454052-a824-4d0c-888d-a6b04c8cf917.json",
+      "metadata_sha256": "d238f339f03f309d430ba496083bc5ec3544840f39724046c5ed82c83d3f9eb7",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "OVERPEINZINGEN VAN EEN MISSIONARIS",
+      "source_revision": "a069ecca8827634ebc256b3b1cabc16aeb942ed7",
+      "source_translation_key": "8dba71a9e8e7624f097828fdb277dce5e5ab51f70a2be94a8e381e89648a56eb",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Aan hun vruchten",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/nld/articles/3b3b3e75-afd9-49a6-ac06-d99a29802261.html",
       "html_sha256": "d7a063f5b5c44eb72ddae76516b84097faac576ed0293aedcf1924361b1c5ecf",
       "human_reviewed": false,

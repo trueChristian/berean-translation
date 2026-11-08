@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "translation.html, alinea beginnend met ‘Het lijkt erop dat we alles’",
+      "severity": "minor",
+      "source_quote": "For Christians we are expected to judge by what they claim.",
+      "suggested_fix": "Bij christenen wordt van ons verwacht dat we hen beoordelen op wat ze beweren.",
+      "translation_quote": "Van christenen verwachten we dat we hen beoordelen op wat ze beweren."
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

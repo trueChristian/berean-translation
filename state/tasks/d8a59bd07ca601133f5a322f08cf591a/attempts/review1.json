@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-08T15:52:23+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"translation.html, alinea beginnend met ‘Het lijkt erop dat we alles’\",\"severity\":\"minor\",\"source_quote\":\"For Christians we are expected to judge by what they claim.\",\"suggested_fix\":\"Bij christenen wordt van ons verwacht dat we hen beoordelen op wat ze beweren.\",\"translation_quote\":\"Van christenen verwachten we dat we hen beoordelen op wat ze beweren.\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 437,
+    "content_evidence_truncated": false,
+    "content_sha256": "ccf650a0aa9a74e20905301fac61ffd56f8cd2d161374398317fb18b1463bb97",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 206,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 94,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8917,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8914,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9123
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}
