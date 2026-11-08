@@ -103106,6 +103106,34 @@
     {
       "ai_notice_required": true,
       "direction": "rtl",
+      "html": "content/urd/articles/a9c1e70c-906d-4eda-ad05-2789badb2369.html",
+      "html_sha256": "3277efcbe76c83388a0c2a90d1a367950aa42c00f6af34a4ded854f1e7979632",
+      "human_reviewed": false,
+      "id": "a9c1e70c-906d-4eda-ad05-2789badb2369",
+      "images": [
+        {
+          "alt": "سمندر پر گلابی، جامنی اور نیلے رنگ کا ایک شوخ غروبِ آفتاب",
+          "public_path": "/images/articles/a9c1e70c-906d-4eda-ad05-2789badb2369-1.jpg"
+        }
+      ],
+      "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
+      "language": "urd",
+      "language_tag": "ur",
+      "metadata": "content/urd/articles/a9c1e70c-906d-4eda-ad05-2789badb2369.json",
+      "metadata_sha256": "943a96158f116a57861aeaa4706656ade87778702c6976a1e2a22c76387a095a",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "نمایاں مضمون",
+      "source_revision": "a069ecca8827634ebc256b3b1cabc16aeb942ed7",
+      "source_translation_key": "8e1431ea881b67c4ad4954313f7377e010f9f58557ffeba6077169e187cbed60",
+      "status": "ready",
+      "subtitle": null,
+      "title": "ایمان اور عقل",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
       "html": "content/urd/articles/aa552c1c-4324-40a5-a7c3-8f36b6a99ee2.html",
       "html_sha256": "0e8f7dd70398f69a548ed504b9c687dad5730237c01a019f95f133199fb315af",
       "human_reviewed": false,
