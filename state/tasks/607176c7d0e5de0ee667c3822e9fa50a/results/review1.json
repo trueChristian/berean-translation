@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "00244b02-5812-4009-a50b-e2a24aa5d384",
+    "response_id": "chatcmpl-EhmIkjbo4wx8278tKAhRCaELevm9m",
+    "usage": {
+      "completion_tokens": 570,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 440,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7480,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6377,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 8050
+    }
+  },
+  "received_at": "2026-11-08T02:46:01+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraphe commençant par « Cette nouvelle naissance n’est pas… »",
+        "severity": "major",
+        "source_quote": "This new birth is not a slow change. It takes years, decades, or even generations.",
+        "suggested_fix": "Cette nouvelle naissance n’est pas un changement lent. Elle prend des années, des décennies, voire des générations.",
+        "translation_quote": "Cette nouvelle naissance n’est pas un changement lent qui prend des années, des décennies, voire des générations."
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 92
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-08T02:46:01+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraphe commençant par « Cette nouvelle naissance n’est pas… »\",\"severity\":\"major\",\"source_quote\":\"This new birth is not a slow change. It takes years, decades, or even generations.\",\"suggested_fix\":\"Cette nouvelle naissance n’est pas un changement lent. Elle prend des années, des décennies, voire des générations.\",\"translation_quote\":\"Cette nouvelle naissance n’est pas un changement lent qui prend des années, des décennies, voire des générations.\"}],\"findings_complete\":true,\"passed\":false,\"score\":92}",
+    "content_bytes": 554,
+    "content_evidence_truncated": false,
+    "content_sha256": "9eb38a35fa0c22cb7627e316f7db1567fd9cae5f82d83f889e5f6ec947658126",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 570,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 440,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7480,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6377,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 8050
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}
