@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Poem, stanza 12, line 1",
+      "severity": "minor",
+      "source_quote": "Contented now upon my thigh / I halt",
+      "suggested_fix": "راضيًا الآن أعرج بسبب إصابة فخذي،",
+      "translation_quote": "راضيًا الآن أعرج على فخذي،"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-08T07:22:00+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Poem, stanza 12, line 1\",\"severity\":\"minor\",\"source_quote\":\"Contented now upon my thigh / I halt\",\"suggested_fix\":\"راضيًا الآن أعرج بسبب إصابة فخذي،\",\"translation_quote\":\"راضيًا الآن أعرج على فخذي،\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 327,
+    "content_evidence_truncated": false,
+    "content_sha256": "1cebb810eefb6005843c942e1a018e25513f07eb638a2f948eb25d60b9362ee4",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 937,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 833,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3639,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3636,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4576
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}
