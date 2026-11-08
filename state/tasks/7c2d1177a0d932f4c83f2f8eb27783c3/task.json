@@ -5,11 +5,41 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "756164fc4c464a54a9c11cde5b48b37a",
   "campaign": "auto-23b6402c5bfd7f5888469bc7abb3be52fc6d5ea90201414d45b1f0f1e187d9b6",
   "created_at": "2026-11-08T07:24:57+00:00",
-  "events": [],
-  "findings": [],
+  "events": [
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 304,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 174,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9479,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 9476,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9783
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "translation.html, aya inayoanza “Niliombwa kuhubiri”",
+      "severity": "minor",
+      "source_quote": "There were short miniskirts and skimpy tops",
+      "suggested_fix": "Badilisha “sketi fupi sana za kubana” kuwa “sketi fupi sana”; chanzo hakisemi kwamba sketi hizo zilikuwa za kubana.",
+      "translation_quote": "Kulikuwa na sketi fupi sana za kubana na blauzi za wazi"
+    }
+  ],
+  "finished_at": "2026-11-08T07:47:15+00:00",
   "id": "7c2d1177a0d932f4c83f2f8eb27783c3",
   "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
   "language": "swa",
@@ -98,9 +128,11 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/ed8e4f3374a7115ead0333cfae7dddfc70b3ec5fcf32f1a2a6c962f76387b296.json",
   "stage": "review1",
   "stage_budget": {
@@ -115,7 +147,7 @@
     "total_reserved_usd": 0.764311,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 0,
   "translation_key": "8dba71a9e8e7624f097828fdb277dce5e5ab51f70a2be94a8e381e89648a56eb",
   "translation_model_actual": "gpt-6-luna"

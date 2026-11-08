@@ -90341,6 +90341,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/swa/articles/3a454052-a824-4d0c-888d-a6b04c8cf917.html",
+      "html_sha256": "7c3ade6997c41db04dfccc3808827b7743429fc573b41dbc825025d2a7d8b423",
+      "human_reviewed": false,
+      "id": "3a454052-a824-4d0c-888d-a6b04c8cf917",
+      "images": [
+        {
+          "alt": "Tufaha nyekundu zikining’inia kwenye mti wa tufaha wenye majani mengi",
+          "public_path": "/images/articles/3a454052-a824-4d0c-888d-a6b04c8cf917-1.jpg"
+        },
+        {
+          "alt": "Tufaha moja jekundu kwenye sehemu ya kijivu chepesi",
+          "public_path": "/images/articles/3a454052-a824-4d0c-888d-a6b04c8cf917-2.jpg"
+        }
+      ],
+      "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
+      "language": "swa",
+      "language_tag": "sw",
+      "metadata": "content/swa/articles/3a454052-a824-4d0c-888d-a6b04c8cf917.json",
+      "metadata_sha256": "90ca78a084c79ae8a44a473f88a01b7dbc15ecdb6340b2d890f77c82aca006d8",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "TAFAKARI ZA MMISHENARI",
+      "source_revision": "a069ecca8827634ebc256b3b1cabc16aeb942ed7",
+      "source_translation_key": "8dba71a9e8e7624f097828fdb277dce5e5ab51f70a2be94a8e381e89648a56eb",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Kwa Matunda Yao",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/swa/articles/3b3b3e75-afd9-49a6-ac06-d99a29802261.html",
       "html_sha256": "8a699dc5654b3fb115c953ac913e0f2db20e33b666f865d1513918d7437e71c3",
       "human_reviewed": false,

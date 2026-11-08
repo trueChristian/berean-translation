@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-08T07:47:15+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"translation.html, aya inayoanza “Niliombwa kuhubiri”\",\"severity\":\"minor\",\"source_quote\":\"There were short miniskirts and skimpy tops\",\"suggested_fix\":\"Badilisha “sketi fupi sana za kubana” kuwa “sketi fupi sana”; chanzo hakisemi kwamba sketi hizo zilikuwa za kubana.\",\"translation_quote\":\"Kulikuwa na sketi fupi sana za kubana na blauzi za wazi\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 436,
+    "content_evidence_truncated": false,
+    "content_sha256": "4bde67aff2ddf0ccfeaea81df102f6d6ed5ed2a918e88ec942e983f6614fc64f",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 304,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 174,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9479,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9476,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9783
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}
