@@ -38180,6 +38180,34 @@
     {
       "ai_notice_required": true,
       "direction": "rtl",
+      "html": "content/heb/articles/7a4d646a-0c04-4b44-a54f-ef63df487f81.html",
+      "html_sha256": "1fc5966efb9d1d0166b525558d633d87293a46eab3fecd6d6114d53dfa795d4a",
+      "human_reviewed": false,
+      "id": "7a4d646a-0c04-4b44-a54f-ef63df487f81",
+      "images": [
+        {
+          "alt": "כדור הארץ בלילה, כפי שהוא נראה מהמסלול, עם ערים מוארות",
+          "public_path": "/images/articles/7a4d646a-0c04-4b44-a54f-ef63df487f81-1.jpg"
+        }
+      ],
+      "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
+      "language": "heb",
+      "language_tag": "he",
+      "metadata": "content/heb/articles/7a4d646a-0c04-4b44-a54f-ef63df487f81.json",
+      "metadata_sha256": "ae859079988f81df385da2eba16a9b5615991978b7ec64dde6fdf32bbf350fcd",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "מאת העורך",
+      "source_revision": "a069ecca8827634ebc256b3b1cabc16aeb942ed7",
+      "source_translation_key": "e52f483f09dabafafef934afe52248c9117008e635c4f1ce75160e79a8b53b14",
+      "status": "ready",
+      "subtitle": null,
+      "title": "מאת העורך",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
       "html": "content/heb/articles/7c9d5015-158a-4c07-92fc-ae40c998d9ae.html",
       "html_sha256": "993bf2d99acc7621942d9a2fab706c50f6d52a559b67770502b78ee31d981d71",
       "human_reviewed": false,

@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "translation.html, paragraph beginning כשאנו עוצרים לרגע",
+      "severity": "minor",
+      "source_quote": "There’s the economic future",
+      "suggested_fix": "החליפו את ״ישנה העתיד הכלכלי״ ב־״ישנו העתיד הכלכלי״.",
+      "translation_quote": "ישנה העתיד הכלכלי"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

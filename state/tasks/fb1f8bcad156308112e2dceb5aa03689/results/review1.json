@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "aeec7b63-7d9d-4c73-b759-bf6c3e42a17f",
+    "response_id": "chatcmpl-Ei0TMzm87xgGMyEjsFzXYf4lDQfOZ",
+    "usage": {
+      "completion_tokens": 140,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 37,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5732,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4629,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 5872
+    }
+  },
+  "received_at": "2026-11-08T17:02:48+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "translation.html, paragraph beginning כשאנו עוצרים לרגע",
+        "severity": "minor",
+        "source_quote": "There’s the economic future",
+        "suggested_fix": "החליפו את ״ישנה העתיד הכלכלי״ ב־״ישנו העתיד הכלכלי״.",
+        "translation_quote": "ישנה העתיד הכלכלי"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}
