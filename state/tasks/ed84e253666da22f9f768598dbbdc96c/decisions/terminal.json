@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Título",
+      "severity": "minor",
+      "source_quote": "From the EDITOR",
+      "suggested_fix": "Do EDITOR",
+      "translation_quote": "Do EDITOR"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}
