@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "35b14405e6864379969e22bb84f879db",
   "campaign": "auto-3817c4fb550c223d70f2a23f264a34367b60ea383bd34d8aa16a466b89e8cd7a",
   "created_at": "2026-11-06T23:38:46+00:00",
   "events": [
@@ -48,18 +47,54 @@
         },
         "total_tokens": 5127
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 962,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 704,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3854,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 3851,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4816
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; a recovery continuation must pass admission",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "HTML/metadata contract",
-      "severity": "critical",
-      "source_quote": "",
-      "suggested_fix": "Article UUID mismatch",
-      "translation_quote": ""
+      "location": "कविता, सातवाँ पद, पहली पंक्ति",
+      "severity": "major",
+      "source_quote": "Yield to me now—for I am weak,",
+      "suggested_fix": "अब मेरे आगे झुक जा—क्योंकि मैं निर्बल हूँ,",
+      "translation_quote": "अब मुझ पर दया कर—क्योंकि मैं निर्बल हूँ,"
+    },
+    {
+      "location": "कविता, सातवाँ पद, दूसरी पंक्ति",
+      "severity": "major",
+      "source_quote": "But confident in self-despair;",
+      "suggested_fix": "पर अपने ही निराश हो जाने में आश्वस्त हूँ;",
+      "translation_quote": "पर निराशा के बावजूद आत्मविश्वास से भरा हूँ;"
+    },
+    {
+      "location": "कविता, ग्यारहवाँ पद, तीसरी पंक्ति",
+      "severity": "major",
+      "source_quote": "Withered my nature’s strength, from thee",
+      "suggested_fix": "मेरी प्रकृति का बल मुरझा गया; तुझसे",
+      "translation_quote": "तुझसे दूर होने पर मेरी प्रकृति का बल क्षीण हुआ,"
     }
   ],
+  "finished_at": "2026-11-08T02:45:42+00:00",
   "id": "2a2a3769039a37438ac0c4af191e6051",
   "issue_id": "103c93e0-6e9a-44f6-a6bc-377af8e08e38",
   "language": "hin",
@@ -148,9 +183,11 @@
     }
   },
   "protected": false,
+  "quality_score": 88,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/9d1635e3bd5ab75f1e24d51f491424a977dd8f697473a7308d40b9aab6f4782e.json",
   "stage": "review2",
   "stage_budget": {
@@ -166,7 +203,7 @@
     "total_reserved_usd": 0.08677,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "06e2bba937ce86ced2a2682fcfc332bcc329e09bbb284783b9affc01916db9ff",
   "translation_model_actual": "gpt-6-luna"

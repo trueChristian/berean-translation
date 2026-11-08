@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "कविता, सातवाँ पद, पहली पंक्ति",
+      "severity": "major",
+      "source_quote": "Yield to me now—for I am weak,",
+      "suggested_fix": "अब मेरे आगे झुक जा—क्योंकि मैं निर्बल हूँ,",
+      "translation_quote": "अब मुझ पर दया कर—क्योंकि मैं निर्बल हूँ,"
+    },
+    {
+      "location": "कविता, सातवाँ पद, दूसरी पंक्ति",
+      "severity": "major",
+      "source_quote": "But confident in self-despair;",
+      "suggested_fix": "पर अपने ही निराश हो जाने में आश्वस्त हूँ;",
+      "translation_quote": "पर निराशा के बावजूद आत्मविश्वास से भरा हूँ;"
+    },
+    {
+      "location": "कविता, ग्यारहवाँ पद, तीसरी पंक्ति",
+      "severity": "major",
+      "source_quote": "Withered my nature’s strength, from thee",
+      "suggested_fix": "मेरी प्रकृति का बल मुरझा गया; तुझसे",
+      "translation_quote": "तुझसे दूर होने पर मेरी प्रकृति का बल क्षीण हुआ,"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}
