@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "9bc51d8e-cb86-40f8-9f47-cf15027d7c9f",
+    "response_id": "chatcmpl-EhnYYEBjPz2PVawdOPELqC2VZelnt",
+    "usage": {
+      "completion_tokens": 88,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5774,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4671,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 5862
+    }
+  },
+  "received_at": "2026-11-08T07:21:23+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "लेख का अंतिम अनुच्छेद",
+        "severity": "major",
+        "source_quote": "Are we gaining or burying?",
+        "suggested_fix": "क्या हम उसे बढ़ा रहे हैं या गाड़ रहे हैं?",
+        "translation_quote": "क्या हम लाभ कमा रहे हैं या उसे गाड़ रहे हैं?"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 91
+  }
+}

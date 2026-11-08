@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "लेख का अंतिम अनुच्छेद",
+      "severity": "major",
+      "source_quote": "Are we gaining or burying?",
+      "suggested_fix": "क्या हम उसे बढ़ा रहे हैं या गाड़ रहे हैं?",
+      "translation_quote": "क्या हम लाभ कमा रहे हैं या उसे गाड़ रहे हैं?"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
