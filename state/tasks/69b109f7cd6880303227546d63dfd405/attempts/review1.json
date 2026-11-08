@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-08T07:18:33+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph beginning «Questa nuova nascita non è...»\",\"severity\":\"major\",\"source_quote\":\"“This new birth is not a slow change. It takes years, decades, or even generations.”\",\"suggested_fix\":\"«Questa nuova nascita non è un cambiamento lento. Richiede anni, decenni o persino generazioni.»\",\"translation_quote\":\"«Questa nuova nascita non è un cambiamento graduale che richiede anni, decenni o persino generazioni.»\"},{\"location\":\"Title\",\"severity\":\"minor\",\"source_quote\":\"“A New Creation”\",\"suggested_fix\":\"«Una nuova creazione»\",\"translation_quote\":\"«Una nuova creatura»\"}],\"findings_complete\":true,\"passed\":false,\"score\":91}",
+    "content_bytes": 671,
+    "content_evidence_truncated": false,
+    "content_sha256": "c466d71176e809349903654162fbcf035eebad396ff1d7e2bae5d68e6d146694",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 634,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 459,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7464,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 7461
+      },
+      "total_tokens": 8098
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}
