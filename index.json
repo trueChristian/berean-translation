@@ -16498,6 +16498,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/cmn/articles/3a454052-a824-4d0c-888d-a6b04c8cf917.html",
+      "html_sha256": "b980b3e3bce67f58c3881ac92805c346d095af604b961a45d296a7d1277de13e",
+      "human_reviewed": false,
+      "id": "3a454052-a824-4d0c-888d-a6b04c8cf917",
+      "images": [
+        {
+          "alt": "红苹果挂在枝叶繁茂的苹果树上",
+          "public_path": "/images/articles/3a454052-a824-4d0c-888d-a6b04c8cf917-1.jpg"
+        },
+        {
+          "alt": "浅灰色表面上的一个红苹果",
+          "public_path": "/images/articles/3a454052-a824-4d0c-888d-a6b04c8cf917-2.jpg"
+        }
+      ],
+      "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
+      "language": "cmn",
+      "language_tag": "zh-Hans",
+      "metadata": "content/cmn/articles/3a454052-a824-4d0c-888d-a6b04c8cf917.json",
+      "metadata_sha256": "c5221cc2fc4b7638562d79feb1b4bd865bc76ab6f5fe3a8403397cac128003d5",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "宣教士的感想",
+      "source_revision": "a069ecca8827634ebc256b3b1cabc16aeb942ed7",
+      "source_translation_key": "8dba71a9e8e7624f097828fdb277dce5e5ab51f70a2be94a8e381e89648a56eb",
+      "status": "ready",
+      "subtitle": null,
+      "title": "凭着他们的果子",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/cmn/articles/3b3b3e75-afd9-49a6-ac06-d99a29802261.html",
       "html_sha256": "784387bdb0d8ecf71180546d76d1e2a65ca3e76dea9c36771b35c42066047211",
       "human_reviewed": false,
