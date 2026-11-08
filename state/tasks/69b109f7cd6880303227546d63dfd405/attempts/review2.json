@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-08T19:40:21+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, paragraph beginning “Quando si nasce di nuovo”\",\"severity\":\"major\",\"source_quote\":\"“they admit that when they try to do good, it is sin.”\",\"suggested_fix\":\"Replace “quando si cerca di fare il bene, si pecca” with “che, quando cercano di fare il bene, ciò è peccato” to preserve the claim that their attempted good is itself sin.\",\"translation_quote\":\"“quando si cerca di fare il bene, si pecca”\"}],\"findings_complete\":true,\"passed\":false,\"score\":91}",
+    "content_bytes": 503,
+    "content_evidence_truncated": false,
+    "content_sha256": "3b448c007d7d52300aa66d7e8e72893978d695e3f23cc3fe7e90edf377158466",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 645,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7463,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7460,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8108
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

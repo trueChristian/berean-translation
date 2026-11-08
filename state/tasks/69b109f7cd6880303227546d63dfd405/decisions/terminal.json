@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraph beginning “Quando si nasce di nuovo”",
+      "severity": "major",
+      "source_quote": "“they admit that when they try to do good, it is sin.”",
+      "suggested_fix": "Replace “quando si cerca di fare il bene, si pecca” with “che, quando cercano di fare il bene, ciò è peccato” to preserve the claim that their attempted good is itself sin.",
+      "translation_quote": "“quando si cerca di fare il bene, si pecca”"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; a recovery continuation must pass admission",
+  "stage": "terminal"
+}
