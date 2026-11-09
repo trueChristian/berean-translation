@@ -94534,6 +94534,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/swe/articles/01a0a64f-d629-4e05-b1ec-993f86ef4d68.html",
+      "html_sha256": "125c6a3b68756f249895c4134db25e64758271524a6dc0b5880b3c8c29388681",
+      "human_reviewed": false,
+      "id": "01a0a64f-d629-4e05-b1ec-993f86ef4d68",
+      "images": [
+        {
+          "alt": "Långa, lövklädda grenar som hänger mot en ljus bakgrund.",
+          "public_path": "/images/articles/01a0a64f-d629-4e05-b1ec-993f86ef4d68-1.jpg"
+        }
+      ],
+      "issue_id": "103c93e0-6e9a-44f6-a6bc-377af8e08e38",
+      "language": "swe",
+      "language_tag": "sv",
+      "metadata": "content/swe/articles/01a0a64f-d629-4e05-b1ec-993f86ef4d68.json",
+      "metadata_sha256": "c7c45d87b1903fdc6d4512c098332178aef594975a47a52d2138c9dd6b97dfce",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": null,
+      "source_revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
+      "source_translation_key": "0bd5a7158c3c967ae2d717d605a8900c05380dfe6cec6d3e4b4f139ce0827dab",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Han ska frälsa sitt folk från deras synder",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/swe/articles/02db24ae-5132-49c6-a6fd-da73417871e3.html",
       "html_sha256": "10f662b38f0eac8b416161941d2252d8508ba32631715040b649bb533b5ba6a3",
       "human_reviewed": false,
