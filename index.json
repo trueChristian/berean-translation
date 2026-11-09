@@ -11889,6 +11889,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ben/articles/324b0fa1-c057-471e-8e90-8eb699e8285a.html",
+      "html_sha256": "2d015634641abea4d6f1d642907bf58ee1e4753efd0d6771d501eacf7daa3d49",
+      "human_reviewed": false,
+      "id": "324b0fa1-c057-471e-8e90-8eb699e8285a",
+      "images": [
+        {
+          "alt": "খোলা বাইবেল ও টবের একটি সবুজ গাছ, পর্দা-ঢাকা জানালার পাশে।",
+          "public_path": "/images/articles/324b0fa1-c057-471e-8e90-8eb699e8285a-1.jpg"
+        },
+        {
+          "alt": "গাছের ডালে লাল কুঁড়ি, পেছনে মৃদুভাবে ঝাপসা পটভূমি।",
+          "public_path": "/images/articles/324b0fa1-c057-471e-8e90-8eb699e8285a-2.jpg"
+        }
+      ],
+      "issue_id": "103c93e0-6e9a-44f6-a6bc-377af8e08e38",
+      "language": "ben",
+      "language_tag": "bn",
+      "metadata": "content/ben/articles/324b0fa1-c057-471e-8e90-8eb699e8285a.json",
+      "metadata_sha256": "c0acefc5a7fed1923251aa49bfba7b3e4b4068bfa4028834c7a736af1c5d5f7b",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": null,
+      "source_revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
+      "source_translation_key": "ffc57a5aa833a4ec2481350c59b2f0532517af685342cc26f3ca07aadfae2d52",
+      "status": "ready",
+      "subtitle": "আবেগগত সংকটে শান্তি খুঁজে পাওয়া",
+      "title": "যিশু খ্রিষ্ট: ভগ্ন মানবতার উত্তর",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ben/articles/33d9d1e5-4428-473d-9549-730d3d980dca.html",
       "html_sha256": "d5ad6281412370ef2f254bfbef14fae53f659af809193374f9f15f99c4851951",
       "human_reviewed": false,
