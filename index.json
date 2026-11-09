@@ -39338,6 +39338,34 @@
     {
       "ai_notice_required": true,
       "direction": "rtl",
+      "html": "content/heb/articles/a9c1e70c-906d-4eda-ad05-2789badb2369.html",
+      "html_sha256": "1d388a11eba0bad9061fc789499a3fce88653e0e115600035bfd7c9d8c0db32d",
+      "human_reviewed": false,
+      "id": "a9c1e70c-906d-4eda-ad05-2789badb2369",
+      "images": [
+        {
+          "alt": "שקיעה עזה בגווני ורוד, סגול וכחול מעל האוקיינוס",
+          "public_path": "/images/articles/a9c1e70c-906d-4eda-ad05-2789badb2369-1.jpg"
+        }
+      ],
+      "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
+      "language": "heb",
+      "language_tag": "he",
+      "metadata": "content/heb/articles/a9c1e70c-906d-4eda-ad05-2789badb2369.json",
+      "metadata_sha256": "648ad6c65c7691c4411e743225b720ecfb066fe6a84ff9af954314f995ace1b1",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "מאמר מומלץ",
+      "source_revision": "a069ecca8827634ebc256b3b1cabc16aeb942ed7",
+      "source_translation_key": "8e1431ea881b67c4ad4954313f7377e010f9f58557ffeba6077169e187cbed60",
+      "status": "ready",
+      "subtitle": null,
+      "title": "אמונה והיגיון",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
       "html": "content/heb/articles/aa552c1c-4324-40a5-a7c3-8f36b6a99ee2.html",
       "html_sha256": "49441034e654d5bcb4449b7bceab783b99be13d3a90070538819cd833346e698",
       "human_reviewed": false,

@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "5e80d3a5c8c14dfcb275b0c195ab1139",
   "campaign": "auto-0a43684de843cfdab3e546c255da656bb45d0dde52fdb5414042ac1ddca8f8c0",
   "created_at": "2026-11-08T23:47:25+00:00",
   "events": [
@@ -48,32 +47,31 @@
         },
         "total_tokens": 7116
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 61,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 29,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4751,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 4748,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4812
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "html, פסקה 6, הציטוט מרומים א׳:18–20",
-      "severity": "major",
-      "source_quote": "against all the godlessness and wickedness of people",
-      "suggested_fix": "החליפו את „נגד כל רשעותם ועוולתם של בני אדם” ב„נגד כל חוסר יראת האל והרשעות של בני האדם”.",
-      "translation_quote": "נגד כל רשעותם ועוולתם של בני אדם"
-    },
-    {
-      "location": "html, פסקה 7, תיאור שכבות הסלע",
-      "severity": "major",
-      "source_quote": "in rock layers that were laid down by water",
-      "suggested_fix": "החליפו את „בשכבות סלע שנוצרו משקיעת מים” ב„בשכבות סלע שהורבדו בידי מים”. המים הם הגורם המשקיע, ולא החומר ששקע.",
-      "translation_quote": "בשכבות סלע שנוצרו משקיעת מים"
-    },
-    {
-      "location": "html, פסקאות 3, 6 ו־7",
-      "severity": "minor",
-      "source_quote": "Hebrews 11:1 affirms; God’s invisible qualities ... have been clearly seen; Birds’ beaks",
-      "suggested_fix": "תקנו ל„באל העברים י״א:1 נאמר”, „נראות בבירור תכונותיו” ו„מקוריהן של ציפורים”, בהתאמה.",
-      "translation_quote": "אל העברים י״א:1 נאמר; נראים בבירור תכונותיו; מקוריהם של ציפורים"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-11-09T05:59:57+00:00",
   "id": "53f8c8a451aee31af175e532a3363521",
   "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
   "language": "heb",
@@ -162,7 +160,7 @@
     }
   },
   "protected": false,
-  "quality_score": 93,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6.1-sol",
@@ -181,7 +179,7 @@
     "total_reserved_usd": 0.714502,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "8e1431ea881b67c4ad4954313f7377e010f9f58557ffeba6077169e187cbed60",
   "translation_model_actual": "gpt-6.1-sol"
