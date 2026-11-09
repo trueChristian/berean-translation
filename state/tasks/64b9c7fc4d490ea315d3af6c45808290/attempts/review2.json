@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-09T09:26:57+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Stanza 4, line 2\",\"severity\":\"minor\",\"source_quote\":\"Or touch the hollow of my thigh;\",\"suggested_fix\":\"Of de holte van mijn dij aan te raken;\",\"translation_quote\":\"Of mijn heup aan te raken;\"},{\"location\":\"Stanza 6, line 3\",\"severity\":\"minor\",\"source_quote\":\"Faint to revive, and fall to rise;\",\"suggested_fix\":\"Bezwijk, herleef, en val om weer op te staan;\",\"translation_quote\":\"Ik bezwijk om weer op krachten te komen, en val om weer op te staan;\"}],\"findings_complete\":true,\"passed\":true,\"score\":97}",
+    "content_bytes": 529,
+    "content_evidence_truncated": false,
+    "content_sha256": "9395fd517d8a744afbaa05cfcd4a681b104c8158ad3fe3d0e0e9a48bda29426a",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 890,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 723,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3583,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3580,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4473
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "97efec79-35d3-4d63-b54d-e4bcd1a15a2c",
+    "response_id": "chatcmpl-EiDdwqtaWVMg68y9RSk8P2ls6eRQm",
+    "usage": {
+      "completion_tokens": 890,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 723,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3583,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3580,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4473
+    }
+  },
+  "received_at": "2026-11-09T09:26:57+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Stanza 4, line 2",
+        "severity": "minor",
+        "source_quote": "Or touch the hollow of my thigh;",
+        "suggested_fix": "Of de holte van mijn dij aan te raken;",
+        "translation_quote": "Of mijn heup aan te raken;"
+      },
+      {
+        "location": "Stanza 6, line 3",
+        "severity": "minor",
+        "source_quote": "Faint to revive, and fall to rise;",
+        "suggested_fix": "Bezwijk, herleef, en val om weer op te staan;",
+        "translation_quote": "Ik bezwijk om weer op krachten te komen, en val om weer op te staan;"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 97
+  }
+}

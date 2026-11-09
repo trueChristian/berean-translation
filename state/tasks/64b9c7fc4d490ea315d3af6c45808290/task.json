@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "7596de24f0a74c22aa09ef04b4af3de2",
   "campaign": "auto-aacffe8ee604cb30f3b13f7f271be1f10021c6942c206edb126e4b88de74e0d1",
   "created_at": "2026-11-07T16:23:56+00:00",
   "events": [
@@ -68,18 +67,46 @@
         },
         "total_tokens": 4644
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 890,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 723,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3583,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 3580,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4473
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "HTML, sixth poem stanza, third line",
-      "severity": "major",
+      "location": "Stanza 4, line 2",
+      "severity": "minor",
+      "source_quote": "Or touch the hollow of my thigh;",
+      "suggested_fix": "Of de holte van mijn dij aan te raken;",
+      "translation_quote": "Of mijn heup aan te raken;"
+    },
+    {
+      "location": "Stanza 6, line 3",
+      "severity": "minor",
       "source_quote": "Faint to revive, and fall to rise;",
-      "suggested_fix": "Ik bezwijm om weer tot leven te komen, en val om weer op te staan;",
-      "translation_quote": "Te zwak om op te leven, en toch val ik om op te staan;"
+      "suggested_fix": "Bezwijk, herleef, en val om weer op te staan;",
+      "translation_quote": "Ik bezwijk om weer op krachten te komen, en val om weer op te staan;"
     }
   ],
+  "finished_at": "2026-11-09T09:26:57+00:00",
   "id": "64b9c7fc4d490ea315d3af6c45808290",
   "issue_id": "103c93e0-6e9a-44f6-a6bc-377af8e08e38",
   "language": "nld",
@@ -168,7 +195,7 @@
     }
   },
   "protected": false,
-  "quality_score": 93,
+  "quality_score": 97,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
@@ -188,7 +215,7 @@
     "total_reserved_usd": 0.086765,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "06e2bba937ce86ced2a2682fcfc332bcc329e09bbb284783b9affc01916db9ff",
   "translation_model_actual": "gpt-6-luna"
