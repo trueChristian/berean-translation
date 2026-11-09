@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-09T16:18:56+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"translation.html, siste avsnitt, listen over teorier\",\"severity\":\"minor\",\"source_quote\":\"Punctuated Equilibrium\",\"suggested_fix\":\"Erstatt «punktert likevekt» med «punktualisme».\",\"translation_quote\":\"punktert likevekt\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 301,
+    "content_evidence_truncated": false,
+    "content_sha256": "a58f91df0683f83020cd0b4849e9f1adc79d41fbe911401af530937065264f49",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 197,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 107,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4656,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4653,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4853
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}

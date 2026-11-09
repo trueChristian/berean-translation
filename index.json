@@ -71821,6 +71821,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/nob/articles/a9c1e70c-906d-4eda-ad05-2789badb2369.html",
+      "html_sha256": "41d69ef86992564a612da96a90d8c3c43a1aaa257c787a4ebc3993bf73f4f493",
+      "human_reviewed": false,
+      "id": "a9c1e70c-906d-4eda-ad05-2789badb2369",
+      "images": [
+        {
+          "alt": "En intens rosa, lilla og blå solnedgang over havet",
+          "public_path": "/images/articles/a9c1e70c-906d-4eda-ad05-2789badb2369-1.jpg"
+        }
+      ],
+      "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
+      "language": "nob",
+      "language_tag": "nb",
+      "metadata": "content/nob/articles/a9c1e70c-906d-4eda-ad05-2789badb2369.json",
+      "metadata_sha256": "4c3f43dc36bc82a2a0b63158053b8bd3be51ccef42f5625f162f8454de683cbf",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "UTVALGT ARTIKKEL",
+      "source_revision": "a069ecca8827634ebc256b3b1cabc16aeb942ed7",
+      "source_translation_key": "8e1431ea881b67c4ad4954313f7377e010f9f58557ffeba6077169e187cbed60",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Tro og fornuft",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/nob/articles/aa552c1c-4324-40a5-a7c3-8f36b6a99ee2.html",
       "html_sha256": "d2764c336db4dd0880dbd3b6af278657117e1222460f340eef506d32a87981c2",
       "human_reviewed": false,

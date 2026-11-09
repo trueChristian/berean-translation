@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "translation.html, siste avsnitt, listen over teorier",
+      "severity": "minor",
+      "source_quote": "Punctuated Equilibrium",
+      "suggested_fix": "Erstatt «punktert likevekt» med «punktualisme».",
+      "translation_quote": "punktert likevekt"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

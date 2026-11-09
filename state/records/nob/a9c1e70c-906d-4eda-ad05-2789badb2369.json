@@ -19,9 +19,32 @@
       "event": "automatic_requested",
       "previous_task": "265096e36da2ab03f6f22cb43b1012c3",
       "task": "284722578b710bc8b2a1ca54fb339190"
+    },
+    {
+      "at": "2026-11-09T16:18:56+00:00",
+      "event": "complete",
+      "reason": null,
+      "task": "284722578b710bc8b2a1ca54fb339190"
     }
   ],
   "language": "nob",
   "latest_task": "284722578b710bc8b2a1ca54fb339190",
-  "published": null
+  "published": {
+    "html_path": "content/nob/articles/a9c1e70c-906d-4eda-ad05-2789badb2369.html",
+    "html_sha256": "41d69ef86992564a612da96a90d8c3c43a1aaa257c787a4ebc3993bf73f4f493",
+    "human_review": null,
+    "human_reviewed": false,
+    "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
+    "metadata_path": "content/nob/articles/a9c1e70c-906d-4eda-ad05-2789badb2369.json",
+    "metadata_sha256": "4c3f43dc36bc82a2a0b63158053b8bd3be51ccef42f5625f162f8454de683cbf",
+    "model": "gpt-6-luna",
+    "notice_html": "<aside class=\"translation-notice\" data-translation-notice=\"ai\" lang=\"nb\" dir=\"ltr\" role=\"note\">\n  <p>Denne artikkelen er oversatt med kunstig intelligens fra OpenAI (modell: gpt-6-luna) og er ennå ikke gjennomgått av et menneske. Den engelske originalen er den autoritative versjonen. Ved tvil om meningen, se den engelske originalen. <a href=\"/en/articles/a9c1e70c-906d-4eda-ad05-2789badb2369/\" data-source-article-id=\"a9c1e70c-906d-4eda-ad05-2789badb2369\" hreflang=\"en\">Engelsk original</a></p>\n</aside>",
+    "published_at": "2026-11-09T16:18:56+00:00",
+    "quality_score": 98,
+    "review_model": "gpt-6.1-sol",
+    "source_revision": "a069ecca8827634ebc256b3b1cabc16aeb942ed7",
+    "source_snapshot": "state/sources/c5a53a68da3d3a0dcfdea44a6be1ec876cbdb82ebcff07b3ac3d5c1401f92201.json",
+    "task": "284722578b710bc8b2a1ca54fb339190",
+    "translation_key": "8e1431ea881b67c4ad4954313f7377e010f9f58557ffeba6077169e187cbed60"
+  }
 }

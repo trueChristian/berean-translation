@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "c9427513-c2fc-420f-9141-95823e3ed340",
+    "response_id": "chatcmpl-EiMD7J9uIfCjkie9kseUbXggkiQPd",
+    "usage": {
+      "completion_tokens": 197,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 107,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4656,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4653,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4853
+    }
+  },
+  "received_at": "2026-11-09T16:18:56+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "translation.html, siste avsnitt, listen over teorier",
+        "severity": "minor",
+        "source_quote": "Punctuated Equilibrium",
+        "suggested_fix": "Erstatt «punktert likevekt» med «punktualisme».",
+        "translation_quote": "punktert likevekt"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}
