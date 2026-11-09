@@ -85769,6 +85769,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/spa/articles/324b0fa1-c057-471e-8e90-8eb699e8285a.html",
+      "html_sha256": "ca076e778977a769aa604d39e5aa56941f1b8ffad08dd1216f35992c6da6e356",
+      "human_reviewed": false,
+      "id": "324b0fa1-c057-471e-8e90-8eb699e8285a",
+      "images": [
+        {
+          "alt": "Una Biblia abierta y una planta verde en maceta junto a una ventana con cortinas.",
+          "public_path": "/images/articles/324b0fa1-c057-471e-8e90-8eb699e8285a-1.jpg"
+        },
+        {
+          "alt": "Brotes rojos en las ramas de un árbol sobre un fondo suavemente desenfocado.",
+          "public_path": "/images/articles/324b0fa1-c057-471e-8e90-8eb699e8285a-2.jpg"
+        }
+      ],
+      "issue_id": "103c93e0-6e9a-44f6-a6bc-377af8e08e38",
+      "language": "spa",
+      "language_tag": "es",
+      "metadata": "content/spa/articles/324b0fa1-c057-471e-8e90-8eb699e8285a.json",
+      "metadata_sha256": "dae31d58658af436a33841c4bcff6875dbef92853602032aadaffcf7c20e1a31",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": null,
+      "source_revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
+      "source_translation_key": "ffc57a5aa833a4ec2481350c59b2f0532517af685342cc26f3ca07aadfae2d52",
+      "status": "ready",
+      "subtitle": "Encontrar paz en medio de una crisis emocional",
+      "title": "Jesucristo, la respuesta a una humanidad quebrantada",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/spa/articles/33d9d1e5-4428-473d-9549-730d3d980dca.html",
       "html_sha256": "4c7b1341b47618571fb0008bb19e06a17ee5834b5726777a9051ab20806a491e",
       "human_reviewed": false,
