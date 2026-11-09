@@ -738,11 +738,17 @@
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {
-      "ai_notice_required": true,
+      "ai_notice_required": false,
       "direction": "ltr",
       "html": "content/afr/articles/1c75dce8-1781-427f-8099-01596d53c2a4.html",
-      "html_sha256": "d460557884c73a69c86e0daeb7ce136c02c0aaae16459b0d206ca9c57dc75d35",
-      "human_reviewed": false,
+      "html_sha256": "b7cd99e561afe896c0c492ac21e0692f31e79086d932a6da76bf2dea65e7bbf5",
+      "human_edit": {
+        "author": "Malachi",
+        "commit": "e90c663c2463cab9aeb926c99c8576ed32921bbc",
+        "email": "163401881+malachivdm@users.noreply.github.com",
+        "time": "2026-11-09T11:22:44+02:00"
+      },
+      "human_reviewed": true,
       "id": "1c75dce8-1781-427f-8099-01596d53c2a4",
       "images": [
         {
@@ -758,15 +764,16 @@
       "language": "afr",
       "language_tag": "af",
       "metadata": "content/afr/articles/1c75dce8-1781-427f-8099-01596d53c2a4.json",
-      "metadata_sha256": "605f39c371fa68ce72af2ceeaeda86433d948ebe5a19fc7aad01b58b14ee7af6",
+      "metadata_sha256": "9e6060ced564379f1dad5df7f959f1de0e29576b42f8626302fbe1d39f9604a5",
+      "notice_present": true,
       "provider": "OpenAI",
       "review_model": "gpt-5-mini-2025-08-07",
       "section": "UITGELIGTE ARTIKEL",
       "source_revision": "0c593068ae71a87738074ab57ca7e4f693248da3",
       "source_translation_key": "c708a92f163f91a647b541a1890a9a3b9e01ab009127cc1bedf521af8ad4b75c",
       "status": "ready",
-      "subtitle": "en rondom my klink die musiek van die sfere.",
-      "title": "AL DIE NATUUR SING",
+      "subtitle": "en rondom my weerklink die musiek van die hemelsfere.",
+      "title": "DIE GANSE NATUUR SING",
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {
