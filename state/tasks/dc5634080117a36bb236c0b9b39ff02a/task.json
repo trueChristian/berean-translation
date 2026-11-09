@@ -5,11 +5,41 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "41170501adbe4bf094b110fad62a2156",
   "campaign": "auto-02b0bfd49bb58d398bab5d15c305179b45beee84e6365c591c2ecc9bbff49b64",
   "created_at": "2026-11-09T09:28:33+00:00",
-  "events": [],
-  "findings": [],
+  "events": [
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 229,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 76,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8288,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8285,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8517
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "translation.html，与教会的关系，第4段末句",
+      "severity": "minor",
+      "source_quote": "It is far better to move on and find a church that you can support than to stay in a church and be in a state of constant opposition.",
+      "suggested_fix": "与其留在一间教会里，却一直持反对态度，不如离开，寻找一间你能够支持的教会。",
+      "translation_quote": "与其留在一间不断反对的教会里，不如离开，寻找一间你能够支持的教会。"
+    }
+  ],
+  "finished_at": "2026-11-09T16:18:39+00:00",
   "id": "dc5634080117a36bb236c0b9b39ff02a",
   "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
   "language": "cmn",
@@ -98,9 +128,11 @@
     }
   },
   "protected": false,
+  "quality_score": 97,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/23952b9369d1e32b38eda00d1f7c2b5d147d745cf7d42d05cb42643608c1533e.json",
   "stage": "review1",
   "stage_budget": {
@@ -115,7 +147,7 @@
     "total_reserved_usd": 0.757503,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 0,
   "translation_key": "9f6334ef29e4721f005d0555a208f22042f8e50609a267a640060ad0068035f3",
   "translation_model_actual": "gpt-6-luna"

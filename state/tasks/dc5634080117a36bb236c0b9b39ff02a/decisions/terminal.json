@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "translation.html，与教会的关系，第4段末句",
+      "severity": "minor",
+      "source_quote": "It is far better to move on and find a church that you can support than to stay in a church and be in a state of constant opposition.",
+      "suggested_fix": "与其留在一间教会里，却一直持反对态度，不如离开，寻找一间你能够支持的教会。",
+      "translation_quote": "与其留在一间不断反对的教会里，不如离开，寻找一间你能够支持的教会。"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

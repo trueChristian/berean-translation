@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "a3e06225-a96a-420d-a850-125f0a82f4e8",
+    "response_id": "chatcmpl-EiMDB5dGTV8CfDpPc2601y4iZGc75",
+    "usage": {
+      "completion_tokens": 229,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 76,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8288,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8285,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8517
+    }
+  },
+  "received_at": "2026-11-09T16:18:39+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "translation.html，与教会的关系，第4段末句",
+        "severity": "minor",
+        "source_quote": "It is far better to move on and find a church that you can support than to stay in a church and be in a state of constant opposition.",
+        "suggested_fix": "与其留在一间教会里，却一直持反对态度，不如离开，寻找一间你能够支持的教会。",
+        "translation_quote": "与其留在一间不断反对的教会里，不如离开，寻找一间你能够支持的教会。"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 97
+  }
+}

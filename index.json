@@ -16832,6 +16832,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/cmn/articles/3b932103-b3fb-450d-885a-eaca95ee48fe.html",
+      "html_sha256": "ae627754dad6c09e2c75a0850ff054bdea8781a647e0f0b86703ff8e4b716936",
+      "human_reviewed": false,
+      "id": "3b932103-b3fb-450d-885a-eaca95ee48fe",
+      "images": [
+        {
+          "alt": "一位年轻人的剪影，站在红色日落的天空下",
+          "public_path": "/images/articles/3b932103-b3fb-450d-885a-eaca95ee48fe-1.jpg"
+        }
+      ],
+      "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
+      "language": "cmn",
+      "language_tag": "zh-Hans",
+      "metadata": "content/cmn/articles/3b932103-b3fb-450d-885a-eaca95ee48fe.json",
+      "metadata_sha256": "8d70e1fbad0dfecd1af714a5dd04ed8256316366bfbbab505953dd7f359e2f81",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "敬虔的家庭",
+      "source_revision": "a069ecca8827634ebc256b3b1cabc16aeb942ed7",
+      "source_translation_key": "9f6334ef29e4721f005d0555a208f22042f8e50609a267a640060ad0068035f3",
+      "status": "ready",
+      "subtitle": "养育青少年",
+      "title": "从童年走向成年",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/cmn/articles/3c581136-51cf-47b2-a38b-3d1ee1d0b864.html",
       "html_sha256": "e75abd871423f43ca9b42b7f7e3b85c20216a3b7cf277f525cc711864bc722d5",
       "human_reviewed": false,
