@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-09T09:26:41+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"translation.html, aya ya mwisho, <strong>USHahidi</strong>\",\"severity\":\"minor\",\"source_quote\":\"They have <strong>NO</strong> workable evidence\",\"suggested_fix\":\"Badilisha kuwa: Hawana ushahidi wowote <strong>KABISA</strong> unaoweza kutumika\",\"translation_quote\":\"Hawana <strong>USHahidi</strong> wowote unaoweza kutumika\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 401,
+    "content_evidence_truncated": false,
+    "content_sha256": "3d960a50455221cd09c07b0ef2826b62498ccb52614f62a03fa338a430f8483a",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 214,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 91,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4777,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 4774
+      },
+      "total_tokens": 4991
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}

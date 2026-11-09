@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "translation.html, aya ya mwisho, <strong>USHahidi</strong>",
+      "severity": "minor",
+      "source_quote": "They have <strong>NO</strong> workable evidence",
+      "suggested_fix": "Badilisha kuwa: Hawana ushahidi wowote <strong>KABISA</strong> unaoweza kutumika",
+      "translation_quote": "Hawana <strong>USHahidi</strong> wowote unaoweza kutumika"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}
