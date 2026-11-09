@@ -19,6 +19,12 @@
       "event": "automatic_requested",
       "previous_task": "c52b4714552255978ec10b905ce8377b",
       "task": "f77eea964bea65b6c3bad23595d173b4"
+    },
+    {
+      "at": "2026-11-09T09:26:38+00:00",
+      "event": "not_ready",
+      "reason": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[36]: source /article[1]/p[5]/em[1]/u[1] ('start', 'u', ()); translation /article[1]/p[5]/em[1] ('end', 'em')",
+      "task": "f77eea964bea65b6c3bad23595d173b4"
     }
   ],
   "language": "ita",

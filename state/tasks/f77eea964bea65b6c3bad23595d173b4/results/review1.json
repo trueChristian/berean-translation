@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "3fa40fc3-6700-4319-8ee4-58b205ea298f",
+    "response_id": "chatcmpl-EiE8kMmX9ZBNi3HMYA5NNjK6p3N05",
+    "usage": {
+      "completion_tokens": 309,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 111,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4627,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3524,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 4936
+    }
+  },
+  "received_at": "2026-11-09T09:26:38+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "translation.html, citazione di Luca 1:1-4",
+        "severity": "minor",
+        "source_quote": "<u>I myself have carefully investigated everything</u> ... <u>you may know the certainty of the things you have been taught.</u>",
+        "suggested_fix": "Ripristinare le due sottolineature nella citazione: «dopo <u>essermi accuratamente informato di ogni cosa</u> dall’origine» e «affinché <u>tu riconosca la certezza degli insegnamenti che hai ricevuto.</u>», mantenendo il resto del paragrafo invariato.",
+        "translation_quote": "dopo essermi accuratamente informato di ogni cosa dall’origine ... affinché tu riconosca la certezza degli insegnamenti che hai ricevuto."
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}

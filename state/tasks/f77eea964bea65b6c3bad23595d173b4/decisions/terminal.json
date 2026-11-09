@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "translation.html, citazione di Luca 1:1-4",
+      "severity": "minor",
+      "source_quote": "<u>I myself have carefully investigated everything</u> ... <u>you may know the certainty of the things you have been taught.</u>",
+      "suggested_fix": "Ripristinare le due sottolineature nella citazione: «dopo <u>essermi accuratamente informato di ogni cosa</u> dall’origine» e «affinché <u>tu riconosca la certezza degli insegnamenti che hai ricevuto.</u>», mantenendo il resto del paragrafo invariato.",
+      "translation_quote": "dopo essermi accuratamente informato di ogni cosa dall’origine ... affinché tu riconosca la certezza degli insegnamenti che hai ricevuto."
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[36]: source /article[1]/p[5]/em[1]/u[1] ('start', 'u', ()); translation /article[1]/p[5]/em[1] ('end', 'em')",
+  "stage": "terminal"
+}
