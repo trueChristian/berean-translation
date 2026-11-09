@@ -2009,7 +2009,7 @@
   },
   "status": "active",
   "task_counts": {
-    "in_batch": 1
+    "queued": 1
   },
   "tasks": [
     "ac34adbe2b7e7a6c16d8aba8e7ce2a94"
