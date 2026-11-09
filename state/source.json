@@ -1458,9 +1458,9 @@
     },
     "1bae0eee-b104-4df8-b428-cf4822ed67a9": {
       "fingerprints": {
-        "html_sha256": "8680cf294601c29d8e9f84b68bb823a88a34d0ef863ae2a5b073ec5f45c969fb",
+        "html_sha256": "f6e5a011ff0e86154a092e6b689cacb0ed800c41c8c2a13eb3512ef55d179c52",
         "metadata_sha256": "2b56f9bc20037a9fa93a7b4d0222679c30ba910988098144592d4b6447c680b6",
-        "structure_sha256": "d8b5debd47eb58e17646e82f6cfa01526687456977542d868a93bd59dce83a8a",
+        "structure_sha256": "f17b4eac77960e2061081b79c29321bf8b8172da5b52a6327de004dd5286e205",
         "text_sha256": "ccc12a8414ec928a4c1ed4f11b405530bbac95ad5cd097325ee3645c11a59ac8",
         "translation_metadata_sha256": "f82b313396fb911b06570396827ad302dff6bf888e7c690eff0ca1129bd94673"
       },
@@ -1468,7 +1468,7 @@
       "issue_id": "e782e138-2ae7-4159-adcb-8df536c52447",
       "sequence": 5,
       "title": "Consecrated",
-      "translation_key": "d8f68bf3c0d2512d6500e4bf1b5b1843c7e769164e7c94a95723b61b6c8ce011"
+      "translation_key": "950a82379a0c968fcf6be5a6e0c6458b8c9a29886787e8187346d97e886df9ed"
     },
     "1bb83eea-79df-42fa-8919-99c206444ab4": {
       "fingerprints": {
@@ -16343,7 +16343,7 @@
       "translation_key": "9ea9ca2e6ca2535eb81fffe7e7a9d7a7b70294c3f61cd7aa67870a24643f38b1"
     }
   },
-  "content_sha256": "faac7299755c84ded9b476dc4a5c80759c492680e7d80dfea1241f888c647d1f",
+  "content_sha256": "bc7a005448753dd19faf925a5b32eb6722c61b3ab4de1e4e7201568a495975c7",
   "fingerprint_origin": "translation-runtime",
   "format_version": "1.0",
   "issues": [
@@ -17759,7 +17759,7 @@
     }
   ],
   "repository": "trueChristian/berean-voice",
-  "revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
+  "revision": "cca63b8ef44beaad13815672f6e42ab9694a0cbd",
   "source_errors": {
     "27d98489-2986-4710-bc1e-590b9ad02133": {
       "article_id": "27d98489-2986-4710-bc1e-590b9ad02133",
