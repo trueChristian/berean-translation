@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-09T16:34:37+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"translation.html, sista stycket, andra meningen\",\"severity\":\"major\",\"source_quote\":\"Unfortunately, the spirit of disbelief in the face of evidence still lingers in our world.\",\"suggested_fix\":\"Ändra ”otrohetens anda” till ”otrons anda” för att återge brist på tro snarare än otrohet.\",\"translation_quote\":\"Tyvärr lever otrohetens anda kvar i vår värld även när den ställs inför bevis.\"},{\"location\":\"translation.html, bibelcitaten i styckena om Lukas och Paulus\",\"severity\":\"minor\",\"source_quote\":\"<u>I myself have carefully investigated everything</u>; <u>you may know the certainty of the things you have been taught.</u>; <u>the creation of the world God’s invisible qualities—his eternal power and divine nature—have been clearly seen, being understood from what has been made, so that people are without excuse</u>\",\"suggested_fix\":\"Återställ källans understrykningar med <u>-taggar runt motsvarande svenska text: ”även jag noggrant har undersökt allt”, ”du kan veta hur tillförlitlig den undervisning är som du har fått” och avsnittet från ”världens skapelse” till ”människorna är utan ursäkt”. Behåll övrig text och HTML-struktur.\",\"translation_quote\":\"även jag noggrant har undersökt allt; du kan veta hur tillförlitlig den undervisning är som du har fått; världens skapelse har nämligen Guds osynliga egenskaper – hans eviga makt och gudomliga natur – tydligt kunnat ses och förstås genom det som har skapats, så att människorna är utan ursäkt.\"}],\"findings_complete\":true,\"passed\":false,\"score\":94}",
+    "content_bytes": 1608,
+    "content_evidence_truncated": false,
+    "content_sha256": "e1b904dae3f0d5af6226c159bc95bdb877d1184e34ae022816d45ae1fe99b965",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 481,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 77,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4653,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3550,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 5134
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}
