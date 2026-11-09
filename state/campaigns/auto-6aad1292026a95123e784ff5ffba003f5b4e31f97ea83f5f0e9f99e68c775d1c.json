@@ -2019,6 +2019,9 @@
     "version": 1
   },
   "status": "active",
+  "task_counts": {
+    "in_batch": 1
+  },
   "tasks": [
     "6b16ec698a82165387c557c6778346a3"
   ]
