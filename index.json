@@ -41434,6 +41434,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/hin/articles/324b0fa1-c057-471e-8e90-8eb699e8285a.html",
+      "html_sha256": "88918c28dd80735403ed9a91d6dd7be8b066d8d17461bd77f0f1d55a8dcf6329",
+      "human_reviewed": false,
+      "id": "324b0fa1-c057-471e-8e90-8eb699e8285a",
+      "images": [
+        {
+          "alt": "पर्दे वाली खिड़की के पास खुली बाइबल और गमले में लगा हरा पौधा।",
+          "public_path": "/images/articles/324b0fa1-c057-471e-8e90-8eb699e8285a-1.jpg"
+        },
+        {
+          "alt": "पेड़ की शाखाओं पर लाल कलियाँ, पीछे हल्का धुँधला दृश्य।",
+          "public_path": "/images/articles/324b0fa1-c057-471e-8e90-8eb699e8285a-2.jpg"
+        }
+      ],
+      "issue_id": "103c93e0-6e9a-44f6-a6bc-377af8e08e38",
+      "language": "hin",
+      "language_tag": "hi",
+      "metadata": "content/hin/articles/324b0fa1-c057-471e-8e90-8eb699e8285a.json",
+      "metadata_sha256": "d600bc8fc557bc002d6e79766b752afd0a7724077f7526cd03ac3916fe162455",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": null,
+      "source_revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
+      "source_translation_key": "ffc57a5aa833a4ec2481350c59b2f0532517af685342cc26f3ca07aadfae2d52",
+      "status": "ready",
+      "subtitle": "भावनात्मक संकट में शांति पाना",
+      "title": "यीशु मसीह, टूटी हुई मानवता का उत्तर",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/hin/articles/33d9d1e5-4428-473d-9549-730d3d980dca.html",
       "html_sha256": "68207bb84f23ecbeb7516e4bd38fbb4b6ed09088719dddf8155f9be31ca42f76",
       "human_reviewed": false,
