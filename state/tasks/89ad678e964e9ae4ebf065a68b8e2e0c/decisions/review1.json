@@ -1,0 +1,77 @@
+{
+  "findings": [
+    {
+      "location": "source.html: first Scripture list, 1 Corinthians 14:34",
+      "severity": "major",
+      "source_quote": "Let your women keep silence in the churches",
+      "suggested_fix": "Replace «στις συναγωγές» with «στις εκκλησίες».",
+      "translation_quote": "Ας σιωπούν οι γυναίκες στις συναγωγές"
+    },
+    {
+      "location": "source.html: paragraph quoting 1 Peter 3:1-2 & 3:6-7",
+      "severity": "major",
+      "source_quote": "they also may without the word be won by the conversation [conduct] of the wives; While they behold your chaste [modest, innocent, perfect, pure] conversation coupled with fear. Even as Sara obeyed Abraham, calling him lord: whose daughters ye are, as long as ye do well, and are not afraid with any amazement [terror]. Likewise, ye husbands, dwell with them according to knowledge",
+      "suggested_fix": "Replace the quotation inside the existing <em> element with: «Ομοίως, γυναίκες, να υποτάσσεστε στους δικούς σας άνδρες, ώστε, ακόμη κι αν κάποιοι δεν υπακούν στον λόγο, να κερδηθούν χωρίς λόγια από τη συμπεριφορά [διαγωγή] των συζύγων τους, καθώς παρατηρούν την αγνή [σεμνή, αθώα, άμεμπτη, καθαρή] συμπεριφορά σας μαζί με σεβασμό. Όπως η Σάρα υπάκουε στον Αβραάμ, αποκαλώντας τον κύριό της· δικές της κόρες είστε, εφόσον κάνετε το καλό και δεν υποκύπτετε σε κανέναν φόβο [τρόμο]. Ομοίως, άνδρες, να ζείτε με τις γυναίκες σας με κατανόηση, αποδίδοντας τιμή στη γυναίκα ως στο ασθενέστερο σκεύος και ως συγκληρονόμο της χάρης της ζωής, <strong>ώστε να μην εμποδίζονται οι προσευχές σας</strong> –Α΄ Πέτρου 3:1-2 &amp; 3:6-7.»",
+      "translation_quote": "δια της ασυλλόγου συμπεριφοράς των γυναικών νικηθείται ... [στήλους, εγκρατή, αμόλυντον] ... των οποίων κόρες εστέ ... Ομοίως, μνηστευθέντες προς αυτά, συζευγνύετε με αυτά κατά γνώσιν"
+    },
+    {
+      "location": "source.html: paragraph explaining “love” after Titus 2:4",
+      "severity": "major",
+      "source_quote": "The word “love,” in to love their husbands ... the word “love” in to love their children",
+      "suggested_fix": "Translate the substantive English phrases: «Η λέξη “αγαπούν” στη φράση <em>να αγαπούν τους συζύγους τους</em> σημαίνει “να τρέφουν τρυφερή αγάπη για τον άνδρα τους”, σε σύγκριση με τη λέξη “αγαπούν” στη φράση <em>να αγαπούν τα παιδιά τους</em>, που σημαίνει “να έχουν μητρική στοργή για τα παιδιά τους”.»",
+      "translation_quote": "Η λέξη «love» στο <em>to love their husbands</em> ... τη λέξη «love» στο <em>to love their children</em>"
+    },
+    {
+      "location": "source.html: paragraph about the infant’s illness, concluding sentence",
+      "severity": "major",
+      "source_quote": "I know not every situation turns out like this one did ... we need to be open with each other with no hidden sin",
+      "suggested_fix": "Use «Ξέρω ότι δεν έχει κάθε κατάσταση την ίδια έκβαση, αλλά ο Θεός μάς δίδαξε ότι πρέπει να είμαστε ανοιχτοί ο ένας με τον άλλον, χωρίς κρυμμένη αμαρτία, ώστε να μην εμποδίζονται οι προσευχές μας.»",
+      "translation_quote": "Δεν ξέρω αν κάθε κατάσταση βγαίνει έτσι ... πρέπει να είμαστε ανοιχτές η μία με την άλλη"
+    },
+    {
+      "location": "source.html: paragraph about the bitter wife",
+      "severity": "major",
+      "source_quote": "the many heartaches that they have suffered",
+      "suggested_fix": "Replace «τα πολλά πονήματα που υπέφεραν» with «τις πολλές οδύνες που υπέστησαν».",
+      "translation_quote": "τα πολλά πονήματα που υπέφεραν"
+    },
+    {
+      "location": "source.html: paragraph beginning “When we think of submission”",
+      "severity": "major",
+      "source_quote": "won through her conversation (or by the way she conducts her life)",
+      "suggested_fix": "Replace «μέσω της συζήτησής της» with «μέσω της συμπεριφοράς της», retaining the parenthetical explanation.",
+      "translation_quote": "κερδηθεί μέσω της συζήτησής της (ή με τον τρόπο που διευθύνει τη ζωή της)"
+    },
+    {
+      "location": "source.html: first Scripture list, 1 Peter 3:6",
+      "severity": "major",
+      "source_quote": "Even as Sara obeyed Abraham, calling him lord: whose daughters ye are",
+      "suggested_fix": "Replace «των οποίων κόρες είστε» with «δικές της κόρες είστε».",
+      "translation_quote": "η Σάρα υπάκουε τον Αβραάμ, αποκαλώντας τον κύριό της: <strong>των οποίων κόρες είστε…</strong>"
+    },
+    {
+      "location": "source.html: Scripture quotations in the first list, Titus paragraphs, and editor’s note",
+      "severity": "minor",
+      "source_quote": "Let the woman learn in silence ... in every thing ... That they may teach the young women ... obedient to their own husbands ... death reigned from Adam",
+      "suggested_fix": "Use contemporary Greek throughout these quotations. In particular, replace «εν σιωπή» with «με σιωπή», «εν παντί» with «σε όλα», «η γυναίκα απατηθείσα εν τω παραπτώματι ήταν» with «η γυναίκα εξαπατήθηκε και έπεσε στην παράβαση», both occurrences of «Ίνα/ίνα διδάσκωσι τας νεωτέρας γυναίκας νηφαλιότητα» with «Για να διδάσκουν τις νεότερες γυναίκες να είναι νηφάλιες», «υπάκουαι τοῖς ἰδίοις ἀνδράσιν» with «υπάκουες στους δικούς τους συζύγους», and «εβασίλευσεν ο θάνατος» with «βασίλεψε ο θάνατος». Modernize the remaining archaic inflections in these same quotations without changing their meaning or markup.",
+      "translation_quote": "εν σιωπή ... εν παντί ... απατηθείσα εν τω παραπτώματι ... ίνα διδάσκωσι τας νεωτέρας ... υπάκουαι τοῖς ἰδίοις ἀνδράσιν ... εβασίλευσεν"
+    },
+    {
+      "location": "source.html: opening discussion and paragraphs on submission, creation, and forgiveness",
+      "severity": "minor",
+      "source_quote": "I don’t feel that I will do justice to it ... we will be taken advantage of ... I am reminded ... give the problem to Him",
+      "suggested_fix": "Correct the respective phrases to «δεν νιώθω ότι θα αναπτύξω το θέμα όπως του αξίζει», «θα μας εκμεταλλευτούν», «θυμάμαι», and «να Του παραδώσουμε το πρόβλημα».",
+      "translation_quote": "δεν νιώθω ότι θα του αποδώσω πλήρως ... θα εκμεταλλευτούν ... με θυμίζει ... να δώσουμε Αυτόν το πρόβλημα"
+    },
+    {
+      "location": "source.html: paragraph discussing rebellion in plain churches",
+      "severity": "minor",
+      "source_quote": "our plain churches",
+      "suggested_fix": "Use «στις εκκλησίες μας που ακολουθούν τον απλό τρόπο ζωής» to convey the religious-community sense of “plain,” rather than merely describing the churches as simple.",
+      "translation_quote": "στις απλές εκκλησίες μας"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
