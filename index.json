@@ -98466,6 +98466,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/swe/articles/a9c1e70c-906d-4eda-ad05-2789badb2369.html",
+      "html_sha256": "aa65fae77f3b2558ff516e12504e4ed60be6596b5c5ca5e12f3b3dd7da7ddd1c",
+      "human_reviewed": false,
+      "id": "a9c1e70c-906d-4eda-ad05-2789badb2369",
+      "images": [
+        {
+          "alt": "En intensivt rosa, lila och blå solnedgång över havet",
+          "public_path": "/images/articles/a9c1e70c-906d-4eda-ad05-2789badb2369-1.jpg"
+        }
+      ],
+      "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
+      "language": "swe",
+      "language_tag": "sv",
+      "metadata": "content/swe/articles/a9c1e70c-906d-4eda-ad05-2789badb2369.json",
+      "metadata_sha256": "82aaaffb5c6c84c73ee93ca01b719c363d5a5711fab6d0dec5e54192db3ba2b8",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "ARTIKEL I FOKUS",
+      "source_revision": "a069ecca8827634ebc256b3b1cabc16aeb942ed7",
+      "source_translation_key": "8e1431ea881b67c4ad4954313f7377e010f9f58557ffeba6077169e187cbed60",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Tro och förnuft",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/swe/articles/aa552c1c-4324-40a5-a7c3-8f36b6a99ee2.html",
       "html_sha256": "363bacc723e7ee618be32329565652025db6f091ecc9e796a94af428ffb72cd6",
       "human_reviewed": false,
