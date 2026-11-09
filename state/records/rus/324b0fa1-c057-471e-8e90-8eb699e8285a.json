@@ -1,0 +1,15 @@
+{
+  "article_id": "324b0fa1-c057-471e-8e90-8eb699e8285a",
+  "history": [
+    {
+      "at": "2026-11-09T06:22:10+00:00",
+      "campaign": "auto-6a4d87b0898a90c0884724de7de071ca9da2c79d9f1f373be274a3ae856a9cd6",
+      "event": "automatic_requested",
+      "previous_task": null,
+      "task": "879ec5dcaa9d07ed6709d697d141a5d5"
+    }
+  ],
+  "language": "rus",
+  "latest_task": "879ec5dcaa9d07ed6709d697d141a5d5",
+  "published": null
+}
