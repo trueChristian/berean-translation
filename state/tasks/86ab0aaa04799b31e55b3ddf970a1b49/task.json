@@ -5,19 +5,42 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "f8a16dcf7b584730a016ecd7f8457b5c",
   "campaign": "auto-7159cecf4e33415b45852303c8d6a49df3ff9c6c0d50ab25d1d8a9e59e4c97d4",
   "created_at": "2026-11-09T16:21:03+00:00",
-  "events": [],
+  "events": [
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 316,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 111,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4627,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 3524,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 4943
+      }
+    }
+  ],
+  "failure": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[36]: source /article[1]/p[5]/em[1]/u[1] ('start', 'u', ()); translation /article[1]/p[5]/em[1] ('end', 'em')",
+  "failure_kind": "invalid_result",
   "findings": [
     {
-      "location": "translation.html, citazione di Luca 1:1-4",
+      "location": "translation.html, paragrafo che inizia «Luca fonda tutto il suo Vangelo»",
       "severity": "minor",
       "source_quote": "<u>I myself have carefully investigated everything</u> ... <u>you may know the certainty of the things you have been taught.</u>",
-      "suggested_fix": "Ripristinare le due sottolineature nella citazione: «dopo <u>essermi accuratamente informato di ogni cosa</u> dall’origine» e «affinché <u>tu riconosca la certezza degli insegnamenti che hai ricevuto.</u>», mantenendo il resto del paragrafo invariato.",
+      "suggested_fix": "Ripristinare le due sottolineature nella citazione: «dopo <u>essermi accuratamente informato di ogni cosa</u> dall’origine» e «affinché <u>tu riconosca la certezza degli insegnamenti che hai ricevuto.</u>», lasciando invariato il resto del paragrafo.",
       "translation_quote": "dopo essermi accuratamente informato di ogni cosa dall’origine ... affinché tu riconosca la certezza degli insegnamenti che hai ricevuto."
     }
   ],
+  "finished_at": "2026-11-09T18:50:51+00:00",
   "id": "86ab0aaa04799b31e55b3ddf970a1b49",
   "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
   "language": "ita",
@@ -106,9 +129,11 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/c5a53a68da3d3a0dcfdea44a6be1ec876cbdb82ebcff07b3ac3d5c1401f92201.json",
   "stage": "review1",
   "stage_budget": {
@@ -123,7 +148,7 @@
     "total_reserved_usd": 0.709801,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 0,
   "translation_key": "8e1431ea881b67c4ad4954313f7377e010f9f58557ffeba6077169e187cbed60",
   "translation_model_actual": "gpt-6-luna"

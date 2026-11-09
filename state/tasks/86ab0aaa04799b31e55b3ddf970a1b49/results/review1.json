@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "22100a15-873b-4c0d-83bd-fc7a22534fdc",
+    "response_id": "chatcmpl-EiMtVAb558ds5KFgPmhrFZnecBPLF",
+    "usage": {
+      "completion_tokens": 316,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 111,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4627,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3524,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 4943
+    }
+  },
+  "received_at": "2026-11-09T18:50:51+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "translation.html, paragrafo che inizia «Luca fonda tutto il suo Vangelo»",
+        "severity": "minor",
+        "source_quote": "<u>I myself have carefully investigated everything</u> ... <u>you may know the certainty of the things you have been taught.</u>",
+        "suggested_fix": "Ripristinare le due sottolineature nella citazione: «dopo <u>essermi accuratamente informato di ogni cosa</u> dall’origine» e «affinché <u>tu riconosca la certezza degli insegnamenti che hai ricevuto.</u>», lasciando invariato il resto del paragrafo.",
+        "translation_quote": "dopo essermi accuratamente informato di ogni cosa dall’origine ... affinché tu riconosca la certezza degli insegnamenti che hai ricevuto."
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}
