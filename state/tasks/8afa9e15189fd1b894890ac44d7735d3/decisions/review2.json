@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Dernier paragraphe",
+      "severity": "minor",
+      "source_quote": "“Let us be faithful to the cross-bearing that Jesus taught… Let us also be brothers to others in cross-bearing”",
+      "suggested_fix": "Remplacer « au portement de la croix enseigné par Jésus » et « dans le portement de la croix » par « à porter la croix comme Jésus l’a enseigné » et « à porter la croix avec les autres » respectivement.",
+      "translation_quote": "« Soyons plutôt fidèles au portement de la croix enseigné par Jésus… Soyons aussi des frères et sœurs pour les autres dans le portement de la croix »"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}
