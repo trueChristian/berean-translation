@@ -2015,6 +2015,9 @@
     "version": 1
   },
   "status": "active",
+  "task_counts": {
+    "queued": 1
+  },
   "tasks": [
     "e4d94f9bda669f877eaf2925dc926c3d"
   ]

@@ -2011,6 +2011,9 @@
     "version": 1
   },
   "status": "active",
+  "task_counts": {
+    "queued": 1
+  },
   "tasks": [
     "d95547307590b6a9a1bdeb5810668823"
   ]
