@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "2b4ea533b1664a619f687ac06001dca0",
   "campaign": "auto-a14473631b3abcbe728a2ed7fb329d21b8fff8da208dbb4e7e9ac85f4f549d14",
   "created_at": "2026-11-08T07:26:42+00:00",
   "events": [
@@ -48,25 +47,31 @@
         },
         "total_tokens": 13644
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 68,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 36,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9107,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 0,
+          "cached_tokens": 9104
+        },
+        "total_tokens": 9175
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "html: Absatz mit Galater 5:22-23",
-      "severity": "major",
-      "source_quote": "love, joy, peace, longsuffering, gentleness, goodness, faith, meekness, temperance",
-      "suggested_fix": "Ersetze „Treue“ durch „Glaube“, um die hier gedruckte englische Aufzählung wiederzugeben.",
-      "translation_quote": "Liebe, Freude, Friede, Langmut, Freundlichkeit, Güte, Treue, Sanftmut, Selbstbeherrschung"
-    },
-    {
-      "location": "html: Absatz vor Matthäus 7:16-20",
-      "severity": "minor",
-      "source_quote": "For Christians we are expected to judge by what they claim.",
-      "suggested_fix": "Bei Christen wird von uns erwartet, dass wir sie danach beurteilen, was sie von sich behaupten.",
-      "translation_quote": "Von Christen erwarten wir, dass wir sie danach beurteilen, was sie von sich behaupten."
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-11-09T09:26:22+00:00",
   "id": "6bc301e5e574eff5ff6ac844f2ec0cab",
   "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
   "language": "deu",
@@ -155,7 +160,7 @@
     }
   },
   "protected": false,
-  "quality_score": 94,
+  "quality_score": 99,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6.1-sol",
@@ -174,7 +179,7 @@
     "total_reserved_usd": 0.769683,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "8dba71a9e8e7624f097828fdb277dce5e5ab51f70a2be94a8e381e89648a56eb",
   "translation_model_actual": "gpt-6.1-sol"

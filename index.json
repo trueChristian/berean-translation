@@ -21725,6 +21725,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/deu/articles/3a454052-a824-4d0c-888d-a6b04c8cf917.html",
+      "html_sha256": "c5458a635b69c4a732a3fd175584e4efa0d034d1e79e2d410fecc4329fa91ce6",
+      "human_reviewed": false,
+      "id": "3a454052-a824-4d0c-888d-a6b04c8cf917",
+      "images": [
+        {
+          "alt": "Rote Äpfel hängen an einem belaubten Apfelbaum",
+          "public_path": "/images/articles/3a454052-a824-4d0c-888d-a6b04c8cf917-1.jpg"
+        },
+        {
+          "alt": "Ein einzelner roter Apfel auf einer hellgrauen Fläche",
+          "public_path": "/images/articles/3a454052-a824-4d0c-888d-a6b04c8cf917-2.jpg"
+        }
+      ],
+      "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
+      "language": "deu",
+      "language_tag": "de",
+      "metadata": "content/deu/articles/3a454052-a824-4d0c-888d-a6b04c8cf917.json",
+      "metadata_sha256": "4ab538b787ea61704acdf809ef5d5d73e2e23af923dde57396803361fdb62ab6",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "GEDANKEN EINES MISSIONARS",
+      "source_revision": "a069ecca8827634ebc256b3b1cabc16aeb942ed7",
+      "source_translation_key": "8dba71a9e8e7624f097828fdb277dce5e5ab51f70a2be94a8e381e89648a56eb",
+      "status": "ready",
+      "subtitle": null,
+      "title": "An ihren Früchten",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/deu/articles/3b3b3e75-afd9-49a6-ac06-d99a29802261.html",
       "html_sha256": "b10117224558e716b375e3aada1b258bd05863e005843e79bdd700a06d1f732a",
       "human_reviewed": false,
