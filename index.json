@@ -23907,6 +23907,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/deu/articles/a9c1e70c-906d-4eda-ad05-2789badb2369.html",
+      "html_sha256": "c00ed193fd294f5bfeec3ce866256c80c7ffdd8fa25c0a585b92c80dc8ef706c",
+      "human_reviewed": false,
+      "id": "a9c1e70c-906d-4eda-ad05-2789badb2369",
+      "images": [
+        {
+          "alt": "Ein leuchtend pinker, violetter und blauer Sonnenuntergang über dem Meer",
+          "public_path": "/images/articles/a9c1e70c-906d-4eda-ad05-2789badb2369-1.jpg"
+        }
+      ],
+      "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
+      "language": "deu",
+      "language_tag": "de",
+      "metadata": "content/deu/articles/a9c1e70c-906d-4eda-ad05-2789badb2369.json",
+      "metadata_sha256": "3e06ae4f13711226832e29584e84ead5bfd87be605608f45f7a9f417b56fd184",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "BEITRAG",
+      "source_revision": "a069ecca8827634ebc256b3b1cabc16aeb942ed7",
+      "source_translation_key": "8e1431ea881b67c4ad4954313f7377e010f9f58557ffeba6077169e187cbed60",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Glaube und Vernunft",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/deu/articles/aa552c1c-4324-40a5-a7c3-8f36b6a99ee2.html",
       "html_sha256": "a31c7fa4712d424ebbdf37834caa8689f2d7550535db6431ee67b059f4dd72e9",
       "human_reviewed": false,

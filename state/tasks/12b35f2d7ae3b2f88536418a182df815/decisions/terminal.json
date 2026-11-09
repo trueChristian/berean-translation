@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "translation.html, erster Absatz, erster Satz",
+      "severity": "minor",
+      "source_quote": "As a young man I remember hearing a popular slogan about faith",
+      "suggested_fix": "Ich erinnere mich daran, als junger Mann einen beliebten Slogan über den Glauben gehört zu haben:",
+      "translation_quote": "Als junger Mann erinnere ich mich daran, einen beliebten Slogan über den Glauben gehört zu haben:"
+    },
+    {
+      "location": "translation.html, letzter Absatz, Aufzählung der Theorien",
+      "severity": "minor",
+      "source_quote": "Punctuated Equilibrium",
+      "suggested_fix": "Ersetzen Sie „das punktuelle Gleichgewicht“ durch „den Punktualismus“.",
+      "translation_quote": "das punktuelle Gleichgewicht"
+    },
+    {
+      "location": "translation.section",
+      "severity": "minor",
+      "source_quote": "FEATURED ARTICLE",
+      "suggested_fix": "HERVORGEHOBENER BEITRAG",
+      "translation_quote": "BEITRAG"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

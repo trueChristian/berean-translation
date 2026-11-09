@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-09T00:14:07+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"translation.html, erster Absatz, erster Satz\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"As a young man I remember hearing a popular slogan about faith\",\n      \"suggested_fix\": \"Ich erinnere mich daran, als junger Mann einen beliebten Slogan über den Glauben gehört zu haben:\",\n      \"translation_quote\": \"Als junger Mann erinnere ich mich daran, einen beliebten Slogan über den Glauben gehört zu haben:\"\n    },\n    {\n      \"location\": \"translation.html, letzter Absatz, Aufzählung der Theorien\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"Punctuated Equilibrium\",\n      \"suggested_fix\": \"Ersetzen Sie „das punktuelle Gleichgewicht“ durch „den Punktualismus“.\",\n      \"translation_quote\": \"das punktuelle Gleichgewicht\"\n    },\n    {\n      \"location\": \"translation.section\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"FEATURED ARTICLE\",\n      \"suggested_fix\": \"HERVORGEHOBENER BEITRAG\",\n      \"translation_quote\": \"BEITRAG\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": true,\n  \"score\": 96\n}",
+    "content_bytes": 1074,
+    "content_evidence_truncated": false,
+    "content_sha256": "932c28ddeca064d9652172c349956ac3c60193ac0888d41cb7927e53c871dc80",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 373,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 91,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4624,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3521,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 4997
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}

@@ -5,11 +5,55 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "6d836dea6d7542aabe5e0858dd98bb52",
   "campaign": "auto-a00da9d244aff7fada53d0f80bd8fa4bc53fdfeaf484f09ec16f50ca7440a605",
   "created_at": "2026-11-08T19:43:48+00:00",
-  "events": [],
-  "findings": [],
+  "events": [
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 373,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 91,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4624,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 3521,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 4997
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "translation.html, erster Absatz, erster Satz",
+      "severity": "minor",
+      "source_quote": "As a young man I remember hearing a popular slogan about faith",
+      "suggested_fix": "Ich erinnere mich daran, als junger Mann einen beliebten Slogan über den Glauben gehört zu haben:",
+      "translation_quote": "Als junger Mann erinnere ich mich daran, einen beliebten Slogan über den Glauben gehört zu haben:"
+    },
+    {
+      "location": "translation.html, letzter Absatz, Aufzählung der Theorien",
+      "severity": "minor",
+      "source_quote": "Punctuated Equilibrium",
+      "suggested_fix": "Ersetzen Sie „das punktuelle Gleichgewicht“ durch „den Punktualismus“.",
+      "translation_quote": "das punktuelle Gleichgewicht"
+    },
+    {
+      "location": "translation.section",
+      "severity": "minor",
+      "source_quote": "FEATURED ARTICLE",
+      "suggested_fix": "HERVORGEHOBENER BEITRAG",
+      "translation_quote": "BEITRAG"
+    }
+  ],
+  "finished_at": "2026-11-09T00:14:07+00:00",
   "id": "12b35f2d7ae3b2f88536418a182df815",
   "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
   "language": "deu",
@@ -98,9 +142,11 @@
     }
   },
   "protected": false,
+  "quality_score": 96,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/c5a53a68da3d3a0dcfdea44a6be1ec876cbdb82ebcff07b3ac3d5c1401f92201.json",
   "stage": "review1",
   "stage_budget": {
@@ -115,7 +161,7 @@
     "total_reserved_usd": 0.711298,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 0,
   "translation_key": "8e1431ea881b67c4ad4954313f7377e010f9f58557ffeba6077169e187cbed60",
   "translation_model_actual": "gpt-6-luna"
