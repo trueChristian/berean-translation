@@ -21013,6 +21013,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/cmn/articles/fe4a7487-2a8a-47c1-96c1-cecbfccbc0dd.html",
+      "html_sha256": "febbbd47a422bdaf0292eac2d40ef8a94acf1589984304fdeae867a7f60d1223",
+      "human_reviewed": false,
+      "id": "fe4a7487-2a8a-47c1-96c1-cecbfccbc0dd",
+      "images": [
+        {
+          "alt": "伊丽莎白·赫什伯格·鲍曼所著《火炭》的封面",
+          "public_path": "/images/articles/fe4a7487-2a8a-47c1-96c1-cecbfccbc0dd-1.jpg"
+        }
+      ],
+      "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
+      "language": "cmn",
+      "language_tag": "zh-Hans",
+      "metadata": "content/cmn/articles/fe4a7487-2a8a-47c1-96c1-cecbfccbc0dd.json",
+      "metadata_sha256": "83d863ceb26398dbd9db3248a8fe13ab9b32bd671cd9e3a15192a88becfac40d",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "书架",
+      "source_revision": "5cc108b7f7605f1c415c013d8d7e8ea4b8e869b1",
+      "source_translation_key": "6b160f8e80ff37efb0c85d952562627a67b0b80775d2b2f8b70bbf018d639db8",
+      "status": "ready",
+      "subtitle": null,
+      "title": "火炭",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/cmn/articles/fe94355d-8741-49a7-8f66-16003daa3f89.html",
       "html_sha256": "825daa0c7009cb8ad1e39772f61cf7e5467f91af1d63e2e24a0ef6bdc5d61b96",
       "human_reviewed": false,
