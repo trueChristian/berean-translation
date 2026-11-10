@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "translation.html, aya inayoanza “Ni matumaini yangu kwamba”",
+      "severity": "minor",
+      "source_quote": "Most of our children’s conversions were initiated by a parent.",
+      "suggested_fix": "Ondoa kistari ndani ya neno: “walipoon-goka” liwe “walipoongoka”.",
+      "translation_quote": "Mara nyingi watoto wetu walipoon-goka, hatua ya kwanza ilichukuliwa na mzazi."
+    },
+    {
+      "location": "translation.html, aya ya mwisho",
+      "severity": "minor",
+      "source_quote": "If properly honed (trained)",
+      "suggested_fix": "Badilisha “WakinoLEWA vizuri” kuwa “Wakinolewa vizuri”.",
+      "translation_quote": "WakinoLEWA vizuri (wakipewa mafunzo)"
+    },
+    {
+      "location": "translation.html, nukuu ya Zaburi 127:5 katika aya ya mwisho",
+      "severity": "minor",
+      "source_quote": "Happy is the man that hath his quiver full of them",
+      "suggested_fix": "Badilisha “aliyeijaza podo lake” kuwa “aliyelijaza podo lake” ili kupatanisha ngeli.",
+      "translation_quote": "Heri mtu yule aliyeijaza podo lake kwa mishale hiyo"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

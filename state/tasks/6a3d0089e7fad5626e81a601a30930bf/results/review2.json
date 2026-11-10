@@ -1,0 +1,52 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "dc185636-9c04-40ad-b666-5efb8fddb1ab",
+    "response_id": "chatcmpl-Eiof2U11vhYFAeowpKAzS0u4kzkul",
+    "usage": {
+      "completion_tokens": 451,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 104,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8981,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8978,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9432
+    }
+  },
+  "received_at": "2026-11-10T22:39:31+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "translation.html, aya inayoanza “Ni matumaini yangu kwamba”",
+        "severity": "minor",
+        "source_quote": "Most of our children’s conversions were initiated by a parent.",
+        "suggested_fix": "Ondoa kistari ndani ya neno: “walipoon-goka” liwe “walipoongoka”.",
+        "translation_quote": "Mara nyingi watoto wetu walipoon-goka, hatua ya kwanza ilichukuliwa na mzazi."
+      },
+      {
+        "location": "translation.html, aya ya mwisho",
+        "severity": "minor",
+        "source_quote": "If properly honed (trained)",
+        "suggested_fix": "Badilisha “WakinoLEWA vizuri” kuwa “Wakinolewa vizuri”.",
+        "translation_quote": "WakinoLEWA vizuri (wakipewa mafunzo)"
+      },
+      {
+        "location": "translation.html, nukuu ya Zaburi 127:5 katika aya ya mwisho",
+        "severity": "minor",
+        "source_quote": "Happy is the man that hath his quiver full of them",
+        "suggested_fix": "Badilisha “aliyeijaza podo lake” kuwa “aliyelijaza podo lake” ili kupatanisha ngeli.",
+        "translation_quote": "Heri mtu yule aliyeijaza podo lake kwa mishale hiyo"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 97
+  }
+}

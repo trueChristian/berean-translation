@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "847ff187ccd1411bb57a1086adca1c15",
   "campaign": "auto-7811894ec5f030db11547932b032bcfc07911e6c92dca0cb033f79f397f3ea4c",
   "created_at": "2026-11-10T07:12:05+00:00",
   "events": [
@@ -48,32 +47,53 @@
         },
         "total_tokens": 13775
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 451,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 104,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8981,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8978,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9432
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "html: aya inayoanza “Mzazi humwongozaje mtoto wake kwenye wokovu?”",
-      "severity": "major",
-      "source_quote": "Be aware of evidence of conviction.",
-      "suggested_fix": "Badilisha “Jihadhari na dalili za hatia ya dhambi” kuwa “Tambua dalili za kuguswa moyoni kuhusu dhambi.”",
-      "translation_quote": "Jihadhari na dalili za hatia ya dhambi."
-    },
-    {
-      "location": "html: aya ya pili chini ya “Uhusiano na kanisa”",
-      "severity": "major",
-      "source_quote": "the gospel as a transformational relationship with God through faith in Jesus",
-      "suggested_fix": "Badilisha sehemu hiyo kuwa “injili kama uhusiano na Mungu unaombadilisha mtu kupitia imani katika Yesu”.",
-      "translation_quote": "injili kama uhusiano unaobadilisha mtu kupitia imani katika Yesu"
-    },
-    {
-      "location": "html: aya inayoanza “Kuthamini si kubembeleza.”",
+      "location": "translation.html, aya inayoanza “Ni matumaini yangu kwamba”",
       "severity": "minor",
-      "source_quote": "Affirming is not flattery. Flattery is praise that is not sincere and often is not true.",
-      "suggested_fix": "Badilisha sentensi hizi mbili kuwa “Kuthamini si kusifu kwa kujipendekeza. Kusifu kwa kujipendekeza ni kutoa sifa zisizo za dhati na ambazo mara nyingi si za kweli.” Neno “kubembeleza” halimaanishi hasa kutoa sifa zisizo za dhati.",
-      "translation_quote": "Kuthamini si kubembeleza. Kubembeleza ni sifa isiyo ya dhati na mara nyingi si ya kweli."
+      "source_quote": "Most of our children’s conversions were initiated by a parent.",
+      "suggested_fix": "Ondoa kistari ndani ya neno: “walipoon-goka” liwe “walipoongoka”.",
+      "translation_quote": "Mara nyingi watoto wetu walipoon-goka, hatua ya kwanza ilichukuliwa na mzazi."
+    },
+    {
+      "location": "translation.html, aya ya mwisho",
+      "severity": "minor",
+      "source_quote": "If properly honed (trained)",
+      "suggested_fix": "Badilisha “WakinoLEWA vizuri” kuwa “Wakinolewa vizuri”.",
+      "translation_quote": "WakinoLEWA vizuri (wakipewa mafunzo)"
+    },
+    {
+      "location": "translation.html, nukuu ya Zaburi 127:5 katika aya ya mwisho",
+      "severity": "minor",
+      "source_quote": "Happy is the man that hath his quiver full of them",
+      "suggested_fix": "Badilisha “aliyeijaza podo lake” kuwa “aliyelijaza podo lake” ili kupatanisha ngeli.",
+      "translation_quote": "Heri mtu yule aliyeijaza podo lake kwa mishale hiyo"
     }
   ],
+  "finished_at": "2026-11-10T22:39:31+00:00",
   "id": "6a3d0089e7fad5626e81a601a30930bf",
   "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
   "language": "swa",
@@ -162,7 +182,7 @@
     }
   },
   "protected": false,
-  "quality_score": 94,
+  "quality_score": 97,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6.1-sol",
@@ -181,7 +201,7 @@
     "total_reserved_usd": 0.761329,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "9f6334ef29e4721f005d0555a208f22042f8e50609a267a640060ad0068035f3",
   "translation_model_actual": "gpt-6.1-sol"

@@ -92410,6 +92410,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/swa/articles/3b932103-b3fb-450d-885a-eaca95ee48fe.html",
+      "html_sha256": "a41af9ba5106d8a7dd31ea450627e59726498ef8a7af0b23a1861e79179f7433",
+      "human_reviewed": false,
+      "id": "3b932103-b3fb-450d-885a-eaca95ee48fe",
+      "images": [
+        {
+          "alt": "Mwonekano wa kivuli cha kijana amesimama chini ya anga jekundu la machweo",
+          "public_path": "/images/articles/3b932103-b3fb-450d-885a-eaca95ee48fe-1.jpg"
+        }
+      ],
+      "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
+      "language": "swa",
+      "language_tag": "sw",
+      "metadata": "content/swa/articles/3b932103-b3fb-450d-885a-eaca95ee48fe.json",
+      "metadata_sha256": "3abda6ff34cc55a5fef12d467bd27dfa04c4ead9276a6401ea2cf7622db5138f",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "NYUMBA YA WACHA MUNGU",
+      "source_revision": "a069ecca8827634ebc256b3b1cabc16aeb942ed7",
+      "source_translation_key": "9f6334ef29e4721f005d0555a208f22042f8e50609a267a640060ad0068035f3",
+      "status": "ready",
+      "subtitle": "Kuwalea Vijana",
+      "title": "Kutoka Utotoni hadi Utu Uzima",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/swa/articles/3dd1acd1-f006-4519-b75c-577439a8b95c.html",
       "html_sha256": "75ae1437bcd21aee51ad0da8fa1362ec12c13fb24d30a494cf2f2a4e4a15ad9b",
       "human_reviewed": false,

@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-10T22:39:31+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"translation.html, aya inayoanza “Ni matumaini yangu kwamba”\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"Most of our children’s conversions were initiated by a parent.\",\n      \"suggested_fix\": \"Ondoa kistari ndani ya neno: “walipoon-goka” liwe “walipoongoka”.\",\n      \"translation_quote\": \"Mara nyingi watoto wetu walipoon-goka, hatua ya kwanza ilichukuliwa na mzazi.\"\n    },\n    {\n      \"location\": \"translation.html, aya ya mwisho\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"If properly honed (trained)\",\n      \"suggested_fix\": \"Badilisha “WakinoLEWA vizuri” kuwa “Wakinolewa vizuri”.\",\n      \"translation_quote\": \"WakinoLEWA vizuri (wakipewa mafunzo)\"\n    },\n    {\n      \"location\": \"translation.html, nukuu ya Zaburi 127:5 katika aya ya mwisho\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"Happy is the man that hath his quiver full of them\",\n      \"suggested_fix\": \"Badilisha “aliyeijaza podo lake” kuwa “aliyelijaza podo lake” ili kupatanisha ngeli.\",\n      \"translation_quote\": \"Heri mtu yule aliyeijaza podo lake kwa mishale hiyo\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": true,\n  \"score\": 97\n}",
+    "content_bytes": 1206,
+    "content_evidence_truncated": false,
+    "content_sha256": "6a022e9e280c51764af8ec673039893686ebb917943fa1845bf65f46d9fdc301",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 451,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 104,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8981,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8978,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9432
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 1
+}
