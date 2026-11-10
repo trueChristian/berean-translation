@@ -103346,6 +103346,34 @@
     {
       "ai_notice_required": true,
       "direction": "rtl",
+      "html": "content/urd/articles/7750b3b4-3c80-48a5-860c-4958331969d7.html",
+      "html_sha256": "b3296dc584c2df8485d8124463a60091710c9c1df3a097fa55a1ca5f9d5bf2af",
+      "human_reviewed": false,
+      "id": "7750b3b4-3c80-48a5-860c-4958331969d7",
+      "images": [
+        {
+          "alt": "پولیس کی وردی میں ایک اہلکار، ہاتھ میں مفلر پہنے ہوئے شخص کی تصویر تھامے ہوئے۔",
+          "public_path": "/images/articles/7750b3b4-3c80-48a5-860c-4958331969d7-1.jpg"
+        }
+      ],
+      "issue_id": "103c93e0-6e9a-44f6-a6bc-377af8e08e38",
+      "language": "urd",
+      "language_tag": "ur",
+      "metadata": "content/urd/articles/7750b3b4-3c80-48a5-860c-4958331969d7.json",
+      "metadata_sha256": "197e5443bd515e1fc32d73b9a77752592ad51eeec1d06ea4941ea837dc90c3c1",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "بچوں کا گوشہ",
+      "source_revision": "6c3e27346b6b031f46e29e723e884fe8407806b7",
+      "source_translation_key": "7a6289704a964734c82f4dfa151db5c6907febafb6cf043a81275c1233c4e238",
+      "status": "ready",
+      "subtitle": null,
+      "title": "مہربانی کی طاقت",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
       "html": "content/urd/articles/77cd4a24-14db-4ba2-905f-4f3ecb1d3ea5.html",
       "html_sha256": "11f34109ed1364793f28d904e1318444ffe2ab3f644d694d4e46fb05b162c199",
       "human_reviewed": false,

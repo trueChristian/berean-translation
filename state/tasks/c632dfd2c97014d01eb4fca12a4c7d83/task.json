@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "986625979aae411881ce19c70c180486",
   "campaign": "auto-0056ab7776f9d58dbfe433dd24463a89fcc50c910cd14d20f983bc44945cacd2",
   "created_at": "2026-11-10T08:56:09+00:00",
   "events": [
@@ -68,39 +67,31 @@
         },
         "total_tokens": 6777
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 26,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4524,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 3421,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 4550
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "پیراگراف 2",
-      "severity": "major",
-      "source_quote": "Would anybody care about a homeless person like me?",
-      "suggested_fix": "کیا کسی کو میرے جیسے بے گھر شخص کی پروا ہوگی؟",
-      "translation_quote": "کیا کسی کو میری جیسے بے گھر شخص کی پروا ہوگی؟"
-    },
-    {
-      "location": "پیراگراف 3",
-      "severity": "minor",
-      "source_quote": "He got up, put his hands in his pockets, and wandered into the alley.",
-      "suggested_fix": "وہ اٹھا، ہاتھ جیبوں میں ڈالے اور گلی میں آہستہ آہستہ چلنے لگا۔",
-      "translation_quote": "وہ اٹھا، ہاتھ جیبوں میں ڈالے اور گلی میں آوارہ چلنے لگا۔"
-    },
-    {
-      "location": "پیراگراف 6",
-      "severity": "minor",
-      "source_quote": "the busy people rushing up and down the street",
-      "suggested_fix": "وہ سڑک پر آگے پیچھے تیزی سے آ جا رہے مصروف لوگوں کو دیکھتا رہا۔",
-      "translation_quote": "وہ سڑک پر اوپر نیچے بھاگتے ہوئے مصروف لوگوں کو دیکھتا رہا۔"
-    },
-    {
-      "location": "پیراگراف 13",
-      "severity": "major",
-      "source_quote": "I am the man in that photo.",
-      "suggested_fix": "“تصویر میں موجود آدمی میں ہی ہوں۔”",
-      "translation_quote": "“تصویر میں موجود آدمی میں ہی ہوں۔”"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-11-10T21:28:48+00:00",
   "id": "c632dfd2c97014d01eb4fca12a4c7d83",
   "issue_id": "103c93e0-6e9a-44f6-a6bc-377af8e08e38",
   "language": "urd",
@@ -189,7 +180,7 @@
     }
   },
   "protected": false,
-  "quality_score": 94,
+  "quality_score": 97,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
@@ -209,7 +200,7 @@
     "total_reserved_usd": 0.08733,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "7a6289704a964734c82f4dfa151db5c6907febafb6cf043a81275c1233c4e238",
   "translation_model_actual": "gpt-6-luna"
