@@ -5,11 +5,152 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "2bea0b9902ea4c0eb12c55d487e815ae",
   "campaign": "auto-c915c26131f35191f5c7ef92c446b42cc28466e32da1cdbc7cefff946225b1f2",
   "created_at": "2026-11-10T17:20:57+00:00",
-  "events": [],
-  "findings": [],
+  "events": [
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 2395,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 66,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5926,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 4823,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 8321
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "translation.html، الفقرة الأولى وفقرة اللحن المستخدم عالمياً",
+      "severity": "major",
+      "source_quote": "found in nearly every hymnal or book of hymns published today; editor of the well-known Anglican hymnal",
+      "suggested_fix": "استبدل «في كل نشيد تقريباً» بـ«في كل مجموعة ترانيم تقريباً»، و«محرر النشيد الأنغليكاني الشهير» بـ«محرر كتاب الترانيم الأنغليكاني الشهير»، مع إبقاء عنوان الكتاب.",
+      "translation_quote": "توجد في كل نشيد تقريباً أو كتاب أناشيد منشور اليوم؛ ومحرر النشيد الأنغليكاني الشهير"
+    },
+    {
+      "location": "translation.html، فقرة كورنوال",
+      "severity": "major",
+      "source_quote": "having a Sunday school of several hundred scholars",
+      "suggested_fix": "استبدل العبارة بـ«كانت لديه مدرسة أحد تضم عدة مئات من التلاميذ».",
+      "translation_quote": "فقد أدار مدرسة أحد أيام الأحد تضم عدة مئات من التلاميذ"
+    },
+    {
+      "location": "translation.html، الوعظة الأخيرة",
+      "severity": "major",
+      "source_quote": "by a timely appreciation and dependance on the death of Christ",
+      "suggested_fix": "استبدل «بتقدير معقول واعتماد على موت المسيح» بـ«بإدراك قيمة موت المسيح والاتكال عليه في الوقت المناسب».",
+      "translation_quote": "بتقدير معقول واعتماد على موت المسيح"
+    },
+    {
+      "location": "translation.html، ختام الخدمة",
+      "severity": "major",
+      "source_quote": "administering the Lord’s Supper to his weeping people",
+      "suggested_fix": "استبدل «بإدارة سر الرب لشعبه الباكي» بـ«بتقديم عشاء الرب لجماعته الباكية».",
+      "translation_quote": "بإدارة سر الرب لشعبه الباكي"
+    },
+    {
+      "location": "translation.title؛ translation.html: جميع مواضع «أبقَ» في القصيدة، وعنوان الأنشودة المقتبس في فقرة مونك، وalt الصورة، واقتباس لوقا؛ المقطع السابع",
+      "severity": "major",
+      "source_quote": "Abide With Me; Abide with us; if Thou abide with me",
+      "suggested_fix": "صحح صيغة الأمر الدالة على البقاء من «أبقَ» إلى «ابقَ» في جميع هذه المواضع، بما فيها العنوان ووصف الصورة. واستبدل «إن أبقيتَ معي» بـ«إن بقيتَ معي».",
+      "translation_quote": "أبقَ معي؛ أبقَ معنا؛ إن أبقيتَ معي"
+    },
+    {
+      "location": "translation.title؛ translation.html: المقطع الأول، alt الصورة، وعنوان الأنشودة في فقرة مونك",
+      "severity": "major",
+      "source_quote": "Fast Falls The Eventide; when other helpers fail, and comforts flee",
+      "suggested_fix": "استبدل «الليل يهطل سريعاً» بـ«المساء يحلّ سريعاً» في المواضع الأربعة، واستبدل «عندما تفشل المساعدات الأخرى، وتهرب العزائم» بـ«حين يعجز سائر المعينين، ويزول العزاء».",
+      "translation_quote": "الليل يهطل سريعاً؛ عندما تفشل المساعدات الأخرى، وتهرب العزائم"
+    },
+    {
+      "location": "translation.html، المقطع الشعري الثالث",
+      "severity": "major",
+      "source_quote": "Not a brief glance I beg, a passing word; ... Familiar, condescending, patient, free, / Come, not to sojourn, but abide, with me.",
+      "suggested_fix": "استبدل «كلمة مروَّضة» بـ«كلمة عابرة»، و«ألف، متضاءل، صبور، كريم» بـ«أليفاً، متواضعاً، صبوراً، كريماً»، و«تعال، لا لتقيم نُزلاً، بل أبقَ، معي» بـ«تعال، لا لتمكث مؤقتاً، بل لتبقى معي»، مع إبقاء فواصل الأسطر.",
+      "translation_quote": "ولا كلمة مروَّضة؛ ... ألف، متضاءل، صبور، كريم، ... تعال، لا لتقيم نُزلاً، بل أبقَ، معي."
+    },
+    {
+      "location": "translation.html، المقطع الشعري السادس",
+      "severity": "major",
+      "source_quote": "What but Thy grace can foil the tempter’s power?",
+      "suggested_fix": "استبدل السطر بـ«أيُّ شيء سوى نعمتك يستطيع أن يُبطل قوة المغوي؟».",
+      "translation_quote": "ما الذي سوى نعمتك يرده عن قوة المغوِّي؟"
+    },
+    {
+      "location": "translation.html، المقطع الشعري السابع",
+      "severity": "major",
+      "source_quote": "Where is death’s sting? Where, grave, thy victory?",
+      "suggested_fix": "استبدل السطر بـ«أين شوكة الموت؟ أين، أيها القبر، انتصارك؟».",
+      "translation_quote": "أين إبرة الموت؟ أين، أيتها القبر، نصرُك؟"
+    },
+    {
+      "location": "translation.html، المقطع الشعري الثامن",
+      "severity": "major",
+      "source_quote": "Hold Thou Thy cross before my closing eyes",
+      "suggested_fix": "استبدل «ثبت صليبك أمام عيناي الختاميتين» بـ«أبقِ صليبك أمام عينيَّ وهما تنغلقان».",
+      "translation_quote": "ثبت صليبك أمام عيناي الختاميتين"
+    },
+    {
+      "location": "translation.html، اقتباس لوقا 24:28-29",
+      "severity": "major",
+      "source_quote": "But they constrained him, saying, Abide with us: for it is toward evening, and the day is far spent. And he went in to tarry with them",
+      "suggested_fix": "استبدل هذا الجزء داخل عنصر em بـ«لكنهما ألحّا عليه قائلين: ابقَ معنا، فقد اقترب المساء ومال النهار إلى نهايته. فدخل ليمكث معهما»، مع إبقاء المرجع والعنصر كما هما.",
+      "translation_quote": "فأقاماه قائلين له: أبقَ معنا لأن النهار قد مضى وقد قرُب المساء. فدخل ليباعد معهم"
+    },
+    {
+      "location": "translation.html، فقرة ألحان ويليام مونك",
+      "severity": "major",
+      "source_quote": "the tune, Eventide; Look, Ye Saints! The Sight Is Glorious",
+      "suggested_fix": "استبدل «المقام Eventide» بـ«لحن Eventide»، واستبدل عنوان الأنشودة بـ«انظروا يا قديسون! ما أمجد هذا المنظر».",
+      "translation_quote": "المقام Eventide؛ انظروا يا قديسيْن! المنظر رائع"
+    },
+    {
+      "location": "translation.html، فقرة المراجع",
+      "severity": "major",
+      "source_quote": "Author- Henry Francis Lyte, 1793-1847 / Composer- William Henry Monk, 1823-1889 / Tune Name - “Eventide”",
+      "suggested_fix": "ترجم أسطر البيانات إلى «المؤلف- هنري فرانسيس لايت، 1793-1847» و«الملحن- ويليام هنري مونك، 1823-1889» و«اسم اللحن- “Eventide”»، مع الحفاظ على عناصر br وem.",
+      "translation_quote": "Author- Henry Francis Lyte, 1793-1847 / Composer- William Henry Monk, 1823-1889 / Tune Name - “Eventide”"
+    },
+    {
+      "location": "translation.html، الفقرة الأولى",
+      "severity": "minor",
+      "source_quote": "It is better to wear out than to rust out.",
+      "suggested_fix": "استبدل «من أن تلتصق بالصدأ» بـ«من أن يبليك الصدأ».",
+      "translation_quote": "من الأفضل أن تتآكل بالعمل من أن تلتصق بالصدأ"
+    },
+    {
+      "location": "translation.html، الفقرة الثانية وفقرة كورنوال",
+      "severity": "minor",
+      "source_quote": "in comparative poverty; his gift of poetry began to appear; that sickroom; Lyte’s noble hymn",
+      "suggested_fix": "استخدم «فقيراً نسبياً» بدلاً من «في فقر مقارن»، و«بدأت موهبته الشعرية تظهر» بدلاً من «بدأ موهبة الشعر تظهر»، و«غرفة المريض» بدلاً من «الغرفة المريضة»، وصحح «أننشوده» إلى «أنشودته».",
+      "translation_quote": "في فقر مقارن؛ بدأ موهبة الشعر تظهر؛ تلك الغرفة المريضة؛ أننشوده النبيلة"
+    },
+    {
+      "location": "translation.html، تقديم القصيدة",
+      "severity": "minor",
+      "source_quote": "wrote the eight stanzas of his last and greatest hymn",
+      "suggested_fix": "استبدل العبارة بـ«فكتب المقاطع الثمانية لأنشودته الأخيرة، وهي أعظم أناشيده».",
+      "translation_quote": "فكتب مقاطع الأنشودة الثمانية الأخيرة والعظمى"
+    },
+    {
+      "location": "translation.html، فقرة اللحن المستخدم عالمياً والفقرة الختامية",
+      "severity": "minor",
+      "source_quote": "He included this song in his first edition; In no other writer",
+      "suggested_fix": "صحح «أدرج هذا الأغنية في طبعةِه الأولى» إلى «أدرج هذه الأغنية في طبعته الأولى»، و«في لا كاتب آخر» إلى «لدى أي كاتب آخر».",
+      "translation_quote": "أدرج هذا الأغنية في طبعةِه الأولى؛ في لا كاتب آخر"
+    }
+  ],
   "id": "66d856ba72da085da09c75f85ff5e860",
   "issue_id": "1a7070c9-fd4f-546b-a220-f267ddb8cf5f",
   "language": "ara",
@@ -98,11 +239,13 @@
     }
   },
   "protected": false,
+  "quality_score": 65,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/4edc62ec40603cbb629a5274f380a8df79d2ef113be92eb5013535a57f3d95a9.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "review1",
     "max_candidate_bytes": 120000,
@@ -115,7 +258,7 @@
     "total_reserved_usd": 0.729605,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 0,
   "translation_key": "79b5e55e7fb97aab3761e2459a9fb23bb81c9f448b930a8dba60f876efb6606b",
   "translation_model_actual": "gpt-5-mini-2025-08-07"
