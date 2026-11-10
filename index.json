@@ -18153,6 +18153,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/cmn/articles/7750b3b4-3c80-48a5-860c-4958331969d7.html",
+      "html_sha256": "6dcea2af2ce1443851d9c45e94653058a175af93bdfdcb64f8e3c39574fa2164",
+      "human_reviewed": false,
+      "id": "7750b3b4-3c80-48a5-860c-4958331969d7",
+      "images": [
+        {
+          "alt": "一名穿制服的警察手持一张照片，照片上的人围着一条围巾。",
+          "public_path": "/images/articles/7750b3b4-3c80-48a5-860c-4958331969d7-1.jpg"
+        }
+      ],
+      "issue_id": "103c93e0-6e9a-44f6-a6bc-377af8e08e38",
+      "language": "cmn",
+      "language_tag": "zh-Hans",
+      "metadata": "content/cmn/articles/7750b3b4-3c80-48a5-860c-4958331969d7.json",
+      "metadata_sha256": "aa5404f543e301f14d2ede032de5f4f4fb5bb004b8463a5abc547b65b3fb7ad4",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "儿童园地",
+      "source_revision": "cca63b8ef44beaad13815672f6e42ab9694a0cbd",
+      "source_translation_key": "7a6289704a964734c82f4dfa151db5c6907febafb6cf043a81275c1233c4e238",
+      "status": "ready",
+      "subtitle": null,
+      "title": "善意的力量",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/cmn/articles/77cd4a24-14db-4ba2-905f-4f3ecb1d3ea5.html",
       "html_sha256": "dc3040e9f9c5232fd1beff89e5359dab378ab4767eaf7d1e32043529c347a440",
       "human_reviewed": false,
