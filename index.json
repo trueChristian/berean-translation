@@ -6828,6 +6828,34 @@
     {
       "ai_notice_required": true,
       "direction": "rtl",
+      "html": "content/ara/articles/3b932103-b3fb-450d-885a-eaca95ee48fe.html",
+      "html_sha256": "71374739b42711e459ed4752173fc6ecc0f709959342826c66215a01c545d1d5",
+      "human_reviewed": false,
+      "id": "3b932103-b3fb-450d-885a-eaca95ee48fe",
+      "images": [
+        {
+          "alt": "ظلّ شخص يافع يقف تحت سماء حمراء عند الغروب",
+          "public_path": "/images/articles/3b932103-b3fb-450d-885a-eaca95ee48fe-1.jpg"
+        }
+      ],
+      "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
+      "language": "ara",
+      "language_tag": "ar",
+      "metadata": "content/ara/articles/3b932103-b3fb-450d-885a-eaca95ee48fe.json",
+      "metadata_sha256": "641ce99d4afd140d04d13a20dc7a4575806a69174d017a8178bb86c883ea4d92",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "البيت التقي",
+      "source_revision": "a069ecca8827634ebc256b3b1cabc16aeb942ed7",
+      "source_translation_key": "9f6334ef29e4721f005d0555a208f22042f8e50609a267a640060ad0068035f3",
+      "status": "ready",
+      "subtitle": "تربية المراهقين",
+      "title": "من الطفولة إلى الرشد",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
       "html": "content/ara/articles/3c581136-51cf-47b2-a38b-3d1ee1d0b864.html",
       "html_sha256": "a9d57645b09813923ca9be983184404d53a2d551023cba7c0605f31c979c32a3",
       "human_reviewed": false,

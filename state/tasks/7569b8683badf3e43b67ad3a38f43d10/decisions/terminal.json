@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "translation.html، فقرة «نرجو أن تكون قد نمّيت علاقة...»",
+      "severity": "minor",
+      "source_quote": "We recognized signs of conviction and lead them to brokenness and repentance",
+      "suggested_fix": "استبدال «وقدمناهم إلى الانكسار والتوبة» بـ«وقدناهم إلى الانكسار والتوبة».",
+      "translation_quote": "لاحظنا علامات التبكيت وقدمناهم إلى الانكسار والتوبة"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

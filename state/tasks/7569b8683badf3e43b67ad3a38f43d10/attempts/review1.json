@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-10T07:09:25+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"translation.html، فقرة «نرجو أن تكون قد نمّيت علاقة...»\",\"severity\":\"minor\",\"source_quote\":\"We recognized signs of conviction and lead them to brokenness and repentance\",\"suggested_fix\":\"استبدال «وقدمناهم إلى الانكسار والتوبة» بـ«وقدناهم إلى الانكسار والتوبة».\",\"translation_quote\":\"لاحظنا علامات التبكيت وقدمناهم إلى الانكسار والتوبة\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 552,
+    "content_evidence_truncated": false,
+    "content_sha256": "c3732cacc8eca69206871a7cfb5feb6fdf5c7d82e3357d8fe62df6c9b35eca56",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 208,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 81,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8550,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7447,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 8758
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}
