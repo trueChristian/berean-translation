@@ -5,11 +5,245 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "0c08866c8f874554890b0d3ccefb8848",
   "campaign": "auto-648e6e9643445848b6fbda5ccc336e6f1ead0beab7c26b50d0f96258bfce7f60",
   "created_at": "2026-11-10T00:32:07+00:00",
-  "events": [],
-  "findings": [],
+  "events": [
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 3796,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 75,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 10651,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 9548,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 14447
+      }
+    }
+  ],
+  "failure": "Review report is incomplete; all returned findings are retained for owner attention",
+  "failure_kind": "incomplete_review",
+  "findings": [
+    {
+      "location": "html, paragraph beginning כשאני נוסע",
+      "severity": "major",
+      "source_quote": "act the same as mainstream America",
+      "suggested_fix": "החליפו את „מתנהגות כמו אמריקה המרכזית” ב„מתנהגות כמו הזרם המרכזי בחברה האמריקאית”.",
+      "translation_quote": "מתנהגות כמו אמריקה המרכזית"
+    },
+    {
+      "location": "html, grocery-store paragraph",
+      "severity": "major",
+      "source_quote": "I love you Mennonites ... we did not cause conviction in her heart",
+      "suggested_fix": "תקנו ל„אני אוהבת אתכם, המנוניטים; אתם כל כך חמודים!” ובהמשך ל„לא עוררנו בליבה הכרה בחטא”.",
+      "translation_quote": "אני אוהבת את המנוניטים שלכם ... לא גרמנו לה לחטט בליבה"
+    },
+    {
+      "location": "html, Haiti church paragraph, final sentence",
+      "severity": "major",
+      "source_quote": "That is why Christians used to be hated by those around them.",
+      "suggested_fix": "תקנו ל„משום כך הנוצרים היו <em>בעבר</em> שנואים על הסובבים אותם.”",
+      "translation_quote": "לכן פעם נהגו לשנוא את הנוצרים הסביבם."
+    },
+    {
+      "location": "html, John 3:3 quotation",
+      "severity": "major",
+      "source_quote": "Except a man be born again",
+      "suggested_fix": "החליפו את „אם לא יוולד איש מלמעלה” ב„אם אדם לא ייוולד מחדש”, בהתאם לנוסח האנגלי המצוטט.",
+      "translation_quote": "אם לא יוולד איש מלמעלה"
+    },
+    {
+      "location": "html, paragraph beginning היום אנו מנסים",
+      "severity": "major",
+      "source_quote": "our unregenerated human nature ... an adamic nature ... from our mother’s womb",
+      "suggested_fix": "תקנו את הביטויים ל„טבענו האנושי שלא נולד מחדש” ול„אנו נולדים מרחם אימנו עם טבעו של אדם הראשון (נטייה לעשיית רע)”.",
+      "translation_quote": "אופיו הבלתי־חדש של האדם ... טבע אדם־עדמתי ... מימי בטנם של אימנו"
+    },
+    {
+      "location": "html, Jeremiah 17:9-10 quotations",
+      "severity": "major",
+      "source_quote": "The heart is deceitful above all things, and desperately wicked: who can know it? ... I the LORD search the heart, I try the reins",
+      "suggested_fix": "תקנו את תוכן הציטוטים ל„הלב רמאי יותר מכול ורע עד מאוד; מי יכול להכיר אותו?” ול„אני, יהוה, חוקר את הלב ובוחן את צפונות הנפש…”, תוך שמירת תגיות em וההפניות הקיימות.",
+      "translation_quote": "הלב מרמה מכל־דברים וקדם לכל ... אָנֹכִי יְהוָה חוֹקֵר לֵב וּמֵבִחֵן שָׁרָשִׁים"
+    },
+    {
+      "location": "html, John 3:14 quotation",
+      "severity": "major",
+      "source_quote": "as Moses lifted up the serpent",
+      "suggested_fix": "החליפו את „כמו שמע משה הרים” ב„כפי שמשה הרים”.",
+      "translation_quote": "כמו שמע משה הרים"
+    },
+    {
+      "location": "html, John 3:20 quotation",
+      "severity": "major",
+      "source_quote": "every one that doeth evil ... lest his deeds should be reproved",
+      "suggested_fix": "תקנו ל„…כל העושה רע שונא את האור ואינו בא אל האור, פן ייחשפו מעשיו ויוכחו כרעים – יוחנן ג:20”.",
+      "translation_quote": "כל עשה רע ... פן תובחן מעשיו"
+    },
+    {
+      "location": "html, Galatians 5:24 quotation",
+      "severity": "major",
+      "source_quote": "And they that are Christ’s have crucified the flesh",
+      "suggested_fix": "החליפו את „והיה אנשי המשיח צלבו” ב„ואלה השייכים למשיח צלבו”.",
+      "translation_quote": "והיה אנשי המשיח צלבו"
+    },
+    {
+      "location": "html, first list, Romans 10:9-10",
+      "severity": "major",
+      "source_quote": "confess with thy mouth the Lord Jesus",
+      "suggested_fix": "תקנו את הציטוט ל„אם תודה בפיך שישוע הוא האדון ותאמין בליבך שאלוהים הקים אותו מן המתים, תיוושע… – רומיים י:9-10.”",
+      "translation_quote": "אם תַּוּכַח בפיך את האדון ישוע"
+    },
+    {
+      "location": "html, first list, Acts 2:38",
+      "severity": "major",
+      "source_quote": "Repent, and be baptized every one of you in the name of Jesus Christ",
+      "suggested_fix": "החליפו את „תשׁוּבו, ומתקדשים כל אחד מכם בכח השם ישוע המשיח” ב„שובו בתשובה, והיטבלו כל אחד מכם בשם ישוע המשיח”.",
+      "translation_quote": "תשׁוּבו, ומתקדשים כל אחד מכם בכח השם ישוע המשיח"
+    },
+    {
+      "location": "html, first list, Hebrews 4:2",
+      "severity": "major",
+      "source_quote": "the word preached did not profit them, not being mixed with faith in them that heard it",
+      "suggested_fix": "תקנו ל„…הדבר שהוכרז לא הועיל להם, מפני שלא השתלב באמונה אצל השומעים – העברים ד:2.”",
+      "translation_quote": "והמלה שהוטתה לא הועילה להם, כי לא נטמעה באמונתם של השומעים"
+    },
+    {
+      "location": "html, first list, Luke 3:3",
+      "severity": "major",
+      "source_quote": "preaching the baptism of repentance for the remission of sins",
+      "suggested_fix": "החליפו את „ופרש ברית טבילה של תשובה למחילות החטאים” ב„והכריז על טבילת תשובה לשם מחילת חטאים”.",
+      "translation_quote": "ופרש ברית טבילה של תשובה למחילות החטאים"
+    },
+    {
+      "location": "html, first list, John 10:9",
+      "severity": "major",
+      "source_quote": "I am the door: by me if any man enter in, he shall be saved…",
+      "suggested_fix": "תקנו ל„אני הדלת: אם מישהו ייכנס דרכי, הוא ייוושע… – יוחנן י:9.” הסירו את ההמשך שלא נדפס במקור.",
+      "translation_quote": "אני השער: מי שישתמש בי יושיע; ייכנס ויצא וימצא מרעה"
+    },
+    {
+      "location": "html, first list, Mark 8:34-35",
+      "severity": "major",
+      "source_quote": "Whosoever will come after me",
+      "suggested_fix": "תקנו ל„…כל הרוצה ללכת אחריי, שיתכחש לעצמו, יישא את צלבו וילך אחריי… – מרקוס ח:34-35.”",
+      "translation_quote": "וכי כל השבא אחרי"
+    },
+    {
+      "location": "html, first list, Revelation 3:20",
+      "severity": "major",
+      "source_quote": "will sup with him, and he with me",
+      "suggested_fix": "החליפו את „ואשב עמו והוא איתי” ב„ואסעד איתו והוא איתי”.",
+      "translation_quote": "ואשב עמו והוא איתי"
+    },
+    {
+      "location": "html, first list, John 9:35-38",
+      "severity": "major",
+      "source_quote": "And he said, Lord, I believe. And he worshipped him",
+      "suggested_fix": "תקנו ל„והוא אמר: אדוני, אני מאמין. והוא השתחווה לו”, ללא השם המומצא „הוויאן”.",
+      "translation_quote": "ויאמר הוויאן, אדוני, אני מאמין. ויברך אותו"
+    },
+    {
+      "location": "html, paragraph explaining aspects of being born again",
+      "severity": "major",
+      "source_quote": "becoming, of being, and of remaining born again ... The great I AM, THAT I AM",
+      "suggested_fix": "תקנו את הפתיחה ל„יש היבטים שונים של הלידה מחדש, של היותנו נולדים מחדש ושל ההישארות במצב זה”; ואת הכינוי האלוהי ל„אהיה אשר אהיה”.",
+      "translation_quote": "של ההיות וההמשך להיות \"נולד מחדש\" ... האני־הקיים, אֲשֶׁר־אֲנִי־הוּא"
+    },
+    {
+      "location": "html, paragraph beginning האם עדיין",
+      "severity": "major",
+      "source_quote": "the prayer of the cheap-grace gospel ... After spending time at the feet of Jesus",
+      "suggested_fix": "תקנו ל„אנו לועגים לתפילה של בשורת החסד הזול” ול„לאחר שנשהה לרגלי ישוע ונלמד עליו ועל אביו ועל דרכיהם”.",
+      "translation_quote": "לתפילת ההגמוניה של הבשורה של חסד־זוללה ... אחרי שבלהות ברגלי ישוע"
+    },
+    {
+      "location": "html, paragraph beginning אם אנו באמת",
+      "severity": "major",
+      "source_quote": "reform the goats among us ... so they can become converted",
+      "suggested_fix": "תקנו ל„נפסיק לנסות לתקן את העיזים שבקרבנו. במקום זאת נשתף אותן במסר הבשורה כדי שיוכלו לשוב אל אלוהים—ואז יהיו לכבשים בעלות לב בשר במקום לב אבן.”",
+      "translation_quote": "לרפא את האנשים המנותקים שבינינו ... כדי שיוכלו להיטהר"
+    },
+    {
+      "location": "html, Ezekiel quotation reference",
+      "severity": "major",
+      "source_quote": "Ezekiel 36:26-27",
+      "suggested_fix": "החליפו את ההפניה ב„יחזקאל לו:26-27”.",
+      "translation_quote": "יחזקאל לב:26-27"
+    },
+    {
+      "location": "html, paragraph beginning אז מדוע",
+      "severity": "major",
+      "source_quote": "this world has captivated us",
+      "suggested_fix": "החליפו את „העולם הזה שיבש אותנו” ב„העולם הזה שבה את ליבנו”.",
+      "translation_quote": "העולם הזה שיבש אותנו"
+    },
+    {
+      "location": "html, paragraph beginning בואו נשים קץ",
+      "severity": "major",
+      "source_quote": "individualism and self ... godly testimonies",
+      "suggested_fix": "תקנו ל„לאינדיבידואליזם ולחיים למען עצמנו” ול„האם ייכתבו עלינו עדויות על יראת אלוהים?”.",
+      "translation_quote": "לאינדיבידואליזם ולהיות עצמי ... עדויות פרושות ונאצלות"
+    },
+    {
+      "location": "html, second list, 1 Corinthians 10:13",
+      "severity": "major",
+      "source_quote": "God ... will not suffer you to be tempted above that ye are able; but will with the temptation also make a way to escape",
+      "suggested_fix": "תקנו ל„…אלוהים לא יניח לכם להתנסות מעבר ליכולתכם, אלא יחד עם הניסיון יספק גם דרך מוצא, כדי שתוכלו לעמוד בו – קורינתים א י:13.”",
+      "translation_quote": "לֹא יִתֵּן לָכֶם לְנִסָּיוֹן בְּמַה שֶּׁאֵינְכֶם יְכוֹלִים ... דֶּרֶךְ הַמִּלְחָמָה"
+    },
+    {
+      "location": "html, second list, Matthew 21:21",
+      "severity": "major",
+      "source_quote": "say unto this mountain, Be thou removed, and be thou cast into the sea; it shall be done",
+      "suggested_fix": "תקנו ל„תאמרו להר הזה: היעקר והיזרק אל הים; וכך יהיה”.",
+      "translation_quote": "תֹּאמְרוּ לַהָר הַזֶּה הַזֵּז וְהַשְׁלִיכֵהוּ בַּיָּם; וְנַעֲשֶׂה"
+    },
+    {
+      "location": "html, paragraph beginning יקרים",
+      "severity": "major",
+      "source_quote": "God wants a people to call His own ... breathe into us His breath—the Breath of Life",
+      "suggested_fix": "תקנו ל„אלוהים רוצה גם היום עם שיוכל לקרוא לו עמו, ממש כפי שרצה בתחילה” ול„הוא רוצה לנפוח בנו את נשימתו—נשמת החיים”.",
+      "translation_quote": "אלוהים רוצה בעדנו עם־עַם לקרוא לעצמו ... להשריש בנו את נשמתו"
+    },
+    {
+      "location": "html, paragraph beginning אל נא ניתן",
+      "severity": "major",
+      "source_quote": "He wants to give us the inheritance",
+      "suggested_fix": "החליפו את „המנח” ב„הנחלה”.",
+      "translation_quote": "הוא רוצה לתת לנו את המנח"
+    },
+    {
+      "location": "html, lighthouse paragraph",
+      "severity": "major",
+      "source_quote": "that lighthouse standing tall ... weary souls stranded in life",
+      "suggested_fix": "תקנו ל„אותו מגדלור הניצב איתן” ול„הנשמות העייפות שנותרו תקועות בחיים”.",
+      "translation_quote": "אותו маяк עומד איתן ... הנשמות העייפות הנטועות בחיים"
+    },
+    {
+      "location": "html, paragraph beginning נוכל למלא",
+      "severity": "major",
+      "source_quote": "if we are not quickened by the Spirit of God",
+      "suggested_fix": "החליפו את „אם איננו מתעוררים על־ידי רוח אלוהים” ב„אם רוח אלוהים אינה מחיה אותנו”.",
+      "translation_quote": "אם איננו מתעוררים על־ידי רוח אלוהים"
+    },
+    {
+      "location": "html, paragraphs 1-3 and second list final item",
+      "severity": "minor",
+      "source_quote": "serving on the mission field ... visits of varying lengths and reasons ... spiritually ... souls are added ... Walk in the Spirit, and ye shall not fulfil",
+      "suggested_fix": "תקנו בהתאמה ל„בשירות מיסיונרי”, „לביקורים באורכים שונים ומסיבות שונות”, „מבחינה רוחנית”, „נשמות נוספות לממלכה” ו„התהלכו ברוח, ולא תמלאו את תאוות הבשר”.",
+      "translation_quote": "בשירות בשדה המשימה ... לביקורים באורכים ומסגרות שונות ... בעוד ברוחנו ... ונוספים נשמות ... הִלְכוּ בָּרוּחַ וְאֵינְכֶם תַּמְלִיאוּ"
+    }
+  ],
+  "finished_at": "2026-11-10T00:43:56+00:00",
   "id": "7c32443043be8fbb982d2c9e9cf12dc9",
   "issue_id": "1a7070c9-fd4f-546b-a220-f267ddb8cf5f",
   "language": "heb",
@@ -98,9 +332,11 @@
     }
   },
   "protected": false,
+  "quality_score": 48,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/fd006f3144de976329b408867c5ed33ed80fe393c62d7c79f01f54f10a8134c7.json",
   "stage": "review1",
   "stage_budget": {
@@ -115,7 +351,7 @@
     "total_reserved_usd": 0.785582,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 0,
   "translation_key": "d14a8e9ac7f4c07525900d0c21ec1a6c29c2da40405328d077639b18af091bf1",
   "translation_model_actual": "gpt-5-mini-2025-08-07"
