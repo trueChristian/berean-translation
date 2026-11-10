@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Article, paragraph quoting 2 Corinthians 11:2–3",
+      "severity": "minor",
+      "source_quote": "“the simplicity that is in Christ”",
+      "suggested_fix": "Replace «dalla semplicità e dalla purezza nei riguardi di Cristo» with «dalla semplicità che è in Cristo», preserving the source’s wording and avoiding the added idea of purity.",
+      "translation_quote": "«dalla semplicità e dalla purezza nei riguardi di Cristo»"
+    },
+    {
+      "location": "Article, Confessione section, quotation of James 5:16",
+      "severity": "minor",
+      "source_quote": "“Confess your faults one to another”",
+      "suggested_fix": "Consider «Confessate le vostre colpe gli uni agli altri» rather than «Confessate dunque i vostri peccati gli uni agli altri», to preserve the source’s distinction between faults and sins.",
+      "translation_quote": "«Confessate dunque i vostri peccati gli uni agli altri»"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

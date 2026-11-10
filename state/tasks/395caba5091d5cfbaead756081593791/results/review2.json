@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "c096521c-c9f3-4b98-8fc6-5de888b06967",
+    "response_id": "chatcmpl-EiblydlOrXDdDi68Hu6a6YAUGzeef",
+    "usage": {
+      "completion_tokens": 993,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 760,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9275,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9272,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10268
+    }
+  },
+  "received_at": "2026-11-10T08:53:14+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Article, paragraph quoting 2 Corinthians 11:2–3",
+        "severity": "minor",
+        "source_quote": "“the simplicity that is in Christ”",
+        "suggested_fix": "Replace «dalla semplicità e dalla purezza nei riguardi di Cristo» with «dalla semplicità che è in Cristo», preserving the source’s wording and avoiding the added idea of purity.",
+        "translation_quote": "«dalla semplicità e dalla purezza nei riguardi di Cristo»"
+      },
+      {
+        "location": "Article, Confessione section, quotation of James 5:16",
+        "severity": "minor",
+        "source_quote": "“Confess your faults one to another”",
+        "suggested_fix": "Consider «Confessate le vostre colpe gli uni agli altri» rather than «Confessate dunque i vostri peccati gli uni agli altri», to preserve the source’s distinction between faults and sins.",
+        "translation_quote": "«Confessate dunque i vostri peccati gli uni agli altri»"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 97
+  }
+}
