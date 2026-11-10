@@ -8,7 +8,6 @@
     "active": 50,
     "already_translated": 107,
     "automatic_capacity_wait": 300,
-    "continuation_cooldown": 1,
     "continuation_progress_uncertain_requires_attention": 5,
     "continuation_repeated_findings_requires_attention": 1,
     "eligible_automatic": 654,
@@ -17,7 +16,7 @@
     "legacy_response_outcome_unknown_requires_owner_attention": 10,
     "pending_automatic_admission": 99,
     "provider_refusal_requires_owner_attention": 3,
-    "repeated_technical_failure_requires_attention": 22,
+    "repeated_technical_failure_requires_attention": 23,
     "source_error_requires_attention": 40,
     "technical_failure_requires_attention": 26
   },
@@ -678,7 +677,7 @@
       "article_id": "324b0fa1-c057-471e-8e90-8eb699e8285a",
       "language": "ara",
       "latest_task": "3759ad867b2f531aea08d673c84c1f8b",
-      "processing_status": "queued",
+      "processing_status": "in_batch",
       "reason": "active"
     },
     {
@@ -5643,7 +5642,7 @@
       "article_id": "3b932103-b3fb-450d-885a-eaca95ee48fe",
       "language": "hin",
       "latest_task": "57e7d71decfe9af755b299d04d3799f5",
-      "processing_status": "queued",
+      "processing_status": "in_batch",
       "reason": "active"
     },
     {
@@ -6495,7 +6494,7 @@
       "article_id": "bd2e73dd-b296-4983-a6ec-54a3527362d8",
       "language": "ind",
       "latest_task": "0530812ca63f9fd40ff58a809d192fa8",
-      "processing_status": "queued",
+      "processing_status": "in_batch",
       "reason": "active"
     },
     {
@@ -6937,7 +6936,7 @@
       "language": "ita",
       "latest_task": "86ab0aaa04799b31e55b3ddf970a1b49",
       "processing_status": "not_ready",
-      "reason": "continuation_cooldown"
+      "reason": "repeated_technical_failure_requires_attention"
     },
     {
       "accepted_cycles": 0,
@@ -8343,7 +8342,7 @@
       "article_id": "324b0fa1-c057-471e-8e90-8eb699e8285a",
       "language": "nob",
       "latest_task": "6b38a91ec5ebecc224831c5acfb84511",
-      "processing_status": "queued",
+      "processing_status": "in_batch",
       "reason": "active"
     },
     {
@@ -8858,7 +8857,7 @@
       "article_id": "01a0a64f-d629-4e05-b1ec-993f86ef4d68",
       "language": "por",
       "latest_task": "1a5e1f74a3bb3812f3a4d2e09438c710",
-      "processing_status": "queued",
+      "processing_status": "in_batch",
       "reason": "active"
     },
     {
