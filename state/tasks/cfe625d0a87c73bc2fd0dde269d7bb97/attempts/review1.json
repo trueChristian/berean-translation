@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-10T17:34:03+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph 5\",\"severity\":\"minor\",\"source_quote\":\"“A most delicious smell wafted up the street from a café.”\",\"suggested_fix\":\"“Aroma yang sangat sedap tercium dari sebuah kafe di sepanjang jalan.”\",\"translation_quote\":\"“Aroma yang sangat sedap tercium dari sebuah kafe di ujung jalan.”\"},{\"location\":\"Paragraph 14\",\"severity\":\"minor\",\"source_quote\":\"“And that rich man, I am sad to tell you, had a very sad ending to his life.”\",\"suggested_fix\":\"“Dan, dengan sedih saya sampaikan, akhir hidup orang kaya itu sangat menyedihkan.”\",\"translation_quote\":\"“Dan orang kaya itu, dengan sedih saya sampaikan, mengakhiri hidupnya dengan sangat menyedihkan.”\"}],\"findings_complete\":true,\"passed\":true,\"score\":97}",
+    "content_bytes": 752,
+    "content_evidence_truncated": false,
+    "content_sha256": "7008c72c278bd23a7f7c7aa83bb9290bb32e8bdd9fcf9db558c619d55701d5cd",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 903,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 702,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4244,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3141,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 5147
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

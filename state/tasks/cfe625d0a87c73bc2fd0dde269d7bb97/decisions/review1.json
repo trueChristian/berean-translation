@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph 5",
+      "severity": "minor",
+      "source_quote": "“A most delicious smell wafted up the street from a café.”",
+      "suggested_fix": "“Aroma yang sangat sedap tercium dari sebuah kafe di sepanjang jalan.”",
+      "translation_quote": "“Aroma yang sangat sedap tercium dari sebuah kafe di ujung jalan.”"
+    },
+    {
+      "location": "Paragraph 14",
+      "severity": "minor",
+      "source_quote": "“And that rich man, I am sad to tell you, had a very sad ending to his life.”",
+      "suggested_fix": "“Dan, dengan sedih saya sampaikan, akhir hidup orang kaya itu sangat menyedihkan.”",
+      "translation_quote": "“Dan orang kaya itu, dengan sedih saya sampaikan, mengakhiri hidupnya dengan sangat menyedihkan.”"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}
