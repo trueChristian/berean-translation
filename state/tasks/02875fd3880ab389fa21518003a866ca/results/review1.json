@@ -1,0 +1,52 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "9fdbadaf-2e4f-4b28-84e4-c5e085bd1405",
+    "response_id": "chatcmpl-Eic1eLPv5lbtZPTvHppTcgprYnJrB",
+    "usage": {
+      "completion_tokens": 844,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 587,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4597,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3494,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 5441
+    }
+  },
+  "received_at": "2026-11-10T09:09:47+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph 5",
+        "severity": "minor",
+        "source_quote": "A most delicious smell wafted up the street from a café.",
+        "suggested_fix": "রাস্তার ওপর দিয়ে একটি ক্যাফে থেকে অত্যন্ত সুস্বাদু খাবারের গন্ধ ভেসে এল।",
+        "translation_quote": "রাস্তার নিচের দিক থেকে একটি ক্যাফের অত্যন্ত সুস্বাদু খাবারের গন্ধ ভেসে এল।"
+      },
+      {
+        "location": "Paragraph 8",
+        "severity": "minor",
+        "source_quote": "giving his poor, old shoes a pat with what felt like angelic hands",
+        "suggested_fix": "দেবদূতের মতো মনে হওয়া হাত দিয়ে তার বেচারা পুরোনো জুতোগুলোতে আলতো চাপড় দিলেন।",
+        "translation_quote": "তার বেচারা পুরোনো জুতোগুলোতে আলতো চাপড় দিলেন।"
+      },
+      {
+        "location": "Paragraph 11",
+        "severity": "minor",
+        "source_quote": "a policeman in full uniform",
+        "suggested_fix": "সম্পূর্ণ ইউনিফর্ম পরা এক পুলিশ কর্মকর্তা",
+        "translation_quote": "পূর্ণ পোশাকে এক পুলিশ কর্মকর্তা"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 97
+  }
+}

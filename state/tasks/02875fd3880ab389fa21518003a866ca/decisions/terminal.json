@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph 5",
+      "severity": "minor",
+      "source_quote": "A most delicious smell wafted up the street from a café.",
+      "suggested_fix": "রাস্তার ওপর দিয়ে একটি ক্যাফে থেকে অত্যন্ত সুস্বাদু খাবারের গন্ধ ভেসে এল।",
+      "translation_quote": "রাস্তার নিচের দিক থেকে একটি ক্যাফের অত্যন্ত সুস্বাদু খাবারের গন্ধ ভেসে এল।"
+    },
+    {
+      "location": "Paragraph 8",
+      "severity": "minor",
+      "source_quote": "giving his poor, old shoes a pat with what felt like angelic hands",
+      "suggested_fix": "দেবদূতের মতো মনে হওয়া হাত দিয়ে তার বেচারা পুরোনো জুতোগুলোতে আলতো চাপড় দিলেন।",
+      "translation_quote": "তার বেচারা পুরোনো জুতোগুলোতে আলতো চাপড় দিলেন।"
+    },
+    {
+      "location": "Paragraph 11",
+      "severity": "minor",
+      "source_quote": "a policeman in full uniform",
+      "suggested_fix": "সম্পূর্ণ ইউনিফর্ম পরা এক পুলিশ কর্মকর্তা",
+      "translation_quote": "পূর্ণ পোশাকে এক পুলিশ কর্মকর্তা"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

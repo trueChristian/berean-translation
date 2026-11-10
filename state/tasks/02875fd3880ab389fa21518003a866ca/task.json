@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "3ddd11b1f36d425ca5f730675e997ce0",
   "campaign": "auto-5b0a5179775295e2071de71d3f9d245f7c039de08ea7c7b1692131bf826607ce",
   "created_at": "2026-11-10T07:12:48+00:00",
   "events": [
@@ -28,10 +27,53 @@
         },
         "total_tokens": 4281
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 844,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 587,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4597,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 3494,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 5441
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "Paragraph 5",
+      "severity": "minor",
+      "source_quote": "A most delicious smell wafted up the street from a café.",
+      "suggested_fix": "রাস্তার ওপর দিয়ে একটি ক্যাফে থেকে অত্যন্ত সুস্বাদু খাবারের গন্ধ ভেসে এল।",
+      "translation_quote": "রাস্তার নিচের দিক থেকে একটি ক্যাফের অত্যন্ত সুস্বাদু খাবারের গন্ধ ভেসে এল।"
+    },
+    {
+      "location": "Paragraph 8",
+      "severity": "minor",
+      "source_quote": "giving his poor, old shoes a pat with what felt like angelic hands",
+      "suggested_fix": "দেবদূতের মতো মনে হওয়া হাত দিয়ে তার বেচারা পুরোনো জুতোগুলোতে আলতো চাপড় দিলেন।",
+      "translation_quote": "তার বেচারা পুরোনো জুতোগুলোতে আলতো চাপড় দিলেন।"
+    },
+    {
+      "location": "Paragraph 11",
+      "severity": "minor",
+      "source_quote": "a policeman in full uniform",
+      "suggested_fix": "সম্পূর্ণ ইউনিফর্ম পরা এক পুলিশ কর্মকর্তা",
+      "translation_quote": "পূর্ণ পোশাকে এক পুলিশ কর্মকর্তা"
+    }
+  ],
+  "finished_at": "2026-11-10T09:09:48+00:00",
   "id": "02875fd3880ab389fa21518003a866ca",
   "issue_id": "103c93e0-6e9a-44f6-a6bc-377af8e08e38",
   "language": "ben",
@@ -120,9 +162,11 @@
     }
   },
   "protected": false,
+  "quality_score": 97,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/c5b3baa86d51831924628f8caf7ad6732e89ad505499e87223765327808a3441.json",
   "stage": "review1",
   "stage_budget": {
@@ -138,7 +182,7 @@
     "total_reserved_usd": 0.08733,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "7a6289704a964734c82f4dfa151db5c6907febafb6cf043a81275c1233c4e238",
   "translation_model_actual": "gpt-6-luna"
