@@ -1,0 +1,18 @@
+{
+  "campaign": "auto-a0c9d039bf0d9fbe18d23b4debcb900084012cdf969f3e3b92b9b8517a70c312",
+  "created_at": "2026-11-10T00:53:14+00:00",
+  "custom_ids": [
+    "7569b8683badf3e43b67ad3a38f43d10:review1"
+  ],
+  "id": "90d707a950c2496da9ef140496bab895",
+  "input_file_id": null,
+  "model": "gpt-6.1-sol",
+  "payload_sha256": "3b4d652b1b710f18e41cdc8562213587c804dd8a3b1747211407fd934926e0b3",
+  "remote_id": null,
+  "reserved_usd": 0.097714,
+  "stage": "review1",
+  "status": "prepared",
+  "tasks": [
+    "7569b8683badf3e43b67ad3a38f43d10"
+  ]
+}
