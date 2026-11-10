@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "html, paragraph 10, opening sentence",
+      "severity": "major",
+      "source_quote": "The Apostle Peter said that",
+      "suggested_fix": "“प्रेरित पौलुस ने कहा कि” को “प्रेरित पतरस ने कहा कि” करें, ताकि लेख में मुद्रित वक्ता का नाम यथावत रहे।",
+      "translation_quote": "प्रेरित पौलुस ने कहा कि"
+    },
+    {
+      "location": "html, paragraph 10, Philippians 4:8 quotation",
+      "severity": "major",
+      "source_quote": "whatsoever things are of good report",
+      "suggested_fix": "“जो कुछ मनभावना है” को “जो कुछ अच्छी ख्याति का है” से बदलें, ताकि अच्छी प्रतिष्ठा का अर्थ सुरक्षित रहे।",
+      "translation_quote": "जो कुछ मनभावना है"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
