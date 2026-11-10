@@ -2012,7 +2012,7 @@
   "reported_usage_usd": 0.0,
   "request_sha256": "4df3821ac6c2c9ff4fc43c9302bc87fd8f7627f28a14a290a5527fc546b3541a",
   "requested_by": "owner-authorized-autonomous-archive",
-  "reserved_usd": 0.0,
+  "reserved_usd": 0.091702,
   "review_contract_version": 2,
   "review_model": "gpt-6.1-sol",
   "review_output_tokens": 8192,
