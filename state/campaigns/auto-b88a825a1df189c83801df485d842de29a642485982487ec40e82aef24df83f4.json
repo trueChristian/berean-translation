@@ -2019,7 +2019,7 @@
   },
   "status": "active",
   "task_counts": {
-    "in_batch": 1
+    "queued": 1
   },
   "tasks": [
     "6365b1eb0cd67dbe51f229288307164a"
