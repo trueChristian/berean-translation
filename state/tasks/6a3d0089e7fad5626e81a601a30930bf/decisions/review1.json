@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "html: aya inayoanza “Mzazi humwongozaje mtoto wake kwenye wokovu?”",
+      "severity": "major",
+      "source_quote": "Be aware of evidence of conviction.",
+      "suggested_fix": "Badilisha “Jihadhari na dalili za hatia ya dhambi” kuwa “Tambua dalili za kuguswa moyoni kuhusu dhambi.”",
+      "translation_quote": "Jihadhari na dalili za hatia ya dhambi."
+    },
+    {
+      "location": "html: aya ya pili chini ya “Uhusiano na kanisa”",
+      "severity": "major",
+      "source_quote": "the gospel as a transformational relationship with God through faith in Jesus",
+      "suggested_fix": "Badilisha sehemu hiyo kuwa “injili kama uhusiano na Mungu unaombadilisha mtu kupitia imani katika Yesu”.",
+      "translation_quote": "injili kama uhusiano unaobadilisha mtu kupitia imani katika Yesu"
+    },
+    {
+      "location": "html: aya inayoanza “Kuthamini si kubembeleza.”",
+      "severity": "minor",
+      "source_quote": "Affirming is not flattery. Flattery is praise that is not sincere and often is not true.",
+      "suggested_fix": "Badilisha sentensi hizi mbili kuwa “Kuthamini si kusifu kwa kujipendekeza. Kusifu kwa kujipendekeza ni kutoa sifa zisizo za dhati na ambazo mara nyingi si za kweli.” Neno “kubembeleza” halimaanishi hasa kutoa sifa zisizo za dhati.",
+      "translation_quote": "Kuthamini si kubembeleza. Kubembeleza ni sifa isiyo ya dhati na mara nyingi si ya kweli."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

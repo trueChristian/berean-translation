@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-10T08:53:31+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"html: aya inayoanza “Mzazi humwongozaje mtoto wake kwenye wokovu?”\",\n      \"severity\": \"major\",\n      \"source_quote\": \"Be aware of evidence of conviction.\",\n      \"suggested_fix\": \"Badilisha “Jihadhari na dalili za hatia ya dhambi” kuwa “Tambua dalili za kuguswa moyoni kuhusu dhambi.”\",\n      \"translation_quote\": \"Jihadhari na dalili za hatia ya dhambi.\"\n    },\n    {\n      \"location\": \"html: aya ya pili chini ya “Uhusiano na kanisa”\",\n      \"severity\": \"major\",\n      \"source_quote\": \"the gospel as a transformational relationship with God through faith in Jesus\",\n      \"suggested_fix\": \"Badilisha sehemu hiyo kuwa “injili kama uhusiano na Mungu unaombadilisha mtu kupitia imani katika Yesu”.\",\n      \"translation_quote\": \"injili kama uhusiano unaobadilisha mtu kupitia imani katika Yesu\"\n    },\n    {\n      \"location\": \"html: aya inayoanza “Kuthamini si kubembeleza.”\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"Affirming is not flattery. Flattery is praise that is not sincere and often is not true.\",\n      \"suggested_fix\": \"Badilisha sentensi hizi mbili kuwa “Kuthamini si kusifu kwa kujipendekeza. Kusifu kwa kujipendekeza ni kutoa sifa zisizo za dhati na ambazo mara nyingi si za kweli.” Neno “kubembeleza” halimaanishi hasa kutoa sifa zisizo za dhati.\",\n      \"translation_quote\": \"Kuthamini si kubembeleza. Kubembeleza ni sifa isiyo ya dhati na mara nyingi si ya kweli.\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": false,\n  \"score\": 94\n}",
+    "content_bytes": 1541,
+    "content_evidence_truncated": false,
+    "content_sha256": "d5c477c9195e910db07b5dd4d245c239e0b674648ee3ee23619b89c1d7f8f8f7",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 490,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 56,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8944,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8941,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9434
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}

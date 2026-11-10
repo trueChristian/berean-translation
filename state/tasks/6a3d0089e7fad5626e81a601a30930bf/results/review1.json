@@ -1,0 +1,52 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "350d6d2a-496b-4f52-b4ef-626b9309ceea",
+    "response_id": "chatcmpl-EibljYRD5Wf5r7HK29wWQxsCjQydd",
+    "usage": {
+      "completion_tokens": 490,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 56,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8944,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8941,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9434
+    }
+  },
+  "received_at": "2026-11-10T08:53:31+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "html: aya inayoanza “Mzazi humwongozaje mtoto wake kwenye wokovu?”",
+        "severity": "major",
+        "source_quote": "Be aware of evidence of conviction.",
+        "suggested_fix": "Badilisha “Jihadhari na dalili za hatia ya dhambi” kuwa “Tambua dalili za kuguswa moyoni kuhusu dhambi.”",
+        "translation_quote": "Jihadhari na dalili za hatia ya dhambi."
+      },
+      {
+        "location": "html: aya ya pili chini ya “Uhusiano na kanisa”",
+        "severity": "major",
+        "source_quote": "the gospel as a transformational relationship with God through faith in Jesus",
+        "suggested_fix": "Badilisha sehemu hiyo kuwa “injili kama uhusiano na Mungu unaombadilisha mtu kupitia imani katika Yesu”.",
+        "translation_quote": "injili kama uhusiano unaobadilisha mtu kupitia imani katika Yesu"
+      },
+      {
+        "location": "html: aya inayoanza “Kuthamini si kubembeleza.”",
+        "severity": "minor",
+        "source_quote": "Affirming is not flattery. Flattery is praise that is not sincere and often is not true.",
+        "suggested_fix": "Badilisha sentensi hizi mbili kuwa “Kuthamini si kusifu kwa kujipendekeza. Kusifu kwa kujipendekeza ni kutoa sifa zisizo za dhati na ambazo mara nyingi si za kweli.” Neno “kubembeleza” halimaanishi hasa kutoa sifa zisizo za dhati.",
+        "translation_quote": "Kuthamini si kubembeleza. Kubembeleza ni sifa isiyo ya dhati na mara nyingi si ya kweli."
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 94
+  }
+}
