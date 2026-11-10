@@ -45460,6 +45460,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/hin/articles/cf3bcef6-affc-4c39-9c73-ce940fab787f.html",
+      "html_sha256": "f4de3f24b44d5723e4f86410cbbdaee2b25dbfed89d4cb83b5e2753694806a92",
+      "human_reviewed": false,
+      "id": "cf3bcef6-affc-4c39-9c73-ce940fab787f",
+      "images": [
+        {
+          "alt": "सूर्यास्त के समय झील के किनारे शहर के क्षितिज का हवाई दृश्य",
+          "public_path": "/images/articles/cf3bcef6-affc-4c39-9c73-ce940fab787f-1.jpg"
+        }
+      ],
+      "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
+      "language": "hin",
+      "language_tag": "hi",
+      "metadata": "content/hin/articles/cf3bcef6-affc-4c39-9c73-ce940fab787f.json",
+      "metadata_sha256": "200a59b1ac10f4cff08f071c7441abca1ab43845465d96b037f2a1a5b82a3e83",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "आज के समय के ख़तरे",
+      "source_revision": "a069ecca8827634ebc256b3b1cabc16aeb942ed7",
+      "source_translation_key": "7186a7dafd85adebb8f6876e1cafaf204ddce9783339d4da1f44b2bb46a15d75",
+      "status": "ready",
+      "subtitle": null,
+      "title": "जगत में, पर जगत के नहीं",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/hin/articles/d0898011-fe8b-4c35-9aac-12c20ec0d950.html",
       "html_sha256": "9a3fcf18a60b6bcf1c6179e274988e65b29244a156527dc89288218b9cc3cf4c",
       "human_reviewed": false,
