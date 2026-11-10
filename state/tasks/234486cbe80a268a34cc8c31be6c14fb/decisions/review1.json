@@ -1,0 +1,105 @@
+{
+  "findings": [
+    {
+      "location": "html, quotation of 1 Peter 3:3-6",
+      "severity": "major",
+      "source_quote": "the hidden man of the heart ... a meek and quiet spirit ... the holy women also, who trusted in God ... whose daughters ye are",
+      "suggested_fix": "استبدال العبارات المتضررة داخل الاقتباس بـ: «بل إنسان القلب الخفي، في زينة لا تفنى، زينة روح وديعة هادئة» و«النساء القديسات اللواتي كن يتكلن على الله» و«وأنتن بناتها ما دمتن تفعلن الخير ولا يستولي عليكن الخوف».",
+      "translation_quote": "بل الرجل الداخلي القلبي، غير الفانٍ، زينة الروح المهذبة الوديعة ... النساء القديمات اللاتي كن يتركن في الله ... وأماثلكن بنات"
+    },
+    {
+      "location": "html, quotation of 2 Timothy 2:4-22",
+      "severity": "major",
+      "source_quote": "No man that warreth entangleth himself ... that he may please him ... But shun profane and vain babblings: for they will increase unto more ungodliness.",
+      "suggested_fix": "تصحيح بداية الاقتباس إلى: «لا يتورط أحد وهو يخدم جنديًا في شؤون هذه الحياة، لكي يرضي من اختاره ليكون جنديًا. واجتنب الثرثرة المدنسة والباطلة، لأنها تؤدي إلى مزيد من الفجور». مع إبقاء بقية الاقتباس والمرجع.",
+      "translation_quote": "ولا يشتبك أحد في شؤون الدنيا ليمتع من انتخبه جنديًا. ولا تَتَّبِعِ الْهَذَيَانَ الْباطِلَ، لأَنَّهُ يَزْدَادُ إِلَى المَرْتَكَةِ."
+    },
+    {
+      "location": "html, paragraph beginning «ما حقيقة إيماننا؟»",
+      "severity": "major",
+      "source_quote": "shun ungodliness because it will lead to more ungodliness",
+      "suggested_fix": "استبدال «نتجنّب الردّة لأنها تقود إلى ردّة أعظم» بـ«نجتنب الفجور لأنه يقود إلى مزيد من الفجور».",
+      "translation_quote": "نتجنّب الردّة لأنها تقود إلى ردّة أعظم"
+    },
+    {
+      "location": "html, quotation of Titus 2:11-12",
+      "severity": "major",
+      "source_quote": "denying ungodliness and worldly lusts",
+      "suggested_fix": "استبدال «منكرين التدين والشهوات الدنيوية» بـ«رافضين الفجور والشهوات الدنيوية».",
+      "translation_quote": "منكرين التدين والشهوات الدنيوية"
+    },
+    {
+      "location": "html, quotation of 1 Timothy 2:9-10; definition of Sobriety; following paragraph; concluding list of ornaments",
+      "severity": "major",
+      "source_quote": "with shamefacedness and sobriety ... Sobriety: habitual soberness; seriousness; gravity without sadness or melancholy. ... Even if we are sober ... modesty, shamefacedness, sobriety",
+      "suggested_fix": "ترجمة sobriety باتساق إلى «الرزانة»: في الاقتباس «بحياء ورزانة»؛ وفي التعريف «رزانة: اتزان معتاد؛ جدية؛ وقار من دون حزن أو كآبة»؛ وفي الفقرة التالية «حتى إن كنا رزينات فلا يلزم أن نكون حزينات»؛ وفي القائمة الختامية استبدال «القوامة» بـ«الرزانة».",
+      "translation_quote": "بخجل وتقوى ... قَوامة: يقظة معتادة؛ جدية؛ هيبة من دون حزن أو اكتئاب. ... حتى إن كنا متجردات من التهوّل ... الحشمة، الخجل، القوامة"
+    },
+    {
+      "location": "html, paragraph following definition of Shamefacedness",
+      "severity": "major",
+      "source_quote": "not giddiness or sensuality",
+      "suggested_fix": "استبدال «لا بالرهبة أو الحسّية» بـ«لا بالطيش أو الشهوانية».",
+      "translation_quote": "لا بالرهبة أو الحسّية"
+    },
+    {
+      "location": "html, quotation of Revelation 21:2-3",
+      "severity": "major",
+      "source_quote": "And I John saw the holy city",
+      "suggested_fix": "استبدال افتتاح الاقتباس بـ«وأنا يوحنا رأيت المدينة المقدسة، أورشليم الجديدة».",
+      "translation_quote": "ورأيت أيضًا مدينة مقدّسةٍ، أُورشليم الجديدة"
+    },
+    {
+      "location": "html, quotation of Isaiah 61:10",
+      "severity": "major",
+      "source_quote": "he hath clothed me with the garments of salvation ... as a bride adorneth herself with her jewels",
+      "suggested_fix": "استبدال «لَبِسَنِي ثِيَابَ الْخَلَاصِ، وَلَبِسَنِي جَبَّةَ الْبِرِّ» بـ«ألبسني ثياب الخلاص، وكساني رداء البر»، واستبدال «وَالْعَرُوسُ تُزَيِّنُ نَفْسَهَا» بـ«وكعروس تتزين بجواهرها».",
+      "translation_quote": "لَبِسَنِي ثِيَابَ الْخَلَاصِ، وَلَبِسَنِي جَبَّةَ الْبِرِّ ... وَالْعَرُوسُ تُزَيِّنُ نَفْسَهَا"
+    },
+    {
+      "location": "html, quotation of Galatians 6:7",
+      "severity": "major",
+      "source_quote": "Be not deceived; God is not mocked",
+      "suggested_fix": "تصحيح بداية الاقتباس إلى «لا تنخدعوا؛ فالله لا يُستهزأ به».",
+      "translation_quote": "لا تُخَطَّأُوا، اللهٌ لَيْسَ مُسْتَهْزَأً"
+    },
+    {
+      "location": "html, second paragraph",
+      "severity": "minor",
+      "source_quote": "The prince of this world is truly out to destroy people's lives ... video arcades ... it's out there ... If we are entangled with the affairs of this life",
+      "suggested_fix": "استخدام «أمير هذا العالم يسعى حقًا إلى تدمير حياة الناس»، و«صالات ألعاب الفيديو»، و«كل ذلك موجود»، و«إذا تورطنا في شؤون هذه الحياة» بدل العبارات المقابلة.",
+      "translation_quote": "أمير هذا العالم حقًا مسعىٌ لتدمير حياة الناس ... وألعاب فيديو ... كل ذلك خارج هناك ... إذا تقاطعت حياتنا وهموم هذه الدنيا"
+    },
+    {
+      "location": "html, definitions of Plaiting and Meek",
+      "severity": "minor",
+      "source_quote": "Plaiting: folding, doubling, braiding. ... Meek: mild of temper; soft; gentle",
+      "suggested_fix": "تصحيح التعريفين إلى «الضفر: الطيّ، والثني، والتجديل» و«وديع: هادئ الطبع؛ رقيق؛ لطيف»، مع إبقاء بقية تعريف الوديع.",
+      "translation_quote": "الضفر: الطيّ، أو المضاعفة، أو الضفّ. ... وديع: خفيف المزاج؛ رخيم؛ لطيف"
+    },
+    {
+      "location": "html, paragraph on Christ's peace",
+      "severity": "minor",
+      "source_quote": "He was at rest doing His Father's will",
+      "suggested_fix": "استبدال «كان مرتاحًا نافذًا صوب إرادة أبيه» بـ«كان مطمئنًا وهو يعمل إرادة أبيه».",
+      "translation_quote": "كان مرتاحًا نافذًا صوب إرادة أبيه"
+    },
+    {
+      "location": "html, paragraph containing Galatians 6:7",
+      "severity": "minor",
+      "source_quote": "ribbons, bows, frills, lace",
+      "suggested_fix": "استبدال «شرائط أو أقواس أو دانتيل» بـ«شرائط أو عُقَد زينة أو كشكش أو دانتيل».",
+      "translation_quote": "شرائط أو أقواس أو دانتيل"
+    },
+    {
+      "location": "html, paragraph beginning «علينا أن نتحلّى»",
+      "severity": "minor",
+      "source_quote": "A little leaven leaveneth the whole lump.",
+      "suggested_fix": "استبدال «قليل من الخميرة يخمّر الخبز كله» بـ«قليل من الخميرة يخمّر العجين كله».",
+      "translation_quote": "قليل من الخميرة يخمّر الخبز كله."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
