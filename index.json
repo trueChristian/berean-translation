@@ -59040,6 +59040,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/kor/articles/3b932103-b3fb-450d-885a-eaca95ee48fe.html",
+      "html_sha256": "3591c748a98ff29c8ac40fb0fd4600657f668890c832903a0fa923d23ba8c3e2",
+      "human_reviewed": false,
+      "id": "3b932103-b3fb-450d-885a-eaca95ee48fe",
+      "images": [
+        {
+          "alt": "붉은 석양 아래 서 있는 젊은이의 실루엣",
+          "public_path": "/images/articles/3b932103-b3fb-450d-885a-eaca95ee48fe-1.jpg"
+        }
+      ],
+      "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
+      "language": "kor",
+      "language_tag": "ko",
+      "metadata": "content/kor/articles/3b932103-b3fb-450d-885a-eaca95ee48fe.json",
+      "metadata_sha256": "4ff395f86ab95311315766faf36a080367b2cbd9b1c7199afe161804192e979a",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "경건한 가정",
+      "source_revision": "a069ecca8827634ebc256b3b1cabc16aeb942ed7",
+      "source_translation_key": "9f6334ef29e4721f005d0555a208f22042f8e50609a267a640060ad0068035f3",
+      "status": "ready",
+      "subtitle": "십 대 자녀 양육",
+      "title": "어린 시절에서 성인기로",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/kor/articles/3c581136-51cf-47b2-a38b-3d1ee1d0b864.html",
       "html_sha256": "ba83f14073172942ea645173088e790a0f115f9f2b1faf5d5513a968fdef7c36",
       "human_reviewed": false,

@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "270ec994c0854e62824e4f9c552dd964",
   "campaign": "auto-73dc95099a2a52af4486f93e29e47c202c286932e4e8366dd75f66d339c2f63c",
   "created_at": "2026-11-10T08:56:42+00:00",
   "events": [
@@ -48,18 +47,31 @@
         },
         "total_tokens": 13520
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 61,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 29,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8975,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 7872,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 9036
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "translation.html 마지막 문단, 시편 127:5 인용",
-      "severity": "major",
-      "source_quote": "Happy is the man that hath his quiver full of them",
-      "suggested_fix": "인용문의 첫 문장을 “자기 화살통에 이런 화살이 가득한 사람은 복되도다.”로 수정하십시오.",
-      "translation_quote": "이 화살통에 가득한 사람은 복되도다."
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-11-10T23:10:38+00:00",
   "id": "67d38c4d785c697b324bb69e524bf848",
   "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
   "language": "kor",
@@ -148,7 +160,7 @@
     }
   },
   "protected": false,
-  "quality_score": 94,
+  "quality_score": 99,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6.1-sol",
@@ -167,7 +179,7 @@
     "total_reserved_usd": 0.768549,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "9f6334ef29e4721f005d0555a208f22042f8e50609a267a640060ad0068035f3",
   "translation_model_actual": "gpt-6.1-sol"
