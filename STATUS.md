@@ -2,13 +2,13 @@
 
 Generated from the pinned source catalogue and durable work records. No API call is made by this report.
 
-Generated: 2026-11-10T07:24:18+00:00.
+Generated: 2026-11-10T08:18:11+00:00.
 Published means an accepted translation is exportable here; live deployment is verified separately.
 Target categories are disjoint. Accepted publications remain published during replacement work. Source-stale versions and replacement outcomes are reported separately.
 Ready means source-compatible and exportable here; live deployment is verified separately.
 Finished means processing has stopped, not that every requested translation passed. Held items still need action.
 
-Observed English revision: `cca63b8ef44beaad13815672f6e42ab9694a0cbd`
+Observed English revision: `6c3e27346b6b031f46e29e723e884fe8407806b7`
 
 Total target: 23360 article/language pairs. published: 3676 | unstarted: 18314 | queued: 139 | active: 8 | held without publication: 1223.
 

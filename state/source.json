@@ -3735,9 +3735,9 @@
     },
     "3ecef108-58f3-42fc-a9c1-be12086c3e87": {
       "fingerprints": {
-        "html_sha256": "60410039991e544118e0b87ad5b5cc14223fafa6a12a9a766790433d0c9b5cc6",
+        "html_sha256": "bb9d5cb0d74651b85e889a9a3b70c05d4ce90232dcf96f12a3fd5758132e4ef0",
         "metadata_sha256": "cf16a8bcf090e5cd6b92001bf9592cff808a90b9af86f32795b4860f3cf922c5",
-        "structure_sha256": "739f9f9f3649e769f4a2c41ec23837e1cd9eaa6093bfe5a3fbffc2322c229521",
+        "structure_sha256": "e4e272948a798cf87794759315e1480f8590fd6f59bb68d7d83625aa451b63c9",
         "text_sha256": "3d6c6e76eeb3a653742d7b7bb997b1ebfd99a28813dc8cc93172682ce016c13b",
         "translation_metadata_sha256": "9059daa099ee5a076c03df7b2e167d6877975c9c73183250ae20edc8b9682e4a"
       },
@@ -3745,7 +3745,7 @@
       "issue_id": "65297f9a-52a1-46e4-8cab-58218234c8f1",
       "sequence": 2,
       "title": "God Changes Water into Wine",
-      "translation_key": "bf344423c18d91626076eb4a59deb692faf198e51c3d36d3b240b1fd9b5da138"
+      "translation_key": "c96a74e3501c9ae783e1672e5fcfee40d3cf78895524c4ceb23ca732a7226538"
     },
     "3f679973-e351-4fe3-8930-e08d9fba23a5": {
       "fingerprints": {
@@ -16343,7 +16343,7 @@
       "translation_key": "9ea9ca2e6ca2535eb81fffe7e7a9d7a7b70294c3f61cd7aa67870a24643f38b1"
     }
   },
-  "content_sha256": "bc7a005448753dd19faf925a5b32eb6722c61b3ab4de1e4e7201568a495975c7",
+  "content_sha256": "a43af43f72f767062c942c16eaa8fdd33ae83a004a6c225570c676cfec6d9ef0",
   "fingerprint_origin": "translation-runtime",
   "format_version": "1.0",
   "issues": [
@@ -17759,7 +17759,7 @@
     }
   ],
   "repository": "trueChristian/berean-voice",
-  "revision": "cca63b8ef44beaad13815672f6e42ab9694a0cbd",
+  "revision": "6c3e27346b6b031f46e29e723e884fe8407806b7",
   "source_errors": {
     "27d98489-2986-4710-bc1e-590b9ad02133": {
       "article_id": "27d98489-2986-4710-bc1e-590b9ad02133",
