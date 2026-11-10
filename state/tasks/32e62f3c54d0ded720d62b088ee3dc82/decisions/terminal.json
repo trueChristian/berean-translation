@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "html: הציטוט מאל האפסים 4:21-23 בפסקה תחת ״התמודדות עם עול נפשי ורגשי״",
+      "severity": "minor",
+      "source_quote": "If so be that ye have heard him, and have been taught by him",
+      "suggested_fix": "החלף את ״ולומדתם על ידו״ ב־״והוא לימד אתכם״.",
+      "translation_quote": "אם אכן שמעתם אותו ולומדתם על ידו"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

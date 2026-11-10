@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-10T23:09:56+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"html: הציטוט מאל האפסים 4:21-23 בפסקה תחת ״התמודדות עם עול נפשי ורגשי״\",\"severity\":\"minor\",\"source_quote\":\"If so be that ye have heard him, and have been taught by him\",\"suggested_fix\":\"החלף את ״ולומדתם על ידו״ ב־״והוא לימד אתכם״.\",\"translation_quote\":\"אם אכן שמעתם אותו ולומדתם על ידו\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 474,
+    "content_evidence_truncated": false,
+    "content_sha256": "0367305a2d3476795c1ebe9b373d118c3e1ba77ffd5b3c9db8143f8c0b6e835d",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 215,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 76,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9312,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8209,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 9527
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review2",
+  "translation_attempts": 1
+}
