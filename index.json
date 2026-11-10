@@ -6727,6 +6727,38 @@
     {
       "ai_notice_required": true,
       "direction": "rtl",
+      "html": "content/ara/articles/324b0fa1-c057-471e-8e90-8eb699e8285a.html",
+      "html_sha256": "cc62fc41bb411c9becb2e64be5e5b41142e9cb490156bf1968f386a9b6512b11",
+      "human_reviewed": false,
+      "id": "324b0fa1-c057-471e-8e90-8eb699e8285a",
+      "images": [
+        {
+          "alt": "كتاب مقدس مفتوح ونبتة خضراء في أصيص بجوار نافذة ذات ستائر.",
+          "public_path": "/images/articles/324b0fa1-c057-471e-8e90-8eb699e8285a-1.jpg"
+        },
+        {
+          "alt": "براعم حمراء على أغصان أشجار أمام خلفية ضبابية ناعمة.",
+          "public_path": "/images/articles/324b0fa1-c057-471e-8e90-8eb699e8285a-2.jpg"
+        }
+      ],
+      "issue_id": "103c93e0-6e9a-44f6-a6bc-377af8e08e38",
+      "language": "ara",
+      "language_tag": "ar",
+      "metadata": "content/ara/articles/324b0fa1-c057-471e-8e90-8eb699e8285a.json",
+      "metadata_sha256": "bc1cc4e0e2896186eab35f1d50732f38336e2f0827efaf886406a686a95b8f9f",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": null,
+      "source_revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
+      "source_translation_key": "ffc57a5aa833a4ec2481350c59b2f0532517af685342cc26f3ca07aadfae2d52",
+      "status": "ready",
+      "subtitle": "إيجاد السلام في خضم أزمة عاطفية",
+      "title": "يسوع المسيح، جواب البشرية المنكسرة",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
       "html": "content/ara/articles/3558b7f3-5296-4770-a7c6-d420c923642d.html",
       "html_sha256": "b19bdc2917d7738e92b92b07e617f15bd7f94fb9ac0340530bfdc4b1f6a6ee3d",
       "human_reviewed": false,
