@@ -1,0 +1,196 @@
+{
+  "findings": [
+    {
+      "location": "html, opening p.drop-cap and recurring quotation in paragraphs 3 and 11",
+      "severity": "major",
+      "source_quote": "asleep on a pillow ... Master, carest thou not that we perish? ... rebuked the wind ... Why are ye so fearful?",
+      "suggested_fix": "Translate the opening quotation into contemporary Hebrew: „והתחוללה סערת רוח גדולה, והגלים היכו בספינה עד שהתמלאה מים. הוא היה בירכתי הספינה, ישן על כרית. הם העירו אותו ואמרו לו: מורה, לא אכפת לך שאנחנו אובדים? הוא קם, גער ברוח ואמר לים: שקט! הירגע! הרוח פסקה והשתררה דממה גדולה. הוא אמר להם: למה אתם פוחדים כל כך? איך זה שאין לכם אמונה? הם פחדו מאוד ואמרו זה לזה: מיהו האיש הזה, שאפילו הרוח והים מצייתים לו?“ Use „למה אתם פוחדים כל כך?“ in paragraphs 3 and 11 as well.",
+      "translation_quote": "עָרום עַל־כַּלָּה ... הֲלֹא־אַתָּה חוֹשֵׁב ... וַיְנַכֵּחַ ... לָמָּה כֹּה יִרְאֵה לָכֶם?"
+    },
+    {
+      "location": "html, all Scripture references",
+      "severity": "major",
+      "source_quote": "Mark 4:37-41; Acts 27:20; 2 Corinthians 11:25; Acts 27:23-24; Mark 4:38; Jonah 1:6; 2 Corinthians 1:8; Psalm 107:25-30; Acts 27:12-13; John 14:27; Acts 27:14; Philippians 1:23; Mark 8:35; Luke 12:13; Acts 27:22; Matthew 19:22; Luke 10:40; Hebrews 4:9-11",
+      "suggested_fix": "Replace the book names at every listed reference with conventional Hebrew names: Mark → מרקוס; Acts → מעשי השליחים; 2 Corinthians → השנייה אל הקורינתים; Jonah → יונה; Psalm → תהילים; John → יוחנן; Philippians → אל הפיליפים; Luke → לוקס; Matthew → מתי; Hebrews → אל העברים. Preserve every printed chapter, verse, range and reference position.",
+      "translation_quote": "Mark 4:37-41; Acts 27:20; 2 Corinthians 11:25; Acts 27:23-24; Mark 4:38; Jonah 1:6; 2 Corinthians 1:8; Psalm 107:25-30; Acts 27:12-13; John 14:27; Acts 27:14; Philippians 1:23; Mark 8:35; Luke 12:13; Acts 27:22; Matthew 19:22; Luke 10:40; Hebrews 4:9-11"
+    },
+    {
+      "location": "html, paragraph 3",
+      "severity": "major",
+      "source_quote": "almost as though He is not as patient and longsuffering as we had hoped",
+      "suggested_fix": "Replace „כאילו שאינו נפלא או סבלני כפי שקיווינו“ with „כמעט כאילו אינו סבלני ואורך רוח כפי שקיווינו“.",
+      "translation_quote": "כאילו שאינו נפלא או סבלני כפי שקיווינו"
+    },
+    {
+      "location": "html, paragraph 4, Acts 27:20 quotation",
+      "severity": "major",
+      "source_quote": "all hope that we should be saved was then taken away",
+      "suggested_fix": "Replace the quotation text with „…במשך ימים רבים לא נראו שמש או כוכבים, וסערה עזה השתוללה עלינו, עד שאבדה כל תקווה שנינצל“.",
+      "translation_quote": "…ימים רבים שלא נראתה שמש או כוכבים, ורוח סערה קשה נחלה עלינו, וכל התקווה שנושע"
+    },
+    {
+      "location": "html, paragraph 5, quotations",
+      "severity": "major",
+      "source_quote": "Master, carest thou not that we perish? ... the shipmaster came to him [Jonah] ... What meanest thou, O sleeper? arise, call upon thy God",
+      "suggested_fix": "Render the first quotation „…מורה, לא אכפת לך שאנחנו אובדים?“ and the Jonah quotation „…רב־החובל ניגש אליו [יונה] ואמר לו: מה לך שאתה ישן? קום, קרא לאלוהיך; אולי אלוהים ייתן את דעתו עלינו ולא נאבד“.",
+      "translation_quote": "רַבִּי, הֲלֹא־אַתָּה חוֹשֵׁב שֶׁנִּאֲבָדִים? ... בּוֹא רַב־הָמֶלֶח לְאִישׁ הַזֶּה ... יָכֹל אִם־יַחֲשֹׁב"
+    },
+    {
+      "location": "html, paragraph 6, closing sentences",
+      "severity": "major",
+      "source_quote": "pressed out of measure, above strength, insomuch that we despaired even of life ... a visionary anchor for his soul",
+      "suggested_fix": "Use „…נלחצנו מעבר לכל מידה ומעבר לכוחותינו, עד שהתייאשנו אפילו מן החיים“ for the quotation, and „ובכל זאת נשא בלבו עוגן של חזון לנפשו“ for the following sentence.",
+      "translation_quote": "נלחץ יתר על המידה, מעבר לכוח, עד שויתרו על החיים ... עקודת חזון לנפשו"
+    },
+    {
+      "location": "html, Psalm 107:25-30 paragraph",
+      "severity": "major",
+      "source_quote": "which lifteth up the waves thereof ... stagger like a drunken man, and are at their wits’ end ... He maketh the storm a calm ... their desired haven",
+      "suggested_fix": "Replace the quotation text with contemporary Hebrew preserving <em> and restoring <strong>: „כי הוא מצווה ומקים רוח סערה, המרוממת את הגלים. הם עולים לשמים ושבים ויורדים לתהומות; נפשם נמסה מרוב צרה. הם מתנודדים מצד לצד ומועדים כשיכור, ואינם יודעים עוד מה לעשות. אז הם זועקים אל יהוה בצרתם, והוא מוציא אותם ממצוקותיהם. הוא משקיט את הסערה, והגלים נרגעים. אז הם שמחים על השקט, והוא מביא אותם אל <strong>הנמל הנכסף</strong>“.",
+      "translation_quote": "ושׁוֹאֵר גַּלָּיו ... נִטְלָעִים וְנֶאֱסָרִים כְּאִישׁ שָׁכֵא, וּבְסוֹף רָאשָׁם ... וַיַּשְׁכֵּם ... אֶל־נָמְלָה אֲהוּבָה"
+    },
+    {
+      "location": "html, paragraph under “הנמל הנחשק…”",
+      "severity": "major",
+      "source_quote": "peace … not as the world giveth, give I unto you. Let not your heart be troubled, neither let it be afraid",
+      "suggested_fix": "Replace the malformed quotation with „…אני נותן לכם לא כפי שהעולם נותן. אל ייטרד לבבכם ואל יפחד“ while retaining „זהו שלום“ before <em>.",
+      "translation_quote": "…לא כמנה הגל הטוב שהעולם נותן, אני נותן לכם. אל־יתעצב לבבכם ואל־יתייראו"
+    },
+    {
+      "location": "html, paragraph beginning “סערות עקשניות”",
+      "severity": "major",
+      "source_quote": "Our central medulla gland ... our faltering faith frazzled ... worshippers of Baal, Buddha, and from backsliders ... read their Bible",
+      "suggested_fix": "Translate the printed gland claim without silently generalizing it: „בלוטת הליבה המרכזית שלנו משחררת לגופנו הורמון רב־עוצמה בשם אדרנלין“. Replace „אמונתנו נבערת“ with „אמונתנו המקרטעת מותשת“, „מן עובדי אלילים, מן הבודהיסטים וממסטים“ with „מעובדי הבעל והבודהה וממי שנסוגו מן האמונה“, and „שקוראים את התנ״ך“ with „שקוראים בכתבי הקודש“.",
+      "translation_quote": "מערכת ההורמונים ... אמונתנו נבערת ... מן עובדי אלילים, מן הבודהיסטים וממסטים ... שקוראים את התנ\"ך"
+    },
+    {
+      "location": "html, paragraph beginning “כשאנחנו מאושרים”",
+      "severity": "major",
+      "source_quote": "our own faulty premonitions ... winds ... not driven from without but unleashed from within ... at the slightest provocation",
+      "suggested_fix": "Replace „נבואותינו השגויות הן שמכות בנפשי“ with „תחושות הבטן השגויות שלנו הן שמכות בנפשנו“; replace the wind sentence with „הרוחות שמטלטלות את כלי השיט שלנו בסערת פחד אינן באות מבחוץ, אלא משתחררות מתוכנו“; use „לנוכח הגירוי הקל ביותר“ instead of „מן ההשתלחות הקלה ביותר“.",
+      "translation_quote": "נבואותינו השגויות הן שמכות בנפשי ... הרוחות המכים את כלי השיט שלנו מעוללות מתוךינו, לא מבחוץ ... מן ההשתלחות הקלה ביותר"
+    },
+    {
+      "location": "html, “…Preserving our Person” heading and its two prose paragraphs",
+      "severity": "major",
+      "source_quote": "Preserving our Person ... expend our personal comforts ... when our person is demoted ... excuse and cater to the preservation of our person",
+      "suggested_fix": "Use the heading „…שומרים על עצמנו“. Replace „מוציא לנגד עינינו נוחות אישית“ with „מוותר על נוחותנו האישית“, „כאשר מעמדם של אנשים מפחת“ with „כאשר מעמדנו האישי נפגע“, and „כאשר אנו מתנצלים ומטפחים את שימור אישיותנו“ with „כאשר אנו מצדיקים ומטפחים את הדאגה לשימור עצמנו“.",
+      "translation_quote": "…מגנים על אישיותנו ... מוציא לנגד עינינו נוחות אישית ... כאשר מעמדם של אנשים מפחת ... כאשר אנו מתנצלים ומטפחים את שימור אישיותנו"
+    },
+    {
+      "location": "html, ordered list, item 2",
+      "severity": "major",
+      "source_quote": "being clawed to death or disemboweled",
+      "suggested_fix": "Replace „דמיונות של להיגרף על ידי טפרים או להיפתח לחתיכות“ with „דמיונות שבהם הוא נשרט למוות בטפרים או שבטנו נקרעת ומעיו נשפכים החוצה“.",
+      "translation_quote": "דמיונות של להיגרף על ידי טפרים או להיפתח לחתיכות"
+    },
+    {
+      "location": "html, Mark 8:35 quotation",
+      "severity": "major",
+      "source_quote": "whosoever will save his life ... whosoever shall lose his life for my sake and the gospel’s",
+      "suggested_fix": "Replace the quotation text with „כי מי שרוצה להציל את חייו יאבד אותם; אך מי שיאבד את חייו למעני ולמען הבשורה יציל אותם“.",
+      "translation_quote": "כָּל־הָרָצוֹן ... אֶת־חַיּוֹ מִּגַּעַד לְמַעַן וּלְמַעַן הַבְּשׂוֹרָה"
+    },
+    {
+      "location": "html, paragraph under “…מגנים על רכושנו”, opening",
+      "severity": "major",
+      "source_quote": "one of the most troubled lives ... Foxes had their dens and the birds had their nests",
+      "suggested_fix": "Replace the first sentence with „מבחינה חיצונית, חיי המשיח היו מן החיים רבי־הצרות ביותר שחי אדם אי פעם“. Replace „למטלות היו אורים“ with „לשועלים היו מאורות“.",
+      "translation_quote": "בין המסכנים שבהיסטוריה. למטלות היו אורים"
+    },
+    {
+      "location": "html, paragraph under “…מגנים על רכושנו”, final sentence",
+      "severity": "major",
+      "source_quote": "Those of us who become anxious at the loss of our wealth are no less foolish.",
+      "suggested_fix": "Replace the sentence with „אלה מאיתנו המתמלאים חרדה לנוכח אובדן עושרם אינם פחות טיפשים“.",
+      "translation_quote": "מי מאתנו שמדאיגים מאבדן עושרו אינם נבונים פחות."
+    },
+    {
+      "location": "html, paragraph under “…משלימים את תוכניתנו”",
+      "severity": "major",
+      "source_quote": "disciples’ while rowing in the sea ... Lord, dost thou not care that my sister hath left me to serve alone? ... the perfectionist",
+      "suggested_fix": "Replace „התלמידים ששחו בים“ with „התלמידים שחתרו בים“. Translate the quotation „…אדוני, לא אכפת לך שאחותי השאירה אותי לשרת לבדי? אמור לה אפוא לעזור לי“. Replace „המושלם“ with „הפרפקציוניסט“.",
+      "translation_quote": "התלמידים ששחו בים ... רַב, הֲלֹא־אַתָּה תְּשׁוּמַע שֶׁאּחַתִּי ... הַמושלם"
+    },
+    {
+      "location": "html, paragraph under “…לשביעות רצון כל האנשים”",
+      "severity": "major",
+      "source_quote": "It is painful to be rejected ... our best friends derail us ... make excuses for others’ poor behavior",
+      "suggested_fix": "Replace „כואב להדחף“ with „כואב להידחות“, „וחברינו הטובים נתקעו“ with „וחברינו הטובים ביותר מסיטים אותנו מדרכנו“, and „אם נצדיק אחרים על התנהגותם הרעה“ with „אם נמצא נסיבות מקילות להתנהגותם הרעה של אחרים“.",
+      "translation_quote": "כואב להדחף ... וחברינו הטובים נתקעו ... אם נצדיק אחרים על התנהגותם הרעה"
+    },
+    {
+      "location": "html, Hebrews 4:9-11 quotation",
+      "severity": "major",
+      "source_quote": "For he that is entered into his rest, he also hath ceased from his own works, as God did from his.",
+      "suggested_fix": "Replace the malformed second sentence with „כי מי שנכנס למנוחתו גם הוא חדל ממעשיו, כפי שאלוהים חדל ממעשיו“; render the final appeal „לכן נשתדל להיכנס למנוחה ההיא…“.",
+      "translation_quote": "כי השָׁבָּה בְּנֹכַח לִנְחָתָו, גם הוא נָח מֵמַעֲשָׂיו ... לָבוֹא אֶל־מִנּוּחָתוֹ"
+    },
+    {
+      "location": "html, paragraph 2",
+      "severity": "minor",
+      "source_quote": "the relational form of the Godhead ... Almighty God ... a boat filling with water",
+      "suggested_fix": "Use „הביטוי של האלוהות המקיים איתנו קשר“ instead of „צורת היחס של האלוהות“, restore „האל הכול־יכול“ instead of „האלוהים“, and replace „סירה שממלאת מים“ with „סירה שמתמלאת מים“.",
+      "translation_quote": "צורת היחס של האלוהות ... האלוהים ... סירה שממלאת מים"
+    },
+    {
+      "location": "html, paragraph 4, angel quotation and conclusion",
+      "severity": "minor",
+      "source_quote": "there stood by me ... whom I serve ... Paul was comforted and commended",
+      "suggested_fix": "Use „עמד לצדי“ instead of „עָמד עלי“, „שאותו אני משרת“ instead of „ואליו אני משרת“, and „פאולוס נוחם וזכה לשבח“ instead of „פאולוס נחם וקיבל עידוד“.",
+      "translation_quote": "עָמד עלי ... ואליו אני משרת ... פאולוס נחם וקיבל עידוד"
+    },
+    {
+      "location": "html, paragraph 6",
+      "severity": "minor",
+      "source_quote": "His peace ... how shall we value the mountaintop?",
+      "suggested_fix": "Correct „שלוםו“ to „שלומו“ and remove the unsupported „נעז“ from „כיצד נעז להעריך את הפסגה?“.",
+      "translation_quote": "שלוםו ... כיצד נעז להעריך את הפסגה?"
+    },
+    {
+      "location": "html, paragraph under “הנמל הנחשק…”",
+      "severity": "minor",
+      "source_quote": "at the first hint of approval from the soft south wind ... just by sailing with Christ",
+      "suggested_fix": "Use „לכן הפליג עם הסימן הראשון של עידוד מן הרוח הדרומית העדינה“ and replace „אם נשוטה עם המשיח“ with „פשוט בהפלגה עם המשיח“.",
+      "translation_quote": "ולכן הפליגו ברמז ראשון של רוח דרומית עדינה ... אם נשוטה עם המשיח"
+    },
+    {
+      "location": "html, paragraph beginning “סערות עקשניות”",
+      "severity": "minor",
+      "source_quote": "a tempestuous wind ... our mind focuses ... capacity to reason ... inner soul arrives safe and sound",
+      "suggested_fix": "Replace „רוח סער לחץ“ with „רוח סערה עזה“, „הדעת מתמקד“ with „התודעה מתמקדת“, „לשים שכל בתוך תשוקה ולחץ קיצוניים“ with „לחשוב בהיגיון גם בעיצומם של רגשות עזים ולחץ קיצוני“, and „להביא את נפשנו פנימה בשלום“ with „שנפשנו תגיע בשלום ובבטחה“.",
+      "translation_quote": "רוח סער לחץ ... הדעת מתמקד ... לשים שכל בתוך תשוקה ולחץ קיצוניים ... להביא את נפשנו פנימה בשלום"
+    },
+    {
+      "location": "html, paragraph after ordered list",
+      "severity": "minor",
+      "source_quote": "In the face of his fear ... light-headedness",
+      "suggested_fix": "Replace „במול פחדו“ with „לנוכח פחדו“ and „תחושת קלות ראש“ with „תחושת עילפון“.",
+      "translation_quote": "במול פחדו ... תחושת קלות ראש"
+    },
+    {
+      "location": "html, paragraph under “…מגנים על רכושנו”, remaining prose",
+      "severity": "minor",
+      "source_quote": "lay His pillow in the back of a rocking boat ... no property ... we are exhorted ... healing balm ... the rich young ruler was offered salvation",
+      "suggested_fix": "Use „הניח את כריתו בירכתי סירה מתנדנדת“, „לא היה לו רכוש“, „אנו נקראים להתעודד“, „כמשחת מרפא“, and „כאשר הוצעה לשליט הצעיר והעשיר ישועה“ in the corresponding clauses.",
+      "translation_quote": "בעודו שמקם את ראשו על כרית מאחורי סירת נדנוד ... לא היו לו רכוש ... נוסע אלינו עידוד ... כמגונת ריפוי ... כאשר הצעיר העשיר הוצע לו ישועה"
+    },
+    {
+      "location": "html, paragraph under “…משלימים את תוכניתנו”, remaining prose",
+      "severity": "minor",
+      "source_quote": "We set out ... struggling ... discouraging ... Martha’s pulse quickened ... more concerned about faith-filled bosoms",
+      "suggested_fix": "Correct the corresponding phrases to „יצאנו לדרך“, „נאבקנו בקשיים“, „ומייאש לראות“, „דופקה של מרתה הואץ“, and „למשיח חשובים יותר לבבות מלאי אמונה“.",
+      "translation_quote": "צאנו לדרך ... התקפנו בקשיים ... ומקשים לראות ... דופק מארתא חש ... המשיח מודאג יותר מלב אמוני"
+    },
+    {
+      "location": "html, final prose paragraph, remaining wording",
+      "severity": "minor",
+      "source_quote": "seeking the approval of others ... A flurry ... sacrifice ... sucking us down to the depths of despair",
+      "suggested_fix": "Replace „בחיפוש אחר חיבה אחרים“ with „בחיפוש אחר אישורם של אחרים“, „סיבוב של“ with „מטר של“, „כמה הקרבת אנחנו עושים“ with „כמה אנו מקריבים“, and „שתשאירה אותנו לעומק הייאוש“ with „שתשאב אותנו אל מעמקי הייאוש“.",
+      "translation_quote": "בחיפוש אחר חיבה אחרים ... סיבוב של ... כמה הקרבת אנחנו עושים ... שתשאירה אותנו לעומק הייאוש"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
