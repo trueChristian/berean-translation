@@ -41903,6 +41903,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/hin/articles/3b932103-b3fb-450d-885a-eaca95ee48fe.html",
+      "html_sha256": "1404c7da7e730921fab615be909de5754ee27355d438f41d1373eeec4c898822",
+      "human_reviewed": false,
+      "id": "3b932103-b3fb-450d-885a-eaca95ee48fe",
+      "images": [
+        {
+          "alt": "लाल सूर्यास्त के आकाश के नीचे खड़े एक युवा व्यक्ति की छाया",
+          "public_path": "/images/articles/3b932103-b3fb-450d-885a-eaca95ee48fe-1.jpg"
+        }
+      ],
+      "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
+      "language": "hin",
+      "language_tag": "hi",
+      "metadata": "content/hin/articles/3b932103-b3fb-450d-885a-eaca95ee48fe.json",
+      "metadata_sha256": "77a2fb467b9ba17794ea7c92cf4e2ac48d7d003daa8e8cd0398482e7480437ae",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "धर्मनिष्ठ घर",
+      "source_revision": "a069ecca8827634ebc256b3b1cabc16aeb942ed7",
+      "source_translation_key": "9f6334ef29e4721f005d0555a208f22042f8e50609a267a640060ad0068035f3",
+      "status": "ready",
+      "subtitle": "किशोरों का पालन-पोषण",
+      "title": "बचपन से वयस्कता तक",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/hin/articles/3c581136-51cf-47b2-a38b-3d1ee1d0b864.html",
       "html_sha256": "a6befdffbc98eefcb04af52ead2141b7fad9619f687c58b7b8b4049013cc9001",
       "human_reviewed": false,

@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "961999a8-a752-4ab2-b66c-e3f7d59ccb9a",
+    "response_id": "chatcmpl-EiTpjTmjPqkowDIFTYr36zB1t29vh",
+    "usage": {
+      "completion_tokens": 412,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 77,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9229,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9226,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9641
+    }
+  },
+  "received_at": "2026-11-10T00:28:50+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "translation.html, पहचान का पहलू, अंतिम सूची-बिंदु",
+        "severity": "minor",
+        "source_quote": "Whether or not they choose to worship in the church of their upbringing",
+        "suggested_fix": "<li>वे उस कलीसिया में आराधना करना चुनते हैं या नहीं जहाँ उनका पालन-पोषण हुआ था</li>",
+        "translation_quote": "<li>वे अपने पालन-पोषण वाले कलीसिया में आराधना करना चुनते हैं या नहीं</li>"
+      },
+      {
+        "location": "translation.html, परमेश्वर के साथ संबंध, अनुच्छेद जिसका आरंभ “आशा है कि आपने” से होता है",
+        "severity": "minor",
+        "source_quote": "We recognized signs of conviction and lead them to brokenness and repentance and to receive salvation through faith in Christ.",
+        "suggested_fix": "हमने पाप-बोध के चिह्न पहचाने और उन्हें टूटे मन तथा पश्चात्ताप की ओर, और मसीह पर विश्वास के द्वारा उद्धार पाने की ओर ले गए। → हमने पाप-बोध के चिह्न पहचाने और उन्हें टूटे मन तथा पश्चात्ताप की ओर, और मसीह पर विश्वास के द्वारा उद्धार पाने की ओर अगुवाई दी।",
+        "translation_quote": "हमने पाप-बोध के चिह्न पहचाने और उन्हें टूटे मन तथा पश्चात्ताप की ओर, और मसीह पर विश्वास के द्वारा उद्धार पाने की ओर ले गए।"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 97
+  }
+}

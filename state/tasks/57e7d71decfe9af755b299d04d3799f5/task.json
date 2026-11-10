@@ -5,11 +5,48 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "707bb8a06d5a4138801e64661f44abef",
   "campaign": "auto-8f2b55c8c5f8fca8778549c00b55851b4ec251457c1d87024c49ef07668ba2af",
   "created_at": "2026-11-09T18:53:17+00:00",
-  "events": [],
-  "findings": [],
+  "events": [
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 412,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 77,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9229,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 9226,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9641
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "translation.html, पहचान का पहलू, अंतिम सूची-बिंदु",
+      "severity": "minor",
+      "source_quote": "Whether or not they choose to worship in the church of their upbringing",
+      "suggested_fix": "<li>वे उस कलीसिया में आराधना करना चुनते हैं या नहीं जहाँ उनका पालन-पोषण हुआ था</li>",
+      "translation_quote": "<li>वे अपने पालन-पोषण वाले कलीसिया में आराधना करना चुनते हैं या नहीं</li>"
+    },
+    {
+      "location": "translation.html, परमेश्वर के साथ संबंध, अनुच्छेद जिसका आरंभ “आशा है कि आपने” से होता है",
+      "severity": "minor",
+      "source_quote": "We recognized signs of conviction and lead them to brokenness and repentance and to receive salvation through faith in Christ.",
+      "suggested_fix": "हमने पाप-बोध के चिह्न पहचाने और उन्हें टूटे मन तथा पश्चात्ताप की ओर, और मसीह पर विश्वास के द्वारा उद्धार पाने की ओर ले गए। → हमने पाप-बोध के चिह्न पहचाने और उन्हें टूटे मन तथा पश्चात्ताप की ओर, और मसीह पर विश्वास के द्वारा उद्धार पाने की ओर अगुवाई दी।",
+      "translation_quote": "हमने पाप-बोध के चिह्न पहचाने और उन्हें टूटे मन तथा पश्चात्ताप की ओर, और मसीह पर विश्वास के द्वारा उद्धार पाने की ओर ले गए।"
+    }
+  ],
+  "finished_at": "2026-11-10T00:28:50+00:00",
   "id": "57e7d71decfe9af755b299d04d3799f5",
   "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
   "language": "hin",
@@ -98,9 +135,11 @@
     }
   },
   "protected": false,
+  "quality_score": 97,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/23952b9369d1e32b38eda00d1f7c2b5d147d745cf7d42d05cb42643608c1533e.json",
   "stage": "review1",
   "stage_budget": {
@@ -115,7 +154,7 @@
     "total_reserved_usd": 0.816292,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 0,
   "translation_key": "9f6334ef29e4721f005d0555a208f22042f8e50609a267a640060ad0068035f3",
   "translation_model_actual": "gpt-6-luna"
