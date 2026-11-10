@@ -69722,6 +69722,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/nob/articles/324b0fa1-c057-471e-8e90-8eb699e8285a.html",
+      "html_sha256": "8817776edbf04173bd1d5b8fa8deab8ceb0b92d57bafd1e454edf9f66168d2b7",
+      "human_reviewed": false,
+      "id": "324b0fa1-c057-471e-8e90-8eb699e8285a",
+      "images": [
+        {
+          "alt": "En åpen bibel og en grønn potteplante ved et vindu med gardiner.",
+          "public_path": "/images/articles/324b0fa1-c057-471e-8e90-8eb699e8285a-1.jpg"
+        },
+        {
+          "alt": "Røde knopper på tregrener mot en mykt uskarp bakgrunn.",
+          "public_path": "/images/articles/324b0fa1-c057-471e-8e90-8eb699e8285a-2.jpg"
+        }
+      ],
+      "issue_id": "103c93e0-6e9a-44f6-a6bc-377af8e08e38",
+      "language": "nob",
+      "language_tag": "nb",
+      "metadata": "content/nob/articles/324b0fa1-c057-471e-8e90-8eb699e8285a.json",
+      "metadata_sha256": "9e194c1833e92004e01ce6f19905f1d1787a464c982805619e3273541320d7fc",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": null,
+      "source_revision": "cca63b8ef44beaad13815672f6e42ab9694a0cbd",
+      "source_translation_key": "ffc57a5aa833a4ec2481350c59b2f0532517af685342cc26f3ca07aadfae2d52",
+      "status": "ready",
+      "subtitle": "Å finne fred i en følelsesmessig krise",
+      "title": "Jesus Kristus – svaret for en sønderbrutt menneskehet",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/nob/articles/34125090-b480-4d63-b13a-33d47470f335.html",
       "html_sha256": "ec83852c951bce81a4c86b2fe7f7134f3d12a4645fe08813bf14ec65a73f4ea6",
       "human_reviewed": false,

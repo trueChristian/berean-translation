@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "html: Avsnittet med sitatet fra 1. Mosebok 4:5",
+      "severity": "minor",
+      "source_quote": "And Cain was very wroth, and his countenance fell",
+      "suggested_fix": "Erstatt «Da ble Kain svært vred, og ansiktet hans falt» med «Da ble Kain svært vred og mørk i ansiktet».",
+      "translation_quote": "Da ble Kain svært vred, og ansiktet hans falt"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}
