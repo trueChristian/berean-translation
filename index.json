@@ -80195,6 +80195,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/rus/articles/01a0a64f-d629-4e05-b1ec-993f86ef4d68.html",
+      "html_sha256": "9c0c575bc5d4bd4be9e5618cb6b4eaa7cbf56d3de81e8632e2e965f047c5db20",
+      "human_reviewed": false,
+      "id": "01a0a64f-d629-4e05-b1ec-993f86ef4d68",
+      "images": [
+        {
+          "alt": "Длинные ветви с листвой свисают на светлом фоне.",
+          "public_path": "/images/articles/01a0a64f-d629-4e05-b1ec-993f86ef4d68-1.jpg"
+        }
+      ],
+      "issue_id": "103c93e0-6e9a-44f6-a6bc-377af8e08e38",
+      "language": "rus",
+      "language_tag": "ru",
+      "metadata": "content/rus/articles/01a0a64f-d629-4e05-b1ec-993f86ef4d68.json",
+      "metadata_sha256": "20f8e34abdda64561151e42309624c0d65abfad0bd6128a197f8174fe3fccae8",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": null,
+      "source_revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
+      "source_translation_key": "0bd5a7158c3c967ae2d717d605a8900c05380dfe6cec6d3e4b4f139ce0827dab",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Он спасет людей Своих от грехов их",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/rus/articles/02db24ae-5132-49c6-a6fd-da73417871e3.html",
       "html_sha256": "7dcf51063a756973a650c84ee36cb3ba7e5a9f8c46a9866f71a0745553363ef4",
       "human_reviewed": false,
