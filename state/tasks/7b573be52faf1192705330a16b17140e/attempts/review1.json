@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-10T00:59:56+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"html: twee opeenvolgende alinea’s onder ‘(2) Relatie met God’, beginnend met ‘Hoe leidt een ouder’ en ‘Hopelijk hebt u’\",\n      \"severity\": \"major\",\n      \"source_quote\": \"“Be aware of evidence of conviction.” / “We recognized signs of conviction and lead them to brokenness and repentance”\",\n      \"suggested_fix\": \"Vervang ‘Let op tekenen van overtuiging’ door ‘Let op tekenen van zondebesef’ en ‘We herkenden tekenen van overtuiging’ door ‘We herkenden tekenen van zondebesef’.\",\n      \"translation_quote\": \"‘Let op tekenen van overtuiging.’ / ‘We herkenden tekenen van overtuiging en leidden hen tot verslagenheid en bekering’\"\n    },\n    {\n      \"location\": \"html: alinea onder ‘(2) Relatie met God’, beginnend met ‘Helaas’\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"“can become a huge stumbling block to their children”\",\n      \"suggested_fix\": \"Vervang ‘een grote struikelblok’ door ‘een groot struikelblok’.\",\n      \"translation_quote\": \"‘een grote struikelblok voor hun kinderen worden’\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": false,\n  \"score\": 94\n}",
+    "content_bytes": 1193,
+    "content_evidence_truncated": false,
+    "content_sha256": "be1e36a815355b970644c00310350c77483efba341d2e4bb1468209e41534b5e",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 367,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 50,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8367,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7264,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 8734
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}

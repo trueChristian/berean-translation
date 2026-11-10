@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "html: twee opeenvolgende alinea’s onder ‘(2) Relatie met God’, beginnend met ‘Hoe leidt een ouder’ en ‘Hopelijk hebt u’",
+      "severity": "major",
+      "source_quote": "“Be aware of evidence of conviction.” / “We recognized signs of conviction and lead them to brokenness and repentance”",
+      "suggested_fix": "Vervang ‘Let op tekenen van overtuiging’ door ‘Let op tekenen van zondebesef’ en ‘We herkenden tekenen van overtuiging’ door ‘We herkenden tekenen van zondebesef’.",
+      "translation_quote": "‘Let op tekenen van overtuiging.’ / ‘We herkenden tekenen van overtuiging en leidden hen tot verslagenheid en bekering’"
+    },
+    {
+      "location": "html: alinea onder ‘(2) Relatie met God’, beginnend met ‘Helaas’",
+      "severity": "minor",
+      "source_quote": "“can become a huge stumbling block to their children”",
+      "suggested_fix": "Vervang ‘een grote struikelblok’ door ‘een groot struikelblok’.",
+      "translation_quote": "‘een grote struikelblok voor hun kinderen worden’"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "cf772a96-e1ac-43b4-baf1-ae8194c42770",
+    "response_id": "chatcmpl-EiUOp5aQ02Psc5n3wvWK4aETtdLyB",
+    "usage": {
+      "completion_tokens": 367,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 50,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8367,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7264,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 8734
+    }
+  },
+  "received_at": "2026-11-10T00:59:56+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "html: twee opeenvolgende alinea’s onder ‘(2) Relatie met God’, beginnend met ‘Hoe leidt een ouder’ en ‘Hopelijk hebt u’",
+        "severity": "major",
+        "source_quote": "“Be aware of evidence of conviction.” / “We recognized signs of conviction and lead them to brokenness and repentance”",
+        "suggested_fix": "Vervang ‘Let op tekenen van overtuiging’ door ‘Let op tekenen van zondebesef’ en ‘We herkenden tekenen van overtuiging’ door ‘We herkenden tekenen van zondebesef’.",
+        "translation_quote": "‘Let op tekenen van overtuiging.’ / ‘We herkenden tekenen van overtuiging en leidden hen tot verslagenheid en bekering’"
+      },
+      {
+        "location": "html: alinea onder ‘(2) Relatie met God’, beginnend met ‘Helaas’",
+        "severity": "minor",
+        "source_quote": "“can become a huge stumbling block to their children”",
+        "suggested_fix": "Vervang ‘een grote struikelblok’ door ‘een groot struikelblok’.",
+        "translation_quote": "‘een grote struikelblok voor hun kinderen worden’"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 94
+  }
+}
