@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Alinea 1",
+      "severity": "minor",
+      "source_quote": "A drift of snow swirled down the alley on a wet, chilly wind.",
+      "suggested_fix": "Een sneeuwjacht wervelde op een natte, kille wind door het steegje.",
+      "translation_quote": "Een sneeuwjacht wervelde op een natte, kille wind door het steegje."
+    },
+    {
+      "location": "Alinea 12",
+      "severity": "major",
+      "source_quote": "The policeman’s weighty words that he spoke next revealed the power of a simple act of kindness.",
+      "suggested_fix": "De aangrijpende woorden die de politieagent vervolgens sprak, onthulden de kracht van een eenvoudige vriendelijke daad.",
+      "translation_quote": "De ernstige woorden die de politieagent vervolgens sprak, onthulden de kracht van een eenvoudige vriendelijke daad."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

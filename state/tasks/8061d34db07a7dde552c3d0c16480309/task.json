@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "d277b7906011460dbd2f4b14605c1fac",
   "campaign": "auto-50cd183c5cb6ad215f19c88cec73ce32da45e7b12cffa2a63cccd624f98ab959",
   "created_at": "2026-11-10T09:12:25+00:00",
   "events": [
@@ -28,10 +27,45 @@
         },
         "total_tokens": 3773
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 197,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4127,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 3024,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 4324
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "Alinea 1",
+      "severity": "minor",
+      "source_quote": "A drift of snow swirled down the alley on a wet, chilly wind.",
+      "suggested_fix": "Een sneeuwjacht wervelde op een natte, kille wind door het steegje.",
+      "translation_quote": "Een sneeuwjacht wervelde op een natte, kille wind door het steegje."
+    },
+    {
+      "location": "Alinea 12",
+      "severity": "major",
+      "source_quote": "The policeman’s weighty words that he spoke next revealed the power of a simple act of kindness.",
+      "suggested_fix": "De aangrijpende woorden die de politieagent vervolgens sprak, onthulden de kracht van een eenvoudige vriendelijke daad.",
+      "translation_quote": "De ernstige woorden die de politieagent vervolgens sprak, onthulden de kracht van een eenvoudige vriendelijke daad."
+    }
+  ],
   "id": "8061d34db07a7dde552c3d0c16480309",
   "issue_id": "103c93e0-6e9a-44f6-a6bc-377af8e08e38",
   "language": "nld",
@@ -120,11 +154,13 @@
     }
   },
   "protected": false,
+  "quality_score": 96,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/035f9f129af51cc618b0ddc52980a62c824cc9adac2ae8372b8b0d5c13430e1f.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "translate",
     "max_candidate_bytes": 120000,
@@ -138,7 +174,7 @@
     "total_reserved_usd": 0.087324,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "7a6289704a964734c82f4dfa151db5c6907febafb6cf043a81275c1233c4e238",
   "translation_model_actual": "gpt-6-luna"
