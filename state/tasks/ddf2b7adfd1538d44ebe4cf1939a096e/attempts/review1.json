@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-10T17:19:10+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, paragraph 3\",\"severity\":\"minor\",\"source_quote\":\"Bill took his head out of his hands and wiped his eyes.\",\"suggested_fix\":\"Bill ergueu a cabeça e enxugou os olhos.\",\"translation_quote\":\"Bill tirou a cabeça das mãos e enxugou os olhos.\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 322,
+    "content_evidence_truncated": false,
+    "content_sha256": "b04f53ca4894d57f8ab10dac349ea3af362dfce0b009bcd18e28046b1561b776",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 608,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4089,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2986,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 4697
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "167c2d72cae2460aa5bffb73ca1c855d",
   "campaign": "auto-8020494a2ee75a9c4430506e54a951766bcfaf4878632c98edbb4e37a585db67",
   "created_at": "2026-11-10T08:26:00+00:00",
   "events": [
@@ -28,10 +27,39 @@
         },
         "total_tokens": 3735
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 608,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 512,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4089,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 2986,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 4697
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "HTML, paragraph 3",
+      "severity": "minor",
+      "source_quote": "Bill took his head out of his hands and wiped his eyes.",
+      "suggested_fix": "Bill ergueu a cabeça e enxugou os olhos.",
+      "translation_quote": "Bill tirou a cabeça das mãos e enxugou os olhos."
+    }
+  ],
+  "finished_at": "2026-11-10T17:19:10+00:00",
   "id": "ddf2b7adfd1538d44ebe4cf1939a096e",
   "issue_id": "103c93e0-6e9a-44f6-a6bc-377af8e08e38",
   "language": "por",
@@ -120,9 +148,11 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/035f9f129af51cc618b0ddc52980a62c824cc9adac2ae8372b8b0d5c13430e1f.json",
   "stage": "review1",
   "stage_budget": {
@@ -138,7 +168,7 @@
     "total_reserved_usd": 0.087344,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "7a6289704a964734c82f4dfa151db5c6907febafb6cf043a81275c1233c4e238",
   "translation_model_actual": "gpt-6-luna"

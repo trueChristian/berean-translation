@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraph 3",
+      "severity": "minor",
+      "source_quote": "Bill took his head out of his hands and wiped his eyes.",
+      "suggested_fix": "Bill ergueu a cabeça e enxugou os olhos.",
+      "translation_quote": "Bill tirou a cabeça das mãos e enxugou os olhos."
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}
