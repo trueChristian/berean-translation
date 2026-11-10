@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-10T21:28:59+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"본문 첫 문단\",\"severity\":\"minor\",\"source_quote\":\"A drift of snow swirled down the alley on a wet, chilly wind.\",\"suggested_fix\":\"축축하고 차가운 바람에 눈발이 골목을 따라 빙빙 휘날렸다.\",\"translation_quote\":\"축축하고 차가운 바람에 눈더미가 골목을 따라 빙빙 휘날렸다.\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 400,
+    "content_evidence_truncated": false,
+    "content_sha256": "50a963112b3e0df46500df6d8a4c48931111902c69fa7d49cac1bbfce278433e",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 658,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 531,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4444,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3341,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 5102
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

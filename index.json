@@ -60090,6 +60090,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/kor/articles/7750b3b4-3c80-48a5-860c-4958331969d7.html",
+      "html_sha256": "2cbe487f55bfb66f0b0cb57b68b5508a992afc533e52ccfe711c050bc239f54a",
+      "human_reviewed": false,
+      "id": "7750b3b4-3c80-48a5-860c-4958331969d7",
+      "images": [
+        {
+          "alt": "제복을 입은 경찰관이 목도리를 한 사람의 사진을 들고 있다.",
+          "public_path": "/images/articles/7750b3b4-3c80-48a5-860c-4958331969d7-1.jpg"
+        }
+      ],
+      "issue_id": "103c93e0-6e9a-44f6-a6bc-377af8e08e38",
+      "language": "kor",
+      "language_tag": "ko",
+      "metadata": "content/kor/articles/7750b3b4-3c80-48a5-860c-4958331969d7.json",
+      "metadata_sha256": "ad679647c39b09b95be1a1edfff3e9657d8e0f0db8b86f44a5e3e1faa50f3253",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "어린이 코너",
+      "source_revision": "6c3e27346b6b031f46e29e723e884fe8407806b7",
+      "source_translation_key": "7a6289704a964734c82f4dfa151db5c6907febafb6cf043a81275c1233c4e238",
+      "status": "ready",
+      "subtitle": null,
+      "title": "친절의 힘",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/kor/articles/77cd4a24-14db-4ba2-905f-4f3ecb1d3ea5.html",
       "html_sha256": "62bc5f6998bd1730d1e473a89c5eb7350a06efb660b9b0e718911d6407f3ec43",
       "human_reviewed": false,

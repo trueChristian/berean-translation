@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "본문 첫 문단",
+      "severity": "minor",
+      "source_quote": "A drift of snow swirled down the alley on a wet, chilly wind.",
+      "suggested_fix": "축축하고 차가운 바람에 눈발이 골목을 따라 빙빙 휘날렸다.",
+      "translation_quote": "축축하고 차가운 바람에 눈더미가 골목을 따라 빙빙 휘날렸다."
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}
