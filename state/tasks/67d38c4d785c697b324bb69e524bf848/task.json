@@ -5,11 +5,40 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "03e84af671da4c829a863b74d4c6c1fc",
   "campaign": "auto-73dc95099a2a52af4486f93e29e47c202c286932e4e8366dd75f66d339c2f63c",
   "created_at": "2026-11-10T08:56:42+00:00",
-  "events": [],
-  "findings": [],
+  "events": [
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 259,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 106,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8945,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8942,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9204
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "translation.html 마지막 문단, 시편 127:5 인용",
+      "severity": "major",
+      "source_quote": "Happy is the man that hath his quiver full of them",
+      "suggested_fix": "인용문의 첫 문장을 “자기 화살통에 이런 화살이 가득한 사람은 복되도다.”로 수정하십시오.",
+      "translation_quote": "이 화살통에 가득한 사람은 복되도다."
+    }
+  ],
   "id": "67d38c4d785c697b324bb69e524bf848",
   "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
   "language": "kor",
@@ -98,11 +127,13 @@
     }
   },
   "protected": false,
+  "quality_score": 94,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/23952b9369d1e32b38eda00d1f7c2b5d147d745cf7d42d05cb42643608c1533e.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "review1",
     "max_candidate_bytes": 120000,
@@ -115,7 +146,7 @@
     "total_reserved_usd": 0.768549,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 0,
   "translation_key": "9f6334ef29e4721f005d0555a208f22042f8e50609a267a640060ad0068035f3",
   "translation_model_actual": "gpt-6-luna"

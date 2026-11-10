@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "8d374a6e-fc07-43cf-b2a6-53466412f868",
+    "response_id": "chatcmpl-Eilo8kmyC5nT95b1kHeRe5K22bfXe",
+    "usage": {
+      "completion_tokens": 259,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 106,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8945,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8942,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9204
+    }
+  },
+  "received_at": "2026-11-10T21:27:46+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "translation.html 마지막 문단, 시편 127:5 인용",
+        "severity": "major",
+        "source_quote": "Happy is the man that hath his quiver full of them",
+        "suggested_fix": "인용문의 첫 문장을 “자기 화살통에 이런 화살이 가득한 사람은 복되도다.”로 수정하십시오.",
+        "translation_quote": "이 화살통에 가득한 사람은 복되도다."
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 94
+  }
+}

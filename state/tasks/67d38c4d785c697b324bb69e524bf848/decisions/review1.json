@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "translation.html 마지막 문단, 시편 127:5 인용",
+      "severity": "major",
+      "source_quote": "Happy is the man that hath his quiver full of them",
+      "suggested_fix": "인용문의 첫 문장을 “자기 화살통에 이런 화살이 가득한 사람은 복되도다.”로 수정하십시오.",
+      "translation_quote": "이 화살통에 가득한 사람은 복되도다."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
