@@ -5,10 +5,31 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "e0cad9a3ec6949ebbcbb47b6de27ec38",
   "campaign": "auto-cd5888efe76c7c4a97eef7be68d64e94b93f291bad1db24de52e58132d76b3dd",
   "created_at": "2026-11-08T20:40:22+00:00",
-  "events": [],
+  "events": [
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "correct",
+      "usage": {
+        "completion_tokens": 2668,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 44,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5731,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 4696,
+          "cached_tokens": 1032
+        },
+        "total_tokens": 8399
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
   "findings": [
     {
       "location": "Article, paragraph beginning “Mnamo Januari 5, 1527”",
@@ -110,7 +131,7 @@
   "review_attempts": 0,
   "review_model": "gpt-6.1-sol",
   "source_snapshot": "state/sources/0c3dee84c4be483b7daee22c0e12dce97f285120dda752151ffd42f0a4fb8c0b.json",
-  "stage": "correct",
+  "stage": "review2",
   "stage_budget": {
     "initial_stage": "correct",
     "max_candidate_bytes": 120000,
@@ -122,8 +143,8 @@
     "total_reserved_usd": 0.564599,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "dcde981bb8a2de6c36d041bdd00094be4150bee86267332e4ae76a69b15c1fa4",
-  "translation_model_actual": "gpt-6-luna"
+  "translation_model_actual": "gpt-6.1-sol"
 }
