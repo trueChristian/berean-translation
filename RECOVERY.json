@@ -5952,7 +5952,7 @@
       "article_id": "cf3bcef6-affc-4c39-9c73-ce940fab787f",
       "language": "hin",
       "latest_task": "876edd52ae19d100c94677156fe0c657",
-      "processing_status": "queued",
+      "processing_status": "in_batch",
       "reason": "active"
     },
     {
@@ -7908,7 +7908,7 @@
       "article_id": "7750b3b4-3c80-48a5-860c-4958331969d7",
       "language": "nld",
       "latest_task": "8061d34db07a7dde552c3d0c16480309",
-      "processing_status": "queued",
+      "processing_status": "in_batch",
       "reason": "active"
     },
     {
