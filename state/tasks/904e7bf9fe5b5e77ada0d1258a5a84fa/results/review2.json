@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "8cf81934-ac9b-41ef-947c-6807443a2c69",
+    "response_id": "chatcmpl-Eip9PNIHHR1H4OUSHm2kPPXrLCDCb",
+    "usage": {
+      "completion_tokens": 318,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 78,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8370,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7267,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 8688
+    }
+  },
+  "received_at": "2026-11-10T23:10:25+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "translation.html، الفقرة الثانية، الجملتان الأولى والثانية",
+        "severity": "minor",
+        "source_quote": "Little did they know where this journey would lead them. They received the call, they responded to the call, and now they were on a journey that would forever change their lives.",
+        "suggested_fix": "استخدم الجمع للإشارة إلى التلاميذ الأربعة المذكورين: «لم يكونوا يعلمون إلا القليل عن الوجهة التي ستقودهم إليها هذه الرحلة. لقد تلقوا الدعوة، فاستجابوا لها، والآن كانوا في رحلة ستغير حياتهم إلى الأبد».",
+        "translation_quote": "لم يكونا يعلمان إلا القليل عن الوجهة التي ستقودهما إليها هذه الرحلة. لقد تلقيا الدعوة، فاستجابا لها، والآن كانا في رحلة ستغير حياتهما إلى الأبد."
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}

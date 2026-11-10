@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-10T23:10:25+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"translation.html، الفقرة الثانية، الجملتان الأولى والثانية\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"Little did they know where this journey would lead them. They received the call, they responded to the call, and now they were on a journey that would forever change their lives.\",\n      \"suggested_fix\": \"استخدم الجمع للإشارة إلى التلاميذ الأربعة المذكورين: «لم يكونوا يعلمون إلا القليل عن الوجهة التي ستقودهم إليها هذه الرحلة. لقد تلقوا الدعوة، فاستجابوا لها، والآن كانوا في رحلة ستغير حياتهم إلى الأبد».\",\n      \"translation_quote\": \"لم يكونا يعلمان إلا القليل عن الوجهة التي ستقودهما إليها هذه الرحلة. لقد تلقيا الدعوة، فاستجابا لها، والآن كانا في رحلة ستغير حياتهما إلى الأبد.\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": true,\n  \"score\": 98\n}",
+    "content_bytes": 1130,
+    "content_evidence_truncated": false,
+    "content_sha256": "311dc8a6f00414307c39ccfb3e5bb6cfd89d16bfd3bef8d0e442fc2b50fa37ce",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 318,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 78,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8370,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7267,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 8688
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 1
+}

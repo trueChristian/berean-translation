@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "translation.html، الفقرة الثانية، الجملتان الأولى والثانية",
+      "severity": "minor",
+      "source_quote": "Little did they know where this journey would lead them. They received the call, they responded to the call, and now they were on a journey that would forever change their lives.",
+      "suggested_fix": "استخدم الجمع للإشارة إلى التلاميذ الأربعة المذكورين: «لم يكونوا يعلمون إلا القليل عن الوجهة التي ستقودهم إليها هذه الرحلة. لقد تلقوا الدعوة، فاستجابوا لها، والآن كانوا في رحلة ستغير حياتهم إلى الأبد».",
+      "translation_quote": "لم يكونا يعلمان إلا القليل عن الوجهة التي ستقودهما إليها هذه الرحلة. لقد تلقيا الدعوة، فاستجابا لها، والآن كانا في رحلة ستغير حياتهما إلى الأبد."
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

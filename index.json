@@ -6759,6 +6759,34 @@
     {
       "ai_notice_required": true,
       "direction": "rtl",
+      "html": "content/ara/articles/34125090-b480-4d63-b13a-33d47470f335.html",
+      "html_sha256": "851d791ad42f692b310f033647eae8a2b8bd60141d34f30fb58a76a36780b313",
+      "human_reviewed": false,
+      "id": "34125090-b480-4d63-b13a-33d47470f335",
+      "images": [
+        {
+          "alt": "شروق الشمس فوق قمم جبال وعرة",
+          "public_path": "/images/articles/34125090-b480-4d63-b13a-33d47470f335-1.jpg"
+        }
+      ],
+      "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
+      "language": "ara",
+      "language_tag": "ar",
+      "metadata": "content/ara/articles/34125090-b480-4d63-b13a-33d47470f335.json",
+      "metadata_sha256": "eae1a06addc7c3e8645bc2dcbb8054cad8829be9d26af5b0a73c9601be014886",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "كنيسة العهد الجديد",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "b3a0b32450038629cf20919c69af275c4549e0b458e25e2b5d03da547dfb97f7",
+      "status": "ready",
+      "subtitle": "المقالة الثانية في السلسلة «دعوة التلمذة»",
+      "title": "دعوة إلى القداسة",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
       "html": "content/ara/articles/3558b7f3-5296-4770-a7c6-d420c923642d.html",
       "html_sha256": "b19bdc2917d7738e92b92b07e617f15bd7f94fb9ac0340530bfdc4b1f6a6ee3d",
       "human_reviewed": false,
