@@ -27337,6 +27337,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ell/articles/4e180a0e-db17-4e62-9eb8-da82bbe72d17.html",
+      "html_sha256": "a7e0f9b1b622d2cbabebd09094cee8a8af08a385a0b9c019c6d9bba90ed59e16",
+      "human_reviewed": false,
+      "id": "4e180a0e-db17-4e62-9eb8-da82bbe72d17",
+      "images": [
+        {
+          "alt": "Ένα ομιχλώδες δασικό τοπίο",
+          "public_path": "/images/articles/4e180a0e-db17-4e62-9eb8-da82bbe72d17-1.jpg"
+        }
+      ],
+      "issue_id": "1933c1f0-be1f-561a-b470-79a5ced64c04",
+      "language": "ell",
+      "language_tag": "el",
+      "metadata": "content/ell/articles/4e180a0e-db17-4e62-9eb8-da82bbe72d17.json",
+      "metadata_sha256": "9f8da3adf3755142b6a01e76ec65f6a615fb824be87eeab342d5b7a8fb9feda8",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": null,
+      "source_revision": "22388745ad7f149609e65f5e28cfcc1257cd689e",
+      "source_translation_key": "2a97fefda431f6b0230a62317a2f23507f948c9c54a8e9e9e0526f6f35bea3df",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Εμπιστοσύνη",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ell/articles/4e8ea007-f957-4120-ad93-54df11c824c6.html",
       "html_sha256": "24a644e44a4e06b0b2ee8fd80aae3450304b846afc7864b82671f40d2acd1aba",
       "human_reviewed": false,
