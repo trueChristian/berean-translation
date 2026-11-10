@@ -8017,6 +8017,34 @@
     {
       "ai_notice_required": true,
       "direction": "rtl",
+      "html": "content/ara/articles/7750b3b4-3c80-48a5-860c-4958331969d7.html",
+      "html_sha256": "f355f02503681785de3e80cc92506884dc4385a27cf51100d42e4b674e4351f8",
+      "human_reviewed": false,
+      "id": "7750b3b4-3c80-48a5-860c-4958331969d7",
+      "images": [
+        {
+          "alt": "شرطي يرتدي زيه الرسمي ويحمل صورة لشخص يضع وشاحًا.",
+          "public_path": "/images/articles/7750b3b4-3c80-48a5-860c-4958331969d7-1.jpg"
+        }
+      ],
+      "issue_id": "103c93e0-6e9a-44f6-a6bc-377af8e08e38",
+      "language": "ara",
+      "language_tag": "ar",
+      "metadata": "content/ara/articles/7750b3b4-3c80-48a5-860c-4958331969d7.json",
+      "metadata_sha256": "92f7f82f55ef8f9c719ee676598c95f768309102cf05c2f245ce162162f75957",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "ركن الأطفال",
+      "source_revision": "cca63b8ef44beaad13815672f6e42ab9694a0cbd",
+      "source_translation_key": "7a6289704a964734c82f4dfa151db5c6907febafb6cf043a81275c1233c4e238",
+      "status": "ready",
+      "subtitle": null,
+      "title": "قوة اللطف",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
       "html": "content/ara/articles/77cd4a24-14db-4ba2-905f-4f3ecb1d3ea5.html",
       "html_sha256": "4a2cf5fac0f708f33b316459c73b6004fce6387a0b3c55b32c738b49f0305979",
       "human_reviewed": false,

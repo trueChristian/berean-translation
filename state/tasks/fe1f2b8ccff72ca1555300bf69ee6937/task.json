@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "34c755de54d94b1bb974f78f1ff206dd",
   "campaign": "auto-450e801e1922d2821e2826cd515f3b34ed5a5cf2ce5b4bb72f5f939876d9f064",
   "created_at": "2026-11-10T07:11:44+00:00",
   "events": [
@@ -28,10 +27,46 @@
         },
         "total_tokens": 3926
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 769,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 580,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4280,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 3177,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 5049
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "الفقرة الأولى",
+      "severity": "minor",
+      "source_quote": "A drift of snow swirled down the alley",
+      "suggested_fix": "تطايرت دوامة من الثلج في الزقاق",
+      "translation_quote": "أخذت كومة من الثلج تدور في الزقاق"
+    },
+    {
+      "location": "الفقرة التي تبدأ «يا للعجب، فكّر بيل»",
+      "severity": "minor",
+      "source_quote": "The warmth of the hot bowl felt comforting to Bill’s frozen fingers.",
+      "suggested_fix": "وكان دفء الوعاء الساخن مريحًا لأصابع بيل المتجمدة.",
+      "translation_quote": "أشعر دفء الوعاء الساخن أصابع بيل المتجمدة بالراحة."
+    }
+  ],
+  "finished_at": "2026-11-10T09:09:31+00:00",
   "id": "fe1f2b8ccff72ca1555300bf69ee6937",
   "issue_id": "103c93e0-6e9a-44f6-a6bc-377af8e08e38",
   "language": "ara",
@@ -120,9 +155,11 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/c5b3baa86d51831924628f8caf7ad6732e89ad505499e87223765327808a3441.json",
   "stage": "review1",
   "stage_budget": {
@@ -138,7 +175,7 @@
     "total_reserved_usd": 0.08733,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "7a6289704a964734c82f4dfa151db5c6907febafb6cf043a81275c1233c4e238",
   "translation_model_actual": "gpt-6-luna"

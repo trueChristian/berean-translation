@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "الفقرة الأولى",
+      "severity": "minor",
+      "source_quote": "A drift of snow swirled down the alley",
+      "suggested_fix": "تطايرت دوامة من الثلج في الزقاق",
+      "translation_quote": "أخذت كومة من الثلج تدور في الزقاق"
+    },
+    {
+      "location": "الفقرة التي تبدأ «يا للعجب، فكّر بيل»",
+      "severity": "minor",
+      "source_quote": "The warmth of the hot bowl felt comforting to Bill’s frozen fingers.",
+      "suggested_fix": "وكان دفء الوعاء الساخن مريحًا لأصابع بيل المتجمدة.",
+      "translation_quote": "أشعر دفء الوعاء الساخن أصابع بيل المتجمدة بالراحة."
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

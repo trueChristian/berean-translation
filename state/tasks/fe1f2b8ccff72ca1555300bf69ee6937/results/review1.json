@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "7965684c-34c9-4fd0-b68f-a9a97e3e2c2a",
+    "response_id": "chatcmpl-Eic1cfivWaIVW2nsbLMXhG822Zpb4",
+    "usage": {
+      "completion_tokens": 769,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 580,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4280,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3177,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 5049
+    }
+  },
+  "received_at": "2026-11-10T09:09:31+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "الفقرة الأولى",
+        "severity": "minor",
+        "source_quote": "A drift of snow swirled down the alley",
+        "suggested_fix": "تطايرت دوامة من الثلج في الزقاق",
+        "translation_quote": "أخذت كومة من الثلج تدور في الزقاق"
+      },
+      {
+        "location": "الفقرة التي تبدأ «يا للعجب، فكّر بيل»",
+        "severity": "minor",
+        "source_quote": "The warmth of the hot bowl felt comforting to Bill’s frozen fingers.",
+        "suggested_fix": "وكان دفء الوعاء الساخن مريحًا لأصابع بيل المتجمدة.",
+        "translation_quote": "أشعر دفء الوعاء الساخن أصابع بيل المتجمدة بالراحة."
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}
