@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-10T17:34:16+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, paragraph under “Αντιμετώπιση των ψυχικών και συναισθηματικών βαρών”\",\"severity\":\"minor\",\"source_quote\":\"This is an important topic and more could be written about it.\",\"suggested_fix\":\"Αυτό είναι σημαντικό θέμα και θα μπορούσαν να γραφτούν περισσότερα γι’ αυτό.\",\"translation_quote\":\"Αυτό είναι σημαντικό θέμα και θα μπορούσε να γραφτεί περισσότερα γι’ αυτό.\"}],\"findings_complete\":true,\"passed\":true,\"score\":99}",
+    "content_bytes": 622,
+    "content_evidence_truncated": false,
+    "content_sha256": "271053a15fcb86cf2bf601d8bf1bea519208e656bd3fa4dd79df91a9f0823df6",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1046,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 907,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 11209,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 10106,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 12255
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review2",
+  "translation_attempts": 2
+}

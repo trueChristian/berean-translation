@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "26aa398271024c6782b93c34640efb40",
   "campaign": "auto-b69fe7128f6d329db17491440fd1b19b1707dd761b8abf4b0fba71fbecb72ebb",
   "created_at": "2026-11-09T16:21:36+00:00",
   "events": [
@@ -48,18 +47,39 @@
         },
         "total_tokens": 17602
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1046,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 907,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 11209,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 10106,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 12255
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "HTML/metadata contract",
-      "severity": "critical",
-      "source_quote": "",
-      "suggested_fix": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[36]: source /article[1]/p[11]/em[1] ('start', 'em', ()); translation /article[1]/p[11] ('end', 'p')",
-      "translation_quote": ""
+      "location": "HTML, paragraph under “Αντιμετώπιση των ψυχικών και συναισθηματικών βαρών”",
+      "severity": "minor",
+      "source_quote": "This is an important topic and more could be written about it.",
+      "suggested_fix": "Αυτό είναι σημαντικό θέμα και θα μπορούσαν να γραφτούν περισσότερα γι’ αυτό.",
+      "translation_quote": "Αυτό είναι σημαντικό θέμα και θα μπορούσε να γραφτεί περισσότερα γι’ αυτό."
     }
   ],
+  "finished_at": "2026-11-10T17:34:16+00:00",
   "id": "54f4e07de0cb63914a52715da3b6aa9e",
   "issue_id": "103c93e0-6e9a-44f6-a6bc-377af8e08e38",
   "language": "ell",
@@ -148,9 +168,11 @@
     }
   },
   "protected": false,
+  "quality_score": 99,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/9555c5ae6afc74181667829f15ceed38dbab17c676aa21092da534511d81bb3f.json",
   "stage": "review2",
   "stage_budget": {
@@ -166,7 +188,7 @@
     "total_reserved_usd": 0.09044,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "ffc57a5aa833a4ec2481350c59b2f0532517af685342cc26f3ca07aadfae2d52",
   "translation_model_actual": "gpt-6-luna"

@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraph under “Αντιμετώπιση των ψυχικών και συναισθηματικών βαρών”",
+      "severity": "minor",
+      "source_quote": "This is an important topic and more could be written about it.",
+      "suggested_fix": "Αυτό είναι σημαντικό θέμα και θα μπορούσαν να γραφτούν περισσότερα γι’ αυτό.",
+      "translation_quote": "Αυτό είναι σημαντικό θέμα και θα μπορούσε να γραφτεί περισσότερα γι’ αυτό."
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

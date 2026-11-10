@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "14fc637f-5f3e-45a7-b075-38ee01096ece",
+    "response_id": "chatcmpl-Eijvdhhlev4VATtz5aNzrtcA1mt7r",
+    "usage": {
+      "completion_tokens": 1046,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 907,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 11209,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 10106,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 12255
+    }
+  },
+  "received_at": "2026-11-10T17:34:16+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, paragraph under “Αντιμετώπιση των ψυχικών και συναισθηματικών βαρών”",
+        "severity": "minor",
+        "source_quote": "This is an important topic and more could be written about it.",
+        "suggested_fix": "Αυτό είναι σημαντικό θέμα και θα μπορούσαν να γραφτούν περισσότερα γι’ αυτό.",
+        "translation_quote": "Αυτό είναι σημαντικό θέμα και θα μπορούσε να γραφτεί περισσότερα γι’ αυτό."
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 99
+  }
+}
