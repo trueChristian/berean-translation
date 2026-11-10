@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "ceb7e1020a6d48a1a4541e7919cd9e04",
   "campaign": "auto-471369bdcf889a81aa6881ae3467095a5605465c2cfcf424b3f3913b393b1492",
   "created_at": "2026-11-10T00:46:17+00:00",
   "events": [
@@ -48,25 +47,31 @@
         },
         "total_tokens": 12511
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 89,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 57,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8378,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8375,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8467
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "html: twee opeenvolgende alinea’s onder ‘(2) Relatie met God’, beginnend met ‘Hoe leidt een ouder’ en ‘Hopelijk hebt u’",
-      "severity": "major",
-      "source_quote": "“Be aware of evidence of conviction.” / “We recognized signs of conviction and lead them to brokenness and repentance”",
-      "suggested_fix": "Vervang ‘Let op tekenen van overtuiging’ door ‘Let op tekenen van zondebesef’ en ‘We herkenden tekenen van overtuiging’ door ‘We herkenden tekenen van zondebesef’.",
-      "translation_quote": "‘Let op tekenen van overtuiging.’ / ‘We herkenden tekenen van overtuiging en leidden hen tot verslagenheid en bekering’"
-    },
-    {
-      "location": "html: alinea onder ‘(2) Relatie met God’, beginnend met ‘Helaas’",
-      "severity": "minor",
-      "source_quote": "“can become a huge stumbling block to their children”",
-      "suggested_fix": "Vervang ‘een grote struikelblok’ door ‘een groot struikelblok’.",
-      "translation_quote": "‘een grote struikelblok voor hun kinderen worden’"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-11-10T08:23:47+00:00",
   "id": "7b573be52faf1192705330a16b17140e",
   "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
   "language": "nld",
@@ -155,7 +160,7 @@
     }
   },
   "protected": false,
-  "quality_score": 94,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6.1-sol",
@@ -174,7 +179,7 @@
     "total_reserved_usd": 0.764752,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "9f6334ef29e4721f005d0555a208f22042f8e50609a267a640060ad0068035f3",
   "translation_model_actual": "gpt-6.1-sol"

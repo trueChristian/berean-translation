@@ -63965,6 +63965,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/nld/articles/3b932103-b3fb-450d-885a-eaca95ee48fe.html",
+      "html_sha256": "f2e286ce1befabfe84fb090b47664ca494e678cbe0161864b099809242422f89",
+      "human_reviewed": false,
+      "id": "3b932103-b3fb-450d-885a-eaca95ee48fe",
+      "images": [
+        {
+          "alt": "Silhouet van een jongere die onder een rode avondhemel staat",
+          "public_path": "/images/articles/3b932103-b3fb-450d-885a-eaca95ee48fe-1.jpg"
+        }
+      ],
+      "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
+      "language": "nld",
+      "language_tag": "nl",
+      "metadata": "content/nld/articles/3b932103-b3fb-450d-885a-eaca95ee48fe.json",
+      "metadata_sha256": "5f2dcc05a35bbe9174ca975dcd7a2e3fb4fde4cb09b35844bbcf35a716adbc41",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "HET GODVRUCHTIGE GEZIN",
+      "source_revision": "a069ecca8827634ebc256b3b1cabc16aeb942ed7",
+      "source_translation_key": "9f6334ef29e4721f005d0555a208f22042f8e50609a267a640060ad0068035f3",
+      "status": "ready",
+      "subtitle": "Tieners opvoeden",
+      "title": "Van kindertijd naar volwassenheid",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/nld/articles/3c581136-51cf-47b2-a38b-3d1ee1d0b864.html",
       "html_sha256": "77338827e880aebcd5fd55f275cc3005cee91e027b7783da06dcb728c7093a74",
       "human_reviewed": false,
