@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "32531b81c6704e138d4739d169c9bb46",
   "campaign": "auto-81c96679f9fddc5211d3cc62390182e5ca89ea67b4b8dcbf8695bbab93b19a58",
   "created_at": "2026-11-09T09:31:40+00:00",
   "events": [
@@ -48,18 +47,40 @@
         },
         "total_tokens": 14257
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 914,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 790,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9491,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 9488,
+          "cached_tokens": 0
+        },
+        "total_tokens": 10405
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; a recovery continuation must pass admission",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "HTML/metadata contract",
-      "severity": "critical",
-      "source_quote": "",
-      "suggested_fix": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[36]: source /article[1]/p[11]/em[1] ('start', 'em', ()); translation /article[1]/p[11] ('end', 'p')",
-      "translation_quote": ""
+      "location": "Heading: “Finding solutions to emotional struggles without finding peace with God is humanism”",
+      "severity": "major",
+      "source_quote": "“...is humanism”",
+      "suggested_fix": "“Kutafuta suluhisho kwa misukosuko ya kihisia bila kupata amani na Mungu ni falsafa ya kibinadamu”",
+      "translation_quote": "“...bila kupata amani na Mungu ni ubinadamu”"
     }
   ],
+  "finished_at": "2026-11-10T17:19:21+00:00",
   "id": "c15d4e388fb5ee5ee2b52cdefa2641d0",
   "issue_id": "103c93e0-6e9a-44f6-a6bc-377af8e08e38",
   "language": "swa",
@@ -148,9 +169,11 @@
     }
   },
   "protected": false,
+  "quality_score": 94,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/5b1aeee8b40e793c45a2a3770a1c06b2fe0e561ac70bf486512b9c698d801883.json",
   "stage": "review2",
   "stage_budget": {
@@ -166,7 +189,7 @@
     "total_reserved_usd": 0.09043,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "ffc57a5aa833a4ec2481350c59b2f0532517af685342cc26f3ca07aadfae2d52",
   "translation_model_actual": "gpt-6-luna"

@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Heading: “Finding solutions to emotional struggles without finding peace with God is humanism”",
+      "severity": "major",
+      "source_quote": "“...is humanism”",
+      "suggested_fix": "“Kutafuta suluhisho kwa misukosuko ya kihisia bila kupata amani na Mungu ni falsafa ya kibinadamu”",
+      "translation_quote": "“...bila kupata amani na Mungu ni ubinadamu”"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; a recovery continuation must pass admission",
+  "stage": "terminal"
+}
