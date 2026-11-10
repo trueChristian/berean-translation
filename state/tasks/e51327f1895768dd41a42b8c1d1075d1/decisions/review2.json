@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Heading “Working through mental and emotional burdens”",
+      "severity": "minor",
+      "source_quote": "Working through mental and emotional burdens",
+      "suggested_fix": "Omgaan met mentale en emotionele lasten",
+      "translation_quote": "Omgaan met geestelijke en emotionele lasten"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

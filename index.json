@@ -63652,6 +63652,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/nld/articles/324b0fa1-c057-471e-8e90-8eb699e8285a.html",
+      "html_sha256": "936bb4bebdd374a24c28a2877c4eba40fffdd3f482dd9861514a80b9d74f1a51",
+      "human_reviewed": false,
+      "id": "324b0fa1-c057-471e-8e90-8eb699e8285a",
+      "images": [
+        {
+          "alt": "Een open Bijbel en een groene plant in een pot naast een raam met gordijnen.",
+          "public_path": "/images/articles/324b0fa1-c057-471e-8e90-8eb699e8285a-1.jpg"
+        },
+        {
+          "alt": "Rode knoppen aan boomtakken tegen een zacht vervaagde achtergrond.",
+          "public_path": "/images/articles/324b0fa1-c057-471e-8e90-8eb699e8285a-2.jpg"
+        }
+      ],
+      "issue_id": "103c93e0-6e9a-44f6-a6bc-377af8e08e38",
+      "language": "nld",
+      "language_tag": "nl",
+      "metadata": "content/nld/articles/324b0fa1-c057-471e-8e90-8eb699e8285a.json",
+      "metadata_sha256": "f559a4b077216462098d934f97169c9202127962a572c5559f98218428444637",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
+      "source_translation_key": "ffc57a5aa833a4ec2481350c59b2f0532517af685342cc26f3ca07aadfae2d52",
+      "status": "ready",
+      "subtitle": "Vrede vinden in een emotionele crisis",
+      "title": "Jezus Christus, het antwoord voor de gebroken mensheid",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/nld/articles/34125090-b480-4d63-b13a-33d47470f335.html",
       "html_sha256": "58bdef995a943f5475beace9c95335652abcd171dd17a44e3c6285664d1edfe7",
       "human_reviewed": false,

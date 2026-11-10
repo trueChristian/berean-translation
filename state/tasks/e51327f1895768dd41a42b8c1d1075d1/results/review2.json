@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "61e90fae-a869-42fd-b49a-bd55c1ac82f6",
+    "response_id": "chatcmpl-EiUp7wBqN0OuP9hpOhtuGUfdFxI3M",
+    "usage": {
+      "completion_tokens": 759,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 671,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9025,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9022,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9784
+    }
+  },
+  "received_at": "2026-11-10T07:09:00+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Heading “Working through mental and emotional burdens”",
+        "severity": "minor",
+        "source_quote": "Working through mental and emotional burdens",
+        "suggested_fix": "Omgaan met mentale en emotionele lasten",
+        "translation_quote": "Omgaan met geestelijke en emotionele lasten"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 99
+  }
+}
