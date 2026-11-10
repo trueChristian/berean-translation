@@ -1,0 +1,59 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "89849e98-711b-40b7-8abe-de9e07cd2bf1",
+    "response_id": "chatcmpl-EiknkQRmDdFTSsAoIcGyAHzr3PBkj",
+    "usage": {
+      "completion_tokens": 481,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4420,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 4417
+      },
+      "total_tokens": 4901
+    }
+  },
+  "received_at": "2026-11-10T21:29:10+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, aya ya 6",
+        "severity": "major",
+        "source_quote": "“...he knew he could never tie his shoes tight enough to keep him nice and warm.”",
+        "suggested_fix": "Badilisha sehemu hiyo iwe: “alijua kwamba hangeweza kufunga kamba za viatu vyake kwa nguvu ya kutosha ili miguu yake ibaki yenye joto.”",
+        "translation_quote": "“...alijua hangeweza kuvifunga viatu vyake vilibane vya kutosha ili avae vizuri na kupata joto.”"
+      },
+      {
+        "location": "HTML, aya ya 11",
+        "severity": "major",
+        "source_quote": "“Lilian was sitting inside her warm, cozy house, sipping a cup of hot tea, when there was a knock on the door.”",
+        "suggested_fix": "Rekebisha sentensi ili iseme kwamba Lilian alikuwa anakunywa chai mlango ulipogongwa, kwa mfano: “Lilian alikuwa ameketi ndani ya nyumba yake yenye joto na starehe, akinywa kikombe cha chai ya moto, mlango ulipogongwa.”",
+        "translation_quote": "“Lilian alikuwa ameketi ndani ya nyumba yake yenye joto na starehe, akinywa chai ya moto, mlango ulipogongwa.”"
+      },
+      {
+        "location": "HTML, aya ya 12",
+        "severity": "major",
+        "source_quote": "“That face looked so familiar. Wait, there was her scarf.”",
+        "suggested_fix": "Tumia: “Uso huo ulionekana kuwa wa kumfahamu sana. Ngoja, ile ilikuwa skafu yake.”",
+        "translation_quote": "“Uso huo ulionekana kuwa wa kumfahamu sana. Ngoja, ile ilikuwa skafu yake.”"
+      },
+      {
+        "location": "HTML, aya ya 14",
+        "severity": "major",
+        "source_quote": "“What you did for me that day gave me the courage to keep living and pursue a career.”",
+        "suggested_fix": "Tumia: “Ulichonifanyia siku ile kulinipa ujasiri wa kuendelea kuishi na kufuatilia taaluma.”",
+        "translation_quote": "“Ulichonifanyia siku ile kilinipa ujasiri wa kuendelea kuishi na kufuatilia taaluma.”"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 92
+  }
+}
