@@ -47318,6 +47318,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ind/articles/3b932103-b3fb-450d-885a-eaca95ee48fe.html",
+      "html_sha256": "a3f4a685b74847f603064276f7b677022869fea94d6c2f3265a88c1599a71e82",
+      "human_reviewed": false,
+      "id": "3b932103-b3fb-450d-885a-eaca95ee48fe",
+      "images": [
+        {
+          "alt": "Siluet seorang muda berdiri di bawah langit senja merah",
+          "public_path": "/images/articles/3b932103-b3fb-450d-885a-eaca95ee48fe-1.jpg"
+        }
+      ],
+      "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
+      "language": "ind",
+      "language_tag": "id",
+      "metadata": "content/ind/articles/3b932103-b3fb-450d-885a-eaca95ee48fe.json",
+      "metadata_sha256": "80868cd5a55294b903f0a031dabb7988aca0c64eef126e540ff4af2df5727586",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "RUMAH TANGGA YANG SALEH",
+      "source_revision": "a069ecca8827634ebc256b3b1cabc16aeb942ed7",
+      "source_translation_key": "9f6334ef29e4721f005d0555a208f22042f8e50609a267a640060ad0068035f3",
+      "status": "ready",
+      "subtitle": "Membesarkan Anak Remaja",
+      "title": "Dari Masa Kanak-Kanak Menuju Kedewasaan",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ind/articles/3c581136-51cf-47b2-a38b-3d1ee1d0b864.html",
       "html_sha256": "0f08970f6949335d89d193e4909fb4c88a3f9b1cda7d79bafa6696e376f1314f",
       "human_reviewed": false,
