@@ -57327,6 +57327,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ita/articles/cf3bcef6-affc-4c39-9c73-ce940fab787f.html",
+      "html_sha256": "8e8e6bb9c5cf59f535017424e664dc41b27620cbdb9017001deef9ab102b1a35",
+      "human_reviewed": false,
+      "id": "cf3bcef6-affc-4c39-9c73-ce940fab787f",
+      "images": [
+        {
+          "alt": "Veduta aerea dello skyline di una città accanto a un lago al tramonto",
+          "public_path": "/images/articles/cf3bcef6-affc-4c39-9c73-ce940fab787f-1.jpg"
+        }
+      ],
+      "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
+      "language": "ita",
+      "language_tag": "it",
+      "metadata": "content/ita/articles/cf3bcef6-affc-4c39-9c73-ce940fab787f.json",
+      "metadata_sha256": "81c4cbb343944eaee3b1edced54521e642f1d792da54655547f3faeff356ab06",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "PERICOLI DEI NOSTRI TEMPI",
+      "source_revision": "a069ecca8827634ebc256b3b1cabc16aeb942ed7",
+      "source_translation_key": "7186a7dafd85adebb8f6876e1cafaf204ddce9783339d4da1f44b2bb46a15d75",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Nel mondo, ma non del mondo",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ita/articles/d0395fde-712d-488d-a161-c26c87ed128b.html",
       "html_sha256": "8a07e47ad3726fa13ca9d1616d8b567e651051297b9b2f372af9e8f486392e39",
       "human_reviewed": false,
