@@ -12,9 +12,16 @@
       "event": "not_ready",
       "reason": "Scripture chapter/verse numbers or ranges changed at /article[1]/p[3]; missing: none; extra: !invalid[deu] Romans 13, ",
       "task": "5224509e3fb7a3e590ad484919643fe2"
+    },
+    {
+      "at": "2026-11-11T18:55:29+00:00",
+      "campaign": "auto-83d0ddd0d6892818865c4138bfc39de6a88b292a5c30025268e781e7a1a4500d",
+      "event": "automatic_requested",
+      "previous_task": "5224509e3fb7a3e590ad484919643fe2",
+      "task": "a6ede011e9ec496257e55c5c0e5c757d"
     }
   ],
   "language": "deu",
-  "latest_task": "5224509e3fb7a3e590ad484919643fe2",
+  "latest_task": "a6ede011e9ec496257e55c5c0e5c757d",
   "published": null
 }
