@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraph 2",
+      "severity": "minor",
+      "source_quote": "They fell, down, down. Down they came and landed with a quiet splash on the little heap of trash.",
+      "suggested_fix": "Yalitiririka chini, chini. Yalianguka na kutua kwa mlio hafifu wa kitu kilichodondoka kwenye kichuguu hicho kidogo cha takataka.",
+      "translation_quote": "Yalitiririka chini, chini. Yalianguka na kutua kwa kishindo hafifu juu ya kichuguu hicho kidogo cha takataka."
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

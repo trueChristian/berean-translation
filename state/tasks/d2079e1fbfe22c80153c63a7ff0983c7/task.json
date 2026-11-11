@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "c453941664874bd19981bdc6dde1a031",
   "campaign": "auto-0fd639c4bdacdabc5d0b40535c9202ec1ddc8ae56160fab897be06929e5834ea",
   "created_at": "2026-11-10T17:36:30+00:00",
   "events": [
@@ -68,39 +67,39 @@
         },
         "total_tokens": 6633
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 599,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 450,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4430,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 4427,
+          "cached_tokens": 0
+        },
+        "total_tokens": 5029
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "HTML, aya ya 6",
-      "severity": "major",
-      "source_quote": "“...he knew he could never tie his shoes tight enough to keep him nice and warm.”",
-      "suggested_fix": "Badilisha sehemu hiyo iwe: “alijua kwamba hangeweza kufunga kamba za viatu vyake kwa nguvu ya kutosha ili miguu yake ibaki yenye joto.”",
-      "translation_quote": "“...alijua hangeweza kuvifunga viatu vyake vilibane vya kutosha ili avae vizuri na kupata joto.”"
-    },
-    {
-      "location": "HTML, aya ya 11",
-      "severity": "major",
-      "source_quote": "“Lilian was sitting inside her warm, cozy house, sipping a cup of hot tea, when there was a knock on the door.”",
-      "suggested_fix": "Rekebisha sentensi ili iseme kwamba Lilian alikuwa anakunywa chai mlango ulipogongwa, kwa mfano: “Lilian alikuwa ameketi ndani ya nyumba yake yenye joto na starehe, akinywa kikombe cha chai ya moto, mlango ulipogongwa.”",
-      "translation_quote": "“Lilian alikuwa ameketi ndani ya nyumba yake yenye joto na starehe, akinywa chai ya moto, mlango ulipogongwa.”"
-    },
-    {
-      "location": "HTML, aya ya 12",
-      "severity": "major",
-      "source_quote": "“That face looked so familiar. Wait, there was her scarf.”",
-      "suggested_fix": "Tumia: “Uso huo ulionekana kuwa wa kumfahamu sana. Ngoja, ile ilikuwa skafu yake.”",
-      "translation_quote": "“Uso huo ulionekana kuwa wa kumfahamu sana. Ngoja, ile ilikuwa skafu yake.”"
-    },
-    {
-      "location": "HTML, aya ya 14",
-      "severity": "major",
-      "source_quote": "“What you did for me that day gave me the courage to keep living and pursue a career.”",
-      "suggested_fix": "Tumia: “Ulichonifanyia siku ile kulinipa ujasiri wa kuendelea kuishi na kufuatilia taaluma.”",
-      "translation_quote": "“Ulichonifanyia siku ile kilinipa ujasiri wa kuendelea kuishi na kufuatilia taaluma.”"
+      "location": "HTML, paragraph 2",
+      "severity": "minor",
+      "source_quote": "They fell, down, down. Down they came and landed with a quiet splash on the little heap of trash.",
+      "suggested_fix": "Yalitiririka chini, chini. Yalianguka na kutua kwa mlio hafifu wa kitu kilichodondoka kwenye kichuguu hicho kidogo cha takataka.",
+      "translation_quote": "Yalitiririka chini, chini. Yalianguka na kutua kwa kishindo hafifu juu ya kichuguu hicho kidogo cha takataka."
     }
   ],
+  "finished_at": "2026-11-11T08:18:06+00:00",
   "id": "d2079e1fbfe22c80153c63a7ff0983c7",
   "issue_id": "103c93e0-6e9a-44f6-a6bc-377af8e08e38",
   "language": "swa",
@@ -189,7 +188,7 @@
     }
   },
   "protected": false,
-  "quality_score": 92,
+  "quality_score": 99,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
@@ -209,7 +208,7 @@
     "total_reserved_usd": 0.08732,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "7a6289704a964734c82f4dfa151db5c6907febafb6cf043a81275c1233c4e238",
   "translation_model_actual": "gpt-6-luna"

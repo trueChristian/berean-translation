@@ -93647,6 +93647,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/swa/articles/7750b3b4-3c80-48a5-860c-4958331969d7.html",
+      "html_sha256": "5bf12a9687e28be267f789f8e3edccaf994103aabe54244a300d763fe4a4bd81",
+      "human_reviewed": false,
+      "id": "7750b3b4-3c80-48a5-860c-4958331969d7",
+      "images": [
+        {
+          "alt": "Polisi aliyevaa sare akiwa ameshikilia picha ya mtu aliyevaa skafu.",
+          "public_path": "/images/articles/7750b3b4-3c80-48a5-860c-4958331969d7-1.jpg"
+        }
+      ],
+      "issue_id": "103c93e0-6e9a-44f6-a6bc-377af8e08e38",
+      "language": "swa",
+      "language_tag": "sw",
+      "metadata": "content/swa/articles/7750b3b4-3c80-48a5-860c-4958331969d7.json",
+      "metadata_sha256": "3a844331f807099e07a777b0665208c904b7c5736cf23c010fff512c9a9c5770",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "Sehemu ya Watoto",
+      "source_revision": "6c3e27346b6b031f46e29e723e884fe8407806b7",
+      "source_translation_key": "7a6289704a964734c82f4dfa151db5c6907febafb6cf043a81275c1233c4e238",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Nguvu ya Wema",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/swa/articles/77cd4a24-14db-4ba2-905f-4f3ecb1d3ea5.html",
       "html_sha256": "451aaca86edf43bee1dcde3503dbbc742c36196a82409fb305a60cc1e8f74c6b",
       "human_reviewed": false,

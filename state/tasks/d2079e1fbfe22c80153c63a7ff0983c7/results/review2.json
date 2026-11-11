@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "11a56c0c-5466-4a0c-94b6-1be8676ae730",
+    "response_id": "chatcmpl-EiuT0LvvUywU95Rs53J2s7rwWVSZM",
+    "usage": {
+      "completion_tokens": 599,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 450,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4430,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4427,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5029
+    }
+  },
+  "received_at": "2026-11-11T08:18:06+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, paragraph 2",
+        "severity": "minor",
+        "source_quote": "They fell, down, down. Down they came and landed with a quiet splash on the little heap of trash.",
+        "suggested_fix": "Yalitiririka chini, chini. Yalianguka na kutua kwa mlio hafifu wa kitu kilichodondoka kwenye kichuguu hicho kidogo cha takataka.",
+        "translation_quote": "Yalitiririka chini, chini. Yalianguka na kutua kwa kishindo hafifu juu ya kichuguu hicho kidogo cha takataka."
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 99
+  }
+}
