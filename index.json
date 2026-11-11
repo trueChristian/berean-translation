@@ -784,18 +784,18 @@
       "ai_notice_required": false,
       "direction": "ltr",
       "html": "content/afr/articles/1caf6642-2283-4363-b3b6-33e40c39f945.html",
-      "html_sha256": "fff0b5875be2699555972724628b8fc1af8ef0624571620bdbcd72230fac8f63",
+      "html_sha256": "7d48ca426cab63b261707d5afcc91b5112758937d314a5ed90acc1683ec0bb33",
       "human_edit": {
         "author": "Malachi",
-        "commit": "e9c7f1110e9a8b035ab7c3fd3f8a6bd6e37c2895",
+        "commit": "d6cdbec6f8e3fe8d8a9eebf9967d7e1856370427",
         "email": "163401881+malachivdm@users.noreply.github.com",
-        "time": "2026-11-11T14:21:22+02:00"
+        "time": "2026-11-11T16:04:16+02:00"
       },
       "human_reviewed": true,
       "id": "1caf6642-2283-4363-b3b6-33e40c39f945",
       "images": [
         {
-          "alt": "Bladmusiek vir ‘O Liefde, wat my nie loslaat nie’",
+          "alt": "Bladmusiek vir ‘O Liefde wat my nie wil laat gaan nie’",
           "public_path": "/images/articles/1caf6642-2283-4363-b3b6-33e40c39f945-1.png"
         }
       ],

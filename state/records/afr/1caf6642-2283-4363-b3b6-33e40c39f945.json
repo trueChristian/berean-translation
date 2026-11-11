@@ -36,19 +36,30 @@
       },
       "html_sha256": "fff0b5875be2699555972724628b8fc1af8ef0624571620bdbcd72230fac8f63",
       "metadata_sha256": "e8bcd446bb2ea3f60566fa342a737b9526746366069abfadc6717f004f223e4d"
+    },
+    {
+      "event": "human_review",
+      "evidence": {
+        "author": "Malachi",
+        "commit": "d6cdbec6f8e3fe8d8a9eebf9967d7e1856370427",
+        "email": "163401881+malachivdm@users.noreply.github.com",
+        "time": "2026-11-11T16:04:16+02:00"
+      },
+      "html_sha256": "7d48ca426cab63b261707d5afcc91b5112758937d314a5ed90acc1683ec0bb33",
+      "metadata_sha256": "e8bcd446bb2ea3f60566fa342a737b9526746366069abfadc6717f004f223e4d"
     }
   ],
   "language": "afr",
   "latest_task": "7ec434a705afbeb07dd11dc147a77a51",
   "published": {
-    "accepted_snapshot": "state/publications/e74626e374549a50ffb68f6b644711f81854b2677f17b0ddc4a6667ddc3922c4.json",
+    "accepted_snapshot": "state/publications/f8aaa6f78b7b47fb45e8d91f1925ce5754ff37c7e063c29de6371e776b9b5d63.json",
     "html_path": "content/afr/articles/1caf6642-2283-4363-b3b6-33e40c39f945.html",
-    "html_sha256": "fff0b5875be2699555972724628b8fc1af8ef0624571620bdbcd72230fac8f63",
+    "html_sha256": "7d48ca426cab63b261707d5afcc91b5112758937d314a5ed90acc1683ec0bb33",
     "human_review": {
       "author": "Malachi",
-      "commit": "e9c7f1110e9a8b035ab7c3fd3f8a6bd6e37c2895",
+      "commit": "d6cdbec6f8e3fe8d8a9eebf9967d7e1856370427",
       "email": "163401881+malachivdm@users.noreply.github.com",
-      "time": "2026-11-11T14:21:22+02:00"
+      "time": "2026-11-11T16:04:16+02:00"
     },
     "human_review_notice_html": "<aside class=\"translation-notice\" data-translation-notice=\"human-reviewed\" lang=\"af\" dir=\"ltr\" role=\"note\">\n  <p>Hierdie artikel is deur ’n mens nagegaan, hoewel dit oorspronklik met KI vertaal is. Die Engelse oorspronklike bly die gesaghebbende weergawe. <a href=\"/en/articles/1caf6642-2283-4363-b3b6-33e40c39f945/\" data-source-article-id=\"1caf6642-2283-4363-b3b6-33e40c39f945\" hreflang=\"en\">Engelse oorspronklike</a></p>\n</aside>",
     "human_reviewed": true,
