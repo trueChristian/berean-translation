@@ -8850,6 +8850,34 @@
     {
       "ai_notice_required": true,
       "direction": "rtl",
+      "html": "content/ara/articles/951f56e4-2ce8-4f01-9500-bfeee209cdb4.html",
+      "html_sha256": "b07f705c58c3478b927b52af4701d79515eb938bf50bdfacee7ee7170edc81b0",
+      "human_reviewed": false,
+      "id": "951f56e4-2ce8-4f01-9500-bfeee209cdb4",
+      "images": [
+        {
+          "alt": "طريق مضاء بأشعة الشمس يتعرّج عبر منظر طبيعي تكسوه الأشجار",
+          "public_path": "/images/articles/951f56e4-2ce8-4f01-9500-bfeee209cdb4-1.jpg"
+        }
+      ],
+      "issue_id": "1a7070c9-fd4f-546b-a220-f267ddb8cf5f",
+      "language": "ara",
+      "language_tag": "ar",
+      "metadata": "content/ara/articles/951f56e4-2ce8-4f01-9500-bfeee209cdb4.json",
+      "metadata_sha256": "47e40b3bf76bf638829cb498eb34624d705fccd2a879d3e7faaa8fb96ff9c9e5",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "الحياة المسيحية المنتصرة",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "6ba0f430c997b1ea3450b766c83b9abcf64dbdc84cdd47383ef0cebf9766d0dd",
+      "status": "ready",
+      "subtitle": null,
+      "title": "ميناء الراحة",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
       "html": "content/ara/articles/95aac01a-bc7b-4c4b-a8c0-0c193488e249.html",
       "html_sha256": "517b9a8c3e02a5cdd38f85c108dfb5990b73f5262ad1594b8a47fac6a96db563",
       "human_reviewed": false,

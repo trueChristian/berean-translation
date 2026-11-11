@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "5cf420f439e94333908a0bd2a6deb907",
   "campaign": "auto-f80f21925c25d1d741f924dfe70e04db1a12bad4b4dd040a793af923172a7ff3",
   "created_at": "2026-11-04T09:13:17+00:00",
   "events": [
@@ -48,67 +47,31 @@
         },
         "total_tokens": 14734
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 58,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 26,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9285,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8182,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 9343
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "translation.html، فقرة «العواصف جزء شائع من الحياة»، اقتباس 2 كورنثوس 11:25",
-      "severity": "major",
-      "source_quote": "Paul had spent a precarious …night and a day I have been in the deep",
-      "suggested_fix": "استبدل «لقد أمضى بولس ليلة وخطرًا» بـ«لقد أمضى بولس وقتًا محفوفًا بالخطر»، واستبدل نص الاقتباس بـ«…ليلةً ونهارًا قضيتُ في الغمر –2 كورنثوس 11:25»، مع إبقاء وسم <em>.",
-      "translation_quote": "لقد أمضى بولس ليلة وخطرًا …ليلتين ويومًا في الغمر كنت"
-    },
-    {
-      "location": "translation.html، اقتباس أعمال 27:23-24",
-      "severity": "major",
-      "source_quote": "the angel of God, whose I am, and whom I serve",
-      "suggested_fix": "استبدل «ملاك الله الذي لي وأنا أخدمه» بـ«ملاك الله الذي أنا له والذي أخدمه».",
-      "translation_quote": "ملاك الله الذي لي وأنا أخدمه"
-    },
-    {
-      "location": "translation.html، الفقرة التي تبدأ «يبدو في تأنيب ربان السفينة»",
-      "severity": "major",
-      "source_quote": "there seems to be no other veritable vehicle of grace wherewith His peace can flood our souls",
-      "suggested_fix": "استبدل الجملة المعنية بـ«لكن يبدو أنه لا توجد وسيلة حقيقية أخرى للنعمة يمكن أن يغمر سلامه نفوسنا من خلالها».",
-      "translation_quote": "لكنه يبدو أنه لا يوجد مركبة حقيقية للنعمة من خلالها يمكن أن يغمر سلامه نفوسنا"
-    },
-    {
-      "location": "translation.html، الفقرة الأخيرة قبل اقتباس عبرانيين",
-      "severity": "major",
-      "source_quote": "We shall do much better to make excuses for others’ poor behavior than for our own.",
-      "suggested_fix": "استبدل الجملة بـ«الأفضل لنا بكثير أن نلتمس الأعذار لسلوك الآخرين السيئ بدلًا من أن نلتمسها لسلوكنا نحن».",
-      "translation_quote": "سنفعل أفضل بكثير إن اعتذرنا عن سلوك الآخرين السيئ أكثر مما نفعل عن أخطائنا."
-    },
-    {
-      "location": "translation.html، اقتباس عبرانيين 4:9-11",
-      "severity": "major",
-      "source_quote": "For he that is entered into his rest ... Let us labour therefore to enter into that rest",
-      "suggested_fix": "استبدل «لأن من دخل إلى سُبَتِه» بـ«لأن من دخل إلى راحته»، واستبدل «فلتجتهدوا أن تدخلوا إلى ذلك السُبَتِ» بـ«فلنجتهد إذن أن ندخل إلى تلك الراحة». يمكن إبقاء «سَبْتٌ» في الجملة الأولى.",
-      "translation_quote": "لأن من دخل إلى سُبَتِه ... فلتجتهدوا أن تدخلوا إلى ذلك السُبَتِ"
-    },
-    {
-      "location": "translation.html، فقرة «يمكن أن تنقضَّ عواصف الشدائد»",
-      "severity": "minor",
-      "source_quote": "Our central medulla gland ... from backsliders",
-      "suggested_fix": "استبدل «غدّة لبكريّة مركزيّة» بـ«غدّتنا النخاعية المركزية» لنقل تسمية المصدر دون اختراع مصطلح، واستبدل «المريدين المنحرفين» بـ«المتراجعين عن الإيمان».",
-      "translation_quote": "غدّة لبكريّة مركزيّة ... المريدين المنحرفين"
-    },
-    {
-      "location": "translation.html، اقتباس مزمور 107:25-30",
-      "severity": "minor",
-      "source_quote": "so he bringeth them unto their <strong>desired haven</strong>",
-      "suggested_fix": "استبدل «فقادهم إلى ميناء مسكنهم المطلوب» بـ«فقادهم إلى <strong>مينائهم المرغوب</strong>» لاستعادة المعنى وإبراز العبارة كما في المصدر.",
-      "translation_quote": "فقادهم إلى ميناء مسكنهم المطلوب"
-    },
-    {
-      "location": "translation.html، فقرات متعددة: الأسئلة الافتتاحية، قائمة المخاوف، حماية الممتلكات، وإكمال المخطط",
-      "severity": "minor",
-      "source_quote": "through the troublesome pastures of life; the claustrophobic is afraid; the life of Christ was one of the most troubled lives; speak to my brother; the disciples’; Mary’s neglect; when his unfulfilled vision falls short",
-      "suggested_fix": "صحّح «خلال مراعٍ الحياة» إلى «عبر مراعي الحياة»، و«الخوف من الأماكن الضيقة ... يخشى» إلى «المصاب برهاب الأماكن الضيقة ... يخشى» ونظيرها في رهاب الأماكن المفتوحة، و«كان حياة المسيح من أشد الحياوات» إلى «كانت حياة المسيح من أشد الحيوات»، و«لإخيي» إلى «لأخي»، و«من تلاميذهم» إلى «من شكوى التلاميذ»، و«مَرِية» إلى الاسم الكتابي المعتاد «مريم»، و«عندما يخفق رؤيته غير المكتملة عن توقعاته» إلى «عندما تقصر رؤيته غير المتحققة عن توقعاته».",
-      "translation_quote": "خلال مراعٍ الحياة؛ الخوف من الأماكن الضيقة ... يخشى؛ كان حياة المسيح من أشد الحياوات؛ قل لإخيي؛ من تلاميذهم؛ إهمال مَرِية؛ عندما يخفق رؤيته غير المكتملة عن توقعاته"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-11-11T18:50:57+00:00",
   "id": "b7087cf4b9f50a3cf01fbaf194c4da8a",
   "issue_id": "1a7070c9-fd4f-546b-a220-f267ddb8cf5f",
   "language": "ara",
@@ -197,7 +160,7 @@
     }
   },
   "protected": false,
-  "quality_score": 82,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6.1-sol",
@@ -216,7 +179,7 @@
     "total_reserved_usd": 0.776986,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "6ba0f430c997b1ea3450b766c83b9abcf64dbdc84cdd47383ef0cebf9766d0dd",
   "translation_model_actual": "gpt-6.1-sol"
