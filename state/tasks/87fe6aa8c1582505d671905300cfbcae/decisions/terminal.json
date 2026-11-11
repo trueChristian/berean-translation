@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "html: paragraph immediately preceding the heading «…اپنی ذات کا تحفظ کر رہے ہوں»",
+      "severity": "major",
+      "source_quote": "This anxiety rides on the waves of unbelief",
+      "suggested_fix": "یہ اضطراب ایمان کی کمی کی لہروں پر سوار ہوتا ہے",
+      "translation_quote": "یہ اضطراب بے ایمانی کی لہروں پر سوار ہوتا ہے"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; a recovery continuation must pass admission",
+  "stage": "terminal"
+}

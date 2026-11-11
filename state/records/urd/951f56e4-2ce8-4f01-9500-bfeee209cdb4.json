@@ -19,6 +19,12 @@
       "event": "automatic_requested",
       "previous_task": "e6dd081cc2af29cc087067a237f0d1ed",
       "task": "87fe6aa8c1582505d671905300cfbcae"
+    },
+    {
+      "at": "2026-11-11T22:46:07+00:00",
+      "event": "not_ready",
+      "reason": "Final review failed; a recovery continuation must pass admission",
+      "task": "87fe6aa8c1582505d671905300cfbcae"
     }
   ],
   "language": "urd",

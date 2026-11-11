@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "db546923-f2a8-4486-8fac-e862e4795188",
+    "response_id": "chatcmpl-Ej9PWq0kO71gDyUjfc7IACb03N9zN",
+    "usage": {
+      "completion_tokens": 229,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 91,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 10188,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 10185,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10417
+    }
+  },
+  "received_at": "2026-11-11T22:46:07+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "html: paragraph immediately preceding the heading «…اپنی ذات کا تحفظ کر رہے ہوں»",
+        "severity": "major",
+        "source_quote": "This anxiety rides on the waves of unbelief",
+        "suggested_fix": "یہ اضطراب ایمان کی کمی کی لہروں پر سوار ہوتا ہے",
+        "translation_quote": "یہ اضطراب بے ایمانی کی لہروں پر سوار ہوتا ہے"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 94
+  }
+}
