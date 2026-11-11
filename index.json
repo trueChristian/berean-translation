@@ -25230,6 +25230,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/deu/articles/cf3bcef6-affc-4c39-9c73-ce940fab787f.html",
+      "html_sha256": "e55a60b4a16559f896be97530c5f2023c110b0923208883333ba75e7806d0cb5",
+      "human_reviewed": false,
+      "id": "cf3bcef6-affc-4c39-9c73-ce940fab787f",
+      "images": [
+        {
+          "alt": "Luftaufnahme einer Stadtsilhouette an einem See bei Sonnenuntergang",
+          "public_path": "/images/articles/cf3bcef6-affc-4c39-9c73-ce940fab787f-1.jpg"
+        }
+      ],
+      "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
+      "language": "deu",
+      "language_tag": "de",
+      "metadata": "content/deu/articles/cf3bcef6-affc-4c39-9c73-ce940fab787f.json",
+      "metadata_sha256": "bdde92bbdb4ea1710f0cbd74745cea663e8c66517afbf0135c084ed0eed5ccd4",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "GEFAHREN DER GEGENWART",
+      "source_revision": "a069ecca8827634ebc256b3b1cabc16aeb942ed7",
+      "source_translation_key": "7186a7dafd85adebb8f6876e1cafaf204ddce9783339d4da1f44b2bb46a15d75",
+      "status": "ready",
+      "subtitle": null,
+      "title": "In der Welt, aber nicht von ihr",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/deu/articles/d0898011-fe8b-4c35-9aac-12c20ec0d950.html",
       "html_sha256": "51570db62f2cde687a351363bc7fa2a2dad374cac93fc3b6b2458772d1d0fbb3",
       "human_reviewed": false,

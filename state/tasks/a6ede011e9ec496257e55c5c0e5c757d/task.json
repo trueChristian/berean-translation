@@ -5,11 +5,41 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "f1c0c4ec40dc490c97c6b45934793cd6",
   "campaign": "auto-83d0ddd0d6892818865c4138bfc39de6a88b292a5c30025268e781e7a1a4500d",
   "created_at": "2026-11-11T18:55:29+00:00",
-  "events": [],
-  "findings": [],
+  "events": [
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 279,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 80,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5396,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 4293,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 5675
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "translation.html, Absatz 10, Satz mit Philipper 4:8",
+      "severity": "minor",
+      "source_quote": "the Bible still calls us in Philippians to think on …whatsoever things are true",
+      "suggested_fix": "Ersetzen Sie „ruft die Bibel uns in Philipper weiterhin dazu auf, an“ durch „ruft die Bibel uns im Philipperbrief weiterhin dazu auf, über Folgendes nachzudenken:“ und lassen Sie das folgende <em>-Element unverändert.",
+      "translation_quote": "ruft die Bibel uns in Philipper weiterhin dazu auf, an <em>„…alles, was wahrhaftig ist, was ehrbar, was gerecht, was rein, was liebenswert, was wohllautend ist…“ –Philipper 4:8.</em>"
+    }
+  ],
+  "finished_at": "2026-11-11T22:46:28+00:00",
   "id": "a6ede011e9ec496257e55c5c0e5c757d",
   "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
   "language": "deu",
@@ -98,9 +128,11 @@
     }
   },
   "protected": false,
+  "quality_score": 97,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/b7ee9f03e59e498365e87293a0a34c9d2c750ef44928669a1eefd8094c67be20.json",
   "stage": "review1",
   "stage_budget": {
@@ -115,7 +147,7 @@
     "total_reserved_usd": 0.726808,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 0,
   "translation_key": "7186a7dafd85adebb8f6876e1cafaf204ddce9783339d4da1f44b2bb46a15d75",
   "translation_model_actual": "gpt-6-luna"

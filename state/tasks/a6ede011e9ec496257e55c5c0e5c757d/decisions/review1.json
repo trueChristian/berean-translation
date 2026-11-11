@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "translation.html, Absatz 10, Satz mit Philipper 4:8",
+      "severity": "minor",
+      "source_quote": "the Bible still calls us in Philippians to think on …whatsoever things are true",
+      "suggested_fix": "Ersetzen Sie „ruft die Bibel uns in Philipper weiterhin dazu auf, an“ durch „ruft die Bibel uns im Philipperbrief weiterhin dazu auf, über Folgendes nachzudenken:“ und lassen Sie das folgende <em>-Element unverändert.",
+      "translation_quote": "ruft die Bibel uns in Philipper weiterhin dazu auf, an <em>„…alles, was wahrhaftig ist, was ehrbar, was gerecht, was rein, was liebenswert, was wohllautend ist…“ –Philipper 4:8.</em>"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}
