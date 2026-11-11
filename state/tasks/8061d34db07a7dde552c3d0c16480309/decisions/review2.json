@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Article, paragraph beginning “Tien jaar…”",
+      "severity": "minor",
+      "source_quote": "A crystal layer of snow covered the ground.",
+      "suggested_fix": "Een kristalachtige laag sneeuw bedekte de grond.",
+      "translation_quote": "Een kristalheldere laag sneeuw bedekte de grond."
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "17059d11-1c9d-4735-b6b7-7f9a4a9241ae",
+    "response_id": "chatcmpl-EivglYdb78DExJwIuW1Ld0YOabFSx",
+    "usage": {
+      "completion_tokens": 495,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 404,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4128,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4125,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4623
+    }
+  },
+  "received_at": "2026-11-11T08:18:59+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Article, paragraph beginning “Tien jaar…”",
+        "severity": "minor",
+        "source_quote": "A crystal layer of snow covered the ground.",
+        "suggested_fix": "Een kristalachtige laag sneeuw bedekte de grond.",
+        "translation_quote": "Een kristalheldere laag sneeuw bedekte de grond."
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 99
+  }
+}

@@ -65896,6 +65896,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/nld/articles/7750b3b4-3c80-48a5-860c-4958331969d7.html",
+      "html_sha256": "61bce580e92f94f1fc5b619ea0d070725859f9562f499af67a4471b5615929a2",
+      "human_reviewed": false,
+      "id": "7750b3b4-3c80-48a5-860c-4958331969d7",
+      "images": [
+        {
+          "alt": "Een politieagent in uniform houdt een foto omhoog van iemand met een sjaal om.",
+          "public_path": "/images/articles/7750b3b4-3c80-48a5-860c-4958331969d7-1.jpg"
+        }
+      ],
+      "issue_id": "103c93e0-6e9a-44f6-a6bc-377af8e08e38",
+      "language": "nld",
+      "language_tag": "nl",
+      "metadata": "content/nld/articles/7750b3b4-3c80-48a5-860c-4958331969d7.json",
+      "metadata_sha256": "3ed0ed396fa73f1d10de44c81d9a0776c86584e7c2490af7c2a134744987a73d",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "Kinderhoek",
+      "source_revision": "6c3e27346b6b031f46e29e723e884fe8407806b7",
+      "source_translation_key": "7a6289704a964734c82f4dfa151db5c6907febafb6cf043a81275c1233c4e238",
+      "status": "ready",
+      "subtitle": null,
+      "title": "De kracht van vriendelijkheid",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/nld/articles/783fddfc-86ed-44d9-b13e-e4adea31a5d5.html",
       "html_sha256": "d838fac1e040bfacb4727a8583c42828fb2256baa1d0b0b065c6aa638127b5ec",
       "human_reviewed": false,
