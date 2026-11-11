@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-11T19:34:19+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"html: paragraph beginning “Ons is dogters van Sara”, Psalm 19:7 quotation\",\n      \"severity\": \"major\",\n      \"source_quote\": \"The law of the LORD is perfect, converting the soul\",\n      \"suggested_fix\": \"Replace “en verkwik die siel” with “en bekeer die siel”, preserving the surrounding HTML and reference.\",\n      \"translation_quote\": \"Die wet van die HERE is <strong>volmaak</strong> en verkwik die siel\"\n    },\n    {\n      \"location\": \"html: paragraph beginning “As ons in ’n groep mense is”\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"the harder it is to untangle ourselves\",\n      \"suggested_fix\": \"Replace “om onsself te ontwarren” with “om onsself los te wikkel”.\",\n      \"translation_quote\": \"hoe moeiliker is dit om onsself te ontwarren\"\n    },\n    {\n      \"location\": \"html: paragraph beginning “Ons moet hierdie vrugte”\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"A little leaven leaveneth the whole lump.\",\n      \"suggested_fix\": \"Replace the sentence with “’n Bietjie suurdeeg laat die hele deeg rys.”\",\n      \"translation_quote\": \"’n Bietjie suurdeeg suurdeeg die hele deeg.\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": false,\n  \"score\": 94\n}",
+    "content_bytes": 1262,
+    "content_evidence_truncated": false,
+    "content_sha256": "f59e59f9823843e2277beee86c0f8dbc84c54b79b0bdd3289626cec473243017",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 410,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 63,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9158,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9155,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9568
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}

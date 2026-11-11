@@ -1,0 +1,52 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "094966af-5a55-4721-b6c9-93fdcb767ca4",
+    "response_id": "chatcmpl-Ej8IAJ2M41P9EAqdBJucxQ3gv6UsI",
+    "usage": {
+      "completion_tokens": 410,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 63,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9158,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9155,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9568
+    }
+  },
+  "received_at": "2026-11-11T19:34:19+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "html: paragraph beginning “Ons is dogters van Sara”, Psalm 19:7 quotation",
+        "severity": "major",
+        "source_quote": "The law of the LORD is perfect, converting the soul",
+        "suggested_fix": "Replace “en verkwik die siel” with “en bekeer die siel”, preserving the surrounding HTML and reference.",
+        "translation_quote": "Die wet van die HERE is <strong>volmaak</strong> en verkwik die siel"
+      },
+      {
+        "location": "html: paragraph beginning “As ons in ’n groep mense is”",
+        "severity": "minor",
+        "source_quote": "the harder it is to untangle ourselves",
+        "suggested_fix": "Replace “om onsself te ontwarren” with “om onsself los te wikkel”.",
+        "translation_quote": "hoe moeiliker is dit om onsself te ontwarren"
+      },
+      {
+        "location": "html: paragraph beginning “Ons moet hierdie vrugte”",
+        "severity": "minor",
+        "source_quote": "A little leaven leaveneth the whole lump.",
+        "suggested_fix": "Replace the sentence with “’n Bietjie suurdeeg laat die hele deeg rys.”",
+        "translation_quote": "’n Bietjie suurdeeg suurdeeg die hele deeg."
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 94
+  }
+}
