@@ -15139,6 +15139,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ben/articles/cf3bcef6-affc-4c39-9c73-ce940fab787f.html",
+      "html_sha256": "43676336ada9d0fbb256f00c49d64570003b0f94c94e956d0fb231f494ff37f2",
+      "human_reviewed": false,
+      "id": "cf3bcef6-affc-4c39-9c73-ce940fab787f",
+      "images": [
+        {
+          "alt": "সূর্যাস্তের সময় হ্রদের পাশে একটি শহরের আকাশরেখার ওপর থেকে তোলা দৃশ্য",
+          "public_path": "/images/articles/cf3bcef6-affc-4c39-9c73-ce940fab787f-1.jpg"
+        }
+      ],
+      "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
+      "language": "ben",
+      "language_tag": "bn",
+      "metadata": "content/ben/articles/cf3bcef6-affc-4c39-9c73-ce940fab787f.json",
+      "metadata_sha256": "3f846962fcfed446ad1aa25c136751493e2b40b13d359d1829f181885df3aa11",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "আধুনিক যুগের বিপদ",
+      "source_revision": "a069ecca8827634ebc256b3b1cabc16aeb942ed7",
+      "source_translation_key": "7186a7dafd85adebb8f6876e1cafaf204ddce9783339d4da1f44b2bb46a15d75",
+      "status": "ready",
+      "subtitle": null,
+      "title": "জগতে, কিন্তু জগতের নয়",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ben/articles/d2d95264-7df9-4ca8-9a99-01a68204d73a.html",
       "html_sha256": "3b13b24c4dcc53a68f28051e2f82cac5cc4875ded4fa9a866772e6272fcc3dbc",
       "human_reviewed": false,
