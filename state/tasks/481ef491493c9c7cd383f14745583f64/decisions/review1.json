@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Final paragraph",
+      "severity": "major",
+      "source_quote": "And that rich man, I am sad to tell you, had a very sad ending to his life.",
+      "suggested_fix": "Και, λυπάμαι που σας το λέω, ο πλούσιος είχε πολύ θλιβερό τέλος στη ζωή του.",
+      "translation_quote": "Και, λυπάμαι που σας το λέω, εκείνη η ιστορία του πλούσιου είχε πολύ θλιβερό τέλος."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

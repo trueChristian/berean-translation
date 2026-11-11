@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "fb0e91117fb94eb1919d25403bf8d270",
   "campaign": "auto-14e923b80e89124cd4ac169432ea612306b1c3c0cfac320cc7fd5091d94782d4",
   "created_at": "2026-11-10T21:30:35+00:00",
   "events": [
@@ -28,10 +27,38 @@
         },
         "total_tokens": 4721
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 809,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 669,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5044,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 3941,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 5853
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "Final paragraph",
+      "severity": "major",
+      "source_quote": "And that rich man, I am sad to tell you, had a very sad ending to his life.",
+      "suggested_fix": "Και, λυπάμαι που σας το λέω, ο πλούσιος είχε πολύ θλιβερό τέλος στη ζωή του.",
+      "translation_quote": "Και, λυπάμαι που σας το λέω, εκείνη η ιστορία του πλούσιου είχε πολύ θλιβερό τέλος."
+    }
+  ],
   "id": "481ef491493c9c7cd383f14745583f64",
   "issue_id": "103c93e0-6e9a-44f6-a6bc-377af8e08e38",
   "language": "ell",
@@ -120,11 +147,13 @@
     }
   },
   "protected": false,
+  "quality_score": 94,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/035f9f129af51cc618b0ddc52980a62c824cc9adac2ae8372b8b0d5c13430e1f.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "translate",
     "max_candidate_bytes": 120000,
@@ -138,7 +167,7 @@
     "total_reserved_usd": 0.087331,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "7a6289704a964734c82f4dfa151db5c6907febafb6cf043a81275c1233c4e238",
   "translation_model_actual": "gpt-6-luna"

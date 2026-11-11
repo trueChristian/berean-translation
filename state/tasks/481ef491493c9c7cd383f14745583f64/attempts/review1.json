@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-11T03:17:42+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Final paragraph\",\"severity\":\"major\",\"source_quote\":\"And that rich man, I am sad to tell you, had a very sad ending to his life.\",\"suggested_fix\":\"Και, λυπάμαι που σας το λέω, ο πλούσιος είχε πολύ θλιβερό τέλος στη ζωή του.\",\"translation_quote\":\"Και, λυπάμαι που σας το λέω, εκείνη η ιστορία του πλούσιου είχε πολύ θλιβερό τέλος.\"}],\"findings_complete\":true,\"passed\":false,\"score\":94}",
+    "content_bytes": 534,
+    "content_evidence_truncated": false,
+    "content_sha256": "d311f620b239542ed82ea10bc1086b1193d29a9164252407efb122b876264536",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 809,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 669,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5044,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3941,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 5853
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

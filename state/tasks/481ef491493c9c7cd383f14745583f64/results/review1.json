@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "937018fa-b428-46d0-b1ac-fd3accbe9897",
+    "response_id": "chatcmpl-Eislsrym8h5Xyv3J1KDRO2YtfUwnV",
+    "usage": {
+      "completion_tokens": 809,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 669,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5044,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3941,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 5853
+    }
+  },
+  "received_at": "2026-11-11T03:17:42+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Final paragraph",
+        "severity": "major",
+        "source_quote": "And that rich man, I am sad to tell you, had a very sad ending to his life.",
+        "suggested_fix": "Και, λυπάμαι που σας το λέω, ο πλούσιος είχε πολύ θλιβερό τέλος στη ζωή του.",
+        "translation_quote": "Και, λυπάμαι που σας το λέω, εκείνη η ιστορία του πλούσιου είχε πολύ θλιβερό τέλος."
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 94
+  }
+}
