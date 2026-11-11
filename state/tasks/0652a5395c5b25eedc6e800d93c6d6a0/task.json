@@ -5,11 +5,55 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "549bf9e496b24d85894d1495354f34a8",
   "campaign": "auto-5a078d175470e7ef098cfcec237fa385b9d984017ee525b4cd8a264d6336c5b5",
   "created_at": "2026-11-11T03:35:46+00:00",
-  "events": [],
-  "findings": [],
+  "events": [
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 538,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 116,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7990,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 6887,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 8528
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "translation.html, Absatz mit den Was-wäre-wenn-Fragen",
+      "severity": "minor",
+      "source_quote": "To me it seems that when countries and individuals … trust in chariots, and some in horses … then their outcome will be that",
+      "suggested_fix": "Den Satzbau korrigieren: „Mir scheint, dass, wenn Länder und Einzelne <em>… auf Wagen vertrauen und manche auf Pferde: Psalm 20,7a,</em> das Ergebnis sein wird, dass …“ Die nachfolgenden Tags und Zitate beibehalten.",
+      "translation_quote": "Mir scheint, dass Länder und Einzelne, wenn sie … auf Wagen vertrauen und manche auf Pferde … das Ergebnis sein wird, dass"
+    },
+    {
+      "location": "translation.html, Absatz beginnend mit „Gott hat uns so geschaffen“",
+      "severity": "minor",
+      "source_quote": "there may come a time when “the shoe is on the other foot”, so to speak",
+      "suggested_fix": "„Vielleicht kommt eine Zeit, in der wir sozusagen selbst auf der anderen Seite stehen.“",
+      "translation_quote": "Vielleicht kommt eine Zeit, in der, sozusagen, „der Schuh am anderen Fuß drückt“."
+    },
+    {
+      "location": "translation.html, letzter Absatz vor dem abschließenden Bibelzitat",
+      "severity": "minor",
+      "source_quote": "the contact information listed inside the front cover of this magazine",
+      "suggested_fix": "„die Kontaktinformationen auf der Innenseite des vorderen Umschlags dieser Zeitschrift“ verwenden.",
+      "translation_quote": "die Kontaktinformationen im vorderen Innenteil dieser Zeitschrift"
+    }
+  ],
+  "finished_at": "2026-11-11T18:48:26+00:00",
   "id": "0652a5395c5b25eedc6e800d93c6d6a0",
   "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
   "language": "deu",
@@ -98,9 +142,11 @@
     }
   },
   "protected": false,
+  "quality_score": 96,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/a7ad1a6227f1cfa9e94538c9ab0eb21a71e9737ee9313da4c0a13a0a14896dbc.json",
   "stage": "review1",
   "stage_budget": {
@@ -115,7 +161,7 @@
     "total_reserved_usd": 0.756286,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 0,
   "translation_key": "e0622a8bb1c0f31a62af348bbcdf1a1da1d53e0d8f3f815cb4fd5567f07e197c",
   "translation_model_actual": "gpt-6-luna"

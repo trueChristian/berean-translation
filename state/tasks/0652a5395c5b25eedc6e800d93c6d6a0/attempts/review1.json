@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-11T18:48:26+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"translation.html, Absatz mit den Was-wäre-wenn-Fragen\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"To me it seems that when countries and individuals … trust in chariots, and some in horses … then their outcome will be that\",\n      \"suggested_fix\": \"Den Satzbau korrigieren: „Mir scheint, dass, wenn Länder und Einzelne <em>… auf Wagen vertrauen und manche auf Pferde: Psalm 20,7a,</em> das Ergebnis sein wird, dass …“ Die nachfolgenden Tags und Zitate beibehalten.\",\n      \"translation_quote\": \"Mir scheint, dass Länder und Einzelne, wenn sie … auf Wagen vertrauen und manche auf Pferde … das Ergebnis sein wird, dass\"\n    },\n    {\n      \"location\": \"translation.html, Absatz beginnend mit „Gott hat uns so geschaffen“\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"there may come a time when “the shoe is on the other foot”, so to speak\",\n      \"suggested_fix\": \"„Vielleicht kommt eine Zeit, in der wir sozusagen selbst auf der anderen Seite stehen.“\",\n      \"translation_quote\": \"Vielleicht kommt eine Zeit, in der, sozusagen, „der Schuh am anderen Fuß drückt“.\"\n    },\n    {\n      \"location\": \"translation.html, letzter Absatz vor dem abschließenden Bibelzitat\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"the contact information listed inside the front cover of this magazine\",\n      \"suggested_fix\": \"„die Kontaktinformationen auf der Innenseite des vorderen Umschlags dieser Zeitschrift“ verwenden.\",\n      \"translation_quote\": \"die Kontaktinformationen im vorderen Innenteil dieser Zeitschrift\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": true,\n  \"score\": 96\n}",
+    "content_bytes": 1680,
+    "content_evidence_truncated": false,
+    "content_sha256": "8825bc0a93eaf3d39eafcd66cb817c46a88519ad86c3fedc780e79f8d2f66015",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 538,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 116,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7990,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6887,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 8528
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}

@@ -1,0 +1,52 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "30037337-50e5-49ad-bcf0-7dcfab0fa9ed",
+    "response_id": "chatcmpl-Ej71LC9ELvvsd2mAUZxWNBAzQb0eA",
+    "usage": {
+      "completion_tokens": 538,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 116,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7990,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6887,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 8528
+    }
+  },
+  "received_at": "2026-11-11T18:48:26+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "translation.html, Absatz mit den Was-wäre-wenn-Fragen",
+        "severity": "minor",
+        "source_quote": "To me it seems that when countries and individuals … trust in chariots, and some in horses … then their outcome will be that",
+        "suggested_fix": "Den Satzbau korrigieren: „Mir scheint, dass, wenn Länder und Einzelne <em>… auf Wagen vertrauen und manche auf Pferde: Psalm 20,7a,</em> das Ergebnis sein wird, dass …“ Die nachfolgenden Tags und Zitate beibehalten.",
+        "translation_quote": "Mir scheint, dass Länder und Einzelne, wenn sie … auf Wagen vertrauen und manche auf Pferde … das Ergebnis sein wird, dass"
+      },
+      {
+        "location": "translation.html, Absatz beginnend mit „Gott hat uns so geschaffen“",
+        "severity": "minor",
+        "source_quote": "there may come a time when “the shoe is on the other foot”, so to speak",
+        "suggested_fix": "„Vielleicht kommt eine Zeit, in der wir sozusagen selbst auf der anderen Seite stehen.“",
+        "translation_quote": "Vielleicht kommt eine Zeit, in der, sozusagen, „der Schuh am anderen Fuß drückt“."
+      },
+      {
+        "location": "translation.html, letzter Absatz vor dem abschließenden Bibelzitat",
+        "severity": "minor",
+        "source_quote": "the contact information listed inside the front cover of this magazine",
+        "suggested_fix": "„die Kontaktinformationen auf der Innenseite des vorderen Umschlags dieser Zeitschrift“ verwenden.",
+        "translation_quote": "die Kontaktinformationen im vorderen Innenteil dieser Zeitschrift"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 96
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "translation.html, Absatz mit den Was-wäre-wenn-Fragen",
+      "severity": "minor",
+      "source_quote": "To me it seems that when countries and individuals … trust in chariots, and some in horses … then their outcome will be that",
+      "suggested_fix": "Den Satzbau korrigieren: „Mir scheint, dass, wenn Länder und Einzelne <em>… auf Wagen vertrauen und manche auf Pferde: Psalm 20,7a,</em> das Ergebnis sein wird, dass …“ Die nachfolgenden Tags und Zitate beibehalten.",
+      "translation_quote": "Mir scheint, dass Länder und Einzelne, wenn sie … auf Wagen vertrauen und manche auf Pferde … das Ergebnis sein wird, dass"
+    },
+    {
+      "location": "translation.html, Absatz beginnend mit „Gott hat uns so geschaffen“",
+      "severity": "minor",
+      "source_quote": "there may come a time when “the shoe is on the other foot”, so to speak",
+      "suggested_fix": "„Vielleicht kommt eine Zeit, in der wir sozusagen selbst auf der anderen Seite stehen.“",
+      "translation_quote": "Vielleicht kommt eine Zeit, in der, sozusagen, „der Schuh am anderen Fuß drückt“."
+    },
+    {
+      "location": "translation.html, letzter Absatz vor dem abschließenden Bibelzitat",
+      "severity": "minor",
+      "source_quote": "the contact information listed inside the front cover of this magazine",
+      "suggested_fix": "„die Kontaktinformationen auf der Innenseite des vorderen Umschlags dieser Zeitschrift“ verwenden.",
+      "translation_quote": "die Kontaktinformationen im vorderen Innenteil dieser Zeitschrift"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}
