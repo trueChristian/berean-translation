@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "2e565c3b0c244536ba27f707de3709b9",
   "campaign": "auto-f60268579edee30030c007294dd189eb84fa4971e555c5a7eac07fecbbd62696",
   "created_at": "2026-11-06T10:54:53+00:00",
   "events": [
@@ -48,18 +47,31 @@
         },
         "total_tokens": 6828
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 71,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 39,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4617,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 3514,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 4688
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "translation.html، پیراگراف 9 (سرنگ کے دہانے پر واقعہ)",
-      "severity": "major",
-      "source_quote": "She moved a rock, then screamed and scrambled up the bank to join Melissa. “There was a crayfish under there!” she exclaimed.",
-      "suggested_fix": "متعلقہ جملے یوں درست کریں: اینجی نے ایک پتھر ہٹایا، پھر چیخی اور پھرتی سے کنارے پر چڑھ کر میلیسا کے پاس آ گئی۔ ”اس کے نیچے ایک دریائی جھینگا تھا!“ اس نے جوش سے کہا۔",
-      "translation_quote": "میلیسا نے ایک پتھر ہٹایا، پھر چیخی اور پھرتی سے کنارے پر چڑھ کر اینجی کے پاس آ گئی۔ ”اس کے نیچے ایک دریائی جھینگا تھا!“ اس نے جوش سے کہا۔"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-11-11T18:50:03+00:00",
   "id": "d3e96d3ea293acb4474b152ea480a40f",
   "issue_id": "4e575f26-fabd-5104-ba0d-d54ca032653b",
   "language": "urd",
@@ -148,7 +160,7 @@
     }
   },
   "protected": false,
-  "quality_score": 94,
+  "quality_score": 99,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6.1-sol",
@@ -167,7 +179,7 @@
     "total_reserved_usd": 0.713057,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "4495f12a281c559d419fa93922b800b7fa95e251e187216d7846b8abc9c22a13",
   "translation_model_actual": "gpt-6.1-sol"

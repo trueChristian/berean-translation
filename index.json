@@ -104091,6 +104091,38 @@
     {
       "ai_notice_required": true,
       "direction": "rtl",
+      "html": "content/urd/articles/73def952-dd77-4a51-b030-27713e0cedd2.html",
+      "html_sha256": "e6adf87ccd2a57feb2d54728ffc0568310eea78f0b56d827d6da0d9342d633fd",
+      "human_reviewed": false,
+      "id": "73def952-dd77-4a51-b030-27713e0cedd2",
+      "images": [
+        {
+          "alt": "پرسکون پانی میں چپو والی کشتی کا عکس",
+          "public_path": "/images/articles/73def952-dd77-4a51-b030-27713e0cedd2-1.jpg"
+        },
+        {
+          "alt": "تختوں پر رکھے موسم کی مار سے گھسے اور ٹوٹے ہوئے لکڑی کے چپو",
+          "public_path": "/images/articles/73def952-dd77-4a51-b030-27713e0cedd2-2.jpg"
+        }
+      ],
+      "issue_id": "4e575f26-fabd-5104-ba0d-d54ca032653b",
+      "language": "urd",
+      "language_tag": "ur",
+      "metadata": "content/urd/articles/73def952-dd77-4a51-b030-27713e0cedd2.json",
+      "metadata_sha256": "93b882668cc04fe7d2cac89e99b8470f7da81cb8bec83433916ff0dbebbcc4c4",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "بچوں کا گوشہ",
+      "source_revision": "22388745ad7f149609e65f5e28cfcc1257cd689e",
+      "source_translation_key": "4495f12a281c559d419fa93922b800b7fa95e251e187216d7846b8abc9c22a13",
+      "status": "ready",
+      "subtitle": null,
+      "title": "”کیا مجھے بتانا ضروری ہے؟“",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
       "html": "content/urd/articles/7750b3b4-3c80-48a5-860c-4958331969d7.html",
       "html_sha256": "b3296dc584c2df8485d8124463a60091710c9c1df3a097fa55a1ca5f9d5bf2af",
       "human_reviewed": false,
