@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-11T03:03:18+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"translation.html, aya ya 11, sentensi ya mwisho\",\"severity\":\"minor\",\"source_quote\":\"They never knew who would be the next one to be apprehended and hauled off to prison.\",\"suggested_fix\":\"Badili “wa pili kukamatwa” kuwa “anayefuata kukamatwa”.\",\"translation_quote\":\"Hawakujua kamwe ni nani ambaye angekuwa wa pili kukamatwa na kukokotwa hadi gerezani.\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 439,
+    "content_evidence_truncated": false,
+    "content_sha256": "e67ec412b64da216d1cab69cf748dd326657307eac254f0f1cec6660178184ef",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 196,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 70,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5657,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4554,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 5853
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review2",
+  "translation_attempts": 1
+}

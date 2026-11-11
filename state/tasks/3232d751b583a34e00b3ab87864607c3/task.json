@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "a4ecb5038ccf4b9687edfecbd14712ba",
   "campaign": "auto-cd5888efe76c7c4a97eef7be68d64e94b93f291bad1db24de52e58132d76b3dd",
   "created_at": "2026-11-08T20:40:22+00:00",
   "events": [
@@ -28,18 +27,39 @@
         },
         "total_tokens": 8399
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 196,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 70,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5657,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 4554,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 5853
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "Article, paragraph beginning “Mnamo Januari 5, 1527”",
-      "severity": "major",
-      "source_quote": "“The executioner stripped his bound hands over his knees, placed a stick between his knees and arms”",
-      "suggested_fix": "Badilisha sehemu hiyo iwe: “Mnyongaji aliweka mikono yake iliyokuwa imefungwa juu ya magoti yake, akaweka fimbo kati ya magoti na mikono yake”",
-      "translation_quote": "“Mnyongaji alimvua nguo, akamfunga mikono juu ya magoti, akaweka fimbo kati ya magoti na mikono yake”"
+      "location": "translation.html, aya ya 11, sentensi ya mwisho",
+      "severity": "minor",
+      "source_quote": "They never knew who would be the next one to be apprehended and hauled off to prison.",
+      "suggested_fix": "Badili “wa pili kukamatwa” kuwa “anayefuata kukamatwa”.",
+      "translation_quote": "Hawakujua kamwe ni nani ambaye angekuwa wa pili kukamatwa na kukokotwa hadi gerezani."
     }
   ],
+  "finished_at": "2026-11-11T03:03:18+00:00",
   "id": "3232d751b583a34e00b3ab87864607c3",
   "issue_id": "103c93e0-6e9a-44f6-a6bc-377af8e08e38",
   "language": "swa",
@@ -128,9 +148,11 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/0c3dee84c4be483b7daee22c0e12dce97f285120dda752151ffd42f0a4fb8c0b.json",
   "stage": "review2",
   "stage_budget": {
@@ -144,7 +166,7 @@
     "total_reserved_usd": 0.564599,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "dcde981bb8a2de6c36d041bdd00094be4150bee86267332e4ae76a69b15c1fa4",
   "translation_model_actual": "gpt-6.1-sol"

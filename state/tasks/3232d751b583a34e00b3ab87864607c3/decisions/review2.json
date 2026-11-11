@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "translation.html, aya ya 11, sentensi ya mwisho",
+      "severity": "minor",
+      "source_quote": "They never knew who would be the next one to be apprehended and hauled off to prison.",
+      "suggested_fix": "Badili “wa pili kukamatwa” kuwa “anayefuata kukamatwa”.",
+      "translation_quote": "Hawakujua kamwe ni nani ambaye angekuwa wa pili kukamatwa na kukokotwa hadi gerezani."
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}
