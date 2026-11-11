@@ -64476,6 +64476,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/nld/articles/391d4642-07e2-4003-83db-fa33dc08a8ca.html",
+      "html_sha256": "31d99cb714b7c59632eb420df719d92d45435acc8483956c18bbb5a3337753d2",
+      "human_reviewed": false,
+      "id": "391d4642-07e2-4003-83db-fa33dc08a8ca",
+      "images": [
+        {
+          "alt": "Een bleke krokus die door smeltende sneeuw heen bloeit",
+          "public_path": "/images/articles/391d4642-07e2-4003-83db-fa33dc08a8ca-1.jpg"
+        }
+      ],
+      "issue_id": "1a7070c9-fd4f-546b-a220-f267ddb8cf5f",
+      "language": "nld",
+      "language_tag": "nl",
+      "metadata": "content/nld/articles/391d4642-07e2-4003-83db-fa33dc08a8ca.json",
+      "metadata_sha256": "6f2d36a10dca821798cf6b8d5b565daf3d2daeade7ec98d94270978e473801e9",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "OVERPEINZINGEN VAN EEN ZENDINGSWERKER",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "d14a8e9ac7f4c07525900d0c21ec1a6c29c2da40405328d077639b18af091bf1",
+      "status": "ready",
+      "subtitle": null,
+      "title": "U moet wedergeboren worden",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/nld/articles/3a3501f6-fc1b-4e76-919f-9d00a44c6698.html",
       "html_sha256": "9e2a27e6e3ec61ff76b97d09a9af9ce3491bb8ed7f39d85d70d57ae84505f397",
       "human_reviewed": false,

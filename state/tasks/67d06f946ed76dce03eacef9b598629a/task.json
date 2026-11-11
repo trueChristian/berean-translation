@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "329681bdcdd8480b89c327c8319c14d0",
   "campaign": "auto-68d146f6ce0d953bc3af30418abba740527e715df67a69fa982543231d42fe0e",
   "created_at": "2026-11-10T23:15:03+00:00",
   "events": [
@@ -48,95 +47,31 @@
         },
         "total_tokens": 16243
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 52,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 20,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 10276,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 10273,
+          "cached_tokens": 0
+        },
+        "total_tokens": 10328
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "translation.html, paragraph 6, parenthetical about selling possessions",
-      "severity": "major",
-      "source_quote": "Selling ‘most’ would not buy the field.",
-      "suggested_fix": "Vervang door: “Met de verkoop van ‘het meeste’ kon hij de akker niet kopen.”",
-      "translation_quote": "Het verkopen van ‘meestal’ zou de akker niet kopen."
-    },
-    {
-      "location": "translation.html, paragraphs 11–12, conviction",
-      "severity": "major",
-      "source_quote": "we did not cause conviction in her heart; Light exposes darkness: it brings conviction.",
-      "suggested_fix": "Vervang de eerste passage door “wij brachten haar niet tot het besef van haar zonde” en de tweede door “Licht legt de duisternis bloot: het brengt mensen tot het besef van hun zonde.”",
-      "translation_quote": "wij veroorzaakten geen overtuiging in haar hart; Licht onthult duisternis: het brengt overtuiging."
-    },
-    {
-      "location": "translation.html, paragraph 17, John 3:4 quotation",
-      "severity": "major",
-      "source_quote": "can he enter the second time into his mother’s womb, and be born?",
-      "suggested_fix": "Vervang de vraag door: “Kan hij voor de tweede keer de moederschoot ingaan en geboren worden?” Behoud de bestaande em-tag en verwijzing.",
-      "translation_quote": "Kan hij eenmaal in de moederschoot ingaan, en weder geboren worden?"
-    },
-    {
-      "location": "translation.html, first Scripture list, Mark 8:34-35",
-      "severity": "major",
-      "source_quote": "let him deny himself",
-      "suggested_fix": "Vervang “die verachte zichzelven” door “laat die zichzelf verloochenen”.",
-      "translation_quote": "die verachte zichzelven"
-    },
-    {
-      "location": "translation.html, paragraph beginning “Wanneer we de liederen van Sion zingen”",
-      "severity": "major",
-      "source_quote": "the prayers of petition and praise",
-      "suggested_fix": "Vervang “de gebeden van verzoeking en lof” door “de smeek- en lofgebeden”.",
-      "translation_quote": "de gebeden van verzoeking en lof"
-    },
-    {
-      "location": "translation.html, paragraph 1, opening",
-      "severity": "minor",
-      "source_quote": "Over the last number of years",
-      "suggested_fix": "Vervang “Aanvullend aan de afgelopen jaren” door “De afgelopen jaren”.",
-      "translation_quote": "Aanvullend aan de afgelopen jaren"
-    },
-    {
-      "location": "translation.html, paragraph 12",
-      "severity": "minor",
-      "source_quote": "trying desperately to cover their nakedness",
-      "suggested_fix": "Vervang door “terwijl ze wanhopig probeerden hun naaktheid te bedekken”.",
-      "translation_quote": "wanhopig hun naaktheid probeerden te bedekken"
-    },
-    {
-      "location": "translation.html, John 3:20 quotation and first Scripture list, Acts 2:38",
-      "severity": "minor",
-      "source_quote": "lest his deeds should be reproved; Repent, and be baptized every one of you",
-      "suggested_fix": "Vervang “opdat zijn werken niet vermaan worden” door “opdat zijn daden niet terechtgewezen worden” en “Bekeert u en lasset een ieder van u gedoopt worden” door “Bekeer u en laat ieder van u gedoopt worden”. Behoud tags en verwijzingen.",
-      "translation_quote": "opdat zijn werken niet vermaan worden; Bekeert u en lasset een ieder van u gedoopt worden"
-    },
-    {
-      "location": "translation.html, paragraphs beginning “Vinden er nog steeds” and “Als wij werkelijk”",
-      "severity": "minor",
-      "source_quote": "learning of Him and His Father and Their ways; to share with lost and struggling souls; so they can become converted",
-      "suggested_fix": "Vervang respectievelijk door “en over Hem, Zijn Vader en Hun wegen hebben geleerd”, “om met verloren en worstelende zielen te delen” en “zodat zij bekeerd kunnen worden”.",
-      "translation_quote": "Hem en Zijn Vader en Hun wegen lerend; om aan verlorene en worstelende zielen te delen; zodat zij bekeren kunnen worden"
-    },
-    {
-      "location": "translation.html, second Scripture list, Matthew 21:21",
-      "severity": "minor",
-      "source_quote": "Be thou removed, and be thou cast into the sea",
-      "suggested_fix": "Vervang “Word van hier naar y daar geworpen in de zee” door “Word van hier weggenomen en in de zee geworpen”.",
-      "translation_quote": "Word van hier naar y daar geworpen in de zee"
-    },
-    {
-      "location": "translation.html, paragraph beginning “Lieven” and lighthouse paragraph",
-      "severity": "minor",
-      "source_quote": "Dear ones; that lighthouse standing tall",
-      "suggested_fix": "Vervang “Lieven” door “Geliefden” en “dat vuurtorenlicht dat hoog overeind staat” door “die vuurtoren die hoog overeind staat”.",
-      "translation_quote": "Lieven; dat vuurtorenlicht dat hoog overeind staat"
-    },
-    {
-      "location": "translation.html, Scripture quotations throughout",
-      "severity": "minor",
-      "source_quote": "Again, the kingdom of heaven; That which is born of the flesh; This I say then, Walk in the Spirit",
-      "suggested_fix": "Gebruik conform de taalrichtlijn hedendaagse Nederlandse vormen in de citaten: bijvoorbeeld “Opnieuw”, “uit de Geest” en “Dit zeg ik dan: Wandel in de Geest, en u zult de begeerten van het vlees niet vervullen”. Moderniseer overeenkomstige verouderde naamvals- en aanspreekvormen zonder betekenis of verwijzingen te veranderen.",
-      "translation_quote": "Weerom; uit den Geest; Dit zeg ik dan: Wandel in den Geest, en gij zult de begeerten des vleesches niet volbrengen"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-11-11T08:18:34+00:00",
   "id": "67d06f946ed76dce03eacef9b598629a",
   "issue_id": "1a7070c9-fd4f-546b-a220-f267ddb8cf5f",
   "language": "nld",
@@ -225,7 +160,7 @@
     }
   },
   "protected": false,
-  "quality_score": 85,
+  "quality_score": 99,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6.1-sol",
@@ -244,7 +179,7 @@
     "total_reserved_usd": 0.7779,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "d14a8e9ac7f4c07525900d0c21ec1a6c29c2da40405328d077639b18af091bf1",
   "translation_model_actual": "gpt-6.1-sol"
