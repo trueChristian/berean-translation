@@ -1,0 +1,199 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "9b9ee271-e74b-4355-a176-d97496859d41",
+    "response_id": "chatcmpl-Ej7RBQ9yxWhLFL9j5Qpzk0W8ACIKV",
+    "usage": {
+      "completion_tokens": 3309,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 43,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9374,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8271,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 12683
+    }
+  },
+  "received_at": "2026-11-11T18:49:55+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "html, paragraph 2, Luke quotation",
+        "severity": "major",
+        "source_quote": "he turned ... brethren, and sisters, yea, and his own life also",
+        "suggested_fix": "সংশ্লিষ্ট অংশগুলো করুন: ‘তিনি ফিরে তাঁদের বললেন’, ‘ভাই ও বোনদের’ এবং ‘এমনকি নিজের জীবনকেও’। পূর্ব দিকে মুখ ফেরানোর তথ্যটি বাদ দিন।",
+        "translation_quote": "তিনি পূর্ব দিকে মুখ ফিরিয়ে ... ভাই-ভাবী, এমনকি নিজের জীবকেও"
+      },
+      {
+        "location": "html, paragraph 2, tower and army illustrations",
+        "severity": "major",
+        "source_quote": "counteth the cost, whether he have sufficient to finish it? ... with ten thousand ... with twenty thousand",
+        "suggested_fix": "লিখুন: ‘প্রথমে বসে ব্যয় হিসাব করে না, কাজটি শেষ করার মতো যথেষ্ট সামর্থ্য তার আছে কি না?’ এবং ‘দশ হাজার সৈন্য নিয়ে তার বিরুদ্ধে বিশ হাজার সৈন্য নিয়ে আসা রাজার মোকাবিলা করতে পারবেন কি না’।",
+        "translation_quote": "ব্যয় গননা করে যে সে শেষ করতে যোগ্য আছে কি না ... দাহزارের সাথে সামনা করতে পারবে যে বিরোধী বিশ হাজারেন নিয়ে আসে"
+      },
+      {
+        "location": "html, all Scripture reference labels",
+        "severity": "major",
+        "source_quote": "Luke 14:25-33; 2 Timothy 3:12; 1 John 2:6; Mark 15:28; Deuteronomy 3:3-6; John 12:25; Genesis 3:19; James 4:14; Mark 16:15; Philippians 1:21; Matthew 16:25; Acts 21:10-13",
+        "suggested_fix": "একই অবস্থানে যথাক্রমে প্রচলিত বাংলা পুস্তকনাম ব্যবহার করুন: লূক 14:25-33; ২ তীমথিয় 3:12; ১ যোহন 2:6; মার্ক 15:28; দ্বিতীয় বিবরণ 3:3-6; যোহন 12:25; আদিপুস্তক 3:19; যাকোব 4:14; মার্ক 16:15; ফিলিপীয় 1:21; মথি 16:25; প্রেরিত 21:10-13।",
+        "translation_quote": "Luke 14:25-33; 2 Timothy 3:12; 1 John 2:6; Mark 15:28; Deuteronomy 3:3-6; John 12:25; Genesis 3:19; James 4:14; Mark 16:15; Philippians 1:21; Matthew 16:25; Acts 21:10-13"
+      },
+      {
+        "location": "html, paragraph 4",
+        "severity": "major",
+        "source_quote": "shall suffer persecution ... promises ... about persecution",
+        "suggested_fix": "উদ্ধৃতিতে লিখুন ‘যারা খ্রীষ্ট যীশুতে ধার্মিকভাবে জীবনযাপন করতে চায়, তারা সকলেই নির্যাতন ভোগ করবে’; পরের বাক্যে ‘শাস্তি সম্পর্কে’ বদলে ‘নির্যাতন সম্পর্কে’ করুন।",
+        "translation_quote": "সকলেই কষ্ট ভোগ করিবে ... যেসব শাস্তি সম্পর্কে"
+      },
+      {
+        "location": "html, paragraph 9",
+        "severity": "major",
+        "source_quote": "all his people",
+        "suggested_fix": "‘তার সমগ্র প্রজন্মকে’ বদলে ‘তার সমস্ত প্রজাকে’ করুন।",
+        "translation_quote": "তার সমগ্র প্রজন্মকে"
+      },
+      {
+        "location": "html, paragraph 12",
+        "severity": "major",
+        "source_quote": "many dead or dying people",
+        "suggested_fix": "‘অনেক মৃত বা মৃত্যুপথযাত্রী মানুষ’ লিখুন।",
+        "translation_quote": "অনেক মৃত বা মরণশীল মানুষ"
+      },
+      {
+        "location": "html, paragraph 15",
+        "severity": "major",
+        "source_quote": "a vapour, that appeareth for a little time ... calls our lives a vapor",
+        "suggested_fix": "‘ধোঁয়ার মতো’ দুই স্থানেই ‘বাষ্পের মতো’ করুন এবং ‘প্রদীপ্ত হয়’ বদলে ‘দেখা দেয়’ করুন।",
+        "translation_quote": "ধোঁয়ার মতো, যা সামান্য সময়ের জন্য প্রদীপ্ত হয় ... জীবনকে ধোঁয়ার মতো"
+      },
+      {
+        "location": "html, paragraph 17",
+        "severity": "major",
+        "source_quote": "most other nationalities ... One of their close friends",
+        "suggested_fix": "যথাক্রমে ‘অন্য অধিকাংশ জাতীয়তার মানুষের তুলনায়’ এবং ‘তাঁদের একজন ঘনিষ্ঠ বন্ধু’ লিখুন।",
+        "translation_quote": "অনেক সমকক্ষ জাতির তুলনায় ... তাদের একজনের ঘনিষ্ঠ বন্ধু"
+      },
+      {
+        "location": "html, paragraph 19",
+        "severity": "major",
+        "source_quote": "It makes it difficult to say with the Apostle Paul,",
+        "suggested_fix": "বিকৃত ও অনূদিত না হওয়া পুরো সংযোগাংশটি প্রতিস্থাপন করুন: ‘এতে প্রেরিত পৌলের সঙ্গে এ কথা বলাও কঠিন হয়ে পড়ে,’। পরের <em> উদ্ধৃতি অক্ষুণ্ণ রাখুন।",
+        "translation_quote": "এটি使使使 It makes it—এটা使難 করে使 করা সম্ভবপর (note: preserved original structure) to say with the Apostle Paul,"
+      },
+      {
+        "location": "html, paragraph 21",
+        "severity": "major",
+        "source_quote": "can’t win the lost, rather they make them jealous",
+        "suggested_fix": "লিখুন: ‘যারা তাদের সর্বোচ্চ চেষ্টা সত্ত্বেও পথহারা মানুষদের খ্রীষ্টের কাছে আনতে পারে না; বরং তাদের ঈর্ষান্বিত করে তোলে।’",
+        "translation_quote": "তাদের সর্বোচ্চ চেষ্টার সত্ত্বেও হারিয়ে ফেলে—তারা হারানো লোকদের জয়ের বদলে তাদের ঈর্ষান্বিত করে তোলে"
+      },
+      {
+        "location": "html, paragraph 21",
+        "severity": "major",
+        "source_quote": "like so many before us have ... the tens of thousands who are seeking",
+        "suggested_fix": "‘অনেক আগে আমাদের পূর্বপুরুষেরা’ বদলে ‘আমাদের আগে আরও অনেকে’ এবং ‘লক্ষাধিক লোকের’ বদলে ‘সন্ধানরত কয়েক দশ হাজার মানুষকে’ করুন; বাক্যের কারক মিলিয়ে নিন।",
+        "translation_quote": "যেভাবে অনেক আগে আমাদের পূর্বপুরুষেরা করেছেন ... লক্ষাধিক লোকের যারা খুঁজছে"
+      },
+      {
+        "location": "html, paragraph 22",
+        "severity": "major",
+        "source_quote": "John the Baptist’s shoes? Or the Apostle Paul’s?",
+        "suggested_fix": "লিখুন: ‘যদি আমরা বাপ্তিস্মদাতা যোহনের অবস্থায় থাকতাম? অথবা প্রেরিত পৌলের অবস্থায়?’",
+        "translation_quote": "জন বাপ্তিস্ট বা পৌল ধর্মোপদেশকার পলের অবস্থায়"
+      },
+      {
+        "location": "html, paragraph 23",
+        "severity": "major",
+        "source_quote": "Years ago ... We would talk day after day",
+        "suggested_fix": "‘বছর খানেক আগে’ বদলে ‘বেশ কয়েক বছর আগে’ এবং ‘দিনরাত আলাপ করতাম’ বদলে ‘দিনের পর দিন আলাপ করতাম’ করুন।",
+        "translation_quote": "বছর খানেক আগে ... আমরা দিনরাত আলাপ করতাম"
+      },
+      {
+        "location": "html, paragraph 24",
+        "severity": "major",
+        "source_quote": "most Christians that he knew ... soberly admitted ... different than most Christians he had known in the past",
+        "suggested_fix": "প্রথম তুলনায় ‘তার পরিচিত অধিকাংশ খ্রীষ্টানের চেয়ে’ লিখুন। শেষ বাক্যের সংশ্লিষ্ট অংশ করুন: ‘একদিন সে গম্ভীরভাবে স্বীকার করল যে আমাকে তার অতীতে পরিচিত অধিকাংশ খ্রীষ্টানের থেকে আলাদা মনে হয়’।",
+        "translation_quote": "বেশিরভাগ খ্রীষ্টানদের চেয়ে ... স্মৃত ভাবে স্বীকার করল যে আমি গত খ্রীষ্টানদের তুলনায় আলাদা"
+      },
+      {
+        "location": "html, paragraph 29",
+        "severity": "major",
+        "source_quote": "the thousands today who are putting their lives on the line in other countries",
+        "suggested_fix": "লিখুন: ‘আজ অন্য দেশগুলোতে যে হাজার হাজার মানুষ নিজেদের জীবন ঝুঁকিতে রাখছে’।",
+        "translation_quote": "আজ যারা অন্যান্য দেশে তাদের জীবন ঝুঁকিতে রেখে কাজ করে"
+      },
+      {
+        "location": "html, paragraph 30, Acts quotation",
+        "severity": "major",
+        "source_quote": "he took Paul’s girdle ... the man that owneth this girdle ... into the hands of the Gentiles",
+        "suggested_fix": "‘পলের বেড়িটি’ বদলে ‘পৌলের কোমরবন্ধটি’ করুন; পরের অংশ লিখুন: ‘এই কোমরবন্ধের মালিককে যেরুশালেমে ইহুদিরা এভাবেই বাঁধবে এবং অইহুদিদের হাতে সমর্পণ করবে।’",
+        "translation_quote": "পলের বেড়িটি ... সে ব্যক্তিকে যে এই বেড়িটি ধার্য করে তার হাতে বেঁধে দেবেন ... গৌরবহীন জাতির হাতে"
+      },
+      {
+        "location": "html, paragraph 31",
+        "severity": "major",
+        "source_quote": "What do you think the ones ... thought? Do you think they called him a fool? ... “I told him not to go!”",
+        "suggested_fix": "চিন্তা সম্পর্কে প্রশ্নটি ফিরিয়ে আনুন: ‘যাঁরা তাঁকে যেরুশালেমে না যেতে বোঝানোর চেষ্টা করেছিলেন, তাঁরা কী ভেবেছিলেন বলে তোমাদের মনে হয়? তোমাদের কি মনে হয় তাঁরা তাঁকে বোকা বলেছিলেন?’ শেষ উক্তি করুন: ‘আমি তো তাকে যেতে বারণ করেছিলাম!’",
+        "translation_quote": "তোমরা কি মনে করো যারা ... তারা তাকে বোকা বলেছিল? ... “আমি বলেছিলাম তাকে যেতে দেব না!”"
+      },
+      {
+        "location": "html, paragraph 32",
+        "severity": "major",
+        "source_quote": "his life did not matter",
+        "suggested_fix": "প্রসঙ্গানুযায়ী লিখুন: ‘নিজের জীবনকে তিনি গুরুত্ব দেননি।’",
+        "translation_quote": "তার জীবন কোন মূল্যই ছিল না"
+      },
+      {
+        "location": "html, poem, second stanza",
+        "severity": "major",
+        "source_quote": "And end the night of wrong.",
+        "suggested_fix": "লিখুন: ‘আর শেষ করো অন্যায়ের রাত।’",
+        "translation_quote": "এবং সমাপ্ত করো অন্ধকারের রাতটি।"
+      },
+      {
+        "location": "html, final paragraph",
+        "severity": "major",
+        "source_quote": "the fires of revival will once again burn",
+        "suggested_fix": "‘পুনরুত্থানের আগুন’ বদলে ‘আত্মিক জাগরণের আগুন’ করুন।",
+        "translation_quote": "পুনরুত্থানের আগুন আবার প্রজ্জ্বলিত হবে"
+      },
+      {
+        "location": "html, paragraph 1",
+        "severity": "minor",
+        "source_quote": "the Anabaptists lived an average of only 27 days. They were hunted and killed. ... serving Christ",
+        "suggested_fix": "লিখুন: ‘এনাবাপটিস্টরা গড়ে মাত্র ২৭ দিন বেঁচে থাকতেন। তাঁদের খুঁজে খুঁজে হত্যা করা হতো।’ ‘খ্রীষ্টকে সেবায়’ বদলে ‘খ্রীষ্টের সেবা করতে গেলে’ করুন।",
+        "translation_quote": "এনাবাপটিস্টদের গড়ে কেবল ২৭ দিনই বেঁচে থাকা যায়। তাদের শিকারণ করা হত ... খ্রীষ্টকে সেবায়"
+      },
+      {
+        "location": "html, paragraph 2, emphasis markup",
+        "severity": "minor",
+        "source_quote": "<strong>he cannot be my disciple.</strong> ... <u>bear his cross</u> ... <u>counteth the cost</u>",
+        "suggested_fix": "মূলের তিনটি ‘আমার শিষ্য হতে পারে না’ ঘোষণায় <strong> রাখুন; ‘নিজের ক্রুশ বহন’ ও ‘ব্যয় হিসাব’ অংশে মূল অনুযায়ী <u> পুনঃস্থাপন করুন।",
+        "translation_quote": "সে আমার অনুচর হতে পারে না; ... <strong>নিজের ক্রুশ বহন</strong> ... ব্যয় গননা"
+      },
+      {
+        "location": "html, paragraphs 10, 11, 23, 29, 30, 31",
+        "severity": "minor",
+        "source_quote": "in the New Testament; shocked me the most; a happy fellow; an example in Acts; a certain prophet; he was beheaded",
+        "suggested_fix": "যথাক্রমে ‘নতুন নিয়মেও’, ‘সবচেয়ে বেশি হতবাক করেছিল’, ‘একজন সুখী মানুষ’, ‘প্রেরিতদের কার্যবিবরণীতে একটি স্পষ্ট উদাহরণ’, ‘আগাবুস নামে একজন ভাববাদী’ এবং ‘তাঁর শিরশ্ছেদ করা হয়েছিল’ ব্যবহার করুন।",
+        "translation_quote": "নতুন নিয়মানুসারে; সবচেয়ে বুতল করেছিল; ছিলেন—a সুখী মানুষ; কাজের মধ্যে একটি স্পষ্ট উদাহরণ ... প্রেরিতদের বইতে (Acts); একটি নবীদা; তাকে ঘাড়কাটা করা হয়েছে"
+      },
+      {
+        "location": "html, poem, first lines of all three stanzas",
+        "severity": "minor",
+        "source_quote": "O saints of God!",
+        "suggested_fix": "তিন স্থানেই ‘ঈশ্বরের সাধকগণ’ বদলে ‘ঈশ্বরের পবিত্রজনেরা’ করুন।",
+        "translation_quote": "হে ঈশ্বরের সাধকগণ!"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 58
+  }
+}
