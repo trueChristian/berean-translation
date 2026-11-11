@@ -5,11 +5,159 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "26639057112a42849ab082556e12384b",
   "campaign": "auto-2fc33bb74bf9c3ded64dba4ef908e7c113d5e9f9153a28be6672275aef627aa3",
   "created_at": "2026-11-11T03:06:35+00:00",
-  "events": [],
-  "findings": [],
+  "events": [
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 2275,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 75,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9973,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8870,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 12248
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "html: opening Scripture quotation, Mark 4:37-41",
+      "severity": "major",
+      "source_quote": "he arose, and rebuked the wind",
+      "suggested_fix": "«وہ اٹھ کر ہوا کو سرکشی کی» کو «وہ اٹھا اور ہوا کو ڈانٹا» سے بدلیں۔",
+      "translation_quote": "وہ اٹھ کر ہوا کو سرکشی کی"
+    },
+    {
+      "location": "html: paragraph beginning 'Many times'",
+      "severity": "major",
+      "source_quote": "His behavior is almost unthinkable in human terms ... Would our compassionate Christ",
+      "suggested_fix": "«انسانی مادّیت میں» کی جگہ «انسانی نقطۂ نظر سے» اور «ہمارا مصلوب حضرت مسیح» کی جگہ «ہمارا رحم دل مسیح» لکھیں۔",
+      "translation_quote": "اُس کا رویّہ انسانی مادّیت میں تقریبًا ناقابلِِ تصور ہے ... ہمارا مصلوب حضرت مسیح"
+    },
+    {
+      "location": "html: paragraph beginning 'While bobbing about'",
+      "severity": "major",
+      "source_quote": "While bobbing about in the clutches of a potential watery grave ... the shipmaster came to him [Jonah]",
+      "suggested_fix": "ابتدائی فقرہ «جب وہ لہروں پر ڈولتے ہوئے پانی میں ڈوب کر مرنے کے خطرے کی گرفت میں تھے» کریں، اور اقتباس میں «اُس کے پاس» کے بعد «[یوناہ]» بحال کریں۔",
+      "translation_quote": "جب وہ ممکنہ آبی قبر کے تاثّرات میں سرگرداں تھے ... کشتى کا کپتان اُس کے پاس آیا"
+    },
+    {
+      "location": "html: Psalm 107:25-30 quotation",
+      "severity": "major",
+      "source_quote": "They reel to and fro ... and are at their wits’ end.",
+      "suggested_fix": "اس حصے کو «وہ اِدھر اُدھر ڈگمگاتے اور نشے میں دھت آدمی کی طرح لڑکھڑاتے ہیں، اور اُنہیں کچھ سوجھتا نہیں» کریں۔",
+      "translation_quote": "وہ ٹھہرتے، لڑکھڑاتے، نشہ زدہ آدمی کی مانند ہوتے ہیں، اور عقل کی حد تک پہنچ جاتے ہیں۔"
+    },
+    {
+      "location": "html: John 14:27 quotation",
+      "severity": "major",
+      "source_quote": "not as the world giveth, give I unto you",
+      "suggested_fix": "«جو دنیا دیتی نہیں، میں تمہیں دیتا ہوں» کو «میں تمہیں اُس طرح نہیں دیتا جس طرح دنیا دیتی ہے» سے بدلیں۔",
+      "translation_quote": "جو دنیا دیتی نہیں، میں تمہیں دیتا ہوں"
+    },
+    {
+      "location": "html: paragraph beginning 'When we are happy'",
+      "severity": "major",
+      "source_quote": "even though we have no sense of truly needing Him. His insertions into our lives often seem like interruptions.",
+      "suggested_fix": "یہ حصہ «حالانکہ ہمیں واقعی اُس کی ضرورت کا کوئی احساس نہیں ہوتا۔ ہماری زندگیوں میں اُس کا دخل اکثر ہمیں خلل محسوس ہوتا ہے» کریں۔",
+      "translation_quote": "حالانکہ ہمیں واقعی اس کی ضرورت کا احساس کم ہی ہوتا ہے۔ اُس کی مداخلتیں ہماری زندگیوں میں اکثر مداخلتیں محسوس ہوتی ہیں۔"
+    },
+    {
+      "location": "html: paragraph beginning 'When we are happy', later sentences",
+      "severity": "major",
+      "source_quote": "This anxiety rides on the waves of unbelief",
+      "suggested_fix": "«کفر کی لہروں» کو «بے ایمانی کی لہروں» سے بدلیں تاکہ سیاق کے مطابق ایمان اور بھروسے کی کمی مراد ہو، نہ کہ لازماً کفر۔",
+      "translation_quote": "یہ بے چینی کفر کی لہروں پر سوار ہے"
+    },
+    {
+      "location": "html: ordered list, item 2",
+      "severity": "major",
+      "source_quote": "being clawed to death or disemboweled",
+      "suggested_fix": "«مٹھیوں سے نوچ کر مار دیا جائے گا» کو «پنجوں سے نوچ نوچ کر مار دیا جائے گا» سے بدلیں۔",
+      "translation_quote": "مٹھیوں سے نوچ کر مار دیا جائے گا یا پیٹ پھاڑ دیا جائے گا"
+    },
+    {
+      "location": "html: ordered list, item 4",
+      "severity": "major",
+      "source_quote": "the fear of getting peanut butter stuck to the roof of your mouth",
+      "suggested_fix": "تعریف کو «مونگ پھلی کا مکھن منہ کے تالو سے چپک جانے کا خوف» کریں۔",
+      "translation_quote": "وہ خوف ہے جب پی نٹ بٹر تلّی کی چھت سے چپک جانے کا ہوتا ہے"
+    },
+    {
+      "location": "html: paragraph beginning 'In the face of his fear'",
+      "severity": "major",
+      "source_quote": "dizziness, or light-headedness",
+      "suggested_fix": "«چکر یا سرہانے کی روش» کو «چکر آنا یا سر ہلکا محسوس ہونا» سے بدلیں۔",
+      "translation_quote": "چکر یا سرہانے کی روش"
+    },
+    {
+      "location": "html: 'Protecting our Property', Luke 12:13 quotation",
+      "severity": "major",
+      "source_quote": "one of the company said unto him ... speak to my brother, that he divide the inheritance with me",
+      "suggested_fix": "اقتباس کو «اور مجمع میں سے ایک شخص نے اُس سے کہا، اے استاد! میرے بھائی سے کہہ کہ میراث میرے ساتھ بانٹ لے» کریں۔",
+      "translation_quote": "اور ایک نے اُس کا ساتھ کہہ کر اُس سے کہا، اے استاد! میرے بھائی سے کہہ کر میری میراث مجھ میں بانٹ دے"
+    },
+    {
+      "location": "html: final sentence under 'Protecting our Property'",
+      "severity": "major",
+      "source_quote": "Those of us who become anxious at the loss of our wealth are no less foolish.",
+      "suggested_fix": "آخری الفاظ «وہ کم دانشمند نہیں» کو «وہ بھی اُس سے کم نادان نہیں» سے بدلیں۔",
+      "translation_quote": "ہم میں سے جو اپنے مال کی بربادی سے پریشان ہو جاتے ہیں وہ کم دانشمند نہیں۔"
+    },
+    {
+      "location": "html: 'Perfecting our Plan', Luke 10:40 quotation",
+      "severity": "major",
+      "source_quote": "Lord, dost thou not care",
+      "suggested_fix": "«اے خداوند! کیا تو یہ نہیں دیکھتا» کو «اے خداوند! کیا تجھے پروا نہیں» سے بدلیں۔",
+      "translation_quote": "اے خداوند! کیا تو یہ نہیں دیکھتا"
+    },
+    {
+      "location": "html: 'Pleasing all People', penultimate sentence",
+      "severity": "major",
+      "source_quote": "We shall do much better to make excuses for others’ poor behavior than for our own.",
+      "suggested_fix": "جملہ «اپنے بُرے سلوک کے لیے عذر تراشنے کی بجائے دوسروں کے بُرے سلوک کے لیے عذر تلاش کرنا ہمارے لیے کہیں بہتر ہوگا» کریں۔",
+      "translation_quote": "ہم دوسروں کے خراب سلوک کے مقابلے میں اپنے لیے جواز بنانا کہیں بہتر ہوں گے۔"
+    },
+    {
+      "location": "html: 'Pleasing all People', description of peers",
+      "severity": "minor",
+      "source_quote": "like their peers",
+      "suggested_fix": "«اپنے ہم جماعتوں» کو «اپنے ہم عصروں» سے بدلیں؛ مضمون صرف طلبہ کے بارے میں نہیں ہے۔",
+      "translation_quote": "اپنے ہم جماعتوں کی مانند"
+    },
+    {
+      "location": "html: Scripture quotations in paragraphs 4–6, 8, 9, 14, 16, and 17; Psalm quotation",
+      "severity": "minor",
+      "source_quote": "<em>…when neither sun nor stars ...</em>; <strong>desired haven</strong>",
+      "suggested_fix": "اصل کے مطابق ان اقتباسات کے گرد <em> ٹیگ بحال کریں اور زبور کے اقتباس میں «مطلوبہ پناہ گاہ» کو <strong> ٹیگ میں رکھیں؛ موجودہ روابط، صفات اور پیراگرافی ساخت برقرار رکھیں۔",
+      "translation_quote": "متعدد اقتباسات صرف واوین میں ہیں؛ زبور کے اقتباس میں «مطلوبہ پناہ گاہ» کے گرد <strong> موجود نہیں۔"
+    },
+    {
+      "location": "html: image alt attribute",
+      "severity": "minor",
+      "source_quote": "A sunlit road curving through a wooded landscape",
+      "suggested_fix": "alt کو «درختوں سے ڈھکے منظر میں بل کھاتی ہوئی دھوپ سے روشن سڑک» کریں۔",
+      "translation_quote": "ایک جنگلی مناظر سے گذرتی دھوپ سے روشن سڑک"
+    },
+    {
+      "location": "html: opening quotation and paragraphs beginning 'Why are ye' and 'When we are happy'",
+      "severity": "minor",
+      "source_quote": "Why are ye so fearful?",
+      "suggested_fix": "تینوں جگہ سوال کو «تم اتنے خوف زدہ کیوں ہو؟» کریں۔",
+      "translation_quote": "تم لوگ تُو بہت ڈرے ہوئے کیوں ہو؟"
+    }
+  ],
   "id": "87fe6aa8c1582505d671905300cfbcae",
   "issue_id": "1a7070c9-fd4f-546b-a220-f267ddb8cf5f",
   "language": "urd",
@@ -98,11 +246,13 @@
     }
   },
   "protected": false,
+  "quality_score": 69,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/a5f80ad335a5578b489f5e1ff55175ab3c10942655de5c784af044af1c73c841.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "review1",
     "max_candidate_bytes": 120000,
@@ -115,7 +265,7 @@
     "total_reserved_usd": 0.792673,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 0,
   "translation_key": "6ba0f430c997b1ea3450b766c83b9abcf64dbdc84cdd47383ef0cebf9766d0dd",
   "translation_model_actual": "gpt-5-mini-2025-08-07"
