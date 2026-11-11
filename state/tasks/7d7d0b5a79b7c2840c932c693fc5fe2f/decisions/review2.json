@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "translation.html, letzte Strophe, Zeile 5",
+      "severity": "minor",
+      "source_quote": "Forever shall my song remove,",
+      "suggested_fix": "Ersetze „für immer soll mein Lied sich fortbewegen:“ durch „für immer soll mein Lied weiterklingen:“; behalte den anschließenden Zeilenumbruch und den Refrain bei.",
+      "translation_quote": "für immer soll mein Lied sich fortbewegen:"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

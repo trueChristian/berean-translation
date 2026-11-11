@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-11T18:48:50+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"translation.html, letzte Strophe, Zeile 5\",\"severity\":\"minor\",\"source_quote\":\"Forever shall my song remove,\",\"suggested_fix\":\"Ersetze „für immer soll mein Lied sich fortbewegen:“ durch „für immer soll mein Lied weiterklingen:“; behalte den anschließenden Zeilenumbruch und den Refrain bei.\",\"translation_quote\":\"für immer soll mein Lied sich fortbewegen:\"}],\"findings_complete\":true,\"passed\":true,\"score\":97}",
+    "content_bytes": 446,
+    "content_evidence_truncated": false,
+    "content_sha256": "0bd8e5f7399bb5036ad442e57f92880decc8b0ce2540d56022b6b092ea3d3ad3",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 201,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 79,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3604,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2501,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 3805
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review2",
+  "translation_attempts": 1
+}
