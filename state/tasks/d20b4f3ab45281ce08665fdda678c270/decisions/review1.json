@@ -1,0 +1,98 @@
+{
+  "findings": [
+    {
+      "location": "html, stycke 5",
+      "severity": "major",
+      "source_quote": "he was drowned in the River Limmat",
+      "suggested_fix": "Ändra ”drunknade han” till ”dränktes han” så att avrättningen inte framstår som en drunkningsolycka.",
+      "translation_quote": "drunknade han i floden Limmat"
+    },
+    {
+      "location": "html, stycke 7",
+      "severity": "major",
+      "source_quote": "throughout Moravia, the Netherlands, Switzerland, and the Palatinate region of Germany",
+      "suggested_fix": "Ändra ”i Böhmen och Mähren” till ”i Mähren”. Böhmen nämns inte i källtexten.",
+      "translation_quote": "i Böhmen och Mähren, Nederländerna, Schweiz och Pfalz i Tyskland"
+    },
+    {
+      "location": "html, stycke 14",
+      "severity": "major",
+      "source_quote": "Bachman was immediately recognized by Conrad Grebel ... as having been known as one of the local rowdies",
+      "suggested_fix": "Skriv: ”Bachman kändes omedelbart igen av polischefen Conrad Grebel (inte den anabaptistiske grundaren) som en av de lokala bråkmakarna”.",
+      "translation_quote": "Bachman kände omedelbart igen av polischefen Conrad Grebel ... som en av de lokala storslugarna"
+    },
+    {
+      "location": "html, stycke 24",
+      "severity": "major",
+      "source_quote": "he ... admonished the rulers not to commit sin in their treatment of him",
+      "suggested_fix": "Skriv: ”Han uppmanade i stället härskarna att inte synda i sin behandling av honom”. Nuvarande formulering kan betyda att han klandrade dem för att inte begå synd.",
+      "translation_quote": "Han tillrättavisade i stället härskarna för att inte begå synd i sitt bemötande av honom"
+    },
+    {
+      "location": "html, stycke 32",
+      "severity": "major",
+      "source_quote": "shortly after their grandfather’s execution",
+      "suggested_fix": "Ändra ”kort efter morfaderns avrättning” till ”kort efter Hans avrättning”, eftersom källan inte anger om han var deras morfar eller farfar.",
+      "translation_quote": "kort efter morfaderns avrättning"
+    },
+    {
+      "location": "html, stycke 1",
+      "severity": "minor",
+      "source_quote": "its search for truth; ever learning, and never able to come to the knowledge of the truth –2 Timothy 3:7",
+      "suggested_fix": "Ändra ”sin sökan efter sanning” till ”sitt sökande efter sanning” och citatet till ”ständigt lärande men aldrig i stånd att komma till kunskap om sanningen – 2 Timoteusbrevet 3:7.” Behåll em-taggen.",
+      "translation_quote": "sin sökan efter sanning; ständigt lärande men aldrig kunna komma till kunskap om sanningen – 2 Timoteus 3:7."
+    },
+    {
+      "location": "html, stycke 9",
+      "severity": "minor",
+      "source_quote": "religion-fueled hostilities; religious zeal gone awry",
+      "suggested_fix": "Ändra ”religionsdrivna värnstrider” till ”religiöst motiverade konflikter” och ”religiöst iver” till ”religiös iver”.",
+      "translation_quote": "religionsdrivna värnstrider; religiöst iver som gått överstyr"
+    },
+    {
+      "location": "html, stycke 11",
+      "severity": "minor",
+      "source_quote": "Reverend, high and well-learned",
+      "suggested_fix": "Översätt även tilltalsordet: ”Vördiga, högt bildade och lärda”.",
+      "translation_quote": "Reverend, hög- och vällärda"
+    },
+    {
+      "location": "html, stycke 20",
+      "severity": "minor",
+      "source_quote": "starvation, exposure, beatings, and exhaustion",
+      "suggested_fix": "Ändra ”exponering” till ”utsatthet för väder och vind”.",
+      "translation_quote": "svält, exponering, slag och utmattning"
+    },
+    {
+      "location": "html, stycke 22",
+      "severity": "major",
+      "source_quote": "even overseeing several marriages",
+      "suggested_fix": "Ändra ”till och med vitsordande flera äktenskap” till ”till och med övervakade flera vigslar”. Källan beskriver hans medverkan vid vigslar, inte att han intygade äktenskap.",
+      "translation_quote": "till och med vitsordande flera äktenskap"
+    },
+    {
+      "location": "html, stycke 26–28 och 32",
+      "severity": "minor",
+      "source_quote": "unwilling either to recant; persuade him to recant; admonished him to recant; refusing to recant",
+      "suggested_fix": "Komplettera uttrycken till ”ovillig att avsvärja sig sin tro”, ”få honom att avsvärja sig sin tro”, ”uppmanade honom att avsvärja sig sin tro” respektive ”vägrade att avsvärja sig sin tro”.",
+      "translation_quote": "ovillig att avsäga sig; få honom att avsäga sig; uppmanade honom att avsäga sig; vägrade att avsäga sig"
+    },
+    {
+      "location": "html, stycke 29",
+      "severity": "minor",
+      "source_quote": "gave Hans an opportunity to speak unimpeded",
+      "suggested_fix": "Ändra ”en möjlighet att orörd tala” till ”en möjlighet att tala ostört”.",
+      "translation_quote": "gav Hans en möjlighet att orörd tala"
+    },
+    {
+      "location": "html, stycke 30 och 33",
+      "severity": "minor",
+      "source_quote": "bowed his head; the ritual question; a great emigration",
+      "suggested_fix": "Ändra ”bockade sitt huvud” till ”böjde sitt huvud”, ”den rituala frågan” till ”den rituella frågan” och ”emigraton” till ”emigration”.",
+      "translation_quote": "bockade sitt huvud; den rituala frågan; en stor emigraton"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
