@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "html, 음모론을 다루는 문단의 “the other kingdom”",
+      "severity": "major",
+      "source_quote": "If they are true, how will that affect the way I live for the other kingdom now?",
+      "suggested_fix": "그것이 사실이라면, 지금 하나님 나라를 위해 살아가는 내 삶의 방식에는 어떤 영향을 미칠까요?",
+      "translation_quote": "그것이 사실이라면, 지금 다른 나라를 위한 내 삶의 방식에는 어떤 영향을 미칠까요?"
+    },
+    {
+      "location": "html, 두 번째 문단의 정보 출처에 관한 질문",
+      "severity": "minor",
+      "source_quote": "from what they would consider to be very valid and from legitimate sources",
+      "suggested_fix": "“매우 타당하고 합법적인 출처에서 나온 것이라고”를 “매우 타당하며 신뢰할 만한 출처에서 나온 것이라고”로 수정하십시오. 여기서 legitimate는 출처의 합법성보다 신빙성을 뜻합니다.",
+      "translation_quote": "매우 타당하고 합법적인 출처에서 나온 것이라고"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

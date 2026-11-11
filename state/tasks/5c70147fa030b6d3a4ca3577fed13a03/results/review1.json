@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "ed675f9e-5f25-4995-a010-972309714c67",
+    "response_id": "chatcmpl-Ej8VdqjNd5M8PaNLYWxX2cpcus2rT",
+    "usage": {
+      "completion_tokens": 441,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 143,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5595,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4492,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 6036
+    }
+  },
+  "received_at": "2026-11-11T22:47:08+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "html, 음모론을 다루는 문단의 “the other kingdom”",
+        "severity": "major",
+        "source_quote": "If they are true, how will that affect the way I live for the other kingdom now?",
+        "suggested_fix": "그것이 사실이라면, 지금 하나님 나라를 위해 살아가는 내 삶의 방식에는 어떤 영향을 미칠까요?",
+        "translation_quote": "그것이 사실이라면, 지금 다른 나라를 위한 내 삶의 방식에는 어떤 영향을 미칠까요?"
+      },
+      {
+        "location": "html, 두 번째 문단의 정보 출처에 관한 질문",
+        "severity": "minor",
+        "source_quote": "from what they would consider to be very valid and from legitimate sources",
+        "suggested_fix": "“매우 타당하고 합법적인 출처에서 나온 것이라고”를 “매우 타당하며 신뢰할 만한 출처에서 나온 것이라고”로 수정하십시오. 여기서 legitimate는 출처의 합법성보다 신빙성을 뜻합니다.",
+        "translation_quote": "매우 타당하고 합법적인 출처에서 나온 것이라고"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 94
+  }
+}

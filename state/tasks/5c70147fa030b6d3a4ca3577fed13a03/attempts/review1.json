@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-11T22:47:08+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"html, 음모론을 다루는 문단의 “the other kingdom”\",\n      \"severity\": \"major\",\n      \"source_quote\": \"If they are true, how will that affect the way I live for the other kingdom now?\",\n      \"suggested_fix\": \"그것이 사실이라면, 지금 하나님 나라를 위해 살아가는 내 삶의 방식에는 어떤 영향을 미칠까요?\",\n      \"translation_quote\": \"그것이 사실이라면, 지금 다른 나라를 위한 내 삶의 방식에는 어떤 영향을 미칠까요?\"\n    },\n    {\n      \"location\": \"html, 두 번째 문단의 정보 출처에 관한 질문\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"from what they would consider to be very valid and from legitimate sources\",\n      \"suggested_fix\": \"“매우 타당하고 합법적인 출처에서 나온 것이라고”를 “매우 타당하며 신뢰할 만한 출처에서 나온 것이라고”로 수정하십시오. 여기서 legitimate는 출처의 합법성보다 신빙성을 뜻합니다.\",\n      \"translation_quote\": \"매우 타당하고 합법적인 출처에서 나온 것이라고\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": false,\n  \"score\": 94\n}",
+    "content_bytes": 1203,
+    "content_evidence_truncated": false,
+    "content_sha256": "ca7586e0608299c660a9736b78c9690eeb0c59cc15b6f6f823702d95b5038191",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 441,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 143,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5595,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4492,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 6036
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}
