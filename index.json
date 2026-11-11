@@ -816,11 +816,17 @@
       "translation_model": "gpt-6-luna"
     },
     {
-      "ai_notice_required": true,
+      "ai_notice_required": false,
       "direction": "ltr",
       "html": "content/afr/articles/1ec0f654-0dd1-48f3-9a68-3b15189e6704.html",
-      "html_sha256": "f158b6ed2656a8c3bf004e7fce66c70eba16329382cfea982d5727b49eda9da9",
-      "human_reviewed": false,
+      "html_sha256": "0f1153e413b1f1fcf4cbf7e1b47e2f3428262637269eb9e15a725c5f984ceaeb",
+      "human_edit": {
+        "author": "Malachi",
+        "commit": "1f8107e1edff954cf06679f4ff4279552e7e8065",
+        "email": "163401881+malachivdm@users.noreply.github.com",
+        "time": "2026-11-11T21:03:32+02:00"
+      },
+      "human_reviewed": true,
       "id": "1ec0f654-0dd1-48f3-9a68-3b15189e6704",
       "images": [
         {
@@ -833,6 +839,7 @@
       "language_tag": "af",
       "metadata": "content/afr/articles/1ec0f654-0dd1-48f3-9a68-3b15189e6704.json",
       "metadata_sha256": "98e807c3bef92cd2f8c6b84e2dbfc40c1e36ac449c1656bf7e8ac4c2b55d051c",
+      "notice_present": true,
       "provider": "OpenAI",
       "review_model": "gpt-5-mini-2025-08-07",
       "section": "Kindershoek",
@@ -16570,6 +16577,29 @@
       "status": "ready",
       "subtitle": null,
       "title": "基督徒对科学的看法",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/cmn/articles/1c698fb4-f4e6-419b-bdcc-1b25cbe2b035.html",
+      "html_sha256": "c611aa82b8b867f21aac1e6675ed9cb059171fb9354db983b59b8a0606e0bb0d",
+      "human_reviewed": false,
+      "id": "1c698fb4-f4e6-419b-bdcc-1b25cbe2b035",
+      "images": [],
+      "issue_id": "1a7070c9-fd4f-546b-a220-f267ddb8cf5f",
+      "language": "cmn",
+      "language_tag": "zh-Hans",
+      "metadata": "content/cmn/articles/1c698fb4-f4e6-419b-bdcc-1b25cbe2b035.json",
+      "metadata_sha256": "885c730c883c583f676708687e8f3bf9b38f0c33d534156a5b0cca3d2474d28e",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "姐妹对姐妹",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "ad61f4b9009ceb692738e67bfe8cebef4cb378ea1ea96cae5a9794b4be22a0d2",
+      "status": "ready",
+      "subtitle": null,
+      "title": "理解顺服",
       "translation_model": "gpt-6.1-sol"
     },
     {
