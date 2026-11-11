@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "正文，世界末了的王的引语",
+      "severity": "major",
+      "source_quote": "“Come, ye blessed of my Father.”",
+      "suggested_fix": "将引语改为仅对应原文所印内容，例如：“你们这蒙我父赐福的，可来。”",
+      "translation_quote": "“你们这蒙我父赐福的，可来承受那创世以来为你们所预备的国。”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

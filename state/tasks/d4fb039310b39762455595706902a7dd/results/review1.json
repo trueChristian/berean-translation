@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "27c392cf-3c7d-4d46-96f6-f61ce5d4d161",
+    "response_id": "chatcmpl-Ej5y0PlHhwTDDyVEnevS0HD89UowU",
+    "usage": {
+      "completion_tokens": 567,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 440,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5894,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5891,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6461
+    }
+  },
+  "received_at": "2026-11-11T18:48:43+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "正文，世界末了的王的引语",
+        "severity": "major",
+        "source_quote": "“Come, ye blessed of my Father.”",
+        "suggested_fix": "将引语改为仅对应原文所印内容，例如：“你们这蒙我父赐福的，可来。”",
+        "translation_quote": "“你们这蒙我父赐福的，可来承受那创世以来为你们所预备的国。”"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 93
+  }
+}

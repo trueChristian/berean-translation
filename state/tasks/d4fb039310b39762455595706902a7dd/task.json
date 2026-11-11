@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "92a830d3cb58452099d9d24dfe7a5167",
   "campaign": "auto-7544e1b37aaa31e8f62ce0ae08db2f0bb6d943f42c76994a24f1812955f68aa0",
   "created_at": "2026-11-10T23:14:34+00:00",
   "events": [
@@ -28,10 +27,38 @@
         },
         "total_tokens": 5540
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 567,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 440,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5894,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 5891,
+          "cached_tokens": 0
+        },
+        "total_tokens": 6461
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "正文，世界末了的王的引语",
+      "severity": "major",
+      "source_quote": "“Come, ye blessed of my Father.”",
+      "suggested_fix": "将引语改为仅对应原文所印内容，例如：“你们这蒙我父赐福的，可来。”",
+      "translation_quote": "“你们这蒙我父赐福的，可来承受那创世以来为你们所预备的国。”"
+    }
+  ],
   "id": "d4fb039310b39762455595706902a7dd",
   "issue_id": "103c93e0-6e9a-44f6-a6bc-377af8e08e38",
   "language": "cmn",
@@ -120,11 +147,13 @@
     }
   },
   "protected": false,
+  "quality_score": 93,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/f799c5261bfa5123ccd95f0eaad7408b93a29fececbf1f6ba9d2cb7f01aae400.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "translate",
     "max_candidate_bytes": 120000,
@@ -138,7 +167,7 @@
     "total_reserved_usd": 0.08838,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "0afcc7ac219484ffe40d0a8780ac11cb2b9f1aabb8e86a8de9c7d9ef16398e27",
   "translation_model_actual": "gpt-6-luna"

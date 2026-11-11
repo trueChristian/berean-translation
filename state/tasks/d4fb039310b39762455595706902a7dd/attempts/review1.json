@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-11T18:48:43+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"正文，世界末了的王的引语\",\"severity\":\"major\",\"source_quote\":\"“Come, ye blessed of my Father.”\",\"suggested_fix\":\"将引语改为仅对应原文所印内容，例如：“你们这蒙我父赐福的，可来。”\",\"translation_quote\":\"“你们这蒙我父赐福的，可来承受那创世以来为你们所预备的国。”\"}],\"findings_complete\":true,\"passed\":false,\"score\":93}",
+    "content_bytes": 421,
+    "content_evidence_truncated": false,
+    "content_sha256": "6c4a03a4f5f92136d655330cdf40d7a6b2d39d23240405e39aa70d7caa5405d1",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 567,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 440,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5894,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5891,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6461
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}
