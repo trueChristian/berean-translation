@@ -90603,6 +90603,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/spa/articles/cf3bcef6-affc-4c39-9c73-ce940fab787f.html",
+      "html_sha256": "07e0c3ddffbfd4ec1937667b28e4541b19e9f6bc43159aac201ed14e2ac8136f",
+      "human_reviewed": false,
+      "id": "cf3bcef6-affc-4c39-9c73-ce940fab787f",
+      "images": [
+        {
+          "alt": "Vista aérea del perfil urbano de una ciudad junto a un lago al atardecer",
+          "public_path": "/images/articles/cf3bcef6-affc-4c39-9c73-ce940fab787f-1.jpg"
+        }
+      ],
+      "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
+      "language": "spa",
+      "language_tag": "es",
+      "metadata": "content/spa/articles/cf3bcef6-affc-4c39-9c73-ce940fab787f.json",
+      "metadata_sha256": "c2da5932877fca31df932f3bf9192d53fc201073bf6aab94e819be06c695b6ff",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "PELIGROS DE LA ACTUALIDAD",
+      "source_revision": "a069ecca8827634ebc256b3b1cabc16aeb942ed7",
+      "source_translation_key": "7186a7dafd85adebb8f6876e1cafaf204ddce9783339d4da1f44b2bb46a15d75",
+      "status": "ready",
+      "subtitle": null,
+      "title": "En el mundo, pero no del mundo",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/spa/articles/d0395fde-712d-488d-a161-c26c87ed128b.html",
       "html_sha256": "3ff06a42a79191878a1dfaddb4b3744e25be7c8965a845a9cb159521e3963b9b",
       "human_reviewed": false,
