@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "html، پیراگراف 10، ابتدائی جملہ",
+      "severity": "major",
+      "source_quote": "The Apostle Peter said that",
+      "suggested_fix": "ابتدائی الفاظ ”رسول پولس نے کہا کہ“ کو ”رسول پطرس نے کہا کہ“ سے بدلیں تاکہ انتساب ماخذ کے مطابق رہے؛ اقتباس اور 2 تیمتھیس 1:7 کا حوالہ برقرار رکھیں۔",
+      "translation_quote": "رسول پولس نے کہا کہ"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

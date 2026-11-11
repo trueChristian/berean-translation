@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "7397371e-a9aa-4faf-8bfe-4cd58fd7945d",
+    "response_id": "chatcmpl-EitNoCNiF2zQpdZ4mMfaCv2vbtFiW",
+    "usage": {
+      "completion_tokens": 207,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 40,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5829,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4726,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 6036
+    }
+  },
+  "received_at": "2026-11-11T08:19:12+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "html، پیراگراف 10، ابتدائی جملہ",
+        "severity": "major",
+        "source_quote": "The Apostle Peter said that",
+        "suggested_fix": "ابتدائی الفاظ ”رسول پولس نے کہا کہ“ کو ”رسول پطرس نے کہا کہ“ سے بدلیں تاکہ انتساب ماخذ کے مطابق رہے؛ اقتباس اور 2 تیمتھیس 1:7 کا حوالہ برقرار رکھیں۔",
+        "translation_quote": "رسول پولس نے کہا کہ"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 94
+  }
+}

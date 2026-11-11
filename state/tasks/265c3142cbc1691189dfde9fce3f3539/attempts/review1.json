@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-11T08:19:12+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"html، پیراگراف 10، ابتدائی جملہ\",\n      \"severity\": \"major\",\n      \"source_quote\": \"The Apostle Peter said that\",\n      \"suggested_fix\": \"ابتدائی الفاظ ”رسول پولس نے کہا کہ“ کو ”رسول پطرس نے کہا کہ“ سے بدلیں تاکہ انتساب ماخذ کے مطابق رہے؛ اقتباس اور 2 تیمتھیس 1:7 کا حوالہ برقرار رکھیں۔\",\n      \"translation_quote\": \"رسول پولس نے کہا کہ\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": false,\n  \"score\": 94\n}",
+    "content_bytes": 610,
+    "content_evidence_truncated": false,
+    "content_sha256": "86dc03a79d4047fbba6efb95cac4215903321fb98a31eb6b33b6546e2b6549ee",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 207,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 40,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5829,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4726,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 6036
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}
