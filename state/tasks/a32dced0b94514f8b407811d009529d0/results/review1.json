@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "f31e5c8c-1583-4961-b504-9a5e7c2614cb",
+    "response_id": "chatcmpl-Ej6vUJGdWjO590cCHTKSG24ue8kx3",
+    "usage": {
+      "completion_tokens": 378,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 42,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4615,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4612,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4993
+    }
+  },
+  "received_at": "2026-11-11T18:49:29+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "translation.html, первый абзац",
+        "severity": "minor",
+        "source_quote": "As a young man I remember hearing a popular slogan about faith",
+        "suggested_fix": "Заменить «Юношей я помню, как услышал» на «Я помню, как в юности услышал».",
+        "translation_quote": "Юношей я помню, как услышал популярный лозунг о вере"
+      },
+      {
+        "location": "translation.html, абзац с цитатой Луки 1:1-4",
+        "severity": "minor",
+        "source_quote": "<u>I myself have carefully investigated everything</u> ... <u>you may know the certainty of the things you have been taught.</u>",
+        "suggested_fix": "Восстановить выделение соответствующих фрагментов: «Поэтому и я, <u>тщательно исследовав все</u> с самого начала» и «чтобы <u>ты знал достоверность того, чему был научен.</u>».",
+        "translation_quote": "Поэтому и я, тщательно исследовав все с самого начала, решил написать для тебя, досточтимый Феофил, последовательное повествование, чтобы ты знал достоверность того, чему был научен."
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}

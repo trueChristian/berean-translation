@@ -5,11 +5,49 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "782bf6202d364942846b454c6841ca71",
   "campaign": "auto-e9f8cbfe31e565fe8be9ab4ba4ab70a02e53f4561511aeb880b04e76023523e5",
   "created_at": "2026-11-08T17:06:14+00:00",
-  "events": [],
-  "findings": [],
+  "events": [
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 378,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 42,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4615,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 4612,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4993
+      }
+    }
+  ],
+  "failure": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[36]: source /article[1]/p[5]/em[1]/u[1] ('start', 'u', ()); translation /article[1]/p[5]/em[1] ('end', 'em')",
+  "failure_kind": "invalid_result",
+  "findings": [
+    {
+      "location": "translation.html, первый абзац",
+      "severity": "minor",
+      "source_quote": "As a young man I remember hearing a popular slogan about faith",
+      "suggested_fix": "Заменить «Юношей я помню, как услышал» на «Я помню, как в юности услышал».",
+      "translation_quote": "Юношей я помню, как услышал популярный лозунг о вере"
+    },
+    {
+      "location": "translation.html, абзац с цитатой Луки 1:1-4",
+      "severity": "minor",
+      "source_quote": "<u>I myself have carefully investigated everything</u> ... <u>you may know the certainty of the things you have been taught.</u>",
+      "suggested_fix": "Восстановить выделение соответствующих фрагментов: «Поэтому и я, <u>тщательно исследовав все</u> с самого начала» и «чтобы <u>ты знал достоверность того, чему был научен.</u>».",
+      "translation_quote": "Поэтому и я, тщательно исследовав все с самого начала, решил написать для тебя, досточтимый Феофил, последовательное повествование, чтобы ты знал достоверность того, чему был научен."
+    }
+  ],
+  "finished_at": "2026-11-11T18:49:29+00:00",
   "id": "a32dced0b94514f8b407811d009529d0",
   "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
   "language": "rus",
@@ -98,9 +136,11 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/c5a53a68da3d3a0dcfdea44a6be1ec876cbdb82ebcff07b3ac3d5c1401f92201.json",
   "stage": "review1",
   "stage_budget": {
@@ -115,7 +155,7 @@
     "total_reserved_usd": 0.720117,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 0,
   "translation_key": "8e1431ea881b67c4ad4954313f7377e010f9f58557ffeba6077169e187cbed60",
   "translation_model_actual": "gpt-6-luna"
