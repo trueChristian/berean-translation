@@ -766,6 +766,10 @@
       "metadata": "content/afr/articles/1c75dce8-1781-427f-8099-01596d53c2a4.json",
       "metadata_sha256": "9e6060ced564379f1dad5df7f959f1de0e29576b42f8626302fbe1d39f9604a5",
       "notice_present": true,
+      "pending_edit": {
+        "reason": "Missing article closing tag",
+        "serving_last_accepted": true
+      },
       "provider": "OpenAI",
       "review_model": "gpt-5-mini-2025-08-07",
       "section": "UITGELIGTE ARTIKEL",
@@ -42598,6 +42602,34 @@
       "status": "ready",
       "subtitle": null,
       "title": "अपने लिए रोओ",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/hin/articles/46f89299-c0a0-407c-9898-01a0c150c453.html",
+      "html_sha256": "9ce9c5d999bfee1e390857a598d58e41395cb38f202dfcc023443dcf028f3164",
+      "human_reviewed": false,
+      "id": "46f89299-c0a0-407c-9898-01a0c150c453",
+      "images": [
+        {
+          "alt": "एक बेंच पर एक शिशु के साथ बैठे तीन लड़के।",
+          "public_path": "/images/articles/46f89299-c0a0-407c-9898-01a0c150c453-1.jpg"
+        }
+      ],
+      "issue_id": "103c93e0-6e9a-44f6-a6bc-377af8e08e38",
+      "language": "hin",
+      "language_tag": "hi",
+      "metadata": "content/hin/articles/46f89299-c0a0-407c-9898-01a0c150c453.json",
+      "metadata_sha256": "6be51f8a5cb9e2f225ae56f663bd8c309078f545b844a20d5818942e3a188f1b",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "बहन से बहन",
+      "source_revision": "6c3e27346b6b031f46e29e723e884fe8407806b7",
+      "source_translation_key": "0afcc7ac219484ffe40d0a8780ac11cb2b9f1aabb8e86a8de9c7d9ef16398e27",
+      "status": "ready",
+      "subtitle": null,
+      "title": "एक माँ की आराधना",
       "translation_model": "gpt-6-luna"
     },
     {

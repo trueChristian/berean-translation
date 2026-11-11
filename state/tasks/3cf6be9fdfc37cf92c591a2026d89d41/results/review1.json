@@ -1,0 +1,52 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "e5285260-6365-4b34-bbc4-02394cdd4745",
+    "response_id": "chatcmpl-Ej08LuePr58Mw0lXyC8T7XB8lk4IR",
+    "usage": {
+      "completion_tokens": 992,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 661,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6417,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6414,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7409
+    }
+  },
+  "received_at": "2026-11-11T11:00:38+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Article, paragraph beginning “Mary seems to have caught…”",
+        "severity": "minor",
+        "source_quote": "“unveiling the glory of her hair”",
+        "suggested_fix": "Use “अपने बालों की शोभा प्रकट करना” to retain the source’s emphasis on the hair’s glory.",
+        "translation_quote": "“अपने सुंदर बाल खोलना”"
+      },
+      {
+        "location": "Article, paragraph beginning “At the end of the world…”",
+        "severity": "minor",
+        "source_quote": "“Inasmuch as ye have done it unto one of the least of these, ye have done it unto me.”",
+        "suggested_fix": "Translate the printed quote without adding wording or narrowing “these” to “brothers”; for example: “तुमने इन छोटों में से किसी एक के साथ जो किया, वह मेरे ही साथ किया।”",
+        "translation_quote": "“मैं तुम से सच कहता हूँ, कि तुम ने जो कुछ मेरे इन छोटे से छोटे भाइयों में से किसी एक के साथ किया, वह मेरे ही साथ किया।”"
+      },
+      {
+        "location": "Article, paragraph beginning “One day, I am going about…”",
+        "severity": "minor",
+        "source_quote": "“the sweet-smelling spices she had brought”",
+        "suggested_fix": "Use “लाए हुए सुगंधित द्रव्य” or another idiomatic phrase that makes clear these are fragrant substances for anointing, not cooking spices.",
+        "translation_quote": "“लाए हुए सुगंधित मसाले”"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 97
+  }
+}
