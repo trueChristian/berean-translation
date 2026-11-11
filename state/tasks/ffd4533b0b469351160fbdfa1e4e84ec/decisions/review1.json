@@ -1,0 +1,84 @@
+{
+  "findings": [
+    {
+      "location": "html: Absatz mit Matthäus 14,25–27",
+      "severity": "major",
+      "source_quote": "Be of good cheer; it is I; be not afraid",
+      "suggested_fix": "Ersetze „Selig! Ich bin’s; fürchtet euch nicht“ durch „Seid getrost! Ich bin’s; fürchtet euch nicht“.",
+      "translation_quote": "Selig! Ich bin’s; fürchtet euch nicht"
+    },
+    {
+      "location": "html: Absatz mit Matthäus 14,25–27",
+      "severity": "major",
+      "source_quote": "And in the fourth watch of the night",
+      "suggested_fix": "Ersetze „in der vierten Wachstunde der Nacht“ durch „in der vierten Nachtwache“.",
+      "translation_quote": "Und in der vierten Wachstunde der Nacht"
+    },
+    {
+      "location": "html: Absatz „So ist es mit vielen Aspekten der christlichen Erfahrung“",
+      "severity": "major",
+      "source_quote": "We reason away the woman’s head covering. We reason away the nonconformed lifestyle. We reason away the permanence of marriage. We reason away brotherhood accountability.",
+      "suggested_fix": "Ersetze diese vier Sätze durch: „Wir erklären die Kopfbedeckung der Frau weg. Wir erklären den nicht an die Welt angepassten Lebensstil weg. Wir erklären die Unauflöslichkeit der Ehe weg. Wir erklären die gegenseitige Rechenschaftspflicht in der Bruderschaft weg.“ „Schönreden“ kehrt hier die Aussage über das argumentative Abschaffen dieser Lehren um.",
+      "translation_quote": "Wir reden uns das Frauenzopfbedecknis schön. Wir reden uns einen nicht angepassten Lebensstil schön. Wir reden uns die Beständigkeit der Ehe schön. Wir reden uns die Rechenschaft in der Bruderschaft schön."
+    },
+    {
+      "location": "html: Absatz „Um in Harmonie mit der natürlichen Welt zu leben“",
+      "severity": "major",
+      "source_quote": "Defy the natural laws and someone gets hurt.",
+      "suggested_fix": "Ersetze den Satz durch „Wer sich über die Naturgesetze hinwegsetzt, riskiert, dass jemand verletzt wird.“",
+      "translation_quote": "Begehe die Naturgesetze und jemand wird verletzt."
+    },
+    {
+      "location": "html: Absatz über Petrus’ Boot",
+      "severity": "minor",
+      "source_quote": "although tonight she did not seem to respond well to his masterful seamanship. He had drawn many a draught of fish over her gunwales. Now as he stands on her deck watching Jesus approach",
+      "suggested_fix": "Passe die Pronomen an „Boot“ beziehungsweise „Kahn“ an und ersetze die betroffenen Sätze beispielsweise durch: „…obwohl es in dieser Nacht nicht gut auf seine meisterhafte Seemannskunst zu reagieren schien. Viele Fänge hatte er über seine Bordwände gezogen. Nun, da er auf seinem Deck stand und zusah, wie Jesus sich näherte…“. Verwende auch im anschließenden Satz „von seinem Deck“ statt „von ihrem Deck“.",
+      "translation_quote": "obwohl sie heute Abend nicht gut auf seine meisterhafte Seefahrerkunst zu reagieren schien. Viele Netze voller Fische hatte er über ihren Steven gezogen. Nun, da er auf ihrem Deck stand und zusah, wie Jesus näherte"
+    },
+    {
+      "location": "html: Absatz „Ich lobe unsere jüngere Generation“",
+      "severity": "minor",
+      "source_quote": "for their willingness to make following Jesus a priority",
+      "suggested_fix": "Ersetze „Jesus Folgen zur Priorität zu machen“ durch „die Nachfolge Jesu zur Priorität zu machen“.",
+      "translation_quote": "für ihre Bereitschaft, Jesus Folgen zur Priorität zu machen"
+    },
+    {
+      "location": "html: Absatz über moralische Niederlagen",
+      "severity": "minor",
+      "source_quote": "which will lead them to ultimate victory",
+      "suggested_fix": "Ersetze „zur endgültigen Sieges“ durch „zum endgültigen Sieg“.",
+      "translation_quote": "die sie zur endgültigen Sieges führen werden"
+    },
+    {
+      "location": "html: Absatz über die wissenschaftliche Methode und Petrus’ Entscheidung",
+      "severity": "minor",
+      "source_quote": "he would not have taken such a risk",
+      "suggested_fix": "Ersetze „hätte er dieses Risiko nicht eingegangen“ durch „wäre er dieses Risiko nicht eingegangen“.",
+      "translation_quote": "hätte er dieses Risiko nicht eingegangen"
+    },
+    {
+      "location": "html: drei Absätze über Jesus als Logos",
+      "severity": "minor",
+      "source_quote": "Jesus is the logos; Since Jesus is the “Logos”; the one who is Logos",
+      "suggested_fix": "Verwende an allen drei Stellen das korrekte Maskulinum: „dass Jesus der Logos ist“, „Da Jesus der ‚Logos‘ ist“ und „der der Logos ist“.",
+      "translation_quote": "dass Jesus das Logos ist; Da Jesus das „Logos“ ist; der das Logos ist"
+    },
+    {
+      "location": "html: Absatz „Wenn du als Mann“",
+      "severity": "minor",
+      "source_quote": "the radical teachings of Jesus",
+      "suggested_fix": "Ersetze „radicalen“ durch „radikalen“.",
+      "translation_quote": "den radicalen Lehren Jesu"
+    },
+    {
+      "location": "html: Absatz mit Galater 6,2",
+      "severity": "minor",
+      "source_quote": "We bear …one another’s burdens, and so fulfil the law of Christ",
+      "suggested_fix": "Ersetze den Satz unter Beibehaltung des em-Tags durch „Wir tragen <em>…einander die Lasten und erfüllen so das Gesetz Christi – Galater 6,2.</em>“.",
+      "translation_quote": "Wir tragen <em>…einander's Lasten und erfüllt so das Gesetz Christi – Galater 6,2.</em>"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
