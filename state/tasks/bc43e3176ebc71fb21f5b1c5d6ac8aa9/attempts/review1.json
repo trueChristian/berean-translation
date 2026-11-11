@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-11T18:51:17+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"translation.html, alinea over Hebreeën 11:1\",\n      \"severity\": \"major\",\n      \"source_quote\": \"faith is “confidence in what we hope for and assurance about what we do not see.”\",\n      \"suggested_fix\": \"Vervang het citaat door: ‘<u>vertrouwen</u> is in wat we hopen en <u>zekerheid</u> over wat we niet zien’. Zo blijft de betekenis van de aangehaalde Engelse tekst behouden.\",\n      \"translation_quote\": \"geloof ‘<u>zekerheid</u> is van wat we hopen, <u>bewijs</u> van wat we niet zien’\"\n    },\n    {\n      \"location\": \"translation.html, citaat Lukas 1:1-4\",\n      \"severity\": \"major\",\n      \"source_quote\": \"the things that have been fulfilled [or been surely believed] among us\",\n      \"suggested_fix\": \"Vervang ‘de gebeurtenissen die zich onder ons hebben voltrokken’ door ‘de gebeurtenissen die zich onder ons hebben voltrokken [of die onder ons met zekerheid zijn geloofd]’.\",\n      \"translation_quote\": \"de gebeurtenissen die zich onder ons hebben voltrokken\"\n    },\n    {\n      \"location\": \"translation.html, versievermeldingen bij Lukas 1:1-4, Romeinen 1:18-20 en Johannes 20:29\",\n      \"severity\": \"major\",\n      \"source_quote\": \"–Luke 1:1-4. (NIV); –Romans 1:18-20. (NIV); –John 20:29. (ESV)\",\n      \"suggested_fix\": \"Behoud de bronvermeldingen van de aangehaalde Engelse tekst: wijzig bij Lukas en Romeinen ‘(NBV)’ in ‘(NIV)’ en bij Johannes ‘(NBV)’ in ‘(ESV)’. De citaten zelf blijven in het Nederlands vertaald.\",\n      \"translation_quote\": \"–Lukas 1:1-4. (NBV); –Romeinen 1:18-20. (NBV); –Johannes 20:29. (NBV)\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": false,\n  \"score\": 92\n}",
+    "content_bytes": 1694,
+    "content_evidence_truncated": false,
+    "content_sha256": "754b4dff0bd092bedd951e648ac950bd8eb5b39b60f519e9dadd6c4d71f74bf3",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 590,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 85,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4475,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3372,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 5065
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}
