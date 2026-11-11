@@ -781,11 +781,17 @@
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {
-      "ai_notice_required": true,
+      "ai_notice_required": false,
       "direction": "ltr",
       "html": "content/afr/articles/1caf6642-2283-4363-b3b6-33e40c39f945.html",
-      "html_sha256": "5c1b1192110eeb786c6a91f26b540f8910264cbb2e148bf11204e642715a81bb",
-      "human_reviewed": false,
+      "html_sha256": "fff0b5875be2699555972724628b8fc1af8ef0624571620bdbcd72230fac8f63",
+      "human_edit": {
+        "author": "Malachi",
+        "commit": "e9c7f1110e9a8b035ab7c3fd3f8a6bd6e37c2895",
+        "email": "163401881+malachivdm@users.noreply.github.com",
+        "time": "2026-11-11T14:21:22+02:00"
+      },
+      "human_reviewed": true,
       "id": "1caf6642-2283-4363-b3b6-33e40c39f945",
       "images": [
         {
@@ -797,7 +803,8 @@
       "language": "afr",
       "language_tag": "af",
       "metadata": "content/afr/articles/1caf6642-2283-4363-b3b6-33e40c39f945.json",
-      "metadata_sha256": "1843b748958e30a35394c3f4bd9c030b7221dfa9dd80f6d3a57d584b4e20aa33",
+      "metadata_sha256": "e8bcd446bb2ea3f60566fa342a737b9526746366069abfadc6717f004f223e4d",
+      "notice_present": true,
       "provider": "OpenAI",
       "review_model": "gpt-6-luna",
       "section": "’n Gesang se geskiedenis",
@@ -805,7 +812,7 @@
       "source_translation_key": "5af7c75ddc034efa2d45136926794f0498d0408b26a365657640e28417f4afea",
       "status": "ready",
       "subtitle": null,
-      "title": "O Liefde, wat my nie loslaat nie",
+      "title": "O Liefde wat my nie wil laat gaan nie",
       "translation_model": "gpt-6-luna"
     },
     {
