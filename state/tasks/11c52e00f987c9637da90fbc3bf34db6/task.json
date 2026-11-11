@@ -5,11 +5,89 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "3179d10895d549cb831fa24c7f695e85",
   "campaign": "auto-b6e1a2d1eca11977c1ef61d4c71d4bb3445e7b1a575d8589fa3702fe928110c5",
   "created_at": "2026-11-11T02:49:06+00:00",
-  "events": [],
-  "findings": [],
+  "events": [
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 2274,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 101,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9631,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 9628,
+          "cached_tokens": 0
+        },
+        "total_tokens": 11905
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "正文第一组经文列表，全部8个li",
+      "severity": "major",
+      "source_quote": "“Nevertheless let … the wife see that she …”; “Likewise, ye wives …”; “Even as Sara obeyed …”; “Wives, submit yourselves …”; “But I would have you know …”; “Let the woman learn …”; “Therefore as the church …”; “Let your women keep silence …”",
+      "suggested_fix": "将这8个li中的英文实质内容译为中文，保留现有标签及强调位置：<li><em>然而……妻子也当留意<strong>敬重她的丈夫</strong>——以弗所书 5:33。</em></li><li><em>同样，作妻子的，<strong>要顺服自己的丈夫……</strong>——彼得前书 3:1。</em></li><li><em><strong>正如撒拉顺服</strong>亚伯拉罕，称他为主：<strong>你们就是她的女儿……</strong>——彼得前书 3:6。</em></li><li><em><strong>作妻子的，要顺服自己的丈夫，</strong>如同顺服主——以弗所书 5:22。</em></li><li><em>但我愿你们知道，每个男人的头是基督；<strong>女人的头是男人；</strong>基督的头是神——哥林多前书 11:3。</em></li><li><em><strong>女人应当安静学习，凡事顺服。</strong>我不许女人教导，也不许她辖管男人，而要安静。因为先造的是亚当，后造的是夏娃。受骗的不是亚当，而是女人受骗，陷在过犯中——提摩太前书 2:11-14。</em></li><li><em>所以，教会怎样顺服基督，<strong>妻子也当怎样在凡事上[顺服]自己的丈夫</strong>——以弗所书 5:24。</em></li><li><em><strong>你们的妇女在各教会中应当保持安静：</strong>因为不准她们说话，却吩咐她们要顺服，正如律法所说的——哥林多前书 14:34。</em></li>",
+      "translation_quote": "8个li均保留英文，包括“Nevertheless let … the wife see that she <strong>reverence her husband</strong> –Ephesians 5:33.”及“<strong>Let your women keep silence in the churches:</strong> for it is not permitted unto them to speak; but they are commanded to be under obedience, as also saith the law –1 Corinthians 14:34.”"
+    },
+    {
+      "location": "正文，彼得前书3:1-2与3:6-7的整段引文",
+      "severity": "major",
+      "source_quote": "“Likewise, ye wives, be in subjection to your own husbands … that your prayers be not hindered –1 Peter 3:1-2 & 3:6-7.”",
+      "suggested_fix": "将该段译为：<p><em>同样，作妻子的，要顺服自己的丈夫；这样，若有不顺从这道的丈夫，也可以不用言语，就因妻子的言行[行为]而被感化；因为他们看见你们贞洁[端庄、无邪、完全、纯洁]而存敬畏的言行。正如撒拉顺服亚伯拉罕，称他为主：你们若行善，不因任何惊吓[恐惧]而害怕，就是她的女儿。同样，作丈夫的，要按着知识与妻子同住，尊重她，因她是较软弱的器皿，又与你们一同承受生命之恩；<strong>好叫你们的祷告不受阻碍</strong>——彼得前书 3:1-2 &amp; 3:6-7。</em></p>",
+      "translation_quote": "“Likewise, ye wives, be in subjection to your own husbands; that, if any obey not the word ... <strong>that your prayers be not hindered</strong> –1 Peter 3:1-2 &amp; 3:6-7.”"
+    },
+    {
+      "location": "正文，两处提多书引文",
+      "severity": "major",
+      "source_quote": "“That they may teach the young women to be sober, to love their husbands, to love their children, To be discreet, chaste …”; “That they may teach the young women to be sober, to love their husbands, to love their children –Titus 2:4.”",
+      "suggested_fix": "第一处将“叫年轻妇女爱丈夫，爱儿女，谨守贞洁”改为“教导年轻妇女自守，<strong>爱丈夫，</strong>爱儿女，谨慎，贞洁”，恢复原文对爱丈夫的强调。第二处将“叫年轻妇女爱丈夫，爱儿女”改为“教导年轻妇女自守，爱丈夫，爱儿女”。保留其他文字和经文编号。",
+      "translation_quote": "“叫年轻妇女爱丈夫，爱儿女，谨守贞洁”；“叫年轻妇女爱丈夫，爱儿女——提多书 2:4。”"
+    },
+    {
+      "location": "正文，创世记2:18引文",
+      "severity": "major",
+      "source_quote": "“I will make him an help [helper, aid, supporter] meet [suitable, appropriate, complementary] for him”",
+      "suggested_fix": "将该引文中的“我要为他造一个配偶帮助他”改为“我要为他造一个适合[合宜、相称、互补]他的帮助者[助手、援助者、支持者]”，保留现有em标签和创世记2:18引用。",
+      "translation_quote": "“我要为他造一个配偶帮助他”"
+    },
+    {
+      "location": "编辑按，罗马书5:12-14引文",
+      "severity": "major",
+      "source_quote": "“Wherefore, as by one man [not one woman] sin entered into the world … Nevertheless death reigned from Adam [not from Eve] to Moses, even over them [Adam’s descendants—all of the human race] that had not sinned after the similitude of Adam’s transgression…”",
+      "suggested_fix": "将该em内的引文改为：“因此，正如罪借着一个男人[不是一个女人]进入世界，死又借着罪而来，死就这样临到众人，因为众人都犯了罪……然而，<strong>死从亚当起作王</strong>[不是从夏娃起]，直到摩西，甚至在那些[亚当的后裔——全人类]没有像亚当那样犯罪的人身上也作王……——罗马书 5:12-14。”",
+      "translation_quote": "“凡是都因一人入了罪，死又是因罪而来……然而，死是从亚当起作王的（不是从夏娃起），直到那位摩西以前，就是那些没有照亚当那样犯过罪的人身上，也照样作王”"
+    },
+    {
+      "location": "编辑按，第二点及最后一段",
+      "severity": "major",
+      "source_quote": "“it would always mean that the one would end up submitting to the other”; “will always be the one that God holds responsible”",
+      "suggested_fix": "第一处将“常常意味着”改为“总是意味着”；第二处将“通常就是那位神要追究这群人所作决定责任的人”改为“始终就是神要追究这群人所作决定责任的那个人”。",
+      "translation_quote": "“常常意味着其中一方终须顺服另一方”；“通常就是那位神要追究这群人所作决定责任的人”"
+    },
+    {
+      "location": "正文，以“神若我们处在他带领之下”开头的段落首句",
+      "severity": "major",
+      "source_quote": "“God has designed our husbands to be our protector if we stay under them.”",
+      "suggested_fix": "将首句改为“神将我们的丈夫设为我们的保护者，前提是我们留在丈夫的带领之下。”",
+      "translation_quote": "“神若我们处在他带领之下，他就把丈夫设为我们的保护者。”"
+    },
+    {
+      "location": "正文，讨论顺服的段落末句",
+      "severity": "minor",
+      "source_quote": "“the husband can be won through her conversation (or by the way she conducts her life)”",
+      "suggested_fix": "将“借着妻子的言行（或她生活的方式），就可以使丈夫得胜服（或被感化）”改为“借着妻子的行为（也就是她的生活方式），丈夫就可能被感化”。",
+      "translation_quote": "“借着妻子的言行（或她生活的方式），就可以使丈夫得胜服（或被感化）”"
+    }
+  ],
   "id": "11c52e00f987c9637da90fbc3bf34db6",
   "issue_id": "1a7070c9-fd4f-546b-a220-f267ddb8cf5f",
   "language": "cmn",
@@ -98,11 +176,13 @@
     }
   },
   "protected": false,
+  "quality_score": 65,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/1454fe6f465ec8ce9c2352c00a7a3b7b44c43055b67862782f9e04898d1cd850.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "review1",
     "max_candidate_bytes": 120000,
@@ -115,7 +195,7 @@
     "total_reserved_usd": 0.773453,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 0,
   "translation_key": "ad61f4b9009ceb692738e67bfe8cebef4cb378ea1ea96cae5a9794b4be22a0d2",
   "translation_model_actual": "gpt-5-mini-2025-08-07"
