@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "Avsnitt 3",
+      "severity": "minor",
+      "source_quote": "on the dirty alley street",
+      "suggested_fix": "i den skitne gaten i smuget",
+      "translation_quote": "i den skitne smuget"
+    },
+    {
+      "location": "Avsnitt 8",
+      "severity": "minor",
+      "source_quote": "She unwound her scarf from her neck",
+      "suggested_fix": "Hun tok skjerfet av halsen",
+      "translation_quote": "Hun tok skjerfet av halsen"
+    },
+    {
+      "location": "Avsnitt 10",
+      "severity": "minor",
+      "source_quote": "The sun shone brightly, making everything look sparkly. A crystal layer of snow covered the ground.",
+      "suggested_fix": "Solen skinte klart og fikk alt til å glitre. Et krystallinsk lag med snø dekket bakken.",
+      "translation_quote": "Solen skinte klart og fikk alt til å glitre. Et krystallklart lag med snø dekket bakken."
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

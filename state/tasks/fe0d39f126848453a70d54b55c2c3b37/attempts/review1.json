@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-11T08:18:46+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Avsnitt 3\",\"severity\":\"minor\",\"source_quote\":\"on the dirty alley street\",\"suggested_fix\":\"i den skitne gaten i smuget\",\"translation_quote\":\"i den skitne smuget\"},{\"location\":\"Avsnitt 8\",\"severity\":\"minor\",\"source_quote\":\"She unwound her scarf from her neck\",\"suggested_fix\":\"Hun tok skjerfet av halsen\",\"translation_quote\":\"Hun tok skjerfet av halsen\"},{\"location\":\"Avsnitt 10\",\"severity\":\"minor\",\"source_quote\":\"The sun shone brightly, making everything look sparkly. A crystal layer of snow covered the ground.\",\"suggested_fix\":\"Solen skinte klart og fikk alt til å glitre. Et krystallinsk lag med snø dekket bakken.\",\"translation_quote\":\"Solen skinte klart og fikk alt til å glitre. Et krystallklart lag med snø dekket bakken.\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 813,
+    "content_evidence_truncated": false,
+    "content_sha256": "f2c9c76f8a4ca2e2ec4c66c8d6b58596978862b1eaf81e80acb54a6ac3e7c488",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 216,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4231,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3128,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 4447
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}
