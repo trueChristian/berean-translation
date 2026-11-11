@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-11T03:02:24+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"title\",\"severity\":\"minor\",\"source_quote\":\"The Power of Kindness\",\"suggested_fix\":\"כוחו של טוב לב\",\"translation_quote\":\"כוחה של טוב לב\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 235,
+    "content_evidence_truncated": false,
+    "content_sha256": "793c315f8b810db722adf47f1238345a8d74f0e111be37bea7ac9c7c66091cd7",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 761,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 685,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4285,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4282,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5046
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}
