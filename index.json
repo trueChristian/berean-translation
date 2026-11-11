@@ -44258,6 +44258,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/hin/articles/903e4b58-b246-4ee3-85e7-eecf158a7a75.html",
+      "html_sha256": "86eeacf1bc685e53c0ce5f3e9376ed9719adb5ea896232c2604648b66b1f969a",
+      "human_reviewed": false,
+      "id": "903e4b58-b246-4ee3-85e7-eecf158a7a75",
+      "images": [
+        {
+          "alt": "बाहर चलते हुए एक छोटे बच्चे का हाथ थामे वयस्क",
+          "public_path": "/images/articles/903e4b58-b246-4ee3-85e7-eecf158a7a75-1.jpg"
+        }
+      ],
+      "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
+      "language": "hin",
+      "language_tag": "hi",
+      "metadata": "content/hin/articles/903e4b58-b246-4ee3-85e7-eecf158a7a75.json",
+      "metadata_sha256": "47dad7f39055a612767c7f19e32b2367601e8e25941302835970aba213d8b033",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "बहन से बहन तक",
+      "source_revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
+      "source_translation_key": "aca8415cfcf9e5554286626ac6bcaa5724f97b93dadbcdbbe3b6300ec48874e3",
+      "status": "ready",
+      "subtitle": null,
+      "title": "आनंदमय बुलाहट",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/hin/articles/90d8e22a-d7b1-453e-98bf-cab1571a7f56.html",
       "html_sha256": "d70cbf64fd2bc4c046c767494f2d9fa1d53a9225d4cb98555c270b3d4338edc8",
       "human_reviewed": false,
