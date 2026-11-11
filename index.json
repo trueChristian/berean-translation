@@ -10873,6 +10873,34 @@
     {
       "ai_notice_required": true,
       "direction": "rtl",
+      "html": "content/ara/articles/fe94355d-8741-49a7-8f66-16003daa3f89.html",
+      "html_sha256": "55280c11248cbe49622f16ec3347bf6f985c043e5341497ee95052c12bab9a24",
+      "human_reviewed": false,
+      "id": "fe94355d-8741-49a7-8f66-16003daa3f89",
+      "images": [
+        {
+          "alt": "نوتة موسيقية لأنشودة ابقَ معي، المساء يحلّ سريعاً، منسوبة إلى هنري ف. لايت، 1847، وويليام هـ. مونك، 1861",
+          "public_path": "/images/articles/fe94355d-8741-49a7-8f66-16003daa3f89-1.png"
+        }
+      ],
+      "issue_id": "1a7070c9-fd4f-546b-a220-f267ddb8cf5f",
+      "language": "ara",
+      "language_tag": "ar",
+      "metadata": "content/ara/articles/fe94355d-8741-49a7-8f66-16003daa3f89.json",
+      "metadata_sha256": "d6b38bd43b3330aa6d984153ddfa11e397e2729b8a46ea093472b2c13e08654c",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "تاريخ نشيد",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "79b5e55e7fb97aab3761e2459a9fb23bb81c9f448b930a8dba60f876efb6606b",
+      "status": "ready",
+      "subtitle": null,
+      "title": "ابقَ معي، المساء يحلّ سريعاً",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
       "html": "content/ara/articles/ff6b7989-d4bb-46a6-bb02-52104249a07f.html",
       "html_sha256": "49e37df53c68341bba74153968233fcc1741eefbdb9fb77aba5810eda2d32842",
       "human_reviewed": false,
