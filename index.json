@@ -81790,6 +81790,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/rus/articles/324b0fa1-c057-471e-8e90-8eb699e8285a.html",
+      "html_sha256": "0de00951f9efb6a2a07867ecb15504a33a122a6aaa78b8ead51d2cf8d4d6b860",
+      "human_reviewed": false,
+      "id": "324b0fa1-c057-471e-8e90-8eb699e8285a",
+      "images": [
+        {
+          "alt": "Открытая Библия и горшечное зеленое растение у окна с занавесками.",
+          "public_path": "/images/articles/324b0fa1-c057-471e-8e90-8eb699e8285a-1.jpg"
+        },
+        {
+          "alt": "Красные почки на ветвях дерева на мягко размытом фоне.",
+          "public_path": "/images/articles/324b0fa1-c057-471e-8e90-8eb699e8285a-2.jpg"
+        }
+      ],
+      "issue_id": "103c93e0-6e9a-44f6-a6bc-377af8e08e38",
+      "language": "rus",
+      "language_tag": "ru",
+      "metadata": "content/rus/articles/324b0fa1-c057-471e-8e90-8eb699e8285a.json",
+      "metadata_sha256": "85fad83218f83f80d0eb9215c6ad7f14a20dfc84877001a8064c916facb2917b",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": null,
+      "source_revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
+      "source_translation_key": "ffc57a5aa833a4ec2481350c59b2f0532517af685342cc26f3ca07aadfae2d52",
+      "status": "ready",
+      "subtitle": "Обретение мира во время эмоционального кризиса",
+      "title": "Иисус Христос — ответ надломленному человечеству",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/rus/articles/33d9d1e5-4428-473d-9549-730d3d980dca.html",
       "html_sha256": "275cf8c1f6577a7f0e24f302bc68a23691b84fd2fd9b2fb8afd352684168df0b",
       "human_reviewed": false,
