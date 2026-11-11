@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "a3b560f7-477d-4721-b363-1349c30a949e",
+    "response_id": "chatcmpl-Eis6tAsfCtRvEcyXwf2DOQio3SJJ5",
+    "usage": {
+      "completion_tokens": 216,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 97,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5922,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5919,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6138
+    }
+  },
+  "received_at": "2026-11-11T02:47:47+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "translation.html, তৃতীয় অনুচ্ছেদ, রোমীয় ১৩-এর উদ্ধৃতি",
+        "severity": "major",
+        "source_quote": "for there is no power but of God",
+        "suggested_fix": "উদ্ধৃত অংশটি করুন: “কারণ ঈশ্বরের কাছ থেকে না এলে কোনো কর্তৃত্বই থাকে না।”",
+        "translation_quote": "কারণ ঈশ্বর ছাড়া আর কোনো কর্তৃত্ব নেই।"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 94
+  }
+}

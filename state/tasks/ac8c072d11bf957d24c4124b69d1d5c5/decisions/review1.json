@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "translation.html, তৃতীয় অনুচ্ছেদ, রোমীয় ১৩-এর উদ্ধৃতি",
+      "severity": "major",
+      "source_quote": "for there is no power but of God",
+      "suggested_fix": "উদ্ধৃত অংশটি করুন: “কারণ ঈশ্বরের কাছ থেকে না এলে কোনো কর্তৃত্বই থাকে না।”",
+      "translation_quote": "কারণ ঈশ্বর ছাড়া আর কোনো কর্তৃত্ব নেই।"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
