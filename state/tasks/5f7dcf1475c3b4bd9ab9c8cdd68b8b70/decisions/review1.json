@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "translation.html, paragraphs 2, 4, and 7",
+      "severity": "major",
+      "source_quote": "throughout our plain communities; we as the plain community; Many of the plain community",
+      "suggested_fix": "Replace the three references to Waamishi with broader descriptions preserving the source's scope: “katika jamii zetu za Wakristo wanaofuata maisha ya usahili”; “sisi kama jamii ya Wakristo wanaofuata maisha ya usahili”; and “Wengi katika jamii ya Wakristo wanaofuata maisha ya usahili.”",
+      "translation_quote": "katika jamii zetu za Waamishi; sisi kama jamii ya Waamishi; Wengi katika jamii ya Waamishi"
+    },
+    {
+      "location": "translation.html, paragraph 10, opening attribution",
+      "severity": "major",
+      "source_quote": "The Apostle Peter said that",
+      "suggested_fix": "Change “Mtume Paulo alisema kwamba” to “Mtume Petro alisema kwamba” to preserve the article's printed attribution, retaining the existing quotation and 2 Timotheo 1:7 reference.",
+      "translation_quote": "Mtume Paulo alisema kwamba"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

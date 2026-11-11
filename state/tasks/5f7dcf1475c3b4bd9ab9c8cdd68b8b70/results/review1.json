@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "66b22791-8ed0-4c63-af64-7b6b36b8ad5c",
+    "response_id": "chatcmpl-Ej8VLxAnxI8m4a0bjrCrjAIsz5hPQ",
+    "usage": {
+      "completion_tokens": 338,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 32,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5649,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4546,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 5987
+    }
+  },
+  "received_at": "2026-11-11T22:47:05+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "translation.html, paragraphs 2, 4, and 7",
+        "severity": "major",
+        "source_quote": "throughout our plain communities; we as the plain community; Many of the plain community",
+        "suggested_fix": "Replace the three references to Waamishi with broader descriptions preserving the source's scope: “katika jamii zetu za Wakristo wanaofuata maisha ya usahili”; “sisi kama jamii ya Wakristo wanaofuata maisha ya usahili”; and “Wengi katika jamii ya Wakristo wanaofuata maisha ya usahili.”",
+        "translation_quote": "katika jamii zetu za Waamishi; sisi kama jamii ya Waamishi; Wengi katika jamii ya Waamishi"
+      },
+      {
+        "location": "translation.html, paragraph 10, opening attribution",
+        "severity": "major",
+        "source_quote": "The Apostle Peter said that",
+        "suggested_fix": "Change “Mtume Paulo alisema kwamba” to “Mtume Petro alisema kwamba” to preserve the article's printed attribution, retaining the existing quotation and 2 Timotheo 1:7 reference.",
+        "translation_quote": "Mtume Paulo alisema kwamba"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 93
+  }
+}

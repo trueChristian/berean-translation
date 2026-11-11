@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-11T22:47:05+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"translation.html, paragraphs 2, 4, and 7\",\n      \"severity\": \"major\",\n      \"source_quote\": \"throughout our plain communities; we as the plain community; Many of the plain community\",\n      \"suggested_fix\": \"Replace the three references to Waamishi with broader descriptions preserving the source's scope: “katika jamii zetu za Wakristo wanaofuata maisha ya usahili”; “sisi kama jamii ya Wakristo wanaofuata maisha ya usahili”; and “Wengi katika jamii ya Wakristo wanaofuata maisha ya usahili.”\",\n      \"translation_quote\": \"katika jamii zetu za Waamishi; sisi kama jamii ya Waamishi; Wengi katika jamii ya Waamishi\"\n    },\n    {\n      \"location\": \"translation.html, paragraph 10, opening attribution\",\n      \"severity\": \"major\",\n      \"source_quote\": \"The Apostle Peter said that\",\n      \"suggested_fix\": \"Change “Mtume Paulo alisema kwamba” to “Mtume Petro alisema kwamba” to preserve the article's printed attribution, retaining the existing quotation and 2 Timotheo 1:7 reference.\",\n      \"translation_quote\": \"Mtume Paulo alisema kwamba\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": false,\n  \"score\": 93\n}",
+    "content_bytes": 1180,
+    "content_evidence_truncated": false,
+    "content_sha256": "196f5269b92c970eb10976fbc40e6dbb795a919b065728aba1fd02b8115e5860",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 338,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 32,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5649,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4546,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 5987
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}
