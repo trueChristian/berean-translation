@@ -1,0 +1,178 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "b18cedf9-50e7-47b2-804d-fc9af01a3b38",
+    "response_id": "chatcmpl-Ej1MTDoJNh2TZYMk2O4SsWXGZCxZ5",
+    "usage": {
+      "completion_tokens": 2865,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 62,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9032,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7929,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 11897
+    }
+  },
+  "received_at": "2026-11-11T12:23:22+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "translation.html, цитата 2 Timothy 2:4-22",
+        "severity": "major",
+        "source_quote": "But shun profane and vain babblings: for they will increase unto more ungodliness.",
+        "suggested_fix": "Заменить соответствующее предложение на: «Но избегай нечестивой и пустой болтовни, ибо она ведёт к ещё большему нечестию». Сохранить тег <em>.",
+        "translation_quote": "И выгоронь беседы небылицы, так как они умножаются к ещё большей безбожности."
+      },
+      {
+        "location": "translation.html, абзац об Аврааме",
+        "severity": "major",
+        "source_quote": "he was able to “offer up” his only son Isaac through whom Abraham’s descendants would be counted",
+        "suggested_fix": "Заменить на: «он смог „принести в жертву“ своего единственного сына Исаака, через которого должно было исчисляться потомство Авраама».",
+        "translation_quote": "он смог «предложить» своего единственного сына Исаака, через которого потомки Авраама будут вычисляться"
+      },
+      {
+        "location": "translation.html, абзац перед цитатой 1 Timothy 2:9-10",
+        "severity": "major",
+        "source_quote": "A little leaven leaveneth the whole lump.",
+        "suggested_fix": "Заменить на: «Немного закваски заквашивает всё тесто». Квасцы — другое вещество.",
+        "translation_quote": "Немного квасца заквашивает всю массу."
+      },
+      {
+        "location": "translation.html, цитата Titus 2:11-12",
+        "severity": "major",
+        "source_quote": "we should live soberly, righteously, and godly",
+        "suggested_fix": "Заменить «мы бодро, праведно и благочестиво жили» на «мы жили трезвомысленно, праведно и благочестиво».",
+        "translation_quote": "мы бодро, праведно и благочестиво жили"
+      },
+      {
+        "location": "translation.html, заключительный абзац",
+        "severity": "major",
+        "source_quote": "as long as you believe in a God, you will be okay",
+        "suggested_fix": "Заменить на: «достаточно верить в какого-нибудь бога, и с тобой всё будет в порядке». Это сохраняет отличие от последующего утверждения о единственном пути через Иисуса.",
+        "translation_quote": "пока ты веришь в Бога, с тобой будет всё в порядке"
+      },
+      {
+        "location": "translation.html, словарные абзацы",
+        "severity": "major",
+        "source_quote": "Adorn; Plaiting; Apparel; Ornament; Meek; Quiet; Subjection; Afraid; Amazement; Entangleth; Shun; Profane; Vain; Babblings; Flee; Lusts; Righteousness; Faith; Charity; Peace; Pure; Shamefacedness; Sobriety",
+        "suggested_fix": "Перевести заглавные слова определений, сохранив отдельные абзацы: «Украшать», «Плетение», «Одежда», «Украшение», «Кроткий», «Тихий», «Подчинение», «Испуганный», «Смятение», «Запутываться», «Избегать», «Нечестивый», «Пустой», «Пустословие», «Убегать», «Похоти», «Праведность», «Вера», «Любовь», «Мир», «Чистый», «Стыдливость», «Трезвомыслие».",
+        "translation_quote": "Adorn; Plaiting; Apparel; Ornament; Meek; Quiet; Subjection; Afraid; Amazement; Entangleth; Shun; Profane; Vain; Babblings; Flee; Lusts; Righteousness; Faith; Charity; Peace; Pure; Shamefacedness; Sobriety"
+      },
+      {
+        "location": "translation.html, все ссылки на Писание",
+        "severity": "minor",
+        "source_quote": "Matthew 5:8; 1 Peter 3:3-6; Psalm 19:7; Proverbs 9:10; 2 Timothy 2:4-22; Hebrews 11:17; Genesis 22:13; 1 Timothy 2:9-10; Titus 2:11-12; Isaiah 61:10; Revelation 21:2-3; Galatians 6:7; Matthew 10:28; John 14:6-7",
+        "suggested_fix": "В тех же местах заменить названия книг на conventional русские формы: «Матфея», «1 Петра», «Псалом», «Притчи», «2 Тимофею», «Евреям», «Бытие», «1 Тимофею», «Титу», «Исаия», «Откровение», «Галатам», «Матфея», «Иоанна». Сохранить все напечатанные номера глав и стихов, диапазоны и теги.",
+        "translation_quote": "Matthew 5:8; 1 Peter 3:3-6; Psalm 19:7; Proverbs 9:10; 2 Timothy 2:4-22; Hebrews 11:17; Genesis 22:13; 1 Timothy 2:9-10; Titus 2:11-12; Isaiah 61:10; Revelation 21:2-3; Galatians 6:7; Matthew 10:28; John 14:6-7"
+      },
+      {
+        "location": "translation.html, определение Shun",
+        "severity": "major",
+        "source_quote": "not to fall on or come in contact with",
+        "suggested_fix": "Заменить «не нападать и не входить в контакт» на «не сталкиваться и не соприкасаться». Здесь речь об избегании контакта, а не нападения.",
+        "translation_quote": "не нападать и не входить в контакт"
+      },
+      {
+        "location": "translation.html, цитата 1 Timothy 2:9-10",
+        "severity": "major",
+        "source_quote": "women professing godliness",
+        "suggested_fix": "Заменить «женщинам, проповедующим благочестие» на «женщинам, исповедующим благочестие».",
+        "translation_quote": "женщинам, проповедующим благочестие"
+      },
+      {
+        "location": "translation.html, цитата Isaiah 61:10",
+        "severity": "major",
+        "source_quote": "I will greatly rejoice in the LORD, my soul shall be joyful in my God; ... as a bridegroom decketh himself with ornaments",
+        "suggested_fix": "Начало передать как «Я буду весьма радоваться в Господе, душа моя будет ликовать в Боге моём»; фрагмент о женихе — как «как жених украшает себя украшениями». Не добавлять отсутствующие в источнике «дух» и «голову».",
+        "translation_quote": "Воскликну и возрадуется сильно душа моя в Господе, возрадуется дух мой в Боге моём; ... как жених украшает голову свою"
+      },
+      {
+        "location": "translation.html, абзац о рождении свыше",
+        "severity": "minor",
+        "source_quote": "Let us not make Him ashamed to call us His sons and daughters.",
+        "suggested_fix": "Заменить последнее предложение на: «Не будем давать Ему повода стыдиться называть нас Своими сыновьями и дочерьми».",
+        "translation_quote": "Не позорим ли мы Его, называющего нас Сынами и Дочерями."
+      },
+      {
+        "location": "translation.html, цитата 1 Peter 3:3-6",
+        "severity": "minor",
+        "source_quote": "the hidden man of the heart, in that which is not corruptible",
+        "suggested_fix": "Заменить «внутренний человек в сердце, не тленной» на «сокровенный человек сердца в нетленном украшении», согласовав продолжение: «кроткого и тихого духа».",
+        "translation_quote": "внутренний человек в сердце, не тленной, — украшение кроткого и тихого духа"
+      },
+      {
+        "location": "translation.html, второй абзац",
+        "severity": "minor",
+        "source_quote": "amusement parks, video arcades",
+        "suggested_fix": "Заменить «парки развлечений, игровых автоматов» на «парки развлечений, залы игровых автоматов».",
+        "translation_quote": "парки развлечений, игровых автоматов"
+      },
+      {
+        "location": "translation.html, абзац о новых стилях",
+        "severity": "minor",
+        "source_quote": "Are we firm and grounded in what we believe?",
+        "suggested_fix": "Заменить на: «Тверды ли мы и укоренены ли в том, во что верим?»",
+        "translation_quote": "Укреплены ли мы и обоснованы в том, в что верим?"
+      },
+      {
+        "location": "translation.html, определение Amazement",
+        "severity": "minor",
+        "source_quote": "fear, surprise, or wonder",
+        "suggested_fix": "Заменить «страха, удивления или удивления» на «страха, неожиданности или изумления».",
+        "translation_quote": "страха, удивления или удивления"
+      },
+      {
+        "location": "translation.html, определение Lusts",
+        "severity": "minor",
+        "source_quote": "unlawful desire of carnal pleasure",
+        "suggested_fix": "Заменить «незаконное желание плотского утешения» на «недозволенное желание плотского наслаждения».",
+        "translation_quote": "незаконное желание плотского утешения"
+      },
+      {
+        "location": "translation.html, определение Sobriety",
+        "severity": "minor",
+        "source_quote": "gravity without sadness or melancholy",
+        "suggested_fix": "Заменить «весомость без печали или меланхолии» на «степенность без печали или меланхолии».",
+        "translation_quote": "весомость без печали или меланхолии"
+      },
+      {
+        "location": "translation.html, абзац о дизайне одежды",
+        "severity": "minor",
+        "source_quote": "so that they will be appealing and attractive to the eye",
+        "suggested_fix": "Заменить «чтобы она выглядела привлекательно и привлекательной для глаза» на «чтобы она нравилась людям и привлекала взгляд».",
+        "translation_quote": "чтобы она выглядела привлекательно и привлекательной для глаза"
+      },
+      {
+        "location": "translation.html, предпоследний абзац",
+        "severity": "minor",
+        "source_quote": "helping our neighbor who could use an extra hand",
+        "suggested_fix": "Заменить «помогая нашему ближнему, которому нужна лишняя рука» на «помогая нашему ближнему, которому нужна помощь».",
+        "translation_quote": "помогая нашему ближнему, которому нужна лишняя рука"
+      },
+      {
+        "location": "translation.html, цитата Matthew 10:28",
+        "severity": "minor",
+        "source_quote": "but rather fear him",
+        "suggested_fix": "Заменить «боитесь же более того» на «но более бойтесь Того».",
+        "translation_quote": "боитесь же более того"
+      },
+      {
+        "location": "translation.section",
+        "severity": "minor",
+        "source_quote": "Sister to Sister",
+        "suggested_fix": "Заменить на «От сестры к сестре».",
+        "translation_quote": "Сестре к сестре"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 72
+  }
+}
