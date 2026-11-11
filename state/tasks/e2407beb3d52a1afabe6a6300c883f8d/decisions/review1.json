@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "translation.html, ol, третий пункт, цитата Малахии 2:14–16",
+      "severity": "major",
+      "source_quote": "the wife of thy covenant. And did not he make one? Yet had he the residue of the spirit. And wherefore one? That he might seek a godly seed.",
+      "suggested_fix": "Заменить соответствующий фрагмент цитаты: «жена завета твоего. И разве Он не сделал их одним? И всё же у Него оставался дух. И почему одним? Чтобы взыскать благочестивого потомства». Сохранить существующие теги и остальную цитату.",
+      "translation_quote": "законная жена твоя. Но не сделал ли Господь их одним? И что сделал один? Он желал получить благочестивое потомство."
+    },
+    {
+      "location": "translation.html, абзац, начинающийся «Возможно, Иеремия тоже ссылается», цитата Иеремии 3:1",
+      "severity": "major",
+      "source_quote": "shall he return unto her again?",
+      "suggested_fix": "Заменить «может ли она возвратиться к нему?» на «может ли он снова возвратиться к ней?»",
+      "translation_quote": "может ли она возвратиться к нему?"
+    },
+    {
+      "location": "translation.html, абзац, начинающийся «Некоторое время спустя после того, как Осия женился на ней»",
+      "severity": "major",
+      "source_quote": "she likely remarried after deserting Hosea. (2:14) By Hosea patiently",
+      "suggested_fix": "Восстановить пропущенную ссылку после предложения о повторном браке: «она вступила в новый брак. (2:14) Благодаря тому, что Осия…»",
+      "translation_quote": "она вступила в новый брак. Благодаря тому, что Осия"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

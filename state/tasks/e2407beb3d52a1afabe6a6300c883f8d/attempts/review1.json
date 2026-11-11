@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-11T22:46:24+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"translation.html, ol, третий пункт, цитата Малахии 2:14–16\",\n      \"severity\": \"major\",\n      \"source_quote\": \"the wife of thy covenant. And did not he make one? Yet had he the residue of the spirit. And wherefore one? That he might seek a godly seed.\",\n      \"suggested_fix\": \"Заменить соответствующий фрагмент цитаты: «жена завета твоего. И разве Он не сделал их одним? И всё же у Него оставался дух. И почему одним? Чтобы взыскать благочестивого потомства». Сохранить существующие теги и остальную цитату.\",\n      \"translation_quote\": \"законная жена твоя. Но не сделал ли Господь их одним? И что сделал один? Он желал получить благочестивое потомство.\"\n    },\n    {\n      \"location\": \"translation.html, абзац, начинающийся «Возможно, Иеремия тоже ссылается», цитата Иеремии 3:1\",\n      \"severity\": \"major\",\n      \"source_quote\": \"shall he return unto her again?\",\n      \"suggested_fix\": \"Заменить «может ли она возвратиться к нему?» на «может ли он снова возвратиться к ней?»\",\n      \"translation_quote\": \"может ли она возвратиться к нему?\"\n    },\n    {\n      \"location\": \"translation.html, абзац, начинающийся «Некоторое время спустя после того, как Осия женился на ней»\",\n      \"severity\": \"major\",\n      \"source_quote\": \"she likely remarried after deserting Hosea. (2:14) By Hosea patiently\",\n      \"suggested_fix\": \"Восстановить пропущенную ссылку после предложения о повторном браке: «она вступила в новый брак. (2:14) Благодаря тому, что Осия…»\",\n      \"translation_quote\": \"она вступила в новый брак. Благодаря тому, что Осия\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": false,\n  \"score\": 92\n}",
+    "content_bytes": 2334,
+    "content_evidence_truncated": false,
+    "content_sha256": "1b917890d38d1f95736469dfbaeb190d12919c6eee0ea350f96164a26e041ef1",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 607,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 119,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 11452,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 10349,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 12059
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}

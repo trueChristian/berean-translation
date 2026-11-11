@@ -5,11 +5,54 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "af7a47877e63474889027777c56aa871",
   "campaign": "auto-5e191f1a672fa8bae6ce066155c50489d3277f25d5ed1771bbf8a16992a6f2bf",
   "created_at": "2026-11-11T08:22:05+00:00",
-  "events": [],
-  "findings": [],
+  "events": [
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 607,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 119,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 11452,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 10349,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 12059
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "translation.html, ol, третий пункт, цитата Малахии 2:14–16",
+      "severity": "major",
+      "source_quote": "the wife of thy covenant. And did not he make one? Yet had he the residue of the spirit. And wherefore one? That he might seek a godly seed.",
+      "suggested_fix": "Заменить соответствующий фрагмент цитаты: «жена завета твоего. И разве Он не сделал их одним? И всё же у Него оставался дух. И почему одним? Чтобы взыскать благочестивого потомства». Сохранить существующие теги и остальную цитату.",
+      "translation_quote": "законная жена твоя. Но не сделал ли Господь их одним? И что сделал один? Он желал получить благочестивое потомство."
+    },
+    {
+      "location": "translation.html, абзац, начинающийся «Возможно, Иеремия тоже ссылается», цитата Иеремии 3:1",
+      "severity": "major",
+      "source_quote": "shall he return unto her again?",
+      "suggested_fix": "Заменить «может ли она возвратиться к нему?» на «может ли он снова возвратиться к ней?»",
+      "translation_quote": "может ли она возвратиться к нему?"
+    },
+    {
+      "location": "translation.html, абзац, начинающийся «Некоторое время спустя после того, как Осия женился на ней»",
+      "severity": "major",
+      "source_quote": "she likely remarried after deserting Hosea. (2:14) By Hosea patiently",
+      "suggested_fix": "Восстановить пропущенную ссылку после предложения о повторном браке: «она вступила в новый брак. (2:14) Благодаря тому, что Осия…»",
+      "translation_quote": "она вступила в новый брак. Благодаря тому, что Осия"
+    }
+  ],
   "id": "e2407beb3d52a1afabe6a6300c883f8d",
   "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
   "language": "rus",
@@ -98,11 +141,13 @@
     }
   },
   "protected": false,
+  "quality_score": 92,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/5bf38d93abdc570342545f7c449c547627f8399466dbf15d8ec8a3c68a32a342.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "review1",
     "max_candidate_bytes": 120000,
@@ -115,7 +160,7 @@
     "total_reserved_usd": 0.820634,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 0,
   "translation_key": "898312b9e2985808962e7015203da21ff06c86a060f8b64c6111393491050496",
   "translation_model_actual": "gpt-6-luna"
