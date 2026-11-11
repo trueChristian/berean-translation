@@ -1,0 +1,154 @@
+{
+  "findings": [
+    {
+      "location": "html, aya ya 2",
+      "severity": "major",
+      "source_quote": "proclaimed a fast throughout all the land of Judah",
+      "suggested_fix": "Badili “akatangaza sikukuu ya kufunga” kuwa “akatangaza kufunga”.",
+      "translation_quote": "akatangaza sikukuu ya kufunga"
+    },
+    {
+      "location": "html, aya ya 2, mstari wa 6",
+      "severity": "major",
+      "source_quote": "art not thou God in heaven? ... so that none is able to withstand thee?",
+      "suggested_fix": "Tumia “Je, si wewe Mungu uliye mbinguni?” na “hata hakuna awezaye kukupinga?” katika sehemu hizi za nukuu.",
+      "translation_quote": "huna wewe, si wewe Mungu mbinguni? ... hata mtu hapaswi kukupinga?"
+    },
+    {
+      "location": "html, aya ya 3",
+      "severity": "major",
+      "source_quote": "even without the dreaded “what ifs” becoming reality ... fall exhausted at my Lord’s feet",
+      "suggested_fix": "Tumia “hata bila yale mambo ninayohofia kwamba huenda yakatokea kutimia” na “kuanguka nimechoka miguuni pa Bwana wangu”.",
+      "translation_quote": "hata bila yale “kama” yaukwera kuwa kweli ... kuanguka nimechoka migongoni mwa Bwana wangu"
+    },
+    {
+      "location": "html, aya ya 4, mstari wa 12",
+      "severity": "major",
+      "source_quote": "O our God, wilt thou not judge them?",
+      "suggested_fix": "Badili swali kuwa “Ee Mungu wetu, je, hutawahukumu?”",
+      "translation_quote": "Ee Mungu wetu, je, hutaliwa hao?"
+    },
+    {
+      "location": "html, aya ya 7 na 8, mistari 15 na 17",
+      "severity": "major",
+      "source_quote": "Be not afraid nor dismayed ... fear not, nor be dismayed",
+      "suggested_fix": "Katika sehemu zote mbili, badili “msihofu wala msipate moyo” kuwa “msiogope wala msifadhaike”. Tafsiri ya sasa inakataza kupata moyo badala ya kuondoa kufadhaika.",
+      "translation_quote": "Msihofu wala msipate moyo ... msihofu wala msipate moyo"
+    },
+    {
+      "location": "html, aya ya 7",
+      "severity": "major",
+      "source_quote": "rather than making myself vulnerable to others ... I find the strength of God through His people",
+      "suggested_fix": "Tumia “badala ya kuwafungulia wengine moyo wangu na kuwaonyesha udhaifu wangu” na “ninapata nguvu za Mungu kupitia watu Wake”.",
+      "translation_quote": "badala ya kufanya mwenyewe kuwa mwoga mbele ya wengine ... napatia nguvu za Mungu kupitia watu Wake"
+    },
+    {
+      "location": "html, aya ya 8, mistari 16-17",
+      "severity": "major",
+      "source_quote": "Tomorrow go ye down against them ... set yourselves, stand ye still, and see the salvation of the LORD",
+      "suggested_fix": "Tumia “Kesho shukeni dhidi yao ... jipangeni, simameni imara, mwone wokovu wa BWANA”.",
+      "translation_quote": "Kesho mnendeni nao ... jisahihisheni, simameni mtulivu, mone wokovu wa BWANA"
+    },
+    {
+      "location": "html, aya ya 8",
+      "severity": "major",
+      "source_quote": "God tells my heart to sit still without fear and let Him do the fighting",
+      "suggested_fix": "Tumia “Mungu anauambia moyo wangu utulie bila hofu na kumwacha Yeye apigane”.",
+      "translation_quote": "Mungu anasema moyo wangu usimame tulivu bila hofu na Aendelee kupigana"
+    },
+    {
+      "location": "html, aya ya 9, mstari wa 18",
+      "severity": "major",
+      "source_quote": "Jehoshaphat bowed his head with his face to the ground",
+      "suggested_fix": "Badili kuwa “Yehoshafati aliinamisha kichwa chake hadi uso wake ukagusa ardhi”.",
+      "translation_quote": "Yehoshafati alijikubali mguu na uso zake ardhini"
+    },
+    {
+      "location": "html, aya ya 9",
+      "severity": "major",
+      "source_quote": "I will see God do miracles ... And that causes me to worship",
+      "suggested_fix": "Tumia “nitaona Mungu akifanya miujiza” na “Na hilo linanifanya nimwabudu”.",
+      "translation_quote": "nitaona Mungu afanye mafundisho ... Na hilo linanifanya nimbuke"
+    },
+    {
+      "location": "html, aya ya 11",
+      "severity": "major",
+      "source_quote": "believe his prophets ... he appointed singers unto the LORD, and that should praise the beauty of holiness",
+      "suggested_fix": "Tumia “waaminini manabii wake” na “akawateua waimbaji wamwimbie BWANA na kuusifu uzuri wa utakatifu”.",
+      "translation_quote": "amini nabii wake ... aliwaita waimbaji kwa BWANA, na wawe wakiwapongeza uzuri wa utakatifu"
+    },
+    {
+      "location": "html, aya ya 12, sentensi ya kwanza",
+      "severity": "major",
+      "source_quote": "I would have liked to see that huge army going out of the city, singing.",
+      "suggested_fix": "Tumia “Ningependa kuliona jeshi hilo kubwa likitoka mjini huku likiimba.”",
+      "translation_quote": "Nilipenda kuona jeshi hilo kubwa likiishi toka mjini, wakiiimba."
+    },
+    {
+      "location": "html, aya ya 12, mistari 22-23",
+      "severity": "major",
+      "source_quote": "the LORD set… [an ambush] against the children of Ammon, [and] Moab",
+      "suggested_fix": "Tumia “BWANA akaweka… [mtego wa kuvizia] dhidi ya wana wa Amoni, [na] Moabu”.",
+      "translation_quote": "BWANA akafanya ... [kufanyia) mashambulizi dhidi ya wana wa Amini, [na] Moabu"
+    },
+    {
+      "location": "html, aya ya 13",
+      "severity": "major",
+      "source_quote": "saw that their enemies had destroyed each other",
+      "suggested_fix": "Badili kuwa “waliona kwamba maadui zao walikuwa wameangamizana”.",
+      "translation_quote": "waliona maadui zao walikuwa wametwikwa wenyewe"
+    },
+    {
+      "location": "html, aya ya 14 na 15",
+      "severity": "major",
+      "source_quote": "riches and spoils ... collect ‘spoils’ ... all their spoil",
+      "suggested_fix": "Badili “shinani” kuwa “nyara” katika sehemu zote tatu. Katika aya ya 14, tumia pia “walikusanya nyingi kiasi kwamba hawakuweza kuzibeba zote” badala ya “hawakuweza kubebwa nayo wote”.",
+      "translation_quote": "mali na shinani ... kukusanya ‘shinani’ ... shinani zao zote; hawakuweza kubebwa nayo wote"
+    },
+    {
+      "location": "html, aya ya 15",
+      "severity": "major",
+      "source_quote": "They came again to their homes in Jerusalem with singing, and harps, and trumpets",
+      "suggested_fix": "Tumia “Walirudi nyumbani kwao Yerusalemu wakiimba, wakiwa na vinubi na tarumbeta”.",
+      "translation_quote": "Walikaribishwa nyumbani kwao Yerusalemu wakiwa wakiimba, na vyuma vya mrija, na tarumbeta"
+    },
+    {
+      "location": "html, aya ya 15",
+      "severity": "major",
+      "source_quote": "then Jehoshaphat’s realm was quiet",
+      "suggested_fix": "Badili kuwa “ndipo ufalme wa Yehoshafati ukatulia”.",
+      "translation_quote": "basi ufalme wa Yehoshafati ukawahulusia"
+    },
+    {
+      "location": "html, aya ya 16",
+      "severity": "major",
+      "source_quote": "There is rest ‘round about’ ... the strength that is within us",
+      "suggested_fix": "Tumia “Kuna utulivu ‘pande zote’” na “nguvu iliyo ndani yetu”.",
+      "translation_quote": "Kuna mapumziko ‘kando yake’ ... nguvu iliyotuwepo ndani"
+    },
+    {
+      "location": "title",
+      "severity": "major",
+      "source_quote": "Lessons From Second Chronicles Twenty",
+      "suggested_fix": "Tumia “Mafunzo Kutoka Mambo ya Nyakati wa Pili, Sura ya Ishirini”.",
+      "translation_quote": "Mafunzo Kutoka Katika Mambo ya Pili ya Mambo ya Nyakati ishirini"
+    },
+    {
+      "location": "html, aya ya 3, 7, 10, 12, 14 na 16",
+      "severity": "minor",
+      "source_quote": "turning them over and over in my mind; When we all pray together; He will show my heart; the strongest man; the next three days; no one can match",
+      "suggested_fix": "Rekebisha sarufi na tahajia: “nikiyawaza tena na tena”; “Tunapoomba sote pamoja”; “Atauonyesha moyo wangu”; “mtu mwenye nguvu zaidi atetemeke”; “siku tatu zilizofuata”; “hakuna awezaye kulingana nazo”.",
+      "translation_quote": "nikiwazungusha mfululizo akilini mwangu; Tunapokuwa tumsali pamoja; Atataonyesha moyo wangu; mtu mwenye nguvu aitetemeka; siku tatu zilizoifuwa; hakuna anayezoshindana nayo"
+    },
+    {
+      "location": "html, figure/img/@alt",
+      "severity": "minor",
+      "source_quote": "A glowing lantern on a snowy path at night",
+      "suggested_fix": "Badili “Lantern” kuwa “Taa ya kandili”.",
+      "translation_quote": "Lantern inayong'aa kwenye njia yenye theluji usiku"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
