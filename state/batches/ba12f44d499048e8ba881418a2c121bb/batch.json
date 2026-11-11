@@ -11,7 +11,8 @@
   "remote_id": null,
   "reserved_usd": 0.076093,
   "stage": "review1",
-  "status": "prepared",
+  "status": "submitting",
+  "submission_started_at": "2026-11-11T16:24:58+00:00",
   "tasks": [
     "73c3a62402bb7f36af92aa4550d91deb"
   ]
