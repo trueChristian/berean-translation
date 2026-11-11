@@ -5396,9 +5396,9 @@
     },
     "56f87e8c-a689-40cd-95b1-57f12dac367a": {
       "fingerprints": {
-        "html_sha256": "c2ab027ac2e51035b30dbf8f35ee2ec1cdb6cc1cafd8da857fcfa04d816bb083",
+        "html_sha256": "655746aa810630299934d57e2d03b0f1b13fb7a2aeab1940c572be022bce5fb4",
         "metadata_sha256": "c7ad1b6fa2c535e12b56ee3b71abf36cdeb93d9d4851285032d3721805fdbef1",
-        "structure_sha256": "2720d8b1eb32f70fe8d435b1ce6006ae8a27ff7b36751dc4fef712e558bb64f5",
+        "structure_sha256": "3f174d170a1e496096d4ad1acbd875f0dc89a8a0ca72a7230ee8926d6bdf5795",
         "text_sha256": "a4b2f901a6c92da25ed7174532212c592ccf632d78a2f6ad337e0c818bc2559e",
         "translation_metadata_sha256": "1574aa926e116517a69a25ef66d8f6672ee1ee19422bca9c0c2469ff7e885813"
       },
@@ -5406,7 +5406,7 @@
       "issue_id": "cd616d53-754b-416f-a133-ccc8fd508b2a",
       "sequence": 5,
       "title": "Wake up, Church of America!",
-      "translation_key": "9235f3d11dc4b3e6a9f952cd029c33417f822e8404c965172c6e03f494ad87d7"
+      "translation_key": "6af9410932b05dc5f7f9c426fe6cb5d85f05d42939876c02929bf90dd4aeb2d3"
     },
     "572ec209-1870-46a2-ba99-bc6121777d7c": {
       "fingerprints": {
@@ -16343,7 +16343,7 @@
       "translation_key": "9ea9ca2e6ca2535eb81fffe7e7a9d7a7b70294c3f61cd7aa67870a24643f38b1"
     }
   },
-  "content_sha256": "a43af43f72f767062c942c16eaa8fdd33ae83a004a6c225570c676cfec6d9ef0",
+  "content_sha256": "03634faa79303f50af9ceab933fdfbf638d14a0c5565ecd989137028a55239f8",
   "fingerprint_origin": "translation-runtime",
   "format_version": "1.0",
   "issues": [
@@ -17759,7 +17759,7 @@
     }
   ],
   "repository": "trueChristian/berean-voice",
-  "revision": "6c3e27346b6b031f46e29e723e884fe8407806b7",
+  "revision": "ccefc5a5c3d79409cc78319f94b5490718d30670",
   "source_errors": {
     "27d98489-2986-4710-bc1e-590b9ad02133": {
       "article_id": "27d98489-2986-4710-bc1e-590b9ad02133",
