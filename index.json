@@ -106086,6 +106086,34 @@
     {
       "ai_notice_required": true,
       "direction": "rtl",
+      "html": "content/urd/articles/cf3bcef6-affc-4c39-9c73-ce940fab787f.html",
+      "html_sha256": "45c57ffd2f12d2e3aba0aae60aa449b04c889155f35fa87ea2ea11a5a2fc7a08",
+      "human_reviewed": false,
+      "id": "cf3bcef6-affc-4c39-9c73-ce940fab787f",
+      "images": [
+        {
+          "alt": "غروبِ آفتاب کے وقت جھیل کے کنارے شہر کی عمارتوں کے افق کا فضائی منظر",
+          "public_path": "/images/articles/cf3bcef6-affc-4c39-9c73-ce940fab787f-1.jpg"
+        }
+      ],
+      "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
+      "language": "urd",
+      "language_tag": "ur",
+      "metadata": "content/urd/articles/cf3bcef6-affc-4c39-9c73-ce940fab787f.json",
+      "metadata_sha256": "40344f1dd7d209c9ce3fa80493a0fc8b87a43df4ab10fd6b4173d2bb32c0a015",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "موجودہ دور کے خطرات",
+      "source_revision": "a069ecca8827634ebc256b3b1cabc16aeb942ed7",
+      "source_translation_key": "7186a7dafd85adebb8f6876e1cafaf204ddce9783339d4da1f44b2bb46a15d75",
+      "status": "ready",
+      "subtitle": null,
+      "title": "دنیا میں، مگر دنیا کے نہیں",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
       "html": "content/urd/articles/d0395fde-712d-488d-a161-c26c87ed128b.html",
       "html_sha256": "db28b550e23b4c1efd09520b75e1100c9c359fd475d1083b584fb5bf6102b1b7",
       "human_reviewed": false,
