@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "New Birth section, paragraph beginning “This new birth is not a slow change”",
+      "severity": "major",
+      "source_quote": "“This new birth is not a slow change. It takes years, decades, or even generations.”",
+      "suggested_fix": "“Denna nya födelse är inte en långsam förändring. Den sker inte under år, årtionden eller till och med generationer.”",
+      "translation_quote": "“Denna nya födelse är inte en långsam förändring. Den tar år, årtionden eller till och med generationer.”"
+    },
+    {
+      "location": "Paragraph beginning “Christianity is about God, not us”",
+      "severity": "major",
+      "source_quote": "“We will be alike, think alike, talk alike, look alike, and act alike.”",
+      "suggested_fix": "“Vi kommer att vara lika, tänka lika, tala lika, se likadana ut och handla lika.”",
+      "translation_quote": "“Vi kommer att vara lika, tänka lika, tala lika, se lika ut och handla lika.”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}
