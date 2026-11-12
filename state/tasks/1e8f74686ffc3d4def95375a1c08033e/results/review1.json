@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "aaf6efd8-5df4-40e8-b04c-01d26dfb53ae",
+    "response_id": "chatcmpl-EjCfP0qKFeSNB1wTQzKJitgO9tg3X",
+    "usage": {
+      "completion_tokens": 666,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4206,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4203,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4872
+    }
+  },
+  "received_at": "2026-11-12T01:36:47+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Article, paragraph 1",
+        "severity": "minor",
+        "source_quote": "A drift of snow swirled down the alley",
+        "suggested_fix": "Snöflingor virvlade nerför gränden",
+        "translation_quote": "En snödriva virvlade nerför gränden"
+      },
+      {
+        "location": "Article, paragraph 10",
+        "severity": "minor",
+        "source_quote": "A crystal layer of snow covered the ground.",
+        "suggested_fix": "Ett kristallskimrande lager av snö täckte marken.",
+        "translation_quote": "Ett kristallklart lager av snö täckte marken."
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}

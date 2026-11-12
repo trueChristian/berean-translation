@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Article, paragraph 1",
+      "severity": "minor",
+      "source_quote": "A drift of snow swirled down the alley",
+      "suggested_fix": "Snöflingor virvlade nerför gränden",
+      "translation_quote": "En snödriva virvlade nerför gränden"
+    },
+    {
+      "location": "Article, paragraph 10",
+      "severity": "minor",
+      "source_quote": "A crystal layer of snow covered the ground.",
+      "suggested_fix": "Ett kristallskimrande lager av snö täckte marken.",
+      "translation_quote": "Ett kristallklart lager av snö täckte marken."
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}
