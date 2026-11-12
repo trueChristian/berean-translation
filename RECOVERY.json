@@ -8,10 +8,9 @@
     "active": 50,
     "already_translated": 107,
     "automatic_capacity_wait": 286,
-    "continuation_cooldown": 1,
     "continuation_progress_uncertain_requires_attention": 5,
     "continuation_repeated_findings_requires_attention": 1,
-    "eligible_automatic": 641,
+    "eligible_automatic": 642,
     "eligible_source_refresh": 168,
     "human_reviewed_or_edited_protected": 1,
     "legacy_response_outcome_unknown_requires_owner_attention": 10,
@@ -11929,7 +11928,7 @@
       "language": "urd",
       "latest_task": "87fe6aa8c1582505d671905300cfbcae",
       "processing_status": "not_ready",
-      "reason": "continuation_cooldown"
+      "reason": "eligible_automatic"
     },
     {
       "accepted_cycles": 0,
