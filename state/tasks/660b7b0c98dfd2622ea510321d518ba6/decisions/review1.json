@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "translation.html, הפסקה המתחילה „השליח פטרוס אמר”",
+      "severity": "major",
+      "source_quote": "the Bible still calls us in Philippians",
+      "suggested_fix": "להחליף את „התנ״ך עדיין קורא לנו באיגרת אל הפיליפים” ב„כתבי הקודש עדיין קוראים לנו באיגרת אל הפיליפים”. האיגרת היא חלק מהברית החדשה, ולא מהתנ״ך.",
+      "translation_quote": "התנ״ך עדיין קורא לנו באיגרת אל הפיליפים"
+    },
+    {
+      "location": "translation.html, הציטוט מפיליפים ד׳ 8",
+      "severity": "minor",
+      "source_quote": "whatsoever things are of good report",
+      "suggested_fix": "להחליף את „כל אשר לשמו הטוב” ב„כל מה שיצא לו שם טוב”, תוך שמירה על תגית ההדגשה ועל ההפניה.",
+      "translation_quote": "כל אשר לשמו הטוב"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

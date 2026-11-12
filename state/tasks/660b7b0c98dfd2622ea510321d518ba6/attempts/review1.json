@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-12T03:26:23+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"translation.html, הפסקה המתחילה „השליח פטרוס אמר”\",\n      \"severity\": \"major\",\n      \"source_quote\": \"the Bible still calls us in Philippians\",\n      \"suggested_fix\": \"להחליף את „התנ״ך עדיין קורא לנו באיגרת אל הפיליפים” ב„כתבי הקודש עדיין קוראים לנו באיגרת אל הפיליפים”. האיגרת היא חלק מהברית החדשה, ולא מהתנ״ך.\",\n      \"translation_quote\": \"התנ״ך עדיין קורא לנו באיגרת אל הפיליפים\"\n    },\n    {\n      \"location\": \"translation.html, הציטוט מפיליפים ד׳ 8\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"whatsoever things are of good report\",\n      \"suggested_fix\": \"להחליף את „כל אשר לשמו הטוב” ב„כל מה שיצא לו שם טוב”, תוך שמירה על תגית ההדגשה ועל ההפניה.\",\n      \"translation_quote\": \"כל אשר לשמו הטוב\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": false,\n  \"score\": 94\n}",
+    "content_bytes": 1111,
+    "content_evidence_truncated": false,
+    "content_sha256": "17f09e620b1662bc222aa3af992338c3ebae493e3213e4a3b551784f3df41949",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 406,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 124,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5564,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4461,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 5970
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}

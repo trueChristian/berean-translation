@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "a41d79c8-1f15-49f2-a40c-84f061baca6f",
+    "response_id": "chatcmpl-EjEfgpuQBnlMj2iddlYB7NJXTEil9",
+    "usage": {
+      "completion_tokens": 406,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 124,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5564,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4461,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 5970
+    }
+  },
+  "received_at": "2026-11-12T03:26:23+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "translation.html, הפסקה המתחילה „השליח פטרוס אמר”",
+        "severity": "major",
+        "source_quote": "the Bible still calls us in Philippians",
+        "suggested_fix": "להחליף את „התנ״ך עדיין קורא לנו באיגרת אל הפיליפים” ב„כתבי הקודש עדיין קוראים לנו באיגרת אל הפיליפים”. האיגרת היא חלק מהברית החדשה, ולא מהתנ״ך.",
+        "translation_quote": "התנ״ך עדיין קורא לנו באיגרת אל הפיליפים"
+      },
+      {
+        "location": "translation.html, הציטוט מפיליפים ד׳ 8",
+        "severity": "minor",
+        "source_quote": "whatsoever things are of good report",
+        "suggested_fix": "להחליף את „כל אשר לשמו הטוב” ב„כל מה שיצא לו שם טוב”, תוך שמירה על תגית ההדגשה ועל ההפניה.",
+        "translation_quote": "כל אשר לשמו הטוב"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 94
+  }
+}
