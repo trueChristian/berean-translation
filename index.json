@@ -96049,6 +96049,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/swa/articles/cf3bcef6-affc-4c39-9c73-ce940fab787f.html",
+      "html_sha256": "18c1ded75050e62b9fa1d3d7143998e49d66e44fc5c750deb2f656ba98ed94f9",
+      "human_reviewed": false,
+      "id": "cf3bcef6-affc-4c39-9c73-ce940fab787f",
+      "images": [
+        {
+          "alt": "Muonekano wa angani wa mandhari ya majengo ya jiji kando ya ziwa wakati wa machweo",
+          "public_path": "/images/articles/cf3bcef6-affc-4c39-9c73-ce940fab787f-1.jpg"
+        }
+      ],
+      "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
+      "language": "swa",
+      "language_tag": "sw",
+      "metadata": "content/swa/articles/cf3bcef6-affc-4c39-9c73-ce940fab787f.json",
+      "metadata_sha256": "091d08bcd7b4c239d6f4703d73f34ef4bfbba109e94c78bb9576a1c9538403bc",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "HATARI ZA SIKU ZA KISASA",
+      "source_revision": "a069ecca8827634ebc256b3b1cabc16aeb942ed7",
+      "source_translation_key": "7186a7dafd85adebb8f6876e1cafaf204ddce9783339d4da1f44b2bb46a15d75",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Ulimwenguni, lakini si wa ulimwengu",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/swa/articles/d0898011-fe8b-4c35-9aac-12c20ec0d950.html",
       "html_sha256": "6fe37c301ececbfb2b075623813a0bda1fb18e223de919380077fd269f4f541b",
       "human_reviewed": false,

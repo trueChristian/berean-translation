@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "c9ccab1fd79243528da33a1b3a6b5c1c",
   "campaign": "auto-886e53ec18d1cc17f208f6ab06780ac4c7bb7e7e8a68cb8cabdfcc6ade02f47f",
   "created_at": "2026-11-11T18:56:02+00:00",
   "events": [
@@ -48,25 +47,31 @@
         },
         "total_tokens": 8456
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 69,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 37,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5681,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 4578,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 5750
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "translation.html, paragraphs 2, 4, and 7",
-      "severity": "major",
-      "source_quote": "throughout our plain communities; we as the plain community; Many of the plain community",
-      "suggested_fix": "Replace the three references to Waamishi with broader descriptions preserving the source's scope: “katika jamii zetu za Wakristo wanaofuata maisha ya usahili”; “sisi kama jamii ya Wakristo wanaofuata maisha ya usahili”; and “Wengi katika jamii ya Wakristo wanaofuata maisha ya usahili.”",
-      "translation_quote": "katika jamii zetu za Waamishi; sisi kama jamii ya Waamishi; Wengi katika jamii ya Waamishi"
-    },
-    {
-      "location": "translation.html, paragraph 10, opening attribution",
-      "severity": "major",
-      "source_quote": "The Apostle Peter said that",
-      "suggested_fix": "Change “Mtume Paulo alisema kwamba” to “Mtume Petro alisema kwamba” to preserve the article's printed attribution, retaining the existing quotation and 2 Timotheo 1:7 reference.",
-      "translation_quote": "Mtume Paulo alisema kwamba"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-11-12T03:26:52+00:00",
   "id": "5f7dcf1475c3b4bd9ab9c8cdd68b8b70",
   "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
   "language": "swa",
@@ -155,7 +160,7 @@
     }
   },
   "protected": false,
-  "quality_score": 93,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6.1-sol",
@@ -174,7 +179,7 @@
     "total_reserved_usd": 0.723811,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "7186a7dafd85adebb8f6876e1cafaf204ddce9783339d4da1f44b2bb46a15d75",
   "translation_model_actual": "gpt-6.1-sol"
