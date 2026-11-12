@@ -74060,6 +74060,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/nob/articles/cf3bcef6-affc-4c39-9c73-ce940fab787f.html",
+      "html_sha256": "afba428643423bb970ff64b457d91b8b8dbc2b877daf9f7a5fdb7bc23a0c59a7",
+      "human_reviewed": false,
+      "id": "cf3bcef6-affc-4c39-9c73-ce940fab787f",
+      "images": [
+        {
+          "alt": "Utsikt fra luften over byens silhuett ved en innsjø i solnedgangen",
+          "public_path": "/images/articles/cf3bcef6-affc-4c39-9c73-ce940fab787f-1.jpg"
+        }
+      ],
+      "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
+      "language": "nob",
+      "language_tag": "nb",
+      "metadata": "content/nob/articles/cf3bcef6-affc-4c39-9c73-ce940fab787f.json",
+      "metadata_sha256": "4538026b5260c093ef4a42bb18e7ee44b3bbe35a5e17b4188a38b2d76cd491b5",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "Farer i vår tid",
+      "source_revision": "a069ecca8827634ebc256b3b1cabc16aeb942ed7",
+      "source_translation_key": "7186a7dafd85adebb8f6876e1cafaf204ddce9783339d4da1f44b2bb46a15d75",
+      "status": "ready",
+      "subtitle": null,
+      "title": "I verden, men ikke av verden",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/nob/articles/d0395fde-712d-488d-a161-c26c87ed128b.html",
       "html_sha256": "78d8797204a5e50643607c1284770250a738cdf802f4c6f745b4f1a4f1d3df51",
       "human_reviewed": false,
