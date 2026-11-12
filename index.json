@@ -22069,6 +22069,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/deu/articles/324b0fa1-c057-471e-8e90-8eb699e8285a.html",
+      "html_sha256": "7c1773878251cf17852a719371046b33eb01757169ab04bb7057c61d4b4bca1e",
+      "human_reviewed": false,
+      "id": "324b0fa1-c057-471e-8e90-8eb699e8285a",
+      "images": [
+        {
+          "alt": "Eine offene Bibel und eine grüne Topfpflanze neben einem Fenster mit Vorhängen.",
+          "public_path": "/images/articles/324b0fa1-c057-471e-8e90-8eb699e8285a-1.jpg"
+        },
+        {
+          "alt": "Rote Knospen an Ästen vor einem sanft verschwommenen Hintergrund.",
+          "public_path": "/images/articles/324b0fa1-c057-471e-8e90-8eb699e8285a-2.jpg"
+        }
+      ],
+      "issue_id": "103c93e0-6e9a-44f6-a6bc-377af8e08e38",
+      "language": "deu",
+      "language_tag": "de",
+      "metadata": "content/deu/articles/324b0fa1-c057-471e-8e90-8eb699e8285a.json",
+      "metadata_sha256": "bc7d270e10d4f61ccd2303f4591c5a9f857998343537e62a1dcf5651c81208c8",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": null,
+      "source_revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
+      "source_translation_key": "ffc57a5aa833a4ec2481350c59b2f0532517af685342cc26f3ca07aadfae2d52",
+      "status": "ready",
+      "subtitle": "Frieden in einer seelischen Krise finden",
+      "title": "Jesus Christus, die Antwort auf die Zerbrochenheit der Menschheit",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/deu/articles/3558b7f3-5296-4770-a7c6-d420c923642d.html",
       "html_sha256": "cea64e95d5efb280ce95f0d828ffc4586be628e4408540d54558955e15eafd4d",
       "human_reviewed": false,
