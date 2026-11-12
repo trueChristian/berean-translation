@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Article body, paragraph beginning “One day, I am going about my daily chores.”",
+      "severity": "major",
+      "source_quote": "“I suddenly see a picture of Mary in the tomb, wanting to cradle Jesus’s head in her hands.”",
+      "suggested_fix": "Change “قبر میں مریم کا خیال آتا ہے” to “قبر کے پاس مریم کا خیال آتا ہے” so Mary is at the tomb, not inside it.",
+      "translation_quote": "“اچانک مجھے قبر میں مریم کا خیال آتا ہے، جو یسوع کا سر اپنے ہاتھوں میں تھامنا چاہتی تھی۔”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}
