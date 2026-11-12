@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-12T10:18:23+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"html：第一周用餐训练结束、描述贾德森伸手寻求支持的段落\",\n      \"severity\": \"major\",\n      \"source_quote\": \"he would offer Sterling and I each one of his little paddies to hold while he ate, as if that gave him courage.\",\n      \"suggested_fix\": \"将该句改为：“他会摆出滑稽又可怜的表情，把两只小手分别伸给斯特林和我握着，一边吃饭，仿佛这样能给他勇气。”\",\n      \"translation_quote\": \"他会摆出滑稽又可怜的表情，把他的一小块便便分别递给斯特林和我拿着，自己边吃边看，仿佛这样能给他勇气。\"\n    },\n    {\n      \"location\": \"html：母亲回顾依附关系问题、以“我仔细想了想”开头的段落\",\n      \"severity\": \"major\",\n      \"source_quote\": \"If he did have bonding issues, then I would have been doing the wrong thing his entire baby life.\",\n      \"suggested_fix\": \"改为：“如果他确实有依附关系方面的问题，那我在他整个婴儿时期的做法就一直是错的。”\",\n      \"translation_quote\": \"如果他确实有依附关系方面的问题，那我整个婴儿时期都做错了。\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": false,\n  \"score\": 93\n}",
+    "content_bytes": 1263,
+    "content_evidence_truncated": false,
+    "content_sha256": "011ae3e28aff7bbf0047b15f3602fa75f7b504145407e4cef5b74fdfe227131a",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 445,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 80,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 15030,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 15027,
+        "cached_tokens": 0
+      },
+      "total_tokens": 15475
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}
