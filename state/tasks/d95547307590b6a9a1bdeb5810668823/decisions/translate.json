@@ -1,0 +1,6 @@
+{
+  "findings": [],
+  "outcome": "content_filter",
+  "reason": "Missing, ambiguous, or truncated model response",
+  "stage": "translate"
+}
