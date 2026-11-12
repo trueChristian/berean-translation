@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph beginning “Let’s look at an example”",
+      "severity": "minor",
+      "source_quote": "“In Haiti, felines are actually considered a delicacy.”",
+      "suggested_fix": "将“猫科动物”改为“猫”，以对应上下文所指的猫。",
+      "translation_quote": "“在海地，猫科动物实际上被视为美味佳肴。”"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

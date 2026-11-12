@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "7d3f6594-0135-4b77-bf7c-5bf48ea052d3",
+    "response_id": "chatcmpl-EjD6jTUKuuzawWWzTiLAxW4HREbho",
+    "usage": {
+      "completion_tokens": 768,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 648,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7272,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6169,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 8040
+    }
+  },
+  "received_at": "2026-11-12T01:35:13+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph beginning “Let’s look at an example”",
+        "severity": "minor",
+        "source_quote": "“In Haiti, felines are actually considered a delicacy.”",
+        "suggested_fix": "将“猫科动物”改为“猫”，以对应上下文所指的猫。",
+        "translation_quote": "“在海地，猫科动物实际上被视为美味佳肴。”"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 99
+  }
+}
