@@ -5,11 +5,47 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "2ee17b09424c402ab379c63dd01440b8",
   "campaign": "auto-59f26e112a7b470c341b49f2dbdfa916cf38f0583bb64fdda6118e98e6c5d728",
   "created_at": "2026-11-12T01:38:52+00:00",
-  "events": [],
-  "findings": [],
+  "events": [
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 415,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 118,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5550,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 5547,
+          "cached_tokens": 0
+        },
+        "total_tokens": 5965
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "translation.html, avsnitt 10, «Som kristne prøver vi …»",
+      "severity": "major",
+      "source_quote": "As Christians we try to be a peaceful and trusting people, yet this tends to make us vulnerable to be quite gullible.",
+      "suggested_fix": "Som kristne prøver vi å være et fredelig og tillitsfullt folk, men dette kan gjøre oss sårbare for å være ganske godtroende.",
+      "translation_quote": "Som kristne prøver vi å være et fredelig folk som setter vår lit til Gud, men dette gjør oss tilbøyelige til å være ganske godtroende."
+    },
+    {
+      "location": "translation.html, siste setning i avsnitt 2",
+      "severity": "minor",
+      "source_quote": "observed throughout our plain communities",
+      "suggested_fix": "Erstatt «i lokalsamfunnene våre» med «i de enkle kristne miljøene våre», i samsvar med betegnelsen som brukes senere i oversettelsen.",
+      "translation_quote": "observert i lokalsamfunnene våre"
+    }
+  ],
   "id": "26b64d64b468d4c696a022876b826dcc",
   "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
   "language": "nob",
@@ -98,11 +134,13 @@
     }
   },
   "protected": false,
+  "quality_score": 94,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/b7ee9f03e59e498365e87293a0a34c9d2c750ef44928669a1eefd8094c67be20.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "review1",
     "max_candidate_bytes": 120000,
@@ -115,7 +153,7 @@
     "total_reserved_usd": 0.724233,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 0,
   "translation_key": "7186a7dafd85adebb8f6876e1cafaf204ddce9783339d4da1f44b2bb46a15d75",
   "translation_model_actual": "gpt-6-luna"

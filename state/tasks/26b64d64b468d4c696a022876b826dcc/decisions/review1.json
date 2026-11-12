@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "translation.html, avsnitt 10, «Som kristne prøver vi …»",
+      "severity": "major",
+      "source_quote": "As Christians we try to be a peaceful and trusting people, yet this tends to make us vulnerable to be quite gullible.",
+      "suggested_fix": "Som kristne prøver vi å være et fredelig og tillitsfullt folk, men dette kan gjøre oss sårbare for å være ganske godtroende.",
+      "translation_quote": "Som kristne prøver vi å være et fredelig folk som setter vår lit til Gud, men dette gjør oss tilbøyelige til å være ganske godtroende."
+    },
+    {
+      "location": "translation.html, siste setning i avsnitt 2",
+      "severity": "minor",
+      "source_quote": "observed throughout our plain communities",
+      "suggested_fix": "Erstatt «i lokalsamfunnene våre» med «i de enkle kristne miljøene våre», i samsvar med betegnelsen som brukes senere i oversettelsen.",
+      "translation_quote": "observert i lokalsamfunnene våre"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "fa4d2612-13f7-9548-912b-e35cdbe20572",
+    "response_id": "chatcmpl-EjEN6SboxUX4X3jBlevbpg4jhGlAk",
+    "usage": {
+      "completion_tokens": 415,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 118,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5550,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5547,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5965
+    }
+  },
+  "received_at": "2026-11-12T02:05:51+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "translation.html, avsnitt 10, «Som kristne prøver vi …»",
+        "severity": "major",
+        "source_quote": "As Christians we try to be a peaceful and trusting people, yet this tends to make us vulnerable to be quite gullible.",
+        "suggested_fix": "Som kristne prøver vi å være et fredelig og tillitsfullt folk, men dette kan gjøre oss sårbare for å være ganske godtroende.",
+        "translation_quote": "Som kristne prøver vi å være et fredelig folk som setter vår lit til Gud, men dette gjør oss tilbøyelige til å være ganske godtroende."
+      },
+      {
+        "location": "translation.html, siste setning i avsnitt 2",
+        "severity": "minor",
+        "source_quote": "observed throughout our plain communities",
+        "suggested_fix": "Erstatt «i lokalsamfunnene våre» med «i de enkle kristne miljøene våre», i samsvar med betegnelsen som brukes senere i oversettelsen.",
+        "translation_quote": "observert i lokalsamfunnene våre"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 94
+  }
+}

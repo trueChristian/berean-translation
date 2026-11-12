@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-12T02:05:51+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"translation.html, avsnitt 10, «Som kristne prøver vi …»\",\n      \"severity\": \"major\",\n      \"source_quote\": \"As Christians we try to be a peaceful and trusting people, yet this tends to make us vulnerable to be quite gullible.\",\n      \"suggested_fix\": \"Som kristne prøver vi å være et fredelig og tillitsfullt folk, men dette kan gjøre oss sårbare for å være ganske godtroende.\",\n      \"translation_quote\": \"Som kristne prøver vi å være et fredelig folk som setter vår lit til Gud, men dette gjør oss tilbøyelige til å være ganske godtroende.\"\n    },\n    {\n      \"location\": \"translation.html, siste setning i avsnitt 2\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"observed throughout our plain communities\",\n      \"suggested_fix\": \"Erstatt «i lokalsamfunnene våre» med «i de enkle kristne miljøene våre», i samsvar med betegnelsen som brukes senere i oversettelsen.\",\n      \"translation_quote\": \"observert i lokalsamfunnene våre\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": false,\n  \"score\": 94\n}",
+    "content_bytes": 1082,
+    "content_evidence_truncated": false,
+    "content_sha256": "d1e2a577dffa2da427eb205ec108d6dff25da66cacd66b1ec792bb804a62bc1a",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 415,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 118,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5550,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5547,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5965
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}
