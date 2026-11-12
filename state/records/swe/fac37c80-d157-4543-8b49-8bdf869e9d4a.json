@@ -13,9 +13,16 @@
       "event": "not_ready",
       "reason": "Final review failed; a recovery continuation must pass admission",
       "task": "ecea97a38b0ef202d3d4071b5b9a02bb"
+    },
+    {
+      "at": "2026-11-12T02:24:20+00:00",
+      "campaign": "auto-cc8a9d0c61d32eb1e40947b1b76ccff1579d52f8df1bcce41b7531c12dfcf93a",
+      "event": "automatic_requested",
+      "previous_task": "ecea97a38b0ef202d3d4071b5b9a02bb",
+      "task": "f3b2550994038a6d53333efe8aaa6c84"
     }
   ],
   "language": "swe",
-  "latest_task": "ecea97a38b0ef202d3d4071b5b9a02bb",
+  "latest_task": "f3b2550994038a6d53333efe8aaa6c84",
   "published": null
 }
