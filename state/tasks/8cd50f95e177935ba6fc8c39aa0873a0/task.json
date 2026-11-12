@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": "a441df2c438025303b8f3e3fb5b758dbdeaca37602599e58aa4f1cda2bc50913",
   "base_metadata_sha256": "3d3567ef3d9887e01b713b8342b59b2a514e5d7c87dfc463f91748e286d0b52c",
-  "batch": "dae706db34d042f7837ff680e5ead783",
   "campaign": "auto-ef64671605459aa7b81912a3426e9e6463bd8fabe0c7da1ff0319a25e69ef9fc",
   "created_at": "2026-11-05T15:30:21+00:00",
   "events": [
@@ -68,25 +67,40 @@
         },
         "total_tokens": 10364
       }
-    }
-  ],
-  "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "Paragraph 5, quoted sentence",
-      "severity": "major",
-      "source_quote": "“Mothers who were applauded by society were suddenly bombarded with a new buzzword—fullfillment.”",
-      "suggested_fix": "Replace «selvrealisering» with «oppfyllelse» (or «fullbyrdelse») to convey the source’s “fulfillment.”",
-      "translation_quote": "«Mødre som samfunnet hadde hyllet, ble plutselig bombardert med et nytt moteord – selvrealisering.»"
     },
     {
-      "location": "Paragraph 11, Psalm 127:3–5 quotation",
-      "severity": "major",
-      "source_quote": "“Happy is the man that hath his quiver full of them”",
-      "suggested_fix": "Replace «koggoret fullt av dem» with «koggeret fullt av dem».",
-      "translation_quote": "«Lykkelig er den mann som har koggoret fullt av dem»"
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 804,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 640,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7180,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 7177,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7984
+      }
     }
   ],
+  "failure": "Final review failed; a recovery continuation must pass admission",
+  "failure_kind": "quality_rejection",
+  "findings": [
+    {
+      "location": "Titus 2 quotations: first quotation (Titus 2:3–5), the paragraph beginning «Før i tiden…», and the two later quotations of Titus 2:4–5",
+      "severity": "major",
+      "source_quote": "“keepers at home”",
+      "suggested_fix": "Replace each occurrence of «hjemmekjære» with «ta seg av hjemmet» (for example, «…rene, ta seg av hjemmet, gode…») to convey the responsibility of caring for the home rather than simply being fond of it.",
+      "translation_quote": "«hjemmekjære»"
+    }
+  ],
+  "finished_at": "2026-11-12T01:37:03+00:00",
   "id": "8cd50f95e177935ba6fc8c39aa0873a0",
   "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
   "language": "nob",
@@ -175,7 +189,7 @@
     }
   },
   "protected": false,
-  "quality_score": 91,
+  "quality_score": 95,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
@@ -195,7 +209,7 @@
     "total_reserved_usd": 0.089135,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "aca8415cfcf9e5554286626ac6bcaa5724f97b93dadbcdbbe3b6300ec48874e3",
   "translation_model_actual": "gpt-6-luna"

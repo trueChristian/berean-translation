@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "2ec245da-ae4e-4419-8b16-addceec5cad2",
+    "response_id": "chatcmpl-EjDsEhEDKLKo9osP1RmsruRHlN3Uf",
+    "usage": {
+      "completion_tokens": 804,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 640,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7180,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7177,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7984
+    }
+  },
+  "received_at": "2026-11-12T01:37:03+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Titus 2 quotations: first quotation (Titus 2:3–5), the paragraph beginning «Før i tiden…», and the two later quotations of Titus 2:4–5",
+        "severity": "major",
+        "source_quote": "“keepers at home”",
+        "suggested_fix": "Replace each occurrence of «hjemmekjære» with «ta seg av hjemmet» (for example, «…rene, ta seg av hjemmet, gode…») to convey the responsibility of caring for the home rather than simply being fond of it.",
+        "translation_quote": "«hjemmekjære»"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 95
+  }
+}

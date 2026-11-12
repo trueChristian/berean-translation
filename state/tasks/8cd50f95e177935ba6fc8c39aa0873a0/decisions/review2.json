@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Titus 2 quotations: first quotation (Titus 2:3–5), the paragraph beginning «Før i tiden…», and the two later quotations of Titus 2:4–5",
+      "severity": "major",
+      "source_quote": "“keepers at home”",
+      "suggested_fix": "Replace each occurrence of «hjemmekjære» with «ta seg av hjemmet» (for example, «…rene, ta seg av hjemmet, gode…») to convey the responsibility of caring for the home rather than simply being fond of it.",
+      "translation_quote": "«hjemmekjære»"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

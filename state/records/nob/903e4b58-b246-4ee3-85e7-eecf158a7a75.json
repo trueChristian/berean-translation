@@ -32,6 +32,12 @@
       "event": "automatic_requested",
       "previous_task": "60d7038f68a748b0debd7d4925c420c7",
       "task": "8cd50f95e177935ba6fc8c39aa0873a0"
+    },
+    {
+      "at": "2026-11-12T01:37:03+00:00",
+      "event": "not_ready",
+      "reason": "Final review failed; a recovery continuation must pass admission",
+      "task": "8cd50f95e177935ba6fc8c39aa0873a0"
     }
   ],
   "language": "nob",
