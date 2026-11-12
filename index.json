@@ -851,11 +851,17 @@
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {
-      "ai_notice_required": true,
+      "ai_notice_required": false,
       "direction": "ltr",
       "html": "content/afr/articles/1f294c3b-4295-4493-8a52-a33af40f298b.html",
-      "html_sha256": "c519d7d2b91bee4f7d60c84d20985883f0c5e15c850d1d03e15819d505baca39",
-      "human_reviewed": false,
+      "html_sha256": "2938673e23e1bb9e31097cdccfb36a4de15082b01df45a13f55cab667cc3f506",
+      "human_edit": {
+        "author": "Malachi",
+        "commit": "957a3825914d5845e6e82d509f67325a358780e3",
+        "email": "163401881+malachivdm@users.noreply.github.com",
+        "time": "2026-11-12T15:49:26+02:00"
+      },
+      "human_reviewed": true,
       "id": "1f294c3b-4295-4493-8a52-a33af40f298b",
       "images": [
         {
@@ -868,6 +874,7 @@
       "language_tag": "af",
       "metadata": "content/afr/articles/1f294c3b-4295-4493-8a52-a33af40f298b.json",
       "metadata_sha256": "c3bd3c26f76ecf1f877eaaaada7faf8ad4f0a44fb6392c4e944b7f1ad13a46d5",
+      "notice_present": true,
       "provider": "OpenAI",
       "review_model": "gpt-6-luna",
       "section": null,

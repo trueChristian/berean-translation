@@ -13,15 +13,33 @@
       "event": "complete",
       "reason": null,
       "task": "1592cb97e2d556c036790f8af2e03846"
+    },
+    {
+      "event": "human_review",
+      "evidence": {
+        "author": "Malachi",
+        "commit": "957a3825914d5845e6e82d509f67325a358780e3",
+        "email": "163401881+malachivdm@users.noreply.github.com",
+        "time": "2026-11-12T15:49:26+02:00"
+      },
+      "html_sha256": "2938673e23e1bb9e31097cdccfb36a4de15082b01df45a13f55cab667cc3f506",
+      "metadata_sha256": "c3bd3c26f76ecf1f877eaaaada7faf8ad4f0a44fb6392c4e944b7f1ad13a46d5"
     }
   ],
   "language": "afr",
   "latest_task": "1592cb97e2d556c036790f8af2e03846",
   "published": {
+    "accepted_snapshot": "state/publications/49d9097fa0277284ab92c5b68ab2304936b7a8e352325b6716c7bedb6d1e51d4.json",
     "html_path": "content/afr/articles/1f294c3b-4295-4493-8a52-a33af40f298b.html",
-    "html_sha256": "c519d7d2b91bee4f7d60c84d20985883f0c5e15c850d1d03e15819d505baca39",
-    "human_review": null,
-    "human_reviewed": false,
+    "html_sha256": "2938673e23e1bb9e31097cdccfb36a4de15082b01df45a13f55cab667cc3f506",
+    "human_review": {
+      "author": "Malachi",
+      "commit": "957a3825914d5845e6e82d509f67325a358780e3",
+      "email": "163401881+malachivdm@users.noreply.github.com",
+      "time": "2026-11-12T15:49:26+02:00"
+    },
+    "human_review_notice_html": "<aside class=\"translation-notice\" data-translation-notice=\"human-reviewed\" lang=\"af\" dir=\"ltr\" role=\"note\">\n  <p>Hierdie artikel is deur ’n mens nagegaan, hoewel dit oorspronklik met KI vertaal is. Die Engelse oorspronklike bly die gesaghebbende weergawe. <a href=\"/en/articles/1f294c3b-4295-4493-8a52-a33af40f298b/\" data-source-article-id=\"1f294c3b-4295-4493-8a52-a33af40f298b\" hreflang=\"en\">Engelse oorspronklike</a></p>\n</aside>",
+    "human_reviewed": true,
     "issue_id": "07955de4-6574-4a4b-9c1b-f216374c02ee",
     "metadata_path": "content/afr/articles/1f294c3b-4295-4493-8a52-a33af40f298b.json",
     "metadata_sha256": "c3bd3c26f76ecf1f877eaaaada7faf8ad4f0a44fb6392c4e944b7f1ad13a46d5",
