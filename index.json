@@ -33114,6 +33114,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/fra/articles/46f89299-c0a0-407c-9898-01a0c150c453.html",
+      "html_sha256": "ed0d26721d417ed68262512602cb99e08fd0f601777658ffa6fe0ea8798ce05f",
+      "human_reviewed": false,
+      "id": "46f89299-c0a0-407c-9898-01a0c150c453",
+      "images": [
+        {
+          "alt": "Trois garçons assis sur un banc avec un bébé.",
+          "public_path": "/images/articles/46f89299-c0a0-407c-9898-01a0c150c453-1.jpg"
+        }
+      ],
+      "issue_id": "103c93e0-6e9a-44f6-a6bc-377af8e08e38",
+      "language": "fra",
+      "language_tag": "fr",
+      "metadata": "content/fra/articles/46f89299-c0a0-407c-9898-01a0c150c453.json",
+      "metadata_sha256": "eef5f182ce6809f6a24ff2c20a7a39fffdbd6b30360c16668a7a4331f20ac855",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "DE SŒUR À SŒUR",
+      "source_revision": "6c3e27346b6b031f46e29e723e884fe8407806b7",
+      "source_translation_key": "0afcc7ac219484ffe40d0a8780ac11cb2b9f1aabb8e86a8de9c7d9ef16398e27",
+      "status": "ready",
+      "subtitle": null,
+      "title": "L’adoration d’une mère",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/fra/articles/47fbbdc9-6663-49d8-96d7-b5a6ecb8d689.html",
       "html_sha256": "bd3a6429dc3b1c08bda5ab02a32cd0d40f1291063b3b0ac73ebf9266f5848dad",
       "human_reviewed": false,
