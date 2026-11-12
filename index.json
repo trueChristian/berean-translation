@@ -20034,6 +20034,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/cmn/articles/ba15e3da-aab4-401c-9ec7-64b88ac22833.html",
+      "html_sha256": "9a3f5e39390bc8c2ea464e7906c7d4758a1f91e3f48ae34ec0688978cb99dca3",
+      "human_reviewed": false,
+      "id": "ba15e3da-aab4-401c-9ec7-64b88ac22833",
+      "images": [
+        {
+          "alt": "一个新生儿的小手握着一根成年人的手指",
+          "public_path": "/images/articles/ba15e3da-aab4-401c-9ec7-64b88ac22833-1.jpg"
+        },
+        {
+          "alt": "一间空荡荡的医院病房，里面有一张病床和座椅",
+          "public_path": "/images/articles/ba15e3da-aab4-401c-9ec7-64b88ac22833-2.jpg"
+        }
+      ],
+      "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
+      "language": "cmn",
+      "language_tag": "zh-Hans",
+      "metadata": "content/cmn/articles/ba15e3da-aab4-401c-9ec7-64b88ac22833.json",
+      "metadata_sha256": "1533c770211c45fdc83feb6a1a32ddbecfe2b5e67f939f61c375cb163982f3ad",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "姐妹之间",
+      "source_revision": "a069ecca8827634ebc256b3b1cabc16aeb942ed7",
+      "source_translation_key": "c0ea566946f0a6021377107c368c8e903efb03bae10a6af153c1e6371a1e792a",
+      "status": "ready",
+      "subtitle": null,
+      "title": "当上帝的道路行得通",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/cmn/articles/ba1df680-e125-4b7a-a6dd-6ad35433e1b5.html",
       "html_sha256": "f1f37ce9face63ced3fc5c44acc2661bc0a8082633e19d34fb10a35691434669",
       "human_reviewed": false,
