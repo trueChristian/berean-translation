@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "59f258cdba3c4f5c8ffc0a9ebdfc69f3",
   "campaign": "auto-14e923b80e89124cd4ac169432ea612306b1c3c0cfac320cc7fd5091d94782d4",
   "created_at": "2026-11-10T21:30:35+00:00",
   "events": [
@@ -68,18 +67,31 @@
         },
         "total_tokens": 7329
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 544,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 512,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5042,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 5039,
+          "cached_tokens": 0
+        },
+        "total_tokens": 5586
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "Final paragraph",
-      "severity": "major",
-      "source_quote": "And that rich man, I am sad to tell you, had a very sad ending to his life.",
-      "suggested_fix": "Και, λυπάμαι που σας το λέω, ο πλούσιος είχε πολύ θλιβερό τέλος στη ζωή του.",
-      "translation_quote": "Και, λυπάμαι που σας το λέω, εκείνη η ιστορία του πλούσιου είχε πολύ θλιβερό τέλος."
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-11-12T01:35:27+00:00",
   "id": "481ef491493c9c7cd383f14745583f64",
   "issue_id": "103c93e0-6e9a-44f6-a6bc-377af8e08e38",
   "language": "ell",
@@ -168,7 +180,7 @@
     }
   },
   "protected": false,
-  "quality_score": 94,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
@@ -188,7 +200,7 @@
     "total_reserved_usd": 0.087331,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "7a6289704a964734c82f4dfa151db5c6907febafb6cf043a81275c1233c4e238",
   "translation_model_actual": "gpt-6-luna"
