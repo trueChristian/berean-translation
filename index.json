@@ -103725,6 +103725,34 @@
     {
       "ai_notice_required": true,
       "direction": "rtl",
+      "html": "content/urd/articles/46f89299-c0a0-407c-9898-01a0c150c453.html",
+      "html_sha256": "1d2d4f5ea72f730a0c7e22edc79297f9ffad73cafb52d2ea4385b6bcf050cd9b",
+      "human_reviewed": false,
+      "id": "46f89299-c0a0-407c-9898-01a0c150c453",
+      "images": [
+        {
+          "alt": "ایک بینچ پر ایک ننھے بچے کے ساتھ بیٹھے تین لڑکے۔",
+          "public_path": "/images/articles/46f89299-c0a0-407c-9898-01a0c150c453-1.jpg"
+        }
+      ],
+      "issue_id": "103c93e0-6e9a-44f6-a6bc-377af8e08e38",
+      "language": "urd",
+      "language_tag": "ur",
+      "metadata": "content/urd/articles/46f89299-c0a0-407c-9898-01a0c150c453.json",
+      "metadata_sha256": "c5ef90ab29bc2f559c60844fc0e3726f29c87756975878d816603dbe1b99fd99",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "بہن سے بہن تک",
+      "source_revision": "ccefc5a5c3d79409cc78319f94b5490718d30670",
+      "source_translation_key": "0afcc7ac219484ffe40d0a8780ac11cb2b9f1aabb8e86a8de9c7d9ef16398e27",
+      "status": "ready",
+      "subtitle": null,
+      "title": "ایک ماں کی عبادت",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
       "html": "content/urd/articles/48db8b57-eca2-4d35-a48f-13c21d68bab0.html",
       "html_sha256": "8a094dc10964713daa2e5889ad61f05806b2eaf1e0fb515735ff082b19b8e8c8",
       "human_reviewed": false,
