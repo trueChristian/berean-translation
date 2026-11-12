@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "f2020c4d-5c1b-47f3-8878-8c170a0d204b",
+    "response_id": "chatcmpl-EjJAifnsx1oXSVthl8Ef6RywGDoon",
+    "usage": {
+      "completion_tokens": 602,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 386,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3294,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3291,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3896
+    }
+  },
+  "received_at": "2026-11-12T09:47:02+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, third paragraph, quoted sentence beginning ‘Wie onrechtvaardig is’",
+        "severity": "major",
+        "source_quote": "“He that is unjust, let him be unjust still; he that is filthy, let him be filthy still. He that is righteous, let him be righteous still; he that is holy let him be holy still.”",
+        "suggested_fix": "‘Wie onrechtvaardig is, laat hij onrechtvaardig blijven; wie vuil is, laat hij vuil blijven. Wie rechtvaardig is, laat hij rechtvaardig blijven; wie heilig is, laat hij heilig blijven.’",
+        "translation_quote": "‘Wie onrechtvaardig is, laat hij nog onrechtvaardiger worden; wie vuil is, laat hij nog vuiler worden. Wie rechtvaardig is, laat hij nog rechtvaardiger worden; wie heilig is, laat hij nog heiliger worden.’"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 92
+  }
+}

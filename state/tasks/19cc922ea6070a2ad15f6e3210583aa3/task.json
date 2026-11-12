@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "1ee01ee0dcf141a8971e5cd8f2b1c02a",
   "campaign": "auto-fcccd81a44643069dc8132b2518808fbf503d034869c8f4fee852842a84a356d",
   "created_at": "2026-10-31T23:09:55+00:00",
   "events": [
@@ -28,10 +27,38 @@
         },
         "total_tokens": 3059
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 602,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 386,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3294,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 3291,
+          "cached_tokens": 0
+        },
+        "total_tokens": 3896
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "HTML, third paragraph, quoted sentence beginning ‘Wie onrechtvaardig is’",
+      "severity": "major",
+      "source_quote": "“He that is unjust, let him be unjust still; he that is filthy, let him be filthy still. He that is righteous, let him be righteous still; he that is holy let him be holy still.”",
+      "suggested_fix": "‘Wie onrechtvaardig is, laat hij onrechtvaardig blijven; wie vuil is, laat hij vuil blijven. Wie rechtvaardig is, laat hij rechtvaardig blijven; wie heilig is, laat hij heilig blijven.’",
+      "translation_quote": "‘Wie onrechtvaardig is, laat hij nog onrechtvaardiger worden; wie vuil is, laat hij nog vuiler worden. Wie rechtvaardig is, laat hij nog rechtvaardiger worden; wie heilig is, laat hij nog heiliger worden.’"
+    }
+  ],
   "id": "19cc922ea6070a2ad15f6e3210583aa3",
   "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
   "language": "nld",
@@ -120,11 +147,13 @@
     }
   },
   "protected": false,
+  "quality_score": 92,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/d1ad1fde7c77815637c6fb95fb8f7e8a5023a172781ddce15f798d01cdf60f20.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "translate",
     "max_candidate_bytes": 120000,
@@ -138,7 +167,7 @@
     "total_reserved_usd": 0.086845,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "4a0f2e46d38c9417b9a0cd7d5b0a7beea7595a781a49fbd4e10a86619729e5b6",
   "translation_model_actual": "gpt-6-luna"
