@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph beginning “اگر ہمارے بچے”",
+      "severity": "major",
+      "source_quote": "“We change their diapers and bathe them and pull warm shirts over their heads”",
+      "suggested_fix": "ہم ان کے ڈائپر بدلتے ہیں، انہیں نہلاتے ہیں، ان کے سروں سے گرم قمیصیں گزار کر انہیں پہناتے ہیں، اور ان کے گول مٹول پاؤں میں موزے چڑھاتے ہیں۔",
+      "translation_quote": "“ہم ان کے ڈائپر بدلتے ہیں، انہیں نہلاتے ہیں، ان کے سروں سے گرم قمیصیں اتارتے ہیں اور ان کے گول مٹول پاؤں میں موزے چڑھاتے ہیں۔”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

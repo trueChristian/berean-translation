@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-12T10:18:40+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph beginning “اگر ہمارے بچے”\",\"severity\":\"major\",\"source_quote\":\"“We change their diapers and bathe them and pull warm shirts over their heads”\",\"suggested_fix\":\"ہم ان کے ڈائپر بدلتے ہیں، انہیں نہلاتے ہیں، ان کے سروں سے گرم قمیصیں گزار کر انہیں پہناتے ہیں، اور ان کے گول مٹول پاؤں میں موزے چڑھاتے ہیں۔\",\"translation_quote\":\"“ہم ان کے ڈائپر بدلتے ہیں، انہیں نہلاتے ہیں، ان کے سروں سے گرم قمیصیں اتارتے ہیں اور ان کے گول مٹول پاؤں میں موزے چڑھاتے ہیں۔”\"}],\"findings_complete\":true,\"passed\":false,\"score\":93}",
+    "content_bytes": 769,
+    "content_evidence_truncated": false,
+    "content_sha256": "59f61efe03b5944c4e343b600c4453128f36ddadd0a95bb23e0bc874f2e3cc7d",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 858,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 672,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6447,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6444,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7305
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}
