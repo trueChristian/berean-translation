@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "018feb34d0894f68b208553f9f938cf5",
   "campaign": "auto-686d3f8f9dff08be524110d976664a1f690fec6ff024fec3b34ac3ace25d2e2b",
   "created_at": "2026-11-11T18:57:07+00:00",
   "events": [
@@ -28,10 +27,45 @@
         },
         "total_tokens": 5581
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 938,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 746,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5935,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 4832,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 6873
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "Параграф, цитата «Так как вы сделали это…»",
+      "severity": "major",
+      "source_quote": "“Inasmuch as ye have done it unto one of the least of these, ye have done it unto me.”",
+      "suggested_fix": "«Так как вы сделали это одному из наименьших сих, то сделали Мне».",
+      "translation_quote": "«Так как вы сделали это одному из сих братьев Моих меньших, то сделали Мне»."
+    },
+    {
+      "location": "Последний абзац",
+      "severity": "minor",
+      "source_quote": "“to open the heart to the love of God”",
+      "suggested_fix": "«открывать сердце Божьей любви»",
+      "translation_quote": "«открыть сердце любви Бога»"
+    }
+  ],
   "id": "dbf52b6b5a9d92b530c29470ff8f34db",
   "issue_id": "103c93e0-6e9a-44f6-a6bc-377af8e08e38",
   "language": "rus",
@@ -120,11 +154,13 @@
     }
   },
   "protected": false,
+  "quality_score": 93,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/a9220f36cc5766af588a977b856e2b0a7ca22fb301ae73703bb22c7a9854c5a2.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "translate",
     "max_candidate_bytes": 120000,
@@ -138,7 +174,7 @@
     "total_reserved_usd": 0.088365,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "0afcc7ac219484ffe40d0a8780ac11cb2b9f1aabb8e86a8de9c7d9ef16398e27",
   "translation_model_actual": "gpt-6-luna"

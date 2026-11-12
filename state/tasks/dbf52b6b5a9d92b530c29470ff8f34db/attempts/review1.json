@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-12T10:18:47+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Параграф, цитата «Так как вы сделали это…»\",\"severity\":\"major\",\"source_quote\":\"“Inasmuch as ye have done it unto one of the least of these, ye have done it unto me.”\",\"suggested_fix\":\"«Так как вы сделали это одному из наименьших сих, то сделали Мне».\" ,\"translation_quote\":\"«Так как вы сделали это одному из сих братьев Моих меньших, то сделали Мне».\"},{\"location\":\"Последний абзац\",\"severity\":\"minor\",\"source_quote\":\"“to open the heart to the love of God”\",\"suggested_fix\":\"«открывать сердце Божьей любви»\",\"translation_quote\":\"«открыть сердце любви Бога»\"}],\"findings_complete\":true,\"passed\":false,\"score\":93}",
+    "content_bytes": 861,
+    "content_evidence_truncated": false,
+    "content_sha256": "ce98dc6788296a75cdab365ce0b4fc0de6571c8d1b59e950b3c79a7019c71fa7",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 938,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 746,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5935,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4832,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 6873
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}
