@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "translation.html, первый абзац",
+      "severity": "minor",
+      "source_quote": "As a young man I remember hearing a popular slogan about faith",
+      "suggested_fix": "Заменить начало предложения на: «Помню, как в юности я услышал популярный лозунг о вере».",
+      "translation_quote": "Юношей я помню, как услышал популярный лозунг о вере"
+    },
+    {
+      "location": "translation.html, абзац с цитатой Луки 1:1-4",
+      "severity": "minor",
+      "source_quote": "<u>I myself have carefully investigated everything</u> from the beginning ... <u>you may know the certainty of the things you have been taught.</u>",
+      "suggested_fix": "Восстановить выделение тегами <u> в соответствующих местах: «<u>я, тщательно исследовав все</u> с самого начала» и «чтобы <u>ты знал достоверность того, чему был научен.</u>». Остальной текст и тег <em> сохранить.",
+      "translation_quote": "я, тщательно исследовав все с самого начала ... чтобы ты знал достоверность того, чему был научен."
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}
