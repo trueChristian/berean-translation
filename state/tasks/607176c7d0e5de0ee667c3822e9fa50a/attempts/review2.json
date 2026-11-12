@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-12T01:36:23+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Dernier paragraphe\",\"severity\":\"minor\",\"source_quote\":\"Marvel not that I say you must be born again!\",\"suggested_fix\":\"Ne t’étonne pas que je te dise : il faut que tu naisses de nouveau !\",\"translation_quote\":\"Ne t’étonne pas que je te dise : il faut que vous naissiez de nouveau !\"}],\"findings_complete\":true,\"passed\":true,\"score\":99}",
+    "content_bytes": 367,
+    "content_evidence_truncated": false,
+    "content_sha256": "d34df0eef2f52898c3cfd3d8bf0946e78df00e4919663a838695dae91252836e",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 800,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 684,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7482,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6379,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 8282
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

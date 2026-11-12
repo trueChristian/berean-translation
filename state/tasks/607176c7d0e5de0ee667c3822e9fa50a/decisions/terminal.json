@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Dernier paragraphe",
+      "severity": "minor",
+      "source_quote": "Marvel not that I say you must be born again!",
+      "suggested_fix": "Ne t’étonne pas que je te dise : il faut que tu naisses de nouveau !",
+      "translation_quote": "Ne t’étonne pas que je te dise : il faut que vous naissiez de nouveau !"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}
