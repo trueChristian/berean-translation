@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "5cfd1fdd-e58e-428c-bae3-42b3d132abd7",
+    "response_id": "chatcmpl-EjqmEu1vLOzhgPR2S69LqNLLxvncq",
+    "usage": {
+      "completion_tokens": 338,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 54,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 14729,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 13626,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 15067
+    }
+  },
+  "received_at": "2026-11-13T21:35:05+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "translation.html, párrafo que comienza «No me importó dejar la dieta sin lácteos»",
+        "severity": "major",
+        "source_quote": "Judson held enemas in stubbornly.",
+        "suggested_fix": "Judson retenía obstinadamente el líquido de los enemas.",
+        "translation_quote": "Judson se resistía obstinadamente a los enemas."
+      },
+      {
+        "location": "translation.html, párrafo que comienza «Al final de la primera semana»",
+        "severity": "major",
+        "source_quote": "he would offer Sterling and I each one of his little paddies to hold while he ate, as if that gave him courage",
+        "suggested_fix": "nos ofrecía a Sterling y a mí una de sus manitas a cada uno para que se la sostuviéramos mientras comía, como si eso le diera valor",
+        "translation_quote": "ofrecía a Sterling y a mí una de sus pequeñas tortitas para que cada uno la sostuviera mientras él comía, como si eso le diera valor"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 94
+  }
+}

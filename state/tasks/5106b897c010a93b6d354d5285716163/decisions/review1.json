@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "translation.html, párrafo que comienza «No me importó dejar la dieta sin lácteos»",
+      "severity": "major",
+      "source_quote": "Judson held enemas in stubbornly.",
+      "suggested_fix": "Judson retenía obstinadamente el líquido de los enemas.",
+      "translation_quote": "Judson se resistía obstinadamente a los enemas."
+    },
+    {
+      "location": "translation.html, párrafo que comienza «Al final de la primera semana»",
+      "severity": "major",
+      "source_quote": "he would offer Sterling and I each one of his little paddies to hold while he ate, as if that gave him courage",
+      "suggested_fix": "nos ofrecía a Sterling y a mí una de sus manitas a cada uno para que se la sostuviéramos mientras comía, como si eso le diera valor",
+      "translation_quote": "ofrecía a Sterling y a mí una de sus pequeñas tortitas para que cada uno la sostuviera mientras él comía, como si eso le diera valor"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

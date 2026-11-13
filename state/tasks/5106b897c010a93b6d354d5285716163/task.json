@@ -5,11 +5,47 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "4685e4a73c1a4960933e5a006b44cd42",
   "campaign": "auto-c0a7a7407461a8aa5eff3b4aea2c566bc8d6b1ec98ba70fd86a55b1ea5cfbacb",
   "created_at": "2026-11-13T00:22:57+00:00",
-  "events": [],
-  "findings": [],
+  "events": [
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 338,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 54,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 14729,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 13626,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 15067
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "translation.html, párrafo que comienza «No me importó dejar la dieta sin lácteos»",
+      "severity": "major",
+      "source_quote": "Judson held enemas in stubbornly.",
+      "suggested_fix": "Judson retenía obstinadamente el líquido de los enemas.",
+      "translation_quote": "Judson se resistía obstinadamente a los enemas."
+    },
+    {
+      "location": "translation.html, párrafo que comienza «Al final de la primera semana»",
+      "severity": "major",
+      "source_quote": "he would offer Sterling and I each one of his little paddies to hold while he ate, as if that gave him courage",
+      "suggested_fix": "nos ofrecía a Sterling y a mí una de sus manitas a cada uno para que se la sostuviéramos mientras comía, como si eso le diera valor",
+      "translation_quote": "ofrecía a Sterling y a mí una de sus pequeñas tortitas para que cada uno la sostuviera mientras él comía, como si eso le diera valor"
+    }
+  ],
   "id": "5106b897c010a93b6d354d5285716163",
   "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
   "language": "spa",
@@ -98,11 +134,13 @@
     }
   },
   "protected": false,
+  "quality_score": 94,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/387a30a8b9a527909765f2e60773227d3f49a4a9b5776049e1f6de3e5552f735.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "review1",
     "max_candidate_bytes": 120000,
@@ -115,7 +153,7 @@
     "total_reserved_usd": 1.212422,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 0,
   "translation_key": "c0ea566946f0a6021377107c368c8e903efb03bae10a6af153c1e6371a1e792a",
   "translation_model_actual": "gpt-6-luna"

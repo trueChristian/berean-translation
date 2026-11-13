@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-13T21:35:05+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"translation.html, párrafo que comienza «No me importó dejar la dieta sin lácteos»\",\n      \"severity\": \"major\",\n      \"source_quote\": \"Judson held enemas in stubbornly.\",\n      \"suggested_fix\": \"Judson retenía obstinadamente el líquido de los enemas.\",\n      \"translation_quote\": \"Judson se resistía obstinadamente a los enemas.\"\n    },\n    {\n      \"location\": \"translation.html, párrafo que comienza «Al final de la primera semana»\",\n      \"severity\": \"major\",\n      \"source_quote\": \"he would offer Sterling and I each one of his little paddies to hold while he ate, as if that gave him courage\",\n      \"suggested_fix\": \"nos ofrecía a Sterling y a mí una de sus manitas a cada uno para que se la sostuviéramos mientras comía, como si eso le diera valor\",\n      \"translation_quote\": \"ofrecía a Sterling y a mí una de sus pequeñas tortitas para que cada uno la sostuviera mientras él comía, como si eso le diera valor\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": false,\n  \"score\": 94\n}",
+    "content_bytes": 1054,
+    "content_evidence_truncated": false,
+    "content_sha256": "fd3a56761ba004e1894dad053d11838194ba10f084f113b40fd634cf7be1f8fc",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 338,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 54,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 14729,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 13626,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 15067
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}
