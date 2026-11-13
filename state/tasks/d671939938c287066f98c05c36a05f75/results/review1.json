@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "2b0a0d5b-81f6-4914-9078-0be5b9f0f1d9",
+    "response_id": "chatcmpl-EjWdOCKm4fUGu2GHs9v9hMRKaPydt",
+    "usage": {
+      "completion_tokens": 712,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 590,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4349,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3246,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 5061
+    }
+  },
+  "received_at": "2026-11-13T00:17:10+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, opening paragraph",
+        "severity": "minor",
+        "source_quote": "A drift of snow swirled down the alley on a wet, chilly wind.",
+        "suggested_fix": "Die sneeu het op ’n nat, koue wind deur die stegie gewarrel.",
+        "translation_quote": "’n Sneeustorm het op ’n nat, koue wind by die stegie afgedwarrel."
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}

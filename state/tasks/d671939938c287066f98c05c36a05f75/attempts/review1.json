@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-13T00:17:10+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, opening paragraph\",\"severity\":\"minor\",\"source_quote\":\"A drift of snow swirled down the alley on a wet, chilly wind.\",\"suggested_fix\":\"Die sneeu het op ’n nat, koue wind deur die stegie gewarrel.\",\"translation_quote\":\"’n Sneeustorm het op ’n nat, koue wind by die stegie afgedwarrel.\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 374,
+    "content_evidence_truncated": false,
+    "content_sha256": "6a5c66c3282fd713592a70405a5f22fee89fa2727ae48a9a4cc3afbf962bef03",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 712,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 590,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4349,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3246,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 5061
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}
