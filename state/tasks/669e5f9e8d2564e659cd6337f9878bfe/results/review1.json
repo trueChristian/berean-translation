@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "473b1d12-4717-49c3-ba2d-1d3389b0f563",
+    "response_id": "chatcmpl-EjfEp4RWDPWgEExUUwvyRlsKIUr0H",
+    "usage": {
+      "completion_tokens": 596,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 501,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4207,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3104,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 4803
+    }
+  },
+  "received_at": "2026-11-13T07:09:51+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph 9",
+        "severity": "minor",
+        "source_quote": "She placed a steaming bowl of soup into his hands.",
+        "suggested_fix": "Она вложила ему в руки миску дымящегося супа.",
+        "translation_quote": "Она вложила ему в руки дымящуюся тарелку супа."
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 99
+  }
+}

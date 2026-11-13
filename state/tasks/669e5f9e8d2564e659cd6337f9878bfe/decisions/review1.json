@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph 9",
+      "severity": "minor",
+      "source_quote": "She placed a steaming bowl of soup into his hands.",
+      "suggested_fix": "Она вложила ему в руки миску дымящегося супа.",
+      "translation_quote": "Она вложила ему в руки дымящуюся тарелку супа."
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}
