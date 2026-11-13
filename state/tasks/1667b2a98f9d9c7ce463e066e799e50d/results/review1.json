@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "ba6afa79-7519-439c-aefe-2aadc2a8c8af",
+    "response_id": "chatcmpl-EjgtORIDt7GqzNZVUeNvuG4uI5TA7",
+    "usage": {
+      "completion_tokens": 761,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 626,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5962,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5959,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6723
+    }
+  },
+  "received_at": "2026-11-13T08:39:41+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Article HTML, paragraph beginning “Ved verdens ende” (closing quotation)",
+        "severity": "major",
+        "source_quote": "“Inasmuch as ye have done it unto one of the least of these, ye have done it unto me.”",
+        "suggested_fix": "«Det dere har gjort mot én av disse minste, har dere gjort mot meg.»",
+        "translation_quote": "«Det dere har gjort mot én av disse mine minste søsken, har dere gjort mot meg.»"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 94
+  }
+}

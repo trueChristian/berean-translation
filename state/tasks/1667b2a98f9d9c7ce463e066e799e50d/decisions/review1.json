@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Article HTML, paragraph beginning “Ved verdens ende” (closing quotation)",
+      "severity": "major",
+      "source_quote": "“Inasmuch as ye have done it unto one of the least of these, ye have done it unto me.”",
+      "suggested_fix": "«Det dere har gjort mot én av disse minste, har dere gjort mot meg.»",
+      "translation_quote": "«Det dere har gjort mot én av disse mine minste søsken, har dere gjort mot meg.»"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
