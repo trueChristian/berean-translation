@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "c72163ff-6861-47d1-ac32-e7f94ff015b7",
+    "response_id": "chatcmpl-EjZiYK55yLeRqkyMW0fZvaf9U83nA",
+    "usage": {
+      "completion_tokens": 419,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 183,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 15853,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 14750,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 16272
+    }
+  },
+  "received_at": "2026-11-13T01:01:04+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "translation.html — Sterling se antwoord oor kinderopvoeding: “Dit is nie wat ek ...”",
+        "severity": "minor",
+        "source_quote": "This isn’t what I would have been taught about raising a child.",
+        "suggested_fix": "Vervang “Dit is nie wat ek oor die grootmaak van ’n kind geleer sou word nie” met “Dit is nie wat ek oor die grootmaak van ’n kind geleer sou gewees het nie”.",
+        "translation_quote": "Dit is nie wat ek oor die grootmaak van ’n kind geleer sou word nie."
+      },
+      {
+        "location": "translation.html — Sterling se besluit om op etenstye te fokus, laaste sin",
+        "severity": "minor",
+        "source_quote": "Too important to keep letting ‘life’ interfere.",
+        "suggested_fix": "Vervang die sin met “Te belangrik om aan te hou toelaat dat ‘die lewe’ inmeng.”",
+        "translation_quote": "Te belangrik om aan te hou dat ‘die lewe’ inmeng."
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 97
+  }
+}

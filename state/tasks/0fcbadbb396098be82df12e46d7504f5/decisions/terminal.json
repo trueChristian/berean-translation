@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "translation.html — Sterling se antwoord oor kinderopvoeding: “Dit is nie wat ek ...”",
+      "severity": "minor",
+      "source_quote": "This isn’t what I would have been taught about raising a child.",
+      "suggested_fix": "Vervang “Dit is nie wat ek oor die grootmaak van ’n kind geleer sou word nie” met “Dit is nie wat ek oor die grootmaak van ’n kind geleer sou gewees het nie”.",
+      "translation_quote": "Dit is nie wat ek oor die grootmaak van ’n kind geleer sou word nie."
+    },
+    {
+      "location": "translation.html — Sterling se besluit om op etenstye te fokus, laaste sin",
+      "severity": "minor",
+      "source_quote": "Too important to keep letting ‘life’ interfere.",
+      "suggested_fix": "Vervang die sin met “Te belangrik om aan te hou toelaat dat ‘die lewe’ inmeng.”",
+      "translation_quote": "Te belangrik om aan te hou dat ‘die lewe’ inmeng."
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

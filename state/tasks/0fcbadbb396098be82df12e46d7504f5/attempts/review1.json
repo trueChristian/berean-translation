@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-13T01:01:04+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"translation.html — Sterling se antwoord oor kinderopvoeding: “Dit is nie wat ek ...”\",\"severity\":\"minor\",\"source_quote\":\"This isn’t what I would have been taught about raising a child.\",\"suggested_fix\":\"Vervang “Dit is nie wat ek oor die grootmaak van ’n kind geleer sou word nie” met “Dit is nie wat ek oor die grootmaak van ’n kind geleer sou gewees het nie”.\",\"translation_quote\":\"Dit is nie wat ek oor die grootmaak van ’n kind geleer sou word nie.\"},{\"location\":\"translation.html — Sterling se besluit om op etenstye te fokus, laaste sin\",\"severity\":\"minor\",\"source_quote\":\"Too important to keep letting ‘life’ interfere.\",\"suggested_fix\":\"Vervang die sin met “Te belangrik om aan te hou toelaat dat ‘die lewe’ inmeng.”\",\"translation_quote\":\"Te belangrik om aan te hou dat ‘die lewe’ inmeng.\"}],\"findings_complete\":true,\"passed\":true,\"score\":97}",
+    "content_bytes": 916,
+    "content_evidence_truncated": false,
+    "content_sha256": "e8e38af6de1b85090284f11f4f7306314818d2920f65b2ae65a10fbc1f2ce100",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 419,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 183,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 15853,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 14750,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 16272
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}

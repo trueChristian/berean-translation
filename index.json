@@ -4655,6 +4655,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/afr/articles/ba15e3da-aab4-401c-9ec7-64b88ac22833.html",
+      "html_sha256": "036b1690d522dbe9b66641ba794870a4417182eb5a9061224ec779a7ba10c3c2",
+      "human_reviewed": false,
+      "id": "ba15e3da-aab4-401c-9ec7-64b88ac22833",
+      "images": [
+        {
+          "alt": "’n Pasgebore baba se handjie wat ’n volwassene se vinger vashou",
+          "public_path": "/images/articles/ba15e3da-aab4-401c-9ec7-64b88ac22833-1.jpg"
+        },
+        {
+          "alt": "’n Leë hospitaalkamer met ’n bed en sitplekke",
+          "public_path": "/images/articles/ba15e3da-aab4-401c-9ec7-64b88ac22833-2.jpg"
+        }
+      ],
+      "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
+      "language": "afr",
+      "language_tag": "af",
+      "metadata": "content/afr/articles/ba15e3da-aab4-401c-9ec7-64b88ac22833.json",
+      "metadata_sha256": "81b0987c96db0670cec0c950d74e5ecd2f3fef59caca08d8b444b5003d290228",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "SUSTER TOT SUSTER",
+      "source_revision": "a069ecca8827634ebc256b3b1cabc16aeb942ed7",
+      "source_translation_key": "c0ea566946f0a6021377107c368c8e903efb03bae10a6af153c1e6371a1e792a",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Wanneer God se manier werk",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/afr/articles/ba1df680-e125-4b7a-a6dd-6ad35433e1b5.html",
       "html_sha256": "61798c82cb1ca1e1070ef1a60e2a979ad4b82a21e8fdffdaf99ec98d08451003",
       "human_reviewed": false,
