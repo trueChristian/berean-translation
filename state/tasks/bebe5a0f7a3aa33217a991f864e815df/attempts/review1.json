@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-13T00:15:14+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, paragraph beginning “E se nossos filhos forem...”\",\"severity\":\"minor\",\"source_quote\":\"“pull warm shirts over their heads”\",\"suggested_fix\":\"Replace “vestimos suas cabeças com camisetas quentes” with “vestimos camisetas quentes neles” to express putting the shirts on the children.\",\"translation_quote\":\"“vestimos suas cabeças com camisetas quentes”\"}],\"findings_complete\":true,\"passed\":true,\"score\":97}",
+    "content_bytes": 456,
+    "content_evidence_truncated": false,
+    "content_sha256": "20dbf114b2f1c82b40a81f6ae110c6b3845b9c462ec5bfc985b13dd374ddac73",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 866,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 744,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5613,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4510,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 6479
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

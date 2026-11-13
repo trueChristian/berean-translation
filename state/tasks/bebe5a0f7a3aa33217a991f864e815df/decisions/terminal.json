@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraph beginning “E se nossos filhos forem...”",
+      "severity": "minor",
+      "source_quote": "“pull warm shirts over their heads”",
+      "suggested_fix": "Replace “vestimos suas cabeças com camisetas quentes” with “vestimos camisetas quentes neles” to express putting the shirts on the children.",
+      "translation_quote": "“vestimos suas cabeças com camisetas quentes”"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}
