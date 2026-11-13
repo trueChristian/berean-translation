@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "54b10987-0853-49f3-9940-59a57635cd4a",
+    "response_id": "chatcmpl-EjbHFdfCL9CoxK51jxvpedxpBtqKs",
+    "usage": {
+      "completion_tokens": 809,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 653,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6004,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 6001
+      },
+      "total_tokens": 6813
+    }
+  },
+  "received_at": "2026-11-13T07:09:48+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraf tentang Sang Raja, kutipan terakhir",
+        "severity": "major",
+        "source_quote": "“Inasmuch as ye have done it unto one of the least of these, ye have done it unto me.”",
+        "suggested_fix": "Ubah kutipan menjadi “Sesungguhnya segala sesuatu yang kamu lakukan untuk salah seorang dari yang paling hina ini, kamu telah melakukannya untuk Aku.”",
+        "translation_quote": "“Sesungguhnya segala sesuatu yang kamu lakukan untuk salah seorang dari saudara-Ku yang paling hina ini, kamu telah melakukannya untuk Aku.”"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 92
+  }
+}

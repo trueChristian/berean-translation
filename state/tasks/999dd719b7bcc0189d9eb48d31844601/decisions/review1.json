@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraf tentang Sang Raja, kutipan terakhir",
+      "severity": "major",
+      "source_quote": "“Inasmuch as ye have done it unto one of the least of these, ye have done it unto me.”",
+      "suggested_fix": "Ubah kutipan menjadi “Sesungguhnya segala sesuatu yang kamu lakukan untuk salah seorang dari yang paling hina ini, kamu telah melakukannya untuk Aku.”",
+      "translation_quote": "“Sesungguhnya segala sesuatu yang kamu lakukan untuk salah seorang dari saudara-Ku yang paling hina ini, kamu telah melakukannya untuk Aku.”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
