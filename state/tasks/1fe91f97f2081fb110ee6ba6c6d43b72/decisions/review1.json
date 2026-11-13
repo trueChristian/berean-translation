@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "Article, paragraph beginning “So often”",
+      "severity": "minor",
+      "source_quote": "“God’s incomprehensible Father-love and goodwill towards me.”",
+      "suggested_fix": "“upendo wa Mungu kwangu usioeleweka, upendo wa Baba, na nia yake njema kwangu”",
+      "translation_quote": "“upendo wa Baba wa Mungu usioweza kueleweka na nia yake njema kwangu”"
+    },
+    {
+      "location": "Article, paragraph beginning “I long to truly worship God”",
+      "severity": "minor",
+      "source_quote": "“the fluffy clouds in the blue sky”",
+      "suggested_fix": "“mawingu meupe meupe na mepesi angani mwa buluu”",
+      "translation_quote": "“mawingu meupe meupe angani mwa buluu”"
+    },
+    {
+      "location": "Article, paragraph beginning “So often”",
+      "severity": "minor",
+      "source_quote": "“If I don’t feed, clothe, and clean him, he will die.”",
+      "suggested_fix": "“Nisipo mlisha, kumvisha, na kumsafisha, atakufa.”",
+      "translation_quote": "“Nisipo mlisha, kumvisha, na kumsafisha, atakufa.”"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

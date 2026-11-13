@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-13T00:15:59+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Article, paragraph beginning “So often”\",\"severity\":\"minor\",\"source_quote\":\"“God’s incomprehensible Father-love and goodwill towards me.”\",\"suggested_fix\":\"“upendo wa Mungu kwangu usioeleweka, upendo wa Baba, na nia yake njema kwangu”\",\"translation_quote\":\"“upendo wa Baba wa Mungu usioweza kueleweka na nia yake njema kwangu”\"},{\"location\":\"Article, paragraph beginning “I long to truly worship God”\",\"severity\":\"minor\",\"source_quote\":\"“the fluffy clouds in the blue sky”\",\"suggested_fix\":\"“mawingu meupe meupe na mepesi angani mwa buluu”\",\"translation_quote\":\"“mawingu meupe meupe angani mwa buluu”\"},{\"location\":\"Article, paragraph beginning “So often”\",\"severity\":\"minor\",\"source_quote\":\"“If I don’t feed, clothe, and clean him, he will die.”\",\"suggested_fix\":\"“Nisipo mlisha, kumvisha, na kumsafisha, atakufa.”\",\"translation_quote\":\"“Nisipo mlisha, kumvisha, na kumsafisha, atakufa.”\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 1020,
+    "content_evidence_truncated": false,
+    "content_sha256": "3a1a657dca210c67d95c286d2ab869e9c562c3d336a00d61035ada72d9c45af5",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 878,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 589,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6098,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4995,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 6976
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

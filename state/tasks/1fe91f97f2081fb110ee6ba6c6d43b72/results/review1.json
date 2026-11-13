@@ -1,0 +1,52 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "7658f34b-7834-4d8f-9e40-e70968bca7c4",
+    "response_id": "chatcmpl-EjWNYrZT7aqkHS4o4cxjzqKeiPXPz",
+    "usage": {
+      "completion_tokens": 878,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 589,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6098,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4995,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 6976
+    }
+  },
+  "received_at": "2026-11-13T00:15:59+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Article, paragraph beginning “So often”",
+        "severity": "minor",
+        "source_quote": "“God’s incomprehensible Father-love and goodwill towards me.”",
+        "suggested_fix": "“upendo wa Mungu kwangu usioeleweka, upendo wa Baba, na nia yake njema kwangu”",
+        "translation_quote": "“upendo wa Baba wa Mungu usioweza kueleweka na nia yake njema kwangu”"
+      },
+      {
+        "location": "Article, paragraph beginning “I long to truly worship God”",
+        "severity": "minor",
+        "source_quote": "“the fluffy clouds in the blue sky”",
+        "suggested_fix": "“mawingu meupe meupe na mepesi angani mwa buluu”",
+        "translation_quote": "“mawingu meupe meupe angani mwa buluu”"
+      },
+      {
+        "location": "Article, paragraph beginning “So often”",
+        "severity": "minor",
+        "source_quote": "“If I don’t feed, clothe, and clean him, he will die.”",
+        "suggested_fix": "“Nisipo mlisha, kumvisha, na kumsafisha, atakufa.”",
+        "translation_quote": "“Nisipo mlisha, kumvisha, na kumsafisha, atakufa.”"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}

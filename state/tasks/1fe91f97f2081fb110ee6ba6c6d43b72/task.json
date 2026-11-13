@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "a31935789c9e4bd68d80fda7d76dbdee",
   "campaign": "auto-6c1bb9451feda1639cb58c7c627b478a71de064ca9e4bbd07d3a5323da3dfde9",
   "created_at": "2026-11-11T22:49:34+00:00",
   "events": [
@@ -28,10 +27,53 @@
         },
         "total_tokens": 5790
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 878,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 589,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6098,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 4995,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 6976
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "Article, paragraph beginning “So often”",
+      "severity": "minor",
+      "source_quote": "“God’s incomprehensible Father-love and goodwill towards me.”",
+      "suggested_fix": "“upendo wa Mungu kwangu usioeleweka, upendo wa Baba, na nia yake njema kwangu”",
+      "translation_quote": "“upendo wa Baba wa Mungu usioweza kueleweka na nia yake njema kwangu”"
+    },
+    {
+      "location": "Article, paragraph beginning “I long to truly worship God”",
+      "severity": "minor",
+      "source_quote": "“the fluffy clouds in the blue sky”",
+      "suggested_fix": "“mawingu meupe meupe na mepesi angani mwa buluu”",
+      "translation_quote": "“mawingu meupe meupe angani mwa buluu”"
+    },
+    {
+      "location": "Article, paragraph beginning “So often”",
+      "severity": "minor",
+      "source_quote": "“If I don’t feed, clothe, and clean him, he will die.”",
+      "suggested_fix": "“Nisipo mlisha, kumvisha, na kumsafisha, atakufa.”",
+      "translation_quote": "“Nisipo mlisha, kumvisha, na kumsafisha, atakufa.”"
+    }
+  ],
+  "finished_at": "2026-11-13T00:15:59+00:00",
   "id": "1fe91f97f2081fb110ee6ba6c6d43b72",
   "issue_id": "103c93e0-6e9a-44f6-a6bc-377af8e08e38",
   "language": "swa",
@@ -120,9 +162,11 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/a9220f36cc5766af588a977b856e2b0a7ca22fb301ae73703bb22c7a9854c5a2.json",
   "stage": "review1",
   "stage_budget": {
@@ -138,7 +182,7 @@
     "total_reserved_usd": 0.088363,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "0afcc7ac219484ffe40d0a8780ac11cb2b9f1aabb8e86a8de9c7d9ef16398e27",
   "translation_model_actual": "gpt-6-luna"

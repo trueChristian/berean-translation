@@ -93762,6 +93762,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/swa/articles/46f89299-c0a0-407c-9898-01a0c150c453.html",
+      "html_sha256": "d71a4eb1096959637cb48c9f98c70cfd62d0f6038e689ca062a9bc085ee20b57",
+      "human_reviewed": false,
+      "id": "46f89299-c0a0-407c-9898-01a0c150c453",
+      "images": [
+        {
+          "alt": "Wavulana watatu wameketi kwenye benchi pamoja na mtoto mchanga.",
+          "public_path": "/images/articles/46f89299-c0a0-407c-9898-01a0c150c453-1.jpg"
+        }
+      ],
+      "issue_id": "103c93e0-6e9a-44f6-a6bc-377af8e08e38",
+      "language": "swa",
+      "language_tag": "sw",
+      "metadata": "content/swa/articles/46f89299-c0a0-407c-9898-01a0c150c453.json",
+      "metadata_sha256": "0db6b901a9ff0b8bc4f4bbd44f8d8a05ab653d75aeea205e161d469d1ffc8faf",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "DADA KWA DADA",
+      "source_revision": "ccefc5a5c3d79409cc78319f94b5490718d30670",
+      "source_translation_key": "0afcc7ac219484ffe40d0a8780ac11cb2b9f1aabb8e86a8de9c7d9ef16398e27",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Ibada ya Mama",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/swa/articles/486eb0b4-74ad-40db-b53a-51a7b89036e2.html",
       "html_sha256": "1b22519a594c7a01bce2e3c05b1f45a849c484091c0e91a44a10b2933c95de13",
       "human_reviewed": false,
