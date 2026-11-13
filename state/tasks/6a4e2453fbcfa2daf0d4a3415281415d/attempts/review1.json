@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-13T08:24:21+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Engagement paragraph, parents’ approval before the proposal\",\"severity\":\"major\",\"source_quote\":\"His parents should be able to say, “Son, I think you’re ready for this.” Her parents need to be able to say, “Our daughter is ready for this.”\",\"suggested_fix\":\"उसके माता-पिता यह कह सकें, “बेटा, मुझे लगता है कि तुम इसके लिए तैयार हो।” युवती के माता-पिता यह कह सकें, “हमारी बेटी इसके लिए तैयार है।”\",\"translation_quote\":\"उसके माता-पिता यह कह सकें, “बेटा, मुझे लगता है कि तुम इसके लिए तैयार हो।” उसके माता-पिता यह कह सकें, “हमारी बेटी इसके लिए तैयार है।”\"}],\"findings_complete\":true,\"passed\":false,\"score\":94}",
+    "content_bytes": 1055,
+    "content_evidence_truncated": false,
+    "content_sha256": "ff991fb95c405d7345d9c50ff8a44f0534a7cb4fff3453f4b39097ac2e86c80a",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 950,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 757,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 13099,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 13096,
+        "cached_tokens": 0
+      },
+      "total_tokens": 14049
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

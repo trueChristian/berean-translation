@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "4d6d5bb992f1462d9bc6608d2501b8d1",
   "campaign": "auto-5a864149df644407b70dc75fd933734f232335609ad14755f3d0315954d194e9",
   "created_at": "2026-11-12T03:28:45+00:00",
   "events": [
@@ -28,10 +27,38 @@
         },
         "total_tokens": 12770
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 950,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 757,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 13099,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 13096,
+          "cached_tokens": 0
+        },
+        "total_tokens": 14049
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "Engagement paragraph, parents’ approval before the proposal",
+      "severity": "major",
+      "source_quote": "His parents should be able to say, “Son, I think you’re ready for this.” Her parents need to be able to say, “Our daughter is ready for this.”",
+      "suggested_fix": "उसके माता-पिता यह कह सकें, “बेटा, मुझे लगता है कि तुम इसके लिए तैयार हो।” युवती के माता-पिता यह कह सकें, “हमारी बेटी इसके लिए तैयार है।”",
+      "translation_quote": "उसके माता-पिता यह कह सकें, “बेटा, मुझे लगता है कि तुम इसके लिए तैयार हो।” उसके माता-पिता यह कह सकें, “हमारी बेटी इसके लिए तैयार है।”"
+    }
+  ],
   "id": "6a4e2453fbcfa2daf0d4a3415281415d",
   "issue_id": "103c93e0-6e9a-44f6-a6bc-377af8e08e38",
   "language": "hin",
@@ -120,11 +147,13 @@
     }
   },
   "protected": false,
+  "quality_score": 94,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/28493dcff92c3eb625274c8a3da67c7e1031a757b524e0669b9264101184aae7.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "translate",
     "max_candidate_bytes": 120000,
@@ -138,7 +167,7 @@
     "total_reserved_usd": 0.092124,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "168a1108b0cb584118665d0d4048559fb86bb1444e057e3646ac49c743cf2917",
   "translation_model_actual": "gpt-6-luna"

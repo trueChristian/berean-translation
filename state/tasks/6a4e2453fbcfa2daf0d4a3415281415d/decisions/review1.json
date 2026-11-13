@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Engagement paragraph, parents’ approval before the proposal",
+      "severity": "major",
+      "source_quote": "His parents should be able to say, “Son, I think you’re ready for this.” Her parents need to be able to say, “Our daughter is ready for this.”",
+      "suggested_fix": "उसके माता-पिता यह कह सकें, “बेटा, मुझे लगता है कि तुम इसके लिए तैयार हो।” युवती के माता-पिता यह कह सकें, “हमारी बेटी इसके लिए तैयार है।”",
+      "translation_quote": "उसके माता-पिता यह कह सकें, “बेटा, मुझे लगता है कि तुम इसके लिए तैयार हो।” उसके माता-पिता यह कह सकें, “हमारी बेटी इसके लिए तैयार है।”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
