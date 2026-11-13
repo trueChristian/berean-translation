@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph beginning “Through all this”",
+      "severity": "minor",
+      "source_quote": "“You can’t give your heart to him until you say, ‘I do’ at the altar.”",
+      "suggested_fix": "Replace ״הרי את מקודשת לי״ with ״כן, אני מסכימה״ to preserve the source’s reference to saying “I do” at the altar without introducing a different marriage formula.",
+      "translation_quote": "״אינך יכולה למסור לו את לבך עד שתאמרי: ‘הרי את מקודשת לי’ ליד המזבח.״"
+    },
+    {
+      "location": "Section 11, paragraph beginning “Again, this may vary”",
+      "severity": "minor",
+      "source_quote": "“Discuss this in the beginning, so you understand each other’s expectations.”",
+      "suggested_fix": "Revise to ״שוחחו על כך בתחילת הדרך כדי שכל אחד מכם יבין את ציפיותיו של האחר.״",
+      "translation_quote": "״שוחחו על כך בתחילת הדרך כדי שתבינו זה את ציפיותיו של זה.״"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

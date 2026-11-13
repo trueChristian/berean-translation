@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "5d6cbe828d364c9091a2302ba30dfab0",
   "campaign": "auto-6932f0d6d836c67ee6520b439994d2929b12f0924d3ee2561ba633fbc6c5d3e5",
   "created_at": "2026-11-13T07:12:07+00:00",
   "events": [
@@ -28,10 +27,46 @@
         },
         "total_tokens": 12652
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1423,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 1158,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 12983,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 11880,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 14406
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "Paragraph beginning “Through all this”",
+      "severity": "minor",
+      "source_quote": "“You can’t give your heart to him until you say, ‘I do’ at the altar.”",
+      "suggested_fix": "Replace ״הרי את מקודשת לי״ with ״כן, אני מסכימה״ to preserve the source’s reference to saying “I do” at the altar without introducing a different marriage formula.",
+      "translation_quote": "״אינך יכולה למסור לו את לבך עד שתאמרי: ‘הרי את מקודשת לי’ ליד המזבח.״"
+    },
+    {
+      "location": "Section 11, paragraph beginning “Again, this may vary”",
+      "severity": "minor",
+      "source_quote": "“Discuss this in the beginning, so you understand each other’s expectations.”",
+      "suggested_fix": "Revise to ״שוחחו על כך בתחילת הדרך כדי שכל אחד מכם יבין את ציפיותיו של האחר.״",
+      "translation_quote": "״שוחחו על כך בתחילת הדרך כדי שתבינו זה את ציפיותיו של זה.״"
+    }
+  ],
+  "finished_at": "2026-11-13T22:51:59+00:00",
   "id": "a11d7e53d9616a4ba57b17561baf6a65",
   "issue_id": "103c93e0-6e9a-44f6-a6bc-377af8e08e38",
   "language": "heb",
@@ -120,9 +155,11 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/28493dcff92c3eb625274c8a3da67c7e1031a757b524e0669b9264101184aae7.json",
   "stage": "review1",
   "stage_budget": {
@@ -138,7 +175,7 @@
     "total_reserved_usd": 0.09213,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "168a1108b0cb584118665d0d4048559fb86bb1444e057e3646ac49c743cf2917",
   "translation_model_actual": "gpt-6-luna"
