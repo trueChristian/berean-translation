@@ -2613,7 +2613,7 @@
       "article_id": "12387934-7e9b-49f7-874a-0e66fa7942d3",
       "language": "deu",
       "latest_task": "ae1391dbcd251bdc52426fa78cd2bd18",
-      "processing_status": "queued",
+      "processing_status": "in_batch",
       "reason": "active"
     },
     {
@@ -8045,7 +8045,7 @@
       "article_id": "01a0a64f-d629-4e05-b1ec-993f86ef4d68",
       "language": "nob",
       "latest_task": "601b821aac770e80dbe07a26bea96e2b",
-      "processing_status": "queued",
+      "processing_status": "in_batch",
       "reason": "active"
     },
     {
