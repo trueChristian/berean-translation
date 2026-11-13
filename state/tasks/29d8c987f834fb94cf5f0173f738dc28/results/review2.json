@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "e34520a9-8f36-44dd-a363-066c45e38732",
+    "response_id": "chatcmpl-EjZqelucWHYXWwkbc7MqTDkazXTZl",
+    "usage": {
+      "completion_tokens": 790,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 654,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7168,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7165,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7958
+    }
+  },
+  "received_at": "2026-11-13T01:01:24+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraphs beginning «Στο τέλος του κόσμου» and «Κι αν τα παιδιά μας»",
+        "severity": "minor",
+        "source_quote": "“one of the least of these”",
+        "suggested_fix": "Replace «έναν από τους πιο ασήμαντους από αυτούς» with «έναν από τους ελάχιστους αυτούς» in both occurrences, preserving the surrounding HTML.",
+        "translation_quote": "«έναν από τους πιο ασήμαντους από αυτούς»"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}

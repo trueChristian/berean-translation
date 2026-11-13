@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraphs beginning «Στο τέλος του κόσμου» and «Κι αν τα παιδιά μας»",
+      "severity": "minor",
+      "source_quote": "“one of the least of these”",
+      "suggested_fix": "Replace «έναν από τους πιο ασήμαντους από αυτούς» with «έναν από τους ελάχιστους αυτούς» in both occurrences, preserving the surrounding HTML.",
+      "translation_quote": "«έναν από τους πιο ασήμαντους από αυτούς»"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}
