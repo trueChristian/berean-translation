@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-13T08:40:09+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"translation.html, paragraf yang dimulai dengan “Namun bukan hanya misteri pencernaannya”\",\"severity\":\"minor\",\"source_quote\":\"Except I didn’t become used to it. I never became accustomed to his fussing.\",\"suggested_fix\":\"Ganti “Kecuali saya tidak terbiasa.” dengan “Namun sebenarnya saya tidak pernah terbiasa.”\",\"translation_quote\":\"Kecuali saya tidak terbiasa. Saya tidak pernah terbiasa dengan kerewelannya.\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 503,
+    "content_evidence_truncated": false,
+    "content_sha256": "e1248062f2c38e884f62819c95733865097ad05f647a271c07ce4404412e8abf",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 223,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 94,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 15282,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 15279,
+        "cached_tokens": 0
+      },
+      "total_tokens": 15505
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 1
+}

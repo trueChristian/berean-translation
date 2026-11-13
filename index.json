@@ -51882,6 +51882,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ind/articles/ba15e3da-aab4-401c-9ec7-64b88ac22833.html",
+      "html_sha256": "91a27a00809449a56ee7ad2867802fbf15adf9762af99c79338af72fe7d3c074",
+      "human_reviewed": false,
+      "id": "ba15e3da-aab4-401c-9ec7-64b88ac22833",
+      "images": [
+        {
+          "alt": "Tangan seorang bayi yang baru lahir menggenggam jari orang dewasa",
+          "public_path": "/images/articles/ba15e3da-aab4-401c-9ec7-64b88ac22833-1.jpg"
+        },
+        {
+          "alt": "Kamar rumah sakit kosong dengan tempat tidur dan kursi",
+          "public_path": "/images/articles/ba15e3da-aab4-401c-9ec7-64b88ac22833-2.jpg"
+        }
+      ],
+      "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
+      "language": "ind",
+      "language_tag": "id",
+      "metadata": "content/ind/articles/ba15e3da-aab4-401c-9ec7-64b88ac22833.json",
+      "metadata_sha256": "5e1fa14d18fea3c91d755dd4a728075c67929a49bf8ae97fe28820e4f2a4c86f",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "DARI SAUDARI UNTUK SAUDARI",
+      "source_revision": "a069ecca8827634ebc256b3b1cabc16aeb942ed7",
+      "source_translation_key": "c0ea566946f0a6021377107c368c8e903efb03bae10a6af153c1e6371a1e792a",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Ketika Cara Allah Berhasil",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ind/articles/ba1df680-e125-4b7a-a6dd-6ad35433e1b5.html",
       "html_sha256": "a113e91e47bdca71a88cdf054db7fd87bb7df5588ad60ae0471784a52f8b80f6",
       "human_reviewed": false,

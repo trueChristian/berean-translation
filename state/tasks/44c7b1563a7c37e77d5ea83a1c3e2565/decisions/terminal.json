@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "translation.html, paragraf yang dimulai dengan “Namun bukan hanya misteri pencernaannya”",
+      "severity": "minor",
+      "source_quote": "Except I didn’t become used to it. I never became accustomed to his fussing.",
+      "suggested_fix": "Ganti “Kecuali saya tidak terbiasa.” dengan “Namun sebenarnya saya tidak pernah terbiasa.”",
+      "translation_quote": "Kecuali saya tidak terbiasa. Saya tidak pernah terbiasa dengan kerewelannya."
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}
