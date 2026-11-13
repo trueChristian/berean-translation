@@ -11617,6 +11617,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ben/articles/12387934-7e9b-49f7-874a-0e66fa7942d3.html",
+      "html_sha256": "9b305a4a770a7f31eafcf003b140f80c85e9b5e299190d786631359432f61cf3",
+      "human_reviewed": false,
+      "id": "12387934-7e9b-49f7-874a-0e66fa7942d3",
+      "images": [
+        {
+          "alt": "এক দম্পতি জলপ্রপাতের দিকে মুখ করে একটি পাথরের ওপর পাশাপাশি বসে আছেন।",
+          "public_path": "/images/articles/12387934-7e9b-49f7-874a-0e66fa7942d3-1.jpg"
+        },
+        {
+          "alt": "বর ও কনে একটি পথে হাত ধরাধরি করে হাঁটছেন।",
+          "public_path": "/images/articles/12387934-7e9b-49f7-874a-0e66fa7942d3-2.jpg"
+        }
+      ],
+      "issue_id": "103c93e0-6e9a-44f6-a6bc-377af8e08e38",
+      "language": "ben",
+      "language_tag": "bn",
+      "metadata": "content/ben/articles/12387934-7e9b-49f7-874a-0e66fa7942d3.json",
+      "metadata_sha256": "b698691b592b50814de10ce3cc1521430be7fb158e4ea6c28c89478315ac8163",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "যুবকদের জন্য অনুপ্রেরণা",
+      "source_revision": "ccefc5a5c3d79409cc78319f94b5490718d30670",
+      "source_translation_key": "168a1108b0cb584118665d0d4048559fb86bb1444e057e3646ac49c743cf2917",
+      "status": "ready",
+      "subtitle": null,
+      "title": "খ্রিষ্টকেন্দ্রিক প্রণয়পর্বের প্রক্রিয়া",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ben/articles/15567d7e-1146-48d9-9b34-a0f770ca06fc.html",
       "html_sha256": "ccfde2384b7214bc827a70fd868154e7ed9e97785b282cdd332c73d66258eff1",
       "human_reviewed": false,
