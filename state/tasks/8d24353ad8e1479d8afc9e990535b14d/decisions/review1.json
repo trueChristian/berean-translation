@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph beginning “أيها الشاب، قد يقول لك الله...”",
+      "severity": "major",
+      "source_quote": "With Adam, he said, “Adam, I have a job for you.”",
+      "suggested_fix": "أما مع آدم فقال الله له: «يا آدم، لديّ عمل لك».",
+      "translation_quote": "أما آدم فقال له: «يا آدم، لديّ عمل لك»."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
