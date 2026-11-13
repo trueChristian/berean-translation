@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-13T00:17:58+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"translation.html, Absatz beginnend mit „Früher war die Bedeutung“\",\"severity\":\"minor\",\"source_quote\":\"…wandering about from house to house… –1 Timothy 5:13,</em> on our phones. In 2 Timothy, Paul continues\",\"suggested_fix\":\"Den Satzabschluss korrigieren: „…von Haus zu Haus umherzugehen… –1. Timotheus 5:13.</em> Im 2. Timotheusbrief fährt Paulus fort“\",\"translation_quote\":\"…von Haus zu Haus umherzugehen… –1. Timotheus 5:13,</em> Im 2. Timotheusbrief fährt Paulus fort\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 579,
+    "content_evidence_truncated": false,
+    "content_sha256": "6cc88ec3a4c86ec276f73e3d8edf413e1808d4e4db5affc20ce4b6aa5db1cfad",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 245,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 69,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7097,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5994,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 7342
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review2",
+  "translation_attempts": 1
+}

@@ -24170,6 +24170,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/deu/articles/903e4b58-b246-4ee3-85e7-eecf158a7a75.html",
+      "html_sha256": "4b1130fe1557efe2df334ba9a8b6f9aecc45a4f195da8ecf070cc71c097fd3e1",
+      "human_reviewed": false,
+      "id": "903e4b58-b246-4ee3-85e7-eecf158a7a75",
+      "images": [
+        {
+          "alt": "Ein Erwachsener hält beim Spaziergang im Freien die Hand eines kleinen Kindes",
+          "public_path": "/images/articles/903e4b58-b246-4ee3-85e7-eecf158a7a75-1.jpg"
+        }
+      ],
+      "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
+      "language": "deu",
+      "language_tag": "de",
+      "metadata": "content/deu/articles/903e4b58-b246-4ee3-85e7-eecf158a7a75.json",
+      "metadata_sha256": "ef46fa55d67bc96a70e5280d9b6518eea9eededada60b62f6e9c4f90ec703a4b",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "Schwester zu Schwester",
+      "source_revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
+      "source_translation_key": "aca8415cfcf9e5554286626ac6bcaa5724f97b93dadbcdbbe3b6300ec48874e3",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Eine freudige Berufung",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/deu/articles/90d8e22a-d7b1-453e-98bf-cab1571a7f56.html",
       "html_sha256": "0f13739d4b86f885d5ef65cabe243a5527daf12f02e4866585d6ebd6371188d5",
       "human_reviewed": false,

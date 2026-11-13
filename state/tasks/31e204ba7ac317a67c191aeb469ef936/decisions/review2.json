@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "translation.html, Absatz beginnend mit „Früher war die Bedeutung“",
+      "severity": "minor",
+      "source_quote": "…wandering about from house to house… –1 Timothy 5:13,</em> on our phones. In 2 Timothy, Paul continues",
+      "suggested_fix": "Den Satzabschluss korrigieren: „…von Haus zu Haus umherzugehen… –1. Timotheus 5:13.</em> Im 2. Timotheusbrief fährt Paulus fort“",
+      "translation_quote": "…von Haus zu Haus umherzugehen… –1. Timotheus 5:13,</em> Im 2. Timotheusbrief fährt Paulus fort"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

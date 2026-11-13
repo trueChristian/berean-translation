@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "32e466d38d0044c4a64335b373cb41e2",
   "campaign": "auto-f854972a0a59985cd6690a948e3cbe7b7c5e94d67026cff2945f86493579cd70",
   "created_at": "2026-11-06T18:16:32+00:00",
   "events": [
@@ -28,25 +27,39 @@
         },
         "total_tokens": 10461
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 245,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 69,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7097,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 5994,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 7342
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "Psalm 127:3 quotation, first occurrence and repeated quotation in the following paragraph",
-      "severity": "major",
-      "source_quote": "“children are an heritage of the LORD”",
-      "suggested_fix": "Replace “Kinder sind eine Gabe des HERRN” in both quotations with “Kinder sind ein Erbe des HERRN” (or another wording that preserves the inheritance/heritage meaning).",
-      "translation_quote": "“Kinder sind eine Gabe des HERRN”"
-    },
-    {
-      "location": "Psalm 127:5 quotation",
-      "severity": "major",
-      "source_quote": "“they shall not be ashamed, but they shall speak with the enemies in the gate”",
-      "suggested_fix": "Preserve the contrast expressed by “but”: for example, “Sie werden nicht zuschanden, sondern werden mit den Feinden im Tor reden.”",
-      "translation_quote": "“sie werden nicht zuschanden, wenn sie mit den Feinden im Tor reden”"
+      "location": "translation.html, Absatz beginnend mit „Früher war die Bedeutung“",
+      "severity": "minor",
+      "source_quote": "…wandering about from house to house… –1 Timothy 5:13,</em> on our phones. In 2 Timothy, Paul continues",
+      "suggested_fix": "Den Satzabschluss korrigieren: „…von Haus zu Haus umherzugehen… –1. Timotheus 5:13.</em> Im 2. Timotheusbrief fährt Paulus fort“",
+      "translation_quote": "…von Haus zu Haus umherzugehen… –1. Timotheus 5:13,</em> Im 2. Timotheusbrief fährt Paulus fort"
     }
   ],
+  "finished_at": "2026-11-13T00:17:58+00:00",
   "id": "31e204ba7ac317a67c191aeb469ef936",
   "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
   "language": "deu",
@@ -135,9 +148,11 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/ee1d1c4c726665ca5725eef036aae90f81e779ea0d47055f2cf908d0b809c75d.json",
   "stage": "review2",
   "stage_budget": {
@@ -151,7 +166,7 @@
     "total_reserved_usd": 0.577507,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "aca8415cfcf9e5554286626ac6bcaa5724f97b93dadbcdbbe3b6300ec48874e3",
   "translation_model_actual": "gpt-6.1-sol"
