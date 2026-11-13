@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "translation.html, Absatz „Dann begann er zu spucken.“",
+      "severity": "minor",
+      "source_quote": "we visited a nurse practitioner in a Mennonite colony in Mexico",
+      "suggested_fix": "Ersetzen Sie „eine Krankenschwester“ durch „eine Pflegefachkraft mit erweiterten medizinischen Kompetenzen (Nurse Practitioner)“.",
+      "translation_quote": "suchten wir eine Krankenschwester in einer mennonitischen Siedlung in Mexiko auf"
+    },
+    {
+      "location": "translation.html, Absatz „Er war sieben Wochen alt“",
+      "severity": "minor",
+      "source_quote": "From the time he was three weeks until he was seven months",
+      "suggested_fix": "Ersetzen Sie „Von seinem dritten Lebenswochen bis zu seinem siebten Monat“ durch „Von seiner dritten Lebenswoche bis zu seinem siebten Lebensmonat“.",
+      "translation_quote": "Von seinem dritten Lebenswochen bis zu seinem siebten Monat"
+    },
+    {
+      "location": "translation.html, Absatz „Diese Woche war hart.“",
+      "severity": "minor",
+      "source_quote": "I prayed and switched.",
+      "suggested_fix": "Streichen Sie die hier im Ausgangstext nicht enthaltene Abschwächung „leichte“: „Ich betete und gab ihm Schläge mit der Rute.“",
+      "translation_quote": "Ich betete und gab ihm leichte Schläge mit der Rute."
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

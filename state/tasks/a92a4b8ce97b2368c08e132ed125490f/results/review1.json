@@ -1,0 +1,52 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "bb5e4d1b-4021-4218-a211-fec1f22f51b4",
+    "response_id": "chatcmpl-EjglKmbaAmwSc8CltUZFvGL0chKCM",
+    "usage": {
+      "completion_tokens": 633,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 265,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 15142,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 14039,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 15775
+    }
+  },
+  "received_at": "2026-11-13T08:24:45+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "translation.html, Absatz „Dann begann er zu spucken.“",
+        "severity": "minor",
+        "source_quote": "we visited a nurse practitioner in a Mennonite colony in Mexico",
+        "suggested_fix": "Ersetzen Sie „eine Krankenschwester“ durch „eine Pflegefachkraft mit erweiterten medizinischen Kompetenzen (Nurse Practitioner)“.",
+        "translation_quote": "suchten wir eine Krankenschwester in einer mennonitischen Siedlung in Mexiko auf"
+      },
+      {
+        "location": "translation.html, Absatz „Er war sieben Wochen alt“",
+        "severity": "minor",
+        "source_quote": "From the time he was three weeks until he was seven months",
+        "suggested_fix": "Ersetzen Sie „Von seinem dritten Lebenswochen bis zu seinem siebten Monat“ durch „Von seiner dritten Lebenswoche bis zu seinem siebten Lebensmonat“.",
+        "translation_quote": "Von seinem dritten Lebenswochen bis zu seinem siebten Monat"
+      },
+      {
+        "location": "translation.html, Absatz „Diese Woche war hart.“",
+        "severity": "minor",
+        "source_quote": "I prayed and switched.",
+        "suggested_fix": "Streichen Sie die hier im Ausgangstext nicht enthaltene Abschwächung „leichte“: „Ich betete und gab ihm Schläge mit der Rute.“",
+        "translation_quote": "Ich betete und gab ihm leichte Schläge mit der Rute."
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 96
+  }
+}

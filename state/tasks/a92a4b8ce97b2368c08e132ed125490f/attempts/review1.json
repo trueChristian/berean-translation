@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-13T08:24:45+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"translation.html, Absatz „Dann begann er zu spucken.“\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"we visited a nurse practitioner in a Mennonite colony in Mexico\",\n      \"suggested_fix\": \"Ersetzen Sie „eine Krankenschwester“ durch „eine Pflegefachkraft mit erweiterten medizinischen Kompetenzen (Nurse Practitioner)“.\",\n      \"translation_quote\": \"suchten wir eine Krankenschwester in einer mennonitischen Siedlung in Mexiko auf\"\n    },\n    {\n      \"location\": \"translation.html, Absatz „Er war sieben Wochen alt“\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"From the time he was three weeks until he was seven months\",\n      \"suggested_fix\": \"Ersetzen Sie „Von seinem dritten Lebenswochen bis zu seinem siebten Monat“ durch „Von seiner dritten Lebenswoche bis zu seinem siebten Lebensmonat“.\",\n      \"translation_quote\": \"Von seinem dritten Lebenswochen bis zu seinem siebten Monat\"\n    },\n    {\n      \"location\": \"translation.html, Absatz „Diese Woche war hart.“\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"I prayed and switched.\",\n      \"suggested_fix\": \"Streichen Sie die hier im Ausgangstext nicht enthaltene Abschwächung „leichte“: „Ich betete und gab ihm Schläge mit der Rute.“\",\n      \"translation_quote\": \"Ich betete und gab ihm leichte Schläge mit der Rute.\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": true,\n  \"score\": 96\n}",
+    "content_bytes": 1447,
+    "content_evidence_truncated": false,
+    "content_sha256": "4fdf85f0656b5c2d7b57764fccf0e8e4105c8cae6518555f7a0dd2f80bf09790",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 633,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 265,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 15142,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 14039,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 15775
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}

@@ -5,11 +5,55 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "27f08401b3ce45e982a4721d0f2db240",
   "campaign": "auto-6d8affa9f6ec946615da8e4db1d9014e2577a61f1b5a19bcebb0929916cdef8e",
   "created_at": "2026-11-13T00:21:06+00:00",
-  "events": [],
-  "findings": [],
+  "events": [
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 633,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 265,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 15142,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 14039,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 15775
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "translation.html, Absatz „Dann begann er zu spucken.“",
+      "severity": "minor",
+      "source_quote": "we visited a nurse practitioner in a Mennonite colony in Mexico",
+      "suggested_fix": "Ersetzen Sie „eine Krankenschwester“ durch „eine Pflegefachkraft mit erweiterten medizinischen Kompetenzen (Nurse Practitioner)“.",
+      "translation_quote": "suchten wir eine Krankenschwester in einer mennonitischen Siedlung in Mexiko auf"
+    },
+    {
+      "location": "translation.html, Absatz „Er war sieben Wochen alt“",
+      "severity": "minor",
+      "source_quote": "From the time he was three weeks until he was seven months",
+      "suggested_fix": "Ersetzen Sie „Von seinem dritten Lebenswochen bis zu seinem siebten Monat“ durch „Von seiner dritten Lebenswoche bis zu seinem siebten Lebensmonat“.",
+      "translation_quote": "Von seinem dritten Lebenswochen bis zu seinem siebten Monat"
+    },
+    {
+      "location": "translation.html, Absatz „Diese Woche war hart.“",
+      "severity": "minor",
+      "source_quote": "I prayed and switched.",
+      "suggested_fix": "Streichen Sie die hier im Ausgangstext nicht enthaltene Abschwächung „leichte“: „Ich betete und gab ihm Schläge mit der Rute.“",
+      "translation_quote": "Ich betete und gab ihm leichte Schläge mit der Rute."
+    }
+  ],
+  "finished_at": "2026-11-13T08:24:45+00:00",
   "id": "a92a4b8ce97b2368c08e132ed125490f",
   "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
   "language": "deu",
@@ -98,9 +142,11 @@
     }
   },
   "protected": false,
+  "quality_score": 96,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/387a30a8b9a527909765f2e60773227d3f49a4a9b5776049e1f6de3e5552f735.json",
   "stage": "review1",
   "stage_budget": {
@@ -115,7 +161,7 @@
     "total_reserved_usd": 1.216173,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 0,
   "translation_key": "c0ea566946f0a6021377107c368c8e903efb03bae10a6af153c1e6371a1e792a",
   "translation_model_actual": "gpt-6-luna"

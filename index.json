@@ -25269,6 +25269,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/deu/articles/ba15e3da-aab4-401c-9ec7-64b88ac22833.html",
+      "html_sha256": "8fa599c34408db8ffbd7026077007b9287553c5ec5d6996aff2aac0f8ded2e4d",
+      "human_reviewed": false,
+      "id": "ba15e3da-aab4-401c-9ec7-64b88ac22833",
+      "images": [
+        {
+          "alt": "Die Hand eines Neugeborenen hält den Finger eines Erwachsenen",
+          "public_path": "/images/articles/ba15e3da-aab4-401c-9ec7-64b88ac22833-1.jpg"
+        },
+        {
+          "alt": "Ein leeres Krankenzimmer mit einem Bett und Sitzgelegenheiten",
+          "public_path": "/images/articles/ba15e3da-aab4-401c-9ec7-64b88ac22833-2.jpg"
+        }
+      ],
+      "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
+      "language": "deu",
+      "language_tag": "de",
+      "metadata": "content/deu/articles/ba15e3da-aab4-401c-9ec7-64b88ac22833.json",
+      "metadata_sha256": "02ec2d2d65788b365de47ceb09a792ecc213811846e1ca082f362432f3b3b989",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "VON SCHWESTER ZU SCHWESTER",
+      "source_revision": "a069ecca8827634ebc256b3b1cabc16aeb942ed7",
+      "source_translation_key": "c0ea566946f0a6021377107c368c8e903efb03bae10a6af153c1e6371a1e792a",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Wenn Gottes Weg funktioniert",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/deu/articles/ba1df680-e125-4b7a-a6dd-6ad35433e1b5.html",
       "html_sha256": "0879560e5edae71693dfc935b5b73904c9d0f17a3e8385ba0790fb75b4be400d",
       "human_reviewed": false,
