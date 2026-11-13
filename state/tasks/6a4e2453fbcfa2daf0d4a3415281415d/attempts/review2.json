@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-13T21:33:56+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"प्रणय-प्रक्रिया के लिए परमेश्वर की इच्छा को समझना; दिशानिर्देश 12; सगाई के बाद का अनुच्छेद\",\"severity\":\"minor\",\"source_quote\":\"“gone through your authorities”; “Talk with the authorities regularly”; “keep yourself under loving, watchful authority”\",\"suggested_fix\":\"इन संदर्भों में “अधिकारियों” के बजाय “जिनके अधिकार के अधीन तुम हो” या “अधिकार में रखने वाले अगुओं” जैसे पद का उपयोग करें, ताकि माता-पिता और आत्मिक अगुओं के अधिकार का अर्थ स्पष्ट रहे।\",\"translation_quote\":\"“अपने अधिकारियों से होकर आए हो”; “अधिकारियों से नियमित रूप से बात करो”; “अपने आप को ... अधिकार के अधीन रखो”\"},{\"location\":\"अनुच्छेद: “जब उसके माता-पिता को स्पष्टता होती है...”\",\"severity\":\"minor\",\"source_quote\":\"“they give him permission to write her asking to start a courtship.”\",\"suggested_fix\":\"दोहराए गए “उसे” को हटाकर लिखें: “वे उसे प्रणय-प्रक्रिया शुरू करने के लिए युवती को पत्र लिखने की अनुमति देते हैं।”\",\"translation_quote\":\"“वे उसे उसे पत्र लिखकर प्रणय-प्रक्रिया शुरू करने के लिए पूछने की अनुमति देते हैं।”\"}],\"findings_complete\":true,\"passed\":true,\"score\":96}",
+    "content_bytes": 2080,
+    "content_evidence_truncated": false,
+    "content_sha256": "9cef772e23896f8bc75526daeeb0c26b4cbee28178c9ec5197d09b0bacbf7b1a",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1070,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 750,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 13101,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 13098,
+        "cached_tokens": 0
+      },
+      "total_tokens": 14171
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

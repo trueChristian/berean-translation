@@ -42309,6 +42309,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/hin/articles/12387934-7e9b-49f7-874a-0e66fa7942d3.html",
+      "html_sha256": "61bdd1623aa1bce72908c663f0c9c16ee8f7ded177eee87af68c0fee59e87824",
+      "human_reviewed": false,
+      "id": "12387934-7e9b-49f7-874a-0e66fa7942d3",
+      "images": [
+        {
+          "alt": "एक जोड़ा झरने की ओर मुँह करके चट्टान पर साथ बैठा है।",
+          "public_path": "/images/articles/12387934-7e9b-49f7-874a-0e66fa7942d3-1.jpg"
+        },
+        {
+          "alt": "दुल्हन और दूल्हा हाथ में हाथ डाले रास्ते पर चलते हुए।",
+          "public_path": "/images/articles/12387934-7e9b-49f7-874a-0e66fa7942d3-2.jpg"
+        }
+      ],
+      "issue_id": "103c93e0-6e9a-44f6-a6bc-377af8e08e38",
+      "language": "hin",
+      "language_tag": "hi",
+      "metadata": "content/hin/articles/12387934-7e9b-49f7-874a-0e66fa7942d3.json",
+      "metadata_sha256": "c533da253203dbb68e94959c8b29db4c4316d27706dcb369aec4ced9338d87d8",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "युवाओं के लिए प्रेरणाएँ",
+      "source_revision": "ccefc5a5c3d79409cc78319f94b5490718d30670",
+      "source_translation_key": "168a1108b0cb584118665d0d4048559fb86bb1444e057e3646ac49c743cf2917",
+      "status": "ready",
+      "subtitle": null,
+      "title": "मसीह-केंद्रित प्रणय-प्रक्रिया",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/hin/articles/175280ea-7e5f-4be2-bbce-b500c0fd93cb.html",
       "html_sha256": "bc8cba9db88a0fb307f00432901d82f213ba0f8dccecabe9e4c6f9a9bb844e03",
       "human_reviewed": false,

@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "385e0f4c7068497e9257ffe4a765efc9",
   "campaign": "auto-5a864149df644407b70dc75fd933734f232335609ad14755f3d0315954d194e9",
   "created_at": "2026-11-12T03:28:45+00:00",
   "events": [
@@ -68,18 +67,46 @@
         },
         "total_tokens": 19946
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1070,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 750,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 13101,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 13098,
+          "cached_tokens": 0
+        },
+        "total_tokens": 14171
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "Engagement paragraph, parents’ approval before the proposal",
-      "severity": "major",
-      "source_quote": "His parents should be able to say, “Son, I think you’re ready for this.” Her parents need to be able to say, “Our daughter is ready for this.”",
-      "suggested_fix": "उसके माता-पिता यह कह सकें, “बेटा, मुझे लगता है कि तुम इसके लिए तैयार हो।” युवती के माता-पिता यह कह सकें, “हमारी बेटी इसके लिए तैयार है।”",
-      "translation_quote": "उसके माता-पिता यह कह सकें, “बेटा, मुझे लगता है कि तुम इसके लिए तैयार हो।” उसके माता-पिता यह कह सकें, “हमारी बेटी इसके लिए तैयार है।”"
+      "location": "प्रणय-प्रक्रिया के लिए परमेश्वर की इच्छा को समझना; दिशानिर्देश 12; सगाई के बाद का अनुच्छेद",
+      "severity": "minor",
+      "source_quote": "“gone through your authorities”; “Talk with the authorities regularly”; “keep yourself under loving, watchful authority”",
+      "suggested_fix": "इन संदर्भों में “अधिकारियों” के बजाय “जिनके अधिकार के अधीन तुम हो” या “अधिकार में रखने वाले अगुओं” जैसे पद का उपयोग करें, ताकि माता-पिता और आत्मिक अगुओं के अधिकार का अर्थ स्पष्ट रहे।",
+      "translation_quote": "“अपने अधिकारियों से होकर आए हो”; “अधिकारियों से नियमित रूप से बात करो”; “अपने आप को ... अधिकार के अधीन रखो”"
+    },
+    {
+      "location": "अनुच्छेद: “जब उसके माता-पिता को स्पष्टता होती है...”",
+      "severity": "minor",
+      "source_quote": "“they give him permission to write her asking to start a courtship.”",
+      "suggested_fix": "दोहराए गए “उसे” को हटाकर लिखें: “वे उसे प्रणय-प्रक्रिया शुरू करने के लिए युवती को पत्र लिखने की अनुमति देते हैं।”",
+      "translation_quote": "“वे उसे उसे पत्र लिखकर प्रणय-प्रक्रिया शुरू करने के लिए पूछने की अनुमति देते हैं।”"
     }
   ],
+  "finished_at": "2026-11-13T21:33:56+00:00",
   "id": "6a4e2453fbcfa2daf0d4a3415281415d",
   "issue_id": "103c93e0-6e9a-44f6-a6bc-377af8e08e38",
   "language": "hin",
@@ -168,7 +195,7 @@
     }
   },
   "protected": false,
-  "quality_score": 94,
+  "quality_score": 96,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
@@ -188,7 +215,7 @@
     "total_reserved_usd": 0.092124,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "168a1108b0cb584118665d0d4048559fb86bb1444e057e3646ac49c743cf2917",
   "translation_model_actual": "gpt-6-luna"

@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "प्रणय-प्रक्रिया के लिए परमेश्वर की इच्छा को समझना; दिशानिर्देश 12; सगाई के बाद का अनुच्छेद",
+      "severity": "minor",
+      "source_quote": "“gone through your authorities”; “Talk with the authorities regularly”; “keep yourself under loving, watchful authority”",
+      "suggested_fix": "इन संदर्भों में “अधिकारियों” के बजाय “जिनके अधिकार के अधीन तुम हो” या “अधिकार में रखने वाले अगुओं” जैसे पद का उपयोग करें, ताकि माता-पिता और आत्मिक अगुओं के अधिकार का अर्थ स्पष्ट रहे।",
+      "translation_quote": "“अपने अधिकारियों से होकर आए हो”; “अधिकारियों से नियमित रूप से बात करो”; “अपने आप को ... अधिकार के अधीन रखो”"
+    },
+    {
+      "location": "अनुच्छेद: “जब उसके माता-पिता को स्पष्टता होती है...”",
+      "severity": "minor",
+      "source_quote": "“they give him permission to write her asking to start a courtship.”",
+      "suggested_fix": "दोहराए गए “उसे” को हटाकर लिखें: “वे उसे प्रणय-प्रक्रिया शुरू करने के लिए युवती को पत्र लिखने की अनुमति देते हैं।”",
+      "translation_quote": "“वे उसे उसे पत्र लिखकर प्रणय-प्रक्रिया शुरू करने के लिए पूछने की अनुमति देते हैं।”"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}
