@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "html：引用《以弗所书》5:19及《歌罗西书》3:16的段落",
+      "severity": "major",
+      "source_quote": "“singing and making melody in your heart to the Lord; –Ephesians 5:19.”；“singing with grace in your hearts to the Lord –Colossians 3:16.”",
+      "suggested_fix": "将《以弗所书》引文中的“心被恩感，歌颂主”改为“从心里向主歌唱、奏出旋律”；将《歌罗西书》引文中的“心被恩感，歌颂上帝”改为“心被恩感，歌颂主”。保留现有经文引用、标签及段落结构。",
+      "translation_quote": "“心被恩感，歌颂主——《以弗所书》5:19。”；“心被恩感，歌颂上帝——《歌罗西书》3:16。”"
+    },
+    {
+      "location": "html：首段的 span.drop-cap",
+      "severity": "minor",
+      "source_quote": "<span class=\"drop-cap\">M</span>any people ask",
+      "suggested_fix": "改为“<span class=\"drop-cap\">许</span>多人会问”，保留首字下沉标签，去掉遗留的英文首字母。",
+      "translation_quote": "<span class=\"drop-cap\">M</span>许多人会问"
+    },
+    {
+      "location": "html：第二段首句",
+      "severity": "minor",
+      "source_quote": "Should Christians only listen to “A cappella” music?",
+      "suggested_fix": "将“无伴奏合唱”改为“无伴奏歌唱”，避免将该类别限制为合唱；后文明确也包括独唱。",
+      "translation_quote": "基督徒是否只该听“无伴奏合唱”音乐？"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

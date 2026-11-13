@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-13T21:35:10+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"html：引用《以弗所书》5:19及《歌罗西书》3:16的段落\",\n      \"severity\": \"major\",\n      \"source_quote\": \"“singing and making melody in your heart to the Lord; –Ephesians 5:19.”；“singing with grace in your hearts to the Lord –Colossians 3:16.”\",\n      \"suggested_fix\": \"将《以弗所书》引文中的“心被恩感，歌颂主”改为“从心里向主歌唱、奏出旋律”；将《歌罗西书》引文中的“心被恩感，歌颂上帝”改为“心被恩感，歌颂主”。保留现有经文引用、标签及段落结构。\",\n      \"translation_quote\": \"“心被恩感，歌颂主——《以弗所书》5:19。”；“心被恩感，歌颂上帝——《歌罗西书》3:16。”\"\n    },\n    {\n      \"location\": \"html：首段的 span.drop-cap\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"<span class=\\\"drop-cap\\\">M</span>any people ask\",\n      \"suggested_fix\": \"改为“<span class=\\\"drop-cap\\\">许</span>多人会问”，保留首字下沉标签，去掉遗留的英文首字母。\",\n      \"translation_quote\": \"<span class=\\\"drop-cap\\\">M</span>许多人会问\"\n    },\n    {\n      \"location\": \"html：第二段首句\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"Should Christians only listen to “A cappella” music?\",\n      \"suggested_fix\": \"将“无伴奏合唱”改为“无伴奏歌唱”，避免将该类别限制为合唱；后文明确也包括独唱。\",\n      \"translation_quote\": \"基督徒是否只该听“无伴奏合唱”音乐？\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": false,\n  \"score\": 94\n}",
+    "content_bytes": 1637,
+    "content_evidence_truncated": false,
+    "content_sha256": "a4834275bb973534e7145abb3edafcc9dffac9f809a2299146548bdb6baccdd7",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 673,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 180,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6125,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5022,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 6798
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}
