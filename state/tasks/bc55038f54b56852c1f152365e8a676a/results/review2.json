@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "6cceef56-0444-4960-836e-b673914b3e01",
+    "response_id": "chatcmpl-EjhKy9MDo0BJ6QvtXi0IMungpCrWY",
+    "usage": {
+      "completion_tokens": 503,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 377,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4022,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2919,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 4525
+    }
+  },
+  "received_at": "2026-11-13T12:50:41+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "الفقرة الأخيرة",
+        "severity": "major",
+        "source_quote": "Let us not compromise His message and experience the torments of an eternity without the gospel.",
+        "suggested_fix": "فلنُحافظ على رسالته دون مساومة، لئلا نختبر عذابات الأبدية من دون الإنجيل.",
+        "translation_quote": "فلنساوم على رسالته، فنختبر عذابات الأبدية من دون الإنجيل."
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 89
+  }
+}

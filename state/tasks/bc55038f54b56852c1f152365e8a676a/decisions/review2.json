@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "الفقرة الأخيرة",
+      "severity": "major",
+      "source_quote": "Let us not compromise His message and experience the torments of an eternity without the gospel.",
+      "suggested_fix": "فلنُحافظ على رسالته دون مساومة، لئلا نختبر عذابات الأبدية من دون الإنجيل.",
+      "translation_quote": "فلنساوم على رسالته، فنختبر عذابات الأبدية من دون الإنجيل."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

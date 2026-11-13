@@ -12,11 +12,27 @@
       "event": "complete",
       "reason": null,
       "task": "8169ae3d42c1c66a757cb4a6a0419571"
+    },
+    {
+      "event": "publication_edit_requires_attention",
+      "observed_files": {
+        "html_path": "96fcc674d84ee3f12bf2be73bf767666b84b19be581859f102e161f5ee9d6f32",
+        "metadata_path": "c07b1b49599ab13db7c4d9e200a1751993ff0ecfbc41f1bbca6df6537c961498"
+      },
+      "reason": "Malformed HTML closing tag: em"
     }
   ],
   "language": "afr",
   "latest_task": "8169ae3d42c1c66a757cb4a6a0419571",
   "published": {
+    "accepted_snapshot": "state/publications/9beed23ea666533a83e0ad0fc77db8b9d7fa022dbea7e085a2de62e5f0508f25.json",
+    "edit_issue": {
+      "observed_files": {
+        "html_path": "96fcc674d84ee3f12bf2be73bf767666b84b19be581859f102e161f5ee9d6f32",
+        "metadata_path": "c07b1b49599ab13db7c4d9e200a1751993ff0ecfbc41f1bbca6df6537c961498"
+      },
+      "reason": "Malformed HTML closing tag: em"
+    },
     "html_path": "content/afr/articles/201a1b3e-85b3-4e62-bc45-118a8c1f5367.html",
     "html_sha256": "3538d37a25a4b2a1c3d32a125c356e0fba884134baa899d08b49125dddc05403",
     "human_review": null,

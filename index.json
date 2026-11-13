@@ -911,6 +911,10 @@
       "language_tag": "af",
       "metadata": "content/afr/articles/201a1b3e-85b3-4e62-bc45-118a8c1f5367.json",
       "metadata_sha256": "69fa9d6251a848656e67d4f9609b92944997ef84da5262bf2588983081f7d730",
+      "pending_edit": {
+        "reason": "Malformed HTML closing tag: em",
+        "serving_last_accepted": true
+      },
       "provider": "OpenAI",
       "review_model": "gpt-6-luna",
       "section": "Van die Redakteur",
