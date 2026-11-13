@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraph beginning «Однажды я занимаюсь обычными домашними делами»",
+      "severity": "minor",
+      "source_quote": "“As I cradle his head in my hands and massage shampoo into his hair”",
+      "suggested_fix": "«Поддерживая его голову руками, я втираю шампунь в волосы…»",
+      "translation_quote": "«Я поддерживаю его голову руками и массирую шампунь в его волосах»"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

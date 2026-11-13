@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-13T21:34:43+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, paragraph beginning «Однажды я занимаюсь обычными домашними делами»\",\"severity\":\"minor\",\"source_quote\":\"“As I cradle his head in my hands and massage shampoo into his hair”\",\"suggested_fix\":\"«Поддерживая его голову руками, я втираю шампунь в волосы…»\",\"translation_quote\":\"«Я поддерживаю его голову руками и массирую шампунь в его волосах»\"}],\"findings_complete\":true,\"passed\":true,\"score\":99}",
+    "content_bytes": 578,
+    "content_evidence_truncated": false,
+    "content_sha256": "1fe8f6692808c9a4ff6c5fe576a1426f4f0a84aa9843621a59301a81012ce803",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 769,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 635,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5941,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5938,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6710
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

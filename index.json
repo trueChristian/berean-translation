@@ -83260,6 +83260,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/rus/articles/46f89299-c0a0-407c-9898-01a0c150c453.html",
+      "html_sha256": "fdc5f72104f1f1337eb7e24a0ee18b21f63836fa492e92d4c2da97cb18725cc7",
+      "human_reviewed": false,
+      "id": "46f89299-c0a0-407c-9898-01a0c150c453",
+      "images": [
+        {
+          "alt": "Трое мальчиков сидят на скамейке с младенцем.",
+          "public_path": "/images/articles/46f89299-c0a0-407c-9898-01a0c150c453-1.jpg"
+        }
+      ],
+      "issue_id": "103c93e0-6e9a-44f6-a6bc-377af8e08e38",
+      "language": "rus",
+      "language_tag": "ru",
+      "metadata": "content/rus/articles/46f89299-c0a0-407c-9898-01a0c150c453.json",
+      "metadata_sha256": "956914ccd294cef0f1a789274de4b92dccc2ce1330e7e4dc4a61cfb1d637dd25",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "ОТ СЕСТРЫ К СЕСТРЕ",
+      "source_revision": "ccefc5a5c3d79409cc78319f94b5490718d30670",
+      "source_translation_key": "0afcc7ac219484ffe40d0a8780ac11cb2b9f1aabb8e86a8de9c7d9ef16398e27",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Поклонение матери",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/rus/articles/4ab4f655-4a17-4f5c-9623-e9085bd401f9.html",
       "html_sha256": "bc67ac3207228179674686ad37fce1ed7e250f8ffd38a2dd8829d1f94cfd4540",
       "human_reviewed": false,

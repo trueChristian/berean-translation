@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "f40ef429-62c7-4b9f-b4a9-2b6215b21eab",
+    "response_id": "chatcmpl-Ejp7XIqHXsSEao3MEmnwDXcWSdPWF",
+    "usage": {
+      "completion_tokens": 769,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 635,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5941,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5938,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6710
+    }
+  },
+  "received_at": "2026-11-13T21:34:43+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, paragraph beginning «Однажды я занимаюсь обычными домашними делами»",
+        "severity": "minor",
+        "source_quote": "“As I cradle his head in my hands and massage shampoo into his hair”",
+        "suggested_fix": "«Поддерживая его голову руками, я втираю шампунь в волосы…»",
+        "translation_quote": "«Я поддерживаю его голову руками и массирую шампунь в его волосах»"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 99
+  }
+}

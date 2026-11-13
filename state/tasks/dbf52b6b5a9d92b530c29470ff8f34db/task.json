@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "d5c1c8e18fb34cad9b471faeef053bc1",
   "campaign": "auto-686d3f8f9dff08be524110d976664a1f690fec6ff024fec3b34ac3ace25d2e2b",
   "created_at": "2026-11-11T18:57:07+00:00",
   "events": [
@@ -68,25 +67,39 @@
         },
         "total_tokens": 8647
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 769,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 635,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5941,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 5938,
+          "cached_tokens": 0
+        },
+        "total_tokens": 6710
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "Параграф, цитата «Так как вы сделали это…»",
-      "severity": "major",
-      "source_quote": "“Inasmuch as ye have done it unto one of the least of these, ye have done it unto me.”",
-      "suggested_fix": "«Так как вы сделали это одному из наименьших сих, то сделали Мне».",
-      "translation_quote": "«Так как вы сделали это одному из сих братьев Моих меньших, то сделали Мне»."
-    },
-    {
-      "location": "Последний абзац",
+      "location": "HTML, paragraph beginning «Однажды я занимаюсь обычными домашними делами»",
       "severity": "minor",
-      "source_quote": "“to open the heart to the love of God”",
-      "suggested_fix": "«открывать сердце Божьей любви»",
-      "translation_quote": "«открыть сердце любви Бога»"
+      "source_quote": "“As I cradle his head in my hands and massage shampoo into his hair”",
+      "suggested_fix": "«Поддерживая его голову руками, я втираю шампунь в волосы…»",
+      "translation_quote": "«Я поддерживаю его голову руками и массирую шампунь в его волосах»"
     }
   ],
+  "finished_at": "2026-11-13T21:34:43+00:00",
   "id": "dbf52b6b5a9d92b530c29470ff8f34db",
   "issue_id": "103c93e0-6e9a-44f6-a6bc-377af8e08e38",
   "language": "rus",
@@ -175,7 +188,7 @@
     }
   },
   "protected": false,
-  "quality_score": 93,
+  "quality_score": 99,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
@@ -195,7 +208,7 @@
     "total_reserved_usd": 0.088365,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "0afcc7ac219484ffe40d0a8780ac11cb2b9f1aabb8e86a8de9c7d9ef16398e27",
   "translation_model_actual": "gpt-6-luna"
