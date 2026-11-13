@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-13T21:35:02+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Opening paragraph\",\"severity\":\"major\",\"source_quote\":\"A Christ-centered Courtship is a series of messages on godly courtship\",\"suggested_fix\":\"La cour centrée sur le Christ est une série de messages sur la cour selon la volonté de Dieu\",\"translation_quote\":\"La cour faite au Christ est une série de messages sur la cour faite selon la volonté de Dieu\"}],\"findings_complete\":true,\"passed\":false,\"score\":93}",
+    "content_bytes": 436,
+    "content_evidence_truncated": false,
+    "content_sha256": "5ce52d8a582212d3c385e9dff5339a78f9dc087ae3482121bfb4826f75234e65",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 948,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 833,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 12142,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 11039,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 13090
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

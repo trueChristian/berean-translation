@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Opening paragraph",
+      "severity": "major",
+      "source_quote": "A Christ-centered Courtship is a series of messages on godly courtship",
+      "suggested_fix": "La cour centrée sur le Christ est une série de messages sur la cour selon la volonté de Dieu",
+      "translation_quote": "La cour faite au Christ est une série de messages sur la cour faite selon la volonté de Dieu"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
