@@ -19,9 +19,32 @@
       "event": "automatic_requested",
       "previous_task": "770ae1be81356776472a03e95167cc75",
       "task": "660b7b0c98dfd2622ea510321d518ba6"
+    },
+    {
+      "at": "2026-11-13T15:28:45+00:00",
+      "event": "complete",
+      "reason": null,
+      "task": "660b7b0c98dfd2622ea510321d518ba6"
     }
   ],
   "language": "heb",
   "latest_task": "660b7b0c98dfd2622ea510321d518ba6",
-  "published": null
+  "published": {
+    "html_path": "content/heb/articles/cf3bcef6-affc-4c39-9c73-ce940fab787f.html",
+    "html_sha256": "0f94a16dea6654ab36773195f6eb4bc0f79d7e5ee58d382c29e769556d057da6",
+    "human_review": null,
+    "human_reviewed": false,
+    "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
+    "metadata_path": "content/heb/articles/cf3bcef6-affc-4c39-9c73-ce940fab787f.json",
+    "metadata_sha256": "2015ce4c6af7e237c85c450181af6c81bbad2e1cd234bbe8b92466d418cc4242",
+    "model": "gpt-6.1-sol",
+    "notice_html": "<aside class=\"translation-notice\" data-translation-notice=\"ai\" lang=\"he\" dir=\"rtl\" role=\"note\">\n  <p>מאמר זה תורגם באמצעות בינה מלאכותית של OpenAI (מודל: gpt-6.1-sol) וטרם נבדק בידי אדם. המקור באנגלית הוא הגרסה המוסמכת. במקרה של ספק לגבי המשמעות, יש לעיין במקור באנגלית. <a href=\"/en/articles/cf3bcef6-affc-4c39-9c73-ce940fab787f/\" data-source-article-id=\"cf3bcef6-affc-4c39-9c73-ce940fab787f\" hreflang=\"en\">המקור באנגלית</a></p>\n</aside>",
+    "published_at": "2026-11-13T15:28:45+00:00",
+    "quality_score": 98,
+    "review_model": "gpt-6.1-sol",
+    "source_revision": "a069ecca8827634ebc256b3b1cabc16aeb942ed7",
+    "source_snapshot": "state/sources/b7ee9f03e59e498365e87293a0a34c9d2c750ef44928669a1eefd8094c67be20.json",
+    "task": "660b7b0c98dfd2622ea510321d518ba6",
+    "translation_key": "7186a7dafd85adebb8f6876e1cafaf204ddce9783339d4da1f44b2bb46a15d75"
+  }
 }

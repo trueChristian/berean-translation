@@ -41269,6 +41269,34 @@
     {
       "ai_notice_required": true,
       "direction": "rtl",
+      "html": "content/heb/articles/cf3bcef6-affc-4c39-9c73-ce940fab787f.html",
+      "html_sha256": "0f94a16dea6654ab36773195f6eb4bc0f79d7e5ee58d382c29e769556d057da6",
+      "human_reviewed": false,
+      "id": "cf3bcef6-affc-4c39-9c73-ce940fab787f",
+      "images": [
+        {
+          "alt": "מבט אווירי על קו הרקיע של עיר לצד אגם בשעת שקיעה",
+          "public_path": "/images/articles/cf3bcef6-affc-4c39-9c73-ce940fab787f-1.jpg"
+        }
+      ],
+      "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
+      "language": "heb",
+      "language_tag": "he",
+      "metadata": "content/heb/articles/cf3bcef6-affc-4c39-9c73-ce940fab787f.json",
+      "metadata_sha256": "2015ce4c6af7e237c85c450181af6c81bbad2e1cd234bbe8b92466d418cc4242",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "סכנות בנות זמננו",
+      "source_revision": "a069ecca8827634ebc256b3b1cabc16aeb942ed7",
+      "source_translation_key": "7186a7dafd85adebb8f6876e1cafaf204ddce9783339d4da1f44b2bb46a15d75",
+      "status": "ready",
+      "subtitle": null,
+      "title": "בעולם, אך לא מן העולם",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
       "html": "content/heb/articles/d0898011-fe8b-4c35-9aac-12c20ec0d950.html",
       "html_sha256": "6204fe3794d6b6b67a235140234cb779ea4ab72fc972e6d9d7de131acc68599b",
       "human_reviewed": false,
