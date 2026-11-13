@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-13T08:08:49+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"translation.html, paragrafo che inizia «Non lo sapevo»\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"He rode around with me continually, one hand clutching my neckline\",\n      \"suggested_fix\": \"Sostituire «Mi portavo sempre appresso» con «Me lo portavo sempre appresso».\",\n      \"translation_quote\": \"Mi portavo sempre appresso, con una mano che mi stringeva la scollatura\"\n    },\n    {\n      \"location\": \"translation.html, paragrafo che inizia «Provammo a disciplinarlo»\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"I recalled seeing other mothers clamp their hands over their toddler’s mouth\",\n      \"suggested_fix\": \"Sostituire «altre madri tapparsi la bocca con la mano ai figli piccoli» con «altre madri tappare con la mano la bocca ai propri figli piccoli».\",\n      \"translation_quote\": \"Ricordai di aver visto altre madri tapparsi la bocca con la mano ai figli piccoli\"\n    },\n    {\n      \"location\": \"translation.html, paragrafo che inizia «Quando aveva circa sei mesi»\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"We requested an anointing by our ministry.\",\n      \"suggested_fix\": \"Sostituire «Chiedemmo al nostro ministero di ungerlo» con «Chiedemmo ai responsabili della nostra comunità di ungerlo». In questo contesto «ministry» indica le persone incaricate del ministero, non un ministero inteso come istituzione.\",\n      \"translation_quote\": \"Chiedemmo al nostro ministero di ungerlo.\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": true,\n  \"score\": 96\n}",
+    "content_bytes": 1560,
+    "content_evidence_truncated": false,
+    "content_sha256": "d2079977b81a885a55eba3698dd643459a340bbff313562f06e4be5d5ad44a6f",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 481,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 61,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 15674,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 15671,
+        "cached_tokens": 0
+      },
+      "total_tokens": 16155
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}

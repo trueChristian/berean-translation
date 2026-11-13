@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "translation.html, paragrafo che inizia «Non lo sapevo»",
+      "severity": "minor",
+      "source_quote": "He rode around with me continually, one hand clutching my neckline",
+      "suggested_fix": "Sostituire «Mi portavo sempre appresso» con «Me lo portavo sempre appresso».",
+      "translation_quote": "Mi portavo sempre appresso, con una mano che mi stringeva la scollatura"
+    },
+    {
+      "location": "translation.html, paragrafo che inizia «Provammo a disciplinarlo»",
+      "severity": "minor",
+      "source_quote": "I recalled seeing other mothers clamp their hands over their toddler’s mouth",
+      "suggested_fix": "Sostituire «altre madri tapparsi la bocca con la mano ai figli piccoli» con «altre madri tappare con la mano la bocca ai propri figli piccoli».",
+      "translation_quote": "Ricordai di aver visto altre madri tapparsi la bocca con la mano ai figli piccoli"
+    },
+    {
+      "location": "translation.html, paragrafo che inizia «Quando aveva circa sei mesi»",
+      "severity": "minor",
+      "source_quote": "We requested an anointing by our ministry.",
+      "suggested_fix": "Sostituire «Chiedemmo al nostro ministero di ungerlo» con «Chiedemmo ai responsabili della nostra comunità di ungerlo». In questo contesto «ministry» indica le persone incaricate del ministero, non un ministero inteso come istituzione.",
+      "translation_quote": "Chiedemmo al nostro ministero di ungerlo."
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

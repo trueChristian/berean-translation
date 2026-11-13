@@ -57589,6 +57589,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ita/articles/ba15e3da-aab4-401c-9ec7-64b88ac22833.html",
+      "html_sha256": "88cb008f8bf72296702a0315c222484aca886ebab726a77e662a31e2d9f34bd1",
+      "human_reviewed": false,
+      "id": "ba15e3da-aab4-401c-9ec7-64b88ac22833",
+      "images": [
+        {
+          "alt": "La mano di un neonato che stringe un dito di un adulto",
+          "public_path": "/images/articles/ba15e3da-aab4-401c-9ec7-64b88ac22833-1.jpg"
+        },
+        {
+          "alt": "Una stanza d’ospedale vuota con un letto e delle sedie",
+          "public_path": "/images/articles/ba15e3da-aab4-401c-9ec7-64b88ac22833-2.jpg"
+        }
+      ],
+      "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
+      "language": "ita",
+      "language_tag": "it",
+      "metadata": "content/ita/articles/ba15e3da-aab4-401c-9ec7-64b88ac22833.json",
+      "metadata_sha256": "5c6095d8731d484c0cebd0f7724a612b8be5591ff194af28374a41f0a3f941e4",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "DA SORELLA A SORELLA",
+      "source_revision": "a069ecca8827634ebc256b3b1cabc16aeb942ed7",
+      "source_translation_key": "c0ea566946f0a6021377107c368c8e903efb03bae10a6af153c1e6371a1e792a",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Quando la via di Dio funziona",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ita/articles/ba1df680-e125-4b7a-a6dd-6ad35433e1b5.html",
       "html_sha256": "65ca69dd25aadbd107205ec91a7ac62a17268ed36834e71cbfdf273fdc1c7006",
       "human_reviewed": false,
