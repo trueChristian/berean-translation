@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "34e14a834b084c97ae4f72f28eca063b",
   "campaign": "auto-9e810808f5783d854c7c4c11315de9d2a70243cf797ad6f104e40cb475bb8391",
   "created_at": "2026-11-11T03:35:14+00:00",
   "events": [
@@ -28,10 +27,39 @@
         },
         "total_tokens": 5612
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 789,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 687,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5914,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 4811,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 6703
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "Final paragraph",
+      "severity": "minor",
+      "source_quote": "my love for my child, which nearly bursts my heart",
+      "suggested_fix": "محبتي لطفلي، التي تكاد تفيض بها نفسي",
+      "translation_quote": "محبتي لطفلي، التي تكاد تفطر قلبي من فرطها"
+    }
+  ],
+  "finished_at": "2026-11-13T00:14:54+00:00",
   "id": "9ba5bfabf7a5f8fd87da63a564120815",
   "issue_id": "103c93e0-6e9a-44f6-a6bc-377af8e08e38",
   "language": "ara",
@@ -120,9 +148,11 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/f799c5261bfa5123ccd95f0eaad7408b93a29fececbf1f6ba9d2cb7f01aae400.json",
   "stage": "review1",
   "stage_budget": {
@@ -138,7 +168,7 @@
     "total_reserved_usd": 0.08837,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "0afcc7ac219484ffe40d0a8780ac11cb2b9f1aabb8e86a8de9c7d9ef16398e27",
   "translation_model_actual": "gpt-6-luna"

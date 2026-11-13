@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Final paragraph",
+      "severity": "minor",
+      "source_quote": "my love for my child, which nearly bursts my heart",
+      "suggested_fix": "محبتي لطفلي، التي تكاد تفيض بها نفسي",
+      "translation_quote": "محبتي لطفلي، التي تكاد تفطر قلبي من فرطها"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

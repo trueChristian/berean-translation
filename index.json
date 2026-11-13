@@ -7135,6 +7135,34 @@
     {
       "ai_notice_required": true,
       "direction": "rtl",
+      "html": "content/ara/articles/46f89299-c0a0-407c-9898-01a0c150c453.html",
+      "html_sha256": "3d5713fafdb5c108167a762f655698d824ba906d66f6674321dac3a561155500",
+      "human_reviewed": false,
+      "id": "46f89299-c0a0-407c-9898-01a0c150c453",
+      "images": [
+        {
+          "alt": "ثلاثة صبية يجلسون على مقعد مع رضيع.",
+          "public_path": "/images/articles/46f89299-c0a0-407c-9898-01a0c150c453-1.jpg"
+        }
+      ],
+      "issue_id": "103c93e0-6e9a-44f6-a6bc-377af8e08e38",
+      "language": "ara",
+      "language_tag": "ar",
+      "metadata": "content/ara/articles/46f89299-c0a0-407c-9898-01a0c150c453.json",
+      "metadata_sha256": "f200634668da28653a2943905bf0475fd2be3a7cf2e95be89697900aaaf473bc",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "أخت إلى أخت",
+      "source_revision": "6c3e27346b6b031f46e29e723e884fe8407806b7",
+      "source_translation_key": "0afcc7ac219484ffe40d0a8780ac11cb2b9f1aabb8e86a8de9c7d9ef16398e27",
+      "status": "ready",
+      "subtitle": null,
+      "title": "عبادة أمّ",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
       "html": "content/ara/articles/486eb0b4-74ad-40db-b53a-51a7b89036e2.html",
       "html_sha256": "55cb7c21d95d4105545176d5e6f83054078e89dc3c5eaa8d7f0de9e48a809759",
       "human_reviewed": false,
