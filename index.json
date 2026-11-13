@@ -5963,6 +5963,34 @@
     {
       "ai_notice_required": true,
       "direction": "rtl",
+      "html": "content/ara/articles/01a0a64f-d629-4e05-b1ec-993f86ef4d68.html",
+      "html_sha256": "cf93d27a5ecd03abf9d1a03e4693dd3ea52f72e41796e0463d1a83e82a45d298",
+      "human_reviewed": false,
+      "id": "01a0a64f-d629-4e05-b1ec-993f86ef4d68",
+      "images": [
+        {
+          "alt": "أغصان طويلة مورقة تتدلى أمام خلفية باهتة.",
+          "public_path": "/images/articles/01a0a64f-d629-4e05-b1ec-993f86ef4d68-1.jpg"
+        }
+      ],
+      "issue_id": "103c93e0-6e9a-44f6-a6bc-377af8e08e38",
+      "language": "ara",
+      "language_tag": "ar",
+      "metadata": "content/ara/articles/01a0a64f-d629-4e05-b1ec-993f86ef4d68.json",
+      "metadata_sha256": "4e3285b552725939ee660eb2aad0a854c4e753c1446afba3c893f0487cdeb168",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": null,
+      "source_revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
+      "source_translation_key": "0bd5a7158c3c967ae2d717d605a8900c05380dfe6cec6d3e4b4f139ce0827dab",
+      "status": "ready",
+      "subtitle": null,
+      "title": "هو يخلّص شعبه من خطاياهم",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
       "html": "content/ara/articles/049f2e7d-675c-4dac-9584-5aefceb9b9c1.html",
       "html_sha256": "953260e192345b7af6df868d8fee34453d8b349c9243b603ad482761e671cf03",
       "human_reviewed": false,

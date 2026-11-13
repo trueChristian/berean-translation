@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "0d0481805334427bbf8aa38844f2e3f8",
   "campaign": "auto-16f4a92c66df7b962f00ed813ce12da07ff06e8564e11c62698f2a347beabd2d",
   "created_at": "2026-11-13T21:36:28+00:00",
   "events": [
@@ -28,18 +27,31 @@
         },
         "total_tokens": 5701
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 59,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 27,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4035,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 4032,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4094
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "الفقرة الأخيرة",
-      "severity": "major",
-      "source_quote": "Let us not compromise His message and experience the torments of an eternity without the gospel.",
-      "suggested_fix": "فلنُحافظ على رسالته دون مساومة، لئلا نختبر عذابات الأبدية من دون الإنجيل.",
-      "translation_quote": "فلنساوم على رسالته، فنختبر عذابات الأبدية من دون الإنجيل."
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-11-13T22:51:29+00:00",
   "id": "04d91302df55885301da9ae735c11ac6",
   "issue_id": "103c93e0-6e9a-44f6-a6bc-377af8e08e38",
   "language": "ara",
@@ -128,9 +140,11 @@
     }
   },
   "protected": false,
+  "quality_score": 99,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/d7b2f9204f8c880ac06ecdb66b7ea1f500cf845e46a60bfd52f2c4a154c0e5c9.json",
   "stage": "review2",
   "stage_budget": {
@@ -144,7 +158,7 @@
     "total_reserved_usd": 0.554532,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "0bd5a7158c3c967ae2d717d605a8900c05380dfe6cec6d3e4b4f139ce0827dab",
   "translation_model_actual": "gpt-6.1-sol"
