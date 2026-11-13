@@ -8061,7 +8061,7 @@
       "article_id": "12387934-7e9b-49f7-874a-0e66fa7942d3",
       "language": "nob",
       "latest_task": "4605a5e85227916c48c6b2eb16b80583",
-      "processing_status": "queued",
+      "processing_status": "in_batch",
       "reason": "active"
     },
     {
