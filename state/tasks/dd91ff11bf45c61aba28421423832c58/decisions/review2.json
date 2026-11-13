@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "translation.html, aya inayoanza “Nitatumia wiki hii kuelekeza fikira zangu zote…”",
+      "severity": "major",
+      "source_quote": "But this is important. Too important to keep letting ‘life’ interfere.",
+      "suggested_fix": "Lakini jambo hili ni muhimu. Ni muhimu mno kiasi kwamba hatupaswi kuendelea kuruhusu ‘maisha’ yatukengeushe.",
+      "translation_quote": "Lakini jambo hili ni muhimu. Ni muhimu mno kuendelea kuruhusu ‘maisha’ yatukengeushe."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

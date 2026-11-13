@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "ccc9205e-4b7c-4e6c-99cb-da7a725992ef",
+    "response_id": "chatcmpl-EjqhAKionqnTmwbctVmhdzuv15vun",
+    "usage": {
+      "completion_tokens": 273,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 100,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 16398,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 16395,
+        "cached_tokens": 0
+      },
+      "total_tokens": 16671
+    }
+  },
+  "received_at": "2026-11-13T21:34:26+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "translation.html, aya inayoanza “Nitatumia wiki hii kuelekeza fikira zangu zote…”",
+        "severity": "major",
+        "source_quote": "But this is important. Too important to keep letting ‘life’ interfere.",
+        "suggested_fix": "Lakini jambo hili ni muhimu. Ni muhimu mno kiasi kwamba hatupaswi kuendelea kuruhusu ‘maisha’ yatukengeushe.",
+        "translation_quote": "Lakini jambo hili ni muhimu. Ni muhimu mno kuendelea kuruhusu ‘maisha’ yatukengeushe."
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 94
+  }
+}
