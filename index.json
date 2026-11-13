@@ -101441,6 +101441,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/swe/articles/cf3bcef6-affc-4c39-9c73-ce940fab787f.html",
+      "html_sha256": "ea748f1ce308f90f0f830eaa0c5c80eab3206ed8c7dca1c21e918cec6a22e3c1",
+      "human_reviewed": false,
+      "id": "cf3bcef6-affc-4c39-9c73-ce940fab787f",
+      "images": [
+        {
+          "alt": "Flygfoto över en stads silhuett vid en sjö i solnedgången",
+          "public_path": "/images/articles/cf3bcef6-affc-4c39-9c73-ce940fab787f-1.jpg"
+        }
+      ],
+      "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
+      "language": "swe",
+      "language_tag": "sv",
+      "metadata": "content/swe/articles/cf3bcef6-affc-4c39-9c73-ce940fab787f.json",
+      "metadata_sha256": "a83d09dc20c504f8f91260987e7727757f9bdbaa641f0a432f8b7c9752f3a03a",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "Faror i vår tid",
+      "source_revision": "a069ecca8827634ebc256b3b1cabc16aeb942ed7",
+      "source_translation_key": "7186a7dafd85adebb8f6876e1cafaf204ddce9783339d4da1f44b2bb46a15d75",
+      "status": "ready",
+      "subtitle": null,
+      "title": "I världen, men inte av den",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/swe/articles/d0395fde-712d-488d-a161-c26c87ed128b.html",
       "html_sha256": "93d7fc046cfdc22210e4d40c5f51fe16f2f2e41860217b096fdff061f61b281d",
       "human_reviewed": false,
