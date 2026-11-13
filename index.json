@@ -22944,6 +22944,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/deu/articles/55b18915-e213-448c-8fe1-d430e195e768.html",
+      "html_sha256": "80869f251c250f8e70e121b600d25dc97b8dc316a4c2d5ab427329498aad5d36",
+      "human_reviewed": false,
+      "id": "55b18915-e213-448c-8fe1-d430e195e768",
+      "images": [
+        {
+          "alt": "Blitz unter dunklen Gewitterwolken über einem Feld",
+          "public_path": "/images/articles/55b18915-e213-448c-8fe1-d430e195e768-1.jpg"
+        }
+      ],
+      "issue_id": "1a7070c9-fd4f-546b-a220-f267ddb8cf5f",
+      "language": "deu",
+      "language_tag": "de",
+      "metadata": "content/deu/articles/55b18915-e213-448c-8fe1-d430e195e768.json",
+      "metadata_sha256": "3bdaf39894f4b2d3b57091463d784922c035b289bf6ecc2e7317b3eb7bea71ed",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "Christliche Jüngerschaft",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "73de90ede959b89d4fd696b2e9474c165d018804ec574570e47ca5f30322f740",
+      "status": "ready",
+      "subtitle": "Der vierte Artikel der Jüngerschaftsreihe",
+      "title": "Männer des Glaubens",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/deu/articles/5613aef3-79c5-42d4-9695-214e71989c22.html",
       "html_sha256": "b4257a0de1aec97dd3e66eae6ee7f296b4e24552727df2b2240ee8b6c4c30414",
       "human_reviewed": false,
