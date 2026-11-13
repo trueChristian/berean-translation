@@ -102559,6 +102559,34 @@
     {
       "ai_notice_required": true,
       "direction": "rtl",
+      "html": "content/urd/articles/01a0a64f-d629-4e05-b1ec-993f86ef4d68.html",
+      "html_sha256": "376bafaf6c0aa16b94e8f8b09e2b5d809abb092612824a186e662cd407f3597a",
+      "human_reviewed": false,
+      "id": "01a0a64f-d629-4e05-b1ec-993f86ef4d68",
+      "images": [
+        {
+          "alt": "پھیکے پس منظر کے سامنے لٹکتی ہوئی لمبی پتوں والی شاخیں۔",
+          "public_path": "/images/articles/01a0a64f-d629-4e05-b1ec-993f86ef4d68-1.jpg"
+        }
+      ],
+      "issue_id": "103c93e0-6e9a-44f6-a6bc-377af8e08e38",
+      "language": "urd",
+      "language_tag": "ur",
+      "metadata": "content/urd/articles/01a0a64f-d629-4e05-b1ec-993f86ef4d68.json",
+      "metadata_sha256": "05578c8dbd890cfe06a0329db6982c96c335acc448855a29dbd1442f472be43f",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": null,
+      "source_revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
+      "source_translation_key": "0bd5a7158c3c967ae2d717d605a8900c05380dfe6cec6d3e4b4f139ce0827dab",
+      "status": "ready",
+      "subtitle": null,
+      "title": "وہ اپنی قوم کو اُن کے گناہوں سے نجات دے گا",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
       "html": "content/urd/articles/02db24ae-5132-49c6-a6fd-da73417871e3.html",
       "html_sha256": "d48292d38ab26eb4095677798522bae6ec4cd34676ec9c77e748737b1f867ac8",
       "human_reviewed": false,
