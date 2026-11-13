@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Σε όλο το άρθρο· ενδεικτικά στον τίτλο και στην πρώτη παράγραφο",
+      "severity": "major",
+      "source_quote": "“A Christ-Centered Courtship Process”; “A Christ-centered courtship process consists of a courting period and an engagement period.”",
+      "suggested_fix": "Αντικαταστήστε συστηματικά το «αυλοφροσύνη» με φυσική σύγχρονη ελληνική απόδοση, όπως «γνωριμία με σκοπό τον γάμο» ή «προγαμιαία σχέση», προσαρμόζοντας ανάλογα και τις σύνθετες φράσεις.",
+      "translation_quote": "«Μια διαδικασία αυλοφροσύνης με επίκεντρο τον Χριστό»· «Η διαδικασία μιας αυλοφροσύνης με επίκεντρο τον Χριστό περιλαμβάνει μια περίοδο αυλοφροσύνης»"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

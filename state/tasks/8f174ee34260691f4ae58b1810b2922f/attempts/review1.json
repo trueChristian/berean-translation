@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-13T21:34:56+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Σε όλο το άρθρο· ενδεικτικά στον τίτλο και στην πρώτη παράγραφο\",\"severity\":\"major\",\"source_quote\":\"“A Christ-Centered Courtship Process”; “A Christ-centered courtship process consists of a courting period and an engagement period.”\",\"suggested_fix\":\"Αντικαταστήστε συστηματικά το «αυλοφροσύνη» με φυσική σύγχρονη ελληνική απόδοση, όπως «γνωριμία με σκοπό τον γάμο» ή «προγαμιαία σχέση», προσαρμόζοντας ανάλογα και τις σύνθετες φράσεις.\",\"translation_quote\":\"«Μια διαδικασία αυλοφροσύνης με επίκεντρο τον Χριστό»· «Η διαδικασία μιας αυλοφροσύνης με επίκεντρο τον Χριστό περιλαμβάνει μια περίοδο αυλοφροσύνης»\"}],\"findings_complete\":true,\"passed\":false,\"score\":89}",
+    "content_bytes": 1040,
+    "content_evidence_truncated": false,
+    "content_sha256": "4d2170a0ed9683db2d13845bb66caa61be310023ef1c399222ac7bb2893aceac",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1132,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 900,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 14844,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 14841,
+        "cached_tokens": 0
+      },
+      "total_tokens": 15976
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

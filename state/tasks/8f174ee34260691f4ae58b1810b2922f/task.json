@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "d57e174310e9423f855a23c7f3c68085",
   "campaign": "auto-36937b0869a9ce2b6f49fc9c8817874be4d6cd11bca6e6f4d3231c2ba7d74cd7",
   "created_at": "2026-11-13T07:11:18+00:00",
   "events": [
@@ -28,10 +27,38 @@
         },
         "total_tokens": 14523
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1132,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 900,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 14844,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 14841,
+          "cached_tokens": 0
+        },
+        "total_tokens": 15976
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "Σε όλο το άρθρο· ενδεικτικά στον τίτλο και στην πρώτη παράγραφο",
+      "severity": "major",
+      "source_quote": "“A Christ-Centered Courtship Process”; “A Christ-centered courtship process consists of a courting period and an engagement period.”",
+      "suggested_fix": "Αντικαταστήστε συστηματικά το «αυλοφροσύνη» με φυσική σύγχρονη ελληνική απόδοση, όπως «γνωριμία με σκοπό τον γάμο» ή «προγαμιαία σχέση», προσαρμόζοντας ανάλογα και τις σύνθετες φράσεις.",
+      "translation_quote": "«Μια διαδικασία αυλοφροσύνης με επίκεντρο τον Χριστό»· «Η διαδικασία μιας αυλοφροσύνης με επίκεντρο τον Χριστό περιλαμβάνει μια περίοδο αυλοφροσύνης»"
+    }
+  ],
   "id": "8f174ee34260691f4ae58b1810b2922f",
   "issue_id": "103c93e0-6e9a-44f6-a6bc-377af8e08e38",
   "language": "ell",
@@ -120,11 +147,13 @@
     }
   },
   "protected": false,
+  "quality_score": 89,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/28493dcff92c3eb625274c8a3da67c7e1031a757b524e0669b9264101184aae7.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "translate",
     "max_candidate_bytes": 120000,
@@ -138,7 +167,7 @@
     "total_reserved_usd": 0.092128,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "168a1108b0cb584118665d0d4048559fb86bb1444e057e3646ac49c743cf2917",
   "translation_model_actual": "gpt-6-luna"
