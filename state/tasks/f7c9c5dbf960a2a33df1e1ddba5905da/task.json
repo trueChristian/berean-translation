@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "069e6f4c7d874da2be4a57780ad688c3",
   "campaign": "auto-720f51a69c99ed9c7668346cf03218d03a6b467795d7a2d5634faf283c436773",
   "created_at": "2026-11-13T07:12:56+00:00",
   "events": [
@@ -28,10 +27,45 @@
         },
         "total_tokens": 11944
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 847,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 644,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 12298,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 11195,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 13145
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "Guidelines for a Christ-centered courtship process, paragraph beginning “Be under the authority”",
+      "severity": "major",
+      "source_quote": "Your parents should help you make your guidelines and keep you accountable.",
+      "suggested_fix": "Your parents should help you make your guidelines and keep you accountable.",
+      "translation_quote": "I vostri genitori dovrebbero aiutarvi a stabilire le linee guida e a renderne conto."
+    },
+    {
+      "location": "Guideline 9, paragraph beginning “Remember your friends”",
+      "severity": "major",
+      "source_quote": "When you are courting, your friends may feel left out.",
+      "suggested_fix": "Quando siete impegnati in un corteggiamento, i vostri amici potrebbero sentirsi esclusi.",
+      "translation_quote": "Quando siete fidanzati, i vostri amici potrebbero sentirsi esclusi."
+    }
+  ],
   "id": "f7c9c5dbf960a2a33df1e1ddba5905da",
   "issue_id": "103c93e0-6e9a-44f6-a6bc-377af8e08e38",
   "language": "ita",
@@ -120,11 +154,13 @@
     }
   },
   "protected": false,
+  "quality_score": 92,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/28493dcff92c3eb625274c8a3da67c7e1031a757b524e0669b9264101184aae7.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "translate",
     "max_candidate_bytes": 120000,
@@ -138,7 +174,7 @@
     "total_reserved_usd": 0.09212,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "168a1108b0cb584118665d0d4048559fb86bb1444e057e3646ac49c743cf2917",
   "translation_model_actual": "gpt-6-luna"

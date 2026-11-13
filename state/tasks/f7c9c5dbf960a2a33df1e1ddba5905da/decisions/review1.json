@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Guidelines for a Christ-centered courtship process, paragraph beginning “Be under the authority”",
+      "severity": "major",
+      "source_quote": "Your parents should help you make your guidelines and keep you accountable.",
+      "suggested_fix": "Your parents should help you make your guidelines and keep you accountable.",
+      "translation_quote": "I vostri genitori dovrebbero aiutarvi a stabilire le linee guida e a renderne conto."
+    },
+    {
+      "location": "Guideline 9, paragraph beginning “Remember your friends”",
+      "severity": "major",
+      "source_quote": "When you are courting, your friends may feel left out.",
+      "suggested_fix": "Quando siete impegnati in un corteggiamento, i vostri amici potrebbero sentirsi esclusi.",
+      "translation_quote": "Quando siete fidanzati, i vostri amici potrebbero sentirsi esclusi."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

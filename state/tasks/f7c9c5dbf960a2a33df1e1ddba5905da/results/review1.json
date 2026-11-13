@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "9ce6efd6-5da3-4b4b-bccf-94a143ba859c",
+    "response_id": "chatcmpl-EjuIlTOIzEuc3X3sluTQc9cVKUHZR",
+    "usage": {
+      "completion_tokens": 847,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 644,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 12298,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 11195,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 13145
+    }
+  },
+  "received_at": "2026-11-13T22:52:11+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Guidelines for a Christ-centered courtship process, paragraph beginning “Be under the authority”",
+        "severity": "major",
+        "source_quote": "Your parents should help you make your guidelines and keep you accountable.",
+        "suggested_fix": "Your parents should help you make your guidelines and keep you accountable.",
+        "translation_quote": "I vostri genitori dovrebbero aiutarvi a stabilire le linee guida e a renderne conto."
+      },
+      {
+        "location": "Guideline 9, paragraph beginning “Remember your friends”",
+        "severity": "major",
+        "source_quote": "When you are courting, your friends may feel left out.",
+        "suggested_fix": "Quando siete impegnati in un corteggiamento, i vostri amici potrebbero sentirsi esclusi.",
+        "translation_quote": "Quando siete fidanzati, i vostri amici potrebbero sentirsi esclusi."
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 92
+  }
+}
