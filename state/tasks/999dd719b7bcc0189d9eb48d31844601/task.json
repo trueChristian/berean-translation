@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "df5650d22c1c428a8af99b08d9452fe6",
   "campaign": "auto-50fde20819ac36c0711af9b0eecad19e3f89166e37d0c3e4d8a61fbdbe6dc915",
   "created_at": "2026-11-11T18:54:57+00:00",
   "events": [
@@ -68,18 +67,31 @@
         },
         "total_tokens": 8669
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 522,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 490,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6000,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 5997,
+          "cached_tokens": 0
+        },
+        "total_tokens": 6522
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "Paragraf tentang Sang Raja, kutipan terakhir",
-      "severity": "major",
-      "source_quote": "“Inasmuch as ye have done it unto one of the least of these, ye have done it unto me.”",
-      "suggested_fix": "Ubah kutipan menjadi “Sesungguhnya segala sesuatu yang kamu lakukan untuk salah seorang dari yang paling hina ini, kamu telah melakukannya untuk Aku.”",
-      "translation_quote": "“Sesungguhnya segala sesuatu yang kamu lakukan untuk salah seorang dari saudara-Ku yang paling hina ini, kamu telah melakukannya untuk Aku.”"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-11-13T22:51:42+00:00",
   "id": "999dd719b7bcc0189d9eb48d31844601",
   "issue_id": "103c93e0-6e9a-44f6-a6bc-377af8e08e38",
   "language": "ind",
@@ -168,7 +180,7 @@
     }
   },
   "protected": false,
-  "quality_score": 92,
+  "quality_score": 100,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
@@ -188,7 +200,7 @@
     "total_reserved_usd": 0.088365,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "0afcc7ac219484ffe40d0a8780ac11cb2b9f1aabb8e86a8de9c7d9ef16398e27",
   "translation_model_actual": "gpt-6-luna"
