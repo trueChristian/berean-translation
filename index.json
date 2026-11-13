@@ -18232,6 +18232,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/cmn/articles/682dc04d-bea3-4325-ac73-926bb3396990.html",
+      "html_sha256": "453d809c9835625bb839996e7e2c1aa8ecdf0a44d47ea4d14d2d8e086f70d2ca",
+      "human_reviewed": false,
+      "id": "682dc04d-bea3-4325-ac73-926bb3396990",
+      "images": [
+        {
+          "alt": "汉堡、热狗、薯条、鸡块、鸡翅和薯片。",
+          "public_path": "/images/articles/682dc04d-bea3-4325-ac73-926bb3396990-1.jpg"
+        },
+        {
+          "alt": "浅色台面上摆着三文鱼、莓果、坚果、绿叶蔬菜和番茄。",
+          "public_path": "/images/articles/682dc04d-bea3-4325-ac73-926bb3396990-2.jpg"
+        }
+      ],
+      "issue_id": "103c93e0-6e9a-44f6-a6bc-377af8e08e38",
+      "language": "cmn",
+      "language_tag": "zh-Hans",
+      "metadata": "content/cmn/articles/682dc04d-bea3-4325-ac73-926bb3396990.json",
+      "metadata_sha256": "7ad93f3896b8e0f168ac8078d3a26555feb9327cbf69b66062c7745d70eb4945",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "医生的话",
+      "source_revision": "ccefc5a5c3d79409cc78319f94b5490718d30670",
+      "source_translation_key": "e08824e3e33290c1dfae2fe095d30369d2527145b6b1d02261193ad339207a52",
+      "status": "ready",
+      "subtitle": null,
+      "title": "超加工食品的危害",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/cmn/articles/683a4e23-acbb-434a-8e0e-2b0793e1a0fb.html",
       "html_sha256": "ad591e3b1724205294b6fc3def3daf24745f4441a1fe74e98f3d1956f3f32e1f",
       "human_reviewed": false,
