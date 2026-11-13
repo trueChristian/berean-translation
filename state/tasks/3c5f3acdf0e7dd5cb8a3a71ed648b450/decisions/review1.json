@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "translation.html：讨论关系破裂和情绪／心理挣扎的段落",
+      "severity": "major",
+      "source_quote": "within the plain communities",
+      "suggested_fix": "将“平原社区中”改为“简朴派基督徒群体中”。",
+      "translation_quote": "平原社区中"
+    },
+    {
+      "location": "translation.html：最后的引文，犹大书 1:24-25",
+      "severity": "major",
+      "source_quote": "To the only wise God our Saviour, be glory and majesty, dominion and power, both now and ever.",
+      "suggested_fix": "将“我们的救主独一的上帝，愿荣耀、威严、能力、权柄，因我们的主耶稣基督归与他，从万古以前，并现今，直到永永远远”改为“愿荣耀、威严、统治和权能，都归于我们的救主、独一有智慧的上帝，从现今直到永远”。保留现有引文标签和经文出处。",
+      "translation_quote": "我们的救主独一的上帝，愿荣耀、威严、能力、权柄，因我们的主耶稣基督归与他，从万古以前，并现今，直到永永远远"
+    },
+    {
+      "location": "translation.html：恐惧与末日段落中的启示录 6:15-17 引文",
+      "severity": "major",
+      "source_quote": "For the great day of his wrath is come",
+      "suggested_fix": "将“因为他们忿怒的大日到了”改为“因为他忿怒的大日到了”，忠实保留原文的单数指称。",
+      "translation_quote": "因为他们忿怒的大日到了"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
