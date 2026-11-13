@@ -5,11 +5,62 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "6690102de957450f95cab85ce1ad0558",
   "campaign": "auto-92d0913884eedcb552a7343b3d6517582b3442262c2b672562bfcd8c1c752547",
   "created_at": "2026-11-13T01:03:34+00:00",
-  "events": [],
-  "findings": [],
+  "events": [
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 678,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 130,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 15521,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 15518,
+          "cached_tokens": 0
+        },
+        "total_tokens": 16199
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "html, avsnittet som begynner «Mot slutten av den første uken»",
+      "severity": "minor",
+      "source_quote": "he would offer Sterling and I each one of his little paddies to hold while he ate",
+      "suggested_fix": "Erstatt «tilbød han Sterling og meg hver vår lille ‘paddy’ å holde» med «rakte han Sterling og meg hver sin lille hånd å holde i».",
+      "translation_quote": "tilbød han Sterling og meg hver vår lille «paddy» å holde mens han spiste"
+    },
+    {
+      "location": "html, avsnittet som begynner «Fellesskapsmåltidene var en katastrofe»",
+      "severity": "minor",
+      "source_quote": "By the time we had fixed plates and fed our little family",
+      "suggested_fix": "Erstatt «laget tallerkener» med «forsynt oss på tallerkenene».",
+      "translation_quote": "Innen vi hadde laget tallerkener og matet den lille familien vår"
+    },
+    {
+      "location": "html, avsnittene som begynner «Judson forberedte seg», «‘Nei’, svarte jeg» og «Nå ser vi på ham»",
+      "severity": "minor",
+      "source_quote": "she was unruffled by the occurrence; She gave him a suppository; charming our family",
+      "suggested_fix": "Rett henholdsvis til «hun lot seg ikke uroe av det», «Hun ga ham en stikkpille» og «han sjarmerer familien».",
+      "translation_quote": "hun lot seg ikke uro av det; Hun ga ham et stikkpiller; han sjarmere familien"
+    },
+    {
+      "location": "html, avsnittet som begynner «Søndagen før vi skulle dra til timen»",
+      "severity": "minor",
+      "source_quote": "swallowing mouthfuls of pride and comfort while doing so",
+      "suggested_fix": "Erstatt «svelget stoltheten og ubehaget» med «måtte gi avkall på både stolthet og komfort».",
+      "translation_quote": "svelget stoltheten og ubehaget mens jeg gjorde det"
+    }
+  ],
+  "finished_at": "2026-11-13T21:34:10+00:00",
   "id": "f21bd85fb39c445f1fb6410d716aa01d",
   "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
   "language": "nob",
@@ -98,9 +149,11 @@
     }
   },
   "protected": false,
+  "quality_score": 95,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/387a30a8b9a527909765f2e60773227d3f49a4a9b5776049e1f6de3e5552f735.json",
   "stage": "review1",
   "stage_budget": {
@@ -115,7 +168,7 @@
     "total_reserved_usd": 1.208961,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 0,
   "translation_key": "c0ea566946f0a6021377107c368c8e903efb03bae10a6af153c1e6371a1e792a",
   "translation_model_actual": "gpt-6-luna"

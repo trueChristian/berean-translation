@@ -1,0 +1,35 @@
+{
+  "findings": [
+    {
+      "location": "html, avsnittet som begynner «Mot slutten av den første uken»",
+      "severity": "minor",
+      "source_quote": "he would offer Sterling and I each one of his little paddies to hold while he ate",
+      "suggested_fix": "Erstatt «tilbød han Sterling og meg hver vår lille ‘paddy’ å holde» med «rakte han Sterling og meg hver sin lille hånd å holde i».",
+      "translation_quote": "tilbød han Sterling og meg hver vår lille «paddy» å holde mens han spiste"
+    },
+    {
+      "location": "html, avsnittet som begynner «Fellesskapsmåltidene var en katastrofe»",
+      "severity": "minor",
+      "source_quote": "By the time we had fixed plates and fed our little family",
+      "suggested_fix": "Erstatt «laget tallerkener» med «forsynt oss på tallerkenene».",
+      "translation_quote": "Innen vi hadde laget tallerkener og matet den lille familien vår"
+    },
+    {
+      "location": "html, avsnittene som begynner «Judson forberedte seg», «‘Nei’, svarte jeg» og «Nå ser vi på ham»",
+      "severity": "minor",
+      "source_quote": "she was unruffled by the occurrence; She gave him a suppository; charming our family",
+      "suggested_fix": "Rett henholdsvis til «hun lot seg ikke uroe av det», «Hun ga ham en stikkpille» og «han sjarmerer familien».",
+      "translation_quote": "hun lot seg ikke uro av det; Hun ga ham et stikkpiller; han sjarmere familien"
+    },
+    {
+      "location": "html, avsnittet som begynner «Søndagen før vi skulle dra til timen»",
+      "severity": "minor",
+      "source_quote": "swallowing mouthfuls of pride and comfort while doing so",
+      "suggested_fix": "Erstatt «svelget stoltheten og ubehaget» med «måtte gi avkall på både stolthet og komfort».",
+      "translation_quote": "svelget stoltheten og ubehaget mens jeg gjorde det"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

@@ -74316,6 +74316,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/nob/articles/ba15e3da-aab4-401c-9ec7-64b88ac22833.html",
+      "html_sha256": "6f7801580b476439367e0a532c496c9a31c3bfedad1981bc2207b2c90e97eea0",
+      "human_reviewed": false,
+      "id": "ba15e3da-aab4-401c-9ec7-64b88ac22833",
+      "images": [
+        {
+          "alt": "En nyfødt babys hånd som holder en voksens finger",
+          "public_path": "/images/articles/ba15e3da-aab4-401c-9ec7-64b88ac22833-1.jpg"
+        },
+        {
+          "alt": "Et tomt sykehusrom med en seng og sitteplasser",
+          "public_path": "/images/articles/ba15e3da-aab4-401c-9ec7-64b88ac22833-2.jpg"
+        }
+      ],
+      "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
+      "language": "nob",
+      "language_tag": "nb",
+      "metadata": "content/nob/articles/ba15e3da-aab4-401c-9ec7-64b88ac22833.json",
+      "metadata_sha256": "aff9b0107eb58ed8dc659b2097dd2e4215168d87965f9e4fdf023b6696b3281c",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "SØSTER TIL SØSTER",
+      "source_revision": "a069ecca8827634ebc256b3b1cabc16aeb942ed7",
+      "source_translation_key": "c0ea566946f0a6021377107c368c8e903efb03bae10a6af153c1e6371a1e792a",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Når Guds vei virker",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/nob/articles/ba1df680-e125-4b7a-a6dd-6ad35433e1b5.html",
       "html_sha256": "131e237d851f5639a65358059e264ccc051b42428a7d71f67b205b3799ba8619",
       "human_reviewed": false,
