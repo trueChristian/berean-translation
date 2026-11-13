@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Article, paragraph beginning «Στο τέλος του κόσμου»; quotation of the King’s words",
+      "severity": "major",
+      "source_quote": "“Inasmuch as ye have done it unto one of the least of these, ye have done it unto me.”",
+      "suggested_fix": "«Σας διαβεβαιώνω πως ό,τι κάνατε για έναν από τους πιο ασήμαντους από αυτούς, το κάνατε για μένα»",
+      "translation_quote": "«Σας διαβεβαιώνω πως ό,τι κάνατε για έναν από τους πιο ασήμαντους από αυτούς τους αδελφούς μου, το κάνατε για μένα»"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

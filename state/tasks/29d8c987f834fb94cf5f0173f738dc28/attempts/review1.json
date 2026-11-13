@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-13T00:15:39+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Article, paragraph beginning «Στο τέλος του κόσμου»; quotation of the King’s words\",\"severity\":\"major\",\"source_quote\":\"“Inasmuch as ye have done it unto one of the least of these, ye have done it unto me.”\",\"suggested_fix\":\"«Σας διαβεβαιώνω πως ό,τι κάνατε για έναν από τους πιο ασήμαντους από αυτούς, το κάνατε για μένα»\",\"translation_quote\":\"«Σας διαβεβαιώνω πως ό,τι κάνατε για έναν από τους πιο ασήμαντους από αυτούς τους αδελφούς μου, το κάνατε για μένα»\"}],\"findings_complete\":true,\"passed\":false,\"score\":93}",
+    "content_bytes": 738,
+    "content_evidence_truncated": false,
+    "content_sha256": "55afb5db59243bd6ccd1d8b6710c2e9dd1b1c2e2ca282d5679efc74d24fccd1d",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 951,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 770,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7183,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7180,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8134
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}
