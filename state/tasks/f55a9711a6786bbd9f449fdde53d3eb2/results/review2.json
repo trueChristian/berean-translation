@@ -1,0 +1,52 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "fd9bae97-3ff1-478f-bf3c-5ac35f91229c",
+    "response_id": "chatcmpl-EjugatmcoZFQHFXckOgG1htin0ww9",
+    "usage": {
+      "completion_tokens": 1111,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 816,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 12405,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 11302,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 13516
+    }
+  },
+  "received_at": "2026-11-13T23:23:33+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph beginning “Hoe weet ’n jong man…” and paragraph beginning “Haar waarde…”",
+        "severity": "minor",
+        "source_quote": "“valued far above rubies” / “Her price is ‘far above rubies.’”",
+        "suggested_fix": "Replace “korale” with “robyne” in both places to preserve the source’s specific precious-stone comparison.",
+        "translation_quote": "“baie meer werd is as korale” / “Haar waarde is ‘baie meer as korale’.”"
+      },
+      {
+        "location": "Paragraph beginning “Nou maak Pa die oproep…”",
+        "severity": "minor",
+        "source_quote": "“He may have gotten the blessing of his ministry.”",
+        "suggested_fix": "Consider “Hy het dalk die seën van sy bediening ontvang” to retain the source’s attribution to his ministry rather than specifically to its leaders.",
+        "translation_quote": "“Hy het dalk die seën van sy bedieningsleiers ontvang.”"
+      },
+      {
+        "location": "section",
+        "severity": "minor",
+        "source_quote": "“INSPIRATIONS FOR YOUTH”",
+        "suggested_fix": "Use the plural form “INSPIRASIES VIR JONGMENSE” to match the source section label.",
+        "translation_quote": "“INSPIRASIE VIR JONGMENSE”"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 97
+  }
+}
