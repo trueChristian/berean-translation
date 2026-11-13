@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-13T08:24:38+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"html: aya inayoanza “Juma la kwanza lilipokwisha”\",\n      \"severity\": \"major\",\n      \"source_quote\": \"he would offer Sterling and I each one of his little paddies to hold while he ate\",\n      \"suggested_fix\": \"Badili “mojawapo ya vibao vyake vidogo tuishike” kuwa “mmoja wa mikono yake midogo tuushike”.\",\n      \"translation_quote\": \"angenipa mimi na Sterling kila mmoja mojawapo ya vibao vyake vidogo tuishike alipokuwa akila\"\n    },\n    {\n      \"location\": \"html: aya inayoanza “Maombi hufanya kazi”\",\n      \"severity\": \"major\",\n      \"source_quote\": \"A wife standing behind her husband as he disciplines his child in love works.\",\n      \"suggested_fix\": \"Badili sentensi hiyo kuwa “Mke kumuunga mkono mume wake anapomwadhibu mtoto wake kwa upendo hufanya kazi.” Hapa mke anamuunga mkono mume, si kumsimamia.\",\n      \"translation_quote\": \"Mke anayemsimamia mume wake anapomwadhibu mtoto wake kwa upendo hufanya kazi.\"\n    },\n    {\n      \"location\": \"html: aya inayoanza “Nilikubaliana naye. Moyo wangu ulijaa”\",\n      \"severity\": \"major\",\n      \"source_quote\": \"yet we had been desperate for an answer\",\n      \"suggested_fix\": \"Badili “lakini tulikuwa tumekata tamaa ya kupata jibu” kuwa “lakini tulikuwa tukihitaji sana kupata jibu”.\",\n      \"translation_quote\": \"lakini tulikuwa tumekata tamaa ya kupata jibu\"\n    },\n    {\n      \"location\": \"html: aya inayoanza “Usiku wetu wa sita Meksiko”\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"Somewhere in the night, Judson awoke\",\n      \"suggested_fix\": \"Badili “Usiku wa manane” kuwa “Wakati fulani usiku” ili kuepuka kutaja muda maalumu ambao haukutajwa katika chanzo.\",\n      \"translation_quote\": \"Usiku wa manane, Judson aliamka\"\n    },\n    {\n      \"location\": \"html: aya inayoanza “Sterling!”\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"Tears forced themselves out of his eyes.\",\n      \"suggested_fix\": \"Badili sentensi hiyo kuwa “Machozi yalibubujika kutoka machoni mwake.”\",\n      \"translation_quote\": \"Machozi yakamlazimisha kutoka machoni mwake.\"\n    },\n    {\n      \"location\": \"html: aya inayoanza “Basi, nikafanya hivyo”\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"The time for the therapist appointment drew close.\",\n      \"suggested_fix\": \"Badili “Muda wa miadi na mtaalamu ulipokaribia.” kuwa “Muda wa miadi na mtaalamu ulikaribia.”\",\n      \"translation_quote\": \"Muda wa miadi na mtaalamu ulipokaribia.\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": false,\n  \"score\": 92\n}",
+    "content_bytes": 2570,
+    "content_evidence_truncated": false,
+    "content_sha256": "a1df127f2ba9385a7a3869e3a868be1d76ddbe956004c8787d5978d2f7caa98f",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 830,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 96,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 16265,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 15162,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 17095
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}

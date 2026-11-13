@@ -1,0 +1,73 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "7b4b4719-10d5-4f41-8e83-4d4c6c34ed88",
+    "response_id": "chatcmpl-EjgdbdSgZbAuC1RHieUlzBl4swq7j",
+    "usage": {
+      "completion_tokens": 830,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 96,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 16265,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 15162,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 17095
+    }
+  },
+  "received_at": "2026-11-13T08:24:38+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "html: aya inayoanza “Juma la kwanza lilipokwisha”",
+        "severity": "major",
+        "source_quote": "he would offer Sterling and I each one of his little paddies to hold while he ate",
+        "suggested_fix": "Badili “mojawapo ya vibao vyake vidogo tuishike” kuwa “mmoja wa mikono yake midogo tuushike”.",
+        "translation_quote": "angenipa mimi na Sterling kila mmoja mojawapo ya vibao vyake vidogo tuishike alipokuwa akila"
+      },
+      {
+        "location": "html: aya inayoanza “Maombi hufanya kazi”",
+        "severity": "major",
+        "source_quote": "A wife standing behind her husband as he disciplines his child in love works.",
+        "suggested_fix": "Badili sentensi hiyo kuwa “Mke kumuunga mkono mume wake anapomwadhibu mtoto wake kwa upendo hufanya kazi.” Hapa mke anamuunga mkono mume, si kumsimamia.",
+        "translation_quote": "Mke anayemsimamia mume wake anapomwadhibu mtoto wake kwa upendo hufanya kazi."
+      },
+      {
+        "location": "html: aya inayoanza “Nilikubaliana naye. Moyo wangu ulijaa”",
+        "severity": "major",
+        "source_quote": "yet we had been desperate for an answer",
+        "suggested_fix": "Badili “lakini tulikuwa tumekata tamaa ya kupata jibu” kuwa “lakini tulikuwa tukihitaji sana kupata jibu”.",
+        "translation_quote": "lakini tulikuwa tumekata tamaa ya kupata jibu"
+      },
+      {
+        "location": "html: aya inayoanza “Usiku wetu wa sita Meksiko”",
+        "severity": "minor",
+        "source_quote": "Somewhere in the night, Judson awoke",
+        "suggested_fix": "Badili “Usiku wa manane” kuwa “Wakati fulani usiku” ili kuepuka kutaja muda maalumu ambao haukutajwa katika chanzo.",
+        "translation_quote": "Usiku wa manane, Judson aliamka"
+      },
+      {
+        "location": "html: aya inayoanza “Sterling!”",
+        "severity": "minor",
+        "source_quote": "Tears forced themselves out of his eyes.",
+        "suggested_fix": "Badili sentensi hiyo kuwa “Machozi yalibubujika kutoka machoni mwake.”",
+        "translation_quote": "Machozi yakamlazimisha kutoka machoni mwake."
+      },
+      {
+        "location": "html: aya inayoanza “Basi, nikafanya hivyo”",
+        "severity": "minor",
+        "source_quote": "The time for the therapist appointment drew close.",
+        "suggested_fix": "Badili “Muda wa miadi na mtaalamu ulipokaribia.” kuwa “Muda wa miadi na mtaalamu ulikaribia.”",
+        "translation_quote": "Muda wa miadi na mtaalamu ulipokaribia."
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 92
+  }
+}
