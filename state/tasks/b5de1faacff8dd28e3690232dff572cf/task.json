@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "3e1dd49745494d09960093a3158cc454",
   "campaign": "auto-8f667184e2cc99ddf4dc2f61f7d315c08b35cac0c7cadeb1aeabc980b283a8ea",
   "created_at": "2026-11-12T01:40:15+00:00",
   "events": [
@@ -28,10 +27,46 @@
         },
         "total_tokens": 5742
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 963,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 764,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6054,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 6051,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7017
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "Paragraph beginning “Mary seems to have caught…”",
+      "severity": "minor",
+      "source_quote": "“kneeling before the feet of Jesus as the lowliest of servants”",
+      "suggested_fix": "Replace ״כענווה שבעבדים״ with ״כפחותה שבמשרתים״ to convey becoming the lowliest of servants.",
+      "translation_quote": "״וכריעה לרגלי ישוע כענווה שבעבדים״"
+    },
+    {
+      "location": "Paragraph beginning “Mary seems to have caught…”",
+      "severity": "minor",
+      "source_quote": "“throughout my interrupted days”",
+      "suggested_fix": "Replace ״לאורך ימי הקטועים״ with ״לאורך ימיי, המלאים בהפרעות״.",
+      "translation_quote": "״לאורך ימי הקטועים״"
+    }
+  ],
+  "finished_at": "2026-11-13T00:15:26+00:00",
   "id": "b5de1faacff8dd28e3690232dff572cf",
   "issue_id": "103c93e0-6e9a-44f6-a6bc-377af8e08e38",
   "language": "heb",
@@ -120,9 +155,11 @@
     }
   },
   "protected": false,
+  "quality_score": 97,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/a9220f36cc5766af588a977b856e2b0a7ca22fb301ae73703bb22c7a9854c5a2.json",
   "stage": "review1",
   "stage_budget": {
@@ -138,7 +175,7 @@
     "total_reserved_usd": 0.088375,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "0afcc7ac219484ffe40d0a8780ac11cb2b9f1aabb8e86a8de9c7d9ef16398e27",
   "translation_model_actual": "gpt-6-luna"

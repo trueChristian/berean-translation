@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-13T00:15:26+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph beginning “Mary seems to have caught…”\",\"severity\":\"minor\",\"source_quote\":\"“kneeling before the feet of Jesus as the lowliest of servants”\",\"suggested_fix\":\"Replace ״כענווה שבעבדים״ with ״כפחותה שבמשרתים״ to convey becoming the lowliest of servants.\",\"translation_quote\":\"״וכריעה לרגלי ישוע כענווה שבעבדים״\"},{\"location\":\"Paragraph beginning “Mary seems to have caught…”\",\"severity\":\"minor\",\"source_quote\":\"“throughout my interrupted days”\",\"suggested_fix\":\"Replace ״לאורך ימי הקטועים״ with ״לאורך ימיי, המלאים בהפרעות״.\",\"translation_quote\":\"״לאורך ימי הקטועים״\"}],\"findings_complete\":true,\"passed\":true,\"score\":97}",
+    "content_bytes": 791,
+    "content_evidence_truncated": false,
+    "content_sha256": "1c9e0c76cea7654ff08cf5b19e911d89e7e48f4523386c9744b1d9dadeb31f9c",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 963,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 764,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6054,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6051,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7017
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}
