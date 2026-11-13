@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "c86922f8-bc9e-4426-8ced-d077088cf23a",
+    "response_id": "chatcmpl-EjWNpR9ASZLRF1hzeVfttt8FY5V54",
+    "usage": {
+      "completion_tokens": 879,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 744,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6287,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5184,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 7166
+    }
+  },
+  "received_at": "2026-11-13T00:16:25+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "본문 7문단",
+        "severity": "major",
+        "source_quote": "He blessed her for sitting at His feet instead of working with her sister Martha.",
+        "suggested_fix": "여동생 마르다와 함께 일하지 않고 예수님의 발치에 앉은 그에게 복을 주셨습니다.",
+        "translation_quote": "여동생 마르다와 함께 일하지 않고 예수님의 발치에 앉은 그를 칭찬하셨습니다."
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 94
+  }
+}
