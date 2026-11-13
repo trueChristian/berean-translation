@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-13T07:09:38+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, párrafo que comienza «Al fin del mundo», cita final\",\"severity\":\"minor\",\"source_quote\":\"“Inasmuch as ye have done it unto one of the least of these, ye have done it unto me.”\",\"suggested_fix\":\"«En cuanto lo hicieron a uno de estos más pequeños, a mí lo hicieron»\",\"translation_quote\":\"«En cuanto lo hicieron a uno de estos mis hermanos más pequeños, a mí lo hicieron»\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 470,
+    "content_evidence_truncated": false,
+    "content_sha256": "ef606ab151d296ee8e1e7f6d2879184c299dc8b3e6d7217e6af8e1d2895985d6",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 723,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 590,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5686,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4583,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 6409
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

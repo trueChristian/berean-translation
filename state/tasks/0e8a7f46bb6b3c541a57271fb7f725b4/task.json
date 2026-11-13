@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "ba73f479873b443b89c7f556fae10de2",
   "campaign": "auto-d48b2009b32884c9f34614d7295f31575af90c0aaf7bdd1cd1fd0cebde0d38ef",
   "created_at": "2026-11-11T03:06:06+00:00",
   "events": [
@@ -28,10 +27,39 @@
         },
         "total_tokens": 5332
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 723,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 590,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5686,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 4583,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 6409
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "HTML, párrafo que comienza «Al fin del mundo», cita final",
+      "severity": "minor",
+      "source_quote": "“Inasmuch as ye have done it unto one of the least of these, ye have done it unto me.”",
+      "suggested_fix": "«En cuanto lo hicieron a uno de estos más pequeños, a mí lo hicieron»",
+      "translation_quote": "«En cuanto lo hicieron a uno de estos mis hermanos más pequeños, a mí lo hicieron»"
+    }
+  ],
+  "finished_at": "2026-11-13T07:09:38+00:00",
   "id": "0e8a7f46bb6b3c541a57271fb7f725b4",
   "issue_id": "103c93e0-6e9a-44f6-a6bc-377af8e08e38",
   "language": "spa",
@@ -120,9 +148,11 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/f799c5261bfa5123ccd95f0eaad7408b93a29fececbf1f6ba9d2cb7f01aae400.json",
   "stage": "review1",
   "stage_budget": {
@@ -138,7 +168,7 @@
     "total_reserved_usd": 0.088379,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "0afcc7ac219484ffe40d0a8780ac11cb2b9f1aabb8e86a8de9c7d9ef16398e27",
   "translation_model_actual": "gpt-6-luna"

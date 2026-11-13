@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, párrafo que comienza «Al fin del mundo», cita final",
+      "severity": "minor",
+      "source_quote": "“Inasmuch as ye have done it unto one of the least of these, ye have done it unto me.”",
+      "suggested_fix": "«En cuanto lo hicieron a uno de estos más pequeños, a mí lo hicieron»",
+      "translation_quote": "«En cuanto lo hicieron a uno de estos mis hermanos más pequeños, a mí lo hicieron»"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}
