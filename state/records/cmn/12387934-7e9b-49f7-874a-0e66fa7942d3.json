@@ -7,6 +7,12 @@
       "event": "automatic_requested",
       "previous_task": null,
       "task": "aac0e0fc9dea5a530c79ca189852890c"
+    },
+    {
+      "at": "2026-11-13T08:24:58+00:00",
+      "event": "not_ready",
+      "reason": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[4]: source /article[1]/p[1]/em[2] ('start', 'em', ()); translation /article[1]/p[1] ('end', 'p')",
+      "task": "aac0e0fc9dea5a530c79ca189852890c"
     }
   ],
   "language": "cmn",
