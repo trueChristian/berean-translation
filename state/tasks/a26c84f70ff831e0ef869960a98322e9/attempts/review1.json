@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-13T07:09:19+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Article body, paragraph beginning “At the end of the world”\",\"severity\":\"major\",\"source_quote\":\"“Inasmuch as ye have done it unto one of the least of these, ye have done it unto me.”\",\"suggested_fix\":\"Vervang “voor een van de geringsten van deze broeders van Mij gedaan hebt” door “voor een van de geringsten van dezen gedaan hebt”, zodat de vertaling geen “broeders van Mij” toevoegt.\",\"translation_quote\":\"‘Voorwaar, Ik zeg u: voor zover u dit voor een van de geringsten van deze broeders van Mij gedaan hebt, hebt u het voor Mij gedaan.’\"}],\"findings_complete\":true,\"passed\":false,\"score\":93}",
+    "content_bytes": 645,
+    "content_evidence_truncated": false,
+    "content_sha256": "1e0928e89dd797861cc3277fb429eec902f4e5878a63d2942abe57f0f89aaf6e",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 685,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5766,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5763,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6451
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}
