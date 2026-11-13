@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "fa3a7c22e8c147ca8ce9ab04442b8eab",
   "campaign": "auto-4419926f9d90c6f1176cb3c9547d87a0d56e20d16b4d3c67a8d43f2927357ff5",
   "created_at": "2026-11-13T07:11:43+00:00",
   "events": [
@@ -28,10 +27,38 @@
         },
         "total_tokens": 12133
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 733,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 567,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 12433,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 11330,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 13166
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "마태복음 19:3-10 인용문",
+      "severity": "major",
+      "source_quote": "“...and whoso marrieth her which is put away doth commit adultery. His disciples say unto him...”",
+      "suggested_fix": "“...다른 데 장가드는 자는 간음함이니라 버림받은 여자와 결혼하는 자도 간음하는 것이니라 제자들이...”처럼 빠진 문장을 삽입하십시오.",
+      "translation_quote": "“...다른 데 장가드는 자는 간음함이니라 제자들이 가로되...”"
+    }
+  ],
   "id": "5308ddf23052f3d56ff212fc810809de",
   "issue_id": "103c93e0-6e9a-44f6-a6bc-377af8e08e38",
   "language": "kor",
@@ -120,11 +147,13 @@
     }
   },
   "protected": false,
+  "quality_score": 93,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/28493dcff92c3eb625274c8a3da67c7e1031a757b524e0669b9264101184aae7.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "translate",
     "max_candidate_bytes": 120000,
@@ -138,7 +167,7 @@
     "total_reserved_usd": 0.09213,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "168a1108b0cb584118665d0d4048559fb86bb1444e057e3646ac49c743cf2917",
   "translation_model_actual": "gpt-6-luna"

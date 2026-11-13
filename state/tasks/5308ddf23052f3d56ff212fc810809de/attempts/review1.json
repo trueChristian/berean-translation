@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-13T21:34:53+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"마태복음 19:3-10 인용문\",\"severity\":\"major\",\"source_quote\":\"“...and whoso marrieth her which is put away doth commit adultery. His disciples say unto him...”\",\"suggested_fix\":\"“...다른 데 장가드는 자는 간음함이니라 버림받은 여자와 결혼하는 자도 간음하는 것이니라 제자들이...”처럼 빠진 문장을 삽입하십시오.\",\"translation_quote\":\"“...다른 데 장가드는 자는 간음함이니라 제자들이 가로되...”\"}],\"findings_complete\":true,\"passed\":false,\"score\":93}",
+    "content_bytes": 561,
+    "content_evidence_truncated": false,
+    "content_sha256": "6f39689a9f11c4fd0a2ca7721eb8358c7151a04308676c326d6560dde939b8c7",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 733,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 567,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 12433,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 11330,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 13166
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

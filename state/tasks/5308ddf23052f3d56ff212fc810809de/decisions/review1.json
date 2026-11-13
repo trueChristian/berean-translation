@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "마태복음 19:3-10 인용문",
+      "severity": "major",
+      "source_quote": "“...and whoso marrieth her which is put away doth commit adultery. His disciples say unto him...”",
+      "suggested_fix": "“...다른 데 장가드는 자는 간음함이니라 버림받은 여자와 결혼하는 자도 간음하는 것이니라 제자들이...”처럼 빠진 문장을 삽입하십시오.",
+      "translation_quote": "“...다른 데 장가드는 자는 간음함이니라 제자들이 가로되...”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
