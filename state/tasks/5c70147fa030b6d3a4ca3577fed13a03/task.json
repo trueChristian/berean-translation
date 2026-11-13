@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "63caf650a9834119982ffa55aa9ca32b",
   "campaign": "auto-8f8ad332f32f2904db648b5c4d6fe98d8025d6bf76931d8ad6b0de7e4ea6decd",
   "created_at": "2026-11-11T18:56:34+00:00",
   "events": [
@@ -48,25 +47,31 @@
         },
         "total_tokens": 8340
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 67,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 35,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5606,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 4503,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 5673
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "html, 음모론을 다루는 문단의 “the other kingdom”",
-      "severity": "major",
-      "source_quote": "If they are true, how will that affect the way I live for the other kingdom now?",
-      "suggested_fix": "그것이 사실이라면, 지금 하나님 나라를 위해 살아가는 내 삶의 방식에는 어떤 영향을 미칠까요?",
-      "translation_quote": "그것이 사실이라면, 지금 다른 나라를 위한 내 삶의 방식에는 어떤 영향을 미칠까요?"
-    },
-    {
-      "location": "html, 두 번째 문단의 정보 출처에 관한 질문",
-      "severity": "minor",
-      "source_quote": "from what they would consider to be very valid and from legitimate sources",
-      "suggested_fix": "“매우 타당하고 합법적인 출처에서 나온 것이라고”를 “매우 타당하며 신뢰할 만한 출처에서 나온 것이라고”로 수정하십시오. 여기서 legitimate는 출처의 합법성보다 신빙성을 뜻합니다.",
-      "translation_quote": "매우 타당하고 합법적인 출처에서 나온 것이라고"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-11-13T00:15:42+00:00",
   "id": "5c70147fa030b6d3a4ca3577fed13a03",
   "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
   "language": "kor",
@@ -155,7 +160,7 @@
     }
   },
   "protected": false,
-  "quality_score": 94,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6.1-sol",
@@ -174,7 +179,7 @@
     "total_reserved_usd": 0.728509,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "7186a7dafd85adebb8f6876e1cafaf204ddce9783339d4da1f44b2bb46a15d75",
   "translation_model_actual": "gpt-6.1-sol"

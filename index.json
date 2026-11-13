@@ -63009,6 +63009,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/kor/articles/cf3bcef6-affc-4c39-9c73-ce940fab787f.html",
+      "html_sha256": "cc3c2e1a9a545e4c4d7ab5f22db320030177b7a3b0bd5acf0a2c13dd252d6a54",
+      "human_reviewed": false,
+      "id": "cf3bcef6-affc-4c39-9c73-ce940fab787f",
+      "images": [
+        {
+          "alt": "해 질 무렵 호숫가에 자리한 도시 스카이라인의 항공 사진",
+          "public_path": "/images/articles/cf3bcef6-affc-4c39-9c73-ce940fab787f-1.jpg"
+        }
+      ],
+      "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
+      "language": "kor",
+      "language_tag": "ko",
+      "metadata": "content/kor/articles/cf3bcef6-affc-4c39-9c73-ce940fab787f.json",
+      "metadata_sha256": "06a529f9e3640955206b83e9b1c07ad602cf3cfe4129b465c406913cf3836af1",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "현대의 위험",
+      "source_revision": "a069ecca8827634ebc256b3b1cabc16aeb942ed7",
+      "source_translation_key": "7186a7dafd85adebb8f6876e1cafaf204ddce9783339d4da1f44b2bb46a15d75",
+      "status": "ready",
+      "subtitle": null,
+      "title": "세상에 있으나 세상에 속하지 않은",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/kor/articles/d0898011-fe8b-4c35-9aac-12c20ec0d950.html",
       "html_sha256": "b1cf60204678939fae9f5f9746a29c8bba81867603e11d04a2ae4693b02b3ac0",
       "human_reviewed": false,
