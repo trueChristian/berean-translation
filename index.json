@@ -87167,6 +87167,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/spa/articles/12387934-7e9b-49f7-874a-0e66fa7942d3.html",
+      "html_sha256": "f841f7ac7755c4bf330acf19ba5f645a31b34e0eac37e6614b976ceb1556ccc4",
+      "human_reviewed": false,
+      "id": "12387934-7e9b-49f7-874a-0e66fa7942d3",
+      "images": [
+        {
+          "alt": "Una pareja sentada junta sobre una roca, frente a una cascada.",
+          "public_path": "/images/articles/12387934-7e9b-49f7-874a-0e66fa7942d3-1.jpg"
+        },
+        {
+          "alt": "Una novia y un novio caminan de la mano por un sendero.",
+          "public_path": "/images/articles/12387934-7e9b-49f7-874a-0e66fa7942d3-2.jpg"
+        }
+      ],
+      "issue_id": "103c93e0-6e9a-44f6-a6bc-377af8e08e38",
+      "language": "spa",
+      "language_tag": "es",
+      "metadata": "content/spa/articles/12387934-7e9b-49f7-874a-0e66fa7942d3.json",
+      "metadata_sha256": "c6b34f7478d5c65fc190f89c408d81a95aa5355fdf9e44eaf4d0050b1f62e81e",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "INSPIRACIÓN PARA LOS JÓVENES",
+      "source_revision": "ccefc5a5c3d79409cc78319f94b5490718d30670",
+      "source_translation_key": "168a1108b0cb584118665d0d4048559fb86bb1444e057e3646ac49c743cf2917",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Un proceso de noviazgo centrado en Cristo",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/spa/articles/15567d7e-1146-48d9-9b34-a0f770ca06fc.html",
       "html_sha256": "596ed84a7a0c2dc4f23445ba58541d077e9e5aae55b5518c3d634509e998eaf4",
       "human_reviewed": false,
