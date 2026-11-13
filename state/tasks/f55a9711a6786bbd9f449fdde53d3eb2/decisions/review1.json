@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "Artikel, paragraaf onder “Christusgesentreerde hofmakery” met Matteus 19:3–10-aanhaling",
+      "severity": "major",
+      "source_quote": "“Whosoever shall put away his wife, except it be for fornication, and shall marry another, committeth adultery: and whoso marrieth her which is put away doth commit adultery.”",
+      "suggested_fix": "Vervang die betrokke sinsdeel met: “Elkeen wat van sy vrou skei, behalwe oor hoerery, en met ’n ander een trou, pleeg egbreuk; en elkeen wat met ’n geskeide vrou trou, pleeg egbreuk.”",
+      "translation_quote": "“Elkeen wat van sy vrou skei, behalwe oor hoerery, en met ’n ander een trou, pleeg egbreuk; en wie met die geskeide vrou trou, pleeg egbreuk.”"
+    },
+    {
+      "location": "Artikel, paragraaf oor voorbereiding vir die huwelik en Adam",
+      "severity": "major",
+      "source_quote": "“God wanted Adam to name all the animals He created.”",
+      "suggested_fix": "Verander “al die diere” na “al die diere wat Hy geskep het” slegs indien die vertaling die skeppingshandeling bedoel; soos geskryf is die betekenis reeds behoue. Geen regstelling nodig nie.",
+      "translation_quote": "“God wou hê dat Adam al die diere wat Hy geskep het, name moes gee.”"
+    },
+    {
+      "location": "Artikel, slotparagraaf in vetdruk",
+      "severity": "major",
+      "source_quote": "“God longs to bless you as you leave your wedding day.”",
+      "suggested_fix": "Vervang “wanneer julle ná julle troudag vertrek” met “terwyl julle julle troudag afsluit” om die bedoeling van die Engelse formulering weer te gee.",
+      "translation_quote": "“God verlang daarna om julle te seën wanneer julle ná julle troudag vertrek.”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
