@@ -1,0 +1,163 @@
+{
+  "article_id": "46f89299-c0a0-407c-9898-01a0c150c453",
+  "automatic_previous_task": "1667b2a98f9d9c7ce463e066e799e50d",
+  "autonomous": true,
+  "autonomous_recovery": true,
+  "base_html_sha256": null,
+  "base_metadata_sha256": null,
+  "campaign": "auto-2c61bee7782025423365dc9241e2bbb45cbe8638f52220305c593ea529d35814",
+  "created_at": "2026-11-14T08:09:52+00:00",
+  "events": [],
+  "findings": [
+    {
+      "location": "Sitatet i innledningen",
+      "severity": "major",
+      "source_quote": "“To worship is to quicken the conscience by the holiness of God”",
+      "suggested_fix": "«Å tilbe er å skjerpe samvittigheten ved Guds hellighet»",
+      "translation_quote": "«Å tilbe er å vekke samvittigheten ved Guds hellighet»"
+    },
+    {
+      "location": "Avsnittet som begynner «One day, I am going about my daily chores»",
+      "severity": "major",
+      "source_quote": "“I suddenly see a picture of Mary in the tomb, wanting to cradle Jesus’s head in her hands.”",
+      "suggested_fix": "«ser jeg plutselig for meg Maria ved graven, som ønsker å holde Jesu hode i hendene sine»",
+      "translation_quote": "«ser jeg plutselig for meg Maria ved graven, der hun ønsket å holde Jesu hode i hendene sine»"
+    },
+    {
+      "location": "Avsnittet som begynner «One day, I am going about my daily chores»",
+      "severity": "major",
+      "source_quote": "“Would that make me swell in love and adoration and thank him more deeply for his forgiveness and love for me?”",
+      "suggested_fix": "«Ville det få meg til å vokse i kjærlighet og tilbedelse og takke ham dypere for hans tilgivelse og kjærlighet til meg?»",
+      "translation_quote": "«Ville det få kjærligheten og tilbedelsen min til å vokse, og få meg til å takke ham dypere for hans tilgivelse og kjærlighet til meg?»"
+    },
+    {
+      "location": "Avsnittet som begynner «So often, in my wishing»",
+      "severity": "major",
+      "source_quote": "“So often, in my wishing to truly worship God in the way I think is right, I resent the things He sends to prove my obedience”",
+      "suggested_fix": "«Altfor ofte er jeg, når jeg ønsker å virkelig tilbe Gud på den måten jeg mener er riktig, ergerlig over det han sender for å prøve lydigheten min»",
+      "translation_quote": "«Altfor ofte går jeg, i ønsket om virkelig å tilbe Gud på den måten jeg mener er riktig, og ergrer meg over det han sender for å prøve lydigheten min»"
+    },
+    {
+      "location": "Avsnittet som begynner «At the end of the world»",
+      "severity": "major",
+      "source_quote": "“Inasmuch as ye have done it unto one of the least of these, ye have done it unto me.”",
+      "suggested_fix": "«Det dere har gjort mot én av disse minste, har dere gjort mot meg.»",
+      "translation_quote": "«Det dere har gjort mot én av disse minste, har dere gjort mot meg.»"
+    },
+    {
+      "location": "Avsnittet som begynner «What if our children are “the least of these”?»",
+      "severity": "major",
+      "source_quote": "“When they are hungry, we spoon-feed them each bite”",
+      "suggested_fix": "«Når de er sultne, mater vi dem med skje, én munnfull om gangen»",
+      "translation_quote": "«Når de er sultne, gir vi dem hver skje med mat»"
+    }
+  ],
+  "id": "b89af5fb77b2215ba7c3fe5c68e54def",
+  "issue_id": "103c93e0-6e9a-44f6-a6bc-377af8e08e38",
+  "language": "nob",
+  "model": "gpt-6.1-sol",
+  "models": {
+    "gpt-4.1": {
+      "api_model": "gpt-4.1-2025-04-14",
+      "context_tokens": 1047576,
+      "input_batch_usd_per_million": 1.0,
+      "max_output_tokens": 32768,
+      "output_batch_usd_per_million": 4.0,
+      "quality_note": "Higher-cost translation or reviewer option.",
+      "reasoning_effort": null
+    },
+    "gpt-4.1-mini": {
+      "api_model": "gpt-4.1-mini-2025-04-14",
+      "context_tokens": 1047576,
+      "input_batch_usd_per_million": 0.2,
+      "max_output_tokens": 32768,
+      "output_batch_usd_per_million": 0.8,
+      "quality_note": "Default cost-conscious candidate; not certified for theological accuracy in every language.",
+      "reasoning_effort": null
+    },
+    "gpt-4.1-nano": {
+      "api_model": "gpt-4.1-nano-2025-04-14",
+      "context_tokens": 1047576,
+      "input_batch_usd_per_million": 0.05,
+      "max_output_tokens": 32768,
+      "output_batch_usd_per_million": 0.2,
+      "quality_note": "Lowest-cost option in this registry; benchmark before bulk publication.",
+      "reasoning_effort": null
+    },
+    "gpt-5-mini": {
+      "api_model": "gpt-5-mini-2025-08-07",
+      "context_tokens": 400000,
+      "input_batch_usd_per_million": 0.125,
+      "max_output_tokens": 128000,
+      "output_batch_usd_per_million": 1.0,
+      "quality_note": "Reasoning tokens consume output budget; benchmark total cost and quality.",
+      "reasoning_effort": "low"
+    },
+    "gpt-6-astra": {
+      "api_model": "gpt-6-astra",
+      "cache_write_batch_usd_per_million": 6.25,
+      "cached_input_batch_usd_per_million": 0.5,
+      "context_tokens": 1050000,
+      "input_batch_usd_per_million": 5.0,
+      "long_context_input_multiplier": 2.0,
+      "long_context_output_multiplier": 1.5,
+      "long_context_threshold_tokens": 272000,
+      "max_output_tokens": 128000,
+      "output_batch_usd_per_million": 25.0,
+      "pricing_verified_on": "2026-10-02",
+      "quality_note": "Higher-cost manual recovery option. Documented API alias; no dated snapshot is published. Reasoning shares the output cap. Quality gates remain required.",
+      "reasoning_effort": "low"
+    },
+    "gpt-6-luna": {
+      "api_model": "gpt-6-luna",
+      "cache_write_batch_usd_per_million": 0.0625,
+      "cached_input_batch_usd_per_million": 0.005,
+      "context_tokens": 1050000,
+      "input_batch_usd_per_million": 0.05,
+      "long_context_input_multiplier": 2.0,
+      "long_context_output_multiplier": 1.5,
+      "long_context_threshold_tokens": 272000,
+      "max_output_tokens": 128000,
+      "output_batch_usd_per_million": 0.25,
+      "pricing_verified_on": "2026-10-02",
+      "quality_note": "Affordable default for new manual translation and review campaigns. Documented API alias; no dated snapshot is published. Reasoning shares the output cap. Benchmark theological accuracy; quality gates remain required.",
+      "reasoning_effort": "low"
+    },
+    "gpt-6.1-sol": {
+      "api_model": "gpt-6.1-sol",
+      "cache_write_batch_usd_per_million": 1.25,
+      "cached_input_batch_usd_per_million": 0.05,
+      "context_tokens": 1050000,
+      "input_batch_usd_per_million": 1.0,
+      "long_context_input_multiplier": 2.0,
+      "long_context_output_multiplier": 1.5,
+      "long_context_threshold_tokens": 272000,
+      "max_output_tokens": 128000,
+      "output_batch_usd_per_million": 5.0,
+      "pricing_verified_on": "2026-10-02",
+      "quality_note": "Stronger downstream recovery option. Documented API alias; no dated snapshot is published. Reasoning shares the output cap. Quality gates remain required.",
+      "reasoning_effort": "low"
+    }
+  },
+  "protected": false,
+  "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
+  "review_attempts": 0,
+  "review_model": "gpt-6.1-sol",
+  "source_snapshot": "state/sources/a9220f36cc5766af588a977b856e2b0a7ca22fb301ae73703bb22c7a9854c5a2.json",
+  "stage": "correct",
+  "stage_budget": {
+    "initial_stage": "correct",
+    "max_candidate_bytes": 120000,
+    "max_findings_bytes": 32768,
+    "stages_usd": {
+      "correct": 0.203758,
+      "review2": 0.365709
+    },
+    "total_reserved_usd": 0.569467,
+    "version": 1
+  },
+  "status": "queued",
+  "translation_attempts": 0,
+  "translation_key": "0afcc7ac219484ffe40d0a8780ac11cb2b9f1aabb8e86a8de9c7d9ef16398e27",
+  "translation_model_actual": "gpt-6-luna"
+}
