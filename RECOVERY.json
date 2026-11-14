@@ -1489,7 +1489,7 @@
       "article_id": "682dc04d-bea3-4325-ac73-926bb3396990",
       "language": "ben",
       "latest_task": "7a5fd7bc9f407bac47458be8e257ba8c",
-      "processing_status": "queued",
+      "processing_status": "in_batch",
       "reason": "active"
     },
     {
@@ -2849,7 +2849,7 @@
       "article_id": "682dc04d-bea3-4325-ac73-926bb3396990",
       "language": "deu",
       "latest_task": "d71d35131a40b2cf23f256f423002721",
-      "processing_status": "queued",
+      "processing_status": "in_batch",
       "reason": "active"
     },
     {
@@ -3461,7 +3461,7 @@
       "article_id": "55b18915-e213-448c-8fe1-d430e195e768",
       "language": "ell",
       "latest_task": "0adeec65930d18326adf70771267a308",
-      "processing_status": "queued",
+      "processing_status": "in_batch",
       "reason": "active"
     },
     {
@@ -6947,7 +6947,7 @@
       "article_id": "324b0fa1-c057-471e-8e90-8eb699e8285a",
       "language": "kor",
       "latest_task": "c70b802a102e8127aa6221101cc963da",
-      "processing_status": "queued",
+      "processing_status": "in_batch",
       "reason": "active"
     },
     {
@@ -7978,7 +7978,7 @@
       "article_id": "01a0a64f-d629-4e05-b1ec-993f86ef4d68",
       "language": "nob",
       "latest_task": "601b821aac770e80dbe07a26bea96e2b",
-      "processing_status": "queued",
+      "processing_status": "in_batch",
       "reason": "active"
     },
     {
@@ -9193,7 +9193,7 @@
       "article_id": "682dc04d-bea3-4325-ac73-926bb3396990",
       "language": "rus",
       "latest_task": "c422566e3787803f94422657a3a74174",
-      "processing_status": "queued",
+      "processing_status": "in_batch",
       "reason": "active"
     },
     {
@@ -10627,7 +10627,7 @@
       "article_id": "ba15e3da-aab4-401c-9ec7-64b88ac22833",
       "language": "swa",
       "latest_task": "f8ae5fd6a24bcaec0a242be825abc722",
-      "processing_status": "queued",
+      "processing_status": "in_batch",
       "reason": "active"
     },
     {
@@ -10930,7 +10930,7 @@
       "article_id": "12387934-7e9b-49f7-874a-0e66fa7942d3",
       "language": "swe",
       "latest_task": "bdacb7df298847ac6c3b39f3436fc8f2",
-      "processing_status": "queued",
+      "processing_status": "in_batch",
       "reason": "active"
     },
     {
