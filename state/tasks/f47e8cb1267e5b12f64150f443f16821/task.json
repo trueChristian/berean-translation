@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "14bec53216024c8091c1f01e38df402e",
   "campaign": "auto-4a079e0990d9efa9b59a88d4da7f995867d8d7ae540e8b50c478b44c79fd8358",
   "created_at": "2026-11-13T00:21:33+00:00",
   "events": [
@@ -28,10 +27,38 @@
         },
         "total_tokens": 11908
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 865,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 653,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 12238,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 12235,
+          "cached_tokens": 0
+        },
+        "total_tokens": 13103
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "Title and throughout the article, including headings and body text",
+      "severity": "major",
+      "source_quote": "“A Christ-Centered Courtship Process”; “A Christ-centered courtship process consists of a courting period and an engagement period.”",
+      "suggested_fix": "Ganti “perjodohan” secara konsisten dengan “masa pendekatan” atau istilah Indonesia lain yang berarti proses saling mengenal sebelum menikah, bukan pernikahan yang dijodohkan. Misalnya, gunakan judul “Proses Pendekatan yang Berpusat pada Kristus” dan sesuaikan semua bentuk turunannya di seluruh artikel.",
+      "translation_quote": "“Proses Perjodohan yang Berpusat pada Kristus”; “Proses perjodohan yang berpusat pada Kristus terdiri atas masa perjodohan dan masa pertunangan.”"
+    }
+  ],
   "id": "f47e8cb1267e5b12f64150f443f16821",
   "issue_id": "103c93e0-6e9a-44f6-a6bc-377af8e08e38",
   "language": "ind",
@@ -120,11 +147,13 @@
     }
   },
   "protected": false,
+  "quality_score": 91,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/28493dcff92c3eb625274c8a3da67c7e1031a757b524e0669b9264101184aae7.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "translate",
     "max_candidate_bytes": 120000,
@@ -138,7 +167,7 @@
     "total_reserved_usd": 0.09212,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "168a1108b0cb584118665d0d4048559fb86bb1444e057e3646ac49c743cf2917",
   "translation_model_actual": "gpt-6-luna"

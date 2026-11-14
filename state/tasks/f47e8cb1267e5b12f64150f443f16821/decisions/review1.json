@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Title and throughout the article, including headings and body text",
+      "severity": "major",
+      "source_quote": "“A Christ-Centered Courtship Process”; “A Christ-centered courtship process consists of a courting period and an engagement period.”",
+      "suggested_fix": "Ganti “perjodohan” secara konsisten dengan “masa pendekatan” atau istilah Indonesia lain yang berarti proses saling mengenal sebelum menikah, bukan pernikahan yang dijodohkan. Misalnya, gunakan judul “Proses Pendekatan yang Berpusat pada Kristus” dan sesuaikan semua bentuk turunannya di seluruh artikel.",
+      "translation_quote": "“Proses Perjodohan yang Berpusat pada Kristus”; “Proses perjodohan yang berpusat pada Kristus terdiri atas masa perjodohan dan masa pertunangan.”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

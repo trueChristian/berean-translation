@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "1410d5b0-2430-4a75-a4bb-a5bb67ec971d",
+    "response_id": "chatcmpl-Ejyikux0mLKd7Z5wac126FF9YBXG7",
+    "usage": {
+      "completion_tokens": 865,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 653,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 12238,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 12235,
+        "cached_tokens": 0
+      },
+      "total_tokens": 13103
+    }
+  },
+  "received_at": "2026-11-14T03:39:17+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Title and throughout the article, including headings and body text",
+        "severity": "major",
+        "source_quote": "“A Christ-Centered Courtship Process”; “A Christ-centered courtship process consists of a courting period and an engagement period.”",
+        "suggested_fix": "Ganti “perjodohan” secara konsisten dengan “masa pendekatan” atau istilah Indonesia lain yang berarti proses saling mengenal sebelum menikah, bukan pernikahan yang dijodohkan. Misalnya, gunakan judul “Proses Pendekatan yang Berpusat pada Kristus” dan sesuaikan semua bentuk turunannya di seluruh artikel.",
+        "translation_quote": "“Proses Perjodohan yang Berpusat pada Kristus”; “Proses perjodohan yang berpusat pada Kristus terdiri atas masa perjodohan dan masa pertunangan.”"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 91
+  }
+}
