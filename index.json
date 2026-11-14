@@ -104586,6 +104586,38 @@
     {
       "ai_notice_required": true,
       "direction": "rtl",
+      "html": "content/urd/articles/12387934-7e9b-49f7-874a-0e66fa7942d3.html",
+      "html_sha256": "9192c942fbdd839347e8d264e3cfd5e78559e8d2ca83991cb5b4d8cba8929d59",
+      "human_reviewed": false,
+      "id": "12387934-7e9b-49f7-874a-0e66fa7942d3",
+      "images": [
+        {
+          "alt": "ایک جوڑا آبشار کی طرف رخ کیے چٹان پر ساتھ بیٹھا ہے۔",
+          "public_path": "/images/articles/12387934-7e9b-49f7-874a-0e66fa7942d3-1.jpg"
+        },
+        {
+          "alt": "دلہا اور دلہن ایک راستے پر ہاتھ میں ہاتھ ڈالے چل رہے ہیں۔",
+          "public_path": "/images/articles/12387934-7e9b-49f7-874a-0e66fa7942d3-2.jpg"
+        }
+      ],
+      "issue_id": "103c93e0-6e9a-44f6-a6bc-377af8e08e38",
+      "language": "urd",
+      "language_tag": "ur",
+      "metadata": "content/urd/articles/12387934-7e9b-49f7-874a-0e66fa7942d3.json",
+      "metadata_sha256": "4f44c64b457ddc58525ccdf00e7f152e6b279c81083535f49fd1181356e9ae8c",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "نوجوانوں کے لیے ترغیبات",
+      "source_revision": "ccefc5a5c3d79409cc78319f94b5490718d30670",
+      "source_translation_key": "168a1108b0cb584118665d0d4048559fb86bb1444e057e3646ac49c743cf2917",
+      "status": "ready",
+      "subtitle": null,
+      "title": "مسیح-مرکوز ازدواجی نیت سے میل جول کا عمل",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
       "html": "content/urd/articles/175280ea-7e5f-4be2-bbce-b500c0fd93cb.html",
       "html_sha256": "bbf2c34504c934158f208d370f9876dea84e357ac1dfd10dbee9646eeab65a2e",
       "human_reviewed": false,
