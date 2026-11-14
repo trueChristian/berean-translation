@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "c0b76e20-ae55-4aa1-8997-a79784bb0c61",
+    "response_id": "chatcmpl-Ek0ThDNj7MPLwSM7MYHjlHDL5MtlC",
+    "usage": {
+      "completion_tokens": 1008,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 861,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6284,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5181,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 7292
+    }
+  },
+  "received_at": "2026-11-14T08:06:54+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "본문, 세상 끝날에 왕이 하시는 말씀 인용",
+        "severity": "minor",
+        "source_quote": "“Inasmuch as ye have done it unto one of the least of these, ye have done it unto me.”",
+        "suggested_fix": "“너희가 지극히 작은 자 하나에게 한 것이 곧 내게 한 것이니라.”",
+        "translation_quote": "“너희가 여기 내 형제 중에 지극히 작은 자 하나에게 한 것이 곧 내게 한 것이니라.”"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}

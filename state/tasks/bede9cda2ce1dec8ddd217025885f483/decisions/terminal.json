@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "본문, 세상 끝날에 왕이 하시는 말씀 인용",
+      "severity": "minor",
+      "source_quote": "“Inasmuch as ye have done it unto one of the least of these, ye have done it unto me.”",
+      "suggested_fix": "“너희가 지극히 작은 자 하나에게 한 것이 곧 내게 한 것이니라.”",
+      "translation_quote": "“너희가 여기 내 형제 중에 지극히 작은 자 하나에게 한 것이 곧 내게 한 것이니라.”"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

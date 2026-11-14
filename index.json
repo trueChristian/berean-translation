@@ -60754,6 +60754,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/kor/articles/46f89299-c0a0-407c-9898-01a0c150c453.html",
+      "html_sha256": "c960e77340e949f683948b8a99d36d6fbf8784cd9748f3e0d4b34bc6cf9e8b78",
+      "human_reviewed": false,
+      "id": "46f89299-c0a0-407c-9898-01a0c150c453",
+      "images": [
+        {
+          "alt": "아기와 함께 벤치에 앉아 있는 소년 세 명.",
+          "public_path": "/images/articles/46f89299-c0a0-407c-9898-01a0c150c453-1.jpg"
+        }
+      ],
+      "issue_id": "103c93e0-6e9a-44f6-a6bc-377af8e08e38",
+      "language": "kor",
+      "language_tag": "ko",
+      "metadata": "content/kor/articles/46f89299-c0a0-407c-9898-01a0c150c453.json",
+      "metadata_sha256": "7404f6290664b0225bec409919d81c81dc97dcfc0f67264a6de2fd69ed234818",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "자매가 자매에게",
+      "source_revision": "ccefc5a5c3d79409cc78319f94b5490718d30670",
+      "source_translation_key": "0afcc7ac219484ffe40d0a8780ac11cb2b9f1aabb8e86a8de9c7d9ef16398e27",
+      "status": "ready",
+      "subtitle": null,
+      "title": "어머니의 예배",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/kor/articles/47c2bd87-06a9-4c31-854b-84c64975d399.html",
       "html_sha256": "289e7977fa42c850ad539c546177ede6effacddb52e6ca3dde3fc56ddda0c8e7",
       "human_reviewed": false,
