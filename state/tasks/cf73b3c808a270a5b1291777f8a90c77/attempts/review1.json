@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-14T21:42:34+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Parágrafo sobre a morte de Bliss\",\"severity\":\"major\",\"source_quote\":\"plunging eleven passenger cars seventy-five feet down into the ravine\",\"suggested_fix\":\"...lançando onze vagões de passageiros a cerca de 23 metros de profundidade, ravina abaixo...\",\"translation_quote\":\"lançando onze vagões de passageiros a uma altura de setenta e cinco pés, ravina abaixo\"},{\"location\":\"Parágrafo sobre a história do hino na Índia\",\"severity\":\"major\",\"source_quote\":\"where they hoped to worship and bathe in the Hooghly River, just below the Ganges River during the time of the eclipse\",\"suggested_fix\":\"...onde esperavam adorar e banhar-se no rio Hooghly, logo abaixo do rio Ganges, durante o eclipse...\",\"translation_quote\":\"...onde esperavam adorar e banhar-se no rio Hooghly, logo abaixo do rio Ganges, durante o eclipse, esperando afastar o mal.\"}],\"findings_complete\":true,\"passed\":false,\"score\":92}",
+    "content_bytes": 928,
+    "content_evidence_truncated": false,
+    "content_sha256": "cef62fb85af6b2d1b15c92e6557b8879e63037ca65f8ac8d6c06d6137e8b2301",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 227,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7401,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7398,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7628
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

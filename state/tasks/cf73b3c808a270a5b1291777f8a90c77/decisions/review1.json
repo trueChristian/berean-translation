@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Parágrafo sobre a morte de Bliss",
+      "severity": "major",
+      "source_quote": "plunging eleven passenger cars seventy-five feet down into the ravine",
+      "suggested_fix": "...lançando onze vagões de passageiros a cerca de 23 metros de profundidade, ravina abaixo...",
+      "translation_quote": "lançando onze vagões de passageiros a uma altura de setenta e cinco pés, ravina abaixo"
+    },
+    {
+      "location": "Parágrafo sobre a história do hino na Índia",
+      "severity": "major",
+      "source_quote": "where they hoped to worship and bathe in the Hooghly River, just below the Ganges River during the time of the eclipse",
+      "suggested_fix": "...onde esperavam adorar e banhar-se no rio Hooghly, logo abaixo do rio Ganges, durante o eclipse...",
+      "translation_quote": "...onde esperavam adorar e banhar-se no rio Hooghly, logo abaixo do rio Ganges, durante o eclipse, esperando afastar o mal."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
