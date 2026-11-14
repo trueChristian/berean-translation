@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "html: avsnittet som begynner «Det var to betingelser»",
+      "severity": "minor",
+      "source_quote": "written in the Lamb’s book of life",
+      "suggested_fix": "Endre «skrevet i Lammets livets bok» til «skrevet i Lammets livsbok».",
+      "translation_quote": "skrevet i Lammets livets bok"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "d7fb0a79-3538-42c5-befa-9def258d168a",
+    "response_id": "chatcmpl-EjyubRN6Q47FeXZ1PIArOdpzcyP18",
+    "usage": {
+      "completion_tokens": 205,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 93,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4125,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3022,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 4330
+    }
+  },
+  "received_at": "2026-11-14T03:53:57+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "html: avsnittet som begynner «Det var to betingelser»",
+        "severity": "minor",
+        "source_quote": "written in the Lamb’s book of life",
+        "suggested_fix": "Endre «skrevet i Lammets livets bok» til «skrevet i Lammets livsbok».",
+        "translation_quote": "skrevet i Lammets livets bok"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 99
+  }
+}
