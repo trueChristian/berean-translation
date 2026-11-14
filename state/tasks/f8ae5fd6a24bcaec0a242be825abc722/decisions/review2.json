@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "translation.html, aya inayoanza “Muda mfupi baada ya Judson kutimiza mwaka mmoja”",
+      "severity": "minor",
+      "source_quote": "One description on a condition called retained fear reflex described our child exactly.",
+      "suggested_fix": "Badili “Maelezo moja” kuwa “Maelezo fulani”.",
+      "translation_quote": "Maelezo moja kuhusu hali inayoitwa mmenyuko wa hofu uliobaki yalieleza mtoto wetu kikamilifu."
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

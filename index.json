@@ -97013,6 +97013,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/swa/articles/ba15e3da-aab4-401c-9ec7-64b88ac22833.html",
+      "html_sha256": "e3384208158d2e9cdb2a82a67771f6d5b046312fc680e2a9e9f54708573a7ac2",
+      "human_reviewed": false,
+      "id": "ba15e3da-aab4-401c-9ec7-64b88ac22833",
+      "images": [
+        {
+          "alt": "Mkono wa mtoto mchanga ukishika kidole cha mtu mzima",
+          "public_path": "/images/articles/ba15e3da-aab4-401c-9ec7-64b88ac22833-1.jpg"
+        },
+        {
+          "alt": "Chumba tupu cha hospitali chenye kitanda na viti",
+          "public_path": "/images/articles/ba15e3da-aab4-401c-9ec7-64b88ac22833-2.jpg"
+        }
+      ],
+      "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
+      "language": "swa",
+      "language_tag": "sw",
+      "metadata": "content/swa/articles/ba15e3da-aab4-401c-9ec7-64b88ac22833.json",
+      "metadata_sha256": "b6d19cfb8bed90723909821de200b508aa6568064037995dda894ec1dd1514bd",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "DADA KWA DADA",
+      "source_revision": "a069ecca8827634ebc256b3b1cabc16aeb942ed7",
+      "source_translation_key": "c0ea566946f0a6021377107c368c8e903efb03bae10a6af153c1e6371a1e792a",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Njia ya Mungu Inapofanya Kazi",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/swa/articles/ba1df680-e125-4b7a-a6dd-6ad35433e1b5.html",
       "html_sha256": "1e88111ecea411b00ddaaac10c3e551d28f8725b14b38d3396e65b62d3745369",
       "human_reviewed": false,

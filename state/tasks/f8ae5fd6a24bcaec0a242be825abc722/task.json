@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "567eb7fa260f47acbddedc295d9eb1f8",
   "campaign": "auto-95ce6ae1e1d2879285c75f254de92bc7f9fe970f2e9527f616ec94dd15e3df56",
   "created_at": "2026-11-13T22:53:45+00:00",
   "events": [
@@ -28,18 +27,39 @@
         },
         "total_tokens": 25478
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 208,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 76,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 16405,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 16402,
+          "cached_tokens": 0
+        },
+        "total_tokens": 16613
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "translation.html, aya inayoanza “Nitatumia wiki hii kuelekeza fikira zangu zote…”",
-      "severity": "major",
-      "source_quote": "But this is important. Too important to keep letting ‘life’ interfere.",
-      "suggested_fix": "Lakini jambo hili ni muhimu. Ni muhimu mno kiasi kwamba hatupaswi kuendelea kuruhusu ‘maisha’ yatukengeushe.",
-      "translation_quote": "Lakini jambo hili ni muhimu. Ni muhimu mno kuendelea kuruhusu ‘maisha’ yatukengeushe."
+      "location": "translation.html, aya inayoanza “Muda mfupi baada ya Judson kutimiza mwaka mmoja”",
+      "severity": "minor",
+      "source_quote": "One description on a condition called retained fear reflex described our child exactly.",
+      "suggested_fix": "Badili “Maelezo moja” kuwa “Maelezo fulani”.",
+      "translation_quote": "Maelezo moja kuhusu hali inayoitwa mmenyuko wa hofu uliobaki yalieleza mtoto wetu kikamilifu."
     }
   ],
+  "finished_at": "2026-11-14T03:39:41+00:00",
   "id": "f8ae5fd6a24bcaec0a242be825abc722",
   "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
   "language": "swa",
@@ -128,9 +148,11 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/387a30a8b9a527909765f2e60773227d3f49a4a9b5776049e1f6de3e5552f735.json",
   "stage": "review2",
   "stage_budget": {
@@ -144,7 +166,7 @@
     "total_reserved_usd": 1.004835,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "c0ea566946f0a6021377107c368c8e903efb03bae10a6af153c1e6371a1e792a",
   "translation_model_actual": "gpt-6.1-sol"

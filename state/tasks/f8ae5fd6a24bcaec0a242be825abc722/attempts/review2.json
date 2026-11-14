@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-14T03:39:41+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"translation.html, aya inayoanza “Muda mfupi baada ya Judson kutimiza mwaka mmoja”\",\"severity\":\"minor\",\"source_quote\":\"One description on a condition called retained fear reflex described our child exactly.\",\"suggested_fix\":\"Badili “Maelezo moja” kuwa “Maelezo fulani”.\",\"translation_quote\":\"Maelezo moja kuhusu hali inayoitwa mmenyuko wa hofu uliobaki yalieleza mtoto wetu kikamilifu.\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 476,
+    "content_evidence_truncated": false,
+    "content_sha256": "f45631bba35bb5fcb97b6dfe314c1b8aec3ee9e4c91044abfa20d0c48a0840f9",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 208,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 76,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 16405,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 16402,
+        "cached_tokens": 0
+      },
+      "total_tokens": 16613
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review2",
+  "translation_attempts": 1
+}
