@@ -79560,6 +79560,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/por/articles/86459f54-72b0-4be2-a101-02b3c9462f6c.html",
+      "html_sha256": "428cb837fb683e1180cbf24e4b9ca77123ee01c8a541cb0ec4175a1f400d2cb1",
+      "human_reviewed": false,
+      "id": "86459f54-72b0-4be2-a101-02b3c9462f6c",
+      "images": [
+        {
+          "alt": "Teclas de piano ao lado de uma partitura aberta",
+          "public_path": "/images/articles/86459f54-72b0-4be2-a101-02b3c9462f6c-1.jpg"
+        }
+      ],
+      "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
+      "language": "por",
+      "language_tag": "pt",
+      "metadata": "content/por/articles/86459f54-72b0-4be2-a101-02b3c9462f6c.json",
+      "metadata_sha256": "a70e32204b61cce5676e56bf01619c066545c693775c9a4eb88fb84651f00b5c",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "INSPIRAÇÕES PARA OS JOVENS",
+      "source_revision": "a069ecca8827634ebc256b3b1cabc16aeb942ed7",
+      "source_translation_key": "65790b7f3f0557bbd4601849b5efe70a6391326d0f3933cef69b6e6d8bb48d72",
+      "status": "ready",
+      "subtitle": null,
+      "title": "O que há de certo na música que ouço?",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/por/articles/88345a38-6c33-495a-8407-f0fda29b67e0.html",
       "html_sha256": "fd032f039a8bc2dd88fa38b3d95a41abc6563445d2ff271b3a960ac7a31821fa",
       "human_reviewed": false,
