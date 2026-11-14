@@ -59242,6 +59242,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/kor/articles/01a0a64f-d629-4e05-b1ec-993f86ef4d68.html",
+      "html_sha256": "367b90f3366882699fa70aa9abc97a896fa9a97477a773c07a8c8389bb8b3a13",
+      "human_reviewed": false,
+      "id": "01a0a64f-d629-4e05-b1ec-993f86ef4d68",
+      "images": [
+        {
+          "alt": "옅은 배경 앞에 늘어진 잎이 무성한 긴 가지들.",
+          "public_path": "/images/articles/01a0a64f-d629-4e05-b1ec-993f86ef4d68-1.jpg"
+        }
+      ],
+      "issue_id": "103c93e0-6e9a-44f6-a6bc-377af8e08e38",
+      "language": "kor",
+      "language_tag": "ko",
+      "metadata": "content/kor/articles/01a0a64f-d629-4e05-b1ec-993f86ef4d68.json",
+      "metadata_sha256": "d5a653634f24b8fce6138ddcc4f075c305a63a957cfb0600544bb9044bb14102",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
+      "source_translation_key": "0bd5a7158c3c967ae2d717d605a8900c05380dfe6cec6d3e4b4f139ce0827dab",
+      "status": "ready",
+      "subtitle": null,
+      "title": "그가 자기 백성을 그들의 죄에서 구원하시리라",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/kor/articles/042fce50-3724-4100-b397-093c6d081e89.html",
       "html_sha256": "b2ba3470efb0adab47377f36ee8106fa7fecdc805eb6cc5df77e8ac011c2c912",
       "human_reviewed": false,
