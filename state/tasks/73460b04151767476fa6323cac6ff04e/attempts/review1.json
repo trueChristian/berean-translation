@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-14T17:18:05+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"§ «Υπερεπεξεργασμένα τρόφιμα», παράγραφος για τους λύκους\",\"severity\":\"major\",\"source_quote\":\"“wolves will eat meat and then regurgitate it for their cubs”\",\"suggested_fix\":\"Replace «το αναμασούν για τα μικρά τους» with «το αναγουλιάζουν για τα μικρά τους» or another natural Greek wording that clearly means they bring the meat back up.\",\"translation_quote\":\"«οι λύκοι τρώνε κρέας και μετά το αναμασούν για τα μικρά τους»\"},{\"location\":\"§ «Εξάπλωση στη Βόρεια Αμερική», παράγραφος για τα σνακ\",\"severity\":\"minor\",\"source_quote\":\"“any salty or savory snack”\",\"suggested_fix\":\"Replace «αλμυρό ή πικάντικο σνακ» with «αλμυρό ή μη γλυκό σνακ» or another natural expression for savory that does not imply spicy.\",\"translation_quote\":\"«κάποιο αλμυρό ή πικάντικο σνακ»\"},{\"location\":\"Εισαγωγή, παράγραφος για το ξύσιμο του κάδου\",\"severity\":\"minor\",\"source_quote\":\"“I used a spatula to scrape down the sides of the bowl and lowered the lid on the machine”\",\"suggested_fix\":\"Correct the awkward construction, for example: «Με μια σπάτουλα έξυσα τα τοιχώματα του κάδου και κατέβασα το καπάκι του μηχανήματος».\",\"translation_quote\":\"«κι έτσι με μια σπάτουλα ξύνοντας τα τοιχώματα του κάδου και κατέβασα το καπάκι του μηχανήματος»\"}],\"findings_complete\":true,\"passed\":false,\"score\":93}",
+    "content_bytes": 1778,
+    "content_evidence_truncated": false,
+    "content_sha256": "cd8e88abf7ec8a3c5d0871865d481ce95122b297f541bdf180d06f75acf6a339",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 908,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 504,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 10736,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 10733,
+        "cached_tokens": 0
+      },
+      "total_tokens": 11644
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

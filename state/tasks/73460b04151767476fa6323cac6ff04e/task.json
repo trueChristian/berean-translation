@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "7db9421c1f654a8181498004b3fce7f6",
   "campaign": "auto-3640e2316cba4e7dda5ecf57e186a724905fa5fadccdb282868d7ea4b495934d",
   "created_at": "2026-11-14T08:10:16+00:00",
   "events": [
@@ -28,10 +27,52 @@
         },
         "total_tokens": 10382
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 908,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 504,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 10736,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 10733,
+          "cached_tokens": 0
+        },
+        "total_tokens": 11644
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "§ «Υπερεπεξεργασμένα τρόφιμα», παράγραφος για τους λύκους",
+      "severity": "major",
+      "source_quote": "“wolves will eat meat and then regurgitate it for their cubs”",
+      "suggested_fix": "Replace «το αναμασούν για τα μικρά τους» with «το αναγουλιάζουν για τα μικρά τους» or another natural Greek wording that clearly means they bring the meat back up.",
+      "translation_quote": "«οι λύκοι τρώνε κρέας και μετά το αναμασούν για τα μικρά τους»"
+    },
+    {
+      "location": "§ «Εξάπλωση στη Βόρεια Αμερική», παράγραφος για τα σνακ",
+      "severity": "minor",
+      "source_quote": "“any salty or savory snack”",
+      "suggested_fix": "Replace «αλμυρό ή πικάντικο σνακ» with «αλμυρό ή μη γλυκό σνακ» or another natural expression for savory that does not imply spicy.",
+      "translation_quote": "«κάποιο αλμυρό ή πικάντικο σνακ»"
+    },
+    {
+      "location": "Εισαγωγή, παράγραφος για το ξύσιμο του κάδου",
+      "severity": "minor",
+      "source_quote": "“I used a spatula to scrape down the sides of the bowl and lowered the lid on the machine”",
+      "suggested_fix": "Correct the awkward construction, for example: «Με μια σπάτουλα έξυσα τα τοιχώματα του κάδου και κατέβασα το καπάκι του μηχανήματος».",
+      "translation_quote": "«κι έτσι με μια σπάτουλα ξύνοντας τα τοιχώματα του κάδου και κατέβασα το καπάκι του μηχανήματος»"
+    }
+  ],
   "id": "73460b04151767476fa6323cac6ff04e",
   "issue_id": "103c93e0-6e9a-44f6-a6bc-377af8e08e38",
   "language": "ell",
@@ -120,11 +161,13 @@
     }
   },
   "protected": false,
+  "quality_score": 93,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/6cf42eaf0f3d9ca7b5f07190bec4156dfc04c035131d8744e9546737010a85ea.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "translate",
     "max_candidate_bytes": 120000,
@@ -138,7 +181,7 @@
     "total_reserved_usd": 0.090173,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "e08824e3e33290c1dfae2fe095d30369d2527145b6b1d02261193ad339207a52",
   "translation_model_actual": "gpt-6-luna"
