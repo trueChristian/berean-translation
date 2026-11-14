@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-14T08:08:33+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"translation.html，第15段（每有一种新潮流）\",\n      \"severity\": \"major\",\n      \"source_quote\": \"adding something to our bodies that only brings glory to us\",\n      \"suggested_fix\": \"将首句改为：“每有一种新潮流在我们中间兴起时，我们是否仅仅为了在身体上添加只给自己带来荣耀的东西，就匆忙改变？”\",\n      \"translation_quote\": \"我们是否为了仅仅在身体上添加某物而匆忙改变？\"\n    },\n    {\n      \"location\": \"translation.html，提摩太后书2:4-22引文\",\n      \"severity\": \"major\",\n      \"source_quote\": \"But shun profane and vain babblings: for they will increase unto more ungodliness.\",\n      \"suggested_fix\": \"将对应句改为：“但要躲避亵渎而虚空的闲谈，因为这些话会使人越发不敬虔；”\",\n      \"translation_quote\": \"但要躲避无益的言语，因为这些话会越发无敬虔；\"\n    },\n    {\n      \"location\": \"translation.html，以“上帝要赐我们心中真正的渴望”开头的段落\",\n      \"severity\": \"major\",\n      \"source_quote\": \"if our heart is yearning for unlawful things, we shall yield to those things\",\n      \"suggested_fix\": \"将对应部分改为：“但若我们的心向往不正当的事物，我们就会屈从于那些事物。”\",\n      \"translation_quote\": \"但若我们的心向往不 lawful 的事物，我们就会屈从。\"\n    },\n    {\n      \"location\": \"translation.html，提多书2:11-12引文\",\n      \"severity\": \"major\",\n      \"source_quote\": \"For the grace of God that bringeth salvation hath appeared to all men\",\n      \"suggested_fix\": \"将引文开头改为：“因为上帝那带来救恩的恩典已经向众人显明，教导我们……”\",\n      \"translation_quote\": \"向众人已显明救恩的恩典，教导我们\"\n    },\n    {\n      \"location\": \"translation.html，以赛亚书61:10引文\",\n      \"severity\": \"major\",\n      \"source_quote\": \"as a bridegroom decketh himself with ornaments, and as a bride adorneth herself with her jewels\",\n      \"suggested_fix\": \"将对应部分改为：“如新郎用饰物妆饰自己，如新妇用珠宝妆饰自己。”\",\n      \"translation_quote\": \"如新郎用冠冕妆饰自己，如新妇佩戴妆饰\"\n    },\n    {\n      \"location\": \"translation.html，启示录21:2-3引文\",\n      \"severity\": \"major\",\n      \"source_quote\": \"And I John saw the holy city, new Jerusalem ... And I heard a great voice out of heaven\",\n      \"suggested_fix\": \"将开头改为：“我约翰又看见圣城新耶路撒冷从神那里，由天而降”；将“从宝座出来”改为“从天上传来”。保留其余内容及经文出处。\",\n      \"translation_quote\": \"我又看见一座新耶路撒冷……我听见有大声音从宝座出来\"\n    },\n    {\n      \"location\": \"translation.html，末段马太福音10:28引文\",\n      \"severity\": \"major\",\n      \"source_quote\": \"destroy both soul and body in hell\",\n      \"suggested_fix\": \"将“能把身心都灭在地狱里”改为“能把灵魂和身体都毁灭在地狱里”。\",\n      \"translation_quote\": \"能把身心都灭在地狱里\"\n    },\n    {\n      \"location\": \"translation.html，末段有关错误信息的陈述\",\n      \"severity\": \"major\",\n      \"source_quote\": \"as long as you believe in a God, you will be okay\",\n      \"suggested_fix\": \"将对应部分改为：“只要你信奉某个神，你就会没事。”以保留原文对泛指神明的信仰与唯有借耶稣得救之间的对比。\",\n      \"translation_quote\": \"只要你相信有上帝，你就会没事\"\n    },\n    {\n      \"location\": \"translation.html，词义解释各段的词头及第3段\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"Adorn; Plaiting; Apparel; Ornament; Meek; Quiet; Subjection; Afraid; Amazement; Entangleth; Shun; Profane; Vain; Babblings; Flee; Lusts; Righteousness; Faith; Charity; Peace; Pure; Shamefacedness; Sobriety\",\n      \"suggested_fix\": \"将各英文词头依次改为“装饰、编发、衣饰、饰物、温柔、安静、顺服、惧怕、惊惶、缠绕、躲避、亵渎、虚空、闲谈、逃避、私欲、公义、信心、仁爱、平安、清洁、羞涩、庄重”，必要时在中文词头后括注英文，以便与已译经文对应。\",\n      \"translation_quote\": \"装饰（adornment）；Adorn：；Plaiting：；Apparel：；Ornament：；Meek：；Quiet：；Subjection：；Afraid：；Amazement：；Entangleth：；Shun：；Profane：；Vain：；Babblings：；Flee：；Lusts：；Righteousness：；Faith：；Charity：；Peace：；Pure：；Shamefacedness：；Sobriety：\"\n    },\n    {\n      \"location\": \"translation.html，彼得前书3:3-6引文\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"whose daughters ye are\",\n      \"suggested_fix\": \"将“就作他的女儿”改为“就是她的女儿”，明确所指为撒拉。\",\n      \"translation_quote\": \"就作他的女儿\"\n    },\n    {\n      \"location\": \"translation.html，以“当我们重生”开头的段落\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"have a broken spirit\",\n      \"suggested_fix\": \"将“心灵谦卑”改为“有忧伤痛悔的心”。\",\n      \"translation_quote\": \"心灵谦卑\"\n    },\n    {\n      \"location\": \"translation.html，Meek词义解释\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"yielding, given to forbearance under injuries\",\n      \"suggested_fix\": \"将末项改为：“谦让；受伤害时善于忍耐、宽容。”\",\n      \"translation_quote\": \"在受伤时能忍耐、克制\"\n    },\n    {\n      \"location\": \"translation.html，以“上帝要赐我们心中真正的渴望”开头的段落\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"Also, take courage\",\n      \"suggested_fix\": \"将“且当心鼓励”改为“此外，要鼓起勇气”。\",\n      \"translation_quote\": \"且当心鼓励\"\n    },\n    {\n      \"location\": \"translation.html，末段约翰福音14:6-7引文\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"and from henceforth ye know him, and have seen him\",\n      \"suggested_fix\": \"将该部分统一为简体中文：“从今以后你们已经认识他，并且看见他。”\",\n      \"translation_quote\": \"从今以后你們已經認識他，並且看見他\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": false,\n  \"score\": 82\n}",
+    "content_bytes": 6358,
+    "content_evidence_truncated": false,
+    "content_sha256": "996b37aab9e7596ca92911e5ad5dede2942f8211b76c2f0f871c67a182759bb6",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1963,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 162,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8697,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7594,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 10660
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}
