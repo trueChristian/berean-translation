@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "f4589e97159e4fcf8e4f9248e802fa56",
   "campaign": "auto-4753ebdfc04cf246b8ee1beccdb24d3ef9e07a31bca1f129a49aaf305cffb4a8",
   "created_at": "2026-11-13T23:09:44+00:00",
   "events": [
@@ -68,32 +67,40 @@
         },
         "total_tokens": 14883
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 213,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9668,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8565,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 9881
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; a recovery continuation must pass admission",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "HTML, Biblical Directive, paragraph 1",
+      "location": "مضمون، «بائبلی ہدایت» کے تحت تورات کے کوشر قوانین والا پیراگراف",
       "severity": "major",
-      "source_quote": "“Cows, goats, and fish with fins and scales were all clean”",
-      "suggested_fix": "مچھلی کے لیے مؤنث صیغہ درست کریں: «گائے، بکریاں اور ایسے مچھلیاں جن کے پر اور چھلکے ہوں، سب پاک تھیں» کی جگہ «گائے، بکریاں اور ایسے مچھلیاں جن کے پر اور چھلکے ہوں، سب پاک تھے» یا رواں متبادل «گائے، بکریاں اور پر اور چھلکے والی مچھلیاں سب پاک تھیں» لکھیں۔",
-      "translation_quote": "گائے، بکریاں اور ایسے مچھلیاں جن کے پر اور چھلکے ہوں، سب پاک تھیں"
-    },
-    {
-      "location": "HTML, Health Risks of Ultra-processed Foods, paragraph 5",
-      "severity": "major",
-      "source_quote": "“Finally, we need a certain amount of fiber in our diet for gut health, which isn’t something that the producers of these foods are interested in.”",
-      "suggested_fix": "«اور ان غذاؤں کے تیار کرنے والوں کو اس بات میں کوئی دلچسپی نہیں ہوتی» کو واضح کریں کہ عدم دلچسپی ریشے کی مطلوبہ مقدار فراہم کرنے میں ہے، مثلاً: «لیکن ان غذاؤں کے تیار کرنے والے آنتوں کی صحت کے لیے درکار ریشہ فراہم کرنے میں دلچسپی نہیں رکھتے۔»",
-      "translation_quote": "آخر میں، آنتوں کی صحت کے لیے ہماری غذا میں ایک خاص مقدار میں ریشے کی ضرورت ہوتی ہے، اور ان غذاؤں کے تیار کرنے والوں کو اس بات میں کوئی دلچسپی نہیں ہوتی۔"
-    },
-    {
-      "location": "HTML, Children Learn, paragraph 2",
-      "severity": "major",
-      "source_quote": "“The foods have attractive packaging, a sweet taste, and artificial flavors that children gravitate towards.”",
-      "suggested_fix": "«ان کھانوں کی پیکنگ دلکش ہوتی ہے، ذائقہ میٹھا ہوتا ہے اور ان میں مصنوعی ذائقے شامل ہوتے ہیں جو بچوں کو پسند آتے ہیں۔»",
-      "translation_quote": "ان کھانوں کی پیکنگ دلکش ہوتی ہے، ذائقہ میٹھا ہوتا ہے اور ان میں مصنوعی ذائقے شامل ہوتے ہیں جو بچوں کو پسند آتے ہیں۔"
+      "source_quote": "Cows, goats, and fish with fins and scales were all clean",
+      "suggested_fix": "«گائے، بکریاں اور پَر اور چھلکے والی مچھلیاں سب پاک تھیں» کو «گائے، بکریاں اور پَر اور چھلکے والی مچھلیاں سب حلال/پاک تھیں» کے بجائے یوں درست کریں: «گائے، بکریاں اور پَر اور چھلکے والی مچھلیاں سب پاک تھیں»؛ یہاں «پر» سے مراد مچھلی کے پَر (fins) ہے، پرندوں کے پر نہیں۔",
+      "translation_quote": "گائے، بکریاں اور پر اور چھلکے والی مچھلیاں سب پاک تھیں"
     }
   ],
+  "finished_at": "2026-11-14T10:47:49+00:00",
   "id": "948bca82b3fc0c98fb3895d06e04b730",
   "issue_id": "103c93e0-6e9a-44f6-a6bc-377af8e08e38",
   "language": "urd",
@@ -182,7 +189,7 @@
     }
   },
   "protected": false,
-  "quality_score": 92,
+  "quality_score": 96,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
@@ -202,7 +209,7 @@
     "total_reserved_usd": 0.09017,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "e08824e3e33290c1dfae2fe095d30369d2527145b6b1d02261193ad339207a52",
   "translation_model_actual": "gpt-6-luna"

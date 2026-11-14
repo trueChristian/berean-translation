@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-14T10:47:49+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"مضمون، «بائبلی ہدایت» کے تحت تورات کے کوشر قوانین والا پیراگراف\",\"severity\":\"major\",\"source_quote\":\"Cows, goats, and fish with fins and scales were all clean\",\"suggested_fix\":\"«گائے، بکریاں اور پَر اور چھلکے والی مچھلیاں سب پاک تھیں» کو «گائے، بکریاں اور پَر اور چھلکے والی مچھلیاں سب حلال/پاک تھیں» کے بجائے یوں درست کریں: «گائے، بکریاں اور پَر اور چھلکے والی مچھلیاں سب پاک تھیں»؛ یہاں «پر» سے مراد مچھلی کے پَر (fins) ہے، پرندوں کے پر نہیں۔\",\"translation_quote\":\"گائے، بکریاں اور پر اور چھلکے والی مچھلیاں سب پاک تھیں\"}],\"findings_complete\":true,\"passed\":true,\"score\":96}",
+    "content_bytes": 905,
+    "content_evidence_truncated": false,
+    "content_sha256": "7ba1e1b92a0ac7162a5dfde82224e64e55c752b193ab73b49fdf43da676eb58a",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 213,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9668,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8565,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 9881
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}
