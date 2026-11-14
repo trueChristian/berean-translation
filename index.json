@@ -29129,6 +29129,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ell/articles/682dc04d-bea3-4325-ac73-926bb3396990.html",
+      "html_sha256": "394f0aae2cd144e416c8cfff4005259ba477fda165b1af7d9744237a3c87ce1e",
+      "human_reviewed": false,
+      "id": "682dc04d-bea3-4325-ac73-926bb3396990",
+      "images": [
+        {
+          "alt": "Χάμπουργκερ, χοτ ντογκ, τηγανητές πατάτες, κοτομπουκιές, φτερούγες κοτόπουλου και πατατάκια.",
+          "public_path": "/images/articles/682dc04d-bea3-4325-ac73-926bb3396990-1.jpg"
+        },
+        {
+          "alt": "Σολομός, μούρα, ξηροί καρποί, φυλλώδη λαχανικά και ντομάτες πάνω σε ανοιχτόχρωμη επιφάνεια.",
+          "public_path": "/images/articles/682dc04d-bea3-4325-ac73-926bb3396990-2.jpg"
+        }
+      ],
+      "issue_id": "103c93e0-6e9a-44f6-a6bc-377af8e08e38",
+      "language": "ell",
+      "language_tag": "el",
+      "metadata": "content/ell/articles/682dc04d-bea3-4325-ac73-926bb3396990.json",
+      "metadata_sha256": "a07682ee70a0556231fce674a3d720010dc5bb59c902ff3aa1991af9c445fdcd",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "ΛΟΓΙΑ ΑΠΟ ΤΟΝ ΓΙΑΤΡΟ",
+      "source_revision": "ccefc5a5c3d79409cc78319f94b5490718d30670",
+      "source_translation_key": "e08824e3e33290c1dfae2fe095d30369d2527145b6b1d02261193ad339207a52",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Οι κίνδυνοι των υπερεπεξεργασμένων τροφίμων",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ell/articles/683a4e23-acbb-434a-8e0e-2b0793e1a0fb.html",
       "html_sha256": "a79b6110d430c6bbb5fd6f265894df3df846ab20242287444097ff0c9d040427",
       "human_reviewed": false,
