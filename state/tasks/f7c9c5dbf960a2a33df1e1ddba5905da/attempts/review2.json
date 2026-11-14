@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-14T15:00:26+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Final bold paragraph, sentence 3\",\"severity\":\"major\",\"source_quote\":\"Go after it as if it were gold.\",\"suggested_fix\":\"Puntateci come se fosse oro.\",\"translation_quote\":\"Perseguitelo come se fosse oro.\"}],\"findings_complete\":true,\"passed\":false,\"score\":94}",
+    "content_bytes": 282,
+    "content_evidence_truncated": false,
+    "content_sha256": "78ef9828ec24f5cf6a331d5ada0bd726576779ca73813c1344e9a4702540ce83",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 931,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 839,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 12306,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 11203,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 13237
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

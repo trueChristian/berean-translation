@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "7e1ab652-4b31-42e8-bde2-a6d408de4598",
+    "response_id": "chatcmpl-Ek68Wjm08qWpQC1ZupDt2ANXalwAk",
+    "usage": {
+      "completion_tokens": 931,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 839,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 12306,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 11203,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 13237
+    }
+  },
+  "received_at": "2026-11-14T15:00:26+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Final bold paragraph, sentence 3",
+        "severity": "major",
+        "source_quote": "Go after it as if it were gold.",
+        "suggested_fix": "Puntateci come se fosse oro.",
+        "translation_quote": "Perseguitelo come se fosse oro."
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 94
+  }
+}

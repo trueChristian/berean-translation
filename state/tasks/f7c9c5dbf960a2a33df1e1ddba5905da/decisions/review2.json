@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Final bold paragraph, sentence 3",
+      "severity": "major",
+      "source_quote": "Go after it as if it were gold.",
+      "suggested_fix": "Puntateci come se fosse oro.",
+      "translation_quote": "Perseguitelo come se fosse oro."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}
