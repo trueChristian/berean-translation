@@ -23586,6 +23586,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/deu/articles/682dc04d-bea3-4325-ac73-926bb3396990.html",
+      "html_sha256": "8bce15759500ffea51744cca45b5408d615dc7536926abfe0cceba174adf0d5c",
+      "human_reviewed": false,
+      "id": "682dc04d-bea3-4325-ac73-926bb3396990",
+      "images": [
+        {
+          "alt": "Hamburger, Hotdogs, Pommes frites, Nuggets, Hähnchenflügel und Kartoffelchips.",
+          "public_path": "/images/articles/682dc04d-bea3-4325-ac73-926bb3396990-1.jpg"
+        },
+        {
+          "alt": "Lachs, Beeren, Nüsse, Blattgemüse und Tomaten auf einer hellen Oberfläche.",
+          "public_path": "/images/articles/682dc04d-bea3-4325-ac73-926bb3396990-2.jpg"
+        }
+      ],
+      "issue_id": "103c93e0-6e9a-44f6-a6bc-377af8e08e38",
+      "language": "deu",
+      "language_tag": "de",
+      "metadata": "content/deu/articles/682dc04d-bea3-4325-ac73-926bb3396990.json",
+      "metadata_sha256": "2d71b551276fb2892416e0197ba53a76c9318137a28516a867bd81dbbd5f9ae0",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "EIN WORT VOM ARZT",
+      "source_revision": "ccefc5a5c3d79409cc78319f94b5490718d30670",
+      "source_translation_key": "e08824e3e33290c1dfae2fe095d30369d2527145b6b1d02261193ad339207a52",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Die Gefahren hochverarbeiteter Lebensmittel",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/deu/articles/683a4e23-acbb-434a-8e0e-2b0793e1a0fb.html",
       "html_sha256": "ce5acef73eadde9aec0d0ac5eb9f83f1494c5c8332a839f671a9dc194698150c",
       "human_reviewed": false,
