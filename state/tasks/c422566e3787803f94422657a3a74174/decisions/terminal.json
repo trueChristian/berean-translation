@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Title",
+      "severity": "minor",
+      "source_quote": "The Dangers of Ultra-Processed Foods",
+      "suggested_fix": "Опасности ультрапереработанных продуктов",
+      "translation_quote": "Опасность ультрапереработанных продуктов"
+    },
+    {
+      "location": "Health Risks of Ultra-Processed Foods, example lunch",
+      "severity": "minor",
+      "source_quote": "an oatmeal cream pie",
+      "suggested_fix": "пирожное с овсяным печеньем и кремовой начинкой",
+      "translation_quote": "пирожное с овсяной начинкой"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}
