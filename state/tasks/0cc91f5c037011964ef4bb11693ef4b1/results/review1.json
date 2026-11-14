@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "d7d1db10-31a7-4475-8788-6d1f2ecfc1b7",
+    "response_id": "chatcmpl-EkFiGlujDigmHVH6eDRdMjutqH5lG",
+    "usage": {
+      "completion_tokens": 438,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 215,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6319,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5216,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 6757
+    }
+  },
+  "received_at": "2026-11-14T21:43:05+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "html: kutipan Kolose 3:16",
+        "severity": "major",
+        "source_quote": "singing with grace in your hearts to the Lord",
+        "suggested_fix": "Ganti “kamu mengucap syukur kepada Allah di dalam hatimu” dengan “kamu bernyanyi dengan kasih karunia di dalam hatimu kepada Tuhan”, dengan mempertahankan tag <em> dan referensi yang ada.",
+        "translation_quote": "kamu mengucap syukur kepada Allah di dalam hatimu"
+      },
+      {
+        "location": "html: p.lead, huruf awal",
+        "severity": "minor",
+        "source_quote": "<span class=\"drop-cap\">M</span>any people ask",
+        "suggested_fix": "Ubah awal paragraf menjadi <span class=\"drop-cap\">B</span>anyak orang bertanya agar huruf dekoratif menjadi bagian dari kata pertama.",
+        "translation_quote": "<span class=\"drop-cap\">M</span> banyak orang bertanya"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 94
+  }
+}

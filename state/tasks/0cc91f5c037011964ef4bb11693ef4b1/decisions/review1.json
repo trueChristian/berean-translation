@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "html: kutipan Kolose 3:16",
+      "severity": "major",
+      "source_quote": "singing with grace in your hearts to the Lord",
+      "suggested_fix": "Ganti “kamu mengucap syukur kepada Allah di dalam hatimu” dengan “kamu bernyanyi dengan kasih karunia di dalam hatimu kepada Tuhan”, dengan mempertahankan tag <em> dan referensi yang ada.",
+      "translation_quote": "kamu mengucap syukur kepada Allah di dalam hatimu"
+    },
+    {
+      "location": "html: p.lead, huruf awal",
+      "severity": "minor",
+      "source_quote": "<span class=\"drop-cap\">M</span>any people ask",
+      "suggested_fix": "Ubah awal paragraf menjadi <span class=\"drop-cap\">B</span>anyak orang bertanya agar huruf dekoratif menjadi bagian dari kata pertama.",
+      "translation_quote": "<span class=\"drop-cap\">M</span> banyak orang bertanya"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
