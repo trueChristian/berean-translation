@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-14T08:08:36+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph beginning “Mchakato wa uchumba unaomweka Kristo katikati…” (after “Kuelewa uchumba na posa”)\",\"severity\":\"major\",\"source_quote\":\"“It is the final step in discerning God’s will for a couple.”\",\"suggested_fix\":\"Replace “Hii ni hatua ya mwisho ya kutambua mapenzi ya Mungu kwa wanandoa” with “Hii ni hatua ya mwisho ya kutambua mapenzi ya Mungu kwa watu wawili wanaotaka kuoana” to avoid saying they are already married.\",\"translation_quote\":\"“Hii ni hatua ya mwisho ya kutambua mapenzi ya Mungu kwa wanandoa.”\"},{\"location\":\"Paragraph beginning “Wazazi wake wanapaswa kupanga mkutano wa kwanza…”\",\"severity\":\"major\",\"source_quote\":\"“The couple should have some time alone together at this first meeting.”\",\"suggested_fix\":\"Replace “Wanandoa wanapaswa kupata muda wa kuwa peke yao pamoja” with “Wawili hao wanapaswa kupata muda wa kuwa pamoja faraghani” to avoid implying they are already married.\",\"translation_quote\":\"“Wanandoa wanapaswa kupata muda wa kuwa peke yao pamoja katika mkutano huu wa kwanza.”\"},{\"location\":\"Paragraph beginning “Kijana wa kiume anajuaje…”\",\"severity\":\"minor\",\"source_quote\":\"“a virtuous young woman is valued far above rubies”\",\"suggested_fix\":\"Consider “mwanamke kijana mwenye tabia njema” or “mwanamke kijana mwema” to convey virtue, rather than the potentially generic “mwanamke kijana mwema.”\",\"translation_quote\":\"“mwanamke kijana mwema ana thamani kubwa kuliko marijani”\"},{\"location\":\"Paragraph beginning “Katika kipindi cha posa, pangeni harusi…”\",\"severity\":\"major\",\"source_quote\":\"“the bridal party walks in”\",\"suggested_fix\":\"Replace “msafara wa bibi-arusi huingia” with “kikundi cha wahusika wa harusi huingia” to refer to the bridal party, not a procession.\",\"translation_quote\":\"“msafara wa bibi-arusi huingia”\"},{\"location\":\"Paragraph beginning “Katika haya yote, kaeni chini…”\",\"severity\":\"major\",\"source_quote\":\"“She has a natural instinct from God to be his helpmeet.”\",\"suggested_fix\":\"Replace “Mungu amempa silika ya kawaida ya kuwa msaidizi wake” with “Mungu amempa silika ya asili ya kuwa msaidizi anayemfaa” to convey “helpmeet” more fully.\",\"translation_quote\":\"“Mungu amempa silika ya kawaida ya kuwa msaidizi wake.”\"},{\"location\":\"Final bold paragraph\",\"severity\":\"major\",\"source_quote\":\"“God longs to bless you as you leave your wedding day.”\",\"suggested_fix\":\"Replace “Mungu anatamani kuwabariki mnapoondoka siku yenu ya harusi” with “Mungu anatamani kuwabariki mnapoondoka kwenye sherehe ya harusi yenu” to convey leaving the wedding event.\",\"translation_quote\":\"“Mungu anatamani kuwabariki mnapoondoka siku yenu ya harusi.”\"}],\"findings_complete\":true,\"passed\":false,\"score\":92}",
+    "content_bytes": 2812,
+    "content_evidence_truncated": false,
+    "content_sha256": "0049304fd2e434a3b75ca77b7afbb5e1a6cba98fdf0b4e9a2779348bb863b201",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 690,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 12573,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 11470,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 13263
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

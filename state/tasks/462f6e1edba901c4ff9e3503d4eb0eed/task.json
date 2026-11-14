@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "867b5f062ef04a01b8deaa70fe449e03",
   "campaign": "auto-cef6cb04f4ee8c9df7d9f9c4a553e780405d2b6373336c530b71468aaaea2c47",
   "created_at": "2026-11-13T01:04:09+00:00",
   "events": [
@@ -28,10 +27,73 @@
         },
         "total_tokens": 12218
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 690,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 12573,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 11470,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 13263
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "Paragraph beginning “Mchakato wa uchumba unaomweka Kristo katikati…” (after “Kuelewa uchumba na posa”)",
+      "severity": "major",
+      "source_quote": "“It is the final step in discerning God’s will for a couple.”",
+      "suggested_fix": "Replace “Hii ni hatua ya mwisho ya kutambua mapenzi ya Mungu kwa wanandoa” with “Hii ni hatua ya mwisho ya kutambua mapenzi ya Mungu kwa watu wawili wanaotaka kuoana” to avoid saying they are already married.",
+      "translation_quote": "“Hii ni hatua ya mwisho ya kutambua mapenzi ya Mungu kwa wanandoa.”"
+    },
+    {
+      "location": "Paragraph beginning “Wazazi wake wanapaswa kupanga mkutano wa kwanza…”",
+      "severity": "major",
+      "source_quote": "“The couple should have some time alone together at this first meeting.”",
+      "suggested_fix": "Replace “Wanandoa wanapaswa kupata muda wa kuwa peke yao pamoja” with “Wawili hao wanapaswa kupata muda wa kuwa pamoja faraghani” to avoid implying they are already married.",
+      "translation_quote": "“Wanandoa wanapaswa kupata muda wa kuwa peke yao pamoja katika mkutano huu wa kwanza.”"
+    },
+    {
+      "location": "Paragraph beginning “Kijana wa kiume anajuaje…”",
+      "severity": "minor",
+      "source_quote": "“a virtuous young woman is valued far above rubies”",
+      "suggested_fix": "Consider “mwanamke kijana mwenye tabia njema” or “mwanamke kijana mwema” to convey virtue, rather than the potentially generic “mwanamke kijana mwema.”",
+      "translation_quote": "“mwanamke kijana mwema ana thamani kubwa kuliko marijani”"
+    },
+    {
+      "location": "Paragraph beginning “Katika kipindi cha posa, pangeni harusi…”",
+      "severity": "major",
+      "source_quote": "“the bridal party walks in”",
+      "suggested_fix": "Replace “msafara wa bibi-arusi huingia” with “kikundi cha wahusika wa harusi huingia” to refer to the bridal party, not a procession.",
+      "translation_quote": "“msafara wa bibi-arusi huingia”"
+    },
+    {
+      "location": "Paragraph beginning “Katika haya yote, kaeni chini…”",
+      "severity": "major",
+      "source_quote": "“She has a natural instinct from God to be his helpmeet.”",
+      "suggested_fix": "Replace “Mungu amempa silika ya kawaida ya kuwa msaidizi wake” with “Mungu amempa silika ya asili ya kuwa msaidizi anayemfaa” to convey “helpmeet” more fully.",
+      "translation_quote": "“Mungu amempa silika ya kawaida ya kuwa msaidizi wake.”"
+    },
+    {
+      "location": "Final bold paragraph",
+      "severity": "major",
+      "source_quote": "“God longs to bless you as you leave your wedding day.”",
+      "suggested_fix": "Replace “Mungu anatamani kuwabariki mnapoondoka siku yenu ya harusi” with “Mungu anatamani kuwabariki mnapoondoka kwenye sherehe ya harusi yenu” to convey leaving the wedding event.",
+      "translation_quote": "“Mungu anatamani kuwabariki mnapoondoka siku yenu ya harusi.”"
+    }
+  ],
   "id": "462f6e1edba901c4ff9e3503d4eb0eed",
   "issue_id": "103c93e0-6e9a-44f6-a6bc-377af8e08e38",
   "language": "swa",
@@ -120,11 +182,13 @@
     }
   },
   "protected": false,
+  "quality_score": 92,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/28493dcff92c3eb625274c8a3da67c7e1031a757b524e0669b9264101184aae7.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "translate",
     "max_candidate_bytes": 120000,
@@ -138,7 +202,7 @@
     "total_reserved_usd": 0.092116,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "168a1108b0cb584118665d0d4048559fb86bb1444e057e3646ac49c743cf2917",
   "translation_model_actual": "gpt-6-luna"
