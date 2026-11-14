@@ -21091,6 +21091,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/cmn/articles/dc9bb2ea-cefd-4340-b274-deddb70afcaf.html",
+      "html_sha256": "b04b38d4ab458fbd52dcb7a1ceb06dc71072075e21aa1d49f0c4a66f3da94e44",
+      "human_reviewed": false,
+      "id": "dc9bb2ea-cefd-4340-b274-deddb70afcaf",
+      "images": [
+        {
+          "alt": "湖畔雾气弥漫的常青树林",
+          "public_path": "/images/articles/dc9bb2ea-cefd-4340-b274-deddb70afcaf-1.jpg"
+        }
+      ],
+      "issue_id": "1933c1f0-be1f-561a-b470-79a5ced64c04",
+      "language": "cmn",
+      "language_tag": "zh-Hans",
+      "metadata": "content/cmn/articles/dc9bb2ea-cefd-4340-b274-deddb70afcaf.json",
+      "metadata_sha256": "d96a6c2d5965ff7c8e9c2159317388d7fed3fc2fd199cc3dbdcd5c6bfe9f28e8",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "宣教士随笔",
+      "source_revision": "22388745ad7f149609e65f5e28cfcc1257cd689e",
+      "source_translation_key": "94f14fd3a9ce5a4b7f98c3ed867384ea53fbe977fb36e96d26fbd857975376fd",
+      "status": "ready",
+      "subtitle": null,
+      "title": "信心",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/cmn/articles/dce3d3b3-8b56-4be5-9674-e682b97d3b43.html",
       "html_sha256": "3ce7da1213ad420203662adcd095581928f222ddce55f72b128d58426bb5ab70",
       "human_reviewed": false,
