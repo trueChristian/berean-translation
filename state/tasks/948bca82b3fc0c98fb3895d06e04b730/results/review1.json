@@ -1,0 +1,52 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "e40fbf55-4a86-400f-a6fd-3719903b5440",
+    "response_id": "chatcmpl-Ek0TDZp0HgzmEIc4uSMoNvMfLXMqJ",
+    "usage": {
+      "completion_tokens": 506,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9663,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8560,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 10169
+    }
+  },
+  "received_at": "2026-11-14T08:06:45+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, Biblical Directive, paragraph 1",
+        "severity": "major",
+        "source_quote": "“Cows, goats, and fish with fins and scales were all clean”",
+        "suggested_fix": "مچھلی کے لیے مؤنث صیغہ درست کریں: «گائے، بکریاں اور ایسے مچھلیاں جن کے پر اور چھلکے ہوں، سب پاک تھیں» کی جگہ «گائے، بکریاں اور ایسے مچھلیاں جن کے پر اور چھلکے ہوں، سب پاک تھے» یا رواں متبادل «گائے، بکریاں اور پر اور چھلکے والی مچھلیاں سب پاک تھیں» لکھیں۔",
+        "translation_quote": "گائے، بکریاں اور ایسے مچھلیاں جن کے پر اور چھلکے ہوں، سب پاک تھیں"
+      },
+      {
+        "location": "HTML, Health Risks of Ultra-processed Foods, paragraph 5",
+        "severity": "major",
+        "source_quote": "“Finally, we need a certain amount of fiber in our diet for gut health, which isn’t something that the producers of these foods are interested in.”",
+        "suggested_fix": "«اور ان غذاؤں کے تیار کرنے والوں کو اس بات میں کوئی دلچسپی نہیں ہوتی» کو واضح کریں کہ عدم دلچسپی ریشے کی مطلوبہ مقدار فراہم کرنے میں ہے، مثلاً: «لیکن ان غذاؤں کے تیار کرنے والے آنتوں کی صحت کے لیے درکار ریشہ فراہم کرنے میں دلچسپی نہیں رکھتے۔»",
+        "translation_quote": "آخر میں، آنتوں کی صحت کے لیے ہماری غذا میں ایک خاص مقدار میں ریشے کی ضرورت ہوتی ہے، اور ان غذاؤں کے تیار کرنے والوں کو اس بات میں کوئی دلچسپی نہیں ہوتی۔"
+      },
+      {
+        "location": "HTML, Children Learn, paragraph 2",
+        "severity": "major",
+        "source_quote": "“The foods have attractive packaging, a sweet taste, and artificial flavors that children gravitate towards.”",
+        "suggested_fix": "«ان کھانوں کی پیکنگ دلکش ہوتی ہے، ذائقہ میٹھا ہوتا ہے اور ان میں مصنوعی ذائقے شامل ہوتے ہیں جو بچوں کو پسند آتے ہیں۔»",
+        "translation_quote": "ان کھانوں کی پیکنگ دلکش ہوتی ہے، ذائقہ میٹھا ہوتا ہے اور ان میں مصنوعی ذائقے شامل ہوتے ہیں جو بچوں کو پسند آتے ہیں۔"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 92
+  }
+}
