@@ -89838,6 +89838,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/spa/articles/682dc04d-bea3-4325-ac73-926bb3396990.html",
+      "html_sha256": "d927c9aadb053fcada6404d2f4153f31e5180990f264a15854cd7dfecf8ad379",
+      "human_reviewed": false,
+      "id": "682dc04d-bea3-4325-ac73-926bb3396990",
+      "images": [
+        {
+          "alt": "Hamburguesas, perritos calientes, patatas fritas, nuggets, alitas de pollo y papas fritas de bolsa.",
+          "public_path": "/images/articles/682dc04d-bea3-4325-ac73-926bb3396990-1.jpg"
+        },
+        {
+          "alt": "Salmón, frutos rojos, frutos secos, verduras de hoja y tomates sobre una superficie clara.",
+          "public_path": "/images/articles/682dc04d-bea3-4325-ac73-926bb3396990-2.jpg"
+        }
+      ],
+      "issue_id": "103c93e0-6e9a-44f6-a6bc-377af8e08e38",
+      "language": "spa",
+      "language_tag": "es",
+      "metadata": "content/spa/articles/682dc04d-bea3-4325-ac73-926bb3396990.json",
+      "metadata_sha256": "5e38bd74fa0dc0f475c5754f26cb4577ff5eaa51ef4a54b64017eb1242917860",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "UNA PALABRA DEL MÉDICO",
+      "source_revision": "ccefc5a5c3d79409cc78319f94b5490718d30670",
+      "source_translation_key": "e08824e3e33290c1dfae2fe095d30369d2527145b6b1d02261193ad339207a52",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Los peligros de los alimentos ultraprocesados",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/spa/articles/683a4e23-acbb-434a-8e0e-2b0793e1a0fb.html",
       "html_sha256": "6f797e00c0487a14be2ca87c351bc7cbe5a6243f942809d44340a2ae1d4792ec",
       "human_reviewed": false,
