@@ -1,0 +1,163 @@
+{
+  "article_id": "12387934-7e9b-49f7-874a-0e66fa7942d3",
+  "automatic_previous_task": "bdacb7df298847ac6c3b39f3436fc8f2",
+  "autonomous": true,
+  "autonomous_recovery": true,
+  "base_html_sha256": null,
+  "base_metadata_sha256": null,
+  "campaign": "auto-9293077874079ec1df95224b4a6eae06d5d97dcbc8a49c59c442f5edef06fd6c",
+  "created_at": "2026-11-14T08:10:41+00:00",
+  "events": [],
+  "findings": [
+    {
+      "location": "Artikeltext, stycket som börjar ”När hennes föräldrar känner sig säkra …”",
+      "severity": "major",
+      "source_quote": "“When her parents are clear, they give him permission to write her asking to start a courtship.”",
+      "suggested_fix": "Ändra meningen till: ”När hennes föräldrar känner sig övertygade ger de honom tillåtelse att skriva till henne och fråga om de ska börja en uppvaktningsperiod.”",
+      "translation_quote": "“När hennes föräldrar känner sig säkra ger de honom tillåtelse att skriva till henne och fråga om de ska börja uppvakta varandra.”"
+    },
+    {
+      "location": "Artikeltext, stycket som börjar ”Hennes föräldrar bör ordna det första mötet …”",
+      "severity": "major",
+      "source_quote": "“The couple should have some time alone together at this first meeting.”",
+      "suggested_fix": "Ändra till: ”Paret bör få vara ensamma tillsammans en stund under det första mötet.”",
+      "translation_quote": "“Paret bör få lite tid för sig själva under det första mötet.”"
+    },
+    {
+      "location": "Artikeltext, avsnitt 8, ”Köra bil ensamma”",
+      "severity": "major",
+      "source_quote": "“For long-distance trips or after dark, a chaperone should be along to abstain from all appearances of evil.”",
+      "suggested_fix": "Ändra till: ”Vid långa resor eller efter mörkrets inbrott bör en följeslagare följa med för att undvika allt som kan ge sken av det onda.”",
+      "translation_quote": "“Vid långa resor eller efter mörkrets inbrott bör en följeslagare följa med, för att avhålla sig från allt som kan likna det onda.”"
+    },
+    {
+      "location": "Artikeltext, avsnitt 9, stycket som börjar ”Kom ihåg era vänner.”",
+      "severity": "major",
+      "source_quote": "“You are moving from single life to married life.”",
+      "suggested_fix": "Ändra till: ”Ni går från singelliv till gift liv.”",
+      "translation_quote": "“Ni går från singelliv till äktenskap.”"
+    },
+    {
+      "location": "Artikeltext, avsnitt 12, stycket som börjar ”Detta är den främsta riktlinjen.”",
+      "severity": "major",
+      "source_quote": "“Don’t go out on your own.”",
+      "suggested_fix": "Ändra till: ”Ge er inte ut på egen hand.”",
+      "translation_quote": "“Ge er inte av på egen hand.”"
+    },
+    {
+      "location": "Artikeltext, förlovningsavsnittet, stycket som börjar ”Stå genom allt detta …”",
+      "severity": "major",
+      "source_quote": "“Dad, [of the young lady], it is essential that you stay connected with the young man.”",
+      "suggested_fix": "Ändra till: ”Pappa [till den unga kvinnan], det är viktigt att du håller kontakten med den unge mannen.”",
+      "translation_quote": "“Pappa, [till den unga kvinnan], det är viktigt att du håller kontakten med den unge mannen.”"
+    }
+  ],
+  "id": "09176e137c026ef98408700a25ebb7dd",
+  "issue_id": "103c93e0-6e9a-44f6-a6bc-377af8e08e38",
+  "language": "swe",
+  "model": "gpt-6.1-sol",
+  "models": {
+    "gpt-4.1": {
+      "api_model": "gpt-4.1-2025-04-14",
+      "context_tokens": 1047576,
+      "input_batch_usd_per_million": 1.0,
+      "max_output_tokens": 32768,
+      "output_batch_usd_per_million": 4.0,
+      "quality_note": "Higher-cost translation or reviewer option.",
+      "reasoning_effort": null
+    },
+    "gpt-4.1-mini": {
+      "api_model": "gpt-4.1-mini-2025-04-14",
+      "context_tokens": 1047576,
+      "input_batch_usd_per_million": 0.2,
+      "max_output_tokens": 32768,
+      "output_batch_usd_per_million": 0.8,
+      "quality_note": "Default cost-conscious candidate; not certified for theological accuracy in every language.",
+      "reasoning_effort": null
+    },
+    "gpt-4.1-nano": {
+      "api_model": "gpt-4.1-nano-2025-04-14",
+      "context_tokens": 1047576,
+      "input_batch_usd_per_million": 0.05,
+      "max_output_tokens": 32768,
+      "output_batch_usd_per_million": 0.2,
+      "quality_note": "Lowest-cost option in this registry; benchmark before bulk publication.",
+      "reasoning_effort": null
+    },
+    "gpt-5-mini": {
+      "api_model": "gpt-5-mini-2025-08-07",
+      "context_tokens": 400000,
+      "input_batch_usd_per_million": 0.125,
+      "max_output_tokens": 128000,
+      "output_batch_usd_per_million": 1.0,
+      "quality_note": "Reasoning tokens consume output budget; benchmark total cost and quality.",
+      "reasoning_effort": "low"
+    },
+    "gpt-6-astra": {
+      "api_model": "gpt-6-astra",
+      "cache_write_batch_usd_per_million": 6.25,
+      "cached_input_batch_usd_per_million": 0.5,
+      "context_tokens": 1050000,
+      "input_batch_usd_per_million": 5.0,
+      "long_context_input_multiplier": 2.0,
+      "long_context_output_multiplier": 1.5,
+      "long_context_threshold_tokens": 272000,
+      "max_output_tokens": 128000,
+      "output_batch_usd_per_million": 25.0,
+      "pricing_verified_on": "2026-10-02",
+      "quality_note": "Higher-cost manual recovery option. Documented API alias; no dated snapshot is published. Reasoning shares the output cap. Quality gates remain required.",
+      "reasoning_effort": "low"
+    },
+    "gpt-6-luna": {
+      "api_model": "gpt-6-luna",
+      "cache_write_batch_usd_per_million": 0.0625,
+      "cached_input_batch_usd_per_million": 0.005,
+      "context_tokens": 1050000,
+      "input_batch_usd_per_million": 0.05,
+      "long_context_input_multiplier": 2.0,
+      "long_context_output_multiplier": 1.5,
+      "long_context_threshold_tokens": 272000,
+      "max_output_tokens": 128000,
+      "output_batch_usd_per_million": 0.25,
+      "pricing_verified_on": "2026-10-02",
+      "quality_note": "Affordable default for new manual translation and review campaigns. Documented API alias; no dated snapshot is published. Reasoning shares the output cap. Benchmark theological accuracy; quality gates remain required.",
+      "reasoning_effort": "low"
+    },
+    "gpt-6.1-sol": {
+      "api_model": "gpt-6.1-sol",
+      "cache_write_batch_usd_per_million": 1.25,
+      "cached_input_batch_usd_per_million": 0.05,
+      "context_tokens": 1050000,
+      "input_batch_usd_per_million": 1.0,
+      "long_context_input_multiplier": 2.0,
+      "long_context_output_multiplier": 1.5,
+      "long_context_threshold_tokens": 272000,
+      "max_output_tokens": 128000,
+      "output_batch_usd_per_million": 5.0,
+      "pricing_verified_on": "2026-10-02",
+      "quality_note": "Stronger downstream recovery option. Documented API alias; no dated snapshot is published. Reasoning shares the output cap. Quality gates remain required.",
+      "reasoning_effort": "low"
+    }
+  },
+  "protected": false,
+  "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
+  "review_attempts": 0,
+  "review_model": "gpt-6.1-sol",
+  "source_snapshot": "state/sources/28493dcff92c3eb625274c8a3da67c7e1031a757b524e0669b9264101184aae7.json",
+  "stage": "correct",
+  "stage_budget": {
+    "initial_stage": "correct",
+    "max_candidate_bytes": 120000,
+    "max_findings_bytes": 32768,
+    "stages_usd": {
+      "correct": 0.234613,
+      "review2": 0.380695
+    },
+    "total_reserved_usd": 0.615308,
+    "version": 1
+  },
+  "status": "queued",
+  "translation_attempts": 0,
+  "translation_key": "168a1108b0cb584118665d0d4048559fb86bb1444e057e3646ac49c743cf2917",
+  "translation_model_actual": "gpt-6-luna"
+}
