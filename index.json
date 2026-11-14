@@ -48567,6 +48567,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ind/articles/12387934-7e9b-49f7-874a-0e66fa7942d3.html",
+      "html_sha256": "8f593e4029ca894eaf64587fdb407870b1a94179abfcca47264637db06730d4f",
+      "human_reviewed": false,
+      "id": "12387934-7e9b-49f7-874a-0e66fa7942d3",
+      "images": [
+        {
+          "alt": "Sepasang kekasih duduk bersama di atas batu menghadap air terjun.",
+          "public_path": "/images/articles/12387934-7e9b-49f7-874a-0e66fa7942d3-1.jpg"
+        },
+        {
+          "alt": "Pengantin perempuan dan laki-laki berjalan bergandengan tangan menyusuri jalan setapak.",
+          "public_path": "/images/articles/12387934-7e9b-49f7-874a-0e66fa7942d3-2.jpg"
+        }
+      ],
+      "issue_id": "103c93e0-6e9a-44f6-a6bc-377af8e08e38",
+      "language": "ind",
+      "language_tag": "id",
+      "metadata": "content/ind/articles/12387934-7e9b-49f7-874a-0e66fa7942d3.json",
+      "metadata_sha256": "590c934786940c233d4dc850aff1528aecbb261a278c898a6119fc0a6aa4bcf1",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "INSPIRASI UNTUK KAUM MUDA",
+      "source_revision": "ccefc5a5c3d79409cc78319f94b5490718d30670",
+      "source_translation_key": "168a1108b0cb584118665d0d4048559fb86bb1444e057e3646ac49c743cf2917",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Proses Pendekatan yang Berpusat pada Kristus",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ind/articles/175280ea-7e5f-4be2-bbce-b500c0fd93cb.html",
       "html_sha256": "8fff0f357ff759f41bcb7aef0ba53153ff90d43ab7778c2fadee470d200b4571",
       "human_reviewed": false,
