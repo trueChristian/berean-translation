@@ -36580,6 +36580,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/fra/articles/b8ff6643-9234-465f-ab06-4adfc189a851.html",
+      "html_sha256": "d52bb775f1eab8fb2f3622bd85b4c4f5d4672856be08ddcff38f65e4fcad4914",
+      "human_reviewed": false,
+      "id": "b8ff6643-9234-465f-ab06-4adfc189a851",
+      "images": [
+        {
+          "alt": "Petites fleurs violettes devant des collines verdoyantes floues",
+          "public_path": "/images/articles/b8ff6643-9234-465f-ab06-4adfc189a851-1.jpg"
+        }
+      ],
+      "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
+      "language": "fra",
+      "language_tag": "fr",
+      "metadata": "content/fra/articles/b8ff6643-9234-465f-ab06-4adfc189a851.json",
+      "metadata_sha256": "90ed319cdd492892d319878e3188468ae5a97e9c8957cd7e682567ed59561bc6",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "DE LA PART DU RÉDACTEUR",
+      "source_revision": "a4c140808d10570088100bf72903af6bfe80b24b",
+      "source_translation_key": "e0622a8bb1c0f31a62af348bbcdf1a1da1d53e0d8f3f815cb4fd5567f07e197c",
+      "status": "ready",
+      "subtitle": null,
+      "title": "De la part du rédacteur",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/fra/articles/b9a7b1b8-0a23-4e53-b835-31bf5a42dc33.html",
       "html_sha256": "bfe39bbca473c9c7ae947122954c94fc24f48d0284a2c9edd74d9181183c2b09",
       "human_reviewed": false,
