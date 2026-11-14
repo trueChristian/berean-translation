@@ -5,10 +5,31 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "1fbe63564c7244f193cb3f65b02dbee1",
   "campaign": "auto-2f020d15c69c636f405875749bcfe315b9163559a69248102b6abe1c3d496d75",
   "created_at": "2026-11-14T01:43:58+00:00",
-  "events": [],
+  "events": [
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "correct",
+      "usage": {
+        "completion_tokens": 4991,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 90,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9961,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 9958,
+          "cached_tokens": 0
+        },
+        "total_tokens": 14952
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
   "findings": [
     {
       "location": "「그리스도로 충만한 삶을 지키기」 섹션, 두 번째 문단",
@@ -117,7 +138,7 @@
   "review_attempts": 0,
   "review_model": "gpt-6.1-sol",
   "source_snapshot": "state/sources/5b1aeee8b40e793c45a2a3770a1c06b2fe0e561ac70bf486512b9c698d801883.json",
-  "stage": "correct",
+  "stage": "review2",
   "stage_budget": {
     "initial_stage": "correct",
     "max_candidate_bytes": 120000,
@@ -129,8 +150,8 @@
     "total_reserved_usd": 0.595801,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "ffc57a5aa833a4ec2481350c59b2f0532517af685342cc26f3ca07aadfae2d52",
-  "translation_model_actual": "gpt-6-luna"
+  "translation_model_actual": "gpt-6.1-sol"
 }
