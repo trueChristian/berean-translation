@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-14T08:07:48+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"«Kristus-sentrert kurtise», avsnittet med Ordspråkene 18:22\",\"severity\":\"major\",\"source_quote\":\"“Whoso findeth a wife findeth a good thing, and obtaineth favor of the Lord”\",\"suggested_fix\":\"«Den som finner en hustru, finner noe godt og vinner Herrens velvilje»\",\"translation_quote\":\"«Den som finner en hustru, finner lykke og vinner Herrens velvilje»\"},{\"location\":\"Avsluttende uthevet avsnitt\",\"severity\":\"minor\",\"source_quote\":\"“God longs to bless you as you leave your wedding day.”\",\"suggested_fix\":\"«Gud lengter etter å velsigne dere når bryllupsdagen er over.»\",\"translation_quote\":\"«Gud lengter etter å velsigne dere når dere forlater bryllupsdagen.»\"}],\"findings_complete\":true,\"passed\":false,\"score\":93}",
+    "content_bytes": 762,
+    "content_evidence_truncated": false,
+    "content_sha256": "4f9f2311b6ef706c7fe91c484b7cc7dba1f3f1a45ef4049370b6303c25661fa1",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1193,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 970,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 12114,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 11011,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 13307
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}
