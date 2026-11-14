@@ -1,0 +1,210 @@
+{
+  "findings": [
+    {
+      "location": "html, paragraph 1, opening greeting",
+      "severity": "major",
+      "source_quote": "in our dear Saviour’s name, Jesus Christ",
+      "suggested_fix": "প্রারম্ভিক অভিবাদনটি করুন: “আমাদের প্রিয় ত্রাণকর্তা যীশু খ্রীষ্টের নামে সবাইকে শুভেচ্ছা।”",
+      "translation_quote": "প্রভু আমাদের মহৎ উপাশদের নাম—ইশু খ্রীষ্ট—নিয়ে"
+    },
+    {
+      "location": "html, paragraph 3, opening assessment",
+      "severity": "major",
+      "source_quote": "To the Bible-literate Christian, the end of time certainly seems to be fast approaching.",
+      "suggested_fix": "লিখুন: “বাইবেল সম্পর্কে জ্ঞানসম্পন্ন খ্রিস্টানের কাছে নিশ্চয়ই মনে হয় যে অন্তিম সময় দ্রুত এগিয়ে আসছে।” বাধ্যতামূলকভাবে বিষয়টি আমলে নেওয়ার সংযোজিত নির্দেশটি বাদ দিন।",
+      "translation_quote": "সময়ের শেষ টুকু দ্রুত কাছাকাছি আসছে বলে যেটা মনে হয় তা আমলেই নিতে হবে"
+    },
+    {
+      "location": "html, paragraph 3, population and prophecy",
+      "severity": "major",
+      "source_quote": "Many in the world are desperately trying to figure out how to sustain that many people for the long term. Just like the Bible has prophesied",
+      "suggested_fix": "লিখুন: “বিশ্বের অনেক মানুষ দীর্ঘমেয়াদে এত মানুষের ভরণপোষণ কীভাবে করা যায়, তা নির্ণয় করতে মরিয়া চেষ্টা করছেন। বাইবেল যেমন ভবিষ্যদ্বাণী করেছে, তেমনই দুর্ভিক্ষ, খরা, বন্যা, ভূমিকম্প, যুদ্ধ ও যুদ্ধের গুজব ইত্যাদি বেড়ে চলেছে।”",
+      "translation_quote": "বহু মানুষ উলটো-পাল্টা ভেবে চলেছেন। বাইবেল যেভাবে ভবিষ্যদ্বাণী করেছে—কোনদিন চাল দেখা যাবে"
+    },
+    {
+      "location": "html, paragraph 3, final sentence",
+      "severity": "major",
+      "source_quote": "even though the world does not want to retain God in their knowledge",
+      "suggested_fix": "সংশ্লিষ্ট অংশটি করুন: “যদিও জগতের মানুষ ঈশ্বরকে তাদের জ্ঞানে স্থান দিতে চায় না”।",
+      "translation_quote": "বিশ্ব মানুষকে তাদের জানায়ে ঈশ্বরকে রাখতে চায় না"
+    },
+    {
+      "location": "html, paragraph 4, Matthew 24:6 quotation",
+      "severity": "major",
+      "source_quote": "And ye shall hear of wars and rumours of wars",
+      "suggested_fix": "উদ্ধৃতির শুরু করুন: “তোমরা যুদ্ধের কথা ও যুদ্ধের গুজব শুনবে”। “শোনাবে” বলে অন্যদের শোনানোর অর্থ এসেছে।",
+      "translation_quote": "তোমরা যুদ্ধ ও যুদ্ধের গুজব শোনাবে"
+    },
+    {
+      "location": "html, paragraph 4, Matthew 24:13 quotation",
+      "severity": "major",
+      "source_quote": "he that shall endure unto the end, the same shall be saved",
+      "suggested_fix": "লিখুন: “যে শেষ পর্যন্ত ধৈর্য ধরে থাকবে, সে-ই পরিত্রাণ পাবে”।",
+      "translation_quote": "যে অনন্তকাল পর্যন্ত ধৈর্য ধরিবে, সে রক্ষা পাবে"
+    },
+    {
+      "location": "html, paragraphs 4, 5, 14 and 15, Scripture book names",
+      "severity": "minor",
+      "source_quote": "Matthew 24:6; Matthew 24:13; Hebrews chapter four; Hebrews 13:17; Matthew 8:10",
+      "suggested_fix": "প্রচলিত বাংলা পুস্তকনাম ব্যবহার করুন: “মথি ২৪:৬”, “মথি ২৪:১৩”, “ইব্রীয় পুস্তকের চতুর্থ অধ্যায়”, “ইব্রীয় ১৩:১৭” এবং “মথি ৮:১০”। সব সংখ্যা ও উল্লেখের অবস্থান অপরিবর্তিত রাখুন।",
+      "translation_quote": "ম্যাথু ২৪:৬; ম্যাথু ২৪:১৩; হিব্রুদের চতুর্থ অধ্যায়; হিব্রু ১৩:১৭; ম্যাথু ৮:১০"
+    },
+    {
+      "location": "html, paragraph 5, Anabaptist leader",
+      "severity": "major",
+      "source_quote": "a somewhat obscure, yet influential leader",
+      "suggested_fix": "লিখুন: “একজন তুলনামূলকভাবে স্বল্পপরিচিত, অথচ প্রভাবশালী নেতা”।",
+      "translation_quote": "এক অনিশ্চিত কিন্তু প্রভাবশালী নেতা"
+    },
+    {
+      "location": "html, paragraph 5, faith and wife",
+      "severity": "major",
+      "source_quote": "a real faith that is first personal, then corporate ... as a godly wife",
+      "suggested_fix": "“প্রথমে ব্যক্তিগত, তারপর সার্বিক” বদলে “প্রথমে ব্যক্তিগত, তারপর সমষ্টিগত” এবং “এক ভদ্র স্ত্রী” বদলে “একজন ঈশ্বরভক্ত স্ত্রী” লিখুন।",
+      "translation_quote": "প্রথমে ব্যক্তিগত, তারপর সার্বিক ... এক ভদ্র স্ত্রী"
+    },
+    {
+      "location": "html, paragraph 7, family description",
+      "severity": "minor",
+      "source_quote": "a married man with a young family",
+      "suggested_fix": "লিখুন: “তিনি বিবাহিত এবং তাঁর ছোট ছোট সন্তান রয়েছে।” এখানে পরিবারের আকার নয়, সন্তানদের অল্প বয়স বোঝানো হয়েছে।",
+      "translation_quote": "তিনি বিবাহিত এবং তাঁর একটি ছোট পরিবার আছে"
+    },
+    {
+      "location": "html, paragraphs 8 and 11, motel Bible",
+      "severity": "major",
+      "source_quote": "in the nightstand drawer ... with a Bible in the nightstand drawer",
+      "suggested_fix": "উভয় স্থানে “টেবিলচেয়ার ড্রয়ারে” বদলে “বিছানার পাশের ছোট টেবিলের ড্রয়ারে” লিখুন।",
+      "translation_quote": "টেবিলচেয়ার ড্রয়ারে তিনি একটি বই পেলেন ... যেখানে টেবিলচেয়ার ড্রয়ারে একটি বাইবেল ছিল"
+    },
+    {
+      "location": "html, paragraph 8, church language policy",
+      "severity": "major",
+      "source_quote": "they did not want to be too worldly or too modern by reading from an English Bible",
+      "suggested_fix": "লিখুন: “তাঁর মণ্ডলীর নীতি ছিল, ইংরেজি বাইবেল পড়ে তারা অতিরিক্ত জাগতিক বা আধুনিক হয়ে পড়তে চায় না; তাই তারা নিজেদের জনগোষ্ঠীর আদি ভাষাতেই ঈশ্বরের বাক্য শিক্ষা দেওয়া চালিয়ে যাচ্ছিল।”",
+      "translation_quote": "অতিরিক্ত আধুনিক বা বিশ্ববাসী বলে মনে না হওয়ার জন্য বাহিরের ভাষায় পড়তে চাইত না"
+    },
+    {
+      "location": "html, paragraph 9, spiritual edification",
+      "severity": "major",
+      "source_quote": "he was not able to be edified",
+      "suggested_fix": "লিখুন: “তাই তিনি আত্মিকভাবে গড়ে উঠতে পারছিলেন না।”",
+      "translation_quote": "তাই তিনি শিক্ষিত হতে পারেননি"
+    },
+    {
+      "location": "html, paragraph 9, final sentence",
+      "severity": "major",
+      "source_quote": "A problem for which God would surely desire to see changes made for the betterment of those seeking Him in such settings.",
+      "suggested_fix": "বাক্যটি করুন: “এমন পরিবেশে যাঁরা ঈশ্বরকে খুঁজছেন, তাঁদের মঙ্গলের জন্য এই সমস্যার ক্ষেত্রে পরিবর্তন আসুক—ঈশ্বর নিশ্চয়ই তা চান।”",
+      "translation_quote": "একটি সমস্যা যেটির পরিবর্তন ঈশ্বর নিশ্চিতভাবে চাহেন যাদের মধ্যে তিনি সন্ধান করা হয়"
+    },
+    {
+      "location": "html, paragraph 10, picking up the Bible",
+      "severity": "major",
+      "source_quote": "As he hesitantly picked up this English Bible",
+      "suggested_fix": "“অনিচ্ছাকৃতভাবে” বদলে “দ্বিধাভরে” লিখুন। কাজটি দুর্ঘটনাবশত হয়নি।",
+      "translation_quote": "তিনি অনিচ্ছাকৃতভাবে এই ইংরেজি বাইবেলটি হাতে তুলে নেন"
+    },
+    {
+      "location": "html, paragraph 10, difficulty stopping reading",
+      "severity": "major",
+      "source_quote": "he almost couldn’t pull himself away to allow time for sleep",
+      "suggested_fix": "লিখুন: “তিনি পড়ায় এতটাই মগ্ন ছিলেন যে ঘুমানোর জন্য পড়া থেকে নিজেকে সরিয়ে আনাই প্রায় অসম্ভব হয়ে পড়েছিল।”",
+      "translation_quote": "প্রায় নিজেকে কাধ থেকে টেনে বের করতে পারছিলেন না ঘুমের সময় দেওয়ার জন্য"
+    },
+    {
+      "location": "html, paragraph 11, second sleepless night and fellowship",
+      "severity": "major",
+      "source_quote": "After a second sleepless night spent devouring the teachings of the Scriptures, he started seeking others ... He was desiring to fellowship and learn all that he could",
+      "suggested_fix": "শেষের দুই বাক্য করুন: “শাস্ত্রের শিক্ষা গভীর আগ্রহে পড়ে দ্বিতীয়বারের মতো একটি নির্ঘুম রাত কাটানোর পর, তিনি এমন লোকদের খুঁজতে শুরু করলেন, যাঁরা বাইবেলের কথা বোঝেন ও পালন করেন। যাঁরা ঈশ্বরের বাক্য বোঝেন এবং যা প্রচার করেন তা পালন করেন, তাঁদের সঙ্গে সহভাগিতা করতে এবং তাঁদের কাছ থেকে যতটা সম্ভব শিখতে তিনি আকাঙ্ক্ষী ছিলেন।”",
+      "translation_quote": "দ্বিতীয় এক অনিদ্রিত রাতেই ... আবারও সেই শিক্ষাগ্রহণ শুরু করলেন ... তিনি সঙ্গীত ও এমনদের কাছ থেকে সব শেখার আকাঙ্ক্ষায় দ্বিগুণ উদ্দীপিত ছিলেন"
+    },
+    {
+      "location": "html, paragraph 12, religious maze",
+      "severity": "major",
+      "source_quote": "this confusing maze of religious idiosyncrasies",
+      "suggested_fix": "লিখুন: “ধর্মীয় অদ্ভুত রীতিনীতির এই বিভ্রান্তিকর গোলকধাঁধা”।",
+      "translation_quote": "ধর্মীয় অদ্বিতীয়তার বিভ্রান্তি-পথ"
+    },
+    {
+      "location": "html, paragraph 12, remaining in the church",
+      "severity": "major",
+      "source_quote": "He wanted to stay within his local church",
+      "suggested_fix": "লিখুন: “তিনি তাঁর স্থানীয় মণ্ডলীতেই থাকতে চেয়েছিলেন”।",
+      "translation_quote": "তিনি চান তাঁরা তাঁর স্থানীয় চার্চে থাকুক"
+    },
+    {
+      "location": "html, paragraph 13, concluding historical comparison",
+      "severity": "major",
+      "source_quote": "This is NO different than the struggle of the original Anabaptists who were persecuted for not studying the Scriptures in the official language of their day—Latin.",
+      "suggested_fix": "শেষ বাক্যটি করুন: “আদি আনাব্যাপটিস্টদের সংগ্রাম থেকে এটি মোটেই আলাদা নয়; তাঁদের সময়ের সরকারি ধর্মীয় ভাষা ল্যাটিনে শাস্ত্র অধ্যয়ন না করার জন্য তাঁরা নির্যাতিত হয়েছিলেন।”",
+      "translation_quote": "এটি মূল আনাব্যাপটিস্টদের সংগ্রামের চেয়েও কোন ব্যবধান নয়; যাদের বিরুদ্ধে তারা নির্যাতিত হয়েছিল কারণ তারা শাস্ত্র ল্যাটিনে পড়তে চাননি—তাঁদের যুগের আনুষ্ঠানিক ভাষায় পড়া হয়েছিল"
+    },
+    {
+      "location": "html, paragraph 14, Hebrews 13:17 quotation and explanation",
+      "severity": "major",
+      "source_quote": "Obey them that have the rule over you, and submit yourselves ... Obey here is only in the context of God’s Word",
+      "suggested_fix": "উদ্ধৃতির শুরু করুন: “যাঁরা তোমাদের নেতৃত্ব দেন, তাঁদের কথা মানো এবং তাঁদের বশীভূত হও”। পরের ব্যাখ্যায় “এখানে poslu বা শাসকদের কথা মানা” বদলে “এখানে কথা মানার নির্দেশ” লিখুন।",
+      "translation_quote": "তোমাদের যাঁদের দ্বারা শাসিত করাও, তাঁদের poslu কর ... এখানে poslu বা শাসকদের কথা মানা"
+    },
+    {
+      "location": "html, paragraph 15, Matthew 8:10 quotation",
+      "severity": "major",
+      "source_quote": "said to them that followed ... not in Israel",
+      "suggested_fix": "উদ্ধৃতিটি করুন: “যীশু তা শুনে বিস্মিত হলেন এবং যাঁরা তাঁর অনুসরণ করছিলেন, তাঁদের বললেন, সত্যিই আমি তোমাদের বলছি, ইস্রায়েলেও আমি এত বড় বিশ্বাস পাইনি”।",
+      "translation_quote": "যাঁদের অনুসরণ করিতেছিলেন, তাঁকে বলিলেন ... ইহুদায়োতেও এমন বড় বিশ্বাস আমি পাই নাই"
+    },
+    {
+      "location": "html, paragraph 15, exciting stories",
+      "severity": "major",
+      "source_quote": "ones that keep people on the edge of their seats",
+      "suggested_fix": "লিখুন: “এমন গল্প, যা পাঠকদের টানটান উত্তেজনায় রাখে”।",
+      "translation_quote": "এমন গল্প যেগুলো পাঠকদের সীমানায় রাখে"
+    },
+    {
+      "location": "html, paragraph 17, location of the account",
+      "severity": "major",
+      "source_quote": "What I am amazed about is that this story takes place right in the midst of one of our plain groups of conservative Anabaptists.",
+      "suggested_fix": "লিখুন: “আমাকে যা বিস্মিত করে তা হলো, এই ঘটনা আমাদেরই সরল জীবনযাপনকারী রক্ষণশীল আনাব্যাপটিস্ট গোষ্ঠীগুলোর একটির একেবারে মধ্যেই ঘটেছে।” অর্থ বদলে দেওয়া “তাই নয়” বাদ দিন।",
+      "translation_quote": "এই কাহিনি আমাদের রক্ষণশীল আনাব্যাপটিস্টদের মধ্যে যে কোনো এক গোষ্ঠীর মাঝেই ঘটে—তাই নয়"
+    },
+    {
+      "location": "html, paragraph 17, evangelistic appeal",
+      "severity": "major",
+      "source_quote": "Let’s seek God for opportunities to share the truth of the Gospel message with those within the sphere of our influence.",
+      "suggested_fix": "লিখুন: “আমাদের প্রভাবের পরিসরে থাকা মানুষদের সঙ্গে সুসমাচারের সত্য ভাগ করে নেওয়ার সুযোগের জন্য আসুন ঈশ্বরের কাছে প্রার্থনা করি।”",
+      "translation_quote": "ঈশ্বরকে খোঁজার লোকদের মধ্যে সুযোগ পেয়ে আমরা সুসমাচারের সত্যটি ভাগ করে নেব বলে প্রার্থনা করি"
+    },
+    {
+      "location": "html, paragraph 1, anticipation",
+      "severity": "minor",
+      "source_quote": "Many are waiting with bated breath",
+      "suggested_fix": "লিখুন: “অনেকে রুদ্ধশ্বাসে অপেক্ষা করছেন”।",
+      "translation_quote": "অনেকে শ্বাস held করে অপেক্ষা করছেন"
+    },
+    {
+      "location": "html, paragraph 5, cancer series",
+      "severity": "minor",
+      "source_quote": "the first of a two-part series on cancer",
+      "suggested_fix": "লিখুন: “ক্যান্সার নিয়ে দুই পর্বের ধারাবাহিকের প্রথম পর্ব”।",
+      "translation_quote": "প্রথম দুটি অংশের একটি ক্যান্সার সম্পর্কিত সিরিজের প্রথম অংশ"
+    },
+    {
+      "location": "html, paragraph 6, self-examination",
+      "severity": "minor",
+      "source_quote": "my Lord and Saviour",
+      "suggested_fix": "এই প্রশ্নে “আমার প্রভুর প্রতি আমার প্রেম” বদলে “আমার প্রভু ও ত্রাণকর্তার প্রতি আমার প্রেম” লিখুন।",
+      "translation_quote": "আমার প্রভুর প্রতি আমার প্রেম"
+    },
+    {
+      "location": "title and section",
+      "severity": "minor",
+      "source_quote": "From the Editor / FROM THE EDITOR",
+      "suggested_fix": "উভয় ক্ষেত্রে স্বাভাবিক বাংলা শিরোনাম “সম্পাদকের কথা” ব্যবহার করুন।",
+      "translation_quote": "সম্পাদক থেকে"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
