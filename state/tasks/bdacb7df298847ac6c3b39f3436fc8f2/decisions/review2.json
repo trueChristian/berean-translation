@@ -1,0 +1,49 @@
+{
+  "findings": [
+    {
+      "location": "Artikeltext, stycket som börjar ”När hennes föräldrar känner sig säkra …”",
+      "severity": "major",
+      "source_quote": "“When her parents are clear, they give him permission to write her asking to start a courtship.”",
+      "suggested_fix": "Ändra meningen till: ”När hennes föräldrar känner sig övertygade ger de honom tillåtelse att skriva till henne och fråga om de ska börja en uppvaktningsperiod.”",
+      "translation_quote": "“När hennes föräldrar känner sig säkra ger de honom tillåtelse att skriva till henne och fråga om de ska börja uppvakta varandra.”"
+    },
+    {
+      "location": "Artikeltext, stycket som börjar ”Hennes föräldrar bör ordna det första mötet …”",
+      "severity": "major",
+      "source_quote": "“The couple should have some time alone together at this first meeting.”",
+      "suggested_fix": "Ändra till: ”Paret bör få vara ensamma tillsammans en stund under det första mötet.”",
+      "translation_quote": "“Paret bör få lite tid för sig själva under det första mötet.”"
+    },
+    {
+      "location": "Artikeltext, avsnitt 8, ”Köra bil ensamma”",
+      "severity": "major",
+      "source_quote": "“For long-distance trips or after dark, a chaperone should be along to abstain from all appearances of evil.”",
+      "suggested_fix": "Ändra till: ”Vid långa resor eller efter mörkrets inbrott bör en följeslagare följa med för att undvika allt som kan ge sken av det onda.”",
+      "translation_quote": "“Vid långa resor eller efter mörkrets inbrott bör en följeslagare följa med, för att avhålla sig från allt som kan likna det onda.”"
+    },
+    {
+      "location": "Artikeltext, avsnitt 9, stycket som börjar ”Kom ihåg era vänner.”",
+      "severity": "major",
+      "source_quote": "“You are moving from single life to married life.”",
+      "suggested_fix": "Ändra till: ”Ni går från singelliv till gift liv.”",
+      "translation_quote": "“Ni går från singelliv till äktenskap.”"
+    },
+    {
+      "location": "Artikeltext, avsnitt 12, stycket som börjar ”Detta är den främsta riktlinjen.”",
+      "severity": "major",
+      "source_quote": "“Don’t go out on your own.”",
+      "suggested_fix": "Ändra till: ”Ge er inte ut på egen hand.”",
+      "translation_quote": "“Ge er inte av på egen hand.”"
+    },
+    {
+      "location": "Artikeltext, förlovningsavsnittet, stycket som börjar ”Stå genom allt detta …”",
+      "severity": "major",
+      "source_quote": "“Dad, [of the young lady], it is essential that you stay connected with the young man.”",
+      "suggested_fix": "Ändra till: ”Pappa [till den unga kvinnan], det är viktigt att du håller kontakten med den unge mannen.”",
+      "translation_quote": "“Pappa, [till den unga kvinnan], det är viktigt att du håller kontakten med den unge mannen.”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}
