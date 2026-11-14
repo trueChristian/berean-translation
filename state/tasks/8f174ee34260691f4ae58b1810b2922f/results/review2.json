@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "b7a88a3c-c228-4bda-9a77-5a5889d93b6e",
+    "response_id": "chatcmpl-Ek7wc8UYTVmBTbhslUvrg3tmusC1s",
+    "usage": {
+      "completion_tokens": 1313,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1093,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 14865,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 14862
+      },
+      "total_tokens": 16178
+    }
+  },
+  "received_at": "2026-11-14T14:59:53+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, heading 8, paragraph 1",
+        "severity": "minor",
+        "source_quote": "a chaperone should be along to abstain from all appearances of evil",
+        "suggested_fix": "«πρέπει να υπάρχει συνοδός, ώστε να αποφεύγεται ακόμη και η εμφάνιση του κακού»",
+        "translation_quote": "πρέπει να υπάρχει συνοδός, ώστε να αποφεύγεται κάθε μορφή κακού"
+      },
+      {
+        "location": "HTML, heading 6, paragraph 1",
+        "severity": "minor",
+        "source_quote": "so you can sing and have devotions",
+        "suggested_fix": "«ώστε να μπορείτε να τραγουδήσετε και να κάνετε την ώρα της προσωπικής σας λατρείας»",
+        "translation_quote": "ώστε να μπορείτε να τραγουδήσετε και να κάνετε τις πνευματικές σας ασκήσεις"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 97
+  }
+}

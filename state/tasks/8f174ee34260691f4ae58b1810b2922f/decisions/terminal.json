@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "HTML, heading 8, paragraph 1",
+      "severity": "minor",
+      "source_quote": "a chaperone should be along to abstain from all appearances of evil",
+      "suggested_fix": "«πρέπει να υπάρχει συνοδός, ώστε να αποφεύγεται ακόμη και η εμφάνιση του κακού»",
+      "translation_quote": "πρέπει να υπάρχει συνοδός, ώστε να αποφεύγεται κάθε μορφή κακού"
+    },
+    {
+      "location": "HTML, heading 6, paragraph 1",
+      "severity": "minor",
+      "source_quote": "so you can sing and have devotions",
+      "suggested_fix": "«ώστε να μπορείτε να τραγουδήσετε και να κάνετε την ώρα της προσωπικής σας λατρείας»",
+      "translation_quote": "ώστε να μπορείτε να τραγουδήσετε και να κάνετε τις πνευματικές σας ασκήσεις"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

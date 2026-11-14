@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "830d29c4a1644628a2f256b98578428e",
   "campaign": "auto-36937b0869a9ce2b6f49fc9c8817874be4d6cd11bca6e6f4d3231c2ba7d74cd7",
   "created_at": "2026-11-13T07:11:18+00:00",
   "events": [
@@ -68,18 +67,46 @@
         },
         "total_tokens": 23492
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1313,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 1093,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 14865,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 0,
+          "cached_tokens": 14862
+        },
+        "total_tokens": 16178
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "Σε όλο το άρθρο· ενδεικτικά στον τίτλο και στην πρώτη παράγραφο",
-      "severity": "major",
-      "source_quote": "“A Christ-Centered Courtship Process”; “A Christ-centered courtship process consists of a courting period and an engagement period.”",
-      "suggested_fix": "Αντικαταστήστε συστηματικά το «αυλοφροσύνη» με φυσική σύγχρονη ελληνική απόδοση, όπως «γνωριμία με σκοπό τον γάμο» ή «προγαμιαία σχέση», προσαρμόζοντας ανάλογα και τις σύνθετες φράσεις.",
-      "translation_quote": "«Μια διαδικασία αυλοφροσύνης με επίκεντρο τον Χριστό»· «Η διαδικασία μιας αυλοφροσύνης με επίκεντρο τον Χριστό περιλαμβάνει μια περίοδο αυλοφροσύνης»"
+      "location": "HTML, heading 8, paragraph 1",
+      "severity": "minor",
+      "source_quote": "a chaperone should be along to abstain from all appearances of evil",
+      "suggested_fix": "«πρέπει να υπάρχει συνοδός, ώστε να αποφεύγεται ακόμη και η εμφάνιση του κακού»",
+      "translation_quote": "πρέπει να υπάρχει συνοδός, ώστε να αποφεύγεται κάθε μορφή κακού"
+    },
+    {
+      "location": "HTML, heading 6, paragraph 1",
+      "severity": "minor",
+      "source_quote": "so you can sing and have devotions",
+      "suggested_fix": "«ώστε να μπορείτε να τραγουδήσετε και να κάνετε την ώρα της προσωπικής σας λατρείας»",
+      "translation_quote": "ώστε να μπορείτε να τραγουδήσετε και να κάνετε τις πνευματικές σας ασκήσεις"
     }
   ],
+  "finished_at": "2026-11-14T14:59:53+00:00",
   "id": "8f174ee34260691f4ae58b1810b2922f",
   "issue_id": "103c93e0-6e9a-44f6-a6bc-377af8e08e38",
   "language": "ell",
@@ -168,7 +195,7 @@
     }
   },
   "protected": false,
-  "quality_score": 89,
+  "quality_score": 97,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
@@ -188,7 +215,7 @@
     "total_reserved_usd": 0.092128,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "168a1108b0cb584118665d0d4048559fb86bb1444e057e3646ac49c743cf2917",
   "translation_model_actual": "gpt-6-luna"

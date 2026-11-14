@@ -27255,6 +27255,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ell/articles/12387934-7e9b-49f7-874a-0e66fa7942d3.html",
+      "html_sha256": "13bea895192e9f4950774ff91406e5ba7f14f92c08c33bf930e7725284d42835",
+      "human_reviewed": false,
+      "id": "12387934-7e9b-49f7-874a-0e66fa7942d3",
+      "images": [
+        {
+          "alt": "Ένα ζευγάρι κάθεται μαζί πάνω σε έναν βράχο, απέναντι από έναν καταρράκτη.",
+          "public_path": "/images/articles/12387934-7e9b-49f7-874a-0e66fa7942d3-1.jpg"
+        },
+        {
+          "alt": "Μια νύφη και ένας γαμπρός περπατούν χέρι χέρι σε ένα μονοπάτι.",
+          "public_path": "/images/articles/12387934-7e9b-49f7-874a-0e66fa7942d3-2.jpg"
+        }
+      ],
+      "issue_id": "103c93e0-6e9a-44f6-a6bc-377af8e08e38",
+      "language": "ell",
+      "language_tag": "el",
+      "metadata": "content/ell/articles/12387934-7e9b-49f7-874a-0e66fa7942d3.json",
+      "metadata_sha256": "1568b45b233df1153a5171c8460766d7eb8a61ec257232560ce6e62c96a1bd1e",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "ΕΜΠΝΕΥΣΕΙΣ ΓΙΑ ΤΟΥΣ ΝΕΟΥΣ",
+      "source_revision": "ccefc5a5c3d79409cc78319f94b5490718d30670",
+      "source_translation_key": "168a1108b0cb584118665d0d4048559fb86bb1444e057e3646ac49c743cf2917",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Μια διαδικασία γνωριμίας με σκοπό τον γάμο, με επίκεντρο τον Χριστό",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ell/articles/175280ea-7e5f-4be2-bbce-b500c0fd93cb.html",
       "html_sha256": "7ee82778ca92b306513c68a80976f64d86add659ae88951a07aafea37baec08b",
       "human_reviewed": false,

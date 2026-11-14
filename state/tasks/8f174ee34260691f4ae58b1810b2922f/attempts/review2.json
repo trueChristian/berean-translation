@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-14T14:59:53+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, heading 8, paragraph 1\",\"severity\":\"minor\",\"source_quote\":\"a chaperone should be along to abstain from all appearances of evil\",\"suggested_fix\":\"«πρέπει να υπάρχει συνοδός, ώστε να αποφεύγεται ακόμη και η εμφάνιση του κακού»\",\"translation_quote\":\"πρέπει να υπάρχει συνοδός, ώστε να αποφεύγεται κάθε μορφή κακού\"},{\"location\":\"HTML, heading 6, paragraph 1\",\"severity\":\"minor\",\"source_quote\":\"so you can sing and have devotions\",\"suggested_fix\":\"«ώστε να μπορείτε να τραγουδήσετε και να κάνετε την ώρα της προσωπικής σας λατρείας»\",\"translation_quote\":\"ώστε να μπορείτε να τραγουδήσετε και να κάνετε τις πνευματικές σας ασκήσεις\"}],\"findings_complete\":true,\"passed\":true,\"score\":97}",
+    "content_bytes": 966,
+    "content_evidence_truncated": false,
+    "content_sha256": "96f8110d1c335b8f2266951b9b3c4bcc572846f411a6805086db8a57ee2854f1",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1313,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1093,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 14865,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 14862
+      },
+      "total_tokens": 16178
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}
