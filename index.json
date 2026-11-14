@@ -13987,6 +13987,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ben/articles/86459f54-72b0-4be2-a101-02b3c9462f6c.html",
+      "html_sha256": "5874edd2e975d52990a2341e757ef03ca65635e7ed1e14993542c5fcb2b91064",
+      "human_reviewed": false,
+      "id": "86459f54-72b0-4be2-a101-02b3c9462f6c",
+      "images": [
+        {
+          "alt": "খোলা স্বরলিপির পাশে পিয়ানোর কী",
+          "public_path": "/images/articles/86459f54-72b0-4be2-a101-02b3c9462f6c-1.jpg"
+        }
+      ],
+      "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
+      "language": "ben",
+      "language_tag": "bn",
+      "metadata": "content/ben/articles/86459f54-72b0-4be2-a101-02b3c9462f6c.json",
+      "metadata_sha256": "c3acacfee3296c74fd57e000a6a0f3471d2cc0ba8f4de04ad4237a8ed7c466c8",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "যুবসমাজের জন্য অনুপ্রেরণা",
+      "source_revision": "a069ecca8827634ebc256b3b1cabc16aeb942ed7",
+      "source_translation_key": "65790b7f3f0557bbd4601849b5efe70a6391326d0f3933cef69b6e6d8bb48d72",
+      "status": "ready",
+      "subtitle": null,
+      "title": "আমার সংগীত সম্পর্কে কোনটি সঠিক?",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ben/articles/8a3dfa09-f40f-4615-8f83-59a8fccb1a2f.html",
       "html_sha256": "fae47c00ed949153fa9c86bf000262fb17ab481009ee1572137b7e7e38cfa981",
       "human_reviewed": false,
