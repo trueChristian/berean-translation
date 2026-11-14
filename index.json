@@ -72135,6 +72135,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/nob/articles/46f89299-c0a0-407c-9898-01a0c150c453.html",
+      "html_sha256": "e5afe93fd07f0f0d0fdc6694fc27e6ff9f5e5ed31d4d9979110dc7f05cd2b348",
+      "human_reviewed": false,
+      "id": "46f89299-c0a0-407c-9898-01a0c150c453",
+      "images": [
+        {
+          "alt": "Tre gutter sitter på en benk sammen med en baby.",
+          "public_path": "/images/articles/46f89299-c0a0-407c-9898-01a0c150c453-1.jpg"
+        }
+      ],
+      "issue_id": "103c93e0-6e9a-44f6-a6bc-377af8e08e38",
+      "language": "nob",
+      "language_tag": "nb",
+      "metadata": "content/nob/articles/46f89299-c0a0-407c-9898-01a0c150c453.json",
+      "metadata_sha256": "dc487fba6ea60bc54df2215d42550399aa3033edebc6ff901d483465cdd2b751",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "SØSTER TIL SØSTER",
+      "source_revision": "ccefc5a5c3d79409cc78319f94b5490718d30670",
+      "source_translation_key": "0afcc7ac219484ffe40d0a8780ac11cb2b9f1aabb8e86a8de9c7d9ef16398e27",
+      "status": "ready",
+      "subtitle": null,
+      "title": "En mors tilbedelse",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/nob/articles/47c2bd87-06a9-4c31-854b-84c64975d399.html",
       "html_sha256": "adfe6dd7c82a1d5262a7e05ef626ad4e3274311dd3bc31a05b11a9e129dc2d68",
       "human_reviewed": false,
