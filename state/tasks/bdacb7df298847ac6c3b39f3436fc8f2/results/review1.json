@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "dd100521-2a6b-4015-be92-415f112bb12c",
+    "response_id": "chatcmpl-Ejy4vT368Opd5IaZw03aJaVOvfHk8",
+    "usage": {
+      "completion_tokens": 866,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 757,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 12293,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 12290,
+        "cached_tokens": 0
+      },
+      "total_tokens": 13159
+    }
+  },
+  "received_at": "2026-11-14T03:08:06+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, paragraph beginning “Now, Dad makes the phone call”",
+        "severity": "major",
+        "source_quote": "He may have gotten the blessing of his ministry.",
+        "suggested_fix": "Han kan också ha fått välsignelse från församlingsledningen.",
+        "translation_quote": "Han kan också ha fått välsignelse från sin församling."
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 96
+  }
+}

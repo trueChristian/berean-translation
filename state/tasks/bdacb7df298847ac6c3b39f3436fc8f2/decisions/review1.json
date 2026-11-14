@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraph beginning “Now, Dad makes the phone call”",
+      "severity": "major",
+      "source_quote": "He may have gotten the blessing of his ministry.",
+      "suggested_fix": "Han kan också ha fått välsignelse från församlingsledningen.",
+      "translation_quote": "Han kan också ha fått välsignelse från sin församling."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
