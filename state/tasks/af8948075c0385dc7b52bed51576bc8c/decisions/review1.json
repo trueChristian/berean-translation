@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Hälsorisker med ultraprocessade livsmedel, lunch-exemplet",
+      "severity": "minor",
+      "source_quote": "“a fruit snack, pizza pocket, and an oatmeal cream pie”",
+      "suggested_fix": "Överväg att återge “pizza pocket” som exempelvis ”fylld pizzaficka” i stället för ”pizzapaj”, så att det inte låter som en paj.",
+      "translation_quote": "”ett fruktsnack, en pizzapaj och en havrekaka med krämfyllning”"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}
