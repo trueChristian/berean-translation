@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "07a60e77a4624bb8b9ac8ec91e9f450c",
   "campaign": "auto-bd98dcb822c2e0e4ff3cdf1a501294d4a099d7453681a1a985f10717e8e7dc5a",
   "created_at": "2026-11-11T19:35:49+00:00",
   "events": [
@@ -68,18 +67,39 @@
         },
         "total_tokens": 8102
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 696,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 589,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5758,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 5755,
+          "cached_tokens": 0
+        },
+        "total_tokens": 6454
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "Article body, paragraph beginning “At the end of the world”",
-      "severity": "major",
-      "source_quote": "“Inasmuch as ye have done it unto one of the least of these, ye have done it unto me.”",
-      "suggested_fix": "Vervang “voor een van de geringsten van deze broeders van Mij gedaan hebt” door “voor een van de geringsten van dezen gedaan hebt”, zodat de vertaling geen “broeders van Mij” toevoegt.",
-      "translation_quote": "‘Voorwaar, Ik zeg u: voor zover u dit voor een van de geringsten van deze broeders van Mij gedaan hebt, hebt u het voor Mij gedaan.’"
+      "location": "Final paragraph, final sentence",
+      "severity": "minor",
+      "source_quote": "God chooses to accept that worship.",
+      "suggested_fix": "Het raakt mijn hart wanneer ik eraan denk dat God ervoor kiest die aanbidding te aanvaarden.",
+      "translation_quote": "Het raakt mijn hart wanneer ik eraan denk dat God die aanbidding wil aanvaarden."
     }
   ],
+  "finished_at": "2026-11-14T10:17:45+00:00",
   "id": "a26c84f70ff831e0ef869960a98322e9",
   "issue_id": "103c93e0-6e9a-44f6-a6bc-377af8e08e38",
   "language": "nld",
@@ -168,7 +188,7 @@
     }
   },
   "protected": false,
-  "quality_score": 93,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
@@ -188,7 +208,7 @@
     "total_reserved_usd": 0.088365,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "0afcc7ac219484ffe40d0a8780ac11cb2b9f1aabb8e86a8de9c7d9ef16398e27",
   "translation_model_actual": "gpt-6-luna"

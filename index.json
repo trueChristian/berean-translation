@@ -66341,6 +66341,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/nld/articles/46f89299-c0a0-407c-9898-01a0c150c453.html",
+      "html_sha256": "7c36b57b540a954205dc068e550eeacc154fc061e5dd9165f32cb616a6db8616",
+      "human_reviewed": false,
+      "id": "46f89299-c0a0-407c-9898-01a0c150c453",
+      "images": [
+        {
+          "alt": "Drie jongens zitten met een baby op een bankje.",
+          "public_path": "/images/articles/46f89299-c0a0-407c-9898-01a0c150c453-1.jpg"
+        }
+      ],
+      "issue_id": "103c93e0-6e9a-44f6-a6bc-377af8e08e38",
+      "language": "nld",
+      "language_tag": "nl",
+      "metadata": "content/nld/articles/46f89299-c0a0-407c-9898-01a0c150c453.json",
+      "metadata_sha256": "802b7396d78b01f8696389c1a07724ec2cb38cc02822de36fdda247fa983f701",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "ZUSTER TOT ZUSTER",
+      "source_revision": "ccefc5a5c3d79409cc78319f94b5490718d30670",
+      "source_translation_key": "0afcc7ac219484ffe40d0a8780ac11cb2b9f1aabb8e86a8de9c7d9ef16398e27",
+      "status": "ready",
+      "subtitle": null,
+      "title": "De aanbidding van een moeder",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/nld/articles/47fbbdc9-6663-49d8-96d7-b5a6ecb8d689.html",
       "html_sha256": "22c887d648a476f4a97209558f69712a52cef2785f6c037502baa35569443ebc",
       "human_reviewed": false,

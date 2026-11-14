@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-14T10:17:45+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Final paragraph, final sentence\",\"severity\":\"minor\",\"source_quote\":\"God chooses to accept that worship.\",\"suggested_fix\":\"Het raakt mijn hart wanneer ik eraan denk dat God ervoor kiest die aanbidding te aanvaarden.\",\"translation_quote\":\"Het raakt mijn hart wanneer ik eraan denk dat God die aanbidding wil aanvaarden.\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 397,
+    "content_evidence_truncated": false,
+    "content_sha256": "9c0a75cc4644bcd5c15c2a666075327fdfe443275b5bd6e9cc731e88d6836333",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 696,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 589,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5758,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5755,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6454
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

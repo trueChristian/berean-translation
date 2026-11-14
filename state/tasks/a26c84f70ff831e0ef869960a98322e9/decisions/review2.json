@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Final paragraph, final sentence",
+      "severity": "minor",
+      "source_quote": "God chooses to accept that worship.",
+      "suggested_fix": "Het raakt mijn hart wanneer ik eraan denk dat God ervoor kiest die aanbidding te aanvaarden.",
+      "translation_quote": "Het raakt mijn hart wanneer ik eraan denk dat God die aanbidding wil aanvaarden."
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}
