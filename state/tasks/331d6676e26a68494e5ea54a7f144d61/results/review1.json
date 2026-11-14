@@ -1,0 +1,241 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "ba6033df-e76d-4aa5-befe-058e6bf9a430",
+    "response_id": "chatcmpl-Ejz0Ibz8YpcPhUqWlbUSY8Pzk3tTC",
+    "usage": {
+      "completion_tokens": 3381,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 62,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 10175,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9072,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 13556
+    }
+  },
+  "received_at": "2026-11-14T03:54:08+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "html: opening quotation; Mark 4:38 quotation; Luke 12:13 quotation",
+        "severity": "major",
+        "source_quote": "Master, carest thou not that we perish?; Master, speak to my brother",
+        "suggested_fix": "তিনটি স্থানেই “আরস্য” বদলে “গুরু” লিখুন। প্রথম উদ্ধৃতিতে প্রশ্নটি করুন: “গুরু, আমরা যে বিনষ্ট হচ্ছি, তাতে কি আপনার কোনো চিন্তা নেই?”",
+        "translation_quote": "আরস্য, আমাদের কি তুমি পরিত্যাগ করতে চাও—আমরা কি নাশ হব?; আরস্য, তুমি কি আমরা নাশ পাই বলে উদ্বেগ করো না?; আরস্য, আমার ভাইকে বল"
+      },
+      {
+        "location": "html: paragraph beginning “Many times”",
+        "severity": "major",
+        "source_quote": "These probing questions are disturbing",
+        "suggested_fix": "লিখুন: “এই গভীর অনুসন্ধানী প্রশ্নগুলো অস্বস্তিকর”।",
+        "translation_quote": "এসব খুঁত Sik প্রশ্ন সবচেয়ে বিরক্তিকর"
+      },
+      {
+        "location": "html: Acts 27:20 quotation",
+        "severity": "major",
+        "source_quote": "no small tempest lay on us",
+        "suggested_fix": "লিখুন: “আমাদের ওপর প্রবল ঝড় বয়ে চলছিল”।",
+        "translation_quote": "আমাদের উপর একটি ছোট্ট ঝড়ও ছিল না"
+      },
+      {
+        "location": "html: Jonah 1:6 quotation",
+        "severity": "major",
+        "source_quote": "the shipmaster came to him [Jonah]",
+        "suggested_fix": "লিখুন: “জাহাজের অধ্যক্ষ তাঁর [যোনার] কাছে এসে বললেন”।",
+        "translation_quote": "জাহাজের প্রধান তাঁর কাছে এহেন বলিল"
+      },
+      {
+        "location": "html: paragraph following Jonah quotation",
+        "severity": "major",
+        "source_quote": "Christ finds no pleasure in allowing trouble to visit us",
+        "suggested_fix": "লিখুন: “আমাদের জীবনে কষ্ট আসতে দিয়ে খ্রিস্ট কোনো আনন্দ পান না”।",
+        "translation_quote": "খ্রীষ্টে কষ্টের আগমনকে অনুমোদন করায় কোনো আনন্দ নেই"
+      },
+      {
+        "location": "html: paragraph following Jonah quotation",
+        "severity": "major",
+        "source_quote": "If there be no thorns, how shall we enjoy the rose?",
+        "suggested_fix": "“বিষোদগার” বদলে “কাঁটা” লিখুন।",
+        "translation_quote": "যদি প্রথমে বিষোদগার না থাকে, আমরা কীভাবে গোলাপের আনন্দ উপভোগ করব?"
+      },
+      {
+        "location": "html: 2 Corinthians 1:8 quotation",
+        "severity": "major",
+        "source_quote": "pressed out of measure, above strength",
+        "suggested_fix": "লিখুন: “অপরিমেয় চাপে, আমাদের শক্তির অতিরিক্ত ভারে জর্জরিত হয়েছিলাম”।",
+        "translation_quote": "পরিমাপে চাপিত, শক্তির ওপরে"
+      },
+      {
+        "location": "html: sentence following 2 Corinthians 1:8",
+        "severity": "major",
+        "source_quote": "a visionary anchor for his soul",
+        "suggested_fix": "লিখুন: “তবু তাঁর হৃদয়ে আত্মার জন্য এক দূরদৃষ্টিময় নোঙর ছিল”।",
+        "translation_quote": "একটি দ্যৈব_anchor"
+      },
+      {
+        "location": "html: Psalm quotation and reference",
+        "severity": "major",
+        "source_quote": "They reel to and fro, and stagger like a drunken man ... –Psalm 107:25-30",
+        "suggested_fix": "সংশ্লিষ্ট বাক্যটি করুন: “তারা এদিক-ওদিক টলে, মাতাল মানুষের মতো হোঁচট খায় এবং দিশেহারা হয়ে পড়ে।” “তেওঁলোকের” বদলে “তাদের” এবং “নিয়ামক 107:25-30” বদলে “গীতসংহিতা 107:25-30” লিখুন।",
+        "translation_quote": "তন্মধ্যে তেওঁলোকের আত্মা ... তাঁরা দোলায় আর ফিরে যায়, এবং মাতাল মানুষের মতো দাঁড়ায় ... নিয়ামক 107:25-30"
+      },
+      {
+        "location": "html: first paragraph under “The Desired Haven…”",
+        "severity": "major",
+        "source_quote": "an earthly euphoric utopia void of any storms ... a harbor that is free from fretful fear and fledgling faith",
+        "suggested_fix": "সংশ্লিষ্ট অংশগুলো করুন: “পৃথিবীর বুকে ঝড়হীন এক পরম সুখের আদর্শলোক” এবং “এমন এক বন্দর, যেখানে উদ্বেগজনিত ভয় ও অপরিণত বিশ্বাস নেই”।",
+        "translation_quote": "একটি ভৌত উভোরিয়ান ইউটোপিয়া ... এমন এক খানঘর যেখানে উদ্বিগ্ন ভয় ও দোলাখরা বিশ্বাস নেই"
+      },
+      {
+        "location": "html: John 14:27 quotation",
+        "severity": "major",
+        "source_quote": "peace … not as the world giveth, give I unto you. Let not your heart be troubled, neither let it be afraid",
+        "suggested_fix": "উদ্ধৃতিটি করুন: “শান্তি … জগৎ যেভাবে দেয়, আমি সেভাবে তোমাদের দিই না। তোমাদের হৃদয় উদ্বিগ্ন না হোক, ভীতও না হোক—যোহন 14:27।”",
+        "translation_quote": "যে শান্তি পৃথিবী দেয় না, তুমি আমি দিই। তোমার হৃদয় উদ্বিগ্ন হউক না, ন কী ভয় পাও—ইওহান্ন 14:27।"
+      },
+      {
+        "location": "html: paragraph beginning “The tenacious storms”",
+        "severity": "major",
+        "source_quote": "This is not necessarily anxiety",
+        "suggested_fix": "লিখুন: “এটি যে উদ্বেগই হবে, তা নয়”।",
+        "translation_quote": "এটা অবশ্যই উদ্বেগ নয়"
+      },
+      {
+        "location": "html: paragraph beginning “The tenacious storms”",
+        "severity": "major",
+        "source_quote": "Our central medulla gland",
+        "suggested_fix": "মুদ্রিত উৎসের নির্দিষ্ট পরিচয় বজায় রেখে লিখুন: “আমাদের কেন্দ্রীয় মেডুলা গ্রন্থি”।",
+        "translation_quote": "আমাদের মস্তিষ্কের কেন্দ্রীয় গ্রন্থি"
+      },
+      {
+        "location": "html: paragraph beginning “The tenacious storms”",
+        "severity": "major",
+        "source_quote": "We faithfully launch our prayers upward, but the heavens seem brazenly silent.",
+        "suggested_fix": "লিখুন: “আমরা বিশ্বাসভরে ঊর্ধ্বে প্রার্থনা পাঠাই, কিন্তু স্বর্গ যেন নির্লজ্জভাবে নীরব থাকে।”",
+        "translation_quote": "আমরা আন্তরিকভাবে উপাসনার কাছে আমাদের প্রার্থনা প্রেরণ করি, কিন্তু স্বর্গ উদারভাবে নীরব।"
+      },
+      {
+        "location": "html: paragraph beginning “The tenacious storms”",
+        "severity": "major",
+        "source_quote": "worshippers of Baal, Buddha, and from backsliders",
+        "suggested_fix": "লিখুন: “বালের ও বুদ্ধের উপাসকদের এবং বিশ্বাস থেকে পিছিয়ে পড়া লোকদের ক্ষেত্রে”।",
+        "translation_quote": "বায়াল, বুদ্ধ বা পশ্চাদপদদের কাছ থেকে"
+      },
+      {
+        "location": "html: paragraph beginning “When we are happy”",
+        "severity": "major",
+        "source_quote": "we lean hard upon Him",
+        "suggested_fix": "লিখুন: “আমরা তাঁর ওপর গভীরভাবে নির্ভর করি”।",
+        "translation_quote": "আমরা তাঁকে উপরিভরীভাবে নির্ভর করি"
+      },
+      {
+        "location": "html: ordered list, item 1",
+        "severity": "major",
+        "source_quote": "not because he is in danger, but because he has grossly overestimated his likelihood of falling",
+        "suggested_fix": "সংশ্লিষ্ট বাক্যাংশটি করুন: “তিনি ভীষণভাবে এই ভয়ে বন্দী থাকেন—প্রকৃত বিপদে আছেন বলে নয়, বরং পড়ে যাওয়ার সম্ভাবনাকে অত্যধিক বেশি ধরে নিয়েছেন বলে”।",
+        "translation_quote": "그는 ভীষণভাবে এই ভয়ে বন্দী থাকেন, কারণ তিনি তাঁর পড়ে যাওয়ার সম্ভাবনাকে অত্যাধিক অনুমান করেছেন"
+      },
+      {
+        "location": "html: ordered list, item 4",
+        "severity": "major",
+        "source_quote": "peanut butter stuck to the roof of your mouth",
+        "suggested_fix": "লিখুন: “মুখের তালুতে পিনাট বাটার আটকে যাওয়ার ভয়”।",
+        "translation_quote": "মাড়ির ছাদে মাখন আটকে যাওয়ার ভয়—পিনাট বাটার ঠেকে যাওয়া ভয়"
+      },
+      {
+        "location": "html: paragraph following ordered list",
+        "severity": "major",
+        "source_quote": "dizziness, or light-headedness",
+        "suggested_fix": "লিখুন: “মাথা ঘোরা বা মাথা হালকা লাগা”।",
+        "translation_quote": "মিনিটিক বা হালকা মাথাব্যাথা"
+      },
+      {
+        "location": "html: paragraph following ordered list",
+        "severity": "major",
+        "source_quote": "When we excuse and cater to the preservation of our person",
+        "suggested_fix": "লিখুন: “যখন আমরা নিজেদের সুরক্ষার প্রবৃত্তির পক্ষে অজুহাত দিই এবং তাকে প্রশ্রয় দিই”।",
+        "translation_quote": "যখন আমরা আমাদের ব্যক্তির রক্ষণাবেক্ষণের জন্য ক্ষমা ও মুসাদ করি"
+      },
+      {
+        "location": "html: “Protecting our Property” paragraph",
+        "severity": "major",
+        "source_quote": "the covetous heart",
+        "suggested_fix": "“ঈর্ষাপরায়ণ হৃদয়কে” বদলে “লোভী হৃদয়কে” লিখুন।",
+        "translation_quote": "ঈর্ষাপরায়ণ হৃদয়কে"
+      },
+      {
+        "location": "html: Acts 27:22 quotation",
+        "severity": "major",
+        "source_quote": "to be of good cheer",
+        "suggested_fix": "“উত্তেজিত হইও না” বদলে “সাহস রাখো” লিখুন।",
+        "translation_quote": "উত্তেজিত হইও না"
+      },
+      {
+        "location": "html: “Protecting our Property” paragraph",
+        "severity": "major",
+        "source_quote": "healing balm ... a sordid saga",
+        "suggested_fix": "“আরোগ্য বালি” বদলে “আরোগ্যদায়ক প্রলেপ” এবং “একটি কৌতুককর কাহিনী” বদলে “একটি দুর্দশাময় কাহিনি” লিখুন।",
+        "translation_quote": "আরোগ্য বালি ... একটি কৌতুককর কাহিনী"
+      },
+      {
+        "location": "html: Matthew 19:22 quotation",
+        "severity": "major",
+        "source_quote": "he went away sorrowful",
+        "suggested_fix": "লিখুন: “সে দুঃখিত হয়ে চলে গেল”।",
+        "translation_quote": "সে দুঃখে কেঁদে গেল"
+      },
+      {
+        "location": "html: “Perfecting our Plan” paragraph, opening",
+        "severity": "major",
+        "source_quote": "embark upon some new avenue of ministry",
+        "suggested_fix": "লিখুন: “পরিচর্যার কোনো নতুন পথে যাত্রা শুরু করি”।",
+        "translation_quote": "কোনও নতুন মন্ত্রণালয়ে প্রবেশ করি"
+      },
+      {
+        "location": "html: “Perfecting our Plan” paragraph, Martha narrative",
+        "severity": "major",
+        "source_quote": "Martha’s pulse quickened at the lack of help she was receiving in the kitchen.",
+        "suggested_fix": "লিখুন: “রান্নাঘরে সাহায্য না পাওয়ায় মার্থার হৃদস্পন্দন বেড়ে গেল।” রুটি তৈরির উদ্ভাবিত বিবরণ বাদ দিন।",
+        "translation_quote": "মারথার কোলিপ করা রুটি-পাকশালায় সাহায্যের অভাবে তাঁর স্পন্দন দ্রুত হয়।"
+      },
+      {
+        "location": "html: Luke 10:40 quotation",
+        "severity": "major",
+        "source_quote": "dost thou not care that my sister hath left me to serve alone?",
+        "suggested_fix": "লিখুন: “আমার বোন যে আমাকে একা সেবা করতে রেখে গেছে, তাতে কি আপনার কোনো চিন্তা নেই?”",
+        "translation_quote": "তুমি কি দেখছ না যে আমার বোন আমাকে একা সেবায় রেখে গেল?"
+      },
+      {
+        "location": "html: “Pleasing all People” paragraph",
+        "severity": "major",
+        "source_quote": "There is no ship more fragile than a relationship.",
+        "suggested_fix": "লিখুন: “সম্পর্কের চেয়ে ভঙ্গুর কোনো জাহাজ নেই।”",
+        "translation_quote": "কোনো সম্পর্কই জাহাজের চেয়েও নাজুক নয়।"
+      },
+      {
+        "location": "html: “Pleasing all People” paragraph",
+        "severity": "major",
+        "source_quote": "their peers",
+        "suggested_fix": "সম্পূর্ণ বাক্যটি করুন: “তাদের সমপর্যায়ের মানুষদের মতোই পোশাক পরতে, আচরণ করতে, কথা বলতে এবং জীবনযাপন করতে হবে।”",
+        "translation_quote": "তাদেরকে তাদের সহপাঠী সব রকমের পোশাক পরতে, যেমন আচরণ করতে, যেমন কথা বলতে, এবং যেমন জীবন যাপন করতে হবে।"
+      },
+      {
+        "location": "html: final Scripture reference",
+        "severity": "minor",
+        "source_quote": "Hebrews 4:9-11",
+        "suggested_fix": "প্রচলিত বাংলা পুস্তকনাম ব্যবহার করে লিখুন: “ইব্রীয় 4:9-11”।",
+        "translation_quote": "হেব্রুই 4:9-11"
+      }
+    ],
+    "findings_complete": false,
+    "passed": false,
+    "score": 48
+  }
+}
