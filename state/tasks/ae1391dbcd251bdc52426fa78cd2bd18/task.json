@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "aa8e04fd6efc46959f42da9aa5899a34",
   "campaign": "auto-ae28211d540cd1a48c48c0a9acc9b31f93e6e108227e8ff0ef17c0f8396dcf25",
   "created_at": "2026-11-13T00:23:52+00:00",
   "events": [
@@ -68,25 +67,31 @@
         },
         "total_tokens": 17738
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 863,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 825,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 11985,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 11982,
+          "cached_tokens": 0
+        },
+        "total_tokens": 12848
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "HTML, Absatz beginnend „Wenn die Eltern der jungen Frau Klarheit haben …“",
-      "severity": "major",
-      "source_quote": "“Her parents share his request with her.”",
-      "suggested_fix": "Ihre Eltern teilen ihr seine Bitte mit.",
-      "translation_quote": "„Ihre Eltern teilen ihr seine Bitte mit.“"
-    },
-    {
-      "location": "HTML, Absatz beginnend „Wenn die Eltern der jungen Frau Klarheit haben …“",
-      "severity": "major",
-      "source_quote": "“Then present her with his answers to those questions and his request to start a courtship.”",
-      "suggested_fix": "Legt ihr dann seine Antworten auf diese Fragen und seine Bitte, eine Kennenlernzeit zu beginnen, vor.",
-      "translation_quote": "„Legt ihr dann seine Antworten auf diese Fragen und seine Bitte, eine Kennenlernzeit zu beginnen, vor.“"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-11-14T23:27:59+00:00",
   "id": "ae1391dbcd251bdc52426fa78cd2bd18",
   "issue_id": "103c93e0-6e9a-44f6-a6bc-377af8e08e38",
   "language": "deu",
@@ -175,7 +180,7 @@
     }
   },
   "protected": false,
-  "quality_score": 91,
+  "quality_score": 99,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
@@ -195,7 +200,7 @@
     "total_reserved_usd": 0.09212,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "168a1108b0cb584118665d0d4048559fb86bb1444e057e3646ac49c743cf2917",
   "translation_model_actual": "gpt-6-luna"
