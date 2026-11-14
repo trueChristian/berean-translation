@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "HTML, parágrafo sobre o acidente ferroviário",
+      "severity": "major",
+      "source_quote": "“plunging eleven passenger cars seventy-five feet down into the ravine”",
+      "suggested_fix": "Replace “cerca de 23 metros ravina abaixo” with “cerca de 23 metros abaixo, na ravina” (or “a uma ravina, cerca de 23 metros abaixo”), preserving the stated distance and the destination.",
+      "translation_quote": "“lançando onze vagões de passageiros cerca de 23 metros ravina abaixo, nas águas geladas”"
+    },
+    {
+      "location": "HTML, parágrafo sobre a morte de Bliss",
+      "severity": "major",
+      "source_quote": "“the fire spread and eventually consumed them”",
+      "suggested_fix": "Replace “o fogo se alastrava e, por fim, os consumia” with “o fogo se alastrava e, por fim, consumiu os dois” to make clear the fire consumed Bliss and his wife.",
+      "translation_quote": "“o fogo se alastrava e, por fim, os consumia”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

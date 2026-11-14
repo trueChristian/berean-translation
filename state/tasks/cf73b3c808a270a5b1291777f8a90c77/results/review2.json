@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "78bffaf5-0e4d-45ae-8095-5d90ecfc4f7e",
+    "response_id": "chatcmpl-EkGQNQ1qcTDOXNeoMIaWJdzSmzG0H",
+    "usage": {
+      "completion_tokens": 241,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7398,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7395,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7639
+    }
+  },
+  "received_at": "2026-11-14T23:28:20+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, parágrafo sobre o acidente ferroviário",
+        "severity": "major",
+        "source_quote": "“plunging eleven passenger cars seventy-five feet down into the ravine”",
+        "suggested_fix": "Replace “cerca de 23 metros ravina abaixo” with “cerca de 23 metros abaixo, na ravina” (or “a uma ravina, cerca de 23 metros abaixo”), preserving the stated distance and the destination.",
+        "translation_quote": "“lançando onze vagões de passageiros cerca de 23 metros ravina abaixo, nas águas geladas”"
+      },
+      {
+        "location": "HTML, parágrafo sobre a morte de Bliss",
+        "severity": "major",
+        "source_quote": "“the fire spread and eventually consumed them”",
+        "suggested_fix": "Replace “o fogo se alastrava e, por fim, os consumia” with “o fogo se alastrava e, por fim, consumiu os dois” to make clear the fire consumed Bliss and his wife.",
+        "translation_quote": "“o fogo se alastrava e, por fim, os consumia”"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 92
+  }
+}

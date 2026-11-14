@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-14T23:28:20+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, parágrafo sobre o acidente ferroviário\",\"severity\":\"major\",\"source_quote\":\"“plunging eleven passenger cars seventy-five feet down into the ravine”\",\"suggested_fix\":\"Replace “cerca de 23 metros ravina abaixo” with “cerca de 23 metros abaixo, na ravina” (or “a uma ravina, cerca de 23 metros abaixo”), preserving the stated distance and the destination.\",\"translation_quote\":\"“lançando onze vagões de passageiros cerca de 23 metros ravina abaixo, nas águas geladas”\"},{\"location\":\"HTML, parágrafo sobre a morte de Bliss\",\"severity\":\"major\",\"source_quote\":\"“the fire spread and eventually consumed them”\",\"suggested_fix\":\"Replace “o fogo se alastrava e, por fim, os consumia” with “o fogo se alastrava e, por fim, consumiu os dois” to make clear the fire consumed Bliss and his wife.\",\"translation_quote\":\"“o fogo se alastrava e, por fim, os consumia”\"}],\"findings_complete\":true,\"passed\":false,\"score\":92}",
+    "content_bytes": 977,
+    "content_evidence_truncated": false,
+    "content_sha256": "f38b92d083409c9db863887cd93a4338704facbc3030d4199b8d07b56f998f27",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 241,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7398,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7395,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7639
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}
