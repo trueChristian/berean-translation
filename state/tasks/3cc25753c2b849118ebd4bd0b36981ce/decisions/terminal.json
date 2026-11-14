@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraph beginning “Now, Dad makes the phone call…”",
+      "severity": "major",
+      "source_quote": "“He may have gotten the blessing of his ministry.”",
+      "suggested_fix": "“ممکن ہے اسے اپنی کلیسیائی خدمت کی برکت بھی حاصل ہو۔”",
+      "translation_quote": "“ممکن ہے اسے اپنی خدمت گاہ کی برکت بھی حاصل ہو۔”"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; a recovery continuation must pass admission",
+  "stage": "terminal"
+}

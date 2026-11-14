@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-14T17:18:21+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, paragraph beginning “Now, Dad makes the phone call…”\",\"severity\":\"major\",\"source_quote\":\"“He may have gotten the blessing of his ministry.”\",\"suggested_fix\":\"“ممکن ہے اسے اپنی کلیسیائی خدمت کی برکت بھی حاصل ہو۔”\",\"translation_quote\":\"“ممکن ہے اسے اپنی خدمت گاہ کی برکت بھی حاصل ہو۔”\"}],\"findings_complete\":true,\"passed\":false,\"score\":93}",
+    "content_bytes": 464,
+    "content_evidence_truncated": false,
+    "content_sha256": "dffca57c00d64f6333ebd253a2724f65ad519b734069f1599ddc1abdaa2f661c",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1058,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 940,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 12898,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 11795,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 13956
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}
