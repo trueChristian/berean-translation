@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-14T10:32:57+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraf tentang awal masa pertunangan\",\"severity\":\"major\",\"source_quote\":\"“The engagement period begins when he asks the question, ‘Will you marry me?’ and she says, ‘Yes, I will.’”\",\"suggested_fix\":\"“Masa pertunangan dimulai ketika sang pemuda mengajukan pertanyaan, ‘Maukah kamu menikah denganku?’ dan sang pemudi menjawab, ‘Ya, aku mau.’”\",\"translation_quote\":\"“Masa pertunangan dimulai ketika sang pemuda mengajukan pertanyaan, ‘Maukah kamu menikah denganku?’ dan sang pemudi menjawab, ‘Ya, aku mau.’”\"},{\"location\":\"Paragraf kutipan Matius 19:3-10\",\"severity\":\"major\",\"source_quote\":\"“And whoso marrieth her which is put away doth commit adultery.”\",\"suggested_fix\":\"Tambahkan setelah kalimat tentang orang yang menceraikan istrinya dan menikah lagi: “dan siapa yang menikahi perempuan yang telah diceraikan itu berbuat zina.”\",\"translation_quote\":\"Kutipan hanya menyebut orang yang menceraikan istrinya lalu menikah dengan perempuan lain; bagian tentang orang yang menikahi perempuan yang telah diceraikan tidak ada.\"},{\"location\":\"Paragraf kutipan Matius 19:3-10\",\"severity\":\"major\",\"source_quote\":\"“If the case of the man be so with his wife, it is not good to marry”\",\"suggested_fix\":\"Ganti bagian akhir kutipan dengan: “Jika demikian halnya hubungan antara seorang laki-laki dengan istrinya, lebih baik jangan kawin.”\",\"translation_quote\":\"“Jika demikian halnya hubungan antara suami dan istri, lebih baik jangan kawin”\"},{\"location\":\"Paragraf tentang izin menulis kepada sang pemudi\",\"severity\":\"major\",\"source_quote\":\"“they give him permission to write her asking to start a courtship.”\",\"suggested_fix\":\"“mereka memberi izin kepadanya untuk menulis surat kepada sang pemudi, meminta untuk memulai masa pendekatan.”\",\"translation_quote\":\"“mereka memberi izin kepadanya untuk menulis surat kepada sang pemudi dan bertanya apakah ia bersedia memulai masa pendekatan.”\"},{\"location\":\"Paragraf tentang persiapan pernikahan, kalimat terakhir\",\"severity\":\"major\",\"source_quote\":\"“Your wedding may influence others with troubled marriages to find answers and turn their hearts back to God.”\",\"suggested_fix\":\"“Pernikahan kalian mungkin dapat memengaruhi orang lain yang pernikahannya bermasalah untuk menemukan jawaban dan mengarahkan kembali hati mereka kepada Allah.”\",\"translation_quote\":\"“Pernikahan kalian mungkin dapat memengaruhi orang lain yang pernikahannya bermasalah untuk menemukan jawaban dan mengembalikan hati mereka kepada Allah.”\"},{\"location\":\"Paragraf tentang doa untuk hari pernikahan\",\"severity\":\"minor\",\"source_quote\":\"“Go after it as if it were gold.”\",\"suggested_fix\":\"“Upayakanlah itu seolah-olah emas.”\",\"translation_quote\":\"“Kejarlah itu seolah-olah emas.”\"},{\"location\":\"Paragraf tentang hati sang pemudi menjelang pernikahan\",\"severity\":\"major\",\"source_quote\":\"“She has a natural instinct from God to be his helpmeet.”\",\"suggested_fix\":\"“Allah telah memberinya naluri alami untuk menjadi penolong bagi sang pemuda.”\",\"translation_quote\":\"“Allah telah memberinya naluri alami untuk menjadi penolong bagi sang pemuda.”\"},{\"location\":\"Paragraf penutup yang dicetak tebal\",\"severity\":\"major\",\"source_quote\":\"“God longs to bless you as you leave your wedding day.”\",\"suggested_fix\":\"“Allah rindu memberkati kalian saat kalian meninggalkan hari pernikahan.”\",\"translation_quote\":\"“Allah rindu memberkati kalian saat kalian meninggalkan hari pernikahan.”\"}],\"findings_complete\":true,\"passed\":false,\"score\":91}",
+    "content_bytes": 3579,
+    "content_evidence_truncated": false,
+    "content_sha256": "2d0274c456099f0da4c23db216ac19b3f1ba341aa9863e9ca6f6733264d55a92",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 836,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 12157,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 12154,
+        "cached_tokens": 0
+      },
+      "total_tokens": 12993
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}
