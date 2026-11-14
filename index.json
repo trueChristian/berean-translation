@@ -60307,6 +60307,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/kor/articles/324b0fa1-c057-471e-8e90-8eb699e8285a.html",
+      "html_sha256": "2276164148f9003a5941527454cc88d447cb47ff463fcc0516d55721febce2fc",
+      "human_reviewed": false,
+      "id": "324b0fa1-c057-471e-8e90-8eb699e8285a",
+      "images": [
+        {
+          "alt": "커튼이 드리워진 창가에 펼쳐진 성경과 화분에 심긴 초록 식물.",
+          "public_path": "/images/articles/324b0fa1-c057-471e-8e90-8eb699e8285a-1.jpg"
+        },
+        {
+          "alt": "부드럽게 흐릿한 배경을 뒤로하고 나뭇가지에 맺힌 붉은 새싹들.",
+          "public_path": "/images/articles/324b0fa1-c057-471e-8e90-8eb699e8285a-2.jpg"
+        }
+      ],
+      "issue_id": "103c93e0-6e9a-44f6-a6bc-377af8e08e38",
+      "language": "kor",
+      "language_tag": "ko",
+      "metadata": "content/kor/articles/324b0fa1-c057-471e-8e90-8eb699e8285a.json",
+      "metadata_sha256": "eb2576e9d621ab1cd02a89c42ede2ff956c86e1fa8b9e801d537b753785c8457",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": null,
+      "source_revision": "bcb4169f4e852e7a2cc4c3beb402fbfef313a0df",
+      "source_translation_key": "ffc57a5aa833a4ec2481350c59b2f0532517af685342cc26f3ca07aadfae2d52",
+      "status": "ready",
+      "subtitle": "정서적 위기 속에서 평안을 찾기",
+      "title": "예수 그리스도, 깨어진 인류의 해답",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/kor/articles/33d9d1e5-4428-473d-9549-730d3d980dca.html",
       "html_sha256": "3215a614a926c07fe0fb32563de1a566daefea04e0d887213d16afce37539b2e",
       "human_reviewed": false,

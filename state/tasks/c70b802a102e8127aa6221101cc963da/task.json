@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "4fd89d2ddd5c4a9a939976431f19f455",
   "campaign": "auto-2f020d15c69c636f405875749bcfe315b9163559a69248102b6abe1c3d496d75",
   "created_at": "2026-11-14T01:43:58+00:00",
   "events": [
@@ -28,25 +27,31 @@
         },
         "total_tokens": 14952
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 105,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 73,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9679,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8576,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 9784
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "「그리스도로 충만한 삶을 지키기」 섹션, 두 번째 문단",
-      "severity": "major",
-      "source_quote": "The new birth is an entrance into the kingdom of heaven here on this earth.",
-      "suggested_fix": "거듭남은 이 땅에서 하늘나라에 들어가는 것이 아니라, 이 땅에서 하늘나라의 왕국에 들어가는 것입니다.",
-      "translation_quote": "거듭남은 이 땅에서 하늘나라로 들어가는 일입니다."
-    },
-    {
-      "location": "「믿음으로 믿으라」 섹션, 사도행전 16:30-31 인용문",
-      "severity": "major",
-      "source_quote": "“And brought them out, and said, Sirs, what must I do to be saved? And they said, Believe on the Lord Jesus Christ, and thou shalt be saved . . .”",
-      "suggested_fix": "인용문을 원문처럼 생략 부호로 끝내십시오. 예: “그들을 데리고 나와 이르되 선생들이여 내가 어떻게 하여야 구원을 받으리이까 하거늘 그들이 이르되 주 예수 그리스도를 믿으라. 그리하면 구원을 받으리라 …”(사도행전 16:30-31).",
-      "translation_quote": "“그들을 데리고 나와 이르되 선생들이여 내가 어떻게 하여야 구원을 받으리이까 하거늘 그들이 이르되 주 예수 그리스도를 믿으라. 그리하면 너와 네 집이 구원을 받으리라 하고 …”(사도행전 16:30-31)."
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-11-14T03:39:28+00:00",
   "id": "c70b802a102e8127aa6221101cc963da",
   "issue_id": "103c93e0-6e9a-44f6-a6bc-377af8e08e38",
   "language": "kor",
@@ -135,9 +140,11 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/5b1aeee8b40e793c45a2a3770a1c06b2fe0e561ac70bf486512b9c698d801883.json",
   "stage": "review2",
   "stage_budget": {
@@ -151,7 +158,7 @@
     "total_reserved_usd": 0.595801,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "ffc57a5aa833a4ec2481350c59b2f0532517af685342cc26f3ca07aadfae2d52",
   "translation_model_actual": "gpt-6.1-sol"
