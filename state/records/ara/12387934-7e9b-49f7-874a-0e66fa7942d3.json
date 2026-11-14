@@ -7,6 +7,12 @@
       "event": "automatic_requested",
       "previous_task": null,
       "task": "8d24353ad8e1479d8afc9e990535b14d"
+    },
+    {
+      "at": "2026-11-14T01:42:08+00:00",
+      "event": "not_ready",
+      "reason": "Final review failed; a recovery continuation must pass admission",
+      "task": "8d24353ad8e1479d8afc9e990535b14d"
     }
   ],
   "language": "ara",

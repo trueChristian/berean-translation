@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Section “1. Hands-off Courtship,” Scripture quotation (1 Corinthians 7:1-2)",
+      "severity": "major",
+      "source_quote": "“Nevertheless, to avoid fornication, let every man have his own wife, and let every woman have her own husband”",
+      "suggested_fix": "Replace «ولكن لسبب الزنى» with «ولكن لتجنب الزنى» so the quotation conveys avoiding fornication, rather than acting because of it.",
+      "translation_quote": "«ولكن لسبب الزنى، ليكن لكل واحد امرأته، وليكن لكل واحدة رجلها»"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; a recovery continuation must pass admission",
+  "stage": "terminal"
+}
