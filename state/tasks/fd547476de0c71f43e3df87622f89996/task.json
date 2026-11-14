@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "06a115142ad54e41aadea6bea3532195",
   "campaign": "auto-8c407d89073f034daafae265375ef4b7ae758c4ed446ffa044d6e894e5577085",
   "created_at": "2026-11-14T17:21:05+00:00",
   "events": [
@@ -68,18 +67,39 @@
         },
         "total_tokens": 11381
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 626,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 506,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7782,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 6679,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 8408
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "الفقرة الأولى، اقتباس الخروج 10:21-23",
-      "severity": "major",
-      "source_quote": "“that there may be darkness over the land of Egypt, even darkness which may be felt.”",
-      "suggested_fix": "استبدل «فيكون ظلام على أرض مصر، حتى يُلمس الظلام» بـ«فيكون ظلام على أرض مصر، ظلامًا يمكن الإحساس به».",
-      "translation_quote": "«فيكون ظلام على أرض مصر، حتى يُلمس الظلام»"
+      "location": "الفقرة التي تبدأ بـ«بعد نحو خمس سنوات»",
+      "severity": "minor",
+      "source_quote": "The hymn writer was uncertain if this was God’s will for him.",
+      "suggested_fix": "ولم يكن كاتب الترانيم واثقًا من أن هذه مشيئة الله له.",
+      "translation_quote": "ولم يكن كاتب الترانيم واثقًا من أن هذا هو مشيئة الله له."
     }
   ],
+  "finished_at": "2026-11-14T23:28:27+00:00",
   "id": "fd547476de0c71f43e3df87622f89996",
   "issue_id": "103c93e0-6e9a-44f6-a6bc-377af8e08e38",
   "language": "ara",
@@ -168,7 +188,7 @@
     }
   },
   "protected": false,
-  "quality_score": 93,
+  "quality_score": 99,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
@@ -188,7 +208,7 @@
     "total_reserved_usd": 0.089464,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "24f89250b05cd303e73c3df869edd19f173aa57a9d0a95bd0580196d7fe3e789",
   "translation_model_actual": "gpt-6-luna"

@@ -9871,6 +9871,42 @@
     {
       "ai_notice_required": true,
       "direction": "rtl",
+      "html": "content/ara/articles/b649c2a3-20b1-4e02-9204-6285b234f34f.html",
+      "html_sha256": "df7e5afe97614c22b314444f1adf978c57379a90fd3a21520b9ed8a85b1e662e",
+      "human_reviewed": false,
+      "id": "b649c2a3-20b1-4e02-9204-6285b234f34f",
+      "images": [
+        {
+          "alt": "صورة لفيليب ب. بليس.",
+          "public_path": "/images/articles/b649c2a3-20b1-4e02-9204-6285b234f34f-1.jpg"
+        },
+        {
+          "alt": "أزهار بنفسجية باهتة بين أوراق خضراء.",
+          "public_path": "/images/articles/b649c2a3-20b1-4e02-9204-6285b234f34f-2.jpg"
+        },
+        {
+          "alt": "النوتة الموسيقية المطبوعة كاملة لترنيمة نور العالم هو يسوع.",
+          "public_path": "/images/articles/b649c2a3-20b1-4e02-9204-6285b234f34f-3.png"
+        }
+      ],
+      "issue_id": "103c93e0-6e9a-44f6-a6bc-377af8e08e38",
+      "language": "ara",
+      "language_tag": "ar",
+      "metadata": "content/ara/articles/b649c2a3-20b1-4e02-9204-6285b234f34f.json",
+      "metadata_sha256": "9a011fbb5cd86918afce5cd9d88b94f77430bd2d5154df23ec62ca05877b5641",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "تاريخ الترانيم",
+      "source_revision": "ccefc5a5c3d79409cc78319f94b5490718d30670",
+      "source_translation_key": "24f89250b05cd303e73c3df869edd19f173aa57a9d0a95bd0580196d7fe3e789",
+      "status": "ready",
+      "subtitle": null,
+      "title": "نور العالم هو يسوع",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
       "html": "content/ara/articles/b72ea42a-1a86-4c21-a399-ebd3013c257b.html",
       "html_sha256": "fc91e100e7684a8e3d3e623bbaf71ca6b31c6af95ca013296098c15f8e0cfe16",
       "human_reviewed": false,

@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "الفقرة التي تبدأ بـ«بعد نحو خمس سنوات»",
+      "severity": "minor",
+      "source_quote": "The hymn writer was uncertain if this was God’s will for him.",
+      "suggested_fix": "ولم يكن كاتب الترانيم واثقًا من أن هذه مشيئة الله له.",
+      "translation_quote": "ولم يكن كاتب الترانيم واثقًا من أن هذا هو مشيئة الله له."
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}
