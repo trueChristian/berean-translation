@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "de918f4a-4320-465b-a078-b26cf2766880",
+    "response_id": "chatcmpl-EkGPcVyxj1In8yNhP3IgOmpHm2ihb",
+    "usage": {
+      "completion_tokens": 386,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 124,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8151,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7048,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 8537
+    }
+  },
+  "received_at": "2026-11-14T23:28:24+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "translation.html, aya inayonukuu Zaburi 78:29-31",
+        "severity": "major",
+        "source_quote": "They were not estranged from their lust. ... and smote down the chosen men of Israel",
+        "suggested_fix": "Badili “Hawakuwa wageni wa tamaa yao” kuwa “Walikuwa bado hawajaachana na tamaa yao”, na “na vijana wa Israeli akawaangusha” kuwa “na wanaume wateule wa Israeli akawaangusha”. Hifadhi lebo za HTML na rejeo lililopo.",
+        "translation_quote": "Hawakuwa wageni wa tamaa yao. ... na vijana wa Israeli akawaangusha"
+      },
+      {
+        "location": "translation.html, aya kuhusu marafiki na shinikizo la marika",
+        "severity": "minor",
+        "source_quote": "We need others to help us see our blind spots.",
+        "suggested_fix": "Badili sentensi hiyo kuwa “Tunahitaji wengine watusaidie kutambua udhaifu wetu ambao sisi wenyewe hatuuoni.”",
+        "translation_quote": "Tunahitaji wengine watusaidie kuona maeneo yetu yasiyoonekana."
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 94
+  }
+}

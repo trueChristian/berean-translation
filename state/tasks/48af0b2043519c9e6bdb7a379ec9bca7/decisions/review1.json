@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "translation.html, aya inayonukuu Zaburi 78:29-31",
+      "severity": "major",
+      "source_quote": "They were not estranged from their lust. ... and smote down the chosen men of Israel",
+      "suggested_fix": "Badili “Hawakuwa wageni wa tamaa yao” kuwa “Walikuwa bado hawajaachana na tamaa yao”, na “na vijana wa Israeli akawaangusha” kuwa “na wanaume wateule wa Israeli akawaangusha”. Hifadhi lebo za HTML na rejeo lililopo.",
+      "translation_quote": "Hawakuwa wageni wa tamaa yao. ... na vijana wa Israeli akawaangusha"
+    },
+    {
+      "location": "translation.html, aya kuhusu marafiki na shinikizo la marika",
+      "severity": "minor",
+      "source_quote": "We need others to help us see our blind spots.",
+      "suggested_fix": "Badili sentensi hiyo kuwa “Tunahitaji wengine watusaidie kutambua udhaifu wetu ambao sisi wenyewe hatuuoni.”",
+      "translation_quote": "Tunahitaji wengine watusaidie kuona maeneo yetu yasiyoonekana."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
