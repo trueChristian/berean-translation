@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-14T08:07:51+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, Absatz beginnend „Wenn die Eltern der jungen Frau Klarheit haben …“\",\"severity\":\"major\",\"source_quote\":\"“Her parents share his request with her.”\",\"suggested_fix\":\"Ihre Eltern teilen ihr seine Bitte mit.\",\"translation_quote\":\"„Ihre Eltern teilen ihr seine Bitte mit.“\"},{\"location\":\"HTML, Absatz beginnend „Wenn die Eltern der jungen Frau Klarheit haben …“\",\"severity\":\"major\",\"source_quote\":\"“Then present her with his answers to those questions and his request to start a courtship.”\",\"suggested_fix\":\"Legt ihr dann seine Antworten auf diese Fragen und seine Bitte, eine Kennenlernzeit zu beginnen, vor.\",\"translation_quote\":\"„Legt ihr dann seine Antworten auf diese Fragen und seine Bitte, eine Kennenlernzeit zu beginnen, vor.“\"}],\"findings_complete\":true,\"passed\":false,\"score\":91}",
+    "content_bytes": 846,
+    "content_evidence_truncated": false,
+    "content_sha256": "2ef462364a081e2da376d9f6966e16229f4a878b9bd391898ded934f5f91ede6",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 193,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 11990,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 11987,
+        "cached_tokens": 0
+      },
+      "total_tokens": 12183
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}
