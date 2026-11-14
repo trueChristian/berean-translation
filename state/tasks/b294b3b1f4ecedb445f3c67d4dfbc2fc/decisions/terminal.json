@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, final paragraph before the source note",
+      "severity": "minor",
+      "source_quote": "India’s spiritual darkness caused by heathenism in the hearts of her benighted millions",
+      "suggested_fix": "भारत के अनगिनत अंधकारग्रस्त लोगों के हृदयों में मूर्तिपूजा के कारण छाया आध्यात्मिक अंधकार",
+      "translation_quote": "भारत के अनगिनत अंधकारग्रस्त लोगों के हृदयों में विधर्म के कारण छाया आध्यात्मिक अंधकार"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}
