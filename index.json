@@ -59815,6 +59815,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/kor/articles/12387934-7e9b-49f7-874a-0e66fa7942d3.html",
+      "html_sha256": "9a9b159e7474df725d4a94d57d145c41d729864b7cb6b5c0f7928c80a5ea1020",
+      "human_reviewed": false,
+      "id": "12387934-7e9b-49f7-874a-0e66fa7942d3",
+      "images": [
+        {
+          "alt": "폭포를 마주한 바위 위에 함께 앉아 있는 한 쌍.",
+          "public_path": "/images/articles/12387934-7e9b-49f7-874a-0e66fa7942d3-1.jpg"
+        },
+        {
+          "alt": "길을 따라 손을 맞잡고 걷는 신부와 신랑.",
+          "public_path": "/images/articles/12387934-7e9b-49f7-874a-0e66fa7942d3-2.jpg"
+        }
+      ],
+      "issue_id": "103c93e0-6e9a-44f6-a6bc-377af8e08e38",
+      "language": "kor",
+      "language_tag": "ko",
+      "metadata": "content/kor/articles/12387934-7e9b-49f7-874a-0e66fa7942d3.json",
+      "metadata_sha256": "bfa972022937676fe922cebb60e3d45a2bcf9af9a05c1e602138858b093ecea9",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "청년을 위한 영감",
+      "source_revision": "ccefc5a5c3d79409cc78319f94b5490718d30670",
+      "source_translation_key": "168a1108b0cb584118665d0d4048559fb86bb1444e057e3646ac49c743cf2917",
+      "status": "ready",
+      "subtitle": null,
+      "title": "그리스도 중심의 구애 과정",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/kor/articles/15567d7e-1146-48d9-9b34-a0f770ca06fc.html",
       "html_sha256": "d7f76847b8ca968f57ad069b3267fbcab9d7bb320bd15b8eb1d8f45d4df2b8b9",
       "human_reviewed": false,

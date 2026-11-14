@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, guideline 1, Scripture quotation (1 Corinthians 7:1-2)",
+      "severity": "minor",
+      "source_quote": "“Now concerning the things whereof ye wrote unto me:”",
+      "suggested_fix": "“너희가 내게 쓴 것에 관하여는”",
+      "translation_quote": "“너희의 쓴 말에 대하여는”"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

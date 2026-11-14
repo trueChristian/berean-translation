@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "b35d52330e1e4b6892adbacc428839c2",
   "campaign": "auto-4419926f9d90c6f1176cb3c9547d87a0d56e20d16b4d3c67a8d43f2927357ff5",
   "created_at": "2026-11-13T07:11:43+00:00",
   "events": [
@@ -68,18 +67,39 @@
         },
         "total_tokens": 18603
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 964,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 850,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 12452,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 12449,
+          "cached_tokens": 0
+        },
+        "total_tokens": 13416
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "마태복음 19:3-10 인용문",
-      "severity": "major",
-      "source_quote": "“...and whoso marrieth her which is put away doth commit adultery. His disciples say unto him...”",
-      "suggested_fix": "“...다른 데 장가드는 자는 간음함이니라 버림받은 여자와 결혼하는 자도 간음하는 것이니라 제자들이...”처럼 빠진 문장을 삽입하십시오.",
-      "translation_quote": "“...다른 데 장가드는 자는 간음함이니라 제자들이 가로되...”"
+      "location": "HTML, guideline 1, Scripture quotation (1 Corinthians 7:1-2)",
+      "severity": "minor",
+      "source_quote": "“Now concerning the things whereof ye wrote unto me:”",
+      "suggested_fix": "“너희가 내게 쓴 것에 관하여는”",
+      "translation_quote": "“너희의 쓴 말에 대하여는”"
     }
   ],
+  "finished_at": "2026-11-14T11:03:05+00:00",
   "id": "5308ddf23052f3d56ff212fc810809de",
   "issue_id": "103c93e0-6e9a-44f6-a6bc-377af8e08e38",
   "language": "kor",
@@ -168,7 +188,7 @@
     }
   },
   "protected": false,
-  "quality_score": 93,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
@@ -188,7 +208,7 @@
     "total_reserved_usd": 0.09213,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "168a1108b0cb584118665d0d4048559fb86bb1444e057e3646ac49c743cf2917",
   "translation_model_actual": "gpt-6-luna"

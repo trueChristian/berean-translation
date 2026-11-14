@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-14T11:03:05+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, guideline 1, Scripture quotation (1 Corinthians 7:1-2)\",\"severity\":\"minor\",\"source_quote\":\"“Now concerning the things whereof ye wrote unto me:”\",\"suggested_fix\":\"“너희가 내게 쓴 것에 관하여는”\",\"translation_quote\":\"“너희의 쓴 말에 대하여는”\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 361,
+    "content_evidence_truncated": false,
+    "content_sha256": "3845c3b9777fdc7bdb0efedf7fa902780143f6a4d2e16fc444ed5e6b9e9b280f",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 964,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 850,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 12452,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 12449,
+        "cached_tokens": 0
+      },
+      "total_tokens": 13416
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}
