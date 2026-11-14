@@ -5,11 +5,47 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "b9fcf3b487874177a28f508ef5fcfb91",
   "campaign": "auto-76e06acec4644aad371a81bb398df8e564174af624d1b8dc03874d298b95ab68",
   "created_at": "2026-11-14T08:12:42+00:00",
-  "events": [],
-  "findings": [],
+  "events": [
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 338,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 62,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7912,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 6809,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 8250
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "html: فقرة بيانات صندوق النقد الدولي",
+      "severity": "major",
+      "source_quote": "the median global GDP dropped by 3.9%",
+      "suggested_fix": "استبدال «متوسط الناتج المحلي الإجمالي العالمي» بـ«القيمة الوسيطة للناتج المحلي الإجمالي عالميًا».",
+      "translation_quote": "متوسط الناتج المحلي الإجمالي العالمي انخفض بنسبة 3.9%"
+    },
+    {
+      "location": "html: الفقرة التي تبدأ بـ«من الأمور المحددة التي أود التركيز عليها»",
+      "severity": "major",
+      "source_quote": "within the plain communities",
+      "suggested_fix": "استبدال «مجتمعات الأنابابتست السهلية» بـ«الجماعات المسيحية التي تتبع نمط العيش واللباس البسيط». فكلمة plain هنا تصف تقليد البساطة الديني، لا السكن في السهول.",
+      "translation_quote": "في مجتمعات الأنابابتست السهلية"
+    }
+  ],
   "id": "b9d791172d4e452ad7a892b573ecb33c",
   "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
   "language": "ara",
@@ -98,11 +134,13 @@
     }
   },
   "protected": false,
+  "quality_score": 94,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/a7ad1a6227f1cfa9e94538c9ab0eb21a71e9737ee9313da4c0a13a0a14896dbc.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "review1",
     "max_candidate_bytes": 120000,
@@ -115,7 +153,7 @@
     "total_reserved_usd": 0.762883,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 0,
   "translation_key": "e0622a8bb1c0f31a62af348bbcdf1a1da1d53e0d8f3f815cb4fd5567f07e197c",
   "translation_model_actual": "gpt-6-luna"

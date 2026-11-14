@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "3c7f4c0f-12e8-45de-9557-1c32c5a3b6fe",
+    "response_id": "chatcmpl-Ek5VO95ukNEXw7HIXHISmZNocrlC8",
+    "usage": {
+      "completion_tokens": 338,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 62,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7912,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6809,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 8250
+    }
+  },
+  "received_at": "2026-11-14T10:47:56+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "html: فقرة بيانات صندوق النقد الدولي",
+        "severity": "major",
+        "source_quote": "the median global GDP dropped by 3.9%",
+        "suggested_fix": "استبدال «متوسط الناتج المحلي الإجمالي العالمي» بـ«القيمة الوسيطة للناتج المحلي الإجمالي عالميًا».",
+        "translation_quote": "متوسط الناتج المحلي الإجمالي العالمي انخفض بنسبة 3.9%"
+      },
+      {
+        "location": "html: الفقرة التي تبدأ بـ«من الأمور المحددة التي أود التركيز عليها»",
+        "severity": "major",
+        "source_quote": "within the plain communities",
+        "suggested_fix": "استبدال «مجتمعات الأنابابتست السهلية» بـ«الجماعات المسيحية التي تتبع نمط العيش واللباس البسيط». فكلمة plain هنا تصف تقليد البساطة الديني، لا السكن في السهول.",
+        "translation_quote": "في مجتمعات الأنابابتست السهلية"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 94
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-14T10:47:56+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"html: فقرة بيانات صندوق النقد الدولي\",\n      \"severity\": \"major\",\n      \"source_quote\": \"the median global GDP dropped by 3.9%\",\n      \"suggested_fix\": \"استبدال «متوسط الناتج المحلي الإجمالي العالمي» بـ«القيمة الوسيطة للناتج المحلي الإجمالي عالميًا».\",\n      \"translation_quote\": \"متوسط الناتج المحلي الإجمالي العالمي انخفض بنسبة 3.9%\"\n    },\n    {\n      \"location\": \"html: الفقرة التي تبدأ بـ«من الأمور المحددة التي أود التركيز عليها»\",\n      \"severity\": \"major\",\n      \"source_quote\": \"within the plain communities\",\n      \"suggested_fix\": \"استبدال «مجتمعات الأنابابتست السهلية» بـ«الجماعات المسيحية التي تتبع نمط العيش واللباس البسيط». فكلمة plain هنا تصف تقليد البساطة الديني، لا السكن في السهول.\",\n      \"translation_quote\": \"في مجتمعات الأنابابتست السهلية\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": false,\n  \"score\": 94\n}",
+    "content_bytes": 1240,
+    "content_evidence_truncated": false,
+    "content_sha256": "1b4a41df77c69631cbe3945c09c50684b6cb4946f66ac05e16ba98e863b82db4",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 338,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 62,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7912,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6809,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 8250
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}
