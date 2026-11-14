@@ -1,0 +1,108 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "385e4fb2-e0c6-4c03-8f9b-ab42932b9ad6",
+    "response_id": "chatcmpl-EkBZgRPyp0r8s7mCIbyFuJwuCG3sS",
+    "usage": {
+      "completion_tokens": 4213,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 107,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 10063,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 10060,
+        "cached_tokens": 0
+      },
+      "total_tokens": 14276
+    }
+  },
+  "received_at": "2026-11-14T17:18:24+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "translation.html: первый ul, все восемь li",
+        "severity": "major",
+        "source_quote": "“Nevertheless let … the wife see that she reverence her husband –Ephesians 5:33”; “Likewise, ye wives, be in subjection to your own husbands… –1 Peter 3:1”; “Even as Sara obeyed Abraham ... –1 Peter 3:6”; “Wives, submit yourselves unto your own husbands ... –Ephesians 5:22”; “But I would have you know ... –1 Corinthians 11:3”; “Let the woman learn in silence ... –1 Timothy 2:11-14”; “Therefore as the church is subject unto Christ ... –Ephesians 5:24”; “Let your women keep silence in the churches ... –1 Corinthians 14:34”.",
+        "suggested_fix": "Перевести все восемь пунктов, сохранив разметку: <li><em>Однако пусть … жена заботится о том, чтобы <strong>почитать своего мужа</strong> –Ефесянам 5:33.</em></li>\n<li><em>Также и вы, жёны, <strong>подчиняйтесь своим мужьям…</strong> –1 Петра 3:1.</em></li>\n<li><em><strong>Как Сарра повиновалась</strong> Аврааму, называя его господином: <strong>вы — её дочери…</strong> –1 Петра 3:6.</em></li>\n<li><em><strong>Жёны, подчиняйтесь своим мужьям,</strong> как Господу –Ефесянам 5:22.</em></li>\n<li><em>Но хочу, чтобы вы знали: глава всякого мужчины — Христос; и <strong>глава женщины — мужчина;</strong> а глава Христа — Бог –1 Коринфянам 11:3.</em></li>\n<li><em><strong>Пусть женщина учится в молчании, со всякой покорностью.</strong> Но я не позволяю женщине учить или присваивать себе власть над мужчиной, а велю ей пребывать в молчании. Ибо сначала был создан Адам, затем Ева. И не Адам был обманут, но женщина, будучи обманута, впала в преступление –1 Тимофею 2:11-14.</em></li>\n<li><em>Поэтому, как церковь подчиняется Христу, так <strong>пусть жёны будут [подчинены] своим мужьям во всём</strong> –Ефесянам 5:24.</em></li>\n<li><em><strong>Пусть ваши женщины молчат в церквях:</strong> ибо им не позволено говорить, но велено быть в послушании, как говорит и закон –1 Коринфянам 14:34.</em></li>",
+        "translation_quote": "Все восемь цитат оставлены по-английски: “Nevertheless let … the wife see that she reverence her husband –Ephesians 5:33”; “Likewise, ye wives ... –1 Peter 3:1”; “Even as Sara obeyed ... –1 Peter 3:6”; “Wives, submit yourselves ... –Ephesians 5:22”; “But I would have you know ... –1 Corinthians 11:3”; “Let the woman learn in silence ... –1 Timothy 2:11-14”; “Therefore as the church ... –Ephesians 5:24”; “Let your women keep silence ... –1 Corinthians 14:34”."
+      },
+      {
+        "location": "translation.html: p, начинающийся «Тит учит нас, сестры»",
+        "severity": "major",
+        "source_quote": "The aged women likewise, that they be … teachers of good things; That they may teach the young women to be sober, to love their husbands, to love their children, To be discreet, chaste, keepers at home, good, obedient to their own husbands, that the word of God be not blasphemed –Titus 2:3-5.",
+        "suggested_fix": "Заменить английский текст внутри em: <em>Также и пожилые женщины пусть будут … наставницами в добром, чтобы учили молодых женщин быть рассудительными, <strong>любить своих мужей,</strong> любить своих детей, быть благоразумными, целомудренными, заботящимися о доме, добрыми, <strong>послушными своим мужьям,</strong> чтобы слово Божье не подвергалось хуле –Титу 2:3-5.</em>",
+        "translation_quote": "<em>The aged women likewise, that they be … teachers of good things; That they may teach the young women to be sober, <strong>to love their husbands,</strong> to love their children, To be discreet, chaste, keepers at home, good, <strong>obedient to their own husbands,</strong> that the word of God be not blasphemed –Titus 2:3-5.</em>"
+      },
+      {
+        "location": "translation.html: p, начинающийся «Ещё одно искушение»",
+        "severity": "major",
+        "source_quote": "And the LORD God said, It is not good that the man should be alone; I will make him an help [helper, aid, supporter] meet [suitable, appropriate, complementary] for him –Genesis 2:18.",
+        "suggested_fix": "Перевести цитату вместе с пояснениями: <em>И сказал Господь Бог: нехорошо человеку быть одному; сотворю ему помощницу [ту, кто помогает, оказывает помощь, поддерживает], соответствующую ему [подходящую, отвечающую его нуждам, дополняющую его] –Бытие 2:18.</em>",
+        "translation_quote": "<em>And the LORD God said, It is not good that the man should be alone; I will make him an help [helper, aid, supporter] meet [suitable, appropriate, complementary] for him –Genesis 2:18.</em>"
+      },
+      {
+        "location": "translation.html: p, начинающийся «That they may teach the young women»",
+        "severity": "major",
+        "source_quote": "“That they may teach the young women to be sober, to love their husbands, to love their children –Titus 2:4.” The word “love,” in “to love their husbands” ... the word “love” in “to love their children”",
+        "suggested_fix": "Перевести начальную цитату: <em>Чтобы они учили молодых женщин быть рассудительными, любить своих мужей, любить своих детей –Титу 2:4.</em> Далее заменить «Слово „love“ в <em>to love their husbands</em>» на «Слово „любить“ в выражении <em>любить своих мужей</em>», а «слова „love“ в <em>to love their children</em>» — на «слова „любить“ в выражении <em>любить своих детей</em>».",
+        "translation_quote": "<em>That they may teach the young women to be sober, to love their husbands, to love their children –Titus 2:4.</em> Слово «love» в <em>to love their husbands</em> ... слова «love» в <em>to love their children</em>"
+      },
+      {
+        "location": "translation.html: p с цитатой 1 Peter 3:1-2 & 3:6-7",
+        "severity": "major",
+        "source_quote": "Likewise, ye wives, be in subjection to your own husbands; ... While they behold your chaste [modest, innocent, perfect, pure] conversation coupled with fear. ... Likewise, ye husbands, dwell with them according to knowledge ... that your prayers be not hindered –1 Peter 3:1-2 & 3:6-7.",
+        "suggested_fix": "Перевести весь абзац: <p><em>Также и вы, жёны, подчиняйтесь своим мужьям, чтобы те из них, кто не повинуется слову, были без слова приобретены поведением [образом жизни] жён, видя ваше целомудренное [скромное, невинное, безупречное, чистое] поведение, соединённое со страхом. Как Сарра повиновалась Аврааму, называя его господином: вы — её дочери, если делаете добро и не поддаётесь никакому испугу [ужасу]. Также и вы, мужья, живите с ними с пониманием, оказывая честь жене как более слабому сосуду и как сонаследнице благодати жизни, <strong>чтобы вашим молитвам не было препятствия</strong> –1 Петра 3:1-2 &amp; 3:6-7.</em></p>",
+        "translation_quote": "<p><em>Likewise, ye wives, be in subjection to your own husbands; ... While they behold your chaste [modest, innocent, perfect, pure] conversation coupled with fear. ... Likewise, ye husbands, dwell with them according to knowledge ... <strong>that your prayers be not hindered</strong> –1 Peter 3:1-2 &amp; 3:6-7.</em></p>"
+      },
+      {
+        "location": "translation.html: aside, h2 и первые три p",
+        "severity": "major",
+        "source_quote": "“Editor’s Note:” / “I was one who struggled majorly and for years with not knowing how to submit and yet wanting to. Following is my attempt to share what God has been teaching me.” / “One of the main reasons that many people struggle with ‘submission’ is that they don’t really understand what God means with the subject ... compromise their personal belief—or sin against their conscience.” / “The answer is two-fold.”",
+        "suggested_fix": "Перевести эти элементы, сохранив их структуру: <h2>Примечание редактора:</h2>\n<p>Я тоже годами испытывал большие трудности: я хотел подчиняться, но не знал как. Ниже я попытаюсь поделиться тем, чему Бог меня учит.</p>\n<p>Одна из главных причин, по которым многим людям трудно «подчиняться», состоит в том, что они не вполне понимают, что Бог имеет в виду, — не понимают сути библейского подчинения. Обычно человек знает, каких убеждений придерживается в том или ином вопросе, поэтому, когда его просят «подчиниться» в этом вопросе, он думает, что его просят поступиться личными убеждениями или согрешить против своей совести.</p>\n<p>Ответ состоит из двух частей.</p>",
+        "translation_quote": "<h2>Editor’s Note:</h2> / “I was one who struggled majorly and for years with not knowing how to submit and yet wanting to. Following is my attempt to share what God has been teaching me.” / “One of the main reasons that many people struggle with ‘submission’ is that they don’t really understand what God means with the subject ... compromise their personal belief—or sin against their conscience.” / “The answer is two-fold.”"
+      },
+      {
+        "location": "translation.html: aside, p «First, if two people agree» и p «Second, God knew»",
+        "severity": "major",
+        "source_quote": "“First, if two people agree on an issue, then there is no need for anyone to submit. ... whether it be a couple, the home, a school, a church, etc.” / “Second, God knew that whenever there would be more than one person discussing a decision that needs to be made ... That way everyone can know who God sees as responsible for any mistakes that are made.”",
+        "suggested_fix": "Перевести оба абзаца: <p>Во-первых, если два человека согласны в каком-либо вопросе, никому из них не нужно подчиняться. Поэтому подчинение не обязательно означает, что подчиняющийся меняет своё мнение; скорее, он решает поддержать решение другого человека, поскольку Бог говорит, что именно с того человека Он спрашивает за решения этой группы — будь то супружеская пара, дом, школа, церковь и так далее.</p>\n<p>Во-вторых, Бог знал, что всякий раз, когда решение обсуждают несколько человек, в конечном счёте одному придётся подчиниться другому. Поэтому, чтобы ясно определить ответственность, Он даёт ясные указания о том, кого считает ответственным лицом (духовной властью) в каждой ситуации: мужа в браке, отца в семье, мужчину (главу) в доме, рукоположённых руководителей в церкви, учителей или директора в школе и так далее. Таким образом, каждый может знать, кого Бог считает ответственным за допущенные ошибки.</p>",
+        "translation_quote": "Оба абзаца оставлены по-английски: “First, if two people agree on an issue, then there is no need for anyone to submit. ... whether it be a couple, the home, a school, a church, etc.” / “Second, God knew that whenever there would be more than one person discussing a decision that needs to be made ... That way everyone can know who God sees as responsible for any mistakes that are made.”"
+      },
+      {
+        "location": "translation.html: aside, p «Consider that even though Eve»",
+        "severity": "major",
+        "source_quote": "Consider that even though Eve took the fruit and ate it first, and then gave it to her husband to eat, God provides us with clarity regarding who He holds responsible for that failure (sin). ... Wherefore, as by one man [not one woman] sin entered into the world ... death reigned from Adam [not from Eve] to Moses ... –Romans 5:12-14.",
+        "suggested_fix": "Перевести абзац целиком: <p>Обратите внимание: хотя Ева первой взяла плод и съела его, а затем дала своему мужу, чтобы он ел, Бог ясно показывает нам, кого Он считает ответственным за это падение (грех). <em>Поэтому, как через одного мужчину [не одну женщину] грех вошёл в мир, а через грех — смерть, так смерть перешла на всех людей, потому что все согрешили … Однако <strong>смерть царствовала от Адама</strong> [не от Евы] до Моисея, даже над теми [потомками Адама — всем человеческим родом], кто не согрешил подобно преступлению Адама… –Римлянам 5:12-14.</em></p>",
+        "translation_quote": "Consider that even though Eve took the fruit and ate it first, and then gave it to her husband to eat, God provides us with clarity regarding who He holds responsible for that failure (sin). <em>Wherefore, as by one man [not one woman] sin entered into the world ... <strong>death reigned from Adam</strong> [not from Eve] to Moses ... –Romans 5:12-14.</em>"
+      },
+      {
+        "location": "translation.html: aside, последний p",
+        "severity": "major",
+        "source_quote": "So, we see that God provides protection and security to all those who are under authority if they stay under that authority. ... sins of omission and of commission within each family will be primarily held to dad’s account. ... (see 1 Corinthians 11:3 and Romans 13:12)",
+        "suggested_fix": "Перевести абзац: <p>Итак, мы видим, что Бог даёт защиту и безопасность всем находящимся под властью, если они остаются в подчинении этой власти. Тот, кого Бог ясно называет носителем власти в каждых отношениях, всегда будет тем, с кого Бог спросит за решения этой группы людей. Как и при грехопадении в Эдемском саду, за грехи бездействия и совершённые греховные поступки в каждой семье в первую очередь будет отвечать отец. Давал ли отец семье неверные указания или вовсе не давал никаких — это не меняет дела: он всё равно будет призван к ответу, поскольку Бог считает мужчину главой его дома. (см. 1 Коринфянам 11:3 и Римлянам 13:12)</p>",
+        "translation_quote": "So, we see that God provides protection and security to all those who are under authority if they stay under that authority. ... sins of omission and of commission within each family will be primarily held to dad’s account. ... (see 1 Corinthians 11:3 and Romans 13:12)"
+      },
+      {
+        "location": "translation.html: p «Когда нас соблазняет говорить»",
+        "severity": "minor",
+        "source_quote": "let us not yield to that temptation but let’s pray for them. ... give the problem to Him and let it there.",
+        "suggested_fix": "Заменить «не уступаймо этому искушению, а молисьмо за них» на «не будем поддаваться этому искушению, а будем молиться за них». В конце предложения «Вместо этого просите Бога действовать в наших жизнях и отдавайте проблему Ему» добавить «и оставляйте её в Его руках», чтобы передать заключительную мысль оригинала.",
+        "translation_quote": "«не уступаймо этому искушению, а молисьмо за них»; «Вместо этого просите Бога действовать в наших жизнях и отдавайте проблему Ему»"
+      },
+      {
+        "location": "translation.html: p «Я также знаю пару»",
+        "severity": "minor",
+        "source_quote": "I also know of another couple where both of them were badly mistreated by close family",
+        "suggested_fix": "Заменить начало предложения на «Я также знаю другую супружескую пару: с обоими супругами близкие родственники обращались очень плохо».",
+        "translation_quote": "Я также знаю пару, которую оба тяжело обидели близкие"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 62
+  }
+}
