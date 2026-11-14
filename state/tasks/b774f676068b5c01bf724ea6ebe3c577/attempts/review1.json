@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-14T23:28:13+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"html: абзац о еврейских общинах\",\n      \"severity\": \"major\",\n      \"source_quote\": \"In Orthodox and Conservative Jewish congregations\",\n      \"suggested_fix\": \"Заменить «В православных и консервативных еврейских общинах» на «В ортодоксальных и консервативных иудейских общинах».\",\n      \"translation_quote\": \"В православных и консервативных еврейских общинах\"\n    },\n    {\n      \"location\": \"html: вводные фразы перед цитатами из Филиппийцам 4:8 и Колоссянам 3:16\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"Philippians tells us that we are supposed to think on … whatsoever things are true ...; Colossians also tells us that we should Let the word of Christ dwell in you richly\",\n      \"suggested_fix\": \"Перед первой цитатой заменить «сказано, что мы должны размышлять о» на «сказано:», а начало внутри <em> оформить как «…Всё истинное». Перед второй цитатой заменить «также сказано, что мы должны» на «также сказано:». Сохранить теги и остальной текст цитат.\",\n      \"translation_quote\": \"сказано, что мы должны размышлять о <em>всё истинное ...; также сказано, что мы должны <em>Пусть слово Христово\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": false,\n  \"score\": 94\n}",
+    "content_bytes": 1738,
+    "content_evidence_truncated": false,
+    "content_sha256": "37ca60c1a36ad6738533bbbc970b829c7f0dcc7fa5c84462ad8f5c751fcab0b9",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 419,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 41,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6300,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5197,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 6719
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}

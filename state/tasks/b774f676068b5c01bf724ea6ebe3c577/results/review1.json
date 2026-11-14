@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "d73169e5-60c6-4361-af47-b76c15ca6254",
+    "response_id": "chatcmpl-EkGOUkLWeuY3nUkbZMmKSYVGpdFkA",
+    "usage": {
+      "completion_tokens": 419,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 41,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6300,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5197,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 6719
+    }
+  },
+  "received_at": "2026-11-14T23:28:13+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "html: абзац о еврейских общинах",
+        "severity": "major",
+        "source_quote": "In Orthodox and Conservative Jewish congregations",
+        "suggested_fix": "Заменить «В православных и консервативных еврейских общинах» на «В ортодоксальных и консервативных иудейских общинах».",
+        "translation_quote": "В православных и консервативных еврейских общинах"
+      },
+      {
+        "location": "html: вводные фразы перед цитатами из Филиппийцам 4:8 и Колоссянам 3:16",
+        "severity": "minor",
+        "source_quote": "Philippians tells us that we are supposed to think on … whatsoever things are true ...; Colossians also tells us that we should Let the word of Christ dwell in you richly",
+        "suggested_fix": "Перед первой цитатой заменить «сказано, что мы должны размышлять о» на «сказано:», а начало внутри <em> оформить как «…Всё истинное». Перед второй цитатой заменить «также сказано, что мы должны» на «также сказано:». Сохранить теги и остальной текст цитат.",
+        "translation_quote": "сказано, что мы должны размышлять о <em>всё истинное ...; также сказано, что мы должны <em>Пусть слово Христово"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 94
+  }
+}

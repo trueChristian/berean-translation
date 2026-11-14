@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "html: абзац о еврейских общинах",
+      "severity": "major",
+      "source_quote": "In Orthodox and Conservative Jewish congregations",
+      "suggested_fix": "Заменить «В православных и консервативных еврейских общинах» на «В ортодоксальных и консервативных иудейских общинах».",
+      "translation_quote": "В православных и консервативных еврейских общинах"
+    },
+    {
+      "location": "html: вводные фразы перед цитатами из Филиппийцам 4:8 и Колоссянам 3:16",
+      "severity": "minor",
+      "source_quote": "Philippians tells us that we are supposed to think on … whatsoever things are true ...; Colossians also tells us that we should Let the word of Christ dwell in you richly",
+      "suggested_fix": "Перед первой цитатой заменить «сказано, что мы должны размышлять о» на «сказано:», а начало внутри <em> оформить как «…Всё истинное». Перед второй цитатой заменить «также сказано, что мы должны» на «также сказано:». Сохранить теги и остальной текст цитат.",
+      "translation_quote": "сказано, что мы должны размышлять о <em>всё истинное ...; также сказано, что мы должны <em>Пусть слово Христово"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
