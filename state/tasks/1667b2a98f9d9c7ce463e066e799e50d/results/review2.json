@@ -1,0 +1,73 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "d4b4b72a-9488-42f1-94f3-de08b782d37f",
+    "response_id": "chatcmpl-EjzD7wDKV4PCxJpqNJQzXjzcIkU9c",
+    "usage": {
+      "completion_tokens": 681,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5958,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5955,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6639
+    }
+  },
+  "received_at": "2026-11-14T08:06:35+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Sitatet i innledningen",
+        "severity": "major",
+        "source_quote": "“To worship is to quicken the conscience by the holiness of God”",
+        "suggested_fix": "«Å tilbe er å skjerpe samvittigheten ved Guds hellighet»",
+        "translation_quote": "«Å tilbe er å vekke samvittigheten ved Guds hellighet»"
+      },
+      {
+        "location": "Avsnittet som begynner «One day, I am going about my daily chores»",
+        "severity": "major",
+        "source_quote": "“I suddenly see a picture of Mary in the tomb, wanting to cradle Jesus’s head in her hands.”",
+        "suggested_fix": "«ser jeg plutselig for meg Maria ved graven, som ønsker å holde Jesu hode i hendene sine»",
+        "translation_quote": "«ser jeg plutselig for meg Maria ved graven, der hun ønsket å holde Jesu hode i hendene sine»"
+      },
+      {
+        "location": "Avsnittet som begynner «One day, I am going about my daily chores»",
+        "severity": "major",
+        "source_quote": "“Would that make me swell in love and adoration and thank him more deeply for his forgiveness and love for me?”",
+        "suggested_fix": "«Ville det få meg til å vokse i kjærlighet og tilbedelse og takke ham dypere for hans tilgivelse og kjærlighet til meg?»",
+        "translation_quote": "«Ville det få kjærligheten og tilbedelsen min til å vokse, og få meg til å takke ham dypere for hans tilgivelse og kjærlighet til meg?»"
+      },
+      {
+        "location": "Avsnittet som begynner «So often, in my wishing»",
+        "severity": "major",
+        "source_quote": "“So often, in my wishing to truly worship God in the way I think is right, I resent the things He sends to prove my obedience”",
+        "suggested_fix": "«Altfor ofte er jeg, når jeg ønsker å virkelig tilbe Gud på den måten jeg mener er riktig, ergerlig over det han sender for å prøve lydigheten min»",
+        "translation_quote": "«Altfor ofte går jeg, i ønsket om virkelig å tilbe Gud på den måten jeg mener er riktig, og ergrer meg over det han sender for å prøve lydigheten min»"
+      },
+      {
+        "location": "Avsnittet som begynner «At the end of the world»",
+        "severity": "major",
+        "source_quote": "“Inasmuch as ye have done it unto one of the least of these, ye have done it unto me.”",
+        "suggested_fix": "«Det dere har gjort mot én av disse minste, har dere gjort mot meg.»",
+        "translation_quote": "«Det dere har gjort mot én av disse minste, har dere gjort mot meg.»"
+      },
+      {
+        "location": "Avsnittet som begynner «What if our children are “the least of these”?»",
+        "severity": "major",
+        "source_quote": "“When they are hungry, we spoon-feed them each bite”",
+        "suggested_fix": "«Når de er sultne, mater vi dem med skje, én munnfull om gangen»",
+        "translation_quote": "«Når de er sultne, gir vi dem hver skje med mat»"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 89
+  }
+}
