@@ -1,0 +1,192 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "97a3df68-c0ce-4765-aa4a-47f1d39f6dfd",
+    "response_id": "chatcmpl-EkEEPZKZhwlnjjDySCcFnQ3uc8EIn",
+    "usage": {
+      "completion_tokens": 2961,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 33,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9518,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8415,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 12479
+    }
+  },
+  "received_at": "2026-11-14T21:42:13+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "html, paragraph beginning “ایک چیز”",
+        "severity": "major",
+        "source_quote": "foolishness or looseness ... what not to adorn ourselves with ... what to adorn ourselves with",
+        "suggested_fix": "“فراہنگی” کو “حماقت” سے بدلیں، اور متعلقہ جملہ یوں کریں: “وہ ہمیں اپنے کلام میں بتاتا ہے کہ ہمیں کن چیزوں سے اپنے آپ کو نہیں سجانا چاہیے، اور یہ بھی کہ کن چیزوں سے سجانا چاہیے۔” دونوں تقابلی فقروں کے گرد اصل <strong> ٹیگ بحال کریں۔",
+        "translation_quote": "“فراہنگی” یا لغو پن ... “چھاپا نہ کریں” ... “چھاپا کرنا چاہیے”"
+      },
+      {
+        "location": "html, 1 Peter quotation and definition of “Plaiting”",
+        "severity": "major",
+        "source_quote": "plaiting the hair ... the ornament of a meek and quiet spirit; Plaiting: folding, doubling, braiding.",
+        "suggested_fix": "اقتباس میں “بال بنانے کی” کو “بالوں کی چوٹیاں گوندھنے کی” اور “نمونۂ نرم مزاج اور خاموش روح کا” کو “حلیم اور پُرسکون روح کا زیور” کریں۔ تعریف کا عنوان “چوٹیاں گوندھنا” کریں۔",
+        "translation_quote": "بال بنانے کی ... نمونۂ نرم مزاج اور خاموش روح کا؛ بال بنانا: فولڈ کرنا، ڈبل کرنا، چوٹیاں بنانا۔"
+      },
+      {
+        "location": "html, paragraph beginning “یاد رکھیں، خدا چاہتا ہے”",
+        "severity": "major",
+        "source_quote": "they can see the clear countenance on my face",
+        "suggested_fix": "“اس کے چہرے پر” کو “میرے چہرے پر” کریں۔",
+        "translation_quote": "اس کے چہرے پر واضح ترو تازگی نظر آئے"
+      },
+      {
+        "location": "html, paragraph beginning “کتنی خوبصورت بات”",
+        "severity": "major",
+        "source_quote": "when we become born again",
+        "suggested_fix": "“جب ہم نوزائیدہ ہوں” کو “جب ہم نئے سرے سے پیدا ہوں” کریں تاکہ روحانی نئے جنم کا مفہوم واضح رہے۔",
+        "translation_quote": "جب ہم نوزائیدہ ہوں"
+      },
+      {
+        "location": "html, definition of “Meek”",
+        "severity": "major",
+        "source_quote": "gentle ... given to forbearance under injuries",
+        "suggested_fix": "“جزب دار” کو “نرم خو” اور “زخموں کے تحت رواداری دینے والا” کو “زیادتی سہتے ہوئے تحمل کرنے والا” کریں۔",
+        "translation_quote": "جزب دار ... زخموں کے تحت رواداری دینے والا"
+      },
+      {
+        "location": "html, 2 Timothy 2:4-22 quotation",
+        "severity": "major",
+        "source_quote": "follow righteousness, faith, charity, peace, with them that call on the Lord out of a pure heart",
+        "suggested_fix": "آخری فقرہ یوں کریں: “بلکہ اُن لوگوں کے ساتھ راستبازی، ایمان، محبت اور سلامتی کی پیروی کرو جو پاک دل سے خداوند کو پکارتے ہیں۔”",
+        "translation_quote": "بلکہ نیکی، ایمان، محبت، سلامتی کا پیچھا کرو، وہ سب جو پاک دل سے خدا کی طرف پکارتے ہیں۔"
+      },
+      {
+        "location": "html, definition of “Charity” and following question",
+        "severity": "major",
+        "source_quote": "benevolence ... their fellow men; Do we have the Love of God dwelling within and flowing out of our lives like a spring of running water?",
+        "suggested_fix": "“خیریت” کو “خیرخواہی” اور “اپنے بھائیوں” کو “اپنے ہم نوع انسانوں” کریں۔ اگلا سوال یوں کریں: “کیا خدا کی محبت ہمارے اندر بستی ہے اور بہتے ہوئے چشمے کی طرح ہماری زندگیوں سے بہتی ہے؟”",
+        "translation_quote": "خیریت ... اپنے بھائیوں ... کیا خدا کی محبت ہمارے اندر بستی ہے اور ہماری زندگیاں اس کی مانند بہنے والی چشمہ کی طرح بہہ رہی ہے؟"
+      },
+      {
+        "location": "html, paragraph ending with the leaven proverb",
+        "severity": "major",
+        "source_quote": "A little leaven leaveneth the whole lump.",
+        "suggested_fix": "“تھوڑا سا خمیر سارے گندھے ہوئے آٹے کو خمیر کر دیتا ہے۔”",
+        "translation_quote": "تھوڑی خمیر پورا گٹھلی کو خمیر کر دیتی ہے۔"
+      },
+      {
+        "location": "html, 1 Timothy 2:9-10 quotation",
+        "severity": "major",
+        "source_quote": "costly array ... women professing godliness",
+        "suggested_fix": "“مہنگی نقاب پوشی” کو “قیمتی لباس” اور “مذہب کی دعویدار عورتوں” کو “خدا پرستی کا اقرار کرنے والی عورتوں” کریں۔",
+        "translation_quote": "مہنگی نقاب پوشی ... مذہب کی دعویدار عورتوں"
+      },
+      {
+        "location": "html, sentence following definition of “Shamefacedness”",
+        "severity": "major",
+        "source_quote": "not giddiness or sensuality",
+        "suggested_fix": "“نہ سبکدوشی یا شہوانیت سے” کو “نہ کہ چھچھورے پن یا شہوانیت سے” کریں۔",
+        "translation_quote": "نہ سبکدوشی یا شہوانیت سے"
+      },
+      {
+        "location": "html, definition of “Sobriety”",
+        "severity": "major",
+        "source_quote": "gravity without sadness or melancholy",
+        "suggested_fix": "“اداسی یا افسردگی کے بغیر وقار”",
+        "translation_quote": "خوشی یا اداسی کے بغیر وقار"
+      },
+      {
+        "location": "html, Titus 2:11-12 quotation",
+        "severity": "major",
+        "source_quote": "live soberly, righteously, and godly",
+        "suggested_fix": "“باوقار، راستباز اور خدابخشتہ طریقے سے” کو “ہوش مندی، راستبازی اور خدا پرستی کے ساتھ” کریں۔",
+        "translation_quote": "باوقار، راستباز اور خدابخشتہ طریقے سے"
+      },
+      {
+        "location": "html, Isaiah 61:10 quotation",
+        "severity": "major",
+        "source_quote": "I will greatly rejoice in the LORD ... as a bridegroom decketh himself with ornaments",
+        "suggested_fix": "ابتدا کو “میں خداوند میں نہایت شادمان ہوں گا” اور دلہے والے فقرے کو “جیسے دلہا اپنے آپ کو زیورات سے آراستہ کرتا ہے” کریں۔",
+        "translation_quote": "میں بہت خوشی کروں گا جو خداوند میں ہے ... جیسے دلہا اپنے زینت سے سینگھٹتا ہے"
+      },
+      {
+        "location": "html, paragraph beginning “حیاء، شرمندگی”",
+        "severity": "major",
+        "source_quote": "our Maker, and our Redeemer",
+        "suggested_fix": "“ہمارے خالق اور ہمارے کفیل” کو “ہمارے خالق اور ہمارے فدیہ دینے والے” کریں۔",
+        "translation_quote": "ہمارے خالق اور ہمارے کفیل"
+      },
+      {
+        "location": "html, Revelation 21:2-3 quotation",
+        "severity": "major",
+        "source_quote": "prepared as a bride adorned for her husband",
+        "suggested_fix": "“اپنے شوہر کے لیے آراستہ دلہن کی طرح تیار کیا گیا تھا”",
+        "translation_quote": "اس کے شوہر کے لیے مہربان دلہن کی طرح تیار کیا گیا تھا"
+      },
+      {
+        "location": "html, paragraph beginning “ایک بار پھر”",
+        "severity": "major",
+        "source_quote": "glorify our fleshly body ... foolishness and looseness ... sharing our testimony",
+        "suggested_fix": "“ہمارے جسم کو سجدہ کرتے ہیں” کو “ہمارے جسم کی تعریف کرتے ہیں”، “حماقت اور آزادی” کو “حماقت اور بےلگام رویّے”، اور “اپنے عہدے” کو “اپنی گواہی” کریں۔",
+        "translation_quote": "ہمارے جسم کو سجدہ کرتے ہیں ... حماقت اور آزادی ... اپنے عہدے لوگوں کے ساتھ بانٹیں"
+      },
+      {
+        "location": "html, final paragraph",
+        "severity": "major",
+        "source_quote": "as long as you believe in a God, you will be okay",
+        "suggested_fix": "“بس آپ کسی خدا کو مانتے ہوں تو آپ کا انجام اچھا ہوگا” کریں تاکہ مصنف جس عمومی مذہبی دعوے کو رد کر رہی ہے وہ واضح رہے۔",
+        "translation_quote": "جب تک آپ خدا پر یقین رکھتے ہو، تم ٹھیک ہوگے"
+      },
+      {
+        "location": "html, definitions of “Adorn” and “Ornament”",
+        "severity": "minor",
+        "source_quote": "Adorn: to deck or beautify; Ornament: That which embellishes ... renders it most beautiful to the eye.",
+        "suggested_fix": "“سینا” کو “سجانا” کریں؛ زیور کی تعریف یوں درست کریں: “وہ چیز جو سجاتی ہے؛ یا جو کسی دوسری چیز میں شامل ہو کر اسے دیکھنے میں نہایت خوبصورت بناتی ہے۔”",
+        "translation_quote": "آرائش: سینا ... وہ چیز جو سنورتا ہے ... آنکھ کو سب سے زیادہ خوبصورت بناتی ہے"
+      },
+      {
+        "location": "html, second paragraph",
+        "severity": "minor",
+        "source_quote": "We cannot serve two masters.",
+        "suggested_fix": "“ہم دو آقاؤں کی خدمت نہیں کر سکتے۔”",
+        "translation_quote": "ہم دو سردار نہیں سروس کر سکتے۔"
+      },
+      {
+        "location": "html, clothing examples in paragraph beginning “فریب نہ کھاؤ”",
+        "severity": "minor",
+        "source_quote": "ribbons, bows, frills, lace",
+        "suggested_fix": "“ربن، فیتے، جھڑیاں، لیس” کو “ربن، ربن کی گانٹھوں، جھالروں، لیس” کریں۔",
+        "translation_quote": "ربن، فیتے، جھڑیاں، لیس"
+      },
+      {
+        "location": "html, grammatical defects in paragraphs on adornment, Scripture words, meekness, entanglement, faith, and final Matthew quotation",
+        "severity": "minor",
+        "source_quote": "His Word; our lives; our Scripture text; our Lord wants; Are we allowing our lives; our faith; His written Word; not able to kill the soul",
+        "suggested_fix": "بالترتیب “اپنے کلام میں”، “ہماری زندگیوں سے”، “ہمارے صحیفے کے متن کے”، “ہمارا رب چاہتا ہے”، “کیا ہم اپنی زندگیوں کو ... بُننے دے رہے ہیں؟”، “ہمارے ایمان”، “اپنے تحریری کلام”، اور “جان کو مارنے کے قابل نہیں ہیں” کریں۔",
+        "translation_quote": "اپنی کلام میں؛ ہمارے حیات سے؛ ہمارے آیت کے؛ ہمارے رب چاہتا ہے؛ کیا ہم اپنی زندگیاں ... بُنی جا رہی ہیں؟؛ ہماری ایمان؛ اپنی لکھتی کلام؛ جان کو ماردیں کے قابل نہیں ہیں"
+      },
+      {
+        "location": "html, Scripture book names",
+        "severity": "minor",
+        "source_quote": "1 Peter 3:3-6; 2 Timothy 2:4-22; 1 Timothy 2:9-10",
+        "suggested_fix": "روایتی اردو نام “1 پطرس 3:3-6”، “2 تیمتھیس 2:4-22” اور “1 تیمتھیس 2:9-10” استعمال کریں۔",
+        "translation_quote": "1 پیتر 3:3-6؛ 2 تمیتھس 2:4-22؛ 1 تمیتھس 2:9-10"
+      },
+      {
+        "location": "source.title / translation.title",
+        "severity": "minor",
+        "source_quote": "With What Should We Be Adorned?",
+        "suggested_fix": "“ہمیں کن چیزوں سے آراستہ ہونا چاہیے؟”",
+        "translation_quote": "ہم کس چیز سے آرائش کریں؟"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 64
+  }
+}
