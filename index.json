@@ -24146,6 +24146,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/deu/articles/77cd4a24-14db-4ba2-905f-4f3ecb1d3ea5.html",
+      "html_sha256": "0b802e86826fe4be0e73d7f58398bf8f5f719fc788b92bb77ed4aa06cab4b326",
+      "human_reviewed": false,
+      "id": "77cd4a24-14db-4ba2-905f-4f3ecb1d3ea5",
+      "images": [
+        {
+          "alt": "Hände formen auf einer Töpferscheibe einen Tonkrug",
+          "public_path": "/images/articles/77cd4a24-14db-4ba2-905f-4f3ecb1d3ea5-1.jpg"
+        },
+        {
+          "alt": "Fortsetzung des Fotos von Händen, die einen Tonkrug formen",
+          "public_path": "/images/articles/77cd4a24-14db-4ba2-905f-4f3ecb1d3ea5-2.jpg"
+        }
+      ],
+      "issue_id": "1933c1f0-be1f-561a-b470-79a5ced64c04",
+      "language": "deu",
+      "language_tag": "de",
+      "metadata": "content/deu/articles/77cd4a24-14db-4ba2-905f-4f3ecb1d3ea5.json",
+      "metadata_sha256": "9028379c3ad2c4af831d32a37b1efac28dbd79f2427350b434b83ea9d2d98220",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": null,
+      "source_revision": "22388745ad7f149609e65f5e28cfcc1257cd689e",
+      "source_translation_key": "bc9ecc613f1817378c3fc3dba2a55f8d1cc93b689cd94f6882b88808bf6a0937",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Töpfe",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/deu/articles/783fddfc-86ed-44d9-b13e-e4adea31a5d5.html",
       "html_sha256": "ce1ebb48dd8634044f3f51774dc08789c95aacc3878111ea53bf2f9e6dfa69d0",
       "human_reviewed": false,
