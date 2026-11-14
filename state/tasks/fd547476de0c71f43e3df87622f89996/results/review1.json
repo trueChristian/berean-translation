@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "79305a8c-143b-4d92-8228-3288e5d5a7a3",
+    "response_id": "chatcmpl-EkFhnRaNvXZb03XOccM9XoUAzEU6Q",
+    "usage": {
+      "completion_tokens": 805,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 657,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7776,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6673,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 8581
+    }
+  },
+  "received_at": "2026-11-14T21:42:39+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "الفقرة الأولى، اقتباس الخروج 10:21-23",
+        "severity": "major",
+        "source_quote": "“that there may be darkness over the land of Egypt, even darkness which may be felt.”",
+        "suggested_fix": "استبدل «فيكون ظلام على أرض مصر، حتى يُلمس الظلام» بـ«فيكون ظلام على أرض مصر، ظلامًا يمكن الإحساس به».",
+        "translation_quote": "«فيكون ظلام على أرض مصر، حتى يُلمس الظلام»"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 93
+  }
+}
