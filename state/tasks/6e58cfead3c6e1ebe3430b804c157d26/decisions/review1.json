@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "translation.html: ইফিষীয় ৫:২৫-২৭ উদ্ধৃতিসংবলিত অনুচ্ছেদ",
+      "severity": "major",
+      "source_quote": "not having spot, or wrinkle, or any such thing; but that it should be holy and without blemish",
+      "suggested_fix": "“তাহার কলঙ্ক কি বলিরেখা কি তদ্রূপ অন্য কিছুর অভাব না হয়” বদলে লিখুন “তাহার যেন কলঙ্ক কি বলিরেখা কি তদ্রূপ অন্য কিছু না থাকে”; উদ্ধৃতির বাকি অংশ এবং <em> ট্যাগ অপরিবর্তিত রাখুন।",
+      "translation_quote": "তাহার কলঙ্ক কি বলিরেখা কি তদ্রূপ অন্য কিছুর অভাব না হয়"
+    },
+    {
+      "location": "translation.html: পরিবার বিচ্ছিন্ন হওয়া ও সম্পত্তি বাজেয়াপ্ত হওয়া সম্পর্কিত অনুচ্ছেদের শেষ বাক্য",
+      "severity": "major",
+      "source_quote": "They lived for something greater, something the heathen could not understand.",
+      "suggested_fix": "“যা অইহুদিরা বুঝতে পারত না” বদলে লিখুন “যা পৌত্তলিকেরা বুঝতে পারত না”। এখানে ইহুদি নন এমন সকল মানুষকে নয়, পৌত্তলিকদের বোঝানো হয়েছে।",
+      "translation_quote": "তারা আরও মহৎ কিছুর জন্য বেঁচেছিল, এমন কিছুর জন্য যা অইহুদিরা বুঝতে পারত না।"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
