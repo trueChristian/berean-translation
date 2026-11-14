@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "36a1d557-6160-41a9-b65a-81e736248ca7",
+    "response_id": "chatcmpl-EkBYEa7q6gwVdh0NKaTrB0iYV0Teg",
+    "usage": {
+      "completion_tokens": 858,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 765,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8777,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7674,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 9635
+    }
+  },
+  "received_at": "2026-11-14T17:18:08+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, «Utbredelse i Nord-Amerika», paragraph 2",
+        "severity": "minor",
+        "source_quote": "any salty or savory snack",
+        "suggested_fix": "«en salt eller smakfull snacks»",
+        "translation_quote": "en salt eller krydret snacks"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 99
+  }
+}

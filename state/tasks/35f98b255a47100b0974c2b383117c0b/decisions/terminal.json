@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, «Utbredelse i Nord-Amerika», paragraph 2",
+      "severity": "minor",
+      "source_quote": "any salty or savory snack",
+      "suggested_fix": "«en salt eller smakfull snacks»",
+      "translation_quote": "en salt eller krydret snacks"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}
