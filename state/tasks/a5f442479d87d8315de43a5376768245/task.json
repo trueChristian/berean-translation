@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "9d3b2bd9e4754a13b775fe2ad4babaf3",
   "campaign": "auto-d78854de1eab39a37beeb58a2ed4613d9f0f06e496d681ade88fb5a5b39aa59e",
   "created_at": "2026-11-09T09:32:43+00:00",
   "events": [
@@ -48,18 +47,47 @@
         },
         "total_tokens": 14595
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1104,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 717,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9656,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 9653,
+          "cached_tokens": 0
+        },
+        "total_tokens": 10760
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; a recovery continuation must pass admission",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "HTML/metadata contract",
-      "severity": "critical",
-      "source_quote": "",
-      "suggested_fix": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[36]: source /article[1]/p[11]/em[1] ('start', 'em', ()); translation /article[1]/p[11] ('end', 'p')",
-      "translation_quote": ""
+      "location": "「그리스도로 충만한 삶을 지키기」 섹션, 두 번째 문단",
+      "severity": "major",
+      "source_quote": "The new birth is an entrance into the kingdom of heaven here on this earth.",
+      "suggested_fix": "거듭남은 이 땅에서 하늘나라에 들어가는 것이 아니라, 이 땅에서 하늘나라의 왕국에 들어가는 것입니다.",
+      "translation_quote": "거듭남은 이 땅에서 하늘나라로 들어가는 일입니다."
+    },
+    {
+      "location": "「믿음으로 믿으라」 섹션, 사도행전 16:30-31 인용문",
+      "severity": "major",
+      "source_quote": "“And brought them out, and said, Sirs, what must I do to be saved? And they said, Believe on the Lord Jesus Christ, and thou shalt be saved . . .”",
+      "suggested_fix": "인용문을 원문처럼 생략 부호로 끝내십시오. 예: “그들을 데리고 나와 이르되 선생들이여 내가 어떻게 하여야 구원을 받으리이까 하거늘 그들이 이르되 주 예수 그리스도를 믿으라. 그리하면 구원을 받으리라 …”(사도행전 16:30-31).",
+      "translation_quote": "“그들을 데리고 나와 이르되 선생들이여 내가 어떻게 하여야 구원을 받으리이까 하거늘 그들이 이르되 주 예수 그리스도를 믿으라. 그리하면 너와 네 집이 구원을 받으리라 하고 …”(사도행전 16:30-31)."
     }
   ],
+  "finished_at": "2026-11-14T01:42:26+00:00",
   "id": "a5f442479d87d8315de43a5376768245",
   "issue_id": "103c93e0-6e9a-44f6-a6bc-377af8e08e38",
   "language": "kor",
@@ -148,9 +176,11 @@
     }
   },
   "protected": false,
+  "quality_score": 91,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/5b1aeee8b40e793c45a2a3770a1c06b2fe0e561ac70bf486512b9c698d801883.json",
   "stage": "review2",
   "stage_budget": {
@@ -166,7 +196,7 @@
     "total_reserved_usd": 0.090443,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "ffc57a5aa833a4ec2481350c59b2f0532517af685342cc26f3ca07aadfae2d52",
   "translation_model_actual": "gpt-6-luna"

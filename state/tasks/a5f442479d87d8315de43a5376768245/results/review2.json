@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "faae7357-1639-4915-aaa8-57aa9fb2aeef",
+    "response_id": "chatcmpl-EjwLXWykKfE2gLL03ysqiRJ4ioCEr",
+    "usage": {
+      "completion_tokens": 1104,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 717,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9656,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9653,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10760
+    }
+  },
+  "received_at": "2026-11-14T01:42:26+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "「그리스도로 충만한 삶을 지키기」 섹션, 두 번째 문단",
+        "severity": "major",
+        "source_quote": "The new birth is an entrance into the kingdom of heaven here on this earth.",
+        "suggested_fix": "거듭남은 이 땅에서 하늘나라에 들어가는 것이 아니라, 이 땅에서 하늘나라의 왕국에 들어가는 것입니다.",
+        "translation_quote": "거듭남은 이 땅에서 하늘나라로 들어가는 일입니다."
+      },
+      {
+        "location": "「믿음으로 믿으라」 섹션, 사도행전 16:30-31 인용문",
+        "severity": "major",
+        "source_quote": "“And brought them out, and said, Sirs, what must I do to be saved? And they said, Believe on the Lord Jesus Christ, and thou shalt be saved . . .”",
+        "suggested_fix": "인용문을 원문처럼 생략 부호로 끝내십시오. 예: “그들을 데리고 나와 이르되 선생들이여 내가 어떻게 하여야 구원을 받으리이까 하거늘 그들이 이르되 주 예수 그리스도를 믿으라. 그리하면 구원을 받으리라 …”(사도행전 16:30-31).",
+        "translation_quote": "“그들을 데리고 나와 이르되 선생들이여 내가 어떻게 하여야 구원을 받으리이까 하거늘 그들이 이르되 주 예수 그리스도를 믿으라. 그리하면 너와 네 집이 구원을 받으리라 하고 …”(사도행전 16:30-31)."
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 91
+  }
+}
