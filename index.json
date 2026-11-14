@@ -2539,6 +2539,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/afr/articles/682dc04d-bea3-4325-ac73-926bb3396990.html",
+      "html_sha256": "d7a58add4980f71ba54b044d3f7f5273b748207a72566813dffb313a3cdd4e18",
+      "human_reviewed": false,
+      "id": "682dc04d-bea3-4325-ac73-926bb3396990",
+      "images": [
+        {
+          "alt": "Hamburgers, worsbroodjies, patat, nuggets, hoendervlerkies en aartappelskyfies.",
+          "public_path": "/images/articles/682dc04d-bea3-4325-ac73-926bb3396990-1.jpg"
+        },
+        {
+          "alt": "Salm, bessies, neute, blaargroente en tamaties op ’n ligte oppervlak.",
+          "public_path": "/images/articles/682dc04d-bea3-4325-ac73-926bb3396990-2.jpg"
+        }
+      ],
+      "issue_id": "103c93e0-6e9a-44f6-a6bc-377af8e08e38",
+      "language": "afr",
+      "language_tag": "af",
+      "metadata": "content/afr/articles/682dc04d-bea3-4325-ac73-926bb3396990.json",
+      "metadata_sha256": "5e638975169fecbcb75d3577a0e9bf7483d4be581f8b7a6a7c80d0241a84eef6",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "’N WOORD VAN DIE DOKTER",
+      "source_revision": "ccefc5a5c3d79409cc78319f94b5490718d30670",
+      "source_translation_key": "e08824e3e33290c1dfae2fe095d30369d2527145b6b1d02261193ad339207a52",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Die gevare van ultraverwerkte kos",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/afr/articles/683a4e23-acbb-434a-8e0e-2b0793e1a0fb.html",
       "html_sha256": "c1c548703522d73f1e8e327ac43e12e6636a5c9980b9de0d3f1ed926de173516",
       "human_reviewed": false,
