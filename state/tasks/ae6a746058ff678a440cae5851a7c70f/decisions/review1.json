@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "translation.html — citation finale, Jude 1:24-25",
+      "severity": "major",
+      "source_quote": "To the only wise God our Saviour, be glory and majesty, dominion and power, both now and ever.",
+      "suggested_fix": "Remplacer la fin de la citation par : « au seul Dieu sage, notre Sauveur, soient gloire et majesté, souveraineté et puissance, maintenant et à jamais. Amen. –Jude 1:24-25. » Conserver les balises existantes.",
+      "translation_quote": "au seul Dieu, notre Sauveur, par Jésus-Christ notre Seigneur, soient gloire, majesté, force et puissance, dès avant tous les temps, maintenant et dans tous les siècles !"
+    },
+    {
+      "location": "translation.html — paragraphe sur les relations brisées",
+      "severity": "minor",
+      "source_quote": "within the plain communities",
+      "suggested_fix": "Remplacer « au sein des communautés plain » par « au sein des communautés chrétiennes de tradition sobre (dites « plain ») ».",
+      "translation_quote": "au sein des communautés plain"
+    },
+    {
+      "location": "translation.html — paragraphe commençant par « Trop souvent »",
+      "severity": "minor",
+      "source_quote": "leave sleeping dogs lie",
+      "suggested_fix": "Remplacer « laisser les chiens qui dorment dormir » par « ne pas réveiller le chat qui dort ».",
+      "translation_quote": "laisser les chiens qui dorment dormir"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

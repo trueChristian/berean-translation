@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-14T08:08:05+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"translation.html — citation finale, Jude 1:24-25\",\n      \"severity\": \"major\",\n      \"source_quote\": \"To the only wise God our Saviour, be glory and majesty, dominion and power, both now and ever.\",\n      \"suggested_fix\": \"Remplacer la fin de la citation par : « au seul Dieu sage, notre Sauveur, soient gloire et majesté, souveraineté et puissance, maintenant et à jamais. Amen. –Jude 1:24-25. » Conserver les balises existantes.\",\n      \"translation_quote\": \"au seul Dieu, notre Sauveur, par Jésus-Christ notre Seigneur, soient gloire, majesté, force et puissance, dès avant tous les temps, maintenant et dans tous les siècles !\"\n    },\n    {\n      \"location\": \"translation.html — paragraphe sur les relations brisées\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"within the plain communities\",\n      \"suggested_fix\": \"Remplacer « au sein des communautés plain » par « au sein des communautés chrétiennes de tradition sobre (dites « plain ») ».\",\n      \"translation_quote\": \"au sein des communautés plain\"\n    },\n    {\n      \"location\": \"translation.html — paragraphe commençant par « Trop souvent »\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"leave sleeping dogs lie\",\n      \"suggested_fix\": \"Remplacer « laisser les chiens qui dorment dormir » par « ne pas réveiller le chat qui dort ».\",\n      \"translation_quote\": \"laisser les chiens qui dorment dormir\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": false,\n  \"score\": 94\n}",
+    "content_bytes": 1526,
+    "content_evidence_truncated": false,
+    "content_sha256": "cad39d0bece91377be2a1aef9e1ed32141d8a97f74fe3bfd840a45565d650afe",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 448,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 57,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8040,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6937,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 8488
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}

@@ -5,11 +5,54 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "2b2337e225674236b9e37749447457bd",
   "campaign": "auto-06c029a731358cca8508a34d5bf240e64b76717f6c574b626eea8ded7498d432",
   "created_at": "2026-11-14T03:55:55+00:00",
-  "events": [],
-  "findings": [],
+  "events": [
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 448,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 57,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8040,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 6937,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 8488
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "translation.html — citation finale, Jude 1:24-25",
+      "severity": "major",
+      "source_quote": "To the only wise God our Saviour, be glory and majesty, dominion and power, both now and ever.",
+      "suggested_fix": "Remplacer la fin de la citation par : « au seul Dieu sage, notre Sauveur, soient gloire et majesté, souveraineté et puissance, maintenant et à jamais. Amen. –Jude 1:24-25. » Conserver les balises existantes.",
+      "translation_quote": "au seul Dieu, notre Sauveur, par Jésus-Christ notre Seigneur, soient gloire, majesté, force et puissance, dès avant tous les temps, maintenant et dans tous les siècles !"
+    },
+    {
+      "location": "translation.html — paragraphe sur les relations brisées",
+      "severity": "minor",
+      "source_quote": "within the plain communities",
+      "suggested_fix": "Remplacer « au sein des communautés plain » par « au sein des communautés chrétiennes de tradition sobre (dites « plain ») ».",
+      "translation_quote": "au sein des communautés plain"
+    },
+    {
+      "location": "translation.html — paragraphe commençant par « Trop souvent »",
+      "severity": "minor",
+      "source_quote": "leave sleeping dogs lie",
+      "suggested_fix": "Remplacer « laisser les chiens qui dorment dormir » par « ne pas réveiller le chat qui dort ».",
+      "translation_quote": "laisser les chiens qui dorment dormir"
+    }
+  ],
   "id": "ae6a746058ff678a440cae5851a7c70f",
   "issue_id": "04047b99-190c-5c0c-a347-0d069cfee669",
   "language": "fra",
@@ -98,11 +141,13 @@
     }
   },
   "protected": false,
+  "quality_score": 94,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/a7ad1a6227f1cfa9e94538c9ab0eb21a71e9737ee9313da4c0a13a0a14896dbc.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "review1",
     "max_candidate_bytes": 120000,
@@ -115,7 +160,7 @@
     "total_reserved_usd": 0.757208,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 0,
   "translation_key": "e0622a8bb1c0f31a62af348bbcdf1a1da1d53e0d8f3f815cb4fd5567f07e197c",
   "translation_model_actual": "gpt-6-luna"

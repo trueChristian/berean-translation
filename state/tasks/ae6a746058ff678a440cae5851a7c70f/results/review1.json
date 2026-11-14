@@ -1,0 +1,52 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "d643aef1-0c43-4a38-9d32-9471faa76bc6",
+    "response_id": "chatcmpl-EjzF3w8J67at95B8CdDPhElkFHCJp",
+    "usage": {
+      "completion_tokens": 448,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 57,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8040,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6937,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 8488
+    }
+  },
+  "received_at": "2026-11-14T08:08:05+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "translation.html — citation finale, Jude 1:24-25",
+        "severity": "major",
+        "source_quote": "To the only wise God our Saviour, be glory and majesty, dominion and power, both now and ever.",
+        "suggested_fix": "Remplacer la fin de la citation par : « au seul Dieu sage, notre Sauveur, soient gloire et majesté, souveraineté et puissance, maintenant et à jamais. Amen. –Jude 1:24-25. » Conserver les balises existantes.",
+        "translation_quote": "au seul Dieu, notre Sauveur, par Jésus-Christ notre Seigneur, soient gloire, majesté, force et puissance, dès avant tous les temps, maintenant et dans tous les siècles !"
+      },
+      {
+        "location": "translation.html — paragraphe sur les relations brisées",
+        "severity": "minor",
+        "source_quote": "within the plain communities",
+        "suggested_fix": "Remplacer « au sein des communautés plain » par « au sein des communautés chrétiennes de tradition sobre (dites « plain ») ».",
+        "translation_quote": "au sein des communautés plain"
+      },
+      {
+        "location": "translation.html — paragraphe commençant par « Trop souvent »",
+        "severity": "minor",
+        "source_quote": "leave sleeping dogs lie",
+        "suggested_fix": "Remplacer « laisser les chiens qui dorment dormir » par « ne pas réveiller le chat qui dort ».",
+        "translation_quote": "laisser les chiens qui dorment dormir"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 94
+  }
+}
