@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "c9dad3ab-aa81-43c6-a605-46f35beffc07",
+    "response_id": "chatcmpl-Ek0MNouSPSEUNgLs7nY3oGsFdHASO",
+    "usage": {
+      "completion_tokens": 115,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 12896,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 12893,
+        "cached_tokens": 0
+      },
+      "total_tokens": 13011
+    }
+  },
+  "received_at": "2026-11-14T08:06:51+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "آخری زور دار پیراگراف",
+        "severity": "major",
+        "source_quote": "God longs to bless you as you leave your wedding day.",
+        "suggested_fix": "خدا چاہتا ہے کہ جب تم اپنی شادی کے دن کے بعد رخصت ہو تو تمہیں برکت دے۔",
+        "translation_quote": "خدا چاہتا ہے کہ تم اپنی شادی کے دن سے رخصت ہوتے وقت تمہیں برکت دے۔"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 93
+  }
+}

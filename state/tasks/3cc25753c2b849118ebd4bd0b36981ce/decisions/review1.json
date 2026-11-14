@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "آخری زور دار پیراگراف",
+      "severity": "major",
+      "source_quote": "God longs to bless you as you leave your wedding day.",
+      "suggested_fix": "خدا چاہتا ہے کہ جب تم اپنی شادی کے دن کے بعد رخصت ہو تو تمہیں برکت دے۔",
+      "translation_quote": "خدا چاہتا ہے کہ تم اپنی شادی کے دن سے رخصت ہوتے وقت تمہیں برکت دے۔"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
