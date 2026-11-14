@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "e02b7ff51d6c4b19b2c977b4ac96bf70",
   "campaign": "auto-1744f02b35b103cdc6b790f09121062e6a8c85185c2e1ddab9b74cc45b1a2935",
   "created_at": "2026-11-14T15:02:37+00:00",
   "events": [
@@ -28,18 +27,31 @@
         },
         "total_tokens": 14925
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 64,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 32,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9702,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8599,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 9766
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "مضمون، «بائبلی ہدایت» کے تحت تورات کے کوشر قوانین والا پیراگراف",
-      "severity": "major",
-      "source_quote": "Cows, goats, and fish with fins and scales were all clean",
-      "suggested_fix": "«گائے، بکریاں اور پَر اور چھلکے والی مچھلیاں سب پاک تھیں» کو «گائے، بکریاں اور پَر اور چھلکے والی مچھلیاں سب حلال/پاک تھیں» کے بجائے یوں درست کریں: «گائے، بکریاں اور پَر اور چھلکے والی مچھلیاں سب پاک تھیں»؛ یہاں «پر» سے مراد مچھلی کے پَر (fins) ہے، پرندوں کے پر نہیں۔",
-      "translation_quote": "گائے، بکریاں اور پر اور چھلکے والی مچھلیاں سب پاک تھیں"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-11-14T17:33:15+00:00",
   "id": "16c25eed447fba44d6d5e2b6842ad339",
   "issue_id": "103c93e0-6e9a-44f6-a6bc-377af8e08e38",
   "language": "urd",
@@ -128,9 +140,11 @@
     }
   },
   "protected": false,
+  "quality_score": 99,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/6cf42eaf0f3d9ca7b5f07190bec4156dfc04c035131d8744e9546737010a85ea.json",
   "stage": "review2",
   "stage_budget": {
@@ -144,7 +158,7 @@
     "total_reserved_usd": 0.600388,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "e08824e3e33290c1dfae2fe095d30369d2527145b6b1d02261193ad339207a52",
   "translation_model_actual": "gpt-6.1-sol"
