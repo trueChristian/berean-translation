@@ -28561,6 +28561,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ell/articles/55b18915-e213-448c-8fe1-d430e195e768.html",
+      "html_sha256": "41ff5cb080810aa28fdcb2d2e0e43c5ed37afd0fbc3f593fb37385ec9ecc9ea0",
+      "human_reviewed": false,
+      "id": "55b18915-e213-448c-8fe1-d430e195e768",
+      "images": [
+        {
+          "alt": "Αστραπή κάτω από σκοτεινά σύννεφα καταιγίδας πάνω από ένα χωράφι",
+          "public_path": "/images/articles/55b18915-e213-448c-8fe1-d430e195e768-1.jpg"
+        }
+      ],
+      "issue_id": "1a7070c9-fd4f-546b-a220-f267ddb8cf5f",
+      "language": "ell",
+      "language_tag": "el",
+      "metadata": "content/ell/articles/55b18915-e213-448c-8fe1-d430e195e768.json",
+      "metadata_sha256": "7ab91b55c456eb366dd873a1c34ed438325cbf38181469cd364146e1d9b076bb",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "Χριστιανική Μαθητεία",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "73de90ede959b89d4fd696b2e9474c165d018804ec574570e47ca5f30322f740",
+      "status": "ready",
+      "subtitle": "Το τέταρτο άρθρο στη σειρά για τη μαθητεία",
+      "title": "Άνδρες της Πίστης",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ell/articles/5613aef3-79c5-42d4-9695-214e71989c22.html",
       "html_sha256": "276e4292b96c864723fa72c747f65d3c36b7247d7b411e95577e2f4674bef62e",
       "human_reviewed": false,
