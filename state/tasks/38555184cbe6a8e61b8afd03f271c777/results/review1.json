@@ -1,0 +1,80 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "56edd5fe-7d01-42a1-bcbc-31f07988d76e",
+    "response_id": "chatcmpl-EkScVQ2tayPvNqwwnJaiwLvO8QfBo",
+    "usage": {
+      "completion_tokens": 948,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 74,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3750,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2647,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 4698
+    }
+  },
+  "received_at": "2026-11-15T17:06:14+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "translation.title; translation.section",
+        "severity": "major",
+        "source_quote": "A Life Changing Influence; Children’s Corner",
+        "suggested_fix": "शीर्षक को “जीवन बदलने वाला प्रभाव” और अनुभाग को “बच्चों का कोना” करें।",
+        "translation_quote": "A Life Changing Influence; Children’s Corner"
+      },
+      {
+        "location": "translation.html, पहला अनुच्छेद",
+        "severity": "major",
+        "source_quote": "Your little acts of kindness will not soon be forgotten.",
+        "suggested_fix": "इस वाक्य को बदलें: “आपके दयालुता के छोटे-छोटे काम जल्दी भुलाए नहीं जाएँगे।”",
+        "translation_quote": "आपकी छोटी-छोटी दयालुता की क्रियाएँ जल्द ही भुला दी जाएँगी, यह जरूरी नहीं।"
+      },
+      {
+        "location": "translation.html, आठवाँ अनुच्छेद",
+        "severity": "major",
+        "source_quote": "in about the fourth grade, Esther was in school more often",
+        "suggested_fix": "“चौथी कक्षा के आस-पास, Esther स्कूल अधिक नियमित रूप से आने लगी थी” करें। स्रोत स्कूल आने की आवृत्ति बताता है, वहाँ बिताए समय की अवधि नहीं।",
+        "translation_quote": "चौथी कक्षा के आस-पास, Esther स्कूल में अधिक समय तक रहती।"
+      },
+      {
+        "location": "translation.html, दूसरा अनुच्छेद",
+        "severity": "minor",
+        "source_quote": "a young girl who was very much looking forward to starting school",
+        "suggested_fix": "“एक युवती” के स्थान पर “एक छोटी लड़की” करें, ताकि पहली कक्षा शुरू करने वाली बच्ची की उम्र स्पष्ट रहे।",
+        "translation_quote": "एक युवती की असली कहानी है, जो स्कूल शुरू करने के लिए बहुत उत्साहित थी"
+      },
+      {
+        "location": "translation.html, छठा अनुच्छेद",
+        "severity": "minor",
+        "source_quote": "As Esther’s sickness became worse, the days that she felt well enough to be in school were rare.",
+        "suggested_fix": "वाक्य को करें: “जैसे-जैसे Esther की बीमारी बढ़ती गई, ऐसे दिन बहुत कम होने लगे जब वह स्कूल जाने लायक स्वस्थ महसूस करती थी।”",
+        "translation_quote": "जैसे-जैसे Esther की बीमारी खराब हुई, स्कूल में रहने के लिए जिस दिन वह ठीक महसूस करती वह दुर्लभ हो गए।"
+      },
+      {
+        "location": "translation.html, सातवाँ अनुच्छेद",
+        "severity": "minor",
+        "source_quote": "It was a very sad group of schoolgirls when Esther died at the age of 13.",
+        "suggested_fix": "वाक्य को करें: “जब 13 वर्ष की आयु में Esther की मृत्यु हुई, तो स्कूल की उन लड़कियों का पूरा समूह बहुत दुखी था।”",
+        "translation_quote": "जब Esther की 13 वर्ष की आयु में मृत्यु हुई तो वह बहुत उदास स्कूलगर्ल्स का समूह था।"
+      },
+      {
+        "location": "translation.html, सातवाँ और नौवाँ अनुच्छेद",
+        "severity": "minor",
+        "source_quote": "at Esther’s funeral; someone who is being treated unkindly",
+        "suggested_fix": "क्रमशः “Esther के अंतिम संस्कार में” और “किसी ऐसे व्यक्ति के साथ खड़े होना, जिसके साथ बुरा व्यवहार किया जा रहा है, सार्थक होता है” करें।",
+        "translation_quote": "Esther की अंतिम संस्कार में; किसी के साथ खड़े होना जिसका साथ बुरा व्यवहार किया जा रहा है, सार्थक होता है।"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 87
+  }
+}
