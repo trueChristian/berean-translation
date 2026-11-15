@@ -68512,6 +68512,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/nld/articles/86459f54-72b0-4be2-a101-02b3c9462f6c.html",
+      "html_sha256": "8579d14cda7141a6001214a6d09ac2e22ed1fb7e394cd066b97045076ba7e309",
+      "human_reviewed": false,
+      "id": "86459f54-72b0-4be2-a101-02b3c9462f6c",
+      "images": [
+        {
+          "alt": "Pianotoetsen naast open bladmuziek",
+          "public_path": "/images/articles/86459f54-72b0-4be2-a101-02b3c9462f6c-1.jpg"
+        }
+      ],
+      "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
+      "language": "nld",
+      "language_tag": "nl",
+      "metadata": "content/nld/articles/86459f54-72b0-4be2-a101-02b3c9462f6c.json",
+      "metadata_sha256": "18874475e9d7553dac727a7f148ddcc339d27e46e69c3ada13f67f225903eaf5",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "INSPIRATIE VOOR JONGEREN",
+      "source_revision": "a069ecca8827634ebc256b3b1cabc16aeb942ed7",
+      "source_translation_key": "65790b7f3f0557bbd4601849b5efe70a6391326d0f3933cef69b6e6d8bb48d72",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Wat is goed aan mijn muziek?",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/nld/articles/88345a38-6c33-495a-8407-f0fda29b67e0.html",
       "html_sha256": "b8bdb5a42604550f4ea8a529ea00bcf4029698357dae0614ff5117a1f542b098",
       "human_reviewed": false,
