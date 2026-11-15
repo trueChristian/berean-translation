@@ -96977,6 +96977,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/swa/articles/8aa76d0a-4ff5-403e-a366-7d6b8fe26924.html",
+      "html_sha256": "78d5f1a6bb65b59d28cc8671ffe5de504de97726afa148ae59616d492f01956a",
+      "human_reviewed": false,
+      "id": "8aa76d0a-4ff5-403e-a366-7d6b8fe26924",
+      "images": [
+        {
+          "alt": "Mchoro wa kuchonga unaoonyesha Akani akichukua nyara wakati wa vita",
+          "public_path": "/images/articles/8aa76d0a-4ff5-403e-a366-7d6b8fe26924-1.jpg"
+        }
+      ],
+      "issue_id": "1933c1f0-be1f-561a-b470-79a5ced64c04",
+      "language": "swa",
+      "language_tag": "sw",
+      "metadata": "content/swa/articles/8aa76d0a-4ff5-403e-a366-7d6b8fe26924.json",
+      "metadata_sha256": "8ca7541d3c3b9dc1cc668d4db0b2aeb45b4f7e1f5f2ba9786af505a049bac7e2",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "Hamasa kwa Vijana",
+      "source_revision": "22388745ad7f149609e65f5e28cfcc1257cd689e",
+      "source_translation_key": "edc5d2d663c19be2cb124ae52e26f6267714a265b8d47257698c5fa0843e0c53",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Haja za Moyo Wako",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/swa/articles/8c9384e7-1e5f-46bd-bef6-5bb0cb8f26df.html",
       "html_sha256": "4f22588778fbdca3ad9269fae0f4aff29df39eff74c4228a6b71cb39c8826eb6",
       "human_reviewed": false,

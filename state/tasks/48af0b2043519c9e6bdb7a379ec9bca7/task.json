@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "44c3b193ba664656a7404df27359c059",
   "campaign": "auto-6b02d7662d363d8029acafc64ae69ea22b5e83059ad7a33cef79ff77d0241d98",
   "created_at": "2026-11-14T22:15:13+00:00",
   "events": [
@@ -48,25 +47,31 @@
         },
         "total_tokens": 12278
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 107,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 75,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8167,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8164,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8274
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "translation.html, aya inayonukuu Zaburi 78:29-31",
-      "severity": "major",
-      "source_quote": "They were not estranged from their lust. ... and smote down the chosen men of Israel",
-      "suggested_fix": "Badili “Hawakuwa wageni wa tamaa yao” kuwa “Walikuwa bado hawajaachana na tamaa yao”, na “na vijana wa Israeli akawaangusha” kuwa “na wanaume wateule wa Israeli akawaangusha”. Hifadhi lebo za HTML na rejeo lililopo.",
-      "translation_quote": "Hawakuwa wageni wa tamaa yao. ... na vijana wa Israeli akawaangusha"
-    },
-    {
-      "location": "translation.html, aya kuhusu marafiki na shinikizo la marika",
-      "severity": "minor",
-      "source_quote": "We need others to help us see our blind spots.",
-      "suggested_fix": "Badili sentensi hiyo kuwa “Tunahitaji wengine watusaidie kutambua udhaifu wetu ambao sisi wenyewe hatuuoni.”",
-      "translation_quote": "Tunahitaji wengine watusaidie kuona maeneo yetu yasiyoonekana."
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-11-15T02:36:51+00:00",
   "id": "48af0b2043519c9e6bdb7a379ec9bca7",
   "issue_id": "1933c1f0-be1f-561a-b470-79a5ced64c04",
   "language": "swa",
@@ -155,7 +160,7 @@
     }
   },
   "protected": false,
-  "quality_score": 94,
+  "quality_score": 99,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6.1-sol",
@@ -174,7 +179,7 @@
     "total_reserved_usd": 0.747065,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "edc5d2d663c19be2cb124ae52e26f6267714a265b8d47257698c5fa0843e0c53",
   "translation_model_actual": "gpt-6.1-sol"
