@@ -70003,6 +70003,42 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/nld/articles/b649c2a3-20b1-4e02-9204-6285b234f34f.html",
+      "html_sha256": "993081a8079e98b73474845315355ba93fd735340d96b51ec6ff79b2cf1ec109",
+      "human_reviewed": false,
+      "id": "b649c2a3-20b1-4e02-9204-6285b234f34f",
+      "images": [
+        {
+          "alt": "Portret van Philip P. Bliss.",
+          "public_path": "/images/articles/b649c2a3-20b1-4e02-9204-6285b234f34f-1.jpg"
+        },
+        {
+          "alt": "Lichtpaarse bloesems tussen groene bladeren.",
+          "public_path": "/images/articles/b649c2a3-20b1-4e02-9204-6285b234f34f-2.jpg"
+        },
+        {
+          "alt": "De volledige gedrukte bladmuziek van The Light of the World Is Jesus.",
+          "public_path": "/images/articles/b649c2a3-20b1-4e02-9204-6285b234f34f-3.png"
+        }
+      ],
+      "issue_id": "103c93e0-6e9a-44f6-a6bc-377af8e08e38",
+      "language": "nld",
+      "language_tag": "nl",
+      "metadata": "content/nld/articles/b649c2a3-20b1-4e02-9204-6285b234f34f.json",
+      "metadata_sha256": "1de21c020b7f06145c06c1d6ea975d224506c738a0b17082df76de82087c66f2",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "GESCHIEDENIS VAN DE LOFZANG",
+      "source_revision": "ccefc5a5c3d79409cc78319f94b5490718d30670",
+      "source_translation_key": "24f89250b05cd303e73c3df869edd19f173aa57a9d0a95bd0580196d7fe3e789",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Het Licht der wereld is Jezus",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/nld/articles/b6a6823e-0f2a-4354-aebb-5c37ad85937a.html",
       "html_sha256": "f0eab7aee4c7657232adcc56aefc26e3d8067a3b6f7172719b42f670d29f9d11",
       "human_reviewed": false,
