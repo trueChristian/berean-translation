@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "html: منصب کے ذریعے ملنے والے اختیار سے متعلق پیراگراف کا پہلا جملہ",
+      "severity": "major",
+      "source_quote": "There is a God-given authority vested in men by their position: government authorities, workplace authorities, parental authorities, and church authorities",
+      "suggested_fix": "ابتدائی عبارت کو یوں درست کریں: ”لوگوں کو اُن کے منصب کے ذریعے خدا کا عطا کردہ اختیار حاصل ہوتا ہے:“",
+      "translation_quote": "مردوں کو اُن کے منصب کے ذریعے خدا کی عطا کردہ اتھارٹی حاصل ہوتی ہے"
+    },
+    {
+      "location": "html: امریکی افرادی قوت سے متعلق پیراگراف، دوسرا جملہ",
+      "severity": "major",
+      "source_quote": "In faithless defiance they readily strike",
+      "suggested_fix": "”بے ایمانی کی سرکشی میں“ کی جگہ ”ایمان سے عاری سرکشی میں“ لکھیں، تاکہ دیانت کی کمی کے بجائے ایمان کی کمی کا مفہوم برقرار رہے۔",
+      "translation_quote": "بے ایمانی کی سرکشی میں وہ جلدی سے ہڑتال کرتی"
+    },
+    {
+      "location": "html: p.lead کا ابتدائی لفظ",
+      "severity": "minor",
+      "source_quote": "<span class=\"drop-cap\">O</span>f all",
+      "suggested_fix": "ابتدا کو <span class=\"drop-cap\">ہ</span>مارے سے بدلیں۔",
+      "translation_quote": "<span class=\"drop-cap\">ا</span>ہمارے"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
