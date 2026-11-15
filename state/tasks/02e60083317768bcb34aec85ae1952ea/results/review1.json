@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "ed9120ba-7d4f-475e-94cb-a3f0d7bbbd3d",
+    "response_id": "chatcmpl-EkSdKe6K9TMO9UJwwu3FyMLhMtoHX",
+    "usage": {
+      "completion_tokens": 711,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 603,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7614,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6511,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 8325
+    }
+  },
+  "received_at": "2026-11-15T17:06:04+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph beginning «Da unge Philip var elleve år»",
+        "severity": "minor",
+        "source_quote": "“a large, awkward, overgrown boy”",
+        "suggested_fix": "«en stor, klossete og kraftig bygd gutt»",
+        "translation_quote": "«en stor, klossete og overutviklet gutt»"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}
