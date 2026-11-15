@@ -62329,6 +62329,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/kor/articles/682dc04d-bea3-4325-ac73-926bb3396990.html",
+      "html_sha256": "692a032999a3115b14f887da129fa6bfab000fc5cfdf002a8574531d0b77d030",
+      "human_reviewed": false,
+      "id": "682dc04d-bea3-4325-ac73-926bb3396990",
+      "images": [
+        {
+          "alt": "햄버거, 핫도그, 감자튀김, 치킨너겟, 닭날개, 감자칩.",
+          "public_path": "/images/articles/682dc04d-bea3-4325-ac73-926bb3396990-1.jpg"
+        },
+        {
+          "alt": "연어, 베리류, 견과류, 잎채소, 토마토가 밝은 색 표면 위에 놓여 있다.",
+          "public_path": "/images/articles/682dc04d-bea3-4325-ac73-926bb3396990-2.jpg"
+        }
+      ],
+      "issue_id": "103c93e0-6e9a-44f6-a6bc-377af8e08e38",
+      "language": "kor",
+      "language_tag": "ko",
+      "metadata": "content/kor/articles/682dc04d-bea3-4325-ac73-926bb3396990.json",
+      "metadata_sha256": "43e4126610cc88f39a4ef5c968b9a565ffcd593c8003d69dd34ee634a63accb1",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "의사의 한마디",
+      "source_revision": "ccefc5a5c3d79409cc78319f94b5490718d30670",
+      "source_translation_key": "e08824e3e33290c1dfae2fe095d30369d2527145b6b1d02261193ad339207a52",
+      "status": "ready",
+      "subtitle": null,
+      "title": "초가공식품의 위험성",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/kor/articles/683a4e23-acbb-434a-8e0e-2b0793e1a0fb.html",
       "html_sha256": "7bde04be33b4227b1f644b8b998e6fc92f7004151e6f04e4c509556c3bde8ce2",
       "human_reviewed": false,
