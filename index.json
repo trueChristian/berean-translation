@@ -93247,6 +93247,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/spa/articles/ba15e3da-aab4-401c-9ec7-64b88ac22833.html",
+      "html_sha256": "0bd3fabad1c82fcaeb63eff63c186bb96f5edbd25e1a2597b01b5bf0e3654f50",
+      "human_reviewed": false,
+      "id": "ba15e3da-aab4-401c-9ec7-64b88ac22833",
+      "images": [
+        {
+          "alt": "La mano de un bebé recién nacido sujetando el dedo de un adulto",
+          "public_path": "/images/articles/ba15e3da-aab4-401c-9ec7-64b88ac22833-1.jpg"
+        },
+        {
+          "alt": "Una habitación de hospital vacía, con una cama y asientos",
+          "public_path": "/images/articles/ba15e3da-aab4-401c-9ec7-64b88ac22833-2.jpg"
+        }
+      ],
+      "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
+      "language": "spa",
+      "language_tag": "es",
+      "metadata": "content/spa/articles/ba15e3da-aab4-401c-9ec7-64b88ac22833.json",
+      "metadata_sha256": "0243a8560ccf6952009fac59998e8b8d9712173b18292f35855831b78788e404",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "DE HERMANA A HERMANA",
+      "source_revision": "a069ecca8827634ebc256b3b1cabc16aeb942ed7",
+      "source_translation_key": "c0ea566946f0a6021377107c368c8e903efb03bae10a6af153c1e6371a1e792a",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Cuando funciona el camino de Dios",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/spa/articles/ba1df680-e125-4b7a-a6dd-6ad35433e1b5.html",
       "html_sha256": "8a6140ba79d2a955e37ebbbfd481f06487ad5f72dbe7020578dcef87bb0f34b0",
       "human_reviewed": false,

@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "9d33dcd13c3741c0ae74291c5991bbb2",
   "campaign": "auto-c0a7a7407461a8aa5eff3b4aea2c566bc8d6b1ec98ba70fd86a55b1ea5cfbacb",
   "created_at": "2026-11-13T00:22:57+00:00",
   "events": [
@@ -48,25 +47,31 @@
         },
         "total_tokens": 22282
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 81,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 49,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 14772,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 13669,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 14853
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "translation.html, párrafo que comienza «No me importó dejar la dieta sin lácteos»",
-      "severity": "major",
-      "source_quote": "Judson held enemas in stubbornly.",
-      "suggested_fix": "Judson retenía obstinadamente el líquido de los enemas.",
-      "translation_quote": "Judson se resistía obstinadamente a los enemas."
-    },
-    {
-      "location": "translation.html, párrafo que comienza «Al final de la primera semana»",
-      "severity": "major",
-      "source_quote": "he would offer Sterling and I each one of his little paddies to hold while he ate, as if that gave him courage",
-      "suggested_fix": "nos ofrecía a Sterling y a mí una de sus manitas a cada uno para que se la sostuviéramos mientras comía, como si eso le diera valor",
-      "translation_quote": "ofrecía a Sterling y a mí una de sus pequeñas tortitas para que cada uno la sostuviera mientras él comía, como si eso le diera valor"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-11-15T03:02:09+00:00",
   "id": "5106b897c010a93b6d354d5285716163",
   "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
   "language": "spa",
@@ -155,7 +160,7 @@
     }
   },
   "protected": false,
-  "quality_score": 94,
+  "quality_score": 99,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6.1-sol",
@@ -174,7 +179,7 @@
     "total_reserved_usd": 1.212422,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "c0ea566946f0a6021377107c368c8e903efb03bae10a6af153c1e6371a1e792a",
   "translation_model_actual": "gpt-6.1-sol"
