@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-15T03:46:22+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"html, citazione di Genesi 2:18\",\n      \"severity\": \"major\",\n      \"source_quote\": \"an help [helper, aid, supporter] meet [suitable, appropriate, complementary] for him\",\n      \"suggested_fix\": \"Sostituire «un aiuto <strong>idoneo</strong> per lui» con «un aiuto [aiutante, soccorso, sostegno] adatto [idoneo, appropriato, complementare] a lui», ripristinando le spiegazioni tra parentesi senza aggiungere enfasi assente nell’originale.\",\n      \"translation_quote\": \"un aiuto <strong>idoneo</strong> per lui\"\n    },\n    {\n      \"location\": \"html, paragrafo sulla sottomissione successivo al primo elenco biblico\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"we are only crippling them\",\n      \"suggested_fix\": \"Sostituire «li stiamo soltanto zoppicando» con «non facciamo che ostacolarli».\",\n      \"translation_quote\": \"li stiamo soltanto zoppicando\"\n    },\n    {\n      \"location\": \"html, citazioni di Tito 2:3-5 e 1 Pietro 3:1-2 & 3:6-7\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"To be discreet, chaste; your chaste [modest, innocent, perfect, pure] conversation\",\n      \"suggested_fix\": \"Nella citazione di Tito sostituire «castE» con «caste»; in quella di 1 Pietro sostituire «la vostra conversazione castE» con «la vostra condotta casta», mantenendo la successiva spiegazione tra parentesi.\",\n      \"translation_quote\": \"a essere discrete, castE; la vostra conversazione castE [modesta, innocente, perfetta, pura]\"\n    },\n    {\n      \"location\": \"html, citazione estesa di 1 Pietro 3\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"and are not afraid with any amazement [terror]\",\n      \"suggested_fix\": \"Sostituire «non vi spaventiate di nessuna meraviglia [terrore]» con «non vi lasciate prendere da alcuno spavento [terrore]». Qui «amazement» indica sgomento, non meraviglia.\",\n      \"translation_quote\": \"non vi spaventiate di nessuna meraviglia [terrore]\"\n    },\n    {\n      \"location\": \"html, Nota del redattore, paragrafo che inizia con «Secondo»\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"the man (the head) in the home\",\n      \"suggested_fix\": \"Sostituire «l’uomo (la testa) nella casa» con «l’uomo (il capo) nella casa».\",\n      \"translation_quote\": \"l’uomo (la testa) nella casa\"\n    },\n    {\n      \"location\": \"html, ultimo paragrafo prima della Nota del redattore\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"think of something that you can tell your husband that you are blessed about with him, Try doing this every day for two weeks\",\n      \"suggested_fix\": \"Sostituire «pensare a qualcosa che potete dire ogni giorno a vostro marito per due settimane, qualcosa per cui siete grate che lui ci sia» con «pensare a qualcosa che apprezzate di vostro marito e dirglielo. Provate a farlo ogni giorno per due settimane».\",\n      \"translation_quote\": \"pensare a qualcosa che potete dire ogni giorno a vostro marito per due settimane, qualcosa per cui siete grate che lui ci sia\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": false,\n  \"score\": 92\n}",
+    "content_bytes": 3082,
+    "content_evidence_truncated": false,
+    "content_sha256": "8087d69f939cea697ed334cb146f3cac3fc440f360b3a5bd162ba2caf446eeac",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 953,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 91,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 10373,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9270,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 11326
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}

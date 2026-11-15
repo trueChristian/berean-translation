@@ -1,0 +1,49 @@
+{
+  "findings": [
+    {
+      "location": "html, citazione di Genesi 2:18",
+      "severity": "major",
+      "source_quote": "an help [helper, aid, supporter] meet [suitable, appropriate, complementary] for him",
+      "suggested_fix": "Sostituire «un aiuto <strong>idoneo</strong> per lui» con «un aiuto [aiutante, soccorso, sostegno] adatto [idoneo, appropriato, complementare] a lui», ripristinando le spiegazioni tra parentesi senza aggiungere enfasi assente nell’originale.",
+      "translation_quote": "un aiuto <strong>idoneo</strong> per lui"
+    },
+    {
+      "location": "html, paragrafo sulla sottomissione successivo al primo elenco biblico",
+      "severity": "minor",
+      "source_quote": "we are only crippling them",
+      "suggested_fix": "Sostituire «li stiamo soltanto zoppicando» con «non facciamo che ostacolarli».",
+      "translation_quote": "li stiamo soltanto zoppicando"
+    },
+    {
+      "location": "html, citazioni di Tito 2:3-5 e 1 Pietro 3:1-2 & 3:6-7",
+      "severity": "minor",
+      "source_quote": "To be discreet, chaste; your chaste [modest, innocent, perfect, pure] conversation",
+      "suggested_fix": "Nella citazione di Tito sostituire «castE» con «caste»; in quella di 1 Pietro sostituire «la vostra conversazione castE» con «la vostra condotta casta», mantenendo la successiva spiegazione tra parentesi.",
+      "translation_quote": "a essere discrete, castE; la vostra conversazione castE [modesta, innocente, perfetta, pura]"
+    },
+    {
+      "location": "html, citazione estesa di 1 Pietro 3",
+      "severity": "minor",
+      "source_quote": "and are not afraid with any amazement [terror]",
+      "suggested_fix": "Sostituire «non vi spaventiate di nessuna meraviglia [terrore]» con «non vi lasciate prendere da alcuno spavento [terrore]». Qui «amazement» indica sgomento, non meraviglia.",
+      "translation_quote": "non vi spaventiate di nessuna meraviglia [terrore]"
+    },
+    {
+      "location": "html, Nota del redattore, paragrafo che inizia con «Secondo»",
+      "severity": "minor",
+      "source_quote": "the man (the head) in the home",
+      "suggested_fix": "Sostituire «l’uomo (la testa) nella casa» con «l’uomo (il capo) nella casa».",
+      "translation_quote": "l’uomo (la testa) nella casa"
+    },
+    {
+      "location": "html, ultimo paragrafo prima della Nota del redattore",
+      "severity": "minor",
+      "source_quote": "think of something that you can tell your husband that you are blessed about with him, Try doing this every day for two weeks",
+      "suggested_fix": "Sostituire «pensare a qualcosa che potete dire ogni giorno a vostro marito per due settimane, qualcosa per cui siete grate che lui ci sia» con «pensare a qualcosa che apprezzate di vostro marito e dirglielo. Provate a farlo ogni giorno per due settimane».",
+      "translation_quote": "pensare a qualcosa che potete dire ogni giorno a vostro marito per due settimane, qualcosa per cui siete grate che lui ci sia"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
