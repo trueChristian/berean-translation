@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-15T03:31:34+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Laatste alinea over India\",\"severity\":\"major\",\"source_quote\":\"India’s spiritual darkness caused by heathenism in the hearts of her benighted millions is eclipsed by Jesus, the Light of the world.\",\"suggested_fix\":\"Vervang ‘wordt door Jezus, het Licht der wereld, verduisterd’ door ‘wordt door Jezus, het Licht der wereld, overstraald’ of ‘verdreven’.\",\"translation_quote\":\"De geestelijke duisternis in India, veroorzaakt door het heidendom in de harten van de miljoenen mensen die in duisternis leven, wordt door Jezus, het Licht der wereld, verduisterd.\"}],\"findings_complete\":true,\"passed\":false,\"score\":93}",
+    "content_bytes": 649,
+    "content_evidence_truncated": false,
+    "content_sha256": "184f1ba1cb3ca8cd4c74699e5ab80e428c62a3b8844411ea43c0575fe4517448",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 636,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 466,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7596,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6493,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 8232
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

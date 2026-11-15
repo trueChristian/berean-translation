@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Laatste alinea over India",
+      "severity": "major",
+      "source_quote": "India’s spiritual darkness caused by heathenism in the hearts of her benighted millions is eclipsed by Jesus, the Light of the world.",
+      "suggested_fix": "Vervang ‘wordt door Jezus, het Licht der wereld, verduisterd’ door ‘wordt door Jezus, het Licht der wereld, overstraald’ of ‘verdreven’.",
+      "translation_quote": "De geestelijke duisternis in India, veroorzaakt door het heidendom in de harten van de miljoenen mensen die in duisternis leven, wordt door Jezus, het Licht der wereld, verduisterd."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
