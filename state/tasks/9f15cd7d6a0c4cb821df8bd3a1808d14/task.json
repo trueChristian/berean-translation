@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "e1f96eec7b53464fb99382a8e239da13",
   "campaign": "auto-09d66706e0735817272943f89005b61da088a4163712600d2406ceef5d42b0a5",
   "created_at": "2026-11-14T22:14:47+00:00",
   "events": [
@@ -68,25 +67,31 @@
         },
         "total_tokens": 11717
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 930,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 892,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7890,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 6787,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 8820
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "Paragraph beginning “About five years later”",
-      "severity": "major",
-      "source_quote": "“He was invited to join D.L. Moody and Daniel W. Whittle in their full-time evangelistic work.”",
-      "suggested_fix": "«Его пригласили присоединиться к Д. Л. Муди и Дэниелу У. Уиттлу и участвовать в их постоянном евангелизационном служении.»",
-      "translation_quote": "«Его пригласили присоединиться к Д. Л. Муди и Дэниелу У. Уиттлу в их полномасштабном евангелизационном служении.»"
-    },
-    {
-      "location": "Paragraph beginning “Philip Bliss’s life ended tragically”",
-      "severity": "major",
-      "source_quote": "“Philip Bliss, who had escaped the wreck unharmed, went back for his wife”",
-      "suggested_fix": "«Филип Блисс, которому удалось выбраться из обломков невредимым, вернулся за женой»",
-      "translation_quote": "«Филип Блисс, которому удалось выбраться из wreckage невредимым, вернулся за женой»"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-11-15T03:16:17+00:00",
   "id": "9f15cd7d6a0c4cb821df8bd3a1808d14",
   "issue_id": "103c93e0-6e9a-44f6-a6bc-377af8e08e38",
   "language": "rus",
@@ -175,7 +180,7 @@
     }
   },
   "protected": false,
-  "quality_score": 92,
+  "quality_score": 99,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
@@ -195,7 +200,7 @@
     "total_reserved_usd": 0.089459,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "24f89250b05cd303e73c3df869edd19f173aa57a9d0a95bd0580196d7fe3e789",
   "translation_model_actual": "gpt-6-luna"

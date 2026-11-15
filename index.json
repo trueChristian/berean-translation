@@ -87217,6 +87217,42 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/rus/articles/b649c2a3-20b1-4e02-9204-6285b234f34f.html",
+      "html_sha256": "bb9fb2df15b065ce52382877d04f7dea203644d3e4ddb4b852def61cd753c22e",
+      "human_reviewed": false,
+      "id": "b649c2a3-20b1-4e02-9204-6285b234f34f",
+      "images": [
+        {
+          "alt": "Портрет Филипа П. Блисса.",
+          "public_path": "/images/articles/b649c2a3-20b1-4e02-9204-6285b234f34f-1.jpg"
+        },
+        {
+          "alt": "Бледно-сиреневые цветы среди зеленых листьев.",
+          "public_path": "/images/articles/b649c2a3-20b1-4e02-9204-6285b234f34f-2.jpg"
+        },
+        {
+          "alt": "Полная нотная запись гимна «Иисус — Свет мира».",
+          "public_path": "/images/articles/b649c2a3-20b1-4e02-9204-6285b234f34f-3.png"
+        }
+      ],
+      "issue_id": "103c93e0-6e9a-44f6-a6bc-377af8e08e38",
+      "language": "rus",
+      "language_tag": "ru",
+      "metadata": "content/rus/articles/b649c2a3-20b1-4e02-9204-6285b234f34f.json",
+      "metadata_sha256": "18efff45cc8c4c73da48e9e1ac026e4f1a91781fa9c2e32bcace2b38fe9fa87d",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "История гимна",
+      "source_revision": "ccefc5a5c3d79409cc78319f94b5490718d30670",
+      "source_translation_key": "24f89250b05cd303e73c3df869edd19f173aa57a9d0a95bd0580196d7fe3e789",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Иисус — Свет мира",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/rus/articles/b72ea42a-1a86-4c21-a399-ebd3013c257b.html",
       "html_sha256": "fc4a8337ee55ecd5bb30030eecc5699bc81053057f0e565c98cdf14e2e8d0991",
       "human_reviewed": false,
