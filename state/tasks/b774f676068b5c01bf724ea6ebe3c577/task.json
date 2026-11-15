@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "c5909a28364a48ed9b94ec70d0d84bab",
   "campaign": "auto-02560f62e4a2ba608715852391e536d44cc6552ba948315d86aa1c2358f85afd",
   "created_at": "2026-11-14T22:14:22+00:00",
   "events": [
@@ -48,25 +47,31 @@
         },
         "total_tokens": 9483
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 74,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 42,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6322,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 6319,
+          "cached_tokens": 0
+        },
+        "total_tokens": 6396
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "html: абзац о еврейских общинах",
-      "severity": "major",
-      "source_quote": "In Orthodox and Conservative Jewish congregations",
-      "suggested_fix": "Заменить «В православных и консервативных еврейских общинах» на «В ортодоксальных и консервативных иудейских общинах».",
-      "translation_quote": "В православных и консервативных еврейских общинах"
-    },
-    {
-      "location": "html: вводные фразы перед цитатами из Филиппийцам 4:8 и Колоссянам 3:16",
-      "severity": "minor",
-      "source_quote": "Philippians tells us that we are supposed to think on … whatsoever things are true ...; Colossians also tells us that we should Let the word of Christ dwell in you richly",
-      "suggested_fix": "Перед первой цитатой заменить «сказано, что мы должны размышлять о» на «сказано:», а начало внутри <em> оформить как «…Всё истинное». Перед второй цитатой заменить «также сказано, что мы должны» на «также сказано:». Сохранить теги и остальной текст цитат.",
-      "translation_quote": "сказано, что мы должны размышлять о <em>всё истинное ...; также сказано, что мы должны <em>Пусть слово Христово"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-11-15T02:05:36+00:00",
   "id": "b774f676068b5c01bf724ea6ebe3c577",
   "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
   "language": "rus",
@@ -155,7 +160,7 @@
     }
   },
   "protected": false,
-  "quality_score": 94,
+  "quality_score": 99,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6.1-sol",
@@ -174,7 +179,7 @@
     "total_reserved_usd": 0.746452,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "65790b7f3f0557bbd4601849b5efe70a6391326d0f3933cef69b6e6d8bb48d72",
   "translation_model_actual": "gpt-6.1-sol"

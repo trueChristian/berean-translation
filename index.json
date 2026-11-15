@@ -85801,6 +85801,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/rus/articles/86459f54-72b0-4be2-a101-02b3c9462f6c.html",
+      "html_sha256": "47583dea8ee68c199907aa9741b0c7ba5e2aeb93acf01fa01f7d3d89251f7299",
+      "human_reviewed": false,
+      "id": "86459f54-72b0-4be2-a101-02b3c9462f6c",
+      "images": [
+        {
+          "alt": "Клавиши пианино рядом с раскрытыми нотами",
+          "public_path": "/images/articles/86459f54-72b0-4be2-a101-02b3c9462f6c-1.jpg"
+        }
+      ],
+      "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
+      "language": "rus",
+      "language_tag": "ru",
+      "metadata": "content/rus/articles/86459f54-72b0-4be2-a101-02b3c9462f6c.json",
+      "metadata_sha256": "f5439512f9394e68aca5d19071994d971b31c6616c4aba21e863005a863bb0c0",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "Вдохновение для молодёжи",
+      "source_revision": "a069ecca8827634ebc256b3b1cabc16aeb942ed7",
+      "source_translation_key": "65790b7f3f0557bbd4601849b5efe70a6391326d0f3933cef69b6e6d8bb48d72",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Что правильного в музыке, которую я слушаю?",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/rus/articles/88345a38-6c33-495a-8407-f0fda29b67e0.html",
       "html_sha256": "39c07d2d6a007b93ba6dea637d03568238f82a7d99e93cb0c9f2f0f40cd7ac28",
       "human_reviewed": false,
