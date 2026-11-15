@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "html: “आज हमारी दुनिया में अनेक दृष्टिकोण हैं” से आरंभ होने वाला अनुच्छेद",
+      "severity": "minor",
+      "source_quote": "There’s race discrimination on both sides of the matter.",
+      "suggested_fix": "इस वाक्य को स्पष्ट करें: “इस मामले में दोनों पक्षों की ओर से नस्लीय भेदभाव हो रहा है।”",
+      "translation_quote": "नस्लीय भेदभाव के मामले में दोनों पक्षों की ओर से ऐसा हो रहा है।"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

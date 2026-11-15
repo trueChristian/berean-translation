@@ -5,19 +5,42 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "1722b559682c4f45b99fe43e82954a34",
   "campaign": "auto-75437c8bbb9ff07e6171e4c47e6087fa09bafbe80f026ec81b49add5508da9d2",
   "created_at": "2026-11-15T02:38:23+00:00",
-  "events": [],
+  "events": [
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 207,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 74,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6331,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 5228,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 6538
+      }
+    }
+  ],
+  "failure": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[19]: source /article[1]/p[6] ('end', 'p'); translation /article[1]/p[6]/em[1] ('start', 'em', ())",
+  "failure_kind": "invalid_result",
   "findings": [
     {
-      "location": "translation.html: “आज हमारी दुनिया में अनेक दृष्टिकोण हैं” से शुरू होने वाला अनुच्छेद",
+      "location": "html: “आज हमारी दुनिया में अनेक दृष्टिकोण हैं” से आरंभ होने वाला अनुच्छेद",
       "severity": "minor",
       "source_quote": "There’s race discrimination on both sides of the matter.",
-      "suggested_fix": "इस मामले में दोनों पक्षों की ओर से नस्लीय भेदभाव हो रहा है।",
+      "suggested_fix": "इस वाक्य को स्पष्ट करें: “इस मामले में दोनों पक्षों की ओर से नस्लीय भेदभाव हो रहा है।”",
       "translation_quote": "नस्लीय भेदभाव के मामले में दोनों पक्षों की ओर से ऐसा हो रहा है।"
     }
   ],
+  "finished_at": "2026-11-15T03:01:28+00:00",
   "id": "b8e6f5b8cc5c9fa9f00367abf0bfe6ae",
   "issue_id": "1933c1f0-be1f-561a-b470-79a5ced64c04",
   "language": "hin",
@@ -106,9 +129,11 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/08023a05d53dc6bd22a9177fbda131edfdc7c55d1f65f9b60a5d0b2ca28e7dfc.json",
   "stage": "review1",
   "stage_budget": {
@@ -123,7 +148,7 @@
     "total_reserved_usd": 0.763508,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 0,
   "translation_key": "638ffc8e59099baf2aea4d3ff147935b68127324804d36e99f77026b29a9def3",
   "translation_model_actual": "gpt-6-luna"
