@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-15T03:31:32+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"html: 유대교 회중의 아카펠라 전통을 설명하는 문단 첫 문장\",\n      \"severity\": \"major\",\n      \"source_quote\": \"In Orthodox and Conservative Jewish congregations\",\n      \"suggested_fix\": \"‘정교회 유대교와 보수파 유대교 회중에는’을 ‘정통파 유대교와 보수파 유대교 회중에는’으로 수정하십시오.\",\n      \"translation_quote\": \"정교회 유대교와 보수파 유대교 회중에는\"\n    },\n    {\n      \"location\": \"html: 팔레스트리나 양식을 설명하는 문단 마지막 문장\",\n      \"severity\": \"major\",\n      \"source_quote\": \"as opposed to homophonic, which means one melodic line sung together or in the same rhythm\",\n      \"suggested_fix\": \"‘단성음악’을 ‘화성음악’으로 수정하여 원문의 homophonic과 다른 개념인 monophonic을 혼동하지 않도록 하십시오. 뒤따르는 원문의 설명은 유지하십시오.\",\n      \"translation_quote\": \"하나의 선율선을 함께 또는 같은 리듬으로 노래하는 단성음악과 대조됩니다.\"\n    },\n    {\n      \"location\": \"html: p.lead의 drop-cap\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"<span class=\\\"drop-cap\\\">M</span>any people ask\",\n      \"suggested_fix\": \"태그와 속성을 유지하면서 ‘<span class=\\\"drop-cap\\\">M</span>많은 사람이’를 ‘<span class=\\\"drop-cap\\\">많</span>은 사람이’로 수정하십시오.\",\n      \"translation_quote\": \"<span class=\\\"drop-cap\\\">M</span>많은 사람이\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": false,\n  \"score\": 94\n}",
+    "content_bytes": 1614,
+    "content_evidence_truncated": false,
+    "content_sha256": "dbdbfe4491107e851e442739aa86d8ac735cc2c4f8f428a0999e1440dc23bf52",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 519,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 93,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6568,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6565,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7087
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}

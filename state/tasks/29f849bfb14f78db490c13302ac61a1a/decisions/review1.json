@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "html: 유대교 회중의 아카펠라 전통을 설명하는 문단 첫 문장",
+      "severity": "major",
+      "source_quote": "In Orthodox and Conservative Jewish congregations",
+      "suggested_fix": "‘정교회 유대교와 보수파 유대교 회중에는’을 ‘정통파 유대교와 보수파 유대교 회중에는’으로 수정하십시오.",
+      "translation_quote": "정교회 유대교와 보수파 유대교 회중에는"
+    },
+    {
+      "location": "html: 팔레스트리나 양식을 설명하는 문단 마지막 문장",
+      "severity": "major",
+      "source_quote": "as opposed to homophonic, which means one melodic line sung together or in the same rhythm",
+      "suggested_fix": "‘단성음악’을 ‘화성음악’으로 수정하여 원문의 homophonic과 다른 개념인 monophonic을 혼동하지 않도록 하십시오. 뒤따르는 원문의 설명은 유지하십시오.",
+      "translation_quote": "하나의 선율선을 함께 또는 같은 리듬으로 노래하는 단성음악과 대조됩니다."
+    },
+    {
+      "location": "html: p.lead의 drop-cap",
+      "severity": "minor",
+      "source_quote": "<span class=\"drop-cap\">M</span>any people ask",
+      "suggested_fix": "태그와 속성을 유지하면서 ‘<span class=\"drop-cap\">M</span>많은 사람이’를 ‘<span class=\"drop-cap\">많</span>은 사람이’로 수정하십시오.",
+      "translation_quote": "<span class=\"drop-cap\">M</span>많은 사람이"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
