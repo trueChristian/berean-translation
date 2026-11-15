@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "4b22e36880a848efbfa8e458931aae11",
   "campaign": "auto-835315f1ae18b0a297577deed76858f3f3e43c25d22d0b9991cbd4a5c91a0614",
   "created_at": "2026-11-15T17:38:59+00:00",
   "events": [
@@ -28,10 +27,45 @@
         },
         "total_tokens": 2760
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 686,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 469,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 2931,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 1828,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 3617
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "HTML, paragraph 2",
+      "severity": "major",
+      "source_quote": "“maintain a strong biblical orthodoxy”",
+      "suggested_fix": "Replace “بائبلی عقیدے کی مضبوط راست بازی” with “بائبل پر مبنی مضبوط راسخ الاعتقادی” to convey adherence to orthodox biblical belief, not righteousness.",
+      "translation_quote": "“بائبلی عقیدے کی مضبوط راست بازی”"
+    },
+    {
+      "location": "HTML, paragraph 5",
+      "severity": "minor",
+      "source_quote": "“Subscription is available upon request.”",
+      "suggested_fix": "Replace “رکنیت دستیاب ہے” with “درخواست پر رسالے کی رکنیت حاصل کی جا سکتی ہے” or “درخواست پر رسالے کا سبسکرپشن دستیاب ہے” to make clear this concerns a magazine subscription.",
+      "translation_quote": "“درخواست کرنے پر رکنیت دستیاب ہے۔”"
+    }
+  ],
   "id": "7afdfcd0b9d2296622ec6de389364371",
   "issue_id": "14962b7b-2d94-5b43-a4c6-bbb78f074d1a",
   "language": "urd",
@@ -120,11 +154,13 @@
     }
   },
   "protected": false,
+  "quality_score": 93,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/e3530609551595f0d5905092141d03f4af2c1e2a1a26f0cb713cfbd5df2545ad.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "translate",
     "max_candidate_bytes": 120000,
@@ -138,7 +174,7 @@
     "total_reserved_usd": 0.086551,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "1d04ac46996031206a2ceace35a02ae4625ee12e63800047409c8827bb2474ab",
   "translation_model_actual": "gpt-6-luna"

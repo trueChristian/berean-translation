@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "2c3f7bfe-c06c-4055-b107-2125d9603dff",
+    "response_id": "chatcmpl-Ekciug2Fs10KUbmmkib1CIOuIaqSP",
+    "usage": {
+      "completion_tokens": 686,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 469,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2931,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1828,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 3617
+    }
+  },
+  "received_at": "2026-11-15T22:15:25+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, paragraph 2",
+        "severity": "major",
+        "source_quote": "“maintain a strong biblical orthodoxy”",
+        "suggested_fix": "Replace “بائبلی عقیدے کی مضبوط راست بازی” with “بائبل پر مبنی مضبوط راسخ الاعتقادی” to convey adherence to orthodox biblical belief, not righteousness.",
+        "translation_quote": "“بائبلی عقیدے کی مضبوط راست بازی”"
+      },
+      {
+        "location": "HTML, paragraph 5",
+        "severity": "minor",
+        "source_quote": "“Subscription is available upon request.”",
+        "suggested_fix": "Replace “رکنیت دستیاب ہے” with “درخواست پر رسالے کی رکنیت حاصل کی جا سکتی ہے” or “درخواست پر رسالے کا سبسکرپشن دستیاب ہے” to make clear this concerns a magazine subscription.",
+        "translation_quote": "“درخواست کرنے پر رکنیت دستیاب ہے۔”"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 93
+  }
+}
