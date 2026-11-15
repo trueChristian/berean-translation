@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "ccc1c266-af59-4202-939d-8340ad5eabb0",
+    "response_id": "chatcmpl-EkKslylsPPLAFX2yzlCDfJDYwt0HW",
+    "usage": {
+      "completion_tokens": 980,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 747,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9240,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8137,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 10220
+    }
+  },
+  "received_at": "2026-11-15T03:31:18+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Conclusion, Ephesians 5:15 quotation",
+        "severity": "major",
+        "source_quote": "“See then that ye walk circumspectly, not as fools, but as wise”",
+        "suggested_fix": "״שִׂימוּ לֵב לְהִתְהַלֵּךְ בִּזְהִירוּת, לֹא כִּכְסִילִים אֶלָּא כַּחֲכָמִים״",
+        "translation_quote": "״שִׂימוּ לֵב לְהִתְהַלֵּךְ בְּדֶרֶךְ הַזּוֹ הַשְׂכֵּל וְלֹא כִּכְסִילִים כִּי אִם כַּחֲכָמִים״"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 93
+  }
+}

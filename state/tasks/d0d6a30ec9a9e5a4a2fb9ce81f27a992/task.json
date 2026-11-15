@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "737a952905f342b7b40a798550276100",
   "campaign": "auto-bae662971fec3dcce5ba46fdd22d331eb6646f046643bb9096fa940662463bc8",
   "created_at": "2026-11-14T08:11:54+00:00",
   "events": [
@@ -28,10 +27,38 @@
         },
         "total_tokens": 8946
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 980,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 747,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9240,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8137,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 10220
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "Conclusion, Ephesians 5:15 quotation",
+      "severity": "major",
+      "source_quote": "“See then that ye walk circumspectly, not as fools, but as wise”",
+      "suggested_fix": "״שִׂימוּ לֵב לְהִתְהַלֵּךְ בִּזְהִירוּת, לֹא כִּכְסִילִים אֶלָּא כַּחֲכָמִים״",
+      "translation_quote": "״שִׂימוּ לֵב לְהִתְהַלֵּךְ בְּדֶרֶךְ הַזּוֹ הַשְׂכֵּל וְלֹא כִּכְסִילִים כִּי אִם כַּחֲכָמִים״"
+    }
+  ],
   "id": "d0d6a30ec9a9e5a4a2fb9ce81f27a992",
   "issue_id": "103c93e0-6e9a-44f6-a6bc-377af8e08e38",
   "language": "heb",
@@ -120,11 +147,13 @@
     }
   },
   "protected": false,
+  "quality_score": 93,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/6cf42eaf0f3d9ca7b5f07190bec4156dfc04c035131d8744e9546737010a85ea.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "translate",
     "max_candidate_bytes": 120000,
@@ -138,7 +167,7 @@
     "total_reserved_usd": 0.090175,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "e08824e3e33290c1dfae2fe095d30369d2527145b6b1d02261193ad339207a52",
   "translation_model_actual": "gpt-6-luna"

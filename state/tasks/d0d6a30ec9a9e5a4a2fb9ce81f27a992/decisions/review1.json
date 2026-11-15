@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Conclusion, Ephesians 5:15 quotation",
+      "severity": "major",
+      "source_quote": "“See then that ye walk circumspectly, not as fools, but as wise”",
+      "suggested_fix": "״שִׂימוּ לֵב לְהִתְהַלֵּךְ בִּזְהִירוּת, לֹא כִּכְסִילִים אֶלָּא כַּחֲכָמִים״",
+      "translation_quote": "״שִׂימוּ לֵב לְהִתְהַלֵּךְ בְּדֶרֶךְ הַזּוֹ הַשְׂכֵּל וְלֹא כִּכְסִילִים כִּי אִם כַּחֲכָמִים״"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
