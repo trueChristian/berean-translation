@@ -3,7 +3,7 @@
   "automatic_enabled": true,
   "automatic_policy_version": 3,
   "budget_enforcement": "none",
-  "committed_usd": 79.551738,
+  "committed_usd": 79.552298,
   "counts": {
     "active": 50,
     "already_translated": 107,
@@ -22,7 +22,7 @@
   },
   "derived": true,
   "format_version": "2",
-  "gross_allocated_usd": 753.734632,
+  "gross_allocated_usd": 753.821177,
   "historical_approved_total_usd": 30.0,
   "items": [
     {
@@ -959,7 +959,7 @@
       "article_id": "a7f59621-7083-44ce-8074-6ece8fdfbdcf",
       "language": "ara",
       "latest_task": "cd038b9946d18dc71c080f89a14faf9b",
-      "processing_status": "in_batch",
+      "processing_status": "queued",
       "reason": "active"
     },
     {
@@ -3082,7 +3082,7 @@
       "article_id": "e905899f-5f2b-42a4-a2b2-3a0af7f0e0e3",
       "language": "deu",
       "latest_task": "f0063e253c8e49822b908f487d408e99",
-      "processing_status": "in_batch",
+      "processing_status": "queued",
       "reason": "active"
     },
     {
@@ -4095,7 +4095,7 @@
       "article_id": "a7f59621-7083-44ce-8074-6ece8fdfbdcf",
       "language": "fra",
       "latest_task": "25158e63971f858e3307324e1cf156f4",
-      "processing_status": "in_batch",
+      "processing_status": "queued",
       "reason": "active"
     },
     {
@@ -6263,7 +6263,7 @@
       "article_id": "1c698fb4-f4e6-419b-bdcc-1b25cbe2b035",
       "language": "ita",
       "latest_task": "acdd29cb2ee7ffe015c97cbc61a70227",
-      "processing_status": "in_batch",
+      "processing_status": "queued",
       "reason": "active"
     },
     {
@@ -7701,6 +7701,14 @@
     },
     {
       "accepted_cycles": 0,
+      "article_id": "e905899f-5f2b-42a4-a2b2-3a0af7f0e0e3",
+      "language": "nld",
+      "latest_task": "aae37070ca5a69dd177180ddd97b950c",
+      "processing_status": "in_batch",
+      "reason": "active"
+    },
+    {
+      "accepted_cycles": 0,
       "article_id": "f23b48e8-ae04-4469-9ee3-be0e5461cb94",
       "language": "nld",
       "latest_task": "b215d82156b200e23657d7ef004aa36b",
@@ -8625,14 +8633,6 @@
       "request_id": "auto-9cfa7e8527735141a8646f119efce0a2bee9af1ffc7e7a7e5dd0a2c8390a33da"
     },
     {
-      "accepted_cycles": 0,
-      "article_id": "e905899f-5f2b-42a4-a2b2-3a0af7f0e0e3",
-      "language": "por",
-      "latest_task": "e1f1ae77a27d033b4a1c984eea5ff8a4",
-      "processing_status": "in_batch",
-      "reason": "active"
-    },
-    {
       "admission_status": "attention",
       "article_id": "f1f8d898-1108-4e49-9e62-b12667509107",
       "language": "por",
@@ -9214,7 +9214,7 @@
       "article_id": "e905899f-5f2b-42a4-a2b2-3a0af7f0e0e3",
       "language": "rus",
       "latest_task": "ae7f4f0482a1d0b10ea102e55fda87b9",
-      "processing_status": "in_batch",
+      "processing_status": "queued",
       "reason": "active"
     },
     {
@@ -9764,7 +9764,7 @@
       "article_id": "12387934-7e9b-49f7-874a-0e66fa7942d3",
       "language": "swa",
       "latest_task": "462f6e1edba901c4ff9e3503d4eb0eed",
-      "processing_status": "in_batch",
+      "processing_status": "queued",
       "reason": "active"
     },
     {
@@ -11506,7 +11506,7 @@
       "article_id": "a7f59621-7083-44ce-8074-6ece8fdfbdcf",
       "language": "urd",
       "latest_task": "20d592044869c937d9cf50396ba0c250",
-      "processing_status": "in_batch",
+      "processing_status": "queued",
       "reason": "active"
     },
     {
@@ -11677,7 +11677,7 @@
       "article_id": "e905899f-5f2b-42a4-a2b2-3a0af7f0e0e3",
       "language": "urd",
       "latest_task": "7afdfcd0b9d2296622ec6de389364371",
-      "processing_status": "in_batch",
+      "processing_status": "queued",
       "reason": "active"
     },
     {
@@ -11761,7 +11761,7 @@
       "reason": "eligible_automatic"
     }
   ],
-  "settled_unused_usd": 674.182894,
+  "settled_unused_usd": 674.268879,
   "source_revision": "ccefc5a5c3d79409cc78319f94b5490718d30670",
   "spending_policy": "owner-2026-10-29-provider-managed-spending",
   "usage_description": "Provider-reported usage priced at frozen rates; not invoice reconciliation"

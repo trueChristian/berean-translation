@@ -2260,7 +2260,7 @@
   },
   "status": "active",
   "task_counts": {
-    "in_batch": 1
+    "queued": 1
   },
   "tasks": [
     "ae7f4f0482a1d0b10ea102e55fda87b9"
