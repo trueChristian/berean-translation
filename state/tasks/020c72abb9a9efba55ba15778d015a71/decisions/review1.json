@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "translation.html, avsnittet om ortodokse og konservative jødiske menigheter",
+      "severity": "major",
+      "source_quote": "a pitch pipe to give everyone a starting note or a ram’s horn",
+      "suggested_fix": "Erstatt «en stemmegaffel» med «en stemmefløyte» og «et bukkehorn» med «et værhorn». Behold resten av avsnittet og HTML-strukturen.",
+      "translation_quote": "en stemmegaffel for å gi alle en starttone eller et bukkehorn"
+    },
+    {
+      "location": "translation.title",
+      "severity": "minor",
+      "source_quote": "What Is Right About My Music?",
+      "suggested_fix": "Hva er rett ved musikken min?",
+      "translation_quote": "Hva er riktig musikk for meg?"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

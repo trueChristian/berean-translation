@@ -5,11 +5,47 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "60cd2267675e4893aed91ede074554b5",
   "campaign": "auto-132b76e9fcc6555c961646bc7759377b7b61e7ae1a905e90e415113470e1d115",
   "created_at": "2026-11-15T09:53:56+00:00",
-  "events": [],
-  "findings": [],
+  "events": [
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 334,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 95,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6297,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 6294,
+          "cached_tokens": 0
+        },
+        "total_tokens": 6631
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "translation.html, avsnittet om ortodokse og konservative jødiske menigheter",
+      "severity": "major",
+      "source_quote": "a pitch pipe to give everyone a starting note or a ram’s horn",
+      "suggested_fix": "Erstatt «en stemmegaffel» med «en stemmefløyte» og «et bukkehorn» med «et værhorn». Behold resten av avsnittet og HTML-strukturen.",
+      "translation_quote": "en stemmegaffel for å gi alle en starttone eller et bukkehorn"
+    },
+    {
+      "location": "translation.title",
+      "severity": "minor",
+      "source_quote": "What Is Right About My Music?",
+      "suggested_fix": "Hva er rett ved musikken min?",
+      "translation_quote": "Hva er riktig musikk for meg?"
+    }
+  ],
   "id": "020c72abb9a9efba55ba15778d015a71",
   "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
   "language": "nob",
@@ -98,11 +134,13 @@
     }
   },
   "protected": false,
+  "quality_score": 94,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/260c1bc0a2e60abb03e2696891df670db54b5adc252d489f975c9c12eb5a6e38.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "review1",
     "max_candidate_bytes": 120000,
@@ -115,7 +153,7 @@
     "total_reserved_usd": 0.729782,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 0,
   "translation_key": "65790b7f3f0557bbd4601849b5efe70a6391326d0f3933cef69b6e6d8bb48d72",
   "translation_model_actual": "gpt-6-luna"

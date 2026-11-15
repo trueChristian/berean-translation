@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "6bf8dbb6-f20e-493d-9071-27cffcef333b",
+    "response_id": "chatcmpl-EkRZb08ScqFYqqP4PP6MQef5EzSLS",
+    "usage": {
+      "completion_tokens": 334,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 95,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6297,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6294,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6631
+    }
+  },
+  "received_at": "2026-11-15T10:41:49+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "translation.html, avsnittet om ortodokse og konservative jødiske menigheter",
+        "severity": "major",
+        "source_quote": "a pitch pipe to give everyone a starting note or a ram’s horn",
+        "suggested_fix": "Erstatt «en stemmegaffel» med «en stemmefløyte» og «et bukkehorn» med «et værhorn». Behold resten av avsnittet og HTML-strukturen.",
+        "translation_quote": "en stemmegaffel for å gi alle en starttone eller et bukkehorn"
+      },
+      {
+        "location": "translation.title",
+        "severity": "minor",
+        "source_quote": "What Is Right About My Music?",
+        "suggested_fix": "Hva er rett ved musikken min?",
+        "translation_quote": "Hva er riktig musikk for meg?"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 94
+  }
+}
