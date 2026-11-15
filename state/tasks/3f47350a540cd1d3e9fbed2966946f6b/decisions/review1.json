@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraaf oor Philip se kinderjare",
+      "severity": "minor",
+      "source_quote": "“harmonies that seemed like heaven”",
+      "suggested_fix": "Vervang “harmonierversies” met “harmonieë” in die frase “die herinnering aan harmonieë wat soos die hemel geklink het”.",
+      "translation_quote": "“die herinnering aan harmonieversies wat soos die hemel geklink het”"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

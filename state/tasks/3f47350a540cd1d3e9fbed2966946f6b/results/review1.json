@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "74c670c5-bff2-42f4-b3cf-6d17f331e2bf",
+    "response_id": "chatcmpl-EkKXxc13veLRMXN0W0o2YzGOXKd55",
+    "usage": {
+      "completion_tokens": 896,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 771,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7972,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7969,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8868
+    }
+  },
+  "received_at": "2026-11-15T03:01:44+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraaf oor Philip se kinderjare",
+        "severity": "minor",
+        "source_quote": "“harmonies that seemed like heaven”",
+        "suggested_fix": "Vervang “harmonierversies” met “harmonieë” in die frase “die herinnering aan harmonieë wat soos die hemel geklink het”.",
+        "translation_quote": "“die herinnering aan harmonieversies wat soos die hemel geklink het”"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}
