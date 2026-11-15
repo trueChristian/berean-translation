@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "bd75ff00-ab75-42cc-92f0-894c19960806",
+    "response_id": "chatcmpl-EkKbKeT138RF8Q5cgrvQ57fLcKdZK",
+    "usage": {
+      "completion_tokens": 948,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 846,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 12113,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 12110,
+        "cached_tokens": 0
+      },
+      "total_tokens": 13061
+    }
+  },
+  "received_at": "2026-11-15T03:01:11+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, opening paragraph",
+        "severity": "minor",
+        "source_quote": "A Christ-centered Courtship is a series of messages",
+        "suggested_fix": "En Kristus-sentrert kurtiseprosess er en serie budskap",
+        "translation_quote": "Et Kristus-sentrert kurtise er en serie budskap"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}
