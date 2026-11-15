@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "f527dceb66b54a1287283b875d9c12fe",
   "campaign": "auto-8eb78936dcb4610968f44127d1f88aed6e60964cc6718edd95d868c9d3418f35",
   "created_at": "2026-11-15T03:34:21+00:00",
   "events": [
@@ -28,18 +27,31 @@
         },
         "total_tokens": 3794
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 56,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 24,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 2695,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 2692,
+          "cached_tokens": 0
+        },
+        "total_tokens": 2751
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "第一段",
-      "severity": "major",
-      "source_quote": "The English Channel waters flowed broad and deep, never crossed in their entire breadth by any human arm. Fired with ambition to do what none had done before",
-      "suggested_fix": "将“从未有人凭一己之力横渡整个海峡”改为“此前从未有人横渡过整个海峡”，以保留“韦伯之前无人做到”的时间限定，并避免与后文矛盾。",
-      "translation_quote": "英吉利海峡水域宽阔而深邃，从未有人凭一己之力横渡整个海峡。著名游泳运动员马修·韦伯满怀雄心，决心完成前人未曾做到的事"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-11-15T17:20:13+00:00",
   "id": "cc09e165b0ce2761e329fd59c692b5a9",
   "issue_id": "07955de4-6574-4a4b-9c1b-f216374c02ee",
   "language": "cmn",
@@ -128,9 +140,11 @@
     }
   },
   "protected": false,
+  "quality_score": 99,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/a77c134fa5dc80aa7e5f608d8bf402f9cff7d2d8c52b4f05f1b41e3d54f246e5.json",
   "stage": "review2",
   "stage_budget": {
@@ -144,7 +158,7 @@
     "total_reserved_usd": 0.542604,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "b131164df71ee22a3a3eb4a9ab6c3e18fe2ffde3578cd909fb61036b7ebb19d8",
   "translation_model_actual": "gpt-6.1-sol"

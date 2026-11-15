@@ -17271,6 +17271,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/cmn/articles/1f294c3b-4295-4493-8a52-a33af40f298b.html",
+      "html_sha256": "e983e7d75e48a5de88cb4302758e4545ac52b67e2996c19c3f2fa302cd9111db",
+      "human_reviewed": false,
+      "id": "1f294c3b-4295-4493-8a52-a33af40f298b",
+      "images": [
+        {
+          "alt": "从一处岩石观景点望见瀑布，画面中有几个人影。",
+          "public_path": "/images/articles/1f294c3b-4295-4493-8a52-a33af40f298b-1.jpg"
+        }
+      ],
+      "issue_id": "07955de4-6574-4a4b-9c1b-f216374c02ee",
+      "language": "cmn",
+      "language_tag": "zh-Hans",
+      "metadata": "content/cmn/articles/1f294c3b-4295-4493-8a52-a33af40f298b.json",
+      "metadata_sha256": "a2925f255611a6fbaf71eae52f928cf68aaa3050a0979e4cd440dad396c724c6",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": null,
+      "source_revision": "77453848868ffdd6736c58e8c072c5ee12108fc7",
+      "source_translation_key": "b131164df71ee22a3a3eb4a9ab6c3e18fe2ffde3578cd909fb61036b7ebb19d8",
+      "status": "ready",
+      "subtitle": null,
+      "title": "越此无救处",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/cmn/articles/21180900-6bdd-4c06-a4ed-fd0f6b8a3571.html",
       "html_sha256": "e8c46629fa956b1dc47759a26ae5bdfbb0a15b915b113d6580019d14872bc351",
       "human_reviewed": false,
