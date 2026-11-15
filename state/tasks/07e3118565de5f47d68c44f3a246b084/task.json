@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "8e8eed63d6aa4dbe8b0fdf53d221236f",
   "campaign": "auto-4c141ff02478b656824460665a5dde50a24725fdaa374c916efa2baff515a178",
   "created_at": "2026-11-15T03:33:29+00:00",
   "events": [
@@ -68,18 +67,31 @@
         },
         "total_tokens": 14369
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 575,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 537,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9298,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8195,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 9873
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "Paragraph beginning «Το «Το Φως του Κόσμου είναι ο Ιησούς» γράφτηκε»",
-      "severity": "major",
-      "source_quote": "“Mr. Bliss was likely relying on a lamp or a candle.”",
-      "suggested_fix": "Replace «λάμπα πετρελαίου ή κερί» with «λάμπα ή κερί» to avoid specifying a type of lamp not stated in the source.",
-      "translation_quote": "«ο κ. Bliss πιθανότατα χρησιμοποιούσε λάμπα πετρελαίου ή κερί»"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-11-15T17:34:46+00:00",
   "id": "07e3118565de5f47d68c44f3a246b084",
   "issue_id": "103c93e0-6e9a-44f6-a6bc-377af8e08e38",
   "language": "ell",
@@ -168,7 +180,7 @@
     }
   },
   "protected": false,
-  "quality_score": 93,
+  "quality_score": 99,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
@@ -188,7 +200,7 @@
     "total_reserved_usd": 0.089465,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "24f89250b05cd303e73c3df869edd19f173aa57a9d0a95bd0580196d7fe3e789",
   "translation_model_actual": "gpt-6-luna"

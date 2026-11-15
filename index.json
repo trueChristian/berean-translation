@@ -31362,6 +31362,42 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ell/articles/b649c2a3-20b1-4e02-9204-6285b234f34f.html",
+      "html_sha256": "27552b808119926c5de2ec82723537accb67bae444a9d0f5359093525e708e75",
+      "human_reviewed": false,
+      "id": "b649c2a3-20b1-4e02-9204-6285b234f34f",
+      "images": [
+        {
+          "alt": "Πορτρέτο του Philip P. Bliss.",
+          "public_path": "/images/articles/b649c2a3-20b1-4e02-9204-6285b234f34f-1.jpg"
+        },
+        {
+          "alt": "Ανοιχτά λιλά άνθη ανάμεσα σε πράσινα φύλλα.",
+          "public_path": "/images/articles/b649c2a3-20b1-4e02-9204-6285b234f34f-2.jpg"
+        },
+        {
+          "alt": "Η πλήρης παρτιτούρα του ύμνου Το Φως του Κόσμου είναι ο Ιησούς.",
+          "public_path": "/images/articles/b649c2a3-20b1-4e02-9204-6285b234f34f-3.png"
+        }
+      ],
+      "issue_id": "103c93e0-6e9a-44f6-a6bc-377af8e08e38",
+      "language": "ell",
+      "language_tag": "el",
+      "metadata": "content/ell/articles/b649c2a3-20b1-4e02-9204-6285b234f34f.json",
+      "metadata_sha256": "0ac517937d1486d2309aad1d9d4aa773a4cb10a32d3611d47ca6c9f98a27a07c",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "ΙΣΤΟΡΙΑ ΥΜΝΟΥ",
+      "source_revision": "ccefc5a5c3d79409cc78319f94b5490718d30670",
+      "source_translation_key": "24f89250b05cd303e73c3df869edd19f173aa57a9d0a95bd0580196d7fe3e789",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Το Φως του Κόσμου είναι ο Ιησούς",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ell/articles/b72ea42a-1a86-4c21-a399-ebd3013c257b.html",
       "html_sha256": "2bb1f65dcdcb60cda81d3fad56616d3f9a997d2c603b51df50d6dcc3b0192406",
       "human_reviewed": false,
