@@ -42722,6 +42722,34 @@
     },
     {
       "ai_notice_required": true,
+      "direction": "rtl",
+      "html": "content/heb/articles/fe94355d-8741-49a7-8f66-16003daa3f89.html",
+      "html_sha256": "695d07f6241515236c9553faa8cbba61e2231e3c6811e16a67f12ffc49d9f770",
+      "human_reviewed": false,
+      "id": "fe94355d-8741-49a7-8f66-16003daa3f89",
+      "images": [
+        {
+          "alt": "תווים למזמור שכון עמי, הערב יורד במהירות, עם קרדיט להנרי פ. לייט, 1847, ולוויליאם ה. מונק, 1861",
+          "public_path": "/images/articles/fe94355d-8741-49a7-8f66-16003daa3f89-1.png"
+        }
+      ],
+      "issue_id": "1a7070c9-fd4f-546b-a220-f267ddb8cf5f",
+      "language": "heb",
+      "language_tag": "he",
+      "metadata": "content/heb/articles/fe94355d-8741-49a7-8f66-16003daa3f89.json",
+      "metadata_sha256": "cd6dfbf1c6a970e6437b1e54e6c661c41619b3ca5fbdbef55b1576ede96137de",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "סיפורו של מזמור",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "79b5e55e7fb97aab3761e2459a9fb23bb81c9f448b930a8dba60f876efb6606b",
+      "status": "ready",
+      "subtitle": null,
+      "title": "שכון עמי, הערב יורד במהירות",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
       "direction": "ltr",
       "html": "content/hin/articles/01a0a64f-d629-4e05-b1ec-993f86ef4d68.html",
       "html_sha256": "b7bbca631de9da0d6eb401e2862208b937d395a1f65b5f042f88ae801b9112d8",
