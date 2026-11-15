@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraph beginning «A los once años»",
+      "severity": "major",
+      "source_quote": "When he was twelve, he was converted at a revival meeting and became a member of the local Baptist church.",
+      "suggested_fix": "Cuando tenía doce años, se convirtió durante una reunión de avivamiento y pasó a formar parte de la iglesia bautista local.",
+      "translation_quote": "Cuando tenía doce años, se convirtió en una reunión de avivamiento y pasó a formar parte de la iglesia bautista local."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

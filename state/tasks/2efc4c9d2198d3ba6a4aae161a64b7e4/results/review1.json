@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "681f66be-eb16-4301-85bd-99d1d8cfc7ea",
+    "response_id": "chatcmpl-EkJnY7PfIKAoV24AmjVFGLLY6Jrrs",
+    "usage": {
+      "completion_tokens": 724,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 583,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7546,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7543,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8270
+    }
+  },
+  "received_at": "2026-11-15T02:06:16+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, paragraph beginning «A los once años»",
+        "severity": "major",
+        "source_quote": "When he was twelve, he was converted at a revival meeting and became a member of the local Baptist church.",
+        "suggested_fix": "Cuando tenía doce años, se convirtió durante una reunión de avivamiento y pasó a formar parte de la iglesia bautista local.",
+        "translation_quote": "Cuando tenía doce años, se convirtió en una reunión de avivamiento y pasó a formar parte de la iglesia bautista local."
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 94
+  }
+}
