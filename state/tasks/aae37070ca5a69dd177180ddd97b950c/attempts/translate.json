@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-15T22:00:31+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"e905899f-5f2b-42a4-a2b2-3a0af7f0e0e3\\\">\\n  <p>Groeten aan allen in de naam van Jezus! Met grote vreugde presenteren we deze speciale editie van <em>The Heartbeat of the Remnant</em>. Toen ik voor het eerst begon met het verzamelen van de artikelen waarvan ik vond dat ze absoluut <em>moesten</em> worden opgenomen in deze speciale uitgave, kwam ik uit op ongeveer 115! Het spreekt vanzelf dat ik flink moest schrappen! Het was een vreugde om deze speciale uitgave samen te stellen. Het idee achter deze speciale uitgave is om een indruk te geven van de soorten artikelen die de Heer de afgelopen jaren op ons hart heeft gelegd.</p>\\n  <p><strong>Wie zijn wij?</strong> <em>The Heartbeat of the Remnant</em> is een kwartaalblad van Charity Christian Fellowship en Charity Ministries in Lancaster County, Pennsylvania. <em>The Heartbeat of the Remnant</em> begon als een plaatselijke nieuwsbrief voor evangelisatiewerk en heeft inmiddels duizenden lezers over de hele wereld bereikt. Vanuit het rijke anabaptistische erfgoed van Lancaster County heeft Charity Christian Fellowship ernaar gestreefd een sterke bijbelse orthodoxie te handhaven, met een oprecht verlangen naar opwekking en radicaal christelijk leven. Hoewel het tijdschrift in het algemeen een anabaptistische koers aanhoudt, wil het geen specifieke theologie, denominatie, kerk of persoon verheerlijken. Ons verlangen is alleen de Naam van Jezus te verheerlijken.</p>\\n  <p>Het tijdschrift bevat artikelen uit een grote verscheidenheid aan christelijke bronnen, met getuigenissen van de oudheid tot nu. We herdrukken regelmatig artikelen van predikers uit opwekkingstijden en geschiedkundige verhalen, zendingsverhalen, verslagen van vervolging en martelaren uit de vroege kerk, uitdagende puriteinse schrijvers en methodistische rondreizende predikers, evenals hedendaagse predikers. Sommige besproken onderwerpen kunnen worden beschouwd als strijdig met moderne Amerikaanse idealen, zoals bescheiden kleding, de gevaren van werelds vermaak, de opvoeding van kinderen, de rollen van mannen en vrouwen, echtscheiding, materialisme en zelfs oorlog en geweldloosheid. Maar ook in deze zaken willen we niet ‘gedreven worden door kwesties’, noch beweren dat wij het laatste woord hebben over elk controversieel onderwerp. In plaats daarvan willen we ons door de Geest laten leiden, terwijl we Gods wil en hart proberen te leren kennen met betrekking tot deze moeilijke kwesties uit het echte leven. Het is altijd ons verlangen dat God deze dingen in ons leven alleen door Zijn genade tot stand brengt.</p>\\n  <p>We nodigen u uit om samen met ons te bidden om de uitstorting van Gods Geest over ons eigen persoonlijke leven en over het leven van de Kerk in elk land! Het is ons verlangen dat deze publicatie u mag sterken en bemoedigen in uw navolging van Jezus.</p>\\n  <p>Sinds het ontstaan ervan is <em>The Heartbeat of the Remnant</em> u gratis ter beschikking gesteld dankzij de vrijwillige gaven van Gods volk. Een abonnement is op aanvraag verkrijgbaar. Een speciaal ‘dank u wel’ aan allen die dit werk steunen. Moge de Heer ieder van u zegenen terwijl u deze speciale editie van <em>The Heartbeat of the Remnant</em> leest.</p>\\n  <p class=\\\"signoff\\\">Broeder Dean Taylor</p>\\n</article>\\n\",\"section\":\"Van de redactie...\",\"subtitle\":null,\"title\":\"Van de redactie...\"}",
+    "content_bytes": 3376,
+    "content_evidence_truncated": false,
+    "content_sha256": "b69b52ccaa831f47e30cfeb2786a14f31f4712ab5f5e799286cadbb0e046f2d9",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 882,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 74,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1519,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1516,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2401
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}
