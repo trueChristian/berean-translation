@@ -1,0 +1,56 @@
+{
+  "allocation_usd": 0.73305,
+  "authority_sha256": "f7a93a27a83b2a7a3e100376763e7eda0b31fd0cd4cced006b91038ff21f26cc",
+  "batches": [
+    {
+      "attempts": [
+        {
+          "evidence_sha256": "cebb183468fd21d48990925ec024f41c56d3c5db2488b75ea4bf50be70a756b4",
+          "priced_usage_usd": 0.008768,
+          "stage": "review1",
+          "task": "0cc91f5c037011964ef4bb11693ef4b1"
+        }
+      ],
+      "batch": "66ded49da061486bbe07038398ff10d0",
+      "payload_sha256": "042df95764c2f4ce291d2e420e4520b85b05f0bc96497eaeceb9a39b38fc2d33",
+      "remote_id": "batch_6af8d461756c8190832ed720ba8ad226",
+      "remote_status": "completed"
+    },
+    {
+      "attempts": [
+        {
+          "evidence_sha256": "8270e2ca1e58af5f5c2902798e9e15e89ffa5ff1b1c32b35feb21c1daace175f",
+          "priced_usage_usd": 0.02123835,
+          "stage": "correct",
+          "task": "0cc91f5c037011964ef4bb11693ef4b1"
+        }
+      ],
+      "batch": "b2c8158a3b0d4921b3ffb0c9e029e861",
+      "payload_sha256": "894a7ea81219bc243aa7c3c039b10c5e5d515180ac8a6f030f00ee341c51373e",
+      "remote_id": "batch_6af8db621ee08190bdb551deb767eafa",
+      "remote_status": "completed"
+    },
+    {
+      "attempts": [
+        {
+          "evidence_sha256": "818e374be1d68f7db74303be3275afeb967e1788caaa33e403d31a9d7813364b",
+          "priced_usage_usd": 0.00829175,
+          "stage": "review2",
+          "task": "0cc91f5c037011964ef4bb11693ef4b1"
+        }
+      ],
+      "batch": "f3beeed5ea1a4a918c537fe66760e504",
+      "payload_sha256": "52b1060b65107061c840588f4d582cc85af535502401bafc9fd0fc271fb3425d",
+      "remote_id": "batch_6af8eebebd90819090ab5af7e2eed147",
+      "remote_status": "completed"
+    }
+  ],
+  "campaign": "auto-a93aa856d25f76b57cd8e16145b633d4e3d1e86e225cb124a7e4551977bdd2ec",
+  "provider_reported_usage_priced_usd": 0.038299,
+  "released_usd": 0.694751,
+  "sha256": "af320c151782c358c8b8389a3602ac06077f595da9199337b5a5cd6d3623200d",
+  "tasks": {
+    "0cc91f5c037011964ef4bb11693ef4b1": "0873b4da96840d9d0af428a3eff4242d8e47ffd34919c99d6edf12004a68ded3"
+  },
+  "version": 1
+}
