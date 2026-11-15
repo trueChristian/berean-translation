@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "9f0ac3f30e9e4cd185ebe2557f5d1019",
   "campaign": "auto-be1fe033b0c37cdf2cba79b39f73ee2fe284cc3d83995ff0f223dcb040865e32",
   "created_at": "2026-11-12T13:54:54+00:00",
   "events": [
@@ -68,18 +67,31 @@
         },
         "total_tokens": 17958
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 798,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 760,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 12145,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 11042,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 12943
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "Opening paragraph",
-      "severity": "major",
-      "source_quote": "A Christ-centered Courtship is a series of messages on godly courtship",
-      "suggested_fix": "La cour centrée sur le Christ est une série de messages sur la cour selon la volonté de Dieu",
-      "translation_quote": "La cour faite au Christ est une série de messages sur la cour faite selon la volonté de Dieu"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-11-15T02:21:45+00:00",
   "id": "d23d88799bad94459a5a115a9decbc1d",
   "issue_id": "103c93e0-6e9a-44f6-a6bc-377af8e08e38",
   "language": "fra",
@@ -168,7 +180,7 @@
     }
   },
   "protected": false,
-  "quality_score": 93,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
@@ -188,7 +200,7 @@
     "total_reserved_usd": 0.092125,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "168a1108b0cb584118665d0d4048559fb86bb1444e057e3646ac49c743cf2917",
   "translation_model_actual": "gpt-6-luna"
