@@ -36745,6 +36745,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/fra/articles/a7f59621-7083-44ce-8074-6ece8fdfbdcf.html",
+      "html_sha256": "f034463ca7974efab34aca3d8eebcb8c62edd347cb4424c4abf4877059d2ed2e",
+      "human_reviewed": false,
+      "id": "a7f59621-7083-44ce-8074-6ece8fdfbdcf",
+      "images": [
+        {
+          "alt": "Une étroite porte en bois entre des murs blancs",
+          "public_path": "/images/articles/a7f59621-7083-44ce-8074-6ece8fdfbdcf-1.jpg"
+        }
+      ],
+      "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
+      "language": "fra",
+      "language_tag": "fr",
+      "metadata": "content/fra/articles/a7f59621-7083-44ce-8074-6ece8fdfbdcf.json",
+      "metadata_sha256": "f6fef4f507a393347964d2cc2a2cb1a11a510bfbde0a01ac2c549e9b981726c5",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "DOCTRINES BIBLIQUES",
+      "source_revision": "a069ecca8827634ebc256b3b1cabc16aeb942ed7",
+      "source_translation_key": "f7c753eaec7cab461389c398af8410c2a13a7ef5a7c84c987fe4dfe4c20f33bc",
+      "status": "ready",
+      "subtitle": null,
+      "title": "La porte étroite qui mène à la vie",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/fra/articles/a9c1e70c-906d-4eda-ad05-2789badb2369.html",
       "html_sha256": "e5aaafa280ed6b63e9021753e36b2e4dc10d07bc37ce5c348e72bb3d414f39a1",
       "human_reviewed": false,
