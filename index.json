@@ -52863,6 +52863,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ind/articles/a7f59621-7083-44ce-8074-6ece8fdfbdcf.html",
+      "html_sha256": "08c1cff7cb0ea8b878c33e3451d5fe7dc5e9f35c9e3cf505194fc377ab7ebaf7",
+      "human_reviewed": false,
+      "id": "a7f59621-7083-44ce-8074-6ece8fdfbdcf",
+      "images": [
+        {
+          "alt": "Gerbang kayu sempit di antara tembok-tembok putih",
+          "public_path": "/images/articles/a7f59621-7083-44ce-8074-6ece8fdfbdcf-1.jpg"
+        }
+      ],
+      "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
+      "language": "ind",
+      "language_tag": "id",
+      "metadata": "content/ind/articles/a7f59621-7083-44ce-8074-6ece8fdfbdcf.json",
+      "metadata_sha256": "f343b57b0bb7fd8b11b6dbd7c284ed76ba5b48be1c9e3a485a9fabb4200c072c",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "AJARAN ALKITAB",
+      "source_revision": "a069ecca8827634ebc256b3b1cabc16aeb942ed7",
+      "source_translation_key": "f7c753eaec7cab461389c398af8410c2a13a7ef5a7c84c987fe4dfe4c20f33bc",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Pintu Gerbang Sempit Menuju Kehidupan",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ind/articles/a9c1e70c-906d-4eda-ad05-2789badb2369.html",
       "html_sha256": "16fc789573942e0b0790cfa86aad5e90feeb9a3509ebdf8afbef49c7b67067da",
       "human_reviewed": false,
