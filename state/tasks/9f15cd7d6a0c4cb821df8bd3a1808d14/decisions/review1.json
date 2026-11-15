@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph beginning “About five years later”",
+      "severity": "major",
+      "source_quote": "“He was invited to join D.L. Moody and Daniel W. Whittle in their full-time evangelistic work.”",
+      "suggested_fix": "«Его пригласили присоединиться к Д. Л. Муди и Дэниелу У. Уиттлу и участвовать в их постоянном евангелизационном служении.»",
+      "translation_quote": "«Его пригласили присоединиться к Д. Л. Муди и Дэниелу У. Уиттлу в их полномасштабном евангелизационном служении.»"
+    },
+    {
+      "location": "Paragraph beginning “Philip Bliss’s life ended tragically”",
+      "severity": "major",
+      "source_quote": "“Philip Bliss, who had escaped the wreck unharmed, went back for his wife”",
+      "suggested_fix": "«Филип Блисс, которому удалось выбраться из обломков невредимым, вернулся за женой»",
+      "translation_quote": "«Филип Блисс, которому удалось выбраться из wreckage невредимым, вернулся за женой»"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
