@@ -63045,6 +63045,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/kor/articles/86459f54-72b0-4be2-a101-02b3c9462f6c.html",
+      "html_sha256": "8cbbf429d6ca52875fa414eb9ff9fd1b36cbda3a9c7f2b51c2dcacc27f181bd9",
+      "human_reviewed": false,
+      "id": "86459f54-72b0-4be2-a101-02b3c9462f6c",
+      "images": [
+        {
+          "alt": "펼쳐진 악보 옆의 피아노 건반",
+          "public_path": "/images/articles/86459f54-72b0-4be2-a101-02b3c9462f6c-1.jpg"
+        }
+      ],
+      "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
+      "language": "kor",
+      "language_tag": "ko",
+      "metadata": "content/kor/articles/86459f54-72b0-4be2-a101-02b3c9462f6c.json",
+      "metadata_sha256": "954b59092694ee61df7d2b47b6b6578343b059d549588e3b50f59c2928b67c43",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "청년을 위한 영감",
+      "source_revision": "a069ecca8827634ebc256b3b1cabc16aeb942ed7",
+      "source_translation_key": "65790b7f3f0557bbd4601849b5efe70a6391326d0f3933cef69b6e6d8bb48d72",
+      "status": "ready",
+      "subtitle": null,
+      "title": "내 음악의 어떤 점이 옳은가요?",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/kor/articles/88345a38-6c33-495a-8407-f0fda29b67e0.html",
       "html_sha256": "e3b9f873457d339ea08df00b8d746ad6eef2ca9bf14bf59189eaf91cab1d6621",
       "human_reviewed": false,
