@@ -74609,6 +74609,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/nob/articles/86459f54-72b0-4be2-a101-02b3c9462f6c.html",
+      "html_sha256": "5955de492c58f4e93ee1c59b28a6800e9920325fbce2ad5a5fb5fd01358f2b89",
+      "human_reviewed": false,
+      "id": "86459f54-72b0-4be2-a101-02b3c9462f6c",
+      "images": [
+        {
+          "alt": "Pianotangenter ved siden av åpne noter",
+          "public_path": "/images/articles/86459f54-72b0-4be2-a101-02b3c9462f6c-1.jpg"
+        }
+      ],
+      "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
+      "language": "nob",
+      "language_tag": "nb",
+      "metadata": "content/nob/articles/86459f54-72b0-4be2-a101-02b3c9462f6c.json",
+      "metadata_sha256": "a351816116029fec259cd57719497905ad9d82523bd068675850d6e6cb0389ce",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "INSPIRASJON FOR UNGDOM",
+      "source_revision": "a069ecca8827634ebc256b3b1cabc16aeb942ed7",
+      "source_translation_key": "65790b7f3f0557bbd4601849b5efe70a6391326d0f3933cef69b6e6d8bb48d72",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Hva er rett ved musikken min?",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/nob/articles/88345a38-6c33-495a-8407-f0fda29b67e0.html",
       "html_sha256": "8047fb93695cfbaf1f2e6ead2776408ecb6042efe5c060b253b292fe5ab341bb",
       "human_reviewed": false,
