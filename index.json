@@ -51100,6 +51100,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ind/articles/682dc04d-bea3-4325-ac73-926bb3396990.html",
+      "html_sha256": "32171ebaec84c0437f097c7d2141ff550b9b94053bf2a569a2a5b5187ec58f66",
+      "human_reviewed": false,
+      "id": "682dc04d-bea3-4325-ac73-926bb3396990",
+      "images": [
+        {
+          "alt": "Hamburger, hot dog, kentang goreng, nugget, sayap ayam, dan keripik kentang.",
+          "public_path": "/images/articles/682dc04d-bea3-4325-ac73-926bb3396990-1.jpg"
+        },
+        {
+          "alt": "Salmon, beri, kacang-kacangan, sayuran berdaun hijau, dan tomat di atas permukaan berwarna pucat.",
+          "public_path": "/images/articles/682dc04d-bea3-4325-ac73-926bb3396990-2.jpg"
+        }
+      ],
+      "issue_id": "103c93e0-6e9a-44f6-a6bc-377af8e08e38",
+      "language": "ind",
+      "language_tag": "id",
+      "metadata": "content/ind/articles/682dc04d-bea3-4325-ac73-926bb3396990.json",
+      "metadata_sha256": "ec659a02a88032fd498b07645a40052bfb3a9b38093fb9d94d3b6c91c7592639",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "SEPATAH KATA DARI DOKTER",
+      "source_revision": "ccefc5a5c3d79409cc78319f94b5490718d30670",
+      "source_translation_key": "e08824e3e33290c1dfae2fe095d30369d2527145b6b1d02261193ad339207a52",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Bahaya Makanan Ultra-Proses",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ind/articles/683a4e23-acbb-434a-8e0e-2b0793e1a0fb.html",
       "html_sha256": "b657f43eb572ca19fd20a2643e6c59e20b1a72b30abc470138dd9586108f3dab",
       "human_reviewed": false,

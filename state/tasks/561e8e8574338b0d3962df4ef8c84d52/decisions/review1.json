@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML paragraph 2, ingredient quantities",
+      "severity": "minor",
+      "source_quote": "“a couple tablespoons of olive oil, a couple tablespoons of sugar ... and a couple teaspoons of yeast”",
+      "suggested_fix": "Ganti ketiga frasa “beberapa” yang merujuk pada takaran tersebut dengan “dua”: “dua sendok makan minyak zaitun, dua sendok makan gula ... dan dua sendok teh ragi.”",
+      "translation_quote": "“beberapa sendok makan minyak zaitun, beberapa sendok makan gula ... dan beberapa sendok teh ragi”"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

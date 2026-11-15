@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "117692eab8804f2396369befb450d6c5",
   "campaign": "auto-d13af21bb22fe4e2fecd1c72f5ec88b9e5f63e83c74b482c11c5465e64141dcb",
   "created_at": "2026-11-13T22:54:14+00:00",
   "events": [
@@ -28,10 +27,39 @@
         },
         "total_tokens": 8292
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 664,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 512,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8646,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8643,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9310
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "HTML paragraph 2, ingredient quantities",
+      "severity": "minor",
+      "source_quote": "“a couple tablespoons of olive oil, a couple tablespoons of sugar ... and a couple teaspoons of yeast”",
+      "suggested_fix": "Ganti ketiga frasa “beberapa” yang merujuk pada takaran tersebut dengan “dua”: “dua sendok makan minyak zaitun, dua sendok makan gula ... dan dua sendok teh ragi.”",
+      "translation_quote": "“beberapa sendok makan minyak zaitun, beberapa sendok makan gula ... dan beberapa sendok teh ragi”"
+    }
+  ],
+  "finished_at": "2026-11-15T22:14:25+00:00",
   "id": "561e8e8574338b0d3962df4ef8c84d52",
   "issue_id": "103c93e0-6e9a-44f6-a6bc-377af8e08e38",
   "language": "ind",
@@ -120,9 +148,11 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/6cf42eaf0f3d9ca7b5f07190bec4156dfc04c035131d8744e9546737010a85ea.json",
   "stage": "review1",
   "stage_budget": {
@@ -138,7 +168,7 @@
     "total_reserved_usd": 0.090165,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "e08824e3e33290c1dfae2fe095d30369d2527145b6b1d02261193ad339207a52",
   "translation_model_actual": "gpt-6-luna"
