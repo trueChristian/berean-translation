@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "translation.html، فقرة «…قادة الكنيسة»، اقتباس صموئيل الأول 15:23",
+      "severity": "major",
+      "source_quote": "and stubbornness is as iniquity and idolatry",
+      "suggested_fix": "استبدل «والعناد كالوَثَن والترافيم» بـ«والعناد كالإثم وعبادة الأوثان»، مع إبقاء وسم الاقتباس والمرجع كما هما.",
+      "translation_quote": "والعناد كالوَثَن والترافيم"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

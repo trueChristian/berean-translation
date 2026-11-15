@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-15T21:45:45+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"translation.html، فقرة «…قادة الكنيسة»، اقتباس صموئيل الأول 15:23\",\"severity\":\"major\",\"source_quote\":\"and stubbornness is as iniquity and idolatry\",\"suggested_fix\":\"استبدل «والعناد كالوَثَن والترافيم» بـ«والعناد كالإثم وعبادة الأوثان»، مع إبقاء وسم الاقتباس والمرجع كما هما.\",\"translation_quote\":\"والعناد كالوَثَن والترافيم\"}],\"findings_complete\":true,\"passed\":false,\"score\":94}",
+    "content_bytes": 560,
+    "content_evidence_truncated": false,
+    "content_sha256": "df3c7e1d4a1a890b1555aba4fdd664fc1d14b43d5117ca5eee9c10e03a77e9eb",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 308,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 164,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9739,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8636,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 10047
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}
