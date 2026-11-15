@@ -51353,6 +51353,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ind/articles/86459f54-72b0-4be2-a101-02b3c9462f6c.html",
+      "html_sha256": "668b591ca6ff8c592ea5c9f05492b77f895ffad96cf402ab29fe93837d57384d",
+      "human_reviewed": false,
+      "id": "86459f54-72b0-4be2-a101-02b3c9462f6c",
+      "images": [
+        {
+          "alt": "Tuts piano di samping partitur musik yang terbuka",
+          "public_path": "/images/articles/86459f54-72b0-4be2-a101-02b3c9462f6c-1.jpg"
+        }
+      ],
+      "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
+      "language": "ind",
+      "language_tag": "id",
+      "metadata": "content/ind/articles/86459f54-72b0-4be2-a101-02b3c9462f6c.json",
+      "metadata_sha256": "93f679dcf426a4c04df57f07c6f414c4c6e0a53f7775319f7a0c3c0eff03e246",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "INSPIRASI BAGI KAUM MUDA",
+      "source_revision": "a069ecca8827634ebc256b3b1cabc16aeb942ed7",
+      "source_translation_key": "65790b7f3f0557bbd4601849b5efe70a6391326d0f3933cef69b6e6d8bb48d72",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Apa yang Benar tentang Musik Saya?",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ind/articles/88345a38-6c33-495a-8407-f0fda29b67e0.html",
       "html_sha256": "e5c662908447d05dabecd82360a93b906f86308c78edd7af6e6606b4bbe7daf7",
       "human_reviewed": false,
