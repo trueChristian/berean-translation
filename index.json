@@ -22356,6 +22356,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/deu/articles/11b11932-7978-4944-8e7e-16e48c9aef1a.html",
+      "html_sha256": "a60788bbe6e9f1f25ee2768f42f2f626d87424ecb63dae5f0bfe92df3420ff07",
+      "human_reviewed": false,
+      "id": "11b11932-7978-4944-8e7e-16e48c9aef1a",
+      "images": [
+        {
+          "alt": "Notenblatt zu „Ich liebe dein Reich, Herr“",
+          "public_path": "/images/articles/11b11932-7978-4944-8e7e-16e48c9aef1a-1.png"
+        }
+      ],
+      "issue_id": "1933c1f0-be1f-561a-b470-79a5ced64c04",
+      "language": "deu",
+      "language_tag": "de",
+      "metadata": "content/deu/articles/11b11932-7978-4944-8e7e-16e48c9aef1a.json",
+      "metadata_sha256": "f5f8952451f788ce0c25bf0f24ad537ad4e5e28d928f09aa461ea37c8a16acee",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": null,
+      "source_revision": "22388745ad7f149609e65f5e28cfcc1257cd689e",
+      "source_translation_key": "0909973cbc1bb329a9158b8c472186d076cf2be0b1079ce7609876483c5ae70e",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Ich liebe dein Reich, Herr",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/deu/articles/12387934-7e9b-49f7-874a-0e66fa7942d3.html",
       "html_sha256": "6fd75009aa439a285afc2e911eda7a5a2139f3d00ba730eaa06e069391581c68",
       "human_reviewed": false,
