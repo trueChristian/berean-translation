@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "c7bac4f2-90ff-4317-a97d-b44a8da535ce",
+    "response_id": "chatcmpl-EkKcRfgzIPsjJjwMhyxEvib0VZK6z",
+    "usage": {
+      "completion_tokens": 169,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 40,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7222,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6119,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 7391
+    }
+  },
+  "received_at": "2026-11-15T03:01:31+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "translation.html, aya ya 2, sentensi ya mwisho",
+        "severity": "minor",
+        "source_quote": "so, likely, this will become a new reality as well.",
+        "suggested_fix": "Badili “kwa hiyo, huenda hili pia likawa jambo jipya la halisi” kuwa “kwa hiyo, huenda hili pia likawa jambo jipya la kweli”.",
+        "translation_quote": "kwa hiyo, huenda hili pia likawa jambo jipya la halisi."
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}

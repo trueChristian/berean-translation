@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "translation.html, aya ya 2, sentensi ya mwisho",
+      "severity": "minor",
+      "source_quote": "so, likely, this will become a new reality as well.",
+      "suggested_fix": "Badili “kwa hiyo, huenda hili pia likawa jambo jipya la halisi” kuwa “kwa hiyo, huenda hili pia likawa jambo jipya la kweli”.",
+      "translation_quote": "kwa hiyo, huenda hili pia likawa jambo jipya la halisi."
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}
