@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-15T10:07:26+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"e905899f-5f2b-42a4-a2b2-3a0af7f0e0e3\\\">\\n  <p>¡Saludos a todos en el nombre de Jesús! Nos llena de gran entusiasmo presentar esta edición especial de <em>The Heartbeat of the Remnant</em>. Cuando me propuse reunir los artículos que sentía que <em>tenían</em> que incluirse absolutamente en este número especial, ¡terminé con aproximadamente 115! No hace falta decir que tuve que recortar un poco. Ha sido un gozo preparar este número especial. La idea de esta edición especial es presentar una muestra de los tipos de artículos que el Señor ha puesto en nuestro corazón durante los últimos años.</p>\\n  <p><strong>¿Quiénes somos?</strong> <em>The Heartbeat of the Remnant</em> es una revista trimestral de Charity Christian Fellowship y Charity Ministries del condado de Lancaster, Pensilvania. Lo que comenzó como un boletín de alcance local, <em>The Heartbeat of the Remnant</em> ha crecido hasta llegar a miles de lectores en todo el mundo. Con raíces en la rica herencia anabaptista del condado de Lancaster, Charity Christian Fellowship se ha esforzado por mantener una sólida ortodoxia bíblica, junto con un sincero clamor del corazón por el avivamiento y una vida cristiana radical. Aunque en general mantiene una orientación anabaptista, la revista no pretende promover ninguna teología, denominación, iglesia ni persona en particular. Nuestro único deseo es glorificar el Nombre de Jesús.</p>\\n  <p>La revista presenta artículos de una gran variedad de fuentes cristianas, desde testimonios antiguos hasta contemporáneos. A menudo reimprimimos artículos de predicadores del avivamiento y relatos históricos, historias de misioneros, relatos de las pruebas y los mártires de los primeros cristianos, escritos desafiantes de puritanos y predicadores metodistas itinerantes, así como de predicadores contemporáneos. Algunos de los temas que se tratan pueden considerarse contrarios a los ideales estadounidenses modernos, como la modestia en el vestir, los peligros de los entretenimientos mundanos, la crianza de los hijos, los roles de hombres y mujeres, el divorcio, el materialismo e incluso la guerra y la no resistencia. Sin embargo, incluso en estos temas, no queremos estar “centrados en cuestiones” ni afirmar que tenemos la última palabra sobre cada asunto controvertido. Más bien, deseamos ser “guiados por el Espíritu” mientras procuramos conocer la voluntad y el corazón de Dios en relación con estos asuntos difíciles y reales de la vida. Nuestro deseo es siempre que Dios lleve estas cosas a cabo en nuestras vidas únicamente por su gracia.</p>\\n  <p>Los invitamos a orar con nosotros para que el Espíritu de Dios se derrame sobre nuestras propias vidas personales y sobre la vida de la Iglesia en todas las tierras. Deseamos que esta publicación los fortalezca y anime en su búsqueda de Jesús.</p>\\n  <p>Desde sus inicios, <em>The Heartbeat of the Remnant</em> ha estado a su disposición sin costo alguno, gracias a las ofrendas voluntarias del pueblo de Dios. Se puede solicitar una suscripción. Un agradecimiento especial a todos los que apoyan este ministerio. Que el Señor bendiga a cada uno de ustedes al leer esta edición especial de <em>The Heartbeat of the Remnant</em>.</p>\\n  <p class=\\\"signoff\\\">Hno. Dean Taylor</p>\\n</article>\\n\",\"section\":\"Del editor...\",\"subtitle\":null,\"title\":\"Del editor...\"}",
+    "content_bytes": 3426,
+    "content_evidence_truncated": false,
+    "content_sha256": "dde1f28ae8517d596164744d427e5ade109ee589437a1d27eb9d6b26f2722e61",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 894,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 94,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1524,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1521,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2418
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}
