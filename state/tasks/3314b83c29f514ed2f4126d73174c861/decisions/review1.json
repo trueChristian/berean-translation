@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph 3",
+      "severity": "major",
+      "source_quote": "“war and nonresistance”",
+      "suggested_fix": "Replace «اللاعنف» with «عدم المقاومة» (or «الامتناع عن المقاومة») to convey the Christian principle of nonresistance.",
+      "translation_quote": "«الحرب واللاعنف»"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

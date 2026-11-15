@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "89d246f27df04809815007f9e1f4aa25",
   "campaign": "auto-0262ea22c49d6105666a270377b50294ac0bd02d826c2876a17dd5504476ce09",
   "created_at": "2026-11-15T09:53:19+00:00",
   "events": [
@@ -28,10 +27,38 @@
         },
         "total_tokens": 2527
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 577,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 478,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 2729,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 1626,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 3306
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "Paragraph 3",
+      "severity": "major",
+      "source_quote": "“war and nonresistance”",
+      "suggested_fix": "Replace «اللاعنف» with «عدم المقاومة» (or «الامتناع عن المقاومة») to convey the Christian principle of nonresistance.",
+      "translation_quote": "«الحرب واللاعنف»"
+    }
+  ],
   "id": "3314b83c29f514ed2f4126d73174c861",
   "issue_id": "14962b7b-2d94-5b43-a4c6-bbb78f074d1a",
   "language": "ara",
@@ -120,11 +147,13 @@
     }
   },
   "protected": false,
+  "quality_score": 92,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/e3530609551595f0d5905092141d03f4af2c1e2a1a26f0cb713cfbd5df2545ad.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "translate",
     "max_candidate_bytes": 120000,
@@ -138,7 +167,7 @@
     "total_reserved_usd": 0.08655,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "1d04ac46996031206a2ceace35a02ae4625ee12e63800047409c8827bb2474ab",
   "translation_model_actual": "gpt-6-luna"
