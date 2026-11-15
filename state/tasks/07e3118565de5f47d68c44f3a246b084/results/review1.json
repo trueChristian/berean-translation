@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "9c11b507-fced-4a82-98cb-c2bcbc454d2a",
+    "response_id": "chatcmpl-EkSlfdfjrhtuAKrvNyK3RwLFry00l",
+    "usage": {
+      "completion_tokens": 1136,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 979,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9304,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 9301
+      },
+      "total_tokens": 10440
+    }
+  },
+  "received_at": "2026-11-15T17:05:36+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph beginning «Το «Το Φως του Κόσμου είναι ο Ιησούς» γράφτηκε»",
+        "severity": "major",
+        "source_quote": "“Mr. Bliss was likely relying on a lamp or a candle.”",
+        "suggested_fix": "Replace «λάμπα πετρελαίου ή κερί» with «λάμπα ή κερί» to avoid specifying a type of lamp not stated in the source.",
+        "translation_quote": "«ο κ. Bliss πιθανότατα χρησιμοποιούσε λάμπα πετρελαίου ή κερί»"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 93
+  }
+}

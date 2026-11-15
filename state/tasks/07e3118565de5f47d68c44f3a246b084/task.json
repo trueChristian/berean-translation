@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "2e31acc354e14208b6f1a266cc90c899",
   "campaign": "auto-4c141ff02478b656824460665a5dde50a24725fdaa374c916efa2baff515a178",
   "created_at": "2026-11-15T03:33:29+00:00",
   "events": [
@@ -28,10 +27,38 @@
         },
         "total_tokens": 8980
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1136,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 979,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9304,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 0,
+          "cached_tokens": 9301
+        },
+        "total_tokens": 10440
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "Paragraph beginning «Το «Το Φως του Κόσμου είναι ο Ιησούς» γράφτηκε»",
+      "severity": "major",
+      "source_quote": "“Mr. Bliss was likely relying on a lamp or a candle.”",
+      "suggested_fix": "Replace «λάμπα πετρελαίου ή κερί» with «λάμπα ή κερί» to avoid specifying a type of lamp not stated in the source.",
+      "translation_quote": "«ο κ. Bliss πιθανότατα χρησιμοποιούσε λάμπα πετρελαίου ή κερί»"
+    }
+  ],
   "id": "07e3118565de5f47d68c44f3a246b084",
   "issue_id": "103c93e0-6e9a-44f6-a6bc-377af8e08e38",
   "language": "ell",
@@ -120,11 +147,13 @@
     }
   },
   "protected": false,
+  "quality_score": 93,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/392e29d7ab3a4b5f37672fe4d49e2af1f3f480a0dd0aa93781ead79a48d2a559.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "translate",
     "max_candidate_bytes": 120000,
@@ -138,7 +167,7 @@
     "total_reserved_usd": 0.089465,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "24f89250b05cd303e73c3df869edd19f173aa57a9d0a95bd0580196d7fe3e789",
   "translation_model_actual": "gpt-6-luna"

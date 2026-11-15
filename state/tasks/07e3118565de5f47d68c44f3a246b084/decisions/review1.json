@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph beginning «Το «Το Φως του Κόσμου είναι ο Ιησούς» γράφτηκε»",
+      "severity": "major",
+      "source_quote": "“Mr. Bliss was likely relying on a lamp or a candle.”",
+      "suggested_fix": "Replace «λάμπα πετρελαίου ή κερί» with «λάμπα ή κερί» to avoid specifying a type of lamp not stated in the source.",
+      "translation_quote": "«ο κ. Bliss πιθανότατα χρησιμοποιούσε λάμπα πετρελαίου ή κερί»"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
