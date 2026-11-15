@@ -1,0 +1,206 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "7e0c55dd-de05-4c8b-986f-0fb591ee0a26",
+    "response_id": "chatcmpl-EkJnAwpr99xA7HwtzqmddDWebSWG4",
+    "usage": {
+      "completion_tokens": 4078,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 58,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6986,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5883,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 11064
+    }
+  },
+  "received_at": "2026-11-15T02:06:12+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "html, paragraph 1",
+        "severity": "major",
+        "source_quote": "Nothing that we have said or done can be recalled and re-lived.",
+        "suggested_fix": "Replace the sentence with: “Hakuna tulichosema au kutenda kinachoweza kurudishwa na kuishiwa tena.”",
+        "translation_quote": "Hakuna kitu tunachosema au kufanya tunaweza kukirekebisha au kuishi tena."
+      },
+      {
+        "location": "html, paragraph 2",
+        "severity": "major",
+        "source_quote": "produce detailed minutes of that meeting with a fair degree of accuracy",
+        "suggested_fix": "Replace with “itatayarisha kumbukumbu za kina za mkutano huo kwa kiwango cha kuridhisha cha usahihi”. “Minutes” here means meeting records, not units of time.",
+        "translation_quote": "itatengeneza dakika za mkutano huo kwa undani na kwa kiwango cha haki ya usahihi"
+      },
+      {
+        "location": "html, paragraph 3",
+        "severity": "major",
+        "source_quote": "What is this world coming to? ... even though the world does not want to retain God in their knowledge",
+        "suggested_fix": "Use “Ulimwengu huu unaelekea wapi?” and “ingawa ulimwengu hautaki kuendelea kumtambua Mungu”. The latter must express rejection of acknowledging God, not unwillingness to exclude him.",
+        "translation_quote": "Nchi hii inaelekea wapi? ... ingawa ulimwengu hautaki kumtenga Mungu katika maarifa yao"
+      },
+      {
+        "location": "html, paragraphs 4, 14, and 15, all seven Scripture quotations",
+        "severity": "major",
+        "source_quote": "And ye shall hear of wars and rumours of wars ... –Matthew 24:6; …he that shall endure unto the end ... –Matthew 24:13; …the fearful, and unbelieving ... –Revelation 21:8; He that overcometh ... –Revelation 21:7; Obey them that have the rule over you ... –Hebrews 13:17; For we must all appear before the judgment seat of Christ ... –2 Corinthians 5:10; When Jesus heard it, he marvelled ... –Matthew 8:10",
+        "suggested_fix": "Translate all seven quotations and their book names, preserving their existing <em> and <strong> markup and locations. Use: “Nanyi mtasikia habari za vita na tetesi za vita: <strong>angalieni msifadhaike</strong>: kwa maana mambo haya yote lazima yatokee, lakini mwisho bado haujafika –Mathayo 24:6.”; “…atakayevumilia hadi mwisho, ndiye atakayeokolewa –Mathayo 24:13.”; “…waoga na wasioamini … [ambao] watakuwa na sehemu yao katika ziwa linalowaka moto na kiberiti… –Ufunuo 21:8.”; “Yeye ashindaye atarithi vitu vyote; nami nitakuwa Mungu wake, naye atakuwa mwanangu –Ufunuo 21:7.”; “Watiini wale wanaowaongoza, na mjitiishe: kwa maana wanazilinda roho zenu, kama wale ambao lazima watatoa hesabu… –Waebrania 13:17.”; “Kwa maana sisi sote lazima tudhihirishwe mbele ya kiti cha hukumu cha Kristo; ili kila mmoja apokee malipo ya mambo aliyotenda akiwa katika mwili, kulingana na aliyoyafanya, yawe mema au mabaya –2 Wakorintho 5:10.”; “Yesu aliposikia hayo, alistaajabu, akawaambia wale waliomfuata, Amin, nawaambia, sijapata imani kubwa namna hii, hata katika Israeli –Mathayo 8:10.”",
+        "translation_quote": "All seven quotations remain in English: “And ye shall hear ... –Matthew 24:6”; “…he that shall endure ... –Matthew 24:13”; “…the fearful, and unbelieving ... –Revelation 21:8”; “He that overcometh ... –Revelation 21:7”; “Obey them ... –Hebrews 13:17”; “For we must all appear ... –2 Corinthians 5:10”; “When Jesus heard it ... –Matthew 8:10”."
+      },
+      {
+        "location": "html, paragraph 4, prose following and between quotations",
+        "severity": "major",
+        "source_quote": "we should not be troubled ... take our eyes off of our Lord and start focusing on the stormy conditions",
+        "suggested_fix": "Replace “hatupaswi kukasirika” with “hatupaswi kufadhaika” and “tutamtazama Bwana wetu” with “tutaacha kumtazama Bwana wetu”.",
+        "translation_quote": "hatupaswi kukasirika ... tutamtazama Bwana wetu na kuanza kuzingatia hali za dhoruba"
+      },
+      {
+        "location": "html, opening of paragraph 5",
+        "severity": "major",
+        "source_quote": "<p>In this issue of the magazine, we again have an interesting group of articles for your consideration.",
+        "suggested_fix": "Restore the opening tag and sentence as “<p>Katika toleo hili la jarida, tena tuna mkusanyiko wa makala zinazovutia kwa ajili ya kutafakari kwenu.” The missing closing angle bracket currently causes substantive prose to be parsed as tag content.",
+        "translation_quote": "<p Katika toleo hili la jarida, tena tuna makala za kusisimua kwa ajili ya muangalizi wako."
+      },
+      {
+        "location": "html, paragraph 5, overview of articles",
+        "severity": "major",
+        "source_quote": "a somewhat obscure, yet influential leader ... Hebrews chapter four ... when they feel like giving up ... when and how to be submissive as a godly wife",
+        "suggested_fix": "Use “kiongozi asiyejulikana sana, lakini mwenye ushawishi” without the added “mdogo”; replace “Warumi sura ya nne” with “Waebrania sura ya nne”; replace “wanapohisi kujitoa” with “wanapohisi kukata tamaa”; replace “kuwa mtulivu kama mke mwenye Mungu” with “kujitiisha kama mke anayemcha Mungu”.",
+        "translation_quote": "kiongozi mdogo asiyejulikana sana ... Warumi sura ya nne ... wanapohisi kujitoa ... kuwa mtulivu kama mke mwenye Mungu"
+      },
+      {
+        "location": "html, paragraph 6",
+        "severity": "major",
+        "source_quote": "I heard a first-hand account ... my Lord and Saviour ... was converted",
+        "suggested_fix": "Specify “nilisikia simulizi kutoka kwa mtu aliyepitia mambo hayo mwenyewe”; restore “Bwana na Mwokozi wangu” in the love question; and replace “kubadilika” with “kuongoka” to retain the explicit conversion context.",
+        "translation_quote": "nilisikia ushuhuda ... Mwokozi wangu ... kubadilika"
+      },
+      {
+        "location": "html, paragraph 7",
+        "severity": "major",
+        "source_quote": "He is a married man with a young family. ... perhaps even he didn’t know.",
+        "suggested_fix": "Use “Ni mwanamume aliyeoa mwenye familia yenye watoto wadogo.” Replace “labda hata yeye hakujijua” with “labda hata yeye hakujua hitaji hilo lilikuwa nini”.",
+        "translation_quote": "Ni mume aliyeolewa na familia ndogo. ... labda hata yeye hakujijua."
+      },
+      {
+        "location": "html, paragraphs 7, 9, 15, 16, and 17, descriptions of plain and conservative Anabaptist communities",
+        "severity": "major",
+        "source_quote": "plain people ... plain publishing houses ... conservative Anabaptist people ... our plain groups of conservative Anabaptists",
+        "suggested_fix": "Use a consistent descriptive rendering of “plain”, such as “jamii zinazoishi maisha rahisi kwa misingi ya imani”, in paragraphs 7 and 9, and “mashirika yetu ya uchapishaji ya jamii hizo” in paragraph 15. Render “conservative Anabaptist people” in paragraph 16 as “Waanabaptisti wanaoshikilia desturi za jadi”, and the group in paragraph 17 as “makundi yetu ya Waanabaptisti wanaoshikilia desturi za jadi na kuishi maisha rahisi”. These terms identify religious communities, not ordinary people or defense-oriented groups.",
+        "translation_quote": "watu wa maisha ya unyenyekevu [paragraphs 7 and 9] ... nyumba zetu za uchapishaji za watu wa kawaida ... watu wa Anabaptist wa ulinzi ... makundi yetu ya watu wa Anabaptist wa ulinzi"
+      },
+      {
+        "location": "html, paragraph 9",
+        "severity": "major",
+        "source_quote": "All that he heard was what 1 Corinthians chapter 14 refers to as tongues (languages) ... no interpretation given ... not able to be edified.",
+        "suggested_fix": "Replace the sentence with “Yote aliyosikia yalikuwa kile ambacho 1 Wakorintho sura ya 14 hutaja kuwa <em>ndimi</em> (lugha), na kwa kuwa hakuelewa lugha hiyo wala hakutolewa <em>tafsiri</em>, hakuweza kujengwa kiroho.”",
+        "translation_quote": "Yoyote aliyekuwa anasikia ilikuwa kile Kitendo cha 1 Wakorintho sura ya 14 kinarejea kama <em>tongues</em> (lugha) ... <em>interpretation</em> ... hakuweza kutimizwa roho."
+      },
+      {
+        "location": "html, paragraph 10",
+        "severity": "major",
+        "source_quote": "yet having NEVER heard ... As he hesitantly picked up this English Bible",
+        "suggested_fix": "Replace “HAKUWA DAIMA kusikia” with “HAKUWA AMEWAHI kusikia”, and “Alipochukua kwa kufurahia” with “Alipoichukua kwa kusitasita”.",
+        "translation_quote": "lakini ambaye HAKUWA DAIMA kusikia ... Alipochukua kwa kufurahia Biblia hii ya Kiingereza"
+      },
+      {
+        "location": "html, paragraph 11",
+        "severity": "major",
+        "source_quote": "He eagerly anticipated another night alone with God and His Word. After a second sleepless night spent devouring the teachings of the Scriptures",
+        "suggested_fix": "Replace with “Alitazamia kwa hamu usiku mwingine akiwa peke yake na Mungu na Neno Lake. Baada ya usiku wa pili bila kulala, alioutumia kujifunza kwa shauku kubwa mafundisho ya Maandiko”. “Devouring” describes eager study, not destroying the teachings.",
+        "translation_quote": "Alihudumia kwa hamu usiku mwingine peke yake na Mungu na Neno Lake. Baada ya usiku wa pili wa kutocheza usingizi akiwa akiangamiza mafundisho ya Maandiko"
+      },
+      {
+        "location": "html, paragraph 12, first sentence",
+        "severity": "major",
+        "source_quote": "As this man has endeavored to find his way through this confusing maze of religious idiosyncrasies he finally purchased a German/English Bible.",
+        "suggested_fix": "Replace with “Mtu huyu alipokuwa akijitahidi kupata njia katika mchanganyiko huu wenye kutatanisha wa desturi za pekee za kidini, hatimaye alinunua Biblia ya Kijerumani/Kiingereza.”",
+        "translation_quote": "Anapojitahidi kupata njia kupitia labirinti hii ya ushahidi wa dini uliovurugika alitabiri kununua Biblia ya Kijerumani/Kiingereza."
+      },
+      {
+        "location": "html, paragraph 14",
+        "severity": "major",
+        "source_quote": "the ignorance of the common man WILL be laid at the feet of those leaders come judgment day ... personal ideas or whims",
+        "suggested_fix": "Replace the accountability clause with “basi viongozi hao WATAWAJIBISHWA kwa kutokujua kwa mtu wa kawaida siku ya hukumu”. Replace “mawazo binafsi au mizozo” with “mawazo yao binafsi au matakwa yao ya kubadilika-badilika”.",
+        "translation_quote": "ujinga wa mwanadamu wa kawaida UTATAZWA kwa miguu ya viongozi hao siku ya hukumu ... mawazo binafsi au mizozo"
+      },
+      {
+        "location": "html, paragraph 15",
+        "severity": "major",
+        "source_quote": "they have borrowed from the world’s idea (in a spiritual way, of course)",
+        "suggested_fix": "Replace “wameachana na wazo la ulimwengu (kimsingi kiroho, bila shaka)” with “wameazima wazo la ulimwengu (kwa namna ya kiroho, bila shaka)”.",
+        "translation_quote": "wameachana na wazo la ulimwengu (kimsingi kiroho, bila shaka)"
+      },
+      {
+        "location": "html, paragraph 16",
+        "severity": "major",
+        "source_quote": "They are too over-stimulated by the lack of rest and quiet in their normal daily lives.",
+        "suggested_fix": "Replace with “Wamezidiwa na vichocheo kutokana na kukosa mapumziko na utulivu katika maisha yao ya kawaida ya kila siku.”",
+        "translation_quote": "Wamechoka mno kwa ukosefu wa mapumziko na utulivu katika maisha yao ya kawaida ya kila siku."
+      },
+      {
+        "location": "html, paragraph 17",
+        "severity": "major",
+        "source_quote": "the slums of India ... Let’s seek God for opportunities to share the truth",
+        "suggested_fix": "Replace “mitaa ya India” with “makazi duni ya India”, and “Tuitafutie Mungu fursa” with “Tumwombe Mungu atupe fursa”.",
+        "translation_quote": "mitaa ya India ... Tuitafutie Mungu fursa za kushiriki ukweli"
+      },
+      {
+        "location": "html, paragraph 5, final sentence",
+        "severity": "minor",
+        "source_quote": "venture into some uncharted territory with the first of a two-part series on cancer",
+        "suggested_fix": "Replace “kuchunguza eneo lisilojaa ramani na sehemu ya kwanza” with “kuingia katika eneo ambalo halijachunguzwa hapo awali kupitia sehemu ya kwanza”.",
+        "translation_quote": "kuchunguza eneo lisilojaa ramani na sehemu ya kwanza"
+      },
+      {
+        "location": "html, paragraphs 8 and 11",
+        "severity": "minor",
+        "source_quote": "in the nightstand drawer [paragraph 8]; in the nightstand drawer ... what the Bible said [paragraph 11]",
+        "suggested_fix": "At both occurrences, replace “drawer ya kando ya kitanda” with “droo ya meza ya kando ya kitanda”. In paragraph 11, replace “kile Bible ilisema” with “kile Biblia ilichosema”.",
+        "translation_quote": "drawer ya kando ya kitanda [paragraphs 8 and 11]; kile Bible ilisema [paragraph 11]"
+      },
+      {
+        "location": "html, paragraph 9, concluding sentences",
+        "severity": "minor",
+        "source_quote": "The purpose of this story ... God would surely desire",
+        "suggested_fix": "Replace “Kusudia kwa hadithi hii” with “Kusudi la hadithi hii”, and “angengependa” with “angependa”.",
+        "translation_quote": "Kusudia kwa hadithi hii ... Mungu bila shaka angengependa"
+      },
+      {
+        "location": "html, paragraph 10",
+        "severity": "minor",
+        "source_quote": "the message contained within those book covers ... teachings that brought sense",
+        "suggested_fix": "Replace “ujumbe uliokuwepo ndani ya jalada la vitabu hivyo” with “ujumbe uliokuwa ndani ya kitabu hicho”, and “mafundiayo yaliyoleta kueleweka” with “mafundisho yaliyoleta ufahamu”.",
+        "translation_quote": "ujumbe uliokuwepo ndani ya jalada la vitabu hivyo ... mafundiayo yaliyoleta kueleweka"
+      },
+      {
+        "location": "html, paragraph 13",
+        "severity": "minor",
+        "source_quote": "Swiss or German ... This is NO different",
+        "suggested_fix": "Replace “Uswiss” with “Kiswisi” and “Hii HAIJAWI tofauti” with “Hii HAINA tofauti”.",
+        "translation_quote": "Uswiss au Kijerumani ... Hii HAIJAWI tofauti"
+      },
+      {
+        "location": "html, paragraph 14",
+        "severity": "minor",
+        "source_quote": "IF ... Obey here is only in the context of God’s Word",
+        "suggested_fix": "Replace “IKI” with “IKIWA” and “Utii hapa iko tu kwa muktadha” with “Kutii hapa ni katika muktadha tu”.",
+        "translation_quote": "IKI ... Utii hapa iko tu kwa muktadha"
+      },
+      {
+        "location": "html, paragraph 15, opening sentence",
+        "severity": "minor",
+        "source_quote": "I think of the verse of Scripture",
+        "suggested_fix": "Replace “nanafikiria mistari ya Maandiko” with “ninafikiria mstari wa Maandiko”.",
+        "translation_quote": "nanafikiria mistari ya Maandiko"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 42
+  }
+}
