@@ -102495,6 +102495,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/swe/articles/86459f54-72b0-4be2-a101-02b3c9462f6c.html",
+      "html_sha256": "421e207f4eecff4278f29432b00b1ba79b624e738df94deff1da3ab0685517f3",
+      "human_reviewed": false,
+      "id": "86459f54-72b0-4be2-a101-02b3c9462f6c",
+      "images": [
+        {
+          "alt": "Pianotangenter bredvid öppna noter",
+          "public_path": "/images/articles/86459f54-72b0-4be2-a101-02b3c9462f6c-1.jpg"
+        }
+      ],
+      "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
+      "language": "swe",
+      "language_tag": "sv",
+      "metadata": "content/swe/articles/86459f54-72b0-4be2-a101-02b3c9462f6c.json",
+      "metadata_sha256": "afa716d27a55a2007a3b7dd47874e7ca6724a996fe6cc4b919aa2f7f4129b360",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "INSPIRATION FÖR UNGDOMAR",
+      "source_revision": "a069ecca8827634ebc256b3b1cabc16aeb942ed7",
+      "source_translation_key": "65790b7f3f0557bbd4601849b5efe70a6391326d0f3933cef69b6e6d8bb48d72",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Vad är rätt med min musik?",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/swe/articles/88345a38-6c33-495a-8407-f0fda29b67e0.html",
       "html_sha256": "dba4c73d7f25ccdc4cc7c048be79f4864ada100526700e8a1ccc97f2803da24c",
       "human_reviewed": false,
