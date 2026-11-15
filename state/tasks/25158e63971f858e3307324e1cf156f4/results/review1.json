@@ -1,0 +1,52 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "c3523938-f2a6-4e02-98e8-f87f0c579501",
+    "response_id": "chatcmpl-EkYCbM6OmQZkgBn0l6Zcuoc8CtPp4",
+    "usage": {
+      "completion_tokens": 510,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 87,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9935,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9932,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10445
+    }
+  },
+  "received_at": "2026-11-15T17:34:04+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "html, section « La soumission active la puissance. », citation de Matthieu 9:8",
+        "severity": "major",
+        "source_quote": "But when the multitudes saw it, they marvelled, and glorified God",
+        "suggested_fix": "Remplacer « La foule, ayant vu ces prodiges, fut remplie de crainte » par « Mais lorsque les foules virent cela, elles furent émerveillées », en conservant la suite de la citation et sa référence.",
+        "translation_quote": "La foule, ayant vu ces prodiges, fut remplie de crainte, et elle glorifia Dieu"
+      },
+      {
+        "location": "html, section « …les maîtres », paragraphe sur la main-d’œuvre américaine",
+        "severity": "major",
+        "source_quote": "In faithless defiance they readily strike and kick the posts further apart to their broad preferences.",
+        "suggested_fix": "Remplacer la phrase par : « Dans une défiance dépourvue de foi, elle se met volontiers en grève et écarte les poteaux pour les adapter à ses préférences larges. »",
+        "translation_quote": "Dans une défiance dépourvue de foi, elle écarte volontiers les poteaux pour les adapter à ses préférences larges."
+      },
+      {
+        "location": "html, paragraphe définissant les adjectifs grecs",
+        "severity": "minor",
+        "source_quote": "<strong>Narrow</strong>",
+        "suggested_fix": "Corriger « <strong>Resseré</strong> » en « <strong>Resserré</strong> ».",
+        "translation_quote": "<strong>Resseré</strong>"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 94
+  }
+}

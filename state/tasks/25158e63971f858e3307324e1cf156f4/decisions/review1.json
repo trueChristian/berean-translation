@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "html, section « La soumission active la puissance. », citation de Matthieu 9:8",
+      "severity": "major",
+      "source_quote": "But when the multitudes saw it, they marvelled, and glorified God",
+      "suggested_fix": "Remplacer « La foule, ayant vu ces prodiges, fut remplie de crainte » par « Mais lorsque les foules virent cela, elles furent émerveillées », en conservant la suite de la citation et sa référence.",
+      "translation_quote": "La foule, ayant vu ces prodiges, fut remplie de crainte, et elle glorifia Dieu"
+    },
+    {
+      "location": "html, section « …les maîtres », paragraphe sur la main-d’œuvre américaine",
+      "severity": "major",
+      "source_quote": "In faithless defiance they readily strike and kick the posts further apart to their broad preferences.",
+      "suggested_fix": "Remplacer la phrase par : « Dans une défiance dépourvue de foi, elle se met volontiers en grève et écarte les poteaux pour les adapter à ses préférences larges. »",
+      "translation_quote": "Dans une défiance dépourvue de foi, elle écarte volontiers les poteaux pour les adapter à ses préférences larges."
+    },
+    {
+      "location": "html, paragraphe définissant les adjectifs grecs",
+      "severity": "minor",
+      "source_quote": "<strong>Narrow</strong>",
+      "suggested_fix": "Corriger « <strong>Resseré</strong> » en « <strong>Resserré</strong> ».",
+      "translation_quote": "<strong>Resseré</strong>"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
