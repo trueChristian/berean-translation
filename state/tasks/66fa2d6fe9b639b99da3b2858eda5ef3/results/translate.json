@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "3395fbd2-d058-4bb2-b1fb-506c1e87c083",
+    "response_id": "chatcmpl-EkYkRgCnVmWby8HjlDgMD3xAGokpg",
+    "usage": {
+      "completion_tokens": 972,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 132,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1521,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1518,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2493
+    }
+  },
+  "received_at": "2026-11-15T21:45:19+00:00",
+  "result": {
+    "html": "<article data-article-id=\"e905899f-5f2b-42a4-a2b2-3a0af7f0e0e3\">\n  <p>Salam bagi semua dalam nama Yesus! Dengan penuh sukacita, kami mempersembahkan edisi khusus <em>The Heartbeat of the Remnant</em> ini. Ketika pertama kali saya mulai mengumpulkan artikel-artikel yang menurut saya benar-benar <em>harus</em> dimuat dalam edisi khusus ini, jumlahnya ternyata sekitar 115! Tak perlu dikatakan lagi, saya harus memangkasnya! Merangkai edisi khusus ini merupakan sukacita. Gagasan di balik edisi khusus ini adalah menyajikan contoh beragam jenis artikel yang telah Tuhan gerakkan dalam hati kami selama beberapa tahun terakhir.</p>\n  <p><strong>Siapakah kami?</strong> <em>The Heartbeat of the Remnant</em> adalah majalah triwulanan Charity Christian Fellowship dan Charity Ministries di Lancaster County, Pennsylvania. Berawal sebagai buletin pelayanan lokal, <em>The Heartbeat of the Remnant</em> kini telah berkembang hingga menjangkau ribuan pembaca di seluruh dunia. Berakar pada warisan Anabaptis yang kaya di Lancaster County, Charity Christian Fellowship telah berupaya mempertahankan ortodoksi Alkitabiah yang kuat, disertai kerinduan tulus akan kebangunan rohani dan kehidupan Kristen yang radikal. Meskipun secara keseluruhan tetap berhaluan Anabaptis, majalah ini tidak bermaksud mengunggulkan teologi, denominasi, gereja, atau tokoh tertentu. Keinginan kami hanyalah memuliakan Nama Yesus.</p>\n  <p>Majalah ini memuat artikel dari beragam sumber Kristen, mulai dari kesaksian zaman kuno hingga zaman modern. Kami kerap menerbitkan ulang artikel dari para pengkhotbah kebangunan rohani dan tulisan sejarah, kisah-kisah misionaris, kisah penganiayaan dan para martir Kristen mula-mula, tulisan-tulisan yang menantang dari kaum Puritan dan para pengkhotbah keliling Metodis, serta para pengkhotbah zaman modern. Beberapa topik yang dibahas mungkin dianggap tidak sejalan dengan nilai-nilai Amerika modern, seperti kesopanan dalam berpakaian, bahaya hiburan duniawi, mendidik anak, peran pria dan wanita, perceraian, materialisme, bahkan perang dan sikap tanpa perlawanan. Namun, bahkan dalam hal-hal ini, kami tidak ingin “terpaku pada isu” atau mengklaim bahwa kami memiliki kata terakhir mengenai setiap persoalan kontroversial. Sebaliknya, kami ingin “dipimpin oleh Roh” saat berusaha mengetahui kehendak dan hati Allah mengenai persoalan-persoalan nyata dalam kehidupan yang sulit ini. Kerinduan hati kami senantiasa agar Allah mengerjakan semua ini dalam hidup kita hanya oleh anugerah-Nya.</p>\n  <p>Kami mengundang Anda untuk berdoa bersama kami agar Roh Allah dicurahkan atas kehidupan pribadi kita dan kehidupan Gereja di setiap negeri! Kami berharap penerbitan ini dapat menguatkan dan menyemangati Anda dalam mengejar Yesus.</p>\n  <p>Sejak pertama kali diterbitkan, <em>The Heartbeat of the Remnant</em> telah tersedia bagi Anda tanpa biaya, berkat persembahan sukarela umat Allah. Langganan tersedia atas permintaan. Terima kasih khusus kepada semua yang mendukung pelayanan ini. Kiranya Tuhan memberkati Anda masing-masing saat membaca edisi khusus <em>The Heartbeat of the Remnant</em> ini.</p>\n  <p class=\"signoff\">Saudara Dean Taylor</p>\n</article>\n",
+    "section": "Dari editor...",
+    "subtitle": null,
+    "title": "Dari editor..."
+  }
+}
