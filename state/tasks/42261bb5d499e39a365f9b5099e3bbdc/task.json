@@ -5,11 +5,48 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "93120ddbf83d433c8dacf97eeead1385",
   "campaign": "auto-218d7a4892f9b1949af6c29bf1fa443d1fd27bda22cc4f489b67e9154905ad4e",
   "created_at": "2026-11-15T03:04:22+00:00",
-  "events": [],
-  "findings": [],
+  "events": [
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 310,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 79,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6401,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 5298,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 6711
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "translation.html: openingsparagraaf, eerste woorde",
+      "severity": "minor",
+      "source_quote": "Many people ask",
+      "suggested_fix": "Vervang “<span class=\"drop-cap\">M</span>enige mense vra” met “<span class=\"drop-cap\">B</span>aie mense vra”.",
+      "translation_quote": "<span class=\"drop-cap\">M</span>enige mense vra"
+    },
+    {
+      "location": "translation.html: paragraaf met Kolossense 3:16",
+      "severity": "minor",
+      "source_quote": "Colossians also tells us that we should <em>Let the word of Christ dwell in you richly",
+      "suggested_fix": "Vervang die inleiding voor die aanhaling met “Kolossense sê ook vir ons: ” en behou die aanhaling en die bestaande <em>-merkers.",
+      "translation_quote": "Kolossense sê ook vir ons dat ons <em>Laat die woord van Christus ryklik in julle woon"
+    }
+  ],
+  "finished_at": "2026-11-15T03:31:37+00:00",
   "id": "42261bb5d499e39a365f9b5099e3bbdc",
   "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
   "language": "afr",
@@ -98,9 +135,11 @@
     }
   },
   "protected": false,
+  "quality_score": 97,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/260c1bc0a2e60abb03e2696891df670db54b5adc252d489f975c9c12eb5a6e38.json",
   "stage": "review1",
   "stage_budget": {
@@ -115,7 +154,7 @@
     "total_reserved_usd": 0.731491,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 0,
   "translation_key": "65790b7f3f0557bbd4601849b5efe70a6391326d0f3933cef69b6e6d8bb48d72",
   "translation_model_actual": "gpt-6-luna"

@@ -3287,6 +3287,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/afr/articles/86459f54-72b0-4be2-a101-02b3c9462f6c.html",
+      "html_sha256": "13c0c5e86cd1e195b928bad829b1f49d1a31e8e1d8ad09946c8b56e89f13e591",
+      "human_reviewed": false,
+      "id": "86459f54-72b0-4be2-a101-02b3c9462f6c",
+      "images": [
+        {
+          "alt": "Klavierklawers langs oop bladmusiek",
+          "public_path": "/images/articles/86459f54-72b0-4be2-a101-02b3c9462f6c-1.jpg"
+        }
+      ],
+      "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
+      "language": "afr",
+      "language_tag": "af",
+      "metadata": "content/afr/articles/86459f54-72b0-4be2-a101-02b3c9462f6c.json",
+      "metadata_sha256": "af3cebec5448657191804012d03e679b435357b7bc0f34c7baa323052f848b3a",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "INSPIRASIE VIR DIE JEUG",
+      "source_revision": "a069ecca8827634ebc256b3b1cabc16aeb942ed7",
+      "source_translation_key": "65790b7f3f0557bbd4601849b5efe70a6391326d0f3933cef69b6e6d8bb48d72",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Wat is reg omtrent my musiek?",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/afr/articles/88345a38-6c33-495a-8407-f0fda29b67e0.html",
       "html_sha256": "466cd1c7ec472536a804317485705725a42e251cb0f233373ac578211a118a06",
       "human_reviewed": false,
