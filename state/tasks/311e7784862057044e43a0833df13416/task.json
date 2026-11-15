@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "b46766152c5048f69917af71b4166b66",
   "campaign": "auto-bb78170f63c731d41792cfa8063c22980bc3ab7a1f25ea24063ccbaa458ed199",
   "created_at": "2026-11-13T21:37:42+00:00",
   "events": [
@@ -28,10 +27,39 @@
         },
         "total_tokens": 8152
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 620,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 512,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8430,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 7327,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 9050
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "HTML, paragraph beginning “Potato chips and tortilla chips…”",
+      "severity": "minor",
+      "source_quote": "“Potato chips and tortilla chips taste good enough…”",
+      "suggested_fix": "“Batatas chips e chips de tortilha de milho são saborosos o bastante…”",
+      "translation_quote": "“Batatas chips e tortilhas de milho são saborosas o bastante…”"
+    }
+  ],
+  "finished_at": "2026-11-15T02:21:35+00:00",
   "id": "311e7784862057044e43a0833df13416",
   "issue_id": "103c93e0-6e9a-44f6-a6bc-377af8e08e38",
   "language": "por",
@@ -120,9 +148,11 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/6cf42eaf0f3d9ca7b5f07190bec4156dfc04c035131d8744e9546737010a85ea.json",
   "stage": "review1",
   "stage_budget": {
@@ -138,7 +168,7 @@
     "total_reserved_usd": 0.090184,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "e08824e3e33290c1dfae2fe095d30369d2527145b6b1d02261193ad339207a52",
   "translation_model_actual": "gpt-6-luna"

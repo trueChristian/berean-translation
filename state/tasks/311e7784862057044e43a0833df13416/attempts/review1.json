@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-15T02:21:35+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, paragraph beginning “Potato chips and tortilla chips…”\",\"severity\":\"minor\",\"source_quote\":\"“Potato chips and tortilla chips taste good enough…”\",\"suggested_fix\":\"“Batatas chips e chips de tortilha de milho são saborosos o bastante…”\",\"translation_quote\":\"“Batatas chips e tortilhas de milho são saborosas o bastante…”\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 429,
+    "content_evidence_truncated": false,
+    "content_sha256": "6a9581ad38f47a11b00c5be40e8fe155fd4a17bd250caf888d5befc6955eb4b6",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 620,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8430,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7327,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 9050
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}
