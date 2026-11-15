@@ -12,9 +12,16 @@
       "event": "not_ready",
       "reason": "Duplicate HTML attribute",
       "task": "70cf4ed7f4407fe709ec37650af63a07"
+    },
+    {
+      "at": "2026-11-15T01:51:31+00:00",
+      "campaign": "auto-84fb6c8d1d82ca947cda8240c02e5380e871d35b72f7da8198fed02235c3d34d",
+      "event": "automatic_requested",
+      "previous_task": "70cf4ed7f4407fe709ec37650af63a07",
+      "task": "c6c8ec0365f8e1aa7b3e5fe9728826df"
     }
   ],
   "language": "swa",
-  "latest_task": "70cf4ed7f4407fe709ec37650af63a07",
+  "latest_task": "c6c8ec0365f8e1aa7b3e5fe9728826df",
   "published": null
 }
