@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "d4e1416806ae49eba19dfa253ca7d84e",
   "campaign": "auto-c54f12c88598583c62bb9fab7bff9c7635e33a3559842c8d68946619e070e2e6",
   "created_at": "2026-11-14T19:55:17+00:00",
   "events": [
@@ -28,10 +27,39 @@
         },
         "total_tokens": 7319
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 800,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 627,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7653,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 6550,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 8453
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "Paragraf tentang gerhana di India",
+      "severity": "minor",
+      "source_quote": "Terrorized by the eclipse and making a great clamor, they feared a great power of evil in the form of a snake was about to swallow the sun-god.",
+      "suggested_fix": "Ketakutan oleh gerhana itu, mereka membuat kegaduhan besar karena khawatir bahwa kuasa jahat besar dalam wujud ular akan menelan dewa matahari.",
+      "translation_quote": "Ketakutan oleh gerhana itu dan menimbulkan kegaduhan besar, mereka khawatir kuasa jahat besar dalam wujud ular akan menelan dewa matahari."
+    }
+  ],
+  "finished_at": "2026-11-15T09:19:37+00:00",
   "id": "07fd1523e8d67316164634903948ab45",
   "issue_id": "103c93e0-6e9a-44f6-a6bc-377af8e08e38",
   "language": "ind",
@@ -120,9 +148,11 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/392e29d7ab3a4b5f37672fe4d49e2af1f3f480a0dd0aa93781ead79a48d2a559.json",
   "stage": "review1",
   "stage_budget": {
@@ -138,7 +168,7 @@
     "total_reserved_usd": 0.089458,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "24f89250b05cd303e73c3df869edd19f173aa57a9d0a95bd0580196d7fe3e789",
   "translation_model_actual": "gpt-6-luna"

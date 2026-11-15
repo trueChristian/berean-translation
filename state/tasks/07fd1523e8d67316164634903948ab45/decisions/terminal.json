@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraf tentang gerhana di India",
+      "severity": "minor",
+      "source_quote": "Terrorized by the eclipse and making a great clamor, they feared a great power of evil in the form of a snake was about to swallow the sun-god.",
+      "suggested_fix": "Ketakutan oleh gerhana itu, mereka membuat kegaduhan besar karena khawatir bahwa kuasa jahat besar dalam wujud ular akan menelan dewa matahari.",
+      "translation_quote": "Ketakutan oleh gerhana itu dan menimbulkan kegaduhan besar, mereka khawatir kuasa jahat besar dalam wujud ular akan menelan dewa matahari."
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

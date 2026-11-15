@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-15T09:19:37+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraf tentang gerhana di India\",\"severity\":\"minor\",\"source_quote\":\"Terrorized by the eclipse and making a great clamor, they feared a great power of evil in the form of a snake was about to swallow the sun-god.\",\"suggested_fix\":\"Ketakutan oleh gerhana itu, mereka membuat kegaduhan besar karena khawatir bahwa kuasa jahat besar dalam wujud ular akan menelan dewa matahari.\",\"translation_quote\":\"Ketakutan oleh gerhana itu dan menimbulkan kegaduhan besar, mereka khawatir kuasa jahat besar dalam wujud ular akan menelan dewa matahari.\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 616,
+    "content_evidence_truncated": false,
+    "content_sha256": "4f497938d489857a43b003fb5ad6643eec8cbf846d2f3570dd2d17dfa91953d2",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 800,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 627,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7653,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6550,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 8453
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}
