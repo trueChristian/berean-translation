@@ -93153,6 +93153,42 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/spa/articles/b649c2a3-20b1-4e02-9204-6285b234f34f.html",
+      "html_sha256": "db5f6e2def726d90b4c4cd8547404156ce5c9e590aa85d8e39c799bd198f42c3",
+      "human_reviewed": false,
+      "id": "b649c2a3-20b1-4e02-9204-6285b234f34f",
+      "images": [
+        {
+          "alt": "Retrato de Philip P. Bliss.",
+          "public_path": "/images/articles/b649c2a3-20b1-4e02-9204-6285b234f34f-1.jpg"
+        },
+        {
+          "alt": "Flores de color lila pálido entre hojas verdes.",
+          "public_path": "/images/articles/b649c2a3-20b1-4e02-9204-6285b234f34f-2.jpg"
+        },
+        {
+          "alt": "La partitura impresa completa de La Luz del mundo es Jesús.",
+          "public_path": "/images/articles/b649c2a3-20b1-4e02-9204-6285b234f34f-3.png"
+        }
+      ],
+      "issue_id": "103c93e0-6e9a-44f6-a6bc-377af8e08e38",
+      "language": "spa",
+      "language_tag": "es",
+      "metadata": "content/spa/articles/b649c2a3-20b1-4e02-9204-6285b234f34f.json",
+      "metadata_sha256": "c31c90098e349d0e828f8f207094d7e8ff6c96ebb56c9464e4acbb78a983ab37",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "HISTORIA DE HIMNOS",
+      "source_revision": "ccefc5a5c3d79409cc78319f94b5490718d30670",
+      "source_translation_key": "24f89250b05cd303e73c3df869edd19f173aa57a9d0a95bd0580196d7fe3e789",
+      "status": "ready",
+      "subtitle": null,
+      "title": "La Luz del mundo es Jesús",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/spa/articles/b6a6823e-0f2a-4354-aebb-5c37ad85937a.html",
       "html_sha256": "ed4f79bc4075c2a600553896725684e536eaaa09fe857f68fc20de8a32c01fad",
       "human_reviewed": false,
