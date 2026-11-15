@@ -15072,6 +15072,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ben/articles/a7f59621-7083-44ce-8074-6ece8fdfbdcf.html",
+      "html_sha256": "67c227a93775d3003c687b3e02d3cc5c2537be210c78c26a4bd5b07d9e462d57",
+      "human_reviewed": false,
+      "id": "a7f59621-7083-44ce-8074-6ece8fdfbdcf",
+      "images": [
+        {
+          "alt": "সাদা দেয়ালের মাঝে একটি সরু কাঠের ফটক",
+          "public_path": "/images/articles/a7f59621-7083-44ce-8074-6ece8fdfbdcf-1.jpg"
+        }
+      ],
+      "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
+      "language": "ben",
+      "language_tag": "bn",
+      "metadata": "content/ben/articles/a7f59621-7083-44ce-8074-6ece8fdfbdcf.json",
+      "metadata_sha256": "656d0193e6b0e694ddc46a5960344933a358fe051352a658bed030044df4757a",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "বাইবেলের মতবাদ",
+      "source_revision": "a069ecca8827634ebc256b3b1cabc16aeb942ed7",
+      "source_translation_key": "f7c753eaec7cab461389c398af8410c2a13a7ef5a7c84c987fe4dfe4c20f33bc",
+      "status": "ready",
+      "subtitle": null,
+      "title": "জীবনের সরু ফটক",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ben/articles/a9c1e70c-906d-4eda-ad05-2789badb2369.html",
       "html_sha256": "b4421d1bf83516bf23c46df69b32e76e464e2c282d2ac420110a713fc3030a93",
       "human_reviewed": false,

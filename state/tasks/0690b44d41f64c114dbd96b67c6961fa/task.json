@@ -5,11 +5,55 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "7767d176dbaa4ac9a5e13229ad2cbb05",
   "campaign": "auto-35b60c4e684d876c5c77678014526c6ac15952e98519190c173d503f4a982477",
   "created_at": "2026-11-15T17:22:26+00:00",
-  "events": [],
-  "findings": [],
+  "events": [
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 563,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 145,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 10939,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 9836,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 11502
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "translation.html: p.lead, opening drop-cap",
+      "severity": "minor",
+      "source_quote": "<span class=\"drop-cap\">O</span>f all the word pictures",
+      "suggested_fix": "শুরুর অংশটি করুন: <span class=\"drop-cap\">আ</span>মাদের প্রভুর আঁকা সব চিত্রকল্পের মধ্যে",
+      "translation_quote": "<span class=\"drop-cap\">হ</span>আমাদের প্রভুর আঁকা সব চিত্রকল্পের মধ্যে"
+    },
+    {
+      "location": "translation.html: emphasized paragraph immediately before “…সরকার”",
+      "severity": "minor",
+      "source_quote": "These will find life within the confinements of the strait and narrow provided by God and…",
+      "suggested_fix": "বিদ্যমান <p><strong><em> কাঠামোর মধ্যে লিখুন: এরা ঈশ্বর এবং নিম্নোক্ত কর্তৃপক্ষের দ্বারা নির্ধারিত সরু ফটক ও সংকীর্ণ পথের সীমার মধ্যেই জীবন পাবে…",
+      "translation_quote": "এরা ঈশ্বরপ্রদত্ত সরু ও সংকীর্ণ পথের সীমার মধ্যেই জীবন পাবে, যার মধ্যে রয়েছে…"
+    },
+    {
+      "location": "translation.html: final paragraph, contrast between power unto and over people",
+      "severity": "minor",
+      "source_quote": "It brings power <strong><u>unto</u></strong> people rather than power <strong><u>over</u></strong> people.",
+      "suggested_fix": "বাক্যটি করুন: এটি মানুষের <strong><u>ওপর</u></strong> কর্তৃত্ব নয়, বরং মানুষের <strong><u>কাছে</u></strong> শক্তি নিয়ে আসে।",
+      "translation_quote": "এটি মানুষকে <strong><u>উপর</u></strong> কর্তৃত্ব নয়, বরং মানুষের <strong><u>জন্য</u></strong> শক্তি আনে।"
+    }
+  ],
+  "finished_at": "2026-11-15T17:34:33+00:00",
   "id": "0690b44d41f64c114dbd96b67c6961fa",
   "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
   "language": "ben",
@@ -98,9 +142,11 @@
     }
   },
   "protected": false,
+  "quality_score": 96,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/e2f79f53d3b4344da8f3a224cbcadbaad6d0cc212776a503248d1dd4853c5cbb.json",
   "stage": "review1",
   "stage_budget": {
@@ -115,7 +161,7 @@
     "total_reserved_usd": 0.825407,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 0,
   "translation_key": "f7c753eaec7cab461389c398af8410c2a13a7ef5a7c84c987fe4dfe4c20f33bc",
   "translation_model_actual": "gpt-6-luna"

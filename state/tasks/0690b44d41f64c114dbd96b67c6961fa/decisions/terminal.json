@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "translation.html: p.lead, opening drop-cap",
+      "severity": "minor",
+      "source_quote": "<span class=\"drop-cap\">O</span>f all the word pictures",
+      "suggested_fix": "শুরুর অংশটি করুন: <span class=\"drop-cap\">আ</span>মাদের প্রভুর আঁকা সব চিত্রকল্পের মধ্যে",
+      "translation_quote": "<span class=\"drop-cap\">হ</span>আমাদের প্রভুর আঁকা সব চিত্রকল্পের মধ্যে"
+    },
+    {
+      "location": "translation.html: emphasized paragraph immediately before “…সরকার”",
+      "severity": "minor",
+      "source_quote": "These will find life within the confinements of the strait and narrow provided by God and…",
+      "suggested_fix": "বিদ্যমান <p><strong><em> কাঠামোর মধ্যে লিখুন: এরা ঈশ্বর এবং নিম্নোক্ত কর্তৃপক্ষের দ্বারা নির্ধারিত সরু ফটক ও সংকীর্ণ পথের সীমার মধ্যেই জীবন পাবে…",
+      "translation_quote": "এরা ঈশ্বরপ্রদত্ত সরু ও সংকীর্ণ পথের সীমার মধ্যেই জীবন পাবে, যার মধ্যে রয়েছে…"
+    },
+    {
+      "location": "translation.html: final paragraph, contrast between power unto and over people",
+      "severity": "minor",
+      "source_quote": "It brings power <strong><u>unto</u></strong> people rather than power <strong><u>over</u></strong> people.",
+      "suggested_fix": "বাক্যটি করুন: এটি মানুষের <strong><u>ওপর</u></strong> কর্তৃত্ব নয়, বরং মানুষের <strong><u>কাছে</u></strong> শক্তি নিয়ে আসে।",
+      "translation_quote": "এটি মানুষকে <strong><u>উপর</u></strong> কর্তৃত্ব নয়, বরং মানুষের <strong><u>জন্য</u></strong> শক্তি আনে।"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}
