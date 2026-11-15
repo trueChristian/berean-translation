@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-15T09:18:58+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph beginning “Akiwa na umri wa miaka kumi na moja”\",\"severity\":\"minor\",\"source_quote\":\"“a large, awkward, overgrown boy”\",\"suggested_fix\":\"Replace “mlegevu” with “asiyejua kujimudu vizuri” or another phrase conveying awkwardness rather than sluggishness.\",\"translation_quote\":\"“mvulana mkubwa, mlegevu na aliyekua kupita kiasi”\"},{\"location\":\"Paragraph beginning “‘The Light of the World is Jesus’ uliandikwa”\",\"severity\":\"minor\",\"source_quote\":\"“Mr. Bliss was likely relying on a lamp or a candle.”\",\"suggested_fix\":\"Remove the unsupported specification “ya mafuta”; for example, say “alikuwa akitegemea taa au mshumaa.”\",\"translation_quote\":\"“inaelekea Bw. Bliss alitegemea taa ya mafuta au mshumaa”\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 832,
+    "content_evidence_truncated": false,
+    "content_sha256": "acfe01d2fff3bb267755c1b192d2dd8a880453b4e47bc46b23e516fa079f2c53",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1033,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 813,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8135,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7032,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 9168
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

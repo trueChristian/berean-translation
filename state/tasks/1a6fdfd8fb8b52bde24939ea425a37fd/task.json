@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "c39bf50ff2424f8b81b29e746bf2c8a7",
   "campaign": "auto-327d4cb4d682320aecb05ec89e76cb83d9dfc6dde669f6c33dafe242591389ce",
   "created_at": "2026-11-15T03:04:52+00:00",
   "events": [
@@ -28,10 +27,46 @@
         },
         "total_tokens": 7845
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1033,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 813,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8135,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 7032,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 9168
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "Paragraph beginning “Akiwa na umri wa miaka kumi na moja”",
+      "severity": "minor",
+      "source_quote": "“a large, awkward, overgrown boy”",
+      "suggested_fix": "Replace “mlegevu” with “asiyejua kujimudu vizuri” or another phrase conveying awkwardness rather than sluggishness.",
+      "translation_quote": "“mvulana mkubwa, mlegevu na aliyekua kupita kiasi”"
+    },
+    {
+      "location": "Paragraph beginning “‘The Light of the World is Jesus’ uliandikwa”",
+      "severity": "minor",
+      "source_quote": "“Mr. Bliss was likely relying on a lamp or a candle.”",
+      "suggested_fix": "Remove the unsupported specification “ya mafuta”; for example, say “alikuwa akitegemea taa au mshumaa.”",
+      "translation_quote": "“inaelekea Bw. Bliss alitegemea taa ya mafuta au mshumaa”"
+    }
+  ],
+  "finished_at": "2026-11-15T09:18:58+00:00",
   "id": "1a6fdfd8fb8b52bde24939ea425a37fd",
   "issue_id": "103c93e0-6e9a-44f6-a6bc-377af8e08e38",
   "language": "swa",
@@ -120,9 +155,11 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/392e29d7ab3a4b5f37672fe4d49e2af1f3f480a0dd0aa93781ead79a48d2a559.json",
   "stage": "review1",
   "stage_budget": {
@@ -138,7 +175,7 @@
     "total_reserved_usd": 0.089455,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "24f89250b05cd303e73c3df869edd19f173aa57a9d0a95bd0580196d7fe3e789",
   "translation_model_actual": "gpt-6-luna"

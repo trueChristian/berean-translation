@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph beginning “Akiwa na umri wa miaka kumi na moja”",
+      "severity": "minor",
+      "source_quote": "“a large, awkward, overgrown boy”",
+      "suggested_fix": "Replace “mlegevu” with “asiyejua kujimudu vizuri” or another phrase conveying awkwardness rather than sluggishness.",
+      "translation_quote": "“mvulana mkubwa, mlegevu na aliyekua kupita kiasi”"
+    },
+    {
+      "location": "Paragraph beginning “‘The Light of the World is Jesus’ uliandikwa”",
+      "severity": "minor",
+      "source_quote": "“Mr. Bliss was likely relying on a lamp or a candle.”",
+      "suggested_fix": "Remove the unsupported specification “ya mafuta”; for example, say “alikuwa akitegemea taa au mshumaa.”",
+      "translation_quote": "“inaelekea Bw. Bliss alitegemea taa ya mafuta au mshumaa”"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

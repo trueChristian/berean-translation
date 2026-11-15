@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "b98b4407-b26a-40f1-9c4e-1d9d98189a56",
+    "response_id": "chatcmpl-EkLbuNp3UnTNCd1L195UCXOisf3k1",
+    "usage": {
+      "completion_tokens": 1033,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 813,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8135,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7032,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 9168
+    }
+  },
+  "received_at": "2026-11-15T09:18:58+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph beginning “Akiwa na umri wa miaka kumi na moja”",
+        "severity": "minor",
+        "source_quote": "“a large, awkward, overgrown boy”",
+        "suggested_fix": "Replace “mlegevu” with “asiyejua kujimudu vizuri” or another phrase conveying awkwardness rather than sluggishness.",
+        "translation_quote": "“mvulana mkubwa, mlegevu na aliyekua kupita kiasi”"
+      },
+      {
+        "location": "Paragraph beginning “‘The Light of the World is Jesus’ uliandikwa”",
+        "severity": "minor",
+        "source_quote": "“Mr. Bliss was likely relying on a lamp or a candle.”",
+        "suggested_fix": "Remove the unsupported specification “ya mafuta”; for example, say “alikuwa akitegemea taa au mshumaa.”",
+        "translation_quote": "“inaelekea Bw. Bliss alitegemea taa ya mafuta au mshumaa”"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}
