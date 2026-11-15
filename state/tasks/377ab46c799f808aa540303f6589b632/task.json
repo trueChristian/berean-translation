@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "3918fc2dcbc64de2b72e1d6d794830d4",
   "campaign": "auto-706d421721c6ea5cb062545802d81fc5d0252df31e88afff1f52fc806f6b36c4",
   "created_at": "2026-11-15T17:08:01+00:00",
   "events": [
@@ -28,10 +27,39 @@
         },
         "total_tokens": 2554
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 568,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 473,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 2908,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 2905,
+          "cached_tokens": 0
+        },
+        "total_tokens": 3476
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "HTML, second paragraph",
+      "severity": "minor",
+      "source_quote": "Starting out as a local outreach newsletter",
+      "suggested_fix": "স্থানীয় প্রচারমূলক বুলেটিন হিসেবে যাত্রা শুরু করে",
+      "translation_quote": "স্থানীয় প্রচারমূলক সংবাদপত্র হিসেবে যাত্রা শুরু করে"
+    }
+  ],
+  "finished_at": "2026-11-15T17:35:11+00:00",
   "id": "377ab46c799f808aa540303f6589b632",
   "issue_id": "14962b7b-2d94-5b43-a4c6-bbb78f074d1a",
   "language": "ben",
@@ -120,9 +148,11 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/e3530609551595f0d5905092141d03f4af2c1e2a1a26f0cb713cfbd5df2545ad.json",
   "stage": "review1",
   "stage_budget": {
@@ -138,7 +168,7 @@
     "total_reserved_usd": 0.086553,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "1d04ac46996031206a2ceace35a02ae4625ee12e63800047409c8827bb2474ab",
   "translation_model_actual": "gpt-6-luna"

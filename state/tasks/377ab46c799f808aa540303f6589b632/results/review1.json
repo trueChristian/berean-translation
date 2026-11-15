@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "4d85d913-43b7-4660-a450-f45316728098",
+    "response_id": "chatcmpl-EkYLGhxI9zPG4H2NbYUMvXP383qtn",
+    "usage": {
+      "completion_tokens": 568,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 473,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2908,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2905,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3476
+    }
+  },
+  "received_at": "2026-11-15T17:35:11+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, second paragraph",
+        "severity": "minor",
+        "source_quote": "Starting out as a local outreach newsletter",
+        "suggested_fix": "স্থানীয় প্রচারমূলক বুলেটিন হিসেবে যাত্রা শুরু করে",
+        "translation_quote": "স্থানীয় প্রচারমূলক সংবাদপত্র হিসেবে যাত্রা শুরু করে"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}

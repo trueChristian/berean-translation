@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, second paragraph",
+      "severity": "minor",
+      "source_quote": "Starting out as a local outreach newsletter",
+      "suggested_fix": "স্থানীয় প্রচারমূলক বুলেটিন হিসেবে যাত্রা শুরু করে",
+      "translation_quote": "স্থানীয় প্রচারমূলক সংবাদপত্র হিসেবে যাত্রা শুরু করে"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}
