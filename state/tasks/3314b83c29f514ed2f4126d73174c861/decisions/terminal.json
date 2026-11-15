@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "الفقرة الثانية",
+      "severity": "minor",
+      "source_quote": "Starting out as a local outreach newsletter",
+      "suggested_fix": "بدأت كنشرة لأعمال الخدمة والتبشير محلياً",
+      "translation_quote": "بدأت نشرةً للتواصل المحلي"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

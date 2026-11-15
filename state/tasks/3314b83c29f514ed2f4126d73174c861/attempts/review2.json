@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-15T17:20:23+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"الفقرة الثانية\",\"severity\":\"minor\",\"source_quote\":\"Starting out as a local outreach newsletter\",\"suggested_fix\":\"بدأت كنشرة لأعمال الخدمة والتبشير محلياً\",\"translation_quote\":\"بدأت نشرةً للتواصل المحلي\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 351,
+    "content_evidence_truncated": false,
+    "content_sha256": "350abdca1e80169a30b16d37ee5289fa7cab76860ca76b38567f0bfddea59b67",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 612,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 521,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2728,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2725,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3340
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}
