@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-15T17:34:20+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Article, paragraphe 3\",\"severity\":\"minor\",\"source_quote\":\"we wish not to be “issue driven”\",\"suggested_fix\":\"nous ne souhaitons pas être « centrés sur des questions controversées »\",\"translation_quote\":\"nous ne souhaitons pas être « guidés par des questions de principe »\"}],\"findings_complete\":true,\"passed\":true,\"score\":97}",
+    "content_bytes": 364,
+    "content_evidence_truncated": false,
+    "content_sha256": "b6050ce9d85f7e0314711c6e12834c1618192ec362e3af6b4077838ec20ec7a1",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 431,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 332,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2722,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1619,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 3153
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review2",
+  "translation_attempts": 2
+}

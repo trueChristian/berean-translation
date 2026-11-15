@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Article, paragraphe 3",
+      "severity": "minor",
+      "source_quote": "we wish not to be “issue driven”",
+      "suggested_fix": "nous ne souhaitons pas être « centrés sur des questions controversées »",
+      "translation_quote": "nous ne souhaitons pas être « guidés par des questions de principe »"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

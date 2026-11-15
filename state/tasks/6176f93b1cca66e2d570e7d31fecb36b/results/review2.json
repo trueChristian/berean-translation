@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "cd35e055-7c1d-41d7-b813-ff31b8ddb564",
+    "response_id": "chatcmpl-EkYM39ITy2ROWH0evLgjaFmFXHnlB",
+    "usage": {
+      "completion_tokens": 431,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 332,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2722,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1619,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 3153
+    }
+  },
+  "received_at": "2026-11-15T17:34:20+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Article, paragraphe 3",
+        "severity": "minor",
+        "source_quote": "we wish not to be “issue driven”",
+        "suggested_fix": "nous ne souhaitons pas être « centrés sur des questions controversées »",
+        "translation_quote": "nous ne souhaitons pas être « guidés par des questions de principe »"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 97
+  }
+}
