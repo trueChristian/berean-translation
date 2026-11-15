@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "e3c87e62-4e1a-4d39-8d7f-b0c5025fc47a",
+    "response_id": "chatcmpl-Ekch4viyWLVNUHvAZJBbqVpct1doz",
+    "usage": {
+      "completion_tokens": 658,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2739,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1636,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 3397
+    }
+  },
+  "received_at": "2026-11-15T22:15:12+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, paragraph 3",
+        "severity": "minor",
+        "source_quote": "early Christian trials and martyrs",
+        "suggested_fix": "повествования об испытаниях первых христиан и мучениках",
+        "translation_quote": "повествования о гонениях на первых христианах и мучениках"
+      },
+      {
+        "location": "HTML, paragraph 3",
+        "severity": "minor",
+        "source_quote": "challenging Puritan writers",
+        "suggested_fix": "произведения требовательных пуританских авторов",
+        "translation_quote": "произведения строгих пуританских авторов"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 97
+  }
+}

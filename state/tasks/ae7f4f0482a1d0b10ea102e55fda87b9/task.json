@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "e3163ea202c243768ff2732cf1c49df6",
   "campaign": "auto-73329aa5e814c4b52e3f2f55e620d133c363164b5be2bc1734f71246872bf72c",
   "created_at": "2026-11-15T17:38:27+00:00",
   "events": [
@@ -28,10 +27,46 @@
         },
         "total_tokens": 2527
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 658,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 512,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 2739,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 1636,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 3397
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "HTML, paragraph 3",
+      "severity": "minor",
+      "source_quote": "early Christian trials and martyrs",
+      "suggested_fix": "повествования об испытаниях первых христиан и мучениках",
+      "translation_quote": "повествования о гонениях на первых христианах и мучениках"
+    },
+    {
+      "location": "HTML, paragraph 3",
+      "severity": "minor",
+      "source_quote": "challenging Puritan writers",
+      "suggested_fix": "произведения требовательных пуританских авторов",
+      "translation_quote": "произведения строгих пуританских авторов"
+    }
+  ],
+  "finished_at": "2026-11-15T22:15:12+00:00",
   "id": "ae7f4f0482a1d0b10ea102e55fda87b9",
   "issue_id": "14962b7b-2d94-5b43-a4c6-bbb78f074d1a",
   "language": "rus",
@@ -120,9 +155,11 @@
     }
   },
   "protected": false,
+  "quality_score": 97,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/e3530609551595f0d5905092141d03f4af2c1e2a1a26f0cb713cfbd5df2545ad.json",
   "stage": "review1",
   "stage_budget": {
@@ -138,7 +175,7 @@
     "total_reserved_usd": 0.086545,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "1d04ac46996031206a2ceace35a02ae4625ee12e63800047409c8827bb2474ab",
   "translation_model_actual": "gpt-6-luna"
