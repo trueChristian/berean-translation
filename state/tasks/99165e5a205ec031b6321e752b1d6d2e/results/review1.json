@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "7107d617-bc0c-472a-bed9-a641c669bf8b",
+    "response_id": "chatcmpl-EkYk7DjTTFfSDhrKYtuDyt6Y2WSDA",
+    "usage": {
+      "completion_tokens": 402,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 118,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 10143,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9040,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 10545
+    }
+  },
+  "received_at": "2026-11-15T21:45:16+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "html, paragraf pada bagian “…Suami”, kutipan 1 Korintus 11:10",
+        "severity": "major",
+        "source_quote": "For this cause ought the woman to have power on her head…",
+        "suggested_fix": "Ganti kutipan menjadi: “Karena itulah perempuan harus mempunyai kuasa di kepalanya… –1 Korintus 11:10.” Pertahankan tag <em> yang ada.",
+        "translation_quote": "Karena itulah perempuan harus mempunyai tanda wibawa di kepalanya…"
+      },
+      {
+        "location": "html, paragraf pada bagian “…Pemimpin Gereja”, kutipan 1 Samuel 15:23",
+        "severity": "major",
+        "source_quote": "For rebellion is as the sin of witchcraft, and stubbornness is as iniquity and idolatry…",
+        "suggested_fix": "Ganti bagian “kedegilan adalah seperti menyembah berhala” menjadi “kedegilan adalah seperti kejahatan dan penyembahan berhala” agar unsur “iniquity” tidak hilang. Pertahankan tag dan rujukan yang ada.",
+        "translation_quote": "Sebab pendurhakaan adalah seperti dosa bertenung dan kedegilan adalah seperti menyembah berhala…"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 94
+  }
+}

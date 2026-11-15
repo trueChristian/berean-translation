@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "html, paragraf pada bagian “…Suami”, kutipan 1 Korintus 11:10",
+      "severity": "major",
+      "source_quote": "For this cause ought the woman to have power on her head…",
+      "suggested_fix": "Ganti kutipan menjadi: “Karena itulah perempuan harus mempunyai kuasa di kepalanya… –1 Korintus 11:10.” Pertahankan tag <em> yang ada.",
+      "translation_quote": "Karena itulah perempuan harus mempunyai tanda wibawa di kepalanya…"
+    },
+    {
+      "location": "html, paragraf pada bagian “…Pemimpin Gereja”, kutipan 1 Samuel 15:23",
+      "severity": "major",
+      "source_quote": "For rebellion is as the sin of witchcraft, and stubbornness is as iniquity and idolatry…",
+      "suggested_fix": "Ganti bagian “kedegilan adalah seperti menyembah berhala” menjadi “kedegilan adalah seperti kejahatan dan penyembahan berhala” agar unsur “iniquity” tidak hilang. Pertahankan tag dan rujukan yang ada.",
+      "translation_quote": "Sebab pendurhakaan adalah seperti dosa bertenung dan kedegilan adalah seperti menyembah berhala…"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
