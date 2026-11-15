@@ -8,7 +8,6 @@
     "active": 50,
     "already_translated": 107,
     "automatic_capacity_wait": 261,
-    "continuation_cooldown": 1,
     "continuation_progress_uncertain_requires_attention": 5,
     "continuation_repeated_findings_requires_attention": 1,
     "eligible_automatic": 617,
@@ -17,7 +16,7 @@
     "legacy_response_outcome_unknown_requires_owner_attention": 10,
     "pending_automatic_admission": 99,
     "provider_refusal_requires_owner_attention": 4,
-    "repeated_technical_failure_requires_attention": 24,
+    "repeated_technical_failure_requires_attention": 25,
     "source_error_requires_attention": 40,
     "technical_failure_requires_attention": 28
   },
@@ -5745,7 +5744,7 @@
       "language": "hin",
       "latest_task": "b8e6f5b8cc5c9fa9f00367abf0bfe6ae",
       "processing_status": "not_ready",
-      "reason": "continuation_cooldown"
+      "reason": "repeated_technical_failure_requires_attention"
     },
     {
       "accepted_cycles": 0,
