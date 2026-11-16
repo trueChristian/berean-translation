@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "html: paragraph immediately before “…Owerhede”",
+      "severity": "major",
+      "source_quote": "provided by God and…",
+      "suggested_fix": "Vervang “wat God voorsien het, naamlik…” met “wat voorsien word deur God en…”, met behoud van die bestaande HTML.",
+      "translation_quote": "wat God voorsien het, naamlik…"
+    },
+    {
+      "location": "html: second paragraph under “…Meesters”",
+      "severity": "major",
+      "source_quote": "In faithless defiance they readily strike",
+      "suggested_fix": "Vervang “In ongelowige verset slaan hulle maklik” met “In ongelowige verset staak hulle geredelik”. Hier verwys “strike” na arbeidsoptrede, nie slaan nie.",
+      "translation_quote": "In ongelowige verset slaan hulle maklik"
+    },
+    {
+      "location": "html: Scripture quotation in paragraph under “…Kerklike Leiers”",
+      "severity": "major",
+      "source_quote": "For rebellion is as the sin of witchcraft, and stubbornness is as iniquity and idolatry…",
+      "suggested_fix": "Vervang die aangehaalde sinsdeel met “Want opstandigheid is soos die sonde van waarsêery, en eiesinnigheid is soos ongeregtigheid en afgodery…”, met behoud van die bestaande em-element en Skrifverwysing.",
+      "translation_quote": "Want wederstrewigheid is ’n sonde van waarsêery, en eiesinnigheid is afgodery…"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

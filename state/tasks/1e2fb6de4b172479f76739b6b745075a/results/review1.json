@@ -1,0 +1,51 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "ffd353eb-b918-437c-b539-77532c9ca6bf",
+    "response_id": "chatcmpl-EkmftjdxStod9XIBj5QfzpXAQ2Ase",
+    "usage": {
+      "completion_tokens": 498,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 97,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 10267,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10765
+    }
+  },
+  "received_at": "2026-11-16T09:34:44+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "html: paragraph immediately before “…Owerhede”",
+        "severity": "major",
+        "source_quote": "provided by God and…",
+        "suggested_fix": "Vervang “wat God voorsien het, naamlik…” met “wat voorsien word deur God en…”, met behoud van die bestaande HTML.",
+        "translation_quote": "wat God voorsien het, naamlik…"
+      },
+      {
+        "location": "html: second paragraph under “…Meesters”",
+        "severity": "major",
+        "source_quote": "In faithless defiance they readily strike",
+        "suggested_fix": "Vervang “In ongelowige verset slaan hulle maklik” met “In ongelowige verset staak hulle geredelik”. Hier verwys “strike” na arbeidsoptrede, nie slaan nie.",
+        "translation_quote": "In ongelowige verset slaan hulle maklik"
+      },
+      {
+        "location": "html: Scripture quotation in paragraph under “…Kerklike Leiers”",
+        "severity": "major",
+        "source_quote": "For rebellion is as the sin of witchcraft, and stubbornness is as iniquity and idolatry…",
+        "suggested_fix": "Vervang die aangehaalde sinsdeel met “Want opstandigheid is soos die sonde van waarsêery, en eiesinnigheid is soos ongeregtigheid en afgodery…”, met behoud van die bestaande em-element en Skrifverwysing.",
+        "translation_quote": "Want wederstrewigheid is ’n sonde van waarsêery, en eiesinnigheid is afgodery…"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 94
+  }
+}

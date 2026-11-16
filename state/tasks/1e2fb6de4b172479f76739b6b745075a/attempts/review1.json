@@ -1,0 +1,31 @@
+{
+  "received_at": "2026-11-16T09:34:44+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"html: paragraph immediately before “…Owerhede”\",\n      \"severity\": \"major\",\n      \"source_quote\": \"provided by God and…\",\n      \"suggested_fix\": \"Vervang “wat God voorsien het, naamlik…” met “wat voorsien word deur God en…”, met behoud van die bestaande HTML.\",\n      \"translation_quote\": \"wat God voorsien het, naamlik…\"\n    },\n    {\n      \"location\": \"html: second paragraph under “…Meesters”\",\n      \"severity\": \"major\",\n      \"source_quote\": \"In faithless defiance they readily strike\",\n      \"suggested_fix\": \"Vervang “In ongelowige verset slaan hulle maklik” met “In ongelowige verset staak hulle geredelik”. Hier verwys “strike” na arbeidsoptrede, nie slaan nie.\",\n      \"translation_quote\": \"In ongelowige verset slaan hulle maklik\"\n    },\n    {\n      \"location\": \"html: Scripture quotation in paragraph under “…Kerklike Leiers”\",\n      \"severity\": \"major\",\n      \"source_quote\": \"For rebellion is as the sin of witchcraft, and stubbornness is as iniquity and idolatry…\",\n      \"suggested_fix\": \"Vervang die aangehaalde sinsdeel met “Want opstandigheid is soos die sonde van waarsêery, en eiesinnigheid is soos ongeregtigheid en afgodery…”, met behoud van die bestaande em-element en Skrifverwysing.\",\n      \"translation_quote\": \"Want wederstrewigheid is ’n sonde van waarsêery, en eiesinnigheid is afgodery…\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": false,\n  \"score\": 94\n}",
+    "content_bytes": 1495,
+    "content_evidence_truncated": false,
+    "content_sha256": "11384a87577e4ff847b7647fce6781a7948b7a09c3f7f28a90b26e15378d0220",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 498,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 97,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 10267,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10765
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}
