@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "अंतिम अनुच्छेद, गिल्बर्ट टेनेट के उद्धरण में",
+      "severity": "minor",
+      "source_quote": "“strengthen men's carnal security”",
+      "suggested_fix": "“लोगों के सांसारिक आत्मविश्वास को मजबूत करते हैं”",
+      "translation_quote": "“लोगों की शारीरिक सुरक्षा की भावना को मजबूत करते हैं”"
+    },
+    {
+      "location": "दूसरा खंड, इवान रॉबर्ट्स वाले अनुच्छेद में",
+      "severity": "minor",
+      "source_quote": "“multitudes in their trespasses and sins”",
+      "suggested_fix": "“अपने अपराधों और पापों में पड़े असंख्य लोग”",
+      "translation_quote": "“अपनी अपराधों तथा पापों में असंख्य लोग”"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

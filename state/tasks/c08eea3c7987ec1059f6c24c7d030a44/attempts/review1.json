@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-16T12:51:06+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"अंतिम अनुच्छेद, गिल्बर्ट टेनेट के उद्धरण में\",\"severity\":\"minor\",\"source_quote\":\"“strengthen men's carnal security”\",\"suggested_fix\":\"“लोगों के सांसारिक आत्मविश्वास को मजबूत करते हैं”\",\"translation_quote\":\"“लोगों की शारीरिक सुरक्षा की भावना को मजबूत करते हैं”\"},{\"location\":\"दूसरा खंड, इवान रॉबर्ट्स वाले अनुच्छेद में\",\"severity\":\"minor\",\"source_quote\":\"“multitudes in their trespasses and sins”\",\"suggested_fix\":\"“अपने अपराधों और पापों में पड़े असंख्य लोग”\",\"translation_quote\":\"“अपनी अपराधों तथा पापों में असंख्य लोग”\"}],\"findings_complete\":true,\"passed\":true,\"score\":97}",
+    "content_bytes": 1061,
+    "content_evidence_truncated": false,
+    "content_sha256": "87c2bcf3a1634ed9d23cc71c13ce3df396906ca1930a7c10a450e2d6abe344db",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1081,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 885,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7748,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6645,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 8829
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}
