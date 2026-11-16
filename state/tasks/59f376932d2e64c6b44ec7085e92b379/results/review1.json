@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "c48ee4dc-9989-445a-bb34-e687c4c89e24",
+    "response_id": "chatcmpl-EkgJcCEVmmJo83NwWUCtt1zMoyamt",
+    "usage": {
+      "completion_tokens": 896,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 662,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2821,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1718,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 3717
+    }
+  },
+  "received_at": "2026-11-16T02:11:10+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "פסקה 3, תיאור סוגי המאמרים",
+        "severity": "major",
+        "source_quote": "“revival preachers and histories”",
+        "suggested_fix": "החליפו את „היסטוריונים” ב„חיבורים היסטוריים” או „ספרי היסטוריה”, כדי לשמר את ההתייחסות לכתבים היסטוריים ולא לאנשים.",
+        "translation_quote": "„מטיפים להתעוררות רוחנית ושל היסטוריונים”"
+      },
+      {
+        "location": "פסקה 3, תיאור סוגי המאמרים",
+        "severity": "major",
+        "source_quote": "“Methodist circuit riders”",
+        "suggested_fix": "תרגמו כ„מטיפים מתודיסטים נודדים” או ניסוח עברי מקביל שמבהיר שמדובר במטיפים נודדים, ולא ברוכבי מסלולים.",
+        "translation_quote": "„רוכבי מסלולים מתודיסטים”"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 92
+  }
+}

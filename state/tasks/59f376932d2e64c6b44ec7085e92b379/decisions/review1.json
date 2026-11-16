@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "פסקה 3, תיאור סוגי המאמרים",
+      "severity": "major",
+      "source_quote": "“revival preachers and histories”",
+      "suggested_fix": "החליפו את „היסטוריונים” ב„חיבורים היסטוריים” או „ספרי היסטוריה”, כדי לשמר את ההתייחסות לכתבים היסטוריים ולא לאנשים.",
+      "translation_quote": "„מטיפים להתעוררות רוחנית ושל היסטוריונים”"
+    },
+    {
+      "location": "פסקה 3, תיאור סוגי המאמרים",
+      "severity": "major",
+      "source_quote": "“Methodist circuit riders”",
+      "suggested_fix": "תרגמו כ„מטיפים מתודיסטים נודדים” או ניסוח עברי מקביל שמבהיר שמדובר במטיפים נודדים, ולא ברוכבי מסלולים.",
+      "translation_quote": "„רוכבי מסלולים מתודיסטים”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

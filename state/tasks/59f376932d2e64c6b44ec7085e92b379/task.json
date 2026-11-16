@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "11caa867ec724a1086500a0eeb977e8f",
   "campaign": "auto-a8586140d342c269515aead2a4cc4ff81a33fc836d33e298d61a347a38e5daee",
   "created_at": "2026-11-15T22:30:55+00:00",
   "events": [
@@ -28,10 +27,45 @@
         },
         "total_tokens": 2588
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 896,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 662,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 2821,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 1718,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 3717
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "פסקה 3, תיאור סוגי המאמרים",
+      "severity": "major",
+      "source_quote": "“revival preachers and histories”",
+      "suggested_fix": "החליפו את „היסטוריונים” ב„חיבורים היסטוריים” או „ספרי היסטוריה”, כדי לשמר את ההתייחסות לכתבים היסטוריים ולא לאנשים.",
+      "translation_quote": "„מטיפים להתעוררות רוחנית ושל היסטוריונים”"
+    },
+    {
+      "location": "פסקה 3, תיאור סוגי המאמרים",
+      "severity": "major",
+      "source_quote": "“Methodist circuit riders”",
+      "suggested_fix": "תרגמו כ„מטיפים מתודיסטים נודדים” או ניסוח עברי מקביל שמבהיר שמדובר במטיפים נודדים, ולא ברוכבי מסלולים.",
+      "translation_quote": "„רוכבי מסלולים מתודיסטים”"
+    }
+  ],
   "id": "59f376932d2e64c6b44ec7085e92b379",
   "issue_id": "14962b7b-2d94-5b43-a4c6-bbb78f074d1a",
   "language": "heb",
@@ -120,11 +154,13 @@
     }
   },
   "protected": false,
+  "quality_score": 92,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/e3530609551595f0d5905092141d03f4af2c1e2a1a26f0cb713cfbd5df2545ad.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "translate",
     "max_candidate_bytes": 120000,
@@ -138,7 +174,7 @@
     "total_reserved_usd": 0.086555,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "1d04ac46996031206a2ceace35a02ae4625ee12e63800047409c8827bb2474ab",
   "translation_model_actual": "gpt-6-luna"
