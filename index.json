@@ -37214,6 +37214,42 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/fra/articles/b649c2a3-20b1-4e02-9204-6285b234f34f.html",
+      "html_sha256": "02a1b62d2c8e26c86cc9c38d876717c6ac80a057a920b8a10a91a2ab48d75fe6",
+      "human_reviewed": false,
+      "id": "b649c2a3-20b1-4e02-9204-6285b234f34f",
+      "images": [
+        {
+          "alt": "Portrait de Philip P. Bliss.",
+          "public_path": "/images/articles/b649c2a3-20b1-4e02-9204-6285b234f34f-1.jpg"
+        },
+        {
+          "alt": "Fleurs de lilas pâle parmi des feuilles vertes.",
+          "public_path": "/images/articles/b649c2a3-20b1-4e02-9204-6285b234f34f-2.jpg"
+        },
+        {
+          "alt": "La partition imprimée complète de La Lumière du monde, c’est Jésus.",
+          "public_path": "/images/articles/b649c2a3-20b1-4e02-9204-6285b234f34f-3.png"
+        }
+      ],
+      "issue_id": "103c93e0-6e9a-44f6-a6bc-377af8e08e38",
+      "language": "fra",
+      "language_tag": "fr",
+      "metadata": "content/fra/articles/b649c2a3-20b1-4e02-9204-6285b234f34f.json",
+      "metadata_sha256": "413f3ee6b80010aa5aefa583c2ef658abb60181fb7400975fdfbd27e06647cd5",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "Histoire d’un hymne",
+      "source_revision": "ccefc5a5c3d79409cc78319f94b5490718d30670",
+      "source_translation_key": "24f89250b05cd303e73c3df869edd19f173aa57a9d0a95bd0580196d7fe3e789",
+      "status": "ready",
+      "subtitle": null,
+      "title": "La Lumière du monde, c’est Jésus",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/fra/articles/b6a6823e-0f2a-4354-aebb-5c37ad85937a.html",
       "html_sha256": "d92891a2e799c427884c5b78e0db29c7d9ece7adfdce775725a560550601b11e",
       "human_reviewed": false,
