@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "4082c206-7fbc-4323-b8a6-d6cc4fc30377",
+    "response_id": "chatcmpl-EkpPGXd4rHdIzzzU5dAyPxkYfFCmU",
+    "usage": {
+      "completion_tokens": 546,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 452,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2762,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2759,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3308
+    }
+  },
+  "received_at": "2026-11-16T12:52:07+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph 3",
+        "severity": "minor",
+        "source_quote": "“revival preachers and histories”",
+        "suggested_fix": "“predicatori del risveglio e resoconti storici”",
+        "translation_quote": "“predicatori e storici del risveglio”"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 97
+  }
+}
