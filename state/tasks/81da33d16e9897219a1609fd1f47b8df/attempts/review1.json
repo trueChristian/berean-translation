@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-16T18:58:36+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Matthew 19:9 quotation\",\"severity\":\"major\",\"source_quote\":\"“Whosoever shall put away his wife, except it be for fornication, and shall marry another, committeth adultery”\",\"suggested_fix\":\"В цитате замените «не за прелюбодеяние» на «кроме случая блуда», чтобы сохранить указанное в источнике исключение и не подменять fornication прелюбодеянием.\",\"translation_quote\":\"«кто разводится с женою своею не за прелюбодеяние и женится на другой, тот прелюбодействует»\"},{\"location\":\"Paragraph beginning “Jesus responded to the Pharisees’ divorce question”\",\"severity\":\"major\",\"source_quote\":\"“The only way to have a divorce is to quit cleaving. If we quit cleaving, we’re disobeying God.”\",\"suggested_fix\":\"Передайте мысль о прекращении прилепления друг к другу: «Единственный путь к разводу — перестать прилепляться друг к другу. Если мы перестаём прилепляться друг к другу, мы не повинуемся Богу».\",\"translation_quote\":\"«Развод возможен лишь тогда, когда супруги перестают быть едиными. Если мы перестаём быть едиными, мы не повинуемся Богу»\"},{\"location\":\"Заключительный выделенный абзац\",\"severity\":\"major\",\"source_quote\":\"“God longs to bless you as you leave your wedding day.”\",\"suggested_fix\":\"Замените указание на уход с места церемонии формулировкой о завершении свадебного дня: «Бог страстно желает благословить вас, когда завершится день вашей свадьбы».\",\"translation_quote\":\"«Бог страстно желает благословить вас, когда вы покинете место свадебной церемонии»\"}],\"findings_complete\":true,\"passed\":false,\"score\":91}",
+    "content_bytes": 2267,
+    "content_evidence_truncated": false,
+    "content_sha256": "263b7a0b606b9a480c4ae7bd16ae9dd074e8e35d6354616cf7531351ea921c2f",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1235,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 803,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 11983,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 11980,
+        "cached_tokens": 0
+      },
+      "total_tokens": 13218
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}
