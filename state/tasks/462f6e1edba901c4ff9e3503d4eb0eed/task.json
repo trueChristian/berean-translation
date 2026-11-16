@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "82e2a4eb548241bab51a8ebc73680a67",
   "campaign": "auto-cef6cb04f4ee8c9df7d9f9c4a553e780405d2b6373336c530b71468aaaea2c47",
   "created_at": "2026-11-13T01:04:09+00:00",
   "events": [
@@ -68,53 +67,68 @@
         },
         "total_tokens": 19687
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1582,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 1024,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 12595,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 12592,
+          "cached_tokens": 0
+        },
+        "total_tokens": 14177
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; a recovery continuation must pass admission",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "Paragraph beginning “Mchakato wa uchumba unaomweka Kristo katikati…” (after “Kuelewa uchumba na posa”)",
+      "location": "Engagement section, paragraph beginning “Through all this”",
       "severity": "major",
-      "source_quote": "“It is the final step in discerning God’s will for a couple.”",
-      "suggested_fix": "Replace “Hii ni hatua ya mwisho ya kutambua mapenzi ya Mungu kwa wanandoa” with “Hii ni hatua ya mwisho ya kutambua mapenzi ya Mungu kwa watu wawili wanaotaka kuoana” to avoid saying they are already married.",
-      "translation_quote": "“Hii ni hatua ya mwisho ya kutambua mapenzi ya Mungu kwa wanandoa.”"
+      "source_quote": "“A young couple should not fully give their hearts to each other until marriage.”",
+      "suggested_fix": "Replace “Wanandoa wachanga hawapaswi kupeana mioyo yao kikamilifu kabla ya ndoa” with “Wawili walio katika uchumba hawapaswi kupeana mioyo yao kikamilifu kabla ya ndoa.”",
+      "translation_quote": "“Wanandoa wachanga hawapaswi kupeana mioyo yao kikamilifu kabla ya ndoa.”"
     },
     {
-      "location": "Paragraph beginning “Wazazi wake wanapaswa kupanga mkutano wa kwanza…”",
-      "severity": "major",
-      "source_quote": "“The couple should have some time alone together at this first meeting.”",
-      "suggested_fix": "Replace “Wanandoa wanapaswa kupata muda wa kuwa peke yao pamoja” with “Wawili hao wanapaswa kupata muda wa kuwa pamoja faraghani” to avoid implying they are already married.",
-      "translation_quote": "“Wanandoa wanapaswa kupata muda wa kuwa peke yao pamoja katika mkutano huu wa kwanza.”"
-    },
-    {
-      "location": "Paragraph beginning “Kijana wa kiume anajuaje…”",
+      "location": "“How does a young man know…” paragraph; “Guidelines…” opening paragraph",
       "severity": "minor",
-      "source_quote": "“a virtuous young woman is valued far above rubies”",
-      "suggested_fix": "Consider “mwanamke kijana mwenye tabia njema” or “mwanamke kijana mwema” to convey virtue, rather than the potentially generic “mwanamke kijana mwema.”",
-      "translation_quote": "“mwanamke kijana mwema ana thamani kubwa kuliko marijani”"
+      "source_quote": "“a virtuous young woman is valued far above rubies”; “Her price is ‘far above rubies.’”",
+      "suggested_fix": "Replace “marijani” with a Kiswahili term for rubies, such as “yakuti nyekundu,” in both places.",
+      "translation_quote": "“mwanamke kijana mwenye tabia njema ana thamani kubwa kuliko marijani”; “Thamani yake ni ‘kubwa kuliko marijani.’”"
     },
     {
-      "location": "Paragraph beginning “Katika kipindi cha posa, pangeni harusi…”",
-      "severity": "major",
-      "source_quote": "“the bridal party walks in”",
-      "suggested_fix": "Replace “msafara wa bibi-arusi huingia” with “kikundi cha wahusika wa harusi huingia” to refer to the bridal party, not a procession.",
-      "translation_quote": "“msafara wa bibi-arusi huingia”"
+      "location": "Guideline 8, “Driving alone”",
+      "severity": "minor",
+      "source_quote": "“a chaperone should be along to abstain from all appearances of evil.”",
+      "suggested_fix": "Render “appearances of evil” as “mambo yanayoweza kuonekana kuwa maovu” rather than “kila namna ya uovu.”",
+      "translation_quote": "“mwandamani anapaswa kuwapo ili kuepuka kila namna ya uovu.”"
     },
     {
-      "location": "Paragraph beginning “Katika haya yote, kaeni chini…”",
-      "severity": "major",
-      "source_quote": "“She has a natural instinct from God to be his helpmeet.”",
-      "suggested_fix": "Replace “Mungu amempa silika ya kawaida ya kuwa msaidizi wake” with “Mungu amempa silika ya asili ya kuwa msaidizi anayemfaa” to convey “helpmeet” more fully.",
-      "translation_quote": "“Mungu amempa silika ya kawaida ya kuwa msaidizi wake.”"
+      "location": "Parents’ first meeting paragraph",
+      "severity": "minor",
+      "source_quote": "“This should be planned soon if the rest of the family doesn’t know about it yet.”",
+      "suggested_fix": "Replace “familia nyingine” with “wanafamilia wengine” to refer to other members of the family.",
+      "translation_quote": "“Hili linapaswa kupangwa hivi karibuni ikiwa familia nyingine bado haijui jambo hili.”"
     },
     {
       "location": "Final bold paragraph",
-      "severity": "major",
-      "source_quote": "“God longs to bless you as you leave your wedding day.”",
-      "suggested_fix": "Replace “Mungu anatamani kuwabariki mnapoondoka siku yenu ya harusi” with “Mungu anatamani kuwabariki mnapoondoka kwenye sherehe ya harusi yenu” to convey leaving the wedding event.",
-      "translation_quote": "“Mungu anatamani kuwabariki mnapoondoka siku yenu ya harusi.”"
+      "severity": "minor",
+      "source_quote": "“as you leave your wedding day.”",
+      "suggested_fix": "Replace “mnapoondoka kwenye sherehe ya harusi yenu” with “mnapomaliza siku yenu ya harusi” to retain the source’s reference to the wedding day.",
+      "translation_quote": "“Mungu anatamani kuwabariki mnapoondoka kwenye sherehe ya harusi yenu.”"
     }
   ],
+  "finished_at": "2026-11-16T02:10:30+00:00",
   "id": "462f6e1edba901c4ff9e3503d4eb0eed",
   "issue_id": "103c93e0-6e9a-44f6-a6bc-377af8e08e38",
   "language": "swa",
@@ -223,7 +237,7 @@
     "total_reserved_usd": 0.092116,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "168a1108b0cb584118665d0d4048559fb86bb1444e057e3646ac49c743cf2917",
   "translation_model_actual": "gpt-6-luna"

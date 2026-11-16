@@ -1,0 +1,42 @@
+{
+  "findings": [
+    {
+      "location": "Engagement section, paragraph beginning “Through all this”",
+      "severity": "major",
+      "source_quote": "“A young couple should not fully give their hearts to each other until marriage.”",
+      "suggested_fix": "Replace “Wanandoa wachanga hawapaswi kupeana mioyo yao kikamilifu kabla ya ndoa” with “Wawili walio katika uchumba hawapaswi kupeana mioyo yao kikamilifu kabla ya ndoa.”",
+      "translation_quote": "“Wanandoa wachanga hawapaswi kupeana mioyo yao kikamilifu kabla ya ndoa.”"
+    },
+    {
+      "location": "“How does a young man know…” paragraph; “Guidelines…” opening paragraph",
+      "severity": "minor",
+      "source_quote": "“a virtuous young woman is valued far above rubies”; “Her price is ‘far above rubies.’”",
+      "suggested_fix": "Replace “marijani” with a Kiswahili term for rubies, such as “yakuti nyekundu,” in both places.",
+      "translation_quote": "“mwanamke kijana mwenye tabia njema ana thamani kubwa kuliko marijani”; “Thamani yake ni ‘kubwa kuliko marijani.’”"
+    },
+    {
+      "location": "Guideline 8, “Driving alone”",
+      "severity": "minor",
+      "source_quote": "“a chaperone should be along to abstain from all appearances of evil.”",
+      "suggested_fix": "Render “appearances of evil” as “mambo yanayoweza kuonekana kuwa maovu” rather than “kila namna ya uovu.”",
+      "translation_quote": "“mwandamani anapaswa kuwapo ili kuepuka kila namna ya uovu.”"
+    },
+    {
+      "location": "Parents’ first meeting paragraph",
+      "severity": "minor",
+      "source_quote": "“This should be planned soon if the rest of the family doesn’t know about it yet.”",
+      "suggested_fix": "Replace “familia nyingine” with “wanafamilia wengine” to refer to other members of the family.",
+      "translation_quote": "“Hili linapaswa kupangwa hivi karibuni ikiwa familia nyingine bado haijui jambo hili.”"
+    },
+    {
+      "location": "Final bold paragraph",
+      "severity": "minor",
+      "source_quote": "“as you leave your wedding day.”",
+      "suggested_fix": "Replace “mnapoondoka kwenye sherehe ya harusi yenu” with “mnapomaliza siku yenu ya harusi” to retain the source’s reference to the wedding day.",
+      "translation_quote": "“Mungu anatamani kuwabariki mnapoondoka kwenye sherehe ya harusi yenu.”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}
