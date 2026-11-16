@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-16T09:49:58+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"html: aya inayoanza “Kuna mamlaka iliyotolewa na Mungu”, sentensi ya mwisho\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"we move the opposite post to a position that is less hurtful to our humanity and more pleasing to our palate\",\n      \"suggested_fix\": \"Badili “ili iwe karibu na ubinadamu wetu” kuwa “ili isiumize sana ubinadamu wetu”, ukihifadhi sehemu nyingine ya sentensi.\",\n      \"translation_quote\": \"tunaisogeza nguzo iliyo kinyume ili iwe karibu na ubinadamu wetu na ipendeze zaidi kaakaa letu\"\n    },\n    {\n      \"location\": \"html: aya yenye msisitizo kabla ya kichwa “…Serikali”\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"These will find life within the confinements of the strait and narrow provided by God and…\",\n      \"suggested_fix\": \"<p><strong><em>Hawa watapata uzima ndani ya mipaka ya lango jembamba na njia nyembamba iliyowekwa na Mungu na…</em></strong></p>\",\n      \"translation_quote\": \"<p><strong><em>Hawa watapata uzima ndani ya mipaka ya jembamba na nyembamba iliyowekwa na Mungu na…</em></strong></p>\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": true,\n  \"score\": 96\n}",
+    "content_bytes": 1185,
+    "content_evidence_truncated": false,
+    "content_sha256": "f02514adf03d35bd78ee6891d53d5bd438e614e0b4a4710131feac4125c36d9a",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 514,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 178,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 10249,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 10246,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10763
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}

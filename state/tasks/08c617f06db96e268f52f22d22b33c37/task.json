@@ -5,11 +5,48 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "c22da55408ba4b2f9bfd6fe924165843",
   "campaign": "auto-8fb852da1839a761bec43bd575211a3db7cb3ac7e235faad5ddf16e52f01b48c",
   "created_at": "2026-11-16T09:36:23+00:00",
-  "events": [],
-  "findings": [],
+  "events": [
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 514,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 178,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 10249,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 10246,
+          "cached_tokens": 0
+        },
+        "total_tokens": 10763
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "html: aya inayoanza “Kuna mamlaka iliyotolewa na Mungu”, sentensi ya mwisho",
+      "severity": "minor",
+      "source_quote": "we move the opposite post to a position that is less hurtful to our humanity and more pleasing to our palate",
+      "suggested_fix": "Badili “ili iwe karibu na ubinadamu wetu” kuwa “ili isiumize sana ubinadamu wetu”, ukihifadhi sehemu nyingine ya sentensi.",
+      "translation_quote": "tunaisogeza nguzo iliyo kinyume ili iwe karibu na ubinadamu wetu na ipendeze zaidi kaakaa letu"
+    },
+    {
+      "location": "html: aya yenye msisitizo kabla ya kichwa “…Serikali”",
+      "severity": "minor",
+      "source_quote": "These will find life within the confinements of the strait and narrow provided by God and…",
+      "suggested_fix": "<p><strong><em>Hawa watapata uzima ndani ya mipaka ya lango jembamba na njia nyembamba iliyowekwa na Mungu na…</em></strong></p>",
+      "translation_quote": "<p><strong><em>Hawa watapata uzima ndani ya mipaka ya jembamba na nyembamba iliyowekwa na Mungu na…</em></strong></p>"
+    }
+  ],
+  "finished_at": "2026-11-16T09:49:59+00:00",
   "id": "08c617f06db96e268f52f22d22b33c37",
   "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
   "language": "swa",
@@ -98,9 +135,11 @@
     }
   },
   "protected": false,
+  "quality_score": 96,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/e2f79f53d3b4344da8f3a224cbcadbaad6d0cc212776a503248d1dd4853c5cbb.json",
   "stage": "review1",
   "stage_budget": {
@@ -115,7 +154,7 @@
     "total_reserved_usd": 0.770051,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 0,
   "translation_key": "f7c753eaec7cab461389c398af8410c2a13a7ef5a7c84c987fe4dfe4c20f33bc",
   "translation_model_actual": "gpt-6-luna"

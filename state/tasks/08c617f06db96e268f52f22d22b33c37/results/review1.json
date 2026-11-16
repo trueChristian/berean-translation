@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "e9363a10-6e35-4827-b4ef-857abd8d3f2c",
+    "response_id": "chatcmpl-EknWoKUmEmd7MFUqLmh3LhHqoGn7V",
+    "usage": {
+      "completion_tokens": 514,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 178,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 10249,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 10246,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10763
+    }
+  },
+  "received_at": "2026-11-16T09:49:59+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "html: aya inayoanza “Kuna mamlaka iliyotolewa na Mungu”, sentensi ya mwisho",
+        "severity": "minor",
+        "source_quote": "we move the opposite post to a position that is less hurtful to our humanity and more pleasing to our palate",
+        "suggested_fix": "Badili “ili iwe karibu na ubinadamu wetu” kuwa “ili isiumize sana ubinadamu wetu”, ukihifadhi sehemu nyingine ya sentensi.",
+        "translation_quote": "tunaisogeza nguzo iliyo kinyume ili iwe karibu na ubinadamu wetu na ipendeze zaidi kaakaa letu"
+      },
+      {
+        "location": "html: aya yenye msisitizo kabla ya kichwa “…Serikali”",
+        "severity": "minor",
+        "source_quote": "These will find life within the confinements of the strait and narrow provided by God and…",
+        "suggested_fix": "<p><strong><em>Hawa watapata uzima ndani ya mipaka ya lango jembamba na njia nyembamba iliyowekwa na Mungu na…</em></strong></p>",
+        "translation_quote": "<p><strong><em>Hawa watapata uzima ndani ya mipaka ya jembamba na nyembamba iliyowekwa na Mungu na…</em></strong></p>"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 96
+  }
+}

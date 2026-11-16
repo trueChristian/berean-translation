@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "html: aya inayoanza “Kuna mamlaka iliyotolewa na Mungu”, sentensi ya mwisho",
+      "severity": "minor",
+      "source_quote": "we move the opposite post to a position that is less hurtful to our humanity and more pleasing to our palate",
+      "suggested_fix": "Badili “ili iwe karibu na ubinadamu wetu” kuwa “ili isiumize sana ubinadamu wetu”, ukihifadhi sehemu nyingine ya sentensi.",
+      "translation_quote": "tunaisogeza nguzo iliyo kinyume ili iwe karibu na ubinadamu wetu na ipendeze zaidi kaakaa letu"
+    },
+    {
+      "location": "html: aya yenye msisitizo kabla ya kichwa “…Serikali”",
+      "severity": "minor",
+      "source_quote": "These will find life within the confinements of the strait and narrow provided by God and…",
+      "suggested_fix": "<p><strong><em>Hawa watapata uzima ndani ya mipaka ya lango jembamba na njia nyembamba iliyowekwa na Mungu na…</em></strong></p>",
+      "translation_quote": "<p><strong><em>Hawa watapata uzima ndani ya mipaka ya jembamba na nyembamba iliyowekwa na Mungu na…</em></strong></p>"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}
