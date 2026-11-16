@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, Absatz 2",
+      "severity": "minor",
+      "source_quote": "Starting out as a local outreach newsletter",
+      "suggested_fix": "Was zunächst als Rundbrief für die örtliche Arbeit in der Gemeinde und ihrem Umfeld begann",
+      "translation_quote": "Was zunächst als Rundbrief für die örtliche Gemeindearbeit begann"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

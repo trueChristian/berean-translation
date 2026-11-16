@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-16T01:51:10+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, Absatz 2\",\"severity\":\"minor\",\"source_quote\":\"Starting out as a local outreach newsletter\",\"suggested_fix\":\"Was zunächst als Rundbrief für die örtliche Arbeit in der Gemeinde und ihrem Umfeld begann\",\"translation_quote\":\"Was zunächst als Rundbrief für die örtliche Gemeindearbeit begann\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 377,
+    "content_evidence_truncated": false,
+    "content_sha256": "164d20c61c52b3ca1ba82d17fb148b515e519a640e5c624be01f98750b41d8fc",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 712,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 610,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2711,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1608,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 3423
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review2",
+  "translation_attempts": 2
+}

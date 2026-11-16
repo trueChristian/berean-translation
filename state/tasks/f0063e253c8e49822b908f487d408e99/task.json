@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "de8b757015bb423e9f88ff4c5ba9c180",
   "campaign": "auto-6e98ebc93c167485bc2f8b05db1681fb5feb9b367611cbd3c399c83d5c6b5c15",
   "created_at": "2026-11-15T17:50:32+00:00",
   "events": [
@@ -48,18 +47,39 @@
         },
         "total_tokens": 3648
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 712,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 610,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 2711,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 1608,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 3423
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "HTML/metadata contract",
-      "severity": "critical",
-      "source_quote": "",
-      "suggested_fix": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[12]: source /article[1]/p[2]/em[2] ('start', 'em', ()); translation /article[1]/p[2] ('end', 'p')",
-      "translation_quote": ""
+      "location": "HTML, Absatz 2",
+      "severity": "minor",
+      "source_quote": "Starting out as a local outreach newsletter",
+      "suggested_fix": "Was zunächst als Rundbrief für die örtliche Arbeit in der Gemeinde und ihrem Umfeld begann",
+      "translation_quote": "Was zunächst als Rundbrief für die örtliche Gemeindearbeit begann"
     }
   ],
+  "finished_at": "2026-11-16T01:51:10+00:00",
   "id": "f0063e253c8e49822b908f487d408e99",
   "issue_id": "14962b7b-2d94-5b43-a4c6-bbb78f074d1a",
   "language": "deu",
@@ -148,9 +168,11 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/e3530609551595f0d5905092141d03f4af2c1e2a1a26f0cb713cfbd5df2545ad.json",
   "stage": "review2",
   "stage_budget": {
@@ -166,7 +188,7 @@
     "total_reserved_usd": 0.086545,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "1d04ac46996031206a2ceace35a02ae4625ee12e63800047409c8827bb2474ab",
   "translation_model_actual": "gpt-6-luna"
