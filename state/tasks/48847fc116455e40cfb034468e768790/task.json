@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "234bc632ff4c4b8086d6407ef8b6ec15",
   "campaign": "auto-c3eb8509593b44517ed1b12c5fda67fa2bd0aa19a11821bfe8e3086c7b50111c",
   "created_at": "2026-11-16T02:13:15+00:00",
   "events": [
@@ -28,46 +27,31 @@
         },
         "total_tokens": 19683
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 85,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 53,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 12684,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 12681,
+          "cached_tokens": 0
+        },
+        "total_tokens": 12769
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "Engagement section, paragraph beginning “Through all this”",
-      "severity": "major",
-      "source_quote": "“A young couple should not fully give their hearts to each other until marriage.”",
-      "suggested_fix": "Replace “Wanandoa wachanga hawapaswi kupeana mioyo yao kikamilifu kabla ya ndoa” with “Wawili walio katika uchumba hawapaswi kupeana mioyo yao kikamilifu kabla ya ndoa.”",
-      "translation_quote": "“Wanandoa wachanga hawapaswi kupeana mioyo yao kikamilifu kabla ya ndoa.”"
-    },
-    {
-      "location": "“How does a young man know…” paragraph; “Guidelines…” opening paragraph",
-      "severity": "minor",
-      "source_quote": "“a virtuous young woman is valued far above rubies”; “Her price is ‘far above rubies.’”",
-      "suggested_fix": "Replace “marijani” with a Kiswahili term for rubies, such as “yakuti nyekundu,” in both places.",
-      "translation_quote": "“mwanamke kijana mwenye tabia njema ana thamani kubwa kuliko marijani”; “Thamani yake ni ‘kubwa kuliko marijani.’”"
-    },
-    {
-      "location": "Guideline 8, “Driving alone”",
-      "severity": "minor",
-      "source_quote": "“a chaperone should be along to abstain from all appearances of evil.”",
-      "suggested_fix": "Render “appearances of evil” as “mambo yanayoweza kuonekana kuwa maovu” rather than “kila namna ya uovu.”",
-      "translation_quote": "“mwandamani anapaswa kuwapo ili kuepuka kila namna ya uovu.”"
-    },
-    {
-      "location": "Parents’ first meeting paragraph",
-      "severity": "minor",
-      "source_quote": "“This should be planned soon if the rest of the family doesn’t know about it yet.”",
-      "suggested_fix": "Replace “familia nyingine” with “wanafamilia wengine” to refer to other members of the family.",
-      "translation_quote": "“Hili linapaswa kupangwa hivi karibuni ikiwa familia nyingine bado haijui jambo hili.”"
-    },
-    {
-      "location": "Final bold paragraph",
-      "severity": "minor",
-      "source_quote": "“as you leave your wedding day.”",
-      "suggested_fix": "Replace “mnapoondoka kwenye sherehe ya harusi yenu” with “mnapomaliza siku yenu ya harusi” to retain the source’s reference to the wedding day.",
-      "translation_quote": "“Mungu anatamani kuwabariki mnapoondoka kwenye sherehe ya harusi yenu.”"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-11-16T08:40:28+00:00",
   "id": "48847fc116455e40cfb034468e768790",
   "issue_id": "103c93e0-6e9a-44f6-a6bc-377af8e08e38",
   "language": "swa",
@@ -156,9 +140,11 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/28493dcff92c3eb625274c8a3da67c7e1031a757b524e0669b9264101184aae7.json",
   "stage": "review2",
   "stage_budget": {
@@ -172,7 +158,7 @@
     "total_reserved_usd": 0.613037,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "168a1108b0cb584118665d0d4048559fb86bb1444e057e3646ac49c743cf2917",
   "translation_model_actual": "gpt-6.1-sol"
