@@ -5,6 +5,7 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
+  "batch": "436516adfcdb480e9dc0fc5c8905d8e1",
   "campaign": "auto-a8586140d342c269515aead2a4cc4ff81a33fc836d33e298d61a347a38e5daee",
   "created_at": "2026-11-15T22:30:55+00:00",
   "events": [
@@ -174,8 +175,8 @@
     "total_reserved_usd": 0.086555,
     "version": 1
   },
-  "status": "queued",
-  "translation_attempts": 1,
+  "status": "in_batch",
+  "translation_attempts": 2,
   "translation_key": "1d04ac46996031206a2ceace35a02ae4625ee12e63800047409c8827bb2474ab",
   "translation_model_actual": "gpt-6-luna"
 }
