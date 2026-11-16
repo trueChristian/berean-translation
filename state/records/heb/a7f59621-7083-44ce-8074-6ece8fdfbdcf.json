@@ -12,9 +12,16 @@
       "event": "not_ready",
       "reason": "Scripture chapter/verse numbers or ranges changed at /article[1]/p[19]; missing: Titus 2:15; extra: 2:15",
       "task": "c8362da56fc558cdc98f7e90472ea65a"
+    },
+    {
+      "at": "2026-11-16T12:55:24+00:00",
+      "campaign": "auto-dab465fb91c8b7ba890dae42da403a420389fbd40e2d05c5895e0a1b0a8327ea",
+      "event": "automatic_requested",
+      "previous_task": "c8362da56fc558cdc98f7e90472ea65a",
+      "task": "d7ce1c1bcbbd27ef842a76425013da91"
     }
   ],
   "language": "heb",
-  "latest_task": "c8362da56fc558cdc98f7e90472ea65a",
+  "latest_task": "d7ce1c1bcbbd27ef842a76425013da91",
   "published": null
 }
