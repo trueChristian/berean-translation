@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "68e46737ab7a42309530914c4f8c7e6d",
   "campaign": "auto-b8b1b2849c91173827fd00a332f5d353f75ef15f1dba536a4c8da4fa8f0719ff",
   "created_at": "2026-11-15T22:18:51+00:00",
   "events": [
@@ -28,10 +27,39 @@
         },
         "total_tokens": 2609
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 492,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 357,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 2817,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 0,
+          "cached_tokens": 2814
+        },
+        "total_tokens": 3309
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "Article, paragraph 2",
+      "severity": "minor",
+      "source_quote": "“a genuine heart-cry for revival and radical Christian living”",
+      "suggested_fix": "Consider “pamoja na kilio cha dhati cha moyo cha kutaka uamsho na maisha ya Kikristo ya kujitoa kikamilifu” to avoid suggesting extremism.",
+      "translation_quote": "“pamoja na kilio cha dhati cha moyo cha kutaka uamsho na maisha ya Kikristo yenye msimamo mkali”"
+    }
+  ],
+  "finished_at": "2026-11-16T02:42:00+00:00",
   "id": "32061e3b16ec46b741717372138bf7e1",
   "issue_id": "14962b7b-2d94-5b43-a4c6-bbb78f074d1a",
   "language": "swa",
@@ -120,9 +148,11 @@
     }
   },
   "protected": false,
+  "quality_score": 97,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/e3530609551595f0d5905092141d03f4af2c1e2a1a26f0cb713cfbd5df2545ad.json",
   "stage": "review1",
   "stage_budget": {
@@ -138,7 +168,7 @@
     "total_reserved_usd": 0.086544,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "1d04ac46996031206a2ceace35a02ae4625ee12e63800047409c8827bb2474ab",
   "translation_model_actual": "gpt-6-luna"

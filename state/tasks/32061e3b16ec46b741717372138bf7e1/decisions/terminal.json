@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Article, paragraph 2",
+      "severity": "minor",
+      "source_quote": "“a genuine heart-cry for revival and radical Christian living”",
+      "suggested_fix": "Consider “pamoja na kilio cha dhati cha moyo cha kutaka uamsho na maisha ya Kikristo ya kujitoa kikamilifu” to avoid suggesting extremism.",
+      "translation_quote": "“pamoja na kilio cha dhati cha moyo cha kutaka uamsho na maisha ya Kikristo yenye msimamo mkali”"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

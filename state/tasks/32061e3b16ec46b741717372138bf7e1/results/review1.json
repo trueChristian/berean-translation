@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "f9c1d488-7573-4b97-bed6-41231bc03c54",
+    "response_id": "chatcmpl-EkgvSRQVW2EQKcXcCmvtA0U7dS5q3",
+    "usage": {
+      "completion_tokens": 492,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 357,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2817,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 2814
+      },
+      "total_tokens": 3309
+    }
+  },
+  "received_at": "2026-11-16T02:42:00+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Article, paragraph 2",
+        "severity": "minor",
+        "source_quote": "“a genuine heart-cry for revival and radical Christian living”",
+        "suggested_fix": "Consider “pamoja na kilio cha dhati cha moyo cha kutaka uamsho na maisha ya Kikristo ya kujitoa kikamilifu” to avoid suggesting extremism.",
+        "translation_quote": "“pamoja na kilio cha dhati cha moyo cha kutaka uamsho na maisha ya Kikristo yenye msimamo mkali”"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 97
+  }
+}
