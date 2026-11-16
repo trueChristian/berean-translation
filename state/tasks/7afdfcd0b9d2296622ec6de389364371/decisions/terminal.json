@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraph 3",
+      "severity": "minor",
+      "source_quote": "a wide variety of Christian sources",
+      "suggested_fix": "Replace «ایک وسیع اقسام» with «مختلف قسم کے» or «وسیع اقسام کے» to make the phrase grammatically natural.",
+      "translation_quote": "مسیحی ذرائع کی ایک وسیع اقسام"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}
