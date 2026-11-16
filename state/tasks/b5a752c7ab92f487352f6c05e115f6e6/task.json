@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "79db852cda3644079b75622bf687b2b4",
   "campaign": "auto-2cd36317d48cf1c395eb5774cd6e9a3f65453d3ed06b6adea1b99363cdfdf87c",
   "created_at": "2026-11-15T22:17:13+00:00",
   "events": [
@@ -48,46 +47,31 @@
         },
         "total_tokens": 15369
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 109,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 77,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9971,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 9968,
+          "cached_tokens": 0
+        },
+        "total_tokens": 10080
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "Цитата Бытие 24:12 в разделе «…господа»",
-      "severity": "major",
-      "source_quote": "I pray thee, send me good speed this day",
-      "suggested_fix": "Заменить «пошли ее сегодня навстречу мне» на «прошу Тебя, даруй мне сегодня успех».",
-      "translation_quote": "пошли ее сегодня навстречу мне"
-    },
-    {
-      "location": "Цитата Евреям 12:9 в разделе «…родителям»",
-      "severity": "major",
-      "source_quote": "fathers of our flesh which corrected us, and we gave them reverence",
-      "suggested_fix": "Заменить «боялись их» на «почитали их», сохранив остальную цитату и ссылку.",
-      "translation_quote": "будучи наказываемы плотскими родителями нашими, боялись их"
-    },
-    {
-      "location": "Цитата 1 Коринфянам 11:10 в разделе «…мужьям»",
-      "severity": "major",
-      "source_quote": "For this cause ought the woman to have power on her head…",
-      "suggested_fix": "Передать напечатанную формулировку без добавленного толкования: «Посему женщина должна иметь власть на своей голове…»",
-      "translation_quote": "Посему жена и должна иметь на голове своей знак власти над нею…"
-    },
-    {
-      "location": "Цитата 1 Царств 15:23 в разделе «…церковным руководителям»",
-      "severity": "major",
-      "source_quote": "stubbornness is as iniquity and idolatry",
-      "suggested_fix": "Заменить «и противление то же, что идолопоклонство» на «и упрямство подобно беззаконию и идолопоклонству».",
-      "translation_quote": "и противление то же, что идолопоклонство"
-    },
-    {
-      "location": "Выделенный переход перед разделом «…власти» и последующие заголовки",
-      "severity": "minor",
-      "source_quote": "These will find life within the confinements of the strait and narrow provided by God and…",
-      "suggested_fix": "Исправить переход на «Они найдут жизнь в тесных и узких пределах, установленных Богом и…», а заголовки привести к согласованному творительному падежу: «…государственными властями», «…господами», «…родителями», «…мужьями», «…церковными руководителями», сохранив теги.",
-      "translation_quote": "Они найдут жизнь внутри установленных Богом тесных и узких границ, которые… / …власти / …господа / …родителям / …мужьям / …церковным руководителям"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-11-16T02:42:10+00:00",
   "id": "b5a752c7ab92f487352f6c05e115f6e6",
   "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
   "language": "rus",
@@ -176,7 +160,7 @@
     }
   },
   "protected": false,
-  "quality_score": 91,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6.1-sol",
@@ -195,7 +179,7 @@
     "total_reserved_usd": 0.795574,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "f7c753eaec7cab461389c398af8410c2a13a7ef5a7c84c987fe4dfe4c20f33bc",
   "translation_model_actual": "gpt-6.1-sol"

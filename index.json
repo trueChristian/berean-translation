@@ -87719,6 +87719,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/rus/articles/a7f59621-7083-44ce-8074-6ece8fdfbdcf.html",
+      "html_sha256": "64f0355e6d74ce642a5e67285795ff78e0a3495e7a91a8634a0944d90d325cb3",
+      "human_reviewed": false,
+      "id": "a7f59621-7083-44ce-8074-6ece8fdfbdcf",
+      "images": [
+        {
+          "alt": "Узкие деревянные ворота между белыми стенами",
+          "public_path": "/images/articles/a7f59621-7083-44ce-8074-6ece8fdfbdcf-1.jpg"
+        }
+      ],
+      "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
+      "language": "rus",
+      "language_tag": "ru",
+      "metadata": "content/rus/articles/a7f59621-7083-44ce-8074-6ece8fdfbdcf.json",
+      "metadata_sha256": "c970c118d8d4511711d57fed55bfa686125e15f950facb0a2af53ae1a8a68bbb",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "БИБЛЕЙСКИЕ УЧЕНИЯ",
+      "source_revision": "a069ecca8827634ebc256b3b1cabc16aeb942ed7",
+      "source_translation_key": "f7c753eaec7cab461389c398af8410c2a13a7ef5a7c84c987fe4dfe4c20f33bc",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Тесные врата, ведущие к жизни",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/rus/articles/aa552c1c-4324-40a5-a7c3-8f36b6a99ee2.html",
       "html_sha256": "2774d0654a246859ac0c0d79c6d4e257a3651b0cd304dc1fe5391487a674a6be",
       "human_reviewed": false,
