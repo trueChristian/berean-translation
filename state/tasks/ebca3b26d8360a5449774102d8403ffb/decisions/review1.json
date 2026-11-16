@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Article, paragraph 3",
+      "severity": "major",
+      "source_quote": "We frequently reprint articles from revival preachers and histories, missionary stories",
+      "suggested_fix": "Vi trykker ofte på nytt artikler av vekkelsesforkynnere og vekkelseshistorier, misjonærfortellinger",
+      "translation_quote": "Vi trykker ofte på nytt artikler av vekkelsesforkynnere og historikere, misjonærfortellinger"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
