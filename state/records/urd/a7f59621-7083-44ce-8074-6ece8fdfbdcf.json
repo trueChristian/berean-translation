@@ -19,9 +19,32 @@
       "event": "automatic_requested",
       "previous_task": "6f8d2f32b069fd32e9d9abebb5a5eae7",
       "task": "20d592044869c937d9cf50396ba0c250"
+    },
+    {
+      "at": "2026-11-16T01:51:21+00:00",
+      "event": "complete",
+      "reason": null,
+      "task": "20d592044869c937d9cf50396ba0c250"
     }
   ],
   "language": "urd",
   "latest_task": "20d592044869c937d9cf50396ba0c250",
-  "published": null
+  "published": {
+    "html_path": "content/urd/articles/a7f59621-7083-44ce-8074-6ece8fdfbdcf.html",
+    "html_sha256": "42a34b344c3188faa6353847762cc4039a0318ddf9ae2a12f1b4f90edacbcde8",
+    "human_review": null,
+    "human_reviewed": false,
+    "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
+    "metadata_path": "content/urd/articles/a7f59621-7083-44ce-8074-6ece8fdfbdcf.json",
+    "metadata_sha256": "c5b84ea7d2d052f6d6cea45ae21a71966088a8a857fe4f79c9e5613fee71e85a",
+    "model": "gpt-6.1-sol",
+    "notice_html": "<aside class=\"translation-notice\" data-translation-notice=\"ai\" lang=\"ur\" dir=\"rtl\" role=\"note\">\n  <p>اس مضمون کا ترجمہ OpenAI (ماڈل: gpt-6.1-sol) کی مصنوعی ذہانت سے کیا گیا ہے اور ابھی کسی انسان نے اس کا جائزہ نہیں لیا۔ اصل انگریزی متن ہی مستند نسخہ ہے۔ مفہوم کے بارے میں شک ہو تو براہِ کرم اصل انگریزی متن سے رجوع کریں۔ <a href=\"/en/articles/a7f59621-7083-44ce-8074-6ece8fdfbdcf/\" data-source-article-id=\"a7f59621-7083-44ce-8074-6ece8fdfbdcf\" hreflang=\"en\">اصل انگریزی متن</a></p>\n</aside>",
+    "published_at": "2026-11-16T01:51:21+00:00",
+    "quality_score": 98,
+    "review_model": "gpt-6.1-sol",
+    "source_revision": "a069ecca8827634ebc256b3b1cabc16aeb942ed7",
+    "source_snapshot": "state/sources/e2f79f53d3b4344da8f3a224cbcadbaad6d0cc212776a503248d1dd4853c5cbb.json",
+    "task": "20d592044869c937d9cf50396ba0c250",
+    "translation_key": "f7c753eaec7cab461389c398af8410c2a13a7ef5a7c84c987fe4dfe4c20f33bc"
+  }
 }

@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "c455686ebfb24ff590d9d591905e25a0",
   "campaign": "auto-703d6a7a2076f2479547203af721b60fc1e66d454e0e9b040424e81f045072c1",
   "created_at": "2026-11-15T17:37:26+00:00",
   "events": [
@@ -48,32 +47,31 @@
         },
         "total_tokens": 16434
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 131,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 99,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 10618,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 9515,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 10749
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "html: منصب کے ذریعے ملنے والے اختیار سے متعلق پیراگراف کا پہلا جملہ",
-      "severity": "major",
-      "source_quote": "There is a God-given authority vested in men by their position: government authorities, workplace authorities, parental authorities, and church authorities",
-      "suggested_fix": "ابتدائی عبارت کو یوں درست کریں: ”لوگوں کو اُن کے منصب کے ذریعے خدا کا عطا کردہ اختیار حاصل ہوتا ہے:“",
-      "translation_quote": "مردوں کو اُن کے منصب کے ذریعے خدا کی عطا کردہ اتھارٹی حاصل ہوتی ہے"
-    },
-    {
-      "location": "html: امریکی افرادی قوت سے متعلق پیراگراف، دوسرا جملہ",
-      "severity": "major",
-      "source_quote": "In faithless defiance they readily strike",
-      "suggested_fix": "”بے ایمانی کی سرکشی میں“ کی جگہ ”ایمان سے عاری سرکشی میں“ لکھیں، تاکہ دیانت کی کمی کے بجائے ایمان کی کمی کا مفہوم برقرار رہے۔",
-      "translation_quote": "بے ایمانی کی سرکشی میں وہ جلدی سے ہڑتال کرتی"
-    },
-    {
-      "location": "html: p.lead کا ابتدائی لفظ",
-      "severity": "minor",
-      "source_quote": "<span class=\"drop-cap\">O</span>f all",
-      "suggested_fix": "ابتدا کو <span class=\"drop-cap\">ہ</span>مارے سے بدلیں۔",
-      "translation_quote": "<span class=\"drop-cap\">ا</span>ہمارے"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-11-16T01:51:21+00:00",
   "id": "20d592044869c937d9cf50396ba0c250",
   "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
   "language": "urd",
@@ -162,7 +160,7 @@
     }
   },
   "protected": false,
-  "quality_score": 94,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6.1-sol",
@@ -181,7 +179,7 @@
     "total_reserved_usd": 0.795202,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "f7c753eaec7cab461389c398af8410c2a13a7ef5a7c84c987fe4dfe4c20f33bc",
   "translation_model_actual": "gpt-6.1-sol"

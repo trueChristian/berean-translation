@@ -109596,6 +109596,34 @@
     {
       "ai_notice_required": true,
       "direction": "rtl",
+      "html": "content/urd/articles/a7f59621-7083-44ce-8074-6ece8fdfbdcf.html",
+      "html_sha256": "42a34b344c3188faa6353847762cc4039a0318ddf9ae2a12f1b4f90edacbcde8",
+      "human_reviewed": false,
+      "id": "a7f59621-7083-44ce-8074-6ece8fdfbdcf",
+      "images": [
+        {
+          "alt": "سفید دیواروں کے درمیان لکڑی کا ایک تنگ دروازہ",
+          "public_path": "/images/articles/a7f59621-7083-44ce-8074-6ece8fdfbdcf-1.jpg"
+        }
+      ],
+      "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
+      "language": "urd",
+      "language_tag": "ur",
+      "metadata": "content/urd/articles/a7f59621-7083-44ce-8074-6ece8fdfbdcf.json",
+      "metadata_sha256": "c5b84ea7d2d052f6d6cea45ae21a71966088a8a857fe4f79c9e5613fee71e85a",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "بائبلی عقائد",
+      "source_revision": "a069ecca8827634ebc256b3b1cabc16aeb942ed7",
+      "source_translation_key": "f7c753eaec7cab461389c398af8410c2a13a7ef5a7c84c987fe4dfe4c20f33bc",
+      "status": "ready",
+      "subtitle": null,
+      "title": "زندگی کا تنگ دروازہ",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
       "html": "content/urd/articles/a9c1e70c-906d-4eda-ad05-2789badb2369.html",
       "html_sha256": "3277efcbe76c83388a0c2a90d1a367950aa42c00f6af34a4ded854f1e7979632",
       "human_reviewed": false,
