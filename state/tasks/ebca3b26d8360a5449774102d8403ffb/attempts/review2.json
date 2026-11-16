@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-16T12:51:43+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML paragraph 3\",\"severity\":\"minor\",\"source_quote\":\"we wish not to be “issue driven”\",\"suggested_fix\":\"ønsker vi ikke å la enkeltsaker styre oss\",\"translation_quote\":\"ønsker vi ikke å være «styrt av saker»\"},{\"location\":\"HTML paragraph 4\",\"severity\":\"minor\",\"source_quote\":\"in your pursuit of Jesus\",\"suggested_fix\":\"i deres søken etter Jesus\",\"translation_quote\":\"i deres jakt på Jesus\"}],\"findings_complete\":true,\"passed\":true,\"score\":97}",
+    "content_bytes": 480,
+    "content_evidence_truncated": false,
+    "content_sha256": "8588fcbf95398e1e5e15ee6e7501941fefea5f30a2a58bc7bc4dffbd44f1381d",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 742,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 604,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2783,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1680,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 3525
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

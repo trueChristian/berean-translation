@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "1bcbcd64872545f79f504bf873675c47",
   "campaign": "auto-81c0ea9034932cc06a544a62ae5867879c52fa7a554df9dd11abde4ea0a2c379",
   "created_at": "2026-11-16T02:44:32+00:00",
   "events": [
@@ -68,18 +67,46 @@
         },
         "total_tokens": 3584
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 742,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 604,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 2783,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 1680,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 3525
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "Article, paragraph 3",
-      "severity": "major",
-      "source_quote": "We frequently reprint articles from revival preachers and histories, missionary stories",
-      "suggested_fix": "Vi trykker ofte på nytt artikler av vekkelsesforkynnere og vekkelseshistorier, misjonærfortellinger",
-      "translation_quote": "Vi trykker ofte på nytt artikler av vekkelsesforkynnere og historikere, misjonærfortellinger"
+      "location": "HTML paragraph 3",
+      "severity": "minor",
+      "source_quote": "we wish not to be “issue driven”",
+      "suggested_fix": "ønsker vi ikke å la enkeltsaker styre oss",
+      "translation_quote": "ønsker vi ikke å være «styrt av saker»"
+    },
+    {
+      "location": "HTML paragraph 4",
+      "severity": "minor",
+      "source_quote": "in your pursuit of Jesus",
+      "suggested_fix": "i deres søken etter Jesus",
+      "translation_quote": "i deres jakt på Jesus"
     }
   ],
+  "finished_at": "2026-11-16T12:51:43+00:00",
   "id": "ebca3b26d8360a5449774102d8403ffb",
   "issue_id": "14962b7b-2d94-5b43-a4c6-bbb78f074d1a",
   "language": "nob",
@@ -168,7 +195,7 @@
     }
   },
   "protected": false,
-  "quality_score": 93,
+  "quality_score": 97,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
@@ -188,7 +215,7 @@
     "total_reserved_usd": 0.086555,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "1d04ac46996031206a2ceace35a02ae4625ee12e63800047409c8827bb2474ab",
   "translation_model_actual": "gpt-6-luna"

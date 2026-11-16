@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "3ba249d3-9554-4376-af55-0ebcc1c90280",
+    "response_id": "chatcmpl-Ekom1CCB3j3z5Lbr1tIq47OUQLNmg",
+    "usage": {
+      "completion_tokens": 742,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 604,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2783,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1680,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 3525
+    }
+  },
+  "received_at": "2026-11-16T12:51:43+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML paragraph 3",
+        "severity": "minor",
+        "source_quote": "we wish not to be “issue driven”",
+        "suggested_fix": "ønsker vi ikke å la enkeltsaker styre oss",
+        "translation_quote": "ønsker vi ikke å være «styrt av saker»"
+      },
+      {
+        "location": "HTML paragraph 4",
+        "severity": "minor",
+        "source_quote": "in your pursuit of Jesus",
+        "suggested_fix": "i deres søken etter Jesus",
+        "translation_quote": "i deres jakt på Jesus"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 97
+  }
+}

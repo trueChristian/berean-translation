@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "HTML paragraph 3",
+      "severity": "minor",
+      "source_quote": "we wish not to be “issue driven”",
+      "suggested_fix": "ønsker vi ikke å la enkeltsaker styre oss",
+      "translation_quote": "ønsker vi ikke å være «styrt av saker»"
+    },
+    {
+      "location": "HTML paragraph 4",
+      "severity": "minor",
+      "source_quote": "in your pursuit of Jesus",
+      "suggested_fix": "i deres søken etter Jesus",
+      "translation_quote": "i deres jakt på Jesus"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}
