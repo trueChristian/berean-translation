@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "fda4940136d4478cb7db2af426ca55e7",
   "campaign": "auto-0272a2dc3e28bacf01679832bc32f7d7243955576706130182b65b2d7890618d",
   "created_at": "2026-11-16T09:51:27+00:00",
   "events": [
@@ -28,10 +27,45 @@
         },
         "total_tokens": 6786
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1189,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 910,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7104,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 7101,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8293
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "الفقرة الثانية تحت عنوان «إما الإحياء وإما الموت»",
+      "severity": "major",
+      "source_quote": "“A glorious, powerful, sweeping Pentecost swept the world.”",
+      "suggested_fix": "وماذا كانت النتيجة؟ اجتاحت العالمَ نهضةٌ خمسينية مجيدة وقوية وشاملة.",
+      "translation_quote": "«اجتاح العالمَ عيدُ خمسين مجيد وقوي وشامل»"
+    },
+    {
+      "location": "العنوان الرئيسي، والفقرة الأولى، والفقرة الأولى تحت عنوان «إما الإحياء وإما الموت»",
+      "severity": "minor",
+      "source_quote": "“HOLY DESPERATION”; “a holy desperation for revival”; “the Church is not desperate before God in prayer.”",
+      "suggested_fix": "استخدم تعبيرًا عربيًا يدل على الإلحاح والاضطرار لا اليأس، مثل «اضطرار مقدس» أو «إلحاح مقدس»، في العنوان والمواضع المقابلة.",
+      "translation_quote": "«يَأْسٌ مُقَدَّس»؛ «يأس مقدس من أجل الإحياء»؛ «فالكنيسة ليست في يأس أمام الله في الصلاة»"
+    }
+  ],
   "id": "8ee637ceafa738357c0be19ca2a907df",
   "issue_id": "14962b7b-2d94-5b43-a4c6-bbb78f074d1a",
   "language": "ara",
@@ -120,11 +154,13 @@
     }
   },
   "protected": false,
+  "quality_score": 94,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/b8e84c6ac2371f97ffbabe7b6084751e2c3708d2cb234f7339f556b830577afa.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "translate",
     "max_candidate_bytes": 120000,
@@ -138,7 +174,7 @@
     "total_reserved_usd": 0.089291,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "59c6af529e48a18151a99afd7610829371425facdfe6a9b50a5c2c302acba8b6",
   "translation_model_actual": "gpt-6-luna"

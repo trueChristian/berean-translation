@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "الفقرة الثانية تحت عنوان «إما الإحياء وإما الموت»",
+      "severity": "major",
+      "source_quote": "“A glorious, powerful, sweeping Pentecost swept the world.”",
+      "suggested_fix": "وماذا كانت النتيجة؟ اجتاحت العالمَ نهضةٌ خمسينية مجيدة وقوية وشاملة.",
+      "translation_quote": "«اجتاح العالمَ عيدُ خمسين مجيد وقوي وشامل»"
+    },
+    {
+      "location": "العنوان الرئيسي، والفقرة الأولى، والفقرة الأولى تحت عنوان «إما الإحياء وإما الموت»",
+      "severity": "minor",
+      "source_quote": "“HOLY DESPERATION”; “a holy desperation for revival”; “the Church is not desperate before God in prayer.”",
+      "suggested_fix": "استخدم تعبيرًا عربيًا يدل على الإلحاح والاضطرار لا اليأس، مثل «اضطرار مقدس» أو «إلحاح مقدس»، في العنوان والمواضع المقابلة.",
+      "translation_quote": "«يَأْسٌ مُقَدَّس»؛ «يأس مقدس من أجل الإحياء»؛ «فالكنيسة ليست في يأس أمام الله في الصلاة»"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

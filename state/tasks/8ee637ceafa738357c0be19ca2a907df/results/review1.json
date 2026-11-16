@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "381f1dc6-0ea1-4da0-bd16-ed7a3ccd8738",
+    "response_id": "chatcmpl-EkqcmT4q6oUHQc3ahkROwvM0AtqPi",
+    "usage": {
+      "completion_tokens": 1189,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 910,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7104,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7101,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8293
+    }
+  },
+  "received_at": "2026-11-16T18:58:49+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "الفقرة الثانية تحت عنوان «إما الإحياء وإما الموت»",
+        "severity": "major",
+        "source_quote": "“A glorious, powerful, sweeping Pentecost swept the world.”",
+        "suggested_fix": "وماذا كانت النتيجة؟ اجتاحت العالمَ نهضةٌ خمسينية مجيدة وقوية وشاملة.",
+        "translation_quote": "«اجتاح العالمَ عيدُ خمسين مجيد وقوي وشامل»"
+      },
+      {
+        "location": "العنوان الرئيسي، والفقرة الأولى، والفقرة الأولى تحت عنوان «إما الإحياء وإما الموت»",
+        "severity": "minor",
+        "source_quote": "“HOLY DESPERATION”; “a holy desperation for revival”; “the Church is not desperate before God in prayer.”",
+        "suggested_fix": "استخدم تعبيرًا عربيًا يدل على الإلحاح والاضطرار لا اليأس، مثل «اضطرار مقدس» أو «إلحاح مقدس»، في العنوان والمواضع المقابلة.",
+        "translation_quote": "«يَأْسٌ مُقَدَّس»؛ «يأس مقدس من أجل الإحياء»؛ «فالكنيسة ليست في يأس أمام الله في الصلاة»"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 94
+  }
+}
