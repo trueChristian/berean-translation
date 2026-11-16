@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "5168ac7d-51f1-40f8-97c1-701bbbdacd10",
+    "response_id": "chatcmpl-Eknx5pkSLGIuAhT5Zsza3Zb0UvgbR",
+    "usage": {
+      "completion_tokens": 889,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1519,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1516,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2408
+    }
+  },
+  "received_at": "2026-11-16T10:20:44+00:00",
+  "result": {
+    "html": "<article data-article-id=\"e905899f-5f2b-42a4-a2b2-3a0af7f0e0e3\">\n  <p>Un saluto a tutti nel nome di Gesù! È con grande entusiasmo che presentiamo questa edizione speciale di <em>The Heartbeat of the Remnant</em>. Quando ho iniziato a raccogliere gli articoli che ritenevo assolutamente <em>dovessero</em> essere inclusi in questo numero speciale, alla fine ne avevo circa 115! Inutile dire che ho dovuto fare qualche taglio! È stato un piacere preparare questo numero speciale. L’idea alla base di questa edizione speciale è presentare una selezione dei tipi di articoli che il Signore ha posto nel nostro cuore negli ultimi anni.</p>\n  <p><strong>Chi siamo?</strong> <em>The Heartbeat of the Remnant</em> è una rivista trimestrale della Charity Christian Fellowship e della Charity Ministries della contea di Lancaster, in Pennsylvania. Nata come bollettino locale di evangelizzazione, <em>The Heartbeat of the Remnant</em> è ormai cresciuta fino a raggiungere migliaia di lettori in tutto il mondo. Attingendo alla ricca eredità anabattista della contea di Lancaster, la Charity Christian Fellowship si è impegnata a mantenere una solida ortodossia biblica e un autentico anelito di risveglio e di vita cristiana radicale. Pur mantenendo nel complesso un orientamento anabattista, la rivista non intende esaltare alcuna teologia, denominazione, chiesa o persona in particolare. Desideriamo soltanto glorificare il Nome di Gesù.</p>\n  <p>La rivista propone articoli provenienti da un’ampia varietà di fonti cristiane, che spaziano da testimonianze antiche a quelle contemporanee. Spesso ristampiamo articoli di predicatori e storici del risveglio, racconti di missionari, vicende dei primi cristiani perseguitati e martiri, scritti impegnativi di autori puritani e predicatori metodisti itineranti, oltre che di predicatori contemporanei. Alcuni degli argomenti trattati possono essere considerati in contrasto con gli ideali americani moderni, come la modestia nel vestire, i pericoli degli svaghi mondani, l’educazione dei figli, i ruoli di uomini e donne, il divorzio, il materialismo e perfino la guerra e la non resistenza. Tuttavia, anche su questi temi non desideriamo essere «guidati dalle questioni» né pretendere di avere l’ultima parola su ogni argomento controverso. Desideriamo invece essere «guidati dallo Spirito» mentre cerchiamo di conoscere la volontà e il cuore di Dio riguardo a queste difficili questioni della vita reale. Il nostro desiderio è sempre che Dio possa compiere queste cose nella nostra vita soltanto per la Sua grazia.</p>\n  <p>Vi invitiamo a pregare con noi affinché lo Spirito di Dio si effonda sulle nostre vite personali e sulla vita della Chiesa in ogni terra! Desideriamo che questa pubblicazione possa rafforzarvi e incoraggiarvi nella vostra ricerca di Gesù.</p>\n  <p>Fin dalla sua nascita, <em>The Heartbeat of the Remnant</em> è stata messa a vostra disposizione gratuitamente grazie alle offerte volontarie del popolo di Dio. L’abbonamento è disponibile su richiesta. Un ringraziamento speciale a tutti coloro che sostengono questo ministero. Il Signore benedica ciascuno di voi mentre leggete questa edizione speciale di <em>The Heartbeat of the Remnant</em>.</p>\n  <p class=\"signoff\">Fratello Dean Taylor</p>\n</article>\n",
+    "section": "Dall’editore...",
+    "subtitle": null,
+    "title": "Dall’editore..."
+  }
+}
