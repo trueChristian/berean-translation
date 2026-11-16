@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "פסקה 5",
+      "severity": "minor",
+      "source_quote": "Subscription is available upon request.",
+      "suggested_fix": "ניתן לקבל מנוי לפי בקשה.",
+      "translation_quote": "ניתן לקבל מינוי לפי בקשה."
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

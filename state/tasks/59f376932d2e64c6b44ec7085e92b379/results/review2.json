@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "cec74d96-72ad-4f6c-9a89-5d4d6cbc45d3",
+    "response_id": "chatcmpl-EkoM7MtNPKxEEs9pnGXXFHnOvUAXj",
+    "usage": {
+      "completion_tokens": 592,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2821,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1718,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 3413
+    }
+  },
+  "received_at": "2026-11-16T12:51:20+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "פסקה 5",
+        "severity": "minor",
+        "source_quote": "Subscription is available upon request.",
+        "suggested_fix": "ניתן לקבל מנוי לפי בקשה.",
+        "translation_quote": "ניתן לקבל מינוי לפי בקשה."
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}
