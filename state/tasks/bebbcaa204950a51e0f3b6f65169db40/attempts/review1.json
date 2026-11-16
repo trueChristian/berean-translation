@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-16T12:51:34+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"translation.html, “…주인” 아래 두 번째 문단\",\n      \"severity\": \"major\",\n      \"source_quote\": \"refusing anything they esteem as an unreasonable mandate from their employers\",\n      \"suggested_fix\": \"“고용주가 불합리하다고 여기는 요구를”을 “자신들이 불합리하다고 여기는 고용주의 요구를”로 수정하십시오.\",\n      \"translation_quote\": \"고용주가 불합리하다고 여기는 요구를 거부하는 데\"\n    },\n    {\n      \"location\": \"translation.html, “…남편” 문단의 요한복음 인용\",\n      \"severity\": \"major\",\n      \"source_quote\": \"–John 4:16.\",\n      \"suggested_fix\": \"출처에 인쇄된 절 번호를 보존하여 “–요한복음 4:16.”으로 수정하십시오.\",\n      \"translation_quote\": \"–요한복음 4:15-16.\"\n    },\n    {\n      \"location\": \"translation.html, “…남편” 문단의 고린도전서 인용\",\n      \"severity\": \"major\",\n      \"source_quote\": \"For this cause ought the woman to have power on her head… –1 Corinthians 11:10.\",\n      \"suggested_fix\": \"인용문을 “이러므로 여자는 그 머리 위에 권능을 지녀야 하느니라… –고린도전서 11:10.”으로 수정하여, 원문에 없는 천사 언급을 제거하고 ‘권능’을 ‘권위 아래 있는 표’로 바꾸지 마십시오.\",\n      \"translation_quote\": \"이러므로 여자는 천사들로 말미암아 권위 아래 있는 표를 그 머리 위에 둘지니라… –고린도전서 11:10.\"\n    },\n    {\n      \"location\": \"translation.html, “복종은 능력을 활성화합니다.” 아래 문단의 마태복음 인용\",\n      \"severity\": \"major\",\n      \"source_quote\": \"But when the multitudes saw it, they marvelled, and glorified God\",\n      \"suggested_fix\": \"“무리가 보고 두려워하며”를 “무리가 이를 보고 놀라며”로 수정하여 인쇄된 원문의 반응을 보존하십시오.\",\n      \"translation_quote\": \"무리가 보고 두려워하며 이런 권능을 사람에게 주신 하나님께 영광을 돌리니라\"\n    },\n    {\n      \"location\": \"translation.html, p.lead의 drop-cap\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"<span class=\\\"drop-cap\\\">O</span>f all the word pictures\",\n      \"suggested_fix\": \"태그와 속성을 유지하면서 문단 첫머리를 “<span class=\\\"drop-cap\\\">우</span>리 주님께서”로 수정하십시오.\",\n      \"translation_quote\": \"<span class=\\\"drop-cap\\\">O</span>우리 주님께서\"\n    },\n    {\n      \"location\": \"translation.html, “복종은 능력을 활성화합니다.” 아래 문단\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"volunteer to transport a soldier’s pack the second mile\",\n      \"suggested_fix\": \"“병사의 짐을 자원하여 두 번째 길까지 져다 줄 만큼”을 “병사의 짐을 자원하여 한 마일 더 져다 줄 만큼”으로 수정하여 거리의 의미를 명확히 하십시오.\",\n      \"translation_quote\": \"병사의 짐을 자원하여 두 번째 길까지 져다 줄 만큼\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": false,\n  \"score\": 90\n}",
+    "content_bytes": 3167,
+    "content_evidence_truncated": false,
+    "content_sha256": "d0097c900d575ebf90e4fd09649712f4cb2b389c5a137aa1f868b40dfd3941ad",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 918,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 96,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 10521,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9418,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 11439
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}
