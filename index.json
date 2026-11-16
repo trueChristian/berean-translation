@@ -4301,6 +4301,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/afr/articles/a7f59621-7083-44ce-8074-6ece8fdfbdcf.html",
+      "html_sha256": "4450c14bd1f7f95e20007a2f4a64cca73fa1b35373a14483dab98ad11fdd387d",
+      "human_reviewed": false,
+      "id": "a7f59621-7083-44ce-8074-6ece8fdfbdcf",
+      "images": [
+        {
+          "alt": "’n Smal houthek tussen wit mure",
+          "public_path": "/images/articles/a7f59621-7083-44ce-8074-6ece8fdfbdcf-1.jpg"
+        }
+      ],
+      "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
+      "language": "afr",
+      "language_tag": "af",
+      "metadata": "content/afr/articles/a7f59621-7083-44ce-8074-6ece8fdfbdcf.json",
+      "metadata_sha256": "5a4149231f3ddd637d13d37f4fa9aa1ea48e4b029c35211da97187b768a14598",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "BYBELLEERSTELLINGS",
+      "source_revision": "a069ecca8827634ebc256b3b1cabc16aeb942ed7",
+      "source_translation_key": "f7c753eaec7cab461389c398af8410c2a13a7ef5a7c84c987fe4dfe4c20f33bc",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Die Nou Poort na die Lewe",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/afr/articles/aa552c1c-4324-40a5-a7c3-8f36b6a99ee2.html",
       "html_sha256": "dd0d5e187fdb6c37872a68113c27f8ffc26fb61ba1a0fa4338b7c4bea9198bf0",
       "human_reviewed": false,
