@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-16T12:51:40+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"html, paragraph beginning “Mense het korter ná die vloed”\",\n      \"severity\": \"major\",\n      \"source_quote\": \"People began dying at younger ages after the flood and by soon after the time of Abraham\",\n      \"suggested_fix\": \"Replace the sentence with: “Ná die vloed het mense op jonger ouderdomme begin sterf, en kort ná Abraham se tyd het hulle selde veel ouer as honderd jaar geword.”\",\n      \"translation_quote\": \"Mense het korter ná die vloed gesterf en by die tyd van Abraham\"\n    },\n    {\n      \"location\": \"html, opening paragraph\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"My patient asked me.\",\n      \"suggested_fix\": \"Replace “vroeg my pasiënt vir my” with “het my pasiënt my gevra”.\",\n      \"translation_quote\": \"vroeg my pasiënt vir my\"\n    },\n    {\n      \"location\": \"html, paragraph beginning “Meer as dit”\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"it is something that seems mysterious\",\n      \"suggested_fix\": \"Replace “iets wat geheim voorkom” with “iets wat geheimsinnig voorkom”.\",\n      \"translation_quote\": \"iets wat geheim voorkom\"\n    },\n    {\n      \"location\": \"html, introductory paragraph about screening tests\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"cancer screening tests\",\n      \"suggested_fix\": \"Replace “ondersoekttoetse vir kanker” with “siftingstoetse vir kanker”.\",\n      \"translation_quote\": \"ondersoekttoetse vir kanker\"\n    },\n    {\n      \"location\": \"html, paragraph under “…Ongesonde Kosse”\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"people should limit their intake of these foods to none or at the very least, a very limited percentage of the overall diet\",\n      \"suggested_fix\": \"Replace the last sentence with: “Om gesond te wees, behoort mense dus hierdie kosse heeltemal te vermy, of dit ten minste tot ’n baie klein persentasie van hul totale dieet te beperk.”\",\n      \"translation_quote\": \"behoort mense dus hul inname van hierdie kosse te beperk tot geen, of ten minste ’n baie beperkte persentasie van die algehele dieet nie\"\n    },\n    {\n      \"location\": \"html, paragraph beginning “’n Ander kwessie”\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"until finally it develops into full-blown cancer\",\n      \"suggested_fix\": \"Replace “ontwikkel in volgewas- kanker” with “tot volwaardige kanker ontwikkel”.\",\n      \"translation_quote\": \"ontwikkel in volgewas- kanker\"\n    },\n    {\n      \"location\": \"html, paragraph beginning “As behandelings-”\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"If treatment and response rates are the same\",\n      \"suggested_fix\": \"Replace “As behandelings- en reaksietariewe dieselfde is” with “As die behandeling en die responskoerse dieselfde is”.\",\n      \"translation_quote\": \"As behandelings- en reaksietariewe dieselfde is\"\n    },\n    {\n      \"location\": \"html, paragraph about mammogram recommendations\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"many cancer societies\",\n      \"suggested_fix\": \"Replace “kankersameleweings” with “kankerverenigings”. Restore the source emphasis by wrapping “elke twee jaar” in <strong><em> tags.\",\n      \"translation_quote\": \"baie kankersameleweings. Byvoorbeeld, hulle beveel die gebruik van mammogramme elke twee jaar aan\"\n    },\n    {\n      \"location\": \"html, paragraph beginning “’n Laaste, verwante punt”\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"an average of six months longer\",\n      \"suggested_fix\": \"Replace “gemiddelde ses maande langer” with “gemiddeld ses maande langer”.\",\n      \"translation_quote\": \"gemiddelde ses maande langer\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": false,\n  \"score\": 93\n}",
+    "content_bytes": 3759,
+    "content_evidence_truncated": false,
+    "content_sha256": "158d8c7eb7787cf725967f4b80b947052e30d8f978f68698368ba833689952e4",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 997,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 60,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8866,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8863,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9863
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}

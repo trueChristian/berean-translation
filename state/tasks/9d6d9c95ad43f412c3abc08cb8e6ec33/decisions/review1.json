@@ -1,0 +1,70 @@
+{
+  "findings": [
+    {
+      "location": "html, paragraph beginning “Mense het korter ná die vloed”",
+      "severity": "major",
+      "source_quote": "People began dying at younger ages after the flood and by soon after the time of Abraham",
+      "suggested_fix": "Replace the sentence with: “Ná die vloed het mense op jonger ouderdomme begin sterf, en kort ná Abraham se tyd het hulle selde veel ouer as honderd jaar geword.”",
+      "translation_quote": "Mense het korter ná die vloed gesterf en by die tyd van Abraham"
+    },
+    {
+      "location": "html, opening paragraph",
+      "severity": "minor",
+      "source_quote": "My patient asked me.",
+      "suggested_fix": "Replace “vroeg my pasiënt vir my” with “het my pasiënt my gevra”.",
+      "translation_quote": "vroeg my pasiënt vir my"
+    },
+    {
+      "location": "html, paragraph beginning “Meer as dit”",
+      "severity": "minor",
+      "source_quote": "it is something that seems mysterious",
+      "suggested_fix": "Replace “iets wat geheim voorkom” with “iets wat geheimsinnig voorkom”.",
+      "translation_quote": "iets wat geheim voorkom"
+    },
+    {
+      "location": "html, introductory paragraph about screening tests",
+      "severity": "minor",
+      "source_quote": "cancer screening tests",
+      "suggested_fix": "Replace “ondersoekttoetse vir kanker” with “siftingstoetse vir kanker”.",
+      "translation_quote": "ondersoekttoetse vir kanker"
+    },
+    {
+      "location": "html, paragraph under “…Ongesonde Kosse”",
+      "severity": "minor",
+      "source_quote": "people should limit their intake of these foods to none or at the very least, a very limited percentage of the overall diet",
+      "suggested_fix": "Replace the last sentence with: “Om gesond te wees, behoort mense dus hierdie kosse heeltemal te vermy, of dit ten minste tot ’n baie klein persentasie van hul totale dieet te beperk.”",
+      "translation_quote": "behoort mense dus hul inname van hierdie kosse te beperk tot geen, of ten minste ’n baie beperkte persentasie van die algehele dieet nie"
+    },
+    {
+      "location": "html, paragraph beginning “’n Ander kwessie”",
+      "severity": "minor",
+      "source_quote": "until finally it develops into full-blown cancer",
+      "suggested_fix": "Replace “ontwikkel in volgewas- kanker” with “tot volwaardige kanker ontwikkel”.",
+      "translation_quote": "ontwikkel in volgewas- kanker"
+    },
+    {
+      "location": "html, paragraph beginning “As behandelings-”",
+      "severity": "minor",
+      "source_quote": "If treatment and response rates are the same",
+      "suggested_fix": "Replace “As behandelings- en reaksietariewe dieselfde is” with “As die behandeling en die responskoerse dieselfde is”.",
+      "translation_quote": "As behandelings- en reaksietariewe dieselfde is"
+    },
+    {
+      "location": "html, paragraph about mammogram recommendations",
+      "severity": "minor",
+      "source_quote": "many cancer societies",
+      "suggested_fix": "Replace “kankersameleweings” with “kankerverenigings”. Restore the source emphasis by wrapping “elke twee jaar” in <strong><em> tags.",
+      "translation_quote": "baie kankersameleweings. Byvoorbeeld, hulle beveel die gebruik van mammogramme elke twee jaar aan"
+    },
+    {
+      "location": "html, paragraph beginning “’n Laaste, verwante punt”",
+      "severity": "minor",
+      "source_quote": "an average of six months longer",
+      "suggested_fix": "Replace “gemiddelde ses maande langer” with “gemiddeld ses maande langer”.",
+      "translation_quote": "gemiddelde ses maande langer"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
