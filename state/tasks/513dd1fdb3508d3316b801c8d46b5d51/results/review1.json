@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "5d979fbf-0afc-4479-85b2-25abc6610c80",
+    "response_id": "chatcmpl-EkgzaZazDRAXSKb18vM6kOFwiIfox",
+    "usage": {
+      "completion_tokens": 564,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 426,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2828,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2825,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3392
+    }
+  },
+  "received_at": "2026-11-16T08:40:16+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, paragraph 3",
+        "severity": "major",
+        "source_quote": "“We frequently reprint articles from revival preachers and histories”",
+        "suggested_fix": "Replace “artikels van herlewingspredikers en geskiedskrywers” with “artikels van herlewingspredikers en uit geskiedkundige verslae” to convey that these are historical accounts, not historians.",
+        "translation_quote": "“Ons herdruk gereeld artikels van herlewingspredikers en geskiedskrywers”"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 92
+  }
+}

@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "eb1c46f9656d4b2a864d9504df3f0e0a",
   "campaign": "auto-cb1793ec5607e12bf0e254dc987549b701ccc42614e46ff23b392990e8db2edb",
   "created_at": "2026-11-15T22:01:51+00:00",
   "events": [
@@ -28,10 +27,38 @@
         },
         "total_tokens": 2638
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 564,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 426,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 2828,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 2825,
+          "cached_tokens": 0
+        },
+        "total_tokens": 3392
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "HTML, paragraph 3",
+      "severity": "major",
+      "source_quote": "“We frequently reprint articles from revival preachers and histories”",
+      "suggested_fix": "Replace “artikels van herlewingspredikers en geskiedskrywers” with “artikels van herlewingspredikers en uit geskiedkundige verslae” to convey that these are historical accounts, not historians.",
+      "translation_quote": "“Ons herdruk gereeld artikels van herlewingspredikers en geskiedskrywers”"
+    }
+  ],
   "id": "513dd1fdb3508d3316b801c8d46b5d51",
   "issue_id": "14962b7b-2d94-5b43-a4c6-bbb78f074d1a",
   "language": "afr",
@@ -120,11 +147,13 @@
     }
   },
   "protected": false,
+  "quality_score": 92,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/e3530609551595f0d5905092141d03f4af2c1e2a1a26f0cb713cfbd5df2545ad.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "translate",
     "max_candidate_bytes": 120000,
@@ -138,7 +167,7 @@
     "total_reserved_usd": 0.086549,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "1d04ac46996031206a2ceace35a02ae4625ee12e63800047409c8827bb2474ab",
   "translation_model_actual": "gpt-6-luna"

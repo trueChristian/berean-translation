@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraph 3",
+      "severity": "major",
+      "source_quote": "“We frequently reprint articles from revival preachers and histories”",
+      "suggested_fix": "Replace “artikels van herlewingspredikers en geskiedskrywers” with “artikels van herlewingspredikers en uit geskiedkundige verslae” to convey that these are historical accounts, not historians.",
+      "translation_quote": "“Ons herdruk gereeld artikels van herlewingspredikers en geskiedskrywers”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
