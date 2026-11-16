@@ -1,0 +1,42 @@
+{
+  "findings": [
+    {
+      "location": "Цитата Бытие 24:12 в разделе «…господа»",
+      "severity": "major",
+      "source_quote": "I pray thee, send me good speed this day",
+      "suggested_fix": "Заменить «пошли ее сегодня навстречу мне» на «прошу Тебя, даруй мне сегодня успех».",
+      "translation_quote": "пошли ее сегодня навстречу мне"
+    },
+    {
+      "location": "Цитата Евреям 12:9 в разделе «…родителям»",
+      "severity": "major",
+      "source_quote": "fathers of our flesh which corrected us, and we gave them reverence",
+      "suggested_fix": "Заменить «боялись их» на «почитали их», сохранив остальную цитату и ссылку.",
+      "translation_quote": "будучи наказываемы плотскими родителями нашими, боялись их"
+    },
+    {
+      "location": "Цитата 1 Коринфянам 11:10 в разделе «…мужьям»",
+      "severity": "major",
+      "source_quote": "For this cause ought the woman to have power on her head…",
+      "suggested_fix": "Передать напечатанную формулировку без добавленного толкования: «Посему женщина должна иметь власть на своей голове…»",
+      "translation_quote": "Посему жена и должна иметь на голове своей знак власти над нею…"
+    },
+    {
+      "location": "Цитата 1 Царств 15:23 в разделе «…церковным руководителям»",
+      "severity": "major",
+      "source_quote": "stubbornness is as iniquity and idolatry",
+      "suggested_fix": "Заменить «и противление то же, что идолопоклонство» на «и упрямство подобно беззаконию и идолопоклонству».",
+      "translation_quote": "и противление то же, что идолопоклонство"
+    },
+    {
+      "location": "Выделенный переход перед разделом «…власти» и последующие заголовки",
+      "severity": "minor",
+      "source_quote": "These will find life within the confinements of the strait and narrow provided by God and…",
+      "suggested_fix": "Исправить переход на «Они найдут жизнь в тесных и узких пределах, установленных Богом и…», а заголовки привести к согласованному творительному падежу: «…государственными властями», «…господами», «…родителями», «…мужьями», «…церковными руководителями», сохранив теги.",
+      "translation_quote": "Они найдут жизнь внутри установленных Богом тесных и узких границ, которые… / …власти / …господа / …родителям / …мужьям / …церковным руководителям"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
