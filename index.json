@@ -19529,6 +19529,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/cmn/articles/86459f54-72b0-4be2-a101-02b3c9462f6c.html",
+      "html_sha256": "dc1bb1e9e34ffd89e3349193bb5117c754d1e4c4671400bba62130bd9b9680df",
+      "human_reviewed": false,
+      "id": "86459f54-72b0-4be2-a101-02b3c9462f6c",
+      "images": [
+        {
+          "alt": "摊开的乐谱旁的钢琴琴键",
+          "public_path": "/images/articles/86459f54-72b0-4be2-a101-02b3c9462f6c-1.jpg"
+        }
+      ],
+      "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
+      "language": "cmn",
+      "language_tag": "zh-Hans",
+      "metadata": "content/cmn/articles/86459f54-72b0-4be2-a101-02b3c9462f6c.json",
+      "metadata_sha256": "06b3ebe2b676bfe3f853c9250ca5150c4da978ec6573f99accb25f40b15a7da3",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "青少年启迪",
+      "source_revision": "a069ecca8827634ebc256b3b1cabc16aeb942ed7",
+      "source_translation_key": "65790b7f3f0557bbd4601849b5efe70a6391326d0f3933cef69b6e6d8bb48d72",
+      "status": "ready",
+      "subtitle": null,
+      "title": "我的音乐，什么才是正确的？",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/cmn/articles/88345a38-6c33-495a-8407-f0fda29b67e0.html",
       "html_sha256": "16bbaaf83b270271d6026d6f3dd23478e46614f58fdf23e190ee9ae115ee1568",
       "human_reviewed": false,
