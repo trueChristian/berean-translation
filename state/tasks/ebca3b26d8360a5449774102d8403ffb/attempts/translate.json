@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-16T08:40:25+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"e905899f-5f2b-42a4-a2b2-3a0af7f0e0e3\\\">\\n  <p>Hilsen til alle i Jesu navn! Det er med stor begeistring vi presenterer denne spesialutgaven av <em>The Heartbeat of the Remnant</em>. Da jeg først begynte å samle artiklene som jeg følte absolutt <em>måtte</em> være med i denne spesialutgaven, endte jeg opp med omtrent 115! Det er unødvendig å si at jeg måtte skjære ned! Det har vært en glede å sette sammen denne spesialutgaven. Hensikten med denne spesialutgaven er å presentere et utvalg av typene artikler som Herren har lagt på hjertet vårt de siste årene.</p>\\n  <p><strong>Hvem er vi?</strong> <em>The Heartbeat of the Remnant</em> er et kvartalsmagasin utgitt av Charity Christian Fellowship og Charity Ministries i Lancaster County, Pennsylvania. <em>The Heartbeat of the Remnant</em> startet som et lokalt nyhetsbrev for utadrettet arbeid, men har nå vokst og når tusenvis av lesere over hele verden. Med utgangspunkt i den rike anabaptistiske arven i Lancaster County har Charity Christian Fellowship forsøkt å holde fast ved en sterk bibelsk ortodoksi, med et oppriktig rop om vekkelse og radikal kristen livsførsel. Selv om magasinet overordnet sett har en anabaptistisk retning, ønsker det ikke å løfte fram noen bestemt teologi, kirkesamfunn, kirke eller person. Vi ønsker bare å herliggjøre Jesu navn.</p>\\n  <p>Magasinet inneholder artikler fra et bredt spekter av kristne kilder, fra gamle til moderne vitnesbyrd. Vi trykker ofte på nytt artikler av vekkelsesforkynnere og historikere, misjonærfortellinger, beretninger om prøvelser og martyrer blant de første kristne, utfordrende puritanske forfattere og metodistiske omreisende forkynnere, samt forkynnere i vår tid. Noen av temaene som tas opp, kan anses å være på kant med moderne amerikanske idealer, for eksempel sømmelig bekledning, farene ved verdslig underholdning, barneoppdragelse, menns og kvinners roller, skilsmisse, materialisme og til og med krig og ikke-motstand. Men også når det gjelder disse temaene, ønsker vi ikke å være «styrt av saker» eller å hevde at vi har det siste ordet i enhver kontroversiell sak. I stedet ønsker vi å være «ledet av Ånden» mens vi søker å kjenne Guds vilje og hjerte i disse vanskelige sakene som angår virkeligheten i livet. Vårt ønske er alltid at Gud må få virke i oss i disse tingene, og det kan bare skje ved hans nåde.</p>\\n  <p>Vi inviterer dere til å be sammen med oss om at Guds Ånd må bli utøst over våre egne liv og over kirkens liv i alle land! Vi ønsker at denne publikasjonen må styrke og oppmuntre dere i deres jakt på Jesus.</p>\\n  <p>Helt siden starten har <em>The Heartbeat of the Remnant</em> vært gratis tilgjengelig for dere, takket være frivillige gaver fra Guds folk. Abonnement er tilgjengelig på forespørsel. En spesiell «takk» til alle som støtter denne tjenesten. Måtte Herren velsigne hver og en av dere når dere leser denne spesialutgaven av <em>The Heartbeat of the Remnant</em>.</p>\\n  <p class=\\\"signoff\\\">Bror Dean Taylor</p>\\n</article>\\n\",\"section\":\"Fra redaktøren...\",\"subtitle\":null,\"title\":\"Fra redaktøren...\"}",
+    "content_bytes": 3177,
+    "content_evidence_truncated": false,
+    "content_sha256": "d04ad9d6923de8f6a2571ac304307caaa042f4ff4e1ab67699ffd645c21dd402",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 895,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1531,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1528,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2426
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}
