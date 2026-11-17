@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "c35b9da964c0458cb49a12c30ff20fd4",
   "campaign": "auto-8a8ec1cfbd811774e7f46f29043fe74f98e10eebc4020f76f11329b250fd21e6",
   "created_at": "2026-11-16T12:54:58+00:00",
   "events": [
@@ -28,10 +27,52 @@
         },
         "total_tokens": 6986
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1038,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 732,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7340,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 6237,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 8378
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "First paragraph",
+      "severity": "major",
+      "source_quote": "“I have seen a strange thing under the sun: professors preaching ‘continue in sin’ from the pulpit.”",
+      "suggested_fix": "«Я видел странное под солнцем: люди, исповедующие христианскую веру, проповедуют с кафедры: „продолжайте грешить“»",
+      "translation_quote": "«Я видел странное под солнцем: проповедники с кафедры говорят: „продолжайте грешить“»"
+    },
+    {
+      "location": "First paragraph",
+      "severity": "minor",
+      "source_quote": "“false doctrines, false cults, and false prophets”",
+      "suggested_fix": "«ложные учения, лжеучения и лжепророки»",
+      "translation_quote": "«ложные учения, лжецеркви и лжепророки»"
+    },
+    {
+      "location": "First paragraph",
+      "severity": "minor",
+      "source_quote": "“a holy and healthy desperation for the presence and power of Christ in His church”",
+      "suggested_fix": "«святого и здорового отчаяния по присутствию и силе Христа в Его Церкви»",
+      "translation_quote": "«святого и праведного отчаяния по присутствию и силе Христа в Его Церкви»"
+    }
+  ],
   "id": "428aeb161b54362140d19a05c06cbd8c",
   "issue_id": "14962b7b-2d94-5b43-a4c6-bbb78f074d1a",
   "language": "rus",
@@ -120,11 +161,13 @@
     }
   },
   "protected": false,
+  "quality_score": 92,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/b8e84c6ac2371f97ffbabe7b6084751e2c3708d2cb234f7339f556b830577afa.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "translate",
     "max_candidate_bytes": 120000,
@@ -138,7 +181,7 @@
     "total_reserved_usd": 0.089286,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "59c6af529e48a18151a99afd7610829371425facdfe6a9b50a5c2c302acba8b6",
   "translation_model_actual": "gpt-6-luna"

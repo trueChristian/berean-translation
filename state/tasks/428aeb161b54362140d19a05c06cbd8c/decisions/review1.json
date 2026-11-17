@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "First paragraph",
+      "severity": "major",
+      "source_quote": "“I have seen a strange thing under the sun: professors preaching ‘continue in sin’ from the pulpit.”",
+      "suggested_fix": "«Я видел странное под солнцем: люди, исповедующие христианскую веру, проповедуют с кафедры: „продолжайте грешить“»",
+      "translation_quote": "«Я видел странное под солнцем: проповедники с кафедры говорят: „продолжайте грешить“»"
+    },
+    {
+      "location": "First paragraph",
+      "severity": "minor",
+      "source_quote": "“false doctrines, false cults, and false prophets”",
+      "suggested_fix": "«ложные учения, лжеучения и лжепророки»",
+      "translation_quote": "«ложные учения, лжецеркви и лжепророки»"
+    },
+    {
+      "location": "First paragraph",
+      "severity": "minor",
+      "source_quote": "“a holy and healthy desperation for the presence and power of Christ in His church”",
+      "suggested_fix": "«святого и здорового отчаяния по присутствию и силе Христа в Его Церкви»",
+      "translation_quote": "«святого и праведного отчаяния по присутствию и силе Христа в Его Церкви»"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

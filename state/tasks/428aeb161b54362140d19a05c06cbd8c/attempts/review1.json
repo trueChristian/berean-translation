@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-17T10:19:03+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"First paragraph\",\"severity\":\"major\",\"source_quote\":\"“I have seen a strange thing under the sun: professors preaching ‘continue in sin’ from the pulpit.”\",\"suggested_fix\":\"«Я видел странное под солнцем: люди, исповедующие христианскую веру, проповедуют с кафедры: „продолжайте грешить“»\",\"translation_quote\":\"«Я видел странное под солнцем: проповедники с кафедры говорят: „продолжайте грешить“»\"},{\"location\":\"First paragraph\",\"severity\":\"minor\",\"source_quote\":\"“false doctrines, false cults, and false prophets”\",\"suggested_fix\":\"«ложные учения, лжеучения и лжепророки»\",\"translation_quote\":\"«ложные учения, лжецеркви и лжепророки»\"},{\"location\":\"First paragraph\",\"severity\":\"minor\",\"source_quote\":\"“a holy and healthy desperation for the presence and power of Christ in His church”\",\"suggested_fix\":\"«святого и здорового отчаяния по присутствию и силе Христа в Его Церкви»\",\"translation_quote\":\"«святого и праведного отчаяния по присутствию и силе Христа в Его Церкви»\"}],\"findings_complete\":true,\"passed\":false,\"score\":92}",
+    "content_bytes": 1431,
+    "content_evidence_truncated": false,
+    "content_sha256": "66bfdee1da1889da037d7cb43d8804d1b46e353f822a6f7ca23be34c8c2000d2",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1038,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 732,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7340,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6237,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 8378
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}
