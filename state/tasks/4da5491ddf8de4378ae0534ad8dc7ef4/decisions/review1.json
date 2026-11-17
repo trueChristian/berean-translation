@@ -1,0 +1,112 @@
+{
+  "findings": [
+    {
+      "location": "html, цитата Матфея 3:11–12",
+      "severity": "major",
+      "source_quote": "whose shoes I am not worthy to bear ... but he will burn up the chaff",
+      "suggested_fix": "Заменить «которому я недостоин расстегнуть ремень обуви» на «Чью обувь я недостоин нести», а «плевелы» на «мякину».",
+      "translation_quote": "которому я недостоин расстегнуть ремень обуви ... а плевелы сожжёт"
+    },
+    {
+      "location": "html, абзац после Матфея 3:11–12",
+      "severity": "major",
+      "source_quote": "Jesus did not come with violence and yet His righteous presence swept through Palestine like a winnowing breeze.",
+      "suggested_fix": "Исправить предложение: «Иисус пришёл не с насилием, и всё же Его праведное присутствие пронеслось по Палестине, словно ветер, отвеивающий мякину».",
+      "translation_quote": "Иисус не приходил со насилием, и всё же Его праведное присутствие прошло по Палестине, как обрушивающийся ураган/как ветродуй для обмолота."
+    },
+    {
+      "location": "html, абзац о Нагорной проповеди",
+      "severity": "major",
+      "source_quote": "exposing the innate selfishness that prevented it",
+      "suggested_fix": "Заменить окончание на «в то же время обнажая врождённый эгоизм, который препятствовал обретению этой любви и этого мира».",
+      "translation_quote": "обнажая врождённый эгоизм, которому они препятствовали"
+    },
+    {
+      "location": "html, цитата Луки 8:1–3",
+      "severity": "major",
+      "source_quote": "which ministered unto him of their substance",
+      "suggested_fix": "Заменить «служили Им имуществом своим» на «служили Ему своим имуществом», сохранив единственное число получателя служения.",
+      "translation_quote": "которые служили Им имуществом своим"
+    },
+    {
+      "location": "html, цитаты Луки 5:20–21",
+      "severity": "major",
+      "source_quote": "Man, thy sins are forgiven thee ... began to reason, saying",
+      "suggested_fix": "Заменить «чадо!» на «человек!» и «поражались и говорили» на «начали рассуждать, говоря».",
+      "translation_quote": "чадо! прощены тебе грехи ... поражались и говорили"
+    },
+    {
+      "location": "html, абзац «Кровь Иисуса — единственное средство...»",
+      "severity": "major",
+      "source_quote": "The “righteousness of God” is imputed through forgiveness, and it is the fruit of our lives after being empowered through the Holy Spirit.",
+      "suggested_fix": "Исправить предложение: «„Праведность Божия“ вменяется через прощение и становится плодом нашей жизни после того, как мы получаем силу через Святого Духа».",
+      "translation_quote": "«Праведность Божия» причитается через прощение, и она является плодом нашей жизни после того, как мы уполномочены Святым Духом."
+    },
+    {
+      "location": "html, цитата Адама Кларка",
+      "severity": "major",
+      "source_quote": "This ... made the conduct of the person mentioned in the text inexcusable",
+      "suggested_fix": "Заменить «неисправимым» на «непростительным».",
+      "translation_quote": "Это делало поведение упомянутого в тексте человека неисправимым"
+    },
+    {
+      "location": "html, цитата Луки 7:44–47",
+      "severity": "major",
+      "source_quote": "I entered into thine house, thou gavest me no water for my feet ... Her sins, which are many, are forgiven",
+      "suggested_fix": "Заменить «войдя в дом твой, ты не дал Мне воды для ног» на «Я вошёл в дом твой, и ты не дал Мне воды для ног»; заменить «прощены ей грехи» на «прощены ей многочисленные грехи».",
+      "translation_quote": "войдя в дом твой, ты не дал Мне воды для ног ... прощены ей грехи"
+    },
+    {
+      "location": "html, абзац перед заключительной строфой",
+      "severity": "major",
+      "source_quote": "In Augustus Toplady’s famous hymn",
+      "suggested_fix": "Заменить «Огнедышащего Топледи (Augustus Toplady)» на «Огастеса Топледи (Augustus Toplady)».",
+      "translation_quote": "В знаменитом гимне Огнедышащего Топледи (Augustus Toplady)"
+    },
+    {
+      "location": "html, абзац о Марии у гробницы",
+      "severity": "minor",
+      "source_quote": "Her diligent pursuit of Christ",
+      "suggested_fix": "Заменить «Её усердное преследование Христа» на «Её настойчивое стремление найти Христа».",
+      "translation_quote": "Её усердное преследование Христа"
+    },
+    {
+      "location": "html, абзац о расслабленном",
+      "severity": "minor",
+      "source_quote": "Jesus’ primary mission in coming to earth ... In Luke 5 ... brought him for healing ... How desperate they were to help their friend to find healing.",
+      "suggested_fix": "Исправить соответствующие фразы на «Главной целью прихода Иисуса на землю было избавить нас от власти греха», «В 5-й главе Евангелия от Луки», «принесли его для исцеления» и «Как отчаянно они стремились помочь своему другу обрести исцеление!»",
+      "translation_quote": "Главная миссия Иисуса, придя на землю, была ... В Луки 5 ... принесли его к исцелению ... Как они были в отчаянии, чтобы помочь другу найти исцеление."
+    },
+    {
+      "location": "html, ссылки на Римлянам 10:3 и Ефесянам 1:7; начало абзаца о Матфея 22",
+      "severity": "minor",
+      "source_quote": "Romans 10:3; Ephesians 1:7; In Mathew 22",
+      "suggested_fix": "Использовать «Римлянам 10:3», «Ефесянам 1:7» без предлога «от» и «В 22-й главе Евангелия от Матфея».",
+      "translation_quote": "от Римлянам 10:3; от Ефесянам 1:7; В Матфея 22"
+    },
+    {
+      "location": "html, абзац о небесном пире",
+      "severity": "minor",
+      "source_quote": "some from the gutters of sin",
+      "suggested_fix": "Заменить «некоторые из кромки пропасти греха» на «некоторые — со дна греха».",
+      "translation_quote": "некоторые из кромки пропасти греха"
+    },
+    {
+      "location": "html, абзац «Симон наблюдал...»",
+      "severity": "minor",
+      "source_quote": "He considered her offering a great waste. Jesus challenged him.",
+      "suggested_fix": "Исправить на «Он считал её дар большим расточительством. Иисус обличил его».",
+      "translation_quote": "Он считал её дар большую расточительностью. Иисус поставил его под вопрос."
+    },
+    {
+      "location": "html, заключительный прозаический абзац",
+      "severity": "minor",
+      "source_quote": "Along with Mary Magdalene",
+      "suggested_fix": "Заменить «Вдоль с Марией Магдаленой» на «Вместе с Марией Магдаленой».",
+      "translation_quote": "Вдоль с Марией Магдаленой"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
