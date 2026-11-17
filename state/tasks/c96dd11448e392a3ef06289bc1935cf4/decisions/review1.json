@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "translation.html, cita de Mateo 6:31-34 en «Reflexiones finales»",
+      "severity": "major",
+      "source_quote": "Therefore take no thought, saying, What shall we eat? or, What shall we drink? or, Wherewithal shall we be clothed? (For after all these things do the Gentiles seek:) for your heavenly Father knoweth that ye have need of all these things. But seek ye first the kingdom of God, and his righteousness; and all these things shall be added unto you.",
+      "suggested_fix": "Restituir el contenido omitido antes de «No os afanéis, pues, por el día de mañana», dentro del mismo elemento <em>: «Por tanto, no os afanéis diciendo: ¿Qué comeremos?, ¿qué beberemos? o ¿con qué nos vestiremos? Porque los gentiles buscan todas estas cosas, y vuestro Padre celestial sabe que las necesitáis todas. Pero buscad primero el reino de Dios y su justicia, y todas estas cosas os serán añadidas. »",
+      "translation_quote": "<em>No os afanéis, pues, por el día de mañana; porque el día de mañana traerá su afán. Basta a cada día su propio mal. —Mateo 6:31-34.</em>"
+    },
+    {
+      "location": "translation.html, párrafo sobre Ezequías bajo «…Factores ambientales»",
+      "severity": "major",
+      "source_quote": "although it is possible that Hezekiah’s “boil” could have been some kind of cancerous growth",
+      "suggested_fix": "Sustituir «la “piel” (o llaga) de Ezequías» por «la “llaga” de Ezequías».",
+      "translation_quote": "aunque es posible que la “piel” (o llaga) de Ezequías pudiera haber sido algún tipo de crecimiento canceroso"
+    },
+    {
+      "location": "translation.html, sexto párrafo",
+      "severity": "minor",
+      "source_quote": "More people seem to be getting it",
+      "suggested_fix": "Sustituir «Parece que más personas lo obtienen» por «Parece que cada vez más personas lo padecen».",
+      "translation_quote": "Parece que más personas lo obtienen"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
