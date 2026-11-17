@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "7b578b0bd3c14bff90da2d7e96cbf3d6",
   "campaign": "auto-7e2dbd55df1824ceb8841a177854e07de0dc0997d0eee5c548a12972c5d7af86",
   "created_at": "2026-11-17T02:32:37+00:00",
   "events": [
@@ -28,10 +27,38 @@
         },
         "total_tokens": 6685
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 798,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 661,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7039,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 5936,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 7837
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "IF NO REVIVAL, first paragraph",
+      "severity": "major",
+      "source_quote": "“Therefore hell hath enlarged herself, and opened her mouth without measure.”",
+      "suggested_fix": "Vervang de aanhaling door: ‘Daarom heeft de hel zich wijd geopend en haar mond onmetelijk wijd opengesperd.’",
+      "translation_quote": "‘Daarom heeft het rijk van de dood zich wijd geopend en zijn mond onmetelijk wijd opengesperd.’"
+    }
+  ],
   "id": "611b4fbaf302447ffd2c813db47f076d",
   "issue_id": "14962b7b-2d94-5b43-a4c6-bbb78f074d1a",
   "language": "nld",
@@ -120,11 +147,13 @@
     }
   },
   "protected": false,
+  "quality_score": 93,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/b8e84c6ac2371f97ffbabe7b6084751e2c3708d2cb234f7339f556b830577afa.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "translate",
     "max_candidate_bytes": 120000,
@@ -138,7 +167,7 @@
     "total_reserved_usd": 0.089285,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "59c6af529e48a18151a99afd7610829371425facdfe6a9b50a5c2c302acba8b6",
   "translation_model_actual": "gpt-6-luna"

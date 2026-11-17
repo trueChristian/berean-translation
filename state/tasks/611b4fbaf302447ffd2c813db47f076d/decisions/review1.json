@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "IF NO REVIVAL, first paragraph",
+      "severity": "major",
+      "source_quote": "“Therefore hell hath enlarged herself, and opened her mouth without measure.”",
+      "suggested_fix": "Vervang de aanhaling door: ‘Daarom heeft de hel zich wijd geopend en haar mond onmetelijk wijd opengesperd.’",
+      "translation_quote": "‘Daarom heeft het rijk van de dood zich wijd geopend en zijn mond onmetelijk wijd opengesperd.’"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

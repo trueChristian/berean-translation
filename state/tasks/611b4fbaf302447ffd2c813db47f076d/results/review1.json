@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "fabad0f1-2e1d-483a-99e5-20aedc9558c0",
+    "response_id": "chatcmpl-El5KffTXE6cVc9x6WHnvd2H33S3fD",
+    "usage": {
+      "completion_tokens": 798,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 661,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7039,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5936,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 7837
+    }
+  },
+  "received_at": "2026-11-17T10:18:59+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "IF NO REVIVAL, first paragraph",
+        "severity": "major",
+        "source_quote": "“Therefore hell hath enlarged herself, and opened her mouth without measure.”",
+        "suggested_fix": "Vervang de aanhaling door: ‘Daarom heeft de hel zich wijd geopend en haar mond onmetelijk wijd opengesperd.’",
+        "translation_quote": "‘Daarom heeft het rijk van de dood zich wijd geopend en zijn mond onmetelijk wijd opengesperd.’"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 93
+  }
+}
