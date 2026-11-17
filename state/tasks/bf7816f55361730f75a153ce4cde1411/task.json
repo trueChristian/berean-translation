@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "0c8b51f598d8424cbe3b41c257682cce",
   "campaign": "auto-58c5cdbe6b99b50428849f52ab45c0dff9dda5e3219ccefb38a570f15aa6089f",
   "created_at": "2026-11-17T02:31:15+00:00",
   "events": [
@@ -28,10 +27,73 @@
         },
         "total_tokens": 7124
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 698,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7477,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 6374,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 8175
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "Opening paragraph, Isaiah quotation and ensuing reference to the quoted declaration",
+      "severity": "major",
+      "source_quote": "“they declare their sin as Sodom, they hide it not.”",
+      "suggested_fix": "Translate the full clause, for example: “wanatangaza dhambi yao kama Sodoma; hawaifichi.”",
+      "translation_quote": "“wanatangaza dhambi yao kama Sodoma, hawaifichi.”"
+    },
+    {
+      "location": "Opening paragraph, quote attributed to Chuck Smith",
+      "severity": "major",
+      "source_quote": "“Today, we are living in desperate times. Yet, the Church is not desperate before God in prayer.”",
+      "suggested_fix": "Replace “nyakati za kukata tamaa” with “nyakati za hali mbaya sana” or another rendering that does not imply the times themselves are despairing: “Leo tunaishi katika nyakati za hali mbaya sana. Hata hivyo, Kanisa halina hali ya kukata tamaa mbele za Mungu katika maombi.”",
+      "translation_quote": "“Leo tunaishi katika nyakati za kukata tamaa. Hata hivyo, Kanisa halijakata tamaa mbele za Mungu katika maombi.”"
+    },
+    {
+      "location": "Opening paragraph, Irish Presbyterian report",
+      "severity": "major",
+      "source_quote": "“every day last week”",
+      "suggested_fix": "Translate the report as saying they saw and heard these things every day during the previous week; remove the implication that the phrase means “everything we saw and heard.”",
+      "translation_quote": "“kila mmoja aliyeona na kusikia tuliyoyaona na kuyasikia, kila siku wiki iliyopita”"
+    },
+    {
+      "location": "Opening paragraph, quote from the Irish Presbyterian report",
+      "severity": "major",
+      "source_quote": "“everyone who has seen and heard what we have, every day last week, it is certain there is only one explanation”",
+      "suggested_fix": "Render the conclusion as a certainty shared by everyone who witnessed it, for example: “kila mmoja wetu aliyeona na kusikia mambo haya kila siku wiki iliyopita ana hakika kwamba kuna maelezo moja tu.”",
+      "translation_quote": "“kila mmoja aliyeona na kusikia tuliyoyaona na kuyasikia, kila siku wiki iliyopita, ana hakika kwamba kuna maelezo moja tu”"
+    },
+    {
+      "location": "Section “IF NO REVIVAL,” paragraph 3, quotation from Isaiah",
+      "severity": "major",
+      "source_quote": "“they have cast away the law of the Lord.”",
+      "suggested_fix": "Change “neno la Bwana” to “sheria ya Bwana” to preserve the stated object of rejection.",
+      "translation_quote": "“wamelitupilia mbali neno la Bwana.”"
+    },
+    {
+      "location": "Section “IF NO REVIVAL,” paragraph 3, quote attributed to Martyn-Lloyd Jones",
+      "severity": "major",
+      "source_quote": "“we are anxious to see God’s name vindicated and His glory manifested.”",
+      "suggested_fix": "Translate “anxious” as earnest concern or longing, not “hamu” (desire), e.g. “tunahangaikia kuona jina la Mungu likithibitishwa kuwa la haki na utukufu Wake ukidhihirishwa.”",
+      "translation_quote": "“tuna hamu ya kuona jina la Mungu likithibitishwa kuwa la haki na utukufu Wake ukidhihirishwa.”"
+    }
+  ],
   "id": "bf7816f55361730f75a153ce4cde1411",
   "issue_id": "14962b7b-2d94-5b43-a4c6-bbb78f074d1a",
   "language": "swa",
@@ -120,11 +182,13 @@
     }
   },
   "protected": false,
+  "quality_score": 88,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/b8e84c6ac2371f97ffbabe7b6084751e2c3708d2cb234f7339f556b830577afa.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "translate",
     "max_candidate_bytes": 120000,
@@ -138,7 +202,7 @@
     "total_reserved_usd": 0.089284,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "59c6af529e48a18151a99afd7610829371425facdfe6a9b50a5c2c302acba8b6",
   "translation_model_actual": "gpt-6-luna"
