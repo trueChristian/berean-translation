@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "c9a6d671-1604-4784-bab1-4c7081ce0cfa",
+    "response_id": "chatcmpl-El4emx1B6O0UzQLjWnz29bMyFzDFO",
+    "usage": {
+      "completion_tokens": 307,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 139,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 10534,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 10531,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10841
+    }
+  },
+  "received_at": "2026-11-17T04:04:22+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "translation.html: 금욕주의를 논하는 문단, 골로새서 2:20-22 인용 도입부",
+        "severity": "minor",
+        "source_quote": "The ordinances of this world, such as …Touch not; taste not; handle not",
+        "suggested_fix": "인용 앞에 “이 세상의 규례들, 이를테면 ”을 넣어 규례에 대한 원문의 한정을 살리십시오. 기존 HTML 태그와 성구 인용은 유지하십시오.",
+        "translation_quote": "<em>…붙잡지도 말고 맛보지도 말고 만지지도 말라</em>[는 규례들은]"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}

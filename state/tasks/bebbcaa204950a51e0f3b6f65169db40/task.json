@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "1154dc6e51b64ebba0d735fb73a0d96e",
   "campaign": "auto-3450c0e0226343dc9717652f2e793f5b6e99ba0067303fd26583a39184fcf7e1",
   "created_at": "2026-11-16T10:07:21+00:00",
   "events": [
@@ -48,53 +47,39 @@
         },
         "total_tokens": 16613
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 307,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 139,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 10534,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 10531,
+          "cached_tokens": 0
+        },
+        "total_tokens": 10841
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "translation.html, “…주인” 아래 두 번째 문단",
-      "severity": "major",
-      "source_quote": "refusing anything they esteem as an unreasonable mandate from their employers",
-      "suggested_fix": "“고용주가 불합리하다고 여기는 요구를”을 “자신들이 불합리하다고 여기는 고용주의 요구를”로 수정하십시오.",
-      "translation_quote": "고용주가 불합리하다고 여기는 요구를 거부하는 데"
-    },
-    {
-      "location": "translation.html, “…남편” 문단의 요한복음 인용",
-      "severity": "major",
-      "source_quote": "–John 4:16.",
-      "suggested_fix": "출처에 인쇄된 절 번호를 보존하여 “–요한복음 4:16.”으로 수정하십시오.",
-      "translation_quote": "–요한복음 4:15-16."
-    },
-    {
-      "location": "translation.html, “…남편” 문단의 고린도전서 인용",
-      "severity": "major",
-      "source_quote": "For this cause ought the woman to have power on her head… –1 Corinthians 11:10.",
-      "suggested_fix": "인용문을 “이러므로 여자는 그 머리 위에 권능을 지녀야 하느니라… –고린도전서 11:10.”으로 수정하여, 원문에 없는 천사 언급을 제거하고 ‘권능’을 ‘권위 아래 있는 표’로 바꾸지 마십시오.",
-      "translation_quote": "이러므로 여자는 천사들로 말미암아 권위 아래 있는 표를 그 머리 위에 둘지니라… –고린도전서 11:10."
-    },
-    {
-      "location": "translation.html, “복종은 능력을 활성화합니다.” 아래 문단의 마태복음 인용",
-      "severity": "major",
-      "source_quote": "But when the multitudes saw it, they marvelled, and glorified God",
-      "suggested_fix": "“무리가 보고 두려워하며”를 “무리가 이를 보고 놀라며”로 수정하여 인쇄된 원문의 반응을 보존하십시오.",
-      "translation_quote": "무리가 보고 두려워하며 이런 권능을 사람에게 주신 하나님께 영광을 돌리니라"
-    },
-    {
-      "location": "translation.html, p.lead의 drop-cap",
+      "location": "translation.html: 금욕주의를 논하는 문단, 골로새서 2:20-22 인용 도입부",
       "severity": "minor",
-      "source_quote": "<span class=\"drop-cap\">O</span>f all the word pictures",
-      "suggested_fix": "태그와 속성을 유지하면서 문단 첫머리를 “<span class=\"drop-cap\">우</span>리 주님께서”로 수정하십시오.",
-      "translation_quote": "<span class=\"drop-cap\">O</span>우리 주님께서"
-    },
-    {
-      "location": "translation.html, “복종은 능력을 활성화합니다.” 아래 문단",
-      "severity": "minor",
-      "source_quote": "volunteer to transport a soldier’s pack the second mile",
-      "suggested_fix": "“병사의 짐을 자원하여 두 번째 길까지 져다 줄 만큼”을 “병사의 짐을 자원하여 한 마일 더 져다 줄 만큼”으로 수정하여 거리의 의미를 명확히 하십시오.",
-      "translation_quote": "병사의 짐을 자원하여 두 번째 길까지 져다 줄 만큼"
+      "source_quote": "The ordinances of this world, such as …Touch not; taste not; handle not",
+      "suggested_fix": "인용 앞에 “이 세상의 규례들, 이를테면 ”을 넣어 규례에 대한 원문의 한정을 살리십시오. 기존 HTML 태그와 성구 인용은 유지하십시오.",
+      "translation_quote": "<em>…붙잡지도 말고 맛보지도 말고 만지지도 말라</em>[는 규례들은]"
     }
   ],
+  "finished_at": "2026-11-17T04:04:22+00:00",
   "id": "bebbcaa204950a51e0f3b6f65169db40",
   "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
   "language": "kor",
@@ -183,7 +168,7 @@
     }
   },
   "protected": false,
-  "quality_score": 90,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6.1-sol",
@@ -202,7 +187,7 @@
     "total_reserved_usd": 0.779273,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "f7c753eaec7cab461389c398af8410c2a13a7ef5a7c84c987fe4dfe4c20f33bc",
   "translation_model_actual": "gpt-6.1-sol"

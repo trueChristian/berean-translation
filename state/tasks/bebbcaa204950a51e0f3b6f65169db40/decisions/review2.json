@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "translation.html: 금욕주의를 논하는 문단, 골로새서 2:20-22 인용 도입부",
+      "severity": "minor",
+      "source_quote": "The ordinances of this world, such as …Touch not; taste not; handle not",
+      "suggested_fix": "인용 앞에 “이 세상의 규례들, 이를테면 ”을 넣어 규례에 대한 원문의 한정을 살리십시오. 기존 HTML 태그와 성구 인용은 유지하십시오.",
+      "translation_quote": "<em>…붙잡지도 말고 맛보지도 말고 만지지도 말라</em>[는 규례들은]"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}
