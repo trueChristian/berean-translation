@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "Subtitle",
+      "severity": "minor",
+      "source_quote": "A Fervent Exhortation For",
+      "suggested_fix": "‘এক প্রবল আবেগময় আহ্বান’ ব্যবহার করলে “fervent”-এর তীব্রতা আরও স্পষ্ট হবে।",
+      "translation_quote": "এক আন্তরিক আহ্বান"
+    },
+    {
+      "location": "First section, birth metaphor",
+      "severity": "minor",
+      "source_quote": "With birth comes laborious gestation, travailing birth-pains, and conceptional agony.",
+      "suggested_fix": "‘জন্মের সঙ্গে আসে দীর্ঘ গর্ভধারণ, প্রসববেদনা ও গর্ভধারণের যন্ত্রণা’—এভাবে লিখলে শেষ বাক্যাংশটি স্বাভাবিক ও স্পষ্ট হবে।",
+      "translation_quote": "জন্মের সঙ্গে আসে দীর্ঘ গর্ভধারণ, প্রসববেদনা ও গর্ভসঞ্চারের যন্ত্রণা।"
+    },
+    {
+      "location": "“IF NO REVIVAL,” second paragraph",
+      "severity": "minor",
+      "source_quote": "the world falls into outer darkness.",
+      "suggested_fix": "‘জগৎ বাইরের অন্ধকারে পতিত হয়’ লিখলে “outer darkness”-এর নির্দিষ্ট অর্থটিও বজায় থাকবে।",
+      "translation_quote": "জগৎ ঘোর অন্ধকারে পতিত হয়।"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

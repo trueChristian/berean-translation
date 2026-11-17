@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "0280973d994543c68afec08cafcb42d7",
   "campaign": "auto-ad50013bf65f6cc322238ac009ed93ab6c36882e13c67068591502a5945b919c",
   "created_at": "2026-11-16T10:07:53+00:00",
   "events": [
@@ -28,10 +27,53 @@
         },
         "total_tokens": 7620
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1369,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 1064,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7974,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 6871,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 9343
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "Subtitle",
+      "severity": "minor",
+      "source_quote": "A Fervent Exhortation For",
+      "suggested_fix": "‘এক প্রবল আবেগময় আহ্বান’ ব্যবহার করলে “fervent”-এর তীব্রতা আরও স্পষ্ট হবে।",
+      "translation_quote": "এক আন্তরিক আহ্বান"
+    },
+    {
+      "location": "First section, birth metaphor",
+      "severity": "minor",
+      "source_quote": "With birth comes laborious gestation, travailing birth-pains, and conceptional agony.",
+      "suggested_fix": "‘জন্মের সঙ্গে আসে দীর্ঘ গর্ভধারণ, প্রসববেদনা ও গর্ভধারণের যন্ত্রণা’—এভাবে লিখলে শেষ বাক্যাংশটি স্বাভাবিক ও স্পষ্ট হবে।",
+      "translation_quote": "জন্মের সঙ্গে আসে দীর্ঘ গর্ভধারণ, প্রসববেদনা ও গর্ভসঞ্চারের যন্ত্রণা।"
+    },
+    {
+      "location": "“IF NO REVIVAL,” second paragraph",
+      "severity": "minor",
+      "source_quote": "the world falls into outer darkness.",
+      "suggested_fix": "‘জগৎ বাইরের অন্ধকারে পতিত হয়’ লিখলে “outer darkness”-এর নির্দিষ্ট অর্থটিও বজায় থাকবে।",
+      "translation_quote": "জগৎ ঘোর অন্ধকারে পতিত হয়।"
+    }
+  ],
+  "finished_at": "2026-11-17T02:26:41+00:00",
   "id": "b74ec820cf7341b2137433eee625b84b",
   "issue_id": "14962b7b-2d94-5b43-a4c6-bbb78f074d1a",
   "language": "ben",
@@ -120,9 +162,11 @@
     }
   },
   "protected": false,
+  "quality_score": 97,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/b8e84c6ac2371f97ffbabe7b6084751e2c3708d2cb234f7339f556b830577afa.json",
   "stage": "review1",
   "stage_budget": {
@@ -138,7 +182,7 @@
     "total_reserved_usd": 0.089293,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "59c6af529e48a18151a99afd7610829371425facdfe6a9b50a5c2c302acba8b6",
   "translation_model_actual": "gpt-6-luna"

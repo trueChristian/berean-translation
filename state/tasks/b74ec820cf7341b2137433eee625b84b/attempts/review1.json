@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-17T02:26:41+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Subtitle\",\"severity\":\"minor\",\"source_quote\":\"A Fervent Exhortation For\",\"suggested_fix\":\"‘এক প্রবল আবেগময় আহ্বান’ ব্যবহার করলে “fervent”-এর তীব্রতা আরও স্পষ্ট হবে।\",\"translation_quote\":\"এক আন্তরিক আহ্বান\"},{\"location\":\"First section, birth metaphor\",\"severity\":\"minor\",\"source_quote\":\"With birth comes laborious gestation, travailing birth-pains, and conceptional agony.\",\"suggested_fix\":\"‘জন্মের সঙ্গে আসে দীর্ঘ গর্ভধারণ, প্রসববেদনা ও গর্ভধারণের যন্ত্রণা’—এভাবে লিখলে শেষ বাক্যাংশটি স্বাভাবিক ও স্পষ্ট হবে।\",\"translation_quote\":\"জন্মের সঙ্গে আসে দীর্ঘ গর্ভধারণ, প্রসববেদনা ও গর্ভসঞ্চারের যন্ত্রণা।\"},{\"location\":\"“IF NO REVIVAL,” second paragraph\",\"severity\":\"minor\",\"source_quote\":\"the world falls into outer darkness.\",\"suggested_fix\":\"‘জগৎ বাইরের অন্ধকারে পতিত হয়’ লিখলে “outer darkness”-এর নির্দিষ্ট অর্থটিও বজায় থাকবে।\",\"translation_quote\":\"জগৎ ঘোর অন্ধকারে পতিত হয়।\"}],\"findings_complete\":true,\"passed\":true,\"score\":97}",
+    "content_bytes": 1594,
+    "content_evidence_truncated": false,
+    "content_sha256": "e838fab566900329d71787d2b52597c968bb63eb68c2afba1365057cfc11ae8d",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1369,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1064,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7974,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6871,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 9343
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}
