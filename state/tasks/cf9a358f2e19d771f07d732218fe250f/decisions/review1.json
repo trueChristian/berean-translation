@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "translation.html, sezione «…Mariti», citazione di 1 Corinzi 11:10",
+      "severity": "major",
+      "source_quote": "For this cause ought the woman to have power on her head…",
+      "suggested_fix": "Sostituire la citazione con: «Per questo la donna deve avere potere sul capo…», conservando il tag <em> e il riferimento esistenti.",
+      "translation_quote": "Per questo la donna deve avere sul capo un segno dell’autorità…"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
