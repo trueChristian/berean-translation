@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "6a89c4fb-5aa0-4e73-869a-d57c460df229",
+    "response_id": "chatcmpl-EkzJ1tZZ7Y09fbVHzif39pBNZMarS",
+    "usage": {
+      "completion_tokens": 213,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 77,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7375,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6272,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 7588
+    }
+  },
+  "received_at": "2026-11-17T02:28:35+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "translation.html, παράγραφος 4, τελευταία πρόταση",
+        "severity": "major",
+        "source_quote": "you know He is convicting you, and that He is NOT OK with it",
+        "suggested_fix": "Αντικαταστήστε το «και ότι ΔΕΝ έχει πρόβλημα μ’ αυτό» με «και ότι ΔΕΝ το εγκρίνει».",
+        "translation_quote": "ξέρεις ότι σε ελέγχει και ότι ΔΕΝ έχει πρόβλημα μ’ αυτό"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 94
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "translation.html, παράγραφος 4, τελευταία πρόταση",
+      "severity": "major",
+      "source_quote": "you know He is convicting you, and that He is NOT OK with it",
+      "suggested_fix": "Αντικαταστήστε το «και ότι ΔΕΝ έχει πρόβλημα μ’ αυτό» με «και ότι ΔΕΝ το εγκρίνει».",
+      "translation_quote": "ξέρεις ότι σε ελέγχει και ότι ΔΕΝ έχει πρόβλημα μ’ αυτό"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
