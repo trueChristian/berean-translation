@@ -5,11 +5,96 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "e7197628cacd4a05859b848054fb9837",
   "campaign": "auto-e3122d1fb9057ef05fa441ee4a0e9c578a18e0bcb44b1c33087ca1d2ecf44c86",
   "created_at": "2026-11-13T23:25:13+00:00",
-  "events": [],
-  "findings": [],
+  "events": [
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 2391,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 130,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8395,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 7292,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 10786
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "html, παράγραφος 4, Ματθαίος 24:6 και Αποκάλυψη 21:8",
+      "severity": "major",
+      "source_quote": "see that ye be not troubled ... the fearful, and unbelieving … [who] shall have their part in the lake which burneth with fire and brimstone",
+      "suggested_fix": "Αντικαταστήστε τα αντίστοιχα παραθέματα, διατηρώντας τα em και strong: «Και θα ακούσετε για πολέμους και φήμες πολέμων· <strong>προσέξτε να μην ταραχτείτε</strong>· γιατί όλα αυτά πρέπει να συμβούν, αλλά το τέλος δεν έχει έρθει ακόμη —Ματθαίος 24:6.» και «…οι δειλοί και οι άπιστοι … θα έχουν το μερίδιό τους στη λίμνη που καίγεται με φωτιά και θειάφι… —Αποκάλυψη 21:8.»",
+      "translation_quote": "βλέπετε μὴ θραυωγοηθῆτε ... οἱ δεῖλοι καὶ οἱ ἄπιστοι … [οἵτινες] ἔσονται τμήμα αὐτῶν en τῇ λίμνῃ τῇ καιομένῃ πυρί καὶ θείῳ"
+    },
+    {
+      "location": "html, παράγραφος 14, Εβραίους 13:17 και Β΄ Κορινθίους 5:10",
+      "severity": "major",
+      "source_quote": "Obey them that have the rule over you, and submit yourselves: for they watch for your souls, as they that must give account… ... For we must all appear before the judgment seat of Christ",
+      "suggested_fix": "Αντικαταστήστε τα δύο παραθέματα μέσα στα υπάρχοντα em με: «Να υπακούτε στους ηγέτες σας και να υποτάσσεστε σ’ αυτούς, γιατί αγρυπνούν για τις ψυχές σας ως άνθρωποι που θα δώσουν λόγο… —Εβραίους 13:17.» και «Γιατί όλοι πρέπει να παρουσιαστούμε μπροστά στο δικαστικό βήμα του Χριστού, ώστε ο καθένας να λάβει ό,τι του αναλογεί για όσα έκανε όσο ζούσε στο σώμα, είτε καλά είτε κακά —Β΄ Κορινθίους 5:10.»",
+      "translation_quote": "Ὑπακούετε τοῖς προκείμενοι ὑμῖν ... τὰ μὲν γὰρ οὖν ... πάντων ... Ἄραγε οὐ πάντες ἡμᾶς φανερωθήσεται"
+    },
+    {
+      "location": "html, παράγραφοι 7, 9, 15 και 17, αποδόσεις του «plain»",
+      "severity": "major",
+      "source_quote": "within the plain people—those of Anabaptist heritage; among some of the plain people; some of our plain publishing houses; one of our plain groups of conservative Anabaptists",
+      "suggested_fix": "Αποδώστε τον όρο ως προσδιορισμό συγκεκριμένων θρησκευτικών κοινοτήτων και όχι ως «απλούς ανθρώπους». Στην παράγραφο 7 γράψτε «σε μια συγκεκριμένη θρησκευτική ομάδα των κοινοτήτων αναβαπτιστικής παράδοσης που ακολουθούν λιτό τρόπο ζωής». Στην παράγραφο 9: «σε ορισμένες από αυτές τις κοινότητες». Στην παράγραφο 15: «ορισμένων εκδοτικών οίκων των κοινοτήτων μας». Στην παράγραφο 17: «σε μία από τις κοινότητές μας των συντηρητικών Αναβαπτιστών που ακολουθούν λιτό τρόπο ζωής».",
+      "translation_quote": "μέσα στους απλούς ανθρώπους — απογόνους των Αναβαπτιστών; ανάμεσα σε μερικούς από τους απλούς ανθρώπους; τα απλά εκδοτικά μας σπίτια; μιας από τις ομάδες μας των συντηρητικών απλών Αναβαπτιστών"
+    },
+    {
+      "location": "html, παράγραφος 9",
+      "severity": "major",
+      "source_quote": "tongues (languages)",
+      "suggested_fix": "Αντικαταστήστε το «<em>γλώσσες</em> (λάλησις)» με «<em>γλώσσες</em> (δηλαδή διαφορετικές γλώσσες)», ώστε να διατηρείται η ρητή εξήγηση του συγγραφέα ότι πρόκειται για γλώσσες που ο ακροατής δεν κατανοεί.",
+      "translation_quote": "γλώσσες (λάλησις)"
+    },
+    {
+      "location": "html, παράγραφοι 4 και 15, υπόλοιπα βιβλικά παραθέματα",
+      "severity": "minor",
+      "source_quote": "he that shall endure unto the end, the same shall be saved; He that overcometh shall inherit all things; and I will be his God, and he shall be my son; When Jesus heard it, he marvelled ...",
+      "suggested_fix": "Χρησιμοποιήστε σύγχρονα ελληνικά και στα υπόλοιπα παραθέματα, όπως ζητείται: «…όποιος υπομείνει ως το τέλος θα σωθεί —Ματθαίος 24:13.»· «Όποιος νικά θα κληρονομήσει τα πάντα· και θα είμαι ο Θεός του και αυτός θα είναι γιος μου —Αποκάλυψη 21:7.»· «Όταν το άκουσε ο Ιησούς, θαύμασε και είπε σε όσους τον ακολουθούσαν: Αληθινά σας λέω, δεν βρήκα τόσο μεγάλη πίστη ούτε στο Ισραήλ —Ματθαίος 8:10.» Διατηρήστε τα υπάρχοντα em.",
+      "translation_quote": "ὁ δὲ ὑπομείνας εἰς τὸ τέλος οὗτος σωθήσεται; ὁ νικῶν κληρονομήσει πάντα ...; Καὶ ἀκούσας ὁ Ἰησοῦς ἐθαύμασε ..."
+    },
+    {
+      "location": "html, παράγραφος 5",
+      "severity": "minor",
+      "source_quote": "when and how to be submissive as a godly wife",
+      "suggested_fix": "Αντικαταστήστε με «πότε και πώς μια ευσεβής σύζυγος πρέπει να υποτάσσεται», ώστε να δηλώνεται καθαρά ότι πρόκειται για τη σύζυγο και να διορθωθεί το αρσενικό «υπάκουος».",
+      "translation_quote": "πότε και πώς να είναι υπάκουος ως ευσεβής σύζυγος"
+    },
+    {
+      "location": "html, παράγραφος 7",
+      "severity": "minor",
+      "source_quote": "a married man with a young family",
+      "suggested_fix": "Αντικαταστήστε το «Είναι έγγαμος με μια μικρή οικογένεια» με «Είναι παντρεμένος και έχει μικρά παιδιά». Το «young» αφορά την ηλικία και όχι το μέγεθος της οικογένειας.",
+      "translation_quote": "Είναι έγγαμος με μια μικρή οικογένεια."
+    },
+    {
+      "location": "html, παράγραφοι 1, 2, 8, 9, 10 και 11",
+      "severity": "minor",
+      "source_quote": "Another year has passed from the present into the annals of history; with a fair degree of accuracy; the Bible was read; what 1 Corinthians chapter 14 refers to as; a man zealous in his religious life; Surely there was more to learn",
+      "suggested_fix": "Διορθώστε αντίστοιχα σε «Μία ακόμη χρονιά πέρασε από το παρόν στα χρονικά της ιστορίας», «με αρκετά καλό βαθμό ακρίβειας», «η Βίβλος διαβαζόταν», «ό,τι στο κεφάλαιο 14 της Α΄ προς Κορινθίους επιστολής αναφέρεται ως», «έναν άνθρωπο με ζήλο στη θρησκευτική του ζωή» και «Σίγουρα υπήρχαν περισσότερα να μάθει».",
+      "translation_quote": "Μία ακόμη χρονιά πέρασε και πέρασε στα χρονικά της ιστορίας; με ένα δίκαιο βαθμό ακρίβειας; η Βίβλος διαβάζονταν; ό,τι ο Α΄ Κορινθίους κεφάλαιο 14 αναφέρεται ως; έναν άνθρωπο ζήλο σε θρησκευτική ζωή; Σίγουρα υπήρχε περισσότερα να μάθει"
+    },
+    {
+      "location": "html, παράγραφος 11",
+      "severity": "minor",
+      "source_quote": "He was desiring to fellowship and learn all that he could from those who understood God’s Word",
+      "suggested_fix": "Αντικαταστήστε το «Επιθύμησε να κοινωνήσει και να μάθει ό,τι μπορούσε από εκείνους» με «Επιθυμούσε να έχει συναναστροφή με εκείνους και να μάθει από αυτούς ό,τι μπορούσε». Έτσι αποφεύγεται η πιθανή εντύπωση ότι αναφέρεται στη Θεία Κοινωνία.",
+      "translation_quote": "Επιθύμησε να κοινωνήσει και να μάθει ό,τι μπορούσε από εκείνους"
+    }
+  ],
   "id": "5011a08fea9d767659ad4e8f61d98aa6",
   "issue_id": "1a7070c9-fd4f-546b-a220-f267ddb8cf5f",
   "language": "ell",
@@ -98,11 +183,13 @@
     }
   },
   "protected": false,
+  "quality_score": 81,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/9bbeaa248aca4a5e53cf4e710626c35ad1fcffe1f073f387e31c0a9f5dd08124.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "review1",
     "max_candidate_bytes": 120000,
@@ -115,7 +202,7 @@
     "total_reserved_usd": 0.765353,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 0,
   "translation_key": "c8c09427567d4bc1f9b13eb8f03d2de65724d1971e30094c9e925e9045066f8d",
   "translation_model_actual": "gpt-5-mini-2025-08-07"
