@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "887005fc-4aa2-41bc-a4ee-8928252affc4",
+    "response_id": "chatcmpl-ElKVeQjlkn7YfjzCefrtxXDCkgMUH",
+    "usage": {
+      "completion_tokens": 1053,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 767,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7379,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6276,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 8432
+    }
+  },
+  "received_at": "2026-11-17T22:19:33+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Article, “REVIVAL OR DEATH,” quotation attributed to Winkie Pratney",
+        "severity": "major",
+        "source_quote": "“Our concern is conciliatory, our obedience optional, our lack theologically and culturally justified.”",
+        "suggested_fix": "Replace ״והעדרנו מוצדק מבחינה תאולוגית ותרבותית״ with wording that conveys that their lack (in context, their lack of revival or concern) is justified theologically and culturally, for example: ״ואת חסרוננו אנו מצדיקים מבחינה תאולוגית ותרבותית״.",
+        "translation_quote": "״הדאגה שלנו מפייסת, הציות שלנו בגדר אפשרות, והעדרנו מוצדק מבחינה תאולוגית ותרבותית.״"
+      },
+      {
+        "location": "Article, opening section, sentence beginning ״אנו זקוקים לתחינה״",
+        "severity": "minor",
+        "source_quote": "“fervent praying”",
+        "suggested_fix": "Replace ״לתפילה ferventית״ with ״לתפילה נלהבת״.",
+        "translation_quote": "״לתפילה ferventית לתחייה שנשלחה מן השמים בימינו.״"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 92
+  }
+}

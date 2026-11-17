@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Article, “REVIVAL OR DEATH,” quotation attributed to Winkie Pratney",
+      "severity": "major",
+      "source_quote": "“Our concern is conciliatory, our obedience optional, our lack theologically and culturally justified.”",
+      "suggested_fix": "Replace ״והעדרנו מוצדק מבחינה תאולוגית ותרבותית״ with wording that conveys that their lack (in context, their lack of revival or concern) is justified theologically and culturally, for example: ״ואת חסרוננו אנו מצדיקים מבחינה תאולוגית ותרבותית״.",
+      "translation_quote": "״הדאגה שלנו מפייסת, הציות שלנו בגדר אפשרות, והעדרנו מוצדק מבחינה תאולוגית ותרבותית.״"
+    },
+    {
+      "location": "Article, opening section, sentence beginning ״אנו זקוקים לתחינה״",
+      "severity": "minor",
+      "source_quote": "“fervent praying”",
+      "suggested_fix": "Replace ״לתפילה ferventית״ with ״לתפילה נלהבת״.",
+      "translation_quote": "״לתפילה ferventית לתחייה שנשלחה מן השמים בימינו.״"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
