@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "ba99db88-4654-4864-9ed2-59f1741f0b00",
+    "response_id": "chatcmpl-EkyauBV4mrFsNCZLox3TYRBNV7zkj",
+    "usage": {
+      "completion_tokens": 832,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 686,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7660,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7657,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8492
+    }
+  },
+  "received_at": "2026-11-17T02:27:16+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Absatz über Blisses Entscheidung, sich der evangelistischen Arbeit zu widmen",
+        "severity": "minor",
+        "source_quote": "“giving up his musical conventions, secular songwriting, business positions, and church work”",
+        "suggested_fix": "Ersetze „Geschäftsstellen“ durch „geschäftliche Tätigkeiten“ oder „geschäftliche Positionen“, damit es nicht nach Geschäftsfilialen klingt.",
+        "translation_quote": "„Er gab seine musikalischen Tagungen, weltlichen Liedtexte, Geschäftsstellen und Gemeindearbeit auf“"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}

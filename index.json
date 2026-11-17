@@ -26090,6 +26090,42 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/deu/articles/b649c2a3-20b1-4e02-9204-6285b234f34f.html",
+      "html_sha256": "f086e7432211cfa3fb144e72a3c3aeffc37023a8a9fbf54cfe0b57594e493aef",
+      "human_reviewed": false,
+      "id": "b649c2a3-20b1-4e02-9204-6285b234f34f",
+      "images": [
+        {
+          "alt": "Porträt von Philip P. Bliss.",
+          "public_path": "/images/articles/b649c2a3-20b1-4e02-9204-6285b234f34f-1.jpg"
+        },
+        {
+          "alt": "Blasslila Blüten zwischen grünen Blättern.",
+          "public_path": "/images/articles/b649c2a3-20b1-4e02-9204-6285b234f34f-2.jpg"
+        },
+        {
+          "alt": "Das vollständige gedruckte Notenblatt zu The Light of the World Is Jesus.",
+          "public_path": "/images/articles/b649c2a3-20b1-4e02-9204-6285b234f34f-3.png"
+        }
+      ],
+      "issue_id": "103c93e0-6e9a-44f6-a6bc-377af8e08e38",
+      "language": "deu",
+      "language_tag": "de",
+      "metadata": "content/deu/articles/b649c2a3-20b1-4e02-9204-6285b234f34f.json",
+      "metadata_sha256": "460748dbcf7a643747348b675708269a670e358bae24c064b63a4adfd22aee39",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "LIEDERGESCHICHTE",
+      "source_revision": "ccefc5a5c3d79409cc78319f94b5490718d30670",
+      "source_translation_key": "24f89250b05cd303e73c3df869edd19f173aa57a9d0a95bd0580196d7fe3e789",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Das Licht der Welt ist Jesus",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/deu/articles/b72ea42a-1a86-4c21-a399-ebd3013c257b.html",
       "html_sha256": "4e08a753c5edea3905b713c86f64bd7fa4b65bf5ea4f62cd8fb502c16e18ac4a",
       "human_reviewed": false,

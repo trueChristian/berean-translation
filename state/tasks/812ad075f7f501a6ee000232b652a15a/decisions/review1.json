@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Absatz über Blisses Entscheidung, sich der evangelistischen Arbeit zu widmen",
+      "severity": "minor",
+      "source_quote": "“giving up his musical conventions, secular songwriting, business positions, and church work”",
+      "suggested_fix": "Ersetze „Geschäftsstellen“ durch „geschäftliche Tätigkeiten“ oder „geschäftliche Positionen“, damit es nicht nach Geschäftsfilialen klingt.",
+      "translation_quote": "„Er gab seine musikalischen Tagungen, weltlichen Liedtexte, Geschäftsstellen und Gemeindearbeit auf“"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}
