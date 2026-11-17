@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-17T04:19:05+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"title\",\"severity\":\"major\",\"source_quote\":\"REVIVAL AT ANY COST!\",\"suggested_fix\":\"KEBANGUNAN ROHANI DENGAN HARGA BERAPA PUN\",\"translation_quote\":\"KEBANGUNAN ROHANI DENGAN SEGALA RISIKONYA\"}],\"findings_complete\":true,\"passed\":false,\"score\":94}",
+    "content_bytes": 267,
+    "content_evidence_truncated": false,
+    "content_sha256": "d7b748762acb61009d7a083030140daae69dcb6115591f5366fffceb3a8cafe5",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 607,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7356,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7353,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7963
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

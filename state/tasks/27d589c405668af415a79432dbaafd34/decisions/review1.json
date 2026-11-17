@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "title",
+      "severity": "major",
+      "source_quote": "REVIVAL AT ANY COST!",
+      "suggested_fix": "KEBANGUNAN ROHANI DENGAN HARGA BERAPA PUN",
+      "translation_quote": "KEBANGUNAN ROHANI DENGAN SEGALA RISIKONYA"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
