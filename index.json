@@ -59343,6 +59343,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ita/articles/a7f59621-7083-44ce-8074-6ece8fdfbdcf.html",
+      "html_sha256": "5aa28d67d7c29b15c34aacc2576357dabd0a6a3f0e52c7f050b3b20766ff18bf",
+      "human_reviewed": false,
+      "id": "a7f59621-7083-44ce-8074-6ece8fdfbdcf",
+      "images": [
+        {
+          "alt": "Uno stretto cancello di legno tra muri bianchi",
+          "public_path": "/images/articles/a7f59621-7083-44ce-8074-6ece8fdfbdcf-1.jpg"
+        }
+      ],
+      "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
+      "language": "ita",
+      "language_tag": "it",
+      "metadata": "content/ita/articles/a7f59621-7083-44ce-8074-6ece8fdfbdcf.json",
+      "metadata_sha256": "03fe5a813c56ebdcab296228700d352485315807eb7023a00c04e97548e82d7d",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "DOTTRINE BIBLICHE",
+      "source_revision": "a069ecca8827634ebc256b3b1cabc16aeb942ed7",
+      "source_translation_key": "f7c753eaec7cab461389c398af8410c2a13a7ef5a7c84c987fe4dfe4c20f33bc",
+      "status": "ready",
+      "subtitle": null,
+      "title": "La porta stretta che conduce alla vita",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ita/articles/aa552c1c-4324-40a5-a7c3-8f36b6a99ee2.html",
       "html_sha256": "c0a7da966b352f0f9cacd664637e641bd5c8ea23455b75e874c346f59a563869",
       "human_reviewed": false,
