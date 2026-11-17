@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "93e935158afb4cdcb2553a7314f47b56",
   "campaign": "auto-bbc45d8e0cc51099add1c3e5df4d0608b3b46864ce1b6cdc413fbe9771ca0d28",
   "created_at": "2026-11-17T04:07:01+00:00",
   "events": [
@@ -28,10 +27,39 @@
         },
         "total_tokens": 7415
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1376,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 1217,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7736,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 6633,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 9112
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "“부흥이 없다면” section, paragraph beginning “부흥이 없다면 말씀이 멸시받을 것입니다.”",
+      "severity": "minor",
+      "source_quote": "“This is a doublesmart; the church is ineffective and God is mocked.”",
+      "suggested_fix": "“이는 이중의 타격입니다. 교회는 무력해지고 하나님은 조롱받습니다.”",
+      "translation_quote": "“이는 이중으로 어리석은 일입니다. 교회는 무력해지고 하나님은 조롱받습니다.”"
+    }
+  ],
+  "finished_at": "2026-11-17T22:19:40+00:00",
   "id": "9ab91d76f53177971794b0c43ce6c27e",
   "issue_id": "14962b7b-2d94-5b43-a4c6-bbb78f074d1a",
   "language": "kor",
@@ -120,9 +148,11 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/b8e84c6ac2371f97ffbabe7b6084751e2c3708d2cb234f7339f556b830577afa.json",
   "stage": "review1",
   "stage_budget": {
@@ -138,7 +168,7 @@
     "total_reserved_usd": 0.089295,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "59c6af529e48a18151a99afd7610829371425facdfe6a9b50a5c2c302acba8b6",
   "translation_model_actual": "gpt-6-luna"
