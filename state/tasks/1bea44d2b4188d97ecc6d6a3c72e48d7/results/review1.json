@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "dfc42ea1-c679-444c-9690-d8154097732c",
+    "response_id": "chatcmpl-EkzBXwR5NCh0sXZg6lnBs5WC0vC5y",
+    "usage": {
+      "completion_tokens": 366,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 92,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6090,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6087,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6456
+    }
+  },
+  "received_at": "2026-11-17T02:28:38+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "translation.html, paragraph beginning ״לאן הדבר מותיר את הכנסייה?״",
+        "severity": "major",
+        "source_quote": "some walked away from their church and started going to more worldly churches",
+        "suggested_fix": "Replace ״לכנסיות עולמיות יותר״ with ״לכנסיות המושפעות יותר מערכי העולם הזה״.",
+        "translation_quote": "אחדים התרחקו מכנסייתם והתחילו ללכת לכנסיות עולמיות יותר"
+      },
+      {
+        "location": "translation.html, traffic-jam paragraph",
+        "severity": "major",
+        "source_quote": "create stop-and-go traffic for a mile or more",
+        "suggested_fix": "Replace ״לאורך קילומטר או יותר״ with ״לאורך כ־1.6 קילומטרים או יותר״ to preserve the stated distance.",
+        "translation_quote": "יוצר תנועה של עצור וסע לאורך קילומטר או יותר"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 94
+  }
+}

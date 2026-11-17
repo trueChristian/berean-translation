@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "translation.html, paragraph beginning ״לאן הדבר מותיר את הכנסייה?״",
+      "severity": "major",
+      "source_quote": "some walked away from their church and started going to more worldly churches",
+      "suggested_fix": "Replace ״לכנסיות עולמיות יותר״ with ״לכנסיות המושפעות יותר מערכי העולם הזה״.",
+      "translation_quote": "אחדים התרחקו מכנסייתם והתחילו ללכת לכנסיות עולמיות יותר"
+    },
+    {
+      "location": "translation.html, traffic-jam paragraph",
+      "severity": "major",
+      "source_quote": "create stop-and-go traffic for a mile or more",
+      "suggested_fix": "Replace ״לאורך קילומטר או יותר״ with ״לאורך כ־1.6 קילומטרים או יותר״ to preserve the stated distance.",
+      "translation_quote": "יוצר תנועה של עצור וסע לאורך קילומטר או יותר"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
