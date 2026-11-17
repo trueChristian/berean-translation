@@ -5467,7 +5467,7 @@
       "article_id": "a6fd953e-3e00-4044-b995-5a38ea9192e5",
       "language": "hin",
       "latest_task": "a2b12205e7023f9ce91873450a8cd227",
-      "processing_status": "queued",
+      "processing_status": "in_batch",
       "reason": "active"
     },
     {
