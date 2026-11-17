@@ -10440,7 +10440,7 @@
       "article_id": "fc4c9504-47f0-4d15-9e2e-848dd10c349e",
       "language": "swa",
       "latest_task": "bf7816f55361730f75a153ce4cde1411",
-      "processing_status": "in_batch",
+      "processing_status": "queued",
       "reason": "active"
     },
     {
@@ -10850,7 +10850,7 @@
       "article_id": "a7f59621-7083-44ce-8074-6ece8fdfbdcf",
       "language": "swe",
       "latest_task": "056bb0cb1c62bf37660c4a9044a055ca",
-      "processing_status": "in_batch",
+      "processing_status": "queued",
       "reason": "active"
     },
     {
