@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-17T22:19:27+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"translation.html, div.poem, নবম স্তবকের প্রথম পঙ্‌ক্তি\",\n      \"severity\": \"major\",\n      \"source_quote\": \"Because He treasured us, an atonement for our sin\",\n      \"suggested_fix\": \"প্রথম পঙ্‌ক্তিটি করুন: “কারণ আমরা ছিলাম তাঁর অতি প্রিয়—আমাদের পাপের প্রায়শ্চিত্ত”। বিদ্যমান <br> ও পরবর্তী পঙ্‌ক্তি অপরিবর্তিত রাখুন।\",\n      \"translation_quote\": \"কারণ তিনি আমাদের অতি প্রিয়—আমাদের পাপের প্রায়শ্চিত্ত\"\n    },\n    {\n      \"location\": \"translation.html, div.poem, ষষ্ঠ স্তবকের প্রথম পঙ্‌ক্তি\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"Ten thousand angels, He could have summoned south,\",\n      \"suggested_fix\": \"পঙ্‌ক্তিটি করুন: “দশ হাজার স্বর্গদূতকে তিনি দক্ষিণে ডেকে আনতে পারতেন,”। এতে মুদ্রিত মূলের দিকনির্দেশ বজায় থাকবে।\",\n      \"translation_quote\": \"দশ হাজার স্বর্গদূতকে তিনি ডাকতে পারতেন কাছে,\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": false,\n  \"score\": 93\n}",
+    "content_bytes": 1611,
+    "content_evidence_truncated": false,
+    "content_sha256": "d7254d6a52ca678aa4e0c47370472995a6067e530d2733a3fa927f3610eee66d",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 409,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 88,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2414,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 2411
+      },
+      "total_tokens": 2823
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}

@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "translation.html, div.poem, নবম স্তবকের প্রথম পঙ্‌ক্তি",
+      "severity": "major",
+      "source_quote": "Because He treasured us, an atonement for our sin",
+      "suggested_fix": "প্রথম পঙ্‌ক্তিটি করুন: “কারণ আমরা ছিলাম তাঁর অতি প্রিয়—আমাদের পাপের প্রায়শ্চিত্ত”। বিদ্যমান <br> ও পরবর্তী পঙ্‌ক্তি অপরিবর্তিত রাখুন।",
+      "translation_quote": "কারণ তিনি আমাদের অতি প্রিয়—আমাদের পাপের প্রায়শ্চিত্ত"
+    },
+    {
+      "location": "translation.html, div.poem, ষষ্ঠ স্তবকের প্রথম পঙ্‌ক্তি",
+      "severity": "minor",
+      "source_quote": "Ten thousand angels, He could have summoned south,",
+      "suggested_fix": "পঙ্‌ক্তিটি করুন: “দশ হাজার স্বর্গদূতকে তিনি দক্ষিণে ডেকে আনতে পারতেন,”। এতে মুদ্রিত মূলের দিকনির্দেশ বজায় থাকবে।",
+      "translation_quote": "দশ হাজার স্বর্গদূতকে তিনি ডাকতে পারতেন কাছে,"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

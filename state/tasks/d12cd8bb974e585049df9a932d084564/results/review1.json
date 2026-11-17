@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "a3f84ea9-8b43-4b78-85b8-83c4f3e298c2",
+    "response_id": "chatcmpl-ElKizdRBfVOuuoBSnJL9PuUXjEJ1Y",
+    "usage": {
+      "completion_tokens": 409,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 88,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2414,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 2411
+      },
+      "total_tokens": 2823
+    }
+  },
+  "received_at": "2026-11-17T22:19:27+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "translation.html, div.poem, নবম স্তবকের প্রথম পঙ্‌ক্তি",
+        "severity": "major",
+        "source_quote": "Because He treasured us, an atonement for our sin",
+        "suggested_fix": "প্রথম পঙ্‌ক্তিটি করুন: “কারণ আমরা ছিলাম তাঁর অতি প্রিয়—আমাদের পাপের প্রায়শ্চিত্ত”। বিদ্যমান <br> ও পরবর্তী পঙ্‌ক্তি অপরিবর্তিত রাখুন।",
+        "translation_quote": "কারণ তিনি আমাদের অতি প্রিয়—আমাদের পাপের প্রায়শ্চিত্ত"
+      },
+      {
+        "location": "translation.html, div.poem, ষষ্ঠ স্তবকের প্রথম পঙ্‌ক্তি",
+        "severity": "minor",
+        "source_quote": "Ten thousand angels, He could have summoned south,",
+        "suggested_fix": "পঙ্‌ক্তিটি করুন: “দশ হাজার স্বর্গদূতকে তিনি দক্ষিণে ডেকে আনতে পারতেন,”। এতে মুদ্রিত মূলের দিকনির্দেশ বজায় থাকবে।",
+        "translation_quote": "দশ হাজার স্বর্গদূতকে তিনি ডাকতে পারতেন কাছে,"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 93
+  }
+}
