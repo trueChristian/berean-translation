@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "292df863be8344d39b09e1383ca5ee6f",
   "campaign": "auto-185ae477d6746e40704a1d169aa3c09424bafbc3f1d3ecd2bcae777d640eb527",
   "created_at": "2026-11-17T02:30:20+00:00",
   "events": [
@@ -68,32 +67,103 @@
         },
         "total_tokens": 11283
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1042,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7377,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 6274,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 8419
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; a recovery continuation must pass admission",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "Opening paragraph; quotation referring to Psalms",
+      "location": "Opening paragraph, quote attributed to the Irish Presbyterian Church",
       "severity": "major",
-      "source_quote": "“When the Lord turned again the captivity of Zion, we were like them that dream.”",
-      "suggested_fix": "Replace “Toe die Here die lot van Sion verander het” with “Toe die Here die lot van Sion as gevangenes verander het” or another Afrikaans rendering that preserves the meaning of captivity being restored.",
-      "translation_quote": "“Toe die Here die lot van Sion verander het, was ons soos mense wat droom.”"
+      "source_quote": "“Perhaps you say it’s a sort of religious hysteria. So did some of us when we first heard of the Revival.”",
+      "suggested_fix": "“Miskien sê julle dit is ’n soort godsdienstige histerie. Sommige van ons het dit ook gedink toe ons die eerste keer van die Herlewing gehoor het.”",
+      "translation_quote": "“Miskien sê julle dit is 'n soort godsdienstige histerie. Sommige van ons het dit ook gedink toe ons die eerste keer van die Herlewing gehoor het.”"
     },
     {
-      "location": "“AS DAAR GEEN HERLEWING IS NIE,” first paragraph",
+      "location": "Opening paragraph, quotation from the Irish Presbyterian report",
       "severity": "major",
-      "source_quote": "“If no revival, then hell will be enlarged. ‘Therefore hell hath enlarged herself, and opened her mouth without measure.’”",
-      "suggested_fix": "Use “hel” rather than “doderyk” in the heading sentence and quoted sentence, for example: “As daar geen herlewing is nie, sal die hel vergroot word. ‘Daarom het die hel haarself vergroot en haar mond onmeetlik wyd oopgemaak.’”",
-      "translation_quote": "“As daar geen herlewing is nie, sal die doderyk vergroot word. ‘Daarom het die doderyk hom wyd oopgemaak en sy mond onmeetlik groot oopgesper.’”"
+      "source_quote": "“...everyone who has seen and heard what we have, every day last week, it is certain there is only one explanation—that it is God’s Holy Spirit manifesting Himself...”",
+      "suggested_fix": "“...elkeen wat gesien en gehoor het wat ons die afgelope week elke dag gesien en gehoor het, is seker dat daar net een verklaring is—dat God se Heilige Gees Homself openbaar...”",
+      "translation_quote": "“...is dit seker dat elkeen wat gesien en gehoor het wat ons die afgelope week elke dag gesien en gehoor het, net een verklaring kan gee—dat dit die Heilige Gees van God is wat Homself openbaar...”"
     },
     {
-      "location": "“AS DAAR GEEN HERLEWING IS NIE,” first paragraph, final two sentences",
+      "location": "Opening paragraph, closing prayer",
       "severity": "major",
-      "source_quote": "“hell yawning and swallowing multiplied millions of souls that will be damned forever” / “When the Church does not have revival hell enlarges.”",
-      "suggested_fix": "Replace “doderyk” with “hel” in both places to preserve the source’s reference to hell and eternal damnation.",
-      "translation_quote": "“die doderyk gaap en sluk miljoene siele in wat vir ewig verdoem sal wees” / “Wanneer die Kerk nie herlewing het nie, vergroot die doderyk.”"
+      "source_quote": "“Oh Lord! turn back our captivity and grant us revival.”",
+      "suggested_fix": "“O Here! bring ons lot om en skenk ons herlewing.”",
+      "translation_quote": "“O Here! keer ons lot om en skenk ons herlewing.”"
+    },
+    {
+      "location": "“REVIVAL OR DEATH,” first paragraph",
+      "severity": "major",
+      "source_quote": "“...tears for our lack of desire and desperation for God.”",
+      "suggested_fix": "“Laat ons, in die lig van die ewigheid, huil oor ons gebrek aan begeerte en ons gebrek aan desperaatheid vir God.”",
+      "translation_quote": "“Laat ons, in die lig van die ewigheid, trane hê oor ons gebrek aan begeerte na en wanhoop om God te vind.”"
+    },
+    {
+      "location": "“REVIVAL OR DEATH,” Evan Roberts paragraph, Mario Murillo quote",
+      "severity": "major",
+      "source_quote": "“No program is sacred, no worthy project is worth enough. None of the ointment can be spared.”",
+      "suggested_fix": "“Geen program is heilig nie, geen lofwaardige projek is genoeg werd nie. Geen salf kan gespaar word nie.”",
+      "translation_quote": "“Geen program is heilig nie, geen lofwaardige projek is belangrik genoeg nie. Ons kan nie enige van die salf spaar nie.”"
+    },
+    {
+      "location": "“REVIVAL OR DEATH,” Evan Roberts paragraph, Winkie Pratney quote",
+      "severity": "major",
+      "source_quote": "“Our concern is conciliatory...”",
+      "suggested_fix": "“Ons besorgdheid is toegeeflik...”",
+      "translation_quote": "“Ons besorgdheid is versoenend...”"
+    },
+    {
+      "location": "“IF NO REVIVAL,” opening paragraph",
+      "severity": "major",
+      "source_quote": "“...the result of the nation of Israel not having repentance towards God.”",
+      "suggested_fix": "“...die gevolg daarvan dat die volk Israel nie tot bekering teenoor God gekom het nie.”",
+      "translation_quote": "“...die feit dat die volk Israel nie tot God bekeer het nie.”"
+    },
+    {
+      "location": "“IF NO REVIVAL,” paragraph on the Word being despised",
+      "severity": "major",
+      "source_quote": "“...we are anxious to see God’s name vindicated and His glory manifested.”",
+      "suggested_fix": "“...ons daarna verlang om te sien dat God se Naam in sy reg herstel en sy heerlikheid geopenbaar word.”",
+      "translation_quote": "“...ons daarna verlang om te sien dat God se Naam geregverdig en sy heerlikheid geopenbaar word.”"
+    },
+    {
+      "location": "“IF NO REVIVAL,” Andrew Bonar quotation",
+      "severity": "major",
+      "source_quote": "“...and gives them new fervor and compassion, and zeal, new light and life...”",
+      "suggested_fix": "“...en gee hulle nuwe ywer en ontferming, nuwe ywer, nuwe lig en lewe...”",
+      "translation_quote": "“...en gee hulle nuwe ywer en ontferming, nuwe vuur, nuwe lig en lewe...”"
+    },
+    {
+      "location": "“LOSS OF REPUTATION,” Gilbert Tennet quotation",
+      "severity": "major",
+      "source_quote": "“They often strengthened the hands of the wicked by promising them life.”",
+      "suggested_fix": "“Hulle het dikwels die goddeloses aangemoedig deur hulle die lewe te belowe.”",
+      "translation_quote": "“Hulle het dikwels die hande van die goddeloses versterk deur hulle die lewe te belowe.”"
     }
   ],
+  "finished_at": "2026-11-17T10:18:48+00:00",
   "id": "be5965efb4aceae5e4b56081292987e5",
   "issue_id": "14962b7b-2d94-5b43-a4c6-bbb78f074d1a",
   "language": "afr",
@@ -182,7 +252,7 @@
     }
   },
   "protected": false,
-  "quality_score": 91,
+  "quality_score": 89,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
@@ -202,7 +272,7 @@
     "total_reserved_usd": 0.089289,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "59c6af529e48a18151a99afd7610829371425facdfe6a9b50a5c2c302acba8b6",
   "translation_model_actual": "gpt-6-luna"
