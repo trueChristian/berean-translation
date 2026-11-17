@@ -5,10 +5,31 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "b15e3fe9a839467c868ae9ac73c65b34",
   "campaign": "auto-ef1c2715043fee635115c50b96d099797362f55dec47f700b9d0be176d5b1088",
   "created_at": "2026-11-14T23:30:15+00:00",
-  "events": [],
+  "events": [
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "correct",
+      "usage": {
+        "completion_tokens": 3317,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 45,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7569,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 7566,
+          "cached_tokens": 0
+        },
+        "total_tokens": 10886
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
   "findings": [
     {
       "location": "HTML, parágrafo sobre o acidente ferroviário",
@@ -117,7 +138,7 @@
   "review_attempts": 0,
   "review_model": "gpt-6.1-sol",
   "source_snapshot": "state/sources/392e29d7ab3a4b5f37672fe4d49e2af1f3f480a0dd0aa93781ead79a48d2a559.json",
-  "stage": "correct",
+  "stage": "review2",
   "stage_budget": {
     "initial_stage": "correct",
     "max_candidate_bytes": 120000,
@@ -129,8 +150,8 @@
     "total_reserved_usd": 0.580197,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "24f89250b05cd303e73c3df869edd19f173aa57a9d0a95bd0580196d7fe3e789",
-  "translation_model_actual": "gpt-6-luna"
+  "translation_model_actual": "gpt-6.1-sol"
 }
