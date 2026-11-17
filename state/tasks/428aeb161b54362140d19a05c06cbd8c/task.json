@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "cff2c4be9b504acabd6bcdc1d94796cb",
   "campaign": "auto-8a8ec1cfbd811774e7f46f29043fe74f98e10eebc4020f76f11329b250fd21e6",
   "created_at": "2026-11-16T12:54:58+00:00",
   "events": [
@@ -68,32 +67,39 @@
         },
         "total_tokens": 10955
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 822,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 695,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7349,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 7346,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8171
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "First paragraph",
-      "severity": "major",
-      "source_quote": "“I have seen a strange thing under the sun: professors preaching ‘continue in sin’ from the pulpit.”",
-      "suggested_fix": "«Я видел странное под солнцем: люди, исповедующие христианскую веру, проповедуют с кафедры: „продолжайте грешить“»",
-      "translation_quote": "«Я видел странное под солнцем: проповедники с кафедры говорят: „продолжайте грешить“»"
-    },
-    {
-      "location": "First paragraph",
+      "location": "«ЕСЛИ НЕ БУДЕТ ПРОБУЖДЕНИЯ», абзац 2",
       "severity": "minor",
-      "source_quote": "“false doctrines, false cults, and false prophets”",
-      "suggested_fix": "«ложные учения, лжеучения и лжепророки»",
-      "translation_quote": "«ложные учения, лжецеркви и лжепророки»"
-    },
-    {
-      "location": "First paragraph",
-      "severity": "minor",
-      "source_quote": "“a holy and healthy desperation for the presence and power of Christ in His church”",
-      "suggested_fix": "«святого и здорового отчаяния по присутствию и силе Христа в Его Церкви»",
-      "translation_quote": "«святого и праведного отчаяния по присутствию и силе Христа в Его Церкви»"
+      "source_quote": "Men will begin to draw sin “with a cart”",
+      "suggested_fix": "Люди начнут «влечь грех как бы на телеге»",
+      "translation_quote": "Люди начнут «влечь беззаконие как бы веревками»"
     }
   ],
+  "finished_at": "2026-11-17T13:27:50+00:00",
   "id": "428aeb161b54362140d19a05c06cbd8c",
   "issue_id": "14962b7b-2d94-5b43-a4c6-bbb78f074d1a",
   "language": "rus",
@@ -182,7 +188,7 @@
     }
   },
   "protected": false,
-  "quality_score": 92,
+  "quality_score": 97,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
@@ -202,7 +208,7 @@
     "total_reserved_usd": 0.089286,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "59c6af529e48a18151a99afd7610829371425facdfe6a9b50a5c2c302acba8b6",
   "translation_model_actual": "gpt-6-luna"

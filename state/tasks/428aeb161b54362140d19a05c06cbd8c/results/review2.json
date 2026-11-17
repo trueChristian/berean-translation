@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "206e3f3e-e81d-4cb7-93d4-ccc5e60ac592",
+    "response_id": "chatcmpl-ElDP87lladZmrpXc4IJ8EHPZvBngk",
+    "usage": {
+      "completion_tokens": 822,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 695,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7349,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7346,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8171
+    }
+  },
+  "received_at": "2026-11-17T13:27:50+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "«ЕСЛИ НЕ БУДЕТ ПРОБУЖДЕНИЯ», абзац 2",
+        "severity": "minor",
+        "source_quote": "Men will begin to draw sin “with a cart”",
+        "suggested_fix": "Люди начнут «влечь грех как бы на телеге»",
+        "translation_quote": "Люди начнут «влечь беззаконие как бы веревками»"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 97
+  }
+}
