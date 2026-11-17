@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Article body, opening paragraph",
+      "severity": "major",
+      "source_quote": "“I have seen a strange thing under the sun: professors preaching ‘continue in sin’ from the pulpit.”",
+      "suggested_fix": "Byt ”predikanter” mot ”bekännande kristna” (eller en motsvarande formulering som avser dem som bekänner sig till tron), så att påståendet inte begränsas till predikanter.",
+      "translation_quote": "”Jag har sett något märkligt under solen: predikanter som från predikstolen förkunnar ’fortsätt att synda’.”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

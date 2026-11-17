@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "d5e5690a-a8de-4171-97b0-cfe5a0a3d83a",
+    "response_id": "chatcmpl-ElEDKwVKUxg2D2NREyfqXZPV995fJ",
+    "usage": {
+      "completion_tokens": 774,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 610,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7199,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6096,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 7973
+    }
+  },
+  "received_at": "2026-11-17T19:46:05+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Article body, opening paragraph",
+        "severity": "major",
+        "source_quote": "“I have seen a strange thing under the sun: professors preaching ‘continue in sin’ from the pulpit.”",
+        "suggested_fix": "Byt ”predikanter” mot ”bekännande kristna” (eller en motsvarande formulering som avser dem som bekänner sig till tron), så att påståendet inte begränsas till predikanter.",
+        "translation_quote": "”Jag har sett något märkligt under solen: predikanter som från predikstolen förkunnar ’fortsätt att synda’.”"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 94
+  }
+}

@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "12518c15033647ee8de76a3c5b39ce55",
   "campaign": "auto-9b59bbab4a26bcf9116a0e6c542c771325150149b606c48c8f06d704b6431dd9",
   "created_at": "2026-11-17T10:21:47+00:00",
   "events": [
@@ -28,10 +27,38 @@
         },
         "total_tokens": 6845
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 774,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 610,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7199,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 6096,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 7973
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "Article body, opening paragraph",
+      "severity": "major",
+      "source_quote": "“I have seen a strange thing under the sun: professors preaching ‘continue in sin’ from the pulpit.”",
+      "suggested_fix": "Byt ”predikanter” mot ”bekännande kristna” (eller en motsvarande formulering som avser dem som bekänner sig till tron), så att påståendet inte begränsas till predikanter.",
+      "translation_quote": "”Jag har sett något märkligt under solen: predikanter som från predikstolen förkunnar ’fortsätt att synda’.”"
+    }
+  ],
   "id": "b33d589b320cf327adc47301a35c8418",
   "issue_id": "14962b7b-2d94-5b43-a4c6-bbb78f074d1a",
   "language": "swe",
@@ -120,11 +147,13 @@
     }
   },
   "protected": false,
+  "quality_score": 94,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/b8e84c6ac2371f97ffbabe7b6084751e2c3708d2cb234f7339f556b830577afa.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "translate",
     "max_candidate_bytes": 120000,
@@ -138,7 +167,7 @@
     "total_reserved_usd": 0.089286,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "59c6af529e48a18151a99afd7610829371425facdfe6a9b50a5c2c302acba8b6",
   "translation_model_actual": "gpt-6-luna"
