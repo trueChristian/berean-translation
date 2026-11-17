@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-17T10:18:44+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Bagian “KEBANGUNAN ROHANI ATAU KEMATIAN,” kutipan Michael Brown\",\"severity\":\"major\",\"source_quote\":\"“revival or continued backsliding”\",\"suggested_fix\":\"Ganti “kebangunan rohani atau terus-menerus murtad” dengan “kebangunan rohani atau terus mengalami kemunduran rohani” agar tidak menyiratkan kemurtadan penuh.\",\"translation_quote\":\"“kebangunan rohani atau terus-menerus murtad”\"}],\"findings_complete\":true,\"passed\":false,\"score\":94}",
+    "content_bytes": 480,
+    "content_evidence_truncated": false,
+    "content_sha256": "0994df18b0d1f60c8b0c9d93838bdc78c7ef925e078b0dd722471c46c0da5318",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 931,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 784,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7357,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6254,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 8288
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

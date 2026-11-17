@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "50f21fee-4e7c-495b-8dab-c8ffe16de8d8",
+    "response_id": "chatcmpl-El5KBwdflL6wyL8XDAfZPuidMYMBS",
+    "usage": {
+      "completion_tokens": 931,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 784,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7357,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6254,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 8288
+    }
+  },
+  "received_at": "2026-11-17T10:18:44+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Bagian “KEBANGUNAN ROHANI ATAU KEMATIAN,” kutipan Michael Brown",
+        "severity": "major",
+        "source_quote": "“revival or continued backsliding”",
+        "suggested_fix": "Ganti “kebangunan rohani atau terus-menerus murtad” dengan “kebangunan rohani atau terus mengalami kemunduran rohani” agar tidak menyiratkan kemurtadan penuh.",
+        "translation_quote": "“kebangunan rohani atau terus-menerus murtad”"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 94
+  }
+}

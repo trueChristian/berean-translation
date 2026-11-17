@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Bagian “KEBANGUNAN ROHANI ATAU KEMATIAN,” kutipan Michael Brown",
+      "severity": "major",
+      "source_quote": "“revival or continued backsliding”",
+      "suggested_fix": "Ganti “kebangunan rohani atau terus-menerus murtad” dengan “kebangunan rohani atau terus mengalami kemunduran rohani” agar tidak menyiratkan kemurtadan penuh.",
+      "translation_quote": "“kebangunan rohani atau terus-menerus murtad”"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; a recovery continuation must pass admission",
+  "stage": "terminal"
+}
