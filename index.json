@@ -86463,6 +86463,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/rus/articles/572ec209-1870-46a2-ba99-bc6121777d7c.html",
+      "html_sha256": "8c3db2a89894a39d354ce4015f21f85991dbf51d2618ecadcf52c2dfe5be6a42",
+      "human_reviewed": false,
+      "id": "572ec209-1870-46a2-ba99-bc6121777d7c",
+      "images": [
+        {
+          "alt": "Большое дерево с густой листвой у зелёного поля под голубым небом",
+          "public_path": "/images/articles/572ec209-1870-46a2-ba99-bc6121777d7c-1.jpg"
+        }
+      ],
+      "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
+      "language": "rus",
+      "language_tag": "ru",
+      "metadata": "content/rus/articles/572ec209-1870-46a2-ba99-bc6121777d7c.json",
+      "metadata_sha256": "9942560ecceafb8745aec14f79c72e9e4771e9cf6cfdeeba91aad4fb26c018c0",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "Стихотворение",
+      "source_revision": "a069ecca8827634ebc256b3b1cabc16aeb942ed7",
+      "source_translation_key": "e63d8dd4523e81f116e7e26485a04e311cbbba9cab0a4c2e771c80f06b38cb0c",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Страдающий Спаситель",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/rus/articles/58d3859b-42f6-4cf1-80e6-fa847d9dc4a4.html",
       "html_sha256": "afc088c114d43f351e3ef8e9c007df46b560396675e8c69ac750ae813e5455a5",
       "human_reviewed": false,
