@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-17T02:27:51+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"translation.html — paragraphe citant Colossiens 3:16\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"Colossians also tells us that we should … Let the word of Christ dwell in you richly\",\n      \"suggested_fix\": \"Remplacer « L’épître aux Colossiens nous dit également que nous devons » par « L’épître aux Colossiens nous dit également : » avant la citation, en conservant la balise <em>.\",\n      \"translation_quote\": \"L’épître aux Colossiens nous dit également que nous devons <em>Que la parole de Christ habite en vous avec abondance\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": true,\n  \"score\": 98\n}",
+    "content_bytes": 678,
+    "content_evidence_truncated": false,
+    "content_sha256": "2d65a36fa3081b76ce373ddb0fc6404650f505d7f867ab9dec676178ba91780d",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 266,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 77,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6317,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5214,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 6583
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}

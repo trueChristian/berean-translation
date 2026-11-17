@@ -36056,6 +36056,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/fra/articles/86459f54-72b0-4be2-a101-02b3c9462f6c.html",
+      "html_sha256": "f2548b980a9ff342c82cecce73fc60d7e23afcdfb8b3c00182e4b7b1f7281ad6",
+      "human_reviewed": false,
+      "id": "86459f54-72b0-4be2-a101-02b3c9462f6c",
+      "images": [
+        {
+          "alt": "Touches de piano à côté d’une partition ouverte",
+          "public_path": "/images/articles/86459f54-72b0-4be2-a101-02b3c9462f6c-1.jpg"
+        }
+      ],
+      "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
+      "language": "fra",
+      "language_tag": "fr",
+      "metadata": "content/fra/articles/86459f54-72b0-4be2-a101-02b3c9462f6c.json",
+      "metadata_sha256": "f26efef6c4ac62b297da0ae01d19a3e91af4f46e2c24bd94a062729d0b5d5b19",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "INSPIRATIONS POUR LES JEUNES",
+      "source_revision": "a069ecca8827634ebc256b3b1cabc16aeb942ed7",
+      "source_translation_key": "65790b7f3f0557bbd4601849b5efe70a6391326d0f3933cef69b6e6d8bb48d72",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Qu’y a-t-il de juste dans ma musique ?",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/fra/articles/8a3dfa09-f40f-4615-8f83-59a8fccb1a2f.html",
       "html_sha256": "02b54d6ba49a4ab88320dc3896a08320491a6d615d3d35d333c10bcd5b4fa0e1",
       "human_reviewed": false,
