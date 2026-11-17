@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "e2a50a956e1a4050adee4e0d098910b9",
   "campaign": "auto-185ae477d6746e40704a1d169aa3c09424bafbc3f1d3ecd2bcae777d640eb527",
   "created_at": "2026-11-17T02:30:20+00:00",
   "events": [
@@ -28,10 +27,52 @@
         },
         "total_tokens": 7064
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1248,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 799,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7383,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 6280,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 8631
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "Opening paragraph; quotation referring to Psalms",
+      "severity": "major",
+      "source_quote": "“When the Lord turned again the captivity of Zion, we were like them that dream.”",
+      "suggested_fix": "Replace “Toe die Here die lot van Sion verander het” with “Toe die Here die lot van Sion as gevangenes verander het” or another Afrikaans rendering that preserves the meaning of captivity being restored.",
+      "translation_quote": "“Toe die Here die lot van Sion verander het, was ons soos mense wat droom.”"
+    },
+    {
+      "location": "“AS DAAR GEEN HERLEWING IS NIE,” first paragraph",
+      "severity": "major",
+      "source_quote": "“If no revival, then hell will be enlarged. ‘Therefore hell hath enlarged herself, and opened her mouth without measure.’”",
+      "suggested_fix": "Use “hel” rather than “doderyk” in the heading sentence and quoted sentence, for example: “As daar geen herlewing is nie, sal die hel vergroot word. ‘Daarom het die hel haarself vergroot en haar mond onmeetlik wyd oopgemaak.’”",
+      "translation_quote": "“As daar geen herlewing is nie, sal die doderyk vergroot word. ‘Daarom het die doderyk hom wyd oopgemaak en sy mond onmeetlik groot oopgesper.’”"
+    },
+    {
+      "location": "“AS DAAR GEEN HERLEWING IS NIE,” first paragraph, final two sentences",
+      "severity": "major",
+      "source_quote": "“hell yawning and swallowing multiplied millions of souls that will be damned forever” / “When the Church does not have revival hell enlarges.”",
+      "suggested_fix": "Replace “doderyk” with “hel” in both places to preserve the source’s reference to hell and eternal damnation.",
+      "translation_quote": "“die doderyk gaap en sluk miljoene siele in wat vir ewig verdoem sal wees” / “Wanneer die Kerk nie herlewing het nie, vergroot die doderyk.”"
+    }
+  ],
   "id": "be5965efb4aceae5e4b56081292987e5",
   "issue_id": "14962b7b-2d94-5b43-a4c6-bbb78f074d1a",
   "language": "afr",
@@ -120,11 +161,13 @@
     }
   },
   "protected": false,
+  "quality_score": 91,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/b8e84c6ac2371f97ffbabe7b6084751e2c3708d2cb234f7339f556b830577afa.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "translate",
     "max_candidate_bytes": 120000,
@@ -138,7 +181,7 @@
     "total_reserved_usd": 0.089289,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "59c6af529e48a18151a99afd7610829371425facdfe6a9b50a5c2c302acba8b6",
   "translation_model_actual": "gpt-6-luna"

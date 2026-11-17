@@ -1,0 +1,52 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "0b5ffe08-c65d-4177-b4af-8cbb971fd819",
+    "response_id": "chatcmpl-El4qjRpvvbjs1Del7tYQYF6mdQomn",
+    "usage": {
+      "completion_tokens": 1248,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 799,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7383,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6280,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 8631
+    }
+  },
+  "received_at": "2026-11-17T04:19:29+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Opening paragraph; quotation referring to Psalms",
+        "severity": "major",
+        "source_quote": "“When the Lord turned again the captivity of Zion, we were like them that dream.”",
+        "suggested_fix": "Replace “Toe die Here die lot van Sion verander het” with “Toe die Here die lot van Sion as gevangenes verander het” or another Afrikaans rendering that preserves the meaning of captivity being restored.",
+        "translation_quote": "“Toe die Here die lot van Sion verander het, was ons soos mense wat droom.”"
+      },
+      {
+        "location": "“AS DAAR GEEN HERLEWING IS NIE,” first paragraph",
+        "severity": "major",
+        "source_quote": "“If no revival, then hell will be enlarged. ‘Therefore hell hath enlarged herself, and opened her mouth without measure.’”",
+        "suggested_fix": "Use “hel” rather than “doderyk” in the heading sentence and quoted sentence, for example: “As daar geen herlewing is nie, sal die hel vergroot word. ‘Daarom het die hel haarself vergroot en haar mond onmeetlik wyd oopgemaak.’”",
+        "translation_quote": "“As daar geen herlewing is nie, sal die doderyk vergroot word. ‘Daarom het die doderyk hom wyd oopgemaak en sy mond onmeetlik groot oopgesper.’”"
+      },
+      {
+        "location": "“AS DAAR GEEN HERLEWING IS NIE,” first paragraph, final two sentences",
+        "severity": "major",
+        "source_quote": "“hell yawning and swallowing multiplied millions of souls that will be damned forever” / “When the Church does not have revival hell enlarges.”",
+        "suggested_fix": "Replace “doderyk” with “hel” in both places to preserve the source’s reference to hell and eternal damnation.",
+        "translation_quote": "“die doderyk gaap en sluk miljoene siele in wat vir ewig verdoem sal wees” / “Wanneer die Kerk nie herlewing het nie, vergroot die doderyk.”"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 91
+  }
+}
