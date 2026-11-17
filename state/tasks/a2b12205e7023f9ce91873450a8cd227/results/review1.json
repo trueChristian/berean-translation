@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "1be349b7-8a73-4330-aa43-597a867fd04a",
+    "response_id": "chatcmpl-ElEbZLzIOebhwiJTtteJ4Dmm3Yuav",
+    "usage": {
+      "completion_tokens": 1047,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 838,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 11404,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 11401,
+        "cached_tokens": 0
+      },
+      "total_tokens": 12451
+    }
+  },
+  "received_at": "2026-11-17T19:45:41+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "भजन संहिता 24 का उद्धरण",
+        "severity": "major",
+        "source_quote": "“He shall receive the blessing [not a blessing, but the blessing] from the Lord”",
+        "suggested_fix": "“वह यहोवा से आशीष पाएगा [एक आशीष नहीं, बल्कि वह आशीष]”",
+        "translation_quote": "“वह यहोवा से आशीष पाएगा [कोई आशीष नहीं, बल्कि वही आशीष]”"
+      },
+      {
+        "location": "“This is Holy Ghost conviction!” वाला अनुच्छेद",
+        "severity": "major",
+        "source_quote": "“This is Holy Ghost conviction!”",
+        "suggested_fix": "“यह पवित्र आत्मा द्वारा पाप का बोध कराया जाना है!”",
+        "translation_quote": "“यह पवित्र आत्मा का अपराध-बोध है!”"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 91
+  }
+}
