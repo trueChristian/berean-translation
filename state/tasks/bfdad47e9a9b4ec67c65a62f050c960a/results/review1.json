@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "8eb11318-5b34-4e85-97a9-e398745c887f",
+    "response_id": "chatcmpl-ElE9ziFJ2U9IbBTufntgEh2KlpmKa",
+    "usage": {
+      "completion_tokens": 1132,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 887,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7129,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7126,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8261
+    }
+  },
+  "received_at": "2026-11-17T19:45:53+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "IF NO REVIVAL, paragraph beginning “If no revival, then the Word will be despised”",
+        "severity": "minor",
+        "source_quote": "“Does it grieve you my friends, that the name of God is being taken in vain and desecrated?”",
+        "suggested_fix": "«Sørger det dere, mine venner, at Guds navn blir misbrukt og vanhelliget?»",
+        "translation_quote": "«Gjør det dere, mine venner, sorg at Guds navn blir misbrukt og vanhelliget?»"
+      },
+      {
+        "location": "IF NO REVIVAL, same paragraph, Martyn-Lloyd Jones quotation",
+        "severity": "minor",
+        "source_quote": "“we are anxious to see God’s name vindicated and His glory manifested.”",
+        "suggested_fix": "«vi lengter etter å se Guds navn bli rettferdiggjort og hans herlighet åpenbart.»",
+        "translation_quote": "«vi lengter etter å se Guds navn bli oppreist og hans herlighet åpenbart.»"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 96
+  }
+}

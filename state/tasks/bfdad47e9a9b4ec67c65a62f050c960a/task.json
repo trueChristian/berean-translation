@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "99b766a68fd4480cb67c1a8c4d4644f6",
   "campaign": "auto-307af40ec6ca416645e0f5a67d50167862076309d3e68e07886b85bd40068c25",
   "created_at": "2026-11-17T13:13:12+00:00",
   "events": [
@@ -28,10 +27,46 @@
         },
         "total_tokens": 6775
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1132,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 887,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7129,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 7126,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8261
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "IF NO REVIVAL, paragraph beginning “If no revival, then the Word will be despised”",
+      "severity": "minor",
+      "source_quote": "“Does it grieve you my friends, that the name of God is being taken in vain and desecrated?”",
+      "suggested_fix": "«Sørger det dere, mine venner, at Guds navn blir misbrukt og vanhelliget?»",
+      "translation_quote": "«Gjør det dere, mine venner, sorg at Guds navn blir misbrukt og vanhelliget?»"
+    },
+    {
+      "location": "IF NO REVIVAL, same paragraph, Martyn-Lloyd Jones quotation",
+      "severity": "minor",
+      "source_quote": "“we are anxious to see God’s name vindicated and His glory manifested.”",
+      "suggested_fix": "«vi lengter etter å se Guds navn bli rettferdiggjort og hans herlighet åpenbart.»",
+      "translation_quote": "«vi lengter etter å se Guds navn bli oppreist og hans herlighet åpenbart.»"
+    }
+  ],
+  "finished_at": "2026-11-17T19:45:53+00:00",
   "id": "bfdad47e9a9b4ec67c65a62f050c960a",
   "issue_id": "14962b7b-2d94-5b43-a4c6-bbb78f074d1a",
   "language": "nob",
@@ -120,9 +155,11 @@
     }
   },
   "protected": false,
+  "quality_score": 96,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/b8e84c6ac2371f97ffbabe7b6084751e2c3708d2cb234f7339f556b830577afa.json",
   "stage": "review1",
   "stage_budget": {
@@ -138,7 +175,7 @@
     "total_reserved_usd": 0.089295,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "59c6af529e48a18151a99afd7610829371425facdfe6a9b50a5c2c302acba8b6",
   "translation_model_actual": "gpt-6-luna"

@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "IF NO REVIVAL, paragraph beginning “If no revival, then the Word will be despised”",
+      "severity": "minor",
+      "source_quote": "“Does it grieve you my friends, that the name of God is being taken in vain and desecrated?”",
+      "suggested_fix": "«Sørger det dere, mine venner, at Guds navn blir misbrukt og vanhelliget?»",
+      "translation_quote": "«Gjør det dere, mine venner, sorg at Guds navn blir misbrukt og vanhelliget?»"
+    },
+    {
+      "location": "IF NO REVIVAL, same paragraph, Martyn-Lloyd Jones quotation",
+      "severity": "minor",
+      "source_quote": "“we are anxious to see God’s name vindicated and His glory manifested.”",
+      "suggested_fix": "«vi lengter etter å se Guds navn bli rettferdiggjort og hans herlighet åpenbart.»",
+      "translation_quote": "«vi lengter etter å se Guds navn bli oppreist og hans herlighet åpenbart.»"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

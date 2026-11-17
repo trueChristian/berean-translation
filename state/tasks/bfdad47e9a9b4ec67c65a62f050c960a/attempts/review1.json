@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-17T19:45:53+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"IF NO REVIVAL, paragraph beginning “If no revival, then the Word will be despised”\",\"severity\":\"minor\",\"source_quote\":\"“Does it grieve you my friends, that the name of God is being taken in vain and desecrated?”\",\"suggested_fix\":\"«Sørger det dere, mine venner, at Guds navn blir misbrukt og vanhelliget?»\",\"translation_quote\":\"«Gjør det dere, mine venner, sorg at Guds navn blir misbrukt og vanhelliget?»\"},{\"location\":\"IF NO REVIVAL, same paragraph, Martyn-Lloyd Jones quotation\",\"severity\":\"minor\",\"source_quote\":\"“we are anxious to see God’s name vindicated and His glory manifested.”\",\"suggested_fix\":\"«vi lengter etter å se Guds navn bli rettferdiggjort og hans herlighet åpenbart.»\",\"translation_quote\":\"«vi lengter etter å se Guds navn bli oppreist og hans herlighet åpenbart.»\"}],\"findings_complete\":true,\"passed\":true,\"score\":96}",
+    "content_bytes": 892,
+    "content_evidence_truncated": false,
+    "content_sha256": "5fc9166a03aa62296cb963fd2da97d5350f89662bfce536d20310bad9bfaf61d",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1132,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 887,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7129,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7126,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8261
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}
