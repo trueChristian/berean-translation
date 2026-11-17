@@ -1,0 +1,108 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "afa523f3-1e36-4321-a89b-f203149d889b",
+    "response_id": "chatcmpl-Ekz6Q5zcH1aIvC6XaBPOtDPwI9Qgc",
+    "usage": {
+      "completion_tokens": 1497,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 76,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 10756,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9653,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 12253
+    }
+  },
+  "received_at": "2026-11-17T02:28:18+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "html, 첫 번째 문단",
+        "severity": "major",
+        "source_quote": "Most, if not all, God-fearing Christians",
+        "suggested_fix": "“경건을 두려워하는 대부분의 그리스도인들은”을 “전부는 아니더라도 하나님을 경외하는 대부분의 그리스도인들은”으로 수정하십시오.",
+        "translation_quote": "경건을 두려워하는 대부분의 그리스도인들은"
+      },
+      {
+        "location": "html, 요한복음 3:20 인용",
+        "severity": "major",
+        "source_quote": "neither cometh to the light, lest his deeds should be reproved",
+        "suggested_fix": "“이는 그 행위가 책망을 받음이라”를 “자기 행위가 책망받을까 함이라”로 수정하십시오.",
+        "translation_quote": "빛으로 오지 아니하나니 이는 그 행위가 책망을 받음이라"
+      },
+      {
+        "location": "html, 갈라디아서 5:24 인용",
+        "severity": "major",
+        "source_quote": "have crucified the flesh with the affections and lusts",
+        "suggested_fix": "“육체의 정욕과 욕심을 함께 십자가에 못 박았느니라”를 “육체를 그 정욕과 욕심과 함께 십자가에 못 박았느니라”로 수정하십시오.",
+        "translation_quote": "육체의 정욕과 욕심을 함께 십자가에 못 박았느니라"
+      },
+      {
+        "location": "html, 식료품점 일화와 바로 다음 아이티 일화",
+        "severity": "major",
+        "source_quote": "we did not cause conviction in her heart. / Light exposes darkness: it brings conviction.",
+        "suggested_fix": "각각 “우리는 그녀가 마음속으로 자신의 죄를 깨닫게 하지 못했습니다”, “빛은 어둠을 드러냅니다: 그것은 죄를 깨닫게 합니다”로 수정하여 죄의 자각과 회개 자체를 구별하십시오.",
+        "translation_quote": "우리는 그녀의 마음에 회개를 일으키지 못했습니다. / 빛은 어둠을 드러냅니다: 그것은 회개를 불러일으킵니다."
+      },
+      {
+        "location": "html, 거듭남의 여러 측면을 설명하는 문단",
+        "severity": "major",
+        "source_quote": "the only way to God through which we must enter and then walk in righteousness",
+        "suggested_fix": "해당 부분을 “우리가 반드시 그 문으로 들어가 그 후 의롭게 행해야 하는, 하나님께 이르는 유일한 길로 보아야 합니다”로 수정하십시오.",
+        "translation_quote": "우리가 들어가 의로 행해야 할 유일한 길로서의 그를 보아야 합니다."
+      },
+      {
+        "location": "html, 뱀의 속임수를 경고하는 문단",
+        "severity": "major",
+        "source_quote": "He wants to be a father to us, to call us His dear children.",
+        "suggested_fix": "“그는 우리를 아버지로 삼아”를 “그는 우리의 아버지가 되어 우리를”로 수정하십시오.",
+        "translation_quote": "그는 우리를 아버지로 삼아 사랑하는 자녀라 부르고자 하십니다."
+      },
+      {
+        "location": "html, 패배한 그리스도인의 삶을 끝내자는 문단",
+        "severity": "major",
+        "source_quote": "Let’s put an end to loving this present evil world!",
+        "suggested_fix": "“이 현 세상을 사랑하는 것을 끝내자!”를 “이 악한 현 세상을 사랑하는 일을 그만둡시다!”로 수정하십시오.",
+        "translation_quote": "이 현 세상을 사랑하는 것을 끝내자!"
+      },
+      {
+        "location": "html, 보화를 산 사람을 설명하는 문단 마지막 문장",
+        "severity": "minor",
+        "source_quote": "His love for it cannot be denied.",
+        "suggested_fix": "“그가 그것을 향한 사랑은”을 “그가 그것에 품은 사랑은”으로 수정하십시오.",
+        "translation_quote": "그가 그것을 향한 사랑은 부인할 수 없습니다."
+      },
+      {
+        "location": "html, 요한복음 3:4 및 요한계시록 3:20 인용",
+        "severity": "minor",
+        "source_quote": "How can a man be born when he is old? / if any man hear my voice",
+        "suggested_fix": "각각 “어떻게 날 수 있으리니”를 “어떻게 태어날 수 있으리이까”로, “내 목소리를 들고”를 “내 목소리를 듣고”로 수정하십시오.",
+        "translation_quote": "어떻게 날 수 있으리니 / 내 목소리를 들고"
+      },
+      {
+        "location": "html, 거듭남의 여러 측면을 설명하는 문단의 하나님의 이름",
+        "severity": "minor",
+        "source_quote": "The great I AM, THAT I AM",
+        "suggested_fix": "“나는 곧 나는 이신 하나님”을 “‘나는 스스로 있는 자’이신 위대하신 하나님”으로 수정하십시오.",
+        "translation_quote": "나는 곧 나는 이신 하나님"
+      },
+      {
+        "location": "html, 패배한 그리스도인의 삶을 끝내자는 문단 전반",
+        "severity": "minor",
+        "source_quote": "Let’s put an end to this defeated Christian life ... let’s go out and fight",
+        "suggested_fix": "이 문단의 “끝내자”, “나아가자”, “충분하다”, “싸우자”를 각각 “끝냅시다”, “나아갑시다”, “충분합니다”, “싸웁시다”로 바꾸어 본문의 존대 문체를 유지하십시오.",
+        "translation_quote": "끝내자 / 나아가자 / 충분하다 / 싸우자"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 85
+  }
+}
