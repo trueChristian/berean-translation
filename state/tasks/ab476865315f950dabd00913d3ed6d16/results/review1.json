@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "6a058385-9441-4e18-901f-c1259e7e62c0",
+    "response_id": "chatcmpl-El4bd02CrHyN0ihHJ6OCL6w3474U1",
+    "usage": {
+      "completion_tokens": 1135,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 931,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7225,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6122,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 8360
+    }
+  },
+  "received_at": "2026-11-17T04:04:19+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Article opening, Isaiah quotation",
+        "severity": "major",
+        "source_quote": "“they declare their sin as Sodom, they hide it not.”",
+        "suggested_fix": "„Sie tun ihre Sünde kund wie Sodom und verbergen sie nicht.“",
+        "translation_quote": "„Sie rühmen sich ihrer Sünde wie Sodom und verbergen sie nicht.“"
+      },
+      {
+        "location": "IF NO REVIVAL, first paragraph, quotation about hell",
+        "severity": "major",
+        "source_quote": "“Therefore hell hath enlarged herself, and opened her mouth without measure.”",
+        "suggested_fix": "„Darum hat die Hölle sich weit aufgetan und ihren Rachen maßlos aufgesperrt.“",
+        "translation_quote": "„Darum hat die Hölle ihre Seele weit aufgetan und den Rachen aufgesperrt ohne Maß.“"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 92
+  }
+}

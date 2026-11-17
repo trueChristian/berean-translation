@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Article opening, Isaiah quotation",
+      "severity": "major",
+      "source_quote": "“they declare their sin as Sodom, they hide it not.”",
+      "suggested_fix": "„Sie tun ihre Sünde kund wie Sodom und verbergen sie nicht.“",
+      "translation_quote": "„Sie rühmen sich ihrer Sünde wie Sodom und verbergen sie nicht.“"
+    },
+    {
+      "location": "IF NO REVIVAL, first paragraph, quotation about hell",
+      "severity": "major",
+      "source_quote": "“Therefore hell hath enlarged herself, and opened her mouth without measure.”",
+      "suggested_fix": "„Darum hat die Hölle sich weit aufgetan und ihren Rachen maßlos aufgesperrt.“",
+      "translation_quote": "„Darum hat die Hölle ihre Seele weit aufgetan und den Rachen aufgesperrt ohne Maß.“"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
