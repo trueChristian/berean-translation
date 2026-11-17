@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-17T13:11:28+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Article, opening paragraph\",\"severity\":\"major\",\"source_quote\":\"“professors preaching ‘continue in sin’ from the pulpit”\",\"suggested_fix\":\"Replace “maprofesa” with “wanaodai kuwa Wakristo” to convey professing Christians rather than academic professors.\",\"translation_quote\":\"“maprofesa wakihubiri ‘endeleeni kutenda dhambi’ kutoka mimbarini”\"},{\"location\":\"Article, opening paragraph, Mary Warburton Booth quotation\",\"severity\":\"major\",\"source_quote\":\"“set them on fire to win others”\",\"suggested_fix\":\"Replace “ili wawashinde wengine” with “ili wawavute wengine kwa Kristo” or “ili wawashinde wengine kwa Kristo” in the sense of winning souls.\",\"translation_quote\":\"“na kuwasha moto ndani yao ili wawashinde wengine”\"},{\"location\":\"Article, final paragraph, Gilbert Tennet quotation\",\"severity\":\"minor\",\"source_quote\":\"“They comfort people before they convince them”\",\"suggested_fix\":\"Use wording such as “Huwafariji watu kabla hawajawahukumu kwa dhambi zao” to convey the spiritual conviction implied in this preaching context.\",\"translation_quote\":\"“Huwafariji watu kabla hawajawashawishi”\"}],\"findings_complete\":true,\"passed\":false,\"score\":92}",
+    "content_bytes": 1229,
+    "content_evidence_truncated": false,
+    "content_sha256": "73c89a77a43504b6d959a5cf0989613d3eacadae82fccaea14696bad1132f306",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1261,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 968,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7471,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7468,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8732
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}
