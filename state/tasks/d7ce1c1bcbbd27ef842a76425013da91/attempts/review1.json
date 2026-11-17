@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-17T02:27:48+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"translation.html, paragraph beginning «הדרך הישרה והצרה»\",\n      \"severity\": \"major\",\n      \"source_quote\": \"“a life of abstinence” from the vices of sin\",\n      \"suggested_fix\": \"החליפו את ״מחטאי הסגן״ ב״ממידות רעות ומחטאים״.\",\n      \"translation_quote\": \"״חיים של הימנעות״ מחטאי הסגן\"\n    },\n    {\n      \"location\": \"translation.html, definition of asceticism and the following sentence\",\n      \"severity\": \"major\",\n      \"source_quote\": \"by practicing self-denial, self-mortification, and the like. ... Self-denial sings in perfect harmony with the Christian life\",\n      \"suggested_fix\": \"החליפו את ״הכחשה עצמית״ בשני המופעים ב״ויתור עצמי״. הכוונה היא לוויתור על רצונות והנאות, לא להכחשה.\",\n      \"translation_quote\": \"באמצעות הכחשה עצמית, סיגוף עצמי וכדומה. ... הכחשה עצמית מתמזגת בהרמוניה מושלמת עם החיים הנוצריים\"\n    },\n    {\n      \"location\": \"translation.html, Scripture quotation under «…מנהיגי הכנסייה»\",\n      \"severity\": \"major\",\n      \"source_quote\": \"These things speak, and exhort, and rebuke with all authority. Let no man despise thee –Titus 2:15.\",\n      \"suggested_fix\": \"תקנו את הציטוט ל״דבר את הדברים האלה, עודד והוכח בסמכות מלאה. אל תניח לאיש לבוז לך –טיטוס ב׳:15.״ ושמרו על תגי ההדגשה הקיימים.\",\n      \"translation_quote\": \"דבר את הדברים האלה, הוכח והוכח בסמכות מלאה. אל יניח איש לבוז לך –טיטוס ב׳:15.\"\n    },\n    {\n      \"location\": \"translation.html, paragraph under «…בעלים»\",\n      \"severity\": \"major\",\n      \"source_quote\": \"A woman at rest within the confines of her authorities\",\n      \"suggested_fix\": \"החליפו את ״אישה הנחה בתוך גבולות סמכויותיה״ ב״אישה הנחה בתוך הגבולות שמציבים בעלי הסמכות עליה״.\",\n      \"translation_quote\": \"אישה הנחה בתוך גבולות סמכויותיה\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": false,\n  \"score\": 90\n}",
+    "content_bytes": 2343,
+    "content_evidence_truncated": false,
+    "content_sha256": "d50f0fb8e92529c6f71483d563f41cb987b34d1a5ab0ef746a216ebc58e7c0e6",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 681,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 93,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 10004,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8901,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 10685
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}

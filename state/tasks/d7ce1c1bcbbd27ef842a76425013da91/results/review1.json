@@ -1,0 +1,59 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "392a1b64-caee-4296-96b2-255d9099dfc2",
+    "response_id": "chatcmpl-Ekz6rDsFUSipJ6qpN7CsXUkhmlIMf",
+    "usage": {
+      "completion_tokens": 681,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 93,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 10004,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8901,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 10685
+    }
+  },
+  "received_at": "2026-11-17T02:27:48+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "translation.html, paragraph beginning «הדרך הישרה והצרה»",
+        "severity": "major",
+        "source_quote": "“a life of abstinence” from the vices of sin",
+        "suggested_fix": "החליפו את ״מחטאי הסגן״ ב״ממידות רעות ומחטאים״.",
+        "translation_quote": "״חיים של הימנעות״ מחטאי הסגן"
+      },
+      {
+        "location": "translation.html, definition of asceticism and the following sentence",
+        "severity": "major",
+        "source_quote": "by practicing self-denial, self-mortification, and the like. ... Self-denial sings in perfect harmony with the Christian life",
+        "suggested_fix": "החליפו את ״הכחשה עצמית״ בשני המופעים ב״ויתור עצמי״. הכוונה היא לוויתור על רצונות והנאות, לא להכחשה.",
+        "translation_quote": "באמצעות הכחשה עצמית, סיגוף עצמי וכדומה. ... הכחשה עצמית מתמזגת בהרמוניה מושלמת עם החיים הנוצריים"
+      },
+      {
+        "location": "translation.html, Scripture quotation under «…מנהיגי הכנסייה»",
+        "severity": "major",
+        "source_quote": "These things speak, and exhort, and rebuke with all authority. Let no man despise thee –Titus 2:15.",
+        "suggested_fix": "תקנו את הציטוט ל״דבר את הדברים האלה, עודד והוכח בסמכות מלאה. אל תניח לאיש לבוז לך –טיטוס ב׳:15.״ ושמרו על תגי ההדגשה הקיימים.",
+        "translation_quote": "דבר את הדברים האלה, הוכח והוכח בסמכות מלאה. אל יניח איש לבוז לך –טיטוס ב׳:15."
+      },
+      {
+        "location": "translation.html, paragraph under «…בעלים»",
+        "severity": "major",
+        "source_quote": "A woman at rest within the confines of her authorities",
+        "suggested_fix": "החליפו את ״אישה הנחה בתוך גבולות סמכויותיה״ ב״אישה הנחה בתוך הגבולות שמציבים בעלי הסמכות עליה״.",
+        "translation_quote": "אישה הנחה בתוך גבולות סמכויותיה"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 90
+  }
+}
