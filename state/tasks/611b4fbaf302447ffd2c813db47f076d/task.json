@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "669df9a01c2d410cb8859d3a12f942c7",
   "campaign": "auto-7e2dbd55df1824ceb8841a177854e07de0dc0997d0eee5c548a12972c5d7af86",
   "created_at": "2026-11-17T02:32:37+00:00",
   "events": [
@@ -68,18 +67,46 @@
         },
         "total_tokens": 10079
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1014,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 848,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7036,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 7033,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8050
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "IF NO REVIVAL, first paragraph",
-      "severity": "major",
-      "source_quote": "“Therefore hell hath enlarged herself, and opened her mouth without measure.”",
-      "suggested_fix": "Vervang de aanhaling door: ‘Daarom heeft de hel zich wijd geopend en haar mond onmetelijk wijd opengesperd.’",
-      "translation_quote": "‘Daarom heeft het rijk van de dood zich wijd geopend en zijn mond onmetelijk wijd opengesperd.’"
+      "location": "h3 subtitle",
+      "severity": "minor",
+      "source_quote": "A Revival Of Religion In Our Day",
+      "suggested_fix": "Een vurige oproep tot<br>een religieuze herleving in onze tijd",
+      "translation_quote": "een herleving van het geloof in onze tijd"
+    },
+    {
+      "location": "Opening paragraph",
+      "severity": "minor",
+      "source_quote": "professors preaching “continue in sin” from the pulpit",
+      "suggested_fix": "belijdende christenen die vanaf de kansel ‘blijf in zonde’ verkondigen",
+      "translation_quote": "predikers die vanaf de kansel ‘blijf in zonde’ verkondigen"
     }
   ],
+  "finished_at": "2026-11-17T13:27:33+00:00",
   "id": "611b4fbaf302447ffd2c813db47f076d",
   "issue_id": "14962b7b-2d94-5b43-a4c6-bbb78f074d1a",
   "language": "nld",
@@ -168,7 +195,7 @@
     }
   },
   "protected": false,
-  "quality_score": 93,
+  "quality_score": 97,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
@@ -188,7 +215,7 @@
     "total_reserved_usd": 0.089285,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "59c6af529e48a18151a99afd7610829371425facdfe6a9b50a5c2c302acba8b6",
   "translation_model_actual": "gpt-6-luna"

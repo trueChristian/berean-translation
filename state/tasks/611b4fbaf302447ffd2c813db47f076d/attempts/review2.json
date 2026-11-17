@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-17T13:27:33+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"h3 subtitle\",\"severity\":\"minor\",\"source_quote\":\"A Revival Of Religion In Our Day\",\"suggested_fix\":\"Een vurige oproep tot<br>een religieuze herleving in onze tijd\",\"translation_quote\":\"een herleving van het geloof in onze tijd\"},{\"location\":\"Opening paragraph\",\"severity\":\"minor\",\"source_quote\":\"professors preaching “continue in sin” from the pulpit\",\"suggested_fix\":\"belijdende christenen die vanaf de kansel ‘blijf in zonde’ verkondigen\",\"translation_quote\":\"predikers die vanaf de kansel ‘blijf in zonde’ verkondigen\"}],\"findings_complete\":true,\"passed\":true,\"score\":97}",
+    "content_bytes": 611,
+    "content_evidence_truncated": false,
+    "content_sha256": "fc8020fb82a5ae09e4f852d0e21b099457902c01ea5011d3e1464f7ed75c44a6",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1014,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 848,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7036,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7033,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8050
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

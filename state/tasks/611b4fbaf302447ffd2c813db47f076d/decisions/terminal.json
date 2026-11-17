@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "h3 subtitle",
+      "severity": "minor",
+      "source_quote": "A Revival Of Religion In Our Day",
+      "suggested_fix": "Een vurige oproep tot<br>een religieuze herleving in onze tijd",
+      "translation_quote": "een herleving van het geloof in onze tijd"
+    },
+    {
+      "location": "Opening paragraph",
+      "severity": "minor",
+      "source_quote": "professors preaching “continue in sin” from the pulpit",
+      "suggested_fix": "belijdende christenen die vanaf de kansel ‘blijf in zonde’ verkondigen",
+      "translation_quote": "predikers die vanaf de kansel ‘blijf in zonde’ verkondigen"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}
