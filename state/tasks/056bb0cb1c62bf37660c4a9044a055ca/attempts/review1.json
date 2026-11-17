@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-17T04:19:22+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"html, stycket under rubriken ”…Regeringar”, meningen som börjar ”Porten som …”\",\n      \"severity\": \"major\",\n      \"source_quote\": \"The gate formed by his overseers and the sincere love of his servants under him often left but little room for personal preferences.\",\n      \"suggested_fix\": \"Ändra till: ”Porten som hans överordnade och hans uppriktiga kärlek till tjänarna under honom utgjorde lämnade ofta litet utrymme för personliga önskemål.”\",\n      \"translation_quote\": \"Porten som hans överordnade och hans tjänares uppriktiga kärlek utgjorde lämnade ofta litet utrymme för personliga önskemål.\"\n    },\n    {\n      \"location\": \"html, första stycket under ”Underordning aktiverar kraft.”\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"volunteer to transport a soldier’s pack the second mile\",\n      \"suggested_fix\": \"Ersätt ”ytterligare en kilometer” med ”ytterligare en engelsk mil” för att bevara den angivna sträckan och anspelningen.\",\n      \"translation_quote\": \"frivilligt bära en soldats packning ytterligare en kilometer\"\n    },\n    {\n      \"location\": \"html, andra stycket under ”…Herrar”\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"In faithless defiance they readily strike\",\n      \"suggested_fix\": \"Ersätt ”I otrotsfull olydnad” med ”I trots utan tro”.\",\n      \"translation_quote\": \"I otrotsfull olydnad strejkar de villigt\"\n    },\n    {\n      \"location\": \"html, sista stycket, meningen om kraft till människor\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"It brings power <strong><u>unto</u></strong> people rather than power <strong><u>over</u></strong> people.\",\n      \"suggested_fix\": \"Ändra meningen till: ”Den ger kraft <strong><u>åt</u></strong> människor snarare än makt <strong><u>över</u></strong> människor.”\",\n      \"translation_quote\": \"Den ger människor kraft <strong><u>till</u></strong> i stället för makt <strong><u>över</u></strong>.\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": false,\n  \"score\": 94\n}",
+    "content_bytes": 2086,
+    "content_evidence_truncated": false,
+    "content_sha256": "d320118e591f10d66cb7c00966a7a06fca2f084983df573097e49627e9170114",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 712,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 142,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 10148,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9045,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 10860
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}

@@ -1,0 +1,35 @@
+{
+  "findings": [
+    {
+      "location": "html, stycket under rubriken ”…Regeringar”, meningen som börjar ”Porten som …”",
+      "severity": "major",
+      "source_quote": "The gate formed by his overseers and the sincere love of his servants under him often left but little room for personal preferences.",
+      "suggested_fix": "Ändra till: ”Porten som hans överordnade och hans uppriktiga kärlek till tjänarna under honom utgjorde lämnade ofta litet utrymme för personliga önskemål.”",
+      "translation_quote": "Porten som hans överordnade och hans tjänares uppriktiga kärlek utgjorde lämnade ofta litet utrymme för personliga önskemål."
+    },
+    {
+      "location": "html, första stycket under ”Underordning aktiverar kraft.”",
+      "severity": "minor",
+      "source_quote": "volunteer to transport a soldier’s pack the second mile",
+      "suggested_fix": "Ersätt ”ytterligare en kilometer” med ”ytterligare en engelsk mil” för att bevara den angivna sträckan och anspelningen.",
+      "translation_quote": "frivilligt bära en soldats packning ytterligare en kilometer"
+    },
+    {
+      "location": "html, andra stycket under ”…Herrar”",
+      "severity": "minor",
+      "source_quote": "In faithless defiance they readily strike",
+      "suggested_fix": "Ersätt ”I otrotsfull olydnad” med ”I trots utan tro”.",
+      "translation_quote": "I otrotsfull olydnad strejkar de villigt"
+    },
+    {
+      "location": "html, sista stycket, meningen om kraft till människor",
+      "severity": "minor",
+      "source_quote": "It brings power <strong><u>unto</u></strong> people rather than power <strong><u>over</u></strong> people.",
+      "suggested_fix": "Ändra meningen till: ”Den ger kraft <strong><u>åt</u></strong> människor snarare än makt <strong><u>över</u></strong> människor.”",
+      "translation_quote": "Den ger människor kraft <strong><u>till</u></strong> i stället för makt <strong><u>över</u></strong>."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
