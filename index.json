@@ -51297,6 +51297,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ind/articles/572ec209-1870-46a2-ba99-bc6121777d7c.html",
+      "html_sha256": "9775edf22cdc340db519014ba9ff1e46c87ef428625f93e6b744107ed408dc83",
+      "human_reviewed": false,
+      "id": "572ec209-1870-46a2-ba99-bc6121777d7c",
+      "images": [
+        {
+          "alt": "Pohon besar berdaun lebat di samping padang hijau di bawah langit biru",
+          "public_path": "/images/articles/572ec209-1870-46a2-ba99-bc6121777d7c-1.jpg"
+        }
+      ],
+      "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
+      "language": "ind",
+      "language_tag": "id",
+      "metadata": "content/ind/articles/572ec209-1870-46a2-ba99-bc6121777d7c.json",
+      "metadata_sha256": "5bba47e7305acd2baa21d86a801c88fb3d9086ee2ad1cb94958f2d2bd97ffd0b",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "Puisi",
+      "source_revision": "a069ecca8827634ebc256b3b1cabc16aeb942ed7",
+      "source_translation_key": "e63d8dd4523e81f116e7e26485a04e311cbbba9cab0a4c2e771c80f06b38cb0c",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Juruselamat yang Menderita",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ind/articles/58963510-f56e-43e0-88dd-0eb9941ddea9.html",
       "html_sha256": "213620165efd14bd86e1f2c5e80e4ac73f7b6df5ec55eda3fad512e824580df8",
       "human_reviewed": false,

@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "translation.html, bait keenam, baris pertama",
+      "severity": "minor",
+      "source_quote": "Ten thousand angels, He could have summoned south,",
+      "suggested_fix": "Sepuluh ribu malaikat dapat saja Ia panggil ke selatan,",
+      "translation_quote": "Sepuluh ribu malaikat dapat saja Ia panggil datang,"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}
