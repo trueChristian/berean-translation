@@ -3,14 +3,14 @@
   "automatic_enabled": true,
   "automatic_policy_version": 3,
   "budget_enforcement": "none",
-  "committed_usd": 80.317656,
+  "committed_usd": 79.684155,
   "counts": {
     "active": 50,
     "already_translated": 107,
     "automatic_capacity_wait": 261,
     "continuation_progress_uncertain_requires_attention": 5,
     "continuation_repeated_findings_requires_attention": 1,
-    "eligible_automatic": 598,
+    "eligible_automatic": 597,
     "eligible_source_refresh": 168,
     "human_reviewed_or_edited_protected": 1,
     "legacy_response_outcome_unknown_requires_owner_attention": 10,
@@ -22,7 +22,7 @@
   },
   "derived": true,
   "format_version": "2",
-  "gross_allocated_usd": 765.957476,
+  "gross_allocated_usd": 766.81764,
   "historical_approved_total_usd": 30.0,
   "items": [
     {
@@ -409,14 +409,6 @@
       "latest_task": "6e6350a36da91afbbf553274ff319873",
       "processing_status": "not_ready",
       "reason": "eligible_automatic"
-    },
-    {
-      "accepted_cycles": 1,
-      "article_id": "d38bf79f-957f-413c-ad4d-a6b4fa8c8112",
-      "language": "afr",
-      "latest_task": "9d6d9c95ad43f412c3abc08cb8e6ec33",
-      "processing_status": "in_batch",
-      "reason": "active"
     },
     {
       "accepted_cycles": 0,
@@ -1160,14 +1152,6 @@
       "processing_status": "queued",
       "reason": "pending_automatic_admission",
       "request_id": "auto-66ad6505ac7544cfe3aa6e7b4ea78a7615155e03dbd62f724775405a66052e5a"
-    },
-    {
-      "accepted_cycles": 0,
-      "article_id": "fc4c9504-47f0-4d15-9e2e-848dd10c349e",
-      "language": "ara",
-      "latest_task": "8ee637ceafa738357c0be19ca2a907df",
-      "processing_status": "in_batch",
-      "reason": "active"
     },
     {
       "accepted_cycles": 0,
@@ -6582,6 +6566,14 @@
     },
     {
       "accepted_cycles": 0,
+      "article_id": "fc4c9504-47f0-4d15-9e2e-848dd10c349e",
+      "language": "ita",
+      "latest_task": "ec45a990f113e0cbe4f876d677c64809",
+      "processing_status": "in_batch",
+      "reason": "active"
+    },
+    {
+      "accepted_cycles": 0,
       "admission_status": "attention",
       "article_id": "fe13ba15-f33c-46ff-9d3c-f114f1b2f4d4",
       "language": "ita",
@@ -6979,14 +6971,6 @@
       "request_id": "auto-fd8c5e59528e37c29cd1de1449f8eef0326844566e59c9ed792771fb68b14128"
     },
     {
-      "accepted_cycles": 1,
-      "article_id": "a7f59621-7083-44ce-8074-6ece8fdfbdcf",
-      "language": "kor",
-      "latest_task": "bebbcaa204950a51e0f3b6f65169db40",
-      "processing_status": "in_batch",
-      "reason": "active"
-    },
-    {
       "accepted_cycles": 0,
       "article_id": "aa8cf0e6-09ac-45cf-aa04-4f76af1db43d",
       "language": "kor",
@@ -7145,6 +7129,14 @@
       "processing_status": "held_without_publication",
       "reason": "automatic_capacity_wait",
       "request_id": "auto-58d0cf2a539e2975e904f3b71ebadca588689b5979a6727b39a23840a39a440f"
+    },
+    {
+      "accepted_cycles": 0,
+      "article_id": "fc4c9504-47f0-4d15-9e2e-848dd10c349e",
+      "language": "kor",
+      "latest_task": "9ab91d76f53177971794b0c43ce6c27e",
+      "processing_status": "queued",
+      "reason": "active"
     },
     {
       "admission_status": "pending",
@@ -7681,7 +7673,7 @@
       "article_id": "fc4c9504-47f0-4d15-9e2e-848dd10c349e",
       "language": "nld",
       "latest_task": "611b4fbaf302447ffd2c813db47f076d",
-      "processing_status": "queued",
+      "processing_status": "in_batch",
       "reason": "active"
     },
     {
@@ -8832,12 +8824,12 @@
       "request_id": "auto-d230e1a40c8a5974151b821696cb60995d92008fe86e2ff29efa956b501fda2e"
     },
     {
-      "accepted_cycles": 0,
+      "accepted_cycles": 1,
       "article_id": "572ec209-1870-46a2-ba99-bc6121777d7c",
       "language": "rus",
-      "latest_task": "5ca0eb44ee868d1ed3062fb6f8446c1e",
-      "processing_status": "not_ready",
-      "reason": "eligible_automatic"
+      "latest_task": "56f23bbd0b9e01d87507e7c823398731",
+      "processing_status": "queued",
+      "reason": "active"
     },
     {
       "accepted_cycles": 0,
@@ -11672,7 +11664,7 @@
       "reason": "eligible_automatic"
     }
   ],
-  "settled_unused_usd": 685.63982,
+  "settled_unused_usd": 687.133485,
   "source_revision": "ccefc5a5c3d79409cc78319f94b5490718d30670",
   "spending_policy": "owner-2026-10-29-provider-managed-spending",
   "usage_description": "Provider-reported usage priced at frozen rates; not invoice reconciliation"
