@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-17T10:18:29+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Abschnitt „HOLY DESPERATION“, Absatz 1\",\"severity\":\"minor\",\"source_quote\":\"“Revival prayer is born out of a holy and healthy desperation for the presence and power of Christ in His church.”\",\"suggested_fix\":\"„Das Gebet um Erweckung wird aus einer heiligen und gesunden Verzweiflung nach der Gegenwart und Kraft Christi in seiner Gemeinde geboren.“\",\"translation_quote\":\"„Das Gebet um Erweckung wird aus einer heiligen und gesunden Sehnsucht nach der Gegenwart und Kraft Christi in seiner Gemeinde geboren.“\"},{\"location\":\"Abschnitt „WENN ES KEINE ERWECKUNG GIBT“, Absatz 2\",\"severity\":\"minor\",\"source_quote\":\"“When the Church does not have revival, sin abounds on the earth.”\",\"suggested_fix\":\"„Wenn die Gemeinde keine Erweckung erlebt, nimmt die Sünde auf Erden überhand.“\",\"translation_quote\":\"„Wenn die Gemeinde keine Erweckung erlebt, überhandnimmt die Sünde auf Erden.“\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 990,
+    "content_evidence_truncated": false,
+    "content_sha256": "25f042997a82370a2957c5ba9a63367d89961fcfca8e550b544982d40d42c814",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1065,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 808,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7222,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6119,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 8287
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

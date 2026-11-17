@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Abschnitt „HOLY DESPERATION“, Absatz 1",
+      "severity": "minor",
+      "source_quote": "“Revival prayer is born out of a holy and healthy desperation for the presence and power of Christ in His church.”",
+      "suggested_fix": "„Das Gebet um Erweckung wird aus einer heiligen und gesunden Verzweiflung nach der Gegenwart und Kraft Christi in seiner Gemeinde geboren.“",
+      "translation_quote": "„Das Gebet um Erweckung wird aus einer heiligen und gesunden Sehnsucht nach der Gegenwart und Kraft Christi in seiner Gemeinde geboren.“"
+    },
+    {
+      "location": "Abschnitt „WENN ES KEINE ERWECKUNG GIBT“, Absatz 2",
+      "severity": "minor",
+      "source_quote": "“When the Church does not have revival, sin abounds on the earth.”",
+      "suggested_fix": "„Wenn die Gemeinde keine Erweckung erlebt, nimmt die Sünde auf Erden überhand.“",
+      "translation_quote": "„Wenn die Gemeinde keine Erweckung erlebt, überhandnimmt die Sünde auf Erden.“"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

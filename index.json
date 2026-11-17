@@ -1025,11 +1025,17 @@
       "translation_model": "gpt-5-mini-2025-08-07"
     },
     {
-      "ai_notice_required": true,
+      "ai_notice_required": false,
       "direction": "ltr",
       "html": "content/afr/articles/21180900-6bdd-4c06-a4ed-fd0f6b8a3571.html",
-      "html_sha256": "6208014d51dba5df6c0046c9b3d6031ed54a6dab12c23076a2cb8e7b3555e021",
-      "human_reviewed": false,
+      "html_sha256": "6211f43f5c7a6f8091b34c47b2f157d3da78c241f530422b5860d16c5253bfa2",
+      "human_edit": {
+        "author": "Malachi",
+        "commit": "f95eecb398e1e3b4f4a4261c315aa6c401f36f15",
+        "email": "163401881+malachivdm@users.noreply.github.com",
+        "time": "2026-11-17T12:13:43+02:00"
+      },
+      "human_reviewed": true,
       "id": "21180900-6bdd-4c06-a4ed-fd0f6b8a3571",
       "images": [
         {
@@ -1042,6 +1048,7 @@
       "language_tag": "af",
       "metadata": "content/afr/articles/21180900-6bdd-4c06-a4ed-fd0f6b8a3571.json",
       "metadata_sha256": "7fc58c4d704272debdd7639adcc5f129872f6db5d25dd456c1fb28642b239d0a",
+      "notice_present": true,
       "provider": "OpenAI",
       "review_model": "gpt-5-mini-2025-08-07",
       "section": "Kerkgeskiedenis",
@@ -27529,6 +27536,29 @@
       "subtitle": null,
       "title": "Das Überlastungssyndrom",
       "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/deu/articles/fc4c9504-47f0-4d15-9e2e-848dd10c349e.html",
+      "html_sha256": "453bf2f565aaf0f6cf36ed005f75bcc8bfa468470cd9d8a57b6c13c76ae4d11c",
+      "human_reviewed": false,
+      "id": "fc4c9504-47f0-4d15-9e2e-848dd10c349e",
+      "images": [],
+      "issue_id": "14962b7b-2d94-5b43-a4c6-bbb78f074d1a",
+      "language": "deu",
+      "language_tag": "de",
+      "metadata": "content/deu/articles/fc4c9504-47f0-4d15-9e2e-848dd10c349e.json",
+      "metadata_sha256": "6406538263056ea720ca67b76044545c1895085247466e117af85b4e787d0a88",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "ccefc5a5c3d79409cc78319f94b5490718d30670",
+      "source_translation_key": "59c6af529e48a18151a99afd7610829371425facdfe6a9b50a5c2c302acba8b6",
+      "status": "ready",
+      "subtitle": null,
+      "title": "ERWECKUNG UM JEDEN PREIS!",
+      "translation_model": "gpt-6-luna"
     },
     {
       "ai_notice_required": true,
