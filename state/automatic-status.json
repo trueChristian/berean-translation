@@ -3,13 +3,13 @@
   "approved_total_usd": null,
   "budget_enforcement": "none",
   "counts": {
-    "active": 3,
+    "active": 10,
     "held_without_publication": 1136,
     "published": 3896,
-    "queued": 144,
+    "queued": 137,
     "unstarted": 18181
   },
-  "generated_at": "2026-11-17T11:14:32+00:00",
+  "generated_at": "2026-11-17T11:30:21+00:00",
   "pending_requests": 360,
   "replacement_counts": {
     "active": 0,
