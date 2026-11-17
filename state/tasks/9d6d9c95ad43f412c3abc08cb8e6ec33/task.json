@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "07895ac9e73d411fb84fb8f9149cec63",
   "campaign": "auto-397e103efba7a7cd9e71e2e69641401d86e71988028577436c5ee317e81d7f07",
   "created_at": "2026-11-16T10:08:24+00:00",
   "events": [
@@ -48,74 +47,31 @@
         },
         "total_tokens": 13842
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 63,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 31,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8865,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8862,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8928
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "html, paragraph beginning “Mense het korter ná die vloed”",
-      "severity": "major",
-      "source_quote": "People began dying at younger ages after the flood and by soon after the time of Abraham",
-      "suggested_fix": "Replace the sentence with: “Ná die vloed het mense op jonger ouderdomme begin sterf, en kort ná Abraham se tyd het hulle selde veel ouer as honderd jaar geword.”",
-      "translation_quote": "Mense het korter ná die vloed gesterf en by die tyd van Abraham"
-    },
-    {
-      "location": "html, opening paragraph",
-      "severity": "minor",
-      "source_quote": "My patient asked me.",
-      "suggested_fix": "Replace “vroeg my pasiënt vir my” with “het my pasiënt my gevra”.",
-      "translation_quote": "vroeg my pasiënt vir my"
-    },
-    {
-      "location": "html, paragraph beginning “Meer as dit”",
-      "severity": "minor",
-      "source_quote": "it is something that seems mysterious",
-      "suggested_fix": "Replace “iets wat geheim voorkom” with “iets wat geheimsinnig voorkom”.",
-      "translation_quote": "iets wat geheim voorkom"
-    },
-    {
-      "location": "html, introductory paragraph about screening tests",
-      "severity": "minor",
-      "source_quote": "cancer screening tests",
-      "suggested_fix": "Replace “ondersoekttoetse vir kanker” with “siftingstoetse vir kanker”.",
-      "translation_quote": "ondersoekttoetse vir kanker"
-    },
-    {
-      "location": "html, paragraph under “…Ongesonde Kosse”",
-      "severity": "minor",
-      "source_quote": "people should limit their intake of these foods to none or at the very least, a very limited percentage of the overall diet",
-      "suggested_fix": "Replace the last sentence with: “Om gesond te wees, behoort mense dus hierdie kosse heeltemal te vermy, of dit ten minste tot ’n baie klein persentasie van hul totale dieet te beperk.”",
-      "translation_quote": "behoort mense dus hul inname van hierdie kosse te beperk tot geen, of ten minste ’n baie beperkte persentasie van die algehele dieet nie"
-    },
-    {
-      "location": "html, paragraph beginning “’n Ander kwessie”",
-      "severity": "minor",
-      "source_quote": "until finally it develops into full-blown cancer",
-      "suggested_fix": "Replace “ontwikkel in volgewas- kanker” with “tot volwaardige kanker ontwikkel”.",
-      "translation_quote": "ontwikkel in volgewas- kanker"
-    },
-    {
-      "location": "html, paragraph beginning “As behandelings-”",
-      "severity": "minor",
-      "source_quote": "If treatment and response rates are the same",
-      "suggested_fix": "Replace “As behandelings- en reaksietariewe dieselfde is” with “As die behandeling en die responskoerse dieselfde is”.",
-      "translation_quote": "As behandelings- en reaksietariewe dieselfde is"
-    },
-    {
-      "location": "html, paragraph about mammogram recommendations",
-      "severity": "minor",
-      "source_quote": "many cancer societies",
-      "suggested_fix": "Replace “kankersameleweings” with “kankerverenigings”. Restore the source emphasis by wrapping “elke twee jaar” in <strong><em> tags.",
-      "translation_quote": "baie kankersameleweings. Byvoorbeeld, hulle beveel die gebruik van mammogramme elke twee jaar aan"
-    },
-    {
-      "location": "html, paragraph beginning “’n Laaste, verwante punt”",
-      "severity": "minor",
-      "source_quote": "an average of six months longer",
-      "suggested_fix": "Replace “gemiddelde ses maande langer” with “gemiddeld ses maande langer”.",
-      "translation_quote": "gemiddelde ses maande langer"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-11-17T04:04:38+00:00",
   "id": "9d6d9c95ad43f412c3abc08cb8e6ec33",
   "issue_id": "1a7070c9-fd4f-546b-a220-f267ddb8cf5f",
   "language": "afr",
@@ -204,7 +160,7 @@
     }
   },
   "protected": false,
-  "quality_score": 93,
+  "quality_score": 99,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6.1-sol",
@@ -223,7 +179,7 @@
     "total_reserved_usd": 0.762225,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "48e3cf7ce54a82130b52527f677657d3f940e34281e04d33a0d21d610cf9910a",
   "translation_model_actual": "gpt-6.1-sol"
