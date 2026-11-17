@@ -1,0 +1,66 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "fc4dddf6-8b3d-4684-813e-38df630e0565",
+    "response_id": "chatcmpl-EkyHRP9xTCt0F3RN927ElHUdYvByO",
+    "usage": {
+      "completion_tokens": 902,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7826,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7823,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8728
+    }
+  },
+  "received_at": "2026-11-17T02:27:10+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "پہلا پیراگراف، میری واربرٹن بوتھ کا اقتباس",
+        "severity": "major",
+        "source_quote": "“what we asked for was that it should be such that would cleanse and revive His children and set them on fire to win others.”",
+        "suggested_fix": "اس جملے میں ”اُس کے بچوں“ اور ”دوسروں کو جیتنے“ سے مراد خدا کے بچے اور دوسروں کو مسیح کے لیے جیتنا ہے؛ مثلاً: ”ہم نے تو بس یہ مانگا کہ وہ ایسی ہو جو خدا کے بچوں کو پاک کرے، تازہ دم کرے اور دوسروں کو مسیح کے لیے جیتنے کی آگ اُن میں بھڑکا دے۔“",
+        "translation_quote": "”ہم نے تو بس یہ مانگا کہ وہ ایسی ہو جو اُس کے بچوں کو پاک کرے، تازہ دم کرے اور دوسروں کو جیتنے کے لیے اُن میں آگ لگا دے۔“"
+      },
+      {
+        "location": "پہلا پیراگراف، بیداری کے لیے دعا",
+        "severity": "minor",
+        "source_quote": "“We need a fury of passionate pleading, desperate crying, fervent praying for a heaven-sent revival in our day.”",
+        "suggested_fix": "انگریزی لفظ ”fervent“ کی جگہ رواں اردو تعبیر لکھیں، مثلاً: ”ہمیں اپنے زمانے میں آسمان سے بھیجی گئی بیداری کے لیے پُرجوش التجا، بے تاب فریاد اور fervent دعا کی ضرورت ہے۔“ → ”ہمیں اپنے زمانے میں آسمان سے بھیجی گئی بیداری کے لیے پُرجوش التجا، بے تاب فریاد اور fervent دعا کی ضرورت ہے۔“ نہیں؛ ”... اور پُرجوش دعا کی ضرورت ہے۔“",
+        "translation_quote": "”ہمیں اپنے زمانے میں آسمان سے بھیجی گئی بیداری کے لیے پُرجوش التجا، بے تاب فریاد اور fervent دعا کی ضرورت ہے۔“"
+      },
+      {
+        "location": "تیسرا پیراگراف، بیداری کے بعد دنیا کی حالت",
+        "severity": "major",
+        "source_quote": "“A glorious, powerful, sweeping Pentecost swept the world.”",
+        "suggested_fix": "یہاں ”Pentecost“ سے مراد پینٹی کوست کا واقعہ/بیداری ہے، نہ کہ پینٹی کوست کی تحریک؛ مثلاً: ”ایک جلالی، پُرقدرت اور ہمہ گیر پینٹی کوست کی بیداری نے دنیا کو اپنی لپیٹ میں لے لیا۔“",
+        "translation_quote": "”ایک جلالی، پُرقدرت اور ہمہ گیر پینٹی کوست نے دنیا کو اپنی لپیٹ میں لے لیا۔“"
+      },
+      {
+        "location": "اگر بیداری نہ آئے، پہلا پیراگراف",
+        "severity": "major",
+        "source_quote": "“hell hath enlarged herself, and opened her mouth without measure.”",
+        "suggested_fix": "حوالہ شدہ عبارت میں جہنم کے اپنے آپ کو وسیع کرنے اور بے حد منہ کھولنے کا مفہوم برقرار رکھتے ہوئے، ”اپنے آپ کو وسیع کیا“ کی جگہ ”اپنے آپ کو وسیع کر لیا ہے“ لکھیں تاکہ اصل حالِ کامل کا مفہوم ظاہر ہو: ”پس جہنم نے اپنے آپ کو وسیع کر لیا ہے اور اپنا منہ بے حد کھول دیا ہے۔“",
+        "translation_quote": "”پس جہنم نے اپنے آپ کو وسیع کیا اور اپنا منہ بے حد کھول دیا۔“"
+      },
+      {
+        "location": "اگر بیداری نہ آئے، دوسرے پیراگراف",
+        "severity": "major",
+        "source_quote": "“Men will begin to draw sin ‘with a cart’”",
+        "suggested_fix": "محاوراتی مفہوم یہ ہے کہ لوگ گناہ کو گویا گاڑی سے کھینچنے والی رسیوں سے باندھ کر اپنے پیچھے کھینچتے ہیں؛ ”گناہ کو گاڑی میں جوتنے“ کے بجائے لکھیں: ”لوگ گناہ کو ’گاڑی کی رسیوں سے‘ کھینچنے لگیں گے۔“",
+        "translation_quote": "”لوگ گناہ کو ’گاڑی‘ میں جوتنے لگیں گے“"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 91
+  }
+}
