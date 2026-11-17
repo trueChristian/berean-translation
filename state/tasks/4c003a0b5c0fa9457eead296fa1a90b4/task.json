@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "69541d910ff54c31a9df26800a208fe8",
   "campaign": "auto-64c87cce6b7bc7f8858c685f2568f533827fc036e7178072912184a23c9abb21",
   "created_at": "2026-11-17T10:20:44+00:00",
   "events": [
@@ -28,10 +27,46 @@
         },
         "total_tokens": 8696
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1216,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 946,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8998,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 7895,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 10214
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "First section, paragraph beginning “The prophet Isaiah…”",
+      "severity": "minor",
+      "source_quote": "“I have seen a strange thing under the sun: professors preaching ‘continue in sin’ from the pulpit.”",
+      "suggested_fix": "«Έχω δει κάτι παράξενο κάτω από τον ήλιο: ανθρώπους που ισχυρίζονται ότι είναι πιστοί να κηρύττουν “συνεχίστε να αμαρτάνετε” από τον άμβωνα.»",
+      "translation_quote": "«Έχω δει κάτι παράξενο κάτω από τον ήλιο: ανθρώπους που κηρύττουν “συνεχίστε να αμαρτάνετε” από τον άμβωνα.»"
+    },
+    {
+      "location": "Second section, paragraph beginning “Where are those…”",
+      "severity": "minor",
+      "source_quote": "“now is the time to pull out all the stops.”",
+      "suggested_fix": "«Τώρα είναι η ώρα να χρησιμοποιήσουμε κάθε διαθέσιμο μέσο.»",
+      "translation_quote": "«Τώρα είναι η ώρα να μην αφήσουμε τίποτα ανεξάντλητο.»"
+    }
+  ],
+  "finished_at": "2026-11-17T13:27:15+00:00",
   "id": "4c003a0b5c0fa9457eead296fa1a90b4",
   "issue_id": "14962b7b-2d94-5b43-a4c6-bbb78f074d1a",
   "language": "ell",
@@ -120,9 +155,11 @@
     }
   },
   "protected": false,
+  "quality_score": 97,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/b8e84c6ac2371f97ffbabe7b6084751e2c3708d2cb234f7339f556b830577afa.json",
   "stage": "review1",
   "stage_budget": {
@@ -138,7 +175,7 @@
     "total_reserved_usd": 0.089294,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "59c6af529e48a18151a99afd7610829371425facdfe6a9b50a5c2c302acba8b6",
   "translation_model_actual": "gpt-6-luna"

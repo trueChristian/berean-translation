@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-17T13:27:15+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"First section, paragraph beginning “The prophet Isaiah…”\",\"severity\":\"minor\",\"source_quote\":\"“I have seen a strange thing under the sun: professors preaching ‘continue in sin’ from the pulpit.”\",\"suggested_fix\":\"«Έχω δει κάτι παράξενο κάτω από τον ήλιο: ανθρώπους που ισχυρίζονται ότι είναι πιστοί να κηρύττουν “συνεχίστε να αμαρτάνετε” από τον άμβωνα.»\",\"translation_quote\":\"«Έχω δει κάτι παράξενο κάτω από τον ήλιο: ανθρώπους που κηρύττουν “συνεχίστε να αμαρτάνετε” από τον άμβωνα.»\"},{\"location\":\"Second section, paragraph beginning “Where are those…”\",\"severity\":\"minor\",\"source_quote\":\"“now is the time to pull out all the stops.”\",\"suggested_fix\":\"«Τώρα είναι η ώρα να χρησιμοποιήσουμε κάθε διαθέσιμο μέσο.»\",\"translation_quote\":\"«Τώρα είναι η ώρα να μην αφήσουμε τίποτα ανεξάντλητο.»\"}],\"findings_complete\":true,\"passed\":true,\"score\":97}",
+    "content_bytes": 1201,
+    "content_evidence_truncated": false,
+    "content_sha256": "9dd02cc191f42b830bbd744b7fc2020a8a95b122921ccc33ce3bcc879ae8ba50",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1216,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 946,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8998,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7895,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 10214
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

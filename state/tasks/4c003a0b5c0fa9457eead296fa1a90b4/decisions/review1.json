@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "First section, paragraph beginning “The prophet Isaiah…”",
+      "severity": "minor",
+      "source_quote": "“I have seen a strange thing under the sun: professors preaching ‘continue in sin’ from the pulpit.”",
+      "suggested_fix": "«Έχω δει κάτι παράξενο κάτω από τον ήλιο: ανθρώπους που ισχυρίζονται ότι είναι πιστοί να κηρύττουν “συνεχίστε να αμαρτάνετε” από τον άμβωνα.»",
+      "translation_quote": "«Έχω δει κάτι παράξενο κάτω από τον ήλιο: ανθρώπους που κηρύττουν “συνεχίστε να αμαρτάνετε” από τον άμβωνα.»"
+    },
+    {
+      "location": "Second section, paragraph beginning “Where are those…”",
+      "severity": "minor",
+      "source_quote": "“now is the time to pull out all the stops.”",
+      "suggested_fix": "«Τώρα είναι η ώρα να χρησιμοποιήσουμε κάθε διαθέσιμο μέσο.»",
+      "translation_quote": "«Τώρα είναι η ώρα να μην αφήσουμε τίποτα ανεξάντλητο.»"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}
