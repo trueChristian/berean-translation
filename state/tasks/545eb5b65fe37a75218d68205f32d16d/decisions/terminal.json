@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "ابتدائی پیراگراف، منبر سے منادی کرنے والوں کا ذکر",
+      "severity": "major",
+      "source_quote": "“professors preaching ‘continue in sin’ from the pulpit”",
+      "suggested_fix": "”مسیحیت کا دعویٰ کرنے والے لوگ منبر سے ’گناہ کرتے رہو‘ کی منادی کر رہے ہیں۔“",
+      "translation_quote": "”علما منبر سے ’گناہ کرتے رہو‘ کی منادی کر رہے ہیں۔“"
+    },
+    {
+      "location": "آخری پیراگراف، مقبول منادی پر گلبرٹ ٹینٹ کا اقتباس",
+      "severity": "major",
+      "source_quote": "“strengthen men's carnal security by their soft, selfish, cowardly discourses”",
+      "suggested_fix": "”اپنی نرم، خودغرض اور بزدلانہ تقریروں سے لوگوں کے گناہ آلود اطمینانِ نفس کو تقویت دیتے ہیں۔“",
+      "translation_quote": "”اپنی نرم، خودغرض اور بزدلانہ تقریروں سے لوگوں کے جسمانی اطمینان کو تقویت دیتے ہیں۔“"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; a recovery continuation must pass admission",
+  "stage": "terminal"
+}

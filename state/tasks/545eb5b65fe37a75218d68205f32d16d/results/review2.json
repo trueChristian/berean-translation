@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "367579ad-0ea4-4ee7-9884-703ed6291a03",
+    "response_id": "chatcmpl-El4r15yGjmWE11PI4jGo0oJc9RSEJ",
+    "usage": {
+      "completion_tokens": 1364,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1086,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7845,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6742,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 9209
+    }
+  },
+  "received_at": "2026-11-17T04:34:41+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "ابتدائی پیراگراف، منبر سے منادی کرنے والوں کا ذکر",
+        "severity": "major",
+        "source_quote": "“professors preaching ‘continue in sin’ from the pulpit”",
+        "suggested_fix": "”مسیحیت کا دعویٰ کرنے والے لوگ منبر سے ’گناہ کرتے رہو‘ کی منادی کر رہے ہیں۔“",
+        "translation_quote": "”علما منبر سے ’گناہ کرتے رہو‘ کی منادی کر رہے ہیں۔“"
+      },
+      {
+        "location": "آخری پیراگراف، مقبول منادی پر گلبرٹ ٹینٹ کا اقتباس",
+        "severity": "major",
+        "source_quote": "“strengthen men's carnal security by their soft, selfish, cowardly discourses”",
+        "suggested_fix": "”اپنی نرم، خودغرض اور بزدلانہ تقریروں سے لوگوں کے گناہ آلود اطمینانِ نفس کو تقویت دیتے ہیں۔“",
+        "translation_quote": "”اپنی نرم، خودغرض اور بزدلانہ تقریروں سے لوگوں کے جسمانی اطمینان کو تقویت دیتے ہیں۔“"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 92
+  }
+}
