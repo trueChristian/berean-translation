@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "26cc42108a7b4bcf9875ff78c2fc8b2e",
   "campaign": "auto-0272a2dc3e28bacf01679832bc32f7d7243955576706130182b65b2d7890618d",
   "created_at": "2026-11-16T09:51:27+00:00",
   "events": [
@@ -68,25 +67,39 @@
         },
         "total_tokens": 10507
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1261,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 1156,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7111,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 7108,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8372
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "الفقرة الثانية تحت عنوان «إما الإحياء وإما الموت»",
-      "severity": "major",
-      "source_quote": "“A glorious, powerful, sweeping Pentecost swept the world.”",
-      "suggested_fix": "وماذا كانت النتيجة؟ اجتاحت العالمَ نهضةٌ خمسينية مجيدة وقوية وشاملة.",
-      "translation_quote": "«اجتاح العالمَ عيدُ خمسين مجيد وقوي وشامل»"
-    },
-    {
-      "location": "العنوان الرئيسي، والفقرة الأولى، والفقرة الأولى تحت عنوان «إما الإحياء وإما الموت»",
+      "location": "الفقرة الثانية، اقتباس ماريو موريّو",
       "severity": "minor",
-      "source_quote": "“HOLY DESPERATION”; “a holy desperation for revival”; “the Church is not desperate before God in prayer.”",
-      "suggested_fix": "استخدم تعبيرًا عربيًا يدل على الإلحاح والاضطرار لا اليأس، مثل «اضطرار مقدس» أو «إلحاح مقدس»، في العنوان والمواضع المقابلة.",
-      "translation_quote": "«يَأْسٌ مُقَدَّس»؛ «يأس مقدس من أجل الإحياء»؛ «فالكنيسة ليست في يأس أمام الله في الصلاة»"
+      "source_quote": "None of the ointment can be spared.",
+      "suggested_fix": "لا يمكن الاستغناء عن شيء من الطيب.",
+      "translation_quote": "لا يمكن توفير شيء من الطيب."
     }
   ],
+  "finished_at": "2026-11-17T04:03:59+00:00",
   "id": "8ee637ceafa738357c0be19ca2a907df",
   "issue_id": "14962b7b-2d94-5b43-a4c6-bbb78f074d1a",
   "language": "ara",
@@ -175,7 +188,7 @@
     }
   },
   "protected": false,
-  "quality_score": 94,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
@@ -195,7 +208,7 @@
     "total_reserved_usd": 0.089291,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "59c6af529e48a18151a99afd7610829371425facdfe6a9b50a5c2c302acba8b6",
   "translation_model_actual": "gpt-6-luna"

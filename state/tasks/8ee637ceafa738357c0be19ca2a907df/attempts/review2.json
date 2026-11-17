@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-17T04:03:59+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"الفقرة الثانية، اقتباس ماريو موريّو\",\"severity\":\"minor\",\"source_quote\":\"None of the ointment can be spared.\",\"suggested_fix\":\"لا يمكن الاستغناء عن شيء من الطيب.\",\"translation_quote\":\"لا يمكن توفير شيء من الطيب.\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 369,
+    "content_evidence_truncated": false,
+    "content_sha256": "e7490d9c50a2f304c07fb09b96fea8bae31212001928058824906af5dfdb9fa6",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1261,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1156,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7111,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7108,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8372
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "الفقرة الثانية، اقتباس ماريو موريّو",
+      "severity": "minor",
+      "source_quote": "None of the ointment can be spared.",
+      "suggested_fix": "لا يمكن الاستغناء عن شيء من الطيب.",
+      "translation_quote": "لا يمكن توفير شيء من الطيب."
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

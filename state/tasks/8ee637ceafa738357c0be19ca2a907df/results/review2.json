@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "82d17c08-78d0-499a-a20c-2c673745b3e4",
+    "response_id": "chatcmpl-El4bFrwJpn9LROrAeJq5qqBaCDQs1",
+    "usage": {
+      "completion_tokens": 1261,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1156,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7111,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7108,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8372
+    }
+  },
+  "received_at": "2026-11-17T04:03:59+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "الفقرة الثانية، اقتباس ماريو موريّو",
+        "severity": "minor",
+        "source_quote": "None of the ointment can be spared.",
+        "suggested_fix": "لا يمكن الاستغناء عن شيء من الطيب.",
+        "translation_quote": "لا يمكن توفير شيء من الطيب."
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}
