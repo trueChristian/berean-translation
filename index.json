@@ -61860,6 +61860,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/kor/articles/175280ea-7e5f-4be2-bbce-b500c0fd93cb.html",
+      "html_sha256": "a3127cc86cbbdde4596821d3ed9f3c5821cafb660dcd63d57aa3571202a2ba4f",
+      "human_reviewed": false,
+      "id": "175280ea-7e5f-4be2-bbce-b500c0fd93cb",
+      "images": [
+        {
+          "alt": "",
+          "public_path": "/images/articles/175280ea-7e5f-4be2-bbce-b500c0fd93cb-1.png"
+        }
+      ],
+      "issue_id": "7024063a-5783-5744-8055-7b12fee04019",
+      "language": "kor",
+      "language_tag": "ko",
+      "metadata": "content/kor/articles/175280ea-7e5f-4be2-bbce-b500c0fd93cb.json",
+      "metadata_sha256": "25277db8a0402f2f9c93ad15df462a1f4f1b34cb894adc69e285509ce015b72d",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "편집자 글",
+      "source_revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+      "source_translation_key": "9c79b475fdf2e91137c2ae3c5de7b755f0274b83e05c4c8d303ba99905f074d3",
+      "status": "ready",
+      "subtitle": null,
+      "title": "편집자 글",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/kor/articles/19270b64-7f17-4623-b361-5486354b7303.html",
       "html_sha256": "c2da5f5597f3b22f8f59dec7536b2570c7b69ee6223c95728f8cceb3f5c7e6de",
       "human_reviewed": false,

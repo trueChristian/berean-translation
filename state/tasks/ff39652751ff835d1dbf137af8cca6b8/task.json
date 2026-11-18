@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "5e6ff55fc04f4da899b9871c5bab623c",
   "campaign": "auto-bdd09e9ca04b13e16f4ef27df0ee4caa1793dd0ea03b3dde8c9a33b62ba311f3",
   "created_at": "2026-11-18T04:19:05+00:00",
   "events": [
@@ -28,18 +27,31 @@
         },
         "total_tokens": 5086
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 65,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 33,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3607,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 2504,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 3672
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "h2, event series title",
-      "severity": "major",
-      "source_quote": "“A Biblical View of Mental, Emotional, Marriage, and Sexual Abuse Issues”",
-      "suggested_fix": "“정신적·정서적 문제, 결혼 문제 및 성적 학대 문제에 대한 성경적 관점”",
-      "translation_quote": "“정신적·정서적 학대와 결혼 및 성적 학대 문제에 대한 성경적 관점”"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-11-18T10:04:17+00:00",
   "id": "ff39652751ff835d1dbf137af8cca6b8",
   "issue_id": "7024063a-5783-5744-8055-7b12fee04019",
   "language": "kor",
@@ -128,9 +140,11 @@
     }
   },
   "protected": false,
+  "quality_score": 99,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/68b431a71f8550df191695e721688ff3ee0e96f23f6709415f7ef239e76f8346.json",
   "stage": "review2",
   "stage_budget": {
@@ -144,7 +158,7 @@
     "total_reserved_usd": 0.549317,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "9c79b475fdf2e91137c2ae3c5de7b755f0274b83e05c4c8d303ba99905f074d3",
   "translation_model_actual": "gpt-6.1-sol"
