@@ -85181,6 +85181,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/rus/articles/12387934-7e9b-49f7-874a-0e66fa7942d3.html",
+      "html_sha256": "a9bcdb3907baa504c46ba1f07e6d876355601489eb3344814d3b8f3cbd4104b7",
+      "human_reviewed": false,
+      "id": "12387934-7e9b-49f7-874a-0e66fa7942d3",
+      "images": [
+        {
+          "alt": "Молодые люди сидят вместе на скале лицом к водопаду.",
+          "public_path": "/images/articles/12387934-7e9b-49f7-874a-0e66fa7942d3-1.jpg"
+        },
+        {
+          "alt": "Жених и невеста идут по дорожке, держась за руки.",
+          "public_path": "/images/articles/12387934-7e9b-49f7-874a-0e66fa7942d3-2.jpg"
+        }
+      ],
+      "issue_id": "103c93e0-6e9a-44f6-a6bc-377af8e08e38",
+      "language": "rus",
+      "language_tag": "ru",
+      "metadata": "content/rus/articles/12387934-7e9b-49f7-874a-0e66fa7942d3.json",
+      "metadata_sha256": "22567bda15c6ec71bc1ff5ba50a69873c400df3e56b5d579f96a8f3792471fe5",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "НАСТАВЛЕНИЯ ДЛЯ МОЛОДЁЖИ",
+      "source_revision": "ccefc5a5c3d79409cc78319f94b5490718d30670",
+      "source_translation_key": "168a1108b0cb584118665d0d4048559fb86bb1444e057e3646ac49c743cf2917",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Ухаживания, посвящённые Христу",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/rus/articles/175280ea-7e5f-4be2-bbce-b500c0fd93cb.html",
       "html_sha256": "2f71442e899d4c2dc645eb893498aa032d52bf2f655b2fab7b18fb44301cc3c5",
       "human_reviewed": false,

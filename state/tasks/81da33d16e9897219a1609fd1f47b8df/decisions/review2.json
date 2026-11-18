@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Первое изображение, alt-текст",
+      "severity": "minor",
+      "source_quote": "A couple seated together on a rock facing a waterfall.",
+      "suggested_fix": "Молодая пара сидит вместе на скале лицом к водопаду.",
+      "translation_quote": "Молодые люди сидят вместе на скале лицом к водопаду."
+    },
+    {
+      "location": "Заголовок статьи",
+      "severity": "minor",
+      "source_quote": "A Christ-Centered Courtship Process",
+      "suggested_fix": "Процесс ухаживаний, посвящённых Христу",
+      "translation_quote": "Ухаживания, посвящённые Христу"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

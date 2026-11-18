@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "2c8956fea1624cd9882f41ab26c5d078",
   "campaign": "auto-d64090d16a890b6d73c8a0fb7fd49ea4257cbc0a7031de2055586faa407aa58a",
   "created_at": "2026-11-13T00:31:30+00:00",
   "events": [
@@ -68,32 +67,46 @@
         },
         "total_tokens": 18093
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1106,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 943,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 11981,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 11978,
+          "cached_tokens": 0
+        },
+        "total_tokens": 13087
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "Matthew 19:9 quotation",
-      "severity": "major",
-      "source_quote": "“Whosoever shall put away his wife, except it be for fornication, and shall marry another, committeth adultery”",
-      "suggested_fix": "В цитате замените «не за прелюбодеяние» на «кроме случая блуда», чтобы сохранить указанное в источнике исключение и не подменять fornication прелюбодеянием.",
-      "translation_quote": "«кто разводится с женою своею не за прелюбодеяние и женится на другой, тот прелюбодействует»"
+      "location": "Первое изображение, alt-текст",
+      "severity": "minor",
+      "source_quote": "A couple seated together on a rock facing a waterfall.",
+      "suggested_fix": "Молодая пара сидит вместе на скале лицом к водопаду.",
+      "translation_quote": "Молодые люди сидят вместе на скале лицом к водопаду."
     },
     {
-      "location": "Paragraph beginning “Jesus responded to the Pharisees’ divorce question”",
-      "severity": "major",
-      "source_quote": "“The only way to have a divorce is to quit cleaving. If we quit cleaving, we’re disobeying God.”",
-      "suggested_fix": "Передайте мысль о прекращении прилепления друг к другу: «Единственный путь к разводу — перестать прилепляться друг к другу. Если мы перестаём прилепляться друг к другу, мы не повинуемся Богу».",
-      "translation_quote": "«Развод возможен лишь тогда, когда супруги перестают быть едиными. Если мы перестаём быть едиными, мы не повинуемся Богу»"
-    },
-    {
-      "location": "Заключительный выделенный абзац",
-      "severity": "major",
-      "source_quote": "“God longs to bless you as you leave your wedding day.”",
-      "suggested_fix": "Замените указание на уход с места церемонии формулировкой о завершении свадебного дня: «Бог страстно желает благословить вас, когда завершится день вашей свадьбы».",
-      "translation_quote": "«Бог страстно желает благословить вас, когда вы покинете место свадебной церемонии»"
+      "location": "Заголовок статьи",
+      "severity": "minor",
+      "source_quote": "A Christ-Centered Courtship Process",
+      "suggested_fix": "Процесс ухаживаний, посвящённых Христу",
+      "translation_quote": "Ухаживания, посвящённые Христу"
     }
   ],
+  "finished_at": "2026-11-18T01:54:50+00:00",
   "id": "81da33d16e9897219a1609fd1f47b8df",
   "issue_id": "103c93e0-6e9a-44f6-a6bc-377af8e08e38",
   "language": "rus",
@@ -182,7 +195,7 @@
     }
   },
   "protected": false,
-  "quality_score": 91,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
@@ -202,7 +215,7 @@
     "total_reserved_usd": 0.09212,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "168a1108b0cb584118665d0d4048559fb86bb1444e057e3646ac49c743cf2917",
   "translation_model_actual": "gpt-6-luna"
