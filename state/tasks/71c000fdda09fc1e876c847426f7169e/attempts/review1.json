@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-18T10:03:01+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Ultrabewerkte voedingsmiddelen, alinea over maïskorrels en enzymen\",\"severity\":\"major\",\"source_quote\":\"The end result is sugar called high fructose corn syrup\",\"suggested_fix\":\"Vervang ‘glucose-fructosestroop’ door ‘maïsstroop met een hoog fructosegehalte’ (of ‘fructoserijke maïsstroop’).\",\"translation_quote\":\"Het eindproduct is suiker die glucose-fructosestroop wordt genoemd\"}],\"findings_complete\":true,\"passed\":false,\"score\":94}",
+    "content_bytes": 474,
+    "content_evidence_truncated": false,
+    "content_sha256": "91a7463a669f239b8b9f5c923ae8c83b4bc9411870867cd7521ee06b91c383e9",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 717,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 574,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8463,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7360,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 9180
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}
