@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "a099dbae77cb457c80abc1ce56abdc2f",
   "campaign": "auto-d94b5da7cf41f7735049f6203873d723c1a4cc8b71fd5547ca72ec5ffc5488f8",
   "created_at": "2026-11-17T13:31:32+00:00",
   "events": [
@@ -28,10 +27,39 @@
         },
         "total_tokens": 9907
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1108,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 910,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 10261,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 9158,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 11369
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "警察局外的祷告叙述",
+      "severity": "minor",
+      "source_quote": "“He was converted in the revival with eleven other men who were to serve in his presbytery, a wonderful congregation.”",
+      "suggested_fix": "可将末句改为“他在复兴中归信了基督；另有十一位后来将在他的长老会辖区服事的人也一同归信。”，避免把原文的“a wonderful congregation”处理成“一个非凡的群体”。",
+      "translation_quote": "“他在复兴中归信基督，另有十一位后来在他的长老会辖区服事的年轻人也一同归信；这是一个非凡的群体。”"
+    }
+  ],
+  "finished_at": "2026-11-18T10:03:09+00:00",
   "id": "cf018fb6e1247143f56cca336dbd36c9",
   "issue_id": "14962b7b-2d94-5b43-a4c6-bbb78f074d1a",
   "language": "cmn",
@@ -120,9 +148,11 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/f98b63507c65152b8a7321ac23888e0aa26f098d1600382d04165453fec71fbd.json",
   "stage": "review1",
   "stage_budget": {
@@ -138,7 +168,7 @@
     "total_reserved_usd": 0.091485,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "a51f02e689fe1b52df8c601e4466a1281a16cd42b6829edfba58bdfdf76d1ea0",
   "translation_model_actual": "gpt-6-luna"
