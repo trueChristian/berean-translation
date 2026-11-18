@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "a23a0c4fb3d34e678fd48126735a4902",
   "campaign": "auto-b4b941993c05d5ee675a7d82b1daba93088de8c1350c80971fd582e54d68a8b9",
   "created_at": "2026-11-17T02:32:09+00:00",
   "events": [
@@ -48,25 +47,31 @@
         },
         "total_tokens": 3496
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 70,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 38,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 2415,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 2412,
+          "cached_tokens": 0
+        },
+        "total_tokens": 2485
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "translation.html, div.poem, নবম স্তবকের প্রথম পঙ্‌ক্তি",
-      "severity": "major",
-      "source_quote": "Because He treasured us, an atonement for our sin",
-      "suggested_fix": "প্রথম পঙ্‌ক্তিটি করুন: “কারণ আমরা ছিলাম তাঁর অতি প্রিয়—আমাদের পাপের প্রায়শ্চিত্ত”। বিদ্যমান <br> ও পরবর্তী পঙ্‌ক্তি অপরিবর্তিত রাখুন।",
-      "translation_quote": "কারণ তিনি আমাদের অতি প্রিয়—আমাদের পাপের প্রায়শ্চিত্ত"
-    },
-    {
-      "location": "translation.html, div.poem, ষষ্ঠ স্তবকের প্রথম পঙ্‌ক্তি",
-      "severity": "minor",
-      "source_quote": "Ten thousand angels, He could have summoned south,",
-      "suggested_fix": "পঙ্‌ক্তিটি করুন: “দশ হাজার স্বর্গদূতকে তিনি দক্ষিণে ডেকে আনতে পারতেন,”। এতে মুদ্রিত মূলের দিকনির্দেশ বজায় থাকবে।",
-      "translation_quote": "দশ হাজার স্বর্গদূতকে তিনি ডাকতে পারতেন কাছে,"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-11-18T10:04:00+00:00",
   "id": "d12cd8bb974e585049df9a932d084564",
   "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
   "language": "ben",
@@ -155,7 +160,7 @@
     }
   },
   "protected": false,
-  "quality_score": 93,
+  "quality_score": 100,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6.1-sol",
@@ -174,7 +179,7 @@
     "total_reserved_usd": 0.684711,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "e63d8dd4523e81f116e7e26485a04e311cbbba9cab0a4c2e771c80f06b38cb0c",
   "translation_model_actual": "gpt-6.1-sol"
