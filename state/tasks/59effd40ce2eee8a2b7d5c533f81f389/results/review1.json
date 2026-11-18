@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "6fea859f-484a-4f19-81e0-9cd01bd81f28",
+    "response_id": "chatcmpl-ElhDfa9qgoA2QlXxLBxDim8NMY6ru",
+    "usage": {
+      "completion_tokens": 1023,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 921,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 11593,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 11590,
+        "cached_tokens": 0
+      },
+      "total_tokens": 12616
+    }
+  },
+  "received_at": "2026-11-18T21:54:53+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph beginning “This is Holy Ghost conviction!”",
+        "severity": "minor",
+        "source_quote": "“This is Holy Ghost conviction!”",
+        "suggested_fix": "روح القدس کی طرف سے گناہ کا احساس دلانے والی یہ قوت ہے!",
+        "translation_quote": "”یہ روح القدس کی ملامت ہے!“"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}

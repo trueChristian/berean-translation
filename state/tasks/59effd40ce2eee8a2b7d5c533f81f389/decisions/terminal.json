@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph beginning “This is Holy Ghost conviction!”",
+      "severity": "minor",
+      "source_quote": "“This is Holy Ghost conviction!”",
+      "suggested_fix": "روح القدس کی طرف سے گناہ کا احساس دلانے والی یہ قوت ہے!",
+      "translation_quote": "”یہ روح القدس کی ملامت ہے!“"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}
