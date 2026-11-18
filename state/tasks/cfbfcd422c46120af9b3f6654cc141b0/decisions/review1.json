@@ -1,0 +1,35 @@
+{
+  "findings": [
+    {
+      "location": "HTML paragraph 10",
+      "severity": "minor",
+      "source_quote": "a modest log cabin",
+      "suggested_fix": "ایک سادہ سے لکڑی کے کیبن میں",
+      "translation_quote": "ایک سادہ سے لکڑی کے کمرے میں"
+    },
+    {
+      "location": "HTML paragraph 6",
+      "severity": "minor",
+      "source_quote": "incandescent light bulb",
+      "suggested_fix": "تاپدیپت بلب",
+      "translation_quote": "تاپتی بلب"
+    },
+    {
+      "location": "HTML paragraph 8",
+      "severity": "minor",
+      "source_quote": "in gospel music and hymn writing",
+      "suggested_fix": "انجیل کی موسیقی اور گیت نویسی میں",
+      "translation_quote": "انجیل کے موسیقی اور گیت نویسی میں"
+    },
+    {
+      "location": "HTML paragraph 22",
+      "severity": "major",
+      "source_quote": "her benighted millions",
+      "suggested_fix": "ان کے لاکھوں تاریک ذہن لوگوں",
+      "translation_quote": "کروڑوں تاریک دل لوگوں"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

@@ -1,0 +1,59 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "e39ef9c0-4484-40d4-8bd1-0ebef90a714e",
+    "response_id": "chatcmpl-ElhjfSkbvqfPn6jYR1I4q9WduYteq",
+    "usage": {
+      "completion_tokens": 920,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 693,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8351,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8348,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9271
+    }
+  },
+  "received_at": "2026-11-18T21:55:07+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML paragraph 10",
+        "severity": "minor",
+        "source_quote": "a modest log cabin",
+        "suggested_fix": "ایک سادہ سے لکڑی کے کیبن میں",
+        "translation_quote": "ایک سادہ سے لکڑی کے کمرے میں"
+      },
+      {
+        "location": "HTML paragraph 6",
+        "severity": "minor",
+        "source_quote": "incandescent light bulb",
+        "suggested_fix": "تاپدیپت بلب",
+        "translation_quote": "تاپتی بلب"
+      },
+      {
+        "location": "HTML paragraph 8",
+        "severity": "minor",
+        "source_quote": "in gospel music and hymn writing",
+        "suggested_fix": "انجیل کی موسیقی اور گیت نویسی میں",
+        "translation_quote": "انجیل کے موسیقی اور گیت نویسی میں"
+      },
+      {
+        "location": "HTML paragraph 22",
+        "severity": "major",
+        "source_quote": "her benighted millions",
+        "suggested_fix": "ان کے لاکھوں تاریک ذہن لوگوں",
+        "translation_quote": "کروڑوں تاریک دل لوگوں"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 94
+  }
+}

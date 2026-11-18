@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "937a8b3a33b04bf284f171fe5b6ebb1a",
   "campaign": "auto-e23c7722761605de4db45f6b1e3991a0cd29aecc0ee625a0157d2848e4a568a6",
   "created_at": "2026-11-14T21:44:52+00:00",
   "events": [
@@ -28,10 +27,59 @@
         },
         "total_tokens": 8044
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 920,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 693,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8351,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8348,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9271
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "HTML paragraph 10",
+      "severity": "minor",
+      "source_quote": "a modest log cabin",
+      "suggested_fix": "ایک سادہ سے لکڑی کے کیبن میں",
+      "translation_quote": "ایک سادہ سے لکڑی کے کمرے میں"
+    },
+    {
+      "location": "HTML paragraph 6",
+      "severity": "minor",
+      "source_quote": "incandescent light bulb",
+      "suggested_fix": "تاپدیپت بلب",
+      "translation_quote": "تاپتی بلب"
+    },
+    {
+      "location": "HTML paragraph 8",
+      "severity": "minor",
+      "source_quote": "in gospel music and hymn writing",
+      "suggested_fix": "انجیل کی موسیقی اور گیت نویسی میں",
+      "translation_quote": "انجیل کے موسیقی اور گیت نویسی میں"
+    },
+    {
+      "location": "HTML paragraph 22",
+      "severity": "major",
+      "source_quote": "her benighted millions",
+      "suggested_fix": "ان کے لاکھوں تاریک ذہن لوگوں",
+      "translation_quote": "کروڑوں تاریک دل لوگوں"
+    }
+  ],
   "id": "cfbfcd422c46120af9b3f6654cc141b0",
   "issue_id": "103c93e0-6e9a-44f6-a6bc-377af8e08e38",
   "language": "urd",
@@ -120,11 +168,13 @@
     }
   },
   "protected": false,
+  "quality_score": 94,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/392e29d7ab3a4b5f37672fe4d49e2af1f3f480a0dd0aa93781ead79a48d2a559.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "translate",
     "max_candidate_bytes": 120000,
@@ -138,7 +188,7 @@
     "total_reserved_usd": 0.089464,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "24f89250b05cd303e73c3df869edd19f173aa57a9d0a95bd0580196d7fe3e789",
   "translation_model_actual": "gpt-6-luna"
