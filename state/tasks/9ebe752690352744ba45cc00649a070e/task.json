@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "7b17953955e4422098e1ea030720bed5",
   "campaign": "auto-3f9fe20727c20766d0ba0ce69f2c4e17be82f52ef089401ddff89b7d57662a5b",
   "created_at": "2026-11-18T04:48:53+00:00",
   "events": [
@@ -28,10 +27,52 @@
         },
         "total_tokens": 10651
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1141,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 643,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 10973,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 9870,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 12114
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "Paragraf tentang diaken yang jatuh berlutut; paragraf tentang ia kembali berlutut di lorong gereja",
+      "severity": "major",
+      "source_quote": "“That young man fell to his knees, and then fell into a trance.” / “then he fell into a trance once again.”",
+      "suggested_fix": "Ganti “mengalami keadaan seperti kesurupan” dengan “mengalami keadaan trans” pada kedua kemunculan. “Kesurupan” menyiratkan kerasukan, sedangkan sumber menyebut trance.",
+      "translation_quote": "“Pemuda itu jatuh berlutut, lalu mengalami keadaan seperti kesurupan.” / “lalu sekali lagi mengalami keadaan seperti kesurupan.”"
+    },
+    {
+      "location": "Kutipan Yesaya 44:3a dan pengulangan janji itu dalam paragraf tentang doa di lumbung, ucapan diaken, serta ucapan pandai besi",
+      "severity": "major",
+      "source_quote": "“I will pour water upon him that is thirsty, and floods upon the dry ground” / “floods upon the dry ground”",
+      "suggested_fix": "Pada semua kemunculan, ganti “sungai-sungai ke atas tanah yang kering” dengan “limpahan air ke atas tanah yang kering” (atau padanan yang mempertahankan gambaran banjir/limpahan air). “Sungai-sungai” mengubah gambaran dalam kutipan sumber.",
+      "translation_quote": "“Aku akan mencurahkan air ke atas orang yang haus, dan sungai-sungai ke atas tanah yang kering” / “sungai-sungai ke atas tanah yang kering”"
+    },
+    {
+      "location": "Kutipan Mazmur 24:4",
+      "severity": "major",
+      "source_quote": "“who hath not lifted up his soul unto vanity, nor sworn deceitfully.”",
+      "suggested_fix": "Ganti “yang tidak menyerahkan dirinya kepada penipuan” dengan “yang tidak mengangkat jiwanya kepada kesia-siaan” atau padanan setia lainnya; sumber membedakan kesia-siaan dari bersumpah palsu pada klausa berikutnya.",
+      "translation_quote": "“yang tidak menyerahkan dirinya kepada penipuan dan tidak bersumpah palsu.”"
+    }
+  ],
   "id": "9ebe752690352744ba45cc00649a070e",
   "issue_id": "14962b7b-2d94-5b43-a4c6-bbb78f074d1a",
   "language": "ind",
@@ -120,11 +161,13 @@
     }
   },
   "protected": false,
+  "quality_score": 89,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/f98b63507c65152b8a7321ac23888e0aa26f098d1600382d04165453fec71fbd.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "translate",
     "max_candidate_bytes": 120000,
@@ -138,7 +181,7 @@
     "total_reserved_usd": 0.09147,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "a51f02e689fe1b52df8c601e4466a1281a16cd42b6829edfba58bdfdf76d1ea0",
   "translation_model_actual": "gpt-6-luna"
