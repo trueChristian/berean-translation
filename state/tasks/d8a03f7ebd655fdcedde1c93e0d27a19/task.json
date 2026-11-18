@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "6e1f6fe346d748baaf1272d2d14eba46",
   "campaign": "auto-de971d2bc3ca92aad11531e74b7a45629c36ede27057c37e4f6f5e98881e44ee",
   "created_at": "2026-11-15T03:17:24+00:00",
   "events": [
@@ -28,10 +27,45 @@
         },
         "total_tokens": 7550
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1059,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 787,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7904,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 6801,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 8963
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "Opening paragraph, Exodus 10:21–23 quotation",
+      "severity": "major",
+      "source_quote": "“They saw not one another neither rose any from his place for three days”",
+      "suggested_fix": "Replace «לא ראו איש את אחיו ולא קמו איש מתחתיו שלושת ימים» with wording meaning «לא ראו איש את רעהו, ואיש לא קם ממקומו במשך שלושה ימים»; in particular, use «ממקומו» for “from his place.”",
+      "translation_quote": "«לא ראו איש את אחיו ולא קמו איש מתחתיו שלושת ימים»"
+    },
+    {
+      "location": "Paragraph beginning “Bliss’s final hymn,” final sentence",
+      "severity": "minor",
+      "source_quote": "“was found in his trunk, which survived the train wreckage”",
+      "suggested_fix": "Replace «בתא המטען שלו» with «בתיבת המטען שלו» or «במזוודת המטען שלו» to clarify that this means a luggage trunk, not a vehicle’s baggage compartment.",
+      "translation_quote": "«נמצא בתא המטען שלו, ששרד את תאונת הרכבת»"
+    }
+  ],
   "id": "d8a03f7ebd655fdcedde1c93e0d27a19",
   "issue_id": "103c93e0-6e9a-44f6-a6bc-377af8e08e38",
   "language": "heb",
@@ -120,11 +154,13 @@
     }
   },
   "protected": false,
+  "quality_score": 93,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/392e29d7ab3a4b5f37672fe4d49e2af1f3f480a0dd0aa93781ead79a48d2a559.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "translate",
     "max_candidate_bytes": 120000,
@@ -138,7 +174,7 @@
     "total_reserved_usd": 0.089468,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "24f89250b05cd303e73c3df869edd19f173aa57a9d0a95bd0580196d7fe3e789",
   "translation_model_actual": "gpt-6-luna"

@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "76d78343-a679-42b9-b590-76c52a907248",
+    "response_id": "chatcmpl-ElTDrp27WR5Ef3HuF5kuqczkLYCrW",
+    "usage": {
+      "completion_tokens": 1059,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 787,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7904,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6801,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 8963
+    }
+  },
+  "received_at": "2026-11-18T10:03:05+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Opening paragraph, Exodus 10:21–23 quotation",
+        "severity": "major",
+        "source_quote": "“They saw not one another neither rose any from his place for three days”",
+        "suggested_fix": "Replace «לא ראו איש את אחיו ולא קמו איש מתחתיו שלושת ימים» with wording meaning «לא ראו איש את רעהו, ואיש לא קם ממקומו במשך שלושה ימים»; in particular, use «ממקומו» for “from his place.”",
+        "translation_quote": "«לא ראו איש את אחיו ולא קמו איש מתחתיו שלושת ימים»"
+      },
+      {
+        "location": "Paragraph beginning “Bliss’s final hymn,” final sentence",
+        "severity": "minor",
+        "source_quote": "“was found in his trunk, which survived the train wreckage”",
+        "suggested_fix": "Replace «בתא המטען שלו» with «בתיבת המטען שלו» or «במזוודת המטען שלו» to clarify that this means a luggage trunk, not a vehicle’s baggage compartment.",
+        "translation_quote": "«נמצא בתא המטען שלו, ששרד את תאונת הרכבת»"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 93
+  }
+}
