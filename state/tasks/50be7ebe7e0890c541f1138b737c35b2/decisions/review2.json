@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML paragraphs 7 and 15 (the barn incident and the later church incident)",
+      "severity": "major",
+      "source_quote": "“That young man fell to his knees, and then fell into a trance.” / “he fell into a trance once again.”",
+      "suggested_fix": "Replace each instance of “তন্ময় অবস্থায় চলে গেলেন” with “ভাবাবিষ্ট অবস্থায় চলে গেলেন” to convey that he entered a trance, rather than merely becoming absorbed.",
+      "translation_quote": "“যুবকটি হাঁটু গেড়ে পড়ে গেলেন, তারপর তন্ময় অবস্থায় চলে গেলেন।” / “তারপর আবার তন্ময় অবস্থায় চলে গেলেন।”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

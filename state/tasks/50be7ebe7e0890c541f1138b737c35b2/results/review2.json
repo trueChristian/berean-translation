@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "1c064c0e-6112-4cc1-8928-305e361bdfa6",
+    "response_id": "chatcmpl-EliKeuE7JBcy2083UjFT6TYpAnocs",
+    "usage": {
+      "completion_tokens": 1163,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 984,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 11770,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 10667,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 12933
+    }
+  },
+  "received_at": "2026-11-18T22:25:31+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML paragraphs 7 and 15 (the barn incident and the later church incident)",
+        "severity": "major",
+        "source_quote": "“That young man fell to his knees, and then fell into a trance.” / “he fell into a trance once again.”",
+        "suggested_fix": "Replace each instance of “তন্ময় অবস্থায় চলে গেলেন” with “ভাবাবিষ্ট অবস্থায় চলে গেলেন” to convey that he entered a trance, rather than merely becoming absorbed.",
+        "translation_quote": "“যুবকটি হাঁটু গেড়ে পড়ে গেলেন, তারপর তন্ময় অবস্থায় চলে গেলেন।” / “তারপর আবার তন্ময় অবস্থায় চলে গেলেন।”"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 93
+  }
+}
