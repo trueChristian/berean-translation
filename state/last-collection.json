@@ -5,14 +5,14 @@
     "discover_source": false,
     "poll_interval_seconds": 60,
     "stop_reason": "wait_budget_exhausted",
-    "submitted_batches": 20,
+    "submitted_batches": 27,
     "tasks_created": 0,
     "ticks": 1,
     "translations_published": 0,
     "wait_budget_seconds": 600
   },
-  "completed_at": "2026-11-18T14:36:39+00:00",
+  "completed_at": "2026-11-18T14:52:07+00:00",
   "newly_published": 0,
   "operation": "collect",
-  "started_at": "2026-11-18T14:25:42+00:00"
+  "started_at": "2026-11-18T14:41:09+00:00"
 }
