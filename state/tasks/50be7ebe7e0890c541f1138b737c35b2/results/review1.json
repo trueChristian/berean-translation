@@ -1,0 +1,52 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "9d2d9828-6bf5-4a98-b5f8-44239d56ab87",
+    "response_id": "chatcmpl-ElT6UCj1HnLBTPKrTr7ddRRfTNiNO",
+    "usage": {
+      "completion_tokens": 1040,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 692,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 11767,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 11764,
+        "cached_tokens": 0
+      },
+      "total_tokens": 12807
+    }
+  },
+  "received_at": "2026-11-18T10:02:40+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML paragraphs 2 and 35",
+        "severity": "major",
+        "source_quote": "“crusades”",
+        "suggested_fix": "উভয় স্থানে “ধর্মযুদ্ধ” বদলে “প্রচার অভিযান” লিখুন; এখানে ধর্মীয় যুদ্ধ নয়, সুসমাচার প্রচারের অভিযান বোঝানো হয়েছে।",
+        "translation_quote": "“ধর্মযুদ্ধ”"
+      },
+      {
+        "location": "HTML paragraphs 6, 7, and 16",
+        "severity": "major",
+        "source_quote": "“fell into a trance”",
+        "suggested_fix": "প্রতিটি স্থানে “সম্মোহিত অবস্থায় চলে গেলেন” বা “সম্মোহিত অবস্থায় পড়ে গেলেন” বদলে “তন্ময় অবস্থায় চলে গেলেন” (বা সমতুল্য এমন শব্দ) লিখুন; “সম্মোহিত” বললে অন্যের দ্বারা hypnotize করা বোঝায়।",
+        "translation_quote": "“সম্মোহিত অবস্থায় চলে গেলেন”"
+      },
+      {
+        "location": "HTML paragraph 6, Psalm 24 quotation",
+        "severity": "major",
+        "source_quote": "“who hath not lifted up his soul unto vanity”",
+        "suggested_fix": "“যে অসারতায় নিজের প্রাণ সমর্পণ করেনি” সংশোধন করে “যে অসারতার প্রতি মন দেয়নি” (বা সমতুল্য) লিখুন, যাতে অসারতা/অর্থহীনতার ধারণাটি বজায় থাকে।",
+        "translation_quote": "“যে অসারতায় নিজের প্রাণ সমর্পণ করেনি”"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 87
+  }
+}
