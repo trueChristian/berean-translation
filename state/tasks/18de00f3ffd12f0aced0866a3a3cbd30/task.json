@@ -5,11 +5,48 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "946c68d6a3b7430683d1bb567a7b2b94",
   "campaign": "auto-9471dca1a2cae370ba838f65bc81799380c85d1497b084f030375a8e2e82e6f7",
   "created_at": "2026-11-18T01:57:08+00:00",
-  "events": [],
-  "findings": [],
+  "events": [
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 317,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 129,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 2301,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 2298,
+          "cached_tokens": 0
+        },
+        "total_tokens": 2618
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "translation.html, sjätte strofen, första raden",
+      "severity": "minor",
+      "source_quote": "Ten thousand angels, He could have summoned south,",
+      "suggested_fix": "Han kunde ha kallat tiotusen änglar söderut,",
+      "translation_quote": "Han kunde ha kallat till sig tiotusen änglar,"
+    },
+    {
+      "location": "translation.html, nionde strofen, andra raden",
+      "severity": "minor",
+      "source_quote": "He made when He bled and died there to make us His kin!",
+      "suggested_fix": "åstadkom Han när Han blödde och dog där för att göra oss till sin familj!",
+      "translation_quote": "åstadkom Han när Han blödde och dog där för att göra oss till sina!"
+    }
+  ],
+  "finished_at": "2026-11-18T04:17:06+00:00",
   "id": "18de00f3ffd12f0aced0866a3a3cbd30",
   "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
   "language": "swe",
@@ -98,9 +135,11 @@
     }
   },
   "protected": false,
+  "quality_score": 97,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/708a3fb4d13e43b091bc758b553eb57ea330a2bad9c2a965b106a4d7b4fdd07e.json",
   "stage": "review1",
   "stage_budget": {
@@ -115,7 +154,7 @@
     "total_reserved_usd": 0.679611,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 0,
   "translation_key": "e63d8dd4523e81f116e7e26485a04e311cbbba9cab0a4c2e771c80f06b38cb0c",
   "translation_model_actual": "gpt-6-luna"

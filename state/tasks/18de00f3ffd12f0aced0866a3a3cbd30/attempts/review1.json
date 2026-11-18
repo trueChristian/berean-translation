@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-18T04:17:06+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"translation.html, sjätte strofen, första raden\",\"severity\":\"minor\",\"source_quote\":\"Ten thousand angels, He could have summoned south,\",\"suggested_fix\":\"Han kunde ha kallat tiotusen änglar söderut,\",\"translation_quote\":\"Han kunde ha kallat till sig tiotusen änglar,\"},{\"location\":\"translation.html, nionde strofen, andra raden\",\"severity\":\"minor\",\"source_quote\":\"He made when He bled and died there to make us His kin!\",\"suggested_fix\":\"åstadkom Han när Han blödde och dog där för att göra oss till sin familj!\",\"translation_quote\":\"åstadkom Han när Han blödde och dog där för att göra oss till sina!\"}],\"findings_complete\":true,\"passed\":true,\"score\":97}",
+    "content_bytes": 696,
+    "content_evidence_truncated": false,
+    "content_sha256": "9616e5b83944b32cc5207bd1f8948832eb1dfce40daa058d41718dd4824e42b1",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 317,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 129,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2301,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2298,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2618
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}
