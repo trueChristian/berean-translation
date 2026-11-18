@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "52242952de634664be2e751953c87c70",
   "campaign": "auto-e7addd7f2c6bf1e32875b4effe02de6d6396e4410b439b08b92c0db2829fa50c",
   "created_at": "2026-11-13T00:32:01+00:00",
   "events": [
@@ -28,10 +27,46 @@
         },
         "total_tokens": 11347
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 895,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 663,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 11701,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 10598,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 12596
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "HTML, section 5, paragraph beginning “Maak een lijst van leerstellingen”",
+      "severity": "minor",
+      "source_quote": "“What do you believe about ... child discipline?”",
+      "suggested_fix": "Vervang “de tuchtiging van kinderen” door “de discipline van kinderen” or “het disciplineren van kinderen” to preserve the broader meaning of child discipline.",
+      "translation_quote": "“Wat geloof je over ... de tuchtiging van kinderen?”"
+    },
+    {
+      "location": "HTML, section 6, paragraph beginning “Jullie hebben tijd alleen nodig”",
+      "severity": "minor",
+      "source_quote": "“long enough so you can sing and have devotions”",
+      "suggested_fix": "Vervang “een korte bijbelstudie te houden” door “een moment van toewijding te houden” or another idiomatic rendering of “have devotions.”",
+      "translation_quote": "“lang genoeg om samen te zingen en een korte bijbelstudie te houden.”"
+    }
+  ],
+  "finished_at": "2026-11-18T21:55:15+00:00",
   "id": "cf6768d248a306c058f7cd05c13f4619",
   "issue_id": "103c93e0-6e9a-44f6-a6bc-377af8e08e38",
   "language": "nld",
@@ -120,9 +155,11 @@
     }
   },
   "protected": false,
+  "quality_score": 97,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/28493dcff92c3eb625274c8a3da67c7e1031a757b524e0669b9264101184aae7.json",
   "stage": "review1",
   "stage_budget": {
@@ -138,7 +175,7 @@
     "total_reserved_usd": 0.092119,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "168a1108b0cb584118665d0d4048559fb86bb1444e057e3646ac49c743cf2917",
   "translation_model_actual": "gpt-6-luna"

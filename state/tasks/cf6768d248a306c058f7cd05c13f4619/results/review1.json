@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "7d869019-4674-4486-bab7-9c53c2460326",
+    "response_id": "chatcmpl-ElgLr8DDQcDSXFgT0GwX8Z00hLcgq",
+    "usage": {
+      "completion_tokens": 895,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 663,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 11701,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 10598,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 12596
+    }
+  },
+  "received_at": "2026-11-18T21:55:15+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, section 5, paragraph beginning “Maak een lijst van leerstellingen”",
+        "severity": "minor",
+        "source_quote": "“What do you believe about ... child discipline?”",
+        "suggested_fix": "Vervang “de tuchtiging van kinderen” door “de discipline van kinderen” or “het disciplineren van kinderen” to preserve the broader meaning of child discipline.",
+        "translation_quote": "“Wat geloof je over ... de tuchtiging van kinderen?”"
+      },
+      {
+        "location": "HTML, section 6, paragraph beginning “Jullie hebben tijd alleen nodig”",
+        "severity": "minor",
+        "source_quote": "“long enough so you can sing and have devotions”",
+        "suggested_fix": "Vervang “een korte bijbelstudie te houden” door “een moment van toewijding te houden” or another idiomatic rendering of “have devotions.”",
+        "translation_quote": "“lang genoeg om samen te zingen en een korte bijbelstudie te houden.”"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 97
+  }
+}
