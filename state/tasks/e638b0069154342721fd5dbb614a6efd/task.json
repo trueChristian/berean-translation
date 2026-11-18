@@ -5,11 +5,54 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "aea0a5c70568483a9ae1d06bc1ad7cce",
   "campaign": "auto-c3b367e4459c7420838a420875b082bf6340d414e59741ca373528892ca0f917",
   "created_at": "2026-11-17T22:21:38+00:00",
-  "events": [],
-  "findings": [],
+  "events": [
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 473,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 141,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 2335,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 2332,
+          "cached_tokens": 0
+        },
+        "total_tokens": 2808
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "translation.html, div.poem, stanza 1, line 2",
+      "severity": "major",
+      "source_quote": "It was from the beginning that His will He would yield.",
+      "suggested_fix": "Replace the line with: “Tangu mwanzo, alikuwa tayari kuyasalimisha mapenzi yake.”",
+      "translation_quote": "Tangu mwanzo, alikuwa tayari kutii mapenzi yake."
+    },
+    {
+      "location": "translation.html, div.poem, stanza 6, line 1",
+      "severity": "minor",
+      "source_quote": "Ten thousand angels, He could have summoned south,",
+      "suggested_fix": "Restore the printed direction: “Angeweza kuwaita malaika elfu kumi waje kusini,”",
+      "translation_quote": "Angeweza kuita malaika elfu kumi,"
+    },
+    {
+      "location": "translation.html, div.poem, stanza 9, line 1",
+      "severity": "minor",
+      "source_quote": "Because He treasured us",
+      "suggested_fix": "Replace “Kwa sababu alitutunza” with “Kwa sababu alituthamini” to convey that he valued us dearly, rather than that he cared for us.",
+      "translation_quote": "Kwa sababu alitutunza"
+    }
+  ],
   "id": "e638b0069154342721fd5dbb614a6efd",
   "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
   "language": "swa",
@@ -98,11 +141,13 @@
     }
   },
   "protected": false,
+  "quality_score": 94,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/708a3fb4d13e43b091bc758b553eb57ea330a2bad9c2a965b106a4d7b4fdd07e.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "review1",
     "max_candidate_bytes": 120000,
@@ -115,7 +160,7 @@
     "total_reserved_usd": 0.679489,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 0,
   "translation_key": "e63d8dd4523e81f116e7e26485a04e311cbbba9cab0a4c2e771c80f06b38cb0c",
   "translation_model_actual": "gpt-6-luna"

@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-18T04:47:12+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"translation.html, div.poem, stanza 1, line 2\",\n      \"severity\": \"major\",\n      \"source_quote\": \"It was from the beginning that His will He would yield.\",\n      \"suggested_fix\": \"Replace the line with: “Tangu mwanzo, alikuwa tayari kuyasalimisha mapenzi yake.”\",\n      \"translation_quote\": \"Tangu mwanzo, alikuwa tayari kutii mapenzi yake.\"\n    },\n    {\n      \"location\": \"translation.html, div.poem, stanza 6, line 1\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"Ten thousand angels, He could have summoned south,\",\n      \"suggested_fix\": \"Restore the printed direction: “Angeweza kuwaita malaika elfu kumi waje kusini,”\",\n      \"translation_quote\": \"Angeweza kuita malaika elfu kumi,\"\n    },\n    {\n      \"location\": \"translation.html, div.poem, stanza 9, line 1\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"Because He treasured us\",\n      \"suggested_fix\": \"Replace “Kwa sababu alitutunza” with “Kwa sababu alituthamini” to convey that he valued us dearly, rather than that he cared for us.\",\n      \"translation_quote\": \"Kwa sababu alitutunza\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": false,\n  \"score\": 94\n}",
+    "content_bytes": 1191,
+    "content_evidence_truncated": false,
+    "content_sha256": "a73077d39f8fc4cf3c7a6f1a7b36210810bef87a5e19a302d3c5f4e7e2b9b724",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 473,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 141,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2335,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2332,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2808
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}

@@ -1,0 +1,52 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "8204a51c-d9d6-4305-93fa-5693ec5de74c",
+    "response_id": "chatcmpl-ElRkerlmQ3Q6fhHk457Vifp0SARfB",
+    "usage": {
+      "completion_tokens": 473,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 141,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2335,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2332,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2808
+    }
+  },
+  "received_at": "2026-11-18T04:47:12+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "translation.html, div.poem, stanza 1, line 2",
+        "severity": "major",
+        "source_quote": "It was from the beginning that His will He would yield.",
+        "suggested_fix": "Replace the line with: “Tangu mwanzo, alikuwa tayari kuyasalimisha mapenzi yake.”",
+        "translation_quote": "Tangu mwanzo, alikuwa tayari kutii mapenzi yake."
+      },
+      {
+        "location": "translation.html, div.poem, stanza 6, line 1",
+        "severity": "minor",
+        "source_quote": "Ten thousand angels, He could have summoned south,",
+        "suggested_fix": "Restore the printed direction: “Angeweza kuwaita malaika elfu kumi waje kusini,”",
+        "translation_quote": "Angeweza kuita malaika elfu kumi,"
+      },
+      {
+        "location": "translation.html, div.poem, stanza 9, line 1",
+        "severity": "minor",
+        "source_quote": "Because He treasured us",
+        "suggested_fix": "Replace “Kwa sababu alitutunza” with “Kwa sababu alituthamini” to convey that he valued us dearly, rather than that he cared for us.",
+        "translation_quote": "Kwa sababu alitutunza"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 94
+  }
+}
