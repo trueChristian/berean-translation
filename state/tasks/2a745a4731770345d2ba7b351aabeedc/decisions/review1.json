@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "শেষ অনুচ্ছেদ—সূর্যগ্রহণের সময় জনসমাগমের বর্ণনা",
+      "severity": "major",
+      "source_quote": "“hundreds of thousands of natives thronged the sacred waters.”",
+      "suggested_fix": "“কয়েক লক্ষ স্থানীয় মানুষ পবিত্র জলরাশিতে ভিড় করল।”",
+      "translation_quote": "“লক্ষ লক্ষ দেশীয় মানুষ পবিত্র জলরাশিতে ভিড় করল।”"
+    },
+    {
+      "location": "শেষ অনুচ্ছেদ—শেষ বাক্য",
+      "severity": "major",
+      "source_quote": "“India’s spiritual darkness caused by heathenism in the hearts of her benighted millions is eclipsed by Jesus, the Light of the world.”",
+      "suggested_fix": "“অন্ধকারে নিমজ্জিত লক্ষ লক্ষ মানুষের হৃদয়ে পৌত্তলিকতার কারণে ভারতের যে আধ্যাত্মিক অন্ধকার, জগতের আলো যিশু তাকে গ্রাস করে ফেলেন।”",
+      "translation_quote": "“অন্ধকারে নিমজ্জিত লক্ষ লক্ষ মানুষের হৃদয়ে পৌত্তলিকতার কারণে ভারতের আধ্যাত্মিক অন্ধকার—জগতের আলো যিশুর কাছে গ্রহণের অন্ধকারে ঢাকা পড়ে যায়।”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

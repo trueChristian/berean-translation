@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-18T21:55:34+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"শেষ অনুচ্ছেদ—সূর্যগ্রহণের সময় জনসমাগমের বর্ণনা\",\"severity\":\"major\",\"source_quote\":\"“hundreds of thousands of natives thronged the sacred waters.”\",\"suggested_fix\":\"“কয়েক লক্ষ স্থানীয় মানুষ পবিত্র জলরাশিতে ভিড় করল।”\",\"translation_quote\":\"“লক্ষ লক্ষ দেশীয় মানুষ পবিত্র জলরাশিতে ভিড় করল।”\"},{\"location\":\"শেষ অনুচ্ছেদ—শেষ বাক্য\",\"severity\":\"major\",\"source_quote\":\"“India’s spiritual darkness caused by heathenism in the hearts of her benighted millions is eclipsed by Jesus, the Light of the world.”\",\"suggested_fix\":\"“অন্ধকারে নিমজ্জিত লক্ষ লক্ষ মানুষের হৃদয়ে পৌত্তলিকতার কারণে ভারতের যে আধ্যাত্মিক অন্ধকার, জগতের আলো যিশু তাকে গ্রাস করে ফেলেন।”\",\"translation_quote\":\"“অন্ধকারে নিমজ্জিত লক্ষ লক্ষ মানুষের হৃদয়ে পৌত্তলিকতার কারণে ভারতের আধ্যাত্মিক অন্ধকার—জগতের আলো যিশুর কাছে গ্রহণের অন্ধকারে ঢাকা পড়ে যায়।”\"}],\"findings_complete\":true,\"passed\":false,\"score\":90}",
+    "content_bytes": 1677,
+    "content_evidence_truncated": false,
+    "content_sha256": "48b2962ec4b18899ed484c8ed8da2cd751927d940df59d972c2ea2f562a5ae2a",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 964,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 679,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8524,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8521,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9488
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}
