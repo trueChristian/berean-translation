@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "title",
+      "severity": "minor",
+      "source_quote": "DUNCAN CAMPBELL",
+      "suggested_fix": "ДУНКАН КЭМПБЕЛЛ",
+      "translation_quote": "ДАНКАН КЭМПБЕЛЛ"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}
