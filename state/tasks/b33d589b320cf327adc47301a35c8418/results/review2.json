@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "ed1897dc-1d5c-4f9f-833c-254ba9bff411",
+    "response_id": "chatcmpl-ElRwyrRQwYkS4XCKD0xANI7iFrQCH",
+    "usage": {
+      "completion_tokens": 1263,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1024,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7200,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 7197
+      },
+      "total_tokens": 8463
+    }
+  },
+  "received_at": "2026-11-18T05:01:37+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, first paragraph: description of prayer for revival",
+        "severity": "minor",
+        "source_quote": "“We need a fury of passionate pleading, desperate crying, fervent praying for a heaven-sent revival in our day.”",
+        "suggested_fix": "“Vi behöver passionerade vädjanden, förtvivlade rop och innerliga böner om en himmelsänd väckelse i vår tid.”",
+        "translation_quote": "“Vi behöver ett raseri av passionerade vädjanden, förtvivlade rop och innerliga böner om en himmelsänd väckelse i vår tid.”"
+      },
+      {
+        "location": "HTML, paragraph under “VÄCKELSE ELLER DÖD”: Mario Murillo quotation",
+        "severity": "minor",
+        "source_quote": "“None of the ointment can be spared.”",
+        "suggested_fix": "“Inget av smörjelsemedlet får sparas.”",
+        "translation_quote": "“Ingen av salvorna får sparas.”"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 97
+  }
+}
