@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML paragraphs beginning “एक रात उन बहनों…” and “जल्द ही वह गलियारे…”",
+      "severity": "minor",
+      "source_quote": "“fell into a trance”",
+      "suggested_fix": "इन दोनों स्थानों पर “समाधि जैसी अवस्था” के बजाय “तंद्रा जैसी अवस्था” लिखें, ताकि ‘trance’ का अर्थ बना रहे और समाधि का धार्मिक-सांस्कृतिक अर्थ न जुड़े।",
+      "translation_quote": "“समाधि जैसी अवस्था में चला गया”"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-18T04:16:52+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML paragraphs beginning “एक रात उन बहनों…” and “जल्द ही वह गलियारे…”\",\"severity\":\"minor\",\"source_quote\":\"“fell into a trance”\",\"suggested_fix\":\"इन दोनों स्थानों पर “समाधि जैसी अवस्था” के बजाय “तंद्रा जैसी अवस्था” लिखें, ताकि ‘trance’ का अर्थ बना रहे और समाधि का धार्मिक-सांस्कृतिक अर्थ न जुड़े।\",\"translation_quote\":\"“समाधि जैसी अवस्था में चला गया”\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 786,
+    "content_evidence_truncated": false,
+    "content_sha256": "10074548b7654ed28edb1daee2172b252855251b9e749616f875efb6ebd06b14",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 945,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 804,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 11407,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 11404,
+        "cached_tokens": 0
+      },
+      "total_tokens": 12352
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}
