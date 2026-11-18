@@ -40786,6 +40786,34 @@
     {
       "ai_notice_required": true,
       "direction": "rtl",
+      "html": "content/heb/articles/572ec209-1870-46a2-ba99-bc6121777d7c.html",
+      "html_sha256": "84a2cc3908aa234b7f99d157e2252b90eecc4097acf208363c4ae405cf8ead61",
+      "human_reviewed": false,
+      "id": "572ec209-1870-46a2-ba99-bc6121777d7c",
+      "images": [
+        {
+          "alt": "עץ גדול ורחב־עלים לצד שדה ירוק, תחת שמיים כחולים",
+          "public_path": "/images/articles/572ec209-1870-46a2-ba99-bc6121777d7c-1.jpg"
+        }
+      ],
+      "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
+      "language": "heb",
+      "language_tag": "he",
+      "metadata": "content/heb/articles/572ec209-1870-46a2-ba99-bc6121777d7c.json",
+      "metadata_sha256": "5b30a17218702a969318750d29bce9e628619b3acd2333ff699a20c04005b756",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "שיר",
+      "source_revision": "a069ecca8827634ebc256b3b1cabc16aeb942ed7",
+      "source_translation_key": "e63d8dd4523e81f116e7e26485a04e311cbbba9cab0a4c2e771c80f06b38cb0c",
+      "status": "ready",
+      "subtitle": null,
+      "title": "מושיע סובל",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
       "html": "content/heb/articles/58d3859b-42f6-4cf1-80e6-fa847d9dc4a4.html",
       "html_sha256": "764b7b9e363bca9f5c3a92d4b99228cebce345ca8d688f5d4e98858eb08600fa",
       "human_reviewed": false,
