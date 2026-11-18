@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Párrafos 4 y 6, citas de Isaías 44:3a",
+      "severity": "major",
+      "source_quote": "“For I will pour water upon him that is thirsty, and floods upon the dry ground”",
+      "suggested_fix": "En ambas citas, sustituir «sobre el sequedal» por «sobre el sediento», para conservar el contraste entre la persona sedienta y la tierra seca.",
+      "translation_quote": "«Porque yo derramaré aguas sobre el sequedal, y ríos sobre la tierra seca»; «Derramaré aguas sobre el sequedal, y ríos sobre la tierra seca»"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
