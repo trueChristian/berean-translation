@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "b20ba8a1f7d744d58e6d505ac4d4bc32",
   "campaign": "auto-a9b351f225a6cb36cad3929d3d4e8a0f5febb06cb341f1bb02f68440ce50da31",
   "created_at": "2026-11-17T04:36:50+00:00",
   "events": [
@@ -68,25 +67,47 @@
         },
         "total_tokens": 10904
       }
-    }
-  ],
-  "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "Article, “REVIVAL OR DEATH,” quotation attributed to Winkie Pratney",
-      "severity": "major",
-      "source_quote": "“Our concern is conciliatory, our obedience optional, our lack theologically and culturally justified.”",
-      "suggested_fix": "Replace ״והעדרנו מוצדק מבחינה תאולוגית ותרבותית״ with wording that conveys that their lack (in context, their lack of revival or concern) is justified theologically and culturally, for example: ״ואת חסרוננו אנו מצדיקים מבחינה תאולוגית ותרבותית״.",
-      "translation_quote": "״הדאגה שלנו מפייסת, הציות שלנו בגדר אפשרות, והעדרנו מוצדק מבחינה תאולוגית ותרבותית.״"
     },
     {
-      "location": "Article, opening section, sentence beginning ״אנו זקוקים לתחינה״",
-      "severity": "minor",
-      "source_quote": "“fervent praying”",
-      "suggested_fix": "Replace ״לתפילה ferventית״ with ״לתפילה נלהבת״.",
-      "translation_quote": "״לתפילה ferventית לתחייה שנשלחה מן השמים בימינו.״"
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1297,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 994,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7378,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 6275,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 8675
+      }
     }
   ],
+  "failure": "Final review failed; a recovery continuation must pass admission",
+  "failure_kind": "quality_rejection",
+  "findings": [
+    {
+      "location": "Opening paragraph, sentence beginning “The true Christian witness”",
+      "severity": "major",
+      "source_quote": "“The true Christian witness seems to be almost overshadowed by false doctrines, false cults, and false prophets.”",
+      "suggested_fix": "Replace ״כמעט הוצלה״ with ״כמעט הועמה״, for example: ״נראה שעדותו של הנוצרי האמיתי כמעט הועמה בידי דוקטרינות שקריות, כתות שקריות ונביאי שקר.״",
+      "translation_quote": "״נראה שעדותו של הנוצרי האמיתי כמעט הוצלה על ידי דוקטרינות שקריות, כתות שקריות ונביאי שקר.״"
+    },
+    {
+      "location": "“REVIVAL OR DEATH,” paragraph about William Seymour",
+      "severity": "major",
+      "source_quote": "“A glorious, powerful, sweeping Pentecost swept the world.”",
+      "suggested_fix": "Render “Pentecost” here as the Pentecostal revival or outpouring, not the Jewish holiday: ״תחייה פנטקוסטלית מפוארת, עוצמתית וסוחפת שטפה את העולם.״",
+      "translation_quote": "״חג השבועות מפואר ועוצמתי שטף את העולם.״"
+    }
+  ],
+  "finished_at": "2026-11-18T04:46:54+00:00",
   "id": "a3e43d4ed4e6a5220fcbfc5841fa61fa",
   "issue_id": "14962b7b-2d94-5b43-a4c6-bbb78f074d1a",
   "language": "heb",
@@ -195,7 +216,7 @@
     "total_reserved_usd": 0.089295,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "59c6af529e48a18151a99afd7610829371425facdfe6a9b50a5c2c302acba8b6",
   "translation_model_actual": "gpt-6-luna"

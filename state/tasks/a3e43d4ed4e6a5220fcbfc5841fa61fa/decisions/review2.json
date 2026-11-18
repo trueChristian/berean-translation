@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Opening paragraph, sentence beginning “The true Christian witness”",
+      "severity": "major",
+      "source_quote": "“The true Christian witness seems to be almost overshadowed by false doctrines, false cults, and false prophets.”",
+      "suggested_fix": "Replace ״כמעט הוצלה״ with ״כמעט הועמה״, for example: ״נראה שעדותו של הנוצרי האמיתי כמעט הועמה בידי דוקטרינות שקריות, כתות שקריות ונביאי שקר.״",
+      "translation_quote": "״נראה שעדותו של הנוצרי האמיתי כמעט הוצלה על ידי דוקטרינות שקריות, כתות שקריות ונביאי שקר.״"
+    },
+    {
+      "location": "“REVIVAL OR DEATH,” paragraph about William Seymour",
+      "severity": "major",
+      "source_quote": "“A glorious, powerful, sweeping Pentecost swept the world.”",
+      "suggested_fix": "Render “Pentecost” here as the Pentecostal revival or outpouring, not the Jewish holiday: ״תחייה פנטקוסטלית מפוארת, עוצמתית וסוחפת שטפה את העולם.״",
+      "translation_quote": "״חג השבועות מפואר ועוצמתי שטף את העולם.״"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}
