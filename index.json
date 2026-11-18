@@ -59909,6 +59909,42 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ita/articles/b649c2a3-20b1-4e02-9204-6285b234f34f.html",
+      "html_sha256": "1e2ecf9f1251bd5f2baf7ffb35a1a2b148af120663fd19c2a66c0dd78369d506",
+      "human_reviewed": false,
+      "id": "b649c2a3-20b1-4e02-9204-6285b234f34f",
+      "images": [
+        {
+          "alt": "Ritratto di Philip P. Bliss.",
+          "public_path": "/images/articles/b649c2a3-20b1-4e02-9204-6285b234f34f-1.jpg"
+        },
+        {
+          "alt": "Fiori lilla pallido tra foglie verdi.",
+          "public_path": "/images/articles/b649c2a3-20b1-4e02-9204-6285b234f34f-2.jpg"
+        },
+        {
+          "alt": "Lo spartito completo a stampa di The Light of the World Is Jesus.",
+          "public_path": "/images/articles/b649c2a3-20b1-4e02-9204-6285b234f34f-3.png"
+        }
+      ],
+      "issue_id": "103c93e0-6e9a-44f6-a6bc-377af8e08e38",
+      "language": "ita",
+      "language_tag": "it",
+      "metadata": "content/ita/articles/b649c2a3-20b1-4e02-9204-6285b234f34f.json",
+      "metadata_sha256": "646ad651f5ae044fc589422c914bfca39d369a52ab9f7ba49a01e7d5c5f7da39",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "Storia degli inni",
+      "source_revision": "ccefc5a5c3d79409cc78319f94b5490718d30670",
+      "source_translation_key": "24f89250b05cd303e73c3df869edd19f173aa57a9d0a95bd0580196d7fe3e789",
+      "status": "ready",
+      "subtitle": null,
+      "title": "La Luce del mondo è Gesù",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ita/articles/b72ea42a-1a86-4c21-a399-ebd3013c257b.html",
       "html_sha256": "a85fefd8e6467c98fc8a436805ef7693bb2cc96de4419e8107a5d8864f2b6f42",
       "human_reviewed": false,
