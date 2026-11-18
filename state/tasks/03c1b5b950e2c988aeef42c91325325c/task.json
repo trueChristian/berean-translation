@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "3a93922fdbdf4d80ae984f2d614730bb",
   "campaign": "auto-9e5b9249f97ee6733c38f9abd40ff21ee368e3aedb4d7c37cf2fef23c8fbf94a",
   "created_at": "2026-11-18T04:49:21+00:00",
   "events": [
@@ -28,25 +27,31 @@
         },
         "total_tokens": 11334
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 194,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 162,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7463,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 6360,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 7657
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "Opening paragraph, sentence beginning “The true Christian witness”",
-      "severity": "major",
-      "source_quote": "“The true Christian witness seems to be almost overshadowed by false doctrines, false cults, and false prophets.”",
-      "suggested_fix": "Replace ״כמעט הוצלה״ with ״כמעט הועמה״, for example: ״נראה שעדותו של הנוצרי האמיתי כמעט הועמה בידי דוקטרינות שקריות, כתות שקריות ונביאי שקר.״",
-      "translation_quote": "״נראה שעדותו של הנוצרי האמיתי כמעט הוצלה על ידי דוקטרינות שקריות, כתות שקריות ונביאי שקר.״"
-    },
-    {
-      "location": "“REVIVAL OR DEATH,” paragraph about William Seymour",
-      "severity": "major",
-      "source_quote": "“A glorious, powerful, sweeping Pentecost swept the world.”",
-      "suggested_fix": "Render “Pentecost” here as the Pentecostal revival or outpouring, not the Jewish holiday: ״תחייה פנטקוסטלית מפוארת, עוצמתית וסוחפת שטפה את העולם.״",
-      "translation_quote": "״חג השבועות מפואר ועוצמתי שטף את העולם.״"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-11-18T10:03:38+00:00",
   "id": "03c1b5b950e2c988aeef42c91325325c",
   "issue_id": "14962b7b-2d94-5b43-a4c6-bbb78f074d1a",
   "language": "heb",
@@ -135,9 +140,11 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/b8e84c6ac2371f97ffbabe7b6084751e2c3708d2cb234f7339f556b830577afa.json",
   "stage": "review2",
   "stage_budget": {
@@ -151,7 +158,7 @@
     "total_reserved_usd": 0.582622,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "59c6af529e48a18151a99afd7610829371425facdfe6a9b50a5c2c302acba8b6",
   "translation_model_actual": "gpt-6.1-sol"
