@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "19572e9a-74d3-4e16-9c6c-d1af78d38267",
+    "response_id": "chatcmpl-ElLwOWgjBzolaYj39gOO8JRTvj73m",
+    "usage": {
+      "completion_tokens": 304,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 63,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7571,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6468,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 7875
+    }
+  },
+  "received_at": "2026-11-18T01:55:08+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "translation.html, aya ya kwanza, nukuu kuhusu Kanisa la Presbyterian",
+        "severity": "minor",
+        "source_quote": "there is only one explanation",
+        "suggested_fix": "Badilisha “kuna maelezo moja tu” kuwa “kuna ufafanuzi mmoja tu”.",
+        "translation_quote": "kuna maelezo moja tu"
+      },
+      {
+        "location": "translation.html, aya yenye nukuu ya S.B. Shaw",
+        "severity": "minor",
+        "source_quote": "and so burden the hearts of God's ministers",
+        "suggested_fix": "Badilisha “na kuuwekea mzigo mioyo ya wahudumu wa Mungu” kuwa “na kuiwekea mzigo mioyo ya wahudumu wa Mungu”.",
+        "translation_quote": "na kuuwekea mzigo mioyo ya wahudumu wa Mungu"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}

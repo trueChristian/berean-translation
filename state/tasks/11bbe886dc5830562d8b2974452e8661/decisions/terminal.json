@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "translation.html, aya ya kwanza, nukuu kuhusu Kanisa la Presbyterian",
+      "severity": "minor",
+      "source_quote": "there is only one explanation",
+      "suggested_fix": "Badilisha “kuna maelezo moja tu” kuwa “kuna ufafanuzi mmoja tu”.",
+      "translation_quote": "kuna maelezo moja tu"
+    },
+    {
+      "location": "translation.html, aya yenye nukuu ya S.B. Shaw",
+      "severity": "minor",
+      "source_quote": "and so burden the hearts of God's ministers",
+      "suggested_fix": "Badilisha “na kuuwekea mzigo mioyo ya wahudumu wa Mungu” kuwa “na kuiwekea mzigo mioyo ya wahudumu wa Mungu”.",
+      "translation_quote": "na kuuwekea mzigo mioyo ya wahudumu wa Mungu"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

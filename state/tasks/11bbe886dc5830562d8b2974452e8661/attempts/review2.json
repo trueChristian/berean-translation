@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-18T01:55:08+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"translation.html, aya ya kwanza, nukuu kuhusu Kanisa la Presbyterian\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"there is only one explanation\",\n      \"suggested_fix\": \"Badilisha “kuna maelezo moja tu” kuwa “kuna ufafanuzi mmoja tu”.\",\n      \"translation_quote\": \"kuna maelezo moja tu\"\n    },\n    {\n      \"location\": \"translation.html, aya yenye nukuu ya S.B. Shaw\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"and so burden the hearts of God's ministers\",\n      \"suggested_fix\": \"Badilisha “na kuuwekea mzigo mioyo ya wahudumu wa Mungu” kuwa “na kuiwekea mzigo mioyo ya wahudumu wa Mungu”.\",\n      \"translation_quote\": \"na kuuwekea mzigo mioyo ya wahudumu wa Mungu\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": true,\n  \"score\": 98\n}",
+    "content_bytes": 813,
+    "content_evidence_truncated": false,
+    "content_sha256": "24caeaf8e9b230b9ec3ae4a2aa2d444f746f34227bed7fb21533df484823d328",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 304,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 63,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7571,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6468,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 7875
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review2",
+  "translation_attempts": 1
+}
