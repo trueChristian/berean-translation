@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraph beginning «وعندما ذهبت إلى باب الكنيسة»",
+      "severity": "major",
+      "source_quote": "“God swept by in Pentecostal power, the power of the Holy Ghost.”",
+      "suggested_fix": "Replace «بقوة عنصرية، قوة الروح القدس» with «بقوةٍ خمسينية، قوة الروح القدس» (or another clear Arabic rendering of “Pentecostal power”).",
+      "translation_quote": "«أعتقد أن الله اجتاح المكان في تلك الليلة نفسها بقوة عنصرية، قوة الروح القدس»"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
