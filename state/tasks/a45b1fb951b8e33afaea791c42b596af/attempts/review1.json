@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-19T00:50:22+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"translation.html — παράγραφος που αρχίζει «Στο τέλος της πρώτης εβδομάδας»\",\n      \"severity\": \"major\",\n      \"source_quote\": \"he would offer Sterling and I each one of his little paddies to hold while he ate\",\n      \"suggested_fix\": \"Αντικαταστήστε το «πρόσφερε στον Στέρλινγκ κι εμένα από ένα μικρό του κακάκι να κρατάμε όσο έτρωγε» με «έδινε στον Στέρλινγκ κι εμένα από ένα χεράκι του να κρατάμε όσο έτρωγε».\",\n      \"translation_quote\": \"πρόσφερε στον Στέρλινγκ κι εμένα από ένα μικρό του κακάκι να κρατάμε όσο έτρωγε\"\n    },\n    {\n      \"location\": \"translation.html — παράγραφοι που αρχίζουν «Στο τέλος της πρώτης εβδομάδας» και «Τώρα τον παρακολουθούμε με χαρά»\",\n      \"severity\": \"major\",\n      \"source_quote\": \"toddling around the house with happy babbling; charming our family with his toddling antics\",\n      \"suggested_fix\": \"Στην πρώτη παράγραφο αντικαταστήστε το «περιφερόταν στο σπίτι μπουσουλώντας και φλυαρώντας χαρούμενα» με «περιφερόταν στο σπίτι με ασταθή βηματάκια και φλυαρώντας χαρούμενα». Στη δεύτερη αντικαταστήστε το «με τις σκανταλιές του όταν περιφέρεται μπουσουλώντας» με «με τις σκανταλιές του καθώς τριγυρίζει με τα μικρά του βήματα». Το παιδί ήδη περπατά σε αυτό το στάδιο της αφήγησης.\",\n      \"translation_quote\": \"περιφερόταν στο σπίτι μπουσουλώντας και φλυαρώντας χαρούμενα; γοητεύει την οικογένειά μας με τις σκανταλιές του όταν περιφέρεται μπουσουλώντας\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": false,\n  \"score\": 93\n}",
+    "content_bytes": 2303,
+    "content_evidence_truncated": false,
+    "content_sha256": "f94c4f056c58d0fc7e7745a026507c4940a06e24c420d37f6717fafcb87715fa",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 591,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 89,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 19245,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 18142,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 19836
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}

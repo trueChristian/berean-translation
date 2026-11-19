@@ -5,11 +5,47 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "b67107e85d9e41e1b452dd5b1da3f810",
   "campaign": "auto-f46a00a1a56ee5f333b18605a1a75dd5ff5e9cd94a71848b106d05d0756e50b8",
   "created_at": "2026-11-13T00:23:25+00:00",
-  "events": [],
-  "findings": [],
+  "events": [
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 591,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 89,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 19245,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 18142,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 19836
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "translation.html — παράγραφος που αρχίζει «Στο τέλος της πρώτης εβδομάδας»",
+      "severity": "major",
+      "source_quote": "he would offer Sterling and I each one of his little paddies to hold while he ate",
+      "suggested_fix": "Αντικαταστήστε το «πρόσφερε στον Στέρλινγκ κι εμένα από ένα μικρό του κακάκι να κρατάμε όσο έτρωγε» με «έδινε στον Στέρλινγκ κι εμένα από ένα χεράκι του να κρατάμε όσο έτρωγε».",
+      "translation_quote": "πρόσφερε στον Στέρλινγκ κι εμένα από ένα μικρό του κακάκι να κρατάμε όσο έτρωγε"
+    },
+    {
+      "location": "translation.html — παράγραφοι που αρχίζουν «Στο τέλος της πρώτης εβδομάδας» και «Τώρα τον παρακολουθούμε με χαρά»",
+      "severity": "major",
+      "source_quote": "toddling around the house with happy babbling; charming our family with his toddling antics",
+      "suggested_fix": "Στην πρώτη παράγραφο αντικαταστήστε το «περιφερόταν στο σπίτι μπουσουλώντας και φλυαρώντας χαρούμενα» με «περιφερόταν στο σπίτι με ασταθή βηματάκια και φλυαρώντας χαρούμενα». Στη δεύτερη αντικαταστήστε το «με τις σκανταλιές του όταν περιφέρεται μπουσουλώντας» με «με τις σκανταλιές του καθώς τριγυρίζει με τα μικρά του βήματα». Το παιδί ήδη περπατά σε αυτό το στάδιο της αφήγησης.",
+      "translation_quote": "περιφερόταν στο σπίτι μπουσουλώντας και φλυαρώντας χαρούμενα; γοητεύει την οικογένειά μας με τις σκανταλιές του όταν περιφέρεται μπουσουλώντας"
+    }
+  ],
   "id": "a45b1fb951b8e33afaea791c42b596af",
   "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
   "language": "ell",
@@ -98,11 +134,13 @@
     }
   },
   "protected": false,
+  "quality_score": 93,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/387a30a8b9a527909765f2e60773227d3f49a4a9b5776049e1f6de3e5552f735.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "review1",
     "max_candidate_bytes": 120000,
@@ -115,7 +153,7 @@
     "total_reserved_usd": 1.272637,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 0,
   "translation_key": "c0ea566946f0a6021377107c368c8e903efb03bae10a6af153c1e6371a1e792a",
   "translation_model_actual": "gpt-6-luna"
