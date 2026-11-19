@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "translation.html, aya ya mwisho",
+      "severity": "minor",
+      "source_quote": "deny ourselves",
+      "suggested_fix": "Badilisha “tuj ikane” kuwa “tujikane”.",
+      "translation_quote": "tuj ikane"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

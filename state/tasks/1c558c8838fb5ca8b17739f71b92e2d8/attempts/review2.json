@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-19T21:28:26+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"translation.html, aya ya mwisho\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"deny ourselves\",\n      \"suggested_fix\": \"Badilisha “tuj ikane” kuwa “tujikane”.\",\n      \"translation_quote\": \"tuj ikane\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": true,\n  \"score\": 99\n}",
+    "content_bytes": 329,
+    "content_evidence_truncated": false,
+    "content_sha256": "b6a87a144c92da38952ae9b6339d9328d910131691eaa87ccba8d7a7a350ad63",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 151,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 40,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6592,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6589,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6743
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review2",
+  "translation_attempts": 1
+}

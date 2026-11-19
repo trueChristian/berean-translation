@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "f434656d21bd483b9ffdb9498681b200",
   "campaign": "auto-42303bdfecdd4f6df1e75d7dfd0ebf14853573b51d93e4b6daff41adfe425c3e",
   "created_at": "2026-11-19T03:33:05+00:00",
   "events": [
@@ -28,25 +27,39 @@
         },
         "total_tokens": 9855
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 151,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 40,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6592,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 6589,
+          "cached_tokens": 0
+        },
+        "total_tokens": 6743
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "Paragraph 3, Matthew 4:23 quotation",
-      "severity": "major",
-      "source_quote": "“healing all manner of sickness and all manner of disease among the people”",
-      "suggested_fix": "Replace “na kuponya magonjwa yote na udhaifu wa kila namna miongoni mwa watu” with “na kuponya kila namna ya ugonjwa na kila namna ya maradhi miongoni mwa watu.”",
-      "translation_quote": "“na kuponya magonjwa yote na udhaifu wa kila namna miongoni mwa watu”"
-    },
-    {
-      "location": "Paragraph 8, account of the young father",
-      "severity": "major",
-      "source_quote": "“so they burnt him at the stake”",
-      "suggested_fix": "Replace “kwa hiyo wakamchoma kwenye mti wa mateso” with “kwa hiyo wakamchoma akiwa amefungwa kwenye mti wa kuchomea watu.”",
-      "translation_quote": "“kwa hiyo wakamchoma kwenye mti wa mateso”"
+      "location": "translation.html, aya ya mwisho",
+      "severity": "minor",
+      "source_quote": "deny ourselves",
+      "suggested_fix": "Badilisha “tuj ikane” kuwa “tujikane”.",
+      "translation_quote": "tuj ikane"
     }
   ],
+  "finished_at": "2026-11-19T21:28:26+00:00",
   "id": "1c558c8838fb5ca8b17739f71b92e2d8",
   "issue_id": "7024063a-5783-5744-8055-7b12fee04019",
   "language": "swa",
@@ -135,9 +148,11 @@
     }
   },
   "protected": false,
+  "quality_score": 99,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/7434cb13c1d80517ad133a1c4c0893948466806ea88db8f224cb99af5eed68e8.json",
   "stage": "review2",
   "stage_budget": {
@@ -151,7 +166,7 @@
     "total_reserved_usd": 0.570841,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "727e7fad16fe0c183877371536ededc34c2fe36e9cda810c7aa781b90f25417a",
   "translation_model_actual": "gpt-6.1-sol"
