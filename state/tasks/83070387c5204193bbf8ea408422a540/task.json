@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "bd140d89662b4c8e8ad59f6adf787d6b",
   "campaign": "auto-e45706b636897d427fcd470c88e46dbfd29283bb71c88e08accd1ab261773011",
   "created_at": "2026-11-14T03:11:24+00:00",
   "events": [
@@ -28,18 +27,31 @@
         },
         "total_tokens": 18100
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 70,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 38,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 12085,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 12082,
+          "cached_tokens": 0
+        },
+        "total_tokens": 12155
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "Section “1. Hands-off Courtship,” Scripture quotation (1 Corinthians 7:1-2)",
-      "severity": "major",
-      "source_quote": "“Nevertheless, to avoid fornication, let every man have his own wife, and let every woman have her own husband”",
-      "suggested_fix": "Replace «ولكن لسبب الزنى» with «ولكن لتجنب الزنى» so the quotation conveys avoiding fornication, rather than acting because of it.",
-      "translation_quote": "«ولكن لسبب الزنى، ليكن لكل واحد امرأته، وليكن لكل واحدة رجلها»"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-11-19T00:48:39+00:00",
   "id": "83070387c5204193bbf8ea408422a540",
   "issue_id": "103c93e0-6e9a-44f6-a6bc-377af8e08e38",
   "language": "ara",
@@ -128,9 +140,11 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/28493dcff92c3eb625274c8a3da67c7e1031a757b524e0669b9264101184aae7.json",
   "stage": "review2",
   "stage_budget": {
@@ -144,7 +158,7 @@
     "total_reserved_usd": 0.620877,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "168a1108b0cb584118665d0d4048559fb86bb1444e057e3646ac49c743cf2917",
   "translation_model_actual": "gpt-6.1-sol"
