@@ -30208,6 +30208,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ell/articles/6f528c85-5ee6-4ccd-804f-63652b5c3a1d.html",
+      "html_sha256": "eed8c50b031269863b88212e19ed0589b1d7b76cc99bd754eb1c6459e642ae44",
+      "human_reviewed": false,
+      "id": "6f528c85-5ee6-4ccd-804f-63652b5c3a1d",
+      "images": [
+        {
+          "alt": "Μια ασπρόμαυρη υδρόγειος με κέντρο την Αφρική",
+          "public_path": "/images/articles/6f528c85-5ee6-4ccd-804f-63652b5c3a1d-1.png"
+        }
+      ],
+      "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
+      "language": "ell",
+      "language_tag": "el",
+      "metadata": "content/ell/articles/6f528c85-5ee6-4ccd-804f-63652b5c3a1d.json",
+      "metadata_sha256": "102003777d48ac428afc452484c9612cc31d14c66eae576f762b05eeb4f329bd",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": null,
+      "source_revision": "e369a5ff3b588a942e849ecb739ff6a294ac9c00",
+      "source_translation_key": "777174504c2a69b7865dc06d6a82e4887ccbbba320896ef87aad1241b41a3dbe",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Είμαστε Παγκόσμιοι Χριστιανοί",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ell/articles/706a8a3f-0194-434e-a3c9-27c1635ec6f9.html",
       "html_sha256": "0ba5e1b50a0c9ad9e5ff118f7a51aee1c7bfd3bedbf12587db0f843b5e694612",
       "human_reviewed": false,
