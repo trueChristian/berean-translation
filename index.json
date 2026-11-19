@@ -102091,6 +102091,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/swe/articles/0b10b42a-d2c7-4e0f-bf4d-62eec6c8ee11.html",
+      "html_sha256": "5ddb63eeca9ad8e3938175ed6d1f6ad51072f0e888b4a993851097cf393544e5",
+      "human_reviewed": false,
+      "id": "0b10b42a-d2c7-4e0f-bf4d-62eec6c8ee11",
+      "images": [
+        {
+          "alt": "En man och en kvinna håller varandra i handen som silhuetter mot en intensiv solnedgång",
+          "public_path": "/images/articles/0b10b42a-d2c7-4e0f-bf4d-62eec6c8ee11-1.jpg"
+        }
+      ],
+      "issue_id": "7024063a-5783-5744-8055-7b12fee04019",
+      "language": "swe",
+      "language_tag": "sv",
+      "metadata": "content/swe/articles/0b10b42a-d2c7-4e0f-bf4d-62eec6c8ee11.json",
+      "metadata_sha256": "978db59678409664e4038e2585f4215ac2d72f67ae3ae032166ff0cd1765cbfd",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "DET GUDFRUKTIGA HEMMET",
+      "source_revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+      "source_translation_key": "1243da278287e2df10dec98aa6fbb46526de19f4b253dc16e4567c3b98475df7",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Äktenskapets hemlighet",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/swe/articles/0b798d8c-e0b8-43a2-8a76-1c9d527f25b9.html",
       "html_sha256": "d7445a4f7ccb7896cf3dc5bfdd22b9cc7dc6a78d97569c372408f4b4e2856c9c",
       "human_reviewed": false,
