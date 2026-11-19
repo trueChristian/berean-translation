@@ -2172,7 +2172,7 @@
   },
   "status": "active",
   "task_counts": {
-    "in_batch": 1
+    "queued": 1
   },
   "tasks": [
     "5011a08fea9d767659ad4e8f61d98aa6"
