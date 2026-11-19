@@ -1,0 +1,66 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "221e5bae-98f7-4f45-833c-054a7e848bb2",
+    "response_id": "chatcmpl-Em5JKS5vGBAx37YieJMy2lIjrDS2a",
+    "usage": {
+      "completion_tokens": 1298,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 761,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 11282,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 10179,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 12580
+    }
+  },
+  "received_at": "2026-11-19T23:38:49+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, paragraph 4: Tuesday prayer time",
+        "severity": "major",
+        "source_quote": "“On Tuesday they got on their knees at ten o’clock in the evening”",
+        "suggested_fix": "Replace “saa kumi usiku” with “saa nne usiku” to express 10 p.m. in standard Kiswahili time notation.",
+        "translation_quote": "“Siku ya Jumanne walipiga magoti saa kumi usiku”"
+      },
+      {
+        "location": "HTML, paragraph 8: arrival at the church",
+        "severity": "major",
+        "source_quote": "“We got to the church about a quarter to nine”",
+        "suggested_fix": "Replace “karibu saa mbili na robo” with “karibu saa tatu kasorobo” (or another unambiguous Kiswahili rendering of 8:45 p.m.).",
+        "translation_quote": "“Tulifika kanisani karibu saa mbili na robo”"
+      },
+      {
+        "location": "HTML, paragraph 8: leaving the church",
+        "severity": "major",
+        "source_quote": "“we were leaving the church around a quarter to eleven”",
+        "suggested_fix": "Replace “karibu saa nne na robo” with “karibu saa tano kasorobo” (or another unambiguous Kiswahili rendering of 10:45 p.m.).",
+        "translation_quote": "“nasi tulikuwa tukiondoka kanisani karibu saa nne na robo”"
+      },
+      {
+        "location": "HTML, paragraphs 6–7: the young man’s experience in the barn",
+        "severity": "major",
+        "source_quote": "“That young man fell to his knees, and then fell into a trance.” / “He fell into a trance”",
+        "suggested_fix": "Replace “akaingia katika hali ya kuzimia” and “Aliingia katika hali hiyo” with wording that conveys entering a trance, such as “akaingia katika hali ya njozi” and “Aliingia katika hali ya njozi hiyo.”",
+        "translation_quote": "“Kijana huyo alipiga magoti, kisha akaingia katika hali ya kuzimia.” / “Aliingia katika hali hiyo”"
+      },
+      {
+        "location": "HTML, paragraph 15: the deacon’s second trance",
+        "severity": "major",
+        "source_quote": "“then he fell into a trance once again”",
+        "suggested_fix": "Replace “akaingia tena katika hali ya kuzimia” with “akaingia tena katika hali ya njozi.”",
+        "translation_quote": "“kisha akaingia tena katika hali ya kuzimia”"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 88
+  }
+}

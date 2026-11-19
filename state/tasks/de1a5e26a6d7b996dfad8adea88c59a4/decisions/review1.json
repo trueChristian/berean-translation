@@ -1,0 +1,42 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraph 4: Tuesday prayer time",
+      "severity": "major",
+      "source_quote": "“On Tuesday they got on their knees at ten o’clock in the evening”",
+      "suggested_fix": "Replace “saa kumi usiku” with “saa nne usiku” to express 10 p.m. in standard Kiswahili time notation.",
+      "translation_quote": "“Siku ya Jumanne walipiga magoti saa kumi usiku”"
+    },
+    {
+      "location": "HTML, paragraph 8: arrival at the church",
+      "severity": "major",
+      "source_quote": "“We got to the church about a quarter to nine”",
+      "suggested_fix": "Replace “karibu saa mbili na robo” with “karibu saa tatu kasorobo” (or another unambiguous Kiswahili rendering of 8:45 p.m.).",
+      "translation_quote": "“Tulifika kanisani karibu saa mbili na robo”"
+    },
+    {
+      "location": "HTML, paragraph 8: leaving the church",
+      "severity": "major",
+      "source_quote": "“we were leaving the church around a quarter to eleven”",
+      "suggested_fix": "Replace “karibu saa nne na robo” with “karibu saa tano kasorobo” (or another unambiguous Kiswahili rendering of 10:45 p.m.).",
+      "translation_quote": "“nasi tulikuwa tukiondoka kanisani karibu saa nne na robo”"
+    },
+    {
+      "location": "HTML, paragraphs 6–7: the young man’s experience in the barn",
+      "severity": "major",
+      "source_quote": "“That young man fell to his knees, and then fell into a trance.” / “He fell into a trance”",
+      "suggested_fix": "Replace “akaingia katika hali ya kuzimia” and “Aliingia katika hali hiyo” with wording that conveys entering a trance, such as “akaingia katika hali ya njozi” and “Aliingia katika hali ya njozi hiyo.”",
+      "translation_quote": "“Kijana huyo alipiga magoti, kisha akaingia katika hali ya kuzimia.” / “Aliingia katika hali hiyo”"
+    },
+    {
+      "location": "HTML, paragraph 15: the deacon’s second trance",
+      "severity": "major",
+      "source_quote": "“then he fell into a trance once again”",
+      "suggested_fix": "Replace “akaingia tena katika hali ya kuzimia” with “akaingia tena katika hali ya njozi.”",
+      "translation_quote": "“kisha akaingia tena katika hali ya kuzimia”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

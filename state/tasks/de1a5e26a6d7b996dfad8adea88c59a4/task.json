@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "0d68407d23204b3abbd9f1cf25a3ea81",
   "campaign": "auto-78bfb57ff1cfd041e55ac760128f82df1410f1530dda71bf24a845d39ae4b807",
   "created_at": "2026-11-18T21:56:57+00:00",
   "events": [
@@ -28,10 +27,66 @@
         },
         "total_tokens": 10961
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1298,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 761,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 11282,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 10179,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 12580
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "HTML, paragraph 4: Tuesday prayer time",
+      "severity": "major",
+      "source_quote": "“On Tuesday they got on their knees at ten o’clock in the evening”",
+      "suggested_fix": "Replace “saa kumi usiku” with “saa nne usiku” to express 10 p.m. in standard Kiswahili time notation.",
+      "translation_quote": "“Siku ya Jumanne walipiga magoti saa kumi usiku”"
+    },
+    {
+      "location": "HTML, paragraph 8: arrival at the church",
+      "severity": "major",
+      "source_quote": "“We got to the church about a quarter to nine”",
+      "suggested_fix": "Replace “karibu saa mbili na robo” with “karibu saa tatu kasorobo” (or another unambiguous Kiswahili rendering of 8:45 p.m.).",
+      "translation_quote": "“Tulifika kanisani karibu saa mbili na robo”"
+    },
+    {
+      "location": "HTML, paragraph 8: leaving the church",
+      "severity": "major",
+      "source_quote": "“we were leaving the church around a quarter to eleven”",
+      "suggested_fix": "Replace “karibu saa nne na robo” with “karibu saa tano kasorobo” (or another unambiguous Kiswahili rendering of 10:45 p.m.).",
+      "translation_quote": "“nasi tulikuwa tukiondoka kanisani karibu saa nne na robo”"
+    },
+    {
+      "location": "HTML, paragraphs 6–7: the young man’s experience in the barn",
+      "severity": "major",
+      "source_quote": "“That young man fell to his knees, and then fell into a trance.” / “He fell into a trance”",
+      "suggested_fix": "Replace “akaingia katika hali ya kuzimia” and “Aliingia katika hali hiyo” with wording that conveys entering a trance, such as “akaingia katika hali ya njozi” and “Aliingia katika hali ya njozi hiyo.”",
+      "translation_quote": "“Kijana huyo alipiga magoti, kisha akaingia katika hali ya kuzimia.” / “Aliingia katika hali hiyo”"
+    },
+    {
+      "location": "HTML, paragraph 15: the deacon’s second trance",
+      "severity": "major",
+      "source_quote": "“then he fell into a trance once again”",
+      "suggested_fix": "Replace “akaingia tena katika hali ya kuzimia” with “akaingia tena katika hali ya njozi.”",
+      "translation_quote": "“kisha akaingia tena katika hali ya kuzimia”"
+    }
+  ],
   "id": "de1a5e26a6d7b996dfad8adea88c59a4",
   "issue_id": "14962b7b-2d94-5b43-a4c6-bbb78f074d1a",
   "language": "swa",
@@ -120,11 +175,13 @@
     }
   },
   "protected": false,
+  "quality_score": 88,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/f98b63507c65152b8a7321ac23888e0aa26f098d1600382d04165453fec71fbd.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "translate",
     "max_candidate_bytes": 120000,
@@ -138,7 +195,7 @@
     "total_reserved_usd": 0.091468,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "a51f02e689fe1b52df8c601e4466a1281a16cd42b6829edfba58bdfdf76d1ea0",
   "translation_model_actual": "gpt-6-luna"
