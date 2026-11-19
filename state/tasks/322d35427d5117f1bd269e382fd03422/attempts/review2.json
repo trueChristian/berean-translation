@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-19T21:59:54+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"translation.html، حصہ II، یوحنا 13:1 کا اقتباس\",\"severity\":\"minor\",\"source_quote\":\"he loved them unto the end.\",\"suggested_fix\":\"«اور اُنہیں آخر تک محبت کرتا رہا» کی جگہ «اور اُن سے آخر تک محبت کرتا رہا» لکھیں۔\",\"translation_quote\":\"اور اُنہیں آخر تک محبت کرتا رہا۔\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 453,
+    "content_evidence_truncated": false,
+    "content_sha256": "2194b9fb2cd109621ef7c6feea4748f20c332899a20ca2a435dc144c58018280",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 166,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 56,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 10355,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9252,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 10521
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review2",
+  "translation_attempts": 1
+}

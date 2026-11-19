@@ -108038,6 +108038,34 @@
     {
       "ai_notice_required": true,
       "direction": "rtl",
+      "html": "content/urd/articles/0b10b42a-d2c7-4e0f-bf4d-62eec6c8ee11.html",
+      "html_sha256": "10cd65e57d838462814ad07070f3dc0c8cda8b944cf4290f3b454feaf6d9ff74",
+      "human_reviewed": false,
+      "id": "0b10b42a-d2c7-4e0f-bf4d-62eec6c8ee11",
+      "images": [
+        {
+          "alt": "غروبِ آفتاب کے شوخ رنگوں کے سامنے سایہ نما انداز میں ہاتھ تھامے ایک مرد اور عورت",
+          "public_path": "/images/articles/0b10b42a-d2c7-4e0f-bf4d-62eec6c8ee11-1.jpg"
+        }
+      ],
+      "issue_id": "7024063a-5783-5744-8055-7b12fee04019",
+      "language": "urd",
+      "language_tag": "ur",
+      "metadata": "content/urd/articles/0b10b42a-d2c7-4e0f-bf4d-62eec6c8ee11.json",
+      "metadata_sha256": "be991a39b234465954d1587442e06277c8618a3b695df7640c6b6bd0f41dba05",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "خدا پرست گھرانہ",
+      "source_revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+      "source_translation_key": "1243da278287e2df10dec98aa6fbb46526de19f4b253dc16e4567c3b98475df7",
+      "status": "ready",
+      "subtitle": null,
+      "title": "شادی کا بھید",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
       "html": "content/urd/articles/0b798d8c-e0b8-43a2-8a76-1c9d527f25b9.html",
       "html_sha256": "ba8d22f0264b53392a8b64b1b8991a065ba1f5b878d2e7d0fbb043b8f6d64fd2",
       "human_reviewed": false,

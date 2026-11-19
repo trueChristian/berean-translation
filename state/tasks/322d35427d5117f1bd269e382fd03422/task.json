@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "38f3274d8f7d4728807e55d4d5410975",
   "campaign": "auto-9ef1fbdff4af893d4af020bc6de30468aca1be3842ebc23f5345e43e7e5db390",
   "created_at": "2026-11-18T10:09:47+00:00",
   "events": [
@@ -28,18 +27,39 @@
         },
         "total_tokens": 15848
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 166,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 56,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 10355,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 9252,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 10521
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "Romans 8:3–4 quotation",
-      "severity": "major",
-      "source_quote": "“in that it was weak through the flesh [limited to what could be accomplished in the flesh]”",
-      "suggested_fix": "اس حصے میں قوسین کے اندر وضاحتی عبارت بھی شامل کریں، مثلاً: «جسم کے سبب سے کمزور تھی [یعنی جسم کے ذریعے جو کچھ کیا جا سکتا تھا اُس تک محدود تھی]»۔",
-      "translation_quote": "«جو کام شریعت جسمانی کمزوری کے سبب سے نہ کر سکی»"
+      "location": "translation.html، حصہ II، یوحنا 13:1 کا اقتباس",
+      "severity": "minor",
+      "source_quote": "he loved them unto the end.",
+      "suggested_fix": "«اور اُنہیں آخر تک محبت کرتا رہا» کی جگہ «اور اُن سے آخر تک محبت کرتا رہا» لکھیں۔",
+      "translation_quote": "اور اُنہیں آخر تک محبت کرتا رہا۔"
     }
   ],
+  "finished_at": "2026-11-19T21:59:54+00:00",
   "id": "322d35427d5117f1bd269e382fd03422",
   "issue_id": "7024063a-5783-5744-8055-7b12fee04019",
   "language": "urd",
@@ -128,9 +148,11 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/abf23c415e7bbb9a5e87d196a7b7841750879ba8b3ad2e297a1cfd3792281c6e.json",
   "stage": "review2",
   "stage_budget": {
@@ -144,7 +166,7 @@
     "total_reserved_usd": 0.605309,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "1243da278287e2df10dec98aa6fbb46526de19f4b253dc16e4567c3b98475df7",
   "translation_model_actual": "gpt-6.1-sol"
