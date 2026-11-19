@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Revelation 3:20 quotation",
+      "severity": "major",
+      "source_quote": "“If any man hear my voice, and open the door”",
+      "suggested_fix": "“यदि कोई मेरी आवाज़ सुनकर द्वार खोले”",
+      "translation_quote": "“यदि कोई मेरा शब्द सुनकर द्वार खोले”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
