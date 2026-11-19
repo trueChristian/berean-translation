@@ -73594,6 +73594,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/nob/articles/0b10b42a-d2c7-4e0f-bf4d-62eec6c8ee11.html",
+      "html_sha256": "896a578e992ec7221eb7f71dde719801fcd45a4fdec549e62e56f8f034a91b0a",
+      "human_reviewed": false,
+      "id": "0b10b42a-d2c7-4e0f-bf4d-62eec6c8ee11",
+      "images": [
+        {
+          "alt": "En mann og en kvinne holder hverandre i hendene som silhuetter mot en fargesterk solnedgang",
+          "public_path": "/images/articles/0b10b42a-d2c7-4e0f-bf4d-62eec6c8ee11-1.jpg"
+        }
+      ],
+      "issue_id": "7024063a-5783-5744-8055-7b12fee04019",
+      "language": "nob",
+      "language_tag": "nb",
+      "metadata": "content/nob/articles/0b10b42a-d2c7-4e0f-bf4d-62eec6c8ee11.json",
+      "metadata_sha256": "98a7ee42f67f260996934bee70621ea60d8e751ad821c47a1841d9e99a497ca8",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "DET GUDSFRYKTIGE HJEM",
+      "source_revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+      "source_translation_key": "1243da278287e2df10dec98aa6fbb46526de19f4b253dc16e4567c3b98475df7",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Ekteskapets mysterium",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/nob/articles/0b798d8c-e0b8-43a2-8a76-1c9d527f25b9.html",
       "html_sha256": "d5bd221aa385d00d2e75f18013911dc09abcce6e1a9ca6c7c0dfefbadba762a1",
       "human_reviewed": false,
