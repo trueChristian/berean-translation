@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "0d387d06701448d888252fb543fa52c1",
   "campaign": "auto-e8997c21e3d9726b095446df901e7a7588ba632b43594b011957f22a7498643d",
   "created_at": "2026-11-17T22:22:33+00:00",
   "events": [
@@ -28,10 +27,38 @@
         },
         "total_tokens": 10700
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1110,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 949,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 11014,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 9911,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 12124
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "Paragraph beginning « Je m’approchai… »",
+      "severity": "major",
+      "source_quote": "“He was converted in the revival with eleven other men who were to serve in his presbytery, a wonderful congregation.”",
+      "suggested_fix": "Remplacer « dans son presbytère » par « au sein de son consistoire » pour désigner l’instance ecclésiastique, et non le logement du pasteur.",
+      "translation_quote": "« Il se convertit pendant le réveil avec onze autres hommes qui allaient servir dans son presbytère, une merveilleuse assemblée. »"
+    }
+  ],
   "id": "72795c6b014f9d92a7d6f5611f4512df",
   "issue_id": "14962b7b-2d94-5b43-a4c6-bbb78f074d1a",
   "language": "fra",
@@ -120,11 +147,13 @@
     }
   },
   "protected": false,
+  "quality_score": 94,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/f98b63507c65152b8a7321ac23888e0aa26f098d1600382d04165453fec71fbd.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "translate",
     "max_candidate_bytes": 120000,
@@ -138,7 +167,7 @@
     "total_reserved_usd": 0.091475,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "a51f02e689fe1b52df8c601e4466a1281a16cd42b6829edfba58bdfdf76d1ea0",
   "translation_model_actual": "gpt-6-luna"

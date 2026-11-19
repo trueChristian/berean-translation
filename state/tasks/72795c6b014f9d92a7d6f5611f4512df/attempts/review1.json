@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-19T03:31:28+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph beginning « Je m’approchai… »\",\"severity\":\"major\",\"source_quote\":\"“He was converted in the revival with eleven other men who were to serve in his presbytery, a wonderful congregation.”\",\"suggested_fix\":\"Remplacer « dans son presbytère » par « au sein de son consistoire » pour désigner l’instance ecclésiastique, et non le logement du pasteur.\",\"translation_quote\":\"« Il se convertit pendant le réveil avec onze autres hommes qui allaient servir dans son presbytère, une merveilleuse assemblée. »\"}],\"findings_complete\":true,\"passed\":false,\"score\":94}",
+    "content_bytes": 611,
+    "content_evidence_truncated": false,
+    "content_sha256": "0a26e9164d4c651b5e186c1072f75be9122bef0f4afde778f9c43d7d243d12bb",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1110,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 949,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 11014,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9911,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 12124
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

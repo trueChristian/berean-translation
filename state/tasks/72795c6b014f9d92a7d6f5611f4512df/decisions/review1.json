@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph beginning « Je m’approchai… »",
+      "severity": "major",
+      "source_quote": "“He was converted in the revival with eleven other men who were to serve in his presbytery, a wonderful congregation.”",
+      "suggested_fix": "Remplacer « dans son presbytère » par « au sein de son consistoire » pour désigner l’instance ecclésiastique, et non le logement du pasteur.",
+      "translation_quote": "« Il se convertit pendant le réveil avec onze autres hommes qui allaient servir dans son presbytère, une merveilleuse assemblée. »"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
