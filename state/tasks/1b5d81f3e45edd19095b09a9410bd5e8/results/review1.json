@@ -1,0 +1,73 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "ecc9863a-d510-9ef1-86a8-bbdeb74ff86e",
+    "response_id": "chatcmpl-Elj2MJnbjtk79Ufn5oCrxdXdsLDKp",
+    "usage": {
+      "completion_tokens": 1041,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 98,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 10231,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9128,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 11272
+    }
+  },
+  "received_at": "2026-11-19T00:50:18+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "translation.html, erste Schriftstellenliste, Offenbarung 3,20",
+        "severity": "major",
+        "source_quote": "I will come in to him, and will sup with him, and he with me",
+        "suggested_fix": "Ersetze innerhalb des bestehenden <em>-Elements „und werde bei ihm sein und er bei mir“ durch „und werde mit ihm das Mahl halten und er mit mir“.",
+        "translation_quote": "so werde ich zu ihm eingehen und werde bei ihm sein und er bei mir"
+      },
+      {
+        "location": "translation.html, Absatz beginnend „Wenn wir wirklich von neuem geboren sind“, einschließlich Hesekiel 36,26-27",
+        "severity": "major",
+        "source_quote": "sheep with hearts of flesh instead of hearts of stone […] I will give you an heart of flesh",
+        "suggested_fix": "Ersetze „mit fleischlichen Herzen“ durch „mit Herzen aus Fleisch“ und im anschließenden Zitat „ein fleischliches Herz“ durch „ein Herz aus Fleisch“. „Fleischlich“ bezeichnet in diesem theologischen Kontext die sündige Natur statt des lebendigen, von Gott erneuerten Herzens.",
+        "translation_quote": "Schafe mit fleischlichen Herzen statt mit steinernen Herzen […] euch ein fleischliches Herz geben"
+      },
+      {
+        "location": "translation.html, Absätze über den finanziellen Zustand der Kirche, den Schatz, Licht und Salz sowie die adamitische Natur",
+        "severity": "minor",
+        "source_quote": "losing their zeal for godliness; Selling ‘most’ would not buy the field; God’s people are expected to be the light; from our mother’s womb",
+        "suggested_fix": "Korrigiere „ihre Eifer“ zu „ihren Eifer“, den Klammerbeginn zu „Nur das meiste zu verkaufen, hätte nicht ausgereicht, um das Feld zu kaufen“, „sollen Gottes Volk“ zu „soll Gottes Volk“ und „von der Mutterschoß an“ zu „vom Mutterschoß an“.",
+        "translation_quote": "ihre Eifer für Gottesfurcht; Das Verkaufen von „meisten“ hätte das Feld nicht gekauft; sollen Gottes Volk; von der Mutterschoß an"
+      },
+      {
+        "location": "translation.html, erste Schriftstellenliste, Johannes 9,35-38",
+        "severity": "minor",
+        "source_quote": "Thou hast both seen him, and it is he that talketh with thee.",
+        "suggested_fix": "Ersetze den zitierten Satz durch „Du hast ihn gesehen; und er ist es, der mit dir redet.“",
+        "translation_quote": "Du hast ihn gesehen; und der es ist, der mit dir redet."
+      },
+      {
+        "location": "translation.html, Absatz beginnend „Hier sehen wir“",
+        "severity": "minor",
+        "source_quote": "various aspects of becoming, of being, and of remaining born again […] the process of staying born again",
+        "suggested_fix": "Formuliere den ersten Satz als „Hier sehen wir verschiedene Aspekte davon, von neuem geboren zu werden, zu sein und zu bleiben.“ Ersetze später „den Prozess des Bleibens von neuem geboren“ durch „den Prozess des Verbleibens im wiedergeborenen Zustand“.",
+        "translation_quote": "verschiedene Aspekte des Werden, des Seins und des Bleibens von neuem geboren […] den Prozess des Bleibens von neuem geboren"
+      },
+      {
+        "location": "translation.html, zweite Schriftstellenliste, Matthäus 7,7-8, und Absatz beginnend „Liebe, Gott will“",
+        "severity": "minor",
+        "source_quote": "knock, and it shall be opened unto you; Dear ones",
+        "suggested_fix": "Ersetze „klopf an“ durch „klopft an“ und die Anrede „Liebe,“ durch „Ihr Lieben,“.",
+        "translation_quote": "klopf an, so wird euch aufgetan; Liebe, Gott will"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 92
+  }
+}
