@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "daf8abae8bc04f96b8c4731c47b8e3c0",
   "campaign": "auto-26dc525dfd49550824bd1c4e7dcba7e593a0912ccc342b8efc34e40000c0a8be",
   "created_at": "2026-11-19T00:55:08+00:00",
   "events": [
@@ -48,9 +47,30 @@
         },
         "total_tokens": 8893
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "correct",
+      "usage": {
+        "completion_tokens": 4045,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8049,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8046,
+          "cached_tokens": 0
+        },
+        "total_tokens": 12094
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[64]: source /article[1]/blockquote[2]/p[1]/em[1]/strong[1] ('start', 'strong', ()); translation /article[1]/blockquote[2]/p[1]/em[1]/br[2] ('start', 'br', ())",
+  "failure_kind": "invalid_result",
   "findings": [
     {
       "location": "Revelation 3:20 quotation",
@@ -60,6 +80,7 @@
       "translation_quote": "“यदि कोई मेरा शब्द सुनकर द्वार खोले”"
     }
   ],
+  "finished_at": "2026-11-19T23:39:18+00:00",
   "id": "18fea01d409f32b5850f9f7787241e4a",
   "issue_id": "14962b7b-2d94-5b43-a4c6-bbb78f074d1a",
   "language": "hin",
@@ -168,7 +189,7 @@
     "total_reserved_usd": 0.089519,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "185b97cda696ff5f8dd7eedb4b0e07b692951558ceb527409cc25fd72f4c7bf1",
   "translation_model_actual": "gpt-6-luna"
