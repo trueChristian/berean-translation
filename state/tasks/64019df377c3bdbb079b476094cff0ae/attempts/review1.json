@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-19T00:50:42+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"html: alinea onder ‘Onderdanigheid activeert kracht.’, zin beginnend met ‘Onze gezagsdragers’\",\n      \"severity\": \"major\",\n      \"source_quote\": \"it takes to task the issue of sin, sulking, and selfishness, while replacing it with righteousness, well-being, and peace\",\n      \"suggested_fix\": \"Vervang ‘en maken gerechtigheid, welzijn en vrede daarvoor plaats’ door ‘en worden die vervangen door gerechtigheid, welzijn en vrede’.\",\n      \"translation_quote\": \"want zo wordt afgerekend met zonde, mokken en egoïsme, en maken gerechtigheid, welzijn en vrede daarvoor plaats\"\n    },\n    {\n      \"location\": \"html: p.lead, zin over de gelijkenis van het tarwe en het onkruid\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"The parable of the Wheat and Tares\",\n      \"suggested_fix\": \"Vervang ‘De gelijkenis van het tarwe en het onkruid’ door ‘De gelijkenis van de tarwe en het onkruid’.\",\n      \"translation_quote\": \"De gelijkenis van het tarwe en het onkruid\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": false,\n  \"score\": 94\n}",
+    "content_bytes": 1103,
+    "content_evidence_truncated": false,
+    "content_sha256": "123e7fd6bc8a45329dc4d0132d4e07d66eccecb990978a7efcc064eef64751c0",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 407,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 98,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9842,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8739,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 10249
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}

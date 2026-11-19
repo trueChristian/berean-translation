@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "cc274925-1656-46a6-b5e1-56e12f223a45",
+    "response_id": "chatcmpl-Elj7AcRhB7yMyJ7HUwTejUSSbJLbS",
+    "usage": {
+      "completion_tokens": 407,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 98,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9842,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8739,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 10249
+    }
+  },
+  "received_at": "2026-11-19T00:50:42+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "html: alinea onder ‘Onderdanigheid activeert kracht.’, zin beginnend met ‘Onze gezagsdragers’",
+        "severity": "major",
+        "source_quote": "it takes to task the issue of sin, sulking, and selfishness, while replacing it with righteousness, well-being, and peace",
+        "suggested_fix": "Vervang ‘en maken gerechtigheid, welzijn en vrede daarvoor plaats’ door ‘en worden die vervangen door gerechtigheid, welzijn en vrede’.",
+        "translation_quote": "want zo wordt afgerekend met zonde, mokken en egoïsme, en maken gerechtigheid, welzijn en vrede daarvoor plaats"
+      },
+      {
+        "location": "html: p.lead, zin over de gelijkenis van het tarwe en het onkruid",
+        "severity": "minor",
+        "source_quote": "The parable of the Wheat and Tares",
+        "suggested_fix": "Vervang ‘De gelijkenis van het tarwe en het onkruid’ door ‘De gelijkenis van de tarwe en het onkruid’.",
+        "translation_quote": "De gelijkenis van het tarwe en het onkruid"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 94
+  }
+}

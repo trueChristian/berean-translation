@@ -5,11 +5,47 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "d14218fdea604f27848fce9356fa1b2d",
   "campaign": "auto-f557a461c2a8e75b7c45a5e5838a65d90298f8d7924cfbf9a788ced5b6623ec5",
   "created_at": "2026-11-16T01:53:27+00:00",
-  "events": [],
-  "findings": [],
+  "events": [
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 407,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 98,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9842,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8739,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 10249
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "html: alinea onder ‘Onderdanigheid activeert kracht.’, zin beginnend met ‘Onze gezagsdragers’",
+      "severity": "major",
+      "source_quote": "it takes to task the issue of sin, sulking, and selfishness, while replacing it with righteousness, well-being, and peace",
+      "suggested_fix": "Vervang ‘en maken gerechtigheid, welzijn en vrede daarvoor plaats’ door ‘en worden die vervangen door gerechtigheid, welzijn en vrede’.",
+      "translation_quote": "want zo wordt afgerekend met zonde, mokken en egoïsme, en maken gerechtigheid, welzijn en vrede daarvoor plaats"
+    },
+    {
+      "location": "html: p.lead, zin over de gelijkenis van het tarwe en het onkruid",
+      "severity": "minor",
+      "source_quote": "The parable of the Wheat and Tares",
+      "suggested_fix": "Vervang ‘De gelijkenis van het tarwe en het onkruid’ door ‘De gelijkenis van de tarwe en het onkruid’.",
+      "translation_quote": "De gelijkenis van het tarwe en het onkruid"
+    }
+  ],
   "id": "64019df377c3bdbb079b476094cff0ae",
   "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
   "language": "nld",
@@ -98,11 +134,13 @@
     }
   },
   "protected": false,
+  "quality_score": 94,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/e2f79f53d3b4344da8f3a224cbcadbaad6d0cc212776a503248d1dd4853c5cbb.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "review1",
     "max_candidate_bytes": 120000,
@@ -115,7 +153,7 @@
     "total_reserved_usd": 0.774031,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 0,
   "translation_key": "f7c753eaec7cab461389c398af8410c2a13a7ef5a7c84c987fe4dfe4c20f33bc",
   "translation_model_actual": "gpt-6-luna"

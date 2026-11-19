@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "html: alinea onder ‘Onderdanigheid activeert kracht.’, zin beginnend met ‘Onze gezagsdragers’",
+      "severity": "major",
+      "source_quote": "it takes to task the issue of sin, sulking, and selfishness, while replacing it with righteousness, well-being, and peace",
+      "suggested_fix": "Vervang ‘en maken gerechtigheid, welzijn en vrede daarvoor plaats’ door ‘en worden die vervangen door gerechtigheid, welzijn en vrede’.",
+      "translation_quote": "want zo wordt afgerekend met zonde, mokken en egoïsme, en maken gerechtigheid, welzijn en vrede daarvoor plaats"
+    },
+    {
+      "location": "html: p.lead, zin over de gelijkenis van het tarwe en het onkruid",
+      "severity": "minor",
+      "source_quote": "The parable of the Wheat and Tares",
+      "suggested_fix": "Vervang ‘De gelijkenis van het tarwe en het onkruid’ door ‘De gelijkenis van de tarwe en het onkruid’.",
+      "translation_quote": "De gelijkenis van het tarwe en het onkruid"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
