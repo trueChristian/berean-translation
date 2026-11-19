@@ -83458,6 +83458,42 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/por/articles/b649c2a3-20b1-4e02-9204-6285b234f34f.html",
+      "html_sha256": "aa1335081b3df2205835e6b480ae44608a42cfe953f337cd704f613e90fd49a0",
+      "human_reviewed": false,
+      "id": "b649c2a3-20b1-4e02-9204-6285b234f34f",
+      "images": [
+        {
+          "alt": "Retrato de Philip P. Bliss.",
+          "public_path": "/images/articles/b649c2a3-20b1-4e02-9204-6285b234f34f-1.jpg"
+        },
+        {
+          "alt": "Flores lilases claras entre folhas verdes.",
+          "public_path": "/images/articles/b649c2a3-20b1-4e02-9204-6285b234f34f-2.jpg"
+        },
+        {
+          "alt": "A partitura impressa completa de A Luz do Mundo é Jesus.",
+          "public_path": "/images/articles/b649c2a3-20b1-4e02-9204-6285b234f34f-3.png"
+        }
+      ],
+      "issue_id": "103c93e0-6e9a-44f6-a6bc-377af8e08e38",
+      "language": "por",
+      "language_tag": "pt",
+      "metadata": "content/por/articles/b649c2a3-20b1-4e02-9204-6285b234f34f.json",
+      "metadata_sha256": "5dcb43700fa620da0b76bf64e0309eaef3ab18b03a2d58caaaf51b649f30af82",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "HISTÓRIA DO HINO",
+      "source_revision": "ccefc5a5c3d79409cc78319f94b5490718d30670",
+      "source_translation_key": "24f89250b05cd303e73c3df869edd19f173aa57a9d0a95bd0580196d7fe3e789",
+      "status": "ready",
+      "subtitle": null,
+      "title": "A Luz do Mundo é Jesus",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/por/articles/b6a6823e-0f2a-4354-aebb-5c37ad85937a.html",
       "html_sha256": "f06d46f9c05a25be03fd793209ef3be64ff8dc2b975ea2835465ffea75dcdd56",
       "human_reviewed": false,
