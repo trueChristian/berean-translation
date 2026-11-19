@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "77a8e08885d44b3396f20f55086d853d",
   "campaign": "auto-082c9ba350df9b0c13ee63ea21ecf8201bdb8d8f6fbd268963044dea6c2e040a",
   "created_at": "2026-11-18T10:07:06+00:00",
   "events": [
@@ -28,18 +27,31 @@
         },
         "total_tokens": 13760
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 75,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 43,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9301,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 9298,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9376
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "正文，IV. 基督以使人成圣的爱去爱，罗马书8:3-4引文",
-      "severity": "major",
-      "source_quote": "“in that it was weak through the flesh [limited to what could be accomplished in the flesh]”",
-      "suggested_fix": "在“律法既因肉体软弱，有所不能行的”后补上对应说明，例如：“[受限于肉体所能成就的]”，保留原有经文引文结构。",
-      "translation_quote": "“律法既因肉体软弱，有所不能行的，神就差遣自己的儿子”"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-11-19T03:31:31+00:00",
   "id": "e5e697f193a1b69200b5c4c833b55bad",
   "issue_id": "7024063a-5783-5744-8055-7b12fee04019",
   "language": "cmn",
@@ -128,9 +140,11 @@
     }
   },
   "protected": false,
+  "quality_score": 99,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/abf23c415e7bbb9a5e87d196a7b7841750879ba8b3ad2e297a1cfd3792281c6e.json",
   "stage": "review2",
   "stage_budget": {
@@ -144,7 +158,7 @@
     "total_reserved_usd": 0.589884,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "1243da278287e2df10dec98aa6fbb46526de19f4b253dc16e4567c3b98475df7",
   "translation_model_actual": "gpt-6.1-sol"

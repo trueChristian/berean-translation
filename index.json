@@ -17188,6 +17188,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/cmn/articles/0b10b42a-d2c7-4e0f-bf4d-62eec6c8ee11.html",
+      "html_sha256": "b1e427987660a3a61db5f0387c1988743e3253d2e01054e0903404509e821af7",
+      "human_reviewed": false,
+      "id": "0b10b42a-d2c7-4e0f-bf4d-62eec6c8ee11",
+      "images": [
+        {
+          "alt": "夕阳绚丽的背景前，一对男女牵手的剪影",
+          "public_path": "/images/articles/0b10b42a-d2c7-4e0f-bf4d-62eec6c8ee11-1.jpg"
+        }
+      ],
+      "issue_id": "7024063a-5783-5744-8055-7b12fee04019",
+      "language": "cmn",
+      "language_tag": "zh-Hans",
+      "metadata": "content/cmn/articles/0b10b42a-d2c7-4e0f-bf4d-62eec6c8ee11.json",
+      "metadata_sha256": "30b14e017d08208ebab2cee313d254f9bc80241a8ab33d61fe0e2cf74275ea2f",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "敬虔的家庭",
+      "source_revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+      "source_translation_key": "1243da278287e2df10dec98aa6fbb46526de19f4b253dc16e4567c3b98475df7",
+      "status": "ready",
+      "subtitle": null,
+      "title": "婚姻的奥秘",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/cmn/articles/0b798d8c-e0b8-43a2-8a76-1c9d527f25b9.html",
       "html_sha256": "bbba0792c44010f42456f7ab0e1397d24bfcfdd50090aec054009bc42a6dc166",
       "human_reviewed": false,
