@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "0e3dad2c2c344ff687ced1bb43372b1e",
   "campaign": "auto-39a9af6abe3dcfc220a2c15597f5a2667bf24fd0bd06bf478d7d90d5699b0055",
   "created_at": "2026-11-19T00:55:48+00:00",
   "events": [
@@ -68,25 +67,40 @@
         },
         "total_tokens": 16201
       }
-    }
-  ],
-  "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "Article, paragraph beginning “Men han kom inte längre.”",
-      "severity": "major",
-      "source_quote": "“And in the words of the minister, at that moment he and the other ministers were gripped by the conviction…”",
-      "suggested_fix": "Ändra till: ”Med pastorns ord greps pastorn och de andra pastorerna i samma ögonblick av övertygelsen …”",
-      "translation_quote": "“Med pastorns ord greps han och de andra pastorerna i samma ögonblick av övertygelsen …”"
     },
     {
-      "location": "Article, paragraph beginning “Detta fortsatte i nästan tre år.”",
-      "severity": "minor",
-      "source_quote": "“I left the records with God.”",
-      "suggested_fix": "Ändra ”räkenskaperna” till exempelvis ”anteckningarna” eller ”redovisningen”.",
-      "translation_quote": "“Jag överlät räkenskaperna åt Gud.”"
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1192,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 1024,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 10860,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 10857,
+          "cached_tokens": 0
+        },
+        "total_tokens": 12052
+      }
     }
   ],
+  "failure": "Final review failed; a recovery continuation must pass admission",
+  "failure_kind": "quality_rejection",
+  "findings": [
+    {
+      "location": "Paragraph beginning “En hel busslast…”; also paragraph beginning “Efter det var vi naturligtvis…”",
+      "severity": "major",
+      "source_quote": "“A coach-load had come over twelve miles”; “another parish fifteen miles away”",
+      "suggested_fix": "Ersätt avstånden med svenska mått eller ange uttryckligen engelska miles: exempelvis ”färdats drygt 19 kilometer” och ”en annan församling drygt 24 kilometer bort”.",
+      "translation_quote": "“En busslast hade färdats över tolv miles”; “en annan församling femton miles bort”"
+    }
+  ],
+  "finished_at": "2026-11-19T23:38:36+00:00",
   "id": "1e470eed5d52815d71efbe3d46c78106",
   "issue_id": "14962b7b-2d94-5b43-a4c6-bbb78f074d1a",
   "language": "swe",
@@ -175,7 +189,7 @@
     }
   },
   "protected": false,
-  "quality_score": 93,
+  "quality_score": 91,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
@@ -195,7 +209,7 @@
     "total_reserved_usd": 0.09147,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "a51f02e689fe1b52df8c601e4466a1281a16cd42b6829edfba58bdfdf76d1ea0",
   "translation_model_actual": "gpt-6-luna"

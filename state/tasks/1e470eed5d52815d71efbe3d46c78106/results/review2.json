@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "de529f84-c3f7-4c94-9dd9-f9154cd3f315",
+    "response_id": "chatcmpl-Em5WU0ljXA0lpF9itHAkNELrez4a2",
+    "usage": {
+      "completion_tokens": 1192,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1024,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 10860,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 10857,
+        "cached_tokens": 0
+      },
+      "total_tokens": 12052
+    }
+  },
+  "received_at": "2026-11-19T23:38:36+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph beginning “En hel busslast…”; also paragraph beginning “Efter det var vi naturligtvis…”",
+        "severity": "major",
+        "source_quote": "“A coach-load had come over twelve miles”; “another parish fifteen miles away”",
+        "suggested_fix": "Ersätt avstånden med svenska mått eller ange uttryckligen engelska miles: exempelvis ”färdats drygt 19 kilometer” och ”en annan församling drygt 24 kilometer bort”.",
+        "translation_quote": "“En busslast hade färdats över tolv miles”; “en annan församling femton miles bort”"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 91
+  }
+}
