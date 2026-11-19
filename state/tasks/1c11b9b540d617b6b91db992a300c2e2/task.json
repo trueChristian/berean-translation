@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "0dca17a80cd24284b29556da951ef65c",
   "campaign": "auto-fb960273c1c76935d0ed0c68505440cd4b1f1c0daec7197dc976b5813923baa1",
   "created_at": "2026-11-01T01:46:33+00:00",
   "events": [
@@ -28,10 +27,38 @@
         },
         "total_tokens": 4780
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 584,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 443,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5074,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 5071,
+          "cached_tokens": 0
+        },
+        "total_tokens": 5658
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "پیراگراف 7، جملہ 1",
+      "severity": "major",
+      "source_quote": "I give to God, but I can only give to Him only Himself as He has given Himself to me.",
+      "suggested_fix": "میں خدا کو کچھ دیتا ہوں، لیکن اُسے صرف خود اُسی کو دے سکتا ہوں، جس طرح اُس نے اپنے آپ کو مجھے دیا ہے۔",
+      "translation_quote": "میں خدا کو کچھ دیتا ہوں، لیکن میں اُسے صرف وہی دے سکتا ہوں جو اُس نے خود مجھے دیا ہے۔"
+    }
+  ],
   "id": "1c11b9b540d617b6b91db992a300c2e2",
   "issue_id": "0d097077-9f48-4ce1-8074-252258d59d01",
   "language": "urd",
@@ -120,11 +147,13 @@
     }
   },
   "protected": false,
+  "quality_score": 93,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/8d52a546b52937f22f6b07ebadc9080d1037a1206b5e9465f0000afe830e5d6a.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "translate",
     "max_candidate_bytes": 120000,
@@ -138,7 +167,7 @@
     "total_reserved_usd": 0.08777,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "45c04759c5b0f7d8a9038af8cc76e1ff17a52e5b989557b235da9ebe057bb77d",
   "translation_model_actual": "gpt-6-luna"

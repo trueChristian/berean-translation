@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-19T08:00:24+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"پیراگراف 7، جملہ 1\",\"severity\":\"major\",\"source_quote\":\"I give to God, but I can only give to Him only Himself as He has given Himself to me.\",\"suggested_fix\":\"میں خدا کو کچھ دیتا ہوں، لیکن اُسے صرف خود اُسی کو دے سکتا ہوں، جس طرح اُس نے اپنے آپ کو مجھے دیا ہے۔\",\"translation_quote\":\"میں خدا کو کچھ دیتا ہوں، لیکن میں اُسے صرف وہی دے سکتا ہوں جو اُس نے خود مجھے دیا ہے۔\"}],\"findings_complete\":true,\"passed\":false,\"score\":93}",
+    "content_bytes": 604,
+    "content_evidence_truncated": false,
+    "content_sha256": "b1f856abc209715d3414d7ee92a444efc0cf6d950fb2bc9571fe579985680ee6",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 584,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 443,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5074,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5071,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5658
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}
