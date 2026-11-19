@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "6ff2b65d-a1a8-4663-93ac-5b40d1b84929",
+    "response_id": "chatcmpl-EljJqCj8anWCDsGh2lEMOGk3yL8fc",
+    "usage": {
+      "completion_tokens": 200,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 66,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4833,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3730,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 5033
+    }
+  },
+  "received_at": "2026-11-19T00:50:25+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "translation.html, deuxième paragraphe",
+        "severity": "minor",
+        "source_quote": "that got her mind to thinking about singing during Sunday morning worship services",
+        "suggested_fix": "Remplacer « cela fit penser Ellie au chant » par « cela fit penser Ellie aux chants » n’est pas nécessaire ; corriger la construction en écrivant « cela amena Ellie à penser au chant pendant le culte du dimanche matin ».",
+        "translation_quote": "cela fit penser Ellie au chant pendant le culte du dimanche matin"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 97
+  }
+}

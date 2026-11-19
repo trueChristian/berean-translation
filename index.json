@@ -36487,6 +36487,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/fra/articles/8ef84e9e-0a7f-4a0b-8b7d-4e3a10f611e8.html",
+      "html_sha256": "2748fdf824ce0a32f067ce5e15ba70ec9671101591e58e488d74d54c5987325c",
+      "human_reviewed": false,
+      "id": "8ef84e9e-0a7f-4a0b-8b7d-4e3a10f611e8",
+      "images": [
+        {
+          "alt": "Fleurs de cosmos roses sur un fond doucement flou",
+          "public_path": "/images/articles/8ef84e9e-0a7f-4a0b-8b7d-4e3a10f611e8-1.jpg"
+        }
+      ],
+      "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
+      "language": "fra",
+      "language_tag": "fr",
+      "metadata": "content/fra/articles/8ef84e9e-0a7f-4a0b-8b7d-4e3a10f611e8.json",
+      "metadata_sha256": "5b5a02a5775282d1c30d8abe167f4be2683a0e56a994a7f6751301eebbd163a0",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "Coin des enfants",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "d141263ef5e8a0b21b848818d2926b208c06eeac97c84e44af137498d97ac1dd",
+      "status": "ready",
+      "subtitle": null,
+      "title": "La promesse d’un chant",
+      "translation_model": "gpt-5-mini-2025-08-07"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/fra/articles/8f36dee3-685c-47b8-b1d4-9981806d4cd5.html",
       "html_sha256": "d7097051e84b6d06a3bd59cf3a8e7524f48c0fbf3b33f8bdbcd4740109a6871b",
       "human_reviewed": false,

@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-19T00:50:25+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"translation.html, deuxième paragraphe\",\"severity\":\"minor\",\"source_quote\":\"that got her mind to thinking about singing during Sunday morning worship services\",\"suggested_fix\":\"Remplacer « cela fit penser Ellie au chant » par « cela fit penser Ellie aux chants » n’est pas nécessaire ; corriger la construction en écrivant « cela amena Ellie à penser au chant pendant le culte du dimanche matin ».\",\"translation_quote\":\"cela fit penser Ellie au chant pendant le culte du dimanche matin\"}],\"findings_complete\":true,\"passed\":true,\"score\":97}",
+    "content_bytes": 575,
+    "content_evidence_truncated": false,
+    "content_sha256": "c75d25af9bfdbab6e7709f8dbd0bb011f858cc7dd43493d0c785d5d670a00af6",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 200,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 66,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4833,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3730,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 5033
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}

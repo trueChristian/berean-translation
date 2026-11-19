@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "translation.html, deuxième paragraphe",
+      "severity": "minor",
+      "source_quote": "that got her mind to thinking about singing during Sunday morning worship services",
+      "suggested_fix": "Remplacer « cela fit penser Ellie au chant » par « cela fit penser Ellie aux chants » n’est pas nécessaire ; corriger la construction en écrivant « cela amena Ellie à penser au chant pendant le culte du dimanche matin ».",
+      "translation_quote": "cela fit penser Ellie au chant pendant le culte du dimanche matin"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}
