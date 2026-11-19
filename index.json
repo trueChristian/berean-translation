@@ -61823,6 +61823,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/kor/articles/0b10b42a-d2c7-4e0f-bf4d-62eec6c8ee11.html",
+      "html_sha256": "48674bd9667be671db2d4f0d422a89c7d1d2c66ae86ed239b64a6b1fb9c1af15",
+      "human_reviewed": false,
+      "id": "0b10b42a-d2c7-4e0f-bf4d-62eec6c8ee11",
+      "images": [
+        {
+          "alt": "강렬한 석양을 배경으로 손을 잡고 있는 남녀의 실루엣",
+          "public_path": "/images/articles/0b10b42a-d2c7-4e0f-bf4d-62eec6c8ee11-1.jpg"
+        }
+      ],
+      "issue_id": "7024063a-5783-5744-8055-7b12fee04019",
+      "language": "kor",
+      "language_tag": "ko",
+      "metadata": "content/kor/articles/0b10b42a-d2c7-4e0f-bf4d-62eec6c8ee11.json",
+      "metadata_sha256": "cfdac3d3de96daf9ddabbddc531b0af9367d658929bb280c74643e6ce9a5d3db",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "경건한 가정",
+      "source_revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+      "source_translation_key": "1243da278287e2df10dec98aa6fbb46526de19f4b253dc16e4567c3b98475df7",
+      "status": "ready",
+      "subtitle": null,
+      "title": "결혼의 비밀",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/kor/articles/0b798d8c-e0b8-43a2-8a76-1c9d527f25b9.html",
       "html_sha256": "7f03953d4d61a360978f264d3436e50c065a51c5382aa01986a6b9afe1b93c60",
       "human_reviewed": false,
