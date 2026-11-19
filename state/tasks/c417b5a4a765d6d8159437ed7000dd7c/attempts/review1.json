@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-19T00:49:25+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, paragraph 3\",\"severity\":\"major\",\"source_quote\":\"“We frequently reprint articles from revival preachers and histories”\",\"suggested_fix\":\"Ändra ”väckelsepredikanter och historiker” till exempelvis ”väckelsepredikanter och historiska skildringar” så att det syftar på historieskildringar, inte historiker.\",\"translation_quote\":\"“Vi återger ofta artiklar av väckelsepredikanter och historiker”\"}],\"findings_complete\":true,\"passed\":false,\"score\":92}",
+    "content_bytes": 499,
+    "content_evidence_truncated": false,
+    "content_sha256": "4d56ed4e8156030c01a713ff79087d3812c970307b753131a09a036c96e7082c",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 608,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 474,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 2755,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2752,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3363
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

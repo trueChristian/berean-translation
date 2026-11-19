@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraph 3",
+      "severity": "major",
+      "source_quote": "“We frequently reprint articles from revival preachers and histories”",
+      "suggested_fix": "Ändra ”väckelsepredikanter och historiker” till exempelvis ”väckelsepredikanter och historiska skildringar” så att det syftar på historieskildringar, inte historiker.",
+      "translation_quote": "“Vi återger ofta artiklar av väckelsepredikanter och historiker”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
