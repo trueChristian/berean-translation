@@ -7276,7 +7276,7 @@
       "article_id": "3feab4dd-c830-4ead-ad57-24d853847088",
       "language": "nld",
       "latest_task": "ad963281db290ae87b965a419a4e4620",
-      "processing_status": "queued",
+      "processing_status": "in_batch",
       "reason": "active"
     },
     {
