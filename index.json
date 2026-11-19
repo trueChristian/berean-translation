@@ -6369,6 +6369,34 @@
     {
       "ai_notice_required": true,
       "direction": "rtl",
+      "html": "content/ara/articles/08c717e6-5c69-433c-b04d-ab1957c20eb9.html",
+      "html_sha256": "868a9c26410be89709f128adad59dd395ee813bc873589e5b93b2447fab654da",
+      "human_reviewed": false,
+      "id": "08c717e6-5c69-433c-b04d-ab1957c20eb9",
+      "images": [
+        {
+          "alt": "دانيال راكعًا عند نافذة مفتوحة يصلّي فيما يراقبه عدد من الرجال",
+          "public_path": "/images/articles/08c717e6-5c69-433c-b04d-ab1957c20eb9-1.jpg"
+        }
+      ],
+      "issue_id": "7024063a-5783-5744-8055-7b12fee04019",
+      "language": "ara",
+      "language_tag": "ar",
+      "metadata": "content/ara/articles/08c717e6-5c69-433c-b04d-ab1957c20eb9.json",
+      "metadata_sha256": "849c72a0cadb6fa3802232e329fb00b0e3346f594fc2a7c47522c59e07d56a57",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "الاحتمال الأمين",
+      "source_revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+      "source_translation_key": "492a7136bb14c9d906d405dd4c072887c20473937cfd31abe18443347c5a2103",
+      "status": "ready",
+      "subtitle": null,
+      "title": "رجل في الثغرة",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
       "html": "content/ara/articles/095ed998-d5e3-49fb-a63f-a2e4c434c1aa.html",
       "html_sha256": "5dcf92d286be1c55e352a2306209f04502d6a489902a244f337092ff059e7cb2",
       "human_reviewed": false,
