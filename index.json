@@ -71197,6 +71197,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/nld/articles/a9c1e70c-906d-4eda-ad05-2789badb2369.html",
+      "html_sha256": "8a9a1620b354669a5cab9f72d8717dbff82f58e236f5f7b2a9427c5fb050e1ce",
+      "human_reviewed": false,
+      "id": "a9c1e70c-906d-4eda-ad05-2789badb2369",
+      "images": [
+        {
+          "alt": "Een felroze, paarse en blauwe zonsondergang boven de oceaan",
+          "public_path": "/images/articles/a9c1e70c-906d-4eda-ad05-2789badb2369-1.jpg"
+        }
+      ],
+      "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
+      "language": "nld",
+      "language_tag": "nl",
+      "metadata": "content/nld/articles/a9c1e70c-906d-4eda-ad05-2789badb2369.json",
+      "metadata_sha256": "6012847295c38a0b304714e3b439865607fa828e7e3b441f05583060250bc28a",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "UITGELICHT ARTIKEL",
+      "source_revision": "a069ecca8827634ebc256b3b1cabc16aeb942ed7",
+      "source_translation_key": "8e1431ea881b67c4ad4954313f7377e010f9f58557ffeba6077169e187cbed60",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Geloof en rede",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/nld/articles/aa552c1c-4324-40a5-a7c3-8f36b6a99ee2.html",
       "html_sha256": "cf472346b783b582607e94c3b1bb80b93459a680ffa0cea887e5e455fa7ba219",
       "human_reviewed": false,
