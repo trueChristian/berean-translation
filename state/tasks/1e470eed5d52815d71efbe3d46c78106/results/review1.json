@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "abe6d7c5-cf9a-4d0b-bfca-9c068866c30f",
+    "response_id": "chatcmpl-ElwDSzS03CbITzqmFaNsdT8nd4twt",
+    "usage": {
+      "completion_tokens": 1031,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 799,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 10860,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 10857,
+        "cached_tokens": 0
+      },
+      "total_tokens": 11891
+    }
+  },
+  "received_at": "2026-11-19T13:28:17+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Article, paragraph beginning “Men han kom inte längre.”",
+        "severity": "major",
+        "source_quote": "“And in the words of the minister, at that moment he and the other ministers were gripped by the conviction…”",
+        "suggested_fix": "Ändra till: ”Med pastorns ord greps pastorn och de andra pastorerna i samma ögonblick av övertygelsen …”",
+        "translation_quote": "“Med pastorns ord greps han och de andra pastorerna i samma ögonblick av övertygelsen …”"
+      },
+      {
+        "location": "Article, paragraph beginning “Detta fortsatte i nästan tre år.”",
+        "severity": "minor",
+        "source_quote": "“I left the records with God.”",
+        "suggested_fix": "Ändra ”räkenskaperna” till exempelvis ”anteckningarna” eller ”redovisningen”.",
+        "translation_quote": "“Jag överlät räkenskaperna åt Gud.”"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 93
+  }
+}

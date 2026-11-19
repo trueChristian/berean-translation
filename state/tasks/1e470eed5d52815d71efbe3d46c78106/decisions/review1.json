@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Article, paragraph beginning “Men han kom inte längre.”",
+      "severity": "major",
+      "source_quote": "“And in the words of the minister, at that moment he and the other ministers were gripped by the conviction…”",
+      "suggested_fix": "Ändra till: ”Med pastorns ord greps pastorn och de andra pastorerna i samma ögonblick av övertygelsen …”",
+      "translation_quote": "“Med pastorns ord greps han och de andra pastorerna i samma ögonblick av övertygelsen …”"
+    },
+    {
+      "location": "Article, paragraph beginning “Detta fortsatte i nästan tre år.”",
+      "severity": "minor",
+      "source_quote": "“I left the records with God.”",
+      "suggested_fix": "Ändra ”räkenskaperna” till exempelvis ”anteckningarna” eller ”redovisningen”.",
+      "translation_quote": "“Jag överlät räkenskaperna åt Gud.”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
