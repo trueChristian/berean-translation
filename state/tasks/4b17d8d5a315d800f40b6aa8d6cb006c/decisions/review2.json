@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph beginning “In the last days of the apostle John” (Revelation 3:18c quotation)",
+      "severity": "major",
+      "source_quote": "“anoint thine eyes with eye salve, that thou mayest see”",
+      "suggested_fix": "استبدل «اكتحل كحلاً لكي تبصر» بـ «ادهن عينيك بمرهم لكي تبصر» للحفاظ على معنى مرهم العينين المذكور في المصدر.",
+      "translation_quote": "«اكتحل كحلاً لكي تبصر»"
+    },
+    {
+      "location": "Title",
+      "severity": "minor",
+      "source_quote": "A Motivating Vision for Our Homes",
+      "suggested_fix": "رؤيا تحفّزنا من أجل بيوتنا",
+      "translation_quote": "رؤيا تحفّز بيوتنا"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

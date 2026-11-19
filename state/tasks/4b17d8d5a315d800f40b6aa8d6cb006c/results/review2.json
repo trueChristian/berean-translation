@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "7853330a-3218-436b-9d3b-cc55ac821da1",
+    "response_id": "chatcmpl-Em5WdJz6U88SWW1aRgYsDkhbabfBR",
+    "usage": {
+      "completion_tokens": 935,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 733,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7589,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6486,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 8524
+    }
+  },
+  "received_at": "2026-11-19T23:39:14+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph beginning “In the last days of the apostle John” (Revelation 3:18c quotation)",
+        "severity": "major",
+        "source_quote": "“anoint thine eyes with eye salve, that thou mayest see”",
+        "suggested_fix": "استبدل «اكتحل كحلاً لكي تبصر» بـ «ادهن عينيك بمرهم لكي تبصر» للحفاظ على معنى مرهم العينين المذكور في المصدر.",
+        "translation_quote": "«اكتحل كحلاً لكي تبصر»"
+      },
+      {
+        "location": "Title",
+        "severity": "minor",
+        "source_quote": "A Motivating Vision for Our Homes",
+        "suggested_fix": "رؤيا تحفّزنا من أجل بيوتنا",
+        "translation_quote": "رؤيا تحفّز بيوتنا"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 94
+  }
+}
