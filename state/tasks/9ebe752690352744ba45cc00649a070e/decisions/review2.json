@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraph beginning “One night one of the sisters had a vision”",
+      "severity": "minor",
+      "source_quote": "“a strange minister standing in the pulpit”",
+      "suggested_fix": "Ganti “seorang pendeta asing” dengan “seorang pendeta yang tidak dikenal” agar maknanya tidak terkesan bahwa pendeta itu berasal dari negara lain.",
+      "translation_quote": "“seorang pendeta asing berdiri di mimbar”"
+    },
+    {
+      "location": "HTML, paragraph beginning “The interesting thing about that meeting”",
+      "severity": "minor",
+      "source_quote": "“Oh, deeply convicted of his desperate need.”",
+      "suggested_fix": "Ubah menjadi “Oh, ia sungguh-sungguh diyakinkan akan betapa mendesaknya kebutuhannya” untuk mempertahankan nuansa keyakinan batin dalam konteks rohani.",
+      "translation_quote": "“Oh, ia sungguh-sungguh merasa sangat membutuhkan pertolongan.”"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

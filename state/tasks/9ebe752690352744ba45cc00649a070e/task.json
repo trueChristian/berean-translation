@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "8b90528d18bf497c9421c234eb9ea3e1",
   "campaign": "auto-3f9fe20727c20766d0ba0ce69f2c4e17be82f52ef089401ddff89b7d57662a5b",
   "created_at": "2026-11-18T04:48:53+00:00",
   "events": [
@@ -68,32 +67,46 @@
         },
         "total_tokens": 16580
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 924,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 693,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 10959,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 9856,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 11883
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "Paragraf tentang diaken yang jatuh berlutut; paragraf tentang ia kembali berlutut di lorong gereja",
-      "severity": "major",
-      "source_quote": "“That young man fell to his knees, and then fell into a trance.” / “then he fell into a trance once again.”",
-      "suggested_fix": "Ganti “mengalami keadaan seperti kesurupan” dengan “mengalami keadaan trans” pada kedua kemunculan. “Kesurupan” menyiratkan kerasukan, sedangkan sumber menyebut trance.",
-      "translation_quote": "“Pemuda itu jatuh berlutut, lalu mengalami keadaan seperti kesurupan.” / “lalu sekali lagi mengalami keadaan seperti kesurupan.”"
+      "location": "HTML, paragraph beginning “One night one of the sisters had a vision”",
+      "severity": "minor",
+      "source_quote": "“a strange minister standing in the pulpit”",
+      "suggested_fix": "Ganti “seorang pendeta asing” dengan “seorang pendeta yang tidak dikenal” agar maknanya tidak terkesan bahwa pendeta itu berasal dari negara lain.",
+      "translation_quote": "“seorang pendeta asing berdiri di mimbar”"
     },
     {
-      "location": "Kutipan Yesaya 44:3a dan pengulangan janji itu dalam paragraf tentang doa di lumbung, ucapan diaken, serta ucapan pandai besi",
-      "severity": "major",
-      "source_quote": "“I will pour water upon him that is thirsty, and floods upon the dry ground” / “floods upon the dry ground”",
-      "suggested_fix": "Pada semua kemunculan, ganti “sungai-sungai ke atas tanah yang kering” dengan “limpahan air ke atas tanah yang kering” (atau padanan yang mempertahankan gambaran banjir/limpahan air). “Sungai-sungai” mengubah gambaran dalam kutipan sumber.",
-      "translation_quote": "“Aku akan mencurahkan air ke atas orang yang haus, dan sungai-sungai ke atas tanah yang kering” / “sungai-sungai ke atas tanah yang kering”"
-    },
-    {
-      "location": "Kutipan Mazmur 24:4",
-      "severity": "major",
-      "source_quote": "“who hath not lifted up his soul unto vanity, nor sworn deceitfully.”",
-      "suggested_fix": "Ganti “yang tidak menyerahkan dirinya kepada penipuan” dengan “yang tidak mengangkat jiwanya kepada kesia-siaan” atau padanan setia lainnya; sumber membedakan kesia-siaan dari bersumpah palsu pada klausa berikutnya.",
-      "translation_quote": "“yang tidak menyerahkan dirinya kepada penipuan dan tidak bersumpah palsu.”"
+      "location": "HTML, paragraph beginning “The interesting thing about that meeting”",
+      "severity": "minor",
+      "source_quote": "“Oh, deeply convicted of his desperate need.”",
+      "suggested_fix": "Ubah menjadi “Oh, ia sungguh-sungguh diyakinkan akan betapa mendesaknya kebutuhannya” untuk mempertahankan nuansa keyakinan batin dalam konteks rohani.",
+      "translation_quote": "“Oh, ia sungguh-sungguh merasa sangat membutuhkan pertolongan.”"
     }
   ],
+  "finished_at": "2026-11-19T00:48:12+00:00",
   "id": "9ebe752690352744ba45cc00649a070e",
   "issue_id": "14962b7b-2d94-5b43-a4c6-bbb78f074d1a",
   "language": "ind",
@@ -182,7 +195,7 @@
     }
   },
   "protected": false,
-  "quality_score": 89,
+  "quality_score": 97,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
@@ -202,7 +215,7 @@
     "total_reserved_usd": 0.09147,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "a51f02e689fe1b52df8c601e4466a1281a16cd42b6829edfba58bdfdf76d1ea0",
   "translation_model_actual": "gpt-6-luna"

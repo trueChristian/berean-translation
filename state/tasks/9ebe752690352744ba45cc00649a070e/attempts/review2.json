@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-19T00:48:12+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, paragraph beginning “One night one of the sisters had a vision”\",\"severity\":\"minor\",\"source_quote\":\"“a strange minister standing in the pulpit”\",\"suggested_fix\":\"Ganti “seorang pendeta asing” dengan “seorang pendeta yang tidak dikenal” agar maknanya tidak terkesan bahwa pendeta itu berasal dari negara lain.\",\"translation_quote\":\"“seorang pendeta asing berdiri di mimbar”\"},{\"location\":\"HTML, paragraph beginning “The interesting thing about that meeting”\",\"severity\":\"minor\",\"source_quote\":\"“Oh, deeply convicted of his desperate need.”\",\"suggested_fix\":\"Ubah menjadi “Oh, ia sungguh-sungguh diyakinkan akan betapa mendesaknya kebutuhannya” untuk mempertahankan nuansa keyakinan batin dalam konteks rohani.\",\"translation_quote\":\"“Oh, ia sungguh-sungguh merasa sangat membutuhkan pertolongan.”\"}],\"findings_complete\":true,\"passed\":true,\"score\":97}",
+    "content_bytes": 916,
+    "content_evidence_truncated": false,
+    "content_sha256": "15d6022e891c3865e9d11694c1138986bc0de73a822d4f427cd618084fa92361",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 924,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 693,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 10959,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9856,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 11883
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}
