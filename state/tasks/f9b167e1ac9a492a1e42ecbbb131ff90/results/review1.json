@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "5fbbe52a-bd66-46c6-a91f-45f05b3a5f8d",
+    "response_id": "chatcmpl-ElrVe5gRiJER0INgHR3LMJpd1kQvx",
+    "usage": {
+      "completion_tokens": 626,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 10687,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 10684,
+        "cached_tokens": 0
+      },
+      "total_tokens": 11313
+    }
+  },
+  "received_at": "2026-11-19T12:55:47+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Salme 24-sitatet",
+        "severity": "major",
+        "source_quote": "“who hath not lifted up his soul unto vanity, nor sworn deceitfully”",
+        "suggested_fix": "«som ikke vender sin sjel mot det som er tomhet, og ikke sverger falskt»",
+        "translation_quote": "«som ikke farer med svik og ikke sverger falskt»"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 93
+  }
+}
