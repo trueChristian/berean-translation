@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "86463672fb13411cbfb5866ae1f06220",
   "campaign": "auto-041d1d36da52207848d8c33b71c5625fc6cff284a4e2113132224e2c8d411526",
   "created_at": "2026-11-19T03:48:30+00:00",
   "events": [
@@ -28,10 +27,38 @@
         },
         "total_tokens": 8023
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 752,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 638,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8377,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8374,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9129
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "Opening blockquote; Proverbs 29:18",
+      "severity": "major",
+      "source_quote": "“Where there is no vision, the people perish”",
+      "suggested_fix": "যেখানে <strong>দর্শন</strong> নেই, সেখানে লোকেরা বিনষ্ট হয়,",
+      "translation_quote": "যেখানে দর্শন নেই, সেখানে লোকেরা সংযম হারায়,"
+    }
+  ],
   "id": "b80dccfd2daa375399aeb3c5717188ca",
   "issue_id": "14962b7b-2d94-5b43-a4c6-bbb78f074d1a",
   "language": "ben",
@@ -120,11 +147,13 @@
     }
   },
   "protected": false,
+  "quality_score": 94,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/cbf793416556696ee72b11d283016eab5bddf2775337c6138a1c2fd40203c25b.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "translate",
     "max_candidate_bytes": 120000,
@@ -138,7 +167,7 @@
     "total_reserved_usd": 0.08952,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "185b97cda696ff5f8dd7eedb4b0e07b692951558ceb527409cc25fd72f4c7bf1",
   "translation_model_actual": "gpt-6-luna"

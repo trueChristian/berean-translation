@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "1e157c22-2eed-4ea1-a2cc-15fcc1074d49",
+    "response_id": "chatcmpl-ElvJ0J0FlSQGSuau8xKqb9zBXhmuN",
+    "usage": {
+      "completion_tokens": 752,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 638,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8377,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8374,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9129
+    }
+  },
+  "received_at": "2026-11-19T12:55:43+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Opening blockquote; Proverbs 29:18",
+        "severity": "major",
+        "source_quote": "“Where there is no vision, the people perish”",
+        "suggested_fix": "যেখানে <strong>দর্শন</strong> নেই, সেখানে লোকেরা বিনষ্ট হয়,",
+        "translation_quote": "যেখানে দর্শন নেই, সেখানে লোকেরা সংযম হারায়,"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 94
+  }
+}
