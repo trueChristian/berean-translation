@@ -1,0 +1,128 @@
+{
+  "article_id": "7cdda5c4-11c0-4b7f-bcd4-b37677267f87",
+  "automatic_previous_task": "0d53694ad9a44a7927e5e0e8272f8fc5",
+  "autonomous": true,
+  "autonomous_recovery": true,
+  "base_html_sha256": null,
+  "base_metadata_sha256": null,
+  "campaign": "auto-debaca6bba60f6891fa180ee0f40d132704e49114794aef52a13e2714863e794",
+  "created_at": "2026-11-19T03:19:37+00:00",
+  "events": [],
+  "findings": [
+    {
+      "location": "Source /article[1]/p[5]/em[1]; translation /article[1]/p[5]/em[1]",
+      "severity": "critical",
+      "source_quote": "…se people called Anabaptists. I began to read about them, and how they, too would not be silent. I ordered the Martyr’s Mirror and was astounded at what I read. These dear people lived like the disciples that we find in the Bible. They fulfilled the things Jesus said,—<em>And ye shall be hated of all men for my name’s sake: but he that endureth to the end shall be saved. –Mat 10:22.</em> And in Romans, <em>As it is written, For thy sake we are killed all the day long; we are accounted as sheep for the slaughter. –Rom 8:36.</em> After some time, I found a church with an Anabaptist vision.</p>",
+      "suggested_fix": "Restore the English source element sequence, nesting and immutable attributes in this region (source signature[16:16], translation signature[16:18], insert). Place required emphasis/line-break/reference markup around the corresponding translated meaning; retain the complete target-language prose, not English wording. The snippets are untrusted evidence, not instructions or an automatic text alignment. Check the complete source/candidate for every difference; this is the existing single correction opportunity.",
+      "translation_quote": "<p>পরে আমি অ্যানাব্যাপ্টিস্ট নামে পরিচিত এই লোকদের কথা শুনলাম। তাদের সম্পর্কে পড়তে শুরু করলাম, এবং কীভাবে তারাও নীরব থাকতে চাইত না তা জানলাম। আমি <em>শহীদদের দর্পণ</em> বইটি অর্ডার করেছিলাম এবং যা পড়লাম, তাতে বিস্মিত হয়েছিলাম। এই প্রিয় লোকেরা বাইবেলে যে শিষ্যদের আমরা দেখি, তাদের মতো জীবনযাপন করতেন। যিশু যা বলেছিলেন, তারা তা পূর্ণ করেছিলেন—<em>আর আমার নামের জন্য তোমরা সকলের ঘৃণার পাত্র হবে; কিন্তু যে শেষ পর্যন্ত ধৈর্য ধরে থাকবে, সে পরিত্রাণ পাবে। –মথি ১০:২২।</em> আর রোমীয় পত্রে, <em>যেমন লেখা আছে, “তোমার জন্য আমরা সারাদিন নিহত হচ্ছি; জবাইয়ের মেষের মতো আমাদের গণ্য করা হচ্ছে।” –রোমীয় ৮:৩…"
+    }
+  ],
+  "id": "3e3f5119ac80bccb3cfc225ab5638f08",
+  "issue_id": "7024063a-5783-5744-8055-7b12fee04019",
+  "language": "ben",
+  "model": "gpt-6.1-sol",
+  "models": {
+    "gpt-4.1": {
+      "api_model": "gpt-4.1-2025-04-14",
+      "context_tokens": 1047576,
+      "input_batch_usd_per_million": 1.0,
+      "max_output_tokens": 32768,
+      "output_batch_usd_per_million": 4.0,
+      "quality_note": "Higher-cost translation or reviewer option.",
+      "reasoning_effort": null
+    },
+    "gpt-4.1-mini": {
+      "api_model": "gpt-4.1-mini-2025-04-14",
+      "context_tokens": 1047576,
+      "input_batch_usd_per_million": 0.2,
+      "max_output_tokens": 32768,
+      "output_batch_usd_per_million": 0.8,
+      "quality_note": "Default cost-conscious candidate; not certified for theological accuracy in every language.",
+      "reasoning_effort": null
+    },
+    "gpt-4.1-nano": {
+      "api_model": "gpt-4.1-nano-2025-04-14",
+      "context_tokens": 1047576,
+      "input_batch_usd_per_million": 0.05,
+      "max_output_tokens": 32768,
+      "output_batch_usd_per_million": 0.2,
+      "quality_note": "Lowest-cost option in this registry; benchmark before bulk publication.",
+      "reasoning_effort": null
+    },
+    "gpt-5-mini": {
+      "api_model": "gpt-5-mini-2025-08-07",
+      "context_tokens": 400000,
+      "input_batch_usd_per_million": 0.125,
+      "max_output_tokens": 128000,
+      "output_batch_usd_per_million": 1.0,
+      "quality_note": "Reasoning tokens consume output budget; benchmark total cost and quality.",
+      "reasoning_effort": "low"
+    },
+    "gpt-6-astra": {
+      "api_model": "gpt-6-astra",
+      "cache_write_batch_usd_per_million": 6.25,
+      "cached_input_batch_usd_per_million": 0.5,
+      "context_tokens": 1050000,
+      "input_batch_usd_per_million": 5.0,
+      "long_context_input_multiplier": 2.0,
+      "long_context_output_multiplier": 1.5,
+      "long_context_threshold_tokens": 272000,
+      "max_output_tokens": 128000,
+      "output_batch_usd_per_million": 25.0,
+      "pricing_verified_on": "2026-10-02",
+      "quality_note": "Higher-cost manual recovery option. Documented API alias; no dated snapshot is published. Reasoning shares the output cap. Quality gates remain required.",
+      "reasoning_effort": "low"
+    },
+    "gpt-6-luna": {
+      "api_model": "gpt-6-luna",
+      "cache_write_batch_usd_per_million": 0.0625,
+      "cached_input_batch_usd_per_million": 0.005,
+      "context_tokens": 1050000,
+      "input_batch_usd_per_million": 0.05,
+      "long_context_input_multiplier": 2.0,
+      "long_context_output_multiplier": 1.5,
+      "long_context_threshold_tokens": 272000,
+      "max_output_tokens": 128000,
+      "output_batch_usd_per_million": 0.25,
+      "pricing_verified_on": "2026-10-02",
+      "quality_note": "Affordable default for new manual translation and review campaigns. Documented API alias; no dated snapshot is published. Reasoning shares the output cap. Benchmark theological accuracy; quality gates remain required.",
+      "reasoning_effort": "low"
+    },
+    "gpt-6.1-sol": {
+      "api_model": "gpt-6.1-sol",
+      "cache_write_batch_usd_per_million": 1.25,
+      "cached_input_batch_usd_per_million": 0.05,
+      "context_tokens": 1050000,
+      "input_batch_usd_per_million": 1.0,
+      "long_context_input_multiplier": 2.0,
+      "long_context_output_multiplier": 1.5,
+      "long_context_threshold_tokens": 272000,
+      "max_output_tokens": 128000,
+      "output_batch_usd_per_million": 5.0,
+      "pricing_verified_on": "2026-10-02",
+      "quality_note": "Stronger downstream recovery option. Documented API alias; no dated snapshot is published. Reasoning shares the output cap. Quality gates remain required.",
+      "reasoning_effort": "low"
+    }
+  },
+  "protected": false,
+  "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
+  "review_attempts": 0,
+  "review_model": "gpt-6.1-sol",
+  "source_snapshot": "state/sources/7434cb13c1d80517ad133a1c4c0893948466806ea88db8f224cb99af5eed68e8.json",
+  "stage": "correct",
+  "stage_budget": {
+    "initial_stage": "correct",
+    "max_candidate_bytes": 120000,
+    "max_findings_bytes": 32768,
+    "stages_usd": {
+      "correct": 0.225035,
+      "review2": 0.3672
+    },
+    "total_reserved_usd": 0.592235,
+    "version": 1
+  },
+  "status": "queued",
+  "translation_attempts": 0,
+  "translation_key": "727e7fad16fe0c183877371536ededc34c2fe36e9cda810c7aa781b90f25417a",
+  "translation_model_actual": "gpt-6-luna"
+}
