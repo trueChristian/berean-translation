@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-19T23:38:57+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragrafo 5\",\"severity\":\"major\",\"source_quote\":\"“If you gather your elders together, you can meet in a barn or a farming community”\",\"suggested_fix\":\"«Se riunisce i suoi anziani, potete incontrarvi in un fienile o in una fattoria e, mentre voi pregate lì, noi pregheremo qui»\",\"translation_quote\":\"«Se riunisce i suoi anziani, potete incontrarvi in un fienile o in una comunità agricola»\"},{\"location\":\"Paragrafo 8\",\"severity\":\"major\",\"source_quote\":\"“This is the man whom God will trust with revival; that was the conviction.”\",\"suggested_fix\":\"«Quest’uomo è colui al quale Dio affiderà il risveglio: questa era la convinzione»\",\"translation_quote\":\"«Questa era la convinzione: quest’uomo è colui al quale Dio affiderà il risveglio.»\"},{\"location\":\"Paragrafo 27\",\"severity\":\"major\",\"source_quote\":\"“He was converted in the revival with eleven other men who were to serve in his presbytery, a wonderful congregation.”\",\"suggested_fix\":\"«Si convertì durante il risveglio insieme ad altri undici uomini che avrebbero servito nel suo presbiterio, una meravigliosa comunità di credenti.»\",\"translation_quote\":\"«Si convertì durante il risveglio insieme ad altri undici uomini che avrebbero servito nel suo presbiterio, una congregazione meravigliosa.»\"},{\"location\":\"Paragrafo 29\",\"severity\":\"major\",\"source_quote\":\"“I went to join this parish minister along with several other ministers.”\",\"suggested_fix\":\"«Andai a raggiungere quel ministro della parrocchia insieme a diversi altri ministri.»\",\"translation_quote\":\"«Andai a raggiungere quel ministro della parrocchia insieme a diversi altri ministri.»\"},{\"location\":\"Paragrafo 31\",\"severity\":\"major\",\"source_quote\":\"“At that time all work stopped for two hours”\",\"suggested_fix\":\"«A quell’ora tutto il lavoro si fermava per due ore»\",\"translation_quote\":\"«A quell’ora tutto il lavoro si fermava per due ore»\"}],\"findings_complete\":true,\"passed\":false,\"score\":92}",
+    "content_bytes": 1992,
+    "content_evidence_truncated": false,
+    "content_sha256": "dbc542caf92f569b4b336abd41d1f5f7e4eeb4ad2c52a6054dd45ecb31217802",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 499,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 10899,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9796,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 11398
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}
