@@ -69453,6 +69453,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/nld/articles/682dc04d-bea3-4325-ac73-926bb3396990.html",
+      "html_sha256": "ae0237dd41a4177e73ac8d5fa0760e87cc577368941f8d1af9c2b5dd63a800d1",
+      "human_reviewed": false,
+      "id": "682dc04d-bea3-4325-ac73-926bb3396990",
+      "images": [
+        {
+          "alt": "Hamburgers, hotdogs, friet, nuggets, kippenvleugels en chips.",
+          "public_path": "/images/articles/682dc04d-bea3-4325-ac73-926bb3396990-1.jpg"
+        },
+        {
+          "alt": "Zalm, bessen, noten, bladgroenten en tomaten op een licht oppervlak.",
+          "public_path": "/images/articles/682dc04d-bea3-4325-ac73-926bb3396990-2.jpg"
+        }
+      ],
+      "issue_id": "103c93e0-6e9a-44f6-a6bc-377af8e08e38",
+      "language": "nld",
+      "language_tag": "nl",
+      "metadata": "content/nld/articles/682dc04d-bea3-4325-ac73-926bb3396990.json",
+      "metadata_sha256": "78acd978778cb177eeffcfa628ab6fa44ae2bc85504d436065589a47e671a7a1",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "EEN WOORD VAN DE ARTS",
+      "source_revision": "ccefc5a5c3d79409cc78319f94b5490718d30670",
+      "source_translation_key": "e08824e3e33290c1dfae2fe095d30369d2527145b6b1d02261193ad339207a52",
+      "status": "ready",
+      "subtitle": null,
+      "title": "De gevaren van ultrabewerkte voedingsmiddelen",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/nld/articles/6b3e3e7e-b5fd-4701-9a63-699b90f17ec9.html",
       "html_sha256": "e3f49fe0cfafa4b5fa480410fd35be7ced84c0f24ae9ca5885c654bfff6b2f85",
       "human_reviewed": false,
