@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "2249a716adca48648fd870020d7c69c8",
   "campaign": "auto-0405c37b3ccb6cb1b56797059b3512d0e498ea232afb7e4efade2f94c38b7aa6",
   "created_at": "2026-11-19T08:02:31+00:00",
   "events": [
@@ -28,10 +27,39 @@
         },
         "total_tokens": 7087
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 918,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 629,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7441,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 7438,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8359
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "Referências bíblicas no artigo: primeiro parágrafo; parágrafos sobre a visão, Abraão e Laodiceia; último parágrafo antes da oração; bloco de citação de Apocalipse 3:20",
+      "severity": "minor",
+      "source_quote": "“I Sam. 3:1”; “II Cor. 3:3”; “Rom. 4:17b”; “Rev. 3:18c”; “Rev. 3:20”; “Eph. 3:20”",
+      "suggested_fix": "Use as formas convencionais em português para os nomes dos livros, mantendo os números e sufixos: “1 Samuel 3:1”; “2 Coríntios 3:3”; “Romanos 4:17b”; “Apocalipse 3:18c”; “Apocalipse 3:20”; “Efésios 3:20”.",
+      "translation_quote": "“I Sam. 3:1”; “II Cor. 3:3”; “Rom. 4:17b”; “Rev. 3:18c”; “Rev. 3:20”; “Eph. 3:20”"
+    }
+  ],
+  "finished_at": "2026-11-19T17:17:45+00:00",
   "id": "79db66a5c5ec854d847f0174de309878",
   "issue_id": "14962b7b-2d94-5b43-a4c6-bbb78f074d1a",
   "language": "por",
@@ -120,9 +148,11 @@
     }
   },
   "protected": false,
+  "quality_score": 97,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/cbf793416556696ee72b11d283016eab5bddf2775337c6138a1c2fd40203c25b.json",
   "stage": "review1",
   "stage_budget": {
@@ -138,7 +168,7 @@
     "total_reserved_usd": 0.089534,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "185b97cda696ff5f8dd7eedb4b0e07b692951558ceb527409cc25fd72f4c7bf1",
   "translation_model_actual": "gpt-6-luna"

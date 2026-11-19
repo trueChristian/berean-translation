@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-19T17:17:45+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Referências bíblicas no artigo: primeiro parágrafo; parágrafos sobre a visão, Abraão e Laodiceia; último parágrafo antes da oração; bloco de citação de Apocalipse 3:20\",\"severity\":\"minor\",\"source_quote\":\"“I Sam. 3:1”; “II Cor. 3:3”; “Rom. 4:17b”; “Rev. 3:18c”; “Rev. 3:20”; “Eph. 3:20”\",\"suggested_fix\":\"Use as formas convencionais em português para os nomes dos livros, mantendo os números e sufixos: “1 Samuel 3:1”; “2 Coríntios 3:3”; “Romanos 4:17b”; “Apocalipse 3:18c”; “Apocalipse 3:20”; “Efésios 3:20”.\",\"translation_quote\":\"“I Sam. 3:1”; “II Cor. 3:3”; “Rom. 4:17b”; “Rev. 3:18c”; “Rev. 3:20”; “Eph. 3:20”\"}],\"findings_complete\":true,\"passed\":true,\"score\":97}",
+    "content_bytes": 780,
+    "content_evidence_truncated": false,
+    "content_sha256": "89dad5670a02cb3532107ac027781a53b66c6f16d36f4965d1cd50f9a19922f3",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 918,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 629,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7441,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7438,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8359
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

@@ -82111,6 +82111,42 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/por/articles/8389d62e-1ba0-47de-bf13-29a71ffa204c.html",
+      "html_sha256": "3b4027fef1535061bd12fb5b42fb6bb241f1e2d8c82abaa88c8adb0ff0bd55eb",
+      "human_reviewed": false,
+      "id": "8389d62e-1ba0-47de-bf13-29a71ffa204c",
+      "images": [
+        {
+          "alt": "Três figuras vestidas com túnicas olhando para uma paisagem",
+          "public_path": "/images/articles/8389d62e-1ba0-47de-bf13-29a71ffa204c-1.png"
+        },
+        {
+          "alt": "Denny e Jackie Kenaston com a família",
+          "public_path": "/images/articles/8389d62e-1ba0-47de-bf13-29a71ffa204c-2.jpg"
+        },
+        {
+          "alt": "Uma família reunida à mesa enquanto um homem lê para todos",
+          "public_path": "/images/articles/8389d62e-1ba0-47de-bf13-29a71ffa204c-3.png"
+        }
+      ],
+      "issue_id": "14962b7b-2d94-5b43-a4c6-bbb78f074d1a",
+      "language": "por",
+      "language_tag": "pt",
+      "metadata": "content/por/articles/8389d62e-1ba0-47de-bf13-29a71ffa204c.json",
+      "metadata_sha256": "0f9bce2feceb6aede4c9228f37e1a6af5706b833d0267b5851321c1ba37d82a1",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "ccefc5a5c3d79409cc78319f94b5490718d30670",
+      "source_translation_key": "185b97cda696ff5f8dd7eedb4b0e07b692951558ceb527409cc25fd72f4c7bf1",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Uma visão motivadora para os nossos lares",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/por/articles/85306410-6a2d-46f1-b6db-6d3450f7f908.html",
       "html_sha256": "cfc61ff62d553b06cb9c682ca02596931f4c2849f6ab8ac084b95ceec6fd1715",
       "human_reviewed": false,
