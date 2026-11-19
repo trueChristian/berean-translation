@@ -19,9 +19,32 @@
       "event": "automatic_requested",
       "previous_task": "f5c76198b0a284263184b671528a0de7",
       "task": "e638b0069154342721fd5dbb614a6efd"
+    },
+    {
+      "at": "2026-11-19T03:16:22+00:00",
+      "event": "complete",
+      "reason": null,
+      "task": "e638b0069154342721fd5dbb614a6efd"
     }
   ],
   "language": "swa",
   "latest_task": "e638b0069154342721fd5dbb614a6efd",
-  "published": null
+  "published": {
+    "html_path": "content/swa/articles/572ec209-1870-46a2-ba99-bc6121777d7c.html",
+    "html_sha256": "d50d41ffc8fe90ab8790f032a8efd464f9137d12970ec97d71869ba530c1a467",
+    "human_review": null,
+    "human_reviewed": false,
+    "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
+    "metadata_path": "content/swa/articles/572ec209-1870-46a2-ba99-bc6121777d7c.json",
+    "metadata_sha256": "8afcc8042480a802a86c6b25262c825d5717bd55cf98fa8e4132d7a51b386d08",
+    "model": "gpt-6.1-sol",
+    "notice_html": "<aside class=\"translation-notice\" data-translation-notice=\"ai\" lang=\"sw\" dir=\"ltr\" role=\"note\">\n  <p>Makala hii imetafsiriwa kwa akili bandia ya OpenAI (modeli: gpt-6.1-sol) na bado haijahakikiwa na binadamu. Maandishi asilia ya Kiingereza ndiyo toleo lenye mamlaka. Ikiwa kuna shaka kuhusu maana, tafadhali rejelea maandishi asilia ya Kiingereza. <a href=\"/en/articles/572ec209-1870-46a2-ba99-bc6121777d7c/\" data-source-article-id=\"572ec209-1870-46a2-ba99-bc6121777d7c\" hreflang=\"en\">Maandishi asilia ya Kiingereza</a></p>\n</aside>",
+    "published_at": "2026-11-19T03:16:22+00:00",
+    "quality_score": 99,
+    "review_model": "gpt-6.1-sol",
+    "source_revision": "a069ecca8827634ebc256b3b1cabc16aeb942ed7",
+    "source_snapshot": "state/sources/708a3fb4d13e43b091bc758b553eb57ea330a2bad9c2a965b106a4d7b4fdd07e.json",
+    "task": "e638b0069154342721fd5dbb614a6efd",
+    "translation_key": "e63d8dd4523e81f116e7e26485a04e311cbbba9cab0a4c2e771c80f06b38cb0c"
+  }
 }

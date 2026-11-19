@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "c8d9f63dc14d4cf2a15405c43376e48b",
   "campaign": "auto-c3b367e4459c7420838a420875b082bf6340d414e59741ca373528892ca0f917",
   "created_at": "2026-11-17T22:21:38+00:00",
   "events": [
@@ -48,32 +47,31 @@
         },
         "total_tokens": 3278
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 72,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 40,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 2346,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 2343,
+          "cached_tokens": 0
+        },
+        "total_tokens": 2418
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "translation.html, div.poem, stanza 1, line 2",
-      "severity": "major",
-      "source_quote": "It was from the beginning that His will He would yield.",
-      "suggested_fix": "Replace the line with: “Tangu mwanzo, alikuwa tayari kuyasalimisha mapenzi yake.”",
-      "translation_quote": "Tangu mwanzo, alikuwa tayari kutii mapenzi yake."
-    },
-    {
-      "location": "translation.html, div.poem, stanza 6, line 1",
-      "severity": "minor",
-      "source_quote": "Ten thousand angels, He could have summoned south,",
-      "suggested_fix": "Restore the printed direction: “Angeweza kuwaita malaika elfu kumi waje kusini,”",
-      "translation_quote": "Angeweza kuita malaika elfu kumi,"
-    },
-    {
-      "location": "translation.html, div.poem, stanza 9, line 1",
-      "severity": "minor",
-      "source_quote": "Because He treasured us",
-      "suggested_fix": "Replace “Kwa sababu alitutunza” with “Kwa sababu alituthamini” to convey that he valued us dearly, rather than that he cared for us.",
-      "translation_quote": "Kwa sababu alitutunza"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-11-19T03:16:22+00:00",
   "id": "e638b0069154342721fd5dbb614a6efd",
   "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
   "language": "swa",
@@ -162,7 +160,7 @@
     }
   },
   "protected": false,
-  "quality_score": 94,
+  "quality_score": 99,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6.1-sol",
@@ -181,7 +179,7 @@
     "total_reserved_usd": 0.679489,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "e63d8dd4523e81f116e7e26485a04e311cbbba9cab0a4c2e771c80f06b38cb0c",
   "translation_model_actual": "gpt-6.1-sol"

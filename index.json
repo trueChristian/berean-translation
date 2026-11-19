@@ -98614,6 +98614,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/swa/articles/572ec209-1870-46a2-ba99-bc6121777d7c.html",
+      "html_sha256": "d50d41ffc8fe90ab8790f032a8efd464f9137d12970ec97d71869ba530c1a467",
+      "human_reviewed": false,
+      "id": "572ec209-1870-46a2-ba99-bc6121777d7c",
+      "images": [
+        {
+          "alt": "Mti mkubwa wenye majani mengi kando ya shamba la kijani chini ya anga la buluu",
+          "public_path": "/images/articles/572ec209-1870-46a2-ba99-bc6121777d7c-1.jpg"
+        }
+      ],
+      "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
+      "language": "swa",
+      "language_tag": "sw",
+      "metadata": "content/swa/articles/572ec209-1870-46a2-ba99-bc6121777d7c.json",
+      "metadata_sha256": "8afcc8042480a802a86c6b25262c825d5717bd55cf98fa8e4132d7a51b386d08",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "Shairi",
+      "source_revision": "a069ecca8827634ebc256b3b1cabc16aeb942ed7",
+      "source_translation_key": "e63d8dd4523e81f116e7e26485a04e311cbbba9cab0a4c2e771c80f06b38cb0c",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Mwokozi Anayeteseka",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/swa/articles/58d3859b-42f6-4cf1-80e6-fa847d9dc4a4.html",
       "html_sha256": "4dccd9a178ee768ea2beccf87d38a85f7a134466351b0850c52b16736f3d6c78",
       "human_reviewed": false,
