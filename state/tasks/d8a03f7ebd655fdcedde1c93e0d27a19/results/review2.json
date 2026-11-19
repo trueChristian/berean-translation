@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "1c594fc5-d316-4f3e-9e5b-f95cd3edf423",
+    "response_id": "chatcmpl-EllvhkkNwXnp3DLW8plk30S5Tcb2q",
+    "usage": {
+      "completion_tokens": 935,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 789,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7909,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7906,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8844
+    }
+  },
+  "received_at": "2026-11-19T03:16:44+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph beginning “One last story in connection with this song happened in India”",
+        "severity": "major",
+        "source_quote": "“the Hooghly River, just below the Ganges River”",
+        "suggested_fix": "Replace “ממש מתחת לנהר הגנגס” with “במורד נהר הגנגס” to convey the river’s downstream location, not a position directly beneath the Ganges.",
+        "translation_quote": "“בנהר הוגלי, ממש מתחת לנהר הגנגס”"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 94
+  }
+}

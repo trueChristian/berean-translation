@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph beginning “One last story in connection with this song happened in India”",
+      "severity": "major",
+      "source_quote": "“the Hooghly River, just below the Ganges River”",
+      "suggested_fix": "Replace “ממש מתחת לנהר הגנגס” with “במורד נהר הגנגס” to convey the river’s downstream location, not a position directly beneath the Ganges.",
+      "translation_quote": "“בנהר הוגלי, ממש מתחת לנהר הגנגס”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

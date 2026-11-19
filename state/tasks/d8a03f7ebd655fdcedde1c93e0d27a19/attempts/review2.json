@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-19T03:16:44+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph beginning “One last story in connection with this song happened in India”\",\"severity\":\"major\",\"source_quote\":\"“the Hooghly River, just below the Ganges River”\",\"suggested_fix\":\"Replace “ממש מתחת לנהר הגנגס” with “במורד נהר הגנגס” to convey the river’s downstream location, not a position directly beneath the Ganges.\",\"translation_quote\":\"“בנהר הוגלי, ממש מתחת לנהר הגנגס”\"}],\"findings_complete\":true,\"passed\":false,\"score\":94}",
+    "content_bytes": 539,
+    "content_evidence_truncated": false,
+    "content_sha256": "c10c3a96f9ce13ab06b5120982c1736a666535d78fe53a1e37649a6e5a61ecf5",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 935,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 789,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7909,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7906,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8844
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}
