@@ -1,0 +1,108 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "965c535f-14ef-4619-9e4b-b5b93880cacd",
+    "response_id": "chatcmpl-Elnlm1UC5TajZdp8darVn8hGTPKwn",
+    "usage": {
+      "completion_tokens": 1566,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 64,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9165,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9162,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10731
+    }
+  },
+  "received_at": "2026-11-19T08:01:00+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "html, alinea over Felix Manz’ dood",
+        "severity": "major",
+        "source_quote": "Felix Manz was the first Anabaptist to be martyred.",
+        "suggested_fix": "Vervang door: “Felix Manz was de eerste wederdoper die als martelaar werd gedood.”",
+        "translation_quote": "Felix Manz was de eerste wederdoper die werd gemarteld."
+      },
+      {
+        "location": "html, alinea over de hulp uit het aalmoesfonds",
+        "severity": "major",
+        "source_quote": "through food and no-interest loans from their alms fund",
+        "suggested_fix": "Vervang “rentedragende leningen” door “renteloze leningen”.",
+        "translation_quote": "met voedsel en rentedragende leningen uit hun aalmoesfonds"
+      },
+      {
+        "location": "html, alinea over Hans’ reactie op de bedreigingen",
+        "severity": "major",
+        "source_quote": "He, instead, admonished the rulers not to commit sin in their treatment of him",
+        "suggested_fix": "Vervang het betreffende zinsdeel door: “In plaats daarvan vermaande hij de heersers om niet te zondigen in hun behandeling van hem; daarbij bevestigde hij zijn besluit”.",
+        "translation_quote": "In plaats daarvan vermanend de heersers hem dat zij geen zonde mochten begaan in hun behandeling van hem, bevestigde hij zijn besluit"
+      },
+      {
+        "location": "html, alinea bij het vernemen van het vonnis; alinea met Vollmars verzoek om vergiffenis; alinea over Hans’ nabestaanden",
+        "severity": "major",
+        "source_quote": "a ploy to persuade him to recant; various church ministers admonished him to recant; refusing to recant",
+        "suggested_fix": "Vervang respectievelijk door “een list was om hem ertoe te bewegen zijn geloof te herroepen”, “verschillende kerkleiders hem aanspoorden zijn geloof te herroepen” en “weigerden hun geloof te herroepen”. Het gaat hier om herroeping van geloofsovertuigingen, niet om berouw over zonden.",
+        "translation_quote": "een list was om hem tot berouw te bewegen; verschillende kerkleiders hem aanspoorden berouw te tonen; weigerden te berouwen"
+      },
+      {
+        "location": "html, alinea over het ontstaan van de beweging in Zürich en haar wortels in Galilea",
+        "severity": "major",
+        "source_quote": "took root in a small, mountainous region of the globe ... in Galilee, where One taught and lived the final answers to all of man’s questions",
+        "suggested_fix": "Herstel de eerste zin tot: “Tegen deze achtergrond van intellectuele golfbeweging schoot een beweging die de meeste van mijn lezers zullen herkennen, wortel in een klein, bergachtig gebied op aarde.” Vervang het slot door: “in Galilea, waar Eén de uiteindelijke antwoorden op alle vragen van de mens onderwees en voorleefde.”",
+        "translation_quote": "nam een beweging wortel die door de meeste van mijn lezers zal worden herkend ... in Galilea, waar Degene die de uiteindelijke antwoorden op alle vragen van de mens leerde en leefde"
+      },
+      {
+        "location": "html, alinea over het eerdere onderzoek",
+        "severity": "major",
+        "source_quote": "nearly four years prior",
+        "suggested_fix": "Vervang “Ruim vier jaar eerder” door “Bijna vier jaar eerder”.",
+        "translation_quote": "Ruim vier jaar eerder"
+      },
+      {
+        "location": "html, alinea over de gevangenschap in de Wellenberg",
+        "severity": "major",
+        "source_quote": "Paul Degia (a native of Milan, Italy)",
+        "suggested_fix": "Vervang door: “Paul Degia (afkomstig uit Milaan, Italië)”.",
+        "translation_quote": "Paul Degia (een ingezetene van Milaan, Italië)"
+      },
+      {
+        "location": "html, Hans’ antwoord op de opening van de vergadering",
+        "severity": "minor",
+        "source_quote": "all their doctrine was “nothing else than what Christ taught and what the apostles wrote.”",
+        "suggested_fix": "Vervang “niemand anders is” door “niets anders is”.",
+        "translation_quote": "al hun leer “niemand anders is dan wat Christus heeft geleerd en wat de apostelen hebben geschreven.”"
+      },
+      {
+        "location": "html, alinea’s over de verspreiding, het eerdere onderzoek, Hans’ antwoord, het doodvonnis en Vollmars vergiffenis",
+        "severity": "minor",
+        "source_quote": "It spread and grew; An earlier investigation had been conducted; it was also rumored; as he maintained; the magistrates realized; Hans, smiling, forgave the man",
+        "suggested_fix": "Corrigeer respectievelijk tot “Zij verspreidde zich en groeide”, “was een eerder onderzoek gedaan”, “ging ook het gerucht”, “waarbij hij stelde dat”, “realiseerden de magistraten zich” en “Hans vergaf de man”.",
+        "translation_quote": "Zij verspreidde en groeide zich; was een eerdere onderzoek gedaan; het werd ook geruchten; zegen dat; realiseerden de magistraat; Hans vergeefde de man"
+      },
+      {
+        "location": "html, Hans’ laatste toespraak",
+        "severity": "minor",
+        "source_quote": "I wish everyone would come to a knowledge of their sins and repent, that they might be saved",
+        "suggested_fix": "Vervang het betreffende deel door: “dat iedereen tot kennis van zijn zonden komt en zich bekeert, om behouden te worden”.",
+        "translation_quote": "dat ieder tot kennis van zijn zonden zou komen en zich bekeerd zou hebben, opdat zij behouden worden"
+      },
+      {
+        "location": "html, alinea over de kinderen en kleinkinderen van Hans",
+        "severity": "minor",
+        "source_quote": "several of his grandchildren began attending the city church",
+        "suggested_fix": "Vervang “gingen ... weer naar de stadskerk” door “begonnen ... naar de stadskerk te gaan”; de bron zegt niet dat zij er eerder heen gingen.",
+        "translation_quote": "verschillende van zijn kleinkinderen gingen korte tijd na de terechtstelling van hun grootvader weer naar de stadskerk"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 78
+  }
+}
