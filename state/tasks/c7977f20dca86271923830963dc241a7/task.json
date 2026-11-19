@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": "a441df2c438025303b8f3e3fb5b758dbdeaca37602599e58aa4f1cda2bc50913",
   "base_metadata_sha256": "3d3567ef3d9887e01b713b8342b59b2a514e5d7c87dfc463f91748e286d0b52c",
-  "batch": "78ed15bd8c1b4d35b51486858ccd508d",
   "campaign": "auto-ef75c7f1f472a23d70e9e0650aadb185fd794f80ed4c39801772194496c9baa9",
   "created_at": "2026-11-12T03:29:18+00:00",
   "events": [
@@ -28,18 +27,31 @@
         },
         "total_tokens": 10607
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 88,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 56,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7198,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 6095,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 7286
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "Titus 2 quotations: first quotation (Titus 2:3–5), the paragraph beginning «Før i tiden…», and the two later quotations of Titus 2:4–5",
-      "severity": "major",
-      "source_quote": "“keepers at home”",
-      "suggested_fix": "Replace each occurrence of «hjemmekjære» with «ta seg av hjemmet» (for example, «…rene, ta seg av hjemmet, gode…») to convey the responsibility of caring for the home rather than simply being fond of it.",
-      "translation_quote": "«hjemmekjære»"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-11-19T00:49:45+00:00",
   "id": "c7977f20dca86271923830963dc241a7",
   "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
   "language": "nob",
@@ -128,9 +140,11 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/ee1d1c4c726665ca5725eef036aae90f81e779ea0d47055f2cf908d0b809c75d.json",
   "stage": "review2",
   "stage_budget": {
@@ -144,7 +158,7 @@
     "total_reserved_usd": 0.575279,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "aca8415cfcf9e5554286626ac6bcaa5724f97b93dadbcdbbe3b6300ec48874e3",
   "translation_model_actual": "gpt-6.1-sol"
