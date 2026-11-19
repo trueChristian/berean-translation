@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-19T23:38:53+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Kutipan, Wahyu 3:20\",\"severity\":\"major\",\"source_quote\":\"“I will come in to him, and will sup with him”\",\"suggested_fix\":\"Ganti “Aku akan masuk mendapatkannya” dengan “Aku akan masuk ke dalam dirinya” agar tidak bermakna masuk untuk mendapatkan orang itu.\",\"translation_quote\":\"“Aku akan masuk mendapatkannya dan makan bersama dia”\"}],\"findings_complete\":true,\"passed\":false,\"score\":93}",
+    "content_bytes": 427,
+    "content_evidence_truncated": false,
+    "content_sha256": "ecaa423263ad410ce76ae067f1560205fe59e81a60754c5c2062621d734274a3",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 882,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 758,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7871,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6768,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 8753
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}
