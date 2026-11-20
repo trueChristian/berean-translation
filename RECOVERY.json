@@ -3,7 +3,7 @@
   "automatic_enabled": true,
   "automatic_policy_version": 3,
   "budget_enforcement": "none",
-  "committed_usd": 77.128631,
+  "committed_usd": 76.670935,
   "counts": {
     "active": 50,
     "already_translated": 107,
@@ -22,7 +22,7 @@
   },
   "derived": true,
   "format_version": "2",
-  "gross_allocated_usd": 788.587267,
+  "gross_allocated_usd": 788.676791,
   "historical_approved_total_usd": 30.0,
   "items": [
     {
@@ -833,7 +833,7 @@
       "article_id": "8389d62e-1ba0-47de-bf13-29a71ffa204c",
       "language": "ara",
       "latest_task": "0da765bd91899ada6ac5968707e631e6",
-      "processing_status": "in_batch",
+      "processing_status": "queued",
       "reason": "active"
     },
     {
@@ -7149,14 +7149,6 @@
       "request_id": "auto-abd2f75e98738d6c1e6a3a9f8796d0f27914b68c9ae4d4d7d7939ca8b9e8a22a"
     },
     {
-      "accepted_cycles": 1,
-      "article_id": "08c717e6-5c69-433c-b04d-ab1957c20eb9",
-      "language": "nld",
-      "latest_task": "67f032f622abe250be6673043e9adf9e",
-      "processing_status": "in_batch",
-      "reason": "active"
-    },
-    {
       "accepted_cycles": 0,
       "admission_status": "attention",
       "article_id": "10d20eec-3e71-404f-9f8d-8068b010381e",
@@ -7863,6 +7855,14 @@
       "latest_task": "29d1654c5a149b3016de60b311fe3a0d",
       "processing_status": "not_ready",
       "reason": "already_translated"
+    },
+    {
+      "accepted_cycles": 0,
+      "article_id": "8389d62e-1ba0-47de-bf13-29a71ffa204c",
+      "language": "nob",
+      "latest_task": "cac4ab63927b76691fa1b6a0ea3d1fb7",
+      "processing_status": "in_batch",
+      "reason": "active"
     },
     {
       "admission_status": "attention",
@@ -11526,7 +11526,7 @@
       "reason": "eligible_automatic"
     }
   ],
-  "settled_unused_usd": 711.458636,
+  "settled_unused_usd": 712.005856,
   "source_revision": "ccefc5a5c3d79409cc78319f94b5490718d30670",
   "spending_policy": "owner-2026-10-29-provider-managed-spending",
   "usage_description": "Provider-reported usage priced at frozen rates; not invoice reconciliation"
