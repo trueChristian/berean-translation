@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "শেষ প্রার্থনা",
+      "severity": "minor",
+      "source_quote": "“I want to move into the rest of this book with an open face before you.”",
+      "suggested_fix": "“আপনার সামনে অবগুণ্ঠনহীন হয়ে এই বইয়ের বাকি অংশে এগিয়ে যেতে চাই।”",
+      "translation_quote": "“আপনার সামনে উন্মুক্ত মুখ নিয়ে এই বইয়ের বাকি অংশে এগিয়ে যেতে চাই।”"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

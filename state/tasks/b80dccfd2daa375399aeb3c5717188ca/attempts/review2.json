@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-20T03:05:07+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"শেষ প্রার্থনা\",\"severity\":\"minor\",\"source_quote\":\"“I want to move into the rest of this book with an open face before you.”\",\"suggested_fix\":\"“আপনার সামনে অবগুণ্ঠনহীন হয়ে এই বইয়ের বাকি অংশে এগিয়ে যেতে চাই।”\",\"translation_quote\":\"“আপনার সামনে উন্মুক্ত মুখ নিয়ে এই বইয়ের বাকি অংশে এগিয়ে যেতে চাই।”\"}],\"findings_complete\":true,\"passed\":true,\"score\":99}",
+    "content_bytes": 639,
+    "content_evidence_truncated": false,
+    "content_sha256": "eb3c93d674d9d4d0d283faefa7d88ef03c03ff675995cb6ea2b44cc366bb557b",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 741,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 615,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8375,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8372,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9116
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

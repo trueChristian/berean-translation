@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "7946e52e-c3ea-4797-8c37-6448572c49ef",
+    "response_id": "chatcmpl-Em6vbNMZpjBJlPTGdPwzU7goRsLFA",
+    "usage": {
+      "completion_tokens": 741,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 615,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8375,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8372,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9116
+    }
+  },
+  "received_at": "2026-11-20T03:05:07+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "শেষ প্রার্থনা",
+        "severity": "minor",
+        "source_quote": "“I want to move into the rest of this book with an open face before you.”",
+        "suggested_fix": "“আপনার সামনে অবগুণ্ঠনহীন হয়ে এই বইয়ের বাকি অংশে এগিয়ে যেতে চাই।”",
+        "translation_quote": "“আপনার সামনে উন্মুক্ত মুখ নিয়ে এই বইয়ের বাকি অংশে এগিয়ে যেতে চাই।”"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 99
+  }
+}
