@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph beginning “La oss grunne på noen av de indre kreftene”",
+      "severity": "major",
+      "source_quote": "“call those things which be not as though they were” (Rom. 4:17b)",
+      "suggested_fix": "Replace «kalle på det som ikke er, som om det var» with «kalle det som ikke er, som om det var».",
+      "translation_quote": "«kalle på det som ikke er, som om det var» (Rom. 4:17b)"
+    },
+    {
+      "location": "Paragraph beginning “Jeg vil avslutte dette kapitlet”",
+      "severity": "major",
+      "source_quote": "“to do exceedingly abundantly above all that we ask or think, according to the power that worketh in us” (Eph. 3:20)",
+      "suggested_fix": "Replace «ber om eller forstår» with «ber om eller tenker» so the quotation preserves “ask or think.”",
+      "translation_quote": "«å gjøre uendelig mye mer enn alt det vi ber om eller forstår, etter den kraften som virker i oss» (Ef. 3:20)"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

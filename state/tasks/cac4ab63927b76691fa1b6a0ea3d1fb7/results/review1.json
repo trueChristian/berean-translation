@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "d0c782da-633d-4f31-8f2f-2258c32e69a8",
+    "response_id": "chatcmpl-EmJLr3EEhEfA48SFRffffHqc2W49z",
+    "usage": {
+      "completion_tokens": 937,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 664,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7796,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 7793
+      },
+      "total_tokens": 8733
+    }
+  },
+  "received_at": "2026-11-20T20:04:21+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph beginning “La oss grunne på noen av de indre kreftene”",
+        "severity": "major",
+        "source_quote": "“call those things which be not as though they were” (Rom. 4:17b)",
+        "suggested_fix": "Replace «kalle på det som ikke er, som om det var» with «kalle det som ikke er, som om det var».",
+        "translation_quote": "«kalle på det som ikke er, som om det var» (Rom. 4:17b)"
+      },
+      {
+        "location": "Paragraph beginning “Jeg vil avslutte dette kapitlet”",
+        "severity": "major",
+        "source_quote": "“to do exceedingly abundantly above all that we ask or think, according to the power that worketh in us” (Eph. 3:20)",
+        "suggested_fix": "Replace «ber om eller forstår» with «ber om eller tenker» so the quotation preserves “ask or think.”",
+        "translation_quote": "«å gjøre uendelig mye mer enn alt det vi ber om eller forstår, etter den kraften som virker i oss» (Ef. 3:20)"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 93
+  }
+}
