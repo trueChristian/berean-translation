@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "b8989806-9e45-413e-9316-43e3ea867f25",
+    "response_id": "chatcmpl-EmI0OhceOQ5Qg7gTz7oGXwrAfYrcC",
+    "usage": {
+      "completion_tokens": 1172,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 934,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7996,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 7993
+      },
+      "total_tokens": 9168
+    }
+  },
+  "received_at": "2026-11-20T13:03:21+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph beginning “Katika siku za mwisho za mtume Yohana”",
+        "severity": "major",
+        "source_quote": "“Christ sent a message to the church at Laodicea, through him.”",
+        "suggested_fix": "Replace the sentence opening with: “Katika siku za mwisho za mtume Yohana, Kristo alituma ujumbe kwa kanisa la Laodikia kupitia kwake.”",
+        "translation_quote": "“Kristo alimtumia ujumbe kwa ajili ya kanisa la Laodikia.”"
+      },
+      {
+        "location": "Final prayer, sentence beginning “Nataka kuendelea kusoma”",
+        "severity": "minor",
+        "source_quote": "“I want to move into the rest of this book with an open face before you.”",
+        "suggested_fix": "Use “Nataka kuendelea na sehemu iliyobaki ya kitabu hiki nikiwa na uso usiofunikwa mbele zako.”",
+        "translation_quote": "“Nataka kuendelea kusoma kitabu hiki nikiwa na uso ulio wazi mbele zako.”"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 94
+  }
+}

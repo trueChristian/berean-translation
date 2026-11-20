@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph beginning “Katika siku za mwisho za mtume Yohana”",
+      "severity": "major",
+      "source_quote": "“Christ sent a message to the church at Laodicea, through him.”",
+      "suggested_fix": "Replace the sentence opening with: “Katika siku za mwisho za mtume Yohana, Kristo alituma ujumbe kwa kanisa la Laodikia kupitia kwake.”",
+      "translation_quote": "“Kristo alimtumia ujumbe kwa ajili ya kanisa la Laodikia.”"
+    },
+    {
+      "location": "Final prayer, sentence beginning “Nataka kuendelea kusoma”",
+      "severity": "minor",
+      "source_quote": "“I want to move into the rest of this book with an open face before you.”",
+      "suggested_fix": "Use “Nataka kuendelea na sehemu iliyobaki ya kitabu hiki nikiwa na uso usiofunikwa mbele zako.”",
+      "translation_quote": "“Nataka kuendelea kusoma kitabu hiki nikiwa na uso ulio wazi mbele zako.”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

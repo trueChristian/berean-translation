@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "f0b7634649994ed0b55d80c2f01f3a4c",
   "campaign": "auto-442c9a1b9698d11b82f9291eb856a123dc9b5752f1398d77beb9f4edad7df6a6",
   "created_at": "2026-11-19T23:43:02+00:00",
   "events": [
@@ -28,10 +27,45 @@
         },
         "total_tokens": 7699
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1172,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 934,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7996,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 0,
+          "cached_tokens": 7993
+        },
+        "total_tokens": 9168
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "Paragraph beginning “Katika siku za mwisho za mtume Yohana”",
+      "severity": "major",
+      "source_quote": "“Christ sent a message to the church at Laodicea, through him.”",
+      "suggested_fix": "Replace the sentence opening with: “Katika siku za mwisho za mtume Yohana, Kristo alituma ujumbe kwa kanisa la Laodikia kupitia kwake.”",
+      "translation_quote": "“Kristo alimtumia ujumbe kwa ajili ya kanisa la Laodikia.”"
+    },
+    {
+      "location": "Final prayer, sentence beginning “Nataka kuendelea kusoma”",
+      "severity": "minor",
+      "source_quote": "“I want to move into the rest of this book with an open face before you.”",
+      "suggested_fix": "Use “Nataka kuendelea na sehemu iliyobaki ya kitabu hiki nikiwa na uso usiofunikwa mbele zako.”",
+      "translation_quote": "“Nataka kuendelea kusoma kitabu hiki nikiwa na uso ulio wazi mbele zako.”"
+    }
+  ],
   "id": "ba159ecda184888c821e560dc7683a56",
   "issue_id": "14962b7b-2d94-5b43-a4c6-bbb78f074d1a",
   "language": "swa",
@@ -120,11 +154,13 @@
     }
   },
   "protected": false,
+  "quality_score": 94,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/cbf793416556696ee72b11d283016eab5bddf2775337c6138a1c2fd40203c25b.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "translate",
     "max_candidate_bytes": 120000,
@@ -138,7 +174,7 @@
     "total_reserved_usd": 0.08951,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "185b97cda696ff5f8dd7eedb4b0e07b692951558ceb527409cc25fd72f4c7bf1",
   "translation_model_actual": "gpt-6-luna"
