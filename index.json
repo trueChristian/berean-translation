@@ -1077,6 +1077,10 @@
       "language_tag": "af",
       "metadata": "content/afr/articles/269bd2b1-418e-4d93-bd15-e7937c1adb85.json",
       "metadata_sha256": "ab6b52518bd0eb543e97579353ef9a235356b7419189c20259e49f67fad49a5e",
+      "pending_edit": {
+        "reason": "Malformed HTML closing tag: em",
+        "serving_last_accepted": true
+      },
       "provider": "OpenAI",
       "review_model": "gpt-6.1-sol",
       "section": "OORWINNENDE CHRISTELIKE LEWE",
