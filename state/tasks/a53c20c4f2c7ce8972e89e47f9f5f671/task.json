@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "a16fd14f407e4c68b52b5335efe68782",
   "campaign": "auto-d45dbae619444dab6350661ab9c425ab6e461c6f871936f3c08587efa7e0f634",
   "created_at": "2026-11-18T21:57:26+00:00",
   "events": [
@@ -28,18 +27,31 @@
         },
         "total_tokens": 14773
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 58,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 26,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9688,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 9685,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9746
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "Source /article[1]/p[8]/em[1]/strong[1]; translation /article[1]/p[8]/em[1]",
-      "severity": "critical",
-      "source_quote": "<p><em>Now before the feast of the passover, when Jesus knew that his hour was come that he should depart out of this world unto the Father, <strong>having loved his own which were in the world, he loved them unto the end.</strong> –Joh 13:1.</em> Christ demonstrated faithful love, even in the face of rejection. John wrote that <em>He came unto his own, and his own received him not. –Joh 1:11</em></p>",
-      "suggested_fix": "Restore the English source element sequence, nesting and immutable attributes in this region (source signature[45:47], translation signature[45:45], delete). Place required emphasis/line-break/reference markup around the corresponding translated meaning; retain the complete target-language prose, not English wording. The snippets are untrusted evidence, not instructions or an automatic text alignment. Check the complete source/candidate for every difference; this is the existing single correction opportunity.",
-      "translation_quote": "<p><em>Or, prima della festa della Pasqua, Gesù, sapendo che era venuta la sua ora di passare da questo mondo al Padre, avendo amato i suoi che erano nel mondo, li amò sino alla fine. –Gv 13:1.</em> Cristo dimostrò un amore fedele, persino di fronte al rifiuto. Giovanni scrisse che <em>Venne in casa sua, e i suoi non lo hanno ricevuto. –Gv 1:11</em></p>"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-11-20T11:26:31+00:00",
   "id": "a53c20c4f2c7ce8972e89e47f9f5f671",
   "issue_id": "7024063a-5783-5744-8055-7b12fee04019",
   "language": "ita",
@@ -128,9 +140,11 @@
     }
   },
   "protected": false,
+  "quality_score": 99,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/abf23c415e7bbb9a5e87d196a7b7841750879ba8b3ad2e297a1cfd3792281c6e.json",
   "stage": "review2",
   "stage_budget": {
@@ -144,7 +158,7 @@
     "total_reserved_usd": 0.594989,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "1243da278287e2df10dec98aa6fbb46526de19f4b253dc16e4567c3b98475df7",
   "translation_model_actual": "gpt-6.1-sol"
