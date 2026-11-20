@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "76792fd2dc2444e392823464b306f592",
   "campaign": "auto-df86b52425241325d59f73ab1cca91b3747919c06fcbaa79ab1364b22bb804a9",
   "created_at": "2026-11-17T04:36:26+00:00",
   "events": [
@@ -28,25 +27,47 @@
         },
         "total_tokens": 12238
       }
-    }
-  ],
-  "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "ابتدائی پیراگراف، منبر سے منادی کرنے والوں کا ذکر",
-      "severity": "major",
-      "source_quote": "“professors preaching ‘continue in sin’ from the pulpit”",
-      "suggested_fix": "”مسیحیت کا دعویٰ کرنے والے لوگ منبر سے ’گناہ کرتے رہو‘ کی منادی کر رہے ہیں۔“",
-      "translation_quote": "”علما منبر سے ’گناہ کرتے رہو‘ کی منادی کر رہے ہیں۔“"
     },
     {
-      "location": "آخری پیراگراف، مقبول منادی پر گلبرٹ ٹینٹ کا اقتباس",
-      "severity": "major",
-      "source_quote": "“strengthen men's carnal security by their soft, selfish, cowardly discourses”",
-      "suggested_fix": "”اپنی نرم، خودغرض اور بزدلانہ تقریروں سے لوگوں کے گناہ آلود اطمینانِ نفس کو تقویت دیتے ہیں۔“",
-      "translation_quote": "”اپنی نرم، خودغرض اور بزدلانہ تقریروں سے لوگوں کے جسمانی اطمینان کو تقویت دیتے ہیں۔“"
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 315,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 121,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7916,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 7913,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8231
+      }
     }
   ],
+  "failure": "Final review failed; a recovery continuation must pass admission",
+  "failure_kind": "quality_rejection",
+  "findings": [
+    {
+      "location": "html، عنوان «بیداری یا موت» کے بعد پہلا پیراگراف، مائیکل براؤن کا اقتباس",
+      "severity": "major",
+      "source_quote": "He answers dependent prayers.",
+      "suggested_fix": "وہ اُن دعاؤں کا جواب دیتا ہے جو اُس پر انحصار کرتے ہوئے کی جاتی ہیں۔",
+      "translation_quote": "وہ اپنے اوپر انحصار کرتے ہوئے کی گئی دعاؤں کا جواب دیتا ہے۔"
+    },
+    {
+      "location": "html، پہلا پیراگراف، چک اسمتھ کے ذکر سے پہلے",
+      "severity": "minor",
+      "source_quote": "fervent praying",
+      "suggested_fix": "«پُر fervor دعاؤں» کو «پُرسوز دعاؤں» سے بدلیں۔",
+      "translation_quote": "پُر fervor دعاؤں"
+    }
+  ],
+  "finished_at": "2026-11-20T20:52:19+00:00",
   "id": "a6c64a9d714a5b46381f3bc286fc63ff",
   "issue_id": "14962b7b-2d94-5b43-a4c6-bbb78f074d1a",
   "language": "urd",
@@ -135,9 +156,11 @@
     }
   },
   "protected": false,
+  "quality_score": 94,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/b8e84c6ac2371f97ffbabe7b6084751e2c3708d2cb234f7339f556b830577afa.json",
   "stage": "review2",
   "stage_budget": {
@@ -151,7 +174,7 @@
     "total_reserved_usd": 0.588358,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 1,
   "translation_key": "59c6af529e48a18151a99afd7610829371425facdfe6a9b50a5c2c302acba8b6",
   "translation_model_actual": "gpt-6.1-sol"

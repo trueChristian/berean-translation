@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "html، عنوان «بیداری یا موت» کے بعد پہلا پیراگراف، مائیکل براؤن کا اقتباس",
+      "severity": "major",
+      "source_quote": "He answers dependent prayers.",
+      "suggested_fix": "وہ اُن دعاؤں کا جواب دیتا ہے جو اُس پر انحصار کرتے ہوئے کی جاتی ہیں۔",
+      "translation_quote": "وہ اپنے اوپر انحصار کرتے ہوئے کی گئی دعاؤں کا جواب دیتا ہے۔"
+    },
+    {
+      "location": "html، پہلا پیراگراف، چک اسمتھ کے ذکر سے پہلے",
+      "severity": "minor",
+      "source_quote": "fervent praying",
+      "suggested_fix": "«پُر fervor دعاؤں» کو «پُرسوز دعاؤں» سے بدلیں۔",
+      "translation_quote": "پُر fervor دعاؤں"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-20T20:52:19+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"html، عنوان «بیداری یا موت» کے بعد پہلا پیراگراف، مائیکل براؤن کا اقتباس\",\"severity\":\"major\",\"source_quote\":\"He answers dependent prayers.\",\"suggested_fix\":\"وہ اُن دعاؤں کا جواب دیتا ہے جو اُس پر انحصار کرتے ہوئے کی جاتی ہیں۔\",\"translation_quote\":\"وہ اپنے اوپر انحصار کرتے ہوئے کی گئی دعاؤں کا جواب دیتا ہے۔\"},{\"location\":\"html، پہلا پیراگراف، چک اسمتھ کے ذکر سے پہلے\",\"severity\":\"minor\",\"source_quote\":\"fervent praying\",\"suggested_fix\":\"«پُر fervor دعاؤں» کو «پُرسوز دعاؤں» سے بدلیں۔\",\"translation_quote\":\"پُر fervor دعاؤں\"}],\"findings_complete\":true,\"passed\":false,\"score\":94}",
+    "content_bytes": 833,
+    "content_evidence_truncated": false,
+    "content_sha256": "d5b2819353626154de770cb848d763e35315da2417d42e0a72293514d488323b",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 315,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 121,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7916,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7913,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8231
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review2",
+  "translation_attempts": 1
+}
