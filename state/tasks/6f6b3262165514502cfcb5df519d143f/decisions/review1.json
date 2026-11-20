@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph beginning “In the last days of the apostle John”",
+      "severity": "major",
+      "source_quote": "“anoint thine eyes with eye salve, that thou mayest see” (Rev. 3:18c)",
+      "suggested_fix": "Replace the quotation with a faithful rendering of anointing the eyes with eye salve so that the person may see, for example: ”اپنی آنکھوں پر مرہم لگا تاکہ تو دیکھ سکے۔“",
+      "translation_quote": "”اپنی آنکھوں میں لگانے کے لیے سرمہ خرید لے تاکہ تو دیکھ سکے۔“"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

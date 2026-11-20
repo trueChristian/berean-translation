@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-20T11:26:11+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph beginning “In the last days of the apostle John”\",\"severity\":\"major\",\"source_quote\":\"“anoint thine eyes with eye salve, that thou mayest see” (Rev. 3:18c)\",\"suggested_fix\":\"Replace the quotation with a faithful rendering of anointing the eyes with eye salve so that the person may see, for example: ”اپنی آنکھوں پر مرہم لگا تاکہ تو دیکھ سکے۔“\",\"translation_quote\":\"”اپنی آنکھوں میں لگانے کے لیے سرمہ خرید لے تاکہ تو دیکھ سکے۔“\"}],\"findings_complete\":true,\"passed\":false,\"score\":94}",
+    "content_bytes": 613,
+    "content_evidence_truncated": false,
+    "content_sha256": "c6ce88c5a24a574d0c9bd096fa8fca92d7abcc916dc093f784a6bf4f04312414",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 995,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 833,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8301,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7198,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 9296
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

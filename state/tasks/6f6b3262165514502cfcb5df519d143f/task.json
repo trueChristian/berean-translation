@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "b956645ef95941978d0a2dd23aa67f4b",
   "campaign": "auto-b7e8b5e0ea03b80029ab11d76d659d2494ff6f5f193e40424d025f0df72b1b06",
   "created_at": "2026-11-19T17:19:47+00:00",
   "events": [
@@ -28,10 +27,38 @@
         },
         "total_tokens": 7947
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 995,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 833,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8301,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 7198,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 9296
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "Paragraph beginning “In the last days of the apostle John”",
+      "severity": "major",
+      "source_quote": "“anoint thine eyes with eye salve, that thou mayest see” (Rev. 3:18c)",
+      "suggested_fix": "Replace the quotation with a faithful rendering of anointing the eyes with eye salve so that the person may see, for example: ”اپنی آنکھوں پر مرہم لگا تاکہ تو دیکھ سکے۔“",
+      "translation_quote": "”اپنی آنکھوں میں لگانے کے لیے سرمہ خرید لے تاکہ تو دیکھ سکے۔“"
+    }
+  ],
   "id": "6f6b3262165514502cfcb5df519d143f",
   "issue_id": "14962b7b-2d94-5b43-a4c6-bbb78f074d1a",
   "language": "urd",
@@ -120,11 +147,13 @@
     }
   },
   "protected": false,
+  "quality_score": 94,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/cbf793416556696ee72b11d283016eab5bddf2775337c6138a1c2fd40203c25b.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "translate",
     "max_candidate_bytes": 120000,
@@ -138,7 +167,7 @@
     "total_reserved_usd": 0.08952,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "185b97cda696ff5f8dd7eedb4b0e07b692951558ceb527409cc25fd72f4c7bf1",
   "translation_model_actual": "gpt-6-luna"
