@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "df89218c3ced409093b1869ce294d2b8",
   "campaign": "auto-186f0770277e541771022f8d42fcb7bfd9bb3dff030bf8f95c4bc72d8aa591ca",
   "created_at": "2026-11-19T23:41:22+00:00",
   "events": [
@@ -28,18 +27,31 @@
         },
         "total_tokens": 12451
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 59,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 27,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8318,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 7215,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 8377
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "Revelation 3:20 quotation",
-      "severity": "major",
-      "source_quote": "“If any man hear my voice, and open the door”",
-      "suggested_fix": "“यदि कोई मेरी आवाज़ सुनकर द्वार खोले”",
-      "translation_quote": "“यदि कोई मेरा शब्द सुनकर द्वार खोले”"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-11-20T04:16:02+00:00",
   "id": "caa82f09141abfd06c99b45684cbc596",
   "issue_id": "14962b7b-2d94-5b43-a4c6-bbb78f074d1a",
   "language": "hin",
@@ -128,9 +140,11 @@
     }
   },
   "protected": false,
+  "quality_score": 99,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/cbf793416556696ee72b11d283016eab5bddf2775337c6138a1c2fd40203c25b.json",
   "stage": "review2",
   "stage_budget": {
@@ -144,7 +158,7 @@
     "total_reserved_usd": 0.601469,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "185b97cda696ff5f8dd7eedb4b0e07b692951558ceb527409cc25fd72f4c7bf1",
   "translation_model_actual": "gpt-6.1-sol"

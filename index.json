@@ -46873,6 +46873,42 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/hin/articles/8389d62e-1ba0-47de-bf13-29a71ffa204c.html",
+      "html_sha256": "c5a7e8b8498c1c70ae0c6820840f915ce1d83a0f625f7f969b53a44a2d4d2a4b",
+      "human_reviewed": false,
+      "id": "8389d62e-1ba0-47de-bf13-29a71ffa204c",
+      "images": [
+        {
+          "alt": "तीन चोगाधारी आकृतियाँ एक भू-दृश्य को देखती हुईं",
+          "public_path": "/images/articles/8389d62e-1ba0-47de-bf13-29a71ffa204c-1.png"
+        },
+        {
+          "alt": "डेनी और जैकी केनास्टन अपने परिवार के साथ",
+          "public_path": "/images/articles/8389d62e-1ba0-47de-bf13-29a71ffa204c-2.jpg"
+        },
+        {
+          "alt": "एक परिवार मेज़ के चारों ओर इकट्ठा है और एक व्यक्ति उन्हें पढ़कर सुना रहा है",
+          "public_path": "/images/articles/8389d62e-1ba0-47de-bf13-29a71ffa204c-3.png"
+        }
+      ],
+      "issue_id": "14962b7b-2d94-5b43-a4c6-bbb78f074d1a",
+      "language": "hin",
+      "language_tag": "hi",
+      "metadata": "content/hin/articles/8389d62e-1ba0-47de-bf13-29a71ffa204c.json",
+      "metadata_sha256": "27e7087d17482e95cc588a29b168dea567706dea47f7500984267be1f20a3b44",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": null,
+      "source_revision": "ccefc5a5c3d79409cc78319f94b5490718d30670",
+      "source_translation_key": "185b97cda696ff5f8dd7eedb4b0e07b692951558ceb527409cc25fd72f4c7bf1",
+      "status": "ready",
+      "subtitle": null,
+      "title": "हमारे घरों के लिए प्रेरित करने वाला दर्शन",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/hin/articles/85306410-6a2d-46f1-b6db-6d3450f7f908.html",
       "html_sha256": "8d9216eeb13e333abe5a00110e9008687a749cce6ae85eb7659b022feed283f2",
       "human_reviewed": false,
