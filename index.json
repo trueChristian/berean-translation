@@ -33619,6 +33619,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/fra/articles/08c717e6-5c69-433c-b04d-ab1957c20eb9.html",
+      "html_sha256": "2efba88fab4f66ed0e2f944a2cc36ff754c554212ce951a849d8769c227104f0",
+      "human_reviewed": false,
+      "id": "08c717e6-5c69-433c-b04d-ab1957c20eb9",
+      "images": [
+        {
+          "alt": "Daniel agenouillé en prière près d’une fenêtre ouverte, tandis que plusieurs hommes l’observent",
+          "public_path": "/images/articles/08c717e6-5c69-433c-b04d-ab1957c20eb9-1.jpg"
+        }
+      ],
+      "issue_id": "7024063a-5783-5744-8055-7b12fee04019",
+      "language": "fra",
+      "language_tag": "fr",
+      "metadata": "content/fra/articles/08c717e6-5c69-433c-b04d-ab1957c20eb9.json",
+      "metadata_sha256": "92f8035275f790d6a7892ff8887e98dac2c5b968114972159803cb88e873745d",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "PERSÉVÉRANCE FIDÈLE",
+      "source_revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+      "source_translation_key": "492a7136bb14c9d906d405dd4c072887c20473937cfd31abe18443347c5a2103",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Un homme dans la brèche",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/fra/articles/095ed998-d5e3-49fb-a63f-a2e4c434c1aa.html",
       "html_sha256": "f229539a6551ed77ccf71cceec574f0715e83f176310211c170424cd486ccd17",
       "human_reviewed": false,
