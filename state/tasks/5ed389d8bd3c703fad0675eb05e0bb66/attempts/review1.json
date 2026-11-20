@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-20T11:26:25+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"פסקה 3\",\"severity\":\"major\",\"source_quote\":\"not a single young person attended public worship\",\"suggested_fix\":\"החליפו את „לא השתתף בתפילה בציבור” ב„לא השתתף בשום טקס פולחן ציבורי”.\",\"translation_quote\":\"אף צעיר אחד לא השתתף בתפילה בציבור\"},{\"location\":\"פסקה 6, ציטוט תהילים כ״ד\",\"severity\":\"major\",\"source_quote\":\"who hath not lifted up his soul unto vanity\",\"suggested_fix\":\"החליפו את „נַפְשִׁי” ב„נַפְשׁוֹ”, כדי לשמר את הגוף השלישי שבמקור.\",\"translation_quote\":\"אֲשֶׁר לֹא נָשָׂא לַשָּׁוְא נַפְשִׁי\"},{\"location\":\"פסקה 26\",\"severity\":\"major\",\"source_quote\":\"who were to serve in his presbytery\",\"suggested_fix\":\"החליפו את „באספה הכנסייתית שלו” ב„בבית המדרש שלו” או במונח המקובל בהקשר זה לגוף הכנסייתי presbytery.\",\"translation_quote\":\"שעתידים היו לשרת באספה הכנסייתית שלו — קהילה מופלאה\"},{\"location\":\"פסקה 28\",\"severity\":\"major\",\"source_quote\":\"in answer to the prayer of the four young girls\",\"suggested_fix\":\"החליפו את „לתפילתה של ארבע הנערות” ב„לתפילת ארבע הנערות”.\",\"translation_quote\":\"כמענה לתפילתה של ארבע הנערות שנשאו את הדבר על לבן\"}],\"findings_complete\":true,\"passed\":false,\"score\":91}",
+    "content_bytes": 1547,
+    "content_evidence_truncated": false,
+    "content_sha256": "70fc0d5aa6bb4190563872297d295bda5c32ecefab3f8047a9e3d63c34268213",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1269,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 859,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 11045,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 11042,
+        "cached_tokens": 0
+      },
+      "total_tokens": 12314
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}
