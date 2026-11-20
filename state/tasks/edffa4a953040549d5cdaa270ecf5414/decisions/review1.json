@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "translation.html, Paulus’ Zeugnis, Zitat aus 2. Timotheus 4,6–7",
+      "severity": "minor",
+      "source_quote": "For I am now ready to be offered",
+      "suggested_fix": "Den Beginn des Zitats ändern zu: „Denn ich bin nun bereit, geopfert zu werden“.",
+      "translation_quote": "Denn ich werde schon als Trankopfer ausgegossen"
+    },
+    {
+      "location": "translation.html, Absatz beginnend „Haben wir als bekennende Christen“",
+      "severity": "minor",
+      "source_quote": "They live quite closely to the ways of the world.",
+      "suggested_fix": "Den Satz ersetzen durch: „Ihre Lebensweise orientiert sich stark an der Welt.“",
+      "translation_quote": "Sie leben den Wegen der Welt ziemlich nahe."
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

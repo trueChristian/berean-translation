@@ -5,11 +5,48 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "4bd32e6a23844ee889fc4ce82055ccc8",
   "campaign": "auto-a876062e748ba7e83f0316192bc8a86ddb72926d416c2baf4c49cf9988770223",
   "created_at": "2026-11-20T13:04:25+00:00",
-  "events": [],
-  "findings": [],
+  "events": [
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 458,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 269,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8225,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8222,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8683
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "translation.html, Paulus’ Zeugnis, Zitat aus 2. Timotheus 4,6–7",
+      "severity": "minor",
+      "source_quote": "For I am now ready to be offered",
+      "suggested_fix": "Den Beginn des Zitats ändern zu: „Denn ich bin nun bereit, geopfert zu werden“.",
+      "translation_quote": "Denn ich werde schon als Trankopfer ausgegossen"
+    },
+    {
+      "location": "translation.html, Absatz beginnend „Haben wir als bekennende Christen“",
+      "severity": "minor",
+      "source_quote": "They live quite closely to the ways of the world.",
+      "suggested_fix": "Den Satz ersetzen durch: „Ihre Lebensweise orientiert sich stark an der Welt.“",
+      "translation_quote": "Sie leben den Wegen der Welt ziemlich nahe."
+    }
+  ],
+  "finished_at": "2026-11-20T20:51:52+00:00",
   "id": "edffa4a953040549d5cdaa270ecf5414",
   "issue_id": "1933c1f0-be1f-561a-b470-79a5ced64c04",
   "language": "deu",
@@ -98,9 +135,11 @@
     }
   },
   "protected": false,
+  "quality_score": 97,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/2ead0a934ae9c40cd84fd9887a4c546d65284235daa3736138c9b7e3c35a3740.json",
   "stage": "review1",
   "stage_budget": {
@@ -115,7 +154,7 @@
     "total_reserved_usd": 0.759731,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 0,
   "translation_key": "94f14fd3a9ce5a4b7f98c3ed867384ea53fbe977fb36e96d26fbd857975376fd",
   "translation_model_actual": "gpt-6-luna"
