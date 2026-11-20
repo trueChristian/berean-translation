@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "1365cc3c85ed46beb1b85f86e17a4da8",
   "campaign": "auto-308cab8e24fef5b1aa4410b0b87d818bac38284d6181962d39835ad6756088b6",
   "created_at": "2026-11-19T23:42:29+00:00",
   "events": [
@@ -28,18 +27,39 @@
         },
         "total_tokens": 16301
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 173,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 57,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 10882,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 10879,
+          "cached_tokens": 0
+        },
+        "total_tokens": 11055
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "Paragraph beginning “En hel busslast…”; also paragraph beginning “Efter det var vi naturligtvis…”",
-      "severity": "major",
-      "source_quote": "“A coach-load had come over twelve miles”; “another parish fifteen miles away”",
-      "suggested_fix": "Ersätt avstånden med svenska mått eller ange uttryckligen engelska miles: exempelvis ”färdats drygt 19 kilometer” och ”en annan församling drygt 24 kilometer bort”.",
-      "translation_quote": "“En busslast hade färdats över tolv miles”; “en annan församling femton miles bort”"
+      "location": "translation.html, stycket som börjar ”Den här pastorn sade”",
+      "severity": "minor",
+      "source_quote": "under the ministry of a man by the name of Campbell",
+      "suggested_fix": "Ersätt ”genom en man vid namn Campbells tjänst” med ”genom tjänsten hos en man vid namn Campbell”.",
+      "translation_quote": "genom en man vid namn Campbells tjänst"
     }
   ],
+  "finished_at": "2026-11-20T04:16:17+00:00",
   "id": "14cf4392997d8ac5dc97a63901e31a83",
   "issue_id": "14962b7b-2d94-5b43-a4c6-bbb78f074d1a",
   "language": "swe",
@@ -128,9 +148,11 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/f98b63507c65152b8a7321ac23888e0aa26f098d1600382d04165453fec71fbd.json",
   "stage": "review2",
   "stage_budget": {
@@ -144,7 +166,7 @@
     "total_reserved_usd": 0.603317,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "a51f02e689fe1b52df8c601e4466a1281a16cd42b6829edfba58bdfdf76d1ea0",
   "translation_model_actual": "gpt-6.1-sol"

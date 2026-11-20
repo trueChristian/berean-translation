@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "translation.html, stycket som börjar ”Den här pastorn sade”",
+      "severity": "minor",
+      "source_quote": "under the ministry of a man by the name of Campbell",
+      "suggested_fix": "Ersätt ”genom en man vid namn Campbells tjänst” med ”genom tjänsten hos en man vid namn Campbell”.",
+      "translation_quote": "genom en man vid namn Campbells tjänst"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}
