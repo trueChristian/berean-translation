@@ -25283,6 +25283,42 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/deu/articles/8389d62e-1ba0-47de-bf13-29a71ffa204c.html",
+      "html_sha256": "9353c0b8c092c693e28e0c507d45980a5d7f081ddee2c8e3db79922373a79dd1",
+      "human_reviewed": false,
+      "id": "8389d62e-1ba0-47de-bf13-29a71ffa204c",
+      "images": [
+        {
+          "alt": "Drei Gestalten in Roben blicken über eine Landschaft",
+          "public_path": "/images/articles/8389d62e-1ba0-47de-bf13-29a71ffa204c-1.png"
+        },
+        {
+          "alt": "Denny und Jackie Kenaston mit ihrer Familie",
+          "public_path": "/images/articles/8389d62e-1ba0-47de-bf13-29a71ffa204c-2.jpg"
+        },
+        {
+          "alt": "Eine Familie sitzt um einen Tisch, während ein Mann ihnen vorliest",
+          "public_path": "/images/articles/8389d62e-1ba0-47de-bf13-29a71ffa204c-3.png"
+        }
+      ],
+      "issue_id": "14962b7b-2d94-5b43-a4c6-bbb78f074d1a",
+      "language": "deu",
+      "language_tag": "de",
+      "metadata": "content/deu/articles/8389d62e-1ba0-47de-bf13-29a71ffa204c.json",
+      "metadata_sha256": "29a29528d147ced3403868e501eb4c198b5f0fcacc3bfc5cc26b32be3fedd983",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "ccefc5a5c3d79409cc78319f94b5490718d30670",
+      "source_translation_key": "185b97cda696ff5f8dd7eedb4b0e07b692951558ceb527409cc25fd72f4c7bf1",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Eine motivierende Vision für unsere Familien",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/deu/articles/85306410-6a2d-46f1-b6db-6d3450f7f908.html",
       "html_sha256": "70dd93001e280a0e6d5decb200f95e3c9daccf0c1d5d3dd727cc20aeeffef2c3",
       "human_reviewed": false,
