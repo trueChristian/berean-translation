@@ -7153,7 +7153,7 @@
       "article_id": "08c717e6-5c69-433c-b04d-ab1957c20eb9",
       "language": "nld",
       "latest_task": "67f032f622abe250be6673043e9adf9e",
-      "processing_status": "in_batch",
+      "processing_status": "queued",
       "reason": "active"
     },
     {
