@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-20T13:03:08+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraf penutup, kutipan Efesus 3:20\",\"severity\":\"minor\",\"source_quote\":\"“to do exceedingly abundantly above all that we ask or think”\",\"suggested_fix\":\"Ganti “yang kita doakan atau pikirkan” dengan “yang kita minta atau pikirkan” agar makna “ask” tidak dipersempit menjadi berdoa.\",\"translation_quote\":\"“melakukan jauh lebih banyak daripada yang kita doakan atau pikirkan”\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 474,
+    "content_evidence_truncated": false,
+    "content_sha256": "f62c49fb4fb1669e346ccf1f2e287aa17cd77b7af67a77da9a38f01dde9eb716",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 645,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7871,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6768,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 8516
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraf penutup, kutipan Efesus 3:20",
+      "severity": "minor",
+      "source_quote": "“to do exceedingly abundantly above all that we ask or think”",
+      "suggested_fix": "Ganti “yang kita doakan atau pikirkan” dengan “yang kita minta atau pikirkan” agar makna “ask” tidak dipersempit menjadi berdoa.",
+      "translation_quote": "“melakukan jauh lebih banyak daripada yang kita doakan atau pikirkan”"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

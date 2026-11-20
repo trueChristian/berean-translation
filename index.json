@@ -52884,6 +52884,42 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ind/articles/8389d62e-1ba0-47de-bf13-29a71ffa204c.html",
+      "html_sha256": "4fd39d1316b8ccbaaee52c282e142b6e25afd0ea9687bed62ab736cc09739f57",
+      "human_reviewed": false,
+      "id": "8389d62e-1ba0-47de-bf13-29a71ffa204c",
+      "images": [
+        {
+          "alt": "Tiga sosok berjubah memandang ke seberang bentang alam",
+          "public_path": "/images/articles/8389d62e-1ba0-47de-bf13-29a71ffa204c-1.png"
+        },
+        {
+          "alt": "Denny dan Jackie Kenaston bersama keluarga mereka",
+          "public_path": "/images/articles/8389d62e-1ba0-47de-bf13-29a71ffa204c-2.jpg"
+        },
+        {
+          "alt": "Sebuah keluarga berkumpul mengelilingi meja sementara seorang pria membacakan sesuatu kepada mereka",
+          "public_path": "/images/articles/8389d62e-1ba0-47de-bf13-29a71ffa204c-3.png"
+        }
+      ],
+      "issue_id": "14962b7b-2d94-5b43-a4c6-bbb78f074d1a",
+      "language": "ind",
+      "language_tag": "id",
+      "metadata": "content/ind/articles/8389d62e-1ba0-47de-bf13-29a71ffa204c.json",
+      "metadata_sha256": "9c3a2d8564ceda3aea585f9fde47b58f2bf8245a53de02b5030180b570ee66a3",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "ccefc5a5c3d79409cc78319f94b5490718d30670",
+      "source_translation_key": "185b97cda696ff5f8dd7eedb4b0e07b692951558ceb527409cc25fd72f4c7bf1",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Penglihatan yang Menggerakkan Hati bagi Rumah Tangga Kita",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ind/articles/85306410-6a2d-46f1-b6db-6d3450f7f908.html",
       "html_sha256": "2af186e84cbf2a6f73c7bf35bf430eae4b9251bddd9490253fa5bca96120a57c",
       "human_reviewed": false,

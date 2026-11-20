@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "6098ec2a7a1e437cacf7675b3455104f",
   "campaign": "auto-43e8600d05e092a819b805b251497c88eb916b2e6aa1349eb83ea92283d285c3",
   "created_at": "2026-11-19T13:47:08+00:00",
   "events": [
@@ -68,18 +67,39 @@
         },
         "total_tokens": 11521
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 645,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 512,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7871,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 6768,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 8516
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "Kutipan, Wahyu 3:20",
-      "severity": "major",
-      "source_quote": "“I will come in to him, and will sup with him”",
-      "suggested_fix": "Ganti “Aku akan masuk mendapatkannya” dengan “Aku akan masuk ke dalam dirinya” agar tidak bermakna masuk untuk mendapatkan orang itu.",
-      "translation_quote": "“Aku akan masuk mendapatkannya dan makan bersama dia”"
+      "location": "Paragraf penutup, kutipan Efesus 3:20",
+      "severity": "minor",
+      "source_quote": "“to do exceedingly abundantly above all that we ask or think”",
+      "suggested_fix": "Ganti “yang kita doakan atau pikirkan” dengan “yang kita minta atau pikirkan” agar makna “ask” tidak dipersempit menjadi berdoa.",
+      "translation_quote": "“melakukan jauh lebih banyak daripada yang kita doakan atau pikirkan”"
     }
   ],
+  "finished_at": "2026-11-20T13:03:08+00:00",
   "id": "b166c6f0f31b3d5aeb2a12ca7f3f3065",
   "issue_id": "14962b7b-2d94-5b43-a4c6-bbb78f074d1a",
   "language": "ind",
@@ -168,7 +188,7 @@
     }
   },
   "protected": false,
-  "quality_score": 93,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
@@ -188,7 +208,7 @@
     "total_reserved_usd": 0.089515,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "185b97cda696ff5f8dd7eedb4b0e07b692951558ceb527409cc25fd72f4c7bf1",
   "translation_model_actual": "gpt-6-luna"
