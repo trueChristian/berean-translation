@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph beginning “The interesting thing about that meeting…”",
+      "severity": "major",
+      "source_quote": "“It is true that when a man comes into a vital relationship with Jesus Christ, his supreme desire is to win others.” … “Those young girls were there that night to win their Master, and they won him.”",
+      "suggested_fix": "Replace “tamanio lake kuu ni kuwashinda wengine” with “tamanio lake kuu ni kuwaongoza wengine kwa Kristo,” and “nao wakamshinda” with “nao wakamwongoza kwa Kristo.”",
+      "translation_quote": "“tamanio lake kuu ni kuwashinda wengine.” … “nao wakamshinda.”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

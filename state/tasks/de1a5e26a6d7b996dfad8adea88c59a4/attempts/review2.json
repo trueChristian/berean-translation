@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-20T20:04:10+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph beginning “The interesting thing about that meeting…”\",\"severity\":\"major\",\"source_quote\":\"“It is true that when a man comes into a vital relationship with Jesus Christ, his supreme desire is to win others.” … “Those young girls were there that night to win their Master, and they won him.”\",\"suggested_fix\":\"Replace “tamanio lake kuu ni kuwashinda wengine” with “tamanio lake kuu ni kuwaongoza wengine kwa Kristo,” and “nao wakamshinda” with “nao wakamwongoza kwa Kristo.”\",\"translation_quote\":\"“tamanio lake kuu ni kuwashinda wengine.” … “nao wakamshinda.”\"}],\"findings_complete\":true,\"passed\":false,\"score\":92}",
+    "content_bytes": 690,
+    "content_evidence_truncated": false,
+    "content_sha256": "b21dcdf83a843876875d9b227f38fef1d3616ec6a10cc044a303f449dc7a828e",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1117,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 934,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 11289,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 11286,
+        "cached_tokens": 0
+      },
+      "total_tokens": 12406
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}
