@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Opening blockquote, Proverbs 29:18",
+      "severity": "major",
+      "source_quote": "“Where there is no vision, the people perish”",
+      "suggested_fix": "Replace the first line with «Где нет видения, народ погибает», preserving the printed meaning and the wording used for this quotation later in the article.",
+      "translation_quote": "«Когда нет откровения, народ распоясывается»"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

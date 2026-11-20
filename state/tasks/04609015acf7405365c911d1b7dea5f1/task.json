@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "54f275490cd547c8af1cb216d0abd50d",
   "campaign": "auto-bc2545c50452ccd563a21e22f36fbe6ffd8292cad50333cdf05c6d0496a62b04",
   "created_at": "2026-11-19T21:30:09+00:00",
   "events": [
@@ -28,10 +27,38 @@
         },
         "total_tokens": 7474
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 849,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 726,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7767,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 7764,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8616
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "Opening blockquote, Proverbs 29:18",
+      "severity": "major",
+      "source_quote": "“Where there is no vision, the people perish”",
+      "suggested_fix": "Replace the first line with «Где нет видения, народ погибает», preserving the printed meaning and the wording used for this quotation later in the article.",
+      "translation_quote": "«Когда нет откровения, народ распоясывается»"
+    }
+  ],
   "id": "04609015acf7405365c911d1b7dea5f1",
   "issue_id": "14962b7b-2d94-5b43-a4c6-bbb78f074d1a",
   "language": "rus",
@@ -120,11 +147,13 @@
     }
   },
   "protected": false,
+  "quality_score": 93,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/cbf793416556696ee72b11d283016eab5bddf2775337c6138a1c2fd40203c25b.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "translate",
     "max_candidate_bytes": 120000,
@@ -138,7 +167,7 @@
     "total_reserved_usd": 0.089515,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "185b97cda696ff5f8dd7eedb4b0e07b692951558ceb527409cc25fd72f4c7bf1",
   "translation_model_actual": "gpt-6-luna"
