@@ -67702,6 +67702,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/nld/articles/08c717e6-5c69-433c-b04d-ab1957c20eb9.html",
+      "html_sha256": "00515986961e8979f44286d26ec14be210d93c96a3a80176ffe3e53a0cddc097",
+      "human_reviewed": false,
+      "id": "08c717e6-5c69-433c-b04d-ab1957c20eb9",
+      "images": [
+        {
+          "alt": "Daniël knielt in gebed bij een open raam terwijl verscheidene mannen toekijken",
+          "public_path": "/images/articles/08c717e6-5c69-433c-b04d-ab1957c20eb9-1.jpg"
+        }
+      ],
+      "issue_id": "7024063a-5783-5744-8055-7b12fee04019",
+      "language": "nld",
+      "language_tag": "nl",
+      "metadata": "content/nld/articles/08c717e6-5c69-433c-b04d-ab1957c20eb9.json",
+      "metadata_sha256": "165c95ec60bffb559538ae9b8ab0684daa5ecfea81899e8ef41ed557b47cd649",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "TROUWE VOLHARDING",
+      "source_revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+      "source_translation_key": "492a7136bb14c9d906d405dd4c072887c20473937cfd31abe18443347c5a2103",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Een man in de bres",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/nld/articles/095ed998-d5e3-49fb-a63f-a2e4c434c1aa.html",
       "html_sha256": "5aa249c7805f61948c32853c763aa56638f7391a9d62975834e0eee300a5df52",
       "human_reviewed": false,
