@@ -3,7 +3,7 @@
   "automatic_enabled": true,
   "automatic_policy_version": 3,
   "budget_enforcement": "none",
-  "committed_usd": 77.524883,
+  "committed_usd": 78.020324,
   "counts": {
     "active": 50,
     "already_translated": 107,
@@ -22,7 +22,7 @@
   },
   "derived": true,
   "format_version": "2",
-  "gross_allocated_usd": 787.154011,
+  "gross_allocated_usd": 787.821765,
   "historical_approved_total_usd": 30.0,
   "items": [
     {
@@ -1466,14 +1466,6 @@
       "reason": "already_translated"
     },
     {
-      "accepted_cycles": 0,
-      "article_id": "8389d62e-1ba0-47de-bf13-29a71ffa204c",
-      "language": "ben",
-      "latest_task": "b80dccfd2daa375399aeb3c5717188ca",
-      "processing_status": "in_batch",
-      "reason": "active"
-    },
-    {
       "admission_status": "pending",
       "article_id": "88345a38-6c33-495a-8407-f0fda29b67e0",
       "language": "ben",
@@ -2108,11 +2100,11 @@
       "reason": "eligible_automatic"
     },
     {
-      "accepted_cycles": 0,
+      "accepted_cycles": 1,
       "article_id": "8389d62e-1ba0-47de-bf13-29a71ffa204c",
       "language": "cmn",
-      "latest_task": "583b9893d63340666abad60db3fbcf0a",
-      "processing_status": "in_batch",
+      "latest_task": "873c20dd49b92adaa8df11c7d9258b64",
+      "processing_status": "queued",
       "reason": "active"
     },
     {
@@ -4569,6 +4561,14 @@
       "latest_task": "1b72b2d7339521cee97ea8422eb2d489",
       "processing_status": "not_ready",
       "reason": "repeated_technical_failure_requires_attention"
+    },
+    {
+      "accepted_cycles": 0,
+      "article_id": "8389d62e-1ba0-47de-bf13-29a71ffa204c",
+      "language": "heb",
+      "latest_task": "7d4e9ae2bbc301ce9039adc618cf8864",
+      "processing_status": "queued",
+      "reason": "active"
     },
     {
       "accepted_cycles": 1,
@@ -11534,7 +11534,7 @@
       "reason": "eligible_automatic"
     }
   ],
-  "settled_unused_usd": 709.629128,
+  "settled_unused_usd": 709.801441,
   "source_revision": "ccefc5a5c3d79409cc78319f94b5490718d30670",
   "spending_policy": "owner-2026-10-29-provider-managed-spending",
   "usage_description": "Provider-reported usage priced at frozen rates; not invoice reconciliation"
