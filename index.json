@@ -43956,6 +43956,38 @@
     {
       "ai_notice_required": true,
       "direction": "rtl",
+      "html": "content/heb/articles/fe13ba15-f33c-46ff-9d3c-f114f1b2f4d4.html",
+      "html_sha256": "9b3d1c8d3ad0e8799926401475da462ecb4245564af967d4d14f61c6312e5e8f",
+      "human_reviewed": false,
+      "id": "fe13ba15-f33c-46ff-9d3c-f114f1b2f4d4",
+      "images": [
+        {
+          "alt": "",
+          "public_path": "/images/articles/fe13ba15-f33c-46ff-9d3c-f114f1b2f4d4-1.png"
+        },
+        {
+          "alt": "דבורה על פרח לבן",
+          "public_path": "/images/articles/fe13ba15-f33c-46ff-9d3c-f114f1b2f4d4-2.jpg"
+        }
+      ],
+      "issue_id": "1933c1f0-be1f-561a-b470-79a5ced64c04",
+      "language": "heb",
+      "language_tag": "he",
+      "metadata": "content/heb/articles/fe13ba15-f33c-46ff-9d3c-f114f1b2f4d4.json",
+      "metadata_sha256": "038e0c7dd49c0123ff1c69c732934616189f41fa9870695812e0ec29ff6466da",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "מן העורך",
+      "source_revision": "22388745ad7f149609e65f5e28cfcc1257cd689e",
+      "source_translation_key": "638ffc8e59099baf2aea4d3ff147935b68127324804d36e99f77026b29a9def3",
+      "status": "ready",
+      "subtitle": null,
+      "title": "מן העורך",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
       "html": "content/heb/articles/fe4a7487-2a8a-47c1-96c1-cecbfccbc0dd.html",
       "html_sha256": "2120ddf931f7cf204aefc22f323d4c00884e40db51368af2ee21884d0016f98f",
       "human_reviewed": false,
