@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Opening quotation; paragraphs beginning “Τις ημέρες…” and “Πιθανότατα…”; paragraph beginning “Η λέξη «χάνεται»…”; paragraph beginning “Τις τελευταίες ημέρες…”",
+      "severity": "major",
+      "source_quote": "“Where there is no vision, the people perish.” The article explains: “The word ‘perish’… means, ‘To cast off restraint.’”",
+      "suggested_fix": "Use a Greek rendering that conveys the article’s stated meaning of losing restraint, consistently across these instances—for example, «ο λαός αποχαλινώνεται» in the quotation and prose. In the definition, change «Η λέξη “χάνεται”» to «Η λέξη “αποχαλινώνεται”» and express the definition as «σημαίνει “αποτινάσσω κάθε περιορισμό”»; adjust the later «Χάνονταν» accordingly.",
+      "translation_quote": "«Όπου δεν υπάρχει όραμα, ο λαός χάνεται»; «Δεν υπήρχε ανοιχτό όραμα και ο λαός χανόταν»; «Η λέξη “χάνεται” είναι ακόμη πιο περιγραφική. Σημαίνει “αποτινάσσω τον περιορισμό”»; «Χάνονταν.»"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

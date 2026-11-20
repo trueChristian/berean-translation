@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "a11a17ce-76cf-4bff-b109-45261353f6ea",
+    "response_id": "chatcmpl-EmHW01ZxYWdGM8bfEpSm8a94pOiyc",
+    "usage": {
+      "completion_tokens": 1471,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1146,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9106,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9103,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10577
+    }
+  },
+  "received_at": "2026-11-20T12:12:07+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Opening quotation; paragraphs beginning “Τις ημέρες…” and “Πιθανότατα…”; paragraph beginning “Η λέξη «χάνεται»…”; paragraph beginning “Τις τελευταίες ημέρες…”",
+        "severity": "major",
+        "source_quote": "“Where there is no vision, the people perish.” The article explains: “The word ‘perish’… means, ‘To cast off restraint.’”",
+        "suggested_fix": "Use a Greek rendering that conveys the article’s stated meaning of losing restraint, consistently across these instances—for example, «ο λαός αποχαλινώνεται» in the quotation and prose. In the definition, change «Η λέξη “χάνεται”» to «Η λέξη “αποχαλινώνεται”» and express the definition as «σημαίνει “αποτινάσσω κάθε περιορισμό”»; adjust the later «Χάνονταν» accordingly.",
+        "translation_quote": "«Όπου δεν υπάρχει όραμα, ο λαός χάνεται»; «Δεν υπήρχε ανοιχτό όραμα και ο λαός χανόταν»; «Η λέξη “χάνεται” είναι ακόμη πιο περιγραφική. Σημαίνει “αποτινάσσω τον περιορισμό”»; «Χάνονταν.»"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 92
+  }
+}
