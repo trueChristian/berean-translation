@@ -68897,6 +68897,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/nld/articles/14a35072-cac9-42df-a3ca-1f7db446d968.html",
+      "html_sha256": "bb0e8a588c4ad65e8e92f2745421956ba272c88d00c218c42e5dcdd3e5abc288",
+      "human_reviewed": false,
+      "id": "14a35072-cac9-42df-a3ca-1f7db446d968",
+      "images": [
+        {
+          "alt": "Een bleke grijswaardenkaart van de wereld in een ovaal raster",
+          "public_path": "/images/articles/14a35072-cac9-42df-a3ca-1f7db446d968-1.jpg"
+        },
+        {
+          "alt": "Een man zit aan een bureau en leest een opengeslagen boek",
+          "public_path": "/images/articles/14a35072-cac9-42df-a3ca-1f7db446d968-2.jpg"
+        }
+      ],
+      "issue_id": "14962b7b-2d94-5b43-a4c6-bbb78f074d1a",
+      "language": "nld",
+      "language_tag": "nl",
+      "metadata": "content/nld/articles/14a35072-cac9-42df-a3ca-1f7db446d968.json",
+      "metadata_sha256": "554f44c4556838337f9fd5654ab0a8fd585d2c84cc0fe66ea186cba881f0de23",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "ccefc5a5c3d79409cc78319f94b5490718d30670",
+      "source_translation_key": "4bb76720c8a52c6eb0871b56c7e913858bb1a8a4a3f88d22ccdbf033f3fb4af1",
+      "status": "ready",
+      "subtitle": "(Rechtstreeks uit de opwekking in Wales van 1904)",
+      "title": "Een boodschap aan de wereld",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/nld/articles/175280ea-7e5f-4be2-bbce-b500c0fd93cb.html",
       "html_sha256": "aecb77c137554a8b0101b9dde382e596ce038a0ddbb44adbb875a56336b3ecce",
       "human_reviewed": false,
