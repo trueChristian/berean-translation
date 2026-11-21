@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "d3309d23-ad57-4b5a-bd06-7a51e6af1c10",
+    "response_id": "chatcmpl-EmcnM4sGu08oWnSntjzbVrfa0pXmx",
+    "usage": {
+      "completion_tokens": 587,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 489,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3540,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3537,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4127
+    }
+  },
+  "received_at": "2026-11-21T17:01:23+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "subtitle",
+        "severity": "minor",
+        "source_quote": "(Fresh from the Welch Revival of 1904)",
+        "suggested_fix": "(Appena reduce dal risveglio gallese del 1904)",
+        "translation_quote": "(Appena giunto dal risveglio gallese del 1904)"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 99
+  }
+}

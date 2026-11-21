@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "subtitle",
+      "severity": "minor",
+      "source_quote": "(Fresh from the Welch Revival of 1904)",
+      "suggested_fix": "(Appena reduce dal risveglio gallese del 1904)",
+      "translation_quote": "(Appena giunto dal risveglio gallese del 1904)"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}
