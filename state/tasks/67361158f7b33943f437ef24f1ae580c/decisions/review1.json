@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Article paragraph beginning “This is my work as He has pointed it out to me.”",
+      "severity": "major",
+      "source_quote": "This is my work as He has pointed it out to me.",
+      "suggested_fix": "Dette er arbeidet mitt, slik han har vist meg det.",
+      "translation_quote": "Dette er arbeidet hans, slik han har vist meg det."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

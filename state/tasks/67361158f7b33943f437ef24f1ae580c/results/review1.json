@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "214a5443-d4d1-4124-a93b-a280dd0fb28a",
+    "response_id": "chatcmpl-EmjNhExdY7w0jEZJk50SmabrC7jpZ",
+    "usage": {
+      "completion_tokens": 728,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 615,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3503,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3500,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4231
+    }
+  },
+  "received_at": "2026-11-21T17:57:41+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Article paragraph beginning “This is my work as He has pointed it out to me.”",
+        "severity": "major",
+        "source_quote": "This is my work as He has pointed it out to me.",
+        "suggested_fix": "Dette er arbeidet mitt, slik han har vist meg det.",
+        "translation_quote": "Dette er arbeidet hans, slik han har vist meg det."
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 93
+  }
+}

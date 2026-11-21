@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-21T17:57:41+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Article paragraph beginning “This is my work as He has pointed it out to me.”\",\"severity\":\"major\",\"source_quote\":\"This is my work as He has pointed it out to me.\",\"suggested_fix\":\"Dette er arbeidet mitt, slik han har vist meg det.\",\"translation_quote\":\"Dette er arbeidet hans, slik han har vist meg det.\"}],\"findings_complete\":true,\"passed\":false,\"score\":93}",
+    "content_bytes": 388,
+    "content_evidence_truncated": false,
+    "content_sha256": "175cf4f1c2a2f0f7317984f6373556ca3478a1b9a25f93ad004a21ed4da1a20e",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 728,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 615,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3503,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3500,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4231
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}
