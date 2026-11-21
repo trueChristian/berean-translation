@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "7a955d7dd38e4901890a5a78a5c5fdca",
   "campaign": "auto-d1be2ffcc903f1ca1119c5591f7feaeeba55ea94798b02469ddb748c09f0b897",
   "created_at": "2026-11-19T23:43:36+00:00",
   "events": [
@@ -28,25 +27,31 @@
         },
         "total_tokens": 11193
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 97,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 65,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7608,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 7605,
+          "cached_tokens": 0
+        },
+        "total_tokens": 7705
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "Paragraph beginning “In the last days of the apostle John” (Revelation 3:18c quotation)",
-      "severity": "major",
-      "source_quote": "“anoint thine eyes with eye salve, that thou mayest see”",
-      "suggested_fix": "استبدل «اكتحل كحلاً لكي تبصر» بـ «ادهن عينيك بمرهم لكي تبصر» للحفاظ على معنى مرهم العينين المذكور في المصدر.",
-      "translation_quote": "«اكتحل كحلاً لكي تبصر»"
-    },
-    {
-      "location": "Title",
-      "severity": "minor",
-      "source_quote": "A Motivating Vision for Our Homes",
-      "suggested_fix": "رؤيا تحفّزنا من أجل بيوتنا",
-      "translation_quote": "رؤيا تحفّز بيوتنا"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-11-21T01:29:21+00:00",
   "id": "0da765bd91899ada6ac5968707e631e6",
   "issue_id": "14962b7b-2d94-5b43-a4c6-bbb78f074d1a",
   "language": "ara",
@@ -135,9 +140,11 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/cbf793416556696ee72b11d283016eab5bddf2775337c6138a1c2fd40203c25b.json",
   "stage": "review2",
   "stage_budget": {
@@ -151,7 +158,7 @@
     "total_reserved_usd": 0.584413,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "185b97cda696ff5f8dd7eedb4b0e07b692951558ceb527409cc25fd72f4c7bf1",
   "translation_model_actual": "gpt-6.1-sol"

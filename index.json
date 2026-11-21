@@ -8920,6 +8920,42 @@
     {
       "ai_notice_required": true,
       "direction": "rtl",
+      "html": "content/ara/articles/8389d62e-1ba0-47de-bf13-29a71ffa204c.html",
+      "html_sha256": "839ff42257b9843b4f14bca21bb244a3d1fa2fe2925ebe2bde202c72b375220a",
+      "human_reviewed": false,
+      "id": "8389d62e-1ba0-47de-bf13-29a71ffa204c",
+      "images": [
+        {
+          "alt": "ثلاثة أشخاص يرتدون أردية وينظرون عبر مشهد طبيعي",
+          "public_path": "/images/articles/8389d62e-1ba0-47de-bf13-29a71ffa204c-1.png"
+        },
+        {
+          "alt": "ديني وجاكي كيناستون مع عائلتهما",
+          "public_path": "/images/articles/8389d62e-1ba0-47de-bf13-29a71ffa204c-2.jpg"
+        },
+        {
+          "alt": "عائلة مجتمعة حول مائدة بينما يقرأ لها رجل",
+          "public_path": "/images/articles/8389d62e-1ba0-47de-bf13-29a71ffa204c-3.png"
+        }
+      ],
+      "issue_id": "14962b7b-2d94-5b43-a4c6-bbb78f074d1a",
+      "language": "ara",
+      "language_tag": "ar",
+      "metadata": "content/ara/articles/8389d62e-1ba0-47de-bf13-29a71ffa204c.json",
+      "metadata_sha256": "4a97ee00aac3bb1a1aa980a5586e510210877929bd9eaae378273bbb3354c5bb",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": null,
+      "source_revision": "ccefc5a5c3d79409cc78319f94b5490718d30670",
+      "source_translation_key": "185b97cda696ff5f8dd7eedb4b0e07b692951558ceb527409cc25fd72f4c7bf1",
+      "status": "ready",
+      "subtitle": null,
+      "title": "رؤيا تحفّزنا من أجل بيوتنا",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
       "html": "content/ara/articles/85306410-6a2d-46f1-b6db-6d3450f7f908.html",
       "html_sha256": "dc88116630d2ed87e7f735926454a5f93d21f4d97d58d27c49fd5d371205d2ab",
       "human_reviewed": false,
