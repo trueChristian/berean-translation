@@ -5,11 +5,75 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "a55a416f358a4baba4655b188744acb9",
   "campaign": "auto-6d69d9720389e48ce2d34596337d6209c2fd94401109df6e6212b8acf77808d6",
   "created_at": "2026-11-21T22:12:08+00:00",
-  "events": [],
-  "findings": [],
+  "events": [
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 844,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 129,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8371,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8368,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9215
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "html, абзац «Кто-то может сказать…», первое предложение",
+      "severity": "major",
+      "source_quote": "if God worked the same way today as He did back then",
+      "suggested_fix": "Заменить на: «Кто-то может сказать: если бы Бог сегодня действовал так же, как тогда, мы были бы увереннее».",
+      "translation_quote": "будь Бог сегодня таким же, каким Он был тогда"
+    },
+    {
+      "location": "html, абзац «В ранней церкви…», ссылка на Псалом",
+      "severity": "major",
+      "source_quote": "–Psalm 44:22",
+      "suggested_fix": "Заменить ссылку на «— Псалом 44:22», сохранив напечатанные в источнике номера главы и стиха.",
+      "translation_quote": "— Псалом 43:23"
+    },
+    {
+      "location": "html, последний абзац, заключительная цитата из Исаии",
+      "severity": "major",
+      "source_quote": "that they might be called trees of righteousness, the planting of the LORD",
+      "suggested_fix": "Заменить соответствующий фрагмент на «и назовут их деревьями праведности, насаждением Господа», сохранив образ деревьев из исходной цитаты.",
+      "translation_quote": "и назовут их сильными правдою, насаждением Господа"
+    },
+    {
+      "location": "html, первый абзац",
+      "severity": "minor",
+      "source_quote": "after hearing all their comrades give their doubting reports",
+      "suggested_fix": "Заменить на «Услышав полные сомнений доклады всех своих товарищей».",
+      "translation_quote": "Услышав сомневавшиеся доклады всех своих товарищей"
+    },
+    {
+      "location": "html, абзац «Однажды за обедом…»",
+      "severity": "minor",
+      "source_quote": "I was excited to answer their questions. However, there was another ordained brother sitting beside me. So, I decided to wait",
+      "suggested_fix": "Заменить «я с готовностью стал отвечать на их вопросы» на «мне очень хотелось ответить на их вопросы», чтобы не утверждать, что ответ уже начался до решения подождать.",
+      "translation_quote": "я с готовностью стал отвечать на их вопросы. Однако рядом со мной сидел ещё один рукоположённый брат. Поэтому я решил подождать"
+    },
+    {
+      "location": "html, абзац «Упование ведёт к послушанию»",
+      "severity": "minor",
+      "source_quote": "Confidence equals obedience.",
+      "suggested_fix": "Заменить первое предложение на «Упование — это послушание», сохранив прямое отождествление в авторском утверждении.",
+      "translation_quote": "Упование ведёт к послушанию."
+    }
+  ],
   "id": "befa99d153a900f9b9c712b5e45bd0c1",
   "issue_id": "1933c1f0-be1f-561a-b470-79a5ced64c04",
   "language": "rus",
@@ -98,11 +162,13 @@
     }
   },
   "protected": false,
+  "quality_score": 91,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/2ead0a934ae9c40cd84fd9887a4c546d65284235daa3736138c9b7e3c35a3740.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "review1",
     "max_candidate_bytes": 120000,
@@ -115,7 +181,7 @@
     "total_reserved_usd": 0.777974,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 0,
   "translation_key": "94f14fd3a9ce5a4b7f98c3ed867384ea53fbe977fb36e96d26fbd857975376fd",
   "translation_model_actual": "gpt-6-luna"

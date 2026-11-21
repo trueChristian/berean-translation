@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-21T23:56:16+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"html, абзац «Кто-то может сказать…», первое предложение\",\n      \"severity\": \"major\",\n      \"source_quote\": \"if God worked the same way today as He did back then\",\n      \"suggested_fix\": \"Заменить на: «Кто-то может сказать: если бы Бог сегодня действовал так же, как тогда, мы были бы увереннее».\",\n      \"translation_quote\": \"будь Бог сегодня таким же, каким Он был тогда\"\n    },\n    {\n      \"location\": \"html, абзац «В ранней церкви…», ссылка на Псалом\",\n      \"severity\": \"major\",\n      \"source_quote\": \"–Psalm 44:22\",\n      \"suggested_fix\": \"Заменить ссылку на «— Псалом 44:22», сохранив напечатанные в источнике номера главы и стиха.\",\n      \"translation_quote\": \"— Псалом 43:23\"\n    },\n    {\n      \"location\": \"html, последний абзац, заключительная цитата из Исаии\",\n      \"severity\": \"major\",\n      \"source_quote\": \"that they might be called trees of righteousness, the planting of the LORD\",\n      \"suggested_fix\": \"Заменить соответствующий фрагмент на «и назовут их деревьями праведности, насаждением Господа», сохранив образ деревьев из исходной цитаты.\",\n      \"translation_quote\": \"и назовут их сильными правдою, насаждением Господа\"\n    },\n    {\n      \"location\": \"html, первый абзац\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"after hearing all their comrades give their doubting reports\",\n      \"suggested_fix\": \"Заменить на «Услышав полные сомнений доклады всех своих товарищей».\",\n      \"translation_quote\": \"Услышав сомневавшиеся доклады всех своих товарищей\"\n    },\n    {\n      \"location\": \"html, абзац «Однажды за обедом…»\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"I was excited to answer their questions. However, there was another ordained brother sitting beside me. So, I decided to wait\",\n      \"suggested_fix\": \"Заменить «я с готовностью стал отвечать на их вопросы» на «мне очень хотелось ответить на их вопросы», чтобы не утверждать, что ответ уже начался до решения подождать.\",\n      \"translation_quote\": \"я с готовностью стал отвечать на их вопросы. Однако рядом со мной сидел ещё один рукоположённый брат. Поэтому я решил подождать\"\n    },\n    {\n      \"location\": \"html, абзац «Упование ведёт к послушанию»\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"Confidence equals obedience.\",\n      \"suggested_fix\": \"Заменить первое предложение на «Упование — это послушание», сохранив прямое отождествление в авторском утверждении.\",\n      \"translation_quote\": \"Упование ведёт к послушанию.\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": false,\n  \"score\": 91\n}",
+    "content_bytes": 3579,
+    "content_evidence_truncated": false,
+    "content_sha256": "d4fa55b9cb73e2f5b53297a7db6f3d7c6aabbc3434f072c87f5595dea21410e7",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 844,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 129,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8371,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8368,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9215
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}
