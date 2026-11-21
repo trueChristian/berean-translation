@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "aa7d7044-df5c-4613-942f-e2cb6d384abb",
+    "response_id": "chatcmpl-EmQDN3LyryeHBmat6sP9yuwgIyU99",
+    "usage": {
+      "completion_tokens": 1083,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 813,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 11046,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9943,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 12129
+    }
+  },
+  "received_at": "2026-11-21T01:29:18+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, paragraph beginning “I went along to that meeting”",
+        "severity": "major",
+        "source_quote": "“there were four young men on their knees”",
+        "suggested_fix": "Replace „אבל עכשיו עמדו שם וזעקו לאלוהים לרחמים” with „אבל עכשיו היו שם על ברכיהם וזעקו לאלוהים לרחמים” to preserve that they were kneeling.",
+        "translation_quote": "„אבל עכשיו עמדו שם וזעקו לאלוהים לרחמים.”"
+      },
+      {
+        "location": "HTML, paragraph beginning “I went along to that meeting”",
+        "severity": "major",
+        "source_quote": "“eleven other men who were to serve in his presbytery”",
+        "suggested_fix": "Replace „שעתידים היו לשרת במועצת הזקנים שלו” with „שעתידים היו לשרת בפרסביטריון שלו” or „שעתידים היו לשרת במועצת הכמורה האזורית שלו” to preserve the church-governance meaning of “presbytery.”",
+        "translation_quote": "„שעתידים היו לשרת במועצת הזקנים שלו”"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 93
+  }
+}

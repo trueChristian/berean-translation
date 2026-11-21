@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraph beginning “I went along to that meeting”",
+      "severity": "major",
+      "source_quote": "“there were four young men on their knees”",
+      "suggested_fix": "Replace „אבל עכשיו עמדו שם וזעקו לאלוהים לרחמים” with „אבל עכשיו היו שם על ברכיהם וזעקו לאלוהים לרחמים” to preserve that they were kneeling.",
+      "translation_quote": "„אבל עכשיו עמדו שם וזעקו לאלוהים לרחמים.”"
+    },
+    {
+      "location": "HTML, paragraph beginning “I went along to that meeting”",
+      "severity": "major",
+      "source_quote": "“eleven other men who were to serve in his presbytery”",
+      "suggested_fix": "Replace „שעתידים היו לשרת במועצת הזקנים שלו” with „שעתידים היו לשרת בפרסביטריון שלו” or „שעתידים היו לשרת במועצת הכמורה האזורית שלו” to preserve the church-governance meaning of “presbytery.”",
+      "translation_quote": "„שעתידים היו לשרת במועצת הזקנים שלו”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}

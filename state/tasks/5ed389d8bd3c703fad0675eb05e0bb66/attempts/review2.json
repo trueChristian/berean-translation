@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-21T01:29:18+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, paragraph beginning “I went along to that meeting”\",\"severity\":\"major\",\"source_quote\":\"“there were four young men on their knees”\",\"suggested_fix\":\"Replace „אבל עכשיו עמדו שם וזעקו לאלוהים לרחמים” with „אבל עכשיו היו שם על ברכיהם וזעקו לאלוהים לרחמים” to preserve that they were kneeling.\",\"translation_quote\":\"„אבל עכשיו עמדו שם וזעקו לאלוהים לרחמים.”\"},{\"location\":\"HTML, paragraph beginning “I went along to that meeting”\",\"severity\":\"major\",\"source_quote\":\"“eleven other men who were to serve in his presbytery”\",\"suggested_fix\":\"Replace „שעתידים היו לשרת במועצת הזקנים שלו” with „שעתידים היו לשרת בפרסביטריון שלו” or „שעתידים היו לשרת במועצת הכמורה האזורית שלו” to preserve the church-governance meaning of “presbytery.”\",\"translation_quote\":\"„שעתידים היו לשרת במועצת הזקנים שלו”\"}],\"findings_complete\":true,\"passed\":false,\"score\":93}",
+    "content_bytes": 1144,
+    "content_evidence_truncated": false,
+    "content_sha256": "abde1e2269430bc138e918b534b8b1b7a23334fdc137a50c1823de064349bd5b",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1083,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 813,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 11046,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9943,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 12129
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "7926ffa222294bff9c1571767578718a",
   "campaign": "auto-cfcb798cd27ad8a52cbbebd26f344705fa399bbbaa6451f62bff2dd952cdb5bc",
   "created_at": "2026-11-18T22:27:29+00:00",
   "events": [
@@ -68,39 +67,47 @@
         },
         "total_tokens": 16532
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 1083,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 813,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 11046,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 9943,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 12129
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; a recovery continuation must pass admission",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "פסקה 3",
+      "location": "HTML, paragraph beginning “I went along to that meeting”",
       "severity": "major",
-      "source_quote": "not a single young person attended public worship",
-      "suggested_fix": "החליפו את „לא השתתף בתפילה בציבור” ב„לא השתתף בשום טקס פולחן ציבורי”.",
-      "translation_quote": "אף צעיר אחד לא השתתף בתפילה בציבור"
+      "source_quote": "“there were four young men on their knees”",
+      "suggested_fix": "Replace „אבל עכשיו עמדו שם וזעקו לאלוהים לרחמים” with „אבל עכשיו היו שם על ברכיהם וזעקו לאלוהים לרחמים” to preserve that they were kneeling.",
+      "translation_quote": "„אבל עכשיו עמדו שם וזעקו לאלוהים לרחמים.”"
     },
     {
-      "location": "פסקה 6, ציטוט תהילים כ״ד",
+      "location": "HTML, paragraph beginning “I went along to that meeting”",
       "severity": "major",
-      "source_quote": "who hath not lifted up his soul unto vanity",
-      "suggested_fix": "החליפו את „נַפְשִׁי” ב„נַפְשׁוֹ”, כדי לשמר את הגוף השלישי שבמקור.",
-      "translation_quote": "אֲשֶׁר לֹא נָשָׂא לַשָּׁוְא נַפְשִׁי"
-    },
-    {
-      "location": "פסקה 26",
-      "severity": "major",
-      "source_quote": "who were to serve in his presbytery",
-      "suggested_fix": "החליפו את „באספה הכנסייתית שלו” ב„בבית המדרש שלו” או במונח המקובל בהקשר זה לגוף הכנסייתי presbytery.",
-      "translation_quote": "שעתידים היו לשרת באספה הכנסייתית שלו — קהילה מופלאה"
-    },
-    {
-      "location": "פסקה 28",
-      "severity": "major",
-      "source_quote": "in answer to the prayer of the four young girls",
-      "suggested_fix": "החליפו את „לתפילתה של ארבע הנערות” ב„לתפילת ארבע הנערות”.",
-      "translation_quote": "כמענה לתפילתה של ארבע הנערות שנשאו את הדבר על לבן"
+      "source_quote": "“eleven other men who were to serve in his presbytery”",
+      "suggested_fix": "Replace „שעתידים היו לשרת במועצת הזקנים שלו” with „שעתידים היו לשרת בפרסביטריון שלו” or „שעתידים היו לשרת במועצת הכמורה האזורית שלו” to preserve the church-governance meaning of “presbytery.”",
+      "translation_quote": "„שעתידים היו לשרת במועצת הזקנים שלו”"
     }
   ],
+  "finished_at": "2026-11-21T01:29:18+00:00",
   "id": "5ed389d8bd3c703fad0675eb05e0bb66",
   "issue_id": "14962b7b-2d94-5b43-a4c6-bbb78f074d1a",
   "language": "heb",
@@ -189,7 +196,7 @@
     }
   },
   "protected": false,
-  "quality_score": 91,
+  "quality_score": 93,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
@@ -209,7 +216,7 @@
     "total_reserved_usd": 0.09148,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "a51f02e689fe1b52df8c601e4466a1281a16cd42b6829edfba58bdfdf76d1ea0",
   "translation_model_actual": "gpt-6-luna"
