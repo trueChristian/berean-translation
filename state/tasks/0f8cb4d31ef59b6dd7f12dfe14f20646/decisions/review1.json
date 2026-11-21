@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph 9",
+      "severity": "major",
+      "source_quote": "“I beseech all those who confess Christ to ask Him today, upon their knees, if He has not some work for them to do now.”",
+      "suggested_fix": "Replace ״אם אין לו עבודה כלשהי שעליו לעשות כעת״ with ״אם יש לו עבודה כלשהי שעליו לעשות כעת״ to preserve the source’s intended question about whether God has work for them.",
+      "translation_quote": "״לבקש ממנו היום, על ברכיו, אם אין לו עבודה כלשהי שעליו לעשות כעת״"
+    },
+    {
+      "location": "Paragraph 4",
+      "severity": "minor",
+      "source_quote": "“I am only one agent in what is growing to be a multitude.”",
+      "suggested_fix": "Consider ״אני רק אחד מן המשתתפים בתנועה ההולכת ומתרחבת״ instead of ״אני רק אחד מן השליחים בתוך קהל שהולך וגדל״, which can imply an apostolic role not stated in the source.",
+      "translation_quote": "״אני רק אחד מן השליחים בתוך קהל שהולך וגדל״"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

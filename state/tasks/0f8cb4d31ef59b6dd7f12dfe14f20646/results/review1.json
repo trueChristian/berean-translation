@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "3fc71163-b82f-458c-b0a3-e7e835e0949c",
+    "response_id": "chatcmpl-Emk0mQ2ouvGbwUMB3SdwfhdbiWNEQ",
+    "usage": {
+      "completion_tokens": 867,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 595,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3512,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3509,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4379
+    }
+  },
+  "received_at": "2026-11-21T22:09:45+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph 9",
+        "severity": "major",
+        "source_quote": "“I beseech all those who confess Christ to ask Him today, upon their knees, if He has not some work for them to do now.”",
+        "suggested_fix": "Replace ״אם אין לו עבודה כלשהי שעליו לעשות כעת״ with ״אם יש לו עבודה כלשהי שעליו לעשות כעת״ to preserve the source’s intended question about whether God has work for them.",
+        "translation_quote": "״לבקש ממנו היום, על ברכיו, אם אין לו עבודה כלשהי שעליו לעשות כעת״"
+      },
+      {
+        "location": "Paragraph 4",
+        "severity": "minor",
+        "source_quote": "“I am only one agent in what is growing to be a multitude.”",
+        "suggested_fix": "Consider ״אני רק אחד מן המשתתפים בתנועה ההולכת ומתרחבת״ instead of ״אני רק אחד מן השליחים בתוך קהל שהולך וגדל״, which can imply an apostolic role not stated in the source.",
+        "translation_quote": "״אני רק אחד מן השליחים בתוך קהל שהולך וגדל״"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 91
+  }
+}
