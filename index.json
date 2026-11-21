@@ -75107,6 +75107,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/nob/articles/14a35072-cac9-42df-a3ca-1f7db446d968.html",
+      "html_sha256": "cbe46b6133e318c5e52746e37639120c714f21004650c0088577e7f98ed9d0e7",
+      "human_reviewed": false,
+      "id": "14a35072-cac9-42df-a3ca-1f7db446d968",
+      "images": [
+        {
+          "alt": "Et svakt verdenskart i gråtoner på et ovalt rutenett",
+          "public_path": "/images/articles/14a35072-cac9-42df-a3ca-1f7db446d968-1.jpg"
+        },
+        {
+          "alt": "En mann sitter ved et skrivebord og leser i en oppslått bok",
+          "public_path": "/images/articles/14a35072-cac9-42df-a3ca-1f7db446d968-2.jpg"
+        }
+      ],
+      "issue_id": "14962b7b-2d94-5b43-a4c6-bbb78f074d1a",
+      "language": "nob",
+      "language_tag": "nb",
+      "metadata": "content/nob/articles/14a35072-cac9-42df-a3ca-1f7db446d968.json",
+      "metadata_sha256": "97b1f67e9da99fb698d5fe6244dca4ac779460aae5b1c6d933cd730b08ea6246",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "ccefc5a5c3d79409cc78319f94b5490718d30670",
+      "source_translation_key": "4bb76720c8a52c6eb0871b56c7e913858bb1a8a4a3f88d22ccdbf033f3fb4af1",
+      "status": "ready",
+      "subtitle": "(Nylig hjemvendt fra vekkelsen i Wales i 1904)",
+      "title": "Et budskap til verden",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/nob/articles/15567d7e-1146-48d9-9b34-a0f770ca06fc.html",
       "html_sha256": "8ca4118a18a4fea79db8c9ff2f99766eac23f95d6d5afc5986c03a5a0412e349",
       "human_reviewed": false,

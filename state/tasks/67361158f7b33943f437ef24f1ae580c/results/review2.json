@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "98a799c9-1b92-40a1-a32c-c4fe1aaebb57",
+    "response_id": "chatcmpl-EmokcBARLfKRrBk7Ru7zhpBkuKCxI",
+    "usage": {
+      "completion_tokens": 670,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 491,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3503,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2400,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 4173
+    }
+  },
+  "received_at": "2026-11-21T23:40:09+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Subtitle",
+        "severity": "minor",
+        "source_quote": "(Fresh from the Welch Revival of 1904)",
+        "suggested_fix": "(Nylig fra vekkelsen i Wales i 1904)",
+        "translation_quote": "(Nylig hjemvendt fra vekkelsen i Wales i 1904)"
+      },
+      {
+        "location": "Final paragraph",
+        "severity": "minor",
+        "source_quote": "The world will be swept by His Spirit as by a rushing, mighty wind.",
+        "suggested_fix": "Verden vil bli feid over av hans Ånd som av en stormende, mektig vind.",
+        "translation_quote": "Verden vil bli oversvømt av hans Ånd som av en stormende, mektig vind."
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}

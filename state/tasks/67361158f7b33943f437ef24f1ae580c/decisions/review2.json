@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Subtitle",
+      "severity": "minor",
+      "source_quote": "(Fresh from the Welch Revival of 1904)",
+      "suggested_fix": "(Nylig fra vekkelsen i Wales i 1904)",
+      "translation_quote": "(Nylig hjemvendt fra vekkelsen i Wales i 1904)"
+    },
+    {
+      "location": "Final paragraph",
+      "severity": "minor",
+      "source_quote": "The world will be swept by His Spirit as by a rushing, mighty wind.",
+      "suggested_fix": "Verden vil bli feid over av hans Ånd som av en stormende, mektig vind.",
+      "translation_quote": "Verden vil bli oversvømt av hans Ånd som av en stormende, mektig vind."
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}
