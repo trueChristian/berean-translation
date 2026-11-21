@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "First body paragraph, quotation of 1 Samuel 3:1",
+      "severity": "major",
+      "source_quote": "“There was no open vision” (I Sam. 3:1).",
+      "suggested_fix": "Replace the full-verse quotation with a Korean rendering of only the quoted excerpt, such as <em>“열린 이상이 없었더라”</em>(삼상 3:1).",
+      "translation_quote": "“여호와의 말씀이 희귀하여 이상이 흔히 보이지 않았더라”(삼상 3:1)."
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; a recovery continuation must pass admission",
+  "stage": "terminal"
+}

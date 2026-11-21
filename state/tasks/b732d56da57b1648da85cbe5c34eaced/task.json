@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "6d3e10e7d9c9415d9c85d28c1a654041",
   "campaign": "auto-1af912fadce2663d268097355ef4e6e5d5247e7ed1945c00f9d9db4fa590ce68",
   "created_at": "2026-11-19T23:41:56+00:00",
   "events": [
@@ -68,18 +67,40 @@
         },
         "total_tokens": 12304
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 820,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 663,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8203,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8200,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9023
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; a recovery continuation must pass admission",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "본문 5문단",
+      "location": "First body paragraph, quotation of 1 Samuel 3:1",
       "severity": "major",
-      "source_quote": "The seeing of the heart grows dim because it is God’s presence in the heart that stimulates vision.",
-      "suggested_fix": "마음속에 계신 하나님의 임재가 환상을 일깨워 줍니다. 그 임재가 약해지면 마음의 눈도 점점 어두워집니다.",
-      "translation_quote": "하나님께서 마음에 임재하실 때 환상이 자극되므로, 마음의 눈은 점점 어두워집니다."
+      "source_quote": "“There was no open vision” (I Sam. 3:1).",
+      "suggested_fix": "Replace the full-verse quotation with a Korean rendering of only the quoted excerpt, such as <em>“열린 이상이 없었더라”</em>(삼상 3:1).",
+      "translation_quote": "“여호와의 말씀이 희귀하여 이상이 흔히 보이지 않았더라”(삼상 3:1)."
     }
   ],
+  "finished_at": "2026-11-21T17:00:18+00:00",
   "id": "b732d56da57b1648da85cbe5c34eaced",
   "issue_id": "14962b7b-2d94-5b43-a4c6-bbb78f074d1a",
   "language": "kor",
@@ -168,7 +189,7 @@
     }
   },
   "protected": false,
-  "quality_score": 93,
+  "quality_score": 92,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
@@ -188,7 +209,7 @@
     "total_reserved_usd": 0.089524,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "185b97cda696ff5f8dd7eedb4b0e07b692951558ceb527409cc25fd72f4c7bf1",
   "translation_model_actual": "gpt-6-luna"
