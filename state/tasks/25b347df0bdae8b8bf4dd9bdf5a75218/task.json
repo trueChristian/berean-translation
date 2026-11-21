@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "430301c70d9241c6adc6478d595dcf88",
   "campaign": "auto-3ab16627d1c033ab8dafecb30cd061e0516822ece48ef40ce7e8d1fc20d57938",
   "created_at": "2026-11-21T09:46:25+00:00",
   "events": [
@@ -28,10 +27,38 @@
         },
         "total_tokens": 3156
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 912,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 809,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3510,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 3507,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4422
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "Subtitle",
+      "severity": "major",
+      "source_quote": "(Fresh from the Welch Revival of 1904)",
+      "suggested_fix": "(Direkt från den walesiska väckelsen 1904)",
+      "translation_quote": "(Nyskrivet efter den walesiska väckelsen 1904)"
+    }
+  ],
   "id": "25b347df0bdae8b8bf4dd9bdf5a75218",
   "issue_id": "14962b7b-2d94-5b43-a4c6-bbb78f074d1a",
   "language": "swe",
@@ -120,11 +147,13 @@
     }
   },
   "protected": false,
+  "quality_score": 94,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/3f4eea0f71e9513f5fa0ef26e8ab22cedfda0622f26aaa2af49f9b17f5dd10c4.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "translate",
     "max_candidate_bytes": 120000,
@@ -138,7 +167,7 @@
     "total_reserved_usd": 0.086923,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "4bb76720c8a52c6eb0871b56c7e913858bb1a8a4a3f88d22ccdbf033f3fb4af1",
   "translation_model_actual": "gpt-6-luna"

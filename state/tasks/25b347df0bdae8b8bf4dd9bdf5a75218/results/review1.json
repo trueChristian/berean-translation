@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "2f32b522-3fea-44c1-8b0f-968677252c5e",
+    "response_id": "chatcmpl-EmjHlnQo5ZNR8iJ98q9ARdGs03nwt",
+    "usage": {
+      "completion_tokens": 912,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 809,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3510,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3507,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4422
+    }
+  },
+  "received_at": "2026-11-21T17:42:24+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Subtitle",
+        "severity": "major",
+        "source_quote": "(Fresh from the Welch Revival of 1904)",
+        "suggested_fix": "(Direkt från den walesiska väckelsen 1904)",
+        "translation_quote": "(Nyskrivet efter den walesiska väckelsen 1904)"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 94
+  }
+}
