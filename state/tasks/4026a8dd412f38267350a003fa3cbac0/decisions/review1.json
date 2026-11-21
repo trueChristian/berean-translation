@@ -1,0 +1,35 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraph beginning «Έπειτα, θα ήθελα…»",
+      "severity": "major",
+      "source_quote": "«Revival is something altogether different from evangelism on its highest level.»",
+      "suggested_fix": "«Η αναζωπύπνιση είναι κάτι εντελώς διαφορετικό από τον ευαγγελισμό στην ανώτατη βαθμίδα του.»",
+      "translation_quote": "«Η αναζωπύπνιση είναι κάτι εντελώς διαφορετικό από τον ευαγγελισμό στην ανώτατη βαθμίδα του.»"
+    },
+    {
+      "location": "HTML, paragraph beginning «Έπειτα, θα ήθελα…»",
+      "severity": "major",
+      "source_quote": "«Revival is a moving of God in the community»",
+      "suggested_fix": "«Η αναζωπύπνιση είναι μια κίνηση του Θεού μέσα στην κοινότητα»",
+      "translation_quote": "«Είναι μια κίνηση του Θεού μέσα στην κοινότητα»"
+    },
+    {
+      "location": "HTML, paragraph beginning «Έπειτα, θα ήθελα…»",
+      "severity": "major",
+      "source_quote": "«before a word is said by any man representing any special effort.»",
+      "suggested_fix": "«πριν ειπωθεί έστω και μια λέξη από κάποιον άνθρωπο που εκπροσωπεί οποιαδήποτε ειδική προσπάθεια.»",
+      "translation_quote": "«πριν ειπωθεί έστω και μια λέξη από κάποιον άνθρωπο που εκπροσωπεί οποιαδήποτε ειδική προσπάθεια.»"
+    },
+    {
+      "location": "HTML, paragraph beginning «Είμαι βέβαιος ότι θα σας ενδιαφέρει…»",
+      "severity": "major",
+      "source_quote": "«Two old women, one of them 84 years of age and the other 82»",
+      "suggested_fix": "«Δύο ηλικιωμένες γυναίκες, η μία 84 ετών και η άλλη 82»",
+      "translation_quote": "«Δύο ηλικιωμένες γυναίκες, η μία 84 ετών και η άλλη 82»"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

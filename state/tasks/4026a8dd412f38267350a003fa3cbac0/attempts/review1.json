@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-21T01:27:58+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, paragraph beginning «Έπειτα, θα ήθελα…»\",\"severity\":\"major\",\"source_quote\":\"«Revival is something altogether different from evangelism on its highest level.»\",\"suggested_fix\":\"«Η αναζωπύπνιση είναι κάτι εντελώς διαφορετικό από τον ευαγγελισμό στην ανώτατη βαθμίδα του.»\",\"translation_quote\":\"«Η αναζωπύπνιση είναι κάτι εντελώς διαφορετικό από τον ευαγγελισμό στην ανώτατη βαθμίδα του.»\"},{\"location\":\"HTML, paragraph beginning «Έπειτα, θα ήθελα…»\",\"severity\":\"major\",\"source_quote\":\"«Revival is a moving of God in the community»\",\"suggested_fix\":\"«Η αναζωπύπνιση είναι μια κίνηση του Θεού μέσα στην κοινότητα»\",\"translation_quote\":\"«Είναι μια κίνηση του Θεού μέσα στην κοινότητα»\"},{\"location\":\"HTML, paragraph beginning «Έπειτα, θα ήθελα…»\",\"severity\":\"major\",\"source_quote\":\"«before a word is said by any man representing any special effort.»\",\"suggested_fix\":\"«πριν ειπωθεί έστω και μια λέξη από κάποιον άνθρωπο που εκπροσωπεί οποιαδήποτε ειδική προσπάθεια.»\",\"translation_quote\":\"«πριν ειπωθεί έστω και μια λέξη από κάποιον άνθρωπο που εκπροσωπεί οποιαδήποτε ειδική προσπάθεια.»\"},{\"location\":\"HTML, paragraph beginning «Είμαι βέβαιος ότι θα σας ενδιαφέρει…»\",\"severity\":\"major\",\"source_quote\":\"«Two old women, one of them 84 years of age and the other 82»\",\"suggested_fix\":\"«Δύο ηλικιωμένες γυναίκες, η μία 84 ετών και η άλλη 82»\",\"translation_quote\":\"«Δύο ηλικιωμένες γυναίκες, η μία 84 ετών και η άλλη 82»\"}],\"findings_complete\":true,\"passed\":false,\"score\":84}",
+    "content_bytes": 2093,
+    "content_evidence_truncated": false,
+    "content_sha256": "7be4a4a806e38b1a868c251f7530b5ebc80bca590f84a976a08f2d68c14082ad",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 452,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 13092,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 11989,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 13544
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

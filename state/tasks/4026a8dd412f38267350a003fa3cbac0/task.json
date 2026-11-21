@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "22602971db754a98a25cea1d1c6d0fea",
   "campaign": "auto-e2a253f79fec2d4cd9df31b919c7371e13d0a6e920b1edd2dc467e164dda9d3a",
   "created_at": "2026-11-19T03:20:06+00:00",
   "events": [
@@ -28,10 +27,59 @@
         },
         "total_tokens": 12738
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 452,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 13092,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 11989,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 13544
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "HTML, paragraph beginning «Έπειτα, θα ήθελα…»",
+      "severity": "major",
+      "source_quote": "«Revival is something altogether different from evangelism on its highest level.»",
+      "suggested_fix": "«Η αναζωπύπνιση είναι κάτι εντελώς διαφορετικό από τον ευαγγελισμό στην ανώτατη βαθμίδα του.»",
+      "translation_quote": "«Η αναζωπύπνιση είναι κάτι εντελώς διαφορετικό από τον ευαγγελισμό στην ανώτατη βαθμίδα του.»"
+    },
+    {
+      "location": "HTML, paragraph beginning «Έπειτα, θα ήθελα…»",
+      "severity": "major",
+      "source_quote": "«Revival is a moving of God in the community»",
+      "suggested_fix": "«Η αναζωπύπνιση είναι μια κίνηση του Θεού μέσα στην κοινότητα»",
+      "translation_quote": "«Είναι μια κίνηση του Θεού μέσα στην κοινότητα»"
+    },
+    {
+      "location": "HTML, paragraph beginning «Έπειτα, θα ήθελα…»",
+      "severity": "major",
+      "source_quote": "«before a word is said by any man representing any special effort.»",
+      "suggested_fix": "«πριν ειπωθεί έστω και μια λέξη από κάποιον άνθρωπο που εκπροσωπεί οποιαδήποτε ειδική προσπάθεια.»",
+      "translation_quote": "«πριν ειπωθεί έστω και μια λέξη από κάποιον άνθρωπο που εκπροσωπεί οποιαδήποτε ειδική προσπάθεια.»"
+    },
+    {
+      "location": "HTML, paragraph beginning «Είμαι βέβαιος ότι θα σας ενδιαφέρει…»",
+      "severity": "major",
+      "source_quote": "«Two old women, one of them 84 years of age and the other 82»",
+      "suggested_fix": "«Δύο ηλικιωμένες γυναίκες, η μία 84 ετών και η άλλη 82»",
+      "translation_quote": "«Δύο ηλικιωμένες γυναίκες, η μία 84 ετών και η άλλη 82»"
+    }
+  ],
   "id": "4026a8dd412f38267350a003fa3cbac0",
   "issue_id": "14962b7b-2d94-5b43-a4c6-bbb78f074d1a",
   "language": "ell",
@@ -120,11 +168,13 @@
     }
   },
   "protected": false,
+  "quality_score": 84,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/f98b63507c65152b8a7321ac23888e0aa26f098d1600382d04165453fec71fbd.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "translate",
     "max_candidate_bytes": 120000,
@@ -138,7 +188,7 @@
     "total_reserved_usd": 0.091479,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "a51f02e689fe1b52df8c601e4466a1281a16cd42b6829edfba58bdfdf76d1ea0",
   "translation_model_actual": "gpt-6-luna"
