@@ -12,9 +12,16 @@
       "event": "not_ready",
       "reason": "Article UUID mismatch",
       "task": "4b2fcff363f102db7b21853c5d1578fa"
+    },
+    {
+      "at": "2026-11-21T01:33:18+00:00",
+      "campaign": "auto-499d8941d1be49d622375500ff1e8122f098829442a0d4102193feaef28a7645",
+      "event": "automatic_requested",
+      "previous_task": "4b2fcff363f102db7b21853c5d1578fa",
+      "task": "b2592d0a1b25c6fec479452338e7d7c6"
     }
   ],
   "language": "ita",
-  "latest_task": "4b2fcff363f102db7b21853c5d1578fa",
+  "latest_task": "b2592d0a1b25c6fec479452338e7d7c6",
   "published": null
 }
