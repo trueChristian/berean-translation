@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-21T01:30:07+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"본문, “This is Holy Ghost conviction!” 문단\",\"severity\":\"major\",\"source_quote\":\"“This is Holy Ghost conviction!”\",\"suggested_fix\":\"“이것이 성령께서 주시는 죄에 대한 자각입니다!”\",\"translation_quote\":\"“이것이 성령의 책망입니다!”\"}],\"findings_complete\":true,\"passed\":false,\"score\":93}",
+    "content_bytes": 358,
+    "content_evidence_truncated": false,
+    "content_sha256": "a7e227d18a49d98a7b104281d9703fdbad707d4d1cbfa8a40286bf5a2b1b8ad4",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 901,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 795,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 11536,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 10433,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 12437
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review2",
+  "translation_attempts": 2
+}

@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "f5a038c440bd44b5ad9a55ee38d5d2b9",
   "campaign": "auto-cf73e5e90f51cbb6d9e8778e9bf0fe7550791bc1ca6e29c7e77bb1d8d839af53",
   "created_at": "2026-11-18T21:57:54+00:00",
   "events": [
@@ -48,18 +47,40 @@
         },
         "total_tokens": 17466
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 901,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 795,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 11536,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 10433,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 12437
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; a recovery continuation must pass admission",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "HTML/metadata contract",
-      "severity": "critical",
-      "source_quote": "",
-      "suggested_fix": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[24]: source /article[1]/p[6]/strong[3] ('start', 'strong', ()); translation /article[1]/p[6] ('end', 'p')",
-      "translation_quote": ""
+      "location": "본문, “This is Holy Ghost conviction!” 문단",
+      "severity": "major",
+      "source_quote": "“This is Holy Ghost conviction!”",
+      "suggested_fix": "“이것이 성령께서 주시는 죄에 대한 자각입니다!”",
+      "translation_quote": "“이것이 성령의 책망입니다!”"
     }
   ],
+  "finished_at": "2026-11-21T01:30:07+00:00",
   "id": "1a45dea8b5d44743a4a09d5b2f9da16b",
   "issue_id": "14962b7b-2d94-5b43-a4c6-bbb78f074d1a",
   "language": "kor",
@@ -148,9 +169,11 @@
     }
   },
   "protected": false,
+  "quality_score": 93,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/f98b63507c65152b8a7321ac23888e0aa26f098d1600382d04165453fec71fbd.json",
   "stage": "review2",
   "stage_budget": {
@@ -166,7 +189,7 @@
     "total_reserved_usd": 0.09148,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "a51f02e689fe1b52df8c601e4466a1281a16cd42b6829edfba58bdfdf76d1ea0",
   "translation_model_actual": "gpt-6-luna"

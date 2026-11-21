@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "본문, “This is Holy Ghost conviction!” 문단",
+      "severity": "major",
+      "source_quote": "“This is Holy Ghost conviction!”",
+      "suggested_fix": "“이것이 성령께서 주시는 죄에 대한 자각입니다!”",
+      "translation_quote": "“이것이 성령의 책망입니다!”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}
