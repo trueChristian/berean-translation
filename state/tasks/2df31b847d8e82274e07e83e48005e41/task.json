@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "e690996f50b0487dac5313157e1e8934",
   "campaign": "auto-a46bf38a10a034f630015913a17f54b458b4efa6d7a08333c2282360fad11ed7",
   "created_at": "2026-11-21T01:34:46+00:00",
   "events": [
@@ -28,32 +27,31 @@
         },
         "total_tokens": 12679
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 145,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 113,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8374,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8371,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8519
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "ציטוט אל העברים 11:24–27",
-      "severity": "major",
-      "source_quote": "for he endured, as seeing him who is invisible.",
-      "suggested_fix": "״...כי התמיד, כאילו ראה את מי שאינו נראה.״",
-      "translation_quote": "״...כי התחזק כאילו ראה את מי שאינו נראה.״"
-    },
-    {
-      "location": "הפסקה על מעשי הגבורה וההוקרה",
-      "severity": "minor",
-      "source_quote": "Books are written, and monuments erected in honor of those whose benefaction has touched us.",
-      "suggested_fix": "ספרים נכתבים ואנדרטאות מוקמות לכבוד מי שמעשיהם הטובים נגעו ללבנו.",
-      "translation_quote": "ספרים נכתבים ואנדרטאות מוקמות לכבוד מי שגמולם הטוב נגע בנו."
-    },
-    {
-      "location": "הפסקה על מרתא ומרים",
-      "severity": "minor",
-      "source_quote": "Martha was zealously active in filling what she perceived as the imminent gap in the household, while Mary was sitting in the eternal one.",
-      "suggested_fix": "מרתא פעלה בלהט כדי למלא את מה שראתה כצורך המיידי בבית, ואילו מרים ישבה במקום הנצחי.",
-      "translation_quote": "מרתא פעלה בלהט כדי למלא את מה שראתה כצורך המיידי בבית, ואילו מרים ישבה לצד הנצחי."
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-11-21T17:58:11+00:00",
   "id": "2df31b847d8e82274e07e83e48005e41",
   "issue_id": "7024063a-5783-5744-8055-7b12fee04019",
   "language": "heb",
@@ -142,9 +140,11 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/9ab9d6d6df6caaf13c8b9631c4d7cb443f5307e7edaa20779027133299e266b5.json",
   "stage": "review2",
   "stage_budget": {
@@ -158,7 +158,7 @@
     "total_reserved_usd": 0.59031,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "492a7136bb14c9d906d405dd4c072887c20473937cfd31abe18443347c5a2103",
   "translation_model_actual": "gpt-6.1-sol"

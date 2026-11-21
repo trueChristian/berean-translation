@@ -40215,6 +40215,34 @@
     {
       "ai_notice_required": true,
       "direction": "rtl",
+      "html": "content/heb/articles/08c717e6-5c69-433c-b04d-ab1957c20eb9.html",
+      "html_sha256": "a9e66fdbb2d6ad1f5ef4b4ee43e628263a33b7d44a14b60a3c6838b14d4b1841",
+      "human_reviewed": false,
+      "id": "08c717e6-5c69-433c-b04d-ab1957c20eb9",
+      "images": [
+        {
+          "alt": "דניאל כורע בתפילה ליד חלון פתוח, בעוד כמה גברים צופים בו",
+          "public_path": "/images/articles/08c717e6-5c69-433c-b04d-ab1957c20eb9-1.jpg"
+        }
+      ],
+      "issue_id": "7024063a-5783-5744-8055-7b12fee04019",
+      "language": "heb",
+      "language_tag": "he",
+      "metadata": "content/heb/articles/08c717e6-5c69-433c-b04d-ab1957c20eb9.json",
+      "metadata_sha256": "de2d11ef7c94005cc8961c8c9facf9d0c8a20725bde5b382981eb435ff5fbe35",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "עמידה איתנה בנאמנות",
+      "source_revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+      "source_translation_key": "492a7136bb14c9d906d405dd4c072887c20473937cfd31abe18443347c5a2103",
+      "status": "ready",
+      "subtitle": null,
+      "title": "אדם העומד בפרץ",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
       "html": "content/heb/articles/095ed998-d5e3-49fb-a63f-a2e4c434c1aa.html",
       "html_sha256": "274cb564d8a5e57100e3b930cf3c166748a22a993e5ed2ff65303224418de46c",
       "human_reviewed": false,
