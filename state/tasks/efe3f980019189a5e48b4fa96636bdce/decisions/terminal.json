@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "translation.html, avsnittet som begynner «En dag satt jeg og spiste lunsj»",
+      "severity": "minor",
+      "source_quote": "As another forty-five minutes passed, I tried to explain to the couple",
+      "suggested_fix": "Mens ytterligere førtifem minutter gikk, forsøkte jeg å forklare paret",
+      "translation_quote": "Etter at ytterligere førtifem minutter hadde gått, forsøkte jeg å forklare paret"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

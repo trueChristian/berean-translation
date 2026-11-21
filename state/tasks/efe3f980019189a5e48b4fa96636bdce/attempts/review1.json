@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-21T17:01:57+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"translation.html, avsnittet som begynner «En dag satt jeg og spiste lunsj»\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"As another forty-five minutes passed, I tried to explain to the couple\",\n      \"suggested_fix\": \"Mens ytterligere førtifem minutter gikk, forsøkte jeg å forklare paret\",\n      \"translation_quote\": \"Etter at ytterligere førtifem minutter hadde gått, forsøkte jeg å forklare paret\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": true,\n  \"score\": 97\n}",
+    "content_bytes": 532,
+    "content_evidence_truncated": false,
+    "content_sha256": "4baba91d781acd54edcfaad813dccdb18a21dae4c84641512c0d5be29a62a6a7",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 269,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 111,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8324,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7221,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 8593
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}
