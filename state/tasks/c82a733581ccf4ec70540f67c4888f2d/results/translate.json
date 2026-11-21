@@ -1,0 +1,30 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "484762f3-37c9-4dc3-947d-4c9156aaa344",
+    "response_id": "chatcmpl-EmeJUVWZkyl6PbhySCbMert6Rxlli",
+    "usage": {
+      "completion_tokens": 1372,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 74,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1883,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1880,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3255
+    }
+  },
+  "received_at": "2026-11-21T17:00:00+00:00",
+  "result": {
+    "html": "<article data-article-id=\"14a35072-cac9-42df-a3ca-1f7db446d968\">\n  <figure>\n    <img src=\"/images/articles/14a35072-cac9-42df-a3ca-1f7db446d968-1.jpg\" alt=\"’n Bleek wêreldkaart in grysskakerings binne ’n ovaalrooster\">\n  </figure>\n  <figure>\n    <img src=\"/images/articles/14a35072-cac9-42df-a3ca-1f7db446d968-2.jpg\" alt=\"’n Man wat by ’n lessenaar sit en ’n oop boek lees\">\n  </figure>\n  <p class=\"drop-cap\">Die krag van die herlewing in Suid-Wallis kom nie van mense nie, maar van God. Hy was naby ons en het ons die weg gewys.</p>\n  <p>Hierdie beweging gaan nie oor geloofsbelydenisse of dogma nie. Die werk wat gedoen word, geniet, glo ek, die steun van alle Christene en Christelike kerke in ons land. Ek het bloot die godsdiens van Jesus Christus verkondig soos ek dit self ervaar het.</p>\n  <p>God het “my bly gemaak”, en ek wys ander op die groot vreugde daarvan om Hom te dien—’n vreugde so groot en wonderlik dat ek dit nooit ten volle sal kan uitdruk nie. Ons verkondig geen sektariese leerstelling nie, net die wonder en die skoonheid van Christus se liefde, die mens se liefde vir Hom en die mens se liefde vir sy medemens.</p>\n  <p>Ek is oor my metodes uitgevra. Ek het geen metodes nie. Ek berei nooit die woorde voor wat ek gaan sê nie. Ek laat dit alles aan Hom oor. Ek is nie die bron van hierdie herlewing nie. Ek is net een werktuig in wat besig is om ’n menigte te word. Ek roer nie mense se harte en verander nie mense se lewens nie; nie ek nie, maar “God werk in my”. Ek het gevind wat, na my mening, die hoogste vorm van Christenskap is. Ek wil my lewe, al wat ek het om te gee, daaraan wy om ander te help om dit ook te vind. Baie het dit reeds gevind, God sy dank, en baie meer vind dit deur hulle.</p>\n  <p>Dit is die werk wat Hy my gewys het om te doen. Sy Gees het een nag na my gekom toe ek op my knieë Hom om leiding gevra het, en vyf maande later is ek met die Gees gedoop. Hy het my gelei soos Hy almal sal lei wat, bewus van hulle menslike swakheid, op Hom steun soos kinders op ’n vader. Ek weet dat die werk wat deur my gedoen is, nie te danke is aan enige menslike vermoë waaroor ek beskik nie. Dit is Sy werk en tot Sy eer. “Ek was nie altyd so nie, en het ook nie gebid dat U my moes lei nie. Ek het daarvan gehou om my eie pad te kies en te sien, maar lei U my nou.”</p>\n  <p>Ek begeer niks anders nie as om toegelaat te word om voort te gaan met hierdie werk wat begin het. “Die Here is my Herder. Ek kom niks kort nie.” Hy het alles voorsien wat nodig is, en sal dit voorsien. Ek wil geen persoonlike aanhang hê nie, net die wêreld vir Christus.</p>\n  <p>Sommige dinge is oor ons byeenkomste en oor my gesê wat nie waar is nie; maar God se waarheid is nie deur hierdie wanvoorstellings geskaad nie, en daarom maak hulle min saak. Ek glo ook dat Hy dit in die harte gelê het van diegene wat oor die herlewing geskryf het om nuttige dinge te sê, want sommige koerante het ons boodskap oorgedra aan baie mense wat ons nie persoonlik bereik het nie.</p>\n  <p>Ek glo dat die wêreld op die drumpel van ’n groot godsdienstige herlewing staan, en ek bid daagliks dat ek toegelaat mag word om te help om dit teweeg te bring.</p>\n  <p>Ek smeek almal wat Christus bely om Hom vandag, op hulle knieë, te vra of Hy nie nou werk vir hulle het om te doen nie. Hy sal hulle almal lei soos Hy ons gelei het. Hy sal hulle bedags rookpilare en snags vuurpilare maak om alle mense na Hom te lei.</p>\n  <p>Wonderlike dinge het binne enkele weke in Wallis gebeur, maar dit is slegs ’n begin. Sy Gees sal soos ’n geweldige, bruisende wind oor die wêreld spoel. Baie wat nou stil Christene is, negatiewe Christene, Christene vir wie hulle geloof min beteken en vir niemand anders iets beteken nie, sal die beweging lei. Christene wat tas en huiwer en halfhartig is, sal ’n groot Lig sien en hierdie Lig aan duisende mense in uiterste duisternis weerkaats. Die hele wêreld sal Sy boodskap van “vrede, welwillendheid teenoor mense” hoor, en deur daarna te luister, geseën word. Duisende der duisende sal meer doen as wat ons bereik het, soos God hulle krag gee. Dit is my opregte geloof, mits die kerke maar die groot les leer om die stem van die Heilige Gees te gehoorsaam. Gehoorsaamheid! Gehoorsaamheid!! Gehoorsaamheid!!!</p>\n</article>\n",
+    "section": null,
+    "subtitle": "(Vars uit die Walliese Herlewing van 1904)",
+    "title": "’n Boodskap aan die wêreld"
+  }
+}
