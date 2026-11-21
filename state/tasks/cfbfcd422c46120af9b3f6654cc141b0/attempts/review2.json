@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-21T01:58:09+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"گیت کے ترجیع کی دوسری سطر\",\"severity\":\"minor\",\"source_quote\":\"Sweetly the light has dawned upon me;\",\"suggested_fix\":\"نور کی روشنی مجھ پر بڑی خوشی سے طلوع ہوئی؛\",\"translation_quote\":\"نور میرا دل خوشی سے منور کر گیا؛\"}],\"findings_complete\":true,\"passed\":true,\"score\":97}",
+    "content_bytes": 373,
+    "content_evidence_truncated": false,
+    "content_sha256": "dbeb51a1b2b6e456b0dea05a9fee3e6d912300269090194f1b2de6e1e5af8c73",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 754,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 648,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8360,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7257,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 9114
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

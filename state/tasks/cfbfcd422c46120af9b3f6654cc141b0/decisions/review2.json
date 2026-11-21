@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "گیت کے ترجیع کی دوسری سطر",
+      "severity": "minor",
+      "source_quote": "Sweetly the light has dawned upon me;",
+      "suggested_fix": "نور کی روشنی مجھ پر بڑی خوشی سے طلوع ہوئی؛",
+      "translation_quote": "نور میرا دل خوشی سے منور کر گیا؛"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

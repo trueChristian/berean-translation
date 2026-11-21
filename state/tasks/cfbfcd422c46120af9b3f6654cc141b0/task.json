@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "3878c651f27f44968be58dd8655cee9a",
   "campaign": "auto-e23c7722761605de4db45f6b1e3991a0cd29aecc0ee625a0157d2848e4a568a6",
   "created_at": "2026-11-14T21:44:52+00:00",
   "events": [
@@ -68,39 +67,39 @@
         },
         "total_tokens": 12596
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 754,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 648,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8360,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 7257,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 9114
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "HTML paragraph 10",
+      "location": "گیت کے ترجیع کی دوسری سطر",
       "severity": "minor",
-      "source_quote": "a modest log cabin",
-      "suggested_fix": "ایک سادہ سے لکڑی کے کیبن میں",
-      "translation_quote": "ایک سادہ سے لکڑی کے کمرے میں"
-    },
-    {
-      "location": "HTML paragraph 6",
-      "severity": "minor",
-      "source_quote": "incandescent light bulb",
-      "suggested_fix": "تاپدیپت بلب",
-      "translation_quote": "تاپتی بلب"
-    },
-    {
-      "location": "HTML paragraph 8",
-      "severity": "minor",
-      "source_quote": "in gospel music and hymn writing",
-      "suggested_fix": "انجیل کی موسیقی اور گیت نویسی میں",
-      "translation_quote": "انجیل کے موسیقی اور گیت نویسی میں"
-    },
-    {
-      "location": "HTML paragraph 22",
-      "severity": "major",
-      "source_quote": "her benighted millions",
-      "suggested_fix": "ان کے لاکھوں تاریک ذہن لوگوں",
-      "translation_quote": "کروڑوں تاریک دل لوگوں"
+      "source_quote": "Sweetly the light has dawned upon me;",
+      "suggested_fix": "نور کی روشنی مجھ پر بڑی خوشی سے طلوع ہوئی؛",
+      "translation_quote": "نور میرا دل خوشی سے منور کر گیا؛"
     }
   ],
+  "finished_at": "2026-11-21T01:58:09+00:00",
   "id": "cfbfcd422c46120af9b3f6654cc141b0",
   "issue_id": "103c93e0-6e9a-44f6-a6bc-377af8e08e38",
   "language": "urd",
@@ -189,7 +188,7 @@
     }
   },
   "protected": false,
-  "quality_score": 94,
+  "quality_score": 97,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
@@ -209,7 +208,7 @@
     "total_reserved_usd": 0.089464,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "24f89250b05cd303e73c3df869edd19f173aa57a9d0a95bd0580196d7fe3e789",
   "translation_model_actual": "gpt-6-luna"
