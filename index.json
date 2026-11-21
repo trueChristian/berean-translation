@@ -71024,6 +71024,42 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/nld/articles/8389d62e-1ba0-47de-bf13-29a71ffa204c.html",
+      "html_sha256": "aa16f1bf881a13d7a843775c63863274800754bd0e8645dd5e9df6112b8f6348",
+      "human_reviewed": false,
+      "id": "8389d62e-1ba0-47de-bf13-29a71ffa204c",
+      "images": [
+        {
+          "alt": "Drie figuren in gewaden die over een landschap uitkijken",
+          "public_path": "/images/articles/8389d62e-1ba0-47de-bf13-29a71ffa204c-1.png"
+        },
+        {
+          "alt": "Denny en Jackie Kenaston met hun gezin",
+          "public_path": "/images/articles/8389d62e-1ba0-47de-bf13-29a71ffa204c-2.jpg"
+        },
+        {
+          "alt": "Een gezin zit rond de tafel terwijl een man hun voorleest",
+          "public_path": "/images/articles/8389d62e-1ba0-47de-bf13-29a71ffa204c-3.png"
+        }
+      ],
+      "issue_id": "14962b7b-2d94-5b43-a4c6-bbb78f074d1a",
+      "language": "nld",
+      "language_tag": "nl",
+      "metadata": "content/nld/articles/8389d62e-1ba0-47de-bf13-29a71ffa204c.json",
+      "metadata_sha256": "0c8680df0c6f1e0a0c7bb5093a2b4f561bbf2683d72634923c8fc00c2030094b",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "ccefc5a5c3d79409cc78319f94b5490718d30670",
+      "source_translation_key": "185b97cda696ff5f8dd7eedb4b0e07b692951558ceb527409cc25fd72f4c7bf1",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Een motiverend visioen voor onze gezinnen",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/nld/articles/85306410-6a2d-46f1-b6db-6d3450f7f908.html",
       "html_sha256": "c3f5963e889a585033213b1a2d361882d7408278bfa3ea9472b216b08722a70e",
       "human_reviewed": false,
