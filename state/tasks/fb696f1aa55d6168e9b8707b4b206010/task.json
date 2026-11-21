@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "01ae09cac21e46ef83aba01246d9fe9d",
   "campaign": "auto-240c5295894d442a5500b84f6d8e8bf7ef410104d8ff38a9aaf13c84687fb059",
   "created_at": "2026-11-21T17:05:21+00:00",
   "events": [
@@ -28,10 +27,39 @@
         },
         "total_tokens": 7520
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 902,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 809,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7874,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 7871,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8776
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "Opening quotation, line beginning “If I only had a baby...”",
+      "severity": "minor",
+      "source_quote": "If I only had a baby...",
+      "suggested_fix": "काश मेरा एक बच्चा होता...",
+      "translation_quote": "काश मेरे एक बच्चा होता..."
+    }
+  ],
+  "finished_at": "2026-11-21T23:24:37+00:00",
   "id": "fb696f1aa55d6168e9b8707b4b206010",
   "issue_id": "14962b7b-2d94-5b43-a4c6-bbb78f074d1a",
   "language": "hin",
@@ -120,9 +148,11 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/0b11e974f5f2f9ecf44763d5d2c37b55d2b48a4b00d9d3025f375656efffc92b.json",
   "stage": "review1",
   "stage_budget": {
@@ -138,7 +168,7 @@
     "total_reserved_usd": 0.089188,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "62bd3b8d5120818defff7fd66e6ca15022624bbed7e6fe7b6efb17cae98a6e3d",
   "translation_model_actual": "gpt-6-luna"

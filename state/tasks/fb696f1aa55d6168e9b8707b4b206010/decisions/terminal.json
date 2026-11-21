@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Opening quotation, line beginning “If I only had a baby...”",
+      "severity": "minor",
+      "source_quote": "If I only had a baby...",
+      "suggested_fix": "काश मेरा एक बच्चा होता...",
+      "translation_quote": "काश मेरे एक बच्चा होता..."
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

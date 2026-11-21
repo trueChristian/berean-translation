@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "804a1423-7b02-4cc9-8b22-d454e03e0247",
+    "response_id": "chatcmpl-Emoe12colAJ7JIe7idEMltyhCUieF",
+    "usage": {
+      "completion_tokens": 902,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 809,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7874,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7871,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8776
+    }
+  },
+  "received_at": "2026-11-21T23:24:37+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Opening quotation, line beginning “If I only had a baby...”",
+        "severity": "minor",
+        "source_quote": "If I only had a baby...",
+        "suggested_fix": "काश मेरा एक बच्चा होता...",
+        "translation_quote": "काश मेरे एक बच्चा होता..."
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}

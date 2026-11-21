@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-21T23:24:37+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Opening quotation, line beginning “If I only had a baby...”\",\"severity\":\"minor\",\"source_quote\":\"If I only had a baby...\",\"suggested_fix\":\"काश मेरा एक बच्चा होता...\",\"translation_quote\":\"काश मेरे एक बच्चा होता...\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 367,
+    "content_evidence_truncated": false,
+    "content_sha256": "191ab1e0d6aa5bbe3d283df701f17d401c9a92fc35b7aa21062ebfc3d0c47bc1",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 902,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 809,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7874,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7871,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8776
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}
