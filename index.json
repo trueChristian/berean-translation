@@ -87316,6 +87316,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/rus/articles/34125090-b480-4d63-b13a-33d47470f335.html",
+      "html_sha256": "fed87736167150c592697c39398d68ff2e39dcf885016b4eb49077a58bc2b0cc",
+      "human_reviewed": false,
+      "id": "34125090-b480-4d63-b13a-33d47470f335",
+      "images": [
+        {
+          "alt": "Восход солнца над суровыми горными вершинами",
+          "public_path": "/images/articles/34125090-b480-4d63-b13a-33d47470f335-1.jpg"
+        }
+      ],
+      "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
+      "language": "rus",
+      "language_tag": "ru",
+      "metadata": "content/rus/articles/34125090-b480-4d63-b13a-33d47470f335.json",
+      "metadata_sha256": "c3e96dca2d75815caf305419ae0cadf00c5098b8853ee7b632ec9c9a230e5d91",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "Церковь Нового Завета",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "b3a0b32450038629cf20919c69af275c4549e0b458e25e2b5d03da547dfb97f7",
+      "status": "ready",
+      "subtitle": "Вторая статья в серии «Призыв к ученичеству»",
+      "title": "Призыв к святости",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/rus/articles/3558b7f3-5296-4770-a7c6-d420c923642d.html",
       "html_sha256": "d7f623e16a403c2f00f296eb144b15c6c2e4445471c6026c30a575a925f86883",
       "human_reviewed": false,
