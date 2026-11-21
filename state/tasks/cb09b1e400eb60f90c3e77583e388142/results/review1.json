@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "46d1dc24-ebd7-4ac6-b9f7-bb9192fae0dc",
+    "response_id": "chatcmpl-EmRDJENBAlDlwHgplxLjPXEn05deE",
+    "usage": {
+      "completion_tokens": 890,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 740,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7773,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6670,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 8663
+    }
+  },
+  "received_at": "2026-11-21T01:28:28+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "title",
+        "severity": "minor",
+        "source_quote": "A Motivating Vision for Our Homes",
+        "suggested_fix": "En vision som motiverar oss för våra hem",
+        "translation_quote": "En vision som driver oss för våra hem"
+      },
+      {
+        "location": "Sista bönen",
+        "severity": "minor",
+        "source_quote": "I desperately need You to work in my heart this very moment.",
+        "suggested_fix": "Jag behöver verkligen att du verkar i mitt hjärta just nu.",
+        "translation_quote": "Jag behöver dig desperat att verka i mitt hjärta just nu."
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 97
+  }
+}

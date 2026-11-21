@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-21T01:28:28+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"title\",\"severity\":\"minor\",\"source_quote\":\"A Motivating Vision for Our Homes\",\"suggested_fix\":\"En vision som motiverar oss för våra hem\",\"translation_quote\":\"En vision som driver oss för våra hem\"},{\"location\":\"Sista bönen\",\"severity\":\"minor\",\"source_quote\":\"I desperately need You to work in my heart this very moment.\",\"suggested_fix\":\"Jag behöver verkligen att du verkar i mitt hjärta just nu.\",\"translation_quote\":\"Jag behöver dig desperat att verka i mitt hjärta just nu.\"}],\"findings_complete\":true,\"passed\":true,\"score\":97}",
+    "content_bytes": 564,
+    "content_evidence_truncated": false,
+    "content_sha256": "e01e3ad3a12c877d3cbf5ed4fa5d237a399c1e4c0a867082d77a38ae331a7a00",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 890,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 740,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7773,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6670,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 8663
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

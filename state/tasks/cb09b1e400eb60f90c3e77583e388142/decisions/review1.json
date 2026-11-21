@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "title",
+      "severity": "minor",
+      "source_quote": "A Motivating Vision for Our Homes",
+      "suggested_fix": "En vision som motiverar oss för våra hem",
+      "translation_quote": "En vision som driver oss för våra hem"
+    },
+    {
+      "location": "Sista bönen",
+      "severity": "minor",
+      "source_quote": "I desperately need You to work in my heart this very moment.",
+      "suggested_fix": "Jag behöver verkligen att du verkar i mitt hjärta just nu.",
+      "translation_quote": "Jag behöver dig desperat att verka i mitt hjärta just nu."
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

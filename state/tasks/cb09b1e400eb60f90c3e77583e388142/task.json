@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "426f12130d174716b42bcd4c280b53db",
   "campaign": "auto-898c00fc358ef6c121499a7aef733f33403506c054e421a55b94c8f95d5f6b0c",
   "created_at": "2026-11-20T04:18:15+00:00",
   "events": [
@@ -28,10 +27,46 @@
         },
         "total_tokens": 7474
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 890,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 740,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7773,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 6670,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 8663
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "title",
+      "severity": "minor",
+      "source_quote": "A Motivating Vision for Our Homes",
+      "suggested_fix": "En vision som motiverar oss för våra hem",
+      "translation_quote": "En vision som driver oss för våra hem"
+    },
+    {
+      "location": "Sista bönen",
+      "severity": "minor",
+      "source_quote": "I desperately need You to work in my heart this very moment.",
+      "suggested_fix": "Jag behöver verkligen att du verkar i mitt hjärta just nu.",
+      "translation_quote": "Jag behöver dig desperat att verka i mitt hjärta just nu."
+    }
+  ],
+  "finished_at": "2026-11-21T01:28:28+00:00",
   "id": "cb09b1e400eb60f90c3e77583e388142",
   "issue_id": "14962b7b-2d94-5b43-a4c6-bbb78f074d1a",
   "language": "swe",
@@ -120,9 +155,11 @@
     }
   },
   "protected": false,
+  "quality_score": 97,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/cbf793416556696ee72b11d283016eab5bddf2775337c6138a1c2fd40203c25b.json",
   "stage": "review1",
   "stage_budget": {
@@ -138,7 +175,7 @@
     "total_reserved_usd": 0.089515,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "185b97cda696ff5f8dd7eedb4b0e07b692951558ceb527409cc25fd72f4c7bf1",
   "translation_model_actual": "gpt-6-luna"

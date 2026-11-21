@@ -105461,6 +105461,42 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/swe/articles/8389d62e-1ba0-47de-bf13-29a71ffa204c.html",
+      "html_sha256": "fa9230a26a4d9d0d60738e31bb733b7738044060f8c72ad7ef0bda5e054d48f3",
+      "human_reviewed": false,
+      "id": "8389d62e-1ba0-47de-bf13-29a71ffa204c",
+      "images": [
+        {
+          "alt": "Tre människor i kåpor blickar ut över ett landskap",
+          "public_path": "/images/articles/8389d62e-1ba0-47de-bf13-29a71ffa204c-1.png"
+        },
+        {
+          "alt": "Denny och Jackie Kenaston med sin familj",
+          "public_path": "/images/articles/8389d62e-1ba0-47de-bf13-29a71ffa204c-2.jpg"
+        },
+        {
+          "alt": "En familj samlad kring ett bord medan en man läser för dem",
+          "public_path": "/images/articles/8389d62e-1ba0-47de-bf13-29a71ffa204c-3.png"
+        }
+      ],
+      "issue_id": "14962b7b-2d94-5b43-a4c6-bbb78f074d1a",
+      "language": "swe",
+      "language_tag": "sv",
+      "metadata": "content/swe/articles/8389d62e-1ba0-47de-bf13-29a71ffa204c.json",
+      "metadata_sha256": "d3113bdb28e0590537273e376d98f311aa4bf31bac5e2045a72da2a6161808aa",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "ccefc5a5c3d79409cc78319f94b5490718d30670",
+      "source_translation_key": "185b97cda696ff5f8dd7eedb4b0e07b692951558ceb527409cc25fd72f4c7bf1",
+      "status": "ready",
+      "subtitle": null,
+      "title": "En vision som driver oss för våra hem",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/swe/articles/85306410-6a2d-46f1-b6db-6d3450f7f908.html",
       "html_sha256": "547a8303477b0ee2cdfef982c20be1cd7e2cb4c295a52a0d9bd598fc1d9929c1",
       "human_reviewed": false,
