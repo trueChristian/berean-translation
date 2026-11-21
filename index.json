@@ -15696,6 +15696,42 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ben/articles/b649c2a3-20b1-4e02-9204-6285b234f34f.html",
+      "html_sha256": "a0f2dd1516a65b9ec0fb2474db03717aa9921656b0e28b16b8609f36ba326824",
+      "human_reviewed": false,
+      "id": "b649c2a3-20b1-4e02-9204-6285b234f34f",
+      "images": [
+        {
+          "alt": "ফিলিপ পি. ব্লিসের প্রতিকৃতি।",
+          "public_path": "/images/articles/b649c2a3-20b1-4e02-9204-6285b234f34f-1.jpg"
+        },
+        {
+          "alt": "সবুজ পাতার মাঝে হালকা বেগুনি ফুল।",
+          "public_path": "/images/articles/b649c2a3-20b1-4e02-9204-6285b234f34f-2.jpg"
+        },
+        {
+          "alt": "The Light of the World Is Jesus গানের সম্পূর্ণ মুদ্রিত স্বরলিপি।",
+          "public_path": "/images/articles/b649c2a3-20b1-4e02-9204-6285b234f34f-3.png"
+        }
+      ],
+      "issue_id": "103c93e0-6e9a-44f6-a6bc-377af8e08e38",
+      "language": "ben",
+      "language_tag": "bn",
+      "metadata": "content/ben/articles/b649c2a3-20b1-4e02-9204-6285b234f34f.json",
+      "metadata_sha256": "262c13c9b823c2f119bb28c377e04af162bc9f9d4e5fa209fc562acd37dde5f6",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": "স্তোত্রের ইতিহাস",
+      "source_revision": "ccefc5a5c3d79409cc78319f94b5490718d30670",
+      "source_translation_key": "24f89250b05cd303e73c3df869edd19f173aa57a9d0a95bd0580196d7fe3e789",
+      "status": "ready",
+      "subtitle": null,
+      "title": "জগতের আলো যিশু",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ben/articles/b72ea42a-1a86-4c21-a399-ebd3013c257b.html",
       "html_sha256": "fe408842b33b1374698db49e88bd737262e6bebe71200e628e7b47a0076139f9",
       "human_reviewed": false,
