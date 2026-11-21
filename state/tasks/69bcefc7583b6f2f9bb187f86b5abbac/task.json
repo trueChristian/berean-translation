@@ -5,11 +5,82 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "a60efae5907d4e98be80a30045461f95",
   "campaign": "auto-22f07c9dc9e3ca4053972da79a0c725739f34901a7622cdfc269670319d38db8",
   "created_at": "2026-11-21T18:14:24+00:00",
-  "events": [],
-  "findings": [],
+  "events": [
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1116,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 89,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9993,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8890,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 11109
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "translation.html, párrafos 1 y 24",
+      "severity": "major",
+      "source_quote": "following the world in gradual change and compromise / We look for compromise wherever we can.",
+      "suggested_fix": "Sustituir «en un cambio y compromiso gradual» por «en un cambio gradual y en concesiones a sus valores» y «Buscamos compromiso donde podamos» por «Buscamos hacer concesiones al mundo dondequiera que podemos».",
+      "translation_quote": "en un cambio y compromiso gradual / Buscamos compromiso donde podamos."
+    },
+    {
+      "location": "translation.html, párrafo que introduce Juan 3:14",
+      "severity": "major",
+      "source_quote": "Jesus then profoundly preaches a sermon to him",
+      "suggested_fix": "Sustituir «Entonces Jesús le predica proféticamente un sermón» por «Entonces Jesús le predica un sermón de gran profundidad».",
+      "translation_quote": "Entonces Jesús le predica proféticamente un sermón"
+    },
+    {
+      "location": "translation.html, primera lista, citas de Juan 9:35-38 y Efesios 2:8-9",
+      "severity": "major",
+      "source_quote": "…And Jesus said unto him, Thou hast both seen him, and it is he that talketh with thee. And he said, Lord, I believe. And he worshipped him / For by grace are ye saved through faith … it is the gift of God: Not of works…",
+      "suggested_fix": "Eliminar de la cita de Juan el diálogo añadido y dejar «…Y Jesús le dijo: Le has visto, y el que habla contigo, él es. Entonces dijo: Señor, yo creo. Y le adoró –Juan 9:35-38.» En Efesios, eliminar «y esto no de vosotros, pues» y dejar «Porque por gracia sois salvos por medio de la fe… es don de Dios: No por obras… –Efesios 2:8-9.» Conservar las etiquetas <em> existentes.",
+      "translation_quote": "…Y Jesús le dijo: ¿Crees tú en el Hijo de Dios? El respondió y dijo: ¿Quién es, Señor, para que crea en él? Jesús le dijo: Le has visto [...] / Porque por gracia sois salvos por medio de la fe… y esto no de vosotros, pues es don de Dios: No por obras…"
+    },
+    {
+      "location": "translation.html, cita de Ezequiel 36:26-27",
+      "severity": "major",
+      "source_quote": "A new heart also will I give you, and a new spirit will I put within you",
+      "suggested_fix": "Sustituir «Un corazón nuevo y un espíritu nuevo os daré» por «Os daré también un corazón nuevo y pondré un espíritu nuevo dentro de vosotros».",
+      "translation_quote": "Un corazón nuevo y un espíritu nuevo os daré"
+    },
+    {
+      "location": "translation.html, segunda lista, Gálatas 5:16",
+      "severity": "major",
+      "source_quote": "Walk in the Spirit, and ye shall not fulfil the lust of the flesh",
+      "suggested_fix": "Sustituir «Andad en el Espíritu, y no satisfagáis los deseos de la carne» por «Andad en el Espíritu, y no satisfaréis los deseos de la carne». El original presenta una promesa como consecuencia, no una segunda orden.",
+      "translation_quote": "Andad en el Espíritu, y no satisfagáis los deseos de la carne"
+    },
+    {
+      "location": "translation.html, paráfrasis dirigida a Nicodemo tras Juan 3:3",
+      "severity": "minor",
+      "source_quote": "you are a ruler of the Jews",
+      "suggested_fix": "Sustituir «eres un prínceps de los judíos» por «eres un dirigente de los judíos».",
+      "translation_quote": "eres un prínceps de los judíos"
+    },
+    {
+      "location": "translation.html, párrafo que comienza «Queridos»",
+      "severity": "minor",
+      "source_quote": "spiritual blessings that cannot be fathomed",
+      "suggested_fix": "Sustituir «bendiciones espirituales que no se pueden fathomar» por «bendiciones espirituales que no se pueden comprender plenamente».",
+      "translation_quote": "bendiciones espirituales que no se pueden fathomar"
+    }
+  ],
   "id": "69bcefc7583b6f2f9bb187f86b5abbac",
   "issue_id": "1a7070c9-fd4f-546b-a220-f267ddb8cf5f",
   "language": "spa",
@@ -98,11 +169,13 @@
     }
   },
   "protected": false,
+  "quality_score": 88,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/fd006f3144de976329b408867c5ed33ed80fe393c62d7c79f01f54f10a8134c7.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "review1",
     "max_candidate_bytes": 120000,
@@ -115,7 +188,7 @@
     "total_reserved_usd": 0.776515,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 0,
   "translation_key": "d14a8e9ac7f4c07525900d0c21ec1a6c29c2da40405328d077639b18af091bf1",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

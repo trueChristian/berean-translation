@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-21T22:09:42+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"translation.html, párrafos 1 y 24\",\n      \"severity\": \"major\",\n      \"source_quote\": \"following the world in gradual change and compromise / We look for compromise wherever we can.\",\n      \"suggested_fix\": \"Sustituir «en un cambio y compromiso gradual» por «en un cambio gradual y en concesiones a sus valores» y «Buscamos compromiso donde podamos» por «Buscamos hacer concesiones al mundo dondequiera que podemos».\",\n      \"translation_quote\": \"en un cambio y compromiso gradual / Buscamos compromiso donde podamos.\"\n    },\n    {\n      \"location\": \"translation.html, párrafo que introduce Juan 3:14\",\n      \"severity\": \"major\",\n      \"source_quote\": \"Jesus then profoundly preaches a sermon to him\",\n      \"suggested_fix\": \"Sustituir «Entonces Jesús le predica proféticamente un sermón» por «Entonces Jesús le predica un sermón de gran profundidad».\",\n      \"translation_quote\": \"Entonces Jesús le predica proféticamente un sermón\"\n    },\n    {\n      \"location\": \"translation.html, primera lista, citas de Juan 9:35-38 y Efesios 2:8-9\",\n      \"severity\": \"major\",\n      \"source_quote\": \"…And Jesus said unto him, Thou hast both seen him, and it is he that talketh with thee. And he said, Lord, I believe. And he worshipped him / For by grace are ye saved through faith … it is the gift of God: Not of works…\",\n      \"suggested_fix\": \"Eliminar de la cita de Juan el diálogo añadido y dejar «…Y Jesús le dijo: Le has visto, y el que habla contigo, él es. Entonces dijo: Señor, yo creo. Y le adoró –Juan 9:35-38.» En Efesios, eliminar «y esto no de vosotros, pues» y dejar «Porque por gracia sois salvos por medio de la fe… es don de Dios: No por obras… –Efesios 2:8-9.» Conservar las etiquetas <em> existentes.\",\n      \"translation_quote\": \"…Y Jesús le dijo: ¿Crees tú en el Hijo de Dios? El respondió y dijo: ¿Quién es, Señor, para que crea en él? Jesús le dijo: Le has visto [...] / Porque por gracia sois salvos por medio de la fe… y esto no de vosotros, pues es don de Dios: No por obras…\"\n    },\n    {\n      \"location\": \"translation.html, cita de Ezequiel 36:26-27\",\n      \"severity\": \"major\",\n      \"source_quote\": \"A new heart also will I give you, and a new spirit will I put within you\",\n      \"suggested_fix\": \"Sustituir «Un corazón nuevo y un espíritu nuevo os daré» por «Os daré también un corazón nuevo y pondré un espíritu nuevo dentro de vosotros».\",\n      \"translation_quote\": \"Un corazón nuevo y un espíritu nuevo os daré\"\n    },\n    {\n      \"location\": \"translation.html, segunda lista, Gálatas 5:16\",\n      \"severity\": \"major\",\n      \"source_quote\": \"Walk in the Spirit, and ye shall not fulfil the lust of the flesh\",\n      \"suggested_fix\": \"Sustituir «Andad en el Espíritu, y no satisfagáis los deseos de la carne» por «Andad en el Espíritu, y no satisfaréis los deseos de la carne». El original presenta una promesa como consecuencia, no una segunda orden.\",\n      \"translation_quote\": \"Andad en el Espíritu, y no satisfagáis los deseos de la carne\"\n    },\n    {\n      \"location\": \"translation.html, paráfrasis dirigida a Nicodemo tras Juan 3:3\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"you are a ruler of the Jews\",\n      \"suggested_fix\": \"Sustituir «eres un prínceps de los judíos» por «eres un dirigente de los judíos».\",\n      \"translation_quote\": \"eres un prínceps de los judíos\"\n    },\n    {\n      \"location\": \"translation.html, párrafo que comienza «Queridos»\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"spiritual blessings that cannot be fathomed\",\n      \"suggested_fix\": \"Sustituir «bendiciones espirituales que no se pueden fathomar» por «bendiciones espirituales que no se pueden comprender plenamente».\",\n      \"translation_quote\": \"bendiciones espirituales que no se pueden fathomar\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": false,\n  \"score\": 88\n}",
+    "content_bytes": 3961,
+    "content_evidence_truncated": false,
+    "content_sha256": "b9a97968d4598eee2c54ee8ffb73a19b3049108c0cf3edd2ba7a66118bc947f2",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1116,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 89,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 9993,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8890,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 11109
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}
