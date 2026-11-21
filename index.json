@@ -48933,6 +48933,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/hin/articles/ba09e248-cc12-4573-9db1-cceb885953ac.html",
+      "html_sha256": "1bef7db9ce0418a26139c1cfd608f96c37ed948d87c418fbeac435bb17eaf00e",
+      "human_reviewed": false,
+      "id": "ba09e248-cc12-4573-9db1-cceb885953ac",
+      "images": [
+        {
+          "alt": "क्रूस पर यीशु को सैनिकों और देखने वालों के साथ दर्शाता हुआ क्रूसीकरण का दृश्य",
+          "public_path": "/images/articles/ba09e248-cc12-4573-9db1-cceb885953ac-1.jpg"
+        },
+        {
+          "alt": "कब्र के पास पहरेदारों के सामने प्रकट होते हुए पुनर्जीवित यीशु",
+          "public_path": "/images/articles/ba09e248-cc12-4573-9db1-cceb885953ac-2.jpg"
+        }
+      ],
+      "issue_id": "7024063a-5783-5744-8055-7b12fee04019",
+      "language": "hin",
+      "language_tag": "hi",
+      "metadata": "content/hin/articles/ba09e248-cc12-4573-9db1-cceb885953ac.json",
+      "metadata_sha256": "8835071c0d793864a1c667b7671d12905c823882499dc84a188bddf2e59466e6",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "विशेष लेख",
+      "source_revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+      "source_translation_key": "a5f72e9441d93612f6993f0627e134f72b1dfaa99c23e918ac9d9e71a384aa4c",
+      "status": "ready",
+      "subtitle": null,
+      "title": "मसीह का पूर्ण किया हुआ कार्य",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/hin/articles/ba15e3da-aab4-401c-9ec7-64b88ac22833.html",
       "html_sha256": "b802430cf5044a84aa969567cbccad10db6ca92ffc012e5f56cb61e5d96356e6",
       "human_reviewed": false,
