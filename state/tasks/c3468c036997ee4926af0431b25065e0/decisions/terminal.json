@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Paragraphe commençant par « Un matin, pendant mon temps de méditation » et paragraphe commençant par « La Parole de Dieu est remplie du même message »",
+      "severity": "minor",
+      "source_quote": "“I Corinthians 10:10” and “I Timothy 6:6”",
+      "suggested_fix": "Remplacer « I Corinthiens 10:10 » par « 1 Corinthiens 10:10 » et « I Timothée 6:6 » par « 1 Timothée 6:6 »; les chiffres arabes sont les formes conventionnelles en français.",
+      "translation_quote": "« I Corinthiens 10:10 » et « I Timothée 6:6 »"
+    },
+    {
+      "location": "Paragraphe commençant par « Les bébés ont commencé à arriver »",
+      "severity": "minor",
+      "source_quote": "“But the babies were fussy, very fussy.”",
+      "suggested_fix": "Remplacer « les bébés étaient grognons, très grognons » par « les bébés étaient difficiles, très difficiles » pour exprimer leur agitation plutôt que leur humeur maussade.",
+      "translation_quote": "« Mais les bébés étaient grognons, très grognons. »"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

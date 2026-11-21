@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "4c6d05cf-3d5b-41a8-8a61-54859fe48be2",
+    "response_id": "chatcmpl-Emk0k3vUggbC7XdM9yBkUjPNGA3iR",
+    "usage": {
+      "completion_tokens": 945,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 648,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7573,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6470,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 8518
+    }
+  },
+  "received_at": "2026-11-21T22:09:28+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraphe commençant par « Un matin, pendant mon temps de méditation » et paragraphe commençant par « La Parole de Dieu est remplie du même message »",
+        "severity": "minor",
+        "source_quote": "“I Corinthians 10:10” and “I Timothy 6:6”",
+        "suggested_fix": "Remplacer « I Corinthiens 10:10 » par « 1 Corinthiens 10:10 » et « I Timothée 6:6 » par « 1 Timothée 6:6 »; les chiffres arabes sont les formes conventionnelles en français.",
+        "translation_quote": "« I Corinthiens 10:10 » et « I Timothée 6:6 »"
+      },
+      {
+        "location": "Paragraphe commençant par « Les bébés ont commencé à arriver »",
+        "severity": "minor",
+        "source_quote": "“But the babies were fussy, very fussy.”",
+        "suggested_fix": "Remplacer « les bébés étaient grognons, très grognons » par « les bébés étaient difficiles, très difficiles » pour exprimer leur agitation plutôt que leur humeur maussade.",
+        "translation_quote": "« Mais les bébés étaient grognons, très grognons. »"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 97
+  }
+}

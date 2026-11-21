@@ -34956,6 +34956,46 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/fra/articles/304e1120-f241-4d9e-972b-c72dec82b134.html",
+      "html_sha256": "d765e9d4a499e292c8065891c4cc6ed8ea9a7fc82aadf84714c3d5003de28053",
+      "human_reviewed": false,
+      "id": "304e1120-f241-4d9e-972b-c72dec82b134",
+      "images": [
+        {
+          "alt": "Une mère assise tient un enfant dans ses bras",
+          "public_path": "/images/articles/304e1120-f241-4d9e-972b-c72dec82b134-1.jpg"
+        },
+        {
+          "alt": "",
+          "public_path": "/images/articles/304e1120-f241-4d9e-972b-c72dec82b134-2.png"
+        },
+        {
+          "alt": "",
+          "public_path": "/images/articles/304e1120-f241-4d9e-972b-c72dec82b134-3.jpg"
+        },
+        {
+          "alt": "Une grande maison au bord d’un ruisseau",
+          "public_path": "/images/articles/304e1120-f241-4d9e-972b-c72dec82b134-4.jpg"
+        }
+      ],
+      "issue_id": "14962b7b-2d94-5b43-a4c6-bbb78f074d1a",
+      "language": "fra",
+      "language_tag": "fr",
+      "metadata": "content/fra/articles/304e1120-f241-4d9e-972b-c72dec82b134.json",
+      "metadata_sha256": "4f5347f7a15f1a19d7d540f0747176e8eeca39eecd6ead41bc6f2d92380a92a5",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "ccefc5a5c3d79409cc78319f94b5490718d30670",
+      "source_translation_key": "62bd3b8d5120818defff7fd66e6ca15022624bbed7e6fe7b6efb17cae98a6e3d",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Le cri du cœur d’une mère",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/fra/articles/30796e2b-9ec4-4bcf-b9e3-7d40802ff1f9.html",
       "html_sha256": "d6cc86fa42ee1369383a3a5459793c2fb1a617420fda6b12583d13b4a321675d",
       "human_reviewed": false,
