@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "cd895c497e84489698f1c8d5258be341",
   "campaign": "auto-72b4987afd10f6df4b30c32d5206e695c48dea645ac9cffbefe6386e7f5cb0f6",
   "created_at": "2026-11-20T05:06:04+00:00",
   "events": [
@@ -68,25 +67,31 @@
         },
         "total_tokens": 11432
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 544,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 512,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7795,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 6692,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 8339
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "Paragraph beginning “La oss grunne på noen av de indre kreftene”",
-      "severity": "major",
-      "source_quote": "“call those things which be not as though they were” (Rom. 4:17b)",
-      "suggested_fix": "Replace «kalle på det som ikke er, som om det var» with «kalle det som ikke er, som om det var».",
-      "translation_quote": "«kalle på det som ikke er, som om det var» (Rom. 4:17b)"
-    },
-    {
-      "location": "Paragraph beginning “Jeg vil avslutte dette kapitlet”",
-      "severity": "major",
-      "source_quote": "“to do exceedingly abundantly above all that we ask or think, according to the power that worketh in us” (Eph. 3:20)",
-      "suggested_fix": "Replace «ber om eller forstår» with «ber om eller tenker» so the quotation preserves “ask or think.”",
-      "translation_quote": "«å gjøre uendelig mye mer enn alt det vi ber om eller forstår, etter den kraften som virker i oss» (Ef. 3:20)"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-11-21T09:44:56+00:00",
   "id": "cac4ab63927b76691fa1b6a0ea3d1fb7",
   "issue_id": "14962b7b-2d94-5b43-a4c6-bbb78f074d1a",
   "language": "nob",
@@ -175,7 +180,7 @@
     }
   },
   "protected": false,
-  "quality_score": 93,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
@@ -195,7 +200,7 @@
     "total_reserved_usd": 0.089524,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "185b97cda696ff5f8dd7eedb4b0e07b692951558ceb527409cc25fd72f4c7bf1",
   "translation_model_actual": "gpt-6-luna"

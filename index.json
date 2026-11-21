@@ -77144,6 +77144,42 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/nob/articles/8389d62e-1ba0-47de-bf13-29a71ffa204c.html",
+      "html_sha256": "7082b45baf3bab0227f64dcda9ca8dee58329083c459f69484afb26293ea21d3",
+      "human_reviewed": false,
+      "id": "8389d62e-1ba0-47de-bf13-29a71ffa204c",
+      "images": [
+        {
+          "alt": "Tre kledde skikkelser ser ut over et landskap",
+          "public_path": "/images/articles/8389d62e-1ba0-47de-bf13-29a71ffa204c-1.png"
+        },
+        {
+          "alt": "Denny og Jackie Kenaston sammen med familien sin",
+          "public_path": "/images/articles/8389d62e-1ba0-47de-bf13-29a71ffa204c-2.jpg"
+        },
+        {
+          "alt": "En familie samlet rundt et bord mens en mann leser for dem",
+          "public_path": "/images/articles/8389d62e-1ba0-47de-bf13-29a71ffa204c-3.png"
+        }
+      ],
+      "issue_id": "14962b7b-2d94-5b43-a4c6-bbb78f074d1a",
+      "language": "nob",
+      "language_tag": "nb",
+      "metadata": "content/nob/articles/8389d62e-1ba0-47de-bf13-29a71ffa204c.json",
+      "metadata_sha256": "ab615f7cbee8da2ac75d0da97f2fc9646125a806d11ece51d5cf1a736d6b43dc",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "ccefc5a5c3d79409cc78319f94b5490718d30670",
+      "source_translation_key": "185b97cda696ff5f8dd7eedb4b0e07b692951558ceb527409cc25fd72f4c7bf1",
+      "status": "ready",
+      "subtitle": null,
+      "title": "En visjon som motiverer hjemmene våre",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/nob/articles/85306410-6a2d-46f1-b6db-6d3450f7f908.html",
       "html_sha256": "2e6b934cfbab4ac9fe280f8b96021bc724cdd0a141a31d9de8e8f18488520a09",
       "human_reviewed": false,
