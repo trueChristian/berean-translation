@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Paragrafo finale, citazione del ministro",
+      "severity": "minor",
+      "source_quote": "“There is not a single backslider among them.”",
+      "suggested_fix": "«Tra loro non c’è una sola persona che si sia allontanata dalla fede.»",
+      "translation_quote": "«Tra loro non c’è un solo apostata»"
+    },
+    {
+      "location": "Paragrafo 3",
+      "severity": "minor",
+      "source_quote": "“They spent their day perhaps reading or walking, but the church was left out of the picture.”",
+      "suggested_fix": "«Forse passavano la giornata leggendo o passeggiando, ma la chiesa era del tutto assente dalla loro vita.»",
+      "translation_quote": "«Forse passavano la giornata leggendo o passeggiando, ma la chiesa era esclusa dai loro pensieri.»"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}
