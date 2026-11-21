@@ -93846,6 +93846,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/spa/articles/391d4642-07e2-4003-83db-fa33dc08a8ca.html",
+      "html_sha256": "27bca1388340864d29e72c2759f952b19901d57693983de6b54654d29b61e2d3",
+      "human_reviewed": false,
+      "id": "391d4642-07e2-4003-83db-fa33dc08a8ca",
+      "images": [
+        {
+          "alt": "Un crocus pálido floreciendo entre la nieve que se derrite",
+          "public_path": "/images/articles/391d4642-07e2-4003-83db-fa33dc08a8ca-1.jpg"
+        }
+      ],
+      "issue_id": "1a7070c9-fd4f-546b-a220-f267ddb8cf5f",
+      "language": "spa",
+      "language_tag": "es",
+      "metadata": "content/spa/articles/391d4642-07e2-4003-83db-fa33dc08a8ca.json",
+      "metadata_sha256": "9b059ce449c99b6a03867c22fea9bd6686b3dfdb847e4f5ca67dbdaecc87f5a8",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "REFLEXIONES DE UN MISIONERO",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "d14a8e9ac7f4c07525900d0c21ec1a6c29c2da40405328d077639b18af091bf1",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Debéis nacer de nuevo",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/spa/articles/39530116-8c39-4abd-beb6-89f05771a4f8.html",
       "html_sha256": "1cbc68d797f1160d948e6a231e1d5b2250618be289159134a72bf10408d5e767",
       "human_reviewed": false,
