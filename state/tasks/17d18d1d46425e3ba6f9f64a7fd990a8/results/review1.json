@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "217d60f1-3988-4f3d-9907-3f0461124e0e",
+    "response_id": "chatcmpl-Emp6EvEVCcpTFnJaaiCv8NPBbSibK",
+    "usage": {
+      "completion_tokens": 826,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 722,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8091,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6988,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 8917
+    }
+  },
+  "received_at": "2026-11-21T23:55:50+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Opening blockquote, first line",
+        "severity": "minor",
+        "source_quote": "When the babies are out of diapers...",
+        "suggested_fix": "যখন বাচ্চাদের আর ডায়াপারের প্রয়োজন হবে...",
+        "translation_quote": "যখন বাচ্চাদের ডায়াপার পরানো বন্ধ হবে..."
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 97
+  }
+}

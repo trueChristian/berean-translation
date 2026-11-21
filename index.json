@@ -12963,6 +12963,46 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ben/articles/304e1120-f241-4d9e-972b-c72dec82b134.html",
+      "html_sha256": "2ac0443e79b5a67a350310bce8ebb902b55410a50d4b827fdf5dd5c02abc0105",
+      "human_reviewed": false,
+      "id": "304e1120-f241-4d9e-972b-c72dec82b134",
+      "images": [
+        {
+          "alt": "কোলে একটি শিশুকে নিয়ে বসে আছেন এক মা",
+          "public_path": "/images/articles/304e1120-f241-4d9e-972b-c72dec82b134-1.jpg"
+        },
+        {
+          "alt": "",
+          "public_path": "/images/articles/304e1120-f241-4d9e-972b-c72dec82b134-2.png"
+        },
+        {
+          "alt": "",
+          "public_path": "/images/articles/304e1120-f241-4d9e-972b-c72dec82b134-3.jpg"
+        },
+        {
+          "alt": "একটি জলধারার পাশে বড় বাড়ি",
+          "public_path": "/images/articles/304e1120-f241-4d9e-972b-c72dec82b134-4.jpg"
+        }
+      ],
+      "issue_id": "14962b7b-2d94-5b43-a4c6-bbb78f074d1a",
+      "language": "ben",
+      "language_tag": "bn",
+      "metadata": "content/ben/articles/304e1120-f241-4d9e-972b-c72dec82b134.json",
+      "metadata_sha256": "9d8c6a88ce7e496cec896158e7ca1fdda11d50cdf1fd27fea4f5666063518e82",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "ccefc5a5c3d79409cc78319f94b5490718d30670",
+      "source_translation_key": "62bd3b8d5120818defff7fd66e6ca15022624bbed7e6fe7b6efb17cae98a6e3d",
+      "status": "ready",
+      "subtitle": null,
+      "title": "এক মায়ের হৃদয়ের আর্তি",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ben/articles/30796e2b-9ec4-4bcf-b9e3-7d40802ff1f9.html",
       "html_sha256": "9f185530a05753510f6c01c9b4556da4218c86d85bf5e27dd5c8e67b663c514a",
       "human_reviewed": false,

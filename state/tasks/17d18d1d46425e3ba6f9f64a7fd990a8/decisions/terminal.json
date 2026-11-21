@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Opening blockquote, first line",
+      "severity": "minor",
+      "source_quote": "When the babies are out of diapers...",
+      "suggested_fix": "যখন বাচ্চাদের আর ডায়াপারের প্রয়োজন হবে...",
+      "translation_quote": "যখন বাচ্চাদের ডায়াপার পরানো বন্ধ হবে..."
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}
