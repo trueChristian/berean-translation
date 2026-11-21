@@ -30891,6 +30891,42 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ell/articles/8389d62e-1ba0-47de-bf13-29a71ffa204c.html",
+      "html_sha256": "e2a78aebc3a6d7346a60a19bbfd383e00404b72a18c7198cf518df1858abcf2b",
+      "human_reviewed": false,
+      "id": "8389d62e-1ba0-47de-bf13-29a71ffa204c",
+      "images": [
+        {
+          "alt": "Τρεις μορφές με χιτώνες κοιτάζουν ένα τοπίο",
+          "public_path": "/images/articles/8389d62e-1ba0-47de-bf13-29a71ffa204c-1.png"
+        },
+        {
+          "alt": "Ο Denny και η Jackie Kenaston με την οικογένειά τους",
+          "public_path": "/images/articles/8389d62e-1ba0-47de-bf13-29a71ffa204c-2.jpg"
+        },
+        {
+          "alt": "Μια οικογένεια συγκεντρωμένη γύρω από τραπέζι, ενώ ένας άντρας διαβάζει δυνατά",
+          "public_path": "/images/articles/8389d62e-1ba0-47de-bf13-29a71ffa204c-3.png"
+        }
+      ],
+      "issue_id": "14962b7b-2d94-5b43-a4c6-bbb78f074d1a",
+      "language": "ell",
+      "language_tag": "el",
+      "metadata": "content/ell/articles/8389d62e-1ba0-47de-bf13-29a71ffa204c.json",
+      "metadata_sha256": "63db58db712612ff85ee8d054e4c09bc660a53971b9231965d361884fd26fda9",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "ccefc5a5c3d79409cc78319f94b5490718d30670",
+      "source_translation_key": "185b97cda696ff5f8dd7eedb4b0e07b692951558ceb527409cc25fd72f4c7bf1",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Ένα όραμα που κινητοποιεί για τα σπίτια μας",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ell/articles/85306410-6a2d-46f1-b6db-6d3450f7f908.html",
       "html_sha256": "7df7d1037feda1ddc37cbd4ad89b4af3bc5db64a5b55c227f2ca3fe3d2c88355",
       "human_reviewed": false,
