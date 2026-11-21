@@ -12277,6 +12277,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ben/articles/14a35072-cac9-42df-a3ca-1f7db446d968.html",
+      "html_sha256": "2349b1eebdc8b9670fe76de9633ff42fb3f15c32feff4da5fe219e3420560792",
+      "human_reviewed": false,
+      "id": "14a35072-cac9-42df-a3ca-1f7db446d968",
+      "images": [
+        {
+          "alt": "ডিম্বাকার জালিকায় ফ্যাকাশে ধূসর রঙের একটি বিশ্বমানচিত্র",
+          "public_path": "/images/articles/14a35072-cac9-42df-a3ca-1f7db446d968-1.jpg"
+        },
+        {
+          "alt": "একজন পুরুষ ডেস্কে বসে খোলা বই পড়ছেন",
+          "public_path": "/images/articles/14a35072-cac9-42df-a3ca-1f7db446d968-2.jpg"
+        }
+      ],
+      "issue_id": "14962b7b-2d94-5b43-a4c6-bbb78f074d1a",
+      "language": "ben",
+      "language_tag": "bn",
+      "metadata": "content/ben/articles/14a35072-cac9-42df-a3ca-1f7db446d968.json",
+      "metadata_sha256": "d82c91f2d88ecb39bd32608100fc99c2a16c11f1de0a9d23a53fc538e47ab28b",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "ccefc5a5c3d79409cc78319f94b5490718d30670",
+      "source_translation_key": "4bb76720c8a52c6eb0871b56c7e913858bb1a8a4a3f88d22ccdbf033f3fb4af1",
+      "status": "ready",
+      "subtitle": "(১৯০৪ সালের ওয়েলশ পুনর্জাগরণ থেকে সদ্যপ্রাপ্ত)",
+      "title": "বিশ্বের উদ্দেশে এক বার্তা",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ben/articles/15567d7e-1146-48d9-9b34-a0f770ca06fc.html",
       "html_sha256": "ccfde2384b7214bc827a70fd868154e7ed9e97785b282cdd332c73d66258eff1",
       "human_reviewed": false,
