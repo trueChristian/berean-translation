@@ -12,9 +12,16 @@
       "event": "not_ready",
       "reason": "Final review failed; a separately funded continuation must pass admission",
       "task": "0769735b2e3bfc10b74ea606fea377d2"
+    },
+    {
+      "at": "2026-11-21T01:44:50+00:00",
+      "campaign": "auto-ed98caba0db34943555c63a93df2c7e78d170c66a87f80cefd057366ee5acafc",
+      "event": "automatic_requested",
+      "previous_task": "0769735b2e3bfc10b74ea606fea377d2",
+      "task": "c7bd0bf93a7f9962dd30dfc68bd4cb0c"
     }
   ],
   "language": "swe",
-  "latest_task": "0769735b2e3bfc10b74ea606fea377d2",
+  "latest_task": "c7bd0bf93a7f9962dd30dfc68bd4cb0c",
   "published": null
 }
