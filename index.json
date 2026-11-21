@@ -63474,6 +63474,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/kor/articles/391d4642-07e2-4003-83db-fa33dc08a8ca.html",
+      "html_sha256": "afe8a66943d2aaaf6a3e3a14215ac44b05015e5d9708ae6233f5e49f8961c048",
+      "human_reviewed": false,
+      "id": "391d4642-07e2-4003-83db-fa33dc08a8ca",
+      "images": [
+        {
+          "alt": "녹아내리는 눈 사이로 피어나는 옅은 빛깔의 크로커스",
+          "public_path": "/images/articles/391d4642-07e2-4003-83db-fa33dc08a8ca-1.jpg"
+        }
+      ],
+      "issue_id": "1a7070c9-fd4f-546b-a220-f267ddb8cf5f",
+      "language": "kor",
+      "language_tag": "ko",
+      "metadata": "content/kor/articles/391d4642-07e2-4003-83db-fa33dc08a8ca.json",
+      "metadata_sha256": "18d7b19cb9f68387bd6379ec695b951ec7a22c166475938f90f6adbcce284a50",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "선교사의 사색",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "d14a8e9ac7f4c07525900d0c21ec1a6c29c2da40405328d077639b18af091bf1",
+      "status": "ready",
+      "subtitle": null,
+      "title": "너희는 거듭나야 한다",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/kor/articles/3a3501f6-fc1b-4e76-919f-9d00a44c6698.html",
       "html_sha256": "f0e648defb2e3ca8ec293d651ee8ba18cc514faffd61c322d648b1d667107ecf",
       "human_reviewed": false,
