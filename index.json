@@ -57954,6 +57954,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ita/articles/4c0794e8-20a4-43fb-a2ea-5f8f45d93f7d.html",
+      "html_sha256": "266f705719a6e019eb590a11c72e4ef887cd52159312e7180a7ad41a0b372c9b",
+      "human_reviewed": false,
+      "id": "4c0794e8-20a4-43fb-a2ea-5f8f45d93f7d",
+      "images": [
+        {
+          "alt": "Un indicatore del carburante con la lancetta quasi sullo zero",
+          "public_path": "/images/articles/4c0794e8-20a4-43fb-a2ea-5f8f45d93f7d-1.png"
+        },
+        {
+          "alt": "Una vecchia auto ferma su una strada buia, con i fari di un altro veicolo alle spalle",
+          "public_path": "/images/articles/4c0794e8-20a4-43fb-a2ea-5f8f45d93f7d-2.jpg"
+        }
+      ],
+      "issue_id": "7024063a-5783-5744-8055-7b12fee04019",
+      "language": "ita",
+      "language_tag": "it",
+      "metadata": "content/ita/articles/4c0794e8-20a4-43fb-a2ea-5f8f45d93f7d.json",
+      "metadata_sha256": "0e05c05c1411fab1ec6c3691641c55c55d5a2600224fd1b749bdf34dd5fe08f3",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "Angolo dei bambini",
+      "source_revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+      "source_translation_key": "01042231a8ba556ff0bc5103f0ee2208f6612748cf2b55dd883f13c327b80d48",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Confida, non temere",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ita/articles/4e180a0e-db17-4e62-9eb8-da82bbe72d17.html",
       "html_sha256": "dd7b15c79f27d4742b2f69d9b5615d9cf812fcd2382dd7ec65724df30d12a75d",
       "human_reviewed": false,
