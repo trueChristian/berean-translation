@@ -562,6 +562,38 @@
       "translation_model": "gpt-6-luna"
     },
     {
+      "ai_notice_required": true,
+      "direction": "ltr",
+      "html": "content/afr/articles/14a35072-cac9-42df-a3ca-1f7db446d968.html",
+      "html_sha256": "d3a69cc667a036cdcb73362c84d6dc9937eb9d6714ec53361fda893a56e282ee",
+      "human_reviewed": false,
+      "id": "14a35072-cac9-42df-a3ca-1f7db446d968",
+      "images": [
+        {
+          "alt": "’n Bleek wêreldkaart in grysskakerings binne ’n ovaalrooster",
+          "public_path": "/images/articles/14a35072-cac9-42df-a3ca-1f7db446d968-1.jpg"
+        },
+        {
+          "alt": "’n Man wat by ’n lessenaar sit en ’n oop boek lees",
+          "public_path": "/images/articles/14a35072-cac9-42df-a3ca-1f7db446d968-2.jpg"
+        }
+      ],
+      "issue_id": "14962b7b-2d94-5b43-a4c6-bbb78f074d1a",
+      "language": "afr",
+      "language_tag": "af",
+      "metadata": "content/afr/articles/14a35072-cac9-42df-a3ca-1f7db446d968.json",
+      "metadata_sha256": "eff273a27aa8c8749e886344d7d60f0a648755bdc8e2bfc7d298280f33cf4535",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "ccefc5a5c3d79409cc78319f94b5490718d30670",
+      "source_translation_key": "4bb76720c8a52c6eb0871b56c7e913858bb1a8a4a3f88d22ccdbf033f3fb4af1",
+      "status": "ready",
+      "subtitle": "(Vars uit die Walliese Herlewing van 1904)",
+      "title": "’n Boodskap aan die wêreld",
+      "translation_model": "gpt-6-luna"
+    },
+    {
       "ai_notice_required": false,
       "direction": "ltr",
       "html": "content/afr/articles/15567d7e-1146-48d9-9b34-a0f770ca06fc.html",

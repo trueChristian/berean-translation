@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Article, paragraph 5",
+      "severity": "minor",
+      "source_quote": "five months later I was baptized with the Spirit",
+      "suggested_fix": "Change “vyf maande later is ek met die Gees gedoop” to “vyf maande later is ek met die Gees gedoop” only if using a present-perfect narration; for closer tense fidelity, use “vyf maande later is ek met die Gees gedoop” is not correct here—prefer “vyf maande later is ek met die Gees gedoop” [sic].",
+      "translation_quote": "vyf maande later is ek met die Gees gedoop"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}
