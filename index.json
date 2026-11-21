@@ -59213,6 +59213,42 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ita/articles/8389d62e-1ba0-47de-bf13-29a71ffa204c.html",
+      "html_sha256": "10643294f6251b14034e2633e3d0d631a27095527c4a2db16a8a395a25a28b13",
+      "human_reviewed": false,
+      "id": "8389d62e-1ba0-47de-bf13-29a71ffa204c",
+      "images": [
+        {
+          "alt": "Tre figure vestite con tuniche che guardano il paesaggio",
+          "public_path": "/images/articles/8389d62e-1ba0-47de-bf13-29a71ffa204c-1.png"
+        },
+        {
+          "alt": "Denny e Jackie Kenaston con la loro famiglia",
+          "public_path": "/images/articles/8389d62e-1ba0-47de-bf13-29a71ffa204c-2.jpg"
+        },
+        {
+          "alt": "Una famiglia riunita intorno a un tavolo mentre un uomo legge loro",
+          "public_path": "/images/articles/8389d62e-1ba0-47de-bf13-29a71ffa204c-3.png"
+        }
+      ],
+      "issue_id": "14962b7b-2d94-5b43-a4c6-bbb78f074d1a",
+      "language": "ita",
+      "language_tag": "it",
+      "metadata": "content/ita/articles/8389d62e-1ba0-47de-bf13-29a71ffa204c.json",
+      "metadata_sha256": "0d2745024ff3a1c47b89c8facc84995280eceb81397b7eb7ebe4f7eac2ad4ba3",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "ccefc5a5c3d79409cc78319f94b5490718d30670",
+      "source_translation_key": "185b97cda696ff5f8dd7eedb4b0e07b692951558ceb527409cc25fd72f4c7bf1",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Una visione che motiva le nostre case",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ita/articles/85306410-6a2d-46f1-b6db-6d3450f7f908.html",
       "html_sha256": "8c1e093b990e726d5b3cef85b98ffb76a3a73847637cd6d2f61c384a22cfc763",
       "human_reviewed": false,
