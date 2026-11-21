@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "06e6458174584fc4a43c7cfc4d9e83a8",
   "campaign": "auto-1af912fadce2663d268097355ef4e6e5d5247e7ed1945c00f9d9db4fa590ce68",
   "created_at": "2026-11-19T23:41:56+00:00",
   "events": [
@@ -28,10 +27,38 @@
         },
         "total_tokens": 7895
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1177,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 1024,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8202,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8199,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9379
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "본문 5문단",
+      "severity": "major",
+      "source_quote": "The seeing of the heart grows dim because it is God’s presence in the heart that stimulates vision.",
+      "suggested_fix": "마음속에 계신 하나님의 임재가 환상을 일깨워 줍니다. 그 임재가 약해지면 마음의 눈도 점점 어두워집니다.",
+      "translation_quote": "하나님께서 마음에 임재하실 때 환상이 자극되므로, 마음의 눈은 점점 어두워집니다."
+    }
+  ],
   "id": "b732d56da57b1648da85cbe5c34eaced",
   "issue_id": "14962b7b-2d94-5b43-a4c6-bbb78f074d1a",
   "language": "kor",
@@ -120,11 +147,13 @@
     }
   },
   "protected": false,
+  "quality_score": 93,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/cbf793416556696ee72b11d283016eab5bddf2775337c6138a1c2fd40203c25b.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "translate",
     "max_candidate_bytes": 120000,
@@ -138,7 +167,7 @@
     "total_reserved_usd": 0.089524,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "185b97cda696ff5f8dd7eedb4b0e07b692951558ceb527409cc25fd72f4c7bf1",
   "translation_model_actual": "gpt-6-luna"

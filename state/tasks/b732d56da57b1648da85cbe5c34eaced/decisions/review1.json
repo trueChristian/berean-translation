@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "본문 5문단",
+      "severity": "major",
+      "source_quote": "The seeing of the heart grows dim because it is God’s presence in the heart that stimulates vision.",
+      "suggested_fix": "마음속에 계신 하나님의 임재가 환상을 일깨워 줍니다. 그 임재가 약해지면 마음의 눈도 점점 어두워집니다.",
+      "translation_quote": "하나님께서 마음에 임재하실 때 환상이 자극되므로, 마음의 눈은 점점 어두워집니다."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
