@@ -80482,6 +80482,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/por/articles/14a35072-cac9-42df-a3ca-1f7db446d968.html",
+      "html_sha256": "b681763fb27163e99aad45bb037696dd29dcd4829c25aee459fc46fcb067308d",
+      "human_reviewed": false,
+      "id": "14a35072-cac9-42df-a3ca-1f7db446d968",
+      "images": [
+        {
+          "alt": "Um mapa-múndi em tons pálidos de cinza, numa grade oval",
+          "public_path": "/images/articles/14a35072-cac9-42df-a3ca-1f7db446d968-1.jpg"
+        },
+        {
+          "alt": "Um homem sentado à escrivaninha, lendo um livro aberto",
+          "public_path": "/images/articles/14a35072-cac9-42df-a3ca-1f7db446d968-2.jpg"
+        }
+      ],
+      "issue_id": "14962b7b-2d94-5b43-a4c6-bbb78f074d1a",
+      "language": "por",
+      "language_tag": "pt",
+      "metadata": "content/por/articles/14a35072-cac9-42df-a3ca-1f7db446d968.json",
+      "metadata_sha256": "634f7441403ac70df780b52f4bf7e202343ce30b481c5f7e74f86f528da6d5ca",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "ccefc5a5c3d79409cc78319f94b5490718d30670",
+      "source_translation_key": "4bb76720c8a52c6eb0871b56c7e913858bb1a8a4a3f88d22ccdbf033f3fb4af1",
+      "status": "ready",
+      "subtitle": "(Recém-chegado do Avivamento Galês de 1904)",
+      "title": "Uma mensagem ao mundo",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/por/articles/15567d7e-1146-48d9-9b34-a0f770ca06fc.html",
       "html_sha256": "975f2bd541ac6a271896aad40c15b416f9cfb402992e18d86960cd91637da092",
       "human_reviewed": false,

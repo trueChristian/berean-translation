@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "b40a6611a4a7439f86cf642c878149eb",
   "campaign": "auto-32d1de3c7583e00d6f73d209394648e76567fe8681bbf18bde73eef4252be0b5",
   "created_at": "2026-11-21T01:33:47+00:00",
   "events": [
@@ -28,10 +27,46 @@
         },
         "total_tokens": 3040
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 832,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 664,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3394,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 2291,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 4226
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "HTML, paragraph beginning “Não desejo nada além...”",
+      "severity": "minor",
+      "source_quote": "“The Lord is my Shepherd. I fear no want.”",
+      "suggested_fix": "“O Senhor é meu Pastor. Não sentirei falta de nada.”",
+      "translation_quote": "“O Senhor é meu Pastor. Não temo necessidade alguma.”"
+    },
+    {
+      "location": "Subtitle",
+      "severity": "minor",
+      "source_quote": "(Fresh from the Welch Revival of 1904)",
+      "suggested_fix": "(Direto do Avivamento Galês de 1904)",
+      "translation_quote": "(Recém-chegado do Avivamento Galês de 1904)"
+    }
+  ],
+  "finished_at": "2026-11-21T17:00:39+00:00",
   "id": "17e24d762877072a625c22a698922591",
   "issue_id": "14962b7b-2d94-5b43-a4c6-bbb78f074d1a",
   "language": "por",
@@ -120,9 +155,11 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/3f4eea0f71e9513f5fa0ef26e8ab22cedfda0622f26aaa2af49f9b17f5dd10c4.json",
   "stage": "review1",
   "stage_budget": {
@@ -138,7 +175,7 @@
     "total_reserved_usd": 0.08694,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "4bb76720c8a52c6eb0871b56c7e913858bb1a8a4a3f88d22ccdbf033f3fb4af1",
   "translation_model_actual": "gpt-6-luna"

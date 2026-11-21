@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "32845d6c-0763-4780-8357-95939d0b2402",
+    "response_id": "chatcmpl-EmeZuV1GyEIyc5KlZiQGuOdI4Mqlt",
+    "usage": {
+      "completion_tokens": 832,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 664,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3394,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2291,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 4226
+    }
+  },
+  "received_at": "2026-11-21T17:00:39+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, paragraph beginning “Não desejo nada além...”",
+        "severity": "minor",
+        "source_quote": "“The Lord is my Shepherd. I fear no want.”",
+        "suggested_fix": "“O Senhor é meu Pastor. Não sentirei falta de nada.”",
+        "translation_quote": "“O Senhor é meu Pastor. Não temo necessidade alguma.”"
+      },
+      {
+        "location": "Subtitle",
+        "severity": "minor",
+        "source_quote": "(Fresh from the Welch Revival of 1904)",
+        "suggested_fix": "(Direto do Avivamento Galês de 1904)",
+        "translation_quote": "(Recém-chegado do Avivamento Galês de 1904)"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}

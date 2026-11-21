@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraph beginning “Não desejo nada além...”",
+      "severity": "minor",
+      "source_quote": "“The Lord is my Shepherd. I fear no want.”",
+      "suggested_fix": "“O Senhor é meu Pastor. Não sentirei falta de nada.”",
+      "translation_quote": "“O Senhor é meu Pastor. Não temo necessidade alguma.”"
+    },
+    {
+      "location": "Subtitle",
+      "severity": "minor",
+      "source_quote": "(Fresh from the Welch Revival of 1904)",
+      "suggested_fix": "(Direto do Avivamento Galês de 1904)",
+      "translation_quote": "(Recém-chegado do Avivamento Galês de 1904)"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}
