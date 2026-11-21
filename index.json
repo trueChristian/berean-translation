@@ -31059,6 +31059,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ell/articles/86459f54-72b0-4be2-a101-02b3c9462f6c.html",
+      "html_sha256": "973fe132352bb3e1b0427bdbb5b8d65706b4cb707c8975e9ce629fd2f6831a1b",
+      "human_reviewed": false,
+      "id": "86459f54-72b0-4be2-a101-02b3c9462f6c",
+      "images": [
+        {
+          "alt": "Πλήκτρα πιάνου δίπλα σε ανοιχτές παρτιτούρες",
+          "public_path": "/images/articles/86459f54-72b0-4be2-a101-02b3c9462f6c-1.jpg"
+        }
+      ],
+      "issue_id": "6e9cf4e6-6ef1-561b-bb76-7115af85e763",
+      "language": "ell",
+      "language_tag": "el",
+      "metadata": "content/ell/articles/86459f54-72b0-4be2-a101-02b3c9462f6c.json",
+      "metadata_sha256": "139e91ccf21f1af530664c1733c9686d5098faa85ccf036e4186225039ff209f",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "ΕΜΠΝΕΥΣΕΙΣ ΓΙΑ ΤΟΥΣ ΝΕΟΥΣ",
+      "source_revision": "a069ecca8827634ebc256b3b1cabc16aeb942ed7",
+      "source_translation_key": "65790b7f3f0557bbd4601849b5efe70a6391326d0f3933cef69b6e6d8bb48d72",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Τι είναι σωστό στη μουσική μου;",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ell/articles/8a3dfa09-f40f-4615-8f83-59a8fccb1a2f.html",
       "html_sha256": "f8ae7b25981aa8672e826810aca15cddf569c30b210b7c0cb597c54e42384e0c",
       "human_reviewed": false,
