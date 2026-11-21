@@ -19896,6 +19896,42 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/cmn/articles/8389d62e-1ba0-47de-bf13-29a71ffa204c.html",
+      "html_sha256": "0cd3bb7a50b88f512dff310c0fb4d730b24365fe5cfde7ca64b6206ec9c2563b",
+      "human_reviewed": false,
+      "id": "8389d62e-1ba0-47de-bf13-29a71ffa204c",
+      "images": [
+        {
+          "alt": "三位身着长袍的人眺望着一片风景",
+          "public_path": "/images/articles/8389d62e-1ba0-47de-bf13-29a71ffa204c-1.png"
+        },
+        {
+          "alt": "丹尼和杰基·肯纳斯顿与他们的家人",
+          "public_path": "/images/articles/8389d62e-1ba0-47de-bf13-29a71ffa204c-2.jpg"
+        },
+        {
+          "alt": "一家人围坐在桌旁，一个男人正在读书给他们听",
+          "public_path": "/images/articles/8389d62e-1ba0-47de-bf13-29a71ffa204c-3.png"
+        }
+      ],
+      "issue_id": "14962b7b-2d94-5b43-a4c6-bbb78f074d1a",
+      "language": "cmn",
+      "language_tag": "zh-Hans",
+      "metadata": "content/cmn/articles/8389d62e-1ba0-47de-bf13-29a71ffa204c.json",
+      "metadata_sha256": "a2a61b4737c32337a9fa5aaf4b8ea7644f3c89adbf29107d2c8af04aba7d29af",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": null,
+      "source_revision": "ccefc5a5c3d79409cc78319f94b5490718d30670",
+      "source_translation_key": "185b97cda696ff5f8dd7eedb4b0e07b692951558ceb527409cc25fd72f4c7bf1",
+      "status": "ready",
+      "subtitle": null,
+      "title": "激励我们家庭的异象",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/cmn/articles/85306410-6a2d-46f1-b6db-6d3450f7f908.html",
       "html_sha256": "d6b5d689f6d117ec44caaefa1b1a3a09ee533296610c76f914e471fc8adb7c0b",
       "human_reviewed": false,
