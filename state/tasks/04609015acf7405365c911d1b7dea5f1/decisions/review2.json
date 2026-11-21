@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Заключительная молитва",
+      "severity": "minor",
+      "source_quote": "I want to move into the rest of this book with an open face before you.",
+      "suggested_fix": "Я хочу продолжить чтение этой книги, предстоя перед Тобой с открытым сердцем.",
+      "translation_quote": "Я хочу продолжить чтение этой книги с открытым лицом перед Тобой."
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

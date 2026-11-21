@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-21T01:28:17+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Заключительная молитва\",\"severity\":\"minor\",\"source_quote\":\"I want to move into the rest of this book with an open face before you.\",\"suggested_fix\":\"Я хочу продолжить чтение этой книги, предстоя перед Тобой с открытым сердцем.\",\"translation_quote\":\"Я хочу продолжить чтение этой книги с открытым лицом перед Тобой.\"}],\"findings_complete\":true,\"passed\":true,\"score\":99}",
+    "content_bytes": 533,
+    "content_evidence_truncated": false,
+    "content_sha256": "c28ea1faf61b46e6bf7966c3fa579fc395f66de14d006c482fc55543c98fffa2",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 831,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 713,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7765,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6662,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 8596
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

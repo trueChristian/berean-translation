@@ -88733,6 +88733,42 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/rus/articles/8389d62e-1ba0-47de-bf13-29a71ffa204c.html",
+      "html_sha256": "aa106df58bcbf6db3b4c2a8003be5ed3466afede499ed231d38ccfeec4080522",
+      "human_reviewed": false,
+      "id": "8389d62e-1ba0-47de-bf13-29a71ffa204c",
+      "images": [
+        {
+          "alt": "Три фигуры в одеждах, смотрящие на пейзаж",
+          "public_path": "/images/articles/8389d62e-1ba0-47de-bf13-29a71ffa204c-1.png"
+        },
+        {
+          "alt": "Денни и Джеки Кенастон со своей семьёй",
+          "public_path": "/images/articles/8389d62e-1ba0-47de-bf13-29a71ffa204c-2.jpg"
+        },
+        {
+          "alt": "Семья собралась за столом, пока мужчина читает им",
+          "public_path": "/images/articles/8389d62e-1ba0-47de-bf13-29a71ffa204c-3.png"
+        }
+      ],
+      "issue_id": "14962b7b-2d94-5b43-a4c6-bbb78f074d1a",
+      "language": "rus",
+      "language_tag": "ru",
+      "metadata": "content/rus/articles/8389d62e-1ba0-47de-bf13-29a71ffa204c.json",
+      "metadata_sha256": "f1ba9dd12c10c1c16ac4ec7fbb91b5319127252f8ec7bcd4b79df84f34cb0bd7",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "ccefc5a5c3d79409cc78319f94b5490718d30670",
+      "source_translation_key": "185b97cda696ff5f8dd7eedb4b0e07b692951558ceb527409cc25fd72f4c7bf1",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Побуждающее видение для наших семей",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/rus/articles/85306410-6a2d-46f1-b6db-6d3450f7f908.html",
       "html_sha256": "2d2ddaa555751414f1141fc2dbdf0aef4c3b519264e520637be899cb7c719ccd",
       "human_reviewed": false,

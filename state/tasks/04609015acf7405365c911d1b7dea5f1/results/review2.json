@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "915d93ce-9fdf-490d-97e2-a51e0b275246",
+    "response_id": "chatcmpl-EmQEv7zukut0x3QuqlIPITUpE5Kbu",
+    "usage": {
+      "completion_tokens": 831,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 713,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7765,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6662,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 8596
+    }
+  },
+  "received_at": "2026-11-21T01:28:17+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Заключительная молитва",
+        "severity": "minor",
+        "source_quote": "I want to move into the rest of this book with an open face before you.",
+        "suggested_fix": "Я хочу продолжить чтение этой книги, предстоя перед Тобой с открытым сердцем.",
+        "translation_quote": "Я хочу продолжить чтение этой книги с открытым лицом перед Тобой."
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 99
+  }
+}
