@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-21T09:44:46+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, paragraph beginning « On m’a interrogé sur mes méthodes »\",\"severity\":\"minor\",\"source_quote\":\"I am only one agent in what is growing to be a multitude.\",\"suggested_fix\":\"Je ne suis qu’un agent parmi ceux qui deviennent de plus en plus nombreux.\",\"translation_quote\":\"Je ne suis qu’un parmi les nombreux agents de ce qui prend de l’ampleur.\"},{\"location\":\"HTML, final paragraph\",\"severity\":\"minor\",\"source_quote\":\"“peace, good will toward men,”\",\"suggested_fix\":\"« paix et bienveillance envers les hommes »\",\"translation_quote\":\"« paix et de bienveillance envers les hommes »\"}],\"findings_complete\":true,\"passed\":true,\"score\":97}",
+    "content_bytes": 680,
+    "content_evidence_truncated": false,
+    "content_sha256": "4e8fd4a49e169f951eb08e8b2b8b62a32f881442328e4f45ff37dafd1c1bddc2",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 806,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 635,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3506,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3503,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4312
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

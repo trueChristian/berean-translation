@@ -34279,6 +34279,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/fra/articles/14a35072-cac9-42df-a3ca-1f7db446d968.html",
+      "html_sha256": "0577b0b73b90f69180ddbfca9387d47ea8f42b89d256045404b8e199cbdea3ce",
+      "human_reviewed": false,
+      "id": "14a35072-cac9-42df-a3ca-1f7db446d968",
+      "images": [
+        {
+          "alt": "Une carte du monde pâle, en niveaux de gris, sur une grille ovale",
+          "public_path": "/images/articles/14a35072-cac9-42df-a3ca-1f7db446d968-1.jpg"
+        },
+        {
+          "alt": "Un homme assis à un bureau, lisant un livre ouvert",
+          "public_path": "/images/articles/14a35072-cac9-42df-a3ca-1f7db446d968-2.jpg"
+        }
+      ],
+      "issue_id": "14962b7b-2d94-5b43-a4c6-bbb78f074d1a",
+      "language": "fra",
+      "language_tag": "fr",
+      "metadata": "content/fra/articles/14a35072-cac9-42df-a3ca-1f7db446d968.json",
+      "metadata_sha256": "2c6c3eaf58e9a0a9bc3a89ae6b2a3d6e88f4d4b3f333cfa35613cbc987943d89",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "ccefc5a5c3d79409cc78319f94b5490718d30670",
+      "source_translation_key": "4bb76720c8a52c6eb0871b56c7e913858bb1a8a4a3f88d22ccdbf033f3fb4af1",
+      "status": "ready",
+      "subtitle": "(Tout juste après le réveil gallois de 1904)",
+      "title": "Un message au monde",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/fra/articles/15567d7e-1146-48d9-9b34-a0f770ca06fc.html",
       "html_sha256": "5f27eabb47a0e9993f62d398a16033a66b7be0c125c4ef905da323777f0de3a8",
       "human_reviewed": false,

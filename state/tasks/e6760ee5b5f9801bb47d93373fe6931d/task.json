@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "12fe5846dacf443a981b2ce252037aa7",
   "campaign": "auto-5f7a78672f0442fd0a351c95052a65e49154a5cd45fe31422e977b0972d80b44",
   "created_at": "2026-11-20T20:53:49+00:00",
   "events": [
@@ -28,10 +27,46 @@
         },
         "total_tokens": 3301
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 806,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 635,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3506,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 3503,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4312
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "HTML, paragraph beginning « On m’a interrogé sur mes méthodes »",
+      "severity": "minor",
+      "source_quote": "I am only one agent in what is growing to be a multitude.",
+      "suggested_fix": "Je ne suis qu’un agent parmi ceux qui deviennent de plus en plus nombreux.",
+      "translation_quote": "Je ne suis qu’un parmi les nombreux agents de ce qui prend de l’ampleur."
+    },
+    {
+      "location": "HTML, final paragraph",
+      "severity": "minor",
+      "source_quote": "“peace, good will toward men,”",
+      "suggested_fix": "« paix et bienveillance envers les hommes »",
+      "translation_quote": "« paix et de bienveillance envers les hommes »"
+    }
+  ],
+  "finished_at": "2026-11-21T09:44:46+00:00",
   "id": "e6760ee5b5f9801bb47d93373fe6931d",
   "issue_id": "14962b7b-2d94-5b43-a4c6-bbb78f074d1a",
   "language": "fra",
@@ -120,9 +155,11 @@
     }
   },
   "protected": false,
+  "quality_score": 97,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/3f4eea0f71e9513f5fa0ef26e8ab22cedfda0622f26aaa2af49f9b17f5dd10c4.json",
   "stage": "review1",
   "stage_budget": {
@@ -138,7 +175,7 @@
     "total_reserved_usd": 0.086926,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "4bb76720c8a52c6eb0871b56c7e913858bb1a8a4a3f88d22ccdbf033f3fb4af1",
   "translation_model_actual": "gpt-6-luna"

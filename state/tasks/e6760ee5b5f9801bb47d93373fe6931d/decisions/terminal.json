@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraph beginning « On m’a interrogé sur mes méthodes »",
+      "severity": "minor",
+      "source_quote": "I am only one agent in what is growing to be a multitude.",
+      "suggested_fix": "Je ne suis qu’un agent parmi ceux qui deviennent de plus en plus nombreux.",
+      "translation_quote": "Je ne suis qu’un parmi les nombreux agents de ce qui prend de l’ampleur."
+    },
+    {
+      "location": "HTML, final paragraph",
+      "severity": "minor",
+      "source_quote": "“peace, good will toward men,”",
+      "suggested_fix": "« paix et bienveillance envers les hommes »",
+      "translation_quote": "« paix et de bienveillance envers les hommes »"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}
