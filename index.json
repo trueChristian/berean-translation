@@ -111431,6 +111431,42 @@
     {
       "ai_notice_required": true,
       "direction": "rtl",
+      "html": "content/urd/articles/8389d62e-1ba0-47de-bf13-29a71ffa204c.html",
+      "html_sha256": "085fc9af266e5abd45bce123aec7e0e9d88eb753086ed31baa19e2142405561b",
+      "human_reviewed": false,
+      "id": "8389d62e-1ba0-47de-bf13-29a71ffa204c",
+      "images": [
+        {
+          "alt": "عباؤں میں ملبوس تین شخص ایک منظر کے پار دیکھ رہے ہیں",
+          "public_path": "/images/articles/8389d62e-1ba0-47de-bf13-29a71ffa204c-1.png"
+        },
+        {
+          "alt": "ڈینی اور جیکی کیناسٹن اپنے خاندان کے ساتھ",
+          "public_path": "/images/articles/8389d62e-1ba0-47de-bf13-29a71ffa204c-2.jpg"
+        },
+        {
+          "alt": "ایک خاندان میز کے گرد جمع ہے جبکہ ایک آدمی انہیں پڑھ کر سنا رہا ہے",
+          "public_path": "/images/articles/8389d62e-1ba0-47de-bf13-29a71ffa204c-3.png"
+        }
+      ],
+      "issue_id": "14962b7b-2d94-5b43-a4c6-bbb78f074d1a",
+      "language": "urd",
+      "language_tag": "ur",
+      "metadata": "content/urd/articles/8389d62e-1ba0-47de-bf13-29a71ffa204c.json",
+      "metadata_sha256": "311269776aff9251b2a0e60ce3815a0a2ab9cfc1ae38d92d6eab64f6a7bbf694",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "ccefc5a5c3d79409cc78319f94b5490718d30670",
+      "source_translation_key": "185b97cda696ff5f8dd7eedb4b0e07b692951558ceb527409cc25fd72f4c7bf1",
+      "status": "ready",
+      "subtitle": null,
+      "title": "ہمارے گھروں کے لیے ایک محرک رویا",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
       "html": "content/urd/articles/85306410-6a2d-46f1-b6db-6d3450f7f908.html",
       "html_sha256": "3787152678563096f9fbd5b6bb45d802b945906ec112d29dd32fdf61abb7d601",
       "human_reviewed": false,
