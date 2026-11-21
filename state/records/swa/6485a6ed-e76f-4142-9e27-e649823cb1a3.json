@@ -12,9 +12,16 @@
       "event": "not_ready",
       "reason": "Missing, ambiguous, or truncated model response",
       "task": "d3d64dc4ea09a957d5c35b66cf85af73"
+    },
+    {
+      "at": "2026-11-21T10:15:12+00:00",
+      "campaign": "auto-e4187d762229402ec1638c14f33f41cf4ea58395780bbc0370ca3095fb61b464",
+      "event": "automatic_requested",
+      "previous_task": "d3d64dc4ea09a957d5c35b66cf85af73",
+      "task": "381af47a1027c4e77d871c42642e6b97"
     }
   ],
   "language": "swa",
-  "latest_task": "d3d64dc4ea09a957d5c35b66cf85af73",
+  "latest_task": "381af47a1027c4e77d871c42642e6b97",
   "published": null
 }
