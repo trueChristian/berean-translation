@@ -3273,6 +3273,42 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/afr/articles/8389d62e-1ba0-47de-bf13-29a71ffa204c.html",
+      "html_sha256": "117a2bc54cb5dea4d2b2077cb9d65e731cd8a83b7d5e9e0865fec2761f0d07f0",
+      "human_reviewed": false,
+      "id": "8389d62e-1ba0-47de-bf13-29a71ffa204c",
+      "images": [
+        {
+          "alt": "Drie figure in gewade wat oor ’n landskap uitkyk",
+          "public_path": "/images/articles/8389d62e-1ba0-47de-bf13-29a71ffa204c-1.png"
+        },
+        {
+          "alt": "Denny en Jackie Kenaston saam met hul gesin",
+          "public_path": "/images/articles/8389d62e-1ba0-47de-bf13-29a71ffa204c-2.jpg"
+        },
+        {
+          "alt": "’n Gesin sit om ’n tafel terwyl ’n man vir hulle voorlees",
+          "public_path": "/images/articles/8389d62e-1ba0-47de-bf13-29a71ffa204c-3.png"
+        }
+      ],
+      "issue_id": "14962b7b-2d94-5b43-a4c6-bbb78f074d1a",
+      "language": "afr",
+      "language_tag": "af",
+      "metadata": "content/afr/articles/8389d62e-1ba0-47de-bf13-29a71ffa204c.json",
+      "metadata_sha256": "51cca68cf928961316c3c7e446350a17933ea6c3196cb6ab1b3f5a123fc77039",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "ccefc5a5c3d79409cc78319f94b5490718d30670",
+      "source_translation_key": "185b97cda696ff5f8dd7eedb4b0e07b692951558ceb527409cc25fd72f4c7bf1",
+      "status": "ready",
+      "subtitle": null,
+      "title": "’n Motiverende visioen vir ons huise",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/afr/articles/85306410-6a2d-46f1-b6db-6d3450f7f908.html",
       "html_sha256": "70cd736da7307ff0a6659a6bea651dced66f619e4cd0e45098afa6ef8fa8832c",
       "human_reviewed": false,
