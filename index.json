@@ -56584,6 +56584,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ita/articles/08c717e6-5c69-433c-b04d-ab1957c20eb9.html",
+      "html_sha256": "31a8f6bcddfa4d570ae90de582cca7ef23716be5918d9ad98bb725afb6429153",
+      "human_reviewed": false,
+      "id": "08c717e6-5c69-433c-b04d-ab1957c20eb9",
+      "images": [
+        {
+          "alt": "Daniele inginocchiato in preghiera davanti a una finestra aperta, mentre alcuni uomini osservano",
+          "public_path": "/images/articles/08c717e6-5c69-433c-b04d-ab1957c20eb9-1.jpg"
+        }
+      ],
+      "issue_id": "7024063a-5783-5744-8055-7b12fee04019",
+      "language": "ita",
+      "language_tag": "it",
+      "metadata": "content/ita/articles/08c717e6-5c69-433c-b04d-ab1957c20eb9.json",
+      "metadata_sha256": "65137170476fcc2e0a8b292d892c4f4c5f28869bb04b0fdaceb3840ba29628ac",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "FEDELE PERSEVERANZA",
+      "source_revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+      "source_translation_key": "492a7136bb14c9d906d405dd4c072887c20473937cfd31abe18443347c5a2103",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Un uomo sulla breccia",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ita/articles/095ed998-d5e3-49fb-a63f-a2e4c434c1aa.html",
       "html_sha256": "e532e8531227742f05d015f4d7f7a1addb8867a1783defa3994b7e4b30650c97",
       "human_reviewed": false,
