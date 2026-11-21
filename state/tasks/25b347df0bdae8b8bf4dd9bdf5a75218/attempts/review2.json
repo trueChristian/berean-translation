@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-21T23:24:50+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, paragraph 2\",\"severity\":\"major\",\"source_quote\":\"There is no question of creed or of dogma in this movement.\",\"suggested_fix\":\"Det handlar inte om trosbekännelse eller dogmer i denna rörelse.\",\"translation_quote\":\"Det finns inga frågor om trosbekännelse eller dogmer i denna rörelse.\"},{\"location\":\"HTML, final paragraph\",\"severity\":\"major\",\"source_quote\":\"“peace, good will toward men,”\",\"suggested_fix\":\"”frid på jorden och välvilja mot människor”\",\"translation_quote\":\"”frid på jorden, och till människor ett gott behag”\"}],\"findings_complete\":true,\"passed\":false,\"score\":91}",
+    "content_bytes": 631,
+    "content_evidence_truncated": false,
+    "content_sha256": "3c1377a2aef68b32d9c8a82bebf265c7ea9ca605f98f6816b2b67e13375c5588",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 787,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 618,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3508,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2405,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 4295
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

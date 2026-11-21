@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "a3959c90411f46ab97ad147fac37aaae",
   "campaign": "auto-3ab16627d1c033ab8dafecb30cd061e0516822ece48ef40ce7e8d1fc20d57938",
   "created_at": "2026-11-21T09:46:25+00:00",
   "events": [
@@ -68,18 +67,47 @@
         },
         "total_tokens": 4779
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 787,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 618,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3508,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 2405,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 4295
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; a recovery continuation must pass admission",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
-      "location": "Subtitle",
+      "location": "HTML, paragraph 2",
       "severity": "major",
-      "source_quote": "(Fresh from the Welch Revival of 1904)",
-      "suggested_fix": "(Direkt från den walesiska väckelsen 1904)",
-      "translation_quote": "(Nyskrivet efter den walesiska väckelsen 1904)"
+      "source_quote": "There is no question of creed or of dogma in this movement.",
+      "suggested_fix": "Det handlar inte om trosbekännelse eller dogmer i denna rörelse.",
+      "translation_quote": "Det finns inga frågor om trosbekännelse eller dogmer i denna rörelse."
+    },
+    {
+      "location": "HTML, final paragraph",
+      "severity": "major",
+      "source_quote": "“peace, good will toward men,”",
+      "suggested_fix": "”frid på jorden och välvilja mot människor”",
+      "translation_quote": "”frid på jorden, och till människor ett gott behag”"
     }
   ],
+  "finished_at": "2026-11-21T23:24:50+00:00",
   "id": "25b347df0bdae8b8bf4dd9bdf5a75218",
   "issue_id": "14962b7b-2d94-5b43-a4c6-bbb78f074d1a",
   "language": "swe",
@@ -168,7 +196,7 @@
     }
   },
   "protected": false,
-  "quality_score": 94,
+  "quality_score": 91,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
@@ -188,7 +216,7 @@
     "total_reserved_usd": 0.086923,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "4bb76720c8a52c6eb0871b56c7e913858bb1a8a4a3f88d22ccdbf033f3fb4af1",
   "translation_model_actual": "gpt-6-luna"
