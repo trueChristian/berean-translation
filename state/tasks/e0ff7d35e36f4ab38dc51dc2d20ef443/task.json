@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "5e6c02496a9a41579acd6f2ba0c2f6ff",
   "campaign": "auto-3c59330beeff9f0221583d3a09a3d4a24c39e289b617158c4703eedf0ef9a298",
   "created_at": "2026-11-21T17:06:03+00:00",
   "events": [
@@ -48,18 +47,39 @@
         },
         "total_tokens": 10605
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 658,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 493,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7281,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 6178,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 7939
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "HTML/metadata contract",
-      "severity": "critical",
-      "source_quote": "",
-      "suggested_fix": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[78]: source /article[1]/p[16]/em[1]/u[1] ('start', 'u', ()); translation /article[1]/p[16]/em[1] ('end', 'em')",
-      "translation_quote": ""
+      "location": "Párrafo con Salmo 40:16, Salmo 90:14 e Isaías 12:3",
+      "severity": "minor",
+      "source_quote": "“O satisfy us early with thy mercy; that we may rejoice and be glad all our days.”",
+      "suggested_fix": "«Sácianos de mañana con tu misericordia, para que nos alegremos y regocijemos todos nuestros días» (o una formulación equivalente que no añada la idea de cantar).",
+      "translation_quote": "«Sácianos de mañana con tu misericordia, y cantaremos y nos alegraremos y gozaremos todos nuestros días»"
     }
   ],
+  "finished_at": "2026-11-21T23:24:53+00:00",
   "id": "e0ff7d35e36f4ab38dc51dc2d20ef443",
   "issue_id": "14962b7b-2d94-5b43-a4c6-bbb78f074d1a",
   "language": "spa",
@@ -148,9 +168,11 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/0b11e974f5f2f9ecf44763d5d2c37b55d2b48a4b00d9d3025f375656efffc92b.json",
   "stage": "review2",
   "stage_budget": {
@@ -166,7 +188,7 @@
     "total_reserved_usd": 0.089195,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "62bd3b8d5120818defff7fd66e6ca15022624bbed7e6fe7b6efb17cae98a6e3d",
   "translation_model_actual": "gpt-6-luna"

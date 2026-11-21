@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "1c809959-6632-4a5d-81e2-60a7ade4c6d6",
+    "response_id": "chatcmpl-Emoe3ZOGG2skZEgBMv68D0uyuDI9J",
+    "usage": {
+      "completion_tokens": 658,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 493,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7281,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6178,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 7939
+    }
+  },
+  "received_at": "2026-11-21T23:24:53+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Párrafo con Salmo 40:16, Salmo 90:14 e Isaías 12:3",
+        "severity": "minor",
+        "source_quote": "“O satisfy us early with thy mercy; that we may rejoice and be glad all our days.”",
+        "suggested_fix": "«Sácianos de mañana con tu misericordia, para que nos alegremos y regocijemos todos nuestros días» (o una formulación equivalente que no añada la idea de cantar).",
+        "translation_quote": "«Sácianos de mañana con tu misericordia, y cantaremos y nos alegraremos y gozaremos todos nuestros días»"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}
