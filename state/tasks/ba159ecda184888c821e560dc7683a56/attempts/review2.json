@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-21T09:44:22+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph on Joel and Pentecost\",\"severity\":\"major\",\"source_quote\":\"“On that day, 3,120 people were filled with the promise of the Father.”\",\"suggested_fix\":\"“Siku hiyo, watu 120 walijazwa ahadi ya Baba.”\",\"translation_quote\":\"“Siku hiyo, watu 3,120 walijazwa ahadi ya Baba.”\"}],\"findings_complete\":true,\"passed\":false,\"score\":89}",
+    "content_bytes": 368,
+    "content_evidence_truncated": false,
+    "content_sha256": "f67022cd09678bc079712938c5309f6f092e4ee9eea103d65644fcbd92839100",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 106,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8001,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7998,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8107
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

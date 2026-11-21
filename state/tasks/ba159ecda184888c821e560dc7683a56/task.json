@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "6d4f4bbd012546c49d8e6dd8e8a69c97",
   "campaign": "auto-442c9a1b9698d11b82f9291eb856a123dc9b5752f1398d77beb9f4edad7df6a6",
   "created_at": "2026-11-19T23:43:02+00:00",
   "events": [
@@ -68,25 +67,40 @@
         },
         "total_tokens": 11667
       }
-    }
-  ],
-  "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "Paragraph beginning “Katika siku za mwisho za mtume Yohana”",
-      "severity": "major",
-      "source_quote": "“Christ sent a message to the church at Laodicea, through him.”",
-      "suggested_fix": "Replace the sentence opening with: “Katika siku za mwisho za mtume Yohana, Kristo alituma ujumbe kwa kanisa la Laodikia kupitia kwake.”",
-      "translation_quote": "“Kristo alimtumia ujumbe kwa ajili ya kanisa la Laodikia.”"
     },
     {
-      "location": "Final prayer, sentence beginning “Nataka kuendelea kusoma”",
-      "severity": "minor",
-      "source_quote": "“I want to move into the rest of this book with an open face before you.”",
-      "suggested_fix": "Use “Nataka kuendelea na sehemu iliyobaki ya kitabu hiki nikiwa na uso usiofunikwa mbele zako.”",
-      "translation_quote": "“Nataka kuendelea kusoma kitabu hiki nikiwa na uso ulio wazi mbele zako.”"
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 106,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8001,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 7998,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8107
+      }
     }
   ],
+  "failure": "Final review failed; a recovery continuation must pass admission",
+  "failure_kind": "quality_rejection",
+  "findings": [
+    {
+      "location": "Paragraph on Joel and Pentecost",
+      "severity": "major",
+      "source_quote": "“On that day, 3,120 people were filled with the promise of the Father.”",
+      "suggested_fix": "“Siku hiyo, watu 120 walijazwa ahadi ya Baba.”",
+      "translation_quote": "“Siku hiyo, watu 3,120 walijazwa ahadi ya Baba.”"
+    }
+  ],
+  "finished_at": "2026-11-21T09:44:22+00:00",
   "id": "ba159ecda184888c821e560dc7683a56",
   "issue_id": "14962b7b-2d94-5b43-a4c6-bbb78f074d1a",
   "language": "swa",
@@ -175,7 +189,7 @@
     }
   },
   "protected": false,
-  "quality_score": 94,
+  "quality_score": 89,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
@@ -195,7 +209,7 @@
     "total_reserved_usd": 0.08951,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "185b97cda696ff5f8dd7eedb4b0e07b692951558ceb527409cc25fd72f4c7bf1",
   "translation_model_actual": "gpt-6-luna"
