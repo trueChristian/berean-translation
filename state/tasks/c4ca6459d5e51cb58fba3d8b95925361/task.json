@@ -5,11 +5,180 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "f79104cf73f545b3bb458de91c0c5163",
   "campaign": "auto-79703c742ba94f809dbaf01e89c8cb2e0539bad226610d43ec8c5619ef5d8684",
   "created_at": "2026-11-21T01:47:47+00:00",
-  "events": [],
-  "findings": [],
+  "events": [
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 2373,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 34,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9067,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 9064,
+          "cached_tokens": 0
+        },
+        "total_tokens": 11440
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "html, opening dialogue, paragraph 4",
+      "severity": "major",
+      "source_quote": "I shook my head. “I think we are doing the best we can,”",
+      "suggested_fix": "Badilisha kuwa: “Nikat ikisa kichwa kuonyesha kutokubaliana. ‘Nadhani tunafanya kadiri tuwezavyo,’” ukitumia “Nikatikisa” kama neno moja.",
+      "translation_quote": "Nikakubali kwa kichwa. “Nadhani tunafanya kile tulichoweza,”"
+    },
+    {
+      "location": "html, paragraph on copying DNA",
+      "severity": "major",
+      "source_quote": "Every time our cells divide, they copy their DNA into the daughter cells.",
+      "suggested_fix": "Badilisha sentensi kuwa: “Kila wakati seli zetu zinapogawanyika, hunakili DNA yao na kuipitisha kwa seli zinazotokana nazo.”",
+      "translation_quote": "Kila wakati seli zetu zinapozaa, zinakopa DNA yao hadi kwa seli bintiye."
+    },
+    {
+      "location": "html, paragraph defining cancer-cell behavior",
+      "severity": "major",
+      "source_quote": "they no longer have a limited life span ... they begin to encroach on surrounding tissues",
+      "suggested_fix": "Tumia “hazina tena kikomo cha muda wa kuishi” na “huanza kuvamia tishu zinazozizunguka” katika sehemu husika.",
+      "translation_quote": "hawawezi tena kuishi kwa muda uliokadiriwa ... huanza kuingiza tishu zinazozunguka"
+    },
+    {
+      "location": "html, paragraphs under Causes of Mutations and Environmental Factors",
+      "severity": "major",
+      "source_quote": "before the flood; before the flood; around the time of the flood; after the flood",
+      "suggested_fix": "Katika maeneo yote manne, badilisha “kabla ya safina”, “wakati wa safina”, na “baada ya safina” kuwa “kabla ya gharika”, “wakati wa gharika”, na “baada ya gharika” mtawalia.",
+      "translation_quote": "kabla ya safina; kabla ya safina; karibu na wakati wa safina; baada ya safina"
+    },
+    {
+      "location": "html, Environmental Factors, opening paragraph",
+      "severity": "major",
+      "source_quote": "something must have happened around the time of the flood that increased the rate of mutations",
+      "suggested_fix": "Badilisha sentensi kuwa: “Zaidi ya hayo, lazima kuwe na jambo lililotokea karibu na wakati wa gharika ambalo liliongeza kasi ya kutokea kwa mabadiliko ya jeni.”",
+      "translation_quote": "kitu fulani kilitokea karibu na wakati wa safina kiliongeza kiwango cha mabadiliko ya jeni"
+    },
+    {
+      "location": "html, paragraph on occupational and therapeutic radiation",
+      "severity": "major",
+      "source_quote": "it is possible that you have been exposed to much higher levels of radiation than the general public",
+      "suggested_fix": "Badilisha kishazi kuwa: “inawezekana umepata mfiduo wa viwango vya mionzi vilivyo juu zaidi kuliko watu kwa ujumla.”",
+      "translation_quote": "inawezekana umeonyesha viwango vya juu vya mionzi kuliko umma kwa ujumla"
+    },
+    {
+      "location": "html, Unhealthy Foods",
+      "severity": "major",
+      "source_quote": "Nitrites are typically present in smoked and cured meats.",
+      "suggested_fix": "Badilisha kuwa: “Nitriti kwa kawaida hupatikana katika nyama zilizofukizwa moshi na nyama zilizohifadhiwa kwa chumvi au kemikali za kuhifadhia.”",
+      "translation_quote": "Nitriti kawaida hupatikana katika nyama iliyochomwa na kusagwa."
+    },
+    {
+      "location": "html, Certain Prior Diseases, second paragraph",
+      "severity": "major",
+      "source_quote": "it simply increases the risk",
+      "suggested_fix": "Badilisha “inaboresha tu hatari” kuwa “huongeza tu hatari”.",
+      "translation_quote": "inaboresha tu hatari"
+    },
+    {
+      "location": "html, ideal screening-test paragraph",
+      "severity": "major",
+      "source_quote": "everyone who tests positive with the test will have cancer ... minimally invasive",
+      "suggested_fix": "Badilisha “ataweza kuwa na saratani” kuwa “atakuwa na saratani” na “kisichovunja mwili” kuwa “kinachohitaji kuingilia mwili kwa kiwango kidogo tu”.",
+      "translation_quote": "kila mtu atakayepatwa chanya na kipimo ataweza kuwa na saratani ... kisichovunja mwili"
+    },
+    {
+      "location": "html, Cancer Challenges, second paragraph",
+      "severity": "major",
+      "source_quote": "we are trying to poison the cancer just a little more than the rest of our normal tissues",
+      "suggested_fix": "Badilisha sentensi kuwa: “Kimsingi, tunajaribu kuathiri saratani kwa sumu kwa kiwango kilicho juu kidogo kuliko tunavyoathiri tishu zetu nyingine za kawaida.”",
+      "translation_quote": "tunajaribu kuchoma sumu seli za saratani kidogo zaidi kuliko tishu zetu za kawaida"
+    },
+    {
+      "location": "html, Isaiah 41:10 quotation",
+      "severity": "major",
+      "source_quote": "be not dismayed ... I will strengthen thee",
+      "suggested_fix": "Badilisha “usiteseke” kuwa “usifadhaike” na “nitakujiimarisha” kuwa “nitakutia nguvu”, ukihifadhi lebo ya em na rejeo.",
+      "translation_quote": "usiteseke ... nitakujiimarisha"
+    },
+    {
+      "location": "html, paragraph following Isaiah quotation",
+      "severity": "major",
+      "source_quote": "we should fatalistically allow anything to happen that might",
+      "suggested_fix": "Badilisha “kukubali kwa kubahatisha chochote kitokee” kuwa “kuacha chochote kitokee kwa mtazamo kwamba hatuwezi kubadili yatakayotokea”.",
+      "translation_quote": "tunapaswa kukubali kwa kubahatisha chochote kitokee"
+    },
+    {
+      "location": "html, Matthew 6:31-34 quotation",
+      "severity": "major",
+      "source_quote": "For after all these things do the Gentiles seek",
+      "suggested_fix": "Badilisha mabano kuwa: “(Kwa maana watu wa mataifa huyatafuta mambo haya yote:)”. “Huyafuatilia” pia inaweza kutumika badala ya “huyatafuta”.",
+      "translation_quote": "(Kwa maana yote haya mataifa ya dunia yanafutilia)"
+    },
+    {
+      "location": "section",
+      "severity": "minor",
+      "source_quote": "A Word From A Doctor",
+      "suggested_fix": "Tafsiri sehemu kuwa “Neno Kutoka kwa Daktari”.",
+      "translation_quote": "A Word From A Doctor"
+    },
+    {
+      "location": "html, opening dialogue, paragraph 2",
+      "severity": "minor",
+      "source_quote": "I shrugged.",
+      "suggested_fix": "Badilisha kuwa “Nikainua mabega.”",
+      "translation_quote": "Nikashangaa."
+    },
+    {
+      "location": "html, opening dialogue, paragraph 4",
+      "severity": "minor",
+      "source_quote": "we still have a long way to go",
+      "suggested_fix": "Badilisha kuwa “bado tuna safari ndefu mbele yetu”.",
+      "translation_quote": "bado tunaelekea mbali"
+    },
+    {
+      "location": "html, What is Cancer, opening paragraph",
+      "severity": "minor",
+      "source_quote": "we can trace the beginnings of cancer back to the fall of man ... God created humans perfectly",
+      "suggested_fix": "Tumia “tunaweza kufuatilia chimbuko la saratani hadi kuanguka kwa mwanadamu” na uondoe urudiaji wa “wakiwa”.",
+      "translation_quote": "tunaweza kufuatilia Mwanzo wa saratani nyuma kwa kuanguka kwa mwanadamu ... wakiwa wakiwa kamilifu"
+    },
+    {
+      "location": "html, apoptosis paragraph",
+      "severity": "minor",
+      "source_quote": "Normal cells live for a period of time and then die. ... It makes certain",
+      "suggested_fix": "Badilisha “kisha zifa” kuwa “kisha hufa” na “Hufanya uhakika” kuwa “Huhakikisha”.",
+      "translation_quote": "Seli za kawaida huishi kwa kipindi fulani kisha zifa. ... Hufanya uhakika"
+    },
+    {
+      "location": "html, paragraph on atomic-bomb survivors",
+      "severity": "minor",
+      "source_quote": "survivors were noted to have significant increases",
+      "suggested_fix": "Badilisha kuwa “walionusurika walibainika kuwa na ongezeko kubwa”.",
+      "translation_quote": "waliopona walionekana kuwa na kuongezeka"
+    },
+    {
+      "location": "html, Screening for Cancer, opening paragraph",
+      "severity": "minor",
+      "source_quote": "Most of them are at least a little effective at identifying cancers at an early stage.",
+      "suggested_fix": "Badilisha kuwa: “Vipimo vingi kati ya hivyo vina ufanisi angalau kwa kiasi fulani katika kugundua saratani katika hatua za mwanzo.”",
+      "translation_quote": "Kiwango kikubwa cha vipimo hivi vinafaa kidogo kupatikana saratani katika hatua za mwanzo."
+    },
+    {
+      "location": "html, Matthew 6:31-34 quotation, opening questions",
+      "severity": "minor",
+      "source_quote": "What shall we drink? or, Wherewithal shall we be clothed?",
+      "suggested_fix": "Badilisha maswali haya kuwa “Tutakunywa nini? au Tutavaa nini?”",
+      "translation_quote": "Tutakayonywa nini? au tutavali vipi?"
+    }
+  ],
   "id": "c4ca6459d5e51cb58fba3d8b95925361",
   "issue_id": "1a7070c9-fd4f-546b-a220-f267ddb8cf5f",
   "language": "swa",
@@ -98,11 +267,13 @@
     }
   },
   "protected": false,
+  "quality_score": 70,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/c359f5eb7511bee303f2540e716a2b918a181459a9c7bd95ec949a6df55470c5.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "review1",
     "max_candidate_bytes": 120000,
@@ -115,7 +286,7 @@
     "total_reserved_usd": 0.761327,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 0,
   "translation_key": "48e3cf7ce54a82130b52527f677657d3f940e34281e04d33a0d21d610cf9910a",
   "translation_model_actual": "gpt-5-mini-2025-08-07"
