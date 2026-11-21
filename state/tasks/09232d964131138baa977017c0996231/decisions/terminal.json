@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Final paragraph",
+      "severity": "minor",
+      "source_quote": "“Wonderful things have happened in Wales in a few weeks”",
+      "suggested_fix": "«За несколько недель в Уэльсе произошло много удивительного»",
+      "translation_quote": "«За несколько недель в Уэльсе произошло нечто удивительное»"
+    },
+    {
+      "location": "Final paragraph",
+      "severity": "minor",
+      "source_quote": "“negative Christians”",
+      "suggested_fix": "«христиане, ставшие безучастными»",
+      "translation_quote": "«христиане, настроенные отрицательно»"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

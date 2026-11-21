@@ -87193,6 +87193,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/rus/articles/14a35072-cac9-42df-a3ca-1f7db446d968.html",
+      "html_sha256": "93fd8587316c9554b3f8854fd7199e01c43f4167290e48c256cb7b4f7879af67",
+      "human_reviewed": false,
+      "id": "14a35072-cac9-42df-a3ca-1f7db446d968",
+      "images": [
+        {
+          "alt": "Бледная карта мира в оттенках серого, изображённая в овальной сетке",
+          "public_path": "/images/articles/14a35072-cac9-42df-a3ca-1f7db446d968-1.jpg"
+        },
+        {
+          "alt": "Мужчина сидит за столом и читает раскрытую книгу",
+          "public_path": "/images/articles/14a35072-cac9-42df-a3ca-1f7db446d968-2.jpg"
+        }
+      ],
+      "issue_id": "14962b7b-2d94-5b43-a4c6-bbb78f074d1a",
+      "language": "rus",
+      "language_tag": "ru",
+      "metadata": "content/rus/articles/14a35072-cac9-42df-a3ca-1f7db446d968.json",
+      "metadata_sha256": "336e4b4d401c93955aa83af5c91a4d1815c45d014657bc17185962adc38191e9",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "ccefc5a5c3d79409cc78319f94b5490718d30670",
+      "source_translation_key": "4bb76720c8a52c6eb0871b56c7e913858bb1a8a4a3f88d22ccdbf033f3fb4af1",
+      "status": "ready",
+      "subtitle": "(Сразу после валлийского пробуждения 1904 года)",
+      "title": "Послание миру",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/rus/articles/175280ea-7e5f-4be2-bbce-b500c0fd93cb.html",
       "html_sha256": "2f71442e899d4c2dc645eb893498aa032d52bf2f655b2fab7b18fb44301cc3c5",
       "human_reviewed": false,
