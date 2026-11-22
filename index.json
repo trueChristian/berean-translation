@@ -104120,6 +104120,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/swe/articles/14a35072-cac9-42df-a3ca-1f7db446d968.html",
+      "html_sha256": "4de1474c9d137cd3c519eb35dfb954d1a18fa6645726dd14da67dcd1b613f096",
+      "human_reviewed": false,
+      "id": "14a35072-cac9-42df-a3ca-1f7db446d968",
+      "images": [
+        {
+          "alt": "En blek världskarta i gråskala i ett ovalt rutnät",
+          "public_path": "/images/articles/14a35072-cac9-42df-a3ca-1f7db446d968-1.jpg"
+        },
+        {
+          "alt": "En man som sitter vid ett skrivbord och läser en uppslagen bok",
+          "public_path": "/images/articles/14a35072-cac9-42df-a3ca-1f7db446d968-2.jpg"
+        }
+      ],
+      "issue_id": "14962b7b-2d94-5b43-a4c6-bbb78f074d1a",
+      "language": "swe",
+      "language_tag": "sv",
+      "metadata": "content/swe/articles/14a35072-cac9-42df-a3ca-1f7db446d968.json",
+      "metadata_sha256": "5f8fb430c71ee195ab8e77d2784c611b98cd32353222d359dbbcd89851d075ca",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": null,
+      "source_revision": "ccefc5a5c3d79409cc78319f94b5490718d30670",
+      "source_translation_key": "4bb76720c8a52c6eb0871b56c7e913858bb1a8a4a3f88d22ccdbf033f3fb4af1",
+      "status": "ready",
+      "subtitle": "(Direkt från den walesiska väckelsen 1904)",
+      "title": "Ett budskap till världen",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/swe/articles/15567d7e-1146-48d9-9b34-a0f770ca06fc.html",
       "html_sha256": "9644316a30411d61af306fbb36de8bf41d1bb6f813dc0c0b5aa80c3284601274",
       "human_reviewed": false,
