@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-22T12:03:29+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Article body, paragraph beginning “Watoto wachanga walianza kuja”\",\"severity\":\"minor\",\"source_quote\":\"“But the babies were fussy, very fussy.”\",\"suggested_fix\":\"“Lakini watoto wachanga walikuwa wasumbufu sana.”\",\"translation_quote\":\"“Lakini watoto wachanga walikuwa wagomvi, wagomvi sana.”\"},{\"location\":\"Poem, line beginning “That weary look”\",\"severity\":\"minor\",\"source_quote\":\"“That weary look, the martyred air”\",\"suggested_fix\":\"“Uso huo wa kuchoka, mwonekano huo wa kujifanya mtu wa mateso”\",\"translation_quote\":\"“Huo uso wa kuchoka, ule mwonekano wa kujifanya shahidi”\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 687,
+    "content_evidence_truncated": false,
+    "content_sha256": "ad313e5ba904e355e5c3c046916279bde0b0be1bd5ba57a91ac514491f26ab0f",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1149,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 954,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7806,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7803,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8955
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review2",
+  "translation_attempts": 2
+}

@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "73b9133c-5bc8-4308-924e-03ffb6f8b004",
+    "response_id": "chatcmpl-En0SQS2uP1fKEVVEGbGTiIuJPshpu",
+    "usage": {
+      "completion_tokens": 1149,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 954,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7806,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7803,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8955
+    }
+  },
+  "received_at": "2026-11-22T12:03:29+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Article body, paragraph beginning “Watoto wachanga walianza kuja”",
+        "severity": "minor",
+        "source_quote": "“But the babies were fussy, very fussy.”",
+        "suggested_fix": "“Lakini watoto wachanga walikuwa wasumbufu sana.”",
+        "translation_quote": "“Lakini watoto wachanga walikuwa wagomvi, wagomvi sana.”"
+      },
+      {
+        "location": "Poem, line beginning “That weary look”",
+        "severity": "minor",
+        "source_quote": "“That weary look, the martyred air”",
+        "suggested_fix": "“Uso huo wa kuchoka, mwonekano huo wa kujifanya mtu wa mateso”",
+        "translation_quote": "“Huo uso wa kuchoka, ule mwonekano wa kujifanya shahidi”"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}

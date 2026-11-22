@@ -100022,6 +100022,46 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/swa/articles/304e1120-f241-4d9e-972b-c72dec82b134.html",
+      "html_sha256": "9d2c44a033f7ff3524866418f925f167682725b0402ffb3996efb525b095bc41",
+      "human_reviewed": false,
+      "id": "304e1120-f241-4d9e-972b-c72dec82b134",
+      "images": [
+        {
+          "alt": "Mama aliyeketi akiwa amembeba mtoto",
+          "public_path": "/images/articles/304e1120-f241-4d9e-972b-c72dec82b134-1.jpg"
+        },
+        {
+          "alt": "",
+          "public_path": "/images/articles/304e1120-f241-4d9e-972b-c72dec82b134-2.png"
+        },
+        {
+          "alt": "",
+          "public_path": "/images/articles/304e1120-f241-4d9e-972b-c72dec82b134-3.jpg"
+        },
+        {
+          "alt": "Nyumba kubwa kando ya kijito",
+          "public_path": "/images/articles/304e1120-f241-4d9e-972b-c72dec82b134-4.jpg"
+        }
+      ],
+      "issue_id": "14962b7b-2d94-5b43-a4c6-bbb78f074d1a",
+      "language": "swa",
+      "language_tag": "sw",
+      "metadata": "content/swa/articles/304e1120-f241-4d9e-972b-c72dec82b134.json",
+      "metadata_sha256": "5081b573bfb3d509b316a7ac16519b45d3b16a57b216ce27f03e69aaadd8cf4f",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "ccefc5a5c3d79409cc78319f94b5490718d30670",
+      "source_translation_key": "62bd3b8d5120818defff7fd66e6ca15022624bbed7e6fe7b6efb17cae98a6e3d",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Kilio cha Moyo wa Mama",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/swa/articles/30796e2b-9ec4-4bcf-b9e3-7d40802ff1f9.html",
       "html_sha256": "20efcec130907060ccbc0d079467bbc3128f857afa32c777706e329f3e03a8fe",
       "human_reviewed": false,

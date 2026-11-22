@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Article body, paragraph beginning “Watoto wachanga walianza kuja”",
+      "severity": "minor",
+      "source_quote": "“But the babies were fussy, very fussy.”",
+      "suggested_fix": "“Lakini watoto wachanga walikuwa wasumbufu sana.”",
+      "translation_quote": "“Lakini watoto wachanga walikuwa wagomvi, wagomvi sana.”"
+    },
+    {
+      "location": "Poem, line beginning “That weary look”",
+      "severity": "minor",
+      "source_quote": "“That weary look, the martyred air”",
+      "suggested_fix": "“Uso huo wa kuchoka, mwonekano huo wa kujifanya mtu wa mateso”",
+      "translation_quote": "“Huo uso wa kuchoka, ule mwonekano wa kujifanya shahidi”"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}
