@@ -7234,6 +7234,46 @@
     {
       "ai_notice_required": true,
       "direction": "rtl",
+      "html": "content/ara/articles/304e1120-f241-4d9e-972b-c72dec82b134.html",
+      "html_sha256": "ae4df62d0570c9a2607efbba9ccce816e689172da094e4e45e592366f12fdf4a",
+      "human_reviewed": false,
+      "id": "304e1120-f241-4d9e-972b-c72dec82b134",
+      "images": [
+        {
+          "alt": "أم تجلس وتحمل طفلًا",
+          "public_path": "/images/articles/304e1120-f241-4d9e-972b-c72dec82b134-1.jpg"
+        },
+        {
+          "alt": "",
+          "public_path": "/images/articles/304e1120-f241-4d9e-972b-c72dec82b134-2.png"
+        },
+        {
+          "alt": "",
+          "public_path": "/images/articles/304e1120-f241-4d9e-972b-c72dec82b134-3.jpg"
+        },
+        {
+          "alt": "بيت كبير بجانب جدول ماء",
+          "public_path": "/images/articles/304e1120-f241-4d9e-972b-c72dec82b134-4.jpg"
+        }
+      ],
+      "issue_id": "14962b7b-2d94-5b43-a4c6-bbb78f074d1a",
+      "language": "ara",
+      "language_tag": "ar",
+      "metadata": "content/ara/articles/304e1120-f241-4d9e-972b-c72dec82b134.json",
+      "metadata_sha256": "b69310aa30232970d3422009d7023fa0bff5b4ed631bfa96eff40d6a222cf7db",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": null,
+      "source_revision": "ccefc5a5c3d79409cc78319f94b5490718d30670",
+      "source_translation_key": "62bd3b8d5120818defff7fd66e6ca15022624bbed7e6fe7b6efb17cae98a6e3d",
+      "status": "ready",
+      "subtitle": null,
+      "title": "صرخة قلب أم",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
       "html": "content/ara/articles/30796e2b-9ec4-4bcf-b9e3-7d40802ff1f9.html",
       "html_sha256": "a88a1387327abe8d572ffd3782510f515e66c41f9def64c1a78832158f39faa3",
       "human_reviewed": false,
