@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "2f8d3970d1884214a1ecf6e293c26a57",
   "campaign": "auto-8ef4d34ceddd83ca9fd0727ffd4409cf89c590037e9b69300f52b1f373a08450",
   "created_at": "2026-11-22T03:59:15+00:00",
   "events": [
@@ -48,18 +47,39 @@
         },
         "total_tokens": 10841
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 964,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 820,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7375,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 6272,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 8339
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "HTML/metadata contract",
-      "severity": "critical",
-      "source_quote": "",
-      "suggested_fix": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[63]: source /article[1]/p[14] ('end', 'p'); translation /article[1]/p[14]/em[1] ('start', 'em', ())",
-      "translation_quote": ""
+      "location": "Psalm 118:24 quotations (paragraphs beginning “Psalm 118:24” and “Kun je met een zucht…”; also the later Psalm 118:24 citation)",
+      "severity": "minor",
+      "source_quote": "“we will rejoice and be glad in it.”",
+      "suggested_fix": "In each occurrence, replace “laten wij ons verheugen en verblijd zijn” with “laten wij ons verheugen en blij zijn.”",
+      "translation_quote": "“laten wij ons verheugen en verblijd zijn.”"
     }
   ],
+  "finished_at": "2026-11-22T19:49:22+00:00",
   "id": "1ce791673cdb52a6cd96442f84345179",
   "issue_id": "14962b7b-2d94-5b43-a4c6-bbb78f074d1a",
   "language": "nld",
@@ -148,9 +168,11 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/0b11e974f5f2f9ecf44763d5d2c37b55d2b48a4b00d9d3025f375656efffc92b.json",
   "stage": "review2",
   "stage_budget": {
@@ -166,7 +188,7 @@
     "total_reserved_usd": 0.089184,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "62bd3b8d5120818defff7fd66e6ca15022624bbed7e6fe7b6efb17cae98a6e3d",
   "translation_model_actual": "gpt-6-luna"

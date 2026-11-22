@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-22T19:49:22+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Psalm 118:24 quotations (paragraphs beginning “Psalm 118:24” and “Kun je met een zucht…”; also the later Psalm 118:24 citation)\",\"severity\":\"minor\",\"source_quote\":\"“we will rejoice and be glad in it.”\",\"suggested_fix\":\"In each occurrence, replace “laten wij ons verheugen en verblijd zijn” with “laten wij ons verheugen en blij zijn.”\",\"translation_quote\":\"“laten wij ons verheugen en verblijd zijn.”\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 506,
+    "content_evidence_truncated": false,
+    "content_sha256": "f97c4b23924dc25a3cfc6a8f5078d722318c778b5148d36d39ffe91e5ee83813",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 964,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 820,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7375,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6272,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 8339
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review2",
+  "translation_attempts": 2
+}

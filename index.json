@@ -69758,6 +69758,46 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/nld/articles/304e1120-f241-4d9e-972b-c72dec82b134.html",
+      "html_sha256": "de96518b0c6b83bbf08f04649049bb002a786f03b04410888a788ebfcf2db6d7",
+      "human_reviewed": false,
+      "id": "304e1120-f241-4d9e-972b-c72dec82b134",
+      "images": [
+        {
+          "alt": "Een zittende moeder met een kind in haar armen",
+          "public_path": "/images/articles/304e1120-f241-4d9e-972b-c72dec82b134-1.jpg"
+        },
+        {
+          "alt": "",
+          "public_path": "/images/articles/304e1120-f241-4d9e-972b-c72dec82b134-2.png"
+        },
+        {
+          "alt": "",
+          "public_path": "/images/articles/304e1120-f241-4d9e-972b-c72dec82b134-3.jpg"
+        },
+        {
+          "alt": "Een groot huis aan een beek",
+          "public_path": "/images/articles/304e1120-f241-4d9e-972b-c72dec82b134-4.jpg"
+        }
+      ],
+      "issue_id": "14962b7b-2d94-5b43-a4c6-bbb78f074d1a",
+      "language": "nld",
+      "language_tag": "nl",
+      "metadata": "content/nld/articles/304e1120-f241-4d9e-972b-c72dec82b134.json",
+      "metadata_sha256": "25fddf48c054c05a3104d3966e789ce397140fabd2edb0a03efc86662d09f827",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "ccefc5a5c3d79409cc78319f94b5490718d30670",
+      "source_translation_key": "62bd3b8d5120818defff7fd66e6ca15022624bbed7e6fe7b6efb17cae98a6e3d",
+      "status": "ready",
+      "subtitle": null,
+      "title": "De hartenkreet van een moeder",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/nld/articles/30796e2b-9ec4-4bcf-b9e3-7d40802ff1f9.html",
       "html_sha256": "b3de1f30acb48a150373a1b9a679e86d3ec72996a2326f55b8f24754eaaaceee",
       "human_reviewed": false,
