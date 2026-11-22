@@ -16133,6 +16133,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ben/articles/ba09e248-cc12-4573-9db1-cceb885953ac.html",
+      "html_sha256": "71c9d559f712047c05cb40e42f77c19e1c058d8e70183ed99a127e0dd00889e8",
+      "human_reviewed": false,
+      "id": "ba09e248-cc12-4573-9db1-cceb885953ac",
+      "images": [
+        {
+          "alt": "যিশুকে ক্রুশে, সৈন্য ও দর্শকদের সঙ্গে দেখানো একটি ক্রুশবিদ্ধকরণের দৃশ্য",
+          "public_path": "/images/articles/ba09e248-cc12-4573-9db1-cceb885953ac-1.jpg"
+        },
+        {
+          "alt": "সমাধির কাছে প্রহরীদের সামনে আবির্ভূত পুনরুত্থিত যিশু",
+          "public_path": "/images/articles/ba09e248-cc12-4573-9db1-cceb885953ac-2.jpg"
+        }
+      ],
+      "issue_id": "7024063a-5783-5744-8055-7b12fee04019",
+      "language": "ben",
+      "language_tag": "bn",
+      "metadata": "content/ben/articles/ba09e248-cc12-4573-9db1-cceb885953ac.json",
+      "metadata_sha256": "2c73620b4a18d8e8987429a2033906c7f6f8cbac50270a7b11bb4cb285bb0a1e",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "বিশেষ প্রবন্ধ",
+      "source_revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+      "source_translation_key": "a5f72e9441d93612f6993f0627e134f72b1dfaa99c23e918ac9d9e71a384aa4c",
+      "status": "ready",
+      "subtitle": null,
+      "title": "খ্রিষ্টের সমাপ্ত কাজ",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ben/articles/ba15e3da-aab4-401c-9ec7-64b88ac22833.html",
       "html_sha256": "c8ab70ec7a85ef302ff8828aab40b25b7c6fc211c7f1c3ca94d81fcd7125cd20",
       "human_reviewed": false,
