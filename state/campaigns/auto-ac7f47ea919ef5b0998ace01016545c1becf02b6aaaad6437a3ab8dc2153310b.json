@@ -2370,7 +2370,7 @@
   "reported_usage_usd": 0.0008953,
   "request_sha256": "e638a380eda4a0e2a6b2a980330d13cfd4c828413cec561f9ca86bf77601cd29",
   "requested_by": "owner-authorized-autonomous-archive",
-  "reserved_usd": 0.008264,
+  "reserved_usd": 0.013621,
   "review_contract_version": 2,
   "review_model": "gpt-6-luna",
   "review_output_tokens": 8192,
