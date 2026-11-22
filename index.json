@@ -1250,6 +1250,46 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/afr/articles/304e1120-f241-4d9e-972b-c72dec82b134.html",
+      "html_sha256": "ac83b3bfb62cd909dc8c3687430f89d00e31bee43593c8253b50ffcf3161016d",
+      "human_reviewed": false,
+      "id": "304e1120-f241-4d9e-972b-c72dec82b134",
+      "images": [
+        {
+          "alt": "’n Ma wat sit en ’n kind vashou",
+          "public_path": "/images/articles/304e1120-f241-4d9e-972b-c72dec82b134-1.jpg"
+        },
+        {
+          "alt": "",
+          "public_path": "/images/articles/304e1120-f241-4d9e-972b-c72dec82b134-2.png"
+        },
+        {
+          "alt": "",
+          "public_path": "/images/articles/304e1120-f241-4d9e-972b-c72dec82b134-3.jpg"
+        },
+        {
+          "alt": "’n Groot huis langs ’n stroompie",
+          "public_path": "/images/articles/304e1120-f241-4d9e-972b-c72dec82b134-4.jpg"
+        }
+      ],
+      "issue_id": "14962b7b-2d94-5b43-a4c6-bbb78f074d1a",
+      "language": "afr",
+      "language_tag": "af",
+      "metadata": "content/afr/articles/304e1120-f241-4d9e-972b-c72dec82b134.json",
+      "metadata_sha256": "e8b0404e55b49e49b34319badf87a61e44022b6d3c3511240dd4760cde0fdbd3",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": null,
+      "source_revision": "ccefc5a5c3d79409cc78319f94b5490718d30670",
+      "source_translation_key": "62bd3b8d5120818defff7fd66e6ca15022624bbed7e6fe7b6efb17cae98a6e3d",
+      "status": "ready",
+      "subtitle": null,
+      "title": "’n Ma se hartsuitroep",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/afr/articles/30796e2b-9ec4-4bcf-b9e3-7d40802ff1f9.html",
       "html_sha256": "33e941771b5cf9fd9d6e1520566aaf2b3eb763fd2e6e41dc7e1adb2517649cc1",
       "human_reviewed": false,
