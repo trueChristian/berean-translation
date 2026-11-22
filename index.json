@@ -103227,6 +103227,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/swa/articles/ba09e248-cc12-4573-9db1-cceb885953ac.html",
+      "html_sha256": "4f0eb06e77e86306a68ad4f455ccb928c9f0e4b68a4f6ab8e7d509108bb68988",
+      "human_reviewed": false,
+      "id": "ba09e248-cc12-4573-9db1-cceb885953ac",
+      "images": [
+        {
+          "alt": "Tukio la kusulubiwa likionyesha Yesu msalabani pamoja na askari na watazamaji",
+          "public_path": "/images/articles/ba09e248-cc12-4573-9db1-cceb885953ac-1.jpg"
+        },
+        {
+          "alt": "Yesu aliyefufuka akiwatokea walinzi karibu na kaburi",
+          "public_path": "/images/articles/ba09e248-cc12-4573-9db1-cceb885953ac-2.jpg"
+        }
+      ],
+      "issue_id": "7024063a-5783-5744-8055-7b12fee04019",
+      "language": "swa",
+      "language_tag": "sw",
+      "metadata": "content/swa/articles/ba09e248-cc12-4573-9db1-cceb885953ac.json",
+      "metadata_sha256": "9767dea7b6efcd397a81dcdf6b195f2e5b5ef820b9b9da9a198fc5926c99f45e",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "Makala Iliyoangaziwa",
+      "source_revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+      "source_translation_key": "a5f72e9441d93612f6993f0627e134f72b1dfaa99c23e918ac9d9e71a384aa4c",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Kazi Iliyokamilika ya Kristo",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/swa/articles/ba15e3da-aab4-401c-9ec7-64b88ac22833.html",
       "html_sha256": "e3384208158d2e9cdb2a82a67771f6d5b046312fc680e2a9e9f54708573a7ac2",
       "human_reviewed": false,

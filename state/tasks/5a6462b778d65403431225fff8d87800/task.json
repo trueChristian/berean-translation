@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "53a241e1ebcd41628d128dfbdfbbebb6",
   "campaign": "auto-1aef94390e8643fbdbccb002886ae7001918030a4898be355ea9353560bbcd46",
   "created_at": "2026-11-22T19:51:05+00:00",
   "events": [
@@ -28,18 +27,31 @@
         },
         "total_tokens": 18307
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 87,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 55,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 12172,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 12169,
+          "cached_tokens": 0
+        },
+        "total_tokens": 12259
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "Section III, heading d",
-      "severity": "major",
-      "source_quote": "Does not keep Satan away from us",
-      "suggested_fix": "Hauweki Shetani mbali nasi",
-      "translation_quote": "Hautuweki mbali na Shetani"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-11-22T20:19:34+00:00",
   "id": "5a6462b778d65403431225fff8d87800",
   "issue_id": "7024063a-5783-5744-8055-7b12fee04019",
   "language": "swa",
@@ -128,9 +140,11 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/a54745f275742440f65d4a72561a016b3b5760daa292eae9aa0a1d17e6677388.json",
   "stage": "review2",
   "stage_budget": {
@@ -144,7 +158,7 @@
     "total_reserved_usd": 0.603024,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "a5f72e9441d93612f6993f0627e134f72b1dfaa99c23e918ac9d9e71a384aa4c",
   "translation_model_actual": "gpt-6.1-sol"
