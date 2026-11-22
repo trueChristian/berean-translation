@@ -2500,7 +2500,7 @@
       "article_id": "304e1120-f241-4d9e-972b-c72dec82b134",
       "language": "deu",
       "latest_task": "995c153b2e9408efcf7f6c9a2b14530a",
-      "processing_status": "queued",
+      "processing_status": "in_batch",
       "reason": "active"
     },
     {
@@ -4009,7 +4009,7 @@
       "article_id": "ba09e248-cc12-4573-9db1-cceb885953ac",
       "language": "fra",
       "latest_task": "bb4924a809b1ab611f1bef69f5dd658a",
-      "processing_status": "queued",
+      "processing_status": "in_batch",
       "reason": "active"
     },
     {
@@ -4145,7 +4145,7 @@
       "article_id": "14a35072-cac9-42df-a3ca-1f7db446d968",
       "language": "heb",
       "latest_task": "0f8cb4d31ef59b6dd7f12dfe14f20646",
-      "processing_status": "queued",
+      "processing_status": "in_batch",
       "reason": "active"
     },
     {
@@ -5693,7 +5693,7 @@
       "article_id": "304e1120-f241-4d9e-972b-c72dec82b134",
       "language": "ind",
       "latest_task": "00eea459af25d945c9b5fe1d53e0ac63",
-      "processing_status": "queued",
+      "processing_status": "in_batch",
       "reason": "active"
     },
     {
@@ -6713,7 +6713,7 @@
       "article_id": "8389d62e-1ba0-47de-bf13-29a71ffa204c",
       "language": "kor",
       "latest_task": "ef335839b4cd6b3ad7808d972272f16f",
-      "processing_status": "queued",
+      "processing_status": "in_batch",
       "reason": "active"
     },
     {
@@ -7248,7 +7248,7 @@
       "article_id": "7b699913-16ec-4087-9e0c-ca867e750d90",
       "language": "nld",
       "latest_task": "4569bfdfcd5e8d40a62f41102cf461fb",
-      "processing_status": "queued",
+      "processing_status": "in_batch",
       "reason": "active"
     },
     {
@@ -8461,7 +8461,7 @@
       "article_id": "304e1120-f241-4d9e-972b-c72dec82b134",
       "language": "rus",
       "latest_task": "9683ed648345204feba251e8a0c695a3",
-      "processing_status": "queued",
+      "processing_status": "in_batch",
       "reason": "active"
     },
     {
@@ -8559,7 +8559,7 @@
       "article_id": "4c0794e8-20a4-43fb-a2ea-5f8f45d93f7d",
       "language": "rus",
       "latest_task": "5f63434953a8ee87cc55ae2fdbc9c0e4",
-      "processing_status": "queued",
+      "processing_status": "in_batch",
       "reason": "active"
     },
     {
