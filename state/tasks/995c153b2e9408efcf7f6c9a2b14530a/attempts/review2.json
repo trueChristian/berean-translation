@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-22T20:20:03+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Absatz 5, Zitat aus Nehemia 8,10\",\"severity\":\"minor\",\"source_quote\":\"“the joy of the LORD is my strength”\",\"suggested_fix\":\"„Die Freude am HERRN ist meine Stärke“\",\"translation_quote\":\"„Die Freude am HERRN ist eure Stärke“\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 316,
+    "content_evidence_truncated": false,
+    "content_sha256": "017c1d7ac511ded23faef2d151b6c539c640f2e81f1ae1b653e634fec9372985",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 782,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 676,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7433,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7430,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8215
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review2",
+  "translation_attempts": 2
+}

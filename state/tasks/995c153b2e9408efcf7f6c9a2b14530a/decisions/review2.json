@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Absatz 5, Zitat aus Nehemia 8,10",
+      "severity": "minor",
+      "source_quote": "“the joy of the LORD is my strength”",
+      "suggested_fix": "„Die Freude am HERRN ist meine Stärke“",
+      "translation_quote": "„Die Freude am HERRN ist eure Stärke“"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

@@ -23974,6 +23974,46 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/deu/articles/304e1120-f241-4d9e-972b-c72dec82b134.html",
+      "html_sha256": "a83ac791276ccfb908db7f062a2a34e25613a2823f66e1abdb15de894c34b52b",
+      "human_reviewed": false,
+      "id": "304e1120-f241-4d9e-972b-c72dec82b134",
+      "images": [
+        {
+          "alt": "Eine sitzende Mutter hält ein Kind im Arm",
+          "public_path": "/images/articles/304e1120-f241-4d9e-972b-c72dec82b134-1.jpg"
+        },
+        {
+          "alt": "",
+          "public_path": "/images/articles/304e1120-f241-4d9e-972b-c72dec82b134-2.png"
+        },
+        {
+          "alt": "",
+          "public_path": "/images/articles/304e1120-f241-4d9e-972b-c72dec82b134-3.jpg"
+        },
+        {
+          "alt": "Ein großes Haus an einem Bach",
+          "public_path": "/images/articles/304e1120-f241-4d9e-972b-c72dec82b134-4.jpg"
+        }
+      ],
+      "issue_id": "14962b7b-2d94-5b43-a4c6-bbb78f074d1a",
+      "language": "deu",
+      "language_tag": "de",
+      "metadata": "content/deu/articles/304e1120-f241-4d9e-972b-c72dec82b134.json",
+      "metadata_sha256": "241f6919eeece61494db5ff92619c5b19eec446f955942d46fe7ca3781fdab2c",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "ccefc5a5c3d79409cc78319f94b5490718d30670",
+      "source_translation_key": "62bd3b8d5120818defff7fd66e6ca15022624bbed7e6fe7b6efb17cae98a6e3d",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Der Herzensruf einer Mutter",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/deu/articles/30796e2b-9ec4-4bcf-b9e3-7d40802ff1f9.html",
       "html_sha256": "ca8733c373740b02ca523822cf7e4f6d594da5994ce9420d82c8047e4e0426f7",
       "human_reviewed": false,
