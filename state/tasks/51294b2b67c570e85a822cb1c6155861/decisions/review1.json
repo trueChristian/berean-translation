@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "첫 번째 본문 문단",
+      "severity": "minor",
+      "source_quote": "“we were sitting up to chat with young people facing life-changing decisions”",
+      "suggested_fix": "“인생을 바꾸는 결정을 앞둔 젊은이들과 밤늦게까지 앉아 이야기를 나누었습니다”",
+      "translation_quote": "“인생을 바꾸는 결정을 앞둔 젊은이들과 함께 앉아 이야기를 나누느라 밤을 새웠습니다”"
+    },
+    {
+      "location": "“Can you wake up with a sigh…” 문단",
+      "severity": "minor",
+      "source_quote": "“as each spill, each challenge, and each interruption comes”",
+      "suggested_fix": "“무언가를 쏟는 일이나 어려움, 방해가 하나씩 닥칠 때마다”",
+      "translation_quote": "“쏟아지는 물건이며, 어려움이며, 방해가 하나씩 닥칠 때마다”"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

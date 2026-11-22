@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-22T19:49:10+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"첫 번째 본문 문단\",\"severity\":\"minor\",\"source_quote\":\"“we were sitting up to chat with young people facing life-changing decisions”\",\"suggested_fix\":\"“인생을 바꾸는 결정을 앞둔 젊은이들과 밤늦게까지 앉아 이야기를 나누었습니다”\",\"translation_quote\":\"“인생을 바꾸는 결정을 앞둔 젊은이들과 함께 앉아 이야기를 나누느라 밤을 새웠습니다”\"},{\"location\":\"“Can you wake up with a sigh…” 문단\",\"severity\":\"minor\",\"source_quote\":\"“as each spill, each challenge, and each interruption comes”\",\"suggested_fix\":\"“무언가를 쏟는 일이나 어려움, 방해가 하나씩 닥칠 때마다”\",\"translation_quote\":\"“쏟아지는 물건이며, 어려움이며, 방해가 하나씩 닥칠 때마다”\"}],\"findings_complete\":true,\"passed\":true,\"score\":97}",
+    "content_bytes": 869,
+    "content_evidence_truncated": false,
+    "content_sha256": "116d4011dc557c5d7d27f6a443144690d79558bbe7ffbfe8e2986289a40e28f4",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 993,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 757,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8013,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8010,
+        "cached_tokens": 0
+      },
+      "total_tokens": 9006
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

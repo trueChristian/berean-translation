@@ -63933,6 +63933,46 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/kor/articles/304e1120-f241-4d9e-972b-c72dec82b134.html",
+      "html_sha256": "963e6e81a937f14374a8a88ef271311961edf20a91b038d230b733ac9ec84e5c",
+      "human_reviewed": false,
+      "id": "304e1120-f241-4d9e-972b-c72dec82b134",
+      "images": [
+        {
+          "alt": "앉아서 아이를 안고 있는 어머니",
+          "public_path": "/images/articles/304e1120-f241-4d9e-972b-c72dec82b134-1.jpg"
+        },
+        {
+          "alt": "",
+          "public_path": "/images/articles/304e1120-f241-4d9e-972b-c72dec82b134-2.png"
+        },
+        {
+          "alt": "",
+          "public_path": "/images/articles/304e1120-f241-4d9e-972b-c72dec82b134-3.jpg"
+        },
+        {
+          "alt": "시냇가에 자리한 큰 집",
+          "public_path": "/images/articles/304e1120-f241-4d9e-972b-c72dec82b134-4.jpg"
+        }
+      ],
+      "issue_id": "14962b7b-2d94-5b43-a4c6-bbb78f074d1a",
+      "language": "kor",
+      "language_tag": "ko",
+      "metadata": "content/kor/articles/304e1120-f241-4d9e-972b-c72dec82b134.json",
+      "metadata_sha256": "9207ca66a0b9ced8bada36682813a395f0db4706be9ddc2b6424ca54ecf3664c",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "ccefc5a5c3d79409cc78319f94b5490718d30670",
+      "source_translation_key": "62bd3b8d5120818defff7fd66e6ca15022624bbed7e6fe7b6efb17cae98a6e3d",
+      "status": "ready",
+      "subtitle": null,
+      "title": "어머니의 마음속 외침",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/kor/articles/30796e2b-9ec4-4bcf-b9e3-7d40802ff1f9.html",
       "html_sha256": "80333348ab900598324b5f822c57d29c25c5a2af47eecda3fd203ad1daeeee08",
       "human_reviewed": false,

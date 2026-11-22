@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "4a904e1c6dda4bc1a2412daf404d24d1",
   "campaign": "auto-62e6bb9be4c3145adf8f95cf04e2f9168c3aa9c17597ed51e3a99ee7634bdeee",
   "created_at": "2026-11-22T11:34:30+00:00",
   "events": [
@@ -28,10 +27,46 @@
         },
         "total_tokens": 7687
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 993,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 757,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8013,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8010,
+          "cached_tokens": 0
+        },
+        "total_tokens": 9006
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "첫 번째 본문 문단",
+      "severity": "minor",
+      "source_quote": "“we were sitting up to chat with young people facing life-changing decisions”",
+      "suggested_fix": "“인생을 바꾸는 결정을 앞둔 젊은이들과 밤늦게까지 앉아 이야기를 나누었습니다”",
+      "translation_quote": "“인생을 바꾸는 결정을 앞둔 젊은이들과 함께 앉아 이야기를 나누느라 밤을 새웠습니다”"
+    },
+    {
+      "location": "“Can you wake up with a sigh…” 문단",
+      "severity": "minor",
+      "source_quote": "“as each spill, each challenge, and each interruption comes”",
+      "suggested_fix": "“무언가를 쏟는 일이나 어려움, 방해가 하나씩 닥칠 때마다”",
+      "translation_quote": "“쏟아지는 물건이며, 어려움이며, 방해가 하나씩 닥칠 때마다”"
+    }
+  ],
+  "finished_at": "2026-11-22T19:49:10+00:00",
   "id": "51294b2b67c570e85a822cb1c6155861",
   "issue_id": "14962b7b-2d94-5b43-a4c6-bbb78f074d1a",
   "language": "kor",
@@ -120,9 +155,11 @@
     }
   },
   "protected": false,
+  "quality_score": 97,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/0b11e974f5f2f9ecf44763d5d2c37b55d2b48a4b00d9d3025f375656efffc92b.json",
   "stage": "review1",
   "stage_budget": {
@@ -138,7 +175,7 @@
     "total_reserved_usd": 0.089194,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "62bd3b8d5120818defff7fd66e6ca15022624bbed7e6fe7b6efb17cae98a6e3d",
   "translation_model_actual": "gpt-6-luna"
