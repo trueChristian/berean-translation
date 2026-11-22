@@ -18329,6 +18329,46 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/cmn/articles/304e1120-f241-4d9e-972b-c72dec82b134.html",
+      "html_sha256": "5b7bb548eb713bcaf31588e5909c3cbfe38aec71585a3586df32f8e1646c3f13",
+      "human_reviewed": false,
+      "id": "304e1120-f241-4d9e-972b-c72dec82b134",
+      "images": [
+        {
+          "alt": "一位坐着的母亲抱着孩子",
+          "public_path": "/images/articles/304e1120-f241-4d9e-972b-c72dec82b134-1.jpg"
+        },
+        {
+          "alt": "",
+          "public_path": "/images/articles/304e1120-f241-4d9e-972b-c72dec82b134-2.png"
+        },
+        {
+          "alt": "",
+          "public_path": "/images/articles/304e1120-f241-4d9e-972b-c72dec82b134-3.jpg"
+        },
+        {
+          "alt": "溪流旁的一幢大房子",
+          "public_path": "/images/articles/304e1120-f241-4d9e-972b-c72dec82b134-4.jpg"
+        }
+      ],
+      "issue_id": "14962b7b-2d94-5b43-a4c6-bbb78f074d1a",
+      "language": "cmn",
+      "language_tag": "zh-Hans",
+      "metadata": "content/cmn/articles/304e1120-f241-4d9e-972b-c72dec82b134.json",
+      "metadata_sha256": "f22921f4a3cfc61823794eb6889b2811574d817b086a2093235c0cd3931e2b6f",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "ccefc5a5c3d79409cc78319f94b5490718d30670",
+      "source_translation_key": "62bd3b8d5120818defff7fd66e6ca15022624bbed7e6fe7b6efb17cae98a6e3d",
+      "status": "ready",
+      "subtitle": null,
+      "title": "母亲心中的呐喊",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/cmn/articles/30796e2b-9ec4-4bcf-b9e3-7d40802ff1f9.html",
       "html_sha256": "b1dbe8c1e3f52ebed708bcccf07a1ad7524f33345d87045e01bc5829c81fe49f",
       "human_reviewed": false,
