@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "25e0fc2db11c4ef5b5363b250b191da4",
   "campaign": "auto-ac7f47ea919ef5b0998ace01016545c1becf02b6aaaad6437a3ab8dc2153310b",
   "created_at": "2026-11-21T09:48:41+00:00",
   "events": [
@@ -68,25 +67,40 @@
         },
         "total_tokens": 4718
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 772,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 608,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3512,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 3509,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4284
+      }
     }
   ],
-  "failure_kind": "structured_response",
+  "failure": "Final review failed; a recovery continuation must pass admission",
+  "failure_kind": "quality_rejection",
   "findings": [
     {
       "location": "Paragraph 9",
       "severity": "major",
-      "source_quote": "“I beseech all those who confess Christ to ask Him today, upon their knees, if He has not some work for them to do now.”",
-      "suggested_fix": "Replace ״אם אין לו עבודה כלשהי שעליו לעשות כעת״ with ״אם יש לו עבודה כלשהי שעליו לעשות כעת״ to preserve the source’s intended question about whether God has work for them.",
-      "translation_quote": "״לבקש ממנו היום, על ברכיו, אם אין לו עבודה כלשהי שעליו לעשות כעת״"
-    },
-    {
-      "location": "Paragraph 4",
-      "severity": "minor",
-      "source_quote": "“I am only one agent in what is growing to be a multitude.”",
-      "suggested_fix": "Consider ״אני רק אחד מן המשתתפים בתנועה ההולכת ומתרחבת״ instead of ״אני רק אחד מן השליחים בתוך קהל שהולך וגדל״, which can imply an apostolic role not stated in the source.",
-      "translation_quote": "״אני רק אחד מן השליחים בתוך קהל שהולך וגדל״"
+      "source_quote": "I beseech all those who confess Christ to ask Him today, upon their knees, if He has not some work for them to do now.",
+      "suggested_fix": "אני מפציר בכל מי שמתוודה על אמונתו במשיח לבקש ממנו היום, על ברכיו, האם אין לו עבודה כלשהי עבורם כעת.",
+      "translation_quote": "אני מפציר בכל מי שמתוודה על אמונתו במשיח לבקש ממנו היום, על ברכיו, אם יש לו עבודה כלשהי שעליו לעשות כעת."
     }
   ],
+  "finished_at": "2026-11-22T22:51:52+00:00",
   "id": "0f8cb4d31ef59b6dd7f12dfe14f20646",
   "issue_id": "14962b7b-2d94-5b43-a4c6-bbb78f074d1a",
   "language": "heb",
@@ -175,7 +189,7 @@
     }
   },
   "protected": false,
-  "quality_score": 91,
+  "quality_score": 92,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
@@ -195,7 +209,7 @@
     "total_reserved_usd": 0.086933,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "not_ready",
   "translation_attempts": 2,
   "translation_key": "4bb76720c8a52c6eb0871b56c7e913858bb1a8a4a3f88d22ccdbf033f3fb4af1",
   "translation_model_actual": "gpt-6-luna"

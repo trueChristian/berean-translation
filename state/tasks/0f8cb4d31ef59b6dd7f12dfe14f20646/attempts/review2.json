@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-22T22:51:52+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph 9\",\"severity\":\"major\",\"source_quote\":\"I beseech all those who confess Christ to ask Him today, upon their knees, if He has not some work for them to do now.\",\"suggested_fix\":\"אני מפציר בכל מי שמתוודה על אמונתו במשיח לבקש ממנו היום, על ברכיו, האם אין לו עבודה כלשהי עבורם כעת.\",\"translation_quote\":\"אני מפציר בכל מי שמתוודה על אמונתו במשיח לבקש ממנו היום, על ברכיו, אם יש לו עבודה כלשהי שעליו לעשות כעת.\"}],\"findings_complete\":true,\"passed\":false,\"score\":92}",
+    "content_bytes": 652,
+    "content_evidence_truncated": false,
+    "content_sha256": "eb8b72805ec3c8d9b40b8d9af58055709c5c225d1b6938b7d8dc2f9d6d72d626",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 772,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 608,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3512,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3509,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4284
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

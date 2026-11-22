@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph 9",
+      "severity": "major",
+      "source_quote": "I beseech all those who confess Christ to ask Him today, upon their knees, if He has not some work for them to do now.",
+      "suggested_fix": "אני מפציר בכל מי שמתוודה על אמונתו במשיח לבקש ממנו היום, על ברכיו, האם אין לו עבודה כלשהי עבורם כעת.",
+      "translation_quote": "אני מפציר בכל מי שמתוודה על אמונתו במשיח לבקש ממנו היום, על ברכיו, אם יש לו עבודה כלשהי שעליו לעשות כעת."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review2"
+}
