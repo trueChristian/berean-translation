@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "0c7c5dcaddfd41008313613a287dccb0",
   "campaign": "auto-292cf7f83eaafb1f9b8ad6186d7eade859e31474ed87a7ed0283f9d9c803384f",
   "created_at": "2026-11-22T03:10:00+00:00",
   "events": [
@@ -28,18 +27,31 @@
         },
         "total_tokens": 17507
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 61,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 29,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 11744,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 11741,
+          "cached_tokens": 0
+        },
+        "total_tokens": 11805
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "Section II.b, quotation of 2 Corinthians 5:21",
-      "severity": "major",
-      "source_quote": "For he [God] hath made him [Jesus] to be sin for us, who [Jesus] knew no sin",
-      "suggested_fix": "Car il [Dieu] l’a [Jésus], lui qui n’a point connu le péché, fait devenir péché pour nous…",
-      "translation_quote": "Celui [Dieu] qui n’a point connu le péché, il [Jésus] l’a fait devenir péché pour nous…"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-11-22T03:55:32+00:00",
   "id": "bb4924a809b1ab611f1bef69f5dd658a",
   "issue_id": "7024063a-5783-5744-8055-7b12fee04019",
   "language": "fra",
@@ -128,9 +140,11 @@
     }
   },
   "protected": false,
+  "quality_score": 99,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/a54745f275742440f65d4a72561a016b3b5760daa292eae9aa0a1d17e6677388.json",
   "stage": "review2",
   "stage_budget": {
@@ -144,7 +158,7 @@
     "total_reserved_usd": 0.606154,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "a5f72e9441d93612f6993f0627e134f72b1dfaa99c23e918ac9d9e71a384aa4c",
   "translation_model_actual": "gpt-6.1-sol"

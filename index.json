@@ -38673,6 +38673,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/fra/articles/ba09e248-cc12-4573-9db1-cceb885953ac.html",
+      "html_sha256": "f4821be35b2d1a9c6b9bcd08204e3c71be807da1dced154659a72ce3f8aa13ad",
+      "human_reviewed": false,
+      "id": "ba09e248-cc12-4573-9db1-cceb885953ac",
+      "images": [
+        {
+          "alt": "Une scène de crucifixion montrant Jésus sur la croix, entouré de soldats et de spectateurs",
+          "public_path": "/images/articles/ba09e248-cc12-4573-9db1-cceb885953ac-1.jpg"
+        },
+        {
+          "alt": "Jésus ressuscité apparaît devant des gardes près du tombeau",
+          "public_path": "/images/articles/ba09e248-cc12-4573-9db1-cceb885953ac-2.jpg"
+        }
+      ],
+      "issue_id": "7024063a-5783-5744-8055-7b12fee04019",
+      "language": "fra",
+      "language_tag": "fr",
+      "metadata": "content/fra/articles/ba09e248-cc12-4573-9db1-cceb885953ac.json",
+      "metadata_sha256": "9a51c9027e9bce6e350243b259472460e7b0e7459fa405875aaf365177bcec62",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "Article à la une",
+      "source_revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+      "source_translation_key": "a5f72e9441d93612f6993f0627e134f72b1dfaa99c23e918ac9d9e71a384aa4c",
+      "status": "ready",
+      "subtitle": null,
+      "title": "L’œuvre achevée de Christ",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/fra/articles/ba15e3da-aab4-401c-9ec7-64b88ac22833.html",
       "html_sha256": "47a347d774fbfdd0a143ff3ab854d72e7345c37cca39fcf608ed2b32624a2126",
       "human_reviewed": false,
