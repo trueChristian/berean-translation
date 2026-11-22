@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "4b189eb4-dba1-4114-a2ec-58fad503fc5b",
+    "response_id": "chatcmpl-En0M8SjAgQdnQqzpDi9DFkUsOnNhH",
+    "usage": {
+      "completion_tokens": 604,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 441,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7710,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6607,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 8314
+    }
+  },
+  "received_at": "2026-11-22T12:03:02+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, paragraph beginning “God se Woord is vol van dieselfde boodskap”",
+        "severity": "major",
+        "source_quote": "“Not that I speak in respect of want: for I have learned, in whatsoever state I am, therewith to be content.”",
+        "suggested_fix": "Change the end of the quotation to “want ek het geleer om vergenoeg te wees met die omstandighede waarin ek is” (remove “nie”).",
+        "translation_quote": "“Nie dat ek dit uit gebrek sê nie, want ek het geleer om vergenoeg te wees met die omstandighede waarin ek is nie.”"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 94
+  }
+}

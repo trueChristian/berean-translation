@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraph beginning “God se Woord is vol van dieselfde boodskap”",
+      "severity": "major",
+      "source_quote": "“Not that I speak in respect of want: for I have learned, in whatsoever state I am, therewith to be content.”",
+      "suggested_fix": "Change the end of the quotation to “want ek het geleer om vergenoeg te wees met die omstandighede waarin ek is” (remove “nie”).",
+      "translation_quote": "“Nie dat ek dit uit gebrek sê nie, want ek het geleer om vergenoeg te wees met die omstandighede waarin ek is nie.”"
+    }
+  ],
+  "outcome": "not_ready",
+  "reason": "Final review failed; a recovery continuation must pass admission",
+  "stage": "terminal"
+}
