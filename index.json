@@ -88695,6 +88695,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/rus/articles/4c0794e8-20a4-43fb-a2ea-5f8f45d93f7d.html",
+      "html_sha256": "fa33708cde17630c37c62faaa01cd33221b7749c0da0c4487b9c7281298e3ab2",
+      "human_reviewed": false,
+      "id": "4c0794e8-20a4-43fb-a2ea-5f8f45d93f7d",
+      "images": [
+        {
+          "alt": "Указатель уровня топлива, стрелка которого почти на нуле",
+          "public_path": "/images/articles/4c0794e8-20a4-43fb-a2ea-5f8f45d93f7d-1.png"
+        },
+        {
+          "alt": "Старая машина остановилась на тёмной дороге, позади видны фары другого автомобиля",
+          "public_path": "/images/articles/4c0794e8-20a4-43fb-a2ea-5f8f45d93f7d-2.jpg"
+        }
+      ],
+      "issue_id": "7024063a-5783-5744-8055-7b12fee04019",
+      "language": "rus",
+      "language_tag": "ru",
+      "metadata": "content/rus/articles/4c0794e8-20a4-43fb-a2ea-5f8f45d93f7d.json",
+      "metadata_sha256": "c5e89a2430c6a68a1157a47f1a7cb046f979d1d8a54624bfb5c37a45af3a2726",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "Детский уголок",
+      "source_revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+      "source_translation_key": "01042231a8ba556ff0bc5103f0ee2208f6612748cf2b55dd883f13c327b80d48",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Уповай — не бойся",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/rus/articles/4e180a0e-db17-4e62-9eb8-da82bbe72d17.html",
       "html_sha256": "a34a2a65f165e72913f63ea26561acd39d8a2b2dd863d72994a5e09ff66188c9",
       "human_reviewed": false,
