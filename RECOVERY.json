@@ -7129,7 +7129,7 @@
       "article_id": "304e1120-f241-4d9e-972b-c72dec82b134",
       "language": "nld",
       "latest_task": "1ce791673cdb52a6cd96442f84345179",
-      "processing_status": "in_batch",
+      "processing_status": "queued",
       "reason": "active"
     },
     {
