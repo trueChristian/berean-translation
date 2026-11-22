@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "6282b5e0b0244a89a49766cf7f8eb2bd",
   "campaign": "auto-bd7e4a0d6b44559887f9792aa2fa4eb3a623490aced8605127240726032536b0",
   "created_at": "2026-11-21T17:07:26+00:00",
   "events": [
@@ -28,18 +27,31 @@
         },
         "total_tokens": 12352
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 78,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 46,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8239,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8236,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8317
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "First body paragraph, quotation of 1 Samuel 3:1",
-      "severity": "major",
-      "source_quote": "“There was no open vision” (I Sam. 3:1).",
-      "suggested_fix": "Replace the full-verse quotation with a Korean rendering of only the quoted excerpt, such as <em>“열린 이상이 없었더라”</em>(삼상 3:1).",
-      "translation_quote": "“여호와의 말씀이 희귀하여 이상이 흔히 보이지 않았더라”(삼상 3:1)."
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-11-22T03:56:09+00:00",
   "id": "ef335839b4cd6b3ad7808d972272f16f",
   "issue_id": "14962b7b-2d94-5b43-a4c6-bbb78f074d1a",
   "language": "kor",
@@ -128,9 +140,11 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/cbf793416556696ee72b11d283016eab5bddf2775337c6138a1c2fd40203c25b.json",
   "stage": "review2",
   "stage_budget": {
@@ -144,7 +158,7 @@
     "total_reserved_usd": 0.584195,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "185b97cda696ff5f8dd7eedb4b0e07b692951558ceb527409cc25fd72f4c7bf1",
   "translation_model_actual": "gpt-6.1-sol"

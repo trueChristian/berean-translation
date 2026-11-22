@@ -65819,6 +65819,42 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/kor/articles/8389d62e-1ba0-47de-bf13-29a71ffa204c.html",
+      "html_sha256": "6fd98a548ea0f9e26977e65a0cfce06e218ad4d3388024e571d240ff70b983ce",
+      "human_reviewed": false,
+      "id": "8389d62e-1ba0-47de-bf13-29a71ffa204c",
+      "images": [
+        {
+          "alt": "풍경을 바라보는 로브 차림의 세 인물",
+          "public_path": "/images/articles/8389d62e-1ba0-47de-bf13-29a71ffa204c-1.png"
+        },
+        {
+          "alt": "데니와 재키 케너스턴, 그리고 그들의 가족",
+          "public_path": "/images/articles/8389d62e-1ba0-47de-bf13-29a71ffa204c-2.jpg"
+        },
+        {
+          "alt": "한 남자가 가족에게 책을 읽어 주고 가족이 식탁에 둘러앉아 있는 모습",
+          "public_path": "/images/articles/8389d62e-1ba0-47de-bf13-29a71ffa204c-3.png"
+        }
+      ],
+      "issue_id": "14962b7b-2d94-5b43-a4c6-bbb78f074d1a",
+      "language": "kor",
+      "language_tag": "ko",
+      "metadata": "content/kor/articles/8389d62e-1ba0-47de-bf13-29a71ffa204c.json",
+      "metadata_sha256": "31e3f6e83bd31d4fbf6cfb93db4e3907a09ad4da6d80517ad1685addd5003445",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": null,
+      "source_revision": "ccefc5a5c3d79409cc78319f94b5490718d30670",
+      "source_translation_key": "185b97cda696ff5f8dd7eedb4b0e07b692951558ceb527409cc25fd72f4c7bf1",
+      "status": "ready",
+      "subtitle": null,
+      "title": "우리 가정에 동기를 불어넣는 환상",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/kor/articles/85306410-6a2d-46f1-b6db-6d3450f7f908.html",
       "html_sha256": "37a6973ae86db92a94488b18e1cc236726cca82afcca6d8ca444099975f888cf",
       "human_reviewed": false,
