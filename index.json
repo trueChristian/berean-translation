@@ -88221,6 +88221,46 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/rus/articles/304e1120-f241-4d9e-972b-c72dec82b134.html",
+      "html_sha256": "42eaf9a031d7af5c1ea5ab20626d9231542ddac25af499e8c34ccf3af5078188",
+      "human_reviewed": false,
+      "id": "304e1120-f241-4d9e-972b-c72dec82b134",
+      "images": [
+        {
+          "alt": "Сидящая мать держит на руках ребёнка",
+          "public_path": "/images/articles/304e1120-f241-4d9e-972b-c72dec82b134-1.jpg"
+        },
+        {
+          "alt": "",
+          "public_path": "/images/articles/304e1120-f241-4d9e-972b-c72dec82b134-2.png"
+        },
+        {
+          "alt": "",
+          "public_path": "/images/articles/304e1120-f241-4d9e-972b-c72dec82b134-3.jpg"
+        },
+        {
+          "alt": "Большой дом у ручья",
+          "public_path": "/images/articles/304e1120-f241-4d9e-972b-c72dec82b134-4.jpg"
+        }
+      ],
+      "issue_id": "14962b7b-2d94-5b43-a4c6-bbb78f074d1a",
+      "language": "rus",
+      "language_tag": "ru",
+      "metadata": "content/rus/articles/304e1120-f241-4d9e-972b-c72dec82b134.json",
+      "metadata_sha256": "b14c8df4323b3114330bb4b9a1b3068fe3badb8e6ae933f13576bd52df765983",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": null,
+      "source_revision": "ccefc5a5c3d79409cc78319f94b5490718d30670",
+      "source_translation_key": "62bd3b8d5120818defff7fd66e6ca15022624bbed7e6fe7b6efb17cae98a6e3d",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Вопль материнского сердца",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/rus/articles/30796e2b-9ec4-4bcf-b9e3-7d40802ff1f9.html",
       "html_sha256": "6baddd223782a439fdacb4372c3ffc39f26438691158338a8d3ede4749c73a31",
       "human_reviewed": false,
