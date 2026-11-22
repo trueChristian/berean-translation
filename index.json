@@ -81706,6 +81706,46 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/por/articles/304e1120-f241-4d9e-972b-c72dec82b134.html",
+      "html_sha256": "8e55c0158fa5946d80eafb8bcdaa30bf02b4de9b57ed43197748f1c6116d5df8",
+      "human_reviewed": false,
+      "id": "304e1120-f241-4d9e-972b-c72dec82b134",
+      "images": [
+        {
+          "alt": "Uma mãe sentada segurando uma criança",
+          "public_path": "/images/articles/304e1120-f241-4d9e-972b-c72dec82b134-1.jpg"
+        },
+        {
+          "alt": "",
+          "public_path": "/images/articles/304e1120-f241-4d9e-972b-c72dec82b134-2.png"
+        },
+        {
+          "alt": "",
+          "public_path": "/images/articles/304e1120-f241-4d9e-972b-c72dec82b134-3.jpg"
+        },
+        {
+          "alt": "Uma casa grande ao lado de um riacho",
+          "public_path": "/images/articles/304e1120-f241-4d9e-972b-c72dec82b134-4.jpg"
+        }
+      ],
+      "issue_id": "14962b7b-2d94-5b43-a4c6-bbb78f074d1a",
+      "language": "por",
+      "language_tag": "pt",
+      "metadata": "content/por/articles/304e1120-f241-4d9e-972b-c72dec82b134.json",
+      "metadata_sha256": "31c662fbccc6c5f76af4903e7dd06b6dfd6b72b02204eb4f8101a48f4fa2b793",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": null,
+      "source_revision": "ccefc5a5c3d79409cc78319f94b5490718d30670",
+      "source_translation_key": "62bd3b8d5120818defff7fd66e6ca15022624bbed7e6fe7b6efb17cae98a6e3d",
+      "status": "ready",
+      "subtitle": null,
+      "title": "O clamor do coração de uma mãe",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/por/articles/30796e2b-9ec4-4bcf-b9e3-7d40802ff1f9.html",
       "html_sha256": "bd148a14e2e25d61d3a0326c6b9996c5f918efee41071d3dab2f304161ba6a27",
       "human_reviewed": false,
