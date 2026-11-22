@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Puisi, baris “Contentment is your ‘only crown’.”",
+      "severity": "minor",
+      "source_quote": "Contentment is your “only crown”.",
+      "suggested_fix": "“Rasa puas” menjadi “mahkotamu satu-satunya”.",
+      "translation_quote": "“Rasa puas” jadi “mahkotamu” yang buruk."
+    },
+    {
+      "location": "Puisi, baris “You have assumed, so unaware”",
+      "severity": "minor",
+      "source_quote": "You have assumed, so unaware",
+      "suggested_fix": "Yang tanpa sadar telah kau kenakan",
+      "translation_quote": "Yang kau kenakan, tanpa sadar tersingkir"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "03130854-5ffc-4cfe-9f0b-3d059ee3938a",
+    "response_id": "chatcmpl-Emzzjy2fyM4Oo3AlryoiYSgoTjYoN",
+    "usage": {
+      "completion_tokens": 1032,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 863,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7579,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7576,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8611
+    }
+  },
+  "received_at": "2026-11-22T11:32:20+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Puisi, baris “Contentment is your ‘only crown’.”",
+        "severity": "minor",
+        "source_quote": "Contentment is your “only crown”.",
+        "suggested_fix": "“Rasa puas” menjadi “mahkotamu satu-satunya”.",
+        "translation_quote": "“Rasa puas” jadi “mahkotamu” yang buruk."
+      },
+      {
+        "location": "Puisi, baris “You have assumed, so unaware”",
+        "severity": "minor",
+        "source_quote": "You have assumed, so unaware",
+        "suggested_fix": "Yang tanpa sadar telah kau kenakan",
+        "translation_quote": "Yang kau kenakan, tanpa sadar tersingkir"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}

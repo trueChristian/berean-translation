@@ -51580,6 +51580,46 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ind/articles/304e1120-f241-4d9e-972b-c72dec82b134.html",
+      "html_sha256": "3f00383349bdd2c09a74931eaa67887079eae8f8f96fd90bcfa34b04e8aeb56e",
+      "human_reviewed": false,
+      "id": "304e1120-f241-4d9e-972b-c72dec82b134",
+      "images": [
+        {
+          "alt": "Seorang ibu duduk sambil menggendong anak",
+          "public_path": "/images/articles/304e1120-f241-4d9e-972b-c72dec82b134-1.jpg"
+        },
+        {
+          "alt": "",
+          "public_path": "/images/articles/304e1120-f241-4d9e-972b-c72dec82b134-2.png"
+        },
+        {
+          "alt": "",
+          "public_path": "/images/articles/304e1120-f241-4d9e-972b-c72dec82b134-3.jpg"
+        },
+        {
+          "alt": "Sebuah rumah besar di samping aliran sungai",
+          "public_path": "/images/articles/304e1120-f241-4d9e-972b-c72dec82b134-4.jpg"
+        }
+      ],
+      "issue_id": "14962b7b-2d94-5b43-a4c6-bbb78f074d1a",
+      "language": "ind",
+      "language_tag": "id",
+      "metadata": "content/ind/articles/304e1120-f241-4d9e-972b-c72dec82b134.json",
+      "metadata_sha256": "a58ba61b0dac52d8118c529f9dca752f09e6d74b4aed747a50afe1222d35a11b",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "ccefc5a5c3d79409cc78319f94b5490718d30670",
+      "source_translation_key": "62bd3b8d5120818defff7fd66e6ca15022624bbed7e6fe7b6efb17cae98a6e3d",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Seruan Hati Seorang Ibu",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ind/articles/30796e2b-9ec4-4bcf-b9e3-7d40802ff1f9.html",
       "html_sha256": "a04d582a360f8b10d6711b5d30045fb4c2d1897441868a416b5e99c6e20a2172",
       "human_reviewed": false,
