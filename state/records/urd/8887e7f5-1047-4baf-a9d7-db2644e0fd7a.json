@@ -1,0 +1,15 @@
+{
+  "article_id": "8887e7f5-1047-4baf-a9d7-db2644e0fd7a",
+  "history": [
+    {
+      "at": "2026-11-23T21:55:47+00:00",
+      "campaign": "auto-e14eea2b8119a4f7bb38ee5c9c1ba1566fc80fe3fb88f2a077ec858046320cd9",
+      "event": "automatic_requested",
+      "previous_task": null,
+      "task": "730199e718cdd282747268182f9b3e24"
+    }
+  ],
+  "language": "urd",
+  "latest_task": "730199e718cdd282747268182f9b3e24",
+  "published": null
+}
