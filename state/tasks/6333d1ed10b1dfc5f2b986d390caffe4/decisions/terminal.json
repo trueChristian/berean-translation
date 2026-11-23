@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "translation.html, p.drop-cap",
+      "severity": "minor",
+      "source_quote": "toddlers hanging on my skirts",
+      "suggested_fix": "להחליף את „פעוטות שאחזו בחצאתי” ב־„פעוטות שאחזו בחצאית שלי”.",
+      "translation_quote": "פעוטות שאחזו בחצאתי"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

@@ -41248,6 +41248,46 @@
     {
       "ai_notice_required": true,
       "direction": "rtl",
+      "html": "content/heb/articles/304e1120-f241-4d9e-972b-c72dec82b134.html",
+      "html_sha256": "296612421e71d64372a389d00bd00bcb3e6b7bae8807d5ed9bd4835a245e767e",
+      "human_reviewed": false,
+      "id": "304e1120-f241-4d9e-972b-c72dec82b134",
+      "images": [
+        {
+          "alt": "אם יושבת ומחזיקה ילד",
+          "public_path": "/images/articles/304e1120-f241-4d9e-972b-c72dec82b134-1.jpg"
+        },
+        {
+          "alt": "",
+          "public_path": "/images/articles/304e1120-f241-4d9e-972b-c72dec82b134-2.png"
+        },
+        {
+          "alt": "",
+          "public_path": "/images/articles/304e1120-f241-4d9e-972b-c72dec82b134-3.jpg"
+        },
+        {
+          "alt": "בית גדול לצד נחל",
+          "public_path": "/images/articles/304e1120-f241-4d9e-972b-c72dec82b134-4.jpg"
+        }
+      ],
+      "issue_id": "14962b7b-2d94-5b43-a4c6-bbb78f074d1a",
+      "language": "heb",
+      "language_tag": "he",
+      "metadata": "content/heb/articles/304e1120-f241-4d9e-972b-c72dec82b134.json",
+      "metadata_sha256": "1cd974854e8a50560f70c13162b288206edcc347cda2eacba3f74f0a4e8b17c4",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": null,
+      "source_revision": "ccefc5a5c3d79409cc78319f94b5490718d30670",
+      "source_translation_key": "62bd3b8d5120818defff7fd66e6ca15022624bbed7e6fe7b6efb17cae98a6e3d",
+      "status": "ready",
+      "subtitle": null,
+      "title": "זעקת לבה של אם",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
       "html": "content/heb/articles/30796e2b-9ec4-4bcf-b9e3-7d40802ff1f9.html",
       "html_sha256": "b3d8fd7109c8387d60c6dd5feb471424cfc3bdb8753d2600f6ce1d6e60df4546",
       "human_reviewed": false,

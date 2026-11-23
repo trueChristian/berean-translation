@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "3ef7d524-c722-455f-84fa-650d0131541e",
+    "response_id": "chatcmpl-EnDTnmbL0Q7yLJFihx6DquwR2McC4",
+    "usage": {
+      "completion_tokens": 193,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 87,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7586,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7583,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7779
+    }
+  },
+  "received_at": "2026-11-23T03:16:17+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "translation.html, p.drop-cap",
+        "severity": "minor",
+        "source_quote": "toddlers hanging on my skirts",
+        "suggested_fix": "להחליף את „פעוטות שאחזו בחצאתי” ב־„פעוטות שאחזו בחצאית שלי”.",
+        "translation_quote": "פעוטות שאחזו בחצאתי"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}
