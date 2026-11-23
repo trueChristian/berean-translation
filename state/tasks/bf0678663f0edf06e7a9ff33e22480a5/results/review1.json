@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "bcc4503e-d94e-47d7-ac68-980f998a8b44",
+    "response_id": "chatcmpl-EnDSJCo0Pm43cM9a9RDTR4WqXP7bi",
+    "usage": {
+      "completion_tokens": 897,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 786,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5566,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5563,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6463
+    }
+  },
+  "received_at": "2026-11-23T03:15:40+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "पैराग्राफ 3",
+        "severity": "major",
+        "source_quote": "“when the slain of the Lord are many”",
+        "suggested_fix": "“जब प्रभु के सामने आत्मिक रूप से टूटे हुए लोगों की संख्या बहुत होती है”",
+        "translation_quote": "“जब प्रभु के मारे गए लोगों की संख्या बहुत होती है”"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 93
+  }
+}
