@@ -29448,6 +29448,46 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ell/articles/304e1120-f241-4d9e-972b-c72dec82b134.html",
+      "html_sha256": "977b67dcf5a2da470d0cdd55526c83cbc77cf072782c6f15fd466406556dcdf8",
+      "human_reviewed": false,
+      "id": "304e1120-f241-4d9e-972b-c72dec82b134",
+      "images": [
+        {
+          "alt": "Μια μητέρα καθισμένη, κρατώντας ένα παιδί",
+          "public_path": "/images/articles/304e1120-f241-4d9e-972b-c72dec82b134-1.jpg"
+        },
+        {
+          "alt": "",
+          "public_path": "/images/articles/304e1120-f241-4d9e-972b-c72dec82b134-2.png"
+        },
+        {
+          "alt": "",
+          "public_path": "/images/articles/304e1120-f241-4d9e-972b-c72dec82b134-3.jpg"
+        },
+        {
+          "alt": "Ένα μεγάλο σπίτι δίπλα σε ρυάκι",
+          "public_path": "/images/articles/304e1120-f241-4d9e-972b-c72dec82b134-4.jpg"
+        }
+      ],
+      "issue_id": "14962b7b-2d94-5b43-a4c6-bbb78f074d1a",
+      "language": "ell",
+      "language_tag": "el",
+      "metadata": "content/ell/articles/304e1120-f241-4d9e-972b-c72dec82b134.json",
+      "metadata_sha256": "2e985a1cf8b5d4f958cb7690876f5e29f06ccacb06982e46e8a103db808f6560",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": null,
+      "source_revision": "ccefc5a5c3d79409cc78319f94b5490718d30670",
+      "source_translation_key": "62bd3b8d5120818defff7fd66e6ca15022624bbed7e6fe7b6efb17cae98a6e3d",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Η κραυγή της καρδιάς μιας μητέρας",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ell/articles/31ea7041-cab6-4ccd-9ead-04cc949321a6.html",
       "html_sha256": "9bb4fc61e245e1615e0b305ac99bd7cad3538e5a399e64f22b775a646d97cc4e",
       "human_reviewed": false,
