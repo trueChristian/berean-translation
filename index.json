@@ -42826,6 +42826,42 @@
     {
       "ai_notice_required": true,
       "direction": "rtl",
+      "html": "content/heb/articles/8389d62e-1ba0-47de-bf13-29a71ffa204c.html",
+      "html_sha256": "47ca4279e0bec817f0f15d68d35672434a326da9f6e9a87a263966f51d02317d",
+      "human_reviewed": false,
+      "id": "8389d62e-1ba0-47de-bf13-29a71ffa204c",
+      "images": [
+        {
+          "alt": "שלוש דמויות לבושות גלימות מביטות אל עבר נוף",
+          "public_path": "/images/articles/8389d62e-1ba0-47de-bf13-29a71ffa204c-1.png"
+        },
+        {
+          "alt": "דני וג׳קי קנסטון עם משפחתם",
+          "public_path": "/images/articles/8389d62e-1ba0-47de-bf13-29a71ffa204c-2.jpg"
+        },
+        {
+          "alt": "משפחה יושבת סביב שולחן בעוד גבר קורא בפניהם",
+          "public_path": "/images/articles/8389d62e-1ba0-47de-bf13-29a71ffa204c-3.png"
+        }
+      ],
+      "issue_id": "14962b7b-2d94-5b43-a4c6-bbb78f074d1a",
+      "language": "heb",
+      "language_tag": "he",
+      "metadata": "content/heb/articles/8389d62e-1ba0-47de-bf13-29a71ffa204c.json",
+      "metadata_sha256": "406497c46c19f3ee5abda439e749053b71731090aee1f06f064aff881ca0e159",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "ccefc5a5c3d79409cc78319f94b5490718d30670",
+      "source_translation_key": "185b97cda696ff5f8dd7eedb4b0e07b692951558ceb527409cc25fd72f4c7bf1",
+      "status": "ready",
+      "subtitle": null,
+      "title": "חזון מניע לבתינו",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
       "html": "content/heb/articles/85306410-6a2d-46f1-b6db-6d3450f7f908.html",
       "html_sha256": "8a709d171cf7dae8f553a78ff564fc59e1ff14ab7211afba78432246ab2a9672",
       "human_reviewed": false,

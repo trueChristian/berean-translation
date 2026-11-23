@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-23T13:02:25+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph 1\",\"severity\":\"minor\",\"source_quote\":\"“The ministers of the day had lost their relationship with God”\",\"suggested_fix\":\"Replace מנהיגי העם with משרתי אלוהים to retain the religious-ministry sense of “ministers.”\",\"translation_quote\":\"מנהיגי העם באותה תקופה איבדו את הקשר שלהם עם אלוהים\"},{\"location\":\"Paragraph 1\",\"severity\":\"minor\",\"source_quote\":\"“God uses a few revealing words”\",\"suggested_fix\":\"Replace מילים חושפניות with מילים מאירות או מילים שמגלות את המצב; חושפניות suggests something exposing or indecent in Hebrew.\",\"translation_quote\":\"אלוהים משתמש בכמה מילים חושפניות\"}],\"findings_complete\":true,\"passed\":true,\"score\":97}",
+    "content_bytes": 823,
+    "content_evidence_truncated": false,
+    "content_sha256": "a11c8413820507d3fbda5a7c5699b3edf418cb7642e4f86ea9b7bbef7b4f07f5",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 993,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 803,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7740,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7737,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8733
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review2",
+  "translation_attempts": 2
+}

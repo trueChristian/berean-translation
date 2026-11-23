@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph 1",
+      "severity": "minor",
+      "source_quote": "“The ministers of the day had lost their relationship with God”",
+      "suggested_fix": "Replace מנהיגי העם with משרתי אלוהים to retain the religious-ministry sense of “ministers.”",
+      "translation_quote": "מנהיגי העם באותה תקופה איבדו את הקשר שלהם עם אלוהים"
+    },
+    {
+      "location": "Paragraph 1",
+      "severity": "minor",
+      "source_quote": "“God uses a few revealing words”",
+      "suggested_fix": "Replace מילים חושפניות with מילים מאירות או מילים שמגלות את המצב; חושפניות suggests something exposing or indecent in Hebrew.",
+      "translation_quote": "אלוהים משתמש בכמה מילים חושפניות"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}
