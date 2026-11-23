@@ -1,0 +1,154 @@
+{
+  "findings": [
+    {
+      "location": "html, paragraph 2",
+      "severity": "major",
+      "source_quote": "getting each quarterly issue out in a more timely manner ... Pray for us",
+      "suggested_fix": "Badili “kila toleo la robo mwaka lipitie kwa wakati” kuwa “kila toleo la robo mwaka litolewe kwa wakati unaofaa zaidi”, na “Muombee” kuwa “Tuombeeni”.",
+      "translation_quote": "kila toleo la robo mwaka lipitie kwa wakati ... Muombee"
+    },
+    {
+      "location": "html, paragraph 3",
+      "severity": "major",
+      "source_quote": "It is filed away and used by the board",
+      "suggested_fix": "Badili kuwa “Huhifadhiwa kwenye mafaili na kutumiwa na bodi”.",
+      "translation_quote": "Huwekwa kibarua na kutumika na bodi"
+    },
+    {
+      "location": "html, paragraph 4",
+      "severity": "major",
+      "source_quote": "two young brothers ... Hymn Histories being written by one of our board members",
+      "suggested_fix": "Badili “ndugu wawili wadogo” kuwa “ndugu wawili vijana”, na “inayoongezwa na mmoja wa wanabodi wetu” kuwa “inayoandikwa na mmoja wa wanabodi wetu”.",
+      "translation_quote": "ndugu wawili wadogo ... Historia ya Nyimbo za Ibada inayoongezwa na mmoja wa wanabodi wetu"
+    },
+    {
+      "location": "html, paragraph 5, Moses",
+      "severity": "major",
+      "source_quote": "He was uprooted from his comfortable lifestyle in Egypt as an adopted son of royalty",
+      "suggested_fix": "Badili kuwa “Aliondolewa katika maisha yake ya starehe huko Misri, ambako alikuwa mwana wa kuasili katika familia ya kifalme”.",
+      "translation_quote": "Aliteteshwa kutoka maisha yake ya starehe Misri kama mtoto aliyekubaliwa wa kifalme"
+    },
+    {
+      "location": "html, paragraph 5, God's care",
+      "severity": "major",
+      "source_quote": "the God of the Bible doesn’t just drop us, or turn His back on us",
+      "suggested_fix": "Badili kuwa “Mungu wa Biblia hatuachi tu wala hatugeuzii mgongo”.",
+      "translation_quote": "Mungu wa Biblia hatuachi tu, wala haiendelei kuliweka mgongo wetu"
+    },
+    {
+      "location": "html, paragraph 6",
+      "severity": "major",
+      "source_quote": "many conservative Anabaptists",
+      "suggested_fix": "Badili “Waanabaptisti wengi wa kijijini” kuwa “Waanabaptisti wengi wanaoshikilia mapokeo ya imani yao”.",
+      "translation_quote": "Waanabaptisti wengi wa kijijini"
+    },
+    {
+      "location": "html, paragraph 7, opening",
+      "severity": "major",
+      "source_quote": "our “old man”",
+      "suggested_fix": "Badili “mwanaume wetu wa zamani” kuwa “utu wetu wa kale”.",
+      "translation_quote": "mwanaume wetu wa zamani"
+    },
+    {
+      "location": "html, paragraph 7, Daniel 4:31-32 quotation",
+      "severity": "major",
+      "source_quote": "the most High ruleth in the kingdom of men, and giveth it to whomsoever he will",
+      "suggested_fix": "Badili “na humzika kwa yeyote atakayemtaka” kuwa “na humpa ufalme huo yeyote amtakaye”. Hifadhi rejea iliyopo.",
+      "translation_quote": "Aliye juu mno hutawala katika ufalme wa wanadamu, na humzika kwa yeyote atakayemtaka"
+    },
+    {
+      "location": "html, paragraph 8, two-kingdom principle",
+      "severity": "major",
+      "source_quote": "a personal world view that is founded on the two-kingdom principle",
+      "suggested_fix": "Badili kuwa “mtazamo binafsi wa ulimwengu uliojengwa juu ya kanuni ya falme mbili”.",
+      "translation_quote": "mtazamo wa dunia binafsi uliogawanywa kwa kanuni ya mafalme mawili"
+    },
+    {
+      "location": "html, paragraph 8, Hebrews 11:13-16 quotation",
+      "severity": "major",
+      "source_quote": "strangers and pilgrims on the earth ... declare plainly that [we] seek a country ... God is not ashamed to be called [our] God",
+      "suggested_fix": "Badili sehemu husika kuwa “wageni na wasafiri duniani”, “tunatangaza wazi kwamba [tunatafuta] nchi”, na “Mungu haoni haya kuitwa Mungu [wetu]”. Hifadhi alama za kudokeza yaliyoachwa na rejea.",
+      "translation_quote": "wageni na wapanda-famba duniani ... tunatangaza wazi kwamba [tunasubiri] nchi ... Mungu hakudharau kuitwa Mungu wetu"
+    },
+    {
+      "location": "html, paragraph 10, elected officials",
+      "severity": "major",
+      "source_quote": "to view them as His servants, and to speak about them with respect",
+      "suggested_fix": "Badili kuwa “tuwaone kuwa watumishi Wake, na kuzungumza kuwahusu kwa heshima”.",
+      "translation_quote": "tuwaone kuwa wateule Wake, na kuzungumza nao kwa heshima"
+    },
+    {
+      "location": "html, paragraph 10, final sentence",
+      "severity": "major",
+      "source_quote": "through hardening the hearts of ungodly men in positions of power ... His sovereign will",
+      "suggested_fix": "Badili “kwa kuimarisha mioyo ya wanaume wasio waaminifu wenye nafasi za mamlaka” kuwa “kwa kuifanya mioyo ya watu wasiomcha Mungu walio katika nafasi za mamlaka kuwa migumu”, na “mapenzi Yake ya utawala” kuwa “mapenzi Yake akiwa Mtawala Mkuu”.",
+      "translation_quote": "kwa kuimarisha mioyo ya wanaume wasio waaminifu wenye nafasi za mamlaka ... mapenzi Yake ya utawala"
+    },
+    {
+      "location": "html, paragraph 11, 1 Timothy 2:1-2 quotation",
+      "severity": "major",
+      "source_quote": "supplications, prayers, intercessions, and giving of thanks ... in all godliness and honesty",
+      "suggested_fix": "Badili orodha kuwa “dua, sala, maombi kwa ajili ya wengine, na shukrani”, na “katika wema wote na uadilifu” kuwa “katika uchaji wote wa Mungu na uadilifu”.",
+      "translation_quote": "kutiwa maombi, maombi, kuomboleza, na shukrani ... katika wema wote na uadilifu"
+    },
+    {
+      "location": "html, paragraph 11, private prayer",
+      "severity": "major",
+      "source_quote": "prayer that is produced in the privacy of his or her closet",
+      "suggested_fix": "Badili “maombi yanayotokana na faragha ya kabati la mtu” kuwa “maombi anayotoa faraghani katika chumba chake”.",
+      "translation_quote": "maombi yanayotokana na faragha ya kabati la mtu"
+    },
+    {
+      "location": "html, paragraph 11, Matthew 17:20 quotation",
+      "severity": "major",
+      "source_quote": "verily I say unto you ... Remove hence to yonder place; and it shall remove; and nothing shall be impossible unto you",
+      "suggested_fix": "Badili sehemu husika kuwa “kweli nawaambia” na “Hama hapa uende kule; nao utahama; wala hakuna jambo litakaloshindikana kwenu”.",
+      "translation_quote": "kwa kweli nawapongeza ... Hama hapa mkale pale; nao watahama; wala hakuna kitakachokuwa kikizuilika kwenu"
+    },
+    {
+      "location": "html, paragraph 11, James 5:16 quotation",
+      "severity": "major",
+      "source_quote": "The effectual fervent prayer of a righteous man availeth much",
+      "suggested_fix": "Badili nukuu kuwa “Maombi yenye bidii ya mtu mwenye haki yana nguvu na hutimiza mengi”, ukihifadhi rejea.",
+      "translation_quote": "Maombi ya mtu mwenye haki yenye upole na yenye shauku huwa na matokeo makubwa"
+    },
+    {
+      "location": "html, final figure, img alt",
+      "severity": "major",
+      "source_quote": "A straight road through a misty autumn forest",
+      "suggested_fix": "Badili alt pekee kuwa “Barabara iliyonyooka inayopita katika msitu wenye ukungu wakati wa majira ya kupukutika kwa majani”. Hifadhi sifa nyingine za img.",
+      "translation_quote": "Barabara iliyo wima kupitia msitu uliojaa ukungu wa msimu wa kung'aa"
+    },
+    {
+      "location": "html, greeting",
+      "severity": "minor",
+      "source_quote": "our Saviour",
+      "suggested_fix": "Sahihisha “Mwokoe wetu” kuwa “Mwokozi wetu”.",
+      "translation_quote": "Mwokoe wetu"
+    },
+    {
+      "location": "html, paragraph 3",
+      "severity": "minor",
+      "source_quote": "to make our magazine better",
+      "suggested_fix": "Badili kuwa “za kulifanya jarida letu liwe bora”.",
+      "translation_quote": "za kuifanya jarida letu liwe bora"
+    },
+    {
+      "location": "html, h3",
+      "severity": "minor",
+      "source_quote": "Church History and Should A Christian Vote",
+      "suggested_fix": "Badili kichwa kuwa “Historia ya Kanisa na Je, Mkristo Anapaswa Kupiga Kura?”",
+      "translation_quote": "Historia ya Kanisa na Je, Mkristo Afanye Kura?"
+    },
+    {
+      "location": "html, paragraph 8, opening and closing",
+      "severity": "minor",
+      "source_quote": "Throughout the history ... it is our encouragement ... come out from among them, and be ye separate",
+      "suggested_fix": "Badili “Kotoka katika historia” kuwa “Katika historia yote”, “ni wanihimiza wetu” kuwa “tunawahimiza”, na “na wajitofautishe” kuwa “na mjitenge”.",
+      "translation_quote": "Kotoka katika historia ... ni wanihimiza wetu ... tokeeni katikati yao, na wajitofautishe"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
