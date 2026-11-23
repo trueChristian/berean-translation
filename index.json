@@ -21814,6 +21814,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/cmn/articles/ba09e248-cc12-4573-9db1-cceb885953ac.html",
+      "html_sha256": "ec55e144492db938d1a097e2f4f325a00a4f8808f2cbde64ea9bd32678d0785b",
+      "human_reviewed": false,
+      "id": "ba09e248-cc12-4573-9db1-cceb885953ac",
+      "images": [
+        {
+          "alt": "耶稣被钉在十字架上，周围有士兵和旁观者的受难场景",
+          "public_path": "/images/articles/ba09e248-cc12-4573-9db1-cceb885953ac-1.jpg"
+        },
+        {
+          "alt": "复活的耶稣在坟墓附近向守卫显现",
+          "public_path": "/images/articles/ba09e248-cc12-4573-9db1-cceb885953ac-2.jpg"
+        }
+      ],
+      "issue_id": "7024063a-5783-5744-8055-7b12fee04019",
+      "language": "cmn",
+      "language_tag": "zh-Hans",
+      "metadata": "content/cmn/articles/ba09e248-cc12-4573-9db1-cceb885953ac.json",
+      "metadata_sha256": "63e82aad51f497bbf3566e3b8955c05b08e635b2b6b97fe13cd5ccd27ea78161",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "精选文章",
+      "source_revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+      "source_translation_key": "a5f72e9441d93612f6993f0627e134f72b1dfaa99c23e918ac9d9e71a384aa4c",
+      "status": "ready",
+      "subtitle": null,
+      "title": "基督已经完成的工作",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/cmn/articles/ba15e3da-aab4-401c-9ec7-64b88ac22833.html",
       "html_sha256": "9a3f5e39390bc8c2ea464e7906c7d4758a1f91e3f48ae34ec0688978cb99dca3",
       "human_reviewed": false,
