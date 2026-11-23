@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "633116e7198945a8a64ed7dae0ccf4ec",
   "campaign": "auto-c3ef946eaeaf5bc6669a4e9938af797b22e43b70593e960cf6a29a1d5f618937",
   "created_at": "2026-11-21T18:00:23+00:00",
   "events": [
@@ -28,18 +27,31 @@
         },
         "total_tokens": 5036
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 56,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 24,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3518,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 3515,
+          "cached_tokens": 0
+        },
+        "total_tokens": 3574
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "HTML, абзац о семинариях и церковной жизни",
-      "severity": "major",
-      "source_quote": "sermons that sound good—as if they were being rated as speeches—but have no consequential value except complacency",
-      "suggested_fix": "...и проповедей, которые звучат красиво — словно их оценивают как речи, — но не приносят никакой существенной пользы, кроме как порождают самоуспокоенность.",
-      "translation_quote": "проповедей, которые звучат красиво — словно их оценивают как речи, — но не имеют никакой практической ценности, кроме как усыплять бдительность"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-11-23T03:16:32+00:00",
   "id": "d36f2225f4c189432d2f548f713ae8e1",
   "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
   "language": "rus",
@@ -128,9 +140,11 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/28687181c0da87f5b6b15f73e63e930540bbe25f325583b69aa28fba83fcc0fc.json",
   "stage": "review2",
   "stage_budget": {
@@ -144,7 +158,7 @@
     "total_reserved_usd": 0.551198,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "777174504c2a69b7865dc06d6a82e4887ccbbba320896ef87aad1241b41a3dbe",
   "translation_model_actual": "gpt-6.1-sol"

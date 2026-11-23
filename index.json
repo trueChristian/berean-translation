@@ -89933,6 +89933,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/rus/articles/6f528c85-5ee6-4ccd-804f-63652b5c3a1d.html",
+      "html_sha256": "a6209026f0edf65e567b249dec28f216e1f13d6ff2d2c9e8ac0c5e7c15965241",
+      "human_reviewed": false,
+      "id": "6f528c85-5ee6-4ccd-804f-63652b5c3a1d",
+      "images": [
+        {
+          "alt": "Черно-белый глобус, в центре которого — Африка",
+          "public_path": "/images/articles/6f528c85-5ee6-4ccd-804f-63652b5c3a1d-1.png"
+        }
+      ],
+      "issue_id": "04a01f9c-a7aa-5c96-91a0-e3fdca6d3612",
+      "language": "rus",
+      "language_tag": "ru",
+      "metadata": "content/rus/articles/6f528c85-5ee6-4ccd-804f-63652b5c3a1d.json",
+      "metadata_sha256": "f8093fb3cf51f1417b7cece21b1c6e1e2c162f288fdda1fbb4041ffb6b7beb70",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": null,
+      "source_revision": "47fbf61724e9db15266a7f4edf1673f6aa47f52e",
+      "source_translation_key": "777174504c2a69b7865dc06d6a82e4887ccbbba320896ef87aad1241b41a3dbe",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Мы — христиане для всего мира",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/rus/articles/706a8a3f-0194-434e-a3c9-27c1635ec6f9.html",
       "html_sha256": "79fad5204c82dd3bd773bf846bf0a919ab253895c494eb14cd1f0254e0ac1a8d",
       "human_reviewed": false,
