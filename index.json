@@ -67646,6 +67646,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/kor/articles/ba09e248-cc12-4573-9db1-cceb885953ac.html",
+      "html_sha256": "a4dbcbd77afd392511841f3197af7ed6e4a46d337cb3c9251e569d0609220f9d",
+      "human_reviewed": false,
+      "id": "ba09e248-cc12-4573-9db1-cceb885953ac",
+      "images": [
+        {
+          "alt": "군인들과 구경꾼들이 지켜보는 가운데 예수님께서 십자가에 달리신 장면",
+          "public_path": "/images/articles/ba09e248-cc12-4573-9db1-cceb885953ac-1.jpg"
+        },
+        {
+          "alt": "무덤 근처에서 경비병들 앞에 나타나신 부활하신 예수님",
+          "public_path": "/images/articles/ba09e248-cc12-4573-9db1-cceb885953ac-2.jpg"
+        }
+      ],
+      "issue_id": "7024063a-5783-5744-8055-7b12fee04019",
+      "language": "kor",
+      "language_tag": "ko",
+      "metadata": "content/kor/articles/ba09e248-cc12-4573-9db1-cceb885953ac.json",
+      "metadata_sha256": "f62076396e5e8c36e10d2cf9111c207818cd6a10d5355efb80dd9c8c6d7888fa",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "특집 기사",
+      "source_revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+      "source_translation_key": "a5f72e9441d93612f6993f0627e134f72b1dfaa99c23e918ac9d9e71a384aa4c",
+      "status": "ready",
+      "subtitle": null,
+      "title": "그리스도의 완성된 사역",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/kor/articles/ba15e3da-aab4-401c-9ec7-64b88ac22833.html",
       "html_sha256": "2eb6aa30cda1ffee46c097782650093efb435bab6bcbc242e926884bf91d8adb",
       "human_reviewed": false,
