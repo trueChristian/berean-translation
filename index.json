@@ -57858,6 +57858,46 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ita/articles/304e1120-f241-4d9e-972b-c72dec82b134.html",
+      "html_sha256": "ca268bfa2ef3c1785f12bd86f5bbcae0d614d0f565908cc6d873286c88ad5c60",
+      "human_reviewed": false,
+      "id": "304e1120-f241-4d9e-972b-c72dec82b134",
+      "images": [
+        {
+          "alt": "Una madre seduta che tiene in braccio un bambino",
+          "public_path": "/images/articles/304e1120-f241-4d9e-972b-c72dec82b134-1.jpg"
+        },
+        {
+          "alt": "",
+          "public_path": "/images/articles/304e1120-f241-4d9e-972b-c72dec82b134-2.png"
+        },
+        {
+          "alt": "",
+          "public_path": "/images/articles/304e1120-f241-4d9e-972b-c72dec82b134-3.jpg"
+        },
+        {
+          "alt": "Una grande casa accanto a un ruscello",
+          "public_path": "/images/articles/304e1120-f241-4d9e-972b-c72dec82b134-4.jpg"
+        }
+      ],
+      "issue_id": "14962b7b-2d94-5b43-a4c6-bbb78f074d1a",
+      "language": "ita",
+      "language_tag": "it",
+      "metadata": "content/ita/articles/304e1120-f241-4d9e-972b-c72dec82b134.json",
+      "metadata_sha256": "b30d8f57ba99224ad06ea9d1f5deafe4e3f0ca364f8e083c69813e6a3c39daa4",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": null,
+      "source_revision": "ccefc5a5c3d79409cc78319f94b5490718d30670",
+      "source_translation_key": "62bd3b8d5120818defff7fd66e6ca15022624bbed7e6fe7b6efb17cae98a6e3d",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Il grido del cuore di una madre",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ita/articles/30796e2b-9ec4-4bcf-b9e3-7d40802ff1f9.html",
       "html_sha256": "fa3286af16a0cea5a7c72382e7398d4559b1cedbeaccebfdc172f90bd3b4d334",
       "human_reviewed": false,
