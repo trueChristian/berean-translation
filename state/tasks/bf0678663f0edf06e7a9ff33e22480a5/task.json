@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "4e01ad2b15824ff7ba7b42fa90a8dd7c",
   "campaign": "auto-45eab07080d4085c6da9ec616f9fcb8036d2625e99f5fb624bc96aa797db8f6c",
   "created_at": "2026-11-22T20:22:10+00:00",
   "events": [
@@ -68,18 +67,46 @@
         },
         "total_tokens": 8107
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 831,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 621,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5565,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 5562,
+          "cached_tokens": 0
+        },
+        "total_tokens": 6396
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "पैराग्राफ 3",
-      "severity": "major",
-      "source_quote": "“when the slain of the Lord are many”",
-      "suggested_fix": "“जब प्रभु के सामने आत्मिक रूप से टूटे हुए लोगों की संख्या बहुत होती है”",
-      "translation_quote": "“जब प्रभु के मारे गए लोगों की संख्या बहुत होती है”"
+      "location": "Paragraph beginning “The object must not be…”",
+      "severity": "minor",
+      "source_quote": "“to convict the conscience”",
+      "suggested_fix": "“विवेक को पाप का बोध कराना”",
+      "translation_quote": "“विवेक को दोषी ठहराना”"
+    },
+    {
+      "location": "Final paragraph, sentence about the cloud of glory",
+      "severity": "minor",
+      "source_quote": "“formed by the incense of a church whose flame of prayer is ascending to him”",
+      "suggested_fix": "“ऐसी कलीसिया की धूपदान से उठती सुगंध से बना, जिसकी प्रार्थना की ज्वाला उसकी ओर उठ रही हो”",
+      "translation_quote": "“ऐसी कलीसिया की प्रार्थना की धूप से बनता है जिसकी प्रार्थना की ज्वाला उसकी ओर उठ रही हो”"
     }
   ],
+  "finished_at": "2026-11-23T13:02:07+00:00",
   "id": "bf0678663f0edf06e7a9ff33e22480a5",
   "issue_id": "14962b7b-2d94-5b43-a4c6-bbb78f074d1a",
   "language": "hin",
@@ -168,7 +195,7 @@
     }
   },
   "protected": false,
-  "quality_score": 93,
+  "quality_score": 97,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
@@ -188,7 +215,7 @@
     "total_reserved_usd": 0.08802,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "e2b492210d043d06ffd0912132ecb4f7893b24d6919894c9749c88b4c9993674",
   "translation_model_actual": "gpt-6-luna"

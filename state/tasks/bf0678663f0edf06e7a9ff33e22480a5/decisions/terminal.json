@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph beginning “The object must not be…”",
+      "severity": "minor",
+      "source_quote": "“to convict the conscience”",
+      "suggested_fix": "“विवेक को पाप का बोध कराना”",
+      "translation_quote": "“विवेक को दोषी ठहराना”"
+    },
+    {
+      "location": "Final paragraph, sentence about the cloud of glory",
+      "severity": "minor",
+      "source_quote": "“formed by the incense of a church whose flame of prayer is ascending to him”",
+      "suggested_fix": "“ऐसी कलीसिया की धूपदान से उठती सुगंध से बना, जिसकी प्रार्थना की ज्वाला उसकी ओर उठ रही हो”",
+      "translation_quote": "“ऐसी कलीसिया की प्रार्थना की धूप से बनता है जिसकी प्रार्थना की ज्वाला उसकी ओर उठ रही हो”"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

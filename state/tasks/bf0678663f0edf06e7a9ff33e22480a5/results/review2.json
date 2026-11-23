@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "28a90e93-882a-42e3-8777-2debfbb28082",
+    "response_id": "chatcmpl-EnLhsibtjFtVuHAdrjJRmwh9HJp77",
+    "usage": {
+      "completion_tokens": 831,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 621,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5565,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5562,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6396
+    }
+  },
+  "received_at": "2026-11-23T13:02:07+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph beginning “The object must not be…”",
+        "severity": "minor",
+        "source_quote": "“to convict the conscience”",
+        "suggested_fix": "“विवेक को पाप का बोध कराना”",
+        "translation_quote": "“विवेक को दोषी ठहराना”"
+      },
+      {
+        "location": "Final paragraph, sentence about the cloud of glory",
+        "severity": "minor",
+        "source_quote": "“formed by the incense of a church whose flame of prayer is ascending to him”",
+        "suggested_fix": "“ऐसी कलीसिया की धूपदान से उठती सुगंध से बना, जिसकी प्रार्थना की ज्वाला उसकी ओर उठ रही हो”",
+        "translation_quote": "“ऐसी कलीसिया की प्रार्थना की धूप से बनता है जिसकी प्रार्थना की ज्वाला उसकी ओर उठ रही हो”"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 97
+  }
+}
