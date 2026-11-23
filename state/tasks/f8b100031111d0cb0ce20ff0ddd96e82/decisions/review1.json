@@ -1,0 +1,105 @@
+{
+  "findings": [
+    {
+      "location": "html, paragraph beginning “När Jesus visade sig”",
+      "severity": "major",
+      "source_quote": "after their long night of fruitless toil",
+      "suggested_fix": "Ändra ”deras långa natt av fruktsamt slit” till ”deras långa natt av fruktlöst slit”.",
+      "translation_quote": "efter deras långa natt av fruktsamt slit"
+    },
+    {
+      "location": "html, paragraphs beginning “Petrus svarade” and “I hjärtats ångest”",
+      "severity": "major",
+      "source_quote": "“Feed my lambs.” / “Feed my sheep”.",
+      "suggested_fix": "Ersätt citaten med ”För mina lamm på bete.” respektive ”För mina får på bete.” Verbet ”Vär” förmedlar inte uppmaningen att föda eller valla.",
+      "translation_quote": "”Vär mig mina lamm.” / ”Vär mina får.”"
+    },
+    {
+      "location": "html, paragraph beginning “Petrus började till sist”",
+      "severity": "major",
+      "source_quote": "He had begun following Jesus with the desire to receive from Him.",
+      "suggested_fix": "Skriv: ”Han hade börjat följa Jesus med en önskan att få ta emot från honom.”",
+      "translation_quote": "Han hade börjat följa Jesus i förhoppningen att få emot honom."
+    },
+    {
+      "location": "html, paragraph beginning “Denna morgon”",
+      "severity": "minor",
+      "source_quote": "He astounds the local rabbi",
+      "suggested_fix": "Ändra ”de lokala rabbinerna” till ”den lokale rabbinen” för att bevara singularformen.",
+      "translation_quote": "Han förbluffade de lokala rabbinerna"
+    },
+    {
+      "location": "html, paragraph beginning “Det finns en tomhet”",
+      "severity": "minor",
+      "source_quote": "resonates with those heart longings / His desires become our desires.",
+      "suggested_fix": "Skriv ”svarar mot denna hjärtats längtan” och ”Hans önskningar blir våra önskningar.” Det senare undviker de främst sinnliga associationer som ”begär” lätt får här.",
+      "translation_quote": "svarar mot dessa hjärtats längtan / Hans begär blir våra begär."
+    },
+    {
+      "location": "html, paragraphs beginning “Lärjungaskap åligger”, “Om du följer med” and “Lärjungaskapet leder”",
+      "severity": "minor",
+      "source_quote": "a lifelong journey of faith / into the valley of decision / We make a faith choice. / We commit the details",
+      "suggested_fix": "Använd ”en livslång trosvandring”, ”in i avgörandets dal”, ”Vi gör ett val i tro” och ”Vi anförtror detaljerna”.",
+      "translation_quote": "en livslång troens väg / in i beslutsdalens stund / Vi gör ett troval. / Vi anförtro detaljerna"
+    },
+    {
+      "location": "html, paragraph beginning “Generationer av judiska män”",
+      "severity": "minor",
+      "source_quote": "break the Roman yoke / the most promising revolutionary prospect of the day",
+      "suggested_fix": "Ändra till ”bryta det romerska oket” och ”dagens mest lovande revolutionära förhoppning”.",
+      "translation_quote": "bryta den romerska oket / dagerns mest lovande revolutionära förhoppning"
+    },
+    {
+      "location": "html, paragraph beginning “Jakob ser på Johannes”",
+      "severity": "minor",
+      "source_quote": "His approving nod",
+      "suggested_fix": "Ändra till ”Hans gillande nick”.",
+      "translation_quote": "Hans godkännande nick"
+    },
+    {
+      "location": "html, paragraph beginning “Scener från Kajafas hus”",
+      "severity": "minor",
+      "source_quote": "the angry shouting of the Sanhedrin",
+      "suggested_fix": "Skriv ”de arga ropen från Stora rådet”.",
+      "translation_quote": "den arga ropen från Sanhedrin"
+    },
+    {
+      "location": "html, paragraph beginning “Jesus frågar dig idag”",
+      "severity": "minor",
+      "source_quote": "“Defer to your brother”",
+      "suggested_fix": "Ersätt nominalfrasen med uppmaningen ”Ge din broder företräde”.",
+      "translation_quote": "”Hänsyn till din broder”"
+    },
+    {
+      "location": "html, paragraph beginning “Jag vill uppmärksamma dig”",
+      "severity": "minor",
+      "source_quote": "Discipleship is never intended to be drudgery.",
+      "suggested_fix": "Skriv ”Lärjungaskap är aldrig avsett att vara ett tråkigt slit.” Ta bort det kvarlämnade engelska ordet och dess parentesförklaring.",
+      "translation_quote": "Lärjungaskap är aldrig avsett att vara drudgery (tråkigt tvångsarbete)."
+    },
+    {
+      "location": "html, Scripture blockquotes, Matthew 4:18–22 and John 21:3–6",
+      "severity": "minor",
+      "source_quote": "they were fishers / they straightway left their nets / Children, have ye any meat? / and ye shall find",
+      "suggested_fix": "Modernisera de ålderdomliga formerna i båda citaten: exempelvis ”de var fiskare”, ”de lämnade genast sina nät”, ”Barn, har ni något att äta?” och ”så ska ni få fisk”. Använd genomgående nutida verbformer och pronomen utan att ändra referenser eller HTML.",
+      "translation_quote": "de voro fiskare / de läto genast sina nät / Barn, hava I något att äta? / och I skolen hitta"
+    },
+    {
+      "location": "html, final image alt attribute",
+      "severity": "minor",
+      "source_quote": "Weathered wooden fishing boat floating on calm water",
+      "suggested_fix": "Ändra alt-texten till ”Väderbiten fiskebåt av trä som flyter på lugnt vatten”.",
+      "translation_quote": "Väderbitet träfiskebåt som flyter på lugnt vatten"
+    },
+    {
+      "location": "html, final paragraph",
+      "severity": "minor",
+      "source_quote": "what God will do for you",
+      "suggested_fix": "Ändra ”vad Gud vill göra för dig” till ”vad Gud kommer att göra för dig” för att bevara utsagans framtidsbetydelse.",
+      "translation_quote": "vad Gud vill göra för dig"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
