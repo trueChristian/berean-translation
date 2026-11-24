@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "HTML paragraph 4",
+      "severity": "major",
+      "source_quote": "“pierces to the dividing asunder of soul and spirit”",
+      "suggested_fix": "“প্রাণ ও আত্মার ... মধ্যে বিভেদ ঘটানো পর্যন্ত বিদ্ধ করে”",
+      "translation_quote": "“আত্মা ও আত্মার ... মধ্যে বিভেদ ঘটানো পর্যন্ত বিদ্ধ করে”"
+    },
+    {
+      "location": "HTML paragraph 9, opening two sentences",
+      "severity": "major",
+      "source_quote": "“The nature of the preaching is of the first importance. Its character will grade the converts and measure the depth of the work.”",
+      "suggested_fix": "“প্রচারের ধরন অত্যন্ত গুরুত্বপূর্ণ। এর বৈশিষ্ট্যই ধর্মান্তরিতদের মান নির্ধারণ করবে এবং কাজটির গভীরতা মাপবে।”",
+      "translation_quote": "“প্রচারকের প্রকৃতি অত্যন্ত গুরুত্বপূর্ণ। তার চরিত্রই ধর্মান্তরিতদের মান নির্ধারণ করবে এবং কাজটির গভীরতা মাপবে।”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

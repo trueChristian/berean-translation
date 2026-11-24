@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-24T06:02:17+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML paragraph 4\",\"severity\":\"major\",\"source_quote\":\"“pierces to the dividing asunder of soul and spirit”\",\"suggested_fix\":\"“প্রাণ ও আত্মার ... মধ্যে বিভেদ ঘটানো পর্যন্ত বিদ্ধ করে”\",\"translation_quote\":\"“আত্মা ও আত্মার ... মধ্যে বিভেদ ঘটানো পর্যন্ত বিদ্ধ করে”\"},{\"location\":\"HTML paragraph 9, opening two sentences\",\"severity\":\"major\",\"source_quote\":\"“The nature of the preaching is of the first importance. Its character will grade the converts and measure the depth of the work.”\",\"suggested_fix\":\"“প্রচারের ধরন অত্যন্ত গুরুত্বপূর্ণ। এর বৈশিষ্ট্যই ধর্মান্তরিতদের মান নির্ধারণ করবে এবং কাজটির গভীরতা মাপবে।”\",\"translation_quote\":\"“প্রচারকের প্রকৃতি অত্যন্ত গুরুত্বপূর্ণ। তার চরিত্রই ধর্মান্তরিতদের মান নির্ধারণ করবে এবং কাজটির গভীরতা মাপবে।”\"}],\"findings_complete\":true,\"passed\":false,\"score\":92}",
+    "content_bytes": 1393,
+    "content_evidence_truncated": false,
+    "content_sha256": "88ba893a68696cb316e7628ac8030228fe1cc72ce133dc3ce397fd3a01cb66bd",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1002,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 766,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5630,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5627,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6632
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}
