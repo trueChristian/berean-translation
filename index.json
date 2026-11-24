@@ -109144,6 +109144,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/swe/articles/ba09e248-cc12-4573-9db1-cceb885953ac.html",
+      "html_sha256": "930c9ceca8395e2519dd0a51d9ba4eda45ae56d4cc2f14cddd5d078b0a1c9f40",
+      "human_reviewed": false,
+      "id": "ba09e248-cc12-4573-9db1-cceb885953ac",
+      "images": [
+        {
+          "alt": "En korsfästelsescen som visar Jesus på korset med soldater och åskådare",
+          "public_path": "/images/articles/ba09e248-cc12-4573-9db1-cceb885953ac-1.jpg"
+        },
+        {
+          "alt": "Den uppståndne Jesus visar sig för vakter nära graven",
+          "public_path": "/images/articles/ba09e248-cc12-4573-9db1-cceb885953ac-2.jpg"
+        }
+      ],
+      "issue_id": "7024063a-5783-5744-8055-7b12fee04019",
+      "language": "swe",
+      "language_tag": "sv",
+      "metadata": "content/swe/articles/ba09e248-cc12-4573-9db1-cceb885953ac.json",
+      "metadata_sha256": "c8add18f52777902040952846a43051f1922d33b80c0eb624f3c92a7332a0bb7",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "Utvald artikel",
+      "source_revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+      "source_translation_key": "a5f72e9441d93612f6993f0627e134f72b1dfaa99c23e918ac9d9e71a384aa4c",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Kristi fullbordade verk",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/swe/articles/ba15e3da-aab4-401c-9ec7-64b88ac22833.html",
       "html_sha256": "ac3ef56703d493eccd8e783cbe816a0703767afde2f1c6a86c19070c383ab889",
       "human_reviewed": false,
