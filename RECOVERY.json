@@ -4499,7 +4499,7 @@
       "article_id": "8887e7f5-1047-4baf-a9d7-db2644e0fd7a",
       "language": "heb",
       "latest_task": "4485707b565832633fcc0fa90f546381",
-      "processing_status": "queued",
+      "processing_status": "in_batch",
       "reason": "active"
     },
     {
