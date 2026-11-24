@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "c5e81ec648aa461692d59cae7cedbd14",
   "campaign": "auto-697f9b22a9f162e08aa0ffb6e8e2cc3dd6f176443608437c7aa0635b2636019e",
   "created_at": "2026-11-24T06:37:35+00:00",
   "events": [
@@ -28,18 +27,31 @@
         },
         "total_tokens": 6319
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 93,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 61,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4379,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 4376,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4472
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "Article paragraph 9, quotation of Matthew 7:13–14",
-      "severity": "major",
-      "source_quote": "For wide is the gate and broad is the road that leads to destruction, and many enter through it. ... But small is the gate and narrow the road that leads to life",
-      "suggested_fix": "Korrigieren Sie die Tor-Bilder und den Bezug im Zitat, zum Beispiel: „Denn weit ist das Tor und breit der Weg, der ins Verderben führt, und viele gehen durch dieses Tor hinein. Doch klein ist das Tor und schmal der Weg, der zum Leben führt …“",
-      "translation_quote": "Denn weit ist das Tor und breit der Weg, der ins Verderben führt, und viele gehen auf ihm. Doch eng ist das Tor und schmal der Weg, der zum Leben führt"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-11-24T17:50:52+00:00",
   "id": "09c08fd21fb8b3e8fd092b8515870148",
   "issue_id": "7024063a-5783-5744-8055-7b12fee04019",
   "language": "deu",
@@ -128,9 +140,11 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/2577472f0808b8b850707a207dff1df0a56cd823f7abb48ed47b998fb535c87b.json",
   "stage": "review2",
   "stage_budget": {
@@ -144,7 +158,7 @@
     "total_reserved_usd": 0.558119,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "5fbd516564ba7c85c347141861b28c59c35eabd19c29b4f342e40930cce50e8b",
   "translation_model_actual": "gpt-6.1-sol"
