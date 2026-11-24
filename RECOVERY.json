@@ -3050,7 +3050,7 @@
       "article_id": "fdeac3b1-1f65-4a08-be46-c3bdca309210",
       "language": "deu",
       "latest_task": "09c08fd21fb8b3e8fd092b8515870148",
-      "processing_status": "in_batch",
+      "processing_status": "queued",
       "reason": "active"
     },
     {
