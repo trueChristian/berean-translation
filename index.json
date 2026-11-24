@@ -54170,6 +54170,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ind/articles/8887e7f5-1047-4baf-a9d7-db2644e0fd7a.html",
+      "html_sha256": "b10a4558bb9a00b3600c6b67d30a81dfac244e14faa368d3348988835a618db7",
+      "human_reviewed": false,
+      "id": "8887e7f5-1047-4baf-a9d7-db2644e0fd7a",
+      "images": [
+        {
+          "alt": "Tenda-tenda kebangunan rohani yang besar dikelilingi kerumunan orang",
+          "public_path": "/images/articles/8887e7f5-1047-4baf-a9d7-db2644e0fd7a-1.png"
+        },
+        {
+          "alt": "Perkumpulan keagamaan di luar ruangan di sebuah perkemahan berhutan, dengan seorang pengkhotbah berbicara kepada kerumunan orang",
+          "public_path": "/images/articles/8887e7f5-1047-4baf-a9d7-db2644e0fd7a-2.jpg"
+        }
+      ],
+      "issue_id": "14962b7b-2d94-5b43-a4c6-bbb78f074d1a",
+      "language": "ind",
+      "language_tag": "id",
+      "metadata": "content/ind/articles/8887e7f5-1047-4baf-a9d7-db2644e0fd7a.json",
+      "metadata_sha256": "8d5e110b532b2033241243ea6592b801b0e64a5de881987a2ea5db7a00b14d55",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "ccefc5a5c3d79409cc78319f94b5490718d30670",
+      "source_translation_key": "e2b492210d043d06ffd0912132ecb4f7893b24d6919894c9749c88b4c9993674",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Kebangunan Rohani yang Bertahan Lama",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ind/articles/8a3dfa09-f40f-4615-8f83-59a8fccb1a2f.html",
       "html_sha256": "882c7e691d890a3f9c89c8b7ed513efb55de47b911faa45eb9d19bbb6b29ab9c",
       "human_reviewed": false,

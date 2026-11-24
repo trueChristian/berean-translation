@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraf 3",
+      "severity": "minor",
+      "source_quote": "“when the slain of the Lord are many”",
+      "suggested_fix": "Pertimbangkan “saat banyak orang rebah oleh Tuhan” agar ungkapan revivalis ini tidak terdengar seperti pernyataan bahwa Tuhan membunuh orang secara harfiah.",
+      "translation_quote": "“saat banyak orang dibunuh oleh Tuhan”"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "6b2cdcba-6203-441d-aeda-8bb7df8ed8c5",
+    "response_id": "chatcmpl-EneMPDjOlHSbMQjvKLQ3Njplaf9o2",
+    "usage": {
+      "completion_tokens": 629,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5219,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5216,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5848
+    }
+  },
+  "received_at": "2026-11-24T06:35:04+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, paragraf 3",
+        "severity": "minor",
+        "source_quote": "“when the slain of the Lord are many”",
+        "suggested_fix": "Pertimbangkan “saat banyak orang rebah oleh Tuhan” agar ungkapan revivalis ini tidak terdengar seperti pernyataan bahwa Tuhan membunuh orang secara harfiah.",
+        "translation_quote": "“saat banyak orang dibunuh oleh Tuhan”"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}
