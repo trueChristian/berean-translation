@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "b6b2fbd5-09a0-4fa0-a024-fd5eac1f50da",
+    "response_id": "chatcmpl-EnorO2DYdgXrQ7VBIAtU9xBunMnI7",
+    "usage": {
+      "completion_tokens": 215,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 62,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5224,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4121,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 5439
+    }
+  },
+  "received_at": "2026-11-24T17:51:08+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "translation.html — nukuu ya Waebrania 11:13-16",
+        "severity": "minor",
+        "source_quote": "for he hath prepared for [us] a city",
+        "suggested_fix": "Badilisha “kwa kuwa amewaandalia [sisi] mji” kuwa “kwa kuwa ametuandalia [sisi] mji”.",
+        "translation_quote": "kwa kuwa amewaandalia [sisi] mji"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}

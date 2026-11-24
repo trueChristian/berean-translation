@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-24T17:51:08+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"translation.html — nukuu ya Waebrania 11:13-16\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"for he hath prepared for [us] a city\",\n      \"suggested_fix\": \"Badilisha “kwa kuwa amewaandalia [sisi] mji” kuwa “kwa kuwa ametuandalia [sisi] mji”.\",\n      \"translation_quote\": \"kwa kuwa amewaandalia [sisi] mji\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": true,\n  \"score\": 98\n}",
+    "content_bytes": 438,
+    "content_evidence_truncated": false,
+    "content_sha256": "f50ff2f6deafbc62a8835c63a93ab08039419e866c4d554636c0e654ce9b5191",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 215,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 62,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5224,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4121,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 5439
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 1
+}
