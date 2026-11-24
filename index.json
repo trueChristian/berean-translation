@@ -46280,6 +46280,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/hin/articles/391d4642-07e2-4003-83db-fa33dc08a8ca.html",
+      "html_sha256": "ab3592a786ce7b6e7f7cff64c6c4e2cf80c4f540058fa385d740844d5a1fffca",
+      "human_reviewed": false,
+      "id": "391d4642-07e2-4003-83db-fa33dc08a8ca",
+      "images": [
+        {
+          "alt": "पिघलती बर्फ के बीच खिलता हल्के रंग का क्रॉकस",
+          "public_path": "/images/articles/391d4642-07e2-4003-83db-fa33dc08a8ca-1.jpg"
+        }
+      ],
+      "issue_id": "1a7070c9-fd4f-546b-a220-f267ddb8cf5f",
+      "language": "hin",
+      "language_tag": "hi",
+      "metadata": "content/hin/articles/391d4642-07e2-4003-83db-fa33dc08a8ca.json",
+      "metadata_sha256": "7df74f2b388bf34c32e8acd40286b4316afc54f990cf9899fa5bd3ff0064412d",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "एक मिशनरी के चिंतन",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "d14a8e9ac7f4c07525900d0c21ec1a6c29c2da40405328d077639b18af091bf1",
+      "status": "ready",
+      "subtitle": null,
+      "title": "तुम्हें नया जन्म पाना आवश्यक है",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/hin/articles/39530116-8c39-4abd-beb6-89f05771a4f8.html",
       "html_sha256": "9f75c2c9b7b285dc20db2a7ef12cde16f11ad8f2dc0106aa282ef0de2e8709fd",
       "human_reviewed": false,
