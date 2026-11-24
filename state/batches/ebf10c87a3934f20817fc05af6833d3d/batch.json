@@ -5,7 +5,8 @@
     "9cc978c9f09da4e199d481d0f0928415:review1"
   ],
   "id": "ebf10c87a3934f20817fc05af6833d3d",
-  "input_file_id": null,
+  "input_file_id": "file-NgmamQGrjUQd4Yigo4fKNN",
+  "last_collector_visit_at": "2026-11-24T10:29:58+00:00",
   "model": "gpt-6-luna",
   "payload_sha256": "9a7deee34f4bd3b5c232a407d1947e212a52a093aa15ca37a8767af953e8a448",
   "remote_id": null,
