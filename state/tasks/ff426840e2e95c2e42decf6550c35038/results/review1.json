@@ -1,0 +1,52 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "6aa2fb42-6aad-45d4-9e67-fd1e78bc86ff",
+    "response_id": "chatcmpl-EnX2rtNdoUpUUwBr3dEXqzYHcVYDV",
+    "usage": {
+      "completion_tokens": 1022,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 667,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5217,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5214,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6239
+    }
+  },
+  "received_at": "2026-11-24T00:44:52+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, paragraph 3",
+        "severity": "major",
+        "source_quote": "“when the slain of the Lord are many”",
+        "suggested_fix": "Ganti “banyak orang terbunuh oleh Tuhan” dengan “banyak orang yang ditundukkan oleh Tuhan” agar ungkapan ini tidak menyiratkan pembunuhan fisik.",
+        "translation_quote": "“saat banyak orang terbunuh oleh Tuhan”"
+      },
+      {
+        "location": "HTML, paragraph 6",
+        "severity": "minor",
+        "source_quote": "“lightness and frivolity reign”",
+        "suggested_fix": "Ganti “kesembronoan dan keangkuhan merajalela” dengan “sikap sembrono dan sembrono merajalela” atau “sikap ringan dan hura-hura merajalela” agar maknanya tidak bergeser menjadi kesombongan.",
+        "translation_quote": "“kesembronoan dan keangkuhan merajalela”"
+      },
+      {
+        "location": "HTML, paragraph 11",
+        "severity": "minor",
+        "source_quote": "“directed and intensified by the pure preaching of the pure word of God”",
+        "suggested_fix": "Ubah “diarahkan dan diperkuat oleh pemberitaan firman Allah yang murni secara murni” menjadi “diarahkan dan diperkuat oleh pemberitaan firman Allah yang murni dengan setia” agar kalimatnya lebih alami dan tidak mengulang makna ‘murni’.",
+        "translation_quote": "“diarahkan dan diperkuat oleh pemberitaan firman Allah yang murni secara murni”"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 93
+  }
+}

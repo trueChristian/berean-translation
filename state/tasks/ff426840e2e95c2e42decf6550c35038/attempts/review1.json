@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-24T00:44:52+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML, paragraph 3\",\"severity\":\"major\",\"source_quote\":\"“when the slain of the Lord are many”\",\"suggested_fix\":\"Ganti “banyak orang terbunuh oleh Tuhan” dengan “banyak orang yang ditundukkan oleh Tuhan” agar ungkapan ini tidak menyiratkan pembunuhan fisik.\",\"translation_quote\":\"“saat banyak orang terbunuh oleh Tuhan”\"},{\"location\":\"HTML, paragraph 6\",\"severity\":\"minor\",\"source_quote\":\"“lightness and frivolity reign”\",\"suggested_fix\":\"Ganti “kesembronoan dan keangkuhan merajalela” dengan “sikap sembrono dan sembrono merajalela” atau “sikap ringan dan hura-hura merajalela” agar maknanya tidak bergeser menjadi kesombongan.\",\"translation_quote\":\"“kesembronoan dan keangkuhan merajalela”\"},{\"location\":\"HTML, paragraph 11\",\"severity\":\"minor\",\"source_quote\":\"“directed and intensified by the pure preaching of the pure word of God”\",\"suggested_fix\":\"Ubah “diarahkan dan diperkuat oleh pemberitaan firman Allah yang murni secara murni” menjadi “diarahkan dan diperkuat oleh pemberitaan firman Allah yang murni dengan setia” agar kalimatnya lebih alami dan tidak mengulang makna ‘murni’.\",\"translation_quote\":\"“diarahkan dan diperkuat oleh pemberitaan firman Allah yang murni secara murni”\"}],\"findings_complete\":true,\"passed\":false,\"score\":93}",
+    "content_bytes": 1324,
+    "content_evidence_truncated": false,
+    "content_sha256": "cc578fa5cc3e603453c6748bd42dff3da4fab1df3435b4833a70b300edde1c57",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1022,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 667,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5217,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5214,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6239
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}
