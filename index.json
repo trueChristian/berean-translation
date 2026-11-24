@@ -10543,6 +10543,38 @@
     {
       "ai_notice_required": true,
       "direction": "rtl",
+      "html": "content/ara/articles/ba09e248-cc12-4573-9db1-cceb885953ac.html",
+      "html_sha256": "84b9198affd8316e9440c25faba116e5708f865d10706234d6c6eb1f81765be0",
+      "human_reviewed": false,
+      "id": "ba09e248-cc12-4573-9db1-cceb885953ac",
+      "images": [
+        {
+          "alt": "مشهد الصلب يُظهر يسوع على الصليب مع جنود ومشاهدين",
+          "public_path": "/images/articles/ba09e248-cc12-4573-9db1-cceb885953ac-1.jpg"
+        },
+        {
+          "alt": "يسوع القائم يظهر أمام حراس قرب القبر",
+          "public_path": "/images/articles/ba09e248-cc12-4573-9db1-cceb885953ac-2.jpg"
+        }
+      ],
+      "issue_id": "7024063a-5783-5744-8055-7b12fee04019",
+      "language": "ara",
+      "language_tag": "ar",
+      "metadata": "content/ara/articles/ba09e248-cc12-4573-9db1-cceb885953ac.json",
+      "metadata_sha256": "efbdce60446f6c8db22c2f615bd371f7652134e8a2ca3d1d25ecfad8e908c930",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "مقالة مميزة",
+      "source_revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+      "source_translation_key": "a5f72e9441d93612f6993f0627e134f72b1dfaa99c23e918ac9d9e71a384aa4c",
+      "status": "ready",
+      "subtitle": null,
+      "title": "عمل المسيح المكتمل",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
       "html": "content/ara/articles/ba15e3da-aab4-401c-9ec7-64b88ac22833.html",
       "html_sha256": "78b46a4e2a2b70680a7564f6964dc7f7b91d7acbad47e25992c3bda7ca9eb192",
       "human_reviewed": false,
