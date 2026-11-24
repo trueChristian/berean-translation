@@ -1,0 +1,15 @@
+{
+  "article_id": "8887e7f5-1047-4baf-a9d7-db2644e0fd7a",
+  "history": [
+    {
+      "at": "2026-11-24T06:38:16+00:00",
+      "campaign": "auto-aa23b5444f5d24677c6daa3a215c872ed30a22b30b47b50db8066e69206933d5",
+      "event": "automatic_requested",
+      "previous_task": null,
+      "task": "def86bee39e94b75466653cf03d7547e"
+    }
+  ],
+  "language": "swa",
+  "latest_task": "def86bee39e94b75466653cf03d7547e",
+  "published": null
+}
