@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "html, последний абзац, предложение о либеральных СМИ",
+      "severity": "minor",
+      "source_quote": "This is not a popular message found in today’s liberal media.",
+      "suggested_fix": "Это послание не пользуется популярностью в сегодняшних либеральных СМИ.",
+      "translation_quote": "Это не то популярное послание, которое можно встретить в сегодняшних либеральных СМИ."
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}

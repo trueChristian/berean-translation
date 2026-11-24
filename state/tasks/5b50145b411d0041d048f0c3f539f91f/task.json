@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "6c06eade2adb4731b0e1a020077a4404",
   "campaign": "auto-2218a7e4464f4bb35a940466951c88a65b0bb1c4c68d6e1446f71a1f7b03da43",
   "created_at": "2026-11-24T00:46:56+00:00",
   "events": [
@@ -28,18 +27,39 @@
         },
         "total_tokens": 6423
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 222,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 107,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4441,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 4438,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4663
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "HTML, абзац 7",
-      "severity": "major",
-      "source_quote": "Darwinism now replaces Creationism, within much of our education system, students as well as teachers who profess faith in the God of the Bible are ridiculed and are otherwise discriminated against",
-      "suggested_fix": "В результате прогрессивного мышления дарвинизм теперь вытесняет креационизм; во многих учебных заведениях нашей системы образования учеников и учителей, исповедующих веру в Бога Библии, высмеивают и подвергают иной дискриминации",
-      "translation_quote": "В результате прогрессивного мышления дарвинизм теперь вытесняет креационизм; во многих учебных заведениях нашей системы образования учеников и учителей, исповедующих веру в Бога Библии, высмеивают и подвергают иной дискриминации"
+      "location": "html, последний абзац, предложение о либеральных СМИ",
+      "severity": "minor",
+      "source_quote": "This is not a popular message found in today’s liberal media.",
+      "suggested_fix": "Это послание не пользуется популярностью в сегодняшних либеральных СМИ.",
+      "translation_quote": "Это не то популярное послание, которое можно встретить в сегодняшних либеральных СМИ."
     }
   ],
+  "finished_at": "2026-11-24T06:34:48+00:00",
   "id": "5b50145b411d0041d048f0c3f539f91f",
   "issue_id": "7024063a-5783-5744-8055-7b12fee04019",
   "language": "rus",
@@ -128,9 +148,11 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/2577472f0808b8b850707a207dff1df0a56cd823f7abb48ed47b998fb535c87b.json",
   "stage": "review2",
   "stage_budget": {
@@ -144,7 +166,7 @@
     "total_reserved_usd": 0.562751,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "5fbd516564ba7c85c347141861b28c59c35eabd19c29b4f342e40930cce50e8b",
   "translation_model_actual": "gpt-6.1-sol"

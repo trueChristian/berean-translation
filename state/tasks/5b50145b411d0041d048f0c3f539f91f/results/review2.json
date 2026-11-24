@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "173e5000-d4e4-4741-9f07-2c4adf61786d",
+    "response_id": "chatcmpl-EneHZsvMAgYfJnQ6PPZrx5GlQvACE",
+    "usage": {
+      "completion_tokens": 222,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 107,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4441,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4438,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4663
+    }
+  },
+  "received_at": "2026-11-24T06:34:48+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "html, последний абзац, предложение о либеральных СМИ",
+        "severity": "minor",
+        "source_quote": "This is not a popular message found in today’s liberal media.",
+        "suggested_fix": "Это послание не пользуется популярностью в сегодняшних либеральных СМИ.",
+        "translation_quote": "Это не то популярное послание, которое можно встретить в сегодняшних либеральных СМИ."
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}

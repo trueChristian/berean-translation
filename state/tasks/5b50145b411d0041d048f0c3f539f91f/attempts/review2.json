@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-24T06:34:48+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"html, последний абзац, предложение о либеральных СМИ\",\"severity\":\"minor\",\"source_quote\":\"This is not a popular message found in today’s liberal media.\",\"suggested_fix\":\"Это послание не пользуется популярностью в сегодняшних либеральных СМИ.\",\"translation_quote\":\"Это не то популярное послание, которое можно встретить в сегодняшних либеральных СМИ.\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 604,
+    "content_evidence_truncated": false,
+    "content_sha256": "077b01f2a3e14a501e5baf8975f44d2912d2892cc35e28e5c163f0b488da1606",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 222,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 107,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4441,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4438,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4663
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review2",
+  "translation_attempts": 1
+}
