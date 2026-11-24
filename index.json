@@ -98342,6 +98342,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/spa/articles/ba09e248-cc12-4573-9db1-cceb885953ac.html",
+      "html_sha256": "c49cfc1d9ac928b89c6f45a61464dd5d3d31d710d1bf373b916d4535d82b3b48",
+      "human_reviewed": false,
+      "id": "ba09e248-cc12-4573-9db1-cceb885953ac",
+      "images": [
+        {
+          "alt": "Una escena de la crucifixión que muestra a Jesús en la cruz con soldados y espectadores",
+          "public_path": "/images/articles/ba09e248-cc12-4573-9db1-cceb885953ac-1.jpg"
+        },
+        {
+          "alt": "Jesús resucitado se aparece ante unos guardias cerca del sepulcro",
+          "public_path": "/images/articles/ba09e248-cc12-4573-9db1-cceb885953ac-2.jpg"
+        }
+      ],
+      "issue_id": "7024063a-5783-5744-8055-7b12fee04019",
+      "language": "spa",
+      "language_tag": "es",
+      "metadata": "content/spa/articles/ba09e248-cc12-4573-9db1-cceb885953ac.json",
+      "metadata_sha256": "54660369f065e581438ef3f22101f1f75b6a760e7692c8109f99bed63ecb36a0",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "Artículo destacado",
+      "source_revision": "64ea28030e851a482123ca4c60821b9d7714265f",
+      "source_translation_key": "a5f72e9441d93612f6993f0627e134f72b1dfaa99c23e918ac9d9e71a384aa4c",
+      "status": "ready",
+      "subtitle": null,
+      "title": "La obra consumada de Cristo",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/spa/articles/ba15e3da-aab4-401c-9ec7-64b88ac22833.html",
       "html_sha256": "0bd3fabad1c82fcaeb63eff63c186bb96f5edbd25e1a2597b01b5bf0e3654f50",
       "human_reviewed": false,
