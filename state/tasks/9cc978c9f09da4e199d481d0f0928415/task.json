@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "ebf10c87a3934f20817fc05af6833d3d",
   "campaign": "auto-a1f55a5a5a2fe4d4466a09556bf89727925fcd8d06c906df19a7d24b8ab775aa",
   "created_at": "2026-11-24T00:47:28+00:00",
   "events": [
@@ -28,10 +27,39 @@
         },
         "total_tokens": 4768
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 715,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 588,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5122,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 5119,
+          "cached_tokens": 0
+        },
+        "total_tokens": 5837
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "HTML, final substantive paragraph",
+      "severity": "minor",
+      "source_quote": "“the spirit of supplies, of grace, and mercy”",
+      "suggested_fix": "Replace «получения даров» with «обеспечения» or «снабжения» to convey provision rather than the receiving of gifts.",
+      "translation_quote": "«дух веры, благоговения, получения даров, благодати и милости»"
+    }
+  ],
+  "finished_at": "2026-11-24T17:35:14+00:00",
   "id": "9cc978c9f09da4e199d481d0f0928415",
   "issue_id": "14962b7b-2d94-5b43-a4c6-bbb78f074d1a",
   "language": "rus",
@@ -120,9 +148,11 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/f36b4574677aaa8444c35388b303496d3b37e629754f0df9c39e4f6bd01067a0.json",
   "stage": "review1",
   "stage_budget": {
@@ -138,7 +168,7 @@
     "total_reserved_usd": 0.088018,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "e2b492210d043d06ffd0912132ecb4f7893b24d6919894c9749c88b4c9993674",
   "translation_model_actual": "gpt-6-luna"

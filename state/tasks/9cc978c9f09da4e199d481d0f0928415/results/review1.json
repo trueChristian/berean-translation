@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "cca3670d-b2a8-4b2a-b41b-9b5efbccbfc3",
+    "response_id": "chatcmpl-EniAuvEEwx9S2RIkGdVDPcYFfCszI",
+    "usage": {
+      "completion_tokens": 715,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 588,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5122,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5119,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5837
+    }
+  },
+  "received_at": "2026-11-24T17:35:14+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, final substantive paragraph",
+        "severity": "minor",
+        "source_quote": "“the spirit of supplies, of grace, and mercy”",
+        "suggested_fix": "Replace «получения даров» with «обеспечения» or «снабжения» to convey provision rather than the receiving of gifts.",
+        "translation_quote": "«дух веры, благоговения, получения даров, благодати и милости»"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, final substantive paragraph",
+      "severity": "minor",
+      "source_quote": "“the spirit of supplies, of grace, and mercy”",
+      "suggested_fix": "Replace «получения даров» with «обеспечения» or «снабжения» to convey provision rather than the receiving of gifts.",
+      "translation_quote": "«дух веры, благоговения, получения даров, благодати и милости»"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}
