@@ -5,11 +5,41 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "f17020d560f145439fc0b1c8152abc3c",
   "campaign": "auto-79d886e74b917b77bd2dc934539d12273de013769edd2446ab831b3c54357e48",
   "created_at": "2026-11-24T17:52:21+00:00",
-  "events": [],
-  "findings": [],
+  "events": [
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 234,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 83,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5396,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 4293,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 5630
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "html，第8段（论第二点的考验）",
+      "severity": "minor",
+      "source_quote": "whether we will let God be true and every man a liar (including ourselves)",
+      "suggested_fix": "将“是否会让　神成为真实的，让人人都成为说谎的（包括我们自己）”改为“是否会承认　神是真实的，而人人都是说谎的（包括我们自己）”。",
+      "translation_quote": "是否会让　神成为真实的，让人人都成为说谎的（包括我们自己）"
+    }
+  ],
+  "finished_at": "2026-11-24T18:07:32+00:00",
   "id": "6175ea31be502813550c0f28e4162fba",
   "issue_id": "749fd67f-e1cb-556f-b9a4-ab27a8dd2b36",
   "language": "cmn",
@@ -98,9 +128,11 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/86f611275d76d65bb588fc7797475e3277f27f4105f7431839a1f6cf3abaf5bf.json",
   "stage": "review1",
   "stage_budget": {
@@ -115,7 +147,7 @@
     "total_reserved_usd": 0.717641,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 0,
   "translation_key": "00226b6ad0dbffb95f49d8e5a79252bf97df9b92ec335b9934f6f045a6712540",
   "translation_model_actual": "gpt-6-luna"

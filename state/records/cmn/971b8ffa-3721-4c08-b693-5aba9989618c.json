@@ -19,9 +19,32 @@
       "event": "automatic_requested",
       "previous_task": "c85a7cbdd2fd3bfadfed3dbb5c2ea877",
       "task": "6175ea31be502813550c0f28e4162fba"
+    },
+    {
+      "at": "2026-11-24T18:07:32+00:00",
+      "event": "complete",
+      "reason": null,
+      "task": "6175ea31be502813550c0f28e4162fba"
     }
   ],
   "language": "cmn",
   "latest_task": "6175ea31be502813550c0f28e4162fba",
-  "published": null
+  "published": {
+    "html_path": "content/cmn/articles/971b8ffa-3721-4c08-b693-5aba9989618c.html",
+    "html_sha256": "ab7bd4f7a3b4b117ee5c76ddf8fb181acc639bf24611520377468fd65c066aab",
+    "human_review": null,
+    "human_reviewed": false,
+    "issue_id": "749fd67f-e1cb-556f-b9a4-ab27a8dd2b36",
+    "metadata_path": "content/cmn/articles/971b8ffa-3721-4c08-b693-5aba9989618c.json",
+    "metadata_sha256": "a607c52ebc2785f7a8f50d82cf617ab4b4b30f0f7ac12e6010955a6aec28bf84",
+    "model": "gpt-6-luna",
+    "notice_html": "<aside class=\"translation-notice\" data-translation-notice=\"ai\" lang=\"zh-Hans\" dir=\"ltr\" role=\"note\">\n  <p>本文由 OpenAI（模型：gpt-6-luna）通过人工智能翻译，尚未经人工审核。英文原文为权威版本。如对含义有疑问，请参阅英文原文。 <a href=\"/en/articles/971b8ffa-3721-4c08-b693-5aba9989618c/\" data-source-article-id=\"971b8ffa-3721-4c08-b693-5aba9989618c\" hreflang=\"en\">英文原文</a></p>\n</aside>",
+    "published_at": "2026-11-24T18:07:32+00:00",
+    "quality_score": 98,
+    "review_model": "gpt-6.1-sol",
+    "source_revision": "8e6050f56e822cc6f3d1accab673b1804ef63dca",
+    "source_snapshot": "state/sources/86f611275d76d65bb588fc7797475e3277f27f4105f7431839a1f6cf3abaf5bf.json",
+    "task": "6175ea31be502813550c0f28e4162fba",
+    "translation_key": "00226b6ad0dbffb95f49d8e5a79252bf97df9b92ec335b9934f6f045a6712540"
+  }
 }

@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "html，第8段（论第二点的考验）",
+      "severity": "minor",
+      "source_quote": "whether we will let God be true and every man a liar (including ourselves)",
+      "suggested_fix": "将“是否会让　神成为真实的，让人人都成为说谎的（包括我们自己）”改为“是否会承认　神是真实的，而人人都是说谎的（包括我们自己）”。",
+      "translation_quote": "是否会让　神成为真实的，让人人都成为说谎的（包括我们自己）"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}
