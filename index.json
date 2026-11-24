@@ -84504,6 +84504,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/por/articles/8887e7f5-1047-4baf-a9d7-db2644e0fd7a.html",
+      "html_sha256": "00e65dbe36422e9f0e9a05e097f17a74ec459e6134db8a38b7f85b8e693ed5e5",
+      "human_reviewed": false,
+      "id": "8887e7f5-1047-4baf-a9d7-db2644e0fd7a",
+      "images": [
+        {
+          "alt": "Grandes tendas de avivamento rodeadas por uma multidão",
+          "public_path": "/images/articles/8887e7f5-1047-4baf-a9d7-db2644e0fd7a-1.png"
+        },
+        {
+          "alt": "Encontro religioso ao ar livre num acampamento arborizado, com um pregador dirigindo-se à multidão",
+          "public_path": "/images/articles/8887e7f5-1047-4baf-a9d7-db2644e0fd7a-2.jpg"
+        }
+      ],
+      "issue_id": "14962b7b-2d94-5b43-a4c6-bbb78f074d1a",
+      "language": "por",
+      "language_tag": "pt",
+      "metadata": "content/por/articles/8887e7f5-1047-4baf-a9d7-db2644e0fd7a.json",
+      "metadata_sha256": "13ecafd88ef2f2f1d015c8201394d9e2d22d5cc674d352e3dad3f257b4342c18",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "ccefc5a5c3d79409cc78319f94b5490718d30670",
+      "source_translation_key": "e2b492210d043d06ffd0912132ecb4f7893b24d6919894c9749c88b4c9993674",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Avivamentos duradouros",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/por/articles/8a3dfa09-f40f-4615-8f83-59a8fccb1a2f.html",
       "html_sha256": "c4a6f63a2911ce1c5a0d2b602397fcbd75cb66d95a8f981cfdaff86146f5e2ac",
       "human_reviewed": false,
