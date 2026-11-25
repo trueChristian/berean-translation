@@ -29643,6 +29643,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ell/articles/30d02d2c-805c-437c-ad10-4542362ab6de.html",
+      "html_sha256": "227491a78b6456590908f6dbac39d40b7ad3da2ae67272af1079ec38c32b6c06",
+      "human_reviewed": false,
+      "id": "30d02d2c-805c-437c-ad10-4542362ab6de",
+      "images": [
+        {
+          "alt": "Υψωμένα χέρια που απλώνονται προς μια δέσμη φωτός από ένα ψηλό παράθυρο",
+          "public_path": "/images/articles/30d02d2c-805c-437c-ad10-4542362ab6de-1.jpg"
+        }
+      ],
+      "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
+      "language": "ell",
+      "language_tag": "el",
+      "metadata": "content/ell/articles/30d02d2c-805c-437c-ad10-4542362ab6de.json",
+      "metadata_sha256": "d193fc62c8f95b8a7bb265c80ee2f5dc870b54467b4c68dc4f98bbbc626094a0",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "Νικηφόρα Χριστιανική Ζωή",
+      "source_revision": "7b6e977d0f0e2288ef90baea2b04b83b84f0ae1b",
+      "source_translation_key": "ceb52dc3bb5b5ab212a3930b445c8849f8521bc253df2cec9d019d90e889292e",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Ο Δρόμος προς την Εμμαούς",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ell/articles/31ea7041-cab6-4ccd-9ead-04cc949321a6.html",
       "html_sha256": "9bb4fc61e245e1615e0b305ac99bd7cad3538e5a399e64f22b775a646d97cc4e",
       "human_reviewed": false,
