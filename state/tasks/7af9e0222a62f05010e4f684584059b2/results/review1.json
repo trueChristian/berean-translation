@@ -1,0 +1,52 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "14940cb5-2b5b-4008-9430-493db9bad00e",
+    "response_id": "chatcmpl-EoFyydp0PdxhoUKIdCPyPt6yxeBH7",
+    "usage": {
+      "completion_tokens": 858,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 636,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5213,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4110,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 6071
+    }
+  },
+  "received_at": "2026-11-25T22:45:15+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, third paragraph",
+        "severity": "major",
+        "source_quote": "when the slain of the Lord are many",
+        "suggested_fix": "når mange blir slått av Herren",
+        "translation_quote": "når mange faller for Herrens hånd"
+      },
+      {
+        "location": "HTML, fourth paragraph",
+        "severity": "minor",
+        "source_quote": "the sun but the hotter for the mockery of the cloud",
+        "suggested_fix": "og solen blir bare enda hetere fordi skyen har gjort narr",
+        "translation_quote": "og solen blir bare enda hetere etter at skyen har gjort narr av oss"
+      },
+      {
+        "location": "HTML, fourth paragraph",
+        "severity": "minor",
+        "source_quote": "these marks of the genuine are lacking in the counterfeit",
+        "suggested_fix": "disse kjennetegnene på den ekte vekkelsen mangler i den falske",
+        "translation_quote": "disse kjennetegnene på den ekte vekkelser mangler i den falske"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 91
+  }
+}

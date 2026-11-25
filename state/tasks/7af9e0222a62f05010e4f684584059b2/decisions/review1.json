@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "HTML, third paragraph",
+      "severity": "major",
+      "source_quote": "when the slain of the Lord are many",
+      "suggested_fix": "når mange blir slått av Herren",
+      "translation_quote": "når mange faller for Herrens hånd"
+    },
+    {
+      "location": "HTML, fourth paragraph",
+      "severity": "minor",
+      "source_quote": "the sun but the hotter for the mockery of the cloud",
+      "suggested_fix": "og solen blir bare enda hetere fordi skyen har gjort narr",
+      "translation_quote": "og solen blir bare enda hetere etter at skyen har gjort narr av oss"
+    },
+    {
+      "location": "HTML, fourth paragraph",
+      "severity": "minor",
+      "source_quote": "these marks of the genuine are lacking in the counterfeit",
+      "suggested_fix": "disse kjennetegnene på den ekte vekkelsen mangler i den falske",
+      "translation_quote": "disse kjennetegnene på den ekte vekkelser mangler i den falske"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
