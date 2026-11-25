@@ -1,0 +1,147 @@
+{
+  "findings": [
+    {
+      "location": "Opening blockquote, Luke 24:17",
+      "severity": "major",
+      "source_quote": "What manner of communications are these ... as ye walk, and are sad?",
+      "suggested_fix": "Replace the quotation inside the existing tags with: «Και τους είπε: Τι είναι αυτά που συζητάτε μεταξύ σας καθώς περπατάτε και είστε λυπημένοι; –Λουκάς 24:17.»",
+      "translation_quote": "Καὶ εἶπέν σοι αὐτοῖς, Τίνα λόγον οἱ Λόγοι ... καὶ ἡμέτερον ἦν κατηφεί;"
+    },
+    {
+      "location": "Opening historical paragraph, D-word list",
+      "severity": "major",
+      "source_quote": "so many words with a negative connotation begin with the letter D: Disappointment, Doubt ... Despondency, Depression, Despair, Devastation, Deception, and Death",
+      "suggested_fix": "State that these are English words beginning with D, and retain each English headword with its Greek meaning. Include all fourteen entries, distinguishing Disappointment (απογοήτευση), Disillusionment (διάψευση προσδοκιών), Despondency (αποκαρδίωση), and Despair (απελπισία). Do not claim that the Greek equivalents begin with Δ.",
+      "translation_quote": "αρχίζουν με το γράμμα Δ: Απογοήτευση, Δισταγμός ... Απελπισία, Κατάθλιψη, Καταστροφή, Απάτη, και Θάνατος"
+    },
+    {
+      "location": "Paragraph beginning “While all of us”, Jeremiah 15:18",
+      "severity": "major",
+      "source_quote": "Why is my pain perpetual, and my wound incurable, which refuseth to be healed? wilt thou be altogether unto me as a liar, and as waters that fail?",
+      "suggested_fix": "Restore the existing em quotation structure and translate: «Γιατί ο πόνος μου είναι αδιάκοπος και η πληγή μου αγιάτρευτη, αρνούμενη να γιατρευτεί; Θα είσαι για μένα σαν ψεύτης, σαν νερά που στερεύουν; –Ιερεμίας 15:18.»",
+      "translation_quote": "Διὰ τί ἐμοὶ εἰς διηνεκῆ τὸ ὕδωρ, καὶ ἰσχὺς μου ἀπώλετο, καὶ ἐθεῖταί μοι ἀπὸ νοσηρῶν;"
+    },
+    {
+      "location": "Paragraph beginning with 2 Corinthians 1:8-9",
+      "severity": "major",
+      "source_quote": "we were pressed out of measure, above strength, insomuch that we despaired even of life",
+      "suggested_fix": "Render the quoted passage in Modern Greek, including: «πιεστήκαμε υπερβολικά, πέρα από τις δυνάμεις μας, ώστε απελπιστήκαμε ακόμη και για την ίδια μας τη ζωή». Preserve the remaining meaning and the reference Β΄ Κορινθίους 1:8-9, within the original em structure.",
+      "translation_quote": "ὑπερεβάλλομεν τῆς δυνάμεως, καὶ ἦμεν ὑπερπεπληρωμένοι, ὥστε καὶ τῆς ζωῆς ἐπεγίνομεν ἐξουθενημένοι"
+    },
+    {
+      "location": "“…The Ignorance of Others”, Luke 24:18",
+      "severity": "major",
+      "source_quote": "the one of them, whose name was Cleopas ... Art thou only a stranger in Jerusalem",
+      "suggested_fix": "Replace the quotation inside em with: «Και ο ένας από αυτούς, που ονομαζόταν Κλεόπας, του απάντησε: Εσύ μόνο είσαι ξένος στην Ιερουσαλήμ και δεν έμαθες όσα συνέβησαν εκεί αυτές τις μέρες; –Λουκάς 24:18.»",
+      "translation_quote": "ἐκεῖνος ὃς ἦν ἅμα αὐτοῖς ... Μόνος εἶ σύ ἐν Ἱερουσαλήμ"
+    },
+    {
+      "location": "Moses paragraph, Acts 7:25",
+      "severity": "major",
+      "source_quote": "supposed his brethren would have understood how that God by his hand would deliver them: but they understood not",
+      "suggested_fix": "Restore em and translate: «…νόμιζε ότι οι αδελφοί του θα καταλάβαιναν πως ο Θεός θα τους ελευθέρωνε μέσω αυτού· εκείνοι όμως δεν κατάλαβαν –Πράξεις 7:25.»",
+      "translation_quote": "ἔδοξεν ὅτι ἡ ἀδελφὴ αὐτοῦ ἤδη ἐπιγνώσεσθαι"
+    },
+    {
+      "location": "Moses paragraph, Numbers 11:14-15 and Luke 24:16",
+      "severity": "major",
+      "source_quote": "kill me, I pray thee, out of hand ... eyes were holden that they should not know him",
+      "suggested_fix": "Translate the Numbers quotation in Modern Greek, explicitly restoring «σε παρακαλώ, θανάτωσέ με αμέσως» rather than expulsion. Translate the Luke fragment as «…τα μάτια τους εμποδίζονταν να τον αναγνωρίσουν –Λουκάς 24:16». Restore the source em wrappers.",
+      "translation_quote": "ἐκβάλε με παρακαλῶ σε ... ἐτινάζοντο ἵνα μὴ ἐπιγνῶσιν αὐτόν"
+    },
+    {
+      "location": "“…Reason”, Genesis 28:20-21",
+      "severity": "major",
+      "source_quote": "And Jacob vowed a vow ... then shall the LORD be my God",
+      "suggested_fix": "Translate the quotation in Modern Greek, beginning «Και ο Ιακώβ έκανε έναν όρκο, λέγοντας» and ending «τότε ο Κύριος θα είναι ο Θεός μου». Preserve the intervening conditions, reference, and source em wrapper.",
+      "translation_quote": "ὁ Ἰακὼβ ὤμοσεν ἐν τῷ λεγομένῳ ... κἂν γένηται ὁ κύριος μοι εἶναι ὁ θεός"
+    },
+    {
+      "location": "“…Reason”, Genesis 32:24-28",
+      "severity": "major",
+      "source_quote": "there wrestled a man with him ... the hollow of Jacob's thigh was out of joint ... I will not let thee go, except thou bless me",
+      "suggested_fix": "Retranslate the quotation in Modern Greek, preserving that a man wrestled with Jacob, Jacob’s hip was dislocated, and Jacob said «Δεν θα σε αφήσω να φύγεις, αν δεν με ευλογήσεις». Preserve the remaining dialogue, the statement about prevailing with God and people, the reference, and the em wrapper.",
+      "translation_quote": "πολεμήσας ἄνθρωπον ... ἐξεκλείσθη ἡ ἐγγύη ... Οὐ μὴ ἀφθήσομαι σε ἔως ἂν εὐλογηθῶ"
+    },
+    {
+      "location": "“…Ill Fate”, Job 24:17 and Job 3:1-6",
+      "severity": "major",
+      "source_quote": "the morning is to them even as the shadow of death ... cursed his day ... the night in which it was said, There is a man child conceived",
+      "suggested_fix": "Render Job 24:17 as «…το πρωί είναι γι’ αυτούς σαν τη σκιά του θανάτου…». Retranslate Job 3:1-6 in Modern Greek, retaining «καταράστηκε τη μέρα του» and restoring the omitted clause «και η νύχτα που ειπώθηκε: Συνελήφθη αγόρι». Preserve all subsequent curses, references, and source em wrappers.",
+      "translation_quote": "ὡς ἡ ἠμέρα αὐτῶν ἀπὸ τῆς σκιᾶς τοῦ θανάτου ... ἐκατήρα τὴν ἡμέραν μου ... ἡ νύξ ᾗ εἴρηκεν· γεννηθήτω ἡ ἡμέρα σκοτεινή"
+    },
+    {
+      "location": "“…Personal Agenda”, Naaman quotation",
+      "severity": "major",
+      "source_quote": "He will surely come out to me ... strike his hand over the place, and recover the leper –2 Kings 5:11",
+      "suggested_fix": "Translate within the source em structure: «…Σίγουρα θα βγει να με συναντήσει, θα σταθεί, θα επικαλεστεί το όνομα του Κυρίου του Θεού του, θα κινήσει το χέρι του πάνω από το πάσχον μέρος και θα θεραπεύσει τον λεπρό –Β΄ Βασιλέων 5:11.»",
+      "translation_quote": "ἐπῃσάσεται ἡ χεὶρ αὐτοῦ ἐπὶ τὸ μέρος, καὶ καθαρισθήσεται ἀπὸ τῆς λέπρας"
+    },
+    {
+      "location": "“…Personal Agenda”, Abraham sacrifice paragraph",
+      "severity": "major",
+      "source_quote": "prepared the covenant sacrifice prescribed by God",
+      "suggested_fix": "Replace «τα θυσιαστήρια της διαθήκης» with «τη θυσία της διαθήκης».",
+      "translation_quote": "ετοίμασε τα θυσιαστήρια της διαθήκης"
+    },
+    {
+      "location": "“…Impatience”, Psalm 13:1",
+      "severity": "major",
+      "source_quote": "How long wilt thou forget me, O LORD? for ever?",
+      "suggested_fix": "Restore em and translate the full quotation: «Ως πότε θα με ξεχνάς, Κύριε; Για πάντα; Ως πότε θα μου κρύβεις το πρόσωπό σου; –Ψαλμός 13:1.»",
+      "translation_quote": "Πόσον χρόνον μὴ ἐπιλησθῇς με, κύριε; εἰς τὸν αἰῶνα;"
+    },
+    {
+      "location": "“…Self-Pity”, Elijah reference",
+      "severity": "major",
+      "source_quote": "–1 Kings 19:4",
+      "suggested_fix": "Use «–Α΄ Βασιλέων 19:4», consistent with the candidate’s Β΄ Βασιλέων naming for 2 Kings. «Α΄ Βασιλειών» identifies a different book in the traditional four-book Greek naming system.",
+      "translation_quote": "–1 Βασιλειῶν 19:4"
+    },
+    {
+      "location": "“…Feelings of Failure”, Luke 24:24",
+      "severity": "major",
+      "source_quote": "but him they saw not",
+      "suggested_fix": "Translate the quotation in Modern Greek, ending «αλλά εκείνον δεν τον είδαν –Λουκάς 24:24». Do not introduce “no longer”.",
+      "translation_quote": "οὐκ ἔτι δὲ εἶδον αὐτόν"
+    },
+    {
+      "location": "Paragraph beginning “Was I wrong?”",
+      "severity": "major",
+      "source_quote": "“Was I wrong?”",
+      "suggested_fix": "Replace with «Μήπως έκανα λάθος;»",
+      "translation_quote": "«Ἀνὴρ ἠμάρτηκα;»"
+    },
+    {
+      "location": "Conclusion, Cleopas paragraph",
+      "severity": "major",
+      "source_quote": "The scales fall from our eyes ... And they went and told it unto the residue",
+      "suggested_fix": "Replace «Οι κλίμακες πέφτουν από τα μάτια μας» with «Τα λέπια πέφτουν από τα μάτια μας». Translate the closing quotation as «Και πήγαν και το είπαν στους υπόλοιπους· ούτε εκείνους όμως πίστεψαν –Μάρκος 16:13», retaining the source em wrapper.",
+      "translation_quote": "Οι κλίμακες πέφτουν από τα μάτια μας ... ἐπορεύθησαν καὶ ἤγαγον εἰς τοὺς λοιπούς"
+    },
+    {
+      "location": "Conclusion, final prose paragraph",
+      "severity": "major",
+      "source_quote": "It is not an encounter that can be manufactured and intellectually understood.",
+      "suggested_fix": "Remove the added limitation «μόνο»: «Δεν είναι μια εμπειρία που μπορεί να κατασκευαστεί ή να κατανοηθεί διανοητικά.»",
+      "translation_quote": "Δεν είναι μια εμπειρία που μπορεί να παραχθεί ή να γίνει κατανοητή μόνο διανοητικά."
+    },
+    {
+      "location": "All remaining Scripture quotations and poem",
+      "severity": "minor",
+      "source_quote": "Concerning Jesus of Nazareth ... through a glass, darkly ... I rose, went forth, and followed Thee.",
+      "suggested_fix": "Use contemporary Modern Greek throughout the remaining quotations and poem, not archaizing or pseudo-Ancient Greek. This includes Luke 24:19, 1 Corinthians 13:12, Luke 24:20, both occurrences of Luke 24:21, Genesis 15:12, 2 Corinthians 1:9, Genesis 41:1, Psalm 105:18-19, Luke 24:22-23, the Elijah quotation, John 1:29, Luke 7:19, Matthew 27:46, and all six poem lines. For example, render the poem’s last line «Σηκώθηκα, βγήκα και Σε ακολούθησα». Preserve references and line breaks; restore source em tags wherever replaced with quotation marks.",
+      "translation_quote": "Περὶ Ἰησοῦ τοῦ Ναζωραίου ... διὰ κατόπτρου ἐνώπιον, ἐν αἰνίγματι ... Ἔγειρα, ἐξῆλθον, καὶ Σὲ ἠκολούθησα."
+    },
+    {
+      "location": "Opening historical paragraph; spiritual anguish paragraph; Joseph paragraph; Self-Pity paragraph",
+      "severity": "minor",
+      "source_quote": "German-held territory ... from which they never recovered ... has been eclipsed ... Pharaoh dreamed ... fear of missing out",
+      "suggested_fix": "Use «σε εδάφη που έλεγχαν οι Γερμανοί», «από το οποίο ο γερμανικός στρατός δεν συνήλθε ποτέ», «έχει σκοτεινιάσει», «ο Φαραώ ονειρεύτηκε», and «φόβος ότι χάνει κανείς εμπειρίες που ζουν οι άλλοι», respectively. In the self-pity paragraph also correct «δεν τους συνέβησαν εκείνοι» to «δεν συνέβησαν στους ίδιους».",
+      "translation_quote": "σε εδαφικά ελεγχόμενα ... από τον οποίο ποτέ δεν ανέκτησαν πλήρως ... έχει εκλειφθεί ... ο Φαραώ ονειρευτήκα ... φόβος της παράλειψης ... δεν τους συνέβησαν εκείνοι"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
