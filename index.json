@@ -14905,6 +14905,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ben/articles/8887e7f5-1047-4baf-a9d7-db2644e0fd7a.html",
+      "html_sha256": "918605eb42c2f5315e49d3a2879025d641562eb8b3e06465ec966af94d268b3d",
+      "human_reviewed": false,
+      "id": "8887e7f5-1047-4baf-a9d7-db2644e0fd7a",
+      "images": [
+        {
+          "alt": "বড় পুনর্জাগরণ-তাঁবুগুলোকে ঘিরে থাকা জনতা",
+          "public_path": "/images/articles/8887e7f5-1047-4baf-a9d7-db2644e0fd7a-1.png"
+        },
+        {
+          "alt": "বনঘেরা শিবিরে খোলা আকাশের নিচে ধর্মীয় সমাবেশে এক প্রচারক জনতার উদ্দেশে ভাষণ দিচ্ছেন",
+          "public_path": "/images/articles/8887e7f5-1047-4baf-a9d7-db2644e0fd7a-2.jpg"
+        }
+      ],
+      "issue_id": "14962b7b-2d94-5b43-a4c6-bbb78f074d1a",
+      "language": "ben",
+      "language_tag": "bn",
+      "metadata": "content/ben/articles/8887e7f5-1047-4baf-a9d7-db2644e0fd7a.json",
+      "metadata_sha256": "66ec62e1f0443557e736ff6ad669f8c9acaf5128e75a9218912c17e65b77f8fe",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "ccefc5a5c3d79409cc78319f94b5490718d30670",
+      "source_translation_key": "e2b492210d043d06ffd0912132ecb4f7893b24d6919894c9749c88b4c9993674",
+      "status": "ready",
+      "subtitle": null,
+      "title": "স্থায়ী পুনর্জাগরণ",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ben/articles/8a3dfa09-f40f-4615-8f83-59a8fccb1a2f.html",
       "html_sha256": "fae47c00ed949153fa9c86bf000262fb17ab481009ee1572137b7e7e38cfa981",
       "human_reviewed": false,

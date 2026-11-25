@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "c808e9a3-7b81-4122-a82e-0ca01e012d2f",
+    "response_id": "chatcmpl-EnuDnKifHoaNZ9XyVCc86lUxVcNfk",
+    "usage": {
+      "completion_tokens": 843,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 738,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5631,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5628,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6474
+    }
+  },
+  "received_at": "2026-11-25T02:22:31+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "প্রথম অনুচ্ছেদ",
+        "severity": "minor",
+        "source_quote": "The church which is not visited by these seasons",
+        "suggested_fix": "যে গির্জা এই সময়গুলোর অভিজ্ঞতা লাভ করে না",
+        "translation_quote": "যে গির্জা এই সময়গুলোর দর্শন পায় না"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}

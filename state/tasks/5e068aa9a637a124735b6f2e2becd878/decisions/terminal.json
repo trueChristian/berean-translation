@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "প্রথম অনুচ্ছেদ",
+      "severity": "minor",
+      "source_quote": "The church which is not visited by these seasons",
+      "suggested_fix": "যে গির্জা এই সময়গুলোর অভিজ্ঞতা লাভ করে না",
+      "translation_quote": "যে গির্জা এই সময়গুলোর দর্শন পায় না"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}
