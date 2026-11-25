@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "11adba4b-2bc1-42ed-b795-ac4a565e1b2a",
+    "response_id": "chatcmpl-Eo6das1X6CQNsepBHdEmidNKGf7y2",
+    "usage": {
+      "completion_tokens": 839,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 625,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5161,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5158,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6000
+    }
+  },
+  "received_at": "2026-11-25T12:59:16+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, paragraph beginning “The spirit of prayer must be…”",
+        "severity": "major",
+        "source_quote": "“lightness and frivolity reign”",
+        "suggested_fix": "Replace “קלות דעת ו frivolity שולטות” with “קלות דעת והוללות שולטות”.",
+        "translation_quote": "“קלות דעת ו frivolity שולטות”"
+      },
+      {
+        "location": "HTML, paragraph beginning “The object must not be…”",
+        "severity": "minor",
+        "source_quote": "“The sword must be unsheathed, and cut with both edges.”",
+        "suggested_fix": "Replace “יש לשלוף את החרב מנדנה ולהכות בשני פיה” with “יש לשלוף את החרב מנדנה ולחתוך בשני פיה”.",
+        "translation_quote": "“יש לשלוף את החרב מנדנה ולהכות בשני פיה.”"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 94
+  }
+}

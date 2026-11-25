@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraph beginning “The spirit of prayer must be…”",
+      "severity": "major",
+      "source_quote": "“lightness and frivolity reign”",
+      "suggested_fix": "Replace “קלות דעת ו frivolity שולטות” with “קלות דעת והוללות שולטות”.",
+      "translation_quote": "“קלות דעת ו frivolity שולטות”"
+    },
+    {
+      "location": "HTML, paragraph beginning “The object must not be…”",
+      "severity": "minor",
+      "source_quote": "“The sword must be unsheathed, and cut with both edges.”",
+      "suggested_fix": "Replace “יש לשלוף את החרב מנדנה ולהכות בשני פיה” with “יש לשלוף את החרב מנדנה ולחתוך בשני פיה”.",
+      "translation_quote": "“יש לשלוף את החרב מנדנה ולהכות בשני פיה.”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
