@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "af15a005-cc66-978b-b90a-c00f0f910814",
+    "response_id": "chatcmpl-Eo5hhHE2OZ5uGiP2wQlPKZxo6FW0S",
+    "usage": {
+      "completion_tokens": 644,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6075,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6072,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6719
+    }
+  },
+  "received_at": "2026-11-25T12:41:55+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML paragraph beginning «Η φύση του κηρύγματος έχει πρωταρχική σημασία»",
+        "severity": "minor",
+        "source_quote": "“for the exercise of wit”",
+        "suggested_fix": "Replace «για την επίδειξη πνεύματος» with «για την άσκηση ευφυΐας» or «για πνευματώδη αστεία».",
+        "translation_quote": "«για την επίδειξη πνεύματος»"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 97
+  }
+}

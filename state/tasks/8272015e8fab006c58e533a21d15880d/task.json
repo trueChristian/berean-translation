@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "57276d1b87404e94b169438b4d4f2aa5",
   "campaign": "auto-370c3b6f3333892b18a672ea155cd406688538c965c3f8075192570573ebb8d6",
   "created_at": "2026-11-25T02:25:11+00:00",
   "events": [
@@ -28,10 +27,39 @@
         },
         "total_tokens": 5780
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 644,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 512,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6075,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 6072,
+          "cached_tokens": 0
+        },
+        "total_tokens": 6719
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "HTML paragraph beginning «Η φύση του κηρύγματος έχει πρωταρχική σημασία»",
+      "severity": "minor",
+      "source_quote": "“for the exercise of wit”",
+      "suggested_fix": "Replace «για την επίδειξη πνεύματος» with «για την άσκηση ευφυΐας» or «για πνευματώδη αστεία».",
+      "translation_quote": "«για την επίδειξη πνεύματος»"
+    }
+  ],
+  "finished_at": "2026-11-25T12:41:55+00:00",
   "id": "8272015e8fab006c58e533a21d15880d",
   "issue_id": "14962b7b-2d94-5b43-a4c6-bbb78f074d1a",
   "language": "ell",
@@ -120,9 +148,11 @@
     }
   },
   "protected": false,
+  "quality_score": 97,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/f36b4574677aaa8444c35388b303496d3b37e629754f0df9c39e4f6bd01067a0.json",
   "stage": "review1",
   "stage_budget": {
@@ -138,7 +168,7 @@
     "total_reserved_usd": 0.088024,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "e2b492210d043d06ffd0912132ecb4f7893b24d6919894c9749c88b4c9993674",
   "translation_model_actual": "gpt-6-luna"

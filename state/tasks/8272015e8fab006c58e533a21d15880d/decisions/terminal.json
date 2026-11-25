@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML paragraph beginning «Η φύση του κηρύγματος έχει πρωταρχική σημασία»",
+      "severity": "minor",
+      "source_quote": "“for the exercise of wit”",
+      "suggested_fix": "Replace «για την επίδειξη πνεύματος» with «για την άσκηση ευφυΐας» or «για πνευματώδη αστεία».",
+      "translation_quote": "«για την επίδειξη πνεύματος»"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}
