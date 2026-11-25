@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "aab82a49723246fa99ebe6ba2e35ef46",
   "campaign": "auto-da270cb61b16d56326f2ad3c03ab79ddf2946511fda57789522d584f5db9f330",
   "created_at": "2026-11-21T23:10:34+00:00",
   "events": [
@@ -48,123 +47,31 @@
         },
         "total_tokens": 17699
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 97,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 65,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 10506,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 9403,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 10603
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "html, paragraph beginning ״יש לי דאגה״",
-      "severity": "major",
-      "source_quote": "to honor, respect, and love their husbands",
-      "suggested_fix": "החליפו את ״לכבד, לכבד ולהאהיב את בעליהם״ ב״לכבד ולהוקיר את בעליהן ולאהוב אותם״.",
-      "translation_quote": "לכבד, לכבד ולהאהיב את בעליהם"
-    },
-    {
-      "location": "html, first Scripture list, Ephesians 5:22",
-      "severity": "major",
-      "source_quote": "as unto the Lord",
-      "suggested_fix": "החליפו את ״כאילו ליהוה״ ב״כמו לאדון״, תוך שמירת תגיות ההדגשה וההפניה.",
-      "translation_quote": "כאילו ליהוה"
-    },
-    {
-      "location": "html, first Scripture list, 1 Timothy 2:11-14",
-      "severity": "major",
-      "source_quote": "Let the woman learn in silence with all subjection. But I suffer not a woman to teach ... And Adam was not deceived, but the woman being deceived was in the transgression",
-      "suggested_fix": "החליפו ב״<strong>על האישה ללמוד בשקט ובכניעה מלאה.</strong> אך איני מתיר לאישה ללמד או ליטול סמכות על האיש, אלא עליה לשמור על שקט. כי אדם נברא ראשון, ואחריו חוה. ואדם לא הוטעה, אלא האישה הוטעתה ועברה על המצווה״; השאירו את ההפניה במקומה.",
-      "translation_quote": "תלמד האשה בשתיקה בכל כנות. אבל איני סובל לאשה ללמד ... ואדם לא הוטעה, ואשר האשה הוטעה נכנסה בחטא"
-    },
-    {
-      "location": "html, paragraph beginning ״כשאנו חושבות על הכנעה״",
-      "severity": "major",
-      "source_quote": "we are only crippling them ... the husband can be won through her conversation (or by the way she conducts her life)",
-      "suggested_fix": "החליפו את ״אנו רק מהשמיטים אותם״ ב״אנו רק פוגעות ביכולתם לפעול״, ואת ״הבעל יכול להירשם על ידי התנהגותה״ ב״הבעל עשוי להימשך לאמונה באמצעות התנהגותה״.",
-      "translation_quote": "אנו רק מהשמיטים אותם ... הבעל יכול להירשם על ידי התנהגותה"
-    },
-    {
-      "location": "html, paragraph beginning ״בראשית ברא אלוהים״",
-      "severity": "major",
-      "source_quote": "together they would walk with God and glorify Him ... Eve that first yielded to the serpent’s temptation ... we as women tempted to think",
-      "suggested_fix": "החליפו את ״וימגידו את תפארתו״ ב״ויפארו אותו״, את ״שהשתגעה ראשונה לפיתוי הנחש״ ב״שנכנעה ראשונה לפיתוי הנחש״, ואת ״אנחנו כנשים מפתות לחשוב״ ב״אנו כנשים מתפתות לחשוב״.",
-      "translation_quote": "וימגידו את תפארתו ... שהשתגעה ראשונה לפיתוי הנחש ... אנחנו כנשים מפתות לחשוב"
-    },
-    {
-      "location": "html, Titus 2:3-5 quotation and following Genesis 2:18 quotation",
-      "severity": "major",
-      "source_quote": "keepers at home ... an help [helper, aid, supporter] meet [suitable, appropriate, complementary] for him",
-      "suggested_fix": "בציטוט מטיטוס החליפו את ״אדנות בית״ ב״דואגות למשק הבית״. בציטוט מבראשית החליפו את ״אעשה לו עזר כנגדו״ ב״אעשה לו עזר [עוזרת, מסייעת, תומכת] המתאים לו [מתאימה, הולמת, משלימה]״ כדי לשמר גם את ההסברים שבמקור.",
-      "translation_quote": "אדנות בית ... אעשה לו עזר כנגדו"
-    },
-    {
-      "location": "html, paragraph beginning ״כשהוא נפתה לנו״",
-      "severity": "major",
-      "source_quote": "Let us not rail on or nag our husbands when difficulties arise.",
-      "suggested_fix": "החליפו את ״בואי שלא נלכלך או נדרוך על בעלינו כשהקשיים מופיעים״ ב״הבה לא נטיח בבעלינו דברים קשים ולא ננדנד להם כאשר מתעוררים קשיים״.",
-      "translation_quote": "בואי שלא נלכלך או נדרוך על בעלינו כשהקשיים מופיעים"
-    },
-    {
-      "location": "html, extended 1 Peter 3:1-2 & 3:6-7 quotation",
-      "severity": "major",
-      "source_quote": "While they behold your chaste [modest, innocent, perfect, pure] conversation coupled with fear. Even as Sara obeyed Abraham, calling him lord: whose daughters ye are, as long as ye do well, and are not afraid with any amazement [terror]. Likewise, ye husbands, dwell with them according to knowledge, giving honour unto the wife, as unto the weaker vessel, and as being heirs together of the grace of life; that your prayers be not hindered",
-      "suggested_fix": "החליפו את הקטע מ״כי הן יראו״ ועד סוף הציטוט ב״כאשר יראו את התנהגותכן הטהורה [צנועה, תמימה, שלמה, נקייה] המלווה ביראה. כפי ששרה צייתה לאברהם וקראה לו אדון; ואתן בנותיה, כל עוד אתן עושות את הטוב ואינכן נכנעות לשום פחד [אימה]. וכן אתם, הבעלים, חיו עמן מתוך הבנה, ותנו כבוד לאישה ככלי החלש יותר וכמי שיורשות יחד עמכם את חסד החיים; <strong>כדי שתפילותיכם לא יעוכבו</strong>״. השאירו את תגיות הציטוט וההפניה במקומן.",
-      "translation_quote": "כי הן יראו את התנהגותכן צנועה מלובה ביראה. גם כמו ששרה צייתה לאברהם, וקראה לו אדון: אשר בבנותיהן אתם, כל עוד תעשו טוב ולא תיראו כל יראה. וכן אתם, בעלי, שיכונו אתם עמהן בהכרה, תנו כבוד לאשה, כאויבת החלשה, וחלקים יחד היו דארי החיים; כי לא ימנעו תפילותיכם"
-    },
-    {
-      "location": "html, paragraph beginning ״ככל שילדינו מתבגרים״",
-      "severity": "major",
-      "source_quote": "If we openly question our husband’s authority ... they too will question their dad’s authority ... a generation that is questioning everything about God’s created order",
-      "suggested_fix": "החליפו את ״אם נשאל בגלוי את סמכות בעלינו״ ב״אם נטיל בגלוי ספק בסמכות בעלינו״, את ״שגם הם ישאלו את סמכות אביהם״ ב״שגם הם יטילו ספק בסמכות אביהם״, ואת ״דור ששואל הכל לגבי סדר בריאת אלוהים״ ב״דור שמטיל ספק בכל הנוגע לסדר שקבע אלוהים בבריאה״.",
-      "translation_quote": "אם נשאל בגלוי את סמכות בעלינו ... שגם הם ישאלו את סמכות אביהם ... דור ששואל הכל לגבי סדר בריאת אלוהים"
-    },
-    {
-      "location": "html, aside, Romans 5:12-14 quotation",
-      "severity": "major",
-      "source_quote": "[not from Eve] ... even over them [Adam’s descendants—all of the human race] that had not sinned after the similitude of Adam’s transgression",
-      "suggested_fix": "החליפו את ״[ולא מאשה]״ ב״[ולא מחוה]״ ואת ״אף על פי שלא כולם חטאו בחטא בדמיון לחטא אדם״ ב״גם על אלה [צאצאי אדם — כל המין האנושי] שלא חטאו בדומה לעבירתו של אדם״.",
-      "translation_quote": "[ולא מאשה] ... אף על פי שלא כולם חטאו בחטא בדמיון לחטא אדם"
-    },
-    {
-      "location": "html, first Scripture list, Ephesians 5:33 and 1 Peter 3:6",
-      "severity": "minor",
-      "source_quote": "Nevertheless let … the wife see that she reverence her husband ... whose daughters ye are",
-      "suggested_fix": "בפסוק מאפסיים השתמשו ב״עם זאת, על … האישה להקפיד <strong>לכבד את בעלה</strong>״ במקום הניסוח הכפול. בפסוק מפטרוס החליפו את ״שכן בנותיהן אתם״ ב״שאתן בנותיה״.",
-      "translation_quote": "ולא זאת בלבד, כי אם תירא האשה את בעלה תכבד את בעלה ... שכן בנותיהן אתם"
-    },
-    {
-      "location": "html, first Scripture list, 1 Corinthians 14:34",
-      "severity": "minor",
-      "source_quote": "Let your women keep silence in the churches ... as also saith the law",
-      "suggested_fix": "החליפו את ״תהיינה נשיכן שקטות בקהילות״ ב״על נשיכם לשמור על שקט בקהילות״, ואת ״כפי שגם החוק אומר״ ב״כפי שגם התורה אומרת״.",
-      "translation_quote": "תהיינה נשיכן שקטות בקהילות ... כפי שגם החוק אומר"
-    },
-    {
-      "location": "html, paragraph beginning ״אפילו קרוב יותר הביתה״",
-      "severity": "minor",
-      "source_quote": "reading his Bible",
-      "suggested_fix": "החליפו את ״קורא בתנ״ך״ ב״קורא בכתבי הקודש״ כדי לא לצמצם את ה־Bible הנוצרי לברית הישנה בלבד.",
-      "translation_quote": "קורא בתנ\"ך"
-    },
-    {
-      "location": "html, practical list, first item",
-      "severity": "minor",
-      "source_quote": "Asking them for advice",
-      "suggested_fix": "החליפו את ״לבקש את עצתן״ ב״לבקש את עצתם״.",
-      "translation_quote": "לבקש את עצתן"
-    },
-    {
-      "location": "html, paragraph beginning ״כשהוא נפתה לנו״ and final paragraph before aside",
-      "severity": "minor",
-      "source_quote": "When we are tempted ... press on to be one together ... finishing each other’s sentences",
-      "suggested_fix": "החליפו את ״כשהוא נפתה לנו״ ב״כשאנו מתפתות״, את ״וללחוץ קדימה להשתלב כאחד״ ב״ולהמשיך להתקדם כדי להיות לאחד״, ואת ״משלימים משפטים זו של זו״ ב״משלימים זה את משפטיו של זה״.",
-      "translation_quote": "כשהוא נפתה לנו ... וללחוץ קדימה להשתלב כאחד ... משלימים משפטים זו של זו"
-    },
-    {
-      "location": "html, final paragraph of aside, reference",
-      "severity": "minor",
-      "source_quote": "1 Corinthians 11:3",
-      "suggested_fix": "החליפו את ״1 קורינתים א' 11:3״ ב״הראשונה אל הקורינתים 11:3״ כדי להימנע מסימון כפול של מספר האיגרת.",
-      "translation_quote": "1 קורינתים א' 11:3"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-11-25T23:17:09+00:00",
   "id": "f26010ef669a057e093079ec742be4bb",
   "issue_id": "1a7070c9-fd4f-546b-a220-f267ddb8cf5f",
   "language": "heb",
@@ -253,7 +160,7 @@
     }
   },
   "protected": false,
-  "quality_score": 65,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6.1-sol",
@@ -272,7 +179,7 @@
     "total_reserved_usd": 0.789163,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "ad61f4b9009ceb692738e67bfe8cebef4cb378ea1ea96cae5a9794b4be22a0d2",
   "translation_model_actual": "gpt-6.1-sol"
