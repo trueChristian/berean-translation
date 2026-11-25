@@ -6,12 +6,14 @@
   ],
   "id": "00eba538db9948a2bb06d05c2f2f33b8",
   "input_file_id": "file-JUrYed2J4ZaNPfBau4WABs",
+  "last_collector_visit_at": "2026-11-25T04:06:09+00:00",
   "model": "gpt-6.1-sol",
   "payload_sha256": "527568cecc656c38190d2444f7198bf52fd57826e024941307e86b2112860714",
   "remote_id": null,
   "reserved_usd": 0.103744,
   "stage": "review1",
-  "status": "prepared",
+  "status": "submitting",
+  "submission_started_at": "2026-11-25T04:06:33+00:00",
   "tasks": [
     "f26010ef669a057e093079ec742be4bb"
   ]
