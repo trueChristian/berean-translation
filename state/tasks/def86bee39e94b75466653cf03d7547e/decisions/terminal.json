@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph 5",
+      "severity": "minor",
+      "source_quote": "“the sands of worldliness that shallow the current”",
+      "suggested_fix": "Replace “shallow” with “ufanya mkondo kuwa wa kina kifupi” so the sentence reads: “Miamsho itakayoliinua juu ya mchanga wa mambo ya kidunia ambao hufanya mkondo kuwa wa kina kifupi na kuzuia safari.”",
+      "translation_quote": "“mchanga wa mambo ya kidunia ambao hufanya mkondo kuwa shallow na kuzuia safari”"
+    },
+    {
+      "location": "Paragraph 10",
+      "severity": "minor",
+      "source_quote": "“the spirit of supplies, of grace, and mercy”",
+      "suggested_fix": "Replace “roho ya mahitaji” with “roho ya utoaji” to convey provision rather than need.",
+      "translation_quote": "“roho ya mahitaji, neema na rehema”"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

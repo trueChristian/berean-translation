@@ -102654,6 +102654,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/swa/articles/8887e7f5-1047-4baf-a9d7-db2644e0fd7a.html",
+      "html_sha256": "d1f3a7022dda313d673d5aaa9e894fb539529d3f0d8ce60e316a03d6dbc00dd3",
+      "human_reviewed": false,
+      "id": "8887e7f5-1047-4baf-a9d7-db2644e0fd7a",
+      "images": [
+        {
+          "alt": "Mahema makubwa ya uamsho yaliyozungukwa na umati wa watu",
+          "public_path": "/images/articles/8887e7f5-1047-4baf-a9d7-db2644e0fd7a-1.png"
+        },
+        {
+          "alt": "Mkusanyiko wa kidini wa nje katika kambi yenye miti, huku mhubiri akilihutubia kundi la watu",
+          "public_path": "/images/articles/8887e7f5-1047-4baf-a9d7-db2644e0fd7a-2.jpg"
+        }
+      ],
+      "issue_id": "14962b7b-2d94-5b43-a4c6-bbb78f074d1a",
+      "language": "swa",
+      "language_tag": "sw",
+      "metadata": "content/swa/articles/8887e7f5-1047-4baf-a9d7-db2644e0fd7a.json",
+      "metadata_sha256": "6e34a475ce13dbd4c5b0dfe3e4d76be28ada834da807f4a665c5839d9bfd93c4",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "ccefc5a5c3d79409cc78319f94b5490718d30670",
+      "source_translation_key": "e2b492210d043d06ffd0912132ecb4f7893b24d6919894c9749c88b4c9993674",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Miamsho Inayodumu",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/swa/articles/8a3dfa09-f40f-4615-8f83-59a8fccb1a2f.html",
       "html_sha256": "320997a25504e3f0192eb5ec7df381ce733c46ef5cf1d39727aeef381e191ae6",
       "human_reviewed": false,

@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-25T03:14:25+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph 5\",\"severity\":\"minor\",\"source_quote\":\"“the sands of worldliness that shallow the current”\",\"suggested_fix\":\"Replace “shallow” with “ufanya mkondo kuwa wa kina kifupi” so the sentence reads: “Miamsho itakayoliinua juu ya mchanga wa mambo ya kidunia ambao hufanya mkondo kuwa wa kina kifupi na kuzuia safari.”\",\"translation_quote\":\"“mchanga wa mambo ya kidunia ambao hufanya mkondo kuwa shallow na kuzuia safari”\"},{\"location\":\"Paragraph 10\",\"severity\":\"minor\",\"source_quote\":\"“the spirit of supplies, of grace, and mercy”\",\"suggested_fix\":\"Replace “roho ya mahitaji” with “roho ya utoaji” to convey provision rather than need.\",\"translation_quote\":\"“roho ya mahitaji, neema na rehema”\"}],\"findings_complete\":true,\"passed\":true,\"score\":96}",
+    "content_bytes": 809,
+    "content_evidence_truncated": false,
+    "content_sha256": "b35588417c4c618a7d345099506610f7b3222185bd9ed8492a63440e00fe7985",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 729,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5235,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5232,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5964
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}
