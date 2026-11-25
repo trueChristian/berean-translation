@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "dcd76e80-c4f4-4702-bce1-e23c8ec278fe",
+    "response_id": "chatcmpl-Eo0WtjJkVEirgSucdEIJ4hP20ze8X",
+    "usage": {
+      "completion_tokens": 591,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 457,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5239,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4136,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 5830
+    }
+  },
+  "received_at": "2026-11-25T08:08:51+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, paragraph beginning “Lo spirito di preghiera deve…”",
+        "severity": "minor",
+        "source_quote": "“the spirit of supplies, of grace, and mercy”",
+        "suggested_fix": "Sostituire «lo spirito di provvidenza» con «lo spirito di sostegno» per rendere più direttamente l’idea di provvista o sostentamento.",
+        "translation_quote": "«lo spirito di provvidenza, di grazia e di misericordia»"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 97
+  }
+}

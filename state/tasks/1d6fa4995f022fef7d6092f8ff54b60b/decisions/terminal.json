@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraph beginning “Lo spirito di preghiera deve…”",
+      "severity": "minor",
+      "source_quote": "“the spirit of supplies, of grace, and mercy”",
+      "suggested_fix": "Sostituire «lo spirito di provvidenza» con «lo spirito di sostegno» per rendere più direttamente l’idea di provvista o sostentamento.",
+      "translation_quote": "«lo spirito di provvidenza, di grazia e di misericordia»"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}
