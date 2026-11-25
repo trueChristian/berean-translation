@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-25T22:45:02+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"blockquote, epitaph quotation\",\"severity\":\"minor\",\"source_quote\":\"“the drifting sand of human commandments”\",\"suggested_fix\":\"“मनुष्यों की आज्ञाओं की खिसकती रेत”\",\"translation_quote\":\"“मनुष्यों की आज्ञाओं की बहती रेत”\"}],\"findings_complete\":true,\"passed\":true,\"score\":99}",
+    "content_bytes": 417,
+    "content_evidence_truncated": false,
+    "content_sha256": "4602b54470e8a052f0ba31d6e28c750c29eff5a262feb0b2511600b3f90e1bc5",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 835,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 734,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4806,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4803,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5641
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

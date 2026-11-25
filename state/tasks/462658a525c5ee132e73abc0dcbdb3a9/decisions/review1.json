@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "blockquote, epitaph quotation",
+      "severity": "minor",
+      "source_quote": "“the drifting sand of human commandments”",
+      "suggested_fix": "“मनुष्यों की आज्ञाओं की खिसकती रेत”",
+      "translation_quote": "“मनुष्यों की आज्ञाओं की बहती रेत”"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

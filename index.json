@@ -50028,6 +50028,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/hin/articles/cbbe9a81-d8fd-46c2-bfcd-0d31bdd59fb1.html",
+      "html_sha256": "3c4255c20e429df5c45d05caefbd159bd3d95767f0fc80a2c1c35e5b25360c3b",
+      "human_reviewed": false,
+      "id": "cbbe9a81-d8fd-46c2-bfcd-0d31bdd59fb1",
+      "images": [
+        {
+          "alt": "डिर्क विलेम्स अपने पीछा करने वाले की ओर हाथ बढ़ाते हुए, जो बर्फ़ में धँस गया है",
+          "public_path": "/images/articles/cbbe9a81-d8fd-46c2-bfcd-0d31bdd59fb1-1.jpg"
+        },
+        {
+          "alt": "डीन और तानिया टेलर अपने परिवार के साथ बाहर",
+          "public_path": "/images/articles/cbbe9a81-d8fd-46c2-bfcd-0d31bdd59fb1-2.jpg"
+        }
+      ],
+      "issue_id": "14962b7b-2d94-5b43-a4c6-bbb78f074d1a",
+      "language": "hin",
+      "language_tag": "hi",
+      "metadata": "content/hin/articles/cbbe9a81-d8fd-46c2-bfcd-0d31bdd59fb1.json",
+      "metadata_sha256": "30fa3069b3c661ee8cb1d0c676bef8100a6355c1630cc62934b75708bbce60cf",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "ccefc5a5c3d79409cc78319f94b5490718d30670",
+      "source_translation_key": "d7c838f916a6e96ad10ca32b39fc67cc6fdb9b820c8957f24542fe4119ff210c",
+      "status": "ready",
+      "subtitle": null,
+      "title": "The Martyrs Mirror पर विचार",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/hin/articles/cc225bc9-2dda-46f3-a628-13af4fd95e7a.html",
       "html_sha256": "5ca74b994d751e78caed0672c6282d9c3b1954419612d43e4c840d654fd31953",
       "human_reviewed": false,
