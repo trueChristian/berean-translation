@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "title",
+      "severity": "minor",
+      "source_quote": "A Mother’s Heart Cry",
+      "suggested_fix": "En mammas hjärterop",
+      "translation_quote": "En mammas hjärtas rop"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

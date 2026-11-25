@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-25T08:09:13+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"title\",\"severity\":\"minor\",\"source_quote\":\"A Mother’s Heart Cry\",\"suggested_fix\":\"En mammas hjärterop\",\"translation_quote\":\"En mammas hjärtas rop\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 228,
+    "content_evidence_truncated": false,
+    "content_sha256": "83e6eb17755a8792279b19dd55441418e93e57ee3745b5620aedd3f1a83a6c8a",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 895,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 815,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 7689,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 7686,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8584
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

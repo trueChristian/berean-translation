@@ -106063,6 +106063,46 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/swe/articles/304e1120-f241-4d9e-972b-c72dec82b134.html",
+      "html_sha256": "1be2b58a56a15d99a42bdee2c071155bbcdbaf5a4111dfa0fc5d20b0879939bd",
+      "human_reviewed": false,
+      "id": "304e1120-f241-4d9e-972b-c72dec82b134",
+      "images": [
+        {
+          "alt": "En sittande mamma som håller ett barn",
+          "public_path": "/images/articles/304e1120-f241-4d9e-972b-c72dec82b134-1.jpg"
+        },
+        {
+          "alt": "",
+          "public_path": "/images/articles/304e1120-f241-4d9e-972b-c72dec82b134-2.png"
+        },
+        {
+          "alt": "",
+          "public_path": "/images/articles/304e1120-f241-4d9e-972b-c72dec82b134-3.jpg"
+        },
+        {
+          "alt": "Ett stort hus intill en bäck",
+          "public_path": "/images/articles/304e1120-f241-4d9e-972b-c72dec82b134-4.jpg"
+        }
+      ],
+      "issue_id": "14962b7b-2d94-5b43-a4c6-bbb78f074d1a",
+      "language": "swe",
+      "language_tag": "sv",
+      "metadata": "content/swe/articles/304e1120-f241-4d9e-972b-c72dec82b134.json",
+      "metadata_sha256": "1eaa59be4c69770286ebf0c7a7e5718c84c45e9534c6035c07f225bb81f741ac",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "ccefc5a5c3d79409cc78319f94b5490718d30670",
+      "source_translation_key": "62bd3b8d5120818defff7fd66e6ca15022624bbed7e6fe7b6efb17cae98a6e3d",
+      "status": "ready",
+      "subtitle": null,
+      "title": "En mammas hjärtas rop",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/swe/articles/30796e2b-9ec4-4bcf-b9e3-7d40802ff1f9.html",
       "html_sha256": "a34ab146b2f4c8042a6abacdedc58929d4a7d57acb01bfa9d69efda821551273",
       "human_reviewed": false,
