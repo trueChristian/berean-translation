@@ -3160,7 +3160,7 @@
       "article_id": "30d02d2c-805c-437c-ad10-4542362ab6de",
       "language": "ell",
       "latest_task": "8b4509d41364f121c8127b28b30af7e0",
-      "processing_status": "in_batch",
+      "processing_status": "queued",
       "reason": "active"
     },
     {
@@ -6688,7 +6688,7 @@
       "article_id": "8887e7f5-1047-4baf-a9d7-db2644e0fd7a",
       "language": "kor",
       "latest_task": "834f8eb0036cde76d5abad911f0cd7b0",
-      "processing_status": "in_batch",
+      "processing_status": "queued",
       "reason": "active"
     },
     {
