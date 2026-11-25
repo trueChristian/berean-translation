@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "8457be3e-4b36-4a7b-878b-b9c5feafee7a",
+    "response_id": "chatcmpl-Eo0mMoDD8x9pyTPU7E1n5QdIiQG2o",
+    "usage": {
+      "completion_tokens": 933,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 728,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5127,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4024,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 6060
+    }
+  },
+  "received_at": "2026-11-25T08:09:03+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraphe 3",
+        "severity": "major",
+        "source_quote": "“when the slain of the Lord are many”",
+        "suggested_fix": "Remplacer « les victimes du Seigneur sont nombreuses » par « ceux que le Seigneur a frappés sont nombreux » pour conserver l’image des personnes terrassées dans cette bataille spirituelle.",
+        "translation_quote": "« où les victimes du Seigneur sont nombreuses »"
+      },
+      {
+        "location": "Paragraphe 10",
+        "severity": "minor",
+        "source_quote": "“the spirit of supplies, of grace, and mercy”",
+        "suggested_fix": "Remplacer « l’esprit de pourvoi » par « l’esprit de provision » ou une formulation française équivalente évoquant ce qui est accordé ou fourni.",
+        "translation_quote": "« l’esprit de pourvoi, de grâce et de miséricorde »"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 94
+  }
+}

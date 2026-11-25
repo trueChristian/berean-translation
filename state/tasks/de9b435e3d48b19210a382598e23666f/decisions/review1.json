@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Paragraphe 3",
+      "severity": "major",
+      "source_quote": "“when the slain of the Lord are many”",
+      "suggested_fix": "Remplacer « les victimes du Seigneur sont nombreuses » par « ceux que le Seigneur a frappés sont nombreux » pour conserver l’image des personnes terrassées dans cette bataille spirituelle.",
+      "translation_quote": "« où les victimes du Seigneur sont nombreuses »"
+    },
+    {
+      "location": "Paragraphe 10",
+      "severity": "minor",
+      "source_quote": "“the spirit of supplies, of grace, and mercy”",
+      "suggested_fix": "Remplacer « l’esprit de pourvoi » par « l’esprit de provision » ou une formulation française équivalente évoquant ce qui est accordé ou fourni.",
+      "translation_quote": "« l’esprit de pourvoi, de grâce et de miséricorde »"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

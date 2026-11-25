@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "bdc8650b781a43d09c44110149028384",
   "campaign": "auto-d54d1c8c55c85bfbda747dda7b924f5be9d7af94b3992e42e7a97746d1ebdb57",
   "created_at": "2026-11-23T03:19:11+00:00",
   "events": [
@@ -28,10 +27,45 @@
         },
         "total_tokens": 4847
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 933,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 728,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5127,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 4024,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 6060
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "Paragraphe 3",
+      "severity": "major",
+      "source_quote": "“when the slain of the Lord are many”",
+      "suggested_fix": "Remplacer « les victimes du Seigneur sont nombreuses » par « ceux que le Seigneur a frappés sont nombreux » pour conserver l’image des personnes terrassées dans cette bataille spirituelle.",
+      "translation_quote": "« où les victimes du Seigneur sont nombreuses »"
+    },
+    {
+      "location": "Paragraphe 10",
+      "severity": "minor",
+      "source_quote": "“the spirit of supplies, of grace, and mercy”",
+      "suggested_fix": "Remplacer « l’esprit de pourvoi » par « l’esprit de provision » ou une formulation française équivalente évoquant ce qui est accordé ou fourni.",
+      "translation_quote": "« l’esprit de pourvoi, de grâce et de miséricorde »"
+    }
+  ],
   "id": "de9b435e3d48b19210a382598e23666f",
   "issue_id": "14962b7b-2d94-5b43-a4c6-bbb78f074d1a",
   "language": "fra",
@@ -120,11 +154,13 @@
     }
   },
   "protected": false,
+  "quality_score": 94,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/f36b4574677aaa8444c35388b303496d3b37e629754f0df9c39e4f6bd01067a0.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "translate",
     "max_candidate_bytes": 120000,
@@ -138,7 +174,7 @@
     "total_reserved_usd": 0.08802,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "e2b492210d043d06ffd0912132ecb4f7893b24d6919894c9749c88b4c9993674",
   "translation_model_actual": "gpt-6-luna"
