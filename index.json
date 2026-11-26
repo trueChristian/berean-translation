@@ -16517,6 +16517,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ben/articles/cbbe9a81-d8fd-46c2-bfcd-0d31bdd59fb1.html",
+      "html_sha256": "14eccaaf1662c15ca5f3609a3e0804f743841cf7b515ddbfef3224fe0fbb8317",
+      "human_reviewed": false,
+      "id": "cbbe9a81-d8fd-46c2-bfcd-0d31bdd59fb1",
+      "images": [
+        {
+          "alt": "ডির্ক উইলেমস তাঁর অনুসরণকারীকে বরফ ভেঙে পড়ে যাওয়ার পর তার দিকে হাত বাড়িয়ে দিচ্ছেন",
+          "public_path": "/images/articles/cbbe9a81-d8fd-46c2-bfcd-0d31bdd59fb1-1.jpg"
+        },
+        {
+          "alt": "ডিন ও তানিয়া টেলর তাঁদের পরিবারের সঙ্গে বাইরে",
+          "public_path": "/images/articles/cbbe9a81-d8fd-46c2-bfcd-0d31bdd59fb1-2.jpg"
+        }
+      ],
+      "issue_id": "14962b7b-2d94-5b43-a4c6-bbb78f074d1a",
+      "language": "ben",
+      "language_tag": "bn",
+      "metadata": "content/ben/articles/cbbe9a81-d8fd-46c2-bfcd-0d31bdd59fb1.json",
+      "metadata_sha256": "c45edcc14f2cf1ce22ebc2bae9f70ae1f2af9ac9a13f975a511ab0830aaac31b",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "ccefc5a5c3d79409cc78319f94b5490718d30670",
+      "source_translation_key": "d7c838f916a6e96ad10ca32b39fc67cc6fdb9b820c8957f24542fe4119ff210c",
+      "status": "ready",
+      "subtitle": null,
+      "title": "শহীদদের দর্পণ নিয়ে কিছু ভাবনা",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ben/articles/cc225bc9-2dda-46f3-a628-13af4fd95e7a.html",
       "html_sha256": "bc4c3de1d702c47f823b5e83c602bc005a962df263fd231cd3f8da3f0b77f5fc",
       "human_reviewed": false,

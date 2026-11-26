@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-26T14:21:10+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph 5\",\"severity\":\"minor\",\"source_quote\":\"“But Dirk had died to himself years before when he gave his life to Christ.”\",\"suggested_fix\":\"“কিন্তু খ্রিস্টের কাছে নিজের জীবন সমর্পণ করার সময়, বহু বছর আগেই ডির্ক নিজের সত্তাকে অস্বীকার করেছিলেন।”\",\"translation_quote\":\"“কিন্তু খ্রিস্টের কাছে নিজের জীবন সমর্পণ করার সময়, বহু বছর আগেই ডির্ক নিজের কাছে নিজের মৃত্যু ঘটিয়েছিলেন।”\"},{\"location\":\"Paragraph 8\",\"severity\":\"minor\",\"source_quote\":\"“a strong east wind was blowing”\",\"suggested_fix\":\"“প্রবল পূর্বদিকের বাতাস বইছিল”\",\"translation_quote\":\"“প্রবল পূর্বা বাতাস বইছিল”\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 1118,
+    "content_evidence_truncated": false,
+    "content_sha256": "e35882050d1e71570e8032cf25f1b56fd29ef7fa037c132f862e76e3bf3912a3",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 827,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 627,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5007,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5004,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5834
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}

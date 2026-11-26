@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph 5",
+      "severity": "minor",
+      "source_quote": "“But Dirk had died to himself years before when he gave his life to Christ.”",
+      "suggested_fix": "“কিন্তু খ্রিস্টের কাছে নিজের জীবন সমর্পণ করার সময়, বহু বছর আগেই ডির্ক নিজের সত্তাকে অস্বীকার করেছিলেন।”",
+      "translation_quote": "“কিন্তু খ্রিস্টের কাছে নিজের জীবন সমর্পণ করার সময়, বহু বছর আগেই ডির্ক নিজের কাছে নিজের মৃত্যু ঘটিয়েছিলেন।”"
+    },
+    {
+      "location": "Paragraph 8",
+      "severity": "minor",
+      "source_quote": "“a strong east wind was blowing”",
+      "suggested_fix": "“প্রবল পূর্বদিকের বাতাস বইছিল”",
+      "translation_quote": "“প্রবল পূর্বা বাতাস বইছিল”"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

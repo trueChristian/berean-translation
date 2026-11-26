@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "cebd36fed9464cf3bf468e9ca64df1d2",
   "campaign": "auto-d60a577471bf1d58f6b98a719d1d42e74425f2d379af6d0a5aec70eebc0a2b77",
   "created_at": "2026-11-25T23:02:32+00:00",
   "events": [
@@ -28,10 +27,46 @@
         },
         "total_tokens": 4714
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 827,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 627,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5007,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 5004,
+          "cached_tokens": 0
+        },
+        "total_tokens": 5834
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "Paragraph 5",
+      "severity": "minor",
+      "source_quote": "“But Dirk had died to himself years before when he gave his life to Christ.”",
+      "suggested_fix": "“কিন্তু খ্রিস্টের কাছে নিজের জীবন সমর্পণ করার সময়, বহু বছর আগেই ডির্ক নিজের সত্তাকে অস্বীকার করেছিলেন।”",
+      "translation_quote": "“কিন্তু খ্রিস্টের কাছে নিজের জীবন সমর্পণ করার সময়, বহু বছর আগেই ডির্ক নিজের কাছে নিজের মৃত্যু ঘটিয়েছিলেন।”"
+    },
+    {
+      "location": "Paragraph 8",
+      "severity": "minor",
+      "source_quote": "“a strong east wind was blowing”",
+      "suggested_fix": "“প্রবল পূর্বদিকের বাতাস বইছিল”",
+      "translation_quote": "“প্রবল পূর্বা বাতাস বইছিল”"
+    }
+  ],
+  "finished_at": "2026-11-26T14:21:10+00:00",
   "id": "83523b236c3b73fa73936cf0c7d08d34",
   "issue_id": "14962b7b-2d94-5b43-a4c6-bbb78f074d1a",
   "language": "ben",
@@ -120,9 +155,11 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/fbd11b6d945c01ab5ff62531019df8e2e0a8fcde3ec950ea4724e6622f5ced62.json",
   "stage": "review1",
   "stage_budget": {
@@ -138,7 +175,7 @@
     "total_reserved_usd": 0.087625,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "d7c838f916a6e96ad10ca32b39fc67cc6fdb9b820c8957f24542fe4119ff210c",
   "translation_model_actual": "gpt-6-luna"
