@@ -22302,6 +22302,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/cmn/articles/cbbe9a81-d8fd-46c2-bfcd-0d31bdd59fb1.html",
+      "html_sha256": "f845753249a2af30f0b03b2072bc575e5fb50334618122c25c1b7525f5cb35ee",
+      "human_reviewed": false,
+      "id": "cbbe9a81-d8fd-46c2-bfcd-0d31bdd59fb1",
+      "images": [
+        {
+          "alt": "德克·威廉姆斯伸手救援踏破冰面落水的追捕者",
+          "public_path": "/images/articles/cbbe9a81-d8fd-46c2-bfcd-0d31bdd59fb1-1.jpg"
+        },
+        {
+          "alt": "迪恩和塔妮娅·泰勒与家人在户外",
+          "public_path": "/images/articles/cbbe9a81-d8fd-46c2-bfcd-0d31bdd59fb1-2.jpg"
+        }
+      ],
+      "issue_id": "14962b7b-2d94-5b43-a4c6-bbb78f074d1a",
+      "language": "cmn",
+      "language_tag": "zh-Hans",
+      "metadata": "content/cmn/articles/cbbe9a81-d8fd-46c2-bfcd-0d31bdd59fb1.json",
+      "metadata_sha256": "58ea7b5735197386543844d7f5ccc482d535987e17bdd9c363d37d83ea878d15",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": null,
+      "source_revision": "ccefc5a5c3d79409cc78319f94b5490718d30670",
+      "source_translation_key": "d7c838f916a6e96ad10ca32b39fc67cc6fdb9b820c8957f24542fe4119ff210c",
+      "status": "ready",
+      "subtitle": null,
+      "title": "关于《殉道者之镜》的感想",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/cmn/articles/cc225bc9-2dda-46f3-a628-13af4fd95e7a.html",
       "html_sha256": "a535d3b87156c9dbfec00128a45834bfe37f206688c5dec356f030936497206d",
       "human_reviewed": false,
