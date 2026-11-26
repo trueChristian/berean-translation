@@ -99391,6 +99391,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/spa/articles/cbbe9a81-d8fd-46c2-bfcd-0d31bdd59fb1.html",
+      "html_sha256": "33c70e08107f56219187d3694430aa71dc6c62696655311db176f94f911ebc4d",
+      "human_reviewed": false,
+      "id": "cbbe9a81-d8fd-46c2-bfcd-0d31bdd59fb1",
+      "images": [
+        {
+          "alt": "Dirk Willems se acerca a su perseguidor, que ha caído a través del hielo",
+          "public_path": "/images/articles/cbbe9a81-d8fd-46c2-bfcd-0d31bdd59fb1-1.jpg"
+        },
+        {
+          "alt": "Dean y Tania Taylor con su familia al aire libre",
+          "public_path": "/images/articles/cbbe9a81-d8fd-46c2-bfcd-0d31bdd59fb1-2.jpg"
+        }
+      ],
+      "issue_id": "14962b7b-2d94-5b43-a4c6-bbb78f074d1a",
+      "language": "spa",
+      "language_tag": "es",
+      "metadata": "content/spa/articles/cbbe9a81-d8fd-46c2-bfcd-0d31bdd59fb1.json",
+      "metadata_sha256": "f09bebd6ef34c711729bd37e9442f4de6ffa3e2ce50abb249146f162182e473a",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "ccefc5a5c3d79409cc78319f94b5490718d30670",
+      "source_translation_key": "d7c838f916a6e96ad10ca32b39fc67cc6fdb9b820c8957f24542fe4119ff210c",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Reflexiones sobre El espejo de los mártires",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/spa/articles/cc225bc9-2dda-46f3-a628-13af4fd95e7a.html",
       "html_sha256": "9c45f483dfd7987edcbad3088645b52944d30c4caa4d5fa959ac192c7ac9172b",
       "human_reviewed": false,
