@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "b04884874e9f46b0825921ed411eb8dd",
   "campaign": "auto-df282603fc7d09b5cee6b4a0b28226d4c4e6bd839a51978343119a2dcd4990a3",
   "created_at": "2026-11-20T11:28:34+00:00",
   "events": [
@@ -28,10 +27,45 @@
         },
         "total_tokens": 3123
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 748,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 498,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3409,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 2306,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 4157
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "末段，关于圣灵席卷世界",
+      "severity": "major",
+      "source_quote": "The world will be swept by His Spirit as by a rushing, mighty wind.",
+      "suggested_fix": "将“他的灵要像狂风巨浪般席卷世界”改为“他的灵要像猛烈呼啸的大风一样席卷世界”，避免添加原文没有的“巨浪”。",
+      "translation_quote": "他的灵要像狂风巨浪般席卷世界。"
+    },
+    {
+      "location": "末段，关于全世界听见的信息",
+      "severity": "major",
+      "source_quote": "The whole world will hear His message of “peace, good will toward men,” and listening, will be blessed.",
+      "suggested_fix": "将“赐平安给人”改为同时表达“平安”与“善意”的说法，例如“赐给世人平安与善意”。",
+      "translation_quote": "全世界都将听见他“赐平安给人”的信息；人们听从这信息，便要蒙福。"
+    }
+  ],
   "id": "663a801fd530df3d911a80a36530836f",
   "issue_id": "14962b7b-2d94-5b43-a4c6-bbb78f074d1a",
   "language": "cmn",
@@ -120,11 +154,13 @@
     }
   },
   "protected": false,
+  "quality_score": 91,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/3f4eea0f71e9513f5fa0ef26e8ab22cedfda0622f26aaa2af49f9b17f5dd10c4.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "translate",
     "max_candidate_bytes": 120000,
@@ -138,7 +174,7 @@
     "total_reserved_usd": 0.086935,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "4bb76720c8a52c6eb0871b56c7e913858bb1a8a4a3f88d22ccdbf033f3fb4af1",
   "translation_model_actual": "gpt-6-luna"

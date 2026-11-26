@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "e0a078e5-51dc-4479-92a1-7712bd9deebf",
+    "response_id": "chatcmpl-EoNE9P5BXta5VbLhJiko4oYGGcqeZ",
+    "usage": {
+      "completion_tokens": 748,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 498,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3409,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 2306,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 4157
+    }
+  },
+  "received_at": "2026-11-26T14:21:23+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "末段，关于圣灵席卷世界",
+        "severity": "major",
+        "source_quote": "The world will be swept by His Spirit as by a rushing, mighty wind.",
+        "suggested_fix": "将“他的灵要像狂风巨浪般席卷世界”改为“他的灵要像猛烈呼啸的大风一样席卷世界”，避免添加原文没有的“巨浪”。",
+        "translation_quote": "他的灵要像狂风巨浪般席卷世界。"
+      },
+      {
+        "location": "末段，关于全世界听见的信息",
+        "severity": "major",
+        "source_quote": "The whole world will hear His message of “peace, good will toward men,” and listening, will be blessed.",
+        "suggested_fix": "将“赐平安给人”改为同时表达“平安”与“善意”的说法，例如“赐给世人平安与善意”。",
+        "translation_quote": "全世界都将听见他“赐平安给人”的信息；人们听从这信息，便要蒙福。"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 91
+  }
+}
