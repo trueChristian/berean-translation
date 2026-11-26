@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "پاراگراف 4",
+      "severity": "major",
+      "source_quote": "“Anabaptists and other radical Christian nonconformists”",
+      "suggested_fix": "“انابپٹسٹوں اور دیگر بنیاد پرست غیر روایتی مسیحیوں”",
+      "translation_quote": "“انابپٹسٹوں اور دیگر بنیاد پرست مسیحی مخالفین”"
+    },
+    {
+      "location": "پاراگراف 7",
+      "severity": "major",
+      "source_quote": "“taken to the city square to be burned at the stake”؛ “If burning at the stake”",
+      "suggested_fix": "ان دونوں مقامات پر “سولی پر جلایا گیا/سولی پر جلانے” کو “کھمبے سے باندھ کر جلایا گیا/کھمبے سے باندھ کر جلانے” سے بدلیں۔",
+      "translation_quote": "“شہر کے چوک میں لے جا کر سولی پر جلا دیا گیا”؛ “سولی پر جلانے کو”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

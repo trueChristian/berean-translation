@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "a723e3eea69948dcb8a0136e87a32e2c",
   "campaign": "auto-185b5839d538856ad7260ca06479150606b2e906d2af8b4a8cd959e05d70c752",
   "created_at": "2026-11-26T05:35:28+00:00",
   "events": [
@@ -28,10 +27,45 @@
         },
         "total_tokens": 4513
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 900,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 659,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4867,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 4864,
+          "cached_tokens": 0
+        },
+        "total_tokens": 5767
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "پاراگراف 4",
+      "severity": "major",
+      "source_quote": "“Anabaptists and other radical Christian nonconformists”",
+      "suggested_fix": "“انابپٹسٹوں اور دیگر بنیاد پرست غیر روایتی مسیحیوں”",
+      "translation_quote": "“انابپٹسٹوں اور دیگر بنیاد پرست مسیحی مخالفین”"
+    },
+    {
+      "location": "پاراگراف 7",
+      "severity": "major",
+      "source_quote": "“taken to the city square to be burned at the stake”؛ “If burning at the stake”",
+      "suggested_fix": "ان دونوں مقامات پر “سولی پر جلایا گیا/سولی پر جلانے” کو “کھمبے سے باندھ کر جلایا گیا/کھمبے سے باندھ کر جلانے” سے بدلیں۔",
+      "translation_quote": "“شہر کے چوک میں لے جا کر سولی پر جلا دیا گیا”؛ “سولی پر جلانے کو”"
+    }
+  ],
   "id": "9662b6ace1ddc72ec5d45bb956b148d1",
   "issue_id": "14962b7b-2d94-5b43-a4c6-bbb78f074d1a",
   "language": "urd",
@@ -120,11 +154,13 @@
     }
   },
   "protected": false,
+  "quality_score": 91,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/fbd11b6d945c01ab5ff62531019df8e2e0a8fcde3ec950ea4724e6622f5ced62.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "translate",
     "max_candidate_bytes": 120000,
@@ -138,7 +174,7 @@
     "total_reserved_usd": 0.087625,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "d7c838f916a6e96ad10ca32b39fc67cc6fdb9b820c8957f24542fe4119ff210c",
   "translation_model_actual": "gpt-6-luna"
