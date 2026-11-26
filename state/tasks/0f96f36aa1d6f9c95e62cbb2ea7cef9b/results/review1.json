@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "29eec2bb-1bf1-410f-bfaa-99231733f408",
+    "response_id": "chatcmpl-EoMY45uoD4piWcgUo0qrbbVU8Xoij",
+    "usage": {
+      "completion_tokens": 304,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 63,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5550,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4447,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 5854
+    }
+  },
+  "received_at": "2026-11-26T05:50:10+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "html, citation d’Hébreux 1:10-12",
+        "severity": "minor",
+        "source_quote": "And, Thou, Lord, in the beginning hast laid the foundation of the earth",
+        "suggested_fix": "Remplacer « Et dans un autre endroit : toi, Seigneur » par « Et toi, Seigneur » dans la citation, en conservant les balises.",
+        "translation_quote": "Et dans un autre endroit : toi, Seigneur, tu as fondé la terre dès le commencement"
+      },
+      {
+        "location": "html, paragraphe commençant par « De plus, beaucoup d’entre nous »",
+        "severity": "minor",
+        "source_quote": "we have come to accept as normal that which God would have us to rise above",
+        "suggested_fix": "Remplacer « considérer comme normal ce dont Dieu voudrait que nous nous élevions au-dessus » par « considérer comme normal ce au-dessus de quoi Dieu voudrait que nous nous élevions ».",
+        "translation_quote": "considérer comme normal ce dont Dieu voudrait que nous nous élevions au-dessus"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 97
+  }
+}

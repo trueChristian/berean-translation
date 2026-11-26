@@ -38154,6 +38154,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/fra/articles/971b8ffa-3721-4c08-b693-5aba9989618c.html",
+      "html_sha256": "ecc48c68b09b9e1331a9f4dfdcdbd6dda0e2155dcbc39994296e8855a4bb78b1",
+      "human_reviewed": false,
+      "id": "971b8ffa-3721-4c08-b693-5aba9989618c",
+      "images": [
+        {
+          "alt": "",
+          "public_path": "/images/articles/971b8ffa-3721-4c08-b693-5aba9989618c-1.png"
+        }
+      ],
+      "issue_id": "749fd67f-e1cb-556f-b9a4-ab27a8dd2b36",
+      "language": "fra",
+      "language_tag": "fr",
+      "metadata": "content/fra/articles/971b8ffa-3721-4c08-b693-5aba9989618c.json",
+      "metadata_sha256": "90ed319cdd492892d319878e3188468ae5a97e9c8957cd7e682567ed59561bc6",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "DE LA PART DU RÉDACTEUR",
+      "source_revision": "8e6050f56e822cc6f3d1accab673b1804ef63dca",
+      "source_translation_key": "00226b6ad0dbffb95f49d8e5a79252bf97df9b92ec335b9934f6f045a6712540",
+      "status": "ready",
+      "subtitle": null,
+      "title": "De la part du rédacteur",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/fra/articles/97d8ed1e-7d4a-471d-8508-727664288d74.html",
       "html_sha256": "bce64fe9221242dd0ecf73f58f2639c0e2bc8d3e33e7c4af332a5d5bf93a2216",
       "human_reviewed": false,

@@ -5,11 +5,48 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "e74e196c2eb34ed3a6baf0ee88e9052f",
   "campaign": "auto-3f657eb6bafa6421c6c5daf12b35b86ae2394d9a86d8108db4624d22e0b6155f",
   "created_at": "2026-11-26T05:35:59+00:00",
-  "events": [],
-  "findings": [],
+  "events": [
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 304,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 63,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5550,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 4447,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 5854
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "html, citation d’Hébreux 1:10-12",
+      "severity": "minor",
+      "source_quote": "And, Thou, Lord, in the beginning hast laid the foundation of the earth",
+      "suggested_fix": "Remplacer « Et dans un autre endroit : toi, Seigneur » par « Et toi, Seigneur » dans la citation, en conservant les balises.",
+      "translation_quote": "Et dans un autre endroit : toi, Seigneur, tu as fondé la terre dès le commencement"
+    },
+    {
+      "location": "html, paragraphe commençant par « De plus, beaucoup d’entre nous »",
+      "severity": "minor",
+      "source_quote": "we have come to accept as normal that which God would have us to rise above",
+      "suggested_fix": "Remplacer « considérer comme normal ce dont Dieu voudrait que nous nous élevions au-dessus » par « considérer comme normal ce au-dessus de quoi Dieu voudrait que nous nous élevions ».",
+      "translation_quote": "considérer comme normal ce dont Dieu voudrait que nous nous élevions au-dessus"
+    }
+  ],
+  "finished_at": "2026-11-26T05:50:10+00:00",
   "id": "0f96f36aa1d6f9c95e62cbb2ea7cef9b",
   "issue_id": "749fd67f-e1cb-556f-b9a4-ab27a8dd2b36",
   "language": "fra",
@@ -98,9 +135,11 @@
     }
   },
   "protected": false,
+  "quality_score": 97,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/86f611275d76d65bb588fc7797475e3277f27f4105f7431839a1f6cf3abaf5bf.json",
   "stage": "review1",
   "stage_budget": {
@@ -115,7 +154,7 @@
     "total_reserved_usd": 0.722964,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 0,
   "translation_key": "00226b6ad0dbffb95f49d8e5a79252bf97df9b92ec335b9934f6f045a6712540",
   "translation_model_actual": "gpt-6-luna"

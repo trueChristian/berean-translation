@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "html, citation d’Hébreux 1:10-12",
+      "severity": "minor",
+      "source_quote": "And, Thou, Lord, in the beginning hast laid the foundation of the earth",
+      "suggested_fix": "Remplacer « Et dans un autre endroit : toi, Seigneur » par « Et toi, Seigneur » dans la citation, en conservant les balises.",
+      "translation_quote": "Et dans un autre endroit : toi, Seigneur, tu as fondé la terre dès le commencement"
+    },
+    {
+      "location": "html, paragraphe commençant par « De plus, beaucoup d’entre nous »",
+      "severity": "minor",
+      "source_quote": "we have come to accept as normal that which God would have us to rise above",
+      "suggested_fix": "Remplacer « considérer comme normal ce dont Dieu voudrait que nous nous élevions au-dessus » par « considérer comme normal ce au-dessus de quoi Dieu voudrait que nous nous élevions ».",
+      "translation_quote": "considérer comme normal ce dont Dieu voudrait que nous nous élevions au-dessus"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}
