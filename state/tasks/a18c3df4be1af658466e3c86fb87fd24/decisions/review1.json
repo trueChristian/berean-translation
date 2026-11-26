@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML paragraph 4",
+      "severity": "minor",
+      "source_quote": "“the sun but the hotter for the mockery of the cloud and because of the fleeting dew”",
+      "suggested_fix": "Overweeg: “en daarna brandt de zon des te heter, nu de wolk en de vluchtige dauw verdwenen zijn.”",
+      "translation_quote": "“de zon brandt des te heter om de bespotting door de wolk en vanwege de snel vervlogen dauw”"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

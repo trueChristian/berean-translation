@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-26T14:20:25+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"HTML paragraph 4\",\"severity\":\"minor\",\"source_quote\":\"“the sun but the hotter for the mockery of the cloud and because of the fleeting dew”\",\"suggested_fix\":\"Overweeg: “en daarna brandt de zon des te heter, nu de wolk en de vluchtige dauw verdwenen zijn.”\",\"translation_quote\":\"“de zon brandt des te heter om de bespotting door de wolk en vanwege de snel vervlogen dauw”\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 461,
+    "content_evidence_truncated": false,
+    "content_sha256": "4ae3f6328b533dab51a6e0913749280ce7929036ef8f7ba00ea1dddc22fecca8",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 642,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5128,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5125,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5770
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 1
+}
