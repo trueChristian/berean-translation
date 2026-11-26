@@ -85624,6 +85624,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/por/articles/971b8ffa-3721-4c08-b693-5aba9989618c.html",
+      "html_sha256": "353e392d655fca66332bf8a8a79fbf49c09da96fd494a2bd4126cf88de704385",
+      "human_reviewed": false,
+      "id": "971b8ffa-3721-4c08-b693-5aba9989618c",
+      "images": [
+        {
+          "alt": "",
+          "public_path": "/images/articles/971b8ffa-3721-4c08-b693-5aba9989618c-1.png"
+        }
+      ],
+      "issue_id": "749fd67f-e1cb-556f-b9a4-ab27a8dd2b36",
+      "language": "por",
+      "language_tag": "pt",
+      "metadata": "content/por/articles/971b8ffa-3721-4c08-b693-5aba9989618c.json",
+      "metadata_sha256": "8b7da57337c6351197759c23d85ed34f75ef835278f718afde29af23f3b22a8c",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "Do editor",
+      "source_revision": "8e6050f56e822cc6f3d1accab673b1804ef63dca",
+      "source_translation_key": "00226b6ad0dbffb95f49d8e5a79252bf97df9b92ec335b9934f6f045a6712540",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Do editor",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/por/articles/97d8ed1e-7d4a-471d-8508-727664288d74.html",
       "html_sha256": "aa857219f4478fa577ee968688848c1aee23b1e4b8b373f3077feefa7d17a2cf",
       "human_reviewed": false,

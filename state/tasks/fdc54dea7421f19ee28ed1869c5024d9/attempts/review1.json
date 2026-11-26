@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-26T23:48:44+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"translation.html — citação de Hebreus 1:10-12\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"in the beginning ... They shall perish ... and they all ... thy years shall not fail\",\n      \"suggested_fix\": \"Modernizar apenas a ortografia da citação: substituir «principio» por «princípio», «Elles» por «Eles», «elles» por «eles» e «annos» por «anos», mantendo as tags e o restante do texto.\",\n      \"translation_quote\": \"no principio ... Elles perecerão ... e todos elles ... os teus annos não acabarão\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": true,\n  \"score\": 98\n}",
+    "content_bytes": 648,
+    "content_evidence_truncated": false,
+    "content_sha256": "055a0c4501f655d99b953cc571ee77f50fe809b1b1c23bcdd68b04a05554a940",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 227,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 40,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5345,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5342,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5572
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}

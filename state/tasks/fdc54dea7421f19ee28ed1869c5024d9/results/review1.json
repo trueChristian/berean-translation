@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "82e032df-adb6-4757-8935-57693a0c586b",
+    "response_id": "chatcmpl-EocpLKlmLwJROcZIypzEfr6fEs5sA",
+    "usage": {
+      "completion_tokens": 227,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 40,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5345,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5342,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5572
+    }
+  },
+  "received_at": "2026-11-26T23:48:44+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "translation.html — citação de Hebreus 1:10-12",
+        "severity": "minor",
+        "source_quote": "in the beginning ... They shall perish ... and they all ... thy years shall not fail",
+        "suggested_fix": "Modernizar apenas a ortografia da citação: substituir «principio» por «princípio», «Elles» por «Eles», «elles» por «eles» e «annos» por «anos», mantendo as tags e o restante do texto.",
+        "translation_quote": "no principio ... Elles perecerão ... e todos elles ... os teus annos não acabarão"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}

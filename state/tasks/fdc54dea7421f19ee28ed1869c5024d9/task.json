@@ -5,11 +5,41 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "977c2dc6d57a4a86838bbd976687a152",
   "campaign": "auto-275ea5628ea46e3e689058551ee0d07e4d4f438c24172599fd3fbf2f91c8e6a8",
   "created_at": "2026-11-26T14:22:35+00:00",
-  "events": [],
-  "findings": [],
+  "events": [
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 227,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 40,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5345,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 5342,
+          "cached_tokens": 0
+        },
+        "total_tokens": 5572
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "translation.html — citação de Hebreus 1:10-12",
+      "severity": "minor",
+      "source_quote": "in the beginning ... They shall perish ... and they all ... thy years shall not fail",
+      "suggested_fix": "Modernizar apenas a ortografia da citação: substituir «principio» por «princípio», «Elles» por «Eles», «elles» por «eles» e «annos» por «anos», mantendo as tags e o restante do texto.",
+      "translation_quote": "no principio ... Elles perecerão ... e todos elles ... os teus annos não acabarão"
+    }
+  ],
+  "finished_at": "2026-11-26T23:48:44+00:00",
   "id": "fdc54dea7421f19ee28ed1869c5024d9",
   "issue_id": "749fd67f-e1cb-556f-b9a4-ab27a8dd2b36",
   "language": "por",
@@ -98,9 +128,11 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/86f611275d76d65bb588fc7797475e3277f27f4105f7431839a1f6cf3abaf5bf.json",
   "stage": "review1",
   "stage_budget": {
@@ -115,7 +147,7 @@
     "total_reserved_usd": 0.721182,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 0,
   "translation_key": "00226b6ad0dbffb95f49d8e5a79252bf97df9b92ec335b9934f6f045a6712540",
   "translation_model_actual": "gpt-6-luna"
