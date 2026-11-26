@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "2d318e5e-ee27-488f-b45a-01a2e1a77414",
+    "response_id": "chatcmpl-EoMw0YjH1XZc67vX3VIIK2ZrCeVwn",
+    "usage": {
+      "completion_tokens": 860,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 734,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5209,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4106,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 6069
+    }
+  },
+  "received_at": "2026-11-26T14:20:13+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph 7",
+        "severity": "minor",
+        "source_quote": "the presence and reputation of an evangelist, of imported singers and imported songs",
+        "suggested_fix": "Gjennom ytre press, en evangelists nærvær og omdømme, sangere og sanger hentet utenfra vekkes interesse",
+        "translation_quote": "en evangelists nærvær og omdømme, innleide sangere og innlånte sanger"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}

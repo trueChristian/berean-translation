@@ -78896,6 +78896,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/nob/articles/8887e7f5-1047-4baf-a9d7-db2644e0fd7a.html",
+      "html_sha256": "db17438b638bd6c50c690e789a79fb0fc31e9caf16ed4f0cb7d62d859652790f",
+      "human_reviewed": false,
+      "id": "8887e7f5-1047-4baf-a9d7-db2644e0fd7a",
+      "images": [
+        {
+          "alt": "Store vekkelsestelt omgitt av en folkemengde",
+          "public_path": "/images/articles/8887e7f5-1047-4baf-a9d7-db2644e0fd7a-1.png"
+        },
+        {
+          "alt": "En utendørs religiøs samling i en skogkledd leir, der en forkynner taler til en folkemengde",
+          "public_path": "/images/articles/8887e7f5-1047-4baf-a9d7-db2644e0fd7a-2.jpg"
+        }
+      ],
+      "issue_id": "14962b7b-2d94-5b43-a4c6-bbb78f074d1a",
+      "language": "nob",
+      "language_tag": "nb",
+      "metadata": "content/nob/articles/8887e7f5-1047-4baf-a9d7-db2644e0fd7a.json",
+      "metadata_sha256": "2f74f245ffc70c08591887d51099c8785fa172dc8d127e9bf4872c4ac66ceb71",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "ccefc5a5c3d79409cc78319f94b5490718d30670",
+      "source_translation_key": "e2b492210d043d06ffd0912132ecb4f7893b24d6919894c9749c88b4c9993674",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Vekkelser som varer",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/nob/articles/8a3dfa09-f40f-4615-8f83-59a8fccb1a2f.html",
       "html_sha256": "9b84acc446c87d53334c32330adf5af51e3294f58af3dbc164364ea2967699a9",
       "human_reviewed": false,

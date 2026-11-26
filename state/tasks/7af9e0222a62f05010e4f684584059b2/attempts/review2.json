@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-26T14:20:13+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"Paragraph 7\",\"severity\":\"minor\",\"source_quote\":\"the presence and reputation of an evangelist, of imported singers and imported songs\",\"suggested_fix\":\"Gjennom ytre press, en evangelists nærvær og omdømme, sangere og sanger hentet utenfra vekkes interesse\",\"translation_quote\":\"en evangelists nærvær og omdømme, innleide sangere og innlånte sanger\"}],\"findings_complete\":true,\"passed\":true,\"score\":98}",
+    "content_bytes": 433,
+    "content_evidence_truncated": false,
+    "content_sha256": "a330cff75c903eb5b26105d6f1f11b7224fb2b16f9fcb63abb2a983a1581fc76",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 860,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 734,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5209,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4106,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 6069
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 2
+}

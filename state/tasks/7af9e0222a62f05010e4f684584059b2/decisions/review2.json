@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph 7",
+      "severity": "minor",
+      "source_quote": "the presence and reputation of an evangelist, of imported singers and imported songs",
+      "suggested_fix": "Gjennom ytre press, en evangelists nærvær og omdømme, sangere og sanger hentet utenfra vekkes interesse",
+      "translation_quote": "en evangelists nærvær og omdømme, innleide sangere og innlånte sanger"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}
