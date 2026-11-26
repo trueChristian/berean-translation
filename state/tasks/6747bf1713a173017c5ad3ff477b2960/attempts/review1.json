@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-26T04:31:32+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"html, Absatz „Der Weg von Jerusalem nach Emmaus“\",\n      \"severity\": \"major\",\n      \"source_quote\": \"about threescore furlongs\",\n      \"suggested_fix\": \"Ersetze „<em>etwa dreißig Stadien</em>“ durch „<em>etwa sechzig Stadien</em>“.\",\n      \"translation_quote\": \"etwa dreißig Stadien\"\n    },\n    {\n      \"location\": \"html, Zitate aus 2. Korinther 1,8-9 und 1,9\",\n      \"severity\": \"major\",\n      \"source_quote\": \"we had the sentence of death in ourselves\",\n      \"suggested_fix\": \"Ersetze an beiden Stellen „hatten […] den Beschluss, in uns selbst des Todes zu sein“ durch „fühlten […] in uns selbst das Todesurteil“; beispielsweise: „Wir aber fühlten in uns selbst das Todesurteil, damit wir nicht auf uns selbst vertrauen, sondern auf Gott, der die Toten auferweckt“.\",\n      \"translation_quote\": \"hatten wir den Beschluss, in uns selbst des Todes zu sein; Wir aber hatten den Beschluss, in uns selbst des Todes zu sein\"\n    },\n    {\n      \"location\": \"html, erster Absatz, Wortliste zum D-Day\",\n      \"severity\": \"major\",\n      \"source_quote\": \"so many words with a negative connotation begin with the letter D: Disappointment, Doubt, Doleful\",\n      \"suggested_fix\": \"Präzisiere „so viele negativ konnotierte Wörter“ zu „im Englischen so viele negativ konnotierte Wörter“ und ergänze die englischen Ausgangswörter bei den deutschen Entsprechungen, damit der Bezug zum Buchstaben D nachvollziehbar bleibt.\",\n      \"translation_quote\": \"so viele negativ konnotierte Wörter mit dem Buchstaben D beginnen: Enttäuschung, Zweifel, Traurigkeit\"\n    },\n    {\n      \"location\": \"html, letzter Prosaabsatz\",\n      \"severity\": \"major\",\n      \"source_quote\": \"I wonder even at the profitability of writing down such thoughts\",\n      \"suggested_fix\": \"Ersetze den Satz durch: „Und so frage ich mich sogar, welchen Nutzen es hat, solche Gedanken niederzuschreiben.“\",\n      \"translation_quote\": \"Und so wundere ich mich sogar über die Ertragbarkeit, solche Gedanken niederzuschreiben.\"\n    },\n    {\n      \"location\": \"html, Abschnitt „…Unglückliches Schicksal“, letzter Satz\",\n      \"severity\": \"major\",\n      \"source_quote\": \"before the dark events were rectified and lifted\",\n      \"suggested_fix\": \"Ersetze „bevor die düsteren Ereignisse berichtigt und erhoben wurden“ durch „bevor sich die düsteren Umstände zum Guten gewendet hatten und die Not vorüber war“.\",\n      \"translation_quote\": \"bevor die düsteren Ereignisse berichtigt und erhoben wurden\"\n    },\n    {\n      \"location\": \"html, Abschnitt „…Die Unwissenheit anderer“, erster Absatz\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"three days after the towers fell on September 11\",\n      \"suggested_fix\": \"Ergänze das ausgelassene Datum: „warum drei Tage nach dem Einsturz der Türme am 11. September die Flaggen auf Halbmast wehten“.\",\n      \"translation_quote\": \"warum drei Tage nach dem Einsturz der Türme die Flaggen auf Halbmast wehten\"\n    },\n    {\n      \"location\": \"html, Abschnitt „…Ungeduld“, Josef-Absatz\",\n      \"severity\": \"major\",\n      \"source_quote\": \"the ill treatment of his brothers and Potiphar\",\n      \"suggested_fix\": \"Ersetze „durch seine Brüder und durch Potiphars Haus“ durch „durch seine Brüder und durch Potiphar“.\",\n      \"translation_quote\": \"die Misshandlungen durch seine Brüder und durch Potiphars Haus\"\n    },\n    {\n      \"location\": \"html, Abschnitt „…Die Unwissenheit anderer“, zweiter Absatz\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"The heartfelt disdain\",\n      \"suggested_fix\": \"Ersetze „Die herzliche Missbilligung“ durch „Die tief empfundene Verachtung“.\",\n      \"translation_quote\": \"Die herzliche Missbilligung\"\n    },\n    {\n      \"location\": \"html, Absatz „Dieses Leid“ und zweiter Absatz unter „Schlussfolgerung“\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"has become a permanent resident within; even spiritual pleasures ought not to be held too tightly\",\n      \"suggested_fix\": \"Korrigiere „dauerhaft eingezogen habe“ zu „dauerhaft eingezogen sei“ und „nicht zu festgehalten werden sollten“ zu „nicht zu fest gehalten werden sollten“.\",\n      \"translation_quote\": \"dauerhaft eingezogen habe; nicht zu festgehalten werden sollten\"\n    },\n    {\n      \"location\": \"html, Schriftzitate Jeremia 15,18 und 1. Mose 28,20-21 sowie Gedicht, zweite Zeile\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"as a liar; and will give me bread to eat, and raiment to put on; nature's night\",\n      \"suggested_fix\": \"Korrigiere „Lugner“ zu „Lügner“, „und mir Brot zu essen und Kleidung zu geben wird“ zu „und mir Brot zu essen und Kleidung zum Anziehen geben wird“ sowie „Naturens Nacht“ zu „der Nacht meiner natürlichen Verfassung“.\",\n      \"translation_quote\": \"wie ein Lugner; und mir Brot zu essen und Kleidung zu geben wird; Naturens Nacht\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": false,\n  \"score\": 87\n}",
+    "content_bytes": 5035,
+    "content_evidence_truncated": false,
+    "content_sha256": "488a3ede68a3026b3765b30d8eb43c778addcce3e460afee195d43e1a5f64152",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1369,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 89,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 10653,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 9550,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 12022
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}
