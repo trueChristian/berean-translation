@@ -12,9 +12,16 @@
       "event": "not_ready",
       "reason": "Scripture attention: unauthorized_omission: Discontinuous target fragments require a source ellipsis",
       "task": "f8206cb9a3b0008fbcd75cbd046774cf"
+    },
+    {
+      "at": "2026-11-26T05:35:59+00:00",
+      "campaign": "auto-3f657eb6bafa6421c6c5daf12b35b86ae2394d9a86d8108db4624d22e0b6155f",
+      "event": "automatic_requested",
+      "previous_task": "f8206cb9a3b0008fbcd75cbd046774cf",
+      "task": "0f96f36aa1d6f9c95e62cbb2ea7cef9b"
     }
   ],
   "language": "fra",
-  "latest_task": "f8206cb9a3b0008fbcd75cbd046774cf",
+  "latest_task": "0f96f36aa1d6f9c95e62cbb2ea7cef9b",
   "published": null
 }
