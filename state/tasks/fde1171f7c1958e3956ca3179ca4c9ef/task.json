@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "c985cbc851f34e19b94b42163039993a",
   "campaign": "auto-2d4c524d41d43ae92679c81f2fbff14286179a236bc9c8effe3c17cce46122fa",
   "created_at": "2026-11-25T22:47:01+00:00",
   "events": [
@@ -28,10 +27,38 @@
         },
         "total_tokens": 4215
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 522,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 394,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4528,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 4525,
+          "cached_tokens": 0
+        },
+        "total_tokens": 5050
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "Paragraphe sur l’exécution de Dirk Willems",
+      "severity": "major",
+      "source_quote": "“only the lower portion of the fire was burning him”",
+      "suggested_fix": "Remplacer « car seul le bas de son corps était brûlé » par « car seule la partie inférieure du feu le brûlait » afin de conserver le détail rapporté dans la source.",
+      "translation_quote": "« car seul le bas de son corps était brûlé »"
+    }
+  ],
   "id": "fde1171f7c1958e3956ca3179ca4c9ef",
   "issue_id": "14962b7b-2d94-5b43-a4c6-bbb78f074d1a",
   "language": "fra",
@@ -120,11 +147,13 @@
     }
   },
   "protected": false,
+  "quality_score": 92,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/fbd11b6d945c01ab5ff62531019df8e2e0a8fcde3ec950ea4724e6622f5ced62.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "translate",
     "max_candidate_bytes": 120000,
@@ -138,7 +167,7 @@
     "total_reserved_usd": 0.087625,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "d7c838f916a6e96ad10ca32b39fc67cc6fdb9b820c8957f24542fe4119ff210c",
   "translation_model_actual": "gpt-6-luna"

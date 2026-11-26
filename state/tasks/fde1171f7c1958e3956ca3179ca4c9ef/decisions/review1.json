@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraphe sur l’exécution de Dirk Willems",
+      "severity": "major",
+      "source_quote": "“only the lower portion of the fire was burning him”",
+      "suggested_fix": "Remplacer « car seul le bas de son corps était brûlé » par « car seule la partie inférieure du feu le brûlait » afin de conserver le détail rapporté dans la source.",
+      "translation_quote": "« car seul le bas de son corps était brûlé »"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

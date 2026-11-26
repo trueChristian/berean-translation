@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "66e75462-7b51-4045-aaea-5378feb6a44b",
+    "response_id": "chatcmpl-Eod1bMxZlb0O42HvWS1vUuijSTKVU",
+    "usage": {
+      "completion_tokens": 522,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 394,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4528,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4525,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5050
+    }
+  },
+  "received_at": "2026-11-26T23:48:59+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraphe sur l’exécution de Dirk Willems",
+        "severity": "major",
+        "source_quote": "“only the lower portion of the fire was burning him”",
+        "suggested_fix": "Remplacer « car seul le bas de son corps était brûlé » par « car seule la partie inférieure du feu le brûlait » afin de conserver le détail rapporté dans la source.",
+        "translation_quote": "« car seul le bas de son corps était brûlé »"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 92
+  }
+}
