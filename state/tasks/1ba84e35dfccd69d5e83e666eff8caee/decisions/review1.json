@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph 6",
+      "severity": "major",
+      "source_quote": "“a passing impression made, but these are quite different from the concern aroused by the presence of God”",
+      "suggested_fix": "Replace “den omsorg som väcks av Guds närvaro” with “den djupa oro som väcks av Guds närvaro” to convey the serious concern meant here.",
+      "translation_quote": "“ett flyktigt intryck görs, men detta skiljer sig helt från den omsorg som väcks av Guds närvaro”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

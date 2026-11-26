@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "0a4966ee-42e8-4d8f-b19b-cd64c2fcd2cc",
+    "response_id": "chatcmpl-EoHU3ORZqixGbFtjX4xEYTCfsQqkY",
+    "usage": {
+      "completion_tokens": 941,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 791,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5167,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5164,
+        "cached_tokens": 0
+      },
+      "total_tokens": 6108
+    }
+  },
+  "received_at": "2026-11-26T04:30:47+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph 6",
+        "severity": "major",
+        "source_quote": "“a passing impression made, but these are quite different from the concern aroused by the presence of God”",
+        "suggested_fix": "Replace “den omsorg som väcks av Guds närvaro” with “den djupa oro som väcks av Guds närvaro” to convey the serious concern meant here.",
+        "translation_quote": "“ett flyktigt intryck görs, men detta skiljer sig helt från den omsorg som väcks av Guds närvaro”"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 94
+  }
+}
