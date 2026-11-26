@@ -43284,6 +43284,38 @@
     {
       "ai_notice_required": true,
       "direction": "rtl",
+      "html": "content/heb/articles/8887e7f5-1047-4baf-a9d7-db2644e0fd7a.html",
+      "html_sha256": "da655073dcaa4c190b562b809f93be173c987780bf44431419d59a664dae77ee",
+      "human_reviewed": false,
+      "id": "8887e7f5-1047-4baf-a9d7-db2644e0fd7a",
+      "images": [
+        {
+          "alt": "אוהלי תחייה גדולים מוקפים בהמון אנשים",
+          "public_path": "/images/articles/8887e7f5-1047-4baf-a9d7-db2644e0fd7a-1.png"
+        },
+        {
+          "alt": "התכנסות דתית תחת כיפת השמים במחנה מיוער, ובה מטיף פונה אל הקהל",
+          "public_path": "/images/articles/8887e7f5-1047-4baf-a9d7-db2644e0fd7a-2.jpg"
+        }
+      ],
+      "issue_id": "14962b7b-2d94-5b43-a4c6-bbb78f074d1a",
+      "language": "heb",
+      "language_tag": "he",
+      "metadata": "content/heb/articles/8887e7f5-1047-4baf-a9d7-db2644e0fd7a.json",
+      "metadata_sha256": "a6e8272a1a9d73e22faf628fa854963096f7e6c1409ae5cb3d64414d3482ab3a",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "ccefc5a5c3d79409cc78319f94b5490718d30670",
+      "source_translation_key": "e2b492210d043d06ffd0912132ecb4f7893b24d6919894c9749c88b4c9993674",
+      "status": "ready",
+      "subtitle": null,
+      "title": "תחיות שנשארות",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
       "html": "content/heb/articles/8a3dfa09-f40f-4615-8f83-59a8fccb1a2f.html",
       "html_sha256": "aaa723e369e65afb83680b92664c28f43a23adf9296ed8ed8519597305bcd4bf",
       "human_reviewed": false,

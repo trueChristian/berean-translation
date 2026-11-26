@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "f54681b8fef745109328946553f0a529",
   "campaign": "auto-bd9ffd1fae46228d3864014922eedb514fa35fe4c0ab1aff2ca357ad81692bd4",
   "created_at": "2026-11-24T18:11:06+00:00",
   "events": [
@@ -68,25 +67,31 @@
         },
         "total_tokens": 7481
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 621,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 583,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5163,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 4060,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 5784
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "HTML, paragraph beginning “The spirit of prayer must be…”",
-      "severity": "major",
-      "source_quote": "“lightness and frivolity reign”",
-      "suggested_fix": "Replace “קלות דעת ו frivolity שולטות” with “קלות דעת והוללות שולטות”.",
-      "translation_quote": "“קלות דעת ו frivolity שולטות”"
-    },
-    {
-      "location": "HTML, paragraph beginning “The object must not be…”",
-      "severity": "minor",
-      "source_quote": "“The sword must be unsheathed, and cut with both edges.”",
-      "suggested_fix": "Replace “יש לשלוף את החרב מנדנה ולהכות בשני פיה” with “יש לשלוף את החרב מנדנה ולחתוך בשני פיה”.",
-      "translation_quote": "“יש לשלוף את החרב מנדנה ולהכות בשני פיה.”"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-11-26T14:20:42+00:00",
   "id": "4485707b565832633fcc0fa90f546381",
   "issue_id": "14962b7b-2d94-5b43-a4c6-bbb78f074d1a",
   "language": "heb",
@@ -175,7 +180,7 @@
     }
   },
   "protected": false,
-  "quality_score": 94,
+  "quality_score": 100,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
@@ -195,7 +200,7 @@
     "total_reserved_usd": 0.088026,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "e2b492210d043d06ffd0912132ecb4f7893b24d6919894c9749c88b4c9993674",
   "translation_model_actual": "gpt-6-luna"

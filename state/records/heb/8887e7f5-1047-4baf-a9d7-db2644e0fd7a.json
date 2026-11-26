@@ -7,9 +7,32 @@
       "event": "automatic_requested",
       "previous_task": null,
       "task": "4485707b565832633fcc0fa90f546381"
+    },
+    {
+      "at": "2026-11-26T14:20:42+00:00",
+      "event": "complete",
+      "reason": null,
+      "task": "4485707b565832633fcc0fa90f546381"
     }
   ],
   "language": "heb",
   "latest_task": "4485707b565832633fcc0fa90f546381",
-  "published": null
+  "published": {
+    "html_path": "content/heb/articles/8887e7f5-1047-4baf-a9d7-db2644e0fd7a.html",
+    "html_sha256": "da655073dcaa4c190b562b809f93be173c987780bf44431419d59a664dae77ee",
+    "human_review": null,
+    "human_reviewed": false,
+    "issue_id": "14962b7b-2d94-5b43-a4c6-bbb78f074d1a",
+    "metadata_path": "content/heb/articles/8887e7f5-1047-4baf-a9d7-db2644e0fd7a.json",
+    "metadata_sha256": "a6e8272a1a9d73e22faf628fa854963096f7e6c1409ae5cb3d64414d3482ab3a",
+    "model": "gpt-6-luna",
+    "notice_html": "<aside class=\"translation-notice\" data-translation-notice=\"ai\" lang=\"he\" dir=\"rtl\" role=\"note\">\n  <p>מאמר זה תורגם באמצעות בינה מלאכותית של OpenAI (מודל: gpt-6-luna) וטרם נבדק בידי אדם. המקור באנגלית הוא הגרסה המוסמכת. במקרה של ספק לגבי המשמעות, יש לעיין במקור באנגלית. <a href=\"/en/articles/8887e7f5-1047-4baf-a9d7-db2644e0fd7a/\" data-source-article-id=\"8887e7f5-1047-4baf-a9d7-db2644e0fd7a\" hreflang=\"en\">המקור באנגלית</a></p>\n</aside>",
+    "published_at": "2026-11-26T14:20:42+00:00",
+    "quality_score": 100,
+    "review_model": "gpt-6-luna",
+    "source_revision": "ccefc5a5c3d79409cc78319f94b5490718d30670",
+    "source_snapshot": "state/sources/f36b4574677aaa8444c35388b303496d3b37e629754f0df9c39e4f6bd01067a0.json",
+    "task": "4485707b565832633fcc0fa90f546381",
+    "translation_key": "e2b492210d043d06ffd0912132ecb4f7893b24d6919894c9749c88b4c9993674"
+  }
 }
