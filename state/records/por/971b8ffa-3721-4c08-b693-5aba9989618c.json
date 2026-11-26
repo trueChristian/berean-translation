@@ -12,9 +12,16 @@
       "event": "not_ready",
       "reason": "Scripture attention: selection_location: Invalid candidate character offsets",
       "task": "ecce2d44ab7de2e787c4e6e7c112efb3"
+    },
+    {
+      "at": "2026-11-26T14:22:35+00:00",
+      "campaign": "auto-275ea5628ea46e3e689058551ee0d07e4d4f438c24172599fd3fbf2f91c8e6a8",
+      "event": "automatic_requested",
+      "previous_task": "ecce2d44ab7de2e787c4e6e7c112efb3",
+      "task": "fdc54dea7421f19ee28ed1869c5024d9"
     }
   ],
   "language": "por",
-  "latest_task": "ecce2d44ab7de2e787c4e6e7c112efb3",
+  "latest_task": "fdc54dea7421f19ee28ed1869c5024d9",
   "published": null
 }
