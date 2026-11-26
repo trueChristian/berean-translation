@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-26T14:21:28+00:00",
+  "response": {
+    "content": "{\"html\":\"<article data-article-id=\\\"14a35072-cac9-42df-a3ca-1f7db446d968\\\">\\n  <figure>\\n    <img src=\\\"/images/articles/14a35072-cac9-42df-a3ca-1f7db446d968-1.jpg\\\" alt=\\\"Eine blasse Weltkarte in Graustufen in einem ovalen Raster\\\">\\n  </figure>\\n  <figure>\\n    <img src=\\\"/images/articles/14a35072-cac9-42df-a3ca-1f7db446d968-2.jpg\\\" alt=\\\"Ein Mann sitzt an einem Schreibtisch und liest ein aufgeschlagenes Buch\\\">\\n  </figure>\\n  <p class=\\\"drop-cap\\\">Die Kraft der Erweckung in Südwales geht nicht von Menschen aus, sondern von Gott. Er ist uns nahe gewesen und hat uns den Weg gezeigt.</p>\\n  <p>Bei dieser Bewegung geht es nicht um Glaubensbekenntnisse oder Dogmen. Ich glaube, dass die Arbeit, die geleistet wird, die Unterstützung aller Christen und christlichen Kirchen in unserem Land hat. Ich habe lediglich die Religion Jesu Christi gepredigt, so wie ich sie selbst erfahren habe.</p>\\n  <p>Gott hat „mich froh gemacht“, und ich zeige anderen die große Freude, ihm zu dienen – eine so große und wunderbare Freude, dass ich sie niemals in ihrer ganzen Fülle ausdrücken können werde. Wir lehren keine sektiererische Doktrin, sondern nur das Wunder und die Schönheit der Liebe Christi, der Liebe des Menschen zu ihm und der Liebe des Menschen zum Menschen.</p>\\n  <p>Man hat mich nach meinen Methoden gefragt. Ich habe keine. Ich bereite nie die Worte vor, die ich sprechen werde. Das überlasse ich ganz ihm. Ich bin nicht die Quelle dieser Erweckung. Ich bin nur ein Werkzeug in dem, was zu einer großen Schar anwächst. Nicht ich bewege die Herzen der Menschen und verändere ihr Leben, sondern „Gott wirkt in mir“. Ich habe gefunden, was meiner Überzeugung nach die höchste Form des Christentums ist. Ich möchte mein Leben, das Einzige, was ich zu geben habe, dafür einsetzen, anderen zu helfen, es ebenfalls zu finden. Viele haben es bereits gefunden, Gott sei Dank, und viele weitere finden es durch sie.</p>\\n  <p>Dies ist meine Arbeit, wie er sie mir gezeigt hat. Sein Geist kam eines Nachts zu mir, als ich auf den Knien um Führung bat, und fünf Monate später wurde ich mit dem Geist getauft. Er hat mich geführt, wie er alle führen wird, die sich ihrer menschlichen Schwäche bewusst sind und sich auf ihn stützen wie Kinder auf einen Vater. Ich weiß, dass die Arbeit, die durch mich getan worden ist, keiner menschlichen Fähigkeit von mir zu verdanken ist. Es ist sein Werk und dient seiner Ehre. „So war ich einst nicht, noch bat ich dich, mich zu führen. Ich liebte es, meinen Weg selbst zu wählen und zu sehen, doch nun führe du mich weiter.“</p>\\n  <p>Ich wünsche mir nichts, außer diese begonnene Arbeit fortsetzen zu dürfen. „Der Herr ist mein Hirte. Mir wird nichts mangeln.“ Alles Notwendige hat er gegeben und wird er geben. Ich wünsche mir keine persönliche Gefolgschaft, sondern nur die Welt für Christus.</p>\\n  <p>Über unsere Versammlungen und über mich sind Dinge gesagt worden, die nicht wahr sind; doch Gottes Wahrheit ist durch diese Falschdarstellungen nicht beeinträchtigt worden, und deshalb sind sie von geringer Bedeutung. Ich glaube auch, dass er denen, die über die Erweckung geschrieben haben, hilfreiche Worte ins Herz gelegt hat, denn einige Zeitungen haben unsere Botschaft vielen übermittelt, die wir persönlich nicht erreicht haben.</p>\\n  <p>Ich glaube, dass die Welt an der Schwelle zu einer großen religiösen Erweckung steht, und ich bete täglich darum, dass ich dazu beitragen darf, sie herbeizuführen.</p>\\n  <p>Ich flehe alle, die sich zu Christus bekennen, an, ihn heute auf den Knien zu fragen, ob er nicht jetzt eine Aufgabe für sie hat. Er wird sie alle führen, wie er uns geführt hat. Er wird sie zu Rauchsäulen am Tag und Feuersäulen in der Nacht machen, um alle Menschen zu ihm zu führen.</p>\\n  <p>In wenigen Wochen sind in Wales wunderbare Dinge geschehen, doch dies ist nur der Anfang. Die Welt wird von seinem Geist überströmt werden wie von einem rauschenden, gewaltigen Wind. Viele, die jetzt stille Christen sind, negative Christen, Christen, deren Glaube ihnen wenig und allen anderen nichts bedeutet, werden die Bewegung anführen. Tastende, zögernde, halbherzige Christen werden ein großes Licht sehen und dieses Licht Tausenden von Menschen in tiefster Finsternis widerspiegeln. Die ganze Welt wird seine Botschaft von „Frieden und Wohlwollen unter den Menschen“ hören und, wenn sie ihr lauscht, gesegnet werden. Tausende und Abertausende werden mehr vollbringen, als wir erreicht haben, wenn Gott ihnen Kraft gibt. Das ist mein fester Glaube, wenn die Kirchen nur die große Lektion lernen, der Stimme des Heiligen Geistes zu gehorchen. Gehorsam! Gehorsam!! Gehorsam!!!</p>\\n</article>\\n\",\"section\":null,\"subtitle\":\"(Frisch von der walisischen Erweckung von 1904)\",\"title\":\"Eine Botschaft an die Welt\"}",
+    "content_bytes": 4851,
+    "content_evidence_truncated": false,
+    "content_sha256": "9a60d610c25ba6d2049f8c1bb0945b6c94d7606e905f633a8d439c68adc13946",
+    "finish_reason": "stop",
+    "model": "gpt-6-luna",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1286,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 67,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 1880,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 1877,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3166
+    }
+  },
+  "review_attempts": 0,
+  "stage": "translate",
+  "translation_attempts": 1
+}
