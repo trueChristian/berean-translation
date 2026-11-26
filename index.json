@@ -20498,6 +20498,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/cmn/articles/8887e7f5-1047-4baf-a9d7-db2644e0fd7a.html",
+      "html_sha256": "674bc6320eb94bf635d3cebc142f45d6924b328245f0fc0fa261a5da99dea9af",
+      "human_reviewed": false,
+      "id": "8887e7f5-1047-4baf-a9d7-db2644e0fd7a",
+      "images": [
+        {
+          "alt": "周围聚集着人群的大型奋兴会帐篷",
+          "public_path": "/images/articles/8887e7f5-1047-4baf-a9d7-db2644e0fd7a-1.png"
+        },
+        {
+          "alt": "林间营地的一场户外宗教聚会，传道人正在向人群讲道",
+          "public_path": "/images/articles/8887e7f5-1047-4baf-a9d7-db2644e0fd7a-2.jpg"
+        }
+      ],
+      "issue_id": "14962b7b-2d94-5b43-a4c6-bbb78f074d1a",
+      "language": "cmn",
+      "language_tag": "zh-Hans",
+      "metadata": "content/cmn/articles/8887e7f5-1047-4baf-a9d7-db2644e0fd7a.json",
+      "metadata_sha256": "4f9b55143ba358cc92c800bb45fd3aad389745197d9408d3d97824f3c007fe98",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "ccefc5a5c3d79409cc78319f94b5490718d30670",
+      "source_translation_key": "e2b492210d043d06ffd0912132ecb4f7893b24d6919894c9749c88b4c9993674",
+      "status": "ready",
+      "subtitle": null,
+      "title": "持久的奋兴会",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/cmn/articles/8a3dfa09-f40f-4615-8f83-59a8fccb1a2f.html",
       "html_sha256": "ad82c6fc2021cc90cddef2e1a9a3dcab04623ef750810bcf20c56024e77a7678",
       "human_reviewed": false,
