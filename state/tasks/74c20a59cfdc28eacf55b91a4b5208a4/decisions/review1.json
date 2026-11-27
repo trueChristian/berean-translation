@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "translation.html, avsnittet om trafikkork",
+      "severity": "major",
+      "source_quote": "stop-and-go traffic for a mile or more",
+      "suggested_fix": "Erstatt «køkjøring i en mil eller mer» med «køkjøring over en strekning på omtrent 1,6 kilometer eller mer».",
+      "translation_quote": "køkjøring i en mil eller mer"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
