@@ -1,0 +1,63 @@
+{
+  "findings": [
+    {
+      "location": "translation.html, kutipan Yakobus 5:16 di bawah judul “Menangani Dosa”",
+      "severity": "major",
+      "source_quote": "Confess your faults one to another, and pray one for another, that ye may be healed… –James 5:16.",
+      "suggested_fix": "Ganti isi kutipan dengan: <em>Hendaklah kamu saling mengaku kesalahan dan saling mendoakan, supaya kamu disembuhkan… –Yakobus 5:16.</em>",
+      "translation_quote": "Aku tidak tahan lagi, aku harus mengaku dosa-dosaku kepadamu; aku akan menyatakan pelanggaranku terhadap-Mu, maka engkau mengampuni kesalahan orang berdosa –Yakobus 5:16."
+    },
+    {
+      "location": "translation.html, kutipan Kejadian 3:16-19",
+      "severity": "major",
+      "source_quote": "and thy desire shall be to thy husband, and he shall rule over thee",
+      "suggested_fix": "Ganti klausa tersebut dengan “dan hasratmu akan tertuju kepada suamimu, dan ia akan berkuasa atasmu”.",
+      "translation_quote": "dan kepadamu akanlah cenderung nafsu suamimu, tetapi ia akan berkuasa atasmu"
+    },
+    {
+      "location": "translation.html, kutipan Yeremia 20:14-18",
+      "severity": "major",
+      "source_quote": "the cities which the LORD overthrew, and repented not",
+      "suggested_fix": "Ganti dengan “kota-kota yang telah dimusnahkan TUHAN tanpa Ia menyesal”. Ini mempertahankan TUHAN sebagai subjek klausa terakhir, bukan menyiratkan pertobatan kota atau orang.",
+      "translation_quote": "kota-kota yang TUHAN telah musnahkan, dan tidak bertobat"
+    },
+    {
+      "location": "translation.html, kutipan Rut 1:20-21",
+      "severity": "major",
+      "source_quote": "and the Almighty hath afflicted me",
+      "suggested_fix": "Ganti “Yang Mahakuasa telah mencela aku” dengan “Yang Mahakuasa telah menimpakan penderitaan kepadaku”.",
+      "translation_quote": "dan Yang Mahakuasa telah mencela aku"
+    },
+    {
+      "location": "translation.html, kutipan Rut 4:14-16",
+      "severity": "major",
+      "source_quote": "without a kinsman, that his name may be famous in Israel. And he shall be unto thee a restorer of thy life, and a nourisher of thine old age",
+      "suggested_fix": "Ganti bagian terkait dengan “tanpa seorang kerabat, supaya namanya termasyhur di Israel. Ia akan menjadi pemulih hidupmu dan pemelihara pada masa tuamu”.",
+      "translation_quote": "tanpa orang yang berkeluarga, supaya namanya disebut dalam Israel. Dialah penolong hidupmu dan pemelihara hari tua kaubarang"
+    },
+    {
+      "location": "translation.html, paragraf kedua di bawah “Jangan Membandingkan”",
+      "severity": "major",
+      "source_quote": "does not mean that you aren’t a Christian or that God is done with you",
+      "suggested_fix": "Ganti “atau bahwa Allah telah berhenti mengasihi Anda” dengan “atau bahwa Allah tidak lagi berkarya dalam hidup Anda”.",
+      "translation_quote": "bukan berarti Anda bukan seorang Kristen atau bahwa Allah telah berhenti mengasihi Anda"
+    },
+    {
+      "location": "translation.html, paragraf yang diawali “Saya tidak berpikir kita sepenuhnya tahu”",
+      "severity": "minor",
+      "source_quote": "there were no physical diseases or maladies",
+      "suggested_fix": "Ganti “penyakit fisik atau kelaziman” dengan “penyakit fisik atau gangguan kesehatan”.",
+      "translation_quote": "tidak ada penyakit fisik atau kelaziman"
+    },
+    {
+      "location": "translation.html, paragraf tentang susunan genetik",
+      "severity": "minor",
+      "source_quote": "we tend towards being moody instead of being naturally upbeat",
+      "suggested_fix": "Ganti “kita cenderung moody daripada ceria secara alami” dengan “suasana hati kita cenderung mudah berubah, alih-alih ceria secara alami”.",
+      "translation_quote": "kita cenderung moody daripada ceria secara alami"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

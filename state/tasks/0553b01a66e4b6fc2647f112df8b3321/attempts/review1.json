@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-27T08:44:41+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"translation.html, kutipan Yakobus 5:16 di bawah judul “Menangani Dosa”\",\n      \"severity\": \"major\",\n      \"source_quote\": \"Confess your faults one to another, and pray one for another, that ye may be healed… –James 5:16.\",\n      \"suggested_fix\": \"Ganti isi kutipan dengan: <em>Hendaklah kamu saling mengaku kesalahan dan saling mendoakan, supaya kamu disembuhkan… –Yakobus 5:16.</em>\",\n      \"translation_quote\": \"Aku tidak tahan lagi, aku harus mengaku dosa-dosaku kepadamu; aku akan menyatakan pelanggaranku terhadap-Mu, maka engkau mengampuni kesalahan orang berdosa –Yakobus 5:16.\"\n    },\n    {\n      \"location\": \"translation.html, kutipan Kejadian 3:16-19\",\n      \"severity\": \"major\",\n      \"source_quote\": \"and thy desire shall be to thy husband, and he shall rule over thee\",\n      \"suggested_fix\": \"Ganti klausa tersebut dengan “dan hasratmu akan tertuju kepada suamimu, dan ia akan berkuasa atasmu”.\",\n      \"translation_quote\": \"dan kepadamu akanlah cenderung nafsu suamimu, tetapi ia akan berkuasa atasmu\"\n    },\n    {\n      \"location\": \"translation.html, kutipan Yeremia 20:14-18\",\n      \"severity\": \"major\",\n      \"source_quote\": \"the cities which the LORD overthrew, and repented not\",\n      \"suggested_fix\": \"Ganti dengan “kota-kota yang telah dimusnahkan TUHAN tanpa Ia menyesal”. Ini mempertahankan TUHAN sebagai subjek klausa terakhir, bukan menyiratkan pertobatan kota atau orang.\",\n      \"translation_quote\": \"kota-kota yang TUHAN telah musnahkan, dan tidak bertobat\"\n    },\n    {\n      \"location\": \"translation.html, kutipan Rut 1:20-21\",\n      \"severity\": \"major\",\n      \"source_quote\": \"and the Almighty hath afflicted me\",\n      \"suggested_fix\": \"Ganti “Yang Mahakuasa telah mencela aku” dengan “Yang Mahakuasa telah menimpakan penderitaan kepadaku”.\",\n      \"translation_quote\": \"dan Yang Mahakuasa telah mencela aku\"\n    },\n    {\n      \"location\": \"translation.html, kutipan Rut 4:14-16\",\n      \"severity\": \"major\",\n      \"source_quote\": \"without a kinsman, that his name may be famous in Israel. And he shall be unto thee a restorer of thy life, and a nourisher of thine old age\",\n      \"suggested_fix\": \"Ganti bagian terkait dengan “tanpa seorang kerabat, supaya namanya termasyhur di Israel. Ia akan menjadi pemulih hidupmu dan pemelihara pada masa tuamu”.\",\n      \"translation_quote\": \"tanpa orang yang berkeluarga, supaya namanya disebut dalam Israel. Dialah penolong hidupmu dan pemelihara hari tua kaubarang\"\n    },\n    {\n      \"location\": \"translation.html, paragraf kedua di bawah “Jangan Membandingkan”\",\n      \"severity\": \"major\",\n      \"source_quote\": \"does not mean that you aren’t a Christian or that God is done with you\",\n      \"suggested_fix\": \"Ganti “atau bahwa Allah telah berhenti mengasihi Anda” dengan “atau bahwa Allah tidak lagi berkarya dalam hidup Anda”.\",\n      \"translation_quote\": \"bukan berarti Anda bukan seorang Kristen atau bahwa Allah telah berhenti mengasihi Anda\"\n    },\n    {\n      \"location\": \"translation.html, paragraf yang diawali “Saya tidak berpikir kita sepenuhnya tahu”\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"there were no physical diseases or maladies\",\n      \"suggested_fix\": \"Ganti “penyakit fisik atau kelaziman” dengan “penyakit fisik atau gangguan kesehatan”.\",\n      \"translation_quote\": \"tidak ada penyakit fisik atau kelaziman\"\n    },\n    {\n      \"location\": \"translation.html, paragraf tentang susunan genetik\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"we tend towards being moody instead of being naturally upbeat\",\n      \"suggested_fix\": \"Ganti “kita cenderung moody daripada ceria secara alami” dengan “suasana hati kita cenderung mudah berubah, alih-alih ceria secara alami”.\",\n      \"translation_quote\": \"kita cenderung moody daripada ceria secara alami\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": false,\n  \"score\": 83\n}",
+    "content_bytes": 3948,
+    "content_evidence_truncated": false,
+    "content_sha256": "ef6b63ec5fdeaed4a5f64a0fe66ab2fde2294a0adeb6429a9ad44ac276e99432",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1135,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 93,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 11120,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 11117,
+        "cached_tokens": 0
+      },
+      "total_tokens": 12255
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}
