@@ -5,7 +5,8 @@
     "0a33c53f03877bf7cc7ab06d305f15a5:correct"
   ],
   "id": "07a582e1749f4659918ea3504ef4fd5b",
-  "input_file_id": null,
+  "input_file_id": "file-BqY6b7qfZpGVY5zu7rEddm",
+  "last_collector_visit_at": "2026-11-27T00:35:37+00:00",
   "model": "gpt-6.1-sol",
   "payload_sha256": "13664f67730faf2169a64ee1f3d6eb1bb4b093815ee21185a8c3867f0c745244",
   "remote_id": null,
