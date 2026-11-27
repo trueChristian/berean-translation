@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "e2ba6d5506624c2c8284e82d13c3e09c",
   "campaign": "auto-a08f647ccb9780ee898aa13e240ee14471099ece973d2e3f0ccc7b66064ba5ac",
   "created_at": "2026-11-25T22:32:13+00:00",
   "events": [
@@ -48,18 +47,31 @@
         },
         "total_tokens": 6506
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 658,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 620,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4578,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 4575,
+          "cached_tokens": 0
+        },
+        "total_tokens": 5236
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "HTML/metadata contract",
-      "severity": "critical",
-      "source_quote": "",
-      "suggested_fix": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[10]: source /article[1]/p[2]/em[1] ('end', 'em'); translation /article[1]/p[2]/em[1]/em[1] ('start', 'em', ())",
-      "translation_quote": ""
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-11-27T00:20:07+00:00",
   "id": "ed2a167cf6ee6b07db03402c60f879f5",
   "issue_id": "14962b7b-2d94-5b43-a4c6-bbb78f074d1a",
   "language": "ara",
@@ -148,9 +160,11 @@
     }
   },
   "protected": false,
+  "quality_score": 99,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/fbd11b6d945c01ab5ff62531019df8e2e0a8fcde3ec950ea4724e6622f5ced62.json",
   "stage": "review2",
   "stage_budget": {
@@ -166,7 +180,7 @@
     "total_reserved_usd": 0.087625,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "d7c838f916a6e96ad10ca32b39fc67cc6fdb9b820c8957f24542fe4119ff210c",
   "translation_model_actual": "gpt-6-luna"

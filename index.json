@@ -10829,6 +10829,38 @@
     {
       "ai_notice_required": true,
       "direction": "rtl",
+      "html": "content/ara/articles/cbbe9a81-d8fd-46c2-bfcd-0d31bdd59fb1.html",
+      "html_sha256": "6ebcda8ab956212d20a73adc63ded07b58590ad5a2bba03e3b676ce4baed47d9",
+      "human_reviewed": false,
+      "id": "cbbe9a81-d8fd-46c2-bfcd-0d31bdd59fb1",
+      "images": [
+        {
+          "alt": "يمدّ ديرك ويليمز يده نحو مطارده الذي سقط عبر الجليد",
+          "public_path": "/images/articles/cbbe9a81-d8fd-46c2-bfcd-0d31bdd59fb1-1.jpg"
+        },
+        {
+          "alt": "دين وتانيا تايلور مع أسرتهما في الهواء الطلق",
+          "public_path": "/images/articles/cbbe9a81-d8fd-46c2-bfcd-0d31bdd59fb1-2.jpg"
+        }
+      ],
+      "issue_id": "14962b7b-2d94-5b43-a4c6-bbb78f074d1a",
+      "language": "ara",
+      "language_tag": "ar",
+      "metadata": "content/ara/articles/cbbe9a81-d8fd-46c2-bfcd-0d31bdd59fb1.json",
+      "metadata_sha256": "4a4a84008898c44b23f58361f331e803741e76673a8f2187b8e70f401963fbc1",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "ccefc5a5c3d79409cc78319f94b5490718d30670",
+      "source_translation_key": "d7c838f916a6e96ad10ca32b39fc67cc6fdb9b820c8957f24542fe4119ff210c",
+      "status": "ready",
+      "subtitle": null,
+      "title": "خواطر حول مرآة الشهداء",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
       "html": "content/ara/articles/cc225bc9-2dda-46f3-a628-13af4fd95e7a.html",
       "html_sha256": "3327854035fab1b6a1e19b106020cbe01f005eeb56f7d4746f2195ad087fd979",
       "human_reviewed": false,
