@@ -10750,6 +10750,34 @@
     {
       "ai_notice_required": true,
       "direction": "rtl",
+      "html": "content/ara/articles/c6596509-ad91-49b6-a55b-d850c3b72c14.html",
+      "html_sha256": "29d0985ba2699c26e1dd3a053451efa465652288db4da1657a76ca2072ea3437",
+      "human_reviewed": false,
+      "id": "c6596509-ad91-49b6-a55b-d850c3b72c14",
+      "images": [
+        {
+          "alt": "لقطة مقرّبة لوردة.",
+          "public_path": "/images/articles/c6596509-ad91-49b6-a55b-d850c3b72c14-1.jpg"
+        }
+      ],
+      "issue_id": "07955de4-6574-4a4b-9c1b-f216374c02ee",
+      "language": "ara",
+      "language_tag": "ar",
+      "metadata": "content/ara/articles/c6596509-ad91-49b6-a55b-d850c3b72c14.json",
+      "metadata_sha256": "9ad290cfb0c4b04cedd0592957a52a35d392d29de8e6cc0f35d649073ef2412b",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": null,
+      "source_revision": "77453848868ffdd6736c58e8c072c5ee12108fc7",
+      "source_translation_key": "0e0d3461779cb69fe2b7abdcf38f790945684497a7280f617caa1679f055a962",
+      "status": "ready",
+      "subtitle": null,
+      "title": "كيف نُعِدّ فتياتنا الشابات للمستقبل؟",
+      "translation_model": "gpt-6.1-sol"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
       "html": "content/ara/articles/ca0e4a35-e9f8-4f72-83f0-7273d84f6d36.html",
       "html_sha256": "d4b36547e8cc8b073bdf3dfe3641293525317e542d35447cea46c26f401defdd",
       "human_reviewed": false,
