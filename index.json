@@ -105172,6 +105172,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/swa/articles/cbbe9a81-d8fd-46c2-bfcd-0d31bdd59fb1.html",
+      "html_sha256": "eb1803bb6050b2ad014008bb7c497aae31c44d7304e9c3858368d29b677a1159",
+      "human_reviewed": false,
+      "id": "cbbe9a81-d8fd-46c2-bfcd-0d31bdd59fb1",
+      "images": [
+        {
+          "alt": "Dirk Willems akimnyooshea mkono mtu aliyekuwa akimfuatilia, ambaye alikuwa ameanguka kwenye barafu",
+          "public_path": "/images/articles/cbbe9a81-d8fd-46c2-bfcd-0d31bdd59fb1-1.jpg"
+        },
+        {
+          "alt": "Dean na Tania Taylor pamoja na familia yao wakiwa nje",
+          "public_path": "/images/articles/cbbe9a81-d8fd-46c2-bfcd-0d31bdd59fb1-2.jpg"
+        }
+      ],
+      "issue_id": "14962b7b-2d94-5b43-a4c6-bbb78f074d1a",
+      "language": "swa",
+      "language_tag": "sw",
+      "metadata": "content/swa/articles/cbbe9a81-d8fd-46c2-bfcd-0d31bdd59fb1.json",
+      "metadata_sha256": "353f9e18e43a76c34fd1f701579ad650a36fa0ae487044105bfdf2ffe78c913f",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "ccefc5a5c3d79409cc78319f94b5490718d30670",
+      "source_translation_key": "d7c838f916a6e96ad10ca32b39fc67cc6fdb9b820c8957f24542fe4119ff210c",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Tafakari kuhusu Kioo cha Mashahidi",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/swa/articles/cc225bc9-2dda-46f3-a628-13af4fd95e7a.html",
       "html_sha256": "f99519cd81c422c3883d0c40c7bcccc75ba2c9da0b6adc42689fe2d3321e5eaa",
       "human_reviewed": false,

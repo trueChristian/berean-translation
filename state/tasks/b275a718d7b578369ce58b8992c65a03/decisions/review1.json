@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "Paragraph 2, description of The Martyrs Mirror",
+      "severity": "minor",
+      "source_quote": "“the classic AD 1660 Dutch religious history”",
+      "suggested_fix": "Replace “ambayo imekuwa ya asili” with “ya kitambo” or “maarufu,” so the phrase describes the work as a classic history rather than saying it has become original.",
+      "translation_quote": "“historia ya kidini ya Kiholanzi ya mwaka 1660 BK ambayo imekuwa ya asili”"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}

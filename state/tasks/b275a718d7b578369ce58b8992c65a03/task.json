@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "c7ef68c4b42245778909d10119a9600a",
   "campaign": "auto-aea0cf862fbb7d2034cff6867dac99167cbc304f6918d699ed23f0ea8b7762d7",
   "created_at": "2026-11-26T23:50:37+00:00",
   "events": [
@@ -28,10 +27,39 @@
         },
         "total_tokens": 4404
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 752,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 610,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4757,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 4754,
+          "cached_tokens": 0
+        },
+        "total_tokens": 5509
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "Paragraph 2, description of The Martyrs Mirror",
+      "severity": "minor",
+      "source_quote": "“the classic AD 1660 Dutch religious history”",
+      "suggested_fix": "Replace “ambayo imekuwa ya asili” with “ya kitambo” or “maarufu,” so the phrase describes the work as a classic history rather than saying it has become original.",
+      "translation_quote": "“historia ya kidini ya Kiholanzi ya mwaka 1660 BK ambayo imekuwa ya asili”"
+    }
+  ],
+  "finished_at": "2026-11-27T23:23:10+00:00",
   "id": "b275a718d7b578369ce58b8992c65a03",
   "issue_id": "14962b7b-2d94-5b43-a4c6-bbb78f074d1a",
   "language": "swa",
@@ -120,9 +148,11 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/fbd11b6d945c01ab5ff62531019df8e2e0a8fcde3ec950ea4724e6622f5ced62.json",
   "stage": "review1",
   "stage_budget": {
@@ -138,7 +168,7 @@
     "total_reserved_usd": 0.087618,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "d7c838f916a6e96ad10ca32b39fc67cc6fdb9b820c8957f24542fe4119ff210c",
   "translation_model_actual": "gpt-6-luna"

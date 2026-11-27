@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "ee98cc3e-3809-470d-8933-2cc3a4fa901d",
+    "response_id": "chatcmpl-EowFQnhLpkMwQ4H3q5v6jvQpPhsN6",
+    "usage": {
+      "completion_tokens": 752,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 610,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4757,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4754,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5509
+    }
+  },
+  "received_at": "2026-11-27T23:23:10+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph 2, description of The Martyrs Mirror",
+        "severity": "minor",
+        "source_quote": "“the classic AD 1660 Dutch religious history”",
+        "suggested_fix": "Replace “ambayo imekuwa ya asili” with “ya kitambo” or “maarufu,” so the phrase describes the work as a classic history rather than saying it has become original.",
+        "translation_quote": "“historia ya kidini ya Kiholanzi ya mwaka 1660 BK ambayo imekuwa ya asili”"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}
