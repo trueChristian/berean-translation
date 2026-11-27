@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "a16602ee9ba7442bb67e809f6501d50a",
   "campaign": "auto-7247c73bf30196f37698a4499a8872587398fc4376a798453118475614468735",
   "created_at": "2026-11-27T08:14:53+00:00",
   "events": [
@@ -28,10 +27,39 @@
         },
         "total_tokens": 4230
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 827,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 718,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4584,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 4581,
+          "cached_tokens": 0
+        },
+        "total_tokens": 5411
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "הציטוט מתוך *מראה הקדושים*",
+      "severity": "minor",
+      "source_quote": "“not upon the drifting sand of human commandments”",
+      "suggested_fix": "״לא על החול הנסחף של מצוות בני אדם״",
+      "translation_quote": "״לא על החול הנודד של מצוות בני אדם״"
+    }
+  ],
+  "finished_at": "2026-11-27T19:28:06+00:00",
   "id": "6eb0af4495293abc423a2ae1f61b71d2",
   "issue_id": "14962b7b-2d94-5b43-a4c6-bbb78f074d1a",
   "language": "heb",
@@ -120,9 +148,11 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/fbd11b6d945c01ab5ff62531019df8e2e0a8fcde3ec950ea4724e6622f5ced62.json",
   "stage": "review1",
   "stage_budget": {
@@ -138,7 +168,7 @@
     "total_reserved_usd": 0.08763,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "d7c838f916a6e96ad10ca32b39fc67cc6fdb9b820c8957f24542fe4119ff210c",
   "translation_model_actual": "gpt-6-luna"

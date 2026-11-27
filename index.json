@@ -44792,6 +44792,38 @@
     {
       "ai_notice_required": true,
       "direction": "rtl",
+      "html": "content/heb/articles/cbbe9a81-d8fd-46c2-bfcd-0d31bdd59fb1.html",
+      "html_sha256": "6e3929af4c4ed096809ed2a998ec6e15c0236b14de831418fcd3c15665c27331",
+      "human_reviewed": false,
+      "id": "cbbe9a81-d8fd-46c2-bfcd-0d31bdd59fb1",
+      "images": [
+        {
+          "alt": "דירק וילמס מושיט יד לעבר רודפו, שנפל דרך הקרח",
+          "public_path": "/images/articles/cbbe9a81-d8fd-46c2-bfcd-0d31bdd59fb1-1.jpg"
+        },
+        {
+          "alt": "דין וטניה טיילור עם משפחתם בחוץ",
+          "public_path": "/images/articles/cbbe9a81-d8fd-46c2-bfcd-0d31bdd59fb1-2.jpg"
+        }
+      ],
+      "issue_id": "14962b7b-2d94-5b43-a4c6-bbb78f074d1a",
+      "language": "heb",
+      "language_tag": "he",
+      "metadata": "content/heb/articles/cbbe9a81-d8fd-46c2-bfcd-0d31bdd59fb1.json",
+      "metadata_sha256": "521a22b0804efc00e0395f3fb8399597c6b24c06c9b3bd146c1c32ea7aa92444",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "ccefc5a5c3d79409cc78319f94b5490718d30670",
+      "source_translation_key": "d7c838f916a6e96ad10ca32b39fc67cc6fdb9b820c8957f24542fe4119ff210c",
+      "status": "ready",
+      "subtitle": null,
+      "title": "מחשבות על מראה הקדושים",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
       "html": "content/heb/articles/cf07f132-92d4-49ba-b318-52520f77ca67.html",
       "html_sha256": "100781076a9919ff756c223342610a3a740c71374e3f50db07639798a469cd15",
       "human_reviewed": false,

@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "הציטוט מתוך *מראה הקדושים*",
+      "severity": "minor",
+      "source_quote": "“not upon the drifting sand of human commandments”",
+      "suggested_fix": "״לא על החול הנסחף של מצוות בני אדם״",
+      "translation_quote": "״לא על החול הנודד של מצוות בני אדם״"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}
