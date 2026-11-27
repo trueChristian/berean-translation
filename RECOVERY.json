@@ -3,11 +3,11 @@
   "automatic_enabled": true,
   "automatic_policy_version": 3,
   "budget_enforcement": "none",
-  "committed_usd": 82.664248,
+  "committed_usd": 82.911889,
   "counts": {
     "active": 50,
     "already_translated": 106,
-    "automatic_capacity_wait": 248,
+    "automatic_capacity_wait": 247,
     "continuation_progress_uncertain_requires_attention": 5,
     "continuation_repeated_findings_requires_attention": 1,
     "eligible_automatic": 553,
@@ -23,7 +23,7 @@
   },
   "derived": true,
   "format_version": "2",
-  "gross_allocated_usd": 836.39672,
+  "gross_allocated_usd": 837.279618,
   "historical_approved_total_usd": 30.0,
   "items": [
     {
@@ -1035,14 +1035,6 @@
       "processing_status": "held_without_publication",
       "reason": "automatic_capacity_wait",
       "request_id": "auto-f5249597a92d47da25a5a891cdad1568d892a618e9c89f8df65e69fba7e6fc08"
-    },
-    {
-      "accepted_cycles": 1,
-      "article_id": "c6596509-ad91-49b6-a55b-d850c3b72c14",
-      "language": "ara",
-      "latest_task": "0a33c53f03877bf7cc7ab06d305f15a5",
-      "processing_status": "in_batch",
-      "reason": "active"
     },
     {
       "accepted_cycles": 0,
@@ -2924,7 +2916,7 @@
       "article_id": "cbbe9a81-d8fd-46c2-bfcd-0d31bdd59fb1",
       "language": "deu",
       "latest_task": "31e3b897ba3171831867dd0abc11ed6c",
-      "processing_status": "in_batch",
+      "processing_status": "queued",
       "reason": "active"
     },
     {
@@ -4751,6 +4743,14 @@
     },
     {
       "accepted_cycles": 0,
+      "article_id": "cbbe9a81-d8fd-46c2-bfcd-0d31bdd59fb1",
+      "language": "heb",
+      "latest_task": "6eb0af4495293abc423a2ae1f61b71d2",
+      "processing_status": "queued",
+      "reason": "active"
+    },
+    {
+      "accepted_cycles": 0,
       "article_id": "cc225bc9-2dda-46f3-a628-13af4fd95e7a",
       "language": "heb",
       "latest_task": "f35b47c587d1f009fdde824535065452",
@@ -5741,14 +5741,12 @@
       "request_id": "auto-d656716a28ed933a16b9aae684cfdd4524b8f927e1af51e9480b767f001ebbd2"
     },
     {
-      "accepted_cycles": 0,
-      "admission_status": "attention",
+      "accepted_cycles": 1,
       "article_id": "9240e6d5-f395-4db7-ab6f-3b4b603d6ea0",
       "language": "ind",
-      "latest_task": "9cb03506290aad44252be1d56f124455",
-      "processing_status": "held_without_publication",
-      "reason": "automatic_capacity_wait",
-      "request_id": "auto-90d860edac750a87a10e3b892874b4ff992e0d960d786ecc6484499ae3e39443"
+      "latest_task": "0553b01a66e4b6fc2647f112df8b3321",
+      "processing_status": "queued",
+      "reason": "active"
     },
     {
       "accepted_cycles": 0,
@@ -6292,14 +6290,6 @@
       "processing_status": "queued",
       "reason": "pending_automatic_admission",
       "request_id": "auto-67aa333543021b503307104e8f8844e7d04444dd0817c1b13964ba7c9ec43737"
-    },
-    {
-      "accepted_cycles": 0,
-      "article_id": "cbbe9a81-d8fd-46c2-bfcd-0d31bdd59fb1",
-      "language": "ita",
-      "latest_task": "bd82e32f4688bf37dacbbc5b41dab21c",
-      "processing_status": "in_batch",
-      "reason": "active"
     },
     {
       "accepted_cycles": 0,
@@ -7923,7 +7913,7 @@
       "article_id": "fe13ba15-f33c-46ff-9d3c-f114f1b2f4d4",
       "language": "nob",
       "latest_task": "74c20a59cfdc28eacf55b91a4b5208a4",
-      "processing_status": "in_batch",
+      "processing_status": "queued",
       "reason": "active"
     },
     {
@@ -11021,7 +11011,7 @@
       "article_id": "cbbe9a81-d8fd-46c2-bfcd-0d31bdd59fb1",
       "language": "urd",
       "latest_task": "9662b6ace1ddc72ec5d45bb956b148d1",
-      "processing_status": "in_batch",
+      "processing_status": "queued",
       "reason": "active"
     },
     {
@@ -11191,7 +11181,7 @@
       "reason": "eligible_automatic"
     }
   ],
-  "settled_unused_usd": 753.732472,
+  "settled_unused_usd": 754.367729,
   "source_revision": "ccefc5a5c3d79409cc78319f94b5490718d30670",
   "spending_policy": "owner-2026-10-29-provider-managed-spending",
   "usage_description": "Provider-reported usage priced at frozen rates; not invoice reconciliation"
