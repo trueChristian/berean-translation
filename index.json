@@ -62788,6 +62788,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/ita/articles/cbbe9a81-d8fd-46c2-bfcd-0d31bdd59fb1.html",
+      "html_sha256": "8b0d165c9d0ef4cee3ab30d4e58a07b394ce3a1abf672b8e8b08f0c0d5fdb84f",
+      "human_reviewed": false,
+      "id": "cbbe9a81-d8fd-46c2-bfcd-0d31bdd59fb1",
+      "images": [
+        {
+          "alt": "Dirk Willems tende la mano verso il suo inseguitore, caduto attraverso il ghiaccio",
+          "public_path": "/images/articles/cbbe9a81-d8fd-46c2-bfcd-0d31bdd59fb1-1.jpg"
+        },
+        {
+          "alt": "Dean e Tania Taylor con la loro famiglia all’aperto",
+          "public_path": "/images/articles/cbbe9a81-d8fd-46c2-bfcd-0d31bdd59fb1-2.jpg"
+        }
+      ],
+      "issue_id": "14962b7b-2d94-5b43-a4c6-bbb78f074d1a",
+      "language": "ita",
+      "language_tag": "it",
+      "metadata": "content/ita/articles/cbbe9a81-d8fd-46c2-bfcd-0d31bdd59fb1.json",
+      "metadata_sha256": "580e3353ccd2137960b727bc38b1460ec94f8c16e2b3b311b8225b97a87f8a26",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "ccefc5a5c3d79409cc78319f94b5490718d30670",
+      "source_translation_key": "d7c838f916a6e96ad10ca32b39fc67cc6fdb9b820c8957f24542fe4119ff210c",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Riflessioni su The Martyrs Mirror",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/ita/articles/cc225bc9-2dda-46f3-a628-13af4fd95e7a.html",
       "html_sha256": "0928ec4df24228f59781d8aa381e59d25eb30a9718319adc83ff2196ad7bdb8f",
       "human_reviewed": false,
