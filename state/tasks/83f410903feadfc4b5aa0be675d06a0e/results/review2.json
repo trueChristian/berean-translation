@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "2bc7e248-c16c-4ef7-a1e9-991426a7692a",
+    "response_id": "chatcmpl-EovR1riaN4UkUKcIqn1Kn0pP7t2c2",
+    "usage": {
+      "completion_tokens": 232,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 94,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 8225,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 8222,
+        "cached_tokens": 0
+      },
+      "total_tokens": 8457
+    }
+  },
+  "received_at": "2026-11-27T19:12:20+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "translation.html: तट पर यीशु के प्रकट होने और शिष्यों के लिए मछली पकाने वाला अनुच्छेद",
+        "severity": "minor",
+        "source_quote": "after their long night of fruitless toil",
+        "suggested_fix": "“उनकी निष्फल परिश्रम की लंबी रात के बाद” को “उनके निष्फल परिश्रम की लंबी रात के बाद” करें।",
+        "translation_quote": "उनकी निष्फल परिश्रम की लंबी रात के बाद"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 99
+  }
+}

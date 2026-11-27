@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "27618ed115fb4b0bafc2d9f9e778252b",
   "campaign": "auto-1b5fc8f2366add5bd1064769aabb9e6ae210b82e2e00442342f015b47a7a6d0c",
   "created_at": "2026-11-27T08:46:39+00:00",
   "events": [
@@ -48,130 +47,39 @@
         },
         "total_tokens": 13886
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 232,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 94,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 8225,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8222,
+          "cached_tokens": 0
+        },
+        "total_tokens": 8457
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "title और html में 'Discipleship' के सभी उल्लेख",
-      "severity": "major",
-      "source_quote": "The Call to Discipleship; Discipleship is incumbent on the believer.",
-      "suggested_fix": "शीर्षक को “शिष्यत्व का आह्वान” करें और लेख में 'Discipleship' के लिए प्रयुक्त सभी 'छात्रत्व' को 'शिष्यत्व' से बदलें।",
-      "translation_quote": "छात्रत्व के लिए आह्वान; छात्रत्व विश्वासकर्ता पर अनिवार्य है।"
-    },
-    {
-      "location": "html, अनुच्छेद 4",
-      "severity": "major",
-      "source_quote": "Following Jesus is not a carnal attempt to merit eternal life.",
-      "suggested_fix": "इस वाक्य को करें: “यीशु के पीछे चलना अपने मानवीय बल से अनन्त जीवन की योग्यता अर्जित करने का प्रयास नहीं है।”",
-      "translation_quote": "यीशु के पीछे चलना शाश्वत जीवन अर्जित करने का भौतिक प्रयास नहीं है।"
-    },
-    {
-      "location": "html, अनुच्छेद 'Another day, another catch of fish'",
-      "severity": "major",
-      "source_quote": "you should be able to keep the creditors at bay for another week",
-      "suggested_fix": "संबंधित खंड को करें: “और आप लेनदारों को एक और सप्ताह तक टाल सकेंगे।”",
-      "translation_quote": "आप फिर से साप्ताहिक कर्ज़दारों को टाल पाएँगे।"
-    },
-    {
-      "location": "html, ज़ेबेदेय की आशा वाला अनुच्छेद",
-      "severity": "major",
-      "source_quote": "would soften the temper of their abrasive characters",
-      "suggested_fix": "“उनके कट्टर स्वभाव को नरम कर देगा” के स्थान पर “उनके रूखे और चिड़चिड़े स्वभाव को नरम कर देगा” लिखें।",
-      "translation_quote": "उनके कट्टर स्वभाव को नरम कर देगा।"
-    },
-    {
-      "location": "html, मसीहा की प्रतीक्षा वाला अनुच्छेद",
-      "severity": "major",
-      "source_quote": "The Messiah—The Promised One",
-      "suggested_fix": "“मसीहा की खोज कर रही थीं—वचनबद्ध आया हुआ वह” को “मसीहा की प्रतीक्षा कर रही थीं—उसकी, जिसके आने की प्रतिज्ञा की गई थी” से बदलें।",
-      "translation_quote": "मसीहा की खोज कर रही थीं—वचनबद्ध आया हुआ वह"
-    },
-    {
-      "location": "html, पुनरुत्थान के बाद मछली पकड़ने का वर्णन",
-      "severity": "major",
-      "source_quote": "due to the multitude of fish",
-      "suggested_fix": "“मछलियों की विविधता के कारण” के स्थान पर “मछलियों की बहुत बड़ी संख्या के कारण” लिखें।",
-      "translation_quote": "मछलियों की विविधता के कारण"
-    },
-    {
-      "location": "html, रोमियों 7:18 का उद्धरण",
-      "severity": "major",
-      "source_quote": "for to will is present with me; but how to perform that which is good I find not",
-      "suggested_fix": "उद्धरण का यह भाग करें: “क्योंकि भलाई करने की इच्छा तो मुझ में है; पर उसे कैसे करूँ, यह मुझसे नहीं बन पड़ता –रोमियों 7:18.” मौजूदा em टैग बनाए रखें।",
-      "translation_quote": "क्योंकि मन के करने की इच्छा मेरे साथ है; परंतु जो भला करने का तरीका है उसे मैं नहीं पाता"
-    },
-    {
-      "location": "html, तट पर पतरस से यीशु का पहला प्रश्न",
-      "severity": "major",
-      "source_quote": "Peter, do you love Me more than these?",
-      "suggested_fix": "मूल की तुलना को किसी निश्चित समूह तक सीमित न करें: “पतरस, क्या तू इनसे बढ़कर मुझसे प्रेम करता है?”",
-      "translation_quote": "पतरस, क्या तुझे मुझसे इन लोगों से अधिक प्रेम है?"
-    },
-    {
-      "location": "html, पतरस का पहला उत्तर",
-      "severity": "major",
-      "source_quote": "Feed my lambs.",
-      "suggested_fix": "पहले आदेश को “मेरे मेमनों को चराना।” करें; बाद के “Feed my sheep” का भेड़ों वाला अनुवाद अलग बनाए रखें।",
-      "translation_quote": "मेरे भेड़ों को चराना।"
-    },
-    {
-      "location": "html, प्रेम का प्रत्युत्तर देने वाला अनुच्छेद",
-      "severity": "major",
-      "source_quote": "Now Jesus is asking him to reciprocate that love.",
-      "suggested_fix": "वाक्य करें: “अब यीशु उससे उस प्रेम के प्रत्युत्तर में प्रेम करने को कह रहे थे।”",
-      "translation_quote": "अब यीशु उससे उस प्रेम का reciprocate करने को कह रहे थे।"
-    },
-    {
-      "location": "html, कयाफास के घर का वर्णन",
-      "severity": "major",
-      "source_quote": "He saw Jesus being brutally handled ... He heard the angry shouting of the Sanhedrin",
-      "suggested_fix": "पहला खंड “उसने देखा कि यीशु के साथ क्रूर व्यवहार किया जा रहा है” करें और “संहित की क्रोधी पुकारें” को “यहूदी महासभा के क्रोधपूर्ण नारे” से बदलें।",
-      "translation_quote": "यीशु को बेरहमी से हाथ-पाँव से टटोला जा रहा है ... उसने संहित की क्रोधी पुकारें सुनीं"
-    },
-    {
-      "location": "html, व्यावहारिक आदेशों की सूची",
-      "severity": "major",
-      "source_quote": "Defer to your brother",
-      "suggested_fix": "इस आदेश को “अपने भाई को प्राथमिकता दो” करें।",
-      "translation_quote": "अपने भाई को अग्रिम दें"
-    },
-    {
-      "location": "html, पतरस की तैयारी वाला अनुच्छेद",
-      "severity": "major",
-      "source_quote": "three and a half years",
-      "suggested_fix": "“तीन और एक-आध वर्षों” को “साढ़े तीन वर्षों” से बदलें।",
-      "translation_quote": "तीन और एक-आध वर्षों"
-    },
-    {
-      "location": "html, तट पर भोजन का वर्णन",
+      "location": "translation.html: तट पर यीशु के प्रकट होने और शिष्यों के लिए मछली पकाने वाला अनुच्छेद",
       "severity": "minor",
-      "source_quote": "As Peter sat munching on a charbroiled fish",
-      "suggested_fix": "संबंधित खंड करें: “जब पतरस अंगारों पर भुनी हुई मछली खा रहा था”। मूल में चर्बी का उल्लेख नहीं है।",
-      "translation_quote": "जब पतरस चर्बी भरी भुनी मछली खाने बैठा"
-    },
-    {
-      "location": "html, विवाह की उपमा",
-      "severity": "minor",
-      "source_quote": "for the mutual benefit of your marriage",
-      "suggested_fix": "“अपने वैवाहिक लाभ के लिए” को “अपने वैवाहिक जीवन में दोनों की भलाई के लिए” से बदलें।",
-      "translation_quote": "अपने वैवाहिक लाभ के लिए"
-    },
-    {
-      "location": "section",
-      "severity": "minor",
-      "source_quote": "The New Testament Church",
-      "suggested_fix": "“नए नियम की कलीसिया” करें।",
-      "translation_quote": "नया नियम की कलीसिया"
-    },
-    {
-      "location": "html, विभिन्न अनुच्छेदों में व्याकरण",
-      "severity": "minor",
-      "source_quote": "Old things pass away; And Jesus ... saw; And he saith; their little boat; He made several appearances; emulate him",
-      "suggested_fix": "क्रमशः “पुरानी चीजें बीत जाती हैं”, “और यीशु ने ... देखा”, “और उसने उनसे कहा”, “अपनी छोटी-सी नाव”, “वे अपने शिष्यों के सामने कई बार प्रकट हुए”, और “उनका अनुकरण करने का” करें।",
-      "translation_quote": "पुराने चीजें निकल जाती हैं; और यीशु ... दो भाइयों को देखा; और वह उन से कहा; अपने छोटे से नाव; उसने अपने शिष्यों के सामने कई बार प्रकट हुआ; उन्हें अनुकरण करने का"
+      "source_quote": "after their long night of fruitless toil",
+      "suggested_fix": "“उनकी निष्फल परिश्रम की लंबी रात के बाद” को “उनके निष्फल परिश्रम की लंबी रात के बाद” करें।",
+      "translation_quote": "उनकी निष्फल परिश्रम की लंबी रात के बाद"
     }
   ],
+  "finished_at": "2026-11-27T19:12:20+00:00",
   "id": "83f410903feadfc4b5aa0be675d06a0e",
   "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
   "language": "hin",
@@ -260,7 +168,7 @@
     }
   },
   "protected": false,
-  "quality_score": 76,
+  "quality_score": 99,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6.1-sol",
@@ -279,7 +187,7 @@
     "total_reserved_usd": 0.789206,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "1a9a048cb09f8defedfe227e6b286e8b931f833f4da6a1d1e6b5d1175b0c84c0",
   "translation_model_actual": "gpt-6.1-sol"
