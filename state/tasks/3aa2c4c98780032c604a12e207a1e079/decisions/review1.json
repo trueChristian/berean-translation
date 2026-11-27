@@ -1,0 +1,105 @@
+{
+  "findings": [
+    {
+      "location": "html: citaat van 1 Petrus 3:3-6",
+      "severity": "major",
+      "source_quote": "in that which is not corruptible, even the ornament of a meek and quiet spirit",
+      "suggested_fix": "Vervang ‘in vergankelijke siervoorziening, dat is de zachtmoedige en stille geest’ door ‘met het onvergankelijke sieraad van een zachtmoedige en stille geest’.",
+      "translation_quote": "in vergankelijke siervoorziening, dat is de zachtmoedige en stille geest"
+    },
+    {
+      "location": "html: citaat van Openbaring 21:2-3",
+      "severity": "major",
+      "source_quote": "prepared as a bride adorned for her husband",
+      "suggested_fix": "Vervang ‘gereedgemaakt als een bruid, siervrij gemaakt voor haar man’ door ‘gereedgemaakt als een bruid die voor haar man getooid is’.",
+      "translation_quote": "gereedgemaakt als een bruid, siervrij gemaakt voor haar man"
+    },
+    {
+      "location": "html: alle Engelstalige trefwoorden van de woordverklaringen",
+      "severity": "major",
+      "source_quote": "Adorn; Plaiting; Apparel; Ornament; Meek; Quiet; Subjection; Afraid; Amazement; Entangleth; Shun; Profane; Vain; Babblings; Flee; Lusts; Righteousness; Faith; Charity; Peace; Pure; Shamefacedness; Sobriety",
+      "suggested_fix": "Vertaal de trefwoorden, in dezelfde volgorde, als ‘Tooien’, ‘Vlechten’, ‘Kleding’, ‘Sieraad’, ‘Zachtmoedig’, ‘Stil’, ‘Onderdanigheid’, ‘Bevreesd’, ‘Ontsteltenis’, ‘Zich verstrikken’, ‘Mijden’, ‘Onheilig’, ‘IJdel’, ‘Gebazel’, ‘Vluchten’, ‘Begeerten’, ‘Gerechtigheid’, ‘Geloof’, ‘Liefde’, ‘Vrede’, ‘Rein’, ‘Schroomvalligheid’ en ‘Bezonnenheid’. Behoud alle bestaande alinea’s.",
+      "translation_quote": "Adorners; Plaiting; Apparel; Ornament; Meek; Quiet; Subjection; Afraid; Amazement; Entangleth; Shun; Profane; Vain; Babblings; Flee; Lusts; Righteousness; Faith; Charity; Peace; Pure; Shamefacedness; Sobriety"
+    },
+    {
+      "location": "html: definitie van Adorn",
+      "severity": "major",
+      "source_quote": "Adorn: to deck or beautify",
+      "suggested_fix": "Vervang ‘verhullen of verfraaien’ door ‘versieren of verfraaien’.",
+      "translation_quote": "Adorners: verhullen of verfraaien"
+    },
+    {
+      "location": "html: citaat van 1 Timoteüs 2:9-10",
+      "severity": "major",
+      "source_quote": "or costly array",
+      "suggested_fix": "Vervang ‘noch met kostuumlijk vertoon’ door ‘noch met kostbare kleding’.",
+      "translation_quote": "noch met kostuumlijk vertoon"
+    },
+    {
+      "location": "html: alinea na Openbaring 21:2-3",
+      "severity": "major",
+      "source_quote": "Is God dwelling in us?",
+      "suggested_fix": "Vervang ‘Woonde God in ons?’ door ‘Woont God in ons?’",
+      "translation_quote": "Woonde God in ons?"
+    },
+    {
+      "location": "html: definitie van Lusts",
+      "severity": "major",
+      "source_quote": "carnal appetite",
+      "suggested_fix": "Vervang ‘carnale eetlust’ door ‘vleselijke begeerte’. Het gaat hier niet specifiek om verlangen naar voedsel.",
+      "translation_quote": "carnale eetlust"
+    },
+    {
+      "location": "html: alinea over wedergeboorte en uitwendige versierselen",
+      "severity": "major",
+      "source_quote": "Let us not make Him ashamed to call us His sons and daughters.",
+      "suggested_fix": "Vervang de slotzin door ‘Laten we Hem geen reden geven Zich te schamen om ons Zijn zonen en dochters te noemen.’",
+      "translation_quote": "Laten we Hem niet beschaamd maken om ons Zijnen te noemen."
+    },
+    {
+      "location": "html: alinea over de vruchten en zuurdesem",
+      "severity": "minor",
+      "source_quote": "A little leaven leaveneth the whole lump.",
+      "suggested_fix": "Vervang ‘Een beetje zuurdesem maakt de hele bulle zuur’ door ‘Een beetje zuurdesem doorzuurt het hele deeg’.",
+      "translation_quote": "Een beetje zuurdesem maakt de hele bulle zuur."
+    },
+    {
+      "location": "html: citaat van 2 Timoteüs 2:4-22",
+      "severity": "minor",
+      "source_quote": "Flee also youthful lusts",
+      "suggested_fix": "Vervang ‘Vlucht ook de jongelingsgepassionneerdheden’ door ‘Ontvlucht ook de jeugdige begeerten’.",
+      "translation_quote": "Vlucht ook de jongelingsgepassionneerdheden"
+    },
+    {
+      "location": "html: alinea over kleding en het gelaat",
+      "severity": "minor",
+      "source_quote": "they can see the clear countenance on my face",
+      "suggested_fix": "Vervang ‘men kan het duidelijke gelaat op mijn gezicht zien’ door ‘men kan mijn heldere gelaatsuitdrukking zien’.",
+      "translation_quote": "men kan het duidelijke gelaat op mijn gezicht zien"
+    },
+    {
+      "location": "html: alinea na de definitie van Charity",
+      "severity": "minor",
+      "source_quote": "Do we have the Love of God dwelling within and flowing out of our lives like a spring of running water?",
+      "suggested_fix": "Vervang ‘Wonen de liefde van God in ons’ door ‘Woont de liefde van God in ons’.",
+      "translation_quote": "Wonen de liefde van God in ons"
+    },
+    {
+      "location": "html: citaat van Jesaja 61:10",
+      "severity": "minor",
+      "source_quote": "I will greatly rejoice in the LORD",
+      "suggested_fix": "Vervang ‘Ik zal zeer verheugen in de HEERE’ door ‘Ik zal mij zeer verheugen in de HEERE’.",
+      "translation_quote": "Ik zal zeer verheugen in de HEERE"
+    },
+    {
+      "location": "html: citaat van Openbaring 21:2-3, slot",
+      "severity": "minor",
+      "source_quote": "and God himself shall be with them, and be their God",
+      "suggested_fix": "Vervang ‘en God Zelf zal bij hen zijn, en hun God’ door ‘en God Zelf zal bij hen zijn en hun God zijn’.",
+      "translation_quote": "en God Zelf zal bij hen zijn, en hun God"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
