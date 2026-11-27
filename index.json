@@ -74853,6 +74853,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/nld/articles/cbbe9a81-d8fd-46c2-bfcd-0d31bdd59fb1.html",
+      "html_sha256": "b3fa4a321a741bc3a3e3bbdb9c55ea3403f4caa47d38e16bb9533d0b22cba0e0",
+      "human_reviewed": false,
+      "id": "cbbe9a81-d8fd-46c2-bfcd-0d31bdd59fb1",
+      "images": [
+        {
+          "alt": "Dirk Willems reikt naar zijn achtervolger, die door het ijs is gezakt",
+          "public_path": "/images/articles/cbbe9a81-d8fd-46c2-bfcd-0d31bdd59fb1-1.jpg"
+        },
+        {
+          "alt": "Dean en Tania Taylor met hun gezin buiten",
+          "public_path": "/images/articles/cbbe9a81-d8fd-46c2-bfcd-0d31bdd59fb1-2.jpg"
+        }
+      ],
+      "issue_id": "14962b7b-2d94-5b43-a4c6-bbb78f074d1a",
+      "language": "nld",
+      "language_tag": "nl",
+      "metadata": "content/nld/articles/cbbe9a81-d8fd-46c2-bfcd-0d31bdd59fb1.json",
+      "metadata_sha256": "e0e3bcf60bb357795fa171447aafef09f65671c400bfbcdd4c8bd8988d498672",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "ccefc5a5c3d79409cc78319f94b5490718d30670",
+      "source_translation_key": "d7c838f916a6e96ad10ca32b39fc67cc6fdb9b820c8957f24542fe4119ff210c",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Gedachten over Het Martelaarsboek",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/nld/articles/cc225bc9-2dda-46f3-a628-13af4fd95e7a.html",
       "html_sha256": "89a757000c7f622c2b1ab92a1ab64bee6574767967b42b613f3a59651d457ec2",
       "human_reviewed": false,

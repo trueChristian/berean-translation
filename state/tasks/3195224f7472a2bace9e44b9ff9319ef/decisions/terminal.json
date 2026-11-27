@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraph beginning “Ik heb me vaak afgevraagd”",
+      "severity": "minor",
+      "source_quote": "“Dirk had died to himself years before”",
+      "suggested_fix": "“Maar Dirk was jaren eerder aan zichzelf gestorven, toen hij zijn leven aan Christus gaf.”",
+      "translation_quote": "“Maar Dirk had jaren eerder zichzelf afgelegd, toen hij zijn leven aan Christus gaf.”"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

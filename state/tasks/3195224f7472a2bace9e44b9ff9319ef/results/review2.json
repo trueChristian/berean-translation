@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "c4da1123-3cf0-41ee-9658-76347164d8bb",
+    "response_id": "chatcmpl-EoeN0nGUNC8bJk1SlC757tQIy4Uzy",
+    "usage": {
+      "completion_tokens": 786,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 666,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4453,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3350,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 5239
+    }
+  },
+  "received_at": "2026-11-27T04:57:20+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, paragraph beginning “Ik heb me vaak afgevraagd”",
+        "severity": "minor",
+        "source_quote": "“Dirk had died to himself years before”",
+        "suggested_fix": "“Maar Dirk was jaren eerder aan zichzelf gestorven, toen hij zijn leven aan Christus gaf.”",
+        "translation_quote": "“Maar Dirk had jaren eerder zichzelf afgelegd, toen hij zijn leven aan Christus gaf.”"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}
