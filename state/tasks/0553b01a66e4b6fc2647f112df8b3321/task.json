@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "c511c0ed2e32439f9211f40a0d0be4db",
   "campaign": "auto-90d860edac750a87a10e3b892874b4ff992e0d960d786ecc6484499ae3e39443",
   "created_at": "2026-11-27T08:15:38+00:00",
   "events": [
@@ -48,67 +47,31 @@
         },
         "total_tokens": 17288
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 59,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 27,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 11172,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 10069,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 11231
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "translation.html, kutipan Yakobus 5:16 di bawah judul “Menangani Dosa”",
-      "severity": "major",
-      "source_quote": "Confess your faults one to another, and pray one for another, that ye may be healed… –James 5:16.",
-      "suggested_fix": "Ganti isi kutipan dengan: <em>Hendaklah kamu saling mengaku kesalahan dan saling mendoakan, supaya kamu disembuhkan… –Yakobus 5:16.</em>",
-      "translation_quote": "Aku tidak tahan lagi, aku harus mengaku dosa-dosaku kepadamu; aku akan menyatakan pelanggaranku terhadap-Mu, maka engkau mengampuni kesalahan orang berdosa –Yakobus 5:16."
-    },
-    {
-      "location": "translation.html, kutipan Kejadian 3:16-19",
-      "severity": "major",
-      "source_quote": "and thy desire shall be to thy husband, and he shall rule over thee",
-      "suggested_fix": "Ganti klausa tersebut dengan “dan hasratmu akan tertuju kepada suamimu, dan ia akan berkuasa atasmu”.",
-      "translation_quote": "dan kepadamu akanlah cenderung nafsu suamimu, tetapi ia akan berkuasa atasmu"
-    },
-    {
-      "location": "translation.html, kutipan Yeremia 20:14-18",
-      "severity": "major",
-      "source_quote": "the cities which the LORD overthrew, and repented not",
-      "suggested_fix": "Ganti dengan “kota-kota yang telah dimusnahkan TUHAN tanpa Ia menyesal”. Ini mempertahankan TUHAN sebagai subjek klausa terakhir, bukan menyiratkan pertobatan kota atau orang.",
-      "translation_quote": "kota-kota yang TUHAN telah musnahkan, dan tidak bertobat"
-    },
-    {
-      "location": "translation.html, kutipan Rut 1:20-21",
-      "severity": "major",
-      "source_quote": "and the Almighty hath afflicted me",
-      "suggested_fix": "Ganti “Yang Mahakuasa telah mencela aku” dengan “Yang Mahakuasa telah menimpakan penderitaan kepadaku”.",
-      "translation_quote": "dan Yang Mahakuasa telah mencela aku"
-    },
-    {
-      "location": "translation.html, kutipan Rut 4:14-16",
-      "severity": "major",
-      "source_quote": "without a kinsman, that his name may be famous in Israel. And he shall be unto thee a restorer of thy life, and a nourisher of thine old age",
-      "suggested_fix": "Ganti bagian terkait dengan “tanpa seorang kerabat, supaya namanya termasyhur di Israel. Ia akan menjadi pemulih hidupmu dan pemelihara pada masa tuamu”.",
-      "translation_quote": "tanpa orang yang berkeluarga, supaya namanya disebut dalam Israel. Dialah penolong hidupmu dan pemelihara hari tua kaubarang"
-    },
-    {
-      "location": "translation.html, paragraf kedua di bawah “Jangan Membandingkan”",
-      "severity": "major",
-      "source_quote": "does not mean that you aren’t a Christian or that God is done with you",
-      "suggested_fix": "Ganti “atau bahwa Allah telah berhenti mengasihi Anda” dengan “atau bahwa Allah tidak lagi berkarya dalam hidup Anda”.",
-      "translation_quote": "bukan berarti Anda bukan seorang Kristen atau bahwa Allah telah berhenti mengasihi Anda"
-    },
-    {
-      "location": "translation.html, paragraf yang diawali “Saya tidak berpikir kita sepenuhnya tahu”",
-      "severity": "minor",
-      "source_quote": "there were no physical diseases or maladies",
-      "suggested_fix": "Ganti “penyakit fisik atau kelaziman” dengan “penyakit fisik atau gangguan kesehatan”.",
-      "translation_quote": "tidak ada penyakit fisik atau kelaziman"
-    },
-    {
-      "location": "translation.html, paragraf tentang susunan genetik",
-      "severity": "minor",
-      "source_quote": "we tend towards being moody instead of being naturally upbeat",
-      "suggested_fix": "Ganti “kita cenderung moody daripada ceria secara alami” dengan “suasana hati kita cenderung mudah berubah, alih-alih ceria secara alami”.",
-      "translation_quote": "kita cenderung moody daripada ceria secara alami"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-11-27T14:56:01+00:00",
   "id": "0553b01a66e4b6fc2647f112df8b3321",
   "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
   "language": "ind",
@@ -197,7 +160,7 @@
     }
   },
   "protected": false,
-  "quality_score": 83,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6.1-sol",
@@ -216,7 +179,7 @@
     "total_reserved_usd": 0.795268,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "5dadc96220966a62c190dc496511f1659046db2b2d97b2ce157a164fa768d4e2",
   "translation_model_actual": "gpt-6.1-sol"
