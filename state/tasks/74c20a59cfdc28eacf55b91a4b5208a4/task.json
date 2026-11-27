@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "ec9a1af481474eff914e4f928c935086",
   "campaign": "auto-a1efe396cb1d1c4cb3c2ae595a62012e7cfc1fd3d08a734c64183b2ab1612cc3",
   "created_at": "2026-11-26T14:24:45+00:00",
   "events": [
@@ -48,18 +47,31 @@
         },
         "total_tokens": 8785
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 72,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 40,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6003,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 6000,
+          "cached_tokens": 0
+        },
+        "total_tokens": 6075
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "translation.html, avsnittet om trafikkork",
-      "severity": "major",
-      "source_quote": "stop-and-go traffic for a mile or more",
-      "suggested_fix": "Erstatt «køkjøring i en mil eller mer» med «køkjøring over en strekning på omtrent 1,6 kilometer eller mer».",
-      "translation_quote": "køkjøring i en mil eller mer"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-11-27T08:44:53+00:00",
   "id": "74c20a59cfdc28eacf55b91a4b5208a4",
   "issue_id": "1933c1f0-be1f-561a-b470-79a5ced64c04",
   "language": "nob",
@@ -148,7 +160,7 @@
     }
   },
   "protected": false,
-  "quality_score": 94,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6.1-sol",
@@ -167,7 +179,7 @@
     "total_reserved_usd": 0.729172,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "638ffc8e59099baf2aea4d3ff147935b68127324804d36e99f77026b29a9def3",
   "translation_model_actual": "gpt-6.1-sol"
