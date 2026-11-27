@@ -5,11 +5,117 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "647efc940410459f9dfb62711bd08701",
   "campaign": "auto-acf77281d16ca9e9e18ebc15098387a30c0331f551d1fcf9df9323c85a4276a1",
   "created_at": "2026-11-26T23:51:08+00:00",
-  "events": [],
-  "findings": [],
+  "events": [
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1774,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 123,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5050,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 3947,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 6824
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "html, paragraph 2",
+      "severity": "major",
+      "source_quote": "getting each quarterly issue out in a more timely manner",
+      "suggested_fix": "החליפו את „באופן תזונתי יותר” ב„במועד המתוכנן”.",
+      "translation_quote": "להוציא כל גיליון רבעוני באופן תזונתי יותר"
+    },
+    {
+      "location": "html, paragraph 5, Moses",
+      "severity": "major",
+      "source_quote": "He was uprooted from his comfortable lifestyle in Egypt",
+      "suggested_fix": "החליפו את „הוא נורש מאורח חייו הנוח במצרים” ב„הוא נעקר מאורח חייו הנוח במצרים”.",
+      "translation_quote": "הוא נורש מאורח חייו הנוח במצרים"
+    },
+    {
+      "location": "html, paragraph 5, Jonah",
+      "severity": "major",
+      "source_quote": "we glean glimpses of “The God Who Will Not Let Go”",
+      "suggested_fix": "החליפו את „אנו פוספים הצצות על” ב„אנו זוכים להצצות אל”.",
+      "translation_quote": "אנו פוספים הצצות על \"האל שלא יעזוב\""
+    },
+    {
+      "location": "html, paragraph 5, God's care",
+      "severity": "major",
+      "source_quote": "the instant that we take a wrong turn or a misstep",
+      "suggested_fix": "החליפו את „ברגע שאנו פונים לאמצעי או טועים” ב„ברגע שאנו פונים לכיוון שגוי או עושים צעד מוטעה”.",
+      "translation_quote": "ברגע שאנו פונים לאמצעי או טועים"
+    },
+    {
+      "location": "html, paragraph 5, description of the female author",
+      "severity": "major",
+      "source_quote": "a middle-aged, spiritually-mature sister",
+      "suggested_fix": "החליפו את „אחות בשלה וברוחניות בשלות” ב„אחות בגיל העמידה, בעלת בגרות רוחנית”.",
+      "translation_quote": "אחות בשלה וברוחניות בשלות"
+    },
+    {
+      "location": "html, paragraph 9, John 18:36 quotation",
+      "severity": "major",
+      "source_quote": "My kingdom is not of this world: if my kingdom were of this world, then would my servants fight … but now is my kingdom not from hence",
+      "suggested_fix": "בתוך תגית em הקיימת החליפו את הציטוט ב„ממלכתי אינה מן העולם הזה; אילו הייתה ממלכתי מן העולם הזה, משרתיי היו נלחמים ... אך ממלכתי אינה מכאן. (יוחנן 18:36)”.",
+      "translation_quote": "ממלכתי אינה מן העולם הזה; אל היו ממלכתי היתה מן העולם הזה היו עבי מי - אבל כעת לא מן פה ממלכתי. (יוחנן 18:36)"
+    },
+    {
+      "location": "html, paragraph 12, 1 Timothy 2:1-2 quotation",
+      "severity": "major",
+      "source_quote": "For kings, and for all that are in authority; that we may lead a quiet and peaceable life in all godliness and honesty",
+      "suggested_fix": "החליפו את הקטע „בעד מלכים ובעלי כל סגל השלטון; למען ננהג לחיים שקטים ומכובדים בכל יראת אלוהים ובישר” ב„בעד מלכים וכל בעלי הסמכות, כדי שנוכל לחיות חיים שקטים ושלווים בכל יראת אלוהים ויושר”. השאירו את ההפניה הקיימת.",
+      "translation_quote": "בעד מלכים ובעלי כל סגל השלטון; למען ננהג לחיים שקטים ומכובדים בכל יראת אלוהים ובישר"
+    },
+    {
+      "location": "html, paragraph 12, private prayer",
+      "severity": "major",
+      "source_quote": "prayer that is produced in the privacy of his or her closet",
+      "suggested_fix": "החליפו את „שנעשה בפרטיות המקלחת שלו או שלה” ב„הנישאת בפרטיות בחדרם של המאמין או המאמינה”. המקור מתייחס למקום התבודדות לתפילה, לא למקלחת.",
+      "translation_quote": "התפילה שנעשה בפרטיות המקלחת שלו או שלה"
+    },
+    {
+      "location": "html, paragraph 12, Matthew 17:20 quotation",
+      "severity": "major",
+      "source_quote": "If ye have faith as a grain of mustard seed, ye shall say unto this mountain, Remove hence to yonder place; and it shall remove; and nothing shall be impossible unto you",
+      "suggested_fix": "בתוך תגית em הקיימת החליפו את הציטוט ב„וישוע אמר להם ... אכן אני אומר לכם: אם תהיה לכם אמונה כגרגר חרדל, תאמרו להר הזה: עבור מכאן לשם, והוא יעבור; ושום דבר לא יהיה בלתי אפשרי עבורכם. (מתי 17:20)”.",
+      "translation_quote": "וישוע אמר להם ... באמן אני אמר לכם: אם יהיה לכם אמונה כמין-חרדל תאמרו להר הזה הזה היזר אל המקום ההוא והוא יזוז; ואף כלום לא יהיה בלתי אפשרי לכם. (מתי 17:20)"
+    },
+    {
+      "location": "html, paragraph 12, James 5:16 quotation",
+      "severity": "major",
+      "source_quote": "The effectual fervent prayer of a righteous man availeth much",
+      "suggested_fix": "בתוך תגית em הקיימת החליפו את הציטוט ב„...תפילתו הנמרצת והיעילה של צדיק פועלת רבות. (יעקב 5:16)”.",
+      "translation_quote": "תפלתו המחוללת והחריפה של צדיק מורגשת הרבה. (יעקב 5:16)"
+    },
+    {
+      "location": "html, paragraph 9, 2 Corinthians 6:17 quotation",
+      "severity": "minor",
+      "source_quote": "come out from among them, and be ye separate",
+      "suggested_fix": "החליפו את „יצאו מקרבם” ב„צאו מקרבם” כדי לשמר את צורת הציווי.",
+      "translation_quote": "יצאו מקרבם והיו נפרדים"
+    },
+    {
+      "location": "html, paragraph 9, Hebrews 11:13-16 quotation",
+      "severity": "minor",
+      "source_quote": "strangers and pilgrims on the earth",
+      "suggested_fix": "החליפו את „גרים ותושבים תועים על פני האדמה” ב„זרים ועוברי אורח על פני הארץ”, ללא המשמעות הנוספת של תעייה.",
+      "translation_quote": "גרים ותושבים תועים על פני האדמה"
+    }
+  ],
   "id": "0b709914958eddc2ea531bba557f2fad",
   "issue_id": "377baa09-4d0f-5fa0-a5b2-d1e98807db01",
   "language": "heb",
@@ -98,11 +204,13 @@
     }
   },
   "protected": false,
+  "quality_score": 65,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/c16edd05d12043a927f45367071112d6f71c0042bc3d1b02d0bfb5b8d330f1e2.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "review1",
     "max_candidate_bytes": 120000,
@@ -115,7 +223,7 @@
     "total_reserved_usd": 0.718917,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 0,
   "translation_key": "d0410b3ae98c7c6c4b8643e82b8513a58f4f423e430db25e79b18dc18a3fab41",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

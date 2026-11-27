@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-27T09:00:04+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"html, paragraph 2\",\n      \"severity\": \"major\",\n      \"source_quote\": \"getting each quarterly issue out in a more timely manner\",\n      \"suggested_fix\": \"החליפו את „באופן תזונתי יותר” ב„במועד המתוכנן”.\",\n      \"translation_quote\": \"להוציא כל גיליון רבעוני באופן תזונתי יותר\"\n    },\n    {\n      \"location\": \"html, paragraph 5, Moses\",\n      \"severity\": \"major\",\n      \"source_quote\": \"He was uprooted from his comfortable lifestyle in Egypt\",\n      \"suggested_fix\": \"החליפו את „הוא נורש מאורח חייו הנוח במצרים” ב„הוא נעקר מאורח חייו הנוח במצרים”.\",\n      \"translation_quote\": \"הוא נורש מאורח חייו הנוח במצרים\"\n    },\n    {\n      \"location\": \"html, paragraph 5, Jonah\",\n      \"severity\": \"major\",\n      \"source_quote\": \"we glean glimpses of “The God Who Will Not Let Go”\",\n      \"suggested_fix\": \"החליפו את „אנו פוספים הצצות על” ב„אנו זוכים להצצות אל”.\",\n      \"translation_quote\": \"אנו פוספים הצצות על \\\"האל שלא יעזוב\\\"\"\n    },\n    {\n      \"location\": \"html, paragraph 5, God's care\",\n      \"severity\": \"major\",\n      \"source_quote\": \"the instant that we take a wrong turn or a misstep\",\n      \"suggested_fix\": \"החליפו את „ברגע שאנו פונים לאמצעי או טועים” ב„ברגע שאנו פונים לכיוון שגוי או עושים צעד מוטעה”.\",\n      \"translation_quote\": \"ברגע שאנו פונים לאמצעי או טועים\"\n    },\n    {\n      \"location\": \"html, paragraph 5, description of the female author\",\n      \"severity\": \"major\",\n      \"source_quote\": \"a middle-aged, spiritually-mature sister\",\n      \"suggested_fix\": \"החליפו את „אחות בשלה וברוחניות בשלות” ב„אחות בגיל העמידה, בעלת בגרות רוחנית”.\",\n      \"translation_quote\": \"אחות בשלה וברוחניות בשלות\"\n    },\n    {\n      \"location\": \"html, paragraph 9, John 18:36 quotation\",\n      \"severity\": \"major\",\n      \"source_quote\": \"My kingdom is not of this world: if my kingdom were of this world, then would my servants fight … but now is my kingdom not from hence\",\n      \"suggested_fix\": \"בתוך תגית em הקיימת החליפו את הציטוט ב„ממלכתי אינה מן העולם הזה; אילו הייתה ממלכתי מן העולם הזה, משרתיי היו נלחמים ... אך ממלכתי אינה מכאן. (יוחנן 18:36)”.\",\n      \"translation_quote\": \"ממלכתי אינה מן העולם הזה; אל היו ממלכתי היתה מן העולם הזה היו עבי מי - אבל כעת לא מן פה ממלכתי. (יוחנן 18:36)\"\n    },\n    {\n      \"location\": \"html, paragraph 12, 1 Timothy 2:1-2 quotation\",\n      \"severity\": \"major\",\n      \"source_quote\": \"For kings, and for all that are in authority; that we may lead a quiet and peaceable life in all godliness and honesty\",\n      \"suggested_fix\": \"החליפו את הקטע „בעד מלכים ובעלי כל סגל השלטון; למען ננהג לחיים שקטים ומכובדים בכל יראת אלוהים ובישר” ב„בעד מלכים וכל בעלי הסמכות, כדי שנוכל לחיות חיים שקטים ושלווים בכל יראת אלוהים ויושר”. השאירו את ההפניה הקיימת.\",\n      \"translation_quote\": \"בעד מלכים ובעלי כל סגל השלטון; למען ננהג לחיים שקטים ומכובדים בכל יראת אלוהים ובישר\"\n    },\n    {\n      \"location\": \"html, paragraph 12, private prayer\",\n      \"severity\": \"major\",\n      \"source_quote\": \"prayer that is produced in the privacy of his or her closet\",\n      \"suggested_fix\": \"החליפו את „שנעשה בפרטיות המקלחת שלו או שלה” ב„הנישאת בפרטיות בחדרם של המאמין או המאמינה”. המקור מתייחס למקום התבודדות לתפילה, לא למקלחת.\",\n      \"translation_quote\": \"התפילה שנעשה בפרטיות המקלחת שלו או שלה\"\n    },\n    {\n      \"location\": \"html, paragraph 12, Matthew 17:20 quotation\",\n      \"severity\": \"major\",\n      \"source_quote\": \"If ye have faith as a grain of mustard seed, ye shall say unto this mountain, Remove hence to yonder place; and it shall remove; and nothing shall be impossible unto you\",\n      \"suggested_fix\": \"בתוך תגית em הקיימת החליפו את הציטוט ב„וישוע אמר להם ... אכן אני אומר לכם: אם תהיה לכם אמונה כגרגר חרדל, תאמרו להר הזה: עבור מכאן לשם, והוא יעבור; ושום דבר לא יהיה בלתי אפשרי עבורכם. (מתי 17:20)”.\",\n      \"translation_quote\": \"וישוע אמר להם ... באמן אני אמר לכם: אם יהיה לכם אמונה כמין-חרדל תאמרו להר הזה הזה היזר אל המקום ההוא והוא יזוז; ואף כלום לא יהיה בלתי אפשרי לכם. (מתי 17:20)\"\n    },\n    {\n      \"location\": \"html, paragraph 12, James 5:16 quotation\",\n      \"severity\": \"major\",\n      \"source_quote\": \"The effectual fervent prayer of a righteous man availeth much\",\n      \"suggested_fix\": \"בתוך תגית em הקיימת החליפו את הציטוט ב„...תפילתו הנמרצת והיעילה של צדיק פועלת רבות. (יעקב 5:16)”.\",\n      \"translation_quote\": \"תפלתו המחוללת והחריפה של צדיק מורגשת הרבה. (יעקב 5:16)\"\n    },\n    {\n      \"location\": \"html, paragraph 9, 2 Corinthians 6:17 quotation\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"come out from among them, and be ye separate\",\n      \"suggested_fix\": \"החליפו את „יצאו מקרבם” ב„צאו מקרבם” כדי לשמר את צורת הציווי.\",\n      \"translation_quote\": \"יצאו מקרבם והיו נפרדים\"\n    },\n    {\n      \"location\": \"html, paragraph 9, Hebrews 11:13-16 quotation\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"strangers and pilgrims on the earth\",\n      \"suggested_fix\": \"החליפו את „גרים ותושבים תועים על פני האדמה” ב„זרים ועוברי אורח על פני הארץ”, ללא המשמעות הנוספת של תעייה.\",\n      \"translation_quote\": \"גרים ותושבים תועים על פני האדמה\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": false,\n  \"score\": 65\n}",
+    "content_bytes": 6692,
+    "content_evidence_truncated": false,
+    "content_sha256": "f952e188d7e6c70e122991b19f9fb3ed3bd417ed16bf13f45739c43e7cd13bfe",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1774,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 123,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5050,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3947,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 6824
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}
