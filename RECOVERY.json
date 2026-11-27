@@ -3,11 +3,11 @@
   "automatic_enabled": true,
   "automatic_policy_version": 3,
   "budget_enforcement": "none",
-  "committed_usd": 83.050517,
+  "committed_usd": 83.744413,
   "counts": {
     "active": 50,
     "already_translated": 106,
-    "automatic_capacity_wait": 245,
+    "automatic_capacity_wait": 244,
     "continuation_progress_uncertain_requires_attention": 5,
     "continuation_repeated_findings_requires_attention": 1,
     "eligible_automatic": 553,
@@ -23,7 +23,7 @@
   },
   "derived": true,
   "format_version": "2",
-  "gross_allocated_usd": 838.915789,
+  "gross_allocated_usd": 839.696266,
   "historical_approved_total_usd": 30.0,
   "items": [
     {
@@ -2910,14 +2910,6 @@
       "latest_task": "b43e6e3e126daafdf45133f64048b4b9",
       "processing_status": "not_ready",
       "reason": "eligible_automatic"
-    },
-    {
-      "accepted_cycles": 0,
-      "article_id": "cbbe9a81-d8fd-46c2-bfcd-0d31bdd59fb1",
-      "language": "deu",
-      "latest_task": "31e3b897ba3171831867dd0abc11ed6c",
-      "processing_status": "in_batch",
-      "reason": "active"
     },
     {
       "accepted_cycles": 0,
@@ -7514,7 +7506,7 @@
       "article_id": "3feab4dd-c830-4ead-ad57-24d853847088",
       "language": "nob",
       "latest_task": "c0a41142e334429b7a8d33433cee2edf",
-      "processing_status": "in_batch",
+      "processing_status": "queued",
       "reason": "active"
     },
     {
@@ -10055,14 +10047,12 @@
       "reason": "eligible_source_refresh"
     },
     {
-      "accepted_cycles": 0,
-      "admission_status": "attention",
+      "accepted_cycles": 1,
       "article_id": "1c698fb4-f4e6-419b-bdcc-1b25cbe2b035",
       "language": "swe",
-      "latest_task": "2b29c9bca2601c3d50bda7b6914949d4",
-      "processing_status": "held_without_publication",
-      "reason": "automatic_capacity_wait",
-      "request_id": "auto-4242c1c58d1fd8f64381917e42e00e8d1d02a081b2abafaa452a462eb6b29fd4"
+      "latest_task": "be734c84d7d40befa5c2fcb6d4e1a155",
+      "processing_status": "queued",
+      "reason": "active"
     },
     {
       "accepted_cycles": 0,
@@ -11161,7 +11151,7 @@
       "reason": "eligible_automatic"
     }
   ],
-  "settled_unused_usd": 755.865272,
+  "settled_unused_usd": 755.951853,
   "source_revision": "ccefc5a5c3d79409cc78319f94b5490718d30670",
   "spending_policy": "owner-2026-10-29-provider-managed-spending",
   "usage_description": "Provider-reported usage priced at frozen rates; not invoice reconciliation"
