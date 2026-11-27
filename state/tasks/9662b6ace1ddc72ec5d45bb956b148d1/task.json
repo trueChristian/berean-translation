@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "d206011eb4ee45839e159006a675569d",
   "campaign": "auto-185b5839d538856ad7260ca06479150606b2e906d2af8b4a8cd959e05d70c752",
   "created_at": "2026-11-26T05:35:28+00:00",
   "events": [
@@ -68,25 +67,46 @@
         },
         "total_tokens": 7142
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 770,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 512,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4881,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 4878,
+          "cached_tokens": 0
+        },
+        "total_tokens": 5651
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "پاراگراف 4",
-      "severity": "major",
-      "source_quote": "“Anabaptists and other radical Christian nonconformists”",
-      "suggested_fix": "“انابپٹسٹوں اور دیگر بنیاد پرست غیر روایتی مسیحیوں”",
-      "translation_quote": "“انابپٹسٹوں اور دیگر بنیاد پرست مسیحی مخالفین”"
+      "location": "Paragraph 5",
+      "severity": "minor",
+      "source_quote": "But Dirk had died to himself years before when he gave his life to Christ.",
+      "suggested_fix": "لیکن ڈِرک برسوں پہلے ہی مسیح کے سپرد ہو کر اپنے نفس کے لیے مر چکا تھا۔",
+      "translation_quote": "لیکن ڈِرک نے برسوں پہلے، جب اس نے اپنی زندگی مسیح کے سپرد کی، اپنے نفس کے لیے مرنا سیکھ لیا تھا۔"
     },
     {
-      "location": "پاراگراف 7",
-      "severity": "major",
-      "source_quote": "“taken to the city square to be burned at the stake”؛ “If burning at the stake”",
-      "suggested_fix": "ان دونوں مقامات پر “سولی پر جلایا گیا/سولی پر جلانے” کو “کھمبے سے باندھ کر جلایا گیا/کھمبے سے باندھ کر جلانے” سے بدلیں۔",
-      "translation_quote": "“شہر کے چوک میں لے جا کر سولی پر جلا دیا گیا”؛ “سولی پر جلانے کو”"
+      "location": "Final paragraph",
+      "severity": "minor",
+      "source_quote": "So that when all is said and done we, too, might run confidently into the welcoming arms of our blessed Savior",
+      "suggested_fix": "تاکہ جب سب کچھ کہا اور کیا جا چکے، تو ہم بھی پورے اعتماد کے ساتھ اپنے مبارک نجات دہندہ کے استقبال کرنے والے بازوؤں میں دوڑ کر جائیں",
+      "translation_quote": "تاکہ جب سب کچھ کہا اور کیا جا چکے، تو ہم بھی پورے اعتماد کے ساتھ اپنے مبارک نجات دہندہ کے استقبال کرنے والے بازوؤں میں دوڑ کر جائیں"
     }
   ],
+  "finished_at": "2026-11-27T14:55:41+00:00",
   "id": "9662b6ace1ddc72ec5d45bb956b148d1",
   "issue_id": "14962b7b-2d94-5b43-a4c6-bbb78f074d1a",
   "language": "urd",
@@ -175,7 +195,7 @@
     }
   },
   "protected": false,
-  "quality_score": 91,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6-luna",
@@ -195,7 +215,7 @@
     "total_reserved_usd": 0.087625,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 2,
   "translation_key": "d7c838f916a6e96ad10ca32b39fc67cc6fdb9b820c8957f24542fe4119ff210c",
   "translation_model_actual": "gpt-6-luna"

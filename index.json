@@ -116436,6 +116436,38 @@
     {
       "ai_notice_required": true,
       "direction": "rtl",
+      "html": "content/urd/articles/cbbe9a81-d8fd-46c2-bfcd-0d31bdd59fb1.html",
+      "html_sha256": "6e7c2749daf6423af3869cc11318bddfd261ad0b26cad5992db6aea4f3342ed8",
+      "human_reviewed": false,
+      "id": "cbbe9a81-d8fd-46c2-bfcd-0d31bdd59fb1",
+      "images": [
+        {
+          "alt": "ڈِرک ولیمز اپنے تعاقب کرنے والے کی طرف ہاتھ بڑھا رہا ہے، جو برف میں گر گیا ہے",
+          "public_path": "/images/articles/cbbe9a81-d8fd-46c2-bfcd-0d31bdd59fb1-1.jpg"
+        },
+        {
+          "alt": "ڈین اور تانیا ٹیلر اپنے خاندان کے ساتھ کھلی فضا میں",
+          "public_path": "/images/articles/cbbe9a81-d8fd-46c2-bfcd-0d31bdd59fb1-2.jpg"
+        }
+      ],
+      "issue_id": "14962b7b-2d94-5b43-a4c6-bbb78f074d1a",
+      "language": "urd",
+      "language_tag": "ur",
+      "metadata": "content/urd/articles/cbbe9a81-d8fd-46c2-bfcd-0d31bdd59fb1.json",
+      "metadata_sha256": "61d1a617c7f597fa5dba824f09a2ea5c012a06baa12d37ce99872fc249d598a1",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "ccefc5a5c3d79409cc78319f94b5490718d30670",
+      "source_translation_key": "d7c838f916a6e96ad10ca32b39fc67cc6fdb9b820c8957f24542fe4119ff210c",
+      "status": "ready",
+      "subtitle": null,
+      "title": "شہداء کے آئینے پر خیالات",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "rtl",
       "html": "content/urd/articles/cee69319-ee10-424f-bdb3-b1fed948eee6.html",
       "html_sha256": "9483e1ea58c6cf0f25dcca9bb409caca8817cf0a25532a566827e5bc12e92468",
       "human_reviewed": false,

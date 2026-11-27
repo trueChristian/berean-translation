@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "11b606bc-a2a1-489e-bcd5-94939dde5e8f",
+    "response_id": "chatcmpl-Eom5byalSRfKWi0xi86oG0uz7gluV",
+    "usage": {
+      "completion_tokens": 770,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4881,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4878,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5651
+    }
+  },
+  "received_at": "2026-11-27T14:55:41+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "Paragraph 5",
+        "severity": "minor",
+        "source_quote": "But Dirk had died to himself years before when he gave his life to Christ.",
+        "suggested_fix": "لیکن ڈِرک برسوں پہلے ہی مسیح کے سپرد ہو کر اپنے نفس کے لیے مر چکا تھا۔",
+        "translation_quote": "لیکن ڈِرک نے برسوں پہلے، جب اس نے اپنی زندگی مسیح کے سپرد کی، اپنے نفس کے لیے مرنا سیکھ لیا تھا۔"
+      },
+      {
+        "location": "Final paragraph",
+        "severity": "minor",
+        "source_quote": "So that when all is said and done we, too, might run confidently into the welcoming arms of our blessed Savior",
+        "suggested_fix": "تاکہ جب سب کچھ کہا اور کیا جا چکے، تو ہم بھی پورے اعتماد کے ساتھ اپنے مبارک نجات دہندہ کے استقبال کرنے والے بازوؤں میں دوڑ کر جائیں",
+        "translation_quote": "تاکہ جب سب کچھ کہا اور کیا جا چکے، تو ہم بھی پورے اعتماد کے ساتھ اپنے مبارک نجات دہندہ کے استقبال کرنے والے بازوؤں میں دوڑ کر جائیں"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}
