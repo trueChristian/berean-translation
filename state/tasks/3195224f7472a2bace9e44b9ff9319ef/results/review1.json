@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "319106bd-07ac-4f6d-9be8-e5e23cd7542f",
+    "response_id": "chatcmpl-EodsXvcbtOxO5k7qyrw0Z2wyqeuoJ",
+    "usage": {
+      "completion_tokens": 797,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 685,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 4459,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3356,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 5256
+    }
+  },
+  "received_at": "2026-11-27T00:20:04+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "HTML, paragraph beginning “Once back into captivity”",
+        "severity": "major",
+        "source_quote": "“he was then placed in severe imprisonment”",
+        "suggested_fix": "Vervang “onder zware bewaking opgesloten” door “in strenge gevangenschap gehouden”.",
+        "translation_quote": "“werd hij daarna onder zware bewaking opgesloten”"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 93
+  }
+}

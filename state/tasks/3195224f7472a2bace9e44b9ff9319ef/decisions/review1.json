@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "HTML, paragraph beginning “Once back into captivity”",
+      "severity": "major",
+      "source_quote": "“he was then placed in severe imprisonment”",
+      "suggested_fix": "Vervang “onder zware bewaking opgesloten” door “in strenge gevangenschap gehouden”.",
+      "translation_quote": "“werd hij daarna onder zware bewaking opgesloten”"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}
