@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6-luna",
+    "request_id": "e7465020-8740-4290-99cb-91bc0556f399",
+    "response_id": "chatcmpl-EpABwadeNTdSDeA1uXRqKPd9HGU7k",
+    "usage": {
+      "completion_tokens": 665,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 10139,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 10136,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10804
+    }
+  },
+  "received_at": "2026-11-28T10:49:35+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "“使人成圣的真理……”段落，罗马书10:17引文",
+        "severity": "major",
+        "source_quote": "“So then faith cometh by hearing, and hearing by the word of God”",
+        "suggested_fix": "将“听道是从基督的话来的”改为“听道是从上帝的话来的”，以忠实传达原文所印的引文。",
+        "translation_quote": "“可见信道是从听道来的，听道是从基督的话来的。”（罗马书10:17）"
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 93
+  }
+}

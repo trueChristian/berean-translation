@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "2297f488317c49898b8b8642f56f104b",
   "campaign": "auto-202a6f0c997484073d9c32f5234a397c2a432bbcfa6c4d98235ae9e71ad5e4cf",
   "created_at": "2026-11-28T04:50:12+00:00",
   "events": [
@@ -28,10 +27,38 @@
         },
         "total_tokens": 9786
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 665,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 512,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 10139,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 10136,
+          "cached_tokens": 0
+        },
+        "total_tokens": 10804
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "“使人成圣的真理……”段落，罗马书10:17引文",
+      "severity": "major",
+      "source_quote": "“So then faith cometh by hearing, and hearing by the word of God”",
+      "suggested_fix": "将“听道是从基督的话来的”改为“听道是从上帝的话来的”，以忠实传达原文所印的引文。",
+      "translation_quote": "“可见信道是从听道来的，听道是从基督的话来的。”（罗马书10:17）"
+    }
+  ],
   "id": "3f04ec065c48ee79d51485e8a3c86011",
   "issue_id": "14962b7b-2d94-5b43-a4c6-bbb78f074d1a",
   "language": "cmn",
@@ -120,11 +147,13 @@
     }
   },
   "protected": false,
+  "quality_score": 93,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/9f48bb8a39d5f8de8d1814e6969bc693ec5434d0f0dda1d3bc418bd049e989dc.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "translate",
     "max_candidate_bytes": 120000,
@@ -138,7 +167,7 @@
     "total_reserved_usd": 0.091019,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 1,
   "translation_key": "ea51f31c39d67550bc13bf21da23d563f3907e21a14007ac0d7515daa6bf7299",
   "translation_model_actual": "gpt-6-luna"
