@@ -111018,6 +111018,38 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/swe/articles/cbbe9a81-d8fd-46c2-bfcd-0d31bdd59fb1.html",
+      "html_sha256": "d780d73c663ae3e18bd42695c48dc454f60ab3df4c987cf3096996ad660c0336",
+      "human_reviewed": false,
+      "id": "cbbe9a81-d8fd-46c2-bfcd-0d31bdd59fb1",
+      "images": [
+        {
+          "alt": "Dirk Willems sträcker sig mot sin förföljare, som har fallit genom isen",
+          "public_path": "/images/articles/cbbe9a81-d8fd-46c2-bfcd-0d31bdd59fb1-1.jpg"
+        },
+        {
+          "alt": "Dean och Tania Taylor med sin familj utomhus",
+          "public_path": "/images/articles/cbbe9a81-d8fd-46c2-bfcd-0d31bdd59fb1-2.jpg"
+        }
+      ],
+      "issue_id": "14962b7b-2d94-5b43-a4c6-bbb78f074d1a",
+      "language": "swe",
+      "language_tag": "sv",
+      "metadata": "content/swe/articles/cbbe9a81-d8fd-46c2-bfcd-0d31bdd59fb1.json",
+      "metadata_sha256": "bc1f5b58bd497e366421d41453b6cf2d53bbca1416492605f2def8684d8b6690",
+      "provider": "OpenAI",
+      "review_model": "gpt-6-luna",
+      "section": null,
+      "source_revision": "ccefc5a5c3d79409cc78319f94b5490718d30670",
+      "source_translation_key": "d7c838f916a6e96ad10ca32b39fc67cc6fdb9b820c8957f24542fe4119ff210c",
+      "status": "ready",
+      "subtitle": null,
+      "title": "Tankar om Martyrernas spegel",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/swe/articles/cc225bc9-2dda-46f3-a628-13af4fd95e7a.html",
       "html_sha256": "2480cbcf9dd5b47300eca30828488ac7ba3e7a9d9170c43c05e78a8a78c26aed",
       "human_reviewed": false,

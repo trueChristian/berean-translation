@@ -5,7 +5,6 @@
   "autonomous_recovery": false,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "cc251edf820c4bdb99f18137a852e058",
   "campaign": "auto-6ce10fae13fb42b09103877ec8165765fe22568be7d35a95ec3cf518cf83a92d",
   "created_at": "2026-11-28T02:16:43+00:00",
   "events": [
@@ -28,10 +27,39 @@
         },
         "total_tokens": 4253
       }
+    },
+    {
+      "model": "gpt-6-luna",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 857,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 749,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 4607,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 4604,
+          "cached_tokens": 0
+        },
+        "total_tokens": 5464
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [],
+  "findings": [
+    {
+      "location": "Paragraph beginning “När Dirk åter var i fångenskap”",
+      "severity": "minor",
+      "source_quote": "“placed in severe imprisonment”",
+      "suggested_fix": "“sattes därefter i strängt fängelse”",
+      "translation_quote": "“sattes han därefter i strängt fängsligt förvar”"
+    }
+  ],
+  "finished_at": "2026-11-28T10:18:15+00:00",
   "id": "f405f47e9870669e88136429c439be96",
   "issue_id": "14962b7b-2d94-5b43-a4c6-bbb78f074d1a",
   "language": "swe",
@@ -120,9 +148,11 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6-luna",
+  "review_model_actual": "gpt-6-luna",
   "source_snapshot": "state/sources/fbd11b6d945c01ab5ff62531019df8e2e0a8fcde3ec950ea4724e6622f5ced62.json",
   "stage": "review1",
   "stage_budget": {
@@ -138,7 +168,7 @@
     "total_reserved_usd": 0.08762,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "d7c838f916a6e96ad10ca32b39fc67cc6fdb9b820c8957f24542fe4119ff210c",
   "translation_model_actual": "gpt-6-luna"
