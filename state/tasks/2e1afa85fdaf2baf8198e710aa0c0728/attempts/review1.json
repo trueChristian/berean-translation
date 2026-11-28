@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-28T10:33:55+00:00",
+  "response": {
+    "content": "{\"findings\":[{\"location\":\"translation.html, eerste alinea onder ‘Voortdurende steun nodig’\",\"severity\":\"minor\",\"source_quote\":\"emails and phone calls of encouragement and suggestions\",\"suggested_fix\":\"Vervang ‘bemoedigende en suggestieve e-mails en telefoontjes’ door ‘e-mails en telefoontjes met bemoedigingen en suggesties’.\",\"translation_quote\":\"bemoedigende en suggestieve e-mails en telefoontjes\"}],\"findings_complete\":true,\"passed\":true,\"score\":97}",
+    "content_bytes": 466,
+    "content_evidence_truncated": false,
+    "content_sha256": "0c7e95c0141feb70512587ddbad2b7cbf36155da8a13d633e790cfe3732f3f5e",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 178,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 54,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5373,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5370,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5551
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}

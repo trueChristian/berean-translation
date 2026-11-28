@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "translation.html, eerste alinea onder ‘Voortdurende steun nodig’",
+      "severity": "minor",
+      "source_quote": "emails and phone calls of encouragement and suggestions",
+      "suggested_fix": "Vervang ‘bemoedigende en suggestieve e-mails en telefoontjes’ door ‘e-mails en telefoontjes met bemoedigingen en suggesties’.",
+      "translation_quote": "bemoedigende en suggestieve e-mails en telefoontjes"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review1"
+}
