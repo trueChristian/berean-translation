@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "988559b3a5d1412cadbac4d7fa788082",
   "campaign": "auto-3f2f26cb9ede88d75fbaf9f5c21c832f335c36c7d873528c2bcf40960701e144",
   "created_at": "2026-11-27T23:24:29+00:00",
   "events": [
@@ -48,123 +47,31 @@
         },
         "total_tokens": 12786
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 72,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 40,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 7776,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 6673,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 7848
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "html: فقرة متى 14:25-27",
-      "severity": "major",
-      "source_quote": "And in the fourth watch of the night",
-      "suggested_fix": "استبدل «وفي الساعة الرابعة من الليل» بـ«وفي الهزيع الرابع من الليل».",
-      "translation_quote": "وفي الساعة الرابعة من الليل"
-    },
-    {
-      "location": "html: فقرة «إذا أردت أن تكون رجل إيمان»",
-      "severity": "major",
-      "source_quote": "Take God at His Word.",
-      "suggested_fix": "استبدل «اصْدُقْ الله في كلمته» بـ«ثق بالله وصدّق كلمته».",
-      "translation_quote": "اصْدُقْ الله في كلمته."
-    },
-    {
-      "location": "html: فقرة الهزيمة الأخلاقية",
-      "severity": "major",
-      "source_quote": "a victim mentality (“I can’t help it”)",
-      "suggested_fix": "استبدل «لا أستطيع مساعدته» بـ«لا أستطيع منع نفسي من ذلك».",
-      "translation_quote": "بعقلية الضحية («لا أستطيع مساعدته»)"
-    },
-    {
-      "location": "html: فقرة تحليل جوانب الخبرة المسيحية",
-      "severity": "major",
-      "source_quote": "We reason away the woman’s head covering. We reason away the nonconformed lifestyle. We reason away the permanence of marriage. We reason away brotherhood accountability.",
-      "suggested_fix": "استبدل الجمل الأربع بـ«نسوّغ بالعقل التخلي عن غطاء رأس المرأة. ونسوّغ التخلي عن أسلوب الحياة غير المتشبه بالعالم. ونسوّغ التخلي عن ديمومة الزواج. ونسوّغ التخلي عن المساءلة المتبادلة بين الإخوة».",
-      "translation_quote": "نفسر غطاء رأس المرأة بعقلانية. نفسر أسلوب الحياة غير المتوافق بعقلانية. نفسر ديمومة الزواج بعقلانية. نفسر محاسبة الإخوة بعقلانية."
-    },
-    {
-      "location": "html: فقرة «الريح الهوجاء والأمواج المتلاطمة»",
-      "severity": "major",
-      "source_quote": "When we transition from obedient faith to carnal rationalization, we lose power with God.",
-      "suggested_fix": "استبدل الجملة بـ«عندما ننتقل من الإيمان الطائع إلى التبرير بحسب الجسد، نفقد القوة مع الله».",
-      "translation_quote": "عندما ننتقل من الإيمان الطائع إلى التفسير العضوي نتخلى عن القوة مع الله."
-    },
-    {
-      "location": "html: اقتباس يوحنا 16:13",
-      "severity": "major",
-      "source_quote": "Howbeit when he, the Spirit of truth, is come, he will guide you into all truth…",
-      "suggested_fix": "استبدل نص الاقتباس، مع إبقاء وسمه ومرجعه، بـ«ولكن متى جاء هو، روح الحق، فإنه يرشدكم إلى كل الحق…».",
-      "translation_quote": "وأما الذي يقول الحق، فمتى جاء ذاك روح الحق، فإنه يهديكم إلى كل الحق…"
-    },
-    {
-      "location": "html: فقرة إطعام الخمسة آلاف، اقتباس متى 14:22",
-      "severity": "minor",
-      "source_quote": "…straightway Jesus constrained his disciples",
-      "suggested_fix": "أضف دلالة الفورية: «…وللوقت أَجْبَرَ يسوع تلاميذه».",
-      "translation_quote": "…يسوع أَجْبَرَ تلاميذه"
-    },
-    {
-      "location": "html: فقرة «إذا أردت أن تكون رجل إيمان»",
-      "severity": "minor",
-      "source_quote": "open your Bible ... The Bible contains many commandments",
-      "suggested_fix": "استبدل «افتح إنجيلك» بـ«افتح كتابك المقدس»، و«تحتوي الكتاب المقدس» بـ«يحتوي الكتاب المقدس».",
-      "translation_quote": "افتح إنجيلك ... تحتوي الكتاب المقدس على العديد من الوصايا"
-    },
-    {
-      "location": "html: فقرة قارب بطرس",
-      "severity": "minor",
-      "source_quote": "Peter felt right at home in his old bark ... “walking on the water” ... In reckless abandonment he stepped off her deck",
-      "suggested_fix": "استبدل «في زُقَّته القديمة» بـ«في قاربه القديم»، و«ماسياً على الماء» بـ«ماشيًا على الماء»، و«بلا تردد متهور قفز عن ظهرها» بـ«وباندفاع غير آبه بالمخاطر، خطا خارج القارب».",
-      "translation_quote": "في زُقَّته القديمة ... «ماسياً على الماء» ... بلا تردد متهور قفز عن ظهرها"
-    },
-    {
-      "location": "html: اقتباس لوقا 9:3",
-      "severity": "minor",
-      "source_quote": "neither have two coats apiece",
-      "suggested_fix": "استبدل «ولا يكون للواحد ثوبا ثانيًا» بـ«ولا يكن لكل واحد منكم ثوبان».",
-      "translation_quote": "ولا يكون للواحد ثوبا ثانيًا"
-    },
-    {
-      "location": "html: فقرة المنهج العلمي وأعمال الإيمان",
-      "severity": "minor",
-      "source_quote": "he would not have taken such a risk ... to anointing with oil",
-      "suggested_fix": "استبدل «مثل هذا المخاطرة» بـ«مثل هذه المخاطرة»، و«إلى مسح بالزيت» بـ«إلى المسح بالزيت».",
-      "translation_quote": "لما أخذ مثل هذا المخاطرة ... إلى مسح بالزيت"
-    },
-    {
-      "location": "html: فقرة «هذا ما اكتشفه بطرس»",
-      "severity": "minor",
-      "source_quote": "He did not dip a toe ... That would be faith",
-      "suggested_fix": "استبدل «لم يغمِر اصبعه» بـ«لم يغمس إصبع قدمه»، و«تلك كانت إيمانًا» بـ«ذلك هو الإيمان».",
-      "translation_quote": "لم يغمِر اصبعه ... تلك كانت إيمانًا"
-    },
-    {
-      "location": "html: اقتباس متى 14:30-32",
-      "severity": "minor",
-      "source_quote": "And immediately Jesus stretched forth his hand, and caught him",
-      "suggested_fix": "استبدل «فانتهى يسوع فورًا ومَدَّ يده وأمسكه» بـ«فمدّ يسوع يده فورًا وأمسكه».",
-      "translation_quote": "فانتهى يسوع فورًا ومَدَّ يده وأمسكه"
-    },
-    {
-      "location": "html: اقتباس 1 كورنثوس 2:14",
-      "severity": "minor",
-      "source_quote": "for they are foolishness unto him ... because they are spiritually discerned",
-      "suggested_fix": "استبدل «لأنه مجنونة إليه» بـ«لأنها جهالة عنده»، و«لأنها روحيًا تُميز» بـ«لأنها تُمَيَّز روحيًا».",
-      "translation_quote": "لأنه مجنونة إليه ... لأنها روحيًا تُميز"
-    },
-    {
-      "location": "html: فقرة صرخة بطرس",
-      "severity": "minor",
-      "source_quote": "Jesus next words continue to challenge us.",
-      "suggested_fix": "استبدل الجملة بـ«ولا تزال كلمات يسوع التالية تتحدانا».",
-      "translation_quote": "ثم استمرت كلمات يسوع لتتحدانا."
-    },
-    {
-      "location": "html: فقرتا الانسجام مع العالم الطبيعي والعالم الروحي",
-      "severity": "minor",
-      "source_quote": "To live in harmony with the natural world ... To live in harmony with the spiritual world",
-      "suggested_fix": "استبدل «لنعيش» بـ«لكي نعيش» في مطلعي الفقرتين.",
-      "translation_quote": "لنعيش في انسجام مع العالم الطبيعي ... لنعيش في انسجام مع العالم الروحي"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-11-28T02:30:23+00:00",
   "id": "b6a224502baf3043507d1cb343825b80",
   "issue_id": "1a7070c9-fd4f-546b-a220-f267ddb8cf5f",
   "language": "ara",
@@ -253,7 +160,7 @@
     }
   },
   "protected": false,
-  "quality_score": 78,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6.1-sol",
@@ -272,7 +179,7 @@
     "total_reserved_usd": 0.756898,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "73de90ede959b89d4fd696b2e9474c165d018804ec574570e47ca5f30322f740",
   "translation_model_actual": "gpt-6.1-sol"
