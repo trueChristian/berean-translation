@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "f8df68429a2b41cb9a65dd0549f95ee7",
   "campaign": "auto-66b74ee7bed62aae24f4ced17cf8fabe7ceac9073e84aa2948f352f49ea658a6",
   "created_at": "2026-11-27T19:29:49+00:00",
   "events": [
@@ -28,18 +27,31 @@
         },
         "total_tokens": 20091
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 60,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 28,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 13111,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 13108,
+          "cached_tokens": 0
+        },
+        "total_tokens": 13171
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "HTML/metadata contract",
-      "severity": "critical",
-      "source_quote": "",
-      "suggested_fix": "HTML structure, IDs, links, or immutable attributes changed; first difference at signature[5]: source /article[1]/p[1]/sup[1] ('start', 'sup', ()); translation /article[1]/p[1]/em[1] ('start', 'em', ())",
-      "translation_quote": ""
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-11-28T02:15:02+00:00",
   "id": "f7c6b955772e0581fa391dcafc75451e",
   "issue_id": "05538f8e-6560-5f96-b313-890e87c05daf",
   "language": "urd",
@@ -128,9 +140,11 @@
     }
   },
   "protected": false,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/67e6f53bf00c22813d1ecdfcf7efee53cfcb47a222145208ffa64fb41e29a1f9.json",
   "stage": "review2",
   "stage_budget": {
@@ -144,7 +158,7 @@
     "total_reserved_usd": 0.62779,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "f5b7fccc6a524e1449727b9ca39fdaa2ec8b679f58d19ba28c92689583cbcf46",
   "translation_model_actual": "gpt-6.1-sol"
