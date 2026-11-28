@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-28T10:33:52+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"html, Bibelzitat aus Hebräer 1:10–12\",\n      \"severity\": \"major\",\n      \"source_quote\": \"And as a vesture shalt thou fold them up, and they shall be changed\",\n      \"suggested_fix\": \"Ersetze „und wie ein Gewand wirst du sie wandeln“ durch „und wie ein Gewand wirst du sie zusammenfalten“; behalte den anschließenden Satzteil und die HTML-Struktur bei.\",\n      \"translation_quote\": \"und wie ein Gewand wirst du sie wandeln, und sie werden sich verwandeln\"\n    },\n    {\n      \"location\": \"html, Absatz über finanzielle Unterstützung und Online-Spenden\",\n      \"severity\": \"major\",\n      \"source_quote\": \"there is a remittance envelope in the center of each copy of the magazine\",\n      \"suggested_fix\": \"Ersetze „einen Überweisungsschein“ durch „einen Spendenumschlag“.\",\n      \"translation_quote\": \"findet ihr in der Mitte jedes Heftes der Zeitschrift einen Überweisungsschein\"\n    },\n    {\n      \"location\": \"html, Absatz über Zweifel, Sorgen und das Spektrum der Angst\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"we have come to accept as normal that which God would have us to rise above\",\n      \"suggested_fix\": \"Formuliere: „sodass wir das als normal hinnehmen, worüber wir uns nach Gottes Willen erheben sollen.“\",\n      \"translation_quote\": \"sodass wir das als normal hinnehmen, wovon Gott möchte, dass wir uns darüber erheben.\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": false,\n  \"score\": 93\n}",
+    "content_bytes": 1492,
+    "content_evidence_truncated": false,
+    "content_sha256": "fec21e88b8ee1f42811b911373398e0c964a42566ff18adfb766f373c213f660",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 425,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 27,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5463,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5460,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5888
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}

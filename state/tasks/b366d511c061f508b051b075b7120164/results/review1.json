@@ -1,0 +1,52 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "69eb3e63-cef5-4383-ad64-4c17f6cd1288",
+    "response_id": "chatcmpl-Ep9vfN10E83LlSQSKqxCbO7JfdJ7T",
+    "usage": {
+      "completion_tokens": 425,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 27,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5463,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5460,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5888
+    }
+  },
+  "received_at": "2026-11-28T10:33:52+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "html, Bibelzitat aus Hebräer 1:10–12",
+        "severity": "major",
+        "source_quote": "And as a vesture shalt thou fold them up, and they shall be changed",
+        "suggested_fix": "Ersetze „und wie ein Gewand wirst du sie wandeln“ durch „und wie ein Gewand wirst du sie zusammenfalten“; behalte den anschließenden Satzteil und die HTML-Struktur bei.",
+        "translation_quote": "und wie ein Gewand wirst du sie wandeln, und sie werden sich verwandeln"
+      },
+      {
+        "location": "html, Absatz über finanzielle Unterstützung und Online-Spenden",
+        "severity": "major",
+        "source_quote": "there is a remittance envelope in the center of each copy of the magazine",
+        "suggested_fix": "Ersetze „einen Überweisungsschein“ durch „einen Spendenumschlag“.",
+        "translation_quote": "findet ihr in der Mitte jedes Heftes der Zeitschrift einen Überweisungsschein"
+      },
+      {
+        "location": "html, Absatz über Zweifel, Sorgen und das Spektrum der Angst",
+        "severity": "minor",
+        "source_quote": "we have come to accept as normal that which God would have us to rise above",
+        "suggested_fix": "Formuliere: „sodass wir das als normal hinnehmen, worüber wir uns nach Gottes Willen erheben sollen.“",
+        "translation_quote": "sodass wir das als normal hinnehmen, wovon Gott möchte, dass wir uns darüber erheben."
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 93
+  }
+}
