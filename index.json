@@ -92464,6 +92464,34 @@
     {
       "ai_notice_required": true,
       "direction": "ltr",
+      "html": "content/rus/articles/971b8ffa-3721-4c08-b693-5aba9989618c.html",
+      "html_sha256": "1b50d1a1078f6a9b78c7e9aa79f6b0b3b36b15e14f9564855f3f0a94bae51c38",
+      "human_reviewed": false,
+      "id": "971b8ffa-3721-4c08-b693-5aba9989618c",
+      "images": [
+        {
+          "alt": "",
+          "public_path": "/images/articles/971b8ffa-3721-4c08-b693-5aba9989618c-1.png"
+        }
+      ],
+      "issue_id": "749fd67f-e1cb-556f-b9a4-ab27a8dd2b36",
+      "language": "rus",
+      "language_tag": "ru",
+      "metadata": "content/rus/articles/971b8ffa-3721-4c08-b693-5aba9989618c.json",
+      "metadata_sha256": "0b99550936e128df5c1ba8ec2ad7b371308e15f02c1b3aa607aeeabed3283be5",
+      "provider": "OpenAI",
+      "review_model": "gpt-6.1-sol",
+      "section": "ОТ РЕДАКТОРА",
+      "source_revision": "8e6050f56e822cc6f3d1accab673b1804ef63dca",
+      "source_translation_key": "00226b6ad0dbffb95f49d8e5a79252bf97df9b92ec335b9934f6f045a6712540",
+      "status": "ready",
+      "subtitle": null,
+      "title": "От редактора",
+      "translation_model": "gpt-6-luna"
+    },
+    {
+      "ai_notice_required": true,
+      "direction": "ltr",
       "html": "content/rus/articles/97d8ed1e-7d4a-471d-8508-727664288d74.html",
       "html_sha256": "7ff0401dee6b961f804f354982563bb2eb718cc61718423fdde99d5e9f7c400f",
       "human_reviewed": false,

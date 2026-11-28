@@ -5,11 +5,48 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "3fc213b9387840108df5c8136d8a594c",
   "campaign": "auto-a95c16ccd03e45429159a3cff58e95eb45ecd1e7da4916871f54833ea3b9f0a7",
   "created_at": "2026-11-28T02:17:12+00:00",
-  "events": [],
-  "findings": [],
+  "events": [
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 315,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 55,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 5549,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 4446,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 5864
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "translation.html, абзац 2",
+      "severity": "minor",
+      "source_quote": "I have seen time-lapse videos of plants growing or sprouting to life.",
+      "suggested_fix": "Заменить «видеозаписи растений, которые растут или дают первые ростки» на «видеозаписи ускоренной съёмки того, как растения растут или дают первые ростки».",
+      "translation_quote": "я видел видеозаписи растений, которые растут или дают первые ростки."
+    },
+    {
+      "location": "translation.html, абзац, начинающийся словами «На первую тему»",
+      "severity": "minor",
+      "source_quote": "each of these struggles are a clear test",
+      "suggested_fix": "Заменить «каждый из этих испытаний» на «каждое из этих испытаний».",
+      "translation_quote": "каждый из этих испытаний на деле ясно показывает"
+    }
+  ],
+  "finished_at": "2026-11-28T04:48:32+00:00",
   "id": "72b324be034e233be3b3b754609bf9a3",
   "issue_id": "749fd67f-e1cb-556f-b9a4-ab27a8dd2b36",
   "language": "rus",
@@ -98,9 +135,11 @@
     }
   },
   "protected": false,
+  "quality_score": 97,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/86f611275d76d65bb588fc7797475e3277f27f4105f7431839a1f6cf3abaf5bf.json",
   "stage": "review1",
   "stage_budget": {
@@ -115,7 +154,7 @@
     "total_reserved_usd": 0.732908,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 0,
   "translation_key": "00226b6ad0dbffb95f49d8e5a79252bf97df9b92ec335b9934f6f045a6712540",
   "translation_model_actual": "gpt-6-luna"

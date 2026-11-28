@@ -1,0 +1,21 @@
+{
+  "findings": [
+    {
+      "location": "translation.html, абзац 2",
+      "severity": "minor",
+      "source_quote": "I have seen time-lapse videos of plants growing or sprouting to life.",
+      "suggested_fix": "Заменить «видеозаписи растений, которые растут или дают первые ростки» на «видеозаписи ускоренной съёмки того, как растения растут или дают первые ростки».",
+      "translation_quote": "я видел видеозаписи растений, которые растут или дают первые ростки."
+    },
+    {
+      "location": "translation.html, абзац, начинающийся словами «На первую тему»",
+      "severity": "minor",
+      "source_quote": "each of these struggles are a clear test",
+      "suggested_fix": "Заменить «каждый из этих испытаний» на «каждое из этих испытаний».",
+      "translation_quote": "каждый из этих испытаний на деле ясно показывает"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

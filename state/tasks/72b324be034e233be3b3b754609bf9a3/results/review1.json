@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "810d4092-d7bb-4159-8bbe-dc58d3ad2511",
+    "response_id": "chatcmpl-Ep2s9y5lNS8NakyHZ5M0GUi5yzbIA",
+    "usage": {
+      "completion_tokens": 315,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 55,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5549,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4446,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 5864
+    }
+  },
+  "received_at": "2026-11-28T04:48:32+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "translation.html, абзац 2",
+        "severity": "minor",
+        "source_quote": "I have seen time-lapse videos of plants growing or sprouting to life.",
+        "suggested_fix": "Заменить «видеозаписи растений, которые растут или дают первые ростки» на «видеозаписи ускоренной съёмки того, как растения растут или дают первые ростки».",
+        "translation_quote": "я видел видеозаписи растений, которые растут или дают первые ростки."
+      },
+      {
+        "location": "translation.html, абзац, начинающийся словами «На первую тему»",
+        "severity": "minor",
+        "source_quote": "each of these struggles are a clear test",
+        "suggested_fix": "Заменить «каждый из этих испытаний» на «каждое из этих испытаний».",
+        "translation_quote": "каждый из этих испытаний на деле ясно показывает"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 97
+  }
+}

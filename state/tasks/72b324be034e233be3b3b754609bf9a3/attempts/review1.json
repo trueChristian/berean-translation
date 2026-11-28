@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-28T04:48:32+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"translation.html, абзац 2\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"I have seen time-lapse videos of plants growing or sprouting to life.\",\n      \"suggested_fix\": \"Заменить «видеозаписи растений, которые растут или дают первые ростки» на «видеозаписи ускоренной съёмки того, как растения растут или дают первые ростки».\",\n      \"translation_quote\": \"я видел видеозаписи растений, которые растут или дают первые ростки.\"\n    },\n    {\n      \"location\": \"translation.html, абзац, начинающийся словами «На первую тему»\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"each of these struggles are a clear test\",\n      \"suggested_fix\": \"Заменить «каждый из этих испытаний» на «каждое из этих испытаний».\",\n      \"translation_quote\": \"каждый из этих испытаний на деле ясно показывает\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": true,\n  \"score\": 97\n}",
+    "content_bytes": 1236,
+    "content_evidence_truncated": false,
+    "content_sha256": "d42b0c24ffa5e4bc259337bdcf6821984db9d8cc4afd027c86591d8cecea647a",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 315,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 55,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 5549,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 4446,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 5864
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}
