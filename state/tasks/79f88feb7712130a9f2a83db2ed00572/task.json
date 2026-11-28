@@ -5,11 +5,201 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "162ea1db8eaa446cbbd5115677d0be6a",
   "campaign": "auto-86e5a743b6bebfe97225f6149eaccbd693162d22aa20ff6621598d03fdbcfa7f",
   "created_at": "2026-11-27T19:46:08+00:00",
-  "events": [],
-  "findings": [],
+  "events": [
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 3122,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 133,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 6803,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 5700,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 9925
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "html, paragraph 1",
+      "severity": "major",
+      "source_quote": "Nothing that we have said or done can be recalled and re-lived.",
+      "suggested_fix": "Replace the sentence with: \"אי אפשר להשיב לאחור את מה שאמרנו או עשינו ולחיות אותו מחדש.\"",
+      "translation_quote": "כל מה שאמרנו או עשינו אינו ניתן לזכור ולחיות מחדש."
+    },
+    {
+      "location": "html, paragraphs 3, 4, 8, 10, 11, 12, 14, and 16",
+      "severity": "major",
+      "source_quote": "the Bible has prophesied; Bible-believing Christians; the Bible was read or quoted; an English Bible; what the Bible said; a German/English Bible; what the Bible teaches; getting excited about the Bible",
+      "suggested_fix": "Replace the corresponding uses of \"התנ״ך\" and \"תנ״ך\" with appropriately inflected forms of \"כתבי הקודש\". Here “Bible” includes the New Testament, not only the Hebrew Bible. For example: \"כיצד עלינו לחיות כנוצרים המאמינים בכתבי הקודש?\" and \"כתבי הקודש במהדורה דו־לשונית בגרמנית ובאנגלית\".",
+      "translation_quote": "כפי שהתנ\"ך חזה; כמאמינים שמאמינים בתנ\"ך; קראו או ציטטו את התנ\"ך; תנ\"ך באנגלית; התנ\"ך האנגלי; תנ\"ך במגירת השידה; במה שהתנ\"ך אמר; תנ\"ך דו־לשוני גרמנית/אנגלית; מה שהתנ\"ך מלמד; להתרגש מן התנ\"ך"
+    },
+    {
+      "location": "html, paragraph 4, Matthew 24:6 quotation",
+      "severity": "major",
+      "source_quote": "And ye shall hear of wars and rumours of wars: see that ye be not troubled: for all these things must come to pass, but the end is not yet",
+      "suggested_fix": "Replace the quotation within its existing tags with: \"ואתם תשמעו על מלחמות ועל שמועות מלחמה; <strong>היזהרו שלא להיבהל</strong>, כי כל אלה חייבים לקרות, אך עדיין אין זה הקץ —מתי 24:6.\"",
+      "translation_quote": "ושמועות מלחמות ושמועות מלחמות; <strong>ראו אל תטרדו</strong> כי כל אלה חייבים להיות; אך קץ עוד לא עכשיו"
+    },
+    {
+      "location": "html, paragraph 4, Matthew 24:13 quotation",
+      "severity": "major",
+      "source_quote": "he that shall endure unto the end, the same shall be saved",
+      "suggested_fix": "Replace \"…והמתמיד עד קץ הוא יושיע\" with \"…מי שיחזיק מעמד עד הקץ ייוושע\".",
+      "translation_quote": "…והמתמיד עד קץ הוא יושיע"
+    },
+    {
+      "location": "html, paragraph 4, Revelation 21:8 quotation",
+      "severity": "major",
+      "source_quote": "the lake which burneth with fire and brimstone",
+      "suggested_fix": "Replace \"באגם האשור באש ובגופרית\" with \"באגם הבוער באש ובגופרית\".",
+      "translation_quote": "באגם האשור באש ובגופרית"
+    },
+    {
+      "location": "html, paragraph 5, sisters’ article description",
+      "severity": "major",
+      "source_quote": "The author for our sisters’ article has tackled a very difficult subject—when and how to be submissive as a godly wife.",
+      "suggested_fix": "Replace the sentence with: \"המאמר המיועד לאחיותינו עוסק בנושא קשה מאוד — מתי וכיצד לנהוג בכניעה כרעיה יראת אלוהים.\" This also avoids assigning a gender to the author that the source does not establish.",
+      "translation_quote": "המחברת לכותבות לאחיות נטלה על עצמה נושא קשה מאוד—מתי וכיצד להיות צייתנית כאישה נבונה."
+    },
+    {
+      "location": "html, paragraph 5, discipleship series",
+      "severity": "major",
+      "source_quote": "in the discipleship series",
+      "suggested_fix": "Replace \"בסדרת ההתחנכות\" with \"בסדרה על חיי התלמידוּת לישוע\".",
+      "translation_quote": "בסדרת ההתחנכות"
+    },
+    {
+      "location": "html, paragraph 6",
+      "severity": "major",
+      "source_quote": "when I first had my awakening and was converted",
+      "suggested_fix": "Replace \"כשראשית התעוררותי וההפיכה שלי\" with \"כאשר התעוררתי לראשונה מבחינה רוחנית ושבתי אל אלוהים\".",
+      "translation_quote": "כשראשית התעוררותי וההפיכה שלי"
+    },
+    {
+      "location": "html, paragraphs 7, 9, 15, and 17",
+      "severity": "major",
+      "source_quote": "within the plain people—those of Anabaptist heritage; among some of the plain people; our plain publishing houses; our plain groups of conservative Anabaptists",
+      "suggested_fix": "Render “plain people” as the religious communities characterized by simple living, not as ordinary or common people. Use \"הקהילות האנבפטיסטיות הדוגלות באורח חיים פשוט\" at the first occurrence, and corresponding shortened forms thereafter, including \"בתי ההוצאה לאור של קהילותינו הדוגלות באורח חיים פשוט\" in paragraph 15.",
+      "translation_quote": "בתוך העם הפשוט—מוצא האנבפטיסטי; בקרב חלק מהעם הפשוט; בתי ההוצאה של העם הפשוט; קבוצות העם הפשוט של האנבפטיסטים השמרנים שלנו"
+    },
+    {
+      "location": "html, paragraph 7",
+      "severity": "major",
+      "source_quote": "Throughout his lifetime he had endeavored to live his life according to the mandates set forth by the leaders of his local church.",
+      "suggested_fix": "Replace the sentence with: \"לאורך חייו הוא השתדל לחיות לפי ההוראות שקבעו מנהיגי קהילתו המקומית.\"",
+      "translation_quote": "במשך חייו נשא במאמצים לנהל חיי־דין לפי המנדטים שקבעו מנהיגי קהילתו המקומית."
+    },
+    {
+      "location": "html, paragraph 8",
+      "severity": "major",
+      "source_quote": "during their normal worship services",
+      "suggested_fix": "Replace \"במהלך שירותי הערב הרגילים שלהם\" with \"במהלך אספות התפילה הרגילות שלהם\". The source does not specify evening services.",
+      "translation_quote": "במהלך שירותי הערב הרגילים שלהם"
+    },
+    {
+      "location": "html, paragraph 9, interpretation and edification",
+      "severity": "major",
+      "source_quote": "since there was no interpretation given, he was not able to be edified",
+      "suggested_fix": "Replace \"וממילא לא ניתנה לו <em>פרשנות</em>, הוא לא היה מעודד\" with \"ומכיוון שלא ניתן <em>תרגום</em>, הוא לא יכול היה להיבנות מבחינה רוחנית\".",
+      "translation_quote": "וממילא לא ניתנה לו <em>פרשנות</em>, הוא לא היה מעודד"
+    },
+    {
+      "location": "html, paragraph 9, final sentence",
+      "severity": "major",
+      "source_quote": "A problem for which God would surely desire to see changes made for the betterment of those seeking Him in such settings.",
+      "suggested_fix": "Replace the sentence with: \"זו בעיה שאלוהים בוודאי היה רוצה לראות בה שינוי, לטובת המחפשים אותו במסגרות כאלה.\"",
+      "translation_quote": "בעיה שבהודאות היו רוצים שה' יראה שינויים לטובה לטובת אלה המחפשים אותו בהקשרים כאלה."
+    },
+    {
+      "location": "html, paragraph 10, opening sentence",
+      "severity": "major",
+      "source_quote": "a man zealous in his religious life—yet having NEVER heard the message of the Gospel of Jesus Christ",
+      "suggested_fix": "Replace \"איש קדוש בחייו הדתיים—ולמרות זאת שמע מעולם לא את בשורת ישוע המשיח\" with \"איש מסור ונלהב בחייו הדתיים — ובכל זאת מעולם לא שמע את בשורת ישוע המשיח\".",
+      "translation_quote": "איש קדוש בחייו הדתיים—ולמרות זאת שמע מעולם לא את בשורת ישוע המשיח"
+    },
+    {
+      "location": "html, paragraph 11",
+      "severity": "major",
+      "source_quote": "Longings had been met.",
+      "suggested_fix": "Replace \"תשוקות נמשכו\" with \"כמיהותיו מצאו מענה\".",
+      "translation_quote": "תשוקות נמשכו."
+    },
+    {
+      "location": "html, paragraph 14, Hebrews 13:17 quotation",
+      "severity": "major",
+      "source_quote": "Obey them that have the rule over you, and submit yourselves",
+      "suggested_fix": "Replace \"שמעו להם שישלטו בכם והכניעו להם\" with \"צייתו למנהיגיכם והיכנעו להם\".",
+      "translation_quote": "שמעו להם שישלטו בכם והכניעו להם"
+    },
+    {
+      "location": "html, paragraph 15, Matthew 8:10 quotation",
+      "severity": "major",
+      "source_quote": "said to them that followed",
+      "suggested_fix": "Replace \"ואמר לממלאיו\" with \"ואמר להולכים אחריו\".",
+      "translation_quote": "ואמר לממלאיו"
+    },
+    {
+      "location": "html, paragraph 17",
+      "severity": "major",
+      "source_quote": "the slums of India",
+      "suggested_fix": "Replace \"העוני של הודו\" with \"שכונות העוני של הודו\".",
+      "translation_quote": "העוני של הודו"
+    },
+    {
+      "location": "html, paragraph 1, greeting",
+      "severity": "minor",
+      "source_quote": "Greetings to one and all",
+      "suggested_fix": "Replace \"ברכות לכל ואחת\" with \"ברכות לכולכם ולכולכן\".",
+      "translation_quote": "ברכות לכל ואחת"
+    },
+    {
+      "location": "html, paragraph 2",
+      "severity": "minor",
+      "source_quote": "those on the frontier of technology believe",
+      "suggested_fix": "Replace \"שאילו נמצא בחזית הטכנולוגיה מאמינים\" with \"שאלה הנמצאים בחזית הטכנולוגיה מאמינים\".",
+      "translation_quote": "שאילו נמצא בחזית הטכנולוגיה מאמינים"
+    },
+    {
+      "location": "html, paragraph 5",
+      "severity": "minor",
+      "source_quote": "an interesting group of articles for your consideration; what it means to have a real faith",
+      "suggested_fix": "Replace \"מאמרים לשקולכם\" with \"מאמרים לעיונכם\", and \"לגבי מה זה אמונה אמיתית\" with \"על משמעותה של אמונה אמיתית\".",
+      "translation_quote": "מאמרים לשקולכם; לגבי מה זה אמונה אמיתית"
+    },
+    {
+      "location": "html, paragraph 12",
+      "severity": "minor",
+      "source_quote": "maybe he would be placed under church discipline",
+      "suggested_fix": "Replace \"שאולי יוטלו עליו משמעת כנסייתית\" with \"שאולי יינקטו נגדו צעדי משמעת כנסייתיים\".",
+      "translation_quote": "שאולי יוטלו עליו משמעת כנסייתית"
+    },
+    {
+      "location": "html, paragraph 13",
+      "severity": "minor",
+      "source_quote": "through the official language of Scripture",
+      "suggested_fix": "Replace \"דרך שפת הרשמית של הכתובים\" with \"באמצעות השפה הרשמית של כתבי הקודש\".",
+      "translation_quote": "דרך שפת הרשמית של הכתובים"
+    },
+    {
+      "location": "html, paragraph 17, closing appeal",
+      "severity": "minor",
+      "source_quote": "Let’s seek God for opportunities to share the truth of the Gospel message",
+      "suggested_fix": "Replace \"נשאף אל ה' להזדמנויות לשתף את אמת בשורת הבשורה\" with \"נבקש מאלוהים הזדמנויות לשתף את אמת הבשורה\".",
+      "translation_quote": "נשאף אל ה' להזדמנויות לשתף את אמת בשורת הבשורה"
+    }
+  ],
   "id": "79f88feb7712130a9f2a83db2ed00572",
   "issue_id": "1a7070c9-fd4f-546b-a220-f267ddb8cf5f",
   "language": "heb",
@@ -98,11 +288,13 @@
     }
   },
   "protected": false,
+  "quality_score": 64,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/9bbeaa248aca4a5e53cf4e710626c35ad1fcffe1f073f387e31c0a9f5dd08124.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "review1",
     "max_candidate_bytes": 120000,
@@ -115,7 +307,7 @@
     "total_reserved_usd": 0.745752,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 0,
   "translation_key": "c8c09427567d4bc1f9b13eb8f03d2de65724d1971e30094c9e925e9045066f8d",
   "translation_model_actual": "gpt-5-mini-2025-08-07"
