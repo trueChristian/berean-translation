@@ -12,9 +12,16 @@
       "event": "not_ready",
       "reason": "Scripture chapter/verse numbers or ranges changed at /article[1]/p[23]; missing: 2 Corinthians 10:12; extra: 10:12",
       "task": "53671873f59b375d0db7d7d6805adc42"
+    },
+    {
+      "at": "2026-11-28T02:17:43+00:00",
+      "campaign": "auto-6585b2d3efcb849d61b5ab2b1753103a16afe24f574cb271c2fe043104230bb4",
+      "event": "automatic_requested",
+      "previous_task": "53671873f59b375d0db7d7d6805adc42",
+      "task": "598424b964ecadd489cc533fbe9ee67e"
     }
   ],
   "language": "heb",
-  "latest_task": "53671873f59b375d0db7d7d6805adc42",
+  "latest_task": "598424b964ecadd489cc533fbe9ee67e",
   "published": null
 }
