@@ -1,0 +1,28 @@
+{
+  "findings": [
+    {
+      "location": "html: הפסקה המצטטת את משלי 27:4",
+      "severity": "major",
+      "source_quote": "Wrath is cruel, and anger is outrageous; but who is able to stand before envy?",
+      "suggested_fix": "החליפו את הציטוט בלבד ב־״החֵמה אכזרית והכעס משתולל; אך מי יכול לעמוד בפני הקנאה?״, תוך שמירה על תגית ההדגשה ועל ההפניה הקיימת.",
+      "translation_quote": "״חֵמָה אכזרית ואף נֶהְלָם; ומי יעמוד לפני קנאה?״"
+    },
+    {
+      "location": "html: הכותרת המקבילה ל־Have Friends, Not Rivals",
+      "severity": "minor",
+      "source_quote": "Have Friends, Not Rivals",
+      "suggested_fix": "החליפו את טקסט הכותרת ב־״טפחי חברויות, לא יריבויות״, תוך שמירה על תגיות h2 ו־em.",
+      "translation_quote": "היי חברות, לא יריבות"
+    },
+    {
+      "location": "html: הפסקה הראשונה אחרי hr",
+      "severity": "minor",
+      "source_quote": "Unless checked immediately, that tinge of jealousy keeps me from being happy for others.",
+      "suggested_fix": "תקנו את ההתאם: ״אם לא עוצרים אותו מיד, שמץ הקנאה הזה מונע ממני לשמוח בשביל אחרות.״",
+      "translation_quote": "אם לא עוצרים אותה מיד, שמץ הקנאה הזה מונע ממני לשמוח בשביל אחרות."
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

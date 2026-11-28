@@ -1,0 +1,52 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "3d6e75a3-f459-486c-8015-5d28dd6f35fe",
+    "response_id": "chatcmpl-Ep2QVTvuYcH5hpFHJ60XbebLLNYCV",
+    "usage": {
+      "completion_tokens": 561,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 134,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6154,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 5051,
+        "cached_tokens": 1100
+      },
+      "total_tokens": 6715
+    }
+  },
+  "received_at": "2026-11-28T02:30:42+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "html: הפסקה המצטטת את משלי 27:4",
+        "severity": "major",
+        "source_quote": "Wrath is cruel, and anger is outrageous; but who is able to stand before envy?",
+        "suggested_fix": "החליפו את הציטוט בלבד ב־״החֵמה אכזרית והכעס משתולל; אך מי יכול לעמוד בפני הקנאה?״, תוך שמירה על תגית ההדגשה ועל ההפניה הקיימת.",
+        "translation_quote": "״חֵמָה אכזרית ואף נֶהְלָם; ומי יעמוד לפני קנאה?״"
+      },
+      {
+        "location": "html: הכותרת המקבילה ל־Have Friends, Not Rivals",
+        "severity": "minor",
+        "source_quote": "Have Friends, Not Rivals",
+        "suggested_fix": "החליפו את טקסט הכותרת ב־״טפחי חברויות, לא יריבויות״, תוך שמירה על תגיות h2 ו־em.",
+        "translation_quote": "היי חברות, לא יריבות"
+      },
+      {
+        "location": "html: הפסקה הראשונה אחרי hr",
+        "severity": "minor",
+        "source_quote": "Unless checked immediately, that tinge of jealousy keeps me from being happy for others.",
+        "suggested_fix": "תקנו את ההתאם: ״אם לא עוצרים אותו מיד, שמץ הקנאה הזה מונע ממני לשמוח בשביל אחרות.״",
+        "translation_quote": "אם לא עוצרים אותה מיד, שמץ הקנאה הזה מונע ממני לשמוח בשביל אחרות."
+      }
+    ],
+    "findings_complete": true,
+    "passed": false,
+    "score": 94
+  }
+}
