@@ -19,6 +19,12 @@
       "event": "automatic_requested",
       "previous_task": "617e71b2df3d1dd0c5789ced8e68c33e",
       "task": "e1621d8d59ce0afa7e3ee1911c2e8c63"
+    },
+    {
+      "at": "2026-11-28T02:15:13+00:00",
+      "event": "not_ready",
+      "reason": "Review report is incomplete; all returned findings are retained for owner attention",
+      "task": "e1621d8d59ce0afa7e3ee1911c2e8c63"
     }
   ],
   "language": "ben",
