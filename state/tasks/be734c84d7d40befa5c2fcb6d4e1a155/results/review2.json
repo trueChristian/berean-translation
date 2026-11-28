@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "cf05d581-29b1-47cb-91f3-703a0e66d3b1",
+    "response_id": "chatcmpl-Ep21KM0BKtr8EdUT2PQAt8IqwtrE1",
+    "usage": {
+      "completion_tokens": 268,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 108,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 10386,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 10383,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10654
+    }
+  },
+  "received_at": "2026-11-28T02:14:47+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "translation.html, första listan, Efesierbrevet 5:22",
+        "severity": "minor",
+        "source_quote": "Wives, submit yourselves unto your own husbands, as unto the Lord",
+        "suggested_fix": "Ändra ”såsom Herren” till ”så som ni underordnar er Herren”, med befintliga HTML-taggar och hänvisningen bevarade.",
+        "translation_quote": "Hustrur, underordna er era egna män, såsom Herren"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 98
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-28T02:14:47+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"translation.html, första listan, Efesierbrevet 5:22\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"Wives, submit yourselves unto your own husbands, as unto the Lord\",\n      \"suggested_fix\": \"Ändra ”såsom Herren” till ”så som ni underordnar er Herren”, med befintliga HTML-taggar och hänvisningen bevarade.\",\n      \"translation_quote\": \"Hustrur, underordna er era egna män, såsom Herren\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": true,\n  \"score\": 98\n}",
+    "content_bytes": 523,
+    "content_evidence_truncated": false,
+    "content_sha256": "4a1882a3f3b628ebe8e5dad4e73967909d0f5aca2a7163a0cd08fe5664c46f7a",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 268,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 108,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 10386,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 10383,
+        "cached_tokens": 0
+      },
+      "total_tokens": 10654
+    }
+  },
+  "review_attempts": 2,
+  "stage": "review2",
+  "translation_attempts": 1
+}

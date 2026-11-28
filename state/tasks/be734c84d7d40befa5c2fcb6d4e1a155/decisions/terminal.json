@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "translation.html, första listan, Efesierbrevet 5:22",
+      "severity": "minor",
+      "source_quote": "Wives, submit yourselves unto your own husbands, as unto the Lord",
+      "suggested_fix": "Ändra ”såsom Herren” till ”så som ni underordnar er Herren”, med befintliga HTML-taggar och hänvisningen bevarade.",
+      "translation_quote": "Hustrur, underordna er era egna män, såsom Herren"
+    }
+  ],
+  "outcome": "complete",
+  "reason": null,
+  "stage": "terminal"
+}

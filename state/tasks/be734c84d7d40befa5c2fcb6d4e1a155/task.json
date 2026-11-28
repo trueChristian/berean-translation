@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "f83c47fe90354e82af881e217d3704d6",
   "campaign": "auto-4242c1c58d1fd8f64381917e42e00e8d1d02a081b2abafaa452a462eb6b29fd4",
   "created_at": "2026-11-27T18:58:21+00:00",
   "events": [
@@ -48,81 +47,39 @@
         },
         "total_tokens": 16615
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 268,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 108,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 10386,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 10383,
+          "cached_tokens": 0
+        },
+        "total_tokens": 10654
+      }
     }
   ],
   "failure_kind": "structured_response",
   "findings": [
     {
-      "location": "html: stycket med Första Moseboken 2:18",
-      "severity": "major",
-      "source_quote": "I will make him an help [helper, aid, supporter] meet [suitable, appropriate, complementary] for him",
-      "suggested_fix": "Ersätt citatets slut med: ”jag ska göra en hjälp [hjälpare, bistånd, stöd] åt honom, som passar honom [lämplig, passande, kompletterande]”. Behåll <em> och hänvisningen.",
-      "translation_quote": "jag vill göra honom en hjälp [hjälpare, stöd, medhjälpare] såsom över honom varest han är passande [lämplig, kompletterande]"
-    },
-    {
-      "location": "html: stycket som börjar ”I begynnelsen skapade Gud”",
-      "severity": "major",
-      "source_quote": "then He created woman from the rib of Adam’s side",
-      "suggested_fix": "Ändra till ”därefter skapade Han kvinnan av ett revben från Adams sida”.",
-      "translation_quote": "därefter skapade Han kvinnan av Adams sida"
-    },
-    {
-      "location": "html: stycket med Titus 2:3-5",
-      "severity": "major",
-      "source_quote": "The aged women likewise, that they be … teachers of good things",
-      "suggested_fix": "Ersätt inledningen med ”De äldre kvinnorna likaså, att de ska vara … lärare i det goda”. Återställ utelämningstecknet och ta bort den tillagda beskrivningen.",
-      "translation_quote": "De äldre kvinnorna likaledes, att de skola vara alldeles beskedliga, vara lärare i det goda"
-    },
-    {
-      "location": "section",
+      "location": "translation.html, första listan, Efesierbrevet 5:22",
       "severity": "minor",
-      "source_quote": "Sister to Sister",
-      "suggested_fix": "Översätt sektionsnamnet till ”Syster till syster”.",
-      "translation_quote": "Sister to Sister"
-    },
-    {
-      "location": "html: bibelcitaten i den första listan, Titus 2:3-5 och Första Petrusbrevet 3:1-2 & 3:6-7",
-      "severity": "minor",
-      "source_quote": "Likewise, ye wives, be in subjection”; “To be discreet, chaste, keepers at home”; “whose daughters ye are, as long as ye do well, and are not afraid with any amazement [terror]. Likewise, ye husbands, dwell with them according to knowledge, giving honour unto the wife",
-      "suggested_fix": "Använd genomgående nutida och grammatiskt korrekt svenska: ”Likaså, ni hustrur, underordna er” på båda ställena; ”vara förståndiga, kyska och sköta hemmet”; samt ”hennes döttrar är ni, om ni gör det goda och inte låter er skrämmas av någon fruktan [skräck]. Likaså ska ni män leva med era hustrur med insikt och visa dem heder”. Behåll citatens övriga innehåll, taggar och hänvisningar.",
-      "translation_quote": "Likaledes, ni hustrur, vara underordnade”; “att vara förståndiga, kysk, hemmavana”; “vilkas döttrar ni ären, så länge I göra väl och icke ären rädda för något häpnad [skräck]. Likaså, I män, bo hos dem efter kunskap, gifvande ära åt hustrun"
-    },
-    {
-      "location": "html: stycket om den yngre generationen",
-      "severity": "minor",
-      "source_quote": "our plain churches",
-      "suggested_fix": "Förtydliga samfundskontexten med exempelvis ”våra församlingar som praktiserar en enkel livsstil”.",
-      "translation_quote": "våra enkla kyrkor"
-    },
-    {
-      "location": "html: stycket med uppmaningen att uppmuntra sin man dagligen",
-      "severity": "minor",
-      "source_quote": "think of something that you can tell your husband that you are blessed about with him",
-      "suggested_fix": "Ändra till ”tänka på något hos din man som du är tacksam för och berätta det för honom”.",
-      "translation_quote": "tänka på något du kan säga till din man som du är välsignad över med honom"
-    },
-    {
-      "location": "html: stycket om det bittra paret",
-      "severity": "minor",
-      "source_quote": "This much bitterness”; “spared her children",
-      "suggested_fix": "Ändra ”Denna bittrahet” till ”Denna bitterhet” och ”skonsat sina barn” till ”skonat sina barn”.",
-      "translation_quote": "Denna bittrahet”; “skonsat sina barn"
-    },
-    {
-      "location": "html: redaktörens avslutande stycke",
-      "severity": "minor",
-      "source_quote": "sins of omission and of commission within each family will be primarily held to dad’s account",
-      "suggested_fix": "Ändra till ”kommer pappan främst att hållas ansvarig för både underlåtenhetssynder och begångna synder inom varje familj”.",
-      "translation_quote": "kommer försyndelser och underlåtelser inom varje familj främst att hållas faderns ansvar"
-    },
-    {
-      "location": "html: första bibellistan, punkterna 1–6 och 8; citatet ur Titus 2:3-5",
-      "severity": "minor",
-      "source_quote": "<strong>reverence her husband</strong>; <strong>be in subjection to your own husbands…</strong>; <strong>Even as Sara obeyed</strong>; <strong>whose daughters ye are…</strong>; <strong>Wives, submit yourselves unto your own husbands,</strong>; <strong>the head of the woman is the man;</strong>; <strong>Let the woman learn in silence with all subjection.</strong>; <strong>Let your women keep silence in the churches:</strong>; <strong>to love their husbands,</strong>; <strong>obedient to their own husbands,</strong>",
-      "suggested_fix": "Återställ <strong> runt motsvarande svenska fraser i samtliga angivna citat, utan att ändra deras <em>-taggar eller hänvisningar.",
-      "translation_quote": "visa aktning för sin man; vara underordnade era egna män…; Såsom Sara lydde; vars döttrar ni är…; Hustrur, underordna er era män,; kvinnans huvud är mannen; Låt kvinnan lära sig i stillhet med full underordning.; Låt era kvinnor tiga i församlingarna:; att älska sina män,; lydiga mot sina egna män,"
+      "source_quote": "Wives, submit yourselves unto your own husbands, as unto the Lord",
+      "suggested_fix": "Ändra ”såsom Herren” till ”så som ni underordnar er Herren”, med befintliga HTML-taggar och hänvisningen bevarade.",
+      "translation_quote": "Hustrur, underordna er era egna män, såsom Herren"
     }
   ],
+  "finished_at": "2026-11-28T02:14:47+00:00",
   "id": "be734c84d7d40befa5c2fcb6d4e1a155",
   "issue_id": "1a7070c9-fd4f-546b-a220-f267ddb8cf5f",
   "language": "swe",
@@ -211,7 +168,7 @@
     }
   },
   "protected": false,
-  "quality_score": 87,
+  "quality_score": 98,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6.1-sol",
@@ -230,7 +187,7 @@
     "total_reserved_usd": 0.780477,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "ad61f4b9009ceb692738e67bfe8cebef4cb378ea1ea96cae5a9794b4be22a0d2",
   "translation_model_actual": "gpt-6.1-sol"
