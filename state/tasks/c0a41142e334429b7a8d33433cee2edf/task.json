@@ -5,7 +5,6 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "2d053d8b74184118997b12ecc8cdc4aa",
   "campaign": "auto-b4253a5a1ea91d9bcb4ba518f025cabcebf7ea1e4275bd87a23e7ec3e1706a17",
   "created_at": "2026-11-27T00:37:37+00:00",
   "events": [
@@ -48,88 +47,31 @@
         },
         "total_tokens": 15234
       }
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review2",
+      "usage": {
+        "completion_tokens": 65,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 33,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 9494,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 8391,
+          "cached_tokens": 1100
+        },
+        "total_tokens": 9559
+      }
     }
   ],
   "failure_kind": "structured_response",
-  "findings": [
-    {
-      "location": "html, første avsnitt",
-      "severity": "major",
-      "source_quote": "through the publicity of their acts of service and charity",
-      "suggested_fix": "Erstatt «gjennom oppmerksomheten rundt sine aktstykker og sin veldedighet» med «gjennom oppmerksomheten rundt sine tjenestegjerninger og sin veldedighet».",
-      "translation_quote": "gjennom oppmerksomheten rundt sine aktstykker og sin veldedighet"
-    },
-    {
-      "location": "html, avsnittet om Felix Manz’ død",
-      "severity": "major",
-      "source_quote": "Felix Manz was the first Anabaptist to be martyred.",
-      "suggested_fix": "Erstatt setningen med «Felix Manz var den første anabaptisten som led martyrdøden.» Dette bevarer kildens uttrykkelige tilknytning mellom døden og troen.",
-      "translation_quote": "Felix Manz var den første anabaptisten som ble myrdet."
-    },
-    {
-      "location": "html, Galli Fuchs’ siste bemerkning på møtet",
-      "severity": "major",
-      "source_quote": "who would have the larger crowd!",
-      "suggested_fix": "Erstatt «hvem som ville ha det største folkevalget!» med «hvem som ville samle flest folk!»",
-      "translation_quote": "hvem som ville ha det største folkevalget!"
-    },
-    {
-      "location": "html, avsnittet som begynner «Femten måneder gikk»",
-      "severity": "major",
-      "source_quote": "Paul Degia (a native of Milan, Italy)",
-      "suggested_fix": "Erstatt parentesen med «(fra Milano i Italia)». «Annenfødt» gjengir ikke opplysningen om opprinnelsessted.",
-      "translation_quote": "Paul Degia (en annenfødt i Milano, Italia)"
-    },
-    {
-      "location": "html, flukten fra Solothurn",
-      "severity": "major",
-      "source_quote": "a ransom being offered for the prisoners’ release. When that failed, a file was secretly slipped into their cell in Solothurn. The prisoners’ chains were swiftly cut through",
-      "suggested_fix": "Erstatt «fangens løslatelse» med «fangenes løslatelse», «en fil» med «en metallfil» og «Fangens lenker» med «Fangenes lenker». Det dreier seg om flere fanger og et verktøy til å file over lenkene.",
-      "translation_quote": "en løsesum ble tilbudt for fangens løslatelse. Da dette mislyktes, ble en fil hemmelig puttet inn i cellen deres i Solothurn. Fangens lenker ble raskt saget over"
-    },
-    {
-      "location": "html, avsnittet om familien etter henrettelsen",
-      "severity": "major",
-      "source_quote": "Hans’s children would likewise remain strong, refusing to recant",
-      "suggested_fix": "Erstatt «nektet å omvende seg» med «nektet å avsverge sin tro». Kilden beskriver troskap mot troen, ikke avvisning av omvendelse.",
-      "translation_quote": "Hans’ barn forble også standhaftige og nektet å omvende seg"
-    },
-    {
-      "location": "html, tredje avsnitt",
-      "severity": "minor",
-      "source_quote": "Against this background of intellectual undulation",
-      "suggested_fix": "Erstatt «intellektuell bølgedal» med «intellektuelle bølgebevegelser» for å bevare bildet av skiftninger fremfor bare en nedgang.",
-      "translation_quote": "Mot denne bakgrunnen av intellektuell bølgedal"
-    },
-    {
-      "location": "html, borgermesterens avgjørelse etter møtet",
-      "severity": "minor",
-      "source_quote": "the mayor deliberated ... They were soon to have the opportunity to live this commitment.",
-      "suggested_fix": "Erstatt «slo borgermesteren seg til ro» med «overveide borgermesteren saken» og «leve ut dette forpliktet» med «leve ut denne forpliktelsen».",
-      "translation_quote": "slo borgermesteren seg til ro ... De skulle snart få anledning til å leve ut dette forpliktet."
-    },
-    {
-      "location": "html, avsnittene om undersøkelsen, møteåpningen, Bachman, galeistraffen og den siste arrestasjonen",
-      "severity": "minor",
-      "source_quote": "in charge of Deacon Jacob Isler; opened the meeting, addressing; one of the local rowdies; a young, healthy galley slave; the threats and admonishments",
-      "suggested_fix": "Rett henholdsvis til «under ledelse av diakon Jacob Isler», «åpnet møtet og tiltalte», «en av de lokale bråkmakerne», «en ung, frisk galeislave» og «truslene og formaningene».",
-      "translation_quote": "under leder av diakon Jacob Isler; åpnet møtet og tiltale; en av de lokale bråkmakere; en ung, frisk galeisla; truslene og formaninger"
-    },
-    {
-      "location": "html, myndighetenes anklage mot Hans",
-      "severity": "minor",
-      "source_quote": "wanted to be his own lord and master",
-      "suggested_fix": "Erstatt «ville være sin egen herre og herre» med «ville være sin egen herre».",
-      "translation_quote": "ville være sin egen herre og herre"
-    },
-    {
-      "location": "html, img alt",
-      "severity": "minor",
-      "source_quote": "A close-up of sharp thorns on weathered branches",
-      "suggested_fix": "Endre «En nærbilde» til «Et nærbilde», og behold resten av alt-teksten og bildeattributtene.",
-      "translation_quote": "En nærbilde av skarpe torner på værbitte greiner"
-    }
-  ],
+  "findings": [],
+  "finished_at": "2026-11-28T10:49:23+00:00",
   "id": "c0a41142e334429b7a8d33433cee2edf",
   "issue_id": "1a7070c9-fd4f-546b-a220-f267ddb8cf5f",
   "language": "nob",
@@ -218,7 +160,7 @@
     }
   },
   "protected": false,
-  "quality_score": 85,
+  "quality_score": 99,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 2,
   "review_model": "gpt-6.1-sol",
@@ -237,7 +179,7 @@
     "total_reserved_usd": 0.771635,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "complete",
   "translation_attempts": 1,
   "translation_key": "37240e01def41772640b0e9565ef16f1adfbc8d9f2aa56662e8ee18b41e3288d",
   "translation_model_actual": "gpt-6.1-sol"
