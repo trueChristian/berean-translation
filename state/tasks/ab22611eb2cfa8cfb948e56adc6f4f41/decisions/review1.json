@@ -1,0 +1,56 @@
+{
+  "findings": [
+    {
+      "location": "html, פסקה 1, הציטוט מפיליפים 4:11",
+      "severity": "major",
+      "source_quote": "for I have learned, in whatsoever state I am, therewith to be content",
+      "suggested_fix": "החליפו את נוסח הציטוט בתוך תגית em ב־״אינני אומר זאת מתוך מחסור, שכן למדתי להסתפק במה שיש לי בכל מצב שבו אני נמצא. — איגרת אל הפיליפים 4:11.״",
+      "translation_quote": "כִּי לָמַדְתִּי, בְּכָל מַעֲמַד שֶׁאֲנִי בוֹ, לָשֵׂבַע"
+    },
+    {
+      "location": "html, פסקה 4, ההשוואה בין המילים",
+      "severity": "major",
+      "source_quote": "Disciple has almost the same spelling as discipline.",
+      "suggested_fix": "החליפו ב־״באנגלית, המילה disciple ('תלמיד') דומה מאוד באיותה למילה discipline ('משמעת').״ ההשוואה מתייחסת למילים באנגלית, לא למילים העבריות.",
+      "translation_quote": "המילה \"תלמיד\" כמעט זהה באיותה למילה \"משמעת\"."
+    },
+    {
+      "location": "html, פסקה 4, Great Commission",
+      "severity": "major",
+      "source_quote": "when He gave the “Great Commission”",
+      "suggested_fix": "החליפו את ״וכשהעניק את 'המשלוח הגדול'״ ב־״וכשנתן את 'הציווי הגדול'״.",
+      "translation_quote": "וכשהעניק את \"המשלוח הגדול\""
+    },
+    {
+      "location": "html, פסקה 5, שם המדור המתוכנן",
+      "severity": "major",
+      "source_quote": "a “Song of the Quarter”",
+      "suggested_fix": "החליפו את ״שיר הרבע״ ב־״שיר הרבעון״, כדי לשמר את משמעות תקופת שלושת החודשים.",
+      "translation_quote": "\"שיר הרבע\""
+    },
+    {
+      "location": "html, פסקה 12, ברכת הסיום",
+      "severity": "major",
+      "source_quote": "May God bless and keep each one.",
+      "suggested_fix": "החליפו ב־״שאלוהים יברך וישמור כל אחד ואחת מכם.״ המקור מבקש שאלוהים יברך את הקוראים, ולא שאלוהים יהיה מבורך.",
+      "translation_quote": "שיהיה ה' מבורך וישמור את כל אחד ואחת מכם."
+    },
+    {
+      "location": "html, פסקה 6, המשפט האחרון",
+      "severity": "minor",
+      "source_quote": "when choosing articles and when asking authors to write",
+      "suggested_fix": "החליפו את ״בבחירת מאמרים ובהזמת כותבים לבקשת כתיבה״ ב־״בבחירת מאמרים ובהזמנת כותבים לכתוב״.",
+      "translation_quote": "בבחירת מאמרים ובהזמת כותבים לבקשת כתיבה"
+    },
+    {
+      "location": "html, פסקה 11",
+      "severity": "minor",
+      "source_quote": "We will miss the stability of his quiet wisdom",
+      "suggested_fix": "החליפו את ״יחסר לנו היציבות״ ב־״תחסר לנו היציבות״, בהתאמה למין הדקדוקי של ״יציבות״.",
+      "translation_quote": "יחסר לנו היציבות של חוכמתו השקטה"
+    }
+  ],
+  "outcome": "quality_rejection",
+  "reason": null,
+  "stage": "review1"
+}

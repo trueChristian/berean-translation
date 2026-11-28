@@ -5,11 +5,82 @@
   "autonomous_recovery": true,
   "base_html_sha256": null,
   "base_metadata_sha256": null,
-  "batch": "4a9aacf547374b18a94d1f390eb5fc35",
   "campaign": "auto-bb6ce2054f0f513f3b8f017f29ec7fb9afeac2c180901bd05c66e4567cc7e9ad",
   "created_at": "2026-11-27T19:14:01+00:00",
-  "events": [],
-  "findings": [],
+  "events": [
+    {
+      "model": "gpt-6.1-sol",
+      "stage": "review1",
+      "usage": {
+        "completion_tokens": 1015,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 111,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3762,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 3759,
+          "cached_tokens": 0
+        },
+        "total_tokens": 4777
+      }
+    }
+  ],
+  "failure_kind": "structured_response",
+  "findings": [
+    {
+      "location": "html, פסקה 1, הציטוט מפיליפים 4:11",
+      "severity": "major",
+      "source_quote": "for I have learned, in whatsoever state I am, therewith to be content",
+      "suggested_fix": "החליפו את נוסח הציטוט בתוך תגית em ב־״אינני אומר זאת מתוך מחסור, שכן למדתי להסתפק במה שיש לי בכל מצב שבו אני נמצא. — איגרת אל הפיליפים 4:11.״",
+      "translation_quote": "כִּי לָמַדְתִּי, בְּכָל מַעֲמַד שֶׁאֲנִי בוֹ, לָשֵׂבַע"
+    },
+    {
+      "location": "html, פסקה 4, ההשוואה בין המילים",
+      "severity": "major",
+      "source_quote": "Disciple has almost the same spelling as discipline.",
+      "suggested_fix": "החליפו ב־״באנגלית, המילה disciple ('תלמיד') דומה מאוד באיותה למילה discipline ('משמעת').״ ההשוואה מתייחסת למילים באנגלית, לא למילים העבריות.",
+      "translation_quote": "המילה \"תלמיד\" כמעט זהה באיותה למילה \"משמעת\"."
+    },
+    {
+      "location": "html, פסקה 4, Great Commission",
+      "severity": "major",
+      "source_quote": "when He gave the “Great Commission”",
+      "suggested_fix": "החליפו את ״וכשהעניק את 'המשלוח הגדול'״ ב־״וכשנתן את 'הציווי הגדול'״.",
+      "translation_quote": "וכשהעניק את \"המשלוח הגדול\""
+    },
+    {
+      "location": "html, פסקה 5, שם המדור המתוכנן",
+      "severity": "major",
+      "source_quote": "a “Song of the Quarter”",
+      "suggested_fix": "החליפו את ״שיר הרבע״ ב־״שיר הרבעון״, כדי לשמר את משמעות תקופת שלושת החודשים.",
+      "translation_quote": "\"שיר הרבע\""
+    },
+    {
+      "location": "html, פסקה 12, ברכת הסיום",
+      "severity": "major",
+      "source_quote": "May God bless and keep each one.",
+      "suggested_fix": "החליפו ב־״שאלוהים יברך וישמור כל אחד ואחת מכם.״ המקור מבקש שאלוהים יברך את הקוראים, ולא שאלוהים יהיה מבורך.",
+      "translation_quote": "שיהיה ה' מבורך וישמור את כל אחד ואחת מכם."
+    },
+    {
+      "location": "html, פסקה 6, המשפט האחרון",
+      "severity": "minor",
+      "source_quote": "when choosing articles and when asking authors to write",
+      "suggested_fix": "החליפו את ״בבחירת מאמרים ובהזמת כותבים לבקשת כתיבה״ ב־״בבחירת מאמרים ובהזמנת כותבים לכתוב״.",
+      "translation_quote": "בבחירת מאמרים ובהזמת כותבים לבקשת כתיבה"
+    },
+    {
+      "location": "html, פסקה 11",
+      "severity": "minor",
+      "source_quote": "We will miss the stability of his quiet wisdom",
+      "suggested_fix": "החליפו את ״יחסר לנו היציבות״ ב־״תחסר לנו היציבות״, בהתאמה למין הדקדוקי של ״יציבות״.",
+      "translation_quote": "יחסר לנו היציבות של חוכמתו השקטה"
+    }
+  ],
   "id": "ab22611eb2cfa8cfb948e56adc6f4f41",
   "issue_id": "0fc3e612-5622-5b7c-987c-9dca3404fcb5",
   "language": "heb",
@@ -98,11 +169,13 @@
     }
   },
   "protected": false,
+  "quality_score": 84,
   "rejection_reason": "Audit the full candidate against the authoritative English and substantiate each finding",
   "review_attempts": 1,
   "review_model": "gpt-6.1-sol",
+  "review_model_actual": "gpt-6.1-sol",
   "source_snapshot": "state/sources/ab9577ad9f52483785d093ef6641080edc12c9501778b8546b9f11852b6617c7.json",
-  "stage": "review1",
+  "stage": "correct",
   "stage_budget": {
     "initial_stage": "review1",
     "max_candidate_bytes": 120000,
@@ -115,7 +188,7 @@
     "total_reserved_usd": 0.702068,
     "version": 1
   },
-  "status": "in_batch",
+  "status": "queued",
   "translation_attempts": 0,
   "translation_key": "5d9068ffbc6d70e08db0f9acd8f46773a5f961c4f3f8c083b9b2b023b22ece1f",
   "translation_model_actual": "gpt-5-mini-2025-08-07"

@@ -1,0 +1,32 @@
+{
+  "received_at": "2026-11-28T10:18:26+00:00",
+  "response": {
+    "content": "{\n  \"findings\": [\n    {\n      \"location\": \"html, פסקה 1, הציטוט מפיליפים 4:11\",\n      \"severity\": \"major\",\n      \"source_quote\": \"for I have learned, in whatsoever state I am, therewith to be content\",\n      \"suggested_fix\": \"החליפו את נוסח הציטוט בתוך תגית em ב־״אינני אומר זאת מתוך מחסור, שכן למדתי להסתפק במה שיש לי בכל מצב שבו אני נמצא. — איגרת אל הפיליפים 4:11.״\",\n      \"translation_quote\": \"כִּי לָמַדְתִּי, בְּכָל מַעֲמַד שֶׁאֲנִי בוֹ, לָשֵׂבַע\"\n    },\n    {\n      \"location\": \"html, פסקה 4, ההשוואה בין המילים\",\n      \"severity\": \"major\",\n      \"source_quote\": \"Disciple has almost the same spelling as discipline.\",\n      \"suggested_fix\": \"החליפו ב־״באנגלית, המילה disciple ('תלמיד') דומה מאוד באיותה למילה discipline ('משמעת').״ ההשוואה מתייחסת למילים באנגלית, לא למילים העבריות.\",\n      \"translation_quote\": \"המילה \\\"תלמיד\\\" כמעט זהה באיותה למילה \\\"משמעת\\\".\"\n    },\n    {\n      \"location\": \"html, פסקה 4, Great Commission\",\n      \"severity\": \"major\",\n      \"source_quote\": \"when He gave the “Great Commission”\",\n      \"suggested_fix\": \"החליפו את ״וכשהעניק את 'המשלוח הגדול'״ ב־״וכשנתן את 'הציווי הגדול'״.\",\n      \"translation_quote\": \"וכשהעניק את \\\"המשלוח הגדול\\\"\"\n    },\n    {\n      \"location\": \"html, פסקה 5, שם המדור המתוכנן\",\n      \"severity\": \"major\",\n      \"source_quote\": \"a “Song of the Quarter”\",\n      \"suggested_fix\": \"החליפו את ״שיר הרבע״ ב־״שיר הרבעון״, כדי לשמר את משמעות תקופת שלושת החודשים.\",\n      \"translation_quote\": \"\\\"שיר הרבע\\\"\"\n    },\n    {\n      \"location\": \"html, פסקה 12, ברכת הסיום\",\n      \"severity\": \"major\",\n      \"source_quote\": \"May God bless and keep each one.\",\n      \"suggested_fix\": \"החליפו ב־״שאלוהים יברך וישמור כל אחד ואחת מכם.״ המקור מבקש שאלוהים יברך את הקוראים, ולא שאלוהים יהיה מבורך.\",\n      \"translation_quote\": \"שיהיה ה' מבורך וישמור את כל אחד ואחת מכם.\"\n    },\n    {\n      \"location\": \"html, פסקה 6, המשפט האחרון\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"when choosing articles and when asking authors to write\",\n      \"suggested_fix\": \"החליפו את ״בבחירת מאמרים ובהזמת כותבים לבקשת כתיבה״ ב־״בבחירת מאמרים ובהזמנת כותבים לכתוב״.\",\n      \"translation_quote\": \"בבחירת מאמרים ובהזמת כותבים לבקשת כתיבה\"\n    },\n    {\n      \"location\": \"html, פסקה 11\",\n      \"severity\": \"minor\",\n      \"source_quote\": \"We will miss the stability of his quiet wisdom\",\n      \"suggested_fix\": \"החליפו את ״יחסר לנו היציבות״ ב־״תחסר לנו היציבות״, בהתאמה למין הדקדוקי של ״יציבות״.\",\n      \"translation_quote\": \"יחסר לנו היציבות של חוכמתו השקטה\"\n    }\n  ],\n  \"findings_complete\": true,\n  \"passed\": false,\n  \"score\": 84\n}",
+    "content_bytes": 3410,
+    "content_evidence_truncated": false,
+    "content_sha256": "bb0024a94268615d0d37935e630b744f017a3ed6d4e283ca6e89ea95b50ec3d0",
+    "finish_reason": "stop",
+    "model": "gpt-6.1-sol",
+    "outcome": "structured_response",
+    "provider_failure": null,
+    "usage": {
+      "completion_tokens": 1015,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 111,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 3762,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 3759,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4777
+    }
+  },
+  "review_attempts": 1,
+  "stage": "review1",
+  "translation_attempts": 0
+}
