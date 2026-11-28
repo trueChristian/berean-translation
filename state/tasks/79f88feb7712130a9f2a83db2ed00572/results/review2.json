@@ -1,0 +1,38 @@
+{
+  "provenance": {
+    "model": "gpt-6.1-sol",
+    "request_id": "644d4bca-4549-42de-a505-2744e9e3f029",
+    "response_id": "chatcmpl-Ep2rHHclHCStJJEmwAKuNX51gJSap",
+    "usage": {
+      "completion_tokens": 202,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 93,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens": 6995,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 6992,
+        "cached_tokens": 0
+      },
+      "total_tokens": 7197
+    }
+  },
+  "received_at": "2026-11-28T04:48:10+00:00",
+  "result": {
+    "findings": [
+      {
+        "location": "translation.html, הפסקה המתחילה „כשכל זאת לנגד עינינו”",
+        "severity": "minor",
+        "source_quote": "the message contained within those book covers",
+        "suggested_fix": "להחליף את „בין כריכי הספר” ב„בין כריכות הספר”.",
+        "translation_quote": "המסר הכלול בין כריכי הספר"
+      }
+    ],
+    "findings_complete": true,
+    "passed": true,
+    "score": 99
+  }
+}

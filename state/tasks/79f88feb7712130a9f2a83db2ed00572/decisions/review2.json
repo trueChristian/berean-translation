@@ -1,0 +1,14 @@
+{
+  "findings": [
+    {
+      "location": "translation.html, הפסקה המתחילה „כשכל זאת לנגד עינינו”",
+      "severity": "minor",
+      "source_quote": "the message contained within those book covers",
+      "suggested_fix": "להחליף את „בין כריכי הספר” ב„בין כריכות הספר”.",
+      "translation_quote": "המסר הכלול בין כריכי הספר"
+    }
+  ],
+  "outcome": "quality_pass",
+  "reason": null,
+  "stage": "review2"
+}
